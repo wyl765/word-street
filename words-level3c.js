@@ -1,6 +1,6 @@
 const LEVEL3C_BANK=[{"word":"advance","level":3,"definition":"to move forward or make progress","example":"The chess piece can only advance one square at a time.","imageKeyword":"chess forward"},
 {"word":"affordable","level":3,"definition":"not too expensive, something you can pay for","example":"The lemonade stand had affordable prices, so every kid could buy a cup.","imageKeyword":"cheap lemonade"},
-{"word":"analyze","level":3,"definition":"to look at something with care to understand it","example":"The AI can analyze thousands of chess positions in less than one second.","imageKeyword":"magnifying insect"},
+{"word":"analyze","level":3,"definition":"to look at something with care to understand it","example":"The scientist had to analyze the data from the experiment to see what happened.","imageKeyword":"magnifying insect"},
 {"word":"apply","level":3,"definition":"to use something or put it into action","example":"She learned to apply sunscreen before going to the beach, so she wouldn't burn.","imageKeyword":"applying sunscreen"},
 {"word":"burden","level":3,"definition":"something heavy or hard to carry or deal with","example":"Carrying all six library books at once was a burden, so she made two trips.","imageKeyword":"heavy books"},
 {"word":"cancel","level":3,"definition":"to decide that something planned will not happen","example":"The coach had to cancel practice because lightning flashed across the sky.","imageKeyword":"canceled game"},

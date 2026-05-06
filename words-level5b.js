@@ -77,7 +77,7 @@ const LEVEL5B_BANK=[{"word":"strategic","level":5,"definition":"carefully planne
 {"word":"decree","level":5,"definition":"an official order issued by someone in power","example":"The king issued a decree that all children must attend school.","imageKeyword":"royal order"},
 {"word":"deduce","level":5,"definition":"to figure something out using logic and proof","example":"From the wet footprints, he could deduce that someone had just entered.","imageKeyword":"logical thinking"},
 {"word":"default","level":5,"definition":"what happens on its own if you don't make a change","example":"The phone's default ringtone plays unless you choose a different one.","imageKeyword":"automatic setting"},
-{"word":"defer","level":5,"definition":"to postpone or yield to someone else's judgment","example":"The students chose to defer the vote until all was present.","imageKeyword":"postponing later"},
+{"word":"defer","level":5,"definition":"to postpone or yield to someone else's judgment","example":"The students chose to defer the vote until everyone was present.","imageKeyword":"postponing later"},
 {"word":"degradation","level":5,"definition":"the process of something getting worse or being damaged","example":"Soil degradation from overfarming makes it harder to grow healthy crops.","imageKeyword":"wearing down"},
 {"word":"deliberation","level":5,"definition":"long and careful consideration before deciding","example":"After hours of deliberation the jury at last reached their verdict.","imageKeyword":"careful thinking"},
 {"word":"delinquent","level":5,"definition":"a young person who regularly breaks rules or laws","example":"The program helps delinquent teens get back on track through mentoring.","imageKeyword":"troubled youth"},

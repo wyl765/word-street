@@ -12,7 +12,7 @@ const LEVEL2D_BANK=[{"word":"pace","level":2,"definition":"the speed at which so
 {"word":"permit","level":2,"definition":"to allow someone to do something","example":"The teacher permitted the class to work outside today.","imageKeyword":"allowed pass"},
 {"word":"persist","level":2,"definition":"to keep going even when it is hard","example":"She persisted in practicing until she could do a cartwheel.","imageKeyword":"keep trying"},
 {"word":"perspective","level":2,"definition":"the way you see and think about something","example":"From the bird's perspective, the people below look tiny.","imageKeyword":"bird view"},
-{"word":"phenomenon","level":2,"definition":"something odd or cool that happens","example":"ChatGPT became a worldwide phenomenon, with millions of people using it every day.","imageKeyword":"rainbow sky"},
+{"word":"phenomenon","level":2,"definition":"something odd or cool that happens","example":"A rainbow after a storm is a beautiful natural phenomenon.","imageKeyword":"rainbow sky"},
 {"word":"philosophy","level":2,"definition":"a way of thinking about life and big questions","example":"Her philosophy is to be kind to everyone she meets.","imageKeyword":"thinking deeply"},
 {"word":"physical","level":2,"definition":"about the body, or something you can see and touch","example":"Physical activity like running and jumping keeps your body strong and healthy.","imageKeyword":"child doing jumping jacks"},
 {"word":"plea","level":2,"definition":"a serious and full of feeling request","example":"The lost kitten made a plea for help with its loud meowing.","imageKeyword":"begging kitten"},

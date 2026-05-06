@@ -62,7 +62,7 @@ const LEVEL2A_BANK=[{"word":"avoid","level":2,"definition":"to stay away from so
 {"word":"faint","level":2,"definition":"very weak and hard to notice","example":"There was a faint smell of cookies coming from the kitchen far away.","imageKeyword":"faint fading"},
 {"word":"familiar","level":2,"definition":"something you have seen or heard before","example":"The song sounded familiar because he had heard it many times.","imageKeyword":"recognize familiar"},
 {"word":"flat","level":2,"definition":"smooth and level with no bumps","example":"The pancake was thin and flat like a plate.","imageKeyword":"flat pancake"},
-{"word":"flexible","level":2,"definition":"able to bend with ease without breaking","example":"A flexible player can switch between guard and forward depending on the game plan.","imageKeyword":"bending flexible"},
+{"word":"flexible","level":2,"definition":"able to bend with ease without breaking","example":"The flexible rubber band stretched without snapping.","imageKeyword":"bending flexible"},
 {"word":"foggy","level":2,"definition":"filled with thick mist so you cannot see well","example":"The morning was so foggy that we couldn't see across the playground.","imageKeyword":"foggy morning"},
 {"word":"glossy","level":2,"definition":"smooth and shiny like glass","example":"The glossy paper from the store showed all the new toys.","imageKeyword":"glossy shiny"},
 {"word":"grim","level":2,"definition":"sad and stern looking","example":"The teacher had a grim face when she saw the mess in the classroom.","imageKeyword":"serious face"},

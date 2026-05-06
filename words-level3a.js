@@ -63,7 +63,7 @@ const LEVEL3A_BANK=[{"word":"calculate","level":3,"definition":"to use math to f
 {"word":"legal","level":3,"definition":"allowed by the law","example":"It is legal to ride your bike on the street, but you must follow traffic rules.","imageKeyword":"legal allowed"},
 {"word":"legitimate","level":3,"definition":"real and allowed, following the rules","example":"He had a legitimate reason for being late—his bus broke down on the highway.","imageKeyword":"valid reason"},
 {"word":"literary","level":3,"definition":"about books, authors, and writing","example":"The literary award goes to the student who writes the best short story each year.","imageKeyword":"book award"},
-{"word":"logical","level":3,"definition":"making sense, following clear thinking","example":"The logical next step was to check if the variable had the right value.","imageKeyword":"logical thinking"},
+{"word":"logical","level":3,"definition":"making sense, following clear thinking","example":"The logical next step after getting dressed is to eat breakfast.","imageKeyword":"logical thinking"},
 {"word":"mechanical","level":3,"definition":"made with moving parts like a machine","example":"The mechanical clock on the wall has tiny gears inside that make the hands turn.","imageKeyword":"mechanical gears"},
 {"word":"microscopic","level":3,"definition":"so tiny you need a special tool to see it","example":"The microscopic creatures in pond water are too small to see without a small lens.","imageKeyword":"microscope view"},
 {"word":"mobile","level":3,"definition":"able to move around with ease","example":"A phone is called mobile because you can carry it anywhere unlike an old desk phone.","imageKeyword":"mobile phone"},
