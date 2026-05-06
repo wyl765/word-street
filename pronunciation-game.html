@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Word Street - Pronunciation Blaster 🎯</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Courier New', monospace;
+  background: #0a0a0a;
+  color: #00ff88;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  touch-action: manipulation;
+}
+
+/* HUD */
+#hud {
+  position: fixed; top: 0; left: 0; right: 0;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.8);
+  border-bottom: 2px solid #00ff88;
+  z-index: 100;
+  font-size: 16px;
+}
+#hud .score { color: #00ff88; }
+#hud .lives { color: #ff4444; }
+#hud .streak { color: #ffaa00; }
+#pause-btn {
+  background: none; border: 1px solid #00ff88; color: #00ff88;
+  padding: 5px 12px; cursor: pointer; font-family: inherit; font-size: 14px;
+}
+
+/* Game area */
+#game-area {
+  position: relative;
+  width: 100%; height: 100vh;
+  overflow: hidden;
+}
+
+/* Floating words */
+.word-bubble {
+  position: absolute;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s;
+  border: 2px solid #00ff88;
+  background: rgba(0, 255, 136, 0.1);
+  color: #00ff88;
+  white-space: nowrap;
+}
+.word-bubble.target {
+  border-color: #ff4444;
+  background: rgba(255, 68, 68, 0.2);
+  color: #ff4444;
+  box-shadow: 0 0 20px rgba(255, 68, 68, 0.5);
+  font-size: 26px;
+}
+.word-bubble.hit {
+  animation: explode 0.4s forwards;
+}
+@keyframes explode {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.8); opacity: 0.7; }
+  100% { transform: scale(0); opacity: 0; }
+}
+
+/* Mic indicator */
+#mic-status {
+  position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.9);
+  border: 2px solid #333;
+  border-radius: 30px;
+  z-index: 100;
+  font-size: 14px;
+}
+#mic-status.listening { border-color: #00ff88; }
+#mic-status.listening .mic-dot { background: #00ff88; animation: pulse 1s infinite; }
+.mic-dot {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: #666;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+}
+#heard-text { color: #888; font-style: italic; max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Particles */
+.particle {
+  position: absolute; width: 6px; height: 6px;
+  border-radius: 50%; pointer-events: none;
+}
+
+/* Screens */
+.screen {
+  position: fixed; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  background: rgba(0,0,0,0.95);
+  z-index: 200;
+  padding: 20px;
+}
+.screen.hidden { display: none; }
+.screen h1 { font-size: 36px; color: #00ff88; margin-bottom: 10px; }
+.screen h2 { font-size: 24px; color: #ffaa00; margin-bottom: 20px; }
+.screen p { color: #aaa; margin-bottom: 10px; text-align: center; max-width: 400px; }
+
+.btn {
+  background: none; border: 2px solid #00ff88; color: #00ff88;
+  padding: 12px 30px; font-size: 18px; font-family: inherit;
+  cursor: pointer; margin: 8px; border-radius: 8px;
+  transition: all 0.2s;
+}
+.btn:hover, .btn:active { background: #00ff88; color: #000; }
+.btn.danger { border-color: #ff4444; color: #ff4444; }
+.btn.danger:hover { background: #ff4444; color: #000; }
+
+/* Level selector */
+#level-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px; max-width: 500px; width: 100%; margin: 15px 0;
+}
+.level-btn {
+  background: rgba(0,255,136,0.1); border: 1px solid #00ff88;
+  color: #00ff88; padding: 10px; text-align: center; cursor: pointer;
+  border-radius: 6px; font-family: inherit; font-size: 14px;
+}
+.level-btn:hover, .level-btn.selected { background: #00ff88; color: #000; }
+
+/* End screen */
+#missed-words { color: #ff4444; margin: 10px 0; max-height: 150px; overflow-y: auto; text-align: center; }
+
+/* Typed fallback */
+#type-input {
+  position: fixed; bottom: 70px; left: 50%; transform: translateX(-50%);
+  background: #111; border: 2px solid #00ff88; color: #00ff88;
+  padding: 10px 20px; font-size: 18px; font-family: inherit;
+  border-radius: 8px; width: 80%; max-width: 300px; text-align: center;
+  z-index: 100; display: none;
+}
+
+/* Screen shake */
+.shake { animation: shake 0.3s; }
+@keyframes shake {
+  0%, 100% { transform: translate(0); }
+  25% { transform: translate(-5px, 3px); }
+  50% { transform: translate(5px, -3px); }
+  75% { transform: translate(-3px, 5px); }
+}
+
+/* Combo popup */
+.combo-popup {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-size: 48px; font-weight: bold; color: #ffaa00;
+  pointer-events: none; animation: comboFade 1s forwards;
+  z-index: 150; text-shadow: 0 0 20px #ffaa00;
+}
+@keyframes comboFade {
+  0% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -80%) scale(1.5); }
+}
+
+@media (max-width: 600px) {
+  #hud { font-size: 13px; padding: 8px 12px; }
+  .word-bubble { font-size: 18px; padding: 6px 12px; }
+  .word-bubble.target { font-size: 22px; }
+  .screen h1 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Start Screen -->
+<div class="screen" id="start-screen">
+  <h1>🎯 Pronunciation Blaster</h1>
+  <p>Words fall from the sky! Say them out loud to blast them before they reach the bottom!</p>
+  <p style="color:#ffaa00">🎤 You'll need a microphone</p>
+  <h2>Select Level</h2>
+  <div id="level-grid"></div>
+  <button class="btn" id="start-btn" onclick="startGame()">🚀 START GAME</button>
+  <p style="font-size:12px; color:#666; margin-top:15px">Tap any word to hear it again</p>
+</div>
+
+<!-- Game HUD -->
+<div id="hud" style="display:none">
+  <span class="score">⚡ <span id="score-val">0</span></span>
+  <span class="streak">🔥 <span id="streak-val">0</span></span>
+  <span class="lives">❤️ <span id="lives-val">♥♥♥</span></span>
+  <button id="pause-btn" onclick="togglePause()">⏸</button>
+</div>
+
+<!-- Game Area -->
+<div id="game-area"></div>
+
+<!-- Mic Status -->
+<div id="mic-status" style="display:none">
+  <div class="mic-dot"></div>
+  <span id="mic-label">Listening...</span>
+  <span id="heard-text"></span>
+</div>
+
+<!-- Type fallback -->
+<input type="text" id="type-input" placeholder="Type the red word..." autocomplete="off" autocapitalize="off">
+
+<!-- End Screen -->
+<div class="screen hidden" id="end-screen">
+  <h1 id="end-title">Game Over!</h1>
+  <h2>Score: <span id="final-score">0</span></h2>
+  <div id="missed-words"></div>
+  <button class="btn" onclick="startGame()">🔄 Play Again</button>
+  <button class="btn danger" onclick="showStart()">← Back</button>
+</div>
+
+<!-- Pause Screen -->
+<div class="screen hidden" id="pause-screen">
+  <h1>⏸ Paused</h1>
+  <button class="btn" onclick="togglePause()">▶️ Resume</button>
+  <button class="btn danger" onclick="showStart()">🏠 Quit</button>
+</div>
+
+<script>
+// ===== GAME STATE =====
+let state = {
+  running: false, paused: false,
+  score: 0, lives: 3, streak: 0, bestStreak: 0,
+  words: [], // active word objects on screen
+  wordQueue: [], // words to spawn
+  missedWords: [],
+  speed: 1, wordsCleared: 0,
+  selectedLevel: null,
+  useSpeech: true,
+};
+
+// ===== AUDIO (Web Audio API) =====
+let audioCtx;
+function initAudio() {
+  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+}
+function playSound(freq, dur, type='square') {
+  if (!audioCtx) return;
+  const osc = audioCtx.createOscillator();
+  const gain = audioCtx.createGain();
+  osc.type = type;
+  osc.frequency.value = freq;
+  gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
+  gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + dur);
+  osc.connect(gain); gain.connect(audioCtx.destination);
+  osc.start(); osc.stop(audioCtx.currentTime + dur);
+}
+function hitSound() { playSound(880, 0.1); setTimeout(() => playSound(1200, 0.15), 50); }
+function missSound() { playSound(200, 0.3, 'sawtooth'); }
+function comboSound() { playSound(660, 0.1); setTimeout(() => playSound(880, 0.1), 80); setTimeout(() => playSound(1100, 0.15), 160); }
+
+// ===== SPEECH RECOGNITION =====
+let recognition;
+let speechAvailable = false;
+
+function initSpeechRecognition() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) { state.useSpeech = false; return; }
+  recognition = new SR();
+  recognition.continuous = true;
+  recognition.interimResults = true;
+  recognition.lang = 'en-US';
+  recognition.onresult = (e) => {
+    let transcript = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      transcript = e.results[i][0].transcript.trim().toLowerCase();
+    }
+    document.getElementById('heard-text').textContent = transcript;
+    checkMatch(transcript);
+  };
+  recognition.onerror = (e) => {
+    if (e.error === 'not-allowed') {
+      state.useSpeech = false;
+      showTypeFallback();
+    }
+    // auto-restart on other errors
+    if (state.running && !state.paused && e.error !== 'not-allowed') {
+      setTimeout(startListening, 300);
+    }
+  };
+  recognition.onend = () => {
+    if (state.running && !state.paused && state.useSpeech) {
+      setTimeout(startListening, 100);
+    }
+    updateMicStatus(false);
+  };
+  speechAvailable = true;
+}
+
+function startListening() {
+  if (!recognition || !state.useSpeech) return;
+  try { recognition.start(); updateMicStatus(true); }
+  catch(e) {} // already started
+}
+function stopListening() {
+  if (!recognition) return;
+  try { recognition.stop(); } catch(e) {}
+  updateMicStatus(false);
+}
+function updateMicStatus(listening) {
+  const el = document.getElementById('mic-status');
+  el.classList.toggle('listening', listening);
+  document.getElementById('mic-label').textContent = listening ? 'Listening...' : 'Mic off';
+}
+
+// ===== TTS =====
+function speak(word) {
+  if (!window.speechSynthesis) return;
+  const u = new SpeechSynthesisUtterance(word);
+  u.lang = 'en-US'; u.rate = 0.85;
+  window.speechSynthesis.speak(u);
+}
+
+// ===== WORD MATCHING =====
+function similarity(a, b) {
+  a = a.toLowerCase().trim(); b = b.toLowerCase().trim();
+  if (a === b) return 1;
+  // Also check if spoken phrase contains the word
+  if (a.includes(b) || b.includes(a)) return 0.9;
+  // Levenshtein
+  const m = a.length, n = b.length;
+  const dp = Array.from({length: m+1}, (_, i) => Array(n+1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++)
+    for (let j = 1; j <= n; j++)
+      dp[i][j] = a[i-1] === b[j-1] ? dp[i-1][j-1] : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+  return 1 - dp[m][n] / Math.max(m, n);
+}
+
+function checkMatch(transcript) {
+  // Find the target word (topmost / first)
+  const target = state.words.find(w => w.isTarget);
+  if (!target) return;
+  const words = transcript.split(/\s+/);
+  for (const w of words) {
+    if (similarity(w, target.word) >= 0.7) {
+      destroyWord(target);
+      return;
+    }
+  }
+  // Check full transcript too
+  if (similarity(transcript, target.word) >= 0.7) {
+    destroyWord(target);
+  }
+}
+
+// ===== PARTICLES =====
+function spawnParticles(x, y, color) {
+  const area = document.getElementById('game-area');
+  for (let i = 0; i < 12; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    p.style.left = x + 'px'; p.style.top = y + 'px';
+    p.style.background = color;
+    const angle = (Math.PI * 2 * i) / 12;
+    const speed = 3 + Math.random() * 5;
+    const vx = Math.cos(angle) * speed;
+    const vy = Math.sin(angle) * speed;
+    area.appendChild(p);
+    let frame = 0;
+    const anim = () => {
+      frame++;
+      p.style.left = (parseFloat(p.style.left) + vx) + 'px';
+      p.style.top = (parseFloat(p.style.top) + vy + frame * 0.3) + 'px';
+      p.style.opacity = 1 - frame / 20;
+      if (frame < 20) requestAnimationFrame(anim);
+      else p.remove();
+    };
+    requestAnimationFrame(anim);
+  }
+}
+
+// ===== GAME LOGIC =====
+function destroyWord(wordObj) {
+  initAudio();
+  hitSound();
+  state.score += 10 * getMultiplier();
+  state.streak++;
+  if (state.streak > state.bestStreak) state.bestStreak = state.streak;
+  state.wordsCleared++;
+
+  // Speed up every 5 words
+  if (state.wordsCleared % 5 === 0) state.speed += 0.15;
+
+  // Combo effects
+  if (state.streak === 3) { comboSound(); showCombo('x2 🔥'); }
+  if (state.streak === 5) { comboSound(); showCombo('x3 💥'); }
+  if (state.streak === 10) { comboSound(); showCombo('x5 🌟'); }
+
+  // Explode
+  const el = wordObj.el;
+  const rect = el.getBoundingClientRect();
+  spawnParticles(rect.left + rect.width/2, rect.top + rect.height/2, '#00ff88');
+  el.classList.add('hit');
+  setTimeout(() => el.remove(), 400);
+
+  // Screen shake
+  document.getElementById('game-area').classList.add('shake');
+  setTimeout(() => document.getElementById('game-area').classList.remove('shake'), 300);
+
+  // Remove from state
+  state.words = state.words.filter(w => w !== wordObj);
+  updateHUD();
+  assignTarget();
+  spawnNext();
+}
+
+function getMultiplier() {
+  if (state.streak >= 10) return 5;
+  if (state.streak >= 5) return 3;
+  if (state.streak >= 3) return 2;
+  return 1;
+}
+
+function showCombo(text) {
+  const el = document.createElement('div');
+  el.className = 'combo-popup';
+  el.textContent = text;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 1000);
+}
+
+function wordMissed(wordObj) {
+  initAudio();
+  missSound();
+  state.lives--;
+  state.streak = 0;
+  state.missedWords.push(wordObj.word);
+  wordObj.el.remove();
+  state.words = state.words.filter(w => w !== wordObj);
+
+  // Flash red
+  document.body.style.background = '#200';
+  setTimeout(() => document.body.style.background = '#0a0a0a', 200);
+
+  updateHUD();
+  if (state.lives <= 0) endGame();
+  else { assignTarget(); spawnNext(); }
+}
+
+function assignTarget() {
+  state.words.forEach(w => { w.isTarget = false; w.el.classList.remove('target'); });
+  if (state.words.length > 0) {
+    // Target the lowest word (closest to bottom)
+    const lowest = state.words.reduce((a, b) => a.y > b.y ? a : b);
+    lowest.isTarget = true;
+    lowest.el.classList.add('target');
+  }
+}
+
+function spawnWord() {
+  if (state.wordQueue.length === 0) {
+    if (state.words.length === 0) endGame(); // all done!
+    return;
+  }
+  const wordData = state.wordQueue.shift();
+  const word = wordData.word;
+  const area = document.getElementById('game-area');
+  const el = document.createElement('div');
+  el.className = 'word-bubble';
+  el.textContent = word;
+  const x = 30 + Math.random() * (area.clientWidth - 150);
+  el.style.left = x + 'px';
+  el.style.top = '-50px';
+  area.appendChild(el);
+
+  // Tap to hear again
+  el.addEventListener('click', () => speak(word));
+  el.addEventListener('touchstart', (e) => { e.preventDefault(); speak(word); });
+
+  const obj = { word, el, x, y: -50, speed: 0.5 + Math.random() * 0.5, isTarget: false };
+  state.words.push(obj);
+
+  // TTS
+  speak(word);
+
+  assignTarget();
+}
+
+function spawnNext() {
+  // Keep 3-5 words on screen
+  const maxOnScreen = Math.min(5, 3 + Math.floor(state.wordsCleared / 10));
+  while (state.words.length < maxOnScreen && state.wordQueue.length > 0) {
+    spawnWord();
+  }
+}
+
+// ===== GAME LOOP =====
+let lastFrame = 0;
+function gameLoop(ts) {
+  if (!state.running) return;
+  if (state.paused) { requestAnimationFrame(gameLoop); return; }
+
+  const dt = Math.min((ts - lastFrame) / 16, 3); // normalize to ~60fps
+  lastFrame = ts;
+
+  const areaHeight = document.getElementById('game-area').clientHeight;
+
+  for (const w of [...state.words]) {
+    if (w.el.classList.contains('hit')) continue;
+    w.y += w.speed * state.speed * dt;
+    w.el.style.top = w.y + 'px';
+
+    if (w.y > areaHeight - 60) {
+      wordMissed(w);
+      if (!state.running) return;
+    }
+  }
+
+  requestAnimationFrame(gameLoop);
+}
+
+// ===== UI =====
+function updateHUD() {
+  document.getElementById('score-val').textContent = state.score;
+  document.getElementById('streak-val').textContent = state.streak > 0 ? state.streak + (getMultiplier() > 1 ? ' (x' + getMultiplier() + ')' : '') : '0';
+  document.getElementById('lives-val').textContent = '♥'.repeat(state.lives) + '♡'.repeat(Math.max(0, 3 - state.lives));
+}
+
+function togglePause() {
+  state.paused = !state.paused;
+  document.getElementById('pause-screen').classList.toggle('hidden', !state.paused);
+  if (state.paused) stopListening();
+  else startListening();
+}
+
+// ===== LEVEL LOADING =====
+function getLevels() {
+  const levels = [];
+  const banks = [
+    { name: 'Level 1', var: 'LEVEL1_BANK' },
+    { name: 'Level 2', var: 'LEVEL2_BANK' },
+    { name: 'Level 2A', var: 'LEVEL2A_BANK' },
+    { name: 'Level 2B', var: 'LEVEL2B_BANK' },
+    { name: 'Level 2C', var: 'LEVEL2C_BANK' },
+    { name: 'Level 2D', var: 'LEVEL2D_BANK' },
+    { name: 'Level 3', var: 'LEVEL3_BANK' },
+    { name: 'Level 3A', var: 'LEVEL3A_BANK' },
+    { name: 'Level 3B', var: 'LEVEL3B_BANK' },
+    { name: 'Level 3C', var: 'LEVEL3C_BANK' },
+    { name: 'Level 4', var: 'LEVEL4_BANK' },
+    { name: 'Level 4A', var: 'LEVEL4A_BANK' },
+    { name: 'Level 4B', var: 'LEVEL4B_BANK' },
+    { name: 'Level 4C', var: 'LEVEL4C_BANK' },
+    { name: 'Level 5A', var: 'LEVEL5A_BANK' },
+    { name: 'Level 5B', var: 'LEVEL5B_BANK' },
+    { name: 'Level 5C', var: 'LEVEL5C_BANK' },
+    { name: 'Level 5D', var: 'LEVEL5D_BANK' },
+  ];
+  for (const b of banks) {
+    if (window[b.var] && window[b.var].length > 0) {
+      levels.push({ name: b.name, words: window[b.var] });
+    }
+  }
+  return levels;
+}
+
+function buildLevelGrid() {
+  const grid = document.getElementById('level-grid');
+  grid.innerHTML = '';
+  const levels = getLevels();
+  if (levels.length === 0) {
+    grid.innerHTML = '<p style="color:#ff4444">No word banks found! Make sure words-level*.js files are loaded.</p>';
+    return;
+  }
+  levels.forEach((lv, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'level-btn' + (i === 0 ? ' selected' : '');
+    btn.textContent = lv.name + ' (' + lv.words.length + ')';
+    btn.onclick = () => {
+      document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      state.selectedLevel = i;
+    };
+    grid.appendChild(btn);
+  });
+  state.selectedLevel = 0;
+}
+
+// ===== GAME START/END =====
+function startGame() {
+  initAudio();
+  const levels = getLevels();
+  if (levels.length === 0) return;
+  const level = levels[state.selectedLevel || 0];
+
+  // Shuffle words
+  const shuffled = [...level.words].sort(() => Math.random() - 0.5);
+  state.wordQueue = shuffled.slice(0, 30); // 30 words per round
+  state.words = [];
+  state.score = 0; state.lives = 3; state.streak = 0;
+  state.speed = 1; state.wordsCleared = 0;
+  state.missedWords = []; state.running = true; state.paused = false;
+
+  // Clear game area
+  document.getElementById('game-area').innerHTML = '';
+
+  // UI
+  document.getElementById('start-screen').classList.add('hidden');
+  document.getElementById('end-screen').classList.add('hidden');
+  document.getElementById('pause-screen').classList.add('hidden');
+  document.getElementById('hud').style.display = 'flex';
+  document.getElementById('mic-status').style.display = 'flex';
+  updateHUD();
+
+  // Start speech
+  if (state.useSpeech) startListening();
+  else showTypeFallback();
+
+  // Spawn initial words
+  setTimeout(() => { spawnNext(); }, 500);
+
+  // Start loop
+  lastFrame = performance.now();
+  requestAnimationFrame(gameLoop);
+}
+
+function endGame() {
+  state.running = false;
+  stopListening();
+  document.getElementById('hud').style.display = 'none';
+  document.getElementById('mic-status').style.display = 'none';
+  document.getElementById('type-input').style.display = 'none';
+
+  document.getElementById('end-title').textContent = state.lives > 0 ? '🎉 Level Complete!' : '💀 Game Over!';
+  document.getElementById('final-score').textContent = state.score;
+
+  const missed = document.getElementById('missed-words');
+  if (state.missedWords.length > 0) {
+    missed.innerHTML = '<p>Words to practice:</p>' + state.missedWords.map(w => `<span style="margin:5px;display:inline-block;padding:4px 8px;border:1px solid #ff4444;border-radius:4px">${w}</span>`).join('');
+  } else {
+    missed.innerHTML = '<p style="color:#00ff88">Perfect! No words missed! 🌟</p>';
+  }
+
+  document.getElementById('end-screen').classList.remove('hidden');
+}
+
+function showStart() {
+  state.running = false; state.paused = false;
+  stopListening();
+  document.getElementById('game-area').innerHTML = '';
+  document.getElementById('hud').style.display = 'none';
+  document.getElementById('mic-status').style.display = 'none';
+  document.getElementById('type-input').style.display = 'none';
+  document.getElementById('end-screen').classList.add('hidden');
+  document.getElementById('pause-screen').classList.add('hidden');
+  document.getElementById('start-screen').classList.remove('hidden');
+}
+
+// ===== TYPE FALLBACK =====
+function showTypeFallback() {
+  const input = document.getElementById('type-input');
+  input.style.display = 'block';
+  document.getElementById('mic-status').style.display = 'none';
+  input.addEventListener('input', (e) => {
+    const val = e.target.value.trim().toLowerCase();
+    const target = state.words.find(w => w.isTarget);
+    if (target && similarity(val, target.word) >= 0.7) {
+      destroyWord(target);
+      input.value = '';
+    }
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const val = input.value.trim().toLowerCase();
+      const target = state.words.find(w => w.isTarget);
+      if (target && similarity(val, target.word) >= 0.7) {
+        destroyWord(target);
+      }
+      input.value = '';
+    }
+  });
+}
+
+// ===== INIT =====
+window.addEventListener('load', () => {
+  initSpeechRecognition();
+  buildLevelGrid();
+});
+</script>
+
+<!-- Load word banks -->
+<script src="words-level1.js"></script>
+<script src="words-level2.js"></script>
+<script src="words-level2a.js"></script>
+<script src="words-level2b.js"></script>
+<script src="words-level2c.js"></script>
+<script src="words-level2d.js"></script>
+<script src="words-level3.js"></script>
+<script src="words-level3a.js"></script>
+<script src="words-level3b.js"></script>
+<script src="words-level3c.js"></script>
+<script src="words-level4.js"></script>
+<script src="words-level4a.js"></script>
+<script src="words-level4b.js"></script>
+<script src="words-level4c.js"></script>
+<script src="words-level5a.js"></script>
+<script src="words-level5b.js"></script>
+<script src="words-level5c.js"></script>
+<script src="words-level5d.js"></script>
+</body>
+</html>

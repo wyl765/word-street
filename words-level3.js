@@ -1,0 +1,3 @@
+const LEVEL3_BANK=[{"word":"constitution","level":3,"definition":"the written rules for how a country works","example":"The Constitution says what the government can and cannot do.","imageKeyword":"old document"},{"word":"beckon","level":3,"definition":"to signal someone to come closer","example":"She beckoned her friend to join the game.","imageKeyword":"beckon wave"},
+{"word":"rivulet","level":3,"definition":"a very small stream of water","example":"A tiny rivulet of rain ran down the window.","imageKeyword":"rivulet stream"},
+{"word":"incubate","level":3,"definition":"to keep eggs warm so they can hatch","example":"The hen sat on her eggs to incubate them for weeks.","imageKeyword":"incubate eggs"}];
