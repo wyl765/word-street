@@ -183,7 +183,7 @@ const LEVEL1_BANK=[{"word":"puppy","level":1,"definition":"a baby dog","example"
 {"word":"hail","level":1,"definition":"balls of ice that fall from the sky","example":"The hail bounced off the car like little white stones.","imageKeyword":"hail"},
 {"word":"blizzard","level":1,"definition":"a big snow storm with strong wind","example":"The blizzard dropped so much snow we could not open the door.","imageKeyword":"blizzard"},
 {"word":"drought","level":1,"definition":"a long time with no rain","example":"The flowers died because of the long drought.","imageKeyword":"dry land"},
-{"word":"flood","level":1,"definition":"when water covers land that is most times dry","example":"The river rose so high it caused a flood.","imageKeyword":"flood"},
+{"word":"flood","level":1,"definition":"when water covers land that is usually dry","example":"The river rose so high it caused a flood.","imageKeyword":"flood"},
 {"word":"petal","level":1,"definition":"one soft piece of a flower","example":"A pink petal fell from the rose.","imageKeyword":"flower petal"},
 {"word":"stem","level":1,"definition":"the long green part of a plant","example":"He held the flower by its long green stem.","imageKeyword":"plant stem"},
 {"word":"root","level":1,"definition":"the part of a plant under the ground","example":"The tree's root went deep into the dirt.","imageKeyword":"tree root"},
