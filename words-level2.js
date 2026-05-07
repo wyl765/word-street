@@ -4,7 +4,7 @@ const LEVEL2_BANK=[{"word":"describe","level":2,"definition":"to tell what somet
 {"word":"complete","level":2,"definition":"to finish all the parts","example":"I will complete my worksheet before lunch.","imageKeyword":"finished work"},
 {"word":"arrange","level":2,"definition":"to put things in order","example":"We arrange the books by size on the shelf.","imageKeyword":"arrange books"},
 {"word":"decide","level":2,"definition":"to choose after thinking","example":"I decided to bring an apple instead of chips.","imageKeyword":"choice"},
-{"word":"suppose","level":2,"definition":"to think something might be true","example":"I suppose the bus is late because of rain.","imageKeyword":"bus rain"},
+{"word":"suppose","level":2,"definition":"to guess that something might be true","example":"I suppose the bus is late because of rain.","imageKeyword":"bus rain"},
 {"word":"mention","level":2,"definition":"to talk about something quickly","example":"Please mention your question before we line up.","imageKeyword":"person speaking briefly"},
 {"word":"realize","level":2,"definition":"to understand suddenly","example":"I realized my mittens were still on the chair.","imageKeyword":"mittens"},
 {"word":"repeat","level":2,"definition":"to say or do again","example":"Can you repeat the directions one more time?","imageKeyword":"loop arrows"},

@@ -143,7 +143,7 @@ const LEVEL2D_BANK=[{"word":"pace","level":2,"definition":"the speed at which so
 {"word":"summit","level":2,"definition":"the very top of a mountain","example":"After hours of hiking, they reached the summit and saw the view.","imageKeyword":"mountain top"},
 {"word":"superior","level":2,"definition":"better than others in quality or rank","example":"This paint is superior because it lasts longer in the rain.","imageKeyword":"best quality"},
 {"word":"supplement","level":2,"definition":"something extra added to make something better","example":"She takes a vitamin supplement to stay healthy in winter.","imageKeyword":"vitamin extra"},
-{"word":"suspect","level":2,"definition":"to think something might be true but not be sure","example":"I suspect the cat knocked the cup off the table.","imageKeyword":"suspicious looking"},
+{"word":"suspect","level":2,"definition":"to believe someone might have done something wrong","example":"I suspect the cat knocked the cup off the table.","imageKeyword":"suspicious looking"},
 {"word":"suspend","level":2,"definition":"to hang something from above or stop for now","example":"The spider suspended its web between two branches.","imageKeyword":"hanging web"},
 {"word":"sustain","level":2,"definition":"to keep going or support for a long time","example":"Plants need water and sun to sustain their growth.","imageKeyword":"sustained growth"},
 {"word":"sympathy","level":2,"definition":"feeling sorry for someone who is sad or hurt","example":"She showed sympathy by writing a kind note to her sick friend.","imageKeyword":"caring note"},
