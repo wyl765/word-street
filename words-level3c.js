@@ -187,7 +187,7 @@ const LEVEL3C_BANK=[{"word":"advance","level":3,"definition":"to move forward or
 {"word":"livelihood","level":3,"definition":"the way someone earns money to live","example":"Fishing was the main livelihood for people in the small coastal village.","imageKeyword":"fisherman working"},
 {"word":"loam","level":3,"definition":"rich, dark soil that is good for growing plants","example":"The gardener filled the pots with dark loam before planting the seeds.","imageKeyword":"garden soil"},
 {"word":"lobe","level":3,"definition":"a rounded part of something, like an ear or brain","example":"She wore a tiny gold earring on each lobe of her ears.","imageKeyword":"ear lobe"},
-{"word":"locale","level":3,"definition":"the place where something happens","example":"The movie was filmed on location in a beautiful Italian village.","imageKeyword":"filming location"},
+{"word":"locale","level":3,"definition":"the place where something happens","example":"The tropical locale of the movie made it feel like a vacation.","imageKeyword":"filming location"},
 {"word":"locomotion","level":3,"definition":"the ability to move from place to place","example":"Wheels, legs, and fins are all tools of locomotion used by different creatures.","imageKeyword":"movement types"},
 {"word":"loft","level":3,"definition":"an upper room or space just below the roof","example":"They converted the dusty loft into a cozy reading room with bean bag chairs.","imageKeyword":"attic loft"},
 {"word":"lore","level":3,"definition":"knowledge and stories passed down through generations","example":"The village elder shared the lore of their people around the evening campfire.","imageKeyword":"elder storytelling"},

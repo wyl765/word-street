@@ -363,7 +363,7 @@ const LEVEL2A_BANK=[{"word":"avoid","level":2,"definition":"to stay away from so
 {"word":"exceed","level":2,"definition":"to go beyond a limit or amount","example":"His test score exceeded the class average.","imageKeyword":"exceed beyond"},
 {"word":"explicit","level":2,"definition":"said clearly with no confusion","example":"The teacher gave explicit instructions for the project.","imageKeyword":"explicit clear"},
 {"word":"extract","level":2,"definition":"to pull out or remove","example":"The dentist extracted the loose tooth.","imageKeyword":"extract pull"},
-{"word":"facilitate","level":2,"definition":"to make something easier to do","example":"The ramp helps people in wheelchairs get into the building.","imageKeyword":"facilitate help"},
+{"word":"facilitate","level":2,"definition":"to make something easier to do","example":"The ramp facilitates entry for people in wheelchairs.","imageKeyword":"facilitate help"},
 {"word":"finite","level":2,"definition":"having a limit or end","example":"We have a finite amount of time before lunch.","imageKeyword":"finite limited"},
 {"word":"fluctuate","level":2,"definition":"to go up and down or change often","example":"The temperature fluctuates a lot in spring, warm one day and cold the next.","imageKeyword":"fluctuate change"},
 {"word":"format","level":2,"definition":"the way something is set up or arranged","example":"The report was written in a clear format.","imageKeyword":"format layout"},

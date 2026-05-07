@@ -252,7 +252,7 @@ const LEVEL2D_BANK=[{"word":"pace","level":2,"definition":"the speed at which so
 {"word":"deficit","level":2,"definition":"not having enough, a shortage","example":"The team had a three-point deficit going into the last quarter.","imageKeyword":"behind score"},
 {"word":"delegate","level":2,"definition":"to give a task to someone else","example":"The captain delegated the cleanup jobs to different team members.","imageKeyword":"assigning jobs"},
 {"word":"depict","level":2,"definition":"to show something in a picture or words","example":"The mural depicts children playing in a garden.","imageKeyword":"painted scene"},
-{"word":"deplete","level":2,"definition":"to use up until almost nothing is left","example":"Running all day used up her energy completely.","imageKeyword":"empty battery"},
+{"word":"deplete","level":2,"definition":"to use up until almost nothing is left","example":"If we use too much water, we will deplete the supply.","imageKeyword":"empty battery"},
 {"word":"designate","level":2,"definition":"to officially choose for a purpose","example":"The teacher designated one shelf for finished work.","imageKeyword":"labeled shelf"},
 {"word":"deteriorate","level":2,"definition":"to become worse over time","example":"The old fence deteriorated and began to fall apart.","imageKeyword":"crumbling fence"},
 {"word":"dictate","level":2,"definition":"to say words for someone to write or to give orders","example":"She dictated the letter while her friend typed it.","imageKeyword":"speaking words"}];
