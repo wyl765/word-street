@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "enabled": true,
+  "metrics": {
+    "errorRate": {
+      "description": "Percentage of wrong answers per word",
+      "threshold": 0.5,
+      "minAttempts": 3
+    },
+    "responseTime": {
+      "description": "Time to select answer after seeing definition",
+      "threshold": 10000,
+      "unit": "ms"
+    },
+    "skipRate": {
+      "description": "How often word is skipped/passed",
+      "threshold": 0.3
+    }
+  },
+  "dataSchema": {
+    "event": "quiz_answer",
+    "fields": {
+      "wordId": "string",
+      "word": "string",
+      "level": "number",
+      "gameMode": "string (image_to_word | audio_to_image | image_to_spell | context_select)",
+      "correct": "boolean",
+      "responseTimeMs": "number",
+      "selectedAnswer": "string",
+      "correctAnswer": "string",
+      "timestamp": "ISO-8601"
+    }
+  },
+  "analysis": {
+    "autoFlag": "Words with error_rate > 50% after 5+ attempts get auto-flagged for definition review",
+    "report": "Weekly summary of flagged words sent to QA pipeline",
+    "feedback_loop": "Flagged words → definition simplified → re-test → measure improvement"
+  }
+}

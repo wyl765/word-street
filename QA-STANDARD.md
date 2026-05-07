@@ -149,6 +149,8 @@ git add && git commit && git push
 | dict-verify.mjs | 定义模式检查 | v1.0 | Node |
 | nlp-verify.py | WordNet语义验证+Dale-Chall复杂度+语义重复检测 | v1.0 | Python |
 | distractor-test.mjs | 干扰项测试（定义能否唯一标识目标词） | v1.0 | Node |
+| ab-test.mjs | A/B测试框架+问题词预测 | v1.0 | Node |
+| tracking-config.json | 游戏前端埋点配置 | v1.0 | 配置 |
 | coca_5000.csv | 词频数据 | COCA | 数据 |
 
 ### 完整检查命令序列（每次修改后必跑）
@@ -188,3 +190,4 @@ python3 nlp-verify.py
 
 - v1.0 (2026-05-08): 初版，基于2026-05-07三方审校经验建立
 - v1.1 (2026-05-08): 更新为三轮制（独立+对抗+仲裁），增加老师视角
+- v1.2 (2026-05-08): 增加NLP验证+干扰项测试+A/B测试框架，完成全部7个工具

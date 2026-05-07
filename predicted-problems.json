@@ -1,0 +1,1795 @@
+[
+  {
+    "word": "wake up",
+    "level": 1,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "phrase"
+    ],
+    "definition": "to stop sleeping"
+  },
+  {
+    "word": "give up",
+    "level": 1,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "phrase"
+    ],
+    "definition": "to stop trying"
+  },
+  {
+    "word": "hurry up",
+    "level": 1,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "phrase"
+    ],
+    "definition": "to go faster"
+  },
+  {
+    "word": "gradually",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "long word"
+    ],
+    "definition": "little by little"
+  },
+  {
+    "word": "immediately",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "long word"
+    ],
+    "definition": "right away"
+  },
+  {
+    "word": "frequently",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "long word"
+    ],
+    "definition": "many times"
+  },
+  {
+    "word": "occasionally",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "long word"
+    ],
+    "definition": "sometimes"
+  },
+  {
+    "word": "otherwise",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "long word"
+    ],
+    "definition": "if not"
+  },
+  {
+    "word": "make up",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "phrase"
+    ],
+    "definition": "to invent"
+  },
+  {
+    "word": "point out",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to show something"
+  },
+  {
+    "word": "set up",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "phrase"
+    ],
+    "definition": "to get ready"
+  },
+  {
+    "word": "courageous",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "long word"
+    ],
+    "definition": "brave"
+  },
+  {
+    "word": "determined",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "long word"
+    ],
+    "definition": "not giving up"
+  },
+  {
+    "word": "gentleman",
+    "level": 2,
+    "riskScore": 4,
+    "reasons": [
+      "very short def",
+      "abstract",
+      "long word"
+    ],
+    "definition": "a polite man"
+  },
+  {
+    "word": "puppy",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a baby dog"
+  },
+  {
+    "word": "kitten",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a baby cat"
+  },
+  {
+    "word": "bunny",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a small rabbit"
+  },
+  {
+    "word": "duckling",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a baby duck"
+  },
+  {
+    "word": "chick",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a baby chicken"
+  },
+  {
+    "word": "lamb",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a baby sheep"
+  },
+  {
+    "word": "fawn",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a baby deer"
+  },
+  {
+    "word": "foal",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a baby horse"
+  },
+  {
+    "word": "pony",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a small horse"
+  },
+  {
+    "word": "stream",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a small river"
+  },
+  {
+    "word": "mud",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "wet dirt"
+  },
+  {
+    "word": "leap",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to jump far"
+  },
+  {
+    "word": "shove",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to push hard"
+  },
+  {
+    "word": "narrow",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not very wide"
+  },
+  {
+    "word": "deep",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "going far down"
+  },
+  {
+    "word": "cozy",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "warm and comfortable"
+  },
+  {
+    "word": "chilly",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a little cold"
+  },
+  {
+    "word": "gentle",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "soft and careful"
+  },
+  {
+    "word": "cheerful",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "happy and smiling"
+  },
+  {
+    "word": "salty",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "tasting like salt"
+  },
+  {
+    "word": "loose",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not tight"
+  },
+  {
+    "word": "crooked",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not straight, bent"
+  },
+  {
+    "word": "quietly",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "without making noise"
+  },
+  {
+    "word": "together",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "with each other"
+  },
+  {
+    "word": "forward",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "toward the front"
+  },
+  {
+    "word": "backward",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "toward the back"
+  },
+  {
+    "word": "beneath",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "right below it"
+  },
+  {
+    "word": "beside",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "next to"
+  },
+  {
+    "word": "around",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "in a circle"
+  },
+  {
+    "word": "within",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "inside"
+  },
+  {
+    "word": "without",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not having"
+  },
+  {
+    "word": "come back",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to return to where you were"
+  },
+  {
+    "word": "fall down",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to drop to the ground"
+  },
+  {
+    "word": "calm down",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to become less upset"
+  },
+  {
+    "word": "throw away",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to put in the trash"
+  },
+  {
+    "word": "figure out",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to think hard until you find the answer"
+  },
+  {
+    "word": "then",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "after that"
+  },
+  {
+    "word": "daily",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "every day"
+  },
+  {
+    "word": "whenever",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "every time that"
+  },
+  {
+    "word": "once",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "one time"
+  },
+  {
+    "word": "twice",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "two times"
+  },
+  {
+    "word": "single",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "only one"
+  },
+  {
+    "word": "plenty",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "more than enough"
+  },
+  {
+    "word": "few",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a small number"
+  },
+  {
+    "word": "many",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a large number"
+  },
+  {
+    "word": "none",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not any, zero"
+  },
+  {
+    "word": "less",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a smaller amount"
+  },
+  {
+    "word": "more",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a bigger amount"
+  },
+  {
+    "word": "tale",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a story"
+  },
+  {
+    "word": "wand",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a magic stick"
+  },
+  {
+    "word": "itsy",
+    "level": 1,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "really really tiny"
+  },
+  {
+    "word": "realize",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to understand suddenly"
+  },
+  {
+    "word": "ancient",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "very old"
+  },
+  {
+    "word": "fragile",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "easy to break"
+  },
+  {
+    "word": "swift",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "very fast"
+  },
+  {
+    "word": "anxious",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "worried and nervous"
+  },
+  {
+    "word": "main idea",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "the most important point"
+  },
+  {
+    "word": "law",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "an official rule"
+  },
+  {
+    "word": "city",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a large town"
+  },
+  {
+    "word": "subtract",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to take away"
+  },
+  {
+    "word": "data",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "facts we collect"
+  },
+  {
+    "word": "recently",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not long ago"
+  },
+  {
+    "word": "rarely",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not often"
+  },
+  {
+    "word": "come across",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to find by chance"
+  },
+  {
+    "word": "break down",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to stop working or to fall apart"
+  },
+  {
+    "word": "carry out",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "abstract",
+      "phrase",
+      "long word"
+    ],
+    "definition": "to do a plan"
+  },
+  {
+    "word": "honest",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "telling the truth"
+  },
+  {
+    "word": "add",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to put together"
+  },
+  {
+    "word": "address",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "where someone lives"
+  },
+  {
+    "word": "adult",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a grown-up"
+  },
+  {
+    "word": "afraid",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "scared"
+  },
+  {
+    "word": "again",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "one more time"
+  },
+  {
+    "word": "alive",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "living"
+  },
+  {
+    "word": "alone",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "by yourself"
+  },
+  {
+    "word": "always",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "every time"
+  },
+  {
+    "word": "any",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "no matter which"
+  },
+  {
+    "word": "appear",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to show up"
+  },
+  {
+    "word": "asleep",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "sleeping"
+  },
+  {
+    "word": "attempt",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a try"
+  },
+  {
+    "word": "awake",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not sleeping"
+  },
+  {
+    "word": "base",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "the bottom part"
+  },
+  {
+    "word": "basic",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "simple and important"
+  },
+  {
+    "word": "battle",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a big fight"
+  },
+  {
+    "word": "beg",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to ask strongly"
+  },
+  {
+    "word": "begin",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to start"
+  },
+  {
+    "word": "behavior",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "how someone acts"
+  },
+  {
+    "word": "better",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "more good"
+  },
+  {
+    "word": "bright",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "full of light"
+  },
+  {
+    "word": "camp",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to sleep outdoors"
+  },
+  {
+    "word": "carpet",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "soft floor covering"
+  },
+  {
+    "word": "cart",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a small wagon"
+  },
+  {
+    "word": "center",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "the middle"
+  },
+  {
+    "word": "change",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to become different"
+  },
+  {
+    "word": "circle",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a round shape"
+  },
+  {
+    "word": "close",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to shut"
+  },
+  {
+    "word": "common",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "happening a lot"
+  },
+  {
+    "word": "confuse",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to mix up"
+  },
+  {
+    "word": "connect",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to join together"
+  },
+  {
+    "word": "cuddle",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to hug close"
+  },
+  {
+    "word": "dark",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "with little light"
+  },
+  {
+    "word": "delight",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "great happiness"
+  },
+  {
+    "word": "dinner",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "the evening meal"
+  },
+  {
+    "word": "drift",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to move slowly"
+  },
+  {
+    "word": "enter",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to go in"
+  },
+  {
+    "word": "escape",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to get away"
+  },
+  {
+    "word": "far",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not near"
+  },
+  {
+    "word": "fill",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to make full"
+  },
+  {
+    "word": "finish",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to end"
+  },
+  {
+    "word": "fold",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to bend over"
+  },
+  {
+    "word": "follow",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to go after"
+  },
+  {
+    "word": "frighten",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to scare"
+  },
+  {
+    "word": "frozen",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "turned to ice"
+  },
+  {
+    "word": "glad",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "happy"
+  },
+  {
+    "word": "glide",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to move smoothly"
+  },
+  {
+    "word": "glitter",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to sparkle"
+  },
+  {
+    "word": "grasp",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to hold tightly"
+  },
+  {
+    "word": "greet",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to say hello"
+  },
+  {
+    "word": "grin",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a big smile"
+  },
+  {
+    "word": "grow",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to get bigger"
+  },
+  {
+    "word": "harm",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "hurt or damage"
+  },
+  {
+    "word": "harvest",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to pick crops"
+  },
+  {
+    "word": "hint",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a small clue"
+  },
+  {
+    "word": "holiday",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a special day"
+  },
+  {
+    "word": "hurt",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to feel pain"
+  },
+  {
+    "word": "hurry",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to move quickly"
+  },
+  {
+    "word": "jacket",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a short coat"
+  },
+  {
+    "word": "kind",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "nice and caring"
+  },
+  {
+    "word": "least",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "the smallest amount"
+  },
+  {
+    "word": "lunch",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a midday meal"
+  },
+  {
+    "word": "major",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "big or important"
+  },
+  {
+    "word": "mix",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to stir together"
+  },
+  {
+    "word": "mood",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "how you feel"
+  },
+  {
+    "word": "move",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to change position"
+  },
+  {
+    "word": "near",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "close by"
+  },
+  {
+    "word": "never",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not ever"
+  },
+  {
+    "word": "noisy",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "full of sound"
+  },
+  {
+    "word": "opinion",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "what you think"
+  },
+  {
+    "word": "opposite",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "completely different"
+  },
+  {
+    "word": "outside",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not inside"
+  },
+  {
+    "word": "over",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "above or across"
+  },
+  {
+    "word": "pause",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a short stop"
+  },
+  {
+    "word": "plastic",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a man-made material"
+  },
+  {
+    "word": "polite",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "showing good manners"
+  },
+  {
+    "word": "protect",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to keep safe"
+  },
+  {
+    "word": "quiet",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "with little noise"
+  },
+  {
+    "word": "quiz",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a short test"
+  },
+  {
+    "word": "raise",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to lift"
+  },
+  {
+    "word": "refund",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "money given back"
+  },
+  {
+    "word": "safe",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "not in danger"
+  },
+  {
+    "word": "scared",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "afraid"
+  },
+  {
+    "word": "scatter",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to spread out"
+  },
+  {
+    "word": "simple",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "easy; not complex"
+  },
+  {
+    "word": "stuck",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "unable to move"
+  },
+  {
+    "word": "surface",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "the top layer"
+  },
+  {
+    "word": "sweet",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "tasting like sugar"
+  },
+  {
+    "word": "little",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "small"
+  },
+  {
+    "word": "under",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "below"
+  },
+  {
+    "word": "visit",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "to go see"
+  },
+  {
+    "word": "dinghy",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "a small boat"
+  },
+  {
+    "word": "gravel",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "small loose stones"
+  },
+  {
+    "word": "although",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "even though"
+  },
+  {
+    "word": "unless",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "only if not"
+  },
+  {
+    "word": "seldom",
+    "level": 2,
+    "riskScore": 3,
+    "reasons": [
+      "very short def",
+      "abstract"
+    ],
+    "definition": "almost never"
+  }
+]
