@@ -150,7 +150,11 @@ git add && git commit && git push
 | nlp-verify.py | WordNet语义验证+Dale-Chall复杂度+语义重复检测 | v1.0 | Python |
 | distractor-test.mjs | 干扰项测试（定义能否唯一标识目标词） | v1.0 | Node |
 | ab-test.mjs | A/B测试框架+问题词预测 | v1.0 | Node |
+| advanced-verify.mjs | 中文L1干扰+间隔重复难度+例句自然度 | v1.0 | Node |
 | tracking-config.json | 游戏前端埋点配置 | v1.0 | 配置 |
+| 反向验证(AI subagent) | 只看定义猜词测试 | 每次审校跑 | GPT |
+| 混淆矩阵(AI subagent) | 模拟选择题测试 | 每次审校跑 | Gemini |
+| CLIP图片验证(AI subagent) | imageKeyword出图匹配度 | 每次审校跑 | Claude |
 | coca_5000.csv | 词频数据 | COCA | 数据 |
 
 ### 完整检查命令序列（每次修改后必跑）
@@ -180,6 +184,10 @@ python3 nlp-verify.py
 | fk-check | L1定义FK<6, L2<7 |
 | quiz-test | 同level内 0对80%+真歧义重叠 |
 | dict-verify | 0 HIGH |
+| 反向验证 | 只看定义猜词正确率≥70% |
+| 混淆矩阵 | 模拟选择题正确率≥90% |
+| CLIP图片验证 | imageKeyword匹配度≥80%(Yes+Probably) |
+| 中文干扰检测 | 所有干扰词定义已标注区分 |
 | distractor-test | L1-L2定义可混淆词<5%（当前3%） |
 | nlp-verify | 0对未区分的语义重复对 |
 | 三模型审 | 三轮后 0 CRITICAL/HIGH |
@@ -190,4 +198,5 @@ python3 nlp-verify.py
 
 - v1.0 (2026-05-08): 初版，基于2026-05-07三方审校经验建立
 - v1.1 (2026-05-08): 更新为三轮制（独立+对抗+仲裁），增加老师视角
-- v1.2 (2026-05-08): 增加NLP验证+干扰项测试+A/B测试框架，完成全部7个工具
+- v1.2 (2026-05-08): 增加NLP验证+干扰项测试+A/B测试框架
+- v1.3 (2026-05-08): 增加反向验证+混淆矩阵+CLIP图片验证+中文干扰检测+间隔重复评分，完成全部14个工具
