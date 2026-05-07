@@ -145,7 +145,7 @@ const LEVEL3C_BANK=[{"word":"advance","level":3,"definition":"to move forward or
 {"word":"intrigue","level":3,"definition":"to make someone very curious and keen","example":"The mysterious locked box intrigued the children, and they wanted to open it.","imageKeyword":"mysterious box"},
 {"word":"inundate","level":3,"definition":"to flood or overwhelm with too much of something","example":"After the story went viral the reporter was inundated with phone calls.","imageKeyword":"overflowing inbox"},
 {"word":"irate","level":3,"definition":"very angry","example":"The irate buyer demanded to speak to the manager about the broken product.","imageKeyword":"angry customer"},
-{"word":"irk","level":3,"definition":"to annoy or bother someone","example":"The constant dripping of the faucet irked her while she tried to study.","imageKeyword":"annoying drip"},
+{"word":"irk","level":3,"definition":"to mildly annoy someone","example":"The constant dripping of the faucet irked her while she tried to study.","imageKeyword":"annoying drip"},
 {"word":"ivory","level":3,"definition":"a hard, creamy-white material from elephant tusks, or its color","example":"The antique piano had ivory-colored keys that felt smooth under his fingers.","imageKeyword":"ivory piano"},
 {"word":"jaunt","level":3,"definition":"a short trip taken for fun","example":"They took a weekend jaunt to the seaside to enjoy the fresh ocean air.","imageKeyword":"beach trip"},
 {"word":"jest","level":3,"definition":"a joke or something said funnily","example":"He said it in jest, but everyone thought he was being serious.","imageKeyword":"joking around"},
