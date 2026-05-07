@@ -208,6 +208,7 @@ function checkExampleWordUsage(entries) {
     const example = (e.example || '').toLowerCase();
     // Only single words, skip phrases
     if (word.includes(' ') || word.length <= 2) continue;
+    if (!e.example) continue;
     // Generate possible forms
     const forms = [word];
     // Remove common suffixes to get root
