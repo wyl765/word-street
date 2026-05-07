@@ -184,7 +184,7 @@ const LEVEL3C_BANK=[{"word":"advance","level":3,"definition":"to move forward or
 {"word":"litany","level":3,"definition":"a long, boring list of things","example":"The teacher read a litany of rules on the first day of school.","imageKeyword":"long list"},
 {"word":"lithe","level":3,"definition":"thin, flexible, and graceful","example":"The lithe dancer moved across the stage like a cat.","imageKeyword":"graceful dancer"},
 {"word":"livelihood","level":3,"definition":"the way someone earns money to live","example":"Fishing was the main livelihood for people in the small coastal village.","imageKeyword":"fisherman working"},
-{"word":"loam","level":3,"definition":"rich, dark soil that is good for growing plants","example":"The gardener filled the pots with dark loam before planting the seeds.","imageKeyword":"garden soil"},
+{"word":"loam","level":3,"definition":"a type of rich dark soil made of sand, clay, and rotted plants","example":"The gardener filled the pots with dark loam before planting the seeds.","imageKeyword":"garden soil"},
 {"word":"lobe","level":3,"definition":"a rounded part of something, like an ear or brain","example":"She wore a tiny gold earring on each lobe of her ears.","imageKeyword":"ear lobe"},
 {"word":"locale","level":3,"definition":"the place where something happens","example":"The tropical locale of the movie made it feel like a vacation.","imageKeyword":"filming location"},
 {"word":"locomotion","level":3,"definition":"the ability to move from place to place","example":"Wheels, legs, and fins are all tools of locomotion used by different creatures.","imageKeyword":"movement types"},

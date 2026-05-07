@@ -149,7 +149,7 @@ const LEVEL4A_BANK=[{"word":"abandon","level":4,"definition":"to leave something
 {"word":"benefactor","level":4,"definition":"a person who gives money or help to others","example":"A generous benefactor donated money to build the new playground.","imageKeyword":"generous donor"},
 {"word":"bequest","level":4,"definition":"money or property left to someone in a will","example":"The museum received a bequest of rare paintings from the collector.","imageKeyword":"inheritance gift"},
 {"word":"bewilderment","level":4,"definition":"a feeling of being very confused","example":"The complicated math problem filled the student with bewilderment.","imageKeyword":"confused person"},
-{"word":"bountiful","level":4,"definition":"large in amount; more than enough","example":"The farm produced a bountiful harvest of corn and tomatoes that year.","imageKeyword":"abundant harvest"},
+{"word":"bountiful","level":4,"definition":"generous and plentiful, like a big harvest","example":"The farm produced a bountiful harvest of corn and tomatoes that year.","imageKeyword":"abundant harvest"},
 {"word":"calibration","level":4,"definition":"adjusting something to work correctly","example":"The calibration of the telescope allowed scientists to see distant stars clearly.","imageKeyword":"adjusting instrument"},
 {"word":"candor","level":4,"definition":"the quality of being honest and open","example":"Her candor about the mistake helped the team find a solution quickly.","imageKeyword":"honest conversation"},
 {"word":"capacious","level":4,"definition":"having a lot of space inside","example":"The capacious backpack could hold all of her books and supplies.","imageKeyword":"large backpack"},
