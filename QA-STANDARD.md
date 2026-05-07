@@ -141,13 +141,46 @@ git add && git commit && git push
 
 ## 六、工具清单
 
-| 工具 | 用途 | 文件 |
-|------|------|------|
-| proofcheck.mjs | 格式/语法/禁词/事故检测 | v1.0 |
-| fk-check.mjs | 可读性评分 | v1.0 |
-| quiz-test.mjs | 定义歧义检测 | v1.0 |
-| dict-verify.mjs | 定义模式检查 | v1.0 |
-| coca_5000.csv | 词频数据 | COCA |
+| 工具 | 用途 | 文件 | 版本 |
+|------|------|------|------|
+| proofcheck.mjs | 格式/语法/禁词/事故检测 | v1.0 | Node |
+| fk-check.mjs | 可读性评分 | v1.0 | Node |
+| quiz-test.mjs | 定义歧义检测 | v1.0 | Node |
+| dict-verify.mjs | 定义模式检查 | v1.0 | Node |
+| nlp-verify.py | WordNet语义验证+Dale-Chall复杂度+语义重复检测 | v1.0 | Python |
+| distractor-test.mjs | 干扰项测试（定义能否唯一标识目标词） | v1.0 | Node |
+| coca_5000.csv | 词频数据 | COCA | 数据 |
+
+### 完整检查命令序列（每次修改后必跑）
+```bash
+# Step 1: 基础规则检查
+node proofcheck.mjs
+
+# Step 2: 可读性
+node fk-check.mjs
+
+# Step 3: 歧义检测
+node quiz-test.mjs
+
+# Step 4: 定义模式
+node dict-verify.mjs
+
+# Step 5: NLP深度验证（WordNet+Dale-Chall+语义相似度）
+python3 nlp-verify.py
+
+# Step 6: 三模型对抗式审校（独立+互审+仲裁）
+```
+
+### 通过标准
+| 工具 | 通过条件 |
+|------|----------|
+| proofcheck | 0 CRITICAL, 0 real MAJOR |
+| fk-check | L1定义FK<6, L2<7 |
+| quiz-test | 同level内 0对80%+真歧义重叠 |
+| dict-verify | 0 HIGH |
+| distractor-test | L1-L2定义可混淆词<5%（当前3%） |
+| nlp-verify | 0对未区分的语义重复对 |
+| 三模型审 | 三轮后 0 CRITICAL/HIGH |
 
 ---
 
