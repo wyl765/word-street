@@ -19,7 +19,7 @@ const LEVEL2_BANK=[{"word":"describe","level":2,"definition":"to tell what somet
 {"word":"fragile","level":2,"definition":"easy to break","example":"The fragile glass ornament fell and cracked.","imageKeyword":"broken ornament"},
 {"word":"sturdy","level":2,"definition":"strong and not easy to break","example":"This sturdy chair holds me even when I wiggle.","imageKeyword":"wood chair"},
 {"word":"swift","level":2,"definition":"very fast","example":"The swift rabbit ran across the field before we could blink.","imageKeyword":"running rabbit"},
-{"word":"anxious","level":2,"definition":"worried and nervous","example":"I was anxious before the spelling bee, so I practiced.","imageKeyword":"spelling bee"},
+{"word":"anxious","level":2,"definition":"feeling worried that something bad might happen","example":"I was anxious before the spelling bee, so I practiced.","imageKeyword":"spelling bee"},
 {"word":"setting","level":2,"definition":"where and when a story happens","example":"The setting is a snowy mountain at night.","imageKeyword":"snowy mountain"},
 {"word":"plot","level":2,"definition":"what happens in the story","example":"The plot changes when the map goes missing.","imageKeyword":"missing map"},
 {"word":"paragraph","level":2,"definition":"a set of lines about one topic","example":"This paragraph tells how the turtle finds water.","imageKeyword":"paragraph of text on paper"},

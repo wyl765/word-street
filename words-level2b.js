@@ -216,7 +216,7 @@ const LEVEL2B_BANK=[{"word":"moral","level":2,"definition":"a lesson a story tea
 {"word":"compared to","level":2,"definition":"when looking at two things side by side","example":"Compared to last year, this winter has much more snow.","imageKeyword":"side by side"},
 {"word":"consequently","level":2,"definition":"as a result of that","example":"He ate too much candy; consequently, his stomach hurt.","imageKeyword":"result"},
 {"word":"despite","level":2,"definition":"even though something happened","example":"Despite the rain, we had a wonderful time at the fair.","imageKeyword":"even though"},
-{"word":"due to","level":2,"definition":"because of","example":"School was closed due to the big snowstorm.","imageKeyword":"because"},
+{"word":"due to","level":2,"definition":"because of","example":"School was closed due to the heavy snowstorm.","imageKeyword":"because"},
 {"word":"equally","level":2,"definition":"in the same amount or way","example":"The pizza was shared equally, so everyone got two slices.","imageKeyword":"same share"},
 {"word":"especially","level":2,"definition":"more than usual; mainly","example":"I love all fruits, especially strawberries.","imageKeyword":"child pointing excitedly at one specific ice cream flavor"},
 {"word":"even though","level":2,"definition":"although; despite the fact that","example":"Even though she was scared, she climbed the rope to the top.","imageKeyword":"despite"},
