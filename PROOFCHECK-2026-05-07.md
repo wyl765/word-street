@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5212
-**Results:** 0 CRITICAL | 3 MAJOR | 30 MINOR
+**Results:** 0 CRITICAL | 3 MAJOR | 31 MINOR
 
 ## Issues
 
@@ -29,6 +29,10 @@ Possible "a/an" error: "a unified"
 ### [MINOR] words-level5d.js — "utopian" (ARTICLE_ERROR)
 Possible "a/an" error: "a utopian"
 **Fix:** Consider "an utopian"
+
+### [MINOR] words-level1.js — "peanut" (COMPLEX_DEFINITION)
+L1 definition uses complex word(s): underground
+**Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level1.js — "cozy" (COMPLEX_DEFINITION)
 L1 definition uses complex word(s): comfortable
