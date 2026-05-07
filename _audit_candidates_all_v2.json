@@ -1,0 +1,2490 @@
+[
+  {
+    "label": "L3A",
+    "index": 8,
+    "word": "favor",
+    "issues": [
+      "definition is vague (uses “thing/stuff/etc.”)"
+    ],
+    "entry": {
+      "word": "favor",
+      "level": 3,
+      "definition": "to like or support one thing over another",
+      "example": "Most students favor chocolate ice cream over vanilla when given a choice.",
+      "imageKeyword": "choosing favorite"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 19,
+    "word": "punish",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "punish",
+      "level": 3,
+      "definition": "to give a consequence for breaking a rule",
+      "example": "Dad will punish us by taking away screen time if we don't finish our chores.",
+      "imageKeyword": "consequence"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 35,
+    "word": "careless",
+    "issues": [
+      "definition has unnatural phrasing (“not paying focus”)"
+    ],
+    "entry": {
+      "word": "careless",
+      "level": 3,
+      "definition": "not paying focus, making mistakes",
+      "example": "His careless writing was so messy that even he couldn't read what it said.",
+      "imageKeyword": "messy work"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 59,
+    "word": "influential",
+    "issues": [
+      "definition appears truncated (ends with “do”)"
+    ],
+    "entry": {
+      "word": "influential",
+      "level": 3,
+      "definition": "having the power to change opinions or do",
+      "example": "The influential teacher changed many students' lives by believing in them when no one else did.",
+      "imageKeyword": "influential leader"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 70,
+    "word": "naked",
+    "issues": [
+      "potential age-sensitivity term present (“naked”)"
+    ],
+    "entry": {
+      "word": "naked",
+      "level": 3,
+      "definition": "not wearing any clothes or covering",
+      "example": "The naked trees in winter show their branches clearly against the gray sky.",
+      "imageKeyword": "bare uncovered"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 99,
+    "word": "afflict",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "afflict",
+      "level": 3,
+      "definition": "to cause pain or suffering",
+      "example": "A bad cold afflicted half the students, and many stayed home from school.",
+      "imageKeyword": "sick child"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 105,
+    "word": "amble",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "amble",
+      "level": 3,
+      "definition": "to walk slowly and in a relaxed way",
+      "example": "They ambled through the park, stopping to watch the ducks in the pond.",
+      "imageKeyword": "leisurely walk"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 108,
+    "word": "amplify",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "amplify",
+      "level": 3,
+      "definition": "to make a sound or signal louder or stronger",
+      "example": "The speaker amplified the singer's voice, so everyone in the park could hear.",
+      "imageKeyword": "amplifier speaker"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 118,
+    "word": "assail",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "assail",
+      "level": 3,
+      "definition": "to attack someone with force or harsh words",
+      "example": "The strong winds assailed the ship as it crossed the rough sea.",
+      "imageKeyword": "stormy ship"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 120,
+    "word": "atone",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "atone",
+      "level": 3,
+      "definition": "to do something good to make up for a mistake",
+      "example": "He atoned for breaking the vase by gluing it back together and buying flowers.",
+      "imageKeyword": "making amends"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 124,
+    "word": "babble",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "babble",
+      "level": 3,
+      "definition": "to talk quickly about things that do not make sense",
+      "example": "The excited toddler babbled with joy, mixing up words and giggles.",
+      "imageKeyword": "baby talking"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 125,
+    "word": "badger",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "badger",
+      "level": 3,
+      "definition": "to keep asking someone to do something in an annoying way",
+      "example": "She badgered her dad to take her to the zoo until he finally said yes.",
+      "imageKeyword": "begging child"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 126,
+    "word": "baffle",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "baffle",
+      "level": 3,
+      "definition": "to confuse someone fully",
+      "example": "The magic trick baffled the audience—nobody could figure out how it worked.",
+      "imageKeyword": "confused audience"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 133,
+    "word": "barnacle",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "barnacle",
+      "level": 3,
+      "definition": "a small sea creature that sticks to rocks and ship bottoms",
+      "example": "The old dock was covered in barnacles that clung tightly to the wood.",
+      "imageKeyword": "barnacles dock"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 141,
+    "word": "billow",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "billow",
+      "level": 3,
+      "definition": "to swell out like a large wave or cloud",
+      "example": "The white curtains billowed in the breeze coming through the open window.",
+      "imageKeyword": "billowing curtain"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 144,
+    "word": "blazon",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "blazon",
+      "level": 3,
+      "definition": "to display something boldly",
+      "example": "The team's name was blazoned across the front of their bright blue jerseys.",
+      "imageKeyword": "bold display"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 146,
+    "word": "boggle",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)",
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "boggle",
+      "level": 3,
+      "definition": "to be amazed or overwhelmed",
+      "example": "The number of stars in the sky boggles the mind when you really think about it.",
+      "imageKeyword": "amazed person"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 152,
+    "word": "broach",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "broach",
+      "level": 3,
+      "definition": "to bring up a topic for discussion",
+      "example": "He finally broached the subject of getting a puppy at dinner that night.",
+      "imageKeyword": "starting discussion"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 157,
+    "word": "bulge",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "bulge",
+      "level": 3,
+      "definition": "to swell outward",
+      "example": "His pockets bulged with all the acorns he had collected in the park.",
+      "imageKeyword": "stuffed pockets"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 159,
+    "word": "burgeon",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "burgeon",
+      "level": 3,
+      "definition": "to grow or develop quickly",
+      "example": "Flowers burgeoned in the garden after the first warm spring rains.",
+      "imageKeyword": "blooming flowers"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 161,
+    "word": "buttress",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "buttress",
+      "level": 3,
+      "definition": "a stone or brick support built against a wall",
+      "example": "The old cathedral had huge buttresses holding up its tall stone walls.",
+      "imageKeyword": "cathedral buttress"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 166,
+    "word": "capsize",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "capsize",
+      "level": 3,
+      "definition": "to turn over in the water",
+      "example": "A big wave capsized the small sailboat, dumping everyone into the lake.",
+      "imageKeyword": "capsized boat"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 167,
+    "word": "capsule",
+    "issues": [
+      "definition includes “drug” (age-sensitivity / word choice)",
+      "potential age-sensitivity term present (“drug”)"
+    ],
+    "entry": {
+      "word": "capsule",
+      "level": 3,
+      "definition": "a small box or jar, or a tiny case holding drug",
+      "example": "The astronaut climbed into the space capsule and prepared for launch.",
+      "imageKeyword": "space capsule"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 170,
+    "word": "char",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "char",
+      "level": 3,
+      "definition": "to burn something until it turns black",
+      "example": "The toast was charred because she forgot to take it out of the toaster.",
+      "imageKeyword": "burnt toast"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 172,
+    "word": "cinch",
+    "issues": [
+      "definition appears truncated (ends with “do”)"
+    ],
+    "entry": {
+      "word": "cinch",
+      "level": 3,
+      "definition": "something very easy to do",
+      "example": "The spelling test was a cinch because she had studied every word.",
+      "imageKeyword": "easy task"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 177,
+    "word": "cleave",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "cleave",
+      "level": 3,
+      "definition": "to split something apart with force",
+      "example": "The lumberjack cleaved the log with one powerful swing of the axe.",
+      "imageKeyword": "splitting log"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 179,
+    "word": "clench",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "clench",
+      "level": 3,
+      "definition": "to close tightly, like a fist or teeth",
+      "example": "He clenched his fists and took a deep breath before the big race.",
+      "imageKeyword": "clenched fist"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 181,
+    "word": "coil",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "coil",
+      "level": 3,
+      "definition": "to wind into circles or rings",
+      "example": "The garden hose was coiled neatly beside the back door.",
+      "imageKeyword": "coiled hose"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 183,
+    "word": "collide",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "collide",
+      "level": 3,
+      "definition": "to crash into something",
+      "example": "The two toy cars collided in the middle of the track and bounced apart.",
+      "imageKeyword": "cars crashing"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 189,
+    "word": "confide",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "confide",
+      "level": 3,
+      "definition": "to tell someone a secret because you trust them",
+      "example": "He confided in his best friend about his plan to try out for the play.",
+      "imageKeyword": "sharing secret"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 190,
+    "word": "conifer",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "conifer",
+      "level": 3,
+      "definition": "a tree that has cones and keeps its leaves all year",
+      "example": "Pine, spruce, and fir are all conifers that stay green even in winter.",
+      "imageKeyword": "pine tree"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 200,
+    "word": "cringe",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)",
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "cringe",
+      "level": 3,
+      "definition": "to pull back because of fear or embarrassment",
+      "example": "He cringed when the teacher called his name to read aloud.",
+      "imageKeyword": "embarrassed person"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 203,
+    "word": "crouton",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "crouton",
+      "level": 3,
+      "definition": "a small cube of toasted bread put on soup or salad",
+      "example": "He sprinkled crunchy croutons on his Caesar salad.",
+      "imageKeyword": "salad croutons"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 214,
+    "word": "dapple",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "dapple",
+      "level": 3,
+      "definition": "patches of color or light",
+      "example": "Dappled sunlight fell through the leaves and made patterns on the forest floor.",
+      "imageKeyword": "dappled light"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 215,
+    "word": "daze",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "daze",
+      "level": 3,
+      "definition": "a state of confusion or surprise",
+      "example": "After spinning around ten times, she walked in a daze and nearly bumped into a tree.",
+      "imageKeyword": "dizzy person"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 217,
+    "word": "decibel",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "decibel",
+      "level": 3,
+      "definition": "a unit used to measure how loud a sound is",
+      "example": "A rock concert can reach over 100 decibels—loud enough to hurt your ears.",
+      "imageKeyword": "loud sound"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 220,
+    "word": "denture",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "denture",
+      "level": 3,
+      "definition": "a set of false teeth",
+      "example": "Grandpa put his dentures in a glass of water beside his bed every night.",
+      "imageKeyword": "false teeth"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 221,
+    "word": "devour",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "devour",
+      "level": 3,
+      "definition": "to eat something quickly and hungrily",
+      "example": "The hungry puppy devoured the bowl of food in less than a minute.",
+      "imageKeyword": "hungry puppy eating"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 224,
+    "word": "dishevel",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "dishevel",
+      "level": 3,
+      "definition": "to make hair or clothing messy and untidy",
+      "example": "The strong wind disheveled her hair until it stuck out in every direction.",
+      "imageKeyword": "messy hair"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 226,
+    "word": "dissect",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "dissect",
+      "level": 3,
+      "definition": "to cut apart with care to study the inside",
+      "example": "In science class, they dissected a flower to see all its tiny parts.",
+      "imageKeyword": "dissecting flower"
+    }
+  },
+  {
+    "label": "L3A",
+    "index": 228,
+    "word": "ditto",
+    "issues": [
+      "definition is vague (uses “thing/stuff/etc.”)"
+    ],
+    "entry": {
+      "word": "ditto",
+      "level": 3,
+      "definition": "the same thing again; used to avoid repeating",
+      "example": "'I love pizza!' said Tom. 'Ditto!' agreed his brother.",
+      "imageKeyword": "same again"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 0,
+    "word": "organism",
+    "issues": [
+      "definition is vague (uses “thing/stuff/etc.”)",
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "organism",
+      "level": 3,
+      "definition": "any living thing, like a plant or animal",
+      "example": "A tiny organism can only be seen under a microscope.",
+      "imageKeyword": "microscope"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 5,
+    "word": "nutrient",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "nutrient",
+      "level": 3,
+      "definition": "something in food or soil that helps living things grow",
+      "example": "Plants get nutrients from the soil through their roots.",
+      "imageKeyword": "plant roots soil"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 9,
+    "word": "larva",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "larva",
+      "level": 3,
+      "definition": "the baby form of an insect before it becomes an adult",
+      "example": "A caterpillar is the larva of a butterfly.",
+      "imageKeyword": "caterpillar"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 14,
+    "word": "adaptation",
+    "issues": [
+      "definition is vague (uses “thing/stuff/etc.”)"
+    ],
+    "entry": {
+      "word": "adaptation",
+      "level": 3,
+      "definition": "a change that helps a living thing survive",
+      "example": "A camel's hump is an adaptation for living in the desert.",
+      "imageKeyword": "camel desert"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 23,
+    "word": "microscope",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "microscope",
+      "level": 3,
+      "definition": "a tool that makes very tiny things look bigger",
+      "example": "We looked at a leaf cell under the microscope.",
+      "imageKeyword": "microscope"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 31,
+    "word": "invertebrate",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "invertebrate",
+      "level": 3,
+      "definition": "an animal that does not have a backbone",
+      "example": "A jellyfish is an invertebrate with no bones at all.",
+      "imageKeyword": "jellyfish"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 32,
+    "word": "chrysalis",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "chrysalis",
+      "level": 3,
+      "definition": "the hard shell a caterpillar makes before becoming a butterfly",
+      "example": "Inside the chrysalis the caterpillar is changing completely.",
+      "imageKeyword": "chrysalis"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 38,
+    "word": "earthquake",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "earthquake",
+      "level": 3,
+      "definition": "a shaking of the ground caused by rocks moving underground",
+      "example": "The earthquake made the dishes rattle on the shelves.",
+      "imageKeyword": "earthquake"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 42,
+    "word": "cell",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)",
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "cell",
+      "level": 3,
+      "definition": "the tiniest building block of all living things",
+      "example": "Your body is made of trillions of tiny cells.",
+      "imageKeyword": "cell"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 46,
+    "word": "peninsula",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "peninsula",
+      "level": 3,
+      "definition": "land that has water on three sides",
+      "example": "Florida is a peninsula surrounded by ocean on three sides.",
+      "imageKeyword": "peninsula"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 50,
+    "word": "civilization",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "civilization",
+      "level": 3,
+      "definition": "a large group of people with cities, writing, and laws",
+      "example": "The ancient Egyptian civilization built pyramids, temples, and cities along the Nile.",
+      "imageKeyword": "pyramids"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 54,
+    "word": "technology",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "technology",
+      "level": 3,
+      "definition": "tools and machines that help people solve problems",
+      "example": "New technology lets us talk to people far away.",
+      "imageKeyword": "computer"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 55,
+    "word": "governor",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "governor",
+      "level": 3,
+      "definition": "the leader of a state",
+      "example": "The governor signed a new law to protect forests.",
+      "imageKeyword": "governor"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 60,
+    "word": "timeline",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "timeline",
+      "level": 3,
+      "definition": "a line that shows events in the order they happened",
+      "example": "We made a timeline of important dates in history.",
+      "imageKeyword": "timeline"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 70,
+    "word": "multiple",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "multiple",
+      "level": 3,
+      "definition": "the result of multiplying a number by any whole number",
+      "example": "10, 15, and 20 are all multiples of 5.",
+      "imageKeyword": "skip counting"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 77,
+    "word": "polygon",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "polygon",
+      "level": 3,
+      "definition": "a flat shape with straight sides",
+      "example": "A hexagon is a polygon with six straight sides.",
+      "imageKeyword": "hexagon"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 78,
+    "word": "quadrilateral",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "quadrilateral",
+      "level": 3,
+      "definition": "a shape with exactly four straight sides",
+      "example": "A square and a rectangle are both types of quadrilaterals.",
+      "imageKeyword": "four sided shapes"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 84,
+    "word": "centimeter",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "centimeter",
+      "level": 3,
+      "definition": "a small unit for measuring length about the width of a fingertip",
+      "example": "The caterpillar was three centimeters long.",
+      "imageKeyword": "ruler centimeter"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 85,
+    "word": "meter",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "meter",
+      "level": 3,
+      "definition": "a unit of length equal to 100 centimeters",
+      "example": "The classroom door is about two meters tall.",
+      "imageKeyword": "door measurement"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 87,
+    "word": "vertical",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "vertical",
+      "level": 3,
+      "definition": "going straight up and down, like a standing pole",
+      "example": "The flagpole is a vertical line pointing at the sky.",
+      "imageKeyword": "flagpole"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 97,
+    "word": "unit",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "unit",
+      "level": 3,
+      "definition": "a standard amount used to measure things",
+      "example": "Inches and centimeters are both units of length.",
+      "imageKeyword": "measuring units"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 102,
+    "word": "break the ice",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "break the ice",
+      "level": 3,
+      "definition": "to do something to make people feel less shy",
+      "example": "The teacher told a joke to break the ice on the first day of school.",
+      "imageKeyword": "icebreaker"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 103,
+    "word": "piece of cake",
+    "issues": [
+      "definition appears truncated (ends with “do”)"
+    ],
+    "entry": {
+      "word": "piece of cake",
+      "level": 3,
+      "definition": "something that is very easy to do",
+      "example": "The math quiz was a piece of cake because I studied hard.",
+      "imageKeyword": "easy cake"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 104,
+    "word": "under the weather",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "under the weather",
+      "level": 3,
+      "definition": "feeling sick or not well",
+      "example": "I stayed home because I was feeling under the weather.",
+      "imageKeyword": "sick person"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 106,
+    "word": "on the same page",
+    "issues": [
+      "definition is vague (uses “thing/stuff/etc.”)",
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "on the same page",
+      "level": 3,
+      "definition": "to agree or understand the same thing",
+      "example": "Let's make sure we are on the same page about the project plan.",
+      "imageKeyword": "agreement"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 107,
+    "word": "cost an arm and a leg",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "cost an arm and a leg",
+      "level": 3,
+      "definition": "to be very expensive",
+      "example": "That new bike costs an arm and a leg!",
+      "imageKeyword": "expensive price"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 109,
+    "word": "bite off more than you can chew",
+    "issues": [
+      "example does not contain the target phrase",
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "bite off more than you can chew",
+      "level": 3,
+      "definition": "to try to do more than you can handle",
+      "example": "Joining three clubs was biting off more than he could chew.",
+      "imageKeyword": "overwhelmed"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 120,
+    "word": "get cold feet",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "get cold feet",
+      "level": 3,
+      "definition": "to become too scared to do something",
+      "example": "He got cold feet and did not jump off the diving board.",
+      "imageKeyword": "scared diving board"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 121,
+    "word": "go the extra mile",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "go the extra mile",
+      "level": 3,
+      "definition": "to try harder than expected",
+      "example": "She went the extra mile and decorated the whole room for the party.",
+      "imageKeyword": "extra effort"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 124,
+    "word": "sit on the fence",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "sit on the fence",
+      "level": 3,
+      "definition": "to not make a decision between two choices",
+      "example": "Stop sitting on the fence and pick which game to play.",
+      "imageKeyword": "fence undecided"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 128,
+    "word": "pull someone's leg",
+    "issues": [
+      "example does not contain the target phrase",
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "pull someone's leg",
+      "level": 3,
+      "definition": "to joke with someone or trick them playfully",
+      "example": "Are you pulling my leg, or did you really see a bear?",
+      "imageKeyword": "joking"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 129,
+    "word": "throw in the towel",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "throw in the towel",
+      "level": 3,
+      "definition": "to give up on something",
+      "example": "After trying for an hour, she threw in the towel and asked for help.",
+      "imageKeyword": "giving up"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 131,
+    "word": "in hot water",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "in hot water",
+      "level": 3,
+      "definition": "in trouble",
+      "example": "He was in hot water after forgetting his homework again.",
+      "imageKeyword": "trouble"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 133,
+    "word": "turn out",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "turn out",
+      "level": 3,
+      "definition": "to end up being a certain way",
+      "example": "The rainy day turned out to be really fun because we played inside.",
+      "imageKeyword": "surprise ending"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 134,
+    "word": "run out of",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "run out of",
+      "level": 3,
+      "definition": "to use up all of something so none is left",
+      "example": "The printer ran out of paper right before I needed to print my homework.",
+      "imageKeyword": "empty carton"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 136,
+    "word": "carry on",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "carry on",
+      "level": 3,
+      "definition": "to keep going or keep on doing something",
+      "example": "Even when it got hard, she carried on with the race.",
+      "imageKeyword": "keep going"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 138,
+    "word": "take part in",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "take part in",
+      "level": 3,
+      "definition": "to join and do an activity with others",
+      "example": "Everyone should take part in the science fair.",
+      "imageKeyword": "participating"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 139,
+    "word": "go over",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "go over",
+      "level": 3,
+      "definition": "to review or check something again",
+      "example": "Let's go over the directions one more time before we start.",
+      "imageKeyword": "reviewing"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 140,
+    "word": "a penny for your thoughts",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "a penny for your thoughts",
+      "level": 3,
+      "definition": "asking someone what they are thinking about",
+      "example": "You look so quiet — a penny for your thoughts?",
+      "imageKeyword": "thinking person"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 143,
+    "word": "kill two birds with one stone",
+    "issues": [
+      "example does not contain the target phrase",
+      "potential age-sensitivity term present (“kill”)"
+    ],
+    "entry": {
+      "word": "kill two birds with one stone",
+      "level": 3,
+      "definition": "to solve two problems with one action",
+      "example": "Walking to school kills two birds with one stone: exercise and saving gas.",
+      "imageKeyword": "multitasking efficiency"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 148,
+    "word": "hit the nail on the head",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "hit the nail on the head",
+      "level": 3,
+      "definition": "to say something that is exactly right",
+      "example": "You hit the nail on the head — that's exactly what happened!",
+      "imageKeyword": "bullseye"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 149,
+    "word": "a taste of your own medicine",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "a taste of your own medicine",
+      "level": 3,
+      "definition": "when someone is treated the same bad way they treated others",
+      "example": "He finally got a taste of his own medicine when someone interrupted him.",
+      "imageKeyword": "mirror treatment"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 150,
+    "word": "burn the midnight oil",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "burn the midnight oil",
+      "level": 3,
+      "definition": "to stay up very late working or studying",
+      "example": "He burned the midnight oil to finish his science project.",
+      "imageKeyword": "late night studying"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 154,
+    "word": "to begin with",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "to begin with",
+      "level": 3,
+      "definition": "first; the first reason",
+      "example": "To begin with, we need to gather all the supplies.",
+      "imageKeyword": "first thing"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 161,
+    "word": "first of all",
+    "issues": [
+      "example does not contain the target phrase"
+    ],
+    "entry": {
+      "word": "first of all",
+      "level": 3,
+      "definition": "the first point or step",
+      "example": "First, wash your hands before you eat.",
+      "imageKeyword": "first step"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 165,
+    "word": "not only...but also",
+    "issues": [
+      "example does not contain the target phrase",
+      "definition is vague (uses “thing/stuff/etc.”)"
+    ],
+    "entry": {
+      "word": "not only...but also",
+      "level": 3,
+      "definition": "used to add a second thing that is also true",
+      "example": "He is not only smart but also very kind.",
+      "imageKeyword": "double qualities"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 170,
+    "word": "dodder",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "dodder",
+      "level": 3,
+      "definition": "to walk in a shaky, unsteady way",
+      "example": "The elderly man doddered slowly across the icy parking lot.",
+      "imageKeyword": "unsteady walk"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 173,
+    "word": "dole",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "dole",
+      "level": 3,
+      "definition": "to give out small amounts of something",
+      "example": "The teacher doled out stickers to every student who finished the quiz.",
+      "imageKeyword": "handing out"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 174,
+    "word": "dolt",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "dolt",
+      "level": 3,
+      "definition": "a person who is slow to understand things",
+      "example": "He felt like a dolt when he could not solve the simple puzzle.",
+      "imageKeyword": "confused person"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 177,
+    "word": "dote",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "dote",
+      "level": 3,
+      "definition": "to show a lot of love and attention",
+      "example": "Grandma doted on her grandchildren and always brought them little presents.",
+      "imageKeyword": "loving grandma"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 182,
+    "word": "drape",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "drape",
+      "level": 3,
+      "definition": "to hang cloth loosely over something",
+      "example": "She draped a soft blanket over the sleeping baby in the stroller.",
+      "imageKeyword": "draped blanket"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 184,
+    "word": "drench",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "drench",
+      "level": 3,
+      "definition": "to make completely wet",
+      "example": "The garden sprinkler drenched the kids as they ran through it.",
+      "imageKeyword": "soaking wet kids"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 187,
+    "word": "droop",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "droop",
+      "level": 3,
+      "definition": "to hang down loosely because of weakness",
+      "example": "The flowers drooped because nobody had watered them for a week.",
+      "imageKeyword": "wilting flowers"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 188,
+    "word": "dub",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "dub",
+      "level": 3,
+      "definition": "to give someone a name or title",
+      "example": "His friends dubbed him 'the bookworm' because he was always reading.",
+      "imageKeyword": "giving nickname"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 193,
+    "word": "earmark",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "earmark",
+      "level": 3,
+      "definition": "to set something aside for a special purpose",
+      "example": "The school earmarked money from the bake sale to buy new library books.",
+      "imageKeyword": "saving money"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 195,
+    "word": "eave",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "eave",
+      "level": 3,
+      "definition": "the edge of a roof that sticks out beyond the wall",
+      "example": "Rainwater dripped from the eaves of the house and splashed on the sidewalk.",
+      "imageKeyword": "roof edge"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 200,
+    "word": "elapse",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "elapse",
+      "level": 3,
+      "definition": "for time to pass by",
+      "example": "Three hours elapsed before the rescue team finally reached the stranded hikers.",
+      "imageKeyword": "passing time"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 201,
+    "word": "elate",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "elate",
+      "level": 3,
+      "definition": "to make someone very happy and excited",
+      "example": "Winning the spelling bee elated her, and she jumped up and down with joy.",
+      "imageKeyword": "celebrating win"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 204,
+    "word": "elongate",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "elongate",
+      "level": 3,
+      "definition": "to make something longer or stretch it out",
+      "example": "Pulling the taffy elongated it from a short lump into a long ribbon.",
+      "imageKeyword": "stretching taffy"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 205,
+    "word": "elude",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "elude",
+      "level": 3,
+      "definition": "to escape or avoid being caught",
+      "example": "The clever fox eluded the hunting dogs by doubling back through the stream.",
+      "imageKeyword": "fox escaping"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 206,
+    "word": "emboss",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "emboss",
+      "level": 3,
+      "definition": "to press a raised design into a surface",
+      "example": "The fancy invitation was embossed with gold letters you could feel with your fingers.",
+      "imageKeyword": "raised letters"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 210,
+    "word": "encrust",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "encrust",
+      "level": 3,
+      "definition": "to cover a surface with a hard layer",
+      "example": "The old shipwreck was encrusted with barnacles and bright sea life.",
+      "imageKeyword": "encrusted ship"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 212,
+    "word": "engross",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "engross",
+      "level": 3,
+      "definition": "to hold someone's focus fully",
+      "example": "The exciting mystery novel engrossed him so much he forgot to eat lunch.",
+      "imageKeyword": "reading deeply"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 213,
+    "word": "enshroud",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "enshroud",
+      "level": 3,
+      "definition": "to cover or hide something completely",
+      "example": "Thick fog enshrouded the valley, making it impossible to see the road ahead.",
+      "imageKeyword": "foggy valley"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 214,
+    "word": "enthrall",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "enthrall",
+      "level": 3,
+      "definition": "to capture someone's focus and fascinate them",
+      "example": "The storyteller enthralled the children with tales of dragons and brave knights.",
+      "imageKeyword": "captivated children"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 215,
+    "word": "entreat",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)",
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "entreat",
+      "level": 3,
+      "definition": "to beg someone with strong feeling",
+      "example": "The lost traveler entreated the villagers for food, and a warm place to sleep.",
+      "imageKeyword": "pleading person"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 224,
+    "word": "expel",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "expel",
+      "level": 3,
+      "definition": "to force someone or something out",
+      "example": "The whale expels a spout of water through the blowhole covering its head.",
+      "imageKeyword": "whale spout"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 228,
+    "word": "falter",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "falter",
+      "level": 3,
+      "definition": "to become weak or unsteady",
+      "example": "Her voice faltered with emotion as she thanked everyone for their help.",
+      "imageKeyword": "shaky voice"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 231,
+    "word": "feign",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "feign",
+      "level": 3,
+      "definition": "to pretend to feel something",
+      "example": "She feigned surprise even though she already knew about the birthday party.",
+      "imageKeyword": "pretending surprise"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 232,
+    "word": "festoon",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "festoon",
+      "level": 3,
+      "definition": "to decorate with strings of flowers, lights, or ribbons",
+      "example": "They festooned the classroom with paper chains and balloons for the party.",
+      "imageKeyword": "decorated room"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 233,
+    "word": "fidget",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "fidget",
+      "level": 3,
+      "definition": "to make small, restless movements",
+      "example": "He fidgeted in his chair during the long assembly, tapping his feet.",
+      "imageKeyword": "restless child"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 244,
+    "word": "flicker",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "flicker",
+      "level": 3,
+      "definition": "to shine with an unsteady, quick light",
+      "example": "The candle flickered in the breeze, making shadows dance on the walls.",
+      "imageKeyword": "flickering candle"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 245,
+    "word": "flinch",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "flinch",
+      "level": 3,
+      "definition": "to make a quick movement away because of pain or fear",
+      "example": "She flinched when the ball flew toward her face, but it missed.",
+      "imageKeyword": "dodging ball"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 247,
+    "word": "flounce",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "flounce",
+      "level": 3,
+      "definition": "to move in an exaggerated, angry way",
+      "example": "She flounced out of the room after losing the argument.",
+      "imageKeyword": "stomping away"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 248,
+    "word": "flout",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "flout",
+      "level": 3,
+      "definition": "to openly disobey a rule or law",
+      "example": "The driver flouted the speed limit and was pulled over by the police.",
+      "imageKeyword": "speeding car"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 265,
+    "word": "frolic",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "frolic",
+      "level": 3,
+      "definition": "to play and run around happily",
+      "example": "The puppies frolicked in the backyard, chasing each other in circles.",
+      "imageKeyword": "puppies playing"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 269,
+    "word": "fumigate",
+    "issues": [
+      "potential age-sensitivity term present (“kill”)"
+    ],
+    "entry": {
+      "word": "fumigate",
+      "level": 3,
+      "definition": "to use smoke or gas to kill insects or germs",
+      "example": "They had to fumigate the old house to get rid of all the termites.",
+      "imageKeyword": "pest control"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 270,
+    "word": "furlong",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "furlong",
+      "level": 3,
+      "definition": "a unit of distance equal to one-eighth of a mile",
+      "example": "The horse race was five furlongs long—just over half a mile.",
+      "imageKeyword": "horse race"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 278,
+    "word": "gambol",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "gambol",
+      "level": 3,
+      "definition": "to run and jump around playfully",
+      "example": "The lambs gamboled in the spring meadow, leaping over tufts of grass.",
+      "imageKeyword": "lambs jumping"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 281,
+    "word": "garner",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "garner",
+      "level": 3,
+      "definition": "to collect or gather something",
+      "example": "The science project garnered praise from every judge at the fair.",
+      "imageKeyword": "earning praise"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 296,
+    "word": "gnaw",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "gnaw",
+      "level": 3,
+      "definition": "to keep biting on something",
+      "example": "The puppy gnawed on the rubber bone for hours without getting bored.",
+      "imageKeyword": "puppy chewing"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 298,
+    "word": "gouge",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "gouge",
+      "level": 3,
+      "definition": "to dig or scoop out roughly",
+      "example": "The sharp rock gouged a deep scratch in the bottom of the kayak.",
+      "imageKeyword": "deep scratch"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 299,
+    "word": "graft",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "graft",
+      "level": 3,
+      "definition": "to attach a piece of one plant onto another so it grows",
+      "example": "The gardener grafted a branch from an apple tree onto a pear tree.",
+      "imageKeyword": "plant grafting"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 300,
+    "word": "graze",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "graze",
+      "level": 3,
+      "definition": "to eat grass, or to scrape lightly",
+      "example": "Cows grazed peacefully in the green pasture beside the barn.",
+      "imageKeyword": "cows grazing"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 302,
+    "word": "gregarious",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "gregarious",
+      "level": 3,
+      "definition": "loving to be around other people",
+      "example": "The gregarious girl made friends everywhere she went.",
+      "imageKeyword": "social person"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 308,
+    "word": "grovel",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "grovel",
+      "level": 3,
+      "definition": "to crawl on the ground, or to beg in a humiliating way",
+      "example": "The knight groveled before the queen and begged for forgiveness.",
+      "imageKeyword": "kneeling begging"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 310,
+    "word": "grumble",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)",
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "grumble",
+      "level": 3,
+      "definition": "to complain in a quiet, unhappy way",
+      "example": "The students grumbled about the extra homework but did it anyway.",
+      "imageKeyword": "complaining"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 311,
+    "word": "gulp",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "gulp",
+      "level": 3,
+      "definition": "to swallow something quickly or to swallow nervously",
+      "example": "He gulped down the cold lemonade after running three laps in the heat.",
+      "imageKeyword": "drinking fast"
+    }
+  },
+  {
+    "label": "L3B",
+    "index": 313,
+    "word": "hallow",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "hallow",
+      "level": 3,
+      "definition": "to make something holy or sacred",
+      "example": "The ancient ground was hallowed by the ceremonies held there for centuries.",
+      "imageKeyword": "sacred ground"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 4,
+    "word": "burden",
+    "issues": [
+      "definition appears truncated (ends with “with”)"
+    ],
+    "entry": {
+      "word": "burden",
+      "level": 3,
+      "definition": "something heavy or hard to carry or deal with",
+      "example": "Carrying all six library books at once was a burden, so she made two trips.",
+      "imageKeyword": "heavy books"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 9,
+    "word": "exclaim",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "exclaim",
+      "level": 3,
+      "definition": "to say something suddenly with strong feeling",
+      "example": "'Look, a shooting star!' he exclaimed, pointing at the night sky.",
+      "imageKeyword": "excited pointing"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 52,
+    "word": "census",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "census",
+      "level": 3,
+      "definition": "an official count of all the people living in a place",
+      "example": "Every ten years, the government does a census to find out how many people live in each state.",
+      "imageKeyword": "counting people"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 54,
+    "word": "crater",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "crater",
+      "level": 3,
+      "definition": "a big bowl-shaped hole in the ground, often from a space rock",
+      "example": "The moon is covered in craters where rocks from space crashed into it billions of years ago.",
+      "imageKeyword": "moon crater"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 94,
+    "word": "interval",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "interval",
+      "level": 3,
+      "definition": "the amount of time or space between two things",
+      "example": "The buses arrive at ten-minute intervals, so you never wait very long.",
+      "imageKeyword": "time between"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 102,
+    "word": "hardship",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "hardship",
+      "level": 3,
+      "definition": "hard conditions that cause suffering",
+      "example": "The pioneer families faced many hardships with harsh winters and limited food.",
+      "imageKeyword": "difficult life"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 105,
+    "word": "haste",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "haste",
+      "level": 3,
+      "definition": "great speed or hurry",
+      "example": "In her haste to catch the bus, she left her lunch on the kitchen counter.",
+      "imageKeyword": "rushing person"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 108,
+    "word": "heed",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "heed",
+      "level": 3,
+      "definition": "to pay attention to advice or a warning",
+      "example": "He heeded his father's warning and wore a coat on the chilly day.",
+      "imageKeyword": "listening advice"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 110,
+    "word": "herald",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "herald",
+      "level": 3,
+      "definition": "a person who announces important news, or to be a sign of something coming",
+      "example": "Robins are often called heralds of spring because they appear when warm weather arrives.",
+      "imageKeyword": "robin spring"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 112,
+    "word": "hew",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "hew",
+      "level": 3,
+      "definition": "to chop or cut something with an axe or tool",
+      "example": "The lumberjack hewed the fallen tree into logs for the campfire.",
+      "imageKeyword": "chopping wood"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 114,
+    "word": "hoard",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "hoard",
+      "level": 3,
+      "definition": "to collect and store a large amount of something",
+      "example": "The dragon hoarded gold coins in a giant pile inside its cave.",
+      "imageKeyword": "dragon treasure"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 115,
+    "word": "hobble",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)",
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "hobble",
+      "level": 3,
+      "definition": "to walk with trouble, usually because of pain",
+      "example": "He hobbled to the nurse's office after twisting his ankle on the playground.",
+      "imageKeyword": "limping person"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 116,
+    "word": "hoist",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "hoist",
+      "level": 3,
+      "definition": "to lift something heavy, often with ropes",
+      "example": "The sailors hoisted the heavy anchor out of the water before setting sail.",
+      "imageKeyword": "hoisting anchor"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 119,
+    "word": "hone",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "hone",
+      "level": 3,
+      "definition": "to sharpen or improve a skill",
+      "example": "She honed her drawing skills by sketching in her notebook every single day.",
+      "imageKeyword": "practicing drawing"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 124,
+    "word": "huddle",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "huddle",
+      "level": 3,
+      "definition": "to crowd together closely",
+      "example": "The players huddled together to plan their next move before the final play.",
+      "imageKeyword": "team huddle"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 128,
+    "word": "hurl",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "hurl",
+      "level": 3,
+      "definition": "to throw something with great force",
+      "example": "The pitcher hurled the baseball so fast the batter could barely see it.",
+      "imageKeyword": "throwing ball"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 132,
+    "word": "hyperbole",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "hyperbole",
+      "level": 3,
+      "definition": "an exaggeration used to make a point, not meant to be taken literally",
+      "example": "Saying 'I'm so hungry I could eat a horse' is an example of hyperbole.",
+      "imageKeyword": "exaggeration"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 134,
+    "word": "imbue",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "imbue",
+      "level": 3,
+      "definition": "to fill something with a quality or feeling",
+      "example": "The teacher imbued his students with a love of reading from day one.",
+      "imageKeyword": "inspiring teacher"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 136,
+    "word": "impound",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "impound",
+      "level": 3,
+      "definition": "to take and keep something by law",
+      "example": "The city impounded the car because it had been parked illegally for weeks.",
+      "imageKeyword": "towed car"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 137,
+    "word": "indent",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "indent",
+      "level": 3,
+      "definition": "to start a line of text further from the edge",
+      "example": "She indented the first line of each paragraph in her essay.",
+      "imageKeyword": "indented paragraph"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 139,
+    "word": "infuse",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "infuse",
+      "level": 3,
+      "definition": "to fill something with a quality, or to soak to extract flavor",
+      "example": "She infused the water with slices of lemon and mint for a refreshing drink.",
+      "imageKeyword": "infused water"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 141,
+    "word": "inquest",
+    "issues": [
+      "imageKeyword is very short/vague"
+    ],
+    "entry": {
+      "word": "inquest",
+      "level": 3,
+      "definition": "an official search, especially into a death",
+      "example": "The judge ordered an inquest to find out exactly what had happened.",
+      "imageKeyword": "investigation"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 142,
+    "word": "instill",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "instill",
+      "level": 3,
+      "definition": "to gradually teach a thought or feeling to someone",
+      "example": "The coach instilled a sense of teamwork in every player on the squad.",
+      "imageKeyword": "teaching teamwork"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 144,
+    "word": "intrigue",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "intrigue",
+      "level": 3,
+      "definition": "to make someone very curious and keen",
+      "example": "The mysterious locked box intrigued the children, and they wanted to open it.",
+      "imageKeyword": "mysterious box"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 145,
+    "word": "inundate",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "inundate",
+      "level": 3,
+      "definition": "to flood or overwhelm with too much of something",
+      "example": "After the story went viral the reporter was inundated with phone calls.",
+      "imageKeyword": "overflowing inbox"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 147,
+    "word": "irk",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "irk",
+      "level": 3,
+      "definition": "to annoy or bother someone",
+      "example": "The constant dripping of the faucet irked her while she tried to study.",
+      "imageKeyword": "annoying drip"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 151,
+    "word": "jettison",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "jettison",
+      "level": 3,
+      "definition": "to throw something overboard or get rid of it",
+      "example": "The pilot jettisoned the extra fuel to make the plane lighter for landing.",
+      "imageKeyword": "throwing overboard"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 152,
+    "word": "jilt",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "jilt",
+      "level": 3,
+      "definition": "to suddenly end a relationship with someone",
+      "example": "In the old movie, the bride jilted the groom and ran out of the church.",
+      "imageKeyword": "broken heart"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 154,
+    "word": "jostle",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "jostle",
+      "level": 3,
+      "definition": "to bump or push roughly in a crowd",
+      "example": "Shoppers jostled each other trying to grab the last toy on the shelf.",
+      "imageKeyword": "crowded pushing"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 160,
+    "word": "knack",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "knack",
+      "level": 3,
+      "definition": "a natural skill for doing something with ease",
+      "example": "He has a knack for fixing things—he repaired the broken chair in ten minutes.",
+      "imageKeyword": "handy person"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 161,
+    "word": "knead",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "knead",
+      "level": 3,
+      "definition": "to press and squeeze dough with your hands",
+      "example": "The baker kneaded the bread dough until it was soft and smooth.",
+      "imageKeyword": "kneading dough"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 167,
+    "word": "lanky",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "lanky",
+      "level": 3,
+      "definition": "tall and thin in an awkward way",
+      "example": "The lanky teenager had to duck to walk through the low doorway.",
+      "imageKeyword": "tall thin person"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 171,
+    "word": "leech",
+    "issues": [
+      "potential age-sensitivity term present (“blood”)"
+    ],
+    "entry": {
+      "word": "leech",
+      "level": 3,
+      "definition": "a worm-like creature that sucks blood",
+      "example": "After wading in the pond, he found a leech stuck to his ankle.",
+      "imageKeyword": "leech worm"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 172,
+    "word": "leer",
+    "issues": [
+      "example uses only a derived/inflected form (not exact word)"
+    ],
+    "entry": {
+      "word": "leer",
+      "level": 3,
+      "definition": "to look at someone in a sly or unpleasant way",
+      "example": "The villain in the movie leered at the hero with a wicked grin.",
+      "imageKeyword": "sly look"
+    }
+  },
+  {
+    "label": "L3C",
+    "index": 183,
+    "word": "listless",
+    "issues": [
+      "imageKeyword contains generic filler word"
+    ],
+    "entry": {
+      "word": "listless",
+      "level": 3,
+      "definition": "having no energy or interest",
+      "example": "The hot afternoon made everyone listless, and no one wanted to move.",
+      "imageKeyword": "tired person"
+    }
+  }
+]

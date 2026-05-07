@@ -1,13 +1,21 @@
 # Proofcheck Report — 2026-05-07
 
 **Engine:** proofcheck.mjs v1.0
-**Entries:** 5212
-**Results:** 0 CRITICAL | 3 MAJOR | 31 MINOR
+**Entries:** 5211
+**Results:** 0 CRITICAL | 5 MAJOR | 32 MINOR
 
 ## Issues
 
 ### [MAJOR] words-level2.js — "become" (WORD_NOT_IN_EXAMPLE)
 The word "become" doesn't appear in any form in the example: "The sky became dark before the storm...."
+**Fix:** Rewrite example to include the target word
+
+### [MAJOR] words-level3b.js — "vertex" (WORD_NOT_IN_EXAMPLE)
+The word "vertex" doesn't appear in any form in the example: "A triangle has three sides and three vertices...."
+**Fix:** Rewrite example to include the target word
+
+### [MAJOR] words-level3b.js — "dike" (WORD_NOT_IN_EXAMPLE)
+The word "dike" doesn't appear in any form in the example: "The dyke along the river kept the town safe from flooding du..."
 **Fix:** Rewrite example to include the target word
 
 ### [MAJOR] words-level4a.js — "communique" (WORD_NOT_IN_EXAMPLE)
@@ -38,10 +46,6 @@ L1 definition uses complex word(s): underground
 L1 definition uses complex word(s): comfortable
 **Fix:** Simplify definition for young learners
 
-### [MINOR] words-level1.js — "fierce" (COMPLEX_DEFINITION)
-L1 definition uses complex word(s): dangerously
-**Fix:** Simplify definition for young learners
-
 ### [MINOR] words-level2.js — "detail" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): information
 **Fix:** Simplify definition for young learners
@@ -68,6 +72,10 @@ L2 definition uses complex word(s): reddish-brown
 
 ### [MINOR] words-level2a.js — "peculiar" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): interesting
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2a.js — "controversy" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): disagreement
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2b.js — "amendment" (COMPLEX_DEFINITION)
@@ -108,6 +116,10 @@ L2 definition uses complex word(s): unexpectedly
 
 ### [MINOR] words-level2c.js — "fascinate" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): interesting
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2c.js — "fault" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): responsibility
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2c.js — "inquire" (COMPLEX_DEFINITION)
