@@ -1,6 +1,6 @@
 # Dictionary Pattern Check
 
-0 HIGH | 74 MEDIUM | 62 MINOR
+0 HIGH | 73 MEDIUM | 62 MINOR
 
 ## HIGH
 
@@ -68,7 +68,6 @@
 - words-level2b.js | at the same time | Definition "happening together" is too brief to be useful
 - words-level2b.js | before long | Definition "soon" is too brief to be useful
 - words-level2b.js | due to | Definition "because of" is too brief to be useful
-- words-level2b.js | rather | L2 definition packs 3 meanings: "instead; or somewhat"
 - words-level2c.js | excellent | Definition "very good" is too brief to be useful
 - words-level2c.js | frequent | Definition "happening often" is too brief to be useful
 - words-level2d.js | peril | Definition "great danger" is too brief to be useful

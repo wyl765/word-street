@@ -54,7 +54,7 @@ const LEVEL2C_BANK=[{"word":"achieve","level":2,"definition":"to finish somethin
 {"word":"critical","level":2,"definition":"very important or serious","example":"Drinking water is critical for staying healthy.","imageKeyword":"water important"},
 {"word":"debate","level":2,"definition":"a talk where people share different opinions","example":"The class had a debate about whether cats or dogs are better pets.","imageKeyword":"debate podium"},
 {"word":"decade","level":2,"definition":"a period of ten years","example":"A decade ago, she was just a baby learning to walk.","imageKeyword":"ten calendar"},
-{"word":"decline","level":2,"definition":"to say no politely or to get less","example":"He had to decline the invitation because he was sick.","imageKeyword":"polite no"},
+{"word":"decline","level":2,"definition":"to say no politely","example":"He had to decline the invitation because he was sick.","imageKeyword":"polite no"},
 {"word":"dedicate","level":2,"definition":"to give all your effort or attention to something","example":"He dedicated his summer to learning how to swim.","imageKeyword":"focused practice"},
 {"word":"definite","level":2,"definition":"sure and certain, not unclear","example":"We have a definite plan to leave at eight in the morning.","imageKeyword":"certain checkmark"},
 {"word":"deliberate","level":2,"definition":"done on purpose, not by accident","example":"She made a deliberate choice to save her allowance instead of spending it.","imageKeyword":"on purpose"},
@@ -215,5 +215,5 @@ const LEVEL2C_BANK=[{"word":"achieve","level":2,"definition":"to finish somethin
 {"word":"option","level":2,"definition":"one of several things you can pick from","example":"For lunch, your options are pizza, soup, or a sandwich.","imageKeyword":"menu choices"},
 {"word":"origin","level":2,"definition":"where something first came from","example":"The origin of chocolate can be traced to cacao beans in Central America.","imageKeyword":"cacao beans"},
 {"word":"overcome","level":2,"definition":"to succeed against something hard","example":"You can overcome any challenge if you keep trying.","imageKeyword":"kid climbing mountain top"},
-{"word":"overlook","level":2,"definition":"to miss seeing something or to look out over a place","example":"Don't overlook the small print at the bottom of the page.","imageKeyword":"missing detail"},
+{"word":"overlook","level":2,"definition":"to miss seeing something by accident","example":"Don't overlook the small print at the bottom of the page.","imageKeyword":"missing detail"},
 {"word":"owe","level":2,"definition":"to need to pay or give something back","example":"I owe my friend a dollar because he bought me a snack.","imageKeyword":"paying back"}];

@@ -67,7 +67,7 @@ const LEVEL2D_BANK=[{"word":"pace","level":2,"definition":"the speed at which so
 {"word":"recommend","level":2,"definition":"to suggest that something is good","example":"I recommend this book because it is funny and exciting.","imageKeyword":"thumbs up book"},
 {"word":"recover","level":2,"definition":"to get well again after being sick or hurt","example":"It took two weeks to recover from the flu.","imageKeyword":"getting better"},
 {"word":"reference","level":2,"definition":"information you look at to help with something","example":"He used the dictionary as a reference to check the spelling.","imageKeyword":"reference book"},
-{"word":"reflect","level":2,"definition":"to think carefully about something or to bounce backlight","example":"The lake reflected the mountains like a giant mirror.","imageKeyword":"lake reflection"},
+{"word":"reflect","level":2,"definition":"to show an image by bouncing back light","example":"The lake reflected the mountains like a giant mirror.","imageKeyword":"lake reflection"},
 {"word":"reform","level":2,"definition":"to change a system or rule to make it better","example":"The school reformed its lunch menu to include healthier choices.","imageKeyword":"improving change"},
 {"word":"refuse","level":2,"definition":"to say no and not do something","example":"The stubborn mule refused to walk any further up the hill.","imageKeyword":"stubborn mule"},
 {"word":"regard","level":2,"definition":"to think about someone or something in a certain way","example":"The students regard their teacher as very kind and fair.","imageKeyword":"looking up to"},
@@ -255,4 +255,4 @@ const LEVEL2D_BANK=[{"word":"pace","level":2,"definition":"the speed at which so
 {"word":"deplete","level":2,"definition":"to use up until almost nothing is left","example":"If we use too much water, we will deplete the supply.","imageKeyword":"empty battery"},
 {"word":"designate","level":2,"definition":"to officially choose for a purpose","example":"The teacher designated one shelf for finished work.","imageKeyword":"labeled shelf"},
 {"word":"deteriorate","level":2,"definition":"to become worse over time","example":"The old fence deteriorated and began to fall apart.","imageKeyword":"crumbling fence"},
-{"word":"dictate","level":2,"definition":"to say words for someone to write or to give orders","example":"She dictated the letter while her friend typed it.","imageKeyword":"speaking words"}];
+{"word":"dictate","level":2,"definition":"to say words for someone else to write down","example":"She dictated the letter while her friend typed it.","imageKeyword":"speaking words"}];

@@ -637,7 +637,7 @@ function checkAdjectiveNounMismatch(entries) {
   // Words ending in adjective suffixes but defined as nouns
   const adjSuffixes = /(ous|ive|ful|less|able|ible|ic|ary|ory)$/;
   // Whitelist: words that end in adj suffix but ARE nouns
-  const nounWhitelist = ['narrative','initiative','detective','locomotive','executive','perspective','objective','alternative','incentive','representative','collective','archive','derivative','fugitive','adjective','substantive','accusative','dative','infinitive','conservative','progressive','explosive','adhesive','abrasive','sedative','laxative','superlative','comparative','imperative','prerogative','negative','positive','creative','native','relative','massive','passive','active','motive','epic','magic','music','public','traffic','picnic','panic','plastic','fabric','attic','basic','classic','historic','electric','automatic','rhetoric','arithmetic','clinic','comic','mimic','topic','logic','lyric','metric','mystic','tactic','rustic','static','mosaic','ceramic','dynamic','organic','academic','republic','fantastic','domestic','epidemic','cosmetic','genetic','athletic','prosthetic','aesthetic','synthetic','pathetic','prophetic','diagnostic','statistic','characteristic','semantic','pandemic','polemic','enthusiastic','problematic','systematic','idiomatic','aromatic','dramatic','traumatic','democratic','bureaucratic','autocratic','fanatic','erratic','eclectic','heretic','skeptic','antiseptic','relic','garlic','turmeric','tunic','basilic'];
+  const nounWhitelist = ['stable','fable','syllable','table','variable','gable','crucible','library','hickory','summary','boundary','territory','glossary','accessory','capillary','primary','category','quandary','beneficiary','inventory','repository','tributary','ivory','allegory','estuary','dormitory','conservatory','itinerary','mercenary','sanctuary','emissary','adversary','trajectory','theory','narrative','initiative','detective','locomotive','executive','perspective','objective','alternative','incentive','representative','collective','archive','derivative','fugitive','adjective','substantive','accusative','dative','infinitive','conservative','progressive','explosive','adhesive','abrasive','sedative','laxative','superlative','comparative','imperative','prerogative','negative','positive','creative','native','relative','massive','passive','active','motive','epic','magic','music','public','traffic','picnic','panic','plastic','fabric','attic','basic','classic','historic','electric','automatic','rhetoric','arithmetic','clinic','comic','mimic','topic','logic','lyric','metric','mystic','tactic','rustic','static','mosaic','ceramic','dynamic','organic','academic','republic','fantastic','domestic','epidemic','cosmetic','genetic','athletic','prosthetic','aesthetic','synthetic','pathetic','prophetic','diagnostic','statistic','characteristic','semantic','pandemic','polemic','enthusiastic','problematic','systematic','idiomatic','aromatic','dramatic','traumatic','democratic','bureaucratic','autocratic','fanatic','erratic','eclectic','heretic','skeptic','antiseptic','relic','garlic','turmeric','tunic','basilic'];
   for (const e of entries) {
     const word = (e.word || '').toLowerCase();
     const def = (e.definition || '');
@@ -670,6 +670,50 @@ function checkDanglingModifier(entries) {
       addIssue('MAJOR', e._file, e.word, 'DANGLING_MODIFIER',
         `Example may have a dangling modifier: "${ex.substring(0, 60)}..."`,
         'Ensure the subject of the main clause matches the implied subject of the participle');
+    }
+  }
+}
+
+// ============ DEFINITION-EXAMPLE POS MISMATCH ============
+function checkDefExampleMismatch(entries) {
+  // If definition starts with "a/an/the" (noun-style) but example uses the word as a verb
+  // Simple heuristic: def starts with article, but example has "to [word]" or "[subject] [word]ed/s"
+  for (const e of entries) {
+    const def = (e.definition || '');
+    const ex = (e.example || '').toLowerCase();
+    const word = (e.word || '').toLowerCase();
+    if (word.includes(' ')) continue; // skip phrases
+    // Only flag if definition is noun-style (starts with article)
+    if (!/^(a |an |the )/i.test(def)) continue;
+    // Check if example uses the word as a verb (word + ed/s/ing after subject)
+    const verbPattern = new RegExp(`\\b(to ${word}|${word}ed|${word}s|${word}ing)\\b`);
+    if (verbPattern.test(ex) && !ex.includes(`the ${word}`) && !ex.includes(`a ${word}`)) {
+      addIssue('MINOR', e._file, e.word, 'DEF_EX_POS_MISMATCH',
+        `Definition is noun-style but example uses word as verb`,
+        'Align definition and example to same part of speech');
+    }
+  }
+}
+
+// ============ MULTI-MEANING CHECK (L1-L2) ============
+function checkMultiMeaning(entries) {
+  // L1-L2 definitions should have single meaning
+  // Detect patterns: ", or to ", "or to " joining two verb phrases
+  const multiMeaningPattern = /,?\s+or\s+to\s+/i;
+  // Whitelist: synonym paraphrases (same meaning expressed differently)
+  const synonymWhitelist = ['depend','denote','cease','halt'];
+  for (const e of entries) {
+    const level = e.level || 0;
+    if (level > 2) continue;
+    if (synonymWhitelist.includes(e.word)) continue;
+    const def = e.definition || '';
+    if (multiMeaningPattern.test(def)) {
+      // Whitelist: same-concept alternatives (e.g., "butterfly or moth", "bear or lion")
+      const orSegments = def.split(/\s+or\s+/);
+      if (orSegments.length === 2 && !orSegments[1].startsWith('to ')) continue;
+      addIssue('HIGH', e._file, e.word, 'MULTI_MEANING',
+        `L${level} definition has multiple distinct meanings: "${def}"`,
+        'L1-L2 definitions should have a single meaning. Pick the most common/useful one.');
     }
   }
 }
@@ -707,6 +751,7 @@ checkIntroductoryComma(entries);
 checkAdjectiveNounMismatch(entries);
 checkBetweenComma(entries);
 checkDanglingModifier(entries);
+checkMultiMeaning(entries);
 
 // Sort by severity
 const severityOrder = { CRITICAL: 0, MAJOR: 1, MINOR: 2 };

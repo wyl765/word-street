@@ -84,7 +84,7 @@ const LEVEL2_BANK=[{"word":"describe","level":2,"definition":"to tell what somet
 {"word":"make up","level":2,"definition":"to invent","example":"We make up a funny story about a talking shoe.","imageKeyword":"funny story"},
 {"word":"point out","level":2,"definition":"to show something","example":"The teacher pointed out the comma in my sentence.","imageKeyword":"comma"},
 {"word":"come across","level":2,"definition":"to find by chance","example":"I came across a shiny shell while walking on the beach.","imageKeyword":"shell"},
-{"word":"break down","level":2,"definition":"to stop working or to fall apart","example":"Our old wagon broke down, so we carried the pumpkins.","imageKeyword":"broken wagon"},
+{"word":"break down","level":2,"definition":"to stop working","example":"Our old wagon broke down, so we carried the pumpkins.","imageKeyword":"broken wagon"},
 {"word":"carry out","level":2,"definition":"to do a plan","example":"We carried out our science test step by step.","imageKeyword":"science test"},
 {"word":"set up","level":2,"definition":"to get ready","example":"We set up the tent by spreading the poles on the ground.","imageKeyword":"tent setup"},
 {"word":"courageous","level":2,"definition":"brave","example":"The courageous lifeguard jumped in to help the swimmer.","imageKeyword":"lifeguard"},

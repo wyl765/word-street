@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-08
 
-3819 ambiguous pairs found.
+3817 ambiguous pairs found.
 
 ## L1: "goose" vs "frog" (67%)
 - goose: a big bird that honks and lives near water
@@ -5217,10 +5217,6 @@
 ## L2: "partly" vs "sole" (100%)
 - partly: not all the way, only some
 - sole: the only one
-
-## L2: "presently" vs "before long" (100%)
-- presently: at this moment or very soon
-- before long: soon
 
 ## L2: "previously" vs "lately" (67%)
 - previously: before now, at an earlier time
@@ -13206,10 +13202,6 @@
 - conifer: a tree that has cones and keeps its leaves all year
 - evergreen: a tree or bush that keeps its green leaves all year
 
-## L3: "conifer" vs "deciduous" (60%)
-- conifer: a tree that has cones and keeps its leaves all year
-- deciduous: a tree that loses all its leaves in autumn
-
 ## L3: "cyclone" vs "hurricane" (83%)
 - cyclone: a powerful spinning storm with strong winds
 - hurricane: a powerful storm with very strong winds and heavy rain
@@ -13334,13 +13326,9 @@
 - kilometer: a unit of distance equal to 1000 meters
 - furlong: a unit of distance equal to one-eighth of a mile
 
-## L3: "commutative" vs "associative" (75%)
-- commutative: a rule that says you can switch the order of numbers and get the same answer
-- associative: a rule that says you can group numbers differently and get the same answer
-
-## L3: "distributive" vs "hatch" (100%)
-- distributive: a rule that lets you break apart a hard multiplication problem
-- hatch: to break out of an egg
+## L3: "commutative" vs "associative" (71%)
+- commutative: able to be switched in order and still give the same answer
+- associative: able to be grouped differently and still give the same answer
 
 ## L3: "composite" vs "prime" (83%)
 - composite: a number that can be split evenly by numbers other than 1 and itself
@@ -13461,10 +13449,6 @@
 ## L3: "evergreen" vs "greenery" (67%)
 - evergreen: a tree or bush that keeps its green leaves all year
 - greenery: green plants and leaves
-
-## L3: "evergreen" vs "deciduous" (60%)
-- evergreen: a tree or bush that keeps its green leaves all year
-- deciduous: a tree that loses all its leaves in autumn
 
 ## L3: "expanse" vs "glade" (67%)
 - expanse: a wide, open area
@@ -13969,6 +13953,14 @@
 ## L4: "enfranchisement" vs "suffrage" (67%)
 - enfranchisement: giving someone the right to vote
 - suffrage: the right to vote in elections
+
+## L4: "enormity" vs "plead" (67%)
+- enormity: the great seriousness of something bad
+- plead: to ask for something with great emotion and urgency
+
+## L4: "enormity" vs "prowess" (67%)
+- enormity: the great seriousness of something bad
+- prowess: great skill or ability in something
 
 ## L4: "epitomize" vs "paragon" (67%)
 - epitomize: to be a perfect example of something
