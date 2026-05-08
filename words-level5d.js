@@ -33,7 +33,7 @@ const LEVEL5D_BANK=[{"word":"accusatory","level":5,"definition":"showing that yo
 {"word":"catastrophic","level":5,"definition":"causing sudden great damage or suffering","example":"The catastrophic earthquake destroyed hundreds of buildings.","imageKeyword":"earthquake damage"},
 {"word":"caustic","level":5,"definition":"able to burn or damage by chemical action, or very critical","example":"The caustic cleaning chemical came with a safety warning.","imageKeyword":"chemical warning"},
 {"word":"cessation","level":5,"definition":"the stopping or ending of something","example":"The cessation of rain brought people back outside.","imageKeyword":"rain stopping"},
-{"word":"chronological","level":5,"definition":"arranged in the order that things happened in time","example":"The biography tells the story in chronological order from birth to death.","imageKeyword":"timeline order"},
+{"word":"chronological","level":5,"definition":"arranged in the order that things happened in time","example":"The biography tells the story in chronological order from earliest to latest events.","imageKeyword":"timeline order"},
 {"word":"circumscribe","level":5,"definition":"to draw a line around or to limit something","example":"The rules circumscribe what students can do during lunch break.","imageKeyword":"circle boundary"},
 {"word":"clamber","level":5,"definition":"to climb with difficulty using both hands and feet","example":"The children clambered over the rocky hillside to reach the top.","imageKeyword":"climbing rocks"},
 {"word":"clandestine","level":5,"definition":"done secretly or kept hidden","example":"The spies held a clandestine meeting in the back of the bookstore.","imageKeyword":"secret meeting"},
@@ -284,5 +284,5 @@ const LEVEL5D_BANK=[{"word":"accusatory","level":5,"definition":"showing that yo
 {"word":"gratify","level":5,"definition":"to give pleasure or satisfaction","example":"It gratified the teacher to see her students succeed on the exam.","imageKeyword":"happy satisfaction"},
 {"word":"personable","level":5,"definition":"having a pleasant appearance and manner","example":"The personable host made every guest feel welcome at the party.","imageKeyword":"warm host"},
 {"word":"perilous","level":5,"definition":"full of danger or risk","example":"The perilous mountain path had no guardrails along the cliff edge.","imageKeyword":"dangerous path"},
-{"word":"orthodontics","level":5,"definition":"the branch of dentistry that corrects teeth and jaw alignment","example":"Braces are one of the most common orthodontic treatments for teenagers.","imageKeyword":"dental braces"},
+{"word":"orthodontics","level":5,"definition":"the branch of dentistry that corrects teeth and jaw alignment","example":"She studied orthodontics so she could help people get straighter teeth.","imageKeyword":"dental braces"},
 {"word":"palindrome","level":5,"definition":"a word or phrase that reads the same backward and forward","example":"The word 'racecar' is a famous palindrome.","imageKeyword":"mirror word"}];

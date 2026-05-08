@@ -1,0 +1,226 @@
+[
+  {
+    "file": "words-level1.js",
+    "word": "nod",
+    "def": "to move your head up and down for yes",
+    "ex": "He gave a nod to show he understood.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  },
+  {
+    "file": "words-level1.js",
+    "word": "quickly",
+    "def": "in a fast way",
+    "ex": "She quickly grabbed her bag and ran to school.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level1.js",
+    "word": "quietly",
+    "def": "without making noise",
+    "ex": "She quietly closed the door, so the baby would not wake.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level1.js",
+    "word": "gently",
+    "def": "in a soft careful way",
+    "ex": "She gently placed the egg in the basket.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level1.js",
+    "word": "almost",
+    "def": "very close but not quite",
+    "ex": "He almost caught the ball, but it slipped away.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level1.js",
+    "word": "finally",
+    "def": "at last, after a long wait",
+    "ex": "After trying many times, she finally did it!",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level1.js",
+    "word": "often",
+    "def": "many times, again and again",
+    "ex": "She often read books before bed.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "immediately",
+    "def": "right away",
+    "ex": "When the bell rang, we immediately lined up.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "recently",
+    "def": "not long ago",
+    "ex": "I recently learned to tie my shoes.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "rarely",
+    "def": "not often",
+    "ex": "We rarely see snow in our town, so it feels special.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "occasionally",
+    "def": "sometimes",
+    "ex": "I occasionally ride my bike to the library.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "also",
+    "def": "in addition; as well",
+    "ex": "I brought water, and I also packed a snack.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "always",
+    "def": "every time",
+    "ex": "I always wash my hands before eating.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "crash",
+    "def": "to hit with a loud noise",
+    "ex": "The wave made a crash on the rocks.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "glitter",
+    "def": "to sparkle",
+    "ex": "The glitter on the card sparkled in the light.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "groan",
+    "def": "a sound from pain or upset",
+    "ex": "I groaned when I bumped my toe.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "judge",
+    "def": "to decide what is best",
+    "ex": "The judge chose the best drawing at the fair.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "never",
+    "def": "not ever",
+    "ex": "I never touch a hot stove.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "snap",
+    "def": "to break with a quick sound",
+    "ex": "The twig made a snap under my shoe.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  },
+  {
+    "file": "words-level2.js",
+    "word": "carefully",
+    "def": "paying close attention not to make mistakes",
+    "ex": "He carefully carried the glass of water without spilling.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "command",
+    "def": "to tell a person what they must do",
+    "ex": "The captain gave a command for all the soldiers to march forward.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "nearly",
+    "def": "almost but not quite",
+    "ex": "She nearly finished the race but tripped right before the finish line.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "normally",
+    "def": "the way things most times happen",
+    "ex": "We normally eat breakfast at seven, but today we slept late.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "regularly",
+    "def": "happening at the same time again and again",
+    "ex": "She regularly waters her plant every morning before school.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "simply",
+    "def": "easily, nothing more",
+    "ex": "You can fix it simply by pressing the restart button.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "typically",
+    "def": "the way something most times happens",
+    "ex": "He typically walks to school, but today his mom drove him.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "usually",
+    "def": "most of the time",
+    "ex": "We usually have pizza on Friday nights.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "knowledge",
+    "def": "things you know from learning",
+    "ex": "Reading books gives you knowledge about the world.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "willingly",
+    "def": "happy to do something without being forced",
+    "ex": "He willingly shared his lunch with the new student.",
+    "issue": "definition looks like NON-VERB but example uses VERB"
+  },
+  {
+    "file": "words-level2a.js",
+    "word": "request",
+    "def": "to ask politely for something",
+    "ex": "He made a request for a library book about sharks.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  },
+  {
+    "file": "words-level2c.js",
+    "word": "appeal",
+    "def": "to ask for something in a serious way",
+    "ex": "The teacher made an appeal for everyone to be kind to the new student.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  },
+  {
+    "file": "words-level2c.js",
+    "word": "lack",
+    "def": "to not have enough of something",
+    "ex": "The plants died due to a lack of water during the hot summer.",
+    "issue": "definition looks like VERB but example uses NOUN"
+  }
+]

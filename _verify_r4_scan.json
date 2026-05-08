@@ -1,0 +1,1407 @@
+[
+  {
+    "filePath": "/Users/percy/.openclaw/workspace/projects/word-street/words-level1.js",
+    "bankVar": "LEVEL1_BANK",
+    "count": 600,
+    "flags": [
+      {
+        "severity": "MAJOR",
+        "kind": "definition-contains-headword",
+        "word": "chick",
+        "idx": 4,
+        "def": "a baby chicken"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "imageKeyword-risky-term",
+        "word": "skull",
+        "idx": 98,
+        "img": "skull",
+        "term": "skull"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "stare",
+        "idx": 237,
+        "ex": "He could not stop staring at the huge cake."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "beside",
+        "idx": 378,
+        "def": "next to"
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "toward",
+        "idx": 381,
+        "def": "in the direction of"
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "along",
+        "idx": 385,
+        "def": "following the edge or line of"
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "throughout",
+        "idx": 396,
+        "def": "in every part of"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "come back",
+        "idx": 401,
+        "ex": "The dog always comes back when I call his name."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "wake up",
+        "idx": 404,
+        "ex": "He woke up when the alarm clock rang."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "run out",
+        "idx": 418,
+        "ex": "We ran out of milk, so Dad went to the store."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "imageKeyword-risky-term",
+        "word": "smoke",
+        "idx": 549,
+        "img": "smoke",
+        "term": "smoke"
+      }
+    ]
+  },
+  {
+    "filePath": "/Users/percy/.openclaw/workspace/projects/word-street/words-level2.js",
+    "bankVar": "LEVEL2_BANK",
+    "count": 552,
+    "flags": [
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "decide",
+        "idx": 5,
+        "ex": "I decided to bring an apple instead of chips."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "realize",
+        "idx": 8,
+        "ex": "I realized my mittens were still on the chair."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "point out",
+        "idx": 84,
+        "ex": "The teacher pointed out the comma in my sentence."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "come across",
+        "idx": 85,
+        "ex": "I came across a shiny shell while walking on the beach."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "break down",
+        "idx": 86,
+        "ex": "Our old wagon broke down, so we carried the pumpkins."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "carry out",
+        "idx": 87,
+        "ex": "We carried out our science test step by step."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "about",
+        "idx": 95,
+        "def": "on the subject of"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "become",
+        "idx": 129,
+        "ex": "The sky became dark before the storm."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "beg",
+        "idx": 130,
+        "ex": "The puppy begged for a bite by staring at my plate."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "carve",
+        "idx": 157,
+        "ex": "We carved a face into the pumpkin."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "cuddle",
+        "idx": 180,
+        "ex": "I cuddled my teddy when I felt scared."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "pause",
+        "idx": 308,
+        "ex": "I paused to tie my shoe during the run."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "tease",
+        "idx": 361,
+        "def": "to make fun of"
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "tend",
+        "idx": 363,
+        "def": "to take care of"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "mulberry",
+        "idx": 524,
+        "ex": "We picked mulberries from the tree in the yard."
+      }
+    ]
+  },
+  {
+    "filePath": "/Users/percy/.openclaw/workspace/projects/word-street/words-level2a.js",
+    "bankVar": "LEVEL2A_BANK",
+    "count": 400,
+    "flags": [
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "dare",
+        "idx": 14,
+        "ex": "Nobody dared to open the creaky old door in the basement."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "examine",
+        "idx": 18,
+        "ex": "The doctor examined my sore throat with a tiny flashlight."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "exchange",
+        "idx": 19,
+        "ex": "The two friends exchanged stickers during lunch."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "excite",
+        "idx": 20,
+        "ex": "The news about the field trip excited all the students."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "explore",
+        "idx": 22,
+        "ex": "We explored the cave with flashlights and found cool rocks inside."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "gaze",
+        "idx": 27,
+        "ex": "He gazed at the stars, amazed by how many there were."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "guide",
+        "idx": 28,
+        "ex": "The park ranger guided us along the trail through the forest."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "increase",
+        "idx": 34,
+        "ex": "The number of students in our class increased from twenty to twenty-five."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "announce",
+        "idx": 38,
+        "ex": "The principal announced that school would end early because of the snow."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "approve",
+        "idx": 39,
+        "ex": "Mom approved my plan to have a sleepover this weekend."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "argue",
+        "idx": 40,
+        "ex": "The two brothers argued about whose turn it was to play the game."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "celebrate",
+        "idx": 42,
+        "ex": "We celebrated grandma's birthday with cake and balloons."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "convince",
+        "idx": 44,
+        "ex": "She convinced her dad to let them get a puppy by promising to walk it every day."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "encourage",
+        "idx": 47,
+        "ex": "Her friends encouraged her to try again after she fell off the bike."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "improve",
+        "idx": 48,
+        "ex": "She improved her reading by practicing every night before bed."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "observe",
+        "idx": 50,
+        "ex": "We observed the caterpillar as it slowly turned into a butterfly."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "organize",
+        "idx": 51,
+        "ex": "She organized her crayons by color in a neat row."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "material",
+        "idx": 163,
+        "def": "what something is made of"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "supply",
+        "idx": 219,
+        "ex": "The store supplies food to families in the neighborhood."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "survive",
+        "idx": 220,
+        "ex": "The little plant survived the cold winter and bloomed in spring."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "oppose",
+        "idx": 245,
+        "ex": "Some students opposed the new rule because they thought it was unfair."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "occupy",
+        "idx": 246,
+        "ex": "A family of owls occupied the old tree house in the backyard."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "demonstrate",
+        "idx": 279,
+        "ex": "The teacher demonstrated how to mix paint colors on the paper."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "investigate",
+        "idx": 280,
+        "ex": "The detective investigated the missing cookies from the jar."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "collapse",
+        "idx": 286,
+        "ex": "The tower of blocks collapsed when the baby bumped the table."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "hesitate",
+        "idx": 299,
+        "ex": "She hesitated at the diving board, then took a deep breath and jumped."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "negotiate",
+        "idx": 300,
+        "ex": "The sisters negotiated and chose to split the last cookie in half."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "assemble",
+        "idx": 308,
+        "ex": "We assembled the puzzle pieces. The whole picture appeared."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "authorize",
+        "idx": 319,
+        "ex": "The principal authorized the field trip."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "clarify",
+        "idx": 323,
+        "ex": "The teacher clarified the instructions for the test."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "compensate",
+        "idx": 326,
+        "ex": "The store compensated her with a new toy after the broken one."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "compile",
+        "idx": 327,
+        "ex": "She compiled a list of her favorite songs."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "conceive",
+        "idx": 330,
+        "ex": "She conceived a clever plan to surprise her friend."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "confine",
+        "idx": 331,
+        "ex": "The dog was confined to the backyard."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "consolidate",
+        "idx": 334,
+        "ex": "She consolidated her notes into one notebook."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "contemplate",
+        "idx": 337,
+        "ex": "She sat and contemplated what to write in her story."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "convene",
+        "idx": 340,
+        "ex": "The club members convened in the library."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "correspond",
+        "idx": 341,
+        "def": "to match or be similar to"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "deviate",
+        "idx": 347,
+        "ex": "He deviated from the trail and got lost."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "devote",
+        "idx": 348,
+        "ex": "He devoted the morning to practicing piano."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "dominate",
+        "idx": 354,
+        "ex": "The tallest player dominated the game, scoring point after point."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "enforce",
+        "idx": 358,
+        "ex": "The teacher enforced the no-running rule in the hallway."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "erode",
+        "idx": 361,
+        "ex": "The waves eroded the cliff over many years."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "impose",
+        "idx": 381,
+        "ex": "The school imposed a new dress code."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "incorporate",
+        "idx": 383,
+        "ex": "She incorporated art into her book report."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "induce",
+        "idx": 385,
+        "ex": "The warm sunshine induced the flowers to bloom."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "initiate",
+        "idx": 388,
+        "ex": "She initiated a recycling club at school."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "intervene",
+        "idx": 392,
+        "ex": "The teacher intervened before the argument got worse."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "invoke",
+        "idx": 393,
+        "ex": "He invoked the rules to settle the disagreement."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "isolate",
+        "idx": 394,
+        "ex": "The sick student was isolated, so others would not catch the cold."
+      }
+    ]
+  },
+  {
+    "filePath": "/Users/percy/.openclaw/workspace/projects/word-street/words-level2b.js",
+    "bankVar": "LEVEL2B_BANK",
+    "count": 382,
+    "flags": [
+      {
+        "severity": "MAJOR",
+        "kind": "imageKeyword-risky-term",
+        "word": "blood",
+        "idx": 56,
+        "img": "cartoon blood cells",
+        "term": "blood"
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "friendly",
+        "idx": 127,
+        "def": "nice and easy to talk to"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "bring up",
+        "idx": 139,
+        "ex": "She brought up a great idea during the class meeting."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "end up",
+        "idx": 145,
+        "ex": "We got lost and ended up at the wrong park."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "fall apart",
+        "idx": 146,
+        "ex": "My old backpack is falling apart because I have used it so much."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "go through",
+        "idx": 151,
+        "ex": "She went through a tough time when her hamster was sick."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "look after",
+        "idx": 160,
+        "ex": "She looks after her baby brother while Mom cooks dinner."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "look up",
+        "idx": 162,
+        "ex": "I looked up the word in the dictionary to find its meaning."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "pick out",
+        "idx": 168,
+        "ex": "He picked out a red apple from the basket."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "pull over",
+        "idx": 169,
+        "ex": "Dad pulled over to look at the map."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "run into",
+        "idx": 173,
+        "ex": "I ran into my teacher at the grocery store!"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "sign up",
+        "idx": 175,
+        "ex": "I signed up for the art class after school."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "stay up",
+        "idx": 180,
+        "ex": "She stayed up late to finish reading her exciting book."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "take apart",
+        "idx": 181,
+        "ex": "He took apart the toy car to see how it worked inside."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "take away",
+        "idx": 182,
+        "ex": "The librarian took away the damaged book from the shelf."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "take over",
+        "idx": 184,
+        "ex": "When the teacher got tired, the helper took over reading the story."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "use up",
+        "idx": 187,
+        "ex": "We used up all the paint making our big poster."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "wear out",
+        "idx": 189,
+        "ex": "I wore out my sneakers from running so much."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "work out",
+        "idx": 190,
+        "ex": "Everything worked out fine, and we all got home safely."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "because of",
+        "idx": 210,
+        "def": "for the reason of; due to"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "definition-too-short",
+        "word": "before long",
+        "idx": 211,
+        "def": "soon"
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "due to",
+        "idx": 218,
+        "def": "because of"
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "amid",
+        "idx": 249,
+        "def": "in the middle of"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "build up",
+        "idx": 254,
+        "ex": "He built up his confidence by practicing his speech."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "call off",
+        "idx": 255,
+        "ex": "They called off the picnic because of rain."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "deal with",
+        "idx": 261,
+        "ex": "She dealt with the broken toy by fixing it herself."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "hand out",
+        "idx": 267,
+        "ex": "The coach handed out jerseys to every player."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "lay out",
+        "idx": 269,
+        "ex": "She laid out the pieces before building the model."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "show up",
+        "idx": 279,
+        "ex": "He always shows up to class on time."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "take into account",
+        "idx": 280,
+        "ex": "Take the cost into account before buying."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "account for",
+        "idx": 281,
+        "def": "to explain or be the reason for"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "account for",
+        "idx": 281,
+        "ex": "Bad weather accounts for most flight delays."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "act on",
+        "idx": 282,
+        "ex": "She acted on the doctor's advice and rested."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "boil down to",
+        "idx": 289,
+        "ex": "The argument boils down to who gets the last cookie."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "catch on",
+        "idx": 292,
+        "ex": "After a few tries, he caught on to the card game."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "come down to",
+        "idx": 294,
+        "ex": "The contest came down to the final question."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "freshen up",
+        "idx": 305,
+        "ex": "She freshened up before dinner by washing her face."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "get by",
+        "idx": 306,
+        "ex": "They got by with the little money they had."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "go along with",
+        "idx": 307,
+        "def": "to agree or cooperate with"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "leave behind",
+        "idx": 314,
+        "ex": "Don't leave your jacket behind when we go."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "live up to",
+        "idx": 316,
+        "ex": "The movie lived up to all the excitement."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "on account of",
+        "idx": 320,
+        "def": "due to, as a result of"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "rule out",
+        "idx": 329,
+        "ex": "The detective ruled out three suspects."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "back down",
+        "idx": 343,
+        "ex": "He backed down when he realized he was wrong."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "bail out",
+        "idx": 344,
+        "ex": "Her friend bailed her out by lending a pencil."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "bang out",
+        "idx": 346,
+        "ex": "He banged out the report in just one hour."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "blot out",
+        "idx": 350,
+        "ex": "Dark clouds blotted out the sun."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "bumble",
+        "idx": 357,
+        "ex": "He bumbled through his speech, but everyone still clapped."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "capillary",
+        "idx": 358,
+        "ex": "Blood flows through capillaries to reach every part of your body."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "dilute",
+        "idx": 367,
+        "ex": "She diluted the strong juice with water."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "dwindle",
+        "idx": 368,
+        "ex": "The candle flame dwindled until it went out."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "extricate",
+        "idx": 371,
+        "ex": "She extricated the kite from the tree branches."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "submerge",
+        "idx": 377,
+        "ex": "The submarine submerged below the waves."
+      }
+    ]
+  },
+  {
+    "filePath": "/Users/percy/.openclaw/workspace/projects/word-street/words-level2c.js",
+    "bankVar": "LEVEL2C_BANK",
+    "count": 219,
+    "flags": [
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "achieve",
+        "idx": 0,
+        "def": "to finish something you worked hard for"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "amaze",
+        "idx": 8,
+        "ex": "The magician amazed the crowd by pulling a rabbit from his hat."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "assure",
+        "idx": 15,
+        "ex": "Dad assured me the thunder was far away and could not hurt us."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "ban",
+        "idx": 20,
+        "ex": "The park banned skateboarding near the playground."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "commit",
+        "idx": 31,
+        "ex": "He committed to practicing piano every day for a month."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "compete",
+        "idx": 34,
+        "ex": "The two runners competed to see who was fastest."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "contribute",
+        "idx": 47,
+        "ex": "Each student contributed a canned food item to the food drive."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "dedicate",
+        "idx": 57,
+        "ex": "He dedicated his summer to learning how to swim."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "distribute",
+        "idx": 75,
+        "ex": "The teacher distributed crayons to each student."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "emerge",
+        "idx": 88,
+        "ex": "The butterfly emerged from its cocoon with bright wings."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "endure",
+        "idx": 93,
+        "ex": "The hikers endured the heat and finally reached the waterfall."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "exaggerate",
+        "idx": 100,
+        "ex": "He exaggerated when he said the fish was as big as a car."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "expose",
+        "idx": 111,
+        "ex": "The wind blew away the sand and exposed a buried shell."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "fascinate",
+        "idx": 116,
+        "ex": "The magic show fascinated each child in the crowd."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "imageKeyword-risky-term",
+        "word": "fatal",
+        "idx": 117,
+        "img": "danger skull",
+        "term": "skull"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "illustrate",
+        "idx": 140,
+        "ex": "The artist illustrated the story with bright drawings."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "imply",
+        "idx": 144,
+        "ex": "His smile implied he already knew the surprise."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "injure",
+        "idx": 152,
+        "ex": "He injured his ankle when he tripped over the rock."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "inquire",
+        "idx": 153,
+        "ex": "She inquired about the bus schedule at the front desk."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "inspire",
+        "idx": 154,
+        "ex": "The space story inspired the kids to study science."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "integrate",
+        "idx": 158,
+        "ex": "The new student quickly integrated into the group and made friends."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "invade",
+        "idx": 162,
+        "ex": "Ants invaded the kitchen looking for crumbs."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "justify",
+        "idx": 167,
+        "ex": "He justified staying up late by showing he finished all his homework."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "modify",
+        "idx": 194,
+        "ex": "He modified his drawing by adding more color to the sky."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "overcome",
+        "idx": 216,
+        "ex": "She overcame her fear of water and learned to swim."
+      }
+    ]
+  },
+  {
+    "filePath": "/Users/percy/.openclaw/workspace/projects/word-street/words-level2d.js",
+    "bankVar": "LEVEL2D_BANK",
+    "count": 258,
+    "flags": [
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "participate",
+        "idx": 2,
+        "ex": "Everyone participated in the school talent show."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "perceive",
+        "idx": 7,
+        "ex": "She perceived a change in the weather when clouds rolled in."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "permit",
+        "idx": 11,
+        "ex": "The teacher permitted the class to work outside today."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "plunge",
+        "idx": 19,
+        "ex": "He plunged into the lake to cool off on the hot day."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "pose",
+        "idx": 22,
+        "ex": "The family posed together for a photo in front of the tree."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "propose",
+        "idx": 49,
+        "ex": "She proposed having a movie night for the class party."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "pursue",
+        "idx": 56,
+        "ex": "He pursued his dream of becoming an artist by painting every day."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "quote",
+        "idx": 58,
+        "ex": "She quoted her favorite line from the book during show and tell."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "rebel",
+        "idx": 64,
+        "ex": "The teenager rebelled by wearing mismatched socks to school."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "refuse",
+        "idx": 71,
+        "ex": "The stubborn mule refused to walk any further up the hill."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "regret",
+        "idx": 74,
+        "ex": "She regretted not bringing an umbrella when it started raining."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "reinforce",
+        "idx": 76,
+        "ex": "They reinforced the sandcastle walls with wet sand."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "release",
+        "idx": 79,
+        "ex": "They released the healed bird back into the sky."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "resemble",
+        "idx": 91,
+        "ex": "The cloud resembled a fluffy white rabbit in the sky."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "reserve",
+        "idx": 92,
+        "ex": "We reserved a table at the restaurant for Mom's birthday."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "resolve",
+        "idx": 95,
+        "ex": "The friends resolved their argument by talking calmly."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "restore",
+        "idx": 96,
+        "ex": "Volunteers restored the old playground with fresh paint."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "retire",
+        "idx": 99,
+        "ex": "Grandpa retired from his job, and now spends time gardening."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "reverse",
+        "idx": 102,
+        "ex": "He reversed the car slowly out of the parking spot."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "revise",
+        "idx": 103,
+        "ex": "She revised her essay to fix spelling errors."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "sacrifice",
+        "idx": 111,
+        "ex": "He sacrificed his free time to help his friend study."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "seize",
+        "idx": 118,
+        "ex": "The eagle seized the fish from the water with its talons."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "significant",
+        "idx": 123,
+        "def": "important and worth paying attention to"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "simplify",
+        "idx": 125,
+        "ex": "The teacher simplified the math problem by breaking it into steps."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "tolerate",
+        "idx": 158,
+        "ex": "She tolerated the loud music until the song was over."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "transfer",
+        "idx": 160,
+        "ex": "He transferred the goldfish from the bag to the tank."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "unite",
+        "idx": 168,
+        "ex": "The whole school united to raise money for the food bank."
+      },
+      {
+        "severity": "CRITICAL",
+        "kind": "definition-fragment",
+        "word": "voluntary",
+        "idx": 183,
+        "def": "done by choice, not because you have to"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "withdraw",
+        "idx": 188,
+        "ex": "She withdrew her hand from the hot stove quickly."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "accelerate",
+        "idx": 193,
+        "ex": "The car accelerated when the light turned green."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "imageKeyword-risky-term",
+        "word": "asset",
+        "idx": 200,
+        "img": "valuable skill",
+        "term": "kill"
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "cease",
+        "idx": 211,
+        "ex": "The rain ceased, and the sun came out again."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "certify",
+        "idx": 212,
+        "ex": "The doctor certified that the food was safe to eat."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "cite",
+        "idx": 214,
+        "ex": "She cited three reasons why free time should be longer."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "compel",
+        "idx": 218,
+        "ex": "The heavy rain compelled everyone to stay indoors."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "coordinate",
+        "idx": 238,
+        "ex": "The teacher coordinated the school show with all the classes."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "delegate",
+        "idx": 252,
+        "ex": "The captain delegated the cleanup jobs to different team members."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "designate",
+        "idx": 255,
+        "ex": "The teacher designated one shelf for finished work."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "deteriorate",
+        "idx": 256,
+        "ex": "The old fence deteriorated and began to fall apart."
+      },
+      {
+        "severity": "MAJOR",
+        "kind": "example-missing-word",
+        "word": "dictate",
+        "idx": 257,
+        "ex": "She dictated the letter while her friend typed it."
+      }
+    ]
+  }
+]
