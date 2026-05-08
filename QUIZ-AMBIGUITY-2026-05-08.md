@@ -1,6 +1,10 @@
 # Quiz Ambiguity Report — 2026-05-08
 
-3817 ambiguous pairs found.
+3701 ambiguous pairs found.
+
+## L1: "goose" vs "swan" (67%)
+- goose: a big bird that honks and lives near water
+- swan: a big white bird with a long neck that lives on water
 
 ## L1: "goose" vs "frog" (67%)
 - goose: a big bird that honks and lives near water
@@ -11,20 +15,20 @@
 - neighbor: a person who lives near you
 
 ## L1: "swan" vs "sharp" (67%)
-- swan: a big white bird with a very long curved neck that floats on lakes
+- swan: a big white bird with a long neck that lives on water
 - sharp: with a point that can cut
 
 ## L1: "robin" vs "sparrow" (67%)
 - robin: a small bird with a red or orange chest
 - sparrow: a small brown bird
 
-## L1: "eagle" vs "whale" (67%)
+## L1: "eagle" vs "whale" (60%)
 - eagle: a very large bird that flies high
-- whale: a very large sea mammal
+- whale: a very large sea animal that breathes air
 
-## L1: "whale" vs "moose" (67%)
-- whale: a very large sea mammal
-- moose: a very big deer with large flat antlers
+## L1: "whale" vs "dolphin" (60%)
+- whale: a very large sea animal that breathes air
+- dolphin: a smart sea animal that swims and breathes air
 
 ## L1: "shark" vs "dull" (100%)
 - shark: a large ocean animal with sharp teeth
@@ -42,9 +46,9 @@
 - lizard: a small animal with four legs and a tail
 - worm: a long thin animal with no legs
 
-## L1: "lizard" vs "spider" (60%)
+## L1: "lizard" vs "spider" (67%)
 - lizard: a small animal with four legs and a tail
-- spider: a small creature with eight legs
+- spider: a small animal with eight legs that makes webs
 
 ## L1: "lizard" vs "squirrel" (80%)
 - lizard: a small animal with four legs and a tail
@@ -62,8 +66,24 @@
 - frog: a small green animal that jumps and lives near water
 - neighbor: a person who lives near you
 
+## L1: "toad" vs "smooth" (100%)
+- toad: a small bumpy animal that hops and lives on land
+- smooth: not bumpy at all
+
 ## L1: "snail" vs "sharp" (67%)
 - snail: a tiny animal with a shell that moves slowly
+- sharp: with a point that can cut
+
+## L1: "worm" vs "spider" (60%)
+- worm: a long thin animal with no legs
+- spider: a small animal with eight legs that makes webs
+
+## L1: "spider" vs "squirrel" (60%)
+- spider: a small animal with eight legs that makes webs
+- squirrel: a small animal with a bushy tail
+
+## L1: "spider" vs "sharp" (67%)
+- spider: a small animal with eight legs that makes webs
 - sharp: with a point that can cut
 
 ## L1: "beaver" vs "sharp" (67%)
@@ -162,8 +182,12 @@
 - coconut: a big brown fruit with white inside
 - within: inside
 
+## L1: "mushroom" vs "sponge" (60%)
+- mushroom: a soft thing with a round top that grows in wet, dark places
+- sponge: a soft thing that soaks up water
+
 ## L1: "mushroom" vs "sharp" (67%)
-- mushroom: a living thing with a round top and stem that grows in wet, shady places
+- mushroom: a soft thing with a round top that grows in wet, dark places
 - sharp: with a point that can cut
 
 ## L1: "treat" vs "daily" (100%)
@@ -282,6 +306,10 @@
 - pillow: a soft thing you rest your head on
 - lend: to let someone use your thing
 
+## L1: "bucket" vs "desert" (75%)
+- bucket: a round open thing with a handle for carrying water or sand
+- desert: a dry place with sand and no water
+
 ## L1: "candle" vs "sharp" (67%)
 - candle: a stick of wax that burns with a flame
 - sharp: with a point that can cut
@@ -290,16 +318,16 @@
 - envelope: a paper cover for a letter
 - wrap: to cover something with paper or cloth
 
-## L1: "glue" vs "pair" (100%)
-- glue: a sticky liquid that holds things together
+## L1: "glue" vs "pair" (67%)
+- glue: sticky stuff you use to stick things together
 - pair: two things that go together
 
 ## L1: "glue" vs "bunch" (67%)
-- glue: a sticky liquid that holds things together
+- glue: sticky stuff you use to stick things together
 - bunch: a group of things together
 
 ## L1: "glue" vs "total" (67%)
-- glue: a sticky liquid that holds things together
+- glue: sticky stuff you use to stick things together
 - total: all things added together
 
 ## L1: "switch" vs "twist" (67%)
@@ -394,6 +422,10 @@
 - stretch: to make your body long
 - howl: to make a long loud cry
 
+## L1: "bend" vs "pour" (67%)
+- bend: to make something not straight
+- pour: to make water or juice flow out of something
+
 ## L1: "bend" vs "create" (100%)
 - bend: to make something not straight
 - create: to make something new
@@ -414,10 +446,6 @@
 - twist: to turn something around
 - look at: to turn your eyes toward something
 
-## L1: "shake" vs "trade" (67%)
-- shake: to move something back and forth fast
-- trade: to give something and get something back
-
 ## L1: "shake" vs "borrow" (67%)
 - shake: to move something back and forth fast
 - borrow: to use something and give it back
@@ -434,9 +462,29 @@
 - stir: to move something around in a circle
 - around: in a circle
 
+## L1: "pour" vs "splash" (67%)
+- pour: to make water or juice flow out of something
+- splash: to make water fly everywhere
+
+## L1: "pour" vs "create" (100%)
+- pour: to make water or juice flow out of something
+- create: to make something new
+
 ## L1: "shout" vs "glance" (67%)
 - shout: to say something very loud
 - glance: to look at something very quickly
+
+## L1: "howl" vs "bark" (67%)
+- howl: to make a long loud cry
+- bark: to make a loud short sound like a dog
+
+## L1: "howl" vs "roar" (67%)
+- howl: to make a long loud cry
+- roar: to make a big loud sound like a lion
+
+## L1: "bark" vs "roar" (80%)
+- bark: to make a loud short sound like a dog
+- roar: to make a big loud sound like a lion
 
 ## L1: "clap" vs "take" (67%)
 - clap: to hit your hands together
@@ -490,13 +538,9 @@
 - remind: to help someone recall
 - teach: to help someone learn something new
 
-## L1: "trade" vs "borrow" (100%)
-- trade: to give something and get something back
+## L1: "trade" vs "borrow" (67%)
+- trade: to give one thing and get a different thing back
 - borrow: to use something and give it back
-
-## L1: "trade" vs "fetch" (67%)
-- trade: to give something and get something back
-- fetch: to go get something and bring it back
 
 ## L1: "borrow" vs "fetch" (67%)
 - borrow: to use something and give it back
@@ -562,18 +606,6 @@
 - wide: going far from side to side
 - across: from this side over to that side
 
-## L1: "steep" vs "quickly" (100%)
-- steep: a hill that goes up fast
-- quickly: in a fast way
-
-## L1: "shallow" vs "sharp" (67%)
-- shallow: with water that only reaches your ankles or knees
-- sharp: with a point that can cut
-
-## L1: "shallow" vs "single" (100%)
-- shallow: with water that only reaches your ankles or knees
-- single: only one
-
 ## L1: "thick" vs "thin" (80%)
 - thick: not thin; having a lot from one side to the other
 - thin: not thick; having very little from one side to the other
@@ -611,11 +643,11 @@
 - without: not having
 
 ## L1: "juicy" vs "within" (100%)
-- juicy: full of liquid inside
+- juicy: full of juice inside
 - within: inside
 
 ## L1: "crunchy" vs "silent" (100%)
-- crunchy: making a loud sound when you bite
+- crunchy: making a snapping sound when you bite
 - silent: making no sound at all
 
 ## L1: "crowded" vs "among" (67%)
@@ -894,17 +926,9 @@
 - suppose: to guess that something might be true
 - anxious: feeling worried that something bad might happen
 
-## L2: "suppose" vs "action" (67%)
-- suppose: to guess that something might be true
-- action: something that is done
-
 ## L2: "suppose" vs "believe" (67%)
 - suppose: to guess that something might be true
 - believe: to think something is true
-
-## L2: "suppose" vs "danger" (67%)
-- suppose: to guess that something might be true
-- danger: something that can hurt you
 
 ## L2: "suppose" vs "deny" (100%)
 - suppose: to guess that something might be true
@@ -1055,11 +1079,11 @@
 - random: chosen without any plan or pattern
 
 ## L2: "brilliant" vs "soak" (100%)
-- brilliant: very bright or very smart
+- brilliant: very bright and shining
 - soak: to get very wet
 
 ## L2: "brilliant" vs "vivid" (67%)
-- brilliant: very bright or very smart
+- brilliant: very bright and shining
 - vivid: very bright and easy to picture in your mind
 
 ## L2: "sturdy" vs "hidden" (100%)
@@ -1074,17 +1098,9 @@
 - sturdy: strong and not easy to break
 - weak: not strong
 
-## L2: "anxious" vs "action" (67%)
-- anxious: feeling worried that something bad might happen
-- action: something that is done
-
 ## L2: "anxious" vs "afraid" (80%)
 - anxious: feeling worried that something bad might happen
 - afraid: feeling like something bad might happen
-
-## L2: "anxious" vs "danger" (67%)
-- anxious: feeling worried that something bad might happen
-- danger: something that can hurt you
 
 ## L2: "anxious" vs "prize" (100%)
 - anxious: feeling worried that something bad might happen
@@ -1290,14 +1306,6 @@
 - liquid: something that flows like water
 - gas: something like air that you cannot see or hold
 
-## L2: "liquid" vs "action" (67%)
-- liquid: something that flows like water
-- action: something that is done
-
-## L2: "liquid" vs "danger" (67%)
-- liquid: something that flows like water
-- danger: something that can hurt you
-
 ## L2: "liquid" vs "prize" (100%)
 - liquid: something that flows like water
 - prize: something you win
@@ -1337,14 +1345,6 @@
 ## L2: "liquid" vs "tolerate" (67%)
 - liquid: something that flows like water
 - tolerate: to put up with something you do not like
-
-## L2: "gas" vs "action" (67%)
-- gas: something like air that you cannot see or hold
-- action: something that is done
-
-## L2: "gas" vs "danger" (67%)
-- gas: something like air that you cannot see or hold
-- danger: something that can hurt you
 
 ## L2: "gas" vs "prize" (100%)
 - gas: something like air that you cannot see or hold
@@ -1393,14 +1393,6 @@
 ## L2: "gas" vs "tolerate" (67%)
 - gas: something like air that you cannot see or hold
 - tolerate: to put up with something you do not like
-
-## L2: "magnet" vs "action" (67%)
-- magnet: something that pulls some metals
-- action: something that is done
-
-## L2: "magnet" vs "danger" (67%)
-- magnet: something that pulls some metals
-- danger: something that can hurt you
 
 ## L2: "magnet" vs "prize" (100%)
 - magnet: something that pulls some metals
@@ -1718,18 +1710,6 @@
 - look forward to: to feel excited about something coming
 - regret: to feel sorry about something you did
 
-## L2: "break down" vs "earn" (100%)
-- break down: to stop working or to fall apart
-- earn: to get by working
-
-## L2: "break down" vs "continue" (100%)
-- break down: to stop working or to fall apart
-- continue: to go on and not stop
-
-## L2: "break down" vs "retire" (67%)
-- break down: to stop working or to fall apart
-- retire: to stop working because of age
-
 ## L2: "loyal" vs "companion" (67%)
 - loyal: sticking with a friend
 - companion: a friend who goes with you
@@ -1750,257 +1730,13 @@
 - selfish: caring only about you, not others
 - sole: the only one
 
-## L2: "action" vs "danger" (67%)
-- action: something that is done
-- danger: something that can hurt you
+## L2: "act" vs "appear" (100%)
+- act: to perform a part in a play or show
+- appear: to show up
 
-## L2: "action" vs "key" (67%)
-- action: something that is done
-- key: something that opens a lock
-
-## L2: "action" vs "prize" (100%)
-- action: something that is done
-- prize: something you win
-
-## L2: "action" vs "trick" (67%)
-- action: something that is done
-- trick: something that surprises or fools
-
-## L2: "action" vs "approve" (67%)
-- action: something that is done
-- approve: to say yes or agree that something is okay
-
-## L2: "action" vs "diagram" (67%)
-- action: something that is done
-- diagram: a drawing that shows how something works
-
-## L2: "action" vs "fact" (67%)
-- action: something that is done
-- fact: something that is true and can be proven
-
-## L2: "action" vs "inspector" (67%)
-- action: something that is done
-- inspector: a person whose job is to check that things are done right
-
-## L2: "action" vs "advantage" (67%)
-- action: something that is done
-- advantage: something that gives you a better chance to succeed
-
-## L2: "action" vs "accident" (67%)
-- action: something that is done
-- accident: something bad that happens without being planned
-
-## L2: "action" vs "evidence" (67%)
-- action: something that is done
-- evidence: proof that shows something is true
-
-## L2: "action" vs "reveal" (67%)
-- action: something that is done
-- reveal: to show something that was hidden
-
-## L2: "action" vs "structure" (67%)
-- action: something that is done
-- structure: something that has been built
-
-## L2: "action" vs "symbol" (67%)
-- action: something that is done
-- symbol: a picture or mark that stands for something else
-
-## L2: "action" vs "challenge" (67%)
-- action: something that is done
-- challenge: something that is hard to do
-
-## L2: "action" vs "complement" (67%)
-- action: something that is done
-- complement: something that goes well with another thing
-
-## L2: "action" vs "dispose" (100%)
-- action: something that is done
-- dispose: to get rid of something
-
-## L2: "action" vs "entity" (67%)
-- action: something that is done
-- entity: something that exists on its own
-
-## L2: "action" vs "foundation" (67%)
-- action: something that is done
-- foundation: the base that holds something up
-
-## L2: "action" vs "framework" (67%)
-- action: something that is done
-- framework: a basic structure that supports something
-
-## L2: "action" vs "guideline" (67%)
-- action: something that is done
-- guideline: a rule that tells you how to do something
-
-## L2: "action" vs "incentive" (67%)
-- action: something that is done
-- incentive: something that motivates you to do something
-
-## L2: "action" vs "protein" (67%)
-- action: something that is done
-- protein: something in food that helps your body grow strong
-
-## L2: "action" vs "invention" (67%)
-- action: something that is done
-- invention: something new that someone makes for the first time
-
-## L2: "action" vs "resource" (67%)
-- action: something that is done
-- resource: something useful that people need, like water or wood
-
-## L2: "action" vs "make sure" (100%)
-- action: something that is done
-- make sure: to check that something is done right
-
-## L2: "action" vs "take over" (67%)
-- action: something that is done
-- take over: to start doing something that someone else was doing
-
-## L2: "action" vs "wear out" (67%)
-- action: something that is done
-- wear out: to use something so much that it gets old and broken
-
-## L2: "action" vs "accessory" (67%)
-- action: something that is done
-- accessory: an extra item that goes with something
-
-## L2: "action" vs "call off" (67%)
-- action: something that is done
-- call off: to cancel something that was planned
-
-## L2: "action" vs "put up with" (67%)
-- action: something that is done
-- put up with: to deal with something that bugs you
-
-## L2: "action" vs "figure of speech" (67%)
-- action: something that is done
-- figure of speech: a phrase that means something different from the actual words
-
-## L2: "action" vs "pollutant" (67%)
-- action: something that is done
-- pollutant: something that makes air, water, or land dirty
-
-## L2: "action" vs "attest" (67%)
-- action: something that is done
-- attest: to prove or show that something is true
-
-## L2: "action" vs "barrier" (67%)
-- action: something that is done
-- barrier: something that blocks the way
-
-## L2: "action" vs "circumstance" (67%)
-- action: something that is done
-- circumstance: the facts around something that happens
-
-## L2: "action" vs "confirm" (67%)
-- action: something that is done
-- confirm: to say that something is true or correct
-
-## L2: "action" vs "exception" (67%)
-- action: something that is done
-- exception: something that does not follow the usual rule
-
-## L2: "action" vs "factor" (67%)
-- action: something that is done
-- factor: one thing that helps cause something to happen
-
-## L2: "action" vs "fault" (67%)
-- action: something that is done
-- fault: responsibility for something that went wrong
-
-## L2: "action" vs "guarantee" (67%)
-- action: something that is done
-- guarantee: to promise that something will happen or work
-
-## L2: "action" vs "hazard" (67%)
-- action: something that is done
-- hazard: something that could cause danger or harm
-
-## L2: "action" vs "incident" (67%)
-- action: something that is done
-- incident: something that happens, most times something odd
-
-## L2: "action" vs "miracle" (67%)
-- action: something that is done
-- miracle: something amazing that should not be possible
-
-## L2: "action" vs "obstacle" (67%)
-- action: something that is done
-- obstacle: something in your way that makes it hard to continue
-
-## L2: "action" vs "offense" (67%)
-- action: something that is done
-- offense: something that makes someone angry or upset
-
-## L2: "action" vs "phenomenon" (67%)
-- action: something that is done
-- phenomenon: something unusual that happens, especially in nature or science
-
-## L2: "action" vs "prohibit" (67%)
-- action: something that is done
-- prohibit: to say that something is not allowed by a rule
-
-## L2: "action" vs "proof" (67%)
-- action: something that is done
-- proof: something that shows a fact is true
-
-## L2: "action" vs "purchase" (100%)
-- action: something that is done
-- purchase: to buy something
-
-## L2: "action" vs "recommend" (67%)
-- action: something that is done
-- recommend: to suggest that something is good
-
-## L2: "action" vs "refuse" (100%)
-- action: something that is done
-- refuse: to say no and not do something
-
-## L2: "action" vs "remedy" (67%)
-- action: something that is done
-- remedy: something that fixes a problem or sickness
-
-## L2: "action" vs "sensation" (67%)
-- action: something that is done
-- sensation: a feeling in your body or something that excites everyone
-
-## L2: "action" vs "suspect" (67%)
-- action: something that is done
-- suspect: to believe someone might have done something wrong
-
-## L2: "action" vs "task" (67%)
-- action: something that is done
-- task: a job or piece of work that needs to be done
-
-## L2: "action" vs "theory" (67%)
-- action: something that is done
-- theory: an idea that explains how something works
-
-## L2: "action" vs "urge" (67%)
-- action: something that is done
-- urge: a strong feeling that you want to do something
-
-## L2: "action" vs "version" (67%)
-- action: something that is done
-- version: one form of something that is slightly different from others
-
-## L2: "action" vs "bonus" (67%)
-- action: something that is done
-- bonus: something extra and good that you did not expect
-
-## L2: "action" vs "component" (67%)
-- action: something that is done
-- component: a part of something that works with other parts
-
-## L2: "action" vs "condemn" (67%)
-- action: something that is done
-- condemn: to say strongly that something is wrong
-
-## L2: "action" vs "contempt" (67%)
-- action: something that is done
-- contempt: a feeling that something is worthless or below you
+## L2: "act" vs "role" (100%)
+- act: to perform a part in a play or show
+- role: a part in a play or job
 
 ## L2: "afraid" vs "dizzy" (67%)
 - afraid: feeling like something bad might happen
@@ -2146,10 +1882,6 @@
 - believe: to think something is true
 - purchase: to buy something
 
-## L2: "believe" vs "reflect" (67%)
-- believe: to think something is true
-- reflect: to think carefully about something or to bounce backlight
-
 ## L2: "believe" vs "refuse" (100%)
 - believe: to think something is true
 - refuse: to say no and not do something
@@ -2169,10 +1901,6 @@
 ## L2: "blink" vs "near" (100%)
 - blink: to close and open your eyes quickly
 - near: close by
-
-## L2: "block" vs "segment" (67%)
-- block: a solid piece or a city section
-- segment: one piece or section of something
 
 ## L2: "bring" vs "prize" (100%)
 - bring: to take something with you
@@ -2366,14 +2094,6 @@
 - carve: to cut a shape into something
 - refuse: to say no and not do something
 
-## L2: "ceiling" vs "outside" (100%)
-- ceiling: the top inside surface of a room
-- outside: not inside
-
-## L2: "ceiling" vs "internal" (100%)
-- ceiling: the top inside surface of a room
-- internal: on the inside
-
 ## L2: "chance" vs "prize" (100%)
 - chance: a time when you can do something
 - prize: something you win
@@ -2562,10 +2282,6 @@
 - complain: to say you are unhappy about something
 - purchase: to buy something
 
-## L2: "complain" vs "reflect" (67%)
-- complain: to say you are unhappy about something
-- reflect: to think carefully about something or to bounce backlight
-
 ## L2: "complain" vs "refuse" (100%)
 - complain: to say you are unhappy about something
 - refuse: to say no and not do something
@@ -2674,245 +2390,53 @@
 - custom: a special way people do things
 - coordinate: to organize people or things so they work together
 
-## L2: "danger" vs "key" (67%)
-- danger: something that can hurt you
-- key: something that opens a lock
-
 ## L2: "danger" vs "prize" (100%)
-- danger: something that can hurt you
+- danger: something that could hurt you or put you in trouble
 - prize: something you win
 
-## L2: "danger" vs "trick" (67%)
-- danger: something that can hurt you
-- trick: something that surprises or fools
-
-## L2: "danger" vs "approve" (67%)
-- danger: something that can hurt you
-- approve: to say yes or agree that something is okay
-
-## L2: "danger" vs "diagram" (67%)
-- danger: something that can hurt you
-- diagram: a drawing that shows how something works
-
-## L2: "danger" vs "fact" (67%)
-- danger: something that can hurt you
-- fact: something that is true and can be proven
-
-## L2: "danger" vs "advantage" (67%)
-- danger: something that can hurt you
-- advantage: something that gives you a better chance to succeed
-
-## L2: "danger" vs "accident" (67%)
-- danger: something that can hurt you
-- accident: something bad that happens without being planned
-
-## L2: "danger" vs "evidence" (67%)
-- danger: something that can hurt you
-- evidence: proof that shows something is true
-
-## L2: "danger" vs "reveal" (67%)
-- danger: something that can hurt you
-- reveal: to show something that was hidden
-
-## L2: "danger" vs "structure" (67%)
-- danger: something that can hurt you
-- structure: something that has been built
-
-## L2: "danger" vs "symbol" (67%)
-- danger: something that can hurt you
-- symbol: a picture or mark that stands for something else
-
 ## L2: "danger" vs "challenge" (67%)
-- danger: something that can hurt you
+- danger: something that could hurt you or put you in trouble
 - challenge: something that is hard to do
 
-## L2: "danger" vs "complement" (67%)
-- danger: something that can hurt you
-- complement: something that goes well with another thing
-
 ## L2: "danger" vs "dispose" (100%)
-- danger: something that can hurt you
+- danger: something that could hurt you or put you in trouble
 - dispose: to get rid of something
 
 ## L2: "danger" vs "entity" (67%)
-- danger: something that can hurt you
+- danger: something that could hurt you or put you in trouble
 - entity: something that exists on its own
 
-## L2: "danger" vs "foundation" (67%)
-- danger: something that can hurt you
-- foundation: the base that holds something up
-
-## L2: "danger" vs "framework" (67%)
-- danger: something that can hurt you
-- framework: a basic structure that supports something
-
-## L2: "danger" vs "guideline" (67%)
-- danger: something that can hurt you
-- guideline: a rule that tells you how to do something
-
 ## L2: "danger" vs "incentive" (67%)
-- danger: something that can hurt you
+- danger: something that could hurt you or put you in trouble
 - incentive: something that motivates you to do something
 
-## L2: "danger" vs "protein" (67%)
-- danger: something that can hurt you
-- protein: something in food that helps your body grow strong
-
-## L2: "danger" vs "invention" (67%)
-- danger: something that can hurt you
-- invention: something new that someone makes for the first time
-
-## L2: "danger" vs "resource" (67%)
-- danger: something that can hurt you
-- resource: something useful that people need, like water or wood
-
-## L2: "danger" vs "make sure" (67%)
-- danger: something that can hurt you
-- make sure: to check that something is done right
-
-## L2: "danger" vs "take over" (67%)
-- danger: something that can hurt you
-- take over: to start doing something that someone else was doing
-
-## L2: "danger" vs "wear out" (67%)
-- danger: something that can hurt you
-- wear out: to use something so much that it gets old and broken
-
-## L2: "danger" vs "accessory" (67%)
-- danger: something that can hurt you
-- accessory: an extra item that goes with something
-
-## L2: "danger" vs "call off" (67%)
-- danger: something that can hurt you
-- call off: to cancel something that was planned
-
-## L2: "danger" vs "put up with" (67%)
-- danger: something that can hurt you
-- put up with: to deal with something that bugs you
-
-## L2: "danger" vs "figure of speech" (67%)
-- danger: something that can hurt you
-- figure of speech: a phrase that means something different from the actual words
-
-## L2: "danger" vs "pollutant" (67%)
-- danger: something that can hurt you
-- pollutant: something that makes air, water, or land dirty
-
-## L2: "danger" vs "attest" (67%)
-- danger: something that can hurt you
-- attest: to prove or show that something is true
+## L2: "danger" vs "make out" (67%)
+- danger: something that could hurt you or put you in trouble
+- make out: to see or get something with trouble
 
 ## L2: "danger" vs "barrier" (67%)
-- danger: something that can hurt you
+- danger: something that could hurt you or put you in trouble
 - barrier: something that blocks the way
 
-## L2: "danger" vs "circumstance" (67%)
-- danger: something that can hurt you
-- circumstance: the facts around something that happens
-
-## L2: "danger" vs "confirm" (67%)
-- danger: something that can hurt you
-- confirm: to say that something is true or correct
-
-## L2: "danger" vs "exception" (67%)
-- danger: something that can hurt you
-- exception: something that does not follow the usual rule
-
-## L2: "danger" vs "factor" (67%)
-- danger: something that can hurt you
-- factor: one thing that helps cause something to happen
-
-## L2: "danger" vs "fault" (67%)
-- danger: something that can hurt you
-- fault: responsibility for something that went wrong
-
-## L2: "danger" vs "guarantee" (67%)
-- danger: something that can hurt you
-- guarantee: to promise that something will happen or work
-
-## L2: "danger" vs "hazard" (67%)
-- danger: something that can hurt you
+## L2: "danger" vs "hazard" (60%)
+- danger: something that could hurt you or put you in trouble
 - hazard: something that could cause danger or harm
 
-## L2: "danger" vs "incident" (67%)
-- danger: something that can hurt you
-- incident: something that happens, most times something odd
-
-## L2: "danger" vs "miracle" (67%)
-- danger: something that can hurt you
-- miracle: something amazing that should not be possible
-
-## L2: "danger" vs "obstacle" (67%)
-- danger: something that can hurt you
-- obstacle: something in your way that makes it hard to continue
-
-## L2: "danger" vs "offense" (67%)
-- danger: something that can hurt you
-- offense: something that makes someone angry or upset
-
-## L2: "danger" vs "phenomenon" (67%)
-- danger: something that can hurt you
-- phenomenon: something unusual that happens, especially in nature or science
-
-## L2: "danger" vs "prohibit" (67%)
-- danger: something that can hurt you
-- prohibit: to say that something is not allowed by a rule
-
-## L2: "danger" vs "proof" (67%)
-- danger: something that can hurt you
-- proof: something that shows a fact is true
-
 ## L2: "danger" vs "purchase" (100%)
-- danger: something that can hurt you
+- danger: something that could hurt you or put you in trouble
 - purchase: to buy something
 
-## L2: "danger" vs "recommend" (67%)
-- danger: something that can hurt you
-- recommend: to suggest that something is good
-
 ## L2: "danger" vs "refuse" (100%)
-- danger: something that can hurt you
+- danger: something that could hurt you or put you in trouble
 - refuse: to say no and not do something
-
-## L2: "danger" vs "remedy" (67%)
-- danger: something that can hurt you
-- remedy: something that fixes a problem or sickness
-
-## L2: "danger" vs "sensation" (67%)
-- danger: something that can hurt you
-- sensation: a feeling in your body or something that excites everyone
-
-## L2: "danger" vs "theory" (67%)
-- danger: something that can hurt you
-- theory: an idea that explains how something works
-
-## L2: "danger" vs "urge" (67%)
-- danger: something that can hurt you
-- urge: a strong feeling that you want to do something
-
-## L2: "danger" vs "version" (67%)
-- danger: something that can hurt you
-- version: one form of something that is slightly different from others
-
-## L2: "danger" vs "bonus" (67%)
-- danger: something that can hurt you
-- bonus: something extra and good that you did not expect
-
-## L2: "danger" vs "component" (67%)
-- danger: something that can hurt you
-- component: a part of something that works with other parts
-
-## L2: "danger" vs "condemn" (67%)
-- danger: something that can hurt you
-- condemn: to say strongly that something is wrong
-
-## L2: "danger" vs "contempt" (67%)
-- danger: something that can hurt you
-- contempt: a feeling that something is worthless or below you
 
 ## L2: "dark" vs "quiet" (67%)
 - dark: with little light
 - quiet: with little noise
+
+## L2: "deal" vs "conversation" (67%)
+- deal: an agreement between people
+- conversation: a talk between two or more people
 
 ## L2: "delay" vs "prize" (100%)
 - delay: to make something late
@@ -2956,7 +2480,7 @@
 
 ## L2: "delay" vs "turn down" (67%)
 - delay: to make something late
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 
 ## L2: "delay" vs "bring about" (67%)
 - delay: to make something late
@@ -3202,6 +2726,10 @@
 - marble: a small glass ball
 - little: small
 
+## L2: "mask" vs "mirror" (67%)
+- mask: a cover for your face
+- mirror: a shiny flat thing that shows your face when you look at it
+
 ## L2: "message" vs "vocabulary" (67%)
 - message: words someone sends to another person
 - vocabulary: all the words a person knows
@@ -3211,16 +2739,24 @@
 - temporarily: only for a short time, not forever
 
 ## L2: "mirror" vs "badge" (67%)
-- mirror: a surface that shows your reflection
+- mirror: a shiny flat thing that shows your face when you look at it
 - badge: a small pin or tag that shows who you are
 
-## L2: "mist" vs "buoy" (67%)
-- mist: a light fog of tiny water drops floating in the air
-- buoy: a floating marker in the water
+## L2: "mist" vs "soak" (100%)
+- mist: very thin cloud near the ground that makes things hard to see clearly
+- soak: to get very wet
 
-## L2: "mist" vs "vapor" (80%)
-- mist: a light fog of tiny water drops floating in the air
-- vapor: tiny drops of water floating in the air like a gas
+## L2: "mist" vs "flint" (60%)
+- mist: very thin cloud near the ground that makes things hard to see clearly
+- flint: a hard stone that makes sparks
+
+## L2: "mist" vs "dim" (67%)
+- mist: very thin cloud near the ground that makes things hard to see clearly
+- dim: not very bright, hard to see
+
+## L2: "mist" vs "challenge" (67%)
+- mist: very thin cloud near the ground that makes things hard to see clearly
+- challenge: something that is hard to do
 
 ## L2: "model" vs "prize" (100%)
 - model: a small copy of something
@@ -3326,9 +2862,13 @@
 - picnic: a meal eaten outside
 - external: on the outside
 
-## L2: "planet" vs "comet" (67%)
-- planet: a big round object in space
-- comet: a bright object with a tail that flies through space
+## L2: "plastic" vs "tease" (100%)
+- plastic: a light smooth thing used to make bottles and toys
+- tease: to make fun of
+
+## L2: "plastic" vs "cork" (67%)
+- plastic: a light smooth thing used to make bottles and toys
+- cork: a soft light thing used to close bottles
 
 ## L2: "playground" vs "external" (100%)
 - playground: a place to play outside at school
@@ -3473,10 +3013,6 @@
 ## L2: "praise" vs "recommend" (67%)
 - praise: to say something good about
 - recommend: to suggest that something is good
-
-## L2: "praise" vs "reflect" (67%)
-- praise: to say something good about
-- reflect: to think carefully about something or to bounce backlight
 
 ## L2: "praise" vs "refuse" (100%)
 - praise: to say something good about
@@ -3863,8 +3399,12 @@
 - donkey: an animal like a small horse with long ears
 
 ## L2: "comet" vs "universe" (60%)
-- comet: a bright object with a tail that flies through space
+- comet: a bright ball of ice with a glowing tail that flies through space
 - universe: everything that exists with all space
+
+## L2: "cork" vs "focus" (67%)
+- cork: a soft light thing used to close bottles
+- focus: to pay close attention to one thing
 
 ## L2: "cypress" vs "elm" (67%)
 - cypress: a tall thin evergreen tree
@@ -4030,10 +3570,6 @@
 - bury: to put something under the ground
 - dispose: to get rid of something
 
-## L2: "bury" vs "take off" (67%)
-- bury: to put something under the ground
-- take off: to remove something you are wearing, or to leave the ground
-
 ## L2: "bury" vs "purchase" (100%)
 - bury: to put something under the ground
 - purchase: to buy something
@@ -4126,10 +3662,6 @@
 - consider: to think with care about something
 - purchase: to buy something
 
-## L2: "consider" vs "reflect" (60%)
-- consider: to think with care about something
-- reflect: to think carefully about something or to bounce backlight
-
 ## L2: "consider" vs "refuse" (100%)
 - consider: to think with care about something
 - refuse: to say no and not do something
@@ -4169,6 +3701,10 @@
 ## L2: "control" vs "facilitate" (67%)
 - control: to make something do what you want
 - facilitate: to make something easier to do
+
+## L2: "control" vs "turn down" (67%)
+- control: to make something do what you want
+- turn down: to make something quieter
 
 ## L2: "control" vs "bring about" (67%)
 - control: to make something do what you want
@@ -4229,10 +3765,6 @@
 ## L2: "cover" vs "monitor" (67%)
 - cover: to put something over the top of something else
 - monitor: to watch something carefully over time
-
-## L2: "cover" vs "overlook" (67%)
-- cover: to put something over the top of something else
-- overlook: to miss seeing something or to look out over a place
 
 ## L2: "cover" vs "purchase" (100%)
 - cover: to put something over the top of something else
@@ -4452,7 +3984,7 @@
 
 ## L2: "form" vs "turn down" (67%)
 - form: to make or shape something
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 
 ## L2: "form" vs "bring about" (67%)
 - form: to make or shape something
@@ -4678,10 +4210,6 @@
 - hunt: to look for something carefully
 - monitor: to watch something carefully over time
 
-## L2: "hunt" vs "overlook" (67%)
-- hunt: to look for something carefully
-- overlook: to miss seeing something or to look out over a place
-
 ## L2: "hunt" vs "purchase" (100%)
 - hunt: to look for something carefully
 - purchase: to buy something
@@ -4689,10 +4217,6 @@
 ## L2: "hunt" vs "reference" (67%)
 - hunt: to look for something carefully
 - reference: information you look at to help with something
-
-## L2: "hunt" vs "reflect" (67%)
-- hunt: to look for something carefully
-- reflect: to think carefully about something or to bounce backlight
 
 ## L2: "hunt" vs "refuse" (100%)
 - hunt: to look for something carefully
@@ -4713,6 +4237,10 @@
 ## L2: "increase" vs "facilitate" (67%)
 - increase: to make something bigger or more
 - facilitate: to make something easier to do
+
+## L2: "increase" vs "turn down" (67%)
+- increase: to make something bigger or more
+- turn down: to make something quieter
 
 ## L2: "increase" vs "bring about" (67%)
 - increase: to make something bigger or more
@@ -5069,10 +4597,6 @@
 ## L2: "observe" vs "purchase" (100%)
 - observe: to watch something carefully
 - purchase: to buy something
-
-## L2: "observe" vs "reflect" (67%)
-- observe: to watch something carefully
-- reflect: to think carefully about something or to bounce backlight
 
 ## L2: "observe" vs "refuse" (100%)
 - observe: to watch something carefully
@@ -5530,10 +5054,6 @@
 - topic: what something is about
 - react: to do something because of what just happened
 
-## L2: "topic" vs "reflect" (67%)
-- topic: what something is about
-- reflect: to think carefully about something or to bounce backlight
-
 ## L2: "topic" vs "refuse" (100%)
 - topic: what something is about
 - refuse: to say no and not do something
@@ -5966,10 +5486,6 @@
 - attitude: the way you think and feel about something
 - purchase: to buy something
 
-## L2: "attitude" vs "reflect" (75%)
-- attitude: the way you think and feel about something
-- reflect: to think carefully about something or to bounce backlight
-
 ## L2: "attitude" vs "refuse" (100%)
 - attitude: the way you think and feel about something
 - refuse: to say no and not do something
@@ -6117,10 +5633,6 @@
 ## L2: "select" vs "purchase" (100%)
 - select: to choose something carefully
 - purchase: to buy something
-
-## L2: "select" vs "reflect" (67%)
-- select: to choose something carefully
-- reflect: to think carefully about something or to bounce backlight
 
 ## L2: "select" vs "refuse" (100%)
 - select: to choose something carefully
@@ -6329,10 +5841,6 @@
 ## L2: "assign" vs "delegate" (100%)
 - assign: to give someone a job or task to do
 - delegate: to give a task to someone else
-
-## L2: "assign" vs "dictate" (67%)
-- assign: to give someone a job or task to do
-- dictate: to say words for someone to write or to give orders
 
 ## L2: "perform" vs "controversy" (67%)
 - perform: to do something in front of people
@@ -6900,7 +6408,7 @@
 
 ## L2: "manufacture" vs "turn down" (67%)
 - manufacture: to make something in a factory
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 
 ## L2: "manufacture" vs "bring about" (67%)
 - manufacture: to make something in a factory
@@ -7430,6 +6938,10 @@
 - compensate: to make up for something or pay someone back
 - leave out: to not include something or someone
 
+## L2: "compensate" vs "turn down" (67%)
+- compensate: to make up for something or pay someone back
+- turn down: to make something quieter
+
 ## L2: "compensate" vs "bring about" (67%)
 - compensate: to make up for something or pay someone back
 - bring about: to make something happen
@@ -7601,10 +7113,6 @@
 ## L2: "contemplate" vs "purchase" (100%)
 - contemplate: to think about something deeply
 - purchase: to buy something
-
-## L2: "contemplate" vs "reflect" (75%)
-- contemplate: to think about something deeply
-- reflect: to think carefully about something or to bounce backlight
 
 ## L2: "contemplate" vs "refuse" (100%)
 - contemplate: to think about something deeply
@@ -7996,7 +7504,7 @@
 
 ## L2: "facilitate" vs "turn down" (67%)
 - facilitate: to make something easier to do
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 
 ## L2: "facilitate" vs "bring about" (67%)
 - facilitate: to make something easier to do
@@ -9038,10 +8546,6 @@
 - check out: to look at something interesting
 - fascinate: to be so interesting that you cannot look away
 
-## L2: "check out" vs "overlook" (67%)
-- check out: to look at something interesting
-- overlook: to miss seeing something or to look out over a place
-
 ## L2: "check out" vs "purchase" (100%)
 - check out: to look at something interesting
 - purchase: to buy something
@@ -9057,10 +8561,6 @@
 ## L2: "check out" vs "resemble" (67%)
 - check out: to look at something interesting
 - resemble: to look like someone or something else
-
-## L2: "cut off" vs "halt" (100%)
-- cut off: to remove by cutting or to stop suddenly
-- halt: to stop suddenly
 
 ## L2: "drop off" vs "leave out" (67%)
 - drop off: to leave something or someone at a place
@@ -9122,6 +8622,10 @@
 - get over: to feel better after being sick or sad
 - recover: to get well again after being sick or hurt
 
+## L2: "get rid of" vs "take off" (67%)
+- get rid of: to throw away or remove something
+- take off: to remove something you are wearing
+
 ## L2: "get rid of" vs "eliminate" (100%)
 - get rid of: to throw away or remove something
 - eliminate: to remove or get rid of something
@@ -9165,6 +8669,10 @@
 ## L2: "go through" vs "refuse" (100%)
 - go through: to feel something, mainly something hard
 - refuse: to say no and not do something
+
+## L2: "knock down" vs "turn down" (67%)
+- knock down: to make something fall over
+- turn down: to make something quieter
 
 ## L2: "knock down" vs "bring about" (67%)
 - knock down: to make something fall over
@@ -9486,6 +8994,10 @@
 - take apart: to separate something into pieces
 - refuse: to say no and not do something
 
+## L2: "take away" vs "take off" (67%)
+- take away: to remove something from a place
+- take off: to remove something you are wearing
+
 ## L2: "take away" vs "deposit" (67%)
 - take away: to remove something from a place
 - deposit: to put something in a safe place
@@ -9511,19 +9023,15 @@
 - transfer: to move something from one place to another
 
 ## L2: "take off" vs "eliminate" (100%)
-- take off: to remove something you are wearing, or to leave the ground
+- take off: to remove something you are wearing
 - eliminate: to remove or get rid of something
 
-## L2: "take off" vs "exclude" (67%)
-- take off: to remove something you are wearing, or to leave the ground
-- exclude: to leave someone or something out
-
 ## L2: "take off" vs "purchase" (100%)
-- take off: to remove something you are wearing, or to leave the ground
+- take off: to remove something you are wearing
 - purchase: to buy something
 
 ## L2: "take off" vs "refuse" (100%)
-- take off: to remove something you are wearing, or to leave the ground
+- take off: to remove something you are wearing
 - refuse: to say no and not do something
 
 ## L2: "take over" vs "count on" (67%)
@@ -9582,40 +9090,88 @@
 - think over: to think of something carefully before deciding
 - purchase: to buy something
 
-## L2: "think over" vs "reflect" (60%)
-- think over: to think of something carefully before deciding
-- reflect: to think carefully about something or to bounce backlight
-
 ## L2: "think over" vs "refuse" (100%)
 - think over: to think of something carefully before deciding
 - refuse: to say no and not do something
 
 ## L2: "turn down" vs "bring about" (67%)
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 - bring about: to make something happen
 
+## L2: "turn down" vs "adjust" (67%)
+- turn down: to make something quieter
+- adjust: to change something a little to make it better
+
+## L2: "turn down" vs "discourage" (67%)
+- turn down: to make something quieter
+- discourage: to make someone feel less sure they can do something
+
+## L2: "turn down" vs "enable" (67%)
+- turn down: to make something quieter
+- enable: to make it possible for someone to do something
+
+## L2: "turn down" vs "ensure" (67%)
+- turn down: to make something quieter
+- ensure: to make sure something happens
+
+## L2: "turn down" vs "exaggerate" (67%)
+- turn down: to make something quieter
+- exaggerate: to make something sound bigger or more than it really is
+
+## L2: "turn down" vs "expand" (67%)
+- turn down: to make something quieter
+- expand: to get bigger or make something larger
+
+## L2: "turn down" vs "extend" (67%)
+- turn down: to make something quieter
+- extend: to make something longer or bigger
+
 ## L2: "turn down" vs "operate" (67%)
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 - operate: to make something work or run
 
+## L2: "turn down" vs "process" (67%)
+- turn down: to make something quieter
+- process: a series of steps to make or do something
+
 ## L2: "turn down" vs "produce" (67%)
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 - produce: to make or grow something
 
+## L2: "turn down" vs "provoke" (67%)
+- turn down: to make something quieter
+- provoke: to do something on purpose to make someone upset
+
 ## L2: "turn down" vs "purchase" (100%)
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 - purchase: to buy something
 
 ## L2: "turn down" vs "refuse" (100%)
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 - refuse: to say no and not do something
 
 ## L2: "turn down" vs "reinforce" (67%)
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 - reinforce: to make something stronger
 
+## L2: "turn down" vs "renew" (67%)
+- turn down: to make something quieter
+- renew: to make something new or fresh again
+
+## L2: "turn down" vs "reverse" (67%)
+- turn down: to make something quieter
+- reverse: to go backward or make something opposite
+
+## L2: "turn down" vs "simplify" (67%)
+- turn down: to make something quieter
+- simplify: to make something less complicated
+
+## L2: "turn down" vs "supplement" (67%)
+- turn down: to make something quieter
+- supplement: something extra added to make something better
+
 ## L2: "turn down" vs "constitute" (67%)
-- turn down: to say no to something, or to make something quieter
+- turn down: to make something quieter
 - constitute: to make up or form something
 
 ## L2: "wear out" vs "barrier" (67%)
@@ -9629,10 +9185,6 @@
 ## L2: "wear out" vs "refuse" (100%)
 - wear out: to use something so much that it gets old and broken
 - refuse: to say no and not do something
-
-## L2: "wrap up" vs "in conclusion" (100%)
-- wrap up: to finish something, or to cover in paper
-- in conclusion: to finish up; at the end
 
 ## L2: "in the meantime" vs "bring about" (67%)
 - in the meantime: while waiting for something else to happen
@@ -10010,10 +9562,6 @@
 - keep in mind: to recall or think about something
 - purchase: to buy something
 
-## L2: "keep in mind" vs "reflect" (75%)
-- keep in mind: to recall or think about something
-- reflect: to think carefully about something or to bounce backlight
-
 ## L2: "keep in mind" vs "refuse" (100%)
 - keep in mind: to recall or think about something
 - refuse: to say no and not do something
@@ -10149,6 +9697,14 @@
 ## L2: "rely on" vs "compel" (67%)
 - rely on: to need and trust someone or something
 - compel: to force someone to do something
+
+## L2: "add up" vs "mental" (67%)
+- add up: to make sense when you think about it
+- mental: about the mind and how you think
+
+## L2: "add up" vs "perspective" (67%)
+- add up: to make sense when you think about it
+- perspective: the way you see and think about something
 
 ## L2: "allergic" vs "purchase" (100%)
 - allergic: having a bad reaction to something
@@ -11058,6 +10614,10 @@
 - compete: to try to win against someone else
 - delegate: to give a task to someone else
 
+## L2: "compete" vs "dictate" (67%)
+- compete: to try to win against someone else
+- dictate: to say words for someone else to write down
+
 ## L2: "complex" vs "purchase" (100%)
 - complex: something with many parts; not simple
 - purchase: to buy something
@@ -11221,10 +10781,6 @@
 ## L2: "deposit" vs "edible" (100%)
 - deposit: to put something in a safe place
 - edible: safe to eat
-
-## L2: "deposit" vs "overlook" (67%)
-- deposit: to put something in a safe place
-- overlook: to miss seeing something or to look out over a place
 
 ## L2: "deposit" vs "preserve" (67%)
 - deposit: to put something in a safe place
@@ -12154,10 +11710,6 @@
 - mental: about the mind and how you think
 - propose: to suggest an idea for others to think about
 
-## L2: "mental" vs "reflect" (67%)
-- mental: about the mind and how you think
-- reflect: to think carefully about something or to bounce backlight
-
 ## L2: "mental" vs "regard" (67%)
 - mental: about the mind and how you think
 - regard: to think about someone or something in a certain way
@@ -12387,16 +11939,12 @@
 - refuse: to say no and not do something
 
 ## L2: "overlook" vs "purchase" (100%)
-- overlook: to miss seeing something or to look out over a place
+- overlook: to miss seeing something by accident
 - purchase: to buy something
 
 ## L2: "overlook" vs "refuse" (100%)
-- overlook: to miss seeing something or to look out over a place
+- overlook: to miss seeing something by accident
 - refuse: to say no and not do something
-
-## L2: "overlook" vs "replace" (100%)
-- overlook: to miss seeing something or to look out over a place
-- replace: to put something new in place of the old one
 
 ## L2: "owe" vs "purchase" (100%)
 - owe: to need to pay or give something back
@@ -12489,10 +12037,6 @@
 ## L2: "perspective" vs "purchase" (100%)
 - perspective: the way you see and think about something
 - purchase: to buy something
-
-## L2: "perspective" vs "reflect" (100%)
-- perspective: the way you see and think about something
-- reflect: to think carefully about something or to bounce backlight
 
 ## L2: "perspective" vs "refuse" (100%)
 - perspective: the way you see and think about something
@@ -12781,14 +12325,6 @@
 ## L2: "reference" vs "tolerate" (67%)
 - reference: information you look at to help with something
 - tolerate: to put up with something you do not like
-
-## L2: "reflect" vs "refuse" (100%)
-- reflect: to think carefully about something or to bounce backlight
-- refuse: to say no and not do something
-
-## L2: "reflect" vs "regard" (60%)
-- reflect: to think carefully about something or to bounce backlight
-- regard: to think about someone or something in a certain way
 
 ## L2: "regard" vs "compel" (67%)
 - regard: to think about someone or something in a certain way
@@ -13770,9 +13306,9 @@
 - excel: to be very good at something
 - optimize: to make something as good or effective as possible
 
-## L4: "grant" vs "allot" (60%)
-- grant: to give or allow something officially, or money given for a purpose
-- allot: to give a share of something for a specific purpose
+## L4: "grant" vs "proscribe" (67%)
+- grant: to give or allow something officially
+- proscribe: to officially forbid something
 
 ## L4: "gulf" vs "grassland" (60%)
 - gulf: a large area of sea partly surrounded by land

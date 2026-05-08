@@ -1,12 +1,13 @@
 # Dictionary Pattern Check
 
-0 HIGH | 73 MEDIUM | 62 MINOR
+0 HIGH | 74 MEDIUM | 65 MINOR
 
 ## HIGH
 
 
 ## MEDIUM
 - words-level1.js | mud | Definition "wet dirt" is too brief to be useful
+- words-level1.js | shallow | Definition "not deep" is too brief to be useful
 - words-level1.js | loose | Definition "not tight" is too brief to be useful
 - words-level1.js | exactly | L1 definition packs 3 meanings: "just right; not more or less"
 - words-level1.js | beside | Definition "next to" is too brief to be useful

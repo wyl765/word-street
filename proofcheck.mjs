@@ -695,6 +695,48 @@ function checkDefExampleMismatch(entries) {
   }
 }
 
+// ============ VERB_DEF_NOUN_EXAMPLE CHECK ============
+function checkVerbDefNounExample(entries) {
+  // Definition starts with "to " (verb-style) but example uses word as noun
+  // Pattern: "made a [word]", "gave a [word]", "a big/quick/loud [word]"
+  const nounPatterns = [
+    /\b(made|gave|took|had|did|with)\s+(a|an|the|his|her|my|its|their)\s+/,
+    /\b(a|an|the|his|her|my|its|their)\s+(big|quick|loud|small|long|short|great|little|huge|sharp|deep|soft|hard|strong|wild|gentle|sudden|slow|brief|final)\s+/,
+  ];
+  // Whitelist: causative "made X verb" patterns are fine
+  const verbDefNounWhitelist = ['vanish','shiver','disappear','appease','acclimate'];
+  for (const e of entries) {
+    const def = (e.definition || '');
+    const ex = (e.example || '');
+    const word = (e.word || '').toLowerCase();
+    if (word.includes(' ')) continue; // skip phrases
+    if (verbDefNounWhitelist.includes(word)) continue;
+    if (!/^to\s/i.test(def)) continue; // only verb-style definitions
+    // Check if example uses the word as a noun
+    const wordEsc = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const nounUse = new RegExp(`\\b(a|an|the|his|her|my|its|their|big|quick|loud|small|long|short|great|little|huge|sharp|deep|soft|hard|strong|wild|gentle|sudden|slow|brief|final)\\s+${wordEsc}\\b`, 'i');
+    const madeGave = new RegExp(`\\b(made|gave|took|had|did)\\s+(a|an|the)\\s+\\w{0,10}\\s*${wordEsc}\\b`, 'i');
+    if (nounUse.test(ex) || madeGave.test(ex)) {
+      addIssue('MAJOR', e._file, e.word, 'VERB_DEF_NOUN_EXAMPLE',
+        `Definition is verb ("${def.substring(0, 40)}...") but example uses word as noun`,
+        'Align: change example to verb usage, or change definition to noun form');
+    }
+  }
+}
+
+// ============ COMPARISON_DEF CHECK ============
+function checkComparisonDef(entries) {
+  // Flag definitions that start with "like a [word]" — comparison-dependent
+  for (const e of entries) {
+    const def = (e.definition || '');
+    if (/^like (a|an) \w+/i.test(def)) {
+      addIssue('MINOR', e._file, e.word, 'COMPARISON_DEF',
+        `Definition depends on comparison: "${def.substring(0, 50)}..."`,
+        'Consider an independent definition that does not rely on knowing another word');
+    }
+  }
+}
+
 // ============ MULTI-MEANING CHECK (L1-L2) ============
 function checkMultiMeaning(entries) {
   // L1-L2 definitions should have single meaning
@@ -714,6 +756,55 @@ function checkMultiMeaning(entries) {
       addIssue('HIGH', e._file, e.word, 'MULTI_MEANING',
         `L${level} definition has multiple distinct meanings: "${def}"`,
         'L1-L2 definitions should have a single meaning. Pick the most common/useful one.');
+    }
+  }
+}
+
+// ============ WHEN_DEFINITION CHECK ============
+function checkWhenDefinition(entries) {
+  // Flag verb-word definitions that start with "when" — suggests event description instead of verb definition
+  const whitelist = ['dawn','dusk','noon','midnight','drought','flood','blizzard','sunset','sunrise'];
+  for (const e of entries) {
+    const def = (e.definition || '');
+    const word = (e.word || '').toLowerCase();
+    if (whitelist.includes(word)) continue;
+    if (/^when\s/i.test(def)) {
+      addIssue('MINOR', e._file, e.word, 'WHEN_DEFINITION',
+        `Definition starts with "when": "${def.substring(0, 60)}..."`,
+        'Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description');
+    }
+  }
+}
+
+// ============ SAME_LEVEL_CIRCULAR CHECK ============
+function checkSameLevelCircular(entries) {
+  // Build word→level map (only words 5+ chars to avoid common words)
+  const wordLevel = new Map();
+  for (const e of entries) {
+    const w = (e.word || '').toLowerCase();
+    const lvl = e.level || 0;
+    if (w.length >= 5 && !w.includes(' ')) wordLevel.set(w, lvl);
+  }
+  // Check if L1 definition uses another L1 word as a KEY definitional word
+  // Only flag when the same-level word appears as a core part of the definition
+  // (first 4 content words)
+  const stopWords = new Set(['a','an','the','to','is','are','was','were','be','been','being','have','has','had','do','does','did','will','would','could','should','may','might','shall','can','must','that','this','with','from','they','them','their','than','what','when','where','which','who','whom','whose','how','not','very','much','more','most','only','also','just','still','even','about','after','before','into','over','under','between','through','during','until','upon','like','such','each','every','some','many','other','another','same','both','either','neither','few','all','your','his','her','its','our','your','my','and','but','for','nor','yet','because','since','while','though','although','if','unless','until','once','often','never','always','sometimes','usually','already','too','enough','really','quite','rather','almost','hardly','barely','of','in','on','at','by','up','down','out','off','away','back','here','there','then','now','well','good','great','small','big','long','short','high','low','old','new','first','last','next','hard','soft','full','empty','open','close','right','left','far','near','fast','slow','dark','light','hot','cold','warm','cool','wet','dry','part','way','time','day','thing','things','something','nothing','anything','everything','someone','anyone','everyone','no one','place','people','person','world','kind','sort','type','feel','make','give','take','keep','find','help','tell','look','come','going','want','need','know','think','mean','seem','show','turn','call','move','work','play','live','different','without','because','inside','outside','another','around']);
+  for (const e of entries) {
+    const def = (e.definition || '').toLowerCase();
+    const word = (e.word || '').toLowerCase();
+    const level = e.level || 0;
+    if (level > 1) continue; // Only check L1 where this is most critical
+    const defWords = def.split(/[\s,;.!?()]+/).filter(w => w.length >= 5 && !stopWords.has(w));
+    // Only check first 2 content words (the absolute core)
+    const coreWords = defWords.slice(0, 2);
+    for (const dw of coreWords) {
+      if (dw === word) continue;
+      if (wordLevel.has(dw) && wordLevel.get(dw) === level) {
+        addIssue('MINOR', e._file, e.word, 'SAME_LEVEL_DEF_REF',
+          `L${level} definition uses "${dw}" which is also an L${level} word (core position)`,
+          'Avoid using same-level vocabulary in the core of definitions');
+        break;
+      }
     }
   }
 }
@@ -752,6 +843,10 @@ checkAdjectiveNounMismatch(entries);
 checkBetweenComma(entries);
 checkDanglingModifier(entries);
 checkMultiMeaning(entries);
+checkVerbDefNounExample(entries);
+checkComparisonDef(entries);
+checkWhenDefinition(entries);
+checkSameLevelCircular(entries);
 
 // Sort by severity
 const severityOrder = { CRITICAL: 0, MAJOR: 1, MINOR: 2 };

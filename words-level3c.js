@@ -30,7 +30,7 @@ const LEVEL3C_BANK=[{"word":"advance","level":3,"definition":"to move forward or
 {"word":"crisp","level":3,"definition":"firm and fresh, making a nice crunch sound","example":"The crisp autumn leaves crunched under their feet as they walked to school.","imageKeyword":"crunchy leaves"},
 {"word":"flask","level":3,"definition":"a bottle with a narrow neck used in science","example":"The science teacher poured purple liquid into a glass flask, and it started to bubble.","imageKeyword":"science flask"},
 {"word":"foil","level":3,"definition":"thin, shiny metal sheet used for wrapping food","example":"Dad wrapped the leftover pizza in foil to keep it fresh for tomorrow.","imageKeyword":"aluminum foil"},
-{"word":"gasp","level":3,"definition":"to quickly breathe in because you're surprised or shocked","example":"The whole audience let out a gasp when the acrobat flipped three times in the air.","imageKeyword":"surprised gasp"},
+{"word":"gasp","level":3,"definition":"to quickly breathe in because you're surprised or shocked","example":"She gasped when she saw the acrobat flip three times in the air.","imageKeyword":"surprised gasp"},
 {"word":"glare","level":3,"definition":"a strong bright light that hurts your eyes, or an angry look","example":"The glare from the snow was so bright that she had to put on sunglasses.","imageKeyword":"snow glare"},
 {"word":"glow","level":3,"definition":"to give off a soft, warm light","example":"The jack-o'-lantern's candle made it glow orange on the dark porch.","imageKeyword":"glowing pumpkin"},
 {"word":"hatch","level":3,"definition":"to break out of an egg","example":"The baby chick took hours to hatch, pecking tiny cracks in the shell until it broke free.","imageKeyword":"chick hatching"},

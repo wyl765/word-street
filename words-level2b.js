@@ -339,7 +339,7 @@ const LEVEL2B_BANK=[{"word":"moral","level":2,"definition":"a lesson a story tea
 {"word":"anthem","level":2,"definition":"a special song for a country or group","example":"Everyone stood for the national anthem before the game.","imageKeyword":"anthem song"},
 {"word":"aperture","level":2,"definition":"an opening or hole, mainly in a camera","example":"He widened the aperture on the camera to let in more light.","imageKeyword":"aperture camera"},
 {"word":"aroma","level":2,"definition":"a pleasant smell","example":"The aroma of fresh bread filled the bakery.","imageKeyword":"aroma smell"},
-{"word":"assent","level":2,"definition":"to agree to something","example":"The class gave their assent to the new reading schedule.","imageKeyword":"assent agree"},
+{"word":"assent","level":2,"definition":"to agree to something","example":"Everyone assented to the new reading schedule.","imageKeyword":"assent agree"},
 {"word":"attest","level":2,"definition":"to prove or show that something is true","example":"Her good grades attest to her hard work.","imageKeyword":"attest prove"},
 {"word":"back down","level":2,"definition":"to stop arguing or give up a demand","example":"He backed down when he realized he was wrong.","imageKeyword":"back down retreat"},
 {"word":"bail out","level":2,"definition":"to rescue someone from trouble","example":"Her friend bailed her out by lending a pencil.","imageKeyword":"bail out rescue"},

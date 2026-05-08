@@ -1,0 +1,1732 @@
+[
+  {
+    "word": "run out",
+    "severity": "HIGH",
+    "type": "example-missing-word",
+    "note": "Example does not include the exact word/phrase",
+    "definition": "to have none left",
+    "example": "We ran out of milk, so Dad went to the store.",
+    "imageKeyword": "running out",
+    "level": 1
+  },
+  {
+    "word": "stare",
+    "severity": "HIGH",
+    "type": "example-missing-word",
+    "note": "Example does not include the exact word/phrase",
+    "definition": "to look at something for a long time",
+    "example": "He could not stop staring at the huge cake.",
+    "imageKeyword": "staring",
+    "level": 1
+  },
+  {
+    "word": "wake up",
+    "severity": "HIGH",
+    "type": "example-missing-word",
+    "note": "Example does not include the exact word/phrase",
+    "definition": "to stop sleeping",
+    "example": "He woke up when the alarm clock rang.",
+    "imageKeyword": "waking up",
+    "level": 1
+  },
+  {
+    "word": "break down",
+    "severity": "HIGH",
+    "type": "example-missing-word",
+    "note": "Example does not include the exact word/phrase",
+    "definition": "to stop working",
+    "example": "Our old wagon broke down, so we carried the pumpkins.",
+    "imageKeyword": "broken wagon",
+    "level": 2
+  },
+  {
+    "word": "carry out",
+    "severity": "HIGH",
+    "type": "example-missing-word",
+    "note": "Example does not include the exact word/phrase",
+    "definition": "to do a plan",
+    "example": "We carried out our science test step by step.",
+    "imageKeyword": "science test",
+    "level": 2
+  },
+  {
+    "word": "come across",
+    "severity": "HIGH",
+    "type": "example-missing-word",
+    "note": "Example does not include the exact word/phrase",
+    "definition": "to find by chance",
+    "example": "I came across a shiny shell while walking on the beach.",
+    "imageKeyword": "shell",
+    "level": 2
+  },
+  {
+    "word": "depend",
+    "severity": "HIGH",
+    "type": "multi-sense",
+    "note": "Definition uses 'or to' (usually multiple senses)",
+    "definition": "to need or to count on",
+    "example": "Plants depend on water to grow.",
+    "imageKeyword": "watering plant",
+    "level": 2
+  },
+  {
+    "word": "however",
+    "severity": "HIGH",
+    "type": "multi-sense",
+    "note": "Definition gives two paraphrases with 'means \"...\" or \"...\"'",
+    "definition": "a word that means 'but' or 'on the other hand'",
+    "example": "I wanted to play outside; however, the rain was heavy.",
+    "imageKeyword": "rain window",
+    "level": 2
+  },
+  {
+    "word": "mulberry",
+    "severity": "HIGH",
+    "type": "example-missing-word",
+    "note": "Example does not include the exact word/phrase",
+    "definition": "a small dark purple fruit that grows on a tree",
+    "example": "We picked mulberries from the tree in the yard.",
+    "imageKeyword": "mulberry fruit",
+    "level": 2
+  },
+  {
+    "word": "above",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "higher than something",
+    "example": "The bird flew above the trees.",
+    "imageKeyword": "bird flying above house",
+    "level": 1
+  },
+  {
+    "word": "adventure",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "an exciting trip or event",
+    "example": "Going into the dark cave was a real adventure.",
+    "imageKeyword": "adventure",
+    "level": 1
+  },
+  {
+    "word": "beginning",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "the start of something",
+    "example": "At the beginning of the story, a boy found a map.",
+    "imageKeyword": "beginning start",
+    "level": 1
+  },
+  {
+    "word": "below",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "lower than something",
+    "example": "The fish swam below the boat.",
+    "imageKeyword": "below under",
+    "level": 1
+  },
+  {
+    "word": "bridge",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a road over water or a valley",
+    "example": "We walked across the bridge to get to the other side of the river.",
+    "imageKeyword": "bridge",
+    "level": 1
+  },
+  {
+    "word": "bubble",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a ball of air in water or soap",
+    "example": "She blew a big bubble with her bubble wand.",
+    "imageKeyword": "soap bubble",
+    "level": 1
+  },
+  {
+    "word": "caterpillar",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a small worm-like insect that becomes a butterfly or moth",
+    "example": "The green caterpillar munched on leaves all day.",
+    "imageKeyword": "caterpillar",
+    "level": 1
+  },
+  {
+    "word": "cave",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a hole in a rock or mountain",
+    "example": "The bear went into the dark cave to sleep.",
+    "imageKeyword": "cave",
+    "level": 1
+  },
+  {
+    "word": "character",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a person or animal in a story",
+    "example": "My favorite character in the book is the clever fox.",
+    "imageKeyword": "story character",
+    "level": 1
+  },
+  {
+    "word": "chase",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to run after something",
+    "example": "The dog liked to chase the ball in the yard.",
+    "imageKeyword": "dog chasing",
+    "level": 1
+  },
+  {
+    "word": "come in",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "to enter a room or building",
+    "example": "Come in! It is too cold to stand outside.",
+    "imageKeyword": "coming in",
+    "level": 1
+  },
+  {
+    "word": "create",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to make something new",
+    "example": "She used paint to create a beautiful picture.",
+    "imageKeyword": "creating art",
+    "level": 1
+  },
+  {
+    "word": "crown",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a fancy hat for a king or queen",
+    "example": "The crown was covered in shiny jewels.",
+    "imageKeyword": "crown",
+    "level": 1
+  },
+  {
+    "word": "cub",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a baby bear or lion",
+    "example": "The bear cub played near the river while its mother watched.",
+    "imageKeyword": "bear cub",
+    "level": 1
+  },
+  {
+    "word": "discover",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to find something new",
+    "example": "She was excited to discover a frog under the log.",
+    "imageKeyword": "child finding frog under log",
+    "level": 1
+  },
+  {
+    "word": "dolphin",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): mammal",
+    "definition": "a smart sea mammal that swims and breathes air",
+    "example": "The dolphin leaped out of the water and splashed back in.",
+    "imageKeyword": "dolphin",
+    "level": 1
+  },
+  {
+    "word": "dozen",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "twelve of something",
+    "example": "Mom bought a dozen eggs at the store.",
+    "imageKeyword": "dozen eggs",
+    "level": 1
+  },
+  {
+    "word": "forget",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to not recall something",
+    "example": "Don't forget to pack your lunch!",
+    "imageKeyword": "person leaving keys on table",
+    "level": 1
+  },
+  {
+    "word": "gigantic",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): extremely",
+    "definition": "extremely big, bigger than big",
+    "example": "The gigantic dinosaur was bigger than our house.",
+    "imageKeyword": "gigantic dinosaur next to house",
+    "level": 1
+  },
+  {
+    "word": "hem",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "the bottom edge of a skirt or pants",
+    "example": "The hem of her dress dragged on the floor.",
+    "imageKeyword": "dress hem",
+    "level": 1
+  },
+  {
+    "word": "huge",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "so big it fills up a room or towers over you",
+    "example": "The huge elephant was taller than the bus.",
+    "imageKeyword": "huge elephant next to car",
+    "level": 1
+  },
+  {
+    "word": "itsy",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): extremely",
+    "definition": "extremely tiny",
+    "example": "An itsy bitsy spider climbed up the water spout.",
+    "imageKeyword": "tiny spider",
+    "level": 1
+  },
+  {
+    "word": "knight",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): armor",
+    "definition": "a soldier in armor from long ago",
+    "example": "In the story, the knight wore armor to protect the castle.",
+    "imageKeyword": "knight armor",
+    "level": 1
+  },
+  {
+    "word": "leash",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a rope or strap for walking a dog",
+    "example": "He held the leash tight, so the dog would not run away.",
+    "imageKeyword": "dog leash",
+    "level": 1
+  },
+  {
+    "word": "legend",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a very old story that may or may not be true",
+    "example": "The legend says a dragon lived in that mountain.",
+    "imageKeyword": "legend dragon",
+    "level": 1
+  },
+  {
+    "word": "lose",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "to not win a game or contest",
+    "example": "Our team didn't want to lose the basketball game, so we practiced every day.",
+    "imageKeyword": "basketball team losing game sad faces",
+    "level": 1
+  },
+  {
+    "word": "lose",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): contest",
+    "definition": "to not win a game or contest",
+    "example": "Our team didn't want to lose the basketball game, so we practiced every day.",
+    "imageKeyword": "basketball team losing game sad faces",
+    "level": 1
+  },
+  {
+    "word": "mane",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "long hair on a horse's or lion's neck",
+    "example": "The lion's mane blew in the wind.",
+    "imageKeyword": "lion mane",
+    "level": 1
+  },
+  {
+    "word": "mistake",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "something you did wrong",
+    "example": "Everyone makes a mistake sometimes.",
+    "imageKeyword": "mistake error",
+    "level": 1
+  },
+  {
+    "word": "pack",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a group of wolves or dogs",
+    "example": "The pack of wolves hunted together.",
+    "imageKeyword": "wolf pack",
+    "level": 1
+  },
+  {
+    "word": "passenger",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a person riding in a car or bus",
+    "example": "Every passenger on the bus found a seat.",
+    "imageKeyword": "passenger",
+    "level": 1
+  },
+  {
+    "word": "pepper",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a crunchy vegetable that can be red, green, or yellow",
+    "example": "Mom cut up a red pepper for our salad.",
+    "imageKeyword": "bell pepper",
+    "level": 1
+  },
+  {
+    "word": "rascal",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a naughty but funny child or animal",
+    "example": "That little rascal got into the cookie jar again!",
+    "imageKeyword": "mischievous puppy in cookie jar",
+    "level": 1
+  },
+  {
+    "word": "repair",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to fix something broken",
+    "example": "Dad can repair the broken chair with glue.",
+    "imageKeyword": "hands fixing broken toy",
+    "level": 1
+  },
+  {
+    "word": "rib",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): protect",
+    "definition": "the bones around your chest that protect your body",
+    "example": "He laughed so hard his ribs hurt.",
+    "imageKeyword": "rib cage",
+    "level": 1
+  },
+  {
+    "word": "robin",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a small bird with a red or orange chest",
+    "example": "A robin sat on the fence singing a sweet song.",
+    "imageKeyword": "robin bird",
+    "level": 1
+  },
+  {
+    "word": "scoop",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "to pick up with a spoon or hands",
+    "example": "She used a big spoon to scoop the ice cream.",
+    "imageKeyword": "scooping",
+    "level": 1
+  },
+  {
+    "word": "secret",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "something only you know",
+    "example": "She whispered a secret into her friend's ear.",
+    "imageKeyword": "secret whisper",
+    "level": 1
+  },
+  {
+    "word": "squeeze",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to press something tight",
+    "example": "He gave his teddy bear a big squeeze.",
+    "imageKeyword": "squeeze hug",
+    "level": 1
+  },
+  {
+    "word": "swan",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): curved",
+    "definition": "a big white bird with a very long curved neck that floats on lakes",
+    "example": "The beautiful swan glided across the lake.",
+    "imageKeyword": "swan",
+    "level": 1
+  },
+  {
+    "word": "teach",
+    "severity": "MEDIUM",
+    "type": "example-too-modern",
+    "note": "Example uses 'code' (may be too advanced/too specific)",
+    "definition": "to help someone learn something new",
+    "example": "My big brother will teach me how to write my first code.",
+    "imageKeyword": "older kid teaching younger kid on computer",
+    "level": 1
+  },
+  {
+    "word": "than",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): compare",
+    "definition": "a word used to compare two things",
+    "example": "She scored more points than anyone else on the basketball team.",
+    "imageKeyword": "basketball scoreboard comparing two numbers",
+    "level": 1
+  },
+  {
+    "word": "thermometer",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a tool that tells how hot or cold it is",
+    "example": "Mom put the thermometer in my mouth to check my temperature.",
+    "imageKeyword": "thermometer",
+    "level": 1
+  },
+  {
+    "word": "throne",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a fancy chair for a king or queen",
+    "example": "The king sat on his golden throne.",
+    "imageKeyword": "throne",
+    "level": 1
+  },
+  {
+    "word": "title",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "the name of a book or story",
+    "example": "The title of the book was printed in big letters.",
+    "imageKeyword": "book title",
+    "level": 1
+  },
+  {
+    "word": "toad",
+    "severity": "MEDIUM",
+    "type": "vague-like",
+    "note": "Definition starts with 'like ...' (vague; relies on knowing another word)",
+    "definition": "like a frog but with rough dry skin",
+    "example": "The toad sat in the mud near the garden.",
+    "imageKeyword": "toad",
+    "level": 1
+  },
+  {
+    "word": "treasure",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "something worth a lot, like gold or gems",
+    "example": "The pirates buried the treasure on the island.",
+    "imageKeyword": "treasure chest",
+    "level": 1
+  },
+  {
+    "word": "twist",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to turn something around",
+    "example": "She had to twist the cap to open the bottle.",
+    "imageKeyword": "hands twisting jar lid open",
+    "level": 1
+  },
+  {
+    "word": "vine",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a plant that grows along the ground or up walls",
+    "example": "The vine climbed all the way up the old wall.",
+    "imageKeyword": "vine",
+    "level": 1
+  },
+  {
+    "word": "whale",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): mammal",
+    "definition": "a very large sea mammal",
+    "example": "We saw a huge whale jump out of the ocean.",
+    "imageKeyword": "whale",
+    "level": 1
+  },
+  {
+    "word": "act",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "to perform a part in a play or show",
+    "example": "I will act like a lion in the play.",
+    "imageKeyword": "school play",
+    "level": 2
+  },
+  {
+    "word": "action",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "something that is done",
+    "example": "The action in the story starts when the door opens.",
+    "imageKeyword": "opening door",
+    "level": 2
+  },
+  {
+    "word": "album",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a book or collection of photos or songs",
+    "example": "We put our vacation photos in an album.",
+    "imageKeyword": "photo album",
+    "level": 2
+  },
+  {
+    "word": "amber",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a golden-yellow color or hardened tree sap",
+    "example": "The amber stone had a tiny bug inside.",
+    "imageKeyword": "amber stone",
+    "level": 2
+  },
+  {
+    "word": "arch",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): curved",
+    "definition": "a curved shape like the top of a door",
+    "example": "They walked under the stone arch to enter the garden.",
+    "imageKeyword": "stone arch",
+    "level": 2
+  },
+  {
+    "word": "badge",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a small pin or tag that shows who you are",
+    "example": "The police officer wore a shiny badge.",
+    "imageKeyword": "badge pin",
+    "level": 2
+  },
+  {
+    "word": "banner",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a long piece of cloth with words or pictures",
+    "example": "They hung a welcome banner over the door.",
+    "imageKeyword": "banner sign",
+    "level": 2
+  },
+  {
+    "word": "block",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a solid piece of wood, stone, or plastic",
+    "example": "I used a block of wood to prop the door open.",
+    "imageKeyword": "wood blocks",
+    "level": 2
+  },
+  {
+    "word": "blueprint",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a plan or drawing for building something",
+    "example": "The builder followed the blueprint to make the house.",
+    "imageKeyword": "blueprint plan",
+    "level": 2
+  },
+  {
+    "word": "broth",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a thin soup made by cooking meat or vegetables",
+    "example": "Mom made chicken broth when I was sick.",
+    "imageKeyword": "broth soup",
+    "level": 2
+  },
+  {
+    "word": "bulletin",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a short news report or notice",
+    "example": "The teacher posted a bulletin on the board.",
+    "imageKeyword": "bulletin board",
+    "level": 2
+  },
+  {
+    "word": "canal",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a waterway dug for boats or watering land",
+    "example": "The boat traveled slowly along the canal.",
+    "imageKeyword": "canal waterway",
+    "level": 2
+  },
+  {
+    "word": "canopy",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a cover or roof made of cloth or leaves",
+    "example": "The forest canopy blocked the sunlight.",
+    "imageKeyword": "forest canopy",
+    "level": 2
+  },
+  {
+    "word": "cashew",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): curved",
+    "definition": "a curved nut that grows on a tree",
+    "example": "He snacked on a handful of cashew nuts.",
+    "imageKeyword": "cashew nut",
+    "level": 2
+  },
+  {
+    "word": "cause",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "why something happens",
+    "example": "The cause of the puddle is the melted snow.",
+    "imageKeyword": "puddle snow",
+    "level": 2
+  },
+  {
+    "word": "chart",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a table or picture that shows facts",
+    "example": "The chart tells what jobs we want to do.",
+    "imageKeyword": "class chart",
+    "level": 2
+  },
+  {
+    "word": "chisel",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a sharp tool used to cut wood or stone",
+    "example": "The sculptor used a chisel to shape the statue.",
+    "imageKeyword": "chisel tool",
+    "level": 2
+  },
+  {
+    "word": "choice",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "something you pick",
+    "example": "My choice was the blue marker.",
+    "imageKeyword": "blue marker",
+    "level": 2
+  },
+  {
+    "word": "corral",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a fenced area for horses or cattle",
+    "example": "The cowboys led the horses into the corral.",
+    "imageKeyword": "corral fence",
+    "level": 2
+  },
+  {
+    "word": "country",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): government",
+    "definition": "a nation with its own government",
+    "example": "Japan is a country made of islands.",
+    "imageKeyword": "flag",
+    "level": 2
+  },
+  {
+    "word": "course",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a path or track to follow",
+    "example": "The obstacle course had cones to run around.",
+    "imageKeyword": "obstacle course",
+    "level": 2
+  },
+  {
+    "word": "crest",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "the top of a hill or wave",
+    "example": "They reached the crest of the hill and saw the valley.",
+    "imageKeyword": "hill crest",
+    "level": 2
+  },
+  {
+    "word": "crumb",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a tiny piece of bread or cake",
+    "example": "She brushed the crumb off the table.",
+    "imageKeyword": "bread crumb",
+    "level": 2
+  },
+  {
+    "word": "delay",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to make something late",
+    "example": "A flat tire can delay the trip.",
+    "imageKeyword": "flat tire",
+    "level": 2
+  },
+  {
+    "word": "dig",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "to make a hole with hands or a tool",
+    "example": "We dig in the garden to plant seeds.",
+    "imageKeyword": "digging",
+    "level": 2
+  },
+  {
+    "word": "farm",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a place where crops or animals are raised",
+    "example": "On the farm, we fed chickens corn.",
+    "imageKeyword": "farm",
+    "level": 2
+  },
+  {
+    "word": "find",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to locate something",
+    "example": "I need to find my lost library book before it is due.",
+    "imageKeyword": "child searching for lost book",
+    "level": 2
+  },
+  {
+    "word": "force",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a push or a pull",
+    "example": "A force makes the swing move forward.",
+    "imageKeyword": "swing",
+    "level": 2
+  },
+  {
+    "word": "globe",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): model",
+    "definition": "a round model of Earth",
+    "example": "I spun the globe to find Africa.",
+    "imageKeyword": "globe",
+    "level": 2
+  },
+  {
+    "word": "goal",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "something you want to do",
+    "example": "My goal is to read ten books this month.",
+    "imageKeyword": "reading goal",
+    "level": 2
+  },
+  {
+    "word": "groan",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "to make a deep sound when in pain or upset",
+    "example": "I groaned when I bumped my toe.",
+    "imageKeyword": "child stubbing toe",
+    "level": 2
+  },
+  {
+    "word": "guard",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): protect",
+    "definition": "to watch and protect",
+    "example": "The dog guards the yard by barking at strangers.",
+    "imageKeyword": "guard dog",
+    "level": 2
+  },
+  {
+    "word": "gutter",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a channel at the edge of a roof or road for water",
+    "example": "Rainwater flowed down the gutter.",
+    "imageKeyword": "rain gutter",
+    "level": 2
+  },
+  {
+    "word": "habit",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "something you do often",
+    "example": "Brushing my teeth is a good habit.",
+    "imageKeyword": "toothbrush",
+    "level": 2
+  },
+  {
+    "word": "heal",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "when a wound or body gets better on its own",
+    "example": "My scraped knee will heal with a bandage.",
+    "imageKeyword": "bandage",
+    "level": 2
+  },
+  {
+    "word": "height",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "how tall something is",
+    "example": "We checked my height by marking the wall.",
+    "imageKeyword": "height chart",
+    "level": 2
+  },
+  {
+    "word": "however",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a word that means 'but' or 'on the other hand'",
+    "example": "I wanted to play outside; however, the rain was heavy.",
+    "imageKeyword": "rain window",
+    "level": 2
+  },
+  {
+    "word": "husk",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "the dry outer cover of a seed or corn",
+    "example": "She peeled the husk off the ear of corn.",
+    "imageKeyword": "corn husk",
+    "level": 2
+  },
+  {
+    "word": "ibis",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): curved",
+    "definition": "a wading bird with a long curved bill",
+    "example": "The ibis poked its beak into the mud for food.",
+    "imageKeyword": "ibis bird",
+    "level": 2
+  },
+  {
+    "word": "idea",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a thought or plan",
+    "example": "My idea was to build a fort with blankets.",
+    "imageKeyword": "blanket fort",
+    "level": 2
+  },
+  {
+    "word": "law",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): official",
+    "definition": "an official rule",
+    "example": "A law says we must stop at a red light.",
+    "imageKeyword": "red light",
+    "level": 2
+  },
+  {
+    "word": "length",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "how long something is",
+    "example": "The length of the rope is three meters.",
+    "imageKeyword": "rope",
+    "level": 2
+  },
+  {
+    "word": "loom",
+    "severity": "MEDIUM",
+    "type": "hard-words-in-definition",
+    "note": "Definition contains potentially hard word(s): machine",
+    "definition": "a machine used to weave cloth",
+    "example": "He made a scarf on the loom.",
+    "imageKeyword": "weaving loom",
+    "level": 2
+  },
+  {
+    "word": "memory",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "something you recall",
+    "example": "My best memory is building snowmen with Dad.",
+    "imageKeyword": "snowman",
+    "level": 2
+  },
+  {
+    "word": "palace",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a large home for a king or queen",
+    "example": "The palace had shiny floors and tall doors.",
+    "imageKeyword": "palace",
+    "level": 2
+  },
+  {
+    "word": "point out",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "to show something",
+    "example": "The teacher pointed out the comma in my sentence.",
+    "imageKeyword": "comma",
+    "level": 2
+  },
+  {
+    "word": "prize",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "something you win",
+    "example": "I won a prize for the best costume.",
+    "imageKeyword": "trophy",
+    "level": 2
+  },
+  {
+    "word": "role",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a part in a play or job",
+    "example": "My role in the play is the narrator.",
+    "imageKeyword": "narrator",
+    "level": 2
+  },
+  {
+    "word": "shape",
+    "severity": "MEDIUM",
+    "type": "too-vague",
+    "note": "Very short 'something ...' style definition",
+    "definition": "the outline of something",
+    "example": "A stop sign has the shape of an octagon.",
+    "imageKeyword": "octagon",
+    "level": 2
+  },
+  {
+    "word": "signal",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a sound, light, or movement that gives a message",
+    "example": "The traffic signal turned green, so cars went.",
+    "imageKeyword": "traffic light",
+    "level": 2
+  },
+  {
+    "word": "track",
+    "severity": "MEDIUM",
+    "type": "or-definition",
+    "note": "Definition includes 'a/an ... or ...' (often two different senses/categories)",
+    "definition": "a path or a place to run",
+    "example": "We ran one lap around the track.",
+    "imageKeyword": "running track",
+    "level": 2
+  },
+  {
+    "word": "ant",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a tiny bug that lives in a group",
+    "example": "The ant carried a crumb back to its hill.",
+    "imageKeyword": "ant",
+    "level": 1
+  },
+  {
+    "word": "ash",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the gray powder left after fire",
+    "example": "After the campfire, only ash was left.",
+    "imageKeyword": "ash",
+    "level": 1
+  },
+  {
+    "word": "barn",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a building on a farm for animals",
+    "example": "The cows went into the big red barn at night.",
+    "imageKeyword": "barn",
+    "level": 1
+  },
+  {
+    "word": "beak",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the hard mouth part of a bird",
+    "example": "The bird used its beak to crack the seed.",
+    "imageKeyword": "beak",
+    "level": 1
+  },
+  {
+    "word": "bee",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a flying bug that makes honey",
+    "example": "The bee buzzed around the yellow flowers.",
+    "imageKeyword": "bee",
+    "level": 1
+  },
+  {
+    "word": "cave",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a hole in a rock or mountain",
+    "example": "The bear went into the dark cave to sleep.",
+    "imageKeyword": "cave",
+    "level": 1
+  },
+  {
+    "word": "chin",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the bottom part of your face",
+    "example": "Juice dripped down his chin when he ate the peach.",
+    "imageKeyword": "chin",
+    "level": 1
+  },
+  {
+    "word": "claw",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the sharp nail on an animal's foot",
+    "example": "The cat used its claw to climb the tree.",
+    "imageKeyword": "claw",
+    "level": 1
+  },
+  {
+    "word": "crow",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a big black bird",
+    "example": "The crow cawed loudly from the top of the tree.",
+    "imageKeyword": "crow",
+    "level": 1
+  },
+  {
+    "word": "damp",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a little bit wet",
+    "example": "The grass was damp from the morning dew.",
+    "imageKeyword": "damp",
+    "level": 1
+  },
+  {
+    "word": "dust",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "tiny bits of dry dirt in the air",
+    "example": "The old book was covered in dust.",
+    "imageKeyword": "dust",
+    "level": 1
+  },
+  {
+    "word": "dwarf",
+    "severity": "LOW",
+    "type": "imagekeyword-style",
+    "note": "imageKeyword includes style word (cartoon/fantasy). Might reduce search precision.",
+    "definition": "a very small person in stories",
+    "example": "The tiny dwarf lived inside the hollow tree.",
+    "imageKeyword": "fantasy dwarf cartoon",
+    "level": 1
+  },
+  {
+    "word": "fist",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a hand with all fingers closed tight",
+    "example": "He made a fist and knocked on the door.",
+    "imageKeyword": "fist",
+    "level": 1
+  },
+  {
+    "word": "fog",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a cloud close to the ground",
+    "example": "The fog was so thick we could not see the road.",
+    "imageKeyword": "fog",
+    "level": 1
+  },
+  {
+    "word": "frog",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a small green animal that jumps and lives near water",
+    "example": "The frog jumped off the lily pad into the pond.",
+    "imageKeyword": "frog",
+    "level": 1
+  },
+  {
+    "word": "fur",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the soft hair on an animal",
+    "example": "The rabbit's fur was as soft as a cloud.",
+    "imageKeyword": "fur",
+    "level": 1
+  },
+  {
+    "word": "hail",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "balls of ice that fall from the sky",
+    "example": "The hail bounced off the car like little white stones.",
+    "imageKeyword": "hail",
+    "level": 1
+  },
+  {
+    "word": "half",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "one of two equal parts",
+    "example": "She ate half the sandwich and saved the rest.",
+    "imageKeyword": "half",
+    "level": 1
+  },
+  {
+    "word": "hen",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a female chicken that lays eggs",
+    "example": "The hen sat on her eggs to keep them warm.",
+    "imageKeyword": "hen",
+    "level": 1
+  },
+  {
+    "word": "hip",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the wide part where your legs meet your body",
+    "example": "He put his hands on his hips and said stop.",
+    "imageKeyword": "hip",
+    "level": 1
+  },
+  {
+    "word": "lamb",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a baby sheep",
+    "example": "The little lamb stayed close to its mother in the field.",
+    "imageKeyword": "lamb",
+    "level": 1
+  },
+  {
+    "word": "lamp",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "something that gives light",
+    "example": "He turned on the lamp to read his book.",
+    "imageKeyword": "lamp",
+    "level": 1
+  },
+  {
+    "word": "loud",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "making a lot of noise",
+    "example": "The loud music made it hard to talk.",
+    "imageKeyword": "loud",
+    "level": 1
+  },
+  {
+    "word": "moss",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "soft green material that grows on rocks",
+    "example": "The rocks were covered in soft green moss.",
+    "imageKeyword": "moss",
+    "level": 1
+  },
+  {
+    "word": "mud",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "wet dirt",
+    "example": "The pig rolled in the mud to stay cool.",
+    "imageKeyword": "mud",
+    "level": 1
+  },
+  {
+    "word": "owl",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a bird that hunts at night",
+    "example": "The owl hooted from the tree when it got dark.",
+    "imageKeyword": "owl",
+    "level": 1
+  },
+  {
+    "word": "paw",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "an animal's foot",
+    "example": "The dog lifted its paw and shook my hand.",
+    "imageKeyword": "paw",
+    "level": 1
+  },
+  {
+    "word": "plum",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a small purple fruit",
+    "example": "The ripe plum was sweet and juicy.",
+    "imageKeyword": "plum",
+    "level": 1
+  },
+  {
+    "word": "poem",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "words that sound nice together",
+    "example": "She wrote a poem about her cat.",
+    "imageKeyword": "poem",
+    "level": 1
+  },
+  {
+    "word": "pond",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a small body of water",
+    "example": "The ducks swam around the pond.",
+    "imageKeyword": "pond",
+    "level": 1
+  },
+  {
+    "word": "pony",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a small horse",
+    "example": "She got to ride a pony at the farm.",
+    "imageKeyword": "pony",
+    "level": 1
+  },
+  {
+    "word": "rug",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a soft cloth on the floor",
+    "example": "The cat slept on the soft rug by the fire.",
+    "imageKeyword": "rug",
+    "level": 1
+  },
+  {
+    "word": "soon",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "in a short time from now",
+    "example": "The bus will be here soon.",
+    "imageKeyword": "soon",
+    "level": 1
+  },
+  {
+    "word": "swan",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a big white bird with a very long curved neck that floats on lakes",
+    "example": "The beautiful swan glided across the lake.",
+    "imageKeyword": "swan",
+    "level": 1
+  },
+  {
+    "word": "sword",
+    "severity": "LOW",
+    "type": "imagekeyword-style",
+    "note": "imageKeyword includes style word (cartoon/fantasy). Might reduce search precision.",
+    "definition": "a long sharp metal blade from old times, often in stories",
+    "example": "The hero pulled the sword from the stone.",
+    "imageKeyword": "cartoon medieval sword",
+    "level": 1
+  },
+  {
+    "word": "toad",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "like a frog but with rough dry skin",
+    "example": "The toad sat in the mud near the garden.",
+    "imageKeyword": "toad",
+    "level": 1
+  },
+  {
+    "word": "vest",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a jacket with no sleeves",
+    "example": "He wore a warm vest over his shirt.",
+    "imageKeyword": "vest",
+    "level": 1
+  },
+  {
+    "word": "vine",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a plant that grows along the ground or up walls",
+    "example": "The vine climbed all the way up the old wall.",
+    "imageKeyword": "vine",
+    "level": 1
+  },
+  {
+    "word": "worm",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a long thin animal with no legs",
+    "example": "After the rain, a worm came out of the dirt.",
+    "imageKeyword": "worm",
+    "level": 1
+  },
+  {
+    "word": "afraid",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "feeling like something bad might happen",
+    "example": "I was afraid in the dark until I turned on the lamp.",
+    "imageKeyword": "lamp",
+    "level": 2
+  },
+  {
+    "word": "area",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the space inside a shape",
+    "example": "The area of the rug covers most of the floor.",
+    "imageKeyword": "rug",
+    "level": 2
+  },
+  {
+    "word": "arm",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the body part from shoulder to hand",
+    "example": "I carried the bag on my arm.",
+    "imageKeyword": "arm",
+    "level": 2
+  },
+  {
+    "word": "citizen",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a person who belongs to a place",
+    "example": "As a citizen, my mom votes in our town.",
+    "imageKeyword": "vote",
+    "level": 2
+  },
+  {
+    "word": "comfort",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "help someone feel better",
+    "example": "A hug can comfort a sad friend.",
+    "imageKeyword": "hug",
+    "level": 2
+  },
+  {
+    "word": "country",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a nation with its own government",
+    "example": "Japan is a country made of islands.",
+    "imageKeyword": "flag",
+    "level": 2
+  },
+  {
+    "word": "dagger",
+    "severity": "LOW",
+    "type": "imagekeyword-style",
+    "note": "imageKeyword includes style word (cartoon/fantasy). Might reduce search precision.",
+    "definition": "a short pointed knife",
+    "example": "The pirate carried a dagger on his belt.",
+    "imageKeyword": "cartoon pirate dagger",
+    "level": 2
+  },
+  {
+    "word": "distance",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "how far apart things are",
+    "example": "The distance to the park is two blocks.",
+    "imageKeyword": "road",
+    "level": 2
+  },
+  {
+    "word": "farm",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a place where crops or animals are raised",
+    "example": "On the farm, we fed chickens corn.",
+    "imageKeyword": "farm",
+    "level": 2
+  },
+  {
+    "word": "fork",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a tool with prongs for eating",
+    "example": "I used a fork to pick up noodles.",
+    "imageKeyword": "fork",
+    "level": 2
+  },
+  {
+    "word": "hop",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "to jump on one foot",
+    "example": "I can hop like a bunny across the rug.",
+    "imageKeyword": "hop",
+    "level": 2
+  },
+  {
+    "word": "ignore",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "to not pay attention",
+    "example": "I ignore the buzzing fly and keep reading.",
+    "imageKeyword": "fly",
+    "level": 2
+  },
+  {
+    "word": "insect",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a small animal with six legs",
+    "example": "An ant is an insect that can carry crumbs.",
+    "imageKeyword": "ant",
+    "level": 2
+  },
+  {
+    "word": "key",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "something that opens a lock",
+    "example": "The key turned, and the door opened.",
+    "imageKeyword": "key",
+    "level": 2
+  },
+  {
+    "word": "knee",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the joint in your leg",
+    "example": "I bent my knee to tie my shoe.",
+    "imageKeyword": "knee",
+    "level": 2
+  },
+  {
+    "word": "length",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "how long something is",
+    "example": "The length of the rope is three meters.",
+    "imageKeyword": "rope",
+    "level": 2
+  },
+  {
+    "word": "little",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "small",
+    "example": "A little seed can grow into a tall tree.",
+    "imageKeyword": "seed",
+    "level": 2
+  },
+  {
+    "word": "map",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a drawing that shows where places are",
+    "example": "We used a map to find the zoo.",
+    "imageKeyword": "map",
+    "level": 2
+  },
+  {
+    "word": "matter",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "anything that takes up space",
+    "example": "Air is matter even though you cannot see it.",
+    "imageKeyword": "air",
+    "level": 2
+  },
+  {
+    "word": "near",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "close by",
+    "example": "Sit near the front, so you can hear.",
+    "imageKeyword": "near",
+    "level": 2
+  },
+  {
+    "word": "note",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a short written message",
+    "example": "I wrote a note to my teacher about my absence.",
+    "imageKeyword": "note",
+    "level": 2
+  },
+  {
+    "word": "object",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "something you can see or touch",
+    "example": "The ball is an object that can roll.",
+    "imageKeyword": "ball",
+    "level": 2
+  },
+  {
+    "word": "quiz",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "a short test",
+    "example": "We had a quiz on spelling words.",
+    "imageKeyword": "quiz",
+    "level": 2
+  },
+  {
+    "word": "width",
+    "severity": "LOW",
+    "type": "imagekeyword-too-short",
+    "note": "imageKeyword very short/generic",
+    "definition": "the distance from one side to the other",
+    "example": "The width of the door is wider than my arms.",
+    "imageKeyword": "door",
+    "level": 2
+  }
+]
