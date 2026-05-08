@@ -238,7 +238,7 @@ const LEVEL2B_BANK=[{"word":"moral","level":2,"definition":"a lesson a story tea
 {"word":"on the contrary","level":2,"definition":"the opposite is true","example":"He is not lazy; on the contrary, he works very hard every day.","imageKeyword":"opposite"},
 {"word":"on the whole","level":2,"definition":"looking at all parts of it","example":"On the whole, it was a great day even though we got a little wet.","imageKeyword":"overall"},
 {"word":"overall","level":2,"definition":"looking at all things together","example":"Overall, the class did a wonderful job on the project.","imageKeyword":"all together"},
-{"word":"rather","level":2,"definition":"instead; or somewhat","example":"I would rather read a book than watch TV tonight.","imageKeyword":"child choosing a book over watching TV"},
+{"word":"rather","level":2,"definition":"somewhat; to some degree","example":"It is rather cold today, so bring a jacket.","imageKeyword":"child in cold weather with jacket"},
 {"word":"regardless","level":2,"definition":"no matter what happens","example":"She will go to the park regardless of the cold weather.","imageKeyword":"anyway"},
 {"word":"similarly","level":2,"definition":"in a way that is almost the same","example":"Cats are soft; similarly, rabbits have soft fur too.","imageKeyword":"alike"},
 {"word":"specifically","level":2,"definition":"in an exact way","example":"He asked specifically for chocolate ice cream, not vanilla.","imageKeyword":"exactly"},

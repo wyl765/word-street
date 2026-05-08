@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-08
 
-3816 ambiguous pairs found.
+3819 ambiguous pairs found.
 
 ## L1: "goose" vs "frog" (67%)
 - goose: a big bird that honks and lives near water
@@ -702,13 +702,9 @@
 - ashamed: feeling bad about something you did wrong
 - mistake: something you did wrong
 
-## L1: "after" vs "dawn" (67%)
-- after: it comes next, not first
-- dawn: when the sun first comes up
-
-## L1: "after" vs "sprout" (67%)
-- after: it comes next, not first
-- sprout: when a plant first comes out of a seed
+## L1: "after" vs "once" (100%)
+- after: later than; following in time
+- once: one time
 
 ## L1: "next" vs "then" (100%)
 - next: the one that comes right after
@@ -1916,7 +1912,7 @@
 
 ## L2: "action" vs "guarantee" (67%)
 - action: something that is done
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "action" vs "hazard" (67%)
 - action: something that is done
@@ -1940,7 +1936,7 @@
 
 ## L2: "action" vs "phenomenon" (67%)
 - action: something that is done
-- phenomenon: something odd or cool that happens
+- phenomenon: something unusual that happens, especially in nature or science
 
 ## L2: "action" vs "prohibit" (67%)
 - action: something that is done
@@ -2033,6 +2029,30 @@
 ## L2: "afraid" vs "tolerate" (67%)
 - afraid: feeling like something bad might happen
 - tolerate: to put up with something you do not like
+
+## L2: "ask" vs "goal" (100%)
+- ask: to use words to find out something you want to know
+- goal: something you want to do
+
+## L2: "ask" vs "prize" (100%)
+- ask: to use words to find out something you want to know
+- prize: something you win
+
+## L2: "ask" vs "dispose" (100%)
+- ask: to use words to find out something you want to know
+- dispose: to get rid of something
+
+## L2: "ask" vs "locate" (67%)
+- ask: to use words to find out something you want to know
+- locate: to find where something is
+
+## L2: "ask" vs "purchase" (100%)
+- ask: to use words to find out something you want to know
+- purchase: to buy something
+
+## L2: "ask" vs "refuse" (100%)
+- ask: to use words to find out something you want to know
+- refuse: to say no and not do something
 
 ## L2: "attention" vs "pay attention" (67%)
 - attention: when you watch and listen well
@@ -2808,7 +2828,7 @@
 
 ## L2: "danger" vs "guarantee" (67%)
 - danger: something that can hurt you
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "danger" vs "hazard" (67%)
 - danger: something that can hurt you
@@ -2832,7 +2852,7 @@
 
 ## L2: "danger" vs "phenomenon" (67%)
 - danger: something that can hurt you
-- phenomenon: something odd or cool that happens
+- phenomenon: something unusual that happens, especially in nature or science
 
 ## L2: "danger" vs "prohibit" (67%)
 - danger: something that can hurt you
@@ -3113,6 +3133,14 @@
 ## L2: "flour" vs "mortar" (67%)
 - flour: powder used for baking
 - mortar: a bowl used for grinding things into powder
+
+## L2: "groan" vs "laugh" (67%)
+- groan: to make a deep sound when in pain or upset
+- laugh: to make a happy sound
+
+## L2: "groan" vs "tease" (100%)
+- groan: to make a deep sound when in pain or upset
+- tease: to make fun of
 
 ## L2: "hallway" vs "outside" (100%)
 - hallway: a long passage inside a building
@@ -3565,14 +3593,6 @@
 ## L2: "shore" vs "watershed" (67%)
 - shore: land next to water
 - watershed: an area of land where all water drains to one river
-
-## L2: "signal" vs "symptom" (67%)
-- signal: a sign that tells what to do
-- symptom: a sign that you are sick
-
-## L2: "signal" vs "instinct" (75%)
-- signal: a sign that tells what to do
-- instinct: a natural feeling that tells an animal what to do
 
 ## L2: "swallow" vs "digest" (60%)
 - swallow: to move food down your throat
@@ -4376,7 +4396,7 @@
 
 ## L2: "expect" vs "guarantee" (75%)
 - expect: to think something will happen
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "expect" vs "perspective" (67%)
 - expect: to think something will happen
@@ -5914,10 +5934,6 @@
 - accident: something bad that happens without being planned
 - circumstance: the facts around something that happens
 
-## L2: "accident" vs "phenomenon" (75%)
-- accident: something bad that happens without being planned
-- phenomenon: something odd or cool that happens
-
 ## L2: "accident" vs "purchase" (100%)
 - accident: something bad that happens without being planned
 - purchase: to buy something
@@ -6684,7 +6700,7 @@
 
 ## L2: "challenge" vs "guarantee" (67%)
 - challenge: something that is hard to do
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "challenge" vs "hazard" (67%)
 - challenge: something that is hard to do
@@ -6712,7 +6728,7 @@
 
 ## L2: "challenge" vs "phenomenon" (67%)
 - challenge: something that is hard to do
-- phenomenon: something odd or cool that happens
+- phenomenon: something unusual that happens, especially in nature or science
 
 ## L2: "challenge" vs "prohibit" (67%)
 - challenge: something that is hard to do
@@ -7892,7 +7908,7 @@
 
 ## L2: "entity" vs "guarantee" (67%)
 - entity: something that exists on its own
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "entity" vs "hazard" (67%)
 - entity: something that exists on its own
@@ -7916,7 +7932,7 @@
 
 ## L2: "entity" vs "phenomenon" (67%)
 - entity: something that exists on its own
-- phenomenon: something odd or cool that happens
+- phenomenon: something unusual that happens, especially in nature or science
 
 ## L2: "entity" vs "prohibit" (67%)
 - entity: something that exists on its own
@@ -8212,7 +8228,7 @@
 
 ## L2: "incentive" vs "guarantee" (67%)
 - incentive: something that motivates you to do something
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "incentive" vs "hazard" (67%)
 - incentive: something that motivates you to do something
@@ -8236,7 +8252,7 @@
 
 ## L2: "incentive" vs "phenomenon" (67%)
 - incentive: something that motivates you to do something
-- phenomenon: something odd or cool that happens
+- phenomenon: something unusual that happens, especially in nature or science
 
 ## L2: "incentive" vs "prohibit" (67%)
 - incentive: something that motivates you to do something
@@ -9808,7 +9824,7 @@
 
 ## L2: "bring about" vs "guarantee" (67%)
 - bring about: to make something happen
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "bring about" vs "liable" (67%)
 - bring about: to make something happen
@@ -10816,7 +10832,7 @@
 
 ## L2: "barrier" vs "guarantee" (67%)
 - barrier: something that blocks the way
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "barrier" vs "hazard" (67%)
 - barrier: something that blocks the way
@@ -10840,7 +10856,7 @@
 
 ## L2: "barrier" vs "phenomenon" (67%)
 - barrier: something that blocks the way
-- phenomenon: something odd or cool that happens
+- phenomenon: something unusual that happens, especially in nature or science
 
 ## L2: "barrier" vs "prohibit" (67%)
 - barrier: something that blocks the way
@@ -10978,10 +10994,6 @@
 - blame: to say someone caused something bad
 - compel: to force someone to do something
 
-## L2: "circumstance" vs "phenomenon" (75%)
-- circumstance: the facts around something that happens
-- phenomenon: something odd or cool that happens
-
 ## L2: "circumstance" vs "purchase" (100%)
 - circumstance: the facts around something that happens
 - purchase: to buy something
@@ -11000,7 +11012,7 @@
 
 ## L2: "commit" vs "guarantee" (67%)
 - commit: to promise to do something and not give up
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 
 ## L2: "commit" vs "justify" (67%)
 - commit: to promise to do something and not give up
@@ -11790,10 +11802,6 @@
 - factor: one thing that helps cause something to happen
 - refuse: to say no and not do something
 
-## L2: "fatal" vs "peril" (60%)
-- fatal: causing death or very serious harm
-- peril: great danger that could cause death or serious harm
-
 ## L2: "fault" vs "purchase" (100%)
 - fault: responsibility for something that went wrong
 - purchase: to buy something
@@ -11899,20 +11907,16 @@
 - primary: the most important or first
 
 ## L2: "guarantee" vs "operate" (67%)
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 - operate: to make something work or run
 
 ## L2: "guarantee" vs "purchase" (100%)
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 - purchase: to buy something
 
 ## L2: "guarantee" vs "refuse" (100%)
-- guarantee: a promise that something will happen or work
+- guarantee: to promise that something will happen or work
 - refuse: to say no and not do something
-
-## L2: "hazard" vs "peril" (83%)
-- hazard: something that could cause danger or harm
-- peril: great danger that could cause death or serious harm
 
 ## L2: "hazard" vs "purchase" (100%)
 - hazard: something that could cause danger or harm
@@ -11949,6 +11953,10 @@
 ## L2: "imply" vs "refuse" (100%)
 - imply: to suggest something without saying it directly
 - refuse: to say no and not do something
+
+## L2: "incident" vs "phenomenon" (60%)
+- incident: something that happens, most times something odd
+- phenomenon: something unusual that happens, especially in nature or science
 
 ## L2: "incident" vs "purchase" (100%)
 - incident: something that happens, most times something odd
@@ -12503,11 +12511,11 @@
 - regret: to feel sorry about something you did
 
 ## L2: "phenomenon" vs "purchase" (100%)
-- phenomenon: something odd or cool that happens
+- phenomenon: something unusual that happens, especially in nature or science
 - purchase: to buy something
 
 ## L2: "phenomenon" vs "refuse" (100%)
-- phenomenon: something odd or cool that happens
+- phenomenon: something unusual that happens, especially in nature or science
 - refuse: to say no and not do something
 
 ## L2: "physical" vs "purchase" (100%)
@@ -13216,7 +13224,7 @@
 
 ## L3: "atmosphere" vs "geothermal" (67%)
 - atmosphere: the air that surrounds the Earth
-- geothermal: heat that comes from deep inside the Earth
+- geothermal: using heat that comes from deep inside the Earth
 
 ## L3: "photosynthesis" vs "chlorophyll" (80%)
 - photosynthesis: how plants use sunlight to make their own food
@@ -13226,9 +13234,9 @@
 - camouflage: colors or patterns that help an animal hide
 - vertebrate: an animal that has a backbone
 
-## L3: "conductor" vs "insulator" (60%)
+## L3: "conductor" vs "insulator" (80%)
 - conductor: a material that lets electricity or heat pass through
-- insulator: a material that blocks power or heat
+- insulator: a material that blocks electricity or heat
 
 ## L3: "microscope" vs "telescope" (71%)
 - microscope: a tool that makes very tiny things look bigger
@@ -14738,6 +14746,14 @@
 - strategic: carefully planned to achieve a specific goal
 - regimen: a planned set of activities to improve health or achieve a goal
 
+## L5: "subdivide" vs "bisect" (75%)
+- subdivide: to divide something into smaller parts
+- bisect: to divide into two equal parts
+
+## L5: "subdivide" vs "apportion" (67%)
+- subdivide: to divide something into smaller parts
+- apportion: to divide something and share it out
+
 ## L5: "threshold" vs "acidity" (67%)
 - threshold: the level at which something begins to happen
 - acidity: the level of acid in something
@@ -15065,10 +15081,6 @@
 ## L5: "empathy" vs "impersonate" (67%)
 - empathy: the ability to understand and share how another person feels
 - impersonate: to pretend to be another person
-
-## L5: "enlighten" vs "bewilder" (60%)
-- enlighten: to give someone what you know or grasp
-- bewilder: to confuse someone so much they do not know what to do
 
 ## L5: "envoy" vs "emissary" (75%)
 - envoy: a messenger or representative sent on a mission

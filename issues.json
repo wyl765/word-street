@@ -1,0 +1,2088 @@
+[
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "caterpillar",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "The green caterpillar munched on leaves all day."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level1.js",
+    "word": "caterpillar",
+    "issue": "imageKeyword 包含敏感词 (pill)",
+    "reason": "caterpillar"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "throat",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "My throat hurt so much I could not swallow."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "rib",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "He laughed so hard his ribs hurt."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level1.js",
+    "word": "hoodie",
+    "issue": "例句太长 (13 词)",
+    "reason": "He pulled the hood of his hoodie over his head in the rain."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "pillow",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "He fluffed his pillow before going to sleep."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level1.js",
+    "word": "pillow",
+    "issue": "imageKeyword 包含敏感词 (pill)",
+    "reason": "pillow"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level1.js",
+    "word": "bridge",
+    "issue": "例句太长 (14 词)",
+    "reason": "We walked across the bridge to get to the other side of the river."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level1.js",
+    "word": "island",
+    "issue": "例句太长 (13 词)",
+    "reason": "The island was so small you could walk around it in one hour."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "spill",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "Be careful not to spill your juice on the table."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level1.js",
+    "word": "spill",
+    "issue": "imageKeyword 包含敏感词 (pill)",
+    "reason": "spilling"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "create",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "She used paint to create a beautiful picture."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level1.js",
+    "word": "narrow",
+    "issue": "例句太长 (13 词)",
+    "reason": "The path was so narrow only one person could walk at a time."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "sharp",
+    "issue": "例句包含成人/敏感词汇 (knife)",
+    "reason": "Be careful! That knife is very sharp."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "beautiful",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The sunset painted the sky in beautiful colors."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "recent",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "In her recent painting, she drew a rainbow."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level1.js",
+    "word": "smoke",
+    "issue": "例句包含成人/敏感词汇 (smoke)",
+    "reason": "Smoke rose from the chimney into the sky."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level1.js",
+    "word": "smoke",
+    "issue": "imageKeyword 包含敏感词 (smoke)",
+    "reason": "smoke"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level1.js",
+    "word": "lose",
+    "issue": "例句太长 (14 词)",
+    "reason": "Our team didn't want to lose the basketball game, so we practiced every day."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "citizen",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "As a citizen, my mom votes in our town."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "citizen",
+    "issue": "imageKeyword 包含敏感词 (vote)",
+    "reason": "vote"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "election",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "During an election, adults vote for the mayor."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "election",
+    "issue": "例句包含成人/敏感词汇 (election)",
+    "reason": "During an election, adults vote for the mayor."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "gradually",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The paint color changed gradually from light to dark."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "turn into",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "The caterpillar will turn into a butterfly."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "honest",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "I was honest and told Mom I spilled the milk."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "honest",
+    "issue": "imageKeyword 包含敏感词 (pill)",
+    "reason": "spilled milk"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "bossy",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "Being bossy can hurt friends' feelings."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "dollar",
+    "issue": "例句包含成人/敏感词汇 (bank)",
+    "reason": "I saved one dollar in my piggy bank."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "groan",
+    "issue": "imageKeyword 包含敏感词 (hurt)",
+    "reason": "hurt toe"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "hurt",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "My arm hurt after I fell off the swing."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "hurt",
+    "issue": "imageKeyword 包含敏感词 (hurt)",
+    "reason": "hurt arm"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "judge",
+    "issue": "例句包含成人/敏感词汇 (judge)",
+    "reason": "The judge chose the best drawing at the fair."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "laugh",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "The joke made us laugh until our sides hurt."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "least",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "Pick the least messy paint color for the table."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "least",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "paint"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "mix",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "Mix the paint to make purple."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "mix",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "mix paint"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "vote",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "Adults vote to pick a leader."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "yesterday",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "Yesterday we painted a big mural."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "cocoon",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "The caterpillar spun a cocoon and later came out as a moth."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "easel",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "easel painting"
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "fresco",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "fresco painting"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "pigment",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The artist mixed red pigment into the paint."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2.js",
+    "word": "pigment",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "pigment paint"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2.js",
+    "word": "carefully",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "He carefully carried the glass of water without spilling."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2.js",
+    "word": "accept",
+    "issue": "例句太长 (15 词)",
+    "reason": "I decided to accept the trade and swap my rare card for two common ones."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2.js",
+    "word": "quite",
+    "issue": "例句太长 (14 词)",
+    "reason": "The coding challenge was quite hard, but I figured it out after three tries."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "claim",
+    "issue": "例句太长 (13 词)",
+    "reason": "Both children claim the toy is theirs, so the teacher had to help."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "combine",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "If you combine blue and yellow paint, you get green."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "develop",
+    "issue": "例句太长 (14 词)",
+    "reason": "A tiny seed can develop into a tall sunflower in just a few weeks."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "examine",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "The doctor examined my sore throat with a tiny flashlight."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "expect",
+    "issue": "例句太长 (13 词)",
+    "reason": "I expect the bus will come soon because it is almost eight o'clock."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "fail",
+    "issue": "例句太长 (15 词)",
+    "reason": "He failed to catch the ball, but he tried again and caught the next one."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "hug",
+    "issue": "例句太长 (14 词)",
+    "reason": "She ran to hug her grandmother as soon as she walked in the door."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "admire",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "Everyone stopped to admire the beautiful painting on the wall."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "argue",
+    "issue": "例句太长 (13 词)",
+    "reason": "The two brothers argued about whose turn it was to play the game."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "convince",
+    "issue": "例句太长 (17 词)",
+    "reason": "She convinced her dad to let them get a puppy by promising to walk it every day."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "defend",
+    "issue": "例句太长 (13 词)",
+    "reason": "The father bird defended his nest by flapping his wings at the cat."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "encourage",
+    "issue": "例句太长 (13 词)",
+    "reason": "Her friends encouraged her to try again after she fell off the bike."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "observe",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "We observed the caterpillar as it slowly turned into a butterfly."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "dense",
+    "issue": "例句太长 (13 词)",
+    "reason": "The forest was so dense that sunlight could barely get through the trees."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "dim",
+    "issue": "例句太长 (13 词)",
+    "reason": "The dim light in the hallway made it hard to find the door."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "distant",
+    "issue": "例句太长 (14 词)",
+    "reason": "We could see the distant mountains, but it would take hours to reach them."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "faint",
+    "issue": "例句太长 (13 词)",
+    "reason": "There was a faint smell of cookies coming from the kitchen far away."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "grim",
+    "issue": "例句太长 (14 词)",
+    "reason": "The teacher had a grim face when she saw the mess in the classroom."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "heavy",
+    "issue": "例句太长 (13 词)",
+    "reason": "The heavy backpack made her shoulders ache by the end of the day."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "humble",
+    "issue": "例句太长 (13 词)",
+    "reason": "Even though he won first place, he was humble and thanked his team."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "innocent",
+    "issue": "例句太长 (13 词)",
+    "reason": "The puppy looked innocent, but it was the one who chewed the shoe."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "keen",
+    "issue": "例句太长 (14 词)",
+    "reason": "He was keen to start reading the new book he got for his birthday."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "lean",
+    "issue": "例句太长 (13 词)",
+    "reason": "The lean runner finished the race first because she was fast and fit."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "odd",
+    "issue": "例句太长 (15 词)",
+    "reason": "It was odd to see snow in April when it was supposed to be spring."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "rare",
+    "issue": "例句太长 (15 词)",
+    "reason": "It is rare to see a bald eagle, so we were very lucky that day."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "rusty",
+    "issue": "例句太长 (13 词)",
+    "reason": "The rusty old bike had been left in the rain for too long."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "scarce",
+    "issue": "例句太长 (15 词)",
+    "reason": "When a trading card is scarce, collectors will pay a much higher price for it."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "absurd",
+    "issue": "例句太长 (13 词)",
+    "reason": "The clown wore an absurd hat that was shaped like a giant banana."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "cruel",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "It is cruel to pull a cat's tail because it causes pain."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "daring",
+    "issue": "例句包含成人/敏感词汇 (medicine)",
+    "reason": "The daring pilot flew through the storm to deliver medicine."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "serious",
+    "issue": "例句太长 (14 词)",
+    "reason": "She had a serious look on her face when she told us the rules."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "originally",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The house was originally painted white, but now it is blue."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "previously",
+    "issue": "例句太长 (15 词)",
+    "reason": "He had previously visited the museum, so he knew where to find the dinosaur bones."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "simultaneously",
+    "issue": "例句太长 (13 词)",
+    "reason": "The two friends jumped into the pool simultaneously and made a huge splash."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "hourly",
+    "issue": "例句太长 (13 词)",
+    "reason": "The clock chimes hourly, so you hear it ring twelve times at noon."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "definition",
+    "issue": "例句太长 (13 词)",
+    "reason": "Look up the definition in the dictionary if you don't know the word."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "creature",
+    "issue": "例句太长 (14 词)",
+    "reason": "We saw a strange creature with eight legs in the garden—it was a spider!"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "moisture",
+    "issue": "例句太长 (13 词)",
+    "reason": "There was moisture on the grass every morning from the cool night air."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "shelter",
+    "issue": "例句太长 (13 词)",
+    "reason": "The hikers found shelter under a big rock when it started to rain."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "prey",
+    "issue": "例句太长 (13 词)",
+    "reason": "The rabbit is prey for foxes, so it runs very fast to escape."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "galaxy",
+    "issue": "例句太长 (13 词)",
+    "reason": "Our sun is just one star in a galaxy with billions of others."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "fossil",
+    "issue": "例句太长 (13 词)",
+    "reason": "We found a fossil of a leaf that was millions of years old."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "gravity",
+    "issue": "例句太长 (14 词)",
+    "reason": "Gravity is what makes a ball fall back down after you throw it up."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "merchant",
+    "issue": "例句包含成人/敏感词汇 (market)",
+    "reason": "The merchant at the market sold fresh fruits and vegetables."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "profession",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "Being a doctor is a profession that requires many years of school."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "guardian",
+    "issue": "例句太长 (14 词)",
+    "reason": "His guardian made sure he ate healthy food and went to bed on time."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "witness",
+    "issue": "例句太长 (14 词)",
+    "reason": "She was a witness to the accident and told the police what she saw."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "advantage",
+    "issue": "例句太长 (13 词)",
+    "reason": "Being tall is an advantage in basketball because you can reach the hoop."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "courage",
+    "issue": "例句太长 (14 词)",
+    "reason": "It took courage to stand up and speak in front of the whole school."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "effort",
+    "issue": "例句太长 (14 词)",
+    "reason": "She put a lot of effort into her science project and won first place."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "patience",
+    "issue": "例句太长 (14 词)",
+    "reason": "It takes patience to grow a garden because plants need weeks to get big."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "accident",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "She spilled the milk by accident when her elbow bumped the glass."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2a.js",
+    "word": "accident",
+    "issue": "imageKeyword 包含敏感词 (pill)",
+    "reason": "accident spill"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "transform",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "The caterpillar will transform into a beautiful butterfly."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "obvious",
+    "issue": "例句太长 (15 词)",
+    "reason": "It was obvious the dog ate the cake because crumbs were all over its face."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "rapid",
+    "issue": "例句太长 (13 词)",
+    "reason": "The rapid river moved so fast that logs were swept away in seconds."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "reluctant",
+    "issue": "例句太长 (13 词)",
+    "reason": "He was reluctant to jump in the pool because the water looked cold."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "sensitive",
+    "issue": "例句太长 (13 词)",
+    "reason": "His sensitive skin turned red when he stayed in the sun too long."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "vivid",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "She painted with vivid colors that made the flowers look real."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "possess",
+    "issue": "例句太长 (13 词)",
+    "reason": "The old pirate was said to possess a chest full of gold coins."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "incredible",
+    "issue": "例句太长 (14 词)",
+    "reason": "The magician did an incredible trick that made a dove appear from a hat."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "numerous",
+    "issue": "例句太长 (13 词)",
+    "reason": "There were numerous stars in the sky that night, too many to count."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "positive",
+    "issue": "例句太长 (15 词)",
+    "reason": "She was positive she left her keys on the table because she saw them there."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "challenge",
+    "issue": "例句太长 (13 词)",
+    "reason": "Climbing the mountain was a challenge, but they made it to the top."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "voyage",
+    "issue": "例句太长 (13 词)",
+    "reason": "The sailors went on a voyage across the ocean that lasted three months."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "precisely",
+    "issue": "例句太长 (13 词)",
+    "reason": "The code must follow the rules precisely, or the computer won't understand it."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "entirely",
+    "issue": "例句太长 (13 词)",
+    "reason": "The glass was entirely full, with no room for even one more drop."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "maintain",
+    "issue": "例句太长 (13 词)",
+    "reason": "You need to maintain your bike by keeping the tires full of air."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "demonstrate",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The teacher demonstrated how to mix paint colors on the paper."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "investigate",
+    "issue": "例句包含成人/敏感词汇 (invest)",
+    "reason": "The detective investigated the missing cookies from the jar."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2a.js",
+    "word": "investigate",
+    "issue": "imageKeyword 包含敏感词 (invest)",
+    "reason": "investigate search"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "penalty",
+    "issue": "例句太长 (14 词)",
+    "reason": "The penalty for being late to class was missing five minutes of free time."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "quantity",
+    "issue": "例句太长 (14 词)",
+    "reason": "She bought a large quantity of apples to make pies for the whole family."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "reasonable",
+    "issue": "例句太长 (15 词)",
+    "reason": "The price of the book was reasonable, so she had enough money to buy it."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "external",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The external walls of the house were painted bright yellow."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "internal",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "The doctor checked her internal organs to make sure she was healthy."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "permission",
+    "issue": "例句太长 (13 词)",
+    "reason": "You need permission from your parents before you go on the field trip."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "durable",
+    "issue": "例句太长 (13 词)",
+    "reason": "Her durable lunchbox did not crack even when it fell on the floor."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "hesitate",
+    "issue": "例句太长 (13 词)",
+    "reason": "She hesitated at the diving board, then took a deep breath and jumped."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "temporary",
+    "issue": "例句太长 (14 词)",
+    "reason": "The sign was temporary, so workers took it down after the road was fixed."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "absorb",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "The towel can absorb the water from the spilled juice."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "allocate",
+    "issue": "例句太长 (13 词)",
+    "reason": "She decided to allocate half her allowance to savings and half to spending."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "aspire",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "She aspires to become a doctor one day."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "bias",
+    "issue": "例句包含成人/敏感词汇 (judge)",
+    "reason": "A good judge should not show bias."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "devote",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "He devoted the morning to practicing piano."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2a.js",
+    "word": "devote",
+    "issue": "imageKeyword 包含敏感词 (vote)",
+    "reason": "devote focus"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "diminish",
+    "issue": "例句太长 (14 词)",
+    "reason": "The value of the old toy did not diminish—it actually went up over time."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "diverse",
+    "issue": "例句太长 (13 词)",
+    "reason": "A diverse group of friends means you know people from many different places."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "fluctuate",
+    "issue": "例句太长 (14 词)",
+    "reason": "The temperature fluctuates a lot in spring, warm one day and cold the next."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "generate",
+    "issue": "例句太长 (13 词)",
+    "reason": "The AI can generate a realistic painting from just a short text description."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "generate",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The AI can generate a realistic painting from just a short text description."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2a.js",
+    "word": "ideology",
+    "issue": "例句太长 (13 词)",
+    "reason": "Each political party has its own ideology about how to help the world."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "levy",
+    "issue": "例句包含成人/敏感词汇 (tax)",
+    "reason": "The town voted to levy a small tax for the new library."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2a.js",
+    "word": "levy",
+    "issue": "imageKeyword 包含敏感词 (tax)",
+    "reason": "levy tax"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "levy",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "The town voted to levy a small tax for the new library."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "liberal",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "She took a liberal amount of paint for her project."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2a.js",
+    "word": "manifest",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "Her talent manifested clearly in every painting she made."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "fable",
+    "issue": "例句太长 (14 词)",
+    "reason": "The fable about the tortoise and the hare teaches us to never give up."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "myth",
+    "issue": "例句太长 (13 词)",
+    "reason": "The ancient myth says the sun is pulled across the sky by horses."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "verse",
+    "issue": "例句太长 (13 词)",
+    "reason": "We only sang the first verse of the song before the bell rang."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "homophone",
+    "issue": "例句太长 (13 词)",
+    "reason": "'See' and 'sea' are homophones because they sound alike but mean different things."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "conflict",
+    "issue": "例句太长 (16 词)",
+    "reason": "The conflict in the story was that the cat was lost and could not find home."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "resolution",
+    "issue": "例句太长 (14 词)",
+    "reason": "The resolution was that the kind girl helped the cat find its way home."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "infer",
+    "issue": "例句太长 (13 词)",
+    "reason": "I can infer she is sad because she is crying in the picture."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "conclude",
+    "issue": "例句太长 (14 词)",
+    "reason": "I conclude that the cat ate the fish because there are paw prints nearby."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "glossary",
+    "issue": "例句太长 (13 词)",
+    "reason": "The science book had a glossary that explained words like habitat and ecosystem."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "amphibian",
+    "issue": "例句太长 (15 词)",
+    "reason": "A frog is an amphibian because it starts life in water then lives on land."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2b.js",
+    "word": "vitamin",
+    "issue": "imageKeyword 包含敏感词 (pill)",
+    "reason": "vitamin pill"
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2b.js",
+    "word": "vaccine",
+    "issue": "imageKeyword 包含敏感词 (doctor)",
+    "reason": "doctor giving vaccine"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "disease",
+    "issue": "例句包含成人/敏感词汇 (disease)",
+    "reason": "Doctors work hard to find cures for every disease."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "disease",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "Doctors work hard to find cures for every disease."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "medicine",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "The doctor gave me medicine to help my sore throat."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "medicine",
+    "issue": "例句包含成人/敏感词汇 (medicine)",
+    "reason": "The doctor gave me medicine to help my sore throat."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2b.js",
+    "word": "medicine",
+    "issue": "imageKeyword 包含敏感词 (medicine)",
+    "reason": "medicine bottle"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "organ",
+    "issue": "例句包含成人/敏感词汇 (blood)",
+    "reason": "The heart is an organ that pumps blood."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "tissue",
+    "issue": "例句包含成人/敏感词汇 (sue)",
+    "reason": "Muscle tissue helps you move your arms and legs."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "blood",
+    "issue": "例句包含成人/敏感词汇 (blood)",
+    "reason": "Blood carries oxygen from your lungs to the rest of your body."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "artery",
+    "issue": "例句包含成人/敏感词汇 (blood)",
+    "reason": "An artery carries fresh blood from your heart to your toes."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "congress",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "Congress voted to make a new law about clean water."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "tax",
+    "issue": "例句包含成人/敏感词汇 (tax)",
+    "reason": "The tax money helps build roads and schools."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "budget",
+    "issue": "例句太长 (13 词)",
+    "reason": "Mom made a budget, so we know how much to spend on groceries."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "amendment",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "An amendment gave women the right to vote."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "democracy",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "In a democracy, every person's vote counts."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "latitude",
+    "issue": "例句太长 (13 词)",
+    "reason": "Latitude lines help us find how far north or south a place is."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "longitude",
+    "issue": "例句太长 (13 词)",
+    "reason": "Longitude lines help us find how far east or west a place is."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "fraction",
+    "issue": "例句太长 (13 词)",
+    "reason": "One half is a fraction that means one out of two equal parts."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "percent",
+    "issue": "例句太长 (15 词)",
+    "reason": "I got one hundred percent on my test, which means I got every answer right!"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "remainder",
+    "issue": "例句太长 (14 词)",
+    "reason": "When you divide seven by two, you get three with a remainder of one."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "place value",
+    "issue": "例句太长 (18 词)",
+    "reason": "In the number 52, the place value of 5 is fifty because it is in the tens spot."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "regroup",
+    "issue": "例句太长 (15 词)",
+    "reason": "When you add eight and five, you regroup to make one ten and three ones."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "carry",
+    "issue": "例句太长 (14 词)",
+    "reason": "When five plus seven equals twelve, you carry the one to the tens place."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "ambitious",
+    "issue": "例句太长 (15 词)",
+    "reason": "He was ambitious and set a goal to save one thousand dollars by his birthday."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "considerate",
+    "issue": "例句太长 (14 词)",
+    "reason": "She was considerate and spoke in a soft voice because the baby was sleeping."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2b.js",
+    "word": "creative",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "art painting"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "devoted",
+    "issue": "例句太长 (14 词)",
+    "reason": "He is devoted to his dog and takes care of it every single day."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "devoted",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "He is devoted to his dog and takes care of it every single day."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "forgiving",
+    "issue": "例句太长 (13 词)",
+    "reason": "He was forgiving and told his friend it was okay after she apologized."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "impatient",
+    "issue": "例句太长 (13 词)",
+    "reason": "He was impatient and kept asking 'Are we there yet?' in the car."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "mean",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "It is mean to say hurtful words to someone."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "modest",
+    "issue": "例句太长 (13 词)",
+    "reason": "Even though he won first place, he was modest and thanked his coach."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "fall apart",
+    "issue": "例句太长 (13 词)",
+    "reason": "My old backpack is falling apart because I have used it so much."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "get along",
+    "issue": "例句太长 (13 词)",
+    "reason": "My cat and dog get along and even sleep next to each other."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2b.js",
+    "word": "look into",
+    "issue": "imageKeyword 包含敏感词 (invest)",
+    "reason": "investigating"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "use up",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "We used up all the paint making our big poster."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "from now on",
+    "issue": "例句太长 (13 词)",
+    "reason": "From now on, I will always pack my bag the night before school."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "in the meantime",
+    "issue": "例句太长 (14 词)",
+    "reason": "Dinner won't be ready for an hour; in the meantime, let's play a game."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "as a matter of fact",
+    "issue": "例句太长 (13 词)",
+    "reason": "As a matter of fact, I have been to that zoo three times!"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "as a result",
+    "issue": "例句太长 (13 词)",
+    "reason": "He forgot his umbrella; as a result, he got soaked in the rain."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "at first",
+    "issue": "例句太长 (13 词)",
+    "reason": "At first, the puzzle seemed impossible, but then I found the corner pieces."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "at the same time",
+    "issue": "例句太长 (13 词)",
+    "reason": "She can pat her head and rub her tummy at the same time."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "before long",
+    "issue": "例句太长 (13 词)",
+    "reason": "Keep practicing and before long you will be able to read chapter books."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "consequently",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "He ate too much candy; consequently, his stomach hurt."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "except",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "Everyone finished the race except the boy who hurt his knee."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "for instance",
+    "issue": "例句太长 (15 词)",
+    "reason": "She likes many animals; for instance, she has a cat, a dog, and a fish."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "in contrast",
+    "issue": "例句太长 (13 词)",
+    "reason": "In contrast to her shy sister, Maria loves to talk to new people."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "in fact",
+    "issue": "例句太长 (14 词)",
+    "reason": "He is not just tall; in fact, he is the tallest boy in school."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "in summary",
+    "issue": "例句太长 (13 词)",
+    "reason": "In summary, the story is about a girl who learns to be brave."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "on the contrary",
+    "issue": "例句太长 (13 词)",
+    "reason": "He is not lazy; on the contrary, he works very hard every day."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "on the whole",
+    "issue": "例句太长 (15 词)",
+    "reason": "On the whole, it was a great day even though we got a little wet."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "exterior",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The exterior of the barn was painted red."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "act on",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "She acted on the doctor's advice and rested."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2b.js",
+    "word": "food web",
+    "issue": "例句太长 (14 词)",
+    "reason": "The food web shows how all animals in the pond depend on each other."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "pollutant",
+    "issue": "例句包含成人/敏感词汇 (smoke)",
+    "reason": "Smoke from factories is a pollutant that harms the air."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "bristle",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The paintbrush had soft bristles."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "capillary",
+    "issue": "例句包含成人/敏感词汇 (blood)",
+    "reason": "Blood flows through capillaries to reach every part of your body."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2b.js",
+    "word": "capillary",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "Blood flows through capillaries to reach every part of your body."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2b.js",
+    "word": "capillary",
+    "issue": "imageKeyword 包含敏感词 (pill)",
+    "reason": "capillary vessel"
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2c.js",
+    "word": "afford",
+    "issue": "imageKeyword 包含敏感词 (bank)",
+    "reason": "piggy bank"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "alert",
+    "issue": "例句太长 (13 词)",
+    "reason": "The dog barked to alert the family that someone was at the door."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "appeal",
+    "issue": "例句太长 (14 词)",
+    "reason": "The teacher made an appeal for everyone to be kind to the new student."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "assure",
+    "issue": "例句太长 (13 词)",
+    "reason": "Dad assured me the thunder was far away and could not hurt us."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "assure",
+    "issue": "例句包含成人/敏感词汇 (hurt)",
+    "reason": "Dad assured me the thunder was far away and could not hurt us."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "aware",
+    "issue": "例句太长 (13 词)",
+    "reason": "Be aware of the cars when you ride your bike on the street."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "barrier",
+    "issue": "例句太长 (14 词)",
+    "reason": "A tall fence acted as a barrier to keep the dogs in the yard."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "circulate",
+    "issue": "例句包含成人/敏感词汇 (blood)",
+    "reason": "Blood circulates through your body and back to your heart."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "circumstance",
+    "issue": "例句太长 (13 词)",
+    "reason": "Under the circumstances of heavy rain, the teacher called off the field trip."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "courteous",
+    "issue": "例句包含成人/敏感词汇 (court)",
+    "reason": "A courteous person holds the door open for others."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "debate",
+    "issue": "例句太长 (13 词)",
+    "reason": "The class had a debate about whether cats or dogs are better pets."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "deliberate",
+    "issue": "例句太长 (13 词)",
+    "reason": "She made a deliberate choice to save her allowance instead of spending it."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "deposit",
+    "issue": "例句包含成人/敏感词汇 (bank)",
+    "reason": "She deposited her coins in the piggy bank every week."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2c.js",
+    "word": "deposit",
+    "issue": "imageKeyword 包含敏感词 (bank)",
+    "reason": "piggy bank"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "detect",
+    "issue": "例句太长 (15 词)",
+    "reason": "Smart cameras can detect when someone is at the front door and send an alert."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "determine",
+    "issue": "例句包含成人/敏感词汇 (judge)",
+    "reason": "The judge will determine who wins the art contest."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "dimension",
+    "issue": "例句太长 (13 词)",
+    "reason": "The dimensions of the box are ten inches long and five inches wide."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "distinct",
+    "issue": "例句太长 (13 词)",
+    "reason": "Each person's fingerprint is distinct, which is why phones use them to unlock."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "emphasis",
+    "issue": "例句太长 (13 词)",
+    "reason": "The teacher put emphasis on reading by giving us extra time each day."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "error",
+    "issue": "例句太长 (14 词)",
+    "reason": "He found an error in his math and fixed it before turning it in."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "evaluate",
+    "issue": "例句包含成人/敏感词汇 (judge)",
+    "reason": "The judges will evaluate each painting before picking a winner."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "evaluate",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The judges will evaluate each painting before picking a winner."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "evident",
+    "issue": "例句太长 (13 词)",
+    "reason": "It was evident from his smile that he was happy about the surprise."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "exaggerate",
+    "issue": "例句太长 (13 词)",
+    "reason": "He exaggerated when he said the fish was as big as a car."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "excess",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "We had excess paint left over after finishing the mural."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "fate",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "She believed it was her fate to become a great painter."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "fault",
+    "issue": "例句太长 (13 词)",
+    "reason": "It was my fault the vase broke because I threw the ball inside."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "flourish",
+    "issue": "例句太长 (13 词)",
+    "reason": "The garden will flourish if you give it plenty of water and sun."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "function",
+    "issue": "例句太长 (16 词)",
+    "reason": "In coding, a function is a block of code you can call whenever you need it."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "fundamental",
+    "issue": "例句包含成人/敏感词汇 (kill)",
+    "reason": "Reading is a fundamental skill that helps you learn everything else."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "immediate",
+    "issue": "例句包含成人/敏感词汇 (pill)",
+    "reason": "The spill needs immediate cleanup before someone slips."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "impress",
+    "issue": "例句包含成人/敏感词汇 (judge)",
+    "reason": "His science project impressed the judges with its new ideas."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2c.js",
+    "word": "impress",
+    "issue": "imageKeyword 包含敏感词 (judge)",
+    "reason": "impressed judges"
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2c.js",
+    "word": "injure",
+    "issue": "imageKeyword 包含敏感词 (hurt)",
+    "reason": "hurt ankle"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "intense",
+    "issue": "例句太长 (13 词)",
+    "reason": "The intense heat from the sun made the sidewalk too hot to touch."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "issue",
+    "issue": "例句包含成人/敏感词汇 (sue)",
+    "reason": "Pollution or water is a big issue that affects all."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "lack",
+    "issue": "例句太长 (14 词)",
+    "reason": "The plants turned brown due to a lack of water during the hot summer."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "literal",
+    "issue": "例句太长 (14 词)",
+    "reason": "When she said it was raining cats and dogs, she was not being literal."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "logic",
+    "issue": "例句太长 (15 词)",
+    "reason": "He used logic to trace through each line and find where the bug was hiding."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "majority",
+    "issue": "例句包含成人/敏感词汇 (vote)",
+    "reason": "The majority of students voted for pizza at the class party."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2c.js",
+    "word": "monitor",
+    "issue": "例句包含成人/敏感词汇 (nurse)",
+    "reason": "The nurse will monitor the sick child every hour."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2c.js",
+    "word": "origin",
+    "issue": "例句太长 (13 词)",
+    "reason": "The origin of chocolate can be traced to cacao beans in Central America."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "practical",
+    "issue": "例句太长 (13 词)",
+    "reason": "A rain jacket is a practical gift for someone who walks to school."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "preserve",
+    "issue": "例句太长 (13 词)",
+    "reason": "The museum preserves old paintings, so people can enjoy them for all time."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "preserve",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The museum preserves old paintings, so people can enjoy them for all time."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "profit",
+    "issue": "例句太长 (14 词)",
+    "reason": "He sold his handmade bracelets for five dollars each and made a nice profit."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "pursue",
+    "issue": "例句包含成人/敏感词汇 (sue)",
+    "reason": "He pursued his dream of becoming an artist by painting every day."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "pursue",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "He pursued his dream of becoming an artist by painting every day."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "ratio",
+    "issue": "例句太长 (13 词)",
+    "reason": "The ratio of boys to girls in our class is three to two."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "realistic",
+    "issue": "例句太长 (13 词)",
+    "reason": "Her painting of the cat was so realistic it looked like a photo."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "realistic",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "Her painting of the cat was so realistic it looked like a photo."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2d.js",
+    "word": "realistic",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "realistic painting"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "remarkable",
+    "issue": "例句太长 (13 词)",
+    "reason": "It is remarkable that a computer can now write essays and draw pictures."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "restore",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "Volunteers restored the old playground with fresh paint."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2d.js",
+    "word": "restore",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "painting new"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "revolt",
+    "issue": "例句包含成人/敏感词汇 (tax)",
+    "reason": "The people revolted because the taxes were not fair."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "rigid",
+    "issue": "例句太长 (13 词)",
+    "reason": "The frozen stick was rigid and snapped when she tried to bend it."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "sequence",
+    "issue": "例句太长 (15 词)",
+    "reason": "The computer runs each command in sequence, one line after another from top to bottom."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "sketch",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "He made a sketch of his cat before painting it."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "stock",
+    "issue": "例句包含成人/敏感词汇 (stock)",
+    "reason": "The store keeps a large stock of pencils for back-to-school season."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "strategy",
+    "issue": "例句太长 (13 词)",
+    "reason": "Coach drew up a strategy on the whiteboard to beat their zone defense."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "superior",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "This paint is superior because it lasts longer in the rain."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "tactic",
+    "issue": "例句太长 (13 词)",
+    "reason": "His tactic in the game was to save his strongest card for last."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "trial",
+    "issue": "例句太长 (14 词)",
+    "reason": "The first trial of the paper airplane went crooked, so she adjusted the wings."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "unite",
+    "issue": "例句包含成人/敏感词汇 (bank)",
+    "reason": "The whole school united to raise money for the food bank."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "vibrant",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The vibrant painting used every color of the rainbow."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2d.js",
+    "word": "vibrant",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "colorful painting"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "voluntary",
+    "issue": "例句太长 (13 词)",
+    "reason": "Helping at the animal shelter is voluntary—you do it because you want to."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "warrant",
+    "issue": "例句太长 (13 词)",
+    "reason": "The strange noise was enough to warrant a closer look by the teacher."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "welfare",
+    "issue": "例句太长 (13 词)",
+    "reason": "The vet cares about the welfare of all the animals in the clinic."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "abolish",
+    "issue": "例句太长 (14 词)",
+    "reason": "The school abolished the old dress code and let students wear what they want."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "anticipate",
+    "issue": "例句太长 (14 词)",
+    "reason": "A great point guard can anticipate where the pass is going before it's thrown."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2d.js",
+    "word": "asset",
+    "issue": "imageKeyword 包含敏感词 (kill)",
+    "reason": "valuable skill"
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "bankrupt",
+    "issue": "例句包含成人/敏感词汇 (bank)",
+    "reason": "The shop went bankrupt because no one bought anything."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "biased",
+    "issue": "例句包含成人/敏感词汇 (judge)",
+    "reason": "The judge must not be biased toward either team."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "boast",
+    "issue": "例句太长 (13 词)",
+    "reason": "He boasted about his trophy until his friends got tired of hearing it."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "certify",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "The doctor certified that the food was safe to eat."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "chronic",
+    "issue": "例句包含成人/敏感词汇 (doctor)",
+    "reason": "His chronic cough lasted for three weeks before he saw a doctor."
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "commission",
+    "issue": "例句太长 (13 词)",
+    "reason": "The town commissioned an artist to paint a mural on the library wall."
+  },
+  {
+    "level": "MAJOR",
+    "file": "words-level2d.js",
+    "word": "commission",
+    "issue": "例句包含成人/敏感词汇 (pain)",
+    "reason": "The town commissioned an artist to paint a mural on the library wall."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2d.js",
+    "word": "commission",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "mural painting"
+  },
+  {
+    "level": "MINOR",
+    "file": "words-level2d.js",
+    "word": "cumulative",
+    "issue": "例句太长 (15 词)",
+    "reason": "The cumulative effect of saving a dollar a day is a lot by year's end."
+  },
+  {
+    "level": "CRITICAL",
+    "file": "words-level2d.js",
+    "word": "depict",
+    "issue": "imageKeyword 包含敏感词 (pain)",
+    "reason": "painted scene"
+  }
+]

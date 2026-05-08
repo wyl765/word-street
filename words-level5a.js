@@ -56,7 +56,7 @@ const LEVEL5A_BANK=[{"word":"administer","level":5,"definition":"to manage or be
 {"word":"locomotive","level":5,"definition":"the engine that pulls a train","example":"The strong locomotive pulled fifty freight cars along the mountain tracks.","imageKeyword":"train engine"},
 {"word":"lure","level":5,"definition":"to attract or tempt someone toward something","example":"The bright colors of the candy display lure children into the store.","imageKeyword":"tempting bait"},
 {"word":"maximize","level":5,"definition":"to make as large or great as possible","example":"To maximize your score, answer every question even if you're not sure.","imageKeyword":"biggest possible"},
-{"word":"medium","level":5,"definition":"a way of talking or expressing thoughts","example":"The internet has become the main medium for sharing news.","imageKeyword":"communication channel"},
+{"word":"medium","level":5,"definition":"a way of sharing information or ideas with others","example":"The internet has become the main medium for sharing news.","imageKeyword":"communication channel"},
 {"word":"membrane","level":5,"definition":"a thin layer that covers or separates things","example":"The cell membrane controls what goes in and out of each cell.","imageKeyword":"thin layer"},
 {"word":"minimize","level":5,"definition":"to reduce to the smallest possible amount","example":"Wearing sunscreen helps minimize the risk of sunburn.","imageKeyword":"reducing small"},
 {"word":"negligible","level":5,"definition":"so small that it's not worth worrying about","example":"The difference between their test scores was negligible—only one point.","imageKeyword":"tiny amount"},

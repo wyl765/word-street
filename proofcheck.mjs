@@ -529,6 +529,16 @@ const FACT_CHECKS = [
   { word: 'bat', wrong: /\bbird\b/i, correct: 'mammal', msg: 'Bat is a mammal, not a bird' },
   { word: 'penguin', wrong: /\bthat flies\b/i, correct: 'flightless bird', msg: 'Penguins cannot fly' },
   { word: 'starfish', wrong: /\bfish\b/i, correct: 'echinoderm', msg: 'Starfish is not a fish' },
+  { word: 'momentum', wrong: /\b(force|energy)\b/i, correct: 'mass × velocity', msg: 'Momentum is not a force or energy; it is mass × velocity' },
+  { word: 'asteroid', wrong: /\bfloat/i, correct: 'orbit', msg: 'Asteroids orbit the Sun; they do not float' },
+  { word: 'molecule', wrong: /\btiniest piece\b/i, correct: 'group of atoms', msg: 'Molecules are not the tiniest piece; atoms are smaller' },
+  { word: 'coral', wrong: /\bplant\b/i, correct: 'animal', msg: 'Coral is an animal, not a plant' },
+  { word: 'tomato', wrong: /\bvegetable\b/i, correct: 'fruit (botanically)', msg: 'Tomato is botanically a fruit' },
+  { word: 'sound', wrong: /\bvacuum\b.*\btravel/i, correct: 'needs medium', msg: 'Sound cannot travel in a vacuum' },
+  { word: 'insulator', wrong: /\bblocks? power\b/i, correct: 'blocks electricity', msg: 'Insulator blocks electricity, not "power" (too vague)' },
+  { word: 'geothermal', wrong: /^(?:heat|energy) that/i, correct: 'adjective: using heat from Earth', msg: 'Geothermal is an adjective; definition should not start as a noun' },
+  { word: 'sun', wrong: /\bstar that orbits\b/i, correct: 'star at center', msg: 'The Sun does not orbit; planets orbit it' },
+  { word: 'penguin', wrong: /\bcan fly\b/i, correct: 'flightless', msg: 'Penguins cannot fly' },
 ];
 
 function checkFactErrors(entries) {
@@ -605,6 +615,65 @@ function checkShortDefAdvanced(entries) {
   }
 }
 
+// ============ INTRODUCTORY COMMA CHECK ============
+function checkIntroductoryComma(entries) {
+  const introStarters = /^(After|Before|When|While|Because|Because of|If|Once|Instead of|Until|Since|Although|Unless|Whenever|Wherever) /i;
+  for (const e of entries) {
+    const ex = e.example || '';
+    if (introStarters.test(ex)) {
+      // Check first 80 chars for a comma
+      const first80 = ex.substring(0, 80);
+      if (!first80.includes(',')) {
+        addIssue('MAJOR', e._file, e.word, 'MISSING_INTRO_COMMA',
+          `Example starts with subordinate clause but lacks introductory comma: "${ex.substring(0, 60)}..."`,
+          'Add comma after the introductory clause');
+      }
+    }
+  }
+}
+
+// ============ ADJECTIVE-AS-NOUN DEFINITION CHECK ============
+function checkAdjectiveNounMismatch(entries) {
+  // Words ending in adjective suffixes but defined as nouns
+  const adjSuffixes = /(ous|ive|ful|less|able|ible|ic|ary|ory)$/;
+  // Whitelist: words that end in adj suffix but ARE nouns
+  const nounWhitelist = ['narrative','initiative','detective','locomotive','executive','perspective','objective','alternative','incentive','representative','collective','archive','derivative','fugitive','adjective','substantive','accusative','dative','infinitive','conservative','progressive','explosive','adhesive','abrasive','sedative','laxative','superlative','comparative','imperative','prerogative','negative','positive','creative','native','relative','massive','passive','active','motive','epic','magic','music','public','traffic','picnic','panic','plastic','fabric','attic','basic','classic','historic','electric','automatic','rhetoric','arithmetic','clinic','comic','mimic','topic','logic','lyric','metric','mystic','tactic','rustic','static','mosaic','ceramic','dynamic','organic','academic','republic','fantastic','domestic','epidemic','cosmetic','genetic','athletic','prosthetic','aesthetic','synthetic','pathetic','prophetic','diagnostic','statistic','characteristic','semantic','pandemic','polemic','enthusiastic','problematic','systematic','idiomatic','aromatic','dramatic','traumatic','democratic','bureaucratic','autocratic','fanatic','erratic','eclectic','heretic','skeptic','antiseptic','relic','garlic','turmeric','tunic','basilic'];
+  for (const e of entries) {
+    const word = (e.word || '').toLowerCase();
+    const def = (e.definition || '');
+    if (adjSuffixes.test(word) && !nounWhitelist.includes(word) && /^(a |an |the )/i.test(def)) {
+      addIssue('MINOR', e._file, e.word, 'ADJ_NOUN_MISMATCH',
+        `Word appears to be adjective but definition starts with article: "${def.substring(0, 50)}..."`,
+        'Consider rephrasing definition to adjective form');
+    }
+  }
+}
+
+// ============ BETWEEN-COMMA CHECK ============
+function checkBetweenComma(entries) {
+  for (const e of entries) {
+    const ex = e.example || '';
+    if (/between [^,]{3,30}, and /i.test(ex)) {
+      addIssue('MAJOR', e._file, e.word, 'BAD_BETWEEN_COMMA',
+        `Example has incorrect comma in "between X, and Y" pattern`,
+        'Remove comma: "between X and Y"');
+    }
+  }
+}
+
+// ============ DANGLING MODIFIER CHECK ============
+function checkDanglingModifier(entries) {
+  const danglingPattern = /^(Looking|Walking|Running|Sitting|Standing|Seeing|Hearing|Feeling|Hoping|Thinking|Watching|Eating|Drinking|Reading|Writing|Playing|Working|Trying|Having|Being|Getting) [^,]+, (it|they|there) /i;
+  for (const e of entries) {
+    const ex = e.example || '';
+    if (danglingPattern.test(ex)) {
+      addIssue('MAJOR', e._file, e.word, 'DANGLING_MODIFIER',
+        `Example may have a dangling modifier: "${ex.substring(0, 60)}..."`,
+        'Ensure the subject of the main clause matches the implied subject of the participle');
+    }
+  }
+}
+
 // ============ MAIN ============
 
 console.log('🔍 Word Street Proofcheck Engine v1.0');
@@ -634,6 +703,10 @@ checkSynonymCycles(entries);
 checkVagueDefinition(entries);
 checkLazyImageKeyword(entries);
 checkShortDefAdvanced(entries);
+checkIntroductoryComma(entries);
+checkAdjectiveNounMismatch(entries);
+checkBetweenComma(entries);
+checkDanglingModifier(entries);
 
 // Sort by severity
 const severityOrder = { CRITICAL: 0, MAJOR: 1, MINOR: 2 };
