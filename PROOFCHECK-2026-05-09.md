@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 208 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 212 MINOR
 
 ## Issues
 
@@ -273,6 +273,22 @@ Definition uses "something" 2 times: "something needed before you can do somethi
 ### [MINOR] words-level5d.js — "deterrent" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "something that prevents people from doing something"
 **Fix:** Rephrase to be more specific
+
+### [MINOR] words-level1.js — "butterfly" (ABSTRACT_SELF_IMAGEKEYWORD)
+Abstract/function word imageKeyword "butterfly" is just the word itself — won't return useful images
+**Fix:** Use a specific scene description instead
+
+### [MINOR] words-level1.js — "chilly" (ABSTRACT_SELF_IMAGEKEYWORD)
+Abstract/function word imageKeyword "chilly" is just the word itself — won't return useful images
+**Fix:** Use a specific scene description instead
+
+### [MINOR] words-level1.js — "lonely" (ABSTRACT_SELF_IMAGEKEYWORD)
+Abstract/function word imageKeyword "lonely" is just the word itself — won't return useful images
+**Fix:** Use a specific scene description instead
+
+### [MINOR] words-level1.js — "loudly" (ABSTRACT_SELF_IMAGEKEYWORD)
+Abstract/function word imageKeyword "loudly" is just the word itself — won't return useful images
+**Fix:** Use a specific scene description instead
 
 ### [MINOR] words-level1.js — "less" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a smaller amount of something..."

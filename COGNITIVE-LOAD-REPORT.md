@@ -2,8 +2,8 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 421
-- MAJOR (≥3 超纲词 in definition): 2151
+- CRITICAL (≥5 超纲词 in definition): 422
+- MAJOR (≥3 超纲词 in definition): 2147
 
 ## Issues
 
@@ -216,8 +216,8 @@
 - **超纲词 (7):** person, riding, vehicle, car, bus, train, airplane
 
 ### 🔴 [CRITICAL] sword (L1)
-- **Definition:** "a long sharp metal blade from old times, often in stories"
-- **超纲词 (6):** long, metal, blade, old, times, stories
+- **Definition:** "a long sharp piece of metal from old times, often in stories"
+- **超纲词 (5):** long, metal, old, times, stories
 
 ### 🔴 [CRITICAL] mammal (L2)
 - **Definition:** "an animal that has hair and drinks milk as a baby"
@@ -243,10 +243,6 @@
 - **Definition:** "to give away for free to help people in need"
 - **超纲词 (6):** give, away, free, help, people, need
 
-### 🔴 [CRITICAL] leak (L2)
-- **Definition:** "to let water or other fluid drip out through a small hole"
-- **超纲词 (5):** let, water, fluid, small, hole
-
 ### 🔴 [CRITICAL] mist (L2)
 - **Definition:** "very thin cloud near the ground that makes things hard to see clearly"
 - **超纲词 (5):** cloud, ground, makes, hard, see
@@ -270,6 +266,10 @@
 ### 🔴 [CRITICAL] comet (L2)
 - **Definition:** "a bright ball of ice with a glowing tail that flies through space"
 - **超纲词 (5):** ball, ice, glowing, flies, space
+
+### 🔴 [CRITICAL] cypress (L2)
+- **Definition:** "a tall thin tree that stays green all year"
+- **超纲词 (5):** tall, tree, stays, green, year
 
 ### 🔴 [CRITICAL] dandelion (L2)
 - **Definition:** "a yellow flower that turns into fluffy white seeds"
@@ -420,8 +420,8 @@
 - **超纲词 (6):** list, back, book, explains, hard, words
 
 ### 🔴 [CRITICAL] carbon (L2)
-- **Definition:** "a chemical element found in plants, animals, and things like coal"
-- **超纲词 (6):** chemical, element, found, plants, animals, coal
+- **Definition:** "a basic building block found in plants, animals, and things like coal"
+- **超纲词 (5):** building, found, plants, animals, coal
 
 ### 🔴 [CRITICAL] dinosaur (L2)
 - **Definition:** "a very large animal that lived millions of years ago"
@@ -482,6 +482,10 @@
 ### 🔴 [CRITICAL] pollutant (L2)
 - **Definition:** "something that makes air, water, or land dirty"
 - **超纲词 (5):** makes, air, water, land, dirty
+
+### 🔴 [CRITICAL] volcanic (L2)
+- **Definition:** "caused by or coming from a mountain that shoots out hot rock"
+- **超纲词 (6):** caused, coming, mountain, shoots, hot, rock
 
 ### 🔴 [CRITICAL] silt (L2)
 - **Definition:** "fine sand or clay deposited by water"
@@ -2875,10 +2879,6 @@
 - **Definition:** "to open and grow flowers"
 - **超纲词 (3):** open, grow, flowers
 
-### 🟡 [MAJOR] wilt (L1)
-- **Definition:** "to droop and become weak, often because of heat"
-- **超纲词 (3):** droop, weak, heat
-
 ### 🟡 [MAJOR] rascal (L1)
 - **Definition:** "a naughty but funny child or animal"
 - **超纲词 (4):** naughty, funny, child, animal
@@ -3064,8 +3064,8 @@
 - **超纲词 (3):** go, water, able
 
 ### 🟡 [MAJOR] exact (L2)
-- **Definition:** "completely correct; with no mistakes"
-- **超纲词 (3):** completely, correct, mistakes
+- **Definition:** "completely right; with no mistakes"
+- **超纲词 (3):** completely, right, mistakes
 
 ### 🟡 [MAJOR] fair (L2)
 - **Definition:** "treating people the same and right"
@@ -3110,6 +3110,10 @@
 ### 🟡 [MAJOR] leaf (L2)
 - **Definition:** "the flat green part of a plant"
 - **超纲词 (3):** green, part, plant
+
+### 🟡 [MAJOR] leak (L2)
+- **Definition:** "to let water or other liquid drip out through a small hole"
+- **超纲词 (4):** let, water, small, hole
 
 ### 🟡 [MAJOR] machine (L2)
 - **Definition:** "a tool with moving parts"
@@ -3399,10 +3403,6 @@
 - **Definition:** "a small bed that rocks for a baby"
 - **超纲词 (4):** small, bed, rocks, baby
 
-### 🟡 [MAJOR] cypress (L2)
-- **Definition:** "a tall thin evergreen tree"
-- **超纲词 (3):** tall, evergreen, tree
-
 ### 🟡 [MAJOR] dagger (L2)
 - **Definition:** "a short pointed knife"
 - **超纲词 (3):** short, pointed, knife
@@ -3512,8 +3512,8 @@
 - **超纲词 (3):** body, water, sea
 
 ### 🟡 [MAJOR] lava (L2)
-- **Definition:** "hot melted rock from a volcano"
-- **超纲词 (4):** hot, melted, rock, volcano
+- **Definition:** "hot melted rock from deep under the Earth"
+- **超纲词 (3):** hot, melted, rock
 
 ### 🟡 [MAJOR] levee (L2)
 - **Definition:** "a wall built to keep a river from flooding"
@@ -3560,8 +3560,8 @@
 - **超纲词 (3):** plant, stings, touch
 
 ### 🟡 [MAJOR] nozzle (L2)
-- **Definition:** "the tip of a hose where water comes out"
-- **超纲词 (4):** tip, hose, water, comes
+- **Definition:** "the tip of a tube where water comes out"
+- **超纲词 (4):** tip, tube, water, comes
 
 ### 🟡 [MAJOR] oar (L2)
 - **Definition:** "a long pole with a flat end used to row a boat"
@@ -3816,8 +3816,8 @@
 - **超纲词 (3):** group, stars, space
 
 ### 🟡 [MAJOR] mineral (L2)
-- **Definition:** "a solid natural substance found in the ground"
-- **超纲词 (4):** natural, substance, found, ground
+- **Definition:** "a solid natural thing found in the ground"
+- **超纲词 (3):** natural, found, ground
 
 ### 🟡 [MAJOR] current (L2)
 - **Definition:** "the movement of water or air in one direction"
@@ -3904,8 +3904,8 @@
 - **超纲词 (3):** talk, two, people
 
 ### 🟡 [MAJOR] supply (L2)
-- **Definition:** "to provide or give something, often in large amounts"
-- **超纲词 (4):** provide, give, large, amounts
+- **Definition:** "to give something, often in large amounts"
+- **超纲词 (3):** give, large, amounts
 
 ### 🟡 [MAJOR] inherit (L2)
 - **Definition:** "to get something from a family member"
@@ -3956,16 +3956,12 @@
 - **超纲词 (3):** long, trip, sea
 
 ### 🟡 [MAJOR] disaster (L2)
-- **Definition:** "a very bad event that causes damage"
-- **超纲词 (4):** bad, event, causes, damage
+- **Definition:** "a very bad event that causes great harm"
+- **超纲词 (4):** bad, event, causes, great
 
 ### 🟡 [MAJOR] willingly (L2)
 - **Definition:** "happy to do something without being forced"
 - **超纲词 (3):** happy, being, forced
-
-### 🟡 [MAJOR] maintain (L2)
-- **Definition:** "to keep something in good condition"
-- **超纲词 (3):** keep, good, condition
 
 ### 🟡 [MAJOR] concentrate (L2)
 - **Definition:** "to think very hard about one thing"
@@ -4026,10 +4022,6 @@
 ### 🟡 [MAJOR] currency (L2)
 - **Definition:** "the type of money a country uses"
 - **超纲词 (3):** type, money, uses
-
-### 🟡 [MAJOR] deviate (L2)
-- **Definition:** "to go a different way from what is normal"
-- **超纲词 (3):** go, different, normal
 
 ### 🟡 [MAJOR] diverse (L2)
 - **Definition:** "having many unlike kinds"
@@ -4464,8 +4456,8 @@
 - **超纲词 (3):** bigger, stronger, time
 
 ### 🟡 [MAJOR] cellulose (L2)
-- **Definition:** "the tough material in plant cell walls"
-- **超纲词 (4):** tough, plant, cell, walls
+- **Definition:** "the tough material in plant walls"
+- **超纲词 (3):** tough, plant, walls
 
 ### 🟡 [MAJOR] cross out (L2)
 - **Definition:** "to draw a line through words to remove them"
@@ -4516,8 +4508,8 @@
 - **超纲词 (3):** green, plants, water
 
 ### 🟡 [MAJOR] allergic (L2)
-- **Definition:** "having a bad reaction to something"
-- **超纲词 (3):** having, bad, reaction
+- **Definition:** "having a bad body response to something"
+- **超纲词 (4):** having, bad, body, response
 
 ### 🟡 [MAJOR] aquatic (L2)
 - **Definition:** "living or happening in water"
@@ -4526,6 +4518,14 @@
 ### 🟡 [MAJOR] bar graph (L2)
 - **Definition:** "a chart that uses bars to compare amounts"
 - **超纲词 (3):** uses, bars, amounts
+
+### 🟡 [MAJOR] beforehand (L2)
+- **Definition:** "before something happens; ahead of time"
+- **超纲词 (3):** happens, ahead, time
+
+### 🟡 [MAJOR] cell membrane (L2)
+- **Definition:** "the thin covering around a living building block"
+- **超纲词 (3):** covering, living, building
 
 ### 🟡 [MAJOR] come down to (L2)
 - **Definition:** "to be decided by one main thing"
@@ -4555,10 +4555,6 @@
 - **Definition:** "to make yourself feel clean and neat"
 - **超纲词 (3):** yourself, feel, clean
 
-### 🟡 [MAJOR] greenhouse effect (L2)
-- **Definition:** "when gases trap heat in Earth's atmosphere"
-- **超纲词 (4):** gases, heat, earth's, atmosphere
-
 ### 🟡 [MAJOR] hibernate (L2)
 - **Definition:** "to sleep deeply through the winter"
 - **超纲词 (3):** sleep, deeply, winter
@@ -4579,10 +4575,6 @@
 - **Definition:** "lasting a long time"
 - **超纲词 (3):** lasting, long, time
 
-### 🟡 [MAJOR] volcanic (L2)
-- **Definition:** "caused by or coming from a volcano"
-- **超纲词 (3):** caused, coming, volcano
-
 ### 🟡 [MAJOR] water cycle (L2)
 - **Definition:** "how water moves from Earth to sky and back again"
 - **超纲词 (4):** water, moves, sky, back
@@ -4602,10 +4594,6 @@
 ### 🟡 [MAJOR] aperture (L2)
 - **Definition:** "an opening or hole, mainly in a camera"
 - **超纲词 (3):** opening, hole, camera
-
-### 🟡 [MAJOR] attest (L2)
-- **Definition:** "to prove or show that something is true"
-- **超纲词 (3):** prove, show, true
 
 ### 🟡 [MAJOR] back down (L2)
 - **Definition:** "to stop arguing or give up a demand"
@@ -4652,8 +4640,8 @@
 - **超纲词 (3):** scrub, hard, thoroughly
 
 ### 🟡 [MAJOR] spore (L2)
-- **Definition:** "a tiny cell that can grow into a new plant or fungus"
-- **超纲词 (4):** cell, new, plant, fungus
+- **Definition:** "a tiny part that can grow into a new plant or fungus"
+- **超纲词 (4):** part, new, plant, fungus
 
 ### 🟡 [MAJOR] verdant (L2)
 - **Definition:** "green with growing plants"
@@ -4716,8 +4704,8 @@
 - **超纲词 (3):** try, win, else
 
 ### 🟡 [MAJOR] confirm (L2)
-- **Definition:** "to say that something is true or correct"
-- **超纲词 (3):** say, true, correct
+- **Definition:** "to say that something is true or right"
+- **超纲词 (3):** say, true, right
 
 ### 🟡 [MAJOR] constant (L2)
 - **Definition:** "happening all the time without stopping"
@@ -4980,8 +4968,8 @@
 - **超纲词 (3):** taking, letting, happen
 
 ### 🟡 [MAJOR] patent (L2)
-- **Definition:** "official right to be the only one who makes an invention"
-- **超纲词 (4):** official, right, one, makes
+- **Definition:** "a legal right to be the only one who makes an invention"
+- **超纲词 (4):** legal, right, one, makes
 
 ### 🟡 [MAJOR] peer (L2)
 - **Definition:** "someone your own age or level"
@@ -5092,8 +5080,8 @@
 - **超纲词 (4):** good, feeling, bad, stops
 
 ### 🟡 [MAJOR] remain (L2)
-- **Definition:** "to stay in the same place or condition"
-- **超纲词 (4):** stay, same, place, condition
+- **Definition:** "to stay in the same place or state"
+- **超纲词 (3):** stay, same, place
 
 ### 🟡 [MAJOR] remedy (L2)
 - **Definition:** "something that fixes a problem or sickness"
@@ -5124,8 +5112,8 @@
 - **超纲词 (3):** good, given, doing
 
 ### 🟡 [MAJOR] ruin (L2)
-- **Definition:** "to damage something so badly it cannot be used"
-- **超纲词 (3):** damage, badly, cannot
+- **Definition:** "to break something so badly it cannot be used"
+- **超纲词 (3):** break, badly, cannot
 
 ### 🟡 [MAJOR] sacrifice (L2)
 - **Definition:** "to give up something important for a good reason"
@@ -5152,8 +5140,8 @@
 - **超纲词 (3):** doing, purpose, upset
 
 ### 🟡 [MAJOR] standard (L2)
-- **Definition:** "the normal level of how good expected"
-- **超纲词 (4):** normal, level, good, expected
+- **Definition:** "the usual level of quality that is expected"
+- **超纲词 (3):** level, quality, expected
 
 ### 🟡 [MAJOR] steady (L2)
 - **Definition:** "firm and not shaking or changing"

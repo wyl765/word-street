@@ -1,6 +1,6 @@
 # Dictionary Pattern Check
 
-0 HIGH | 75 MEDIUM | 66 MINOR
+0 HIGH | 76 MEDIUM | 66 MINOR
 
 ## HIGH
 
@@ -47,6 +47,7 @@
 - words-level2.js | frighten | Definition "to scare" is too brief to be useful
 - words-level2.js | glad | Definition "happy" is too brief to be useful
 - words-level2.js | glitter | Definition "to sparkle" is too brief to be useful
+- words-level2.js | harm | L2 definition packs 3 meanings: "to cause pain or hurt to someone or something"
 - words-level2.js | near | Definition "close by" is too brief to be useful
 - words-level2.js | never | Definition "not ever" is too brief to be useful
 - words-level2.js | opposite | Definition "completely different" is too brief to be useful

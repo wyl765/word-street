@@ -2,9 +2,9 @@
 
 ## Summary
 - HIGH risk (3+ factors): 188
-- MEDIUM risk (2 factors): 1231
-- LOW risk (1 factor): 53983
-- Total interference pairs: 55402
+- MEDIUM risk (2 factors): 1233
+- LOW risk (1 factor): 53990
+- Total interference pairs: 55411
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -380,6 +380,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **ancient** ↔ **accident** — spelling (edit distance=2), phonetic (onset="a")
 - **[risk=2]** L2: **modern** ↔ **model** — spelling (edit distance=2), phonetic (onset="mo")
 - **[risk=2]** L2: **modern** ↔ **modest** — spelling (edit distance=2), phonetic (onset="mo")
+- **[risk=2]** L2: **fragile** ↔ **delicate** — definition (Jaccard=67%)
 - **[risk=2]** L2: **swift** ↔ **swiftly** — spelling (edit distance=2), phonetic (onset="swi")
 - **[risk=2]** L2: **swift** ↔ **shift** — spelling (edit distance=1)
 - **[risk=2]** L2: **sentence** ↔ **sequence** — spelling (edit distance=2), phonetic (onset="se")
@@ -434,6 +435,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **frequently** ↔ **frequent** — spelling (edit distance=2), phonetic (onset="fre")
 - **[risk=2]** L2: **rarely** ↔ **seldom** — definition (Jaccard=67%)
 - **[risk=2]** L2: **rarely** ↔ **rare** — spelling (edit distance=2), phonetic (onset="ra")
+- **[risk=2]** L2: **therefore** ↔ **because of** — definition (Jaccard=100%)
 - **[risk=2]** L2: **make up** ↔ **make out** — spelling (edit distance=2), phonetic (onset="ma")
 - **[risk=2]** L2: **courageous** ↔ **courteous** — spelling (edit distance=2), phonetic (onset="cou")
 - **[risk=2]** L2: **about** ↔ **bout** — spelling (edit distance=1)
@@ -6842,6 +6844,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **believe** ↔ **bellows** — phonetic (onset="be")
 - **[risk=1]** L2: **believe** ↔ **behave** — phonetic (onset="be")
 - **[risk=1]** L2: **believe** ↔ **benefit** — phonetic (onset="be")
+- **[risk=1]** L2: **believe** ↔ **attest** — definition (Jaccard=50%)
 - **[risk=1]** L2: **believe** ↔ **bedrock** — phonetic (onset="be")
 - **[risk=1]** L2: **believe** ↔ **bestow** — phonetic (onset="be")
 - **[risk=1]** L2: **believe** ↔ **assume** — definition (Jaccard=60%)
@@ -7931,6 +7934,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **destroy** ↔ **desperate** — phonetic (onset="de")
 - **[risk=1]** L2: **destroy** ↔ **detect** — phonetic (onset="de")
 - **[risk=1]** L2: **destroy** ↔ **determine** — phonetic (onset="de")
+- **[risk=1]** L2: **destroy** ↔ **ruin** — definition (Jaccard=60%)
 - **[risk=1]** L2: **destroy** ↔ **debris** — phonetic (onset="de")
 - **[risk=1]** L2: **destroy** ↔ **deficit** — phonetic (onset="de")
 - **[risk=1]** L2: **destroy** ↔ **delegate** — phonetic (onset="de")
@@ -22202,11 +22206,13 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **altogether** ↔ **anticipate** — phonetic (onset="a")
 - **[risk=1]** L2: **altogether** ↔ **apparatus** — phonetic (onset="a")
 - **[risk=1]** L2: **altogether** ↔ **appliance** — phonetic (onset="a")
+- **[risk=1]** L2: **as a result** ↔ **because of** — definition (Jaccard=50%)
 - **[risk=1]** L2: **as a result** ↔ **accessory** — phonetic (onset="a")
 - **[risk=1]** L2: **as a result** ↔ **accommodate** — phonetic (onset="a")
 - **[risk=1]** L2: **as a result** ↔ **adolescent** — phonetic (onset="a")
 - **[risk=1]** L2: **as a result** ↔ **alternate** — phonetic (onset="a")
 - **[risk=1]** L2: **as a result** ↔ **account for** — phonetic (onset="a")
+- **[risk=1]** L2: **as a result** ↔ **on account of** — definition (Jaccard=50%)
 - **[risk=1]** L2: **as a result** ↔ **acoustics** — phonetic (onset="a")
 - **[risk=1]** L2: **as a result** ↔ **allowance** — phonetic (onset="a")
 - **[risk=1]** L2: **as a result** ↔ **appropriate** — phonetic (onset="a")
@@ -22287,6 +22293,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **at last** ↔ **appoint** — phonetic (onset="a")
 - **[risk=1]** L2: **at last** ↔ **asset** — phonetic (onset="a")
 - **[risk=1]** L2: **because of** ↔ **before long** — phonetic (onset="be")
+- **[risk=1]** L2: **because of** ↔ **due to** — definition (Jaccard=50%)
 - **[risk=1]** L2: **because of** ↔ **beforehand** — phonetic (onset="be")
 - **[risk=1]** L2: **before long** ↔ **beforehand** — phonetic (onset="be")
 - **[risk=1]** L2: **by contrast** ↔ **in contrast** — spelling (edit distance=2)
@@ -22351,6 +22358,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **despite** ↔ **depict** — phonetic (onset="de")
 - **[risk=1]** L2: **despite** ↔ **deplete** — phonetic (onset="de")
 - **[risk=1]** L2: **despite** ↔ **designate** — phonetic (onset="de")
+- **[risk=1]** L2: **due to** ↔ **on account of** — definition (Jaccard=50%)
 - **[risk=1]** L2: **equally** ↔ **except** — phonetic (onset="e")
 - **[risk=1]** L2: **equally** ↔ **similarly** — definition (Jaccard=50%)
 - **[risk=1]** L2: **equally** ↔ **exterior** — phonetic (onset="e")
@@ -23976,6 +23984,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **confirm** ↔ **contain** — phonetic (onset="co")
 - **[risk=1]** L2: **confirm** ↔ **contest** — phonetic (onset="co")
 - **[risk=1]** L2: **confirm** ↔ **contrast** — phonetic (onset="co")
+- **[risk=1]** L2: **confirm** ↔ **valid** — definition (Jaccard=50%)
 - **[risk=1]** L2: **confirm** ↔ **certify** — definition (Jaccard=43%)
 - **[risk=1]** L2: **confirm** ↔ **commence** — phonetic (onset="co")
 - **[risk=1]** L2: **confirm** ↔ **compact** — phonetic (onset="co")

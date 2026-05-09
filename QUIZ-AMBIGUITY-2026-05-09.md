@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-09
 
-3749 ambiguous pairs found.
+3788 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -1054,9 +1054,9 @@
 - suppose: to guess that something might be true
 - incentive: something that motivates you to do something
 
-## L2: "suppose" vs "attest" (60%)
+## L2: "suppose" vs "attest" (75%)
 - suppose: to guess that something might be true
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "suppose" vs "barrier" (67%)
 - suppose: to guess that something might be true
@@ -1064,7 +1064,7 @@
 
 ## L2: "suppose" vs "confirm" (75%)
 - suppose: to guess that something might be true
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "suppose" vs "proof" (60%)
 - suppose: to guess that something might be true
@@ -1181,6 +1181,10 @@
 ## L2: "sturdy" vs "hidden" (100%)
 - sturdy: strong and not easy to break
 - hidden: not easy to see
+
+## L2: "sturdy" vs "delicate" (67%)
+- sturdy: strong and not easy to break
+- delicate: thin and easy to break
 
 ## L2: "sturdy" vs "brittle" (67%)
 - sturdy: strong and not easy to break
@@ -1398,6 +1402,10 @@
 - reptile: an animal with dry skin and scales like a snake
 - tolerate: to put up with something you do not like
 
+## L2: "liquid" vs "gas" (60%)
+- liquid: something that flows like water
+- gas: something like air that is not a solid or a liquid
+
 ## L2: "liquid" vs "act" (100%)
 - liquid: something that flows like water
 - act: to do something
@@ -1440,6 +1448,50 @@
 
 ## L2: "liquid" vs "tolerate" (67%)
 - liquid: something that flows like water
+- tolerate: to put up with something you do not like
+
+## L2: "gas" vs "act" (100%)
+- gas: something like air that is not a solid or a liquid
+- act: to do something
+
+## L2: "gas" vs "prize" (100%)
+- gas: something like air that is not a solid or a liquid
+- prize: something you win
+
+## L2: "gas" vs "challenge" (67%)
+- gas: something like air that is not a solid or a liquid
+- challenge: something that is hard to do
+
+## L2: "gas" vs "dispose" (100%)
+- gas: something like air that is not a solid or a liquid
+- dispose: to get rid of something
+
+## L2: "gas" vs "entity" (67%)
+- gas: something like air that is not a solid or a liquid
+- entity: something that exists on its own
+
+## L2: "gas" vs "incentive" (67%)
+- gas: something like air that is not a solid or a liquid
+- incentive: something that motivates you to do something
+
+## L2: "gas" vs "resource" (60%)
+- gas: something like air that is not a solid or a liquid
+- resource: something useful that people need, like water or wood
+
+## L2: "gas" vs "barrier" (67%)
+- gas: something like air that is not a solid or a liquid
+- barrier: something that blocks the way
+
+## L2: "gas" vs "purchase" (100%)
+- gas: something like air that is not a solid or a liquid
+- purchase: to buy something
+
+## L2: "gas" vs "refuse" (100%)
+- gas: something like air that is not a solid or a liquid
+- refuse: to say no and not do something
+
+## L2: "gas" vs "tolerate" (67%)
+- gas: something like air that is not a solid or a liquid
 - tolerate: to put up with something you do not like
 
 ## L2: "magnet" vs "act" (100%)
@@ -2096,7 +2148,7 @@
 
 ## L2: "believe" vs "attest" (67%)
 - believe: to think something is true
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "believe" vs "assume" (100%)
 - believe: to think something is true
@@ -2104,7 +2156,7 @@
 
 ## L2: "believe" vs "confirm" (67%)
 - believe: to think something is true
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "believe" vs "perspective" (67%)
 - believe: to think something is true
@@ -2258,6 +2310,10 @@
 - carve: to cut a shape into something
 - transform: to change fully into something unlike
 
+## L2: "carve" vs "maintain" (67%)
+- carve: to cut a shape into something
+- maintain: to keep something in good shape
+
 ## L2: "carve" vs "investigate" (67%)
 - carve: to cut a shape into something
 - investigate: to look into something to find the truth
@@ -2321,6 +2377,10 @@
 ## L2: "chance" vs "protest" (67%)
 - chance: a time when you can try something
 - protest: when people show they disagree with something
+
+## L2: "chance" vs "beforehand" (67%)
+- chance: a time when you can try something
+- beforehand: before something happens; ahead of time
 
 ## L2: "chance" vs "efficient" (67%)
 - chance: a time when you can try something
@@ -2818,9 +2878,9 @@
 - depend: to need someone or something; also to be decided by something
 - compel: to force someone to do something
 
-## L2: "destroy" vs "ruin" (67%)
+## L2: "destroy" vs "ruin" (100%)
 - destroy: to break so it cannot be used
-- ruin: to damage something so badly it cannot be used
+- ruin: to break something so badly it cannot be used
 
 ## L2: "dig" vs "tease" (100%)
 - dig: to make a hole with hands or a tool
@@ -2926,6 +2986,58 @@
 - hallway: a long passage inside a building
 - internal: on the inside
 
+## L2: "harm" vs "prize" (100%)
+- harm: to cause pain or hurt to someone or something
+- prize: something you win
+
+## L2: "harm" vs "dispose" (100%)
+- harm: to cause pain or hurt to someone or something
+- dispose: to get rid of something
+
+## L2: "harm" vs "leave out" (67%)
+- harm: to cause pain or hurt to someone or something
+- leave out: to not include something or someone
+
+## L2: "harm" vs "count on" (67%)
+- harm: to cause pain or hurt to someone or something
+- count on: to depend on someone or something
+
+## L2: "harm" vs "affect" (67%)
+- harm: to cause pain or hurt to someone or something
+- affect: to cause a change in something
+
+## L2: "harm" vs "assist" (67%)
+- harm: to cause pain or hurt to someone or something
+- assist: to help someone do something
+
+## L2: "harm" vs "blame" (67%)
+- harm: to cause pain or hurt to someone or something
+- blame: to say someone caused something bad
+
+## L2: "harm" vs "exclude" (67%)
+- harm: to cause pain or hurt to someone or something
+- exclude: to leave someone or something out
+
+## L2: "harm" vs "forbid" (67%)
+- harm: to cause pain or hurt to someone or something
+- forbid: to order someone not to do something
+
+## L2: "harm" vs "permit" (67%)
+- harm: to cause pain or hurt to someone or something
+- permit: to allow someone to do something
+
+## L2: "harm" vs "purchase" (100%)
+- harm: to cause pain or hurt to someone or something
+- purchase: to buy something
+
+## L2: "harm" vs "refuse" (100%)
+- harm: to cause pain or hurt to someone or something
+- refuse: to say no and not do something
+
+## L2: "harm" vs "compel" (67%)
+- harm: to cause pain or hurt to someone or something
+- compel: to force someone to do something
+
 ## L2: "heal" vs "get over" (80%)
 - heal: to get better after being hurt or sick
 - get over: to feel better after being sick or sad
@@ -2979,7 +3091,7 @@
 - exaggerate: to make something sound bigger or more than it really is
 
 ## L2: "leak" vs "little" (100%)
-- leak: to let water or other fluid drip out through a small hole
+- leak: to let water or other liquid drip out through a small hole
 - little: small
 
 ## L2: "marble" vs "little" (100%)
@@ -3104,7 +3216,7 @@
 
 ## L2: "nature" vs "carbon" (67%)
 - nature: plants, animals, and outdoors
-- carbon: a chemical element found in plants, animals, and things like coal
+- carbon: a basic building block found in plants, animals, and things like coal
 
 ## L2: "ocean" vs "massive" (67%)
 - ocean: a very large body of salt water
@@ -3578,6 +3690,10 @@
 - banjo: a round thing with strings that you pluck to make music
 - harp: a tall thing with many strings that you pluck to make music
 
+## L2: "bay" vs "spore" (60%)
+- bay: a part of the sea that curves into the land
+- spore: a tiny part that can grow into a new plant or fungus
+
 ## L2: "beacon" vs "pale" (67%)
 - beacon: a bright light that guides people
 - pale: light in color, not bright
@@ -3659,7 +3775,7 @@
 - focus: to pay close attention to one thing
 
 ## L2: "cypress" vs "elm" (67%)
-- cypress: a tall thin evergreen tree
+- cypress: a tall thin tree that stays green all year
 - elm: a tall shade tree
 
 ## L2: "deck" vs "external" (100%)
@@ -3704,7 +3820,7 @@
 
 ## L2: "gale" vs "extreme" (67%)
 - gale: a very strong wind
-- extreme: very far from normal or very strong
+- extreme: very far from usual or very strong
 
 ## L2: "gale" vs "intense" (67%)
 - gale: a very strong wind
@@ -3733,6 +3849,10 @@
 ## L2: "jade" vs "pebble" (67%)
 - jade: a smooth green stone used in jewelry
 - pebble: a small smooth stone
+
+## L2: "lava" vs "chasm" (67%)
+- lava: hot melted rock from deep under the Earth
+- chasm: a deep crack or gap in the earth
 
 ## L2: "marsh" vs "moist" (60%)
 - marsh: wet, soft land often near water
@@ -3816,7 +3936,7 @@
 
 ## L2: "claim" vs "attest" (67%)
 - claim: to say something is yours or is true
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "claim" vs "assume" (67%)
 - claim: to say something is yours or is true
@@ -3824,7 +3944,7 @@
 
 ## L2: "claim" vs "confirm" (67%)
 - claim: to say something is yours or is true
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "claim" vs "presume" (67%)
 - claim: to say something is yours or is true
@@ -4185,6 +4305,10 @@
 ## L2: "form" vs "increase" (67%)
 - form: to make or shape something
 - increase: to make something bigger or more
+
+## L2: "form" vs "maintain" (67%)
+- form: to make or shape something
+- maintain: to keep something in good shape
 
 ## L2: "form" vs "manufacture" (67%)
 - form: to make or shape something
@@ -4846,6 +4970,10 @@
 - brief: lasting only a short time
 - sole: the only one
 
+## L2: "delicate" vs "brittle" (67%)
+- delicate: thin and easy to break
+- brittle: hard but easy to snap or break
+
 ## L2: "dim" vs "faint" (67%)
 - dim: not very bright, hard to see
 - faint: very weak and hard to notice
@@ -5034,6 +5162,10 @@
 - temporarily: only for a short time, not forever
 - sole: the only one
 
+## L2: "lately" vs "beforehand" (67%)
+- lately: in the time just before now
+- beforehand: before something happens; ahead of time
+
 ## L2: "yearly" vs "regular" (67%)
 - yearly: happening one time each year
 - regular: happening at the same time or in the same way
@@ -5128,7 +5260,7 @@
 
 ## L2: "fact" vs "attest" (75%)
 - fact: something that is true and can be proven
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "fact" vs "barrier" (67%)
 - fact: something that is true and can be proven
@@ -5136,7 +5268,7 @@
 
 ## L2: "fact" vs "confirm" (75%)
 - fact: something that is true and can be proven
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "fact" vs "proof" (75%)
 - fact: something that is true and can be proven
@@ -5590,6 +5722,10 @@
 - advantage: something that gives you a better chance to succeed
 - barrier: something that blocks the way
 
+## L2: "advantage" vs "license" (60%)
+- advantage: something that gives you a better chance to succeed
+- license: a paper that gives you permission to do something
+
 ## L2: "advantage" vs "purchase" (100%)
 - advantage: something that gives you a better chance to succeed
 - purchase: to buy something
@@ -5664,7 +5800,7 @@
 
 ## L2: "accident" vs "call off" (75%)
 - accident: something bad that happens without being planned
-- call off: to cancel something that was planned
+- call off: to stop something that was planned
 
 ## L2: "accident" vs "barrier" (67%)
 - accident: something bad that happens without being planned
@@ -5730,10 +5866,6 @@
 - consequence: a result caused by something you did
 - dispose: to get rid of something
 
-## L2: "consequence" vs "on account of" (100%)
-- consequence: a result caused by something you did
-- on account of: due to, as a result of
-
 ## L2: "consequence" vs "blame" (67%)
 - consequence: a result caused by something you did
 - blame: to say someone caused something bad
@@ -5762,9 +5894,9 @@
 - evidence: proof that shows something is true
 - incentive: something that motivates you to do something
 
-## L2: "evidence" vs "attest" (60%)
+## L2: "evidence" vs "attest" (75%)
 - evidence: proof that shows something is true
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "evidence" vs "barrier" (67%)
 - evidence: proof that shows something is true
@@ -5772,7 +5904,7 @@
 
 ## L2: "evidence" vs "confirm" (75%)
 - evidence: proof that shows something is true
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "evidence" vs "presume" (60%)
 - evidence: proof that shows something is true
@@ -6032,7 +6164,7 @@
 
 ## L2: "reveal" vs "attest" (75%)
 - reveal: to show something that was hidden
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "reveal" vs "unearth" (67%)
 - reveal: to show something that was hidden
@@ -6360,7 +6492,7 @@
 
 ## L2: "challenge" vs "call off" (67%)
 - challenge: something that is hard to do
-- call off: to cancel something that was planned
+- call off: to stop something that was planned
 
 ## L2: "challenge" vs "put up with" (67%)
 - challenge: something that is hard to do
@@ -6376,7 +6508,7 @@
 
 ## L2: "challenge" vs "attest" (67%)
 - challenge: something that is hard to do
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "challenge" vs "achieve" (67%)
 - challenge: something that is hard to do
@@ -6392,7 +6524,7 @@
 
 ## L2: "challenge" vs "confirm" (67%)
 - challenge: something that is hard to do
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "challenge" vs "endure" (67%)
 - challenge: something that is hard to do
@@ -6421,6 +6553,10 @@
 ## L2: "challenge" vs "incident" (67%)
 - challenge: something that is hard to do
 - incident: something that happens, most times something odd
+
+## L2: "challenge" vs "license" (67%)
+- challenge: something that is hard to do
+- license: a paper that gives you permission to do something
 
 ## L2: "challenge" vs "miracle" (67%)
 - challenge: something that is hard to do
@@ -6523,19 +6659,19 @@
 - refuse: to say no and not do something
 
 ## L2: "maintain" vs "dispose" (100%)
-- maintain: to keep something in good condition
+- maintain: to keep something in good shape
 - dispose: to get rid of something
 
 ## L2: "maintain" vs "purchase" (100%)
-- maintain: to keep something in good condition
+- maintain: to keep something in good shape
 - purchase: to buy something
 
 ## L2: "maintain" vs "refuse" (100%)
-- maintain: to keep something in good condition
+- maintain: to keep something in good shape
 - refuse: to say no and not do something
 
 ## L2: "maintain" vs "retain" (67%)
-- maintain: to keep something in good condition
+- maintain: to keep something in good shape
 - retain: to keep or hold on to something
 
 ## L2: "establish" vs "dispose" (100%)
@@ -6712,7 +6848,7 @@
 
 ## L2: "demonstrate" vs "attest" (67%)
 - demonstrate: to show how something works
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "demonstrate" vs "applaud" (67%)
 - demonstrate: to show how something works
@@ -6914,10 +7050,6 @@
 - benefit: a good result or helpful thing you get
 - beneficial: helpful or good for you
 
-## L2: "benefit" vs "on account of" (100%)
-- benefit: a good result or helpful thing you get
-- on account of: due to, as a result of
-
 ## L2: "durable" vs "prolonged" (67%)
 - durable: strong and able to last a long time
 - prolonged: lasting a long time
@@ -7061,6 +7193,10 @@
 ## L2: "authorize" vs "justify" (67%)
 - authorize: to give permission for something
 - justify: to give a good reason for something
+
+## L2: "authorize" vs "license" (67%)
+- authorize: to give permission for something
+- license: a paper that gives you permission to do something
 
 ## L2: "authorize" vs "owe" (67%)
 - authorize: to give permission for something
@@ -7274,10 +7410,6 @@
 - consequent: happening as a result of something
 - dispose: to get rid of something
 
-## L2: "consequent" vs "on account of" (100%)
-- consequent: happening as a result of something
-- on account of: due to, as a result of
-
 ## L2: "consequent" vs "prevent" (67%)
 - consequent: happening as a result of something
 - prevent: to stop something from happening
@@ -7389,10 +7521,6 @@
 ## L2: "deficiency" vs "dispose" (100%)
 - deficiency: not having enough of something needed
 - dispose: to get rid of something
-
-## L2: "deficiency" vs "allergic" (67%)
-- deficiency: not having enough of something needed
-- allergic: having a bad reaction to something
 
 ## L2: "deficiency" vs "lack" (67%)
 - deficiency: not having enough of something needed
@@ -7576,7 +7704,7 @@
 
 ## L2: "entity" vs "call off" (67%)
 - entity: something that exists on its own
-- call off: to cancel something that was planned
+- call off: to stop something that was planned
 
 ## L2: "entity" vs "put up with" (67%)
 - entity: something that exists on its own
@@ -7592,7 +7720,7 @@
 
 ## L2: "entity" vs "attest" (67%)
 - entity: something that exists on its own
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "entity" vs "barrier" (67%)
 - entity: something that exists on its own
@@ -7604,7 +7732,7 @@
 
 ## L2: "entity" vs "confirm" (67%)
 - entity: something that exists on its own
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "entity" vs "exception" (67%)
 - entity: something that exists on its own
@@ -7629,6 +7757,10 @@
 ## L2: "entity" vs "incident" (67%)
 - entity: something that exists on its own
 - incident: something that happens, most times something odd
+
+## L2: "entity" vs "license" (67%)
+- entity: something that exists on its own
+- license: a paper that gives you permission to do something
 
 ## L2: "entity" vs "miracle" (67%)
 - entity: something that exists on its own
@@ -7896,7 +8028,7 @@
 
 ## L2: "incentive" vs "call off" (67%)
 - incentive: something that motivates you to do something
-- call off: to cancel something that was planned
+- call off: to stop something that was planned
 
 ## L2: "incentive" vs "put up with" (67%)
 - incentive: something that motivates you to do something
@@ -7912,7 +8044,7 @@
 
 ## L2: "incentive" vs "attest" (67%)
 - incentive: something that motivates you to do something
-- attest: to prove or show that something is true
+- attest: to show that something is true
 
 ## L2: "incentive" vs "barrier" (67%)
 - incentive: something that motivates you to do something
@@ -7924,7 +8056,7 @@
 
 ## L2: "incentive" vs "confirm" (67%)
 - incentive: something that motivates you to do something
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "incentive" vs "exception" (67%)
 - incentive: something that motivates you to do something
@@ -7949,6 +8081,10 @@
 ## L2: "incentive" vs "incident" (67%)
 - incentive: something that motivates you to do something
 - incident: something that happens, most times something odd
+
+## L2: "incentive" vs "license" (67%)
+- incentive: something that motivates you to do something
+- license: a paper that gives you permission to do something
 
 ## L2: "incentive" vs "miracle" (67%)
 - incentive: something that motivates you to do something
@@ -8563,7 +8699,7 @@
 - contest: a competition where people try to win
 
 ## L2: "equator" vs "amid" (100%)
-- equator: an imaginary line around the middle of the Earth
+- equator: a pretend line around the middle of the Earth
 - amid: in the middle of
 
 ## L2: "latitude" vs "longitude" (67%)
@@ -9097,6 +9233,10 @@
 ## L2: "make sure" vs "barrier" (67%)
 - make sure: to check that something is done right
 - barrier: something that blocks the way
+
+## L2: "make sure" vs "confirm" (75%)
+- make sure: to check that something is done right
+- confirm: to say that something is true or right
 
 ## L2: "make sure" vs "purchase" (100%)
 - make sure: to check that something is done right
@@ -9639,15 +9779,15 @@
 - cultivate: to grow plants or develop a skill over time
 
 ## L2: "call off" vs "barrier" (67%)
-- call off: to cancel something that was planned
+- call off: to stop something that was planned
 - barrier: something that blocks the way
 
 ## L2: "call off" vs "purchase" (100%)
-- call off: to cancel something that was planned
+- call off: to stop something that was planned
 - purchase: to buy something
 
 ## L2: "call off" vs "refuse" (100%)
-- call off: to cancel something that was planned
+- call off: to stop something that was planned
 - refuse: to say no and not do something
 
 ## L2: "count on" vs "rely on" (67%)
@@ -9915,19 +10055,19 @@
 - perspective: the way you see and think about something
 
 ## L2: "allergic" vs "purchase" (100%)
-- allergic: having a bad reaction to something
+- allergic: having a bad body response to something
 - purchase: to buy something
 
 ## L2: "allergic" vs "refuse" (100%)
-- allergic: having a bad reaction to something
+- allergic: having a bad body response to something
 - refuse: to say no and not do something
 
 ## L2: "beforehand" vs "purchase" (100%)
-- beforehand: before something happens; in advance
+- beforehand: before something happens; ahead of time
 - purchase: to buy something
 
 ## L2: "beforehand" vs "refuse" (100%)
-- beforehand: before something happens; in advance
+- beforehand: before something happens; ahead of time
 - refuse: to say no and not do something
 
 ## L2: "by and large" vs "core" (67%)
@@ -10135,27 +10275,27 @@
 - bulk: a large amount or the biggest part
 
 ## L2: "attest" vs "barrier" (67%)
-- attest: to prove or show that something is true
+- attest: to show that something is true
 - barrier: something that blocks the way
 
 ## L2: "attest" vs "confirm" (75%)
-- attest: to prove or show that something is true
-- confirm: to say that something is true or correct
+- attest: to show that something is true
+- confirm: to say that something is true or right
 
 ## L2: "attest" vs "indicate" (67%)
-- attest: to prove or show that something is true
+- attest: to show that something is true
 - indicate: to point out or show something
 
-## L2: "attest" vs "proof" (60%)
-- attest: to prove or show that something is true
+## L2: "attest" vs "proof" (75%)
+- attest: to show that something is true
 - proof: something that shows a fact is true
 
 ## L2: "attest" vs "purchase" (100%)
-- attest: to prove or show that something is true
+- attest: to show that something is true
 - purchase: to buy something
 
 ## L2: "attest" vs "refuse" (100%)
-- attest: to prove or show that something is true
+- attest: to show that something is true
 - refuse: to say no and not do something
 
 ## L2: "bang out" vs "plunge" (67%)
@@ -10207,11 +10347,11 @@
 - unite: to join together as one group
 
 ## L2: "decoy" vs "purchase" (100%)
-- decoy: something used to trick or lure
+- decoy: something used to trick or attract
 - purchase: to buy something
 
 ## L2: "decoy" vs "refuse" (100%)
-- decoy: something used to trick or lure
+- decoy: something used to trick or attract
 - refuse: to say no and not do something
 
 ## L2: "detour" vs "purchase" (100%)
@@ -10576,7 +10716,7 @@
 
 ## L2: "barrier" vs "confirm" (67%)
 - barrier: something that blocks the way
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 
 ## L2: "barrier" vs "exception" (67%)
 - barrier: something that blocks the way
@@ -10601,6 +10741,10 @@
 ## L2: "barrier" vs "incident" (67%)
 - barrier: something that blocks the way
 - incident: something that happens, most times something odd
+
+## L2: "barrier" vs "license" (67%)
+- barrier: something that blocks the way
+- license: a paper that gives you permission to do something
 
 ## L2: "barrier" vs "miracle" (67%)
 - barrier: something that blocks the way
@@ -10851,16 +10995,20 @@
 - refuse: to say no and not do something
 
 ## L2: "confirm" vs "proof" (75%)
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 - proof: something that shows a fact is true
 
 ## L2: "confirm" vs "purchase" (100%)
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 - purchase: to buy something
 
 ## L2: "confirm" vs "refuse" (100%)
-- confirm: to say that something is true or correct
+- confirm: to say that something is true or right
 - refuse: to say no and not do something
+
+## L2: "confirm" vs "valid" (100%)
+- confirm: to say that something is true or right
+- valid: right and true
 
 ## L2: "conquer" vs "overcome" (67%)
 - conquer: to win against or overcome something
@@ -11551,7 +11699,7 @@
 - constitute: to make up or form something
 
 ## L2: "extreme" vs "intense" (67%)
-- extreme: very far from normal or very strong
+- extreme: very far from usual or very strong
 - intense: very strong or extreme
 
 ## L2: "factor" vs "purchase" (100%)
@@ -11860,6 +12008,14 @@
 
 ## L2: "liable" vs "refuse" (100%)
 - liable: in charge of something or likely to happen
+- refuse: to say no and not do something
+
+## L2: "license" vs "purchase" (100%)
+- license: a paper that gives you permission to do something
+- purchase: to buy something
+
+## L2: "license" vs "refuse" (100%)
+- license: a paper that gives you permission to do something
 - refuse: to say no and not do something
 
 ## L2: "link" vs "relate" (100%)
@@ -12183,7 +12339,7 @@
 - refuse: to say no and not do something
 
 ## L2: "patent" vs "sole" (100%)
-- patent: official right to be the only one who makes an invention
+- patent: a legal right to be the only one who makes an invention
 - sole: the only one
 
 ## L2: "perceive" vs "purchase" (100%)

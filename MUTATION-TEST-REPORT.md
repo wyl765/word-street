@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 28 |
-| Undetected | 2 |
-| **Detection rate** | **93.3%** |
+| Detected | 29 |
+| Undetected | 1 |
+| **Detection rate** | **96.7%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -20,47 +20,46 @@
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 3 | 60% |
+| grammar_error | 5 | 4 | 80% |
 
 ## Injected Mutations Detail
 
-- ✅ **instance** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **run into** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **bossy** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **supersede** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **equanimity** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **chrysalis** (banned_word): injected "genocide" into example
-- ✅ **condolence** (banned_word): injected "autopsy" into example
-- ✅ **dissent** (banned_word): injected "pornography" into example
-- ✅ **publish** (banned_word): injected "pornography" into example
-- ✅ **scholar** (banned_word): injected "pornography" into example
-- ✅ **plead** (collocation_error): bad collocation: "close the light"
-- ✅ **mysterious** (collocation_error): bad collocation: "drink soup"
-- ✅ **bobsled** (collocation_error): bad collocation: "eat medicine"
-- ✅ **involve** (collocation_error): bad collocation: "big rain"
-- ✅ **amorphous** (collocation_error): bad collocation: "eat medicine"
-- ✅ **passive** (empty_field): emptied definition
-- ✅ **variable** (empty_field): emptied definition
-- ✅ **usurpation** (empty_field): emptied example
-- ✅ **convey** (empty_field): emptied example
-- ✅ **enthusiasm** (empty_field): emptied example
-- ✅ **quiet** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **dexterity** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **grueling** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **fiction** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **centimeter** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **personable** (grammar_error): example: "She don't like the personable...."
-- ✅ **corroboration** (grammar_error): example: "The witness is goes gave corroboration of the story told by ..."
-- ❌ **verbose** (grammar_error): example: "His verbose essay was ten pages long when two pages would ha..."
-- ❌ **remote** (grammar_error): example: "The cabin was in a remote area with no neighbors for miles...."
-- ✅ **modify** (grammar_error): example: "The childrens played with the modify...."
+- ✅ **per capita** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **laceration** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **approve** (factual_error): def changed to: "to say yes or agree that grows underground in caves..."
+- ✅ **pessimistic** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **divergent** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **rebel** (banned_word): injected "genocide" into example
+- ✅ **accessory** (banned_word): injected "pornography" into example
+- ✅ **crowd** (banned_word): injected "autopsy" into example
+- ✅ **cave** (banned_word): injected "massacre" into example
+- ✅ **lexicon** (banned_word): injected "genocide" into example
+- ✅ **version** (collocation_error): bad collocation: "eat medicine"
+- ✅ **treasure** (collocation_error): bad collocation: "big rain"
+- ✅ **genesis** (collocation_error): bad collocation: "eat medicine"
+- ✅ **frugality** (collocation_error): bad collocation: "eat medicine"
+- ✅ **successor** (collocation_error): bad collocation: "eat medicine"
+- ✅ **break down** (empty_field): emptied definition
+- ✅ **dialect** (empty_field): emptied definition
+- ✅ **akin** (empty_field): emptied example
+- ✅ **model** (empty_field): emptied definition
+- ✅ **on the whole** (empty_field): emptied definition
+- ✅ **resource** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **entreat** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **glance** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **communal** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **announce** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **spark** (grammar_error): example: "The childrens played with the spark...."
+- ✅ **ascertain** (grammar_error): example: "They is happy about the ascertain...."
+- ✅ **nearly** (grammar_error): example: "They is happy about the nearly...."
+- ❌ **enmity** (grammar_error): example: "Years of enmity between the two families at last ended with ..."
+- ✅ **superficial** (grammar_error): example: "They is happy about the superficial...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **verbose** (grammar_error): example: "His verbose essay was ten pages long when two pages would ha..."
-- **remote** (grammar_error): example: "The cabin was in a remote area with no neighbors for miles...."
+- **enmity** (grammar_error): example: "Years of enmity between the two families at last ended with ..."
 
 ### Recommended Improvements
 

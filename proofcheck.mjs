@@ -756,6 +756,16 @@ function checkLazyImageKeyword(entries) {
         `imageKeyword "${e.imageKeyword}" is just the word itself`,
         'Use a specific scene description instead');
     }
+    // L1-L2: flag abstract/function words that use themselves as imageKeyword
+    // Concrete nouns are fine, but adverbs, conjunctions, prepositions, abstract adjectives need scenes
+    if (level <= 2 && ik === word && !word.includes(' ')) {
+      const abstractPatterns = /^(while|since|during|although|because|after|before|until|unless|whether|however|therefore|nevertheless|meanwhile|furthermore|moreover|otherwise|besides|hence|thus|whereas|whereby|soon|moment|half|near|once|twice|single|still|even|already|almost|quite|rather|perhaps|maybe|often|never|always|seldom|rarely|merely)$/;
+      if (abstractPatterns.test(word) || /ly$/.test(word)) {
+        addIssue('MINOR', e._file, e.word, 'ABSTRACT_SELF_IMAGEKEYWORD',
+          `Abstract/function word imageKeyword "${e.imageKeyword}" is just the word itself — won't return useful images`,
+          'Use a specific scene description instead');
+      }
+    }
   }
 }
 
