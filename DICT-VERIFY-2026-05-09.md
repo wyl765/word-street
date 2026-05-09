@@ -1,13 +1,12 @@
 # Dictionary Pattern Check
 
-0 HIGH | 77 MEDIUM | 66 MINOR
+0 HIGH | 76 MEDIUM | 66 MINOR
 
 ## HIGH
 
 
 ## MEDIUM
 - words-level1.js | mud | Definition "wet dirt" is too brief to be useful
-- words-level1.js | wave | L1 definition packs 3 meanings: "to move your hand to say hello or bye; also a wall of water in the ocean"
 - words-level1.js | shallow | Definition "not deep" is too brief to be useful
 - words-level1.js | loose | Definition "not tight" is too brief to be useful
 - words-level1.js | exactly | L1 definition packs 3 meanings: "just right; not more or less"
@@ -23,7 +22,6 @@
 - words-level1.js | itsy | Definition "extremely tiny" is too brief to be useful
 - words-level2.js | brilliant | L2 definition packs 3 meanings: "very smart or impressive; also very bright"
 - words-level2.js | swift | Definition "very fast" is too brief to be useful
-- words-level2.js | force | L2 definition packs 3 meanings: "a push or pull; also to make someone do something"
 - words-level2.js | immediately | Definition "right away" is too brief to be useful
 - words-level2.js | frequently | Definition "many times" is too brief to be useful
 - words-level2.js | rarely | Definition "not often" is too brief to be useful
@@ -35,11 +33,13 @@
 - words-level2.js | alive | Definition "living" is too brief to be useful
 - words-level2.js | alone | Definition "by yourself" is too brief to be useful
 - words-level2.js | always | Definition "every time" is too brief to be useful
+- words-level2.js | any | Definition "some" is too brief to be useful
 - words-level2.js | asleep | Definition "sleeping" is too brief to be useful
 - words-level2.js | attempt | Definition "a try" is too brief to be useful
 - words-level2.js | awake | Definition "not sleeping" is too brief to be useful
 - words-level2.js | begin | Definition "to start" is too brief to be useful
 - words-level2.js | center | Definition "the middle" is too brief to be useful
+- words-level2.js | close | Definition "to shut" is too brief to be useful
 - words-level2.js | make | L2 definition packs 3 meanings: "to build or create something; also to cause something to happen"
 - words-level2.js | delight | Definition "great happiness" is too brief to be useful
 - words-level2.js | depend | L2 definition packs 3 meanings: "to need someone or something; also to be decided by something"
@@ -48,7 +48,6 @@
 - words-level2.js | frighten | Definition "to scare" is too brief to be useful
 - words-level2.js | glad | Definition "happy" is too brief to be useful
 - words-level2.js | glitter | Definition "to sparkle" is too brief to be useful
-- words-level2.js | kind | L2 definition packs 3 meanings: "nice and caring; also a type or sort"
 - words-level2.js | near | Definition "close by" is too brief to be useful
 - words-level2.js | never | Definition "not ever" is too brief to be useful
 - words-level2.js | opposite | Definition "completely different" is too brief to be useful

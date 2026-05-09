@@ -429,7 +429,7 @@ const LEVEL1_BANK=[{"word":"puppy","level":1,"definition":"a baby dog","example"
 {"word":"disappointed","level":1,"definition":"sad because something did not happen the way you wanted","example":"She was disappointed when the trip was canceled.","imageKeyword":"disappointed"},
 {"word":"frustrated","level":1,"definition":"angry because you cannot do something","example":"He got frustrated when the puzzle piece would not fit.","imageKeyword":"frustrated"},
 {"word":"jealous","level":1,"definition":"wanting what someone else has","example":"She was jealous of her friend's new bike.","imageKeyword":"jealous"},
-{"word":"embarrassed","level":1,"definition":"feeling silly in front of others","example":"He was embarrassed when he tripped in front of everyone.","imageKeyword":"embarrassed"},
+{"word":"embarrassed","level":1,"definition":"feeling bad because others saw you do something wrong or clumsy","example":"He was embarrassed when he tripped in front of everyone.","imageKeyword":"embarrassed"},
 {"word":"worried","level":1,"definition":"thinking bad things might happen","example":"He was worried his lost cat would not come home.","imageKeyword":"worried"},
 {"word":"grateful","level":1,"definition":"glad and thankful for what you got","example":"She was grateful her friend helped her carry the books.","imageKeyword":"grateful thankful"},
 {"word":"annoyed","level":1,"definition":"a little angry or irritated","example":"He was annoyed that his sister kept poking him.","imageKeyword":"annoyed face eye roll"},

@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 27 |
-| Undetected | 3 |
-| **Detection rate** | **90.0%** |
+| Detected | 29 |
+| Undetected | 1 |
+| **Detection rate** | **96.7%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -19,53 +19,50 @@
 | banned_word | 5 | 5 | 100% |
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
-| replace_accident | 5 | 4 | 80% |
-| grammar_error | 5 | 3 | 60% |
+| replace_accident | 5 | 5 | 100% |
+| grammar_error | 5 | 4 | 80% |
 
 ## Injected Mutations Detail
 
-- ✅ **illegitimate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **productive** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **fit** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **benevolent** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **dictator** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **emanate** (banned_word): injected "pornography" into example
-- ✅ **pollinate** (banned_word): injected "genocide" into example
-- ✅ **whereby** (banned_word): injected "massacre" into example
-- ✅ **rival** (banned_word): injected "massacre" into example
-- ✅ **fleece** (banned_word): injected "torture" into example
-- ✅ **later** (collocation_error): bad collocation: "open the light"
-- ✅ **deserve** (collocation_error): bad collocation: "eat medicine"
-- ✅ **parasite** (collocation_error): bad collocation: "close the light"
-- ✅ **annual** (collocation_error): bad collocation: "eat medicine"
-- ✅ **exuberance** (collocation_error): bad collocation: "open the light"
-- ✅ **assent** (empty_field): emptied definition
-- ✅ **doubt** (empty_field): emptied definition
-- ✅ **metabolism** (empty_field): emptied example
-- ✅ **juniper** (empty_field): emptied example
-- ✅ **ethnic** (empty_field): emptied definition
-- ❌ **hold on** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **morph** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **gradually** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **despotism** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **transition** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **lonely** (grammar_error): example: "The childrens played with the lonely...."
-- ✅ **broach** (grammar_error): example: "The childrens played with the broach...."
-- ❌ **exemplify** (grammar_error): example: "Her perfect attendance and high grades exemplify what a dedi..."
-- ✅ **complex** (grammar_error): example: "She don't like the complex...."
-- ❌ **crustacean** (grammar_error): example: "A lobster is a crustacean with big claws, eight legs, and a ..."
+- ✅ **endanger** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **instantly** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **adjudicate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **cogent** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **reconciliation** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **ceremony** (banned_word): injected "genocide" into example
+- ✅ **destitute** (banned_word): injected "massacre" into example
+- ✅ **turn into** (banned_word): injected "autopsy" into example
+- ✅ **exhausted** (banned_word): injected "pornography" into example
+- ✅ **cupcake** (banned_word): injected "autopsy" into example
+- ✅ **drawbridge** (collocation_error): bad collocation: "open the light"
+- ✅ **internal** (collocation_error): bad collocation: "eat medicine"
+- ✅ **doctrine** (collocation_error): bad collocation: "open the light"
+- ✅ **enter** (collocation_error): bad collocation: "eat medicine"
+- ✅ **appendix** (collocation_error): bad collocation: "drink soup"
+- ✅ **rights** (empty_field): emptied example
+- ✅ **kilogram** (empty_field): emptied definition
+- ✅ **setting** (empty_field): emptied example
+- ✅ **dishevel** (empty_field): emptied definition
+- ✅ **grandiosity** (empty_field): emptied definition
+- ✅ **messenger** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **intercept** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **disparage** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **tirade** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **listen** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **gentry** (grammar_error): example: "The childrens played with the gentry...."
+- ❌ **esprit** (grammar_error): example: "The team's esprit was high after their impressive winning st..."
+- ✅ **bumble** (grammar_error): example: "He don't bumbled through his speech, but everyone still clap..."
+- ✅ **billow** (grammar_error): example: "She don't like the billow...."
+- ✅ **passion** (grammar_error): example: "She don't like the passion...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **hold on** (replace_accident): example: "The piano importants were black and white...."
-- **exemplify** (grammar_error): example: "Her perfect attendance and high grades exemplify what a dedi..."
-- **crustacean** (grammar_error): example: "A lobster is a crustacean with big claws, eight legs, and a ..."
+- **esprit** (grammar_error): example: "The team's esprit was high after their impressive winning st..."
 
 ### Recommended Improvements
 
-- **Replace accidents**: Add more patterns to REPLACE_ACCIDENTS
 - **Grammar errors**: Expand SVA and grammar checks
 
 ---

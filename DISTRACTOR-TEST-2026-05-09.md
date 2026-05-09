@@ -1,6 +1,6 @@
 # Distractor Test Report
 
-35 words with weak definitions (confusable with 3+ others)
+36 words with weak definitions (confusable with 3+ others)
 
 1. L1 "sharp" → confusable with: swan, turtle, snail, worm, spider
    Def: "with a point that can cut"
@@ -20,32 +20,32 @@
 6. L1 "sleeve" → confusable with: elbow, skull, muscle, boot, collar
    Def: "the part of a shirt that covers your arm"
 
-7. L1 "empty" → confusable with: sandwich, melon, coconut, plain, peaceful
+7. L1 "weigh" → confusable with: discover, drag, measure, scale, lose
+   Def: "to find out how heavy something is"
+
+8. L1 "empty" → confusable with: sandwich, melon, coconut, plain, peaceful
    Def: "with nothing inside"
 
-8. L2 "complain" → confusable with: mention, look forward to, point out, praise, scared
+9. L2 "complain" → confusable with: mention, look forward to, point out, praise, scared
    Def: "to say you are unhappy about something"
 
-9. L1 "cherry" → confusable with: grape, plum, berry, button
+10. L1 "cherry" → confusable with: grape, plum, berry, button
    Def: "a small round red fruit"
 
-10. L1 "blanket" → confusable with: cheek, tongue, mitten, pillow
+11. L1 "blanket" → confusable with: cheek, tongue, mitten, pillow
    Def: "a soft cover for your bed"
 
-11. L1 "pond" → confusable with: frog, puddle, droplet, ripple
+12. L1 "pond" → confusable with: frog, puddle, droplet, ripple
    Def: "a small body of water"
 
-12. L1 "catch" → confusable with: grab, unwrap, shield, take
+13. L1 "catch" → confusable with: grab, unwrap, shield, take
    Def: "to take hold of something in the air"
 
-13. L1 "bend" → confusable with: pour, create, turn off, turn on
+14. L1 "bend" → confusable with: pour, create, turn off, turn on
    Def: "to make something not straight"
 
-14. L1 "create" → confusable with: bend, pour, turn off, turn on
+15. L1 "create" → confusable with: bend, pour, turn off, turn on
    Def: "to make something new"
-
-15. L1 "weigh" → confusable with: discover, drag, measure, scale
-   Def: "to find out how heavy something is"
 
 16. L1 "soon" → confusable with: lend, since, moment, recent
    Def: "in a short time from now"
@@ -77,32 +77,35 @@
 25. L1 "unwrap" → confusable with: grab, catch, wrap
    Def: "to take the cover off something"
 
-26. L1 "fetch" → confusable with: shake, borrow, deliver
+26. L1 "measure" → confusable with: discover, weigh, lose
+   Def: "to find out how big something is"
+
+27. L1 "fetch" → confusable with: shake, borrow, deliver
    Def: "to go get something and bring it back"
 
-27. L1 "wide" → confusable with: thick, thin, across
+28. L1 "wide" → confusable with: thick, thin, across
    Def: "going far from side to side"
 
-28. L1 "together" → confusable with: stack, apart, pile
+29. L1 "together" → confusable with: stack, apart, pile
    Def: "with each other"
 
-29. L1 "among" → confusable with: crowded, busy, between
+30. L1 "among" → confusable with: crowded, busy, between
    Def: "in the middle of many things"
 
-30. L1 "moment" → confusable with: lend, soon, recent
+31. L1 "moment" → confusable with: lend, soon, recent
    Def: "a very short bit of time"
 
-31. L1 "recent" → confusable with: lend, soon, moment
+32. L1 "recent" → confusable with: lend, soon, moment
    Def: "just a short time ago"
 
-32. L1 "pile" → confusable with: stack, apart, together
+33. L1 "pile" → confusable with: stack, apart, together
    Def: "a lot of things on top of each other"
 
-33. L1 "crowd" → confusable with: many, herd, crew
+34. L1 "crowd" → confusable with: many, herd, crew
    Def: "a large group of people"
 
-34. L2 "goal" → confusable with: ask, beg, order
-   Def: "something you want to do"
+35. L1 "lose" → confusable with: discover, measure, weigh
+   Def: "to not be able to find something"
 
-35. L2 "result" → confusable with: plot, effect, usual
+36. L2 "result" → confusable with: plot, effect, usual
    Def: "what happens in the end"

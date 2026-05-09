@@ -12,10 +12,10 @@
 - ✅ quite (L2): British "quite" = somewhat, American "quite" = very — confusing for ESL
 - ⚠️ since (L1): Chinese students struggle with since (因为/自从) — two meanings
 - ⚠️ still (L2): 仍然 vs 安静 — two unrelated meanings in one word
-- ✅ match (L1): 比赛 vs 匹配 vs 火柴 — three meanings
-- ✅ fair (L2): 公平 vs 展览会 vs 浅色 — three meanings
+- ⚠️ match (L1): 比赛 vs 匹配 vs 火柴 — three meanings
+- ⚠️ fair (L2): 公平 vs 展览会 vs 浅色 — three meanings
 - ✅ mean (L2): 意思 vs 刻薄 vs 平均 — three meanings
-- ✅ close (L2): 关闭 vs 近 — pronunciation changes with meaning
+- ⚠️ close (L2): 关闭 vs 近 — pronunciation changes with meaning
 - ⚠️ desert (L1): 沙漠 vs 抛弃 — stress changes
 - ⚠️ breakfast (L2): No article: "have breakfast" not "have the breakfast" — Chinese students add unnecessary articles
 - ⚠️ lunch (L2): No article: "eat lunch" — but "the lunch was good" needs article

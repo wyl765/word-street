@@ -1,9 +1,9 @@
 # Visual Collision Report — 2026-05-09
 
 ## Summary
-- CRITICAL (identical imageKeyword): 34
-- MAJOR (containment): 531
-- MINOR (≥50% word overlap): 45
+- CRITICAL (identical imageKeyword): 32
+- MAJOR (containment): 532
+- MINOR (≥50% word overlap): 46
 
 ## Issues
 
@@ -82,6 +82,7 @@
 - **[MAJOR]** L1: **leash** ↔ **ash** — "dog leash" vs "ash" (one contains the other)
 - **[MAJOR]** L1: **spark** ↔ **sparkle** — "spark" vs "sparkling" (one contains the other)
 - **[MAJOR]** L2: **explain** ↔ **horizon** — "dad explaining sunset to child" vs "sunset" (one contains the other)
+- **[MAJOR]** L2: **solve** ↔ **quite** — "puzzle" vs "kid thinking hard at math puzzle" (one contains the other)
 - **[MAJOR]** L2: **solve** ↔ **complex** — "puzzle" vs "complex puzzle" (one contains the other)
 - **[MAJOR]** L2: **solve** ↔ **factor** — "puzzle" vs "puzzle piece" (one contains the other)
 - **[MAJOR]** L2: **solve** ↔ **relevant** — "puzzle" vs "puzzle piece fitting" (one contains the other)
@@ -94,7 +95,6 @@
 - **[MAJOR]** L2: **succeed** ↔ **work out** — "bike success" vs "success" (one contains the other)
 - **[MAJOR]** L2: **brilliant** ↔ **beam** — "flashlight" vs "flashlight beam" (one contains the other)
 - **[MAJOR]** L2: **brilliant** ↔ **look up** — "flashlight" vs "flashlight searching dark room" (one contains the other)
-- **[CRITICAL]** L2: **fragile** ↔ **harm** — "broken glass" vs "broken glass" (identical imageKeyword)
 - **[MAJOR]** L2: **sturdy** ↔ **matter** — "wood chair" vs "air" (one contains the other)
 - **[MAJOR]** L2: **sturdy** ↔ **move** — "wood chair" vs "chair" (one contains the other)
 - **[MAJOR]** L2: **swift** ↔ **energetic** — "running rabbit" vs "running" (one contains the other)
@@ -141,10 +141,9 @@
 - **[MAJOR]** L2: **insect** ↔ **significant** — "ant" vs "important event" (one contains the other)
 - **[MAJOR]** L2: **insect** ↔ **crucial** — "ant" vs "very important" (one contains the other)
 - **[MAJOR]** L2: **mammal** ↔ **communicate** — "dolphin" vs "dolphins talking" (one contains the other)
-- **[CRITICAL]** L2: **gas** ↔ **balloon** — "balloon" vs "balloon" (identical imageKeyword)
-- **[MAJOR]** L2: **gas** ↔ **object** — "balloon" vs "ball" (one contains the other)
-- **[MAJOR]** L2: **gas** ↔ **burst** — "balloon" vs "balloon popping" (one contains the other)
-- **[MAJOR]** L2: **gas** ↔ **expand** — "balloon" vs "expanding balloon" (one contains the other)
+- **[MAJOR]** L2: **gas** ↔ **balloon** — "air filling balloon" vs "balloon" (one contains the other)
+- **[MAJOR]** L2: **gas** ↔ **matter** — "air filling balloon" vs "air" (one contains the other)
+- **[MAJOR]** L2: **gas** ↔ **object** — "air filling balloon" vs "ball" (one contains the other)
 - **[MAJOR]** L2: **energy** ↔ **energetic** — "running kid" vs "running" (one contains the other)
 - **[MAJOR]** L2: **force** ↔ **motion** — "swing" vs "swinging motion" (one contains the other)
 - **[MAJOR]** L2: **force** ↔ **back and forth** — "swing" vs "swinging" (one contains the other)
@@ -401,6 +400,7 @@
 - **[MAJOR]** L2: **vote** ↔ **democracy** — "voting" vs "voting hands" (one contains the other)
 - **[MAJOR]** L2: **vote** ↔ **ballot** — "voting" vs "voting paper" (one contains the other)
 - **[MINOR]** L2: **blacksmith** ↔ **forge** — "blacksmith forge" vs "forge blacksmith" (100% word overlap)
+- **[MINOR]** L2: **dagger** ↔ **display** — "museum dagger display" vs "museum display" (67% word overlap)
 - **[MAJOR]** L2: **griddle** ↔ **table** — "griddle pancakes" vs "grid" (one contains the other)
 - **[MAJOR]** L2: **hammock** ↔ **leisure** — "hammock" vs "relaxing hammock" (one contains the other)
 - **[MINOR]** L2: **lava** ↔ **volcanic** — "lava volcano" vs "volcano erupting lava" (67% word overlap)

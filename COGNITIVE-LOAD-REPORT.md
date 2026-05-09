@@ -1,19 +1,23 @@
-# Cognitive Load Report — 2026-05-08
+# Cognitive Load Report — 2026-05-09
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 405
-- MAJOR (≥3 超纲词 in definition): 2148
+- CRITICAL (≥5 超纲词 in definition): 420
+- MAJOR (≥3 超纲词 in definition): 2151
 
 ## Issues
+
+### 🔴 [CRITICAL] chick (L1)
+- **Definition:** "a very young bird, especially a baby chicken"
+- **超纲词 (5):** young, bird, especially, baby, chicken
 
 ### 🔴 [CRITICAL] goose (L1)
 - **Definition:** "a big bird that honks and lives near water"
 - **超纲词 (6):** big, bird, honks, lives, near, water
 
 ### 🔴 [CRITICAL] swan (L1)
-- **Definition:** "a big white bird with a long neck that lives on water"
-- **超纲词 (7):** big, white, bird, long, neck, lives, water
+- **Definition:** "a large bird with a long neck that lives on water"
+- **超纲词 (6):** large, bird, long, neck, lives, water
 
 ### 🔴 [CRITICAL] robin (L1)
 - **Definition:** "a small bird with a red or orange chest"
@@ -28,12 +32,16 @@
 - **超纲词 (6):** smart, sea, animal, swims, breathes, air
 
 ### 🔴 [CRITICAL] turtle (L1)
-- **Definition:** "a slow animal with four legs and a hard shell on its back"
-- **超纲词 (7):** slow, animal, four, legs, hard, shell, back
+- **Definition:** "an animal with a hard shell that covers its body"
+- **超纲词 (5):** animal, hard, shell, covers, body
+
+### 🔴 [CRITICAL] lizard (L1)
+- **Definition:** "a small animal like a snake but with four legs and a long tail"
+- **超纲词 (6):** small, animal, snake, four, legs, long
 
 ### 🔴 [CRITICAL] frog (L1)
-- **Definition:** "a small green animal that jumps and lives near water"
-- **超纲词 (7):** small, green, animal, jumps, lives, near, water
+- **Definition:** "a small animal that jumps and lives near water"
+- **超纲词 (6):** small, animal, jumps, lives, near, water
 
 ### 🔴 [CRITICAL] toad (L1)
 - **Definition:** "a small bumpy animal that hops and lives on land"
@@ -50,6 +58,18 @@
 ### 🔴 [CRITICAL] ladybug (L1)
 - **Definition:** "a small red bug with black spots"
 - **超纲词 (5):** small, red, bug, black, spots
+
+### 🔴 [CRITICAL] caterpillar (L1)
+- **Definition:** "a small animal with many legs that turns into a butterfly or moth"
+- **超纲词 (5):** small, animal, legs, turns, moth
+
+### 🔴 [CRITICAL] bee (L1)
+- **Definition:** "a small flying insect that buzzes and can sting"
+- **超纲词 (5):** small, flying, insect, buzzes, sting
+
+### 🔴 [CRITICAL] squirrel (L1)
+- **Definition:** "a small animal with a bushy tail that climbs trees and collects nuts"
+- **超纲词 (7):** small, animal, bushy, climbs, trees, collects, nuts
 
 ### 🔴 [CRITICAL] skunk (L1)
 - **Definition:** "a black and white animal that smells bad"
@@ -83,9 +103,13 @@
 - **Definition:** "a small food that grows in a shell underground"
 - **超纲词 (5):** small, food, grows, shell, underground
 
+### 🔴 [CRITICAL] pepper (L1)
+- **Definition:** "a crunchy vegetable that can be red, green, or yellow and is hollow inside"
+- **超纲词 (5):** vegetable, red, green, yellow, inside
+
 ### 🔴 [CRITICAL] mushroom (L1)
-- **Definition:** "a soft thing with a round top that grows in wet, dark places"
-- **超纲词 (7):** soft, round, top, grows, wet, dark, places
+- **Definition:** "a living thing with a cap on top and a stem, that grows in damp places"
+- **超纲词 (5):** living, cap, top, grows, places
 
 ### 🔴 [CRITICAL] stew (L1)
 - **Definition:** "a thick hot meal of meat and vegetables cooked slowly in a pot"
@@ -111,6 +135,10 @@
 - **Definition:** "the same clothes everyone in a group wears"
 - **超纲词 (5):** same, clothes, everyone, group, wears
 
+### 🔴 [CRITICAL] broom (L1)
+- **Definition:** "a long stick with stiff hairs at the end, used for sweeping"
+- **超纲词 (6):** long, stick, stiff, hairs, end, sweeping
+
 ### 🔴 [CRITICAL] bucket (L1)
 - **Definition:** "a round open thing with a handle for carrying water or sand"
 - **超纲词 (6):** round, open, handle, carrying, water, sand
@@ -119,13 +147,21 @@
 - **Definition:** "a big stone building where kings live"
 - **超纲词 (5):** big, stone, building, kings, live
 
+### 🔴 [CRITICAL] bridge (L1)
+- **Definition:** "a thing built over water so people can walk or drive across"
+- **超纲词 (5):** built, water, people, walk, drive
+
+### 🔴 [CRITICAL] tunnel (L1)
+- **Definition:** "a long path dug under the ground or through a hill"
+- **超纲词 (5):** long, path, dug, ground, hill
+
 ### 🔴 [CRITICAL] meadow (L1)
 - **Definition:** "a big open field of grass and flowers"
 - **超纲词 (5):** big, open, field, grass, flowers
 
-### 🔴 [CRITICAL] desert (L1)
-- **Definition:** "a dry place with lots of sand and very little rain"
-- **超纲词 (5):** place, lots, sand, little, rain
+### 🔴 [CRITICAL] rainbow (L1)
+- **Definition:** "a curved band of colors in the sky after rain"
+- **超纲词 (5):** curved, band, colors, sky, rain
 
 ### 🔴 [CRITICAL] moss (L1)
 - **Definition:** "a soft green plant that grows on rocks and trees"
@@ -134,6 +170,10 @@
 ### 🔴 [CRITICAL] spill (L1)
 - **Definition:** "to let water or juice fall by accident"
 - **超纲词 (5):** let, water, juice, fall, accident
+
+### 🔴 [CRITICAL] drip (L1)
+- **Definition:** "to fall in small drops, one at a time"
+- **超纲词 (5):** fall, small, drops, one, time
 
 ### 🔴 [CRITICAL] melt (L1)
 - **Definition:** "to change from hard to soft, like ice becoming water"
@@ -167,6 +207,10 @@
 - **Definition:** "long hair on a horse's or lion's neck"
 - **超纲词 (5):** long, hair, horse's, lion's, neck
 
+### 🔴 [CRITICAL] passenger (L1)
+- **Definition:** "a person riding in a vehicle like a car, bus, train, or airplane"
+- **超纲词 (7):** person, riding, vehicle, car, bus, train, airplane
+
 ### 🔴 [CRITICAL] sword (L1)
 - **Definition:** "a long sharp metal blade from old times, often in stories"
 - **超纲词 (6):** long, metal, blade, old, times, stories
@@ -183,6 +227,10 @@
 - **Definition:** "one of Earth's big land areas"
 - **超纲词 (5):** one, earth's, big, land, areas
 
+### 🔴 [CRITICAL] angle (L2)
+- **Definition:** "the space between two lines that meet, measured in degrees"
+- **超纲词 (6):** space, two, lines, meet, measured, degrees
+
 ### 🔴 [CRITICAL] however (L2)
 - **Definition:** "a word that means 'but' or 'on the other hand'"
 - **超纲词 (5):** word, means, 'but', 'on, hand'
@@ -191,13 +239,13 @@
 - **Definition:** "to give away for free to help people in need"
 - **超纲词 (6):** give, away, free, help, people, need
 
+### 🔴 [CRITICAL] leak (L2)
+- **Definition:** "to let water or other fluid drip out through a small hole"
+- **超纲词 (5):** let, water, fluid, small, hole
+
 ### 🔴 [CRITICAL] mist (L2)
 - **Definition:** "very thin cloud near the ground that makes things hard to see clearly"
 - **超纲词 (5):** cloud, ground, makes, hard, see
-
-### 🔴 [CRITICAL] amber (L2)
-- **Definition:** "a golden-yellow color or hardened tree sap"
-- **超纲词 (5):** golden-yellow, color, hardened, tree, sap
 
 ### 🔴 [CRITICAL] bellows (L2)
 - **Definition:** "a tool that blows air to make a fire bigger"
@@ -234,6 +282,10 @@
 ### 🔴 [CRITICAL] ember (L2)
 - **Definition:** "a small piece of glowing wood in a dying fire"
 - **超纲词 (5):** small, glowing, wood, dying, fire
+
+### 🔴 [CRITICAL] fjord (L2)
+- **Definition:** "a long narrow strip of sea between tall rocks"
+- **超纲词 (5):** long, strip, sea, tall, rocks
 
 ### 🔴 [CRITICAL] fresco (L2)
 - **Definition:** "a painting done on wet wall plaster"
@@ -524,7 +576,7 @@
 - **超纲词 (6):** wide-mouth, glass, bottle, serving, water, juice
 
 ### 🔴 [CRITICAL] chaplain (L3)
-- **Definition:** "a religious leader who works in a hospital school, or army"
+- **Definition:** "a religious leader who works in a hospital, school, or army"
 - **超纲词 (6):** religious, leader, works, hospital, school, army
 
 ### 🔴 [CRITICAL] cherub (L3)
@@ -759,6 +811,10 @@
 - **Definition:** "the short piece left in the ground after a tree is cut down"
 - **超纲词 (5):** short, left, ground, tree, cut
 
+### 🔴 [CRITICAL] torch (L3)
+- **Definition:** "a portable light, either a burning stick or a flashlight"
+- **超纲词 (5):** light, either, burning, stick, flashlight
+
 ### 🔴 [CRITICAL] chlorophyll (L3)
 - **Definition:** "the green pigment in leaves that helps plants make food from sunlight"
 - **超纲词 (6):** green, leaves, helps, plants, food, sunlight
@@ -900,8 +956,8 @@
 - **超纲词 (5):** unfair, treatment, people, based, group
 
 ### 🔴 [CRITICAL] eclipse (L4)
-- **Definition:** "when one object in space blocks light from reaching another"
-- **超纲词 (5):** one, space, blocks, light, reaching
+- **Definition:** "an event where one object in space blocks light from reaching another"
+- **超纲词 (6):** event, one, space, blocks, light, reaching
 
 ### 🔴 [CRITICAL] episode (L4)
 - **Definition:** "one event in a series, or one part of a TV show"
@@ -1308,8 +1364,8 @@
 - **超纲词 (5):** producing, lot, new, ideas, plants
 
 ### 🔴 [CRITICAL] gerrymandering (L4)
-- **Definition:** "when voting district maps are drawn in a tricky way to help one side win"
-- **超纲词 (9):** voting, district, maps, drawn, tricky, help, one, side, win
+- **Definition:** "the practice of drawing voting district maps in a tricky way to help one side win"
+- **超纲词 (10):** practice, drawing, voting, district, maps, tricky, help, one, side, win
 
 ### 🔴 [CRITICAL] palimpsest (L4)
 - **Definition:** "something reused or altered but still showing traces of its earlier form"
@@ -1419,6 +1475,10 @@
 - **Definition:** "a market with many small shops, especially in Asia or the Middle East"
 - **超纲词 (5):** market, small, shops, asia, east
 
+### 🔴 [CRITICAL] coincidence (L5)
+- **Definition:** "a surprising situation where two things happen at the same time by chance"
+- **超纲词 (6):** surprising, situation, two, happen, same, time
+
 ### 🔴 [CRITICAL] coral (L5)
 - **Definition:** "a hard substance formed by tiny sea creatures that builds reefs"
 - **超纲词 (6):** hard, formed, sea, creatures, builds, reefs
@@ -1512,7 +1572,7 @@
 - **超纲词 (5):** person, stirs, trouble, encourages, rebellion
 
 ### 🔴 [CRITICAL] foreclosure (L5)
-- **Definition:** "when a bank takes back a house because the owner cannot pay"
+- **Definition:** "the process where a bank takes back a house because the owner cannot pay"
 - **超纲词 (7):** bank, takes, back, house, owner, cannot, pay
 
 ### 🔴 [CRITICAL] heredity (L5)
@@ -1628,8 +1688,8 @@
 - **超纲词 (6):** branch, dentistry, corrects, teeth, jaw, alignment
 
 ### 🟡 [MAJOR] cub (L1)
-- **Definition:** "a baby bear, lion, or wolf"
-- **超纲词 (4):** baby, bear, lion, wolf
+- **Definition:** "a baby bear, lion, or fox"
+- **超纲词 (4):** baby, bear, lion, fox
 
 ### 🟡 [MAJOR] rooster (L1)
 - **Definition:** "a male chicken that crows"
@@ -1659,10 +1719,6 @@
 - **Definition:** "a large ocean animal with sharp teeth"
 - **超纲词 (4):** large, ocean, animal, teeth
 
-### 🟡 [MAJOR] lizard (L1)
-- **Definition:** "a small animal with four legs and a tail"
-- **超纲词 (4):** small, animal, four, legs
-
 ### 🟡 [MAJOR] snail (L1)
 - **Definition:** "a tiny animal with a shell that moves slowly"
 - **超纲词 (3):** animal, shell, moves
@@ -1678,14 +1734,6 @@
 ### 🟡 [MAJOR] ant (L1)
 - **Definition:** "a tiny bug that lives in a group"
 - **超纲词 (3):** bug, lives, group
-
-### 🟡 [MAJOR] bee (L1)
-- **Definition:** "a flying bug that makes honey"
-- **超纲词 (3):** flying, bug, makes
-
-### 🟡 [MAJOR] squirrel (L1)
-- **Definition:** "a small animal with a bushy tail"
-- **超纲词 (3):** small, animal, bushy
 
 ### 🟡 [MAJOR] raccoon (L1)
 - **Definition:** "an animal with black fur around its eyes like a mask"
@@ -1714,10 +1762,6 @@
 ### 🟡 [MAJOR] sandwich (L1)
 - **Definition:** "food made with bread and something inside"
 - **超纲词 (3):** food, bread, inside
-
-### 🟡 [MAJOR] pretzel (L1)
-- **Definition:** "a hard salty snack shaped like a knot"
-- **超纲词 (3):** hard, shaped, knot
 
 ### 🟡 [MAJOR] noodle (L1)
 - **Definition:** "long thin food made from dough"
@@ -1767,6 +1811,10 @@
 - **Definition:** "a small purple fruit"
 - **超纲词 (3):** small, purple, fruit
 
+### 🟡 [MAJOR] lemon (L1)
+- **Definition:** "a yellow fruit that tastes sour"
+- **超纲词 (3):** yellow, fruit, tastes
+
 ### 🟡 [MAJOR] celery (L1)
 - **Definition:** "a long green crunchy vegetable"
 - **超纲词 (3):** long, green, vegetable
@@ -1778,10 +1826,6 @@
 ### 🟡 [MAJOR] lettuce (L1)
 - **Definition:** "green leaves you eat in a salad"
 - **超纲词 (4):** green, leaves, eat, salad
-
-### 🟡 [MAJOR] pepper (L1)
-- **Definition:** "a crunchy vegetable that can be red, green, or yellow"
-- **超纲词 (4):** vegetable, red, green, yellow
 
 ### 🟡 [MAJOR] onion (L1)
 - **Definition:** "a round vegetable that makes you cry"
@@ -1796,8 +1840,8 @@
 - **超纲词 (4):** small, bit, food, meals
 
 ### 🟡 [MAJOR] treat (L1)
-- **Definition:** "a special food you don't have every day"
-- **超纲词 (4):** special, food, don't, day
+- **Definition:** "something special that makes you happy"
+- **超纲词 (3):** special, makes, happy
 
 ### 🟡 [MAJOR] wrist (L1)
 - **Definition:** "where your hand meets your arm"
@@ -1856,8 +1900,8 @@
 - **超纲词 (4):** part, legs, meet, body
 
 ### 🟡 [MAJOR] spine (L1)
-- **Definition:** "the bones down your back that help you stand straight"
-- **超纲词 (4):** bones, back, help, stand
+- **Definition:** "the bones down your back that hold your body up"
+- **超纲词 (4):** bones, back, hold, body
 
 ### 🟡 [MAJOR] rib (L1)
 - **Definition:** "the bones around your chest that protect your body"
@@ -1882,6 +1926,10 @@
 ### 🟡 [MAJOR] hoodie (L1)
 - **Definition:** "a shirt with a hood on the back"
 - **超纲词 (3):** shirt, hood, back
+
+### 🟡 [MAJOR] vest (L1)
+- **Definition:** "clothes with no sleeves that you wear over a shirt"
+- **超纲词 (4):** clothes, sleeves, wear, shirt
 
 ### 🟡 [MAJOR] sleeve (L1)
 - **Definition:** "the part of a shirt that covers your arm"
@@ -1950,10 +1998,6 @@
 ### 🟡 [MAJOR] sponge (L1)
 - **Definition:** "a soft thing that soaks up water"
 - **超纲词 (3):** soft, soaks, water
-
-### 🟡 [MAJOR] broom (L1)
-- **Definition:** "a long stick with bristles for sweeping"
-- **超纲词 (4):** long, stick, bristles, sweeping
 
 ### 🟡 [MAJOR] drawer (L1)
 - **Definition:** "a box that slides in and out of a desk"
@@ -2036,16 +2080,12 @@
 - **超纲词 (3):** small, house, wood
 
 ### 🟡 [MAJOR] cottage (L1)
-- **Definition:** "a small pretty house"
-- **超纲词 (3):** small, pretty, house
-
-### 🟡 [MAJOR] tunnel (L1)
-- **Definition:** "a road that goes through a mountain"
-- **超纲词 (3):** road, goes, mountain
+- **Definition:** "a small house, often in the countryside"
+- **超纲词 (3):** small, house, countryside
 
 ### 🟡 [MAJOR] harbor (L1)
-- **Definition:** "a safe place where boats park"
-- **超纲词 (4):** safe, place, boats, park
+- **Definition:** "a safe place where boats stay"
+- **超纲词 (4):** safe, place, boats, stay
 
 ### 🟡 [MAJOR] forest (L1)
 - **Definition:** "a big area full of trees"
@@ -2063,6 +2103,10 @@
 - **Definition:** "a hole in a rock or mountain"
 - **超纲词 (3):** hole, rock, mountain
 
+### 🟡 [MAJOR] desert (L1)
+- **Definition:** "a very dry place with very little rain"
+- **超纲词 (3):** place, little, rain
+
 ### 🟡 [MAJOR] swamp (L1)
 - **Definition:** "wet muddy land with water"
 - **超纲词 (4):** wet, muddy, land, water
@@ -2078,10 +2122,6 @@
 ### 🟡 [MAJOR] lightning (L1)
 - **Definition:** "a flash of light in the sky during a storm"
 - **超纲词 (3):** flash, light, sky
-
-### 🟡 [MAJOR] rainbow (L1)
-- **Definition:** "a colorful arc in the sky after rain"
-- **超纲词 (4):** colorful, arc, sky, rain
 
 ### 🟡 [MAJOR] frost (L1)
 - **Definition:** "thin ice that forms on cold mornings"
@@ -2120,8 +2160,8 @@
 - **超纲词 (3):** long, time, rain
 
 ### 🟡 [MAJOR] flood (L1)
-- **Definition:** "when water covers land that is usually dry"
-- **超纲词 (4):** water, covers, land, usually
+- **Definition:** "water covering land that is usually dry"
+- **超纲词 (4):** water, covering, land, usually
 
 ### 🟡 [MAJOR] petal (L1)
 - **Definition:** "one soft piece of a flower"
@@ -2167,10 +2207,6 @@
 - **Definition:** "to make water or juice flow out of something"
 - **超纲词 (3):** water, juice, flow
 
-### 🟡 [MAJOR] drip (L1)
-- **Definition:** "when water falls drop by drop"
-- **超纲词 (3):** water, falls, drop
-
 ### 🟡 [MAJOR] splash (L1)
 - **Definition:** "to make water fly everywhere"
 - **超纲词 (3):** water, fly, everywhere
@@ -2208,8 +2244,8 @@
 - **超纲词 (3):** laugh, quiet, silly
 
 ### 🟡 [MAJOR] bark (L1)
-- **Definition:** "to make a loud short sound like a dog"
-- **超纲词 (3):** short, sound, dog
+- **Definition:** "the rough outer covering of a tree"
+- **超纲词 (3):** outer, covering, tree
 
 ### 🟡 [MAJOR] roar (L1)
 - **Definition:** "to make a big loud sound like a lion"
@@ -2227,9 +2263,9 @@
 - **Definition:** "to look at something for a long time"
 - **超纲词 (3):** look, long, time
 
-### 🟡 [MAJOR] notice (L1)
-- **Definition:** "to see something for the first time"
-- **超纲词 (3):** see, first, time
+### 🟡 [MAJOR] discover (L1)
+- **Definition:** "to find or learn about something for the first time"
+- **超纲词 (4):** find, learn, first, time
 
 ### 🟡 [MAJOR] wonder (L1)
 - **Definition:** "to think about something you don't know"
@@ -2242,6 +2278,10 @@
 ### 🟡 [MAJOR] borrow (L1)
 - **Definition:** "to use something and give it back"
 - **超纲词 (3):** use, give, back
+
+### 🟡 [MAJOR] lend (L1)
+- **Definition:** "to let someone use your thing for a short time"
+- **超纲词 (4):** let, use, short, time
 
 ### 🟡 [MAJOR] stack (L1)
 - **Definition:** "to put things on top of each other neatly"
@@ -2367,6 +2407,14 @@
 - **Definition:** "making a lot of noise"
 - **超纲词 (3):** making, lot, noise
 
+### 🟡 [MAJOR] hollow (L1)
+- **Definition:** "having a hole or empty space inside"
+- **超纲词 (4):** having, hole, space, inside
+
+### 🟡 [MAJOR] solid (L1)
+- **Definition:** "hard and firm; keeps its shape"
+- **超纲词 (4):** hard, firm, keeps, shape
+
 ### 🟡 [MAJOR] tight (L1)
 - **Definition:** "fitting very close, hard to move"
 - **超纲词 (4):** fitting, close, hard, move
@@ -2484,20 +2532,20 @@
 - **超纲词 (3):** glad, thankful, got
 
 ### 🟡 [MAJOR] annoyed (L1)
-- **Definition:** "a bit mad about a small thing"
-- **超纲词 (3):** bit, mad, small
+- **Definition:** "a little angry or irritated"
+- **超纲词 (3):** little, angry, irritated
 
 ### 🟡 [MAJOR] terrified (L1)
-- **Definition:** "so scared you cannot move"
-- **超纲词 (3):** scared, cannot, move
+- **Definition:** "very scared; filled with fear"
+- **超纲词 (3):** scared, filled, fear
 
 ### 🟡 [MAJOR] furious (L1)
 - **Definition:** "so mad you want to yell"
 - **超纲词 (3):** mad, want, yell
 
 ### 🟡 [MAJOR] miserable (L1)
-- **Definition:** "so sad it hurts inside"
-- **超纲词 (3):** sad, hurts, inside
+- **Definition:** "very unhappy and feeling bad"
+- **超纲词 (3):** unhappy, feeling, bad
 
 ### 🟡 [MAJOR] relieved (L1)
 - **Definition:** "happy that something bad did not happen"
@@ -2540,8 +2588,8 @@
 - **超纲词 (4):** earlier, time, point, past
 
 ### 🟡 [MAJOR] next (L1)
-- **Definition:** "the one that comes right after"
-- **超纲词 (3):** one, comes, right
+- **Definition:** "coming right after this one"
+- **超纲词 (3):** coming, right, one
 
 ### 🟡 [MAJOR] finally (L1)
 - **Definition:** "at last, after a long wait"
@@ -2571,6 +2619,14 @@
 - **Definition:** "one of two equal parts"
 - **超纲词 (3):** one, two, parts
 
+### 🟡 [MAJOR] many (L1)
+- **Definition:** "a large number of people or things"
+- **超纲词 (3):** large, number, people
+
+### 🟡 [MAJOR] heap (L1)
+- **Definition:** "a big messy group of things thrown together"
+- **超纲词 (4):** big, messy, group, thrown
+
 ### 🟡 [MAJOR] piece (L1)
 - **Definition:** "one part of something bigger"
 - **超纲词 (3):** one, part, bigger
@@ -2590,6 +2646,10 @@
 ### 🟡 [MAJOR] echo (L1)
 - **Definition:** "a sound that bounces back to you"
 - **超纲词 (3):** sound, bounces, back
+
+### 🟡 [MAJOR] secret (L1)
+- **Definition:** "something known by only a few people and not told to others"
+- **超纲词 (4):** known, people, told, others
 
 ### 🟡 [MAJOR] adventure (L1)
 - **Definition:** "an exciting trip where fun things happen"
@@ -2655,10 +2715,6 @@
 - **Definition:** "the soft hair on an animal"
 - **超纲词 (3):** soft, hair, animal
 
-### 🟡 [MAJOR] scale (L1)
-- **Definition:** "a flat hard piece on a fish's body"
-- **超纲词 (4):** flat, hard, fish's, body
-
 ### 🟡 [MAJOR] beak (L1)
 - **Definition:** "the hard mouth part of a bird"
 - **超纲词 (4):** hard, mouth, part, bird
@@ -2720,8 +2776,12 @@
 - **超纲词 (4):** gray, powder, left, fire
 
 ### 🟡 [MAJOR] dawn (L1)
-- **Definition:** "when the sun first comes up"
-- **超纲词 (3):** sun, first, comes
+- **Definition:** "the time the sun first comes up"
+- **超纲词 (4):** time, sun, first, comes
+
+### 🟡 [MAJOR] dusk (L1)
+- **Definition:** "the time the sun is going down"
+- **超纲词 (3):** time, sun, going
 
 ### 🟡 [MAJOR] midnight (L1)
 - **Definition:** "twelve o'clock at night"
@@ -2730,10 +2790,6 @@
 ### 🟡 [MAJOR] noon (L1)
 - **Definition:** "twelve o'clock in the day"
 - **超纲词 (3):** twelve, o'clock, day
-
-### 🟡 [MAJOR] passenger (L1)
-- **Definition:** "a person riding in a car or bus"
-- **超纲词 (4):** person, riding, car, bus
 
 ### 🟡 [MAJOR] neighbor (L1)
 - **Definition:** "a person who lives near you"
@@ -2835,10 +2891,6 @@
 - **Definition:** "to shine with little flashes of light"
 - **超纲词 (4):** shine, little, flashes, light
 
-### 🟡 [MAJOR] lose (L1)
-- **Definition:** "to not win a game or contest"
-- **超纲词 (3):** win, game, contest
-
 ### 🟡 [MAJOR] teach (L1)
 - **Definition:** "to help someone learn something new"
 - **超纲词 (3):** help, learn, new
@@ -2858,6 +2910,10 @@
 ### 🟡 [MAJOR] struggle (L2)
 - **Definition:** "to try hard when something is difficult"
 - **超纲词 (3):** try, hard, difficult
+
+### 🟡 [MAJOR] ancient (L2)
+- **Definition:** "from a very long time ago"
+- **超纲词 (3):** long, time, ago
 
 ### 🟡 [MAJOR] modern (L2)
 - **Definition:** "of the present time; not old"
@@ -2891,13 +2947,13 @@
 - **Definition:** "an animal with dry skin and scales like a snake"
 - **超纲词 (4):** animal, skin, scales, snake
 
-### 🟡 [MAJOR] gas (L2)
-- **Definition:** "something like air that you cannot see or hold"
-- **超纲词 (4):** air, cannot, see, hold
+### 🟡 [MAJOR] energy (L2)
+- **Definition:** "what your body needs to move, play, and do things"
+- **超纲词 (3):** body, needs, play
 
-### 🟡 [MAJOR] citizen (L2)
-- **Definition:** "a person who belongs to a place"
-- **超纲词 (3):** person, belongs, place
+### 🟡 [MAJOR] force (L2)
+- **Definition:** "a push or pull that moves things"
+- **超纲词 (3):** push, pull, moves
 
 ### 🟡 [MAJOR] government (L2)
 - **Definition:** "the group that makes rules for a place"
@@ -2906,6 +2962,10 @@
 ### 🟡 [MAJOR] map (L2)
 - **Definition:** "a drawing that shows where places are"
 - **超纲词 (3):** drawing, shows, places
+
+### 🟡 [MAJOR] election (L2)
+- **Definition:** "a time when people vote to choose a leader"
+- **超纲词 (3):** time, people, leader
 
 ### 🟡 [MAJOR] multiply (L2)
 - **Definition:** "to add the same number many times"
@@ -2919,13 +2979,9 @@
 - **Definition:** "a table or picture that shows facts"
 - **超纲词 (3):** picture, shows, facts
 
-### 🟡 [MAJOR] angle (L2)
-- **Definition:** "where two lines meet in a corner"
-- **超纲词 (3):** two, lines, meet
-
-### 🟡 [MAJOR] act (L2)
-- **Definition:** "to perform a part in a play or show"
-- **超纲词 (3):** part, play, show
+### 🟡 [MAJOR] point out (L2)
+- **Definition:** "to show or tell someone about something they may not have noticed"
+- **超纲词 (3):** show, tell, noticed
 
 ### 🟡 [MAJOR] afraid (L2)
 - **Definition:** "feeling like something bad might happen"
@@ -2955,9 +3011,21 @@
 - **Definition:** "with nothing on top; uncovered"
 - **超纲词 (3):** nothing, top, uncovered
 
+### 🟡 [MAJOR] beg (L2)
+- **Definition:** "to ask for something in a way that shows you really want it"
+- **超纲词 (3):** shows, really, want
+
+### 🟡 [MAJOR] better (L2)
+- **Definition:** "of higher quality than something else"
+- **超纲词 (3):** higher, quality, else
+
 ### 🟡 [MAJOR] bicycle (L2)
 - **Definition:** "a bike with two wheels"
 - **超纲词 (3):** bike, two, wheels
+
+### 🟡 [MAJOR] block (L2)
+- **Definition:** "a section of a street between two corners"
+- **超纲词 (4):** section, street, two, corners
 
 ### 🟡 [MAJOR] breakfast (L2)
 - **Definition:** "the first meal of the day"
@@ -3020,8 +3088,8 @@
 - **超纲词 (3):** try, answer, knowing
 
 ### 🟡 [MAJOR] heal (L2)
-- **Definition:** "when a wound or body gets better on its own"
-- **超纲词 (4):** wound, body, gets, own
+- **Definition:** "to get better after being hurt or sick"
+- **超纲词 (3):** get, being, sick
 
 ### 🟡 [MAJOR] history (L2)
 - **Definition:** "stories and facts from long ago"
@@ -3088,7 +3156,7 @@
 - **超纲词 (4):** big, space, goes, star
 
 ### 🟡 [MAJOR] plastic (L2)
-- **Definition:** "a light smooth thing used to make bottles and toys"
+- **Definition:** "a light strong material used to make bottles, toys, and many other things"
 - **超纲词 (3):** light, bottles, toys
 
 ### 🟡 [MAJOR] playground (L2)
@@ -3152,8 +3220,8 @@
 - **超纲词 (3):** top, leader, navy
 
 ### 🟡 [MAJOR] album (L2)
-- **Definition:** "a book or collection of photos or songs"
-- **超纲词 (4):** book, collection, photos, songs
+- **Definition:** "a book for holding photos"
+- **超纲词 (3):** book, holding, photos
 
 ### 🟡 [MAJOR] antenna (L2)
 - **Definition:** "a thin part on an insect's head used to feel things"
@@ -3180,16 +3248,16 @@
 - **超纲词 (3):** small, pin, shows
 
 ### 🟡 [MAJOR] bagpipe (L2)
-- **Definition:** "a musical instrument with pipes and a bag"
-- **超纲词 (4):** musical, instrument, pipes, bag
+- **Definition:** "something you blow into to make music, with pipes and a bag"
+- **超纲词 (4):** blow, music, pipes, bag
 
 ### 🟡 [MAJOR] balcony (L2)
 - **Definition:** "a small platform on the outside of a building"
 - **超纲词 (3):** small, platform, building
 
 ### 🟡 [MAJOR] banjo (L2)
-- **Definition:** "a round stringed instrument you pluck"
-- **超纲词 (3):** stringed, instrument, pluck
+- **Definition:** "a round thing with strings that you pluck to make music"
+- **超纲词 (3):** strings, pluck, music
 
 ### 🟡 [MAJOR] banner (L2)
 - **Definition:** "a long piece of cloth with words or pictures"
@@ -3367,10 +3435,6 @@
 - **Definition:** "a violin, mainly when playing folk music"
 - **超纲词 (4):** violin, playing, folk, music
 
-### 🟡 [MAJOR] fjord (L2)
-- **Definition:** "a long narrow inlet of sea between cliffs"
-- **超纲词 (4):** long, inlet, sea, cliffs
-
 ### 🟡 [MAJOR] flint (L2)
 - **Definition:** "a hard stone that makes sparks"
 - **超纲词 (4):** hard, stone, makes, sparks
@@ -3396,12 +3460,12 @@
 - **超纲词 (4):** channel, roof, road, water
 
 ### 🟡 [MAJOR] harp (L2)
-- **Definition:** "a tall stringed instrument you pluck"
-- **超纲词 (4):** tall, stringed, instrument, pluck
+- **Definition:** "a tall thing with many strings that you pluck to make music"
+- **超纲词 (4):** tall, strings, pluck, music
 
 ### 🟡 [MAJOR] hazel (L2)
-- **Definition:** "a small tree that grows nuts"
-- **超纲词 (4):** small, tree, grows, nuts
+- **Definition:** "a light brown-green color"
+- **超纲词 (3):** light, brown-green, color
 
 ### 🟡 [MAJOR] hickory (L2)
 - **Definition:** "a tree with hard wood and edible nuts"
@@ -3472,8 +3536,8 @@
 - **超纲词 (3):** wet, land, water
 
 ### 🟡 [MAJOR] mortar (L2)
-- **Definition:** "a bowl used for grinding things into powder"
-- **超纲词 (3):** bowl, grinding, powder
+- **Definition:** "a thick paste used to hold bricks or stones together"
+- **超纲词 (4):** paste, hold, bricks, stones
 
 ### 🟡 [MAJOR] mosaic (L2)
 - **Definition:** "a picture made from small colored pieces"
@@ -3482,6 +3546,10 @@
 ### 🟡 [MAJOR] muzzle (L2)
 - **Definition:** "the nose and mouth area of an animal"
 - **超纲词 (3):** nose, mouth, animal
+
+### 🟡 [MAJOR] nectar (L2)
+- **Definition:** "sweet juice inside flowers that bees collect"
+- **超纲词 (3):** juice, flowers, bees
 
 ### 🟡 [MAJOR] nettle (L2)
 - **Definition:** "a plant that stings when you touch it"
@@ -3534,6 +3602,10 @@
 ### 🟡 [MAJOR] pigment (L2)
 - **Definition:** "a powder that gives color to paint"
 - **超纲词 (4):** powder, gives, color, paint
+
+### 🟡 [MAJOR] carefully (L2)
+- **Definition:** "with great care so you do not make mistakes"
+- **超纲词 (3):** great, care, mistakes
 
 ### 🟡 [MAJOR] accept (L2)
 - **Definition:** "to say yes to something offered"
@@ -5288,8 +5360,8 @@
 - **超纲词 (4):** say, words, else, write
 
 ### 🟡 [MAJOR] constitution (L3)
-- **Definition:** "the written rules for how a country works"
-- **超纲词 (3):** written, rules, works
+- **Definition:** "the basic rules and laws for how a country works"
+- **超纲词 (3):** rules, laws, works
 
 ### 🟡 [MAJOR] calculate (L3)
 - **Definition:** "to use math to find an answer"
@@ -5670,6 +5742,10 @@
 ### 🟡 [MAJOR] nutrient (L3)
 - **Definition:** "something in food or soil that helps living things grow"
 - **超纲词 (3):** food, helps, living
+
+### 🟡 [MAJOR] germinate (L3)
+- **Definition:** "to start growing from a seed into a plant"
+- **超纲词 (3):** start, growing, plant
 
 ### 🟡 [MAJOR] metamorphosis (L3)
 - **Definition:** "the big change some animals go through as they grow up"
@@ -6179,16 +6255,12 @@
 - **Definition:** "a tube or opening where liquid pours out"
 - **超纲词 (3):** tube, opening, pours
 
-### 🟡 [MAJOR] torch (L3)
-- **Definition:** "a stick with fire on the end used as a light"
-- **超纲词 (3):** stick, fire, light
-
 ### 🟡 [MAJOR] asteroid (L3)
 - **Definition:** "a rocky object orbiting the Sun that is smaller than a planet"
 - **超纲词 (4):** rocky, orbiting, sun, smaller
 
 ### 🟡 [MAJOR] carnivore (L3)
-- **Definition:** "an animal that eats only meat"
+- **Definition:** "an animal that eats mostly or only meat"
 - **超纲词 (3):** animal, eats, meat
 
 ### 🟡 [MAJOR] census (L3)
@@ -6496,8 +6568,8 @@
 - **超纲词 (4):** person, designs, buildings, structures
 
 ### 🟡 [MAJOR] atom (L4)
-- **Definition:** "the tiniest particle that makes up all matter"
-- **超纲词 (3):** tiniest, particle, makes
+- **Definition:** "the smallest part of an element, like oxygen or gold"
+- **超纲词 (3):** smallest, part, gold
 
 ### 🟡 [MAJOR] aviation (L4)
 - **Definition:** "the science and practice of flying aircraft"
@@ -6724,8 +6796,8 @@
 - **超纲词 (3):** feeling, worry, nervousness
 
 ### 🟡 [MAJOR] alleviation (L4)
-- **Definition:** "when pain or a problem becomes less bad"
-- **超纲词 (4):** pain, problem, becomes, bad
+- **Definition:** "the act of making pain or a problem less bad"
+- **超纲词 (4):** making, pain, problem, bad
 
 ### 🟡 [MAJOR] animosity (L4)
 - **Definition:** "a strong feeling of dislike or hatred"
@@ -6775,10 +6847,6 @@
 - **Definition:** "making a lot of loud noise"
 - **超纲词 (3):** making, lot, noise
 
-### 🟡 [MAJOR] commiserate (L4)
-- **Definition:** "to express care for others or sadness with someone"
-- **超纲词 (3):** care, others, sadness
-
 ### 🟡 [MAJOR] compartmentalize (L4)
 - **Definition:** "to separate things into different groups or sections"
 - **超纲词 (3):** different, groups, sections
@@ -6812,8 +6880,8 @@
 - **超纲词 (3):** wanting, belongs, else
 
 ### 🟡 [MAJOR] curtailment (L4)
-- **Definition:** "when something is cut short or limited"
-- **超纲词 (3):** cut, short, limited
+- **Definition:** "the act of cutting something short or limiting it"
+- **超纲词 (3):** cutting, short, limiting
 
 ### 🟡 [MAJOR] cynicism (L4)
 - **Definition:** "a belief that people are especially selfish and dishonest"
@@ -6892,8 +6960,8 @@
 - **超纲词 (3):** details, attractive, cool
 
 ### 🟡 [MAJOR] emigration (L4)
-- **Definition:** "when someone leaves their country to live elsewhere"
-- **超纲词 (3):** leaves, live, elsewhere
+- **Definition:** "the act of leaving your country to live in another one"
+- **超纲词 (3):** leaving, live, one
 
 ### 🟡 [MAJOR] encroachment (L4)
 - **Definition:** "slowly moving into an area that belongs to someone else"
@@ -6916,8 +6984,8 @@
 - **超纲词 (3):** purpose, stay, away
 
 ### 🟡 [MAJOR] exacerbation (L4)
-- **Definition:** "when something makes a bad situation even worse"
-- **超纲词 (4):** makes, bad, situation, worse
+- **Definition:** "the act of making a bad situation even worse"
+- **超纲词 (4):** making, bad, situation, worse
 
 ### 🟡 [MAJOR] exaltation (L4)
 - **Definition:** "a feeling of extreme happiness or pride"
@@ -7051,6 +7119,10 @@
 - **Definition:** "an extra thing added that is not the main part"
 - **超纲词 (3):** added, main, part
 
+### 🟡 [MAJOR] inflation (L4)
+- **Definition:** "a rise in prices that makes things cost more over time"
+- **超纲词 (3):** prices, makes, time
+
 ### 🟡 [MAJOR] initiative (L4)
 - **Definition:** "the drive to do what is needed independently"
 - **超纲词 (3):** drive, needed, independently
@@ -7180,8 +7252,8 @@
 - **超纲词 (3):** back, smaller, time
 
 ### 🟡 [MAJOR] reception (L4)
-- **Definition:** "a formal party to welcome someone, or how something is received"
-- **超纲词 (3):** party, welcome, received
+- **Definition:** "a formal party to welcome people; also, the way people react to something"
+- **超纲词 (3):** party, welcome, people
 
 ### 🟡 [MAJOR] regime (L4)
 - **Definition:** "a system of government, especially one that controls strictly"
@@ -7464,8 +7536,8 @@
 - **超纲词 (3):** likely, disagree, people
 
 ### 🟡 [MAJOR] rapprochement (L4)
-- **Definition:** "when two groups start to get along again"
-- **超纲词 (4):** two, groups, start, get
+- **Definition:** "a return to friendly relations between two groups"
+- **超纲词 (3):** relations, two, groups
 
 ### 🟡 [MAJOR] rationale (L4)
 - **Definition:** "the reasons or thinking behind a choice"
@@ -7860,8 +7932,8 @@
 - **超纲词 (3):** written, spoken, talk
 
 ### 🟡 [MAJOR] discretion (L4)
-- **Definition:** "the freedom to decide what should be done, or being careful about what you say"
-- **超纲词 (3):** done, being, say
+- **Definition:** "the freedom to decide what should be done; also, being careful not to share secrets"
+- **超纲词 (3):** done, being, secrets
 
 ### 🟡 [MAJOR] disposition (L4)
 - **Definition:** "a person's natural tendency in behavior or mood"
@@ -7876,8 +7948,8 @@
 - **超纲词 (4):** line, rulers, same, family
 
 ### 🟡 [MAJOR] electrode (L4)
-- **Definition:** "a conductor through which power enters or leaves something"
-- **超纲词 (3):** power, enters, leaves
+- **Definition:** "a conductor through which electric current enters or leaves a device"
+- **超纲词 (3):** electric, enters, leaves
 
 ### 🟡 [MAJOR] envision (L4)
 - **Definition:** "to imagine or picture something in your mind, especially the future"
@@ -8004,8 +8076,8 @@
 - **超纲词 (3):** confidence, person, group
 
 ### 🟡 [MAJOR] mutiny (L4)
-- **Definition:** "when soldiers or sailors rebel against their leaders"
-- **超纲词 (3):** soldiers, sailors, leaders
+- **Definition:** "a rebellion by soldiers or sailors against their leaders"
+- **超纲词 (4):** rebellion, soldiers, sailors, leaders
 
 ### 🟡 [MAJOR] narrate (L4)
 - **Definition:** "to tell a story or describe events as they happen"
@@ -9059,6 +9131,10 @@
 - **Definition:** "a passage between rows of seats or shelves"
 - **超纲词 (3):** rows, seats, shelves
 
+### 🟡 [MAJOR] ambiguity (L5)
+- **Definition:** "a situation where something can be understood in more than one way"
+- **超纲词 (3):** situation, understood, one
+
 ### 🟡 [MAJOR] ammunition (L5)
 - **Definition:** "bullets and other things fired from weapons"
 - **超纲词 (3):** bullets, fired, weapons
@@ -9146,10 +9222,6 @@
 ### 🟡 [MAJOR] coexist (L5)
 - **Definition:** "to live or exist as one peacefully"
 - **超纲词 (4):** live, exist, one, peacefully
-
-### 🟡 [MAJOR] coincidence (L5)
-- **Definition:** "when two things happen at the same time by chance"
-- **超纲词 (4):** two, happen, same, time
 
 ### 🟡 [MAJOR] communism (L5)
 - **Definition:** "a system where the government owns all property and shares it equally"
@@ -9656,8 +9728,8 @@
 - **超纲词 (4):** kill, unwanted, plants, weeds
 
 ### 🟡 [MAJOR] industrialization (L5)
-- **Definition:** "when a country builds many factories and starts to produce goods on a large scale"
-- **超纲词 (4):** builds, factories, starts, large
+- **Definition:** "the process of a country building many factories and starting to produce goods"
+- **超纲词 (3):** building, factories, starting
 
 ### 🟡 [MAJOR] ingenuity (L5)
 - **Definition:** "the quality of being clever and inventive"

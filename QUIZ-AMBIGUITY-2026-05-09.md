@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-09
 
-3755 ambiguous pairs found.
+3746 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -35,11 +35,11 @@
 - dull: not sharp at all
 
 ## L1: "turtle" vs "beetle" (75%)
-- turtle: a reptile with a hard shell that covers its body
+- turtle: an animal with a hard shell that covers its body
 - beetle: an insect with a hard shell
 
 ## L1: "turtle" vs "sharp" (67%)
-- turtle: a reptile with a hard shell that covers its body
+- turtle: an animal with a hard shell that covers its body
 - sharp: with a point that can cut
 
 ## L1: "frog" vs "pond" (67%)
@@ -84,14 +84,14 @@
 
 ## L1: "spider" vs "caterpillar" (63%)
 - spider: a small animal with eight legs that makes webs
-- caterpillar: a small animal with many legs that turns into a butterfly
+- caterpillar: a small animal with many legs that turns into a butterfly or moth
 
 ## L1: "spider" vs "sharp" (67%)
 - spider: a small animal with eight legs that makes webs
 - sharp: with a point that can cut
 
 ## L1: "caterpillar" vs "sharp" (67%)
-- caterpillar: a small animal with many legs that turns into a butterfly
+- caterpillar: a small animal with many legs that turns into a butterfly or moth
 - sharp: with a point that can cut
 
 ## L1: "squirrel" vs "sharp" (67%)
@@ -542,6 +542,10 @@
 - discover: to find or learn about something for the first time
 - dawn: the time the sun first comes up
 
+## L1: "discover" vs "lose" (67%)
+- discover: to find or learn about something for the first time
+- lose: to not be able to find something
+
 ## L1: "promise" vs "design" (67%)
 - promise: to say you will really do something
 - design: to plan what something will look like
@@ -614,8 +618,12 @@
 - weigh: to find out how heavy something is
 - scale: a tool used to measure how heavy something is
 
+## L1: "weigh" vs "lose" (67%)
+- weigh: to find out how heavy something is
+- lose: to not be able to find something
+
 ## L1: "match" vs "pair" (67%)
-- match: to find two things that are the same; also a game between two sides
+- match: to find two things that are the same
 - pair: two things that go together
 
 ## L1: "deliver" vs "fetch" (67%)
@@ -938,6 +946,10 @@
 - describe: to tell what something is like
 - explain: to tell how or why
 
+## L2: "describe" vs "act" (100%)
+- describe: to tell what something is like
+- act: to do something
+
 ## L2: "describe" vs "prize" (100%)
 - describe: to tell what something is like
 - prize: something you win
@@ -989,6 +1001,10 @@
 ## L2: "suppose" vs "anxious" (60%)
 - suppose: to guess that something might be true
 - anxious: feeling worried that something bad might happen
+
+## L2: "suppose" vs "act" (100%)
+- suppose: to guess that something might be true
+- act: to do something
 
 ## L2: "suppose" vs "believe" (67%)
 - suppose: to guess that something might be true
@@ -1054,6 +1070,10 @@
 - suppose: to guess that something might be true
 - refuse: to say no and not do something
 
+## L2: "mention" vs "act" (100%)
+- mention: to talk about something in just a few words
+- act: to do something
+
 ## L2: "mention" vs "complain" (67%)
 - mention: to talk about something in just a few words
 - complain: to say you are unhappy about something
@@ -1089,6 +1109,14 @@
 ## L2: "separate" vs "even" (67%)
 - separate: to put into different groups
 - even: a number that can be split into two equal groups
+
+## L2: "struggle" vs "act" (100%)
+- struggle: to try hard when something is difficult
+- act: to do something
+
+## L2: "struggle" vs "chance" (67%)
+- struggle: to try hard when something is difficult
+- chance: a time when you can try something
 
 ## L2: "struggle" vs "mystery" (67%)
 - struggle: to try hard when something is difficult
@@ -1149,6 +1177,10 @@
 ## L2: "sturdy" vs "weak" (100%)
 - sturdy: strong and not easy to break
 - weak: not strong
+
+## L2: "anxious" vs "act" (100%)
+- anxious: feeling worried that something bad might happen
+- act: to do something
 
 ## L2: "anxious" vs "afraid" (80%)
 - anxious: feeling worried that something bad might happen
@@ -1278,6 +1310,10 @@
 - detail: a small piece of information
 - fragment: a small broken piece of something
 
+## L2: "effect" vs "act" (100%)
+- effect: what happens because of something
+- act: to do something
+
 ## L2: "effect" vs "prize" (100%)
 - effect: what happens because of something
 - prize: something you win
@@ -1350,6 +1386,10 @@
 - reptile: an animal with dry skin and scales like a snake
 - tolerate: to put up with something you do not like
 
+## L2: "liquid" vs "act" (100%)
+- liquid: something that flows like water
+- act: to do something
+
 ## L2: "liquid" vs "prize" (100%)
 - liquid: something that flows like water
 - prize: something you win
@@ -1390,109 +1430,13 @@
 - liquid: something that flows like water
 - tolerate: to put up with something you do not like
 
-## L2: "force" vs "delay" (67%)
-- force: a push or pull; also to make someone do something
-- delay: to make something late
+## L2: "magnet" vs "act" (100%)
+- magnet: something that pulls some metals
+- act: to do something
 
-## L2: "force" vs "prize" (100%)
-- force: a push or pull; also to make someone do something
-- prize: something you win
-
-## L2: "force" vs "tease" (100%)
-- force: a push or pull; also to make someone do something
-- tease: to make fun of
-
-## L2: "force" vs "form" (67%)
-- force: a push or pull; also to make someone do something
-- form: to make or shape something
-
-## L2: "force" vs "manufacture" (67%)
-- force: a push or pull; also to make someone do something
-- manufacture: to make something in a factory
-
-## L2: "force" vs "compensate" (75%)
-- force: a push or pull; also to make someone do something
-- compensate: to make up for something or pay someone back
-
-## L2: "force" vs "dispose" (100%)
-- force: a push or pull; also to make someone do something
-- dispose: to get rid of something
-
-## L2: "force" vs "facilitate" (67%)
-- force: a push or pull; also to make someone do something
-- facilitate: to make something easier to do
-
-## L2: "force" vs "leave out" (67%)
-- force: a push or pull; also to make someone do something
-- leave out: to not include something or someone
-
-## L2: "force" vs "turn down" (67%)
-- force: a push or pull; also to make someone do something
-- turn down: to make something quieter
-
-## L2: "force" vs "bring about" (67%)
-- force: a push or pull; also to make someone do something
-- bring about: to make something happen
-
-## L2: "force" vs "count on" (67%)
-- force: a push or pull; also to make someone do something
-- count on: to depend on someone or something
-
-## L2: "force" vs "assist" (67%)
-- force: a push or pull; also to make someone do something
-- assist: to help someone do something
-
-## L2: "force" vs "blame" (67%)
-- force: a push or pull; also to make someone do something
-- blame: to say someone caused something bad
-
-## L2: "force" vs "enable" (75%)
-- force: a push or pull; also to make someone do something
-- enable: to make it possible for someone to do something
-
-## L2: "force" vs "exclude" (67%)
-- force: a push or pull; also to make someone do something
-- exclude: to leave someone or something out
-
-## L2: "force" vs "forbid" (67%)
-- force: a push or pull; also to make someone do something
-- forbid: to order someone not to do something
-
-## L2: "force" vs "operate" (67%)
-- force: a push or pull; also to make someone do something
-- operate: to make something work or run
-
-## L2: "force" vs "permit" (67%)
-- force: a push or pull; also to make someone do something
-- permit: to allow someone to do something
-
-## L2: "force" vs "produce" (67%)
-- force: a push or pull; also to make someone do something
-- produce: to make or grow something
-
-## L2: "force" vs "provoke" (60%)
-- force: a push or pull; also to make someone do something
-- provoke: to do something on purpose to make someone upset
-
-## L2: "force" vs "purchase" (100%)
-- force: a push or pull; also to make someone do something
-- purchase: to buy something
-
-## L2: "force" vs "refuse" (100%)
-- force: a push or pull; also to make someone do something
-- refuse: to say no and not do something
-
-## L2: "force" vs "reinforce" (67%)
-- force: a push or pull; also to make someone do something
-- reinforce: to make something stronger
-
-## L2: "force" vs "compel" (67%)
-- force: a push or pull; also to make someone do something
-- compel: to force someone to do something
-
-## L2: "force" vs "constitute" (67%)
-- force: a push or pull; also to make someone do something
-- constitute: to make up or form something
+## L2: "magnet" vs "any" (100%)
+- magnet: something that pulls some metals
+- any: some
 
 ## L2: "magnet" vs "prize" (100%)
 - magnet: something that pulls some metals
@@ -1542,6 +1486,10 @@
 - government: the group that makes rules for a place
 - arrive: to get to a place
 
+## L2: "rule" vs "act" (100%)
+- rule: something you must follow
+- act: to do something
+
 ## L2: "rule" vs "prize" (100%)
 - rule: something you must follow
 - prize: something you win
@@ -1585,6 +1533,10 @@
 ## L2: "freedom" vs "patience" (67%)
 - freedom: being able to choose and act
 - patience: being able to wait without getting upset
+
+## L2: "election" vs "chance" (67%)
+- election: a time when people vote to choose a leader
+- chance: a time when you can try something
 
 ## L2: "multiply" vs "frequently" (100%)
 - multiply: to add the same number many times
@@ -1670,6 +1622,10 @@
 - triple: to make three times as much
 - tease: to make fun of
 
+## L2: "afterward" vs "act" (100%)
+- afterward: later, after something else happened
+- act: to do something
+
 ## L2: "afterward" vs "follow" (100%)
 - afterward: later, after something else happened
 - follow: to go after
@@ -1714,6 +1670,10 @@
 - therefore: for that reason; because of that
 - due to: because of
 
+## L2: "turn into" vs "act" (100%)
+- turn into: to change into something else
+- act: to do something
+
 ## L2: "turn into" vs "carve" (67%)
 - turn into: to change into something else
 - carve: to cut a shape into something
@@ -1749,6 +1709,10 @@
 ## L2: "turn into" vs "refuse" (100%)
 - turn into: to change into something else
 - refuse: to say no and not do something
+
+## L2: "look forward to" vs "act" (100%)
+- look forward to: to feel excited about something coming
+- act: to do something
 
 ## L2: "look forward to" vs "complain" (67%)
 - look forward to: to feel excited about something coming
@@ -1797,6 +1761,10 @@
 ## L2: "look forward to" vs "regret" (75%)
 - look forward to: to feel excited about something coming
 - regret: to feel sorry about something you did
+
+## L2: "point out" vs "act" (100%)
+- point out: to show or tell someone about something they may not have noticed
+- act: to do something
 
 ## L2: "point out" vs "appear" (100%)
 - point out: to show or tell someone about something they may not have noticed
@@ -2186,26 +2154,6 @@
 - blink: to close and open your eyes quickly
 - near: close by
 
-## L2: "block" vs "prize" (100%)
-- block: a piece of something hard; also a section of a street
-- prize: something you win
-
-## L2: "block" vs "dispose" (100%)
-- block: a piece of something hard; also a section of a street
-- dispose: to get rid of something
-
-## L2: "block" vs "purchase" (100%)
-- block: a piece of something hard; also a section of a street
-- purchase: to buy something
-
-## L2: "block" vs "refuse" (100%)
-- block: a piece of something hard; also a section of a street
-- refuse: to say no and not do something
-
-## L2: "block" vs "segment" (100%)
-- block: a piece of something hard; also a section of a street
-- segment: one piece or section of something
-
 ## L2: "bring" vs "prize" (100%)
 - bring: to carry something to a place or person
 - prize: something you win
@@ -2331,40 +2279,72 @@
 - refuse: to say no and not do something
 
 ## L2: "chance" vs "prize" (100%)
-- chance: a time when you can try something; also how likely something is to happen
+- chance: a time when you can try something
 - prize: something you win
 
-## L2: "chance" vs "probably" (67%)
-- chance: a time when you can try something; also how likely something is to happen
-- probably: very likely to happen
+## L2: "chance" vs "motion" (67%)
+- chance: a time when you can try something
+- motion: when something changes position or place
 
-## L2: "chance" vs "coincide" (67%)
-- chance: a time when you can try something; also how likely something is to happen
-- coincide: to happen at the same time
+## L2: "chance" vs "discovery" (67%)
+- chance: a time when you can try something
+- discovery: finding something new or learning something for the first time
+
+## L2: "chance" vs "devote" (67%)
+- chance: a time when you can try something
+- devote: to give your time and effort to something
 
 ## L2: "chance" vs "dispose" (100%)
-- chance: a time when you can try something; also how likely something is to happen
+- chance: a time when you can try something
 - dispose: to get rid of something
 
-## L2: "chance" vs "bring about" (67%)
-- chance: a time when you can try something; also how likely something is to happen
-- bring about: to make something happen
+## L2: "chance" vs "medicine" (67%)
+- chance: a time when you can try something
+- medicine: something you take to feel better when sick
 
-## L2: "chance" vs "liable" (75%)
-- chance: a time when you can try something; also how likely something is to happen
-- liable: in charge of something or likely to happen
+## L2: "chance" vs "invention" (67%)
+- chance: a time when you can try something
+- invention: something new that someone makes for the first time
+
+## L2: "chance" vs "protest" (67%)
+- chance: a time when you can try something
+- protest: when people show they disagree with something
+
+## L2: "chance" vs "efficient" (67%)
+- chance: a time when you can try something
+- efficient: doing something well without wasting time or energy
+
+## L2: "chance" vs "famine" (67%)
+- chance: a time when you can try something
+- famine: a time when there is not enough food for everyone
+
+## L2: "chance" vs "introduce" (67%)
+- chance: a time when you can try something
+- introduce: to present someone or something for the first time
+
+## L2: "chance" vs "leisure" (67%)
+- chance: a time when you can try something
+- leisure: free time when you can relax and do what you enjoy
+
+## L2: "chance" vs "monitor" (67%)
+- chance: a time when you can try something
+- monitor: to watch something carefully over time
+
+## L2: "chance" vs "preserve" (67%)
+- chance: a time when you can try something
+- preserve: to keep something safe so it lasts a long time
 
 ## L2: "chance" vs "purchase" (100%)
-- chance: a time when you can try something; also how likely something is to happen
+- chance: a time when you can try something
 - purchase: to buy something
 
 ## L2: "chance" vs "refuse" (100%)
-- chance: a time when you can try something; also how likely something is to happen
+- chance: a time when you can try something
 - refuse: to say no and not do something
 
-## L2: "close" vs "far" (100%)
-- close: to shut; also near
-- far: not near
+## L2: "chance" vs "relief" (67%)
+- chance: a time when you can try something
+- relief: the good feeling when something bad stops
 
 ## L2: "coast" vs "shore" (67%)
 - coast: land next to the ocean
@@ -2879,7 +2859,7 @@
 - refuse: to say no and not do something
 
 ## L2: "fair" vs "likewise" (100%)
-- fair: treating people the same and right; also an event with rides and games
+- fair: treating people the same and right
 - likewise: in the same way
 
 ## L2: "famous" vs "folktale" (67%)
@@ -3117,22 +3097,6 @@
 ## L2: "ocean" vs "massive" (67%)
 - ocean: a very large body of salt water
 - massive: very large and heavy
-
-## L2: "order" vs "prize" (100%)
-- order: a way things are arranged; also to ask for something you want to buy
-- prize: something you win
-
-## L2: "order" vs "dispose" (100%)
-- order: a way things are arranged; also to ask for something you want to buy
-- dispose: to get rid of something
-
-## L2: "order" vs "purchase" (100%)
-- order: a way things are arranged; also to ask for something you want to buy
-- purchase: to buy something
-
-## L2: "order" vs "refuse" (100%)
-- order: a way things are arranged; also to ask for something you want to buy
-- refuse: to say no and not do something
 
 ## L2: "pause" vs "continue" (100%)
 - pause: to stop for a short time

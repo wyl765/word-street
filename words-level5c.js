@@ -215,7 +215,7 @@ const LEVEL5C_BANK=[{"word":"abolition","level":5,"definition":"the act of offic
 {"word":"cryptic","level":5,"definition":"having a hidden meaning; mysterious","example":"The cryptic message left everyone puzzling over its meaning.","imageKeyword":"mysterious code"},
 {"word":"debilitate","level":5,"definition":"to make someone very weak","example":"The illness can debilitate patients for months.","imageKeyword":"weakened person"},
 {"word":"decimate","level":5,"definition":"to destroy a large part of something","example":"The frost will decimate the orange crop if farmers don't act fast.","imageKeyword":"destroyed crops"},
-{"word":"despotism","level":5,"definition":"rule by a cruel leader with absolute power","example":"The people rose up against despotism and demanded fair elections.","imageKeyword":"cruel rule"},
+{"word":"despotism","level":5,"definition":"rule by a cruel leader with absolute power","example":"The people rose up against despotism and demanded fair elections.","imageKeyword":"iron fist absolute power"},
 {"word":"duplicity","level":5,"definition":"dishonest behavior meant to trick someone","example":"His duplicity was revealed when both stories turned out to be lies.","imageKeyword":"two faced"},
 {"word":"emancipate","level":5,"definition":"to set free from slavery or control","example":"Lincoln's goal was to emancipate all enslaved people.","imageKeyword":"setting free"},
 {"word":"enclave","level":5,"definition":"a small area within a larger one that is different from it","example":"The artist community formed an enclave in the middle of the big city.","imageKeyword":"small community"},

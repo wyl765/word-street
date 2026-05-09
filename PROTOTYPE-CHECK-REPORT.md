@@ -1,16 +1,19 @@
-# Prototype Effect Report — 2026-05-08
+# Prototype Effect Report — 2026-05-09
 
 ## Summary
-- Total issues: 32
+- Total issues: 35
 
 ## Issues
 
 - **berry** (L1): "berries" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
+- **elbow** (L1): "arm with arrow pointing to elbow joint" — imageKeyword too verbose (7 words)
+- **wrist** (L1): "hand and arm with arrow pointing to wrist" — imageKeyword too verbose (8 words)
+- **ankle** (L1): "foot and leg with arrow pointing to ankle" — imageKeyword too verbose (8 words)
 - **slipper** (L1): "slippers" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **shelf** (L1): "bookshelf" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **belong** (L1): "toy in a box with name tag" — imageKeyword too verbose (7 words)
 - **average** (L1): "medium sized cup between big and small" — imageKeyword too verbose (7 words)
-- **teach** (L1): "older kid teaching younger kid on computer" — imageKeyword too verbose (7 words)
+- **teach** (L1): "older kid teaching younger kid to ride bike" — imageKeyword too verbose (8 words)
 - **insect** (L2): "ant" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **mammal** (L2): "dolphin" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **reptile** (L2): "snake" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
