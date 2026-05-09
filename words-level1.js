@@ -595,6 +595,6 @@ const LEVEL1_BANK=[{"word":"puppy","level":1,"definition":"a baby dog","example"
 {"word":"flutter","level":1,"definition":"to move wings quickly up and down","example":"The butterfly would flutter from one flower to the next.","imageKeyword":"fluttering butterfly"},
 {"word":"hear","level":1,"definition":"to notice sounds with your ears","example":"You can hear the crowd cheering at the basketball game from outside.","imageKeyword":"child listening to loud basketball crowd"},
 {"word":"lose","level":1,"definition":"to not be able to find something","example":"She lost her favorite toy and looked everywhere for it.","imageKeyword":"child searching for lost toy"},
-{"word":"teach","level":1,"definition":"to help someone learn something new","example":"My big brother will teach me how to write my first code.","imageKeyword":"older kid teaching younger kid on computer"},
+{"word":"teach","level":1,"definition":"to help someone learn something new","example":"My big sister will teach me how to ride a bicycle.","imageKeyword":"older kid teaching younger kid to ride bike"},
 {"word":"take","level":1,"definition":"to get hold of something with your hands","example":"Please take a cookie from the plate.","imageKeyword":"hand taking cookie from plate"},
 {"word":"than","level":1,"definition":"a word used to compare two things","example":"She scored more points than anyone else on the basketball team.","imageKeyword":"basketball scoreboard comparing two numbers"}];
