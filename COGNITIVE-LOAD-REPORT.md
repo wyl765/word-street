@@ -3,7 +3,7 @@
 ## Summary
 - Total entries: 5210
 - CRITICAL (≥5 超纲词 in definition): 423
-- MAJOR (≥3 超纲词 in definition): 2149
+- MAJOR (≥3 超纲词 in definition): 2148
 
 ## Issues
 
@@ -2470,10 +2470,6 @@
 ### 🟡 [MAJOR] slowly (L1)
 - **Definition:** "not fast; taking a long time"
 - **超纲词 (4):** fast, taking, long, time
-
-### 🟡 [MAJOR] against (L1)
-- **Definition:** "touching; also means not agreeing with"
-- **超纲词 (3):** touching, means, agreeing
 
 ### 🟡 [MAJOR] through (L1)
 - **Definition:** "going in one end and out the other"

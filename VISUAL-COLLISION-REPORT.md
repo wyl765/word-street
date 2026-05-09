@@ -1,9 +1,9 @@
 # Visual Collision Report — 2026-05-09
 
 ## Summary
-- CRITICAL (identical imageKeyword): 8
-- MAJOR (containment): 530
-- MINOR (≥50% word overlap): 46
+- CRITICAL (identical imageKeyword): 0
+- MAJOR (containment): 531
+- MINOR (≥50% word overlap): 47
 
 ## Issues
 
@@ -237,6 +237,7 @@
 - **[MAJOR]** L2: **circle** ↔ **sometimes** — "circle" vs "calendar with some days circled some not" (one contains the other)
 - **[MAJOR]** L2: **circle** ↔ **annual** — "circle" vs "calendar year circled" (one contains the other)
 - **[MAJOR]** L2: **circle** ↔ **at the same time** — "circle" vs "friends holding hands circle" (one contains the other)
+- **[MAJOR]** L2: **circle** ↔ **proportion** — "circle" vs "fraction parts circle" (one contains the other)
 - **[MAJOR]** L2: **climb** ↔ **playground** — "playground ladder" vs "playground" (one contains the other)
 - **[MAJOR]** L2: **comfort** ↔ **hug** — "hug" vs "hugging people" (one contains the other)
 - **[MAJOR]** L2: **comfort** ↔ **assure** — "hug" vs "comforting hug" (one contains the other)
@@ -284,6 +285,7 @@
 - **[MAJOR]** L2: **hint** ↔ **compass** — "pointing" vs "compass needle pointing" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **move on** — "pointing" vs "arrow pointing forward" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **especially** — "pointing" vs "child pointing excitedly at one specific ice cream flavor" (one contains the other)
+- **[MAJOR]** L2: **hint** ↔ **namely** — "pointing" vs "pointing at one item" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **blame** — "pointing" vs "pointing finger" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **indicate** — "pointing" vs "arrow pointing" (one contains the other)
 - **[MAJOR]** L2: **hop** ↔ **merchant** — "hop" vs "merchant shop" (one contains the other)
@@ -418,10 +420,10 @@
 - **[MAJOR]** L2: **probably** ↔ **threaten** — "dark clouds suggesting rain is coming" vs "dark clouds" (one contains the other)
 - **[MINOR]** L2: **promptly** ↔ **temporarily** — "on time" vs "short time" (50% word overlap)
 - **[MAJOR]** L2: **promptly** ↔ **duration** — "on time" vs "duration time" (one contains the other)
+- **[MINOR]** L2: **promptly** ↔ **in general** — "on time" vs "most of the time" (50% word overlap)
 - **[MAJOR]** L2: **shortly** ↔ **before long** — "soon shortly" vs "soon" (one contains the other)
 - **[MAJOR]** L2: **still** ↔ **nevertheless** — "still continuing" vs "still" (one contains the other)
 - **[MAJOR]** L2: **typically** ↔ **generally** — "usually typical" vs "usually" (one contains the other)
-- **[MAJOR]** L2: **typically** ↔ **in general** — "usually typical" vs "usually" (one contains the other)
 - **[MAJOR]** L2: **usually** ↔ **routine** — "morning routine alarm clock and breakfast" vs "morning routine" (one contains the other)
 - **[MINOR]** L2: **initially** ↔ **initial** — "at first" vs "first reaction" (50% word overlap)
 - **[MINOR]** L2: **initially** ↔ **priority** — "at first" vs "first important" (50% word overlap)
@@ -476,7 +478,6 @@
 - **[MAJOR]** L2: **compassionate** ↔ **assist** — "helping" vs "helping hand" (one contains the other)
 - **[MAJOR]** L2: **compassionate** ↔ **compassion** — "helping" vs "kind helping" (one contains the other)
 - **[MAJOR]** L2: **compassionate** ↔ **poverty** — "helping" vs "helping poor" (one contains the other)
-- **[CRITICAL]** L2: **cooperative** ↔ **involve** — "group project" vs "group project" (identical imageKeyword)
 - **[MAJOR]** L2: **energetic** ↔ **catch up** — "running" vs "running after" (one contains the other)
 - **[MAJOR]** L2: **energetic** ↔ **forbid** — "running" vs "no running sign" (one contains the other)
 - **[MAJOR]** L2: **energetic** ↔ **pace** — "running" vs "running speed" (one contains the other)
@@ -510,40 +511,33 @@
 - **[MAJOR]** L2: **day by day** ↔ **cumulative** — "growing" vs "growing savings" (one contains the other)
 - **[MAJOR]** L2: **accordingly** ↔ **counterpart** — "matching" vs "matching role" (one contains the other)
 - **[MAJOR]** L2: **altogether** ↔ **add up** — "total" vs "add up total" (one contains the other)
-- **[CRITICAL]** L2: **as a result** ↔ **due to** — "because" vs "because" (identical imageKeyword)
 - **[MAJOR]** L2: **as a result** ↔ **on account of** — "because" vs "because reason" (one contains the other)
 - **[MAJOR]** L2: **at last** ↔ **in the end** — "finally" vs "final" (one contains the other)
+- **[MAJOR]** L2: **because of** ↔ **due to** — "reason" vs "reason cause" (one contains the other)
 - **[MAJOR]** L2: **because of** ↔ **on account of** — "reason" vs "because reason" (one contains the other)
 - **[MAJOR]** L2: **because of** ↔ **justify** — "reason" vs "good reason" (one contains the other)
 - **[MAJOR]** L2: **because of** ↔ **motive** — "reason" vs "reason why" (one contains the other)
 - **[MAJOR]** L2: **because of** ↔ **cite** — "reason" vs "listing reasons" (one contains the other)
-- **[CRITICAL]** L2: **by contrast** ↔ **in contrast** — "different" vs "different" (identical imageKeyword)
+- **[MAJOR]** L2: **by contrast** ↔ **in contrast** — "different" vs "two different things side by side" (one contains the other)
 - **[MAJOR]** L2: **by contrast** ↔ **point of view** — "different" vs "different perspectives" (one contains the other)
 - **[MAJOR]** L2: **by contrast** ↔ **version** — "different" vs "different versions" (one contains the other)
 - **[MAJOR]** L2: **certainly** ↔ **fortune** — "sure" vs "treasure chest" (one contains the other)
-- **[MAJOR]** L2: **certainly** ↔ **value** — "sure" vs "treasure chest" (one contains the other)
 - **[MAJOR]** L2: **clearly** ↔ **evident** — "obvious" vs "obvious smile" (one contains the other)
-- **[MAJOR]** L2: **due to** ↔ **on account of** — "because" vs "because reason" (one contains the other)
+- **[MAJOR]** L2: **compared to** ↔ **in contrast** — "side by side" vs "two different things side by side" (one contains the other)
 - **[MAJOR]** L2: **for instance** ↔ **such as** — "example" vs "examples" (one contains the other)
 - **[MAJOR]** L2: **for instance** ↔ **instance** — "example" vs "example case" (one contains the other)
-- **[CRITICAL]** L2: **generally** ↔ **in general** — "usually" vs "usually" (identical imageKeyword)
-- **[MAJOR]** L2: **in contrast** ↔ **point of view** — "different" vs "different perspectives" (one contains the other)
-- **[MAJOR]** L2: **in contrast** ↔ **version** — "different" vs "different versions" (one contains the other)
-- **[CRITICAL]** L2: **in particular** ↔ **namely** — "specifically" vs "specifically" (identical imageKeyword)
 - **[MAJOR]** L2: **mainly** ↔ **by and large** — "mostly" vs "mostly overall" (one contains the other)
 - **[MAJOR]** L2: **on the whole** ↔ **by and large** — "overall" vs "mostly overall" (one contains the other)
 - **[MAJOR]** L2: **similarly** ↔ **similar** — "alike" vs "look-alike twins" (one contains the other)
 - **[MINOR]** L2: **line graph** ↔ **bar graph** — "line graph chart" vs "bar graph chart" (50% word overlap)
-- **[CRITICAL]** L2: **pie chart** ↔ **proportion** — "pie chart" vs "pie chart" (identical imageKeyword)
 - **[MINOR]** L2: **marine** ↔ **inhabit** — "colorful fish underwater reef" vs "fish reef" (50% word overlap)
 - **[MINOR]** L2: **water cycle** ↔ **circulate** — "water cycle diagram" vs "circulation cycle diagram" (50% word overlap)
-- **[CRITICAL]** L2: **afford** ↔ **deposit** — "piggy bank" vs "piggy bank" (identical imageKeyword)
 - **[MINOR]** L2: **ban** ↔ **forbid** — "no sign" vs "no running sign" (67% word overlap)
 - **[MINOR]** L2: **ban** ↔ **prohibit** — "no sign" vs "no skateboard sign" (67% word overlap)
 - **[MAJOR]** L2: **factor** ↔ **relevant** — "puzzle piece" vs "puzzle piece fitting" (one contains the other)
 - **[MINOR]** L2: **fatal** ↔ **peril** — "warning sign danger" vs "danger warning" (67% word overlap)
 - **[MINOR]** L2: **forbid** ↔ **prohibit** — "no running sign" vs "no skateboard sign" (50% word overlap)
-- **[CRITICAL]** L2: **fortune** ↔ **value** — "treasure chest" vs "treasure chest" (identical imageKeyword)
+- **[MAJOR]** L2: **integrate** ↔ **involve** — "joining group" vs "joining group activity" (one contains the other)
 - **[MINOR]** L2: **integrate** ↔ **participate** — "joining group" vs "joining in" (50% word overlap)
 - **[MAJOR]** L2: **overcome** ↔ **summit** — "kid climbing mountain top" vs "mountain top" (one contains the other)
 - **[MAJOR]** L3: **antiquated** ↔ **technology** — "old computer" vs "computer" (one contains the other)

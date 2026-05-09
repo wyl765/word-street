@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 213 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 212 MINOR
 
 ## Issues
 
@@ -733,10 +733,6 @@ L1 definition uses "quickly" which is also an L1 word (core position)
 ### [MINOR] words-level1.js — "hear" (SAME_LEVEL_DEF_REF)
 L1 definition uses "notice" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level2b.js — "independence" (CULTURE_SPECIFIC)
-L2 example contains Western culture-specific phrase "fourth of july": "The Fourth of July celebrates America's independence...."
-**Fix:** Replace with a culturally neutral example or add an alternative example
 
 ### [MINOR] words-level1.js — "echo" (BRAND_IMAGE_COLLISION)
 imageKeyword "echo cave" may return brand/product images instead of the intended meaning
