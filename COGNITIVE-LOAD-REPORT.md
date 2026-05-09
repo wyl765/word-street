@@ -3,7 +3,7 @@
 ## Summary
 - Total entries: 5210
 - CRITICAL (≥5 超纲词 in definition): 423
-- MAJOR (≥3 超纲词 in definition): 2148
+- MAJOR (≥3 超纲词 in definition): 2147
 
 ## Issues
 
@@ -2378,10 +2378,6 @@
 ### 🟡 [MAJOR] warm (L1)
 - **Definition:** "a nice heat that feels good"
 - **超纲词 (4):** nice, heat, feels, good
-
-### 🟡 [MAJOR] fierce (L1)
-- **Definition:** "very strong and scary, ready to attack"
-- **超纲词 (4):** strong, scary, ready, attack
 
 ### 🟡 [MAJOR] shy (L1)
 - **Definition:** "afraid to talk to new people"

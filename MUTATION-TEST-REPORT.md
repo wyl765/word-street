@@ -24,42 +24,42 @@
 
 ## Injected Mutations Detail
 
-- ✅ **innovative** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **provenance** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **policy** (factual_error): def changed to: "a rule or plan that grows underground in caves..."
-- ✅ **tiny** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **culture** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **journey** (banned_word): injected "genocide" into example
-- ✅ **fluent** (banned_word): injected "torture" into example
-- ✅ **bombard** (banned_word): injected "genocide" into example
-- ✅ **gratify** (banned_word): injected "torture" into example
-- ✅ **wonderful** (banned_word): injected "autopsy" into example
-- ✅ **cede** (collocation_error): bad collocation: "drink soup"
-- ✅ **timber** (collocation_error): bad collocation: "drink soup"
-- ✅ **inventor** (collocation_error): bad collocation: "close the light"
-- ✅ **slow down** (collocation_error): bad collocation: "drink soup"
-- ✅ **refute** (collocation_error): bad collocation: "big rain"
-- ✅ **bankrupt** (empty_field): emptied definition
-- ✅ **illumination** (empty_field): emptied definition
-- ✅ **apprehend** (empty_field): emptied example
-- ✅ **kill two birds with one stone** (empty_field): emptied example
-- ✅ **hence** (empty_field): emptied example
-- ✅ **armament** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **obscure** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **promptly** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **matriarch** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **autonomous** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **flock** (grammar_error): example: "She don't like the flock...."
-- ✅ **sublime** (grammar_error): example: "They is happy about the sublime...."
-- ✅ **simultaneous** (grammar_error): example: "The two is goes runners crossed the finish line in a simulta..."
-- ✅ **manifest** (grammar_error): example: "She don't like the manifest...."
-- ❌ **transcontinental** (grammar_error): example: "The transcontinental railroad connected the east coast to th..."
+- ✅ **inexorable** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **creative** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **distort** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **frugality** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **anticipate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **tepid** (banned_word): injected "torture" into example
+- ✅ **rudiment** (banned_word): injected "torture" into example
+- ✅ **heterogeneous** (banned_word): injected "torture" into example
+- ✅ **cheer** (banned_word): injected "torture" into example
+- ✅ **negligence** (banned_word): injected "genocide" into example
+- ✅ **grimace** (collocation_error): bad collocation: "big rain"
+- ✅ **clamber** (collocation_error): bad collocation: "drink soup"
+- ✅ **virtual** (collocation_error): bad collocation: "big rain"
+- ✅ **bravado** (collocation_error): bad collocation: "big rain"
+- ✅ **eloquence** (collocation_error): bad collocation: "drink soup"
+- ✅ **albeit** (empty_field): emptied example
+- ✅ **reception** (empty_field): emptied definition
+- ✅ **apportion** (empty_field): emptied definition
+- ✅ **invariably** (empty_field): emptied definition
+- ✅ **levy** (empty_field): emptied definition
+- ✅ **livelihood** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **vegetation** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **gainsay** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **semantic** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **acoustics** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **attrition** (grammar_error): example: "They is happy about the attrition...."
+- ✅ **babble** (grammar_error): example: "The excited is goes toddler babbled with joy, mixing up word..."
+- ✅ **suggest** (grammar_error): example: "They is happy about the suggest...."
+- ✅ **guideline** (grammar_error): example: "Follow the guidelines to stay safe...."
+- ❌ **topic** (grammar_error): example: "The topic of today's lesson is the water cycle...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **transcontinental** (grammar_error): example: "The transcontinental railroad connected the east coast to th..."
+- **topic** (grammar_error): example: "The topic of today's lesson is the water cycle...."
 
 ### Recommended Improvements
 

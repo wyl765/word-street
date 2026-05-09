@@ -30,7 +30,7 @@ Word A's definition uses word B, but B.level > A.level — learner hasn't seen B
 - **giggle** (L1): uses laugh(L2), quiet(L2)
 - **discover** (L1): uses find(L2), learn(L2)
 - **weigh** (L1): uses find(L2), heavy(L2)
-- **fierce** (L1): uses strong(L2), attack(L2)
+- **fierce** (L1): uses strong(L2), powerful(L2)
 - **gentle** (L1): uses soft(L2), careful(L2)
 - **tight** (L1): uses close(L2), move(L2)
 - **gently** (L1): uses soft(L2), careful(L2)

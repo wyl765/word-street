@@ -2,17 +2,9 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 212 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 210 MINOR
 
 ## Issues
-
-### [MINOR] words-level1.js — "peanut" (COMPLEX_DEFINITION)
-L1 definition uses complex word(s): underground
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level1.js — "cottage" (COMPLEX_DEFINITION)
-L1 definition uses complex word(s): countryside
-**Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level1.js — "cozy" (COMPLEX_DEFINITION)
 L1 definition uses complex word(s): comfortable
