@@ -208,7 +208,7 @@ const LEVEL2B_BANK=[{"word":"moral","level":2,"definition":"a lesson a story tea
 {"word":"at first","level":2,"definition":"in the beginning","example":"At first, the puzzle seemed impossible, but then I found the corner pieces.","imageKeyword":"beginning"},
 {"word":"at last","level":2,"definition":"finally, after a long time","example":"At last, the bus arrived, and we could go home.","imageKeyword":"finally"},
 {"word":"at the same time","level":2,"definition":"happening together","example":"She can pat her head and rub her tummy at the same time.","imageKeyword":"friends holding hands circle"},
-{"word":"because of","level":2,"definition":"for the reason of; because of","example":"The game was canceled because of the heavy rain.","imageKeyword":"reason"},
+{"word":"because of","level":2,"definition":"caused by; as a result of","example":"The game was canceled because of the heavy rain.","imageKeyword":"reason"},
 {"word":"before long","level":2,"definition":"soon","example":"Keep practicing and before long you will be able to read chapter books.","imageKeyword":"soon"},
 {"word":"by contrast","level":2,"definition":"in a very different way","example":"The desert is dry; by contrast, the rainforest is very wet.","imageKeyword":"different"},
 {"word":"certainly","level":2,"definition":"for sure; without any doubt","example":"He can certainly run faster than anyone in our class.","imageKeyword":"sure"},

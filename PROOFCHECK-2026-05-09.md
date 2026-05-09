@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 212 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 213 MINOR
 
 ## Issues
 
@@ -204,6 +204,10 @@ Cross-definition cycle: "simple" def contains "complex" and "complex" def contai
 
 ### [MINOR] words-level2.js — "although" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "although" def contains "even though" and "even though" def contains "although" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2b.js — "as a result" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "as a result" def contains "because of" and "because of" def contains "as a result" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
 
 ### [MINOR] words-level2b.js — "despite" (CROSS_DEF_CYCLE)

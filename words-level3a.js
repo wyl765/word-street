@@ -117,7 +117,7 @@ const LEVEL3A_BANK=[{"word":"calculate","level":3,"definition":"to use math to f
 {"word":"ardor","level":3,"definition":"strong enthusiasm or passion","example":"She practiced piano with such ardor that she learned three songs in one week.","imageKeyword":"passionate practice"},
 {"word":"aright","level":3,"definition":"in the correct way","example":"Let me read the instructions again to make sure I understand them aright.","imageKeyword":"reading carefully"},
 {"word":"assail","level":3,"definition":"to attack someone with force or harsh words","example":"The strong winds assailed the ship as it crossed the rough sea.","imageKeyword":"stormy ship"},
-{"word":"atoll","level":3,"definition":"a ring-shaped island made of coral around a lagoon","example":"The atoll was a perfect circle of white sand with clear blue water in the middle.","imageKeyword":"coral atoll"},
+{"word":"atoll","level":3,"definition":"a ring-shaped island around a shallow lake of sea water","example":"The atoll was a perfect circle of white sand with clear blue water in the middle.","imageKeyword":"coral atoll"},
 {"word":"atone","level":3,"definition":"to do something good to make up for a mistake","example":"He atoned for breaking the vase by gluing it back together and buying flowers.","imageKeyword":"making amends"},
 {"word":"atrium","level":3,"definition":"a large open space inside a building, often with a glass roof","example":"The hotel atrium had tall palm trees, and a fountain in the center.","imageKeyword":"building atrium"},
 {"word":"aura","level":3,"definition":"a feeling or quality that seems to surround a person or place","example":"The old library had an aura of mystery with its dusty shelves and dim lights.","imageKeyword":"mysterious place"},

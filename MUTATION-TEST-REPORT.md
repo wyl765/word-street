@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 30 |
-| Undetected | 0 |
-| **Detection rate** | **100.0%** |
+| Detected | 28 |
+| Undetected | 2 |
+| **Detection rate** | **93.3%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -20,40 +20,51 @@
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 5 | 100% |
+| grammar_error | 5 | 3 | 60% |
 
 ## Injected Mutations Detail
 
-- ✅ **liter** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **dereliction** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **landmark** (factual_error): def changed to: "a famous place that grows underground in caves..."
-- ✅ **algae** (factual_error): def changed to: "tiny green plants that grows underground in caves..."
-- ✅ **vilification** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **grow** (banned_word): injected "genocide" into example
-- ✅ **forbid** (banned_word): injected "massacre" into example
-- ✅ **beginning** (banned_word): injected "torture" into example
-- ✅ **widespread** (banned_word): injected "pornography" into example
-- ✅ **slippery** (banned_word): injected "pornography" into example
-- ✅ **cryptic** (collocation_error): bad collocation: "eat medicine"
-- ✅ **provoke** (collocation_error): bad collocation: "close the light"
-- ✅ **passive** (collocation_error): bad collocation: "big rain"
-- ✅ **reside** (collocation_error): bad collocation: "eat medicine"
-- ✅ **vibrant** (collocation_error): bad collocation: "close the light"
-- ✅ **modicum** (empty_field): emptied definition
-- ✅ **governance** (empty_field): emptied example
-- ✅ **steep** (empty_field): emptied definition
-- ✅ **blaze** (empty_field): emptied definition
-- ✅ **attack** (empty_field): emptied definition
-- ✅ **humiliation** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **scatter** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **inquest** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **interfere** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **bagpipe** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **idle** (grammar_error): example: "The swing is goes sat idle in the yard because all the kids ..."
-- ✅ **index** (grammar_error): example: "She don't like the index...."
-- ✅ **cruel** (grammar_error): example: "She don't like the cruel...."
-- ✅ **celebrate** (grammar_error): example: "We celebrated grandma's birthday with cake and balloons...."
-- ✅ **draft** (grammar_error): example: "The childrens played with the draft...."
+- ✅ **reinforce** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **familiar** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **depot** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **algebra** (factual_error): def changed to: "math that grows underground in caves..."
+- ✅ **heterogeneous** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **entirely** (banned_word): injected "pornography" into example
+- ✅ **globe** (banned_word): injected "pornography" into example
+- ✅ **continue** (banned_word): injected "torture" into example
+- ✅ **dale** (banned_word): injected "torture" into example
+- ✅ **complementary** (banned_word): injected "massacre" into example
+- ✅ **ominous** (collocation_error): bad collocation: "drink soup"
+- ✅ **indent** (collocation_error): bad collocation: "close the light"
+- ✅ **camouflage** (collocation_error): bad collocation: "drink soup"
+- ✅ **extol** (collocation_error): bad collocation: "eat medicine"
+- ✅ **map** (collocation_error): bad collocation: "eat medicine"
+- ✅ **amorphous** (empty_field): emptied example
+- ✅ **clumsy** (empty_field): emptied example
+- ✅ **incident** (empty_field): emptied example
+- ✅ **philosophy** (empty_field): emptied example
+- ✅ **before** (empty_field): emptied example
+- ✅ **accessible** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **mortgage** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **elm** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **concede** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **dwindle** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **fluctuate** (grammar_error): example: "They is happy about the fluctuate...."
+- ✅ **drain** (grammar_error): example: "She don't like the drain...."
+- ✅ **despite** (grammar_error): example: "She don't like the despite...."
+- ❌ **divergent** (grammar_error): example: "The twins had divergent interests: one loved art, and the ot..."
+- ❌ **condescension** (grammar_error): example: "His condescension toward younger students made them feel unw..."
+
+## Undetected Mutations (Gaps)
+
+These mutation types are blind spots in the current proofcheck engine:
+
+- **divergent** (grammar_error): example: "The twins had divergent interests: one loved art, and the ot..."
+- **condescension** (grammar_error): example: "His condescension toward younger students made them feel unw..."
+
+### Recommended Improvements
+
+- **Grammar errors**: Expand SVA and grammar checks
 
 ---
 *Generated by mutation-test.mjs*
