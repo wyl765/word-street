@@ -858,7 +858,3 @@ Example contains military context: "army"
 Example contains military context: "military"
 **Fix:** Consider replacing with a neutral/civilian context
 
-### [HIGH] words-level1.js — "against" (MULTI_MEANING)
-L1 definition has multiple distinct meanings: "touching; also means not agreeing with"
-**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
-

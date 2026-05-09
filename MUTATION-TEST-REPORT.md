@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 28 |
-| Undetected | 2 |
-| **Detection rate** | **93.3%** |
+| Detected | 30 |
+| Undetected | 0 |
+| **Detection rate** | **100.0%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -20,51 +20,40 @@
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 3 | 60% |
+| grammar_error | 5 | 5 | 100% |
 
 ## Injected Mutations Detail
 
-- ✅ **deserve** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **confine** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **intellect** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **collect** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **fallacy** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **monopoly** (banned_word): injected "pornography" into example
-- ✅ **ceremony** (banned_word): injected "genocide" into example
-- ✅ **noodle** (banned_word): injected "massacre" into example
-- ✅ **abode** (banned_word): injected "torture" into example
-- ✅ **environment** (banned_word): injected "genocide" into example
-- ✅ **boast** (collocation_error): bad collocation: "drink soup"
-- ✅ **counterpart** (collocation_error): bad collocation: "close the light"
-- ✅ **whereby** (collocation_error): bad collocation: "big rain"
-- ✅ **mercantile** (collocation_error): bad collocation: "drink soup"
-- ✅ **stratosphere** (collocation_error): bad collocation: "drink soup"
-- ✅ **capacious** (empty_field): emptied example
-- ✅ **repeal** (empty_field): emptied definition
-- ✅ **depreciate** (empty_field): emptied example
-- ✅ **bay** (empty_field): emptied example
-- ✅ **perilous** (empty_field): emptied example
-- ✅ **strict** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **drip** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **carnivore** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **fragile** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **efface** (replace_accident): example: "He pressed the important on the importantboard...."
-- ❌ **rooster** (grammar_error): example: "The rooster crowed loudly every morning at sunrise...."
-- ✅ **temporary** (grammar_error): example: "The sign is goes was temporary, so workers took it down afte..."
-- ✅ **habit** (grammar_error): example: "They is happy about the habit...."
-- ❌ **enhance** (grammar_error): example: "Adding bright illustrations can enhance a book and make it m..."
-- ✅ **mobilization** (grammar_error): example: "The mobilization is goes of troops began as soon as war was ..."
-
-## Undetected Mutations (Gaps)
-
-These mutation types are blind spots in the current proofcheck engine:
-
-- **rooster** (grammar_error): example: "The rooster crowed loudly every morning at sunrise...."
-- **enhance** (grammar_error): example: "Adding bright illustrations can enhance a book and make it m..."
-
-### Recommended Improvements
-
-- **Grammar errors**: Expand SVA and grammar checks
+- ✅ **badger** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **emblem** (factual_error): def changed to: "a symbol or design that grows underground in caves..."
+- ✅ **luminous** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **autobiography** (factual_error): def changed to: "a book about your own life that grows underground in caves..."
+- ✅ **legacy** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **postpone** (banned_word): injected "massacre" into example
+- ✅ **logical** (banned_word): injected "autopsy" into example
+- ✅ **bombastic** (banned_word): injected "pornography" into example
+- ✅ **elite** (banned_word): injected "pornography" into example
+- ✅ **remainder** (banned_word): injected "genocide" into example
+- ✅ **sneaker** (collocation_error): bad collocation: "eat medicine"
+- ✅ **forgiving** (collocation_error): bad collocation: "open the light"
+- ✅ **passenger** (collocation_error): bad collocation: "close the light"
+- ✅ **lamp** (collocation_error): bad collocation: "close the light"
+- ✅ **specify** (collocation_error): bad collocation: "open the light"
+- ✅ **aura** (empty_field): emptied example
+- ✅ **throne** (empty_field): emptied definition
+- ✅ **valid** (empty_field): emptied definition
+- ✅ **anonymous** (empty_field): emptied definition
+- ✅ **legion** (empty_field): emptied example
+- ✅ **groundwater** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **accident** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **optimism** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **confirm** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **merchandise** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **fig** (grammar_error): example: "The childrens played with the fig...."
+- ✅ **grievous** (grammar_error): example: "She don't like the grievous...."
+- ✅ **volcano** (grammar_error): example: "She don't like the volcano...."
+- ✅ **worthless** (grammar_error): example: "The childrens played with the worthless...."
+- ✅ **raze** (grammar_error): example: "They is happy about the raze...."
 
 ---
 *Generated by mutation-test.mjs*
