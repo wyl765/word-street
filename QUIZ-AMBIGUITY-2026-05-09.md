@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-09
 
-3754 ambiguous pairs found.
+3755 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -186,10 +186,6 @@
 - melon: a large fruit with a thick skin and soft inside
 - within: inside
 
-## L1: "lemon" vs "dull" (100%)
-- lemon: a yellow fruit that tastes sharp and not sweet
-- dull: not sharp at all
-
 ## L1: "coconut" vs "empty" (67%)
 - coconut: a big brown fruit with white inside
 - empty: with nothing inside
@@ -290,6 +286,14 @@
 - scarf: a long cloth you wrap around your neck
 - towel: cloth you use to dry off
 
+## L1: "vest" vs "pajamas" (100%)
+- vest: clothes with no sleeves that you wear over a shirt
+- pajamas: clothes you wear to bed
+
+## L1: "vest" vs "sharp" (67%)
+- vest: clothes with no sleeves that you wear over a shirt
+- sharp: with a point that can cut
+
 ## L1: "apron" vs "towel" (100%)
 - apron: cloth you wear to keep clean while cooking
 - towel: cloth you use to dry off
@@ -342,9 +346,9 @@
 - stable: a building where horses live
 - castle: a big stone building where kings live
 
-## L1: "cabin" vs "cottage" (67%)
-- cabin: a small house made of wood
-- cottage: a small pretty house
+## L1: "tunnel" vs "trail" (67%)
+- tunnel: a long path dug under the ground or through a hill
+- trail: a path through the woods
 
 ## L1: "island" vs "swamp" (75%)
 - island: land with water all around it

@@ -1,0 +1,24 @@
+{
+  "name": "word-street",
+  "version": "1.0.0",
+  "description": "",
+  "main": "check_definitions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyl765/word-street.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wyl765/word-street/issues"
+  },
+  "homepage": "https://github.com/wyl765/word-street#readme",
+  "dependencies": {
+    "wordnet-db": "^3.1.14"
+  }
+}
