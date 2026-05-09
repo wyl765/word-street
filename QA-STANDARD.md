@@ -198,6 +198,16 @@ node visual-collision-check.mjs
 # Step 8: 记忆干扰预测
 node memory-interference-check.mjs
 
+# Step 9: 外部锚定验证（硬保障！用权威词典API自动对照定义）
+node anchor-verify.mjs
+
+# Step 10: 变异测试（注入已知错误测proofcheck漏检率）
+node mutation-test.mjs
+
+# Step 11: 审校报告验证（程序化验证报告可证伪性4要素）
+# 在三方审校报告生成后跑：
+node report-validate.mjs VERIFY-*.md
+
 # Step 9: 词汇依赖图
 node vocab-dependency-check.mjs
 

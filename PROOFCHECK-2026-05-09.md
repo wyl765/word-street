@@ -2,12 +2,16 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 205 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 212 MINOR
 
 ## Issues
 
 ### [MINOR] words-level1.js — "peanut" (COMPLEX_DEFINITION)
 L1 definition uses complex word(s): underground
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level1.js — "cottage" (COMPLEX_DEFINITION)
+L1 definition uses complex word(s): countryside
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level1.js — "cozy" (COMPLEX_DEFINITION)
@@ -117,6 +121,34 @@ L2 definition uses complex word(s): disagreement
 ### [MINOR] words-level2d.js — "convey" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): communicate
 **Fix:** Simplify definition for young learners
+
+### [MINOR] words-level4a.js — "embellish" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "attractive": "to add details to make something more attractive or cool"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level4b.js — "utilitarian" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "attractive": "designed to be useful rather than attractive"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level5c.js — "calligraphy" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "beautiful": "the art of beautiful handwriting"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level5c.js — "grotesque" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "ugly": "very ugly or strange in a way that is unpleasant"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level5d.js — "captivating" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "attractive": "very interesting and attractive"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level5d.js — "ornate" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "pretty": "made pretty with many small details"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level1.js — "lemon" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "lemon" def contains "sour" and "sour" def contains "lemon" (both L1)
+**Fix:** Break the cycle: at least one definition should not reference the other word
 
 ### [MINOR] words-level1.js — "tiny" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "tiny" def contains "barely" and "barely" def contains "tiny" (both L1)
@@ -420,10 +452,6 @@ L1 definition uses "sticky" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "ruler" (SAME_LEVEL_DEF_REF)
 L1 definition uses "straight" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "bridge" (SAME_LEVEL_DEF_REF)
-L1 definition uses "valley" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "jungle" (SAME_LEVEL_DEF_REF)

@@ -2,7 +2,7 @@
 
 ## 11. Chinese L1 Interference
 36 words with interference risk
-- ⚠️ eventually (L2): Chinese students confuse with "finally" — different nuance
+- ✅ eventually (L2): Chinese students confuse with "finally" — different nuance
 - ✅ sensitive (L2): Chinese may interpret as "敏感" (negative) vs English neutral
 - ✅ nervous (L1): Chinese may confuse with "anxious" — 紧张 covers both
 - ⚠️ borrow (L1): Chinese students confuse borrow/lend — 借 is bidirectional in Chinese

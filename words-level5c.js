@@ -57,7 +57,7 @@ const LEVEL5C_BANK=[{"word":"abolition","level":5,"definition":"the act of offic
 {"word":"circa","level":5,"definition":"approximately, used with dates","example":"The castle was built circa 1350.","imageKeyword":"old date"},
 {"word":"civilian","level":5,"definition":"a person who is not in the military","example":"The soldiers protected the civilians during the crisis.","imageKeyword":"ordinary people"},
 {"word":"clarification","level":5,"definition":"an explanation that makes something easier to understand","example":"The student asked for clarification on the homework instructions.","imageKeyword":"clear explanation"},
-{"word":"clemency","level":5,"definition":"showing mercy or forgiveness","example":"The governor showed clemency by reducing the prisoner's sentence.","imageKeyword":"mercy forgiveness"},
+{"word":"clemency","level":5,"definition":"mercy or forgiveness shown to someone","example":"The governor showed clemency by reducing the prisoner's sentence.","imageKeyword":"mercy forgiveness"},
 {"word":"cliche","level":5,"definition":"a phrase or idea that has been used too much","example":"Saying 'easy as pie' is a cliché that everyone has heard before.","imageKeyword":"overused phrase"},
 {"word":"clientele","level":5,"definition":"all the customers of a business","example":"The bakery built a loyal clientele with its fresh bread.","imageKeyword":"shop customers"},
 {"word":"clockwise","level":5,"definition":"moving in the same direction as clock hands","example":"Turn the lid clockwise to tighten it.","imageKeyword":"clock direction"},

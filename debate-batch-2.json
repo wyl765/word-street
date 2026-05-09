@@ -1,0 +1,1402 @@
+[
+  {
+    "word": "march",
+    "level": 1,
+    "definition": "to walk with big strong steps",
+    "example": "The soldiers march in a straight line.",
+    "imageKeyword": "marching"
+  },
+  {
+    "word": "dash",
+    "level": 1,
+    "definition": "to run very fast",
+    "example": "He dashed to the door before it closed.",
+    "imageKeyword": "running fast"
+  },
+  {
+    "word": "chase",
+    "level": 1,
+    "definition": "to run after something",
+    "example": "The dog liked to chase the ball in the yard.",
+    "imageKeyword": "dog chasing"
+  },
+  {
+    "word": "grab",
+    "level": 1,
+    "definition": "to take something quickly with your hand",
+    "example": "She tried to grab the last cookie before her brother.",
+    "imageKeyword": "hand grabbing cookie from jar"
+  },
+  {
+    "word": "toss",
+    "level": 1,
+    "definition": "to throw something gently",
+    "example": "He would toss the ball to his friend.",
+    "imageKeyword": "tossing ball"
+  },
+  {
+    "word": "catch",
+    "level": 1,
+    "definition": "to take hold of something in the air",
+    "example": "She held out her hands to catch the ball.",
+    "imageKeyword": "catching ball"
+  },
+  {
+    "word": "squeeze",
+    "level": 1,
+    "definition": "to press something tight",
+    "example": "She squeezed the sponge to get the water out.",
+    "imageKeyword": "squeezing sponge"
+  },
+  {
+    "word": "stretch",
+    "level": 1,
+    "definition": "to make your body long",
+    "example": "The cat liked to stretch after a nap.",
+    "imageKeyword": "cat stretching after nap"
+  },
+  {
+    "word": "bend",
+    "level": 1,
+    "definition": "to make something not straight",
+    "example": "You need to bend down to pick up the toy.",
+    "imageKeyword": "person bending to touch toes"
+  },
+  {
+    "word": "twist",
+    "level": 1,
+    "definition": "to turn something around",
+    "example": "She had to twist the cap to open the bottle.",
+    "imageKeyword": "hands twisting jar lid open"
+  },
+  {
+    "word": "shake",
+    "level": 1,
+    "definition": "to move something back and forth fast",
+    "example": "He would shake the box to guess what was inside.",
+    "imageKeyword": "shaking salt shaker"
+  },
+  {
+    "word": "stir",
+    "level": 1,
+    "definition": "to move something around in a circle",
+    "example": "She used a spoon to stir the soup.",
+    "imageKeyword": "stirring"
+  },
+  {
+    "word": "pour",
+    "level": 1,
+    "definition": "to make water or juice flow out of something",
+    "example": "Please pour some milk into my cup.",
+    "imageKeyword": "pitcher pouring water glass"
+  },
+  {
+    "word": "spill",
+    "level": 1,
+    "definition": "to let water or juice fall by accident",
+    "example": "Be careful not to spill your juice on the table.",
+    "imageKeyword": "spilling"
+  },
+  {
+    "word": "drip",
+    "level": 1,
+    "definition": "to fall in small drops, one at a time",
+    "example": "Water started to drip from the leaky roof.",
+    "imageKeyword": "dripping water"
+  },
+  {
+    "word": "splash",
+    "level": 1,
+    "definition": "to make water fly everywhere",
+    "example": "The kids love to splash in the pool.",
+    "imageKeyword": "splashing"
+  },
+  {
+    "word": "float",
+    "level": 1,
+    "definition": "to stay on top of water",
+    "example": "The rubber duck can float in the bathtub.",
+    "imageKeyword": "rubber duck floating in bath"
+  },
+  {
+    "word": "sink",
+    "level": 1,
+    "definition": "to go down under the water",
+    "example": "The heavy rock will sink to the bottom.",
+    "imageKeyword": "toy boat sinking in water"
+  },
+  {
+    "word": "melt",
+    "level": 1,
+    "definition": "to change from hard to soft, like ice becoming water",
+    "example": "The ice cream will melt if you leave it in the sun.",
+    "imageKeyword": "ice cream melting in sun"
+  },
+  {
+    "word": "freeze",
+    "level": 1,
+    "definition": "to get so cold it turns to ice",
+    "example": "The water will freeze into ice tonight.",
+    "imageKeyword": "freezing ice"
+  },
+  {
+    "word": "peel",
+    "level": 1,
+    "definition": "to take the skin off a fruit",
+    "example": "She had to peel the banana before eating it.",
+    "imageKeyword": "peeling banana"
+  },
+  {
+    "word": "chop",
+    "level": 1,
+    "definition": "to cut into pieces",
+    "example": "Dad helped chop the vegetables for dinner.",
+    "imageKeyword": "chopping"
+  },
+  {
+    "word": "grate",
+    "level": 1,
+    "definition": "to rub food on a tool to make tiny pieces",
+    "example": "He helped grate the cheese for the pizza.",
+    "imageKeyword": "grating cheese"
+  },
+  {
+    "word": "spread",
+    "level": 1,
+    "definition": "to put a thin layer on top",
+    "example": "She liked to spread butter on her toast.",
+    "imageKeyword": "spreading butter"
+  },
+  {
+    "word": "sprinkle",
+    "level": 1,
+    "definition": "to drop tiny bits on something",
+    "example": "He wanted to sprinkle sugar on his cereal.",
+    "imageKeyword": "sprinkling"
+  },
+  {
+    "word": "scoop",
+    "level": 1,
+    "definition": "to pick up with a spoon or hands",
+    "example": "She used a big spoon to scoop the ice cream.",
+    "imageKeyword": "scooping"
+  },
+  {
+    "word": "whisper",
+    "level": 1,
+    "definition": "to speak in a soft low voice",
+    "example": "She had to whisper, so the baby would not wake up.",
+    "imageKeyword": "child whispering in ear"
+  },
+  {
+    "word": "shout",
+    "level": 1,
+    "definition": "to say something very loud",
+    "example": "He had to shout, so his friend across the field could hear.",
+    "imageKeyword": "child cupping hands shouting"
+  },
+  {
+    "word": "giggle",
+    "level": 1,
+    "definition": "to laugh in a quiet silly way",
+    "example": "The joke made him giggle and cover his mouth.",
+    "imageKeyword": "children giggling covering mouths"
+  },
+  {
+    "word": "howl",
+    "level": 1,
+    "definition": "to make a long loud cry",
+    "example": "The wolf would howl at the moon every night.",
+    "imageKeyword": "wolf howling"
+  },
+  {
+    "word": "bark",
+    "level": 1,
+    "definition": "the outer covering of a tree; also the loud sound a dog makes",
+    "example": "The bark of the old oak tree was rough and bumpy.",
+    "imageKeyword": "tree bark"
+  },
+  {
+    "word": "roar",
+    "level": 1,
+    "definition": "to make a big loud sound like a lion",
+    "example": "The lion opened its mouth to roar.",
+    "imageKeyword": "lion roaring"
+  },
+  {
+    "word": "hum",
+    "level": 1,
+    "definition": "to make music with your mouth closed",
+    "example": "She liked to hum her favorite song while she worked.",
+    "imageKeyword": "humming"
+  },
+  {
+    "word": "clap",
+    "level": 1,
+    "definition": "to hit your hands together",
+    "example": "Everyone began to clap when the show ended.",
+    "imageKeyword": "clapping hands"
+  },
+  {
+    "word": "wave",
+    "level": 1,
+    "definition": "to move your hand to say hello or bye; also a wall of water in the ocean",
+    "example": "She would wave goodbye from the window.",
+    "imageKeyword": "waving hand"
+  },
+  {
+    "word": "nod",
+    "level": 1,
+    "definition": "to move your head up and down for yes",
+    "example": "He nodded to show he understood.",
+    "imageKeyword": "nodding yes"
+  },
+  {
+    "word": "peek",
+    "level": 1,
+    "definition": "to look quickly or secretly",
+    "example": "She tried to peek at her birthday present.",
+    "imageKeyword": "child peeking around corner"
+  },
+  {
+    "word": "stare",
+    "level": 1,
+    "definition": "to look at something for a long time",
+    "example": "He could not stop staring at the huge cake.",
+    "imageKeyword": "staring"
+  },
+  {
+    "word": "glance",
+    "level": 1,
+    "definition": "to look at something very quickly",
+    "example": "She glanced at the clock and ran to catch the bus.",
+    "imageKeyword": "quick look"
+  },
+  {
+    "word": "search",
+    "level": 1,
+    "definition": "to look carefully for something",
+    "example": "He had to search everywhere for his lost toy.",
+    "imageKeyword": "flashlight searching dark room"
+  },
+  {
+    "word": "discover",
+    "level": 1,
+    "definition": "to find or learn about something for the first time",
+    "example": "She was excited to discover a frog under the log.",
+    "imageKeyword": "child finding frog under log"
+  },
+  {
+    "word": "notice",
+    "level": 1,
+    "definition": "to see or become aware of something",
+    "example": "Did you notice the bird sitting on the fence?",
+    "imageKeyword": "eye spotting something on ground"
+  },
+  {
+    "word": "wonder",
+    "level": 1,
+    "definition": "to think about something you don't know",
+    "example": "I wonder what is inside that big box.",
+    "imageKeyword": "wondering thinking"
+  },
+  {
+    "word": "imagine",
+    "level": 1,
+    "definition": "to make pictures in your mind",
+    "example": "Close your eyes and imagine you are flying.",
+    "imageKeyword": "child with thought bubble dragon"
+  },
+  {
+    "word": "pretend",
+    "level": 1,
+    "definition": "to act like something that is not real",
+    "example": "Let's pretend we are pirates on a ship!",
+    "imageKeyword": "child pretending to be superhero cape"
+  },
+  {
+    "word": "promise",
+    "level": 1,
+    "definition": "to say you will really do something",
+    "example": "I promise I will clean my room after dinner.",
+    "imageKeyword": "promise pinky"
+  },
+  {
+    "word": "remind",
+    "level": 1,
+    "definition": "to help someone recall",
+    "example": "Please remind me to bring my book tomorrow.",
+    "imageKeyword": "reminder"
+  },
+  {
+    "word": "forget",
+    "level": 1,
+    "definition": "to not recall something",
+    "example": "Don't forget to pack your lunch!",
+    "imageKeyword": "person leaving keys on table"
+  },
+  {
+    "word": "belong",
+    "level": 1,
+    "definition": "to be in the right place",
+    "example": "These books belong on the top shelf.",
+    "imageKeyword": "toy in a box with name tag"
+  },
+  {
+    "word": "share",
+    "level": 1,
+    "definition": "to give part of yours to someone",
+    "example": "She learned to share her toys with her sister.",
+    "imageKeyword": "two kids sharing pizza slice"
+  },
+  {
+    "word": "trade",
+    "level": 1,
+    "definition": "to give one thing and get a different thing back",
+    "example": "I will trade my apple for your orange.",
+    "imageKeyword": "kids trading lunch snacks"
+  },
+  {
+    "word": "borrow",
+    "level": 1,
+    "definition": "to use something and give it back",
+    "example": "Can I borrow your pencil? I will return it soon.",
+    "imageKeyword": "handing a book to friend"
+  },
+  {
+    "word": "lend",
+    "level": 1,
+    "definition": "to let someone use your thing for a short time",
+    "example": "She was kind to lend me her umbrella.",
+    "imageKeyword": "handing pencil to classmate"
+  },
+  {
+    "word": "gather",
+    "level": 1,
+    "definition": "to pick up and bring together",
+    "example": "Let's gather sticks to build a fort.",
+    "imageKeyword": "kids collecting sticks"
+  },
+  {
+    "word": "collect",
+    "level": 1,
+    "definition": "to get many of the same thing",
+    "example": "He liked to collect shiny rocks from the beach.",
+    "imageKeyword": "child collecting seashells bucket"
+  },
+  {
+    "word": "stack",
+    "level": 1,
+    "definition": "to put things on top of each other neatly",
+    "example": "He liked to stack the blocks as high as he could.",
+    "imageKeyword": "stacking blocks"
+  },
+  {
+    "word": "wrap",
+    "level": 1,
+    "definition": "to cover something with paper or cloth",
+    "example": "She helped wrap the gift in pretty paper.",
+    "imageKeyword": "wrapping gift"
+  },
+  {
+    "word": "unwrap",
+    "level": 1,
+    "definition": "to take the cover off something",
+    "example": "He was so excited to unwrap his birthday present.",
+    "imageKeyword": "hands unwrapping birthday present"
+  },
+  {
+    "word": "tug",
+    "level": 1,
+    "definition": "to pull hard on something",
+    "example": "She had to tug the door hard to open it.",
+    "imageKeyword": "tugging pulling"
+  },
+  {
+    "word": "drag",
+    "level": 1,
+    "definition": "to pull something heavy along the ground",
+    "example": "He had to drag the heavy bag across the floor.",
+    "imageKeyword": "child dragging heavy backpack"
+  },
+  {
+    "word": "shove",
+    "level": 1,
+    "definition": "to push hard",
+    "example": "The wind would shove the door shut.",
+    "imageKeyword": "pushing hard"
+  },
+  {
+    "word": "tuck",
+    "level": 1,
+    "definition": "to push edges in to make neat",
+    "example": "Mom would tuck the blanket around him at bedtime.",
+    "imageKeyword": "tucking in"
+  },
+  {
+    "word": "hang",
+    "level": 1,
+    "definition": "to put something up so it is not on the ground",
+    "example": "Please hang your coat on the hook.",
+    "imageKeyword": "hanging coat"
+  },
+  {
+    "word": "fasten",
+    "level": 1,
+    "definition": "to close or attach something",
+    "example": "Please fasten your seatbelt before the car moves.",
+    "imageKeyword": "buckling seatbelt click"
+  },
+  {
+    "word": "attach",
+    "level": 1,
+    "definition": "to join one thing to another",
+    "example": "He used a clip to attach the paper to the board.",
+    "imageKeyword": "hands taping paper to wall"
+  },
+  {
+    "word": "repair",
+    "level": 1,
+    "definition": "to fix something broken",
+    "example": "Dad can repair the broken chair with glue.",
+    "imageKeyword": "hands fixing broken toy"
+  },
+  {
+    "word": "create",
+    "level": 1,
+    "definition": "to make something new",
+    "example": "She used paint to create a beautiful picture.",
+    "imageKeyword": "creating art"
+  },
+  {
+    "word": "design",
+    "level": 1,
+    "definition": "to plan what something will look like",
+    "example": "He wanted to design his own treehouse.",
+    "imageKeyword": "child drawing blueprint"
+  },
+  {
+    "word": "measure",
+    "level": 1,
+    "definition": "to find out how big something is",
+    "example": "She used a ruler to measure how tall the plant grew.",
+    "imageKeyword": "ruler measuring paper"
+  },
+  {
+    "word": "weigh",
+    "level": 1,
+    "definition": "to find out how heavy something is",
+    "example": "Let's weigh the pumpkin to see how heavy it is.",
+    "imageKeyword": "weighing scale"
+  },
+  {
+    "word": "count",
+    "level": 1,
+    "definition": "to say numbers to find how many",
+    "example": "Can you count how many apples are in the basket?",
+    "imageKeyword": "child counting on fingers"
+  },
+  {
+    "word": "sort",
+    "level": 1,
+    "definition": "to put things in groups",
+    "example": "She helped sort the socks by color.",
+    "imageKeyword": "sorting colored blocks into groups"
+  },
+  {
+    "word": "match",
+    "level": 1,
+    "definition": "to find two things that are the same; also a game between two sides",
+    "example": "Can you match the baby animal to its father?",
+    "imageKeyword": "matching pairs"
+  },
+  {
+    "word": "deliver",
+    "level": 1,
+    "definition": "to bring something to someone",
+    "example": "The mail carrier will deliver the package today.",
+    "imageKeyword": "mailman delivering package door"
+  },
+  {
+    "word": "fetch",
+    "level": 1,
+    "definition": "to go get something and bring it back",
+    "example": "The dog ran to fetch the stick I threw.",
+    "imageKeyword": "dog fetching"
+  },
+  {
+    "word": "vanish",
+    "level": 1,
+    "definition": "to go away so no one can see it, like magic",
+    "example": "The magician made the coin vanish!",
+    "imageKeyword": "vanishing magic"
+  },
+  {
+    "word": "tiny",
+    "level": 1,
+    "definition": "so small you can barely see it or hold it",
+    "example": "The tiny ant carried a crumb ten times its size.",
+    "imageKeyword": "tiny ant on finger"
+  },
+  {
+    "word": "huge",
+    "level": 1,
+    "definition": "so big it fills up a room or towers over you",
+    "example": "The huge elephant was taller than the bus.",
+    "imageKeyword": "huge elephant next to car"
+  },
+  {
+    "word": "enormous",
+    "level": 1,
+    "definition": "so big it is hard to believe",
+    "example": "The enormous whale made the boat look like a toy.",
+    "imageKeyword": "enormous whale next to small boat"
+  },
+  {
+    "word": "narrow",
+    "level": 1,
+    "definition": "not very wide",
+    "example": "The path was so narrow only one person could walk at a time.",
+    "imageKeyword": "narrow path"
+  },
+  {
+    "word": "wide",
+    "level": 1,
+    "definition": "going far from side to side",
+    "example": "The river was too wide to jump across.",
+    "imageKeyword": "wide river"
+  },
+  {
+    "word": "steep",
+    "level": 1,
+    "definition": "going up very sharply, hard to climb",
+    "example": "The hill was so steep they had to crawl up it.",
+    "imageKeyword": "steep hill"
+  },
+  {
+    "word": "shallow",
+    "level": 1,
+    "definition": "not deep",
+    "example": "The water was shallow enough for the little kids to stand in.",
+    "imageKeyword": "shallow water"
+  },
+  {
+    "word": "deep",
+    "level": 1,
+    "definition": "going far down",
+    "example": "The pool was too deep for her to touch the bottom.",
+    "imageKeyword": "deep water"
+  },
+  {
+    "word": "thick",
+    "level": 1,
+    "definition": "not thin; having a lot from one side to the other",
+    "example": "The thick book had over 300 pages.",
+    "imageKeyword": "thick book"
+  },
+  {
+    "word": "thin",
+    "level": 1,
+    "definition": "not thick; having very little from one side to the other",
+    "example": "The ice was too thin to walk on safely.",
+    "imageKeyword": "thin ice"
+  },
+  {
+    "word": "smooth",
+    "level": 1,
+    "definition": "not bumpy at all",
+    "example": "The rock was smooth like a piece of glass.",
+    "imageKeyword": "smooth stone"
+  },
+  {
+    "word": "rough",
+    "level": 1,
+    "definition": "bumpy and not smooth",
+    "example": "The tree bark felt rough under her fingers.",
+    "imageKeyword": "rough texture"
+  },
+  {
+    "word": "sharp",
+    "level": 1,
+    "definition": "with a point that can cut",
+    "example": "Be careful! That knife is very sharp.",
+    "imageKeyword": "sharp point"
+  },
+  {
+    "word": "dull",
+    "level": 1,
+    "definition": "not sharp at all",
+    "example": "The dull scissors could not cut the paper.",
+    "imageKeyword": "dull blade"
+  },
+  {
+    "word": "shiny",
+    "level": 1,
+    "definition": "bright and reflecting light",
+    "example": "The shiny coin sparkled in the sunlight.",
+    "imageKeyword": "shiny coin in sunlight"
+  },
+  {
+    "word": "damp",
+    "level": 1,
+    "definition": "a little bit wet",
+    "example": "The grass was damp from the morning dew.",
+    "imageKeyword": "damp"
+  },
+  {
+    "word": "soaking",
+    "level": 1,
+    "definition": "very very wet all over",
+    "example": "He was soaking wet after playing in the rain.",
+    "imageKeyword": "soaking wet"
+  },
+  {
+    "word": "dry",
+    "level": 1,
+    "definition": "not wet at all",
+    "example": "She waited for her hair to get dry after her bath.",
+    "imageKeyword": "dry cracked ground"
+  },
+  {
+    "word": "sticky",
+    "level": 1,
+    "definition": "something that holds on to your fingers",
+    "example": "His hands were sticky from the candy.",
+    "imageKeyword": "sticky hands"
+  },
+  {
+    "word": "slimy",
+    "level": 1,
+    "definition": "wet and slippery in a yucky way",
+    "example": "The slimy slug left a trail on the sidewalk.",
+    "imageKeyword": "slimy"
+  },
+  {
+    "word": "fluffy",
+    "level": 1,
+    "definition": "soft and light like a cloud",
+    "example": "The fluffy kitten looked like a little cotton ball.",
+    "imageKeyword": "fluffy"
+  },
+  {
+    "word": "fuzzy",
+    "level": 1,
+    "definition": "covered in soft short hair",
+    "example": "The fuzzy peach tickled his lip.",
+    "imageKeyword": "fuzzy"
+  },
+  {
+    "word": "cozy",
+    "level": 1,
+    "definition": "warm and comfortable",
+    "example": "The cozy bed made her want to stay asleep.",
+    "imageKeyword": "cozy fireplace room"
+  },
+  {
+    "word": "chilly",
+    "level": 1,
+    "definition": "a little cold",
+    "example": "The chilly wind made her wish she had a jacket.",
+    "imageKeyword": "chilly"
+  },
+  {
+    "word": "freezing",
+    "level": 1,
+    "definition": "so cold like ice",
+    "example": "The water was freezing so no one wanted to swim.",
+    "imageKeyword": "freezing cold"
+  },
+  {
+    "word": "boiling",
+    "level": 1,
+    "definition": "so hot with lots of bubbles",
+    "example": "The boiling water was too hot to touch.",
+    "imageKeyword": "boiling water"
+  },
+  {
+    "word": "warm",
+    "level": 1,
+    "definition": "a nice heat that feels good",
+    "example": "The warm sun felt nice on her face.",
+    "imageKeyword": "warm sun"
+  },
+  {
+    "word": "fierce",
+    "level": 1,
+    "definition": "very strong and scary, ready to attack",
+    "example": "The fierce lion roared and showed its sharp teeth.",
+    "imageKeyword": "fierce lion roaring"
+  },
+  {
+    "word": "gentle",
+    "level": 1,
+    "definition": "soft and careful",
+    "example": "He was gentle when he held the baby bird.",
+    "imageKeyword": "gentle hands"
+  },
+  {
+    "word": "brave",
+    "level": 1,
+    "definition": "not afraid to do scary things",
+    "example": "The brave knight went into the dark cave.",
+    "imageKeyword": "brave knight"
+  },
+  {
+    "word": "shy",
+    "level": 1,
+    "definition": "afraid to talk to new people",
+    "example": "The shy girl hid behind her mother.",
+    "imageKeyword": "shy child"
+  },
+  {
+    "word": "proud",
+    "level": 1,
+    "definition": "happy about something you did well",
+    "example": "She felt proud when she finished the hard puzzle.",
+    "imageKeyword": "proud child trophy"
+  },
+  {
+    "word": "curious",
+    "level": 1,
+    "definition": "wanting to know about things",
+    "example": "The curious cat peeked inside the open box.",
+    "imageKeyword": "curious cat"
+  },
+  {
+    "word": "grumpy",
+    "level": 1,
+    "definition": "in a bad mood",
+    "example": "He was grumpy because he did not sleep well.",
+    "imageKeyword": "grumpy face"
+  },
+  {
+    "word": "cheerful",
+    "level": 1,
+    "definition": "happy and smiling",
+    "example": "The cheerful girl sang a song on the way to school.",
+    "imageKeyword": "cheerful"
+  },
+  {
+    "word": "lonely",
+    "level": 1,
+    "definition": "sad because you are alone",
+    "example": "The lonely puppy sat by the door waiting for someone to play.",
+    "imageKeyword": "lonely"
+  },
+  {
+    "word": "calm",
+    "level": 1,
+    "definition": "quiet and not upset",
+    "example": "The lake was calm and still like a mirror.",
+    "imageKeyword": "calm water"
+  },
+  {
+    "word": "wild",
+    "level": 1,
+    "definition": "not tame, living free in nature",
+    "example": "The wild horse ran free across the plains.",
+    "imageKeyword": "wild horse"
+  },
+  {
+    "word": "tame",
+    "level": 1,
+    "definition": "friendly and used to people",
+    "example": "The tame rabbit let the children pet it.",
+    "imageKeyword": "tame pet"
+  },
+  {
+    "word": "plain",
+    "level": 1,
+    "definition": "not fancy, with nothing on it",
+    "example": "He wanted a plain white T-shirt with no picture.",
+    "imageKeyword": "plain white t-shirt"
+  },
+  {
+    "word": "fancy",
+    "level": 1,
+    "definition": "having a lot of pretty things on it",
+    "example": "She wore a fancy dress with sparkles to the party.",
+    "imageKeyword": "fancy dress"
+  },
+  {
+    "word": "ripe",
+    "level": 1,
+    "definition": "ready to eat (for fruit)",
+    "example": "The ripe banana was yellow and sweet.",
+    "imageKeyword": "ripe fruit"
+  },
+  {
+    "word": "rotten",
+    "level": 1,
+    "definition": "old and bad to eat",
+    "example": "The rotten apple was brown and smelled terrible.",
+    "imageKeyword": "rotten apple"
+  },
+  {
+    "word": "fresh",
+    "level": 1,
+    "definition": "just made or picked, not old",
+    "example": "The fresh bread smelled wonderful from the oven.",
+    "imageKeyword": "fresh bread"
+  },
+  {
+    "word": "stale",
+    "level": 1,
+    "definition": "old and not fresh anymore",
+    "example": "The stale crackers were not crunchy anymore.",
+    "imageKeyword": "stale food"
+  },
+  {
+    "word": "bitter",
+    "level": 1,
+    "definition": "a strong taste that is not sweet",
+    "example": "The dark chocolate tasted bitter to her.",
+    "imageKeyword": "bitter taste"
+  },
+  {
+    "word": "sour",
+    "level": 1,
+    "definition": "a sharp taste like lemon",
+    "example": "The sour candy made her face scrunch up.",
+    "imageKeyword": "sour face"
+  },
+  {
+    "word": "salty",
+    "level": 1,
+    "definition": "tasting like salt",
+    "example": "The ocean water was too salty to drink.",
+    "imageKeyword": "salty"
+  },
+  {
+    "word": "juicy",
+    "level": 1,
+    "definition": "full of juice inside",
+    "example": "The juicy orange dripped down his chin.",
+    "imageKeyword": "juicy orange"
+  },
+  {
+    "word": "crunchy",
+    "level": 1,
+    "definition": "making a snapping sound when you bite",
+    "example": "The crunchy carrot snapped when she bit it.",
+    "imageKeyword": "crunchy"
+  },
+  {
+    "word": "creamy",
+    "level": 1,
+    "definition": "smooth and soft like cream",
+    "example": "The creamy soup was thick and warm.",
+    "imageKeyword": "creamy"
+  },
+  {
+    "word": "silent",
+    "level": 1,
+    "definition": "making no sound at all",
+    "example": "The house was silent because everyone was asleep.",
+    "imageKeyword": "silent quiet"
+  },
+  {
+    "word": "loud",
+    "level": 1,
+    "definition": "making a lot of noise",
+    "example": "The loud music made it hard to talk.",
+    "imageKeyword": "loud"
+  },
+  {
+    "word": "hollow",
+    "level": 1,
+    "definition": "having a hole or empty space inside",
+    "example": "The hollow log made a drum sound when she hit it.",
+    "imageKeyword": "hollow log"
+  },
+  {
+    "word": "solid",
+    "level": 1,
+    "definition": "hard and firm; keeps its shape",
+    "example": "Ice is solid, but it melts into water.",
+    "imageKeyword": "ice cube"
+  },
+  {
+    "word": "loose",
+    "level": 1,
+    "definition": "not tight",
+    "example": "His loose tooth wiggled when he touched it.",
+    "imageKeyword": "loose tooth"
+  },
+  {
+    "word": "tight",
+    "level": 1,
+    "definition": "fitting very close, hard to move",
+    "example": "The lid was on so tight he could not open the jar.",
+    "imageKeyword": "tight lid"
+  },
+  {
+    "word": "crooked",
+    "level": 1,
+    "definition": "not straight, bent",
+    "example": "The old fence was crooked and leaning to one side.",
+    "imageKeyword": "crooked leaning fence"
+  },
+  {
+    "word": "straight",
+    "level": 1,
+    "definition": "going one way without bending",
+    "example": "She drew a straight line with her ruler.",
+    "imageKeyword": "straight line"
+  },
+  {
+    "word": "crowded",
+    "level": 1,
+    "definition": "full of too many people or things",
+    "example": "The bus was so crowded there was no place to sit.",
+    "imageKeyword": "crowded"
+  },
+  {
+    "word": "empty",
+    "level": 1,
+    "definition": "with nothing inside",
+    "example": "The empty jar had no cookies left.",
+    "imageKeyword": "empty jar"
+  },
+  {
+    "word": "whole",
+    "level": 1,
+    "definition": "all of it, nothing missing",
+    "example": "He ate the whole pizza by himself!",
+    "imageKeyword": "whole complete"
+  },
+  {
+    "word": "spare",
+    "level": 1,
+    "definition": "extra, in case you need it",
+    "example": "Mom keeps a spare key under the mat.",
+    "imageKeyword": "spare key"
+  },
+  {
+    "word": "certain",
+    "level": 1,
+    "definition": "you know it is true for sure",
+    "example": "I am certain I left my bag on the chair.",
+    "imageKeyword": "confident child pointing"
+  },
+  {
+    "word": "strange",
+    "level": 1,
+    "definition": "odd or not like what you thought",
+    "example": "She heard a strange noise coming from the closet.",
+    "imageKeyword": "strange odd"
+  },
+  {
+    "word": "wonderful",
+    "level": 1,
+    "definition": "very good and nice",
+    "example": "The birthday party was wonderful!",
+    "imageKeyword": "wonderful"
+  },
+  {
+    "word": "terrible",
+    "level": 1,
+    "definition": "so bad it makes you upset or scared",
+    "example": "The terrible storm knocked down many trees.",
+    "imageKeyword": "terrible storm damage"
+  },
+  {
+    "word": "perfect",
+    "level": 1,
+    "definition": "nothing wrong at all",
+    "example": "She drew a perfect circle without any bumps.",
+    "imageKeyword": "perfect circle"
+  },
+  {
+    "word": "ugly",
+    "level": 1,
+    "definition": "not nice to look at",
+    "example": "The ugly duckling grew into a beautiful swan.",
+    "imageKeyword": "ugly duckling"
+  },
+  {
+    "word": "beautiful",
+    "level": 1,
+    "definition": "so lovely it makes you stop and stare",
+    "example": "The sunset painted the sky in beautiful colors.",
+    "imageKeyword": "beautiful sunset"
+  },
+  {
+    "word": "clever",
+    "level": 1,
+    "definition": "smart and good at thinking",
+    "example": "The clever fox found a way out of the trap.",
+    "imageKeyword": "clever fox"
+  },
+  {
+    "word": "foolish",
+    "level": 1,
+    "definition": "not smart, silly in a bad way",
+    "example": "It was foolish to go outside without a coat in the snow.",
+    "imageKeyword": "person walking in rain no umbrella"
+  },
+  {
+    "word": "greedy",
+    "level": 1,
+    "definition": "wanting too much for yourself",
+    "example": "The greedy boy took all the cookies and shared none.",
+    "imageKeyword": "greedy"
+  },
+  {
+    "word": "generous",
+    "level": 1,
+    "definition": "happy to give to others",
+    "example": "He was generous and shared his lunch with his friend.",
+    "imageKeyword": "generous sharing"
+  },
+  {
+    "word": "patient",
+    "level": 1,
+    "definition": "able to wait and stay calm",
+    "example": "Be patient — your turn will come soon.",
+    "imageKeyword": "patient waiting"
+  },
+  {
+    "word": "stubborn",
+    "level": 1,
+    "definition": "will not change your mind",
+    "example": "The stubborn mule would not move no matter what.",
+    "imageKeyword": "stubborn mule"
+  },
+  {
+    "word": "lazy",
+    "level": 1,
+    "definition": "not wanting to work or move",
+    "example": "The lazy cat slept all day in the sunny spot.",
+    "imageKeyword": "lazy cat"
+  },
+  {
+    "word": "busy",
+    "level": 1,
+    "definition": "doing many things with no free time",
+    "example": "The bees were very busy making honey.",
+    "imageKeyword": "busy bee"
+  },
+  {
+    "word": "clumsy",
+    "level": 1,
+    "definition": "bumping into things a lot",
+    "example": "The clumsy puppy tripped over its own feet.",
+    "imageKeyword": "clumsy"
+  },
+  {
+    "word": "graceful",
+    "level": 1,
+    "definition": "moving in a pretty smooth way",
+    "example": "The graceful dancer spun without falling.",
+    "imageKeyword": "graceful dancer"
+  },
+  {
+    "word": "quickly",
+    "level": 1,
+    "definition": "in a fast way",
+    "example": "She quickly grabbed her bag and ran to school.",
+    "imageKeyword": "quickly fast"
+  },
+  {
+    "word": "slowly",
+    "level": 1,
+    "definition": "in a not-fast way",
+    "example": "The turtle walked slowly across the road.",
+    "imageKeyword": "slowly turtle"
+  },
+  {
+    "word": "quietly",
+    "level": 1,
+    "definition": "without making noise",
+    "example": "She quietly closed the door, so the baby would not wake.",
+    "imageKeyword": "finger over lips shush"
+  },
+  {
+    "word": "loudly",
+    "level": 1,
+    "definition": "with a lot of noise",
+    "example": "The baby cried loudly in the middle of the night.",
+    "imageKeyword": "loudly"
+  },
+  {
+    "word": "gently",
+    "level": 1,
+    "definition": "in a soft careful way",
+    "example": "She gently placed the egg in the basket.",
+    "imageKeyword": "hand gently petting kitten"
+  },
+  {
+    "word": "suddenly",
+    "level": 1,
+    "definition": "quickly and without warning",
+    "example": "Suddenly the lights went out, and the room was dark.",
+    "imageKeyword": "suddenly surprise"
+  },
+  {
+    "word": "already",
+    "level": 1,
+    "definition": "before now; earlier than expected",
+    "example": "She was surprised he had already finished his homework.",
+    "imageKeyword": "homework finished on desk"
+  },
+  {
+    "word": "almost",
+    "level": 1,
+    "definition": "very close but not quite",
+    "example": "He almost caught the ball, but it slipped away.",
+    "imageKeyword": "hand almost catching ball"
+  },
+  {
+    "word": "barely",
+    "level": 1,
+    "definition": "only just, by a tiny bit",
+    "example": "He could barely reach the top shelf on his toes.",
+    "imageKeyword": "barely reaching"
+  },
+  {
+    "word": "perhaps",
+    "level": 1,
+    "definition": "maybe, it might happen",
+    "example": "Perhaps we will go to the park if it stops raining.",
+    "imageKeyword": "maybe perhaps"
+  },
+  {
+    "word": "exactly",
+    "level": 1,
+    "definition": "just right; not more or less",
+    "example": "That is exactly what I was looking for!",
+    "imageKeyword": "puzzle piece fitting perfectly"
+  },
+  {
+    "word": "instead",
+    "level": 1,
+    "definition": "in place of something else",
+    "example": "It rained, so we played inside instead.",
+    "imageKeyword": "apple chosen instead of candy"
+  },
+  {
+    "word": "anyway",
+    "level": 1,
+    "definition": "even so, no matter what",
+    "example": "It was raining, but she went outside anyway.",
+    "imageKeyword": "girl walking in rain smiling"
+  },
+  {
+    "word": "forever",
+    "level": 1,
+    "definition": "for all time, never ending",
+    "example": "I wish summer could last forever.",
+    "imageKeyword": "stars in night sky"
+  },
+  {
+    "word": "apart",
+    "level": 1,
+    "definition": "away from each other",
+    "example": "The two friends lived far apart but still wrote letters.",
+    "imageKeyword": "apart separate"
+  },
+  {
+    "word": "together",
+    "level": 1,
+    "definition": "with each other",
+    "example": "The kids played together in the sandbox.",
+    "imageKeyword": "friends holding hands circle"
+  },
+  {
+    "word": "forward",
+    "level": 1,
+    "definition": "toward the front",
+    "example": "Take one step forward and two steps back.",
+    "imageKeyword": "arrow pointing forward"
+  },
+  {
+    "word": "backward",
+    "level": 1,
+    "definition": "toward the back",
+    "example": "She counted backward from ten to one.",
+    "imageKeyword": "person walking backward"
+  },
+  {
+    "word": "sideways",
+    "level": 1,
+    "definition": "to the left or right",
+    "example": "The crab walked sideways across the sand.",
+    "imageKeyword": "sideways crab"
+  },
+  {
+    "word": "beneath",
+    "level": 1,
+    "definition": "right below it",
+    "example": "The cat hid beneath the bed.",
+    "imageKeyword": "beneath under"
+  },
+  {
+    "word": "above",
+    "level": 1,
+    "definition": "higher than something",
+    "example": "The bird flew above the trees.",
+    "imageKeyword": "bird flying above house"
+  },
+  {
+    "word": "below",
+    "level": 1,
+    "definition": "lower than something",
+    "example": "The fish swam below the boat.",
+    "imageKeyword": "below under"
+  },
+  {
+    "word": "beside",
+    "level": 1,
+    "definition": "next to",
+    "example": "She sat beside her best friend.",
+    "imageKeyword": "two friends sitting on bench"
+  },
+  {
+    "word": "between",
+    "level": 1,
+    "definition": "in the middle of two things",
+    "example": "The ball rolled between the two chairs.",
+    "imageKeyword": "cat sitting between two boxes"
+  },
+  {
+    "word": "among",
+    "level": 1,
+    "definition": "in the middle of many things",
+    "example": "He found his toy among all the others in the box.",
+    "imageKeyword": "toy in box full of toys"
+  },
+  {
+    "word": "toward",
+    "level": 1,
+    "definition": "in the direction of",
+    "example": "The puppy ran toward its owner.",
+    "imageKeyword": "dog running toward owner"
+  },
+  {
+    "word": "against",
+    "level": 1,
+    "definition": "touching and leaning on",
+    "example": "He leaned against the wall and waited for his friend.",
+    "imageKeyword": "against wall"
+  },
+  {
+    "word": "through",
+    "level": 1,
+    "definition": "going in one end and out the other",
+    "example": "The train went through the long tunnel.",
+    "imageKeyword": "through tunnel"
+  },
+  {
+    "word": "across",
+    "level": 1,
+    "definition": "from this side over to that side",
+    "example": "She swam across the pool to the other end.",
+    "imageKeyword": "bridge going across river"
+  },
+  {
+    "word": "along",
+    "level": 1,
+    "definition": "following the edge or line of",
+    "example": "They walked along the path by the river.",
+    "imageKeyword": "along path"
+  },
+  {
+    "word": "around",
+    "level": 1,
+    "definition": "in a circle",
+    "example": "The dog ran around the tree three times.",
+    "imageKeyword": "around circle"
+  },
+  {
+    "word": "beyond",
+    "level": 1,
+    "definition": "past, farther away than",
+    "example": "The park is just beyond those tall trees.",
+    "imageKeyword": "park behind trees"
+  },
+  {
+    "word": "during",
+    "level": 1,
+    "definition": "at the same time as something else",
+    "example": "She fell asleep during the movie.",
+    "imageKeyword": "clock showing time passing"
+  },
+  {
+    "word": "until",
+    "level": 1,
+    "definition": "up to the time that",
+    "example": "Wait here until I come back.",
+    "imageKeyword": "until waiting"
+  },
+  {
+    "word": "since",
+    "level": 1,
+    "definition": "from that time to now",
+    "example": "She has been happy since she got the puppy.",
+    "imageKeyword": "calendar with days marked"
+  },
+  {
+    "word": "whether",
+    "level": 1,
+    "definition": "if one thing or another",
+    "example": "I don't know whether to bring a coat or not.",
+    "imageKeyword": "child holding coat looking at sky"
+  },
+  {
+    "word": "while",
+    "level": 1,
+    "definition": "at the same time as",
+    "example": "She read a book while she waited for the bus.",
+    "imageKeyword": "while"
+  },
+  {
+    "word": "besides",
+    "level": 1,
+    "definition": "in addition to that, also",
+    "example": "Besides apples, she also likes grapes.",
+    "imageKeyword": "apples and grapes together"
+  },
+  {
+    "word": "within",
+    "level": 1,
+    "definition": "inside",
+    "example": "Stay within the lines when you color.",
+    "imageKeyword": "coloring inside the lines"
+  },
+  {
+    "word": "without",
+    "level": 1,
+    "definition": "not having",
+    "example": "He went to school without his lunch box.",
+    "imageKeyword": "empty lunchbox"
+  },
+  {
+    "word": "throughout",
+    "level": 1,
+    "definition": "in every part of",
+    "example": "Flowers grew throughout the whole garden.",
+    "imageKeyword": "flowers in every part of garden"
+  },
+  {
+    "word": "upon",
+    "level": 1,
+    "definition": "on top of (used in stories)",
+    "example": "Once upon a time, there was a little bear.",
+    "imageKeyword": "castle upon a hill"
+  },
+  {
+    "word": "pick up",
+    "level": 1,
+    "definition": "to lift something from the ground",
+    "example": "Please pick up your toys from the floor.",
+    "imageKeyword": "picking up"
+  },
+  {
+    "word": "put down",
+    "level": 1,
+    "definition": "to set something on a table or the floor",
+    "example": "She put down the heavy bag on the table.",
+    "imageKeyword": "putting down"
+  }
+]

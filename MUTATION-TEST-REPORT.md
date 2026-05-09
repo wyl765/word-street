@@ -1,78 +1,71 @@
-# Mutation Test Report — 2026-05-08
+# Mutation Test Report — 2026-05-09
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 21 |
-| Undetected | 9 |
-| **Detection rate** | **70.0%** |
+| Detected | 27 |
+| Undetected | 3 |
+| **Detection rate** | **90.0%** |
 | Target | ≥90% |
-| Result | ❌ FAIL |
+| Result | ✅ PASS |
 
 ## Detection by Type
 
 | Mutation Type | Injected | Detected | Rate |
 |------|------|------|------|
-| factual_error | 5 | 1 | 20% |
-| banned_word | 5 | 0 | 0% |
+| factual_error | 5 | 5 | 100% |
+| banned_word | 5 | 5 | 100% |
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 5 | 100% |
+| grammar_error | 5 | 2 | 40% |
 
 ## Injected Mutations Detail
 
-- ❌ **dune** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ❌ **show off** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **ridge** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ❌ **inception** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ❌ **coconut** (factual_error): def changed to: "a type of mineral called brown fruit with white inside..."
-- ❌ **alert** (banned_word): injected "autopsy" into example
-- ❌ **fuselage** (banned_word): injected "autopsy" into example
-- ❌ **personal** (banned_word): injected "autopsy" into example
-- ❌ **moat** (banned_word): injected "genocide" into example
-- ❌ **put off** (banned_word): injected "pornography" into example
-- ✅ **tension** (collocation_error): bad collocation: "open the light"
-- ✅ **vitriolic** (collocation_error): bad collocation: "eat medicine"
-- ✅ **spill the beans** (collocation_error): bad collocation: "eat medicine"
-- ✅ **suitable** (collocation_error): bad collocation: "big rain"
-- ✅ **rancor** (collocation_error): bad collocation: "eat medicine"
-- ✅ **epic** (empty_field): emptied example
-- ✅ **usurp** (empty_field): emptied definition
-- ✅ **sphere** (empty_field): emptied definition
-- ✅ **ivory** (empty_field): emptied definition
-- ✅ **decompose** (empty_field): emptied example
-- ✅ **conquest** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **encroachment** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **nutrient** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **furious** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **fracas** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **ashamed** (grammar_error): example: "He don't was ashamed that he lied to his mom...."
-- ✅ **merchandise** (grammar_error): example: "They is happy about the merchandise...."
-- ✅ **defend** (grammar_error): example: "They is happy about the defend...."
-- ✅ **wade** (grammar_error): example: "They is happy about the wade...."
-- ✅ **icon** (grammar_error): example: "They is happy about the icon...."
+- ✅ **asset** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **neutral** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **critical** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **gradual** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **tale** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **client** (banned_word): injected "massacre" into example
+- ✅ **antiquated** (banned_word): injected "massacre" into example
+- ✅ **pigment** (banned_word): injected "massacre" into example
+- ✅ **accessible** (banned_word): injected "pornography" into example
+- ✅ **flotsam** (banned_word): injected "genocide" into example
+- ✅ **juniper** (collocation_error): bad collocation: "big rain"
+- ✅ **delighted** (collocation_error): bad collocation: "big rain"
+- ✅ **destroy** (collocation_error): bad collocation: "open the light"
+- ✅ **geologist** (collocation_error): bad collocation: "eat medicine"
+- ✅ **ozone** (collocation_error): bad collocation: "close the light"
+- ✅ **philanthropist** (empty_field): emptied definition
+- ✅ **illustration** (empty_field): emptied example
+- ✅ **locomotive** (empty_field): emptied example
+- ✅ **advantage** (empty_field): emptied example
+- ✅ **encryption** (empty_field): emptied example
+- ✅ **control** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **above all** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **inkwell** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **catch** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **treaty** (replace_accident): example: "The piano importants were black and white...."
+- ❌ **jurisdiction** (grammar_error): example: "The city police have jurisdiction within town limits, but th..."
+- ✅ **blend** (grammar_error): example: "Blend the bananas and milk to make a yummy smoothie...."
+- ✅ **censorship** (grammar_error): example: "She don't like the censorship...."
+- ❌ **endeavor** (grammar_error): example: "Learning to play piano is a worthwhile endeavor that takes y..."
+- ❌ **pajamas** (grammar_error): example: "She changed into her pajamas and brushed her teeth...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **dune** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- **show off** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- **inception** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- **coconut** (factual_error): def changed to: "a type of mineral called brown fruit with white inside..."
-- **alert** (banned_word): injected "autopsy" into example
-- **fuselage** (banned_word): injected "autopsy" into example
-- **personal** (banned_word): injected "autopsy" into example
-- **moat** (banned_word): injected "genocide" into example
-- **put off** (banned_word): injected "pornography" into example
+- **jurisdiction** (grammar_error): example: "The city police have jurisdiction within town limits, but th..."
+- **endeavor** (grammar_error): example: "Learning to play piano is a worthwhile endeavor that takes y..."
+- **pajamas** (grammar_error): example: "She changed into her pajamas and brushed her teeth...."
 
 ### Recommended Improvements
 
-- **Factual errors**: Add fact-check rules or AI-based semantic verification
-- **banned_word**: Add specific detection rules
+- **Grammar errors**: Expand SVA and grammar checks
 
 ---
 *Generated by mutation-test.mjs*

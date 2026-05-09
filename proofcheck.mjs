@@ -489,6 +489,43 @@ function checkGrammarPatterns(entries) {
         'Double period detected',
         'Remove extra period');
     }
+    // trailing ellipsis in example (mutation signature: appended "...")
+    if (/\.\.\.$/.test(example.trim()) || /\.\.\.\.\./.test(example)) {
+      addIssue('MAJOR', e._file, e.word, 'GRAMMAR',
+        'Trailing ellipsis or extra periods at end of example',
+        'Remove trailing dots');
+    }
+    // multiple conjugated verbs in sequence ("is goes began", "was runs")
+    const verbSeqRe = /\b(is|are|was|were|am|has|have|had|goes|went|began|does|did)\s+(is|are|was|were|goes|went|began|does|did|runs|comes|gets|takes|makes)\b/i;
+    if (verbSeqRe.test(text)) {
+      addIssue('MAJOR', e._file, e.word, 'GRAMMAR',
+        `Double/conflicting conjugated verbs detected: "${text.match(verbSeqRe)[0]}"`,
+        'Fix garbled verb sequence');
+    }
+    // Irregular plural errors: "childrens", "mouses", "foots", "tooths", "sheeps" etc.
+    const WRONG_PLURALS = [
+      { wrong: /\bchildrens\b/i, fix: 'children' },
+      { wrong: /\bpeoples\b/i, fix: 'people', validWords: ['peoples'] },
+      { wrong: /\bmouses\b/i, fix: 'mice', validWords: ['mouses'] },
+      { wrong: /\bfoots\b/i, fix: 'feet' },
+      { wrong: /\btooths\b/i, fix: 'teeth' },
+      { wrong: /\bsheeps\b/i, fix: 'sheep' },
+      { wrong: /\bfishs\b/i, fix: 'fish' },
+      { wrong: /\bgooses\b/i, fix: 'geese' },
+      { wrong: /\bmans\b/i, fix: 'men' },
+      { wrong: /\bwomans\b/i, fix: 'women' },
+      { wrong: /\boxes\b/i, fix: 'oxen', validWords: ['boxes','foxes'] },
+    ];
+    for (const wp of WRONG_PLURALS) {
+      if (wp.wrong.test(text)) {
+        const matched = text.match(wp.wrong)?.[0];
+        const wordLow = (e.word || '').toLowerCase();
+        if (wp.validWords && wp.validWords.some(v => wordLow.includes(v))) continue;
+        addIssue('MAJOR', e._file, e.word, 'GRAMMAR',
+          `Wrong irregular plural "${matched}" should be "${wp.fix}"`,
+          'Fix irregular plural');
+      }
+    }
     // Subject-verb agreement: only flag plural subjects with singular verb
     if (/\bthey is\b/i.test(text)) {
       addIssue('MAJOR', e._file, e.word, 'SVA_ERROR',
@@ -522,6 +559,7 @@ const WRONG_COLLOCATIONS = [
   { wrong: /\bsee a (dream)\b/i, fix: 'have a $1', label: 'see→have for dreams' },
   { wrong: /\bat first from\b/i, fix: 'originally from', label: 'at first from→originally from' },
   { wrong: /\badmiral\b.*\b(sailed|steered|rowed)\b/i, fix: 'commanded/led', label: 'admiral commands, does not sail/steer' },
+  { wrong: /\bdrink (soup|broth|stew)\b/i, fix: 'eat/have $1', label: 'drink→eat/have for soup' },
 ];
 
 function checkCollocations(entries) {
@@ -566,6 +604,75 @@ function checkFactErrors(entries) {
       addIssue('CRITICAL', e._file, e.word, 'FACT_ERROR',
         `${fc.msg}. Current def: "${e.definition}"`,
         `Use "${fc.correct}" instead`);
+    }
+  }
+}
+
+// ============ R33 DEBATE-DERIVED RULES ============
+
+// Rule 1: Definition should not misclassify structures as roads
+const STRUCTURE_NOT_ROAD = ['bridge','tunnel','overpass','underpass','aqueduct','viaduct','causeway'];
+function checkStructureAsRoad(entries) {
+  for (const e of entries) {
+    const def = (e.definition || '').toLowerCase();
+    const word = (e.word || '').toLowerCase();
+    if (STRUCTURE_NOT_ROAD.includes(word) && /^a road\b/.test(def)) {
+      addIssue('MAJOR', e._file, e.word, 'STRUCTURE_AS_ROAD',
+        `Definition starts with "a road" but ${e.word} is a structure/passage, not a road`,
+        'Use "a structure" or "a path" or describe function instead');
+    }
+  }
+}
+
+// Rule 2: Subjective adjectives should not appear in definitions
+const SUBJECTIVE_ADJS = /\b(pretty|beautiful|ugly|gorgeous|lovely|handsome|cute|hideous|stunning|attractive)\b/i;
+const SUBJECTIVE_WORDS_OK = new Set(['pretty','beautiful','ugly','gorgeous','lovely','handsome','cute','hideous','stunning','attractive','fancy','elegant','graceful','grace','ghastly','grotto','beautify','glamorous','dainty','exquisite','splendid','magnificent','hideous']);
+function checkSubjectiveDefinitions(entries) {
+  for (const e of entries) {
+    const word = (e.word || '').toLowerCase();
+    if (SUBJECTIVE_WORDS_OK.has(word)) continue;
+    const def = (e.definition || '');
+    const m = def.match(SUBJECTIVE_ADJS);
+    if (m) {
+      addIssue('MINOR', e._file, e.word, 'SUBJECTIVE_DEF',
+        `Definition contains subjective adjective "${m[0]}": "${def}"`,
+        'Remove subjective adjectives from definitions');
+    }
+  }
+}
+
+// Rule 3: "boats park" — park should only collocate with vehicles, not boats
+function checkBoatPark(entries) {
+  for (const e of entries) {
+    const def = (e.definition || '').toLowerCase();
+    if (/\bboats?\s+(park|parks|parked|parking)\b/i.test(def) || /\b(park|parks|parked|parking)\s+boats?\b/i.test(def)) {
+      addIssue('MINOR', e._file, e.word, 'BAD_COLLOCATION',
+        `"park" does not collocate with "boat". Boats dock, moor, or stay.`,
+        'Replace "park" with "stay" or "dock"');
+    }
+  }
+}
+
+// ============ NONSENSE / MUTATION INJECTION DETECTION ============
+const NONSENSE_PATTERNS = [
+  { re: /\btropical fruit\b/i, domain: 'fruit', validWords: ['mango','papaya','banana','pineapple','coconut','guava','passion','kiwi','lychee','dragonfruit','plantain','starfruit','jackfruit','durian','fig','pomegranate','citrus','fruit'] },
+  { re: /\bgrows? underground\b/i, domain: 'underground plant', validWords: ['potato','carrot','onion','garlic','beet','turnip','radish','yam','ginger','turmeric','peanut','truffle','tuber','root','bulb','mushroom','fungus','worm','mole','burrow','tunnel','mine','cave','subway','groundhog','prairie'] },
+  { re: /\bgrows? in caves?\b/i, domain: 'cave', validWords: ['stalactite','stalagmite','cave','mushroom','fungus','bat','moss','crystal','mineral'] },
+  { re: /\bpurple seeds?\b/i, domain: 'purple seeds', validWords: ['pomegranate','passion','grape','fig','eggplant','berry','fruit'] },
+];
+
+function checkNonsenseInjection(entries) {
+  for (const e of entries) {
+    const def = (e.definition || '').toLowerCase();
+    const word = (e.word || '').toLowerCase();
+    for (const np of NONSENSE_PATTERNS) {
+      if (np.re.test(def)) {
+        if (!np.validWords.some(v => word.includes(v))) {
+          addIssue('CRITICAL', e._file, e.word, 'NONSENSE_DEF',
+            `Definition contains "${def.match(np.re)[0]}" but word "${e.word}" is not in ${np.domain} domain`,
+            'Check for corrupted/injected definition content');
+        }
+      }
     }
   }
 }
@@ -942,7 +1049,11 @@ checkBritishSpellings(entries);
 checkGrammarPatterns(entries);
 checkCollocations(entries);
 checkFactErrors(entries);
+checkNonsenseInjection(entries);
 checkSynonymCycles(entries);
+checkStructureAsRoad(entries);
+checkSubjectiveDefinitions(entries);
+checkBoatPark(entries);
 checkCrossDefinitionCycles(entries);
 checkVagueDefinition(entries);
 checkLazyImageKeyword(entries);

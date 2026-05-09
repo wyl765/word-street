@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-09
 
-3760 ambiguous pairs found.
+3754 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -1129,10 +1129,6 @@
 ## L2: "ancient" vs "recently" (100%)
 - ancient: from a very long time ago
 - recently: not long ago
-
-## L2: "ancient" vs "eventually" (67%)
-- ancient: from a very long time ago
-- eventually: after a long time
 
 ## L2: "ancient" vs "prolonged" (67%)
 - ancient: from a very long time ago
@@ -3778,33 +3774,13 @@
 - quite: more than a little but not completely
 - day by day: a little more each day
 
-## L2: "eventually" vs "durable" (67%)
-- eventually: after a long time
-- durable: strong and able to last a long time
-
-## L2: "eventually" vs "at last" (100%)
-- eventually: after a long time
+## L2: "eventually" vs "at last" (75%)
+- eventually: in the end, after a long time or much effort
 - at last: finally, after a long time
 
 ## L2: "eventually" vs "prolonged" (67%)
-- eventually: after a long time
+- eventually: in the end, after a long time or much effort
 - prolonged: lasting a long time
-
-## L2: "eventually" vs "evolve" (67%)
-- eventually: after a long time
-- evolve: to change slowly over a long time
-
-## L2: "eventually" vs "preserve" (67%)
-- eventually: after a long time
-- preserve: to keep something safe so it lasts a long time
-
-## L2: "eventually" vs "sustain" (67%)
-- eventually: after a long time
-- sustain: to keep going or support for a long time
-
-## L2: "eventually" vs "chronic" (67%)
-- eventually: after a long time
-- chronic: lasting a long time or happening again and again
 
 ## L2: "avoid" vs "distant" (100%)
 - avoid: to stay away from something

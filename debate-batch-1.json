@@ -1,0 +1,1402 @@
+[
+  {
+    "word": "puppy",
+    "level": 1,
+    "definition": "a baby dog",
+    "example": "The little puppy wagged its tail and licked my hand.",
+    "imageKeyword": "puppy"
+  },
+  {
+    "word": "kitten",
+    "level": 1,
+    "definition": "a baby cat",
+    "example": "The soft kitten curled up in my lap and purred.",
+    "imageKeyword": "kitten"
+  },
+  {
+    "word": "bunny",
+    "level": 1,
+    "definition": "a small rabbit",
+    "example": "The white bunny hopped across the grass.",
+    "imageKeyword": "bunny rabbit"
+  },
+  {
+    "word": "duckling",
+    "level": 1,
+    "definition": "a baby duck",
+    "example": "The yellow duckling followed its mother to the pond.",
+    "imageKeyword": "duckling"
+  },
+  {
+    "word": "chick",
+    "level": 1,
+    "definition": "a very young bird, especially a baby chicken",
+    "example": "The fluffy chick pecked at the seeds on the ground.",
+    "imageKeyword": "baby chick"
+  },
+  {
+    "word": "lamb",
+    "level": 1,
+    "definition": "a baby sheep",
+    "example": "The little lamb stayed close to its mother in the field.",
+    "imageKeyword": "lamb"
+  },
+  {
+    "word": "cub",
+    "level": 1,
+    "definition": "a baby bear, lion, or fox",
+    "example": "The bear cub played near the river while its mother watched.",
+    "imageKeyword": "bear cub"
+  },
+  {
+    "word": "fawn",
+    "level": 1,
+    "definition": "a baby deer",
+    "example": "The spotted fawn hid in the tall grass.",
+    "imageKeyword": "baby deer"
+  },
+  {
+    "word": "foal",
+    "level": 1,
+    "definition": "a baby horse",
+    "example": "The long-legged foal ran beside its mother.",
+    "imageKeyword": "baby horse"
+  },
+  {
+    "word": "pony",
+    "level": 1,
+    "definition": "a small horse",
+    "example": "She got to ride a pony at the farm.",
+    "imageKeyword": "pony"
+  },
+  {
+    "word": "rooster",
+    "level": 1,
+    "definition": "a male chicken that crows",
+    "example": "The rooster crowed loudly every morning at sunrise.",
+    "imageKeyword": "rooster"
+  },
+  {
+    "word": "hen",
+    "level": 1,
+    "definition": "a female chicken that lays eggs",
+    "example": "The hen sat on her eggs to keep them warm.",
+    "imageKeyword": "hen"
+  },
+  {
+    "word": "goose",
+    "level": 1,
+    "definition": "a big bird that honks and lives near water",
+    "example": "The goose honked and flapped its wings at us.",
+    "imageKeyword": "goose"
+  },
+  {
+    "word": "swan",
+    "level": 1,
+    "definition": "a large bird with a long neck that lives on water",
+    "example": "The beautiful swan glided across the lake.",
+    "imageKeyword": "swan"
+  },
+  {
+    "word": "owl",
+    "level": 1,
+    "definition": "a bird that hunts at night",
+    "example": "The owl hooted from the tree when it got dark.",
+    "imageKeyword": "owl"
+  },
+  {
+    "word": "robin",
+    "level": 1,
+    "definition": "a small bird with a red or orange chest",
+    "example": "A robin sat on the fence singing a sweet song.",
+    "imageKeyword": "robin bird"
+  },
+  {
+    "word": "sparrow",
+    "level": 1,
+    "definition": "a small brown bird",
+    "example": "The tiny sparrow pecked crumbs from the sidewalk.",
+    "imageKeyword": "sparrow"
+  },
+  {
+    "word": "crow",
+    "level": 1,
+    "definition": "a big black bird",
+    "example": "The crow cawed loudly from the top of the tree.",
+    "imageKeyword": "crow"
+  },
+  {
+    "word": "eagle",
+    "level": 1,
+    "definition": "a very large bird that flies high",
+    "example": "The eagle soared high above the mountains.",
+    "imageKeyword": "eagle"
+  },
+  {
+    "word": "whale",
+    "level": 1,
+    "definition": "a very large sea animal that breathes air",
+    "example": "We saw a huge whale jump out of the ocean.",
+    "imageKeyword": "whale"
+  },
+  {
+    "word": "dolphin",
+    "level": 1,
+    "definition": "a smart sea animal that swims and breathes air",
+    "example": "The dolphin leaped out of the water and splashed back in.",
+    "imageKeyword": "dolphin"
+  },
+  {
+    "word": "shark",
+    "level": 1,
+    "definition": "a large ocean animal with sharp teeth",
+    "example": "The shark swam fast through the dark water.",
+    "imageKeyword": "shark"
+  },
+  {
+    "word": "turtle",
+    "level": 1,
+    "definition": "a reptile with a hard shell that covers its body",
+    "example": "The turtle pulled its head inside its shell.",
+    "imageKeyword": "turtle"
+  },
+  {
+    "word": "lizard",
+    "level": 1,
+    "definition": "a small animal like a snake but with four legs and a long tail",
+    "example": "A green lizard sat on the warm rock in the sun.",
+    "imageKeyword": "lizard"
+  },
+  {
+    "word": "frog",
+    "level": 1,
+    "definition": "a small animal that jumps and lives near water",
+    "example": "The frog jumped off the lily pad into the pond.",
+    "imageKeyword": "frog"
+  },
+  {
+    "word": "toad",
+    "level": 1,
+    "definition": "a small bumpy animal that hops and lives on land",
+    "example": "The toad sat in the mud near the garden.",
+    "imageKeyword": "toad"
+  },
+  {
+    "word": "snail",
+    "level": 1,
+    "definition": "a tiny animal with a shell that moves slowly",
+    "example": "The snail left a shiny trail on the leaf.",
+    "imageKeyword": "snail"
+  },
+  {
+    "word": "worm",
+    "level": 1,
+    "definition": "a tiny soft animal with no legs that lives in dirt",
+    "example": "After the rain, a worm came out of the dirt.",
+    "imageKeyword": "worm"
+  },
+  {
+    "word": "spider",
+    "level": 1,
+    "definition": "a small animal with eight legs that makes webs",
+    "example": "The spider made a web between two branches.",
+    "imageKeyword": "spider"
+  },
+  {
+    "word": "beetle",
+    "level": 1,
+    "definition": "an insect with a hard shell",
+    "example": "A shiny black beetle crawled across the log.",
+    "imageKeyword": "beetle"
+  },
+  {
+    "word": "ladybug",
+    "level": 1,
+    "definition": "a small red bug with black spots",
+    "example": "A ladybug landed on my finger, and then flew away.",
+    "imageKeyword": "ladybug"
+  },
+  {
+    "word": "butterfly",
+    "level": 1,
+    "definition": "an insect with big colorful wings",
+    "example": "The orange butterfly flew from flower to flower.",
+    "imageKeyword": "butterfly"
+  },
+  {
+    "word": "caterpillar",
+    "level": 1,
+    "definition": "a small animal with many legs that turns into a butterfly",
+    "example": "The green caterpillar munched on leaves all day.",
+    "imageKeyword": "caterpillar"
+  },
+  {
+    "word": "ant",
+    "level": 1,
+    "definition": "a tiny bug that lives in a group",
+    "example": "The ant carried a crumb back to its hill.",
+    "imageKeyword": "ant"
+  },
+  {
+    "word": "bee",
+    "level": 1,
+    "definition": "a small flying insect that buzzes and can sting",
+    "example": "The bee buzzed around the yellow flowers.",
+    "imageKeyword": "bee"
+  },
+  {
+    "word": "squirrel",
+    "level": 1,
+    "definition": "a small animal with a bushy tail that climbs trees and collects nuts",
+    "example": "The squirrel hid a nut inside the tree hole.",
+    "imageKeyword": "squirrel"
+  },
+  {
+    "word": "raccoon",
+    "level": 1,
+    "definition": "an animal with black fur around its eyes like a mask",
+    "example": "A raccoon knocked over the trash can at night.",
+    "imageKeyword": "raccoon"
+  },
+  {
+    "word": "skunk",
+    "level": 1,
+    "definition": "a black and white animal that smells bad",
+    "example": "We smelled the skunk before we even saw it.",
+    "imageKeyword": "skunk"
+  },
+  {
+    "word": "beaver",
+    "level": 1,
+    "definition": "an animal that builds dams with sticks",
+    "example": "The beaver chewed on a log to build its home.",
+    "imageKeyword": "beaver"
+  },
+  {
+    "word": "moose",
+    "level": 1,
+    "definition": "a very big deer with large flat antlers",
+    "example": "The huge moose stood in the middle of the road.",
+    "imageKeyword": "moose"
+  },
+  {
+    "word": "toast",
+    "level": 1,
+    "definition": "bread that is cooked until brown",
+    "example": "I put butter on my toast for breakfast.",
+    "imageKeyword": "buttered toast bread"
+  },
+  {
+    "word": "cereal",
+    "level": 1,
+    "definition": "food you eat with milk, often for breakfast",
+    "example": "He poured cereal into his bowl and added milk.",
+    "imageKeyword": "cereal bowl"
+  },
+  {
+    "word": "pancake",
+    "level": 1,
+    "definition": "a flat round food you eat for breakfast",
+    "example": "Dad made a pancake shaped like a smiley face.",
+    "imageKeyword": "pancake"
+  },
+  {
+    "word": "waffle",
+    "level": 1,
+    "definition": "a breakfast food with little squares on it",
+    "example": "I poured syrup into the squares of my waffle.",
+    "imageKeyword": "waffle"
+  },
+  {
+    "word": "oatmeal",
+    "level": 1,
+    "definition": "a hot breakfast food made from oats",
+    "example": "On cold mornings, I like a warm bowl of oatmeal.",
+    "imageKeyword": "oatmeal"
+  },
+  {
+    "word": "sandwich",
+    "level": 1,
+    "definition": "food made with bread and something inside",
+    "example": "Mom packed a peanut butter sandwich in my lunch box.",
+    "imageKeyword": "sandwich"
+  },
+  {
+    "word": "pretzel",
+    "level": 1,
+    "definition": "a salty snack made of twisted bread",
+    "example": "I ate a warm pretzel with mustard.",
+    "imageKeyword": "pretzel"
+  },
+  {
+    "word": "cracker",
+    "level": 1,
+    "definition": "thin dry food that crunches",
+    "example": "She put cheese on each cracker.",
+    "imageKeyword": "cracker"
+  },
+  {
+    "word": "noodle",
+    "level": 1,
+    "definition": "long thin food made from dough",
+    "example": "He slurped the long noodle into his mouth.",
+    "imageKeyword": "noodle"
+  },
+  {
+    "word": "muffin",
+    "level": 1,
+    "definition": "a small soft cake",
+    "example": "The blueberry muffin was still warm from the oven.",
+    "imageKeyword": "muffin"
+  },
+  {
+    "word": "cupcake",
+    "level": 1,
+    "definition": "a small cake with frosting on top",
+    "example": "She licked the pink frosting off her cupcake.",
+    "imageKeyword": "cupcake"
+  },
+  {
+    "word": "cookie",
+    "level": 1,
+    "definition": "a small sweet flat food",
+    "example": "Grandma baked chocolate chip cookies for us.",
+    "imageKeyword": "cookie"
+  },
+  {
+    "word": "doughnut",
+    "level": 1,
+    "definition": "round sweet food with a hole",
+    "example": "The doughnut was covered in sugar and sprinkles.",
+    "imageKeyword": "doughnut"
+  },
+  {
+    "word": "pudding",
+    "level": 1,
+    "definition": "a soft sweet food you eat with a spoon",
+    "example": "The chocolate pudding was cold and smooth.",
+    "imageKeyword": "pudding"
+  },
+  {
+    "word": "jelly",
+    "level": 1,
+    "definition": "a soft sweet spread for bread",
+    "example": "I like grape jelly on my toast.",
+    "imageKeyword": "jelly jar"
+  },
+  {
+    "word": "syrup",
+    "level": 1,
+    "definition": "a thick sweet stuff you pour on food",
+    "example": "He poured syrup all over his pancakes.",
+    "imageKeyword": "maple syrup"
+  },
+  {
+    "word": "honey",
+    "level": 1,
+    "definition": "sweet food that bees make",
+    "example": "Bears love to eat honey from beehives.",
+    "imageKeyword": "honey jar"
+  },
+  {
+    "word": "popcorn",
+    "level": 1,
+    "definition": "corn that pops when you heat it",
+    "example": "We ate popcorn while we watched the movie.",
+    "imageKeyword": "popcorn"
+  },
+  {
+    "word": "yogurt",
+    "level": 1,
+    "definition": "thick creamy food made from milk",
+    "example": "He stirred the yogurt and added some berries on top.",
+    "imageKeyword": "yogurt"
+  },
+  {
+    "word": "grape",
+    "level": 1,
+    "definition": "a small round fruit that grows in bunches",
+    "example": "She picked a purple grape off the vine.",
+    "imageKeyword": "grape"
+  },
+  {
+    "word": "cherry",
+    "level": 1,
+    "definition": "a small round red fruit",
+    "example": "The cherry on top of the ice cream was bright red.",
+    "imageKeyword": "cherry"
+  },
+  {
+    "word": "peach",
+    "level": 1,
+    "definition": "a soft fruit with fuzzy skin",
+    "example": "Juice dripped down my chin when I bit the peach.",
+    "imageKeyword": "peach"
+  },
+  {
+    "word": "plum",
+    "level": 1,
+    "definition": "a small purple fruit",
+    "example": "The ripe plum was sweet and juicy.",
+    "imageKeyword": "plum"
+  },
+  {
+    "word": "melon",
+    "level": 1,
+    "definition": "a large fruit with a thick skin and soft inside",
+    "example": "We cut the melon into slices on a hot day.",
+    "imageKeyword": "melon slice"
+  },
+  {
+    "word": "berry",
+    "level": 1,
+    "definition": "a small juicy fruit",
+    "example": "We picked every berry from the bush in our yard.",
+    "imageKeyword": "berries"
+  },
+  {
+    "word": "lemon",
+    "level": 1,
+    "definition": "a yellow fruit that tastes sharp and not sweet",
+    "example": "The lemon was too sour to eat by itself.",
+    "imageKeyword": "lemon"
+  },
+  {
+    "word": "coconut",
+    "level": 1,
+    "definition": "a big brown fruit with white inside",
+    "example": "We cracked open the coconut and drank the water inside.",
+    "imageKeyword": "coconut"
+  },
+  {
+    "word": "peanut",
+    "level": 1,
+    "definition": "a small food that grows in a shell underground",
+    "example": "The elephant ate a peanut right from my hand.",
+    "imageKeyword": "peanut"
+  },
+  {
+    "word": "celery",
+    "level": 1,
+    "definition": "a long green crunchy vegetable",
+    "example": "She dipped the celery stick into peanut butter.",
+    "imageKeyword": "celery"
+  },
+  {
+    "word": "broccoli",
+    "level": 1,
+    "definition": "a green vegetable that looks like a tiny tree",
+    "example": "The broccoli on my plate looked like little trees.",
+    "imageKeyword": "broccoli"
+  },
+  {
+    "word": "lettuce",
+    "level": 1,
+    "definition": "green leaves you eat in a salad",
+    "example": "The rabbit munched on the fresh green lettuce.",
+    "imageKeyword": "lettuce"
+  },
+  {
+    "word": "pepper",
+    "level": 1,
+    "definition": "a crunchy vegetable that can be red, green, or yellow and is hollow inside",
+    "example": "Mom sliced a red bell pepper for our salad.",
+    "imageKeyword": "bell pepper"
+  },
+  {
+    "word": "onion",
+    "level": 1,
+    "definition": "a round vegetable that makes you cry",
+    "example": "Cutting the onion made tears run down my face.",
+    "imageKeyword": "onion"
+  },
+  {
+    "word": "mushroom",
+    "level": 1,
+    "definition": "a living thing with a cap on top and a stem, that grows in damp places",
+    "example": "The mushroom grew under the big tree after the rain.",
+    "imageKeyword": "mushroom"
+  },
+  {
+    "word": "stew",
+    "level": 1,
+    "definition": "a thick hot meal of meat and vegetables cooked slowly in a pot",
+    "example": "The warm stew was perfect on a cold winter night.",
+    "imageKeyword": "stew pot"
+  },
+  {
+    "word": "gravy",
+    "level": 1,
+    "definition": "a thick sauce you pour on meat",
+    "example": "He poured gravy all over his mashed potatoes.",
+    "imageKeyword": "gravy"
+  },
+  {
+    "word": "feast",
+    "level": 1,
+    "definition": "a very big special meal",
+    "example": "The family had a feast with turkey and pie.",
+    "imageKeyword": "feast table"
+  },
+  {
+    "word": "snack",
+    "level": 1,
+    "definition": "a small bit of food between meals",
+    "example": "After school, he had a snack of apples and cheese.",
+    "imageKeyword": "snack"
+  },
+  {
+    "word": "treat",
+    "level": 1,
+    "definition": "something special that makes you happy",
+    "example": "Ice cream after dinner was a special treat.",
+    "imageKeyword": "ice cream treat"
+  },
+  {
+    "word": "slice",
+    "level": 1,
+    "definition": "a thin piece cut from something",
+    "example": "Can I have one slice of pizza, please?",
+    "imageKeyword": "pizza slice"
+  },
+  {
+    "word": "elbow",
+    "level": 1,
+    "definition": "the part in the middle of your arm that can bend",
+    "example": "She bumped her elbow on the table and said ouch.",
+    "imageKeyword": "arm with arrow pointing to elbow joint"
+  },
+  {
+    "word": "wrist",
+    "level": 1,
+    "definition": "where your hand meets your arm",
+    "example": "She wore a pretty bracelet on her wrist.",
+    "imageKeyword": "hand and arm with arrow pointing to wrist"
+  },
+  {
+    "word": "ankle",
+    "level": 1,
+    "definition": "where your foot meets your leg",
+    "example": "He twisted his ankle when he jumped off the step.",
+    "imageKeyword": "foot and leg with arrow pointing to ankle"
+  },
+  {
+    "word": "heel",
+    "level": 1,
+    "definition": "the back part of your foot",
+    "example": "Her shoe rubbed a blister on her heel.",
+    "imageKeyword": "foot with arrow pointing to heel"
+  },
+  {
+    "word": "thumb",
+    "level": 1,
+    "definition": "the short fat finger on your hand",
+    "example": "The baby sucked his thumb when he was sleepy.",
+    "imageKeyword": "thumb"
+  },
+  {
+    "word": "palm",
+    "level": 1,
+    "definition": "the flat inside part of your hand",
+    "example": "He held the coin in the palm of his hand.",
+    "imageKeyword": "palm hand"
+  },
+  {
+    "word": "fist",
+    "level": 1,
+    "definition": "a hand with all fingers closed tight",
+    "example": "He made a fist and knocked on the door.",
+    "imageKeyword": "fist"
+  },
+  {
+    "word": "chin",
+    "level": 1,
+    "definition": "the bottom part of your face",
+    "example": "Juice dripped down his chin when he ate the peach.",
+    "imageKeyword": "face with arrow pointing to chin"
+  },
+  {
+    "word": "cheek",
+    "level": 1,
+    "definition": "the soft side of your face",
+    "example": "Grandma kissed him on the cheek.",
+    "imageKeyword": "cheek face"
+  },
+  {
+    "word": "forehead",
+    "level": 1,
+    "definition": "the flat part above your eyes",
+    "example": "Mom felt my forehead to see if I had a fever.",
+    "imageKeyword": "face with arrow pointing to forehead"
+  },
+  {
+    "word": "eyebrow",
+    "level": 1,
+    "definition": "the line of hair above your eye",
+    "example": "He raised one eyebrow when he was surprised.",
+    "imageKeyword": "eyebrow"
+  },
+  {
+    "word": "eyelash",
+    "level": 1,
+    "definition": "tiny hairs on the edge of your eye",
+    "example": "An eyelash fell on her cheek, and she made a wish.",
+    "imageKeyword": "eyelash"
+  },
+  {
+    "word": "tongue",
+    "level": 1,
+    "definition": "the soft part inside your mouth",
+    "example": "The dog stuck out its tongue and licked my face.",
+    "imageKeyword": "tongue"
+  },
+  {
+    "word": "throat",
+    "level": 1,
+    "definition": "the inside of your neck where food and air pass",
+    "example": "My throat hurt so much I could not swallow.",
+    "imageKeyword": "throat"
+  },
+  {
+    "word": "shoulder",
+    "level": 1,
+    "definition": "where your arm connects to your body",
+    "example": "She carried the bag over her shoulder.",
+    "imageKeyword": "person with arrow pointing to shoulder"
+  },
+  {
+    "word": "hip",
+    "level": 1,
+    "definition": "the wide part where your legs meet your body",
+    "example": "He put his hands on his hips and said stop.",
+    "imageKeyword": "person with arrow pointing to hip"
+  },
+  {
+    "word": "spine",
+    "level": 1,
+    "definition": "the bones down your back that help you stand straight",
+    "example": "Stand up straight, so your spine is not curved.",
+    "imageKeyword": "back with arrow pointing to spine"
+  },
+  {
+    "word": "rib",
+    "level": 1,
+    "definition": "the bones around your chest that protect your body",
+    "example": "He laughed so hard his ribs hurt.",
+    "imageKeyword": "rib cage"
+  },
+  {
+    "word": "skull",
+    "level": 1,
+    "definition": "the bone that covers your brain",
+    "example": "Helmets protect your skull if you fall.",
+    "imageKeyword": "anatomy head bone diagram"
+  },
+  {
+    "word": "muscle",
+    "level": 1,
+    "definition": "the part of your body that helps you move",
+    "example": "He flexed his arm to show his muscles.",
+    "imageKeyword": "muscle arm"
+  },
+  {
+    "word": "mitten",
+    "level": 1,
+    "definition": "a warm cover for your hand with no fingers",
+    "example": "She put on a fuzzy mitten to keep her hand warm.",
+    "imageKeyword": "mitten"
+  },
+  {
+    "word": "scarf",
+    "level": 1,
+    "definition": "a long cloth you wrap around your neck",
+    "example": "The red scarf kept her neck warm in the snow.",
+    "imageKeyword": "scarf"
+  },
+  {
+    "word": "hoodie",
+    "level": 1,
+    "definition": "a shirt with a hood on the back",
+    "example": "He pulled the hood of his hoodie over his head in the rain.",
+    "imageKeyword": "hoodie"
+  },
+  {
+    "word": "vest",
+    "level": 1,
+    "definition": "a jacket with no sleeves",
+    "example": "He wore a warm vest over his shirt.",
+    "imageKeyword": "vest"
+  },
+  {
+    "word": "apron",
+    "level": 1,
+    "definition": "cloth you wear to keep clean while cooking",
+    "example": "Mom tied her apron before she started baking.",
+    "imageKeyword": "apron"
+  },
+  {
+    "word": "sleeve",
+    "level": 1,
+    "definition": "the part of a shirt that covers your arm",
+    "example": "He rolled up his sleeve before washing his hands.",
+    "imageKeyword": "sleeve"
+  },
+  {
+    "word": "pocket",
+    "level": 1,
+    "definition": "a small bag sewn into clothes",
+    "example": "He put the rock in his pocket to save for later.",
+    "imageKeyword": "pocket"
+  },
+  {
+    "word": "zipper",
+    "level": 1,
+    "definition": "something that opens and closes your jacket",
+    "example": "He pulled up the zipper on his coat because it was cold.",
+    "imageKeyword": "zipper"
+  },
+  {
+    "word": "button",
+    "level": 1,
+    "definition": "a small round thing that holds clothes closed",
+    "example": "One button on his shirt popped off.",
+    "imageKeyword": "button shirt"
+  },
+  {
+    "word": "buckle",
+    "level": 1,
+    "definition": "a metal clip that holds a belt closed",
+    "example": "He snapped the buckle on his belt.",
+    "imageKeyword": "belt buckle"
+  },
+  {
+    "word": "lace",
+    "level": 1,
+    "definition": "the string you tie on a shoe",
+    "example": "She pulled the lace tight and tied a bow on her shoe.",
+    "imageKeyword": "shoe lace"
+  },
+  {
+    "word": "slipper",
+    "level": 1,
+    "definition": "a soft shoe you wear inside",
+    "example": "She put on her fuzzy slippers when she got out of bed.",
+    "imageKeyword": "slippers"
+  },
+  {
+    "word": "sandal",
+    "level": 1,
+    "definition": "an open shoe for warm weather",
+    "example": "He wore sandals to the beach so his feet could breathe.",
+    "imageKeyword": "sandals"
+  },
+  {
+    "word": "sneaker",
+    "level": 1,
+    "definition": "a shoe for running and playing",
+    "example": "She put on her sneakers before going to the playground.",
+    "imageKeyword": "sneakers"
+  },
+  {
+    "word": "boot",
+    "level": 1,
+    "definition": "a tall shoe that covers your ankle",
+    "example": "He wore rain boots so his feet stayed dry.",
+    "imageKeyword": "rain boots"
+  },
+  {
+    "word": "collar",
+    "level": 1,
+    "definition": "the part of a shirt around your neck",
+    "example": "The tag on his collar was itchy.",
+    "imageKeyword": "shirt collar"
+  },
+  {
+    "word": "hem",
+    "level": 1,
+    "definition": "the bottom edge of a skirt or pants",
+    "example": "The hem of her dress dragged on the floor.",
+    "imageKeyword": "dress hem"
+  },
+  {
+    "word": "pajamas",
+    "level": 1,
+    "definition": "clothes you wear to bed",
+    "example": "She changed into her pajamas and brushed her teeth.",
+    "imageKeyword": "pajamas"
+  },
+  {
+    "word": "costume",
+    "level": 1,
+    "definition": "special clothes to look like someone else",
+    "example": "He wore a pirate costume for Halloween.",
+    "imageKeyword": "costume"
+  },
+  {
+    "word": "uniform",
+    "level": 1,
+    "definition": "the same clothes everyone in a group wears",
+    "example": "All the players wore the same team uniform.",
+    "imageKeyword": "uniform"
+  },
+  {
+    "word": "blanket",
+    "level": 1,
+    "definition": "a soft cover for your bed",
+    "example": "She pulled the warm blanket up to her chin.",
+    "imageKeyword": "blanket"
+  },
+  {
+    "word": "pillow",
+    "level": 1,
+    "definition": "a soft thing you rest your head on",
+    "example": "He fluffed his pillow before going to sleep.",
+    "imageKeyword": "pillow"
+  },
+  {
+    "word": "towel",
+    "level": 1,
+    "definition": "cloth you use to dry off",
+    "example": "She wrapped a towel around herself after her bath.",
+    "imageKeyword": "towel"
+  },
+  {
+    "word": "soap",
+    "level": 1,
+    "definition": "what you use to get clean",
+    "example": "The soap made lots of bubbles in the bath.",
+    "imageKeyword": "soap bubbles"
+  },
+  {
+    "word": "sponge",
+    "level": 1,
+    "definition": "a soft thing that soaks up water",
+    "example": "Dad wiped the table with a wet sponge.",
+    "imageKeyword": "sponge"
+  },
+  {
+    "word": "broom",
+    "level": 1,
+    "definition": "a long stick with stiff hairs at the end, used for sweeping",
+    "example": "She used the broom to sweep the crumbs off the floor.",
+    "imageKeyword": "broom"
+  },
+  {
+    "word": "bucket",
+    "level": 1,
+    "definition": "a round open thing with a handle for carrying water or sand",
+    "example": "He filled the bucket with sand at the beach.",
+    "imageKeyword": "bucket"
+  },
+  {
+    "word": "ladder",
+    "level": 1,
+    "definition": "something with steps you climb up",
+    "example": "Dad used a ladder to reach the roof.",
+    "imageKeyword": "ladder"
+  },
+  {
+    "word": "drawer",
+    "level": 1,
+    "definition": "a box that slides in and out of a desk",
+    "example": "She put her socks in the top drawer.",
+    "imageKeyword": "drawer"
+  },
+  {
+    "word": "shelf",
+    "level": 1,
+    "definition": "a flat board on a wall for holding things",
+    "example": "The books sat in a row on the shelf.",
+    "imageKeyword": "bookshelf"
+  },
+  {
+    "word": "closet",
+    "level": 1,
+    "definition": "a small room where you keep clothes",
+    "example": "He hung his coat in the closet.",
+    "imageKeyword": "closet"
+  },
+  {
+    "word": "curtain",
+    "level": 1,
+    "definition": "cloth that covers a window",
+    "example": "She opened the curtain to let the sun in.",
+    "imageKeyword": "curtain"
+  },
+  {
+    "word": "rug",
+    "level": 1,
+    "definition": "a soft cloth on the floor",
+    "example": "The cat slept on the soft rug by the fire.",
+    "imageKeyword": "rug"
+  },
+  {
+    "word": "lamp",
+    "level": 1,
+    "definition": "something that gives light",
+    "example": "He turned on the lamp to read his book.",
+    "imageKeyword": "lamp"
+  },
+  {
+    "word": "candle",
+    "level": 1,
+    "definition": "a stick of wax that burns with a flame",
+    "example": "We lit a candle when the lights went out.",
+    "imageKeyword": "candle"
+  },
+  {
+    "word": "vase",
+    "level": 1,
+    "definition": "a jar you put flowers in",
+    "example": "She put the roses in a pretty vase.",
+    "imageKeyword": "vase flowers"
+  },
+  {
+    "word": "frame",
+    "level": 1,
+    "definition": "a border around a picture",
+    "example": "The photo was in a wooden frame on the wall.",
+    "imageKeyword": "picture frame"
+  },
+  {
+    "word": "envelope",
+    "level": 1,
+    "definition": "a paper cover for a letter",
+    "example": "She sealed the envelope and put a stamp on it.",
+    "imageKeyword": "envelope"
+  },
+  {
+    "word": "stamp",
+    "level": 1,
+    "definition": "a small sticker you put on mail",
+    "example": "You need a stamp to send a letter.",
+    "imageKeyword": "postage stamp"
+  },
+  {
+    "word": "package",
+    "level": 1,
+    "definition": "a box that is sent to you",
+    "example": "A big package came in the mail today.",
+    "imageKeyword": "package box"
+  },
+  {
+    "word": "scissors",
+    "level": 1,
+    "definition": "a tool for cutting paper",
+    "example": "She used scissors to cut out the paper star.",
+    "imageKeyword": "scissors"
+  },
+  {
+    "word": "glue",
+    "level": 1,
+    "definition": "sticky stuff you use to stick things together",
+    "example": "He used glue to stick the picture on the poster.",
+    "imageKeyword": "glue bottle"
+  },
+  {
+    "word": "tape",
+    "level": 1,
+    "definition": "sticky strip for holding things",
+    "example": "He used tape to hang the drawing on the fridge.",
+    "imageKeyword": "tape roll"
+  },
+  {
+    "word": "crayon",
+    "level": 1,
+    "definition": "a colored stick for drawing",
+    "example": "She picked a red crayon to color the apple.",
+    "imageKeyword": "crayon"
+  },
+  {
+    "word": "chalk",
+    "level": 1,
+    "definition": "a soft stick for writing on a board",
+    "example": "He drew a rainbow on the sidewalk with chalk.",
+    "imageKeyword": "chalk"
+  },
+  {
+    "word": "eraser",
+    "level": 1,
+    "definition": "something you rub to erase pencil marks",
+    "example": "She rubbed the eraser over her mistake.",
+    "imageKeyword": "eraser"
+  },
+  {
+    "word": "ruler",
+    "level": 1,
+    "definition": "a straight tool for measuring",
+    "example": "He used a ruler to draw a straight line.",
+    "imageKeyword": "ruler"
+  },
+  {
+    "word": "thermometer",
+    "level": 1,
+    "definition": "a tool that tells how hot or cold it is",
+    "example": "Mom put the thermometer in my mouth to check my temperature.",
+    "imageKeyword": "thermometer"
+  },
+  {
+    "word": "battery",
+    "level": 1,
+    "definition": "the thing that gives power to a toy",
+    "example": "The toy stopped working because the battery ran out.",
+    "imageKeyword": "battery"
+  },
+  {
+    "word": "switch",
+    "level": 1,
+    "definition": "the thing you flip to turn something on or off",
+    "example": "He flipped the switch and the room went dark.",
+    "imageKeyword": "light switch"
+  },
+  {
+    "word": "barn",
+    "level": 1,
+    "definition": "a building on a farm for animals",
+    "example": "The cows went into the big red barn at night.",
+    "imageKeyword": "barn"
+  },
+  {
+    "word": "stable",
+    "level": 1,
+    "definition": "a building where horses live",
+    "example": "The horse walked back into its stable after the ride.",
+    "imageKeyword": "horse stable"
+  },
+  {
+    "word": "cabin",
+    "level": 1,
+    "definition": "a small house made of wood",
+    "example": "We stayed in a cozy cabin in the mountains.",
+    "imageKeyword": "log cabin"
+  },
+  {
+    "word": "cottage",
+    "level": 1,
+    "definition": "a small pretty house",
+    "example": "The old woman lived in a little cottage by the woods.",
+    "imageKeyword": "cottage"
+  },
+  {
+    "word": "castle",
+    "level": 1,
+    "definition": "a big stone building where kings live",
+    "example": "The princess lived in a tall castle on the hill.",
+    "imageKeyword": "castle"
+  },
+  {
+    "word": "tower",
+    "level": 1,
+    "definition": "a tall thin building",
+    "example": "She looked out from the top of the tower.",
+    "imageKeyword": "tower"
+  },
+  {
+    "word": "bridge",
+    "level": 1,
+    "definition": "a road over water or a valley",
+    "example": "We walked across the bridge to get to the other side of the river.",
+    "imageKeyword": "bridge"
+  },
+  {
+    "word": "tunnel",
+    "level": 1,
+    "definition": "a road that goes through a mountain",
+    "example": "The train went into the dark tunnel.",
+    "imageKeyword": "tunnel"
+  },
+  {
+    "word": "harbor",
+    "level": 1,
+    "definition": "a safe place where boats park",
+    "example": "The boats were tied up in the harbor.",
+    "imageKeyword": "harbor boats"
+  },
+  {
+    "word": "island",
+    "level": 1,
+    "definition": "land with water all around it",
+    "example": "The island was so small you could walk around it in one hour.",
+    "imageKeyword": "island"
+  },
+  {
+    "word": "forest",
+    "level": 1,
+    "definition": "a big area full of trees",
+    "example": "They got lost in the dark forest.",
+    "imageKeyword": "forest"
+  },
+  {
+    "word": "meadow",
+    "level": 1,
+    "definition": "a big open field of grass and flowers",
+    "example": "The deer ate grass in the sunny meadow.",
+    "imageKeyword": "meadow"
+  },
+  {
+    "word": "pond",
+    "level": 1,
+    "definition": "a small body of water",
+    "example": "The ducks swam around the pond.",
+    "imageKeyword": "pond"
+  },
+  {
+    "word": "stream",
+    "level": 1,
+    "definition": "a small river",
+    "example": "We stepped on rocks to cross the stream.",
+    "imageKeyword": "stream"
+  },
+  {
+    "word": "cliff",
+    "level": 1,
+    "definition": "a very tall rock wall",
+    "example": "The bird nested on the high cliff.",
+    "imageKeyword": "cliff"
+  },
+  {
+    "word": "cave",
+    "level": 1,
+    "definition": "a hole in a rock or mountain",
+    "example": "The bear went into the dark cave to sleep.",
+    "imageKeyword": "cave"
+  },
+  {
+    "word": "desert",
+    "level": 1,
+    "definition": "a very dry place with very little rain",
+    "example": "Nothing grew in the hot desert except cactus.",
+    "imageKeyword": "desert"
+  },
+  {
+    "word": "jungle",
+    "level": 1,
+    "definition": "a thick forest with many plants",
+    "example": "Monkeys swung from tree to tree in the jungle.",
+    "imageKeyword": "jungle"
+  },
+  {
+    "word": "swamp",
+    "level": 1,
+    "definition": "wet muddy land with water",
+    "example": "The alligator hid in the dark swamp.",
+    "imageKeyword": "swamp"
+  },
+  {
+    "word": "valley",
+    "level": 1,
+    "definition": "low land between two mountains",
+    "example": "The little town sat in the green valley.",
+    "imageKeyword": "valley"
+  },
+  {
+    "word": "storm",
+    "level": 1,
+    "definition": "very bad weather with wind and rain",
+    "example": "The storm blew the tree branches everywhere.",
+    "imageKeyword": "storm"
+  },
+  {
+    "word": "thunder",
+    "level": 1,
+    "definition": "the loud boom sound in a storm",
+    "example": "The thunder was so loud it shook the windows.",
+    "imageKeyword": "thunder"
+  },
+  {
+    "word": "lightning",
+    "level": 1,
+    "definition": "a flash of light in the sky during a storm",
+    "example": "The lightning lit up the whole sky for a second.",
+    "imageKeyword": "lightning"
+  },
+  {
+    "word": "rainbow",
+    "level": 1,
+    "definition": "a curved band of colors in the sky after rain",
+    "example": "After the rain stopped, a beautiful rainbow appeared.",
+    "imageKeyword": "rainbow"
+  },
+  {
+    "word": "breeze",
+    "level": 1,
+    "definition": "a gentle soft wind",
+    "example": "The light breeze made the leaves dance.",
+    "imageKeyword": "breeze wind"
+  },
+  {
+    "word": "frost",
+    "level": 1,
+    "definition": "thin ice that forms on cold mornings",
+    "example": "The grass was white with frost on the cold morning.",
+    "imageKeyword": "frost"
+  },
+  {
+    "word": "icicle",
+    "level": 1,
+    "definition": "a long pointed piece of ice hanging down",
+    "example": "A long icicle hung from the roof.",
+    "imageKeyword": "icicle"
+  },
+  {
+    "word": "puddle",
+    "level": 1,
+    "definition": "a small pool of water on the ground",
+    "example": "She jumped in every puddle on the way to school.",
+    "imageKeyword": "puddle"
+  },
+  {
+    "word": "mud",
+    "level": 1,
+    "definition": "wet dirt",
+    "example": "The pig rolled in the mud to stay cool.",
+    "imageKeyword": "mud"
+  },
+  {
+    "word": "dust",
+    "level": 1,
+    "definition": "tiny bits of dry dirt in the air",
+    "example": "The old book was covered in dust.",
+    "imageKeyword": "dust"
+  },
+  {
+    "word": "dew",
+    "level": 1,
+    "definition": "tiny water drops on grass in the morning",
+    "example": "The dew on the flowers sparkled in the sun.",
+    "imageKeyword": "morning dew"
+  },
+  {
+    "word": "fog",
+    "level": 1,
+    "definition": "a cloud close to the ground",
+    "example": "The fog was so thick we could not see the road.",
+    "imageKeyword": "fog"
+  },
+  {
+    "word": "hail",
+    "level": 1,
+    "definition": "balls of ice that fall from the sky",
+    "example": "The hail bounced off the car like little white stones.",
+    "imageKeyword": "hail"
+  },
+  {
+    "word": "blizzard",
+    "level": 1,
+    "definition": "a heavy snow storm with strong wind",
+    "example": "The blizzard dropped so much snow we could not open the door.",
+    "imageKeyword": "blizzard"
+  },
+  {
+    "word": "drought",
+    "level": 1,
+    "definition": "a long time with no rain",
+    "example": "The flowers turned brown because of the long drought.",
+    "imageKeyword": "dry land"
+  },
+  {
+    "word": "flood",
+    "level": 1,
+    "definition": "water covering land that is usually dry",
+    "example": "The river rose so high it caused a flood.",
+    "imageKeyword": "flood"
+  },
+  {
+    "word": "petal",
+    "level": 1,
+    "definition": "one soft piece of a flower",
+    "example": "A pink petal fell from the rose.",
+    "imageKeyword": "flower petal"
+  },
+  {
+    "word": "stem",
+    "level": 1,
+    "definition": "the long green part of a plant",
+    "example": "He held the flower by its long green stem.",
+    "imageKeyword": "plant stem"
+  },
+  {
+    "word": "root",
+    "level": 1,
+    "definition": "the part of a plant under the ground",
+    "example": "The tree's root went deep into the dirt.",
+    "imageKeyword": "tree root"
+  },
+  {
+    "word": "thorn",
+    "level": 1,
+    "definition": "a sharp point on a plant",
+    "example": "She pricked her finger on the rose's thorn.",
+    "imageKeyword": "thorn"
+  },
+  {
+    "word": "vine",
+    "level": 1,
+    "definition": "a plant that grows along the ground or up walls",
+    "example": "The vine climbed all the way up the old wall.",
+    "imageKeyword": "vine"
+  },
+  {
+    "word": "moss",
+    "level": 1,
+    "definition": "a soft green plant that grows on rocks and trees",
+    "example": "The rocks were covered in soft green moss.",
+    "imageKeyword": "moss"
+  },
+  {
+    "word": "acorn",
+    "level": 1,
+    "definition": "a nut that falls from an oak tree",
+    "example": "The squirrel buried the acorn to eat later.",
+    "imageKeyword": "acorn"
+  },
+  {
+    "word": "pinecone",
+    "level": 1,
+    "definition": "the brown seed holder from a pine tree",
+    "example": "She picked up a pinecone from under the big tree.",
+    "imageKeyword": "pinecone"
+  },
+  {
+    "word": "seed",
+    "level": 1,
+    "definition": "a tiny thing that grows into a plant",
+    "example": "She planted a seed and watered it every day.",
+    "imageKeyword": "seed sprouting"
+  },
+  {
+    "word": "crawl",
+    "level": 1,
+    "definition": "to move on your hands and knees",
+    "example": "The baby learned to crawl before he could walk.",
+    "imageKeyword": "baby crawling"
+  },
+  {
+    "word": "leap",
+    "level": 1,
+    "definition": "to jump far",
+    "example": "The frog leaped across the pond.",
+    "imageKeyword": "leap jump"
+  },
+  {
+    "word": "skip",
+    "level": 1,
+    "definition": "to move with little hops and steps",
+    "example": "She liked to skip down the path singing a song.",
+    "imageKeyword": "girl skipping down sidewalk"
+  },
+  {
+    "word": "stomp",
+    "level": 1,
+    "definition": "to step down very hard",
+    "example": "He would stomp his feet when he was angry.",
+    "imageKeyword": "stomping foot"
+  },
+  {
+    "word": "tiptoe",
+    "level": 1,
+    "definition": "to walk very quietly on your toes",
+    "example": "She had to tiptoe past the sleeping baby.",
+    "imageKeyword": "tiptoe"
+  }
+]
