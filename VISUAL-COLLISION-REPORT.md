@@ -1,8 +1,8 @@
 # Visual Collision Report — 2026-05-09
 
 ## Summary
-- CRITICAL (identical imageKeyword): 32
-- MAJOR (containment): 531
+- CRITICAL (identical imageKeyword): 31
+- MAJOR (containment): 524
 - MINOR (≥50% word overlap): 46
 
 ## Issues
@@ -77,7 +77,6 @@
 - **[MAJOR]** L1: **excited** ↔ **eager** — "excited" vs "excited dog waiting at door" (one contains the other)
 - **[MAJOR]** L1: **furious** ↔ **fur** — "furious angry" vs "fur" (one contains the other)
 - **[MAJOR]** L1: **ashamed** ↔ **ash** — "child hiding face ashamed" vs "ash" (one contains the other)
-- **[MAJOR]** L1: **half** ↔ **less** — "half" vs "half empty glass" (one contains the other)
 - **[MAJOR]** L1: **legend** ↔ **dragon** — "legend dragon" vs "dragon" (one contains the other)
 - **[MAJOR]** L1: **leash** ↔ **ash** — "dog leash" vs "ash" (one contains the other)
 - **[MAJOR]** L1: **spark** ↔ **sparkle** — "spark" vs "sparkling" (one contains the other)
@@ -331,9 +330,6 @@
 - **[MAJOR]** L2: **minute** ↔ **hourglass** — "timer" vs "hourglass timer" (one contains the other)
 - **[MAJOR]** L2: **mirror** ↔ **distort** — "mirror" vs "distort mirror" (one contains the other)
 - **[MAJOR]** L2: **move** ↔ **enable** — "chair" vs "wheelchair ramp" (one contains the other)
-- **[MAJOR]** L2: **near** ↔ **approach** — "near" vs "approach near" (one contains the other)
-- **[MAJOR]** L2: **near** ↔ **unearth** — "near" vs "unearth dig" (one contains the other)
-- **[MAJOR]** L2: **near** ↔ **convenient** — "near" vs "nearby store" (one contains the other)
 - **[CRITICAL]** L2: **north** ↔ **compass** — "compass" vs "compass" (identical imageKeyword)
 - **[MAJOR]** L2: **north** ↔ **navigate** — "compass" vs "compass navigation" (one contains the other)
 - **[MAJOR]** L2: **note** ↔ **denote** — "note" vs "denote sign" (one contains the other)
@@ -355,8 +351,6 @@
 - **[MAJOR]** L2: **planet** ↔ **orbit** — "planet" vs "orbit planet" (one contains the other)
 - **[MAJOR]** L2: **playground** ↔ **seldom** — "playground" vs "empty playground few people" (one contains the other)
 - **[MAJOR]** L2: **playground** ↔ **feature** — "playground" vs "playground slide" (one contains the other)
-- **[CRITICAL]** L2: **polite** ↔ **respectful** — "polite" vs "polite" (identical imageKeyword)
-- **[MAJOR]** L2: **polite** ↔ **decline** — "polite" vs "polite no" (one contains the other)
 - **[CRITICAL]** L2: **praise** ↔ **credit** — "gold star" vs "gold star" (identical imageKeyword)
 - **[MAJOR]** L2: **prize** ↔ **ambitious** — "trophy" vs "kid reaching for trophy" (one contains the other)
 - **[MAJOR]** L2: **prize** ↔ **achieve** — "trophy" vs "trophy winner" (one contains the other)
@@ -394,9 +388,7 @@
 - **[MAJOR]** L2: **little** ↔ **reproduce** — "seed" vs "reproduce seeds" (one contains the other)
 - **[MAJOR]** L2: **track** ↔ **energetic** — "running track" vs "running" (one contains the other)
 - **[MAJOR]** L2: **travel** ↔ **constraint** — "train" vs "constraint limit" (one contains the other)
-- **[MAJOR]** L2: **trust** ↔ **reliable** — "trust" vs "reliable trust" (one contains the other)
-- **[MAJOR]** L2: **trust** ↔ **count on** — "trust" vs "count on trust" (one contains the other)
-- **[MAJOR]** L2: **trust** ↔ **betray** — "trust" vs "broken trust" (one contains the other)
+- **[MAJOR]** L2: **trust** ↔ **cross** — "child holding parent hand crossing street" vs "crossing street" (one contains the other)
 - **[MAJOR]** L2: **vote** ↔ **democracy** — "voting" vs "voting hands" (one contains the other)
 - **[MAJOR]** L2: **vote** ↔ **ballot** — "voting" vs "voting paper" (one contains the other)
 - **[MINOR]** L2: **blacksmith** ↔ **forge** — "blacksmith forge" vs "forge blacksmith" (100% word overlap)

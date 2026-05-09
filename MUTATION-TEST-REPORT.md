@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 29 |
-| Undetected | 1 |
-| **Detection rate** | **96.7%** |
+| Detected | 28 |
+| Undetected | 2 |
+| **Detection rate** | **93.3%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -20,46 +20,47 @@
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 4 | 80% |
+| grammar_error | 5 | 3 | 60% |
 
 ## Injected Mutations Detail
 
-- ✅ **per capita** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **laceration** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **approve** (factual_error): def changed to: "to say yes or agree that grows underground in caves..."
-- ✅ **pessimistic** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **divergent** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **rebel** (banned_word): injected "genocide" into example
-- ✅ **accessory** (banned_word): injected "pornography" into example
-- ✅ **crowd** (banned_word): injected "autopsy" into example
-- ✅ **cave** (banned_word): injected "massacre" into example
-- ✅ **lexicon** (banned_word): injected "genocide" into example
-- ✅ **version** (collocation_error): bad collocation: "eat medicine"
-- ✅ **treasure** (collocation_error): bad collocation: "big rain"
-- ✅ **genesis** (collocation_error): bad collocation: "eat medicine"
-- ✅ **frugality** (collocation_error): bad collocation: "eat medicine"
-- ✅ **successor** (collocation_error): bad collocation: "eat medicine"
-- ✅ **break down** (empty_field): emptied definition
-- ✅ **dialect** (empty_field): emptied definition
-- ✅ **akin** (empty_field): emptied example
-- ✅ **model** (empty_field): emptied definition
-- ✅ **on the whole** (empty_field): emptied definition
-- ✅ **resource** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **entreat** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **glance** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **communal** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **announce** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **spark** (grammar_error): example: "The childrens played with the spark...."
-- ✅ **ascertain** (grammar_error): example: "They is happy about the ascertain...."
-- ✅ **nearly** (grammar_error): example: "They is happy about the nearly...."
-- ❌ **enmity** (grammar_error): example: "Years of enmity between the two families at last ended with ..."
-- ✅ **superficial** (grammar_error): example: "They is happy about the superficial...."
+- ✅ **crop** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **canopy** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **greet** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **professional** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **juniper** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **major** (banned_word): injected "genocide" into example
+- ✅ **put up with** (banned_word): injected "massacre" into example
+- ✅ **voluntary** (banned_word): injected "genocide" into example
+- ✅ **neglect** (banned_word): injected "massacre" into example
+- ✅ **elegant** (banned_word): injected "torture" into example
+- ✅ **process** (collocation_error): bad collocation: "close the light"
+- ✅ **atrium** (collocation_error): bad collocation: "eat medicine"
+- ✅ **dash** (collocation_error): bad collocation: "eat medicine"
+- ✅ **aspect** (collocation_error): bad collocation: "big rain"
+- ✅ **adjourn** (collocation_error): bad collocation: "close the light"
+- ✅ **journal** (empty_field): emptied definition
+- ✅ **aplomb** (empty_field): emptied example
+- ✅ **halt** (empty_field): emptied example
+- ✅ **estimate** (empty_field): emptied example
+- ✅ **sum** (empty_field): emptied definition
+- ✅ **sentence** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **humus** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **state** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **lightning** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **capitulate** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **inundate** (grammar_error): example: "The childrens played with the inundate...."
+- ✅ **output** (grammar_error): example: "The factory is goes's output doubled when they added a secon..."
+- ❌ **attest** (grammar_error): example: "Her good grades attest to her hard work...."
+- ❌ **delta** (grammar_error): example: "Many birds live in the river delta...."
+- ✅ **stand for** (grammar_error): example: "The childrens played with the stand for...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **enmity** (grammar_error): example: "Years of enmity between the two families at last ended with ..."
+- **attest** (grammar_error): example: "Her good grades attest to her hard work...."
+- **delta** (grammar_error): example: "Many birds live in the river delta...."
 
 ### Recommended Improvements
 

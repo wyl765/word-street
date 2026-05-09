@@ -1,7 +1,7 @@
 # Prototype Effect Report — 2026-05-09
 
 ## Summary
-- Total issues: 35
+- Total issues: 36
 
 ## Issues
 
@@ -12,6 +12,7 @@
 - **slipper** (L1): "slippers" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **shelf** (L1): "bookshelf" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **belong** (L1): "toy in a box with name tag" — imageKeyword too verbose (7 words)
+- **while** (L1): "child reading while waiting at bus stop" — imageKeyword too verbose (7 words)
 - **average** (L1): "medium sized cup between big and small" — imageKeyword too verbose (7 words)
 - **teach** (L1): "older kid teaching younger kid to ride bike" — imageKeyword too verbose (8 words)
 - **insect** (L2): "ant" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
