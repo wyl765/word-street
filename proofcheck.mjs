@@ -899,7 +899,7 @@ function checkComparisonDef(entries) {
 function checkMultiMeaning(entries) {
   // L1-L2 definitions should have single meaning
   // Detect patterns: ", or to ", "or to " joining two verb phrases
-  const multiMeaningPattern = /,?\s+or\s+to\s+/i;
+  const multiMeaningPattern = /,?\s+or\s+to\s+|;\s*also\s+/i;
   // Whitelist: synonym paraphrases (same meaning expressed differently)
   const synonymWhitelist = ['depend','denote','cease','halt'];
   for (const e of entries) {

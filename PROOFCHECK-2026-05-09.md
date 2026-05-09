@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 212 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 209 MINOR
 
 ## Issues
 
@@ -182,10 +182,6 @@ Cross-definition cycle: "build" def contains "make" and "make" def contains "bui
 Cross-definition cycle: "circle" def contains "round" and "round" def contains "circle" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
 
-### [MINOR] words-level2.js — "close" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "close" def contains "near" and "near" def contains "close" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
 ### [MINOR] words-level2.js — "clue" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "clue" def contains "hint" and "hint" def contains "clue" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
@@ -217,10 +213,6 @@ Cross-definition cycle: "because of" def contains "due to" and "due to" def cont
 ### [MINOR] words-level2b.js — "despite" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "despite" def contains "even though" and "even though" def contains "despite" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "chance" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "a time when you can try something; also how likely something is to happen"
-**Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2.js — "make" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "to build or create something; also to cause something to happen"
@@ -506,6 +498,10 @@ L1 definition uses "tight" which is also an L1 word (core position)
 L1 definition uses "straight" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "bark" (SAME_LEVEL_DEF_REF)
+L1 definition uses "rough" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "clap" (SAME_LEVEL_DEF_REF)
 L1 definition uses "together" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -722,10 +718,6 @@ L1 definition uses "quickly" which is also an L1 word (core position)
 L1 definition uses "notice" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
-### [MINOR] words-level1.js — "costume" (CULTURE_SPECIFIC)
-L1 example contains Western culture-specific phrase "halloween": "He wore a pirate costume for Halloween...."
-**Fix:** Replace with a culturally neutral example or add an alternative example
-
 ### [MINOR] words-level2b.js — "independence" (CULTURE_SPECIFIC)
 L2 example contains Western culture-specific phrase "fourth of july": "The Fourth of July celebrates America's independence...."
 **Fix:** Replace with a culturally neutral example or add an alternative example
@@ -757,10 +749,6 @@ imageKeyword "water surface" may return brand/product images instead of the inte
 ### [MINOR] words-level3b.js — "prime" (BRAND_IMAGE_COLLISION)
 imageKeyword "prime number" may return brand/product images instead of the intended meaning
 **Fix:** Add descriptive context to disambiguate from brand names
-
-### [MINOR] words-level1.js — "march" (MILITARY_CONTEXT)
-Example contains military context: "soldiers"
-**Fix:** Consider replacing with a neutral/civilian context
 
 ### [MINOR] words-level2.js — "bugle" (MILITARY_CONTEXT)
 Example contains military context: "soldier"
