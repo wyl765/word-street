@@ -37,6 +37,7 @@ console.log('-'.repeat(40));
 
 // Common Chinese-English false friends and interference patterns
 const chineseInterference = [
+  // === Original 21: Polysemy & False Friends ===
   { word: 'actual', trap: 'Chinese students think "actual" = "actually" (实际上)' },
   { word: 'eventually', trap: 'Chinese students confuse with "finally" — different nuance' },
   { word: 'sensitive', trap: 'Chinese may interpret as "敏感" (negative) vs English neutral' },
@@ -58,6 +59,67 @@ const chineseInterference = [
   { word: 'live', trap: '住 vs 现场直播 — pronunciation changes' },
   { word: 'desert', trap: '沙漠 vs 抛弃 — stress changes' },
   { word: 'record', trap: '记录 vs 唱片 — stress changes' },
+
+  // === 22-30: Article Omission (中文无冠词) ===
+  { word: 'piano', trap: 'Article interference: "play piano" vs "play the piano" — Chinese has no articles' },
+  { word: 'sun', trap: 'Article required: "the sun" not "sun" — Chinese 太阳 needs no article' },
+  { word: 'moon', trap: 'Article required: "the moon" — Chinese students often drop "the"' },
+  { word: 'school', trap: 'Article varies: "go to school" vs "go to the school" — meaning changes' },
+  { word: 'hospital', trap: 'Article varies: "in hospital" (BrE) vs "in the hospital" (AmE)' },
+  { word: 'breakfast', trap: 'No article: "have breakfast" not "have the breakfast" — Chinese students add unnecessary articles' },
+  { word: 'lunch', trap: 'No article: "eat lunch" — but "the lunch was good" needs article' },
+  { word: 'dinner', trap: 'No article with meals as routine, article when specific' },
+  { word: 'guitar', trap: 'Article with instruments: "play the guitar" — Chinese students drop "the"' },
+
+  // === 31-38: Uncountable/Countable Confusion (中文无形态变化) ===
+  { word: 'information', trap: 'Uncountable: no "informations" — Chinese has no count distinction' },
+  { word: 'furniture', trap: 'Uncountable: no "furnitures" — Chinese students add -s' },
+  { word: 'equipment', trap: 'Uncountable: no "equipments"' },
+  { word: 'advice', trap: 'Uncountable: no "advices" — use "a piece of advice"' },
+  { word: 'homework', trap: 'Uncountable: no "homeworks" — common L1 transfer error' },
+  { word: 'knowledge', trap: 'Uncountable: no "knowledges"' },
+  { word: 'luggage', trap: 'Uncountable: no "luggages"' },
+  { word: 'bread', trap: 'Uncountable: no "breads" (as material) — use "a loaf of bread"' },
+
+  // === 39-46: Preposition Confusion (在=in/on/at) ===
+  { word: 'arrive', trap: 'Preposition: "arrive at" (small) vs "arrive in" (big) — Chinese uses 到达+place' },
+  { word: 'depend', trap: 'Preposition: "depend on" — Chinese 取决于 doesn\'t map to "on"' },
+  { word: 'listen', trap: 'Preposition: "listen to" — Chinese 听 is transitive, students drop "to"' },
+  { word: 'look', trap: 'Preposition changes meaning: look at/for/after/up — all 看 variants in Chinese' },
+  { word: 'wait', trap: 'Preposition: "wait for" — Chinese 等 is transitive, students drop "for"' },
+  { word: 'search', trap: 'Preposition: "search for" — Chinese 搜索 is transitive' },
+  { word: 'discuss', trap: 'No preposition: NOT "discuss about" — Chinese 讨论 + object, students add "about"' },
+  { word: 'enter', trap: 'No preposition: NOT "enter into the room" — Chinese students add unnecessary prep' },
+
+  // === 47-54: Tense Confusion (中文无时态标记) ===
+  { word: 'yesterday', trap: 'Tense signal: requires past tense — Chinese students often use present with 昨天' },
+  { word: 'tomorrow', trap: 'Tense signal: requires future — Chinese uses 明天+present form' },
+  { word: 'already', trap: 'Tense: triggers present perfect in BrE — Chinese 已经 has no tense' },
+  { word: 'ago', trap: 'Tense: requires simple past, NOT present perfect — Chinese students mix' },
+  { word: 'finish', trap: 'Tense: "have finished" vs "finished" — Chinese 完成了 is ambiguous' },
+  { word: 'forget', trap: 'Tense: "forgot" vs "have forgotten" — different meaning, Chinese 忘了 is one form' },
+  { word: 'lose', trap: 'Tense: "lost" irregular past — Chinese students say "losed"' },
+  { word: 'wear', trap: 'Tense: "wore/worn" irregular — also confused with "put on" (穿 covers both)' },
+
+  // === 55-62: Verb Collocation Errors ===
+  { word: 'open', trap: 'Collocation: "turn on" the TV, not "open" — Chinese 开 covers both' },
+  { word: 'see', trap: 'See vs watch vs look: Chinese 看 covers all three' },
+  { word: 'watch', trap: 'Watch vs see vs look: "watch TV" but "see a movie" — Chinese 看 for all' },
+  { word: 'speak', trap: 'Speak vs say vs tell vs talk: Chinese 说 covers all four' },
+  { word: 'say', trap: 'Say vs tell: "say something" but "tell someone" — Chinese 说/告诉 confused' },
+  { word: 'bring', trap: 'Bring vs take: directional — Chinese 带 is bidirectional' },
+  { word: 'take', trap: 'Take vs bring: "take to" vs "bring from" — Chinese 拿/带 confused' },
+  { word: 'learn', trap: 'Learn vs study: Chinese 学/学习 covers both; "learn" = acquire, "study" = process' },
+
+  // === 63-70: Adjective Order & Modifier Patterns ===
+  { word: 'big', trap: 'Adj order: "a big red ball" not "a red big ball" — Chinese modifier order differs' },
+  { word: 'old', trap: 'Adj order: "a lovely old house" — opinion before age in English' },
+  { word: 'beautiful', trap: 'Position: always before noun in English; Chinese 美丽的 more flexible' },
+  { word: 'interesting', trap: '-ing vs -ed: "interesting" (thing) vs "interested" (person) — Chinese 有趣 is one word' },
+  { word: 'boring', trap: '-ing vs -ed: "boring" (thing) vs "bored" (person) — Chinese 无聊 for both' },
+  { word: 'exciting', trap: '-ing vs -ed: "exciting" vs "excited" — common L1 transfer error' },
+  { word: 'surprising', trap: '-ing vs -ed: "surprising" vs "surprised" — Chinese 惊讶 for both' },
+  { word: 'tired', trap: '-ed participial adj: "I am tired" not "I am tiring" (which means boring)' },
 ];
 
 const interferenceIssues = [];

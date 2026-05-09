@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 175 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 174 MINOR
 
 ## Issues
 
@@ -12,6 +12,10 @@ L1 definition uses complex word(s): underground
 
 ### [MINOR] words-level1.js — "cozy" (COMPLEX_DEFINITION)
 L1 definition uses complex word(s): comfortable
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level1.js — "dwarf" (COMPLEX_DEFINITION)
+L1 definition uses complex word(s): underground
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2.js — "detail" (COMPLEX_DEFINITION)
@@ -118,6 +122,82 @@ L2 definition uses complex word(s): disagreement
 L2 definition uses complex word(s): communicate
 **Fix:** Simplify definition for young learners
 
+### [MINOR] words-level1.js — "tiny" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "tiny" def contains "barely" and "barely" def contains "tiny" (both L1)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level1.js — "thick" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "thick" def contains "thin" and "thin" def contains "thick" (both L1)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level1.js — "after" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "after" def contains "later" and "later" def contains "after" (both L1)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "country" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "country" def contains "nation" and "nation" def contains "country" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "chart" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "chart" def contains "table" and "table" def contains "chart" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "also" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "also" def contains "in addition" and "in addition" def contains "also" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "build" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "build" def contains "make" and "make" def contains "build" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "circle" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "circle" def contains "round" and "round" def contains "circle" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "close" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "close" def contains "near" and "near" def contains "close" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "clue" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "clue" def contains "hint" and "hint" def contains "clue" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "confuse" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "confuse" def contains "mix up" and "mix up" def contains "confuse" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "make" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "make" def contains "form" and "form" def contains "make" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "find" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "find" def contains "locate" and "locate" def contains "find" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "north" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "north" def contains "compass" and "compass" def contains "north" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "simple" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "simple" def contains "complex" and "complex" def contains "simple" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "although" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "although" def contains "even though" and "even though" def contains "although" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2b.js — "because of" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "because of" def contains "due to" and "due to" def contains "because of" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2b.js — "despite" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "despite" def contains "even though" and "even though" def contains "despite" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "chance" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a time when you can try something; also how likely something is to happen"
+**Fix:** Rephrase to be more specific
+
 ### [MINOR] words-level2a.js — "cover" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "to put something over the top of something else"
 **Fix:** Rephrase to be more specific
@@ -175,7 +255,7 @@ Definition uses "something" 2 times: "something that prevents people from doing 
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level1.js — "less" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "a smaller amount..."
+Word appears to be adjective but definition starts with article: "a smaller amount of something..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level2.js — "olive" (ADJ_NOUN_MISMATCH)
@@ -209,22 +289,6 @@ Word appears to be adjective but definition starts with article: "a moral princi
 ### [MINOR] words-level5d.js — "agnostic" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a person who believes it is impossible to know whe..."
 **Fix:** Consider rephrasing definition to adjective form
-
-### [MINOR] words-level1.js — "drip" (WHEN_DEFINITION)
-Definition starts with "when": "when water falls drop by drop..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2.js — "election" (WHEN_DEFINITION)
-Definition starts with "when": "when people vote to choose a leader..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2.js — "attention" (WHEN_DEFINITION)
-Definition starts with "when": "when you watch and listen well..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2.js — "heal" (WHEN_DEFINITION)
-Definition starts with "when": "when a wound or body gets better on its own..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
 ### [MINOR] words-level2a.js — "motion" (WHEN_DEFINITION)
 Definition starts with "when": "when something changes position or place..."
@@ -266,16 +330,8 @@ Definition starts with "when": "when water vapor turns back into liquid drops...
 Definition starts with "when": "when pollen moves from one flower to another to make seeds..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
-### [MINOR] words-level3b.js — "germinate" (WHEN_DEFINITION)
-Definition starts with "when": "when a seed starts to grow into a plant..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
 ### [MINOR] words-level3b.js — "migration" (WHEN_DEFINITION)
 Definition starts with "when": "when animals travel a long way to find food or warmth..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3b.js — "dissolve" (WHEN_DEFINITION)
-Definition starts with "when": "when something mixes completely into a liquid..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
 ### [MINOR] words-level3b.js — "weathering" (WHEN_DEFINITION)
@@ -293,70 +349,6 @@ Definition starts with "when": "when someone is treated the same bad way they tr
 ### [MINOR] words-level3c.js — "scarcity" (WHEN_DEFINITION)
 Definition starts with "when": "when there is not enough of something that people need..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4a.js — "eclipse" (WHEN_DEFINITION)
-Definition starts with "when": "when one object in space blocks light from reaching another..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4a.js — "alleviation" (WHEN_DEFINITION)
-Definition starts with "when": "when pain or a problem becomes less bad..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4a.js — "curtailment" (WHEN_DEFINITION)
-Definition starts with "when": "when something is cut short or limited..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4a.js — "emigration" (WHEN_DEFINITION)
-Definition starts with "when": "when someone leaves their country to live elsewhere..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4a.js — "exacerbation" (WHEN_DEFINITION)
-Definition starts with "when": "when something makes a bad situation even worse..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4b.js — "inflation" (WHEN_DEFINITION)
-Definition starts with "when": "when things cost more and more as time goes on..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4b.js — "rapprochement" (WHEN_DEFINITION)
-Definition starts with "when": "when two groups start to get along again..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4c.js — "mutiny" (WHEN_DEFINITION)
-Definition starts with "when": "when soldiers or sailors rebel against their leaders..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level4c.js — "gerrymandering" (WHEN_DEFINITION)
-Definition starts with "when": "when voting district maps are drawn in a tricky way to help ..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level5c.js — "abolition" (WHEN_DEFINITION)
-Definition starts with "when": "when a law or rule is ended permanently..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level5c.js — "ambiguity" (WHEN_DEFINITION)
-Definition starts with "when": "when something can be understood in more than one way..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level5c.js — "coincidence" (WHEN_DEFINITION)
-Definition starts with "when": "when two things happen at the same time by chance..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level5c.js — "foreclosure" (WHEN_DEFINITION)
-Definition starts with "when": "when a bank takes back a house because the owner cannot pay..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level5c.js — "germination" (WHEN_DEFINITION)
-Definition starts with "when": "when a seed begins to grow into a plant..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level5c.js — "industrialization" (WHEN_DEFINITION)
-Definition starts with "when": "when a country builds many factories and starts to produce g..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level1.js — "caterpillar" (SAME_LEVEL_DEF_REF)
-L1 definition uses "fuzzy" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "pretzel" (SAME_LEVEL_DEF_REF)
 L1 definition uses "salty" which is also an L1 word (core position)
@@ -542,10 +534,6 @@ L1 definition uses "sharp" which is also an L1 word (core position)
 L1 definition uses "smooth" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
-### [MINOR] words-level1.js — "solid" (SAME_LEVEL_DEF_REF)
-L1 definition uses "hollow" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
 ### [MINOR] words-level1.js — "loose" (SAME_LEVEL_DEF_REF)
 L1 definition uses "tight" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -659,7 +647,7 @@ L1 definition uses "sharp" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "scale" (SAME_LEVEL_DEF_REF)
-L1 definition uses "piece" which is also an L1 word (core position)
+L1 definition uses "measure" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "hive" (SAME_LEVEL_DEF_REF)
@@ -705,4 +693,12 @@ L1 definition uses "quickly" which is also an L1 word (core position)
 ### [MINOR] words-level1.js — "hear" (SAME_LEVEL_DEF_REF)
 L1 definition uses "notice" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "costume" (CULTURE_SPECIFIC)
+L1 example contains Western culture-specific phrase "halloween": "He wore a pirate costume for Halloween...."
+**Fix:** Replace with a culturally neutral example or add an alternative example
+
+### [MINOR] words-level2b.js — "independence" (CULTURE_SPECIFIC)
+L2 example contains Western culture-specific phrase "fourth of july": "The Fourth of July celebrates America's independence...."
+**Fix:** Replace with a culturally neutral example or add an alternative example
 

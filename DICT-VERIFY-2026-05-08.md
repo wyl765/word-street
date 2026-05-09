@@ -1,6 +1,6 @@
 # Dictionary Pattern Check
 
-0 HIGH | 74 MEDIUM | 65 MINOR
+0 HIGH | 72 MEDIUM | 68 MINOR
 
 ## HIGH
 
@@ -8,6 +8,7 @@
 ## MEDIUM
 - words-level1.js | mud | Definition "wet dirt" is too brief to be useful
 - words-level1.js | shallow | Definition "not deep" is too brief to be useful
+- words-level1.js | solid | L1 definition packs 3 meanings: "not a liquid or a gas; keeps its shape"
 - words-level1.js | loose | Definition "not tight" is too brief to be useful
 - words-level1.js | exactly | L1 definition packs 3 meanings: "just right; not more or less"
 - words-level1.js | beside | Definition "next to" is too brief to be useful
@@ -20,13 +21,13 @@
 - words-level1.js | single | Definition "only one" is too brief to be useful
 - words-level1.js | tale | Definition "a story" is too brief to be useful
 - words-level1.js | itsy | Definition "extremely tiny" is too brief to be useful
-- words-level2.js | ancient | Definition "very old" is too brief to be useful
 - words-level2.js | swift | Definition "very fast" is too brief to be useful
+- words-level2.js | force | L2 definition packs 3 meanings: "a push or pull; also to make someone do something"
 - words-level2.js | immediately | Definition "right away" is too brief to be useful
 - words-level2.js | frequently | Definition "many times" is too brief to be useful
 - words-level2.js | rarely | Definition "not often" is too brief to be useful
 - words-level2.js | occasionally | Definition "sometimes" is too brief to be useful
-- words-level2.js | otherwise | Definition "if not" is too brief to be useful
+- words-level2.js | otherwise | L2 definition packs 3 meanings: "or else; if not"
 - words-level2.js | make up | Definition "to invent" is too brief to be useful
 - words-level2.js | courageous | Definition "brave" is too brief to be useful
 - words-level2.js | adult | Definition "a grown-up" is too brief to be useful
@@ -37,9 +38,7 @@
 - words-level2.js | attempt | Definition "a try" is too brief to be useful
 - words-level2.js | awake | Definition "not sleeping" is too brief to be useful
 - words-level2.js | begin | Definition "to start" is too brief to be useful
-- words-level2.js | better | Definition "more good" is too brief to be useful
 - words-level2.js | center | Definition "the middle" is too brief to be useful
-- words-level2.js | close | Definition "to shut" is too brief to be useful
 - words-level2.js | delight | Definition "great happiness" is too brief to be useful
 - words-level2.js | far | Definition "not near" is too brief to be useful
 - words-level2.js | finish | Definition "to end" is too brief to be useful
@@ -53,10 +52,8 @@
 - words-level2.js | raise | Definition "to lift" is too brief to be useful
 - words-level2.js | little | Definition "small" is too brief to be useful
 - words-level2.js | under | Definition "below" is too brief to be useful
-- words-level2.js | album | L2 definition packs 3 meanings: "a book or collection of photos or songs"
 - words-level2.js | canopy | L2 definition packs 3 meanings: "a cover or roof made of cloth or leaves"
 - words-level2.js | although | Definition "even though" is too brief to be useful
-- words-level2.js | seldom | Definition "almost never" is too brief to be useful
 - words-level2a.js | distant | Definition "far away" is too brief to be useful
 - words-level2a.js | raw | Definition "not cooked" is too brief to be useful
 - words-level2a.js | filthy | Definition "very dirty" is too brief to be useful
@@ -64,6 +61,7 @@
 - words-level2a.js | weak | Definition "not strong" is too brief to be useful
 - words-level2a.js | moisture | L2 definition packs 3 meanings: "wetness; water you can feel on a surface or in the air"
 - words-level2a.js | erosion | L2 definition packs 3 meanings: "when wind or water slowly wears away rock or soil"
+- words-level2a.js | numerous | Definition "very many" is too brief to be useful
 - words-level2b.js | verse | L2 definition packs 3 meanings: "one line or section of a poem or song"
 - words-level2b.js | genre | L2 definition packs 3 meanings: "a type or kind of book or story"
 - words-level2b.js | at the same time | Definition "happening together" is too brief to be useful

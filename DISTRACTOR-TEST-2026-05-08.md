@@ -1,30 +1,30 @@
 # Distractor Test Report
 
-32 words with weak definitions (confusable with 3+ others)
+34 words with weak definitions (confusable with 3+ others)
 
-1. L2 "badge" → confusable with: map, graph, chart, mirror, cradle
-   Def: "a small pin or tag that shows who you are"
-
-2. L1 "since" → confusable with: hail, acorn, across, until, soon
-   Def: "from that time to now"
-
-3. L1 "sharp" → confusable with: swan, snail, spider, beaver, mushroom
+1. L1 "sharp" → confusable with: swan, turtle, snail, worm, spider
    Def: "with a point that can cut"
 
-4. L1 "sleeve" → confusable with: elbow, skull, muscle, boot, collar
-   Def: "the part of a shirt that covers your arm"
+2. L2 "badge" → confusable with: map, graph, chart, mirror, cradle
+   Def: "a small pin or tag that shows who you are"
 
-5. L1 "empty" → confusable with: sandwich, melon, coconut, plain, hollow
-   Def: "with nothing inside"
+3. L1 "since" → confusable with: hail, acorn, across, until, soon
+   Def: "from that time to now"
 
-6. L1 "pair" → confusable with: glue, match, bunch, total, poem
+4. L1 "pair" → confusable with: glue, match, bunch, heap, total
    Def: "two things that go together"
 
-7. L1 "bunch" → confusable with: glue, pair, total, herd, crew
+5. L1 "bunch" → confusable with: glue, pair, heap, total, herd
    Def: "a group of things together"
 
-8. L2 "praise" → confusable with: mention, look forward to, complain, scared, talent
-   Def: "to say something good about"
+6. L1 "sleeve" → confusable with: elbow, skull, muscle, boot, collar
+   Def: "the part of a shirt that covers your arm"
+
+7. L1 "empty" → confusable with: sandwich, melon, coconut, plain, peaceful
+   Def: "with nothing inside"
+
+8. L2 "complain" → confusable with: mention, look forward to, point out, praise, scared
+   Def: "to say you are unhappy about something"
 
 9. L1 "cherry" → confusable with: grape, plum, berry, button
    Def: "a small round red fruit"
@@ -44,38 +44,38 @@
 14. L1 "create" → confusable with: bend, pour, turn off, turn on
    Def: "to make something new"
 
-15. L1 "ripple" → confusable with: frog, pond, puddle, droplet
+15. L1 "weigh" → confusable with: discover, drag, measure, scale
+   Def: "to find out how heavy something is"
+
+16. L1 "soon" → confusable with: lend, since, moment, recent
+   Def: "in a short time from now"
+
+17. L1 "total" → confusable with: glue, pair, bunch, heap
+   Def: "all things added together"
+
+18. L1 "ripple" → confusable with: frog, pond, puddle, droplet
    Def: "a small wave on water"
 
-16. L2 "plot" → confusable with: setting, effect, result, usual
+19. L2 "plot" → confusable with: setting, effect, result, usual
    Def: "what happens in the story"
 
-17. L2 "complain" → confusable with: mention, look forward to, praise, scared
-   Def: "to say you are unhappy about something"
-
-18. L1 "plum" → confusable with: grape, cherry, berry
+20. L1 "plum" → confusable with: grape, cherry, berry
    Def: "a small purple fruit"
 
-19. L1 "berry" → confusable with: grape, cherry, plum
+21. L1 "berry" → confusable with: grape, cherry, plum
    Def: "a small juicy fruit"
 
-20. L1 "twist" → confusable with: switch, stir, look at
+22. L1 "twist" → confusable with: switch, stir, look at
    Def: "to turn something around"
 
-21. L1 "howl" → confusable with: stretch, bark, roar
-   Def: "to make a long loud cry"
-
-22. L1 "search" → confusable with: stare, glance, design
+23. L1 "search" → confusable with: stare, glance, design
    Def: "to look carefully for something"
 
-23. L1 "borrow" → confusable with: shake, trade, fetch
+24. L1 "borrow" → confusable with: shake, trade, fetch
    Def: "to use something and give it back"
 
-24. L1 "unwrap" → confusable with: grab, catch, wrap
+25. L1 "unwrap" → confusable with: grab, catch, wrap
    Def: "to take the cover off something"
-
-25. L1 "weigh" → confusable with: discover, drag, measure
-   Def: "to find out how heavy something is"
 
 26. L1 "fetch" → confusable with: shake, borrow, deliver
    Def: "to go get something and bring it back"
@@ -89,11 +89,17 @@
 29. L1 "among" → confusable with: crowded, busy, between
    Def: "in the middle of many things"
 
-30. L1 "soon" → confusable with: since, moment, recent
-   Def: "in a short time from now"
+30. L1 "moment" → confusable with: lend, soon, recent
+   Def: "a very short bit of time"
 
-31. L1 "total" → confusable with: glue, pair, bunch
-   Def: "all things added together"
+31. L1 "recent" → confusable with: lend, soon, moment
+   Def: "just a short time ago"
 
-32. L2 "result" → confusable with: plot, effect, usual
+32. L1 "pile" → confusable with: stack, apart, together
+   Def: "a lot of things on top of each other"
+
+33. L1 "crowd" → confusable with: many, herd, crew
+   Def: "a large group of people"
+
+34. L2 "result" → confusable with: plot, effect, usual
    Def: "what happens in the end"

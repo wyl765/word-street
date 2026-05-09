@@ -1,21 +1,21 @@
 # Quiz Ambiguity Report — 2026-05-08
 
-3701 ambiguous pairs found.
+3765 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
-- swan: a big white bird with a long neck that lives on water
+- swan: a large bird with a long neck that lives on water
 
 ## L1: "goose" vs "frog" (67%)
 - goose: a big bird that honks and lives near water
-- frog: a small green animal that jumps and lives near water
+- frog: a small animal that jumps and lives near water
 
 ## L1: "goose" vs "neighbor" (67%)
 - goose: a big bird that honks and lives near water
 - neighbor: a person who lives near you
 
 ## L1: "swan" vs "sharp" (67%)
-- swan: a big white bird with a long neck that lives on water
+- swan: a large bird with a long neck that lives on water
 - sharp: with a point that can cut
 
 ## L1: "robin" vs "sparrow" (67%)
@@ -34,36 +34,24 @@
 - shark: a large ocean animal with sharp teeth
 - dull: not sharp at all
 
-## L1: "turtle" vs "snail" (75%)
-- turtle: an animal with a hard shell
-- snail: a tiny animal with a shell that moves slowly
-
 ## L1: "turtle" vs "beetle" (75%)
-- turtle: an animal with a hard shell
+- turtle: a reptile with a hard shell that covers its body
 - beetle: an insect with a hard shell
 
-## L1: "lizard" vs "worm" (60%)
-- lizard: a small animal with four legs and a tail
-- worm: a long thin animal with no legs
-
-## L1: "lizard" vs "spider" (67%)
-- lizard: a small animal with four legs and a tail
-- spider: a small animal with eight legs that makes webs
-
-## L1: "lizard" vs "squirrel" (80%)
-- lizard: a small animal with four legs and a tail
-- squirrel: a small animal with a bushy tail
+## L1: "turtle" vs "sharp" (67%)
+- turtle: a reptile with a hard shell that covers its body
+- sharp: with a point that can cut
 
 ## L1: "frog" vs "pond" (67%)
-- frog: a small green animal that jumps and lives near water
+- frog: a small animal that jumps and lives near water
 - pond: a small body of water
 
 ## L1: "frog" vs "ripple" (67%)
-- frog: a small green animal that jumps and lives near water
+- frog: a small animal that jumps and lives near water
 - ripple: a small wave on water
 
 ## L1: "frog" vs "neighbor" (67%)
-- frog: a small green animal that jumps and lives near water
+- frog: a small animal that jumps and lives near water
 - neighbor: a person who lives near you
 
 ## L1: "toad" vs "smooth" (100%)
@@ -74,16 +62,36 @@
 - snail: a tiny animal with a shell that moves slowly
 - sharp: with a point that can cut
 
-## L1: "worm" vs "spider" (60%)
-- worm: a long thin animal with no legs
-- spider: a small animal with eight legs that makes webs
+## L1: "worm" vs "ant" (75%)
+- worm: a tiny soft animal with no legs that lives in dirt
+- ant: a tiny bug that lives in a group
 
-## L1: "spider" vs "squirrel" (60%)
-- spider: a small animal with eight legs that makes webs
-- squirrel: a small animal with a bushy tail
+## L1: "worm" vs "mud" (100%)
+- worm: a tiny soft animal with no legs that lives in dirt
+- mud: wet dirt
+
+## L1: "worm" vs "dust" (67%)
+- worm: a tiny soft animal with no legs that lives in dirt
+- dust: tiny bits of dry dirt in the air
+
+## L1: "worm" vs "sharp" (67%)
+- worm: a tiny soft animal with no legs that lives in dirt
+- sharp: with a point that can cut
+
+## L1: "worm" vs "fur" (67%)
+- worm: a tiny soft animal with no legs that lives in dirt
+- fur: the soft hair on an animal
 
 ## L1: "spider" vs "sharp" (67%)
 - spider: a small animal with eight legs that makes webs
+- sharp: with a point that can cut
+
+## L1: "caterpillar" vs "sharp" (67%)
+- caterpillar: a small crawling creature with many legs that later becomes a butterfly or moth
+- sharp: with a point that can cut
+
+## L1: "squirrel" vs "sharp" (67%)
+- squirrel: a small animal with a bushy tail that climbs trees and collects nuts
 - sharp: with a point that can cut
 
 ## L1: "beaver" vs "sharp" (67%)
@@ -174,6 +182,10 @@
 - melon: a large fruit with a thick skin and soft inside
 - within: inside
 
+## L1: "lemon" vs "dull" (100%)
+- lemon: a yellow fruit that tastes sharp and not sweet
+- dull: not sharp at all
+
 ## L1: "coconut" vs "empty" (67%)
 - coconut: a big brown fruit with white inside
 - empty: with nothing inside
@@ -182,17 +194,13 @@
 - coconut: a big brown fruit with white inside
 - within: inside
 
-## L1: "mushroom" vs "sponge" (60%)
-- mushroom: a soft thing with a round top that grows in wet, dark places
-- sponge: a soft thing that soaks up water
+## L1: "pepper" vs "within" (100%)
+- pepper: a crunchy vegetable that can be red, green, or yellow and is hollow inside
+- within: inside
 
-## L1: "mushroom" vs "sharp" (67%)
-- mushroom: a soft thing with a round top that grows in wet, dark places
-- sharp: with a point that can cut
-
-## L1: "treat" vs "daily" (100%)
-- treat: a special food you don't have every day
-- daily: every day
+## L1: "treat" vs "relieved" (75%)
+- treat: something special that makes you happy
+- relieved: happy that something bad did not happen
 
 ## L1: "elbow" vs "muscle" (60%)
 - elbow: the part in the middle of your arm that can bend
@@ -290,10 +298,6 @@
 - zipper: something that opens and closes your jacket
 - sticky: something that holds on to your fingers
 
-## L1: "button" vs "annoyed" (67%)
-- button: a small round thing that holds clothes closed
-- annoyed: a bit mad about a small thing
-
 ## L1: "slipper" vs "within" (100%)
 - slipper: a soft shoe you wear inside
 - within: inside
@@ -301,14 +305,6 @@
 ## L1: "blanket" vs "pillow" (67%)
 - blanket: a soft cover for your bed
 - pillow: a soft thing you rest your head on
-
-## L1: "pillow" vs "lend" (67%)
-- pillow: a soft thing you rest your head on
-- lend: to let someone use your thing
-
-## L1: "bucket" vs "desert" (75%)
-- bucket: a round open thing with a handle for carrying water or sand
-- desert: a dry place with sand and no water
 
 ## L1: "candle" vs "sharp" (67%)
 - candle: a stick of wax that burns with a flame
@@ -346,6 +342,10 @@
 - island: land with water all around it
 - swamp: wet muddy land with water
 
+## L1: "meadow" vs "bloom" (67%)
+- meadow: a big open field of grass and flowers
+- bloom: to open and grow flowers
+
 ## L1: "pond" vs "puddle" (67%)
 - pond: a small body of water
 - puddle: a small pool of water on the ground
@@ -357,6 +357,14 @@
 ## L1: "pond" vs "ripple" (67%)
 - pond: a small body of water
 - ripple: a small wave on water
+
+## L1: "desert" vs "storm" (60%)
+- desert: a very dry place with very little rain
+- storm: very bad weather with wind and rain
+
+## L1: "desert" vs "damp" (100%)
+- desert: a very dry place with very little rain
+- damp: a little bit wet
 
 ## L1: "puddle" vs "ripple" (67%)
 - puddle: a small pool of water on the ground
@@ -470,20 +478,16 @@
 - pour: to make water or juice flow out of something
 - create: to make something new
 
+## L1: "drip" vs "once" (100%)
+- drip: to fall in small drops, one at a time
+- once: one time
+
 ## L1: "shout" vs "glance" (67%)
 - shout: to say something very loud
 - glance: to look at something very quickly
 
-## L1: "howl" vs "bark" (67%)
-- howl: to make a long loud cry
-- bark: to make a loud short sound like a dog
-
 ## L1: "howl" vs "roar" (67%)
 - howl: to make a long loud cry
-- roar: to make a big loud sound like a lion
-
-## L1: "bark" vs "roar" (80%)
-- bark: to make a loud short sound like a dog
 - roar: to make a big loud sound like a lion
 
 ## L1: "clap" vs "take" (67%)
@@ -498,10 +502,6 @@
 - stare: to look at something for a long time
 - search: to look carefully for something
 
-## L1: "stare" vs "notice" (67%)
-- stare: to look at something for a long time
-- notice: to see something for the first time
-
 ## L1: "stare" vs "once" (100%)
 - stare: to look at something for a long time
 - once: one time
@@ -513,18 +513,6 @@
 ## L1: "search" vs "design" (67%)
 - search: to look carefully for something
 - design: to plan what something will look like
-
-## L1: "notice" vs "during" (67%)
-- notice: to see something for the first time
-- during: at the same time as something else
-
-## L1: "notice" vs "once" (100%)
-- notice: to see something for the first time
-- once: one time
-
-## L1: "wonder" vs "secret" (67%)
-- wonder: to think about something you don't know
-- secret: something only you know
 
 ## L1: "promise" vs "design" (67%)
 - promise: to say you will really do something
@@ -546,13 +534,29 @@
 - borrow: to use something and give it back
 - fetch: to go get something and bring it back
 
+## L1: "lend" vs "soon" (67%)
+- lend: to let someone use your thing for a short time
+- soon: in a short time from now
+
+## L1: "lend" vs "moment" (67%)
+- lend: to let someone use your thing for a short time
+- moment: a very short bit of time
+
+## L1: "lend" vs "recent" (67%)
+- lend: to let someone use your thing for a short time
+- recent: just a short time ago
+
+## L1: "lend" vs "once" (100%)
+- lend: to let someone use your thing for a short time
+- once: one time
+
 ## L1: "stack" vs "together" (67%)
 - stack: to put things on top of each other neatly
 - together: with each other
 
-## L1: "stack" vs "pile" (75%)
+## L1: "stack" vs "pile" (100%)
 - stack: to put things on top of each other neatly
-- pile: a messy heap of things on top of each other
+- pile: a lot of things on top of each other
 
 ## L1: "wrap" vs "unwrap" (67%)
 - wrap: to cover something with paper or cloth
@@ -581,6 +585,10 @@
 ## L1: "design" vs "strange" (67%)
 - design: to plan what something will look like
 - strange: odd or not like what you thought
+
+## L1: "weigh" vs "scale" (67%)
+- weigh: to find out how heavy something is
+- scale: a tool used to measure how heavy something is
 
 ## L1: "match" vs "pair" (67%)
 - match: to find two things that are the same
@@ -630,13 +638,13 @@
 - warm: a nice heat that feels good
 - wonderful: very good and nice
 
-## L1: "plain" vs "hollow" (100%)
-- plain: not fancy, with nothing on it
-- hollow: with nothing in it at all
-
 ## L1: "plain" vs "empty" (67%)
 - plain: not fancy, with nothing on it
 - empty: with nothing inside
+
+## L1: "plain" vs "peaceful" (67%)
+- plain: not fancy, with nothing on it
+- peaceful: feeling safe and happy, with nothing to worry about
 
 ## L1: "fancy" vs "without" (100%)
 - fancy: having a lot of pretty things on it
@@ -650,6 +658,14 @@
 - crunchy: making a snapping sound when you bite
 - silent: making no sound at all
 
+## L1: "hollow" vs "within" (100%)
+- hollow: having a hole or empty space inside
+- within: inside
+
+## L1: "hollow" vs "without" (100%)
+- hollow: having a hole or empty space inside
+- without: not having
+
 ## L1: "crowded" vs "among" (67%)
 - crowded: full of too many people or things
 - among: in the middle of many things
@@ -657,6 +673,10 @@
 ## L1: "empty" vs "within" (100%)
 - empty: with nothing inside
 - within: inside
+
+## L1: "empty" vs "peaceful" (67%)
+- empty: with nothing inside
+- peaceful: feeling safe and happy, with nothing to worry about
 
 ## L1: "busy" vs "among" (67%)
 - busy: doing many things with no free time
@@ -682,9 +702,13 @@
 - apart: away from each other
 - together: with each other
 
+## L1: "apart" vs "pile" (67%)
+- apart: away from each other
+- pile: a lot of things on top of each other
+
 ## L1: "together" vs "pile" (67%)
 - together: with each other
-- pile: a messy heap of things on top of each other
+- pile: a lot of things on top of each other
 
 ## L1: "above" vs "below" (67%)
 - above: higher than something
@@ -738,10 +762,6 @@
 - after: later than; following in time
 - once: one time
 
-## L1: "next" vs "then" (100%)
-- next: the one that comes right after
-- then: after that
-
 ## L1: "soon" vs "moment" (67%)
 - soon: in a short time from now
 - moment: a very short bit of time
@@ -790,6 +810,10 @@
 - pair: two things that go together
 - bunch: a group of things together
 
+## L1: "pair" vs "heap" (67%)
+- pair: two things that go together
+- heap: a big messy group of things thrown together
+
 ## L1: "pair" vs "total" (67%)
 - pair: two things that go together
 - total: all things added together
@@ -806,6 +830,14 @@
 - plenty: more than enough
 - extra: more than what is needed
 
+## L1: "many" vs "crowd" (67%)
+- many: a large number of people or things
+- crowd: a large group of people
+
+## L1: "bunch" vs "heap" (100%)
+- bunch: a group of things together
+- heap: a big messy group of things thrown together
+
 ## L1: "bunch" vs "total" (67%)
 - bunch: a group of things together
 - total: all things added together
@@ -818,17 +850,25 @@
 - bunch: a group of things together
 - crew: a group of people working together
 
+## L1: "heap" vs "total" (67%)
+- heap: a big messy group of things thrown together
+- total: all things added together
+
+## L1: "piece" vs "more" (67%)
+- piece: one part of something bigger
+- more: a bigger amount of something
+
 ## L1: "portion" vs "chef" (67%)
 - portion: the amount of food for one person
 - chef: a person who cooks food as a job
 
+## L1: "less" vs "more" (67%)
+- less: a smaller amount of something
+- more: a bigger amount of something
+
 ## L1: "village" vs "droplet" (67%)
 - village: a very small town
 - droplet: a very small drop of water
-
-## L1: "village" vs "dwarf" (67%)
-- village: a very small town
-- dwarf: a very small person in stories
 
 ## L1: "crowd" vs "herd" (67%)
 - crowd: a large group of people
@@ -841,10 +881,6 @@
 ## L1: "droplet" vs "ripple" (67%)
 - droplet: a very small drop of water
 - ripple: a small wave on water
-
-## L1: "dawn" vs "sprout" (100%)
-- dawn: when the sun first comes up
-- sprout: when a plant first comes out of a seed
 
 ## L1: "midnight" vs "noon" (100%)
 - midnight: twelve o'clock at night
@@ -861,10 +897,6 @@
 ## L1: "wizard" vs "fairy" (60%)
 - wizard: a person with magic powers in stories
 - fairy: a tiny person with wings in stories
-
-## L1: "giant" vs "dwarf" (75%)
-- giant: a very tall person in stories
-- dwarf: a very small person in stories
 
 ## L1: "throne" vs "crown" (100%)
 - throne: a fancy chair for a king or queen
@@ -991,52 +1023,40 @@
 - refuse: to say no and not do something
 
 ## L2: "mention" vs "complain" (67%)
-- mention: to talk about something quickly
+- mention: to talk about something in just a few words
 - complain: to say you are unhappy about something
 
-## L2: "mention" vs "praise" (67%)
-- mention: to talk about something quickly
-- praise: to say something good about
-
 ## L2: "mention" vs "prize" (100%)
-- mention: to talk about something quickly
+- mention: to talk about something in just a few words
 - prize: something you win
 
 ## L2: "mention" vs "topic" (67%)
-- mention: to talk about something quickly
+- mention: to talk about something in just a few words
 - topic: what something is about
 
 ## L2: "mention" vs "dispose" (100%)
-- mention: to talk about something quickly
+- mention: to talk about something in just a few words
 - dispose: to get rid of something
 
-## L2: "mention" vs "bang out" (67%)
-- mention: to talk about something quickly
-- bang out: to produce something quickly
-
-## L2: "mention" vs "lecture" (75%)
-- mention: to talk about something quickly
+## L2: "mention" vs "lecture" (60%)
+- mention: to talk about something in just a few words
 - lecture: a long talk to teach people about something
 
 ## L2: "mention" vs "perspective" (67%)
-- mention: to talk about something quickly
+- mention: to talk about something in just a few words
 - perspective: the way you see and think about something
 
 ## L2: "mention" vs "purchase" (100%)
-- mention: to talk about something quickly
+- mention: to talk about something in just a few words
 - purchase: to buy something
 
 ## L2: "mention" vs "refuse" (100%)
-- mention: to talk about something quickly
+- mention: to talk about something in just a few words
 - refuse: to say no and not do something
 
 ## L2: "separate" vs "even" (67%)
 - separate: to put into different groups
 - even: a number that can be split into two equal groups
-
-## L2: "struggle" vs "chance" (67%)
-- struggle: to try hard when something is difficult
-- chance: a time when you can do something
 
 ## L2: "struggle" vs "mystery" (67%)
 - struggle: to try hard when something is difficult
@@ -1078,9 +1098,17 @@
 - wander: to walk without a plan
 - random: chosen without any plan or pattern
 
-## L2: "brilliant" vs "soak" (100%)
-- brilliant: very bright and shining
-- soak: to get very wet
+## L2: "ancient" vs "recently" (100%)
+- ancient: from a very long time ago
+- recently: not long ago
+
+## L2: "ancient" vs "eventually" (67%)
+- ancient: from a very long time ago
+- eventually: after a long time
+
+## L2: "ancient" vs "prolonged" (67%)
+- ancient: from a very long time ago
+- prolonged: lasting a long time
 
 ## L2: "brilliant" vs "vivid" (67%)
 - brilliant: very bright and shining
@@ -1174,13 +1202,9 @@
 - plot: what happens in the story
 - regardless: no matter what happens
 
-## L2: "paragraph" vs "issue" (67%)
-- paragraph: a set of lines about one topic
-- issue: a problem or important topic people talk about
-
-## L2: "sentence" vs "tease" (100%)
-- sentence: words that make a complete thought
-- tease: to make fun of
+## L2: "sentence" vs "government" (60%)
+- sentence: a group of words that makes a complete thought
+- government: the group that makes rules for a place
 
 ## L2: "fiction" vs "fable" (67%)
 - fiction: a story that is made up
@@ -1302,10 +1326,6 @@
 - reptile: an animal with dry skin and scales like a snake
 - tolerate: to put up with something you do not like
 
-## L2: "liquid" vs "gas" (60%)
-- liquid: something that flows like water
-- gas: something like air that you cannot see or hold
-
 ## L2: "liquid" vs "prize" (100%)
 - liquid: something that flows like water
 - prize: something you win
@@ -1346,53 +1366,109 @@
 - liquid: something that flows like water
 - tolerate: to put up with something you do not like
 
-## L2: "gas" vs "prize" (100%)
-- gas: something like air that you cannot see or hold
+## L2: "force" vs "delay" (67%)
+- force: a push or pull; also to make someone do something
+- delay: to make something late
+
+## L2: "force" vs "prize" (100%)
+- force: a push or pull; also to make someone do something
 - prize: something you win
 
-## L2: "gas" vs "challenge" (67%)
-- gas: something like air that you cannot see or hold
-- challenge: something that is hard to do
+## L2: "force" vs "tease" (100%)
+- force: a push or pull; also to make someone do something
+- tease: to make fun of
 
-## L2: "gas" vs "capacity" (67%)
-- gas: something like air that you cannot see or hold
-- capacity: the most something can hold
+## L2: "force" vs "form" (67%)
+- force: a push or pull; also to make someone do something
+- form: to make or shape something
 
-## L2: "gas" vs "dispose" (100%)
-- gas: something like air that you cannot see or hold
+## L2: "force" vs "manufacture" (67%)
+- force: a push or pull; also to make someone do something
+- manufacture: to make something in a factory
+
+## L2: "force" vs "compensate" (75%)
+- force: a push or pull; also to make someone do something
+- compensate: to make up for something or pay someone back
+
+## L2: "force" vs "dispose" (100%)
+- force: a push or pull; also to make someone do something
 - dispose: to get rid of something
 
-## L2: "gas" vs "entity" (67%)
-- gas: something like air that you cannot see or hold
-- entity: something that exists on its own
+## L2: "force" vs "facilitate" (67%)
+- force: a push or pull; also to make someone do something
+- facilitate: to make something easier to do
 
-## L2: "gas" vs "incentive" (67%)
-- gas: something like air that you cannot see or hold
-- incentive: something that motivates you to do something
+## L2: "force" vs "leave out" (67%)
+- force: a push or pull; also to make someone do something
+- leave out: to not include something or someone
 
-## L2: "gas" vs "resource" (60%)
-- gas: something like air that you cannot see or hold
-- resource: something useful that people need, like water or wood
+## L2: "force" vs "turn down" (67%)
+- force: a push or pull; also to make someone do something
+- turn down: to make something quieter
 
-## L2: "gas" vs "barrier" (67%)
-- gas: something like air that you cannot see or hold
-- barrier: something that blocks the way
+## L2: "force" vs "bring about" (67%)
+- force: a push or pull; also to make someone do something
+- bring about: to make something happen
 
-## L2: "gas" vs "purchase" (100%)
-- gas: something like air that you cannot see or hold
+## L2: "force" vs "count on" (67%)
+- force: a push or pull; also to make someone do something
+- count on: to depend on someone or something
+
+## L2: "force" vs "assist" (67%)
+- force: a push or pull; also to make someone do something
+- assist: to help someone do something
+
+## L2: "force" vs "blame" (67%)
+- force: a push or pull; also to make someone do something
+- blame: to say someone caused something bad
+
+## L2: "force" vs "enable" (75%)
+- force: a push or pull; also to make someone do something
+- enable: to make it possible for someone to do something
+
+## L2: "force" vs "exclude" (67%)
+- force: a push or pull; also to make someone do something
+- exclude: to leave someone or something out
+
+## L2: "force" vs "forbid" (67%)
+- force: a push or pull; also to make someone do something
+- forbid: to order someone not to do something
+
+## L2: "force" vs "operate" (67%)
+- force: a push or pull; also to make someone do something
+- operate: to make something work or run
+
+## L2: "force" vs "permit" (67%)
+- force: a push or pull; also to make someone do something
+- permit: to allow someone to do something
+
+## L2: "force" vs "produce" (67%)
+- force: a push or pull; also to make someone do something
+- produce: to make or grow something
+
+## L2: "force" vs "provoke" (60%)
+- force: a push or pull; also to make someone do something
+- provoke: to do something on purpose to make someone upset
+
+## L2: "force" vs "purchase" (100%)
+- force: a push or pull; also to make someone do something
 - purchase: to buy something
 
-## L2: "gas" vs "refuse" (100%)
-- gas: something like air that you cannot see or hold
+## L2: "force" vs "refuse" (100%)
+- force: a push or pull; also to make someone do something
 - refuse: to say no and not do something
 
-## L2: "gas" vs "retain" (67%)
-- gas: something like air that you cannot see or hold
-- retain: to keep or hold on to something
+## L2: "force" vs "reinforce" (67%)
+- force: a push or pull; also to make someone do something
+- reinforce: to make something stronger
 
-## L2: "gas" vs "tolerate" (67%)
-- gas: something like air that you cannot see or hold
-- tolerate: to put up with something you do not like
+## L2: "force" vs "compel" (67%)
+- force: a push or pull; also to make someone do something
+- compel: to force someone to do something
+
+## L2: "force" vs "constitute" (67%)
+- force: a push or pull; also to make someone do something
+- constitute: to make up or form something
 
 ## L2: "magnet" vs "prize" (100%)
 - magnet: something that pulls some metals
@@ -1437,22 +1513,6 @@
 ## L2: "climate" vs "shelter" (67%)
 - climate: the usual weather in a place
 - shelter: a place that protects you from weather or danger
-
-## L2: "citizen" vs "arrive" (100%)
-- citizen: a person who belongs to a place
-- arrive: to get to a place
-
-## L2: "citizen" vs "messenger" (67%)
-- citizen: a person who belongs to a place
-- messenger: a person who carries a message from one place to another
-
-## L2: "citizen" vs "settler" (67%)
-- citizen: a person who belongs to a place
-- settler: a person who moves to a new place to live
-
-## L2: "citizen" vs "counterpart" (67%)
-- citizen: a person who belongs to a place
-- counterpart: a person or thing that has the same role in another place
 
 ## L2: "government" vs "arrive" (100%)
 - government: the group that makes rules for a place
@@ -1574,9 +1634,17 @@
 - area: the space inside a shape
 - bone: a hard part inside your body that gives you shape
 
-## L2: "angle" vs "corner" (67%)
-- angle: where two lines meet in a corner
-- corner: where two sides meet
+## L2: "angle" vs "latitude" (67%)
+- angle: the space between two lines that meet, measured in degrees
+- latitude: lines on a map that go side to side
+
+## L2: "angle" vs "longitude" (67%)
+- angle: the space between two lines that meet, measured in degrees
+- longitude: lines on a map that go up and down
+
+## L2: "triple" vs "tease" (100%)
+- triple: to make three times as much
+- tease: to make fun of
 
 ## L2: "afterward" vs "follow" (100%)
 - afterward: later, after something else happened
@@ -1666,10 +1734,6 @@
 - look forward to: to feel excited about something coming
 - mood: how you feel
 
-## L2: "look forward to" vs "praise" (67%)
-- look forward to: to feel excited about something coming
-- praise: to say something good about
-
 ## L2: "look forward to" vs "prize" (100%)
 - look forward to: to feel excited about something coming
 - prize: something you win
@@ -1710,13 +1774,133 @@
 - look forward to: to feel excited about something coming
 - regret: to feel sorry about something you did
 
+## L2: "point out" vs "appear" (100%)
+- point out: to show or tell someone about something they may not have noticed
+- appear: to show up
+
+## L2: "point out" vs "complain" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- complain: to say you are unhappy about something
+
+## L2: "point out" vs "praise" (75%)
+- point out: to show or tell someone about something they may not have noticed
+- praise: to say something good about someone
+
+## L2: "point out" vs "prize" (100%)
+- point out: to show or tell someone about something they may not have noticed
+- prize: something you win
+
+## L2: "point out" vs "warn" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- warn: to tell about danger
+
+## L2: "point out" vs "direct" (75%)
+- point out: to show or tell someone about something they may not have noticed
+- direct: to show or tell someone which way to go
+
+## L2: "point out" vs "guide" (100%)
+- point out: to show or tell someone about something they may not have noticed
+- guide: to show someone the way
+
+## L2: "point out" vs "instruct" (75%)
+- point out: to show or tell someone about something they may not have noticed
+- instruct: to teach or tell someone how to do something
+
+## L2: "point out" vs "topic" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- topic: what something is about
+
+## L2: "point out" vs "possess" (100%)
+- point out: to show or tell someone about something they may not have noticed
+- possess: to have or own something
+
+## L2: "point out" vs "demonstrate" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- demonstrate: to show how something works
+
+## L2: "point out" vs "dispose" (100%)
+- point out: to show or tell someone about something they may not have noticed
+- dispose: to get rid of something
+
+## L2: "point out" vs "devoted" (75%)
+- point out: to show or tell someone about something they may not have noticed
+- devoted: caring a lot about someone or something
+
+## L2: "point out" vs "leave out" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- leave out: to not include something or someone
+
+## L2: "point out" vs "count on" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- count on: to depend on someone or something
+
+## L2: "point out" vs "point of view" (60%)
+- point out: to show or tell someone about something they may not have noticed
+- point of view: the way someone sees or thinks about something
+
+## L2: "point out" vs "alert" (75%)
+- point out: to show or tell someone about something they may not have noticed
+- alert: to warn someone about something
+
+## L2: "point out" vs "assist" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- assist: to help someone do something
+
+## L2: "point out" vs "blame" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- blame: to say someone caused something bad
+
+## L2: "point out" vs "contain" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- contain: to have something inside
+
+## L2: "point out" vs "exclude" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- exclude: to leave someone or something out
+
+## L2: "point out" vs "forbid" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- forbid: to order someone not to do something
+
+## L2: "point out" vs "indicate" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- indicate: to point out or show something
+
+## L2: "point out" vs "lack" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- lack: to not have enough of something
+
+## L2: "point out" vs "notify" (75%)
+- point out: to show or tell someone about something they may not have noticed
+- notify: to let someone know about something
+
+## L2: "point out" vs "permit" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- permit: to allow someone to do something
+
+## L2: "point out" vs "perspective" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- perspective: the way you see and think about something
+
+## L2: "point out" vs "purchase" (100%)
+- point out: to show or tell someone about something they may not have noticed
+- purchase: to buy something
+
+## L2: "point out" vs "refuse" (100%)
+- point out: to show or tell someone about something they may not have noticed
+- refuse: to say no and not do something
+
+## L2: "point out" vs "regard" (60%)
+- point out: to show or tell someone about something they may not have noticed
+- regard: to think about someone or something in a certain way
+
+## L2: "point out" vs "compel" (67%)
+- point out: to show or tell someone about something they may not have noticed
+- compel: to force someone to do something
+
 ## L2: "loyal" vs "companion" (67%)
 - loyal: sticking with a friend
 - companion: a friend who goes with you
-
-## L2: "selfish" vs "unless" (100%)
-- selfish: caring only about you, not others
-- unless: only if not
 
 ## L2: "selfish" vs "considerate" (67%)
 - selfish: caring only about you, not others
@@ -1730,13 +1914,65 @@
 - selfish: caring only about you, not others
 - sole: the only one
 
-## L2: "act" vs "appear" (100%)
-- act: to perform a part in a play or show
-- appear: to show up
+## L2: "act" vs "breathe" (100%)
+- act: to do something or take action
+- breathe: to take air in and out
 
-## L2: "act" vs "role" (100%)
-- act: to perform a part in a play or show
-- role: a part in a play or job
+## L2: "act" vs "bring" (67%)
+- act: to do something or take action
+- bring: to take something with you
+
+## L2: "act" vs "prize" (100%)
+- act: to do something or take action
+- prize: something you win
+
+## L2: "act" vs "dispose" (100%)
+- act: to do something or take action
+- dispose: to get rid of something
+
+## L2: "act" vs "medicine" (67%)
+- act: to do something or take action
+- medicine: something you take to feel better when sick
+
+## L2: "act" vs "breath" (100%)
+- act: to do something or take action
+- breath: the air you take in and let out
+
+## L2: "act" vs "act on" (67%)
+- act: to do something or take action
+- act on: to take action based on advice or facts
+
+## L2: "act" vs "adopt" (67%)
+- act: to do something or take action
+- adopt: to take something as your own
+
+## L2: "act" vs "neglect" (67%)
+- act: to do something or take action
+- neglect: to not take care of something you should
+
+## L2: "act" vs "purchase" (100%)
+- act: to do something or take action
+- purchase: to buy something
+
+## L2: "act" vs "refuse" (100%)
+- act: to do something or take action
+- refuse: to say no and not do something
+
+## L2: "act" vs "remove" (67%)
+- act: to do something or take action
+- remove: to take something away
+
+## L2: "act" vs "withdraw" (67%)
+- act: to do something or take action
+- withdraw: to take back or move away from something
+
+## L2: "action" vs "trust" (67%)
+- action: a thing someone does
+- trust: to believe someone will do the right thing
+
+## L2: "action" vs "motive" (67%)
+- action: a thing someone does
+- motive: the reason someone does something
 
 ## L2: "afraid" vs "dizzy" (67%)
 - afraid: feeling like something bad might happen
@@ -1789,10 +2025,6 @@
 ## L2: "ask" vs "refuse" (100%)
 - ask: to use words to find out something you want to know
 - refuse: to say no and not do something
-
-## L2: "attention" vs "pay attention" (67%)
-- attention: when you watch and listen well
-- pay attention: to listen and watch carefully
 
 ## L2: "backpack" vs "vein" (67%)
 - backpack: a bag you wear on your back
@@ -1894,6 +2126,30 @@
 - believe: to think something is true
 - certify: to officially say something is true or meets a standard
 
+## L2: "better" vs "prize" (100%)
+- better: of higher quality than something else
+- prize: something you win
+
+## L2: "better" vs "rise" (100%)
+- better: of higher quality than something else
+- rise: to go up or get higher
+
+## L2: "better" vs "cover" (67%)
+- better: of higher quality than something else
+- cover: to put something over the top of something else
+
+## L2: "better" vs "dispose" (100%)
+- better: of higher quality than something else
+- dispose: to get rid of something
+
+## L2: "better" vs "purchase" (100%)
+- better: of higher quality than something else
+- purchase: to buy something
+
+## L2: "better" vs "refuse" (100%)
+- better: of higher quality than something else
+- refuse: to say no and not do something
+
 ## L2: "blink" vs "cuddle" (100%)
 - blink: to close and open your eyes quickly
 - cuddle: to hug close
@@ -1902,9 +2158,33 @@
 - blink: to close and open your eyes quickly
 - near: close by
 
+## L2: "block" vs "prize" (100%)
+- block: a piece of something hard; also a section of a street
+- prize: something you win
+
+## L2: "block" vs "dispose" (100%)
+- block: a piece of something hard; also a section of a street
+- dispose: to get rid of something
+
+## L2: "block" vs "purchase" (100%)
+- block: a piece of something hard; also a section of a street
+- purchase: to buy something
+
+## L2: "block" vs "refuse" (100%)
+- block: a piece of something hard; also a section of a street
+- refuse: to say no and not do something
+
+## L2: "block" vs "segment" (100%)
+- block: a piece of something hard; also a section of a street
+- segment: one piece or section of something
+
 ## L2: "bring" vs "prize" (100%)
 - bring: to take something with you
 - prize: something you win
+
+## L2: "bring" vs "bagpipe" (67%)
+- bring: to take something with you
+- bagpipe: something you blow into to make music, with pipes and a bag
 
 ## L2: "bring" vs "consider" (67%)
 - bring: to take something with you
@@ -2002,10 +2282,6 @@
 - bring: to take something with you
 - cope: to deal with something difficult
 
-## L2: "broad" vs "soak" (100%)
-- broad: very wide, stretching far from side to side
-- soak: to get very wet
-
 ## L2: "broad" vs "cross" (67%)
 - broad: very wide, stretching far from side to side
 - cross: to go from one side to the other
@@ -2044,11 +2320,15 @@
 
 ## L2: "careful" vs "carefully" (67%)
 - careful: trying not to make mistakes
-- carefully: paying close attention not to make mistakes
+- carefully: with great care so you do not make mistakes
 
 ## L2: "carve" vs "prize" (100%)
 - carve: to cut a shape into something
 - prize: something you win
+
+## L2: "carve" vs "bagpipe" (67%)
+- carve: to cut a shape into something
+- bagpipe: something you blow into to make music, with pipes and a bag
 
 ## L2: "carve" vs "crush" (67%)
 - carve: to cut a shape into something
@@ -2095,88 +2375,56 @@
 - refuse: to say no and not do something
 
 ## L2: "chance" vs "prize" (100%)
-- chance: a time when you can do something
+- chance: a time when you can try something; also how likely something is to happen
 - prize: something you win
 
-## L2: "chance" vs "motion" (67%)
-- chance: a time when you can do something
-- motion: when something changes position or place
+## L2: "chance" vs "probably" (67%)
+- chance: a time when you can try something; also how likely something is to happen
+- probably: very likely to happen
 
-## L2: "chance" vs "discovery" (67%)
-- chance: a time when you can do something
-- discovery: finding something new or learning something for the first time
-
-## L2: "chance" vs "devote" (67%)
-- chance: a time when you can do something
-- devote: to give your time and effort to something
+## L2: "chance" vs "coincide" (67%)
+- chance: a time when you can try something; also how likely something is to happen
+- coincide: to happen at the same time
 
 ## L2: "chance" vs "dispose" (100%)
-- chance: a time when you can do something
+- chance: a time when you can try something; also how likely something is to happen
 - dispose: to get rid of something
 
-## L2: "chance" vs "medicine" (67%)
-- chance: a time when you can do something
-- medicine: something you take to feel better when sick
+## L2: "chance" vs "bring about" (67%)
+- chance: a time when you can try something; also how likely something is to happen
+- bring about: to make something happen
 
-## L2: "chance" vs "invention" (67%)
-- chance: a time when you can do something
-- invention: something new that someone makes for the first time
-
-## L2: "chance" vs "protest" (67%)
-- chance: a time when you can do something
-- protest: when people show they disagree with something
-
-## L2: "chance" vs "efficient" (67%)
-- chance: a time when you can do something
-- efficient: doing something well without wasting time or energy
-
-## L2: "chance" vs "famine" (67%)
-- chance: a time when you can do something
-- famine: a time when there is not enough food for everyone
-
-## L2: "chance" vs "introduce" (67%)
-- chance: a time when you can do something
-- introduce: to present someone or something for the first time
-
-## L2: "chance" vs "leisure" (67%)
-- chance: a time when you can do something
-- leisure: free time when you can relax and do what you enjoy
-
-## L2: "chance" vs "monitor" (67%)
-- chance: a time when you can do something
-- monitor: to watch something carefully over time
-
-## L2: "chance" vs "preserve" (67%)
-- chance: a time when you can do something
-- preserve: to keep something safe so it lasts a long time
+## L2: "chance" vs "liable" (75%)
+- chance: a time when you can try something; also how likely something is to happen
+- liable: in charge of something or likely to happen
 
 ## L2: "chance" vs "purchase" (100%)
-- chance: a time when you can do something
+- chance: a time when you can try something; also how likely something is to happen
 - purchase: to buy something
 
 ## L2: "chance" vs "refuse" (100%)
-- chance: a time when you can do something
+- chance: a time when you can try something; also how likely something is to happen
 - refuse: to say no and not do something
 
-## L2: "chance" vs "relief" (67%)
-- chance: a time when you can do something
-- relief: the good feeling when something bad stops
+## L2: "close" vs "far" (100%)
+- close: to shut; also near
+- far: not near
 
 ## L2: "coast" vs "shore" (67%)
 - coast: land next to the ocean
 - shore: land next to water
 
 ## L2: "comfort" vs "mood" (100%)
-- comfort: help someone feel better
+- comfort: to help someone feel better
 - mood: how you feel
 
 ## L2: "comfort" vs "assist" (67%)
-- comfort: help someone feel better
+- comfort: to help someone feel better
 - assist: to help someone do something
 
 ## L2: "complain" vs "praise" (67%)
 - complain: to say you are unhappy about something
-- praise: to say something good about
+- praise: to say something good about someone
 
 ## L2: "complain" vs "prize" (100%)
 - complain: to say you are unhappy about something
@@ -2391,43 +2639,39 @@
 - coordinate: to organize people or things so they work together
 
 ## L2: "danger" vs "prize" (100%)
-- danger: something that could hurt you or put you in trouble
+- danger: something that could hurt you
 - prize: something you win
 
 ## L2: "danger" vs "challenge" (67%)
-- danger: something that could hurt you or put you in trouble
+- danger: something that could hurt you
 - challenge: something that is hard to do
 
 ## L2: "danger" vs "dispose" (100%)
-- danger: something that could hurt you or put you in trouble
+- danger: something that could hurt you
 - dispose: to get rid of something
 
 ## L2: "danger" vs "entity" (67%)
-- danger: something that could hurt you or put you in trouble
+- danger: something that could hurt you
 - entity: something that exists on its own
 
 ## L2: "danger" vs "incentive" (67%)
-- danger: something that could hurt you or put you in trouble
+- danger: something that could hurt you
 - incentive: something that motivates you to do something
 
-## L2: "danger" vs "make out" (67%)
-- danger: something that could hurt you or put you in trouble
-- make out: to see or get something with trouble
-
 ## L2: "danger" vs "barrier" (67%)
-- danger: something that could hurt you or put you in trouble
+- danger: something that could hurt you
 - barrier: something that blocks the way
 
-## L2: "danger" vs "hazard" (60%)
-- danger: something that could hurt you or put you in trouble
+## L2: "danger" vs "hazard" (75%)
+- danger: something that could hurt you
 - hazard: something that could cause danger or harm
 
 ## L2: "danger" vs "purchase" (100%)
-- danger: something that could hurt you or put you in trouble
+- danger: something that could hurt you
 - purchase: to buy something
 
 ## L2: "danger" vs "refuse" (100%)
-- danger: something that could hurt you or put you in trouble
+- danger: something that could hurt you
 - refuse: to say no and not do something
 
 ## L2: "dark" vs "quiet" (67%)
@@ -2445,6 +2689,10 @@
 ## L2: "delay" vs "tease" (100%)
 - delay: to make something late
 - tease: to make fun of
+
+## L2: "delay" vs "bagpipe" (67%)
+- delay: to make something late
+- bagpipe: something you blow into to make music, with pipes and a bag
 
 ## L2: "delay" vs "control" (67%)
 - delay: to make something late
@@ -2562,6 +2810,66 @@
 - delay: to make something late
 - constitute: to make up or form something
 
+## L2: "depend" vs "prize" (100%)
+- depend: to need something or someone in order to succeed
+- prize: something you win
+
+## L2: "depend" vs "require" (100%)
+- depend: to need something or someone in order to succeed
+- require: to need something
+
+## L2: "depend" vs "essential" (67%)
+- depend: to need something or someone in order to succeed
+- essential: something you fully need
+
+## L2: "depend" vs "dispose" (100%)
+- depend: to need something or someone in order to succeed
+- dispose: to get rid of something
+
+## L2: "depend" vs "leave out" (67%)
+- depend: to need something or someone in order to succeed
+- leave out: to not include something or someone
+
+## L2: "depend" vs "count on" (67%)
+- depend: to need something or someone in order to succeed
+- count on: to depend on someone or something
+
+## L2: "depend" vs "rely on" (75%)
+- depend: to need something or someone in order to succeed
+- rely on: to need and trust someone or something
+
+## L2: "depend" vs "assist" (67%)
+- depend: to need something or someone in order to succeed
+- assist: to help someone do something
+
+## L2: "depend" vs "blame" (67%)
+- depend: to need something or someone in order to succeed
+- blame: to say someone caused something bad
+
+## L2: "depend" vs "exclude" (67%)
+- depend: to need something or someone in order to succeed
+- exclude: to leave someone or something out
+
+## L2: "depend" vs "forbid" (100%)
+- depend: to need something or someone in order to succeed
+- forbid: to order someone not to do something
+
+## L2: "depend" vs "permit" (67%)
+- depend: to need something or someone in order to succeed
+- permit: to allow someone to do something
+
+## L2: "depend" vs "purchase" (100%)
+- depend: to need something or someone in order to succeed
+- purchase: to buy something
+
+## L2: "depend" vs "refuse" (100%)
+- depend: to need something or someone in order to succeed
+- refuse: to say no and not do something
+
+## L2: "depend" vs "compel" (67%)
+- depend: to need something or someone in order to succeed
+- compel: to force someone to do something
+
 ## L2: "destroy" vs "ruin" (67%)
 - destroy: to break so it cannot be used
 - ruin: to damage something so badly it cannot be used
@@ -2654,10 +2962,6 @@
 - field: an open area of land
 - bog: a soft, wet area of land
 
-## L2: "flour" vs "mortar" (67%)
-- flour: powder used for baking
-- mortar: a bowl used for grinding things into powder
-
 ## L2: "groan" vs "laugh" (67%)
 - groan: to make a deep sound when in pain or upset
 - laugh: to make a happy sound
@@ -2673,6 +2977,14 @@
 ## L2: "hallway" vs "internal" (100%)
 - hallway: a long passage inside a building
 - internal: on the inside
+
+## L2: "heal" vs "get over" (80%)
+- heal: to get better after being hurt or sick
+- get over: to feel better after being sick or sad
+
+## L2: "heal" vs "recover" (80%)
+- heal: to get better after being hurt or sick
+- recover: to get well again after being sick or hurt
 
 ## L2: "key" vs "prize" (100%)
 - key: something that opens a lock
@@ -2718,9 +3030,9 @@
 - laugh: to make a happy sound
 - exaggerate: to make something sound bigger or more than it really is
 
-## L2: "leak" vs "blood" (67%)
-- leak: to let liquid out through a hole
-- blood: the red liquid that moves through your body
+## L2: "leak" vs "little" (100%)
+- leak: to let water or other fluid drip out through a small hole
+- little: small
 
 ## L2: "marble" vs "little" (100%)
 - marble: a small glass ball
@@ -2741,10 +3053,6 @@
 ## L2: "mirror" vs "badge" (67%)
 - mirror: a shiny flat thing that shows your face when you look at it
 - badge: a small pin or tag that shows who you are
-
-## L2: "mist" vs "soak" (100%)
-- mist: very thin cloud near the ground that makes things hard to see clearly
-- soak: to get very wet
 
 ## L2: "mist" vs "flint" (60%)
 - mist: very thin cloud near the ground that makes things hard to see clearly
@@ -2850,13 +3158,21 @@
 - nature: plants, animals, and outdoors
 - carbon: a chemical element found in plants, animals, and things like coal
 
-## L2: "ocean" vs "soak" (100%)
-- ocean: a very large body of salt water
-- soak: to get very wet
-
 ## L2: "ocean" vs "massive" (67%)
 - ocean: a very large body of salt water
 - massive: very large and heavy
+
+## L2: "pause" vs "continue" (100%)
+- pause: to stop for a short time
+- continue: to go on and not stop
+
+## L2: "pause" vs "brief" (67%)
+- pause: to stop for a short time
+- brief: lasting only a short time
+
+## L2: "pause" vs "briefly" (67%)
+- pause: to stop for a short time
+- briefly: for only a short time
 
 ## L2: "picnic" vs "external" (100%)
 - picnic: a meal eaten outside
@@ -2879,172 +3195,84 @@
 - courteous: showing respect and good manners in how you speak and act
 
 ## L2: "praise" vs "prize" (100%)
-- praise: to say something good about
+- praise: to say something good about someone
 - prize: something you win
 
-## L2: "praise" vs "scared" (67%)
-- praise: to say something good about
-- scared: feeling fear about something
-
 ## L2: "praise" vs "talent" (100%)
-- praise: to say something good about
+- praise: to say something good about someone
 - talent: something you are good at
 
-## L2: "praise" vs "consider" (67%)
-- praise: to say something good about
-- consider: to think with care about something
-
-## L2: "praise" vs "admire" (67%)
-- praise: to say something good about
-- admire: to look at something and think it is very good
-
 ## L2: "praise" vs "topic" (67%)
-- praise: to say something good about
+- praise: to say something good about someone
 - topic: what something is about
 
-## L2: "praise" vs "research" (67%)
-- praise: to say something good about
-- research: looking for facts to learn about something
-
-## L2: "praise" vs "attitude" (67%)
-- praise: to say something good about
-- attitude: the way you think and feel about something
-
-## L2: "praise" vs "maintain" (67%)
-- praise: to say something good about
-- maintain: to keep something in good condition
-
-## L2: "praise" vs "contemplate" (67%)
-- praise: to say something good about
-- contemplate: to think about something deeply
-
-## L2: "praise" vs "controversy" (67%)
-- praise: to say something good about
-- controversy: a big disagreement among people about something important
-
 ## L2: "praise" vs "dispose" (100%)
-- praise: to say something good about
+- praise: to say something good about someone
 - dispose: to get rid of something
 
-## L2: "praise" vs "conclude" (67%)
-- praise: to say something good about
-- conclude: to decide something after thinking about the facts
-
-## L2: "praise" vs "devoted" (67%)
-- praise: to say something good about
+## L2: "praise" vs "devoted" (75%)
+- praise: to say something good about someone
 - devoted: caring a lot about someone or something
 
-## L2: "praise" vs "enthusiastic" (67%)
-- praise: to say something good about
-- enthusiastic: very excited about something
+## L2: "praise" vs "leave out" (67%)
+- praise: to say something good about someone
+- leave out: to not include something or someone
 
-## L2: "praise" vs "bring up" (67%)
-- praise: to say something good about
-- bring up: to start talking about something
+## L2: "praise" vs "count on" (67%)
+- praise: to say something good about someone
+- count on: to depend on someone or something
 
-## L2: "praise" vs "look into" (67%)
-- praise: to say something good about
-- look into: to find out more about something
-
-## L2: "praise" vs "move on" (67%)
-- praise: to say something good about
-- move on: to stop thinking about something and go to the next thing
-
-## L2: "praise" vs "keep in mind" (67%)
-- praise: to say something good about
-- keep in mind: to recall or think about something
-
-## L2: "praise" vs "point of view" (67%)
-- praise: to say something good about
+## L2: "praise" vs "point of view" (75%)
+- praise: to say something good about someone
 - point of view: the way someone sees or thinks about something
 
-## L2: "praise" vs "alert" (67%)
-- praise: to say something good about
+## L2: "praise" vs "alert" (75%)
+- praise: to say something good about someone
 - alert: to warn someone about something
 
-## L2: "praise" vs "concern" (67%)
-- praise: to say something good about
-- concern: a feeling of worry about something
+## L2: "praise" vs "assist" (67%)
+- praise: to say something good about someone
+- assist: to help someone do something
 
-## L2: "praise" vs "credit" (67%)
-- praise: to say something good about
-- credit: praise, or thanks for doing something good
+## L2: "praise" vs "blame" (67%)
+- praise: to say something good about someone
+- blame: to say someone caused something bad
 
-## L2: "praise" vs "dread" (67%)
-- praise: to say something good about
-- dread: to feel very scared about something coming
+## L2: "praise" vs "exclude" (67%)
+- praise: to say something good about someone
+- exclude: to leave someone or something out
 
-## L2: "praise" vs "justify" (67%)
-- praise: to say something good about
-- justify: to give a good reason for something
+## L2: "praise" vs "forbid" (67%)
+- praise: to say something good about someone
+- forbid: to order someone not to do something
 
-## L2: "praise" vs "lecture" (67%)
-- praise: to say something good about
-- lecture: a long talk to teach people about something
-
-## L2: "praise" vs "notify" (67%)
-- praise: to say something good about
+## L2: "praise" vs "notify" (75%)
+- praise: to say something good about someone
 - notify: to let someone know about something
 
-## L2: "praise" vs "notion" (67%)
-- praise: to say something good about
-- notion: a thought or idea about something
+## L2: "praise" vs "permit" (67%)
+- praise: to say something good about someone
+- permit: to allow someone to do something
 
 ## L2: "praise" vs "perspective" (67%)
-- praise: to say something good about
+- praise: to say something good about someone
 - perspective: the way you see and think about something
 
-## L2: "praise" vs "physical" (67%)
-- praise: to say something good about
-- physical: about the body, or something you can see and touch
-
-## L2: "praise" vs "pledge" (67%)
-- praise: to say something good about
-- pledge: a promise to do something good in the future
-
-## L2: "praise" vs "prospect" (67%)
-- praise: to say something good about
-- prospect: the chance of something good happening in the future
-
 ## L2: "praise" vs "purchase" (100%)
-- praise: to say something good about
+- praise: to say something good about someone
 - purchase: to buy something
 
-## L2: "praise" vs "recommend" (67%)
-- praise: to say something good about
-- recommend: to suggest that something is good
-
 ## L2: "praise" vs "refuse" (100%)
-- praise: to say something good about
+- praise: to say something good about someone
 - refuse: to say no and not do something
 
-## L2: "praise" vs "regard" (67%)
-- praise: to say something good about
+## L2: "praise" vs "regard" (75%)
+- praise: to say something good about someone
 - regard: to think about someone or something in a certain way
 
-## L2: "praise" vs "regret" (67%)
-- praise: to say something good about
-- regret: to feel sorry about something you did
-
-## L2: "praise" vs "relief" (67%)
-- praise: to say something good about
-- relief: the good feeling when something bad stops
-
-## L2: "praise" vs "reward" (67%)
-- praise: to say something good about
-- reward: something good given for doing something well
-
-## L2: "praise" vs "sacrifice" (67%)
-- praise: to say something good about
-- sacrifice: to give up something important for a good reason
-
-## L2: "praise" vs "warrant" (67%)
-- praise: to say something good about
-- warrant: to be a good enough reason for something
-
-## L2: "praise" vs "bonus" (67%)
-- praise: to say something good about
-- bonus: something extra and good that you did not expect
+## L2: "praise" vs "compel" (67%)
+- praise: to say something good about someone
+- compel: to force someone to do something
 
 ## L2: "prepare" vs "responsible" (67%)
 - prepare: to get ready by doing what is needed
@@ -3318,13 +3546,73 @@
 - badge: a small pin or tag that shows who you are
 - proof: something that shows a fact is true
 
+## L2: "bagpipe" vs "form" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- form: to make or shape something
+
+## L2: "bagpipe" vs "manufacture" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- manufacture: to make something in a factory
+
+## L2: "bagpipe" vs "dispose" (100%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- dispose: to get rid of something
+
+## L2: "bagpipe" vs "facilitate" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- facilitate: to make something easier to do
+
+## L2: "bagpipe" vs "turn down" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- turn down: to make something quieter
+
+## L2: "bagpipe" vs "bring about" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- bring about: to make something happen
+
+## L2: "bagpipe" vs "make out" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- make out: to see or get something with trouble
+
+## L2: "bagpipe" vs "leave behind" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- leave behind: to not bring something with you
+
+## L2: "bagpipe" vs "operate" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- operate: to make something work or run
+
+## L2: "bagpipe" vs "produce" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- produce: to make or grow something
+
+## L2: "bagpipe" vs "purchase" (100%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- purchase: to buy something
+
+## L2: "bagpipe" vs "refuse" (100%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- refuse: to say no and not do something
+
+## L2: "bagpipe" vs "reinforce" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- reinforce: to make something stronger
+
+## L2: "bagpipe" vs "tolerate" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- tolerate: to put up with something you do not like
+
+## L2: "bagpipe" vs "constitute" (67%)
+- bagpipe: something you blow into to make music, with pipes and a bag
+- constitute: to make up or form something
+
 ## L2: "balcony" vs "external" (100%)
 - balcony: a small platform on the outside of a building
 - external: on the outside
 
-## L2: "banjo" vs "harp" (75%)
-- banjo: a round stringed instrument you pluck
-- harp: a tall stringed instrument you pluck
+## L2: "banjo" vs "harp" (88%)
+- banjo: a round thing with strings that you pluck to make music
+- harp: a tall thing with many strings that you pluck to make music
 
 ## L2: "beacon" vs "pale" (67%)
 - beacon: a bright light that guides people
@@ -3357,6 +3645,10 @@
 ## L2: "bobsled" vs "longitude" (67%)
 - bobsled: a sled that races down an icy track
 - longitude: lines on a map that go up and down
+
+## L2: "bolt" vs "mortar" (60%)
+- bolt: a metal pin used to hold things together
+- mortar: a thick paste used to hold bricks or stones together
 
 ## L2: "bolt" vs "combine" (100%)
 - bolt: a metal pin used to hold things together
@@ -3491,7 +3783,7 @@
 - moist: slightly wet, often in a soft or good way
 
 ## L2: "nectar" vs "internal" (100%)
-- nectar: sweet liquid inside flowers that bees collect
+- nectar: sweet juice inside flowers that bees collect
 - internal: on the inside
 
 ## L2: "ore" vs "internal" (100%)
@@ -3501,10 +3793,6 @@
 ## L2: "pagoda" vs "widespread" (60%)
 - pagoda: a tower with many roofs found in Asia
 - widespread: found in many places or with many people
-
-## L2: "carefully" vs "focus" (67%)
-- carefully: paying close attention not to make mistakes
-- focus: to pay close attention to one thing
 
 ## L2: "quite" vs "day by day" (67%)
 - quite: more than a little but not completely
@@ -5778,10 +6066,6 @@
 - inherit: to get something from a family member
 - refuse: to say no and not do something
 
-## L2: "massive" vs "numerous" (67%)
-- massive: very large and heavy
-- numerous: a very large number of something
-
 ## L2: "massive" vs "dinosaur" (67%)
 - massive: very large and heavy
 - dinosaur: a very large animal that lived millions of years ago
@@ -5964,18 +6248,6 @@
 
 ## L2: "essential" vs "refuse" (100%)
 - essential: something you fully need
-- refuse: to say no and not do something
-
-## L2: "numerous" vs "dispose" (100%)
-- numerous: a very large number of something
-- dispose: to get rid of something
-
-## L2: "numerous" vs "purchase" (100%)
-- numerous: a very large number of something
-- purchase: to buy something
-
-## L2: "numerous" vs "refuse" (100%)
-- numerous: a very large number of something
 - refuse: to say no and not do something
 
 ## L2: "positive" vs "dispose" (100%)
@@ -12714,10 +12986,6 @@
 - cleft: a narrow crack or opening in rock or ground
 - cranny: a small, narrow opening or crack
 
-## L3: "collide" vs "dissolve" (67%)
-- collide: to crash into something
-- dissolve: when something mixes completely into a liquid
-
 ## L3: "collide" vs "apply" (67%)
 - collide: to crash into something
 - apply: to use something or put it into action
@@ -12770,14 +13038,6 @@
 - microscope: a tool that makes very tiny things look bigger
 - telescope: a tool that makes faraway things look closer
 
-## L3: "dissolve" vs "apply" (67%)
-- dissolve: when something mixes completely into a liquid
-- apply: to use something or put it into action
-
-## L3: "dissolve" vs "terminate" (67%)
-- dissolve: when something mixes completely into a liquid
-- terminate: to end or stop something completely
-
 ## L3: "nonrenewable" vs "when pigs fly" (60%)
 - nonrenewable: something that will run out and cannot be replaced
 - when pigs fly: something that will never happen
@@ -12800,7 +13060,7 @@
 
 ## L3: "vertebrate" vs "carnivore" (67%)
 - vertebrate: an animal that has a backbone
-- carnivore: an animal that eats only meat
+- carnivore: an animal that eats mostly or only meat
 
 ## L3: "vertebrate" vs "herbivore" (67%)
 - vertebrate: an animal that has a backbone
@@ -12968,7 +13228,7 @@
 
 ## L3: "elate" vs "intrigue" (60%)
 - elate: to make someone very happy and excited
-- intrigue: to make someone very curious and keen
+- intrigue: to make someone very curious and interested
 
 ## L3: "enshroud" vs "terminate" (67%)
 - enshroud: to cover or hide something completely
@@ -13043,11 +13303,11 @@
 - imbue: to fill something with a quality or feeling
 
 ## L3: "carnivore" vs "herbivore" (80%)
-- carnivore: an animal that eats only meat
+- carnivore: an animal that eats mostly or only meat
 - herbivore: an animal that eats only plants
 
-## L3: "carnivore" vs "omnivore" (80%)
-- carnivore: an animal that eats only meat
+## L3: "carnivore" vs "omnivore" (67%)
+- carnivore: an animal that eats mostly or only meat
 - omnivore: an animal that eats both plants and meat
 
 ## L3: "herbivore" vs "omnivore" (80%)
@@ -13429,10 +13689,6 @@
 ## L4: "culpability" vs "reproach" (75%)
 - culpability: responsibility for doing something wrong
 - reproach: to express letdown in someone for doing something wrong
-
-## L4: "curtailment" vs "ration" (75%)
-- curtailment: when something is cut short or limited
-- ration: a fixed amount of something given to each person when supplies are limited
 
 ## L4: "derivative" vs "precursor" (67%)
 - derivative: something that is based on or comes from something else
@@ -13868,7 +14124,7 @@
 
 ## L5: "concurrent" vs "coincidence" (67%)
 - concurrent: happening at the same time
-- coincidence: when two things happen at the same time by chance
+- coincidence: a surprising situation where two things happen at the same time by chance
 
 ## L5: "culminate" vs "pinnacle" (67%)
 - culminate: to reach the highest point or final result

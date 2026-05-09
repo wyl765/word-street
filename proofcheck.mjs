@@ -50,6 +50,13 @@ const BANNED_EXAMPLE_PHRASES_L1_L3 = [
   'mortgage', 'foreclosure', 'bankruptcy',
 ];
 
+// Culture-specific phrases that Chinese students may lack schema for
+const CULTURE_SPECIFIC_PHRASES = [
+  'thanksgiving', 'halloween', 'prom', 'yearbook', 'homecoming',
+  'pledge of allegiance', 'fourth of july', 'trick or treat',
+  'santa claus', 'easter bunny', 'groundhog day', 'super bowl',
+];
+
 // Known global-replace accident patterns — only flag if NOT a natural use
 const REPLACE_ACCIDENTS = [
   { find: /\bthe important(?! (?:thing|point|part|detail|fact|role|step|lesson|rule|idea|reason|message|letter|news|decision|event|question|person|people|moment|day))/i, label: 'key→important replace accident' },
@@ -114,6 +121,16 @@ function checkBannedWords(entries) {
         addIssue('CRITICAL', e._file, e.word, 'BANNED_WORD',
           `Word "${e.word}" is on the banned list`,
           'Remove this entry entirely');
+      }
+    }
+    // Also scan definition, example, and imageKeyword for banned words
+    const allText = `${e.definition || ''} ${e.example || ''} ${e.imageKeyword || ''}`.toLowerCase();
+    for (const banned of BANNED_WORDS) {
+      const re = new RegExp(`\\b${banned}\\b`, 'i');
+      if (re.test(allText) && wordLower !== banned) {
+        addIssue('CRITICAL', e._file, e.word, 'BANNED_WORD_IN_TEXT',
+          `Banned word "${banned}" found in definition/example/imageKeyword`,
+          'Remove banned word from all fields');
       }
     }
   }
@@ -504,6 +521,7 @@ const WRONG_COLLOCATIONS = [
   { wrong: /\beat (medicine|drug)\b/i, fix: 'take $1', label: 'eat→take for medicine' },
   { wrong: /\bsee a (dream)\b/i, fix: 'have a $1', label: 'see→have for dreams' },
   { wrong: /\bat first from\b/i, fix: 'originally from', label: 'at first from→originally from' },
+  { wrong: /\badmiral\b.*\b(sailed|steered|rowed)\b/i, fix: 'commanded/led', label: 'admiral commands, does not sail/steer' },
 ];
 
 function checkCollocations(entries) {
@@ -572,7 +590,40 @@ function checkSynonymCycles(entries) {
   }
 }
 
-// ============ VAGUE DEFINITION CHECK ============
+// ============ CROSS-DEFINITION CYCLE CHECK ============
+// Detects same-level word pairs where A's definition contains B and B's definition contains A
+function checkCrossDefinitionCycles(entries) {
+  const byLevel = new Map();
+  for (const e of entries) {
+    const lvl = e.level;
+    if (!byLevel.has(lvl)) byLevel.set(lvl, []);
+    byLevel.get(lvl).push(e);
+  }
+  const reported = new Set();
+  for (const [lvl, words] of byLevel) {
+    for (let i = 0; i < words.length; i++) {
+      const a = words[i];
+      const aWord = a.word.toLowerCase();
+      const aDef = (a.definition || '').toLowerCase();
+      for (let j = i + 1; j < words.length; j++) {
+        const b = words[j];
+        const bWord = b.word.toLowerCase();
+        const bDef = (b.definition || '').toLowerCase();
+        const aRegex = new RegExp(`\\b${aWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
+        const bRegex = new RegExp(`\\b${bWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`);
+        if (bRegex.test(aDef) && aRegex.test(bDef)) {
+          const key = [aWord, bWord].sort().join('|');
+          if (!reported.has(key)) {
+            reported.add(key);
+            addIssue('MINOR', a._file, a.word, 'CROSS_DEF_CYCLE',
+              `Cross-definition cycle: "${aWord}" def contains "${bWord}" and "${bWord}" def contains "${aWord}" (both L${lvl})`,
+              'Break the cycle: at least one definition should not reference the other word');
+          }
+        }
+      }
+    }
+  }
+}
 function checkVagueDefinition(entries) {
   for (const e of entries) {
     const def = (e.definition || '').toLowerCase();
@@ -809,6 +860,63 @@ function checkSameLevelCircular(entries) {
   }
 }
 
+// ============ CULTURE-SPECIFIC CHECK ============
+function checkCultureSpecific(entries) {
+  for (const e of entries) {
+    const level = e.level || 0;
+    if (level > 2) continue; // Only check L1-L2
+    const example = (e.example || '').toLowerCase();
+    for (const phrase of CULTURE_SPECIFIC_PHRASES) {
+      const phraseRegex = new RegExp(`\\b${phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+      if (phraseRegex.test(example)) {
+        addIssue('MINOR', e._file, e.word, 'CULTURE_SPECIFIC',
+          `L${level} example contains Western culture-specific phrase "${phrase}": "${e.example.substring(0, 60)}..."`,
+          'Replace with a culturally neutral example or add an alternative example');
+      }
+    }
+  }
+}
+
+// ============ BRAND NAME IMAGE COLLISION ============
+const BRAND_COLLISION_WORDS = [
+  'kindle', 'echo', 'alexa', 'siri', 'dash', 'prime', 'nest', 'bolt',
+  'spark', 'pixel', 'edge', 'surface', 'iris', 'flame', 'halo'
+];
+function checkBrandImageCollision(entries) {
+  for (const e of entries) {
+    const ik = (e.imageKeyword || '').toLowerCase();
+    for (const brand of BRAND_COLLISION_WORDS) {
+      if (ik.includes(brand) && e.word.toLowerCase() === brand) {
+        // Check if imageKeyword is just the brand word or brand+generic
+        const words = ik.split(/\s+/);
+        if (words.length <= 2) {
+          addIssue('MINOR', e._file, e.word, 'BRAND_IMAGE_COLLISION',
+            `imageKeyword "${e.imageKeyword}" may return brand/product images instead of the intended meaning`,
+            'Add descriptive context to disambiguate from brand names');
+        }
+      }
+    }
+  }
+}
+
+// ============ MILITARY CONTEXT CHECK ============
+const MILITARY_CONTEXT_WORDS = /\b(soldiers?|army|military|troops|warfare|barracks|combat)\b/i;
+const MILITARY_TARGET_WORDS = ['soldier', 'army', 'military', 'troop', 'general', 'colonel', 'sergeant', 'admiral', 'navy', 'marine', 'battalion', 'regiment', 'infantry', 'artillery', 'bunker', 'barracks'];
+function checkMilitaryContext(entries) {
+  for (const e of entries) {
+    const example = e.example || '';
+    if (MILITARY_CONTEXT_WORDS.test(example)) {
+      // Skip if the word itself is a military term
+      const isMilitaryWord = MILITARY_TARGET_WORDS.some(mw => e.word.toLowerCase().includes(mw));
+      if (!isMilitaryWord) {
+        addIssue('MINOR', e._file, e.word, 'MILITARY_CONTEXT',
+          `Example contains military context: "${example.match(MILITARY_CONTEXT_WORDS)[0]}"`,
+          'Consider replacing with a neutral/civilian context');
+      }
+    }
+  }
+}
+
 // ============ MAIN ============
 
 console.log('🔍 Word Street Proofcheck Engine v1.0');
@@ -835,6 +943,7 @@ checkGrammarPatterns(entries);
 checkCollocations(entries);
 checkFactErrors(entries);
 checkSynonymCycles(entries);
+checkCrossDefinitionCycles(entries);
 checkVagueDefinition(entries);
 checkLazyImageKeyword(entries);
 checkShortDefAdvanced(entries);
@@ -847,6 +956,9 @@ checkVerbDefNounExample(entries);
 checkComparisonDef(entries);
 checkWhenDefinition(entries);
 checkSameLevelCircular(entries);
+checkCultureSpecific(entries);
+checkBrandImageCollision(entries);
+checkMilitaryContext(entries);
 
 // Sort by severity
 const severityOrder = { CRITICAL: 0, MAJOR: 1, MINOR: 2 };

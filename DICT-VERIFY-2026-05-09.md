@@ -1,0 +1,85 @@
+# Dictionary Pattern Check
+
+0 HIGH | 77 MEDIUM | 66 MINOR
+
+## HIGH
+
+
+## MEDIUM
+- words-level1.js | mud | Definition "wet dirt" is too brief to be useful
+- words-level1.js | wave | L1 definition packs 3 meanings: "to move your hand to say hello or bye; also a wall of water in the ocean"
+- words-level1.js | shallow | Definition "not deep" is too brief to be useful
+- words-level1.js | loose | Definition "not tight" is too brief to be useful
+- words-level1.js | exactly | L1 definition packs 3 meanings: "just right; not more or less"
+- words-level1.js | beside | Definition "next to" is too brief to be useful
+- words-level1.js | within | Definition "inside" is too brief to be useful
+- words-level1.js | without | Definition "not having" is too brief to be useful
+- words-level1.js | then | Definition "after that" is too brief to be useful
+- words-level1.js | daily | Definition "every day" is too brief to be useful
+- words-level1.js | once | Definition "one time" is too brief to be useful
+- words-level1.js | twice | Definition "two times" is too brief to be useful
+- words-level1.js | single | Definition "only one" is too brief to be useful
+- words-level1.js | tale | Definition "a story" is too brief to be useful
+- words-level1.js | itsy | Definition "extremely tiny" is too brief to be useful
+- words-level2.js | brilliant | L2 definition packs 3 meanings: "very smart or impressive; also very bright"
+- words-level2.js | swift | Definition "very fast" is too brief to be useful
+- words-level2.js | force | L2 definition packs 3 meanings: "a push or pull; also to make someone do something"
+- words-level2.js | immediately | Definition "right away" is too brief to be useful
+- words-level2.js | frequently | Definition "many times" is too brief to be useful
+- words-level2.js | rarely | Definition "not often" is too brief to be useful
+- words-level2.js | occasionally | Definition "sometimes" is too brief to be useful
+- words-level2.js | otherwise | L2 definition packs 3 meanings: "or else; if not"
+- words-level2.js | make up | Definition "to invent" is too brief to be useful
+- words-level2.js | courageous | Definition "brave" is too brief to be useful
+- words-level2.js | adult | Definition "a grown-up" is too brief to be useful
+- words-level2.js | alive | Definition "living" is too brief to be useful
+- words-level2.js | alone | Definition "by yourself" is too brief to be useful
+- words-level2.js | always | Definition "every time" is too brief to be useful
+- words-level2.js | asleep | Definition "sleeping" is too brief to be useful
+- words-level2.js | attempt | Definition "a try" is too brief to be useful
+- words-level2.js | awake | Definition "not sleeping" is too brief to be useful
+- words-level2.js | begin | Definition "to start" is too brief to be useful
+- words-level2.js | center | Definition "the middle" is too brief to be useful
+- words-level2.js | make | L2 definition packs 3 meanings: "to build or create something; also to cause something to happen"
+- words-level2.js | delight | Definition "great happiness" is too brief to be useful
+- words-level2.js | depend | L2 definition packs 3 meanings: "to need someone or something; also to be decided by something"
+- words-level2.js | far | Definition "not near" is too brief to be useful
+- words-level2.js | finish | Definition "to end" is too brief to be useful
+- words-level2.js | frighten | Definition "to scare" is too brief to be useful
+- words-level2.js | glad | Definition "happy" is too brief to be useful
+- words-level2.js | glitter | Definition "to sparkle" is too brief to be useful
+- words-level2.js | kind | L2 definition packs 3 meanings: "nice and caring; also a type or sort"
+- words-level2.js | near | Definition "close by" is too brief to be useful
+- words-level2.js | never | Definition "not ever" is too brief to be useful
+- words-level2.js | opposite | Definition "completely different" is too brief to be useful
+- words-level2.js | outside | Definition "not inside" is too brief to be useful
+- words-level2.js | raise | Definition "to lift" is too brief to be useful
+- words-level2.js | little | Definition "small" is too brief to be useful
+- words-level2.js | turn | L2 definition packs 3 meanings: "to spin or change direction; also a chance to do something"
+- words-level2.js | under | Definition "below" is too brief to be useful
+- words-level2.js | canopy | L2 definition packs 3 meanings: "a cover or roof made of cloth or leaves"
+- words-level2.js | although | Definition "even though" is too brief to be useful
+- words-level2a.js | distant | Definition "far away" is too brief to be useful
+- words-level2a.js | raw | Definition "not cooked" is too brief to be useful
+- words-level2a.js | filthy | Definition "very dirty" is too brief to be useful
+- words-level2a.js | gorgeous | Definition "very beautiful" is too brief to be useful
+- words-level2a.js | weak | Definition "not strong" is too brief to be useful
+- words-level2a.js | moisture | L2 definition packs 3 meanings: "wetness; water you can feel on a surface or in the air"
+- words-level2a.js | erosion | L2 definition packs 3 meanings: "when wind or water slowly wears away rock or soil"
+- words-level2a.js | numerous | Definition "very many" is too brief to be useful
+- words-level2b.js | verse | L2 definition packs 3 meanings: "one line or section of a poem or song"
+- words-level2b.js | genre | L2 definition packs 3 meanings: "a type or kind of book or story"
+- words-level2b.js | at the same time | Definition "happening together" is too brief to be useful
+- words-level2b.js | before long | Definition "soon" is too brief to be useful
+- words-level2b.js | due to | Definition "because of" is too brief to be useful
+- words-level2c.js | excellent | Definition "very good" is too brief to be useful
+- words-level2c.js | frequent | Definition "happening often" is too brief to be useful
+- words-level2d.js | peril | Definition "great danger" is too brief to be useful
+- words-level2d.js | abolish | L2 definition packs 3 meanings: "to officially end or get rid of a rule or practice"
+- words-level3a.js | ajar | Definition "slightly open" is too brief to be useful
+- words-level3b.js | on cloud nine | Definition "very happy" is too brief to be useful
+- words-level3b.js | in hot water | Definition "in trouble" is too brief to be useful
+- words-level3b.js | above all | Definition "most importantly" is too brief to be useful
+- words-level3b.js | rather than | Definition "instead of" is too brief to be useful
+- words-level3b.js | flak | Definition "strong criticism" is too brief to be useful
+- words-level3c.js | irate | Definition "very angry" is too brief to be useful

@@ -1,13 +1,6 @@
 [
   {
     "file": "words-level1.js",
-    "word": "nod",
-    "def": "to move your head up and down for yes",
-    "ex": "He gave a nod to show he understood.",
-    "issue": "definition looks like VERB but example uses NOUN"
-  },
-  {
-    "file": "words-level1.js",
     "word": "quickly",
     "def": "in a fast way",
     "ex": "She quickly grabbed her bag and ran to school.",
@@ -92,34 +85,6 @@
   },
   {
     "file": "words-level2.js",
-    "word": "crash",
-    "def": "to hit with a loud noise",
-    "ex": "The wave made a crash on the rocks.",
-    "issue": "definition looks like VERB but example uses NOUN"
-  },
-  {
-    "file": "words-level2.js",
-    "word": "glitter",
-    "def": "to sparkle",
-    "ex": "The glitter on the card sparkled in the light.",
-    "issue": "definition looks like VERB but example uses NOUN"
-  },
-  {
-    "file": "words-level2.js",
-    "word": "groan",
-    "def": "a sound from pain or upset",
-    "ex": "I groaned when I bumped my toe.",
-    "issue": "definition looks like NON-VERB but example uses VERB"
-  },
-  {
-    "file": "words-level2.js",
-    "word": "judge",
-    "def": "to decide what is best",
-    "ex": "The judge chose the best drawing at the fair.",
-    "issue": "definition looks like VERB but example uses NOUN"
-  },
-  {
-    "file": "words-level2.js",
     "word": "never",
     "def": "not ever",
     "ex": "I never touch a hot stove.",
@@ -127,24 +92,10 @@
   },
   {
     "file": "words-level2.js",
-    "word": "snap",
-    "def": "to break with a quick sound",
-    "ex": "The twig made a snap under my shoe.",
-    "issue": "definition looks like VERB but example uses NOUN"
-  },
-  {
-    "file": "words-level2.js",
     "word": "carefully",
     "def": "paying close attention not to make mistakes",
     "ex": "He carefully carried the glass of water without spilling.",
     "issue": "definition looks like NON-VERB but example uses VERB"
-  },
-  {
-    "file": "words-level2a.js",
-    "word": "command",
-    "def": "to tell a person what they must do",
-    "ex": "The captain gave a command for all the soldiers to march forward.",
-    "issue": "definition looks like VERB but example uses NOUN"
   },
   {
     "file": "words-level2a.js",
@@ -201,26 +152,5 @@
     "def": "happy to do something without being forced",
     "ex": "He willingly shared his lunch with the new student.",
     "issue": "definition looks like NON-VERB but example uses VERB"
-  },
-  {
-    "file": "words-level2a.js",
-    "word": "request",
-    "def": "to ask politely for something",
-    "ex": "He made a request for a library book about sharks.",
-    "issue": "definition looks like VERB but example uses NOUN"
-  },
-  {
-    "file": "words-level2c.js",
-    "word": "appeal",
-    "def": "to ask for something in a serious way",
-    "ex": "The teacher made an appeal for everyone to be kind to the new student.",
-    "issue": "definition looks like VERB but example uses NOUN"
-  },
-  {
-    "file": "words-level2c.js",
-    "word": "lack",
-    "def": "to not have enough of something",
-    "ex": "The plants died due to a lack of water during the hot summer.",
-    "issue": "definition looks like VERB but example uses NOUN"
   }
 ]
