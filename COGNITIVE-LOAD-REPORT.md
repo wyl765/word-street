@@ -2,7 +2,7 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 420
+- CRITICAL (≥5 超纲词 in definition): 421
 - MAJOR (≥3 超纲词 in definition): 2151
 
 ## Issues
@@ -194,6 +194,10 @@
 ### 🔴 [CRITICAL] frightened (L1)
 - **Definition:** "so scared your heart pounds and you want to run"
 - **超纲词 (5):** scared, heart, pounds, want, run
+
+### 🔴 [CRITICAL] embarrassed (L1)
+- **Definition:** "feeling bad because others saw you do something wrong or clumsy"
+- **超纲词 (5):** feeling, bad, others, saw, wrong
 
 ### 🔴 [CRITICAL] peaceful (L1)
 - **Definition:** "feeling safe and happy, with nothing to worry about"
@@ -2519,10 +2523,6 @@
 - **Definition:** "sad because something did not happen the way you wanted"
 - **超纲词 (3):** sad, happen, wanted
 
-### 🟡 [MAJOR] embarrassed (L1)
-- **Definition:** "feeling silly in front of others"
-- **超纲词 (4):** feeling, silly, front, others
-
 ### 🟡 [MAJOR] worried (L1)
 - **Definition:** "thinking bad things might happen"
 - **超纲词 (3):** thinking, bad, happen
@@ -3054,6 +3054,10 @@
 ### 🟡 [MAJOR] dollar (L2)
 - **Definition:** "money worth 100 cents"
 - **超纲词 (3):** money, worth, cents
+
+### 🟡 [MAJOR] drift (L2)
+- **Definition:** "to move slowly and gently, carried by wind or water"
+- **超纲词 (3):** carried, wind, water
 
 ### 🟡 [MAJOR] drown (L2)
 - **Definition:** "to go under water and not be able to breathe"

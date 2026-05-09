@@ -2,7 +2,7 @@
 
 ## Summary
 - CRITICAL (identical imageKeyword): 32
-- MAJOR (containment): 532
+- MAJOR (containment): 531
 - MINOR (≥50% word overlap): 46
 
 ## Issues
@@ -614,6 +614,5 @@
 - **[MINOR]** L5: **influx** ↔ **deluge** — "flooding in" vs "flooding rain" (50% word overlap)
 - **[MINOR]** L5: **succumb** ↔ **altruism** — "giving in" vs "selfless giving" (50% word overlap)
 - **[MINOR]** L5: **succumb** ↔ **benevolence** — "giving in" vs "generous giving" (50% word overlap)
-- **[MAJOR]** L5: **despotism** ↔ **tyranny** — "cruel rule" vs "cruel ruler" (one contains the other)
 - **[MINOR]** L5: **intercede** ↔ **abdicate** — "stepping in" vs "stepping down" (50% word overlap)
 - **[MINOR]** L5: **perseverance** ↔ **renounce** — "never giving up" vs "giving up crown" (50% word overlap)

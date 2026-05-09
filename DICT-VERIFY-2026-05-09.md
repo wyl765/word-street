@@ -1,6 +1,6 @@
 # Dictionary Pattern Check
 
-0 HIGH | 76 MEDIUM | 66 MINOR
+0 HIGH | 75 MEDIUM | 66 MINOR
 
 ## HIGH
 
@@ -20,7 +20,6 @@
 - words-level1.js | single | Definition "only one" is too brief to be useful
 - words-level1.js | tale | Definition "a story" is too brief to be useful
 - words-level1.js | itsy | Definition "extremely tiny" is too brief to be useful
-- words-level2.js | brilliant | L2 definition packs 3 meanings: "very smart or impressive; also very bright"
 - words-level2.js | swift | Definition "very fast" is too brief to be useful
 - words-level2.js | immediately | Definition "right away" is too brief to be useful
 - words-level2.js | frequently | Definition "many times" is too brief to be useful

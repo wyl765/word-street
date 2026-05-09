@@ -3,8 +3,8 @@
 ## Summary
 - HIGH risk (3+ factors): 188
 - MEDIUM risk (2 factors): 1231
-- LOW risk (1 factor): 53981
-- Total interference pairs: 55400
+- LOW risk (1 factor): 53983
+- Total interference pairs: 55402
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -2859,6 +2859,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L1: **surprised** ↔ **mistake** — definition (Jaccard=43%)
 - **[risk=1]** L1: **confused** ↔ **content** — phonetic (onset="co")
 - **[risk=1]** L1: **embarrassed** ↔ **exhausted** — phonetic (onset="e")
+- **[risk=1]** L1: **embarrassed** ↔ **ashamed** — definition (Jaccard=45%)
 - **[risk=1]** L1: **worried** ↔ **wobble** — phonetic (onset="wo")
 - **[risk=1]** L1: **annoyed** ↔ **amazed** — phonetic (onset="a")
 - **[risk=1]** L1: **annoyed** ↔ **ashamed** — phonetic (onset="a")
@@ -3653,6 +3654,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **modern** ↔ **modify** — phonetic (onset="mo")
 - **[risk=1]** L2: **modern** ↔ **monitor** — phonetic (onset="mo")
 - **[risk=1]** L2: **modern** ↔ **motive** — phonetic (onset="mo")
+- **[risk=1]** L2: **brilliant** ↔ **magnificent** — definition (Jaccard=50%)
 - **[risk=1]** L2: **brilliant** ↔ **brittle** — phonetic (onset="bri")
 - **[risk=1]** L2: **brilliant** ↔ **bring up** — phonetic (onset="bri")
 - **[risk=1]** L2: **brilliant** ↔ **bring about** — phonetic (onset="bri")

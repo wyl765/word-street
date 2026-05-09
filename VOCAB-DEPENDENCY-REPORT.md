@@ -1,7 +1,7 @@
 # Vocabulary Dependency Report — 2026-05-09
 
 ## Summary
-- Dependency inversions: 302 (264 unique words)
+- Dependency inversions: 301 (263 unique words)
 - Morphological ordering issues: 63
 
 ## Dependency Inversions
@@ -186,7 +186,6 @@ Word A's definition uses word B, but B.level > A.level — learner hasn't seen B
 - **figure out** (L1): uses find(L2)
 - **excited** (L1): uses wait(L2)
 - **surprised** (L1): uses expect(L2)
-- **embarrassed** (L1): uses front(L2)
 - **grateful** (L1): uses glad(L2)
 - **annoyed** (L1): uses little(L2)
 - **terrified** (L1): uses scared(L2)

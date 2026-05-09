@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-09
 
-3746 ambiguous pairs found.
+3749 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -786,6 +786,14 @@
 - surprised: something you did not expect happened
 - surprise: something you did not expect
 
+## L1: "embarrassed" vs "ashamed" (75%)
+- embarrassed: feeling bad because others saw you do something wrong or clumsy
+- ashamed: feeling bad about something you did wrong
+
+## L1: "embarrassed" vs "mistake" (100%)
+- embarrassed: feeling bad because others saw you do something wrong or clumsy
+- mistake: something you did wrong
+
 ## L1: "ashamed" vs "mistake" (100%)
 - ashamed: feeling bad about something you did wrong
 - mistake: something you did wrong
@@ -1165,6 +1173,10 @@
 ## L2: "ancient" vs "prolonged" (67%)
 - ancient: from a very long time ago
 - prolonged: lasting a long time
+
+## L2: "brilliant" vs "magnificent" (67%)
+- brilliant: very smart or impressive
+- magnificent: very nice and impressive
 
 ## L2: "sturdy" vs "hidden" (100%)
 - sturdy: strong and not easy to break

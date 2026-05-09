@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 209 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 208 MINOR
 
 ## Issues
 
@@ -206,10 +206,6 @@ Cross-definition cycle: "simple" def contains "complex" and "complex" def contai
 Cross-definition cycle: "although" def contains "even though" and "even though" def contains "although" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
 
-### [MINOR] words-level2b.js — "because of" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "because of" def contains "due to" and "due to" def contains "because of" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
 ### [MINOR] words-level2b.js — "despite" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "despite" def contains "even though" and "even though" def contains "despite" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
@@ -339,7 +335,7 @@ Definition starts with "when": "when liquid turns into a gas..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
 ### [MINOR] words-level2b.js — "greenhouse effect" (WHEN_DEFINITION)
-Definition starts with "when": "when gases trap heat in Earth's atmosphere..."
+Definition starts with "when": "when gases trap heat around the Earth..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
 ### [MINOR] words-level3b.js — "evaporation" (WHEN_DEFINITION)
