@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-09
 
-3788 ambiguous pairs found.
+3789 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -716,6 +716,10 @@
 
 ## L1: "busy" vs "once" (100%)
 - busy: doing many things with no free time
+- once: one time
+
+## L1: "slowly" vs "once" (100%)
+- slowly: not fast; taking a long time
 - once: one time
 
 ## L1: "barely" vs "single" (100%)

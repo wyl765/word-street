@@ -3,8 +3,8 @@
 ## Summary
 - HIGH risk (3+ factors): 188
 - MEDIUM risk (2 factors): 1233
-- LOW risk (1 factor): 53990
-- Total interference pairs: 55411
+- LOW risk (1 factor): 53991
+- Total interference pairs: 55412
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -2583,6 +2583,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L1: **proud** ↔ **mistake** — definition (Jaccard=43%)
 - **[risk=1]** L1: **proud** ↔ **crowd** — spelling (edit distance=2)
 - **[risk=1]** L1: **proud** ↔ **sprout** — spelling (edit distance=2)
+- **[risk=1]** L1: **grumpy** ↔ **cranky** — definition (Jaccard=50%)
 - **[risk=1]** L1: **lonely** ↔ **loudly** — spelling (edit distance=2)
 - **[risk=1]** L1: **lonely** ↔ **lose** — phonetic (onset="lo")
 - **[risk=1]** L1: **calm** ↔ **half** — spelling (edit distance=2)

@@ -1,7 +1,7 @@
 # Vocabulary Dependency Report — 2026-05-09
 
 ## Summary
-- Dependency inversions: 259 (223 unique words)
+- Dependency inversions: 260 (224 unique words)
 - Morphological ordering issues: 63
 
 ## Dependency Inversions
@@ -190,6 +190,7 @@ Word A's definition uses word B, but B.level > A.level — learner hasn't seen B
 - **exhausted** (L1): uses move(L2)
 - **delighted** (L1): uses jump(L2)
 - **gloomy** (L1): uses dark(L2)
+- **cranky** (L1): uses mood(L2)
 - **finally** (L1): uses wait(L2)
 - **entire** (L1): uses finish(L2)
 - **average** (L1): uses little(L2)

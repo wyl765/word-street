@@ -1,6 +1,6 @@
 # Dictionary Pattern Check
 
-0 HIGH | 76 MEDIUM | 66 MINOR
+0 HIGH | 76 MEDIUM | 67 MINOR
 
 ## HIGH
 

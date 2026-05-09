@@ -3,7 +3,7 @@
 ## Summary
 - Total entries: 5210
 - CRITICAL (≥5 超纲词 in definition): 422
-- MAJOR (≥3 超纲词 in definition): 2147
+- MAJOR (≥3 超纲词 in definition): 2148
 
 ## Issues
 
@@ -2467,6 +2467,10 @@
 - **Definition:** "doing many things with no free time"
 - **超纲词 (3):** doing, free, time
 
+### 🟡 [MAJOR] slowly (L1)
+- **Definition:** "not fast; taking a long time"
+- **超纲词 (4):** fast, taking, long, time
+
 ### 🟡 [MAJOR] through (L1)
 - **Definition:** "going in one end and out the other"
 - **超纲词 (3):** going, one, end
@@ -2576,8 +2580,8 @@
 - **超纲词 (3):** feeling, good, happen
 
 ### 🟡 [MAJOR] cranky (L1)
-- **Definition:** "grouchy and easy to upset"
-- **超纲词 (3):** grouchy, easy, upset
+- **Definition:** "in a bad mood and easy to upset"
+- **超纲词 (4):** bad, mood, easy, upset
 
 ### 🟡 [MAJOR] homesick (L1)
 - **Definition:** "missing your home when you are away"
