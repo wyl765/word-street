@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-09
 
-3789 ambiguous pairs found.
+3791 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -502,6 +502,10 @@
 - howl: to make a long loud cry
 - roar: to make a big loud sound like a lion
 
+## L1: "roar" vs "crunchy" (60%)
+- roar: to make a big loud sound like a lion
+- crunchy: making a loud sound when you bite, like chips or carrots
+
 ## L1: "clap" vs "take" (67%)
 - clap: to hit your hands together
 - take: to get hold of something with your hands
@@ -687,7 +691,7 @@
 - within: inside
 
 ## L1: "crunchy" vs "silent" (100%)
-- crunchy: making a snapping sound when you bite
+- crunchy: making a loud sound when you bite, like chips or carrots
 - silent: making no sound at all
 
 ## L1: "hollow" vs "within" (100%)
@@ -5869,6 +5873,10 @@
 ## L2: "consequence" vs "dispose" (100%)
 - consequence: a result caused by something you did
 - dispose: to get rid of something
+
+## L2: "consequence" vs "because of" (100%)
+- consequence: a result caused by something you did
+- because of: caused by; as a result of
 
 ## L2: "consequence" vs "blame" (67%)
 - consequence: a result caused by something you did

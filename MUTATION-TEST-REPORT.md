@@ -24,43 +24,43 @@
 
 ## Injected Mutations Detail
 
-- ✅ **reinforce** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **familiar** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **depot** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **algebra** (factual_error): def changed to: "math that grows underground in caves..."
-- ✅ **heterogeneous** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **entirely** (banned_word): injected "pornography" into example
-- ✅ **globe** (banned_word): injected "pornography" into example
-- ✅ **continue** (banned_word): injected "torture" into example
-- ✅ **dale** (banned_word): injected "torture" into example
-- ✅ **complementary** (banned_word): injected "massacre" into example
-- ✅ **ominous** (collocation_error): bad collocation: "drink soup"
-- ✅ **indent** (collocation_error): bad collocation: "close the light"
-- ✅ **camouflage** (collocation_error): bad collocation: "drink soup"
-- ✅ **extol** (collocation_error): bad collocation: "eat medicine"
-- ✅ **map** (collocation_error): bad collocation: "eat medicine"
-- ✅ **amorphous** (empty_field): emptied example
-- ✅ **clumsy** (empty_field): emptied example
-- ✅ **incident** (empty_field): emptied example
-- ✅ **philosophy** (empty_field): emptied example
-- ✅ **before** (empty_field): emptied example
-- ✅ **accessible** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **mortgage** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **elm** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **concede** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **dwindle** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **fluctuate** (grammar_error): example: "They is happy about the fluctuate...."
-- ✅ **drain** (grammar_error): example: "She don't like the drain...."
-- ✅ **despite** (grammar_error): example: "She don't like the despite...."
-- ❌ **divergent** (grammar_error): example: "The twins had divergent interests: one loved art, and the ot..."
-- ❌ **condescension** (grammar_error): example: "His condescension toward younger students made them feel unw..."
+- ✅ **deserve** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **confine** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **intellect** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **collect** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **fallacy** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **monopoly** (banned_word): injected "pornography" into example
+- ✅ **ceremony** (banned_word): injected "genocide" into example
+- ✅ **noodle** (banned_word): injected "massacre" into example
+- ✅ **abode** (banned_word): injected "torture" into example
+- ✅ **environment** (banned_word): injected "genocide" into example
+- ✅ **boast** (collocation_error): bad collocation: "drink soup"
+- ✅ **counterpart** (collocation_error): bad collocation: "close the light"
+- ✅ **whereby** (collocation_error): bad collocation: "big rain"
+- ✅ **mercantile** (collocation_error): bad collocation: "drink soup"
+- ✅ **stratosphere** (collocation_error): bad collocation: "drink soup"
+- ✅ **capacious** (empty_field): emptied example
+- ✅ **repeal** (empty_field): emptied definition
+- ✅ **depreciate** (empty_field): emptied example
+- ✅ **bay** (empty_field): emptied example
+- ✅ **perilous** (empty_field): emptied example
+- ✅ **strict** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **drip** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **carnivore** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **fragile** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **efface** (replace_accident): example: "He pressed the important on the importantboard...."
+- ❌ **rooster** (grammar_error): example: "The rooster crowed loudly every morning at sunrise...."
+- ✅ **temporary** (grammar_error): example: "The sign is goes was temporary, so workers took it down afte..."
+- ✅ **habit** (grammar_error): example: "They is happy about the habit...."
+- ❌ **enhance** (grammar_error): example: "Adding bright illustrations can enhance a book and make it m..."
+- ✅ **mobilization** (grammar_error): example: "The mobilization is goes of troops began as soon as war was ..."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **divergent** (grammar_error): example: "The twins had divergent interests: one loved art, and the ot..."
-- **condescension** (grammar_error): example: "His condescension toward younger students made them feel unw..."
+- **rooster** (grammar_error): example: "The rooster crowed loudly every morning at sunrise...."
+- **enhance** (grammar_error): example: "Adding bright illustrations can enhance a book and make it m..."
 
 ### Recommended Improvements
 

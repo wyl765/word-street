@@ -2,7 +2,7 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 422
+- CRITICAL (≥5 超纲词 in definition): 423
 - MAJOR (≥3 超纲词 in definition): 2148
 
 ## Issues
@@ -190,6 +190,10 @@
 ### 🔴 [CRITICAL] vanish (L1)
 - **Definition:** "to go away so no one can see it, like magic"
 - **超纲词 (5):** go, away, one, see, magic
+
+### 🔴 [CRITICAL] crunchy (L1)
+- **Definition:** "making a loud sound when you bite, like chips or carrots"
+- **超纲词 (5):** making, sound, bite, chips, carrots
 
 ### 🔴 [CRITICAL] frightened (L1)
 - **Definition:** "so scared your heart pounds and you want to run"
@@ -2406,10 +2410,6 @@
 ### 🟡 [MAJOR] juicy (L1)
 - **Definition:** "full of juice inside"
 - **超纲词 (3):** full, juice, inside
-
-### 🟡 [MAJOR] crunchy (L1)
-- **Definition:** "making a snapping sound when you bite"
-- **超纲词 (4):** making, snapping, sound, bite
 
 ### 🟡 [MAJOR] loud (L1)
 - **Definition:** "making a lot of noise"
@@ -5542,6 +5542,10 @@
 ### 🟡 [MAJOR] arbiter (L3)
 - **Definition:** "a person chosen to settle a fight"
 - **超纲词 (3):** person, chosen, fight
+
+### 🟡 [MAJOR] atoll (L3)
+- **Definition:** "a ring-shaped island around a shallow lake of sea water"
+- **超纲词 (4):** ring-shaped, lake, sea, water
 
 ### 🟡 [MAJOR] badger (L3)
 - **Definition:** "to keep asking someone to do something in an annoying way"

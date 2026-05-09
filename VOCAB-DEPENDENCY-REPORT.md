@@ -1,7 +1,7 @@
 # Vocabulary Dependency Report — 2026-05-09
 
 ## Summary
-- Dependency inversions: 260 (224 unique words)
+- Dependency inversions: 259 (223 unique words)
 - Morphological ordering issues: 63
 
 ## Dependency Inversions
@@ -216,7 +216,6 @@ Word A's definition uses word B, but B.level > A.level — learner hasn't seen B
 - **endangered** (L2): uses risk(L3)
 - **patent** (L2): uses legal(L3)
 - **ardor** (L3): uses enthusiasm(L4)
-- **atoll** (L3): uses coral(L5)
 - **colander** (L3): uses drain(L4)
 - **get along with** (L3): uses bond(L4)
 - **dye** (L3): uses substance(L4)

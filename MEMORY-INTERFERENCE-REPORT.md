@@ -2,9 +2,9 @@
 
 ## Summary
 - HIGH risk (3+ factors): 188
-- MEDIUM risk (2 factors): 1233
-- LOW risk (1 factor): 53991
-- Total interference pairs: 55412
+- MEDIUM risk (2 factors): 1232
+- LOW risk (1 factor): 53988
+- Total interference pairs: 55408
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -435,7 +435,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **frequently** ↔ **frequent** — spelling (edit distance=2), phonetic (onset="fre")
 - **[risk=2]** L2: **rarely** ↔ **seldom** — definition (Jaccard=67%)
 - **[risk=2]** L2: **rarely** ↔ **rare** — spelling (edit distance=2), phonetic (onset="ra")
-- **[risk=2]** L2: **therefore** ↔ **because of** — definition (Jaccard=100%)
 - **[risk=2]** L2: **make up** ↔ **make out** — spelling (edit distance=2), phonetic (onset="ma")
 - **[risk=2]** L2: **courageous** ↔ **courteous** — spelling (edit distance=2), phonetic (onset="cou")
 - **[risk=2]** L2: **about** ↔ **bout** — spelling (edit distance=1)
@@ -6785,7 +6784,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **because** ↔ **bellows** — phonetic (onset="be")
 - **[risk=1]** L2: **because** ↔ **behave** — phonetic (onset="be")
 - **[risk=1]** L2: **because** ↔ **benefit** — phonetic (onset="be")
-- **[risk=1]** L2: **because** ↔ **because of** — definition (Jaccard=50%)
 - **[risk=1]** L2: **because** ↔ **account for** — definition (Jaccard=50%)
 - **[risk=1]** L2: **because** ↔ **bedrock** — phonetic (onset="be")
 - **[risk=1]** L2: **because** ↔ **bestow** — phonetic (onset="be")
@@ -19718,7 +19716,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **generate** ↔ **generally** — phonetic (onset="ge")
 - **[risk=1]** L2: **generate** ↔ **get by** — phonetic (onset="ge")
 - **[risk=1]** L2: **hence** ↔ **genre** — spelling (edit distance=2)
-- **[risk=1]** L2: **hence** ↔ **because of** — definition (Jaccard=50%)
 - **[risk=1]** L2: **hence** ↔ **account for** — definition (Jaccard=50%)
 - **[risk=1]** L2: **hence** ↔ **tense** — spelling (edit distance=2)
 - **[risk=1]** L2: **identical** ↔ **ideology** — phonetic (onset="i")
@@ -22207,7 +22204,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **altogether** ↔ **anticipate** — phonetic (onset="a")
 - **[risk=1]** L2: **altogether** ↔ **apparatus** — phonetic (onset="a")
 - **[risk=1]** L2: **altogether** ↔ **appliance** — phonetic (onset="a")
-- **[risk=1]** L2: **as a result** ↔ **because of** — definition (Jaccard=50%)
 - **[risk=1]** L2: **as a result** ↔ **accessory** — phonetic (onset="a")
 - **[risk=1]** L2: **as a result** ↔ **accommodate** — phonetic (onset="a")
 - **[risk=1]** L2: **as a result** ↔ **adolescent** — phonetic (onset="a")
@@ -22294,7 +22290,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **at last** ↔ **appoint** — phonetic (onset="a")
 - **[risk=1]** L2: **at last** ↔ **asset** — phonetic (onset="a")
 - **[risk=1]** L2: **because of** ↔ **before long** — phonetic (onset="be")
-- **[risk=1]** L2: **because of** ↔ **due to** — definition (Jaccard=50%)
+- **[risk=1]** L2: **because of** ↔ **consequently** — definition (Jaccard=50%)
 - **[risk=1]** L2: **because of** ↔ **beforehand** — phonetic (onset="be")
 - **[risk=1]** L2: **before long** ↔ **beforehand** — phonetic (onset="be")
 - **[risk=1]** L2: **by contrast** ↔ **in contrast** — spelling (edit distance=2)
