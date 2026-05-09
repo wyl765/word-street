@@ -19,51 +19,51 @@
 | banned_word | 5 | 5 | 100% |
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
-| replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 4 | 80% |
+| replace_accident | 5 | 4 | 80% |
+| grammar_error | 5 | 5 | 100% |
 
 ## Injected Mutations Detail
 
-- ✅ **remainder** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **hidden** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **quiz** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **emblem** (factual_error): def changed to: "a symbol or design that grows underground in caves..."
-- ✅ **lonely** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **eliminate** (banned_word): injected "torture" into example
-- ✅ **recent** (banned_word): injected "pornography" into example
-- ✅ **selfish** (banned_word): injected "torture" into example
-- ✅ **amount** (banned_word): injected "torture" into example
-- ✅ **deduce** (banned_word): injected "genocide" into example
-- ✅ **prompt** (collocation_error): bad collocation: "eat medicine"
-- ✅ **eloquent** (collocation_error): bad collocation: "open the light"
-- ✅ **frivolity** (collocation_error): bad collocation: "drink soup"
-- ✅ **seldom** (collocation_error): bad collocation: "eat medicine"
-- ✅ **sandal** (collocation_error): bad collocation: "close the light"
-- ✅ **segregation** (empty_field): emptied definition
-- ✅ **symmetry** (empty_field): emptied example
-- ✅ **classify** (empty_field): emptied example
-- ✅ **figure of speech** (empty_field): emptied example
-- ✅ **aggravate** (empty_field): emptied example
-- ✅ **holistic** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **feature** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **vowel** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **mass** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **hybrid** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **visible** (grammar_error): example: "The childrens played with the visible...."
-- ✅ **justify** (grammar_error): example: "He don't justified staying up late by showing he finished al..."
-- ✅ **hew** (grammar_error): example: "She don't like the hew...."
-- ❌ **influence** (grammar_error): example: "Her older sister had a big influence on what music she liked..."
-- ✅ **devoted** (grammar_error): example: "He don't is devoted to his dog and takes care of it every si..."
+- ✅ **crayon** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **superior** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **debris** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **envision** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **admire** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **breakthrough** (banned_word): injected "genocide" into example
+- ✅ **overnight** (banned_word): injected "autopsy" into example
+- ✅ **in addition** (banned_word): injected "genocide" into example
+- ✅ **acquittal** (banned_word): injected "pornography" into example
+- ✅ **except** (banned_word): injected "massacre" into example
+- ✅ **resource** (collocation_error): bad collocation: "open the light"
+- ✅ **coconut** (collocation_error): bad collocation: "eat medicine"
+- ✅ **influx** (collocation_error): bad collocation: "big rain"
+- ✅ **volcano** (collocation_error): bad collocation: "eat medicine"
+- ✅ **worthy** (collocation_error): bad collocation: "open the light"
+- ✅ **portion** (empty_field): emptied example
+- ✅ **ratio** (empty_field): emptied definition
+- ✅ **threshold** (empty_field): emptied example
+- ✅ **griddle** (empty_field): emptied definition
+- ✅ **boiling** (empty_field): emptied definition
+- ❌ **go the extra mile** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **biennial** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **flour** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **convergent** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **rapid** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **captive** (grammar_error): example: "She don't like the captive...."
+- ✅ **blot out** (grammar_error): example: "She don't like the blot out...."
+- ✅ **peel** (grammar_error): example: "They is happy about the peel...."
+- ✅ **stigma** (grammar_error): example: "The childrens played with the stigma...."
+- ✅ **redress** (grammar_error): example: "They is happy about the redress...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **influence** (grammar_error): example: "Her older sister had a big influence on what music she liked..."
+- **go the extra mile** (replace_accident): example: "The piano importants were black and white...."
 
 ### Recommended Improvements
 
-- **Grammar errors**: Expand SVA and grammar checks
+- **Replace accidents**: Add more patterns to REPLACE_ACCIDENTS
 
 ---
 *Generated by mutation-test.mjs*

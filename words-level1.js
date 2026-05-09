@@ -30,7 +30,7 @@ const LEVEL1_BANK=[{"word":"puppy","level":1,"definition":"a baby dog","example"
 {"word":"beetle","level":1,"definition":"an insect with a hard shell","example":"A shiny black beetle crawled across the log.","imageKeyword":"beetle"},
 {"word":"ladybug","level":1,"definition":"a small red bug with black spots","example":"A ladybug landed on my finger, and then flew away.","imageKeyword":"ladybug"},
 {"word":"butterfly","level":1,"definition":"an insect with big colorful wings","example":"The orange butterfly flew from flower to flower.","imageKeyword":"butterfly"},
-{"word":"caterpillar","level":1,"definition":"a small animal with many legs that turns into a butterfly","example":"The green caterpillar munched on leaves all day.","imageKeyword":"caterpillar"},
+{"word":"caterpillar","level":1,"definition":"a small animal with many legs that turns into a butterfly or moth","example":"The green caterpillar munched on leaves all day.","imageKeyword":"caterpillar"},
 {"word":"ant","level":1,"definition":"a tiny bug that lives in a group","example":"The ant carried a crumb back to its hill.","imageKeyword":"ant"},
 {"word":"bee","level":1,"definition":"a small flying insect that buzzes and can sting","example":"The bee buzzed around the yellow flowers.","imageKeyword":"bee"},
 {"word":"squirrel","level":1,"definition":"a small animal with a bushy tail that climbs trees and collects nuts","example":"The squirrel hid a nut inside the tree hole.","imageKeyword":"squirrel"},
@@ -594,7 +594,7 @@ const LEVEL1_BANK=[{"word":"puppy","level":1,"definition":"a baby dog","example"
 {"word":"sparkle","level":1,"definition":"to shine with little flashes of light","example":"The snow made everything sparkle in the sunshine.","imageKeyword":"sparkling"},
 {"word":"flutter","level":1,"definition":"to move wings quickly up and down","example":"The butterfly would flutter from one flower to the next.","imageKeyword":"fluttering butterfly"},
 {"word":"hear","level":1,"definition":"to notice sounds with your ears","example":"You can hear the crowd cheering at the basketball game from outside.","imageKeyword":"child listening to loud basketball crowd"},
-{"word":"lose","level":1,"definition":"to not win","example":"Our team tried hard but we still lost the game.","imageKeyword":"basketball team losing game sad faces"},
+{"word":"lose","level":1,"definition":"to not be able to find something","example":"She lost her favorite toy and looked everywhere for it.","imageKeyword":"child searching for lost toy"},
 {"word":"teach","level":1,"definition":"to help someone learn something new","example":"My big brother will teach me how to write my first code.","imageKeyword":"older kid teaching younger kid on computer"},
 {"word":"take","level":1,"definition":"to get hold of something with your hands","example":"Please take a cookie from the plate.","imageKeyword":"hand taking cookie from plate"},
 {"word":"than","level":1,"definition":"a word used to compare two things","example":"She scored more points than anyone else on the basketball team.","imageKeyword":"basketball scoreboard comparing two numbers"}];
