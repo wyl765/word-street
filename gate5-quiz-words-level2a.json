@@ -1,0 +1,935 @@
+{
+  "file": "words-level2a",
+  "total": 400,
+  "sampled": 20,
+  "pass": 20,
+  "marginal": 0,
+  "fail": 0,
+  "results": [
+    {
+      "word": "hunt",
+      "definition": "to chase or search for animals or things you want to catch",
+      "example": "The owl hunts for mice at night when it is very dark.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "demonstrate",
+        "simply",
+        "benefit"
+      ]
+    },
+    {
+      "word": "invisible",
+      "definition": "not able to be seen",
+      "example": "The glass door was so clean it was almost invisible.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "encourage",
+        "approach",
+        "index"
+      ]
+    },
+    {
+      "word": "control",
+      "definition": "to have power over something and make it do what you want",
+      "example": "Use the remote to control which channel the TV shows.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "noble",
+        "inspector",
+        "accumulate"
+      ]
+    },
+    {
+      "word": "reasonable",
+      "definition": "fair and making good sense",
+      "example": "The price of the book was reasonable, so she had enough money to buy it.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "allocate",
+        "courage",
+        "annual"
+      ]
+    },
+    {
+      "word": "tradition",
+      "definition": "something families or groups do the same way year after year",
+      "example": "We bake cookies every December—it is a family tradition.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "worthless",
+        "framework",
+        "advantage"
+      ]
+    },
+    {
+      "word": "examine",
+      "definition": "to look at something very closely",
+      "example": "The doctor examined my sore throat with a tiny flashlight.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "genuine",
+        "erode",
+        "triumph"
+      ]
+    },
+    {
+      "word": "simultaneously",
+      "definition": "at the exact same moment, with two actions happening together",
+      "example": "The two friends jumped into the pool simultaneously and made a huge splash.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "distort",
+        "innovation",
+        "encourage"
+      ]
+    },
+    {
+      "word": "expect",
+      "definition": "to think something will happen",
+      "example": "I expect the bus will come soon because it is almost eight o'clock.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "continue",
+        "represent",
+        "gorgeous"
+      ]
+    },
+    {
+      "word": "explicit",
+      "definition": "said clearly so there is no mistake about what you mean",
+      "example": "The teacher gave explicit instructions for the project.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "inherent",
+        "scarcely",
+        "regularly"
+      ]
+    },
+    {
+      "word": "inherit",
+      "definition": "to get something from a family member",
+      "example": "She inherited her grandmother's blue eyes and curly hair.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "permanently",
+        "advocate",
+        "dense"
+      ]
+    },
+    {
+      "word": "neat",
+      "definition": "clean and in good order",
+      "example": "Her desk was always neat with pencils lined up in a row.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "annual",
+        "knowledge",
+        "domain"
+      ]
+    },
+    {
+      "word": "wicked",
+      "definition": "very bad or evil",
+      "example": "The wicked witch in the story tried to trick the children.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "genuine",
+        "quantity",
+        "accurate"
+      ]
+    },
+    {
+      "word": "permission",
+      "definition": "being allowed to do something by someone in charge",
+      "example": "You need permission from your parents before you go on the field trip.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "reliable",
+        "magnitude",
+        "soft"
+      ]
+    },
+    {
+      "word": "enforce",
+      "definition": "to make sure a rule is followed",
+      "example": "The teacher enforced the no-running rule in the hallway.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "lately",
+        "possibly",
+        "community"
+      ]
+    },
+    {
+      "word": "round",
+      "definition": "shaped like a circle or ball",
+      "example": "The round orange rolled off the table and onto the floor.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "furthermore",
+        "definition",
+        "harsh"
+      ]
+    },
+    {
+      "word": "hasten",
+      "definition": "to move or do something faster",
+      "example": "We hastened our steps when we saw the dark clouds coming.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "guide",
+        "particular",
+        "disaster"
+      ]
+    },
+    {
+      "word": "hike",
+      "definition": "to take a long walk outdoors, usually on a trail",
+      "example": "Our family likes to hike up the mountain every summer.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "compare",
+        "cross",
+        "duration"
+      ]
+    },
+    {
+      "word": "definition",
+      "definition": "what a word means",
+      "example": "Look up the definition in the dictionary if you don't know the word.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "extract",
+        "equipment",
+        "tradition"
+      ]
+    },
+    {
+      "word": "celebration",
+      "definition": "a happy time when people come together",
+      "example": "The town held a celebration with fireworks when the team won.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "celebrate",
+        "solution",
+        "hide"
+      ]
+    },
+    {
+      "word": "presently",
+      "definition": "at this moment; now",
+      "example": "He is presently working on his art project in the other room.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "rusty",
+        "boundary",
+        "gravity"
+      ]
+    }
+  ]
+}

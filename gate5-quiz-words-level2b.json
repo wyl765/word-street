@@ -1,0 +1,1011 @@
+{
+  "file": "words-level2b",
+  "total": 382,
+  "sampled": 20,
+  "pass": 19,
+  "marginal": 0,
+  "fail": 1,
+  "results": [
+    {
+      "word": "regardless",
+      "definition": "no matter what happens",
+      "example": "She will go to the park regardless of the cold weather.",
+      "status": "FAIL",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": false
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": false
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": false
+          }
+        ]
+      },
+      "distractors": [
+        "despite",
+        "on account of",
+        "as a result"
+      ]
+    },
+    {
+      "word": "acoustics",
+      "definition": "how sound moves in a room",
+      "example": "The concert hall had perfect acoustics for music.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "amid",
+        "brain",
+        "cell membrane"
+      ]
+    },
+    {
+      "word": "consequently",
+      "definition": "because of what happened earlier, the next thing follows",
+      "example": "He ate too much candy; consequently, his stomach hurt.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "convex",
+        "attest",
+        "go through"
+      ]
+    },
+    {
+      "word": "lay out",
+      "definition": "to spread or arrange things neatly",
+      "example": "Before you start, lay out all the pieces on the table.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "revolution",
+        "pessimistic",
+        "amass"
+      ]
+    },
+    {
+      "word": "concave",
+      "definition": "curved toward the inside like the inside of a bowl",
+      "example": "The concave mirror made her face look tiny.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "suffix",
+        "chromosome",
+        "amass"
+      ]
+    },
+    {
+      "word": "accommodate",
+      "definition": "to make room for or help someone",
+      "example": "The bus can accommodate forty riders.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "in particular",
+        "additionally",
+        "symptom"
+      ]
+    },
+    {
+      "word": "get over",
+      "definition": "to feel strong and well or happy again after being sick or sad",
+      "example": "It took a week to get over my cold.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "glossary",
+        "despite",
+        "by contrast"
+      ]
+    },
+    {
+      "word": "stomach",
+      "definition": "the body part that breaks down food after you eat",
+      "example": "After lunch, food goes to your stomach to be broken down.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "independent",
+        "table",
+        "modest"
+      ]
+    },
+    {
+      "word": "especially",
+      "definition": "more than usual; mainly",
+      "example": "I love all fruits, especially strawberries.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "out of the blue",
+        "boycott",
+        "certainly"
+      ]
+    },
+    {
+      "word": "altogether",
+      "definition": "all the way; in total",
+      "example": "Altogether, there are twenty-five students in our class.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "knock down",
+        "bristle",
+        "fall behind"
+      ]
+    },
+    {
+      "word": "artery",
+      "definition": "a thick tube that carries blood away from your heart",
+      "example": "An artery carries fresh blood from your heart to your toes.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "due to",
+        "stomach",
+        "responsible"
+      ]
+    },
+    {
+      "word": "settler",
+      "definition": "a person who moves to a new place to live",
+      "example": "The settlers built homes and farms in the new land.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "slow down",
+        "bear in mind",
+        "conclude"
+      ]
+    },
+    {
+      "word": "bone",
+      "definition": "a hard part inside your body that gives you shape",
+      "example": "You have a bone in your arm that helps you lift things.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "morph",
+        "organ",
+        "slow down"
+      ]
+    },
+    {
+      "word": "take away",
+      "definition": "to remove something from a place",
+      "example": "Please take away the empty plates from the table.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "bedrock",
+        "joyful",
+        "trait"
+      ]
+    },
+    {
+      "word": "get by",
+      "definition": "to manage with just enough",
+      "example": "She can get by with only a small lunch if she eats a big breakfast.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "focal",
+        "certainly",
+        "put up with"
+      ]
+    },
+    {
+      "word": "colony",
+      "definition": "a place ruled by a country far away",
+      "example": "Each colony was governed by the faraway king across the ocean.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "spore",
+        "concave",
+        "get rid of"
+      ]
+    },
+    {
+      "word": "for instance",
+      "definition": "used before giving one certain one thing that shows what you mean",
+      "example": "She likes many animals; for instance, she has a cat, a dog, and a fish.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "as a result",
+        "confident",
+        "fiber"
+      ]
+    },
+    {
+      "word": "go through",
+      "definition": "to live through a hard time or event",
+      "example": "Moving to a new school can be hard to go through.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "heritage",
+        "keep track of",
+        "descend"
+      ]
+    },
+    {
+      "word": "build up",
+      "definition": "to grow bigger or stronger over time",
+      "example": "Practicing your speech can help you build up confidence.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "silt",
+        "friendly",
+        "parasite"
+      ]
+    },
+    {
+      "word": "bacteria",
+      "definition": "very tiny living things that can be helpful or harmful",
+      "example": "Some bacteria in yogurt are good for your stomach.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "tax",
+        "bout",
+        "back and forth"
+      ]
+    }
+  ]
+}

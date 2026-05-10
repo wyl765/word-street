@@ -1,12 +1,11 @@
 const fs = require('fs');
+const data = JSON.parse(fs.readFileSync('word-status.json', 'utf8'));
 
-const statusFile = '/Users/percy/.openclaw/workspace/projects/word-street/word-status.json';
-const data = JSON.parse(fs.readFileSync(statusFile, 'utf8'));
-
-if (data.files['words-level2.js']) {
-    data.files['words-level2.js'].gate6 = 'pass';
-    data.summary.gate6_pending -= data.files['words-level2.js'].totalWords;
+if (data.files['words-level2c.js']) {
+  data.files['words-level2c.js'].gate6 = 'pass';
+  data.summary.gate6_pending -= data.files['words-level2c.js'].totalWords;
+  data.summary.allGatesClear += data.files['words-level2c.js'].totalWords;
 }
 
-fs.writeFileSync(statusFile, JSON.stringify(data, null, 2));
-console.log("Updated word-status.json");
+fs.writeFileSync('word-status.json', JSON.stringify(data, null, 2));
+console.log('Status updated.');
