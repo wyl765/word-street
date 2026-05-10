@@ -1,404 +1,408 @@
-# VERIFY (GPT) — words-level2a.js
+# VERIFY-GPT — words-level2a.js
 
-格式：word | L5 | L6 | L7 | L8
+- One line per word (no skipping).
+- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+- L6: Reverse test — blank example + 4 options.
+- L7: Cultural sensitivity.
+- L8: Learning path / level fit.
 
-- avoid | L5:D懂=能/E猜=能(线索:walked/around/getting) | L6:唯一=是(动作/场景线索强;线索:walked/around/getting) | L7:OK | L8:合适(基础高频/生活场景)
-- burst | L5:D懂=能/E猜=能(线索:balloon/loud/thorn) | L6:唯一=是(动作/场景线索强;线索:balloon/loud/thorn) | L7:OK | L8:合适(基础高频/生活场景)
-- bury | L5:D懂=能/E猜=能(线索:squirrel/likes/nuts) | L6:唯一=是(动作/场景线索强;线索:squirrel/likes/nuts) | L7:OK | L8:合适(基础高频/生活场景)
-- cheer | L5:D懂=能/E猜=能(线索:crowd/began/team) | L6:唯一=是(动作/场景线索强;线索:crowd/began/team) | L7:OK | L8:合适(基础高频/生活场景)
-- choose | L5:D懂=能/E猜=能(线索:flavor/cream/want) | L6:唯一=否(易被同level近义/同词族干扰(select);线索:flavor/cream/want) | L7:OK | L8:合适(基础高频/生活场景)
-- claim | L5:D懂=能/E猜=能(线索:both/children/theirs) | L6:唯一=是(动作/场景线索强;线索:both/children/theirs) | L7:OK | L8:合适(基础高频/生活场景)
-- combine | L5:D懂=能/E猜=能(线索:blue/yellow/paint) | L6:唯一=否(易被同level近义/同词族干扰(assemble,consolidate);线索:blue/yellow/paint) | L7:OK | L8:合适(基础高频/生活场景)
-- command | L5:D懂=能/E猜=能(线索:trainer/puppy/stay) | L6:唯一=否(易被同level近义/同词族干扰(instruct);线索:trainer/puppy/stay) | L7:OK | L8:合适(基础高频/生活场景)
-- consider | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:please/choices/pick) | L6:唯一=否(易被同level近义/同词族干扰(contemplate);线索:please/choices/pick) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- continue | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:rain/will/bring) | L6:唯一=否(易被同level近义/同词族干扰(continuously,constantly);线索:rain/will/bring) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- control | L5:D懂=能/E猜=能(线索:remote/which/channel) | L6:唯一=是(动作/场景线索强;线索:remote/which/channel) | L7:OK | L8:合适(基础高频/生活场景)
-- cover | L5:D懂=能/E猜=能(线索:please/food/flies) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:please/food/flies) | L7:OK | L8:合适(基础高频/生活场景)
-- cross | L5:D懂=能/E猜=能(线索:look/both/ways) | L6:唯一=是(动作/场景线索强;线索:look/both/ways) | L7:OK | L8:合适(基础高频/生活场景)
-- crush | L5:D懂=能/E猜=能(线索:giant/rock/fell) | L6:唯一=是(动作/场景线索强;线索:giant/rock/fell) | L7:OK | L8:合适(基础高频/生活场景)
-- dare | L5:D懂=能/E猜=能(线索:nobody/open/creaky) | L6:唯一=是(动作/场景线索强;线索:nobody/open/creaky) | L7:OK | L8:合适(基础高频/生活场景)
-- demand | L5:D懂=能/E猜=能(线索:hungry/baby/more) | L6:唯一=否(易被同level近义/同词族干扰(require);线索:hungry/baby/more) | L7:OK | L8:合适(基础高频/生活场景)
-- develop | L5:D懂=能/E猜=能(线索:tiny/seed/tall) | L6:唯一=是(动作/场景线索强;线索:tiny/seed/tall) | L7:OK | L8:合适(基础高频/生活场景)
-- direct | L5:D懂=能/E猜=能(线索:crossing/guard/cars) | L6:唯一=否(易被同level近义/同词族干扰(guide);线索:crossing/guard/cars) | L7:OK | L8:合适(基础高频/生活场景)
-- examine | L5:D懂=能/E猜=能(线索:doctor/sore/throat) | L6:唯一=否(易被同level近义/同词族干扰(inspect,observe);线索:doctor/sore/throat) | L7:OK | L8:合适(基础高频/生活场景)
-- exchange | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:friends/stickers/during) | L6:唯一=是(动作/场景线索强;线索:friends/stickers/during) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- excite | L5:D懂=能/E猜=能(线索:news/about/field) | L6:唯一=是(动作/场景线索强;线索:news/about/field) | L7:OK | L8:合适(基础高频/生活场景)
-- expect | L5:D懂=能/E猜=能(线索:will/come/soon) | L6:唯一=否(易被同level近义/同词族干扰(predict);线索:will/come/soon) | L7:OK | L8:合适(基础高频/生活场景)
-- explore | L5:D懂=能/E猜=能(线索:cave/flashlights/found) | L6:唯一=是(动作/场景线索强;线索:cave/flashlights/found) | L7:OK | L8:合适(基础高频/生活场景)
-- express | L5:D懂=能/E猜=能(线索:happiness/giving/everyone) | L6:唯一=是(动作/场景线索强;线索:happiness/giving/everyone) | L7:OK | L8:合适(基础高频/生活场景)
-- fail | L5:D懂=能/E猜=能(线索:catch/ball/tried) | L6:唯一=是(动作/场景线索强;线索:catch/ball/tried) | L7:OK | L8:合适(基础高频/生活场景)
-- flow | L5:D懂=能/E猜=能(线索:river/quickly/rocks) | L6:唯一=是(动作/场景线索强;线索:river/quickly/rocks) | L7:OK | L8:合适(基础高频/生活场景)
-- form | L5:D懂=能/E猜=能(线索:used/clay/little) | L6:唯一=是(动作/场景线索强;线索:used/clay/little) | L7:OK | L8:合适(基础高频/生活场景)
-- gaze | L5:D懂=能/E猜=能(线索:stars/amazed/many) | L6:唯一=是(动作/场景线索强;线索:stars/amazed/many) | L7:OK | L8:合适(基础高频/生活场景)
-- guide | L5:D懂=能/E猜=能(线索:park/ranger/will) | L6:唯一=否(易被同level近义/同词族干扰(direct);线索:park/ranger/will) | L7:OK | L8:合适(基础高频/生活场景)
-- hasten | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:steps/dark/clouds) | L6:唯一=是(动作/场景线索强;线索:steps/dark/clouds) | L7:OK | L8:不合适(建议提高level；或先学hurry/quickly再引入)
-- hide | L5:D懂=能/E猜=能(线索:children/love/behind) | L6:唯一=是(动作/场景线索强;线索:children/love/behind) | L7:OK | L8:合适(基础高频/生活场景)
-- hike | L5:D懂=能/E猜=能(线索:family/likes/mountain) | L6:唯一=是(动作/场景线索强;线索:family/likes/mountain) | L7:OK | L8:合适(基础高频/生活场景)
-- hug | L5:D懂=能/E猜=能(线索:grandmother/soon/walked) | L6:唯一=是(动作/场景线索强;线索:grandmother/soon/walked) | L7:OK | L8:合适(基础高频/生活场景)
-- hunt | L5:D懂=能/E猜=能(线索:mice/night/dark) | L6:唯一=是(动作/场景线索强;线索:mice/night/dark) | L7:OK | L8:合适(基础高频/生活场景)
-- increase | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:number/students/class) | L6:唯一=是(动作/场景线索强;线索:number/students/class) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- insist | L5:D懂=能/E猜=能(线索:wear/coats/freezing) | L6:唯一=是(动作/场景线索强;线索:wear/coats/freezing) | L7:OK | L8:合适(基础高频/生活场景)
-- instruct | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:coach/players/pass) | L6:唯一=否(易被同level近义/同词族干扰(command);线索:coach/players/pass) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- admire | L5:D懂=能/E猜=能(线索:everyone/stopped/beautiful) | L6:唯一=是(动作/场景线索强;线索:everyone/stopped/beautiful) | L7:OK | L8:合适(基础高频/生活场景)
-- announce | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:principal/school/would) | L6:唯一=是(动作/场景线索强;线索:principal/school/would) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- approve | L5:D懂=能/E猜=能(线索:plan/have/sleepover) | L6:唯一=否(易被同level近义/同词族干扰(authorize);线索:plan/have/sleepover) | L7:OK | L8:合适(基础高频/生活场景)
-- argue | L5:D懂=能/E猜=能(线索:brothers/about/whose) | L6:唯一=是(动作/场景线索强;线索:brothers/about/whose) | L7:OK | L8:合适(基础高频/生活场景)
-- behave | L5:D懂=能/E猜=能(线索:teacher/asked/class) | L6:唯一=是(动作/场景线索强;线索:teacher/asked/class) | L7:OK | L8:合适(基础高频/生活场景)
-- celebrate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:grandma's/birthday/cake) | L6:唯一=是(动作/场景线索强;线索:grandma's/birthday/cake) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- compare | L5:D懂=能/E猜=能(线索:let's/shells/which) | L6:唯一=是(动作/场景线索强;线索:let's/shells/which) | L7:OK | L8:合适(基础高频/生活场景)
-- convince | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:them/puppy/promising) | L6:唯一=是(动作/场景线索强;线索:them/puppy/promising) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- defend | L5:D懂=能/E猜=能(线索:father/bird/nest) | L6:唯一=是(动作/场景线索强;线索:father/bird/nest) | L7:OK | L8:合适(基础高频/生活场景)
-- disappear | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:magician/made/coin) | L6:唯一=是(动作/场景线索强;线索:magician/made/coin) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- encourage | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:friends/fell/bike) | L6:唯一=是(动作/场景线索强;线索:friends/fell/bike) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- improve | L5:D懂=能/E猜=能(线索:reading/practicing/every) | L6:唯一=是(动作/场景线索强;线索:reading/practicing/every) | L7:OK | L8:合适(基础高频/生活场景)
-- interrupt | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:please/don't/telling) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:please/don't/telling) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- observe | L5:D懂=能/E猜=能(线索:caterpillar/slowly/turned) | L6:唯一=否(易被同level近义/同词族干扰(examine,inspect);线索:caterpillar/slowly/turned) | L7:OK | L8:合适(基础高频/生活场景)
-- organize | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:crayons/color/neat) | L6:唯一=是(动作/场景线索强;线索:crayons/color/neat) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- bold | L5:D懂=能/E猜=能(线索:explorer/walked/dark) | L6:唯一=是(动作/场景线索强;线索:explorer/walked/dark) | L7:OK | L8:合适(基础高频/生活场景)
-- brief | L5:D懂=能/E猜=能(线索:rain/stopped/five) | L6:唯一=否(易被同level近义/同词族干扰(briefly);线索:rain/stopped/five) | L7:OK | L8:合适(基础高频/生活场景)
-- delicate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:butterfly/wing/tiny) | L6:唯一=是(动作/场景线索强;线索:butterfly/wing/tiny) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- dense | L5:D懂=能/E猜=能(线索:forest/sunlight/could) | L6:唯一=是(动作/场景线索强;线索:forest/sunlight/could) | L7:OK | L8:合适(基础高频/生活场景)
-- dim | L5:D懂=能/E猜=能(线索:light/hallway/made) | L6:唯一=是(动作/场景线索强;线索:light/hallway/made) | L7:OK | L8:合适(基础高频/生活场景)
-- distant | L5:D懂=能/E猜=能(线索:could/mountains/would) | L6:唯一=是(动作/场景线索强;线索:could/mountains/would) | L7:OK | L8:合适(基础高频/生活场景)
-- drowsy | L5:D懂=能/E猜=能(线索:warm/blanket/made) | L6:唯一=是(动作/场景线索强;线索:warm/blanket/made) | L7:OK | L8:合适(基础高频/生活场景)
-- dusty | L5:D懂=能/E猜=能(线索:book/hadn't/opened) | L6:唯一=是(动作/场景线索强;线索:book/hadn't/opened) | L7:OK | L8:合适(基础高频/生活场景)
-- elegant | L5:D懂=能/E猜=能(线索:swan/glided/smoothly) | L6:唯一=是(动作/场景线索强;线索:swan/glided/smoothly) | L7:OK | L8:合适(基础高频/生活场景)
-- faint | L5:D懂=能/E猜=能(线索:smell/cookies/coming) | L6:唯一=是(动作/场景线索强;线索:smell/cookies/coming) | L7:OK | L8:合适(基础高频/生活场景)
-- familiar | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:song/sounded/heard) | L6:唯一=是(动作/场景线索强;线索:song/sounded/heard) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- flat | L5:D懂=能/E猜=能(线索:pancake/thin/like) | L6:唯一=是(动作/场景线索强;线索:pancake/thin/like) | L7:OK | L8:合适(基础高频/生活场景)
-- flexible | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:rubber/band/stretched) | L6:唯一=是(动作/场景线索强;线索:rubber/band/stretched) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- foggy | L5:D懂=能/E猜=能(线索:morning/couldn't/across) | L6:唯一=是(动作/场景线索强;线索:morning/couldn't/across) | L7:OK | L8:合适(基础高频/生活场景)
-- glossy | L5:D懂=能/E猜=能(线索:paper/store/showed) | L6:唯一=是(动作/场景线索强;线索:paper/store/showed) | L7:OK | L8:合适(基础高频/生活场景)
-- grim | L5:D懂=能/E猜=能(线索:teacher/face/mess) | L6:唯一=是(动作/场景线索强;线索:teacher/face/mess) | L7:OK | L8:合适(基础高频/生活场景)
-- harsh | L5:D懂=能/E猜=能(线索:winter/wind/stung) | L6:唯一=是(动作/场景线索强;线索:winter/wind/stung) | L7:OK | L8:合适(基础高频/生活场景)
-- heavy | L5:D懂=能/E猜=能(线索:backpack/made/shoulders) | L6:唯一=是(动作/场景线索强;线索:backpack/made/shoulders) | L7:OK | L8:合适(基础高频/生活场景)
-- helpless | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:baby/bird/nest) | L6:唯一=是(动作/场景线索强;线索:baby/bird/nest) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- humble | L5:D懂=能/E猜=能(线索:even/though/first) | L6:唯一=是(动作/场景线索强;线索:even/though/first) | L7:OK | L8:合适(基础高频/生活场景)
-- innocent | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:puppy/looked/chewed) | L6:唯一=是(动作/场景线索强;线索:puppy/looked/chewed) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- invisible | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:glass/door/clean) | L6:唯一=是(动作/场景线索强;线索:glass/door/clean) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- keen | L5:D懂=能/E猜=能(线索:start/reading/book) | L6:唯一=是(动作/场景线索强;线索:start/reading/book) | L7:OK | L8:合适(基础高频/生活场景)
-- lean | L5:D懂=能/E猜=能(线索:runner/finished/race) | L6:唯一=是(动作/场景线索强;线索:runner/finished/race) | L7:OK | L8:合适(基础高频/生活场景)
-- lively | L5:D懂=能/E猜=能(线索:puppy/bounced/around) | L6:唯一=是(动作/场景线索强;线索:puppy/bounced/around) | L7:OK | L8:合适(基础高频/生活场景)
-- lovely | L5:D懂=能/E猜=能(线索:what/garden/full) | L6:唯一=是(动作/场景线索强;线索:what/garden/full) | L7:OK | L8:合适(基础高频/生活场景)
-- magnificent | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:fireworks/whole/night) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:fireworks/whole/night) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- moist | L5:D懂=能/E猜=能(线索:soil/perfect/planting) | L6:唯一=是(动作/场景线索强;线索:soil/perfect/planting) | L7:OK | L8:合适(基础高频/生活场景)
-- neat | L5:D懂=能/E猜=能(线索:desk/always/pencils) | L6:唯一=是(动作/场景线索强;线索:desk/always/pencils) | L7:OK | L8:合适(基础高频/生活场景)
-- noble | L5:D懂=能/E猜=能(线索:knight/promised/help) | L6:唯一=是(动作/场景线索强;线索:knight/promised/help) | L7:OK | L8:合适(基础高频/生活场景)
-- odd | L5:D懂=能/E猜=能(线索:snow/april/supposed) | L6:唯一=否(易被同level近义/同词族干扰(peculiar);线索:snow/april/supposed) | L7:OK | L8:合适(基础高频/生活场景)
-- pale | L5:D懂=能/E猜=能(线索:face/turned/heard) | L6:唯一=是(动作/场景线索强;线索:face/turned/heard) | L7:OK | L8:合适(基础高频/生活场景)
-- plump | L5:D懂=能/E猜=能(线索:blueberries/ready/pick) | L6:唯一=是(动作/场景线索强;线索:blueberries/ready/pick) | L7:OK | L8:合适(基础高频/生活场景)
-- precious | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:ring/belonged/grandfather) | L6:唯一=是(动作/场景线索强;线索:ring/belonged/grandfather) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- pure | L5:D懂=能/E猜=能(线索:mountain/stream/water) | L6:唯一=是(动作/场景线索强;线索:mountain/stream/water) | L7:OK | L8:合适(基础高频/生活场景)
-- rare | L5:D懂=能/E猜=能(线索:bald/eagle/lucky) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:bald/eagle/lucky) | L7:OK | L8:合适(基础高频/生活场景)
-- raw | L5:D懂=能/E猜=能(线索:should/chicken/make) | L6:唯一=是(动作/场景线索强;线索:should/chicken/make) | L7:OK | L8:合适(基础高频/生活场景)
-- round | L5:D懂=能/E猜=能(线索:orange/rolled/table) | L6:唯一=是(动作/场景线索强;线索:orange/rolled/table) | L7:OK | L8:合适(基础高频/生活场景)
-- rude | L5:D懂=能/E猜=能(线索:talk/someone/else) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:talk/someone/else) | L7:OK | L8:合适(基础高频/生活场景)
-- rusty | L5:D懂=能/E猜=能(线索:bike/rain/long) | L6:唯一=是(动作/场景线索强;线索:bike/rain/long) | L7:OK | L8:合适(基础高频/生活场景)
-- scarce | L5:D懂=能/E猜=能(线索:trading/card/collectors) | L6:唯一=是(动作/场景线索强;线索:trading/card/collectors) | L7:OK | L8:合适(基础高频/生活场景)
-- slender | L5:D懂=能/E猜=能(线索:candle/perfectly/tiny) | L6:唯一=是(动作/场景线索强;线索:candle/perfectly/tiny) | L7:OK | L8:合适(基础高频/生活场景)
-- soft | L5:D懂=能/E猜=能(线索:kitten/felt/like) | L6:唯一=是(动作/场景线索强;线索:kitten/felt/like) | L7:OK | L8:合适(基础高频/生活场景)
-- abundant | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:store/supplies/prices) | L6:唯一=是(动作/场景线索强;线索:store/supplies/prices) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- absurd | L5:D懂=能/E猜=能(线索:clown/wore/shaped) | L6:唯一=是(动作/场景线索强;线索:clown/wore/shaped) | L7:OK | L8:合适(基础高频/生活场景)
-- accurate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:drawing/looked/like) | L6:唯一=是(动作/场景线索强;线索:drawing/looked/like) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- brittle | L5:D懂=能/E猜=能(线索:twig/snapped/half) | L6:唯一=是(动作/场景线索强;线索:twig/snapped/half) | L7:OK | L8:合适(基础高频/生活场景)
-- colorful | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:parrot/blue/yellow) | L6:唯一=是(动作/场景线索强;线索:parrot/blue/yellow) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- cruel | L5:D懂=能/E猜=能(线索:pull/cat's/tail) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:pull/cat's/tail) | L7:注意(例句涉及伤害动物(拉猫尾巴)家长会反感但也可做反例教育) | L8:合适(基础高频/生活场景)
-- daring | L5:D懂=能/E猜=能(线索:pilot/flew/through) | L6:唯一=是(动作/场景线索强;线索:pilot/flew/through) | L7:OK | L8:合适(基础高频/生活场景)
-- filthy | L5:D懂=能/E猜=能(线索:clothes/playing/afternoon) | L6:唯一=是(动作/场景线索强;线索:clothes/playing/afternoon) | L7:OK | L8:合适(基础高频/生活场景)
-- gorgeous | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:sunset/turned/orange) | L6:唯一=是(动作/场景线索强;线索:sunset/turned/orange) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- horrible | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:smell/garbage/made) | L6:唯一=是(动作/场景线索强;线索:smell/garbage/made) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- mysterious | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:light/appeared/forest) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:light/appeared/forest) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- pleasant | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:breeze/cooled/summer) | L6:唯一=是(动作/场景线索强;线索:breeze/cooled/summer) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- powerful | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:wind/blew/leaves) | L6:唯一=是(动作/场景线索强;线索:wind/blew/leaves) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- ridiculous | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:looked/wearing/tiny) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:looked/wearing/tiny) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- serious | L5:D懂=能/E猜=能(线索:look/face/told) | L6:唯一=是(动作/场景线索强;线索:look/face/told) | L7:OK | L8:合适(基础高频/生活场景)
-- spotless | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:cleaning/kitchen) | L6:唯一=是(动作/场景线索强;线索:cleaning/kitchen) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- tremendous | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:audience/gave/cheer) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:audience/gave/cheer) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- visible | L5:D懂=能/E猜=能(线索:lighthouse/miles/away) | L6:唯一=是(动作/场景线索强;线索:lighthouse/miles/away) | L7:OK | L8:合适(基础高频/生活场景)
-- weak | L5:D懂=能/E猜=能(线索:kitten/could/barely) | L6:唯一=是(动作/场景线索强;线索:kitten/could/barely) | L7:OK | L8:合适(基础高频/生活场景)
-- wealthy | L5:D懂=能/E猜=能(线索:built/library/everyone) | L6:唯一=是(动作/场景线索强;线索:built/library/everyone) | L7:注意(贫富话题；注意不鼓吹拜金) | L8:合适(基础高频/生活场景)
-- wicked | L5:D懂=能/E猜=能(线索:witch/story/tried) | L6:唯一=是(动作/场景线索强;线索:witch/story/tried) | L7:注意(女巫/邪恶形象一般OK；少数家长可能不喜欢魔法题材) | L8:合适(基础高频/生活场景)
-- worthless | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:broken/none/pieces) | L6:唯一=是(动作/场景线索强;线索:broken/none/pieces) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- briefly | L5:D懂=能/E猜=能(线索:explained/rules/started) | L6:唯一=否(易被同level近义/同词族干扰(brief);线索:explained/rules/started) | L7:OK | L8:合适(基础高频/生活场景)
-- constantly | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:puppy/wagged/tail) | L6:唯一=否(易被同level近义/同词族干扰(continue);线索:puppy/wagged/tail) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- continuously | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:river/flows/never) | L6:唯一=否(易被同level近义/同词族干扰(continue);线索:river/flows/never) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- currently | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:reading/book/about) | L6:唯一=否(易被同level近义/同词族干扰(current);线索:reading/book/about) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- formerly | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:building/school/library) | L6:唯一=是(动作/场景线索强;线索:building/school/library) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- instantly | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:light/turned/flipped) | L6:唯一=是(动作/场景线索强;线索:light/turned/flipped) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- mostly | L5:D懂=能/E猜=能(线索:empty/only/candies) | L6:唯一=是(动作/场景线索强;线索:empty/only/candies) | L7:OK | L8:合适(基础高频/生活场景)
-- nearly | L5:D懂=能/E猜=能(线索:finished/race/tripped) | L6:唯一=是(动作/场景线索强;线索:finished/race/tripped) | L7:OK | L8:合适(基础高频/生活场景)
-- normally | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:breakfast/seven/slept) | L6:唯一=否(易被同level近义/同词族干扰(typically);线索:breakfast/seven/slept) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- originally | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:house/painted/white) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:house/painted/white) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- partly | L5:D懂=能/E猜=能(线索:cloudy/could/still) | L6:唯一=是(动作/场景线索强;线索:cloudy/could/still) | L7:OK | L8:合适(基础高频/生活场景)
-- possibly | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:will/snow/tonight) | L6:唯一=是(动作/场景线索强;线索:will/snow/tonight) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- presently | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:working/project/other) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:working/project/other) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- previously | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:visited/museum/knew) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:visited/museum/knew) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- probably | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:will/rain/full) | L6:唯一=是(动作/场景线索强;线索:will/rain/full) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- promptly | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:class/starts/nine) | L6:唯一=是(动作/场景线索强;线索:class/starts/nine) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- regularly | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:waters/plant/every) | L6:唯一=是(动作/场景线索强;线索:waters/plant/every) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- shortly | L5:D懂=能/E猜=能(线索:movie/will/start) | L6:唯一=是(动作/场景线索强;线索:movie/will/start) | L7:OK | L8:合适(基础高频/生活场景)
-- simply | L5:D懂=能/E猜=能(线索:pressing/restart/button) | L6:唯一=是(动作/场景线索强;线索:pressing/restart/button) | L7:OK | L8:合适(基础高频/生活场景)
-- sometimes | L5:D懂=能/E猜=能(线索:walk/school/take) | L6:唯一=是(动作/场景线索强;线索:walk/school/take) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- steadily | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:rain/fell/afternoon) | L6:唯一=是(动作/场景线索强;线索:rain/fell/afternoon) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- still | L5:D懂=能/E猜=能(线索:o'clock/reading/book) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:o'clock/reading/book) | L7:OK | L8:合适(基础高频/生活场景)
-- typically | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:walks/school/drove) | L6:唯一=否(易被同level近义/同词族干扰(usually,normally);线索:walks/school/drove) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- usually | L5:D懂=能/E猜=能(线索:have/pizza/friday) | L6:唯一=否(易被同level近义/同词族干扰(typically);线索:have/pizza/friday) | L7:OK | L8:合适(基础高频/生活场景)
-- simultaneously | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:friends/jumped/pool) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:friends/jumped/pool) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- initially | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:scared/water/soon) | L6:唯一=是(动作/场景线索强;线索:scared/water/soon) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- permanently | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:marker/stain/stayed) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:marker/stain/stayed) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- temporarily | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:road/closed/workers) | L6:唯一=否(易被同level近义/同词族干扰(temporary);线索:road/closed/workers) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- lately | L5:D懂=能/E猜=能(线索:cold/wear/extra) | L6:唯一=是(动作/场景线索强;线索:cold/wear/extra) | L7:OK | L8:合适(基础高频/生活场景)
-- overnight | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:snow/fell/everything) | L6:唯一=是(动作/场景线索强;线索:snow/fell/everything) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- yearly | L5:D懂=能/E猜=能(线索:town/parade/every) | L6:唯一=否(易被同level近义/同词族干扰(annual);线索:town/parade/every) | L7:OK | L8:合适(基础高频/生活场景)
-- hourly | L5:D懂=能/E猜=能(线索:clock/chimes/hear) | L6:唯一=是(动作/场景线索强;线索:clock/chimes/hear) | L7:OK | L8:合适(基础高频/生活场景)
-- illustration | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:showed/dragon/flying) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:showed/dragon/flying) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- diagram | L5:D懂=能/E猜=能(线索:science/book/shows) | L6:唯一=是(动作/场景线索强;线索:science/book/shows) | L7:OK | L8:合适(基础高频/生活场景)
-- vocabulary | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:reading/every/helps) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:reading/every/helps) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- definition | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:look/dictionary/don't) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:look/dictionary/don't) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- fact | L5:D懂=能/E猜=能(线索:earth/goes/around) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:earth/goes/around) | L7:OK | L8:合适(基础高频/生活场景)
-- summary | L5:D懂=能/E猜=能(线索:write/story/sentences) | L6:唯一=是(动作/场景线索强;线索:write/story/sentences) | L7:OK | L8:合适(基础高频/生活场景)
-- topic | L5:D懂=能/E猜=能(线索:today's/lesson/water) | L6:唯一=是(动作/场景线索强;线索:today's/lesson/water) | L7:OK | L8:合适(基础高频/生活场景)
-- conclusion | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:movie/hero/saved) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:movie/hero/saved) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- passage | L5:D懂=能/E猜=能(线索:read/page/five) | L6:唯一=是(动作/场景线索强;线索:read/page/five) | L7:OK | L8:合适(基础高频/生活场景)
-- research | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:penguins/reading/different) | L6:唯一=是(动作/场景线索强;线索:penguins/reading/different) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- method | L5:D懂=能/E猜=能(线索:teacher/showed/solving) | L6:唯一=是(动作/场景线索强;线索:teacher/showed/solving) | L7:OK | L8:合适(基础高频/生活场景)
-- experiment | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:showed/plants/grow) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:showed/plants/grow) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- creature | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:strange/eight/legs) | L6:唯一=是(动作/场景线索强;线索:strange/eight/legs) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- moisture | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:grass/every/morning) | L6:唯一=是(动作/场景线索强;线索:grass/every/morning) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- material | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:jacket/soft/kept) | L6:唯一=是(动作/场景线索强;线索:jacket/soft/kept) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- source | L5:D懂=能/E猜=能(线索:river's/small/spring) | L6:唯一=是(动作/场景线索强;线索:river's/small/spring) | L7:OK | L8:合适(基础高频/生活场景)
-- motion | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:swing/going/back) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:swing/going/back) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- mixture | L5:D懂=能/E猜=能(线索:cake/batter/flour) | L6:唯一=是(动作/场景线索强;线索:cake/batter/flour) | L7:OK | L8:合适(基础高频/生活场景)
-- direction | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:wind/changed/started) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:wind/changed/started) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- shelter | L5:D懂=能/E猜=能(线索:hikers/found/rock) | L6:唯一=是(动作/场景线索强;线索:hikers/found/rock) | L7:OK | L8:合适(基础高频/生活场景)
-- predator | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:hawk/catches/mice) | L6:唯一=是(动作/场景线索强;线索:hawk/catches/mice) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- prey | L5:D懂=能/E猜=能(线索:rabbit/foxes/runs) | L6:唯一=是(动作/场景线索强;线索:rabbit/foxes/runs) | L7:OK | L8:合适(基础高频/生活场景)
-- oxygen | L5:D懂=能/E猜=能(线索:trees/make/which) | L6:唯一=是(动作/场景线索强;线索:trees/make/which) | L7:OK | L8:合适(基础高频/生活场景)
-- galaxy | L5:D懂=能/E猜=能(线索:star/billions/others) | L6:唯一=是(动作/场景线索强;线索:star/billions/others) | L7:OK | L8:合适(基础高频/生活场景)
-- fossil | L5:D懂=能/E猜=能(线索:found/leaf/millions) | L6:唯一=是(动作/场景线索强;线索:found/leaf/millions) | L7:OK | L8:合适(基础高频/生活场景)
-- mineral | L5:D懂=能/E猜=能(线索:gold/people/earth) | L6:唯一=是(动作/场景线索强;线索:gold/people/earth) | L7:OK | L8:合适(基础高频/生活场景)
-- current | L5:D懂=能/E猜=能(线索:strong/river/pushed) | L6:唯一=否(易被同level近义/同词族干扰(currently);线索:strong/river/pushed) | L7:OK | L8:合适(基础高频/生活场景)
-- vapor | L5:D懂=能/E猜=能(线索:steam/soup/rose) | L6:唯一=是(动作/场景线索强;线索:steam/soup/rose) | L7:OK | L8:合适(基础高频/生活场景)
-- erosion | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:river/carved/deep) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:river/carved/deep) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- orbit | L5:D懂=能/E猜=能(线索:earth/takes/year) | L6:唯一=是(动作/场景线索强;线索:earth/takes/year) | L7:OK | L8:合适(基础高频/生活场景)
-- gravity | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:what/makes/ball) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:what/makes/ball) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- species | L5:D懂=能/E猜=能(线索:many/birds/tiny) | L6:唯一=是(动作/场景线索强;线索:many/birds/tiny) | L7:OK | L8:合适(基础高频/生活场景)
-- community | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:worked/together/build) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:worked/together/build) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- population | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:town/grew/families) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:town/grew/families) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- culture | L5:D懂=能/E猜=能(线索:families/gather/every) | L6:唯一=是(动作/场景线索强;线索:families/gather/every) | L7:OK | L8:合适(基础高频/生活场景)
-- ancestor | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:came/small/village) | L6:唯一=是(动作/场景线索强;线索:came/small/village) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- generation | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:kids/parents/grandparents) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:kids/parents/grandparents) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- volunteer | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:helped/clean/beach) | L6:唯一=是(动作/场景线索强;线索:helped/clean/beach) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- merchant | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:market/sold/fresh) | L6:唯一=是(动作/场景线索强;线索:market/sold/fresh) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- pioneer | L5:D懂=能/E猜=能(线索:traveled/west/covered) | L6:唯一=是(动作/场景线索强;线索:traveled/west/covered) | L7:注意(西部拓荒语境偏美国文化；非敏感但距离感) | L8:合适(基础高频/生活场景)
-- president | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:club/welcomed/members) | L6:唯一=是(动作/场景线索强;线索:club/welcomed/members) | L7:注意(政治词易联想国家领导；例句为club leader较安全) | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- profession | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:doctor/requires/many) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:doctor/requires/many) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- companion | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:loyal/every/walk) | L6:唯一=是(动作/场景线索强;线索:loyal/every/walk) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- guardian | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:made/sure/healthy) | L6:唯一=是(动作/场景线索强;线索:made/sure/healthy) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- immigrant | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:many/came/country) | L6:唯一=是(动作/场景线索强;线索:many/came/country) | L7:注意(移民话题可能引发价值观讨论；用中性表达) | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- inspector | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:looked/building/make) | L6:唯一=是(动作/场景线索强;线索:looked/building/make) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- messenger | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:rode/horse/fast) | L6:唯一=是(动作/场景线索强;线索:rode/horse/fast) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- relative | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:every/came/reunion) | L6:唯一=是(动作/场景线索强;线索:every/came/reunion) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- scholar | L5:D懂=能/E猜=能(线索:read/hundreds/books) | L6:唯一=是(动作/场景线索强;线索:read/hundreds/books) | L7:OK | L8:合适(基础高频/生活场景)
-- witness | L5:D懂=能/E猜=能(线索:accident/told/police) | L6:唯一=是(动作/场景线索强;线索:accident/told/police) | L7:OK | L8:合适(基础高频/生活场景)
-- advantage | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:tall/basketball/reach) | L6:唯一=是(动作/场景线索强;线索:tall/basketball/reach) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- courage | L5:D懂=能/E猜=能(线索:took/stand/speak) | L6:唯一=是(动作/场景线索强;线索:took/stand/speak) | L7:OK | L8:合适(基础高频/生活场景)
-- effort | L5:D懂=能/E猜=能(线索:science/project/first) | L6:唯一=是(动作/场景线索强;线索:science/project/first) | L7:OK | L8:合适(基础高频/生活场景)
-- knowledge | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:reading/books/gives) | L6:唯一=是(动作/场景线索强;线索:reading/books/gives) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- patience | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:takes/grow/garden) | L6:唯一=是(动作/场景线索强;线索:takes/grow/garden) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- responsibility | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:feeding/class/week) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:feeding/class/week) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- triumph | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:team's/championship/game) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:team's/championship/game) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- accident | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:spilled/milk/elbow) | L6:唯一=是(动作/场景线索强;线索:spilled/milk/elbow) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- attitude | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:positive/helps/keep) | L6:唯一=是(动作/场景线索强;线索:positive/helps/keep) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- boundary | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:fence/between/yard) | L6:唯一=是(动作/场景线索强;线索:fence/between/yard) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- consequence | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:forgetting/lunch/hungry) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:forgetting/lunch/hungry) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- conversation | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:long/about/favorite) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:long/about/favorite) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- decision | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:choosing/which/school) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:choosing/which/school) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- evidence | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:muddy/footprints/someone) | L6:唯一=是(动作/场景线索强;线索:muddy/footprints/someone) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- experience | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:visiting/ocean/first) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:visiting/ocean/first) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- imagination | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:used/pretend/cardboard) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:used/pretend/cardboard) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- occasion | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:birthday/happy/cake) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:birthday/happy/cake) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- solution | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:working/together/finishing) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:working/together/finishing) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- inspect | L5:D懂=能/E猜=能(线索:teacher/projects/make) | L6:唯一=否(易被同level近义/同词族干扰(examine,observe);线索:teacher/projects/make) | L7:OK | L8:合适(基础高频/生活场景)
-- select | L5:D懂=能/E猜=能(线索:please/book/shelf) | L6:唯一=否(易被同level近义/同词族干扰(choose);线索:please/book/shelf) | L7:OK | L8:合适(基础高频/生活场景)
-- supply | L5:D懂=能/E猜=能(线索:school/asked/store) | L6:唯一=是(动作/场景线索强;线索:school/asked/store) | L7:OK | L8:合适(基础高频/生活场景)
-- survive | L5:D懂=能/E猜=能(线索:little/plant/cold) | L6:唯一=是(动作/场景线索强;线索:little/plant/cold) | L7:OK | L8:合适(基础高频/生活场景)
-- transform | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:caterpillar/will/beautiful) | L6:唯一=是(动作/场景线索强;线索:caterpillar/will/beautiful) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- transport | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:trucks/food/farms) | L6:唯一=是(动作/场景线索强;线索:trucks/food/farms) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- identify | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:which/bird/singing) | L6:唯一=是(动作/场景线索强;线索:which/bird/singing) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- inherit | L5:D懂=能/E猜=能(线索:grandmother's/blue/eyes) | L6:唯一=是(动作/场景线索强;线索:grandmother's/blue/eyes) | L7:OK | L8:合适(基础高频/生活场景)
-- massive | L5:D懂=能/E猜=能(线索:boulder/anyone/move) | L6:唯一=否(易被同level近义/同词族干扰(vast);线索:boulder/anyone/move) | L7:OK | L8:合适(基础高频/生活场景)
-- miniature | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:built/house/dolls) | L6:唯一=是(动作/场景线索强;线索:built/house/dolls) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- obvious | L5:D懂=能/E猜=能(线索:cake/crumbs/face) | L6:唯一=是(动作/场景线索强;线索:cake/crumbs/face) | L7:OK | L8:合适(基础高频/生活场景)
-- ordinary | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:seemed/like/until) | L6:唯一=是(动作/场景线索强;线索:seemed/like/until) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- particular | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:wanted/book/other) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:wanted/book/other) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- peculiar | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:noise/coming/closet) | L6:唯一=否(易被同level近义/同词族干扰(odd);线索:noise/coming/closet) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- rapid | L5:D懂=能/E猜=能(线索:river/moved/fast) | L6:唯一=是(动作/场景线索强;线索:river/moved/fast) | L7:OK | L8:合适(基础高频/生活场景)
-- reluctant | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:jump/pool/water) | L6:唯一=是(动作/场景线索强;线索:jump/pool/water) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- sensitive | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:skin/turned/stayed) | L6:唯一=是(动作/场景线索强;线索:skin/turned/stayed) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- severe | L5:D懂=能/E猜=能(线索:storm/brought/strong) | L6:唯一=是(动作/场景线索强;线索:storm/brought/strong) | L7:OK | L8:合适(基础高频/生活场景)
-- suitable | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:sneakers/shoes/running) | L6:唯一=是(动作/场景线索强;线索:sneakers/shoes/running) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- sufficient | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:make/sure/have) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:make/sure/have) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- vacant | L5:D懂=能/E猜=能(线索:house/furniture/people) | L6:唯一=是(动作/场景线索强;线索:house/furniture/people) | L7:OK | L8:合适(基础高频/生活场景)
-- vast | L5:D懂=能/E猜=能(线索:ocean/stretched/could) | L6:唯一=否(易被同level近义/同词族干扰(massive);线索:ocean/stretched/could) | L7:OK | L8:合适(基础高频/生活场景)
-- vivid | L5:D懂=能/E猜=能(线索:painted/colors/made) | L6:唯一=是(动作/场景线索强;线索:painted/colors/made) | L7:OK | L8:合适(基础高频/生活场景)
-- possess | L5:D懂=能/E猜=能(线索:pirate/said/chest) | L6:唯一=是(动作/场景线索强;线索:pirate/said/chest) | L7:注意(pirate/gold偏西方海盗文化；通常OK) | L8:合适(基础高频/生活场景)
-- reveal | L5:D懂=能/E猜=能(线索:pulled/back/curtain) | L6:唯一=是(动作/场景线索强;线索:pulled/back/curtain) | L7:OK | L8:合适(基础高频/生活场景)
-- assign | L5:D懂=能/E猜=能(线索:teacher/will/each) | L6:唯一=是(动作/场景线索强;线索:teacher/will/each) | L7:OK | L8:合适(基础高频/生活场景)
-- respond | L5:D懂=能/E猜=能(线索:teacher/asks/question) | L6:唯一=是(动作/场景线索强;线索:teacher/asks/question) | L7:OK | L8:合适(基础高频/生活场景)
-- require | L5:D懂=能/E猜=能(线索:recipe/eggs/milk) | L6:唯一=否(易被同level近义/同词族干扰(demand,request);线索:recipe/eggs/milk) | L7:OK | L8:合适(基础高频/生活场景)
-- oppose | L5:D懂=能/E猜=能(线索:some/students/rule) | L6:唯一=是(动作/场景线索强;线索:some/students/rule) | L7:OK | L8:合适(基础高频/生活场景)
-- occupy | L5:D懂=能/E猜=能(线索:boxes/chairs/most) | L6:唯一=是(动作/场景线索强;线索:boxes/chairs/most) | L7:OK | L8:合适(基础高频/生活场景)
-- perform | L5:D懂=能/E猜=能(线索:students/will/play) | L6:唯一=是(动作/场景线索强;线索:students/will/play) | L7:OK | L8:合适(基础高频/生活场景)
-- accomplish | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:goal/reading/fifty) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:goal/reading/fifty) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- cautious | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:girl/looked/both) | L6:唯一=是(动作/场景线索强;线索:girl/looked/both) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- capable | L5:D懂=能/E猜=能(线索:running/mile/without) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:running/mile/without) | L7:OK | L8:合适(基础高频/生活场景)
-- essential | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:water/living/things) | L6:唯一=是(动作/场景线索强;线索:water/living/things) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- fortunate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:rain/stopped/picnic) | L6:唯一=是(动作/场景线索强;线索:rain/stopped/picnic) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- incredible | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:magician/trick/made) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:magician/trick/made) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- numerous | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:stars/night/many) | L6:唯一=是(动作/场景线索强;线索:stars/night/many) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- positive | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:keys/table/them) | L6:唯一=是(动作/场景线索强;线索:keys/table/them) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- previous | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:chapter/hero/found) | L6:唯一=是(动作/场景线索强;线索:chapter/hero/found) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- region | L5:D懂=能/E猜=能(线索:desert/gets/little) | L6:唯一=是(动作/场景线索强;线索:desert/gets/little) | L7:OK | L8:合适(基础高频/生活场景)
-- structure | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:bridge/strong/made) | L6:唯一=是(动作/场景线索强;线索:bridge/strong/made) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- symbol | L5:D懂=能/E猜=能(线索:heart/means/love) | L6:唯一=是(动作/场景线索强;线索:heart/means/love) | L7:OK | L8:合适(基础高频/生活场景)
-- tradition | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:bake/cookies/every) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:bake/cookies/every) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- celebration | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:town/held/fireworks) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:town/held/fireworks) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- challenge | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:climbing/mountain/made) | L6:唯一=是(动作/场景线索强;线索:climbing/mountain/made) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- equipment | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:firefighter/going/building) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:firefighter/going/building) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- voyage | L5:D懂=能/E猜=能(线索:sailors/went/across) | L6:唯一=是(动作/场景线索强;线索:sailors/went/across) | L7:OK | L8:合适(基础高频/生活场景)
-- territory | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:wolf/marked/other) | L6:唯一=是(动作/场景线索强;线索:wolf/marked/other) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- disaster | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:flood/damaged/many) | L6:唯一=是(动作/场景线索强;线索:flood/damaged/many) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- merely | L5:D懂=能/E猜=能(线索:trying/help/nothing) | L6:唯一=是(动作/场景线索强;线索:trying/help/nothing) | L7:OK | L8:合适(基础高频/生活场景)
-- precisely | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:code/must/follow) | L6:唯一=是(动作/场景线索强;线索:code/must/follow) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- entirely | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:glass/full/room) | L6:唯一=是(动作/场景线索强;线索:glass/full/room) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- scarcely | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:could/believe/spelling) | L6:唯一=是(动作/场景线索强;线索:could/believe/spelling) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- swiftly | L5:D懂=能/E猜=能(线索:deer/through/forest) | L6:唯一=是(动作/场景线索强;线索:deer/through/forest) | L7:OK | L8:合适(基础高频/生活场景)
-- willingly | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:shared/lunch/student) | L6:唯一=是(动作/场景线索强;线索:shared/lunch/student) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- maintain | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:need/bike/keeping) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:need/bike/keeping) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- establish | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:students/recycling/club) | L6:唯一=是(动作/场景线索强;线索:students/recycling/club) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- cooperate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:whole/class/finish) | L6:唯一=是(动作/场景线索强;线索:whole/class/finish) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- represent | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:star/flag/state) | L6:唯一=是(动作/场景线索强;线索:star/flag/state) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- concentrate | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:hard/homework) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:hard/homework) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- manufacture | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:factory/toys/sold) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:factory/toys/sold) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- demonstrate | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:teacher/paint/colors) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:teacher/paint/colors) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- investigate | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:detective/missing/cookies) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:detective/missing/cookies) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- discovery | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:made/great/bird) | L6:唯一=是(动作/场景线索强;线索:made/great/bird) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- penalty | L5:D懂=能/E猜=能(线索:late/class/missing) | L6:唯一=是(动作/场景线索强;线索:late/class/missing) | L7:OK | L8:合适(基础高频/生活场景)
-- quantity | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:bought/large/apples) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:bought/large/apples) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- reasonable | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:price/book/enough) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:price/book/enough) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- approach | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:quietly/bird/trying) | L6:唯一=是(动作/场景线索强;线索:quietly/bird/trying) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- collapse | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:tower/blocks/baby) | L6:唯一=是(动作/场景线索强;线索:tower/blocks/baby) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- domestic | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:dogs/cats/animals) | L6:唯一=是(动作/场景线索强;线索:dogs/cats/animals) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- external | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:walls/house/painted) | L6:唯一=是(动作/场景线索强;线索:walls/house/painted) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- internal | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:doctor/checked/organs) | L6:唯一=是(动作/场景线索强;线索:doctor/checked/organs) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- annual | L5:D懂=能/E猜=能(线索:school's/science/fair) | L6:唯一=否(易被同level近义/同词族干扰(yearly);线索:school's/science/fair) | L7:OK | L8:合适(基础高频/生活场景)
-- permission | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:need/parents/field) | L6:唯一=否(易被同level近义/同词族干扰(consent);线索:need/parents/field) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- recognize | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:didn't/first/wearing) | L6:唯一=是(动作/场景线索强;线索:didn't/first/wearing) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- influence | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:older/sister/what) | L6:唯一=是(动作/场景线索强;线索:older/sister/what) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- interpret | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:french/menu/friends) | L6:唯一=是(动作/场景线索强;线索:french/menu/friends) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- adapt | L5:D懂=能/E猜=能(线索:animals/places/changing) | L6:唯一=是(动作/场景线索强;线索:animals/places/changing) | L7:OK | L8:合适(基础高频/生活场景)
-- benefit | L5:D懂=能/E猜=能(线索:wearing/helmet/protects) | L6:唯一=是(动作/场景线索强;线索:wearing/helmet/protects) | L7:OK | L8:合适(基础高频/生活场景)
-- durable | L5:D懂=能/E猜=能(线索:lunchbox/crack/even) | L6:唯一=是(动作/场景线索强;线索:lunchbox/crack/even) | L7:OK | L8:合适(基础高频/生活场景)
-- genuine | L5:D懂=能/E猜=能(线索:apology/friend/forgave) | L6:唯一=是(动作/场景线索强;线索:apology/friend/forgave) | L7:OK | L8:合适(基础高频/生活场景)
-- hesitate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:diving/board/took) | L6:唯一=是(动作/场景线索强;线索:diving/board/took) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- negotiate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:sisters/chose/split) | L6:唯一=是(动作/场景线索强;线索:sisters/chose/split) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- temporary | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:sign/workers/took) | L6:唯一=否(易被同level近义/同词族干扰(temporarily);线索:sign/workers/took) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- reliable | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:driver/came/time) | L6:唯一=是(动作/场景线索强;线索:driver/came/time) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- absorb | L5:D懂=能/E猜=能(线索:towel/water/spilled) | L6:唯一=是(动作/场景线索强;线索:towel/water/spilled) | L7:OK | L8:合适(基础高频/生活场景)
-- attract | L5:D懂=能/E猜=能(线索:bright/flowers/bees) | L6:唯一=是(动作/场景线索强;线索:bright/flowers/bees) | L7:OK | L8:合适(基础高频/生活场景)
-- predict | L5:D懂=能/E猜=能(线索:what/will/happen) | L6:唯一=否(易被同level近义/同词族干扰(expect);线索:what/will/happen) | L7:OK | L8:合适(基础高频/生活场景)
-- request | L5:D懂=能/E猜=能(线索:book/about/sharks) | L6:唯一=否(易被同level近义/同词族干扰(require);线索:book/about/sharks) | L7:OK | L8:合适(基础高频/生活场景)
-- reduce | L5:D懂=能/E猜=能(线索:noise/class/spoke) | L6:唯一=是(动作/场景线索强;线索:noise/class/spoke) | L7:OK | L8:合适(基础高频/生活场景)
-- assemble | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:puzzle/pieces/whole) | L6:唯一=否(易被同level近义/同词族干扰(combine);线索:puzzle/pieces/whole) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- accumulate | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:save/little/each) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:save/little/each) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- acknowledge | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:nodded/question) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:nodded/question) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- adequate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:food/whole/trip) | L6:唯一=是(动作/场景线索强;线索:food/whole/trip) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- advocate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:recycling/school) | L6:唯一=是(动作/场景线索强;线索:recycling/school) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- allocate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:decided/half/allowance) | L6:唯一=是(动作/场景线索强;线索:decided/half/allowance) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- ambiguous | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:directions/lost) | L6:唯一=是(动作/场景线索强;线索:directions/lost) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- amend | L5:D懂=能/E猜=能(线索:essay/teacher's/comments) | L6:唯一=是(动作/场景线索强;线索:essay/teacher's/comments) | L7:OK | L8:合适(基础高频/生活场景)
-- approximate | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:distance/miles) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:distance/miles) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- aspire | L5:D懂=能/E猜=能(线索:become/doctor) | L6:唯一=是(动作/场景线索强;线索:become/doctor) | L7:OK | L8:合适(基础高频/生活场景)
-- assert | L5:D懂=能/E猜=能(线索:answer/correct) | L6:唯一=是(动作/场景线索强;线索:answer/correct) | L7:OK | L8:合适(基础高频/生活场景)
-- authorize | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:principal/field/trip) | L6:唯一=否(易被同level近义/同词族干扰(approve);线索:principal/field/trip) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- beneficial | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:eating/fruit/health) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:eating/fruit/health) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- bias | L5:D懂=能/E猜=能(线索:good/judge/should) | L6:唯一=是(动作/场景线索强;线索:good/judge/should) | L7:OK | L8:合适(基础高频/生活场景)
-- capacity | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:fifty/marbles) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:fifty/marbles) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- clarify | L5:D懂=能/E猜=能(线索:what/mean/understand) | L6:唯一=是(动作/场景线索强;线索:what/mean/understand) | L7:OK | L8:合适(基础高频/生活场景)
-- coincide | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:birthday/will/school) | L6:唯一=是(动作/场景线索强;线索:birthday/will/school) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- commentary | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:sports/made/game) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:sports/made/game) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- compensate | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:store/broken) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:store/broken) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- compile | L5:D懂=能/E猜=能(线索:list/favorite/songs) | L6:唯一=是(动作/场景线索强;线索:list/favorite/songs) | L7:OK | L8:合适(基础高频/生活场景)
-- complement | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:scarf/nice/coat) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:scarf/nice/coat) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- comply | L5:D懂=能/E猜=能(线索:students/must/school) | L6:唯一=是(动作/场景线索强;线索:students/must/school) | L7:OK | L8:合适(基础高频/生活场景)
-- conceive | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:clever/plan/surprise) | L6:唯一=是(动作/场景线索强;线索:clever/plan/surprise) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- confine | L5:D懂=能/E猜=能(线索:backyard) | L6:唯一=是(动作/场景线索强;线索:backyard) | L7:OK | L8:合适(基础高频/生活场景)
-- consent | L5:D懂=能/E猜=能(线索:need/parents'/trip) | L6:唯一=否(易被同level近义/同词族干扰(permission);线索:need/parents'/trip) | L7:OK | L8:合适(基础高频/生活场景)
-- consequent | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:heavy/rain/flooding) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:heavy/rain/flooding) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- consolidate | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:notes/notebook) | L6:唯一=否(易被同level近义/同词族干扰(combine);线索:notes/notebook) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- constraint | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:time/work/fast) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:time/work/fast) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- consult | L5:D懂=能/E猜=能(线索:librarian/find/book) | L6:唯一=是(动作/场景线索强;线索:librarian/find/book) | L7:OK | L8:合适(基础高频/生活场景)
-- contemplate | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:what/write/story) | L6:唯一=否(易被同level近义/同词族干扰(consider);线索:what/write/story) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- contradict | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:actions/words) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:actions/words) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- controversy | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:where/build/park) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:where/build/park) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- convene | L5:D懂=能/E猜=能(线索:club/members/library) | L6:唯一=是(动作/场景线索强;线索:club/members/library) | L7:OK | L8:合适(基础高频/生活场景)
-- correspond | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:answers/questions/test) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:answers/questions/test) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- criteria | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:contest/neatness/color) | L6:唯一=是(动作/场景线索强;线索:contest/neatness/color) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- currency | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:dollar/united/states) | L6:唯一=是(动作/场景线索强;线索:dollar/united/states) | L7:注意(涉及国家/钱；通常OK但家长可能不想太物质) | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- deficiency | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:sunlight/make/plants) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:sunlight/make/plants) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- denote | L5:D懂=能/E猜=能(线索:light/should/stop) | L6:唯一=是(动作/场景线索强;线索:light/should/stop) | L7:OK | L8:合适(基础高频/生活场景)
-- derive | L5:D懂=能/E猜=能(线索:many/english/words) | L6:唯一=是(动作/场景线索强;线索:many/english/words) | L7:OK | L8:合适(基础高频/生活场景)
-- deviate | L5:D懂=能/E猜=能(线索:trail/lost) | L6:唯一=是(动作/场景线索强;线索:trail/lost) | L7:OK | L8:合适(基础高频/生活场景)
-- devote | L5:D懂=能/E猜=能(线索:morning/practicing/piano) | L6:唯一=是(动作/场景线索强;线索:morning/practicing/piano) | L7:OK | L8:合适(基础高频/生活场景)
-- diminish | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:value/actually/went) | L6:唯一=是(动作/场景线索强;线索:value/actually/went) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- dispose | L5:D懂=能/E猜=能(线索:please/trash/properly) | L6:唯一=否(例句泛化/可替换为多种常见词;线索:please/trash/properly) | L7:OK | L8:合适(基础高频/生活场景)
-- distort | L5:D懂=能/E猜=能(线索:house/mirror/face) | L6:唯一=是(动作/场景线索强;线索:house/mirror/face) | L7:OK | L8:合适(基础高频/生活场景)
-- diverse | L5:D懂=能/E猜=能(线索:group/friends/means) | L6:唯一=是(动作/场景线索强;线索:group/friends/means) | L7:OK | L8:合适(基础高频/生活场景)
-- domain | L5:D懂=能/E猜=能(线索:science/main/interest) | L6:唯一=是(动作/场景线索强;线索:science/main/interest) | L7:OK | L8:合适(基础高频/生活场景)
-- dominate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:tallest/player/game) | L6:唯一=是(动作/场景线索强;线索:tallest/player/game) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- draft | L5:D懂=能/E猜=能(线索:wrote/rough/story) | L6:唯一=是(动作/场景线索强;线索:wrote/rough/story) | L7:OK | L8:合适(基础高频/生活场景)
-- duration | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:movie/hours) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:movie/hours) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- empirical | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:scientist/gathered/data) | L6:唯一=是(动作/场景线索强;线索:scientist/gathered/data) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- enforce | L5:D懂=能/E猜=能(线索:teacher/running/rule) | L6:唯一=是(动作/场景线索强;线索:teacher/running/rule) | L7:OK | L8:合适(基础高频/生活场景)
-- entity | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:each/company/separate) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:each/company/separate) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- equate | L5:D懂=能/E猜=能(线索:should/quiet) | L6:唯一=是(动作/场景线索强;线索:should/quiet) | L7:OK | L8:合适(基础高频/生活场景)
-- erode | L5:D懂=能/E猜=能(线索:waves/cliff/many) | L6:唯一=是(动作/场景线索强;线索:waves/cliff/many) | L7:OK | L8:合适(基础高频/生活场景)
-- exceed | L5:D懂=能/E猜=能(线索:test/score/class) | L6:唯一=是(动作/场景线索强;线索:test/score/class) | L7:OK | L8:合适(基础高频/生活场景)
-- explicit | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:teacher/gave/instructions) | L6:唯一=是(动作/场景线索强;线索:teacher/gave/instructions) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- extract | L5:D懂=能/E猜=能(线索:dentist/loose/tooth) | L6:唯一=是(动作/场景线索强;线索:dentist/loose/tooth) | L7:OK | L8:合适(基础高频/生活场景)
-- facilitate | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:ramp/entry/people) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:ramp/entry/people) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- finite | L5:D懂=能/E猜=能(线索:have/amount/time) | L6:唯一=是(动作/场景线索强;线索:have/amount/time) | L7:OK | L8:合适(基础高频/生活场景)
-- fluctuate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:temperature/spring/warm) | L6:唯一=是(动作/场景线索强;线索:temperature/spring/warm) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- format | L5:D懂=能/E猜=能(线索:report/written/clear) | L6:唯一=是(动作/场景线索强;线索:report/written/clear) | L7:OK | L8:合适(基础高频/生活场景)
-- formula | L5:D懂=能/E猜=能(线索:used/math/solve) | L6:唯一=是(动作/场景线索强;线索:used/math/solve) | L7:OK | L8:合适(基础高频/生活场景)
-- foundation | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:house/built/strong) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:house/built/strong) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- framework | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:building/made/steel) | L6:唯一=是(动作/场景线索强;线索:building/made/steel) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- furthermore | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:book/teaches/great) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:book/teaches/great) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- generate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:realistic/painting/short) | L6:唯一=是(动作/场景线索强;线索:realistic/painting/short) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- guideline | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:follow/stay/safe) | L6:唯一=是(动作/场景线索强;线索:follow/stay/safe) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- hence | L5:D懂=能/E猜=能(线索:rained/game/canceled) | L6:唯一=是(动作/场景线索强;线索:rained/game/canceled) | L7:OK | L8:合适(基础高频/生活场景)
-- hierarchy | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:school/clear/principal) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:school/clear/principal) | L7:OK | L8:不合适(明显超纲(学术/社会科学))
-- hypothesis | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:plants/grow/faster) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:plants/grow/faster) | L7:OK | L8:不合适(明显超纲(学术/社会科学))
-- identical | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:twins/wore/outfits) | L6:唯一=是(动作/场景线索强;线索:twins/wore/outfits) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- ideology | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:each/political/party) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:each/political/party) | L7:注意(强政治/价值观色彩；中国家长可能敏感) | L8:不合适(明显超纲(学术/社会科学))
-- implication | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:smile/good/news) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:smile/good/news) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- impose | L5:D懂=能/E猜=能(线索:school/dress/code) | L6:唯一=是(动作/场景线索强;线索:school/dress/code) | L7:OK | L8:合适(基础高频/生活场景)
-- incentive | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:getting/sticker/great) | L6:唯一=是(动作/场景线索强;线索:getting/sticker/great) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- incorporate | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:book/report) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:book/report) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- index | L5:D懂=能/E猜=能(线索:looked/find/chapter) | L6:唯一=是(动作/场景线索强;线索:looked/find/chapter) | L7:OK | L8:合适(基础高频/生活场景)
-- induce | L5:D懂=能/E猜=能(线索:warm/sunshine/flowers) | L6:唯一=是(动作/场景线索强;线索:warm/sunshine/flowers) | L7:OK | L8:合适(基础高频/生活场景)
-- inherent | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:curiosity/children/born) | L6:唯一=是(动作/场景线索强;线索:curiosity/children/born) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- inhibit | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:fear/trying/things) | L6:唯一=是(动作/场景线索强;线索:fear/trying/things) | L7:OK | L8:不合适(建议提高level；或换更口语: stop/keep...from)
-- initiate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:recycling/club/school) | L6:唯一=是(动作/场景线索强;线索:recycling/club/school) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- innovation | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:smartphones/changed/talk) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:smartphones/changed/talk) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
-- insert | L5:D懂=能/E猜=能(线索:coin/machine) | L6:唯一=是(动作/场景线索强;线索:coin/machine) | L7:OK | L8:合适(基础高频/生活场景)
-- integral | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:teamwork/part/winning) | L6:唯一=是(动作/场景线索强;线索:teamwork/part/winning) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- intervene | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:teacher/argument/worse) | L6:唯一=是(动作/场景线索强;线索:teacher/argument/worse) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- invoke | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:rules/settle/disagreement) | L6:唯一=是(动作/场景线索强;线索:rules/settle/disagreement) | L7:OK | L8:不合适(建议提高level；或改成use/call on等更口语表达)
-- isolate | L5:D懂=能/E猜=能(线索:sick/student/others) | L6:唯一=是(动作/场景线索强;线索:sick/student/others) | L7:OK | L8:合适(基础高频/生活场景)
-- levy | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:town/voted/small) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:town/voted/small) | L7:注意(税收/政府征税概念偏成人/社会学) | L8:不合适(明显超纲(学术/社会科学))
-- liberal | L5:D懂=能/E猜=能(线索:took/amount/paint) | L6:唯一=是(动作/场景线索强;线索:took/amount/paint) | L7:注意(英文常带政治含义；即使解释为open-minded也可能敏感) | L8:合适(基础高频/生活场景)
-- likewise | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:smiled) | L6:唯一=是(动作/场景线索强;线索:smiled) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- magnitude | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:earthquake/surprised) | L6:唯一=是(动作/场景线索强;线索:earthquake/surprised) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- manifest | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:talent/clearly/every) | L6:唯一=是(动作/场景线索强;线索:talent/clearly/every) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
+- avoid | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[avoid / explore / filthy / hug] | L7:OK | L8:合适
+- burst | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[adapt / amend / burst / implication] | L7:OK | L8:合适
+- bury | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[boundary / bury / harsh / hike] | L7:OK | L8:合适
+- cheer | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accomplish / celebration / cheer / integral] | L7:OK | L8:合适
+- choose | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[choose / control / hunt / incentive] | L7:OK | L8:合适
+- claim | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[claim / compensate / intervene / wicked] | L7:OK | L8:合适
+- combine | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[colorful / combine / convince / inherit] | L7:OK | L8:合适
+- command | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[command / confine / guideline / innocent] | L7:OK | L8:合适
+- consider | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assert / choose / consider / solution] | L7:OK | L8:合适
+- continue | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[consequent / consolidate / continue / probably] | L7:OK | L8:合适
+- control | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[concentrate / control / diagram / invoke] | L7:OK | L8:合适
+- cover | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adequate / cover / interrupt / region] | L7:OK | L8:合适
+- cross | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:勉强(和近义/同类词差距小，可能二选一) | 选项:[cautious / claim / cross / powerful] | L7:OK | L8:合适
+- crush | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[crush / flat / imagination / mostly] | L7:OK | L8:合适
+- dare | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[burst / dare / dim / invisible] | L7:OK | L8:合适
+- demand | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adequate / collapse / consequence / demand] | L7:OK | L8:合适
+- develop | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advantage / develop / lately / mostly] | L7:OK | L8:合适
+- direct | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[continue / denote / direct / intervene] | L7:OK | L8:合适
+- examine | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[aspire / examine / internal / profession] | L7:OK | L8:合适
+- exchange | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[consequence / exchange / finite / willingly] | L7:OK | L8:合适
+- excite | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[authorize / excite / implication / permission] | L7:OK | L8:合适
+- expect | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[convene / expect / reliable / still] | L7:OK | L8:合适
+- explore | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[explore / flow / fossil / insert] | L7:OK | L8:合适
+- express | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[celebration / cheer / express / implication] | L7:OK | L8:合适
+- fail | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[constantly / fail / predict / regularly] | L7:OK | L8:合适
+- flow | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[continuously / explore / flow / rapid] | L7:OK | L8:合适
+- form | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[criteria / form / incorporate / presently] | L7:OK | L8:合适
+- gaze | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[demonstrate / gaze / numerous / quantity] | L7:OK | L8:合适
+- guide | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dense / guide / relative / swiftly] | L7:OK | L8:合适
+- hasten | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[hasten / instruct / previous / probably] | L7:OK | L8:合适
+- hide | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[discovery / hide / reveal / symbol] | L7:OK | L8:合适
+- hike | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[bury / hike / relative / yearly] | L7:OK | L8:合适
+- hug | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[hug / invisible / shortly / swiftly] | L7:OK | L8:合适
+- hunt | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[hasten / hunt / predator / probably] | L7:OK | L8:合适
+- increase | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approximate / comply / increase / numerous] | L7:OK | L8:合适
+- insist | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[erode / external / insist / internal] | L7:OK | L8:合适
+- instruct | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[instruct / rare / round / usually] | L7:OK | L8:合适
+- admire | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[admire / fortunate / manifest / transform] | L7:OK | L8:合适
+- announce | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[announce / authorize / finite / hierarchy] | L7:OK | L8:合适
+- approve | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approve / conceive / insist / typically] | L7:OK | L8:合适
+- argue | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[argue / deficiency / inspector / perform] | L7:OK | L8:合适
+- behave | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[behave / comply / promptly / reduce] | L7:OK | L8:合适
+- celebrate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[celebrate / keen / mixture / occasion] | L7:OK | L8:合适
+- compare | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[compare / foggy / identify / increase] | L7:OK | L8:合适
+- convince | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[companion / convince / hike / improve] | L7:OK | L8:合适
+- defend | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approach / defend / discovery / helpless] | L7:OK | L8:合适
+- disappear | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[disappear / incredible / insert / promptly] | L7:OK | L8:合适
+- encourage | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[constantly / encourage / interpret / regularly] | L7:OK | L8:合适
+- improve | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[devote / improve / moisture / vocabulary] | L7:OK | L8:合适
+- interrupt | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contemplate / cover / interrupt / summary] | L7:OK | L8:合适
+- observe | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[delicate / erode / observe / transform] | L7:OK | L8:合适
+- organize | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[criteria / neat / organize / pale] | L7:OK | L8:合适
+- bold | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bold / flexible / inhibit / steadily] | L7:OK | L8:合适
+- brief | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[admire / brief / fortunate / penalty] | L7:OK | L8:合适
+- delicate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compare / delicate / transform / weak] | L7:OK | L8:合适
+- dense | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adequate / dense / guide / swiftly] | L7:OK | L8:合适
+- dim | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[concentrate / dim / discovery / mysterious] | L7:OK | L8:合适
+- distant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advantage / compare / distant / duration] | L7:OK | L8:合适
+- drowsy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[drowsy / expect / material / shortly] | L7:OK | L8:合适
+- dusty | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dusty / erode / fossil / profession] | L7:OK | L8:合适
+- elegant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[ancestor / elegant / flow / voyage] | L7:OK | L8:合适
+- faint | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[faint / horrible / investigate / spotless] | L7:OK | L8:合适
+- familiar | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[familiar / hourly / numerous / pale] | L7:OK | L8:合适
+- flat | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[delicate / flat / ordinary / slender] | L7:OK | L8:合适
+- flexible | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[capable / flexible / steadily / vast] | L7:OK | L8:合适
+- foggy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[community / compare / devote / foggy] | L7:OK | L8:合适
+- glossy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compensate / glossy / method / supply] | L7:OK | L8:合适
+- grim | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[distort / filthy / grim / supply] | L7:OK | L8:合适
+- harsh | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bury / direction / harsh / survive] | L7:OK | L8:合适
+- heavy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[announce / conclusion / finite / heavy] | L7:OK | L8:合适
+- helpless | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[defend / discovery / helpless / identify] | L7:OK | L8:合适
+- humble | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[celebration / effort / humble / source] | L7:OK | L8:合适
+- innocent | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accurate / command / innocent / lively] | L7:OK | L8:合适
+- invisible | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[entirely / expect / invisible / pure] | L7:OK | L8:合适
+- keen | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[currently / initiate / keen / still] | L7:OK | L8:合适
+- lean | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[constraint / lean / nearly / slender] | L7:OK | L8:合适
+- lively | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[boundary / bury / lively / orbit] | L7:OK | L8:合适
+- lovely | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[experiment / hypothesis / lovely / patience] | L7:OK | L8:合适
+- magnificent | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[celebration / magnificent / numerous / probably] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- moist | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[creature / erosion / lovely / moist] | L7:OK | L8:合适
+- neat | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[annual / neat / organize / supply] | L7:OK | L8:合适
+- noble | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[admire / ancestor / announce / noble] | L7:OK | L8:合适
+- odd | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compare / foggy / odd / overnight] | L7:OK | L8:合适
+- pale | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dare / distort / familiar / pale] | L7:OK | L8:合适
+- plump | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adapt / choose / consider / plump] | L7:OK | L8:合适
+- precious | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abundant / accident / hourly / precious] | L7:OK | L8:合适
+- pure | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[challenge / format / invisible / pure] | L7:OK | L8:合适
+- rare | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compare / foggy / fortunate / rare] | L7:OK | L8:合适
+- raw | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[deficiency / isolate / raw / sufficient] | L7:OK | L8:合适
+- round | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[collapse / durable / gorgeous / round] | L7:OK | L8:合适
+- rude | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contradict / conversation / interrupt / rude] | L7:OK | L8:合适
+- rusty | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[fossil / rusty / sensitive / sufficient] | L7:OK | L8:合适
+- scarce | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compensate / miniature / reasonable / scarce] | L7:OK | L8:合适
+- slender | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adapt / lean / slender / spotless] | L7:OK | L8:合适
+- soft | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accurate / ordinary / soft / weak] | L7:OK | L8:合适
+- abundant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abundant / compensate / glossy / pleasant] | L7:OK | L8:合适
+- absurd | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[absurd / identical / ordinary / round] | L7:OK | L8:合适
+- accurate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accurate / diagram / innocent / ordinary] | L7:OK | L8:合适
+- brittle | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[allocate / approve / brittle / negotiate] | L7:OK | L8:合适
+- colorful | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[colorful / combine / denote / external] | L7:OK | L8:合适
+- cruel | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attract / cruel / disaster / extract] | L7:OK | L8:合适
+- daring | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[daring / messenger / severe / volunteer] | L7:OK | L8:合适
+- filthy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[avoid / consequence / filthy / steadily] | L7:OK | L8:合适
+- gorgeous | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[gorgeous / partly / probably / round] | L7:OK | L8:合适
+- horrible | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[capacity / faint / horrible / inhibit] | L7:OK | L8:合适
+- mysterious | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assemble / denote / mysterious / swiftly] | L7:OK | L8:合适
+- pleasant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abundant / hike / pleasant / yearly] | L7:OK | L8:合适
+- powerful | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[direction / discovery / harsh / powerful] | L7:OK | L8:合适
+- ridiculous | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[confine / incredible / recognize / ridiculous] | L7:OK | L8:合适
+- serious | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[comply / distort / serious / witness] | L7:OK | L8:合适
+- spotless | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[aspire / compensate / faint / spotless] | L7:OK | L8:合适
+- tremendous | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[explicit / presently / tremendous / triumph] | L7:OK | L8:合适
+- visible | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dim / pale / territory / visible] | L7:OK | L8:合适
+- weak | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[creature / delicate / represent / weak] | L7:OK | L8:合适
+- wealthy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[foundation / penalty / request / wealthy] | L7:OK | L8:合适
+- wicked | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contemplate / fail / incredible / wicked] | L7:OK | L8:合适
+- worthless | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[assemble / community / compensate / worthless] | L7:OK | L8:合适
+- briefly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[briefly / comply / direction / shelter] | L7:OK | L8:合适
+- constantly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[annual / constantly / cruel / occasion] | L7:OK | L8:合适
+- continuously | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[capable / continuously / flow / steadily] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- currently | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[currently / keen / still / vocabulary] | L7:OK | L8:合适
+- formerly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[convene / formerly / request / sometimes] | L7:OK | L8:合适
+- instantly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[denote / instantly / observe / pale] | L7:OK | L8:合适
+- mostly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[briefly / capacity / investigate / mostly] | L7:OK | L8:合适
+- nearly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[disappear / lean / nearly / promptly] | L7:OK | L8:合适
+- normally | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[normally / penalty / raw / typically] | L7:OK | L8:合适
+- originally | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[external / formerly / originally / overnight] | L7:OK | L8:合适
+- partly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compare / foggy / partly / still] | L7:OK | L8:合适
+- possibly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[invisible / odd / overnight / possibly] | L7:OK | L8:合适
+- presently | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[form / incorporate / presently / solution] | L7:OK | L8:合适
+- previously | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[controversy / index / previously / shortly] | L7:OK | L8:合适
+- probably | L5-Def:能 | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[hasten / magnificent / partly / probably] | L7:OK | L8:合适
+- promptly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[behave / convince / promptly / vocabulary] | L7:OK | L8:合适
+- regularly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[formerly / improve / moisture / regularly] | L7:OK | L8:合适
+- shortly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[duration / formerly / index / shortly] | L7:OK | L8:合适
+- simply | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[absorb / amend / simply / temporarily] | L7:OK | L8:合适
+- sometimes | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[distant / expect / hike / sometimes] | L7:OK | L8:合适
+- steadily | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[flexible / intervene / patience / steadily] | L7:OK | L8:合适
+- still | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[currently / expect / keen / still] | L7:OK | L8:合适
+- typically | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approve / insist / normally / typically] | L7:OK | L8:合适
+- usually | L5-Def:能 | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[approve / attract / perform / usually] | L7:OK | L8:合适
+- simultaneously | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[galaxy / hesitate / reluctant / simultaneously] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- initially | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[courage / expect / initially / shortly] | L7:OK | L8:合适
+- permanently | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abundant / permanently / sensitive / still] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- temporarily | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[consequent / simply / temporarily / temporary] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- lately | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[erode / fluctuate / insist / lately] | L7:OK | L8:合适
+- overnight | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[devote / odd / originally / overnight] | L7:OK | L8:合适
+- yearly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[hike / influence / pleasant / yearly] | L7:OK | L8:合适
+- hourly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[absorb / familiar / hourly / precious] | L7:OK | L8:合适
+- illustration | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[challenge / experiment / illustration / method] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- diagram | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assemble / diagram / illustration / summary] | L7:OK | L8:合适
+- vocabulary | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[convince / improve / promptly / vocabulary] | L7:OK | L8:合适
+- definition | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[definition / interrupt / knowledge / recognize] | L7:OK | L8:合适
+- fact | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[companion / complement / fact / orbit] | L7:OK | L8:合适
+- summary | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contemplate / draft / summary / wicked] | L7:OK | L8:合适
+- topic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[absorb / essential / topic / vapor] | L7:OK | L8:合适
+- conclusion | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conclusion / duration / previous / shortly] | L7:OK | L8:合适
+- passage | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assert / correspond / passage / select] | L7:OK | L8:合适
+- research | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accomplish / diverse / knowledge / research] | L7:OK | L8:合适
+- method | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[formula / glossy / method / pioneer] | L7:OK | L8:合适
+- experiment | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[deficiency / experiment / hypothesis / patience] | L7:OK | L8:合适
+- creature | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[creature / hasten / odd / weak] | L7:OK | L8:合适
+- moisture | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[improve / moisture / numerous / overnight] | L7:OK | L8:合适
+- material | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[drowsy / induce / material / soft] | L7:OK | L8:合适
+- source | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[distant / fluctuate / odd / source] | L7:OK | L8:合适
+- motion | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[continue / equipment / motion / ridiculous] | L7:OK | L8:合适
+- mixture | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[celebrate / mixture / occasion / require] | L7:OK | L8:合适
+- direction | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[direction / harsh / innovation / originally] | L7:OK | L8:合适
+- shelter | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[direction / fossil / rare / shelter] | L7:OK | L8:合适
+- predator | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[hunt / peculiar / predator / species] | L7:OK | L8:合适
+- prey | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[constraint / lean / prey / rapid] | L7:OK | L8:合适
+- oxygen | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[control / decision / moisture / oxygen] | L7:OK | L8:不合适(学科词偏硬；建议后移或拆成更基础概念)
+- galaxy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[fact / galaxy / isolate / represent] | L7:OK | L8:合适
+- fossil | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[dusty / erode / fossil / profession] | L7:OK | L8:合适
+- mineral | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[domestic / fact / mineral / possess] | L7:OK | L8:合适
+- current | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[continuously / current / flow / foundation] | L7:OK | L8:合适
+- vapor | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[current / moisture / oxygen / vapor] | L7:OK | L8:合适
+- erosion | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[erode / erosion / hesitate / profession] | L7:OK | L8:合适
+- orbit | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[fact / mineral / orbit / tradition] | L7:OK | L8:合适
+- gravity | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[coincide / collapse / compensate / gravity] | L7:OK | L8:合适
+- species | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dusty / gaze / numerous / species] | L7:OK | L8:合适
+- community | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[community / controversy / pioneer / worthless] | L7:OK | L8:合适
+- population | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[levy / pioneer / population / rapid] | L7:OK | L8:合适
+- culture | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accumulate / culture / relative / tradition] | L7:OK | L8:合适
+- ancestor | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[ancestor / noble / relative / voyage] | L7:OK | L8:合适
+- generation | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[diverse / generation / perform / permission] | L7:OK | L8:合适
+- volunteer | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[invisible / severe / spotless / volunteer] | L7:OK | L8:合适
+- merchant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abundant / accident / manufacture / merchant] | L7:OK | L8:合适
+- pioneer | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[discovery / index / pioneer / region] | L7:OK | L8:合适
+- president | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[convene / establish / initiate / president] | L7:OK | L8:合适
+- profession | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dusty / erode / profession / require] | L7:OK | L8:合适
+- companion | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[companion / confine / convince / hike] | L7:OK | L8:合适
+- guardian | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[guardian / improve / internal / obvious] | L7:OK | L8:合适
+- immigrant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[culture / immigrant / index / relative] | L7:OK | L8:合适
+- inspector | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[enforce / inspect / inspector / internal] | L7:OK | L8:合适
+- messenger | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[constraint / daring / messenger / summary] | L7:OK | L8:合适
+- relative | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[controversy / culture / relative / reliable] | L7:OK | L8:合适
+- scholar | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conversation / knowledge / scholar / select] | L7:OK | L8:合适
+- witness | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accident / creature / serious / witness] | L7:OK | L8:合适
+- advantage | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advantage / ambiguous / develop / distant] | L7:OK | L8:合适
+- courage | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advocate / courage / perform / represent] | L7:OK | L8:合适
+- effort | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[effort / humble / pioneer / source] | L7:OK | L8:合适
+- knowledge | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accomplish / advantage / knowledge / research] | L7:OK | L8:合适
+- patience | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[develop / experiment / hypothesis / patience] | L7:OK | L8:合适
+- responsibility | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accumulate / cooperate / responsibility / select] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- triumph | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[commentary / courage / tremendous / triumph] | L7:OK | L8:合适
+- accident | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[absorb / accident / collapse / require] | L7:OK | L8:合适
+- attitude | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attitude / effort / encourage / inhibit] | L7:OK | L8:合适
+- boundary | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[boundary / bury / conversation / lively] | L7:OK | L8:合适
+- consequence | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[consequence / demand / exchange / finite] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- conversation | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accomplish / compile / conversation / knowledge] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- decision | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[control / decision / identify / relative] | L7:OK | L8:合适
+- evidence | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[creature / evidence / guide / hug] | L7:OK | L8:合适
+- experience | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[ancestor / experience / incredible / vast] | L7:OK | L8:合适
+- imagination | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[crush / form / imagination / miniature] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- occasion | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[celebrate / keen / occasion / willingly] | L7:OK | L8:合适
+- solution | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[effort / explicit / presently / solution] | L7:OK | L8:合适
+- inspect | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[enforce / inspect / inspector / internal] | L7:OK | L8:合适
+- select | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accumulate / passage / responsibility / select] | L7:OK | L8:合适
+- supply | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[comply / glossy / neat / supply] | L7:OK | L8:合适
+- survive | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bury / fluctuate / harsh / survive] | L7:OK | L8:合适
+- transform | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[admire / delicate / observe / transform] | L7:OK | L8:合适
+- transport | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adequate / cover / demand / transport] | L7:OK | L8:合适
+- identify | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[discovery / helpless / identify / invoke] | L7:OK | L8:合适
+- inherit | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[disappear / inherit / originally / partly] | L7:OK | L8:合适
+- massive | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[flow / hasten / massive / sufficient] | L7:OK | L8:合适
+- miniature | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[foundation / imagination / miniature / wealthy] | L7:OK | L8:合适
+- obvious | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[confine / guardian / obvious / occasion] | L7:OK | L8:合适
+- ordinary | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[celebration / conceive / ordinary / reveal] | L7:OK | L8:合适
+- particular | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[particular / predator / presently / territory] | L7:OK | L8:合适
+- peculiar | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[familiar / ordinary / pale / peculiar] | L7:OK | L8:合适
+- rapid | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[constraint / erosion / population / rapid] | L7:OK | L8:合适
+- reluctant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accurate / reluctant / simultaneously / vapor] | L7:OK | L8:合适
+- sensitive | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[denote / rusty / sensitive / sufficient] | L7:OK | L8:合适
+- severe | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[foundation / severe / volunteer / weak] | L7:OK | L8:合适
+- suitable | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[avoid / capable / elegant / suitable] | L7:OK | L8:合适
+- sufficient | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[enforce / inspector / internal / sufficient] | L7:OK | L8:合适
+- vacant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[domestic / entirely / population / vacant] | L7:OK | L8:合适
+- vast | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compare / experience / foggy / vast] | L7:OK | L8:合适
+- vivid | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approximate / external / genuine / vivid] | L7:OK | L8:合适
+- possess | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contradict / implication / mineral / possess] | L7:OK | L8:合适
+- reveal | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conceive / hide / ordinary / reveal] | L7:OK | L8:合适
+- assign | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assign / diverse / hierarchy / research] | L7:OK | L8:合适
+- respond | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[acknowledge / clarify / method / respond] | L7:OK | L8:合适
+- require | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accident / mixture / profession / require] | L7:OK | L8:合适
+- oppose | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[enforce / establish / innovation / oppose] | L7:OK | L8:合适
+- occupy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dense / diminish / galaxy / occupy] | L7:OK | L8:合适
+- perform | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[generation / perform / permission / usually] | L7:OK | L8:合适
+- accomplish | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accomplish / capacity / knowledge / research] | L7:OK | L8:合适
+- cautious | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[cautious / claim / cross / powerful] | L7:OK | L8:合适
+- capable | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[capable / continuously / flexible / steadily] | L7:OK | L8:合适
+- essential | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[essential / species / vacant / vapor] | L7:OK | L8:合适
+- fortunate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[admire / brief / fortunate / probably] | L7:OK | L8:合适
+- incredible | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[disappear / incredible / ridiculous / wicked] | L7:OK | L8:合适
+- numerous | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[gaze / magnificent / numerous / sufficient] | L7:OK | L8:合适
+- positive | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[collapse / creature / mostly / positive] | L7:OK | L8:合适
+- previous | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conclusion / index / previous / rare] | L7:OK | L8:合适
+- region | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[brief / region / rusty / tradition] | L7:OK | L8:合适
+- structure | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[demand / foundation / framework / structure] | L7:OK | L8:合适
+- symbol | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[hide / hug / interpret / symbol] | L7:OK | L8:合适
+- tradition | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[hike / investigate / relative / tradition] | L7:OK | L8:合适
+- celebration | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[celebration / humble / magnificent / scarcely] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- challenge | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[challenge / cover / illustration / pure] | L7:OK | L8:合适
+- equipment | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[continue / equipment / formerly / framework] | L7:OK | L8:合适
+- voyage | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[ancestor / experience / vast / voyage] | L7:OK | L8:合适
+- territory | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[avoid / predator / territory / visible] | L7:OK | L8:合适
+- disaster | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[disaster / domestic / numerous / population] | L7:OK | L8:合适
+- merely | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[encourage / inhibit / merely / simply] | L7:OK | L8:合适
+- precisely | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[clarify / guideline / impose / precisely] | L7:OK | L8:合适
+- entirely | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[entirely / invisible / presently / vacant] | L7:OK | L8:合适
+- scarcely | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advocate / effort / incredible / scarcely] | L7:OK | L8:合适
+- swiftly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dense / guide / mysterious / swiftly] | L7:OK | L8:合适
+- willingly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[exchange / finite / pioneer / willingly] | L7:OK | L8:合适
+- maintain | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[maintain / moisture / oxygen / vapor] | L7:OK | L8:合适
+- establish | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advocate / comply / establish / initiate] | L7:OK | L8:合适
+- cooperate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accomplish / brief / cooperate / nearly] | L7:OK | L8:合适
+- represent | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[community / experience / galaxy / represent] | L7:OK | L8:合适
+- concentrate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[concentrate / control / dim / incentive] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- manufacture | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[glossy / knowledge / manufacture / merchant] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- demonstrate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[combine / demonstrate / liberal / quantity] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- investigate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[capacity / investigate / mostly / penalty] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- discovery | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[defend / discovery / helpless / powerful] | L7:OK | L8:合适
+- penalty | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[brief / investigate / penalty / wealthy] | L7:OK | L8:合适
+- quantity | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[decision / manufacture / quantity / sufficient] | L7:OK | L8:合适
+- reasonable | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accumulate / adequate / currency / reasonable] | L7:OK | L8:合适
+- approach | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approach / defend / gaze / inhibit] | L7:OK | L8:合适
+- collapse | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[accident / collapse / demand / positive] | L7:OK | L8:合适
+- domestic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[community / domestic / experience / represent] | L7:OK | L8:合适
+- external | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[colorful / external / originally / vivid] | L7:OK | L8:合适
+- internal | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[enforce / guardian / inspector / internal] | L7:OK | L8:合适
+- annual | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[annual / domain / effort / neat] | L7:OK | L8:合适
+- permission | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[authorize / consent / excite / permission] | L7:OK | L8:合适
+- recognize | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[benefit / draft / recognize / ridiculous] | L7:OK | L8:合适
+- influence | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[influence / predict / relative / yearly] | L7:OK | L8:合适
+- interpret | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[encourage / exchange / interpret / simultaneously] | L7:OK | L8:合适
+- adapt | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adapt / demonstrate / form / innovation] | L7:OK | L8:合适
+- benefit | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[benefit / recognize / ridiculous / shelter] | L7:OK | L8:合适
+- durable | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[durable / humble / round / steadily] | L7:OK | L8:合适
+- genuine | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approve / companion / conceive / genuine] | L7:OK | L8:合适
+- hesitate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[courage / hesitate / liberal / simultaneously] | L7:OK | L8:合适
+- negotiate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[allocate / brittle / durable / negotiate] | L7:OK | L8:合适
+- temporary | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[consequent / denote / temporarily / temporary] | L7:OK | L8:合适
+- reliable | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[expect / relative / reliable / sometimes] | L7:OK | L8:合适
+- absorb | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[absorb / accident / essential / vapor] | L7:OK | L8:合适
+- attract | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attract / choose / induce / vivid] | L7:OK | L8:合适
+- predict | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contemplate / hypothesis / predict / witness] | L7:OK | L8:合适
+- request | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[convene / formerly / request / wealthy] | L7:OK | L8:合适
+- reduce | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[behave / exceed / pale / reduce] | L7:OK | L8:合适
+- assemble | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assemble / mysterious / symbol / worthless] | L7:OK | L8:合适
+- accumulate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accumulate / responsibility / select / swiftly] | L7:OK | L8:合适
+- acknowledge | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[acknowledge / approximate / clarify / respond] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- adequate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adequate / authorize / consent / permission] | L7:OK | L8:合适
+- advocate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advocate / comply / establish / initiate] | L7:OK | L8:合适
+- allocate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abundant / allocate / brittle / negotiate] | L7:OK | L8:合适
+- ambiguous | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[ambiguous / deviate / intervene / keen] | L7:OK | L8:合适
+- amend | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amend / brief / compensate / spotless] | L7:OK | L8:合适
+- approximate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[acknowledge / approximate / celebration / visible] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- aspire | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[aspire / diminish / examine / internal] | L7:OK | L8:合适
+- assert | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assert / consider / inspect / solution] | L7:OK | L8:合适
+- authorize | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[announce / authorize / excite / permission] | L7:OK | L8:合适
+- beneficial | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accomplish / accumulate / beneficial / commentary] | L7:OK | L8:合适
+- bias | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[acknowledge / bias / criteria / implication] | L7:OK | L8:合适
+- capacity | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accomplish / capacity / investigate / mostly] | L7:OK | L8:合适
+- clarify | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[acknowledge / ambiguous / clarify / denote] | L7:OK | L8:合适
+- coincide | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[celebrate / coincide / occasion / tradition] | L7:OK | L8:合适
+- commentary | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[commentary / hence / integral / triumph] | L7:OK | L8:合适
+- compensate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compensate / glossy / pioneer / worthless] | L7:OK | L8:合适
+- compile | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approve / compile / conversation / index] | L7:OK | L8:合适
+- complement | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[complement / denote / magnificent / pleasant] | L7:OK | L8:合适
+- comply | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[comply / establish / oppose / perform] | L7:OK | L8:合适
+- conceive | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[companion / conceive / genuine / reveal] | L7:OK | L8:合适
+- confine | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[command / companion / confine / obvious] | L7:OK | L8:合适
+- consent | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[authorize / consent / essential / permission] | L7:OK | L8:合适
+- consequent | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[consequent / heavy / massive / temporarily] | L7:OK | L8:合适
+- consolidate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[acknowledge / approximate / celebration / consolidate] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- constraint | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[constraint / cooperate / lean / reliable] | L7:OK | L8:合适
+- consult | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[consult / currently / index / promptly] | L7:OK | L8:合适
+- contemplate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contemplate / helpless / predict / summary] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- contradict | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contradict / derive / express / simultaneously] | L7:OK | L8:合适
+- controversy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[community / controversy / hierarchy / relative] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- convene | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[convene / establish / initiate / president] | L7:OK | L8:合适
+- correspond | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[correspond / experiment / hypothesis / passage] | L7:OK | L8:合适
+- criteria | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[criteria / incorporate / pale / presently] | L7:OK | L8:合适
+- currency | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abundant / accident / accurate / currency] | L7:OK | L8:合适
+- deficiency | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[argue / deficiency / experiment / hypothesis] | L7:OK | L8:合适
+- denote | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[complement / continue / denote / intervene] | L7:OK | L8:合适
+- derive | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[derive / diverse / numerous / vocabulary] | L7:OK | L8:合适
+- deviate | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[ambiguous / deviate / intervene / keen] | L7:OK | L8:合适
+- devote | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[devote / improve / overnight / regularly] | L7:OK | L8:合适
+- diminish | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compensate / diminish / guardian / worthless] | L7:OK | L8:合适
+- dispose | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approve / attract / benefit / dispose] | L7:OK | L8:合适
+- distort | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[distort / foundation / furthermore / lively] | L7:OK | L8:合适
+- diverse | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[compile / definition / diverse / interpret] | L7:OK | L8:合适
+- domain | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[annual / domain / effort / gaze] | L7:OK | L8:合适
+- dominate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[commentary / dominate / hence / integral] | L7:OK | L8:合适
+- draft | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[contemplate / draft / harsh / summary] | L7:OK | L8:合适
+- duration | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conclusion / distant / duration / shortly] | L7:OK | L8:合适
+- empirical | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[convince / empirical / promptly / vocabulary] | L7:OK | L8:合适
+- enforce | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[capable / enforce / explicit / vacant] | L7:OK | L8:合适
+- entity | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accumulate / entity / immigrant / president] | L7:OK | L8:合适
+- equate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[equate / raw / sufficient / usually] | L7:OK | L8:合适
+- erode | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dusty / erode / numerous / profession] | L7:OK | L8:合适
+- exceed | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[correspond / exceed / hypothesis / reduce] | L7:OK | L8:合适
+- explicit | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[explicit / presently / solution / tremendous] | L7:OK | L8:合适
+- extract | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[approve / attract / benefit / extract] | L7:OK | L8:合适
+- facilitate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conversation / domestic / facilitate / vacant] | L7:OK | L8:合适
+- finite | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[consequence / exchange / finite / willingly] | L7:OK | L8:合适
+- fluctuate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[fluctuate / heavy / predict / survive] | L7:OK | L8:合适
+- format | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[ambiguous / draft / format / incorporate] | L7:OK | L8:合适
+- formula | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[form / formula / method / solution] | L7:OK | L8:合适
+- foundation | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[foundation / miniature / structure / wealthy] | L7:OK | L8:合适
+- framework | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[equipment / formerly / framework / structure] | L7:OK | L8:合适
+- furthermore | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[aspire / distort / furthermore / lively] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- generate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[admire / generate / manifest / summary] | L7:OK | L8:合适
+- guideline | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[guideline / inspect / inspector / precisely] | L7:OK | L8:合适
+- hence | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[argue / commentary / hence / integral] | L7:OK | L8:合适
+- hierarchy | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[announce / assign / authorize / hierarchy] | L7:OK | L8:合适
+- hypothesis | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(多个选项都说得通，不能唯一确定) | 选项:[deficiency / experiment / hypothesis / patience] | L7:OK | L8:合适
+- identical | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[absurd / advantage / ambiguous / identical] | L7:OK | L8:合适
+- ideology | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[concentrate / dim / ideology / perform] | L7:OK | L8:合适
+- implication | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[beneficial / excite / express / implication] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- impose | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[establish / impose / initiate / pioneer] | L7:OK | L8:合适
+- incentive | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[aspire / avoid / concentrate / incentive] | L7:OK | L8:合适
+- incorporate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[form / format / incorporate / presently] | L7:OK | L8:勉强(拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现)
+- index | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accurate / index / innocent / previous] | L7:OK | L8:合适
+- induce | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[drowsy / induce / lovely / material] | L7:OK | L8:合适
+- inherent | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[cruel / generation / inherent / reluctant] | L7:OK | L8:合适
+- inhibit | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attitude / bold / inhibit / pioneer] | L7:OK | L8:合适
+- initiate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advocate / convene / establish / initiate] | L7:OK | L8:合适
+- innovation | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conversation / demonstrate / innovation / quantity] | L7:OK | L8:合适
+- insert | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[absorb / absurd / disappear / insert] | L7:OK | L8:合适
+- integral | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[cheer / conclusion / incorporate / integral] | L7:OK | L8:合适
+- intervene | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[ambiguous / controversy / deviate / intervene] | L7:OK | L8:合适
+- invoke | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[comply / criteria / invoke / serious] | L7:OK | L8:合适
+- isolate | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[fail / isolate / raw / reluctant] | L7:OK | L8:合适
+- levy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[levy / pioneer / population / request] | L7:注意(可能引发家长顾虑：政治/公民；建议例句更中性/更生活化) | L8:合适
+- liberal | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[combine / courage / finite / liberal] | L7:OK | L8:合适
+- likewise | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abundant / accident / accurate / likewise] | L7:OK | L8:合适
+- magnitude | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[advantage / ambiguous / authorize / magnitude] | L7:OK | L8:合适
+- manifest | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[admire / assert / explicit / manifest] | L7:OK | L8:合适

@@ -31,6 +31,10 @@ function extractItems(text) {
   m = text.match(/const\s+[A-Z0-9_]+\s*=\s*\[(.*)\]\s*;\s*if\(typeof module/s);
   if (m) return JSON.parse('[' + m[1] + ']');
 
+  // Common simple format: const LEVEL2A_BANK=[{...}, ...]; (EOF)
+  m = text.match(/const\s+[A-Z0-9_]+\s*=\s*\[(.*)\]\s*;\s*$/s);
+  if (m) return JSON.parse('[' + m[1] + ']');
+
   m = text.match(/module\.exports\s*=\s*\[(.*)\]\s*;\s*$/s);
   if (m) return JSON.parse('[' + m[1] + ']');
 
