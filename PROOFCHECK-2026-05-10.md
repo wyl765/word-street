@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 170 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 162 MINOR
 
 ## Issues
 
@@ -52,38 +52,6 @@ L2 definition uses complex word(s): surroundings
 
 ### [MINOR] words-level2b.js — "chromosome" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): instructions
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2c.js — "contest" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): competition
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2c.js — "dimension" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): measurement
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2c.js — "encounter" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): unexpectedly
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2c.js — "fascinate" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): interesting
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2c.js — "fault" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): responsibility
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2c.js — "inquire" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): information
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2c.js — "liable" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): responsible
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2c.js — "notable" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): interesting
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level4b.js — "utilitarian" (SUBJECTIVE_DEF)
