@@ -70,7 +70,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pending",
-      "gate6": "pending"
+      "gate6": "pass"
     },
     "words-level3a.js": {
       "totalWords": 231,
