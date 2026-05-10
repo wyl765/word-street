@@ -3,7 +3,7 @@
 ## Summary
 - Total entries: 5210
 - CRITICAL (≥5 超纲词 in definition): 422
-- MAJOR (≥3 超纲词 in definition): 2152
+- MAJOR (≥3 超纲词 in definition): 2151
 
 ## Issues
 
@@ -4864,7 +4864,7 @@
 - **超纲词 (4):** natural, feeling, tells, animal
 
 ### 🟡 [MAJOR] institution (L2)
-- **Definition:** "an important group like a school or hospital"
+- **Definition:** "an important group like a school, hospital, or library"
 - **超纲词 (4):** important, group, school, hospital
 
 ### 🟡 [MAJOR] introduce (L2)
@@ -4907,10 +4907,6 @@
 - **Definition:** "free time when you can relax and do what you enjoy"
 - **超纲词 (3):** free, time, enjoy
 
-### 🟡 [MAJOR] liable (L2)
-- **Definition:** "in charge of something or likely to happen"
-- **超纲词 (3):** charge, likely, happen
-
 ### 🟡 [MAJOR] literal (L2)
 - **Definition:** "meaning exactly what the words say"
 - **超纲词 (3):** meaning, words, say
@@ -4932,8 +4928,8 @@
 - **超纲词 (3):** kindness, shown, trouble
 
 ### 🟡 [MAJOR] migrate (L2)
-- **Definition:** "to move from one place to another, most times with the seasons"
-- **超纲词 (4):** one, place, times, seasons
+- **Definition:** "to move from one place to another, often with the seasons"
+- **超纲词 (3):** one, place, seasons
 
 ### 🟡 [MAJOR] military (L2)
 - **Definition:** "about soldiers and armed forces"

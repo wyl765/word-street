@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3679 ambiguous pairs found.
+3680 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -4840,7 +4840,7 @@
 
 ## L2: "probably" vs "liable" (67%)
 - probably: very likely to happen
-- liable: in charge of something or likely to happen
+- liable: responsible for something, or likely to happen
 
 ## L2: "promptly" vs "permanent" (67%)
 - promptly: right on time or right away
@@ -4881,10 +4881,6 @@
 ## L2: "typically" vs "dispose" (100%)
 - typically: the way something most times happens
 - dispose: to get rid of something
-
-## L2: "typically" vs "incident" (75%)
-- typically: the way something most times happens
-- incident: something that happens, most times something odd
 
 ## L2: "typically" vs "purchase" (100%)
 - typically: the way something most times happens
@@ -6222,6 +6218,10 @@
 - challenge: something that is hard to do
 - achieve: to finish something you worked hard for
 
+## L2: "challenge" vs "aware" (67%)
+- challenge: something that is hard to do
+- aware: knowing that something is there or happening
+
 ## L2: "challenge" vs "barrier" (67%)
 - challenge: something that is hard to do
 - barrier: something that blocks the way
@@ -6260,7 +6260,7 @@
 
 ## L2: "challenge" vs "incident" (67%)
 - challenge: something that is hard to do
-- incident: something that happens, most times something odd
+- incident: something that happens, often something unusual
 
 ## L2: "challenge" vs "license" (67%)
 - challenge: something that is hard to do
@@ -6958,10 +6958,6 @@
 - capacity: the most something can hold
 - dispose: to get rid of something
 
-## L2: "capacity" vs "incident" (67%)
-- capacity: the most something can hold
-- incident: something that happens, most times something odd
-
 ## L2: "capacity" vs "purchase" (100%)
 - capacity: the most something can hold
 - purchase: to buy something
@@ -7129,6 +7125,10 @@
 ## L2: "consequent" vs "dispose" (100%)
 - consequent: happening as a result of something
 - dispose: to get rid of something
+
+## L2: "consequent" vs "aware" (67%)
+- consequent: happening as a result of something
+- aware: knowing that something is there or happening
 
 ## L2: "consequent" vs "prevent" (67%)
 - consequent: happening as a result of something
@@ -7442,6 +7442,10 @@
 - entity: something that exists on its own
 - attest: to show that something is true
 
+## L2: "entity" vs "aware" (67%)
+- entity: something that exists on its own
+- aware: knowing that something is there or happening
+
 ## L2: "entity" vs "barrier" (67%)
 - entity: something that exists on its own
 - barrier: something that blocks the way
@@ -7476,7 +7480,7 @@
 
 ## L2: "entity" vs "incident" (67%)
 - entity: something that exists on its own
-- incident: something that happens, most times something odd
+- incident: something that happens, often something unusual
 
 ## L2: "entity" vs "license" (67%)
 - entity: something that exists on its own
@@ -9314,10 +9318,6 @@
 - bring about: to make something happen
 - guarantee: to promise that something will happen or work
 
-## L2: "bring about" vs "liable" (67%)
-- bring about: to make something happen
-- liable: in charge of something or likely to happen
-
 ## L2: "bring about" vs "operate" (67%)
 - bring about: to make something happen
 - operate: to make something work or run
@@ -9528,7 +9528,7 @@
 
 ## L2: "migratory" vs "migrate" (67%)
 - migratory: moving from one place to another with the seasons
-- migrate: to move from one place to another, most times with the seasons
+- migrate: to move from one place to another, often with the seasons
 
 ## L2: "migratory" vs "navigate" (60%)
 - migratory: moving from one place to another with the seasons
@@ -10254,6 +10254,18 @@
 - assume: to think something is true without checking
 - refuse: to say no and not do something
 
+## L2: "aware" vs "barrier" (67%)
+- aware: knowing that something is there or happening
+- barrier: something that blocks the way
+
+## L2: "aware" vs "purchase" (100%)
+- aware: knowing that something is there or happening
+- purchase: to buy something
+
+## L2: "aware" vs "refuse" (100%)
+- aware: knowing that something is there or happening
+- refuse: to say no and not do something
+
 ## L2: "ban" vs "prohibit" (67%)
 - ban: to officially say something is not allowed
 - prohibit: to say that something is not allowed by a rule
@@ -10304,7 +10316,7 @@
 
 ## L2: "barrier" vs "incident" (67%)
 - barrier: something that blocks the way
-- incident: something that happens, most times something odd
+- incident: something that happens, often something unusual
 
 ## L2: "barrier" vs "license" (67%)
 - barrier: something that blocks the way
@@ -10857,6 +10869,10 @@
 ## L2: "discourage" vs "constitute" (67%)
 - discourage: to make someone feel less sure they can do something
 - constitute: to make up or form something
+
+## L2: "distinct" vs "version" (75%)
+- distinct: clearly different from others
+- version: one form of something that is slightly different from others
 
 ## L2: "distinguish" vs "link" (67%)
 - distinguish: to tell the difference between two things
@@ -11426,16 +11442,16 @@
 - imply: to suggest something without saying it directly
 - refuse: to say no and not do something
 
-## L2: "incident" vs "phenomenon" (60%)
-- incident: something that happens, most times something odd
+## L2: "incident" vs "phenomenon" (80%)
+- incident: something that happens, often something unusual
 - phenomenon: something unusual that happens, especially in nature or science
 
 ## L2: "incident" vs "purchase" (100%)
-- incident: something that happens, most times something odd
+- incident: something that happens, often something unusual
 - purchase: to buy something
 
 ## L2: "incident" vs "refuse" (100%)
-- incident: something that happens, most times something odd
+- incident: something that happens, often something unusual
 - refuse: to say no and not do something
 
 ## L2: "indicate" vs "purchase" (100%)
@@ -11562,18 +11578,6 @@
 - leisure: free time when you can relax and do what you enjoy
 - release: to let go or set free
 
-## L2: "liable" vs "manage" (67%)
-- liable: in charge of something or likely to happen
-- manage: to be in charge of or handle something
-
-## L2: "liable" vs "purchase" (100%)
-- liable: in charge of something or likely to happen
-- purchase: to buy something
-
-## L2: "liable" vs "refuse" (100%)
-- liable: in charge of something or likely to happen
-- refuse: to say no and not do something
-
 ## L2: "license" vs "purchase" (100%)
 - license: a paper that gives you permission to do something
 - purchase: to buy something
@@ -11643,7 +11647,7 @@
 - regard: to think about someone or something in a certain way
 
 ## L2: "migrate" vs "transfer" (60%)
-- migrate: to move from one place to another, most times with the seasons
+- migrate: to move from one place to another, often with the seasons
 - transfer: to move something from one place to another
 
 ## L2: "minor" vs "sacred" (67%)

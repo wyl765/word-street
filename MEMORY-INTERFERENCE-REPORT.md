@@ -1,10 +1,10 @@
 # Memory Interference Report — 2026-05-10
 
 ## Summary
-- HIGH risk (3+ factors): 188
-- MEDIUM risk (2 factors): 1234
-- LOW risk (1 factor): 53976
-- Total interference pairs: 55398
+- HIGH risk (3+ factors): 189
+- MEDIUM risk (2 factors): 1233
+- LOW risk (1 factor): 53978
+- Total interference pairs: 55400
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -144,6 +144,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=3]** L2: **product** ↔ **produce** — spelling (edit distance=1), phonetic (onset="pro")
 - **[risk=3]** L2: **hang out** ↔ **hand out** — spelling (edit distance=1), phonetic (onset="ha")
 - **[risk=3]** L2: **notably** ↔ **notable** — spelling (edit distance=1), phonetic (onset="no")
+- **[risk=3]** L2: **migratory** ↔ **migrate** — phonetic (onset="mi"), definition (Jaccard=63%)
 - **[risk=3]** L2: **assent** ↔ **asset** — spelling (edit distance=1), phonetic (onset="a")
 - **[risk=3]** L2: **balk** ↔ **bask** — spelling (edit distance=1), phonetic (onset="ba")
 - **[risk=3]** L2: **chasm** ↔ **charm** — spelling (edit distance=1), phonetic (onset="cha")
@@ -877,7 +878,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **simply** ↔ **imply** — spelling (edit distance=1)
 - **[risk=2]** L2: **simply** ↔ **simplify** — spelling (edit distance=2), phonetic (onset="si")
 - **[risk=2]** L2: **steadily** ↔ **steady** — spelling (edit distance=2), phonetic (onset="stea")
-- **[risk=2]** L2: **typically** ↔ **incident** — definition (Jaccard=67%)
 - **[risk=2]** L2: **usually** ↔ **generally** — definition (Jaccard=67%)
 - **[risk=2]** L2: **simultaneously** ↔ **coincide** — definition (Jaccard=67%)
 - **[risk=2]** L2: **permanently** ↔ **permanent** — spelling (edit distance=2), phonetic (onset="pe")
@@ -1045,7 +1045,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **count on** ↔ **rely** — definition (Jaccard=75%)
 - **[risk=2]** L2: **fauna** ↔ **fault** — spelling (edit distance=2), phonetic (onset="fau")
 - **[risk=2]** L2: **focal** ↔ **focus** — spelling (edit distance=2), phonetic (onset="fo")
-- **[risk=2]** L2: **migratory** ↔ **migrate** — phonetic (onset="mi"), definition (Jaccard=56%)
 - **[risk=2]** L2: **commute** ↔ **commit** — spelling (edit distance=2), phonetic (onset="co")
 - **[risk=2]** L2: **commute** ↔ **compete** — spelling (edit distance=2), phonetic (onset="co")
 - **[risk=2]** L2: **evaporate** ↔ **elaborate** — spelling (edit distance=2), phonetic (onset="e")
@@ -1091,6 +1090,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **inquire** ↔ **inspire** — spelling (edit distance=2), phonetic (onset="i")
 - **[risk=2]** L2: **instance** ↔ **instinct** — spelling (edit distance=2), phonetic (onset="i")
 - **[risk=2]** L2: **justify** ↔ **sacrifice** — definition (Jaccard=80%)
+- **[risk=2]** L2: **migrate** ↔ **transfer** — definition (Jaccard=63%)
 - **[risk=2]** L2: **notify** ↔ **notion** — spelling (edit distance=2), phonetic (onset="no")
 - **[risk=2]** L2: **pace** ↔ **panel** — spelling (edit distance=2), phonetic (onset="pa")
 - **[risk=2]** L2: **passion** ↔ **passive** — spelling (edit distance=2), phonetic (onset="pa")
@@ -16369,6 +16369,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **transport** ↔ **tradition** — phonetic (onset="tra")
 - **[risk=1]** L2: **transport** ↔ **take away** — definition (Jaccard=43%)
 - **[risk=1]** L2: **transport** ↔ **migratory** — definition (Jaccard=50%)
+- **[risk=1]** L2: **transport** ↔ **migrate** — definition (Jaccard=44%)
 - **[risk=1]** L2: **transport** ↔ **navigate** — definition (Jaccard=44%)
 - **[risk=1]** L2: **transport** ↔ **transparent** — phonetic (onset="tra")
 - **[risk=1]** L2: **identify** ↔ **inherit** — phonetic (onset="i")
@@ -24879,6 +24880,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **incident** ↔ **introduce** — phonetic (onset="i")
 - **[risk=1]** L2: **incident** ↔ **invade** — phonetic (onset="i")
 - **[risk=1]** L2: **incident** ↔ **involve** — phonetic (onset="i")
+- **[risk=1]** L2: **incident** ↔ **phenomenon** — definition (Jaccard=43%)
 - **[risk=1]** L2: **indicate** ↔ **individual** — phonetic (onset="i")
 - **[risk=1]** L2: **indicate** ↔ **inform** — phonetic (onset="i")
 - **[risk=1]** L2: **indicate** ↔ **inhabit** — phonetic (onset="i")
@@ -25029,7 +25031,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **migrate** ↔ **minor** — phonetic (onset="mi")
 - **[risk=1]** L2: **migrate** ↔ **miracle** — phonetic (onset="mi")
 - **[risk=1]** L2: **migrate** ↔ **mission** — phonetic (onset="mi")
-- **[risk=1]** L2: **migrate** ↔ **transfer** — definition (Jaccard=56%)
+- **[risk=1]** L2: **migrate** ↔ **shift** — definition (Jaccard=44%)
 - **[risk=1]** L2: **military** ↔ **minimum** — phonetic (onset="mi")
 - **[risk=1]** L2: **military** ↔ **miracle** — phonetic (onset="mi")
 - **[risk=1]** L2: **military** ↔ **mission** — phonetic (onset="mi")

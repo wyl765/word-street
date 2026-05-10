@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 201 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 193 MINOR
 
 ## Issues
 
@@ -84,30 +84,6 @@ L2 definition uses complex word(s): responsible
 
 ### [MINOR] words-level2c.js — "notable" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): interesting
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2d.js — "qualify" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): requirements
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2d.js — "reference" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): information
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2d.js — "simplify" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): complicated
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2d.js — "behalf" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): representing
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2d.js — "controversial" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): disagreement
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2d.js — "convey" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): communicate
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level4a.js — "embellish" (SUBJECTIVE_DEF)
@@ -220,14 +196,6 @@ Definition uses "something" 2 times: "something that happens, often something un
 
 ### [MINOR] words-level2c.js — "launch" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "to send something up into the air or start something new"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level2d.js — "reward" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something good given for doing something well"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level2d.js — "supplement" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something extra added to make something better"
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level4a.js — "derivative" (VAGUE_DEFINITION)

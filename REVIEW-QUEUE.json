@@ -39,9 +39,10 @@
     },
     {
       "file": "words-level2d.js",
-      "words": 100,
-      "status": "pending",
-      "lastReviewRound": null
+      "words": 258,
+      "status": "done",
+      "lastReviewRound": 1,
+      "lastReviewDate": "2026-05-10"
     },
     {
       "file": "words-level3a.js",
