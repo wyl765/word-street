@@ -47,7 +47,7 @@ Word appears to be adjective but definition starts with article: "a moral princi
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level5d.js — "agnostic" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "a person who believes it is impossible to know whe..."
+Word appears to be adjective but definition starts with article: "a person who believes that some questions, especia..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level1.js — "pretzel" (SAME_LEVEL_DEF_REF)
