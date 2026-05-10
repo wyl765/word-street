@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 193 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 192 MINOR
 
 ## Issues
 
@@ -696,10 +696,6 @@ imageKeyword "prime number" may return brand/product images instead of the inten
 
 ### [MINOR] words-level2.js — "bugle" (MILITARY_CONTEXT)
 Example contains military context: "soldier"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level3a.js — "bastion" (MILITARY_CONTEXT)
-Example contains military context: "army"
 **Fix:** Consider replacing with a neutral/civilian context
 
 ### [MINOR] words-level3b.js — "monument" (MILITARY_CONTEXT)

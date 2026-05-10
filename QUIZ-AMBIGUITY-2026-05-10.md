@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3680 ambiguous pairs found.
+3686 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -2636,11 +2636,11 @@
 
 ## L2: "delay" vs "simplify" (67%)
 - delay: to make something late
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "delay" vs "supplement" (67%)
 - delay: to make something late
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "delay" vs "constitute" (67%)
 - delay: to make something late
@@ -3962,6 +3962,10 @@
 - examine: to look at something very closely
 - purchase: to buy something
 
+## L2: "examine" vs "reference" (67%)
+- examine: to look at something very closely
+- reference: something you look at to help you
+
 ## L2: "examine" vs "refuse" (100%)
 - examine: to look at something very closely
 - refuse: to say no and not do something
@@ -4152,11 +4156,11 @@
 
 ## L2: "form" vs "simplify" (67%)
 - form: to make or shape something
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "form" vs "supplement" (67%)
 - form: to make or shape something
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "form" vs "constitute" (67%)
 - form: to make or shape something
@@ -4182,9 +4186,9 @@
 - gaze: to look at something quietly with wonder or interest
 - purchase: to buy something
 
-## L2: "gaze" vs "reference" (60%)
+## L2: "gaze" vs "reference" (67%)
 - gaze: to look at something quietly with wonder or interest
-- reference: information you look at to help with something
+- reference: something you look at to help you
 
 ## L2: "gaze" vs "refuse" (100%)
 - gaze: to look at something quietly with wonder or interest
@@ -4308,7 +4312,7 @@
 
 ## L2: "hunt" vs "reference" (67%)
 - hunt: to look for something carefully
-- reference: information you look at to help with something
+- reference: something you look at to help you
 
 ## L2: "hunt" vs "refuse" (100%)
 - hunt: to look for something carefully
@@ -4473,6 +4477,10 @@
 ## L2: "admire" vs "purchase" (100%)
 - admire: to look at something and think it is very good
 - purchase: to buy something
+
+## L2: "admire" vs "reference" (67%)
+- admire: to look at something and think it is very good
+- reference: something you look at to help you
 
 ## L2: "admire" vs "refuse" (100%)
 - admire: to look at something and think it is very good
@@ -5678,6 +5686,10 @@
 - inspect: to look at something very carefully to check it
 - purchase: to buy something
 
+## L2: "inspect" vs "reference" (67%)
+- inspect: to look at something very carefully to check it
+- reference: something you look at to help you
+
 ## L2: "inspect" vs "refuse" (100%)
 - inspect: to look at something very carefully to check it
 - refuse: to say no and not do something
@@ -5978,10 +5990,6 @@
 - accomplish: to finish something well
 - refuse: to say no and not do something
 
-## L2: "accomplish" vs "reward" (67%)
-- accomplish: to finish something well
-- reward: something good given for doing something well
-
 ## L2: "capable" vs "complement" (67%)
 - capable: able to do something well
 - complement: something that goes well with another thing
@@ -6001,10 +6009,6 @@
 ## L2: "capable" vs "refuse" (100%)
 - capable: able to do something well
 - refuse: to say no and not do something
-
-## L2: "capable" vs "reward" (67%)
-- capable: able to do something well
-- reward: something good given for doing something well
 
 ## L2: "essential" vs "dispose" (100%)
 - essential: something you really need
@@ -6532,11 +6536,11 @@
 
 ## L2: "manufacture" vs "simplify" (67%)
 - manufacture: to make something in a factory
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "manufacture" vs "supplement" (67%)
 - manufacture: to make something in a factory
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "manufacture" vs "constitute" (67%)
 - manufacture: to make something in a factory
@@ -6613,6 +6617,10 @@
 ## L2: "investigate" vs "purchase" (100%)
 - investigate: to look into something to find the truth
 - purchase: to buy something
+
+## L2: "investigate" vs "reference" (67%)
+- investigate: to look into something to find the truth
+- reference: something you look at to help you
 
 ## L2: "investigate" vs "refuse" (100%)
 - investigate: to look into something to find the truth
@@ -6986,6 +6994,10 @@
 - clarify: to explain something so it is easier to understand
 - refuse: to say no and not do something
 
+## L2: "clarify" vs "simplify" (75%)
+- clarify: to explain something so it is easier to understand
+- simplify: to make something easier to understand or do
+
 ## L2: "coincide" vs "likewise" (100%)
 - coincide: to happen at the same time
 - likewise: in the same way
@@ -7210,10 +7222,6 @@
 - controversy: a big disagreement among people about something important
 - refuse: to say no and not do something
 
-## L2: "controversy" vs "controversial" (75%)
-- controversy: a big disagreement among people about something important
-- controversial: causing disagreement among people
-
 ## L2: "criteria" vs "dispose" (100%)
 - criteria: rules used to judge or decide something
 - dispose: to get rid of something
@@ -7229,6 +7237,10 @@
 ## L2: "criteria" vs "purchase" (100%)
 - criteria: rules used to judge or decide something
 - purchase: to buy something
+
+## L2: "criteria" vs "qualify" (67%)
+- criteria: rules used to judge or decide something
+- qualify: to meet the rules so you can do something
 
 ## L2: "criteria" vs "refuse" (100%)
 - criteria: rules used to judge or decide something
@@ -7638,13 +7650,13 @@
 - facilitate: to make something easier to do
 - reverse: to go backward or make something opposite
 
-## L2: "facilitate" vs "simplify" (67%)
+## L2: "facilitate" vs "simplify" (100%)
 - facilitate: to make something easier to do
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "facilitate" vs "supplement" (67%)
 - facilitate: to make something easier to do
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "facilitate" vs "constitute" (67%)
 - facilitate: to make something easier to do
@@ -7869,6 +7881,10 @@
 ## L2: "intervene" vs "purchase" (100%)
 - intervene: to step in to help or stop something
 - purchase: to buy something
+
+## L2: "intervene" vs "reference" (67%)
+- intervene: to step in to help or stop something
+- reference: something you look at to help you
 
 ## L2: "intervene" vs "refuse" (100%)
 - intervene: to step in to help or stop something
@@ -8476,7 +8492,7 @@
 
 ## L2: "check out" vs "reference" (67%)
 - check out: to look at something interesting
-- reference: information you look at to help with something
+- reference: something you look at to help you
 
 ## L2: "check out" vs "refuse" (100%)
 - check out: to look at something interesting
@@ -9100,11 +9116,11 @@
 
 ## L2: "turn down" vs "simplify" (67%)
 - turn down: to make something quieter
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "turn down" vs "supplement" (67%)
 - turn down: to make something quieter
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "turn down" vs "constitute" (67%)
 - turn down: to make something quieter
@@ -9356,11 +9372,11 @@
 
 ## L2: "bring about" vs "simplify" (67%)
 - bring about: to make something happen
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "bring about" vs "supplement" (67%)
 - bring about: to make something happen
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "bring about" vs "constitute" (67%)
 - bring about: to make something happen
@@ -9678,10 +9694,6 @@
 - leave behind: to not bring something with you
 - purchase: to buy something
 
-## L2: "leave behind" vs "reference" (67%)
-- leave behind: to not bring something with you
-- reference: information you look at to help with something
-
 ## L2: "leave behind" vs "refuse" (100%)
 - leave behind: to not bring something with you
 - refuse: to say no and not do something
@@ -9988,7 +10000,7 @@
 
 ## L2: "adjust" vs "supplement" (60%)
 - adjust: to change something a little to make it better
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "adjust" vs "constitute" (67%)
 - adjust: to change something a little to make it better
@@ -10204,7 +10216,7 @@
 
 ## L2: "assist" vs "reference" (67%)
 - assist: to help someone do something
-- reference: information you look at to help with something
+- reference: something you look at to help you
 
 ## L2: "assist" vs "refuse" (100%)
 - assist: to help someone do something
@@ -10538,6 +10550,10 @@
 - compete: to try to win against someone else
 - rival: someone you compete against
 
+## L2: "compete" vs "behalf" (67%)
+- compete: to try to win against someone else
+- behalf: for someone else or as their helper
+
 ## L2: "compete" vs "delegate" (67%)
 - compete: to try to win against someone else
 - delegate: to give a task to someone else
@@ -10654,6 +10670,10 @@
 - contribute: to give something to help others
 - purchase: to buy something
 
+## L2: "contribute" vs "reference" (67%)
+- contribute: to give something to help others
+- reference: something you look at to help you
+
 ## L2: "contribute" vs "refuse" (100%)
 - contribute: to give something to help others
 - refuse: to say no and not do something
@@ -10680,7 +10700,7 @@
 
 ## L2: "credit" vs "reward" (60%)
 - credit: praise, or thanks for doing something good
-- reward: something good given for doing something well
+- reward: a prize or good thing you get for doing something
 
 ## L2: "critical" vs "fatal" (67%)
 - critical: very important or serious
@@ -10858,10 +10878,6 @@
 - discourage: to make someone feel less sure they can do something
 - reinforce: to make something stronger
 
-## L2: "discourage" vs "simplify" (75%)
-- discourage: to make someone feel less sure they can do something
-- simplify: to make something less complicated
-
 ## L2: "discourage" vs "compel" (67%)
 - discourage: to make someone feel less sure they can do something
 - compel: to force someone to do something
@@ -10922,10 +10938,6 @@
 - efficient: doing something well without wasting time or energy
 - refuse: to say no and not do something
 
-## L2: "efficient" vs "reward" (60%)
-- efficient: doing something well without wasting time or energy
-- reward: something good given for doing something well
-
 ## L2: "emphasis" vs "purchase" (100%)
 - emphasis: extra importance given to something
 - purchase: to buy something
@@ -10984,7 +10996,7 @@
 
 ## L2: "encounter" vs "qualify" (67%)
 - encounter: to meet or come across something unexpectedly
-- qualify: to meet the requirements for something
+- qualify: to meet the rules so you can do something
 
 ## L2: "encounter" vs "refuse" (100%)
 - encounter: to meet or come across something unexpectedly
@@ -11049,6 +11061,10 @@
 ## L2: "evaluate" vs "purchase" (100%)
 - evaluate: to look at something carefully to decide quality
 - purchase: to buy something
+
+## L2: "evaluate" vs "reference" (67%)
+- evaluate: to look at something carefully to decide quality
+- reference: something you look at to help you
 
 ## L2: "evaluate" vs "refuse" (100%)
 - evaluate: to look at something carefully to decide quality
@@ -11630,6 +11646,10 @@
 - memorial: something built to help people remember an event or person
 - purchase: to buy something
 
+## L2: "memorial" vs "reference" (67%)
+- memorial: something built to help people remember an event or person
+- reference: something you look at to help you
+
 ## L2: "memorial" vs "refuse" (100%)
 - memorial: something built to help people remember an event or person
 - refuse: to say no and not do something
@@ -11844,11 +11864,11 @@
 
 ## L2: "operate" vs "simplify" (67%)
 - operate: to make something work or run
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "operate" vs "supplement" (67%)
 - operate: to make something work or run
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "operate" vs "constitute" (67%)
 - operate: to make something work or run
@@ -12156,11 +12176,11 @@
 
 ## L2: "produce" vs "simplify" (67%)
 - produce: to make or grow something
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "produce" vs "supplement" (67%)
 - produce: to make or grow something
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "produce" vs "constitute" (67%)
 - produce: to make or grow something
@@ -12177,6 +12197,10 @@
 ## L2: "promote" vs "purchase" (100%)
 - promote: to help something grow or become more popular
 - purchase: to buy something
+
+## L2: "promote" vs "reference" (67%)
+- promote: to help something grow or become more popular
+- reference: something you look at to help you
 
 ## L2: "promote" vs "refuse" (100%)
 - promote: to help something grow or become more popular
@@ -12227,7 +12251,7 @@
 - constitute: to make up or form something
 
 ## L2: "qualify" vs "refuse" (100%)
-- qualify: to meet the requirements for something
+- qualify: to meet the rules so you can do something
 - refuse: to say no and not do something
 
 ## L2: "react" vs "refuse" (100%)
@@ -12251,12 +12275,12 @@
 - bonus: something extra and good that you did not expect
 
 ## L2: "reference" vs "refuse" (100%)
-- reference: information you look at to help with something
+- reference: something you look at to help you
 - refuse: to say no and not do something
 
-## L2: "reference" vs "tolerate" (67%)
-- reference: information you look at to help with something
-- tolerate: to put up with something you do not like
+## L2: "reference" vs "resemble" (67%)
+- reference: something you look at to help you
+- resemble: to look like someone or something else
 
 ## L2: "regard" vs "compel" (67%)
 - regard: to think about someone or something in a certain way
@@ -12280,11 +12304,11 @@
 
 ## L2: "reinforce" vs "simplify" (67%)
 - reinforce: to make something stronger
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 
 ## L2: "reinforce" vs "supplement" (67%)
 - reinforce: to make something stronger
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 
 ## L2: "reinforce" vs "constitute" (67%)
 - reinforce: to make something stronger
@@ -12351,7 +12375,7 @@
 - convert: to change from one thing into another
 
 ## L2: "simplify" vs "constitute" (67%)
-- simplify: to make something less complicated
+- simplify: to make something easier to understand or do
 - constitute: to make up or form something
 
 ## L2: "simulate" vs "trial" (67%)
@@ -12379,7 +12403,7 @@
 - compel: to force someone to do something
 
 ## L2: "supplement" vs "constitute" (67%)
-- supplement: something extra added to make something better
+- supplement: an extra thing you add to make something better or complete
 - constitute: to make up or form something
 
 ## L2: "suspect" vs "compel" (67%)

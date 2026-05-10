@@ -1,6 +1,6 @@
 # Dictionary Pattern Check
 
-0 HIGH | 63 MEDIUM | 67 MINOR
+0 HIGH | 64 MEDIUM | 67 MINOR
 
 ## HIGH
 
@@ -62,6 +62,7 @@
 - words-level2c.js | frequent | Definition "happening often" is too brief to be useful
 - words-level2d.js | peril | Definition "great danger" is too brief to be useful
 - words-level2d.js | abolish | L2 definition packs 3 meanings: "to officially end or get rid of a rule or practice"
+- words-level2d.js | convey | L2 definition packs 3 meanings: "to show or tell a message or feeling"
 - words-level3a.js | ajar | Definition "slightly open" is too brief to be useful
 - words-level3b.js | on cloud nine | Definition "very happy" is too brief to be useful
 - words-level3b.js | in hot water | Definition "in trouble" is too brief to be useful

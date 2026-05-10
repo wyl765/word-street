@@ -2,8 +2,8 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 422
-- MAJOR (≥3 超纲词 in definition): 2151
+- CRITICAL (≥5 超纲词 in definition): 423
+- MAJOR (≥3 超纲词 in definition): 2150
 
 ## Issues
 
@@ -506,6 +506,10 @@
 ### 🔴 [CRITICAL] replace (L2)
 - **Definition:** "to put something new in place of the old one"
 - **超纲词 (5):** put, new, place, old, one
+
+### 🔴 [CRITICAL] controversial (L2)
+- **Definition:** "making people disagree; not everyone thinks it is good"
+- **超纲词 (6):** making, people, disagree, everyone, thinks, good
 
 ### 🔴 [CRITICAL] corrupt (L2)
 - **Definition:** "dishonest and willing to break rules for gain"
@@ -5071,10 +5075,6 @@
 - **Definition:** "to get well again after being sick or hurt"
 - **超纲词 (3):** get, being, sick
 
-### 🟡 [MAJOR] reference (L2)
-- **Definition:** "information you look at to help with something"
-- **超纲词 (3):** information, look, help
-
 ### 🟡 [MAJOR] reflect (L2)
 - **Definition:** "to show an image by bouncing back light"
 - **超纲词 (4):** show, bouncing, back, light
@@ -5120,8 +5120,8 @@
 - **超纲词 (3):** money, comes, selling
 
 ### 🟡 [MAJOR] reward (L2)
-- **Definition:** "something good given for doing something well"
-- **超纲词 (3):** good, given, doing
+- **Definition:** "a prize or good thing you get for doing something"
+- **超纲词 (3):** good, get, doing
 
 ### 🟡 [MAJOR] ruin (L2)
 - **Definition:** "to break something so badly it cannot be used"
@@ -5311,13 +5311,13 @@
 - **Definition:** "staying the same and not changing"
 - **超纲词 (3):** staying, same, changing
 
-### 🟡 [MAJOR] controversial (L2)
-- **Definition:** "causing disagreement among people"
-- **超纲词 (3):** causing, disagreement, people
-
 ### 🟡 [MAJOR] convention (L2)
 - **Definition:** "a large meeting or the usual way of doing things"
 - **超纲词 (3):** large, meeting, doing
+
+### 🟡 [MAJOR] convey (L2)
+- **Definition:** "to show or tell a message or feeling"
+- **超纲词 (3):** show, tell, feeling
 
 ### 🟡 [MAJOR] corporate (L2)
 - **Definition:** "related to a large business firm"

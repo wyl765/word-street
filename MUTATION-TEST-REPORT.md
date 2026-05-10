@@ -15,56 +15,55 @@
 
 | Mutation Type | Injected | Detected | Rate |
 |------|------|------|------|
-| factual_error | 5 | 4 | 80% |
+| factual_error | 5 | 5 | 100% |
 | banned_word | 5 | 5 | 100% |
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 4 | 80% |
+| grammar_error | 5 | 3 | 60% |
 
 ## Injected Mutations Detail
 
-- ✅ **gloat** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **abolish** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **vanish** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **displace** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ❌ **mammal** (factual_error): def changed to: "an plant that has hair and drinks milk as a baby..."
-- ✅ **proclamation** (banned_word): injected "genocide" into example
-- ✅ **misnomer** (banned_word): injected "genocide" into example
-- ✅ **idyllic** (banned_word): injected "massacre" into example
-- ✅ **stimulate** (banned_word): injected "massacre" into example
-- ✅ **juxtaposition** (banned_word): injected "torture" into example
-- ✅ **accolade** (collocation_error): bad collocation: "drink soup"
-- ✅ **havoc** (collocation_error): bad collocation: "drink soup"
-- ✅ **hen** (collocation_error): bad collocation: "eat medicine"
-- ✅ **audit** (collocation_error): bad collocation: "open the light"
-- ✅ **privilege** (collocation_error): bad collocation: "close the light"
-- ✅ **associate** (empty_field): emptied definition
-- ✅ **ubiquity** (empty_field): emptied example
-- ✅ **threshold** (empty_field): emptied definition
-- ✅ **superb** (empty_field): emptied example
-- ✅ **electrode** (empty_field): emptied example
-- ✅ **forecast** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **radius** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **cuisine** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **indignation** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **elicit** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **bitter** (grammar_error): example: "The childrens played with the bitter...."
-- ❌ **elm** (grammar_error): example: "The elm tree gave shade in the park...."
-- ✅ **middle** (grammar_error): example: "She don't like the middle...."
-- ✅ **inject** (grammar_error): example: "The nurse is goes will inject the vaccine into your arm with..."
-- ✅ **artisan** (grammar_error): example: "The artisan is goes carved beautiful wooden bowls at the mar..."
+- ✅ **kinship** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **irk** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **disclose** (factual_error): def changed to: "to reveal info that grows underground in caves..."
+- ✅ **species** (factual_error): def changed to: "a group of living things that grows underground in caves..."
+- ✅ **atavism** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **hose** (banned_word): injected "genocide" into example
+- ✅ **anthem** (banned_word): injected "genocide" into example
+- ✅ **breadth** (banned_word): injected "massacre" into example
+- ✅ **waiver** (banned_word): injected "massacre" into example
+- ✅ **patent** (banned_word): injected "autopsy" into example
+- ✅ **translucent** (collocation_error): bad collocation: "open the light"
+- ✅ **stimulus** (collocation_error): bad collocation: "big rain"
+- ✅ **adversary** (collocation_error): bad collocation: "eat medicine"
+- ✅ **dinner** (collocation_error): bad collocation: "eat medicine"
+- ✅ **discipline** (collocation_error): bad collocation: "eat medicine"
+- ✅ **exhaust** (empty_field): emptied example
+- ✅ **rude** (empty_field): emptied example
+- ✅ **censure** (empty_field): emptied definition
+- ✅ **pedantic** (empty_field): emptied example
+- ✅ **retaliate** (empty_field): emptied example
+- ✅ **capacious** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **vertebrate** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **exodus** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **monarch** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **dugout** (replace_accident): example: "The piano importants were black and white...."
+- ❌ **sufficient** (grammar_error): example: "Make sure you have sufficient water for the whole hike...."
+- ✅ **energetic** (grammar_error): example: "The childrens played with the energetic...."
+- ❌ **hazel** (grammar_error): example: "She has beautiful hazel eyes...."
+- ✅ **sort out** (grammar_error): example: "She don't like the sort out...."
+- ✅ **support** (grammar_error): example: "The childrens played with the support...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **mammal** (factual_error): def changed to: "an plant that has hair and drinks milk as a baby..."
-- **elm** (grammar_error): example: "The elm tree gave shade in the park...."
+- **sufficient** (grammar_error): example: "Make sure you have sufficient water for the whole hike...."
+- **hazel** (grammar_error): example: "She has beautiful hazel eyes...."
 
 ### Recommended Improvements
 
-- **Factual errors**: Add fact-check rules or AI-based semantic verification
 - **Grammar errors**: Expand SVA and grammar checks
 
 ---

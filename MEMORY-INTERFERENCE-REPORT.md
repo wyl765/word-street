@@ -2,9 +2,9 @@
 
 ## Summary
 - HIGH risk (3+ factors): 189
-- MEDIUM risk (2 factors): 1233
-- LOW risk (1 factor): 53978
-- Total interference pairs: 55400
+- MEDIUM risk (2 factors): 1234
+- LOW risk (1 factor): 53980
+- Total interference pairs: 55403
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -978,6 +978,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **exceed** ↔ **extend** — spelling (edit distance=2), phonetic (onset="e")
 - **[risk=2]** L2: **explicit** ↔ **exploit** — spelling (edit distance=2), phonetic (onset="e")
 - **[risk=2]** L2: **extract** ↔ **extinct** — spelling (edit distance=2), phonetic (onset="e")
+- **[risk=2]** L2: **facilitate** ↔ **simplify** — definition (Jaccard=75%)
 - **[risk=2]** L2: **impose** ↔ **import** — spelling (edit distance=2), phonetic (onset="i")
 - **[risk=2]** L2: **index** ↔ **infer** — spelling (edit distance=2), phonetic (onset="i")
 - **[risk=2]** L2: **induce** ↔ **injure** — spelling (edit distance=2), phonetic (onset="i")
@@ -9228,6 +9229,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **object** ↔ **origin** — phonetic (onset="o")
 - **[risk=1]** L2: **object** ↔ **overcome** — phonetic (onset="o")
 - **[risk=1]** L2: **object** ↔ **overlook** — phonetic (onset="o")
+- **[risk=1]** L2: **object** ↔ **qualify** — definition (Jaccard=43%)
 - **[risk=1]** L2: **object** ↔ **reject** — spelling (edit distance=2)
 - **[risk=1]** L2: **ocean** ↔ **offer** — phonetic (onset="o")
 - **[risk=1]** L2: **ocean** ↔ **opinion** — phonetic (onset="o")
@@ -10036,6 +10038,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **talent** ↔ **alert** — spelling (edit distance=2)
 - **[risk=1]** L2: **talent** ↔ **patent** — spelling (edit distance=2)
 - **[risk=1]** L2: **talent** ↔ **recommend** — definition (Jaccard=50%)
+- **[risk=1]** L2: **talent** ↔ **reward** — definition (Jaccard=43%)
 - **[risk=1]** L2: **talent** ↔ **tactic** — phonetic (onset="ta")
 - **[risk=1]** L2: **talent** ↔ **target** — phonetic (onset="ta")
 - **[risk=1]** L2: **talent** ↔ **task** — phonetic (onset="ta")
@@ -17805,6 +17808,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **benefit** ↔ **beneficial** — definition (Jaccard=50%)
 - **[risk=1]** L2: **benefit** ↔ **bedrock** — phonetic (onset="be")
 - **[risk=1]** L2: **benefit** ↔ **bestow** — phonetic (onset="be")
+- **[risk=1]** L2: **benefit** ↔ **reward** — definition (Jaccard=44%)
 - **[risk=1]** L2: **benefit** ↔ **behalf** — phonetic (onset="be")
 - **[risk=1]** L2: **benefit** ↔ **betray** — phonetic (onset="be")
 - **[risk=1]** L2: **durable** ↔ **duration** — phonetic (onset="du")
@@ -18503,6 +18507,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **capacity** ↔ **catch on** — phonetic (onset="ca")
 - **[risk=1]** L2: **capacity** ↔ **capillary** — phonetic (onset="ca")
 - **[risk=1]** L2: **capacity** ↔ **campaign** — phonetic (onset="ca")
+- **[risk=1]** L2: **clarify** ↔ **simplify** — definition (Jaccard=60%)
 - **[risk=1]** L2: **commentary** ↔ **compensate** — phonetic (onset="co")
 - **[risk=1]** L2: **commentary** ↔ **complement** — phonetic (onset="co")
 - **[risk=1]** L2: **commentary** ↔ **conceive** — phonetic (onset="co")
@@ -23641,7 +23646,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **adjust** ↔ **aware** — phonetic (onset="a")
 - **[risk=1]** L2: **adjust** ↔ **modify** — definition (Jaccard=50%)
 - **[risk=1]** L2: **adjust** ↔ **reform** — definition (Jaccard=43%)
-- **[risk=1]** L2: **adjust** ↔ **supplement** — definition (Jaccard=43%)
 - **[risk=1]** L2: **adjust** ↔ **abolish** — phonetic (onset="a")
 - **[risk=1]** L2: **adjust** ↔ **ambition** — phonetic (onset="a")
 - **[risk=1]** L2: **adjust** ↔ **ample** — phonetic (onset="a")
@@ -24235,7 +24239,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **core** ↔ **convey** — phonetic (onset="co")
 - **[risk=1]** L2: **courteous** ↔ **counsel** — phonetic (onset="cou")
 - **[risk=1]** L2: **courteous** ↔ **counterpart** — phonetic (onset="cou")
-- **[risk=1]** L2: **credit** ↔ **reward** — definition (Jaccard=43%)
 - **[risk=1]** L2: **crisis** ↔ **critical** — phonetic (onset="cri")
 - **[risk=1]** L2: **critical** ↔ **criterion** — phonetic (onset="cri")
 - **[risk=1]** L2: **debate** ↔ **decline** — phonetic (onset="de")
