@@ -1,5 +1,18 @@
 # Gemini Verify: words-level2b.js
 
+**Generated:** 2026-05-10
+**Words:** 382
+**Gates:** L9 (imageKeyword), L10 (Definition Accuracy), L11 (Polysemy/Multi-meaning), L12 (Game Compatibility)
+
+## Criteria
+
+- **L9 imageKeyword**: Is the imageKeyword searchable, unambiguous, and relevant to the target meaning? Would an image search return useful results for a kid?
+- **L10 Definition**: Is the definition factually accurate, age-appropriate, and clear?
+- **L11 Polysemy**: For words with multiple meanings, does the entry target the correct sense for the curriculum context?
+- **L12 Game Compat**: Will the word work in matching/quiz/image games? Is imageKeyword displayable and distinct?
+
+## Results
+
 | Word | L9: imageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat |
 |---|---|---|---|---|
 | moral | PASS | PASS | PASS | PASS |
@@ -384,3 +397,14 @@
 | verdant | PASS | PASS | PASS | PASS |
 | sapling | PASS | PASS | PASS | PASS |
 | topsoil | PASS | PASS | PASS | PASS |
+
+## Summary
+
+- **Total:** 382
+- **All PASS:** 382
+- **Flagged:** 0
+- **Pass Rate:** 100.0%
+
+## Verdict
+
+✅ **GATE PASSED** — All words pass L9–L12 verification.
