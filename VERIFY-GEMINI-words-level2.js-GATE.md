@@ -1,556 +1,556 @@
-# Word Street Level 2 Validation Report
+# Level 2 Word Review Report
 
-| Word | L9: Image Keyword | L10: Definition | L11: Polysemy | L12: Game Compat |
-|---|---|---|---|---|
-| **describe** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **explain** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **solve** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **complete** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **arrange** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **decide** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **suppose** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mention** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **realize** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **repeat** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **separate** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **struggle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **succeed** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **surround** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **wander** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ancient** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **modern** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **brilliant** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fragile** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **sturdy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **swift** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **anxious** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **setting** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **plot** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **paragraph** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **sentence** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fiction** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **nonfiction** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **main idea** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **detail** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cause** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **effect** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **habitat** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **insect** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mammal** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **reptile** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **liquid** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **gas** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **energy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **force** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **magnet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **soil** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **climate** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **season** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **citizen** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **government** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **law** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **rule** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **map** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **globe** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **continent** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **country** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **state** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **city** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **border** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **freedom** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **election** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **subtract** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **multiply** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **divide** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **sum** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **graph** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **chart** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **data** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **length** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **width** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **height** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **area** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **shape** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **angle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **triple** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **gradually** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **immediately** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **afterward** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **recently** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **frequently** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **rarely** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **occasionally** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **however** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **therefore** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **otherwise** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **turn into** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **look forward to** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **make up** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **point out** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **come across** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **break down** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **carry out** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **set up** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **courageous** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **honest** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **loyal** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **selfish** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **thoughtful** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **determined** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **about** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **act** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **action** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **add** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **address** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **adult** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **afraid** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **again** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **agree** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **alive** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **alone** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **also** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **always** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **any** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **appear** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **arm** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **arrive** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ask** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **asleep** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **attack** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **attempt** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **attention** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **awake** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **backpack** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **balance** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **balloon** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bare** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bargain** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **base** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **basic** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **battle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **beach** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **beam** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **because** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **become** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **beg** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **begin** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **behavior** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **believe** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **better** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bicycle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **blink** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **block** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **blossom** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bossy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bounce** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **breakfast** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **breathe** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bright** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bring** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **broad** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **build** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bundle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **butter** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cactus** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **calendar** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **camel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **camp** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **capture** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **careful** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **carpet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cart** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **carve** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ceiling** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **center** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **chance** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **change** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **choice** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **circle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **climb** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **close** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **clue** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **coast** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **comfort** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **common** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **complain** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **confuse** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **connect** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **corner** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cost** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cotton** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **course** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **crash** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **make** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **crumble** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cuddle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **custom** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cycle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **danger** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dark** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **deal** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **delay** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **delight** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **deny** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **depend** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **destroy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dig** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dinner** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **find** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **distance** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dizzy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dollar** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **donate** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **doorway** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **downstairs** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **drift** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **drown** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **earn** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **earth** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **edge** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **enter** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **escape** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **exact** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fair** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **famous** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **far** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **farm** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fence** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **field** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fill** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **finish** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fit** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **flour** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **foam** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fold** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **follow** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fork** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **friendship** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **frighten** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **front** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **frozen** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **gentleman** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **glad** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **glide** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **glitter** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **goal** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **grasp** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **greet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **grin** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **groan** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **grow** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **guard** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **guess** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **habit** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hallway** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **handful** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **harm** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **harvest** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **heal** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hidden** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hint** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **history** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **holiday** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hop** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **horizon** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hurt** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hurry** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **idea** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ignore** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **include** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **inside** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **invite** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **jacket** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **judge** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **jump** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **key** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **kind** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **knee** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **kneel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **knock** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **lantern** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **laugh** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **leaf** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **leak** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **learn** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **least** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **library** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **limit** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **listen** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **lunch** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **machine** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **magic** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **major** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **marble** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mask** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **matter** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **memory** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **message** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **minute** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mirror** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mist** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mix** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **model** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mood** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **move** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mystery** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **nature** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **near** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **neatly** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **never** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **noisy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **north** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **note** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **object** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ocean** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **offer** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **opinion** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **opposite** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **order** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **outside** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **over** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **palace** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **path** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **pause** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **picnic** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **planet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **plastic** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **playground** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **polite** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **praise** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **prepare** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **price** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **prize** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **protect** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **quiet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **quiz** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **raise** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **range** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **reach** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **recycle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **refund** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **relax** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **rescue** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **respect** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **result** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **return** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **river** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **role** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **route** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **safe** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **sail** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **save** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **scared** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **scatter** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **score** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **shade** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **shore** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **signal** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **simple** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **slippery** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **smell** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **snap** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **soak** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **special** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **store** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **strong** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **stuck** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **suggest** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **support** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **surface** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **swallow** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **sweep** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **sweet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **talent** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **taste** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **team** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **tease** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **temperature** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **tend** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **tightly** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **little** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **track** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **travel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **trick** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **trust** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **turn** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **under** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **upstairs** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **usual** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **visit** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **voice** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **vote** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **wait** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **warmth** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **warn** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **waterfall** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **weather** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **wheel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **yesterday** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **admiral** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **album** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **alley** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **amber** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **antenna** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **applause** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **apricot** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **arch** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **atlas** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **avalanche** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **badge** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bagpipe** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **balcony** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **banjo** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **banner** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **basin** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bay** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **beacon** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bead** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **beeswax** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bellows** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **binoculars** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **birch** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **biscuit** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **blacksmith** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **blaze** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **blueprint** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bluff** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bobsled** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bolt** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bonfire** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bookshelf** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bracelet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bramble** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **brass** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bridle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **broth** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bugle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bulb** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bulletin** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **bunker** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **buoy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **canal** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **canopy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **caribou** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **carousel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cartwheel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cashew** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cedar** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cellar** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **chapel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **chariot** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **chestnut** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **chisel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **chord** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cider** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **clam** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cloak** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cobblestone** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cocoon** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **comet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cork** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **corral** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cradle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **crest** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **crumb** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cuff** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **cypress** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dagger** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dandelion** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **deck** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **delta** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dinghy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dome** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **donkey** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **doorbell** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **drawbridge** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **drumstick** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **dune** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **easel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **elm** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ember** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **emerald** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **falcon** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fiddle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fig** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fjord** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **flint** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **forge** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **fresco** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **gale** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **galley** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **garnet** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **gazelle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **geyser** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **gong** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **granite** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **grapevine** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **gravel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **griddle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **grove** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **gutter** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hammock** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **harp** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hazel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hearth** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **heron** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hickory** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hilltop** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **holly** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **honeycomb** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **horseshoe** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **hourglass** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **husk** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ibis** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **igloo** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ivy** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **jade** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **javelin** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **kelp** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **kennel** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **kindle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **kingfisher** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **knapsack** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **lagoon** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **latch** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **lava** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **levee** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **lichen** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **locket** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **loom** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **lynx** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mango** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mantle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **maple** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **marsh** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mast** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **moat** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mortar** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mosaic** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **mulberry** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **muzzle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **nectar** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **nettle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **nozzle** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **nutmeg** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **oar** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **oasis** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **olive** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **ore** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **otter** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **pagoda** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **parchment** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **parsley** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **pasture** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **pebble** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **pelican** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **pendant** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **pier** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **pigment** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **carefully** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **accept** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **quite** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **rise** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **although** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **unless** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **seldom** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
-| **eventually** | ✅ Clear for 10yo | ✅ Accurate | ✅ Complete | ✅ Compatible |
+| Word | Status | Notes |
+| --- | --- | --- |
+| describe | ✅ PASS | |
+| explain | ⚠️ REVIEW | L9: imageKeyword too complex |
+| solve | ✅ PASS | |
+| complete | ✅ PASS | |
+| arrange | ✅ PASS | |
+| decide | ✅ PASS | |
+| suppose | ✅ PASS | |
+| mention | ✅ PASS | |
+| realize | ✅ PASS | |
+| repeat | ✅ PASS | |
+| separate | ⚠️ REVIEW | L9: imageKeyword too complex |
+| struggle | ✅ PASS | |
+| succeed | ✅ PASS | |
+| surround | ✅ PASS | |
+| wander | ✅ PASS | |
+| ancient | ✅ PASS | |
+| modern | ✅ PASS | |
+| brilliant | ✅ PASS | |
+| fragile | ✅ PASS | |
+| sturdy | ✅ PASS | |
+| swift | ✅ PASS | |
+| anxious | ✅ PASS | |
+| setting | ⚠️ REVIEW | L9: imageKeyword too complex |
+| plot | ✅ PASS | |
+| paragraph | ⚠️ REVIEW | L9: imageKeyword too complex |
+| sentence | ✅ PASS | |
+| fiction | ✅ PASS | |
+| nonfiction | ✅ PASS | |
+| main idea | ✅ PASS | |
+| detail | ✅ PASS | |
+| cause | ✅ PASS | |
+| effect | ✅ PASS | |
+| habitat | ✅ PASS | |
+| insect | ✅ PASS | |
+| mammal | ✅ PASS | |
+| reptile | ✅ PASS | |
+| liquid | ✅ PASS | |
+| gas | ✅ PASS | |
+| energy | ✅ PASS | |
+| force | ✅ PASS | |
+| magnet | ✅ PASS | |
+| soil | ✅ PASS | |
+| climate | ✅ PASS | |
+| season | ✅ PASS | |
+| citizen | ✅ PASS | |
+| government | ✅ PASS | |
+| law | ✅ PASS | |
+| rule | ✅ PASS | |
+| map | ✅ PASS | |
+| globe | ✅ PASS | |
+| continent | ✅ PASS | |
+| country | ✅ PASS | |
+| state | ✅ PASS | |
+| city | ✅ PASS | |
+| border | ✅ PASS | |
+| freedom | ✅ PASS | |
+| election | ✅ PASS | |
+| subtract | ✅ PASS | |
+| multiply | ✅ PASS | |
+| divide | ✅ PASS | |
+| sum | ✅ PASS | |
+| graph | ✅ PASS | |
+| chart | ✅ PASS | |
+| data | ✅ PASS | |
+| length | ✅ PASS | |
+| width | ✅ PASS | |
+| height | ✅ PASS | |
+| area | ✅ PASS | |
+| shape | ✅ PASS | |
+| angle | ✅ PASS | |
+| triple | ✅ PASS | |
+| gradually | ✅ PASS | |
+| immediately | ✅ PASS | |
+| afterward | ✅ PASS | |
+| recently | ✅ PASS | |
+| frequently | ✅ PASS | |
+| rarely | ✅ PASS | |
+| occasionally | ✅ PASS | |
+| however | ✅ PASS | |
+| therefore | ✅ PASS | |
+| otherwise | ✅ PASS | |
+| turn into | ✅ PASS | |
+| look forward to | ✅ PASS | |
+| make up | ✅ PASS | |
+| point out | ✅ PASS | |
+| come across | ✅ PASS | |
+| break down | ✅ PASS | |
+| carry out | ✅ PASS | |
+| set up | ✅ PASS | |
+| courageous | ✅ PASS | |
+| honest | ✅ PASS | |
+| loyal | ✅ PASS | |
+| selfish | ✅ PASS | |
+| thoughtful | ✅ PASS | |
+| determined | ✅ PASS | |
+| about | ✅ PASS | |
+| act | ✅ PASS | |
+| action | ✅ PASS | |
+| add | ✅ PASS | |
+| address | ✅ PASS | |
+| adult | ✅ PASS | |
+| afraid | ✅ PASS | |
+| again | ✅ PASS | |
+| agree | ✅ PASS | |
+| alive | ✅ PASS | |
+| alone | ✅ PASS | |
+| also | ✅ PASS | |
+| always | ✅ PASS | |
+| any | ✅ PASS | |
+| appear | ✅ PASS | |
+| arm | ✅ PASS | |
+| arrive | ✅ PASS | |
+| ask | ✅ PASS | |
+| asleep | ✅ PASS | |
+| attack | ✅ PASS | |
+| attempt | ✅ PASS | |
+| attention | ⚠️ REVIEW | L9: imageKeyword too complex |
+| awake | ⚠️ REVIEW | L9: imageKeyword too complex |
+| backpack | ✅ PASS | |
+| balance | ✅ PASS | |
+| balloon | ✅ PASS | |
+| bare | ✅ PASS | |
+| bargain | ✅ PASS | |
+| base | ✅ PASS | |
+| basic | ✅ PASS | |
+| battle | ✅ PASS | |
+| beach | ✅ PASS | |
+| beam | ✅ PASS | |
+| because | ✅ PASS | |
+| become | ✅ PASS | |
+| beg | ✅ PASS | |
+| begin | ✅ PASS | |
+| behavior | ⚠️ REVIEW | L9: imageKeyword too complex |
+| believe | ✅ PASS | |
+| better | ✅ PASS | |
+| bicycle | ✅ PASS | |
+| blink | ✅ PASS | |
+| block | ✅ PASS | |
+| blossom | ✅ PASS | |
+| bossy | ⚠️ REVIEW | L9: imageKeyword too complex |
+| bounce | ✅ PASS | |
+| breakfast | ✅ PASS | |
+| breathe | ✅ PASS | |
+| bright | ✅ PASS | |
+| bring | ✅ PASS | |
+| broad | ✅ PASS | |
+| build | ✅ PASS | |
+| bundle | ✅ PASS | |
+| butter | ✅ PASS | |
+| cactus | ✅ PASS | |
+| calendar | ✅ PASS | |
+| camel | ✅ PASS | |
+| camp | ✅ PASS | |
+| capture | ✅ PASS | |
+| careful | ✅ PASS | |
+| carpet | ✅ PASS | |
+| cart | ✅ PASS | |
+| carve | ✅ PASS | |
+| ceiling | ✅ PASS | |
+| center | ⚠️ REVIEW | L9: imageKeyword too complex |
+| chance | ✅ PASS | |
+| change | ✅ PASS | |
+| choice | ✅ PASS | |
+| circle | ✅ PASS | |
+| climb | ✅ PASS | |
+| close | ✅ PASS | |
+| clue | ✅ PASS | |
+| coast | ✅ PASS | |
+| comfort | ✅ PASS | |
+| common | ✅ PASS | |
+| complain | ✅ PASS | |
+| confuse | ⚠️ REVIEW | L9: imageKeyword too complex |
+| connect | ✅ PASS | |
+| corner | ✅ PASS | |
+| cost | ✅ PASS | |
+| cotton | ✅ PASS | |
+| course | ✅ PASS | |
+| crash | ✅ PASS | |
+| make | ✅ PASS | |
+| crumble | ✅ PASS | |
+| cuddle | ✅ PASS | |
+| custom | ✅ PASS | |
+| cycle | ✅ PASS | |
+| danger | ✅ PASS | |
+| dark | ✅ PASS | |
+| deal | ✅ PASS | |
+| delay | ✅ PASS | |
+| delight | ✅ PASS | |
+| deny | ✅ PASS | |
+| depend | ✅ PASS | |
+| destroy | ✅ PASS | |
+| dig | ✅ PASS | |
+| dinner | ✅ PASS | |
+| find | ⚠️ REVIEW | L9: imageKeyword too complex |
+| distance | ✅ PASS | |
+| dizzy | ✅ PASS | |
+| dollar | ✅ PASS | |
+| donate | ✅ PASS | |
+| doorway | ✅ PASS | |
+| downstairs | ⚠️ REVIEW | L9: imageKeyword too complex |
+| drift | ✅ PASS | |
+| drown | ✅ PASS | |
+| earn | ✅ PASS | |
+| earth | ✅ PASS | |
+| edge | ✅ PASS | |
+| enter | ✅ PASS | |
+| escape | ✅ PASS | |
+| exact | ✅ PASS | |
+| fair | ✅ PASS | |
+| famous | ✅ PASS | |
+| far | ✅ PASS | |
+| farm | ✅ PASS | |
+| fence | ✅ PASS | |
+| field | ✅ PASS | |
+| fill | ✅ PASS | |
+| finish | ✅ PASS | |
+| fit | ✅ PASS | |
+| flour | ✅ PASS | |
+| foam | ✅ PASS | |
+| fold | ✅ PASS | |
+| follow | ✅ PASS | |
+| fork | ✅ PASS | |
+| friendship | ✅ PASS | |
+| frighten | ✅ PASS | |
+| front | ✅ PASS | |
+| frozen | ✅ PASS | |
+| gentleman | ✅ PASS | |
+| glad | ✅ PASS | |
+| glide | ✅ PASS | |
+| glitter | ✅ PASS | |
+| goal | ✅ PASS | |
+| grasp | ✅ PASS | |
+| greet | ✅ PASS | |
+| grin | ✅ PASS | |
+| groan | ✅ PASS | |
+| grow | ✅ PASS | |
+| guard | ✅ PASS | |
+| guess | ✅ PASS | |
+| habit | ✅ PASS | |
+| hallway | ✅ PASS | |
+| handful | ✅ PASS | |
+| harm | ⚠️ REVIEW | L9: imageKeyword too complex |
+| harvest | ✅ PASS | |
+| heal | ✅ PASS | |
+| hidden | ✅ PASS | |
+| hint | ✅ PASS | |
+| history | ✅ PASS | |
+| holiday | ✅ PASS | |
+| hop | ✅ PASS | |
+| horizon | ✅ PASS | |
+| hurt | ✅ PASS | |
+| hurry | ✅ PASS | |
+| idea | ✅ PASS | |
+| ignore | ✅ PASS | |
+| include | ✅ PASS | |
+| inside | ✅ PASS | |
+| invite | ✅ PASS | |
+| jacket | ✅ PASS | |
+| judge | ✅ PASS | |
+| jump | ✅ PASS | |
+| key | ✅ PASS | |
+| kind | ⚠️ REVIEW | L9: imageKeyword too complex |
+| knee | ⚠️ REVIEW | L9: imageKeyword too complex |
+| kneel | ✅ PASS | |
+| knock | ✅ PASS | |
+| lantern | ✅ PASS | |
+| laugh | ✅ PASS | |
+| leaf | ✅ PASS | |
+| leak | ✅ PASS | |
+| learn | ✅ PASS | |
+| least | ✅ PASS | |
+| library | ✅ PASS | |
+| limit | ✅ PASS | |
+| listen | ✅ PASS | |
+| lunch | ✅ PASS | |
+| machine | ✅ PASS | |
+| magic | ✅ PASS | |
+| major | ✅ PASS | |
+| marble | ✅ PASS | |
+| mask | ✅ PASS | |
+| matter | ✅ PASS | |
+| memory | ✅ PASS | |
+| message | ✅ PASS | |
+| minute | ✅ PASS | |
+| mirror | ✅ PASS | |
+| mist | ✅ PASS | |
+| mix | ✅ PASS | |
+| model | ✅ PASS | |
+| mood | ✅ PASS | |
+| move | ✅ PASS | |
+| mystery | ✅ PASS | |
+| nature | ✅ PASS | |
+| near | ✅ PASS | |
+| neatly | ✅ PASS | |
+| never | ✅ PASS | |
+| noisy | ✅ PASS | |
+| north | ✅ PASS | |
+| note | ✅ PASS | |
+| object | ✅ PASS | |
+| ocean | ✅ PASS | |
+| offer | ✅ PASS | |
+| opinion | ✅ PASS | |
+| opposite | ✅ PASS | |
+| order | ✅ PASS | |
+| outside | ✅ PASS | |
+| over | ✅ PASS | |
+| palace | ✅ PASS | |
+| path | ✅ PASS | |
+| pause | ✅ PASS | |
+| picnic | ✅ PASS | |
+| planet | ✅ PASS | |
+| plastic | ✅ PASS | |
+| playground | ✅ PASS | |
+| polite | ⚠️ REVIEW | L9: imageKeyword too complex |
+| praise | ✅ PASS | |
+| prepare | ✅ PASS | |
+| price | ✅ PASS | |
+| prize | ✅ PASS | |
+| protect | ✅ PASS | |
+| quiet | ✅ PASS | |
+| quiz | ✅ PASS | |
+| raise | ✅ PASS | |
+| range | ✅ PASS | |
+| reach | ✅ PASS | |
+| recycle | ✅ PASS | |
+| refund | ✅ PASS | |
+| relax | ✅ PASS | |
+| rescue | ✅ PASS | |
+| respect | ✅ PASS | |
+| result | ✅ PASS | |
+| return | ✅ PASS | |
+| river | ✅ PASS | |
+| role | ✅ PASS | |
+| route | ✅ PASS | |
+| safe | ✅ PASS | |
+| sail | ✅ PASS | |
+| save | ✅ PASS | |
+| scared | ✅ PASS | |
+| scatter | ✅ PASS | |
+| score | ✅ PASS | |
+| shade | ✅ PASS | |
+| shore | ✅ PASS | |
+| signal | ✅ PASS | |
+| simple | ✅ PASS | |
+| slippery | ✅ PASS | |
+| smell | ✅ PASS | |
+| snap | ✅ PASS | |
+| soak | ✅ PASS | |
+| special | ✅ PASS | |
+| store | ✅ PASS | |
+| strong | ⚠️ REVIEW | L9: imageKeyword too complex |
+| stuck | ✅ PASS | |
+| suggest | ✅ PASS | |
+| support | ✅ PASS | |
+| surface | ✅ PASS | |
+| swallow | ✅ PASS | |
+| sweep | ✅ PASS | |
+| sweet | ✅ PASS | |
+| talent | ✅ PASS | |
+| taste | ✅ PASS | |
+| team | ✅ PASS | |
+| tease | ✅ PASS | |
+| temperature | ✅ PASS | |
+| tend | ✅ PASS | |
+| tightly | ✅ PASS | |
+| little | ✅ PASS | |
+| track | ✅ PASS | |
+| travel | ✅ PASS | |
+| trick | ✅ PASS | |
+| trust | ⚠️ REVIEW | L9: imageKeyword too complex |
+| turn | ✅ PASS | |
+| under | ✅ PASS | |
+| upstairs | ✅ PASS | |
+| usual | ✅ PASS | |
+| visit | ✅ PASS | |
+| voice | ✅ PASS | |
+| vote | ✅ PASS | |
+| wait | ✅ PASS | |
+| warmth | ✅ PASS | |
+| warn | ✅ PASS | |
+| waterfall | ✅ PASS | |
+| weather | ✅ PASS | |
+| wheel | ✅ PASS | |
+| yesterday | ✅ PASS | |
+| admiral | ✅ PASS | |
+| album | ✅ PASS | |
+| alley | ✅ PASS | |
+| amber | ✅ PASS | |
+| antenna | ✅ PASS | |
+| applause | ✅ PASS | |
+| apricot | ✅ PASS | |
+| arch | ✅ PASS | |
+| atlas | ✅ PASS | |
+| avalanche | ✅ PASS | |
+| badge | ✅ PASS | |
+| bagpipe | ✅ PASS | |
+| balcony | ✅ PASS | |
+| banjo | ✅ PASS | |
+| banner | ✅ PASS | |
+| basin | ✅ PASS | |
+| bay | ✅ PASS | |
+| beacon | ✅ PASS | |
+| bead | ✅ PASS | |
+| beeswax | ✅ PASS | |
+| bellows | ✅ PASS | |
+| binoculars | ✅ PASS | |
+| birch | ✅ PASS | |
+| biscuit | ✅ PASS | |
+| blacksmith | ✅ PASS | |
+| blaze | ✅ PASS | |
+| blueprint | ✅ PASS | |
+| bluff | ✅ PASS | |
+| bobsled | ✅ PASS | |
+| bolt | ✅ PASS | |
+| bonfire | ✅ PASS | |
+| bookshelf | ✅ PASS | |
+| bracelet | ✅ PASS | |
+| bramble | ✅ PASS | |
+| brass | ✅ PASS | |
+| bridle | ✅ PASS | |
+| broth | ✅ PASS | |
+| bugle | ✅ PASS | |
+| bulb | ✅ PASS | |
+| bulletin | ✅ PASS | |
+| bunker | ✅ PASS | |
+| buoy | ✅ PASS | |
+| canal | ✅ PASS | |
+| canopy | ✅ PASS | |
+| caribou | ✅ PASS | |
+| carousel | ✅ PASS | |
+| cartwheel | ✅ PASS | |
+| cashew | ✅ PASS | |
+| cedar | ✅ PASS | |
+| cellar | ✅ PASS | |
+| chapel | ✅ PASS | |
+| chariot | ✅ PASS | |
+| chestnut | ✅ PASS | |
+| chisel | ✅ PASS | |
+| chord | ✅ PASS | |
+| cider | ✅ PASS | |
+| clam | ✅ PASS | |
+| cloak | ✅ PASS | |
+| cobblestone | ✅ PASS | |
+| cocoon | ✅ PASS | |
+| comet | ✅ PASS | |
+| cork | ✅ PASS | |
+| corral | ✅ PASS | |
+| cradle | ✅ PASS | |
+| crest | ✅ PASS | |
+| crumb | ✅ PASS | |
+| cuff | ✅ PASS | |
+| cypress | ✅ PASS | |
+| dagger | ✅ PASS | |
+| dandelion | ✅ PASS | |
+| deck | ✅ PASS | |
+| delta | ✅ PASS | |
+| dinghy | ✅ PASS | |
+| dome | ✅ PASS | |
+| donkey | ✅ PASS | |
+| doorbell | ✅ PASS | |
+| drawbridge | ✅ PASS | |
+| drumstick | ✅ PASS | |
+| dune | ✅ PASS | |
+| easel | ✅ PASS | |
+| elm | ✅ PASS | |
+| ember | ✅ PASS | |
+| emerald | ✅ PASS | |
+| falcon | ✅ PASS | |
+| fiddle | ✅ PASS | |
+| fig | ✅ PASS | |
+| fjord | ✅ PASS | |
+| flint | ✅ PASS | |
+| forge | ✅ PASS | |
+| fresco | ✅ PASS | |
+| gale | ✅ PASS | |
+| galley | ✅ PASS | |
+| garnet | ✅ PASS | |
+| gazelle | ✅ PASS | |
+| geyser | ✅ PASS | |
+| gong | ✅ PASS | |
+| granite | ✅ PASS | |
+| grapevine | ✅ PASS | |
+| gravel | ✅ PASS | |
+| griddle | ✅ PASS | |
+| grove | ✅ PASS | |
+| gutter | ✅ PASS | |
+| hammock | ✅ PASS | |
+| harp | ✅ PASS | |
+| hazel | ✅ PASS | |
+| hearth | ✅ PASS | |
+| heron | ✅ PASS | |
+| hickory | ✅ PASS | |
+| hilltop | ✅ PASS | |
+| holly | ✅ PASS | |
+| honeycomb | ✅ PASS | |
+| horseshoe | ✅ PASS | |
+| hourglass | ✅ PASS | |
+| husk | ✅ PASS | |
+| ibis | ✅ PASS | |
+| igloo | ✅ PASS | |
+| ivy | ✅ PASS | |
+| jade | ✅ PASS | |
+| javelin | ✅ PASS | |
+| kelp | ✅ PASS | |
+| kennel | ✅ PASS | |
+| kindle | ✅ PASS | |
+| kingfisher | ✅ PASS | |
+| knapsack | ✅ PASS | |
+| lagoon | ✅ PASS | |
+| latch | ✅ PASS | |
+| lava | ✅ PASS | |
+| levee | ✅ PASS | |
+| lichen | ✅ PASS | |
+| locket | ✅ PASS | |
+| loom | ✅ PASS | |
+| lynx | ✅ PASS | |
+| mango | ✅ PASS | |
+| mantle | ✅ PASS | |
+| maple | ✅ PASS | |
+| marsh | ✅ PASS | |
+| mast | ✅ PASS | |
+| moat | ✅ PASS | |
+| mortar | ✅ PASS | |
+| mosaic | ✅ PASS | |
+| mulberry | ✅ PASS | |
+| muzzle | ✅ PASS | |
+| nectar | ✅ PASS | |
+| nettle | ✅ PASS | |
+| nozzle | ✅ PASS | |
+| nutmeg | ✅ PASS | |
+| oar | ✅ PASS | |
+| oasis | ✅ PASS | |
+| olive | ✅ PASS | |
+| ore | ✅ PASS | |
+| otter | ✅ PASS | |
+| pagoda | ✅ PASS | |
+| parchment | ✅ PASS | |
+| parsley | ✅ PASS | |
+| pasture | ✅ PASS | |
+| pebble | ✅ PASS | |
+| pelican | ✅ PASS | |
+| pendant | ✅ PASS | |
+| pier | ✅ PASS | |
+| pigment | ✅ PASS | |
+| carefully | ✅ PASS | |
+| accept | ⚠️ REVIEW | L9: imageKeyword too complex |
+| quite | ⚠️ REVIEW | L9: imageKeyword too complex |
+| rise | ✅ PASS | |
+| although | ✅ PASS | |
+| unless | ⚠️ REVIEW | L9: imageKeyword too complex |
+| seldom | ✅ PASS | |
+| eventually | ⚠️ REVIEW | L9: imageKeyword too complex |
