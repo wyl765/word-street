@@ -17,7 +17,7 @@
 | allude | Pass: "hinting whisper" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
 | ambassador | Pass: "diplomat flag" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
 | ambiguity | Pass: "confusing directions" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
-| ammunition | Pass: "bullets supply" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ammunition | Pass: "military supply" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
 | anatomy | Pass: "body diagram" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
 | animation | Pass: "cartoon frames" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
 | annotate | Pass: "notes margin" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
