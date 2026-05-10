@@ -2,8 +2,8 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 423
-- MAJOR (≥3 超纲词 in definition): 2150
+- CRITICAL (≥5 超纲词 in definition): 426
+- MAJOR (≥3 超纲词 in definition): 2147
 
 ## Issues
 
@@ -640,8 +640,12 @@
 - **超纲词 (5):** plants, use, sunlight, own, food
 
 ### 🔴 [CRITICAL] pollination (L3)
-- **Definition:** "when pollen moves from one flower to another to make seeds"
-- **超纲词 (5):** pollen, moves, one, flower, seeds
+- **Definition:** "the movement of pollen from one flower to another so seeds can form"
+- **超纲词 (5):** movement, pollen, one, flower, seeds
+
+### 🔴 [CRITICAL] migration (L3)
+- **Definition:** "the long trip animals make to find food or warmer weather"
+- **超纲词 (5):** long, trip, animals, food, warmer
 
 ### 🔴 [CRITICAL] pollution (L3)
 - **Definition:** "harmful things that make air, water, or land dirty"
@@ -660,8 +664,8 @@
 - **超纲词 (6):** shaking, ground, caused, rocks, moving, underground
 
 ### 🔴 [CRITICAL] weathering (L3)
-- **Definition:** "when rocks break down from wind, water, or ice over time"
-- **超纲词 (6):** rocks, break, wind, water, ice, time
+- **Definition:** "the process of rocks breaking down because of wind, water, or ice over time"
+- **超纲词 (6):** rocks, breaking, wind, water, ice, time
 
 ### 🔴 [CRITICAL] sediment (L3)
 - **Definition:** "tiny bits of rock, sand, or dirt that settle at the bottom of water"
@@ -695,6 +699,10 @@
 - **Definition:** "work that people do for others, like teaching or fixing things"
 - **超纲词 (5):** work, people, others, teaching, fixing
 
+### 🔴 [CRITICAL] symmetry (L3)
+- **Definition:** "the quality of having two sides that look the same"
+- **超纲词 (6):** quality, having, two, sides, look, same
+
 ### 🔴 [CRITICAL] vertex (L3)
 - **Definition:** "the point where two lines or edges meet"
 - **超纲词 (5):** point, two, lines, edges, meet
@@ -722,6 +730,10 @@
 ### 🔴 [CRITICAL] barking up the wrong tree (L3)
 - **Definition:** "looking for something in the wrong place or blaming the wrong person"
 - **超纲词 (5):** looking, wrong, place, blaming, person
+
+### 🔴 [CRITICAL] a taste of your own medicine (L3)
+- **Definition:** "being treated the same bad way you treated others"
+- **超纲词 (5):** being, treated, same, bad, others
 
 ### 🔴 [CRITICAL] for example (L3)
 - **Definition:** "used to give one case that explains your point"
@@ -5584,8 +5596,8 @@
 - **超纲词 (3):** buildings, soldiers, live
 
 ### 🟡 [MAJOR] bastion (L3)
-- **Definition:** "a strong place that defends or protects something"
-- **超纲词 (3):** place, defends, protects
+- **Definition:** "strong place that protects something important"
+- **超纲词 (3):** place, protects, important
 
 ### 🟡 [MAJOR] batter (L3)
 - **Definition:** "a mixture of flour, eggs, and milk used for cooking"
@@ -5652,11 +5664,11 @@
 - **超纲词 (3):** partner, king, queen
 
 ### 🟡 [MAJOR] convoy (L3)
-- **Definition:** "a group of cars going together for safety"
-- **超纲词 (4):** group, cars, going, safety
+- **Definition:** "a group of vehicles traveling together for safety"
+- **超纲词 (4):** group, vehicles, traveling, safety
 
 ### 🟡 [MAJOR] cornet (L3)
-- **Definition:** "a small brass instrument like a trumpet"
+- **Definition:** "a small brass instrument similar to a trumpet"
 - **超纲词 (3):** small, instrument, trumpet
 
 ### 🟡 [MAJOR] corona (L3)
@@ -5740,12 +5752,12 @@
 - **超纲词 (3):** living, plant, animal
 
 ### 🟡 [MAJOR] evaporation (L3)
-- **Definition:** "when water turns into gas and goes into the air"
-- **超纲词 (4):** water, turns, goes, air
+- **Definition:** "the process of water turning into gas and going into the air"
+- **超纲词 (4):** water, turning, going, air
 
 ### 🟡 [MAJOR] condensation (L3)
-- **Definition:** "when water vapor turns back into liquid drops"
-- **超纲词 (4):** water, turns, back, drops
+- **Definition:** "the process of water vapor turning back into liquid drops"
+- **超纲词 (4):** water, turning, back, drops
 
 ### 🟡 [MAJOR] nutrient (L3)
 - **Definition:** "something in food or soil that helps living things grow"
@@ -5762,10 +5774,6 @@
 ### 🟡 [MAJOR] camouflage (L3)
 - **Definition:** "colors or patterns that help an animal hide"
 - **超纲词 (4):** colors, patterns, help, animal
-
-### 🟡 [MAJOR] migration (L3)
-- **Definition:** "when animals travel a long way to find food or warmth"
-- **超纲词 (3):** animals, long, food
 
 ### 🟡 [MAJOR] hibernation (L3)
 - **Definition:** "a deep sleep some animals take during winter"
@@ -5863,10 +5871,6 @@
 - **Definition:** "objects arranged in equal rows and columns"
 - **超纲词 (4):** objects, arranged, rows, columns
 
-### 🟡 [MAJOR] symmetry (L3)
-- **Definition:** "when both sides of something look exactly the same"
-- **超纲词 (4):** both, sides, look, same
-
 ### 🟡 [MAJOR] parallel (L3)
 - **Definition:** "lines that go the same way and never touch"
 - **超纲词 (4):** lines, go, same, touch
@@ -5934,10 +5938,6 @@
 ### 🟡 [MAJOR] practice makes perfect (L3)
 - **Definition:** "doing something many times helps you get better at it"
 - **超纲词 (4):** doing, times, helps, get
-
-### 🟡 [MAJOR] a taste of your own medicine (L3)
-- **Definition:** "when someone is treated the same bad way they treated others"
-- **超纲词 (4):** treated, same, bad, others
 
 ### 🟡 [MAJOR] burn the midnight oil (L3)
 - **Definition:** "to stay up very late working or studying"

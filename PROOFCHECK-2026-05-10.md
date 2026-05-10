@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 192 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 182 MINOR
 
 ## Issues
 
@@ -284,38 +284,6 @@ Definition starts with "when": "when liquid turns into a gas..."
 
 ### [MINOR] words-level2b.js — "greenhouse effect" (WHEN_DEFINITION)
 Definition starts with "when": "when gases trap heat around the Earth..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3b.js — "evaporation" (WHEN_DEFINITION)
-Definition starts with "when": "when water turns into gas and goes into the air..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3b.js — "condensation" (WHEN_DEFINITION)
-Definition starts with "when": "when water vapor turns back into liquid drops..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3b.js — "pollination" (WHEN_DEFINITION)
-Definition starts with "when": "when pollen moves from one flower to another to make seeds..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3b.js — "migration" (WHEN_DEFINITION)
-Definition starts with "when": "when animals travel a long way to find food or warmth..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3b.js — "weathering" (WHEN_DEFINITION)
-Definition starts with "when": "when rocks break down from wind, water, or ice over time..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3b.js — "symmetry" (WHEN_DEFINITION)
-Definition starts with "when": "when both sides of something look exactly the same..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3b.js — "a taste of your own medicine" (WHEN_DEFINITION)
-Definition starts with "when": "when someone is treated the same bad way they treated others..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level3c.js — "scarcity" (WHEN_DEFINITION)
-Definition starts with "when": "when there is not enough of something that people need..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
 ### [MINOR] words-level1.js — "pretzel" (SAME_LEVEL_DEF_REF)
@@ -690,16 +658,8 @@ imageKeyword "pool edge" may return brand/product images instead of the intended
 imageKeyword "water surface" may return brand/product images instead of the intended meaning
 **Fix:** Add descriptive context to disambiguate from brand names
 
-### [MINOR] words-level3b.js — "prime" (BRAND_IMAGE_COLLISION)
-imageKeyword "prime number" may return brand/product images instead of the intended meaning
-**Fix:** Add descriptive context to disambiguate from brand names
-
 ### [MINOR] words-level2.js — "bugle" (MILITARY_CONTEXT)
 Example contains military context: "soldier"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level3b.js — "monument" (MILITARY_CONTEXT)
-Example contains military context: "soldiers"
 **Fix:** Consider replacing with a neutral/civilian context
 
 ### [MINOR] words-level3c.js — "homage" (MILITARY_CONTEXT)

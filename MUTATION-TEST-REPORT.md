@@ -15,55 +15,56 @@
 
 | Mutation Type | Injected | Detected | Rate |
 |------|------|------|------|
-| factual_error | 5 | 5 | 100% |
+| factual_error | 5 | 4 | 80% |
 | banned_word | 5 | 5 | 100% |
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 3 | 60% |
+| grammar_error | 5 | 4 | 80% |
 
 ## Injected Mutations Detail
 
-- ✅ **kinship** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **irk** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **disclose** (factual_error): def changed to: "to reveal info that grows underground in caves..."
-- ✅ **species** (factual_error): def changed to: "a group of living things that grows underground in caves..."
-- ✅ **atavism** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **hose** (banned_word): injected "genocide" into example
-- ✅ **anthem** (banned_word): injected "genocide" into example
-- ✅ **breadth** (banned_word): injected "massacre" into example
-- ✅ **waiver** (banned_word): injected "massacre" into example
-- ✅ **patent** (banned_word): injected "autopsy" into example
-- ✅ **translucent** (collocation_error): bad collocation: "open the light"
-- ✅ **stimulus** (collocation_error): bad collocation: "big rain"
-- ✅ **adversary** (collocation_error): bad collocation: "eat medicine"
-- ✅ **dinner** (collocation_error): bad collocation: "eat medicine"
-- ✅ **discipline** (collocation_error): bad collocation: "eat medicine"
-- ✅ **exhaust** (empty_field): emptied example
-- ✅ **rude** (empty_field): emptied example
-- ✅ **censure** (empty_field): emptied definition
-- ✅ **pedantic** (empty_field): emptied example
-- ✅ **retaliate** (empty_field): emptied example
-- ✅ **capacious** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **vertebrate** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **exodus** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **monarch** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **dugout** (replace_accident): example: "The piano importants were black and white...."
-- ❌ **sufficient** (grammar_error): example: "Make sure you have sufficient water for the whole hike...."
-- ✅ **energetic** (grammar_error): example: "The childrens played with the energetic...."
-- ❌ **hazel** (grammar_error): example: "She has beautiful hazel eyes...."
-- ✅ **sort out** (grammar_error): example: "She don't like the sort out...."
-- ✅ **support** (grammar_error): example: "The childrens played with the support...."
+- ✅ **accelerate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **out of the blue** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ❌ **kingfisher** (factual_error): def changed to: "a brightly colored plant that dives for fish..."
+- ✅ **surface** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **reconcile** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **normal** (banned_word): injected "genocide" into example
+- ✅ **curfew** (banned_word): injected "pornography" into example
+- ✅ **extrapolation** (banned_word): injected "autopsy" into example
+- ✅ **carefully** (banned_word): injected "genocide" into example
+- ✅ **life cycle** (banned_word): injected "autopsy" into example
+- ✅ **suburban** (collocation_error): bad collocation: "open the light"
+- ✅ **inhibit** (collocation_error): bad collocation: "big rain"
+- ✅ **look forward to** (collocation_error): bad collocation: "open the light"
+- ✅ **intervene** (collocation_error): bad collocation: "big rain"
+- ✅ **bunker** (collocation_error): bad collocation: "drink soup"
+- ✅ **commode** (empty_field): emptied example
+- ✅ **atoll** (empty_field): emptied example
+- ✅ **imagination** (empty_field): emptied definition
+- ✅ **embody** (empty_field): emptied definition
+- ✅ **meadow** (empty_field): emptied example
+- ✅ **embark** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **skeleton** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **dearth** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **enthusiastic** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **cursory** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **cloak** (grammar_error): example: "The wizard is goes wore a dark cloak...."
+- ✅ **tribunal** (grammar_error): example: "She don't like the tribunal...."
+- ✅ **sentence** (grammar_error): example: "She don't like the sentence...."
+- ✅ **nonrenewable** (grammar_error): example: "She don't like the nonrenewable...."
+- ❌ **brain** (grammar_error): example: "Your brain helps you think, remember, and move your body...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **sufficient** (grammar_error): example: "Make sure you have sufficient water for the whole hike...."
-- **hazel** (grammar_error): example: "She has beautiful hazel eyes...."
+- **kingfisher** (factual_error): def changed to: "a brightly colored plant that dives for fish..."
+- **brain** (grammar_error): example: "Your brain helps you think, remember, and move your body...."
 
 ### Recommended Improvements
 
+- **Factual errors**: Add fact-check rules or AI-based semantic verification
 - **Grammar errors**: Expand SVA and grammar checks
 
 ---

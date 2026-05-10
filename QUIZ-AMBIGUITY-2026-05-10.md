@@ -12630,6 +12630,10 @@
 - bane: something that causes great trouble or misery
 - in hot water: in trouble
 
+## L3: "bastion" vs "emphasize" (60%)
+- bastion: strong place that protects something important
+- emphasize: to show that something is extra important
+
 ## L3: "blazon" vs "specimen" (67%)
 - blazon: to display something boldly
 - specimen: one example of something used to study or display
@@ -12699,8 +12703,8 @@
 - gulp: to swallow something quickly or to swallow nervously
 
 ## L3: "evaporation" vs "condensation" (80%)
-- evaporation: when water turns into gas and goes into the air
-- condensation: when water vapor turns back into liquid drops
+- evaporation: the process of water turning into gas and going into the air
+- condensation: the process of water vapor turning back into liquid drops
 
 ## L3: "atmosphere" vs "geothermal" (67%)
 - atmosphere: the air that surrounds the Earth
@@ -12756,10 +12760,6 @@
 
 ## L3: "decompose" vs "hatch" (100%)
 - decompose: to break down into smaller pieces and rot
-- hatch: to break out of an egg
-
-## L3: "weathering" vs "hatch" (100%)
-- weathering: when rocks break down from wind, water, or ice over time
 - hatch: to break out of an egg
 
 ## L3: "peninsula" vs "inlet" (60%)
