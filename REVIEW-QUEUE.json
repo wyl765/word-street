@@ -32,9 +32,10 @@
     },
     {
       "file": "words-level2c.js",
-      "words": 100,
-      "status": "pending",
-      "lastReviewRound": null
+      "words": 219,
+      "status": "done",
+      "lastReviewRound": 1,
+      "lastReviewDate": "2026-05-10"
     },
     {
       "file": "words-level2d.js",

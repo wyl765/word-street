@@ -2,9 +2,9 @@
 
 ## Summary
 - HIGH risk (3+ factors): 188
-- MEDIUM risk (2 factors): 1233
-- LOW risk (1 factor): 53980
-- Total interference pairs: 55401
+- MEDIUM risk (2 factors): 1234
+- LOW risk (1 factor): 53976
+- Total interference pairs: 55398
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -1034,6 +1034,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **considerate** ↔ **considerable** — spelling (edit distance=2), phonetic (onset="co")
 - **[risk=2]** L2: **catch up** ↔ **catch on** — spelling (edit distance=2), phonetic (onset="ca")
 - **[risk=2]** L2: **cut off** ↔ **put off** — spelling (edit distance=1)
+- **[risk=2]** L2: **end up** ↔ **wind up** — spelling (edit distance=2), definition (Jaccard=50%)
 - **[risk=2]** L2: **hang out** ↔ **bang out** — spelling (edit distance=1)
 - **[risk=2]** L2: **wrap up** ↔ **in conclusion** — definition (Jaccard=67%)
 - **[risk=2]** L2: **as a result** ↔ **due to** — definition (Jaccard=100%)
@@ -3195,7 +3196,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **complete** ↔ **column** — phonetic (onset="co")
 - **[risk=1]** L2: **complete** ↔ **confident** — phonetic (onset="co")
 - **[risk=1]** L2: **complete** ↔ **come along** — phonetic (onset="co")
-- **[risk=1]** L2: **complete** ↔ **use up** — definition (Jaccard=50%)
 - **[risk=1]** L2: **complete** ↔ **on the whole** — definition (Jaccard=50%)
 - **[risk=1]** L2: **complete** ↔ **commute** — phonetic (onset="co")
 - **[risk=1]** L2: **complete** ↔ **compost** — phonetic (onset="co")
@@ -16870,7 +16870,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **accomplish** ↔ **addition** — phonetic (onset="a")
 - **[risk=1]** L2: **accomplish** ↔ **adventurous** — phonetic (onset="a")
 - **[risk=1]** L2: **accomplish** ↔ **ambitious** — phonetic (onset="a")
-- **[risk=1]** L2: **accomplish** ↔ **use up** — definition (Jaccard=50%)
 - **[risk=1]** L2: **accomplish** ↔ **accordingly** — phonetic (onset="a")
 - **[risk=1]** L2: **accomplish** ↔ **additionally** — phonetic (onset="a")
 - **[risk=1]** L2: **accomplish** ↔ **after all** — phonetic (onset="a")
@@ -17052,7 +17051,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **celebration** ↔ **certainly** — phonetic (onset="ce")
 - **[risk=1]** L2: **celebration** ↔ **cellulose** — phonetic (onset="ce")
 - **[risk=1]** L2: **celebration** ↔ **cell membrane** — phonetic (onset="ce")
-- **[risk=1]** L2: **challenge** ↔ **go through** — definition (Jaccard=50%)
 - **[risk=1]** L2: **challenge** ↔ **champion** — phonetic (onset="cha")
 - **[risk=1]** L2: **challenge** ↔ **overcome** — definition (Jaccard=50%)
 - **[risk=1]** L2: **equipment** ↔ **entirely** — phonetic (onset="e")
@@ -21994,7 +21992,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **end up** ↔ **exterior** — phonetic (onset="e")
 - **[risk=1]** L2: **end up** ↔ **add up** — spelling (edit distance=2)
 - **[risk=1]** L2: **end up** ↔ **extinct** — phonetic (onset="e")
-- **[risk=1]** L2: **end up** ↔ **wind up** — spelling (edit distance=2)
 - **[risk=1]** L2: **end up** ↔ **eddy** — phonetic (onset="e")
 - **[risk=1]** L2: **end up** ↔ **engulf** — phonetic (onset="e")
 - **[risk=1]** L2: **end up** ↔ **edible** — phonetic (onset="e")

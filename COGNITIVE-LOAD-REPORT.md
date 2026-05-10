@@ -4227,6 +4227,10 @@
 - **Definition:** "the group of people who make laws for the country"
 - **超纲词 (3):** group, people, laws
 
+### 🟡 [MAJOR] tax (L2)
+- **Definition:** "money people pay to the government"
+- **超纲词 (3):** money, people, pay
+
 ### 🟡 [MAJOR] budget (L2)
 - **Definition:** "a plan for how to spend money"
 - **超纲词 (3):** plan, spend, money
@@ -4358,10 +4362,6 @@
 ### 🟡 [MAJOR] catch up (L2)
 - **Definition:** "to reach the same place as someone ahead of you"
 - **超纲词 (3):** same, place, ahead
-
-### 🟡 [MAJOR] end up (L2)
-- **Definition:** "to at last be in a place or case"
-- **超纲词 (3):** last, place, case
 
 ### 🟡 [MAJOR] fall apart (L2)
 - **Definition:** "to fall to bits or break down over time"
@@ -4496,8 +4496,8 @@
 - **超纲词 (4):** give, one, person, group
 
 ### 🟡 [MAJOR] make out (L2)
-- **Definition:** "to see or get something with trouble"
-- **超纲词 (3):** see, get, trouble
+- **Definition:** "to see or understand something with difficulty"
+- **超纲词 (3):** see, understand, difficulty
 
 ### 🟡 [MAJOR] migratory (L2)
 - **Definition:** "moving from one place to another with the seasons"

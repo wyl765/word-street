@@ -1,7 +1,7 @@
 # Prototype Effect Report — 2026-05-10
 
 ## Summary
-- Total issues: 35
+- Total issues: 34
 
 ## Issues
 
@@ -33,7 +33,6 @@
 - **virus** (L2): "sick" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **disease** (L2): "sickness" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **symptom** (L2): "cough" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
-- **especially** (L2): "child pointing excitedly at one specific ice cream flavor" — imageKeyword too verbose (9 words)
 - **baroque** (L3): "baroque palace" — imageKeyword contains obscure modifier "baroque"
 - **brooch** (L3): "decorative pin" — imageKeyword contains obscure modifier "decorative"
 - **invertebrate** (L3): "jellyfish" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)

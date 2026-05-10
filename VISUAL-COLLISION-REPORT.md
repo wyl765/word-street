@@ -2,7 +2,7 @@
 
 ## Summary
 - CRITICAL (identical imageKeyword): 0
-- MAJOR (containment): 532
+- MAJOR (containment): 527
 - MINOR (≥50% word overlap): 49
 
 ## Issues
@@ -240,7 +240,6 @@
 - **[MAJOR]** L2: **careful** ↔ **cut off** — "scissors" vs "cutting paper with scissors" (one contains the other)
 - **[MAJOR]** L2: **cart** ↔ **hop** — "shopping cart" vs "hop" (one contains the other)
 - **[MAJOR]** L2: **circle** ↔ **annual** — "circle" vs "calendar year circled" (one contains the other)
-- **[MAJOR]** L2: **circle** ↔ **at the same time** — "circle" vs "friends holding hands circle" (one contains the other)
 - **[MAJOR]** L2: **circle** ↔ **proportion** — "circle" vs "fraction parts circle" (one contains the other)
 - **[MAJOR]** L2: **climb** ↔ **playground** — "playground ladder" vs "playground" (one contains the other)
 - **[MAJOR]** L2: **comfort** ↔ **hug** — "hug" vs "hugging people" (one contains the other)
@@ -278,7 +277,6 @@
 - **[MAJOR]** L2: **follow** ↔ **offspring** — "ducklings" vs "offspring ducklings" (one contains the other)
 - **[MAJOR]** L2: **friendship** ↔ **forgiving** — "friends" vs "friends making up handshake" (one contains the other)
 - **[MAJOR]** L2: **friendship** ↔ **hang out** — "friends" vs "friends relaxing" (one contains the other)
-- **[MAJOR]** L2: **friendship** ↔ **at the same time** — "friends" vs "friends holding hands circle" (one contains the other)
 - **[MAJOR]** L2: **goal** ↔ **learn** — "reading goal" vs "reading" (one contains the other)
 - **[MAJOR]** L2: **greet** ↔ **friendly** — "hello" vs "waving hello" (one contains the other)
 - **[MAJOR]** L2: **handful** ↔ **smell** — "popcorn" vs "child sniffing popcorn" (one contains the other)
@@ -288,7 +286,6 @@
 - **[MAJOR]** L2: **hint** ↔ **knee** — "pointing" vs "leg with arrow pointing to knee" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **compass** — "pointing" vs "compass needle pointing" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **move on** — "pointing" vs "arrow pointing forward" (one contains the other)
-- **[MAJOR]** L2: **hint** ↔ **especially** — "pointing" vs "child pointing excitedly at one specific ice cream flavor" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **namely** — "pointing" vs "pointing at one item" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **blame** — "pointing" vs "pointing finger" (one contains the other)
 - **[MAJOR]** L2: **hint** ↔ **indicate** — "pointing" vs "arrow pointing" (one contains the other)
@@ -347,7 +344,6 @@
 - **[MAJOR]** L2: **object** ↔ **round** — "ball" vs "round ball" (one contains the other)
 - **[MAJOR]** L2: **object** ↔ **expand** — "ball" vs "expanding balloon" (one contains the other)
 - **[MAJOR]** L2: **object** ↔ **fate** — "ball" vs "crystal ball" (one contains the other)
-- **[MAJOR]** L2: **opinion** ↔ **especially** — "ice cream" vs "child pointing excitedly at one specific ice cream flavor" (one contains the other)
 - **[MAJOR]** L2: **order** ↔ **slippery** — "steps" vs "icy steps" (one contains the other)
 - **[MAJOR]** L2: **order** ↔ **logic** — "steps" vs "thinking steps" (one contains the other)
 - **[MAJOR]** L2: **order** ↔ **process** — "steps" vs "bread steps" (one contains the other)
@@ -484,7 +480,6 @@
 - **[MAJOR]** L2: **energetic** ↔ **catch up** — "running" vs "running after" (one contains the other)
 - **[MAJOR]** L2: **energetic** ↔ **forbid** — "running" vs "no running sign" (one contains the other)
 - **[MAJOR]** L2: **energetic** ↔ **pace** — "running" vs "running speed" (one contains the other)
-- **[MAJOR]** L2: **enthusiastic** ↔ **especially** — "excited" vs "child pointing excitedly at one specific ice cream flavor" (one contains the other)
 - **[MAJOR]** L2: **respectful** ↔ **courteous** — "polite" vs "polite greeting bow" (one contains the other)
 - **[MAJOR]** L2: **respectful** ↔ **decline** — "polite" vs "polite no" (one contains the other)
 - **[MAJOR]** L2: **check out** ↔ **aware** — "looking" vs "looking around" (one contains the other)

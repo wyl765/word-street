@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3691 ambiguous pairs found.
+3679 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -2978,10 +2978,6 @@
 - mystery: something hard to explain
 - dispose: to get rid of something
 
-## L2: "mystery" vs "go through" (67%)
-- mystery: something hard to explain
-- go through: to feel something, mainly something hard
-
 ## L2: "mystery" vs "achieve" (67%)
 - mystery: something hard to explain
 - achieve: to finish something you worked hard for
@@ -3410,10 +3406,6 @@
 - bagpipe: something you blow into to make music, with pipes and a bag
 - bring about: to make something happen
 
-## L2: "bagpipe" vs "make out" (67%)
-- bagpipe: something you blow into to make music, with pipes and a bag
-- make out: to see or get something with trouble
-
 ## L2: "bagpipe" vs "leave behind" (67%)
 - bagpipe: something you blow into to make music, with pipes and a bag
 - leave behind: to not bring something with you
@@ -3749,10 +3741,6 @@
 ## L2: "consider" vs "keep in mind" (75%)
 - consider: to think with care about something
 - keep in mind: to recall or think about something
-
-## L2: "consider" vs "make out" (67%)
-- consider: to think with care about something
-- make out: to see or get something with trouble
 
 ## L2: "consider" vs "leave behind" (67%)
 - consider: to think with care about something
@@ -4185,10 +4173,6 @@
 ## L2: "gaze" vs "check out" (67%)
 - gaze: to look at something quietly with wonder or interest
 - check out: to look at something interesting
-
-## L2: "gaze" vs "make out" (67%)
-- gaze: to look at something quietly with wonder or interest
-- make out: to see or get something with trouble
 
 ## L2: "gaze" vs "leave behind" (67%)
 - gaze: to look at something quietly with wonder or interest
@@ -5482,10 +5466,6 @@
 - effort: trying hard to do something
 - dispose: to get rid of something
 
-## L2: "effort" vs "go through" (67%)
-- effort: trying hard to do something
-- go through: to feel something, mainly something hard
-
 ## L2: "effort" vs "achieve" (67%)
 - effort: trying hard to do something
 - achieve: to finish something you worked hard for
@@ -5982,10 +5962,6 @@
 - accomplish: to finish something well
 - dispose: to get rid of something
 
-## L2: "accomplish" vs "use up" (100%)
-- accomplish: to finish something well
-- use up: to finish all something
-
 ## L2: "accomplish" vs "in conclusion" (100%)
 - accomplish: to finish something well
 - in conclusion: to finish up; at the end
@@ -6205,10 +6181,6 @@
 ## L2: "challenge" vs "resource" (67%)
 - challenge: something that is hard to do
 - resource: something useful that people need, like water or wood
-
-## L2: "challenge" vs "go through" (67%)
-- challenge: something that is hard to do
-- go through: to feel something, mainly something hard
 
 ## L2: "challenge" vs "make sure" (67%)
 - challenge: something that is hard to do
@@ -7125,10 +7097,6 @@
 ## L2: "complement" vs "accessory" (67%)
 - complement: something that goes well with another thing
 - accessory: an extra item that goes with something
-
-## L2: "complement" vs "make out" (67%)
-- complement: something that goes well with another thing
-- make out: to see or get something with trouble
 
 ## L2: "complement" vs "put up with" (60%)
 - complement: something that goes well with another thing
@@ -8258,10 +8226,6 @@
 - protest: when people show they disagree with something
 - boycott: to refuse to buy or use something to show you disagree
 
-## L2: "protest" vs "make out" (67%)
-- protest: when people show they disagree with something
-- make out: to see or get something with trouble
-
 ## L2: "protest" vs "leave behind" (67%)
 - protest: when people show they disagree with something
 - leave behind: to not bring something with you
@@ -8570,6 +8534,10 @@
 - drop off: to leave something or someone at a place
 - compel: to force someone to do something
 
+## L2: "end up" vs "wind up" (100%)
+- end up: to finally be in a place or situation
+- wind up: to end up in a place or situation
+
 ## L2: "get along" vs "inspire" (67%)
 - get along: to be friendly with someone
 - inspire: to fill someone with excitement to do something great
@@ -8619,12 +8587,16 @@
 - retain: to keep or hold on to something
 
 ## L2: "go through" vs "purchase" (100%)
-- go through: to feel something, mainly something hard
+- go through: to experience something, especially something difficult
 - purchase: to buy something
 
 ## L2: "go through" vs "refuse" (100%)
-- go through: to feel something, mainly something hard
+- go through: to experience something, especially something difficult
 - refuse: to say no and not do something
+
+## L2: "go through" vs "undergo" (67%)
+- go through: to experience something, especially something difficult
+- undergo: to experience or go through something
 
 ## L2: "knock down" vs "turn down" (67%)
 - knock down: to make something fall over
@@ -9134,6 +9106,18 @@
 - turn down: to make something quieter
 - constitute: to make up or form something
 
+## L2: "use up" vs "polish" (67%)
+- use up: to use all of something until none is left
+- polish: to rub something until it shines
+
+## L2: "use up" vs "purchase" (100%)
+- use up: to use all of something until none is left
+- purchase: to buy something
+
+## L2: "use up" vs "refuse" (100%)
+- use up: to use all of something until none is left
+- refuse: to say no and not do something
+
 ## L2: "wear out" vs "barrier" (67%)
 - wear out: to use something so much that it gets old and broken
 - barrier: something that blocks the way
@@ -9233,10 +9217,6 @@
 ## L2: "similarly" vs "counterpart" (67%)
 - similarly: in a way that is almost the same
 - counterpart: a person or thing that has the same role in another place
-
-## L2: "accessory" vs "make out" (67%)
-- accessory: an extra item that goes with something
-- make out: to see or get something with trouble
 
 ## L2: "accessory" vs "put up with" (60%)
 - accessory: an extra item that goes with something
@@ -9530,49 +9510,21 @@
 - keep in mind: to recall or think about something
 - regard: to think about someone or something in a certain way
 
-## L2: "make out" vs "put up with" (67%)
-- make out: to see or get something with trouble
-- put up with: to deal with something that bugs you
-
 ## L2: "make out" vs "leave behind" (67%)
-- make out: to see or get something with trouble
+- make out: to see or understand something with difficulty
 - leave behind: to not bring something with you
 
-## L2: "make out" vs "complex" (67%)
-- make out: to see or get something with trouble
-- complex: something with many parts; not simple
-
-## L2: "make out" vs "inspire" (67%)
-- make out: to see or get something with trouble
-- inspire: to fill someone with excitement to do something great
-
 ## L2: "make out" vs "purchase" (100%)
-- make out: to see or get something with trouble
+- make out: to see or understand something with difficulty
 - purchase: to buy something
 
-## L2: "make out" vs "reference" (67%)
-- make out: to see or get something with trouble
-- reference: information you look at to help with something
-
 ## L2: "make out" vs "refuse" (100%)
-- make out: to see or get something with trouble
+- make out: to see or understand something with difficulty
 - refuse: to say no and not do something
 
 ## L2: "make out" vs "tolerate" (67%)
-- make out: to see or get something with trouble
+- make out: to see or understand something with difficulty
 - tolerate: to put up with something you do not like
-
-## L2: "make out" vs "component" (67%)
-- make out: to see or get something with trouble
-- component: a part of something that works with other parts
-
-## L2: "make out" vs "contend" (67%)
-- make out: to see or get something with trouble
-- contend: to compete or deal with something difficult
-
-## L2: "make out" vs "cope" (67%)
-- make out: to see or get something with trouble
-- cope: to deal with something difficult
 
 ## L2: "migratory" vs "migrate" (67%)
 - migratory: moving from one place to another with the seasons

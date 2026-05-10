@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 199 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 201 MINOR
 
 ## Issues
 
@@ -76,6 +76,10 @@ L2 definition uses complex word(s): responsibility
 
 ### [MINOR] words-level2c.js — "inquire" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): information
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2c.js — "liable" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): responsible
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2c.js — "notable" (COMPLEX_DEFINITION)
@@ -211,7 +215,7 @@ Definition uses "something" 2 times: "to experience something, especially someth
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2c.js — "incident" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something that happens, most times something odd"
+Definition uses "something" 2 times: "something that happens, often something unusual"
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2c.js — "launch" (VAGUE_DEFINITION)
@@ -264,6 +268,10 @@ Word appears to be adjective but definition starts with article: "the opposite i
 
 ### [MINOR] words-level2b.js — "graphic" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a picture or chart that explains facts..."
+**Fix:** Consider rephrasing definition to adjective form
+
+### [MINOR] words-level2c.js — "drastic" (ADJ_NOUN_MISMATCH)
+Word appears to be adjective but definition starts with article: "a very big and sudden change..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level4c.js — "rubric" (ADJ_NOUN_MISMATCH)
