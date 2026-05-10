@@ -1,0 +1,14 @@
+{
+  "currentFile": "words-level1.js",
+  "lastWordIndex": 59,
+  "totalInFile": 600,
+  "filesCompleted": [],
+  "stats": {
+    "words-level1.js": {
+      "reviewed": 60,
+      "accurate": 55,
+      "partial": 4,
+      "fixed": 1
+    }
+  }
+}
