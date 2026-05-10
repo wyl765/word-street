@@ -14056,7 +14056,7 @@
 
 ## L5: "solicit" vs "injunction" (67%)
 - solicit: to ask for something from someone
-- injunction: a court order needing someone to do or stop doing something
+- injunction: a court order requiring someone to do or stop doing something
 
 ## L5: "solicit" vs "legacy" (67%)
 - solicit: to ask for something from someone

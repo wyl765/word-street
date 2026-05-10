@@ -2,8 +2,8 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 425
-- MAJOR (≥3 超纲词 in definition): 2149
+- CRITICAL (≥5 超纲词 in definition): 427
+- MAJOR (≥3 超纲词 in definition): 2148
 
 ## Issues
 
@@ -1447,6 +1447,10 @@
 - **Definition:** "an impressive achievement needing great skill or strength"
 - **超纲词 (6):** impressive, achievement, needing, great, skill, strength
 
+### 🔴 [CRITICAL] fidelity (L5)
+- **Definition:** "being true and loyal; also how closely a copy matches the original"
+- **超纲词 (5):** being, true, closely, copy, matches
+
 ### 🔴 [CRITICAL] humility (L5)
 - **Definition:** "the quality of being humble and not thinking you're better than others"
 - **超纲词 (5):** quality, being, thinking, you're, others
@@ -1523,9 +1527,9 @@
 - **Definition:** "a written statement confirmed by oath for use in court"
 - **超纲词 (5):** written, statement, confirmed, use, court
 
-### 🔴 [CRITICAL] bipartisan (L5)
-- **Definition:** "helped by two political parties working as one"
-- **超纲词 (5):** helped, two, parties, working, one
+### 🔴 [CRITICAL] besiege (L5)
+- **Definition:** "to surround a place and cut off supplies to force it to give up"
+- **超纲词 (5):** place, cut, off, supplies, give
 
 ### 🔴 [CRITICAL] confederacy (L5)
 - **Definition:** "a group of states or people joined together for a common purpose"
@@ -1546,6 +1550,10 @@
 ### 🔴 [CRITICAL] fraternity (L5)
 - **Definition:** "a group of people sharing the same interests or beliefs; brotherhood"
 - **超纲词 (7):** group, people, sharing, same, interests, beliefs, brotherhood
+
+### 🔴 [CRITICAL] globalization (L5)
+- **Definition:** "the process of the world becoming more connected through trade and sharing information"
+- **超纲词 (5):** world, becoming, connected, sharing, information
 
 ### 🔴 [CRITICAL] inauguration (L5)
 - **Definition:** "the event to officially begin someone's time in office"
@@ -1604,8 +1612,8 @@
 - **超纲词 (5):** belief, goes, accepted, teachings, faith
 
 ### 🔴 [CRITICAL] idealism (L5)
-- **Definition:** "believing in high standards even when they seem not possible"
-- **超纲词 (5):** believing, high, standards, seem, possible
+- **Definition:** "believing in high standards even when they seem impossible"
+- **超纲词 (5):** believing, high, standards, seem, impossible
 
 ### 🔴 [CRITICAL] iridescent (L5)
 - **Definition:** "showing many colors that seem to change in different lights"
@@ -8875,10 +8883,6 @@
 - **Definition:** "to understand something complex; also a unit of water depth"
 - **超纲词 (3):** understand, water, depth
 
-### 🟡 [MAJOR] fidelity (L5)
-- **Definition:** "being true and loyal; it can also mean how close a copy is to the real thing"
-- **超纲词 (4):** being, true, copy, real
-
 ### 🟡 [MAJOR] foreclose (L5)
 - **Definition:** "to take possession of land when payments aren't made"
 - **超纲词 (4):** possession, land, payments, aren't
@@ -8952,8 +8956,8 @@
 - **超纲词 (4):** starting, new, welcoming, group
 
 ### 🟡 [MAJOR] injunction (L5)
-- **Definition:** "a court order needing someone to do or stop doing something"
-- **超纲词 (4):** court, needing, stop, doing
+- **Definition:** "a court order requiring someone to do or stop doing something"
+- **超纲词 (4):** court, requiring, stop, doing
 
 ### 🟡 [MAJOR] insurgent (L5)
 - **Definition:** "a person fighting against a state or power"
@@ -9151,6 +9155,10 @@
 - **Definition:** "bullets and other things fired from weapons"
 - **超纲词 (3):** bullets, fired, weapons
 
+### 🟡 [MAJOR] anatomy (L5)
+- **Definition:** "learning about the parts of living things and how they fit together"
+- **超纲词 (3):** learning, parts, living
+
 ### 🟡 [MAJOR] annotate (L5)
 - **Definition:** "to add notes or comments to a text"
 - **超纲词 (3):** notes, comments, text
@@ -9212,7 +9220,7 @@
 - **超纲词 (4):** level, someone's, ability, skill
 
 ### 🟡 [MAJOR] cascade (L5)
-- **Definition:** "a small waterfall, or a series of things happening one after one more"
+- **Definition:** "a small waterfall; also a series of things happening one after another"
 - **超纲词 (3):** small, happening, one
 
 ### 🟡 [MAJOR] casualty (L5)
@@ -9232,8 +9240,8 @@
 - **超纲词 (4):** moving, same, clock, hands
 
 ### 🟡 [MAJOR] coexist (L5)
-- **Definition:** "to live or exist as one peacefully"
-- **超纲词 (4):** live, exist, one, peacefully
+- **Definition:** "to live or exist together peacefully"
+- **超纲词 (3):** live, exist, peacefully
 
 ### 🟡 [MAJOR] communism (L5)
 - **Definition:** "a system where the government owns all property and shares it equally"
@@ -9248,8 +9256,8 @@
 - **超纲词 (4):** secretly, plan, wrong, others
 
 ### 🟡 [MAJOR] contentious (L5)
-- **Definition:** "causing disagreement or fight"
-- **超纲词 (3):** causing, disagreement, fight
+- **Definition:** "likely to cause disagreement or arguments"
+- **超纲词 (3):** likely, disagreement, arguments
 
 ### 🟡 [MAJOR] contractor (L5)
 - **Definition:** "a person hired to do building or repair work"
@@ -9400,8 +9408,8 @@
 - **超纲词 (4):** person, strongly, loves, supports
 
 ### 🟡 [MAJOR] peasant (L5)
-- **Definition:** "a poor farmer in medieval or growing societies"
-- **超纲词 (4):** poor, farmer, growing, societies
+- **Definition:** "a poor farmer, especially long ago"
+- **超纲词 (4):** poor, farmer, long, ago
 
 ### 🟡 [MAJOR] persecution (L5)
 - **Definition:** "cruel treatment of someone because of their beliefs or identity"
@@ -9482,6 +9490,10 @@
 ### 🟡 [MAJOR] bankruptcy (L5)
 - **Definition:** "the legal process when someone cannot pay their debts"
 - **超纲词 (3):** cannot, pay, debts
+
+### 🟡 [MAJOR] bipartisan (L5)
+- **Definition:** "supported by two political parties"
+- **超纲词 (3):** supported, two, parties
 
 ### 🟡 [MAJOR] brigand (L5)
 - **Definition:** "a bandit or robber, especially one in a gang"
@@ -9595,10 +9607,6 @@
 - **Definition:** "a fighter in ancient Rome who battled for fun"
 - **超纲词 (4):** fighter, rome, battled, fun
 
-### 🟡 [MAJOR] globalization (L5)
-- **Definition:** "the process of the world becoming more connected through trade and talking"
-- **超纲词 (4):** world, becoming, connected, talking
-
 ### 🟡 [MAJOR] hypothermia (L5)
 - **Definition:** "a risky state when your body gets too cold"
 - **超纲词 (4):** risky, body, gets, cold
@@ -9634,10 +9642,6 @@
 ### 🟡 [MAJOR] annuity (L5)
 - **Definition:** "a fixed amount of money paid to someone each year"
 - **超纲词 (4):** fixed, money, paid, year
-
-### 🟡 [MAJOR] armament (L5)
-- **Definition:** "weapons and army gear"
-- **超纲词 (3):** weapons, army, gear
 
 ### 🟡 [MAJOR] biennial (L5)
 - **Definition:** "happening once every two years"
@@ -9784,8 +9788,8 @@
 - **超纲词 (3):** consisting, different, kinds
 
 ### 🟡 [MAJOR] mobilization (L5)
-- **Definition:** "preparing and organizing people for action especially war"
-- **超纲词 (4):** preparing, organizing, people, war
+- **Definition:** "preparing and organizing people for action, especially in an emergency"
+- **超纲词 (4):** preparing, organizing, people, emergency
 
 ### 🟡 [MAJOR] molecular (L5)
 - **Definition:** "about molecules, the tiny pieces that make up everything"

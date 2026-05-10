@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 180 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 170 MINOR
 
 ## Issues
 
@@ -88,14 +88,6 @@ L2 definition uses complex word(s): interesting
 
 ### [MINOR] words-level4b.js — "utilitarian" (SUBJECTIVE_DEF)
 Definition contains subjective adjective "attractive": "designed to be useful rather than attractive"
-**Fix:** Remove subjective adjectives from definitions
-
-### [MINOR] words-level5c.js — "calligraphy" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "beautiful": "the art of beautiful handwriting"
-**Fix:** Remove subjective adjectives from definitions
-
-### [MINOR] words-level5c.js — "grotesque" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "ugly": "very ugly or strange in a way that is unpleasant"
 **Fix:** Remove subjective adjectives from definitions
 
 ### [MINOR] words-level5d.js — "captivating" (SUBJECTIVE_DEF)
@@ -684,38 +676,6 @@ Example contains military context: "military"
 
 ### [MINOR] words-level5b.js — "renegade" (MILITARY_CONTEXT)
 Example contains military context: "soldier"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level5c.js — "ammunition" (MILITARY_CONTEXT)
-Example contains military context: "soldiers"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level5c.js — "armistice" (MILITARY_CONTEXT)
-Example contains military context: "soldiers"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level5c.js — "civilian" (MILITARY_CONTEXT)
-Example contains military context: "soldiers"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level5c.js — "patriot" (MILITARY_CONTEXT)
-Example contains military context: "army"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level5c.js — "uprising" (MILITARY_CONTEXT)
-Example contains military context: "soldiers"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level5c.js — "besiege" (MILITARY_CONTEXT)
-Example contains military context: "army"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level5c.js — "armament" (MILITARY_CONTEXT)
-Example contains military context: "military"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level5c.js — "mobilization" (MILITARY_CONTEXT)
-Example contains military context: "troops"
 **Fix:** Consider replacing with a neutral/civilian context
 
 ### [MINOR] words-level5d.js — "conscription" (MILITARY_CONTEXT)
