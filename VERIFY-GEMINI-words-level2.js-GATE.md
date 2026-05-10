@@ -1,556 +1,556 @@
-# VERIFY-GEMINI-words-level2.js-GATE
+# Gemini Verification Report: words-level2.js
 
-| Word | L9: ImageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat | Action |
-|------|------------------|-----------------|---------------|------------------|--------|
-| **describe** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **explain** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **solve** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **complete** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **arrange** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **decide** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **suppose** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mention** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **realize** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **repeat** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **separate** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **struggle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **succeed** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **surround** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **wander** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ancient** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **modern** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **brilliant** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fragile** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **sturdy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **swift** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **anxious** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **setting** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **plot** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **paragraph** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **sentence** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fiction** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **nonfiction** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **main idea** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **detail** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cause** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **effect** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **habitat** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **insect** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mammal** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **reptile** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **liquid** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **gas** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **energy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **force** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **magnet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **soil** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **climate** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **season** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **citizen** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **government** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **law** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **rule** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **map** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **globe** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **continent** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **country** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **state** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **city** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **border** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **freedom** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **election** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **subtract** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **multiply** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **divide** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **sum** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **graph** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **chart** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **data** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **length** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **width** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **height** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **area** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **shape** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **angle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **triple** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **gradually** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **immediately** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **afterward** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **recently** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **frequently** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **rarely** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **occasionally** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **however** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **therefore** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **otherwise** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **turn into** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **look forward to** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **make up** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **point out** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **come across** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **break down** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **carry out** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **set up** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **courageous** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **honest** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **loyal** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **selfish** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **thoughtful** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **determined** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **about** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **act** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **action** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **add** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **address** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **adult** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **afraid** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **again** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **agree** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **alive** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **alone** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **also** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **always** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **any** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **appear** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **arm** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **arrive** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ask** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **asleep** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **attack** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **attempt** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **attention** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **awake** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **backpack** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **balance** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **balloon** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bare** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bargain** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **base** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **basic** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **battle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **beach** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **beam** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **because** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **become** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **beg** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **begin** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **behavior** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **believe** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **better** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bicycle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **blink** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **block** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **blossom** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bossy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bounce** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **breakfast** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **breathe** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bright** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bring** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **broad** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **build** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bundle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **butter** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cactus** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **calendar** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **camel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **camp** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **capture** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **careful** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **carpet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cart** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **carve** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ceiling** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **center** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **chance** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **change** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **choice** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **circle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **climb** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **close** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **clue** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **coast** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **comfort** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **common** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **complain** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **confuse** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **connect** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **corner** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cost** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cotton** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **course** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **crash** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **make** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **crumble** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cuddle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **custom** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cycle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **danger** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dark** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **deal** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **delay** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **delight** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **deny** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **depend** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **destroy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dig** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dinner** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **find** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **distance** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dizzy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dollar** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **donate** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **doorway** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **downstairs** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **drift** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **drown** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **earn** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **earth** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **edge** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **enter** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **escape** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **exact** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fair** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **famous** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **far** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **farm** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fence** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **field** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fill** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **finish** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fit** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **flour** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **foam** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fold** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **follow** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fork** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **friendship** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **frighten** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **front** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **frozen** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **gentleman** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **glad** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **glide** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **glitter** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **goal** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **grasp** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **greet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **grin** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **groan** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **grow** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **guard** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **guess** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **habit** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hallway** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **handful** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **harm** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **harvest** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **heal** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hidden** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hint** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **history** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **holiday** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hop** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **horizon** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hurt** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hurry** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **idea** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ignore** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **include** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **inside** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **invite** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **jacket** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **judge** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **jump** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **key** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **kind** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **knee** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **kneel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **knock** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **lantern** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **laugh** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **leaf** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **leak** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **learn** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **least** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **library** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **limit** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **listen** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **lunch** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **machine** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **magic** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **major** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **marble** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mask** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **matter** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **memory** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **message** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **minute** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mirror** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mist** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mix** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **model** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mood** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **move** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mystery** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **nature** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **near** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **neatly** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **never** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **noisy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **north** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **note** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **object** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ocean** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **offer** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **opinion** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **opposite** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **order** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **outside** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **over** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **palace** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **path** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **pause** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **picnic** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **planet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **plastic** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **playground** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **polite** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **praise** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **prepare** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **price** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **prize** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **protect** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **quiet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **quiz** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **raise** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **range** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **reach** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **recycle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **refund** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **relax** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **rescue** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **respect** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **result** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **return** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **river** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **role** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **route** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **safe** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **sail** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **save** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **scared** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **scatter** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **score** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **shade** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **shore** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **signal** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **simple** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **slippery** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **smell** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **snap** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **soak** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **special** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **store** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **strong** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **stuck** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **suggest** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **support** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **surface** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **swallow** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **sweep** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **sweet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **talent** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **taste** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **team** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **tease** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **temperature** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **tend** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **tightly** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **little** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **track** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **travel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **trick** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **trust** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **turn** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **under** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **upstairs** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **usual** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **visit** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **voice** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **vote** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **wait** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **warmth** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **warn** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **waterfall** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **weather** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **wheel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **yesterday** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **admiral** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **album** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **alley** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **amber** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **antenna** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **applause** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **apricot** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **arch** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **atlas** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **avalanche** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **badge** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bagpipe** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **balcony** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **banjo** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **banner** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **basin** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bay** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **beacon** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bead** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **beeswax** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bellows** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **binoculars** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **birch** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **biscuit** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **blacksmith** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **blaze** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **blueprint** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bluff** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bobsled** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bolt** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bonfire** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bookshelf** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bracelet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bramble** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **brass** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bridle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **broth** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bugle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bulb** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bulletin** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **bunker** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **buoy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **canal** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **canopy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **caribou** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **carousel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cartwheel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cashew** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cedar** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cellar** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **chapel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **chariot** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **chestnut** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **chisel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **chord** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cider** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **clam** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cloak** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cobblestone** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cocoon** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **comet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cork** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **corral** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cradle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **crest** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **crumb** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cuff** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **cypress** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dagger** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dandelion** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **deck** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **delta** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dinghy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dome** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **donkey** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **doorbell** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **drawbridge** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **drumstick** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **dune** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **easel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **elm** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ember** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **emerald** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **falcon** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fiddle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fig** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fjord** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **flint** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **forge** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **fresco** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **gale** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **galley** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **garnet** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **gazelle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **geyser** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **gong** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **granite** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **grapevine** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **gravel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **griddle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **grove** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **gutter** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hammock** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **harp** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hazel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hearth** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **heron** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hickory** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hilltop** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **holly** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **honeycomb** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **horseshoe** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **hourglass** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **husk** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ibis** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **igloo** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ivy** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **jade** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **javelin** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **kelp** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **kennel** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **kindle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **kingfisher** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **knapsack** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **lagoon** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **latch** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **lava** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **levee** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **lichen** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **locket** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **loom** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **lynx** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mango** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mantle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **maple** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **marsh** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mast** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **moat** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mortar** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mosaic** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **mulberry** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **muzzle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **nectar** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **nettle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **nozzle** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **nutmeg** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **oar** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **oasis** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **olive** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **ore** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **otter** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **pagoda** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **parchment** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **parsley** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **pasture** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **pebble** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **pelican** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **pendant** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **pier** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **pigment** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **carefully** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **accept** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **quite** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **rise** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **although** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **unless** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **seldom** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
-| **eventually** | OK (Safe/Clear) | OK (No obvious errors in definition) | OK (Primary sense used) | OK (Compatible across 4 modes) | PASS |
+| Word | L9: imageKeyword | L10: Fact Check | L11: Meaning | L12: Game Compat | Status | Note |
+|---|---|---|---|---|---|---|
+| describe | Pass | Pass | Pass | Pass | Pass | - |
+| explain | Pass | Pass | Pass | Pass | Pass | - |
+| solve | Pass | Pass | Pass | Pass | Pass | - |
+| complete | Pass | Pass | Pass | Pass | Pass | - |
+| arrange | Pass | Pass | Pass | Pass | Pass | - |
+| decide | Pass | Pass | Pass | Pass | Pass | - |
+| suppose | Pass | Pass | Pass | Pass | Pass | - |
+| mention | Pass | Pass | Pass | Pass | Pass | - |
+| realize | Pass | Pass | Pass | Pass | Pass | - |
+| repeat | Pass | Pass | Pass | Pass | Pass | - |
+| separate | Pass | Pass | Pass | Pass | Pass | - |
+| struggle | Pass | Pass | Pass | Pass | Pass | - |
+| succeed | Pass | Pass | Pass | Pass | Pass | - |
+| surround | Pass | Pass | Pass | Pass | Pass | - |
+| wander | Pass | Pass | Pass | Pass | Pass | - |
+| ancient | Pass | Pass | Pass | Pass | Pass | - |
+| modern | Pass | Pass | Pass | Pass | Pass | - |
+| brilliant | Pass | Pass | Pass | Pass | Pass | - |
+| fragile | Pass | Pass | Pass | Pass | Pass | - |
+| sturdy | Pass | Pass | Pass | Pass | Pass | - |
+| swift | Pass | Pass | Pass | Pass | Pass | - |
+| anxious | Pass | Pass | Pass | Pass | Pass | - |
+| setting | Pass | Pass | Pass | Pass | Pass | - |
+| plot | Pass | Pass | Pass | Pass | Pass | - |
+| paragraph | Pass | Pass | Pass | Pass | Pass | - |
+| sentence | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| fiction | Pass | Pass | Pass | Pass | Pass | - |
+| nonfiction | Pass | Pass | Pass | Pass | Pass | - |
+| main idea | Pass | Pass | Pass | Pass | Pass | - |
+| detail | Pass | Pass | Pass | Pass | Pass | - |
+| cause | Pass | Pass | Pass | Pass | Pass | - |
+| effect | Pass | Pass | Pass | Pass | Pass | - |
+| habitat | Pass | Pass | Pass | Pass | Pass | - |
+| insect | Pass | Pass | Pass | Pass | Pass | - |
+| mammal | Pass | Pass | Pass | Pass | Pass | - |
+| reptile | Pass | Pass | Pass | Pass | Pass | - |
+| liquid | Pass | Pass | Pass | Pass | Pass | - |
+| gas | Pass | Pass | Pass | Pass | Pass | - |
+| energy | Pass | Pass | Pass | Pass | Pass | - |
+| force | Pass | Pass | Pass | Pass | Pass | - |
+| magnet | Pass | Pass | Pass | Pass | Pass | - |
+| soil | Pass | Pass | Pass | Pass | Pass | - |
+| climate | Pass | Pass | Pass | Pass | Pass | - |
+| season | Pass | Pass | Pass | Pass | Pass | - |
+| citizen | Pass | Pass | Pass | Pass | Pass | - |
+| government | Pass | Pass | Pass | Pass | Pass | - |
+| law | Pass | Pass | Pass | Pass | Pass | - |
+| rule | Pass | Pass | Pass | Pass | Pass | - |
+| map | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| globe | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| continent | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| country | Pass | Pass | Pass | Pass | Pass | - |
+| state | Pass | Pass | Pass | Pass | Pass | - |
+| city | Pass | Pass | Pass | Pass | Pass | - |
+| border | Pass | Pass | Pass | Pass | Pass | - |
+| freedom | Pass | Pass | Pass | Pass | Pass | - |
+| election | Pass | Pass | Pass | Pass | Pass | - |
+| subtract | Pass | Pass | Pass | Pass | Pass | - |
+| multiply | Pass | Pass | Pass | Pass | Pass | - |
+| divide | Pass | Pass | Pass | Pass | Pass | - |
+| sum | Pass | Pass | Pass | Pass | Pass | - |
+| graph | Pass | Pass | Pass | Pass | Pass | - |
+| chart | Pass | Pass | Pass | Pass | Pass | - |
+| data | Pass | Pass | Pass | Pass | Pass | - |
+| length | Pass | Pass | Pass | Pass | Pass | - |
+| width | Pass | Pass | Pass | Pass | Pass | - |
+| height | Pass | Pass | Pass | Pass | Pass | - |
+| area | Pass | Pass | Pass | Pass | Pass | - |
+| shape | Pass | Pass | Pass | Pass | Pass | - |
+| angle | Pass | Pass | Pass | Pass | Pass | - |
+| triple | Pass | Pass | Pass | Pass | Pass | - |
+| gradually | Pass | Pass | Pass | Pass | Pass | - |
+| immediately | Pass | Pass | Pass | Pass | Pass | - |
+| afterward | Pass | Pass | Pass | Pass | Pass | - |
+| recently | Pass | Pass | Pass | Pass | Pass | - |
+| frequently | Pass | Pass | Pass | Pass | Pass | - |
+| rarely | Pass | Pass | Pass | Pass | Pass | - |
+| occasionally | Pass | Pass | Pass | Pass | Pass | - |
+| however | Pass | Pass | Pass | Pass | Pass | - |
+| therefore | Pass | Pass | Pass | Pass | Pass | - |
+| otherwise | Pass | Pass | Pass | Pass | Pass | - |
+| turn into | Pass | Pass | Pass | Pass | Pass | - |
+| look forward to | Pass | Pass | Pass | Pass | Pass | - |
+| make up | Pass | Pass | Pass | Pass | Pass | - |
+| point out | Pass | Pass | Warning | Pass | Warning | word may not appear in example |
+| come across | Pass | Pass | Warning | Pass | Warning | word may not appear in example |
+| break down | Pass | Pass | Warning | Pass | Warning | word may not appear in example |
+| carry out | Pass | Pass | Warning | Pass | Warning | word may not appear in example |
+| set up | Pass | Pass | Pass | Pass | Pass | - |
+| courageous | Pass | Pass | Pass | Pass | Pass | - |
+| honest | Pass | Pass | Pass | Pass | Pass | - |
+| loyal | Pass | Pass | Pass | Pass | Pass | - |
+| selfish | Pass | Pass | Pass | Pass | Pass | - |
+| thoughtful | Pass | Pass | Pass | Pass | Pass | - |
+| determined | Pass | Pass | Pass | Pass | Pass | - |
+| about | Pass | Pass | Pass | Pass | Pass | - |
+| act | Pass | Pass | Pass | Pass | Pass | - |
+| action | Pass | Pass | Pass | Pass | Pass | - |
+| add | Pass | Pass | Pass | Pass | Pass | - |
+| address | Pass | Pass | Pass | Pass | Pass | - |
+| adult | Pass | Pass | Pass | Pass | Pass | - |
+| afraid | Pass | Pass | Pass | Pass | Pass | - |
+| again | Pass | Pass | Pass | Pass | Pass | - |
+| agree | Pass | Pass | Pass | Pass | Pass | - |
+| alive | Pass | Pass | Pass | Pass | Pass | - |
+| alone | Pass | Pass | Pass | Pass | Pass | - |
+| also | Pass | Pass | Pass | Pass | Pass | - |
+| always | Pass | Pass | Pass | Pass | Pass | - |
+| any | Pass | Warning | Pass | Pass | Warning | definition too short |
+| appear | Pass | Pass | Pass | Pass | Pass | - |
+| arm | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| arrive | Pass | Pass | Pass | Pass | Pass | - |
+| ask | Pass | Pass | Pass | Pass | Pass | - |
+| asleep | Pass | Pass | Pass | Pass | Pass | - |
+| attack | Pass | Pass | Pass | Pass | Pass | - |
+| attempt | Pass | Pass | Pass | Pass | Pass | - |
+| attention | Pass | Pass | Pass | Pass | Pass | - |
+| awake | Pass | Pass | Pass | Pass | Pass | - |
+| backpack | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| balance | Pass | Pass | Pass | Pass | Pass | - |
+| balloon | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| bare | Pass | Pass | Pass | Pass | Pass | - |
+| bargain | Pass | Pass | Pass | Pass | Pass | - |
+| base | Pass | Pass | Pass | Pass | Pass | - |
+| basic | Pass | Pass | Pass | Pass | Pass | - |
+| battle | Pass | Pass | Pass | Pass | Pass | - |
+| beach | Pass | Pass | Pass | Pass | Pass | - |
+| beam | Pass | Pass | Pass | Pass | Pass | - |
+| because | Pass | Pass | Pass | Pass | Pass | - |
+| become | Pass | Pass | Pass | Pass | Pass | - |
+| beg | Pass | Pass | Pass | Pass | Pass | - |
+| begin | Pass | Pass | Pass | Pass | Pass | - |
+| behavior | Pass | Pass | Pass | Pass | Pass | - |
+| believe | Pass | Pass | Pass | Pass | Pass | - |
+| better | Pass | Pass | Pass | Pass | Pass | - |
+| bicycle | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| blink | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| block | Pass | Pass | Pass | Pass | Pass | - |
+| blossom | Pass | Pass | Pass | Pass | Pass | - |
+| bossy | Pass | Pass | Pass | Pass | Pass | - |
+| bounce | Pass | Pass | Pass | Pass | Pass | - |
+| breakfast | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| breathe | Pass | Pass | Pass | Pass | Pass | - |
+| bright | Pass | Pass | Pass | Pass | Pass | - |
+| bring | Pass | Pass | Pass | Pass | Pass | - |
+| broad | Pass | Pass | Pass | Pass | Pass | - |
+| build | Pass | Pass | Pass | Pass | Pass | - |
+| bundle | Pass | Pass | Pass | Pass | Pass | - |
+| butter | Pass | Pass | Pass | Pass | Pass | - |
+| cactus | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| calendar | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| camel | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| camp | Pass | Pass | Pass | Pass | Pass | - |
+| capture | Pass | Pass | Pass | Pass | Pass | - |
+| careful | Pass | Pass | Pass | Pass | Pass | - |
+| carpet | Pass | Pass | Pass | Pass | Pass | - |
+| cart | Pass | Pass | Pass | Pass | Pass | - |
+| carve | Pass | Pass | Pass | Pass | Pass | - |
+| ceiling | Pass | Pass | Pass | Pass | Pass | - |
+| center | Pass | Pass | Pass | Pass | Pass | - |
+| chance | Pass | Pass | Pass | Pass | Pass | - |
+| change | Pass | Pass | Pass | Pass | Pass | - |
+| choice | Pass | Pass | Pass | Pass | Pass | - |
+| circle | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| climb | Pass | Pass | Pass | Pass | Pass | - |
+| close | Pass | Pass | Pass | Pass | Pass | - |
+| clue | Pass | Pass | Pass | Pass | Pass | - |
+| coast | Pass | Pass | Pass | Pass | Pass | - |
+| comfort | Pass | Pass | Pass | Pass | Pass | - |
+| common | Pass | Pass | Pass | Pass | Pass | - |
+| complain | Pass | Pass | Pass | Pass | Pass | - |
+| confuse | Pass | Pass | Pass | Pass | Pass | - |
+| connect | Pass | Pass | Pass | Pass | Pass | - |
+| corner | Pass | Pass | Pass | Pass | Pass | - |
+| cost | Pass | Pass | Pass | Pass | Pass | - |
+| cotton | Pass | Pass | Pass | Pass | Pass | - |
+| course | Pass | Pass | Pass | Pass | Pass | - |
+| crash | Pass | Pass | Pass | Pass | Pass | - |
+| make | Pass | Pass | Pass | Pass | Pass | - |
+| crumble | Pass | Pass | Pass | Pass | Pass | - |
+| cuddle | Pass | Pass | Pass | Pass | Pass | - |
+| custom | Pass | Pass | Pass | Pass | Pass | - |
+| cycle | Pass | Pass | Pass | Pass | Pass | - |
+| danger | Pass | Pass | Pass | Pass | Pass | - |
+| dark | Pass | Pass | Pass | Pass | Pass | - |
+| deal | Pass | Pass | Pass | Pass | Pass | - |
+| delay | Pass | Pass | Pass | Pass | Pass | - |
+| delight | Pass | Pass | Pass | Pass | Pass | - |
+| deny | Pass | Pass | Pass | Pass | Pass | - |
+| depend | Pass | Pass | Pass | Pass | Pass | - |
+| destroy | Pass | Pass | Pass | Pass | Pass | - |
+| dig | Pass | Pass | Pass | Pass | Pass | - |
+| dinner | Pass | Pass | Pass | Pass | Pass | - |
+| find | Pass | Pass | Pass | Pass | Pass | - |
+| distance | Pass | Pass | Pass | Pass | Pass | - |
+| dizzy | Pass | Pass | Pass | Pass | Pass | - |
+| dollar | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| donate | Pass | Pass | Pass | Pass | Pass | - |
+| doorway | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| downstairs | Pass | Pass | Pass | Pass | Pass | - |
+| drift | Pass | Pass | Pass | Pass | Pass | - |
+| drown | Pass | Pass | Pass | Pass | Pass | - |
+| earn | Pass | Pass | Pass | Pass | Pass | - |
+| earth | Pass | Pass | Pass | Pass | Pass | - |
+| edge | Pass | Pass | Pass | Pass | Pass | - |
+| enter | Pass | Pass | Pass | Pass | Pass | - |
+| escape | Pass | Pass | Pass | Pass | Pass | - |
+| exact | Pass | Pass | Pass | Pass | Pass | - |
+| fair | Pass | Pass | Pass | Pass | Pass | - |
+| famous | Pass | Pass | Pass | Pass | Pass | - |
+| far | Pass | Pass | Pass | Pass | Pass | - |
+| farm | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| fence | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| field | Pass | Pass | Pass | Pass | Pass | - |
+| fill | Pass | Pass | Pass | Pass | Pass | - |
+| finish | Pass | Pass | Pass | Pass | Pass | - |
+| fit | Pass | Pass | Pass | Pass | Pass | - |
+| flour | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| foam | Pass | Pass | Pass | Pass | Pass | - |
+| fold | Pass | Pass | Pass | Pass | Pass | - |
+| follow | Pass | Pass | Pass | Pass | Pass | - |
+| fork | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| friendship | Pass | Pass | Pass | Pass | Pass | - |
+| frighten | Pass | Pass | Pass | Pass | Pass | - |
+| front | Pass | Pass | Pass | Pass | Pass | - |
+| frozen | Pass | Pass | Pass | Pass | Pass | - |
+| gentleman | Pass | Pass | Pass | Pass | Pass | - |
+| glad | Pass | Pass | Pass | Pass | Pass | - |
+| glide | Pass | Pass | Pass | Pass | Pass | - |
+| glitter | Pass | Pass | Pass | Pass | Pass | - |
+| goal | Pass | Pass | Pass | Pass | Pass | - |
+| grasp | Pass | Pass | Pass | Pass | Pass | - |
+| greet | Pass | Pass | Pass | Pass | Pass | - |
+| grin | Pass | Pass | Pass | Pass | Pass | - |
+| groan | Pass | Pass | Pass | Pass | Pass | - |
+| grow | Pass | Pass | Pass | Pass | Pass | - |
+| guard | Pass | Pass | Pass | Pass | Pass | - |
+| guess | Pass | Pass | Pass | Pass | Pass | - |
+| habit | Pass | Pass | Pass | Pass | Pass | - |
+| hallway | Pass | Pass | Pass | Pass | Pass | - |
+| handful | Pass | Pass | Pass | Pass | Pass | - |
+| harm | Pass | Pass | Pass | Pass | Pass | - |
+| harvest | Pass | Pass | Pass | Pass | Pass | - |
+| heal | Pass | Pass | Pass | Pass | Pass | - |
+| hidden | Pass | Pass | Pass | Pass | Pass | - |
+| hint | Pass | Pass | Pass | Pass | Pass | - |
+| history | Pass | Pass | Pass | Pass | Pass | - |
+| holiday | Pass | Pass | Pass | Pass | Pass | - |
+| hop | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| horizon | Pass | Pass | Pass | Pass | Pass | - |
+| hurt | Pass | Pass | Pass | Pass | Pass | - |
+| hurry | Pass | Pass | Pass | Pass | Pass | - |
+| idea | Pass | Pass | Pass | Pass | Pass | - |
+| ignore | Pass | Pass | Pass | Pass | Pass | - |
+| include | Pass | Pass | Pass | Pass | Pass | - |
+| inside | Pass | Pass | Pass | Pass | Pass | - |
+| invite | Pass | Pass | Pass | Pass | Pass | - |
+| jacket | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| judge | Pass | Pass | Pass | Pass | Pass | - |
+| jump | Pass | Pass | Pass | Pass | Pass | - |
+| key | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| kind | Pass | Pass | Pass | Pass | Pass | - |
+| knee | Pass | Pass | Pass | Pass | Pass | - |
+| kneel | Pass | Pass | Pass | Pass | Pass | - |
+| knock | Pass | Pass | Pass | Pass | Pass | - |
+| lantern | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| laugh | Pass | Pass | Pass | Pass | Pass | - |
+| leaf | Pass | Pass | Pass | Pass | Pass | - |
+| leak | Pass | Pass | Pass | Pass | Pass | - |
+| learn | Pass | Pass | Pass | Pass | Pass | - |
+| least | Pass | Pass | Pass | Pass | Pass | - |
+| library | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| limit | Pass | Pass | Pass | Pass | Pass | - |
+| listen | Pass | Pass | Pass | Pass | Pass | - |
+| lunch | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| machine | Pass | Pass | Pass | Pass | Pass | - |
+| magic | Pass | Pass | Pass | Pass | Pass | - |
+| major | Pass | Pass | Pass | Pass | Pass | - |
+| marble | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| mask | Pass | Pass | Pass | Pass | Pass | - |
+| matter | Pass | Pass | Pass | Pass | Pass | - |
+| memory | Pass | Pass | Pass | Pass | Pass | - |
+| message | Pass | Pass | Pass | Pass | Pass | - |
+| minute | Pass | Pass | Pass | Pass | Pass | - |
+| mirror | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| mist | Pass | Pass | Pass | Pass | Pass | - |
+| mix | Pass | Pass | Pass | Pass | Pass | - |
+| model | Pass | Pass | Pass | Pass | Pass | - |
+| mood | Pass | Pass | Pass | Pass | Pass | - |
+| move | Pass | Pass | Pass | Pass | Pass | - |
+| mystery | Pass | Pass | Pass | Pass | Pass | - |
+| nature | Pass | Pass | Pass | Pass | Pass | - |
+| near | Pass | Pass | Pass | Pass | Pass | - |
+| neatly | Pass | Pass | Pass | Pass | Pass | - |
+| never | Pass | Pass | Pass | Pass | Pass | - |
+| noisy | Pass | Pass | Pass | Pass | Pass | - |
+| north | Pass | Pass | Pass | Pass | Pass | - |
+| note | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| object | Pass | Pass | Pass | Pass | Pass | - |
+| ocean | Pass | Pass | Pass | Pass | Pass | - |
+| offer | Pass | Pass | Pass | Pass | Pass | - |
+| opinion | Pass | Pass | Pass | Pass | Pass | - |
+| opposite | Pass | Pass | Pass | Pass | Pass | - |
+| order | Pass | Pass | Pass | Pass | Pass | - |
+| outside | Pass | Pass | Pass | Pass | Pass | - |
+| over | Pass | Pass | Pass | Pass | Pass | - |
+| palace | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| path | Pass | Pass | Pass | Pass | Pass | - |
+| pause | Pass | Pass | Pass | Pass | Pass | - |
+| picnic | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| planet | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| plastic | Pass | Pass | Pass | Pass | Pass | - |
+| playground | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| polite | Pass | Pass | Pass | Pass | Pass | - |
+| praise | Pass | Pass | Pass | Pass | Pass | - |
+| prepare | Pass | Pass | Pass | Pass | Pass | - |
+| price | Pass | Pass | Pass | Pass | Pass | - |
+| prize | Pass | Pass | Pass | Pass | Pass | - |
+| protect | Pass | Pass | Pass | Pass | Pass | - |
+| quiet | Pass | Pass | Pass | Pass | Pass | - |
+| quiz | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| raise | Pass | Pass | Pass | Pass | Pass | - |
+| range | Pass | Pass | Pass | Pass | Pass | - |
+| reach | Pass | Pass | Pass | Pass | Pass | - |
+| recycle | Pass | Pass | Pass | Pass | Pass | - |
+| refund | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| relax | Pass | Pass | Pass | Pass | Pass | - |
+| rescue | Pass | Pass | Pass | Pass | Pass | - |
+| respect | Pass | Pass | Pass | Pass | Pass | - |
+| result | Pass | Pass | Pass | Pass | Pass | - |
+| return | Pass | Pass | Pass | Pass | Pass | - |
+| river | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| role | Pass | Pass | Pass | Pass | Pass | - |
+| route | Pass | Pass | Pass | Pass | Pass | - |
+| safe | Pass | Pass | Pass | Pass | Pass | - |
+| sail | Pass | Pass | Pass | Pass | Pass | - |
+| save | Pass | Pass | Pass | Pass | Pass | - |
+| scared | Pass | Pass | Pass | Pass | Pass | - |
+| scatter | Pass | Pass | Pass | Pass | Pass | - |
+| score | Pass | Pass | Pass | Pass | Pass | - |
+| shade | Pass | Pass | Pass | Pass | Pass | - |
+| shore | Pass | Pass | Pass | Pass | Pass | - |
+| signal | Pass | Pass | Pass | Pass | Pass | - |
+| simple | Pass | Pass | Pass | Pass | Pass | - |
+| slippery | Pass | Pass | Pass | Pass | Pass | - |
+| smell | Pass | Pass | Pass | Pass | Pass | - |
+| snap | Pass | Pass | Pass | Pass | Pass | - |
+| soak | Pass | Pass | Pass | Pass | Pass | - |
+| special | Pass | Pass | Pass | Pass | Pass | - |
+| store | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| strong | Pass | Pass | Pass | Pass | Pass | - |
+| stuck | Pass | Pass | Pass | Pass | Pass | - |
+| suggest | Pass | Pass | Pass | Pass | Pass | - |
+| support | Pass | Pass | Pass | Pass | Pass | - |
+| surface | Pass | Pass | Pass | Pass | Pass | - |
+| swallow | Pass | Pass | Pass | Pass | Pass | - |
+| sweep | Pass | Pass | Pass | Pass | Pass | - |
+| sweet | Pass | Pass | Pass | Pass | Pass | - |
+| talent | Pass | Pass | Pass | Pass | Pass | - |
+| taste | Pass | Pass | Pass | Pass | Pass | - |
+| team | Pass | Pass | Pass | Pass | Pass | - |
+| tease | Pass | Pass | Pass | Pass | Pass | - |
+| temperature | Pass | Pass | Pass | Pass | Pass | - |
+| tend | Pass | Pass | Pass | Pass | Pass | - |
+| tightly | Pass | Pass | Pass | Pass | Pass | - |
+| little | Pass | Pass | Pass | Pass | Pass | - |
+| track | Pass | Pass | Pass | Pass | Pass | - |
+| travel | Pass | Pass | Pass | Pass | Pass | - |
+| trick | Pass | Pass | Pass | Pass | Pass | - |
+| trust | Pass | Pass | Pass | Pass | Pass | - |
+| turn | Pass | Pass | Pass | Pass | Pass | - |
+| under | Pass | Pass | Pass | Pass | Pass | - |
+| upstairs | Pass | Pass | Pass | Pass | Pass | - |
+| usual | Pass | Pass | Pass | Pass | Pass | - |
+| visit | Pass | Pass | Pass | Pass | Pass | - |
+| voice | Pass | Pass | Pass | Pass | Pass | - |
+| vote | Pass | Pass | Pass | Pass | Pass | - |
+| wait | Pass | Pass | Pass | Pass | Pass | - |
+| warmth | Pass | Pass | Pass | Pass | Pass | - |
+| warn | Pass | Pass | Pass | Pass | Pass | - |
+| waterfall | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| weather | Pass | Pass | Pass | Pass | Pass | - |
+| wheel | Pass | Pass | Pass | Pass | Pass | - |
+| yesterday | Pass | Pass | Pass | Pass | Pass | - |
+| admiral | Pass | Pass | Pass | Pass | Pass | - |
+| album | Pass | Pass | Pass | Pass | Pass | - |
+| alley | Pass | Pass | Pass | Pass | Pass | - |
+| amber | Pass | Pass | Pass | Pass | Pass | - |
+| antenna | Pass | Pass | Pass | Pass | Pass | - |
+| applause | Pass | Pass | Pass | Pass | Pass | - |
+| apricot | Pass | Pass | Pass | Pass | Pass | - |
+| arch | Pass | Pass | Pass | Pass | Pass | - |
+| atlas | Pass | Pass | Pass | Pass | Pass | - |
+| avalanche | Pass | Pass | Pass | Pass | Pass | - |
+| badge | Pass | Pass | Pass | Pass | Pass | - |
+| bagpipe | Pass | Pass | Pass | Pass | Pass | - |
+| balcony | Pass | Pass | Pass | Pass | Pass | - |
+| banjo | Pass | Pass | Pass | Pass | Pass | - |
+| banner | Pass | Pass | Pass | Pass | Pass | - |
+| basin | Pass | Pass | Pass | Pass | Pass | - |
+| bay | Pass | Pass | Pass | Pass | Pass | - |
+| beacon | Pass | Pass | Pass | Pass | Pass | - |
+| bead | Pass | Pass | Pass | Pass | Pass | - |
+| beeswax | Pass | Pass | Pass | Pass | Pass | - |
+| bellows | Pass | Pass | Pass | Pass | Pass | - |
+| binoculars | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| birch | Pass | Pass | Pass | Pass | Pass | - |
+| biscuit | Pass | Pass | Pass | Pass | Pass | - |
+| blacksmith | Pass | Pass | Pass | Pass | Pass | - |
+| blaze | Pass | Pass | Pass | Pass | Pass | - |
+| blueprint | Pass | Pass | Pass | Pass | Pass | - |
+| bluff | Pass | Pass | Pass | Pass | Pass | - |
+| bobsled | Pass | Pass | Pass | Pass | Pass | - |
+| bolt | Pass | Pass | Pass | Pass | Pass | - |
+| bonfire | Pass | Pass | Pass | Pass | Pass | - |
+| bookshelf | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| bracelet | Pass | Pass | Pass | Pass | Pass | - |
+| bramble | Pass | Pass | Pass | Pass | Pass | - |
+| brass | Pass | Pass | Pass | Pass | Pass | - |
+| bridle | Pass | Pass | Pass | Pass | Pass | - |
+| broth | Pass | Pass | Pass | Pass | Pass | - |
+| bugle | Pass | Pass | Pass | Pass | Pass | - |
+| bulb | Pass | Pass | Pass | Pass | Pass | - |
+| bulletin | Pass | Pass | Pass | Pass | Pass | - |
+| bunker | Pass | Pass | Pass | Pass | Pass | - |
+| buoy | Pass | Pass | Pass | Pass | Pass | - |
+| canal | Pass | Pass | Pass | Pass | Pass | - |
+| canopy | Pass | Pass | Pass | Pass | Pass | - |
+| caribou | Pass | Pass | Pass | Pass | Pass | - |
+| carousel | Pass | Pass | Pass | Pass | Pass | - |
+| cartwheel | Pass | Pass | Pass | Pass | Pass | - |
+| cashew | Pass | Pass | Pass | Pass | Pass | - |
+| cedar | Pass | Pass | Pass | Pass | Pass | - |
+| cellar | Pass | Pass | Pass | Pass | Pass | - |
+| chapel | Pass | Pass | Pass | Pass | Pass | - |
+| chariot | Pass | Pass | Pass | Pass | Pass | - |
+| chestnut | Pass | Pass | Pass | Pass | Pass | - |
+| chisel | Pass | Pass | Pass | Pass | Pass | - |
+| chord | Pass | Pass | Pass | Pass | Pass | - |
+| cider | Pass | Pass | Pass | Pass | Pass | - |
+| clam | Pass | Pass | Pass | Pass | Pass | - |
+| cloak | Pass | Pass | Pass | Pass | Pass | - |
+| cobblestone | Pass | Pass | Pass | Pass | Pass | - |
+| cocoon | Pass | Pass | Pass | Pass | Pass | - |
+| comet | Pass | Pass | Pass | Pass | Pass | - |
+| cork | Pass | Pass | Pass | Pass | Pass | - |
+| corral | Pass | Pass | Pass | Pass | Pass | - |
+| cradle | Pass | Pass | Pass | Pass | Pass | - |
+| crest | Pass | Pass | Pass | Pass | Pass | - |
+| crumb | Pass | Pass | Pass | Pass | Pass | - |
+| cuff | Pass | Pass | Pass | Pass | Pass | - |
+| cypress | Pass | Pass | Pass | Pass | Pass | - |
+| dagger | Pass | Pass | Pass | Pass | Pass | - |
+| dandelion | Pass | Pass | Pass | Pass | Pass | - |
+| deck | Pass | Pass | Pass | Pass | Pass | - |
+| delta | Pass | Pass | Pass | Pass | Pass | - |
+| dinghy | Pass | Pass | Pass | Pass | Pass | - |
+| dome | Pass | Pass | Pass | Pass | Pass | - |
+| donkey | Pass | Pass | Pass | Pass | Pass | - |
+| doorbell | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| drawbridge | Pass | Pass | Pass | Pass | Pass | - |
+| drumstick | Pass | Pass | Pass | Pass | Pass | - |
+| dune | Pass | Pass | Pass | Pass | Pass | - |
+| easel | Pass | Pass | Pass | Pass | Pass | - |
+| elm | Pass | Pass | Pass | Pass | Pass | - |
+| ember | Pass | Pass | Pass | Pass | Pass | - |
+| emerald | Pass | Pass | Pass | Pass | Pass | - |
+| falcon | Pass | Pass | Pass | Pass | Pass | - |
+| fiddle | Pass | Pass | Pass | Pass | Pass | - |
+| fig | Pass | Pass | Pass | Pass | Pass | - |
+| fjord | Pass | Pass | Pass | Pass | Pass | - |
+| flint | Pass | Pass | Pass | Pass | Pass | - |
+| forge | Pass | Pass | Pass | Pass | Pass | - |
+| fresco | Pass | Pass | Pass | Pass | Pass | - |
+| gale | Pass | Pass | Pass | Pass | Pass | - |
+| galley | Pass | Pass | Pass | Pass | Pass | - |
+| garnet | Pass | Pass | Pass | Pass | Pass | - |
+| gazelle | Pass | Pass | Pass | Pass | Pass | - |
+| geyser | Pass | Pass | Pass | Pass | Pass | - |
+| gong | Pass | Pass | Pass | Pass | Pass | - |
+| granite | Pass | Pass | Pass | Pass | Pass | - |
+| grapevine | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| gravel | Pass | Pass | Pass | Pass | Pass | - |
+| griddle | Pass | Pass | Pass | Pass | Pass | - |
+| grove | Pass | Pass | Pass | Pass | Pass | - |
+| gutter | Pass | Pass | Pass | Pass | Pass | - |
+| hammock | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| harp | Pass | Pass | Pass | Pass | Pass | - |
+| hazel | Pass | Pass | Pass | Pass | Pass | - |
+| hearth | Pass | Pass | Pass | Pass | Pass | - |
+| heron | Pass | Pass | Pass | Pass | Pass | - |
+| hickory | Pass | Pass | Pass | Pass | Pass | - |
+| hilltop | Pass | Pass | Pass | Pass | Pass | - |
+| holly | Pass | Pass | Pass | Pass | Pass | - |
+| honeycomb | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| horseshoe | Warning | Pass | Pass | Pass | Warning | imageKeyword same as word (may be ambiguous) |
+| hourglass | Pass | Pass | Pass | Pass | Pass | - |
+| husk | Pass | Pass | Pass | Pass | Pass | - |
+| ibis | Pass | Pass | Pass | Pass | Pass | - |
+| igloo | Pass | Pass | Pass | Pass | Pass | - |
+| ivy | Pass | Pass | Pass | Pass | Pass | - |
+| jade | Pass | Pass | Pass | Pass | Pass | - |
+| javelin | Pass | Pass | Pass | Pass | Pass | - |
+| kelp | Pass | Pass | Pass | Pass | Pass | - |
+| kennel | Pass | Pass | Pass | Pass | Pass | - |
+| kindle | Pass | Pass | Pass | Pass | Pass | - |
+| kingfisher | Pass | Pass | Pass | Pass | Pass | - |
+| knapsack | Pass | Pass | Pass | Pass | Pass | - |
+| lagoon | Pass | Pass | Pass | Pass | Pass | - |
+| latch | Pass | Pass | Pass | Pass | Pass | - |
+| lava | Pass | Pass | Pass | Pass | Pass | - |
+| levee | Pass | Pass | Pass | Pass | Pass | - |
+| lichen | Pass | Pass | Pass | Pass | Pass | - |
+| locket | Pass | Pass | Pass | Pass | Pass | - |
+| loom | Pass | Pass | Pass | Pass | Pass | - |
+| lynx | Pass | Pass | Pass | Pass | Pass | - |
+| mango | Pass | Pass | Pass | Pass | Pass | - |
+| mantle | Pass | Pass | Pass | Pass | Pass | - |
+| maple | Pass | Pass | Pass | Pass | Pass | - |
+| marsh | Pass | Pass | Pass | Pass | Pass | - |
+| mast | Pass | Pass | Pass | Pass | Pass | - |
+| moat | Pass | Pass | Pass | Pass | Pass | - |
+| mortar | Pass | Pass | Pass | Pass | Pass | - |
+| mosaic | Pass | Pass | Pass | Pass | Pass | - |
+| mulberry | Pass | Pass | Pass | Pass | Pass | - |
+| muzzle | Pass | Pass | Pass | Pass | Pass | - |
+| nectar | Pass | Pass | Pass | Pass | Pass | - |
+| nettle | Pass | Pass | Pass | Pass | Pass | - |
+| nozzle | Pass | Pass | Pass | Pass | Pass | - |
+| nutmeg | Pass | Pass | Pass | Pass | Pass | - |
+| oar | Pass | Pass | Pass | Pass | Pass | - |
+| oasis | Pass | Pass | Pass | Pass | Pass | - |
+| olive | Pass | Pass | Pass | Pass | Pass | - |
+| ore | Pass | Pass | Pass | Pass | Pass | - |
+| otter | Pass | Pass | Pass | Pass | Pass | - |
+| pagoda | Pass | Pass | Pass | Pass | Pass | - |
+| parchment | Pass | Pass | Pass | Pass | Pass | - |
+| parsley | Pass | Pass | Pass | Pass | Pass | - |
+| pasture | Pass | Pass | Pass | Pass | Pass | - |
+| pebble | Pass | Pass | Pass | Pass | Pass | - |
+| pelican | Pass | Pass | Pass | Pass | Pass | - |
+| pendant | Pass | Pass | Pass | Pass | Pass | - |
+| pier | Pass | Pass | Pass | Pass | Pass | - |
+| pigment | Pass | Pass | Pass | Pass | Pass | - |
+| carefully | Pass | Pass | Pass | Pass | Pass | - |
+| accept | Pass | Pass | Pass | Pass | Pass | - |
+| quite | Pass | Pass | Pass | Pass | Pass | - |
+| rise | Pass | Pass | Pass | Pass | Pass | - |
+| although | Pass | Pass | Pass | Pass | Pass | - |
+| unless | Pass | Pass | Pass | Pass | Pass | - |
+| seldom | Pass | Pass | Pass | Pass | Pass | - |
+| eventually | Pass | Pass | Pass | Pass | Pass | - |
