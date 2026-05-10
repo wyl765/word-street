@@ -14,13 +14,13 @@
   "files": {
     "words-level1.js": {
       "totalWords": 600,
-      "currentGate": 2,
+      "currentGate": 3,
       "gate1": "pass",
       "gate2": "pending",
       "gate3": "pending",
       "gate4": "pending",
       "gate5": "pending",
-      "gate6": "pending"
+      "gate6": "pass"
     },
     "words-level2.js": {
       "totalWords": 552,
