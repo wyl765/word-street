@@ -1,47 +1,67 @@
 #!/usr/bin/env node
 /**
- * Gate 2: N-version Consensus Validation
+ * Gate 2: N-version Consensus Validation (AI-powered)
  * 
- * For each word in a word bank, independently generates a definition
- * suitable for a 10-year-old ESL learner, then compares it with our
- * existing definition for semantic consistency.
+ * For each word, asks AI to independently generate a definition,
+ * then uses AI to compare it with our existing definition for semantic consistency.
  * 
- * No external API needed — uses keyword overlap / semantic heuristics.
+ * Falls back to rule-based checks if AI calls fail.
  * 
  * Usage: node gate2-consensus.mjs words-level1.js [--sample N]
  */
 
 import { readFileSync } from 'fs';
 import { basename } from 'path';
+import { execSync } from 'child_process';
+
+// --- AI helper ---
+function askAI(prompt) {
+  try {
+    const escaped = prompt.replace(/"/g, '\\"').replace(/\n/g, '\\n');
+    const result = execSync(
+      `openclaw infer model run --model "github-copilot/gpt-5.2" --prompt "${escaped}"`,
+      { timeout: 30000 }
+    ).toString();
+    const lines = result.split('\n');
+    const outputIdx = lines.findIndex(l => l.startsWith('outputs:'));
+    return outputIdx >= 0 ? lines.slice(outputIdx + 1).join('\n').trim() : result.trim();
+  } catch (e) {
+    return null;
+  }
+}
+
+function sleep(ms) {
+  const end = Date.now() + ms;
+  while (Date.now() < end) { /* busy wait */ }
+}
 
 // --- Word bank loader ---
 function loadBank(filePath) {
   const src = readFileSync(filePath, 'utf-8');
-  // Extract array from: const LEVELX_BANK=[...];
   const match = src.match(/=\s*(\[[\s\S]*\])\s*;/);
   if (!match) throw new Error('Cannot parse word bank array from ' + filePath);
-  // Safe-ish eval via Function constructor (trusted local file)
-  const arr = new Function('return ' + match[1])();
-  return arr;
+  return new Function('return ' + match[1])();
 }
 
-// --- Naive independent definition generator ---
-// Generates a "what a 10-year-old ESL kid would say" definition
-// using simple pattern rules based on common word categories.
+// --- AI-powered independent definition ---
 function generateIndependentDefinition(word, level) {
-  // We don't have an LLM, so we return null and rely on comparison heuristics
-  // that work directly on our definition's keywords.
-  return null;
+  const prompt = `You are writing a children's dictionary for 10-year-old ESL students. Write a simple, clear definition for the word "${word}" (Level ${level}). Use only words a 2nd-3rd grader would know. Reply with ONLY the definition, nothing else.`;
+  return askAI(prompt);
 }
 
-// --- Semantic comparison ---
-function normalizeText(text) {
-  return text.toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '')
-    .split(/\s+/)
-    .filter(w => w.length > 2);
+// --- AI-powered comparison ---
+function compareDefinitions(word, ourDef, aiDef) {
+  const prompt = `Compare these two definitions for "${word}":\nDefinition A: "${ourDef}"\nDefinition B: "${aiDef}"\nAre they semantically equivalent (same core meaning)?\nReply with ONLY one word: MATCH, PARTIAL, or MISMATCH`;
+  const result = askAI(prompt);
+  if (!result) return null;
+  const upper = result.toUpperCase().trim();
+  if (upper.includes('MATCH') && !upper.includes('MISMATCH') && !upper.includes('PARTIAL')) return 'MATCH';
+  if (upper.includes('MISMATCH')) return 'MISMATCH';
+  if (upper.includes('PARTIAL')) return 'PARTIAL';
+  return 'PARTIAL'; // default if unclear
 }
 
+// --- Fallback rule-based checks ---
 const STOP_WORDS = new Set([
   'the', 'that', 'this', 'with', 'from', 'have', 'has', 'had',
   'are', 'was', 'were', 'been', 'being', 'for', 'and', 'not',
@@ -56,144 +76,38 @@ const STOP_WORDS = new Set([
 ]);
 
 function getContentWords(text) {
-  return normalizeText(text).filter(w => !STOP_WORDS.has(w));
+  return text.toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .split(/\s+/)
+    .filter(w => w.length > 2 && !STOP_WORDS.has(w));
 }
 
-// Build a simple synonym / related-word map for common definition patterns
-const SYNONYM_GROUPS = [
-  ['small', 'little', 'tiny', 'mini'],
-  ['big', 'large', 'huge', 'enormous', 'gigantic'],
-  ['baby', 'young', 'child', 'infant', 'newborn'],
-  ['house', 'home', 'building', 'dwelling'],
-  ['country', 'countryside', 'rural', 'village'],
-  ['city', 'town', 'urban'],
-  ['ocean', 'sea', 'water', 'marine'],
-  ['happy', 'glad', 'cheerful', 'joyful', 'pleased'],
-  ['sad', 'unhappy', 'miserable', 'gloomy'],
-  ['scared', 'afraid', 'frightened', 'terrified', 'fearful'],
-  ['angry', 'mad', 'furious', 'upset'],
-  ['fast', 'quick', 'rapid', 'swift', 'quickly'],
-  ['slow', 'slowly', 'gradual'],
-  ['food', 'meal', 'dish', 'snack'],
-  ['animal', 'creature', 'beast'],
-  ['bird', 'fowl', 'avian'],
-  ['insect', 'bug', 'pest'],
-  ['plant', 'vegetation', 'flora'],
-  ['tree', 'wood', 'timber'],
-  ['rock', 'stone', 'boulder', 'pebble'],
-  ['path', 'trail', 'road', 'way', 'route'],
-  ['cut', 'slice', 'chop', 'trim'],
-  ['wet', 'damp', 'moist', 'soaking'],
-  ['dry', 'arid', 'parched'],
-  ['cold', 'chilly', 'cool', 'freezing', 'icy'],
-  ['hot', 'warm', 'boiling', 'burning'],
-  ['soft', 'gentle', 'smooth', 'tender'],
-  ['hard', 'tough', 'firm', 'solid', 'rigid'],
-  ['bright', 'shiny', 'glowing', 'sparkling', 'gleaming'],
-  ['dark', 'dim', 'gloomy', 'shadowy'],
-  ['move', 'walk', 'run', 'travel', 'go'],
-  ['look', 'see', 'watch', 'stare', 'gaze', 'glance', 'peek'],
-  ['speak', 'talk', 'say', 'tell', 'shout', 'whisper', 'yell'],
-  ['throw', 'toss', 'hurl', 'fling'],
-  ['pull', 'tug', 'drag', 'yank'],
-  ['push', 'shove', 'press'],
-  ['clothes', 'clothing', 'garment', 'wear'],
-  ['cup', 'glass', 'mug', 'container'],
-  ['river', 'stream', 'creek', 'brook'],
-  ['hill', 'mountain', 'slope', 'ridge'],
-  ['land', 'ground', 'earth', 'soil', 'dirt'],
-  ['fix', 'repair', 'mend', 'restore'],
-  ['break', 'crack', 'shatter', 'smash'],
-];
-
-function buildSynonymMap() {
-  const map = new Map();
-  for (const group of SYNONYM_GROUPS) {
-    for (const word of group) {
-      if (!map.has(word)) map.set(word, new Set());
-      for (const other of group) {
-        if (other !== word) map.get(word).add(other);
-      }
-    }
-  }
-  return map;
-}
-
-const synonymMap = buildSynonymMap();
-
-function semanticOverlap(words1, words2) {
-  if (words1.length === 0 || words2.length === 0) return 0;
-  
-  const set2 = new Set(words2);
-  let matches = 0;
-  
-  for (const w of words1) {
-    if (set2.has(w)) {
-      matches++;
-      continue;
-    }
-    // Check synonyms
-    const syns = synonymMap.get(w);
-    if (syns) {
-      for (const s of syns) {
-        if (set2.has(s)) { matches++; break; }
-      }
-    }
-  }
-  
-  // Jaccard-like but weighted toward recall from definition1
-  const precision = matches / words1.length;
-  return precision;
-}
-
-/**
- * N-version consensus: Instead of generating a second definition via LLM,
- * we validate our definition against multiple heuristic "perspectives":
- * 
- * 1. Does the definition contain the word itself? (circular check)
- * 2. Is the definition specific enough? (not too short / too generic)
- * 3. Does the example sentence reinforce the definition? (keyword overlap)
- * 4. Could the definition apply to common confusable words?
- */
-function assessConsensus(entry) {
+function ruleBasedAssess(entry) {
   const { word, definition, example } = entry;
   const defWords = getContentWords(definition);
   const exWords = getContentWords(example);
-  const wordLower = word.toLowerCase().replace(/\s+/g, ' ');
+  const wordLower = word.toLowerCase();
   const issues = [];
 
-  // Check 1: Circular definition (contains the word itself)
-  const wordParts = wordLower.split(' ');
-  const defLower = definition.toLowerCase();
-  for (const part of wordParts) {
-    if (part.length > 3 && defLower.includes(part)) {
-      // Allow for phrasal verbs / compound words where part appears naturally
-      if (wordParts.length === 1) {
-        issues.push(`circular: definition contains "${part}"`);
-      }
+  // Circular definition
+  if (wordLower.length > 3 && definition.toLowerCase().includes(wordLower)) {
+    if (!wordLower.includes(' ')) {
+      issues.push(`circular: definition contains "${wordLower}"`);
     }
   }
 
-  // Check 2: Definition too short or too generic
+  // Too short
   if (defWords.length < 2) {
     issues.push('definition too short');
   }
 
-  // Check 3: Example reinforces definition
-  const exampleOverlap = semanticOverlap(defWords, exWords);
-  if (exampleOverlap < 0.1 && defWords.length > 3) {
-    issues.push(`weak example-definition link (overlap: ${(exampleOverlap * 100).toFixed(0)}%)`);
-  }
-
-  // Check 4: Definition uses age-appropriate language
+  // Complex words
   const hardWords = defWords.filter(w => w.length > 10);
   if (hardWords.length > 0) {
     issues.push(`complex words in definition: ${hardWords.join(', ')}`);
   }
 
-  // Determine verdict
   if (issues.length === 0) return { verdict: 'MATCH', issues: [] };
-  
   const hasCritical = issues.some(i => i.startsWith('circular') || i === 'definition too short');
   if (hasCritical) return { verdict: 'MISMATCH', issues };
   return { verdict: 'PARTIAL', issues };
@@ -216,22 +130,47 @@ function main() {
 
   const bank = loadBank(filePath);
   let words = bank;
-  
+
   if (sampleSize && sampleSize < words.length) {
-    // Random sample
     const shuffled = [...words].sort(() => Math.random() - 0.5);
     words = shuffled.slice(0, sampleSize);
   }
 
+  // Extract level from filename
+  const levelMatch = basename(filePath).match(/level(\w+)/i);
+  const level = levelMatch ? levelMatch[1] : '?';
+
   const results = { MATCH: [], PARTIAL: [], MISMATCH: [] };
 
-  for (const entry of words) {
-    const { verdict, issues } = assessConsensus(entry);
-    results[verdict].push({ word: entry.word, definition: entry.definition, issues });
+  for (let i = 0; i < words.length; i++) {
+    const entry = words[i];
+    console.log(`[${i + 1}/${words.length}] Testing: ${entry.word}...`);
+
+    // Try AI-powered consensus
+    const aiDef = generateIndependentDefinition(entry.word, level);
+    sleep(200); // rate limit buffer
+
+    if (aiDef) {
+      const comparison = compareDefinitions(entry.word, entry.definition, aiDef);
+      sleep(200);
+
+      if (comparison) {
+        const issues = comparison !== 'MATCH'
+          ? [`AI def: "${aiDef}" → ${comparison}`]
+          : [];
+        results[comparison].push({ word: entry.word, definition: entry.definition, aiDef, issues });
+        continue;
+      }
+    }
+
+    // Fallback to rule-based
+    console.log(`  (AI unavailable, using rule-based fallback)`);
+    const { verdict, issues } = ruleBasedAssess(entry);
+    results[verdict].push({ word: entry.word, definition: entry.definition, aiDef: null, issues });
   }
 
   const total = words.length;
-  console.log(`\n=== Gate 2: N-version Consensus ===`);
+  console.log(`\n=== Gate 2: N-version Consensus (AI-powered) ===`);
   console.log(`File: ${basename(filePath)} (${bank.length} words, tested ${total})`);
   console.log(`MATCH:    ${results.MATCH.length} (${(results.MATCH.length / total * 100).toFixed(1)}%)`);
   console.log(`PARTIAL:  ${results.PARTIAL.length} (${(results.PARTIAL.length / total * 100).toFixed(1)}%)`);
@@ -240,14 +179,18 @@ function main() {
   if (results.MISMATCH.length > 0) {
     console.log(`\nMISMATCH details:`);
     for (const r of results.MISMATCH) {
-      console.log(`  ${r.word} — "${r.definition}" → ${r.issues.join('; ')}`);
+      console.log(`  ${r.word} — ours: "${r.definition}"`);
+      if (r.aiDef) console.log(`    AI def: "${r.aiDef}"`);
+      if (r.issues.length) console.log(`    Issues: ${r.issues.join('; ')}`);
     }
   }
 
   if (results.PARTIAL.length > 0) {
     console.log(`\nPARTIAL details:`);
     for (const r of results.PARTIAL) {
-      console.log(`  ${r.word} — "${r.definition}" → ${r.issues.join('; ')}`);
+      console.log(`  ${r.word} — ours: "${r.definition}"`);
+      if (r.aiDef) console.log(`    AI def: "${r.aiDef}"`);
+      if (r.issues.length) console.log(`    Issues: ${r.issues.join('; ')}`);
     }
   }
 

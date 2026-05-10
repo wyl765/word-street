@@ -1,14 +1,34 @@
 #!/usr/bin/env node
 /**
- * Gate 3: 8-Attribute Tests (Rule-based, no LLM required)
- * 
- * Tests each word entry against 8 quality dimensions using heuristic rules.
+ * Gate 3: 8-Attribute Tests (AI-enhanced for Tests 1,2,5,6; rule-based for 3,4,7,8)
  * 
  * Usage: node gate3-attribute-test.mjs words-level1.js [--sample 50]
  */
 
 import { readFileSync } from 'fs';
 import { basename } from 'path';
+import { execSync } from 'child_process';
+
+// --- AI helper ---
+function askAI(prompt) {
+  try {
+    const escaped = prompt.replace(/"/g, '\\"').replace(/\n/g, '\\n');
+    const result = execSync(
+      `openclaw infer model run --model "github-copilot/gpt-5.2" --prompt "${escaped}"`,
+      { timeout: 30000 }
+    ).toString();
+    const lines = result.split('\n');
+    const outputIdx = lines.findIndex(l => l.startsWith('outputs:'));
+    return outputIdx >= 0 ? lines.slice(outputIdx + 1).join('\n').trim() : result.trim();
+  } catch (e) {
+    return null;
+  }
+}
+
+function sleep(ms) {
+  const end = Date.now() + ms;
+  while (Date.now() < end) { /* busy wait */ }
+}
 
 // --- Word bank loader ---
 function loadBank(filePath) {
@@ -47,199 +67,212 @@ function jaccard(a, b) {
   return union === 0 ? 0 : inter / union;
 }
 
-// ==== TEST 1: Definition Uniqueness ====
-// Check if definition keywords are unique enough to distinguish this word
-// from other words in the same level. Low overlap with others = pass.
-function test1_definitionUniqueness(entry, allEntries) {
-  const defWords = getContentWords(entry.definition);
-  let maxSim = 0;
-  let mostSimilar = null;
-  
-  for (const other of allEntries) {
-    if (other.word === entry.word) continue;
-    const otherWords = getContentWords(other.definition);
-    const sim = jaccard(defWords, otherWords);
-    if (sim > maxSim) {
-      maxSim = sim;
-      mostSimilar = other.word;
+// Pick N random distractors from bank (different from target)
+function pickDistractors(target, bank, n = 3) {
+  const others = bank.filter(e => e.word !== target.word);
+  const shuffled = others.sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, n);
+}
+
+// ==== TEST 1: Definition Uniqueness (AI-powered) ====
+// Give AI the definition + 4 word choices, see if it picks the right word
+function test1_definitionUniqueness(entry, bank) {
+  const distractors = pickDistractors(entry, bank, 3);
+  const options = [entry, ...distractors].sort(() => Math.random() - 0.5);
+  const correctIdx = options.findIndex(o => o.word === entry.word);
+
+  const optionList = options.map((o, i) => `${i + 1}. ${o.word}`).join('\\n');
+  const prompt = `Here is a definition for a word: "${entry.definition}"\\nWhich word does this definition describe?\\n${optionList}\\nReply with ONLY the number (1, 2, 3, or 4).`;
+
+  const result = askAI(prompt);
+  sleep(150);
+
+  if (result) {
+    const chosen = parseInt(result.trim().replace(/[^0-9]/g, ''));
+    if (chosen === correctIdx + 1) {
+      return { pass: true };
     }
+    const chosenWord = options[chosen - 1]?.word || '?';
+    return { pass: false, detail: `AI chose "${chosenWord}" instead of "${entry.word}"` };
   }
-  
-  // If most similar definition has Jaccard > 0.6, it's too similar
-  if (maxSim > 0.6) {
-    return { pass: false, detail: `too similar to "${mostSimilar}" (similarity: ${(maxSim * 100).toFixed(0)}%)` };
+
+  // Fallback to rule-based
+  return test1_fallback(entry, bank);
+}
+
+function test1_fallback(entry, bank) {
+  const defWords = getContentWords(entry.definition);
+  let maxSim = 0, mostSimilar = null;
+  for (const other of bank) {
+    if (other.word === entry.word) continue;
+    const sim = jaccard(defWords, getContentWords(other.definition));
+    if (sim > maxSim) { maxSim = sim; mostSimilar = other.word; }
   }
+  if (maxSim > 0.6) return { pass: false, detail: `too similar to "${mostSimilar}" (${(maxSim*100).toFixed(0)}%)` };
   return { pass: true };
 }
 
-// ==== TEST 2: Example Cloze ====
-// Does the example sentence contain the target word? If not, cloze test impossible.
-// Also check if the word appears naturally (not forced).
-function test2_exampleCloze(entry) {
+// ==== TEST 2: Example Cloze (AI-powered) ====
+// Mask the word in the example, give 4 choices, see if AI picks correctly
+function test2_exampleCloze(entry, bank) {
+  const wordLower = entry.word.toLowerCase();
+  const exLower = entry.example.toLowerCase();
+
+  // Create masked example
+  let masked = entry.example;
+  const regex = new RegExp(entry.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+  masked = masked.replace(regex, '___');
+  // Also try common inflections
+  for (const suffix of ['s', 'es', 'ed', 'd', 'ing', 'er', 'est']) {
+    const inflected = new RegExp(wordLower.replace(/e$/, '') + suffix, 'gi');
+    masked = masked.replace(inflected, '___');
+  }
+
+  if (!masked.includes('___')) {
+    // Can't mask — word not in example
+    return { pass: false, detail: `word "${entry.word}" not found in example` };
+  }
+
+  const distractors = pickDistractors(entry, bank, 3);
+  const options = [entry, ...distractors].sort(() => Math.random() - 0.5);
+  const correctIdx = options.findIndex(o => o.word === entry.word);
+
+  const optionList = options.map((o, i) => `${i + 1}. ${o.word}`).join('\\n');
+  const prompt = `Fill in the blank: "${masked}"\\nWhich word best fits?\\n${optionList}\\nReply with ONLY the number (1, 2, 3, or 4).`;
+
+  const result = askAI(prompt);
+  sleep(150);
+
+  if (result) {
+    const chosen = parseInt(result.trim().replace(/[^0-9]/g, ''));
+    if (chosen === correctIdx + 1) {
+      return { pass: true };
+    }
+    const chosenWord = options[chosen - 1]?.word || '?';
+    return { pass: false, detail: `AI chose "${chosenWord}" for cloze instead of "${entry.word}"` };
+  }
+
+  // Fallback
+  return test2_fallback(entry);
+}
+
+function test2_fallback(entry) {
   const exLower = entry.example.toLowerCase();
   const wordLower = entry.word.toLowerCase();
-  const wordParts = wordLower.split(' ');
-  
-  // For phrasal verbs, check all parts exist
-  if (wordParts.length > 1) {
-    const allPresent = wordParts.every(p => exLower.includes(p));
-    if (!allPresent) return { pass: false, detail: 'example missing parts of phrasal verb' };
-    return { pass: true };
-  }
-  
-  // Check word or its base form appears in example
   if (!exLower.includes(wordLower) && !exLower.includes(wordLower + 's') &&
-      !exLower.includes(wordLower + 'ed') && !exLower.includes(wordLower + 'ing') &&
-      !exLower.includes(wordLower + 'd') && !exLower.includes(wordLower + 'es')) {
-    // Try stemming: remove trailing e, double consonant patterns
+      !exLower.includes(wordLower + 'ed') && !exLower.includes(wordLower + 'ing')) {
     const stem = wordLower.replace(/e$/, '');
     if (stem.length > 2 && (exLower.includes(stem + 'ing') || exLower.includes(stem + 'ed'))) {
       return { pass: true };
     }
-    // Irregular forms check - very basic
     return { pass: false, detail: `word "${entry.word}" not found in example` };
   }
   return { pass: true };
 }
 
-// ==== TEST 3: imageKeyword Relevance ====
-// Check that imageKeyword contains the word or related terms from definition
+// ==== TEST 3: imageKeyword Relevance (rule-based) ====
 function test3_imageKeyword(entry) {
   const ikLower = (entry.imageKeyword || '').toLowerCase();
   const wordLower = entry.word.toLowerCase();
   const defWords = getContentWords(entry.definition);
-  
   if (!ikLower) return { pass: false, detail: 'no imageKeyword' };
-  
-  // imageKeyword should relate to word or definition
   const ikWords = getContentWords(ikLower);
   const wordParts = wordLower.split(' ');
-  
-  // Check if word or any word part is in imageKeyword
   const hasWord = wordParts.some(p => ikLower.includes(p));
-  // Check if at least one definition content word is in imageKeyword
   const hasDefWord = defWords.some(w => ikLower.includes(w));
-  
   if (!hasWord && !hasDefWord) {
-    return { pass: false, detail: `imageKeyword "${entry.imageKeyword}" unrelated to word or definition` };
+    return { pass: false, detail: `imageKeyword "${entry.imageKeyword}" unrelated` };
   }
   return { pass: true };
 }
 
-// ==== TEST 4: Definition Readability ====
-// All words in definition should be simple (<=8 chars or common)
+// ==== TEST 4: Definition Readability (rule-based) ====
 function test4_readability(entry) {
-  const words = entry.definition.toLowerCase()
-    .replace(/[^a-z\s'-]/g, '')
-    .split(/\s+/)
-    .filter(w => w.length > 0);
-  
-  // Simple readability: no word > 10 chars, and definition < 25 words
+  const words = entry.definition.toLowerCase().replace(/[^a-z\s'-]/g, '').split(/\s+/).filter(w => w.length > 0);
   const longWords = words.filter(w => w.length > 10);
-  if (longWords.length > 0) {
-    return { pass: false, detail: `complex words: ${longWords.join(', ')}` };
-  }
-  if (words.length > 25) {
-    return { pass: false, detail: `definition too long (${words.length} words)` };
-  }
+  if (longWords.length > 0) return { pass: false, detail: `complex words: ${longWords.join(', ')}` };
+  if (words.length > 25) return { pass: false, detail: `definition too long (${words.length} words)` };
   return { pass: true };
 }
 
-// ==== TEST 5: Distractor Discrimination ====
-// Check that definition doesn't overlap heavily with same-level peers
-// (stricter than Test 1 — checks for confusion potential)
-function test5_distractorDiscrim(entry, allEntries) {
+// ==== TEST 5: Distractor Discrimination (AI-powered) ====
+// Give AI 4 words' definitions shuffled, ask it to match each def to a word
+function test5_distractorDiscrim(entry, bank) {
+  const distractors = pickDistractors(entry, bank, 3);
+  const group = [entry, ...distractors].sort(() => Math.random() - 0.5);
+
+  const defList = group.map((e, i) => `Definition ${i + 1}: "${e.definition}"`).join('\\n');
+  const wordList = group.map(e => e.word).sort(() => Math.random() - 0.5);
+  const wordStr = wordList.join(', ');
+
+  const prompt = `Match each definition to the correct word.\\n${defList}\\nWords: ${wordStr}\\nFor the word "${entry.word}", which definition number matches it? Reply with ONLY the number.`;
+
+  const result = askAI(prompt);
+  sleep(150);
+
+  if (result) {
+    const chosen = parseInt(result.trim().replace(/[^0-9]/g, ''));
+    const correctIdx = group.findIndex(e => e.word === entry.word) + 1;
+    if (chosen === correctIdx) return { pass: true };
+    return { pass: false, detail: `AI matched "${entry.word}" to wrong definition (chose ${chosen}, correct ${correctIdx})` };
+  }
+
+  // Fallback
+  return test5_fallback(entry, bank);
+}
+
+function test5_fallback(entry, bank) {
   const defWords = getContentWords(entry.definition);
   const confusables = [];
-  
-  for (const other of allEntries) {
+  for (const other of bank) {
     if (other.word === entry.word) continue;
-    const otherWords = getContentWords(other.definition);
-    const sim = jaccard(defWords, otherWords);
-    if (sim > 0.5) confusables.push(other.word);
+    if (jaccard(defWords, getContentWords(other.definition)) > 0.5) confusables.push(other.word);
   }
-  
-  if (confusables.length > 0) {
-    return { pass: false, detail: `confusable with: ${confusables.slice(0, 3).join(', ')}` };
-  }
+  if (confusables.length > 0) return { pass: false, detail: `confusable with: ${confusables.slice(0,3).join(', ')}` };
   return { pass: true };
 }
 
-// ==== TEST 6: Collocation Naturalness ====
-// Check example has natural structure (has subject, verb pattern)
+// ==== TEST 6: Collocation Naturalness (AI-powered) ====
 function test6_collocation(entry) {
+  const prompt = `Is this sentence natural English that a native speaker would say?\\n"${entry.example}"\\nReply with ONLY YES or NO.`;
+  const result = askAI(prompt);
+  sleep(150);
+
+  if (result) {
+    const upper = result.toUpperCase().trim();
+    if (upper.includes('YES')) return { pass: true };
+    if (upper.includes('NO')) return { pass: false, detail: `AI says example is unnatural: "${entry.example}"` };
+  }
+
+  // Fallback
+  return test6_fallback(entry);
+}
+
+function test6_fallback(entry) {
   const ex = entry.example;
-  // Basic checks: starts with capital, ends with punctuation, reasonable length
-  if (!ex.match(/^[A-Z]/)) return { pass: false, detail: 'example does not start with capital' };
-  if (!ex.match(/[.!?]$/)) return { pass: false, detail: 'example does not end with punctuation' };
-  const wordCount = ex.split(/\s+/).length;
-  if (wordCount < 4) return { pass: false, detail: 'example too short' };
-  if (wordCount > 25) return { pass: false, detail: 'example too long for ESL child' };
+  if (!ex.match(/^[A-Z]/)) return { pass: false, detail: 'no capital start' };
+  if (!ex.match(/[.!?]$/)) return { pass: false, detail: 'no end punctuation' };
+  const wc = ex.split(/\s+/).length;
+  if (wc < 4) return { pass: false, detail: 'too short' };
+  if (wc > 25) return { pass: false, detail: 'too long for ESL child' };
   return { pass: true };
 }
 
-// ==== TEST 7: Reverse Validation ====
-// Check that definition has distinguishing modifiers (not just "a thing")
+// ==== TEST 7: Reverse Validation (rule-based) ====
 function test7_reverseValidation(entry) {
-  const def = entry.definition.toLowerCase();
-  const defWords = getContentWords(def);
-  
-  // Too generic patterns
-  const genericPatterns = [
-    /^a thing$/,
-    /^something$/,
-    /^a type of thing$/,
-  ];
-  
-  for (const p of genericPatterns) {
-    if (p.test(def)) return { pass: false, detail: 'definition too generic' };
-  }
-  
-  // Must have at least 2 content words to be specific
-  if (defWords.length < 2) {
-    return { pass: false, detail: 'definition lacks specificity' };
-  }
-  
+  const defWords = getContentWords(entry.definition.toLowerCase());
+  if (defWords.length < 2) return { pass: false, detail: 'definition lacks specificity' };
   return { pass: true };
 }
 
-// ==== TEST 8: Game Compatibility ====
-// Check all 4 game modes can work:
-// 1. 看图选词: imageKeyword exists and is relevant
-// 2. 听音选图: word is pronounceable (not too complex)
-// 3. 看图拼词: word length reasonable for spelling
-// 4. 语境选词: example has clear context clue
+// ==== TEST 8: Game Compatibility (rule-based) ====
 function test8_gameCompatibility(entry) {
   const issues = [];
-  
-  // Mode 1: Image selection - need good imageKeyword
-  if (!entry.imageKeyword || entry.imageKeyword.length < 2) {
-    issues.push('no imageKeyword for image-select mode');
-  }
-  
-  // Mode 2: Audio - word should be reasonably pronounceable
-  // Skip - all English words are pronounceable
-  
-  // Mode 3: Spelling - word length check
-  const wordLen = entry.word.replace(/\s+/g, '').length;
-  if (wordLen > 15) {
-    issues.push(`word too long for spelling game (${wordLen} chars)`);
-  }
-  
-  // Mode 4: Context selection - example should give enough context
-  const exWords = entry.example.split(/\s+/).length;
-  if (exWords < 5) {
-    issues.push('example too short for context-select mode');
-  }
-  
-  // Check that definition is not identical to word (useless for quizzing)
-  if (entry.definition.toLowerCase().trim() === entry.word.toLowerCase().trim()) {
-    issues.push('definition equals word');
-  }
-  
-  if (issues.length > 0) {
-    return { pass: false, detail: issues.join('; ') };
-  }
+  if (!entry.imageKeyword || entry.imageKeyword.length < 2) issues.push('no imageKeyword');
+  if (entry.word.replace(/\s+/g, '').length > 15) issues.push('word too long for spelling');
+  if (entry.example.split(/\s+/).length < 5) issues.push('example too short for context-select');
+  if (entry.definition.toLowerCase().trim() === entry.word.toLowerCase().trim()) issues.push('definition equals word');
+  if (issues.length > 0) return { pass: false, detail: issues.join('; ') };
   return { pass: true };
 }
 
@@ -263,21 +296,23 @@ function main() {
   }
 
   const tests = [
-    { name: 'Definition Uniqueness', fn: (e) => test1_definitionUniqueness(e, bank) },
-    { name: 'Example Cloze',         fn: (e) => test2_exampleCloze(e) },
-    { name: 'imageKeyword Relevance', fn: (e) => test3_imageKeyword(e) },
-    { name: 'Definition Readability', fn: (e) => test4_readability(e) },
-    { name: 'Distractor Discrim',     fn: (e) => test5_distractorDiscrim(e, bank) },
-    { name: 'Collocation Natural',    fn: (e) => test6_collocation(e) },
-    { name: 'Reverse Validation',     fn: (e) => test7_reverseValidation(e) },
-    { name: 'Game Compatibility',     fn: (e) => test8_gameCompatibility(e) },
+    { name: 'Definition Uniqueness (AI)', fn: (e) => test1_definitionUniqueness(e, bank) },
+    { name: 'Example Cloze (AI)',         fn: (e) => test2_exampleCloze(e, bank) },
+    { name: 'imageKeyword Relevance',     fn: (e) => test3_imageKeyword(e) },
+    { name: 'Definition Readability',     fn: (e) => test4_readability(e) },
+    { name: 'Distractor Discrim (AI)',    fn: (e) => test5_distractorDiscrim(e, bank) },
+    { name: 'Collocation Natural (AI)',   fn: (e) => test6_collocation(e) },
+    { name: 'Reverse Validation',         fn: (e) => test7_reverseValidation(e) },
+    { name: 'Game Compatibility',         fn: (e) => test8_gameCompatibility(e) },
   ];
 
   const total = words.length;
   const testResults = tests.map(() => ({ pass: 0, fails: [] }));
   let allPass = 0;
 
-  for (const entry of words) {
+  for (let wi = 0; wi < words.length; wi++) {
+    const entry = words[wi];
+    console.log(`[${wi + 1}/${total}] Testing: ${entry.word}`);
     let entryAllPass = true;
     for (let i = 0; i < tests.length; i++) {
       const r = tests[i].fn(entry);
@@ -291,7 +326,7 @@ function main() {
     if (entryAllPass) allPass++;
   }
 
-  console.log(`\n=== Gate 3: Attribute Tests ===`);
+  console.log(`\n=== Gate 3: Attribute Tests (AI-enhanced) ===`);
   console.log(`File: ${basename(filePath)} (${bank.length} words, tested ${total})\n`);
 
   for (let i = 0; i < tests.length; i++) {
@@ -303,7 +338,6 @@ function main() {
 
   console.log(`\nOVERALL: ${allPass}/${total} all-pass (${(allPass / total * 100).toFixed(1)}%)`);
 
-  // Print fail details (limit to 10 per test)
   let hasFails = false;
   for (let i = 0; i < tests.length; i++) {
     const fails = testResults[i].fails;
@@ -312,9 +346,7 @@ function main() {
       for (const f of fails.slice(0, 10)) {
         console.log(`  ${f.word} — Test ${i + 1} FAIL: ${f.detail}`);
       }
-      if (fails.length > 10) {
-        console.log(`  ... and ${fails.length - 10} more Test ${i + 1} failures`);
-      }
+      if (fails.length > 10) console.log(`  ... and ${fails.length - 10} more Test ${i + 1} failures`);
     }
   }
   console.log('');
