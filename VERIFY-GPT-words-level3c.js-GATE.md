@@ -1,0 +1,199 @@
+# VERIFY-GPT — words-level3c.js — GATE
+
+规则速记：L5=10岁中国ESL(约二年级)看definition/猜词；L6=遮词做四选一能否唯一；L7=文化敏感；L8=level与学习路径。
+
+- **advance** — L5:勉强(“move forward/progress”两个抽象词); L6:不唯一(advance/progress 都通); L7:OK; L8:偏难(抽象动词, 建议放在更具体的move/forward后)
+- **affordable** — L5:不懂(形容词+否定“not too expensive”可懂但词形难); L6:唯一(价格语境强); L7:OK; L8:偏难(建议先学cheap/price)
+- **analyze** — L5:不懂(抽象“look with care/understand”); L6:唯一(科学数据语境较强但仍可能=study); L7:OK; L8:偏难(建议先learn: study/look closely)
+- **apply** — L5:不懂(多义:申请/涂抹/应用); L6:不唯一(涂抹=put on/apply 两者); L7:OK; L8:偏难(多义词, 建议拆成apply for / apply (use) / apply (put on))
+- **burden** — L5:不懂(名词抽象“hard to carry/deal with”); L6:唯一(“six library books…was a ___”还行); L7:OK; L8:偏难(建议先heavy/problem)
+- **cancel** — L5:勉强(“planned will not happen”能懂); L6:唯一(练习取消语境强); L7:OK; L8:合适(常用)
+- **device** — L5:勉强(tool/machine能懂); L6:唯一(thermometer是___); L7:OK; L8:合适
+- **elect** — L5:不懂(投票选择概念+词形); L6:唯一(“ballot box”提示强); L7:OK; L8:偏难(需先vote/choose)
+- **emphasize** — L5:不懂(抽象+词形长); L6:唯一(underline to ___); L7:OK; L8:偏难(先important/underline)
+- **exclaim** — L5:不懂(“suddenly with strong feeling”抽象); L6:唯一(引号+感叹提示); L7:OK; L8:偏难(先shout/say)
+- **frustrate** — L5:不懂(情绪词+动词); L6:唯一(拼图卡住提示); L7:OK; L8:偏难(先sad/angry/upset)
+- **glimpse** — L5:不懂(“quick look”可理解但词难); L6:唯一(“caught a ___ of tail”搭配强); L7:OK; L8:偏难(先look/see)
+- **govern** — L5:不懂(抽象“make rules/decisions”); L6:不唯一(govern/manage/run 都像); L7:OK; L8:偏难(先rule/leader)
+- **idle** — L5:不懂(“not being used”抽象); L6:唯一(秋千没人用); L7:OK; L8:偏难(先empty/not used)
+- **invest** — L5:不懂(金融概念); L6:不唯一(invest/save/spend 都可能, 需更像“for profit”); L7:OK; L8:偏难(对二年级过早)
+- **manner** — L5:勉强(礼貌语境能猜); L6:不唯一(manner/way 都行); L7:OK; L8:偏难(多义, 建议先way/polite)
+- **negative** — L5:不懂(数学/情绪多义); L6:唯一(“negative ten degrees”强提示); L7:OK; L8:偏难(需先zero/temperature)
+- **outcome** — L5:不懂(result抽象); L6:不唯一(outcome/result 都可); L7:OK; L8:偏难(先result/end)
+- **regulate** — L5:不懂(抽象“control”); L6:唯一(thermostat ___ heat); L7:OK; L8:偏难(先control)
+- **rhythm** — L5:不懂(音乐概念); L6:唯一(clap along to ___ of drum); L7:OK; L8:偏难(可放在music主题)
+- **risk** — L5:勉强(“chance bad”能懂); L6:唯一(beehive提示); L7:OK; L8:合适(常用)
+- **tension** — L5:不懂(抽象“worry/tightness”); L6:不唯一(tension/nervousness 类似); L7:OK; L8:偏难(先nervous/worried)
+- **typical** — L5:不懂(同义“usual/normal”需要基础); L6:唯一(“typical school day”强); L7:OK; L8:偏难(先usual/normal)
+- **basement** — L5:勉强(房屋部位可懂); L6:唯一(“under house”强); L7:OK; L8:合适
+- **blade** — L5:不懂(多义:刀刃/草叶); L6:唯一(“blade of grass”强); L7:OK; L8:偏难(多义, 建议分开教)
+- **canyon** — L5:不懂(地理词); L6:唯一(edge of ___ river below); L7:OK; L8:偏难(可配图片)
+- **chimney** — L5:不懂(生活物件但中国孩子未必熟); L6:唯一(smoke curled up from ___); L7:OK; L8:偏难(文化场景偏西式壁炉)
+- **chunk** — L5:勉强(“big piece”可懂); L6:唯一(chunk of watermelon); L7:OK; L8:合适
+- **creek** — L5:不懂(小溪=stream); L6:唯一(stones bottom of ___); L7:OK; L8:偏难(先stream/river)
+- **crisp** — L5:不懂(多义:脆/清爽); L6:不唯一(crisp/fresh 都像); L7:OK; L8:偏难(先fresh/crunchy)
+- **flask** — L5:不懂(实验器材); L6:唯一(purple liquid into glass ___); L7:OK; L8:偏难(理科主题可保留)
+- **foil** — L5:不懂(铝箔不常见词); L6:唯一(wrap pizza in ___); L7:OK; L8:偏难(先wrap/aluminum)
+- **gasp** — L5:不懂(动词细腻); L6:唯一(saw acrobat flip, she ___); L7:OK; L8:偏难(先surprised)
+- **glare** — L5:不懂(多义:强光/怒视); L6:唯一(snow too bright, ___); L7:OK; L8:偏难(多义, 建议拆义)
+- **glow** — L5:勉强(发光可懂); L6:唯一(candle made it ___ orange); L7:OK(万圣节南瓜灯可能陌生); L8:合适(但例句文化偏美式)
+- **hatch** — L5:不懂(破壳而出动词); L6:唯一(chick took hours to ___); L7:OK; L8:偏难(可配图片)
+- **hose** — L5:不懂(名词不常见); L6:唯一(garden ___); L7:OK; L8:偏难(先pipe/tube)
+- **inn** — L5:不懂(旅店同hotel); L6:唯一(cozy ___ with soup); L7:OK; L8:偏难(先hotel)
+- **jolt** — L5:不懂(“sudden shake”抽象); L6:唯一(bus hit bump, felt a ___); L7:OK; L8:偏难
+- **ledge** — L5:不懂(窗台/岩沿); L6:唯一(window ___); L7:OK; L8:偏难(先edge)
+- **lumber** — L5:不懂(木材); L6:唯一(truck delivered stack of ___); L7:OK; L8:偏难(先wood)
+- **mend** — L5:勉强(修补可猜); L6:唯一(needle thread to ___ hole); L7:OK; L8:合适(生活词)
+- **quarry** — L5:不懂(采石场); L6:唯一(marble came from ___); L7:OK; L8:偏难
+- **ridge** — L5:不懂(山脊); L6:唯一(from ___ see valleys); L7:OK; L8:偏难
+- **slope** — L5:勉强(斜坡可懂); L6:唯一(bikes down ___ of hill); L7:OK; L8:合适
+- **spout** — L5:不懂(喷口/壶嘴多义); L6:唯一(whale’s ___); L7:OK; L8:偏难(建议先spray)
+- **stump** — L5:不懂(树桩); L6:唯一(tree ___ as table); L7:OK; L8:偏难
+- **torch** — L5:不懂(英式torch=手电筒/火把多义); L6:不唯一(flashlight/torch 两种); L7:OK; L8:偏难(需明确美/英差异)
+- **wade** — L5:不懂(涉水走); L6:唯一(wade across stream); L7:OK; L8:偏难
+- **asteroid** — L5:不懂(太空名词); L6:唯一(size of school bus flew past Earth); L7:OK; L8:偏难(科普主题可保留)
+- **axis** — L5:不懂(抽象“imaginary line”); L6:唯一(Earth spins on its ___); L7:OK; L8:偏难(需先spin/line)
+- **carnivore** — L5:不懂(词根难); L6:唯一(lion is a ___); L7:OK; L8:偏难(建议与herbivore/omnivore成组但更靠后)
+- **census** — L5:不懂(政府统计概念); L6:唯一(every ten years government does a ___); L7:注意(偏美国“each state”语境, 中国家长可能觉得陌生); L8:偏难(社会学词, 可下沉到更高年级)
+- **chlorophyll** — L5:不懂(超长科学词); L6:唯一(makes leaves green); L7:OK; L8:偏难(远超二年级)
+- **crater** — L5:不懂; L6:唯一(moon covered in ___); L7:OK; L8:偏难
+- **crustacean** — L5:不懂(科学分类词); L6:唯一(lobster is a ___); L7:OK; L8:偏难
+- **digestive** — L5:不懂(系统词); L6:唯一(___ system turns sandwich into energy); L7:OK; L8:偏难
+- **elevation** — L5:不懂(抽象+测量); L6:唯一(elevation of 8,000 feet); L7:注意(英尺单位不友好); L8:偏难
+- **fertile** — L5:不懂(比喻/土壤义); L6:唯一(fertile soil grows corn); L7:OK; L8:偏难
+- **glacier** — L5:不懂; L6:唯一(carved valley over thousands years); L7:OK; L8:偏难
+- **herbivore** — L5:不懂; L6:唯一(rabbit is a ___); L7:OK; L8:偏难(与carnivore同组)
+- **humidity** — L5:不懂; L6:唯一(glasses fogged up); L7:OK; L8:偏难
+- **legislature** — L5:不懂(政府机构超纲); L6:唯一(voted to pass a new law); L7:注意(政治+美国学校recess, 文化距离); L8:偏难(建议移到更高level)
+- **molecule** — L5:不懂; L6:唯一(water ___ millions in drop); L7:OK; L8:偏难
+- **arid** — L5:不懂(形容词较学术); L6:唯一(cacti in ___ places); L7:OK; L8:偏难
+- **archaeology** — L5:不懂(学科词超长); L6:唯一(dig up ancient pots); L7:OK; L8:偏难
+- **mesa** — L5:不懂(地理专词); L6:唯一(desert like a table); L7:OK; L8:偏难
+- **tundra** — L5:不懂; L6:唯一(Arctic ___ frozen no trees); L7:OK; L8:偏难
+- **stalagmite** — L5:不懂(洞穴专词超长); L6:唯一(grows up from cave floor); L7:OK; L8:偏难
+- **tributary** — L5:不懂; L6:唯一(smaller river joins main); L7:OK; L8:偏难
+- **archipelago** — L5:不懂(长词); L6:唯一(Hawaii is an ___); L7:OK; L8:偏难
+- **stratosphere** — L5:不懂(大气层术语); L6:唯一(weather balloon into ___); L7:OK; L8:偏难
+- **preamble** — L5:不懂(文书术语); L6:唯一(Constitution starts with “We the People”); L7:注意(美国宪法强文化绑定); L8:偏难(可换更通用document intro)
+- **filament** — L5:不懂; L6:唯一(light bulb ___ glows); L7:OK; L8:偏难
+- **nocturnal** — L5:不懂; L6:唯一(owls are ___); L7:OK; L8:偏难
+- **translucent** — L5:不懂(形容词长); L6:唯一(jellyfish ___ letting light through); L7:OK; L8:偏难
+- **omnivore** — L5:不懂; L6:唯一(bear is an ___); L7:OK; L8:偏难(和另外两词一起教更好)
+- **plateau** — L5:不懂; L6:不唯一(plateau/mesa 例句都像“table”需更区分); L7:OK; L8:偏难(且与mesa容易混)
+- **geothermal** — L5:不懂(复合科学词); L6:唯一(Iceland uses ___ energy); L7:OK; L8:偏难
+- **specimen** — L5:不懂(抽象名词); L6:不唯一(specimen/sample 都行); L7:OK; L8:偏难(先sample)
+- **meridian** — L5:不懂; L6:唯一(Prime ___ through London); L7:注意(伦敦/本初子午线文化地理知识门槛); L8:偏难
+- **respiration** — L5:不懂(生物术语); L6:唯一(breathing in oxygen out CO2); L7:OK; L8:偏难
+- **paleontology** — L5:不懂(超长学科); L6:唯一(dinosaurs fossils); L7:OK; L8:偏难
+- **aquifer** — L5:不懂; L6:唯一(drinking water from an ___); L7:OK; L8:偏难
+- **deciduous** — L5:不懂; L6:唯一(oak drops leaves by November); L7:OK; L8:偏难
+- **pharaoh** — L5:不懂(历史专词); L6:唯一(Ancient Egypt king); L7:OK; L8:偏难
+- **sedimentary** — L5:不懂; L6:唯一(layers like pancakes); L7:OK; L8:偏难
+- **isthmus** — L5:不懂; L6:唯一(Isthmus of Panama land bridge); L7:注意(专有名词门槛); L8:偏难
+- **dividend** — L5:不懂(数学术语); L6:唯一(12÷3 dividend is 12); L7:OK; L8:偏难(二年级若还没除法就前置不足)
+- **divisor** — L5:不懂; L6:唯一(12÷3 divisor is 3); L7:OK; L8:偏难(同上)
+- **mandate** — L5:不懂(官方命令抽象); L6:唯一(school issued a ___ helmets); L7:OK; L8:偏难
+- **authentic** — L5:不懂(形容词抽象); L6:唯一(authentic dinosaur tooth); L7:OK; L8:偏难(先real/fake)
+- **scarcity** — L5:不懂(抽象名词); L6:唯一(scarcity of water restrictions); L7:OK; L8:偏难
+- **ancestry** — L5:不懂(抽象家族史); L6:不唯一(ancestry/lineage 类似, 两词都在本表); L7:OK; L8:偏难(建议与lineage只保留一个或强区分)
+- **interval** — L5:不懂(抽象“between”); L6:唯一(ten-minute ___); L7:OK; L8:偏难(需先between)
+- **eligible** — L5:不懂(规则资格抽象); L6:唯一(eligible to join club if…); L7:OK; L8:偏难
+- **manipulate** — L5:不懂(多义:操作/操纵骗人); L6:不唯一(manipulate/shape 都行且例句只给“clay”义); L7:OK; L8:偏难(多义词, 建议先teach “shape”用mold)
+- **salvage** — L5:不懂; L6:唯一(after flood try to ___ photo albums); L7:OK; L8:偏难
+- **acquire** — L5:不懂(抽象“get by effort”); L6:不唯一(acquire/earn/save 都可能); L7:OK; L8:偏难(先get/buy)
+- **terminate** — L5:不懂(正式词“end”); L6:唯一(train will ___ at last station); L7:OK; L8:偏难
+- **verdict** — L5:不懂(司法/评审词); L6:不唯一(verdict/decision 都像); L7:OK; L8:偏难
+- **hangar** — L5:不懂(专用建筑); L6:唯一(plane into ___ to fix); L7:OK; L8:偏难
+- **hardship** — L5:不懂(抽象名词); L6:唯一(pioneers faced many ___); L7:OK; L8:偏难
+- **harpoon** — L5:不懂(工具词); L6:唯一(threw the ___ at tuna); L7:注意(捕鲸联想/动物保护, 家长可能介意); L8:偏难
+- **harrow** — L5:不懂(农具专词); L6:唯一(pulled a ___ across field); L7:OK; L8:偏难
+- **haste** — L5:不懂; L6:唯一(in her ___ to catch bus); L7:OK; L8:偏难
+- **havoc** — L5:不懂; L6:唯一(tornado wreaked ___); L7:OK; L8:偏难
+- **headway** — L5:不懂(习语化“make headway”); L6:唯一(made ___ on piano piece); L7:OK; L8:偏难(搭配词, 需先progress)
+- **heed** — L5:不懂(正式动词); L6:唯一(he ___ warning and wore coat); L7:OK; L8:偏难
+- **helm** — L5:不懂(船舵专词); L6:唯一(took the ___ guided ship); L7:OK; L8:偏难
+- **herald** — L5:不懂(名词/动词两义); L6:不唯一(sign of spring/announce news 都可, 需更直白); L7:OK; L8:偏难
+- **hermit** — L5:不懂; L6:唯一(lived alone far from town); L7:OK; L8:偏难
+- **hew** — L5:不懂(低频动词); L6:唯一(hewed tree into logs); L7:OK; L8:偏难
+- **hinge** — L5:不懂(五金词); L6:唯一(gate swung on rusty ___); L7:OK; L8:偏难
+- **hoard** — L5:不懂(动词抽象); L6:唯一(dragon ___ gold); L7:OK; L8:偏难
+- **hobble** — L5:不懂; L6:唯一(hobbled after twisting ankle); L7:OK; L8:偏难
+- **hoist** — L5:不懂; L6:唯一(sailors ___ anchor); L7:OK; L8:偏难
+- **homage** — L5:不懂(正式名词); L6:不唯一(homage/honor/tribute 都像); L7:注意(“soldiers served the country”可能让部分家长敏感); L8:偏难
+- **homestead** — L5:不懂(历史/生活词); L6:唯一(farmhouse barn acres…); L7:OK; L8:偏难
+- **hone** — L5:不懂(动词“improve”不直观); L6:不唯一(hone/practice/improve 都像); L7:OK; L8:偏难
+- **hornet** — L5:不懂(昆虫词); L6:唯一(hornet buzzed around picnic); L7:OK; L8:偏难
+- **hosiery** — L5:不懂(集合名词); L6:唯一(aisle of ___ socks/stockings); L7:OK; L8:偏难(生活但词太书面)
+- **hospitable** — L5:不懂(形容词长); L6:唯一(offered lemonade cookies); L7:OK; L8:偏难
+- **hub** — L5:不懂(多义:中心/轮毂); L6:唯一(airport is a busy ___); L7:OK; L8:偏难(多义需拆)
+- **huddle** — L5:不懂; L6:唯一(players ___ to plan); L7:OK; L8:偏难
+- **hull** — L5:不懂; L6:唯一(painted the ___ of ship); L7:OK; L8:偏难
+- **humus** — L5:不懂(园艺词); L6:唯一(adding ___ to garden soil); L7:OK; L8:偏难
+- **hurdle** — L5:不懂(多义:栏架/障碍); L6:不唯一(hurdle/barrier 都像); L7:OK; L8:偏难
+- **hurl** — L5:不懂; L6:不唯一(hurl/throw 都像); L7:OK; L8:偏难
+- **hurricane** — L5:不懂(自然灾害词); L6:唯一(winds 100 mph); L7:OK; L8:偏难
+- **hydrate** — L5:不懂; L6:不唯一(hydrate/drink water 都像); L7:OK; L8:偏难
+- **hymn** — L5:不懂(宗教词); L6:唯一(choir sang a ___ in church); L7:注意(宗教场景可能让部分家长不舒服); L8:偏难
+- **hyperbole** — L5:不懂(修辞术语); L6:唯一(“eat a horse” example); L7:OK; L8:偏难
+- **icon** — L5:勉强(屏幕小图标孩子可能见过但词义多); L6:唯一(clicked mail ___); L7:OK; L8:合适(更偏现代生活)
+- **imbue** — L5:不懂(正式动词); L6:不唯一(imbue/teach/give 都像); L7:OK; L8:偏难
+- **impervious** — L5:不懂(形容词难); L6:唯一(jacket impervious to rain); L7:OK; L8:偏难
+- **impound** — L5:不懂(法律/拖车词); L6:唯一(city ___ the car); L7:OK; L8:偏难
+- **indent** — L5:不懂(写作术语); L6:唯一(indented first line); L7:OK; L8:偏难
+- **inferno** — L5:不懂(书面词“big fire”); L6:唯一(forest fire grew into an ___); L7:OK; L8:偏难
+- **infuse** — L5:不懂(两义:注入/泡茶); L6:不唯一(infuse/flavor 都行); L7:OK; L8:偏难(多义)
+- **inlet** — L5:不懂; L6:唯一(kayakers paddled through ___); L7:OK; L8:偏难
+- **inquest** — L5:不懂(法律术语); L6:不唯一(inquest/investigation 都像); L7:OK; L8:偏难
+- **instill** — L5:不懂(正式动词); L6:不唯一(instill/teach/build 都像); L7:OK; L8:偏难
+- **insular** — L5:不懂(抽象+比喻); L6:唯一(village little contact); L7:OK; L8:偏难
+- **intrigue** — L5:不懂; L6:唯一(locked box ___ children); L7:OK; L8:偏难
+- **inundate** — L5:不懂(低频); L6:唯一(inundated with phone calls); L7:OK; L8:偏难
+- **irate** — L5:不懂; L6:唯一(irate buyer demanded manager); L7:OK; L8:偏难
+- **irk** — L5:不懂(低频); L6:不唯一(irk/annoy 都像); L7:OK; L8:偏难
+- **ivory** — L5:不懂(材料词+伦理); L6:唯一(ivory-colored keys); L7:注意(象牙来源可能引发动物保护敏感, 建议强调“ivory-colored”颜色而非真象牙); L8:偏难
+- **jaunt** — L5:不懂(低频); L6:唯一(weekend ___ to seaside); L7:OK; L8:偏难
+- **jest** — L5:不懂; L6:唯一(said it in ___); L7:OK; L8:偏难
+- **jettison** — L5:不懂(低频); L6:唯一(pilot ___ extra fuel); L7:OK; L8:偏难
+- **jinx** — L5:不懂(迷信词); L6:唯一(broken mirror was a ___); L7:注意(迷信“7 years bad luck”家长可能不喜欢); L8:偏难
+- **jostle** — L5:不懂; L6:唯一(shoppers ___ each other); L7:OK; L8:偏难
+- **jubilant** — L5:不懂(形容词); L6:唯一(jubilant team lifted trophy); L7:OK; L8:偏难
+- **juncture** — L5:不懂(书面词); L6:不唯一(juncture/moment/point 都像); L7:OK; L8:偏难
+- **juniper** — L5:不懂(植物词); L6:唯一(juniper bushes berries); L7:OK; L8:偏难
+- **kernel** — L5:不懂(核心义多, 例句爆米花更易); L6:唯一(kernel of popcorn); L7:OK; L8:偏难
+- **kilt** — L5:不懂(文化服饰); L6:唯一(Scottish bagpiper wore ___); L7:OK; L8:偏难(文化知识门槛)
+- **knack** — L5:不懂; L6:不唯一(knack/talent/good at 都像); L7:OK; L8:偏难
+- **knead** — L5:不懂; L6:唯一(kneaded bread dough); L7:OK; L8:偏难
+- **knell** — L5:不懂; L6:唯一(deep ___ of church bell); L7:OK; L8:偏难
+- **knoll** — L5:不懂; L6:唯一(grassy ___ picnic); L7:OK; L8:偏难
+- **lacquer** — L5:不懂(工艺词); L6:唯一(red ___ gleamed); L7:OK; L8:偏难
+- **lair** — L5:不懂; L6:唯一(bear returned to ___); L7:OK; L8:偏难
+- **lance** — L5:不懂(中世纪武器); L6:唯一(knight with ___); L7:OK; L8:偏难
+- **lanky** — L5:不懂; L6:唯一(lanky teenager ducked); L7:OK; L8:偏难
+- **lattice** — L5:不懂; L6:唯一(roses climbed lattice); L7:OK; L8:偏难
+- **lavish** — L5:不懂; L6:唯一(lavish party chocolate fountain); L7:注意(pony ride/奢华生日派对可能引发比较/炫耀不适); L8:偏难
+- **ledger** — L5:不懂; L6:唯一(shop owner wrote sale in ___); L7:OK; L8:偏难
+- **leech** — L5:不懂(生物词但画面强); L6:唯一(leech stuck to ankle); L7:OK; L8:偏难
+- **leer** — L5:不懂; L6:唯一(villain ___ with wicked grin); L7:OK; L8:偏难
+- **legible** — L5:不懂(形容词抽象); L6:唯一(legible handwriting); L7:OK; L8:偏难
+- **legion** — L5:不懂(书面词); L6:不唯一(legion/crowd/lots of 都像); L7:OK; L8:偏难
+- **lever** — L5:不懂(物理简单机械但词难); L6:唯一(used long ___ to pry lid); L7:OK; L8:偏难
+- **lilac** — L5:不懂(植物词); L6:唯一(lilac bushes bloomed); L7:OK; L8:偏难
+- **limber** — L5:不懂; L6:唯一(gymnast so limber); L7:OK; L8:偏难
+- **limelight** — L5:不懂(比喻); L6:唯一(in the ___ after hit movie); L7:OK; L8:偏难
+- **limpid** — L5:不懂(低频高阶); L6:唯一(limpid stream pebbles); L7:OK; L8:偏难(远超二年级)
+- **lineage** — L5:不懂; L6:不唯一(与ancestry高度重叠); L7:OK; L8:偏难(建议只保留一个)
+- **linen** — L5:不懂(布料词); L6:不唯一(linen/cloth/tablecloth 都像); L7:OK; L8:偏难
+- **lintel** — L5:不懂(建筑术语); L6:不唯一(lintel/beam 都像); L7:OK; L8:偏难
+- **listless** — L5:不懂; L6:唯一(hot afternoon made everyone ___); L7:OK; L8:偏难
+- **litany** — L5:不懂; L6:不唯一(litany/list of rules 都像); L7:OK; L8:偏难
+- **lithe** — L5:不懂; L6:不唯一(lithe/graceful/flexible 都像); L7:OK; L8:偏难
+- **livelihood** — L5:不懂(抽象名词); L6:不唯一(livelihood/job/work 都像); L7:OK; L8:偏难
+- **loam** — L5:不懂(园艺词); L6:唯一(dark loam before planting); L7:OK; L8:偏难
+- **lobe** — L5:不懂; L6:唯一(ear ___ earring); L7:OK; L8:偏难
+- **locale** — L5:不懂; L6:不唯一(locale/place/setting 都像); L7:OK; L8:偏难
+- **locomotion** — L5:不懂(长词); L6:不唯一(locomotion/movement 都像); L7:OK; L8:偏难
+- **loft** — L5:不懂(阁楼词); L6:唯一(converted dusty ___); L7:OK; L8:偏难
+- **lore** — L5:不懂(抽象文化词); L6:不唯一(lore/stories/tradition 都像); L7:OK; L8:偏难
+- **lucid** — L5:不懂(高阶形容词); L6:不唯一(lucid/clear 都像); L7:OK; L8:偏难
+- **lull** — L5:不懂; L6:唯一(during a ___ in storm); L7:OK; L8:偏难
+- **lunge** — L5:不懂; L6:唯一(fencer made quick ___); L7:OK; L8:偏难
