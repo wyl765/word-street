@@ -2,41 +2,9 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 8 MAJOR | 177 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 177 MINOR
 
 ## Issues
-
-### [MAJOR] words-level2b.js — "medicine" (CIRCULAR_DEF)
-Definition contains the word itself: "medicine" in "a small round bit of medicine, liquid, or cream that a doctor gives you to treat sickness"
-**Fix:** Rewrite definition without using the target word
-
-### [MAJOR] words-level2c.js — "bother" (CIRCULAR_DEF)
-Definition contains the word itself: "bother" in "to to bother or to bother or break the quiet someone"
-**Fix:** Rewrite definition without using the target word
-
-### [MAJOR] words-level2a.js — "explicit" (GRAMMAR)
-"no something" should be "without something" or "no someth"
-**Fix:** Fix grammar pattern
-
-### [MAJOR] words-level3b.js — "treaty" (GRAMMAR)
-"no fighting" should be "without fighting" or "no fight"
-**Fix:** Fix grammar pattern
-
-### [MAJOR] words-level5c.js — "disarmament" (GRAMMAR)
-"no fighting" should be "without fighting" or "no fight"
-**Fix:** Fix grammar pattern
-
-### [MAJOR] words-level5d.js — "impasse" (GRAMMAR)
-"no moving" should be "without moving" or "no mov"
-**Fix:** Fix grammar pattern
-
-### [MAJOR] words-level5d.js — "tranquility" (GRAMMAR)
-"no fighting" should be "without fighting" or "no fight"
-**Fix:** Fix grammar pattern
-
-### [MAJOR] words-level5d.js — "conciliatory" (GRAMMAR)
-"no fighting" should be "without fighting" or "no fight"
-**Fix:** Fix grammar pattern
 
 ### [MINOR] words-level2d.js — "scope" (ARTICLE_ERROR)
 Possible "a/an" error: "a idea"
@@ -748,21 +716,5 @@ Example contains military context: "military"
 
 ### [HIGH] words-level2b.js — "go along with" (MULTI_MEANING)
 L2 definition has multiple distinct meanings: "to agree or to work together with"
-**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
-
-### [HIGH] words-level2c.js — "bother" (MULTI_MEANING)
-L2 definition has multiple distinct meanings: "to to bother or to bother or break the quiet someone"
-**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
-
-### [HIGH] words-level2c.js — "conquer" (MULTI_MEANING)
-L2 definition has multiple distinct meanings: "to win against or to beat or get past something"
-**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
-
-### [HIGH] words-level2d.js — "worthy" (MULTI_MEANING)
-L2 definition has multiple distinct meanings: "having done enough to get of respect or to keep your mind on one thing"
-**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
-
-### [HIGH] words-level2d.js — "contend" (MULTI_MEANING)
-L2 definition has multiple distinct meanings: "to struggle or to try to win against others against something difficult"
 **Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
