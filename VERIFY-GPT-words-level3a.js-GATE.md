@@ -1,246 +1,237 @@
 # VERIFY-GPT-words-level3a.js-GATE
 
-审校范围：LEVEL3A_BANK（231词）
+逐词专项审校（GPT侧）：L5 Mark模拟做题 / L6 例句反向测试 / L7 文化敏感度 / L8 学习路径验证
 
-字段说明：
-- L5-Def：只看definition是否能懂
-- L5-Ex：遮住目标词，只看example能否“猜出词”
-- L6：example反向测试（同level 4选项）是否能唯一确定
-- L7：文化/家长敏感点
-- L8：是否适配MAP197（约二年级）学习路径
+格式：编号 词 | L5(def/示例猜词) | L6(唯一性) | L7(文化) | L8(level/前置/顺序)
 
----
-
-## 逐词记录（每词一行）
-
-- calculate | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:calculate / correct / damage / decrease; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- correct | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:correct / damage / decrease / define; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- damage | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:damage / decrease / define / discuss; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- decrease | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:decrease / define / discuss / edit; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- define | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:define / discuss / edit / engage; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- discuss | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:discuss / edit / engage / favor; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- edit | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:edit / engage / favor / flee; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- engage | L5-Def:不能(词形陌生+概念偏冷；definition里有:involved) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:engage / favor / flee / forgive; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- favor | L5-Def:不能(词形陌生+概念偏冷；definition里有:like) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:favor / flee / forgive / furnish; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- flee | L5-Def:不能(词形陌生+概念偏冷；definition里有:run) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:flee / forgive / furnish / intend; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- forgive | L5-Def:勉强(卡在抽象词/学术词:stop) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:forgive / furnish / intend / irritate; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- furnish | L5-Def:不能(词形陌生+概念偏冷；definition里有:furniture) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:furnish / intend / irritate / marvel; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- intend | L5-Def:勉强(卡在抽象词/学术词:plan) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:intend / irritate / marvel / persuade; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- irritate | L5-Def:不能(词形陌生+概念偏冷；definition里有:bother) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:irritate / marvel / persuade / postpone; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- marvel | L5-Def:不能(词形陌生+概念偏冷；definition里有:look) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:marvel / persuade / postpone / prove; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- persuade | L5-Def:不能(词形陌生+概念偏冷；definition里有:convince) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:persuade / postpone / prove / provide; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- postpone | L5-Def:不能(词形陌生+概念偏冷；definition里有:move) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:postpone / prove / provide / punish; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- prove | L5-Def:不能(词形陌生+概念偏冷；definition里有:show) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:prove / provide / punish / satisfy; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- provide | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:provide / punish / satisfy / seek; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- punish | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:punish / satisfy / seek / settle; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- satisfy | L5-Def:不能(词形陌生+概念偏冷；definition里有:what) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:satisfy / seek / settle / skim; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- seek | L5-Def:勉强(卡在抽象词/学术词:try) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:seek / settle / skim / snatch; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- settle | L5-Def:勉强(卡在抽象词/学术词:decide) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:settle / skim / snatch / soar; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- skim | L5-Def:不能(词形陌生+概念偏冷；definition里有:read) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:skim / snatch / soar / startle; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- snatch | L5-Def:不能(词形陌生+概念偏冷；definition里有:grab) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:snatch / soar / startle / strengthen; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- soar | L5-Def:不能(词形陌生+概念偏冷；definition里有:fly) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:soar / startle / strengthen / terrify; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- startle | L5-Def:勉强(卡在抽象词/学术词:surprise) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:startle / strengthen / terrify / trace; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- strengthen | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:strengthen / terrify / trace / translate; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- terrify | L5-Def:不能(词形陌生+概念偏冷；definition里有:scare) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:terrify / trace / translate / weaken; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- trace | L5-Def:勉强(卡在抽象词/学术词:follow) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:trace / translate / weaken / apparent; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- translate | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:translate / weaken / apparent / artificial; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- weaken | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:唯一(opts:weaken / apparent / artificial / automatic; 同类选项下语境更偏向目标词) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- apparent | L5-Def:勉强(卡在抽象词/学术词:easy) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:apparent / artificial / automatic / careless; 和obvious在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- artificial | L5-Def:勉强(卡在抽象词/学术词:people) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:artificial / automatic / careless / casual; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- automatic | L5-Def:勉强(卡在抽象词/学术词:working) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:automatic / careless / casual / central; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- careless | L5-Def:勉强(卡在抽象词/学术词:attention) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:careless / casual / central / dramatic; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- casual | L5-Def:勉强(卡在抽象词/学术词:relaxed) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:casual / central / dramatic / due; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- central | L5-Def:不能(词形陌生+概念偏冷；definition里有:important) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:不唯一(opts:central / dramatic / due / eventual; 和principal在同语境里容易互换) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- dramatic | L5-Def:勉强(卡在抽象词/学术词:exciting) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:dramatic / due / eventual / excessive; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- due | L5-Def:勉强(卡在抽象词/学术词:expected) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:due / eventual / excessive / exotic; 和late在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- eventual | L5-Def:不能(词形陌生+概念偏冷；definition里有:happening) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:eventual / excessive / exotic / favorable; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- excessive | L5-Def:不能(词形陌生+概念偏冷；definition里有:way) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:excessive / exotic / favorable / formal; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- exotic | L5-Def:勉强(卡在抽象词/学术词:unusual) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:exotic / favorable / formal / gracious; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- favorable | L5-Def:不能(词形陌生+概念偏冷；definition里有:good) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:favorable / formal / gracious / grand; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- formal | L5-Def:勉强(卡在抽象词/学术词:following) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:formal / gracious / grand / grave; 和official在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- gracious | L5-Def:不能(词形陌生+概念偏冷；definition里有:especially) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:不唯一(opts:gracious / grand / grave / hasty; 和grand在同语境里容易互换) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- grand | L5-Def:不能(词形陌生+概念偏冷；definition里有:impressive) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:不唯一(opts:grand / grave / hasty / historic; 和gracious在同语境里容易互换) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- grave | L5-Def:不能(词形陌生+概念偏冷；definition里有:important) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:grave / hasty / historic / horizontal; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- hasty | L5-Def:不能(词形陌生+概念偏冷；definition里有:carefully) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:hasty / historic / horizontal / hostile; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- historic | L5-Def:勉强(卡在抽象词/学术词:important) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:historic / horizontal / hostile / ignorant; 和historical在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- horizontal | L5-Def:勉强(卡在抽象词/学术词:going) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:horizontal / hostile / ignorant / illegal; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- hostile | L5-Def:不能(词形陌生+概念偏冷；definition里有:unfriendly) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:hostile / ignorant / illegal / imaginary; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- ignorant | L5-Def:不能(词形陌生+概念偏冷；definition里有:knowing) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:ignorant / illegal / imaginary / immense; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- illegal | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:不唯一(opts:illegal / imaginary / immense / immune; 和legal在同语境里容易互换) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- imaginary | L5-Def:勉强(卡在抽象词/学术词:your) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:imaginary / immense / immune / inferior; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- immense | L5-Def:勉强(卡在抽象词/学术词:extremely) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:immense / immune / inferior / infinite; 和huge在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- immune | L5-Def:不能(词形陌生+概念偏冷；definition里有:protected) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:immune / inferior / infinite / influential; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- inferior | L5-Def:不能(词形陌生+概念偏冷；definition里有:good) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:不唯一(opts:inferior / infinite / influential / interior; 和worse在同语境里容易互换) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- infinite | L5-Def:不能(词形陌生+概念偏冷；definition里有:going) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:不唯一(opts:infinite / influential / interior / isolated; 和endless在同语境里容易互换) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- influential | L5-Def:不能(词形陌生+概念偏冷；definition里有:having) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:influential / interior / isolated / legal; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- interior | L5-Def:勉强(卡在抽象词/学术词:inside) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:interior / isolated / legal / legitimate; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- isolated | L5-Def:勉强(卡在抽象词/学术词:alone) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:isolated / legal / legitimate / literary; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- legal | L5-Def:能(定义直白) | L5-Ex:能(语境很清楚) | L6:不唯一(opts:legal / legitimate / literary / logical; 和illegal在同语境里容易互换) | L7:OK | L8:合适(可作为课堂高频基础学术词)
-- legitimate | L5-Def:不能(词形陌生+概念偏冷；definition里有:following) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:legitimate / literary / logical / mechanical; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- literary | L5-Def:不能(词形陌生+概念偏冷；definition里有:about) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:literary / logical / mechanical / microscopic; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- logical | L5-Def:不能(词形陌生+概念偏冷；definition里有:following) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:logical / mechanical / microscopic / mobile; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- mechanical | L5-Def:不能(词形陌生+概念偏冷；definition里有:moving) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:mechanical / microscopic / mobile / moderate; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- microscopic | L5-Def:不能(词形陌生+概念偏冷；definition里有:so) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:microscopic / mobile / moderate / naked; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- mobile | L5-Def:不能(词形陌生+概念偏冷；definition里有:able) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:mobile / moderate / naked / native; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- moderate | L5-Def:勉强(卡在抽象词/学术词:too) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:moderate / naked / native / naval; 和average在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- naked | L5-Def:不能(词形陌生+概念偏冷；definition里有:covered) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:naked / native / naval / normal; 同类选项下语境更偏向目标词) | L7:注意(字面“裸体”容易让家长警觉；此处是“光秃秃的树”，建议用 bare) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- native | L5-Def:勉强(卡在抽象词/学术词:belonging) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:native / naval / normal / occasional; 和original在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- naval | L5-Def:不能(词形陌生+概念偏冷；definition里有:about) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:naval / normal / occasional / official; 同类选项下语境更偏向目标词) | L7:注意(军事/军舰话题；低龄可弱化或换“ships”) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- normal | L5-Def:勉强(卡在抽象词/学术词:usual) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:normal / occasional / official / original; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- occasional | L5-Def:不能(词形陌生+概念偏冷；definition里有:happening) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:occasional / official / original / partial; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- official | L5-Def:勉强(卡在抽象词/学术词:approved) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:official / original / partial / personal; 和formal在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- original | L5-Def:勉强(卡在抽象词/学术词:first) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:original / partial / personal / political; 和native在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- partial | L5-Def:不能(词形陌生+概念偏冷；definition里有:complete) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:partial / personal / political / portable; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- personal | L5-Def:勉强(卡在抽象词/学术词:belonging) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:personal / political / portable / precise; 和private在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- political | L5-Def:不能(词形陌生+概念偏冷；definition里有:government) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:political / portable / precise / primitive; 同类选项下语境更偏向目标词) | L7:注意(政治话题，低龄ESL不友好) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- portable | L5-Def:勉强(卡在抽象词/学术词:easy) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:portable / precise / primitive / principal; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- precise | L5-Def:勉强(卡在抽象词/学术词:exact) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:precise / primitive / principal / private; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- primitive | L5-Def:不能(词形陌生+概念偏冷；definition里有:early) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:primitive / principal / private / probable; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- principal | L5-Def:不能(词形陌生+概念偏冷；definition里有:important) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:不唯一(opts:principal / private / probable / productive; 和central在同语境里容易互换) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- private | L5-Def:勉强(卡在抽象词/学术词:you) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:不唯一(opts:private / probable / productive / professional; 和personal在同语境里容易互换) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- probable | L5-Def:不能(词形陌生+概念偏冷；definition里有:likely) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:probable / productive / professional / profound; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- productive | L5-Def:勉强(卡在抽象词/学术词:getting) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:productive / professional / profound / prominent; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- professional | L5-Def:勉强(卡在抽象词/学术词:doing) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:professional / profound / prominent / proper; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- profound | L5-Def:不能(词形陌生+概念偏冷；definition里有:meaningful) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:profound / prominent / proper / prosperous; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- prominent | L5-Def:勉强(卡在抽象词/学术词:easy) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:prominent / proper / prosperous / radical; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- proper | L5-Def:勉强(卡在抽象词/学术词:following) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:proper / prosperous / radical / reckless; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- prosperous | L5-Def:不能(词形陌生+概念偏冷；definition里有:doing) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:prosperous / radical / reckless / regional; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- radical | L5-Def:不能(词形陌生+概念偏冷；definition里有:different) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:radical / reckless / regional / abode; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- reckless | L5-Def:不能(词形陌生+概念偏冷；definition里有:doing) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:reckless / regional / abode / acacia; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- regional | L5-Def:不能(词形陌生+概念偏冷；definition里有:about) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:regional / abode / acacia / adage; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- abode | L5-Def:不能(词形陌生+概念偏冷；definition里有:place) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:abode / acacia / adage / adrift; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- acacia | L5-Def:不能(词形陌生+概念偏冷；definition里有:tree) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:acacia / adage / adrift / afflict; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- adage | L5-Def:不能(词形陌生+概念偏冷；definition里有:well-known) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:adage / adrift / afflict / ajar; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- adrift | L5-Def:不能(词形陌生+概念偏冷；definition里有:floating) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:adrift / afflict / ajar / akin; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- afflict | L5-Def:不能(词形陌生+概念偏冷；definition里有:suffering) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:afflict / ajar / akin / alcove; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- ajar | L5-Def:不能(词形陌生+概念偏冷；definition里有:slightly) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:ajar / akin / alcove / alms; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- akin | L5-Def:不能(词形陌生+概念偏冷；definition里有:similar) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:akin / alcove / alms / alpine; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- alcove | L5-Def:不能(词形陌生+概念偏冷；definition里有:small) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:alcove / alms / alpine / amble; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- alms | L5-Def:不能(词形陌生+概念偏冷；definition里有:money) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:alms / alpine / amble / ambrosia; 同类选项下语境更偏向目标词) | L7:注意(涉及乞讨/施舍语境，可能引发家长敏感；建议改成“donation/charity”更中性) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- alpine | L5-Def:不能(词形陌生+概念偏冷；definition里有:mountains) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:alpine / amble / ambrosia / amiable; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- amble | L5-Def:不能(词形陌生+概念偏冷；definition里有:walk) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:amble / ambrosia / amiable / amplify; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- ambrosia | L5-Def:不能(词形陌生+概念偏冷；definition里有:wonderful) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:ambrosia / amiable / amplify / amulet; 同类选项下语境更偏向目标词) | L7:注意(含“gods/神”的设定，家长可能介意；可换成更中性解释) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- amiable | L5-Def:不能(词形陌生+概念偏冷；definition里有:friendly) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:amiable / amplify / amulet / anagram; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- amplify | L5-Def:不能(词形陌生+概念偏冷；definition里有:sound) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:amplify / amulet / anagram / angular; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- amulet | L5-Def:不能(词形陌生+概念偏冷；definition里有:protection) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:amulet / anagram / angular / antiquated; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- anagram | L5-Def:不能(词形陌生+概念偏冷；definition里有:word) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:anagram / angular / antiquated / apex; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- angular | L5-Def:不能(词形陌生+概念偏冷；definition里有:having) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:angular / antiquated / apex / apprentice; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- antiquated | L5-Def:不能(词形陌生+概念偏冷；definition里有:old) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:antiquated / apex / apprentice / arbiter; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- apex | L5-Def:不能(词形陌生+概念偏冷；definition里有:top) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:apex / apprentice / arbiter / ardor; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- apprentice | L5-Def:不能(词形陌生+概念偏冷；definition里有:person) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:apprentice / arbiter / ardor / aright; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- arbiter | L5-Def:不能(词形陌生+概念偏冷；definition里有:person) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:arbiter / ardor / aright / assail; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- ardor | L5-Def:不能(词形陌生+概念偏冷；definition里有:enthusiasm) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:ardor / aright / assail / atoll; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- aright | L5-Def:不能(词形陌生+概念偏冷；definition里有:correct) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:aright / assail / atoll / atone; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- assail | L5-Def:不能(词形陌生+概念偏冷；definition里有:attack) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:assail / atoll / atone / atrium; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- atoll | L5-Def:不能(词形陌生+概念偏冷；definition里有:ring-shaped) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:atoll / atone / atrium / aura; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- atone | L5-Def:不能(词形陌生+概念偏冷；definition里有:good) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:atone / atrium / aura / awning; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- atrium | L5-Def:不能(词形陌生+概念偏冷；definition里有:large) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:atrium / aura / awning / babble; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- aura | L5-Def:不能(词形陌生+概念偏冷；definition里有:feeling) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:aura / awning / babble / badger; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- awning | L5-Def:不能(词形陌生+概念偏冷；definition里有:sheet) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:awning / babble / badger / baffle; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- babble | L5-Def:不能(词形陌生+概念偏冷；definition里有:talk) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:babble / badger / baffle / bamboo; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- badger | L5-Def:不能(词形陌生+概念偏冷；definition里有:keep) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:badger / baffle / bamboo / bane; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- baffle | L5-Def:不能(词形陌生+概念偏冷；definition里有:completely) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:baffle / bamboo / bane / banter; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- bamboo | L5-Def:勉强(卡在抽象词/学术词:tall) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:bamboo / bane / banter / barbecue; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- bane | L5-Def:不能(词形陌生+概念偏冷；definition里有:causes) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:bane / banter / barbecue / barge; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- banter | L5-Def:不能(词形陌生+概念偏冷；definition里有:playful) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:banter / barbecue / barge / barley; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- barbecue | L5-Def:勉强(卡在抽象词/学术词:cooking) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:barbecue / barge / barley / barnacle; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- barge | L5-Def:不能(词形陌生+概念偏冷；definition里有:wide) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:barge / barley / barnacle / baroque; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- barley | L5-Def:不能(词形陌生+概念偏冷；definition里有:grain) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:barley / barnacle / baroque / barracks; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- barnacle | L5-Def:不能(词形陌生+概念偏冷；definition里有:small) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:barnacle / baroque / barracks / bastion; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- baroque | L5-Def:不能(词形陌生+概念偏冷；definition里有:decorated) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:baroque / barracks / bastion / batter; 同类选项下语境更偏向目标词) | L7:注意(欧洲艺术史概念；文化背景重) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- barracks | L5-Def:不能(词形陌生+概念偏冷；definition里有:buildings) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:barracks / bastion / batter / bedlam; 同类选项下语境更偏向目标词) | L7:注意(军事住宿；低龄可能不常见) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- bastion | L5-Def:不能(词形陌生+概念偏冷；definition里有:important) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:bastion / batter / bedlam / belfry; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- batter | L5-Def:不能(词形陌生+概念偏冷；definition里有:mixture) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:batter / bedlam / belfry / berth; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- bedlam | L5-Def:不能(词形陌生+概念偏冷；definition里有:confusion) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:bedlam / belfry / berth / billow; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- belfry | L5-Def:不能(词形陌生+概念偏冷；definition里有:part) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:belfry / berth / billow / bistro; 同类选项下语境更偏向目标词) | L7:注意(教堂钟楼；文化背景重) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- berth | L5-Def:不能(词形陌生+概念偏冷；definition里有:bed) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:berth / billow / bistro / bivouac; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- billow | L5-Def:不能(词形陌生+概念偏冷；definition里有:swell) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:billow / bistro / bivouac / blazon; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- bistro | L5-Def:不能(词形陌生+概念偏冷；definition里有:restaurant) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:bistro / bivouac / blazon / blotch; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- bivouac | L5-Def:不能(词形陌生+概念偏冷；definition里有:temporary) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:bivouac / blazon / blotch / boggle; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- blazon | L5-Def:不能(词形陌生+概念偏冷；definition里有:display) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:blazon / blotch / boggle / boon; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- blotch | L5-Def:不能(词形陌生+概念偏冷；definition里有:uneven) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:blotch / boggle / boon / boulder; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- boggle | L5-Def:不能(词形陌生+概念偏冷；definition里有:so) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:boggle / boon / boulder / brawn; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- boon | L5-Def:不能(词形陌生+概念偏冷；definition里有:helpful) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:boon / boulder / brawn / breadth; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- boulder | L5-Def:不能(词形陌生+概念偏冷；definition里有:large) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:boulder / brawn / breadth / brim; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- brawn | L5-Def:不能(词形陌生+概念偏冷；definition里有:physical) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:brawn / breadth / brim / broach; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- breadth | L5-Def:不能(词形陌生+概念偏冷；definition里有:distance) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:breadth / brim / broach / brooch; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- brim | L5-Def:不能(词形陌生+概念偏冷；definition里有:top) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:brim / broach / brooch / buccaneer; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- broach | L5-Def:不能(词形陌生+概念偏冷；definition里有:discussion) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:broach / brooch / buccaneer / buffet; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- brooch | L5-Def:不能(词形陌生+概念偏冷；definition里有:decorative) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:brooch / buccaneer / buffet / buggy; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- buccaneer | L5-Def:不能(词形陌生+概念偏冷；definition里有:especially) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:buccaneer / buffet / buggy / bulge; 同类选项下语境更偏向目标词) | L7:注意(海盗暴力/掠夺背景；低龄可用 pirate) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- buffet | L5-Def:勉强(卡在抽象词/学术词:themselves) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:buffet / buggy / bulge / buoyancy; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- buggy | L5-Def:不能(词形陌生+概念偏冷；definition里有:small) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:buggy / bulge / buoyancy / burgeon; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- bulge | L5-Def:不能(词形陌生+概念偏冷；definition里有:swell) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:bulge / buoyancy / burgeon / bustle; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- buoyancy | L5-Def:不能(词形陌生+概念偏冷；definition里有:ability) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:buoyancy / burgeon / bustle / buttress; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- burgeon | L5-Def:不能(词形陌生+概念偏冷；definition里有:grow) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:burgeon / bustle / buttress / cache; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- bustle | L5-Def:不能(词形陌生+概念偏冷；definition里有:busy) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:bustle / buttress / cache / cairn; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- buttress | L5-Def:不能(词形陌生+概念偏冷；definition里有:stone) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:buttress / cache / cairn / caldron; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cache | L5-Def:不能(词形陌生+概念偏冷；definition里有:hidden) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cache / cairn / caldron / canter; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cairn | L5-Def:不能(词形陌生+概念偏冷；definition里有:pile) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cairn / caldron / canter / capsize; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- caldron | L5-Def:不能(词形陌生+概念偏冷；definition里有:large) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:caldron / canter / capsize / capsule; 同类选项下语境更偏向目标词) | L7:注意(witch 场景；可保留但注意低龄) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- canter | L5-Def:不能(词形陌生+概念偏冷；definition里有:smooth) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:canter / capsize / capsule / carafe; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- capsize | L5-Def:不能(词形陌生+概念偏冷；definition里有:turn) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:capsize / capsule / carafe / chaplain; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- capsule | L5-Def:不能(词形陌生+概念偏冷；definition里有:container) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:capsule / carafe / chaplain / char; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- carafe | L5-Def:不能(词形陌生+概念偏冷；definition里有:wide-mouth) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:carafe / chaplain / char / cherub; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- chaplain | L5-Def:不能(词形陌生+概念偏冷；definition里有:religious) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:chaplain / char / cherub / cinch; 同类选项下语境更偏向目标词) | L7:注意(宗教职务；中国孩子可能陌生) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- char | L5-Def:不能(词形陌生+概念偏冷；definition里有:burn) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:char / cherub / cinch / citadel; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cherub | L5-Def:不能(词形陌生+概念偏冷；definition里有:small) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cherub / cinch / citadel / clad; 同类选项下语境更偏向目标词) | L7:注意(宗教天使意象；陌生) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cinch | L5-Def:不能(词形陌生+概念偏冷；definition里有:easy) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cinch / citadel / clad / clatter; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- citadel | L5-Def:不能(词形陌生+概念偏冷；definition里有:strong) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:citadel / clad / clatter / claustrophobia; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- clad | L5-Def:不能(词形陌生+概念偏冷；definition里有:wearing) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:clad / clatter / claustrophobia / cleave; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- clatter | L5-Def:不能(词形陌生+概念偏冷；definition里有:loud) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:clatter / claustrophobia / cleave / cleft; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- claustrophobia | L5-Def:不能(词形陌生+概念偏冷；definition里有:fear) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:claustrophobia / cleave / cleft / clench; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cleave | L5-Def:不能(词形陌生+概念偏冷；definition里有:split) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cleave / cleft / clench / cobalt; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cleft | L5-Def:不能(词形陌生+概念偏冷；definition里有:narrow) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cleft / clench / cobalt / coil; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- clench | L5-Def:不能(词形陌生+概念偏冷；definition里有:close) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:clench / cobalt / coil / colander; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cobalt | L5-Def:不能(词形陌生+概念偏冷；definition里有:bright) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cobalt / coil / colander / collide; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- coil | L5-Def:不能(词形陌生+概念偏冷；definition里有:wind) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:coil / colander / collide / colonnade; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- colander | L5-Def:不能(词形陌生+概念偏冷；definition里有:bowl) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:colander / collide / colonnade / commode; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- collide | L5-Def:不能(词形陌生+概念偏冷；definition里有:crash) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:collide / colonnade / commode / compulsion; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- colonnade | L5-Def:不能(词形陌生+概念偏冷；definition里有:row) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:colonnade / commode / compulsion / condiment; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- commode | L5-Def:不能(词形陌生+概念偏冷；definition里有:furniture) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:commode / compulsion / condiment / conduit; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- compulsion | L5-Def:不能(词形陌生+概念偏冷；definition里有:strong) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:compulsion / condiment / conduit / confide; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- condiment | L5-Def:不能(词形陌生+概念偏冷；definition里有:added) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:condiment / conduit / confide / conifer; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- conduit | L5-Def:不能(词形陌生+概念偏冷；definition里有:pipe) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:conduit / confide / conifer / consort; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- confide | L5-Def:不能(词形陌生+概念偏冷；definition里有:tell) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:confide / conifer / consort / contour; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- conifer | L5-Def:不能(词形陌生+概念偏冷；definition里有:tree) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:conifer / consort / contour / convoy; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- consort | L5-Def:不能(词形陌生+概念偏冷；definition里有:especially) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:consort / contour / convoy / cornet; 同类选项下语境更偏向目标词) | L7:注意(王室配偶含义可能引发不必要联想；更适合高年级) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- contour | L5-Def:不能(词形陌生+概念偏冷；definition里有:outline) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:contour / convoy / cornet / corona; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- convoy | L5-Def:不能(词形陌生+概念偏冷；definition里有:traveling) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:convoy / cornet / corona / corsair; 同类选项下语境更偏向目标词) | L7:注意(军事/灾害运送语境偏硬) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cornet | L5-Def:不能(词形陌生+概念偏冷；definition里有:instrument) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cornet / corona / corsair / cosmos; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- corona | L5-Def:不能(词形陌生+概念偏冷；definition里有:ring) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:corona / corsair / cosmos / countenance; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- corsair | L5-Def:不能(词形陌生+概念偏冷；definition里有:pirate) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:corsair / cosmos / countenance / cranny; 同类选项下语境更偏向目标词) | L7:注意(海盗/私掠船；过于冷僻) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cosmos | L5-Def:不能(词形陌生+概念偏冷；definition里有:everything) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cosmos / countenance / cranny / cringe; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- countenance | L5-Def:不能(词形陌生+概念偏冷；definition里有:expression) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:countenance / cranny / cringe / crock; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cranny | L5-Def:不能(词形陌生+概念偏冷；definition里有:small) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cranny / cringe / crock / crone; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cringe | L5-Def:不能(词形陌生+概念偏冷；definition里有:pull) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cringe / crock / crone / crouton; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- crock | L5-Def:不能(词形陌生+概念偏冷；definition里有:thick) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:crock / crone / crouton / crux; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- crone | L5-Def:不能(词形陌生+概念偏冷；definition里有:old) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:crone / crouton / crux / crypt; 同类选项下语境更偏向目标词) | L7:注意(老巫婆刻板形象；可用 old woman) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- crouton | L5-Def:不能(词形陌生+概念偏冷；definition里有:small) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:crouton / crux / crypt / cuisine; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- crux | L5-Def:不能(词形陌生+概念偏冷；definition里有:important) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:crux / crypt / cuisine / cupboard; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- crypt | L5-Def:不能(词形陌生+概念偏冷；definition里有:room) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:crypt / cuisine / cupboard / curfew; 同类选项下语境更偏向目标词) | L7:注意(教堂地下墓室+宗教；容易偏暗/敏感) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cuisine | L5-Def:不能(词形陌生+概念偏冷；definition里有:style) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cuisine / cupboard / curfew / cursory; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cupboard | L5-Def:勉强(卡在抽象词/学术词:furniture) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:cupboard / curfew / cursory / curtsy; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- curfew | L5-Def:勉强(卡在抽象词/学术词:time) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:curfew / cursory / curtsy / cyclone; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- cursory | L5-Def:不能(词形陌生+概念偏冷；definition里有:attention) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:不唯一(opts:cursory / curtsy / cyclone / dale; 和quick在同语境里容易互换) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- curtsy | L5-Def:不能(词形陌生+概念偏冷；definition里有:polite) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:curtsy / cyclone / dale / dapper; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- cyclone | L5-Def:不能(词形陌生+概念偏冷；definition里有:powerful) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:cyclone / dale / dapper / dapple; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- dale | L5-Def:不能(词形陌生+概念偏冷；definition里有:wide) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:dale / dapper / dapple / daze; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- dapper | L5-Def:不能(词形陌生+概念偏冷；definition里有:dressed) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:dapper / dapple / daze / decanter; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- dapple | L5-Def:不能(词形陌生+概念偏冷；definition里有:patches) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:dapple / daze / decanter / decibel; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- daze | L5-Def:不能(词形陌生+概念偏冷；definition里有:confusion) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:daze / decanter / decibel / deft; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- decanter | L5-Def:不能(词形陌生+概念偏冷；definition里有:elegant) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:decanter / decibel / deft / dehydrate; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- decibel | L5-Def:不能(词形陌生+概念偏冷；definition里有:unit) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:decibel / deft / dehydrate / denture; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- deft | L5-Def:不能(词形陌生+概念偏冷；definition里有:skillful) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:deft / dehydrate / denture / devour; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- dehydrate | L5-Def:不能(词形陌生+概念偏冷；definition里有:lose) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:dehydrate / denture / devour / dime; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- denture | L5-Def:不能(词形陌生+概念偏冷；definition里有:set) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:denture / devour / dime / din; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- devour | L5-Def:勉强(卡在抽象词/学术词:eat) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:devour / dime / din / dishevel; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- dime | L5-Def:不能(词形陌生+概念偏冷；definition里有:small) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:dime / din / dishevel / disrepute; 同类选项下语境更偏向目标词) | L7:注意(美国硬币单位；中国孩子不熟) | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- din | L5-Def:不能(词形陌生+概念偏冷；definition里有:unpleasant) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:din / dishevel / disrepute / dissect; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- dishevel | L5-Def:不能(词形陌生+概念偏冷；definition里有:hair) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:dishevel / disrepute / dissect / distraught; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- disrepute | L5-Def:不能(词形陌生+概念偏冷；definition里有:reputation) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:disrepute / dissect / distraught / ditto; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- dissect | L5-Def:不能(词形陌生+概念偏冷；definition里有:cut) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:dissect / distraught / ditto / divulge; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- distraught | L5-Def:勉强(卡在抽象词/学术词:upset) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:distraught / ditto / divulge / nautical; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
-- ditto | L5-Def:不能(词形陌生+概念偏冷；definition里有:repeating) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:不唯一(opts:ditto / divulge / nautical / calculate; 和same在同语境里容易互换) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- divulge | L5-Def:不能(词形陌生+概念偏冷；definition里有:tell) | L5-Ex:不能(就算看懂句子也很难从语境“想出这个词”) | L6:唯一(opts:divulge / nautical / calculate / correct; 同类选项下语境更偏向目标词) | L7:OK | L8:不合适(明显超出MAP197；建议移到更高level或替换为高频词)
-- nautical | L5-Def:勉强(卡在抽象词/学术词:about) | L5-Ex:勉强(能靠语境猜到大概，但不一定能说出准确词) | L6:唯一(opts:nautical / calculate / correct / damage; 同类选项下语境更偏向目标词) | L7:OK | L8:偏难(建议配图+中文释义/更短例句，或放到更高level)
+001 calculate | L5: def=懂; ex=勉强(会“math/answer”但未必想到这个词) | L6: 唯一(“use math”强指向) | L7: OK | L8: 偏低(更像L1-2常用学术动词)
+002 correct | L5: def=懂; ex=勉强(能懂“fix mistakes”) | L6: 不唯一(也可选 fix/repair) | L7: OK | L8: 偏低
+003 damage | L5: def=懂; ex=勉强(风暴+车窗) | L6: 不唯一(hurt/break也可) | L7: OK | L8: 偏低
+004 decrease | L5: def=懂; ex=勉强(温度下降) | L6: 不唯一(drop/fall也可) | L7: OK | L8: 合适(基础学术)
+005 define | L5: def=懂; ex=懂(字典+meaning) | L6: 相对唯一(字典场景很强) | L7: OK | L8: 合适
+006 discuss | L5: def=懂; ex=勉强(围坐聊天) | L6: 不唯一(talk/share也可) | L7: OK | L8: 偏低
+007 edit | L5: def=勉强(“improve writing”可懂); ex=勉强 | L6: 不唯一(fix/change也可) | L7: OK | L8: 合适
+008 engage | L5: def=勉强(“get involved”抽象); ex=不能(不知道要选哪个词) | L6: 不唯一(join/involve也可) | L7: OK | L8: 合适但需前置：involve/interest
+009 favor | L5: def=勉强(“support…over”结构偏难); ex=不能(更可能想到 prefer) | L6: 不唯一(prefer/like也可) | L7: OK | L8: 合适但建议与 prefer 对齐/区分
+010 flee | L5: def=懂; ex=不能(知道“run away”但想不到 flee) | L6: 相对唯一(“danger/run away”) | L7: OK | L8: 合适但对MAP197偏难(词形陌生)
+011 forgive | L5: def=懂; ex=勉强(道歉+不生气) | L6: 相对唯一(道歉场景) | L7: OK | L8: 合适
+012 furnish | L5: def=勉强(需懂 furniture/supplies); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(fill/put也可) | L7: OK | L8: 偏高(更像L4-5; 前置：furniture)
+013 intend | L5: def=懂; ex=不能(更可能想到 plan) | L6: 不唯一(plan/mean也可) | L7: OK | L8: 合适
+014 irritate | L5: def=勉强(annoyed可能不熟); ex=不能(知道“bother”但词不出) | L6: 相对唯一(“mosquito near ear”) | L7: OK | L8: 合适但前置：annoy
+015 marvel | L5: def=勉强(wonder/surprise可能不稳); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(amaze/like也可) | L7: OK | L8: 合适但对MAP197偏高
+016 persuade | L5: def=懂; ex=不能(可懂“convince”但词不出) | L6: 相对唯一(“showing how responsible”) | L7: OK | L8: 合适
+017 postpone | L5: def=懂; ex=不能(知道“later”但词不出) | L6: 相对唯一(天气导致改期) | L7: OK | L8: 合适
+018 prove | L5: def=勉强(“really true”可懂); ex=不能(show也可) | L6: 不唯一(show/prove都通) | L7: OK | L8: 合适但需前置：true/experiment
+019 provide | L5: def=懂; ex=勉强(给饭) | L6: 不唯一(give/offer也可) | L7: OK | L8: 偏低
+020 punish | L5: def=懂; ex=勉强(拿走screen time) | L6: 相对唯一(“broke a rule”) | L7: OK(家庭管教语境) | L8: 合适
+021 satisfy | L5: def=勉强(pleased/hunger抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(fill/stop也可) | L7: OK | L8: 合适但对MAP197偏高
+022 seek | L5: def=懂; ex=不能(更可能选 find/look for) | L6: 不唯一(look for/find也可) | L7: OK | L8: 合适
+023 settle | L5: def=勉强(“decide/agree”可懂); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(solve/finish也可) | L7: OK | L8: 合适(多义需提示)
+024 skim | L5: def=勉强(“main ideas”抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(读得快+headings) | L7: OK | L8: 合适但前置：main idea
+025 snatch | L5: def=懂; ex=不能(grab快但词不出) | L6: 相对唯一(seagull抢食) | L7: OK | L8: 合适
+026 soar | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(鸟飞很高) | L7: OK | L8: 合适
+027 startle | L5: def=勉强(suddenly/surprise OK); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(气球爆) | L7: OK | L8: 合适
+028 strengthen | L5: def=懂; ex=不能(更可能想到 make stronger/ build) | L6: 不唯一(improve/build也可) | L7: OK | L8: 合适
+029 terrify | L5: def=懂; ex=不能(scare badly但词不出) | L6: 相对唯一(“lion roar”) | L7: 注意(强烈恐惧词，家长可能不爱频繁) | L8: 合适但建议与 scare 区分
+030 trace | L5: def=勉强(两义：follow/copy); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(follow/track也可) | L7: OK | L8: 合适但多义需更明确
+031 translate | L5: def=懂; ex=勉强(语言转换) | L6: 相对唯一(Spanish→English) | L7: OK | L8: 合适
+032 weaken | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(桥不安全) | L7: OK | L8: 合适
+033 apparent | L5: def=勉强(figure out抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(obvious/clear也可) | L7: OK | L8: 偏高(抽象形容词)
+034 artificial | L5: def=懂; ex=不能(faux/fake也可) | L6: 不唯一(fake也可) | L7: OK | L8: 合适
+035 automatic | L5: def=懂; ex=勉强(自动门) | L6: 相对唯一(doors open by themselves) | L7: OK | L8: 合适
+036 careless | L5: def=懂; ex=勉强(字乱) | L6: 不唯一(sloppy也可) | L7: OK | L8: 偏低
+037 casual | L5: def=懂; ex=勉强(jeans/T-shirt) | L6: 相对唯一(“not fancy”) | L7: OK | L8: 合适
+038 central | L5: def=勉强(“most important part”抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(middle/main都可) | L7: OK | L8: 合适
+039 dramatic | L5: def=勉强(strong feelings); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(exciting/surprising也可) | L7: OK | L8: 合适
+040 due | L5: def=懂; ex=勉强(归还日期) | L6: 不唯一(但语境较强) | L7: OK | L8: 注意多义(because of / owed)
+041 eventual | L5: def=勉强(“end after long time”抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(final/last也可) | L7: OK | L8: 偏高(抽象时间词)
+042 excessive | L5: def=懂; ex=不能(更可能选 too much) | L6: 相对唯一(“impossible to hear”) | L7: OK | L8: 合适但对MAP197偏高
+043 exotic | L5: def=勉强(faraway/ unusual); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(unusual/rare也可) | L7: OK | L8: 合适
+044 favorable | L5: def=勉强(helpful/conditions); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(good/nice也可) | L7: OK | L8: 合适
+045 formal | L5: def=懂; ex=勉强(穿正装) | L6: 相对唯一(suits/dresses) | L7: OK | L8: 合适
+046 gracious | L5: def=勉强(especially to guests); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(kind/polite也可) | L7: OK | L8: 偏高(抽象性格词)
+047 grand | L5: def=懂; ex=不能(big/large也可) | L6: 不唯一(impressive/huge也可) | L7: OK | L8: 合适
+048 grave | L5: def=勉强(serious); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(serious/stern也可) | L7: OK | L8: 注意多义(坟墓/serious)
+049 hasty | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(quick/rushed也可) | L7: OK | L8: 合适
+050 historic | L5: def=勉强(“in history”抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(famous/old也可) | L7: 注意(例句“first president”偏美式; 可换更通用) | L8: 合适
+051 horizontal | L5: def=懂; ex=勉强(画线) | L6: 相对唯一(side to side line) | L7: OK | L8: 合适
+052 hostile | L5: def=勉强(unfriendly/ready to fight); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(hiss/too close) | L7: OK | L8: 合适
+053 ignorant | L5: def=勉强(never learned); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(didn’t know也可) | L7: 注意(对人评价有羞辱感; 建议强调“not knowing yet”) | L8: 合适但要软化语气
+054 illegal | L5: def=懂; ex=勉强(steal/arrest) | L6: 相对唯一(law/arrest) | L7: 注意(涉及犯罪/逮捕; 但可接受) | L8: 合适
+055 imaginary | L5: def=懂; ex=勉强(“made up friend”) | L6: 相对唯一(imaginary friend) | L7: OK | L8: 合适
+056 immense | L5: def=懂; ex=不能(更可能选 huge) | L6: 不唯一(huge/enormous都可) | L7: OK | L8: 合适
+057 immune | L5: def=勉强(vaccine/disease词可能难); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(protected/safe也可) | L7: OK | L8: 偏高(健康科学词)
+058 inferior | L5: def=勉强; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(cheap vs expensive) | L7: OK | L8: 合适但对MAP197偏高
+059 infinite | L5: def=勉强(“all time/no end”抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(endless也可) | L7: OK | L8: 偏高(抽象概念)
+060 influential | L5: def=勉强(change what people do); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(important/powerful也可) | L7: OK | L8: 偏高(抽象)
+061 interior | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(inside也可) | L7: OK | L8: 合适
+062 isolated | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(alone/far也可) | L7: OK | L8: 合适
+063 legal | L5: def=勉强(law/traffic rules); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(allowed/permitted也可) | L7: OK | L8: 合适
+064 legitimate | L5: def=勉强(allowed/real); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(valid/real也可) | L7: OK | L8: 偏高
+065 literary | L5: def=勉强(authors/award); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(book/writing也可) | L7: OK | L8: 合适
+066 logical | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(sensible/normal也可) | L7: OK | L8: 合适
+067 mechanical | L5: def=勉强(moving parts/gears); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(machine-like也可) | L7: OK | L8: 合适
+068 microscopic | L5: def=勉强(microscope词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(need microscope) | L7: OK | L8: 合适但前置：microscope
+069 mobile | L5: def=懂; ex=勉强(手机对比座机) | L6: 相对唯一(mobile phone) | L7: OK | L8: 合适
+070 moderate | L5: def=勉强(“in between”可懂); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(comfortable/mild也可) | L7: OK | L8: 合适
+071 naked | L5: def=懂; ex=勉强(“naked trees”) | L6: 相对唯一(树没叶子) | L7: 注意(词本身可能引发尴尬/家长敏感；例句已避开人体) | L8: 合适但建议在更低level出现
+072 native | L5: def=勉强(origin/birth); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(belonging to也可) | L7: 注意(例句“bald eagle/北美”偏美式; 可改中国更熟悉物种) | L8: 合适
+073 naval | L5: def=勉强(navy/warships); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(naval base/ships) | L7: 注意(军事场景) | L8: 偏高(领域词)
+074 normal | L5: def=懂; ex=勉强(紧张正常) | L6: 不唯一(usual/typical也可) | L7: OK | L8: 合适
+075 occasional | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(sometimes也可) | L7: OK | L8: 合适
+076 official | L5: def=勉强(approved/announcement); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(important/real也可) | L7: OK | L8: 合适
+077 original | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(first/real也可) | L7: OK | L8: 合适
+078 partial | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(partial rainbow) | L7: OK | L8: 合适
+079 personal | L5: def=懂; ex=勉强(diary private) | L6: 不唯一(private也可) | L7: OK | L8: 合适
+080 political | L5: def=勉强(government); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(government-related也可) | L7: 注意(“political leaders/new rules”在中国语境可能让家长避开；可用更中性的“school council”) | L8: 偏高
+081 portable | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(carry/handheld也可) | L7: OK | L8: 合适
+082 precise | L5: def=勉强(exact/details); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(电脑指令) | L7: OK | L8: 合适但偏高
+083 primitive | L5: def=勉强(early time/basic); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(old/simple也可) | L7: OK | L8: 合适
+084 principal | L5: def=勉强(main/most important); ex=不能(易误解成校长) | L6: 不唯一(main/primary也可) | L7: OK | L8: 注意强歧义(校长vs主要); 对MAP197不友好
+085 private | L5: def=懂; ex=勉强(私密日记) | L6: 不唯一(personal也可) | L7: OK | L8: 合适
+086 probable | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(likely也可) | L7: OK | L8: 合适
+087 productive | L5: def=勉强(getting a lot done); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(busy/effective也可) | L7: OK | L8: 合适
+088 professional | L5: def=勉强(paid job/skill); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(expert也可) | L7: OK | L8: 合适
+089 profound | L5: def=不能(meaningful/“think for days”对MAP197太抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(deep/important也可) | L7: OK | L8: 偏高(更像L5)
+090 prominent | L5: def=勉强(standing out); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(visible/noticeable也可) | L7: OK | L8: 偏高
+091 proper | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(correct/right也可) | L7: OK | L8: 合适
+092 prosperous | L5: def=不能(“having plenty/thriving”抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(rich/successful也可) | L7: OK | L8: 偏高
+093 radical | L5: def=勉强; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(crazy/very different也可) | L7: OK | L8: 偏高
+094 reckless | L5: def=勉强(risky/safety); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(危险行为) | L7: OK | L8: 合适
+095 regional | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(local/area也可) | L7: OK | L8: 合适
+096 abode | L5: def=懂; ex=不能(词太古) | L6: 不唯一(home/house也可) | L7: OK | L8: 偏高/不合适(更像L5；建议用 home/house)
+097 acacia | L5: def=勉强(bush/leaf); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(树名难唯一) | L7: OK | L8: 偏高(专名类；除非做主题“自然/非洲”)
+098 adage | L5: def=勉强(wisdom抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(“practice makes perfect”) | L7: OK | L8: 偏高
+099 adrift | L5: def=勉强(steered/tied词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(rope broke + boat) | L7: OK | L8: 偏高
+100 afflict | L5: def=不能(pain/suffering抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(cause/hit也可) | L7: OK | L8: 偏高
+101 ajar | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(door slightly open) | L7: OK | L8: 合适
+102 akin | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(similar to也可) | L7: OK | L8: 偏高
+103 alcove | L5: def=勉强(set into wall); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(nook/space也可) | L7: OK | L8: 偏高
+104 alms | L5: def=勉强(poor/charity); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(donation/charity也可) | L7: 注意(带宗教色彩词源；但例句中性) | L8: 偏高
+105 alpine | L5: def=勉强(near high mountains); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(mountain也可) | L7: OK | L8: 偏高
+106 amble | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(walk slowly也可) | L7: OK | L8: 合适但偏高(同义词多)
+107 ambrosia | L5: def=不能(“food of the gods”+抽象比喻); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(delicious/tasty也可) | L7: 注意(“gods”神话元素; 部分家长不喜欢宗教/神祇词) | L8: 不合适(偏高/多义文化负担)
+108 amiable | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(friendly/kind也可) | L7: OK | L8: 偏高
+109 amplify | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(“make louder”) | L7: OK | L8: 合适
+110 amulet | L5: def=勉强(protection/good luck); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(charm/necklace也可) | L7: 注意(护身符/好运物件，易被家长视作迷信；但可接受) | L8: 偏高(文化负担)
+111 anagram | L5: def=不能(“mixing letters”+抽象任务); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(给listen/silent强线索) | L7: OK | L8: 偏高(需前置：spelling/letters)
+112 angular | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(pointy/sharp也可) | L7: OK | L8: 合适
+113 antiquated | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(old/outdated也可) | L7: OK | L8: 偏高
+114 apex | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(top/peak也可) | L7: OK | L8: 合适
+115 apprentice | L5: def=勉强(expert/skill); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(learner/trainee也可) | L7: OK | L8: 偏高
+116 arbiter | L5: def=勉强(settle a fight); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(judge/decide也可) | L7: OK | L8: 偏高
+117 ardor | L5: def=不能(enthusiasm/passion词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(passion/love也可) | L7: OK | L8: 不合适(偏高)
+118 aright | L5: def=懂; ex=不能(词太古) | L6: 不唯一(correctly/ right也可) | L7: OK | L8: 不合适(偏高/古词)
+119 assail | L5: def=不能(attack/harsh words); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(hit/strike也可) | L7: 注意(攻击/暴力语义; 例句用风暴较好) | L8: 偏高
+120 atoll | L5: def=不能(地理概念+ring/calm pool); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(island类很难唯一) | L7: OK | L8: 不合适(偏高/专门地理)
+121 atone | L5: def=勉强(make up for); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(apologize/repair也可) | L7: OK | L8: 偏高
+122 atrium | L5: def=不能(建筑词+glass roof); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(lobby/center hall也可) | L7: OK | L8: 偏高
+123 aura | L5: def=不能(抽象“quality surround”); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(feeling/mood也可) | L7: OK | L8: 不合适(偏高/抽象)
+124 awning | L5: def=勉强(block sun/rain); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(shop awning + rain) | L7: OK | L8: 偏高(名词较专)
+125 babble | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(toddler + mixed words) | L7: OK | L8: 合适
+126 badger | L5: def=懂; ex=不能(动词义不常见) | L6: 不唯一(beg/bug也可) | L7: OK | L8: 合适但需区分动物义
+127 baffle | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(magic trick + can’t figure out) | L7: OK | L8: 合适
+128 bamboo | L5: def=懂; ex=勉强(熊猫/中国线索) | L6: 相对唯一(pandas + eat) | L7: OK | L8: 偏低
+129 bane | L5: def=不能(trouble/misery词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(problem/annoyance也可) | L7: OK | L8: 不合适(偏高/古)
+130 banter | L5: def=勉强(playful); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(joke/talk也可) | L7: OK | L8: 偏高
+131 barbecue | L5: def=懂; ex=勉强(grill) | L6: 相对唯一(grill outdoors) | L7: OK | L8: 偏低
+132 barge | L5: def=勉强(heavy loads/rivers); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(boat/ship也可) | L7: OK | L8: 偏高
+133 barley | L5: def=勉强(grain plant); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(grain/wheat也可) | L7: OK | L8: 偏高(专名)
+134 barnacle | L5: def=不能(sea creature + sticks); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(sea animal难唯一) | L7: OK | L8: 偏高
+135 baroque | L5: def=不能(年代+艺术风格负担); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(fancy/decorated也可) | L7: OK | L8: 不合适(偏高)
+136 barracks | L5: def=勉强(soldiers live); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(soldiers returned to…) | L7: 注意(军事主题) | L8: 偏高
+137 bastion | L5: def=不能(抽象“last bastion”); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(only quiet place等) | L7: OK | L8: 不合适(偏高/抽象隐喻)
+138 batter | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(pancake batter) | L7: OK | L8: 合适
+139 bedlam | L5: def=不能(wild noise/confusion); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(hamster escaped) | L7: OK | L8: 偏高
+140 belfry | L5: def=不能(建筑词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(bell tower也可) | L7: 注意(教堂场景；家长可能介意宗教元素) | L8: 偏高
+141 berth | L5: def=不能(两义+交通词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(bunk/bed也可) | L7: OK | L8: 偏高
+142 billow | L5: def=不能(swell out比喻); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(curtains + breeze) | L7: OK | L8: 偏高
+143 bistro | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(cafe/restaurant也可) | L7: OK | L8: 偏高
+144 bivouac | L5: def=不能(temporary camp without tents); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(camp) | L7: OK | L8: 不合适(偏高)
+145 blazon | L5: def=不能(display boldly); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(“across jerseys”) | L7: OK | L8: 不合适(偏高)
+146 blotch | L5: def=勉强(uneven patch); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(ink mark) | L7: OK | L8: 偏高
+147 boggle | L5: def=不能(“mind can hardly take it in”抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(amaze/stun也可) | L7: OK | L8: 不合适(偏高)
+148 boon | L5: def=不能(helpful/welcome抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(helpful thing) | L7: OK | L8: 不合适(偏高/古)
+149 boulder | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(landslide blocked trail) | L7: OK | L8: 合适
+150 brawn | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(strength/muscles也可) | L7: OK | L8: 偏高
+151 breadth | L5: def=不能(distance from one side…句式难); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(width也可) | L7: OK | L8: 偏高
+152 brim | L5: def=懂; ex=勉强(杯口) | L6: 相对唯一(filled to the brim) | L7: OK | L8: 合适
+153 broach | L5: def=不能(topic for discussion抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(bring up/start) | L7: OK | L8: 不合适(偏高)
+154 brooch | L5: def=勉强(decorative pin); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(pin/jewel) | L7: OK | L8: 偏高
+155 buccaneer | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(pirate) | L7: OK | L8: 偏高
+156 buffet | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(serve themselves) | L7: OK | L8: 合适
+157 buggy | L5: def=勉强(horse-drawn); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(carriage也可) | L7: OK | L8: 偏高
+158 bulge | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(pockets bulged) | L7: OK | L8: 合适
+159 buoyancy | L5: def=不能(ability to float抽象+名词形态); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(float) | L7: OK | L8: 不合适(偏高)
+160 burgeon | L5: def=不能(develop quickly); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(grow/bloom) | L7: OK | L8: 不合适(偏高)
+161 bustle | L5: def=不能(抽象“activity”); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(busy activity) | L7: OK | L8: 偏高
+162 buttress | L5: def=不能(建筑专名); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(support/pillar) | L7: OK | L8: 不合适(偏高/专)
+163 cache | L5: def=勉强(hidden store); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(hidden stash) | L7: OK | L8: 偏高
+164 cairn | L5: def=不能(marker概念+专名); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(stone pile) | L7: OK | L8: 不合适(偏高/户外专词)
+165 caldron | L5: def=勉强(big metal pot); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(witch + bubbling pot) | L7: 注意(巫婆/魔法元素；一般可接受但部分家长介意) | L8: 偏高
+166 canter | L5: def=不能(马的步态专词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(run) | L7: OK | L8: 不合适(偏高)
+167 capsize | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(boat turned over) | L7: OK | L8: 合适
+168 capsule | L5: def=勉强(两义); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(spacecraft/vehicle也可) | L7: OK | L8: 偏高(多义)
+169 carafe | L5: def=不能(器皿专名+stopper); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(pitcher/bottle) | L7: OK | L8: 不合适(偏高)
+170 chaplain | L5: def=不能(religious leader概念); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(comfort visitor) | L7: 风险(宗教岗位词；中国家长可能排斥或陌生) | L8: 不合适(偏高/文化负担)
+171 char | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(toast turned black) | L7: OK | L8: 合适
+172 cherub | L5: def=不能(angel概念); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(angel/baby) | L7: 风险(天使宗教元素) | L8: 不合适(偏高/文化负担)
+173 cinch | L5: def=不能(习语/口语); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(“no trouble at all”) | L7: OK | L8: 偏高(习语)
+174 citadel | L5: def=不能(fortress词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(fortress/castle) | L7: OK | L8: 偏高
+175 clad | L5: def=勉强(wearing/covered); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(wearing) | L7: OK | L8: 偏高
+176 clatter | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(pots fell + noise) | L7: OK | L8: 合适
+177 claustrophobia | L5: def=不能(长词+抽象心理); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(fear of small spaces) | L7: OK | L8: 不合适(偏高)
+178 cleave | L5: def=不能(split with force); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(log + axe) | L7: 注意(斧头/暴力但可接受) | L8: 偏高
+179 cleft | L5: def=不能(rock/ground crack); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(crack/opening) | L7: OK | L8: 偏高
+180 clench | L5: def=勉强; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(clenched fists) | L7: OK | L8: 偏高
+181 cobalt | L5: def=不能(金属/颜色+专名); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(blue paint) | L7: OK | L8: 不合适(偏高/专名)
+182 coil | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(hose coiled) | L7: OK | L8: 合适
+183 colander | L5: def=不能(器具专名); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(drain pasta) | L7: OK | L8: 偏高
+184 collide | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(cars crashed) | L7: OK | L8: 合适
+185 colonnade | L5: def=不能(建筑专名); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(row of columns) | L7: OK | L8: 不合适(偏高)
+186 commode | L5: def=不能(词常见义=马桶；这里=家具抽屉，易误解); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(drawers/cabinet) | L7: 注意(可能联想到厕所词；家长/孩子尴尬) | L8: 不合适(歧义大；建议换 chest/dresser)
+187 compulsion | L5: def=不能(urge/control抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(need/urge) | L7: OK | L8: 不合适(偏高)
+188 condiment | L5: def=勉强(ketchup/mustard可理解); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(ketchup/mustard) | L7: OK | L8: 偏高(名词较专)
+189 conduit | L5: def=不能(pipe/channel/wires); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(pipe) | L7: OK | L8: 不合适(偏高)
+190 confide | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(tell secret + trust) | L7: OK | L8: 合适
+191 conifer | L5: def=不能(cones/leaf all year); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(tree type) | L7: OK | L8: 偏高
+192 consort | L5: def=不能(王后配偶概念+词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(partner/spouse) | L7: OK | L8: 不合适(偏高)
+193 contour | L5: def=不能(outline/shape抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(outline/shape) | L7: OK | L8: 偏高
+194 convoy | L5: def=不能(vehicles for safety); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(group of trucks) | L7: OK | L8: 偏高
+195 cornet | L5: def=不能(乐器专名); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(trumpet-like instrument) | L7: OK | L8: 偏高
+196 corona | L5: def=不能(天文术语); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(eclipse + ring of light) | L7: 注意(“corona”会联想到新冠；但定义为日冕) | L8: 偏高
+197 corsair | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(pirate ship) | L7: OK | L8: 偏高
+198 cosmos | L5: def=不能(universe抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(space/universe) | L7: OK | L8: 偏高
+199 countenance | L5: def=不能(抽象+词形陌生); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(face/expression) | L7: OK | L8: 不合适(偏高)
+200 cranny | L5: def=不能(narrow opening); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(mouse squeezed through crack) | L7: OK | L8: 偏高
+201 cringe | L5: def=不能(uneasy/缩退抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(shrink/feel embarrassed) | L7: OK | L8: 偏高
+202 crock | L5: def=不能(clay pot/jar专物); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(jar/pot) | L7: OK | L8: 偏高
+203 crone | L5: def=不能(贬义老女人词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(old woman/witch) | L7: 风险(对老人不尊重、刻板印象) | L8: 不合适(偏高/语用风险)
+204 crouton | L5: def=不能(食物专名); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(Caesar salad topping) | L7: OK | L8: 偏高
+205 crux | L5: def=不能(抽象“most important point”); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(main point) | L7: OK | L8: 不合适(偏高/抽象)
+206 crypt | L5: def=不能(地下墓室/教堂); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(tomb/underground room) | L7: 注意(死亡/埋葬+教堂元素) | L8: 不合适(偏高)
+207 cuisine | L5: def=勉强(style of cooking); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(food style) | L7: OK | L8: 偏高
+208 cupboard | L5: def=懂; ex=勉强(厨房柜子) | L6: 相对唯一(opened cupboard) | L7: OK | L8: 合适
+209 curfew | L5: def=不能(规则词但概念可懂); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(by nine o’clock rule) | L7: OK | L8: 偏高
+210 cursory | L5: def=不能(attention to detail抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(quick glance) | L7: OK | L8: 不合适(偏高)
+211 curtsy | L5: def=不能(文化礼节词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(after performance) | L7: OK | L8: 偏高
+212 cyclone | L5: def=勉强(storm/winds); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(hurricane/typhoon也可) | L7: OK | L8: 合适
+213 dale | L5: def=不能(古词=valley); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(valley) | L7: OK | L8: 不合适(偏高/古)
+214 dapper | L5: def=勉强(stylish/neatly); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(well dressed) | L7: OK | L8: 偏高
+215 dapple | L5: def=不能(“patches of light”抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(dappled sunlight) | L7: OK | L8: 偏高
+216 daze | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(after spinning) | L7: OK | L8: 合适
+217 decanter | L5: def=不能(器皿专名+stopper); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(carafe/pitcher也可) | L7: 注意(常用于酒；虽例句用水，但词联想可能不佳) | L8: 不合适(偏高)
+218 decibel | L5: def=不能(计量单位); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(100 decibels + hurt ears) | L7: OK | L8: 偏高(科学量纲)
+219 deft | L5: def=不能(skillful/quick); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(skillful) | L7: OK | L8: 偏高
+220 dehydrate | L5: def=勉强(lose water); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(hot day + don’t drink) | L7: OK | L8: 合适
+221 denture | L5: def=不能(false teeth); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(glass of water beside bed) | L7: OK | L8: 偏高(生活专词)
+222 devour | L5: def=懂; ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(hungrily + less than a minute) | L7: OK | L8: 合适
+223 dime | L5: def=不能(U.S. coin概念陌生); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(ten cents) | L7: 注意(美国货币文化; 中国孩子不熟) | L8: 不合适(偏高/文化不匹配)
+224 din | L5: def=不能(不常用名词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(construction site noise) | L7: OK | L8: 偏高
+225 dishevel | L5: def=不能(untidy词); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(wind + messy hair) | L7: OK | L8: 偏高
+226 disrepute | L5: def=不能(reputation抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(bad reputation) | L7: OK | L8: 不合适(偏高)
+227 dissect | L5: def=不能(study inside抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(science class + flower parts) | L7: 注意(“cut apart”可能让部分孩子不适；但用花较温和) | L8: 偏高
+228 distraught | L5: def=不能(upset/worried抽象); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(very upset) | L7: OK | L8: 偏高
+229 ditto | L5: def=不能(口语用法); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(“I want… Ditto!”) | L7: OK | L8: 偏高(口语)
+230 divulge | L5: def=不能(“tell a secret”但词形难); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 相对唯一(hidden present secret) | L7: OK | L8: 不合适(偏高)
+231 nautical | L5: def=勉强(ships/sea可懂); ex=不能(词形陌生或线索不足，猜不出目标词) | L6: 不唯一(sea/ship-related) | L7: OK | L8: 偏高(领域词)
