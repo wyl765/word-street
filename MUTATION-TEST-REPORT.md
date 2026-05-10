@@ -24,42 +24,42 @@
 
 ## Injected Mutations Detail
 
-- ✅ **scaffold** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **inadvertent** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **effervescent** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **forge** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **note** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **grate** (banned_word): injected "genocide" into example
-- ✅ **external** (banned_word): injected "massacre" into example
-- ✅ **alarm** (banned_word): injected "autopsy" into example
-- ✅ **bleak** (banned_word): injected "massacre" into example
-- ✅ **defamation** (banned_word): injected "genocide" into example
-- ✅ **clause** (collocation_error): bad collocation: "big rain"
-- ✅ **blood** (collocation_error): bad collocation: "drink soup"
-- ✅ **sibling** (collocation_error): bad collocation: "drink soup"
-- ✅ **run into** (collocation_error): bad collocation: "drink soup"
-- ✅ **prosper** (collocation_error): bad collocation: "big rain"
-- ✅ **inception** (empty_field): emptied example
-- ✅ **certify** (empty_field): emptied definition
-- ✅ **encompass** (empty_field): emptied example
-- ✅ **cavalier** (empty_field): emptied example
-- ✅ **approve** (empty_field): emptied example
-- ✅ **novel** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **sanguine** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **droplet** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **kernel** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **hymn** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **isthmus** (grammar_error): example: "She don't like the isthmus...."
-- ✅ **lose** (grammar_error): example: "She don't lost her favorite toy and looked everywhere for it..."
-- ✅ **knight** (grammar_error): example: "The childrens played with the knight...."
-- ✅ **soft** (grammar_error): example: "The soft is goes kitten fur felt like a cloud when she pette..."
-- ❌ **loyal** (grammar_error): example: "Our loyal dog waited by the door every day...."
+- ✅ **decree** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **embellish** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **strategic** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **suspend** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **geyser** (factual_error): def changed to: "a hot spring that grows underground in caves..."
+- ✅ **difference** (banned_word): injected "autopsy" into example
+- ✅ **unite** (banned_word): injected "torture" into example
+- ✅ **in the end** (banned_word): injected "autopsy" into example
+- ✅ **pajamas** (banned_word): injected "autopsy" into example
+- ✅ **atmosphere** (banned_word): injected "genocide" into example
+- ✅ **synthesis** (collocation_error): bad collocation: "eat medicine"
+- ✅ **sprinkle** (collocation_error): bad collocation: "open the light"
+- ✅ **skunk** (collocation_error): bad collocation: "close the light"
+- ✅ **emphasis** (collocation_error): bad collocation: "drink soup"
+- ✅ **perhaps** (collocation_error): bad collocation: "big rain"
+- ✅ **javelin** (empty_field): emptied example
+- ✅ **strategy** (empty_field): emptied example
+- ✅ **mollify** (empty_field): emptied example
+- ✅ **fluctuation** (empty_field): emptied definition
+- ✅ **gradually** (empty_field): emptied definition
+- ✅ **mutual** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **bulge** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **scaffold** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **hierarchy** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **compulsory** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ❌ **injustice** (grammar_error): example: "The students protested against the injustice of unequal fund..."
+- ✅ **kitten** (grammar_error): example: "They is happy about the kitten...."
+- ✅ **isle** (grammar_error): example: "She don't like the isle...."
+- ✅ **altogether** (grammar_error): example: "She don't like the altogether...."
+- ✅ **cede** (grammar_error): example: "They is happy about the cede...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **loyal** (grammar_error): example: "Our loyal dog waited by the door every day...."
+- **injustice** (grammar_error): example: "The students protested against the injustice of unequal fund..."
 
 ### Recommended Improvements
 

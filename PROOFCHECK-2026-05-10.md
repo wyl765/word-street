@@ -207,7 +207,7 @@ Definition uses "something" 2 times: "something that makes you want to do someth
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2b.js — "go through" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "to feel something, mainly something hard"
+Definition uses "something" 2 times: "to experience something, especially something difficult"
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2c.js — "incident" (VAGUE_DEFINITION)

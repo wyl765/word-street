@@ -51,7 +51,7 @@
 - words-level2a.js | gorgeous | Definition "very beautiful" is too brief to be useful
 - words-level2a.js | weak | Definition "not strong" is too brief to be useful
 - words-level2a.js | moisture | L2 definition packs 3 meanings: "wetness; water you can feel on a surface or in the air"
-- words-level2a.js | erosion | L2 definition packs 3 meanings: "when wind or water slowly wears away rock or soil"
+- words-level2a.js | erosion | L2 definition packs 3 meanings: "the slow wearing away of rock or soil by wind or water"
 - words-level2a.js | numerous | Definition "very many" is too brief to be useful
 - words-level2b.js | verse | L2 definition packs 3 meanings: "one line or section of a poem or song"
 - words-level2b.js | genre | L2 definition packs 3 meanings: "a type or kind of book or story"

@@ -1,7 +1,7 @@
 # Prototype Effect Report — 2026-05-10
 
 ## Summary
-- Total issues: 36
+- Total issues: 35
 
 ## Issues
 
@@ -27,7 +27,6 @@
 - **prize** (L2): "trophy" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **talent** (L2): "drawing" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **elegant** (L2): "elegant swan" — imageKeyword contains obscure modifier "elegant"
-- **sometimes** (L2): "calendar with some days circled some not" — imageKeyword too verbose (7 words)
 - **miniature** (L2): "miniature tiny" — imageKeyword contains obscure modifier "miniature"
 - **amphibian** (L2): "frog" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)
 - **germ** (L2): "germs" — imageKeyword may be too abstract for concrete noun (single word, not the word itself)

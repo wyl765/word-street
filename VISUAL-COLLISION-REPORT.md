@@ -2,7 +2,7 @@
 
 ## Summary
 - CRITICAL (identical imageKeyword): 0
-- MAJOR (containment): 537
+- MAJOR (containment): 532
 - MINOR (≥50% word overlap): 49
 
 ## Issues
@@ -154,7 +154,6 @@
 - **[MAJOR]** L2: **force** ↔ **back and forth** — "swing" vs "swinging" (one contains the other)
 - **[MAJOR]** L2: **soil** ↔ **tend** — "garden soil" vs "garden" (one contains the other)
 - **[MAJOR]** L2: **climate** ↔ **oasis** — "desert" vs "oasis desert" (one contains the other)
-- **[MAJOR]** L2: **climate** ↔ **scarce** — "desert" vs "scarce desert" (one contains the other)
 - **[MAJOR]** L2: **climate** ↔ **desperate** — "desert" vs "thirsty desert" (one contains the other)
 - **[MAJOR]** L2: **law** ↔ **inspire** — "red light" vs "inspired lightbulb" (one contains the other)
 - **[MAJOR]** L2: **map** ↔ **state** — "map" vs "state map" (one contains the other)
@@ -206,7 +205,6 @@
 - **[MAJOR]** L2: **arm** ↔ **farm** — "arm" vs "farm" (one contains the other)
 - **[MAJOR]** L2: **arm** ↔ **hurt** — "arm" vs "hurt arm" (one contains the other)
 - **[MAJOR]** L2: **arm** ↔ **warmth** — "arm" vs "warm blanket" (one contains the other)
-- **[MAJOR]** L2: **arm** ↔ **usually** — "arm" vs "morning routine alarm clock and breakfast" (one contains the other)
 - **[MAJOR]** L2: **arm** ↔ **crop** — "arm" vs "crop farm" (one contains the other)
 - **[MAJOR]** L2: **arm** ↔ **insulate** — "arm" vs "insulate warm" (one contains the other)
 - **[MAJOR]** L2: **arm** ↔ **alarm** — "arm" vs "fire alarm" (one contains the other)
@@ -229,20 +227,18 @@
 - **[MAJOR]** L2: **bossy** ↔ **hint** — "child pointing finger at others" vs "pointing" (one contains the other)
 - **[MAJOR]** L2: **bossy** ↔ **blame** — "child pointing finger at others" vs "pointing finger" (one contains the other)
 - **[MAJOR]** L2: **bounce** ↔ **object** — "bouncing ball" vs "ball" (one contains the other)
-- **[MAJOR]** L2: **breakfast** ↔ **usually** — "breakfast" vs "morning routine alarm clock and breakfast" (one contains the other)
 - **[MAJOR]** L2: **breathe** ↔ **cope** — "deep breath" vs "deep breath calm" (one contains the other)
 - **[MAJOR]** L2: **bring** ↔ **library** — "library book" vs "library" (one contains the other)
 - **[MAJOR]** L2: **broad** ↔ **river** — "wide river" vs "river" (one contains the other)
 - **[MAJOR]** L2: **cactus** ↔ **thrive** — "cactus" vs "thriving cactus" (one contains the other)
 - **[MAJOR]** L2: **calendar** ↔ **yesterday** — "calendar" vs "calendar day" (one contains the other)
-- **[MAJOR]** L2: **calendar** ↔ **sometimes** — "calendar" vs "calendar with some days circled some not" (one contains the other)
+- **[MAJOR]** L2: **calendar** ↔ **sometimes** — "calendar" vs "sometimes calendar" (one contains the other)
 - **[MAJOR]** L2: **calendar** ↔ **annual** — "calendar" vs "calendar year circled" (one contains the other)
 - **[MAJOR]** L2: **calendar** ↔ **decade** — "calendar" vs "ten calendar" (one contains the other)
 - **[MAJOR]** L2: **calendar** ↔ **regular** — "calendar" vs "calendar routine" (one contains the other)
 - **[MAJOR]** L2: **capture** ↔ **ignore** — "butterfly net" vs "fly" (one contains the other)
 - **[MAJOR]** L2: **careful** ↔ **cut off** — "scissors" vs "cutting paper with scissors" (one contains the other)
 - **[MAJOR]** L2: **cart** ↔ **hop** — "shopping cart" vs "hop" (one contains the other)
-- **[MAJOR]** L2: **circle** ↔ **sometimes** — "circle" vs "calendar with some days circled some not" (one contains the other)
 - **[MAJOR]** L2: **circle** ↔ **annual** — "circle" vs "calendar year circled" (one contains the other)
 - **[MAJOR]** L2: **circle** ↔ **at the same time** — "circle" vs "friends holding hands circle" (one contains the other)
 - **[MAJOR]** L2: **circle** ↔ **proportion** — "circle" vs "fraction parts circle" (one contains the other)
@@ -425,14 +421,13 @@
 - **[MINOR]** L2: **worthless** ↔ **fragment** — "broken toy pieces" vs "broken pieces" (67% word overlap)
 - **[MINOR]** L2: **originally** ↔ **initially** — "first beginning" vs "at first" (50% word overlap)
 - **[MAJOR]** L2: **originally** ↔ **at first** — "first beginning" vs "beginning" (one contains the other)
-- **[MAJOR]** L2: **probably** ↔ **threaten** — "dark clouds suggesting rain is coming" vs "dark clouds" (one contains the other)
+- **[MAJOR]** L2: **probably** ↔ **pessimistic** — "likely rain clouds" vs "rain cloud" (one contains the other)
 - **[MINOR]** L2: **promptly** ↔ **temporarily** — "on time" vs "short time" (50% word overlap)
 - **[MAJOR]** L2: **promptly** ↔ **duration** — "on time" vs "duration time" (one contains the other)
 - **[MINOR]** L2: **promptly** ↔ **in general** — "on time" vs "most of the time" (50% word overlap)
 - **[MAJOR]** L2: **shortly** ↔ **before long** — "soon shortly" vs "soon" (one contains the other)
 - **[MAJOR]** L2: **still** ↔ **nevertheless** — "still continuing" vs "still" (one contains the other)
 - **[MAJOR]** L2: **typically** ↔ **generally** — "usually typical" vs "usually" (one contains the other)
-- **[MAJOR]** L2: **usually** ↔ **routine** — "morning routine alarm clock and breakfast" vs "morning routine" (one contains the other)
 - **[MINOR]** L2: **initially** ↔ **initial** — "at first" vs "first reaction" (50% word overlap)
 - **[MINOR]** L2: **initially** ↔ **priority** — "at first" vs "first important" (50% word overlap)
 - **[MAJOR]** L2: **vocabulary** ↔ **glossary** — "words vocabulary" vs "vocabulary" (one contains the other)

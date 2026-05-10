@@ -2,7 +2,7 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 423
+- CRITICAL (≥5 超纲词 in definition): 422
 - MAJOR (≥3 超纲词 in definition): 2152
 
 ## Issues
@@ -368,16 +368,16 @@
 - **超纲词 (5):** say, words, help, keep, trying
 
 ### 🔴 [CRITICAL] rusty (L2)
-- **Definition:** "covered in a reddish-brown coating from water and air"
-- **超纲词 (5):** covered, reddish-brown, coating, water, air
+- **Definition:** "covered in a rough, reddish-brown layer that forms when metal gets wet"
+- **超纲词 (6):** covered, reddish-brown, forms, metal, gets, wet
 
 ### 🔴 [CRITICAL] fossil (L2)
-- **Definition:** "the remains of a plant or animal from long ago preserved in rock"
-- **超纲词 (7):** remains, plant, animal, long, ago, preserved, rock
+- **Definition:** "the remains of a plant or animal from long ago, kept safe inside rock"
+- **超纲词 (7):** remains, plant, animal, long, ago, kept, rock
 
 ### 🔴 [CRITICAL] erosion (L2)
-- **Definition:** "when wind or water slowly wears away rock or soil"
-- **超纲词 (5):** wind, water, wears, away, rock
+- **Definition:** "the slow wearing away of rock or soil by wind or water"
+- **超纲词 (6):** slow, wearing, away, rock, wind, water
 
 ### 🔴 [CRITICAL] pioneer (L2)
 - **Definition:** "one of the first people to go to a new place or try something new"
@@ -394,10 +394,6 @@
 ### 🔴 [CRITICAL] imagination (L2)
 - **Definition:** "the part of your mind that makes up new ideas and pictures"
 - **超纲词 (6):** part, mind, makes, new, ideas, pictures
-
-### 🔴 [CRITICAL] discovery (L2)
-- **Definition:** "finding something new or learning something for the first time"
-- **超纲词 (5):** finding, new, learning, first, time
 
 ### 🔴 [CRITICAL] fable (L2)
 - **Definition:** "a short story with animals that teaches a lesson"
@@ -3643,10 +3639,6 @@
 - **Definition:** "to say something is yours or is true"
 - **超纲词 (3):** say, yours, true
 
-### 🟡 [MAJOR] cover (L2)
-- **Definition:** "to put something over the top of something else"
-- **超纲词 (3):** put, top, else
-
 ### 🟡 [MAJOR] cross (L2)
 - **Definition:** "to go from one side to the other"
 - **超纲词 (3):** go, one, side
@@ -3820,8 +3812,8 @@
 - **超纲词 (4):** wetness, water, feel, air
 
 ### 🟡 [MAJOR] motion (L2)
-- **Definition:** "when something changes position or place"
-- **超纲词 (3):** changes, position, place
+- **Definition:** "the act of moving or changing position"
+- **超纲词 (3):** moving, changing, position
 
 ### 🟡 [MAJOR] predator (L2)
 - **Definition:** "an animal that hunts other animals for food"
@@ -3932,8 +3924,8 @@
 - **超纲词 (3):** get, family, member
 
 ### 🟡 [MAJOR] obvious (L2)
-- **Definition:** "very easy to see or get"
-- **超纲词 (3):** easy, see, get
+- **Definition:** "very easy to see or understand"
+- **超纲词 (3):** easy, see, understand
 
 ### 🟡 [MAJOR] vivid (L2)
 - **Definition:** "very bright and easy to picture in your mind"
@@ -3986,6 +3978,10 @@
 ### 🟡 [MAJOR] concentrate (L2)
 - **Definition:** "to think very hard about one thing"
 - **超纲词 (3):** think, hard, one
+
+### 🟡 [MAJOR] discovery (L2)
+- **Definition:** "something new that you find or learn about for the first time"
+- **超纲词 (3):** new, first, time
 
 ### 🟡 [MAJOR] reasonable (L2)
 - **Definition:** "fair and making good sense"
@@ -4044,8 +4040,8 @@
 - **超纲词 (3):** type, money, uses
 
 ### 🟡 [MAJOR] diverse (L2)
-- **Definition:** "having many unlike kinds"
-- **超纲词 (3):** having, unlike, kinds
+- **Definition:** "having many different kinds"
+- **超纲词 (3):** having, different, kinds
 
 ### 🟡 [MAJOR] hierarchy (L2)
 - **Definition:** "a system where things are ranked from top to bottom"

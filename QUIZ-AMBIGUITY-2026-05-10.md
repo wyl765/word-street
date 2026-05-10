@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3739 ambiguous pairs found.
+3691 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -934,10 +934,6 @@
 - suppose: to guess that something might be true
 - entity: something that exists on its own
 
-## L2: "suppose" vs "incentive" (67%)
-- suppose: to guess that something might be true
-- incentive: something that motivates you to do something
-
 ## L2: "suppose" vs "attest" (75%)
 - suppose: to guess that something might be true
 - attest: to show that something is true
@@ -997,6 +993,10 @@
 ## L2: "mention" vs "refuse" (100%)
 - mention: to talk about something in just a few words
 - refuse: to say no and not do something
+
+## L2: "separate" vs "transform" (67%)
+- separate: to put into different groups
+- transform: to change completely into something different
 
 ## L2: "separate" vs "even" (67%)
 - separate: to put into different groups
@@ -1101,10 +1101,6 @@
 ## L2: "anxious" vs "entity" (67%)
 - anxious: feeling worried that something bad might happen
 - entity: something that exists on its own
-
-## L2: "anxious" vs "incentive" (67%)
-- anxious: feeling worried that something bad might happen
-- incentive: something that motivates you to do something
 
 ## L2: "anxious" vs "bring about" (67%)
 - anxious: feeling worried that something bad might happen
@@ -1310,10 +1306,6 @@
 - liquid: something that flows like water
 - entity: something that exists on its own
 
-## L2: "liquid" vs "incentive" (67%)
-- liquid: something that flows like water
-- incentive: something that motivates you to do something
-
 ## L2: "liquid" vs "resource" (80%)
 - liquid: something that flows like water
 - resource: something useful that people need, like water or wood
@@ -1353,10 +1345,6 @@
 ## L2: "gas" vs "entity" (67%)
 - gas: something like air that is not a solid or a liquid
 - entity: something that exists on its own
-
-## L2: "gas" vs "incentive" (67%)
-- gas: something like air that is not a solid or a liquid
-- incentive: something that motivates you to do something
 
 ## L2: "gas" vs "resource" (60%)
 - gas: something like air that is not a solid or a liquid
@@ -1401,10 +1389,6 @@
 ## L2: "magnet" vs "entity" (67%)
 - magnet: something that pulls some metals
 - entity: something that exists on its own
-
-## L2: "magnet" vs "incentive" (67%)
-- magnet: something that pulls some metals
-- incentive: something that motivates you to do something
 
 ## L2: "magnet" vs "barrier" (67%)
 - magnet: something that pulls some metals
@@ -1606,13 +1590,9 @@
 - turn into: to change into something else
 - prize: something you win
 
-## L2: "turn into" vs "cover" (67%)
-- turn into: to change into something else
-- cover: to put something over the top of something else
-
 ## L2: "turn into" vs "transform" (75%)
 - turn into: to change into something else
-- transform: to change fully into something unlike
+- transform: to change completely into something different
 
 ## L2: "turn into" vs "amend" (67%)
 - turn into: to change into something else
@@ -1661,10 +1641,6 @@
 ## L2: "look forward to" vs "entity" (67%)
 - look forward to: to be happy that something good is coming
 - entity: something that exists on its own
-
-## L2: "look forward to" vs "incentive" (67%)
-- look forward to: to be happy that something good is coming
-- incentive: something that motivates you to do something
 
 ## L2: "look forward to" vs "barrier" (67%)
 - look forward to: to be happy that something good is coming
@@ -1918,6 +1894,10 @@
 - beg: to ask for something in a way that shows you really want it
 - evidence: proof that shows something is true
 
+## L2: "beg" vs "essential" (67%)
+- beg: to ask for something in a way that shows you really want it
+- essential: something you really need
+
 ## L2: "beg" vs "challenge" (67%)
 - beg: to ask for something in a way that shows you really want it
 - challenge: something that is hard to do
@@ -1930,9 +1910,9 @@
 - beg: to ask for something in a way that shows you really want it
 - entity: something that exists on its own
 
-## L2: "beg" vs "incentive" (67%)
+## L2: "beg" vs "incentive" (75%)
 - beg: to ask for something in a way that shows you really want it
-- incentive: something that motivates you to do something
+- incentive: something that makes you want to do something
 
 ## L2: "beg" vs "barrier" (67%)
 - beg: to ask for something in a way that shows you really want it
@@ -2054,10 +2034,6 @@
 - better: more good than something else
 - talent: something you are good at
 
-## L2: "better" vs "cover" (67%)
-- better: more good than something else
-- cover: to put something over the top of something else
-
 ## L2: "better" vs "dispose" (100%)
 - better: more good than something else
 - dispose: to get rid of something
@@ -2172,7 +2148,7 @@
 
 ## L2: "carve" vs "transform" (67%)
 - carve: to cut a shape into something
-- transform: to change fully into something unlike
+- transform: to change completely into something different
 
 ## L2: "carve" vs "maintain" (67%)
 - carve: to cut a shape into something
@@ -2214,13 +2190,9 @@
 - chance: a time when you can try something
 - prize: something you win
 
-## L2: "chance" vs "motion" (67%)
-- chance: a time when you can try something
-- motion: when something changes position or place
-
 ## L2: "chance" vs "discovery" (67%)
 - chance: a time when you can try something
-- discovery: finding something new or learning something for the first time
+- discovery: something new that you find or learn about for the first time
 
 ## L2: "chance" vs "devote" (67%)
 - chance: a time when you can try something
@@ -2317,6 +2289,10 @@
 ## L2: "complain" vs "attitude" (67%)
 - complain: to say you are unhappy about something
 - attitude: the way you think and feel about something
+
+## L2: "complain" vs "discovery" (67%)
+- complain: to say you are unhappy about something
+- discovery: something new that you find or learn about for the first time
 
 ## L2: "complain" vs "contemplate" (67%)
 - complain: to say you are unhappy about something
@@ -2522,10 +2498,6 @@
 - danger: something that could hurt you
 - entity: something that exists on its own
 
-## L2: "danger" vs "incentive" (67%)
-- danger: something that could hurt you
-- incentive: something that motivates you to do something
-
 ## L2: "danger" vs "barrier" (67%)
 - danger: something that could hurt you
 - barrier: something that blocks the way
@@ -2684,7 +2656,7 @@
 
 ## L2: "depend" vs "essential" (67%)
 - depend: to need something to live or work
-- essential: something you fully need
+- essential: something you really need
 
 ## L2: "depend" vs "dispose" (100%)
 - depend: to need something to live or work
@@ -2885,10 +2857,6 @@
 ## L2: "key" vs "entity" (67%)
 - key: something that opens a lock
 - entity: something that exists on its own
-
-## L2: "key" vs "incentive" (67%)
-- key: something that opens a lock
-- incentive: something that motivates you to do something
 
 ## L2: "key" vs "barrier" (67%)
 - key: something that opens a lock
@@ -3253,10 +3221,6 @@
 ## L2: "trick" vs "entity" (67%)
 - trick: something that surprises or fools
 - entity: something that exists on its own
-
-## L2: "trick" vs "incentive" (67%)
-- trick: something that surprises or fools
-- incentive: something that motivates you to do something
 
 ## L2: "trick" vs "barrier" (67%)
 - trick: something that surprises or fools
@@ -3882,45 +3846,41 @@
 - control: to make something do what you want
 - constitute: to make up or form something
 
-## L2: "cover" vs "symbol" (67%)
-- cover: to put something over the top of something else
-- symbol: a picture or mark that stands for something else
+## L2: "cover" vs "exchange" (67%)
+- cover: to place something on top of another thing to hide or protect it
+- exchange: to swap one thing for another
+
+## L2: "cover" vs "transport" (60%)
+- cover: to place something on top of another thing to hide or protect it
+- transport: to carry something from one place to another
 
 ## L2: "cover" vs "dispose" (100%)
-- cover: to put something over the top of something else
+- cover: to place something on top of another thing to hide or protect it
 - dispose: to get rid of something
 
-## L2: "cover" vs "knock down" (67%)
-- cover: to put something over the top of something else
-- knock down: to make something fall over
-
-## L2: "cover" vs "look after" (67%)
-- cover: to put something over the top of something else
-- look after: to watch over someone or something to keep them safe
-
-## L2: "cover" vs "take over" (67%)
-- cover: to put something over the top of something else
-- take over: to start doing something that someone else was doing
-
-## L2: "cover" vs "in the meantime" (67%)
-- cover: to put something over the top of something else
-- in the meantime: while waiting for something else to happen
-
-## L2: "cover" vs "monitor" (67%)
-- cover: to put something over the top of something else
-- monitor: to watch something carefully over time
+## L2: "cover" vs "deposit" (67%)
+- cover: to place something on top of another thing to hide or protect it
+- deposit: to put something in a safe place
 
 ## L2: "cover" vs "purchase" (100%)
-- cover: to put something over the top of something else
+- cover: to place something on top of another thing to hide or protect it
 - purchase: to buy something
 
 ## L2: "cover" vs "refuse" (100%)
-- cover: to put something over the top of something else
+- cover: to place something on top of another thing to hide or protect it
 - refuse: to say no and not do something
 
-## L2: "cover" vs "resemble" (67%)
-- cover: to put something over the top of something else
-- resemble: to look like someone or something else
+## L2: "cover" vs "replace" (100%)
+- cover: to place something on top of another thing to hide or protect it
+- replace: to put something new in place of the old one
+
+## L2: "cover" vs "substitute" (60%)
+- cover: to place something on top of another thing to hide or protect it
+- substitute: someone or something used in place of another
+
+## L2: "cover" vs "transfer" (60%)
+- cover: to place something on top of another thing to hide or protect it
+- transfer: to move something from one place to another
 
 ## L2: "crush" vs "effort" (67%)
 - crush: to press something so hard it breaks into pieces
@@ -4562,10 +4522,6 @@
 - approve: to say yes or agree that something is okay
 - entity: something that exists on its own
 
-## L2: "approve" vs "incentive" (67%)
-- approve: to say yes or agree that something is okay
-- incentive: something that motivates you to do something
-
 ## L2: "approve" vs "assent" (100%)
 - approve: to say yes or agree that something is okay
 - assent: to agree to something
@@ -4962,6 +4918,10 @@
 - temporarily: only for a short time, not forever
 - sole: the only one
 
+## L2: "lately" vs "previous" (67%)
+- lately: in the time just before now
+- previous: coming before in time or order
+
 ## L2: "lately" vs "beforehand" (67%)
 - lately: in the time just before now
 - beforehand: before something happens; ahead of time
@@ -4993,10 +4953,6 @@
 ## L2: "diagram" vs "entity" (67%)
 - diagram: a drawing that shows how something works
 - entity: something that exists on its own
-
-## L2: "diagram" vs "incentive" (67%)
-- diagram: a drawing that shows how something works
-- incentive: something that motivates you to do something
 
 ## L2: "diagram" vs "barrier" (67%)
 - diagram: a drawing that shows how something works
@@ -5054,10 +5010,6 @@
 - fact: something that is true and can be proven
 - entity: something that exists on its own
 
-## L2: "fact" vs "incentive" (67%)
-- fact: something that is true and can be proven
-- incentive: something that motivates you to do something
-
 ## L2: "fact" vs "attest" (75%)
 - fact: something that is true and can be proven
 - attest: to show that something is true
@@ -5105,6 +5057,10 @@
 ## L2: "topic" vs "identify" (67%)
 - topic: what something is about
 - identify: to figure out what something is
+
+## L2: "topic" vs "discovery" (67%)
+- topic: what something is about
+- discovery: something new that you find or learn about for the first time
 
 ## L2: "topic" vs "recognize" (67%)
 - topic: what something is about
@@ -5230,6 +5186,10 @@
 - topic: what something is about
 - reputation: opinions about you based on what you have done
 
+## L2: "research" vs "discovery" (60%)
+- research: looking for facts to learn about something
+- discovery: something new that you find or learn about for the first time
+
 ## L2: "research" vs "dispose" (100%)
 - research: looking for facts to learn about something
 - dispose: to get rid of something
@@ -5314,26 +5274,6 @@
 - source: where something comes from
 - refuse: to say no and not do something
 
-## L2: "motion" vs "dispose" (100%)
-- motion: when something changes position or place
-- dispose: to get rid of something
-
-## L2: "motion" vs "deposit" (67%)
-- motion: when something changes position or place
-- deposit: to put something in a safe place
-
-## L2: "motion" vs "purchase" (100%)
-- motion: when something changes position or place
-- purchase: to buy something
-
-## L2: "motion" vs "refuse" (100%)
-- motion: when something changes position or place
-- refuse: to say no and not do something
-
-## L2: "motion" vs "replace" (100%)
-- motion: when something changes position or place
-- replace: to put something new in place of the old one
-
 ## L2: "mixture" vs "overall" (67%)
 - mixture: two or more things stirred together
 - overall: looking at all things together
@@ -5350,9 +5290,13 @@
 - direction: the way something is moving or pointing
 - refuse: to say no and not do something
 
-## L2: "erosion" vs "erode" (67%)
-- erosion: when wind or water slowly wears away rock or soil
-- erode: to slowly wear away
+## L2: "fossil" vs "internal" (100%)
+- fossil: the remains of a plant or animal from long ago, kept safe inside rock
+- internal: on the inside
+
+## L2: "fossil" vs "edible" (100%)
+- fossil: the remains of a plant or animal from long ago, kept safe inside rock
+- edible: safe to eat
 
 ## L2: "orbit" vs "dispose" (100%)
 - orbit: the path something takes as it moves around another thing in space
@@ -5514,10 +5458,6 @@
 - advantage: something that gives you a better chance to succeed
 - entity: something that exists on its own
 
-## L2: "advantage" vs "incentive" (67%)
-- advantage: something that gives you a better chance to succeed
-- incentive: something that motivates you to do something
-
 ## L2: "advantage" vs "barrier" (67%)
 - advantage: something that gives you a better chance to succeed
 - barrier: something that blocks the way
@@ -5593,10 +5533,6 @@
 ## L2: "accident" vs "entity" (67%)
 - accident: something bad that happens without being planned
 - entity: something that exists on its own
-
-## L2: "accident" vs "incentive" (67%)
-- accident: something bad that happens without being planned
-- incentive: something that motivates you to do something
 
 ## L2: "accident" vs "call off" (75%)
 - accident: something bad that happens without being planned
@@ -5693,10 +5629,6 @@
 ## L2: "evidence" vs "entity" (67%)
 - evidence: proof that shows something is true
 - entity: something that exists on its own
-
-## L2: "evidence" vs "incentive" (67%)
-- evidence: proof that shows something is true
-- incentive: something that motivates you to do something
 
 ## L2: "evidence" vs "attest" (75%)
 - evidence: proof that shows something is true
@@ -5814,28 +5746,24 @@
 - survive: to stay alive through something risky
 - undergo: to experience or go through something
 
-## L2: "transform" vs "essential" (67%)
-- transform: to change fully into something unlike
-- essential: something you fully need
-
 ## L2: "transform" vs "amend" (67%)
-- transform: to change fully into something unlike
+- transform: to change completely into something different
 - amend: to change something to fix or improve it
 
 ## L2: "transform" vs "dispose" (100%)
-- transform: to change fully into something unlike
+- transform: to change completely into something different
 - dispose: to get rid of something
 
 ## L2: "transform" vs "affect" (67%)
-- transform: to change fully into something unlike
+- transform: to change completely into something different
 - affect: to cause a change in something
 
 ## L2: "transform" vs "purchase" (100%)
-- transform: to change fully into something unlike
+- transform: to change completely into something different
 - purchase: to buy something
 
 ## L2: "transform" vs "refuse" (100%)
-- transform: to change fully into something unlike
+- transform: to change completely into something different
 - refuse: to say no and not do something
 
 ## L2: "transport" vs "derive" (67%)
@@ -5942,6 +5870,14 @@
 - massive: very large and heavy
 - dinosaur: a very large animal that lived millions of years ago
 
+## L2: "obvious" vs "vivid" (67%)
+- obvious: very easy to see or understand
+- vivid: very bright and easy to picture in your mind
+
+## L2: "obvious" vs "clearly" (67%)
+- obvious: very easy to see or understand
+- clearly: in a way that is easy to see or understand
+
 ## L2: "rapid" vs "swiftly" (67%)
 - rapid: happening very quickly
 - swiftly: moving very quickly
@@ -5961,10 +5897,6 @@
 ## L2: "reveal" vs "entity" (67%)
 - reveal: to show something that was hidden
 - entity: something that exists on its own
-
-## L2: "reveal" vs "incentive" (67%)
-- reveal: to show something that was hidden
-- incentive: something that motivates you to do something
 
 ## L2: "reveal" vs "attest" (75%)
 - reveal: to show something that was hidden
@@ -6103,23 +6035,27 @@
 - reward: something good given for doing something well
 
 ## L2: "essential" vs "dispose" (100%)
-- essential: something you fully need
+- essential: something you really need
 - dispose: to get rid of something
 
 ## L2: "essential" vs "rely on" (67%)
-- essential: something you fully need
+- essential: something you really need
 - rely on: to need and trust someone or something
 
+## L2: "essential" vs "exaggerate" (67%)
+- essential: something you really need
+- exaggerate: to make something sound bigger or more than it really is
+
 ## L2: "essential" vs "owe" (67%)
-- essential: something you fully need
+- essential: something you really need
 - owe: to need to pay or give something back
 
 ## L2: "essential" vs "purchase" (100%)
-- essential: something you fully need
+- essential: something you really need
 - purchase: to buy something
 
 ## L2: "essential" vs "refuse" (100%)
-- essential: something you fully need
+- essential: something you really need
 - refuse: to say no and not do something
 
 ## L2: "positive" vs "dispose" (100%)
@@ -6162,10 +6098,6 @@
 - structure: something that has been built
 - entity: something that exists on its own
 
-## L2: "structure" vs "incentive" (67%)
-- structure: something that has been built
-- incentive: something that motivates you to do something
-
 ## L2: "structure" vs "barrier" (67%)
 - structure: something that has been built
 - barrier: something that blocks the way
@@ -6189,10 +6121,6 @@
 ## L2: "symbol" vs "entity" (67%)
 - symbol: a picture or mark that stands for something else
 - entity: something that exists on its own
-
-## L2: "symbol" vs "incentive" (67%)
-- symbol: a picture or mark that stands for something else
-- incentive: something that motivates you to do something
 
 ## L2: "symbol" vs "barrier" (67%)
 - symbol: a picture or mark that stands for something else
@@ -6226,6 +6154,10 @@
 - tradition: something families or groups do the same way year after year
 - refuse: to say no and not do something
 
+## L2: "challenge" vs "discovery" (67%)
+- challenge: something that is hard to do
+- discovery: something new that you find or learn about for the first time
+
 ## L2: "challenge" vs "complement" (67%)
 - challenge: something that is hard to do
 - complement: something that goes well with another thing
@@ -6252,7 +6184,7 @@
 
 ## L2: "challenge" vs "incentive" (67%)
 - challenge: something that is hard to do
-- incentive: something that motivates you to do something
+- incentive: something that makes you want to do something
 
 ## L2: "challenge" vs "glossary" (67%)
 - challenge: something that is hard to do
@@ -6715,23 +6647,43 @@
 - refuse: to say no and not do something
 
 ## L2: "discovery" vs "dispose" (100%)
-- discovery: finding something new or learning something for the first time
+- discovery: something new that you find or learn about for the first time
 - dispose: to get rid of something
 
-## L2: "discovery" vs "invention" (60%)
-- discovery: finding something new or learning something for the first time
+## L2: "discovery" vs "entity" (67%)
+- discovery: something new that you find or learn about for the first time
+- entity: something that exists on its own
+
+## L2: "discovery" vs "invention" (67%)
+- discovery: something new that you find or learn about for the first time
 - invention: something new that someone makes for the first time
 
+## L2: "discovery" vs "look into" (75%)
+- discovery: something new that you find or learn about for the first time
+- look into: to find out more about something
+
+## L2: "discovery" vs "barrier" (67%)
+- discovery: something new that you find or learn about for the first time
+- barrier: something that blocks the way
+
 ## L2: "discovery" vs "introduce" (60%)
-- discovery: finding something new or learning something for the first time
+- discovery: something new that you find or learn about for the first time
 - introduce: to present someone or something for the first time
 
+## L2: "discovery" vs "locate" (67%)
+- discovery: something new that you find or learn about for the first time
+- locate: to find where something is
+
+## L2: "discovery" vs "perspective" (67%)
+- discovery: something new that you find or learn about for the first time
+- perspective: the way you see and think about something
+
 ## L2: "discovery" vs "purchase" (100%)
-- discovery: finding something new or learning something for the first time
+- discovery: something new that you find or learn about for the first time
 - purchase: to buy something
 
 ## L2: "discovery" vs "refuse" (100%)
-- discovery: finding something new or learning something for the first time
+- discovery: something new that you find or learn about for the first time
 - refuse: to say no and not do something
 
 ## L2: "quantity" vs "dispose" (100%)
@@ -7166,10 +7118,6 @@
 - complement: something that goes well with another thing
 - entity: something that exists on its own
 
-## L2: "complement" vs "incentive" (67%)
-- complement: something that goes well with another thing
-- incentive: something that motivates you to do something
-
 ## L2: "complement" vs "mix up" (75%)
 - complement: something that goes well with another thing
 - mix up: to confuse one thing with another
@@ -7476,7 +7424,7 @@
 
 ## L2: "entity" vs "incentive" (67%)
 - entity: something that exists on its own
-- incentive: something that motivates you to do something
+- incentive: something that makes you want to do something
 
 ## L2: "entity" vs "protein" (67%)
 - entity: something that exists on its own
@@ -7730,10 +7678,6 @@
 - facilitate: to make something easier to do
 - constitute: to make up or form something
 
-## L2: "foundation" vs "incentive" (67%)
-- foundation: the base that holds something up
-- incentive: something that motivates you to do something
-
 ## L2: "foundation" vs "barrier" (67%)
 - foundation: the base that holds something up
 - barrier: something that blocks the way
@@ -7746,10 +7690,6 @@
 - foundation: the base that holds something up
 - refuse: to say no and not do something
 
-## L2: "framework" vs "incentive" (67%)
-- framework: a basic structure that supports something
-- incentive: something that motivates you to do something
-
 ## L2: "framework" vs "barrier" (67%)
 - framework: a basic structure that supports something
 - barrier: something that blocks the way
@@ -7761,10 +7701,6 @@
 ## L2: "framework" vs "refuse" (100%)
 - framework: a basic structure that supports something
 - refuse: to say no and not do something
-
-## L2: "guideline" vs "incentive" (67%)
-- guideline: a rule that tells you how to do something
-- incentive: something that motivates you to do something
 
 ## L2: "guideline" vs "barrier" (67%)
 - guideline: a rule that tells you how to do something
@@ -7802,165 +7738,37 @@
 - impose: to force a rule or task on someone
 - compel: to force someone to do something
 
-## L2: "incentive" vs "protein" (67%)
-- incentive: something that motivates you to do something
-- protein: something in food that helps your body grow strong
-
-## L2: "incentive" vs "invention" (67%)
-- incentive: something that motivates you to do something
+## L2: "incentive" vs "invention" (75%)
+- incentive: something that makes you want to do something
 - invention: something new that someone makes for the first time
 
-## L2: "incentive" vs "resource" (67%)
-- incentive: something that motivates you to do something
-- resource: something useful that people need, like water or wood
-
-## L2: "incentive" vs "make sure" (67%)
-- incentive: something that motivates you to do something
-- make sure: to check that something is done right
-
-## L2: "incentive" vs "take over" (67%)
-- incentive: something that motivates you to do something
-- take over: to start doing something that someone else was doing
-
-## L2: "incentive" vs "wear out" (67%)
-- incentive: something that motivates you to do something
-- wear out: to use something so much that it gets old and broken
-
-## L2: "incentive" vs "accessory" (67%)
-- incentive: something that motivates you to do something
-- accessory: an extra item that goes with something
-
-## L2: "incentive" vs "call off" (67%)
-- incentive: something that motivates you to do something
-- call off: to stop something that was planned
-
-## L2: "incentive" vs "put up with" (67%)
-- incentive: something that motivates you to do something
-- put up with: to deal with something that bugs you
-
-## L2: "incentive" vs "figure of speech" (67%)
-- incentive: something that motivates you to do something
-- figure of speech: a phrase that means something different from the actual words
-
-## L2: "incentive" vs "pollutant" (67%)
-- incentive: something that motivates you to do something
+## L2: "incentive" vs "pollutant" (75%)
+- incentive: something that makes you want to do something
 - pollutant: something that makes air, water, or land dirty
 
-## L2: "incentive" vs "attest" (67%)
-- incentive: something that motivates you to do something
-- attest: to show that something is true
-
 ## L2: "incentive" vs "barrier" (67%)
-- incentive: something that motivates you to do something
+- incentive: something that makes you want to do something
 - barrier: something that blocks the way
 
-## L2: "incentive" vs "circumstance" (67%)
-- incentive: something that motivates you to do something
-- circumstance: the facts around something that happens
-
-## L2: "incentive" vs "confirm" (67%)
-- incentive: something that motivates you to do something
-- confirm: to say that something is true or right
-
-## L2: "incentive" vs "exception" (67%)
-- incentive: something that motivates you to do something
-- exception: something that does not follow the usual rule
-
-## L2: "incentive" vs "factor" (67%)
-- incentive: something that motivates you to do something
-- factor: one thing that helps cause something to happen
-
-## L2: "incentive" vs "fault" (67%)
-- incentive: something that motivates you to do something
-- fault: responsibility for something that went wrong
-
-## L2: "incentive" vs "guarantee" (67%)
-- incentive: something that motivates you to do something
-- guarantee: to promise that something will happen or work
-
-## L2: "incentive" vs "hazard" (67%)
-- incentive: something that motivates you to do something
-- hazard: something that could cause danger or harm
-
-## L2: "incentive" vs "incident" (67%)
-- incentive: something that motivates you to do something
-- incident: something that happens, most times something odd
-
-## L2: "incentive" vs "license" (67%)
-- incentive: something that motivates you to do something
-- license: a paper that gives you permission to do something
-
-## L2: "incentive" vs "miracle" (67%)
-- incentive: something that motivates you to do something
-- miracle: something amazing that should not be possible
-
-## L2: "incentive" vs "obstacle" (67%)
-- incentive: something that motivates you to do something
+## L2: "incentive" vs "obstacle" (75%)
+- incentive: something that makes you want to do something
 - obstacle: something in your way that makes it hard to continue
 
-## L2: "incentive" vs "offense" (67%)
-- incentive: something that motivates you to do something
+## L2: "incentive" vs "offense" (75%)
+- incentive: something that makes you want to do something
 - offense: something that makes someone angry or upset
 
-## L2: "incentive" vs "phenomenon" (67%)
-- incentive: something that motivates you to do something
-- phenomenon: something unusual that happens, especially in nature or science
-
-## L2: "incentive" vs "prohibit" (67%)
-- incentive: something that motivates you to do something
-- prohibit: to say that something is not allowed by a rule
-
-## L2: "incentive" vs "proof" (67%)
-- incentive: something that motivates you to do something
-- proof: something that shows a fact is true
-
 ## L2: "incentive" vs "purchase" (100%)
-- incentive: something that motivates you to do something
+- incentive: something that makes you want to do something
 - purchase: to buy something
 
-## L2: "incentive" vs "recommend" (67%)
-- incentive: something that motivates you to do something
-- recommend: to suggest that something is good
-
 ## L2: "incentive" vs "refuse" (100%)
-- incentive: something that motivates you to do something
+- incentive: something that makes you want to do something
 - refuse: to say no and not do something
 
-## L2: "incentive" vs "remedy" (67%)
-- incentive: something that motivates you to do something
-- remedy: something that fixes a problem or sickness
-
-## L2: "incentive" vs "sensation" (67%)
-- incentive: something that motivates you to do something
-- sensation: a feeling in your body or something that excites everyone
-
-## L2: "incentive" vs "theory" (67%)
-- incentive: something that motivates you to do something
-- theory: an idea that explains how something works
-
-## L2: "incentive" vs "urge" (67%)
-- incentive: something that motivates you to do something
+## L2: "incentive" vs "urge" (75%)
+- incentive: something that makes you want to do something
 - urge: a strong feeling that you want to do something
-
-## L2: "incentive" vs "version" (67%)
-- incentive: something that motivates you to do something
-- version: one form of something that is slightly different from others
-
-## L2: "incentive" vs "bonus" (67%)
-- incentive: something that motivates you to do something
-- bonus: something extra and good that you did not expect
-
-## L2: "incentive" vs "component" (67%)
-- incentive: something that motivates you to do something
-- component: a part of something that works with other parts
-
-## L2: "incentive" vs "condemn" (67%)
-- incentive: something that motivates you to do something
-- condemn: to say strongly that something is wrong
-
-## L2: "incentive" vs "contempt" (67%)
-- incentive: something that motivates you to do something
-- contempt: a feeling that something is worthless or below you
 
 ## L2: "incorporate" vs "inherent" (67%)
 - incorporate: to include as part of something

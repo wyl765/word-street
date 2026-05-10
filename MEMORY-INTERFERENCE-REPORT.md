@@ -2,9 +2,9 @@
 
 ## Summary
 - HIGH risk (3+ factors): 188
-- MEDIUM risk (2 factors): 1232
-- LOW risk (1 factor): 53986
-- Total interference pairs: 55406
+- MEDIUM risk (2 factors): 1233
+- LOW risk (1 factor): 53980
+- Total interference pairs: 55401
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -597,6 +597,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L2: **fork** ↔ **cork** — spelling (edit distance=1)
 - **[risk=2]** L2: **fork** ↔ **forge** — spelling (edit distance=2), phonetic (onset="fo")
 - **[risk=2]** L2: **glide** ↔ **guide** — spelling (edit distance=1)
+- **[risk=2]** L2: **goal** ↔ **incentive** — definition (Jaccard=75%)
 - **[risk=2]** L2: **grasp** ↔ **grace** — spelling (edit distance=2), phonetic (onset="gra")
 - **[risk=2]** L2: **grow** ↔ **grove** — spelling (edit distance=2), phonetic (onset="gro")
 - **[risk=2]** L2: **grow** ↔ **row** — spelling (edit distance=1)
@@ -3501,7 +3502,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **succeed** ↔ **summary** — phonetic (onset="su")
 - **[risk=1]** L2: **succeed** ↔ **supply** — phonetic (onset="su")
 - **[risk=1]** L2: **succeed** ↔ **survive** — phonetic (onset="su")
-- **[risk=1]** L2: **succeed** ↔ **incentive** — definition (Jaccard=50%)
 - **[risk=1]** L2: **succeed** ↔ **suffix** — phonetic (onset="su")
 - **[risk=1]** L2: **succeed** ↔ **survey** — phonetic (onset="su")
 - **[risk=1]** L2: **succeed** ↔ **such as** — phonetic (onset="su")
@@ -7152,7 +7152,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **choice** ↔ **talent** — definition (Jaccard=50%)
 - **[risk=1]** L2: **choice** ↔ **voice** — spelling (edit distance=2)
 - **[risk=1]** L2: **choice** ↔ **choose** — spelling (edit distance=2)
-- **[risk=1]** L2: **choice** ↔ **incentive** — definition (Jaccard=50%)
 - **[risk=1]** L2: **circle** ↔ **cycle** — spelling (edit distance=2)
 - **[risk=1]** L2: **circle** ↔ **cider** — phonetic (onset="ci")
 - **[risk=1]** L2: **circle** ↔ **civil** — phonetic (onset="ci")
@@ -8445,7 +8444,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **goal** ↔ **moat** — spelling (edit distance=2)
 - **[risk=1]** L2: **goal** ↔ **oar** — spelling (edit distance=2)
 - **[risk=1]** L2: **goal** ↔ **control** — definition (Jaccard=60%)
-- **[risk=1]** L2: **goal** ↔ **incentive** — definition (Jaccard=50%)
 - **[risk=1]** L2: **goal** ↔ **moral** — spelling (edit distance=2)
 - **[risk=1]** L2: **goal** ↔ **focal** — spelling (edit distance=2)
 - **[risk=1]** L2: **goal** ↔ **urge** — definition (Jaccard=60%)
@@ -8485,7 +8483,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **habit** ↔ **hasten** — phonetic (onset="ha")
 - **[risk=1]** L2: **habit** ↔ **harsh** — phonetic (onset="ha")
 - **[risk=1]** L2: **habit** ↔ **orbit** — spelling (edit distance=2)
-- **[risk=1]** L2: **habit** ↔ **incentive** — definition (Jaccard=50%)
 - **[risk=1]** L2: **habit** ↔ **hand in** — phonetic (onset="ha")
 - **[risk=1]** L2: **habit** ↔ **hazard** — phonetic (onset="ha")
 - **[risk=1]** L2: **habit** ↔ **inhabit** — spelling (edit distance=2)
@@ -9035,7 +9032,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **memory** ↔ **method** — phonetic (onset="me")
 - **[risk=1]** L2: **memory** ↔ **merchant** — phonetic (onset="me")
 - **[risk=1]** L2: **memory** ↔ **merely** — phonetic (onset="me")
-- **[risk=1]** L2: **memory** ↔ **incentive** — definition (Jaccard=50%)
 - **[risk=1]** L2: **memory** ↔ **medicine** — phonetic (onset="me")
 - **[risk=1]** L2: **memory** ↔ **memorial** — phonetic (onset="me")
 - **[risk=1]** L2: **memory** ↔ **mental** — phonetic (onset="me")
@@ -9449,7 +9445,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **price** ↔ **primary** — phonetic (onset="pri")
 - **[risk=1]** L2: **prize** ↔ **talent** — definition (Jaccard=50%)
 - **[risk=1]** L2: **prize** ↔ **rise** — spelling (edit distance=2)
-- **[risk=1]** L2: **prize** ↔ **incentive** — definition (Jaccard=50%)
 - **[risk=1]** L2: **prize** ↔ **primary** — phonetic (onset="pri")
 - **[risk=1]** L2: **prize** ↔ **seize** — spelling (edit distance=2)
 - **[risk=1]** L2: **protect** ↔ **probably** — phonetic (onset="pro")
@@ -10035,7 +10030,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **surface** ↔ **sustain** — phonetic (onset="su")
 - **[risk=1]** L2: **talent** ↔ **taste** — phonetic (onset="ta")
 - **[risk=1]** L2: **talent** ↔ **beneficial** — definition (Jaccard=50%)
-- **[risk=1]** L2: **talent** ↔ **incentive** — definition (Jaccard=50%)
 - **[risk=1]** L2: **talent** ↔ **table** — phonetic (onset="ta")
 - **[risk=1]** L2: **talent** ↔ **tally** — phonetic (onset="ta")
 - **[risk=1]** L2: **talent** ↔ **take off** — phonetic (onset="ta")
@@ -12529,6 +12523,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **control** ↔ **consent** — phonetic (onset="co")
 - **[risk=1]** L2: **control** ↔ **consult** — phonetic (onset="co")
 - **[risk=1]** L2: **control** ↔ **convene** — phonetic (onset="co")
+- **[risk=1]** L2: **control** ↔ **incentive** — definition (Jaccard=50%)
 - **[risk=1]** L2: **control** ↔ **consonant** — phonetic (onset="co")
 - **[risk=1]** L2: **control** ↔ **conflict** — phonetic (onset="co")
 - **[risk=1]** L2: **control** ↔ **conclude** — phonetic (onset="co")
@@ -16489,6 +16484,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **obvious** ↔ **oppose** — phonetic (onset="o")
 - **[risk=1]** L2: **obvious** ↔ **occupy** — phonetic (onset="o")
 - **[risk=1]** L2: **obvious** ↔ **organ** — phonetic (onset="o")
+- **[risk=1]** L2: **obvious** ↔ **clearly** — definition (Jaccard=60%)
 - **[risk=1]** L2: **obvious** ↔ **overall** — phonetic (onset="o")
 - **[risk=1]** L2: **obvious** ↔ **offspring** — phonetic (onset="o")
 - **[risk=1]** L2: **obvious** ↔ **ozone** — phonetic (onset="o")
@@ -16526,7 +16522,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **peculiar** ↔ **penalty** — phonetic (onset="pe")
 - **[risk=1]** L2: **peculiar** ↔ **permission** — phonetic (onset="pe")
 - **[risk=1]** L2: **peculiar** ↔ **percent** — phonetic (onset="pe")
-- **[risk=1]** L2: **peculiar** ↔ **notably** — definition (Jaccard=50%)
 - **[risk=1]** L2: **peculiar** ↔ **perceive** — phonetic (onset="pe")
 - **[risk=1]** L2: **peculiar** ↔ **period** — phonetic (onset="pe")
 - **[risk=1]** L2: **peculiar** ↔ **permanent** — phonetic (onset="pe")
@@ -17365,7 +17360,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **discovery** ↔ **diverse** — phonetic (onset="di")
 - **[risk=1]** L2: **discovery** ↔ **dinosaur** — phonetic (onset="di")
 - **[risk=1]** L2: **discovery** ↔ **disease** — phonetic (onset="di")
-- **[risk=1]** L2: **discovery** ↔ **invention** — definition (Jaccard=50%)
 - **[risk=1]** L2: **discovery** ↔ **difference** — phonetic (onset="di")
 - **[risk=1]** L2: **discovery** ↔ **dignity** — phonetic (onset="di")
 - **[risk=1]** L2: **discovery** ↔ **dilemma** — phonetic (onset="di")
@@ -19888,6 +19882,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **incentive** ↔ **interact** — phonetic (onset="i")
 - **[risk=1]** L2: **incentive** ↔ **introduce** — phonetic (onset="i")
 - **[risk=1]** L2: **incentive** ↔ **involve** — phonetic (onset="i")
+- **[risk=1]** L2: **incentive** ↔ **urge** — definition (Jaccard=50%)
 - **[risk=1]** L2: **incorporate** ↔ **inherent** — definition (Jaccard=50%)
 - **[risk=1]** L2: **incorporate** ↔ **innovation** — phonetic (onset="i")
 - **[risk=1]** L2: **incorporate** ↔ **intervene** — phonetic (onset="i")

@@ -132,15 +132,13 @@ console.log(`📊 发现问题: ${fixCount}个❌`);
 if (fixCount > 0) {
   // 检查git diff是否有实际修改
   try {
-    const diff = execSync(`git diff HEAD~1 -- ${wordFile} 2>/dev/null || echo "NO_DIFF"`, { cwd: process.cwd() }).toString();
+    const diff = execSync(`git log --oneline -1 -- ${wordFile} 2>/dev/null || echo "NO_DIFF"`, { cwd: process.cwd() }).toString();
     if (diff.includes('NO_DIFF') || diff.trim().length < 10) {
       console.log(`❌ 有${fixCount}个问题但git无对应修改`);
       failed++;
       issues.push(`${fixCount}个问题未修复`);
     } else {
-      const addedLines = diff.split('\n').filter(l => l.startsWith('+')).length;
-      const removedLines = diff.split('\n').filter(l => l.startsWith('-')).length;
-      console.log(`✅ git diff确认有修改 (+${addedLines}/-${removedLines}行)`);
+      console.log(`✅ git确认有修改: ${diff.trim()}`);
       passed++;
     }
   } catch (e) {
