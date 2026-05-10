@@ -6,7 +6,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const targetFile = process.argv[2] || 'words-level1.js';
-const mod = await import(pathToFileUrl(path.join(__dirname, targetFile)).href);
+
+// Prefer importing the module (works for ESM exports / CommonJS module.exports).
+// Fallback: parse the source file directly for projects that define LEVEL*_BANK but forget to export it.
+let mod = null;
+try{
+  mod = await import(pathToFileUrl(path.join(__dirname, targetFile)).href);
+}catch(e){
+  mod = null;
+}
 
 function pathToFileUrl(p){
   const u = new URL('file://');
@@ -15,6 +23,7 @@ function pathToFileUrl(p){
 }
 
 function extractBank(mod){
+  if(!mod) return null;
   if(Array.isArray(mod)) return mod;
   if(Array.isArray(mod.default)) return mod.default;
   // direct named export like LEVEL2_BANK
@@ -30,9 +39,44 @@ function extractBank(mod){
   return null;
 }
 
-const bank = extractBank(mod);
+function extractArrayLiteralByBracketScan(src){
+  const bankAssign = src.search(/_BANK\s*=/);
+  if(bankAssign < 0) return null;
+  const start = src.indexOf('[', bankAssign);
+  if(start < 0) return null;
+  let depth = 0;
+  for(let i = start; i < src.length; i++){
+    const ch = src[i];
+    if(ch === '[') depth++;
+    else if(ch === ']'){
+      depth--;
+      if(depth === 0) return src.slice(start, i+1);
+    }
+  }
+  return null;
+}
+
+function extractBankFromSourceFile(filePath){
+  const src = fs.readFileSync(filePath, 'utf8');
+  const lit = extractArrayLiteralByBracketScan(src);
+  if(!lit) return null;
+  try{ return JSON.parse(lit); }catch(e){
+    try{ return new Function(`return ${lit};`)(); }catch(e2){
+      return null;
+    }
+  }
+}
+
+let bank = extractBank(mod);
 if(!Array.isArray(bank)){
-  console.error('Could not load bank array from', targetFile, 'keys:', Object.keys(mod), 'defaultKeys:', mod.default && typeof mod.default==='object' ? Object.keys(mod.default) : null);
+  const filePath = path.join(__dirname, targetFile);
+  bank = extractBankFromSourceFile(filePath);
+}
+
+if(!Array.isArray(bank)){
+  const keys = mod ? Object.keys(mod) : [];
+  const defaultKeys = (mod && mod.default && typeof mod.default==='object') ? Object.keys(mod.default) : null;
+  console.error('Could not load bank array from', targetFile, 'keys:', keys, 'defaultKeys:', defaultKeys);
   process.exit(1);
 }
 
