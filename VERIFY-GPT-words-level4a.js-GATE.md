@@ -1,307 +1,305 @@
-# VERIFY-GPT — words-level4a.js (L5–L8)
+# VERIFY-GPT-words-level4a.js-GATE
 
-模拟：10岁中国ESL孩子（MAP≈197，约2年级）。逐词四层审校：L5理解度；L6反向4选1唯一性；L7文化敏感；L8学习路径/先修。
+格式：每行 = 词 | L5(定义/例句做题感) | L6(例句反向唯一性) | L7(文化敏感) | L8(学习路径)
 
-|#|Word|L5(def)|L5(ex→word)|L6 反向测试(4选1)|L7|L8|
-|---:|---|---|---|---|---|---|
-|1|abandon|OK：定义简单易懂|OK：例句场景具体（弃船）|{abandon,alter,arise,decay}→唯一：弃船场景直指abandon|OK|OK：level4合适|
-|2|abbreviation|OK：定义简单|OK：Dr.例子直观|{abbreviation,category,edition,clause}→唯一：缩写概念明确|OK|OK：level4合适|
-|3|accuse|OK：定义简单|OK：侦探场景生动|{accuse,confess,deceive,declare}→唯一：指控偷窃直指accuse|OK|OK：level4合适|
-|4|aggressive|OK：定义简单|OK：狗吠场景具体|{aggressive,dominant,earnest,bland}→唯一：凶狗场景直指aggressive|OK|OK：level4合适|
-|5|alliance|OK：定义简单|OK：王国结盟场景|{alliance,bond,council,contract}→勉强：bond也可指联系，但alliance更贴合groups|OK|OK：level4合适|
-|6|alter|OK：定义简单|OK：裁缝改裤子具体|{alter,enhance,compose,elevate}→唯一：改短裤子直指alter|OK|OK：level4合适|
-|7|alternative|OK：定义清楚（another choice）|OK：绕路场景具体|{alternative,incline,breakthrough,detour}→唯一：备选路线直指alternative|OK|OK：level4合适|
-|8|appreciate|OK：定义简单|OK：搬箱子场景亲切|{appreciate,crave,excel,employ}→唯一：感谢帮忙直指appreciate|OK|OK：level4合适|
-|9|architect|OK：定义简单|OK：设计图书馆具体|{architect,client,diplomat,career}→唯一：设计建筑直指architect|OK|OK：level4合适|
-|10|arctic|OK：定义清楚（North Pole附近很冷）|OK：北极熊场景|{arctic,humid,bleak,dormant}→唯一：极寒北极直指arctic|OK|OK：level4合适|
-|11|arise|OK：定义简单|OK：拖延出问题场景|{arise,conform,consume,assess}→唯一：问题产生直指arise|OK|OK：level4合适|
-|12|assess|OK：定义简单|OK：兽医检查鸟场景|{assess,implement,execute,equip}→唯一：判断伤情直指assess|OK|OK：level4合适|
-|13|associate|OK：定义简单|OK：红色联想场景|{associate,comprehend,compose,contact}→唯一：心理联系直指associate|OK|OK：level4合适|
-|14|atom|勉强：定义有冗余"smallest part of an a basic part"|OK：例句生动|{atom,element,chemical,fluid}→勉强：element也涉及基本物质，但atom更贴合最小单位|OK|注意：定义需精简|
-|15|aviation|OK：定义简单|OK：航空博物馆场景|{aviation,cargo,commerce,enterprise}→唯一：飞行/飞机直指aviation|OK|OK：level4合适|
-|16|awkward|OK：定义大致可懂|OK：尴尬沉默场景|{awkward,bizarre,bland,bleak}→唯一：尴尬沉默直指awkward|OK|OK：level4合适|
-|17|biome|OK：定义简单|OK：雨林场景具体|{biome,ecology,element,category}→勉强：ecology也涉及生态，但biome更贴合大区域|OK|OK：level4合适|
-|18|bizarre|OK：定义简单|OK：透明头鱼场景生动|{bizarre,extraordinary,anomalous,crude}→唯一：透明头鱼的震惊感直指bizarre|OK|OK：level4合适|
-|19|bland|OK：定义简单|OK：汤没味道场景|{bland,crude,fluid,concrete}→唯一：没味道直指bland|OK|OK：level4合适|
-|20|bleak|OK：定义简单|OK：冬景场景生动|{bleak,dormant,arctic,bland}→勉强：arctic也涉及冷，但bleak更贴合无希望感|OK|OK：level4合适|
-|21|blur|OK：定义简单|OK：没眼镜场景亲切|{blur,eclipse,emission,fluid}→唯一：模糊形状直指blur|OK|OK：level4合适|
-|22|bond|OK：定义简单|OK：双胞胎场景温馨|{bond,alliance,contact,courtesy}→勉强：alliance也涉及联系，但bond更贴合情感|OK|OK：level4合适|
-|23|boom|OK：定义简单|OK：建筑热潮场景|{boom,breakthrough,chaos,dynamic}→唯一：快速增长直指boom|OK|OK：level4合适|
-|24|brace|OK：定义简单|OK：颠簸着陆场景|{brace,endanger,exhaust,fatigue}→唯一：准备应对直指brace|OK|OK：level4合适|
-|25|breakthrough|OK：定义简单|OK：科学发现场景|{breakthrough,concept,implement,enterprise}→唯一：重大发现直指breakthrough|OK|OK：level4合适|
-|26|breed|OK：定义简单|OK：金毛犬例子具体|{breed,category,characteristic,element}→唯一：犬种直指breed|OK|OK：level4合适|
-|27|browse|OK：定义清楚（随便翻看）|OK：书店场景|{browse,catalog,highlight,curate}→唯一：随意翻看直指browse|OK|OK：level4合适|
-|28|cabinet|OK：定义简单|OK：厨房柜子场景|{cabinet,chamber,crane,craft}→唯一：储物柜直指cabinet|OK|OK：level4合适|
-|29|captive|OK：定义简单|OK：受伤鹰场景|{captive,exempt,dormant,deprive}→唯一：被困/囚禁直指captive|OK|OK：level4合适|
-|30|career|OK：定义简单|OK：海洋生物学家场景|{career,enterprise,commerce,employ}→唯一：长期职业直指career|OK|OK：level4合适|
-|31|cargo|OK：定义简单|OK：集装箱船场景|{cargo,commerce,contract,conveyance}→唯一：货物运输直指cargo|OK|OK：level4合适|
-|32|catalog|OK：定义简单|OK：图书馆目录场景|{catalog,category,edition,browse}→唯一：分类列表直指catalog|OK|OK：level4合适|
-|33|category|OK：定义简单|OK：图书分类场景|{category,catalog,characteristic,element}→勉强：catalog也涉及分类，但category更贴合分组|OK|OK：level4合适|
-|34|ceremony|OK：定义简单|OK：毕业典礼场景|{ceremony,conference,council,inaugurate}→唯一：正式仪式直指ceremony|OK|OK：level4合适|
-|35|chamber|OK：定义简单|OK：心脏四腔场景|{chamber,cabinet,incline,gulf}→唯一：封闭空间直指chamber|OK|OK：level4合适|
-|36|chaos|OK：定义大致可懂|OK：火警场景生动|{chaos,anarchy,agitation,backlash}→勉强：anarchy也涉及混乱，但chaos更贴合突发混乱|OK|OK：level4合适|
-|37|characteristic|OK：定义简单|OK：斑马条纹场景|{characteristic,category,element,condition}→唯一：独特特征直指characteristic|OK|OK：level4合适|
-|38|charity|OK：定义简单|OK：捐冬衣场景|{charity,courtesy,benefactor,grant}→勉强：benefactor也涉及慈善，但charity更贴合组织|OK|OK：level4合适|
-|39|chemical|OK：定义简单|OK：小苏打实验场景|{chemical,element,atom,fluid}→勉强：element也涉及化学，但chemical更贴合反应|OK|OK：level4合适|
-|40|civic|OK：定义简单|OK：投票志愿场景|{civic,federal,council,customary}→唯一：社区责任直指civic|OK|OK：level4合适|
-|41|clause|OK：定义简单|OK：语法例句具体|{clause,context,concept,connotation}→唯一：主谓结构直指clause|OK|OK：level4合适|
-|42|client|勉强：定义有冗余|OK：建筑师给客户看设计|{client,diplomat,architect,employ}→唯一：付费客户直指client|OK|注意：定义需精简|
-|43|commerce|OK：定义简单|OK：港口贸易场景|{commerce,enterprise,cargo,contract}→唯一：买卖交易直指commerce|OK|OK：level4合适|
-|44|compose|OK：定义简单|OK：莫扎特场景经典|{compose,craft,curate,embellish}→唯一：创作音乐直指compose|OK|OK：level4合适|
-|45|comprehend|OK：定义简单|OK：宇宙大小场景|{comprehend,concept,context,cognizant}→唯一：完全理解直指comprehend|OK|OK：level4合适|
-|46|concept|OK：定义简单|OK：重力概念场景|{concept,context,abstraction,comprehend}→勉强：abstraction也指抽象概念，但concept更通用|OK|OK：level4合适|
-|47|concrete|OK：定义简单|OK：具体例子场景|{concrete,categorical,credible,feasible}→唯一：具体实在直指concrete|OK|OK：level4合适|
-|48|condition|OK：定义简单|OK：旧书破损场景|{condition,defect,characteristic,category}→唯一：状态/条件直指condition|OK|OK：level4合适|
-|49|conference|OK：定义简单|OK：教师会议场景|{conference,council,ceremony,consensus}→唯一：讨论会议直指conference|OK|OK：level4合适|
-|50|confess|OK：定义简单|OK：打碎窗户场景|{confess,disclose,declare,accuse}→勉强：disclose也涉及揭露，但confess更贴合承认错误|OK|OK：level4合适|
-|51|conform|OK：定义简单|OK：校服场景|{conform,customary,civic,condition}→唯一：遵守规则直指conform|OK|OK：level4合适|
-|52|conscience|OK：定义简单|OK：多找零场景|{conscience,compunction,consensus,credence}→勉强：compunction也涉及内疚，但conscience更贴合内心声音|OK|OK：level4合适|
-|53|consensus|OK：定义简单|OK：全班选披萨场景|{consensus,conference,council,cohesion}→唯一：集体一致直指consensus|OK|OK：level4合适|
-|54|consume|OK：定义简单|OK：蓝鲸吃磷虾场景|{consume,exhaust,deprive,drain}→唯一：吃掉/用掉直指consume|OK|OK：level4合适|
-|55|contact|OK：定义简单|OK：请假通知场景|{contact,disclose,confess,declare}→唯一：联系某人直指contact|OK|OK：level4合适|
-|56|contaminate|OK：定义简单|OK：工厂污染河流场景|{contaminate,endanger,devastate,decay}→唯一：污染直指contaminate|注意：环保话题OK但工厂污染可能敏感|OK：level4合适|
-|57|context|OK：定义简单|OK：猜词义场景|{context,concept,clause,connotation}→唯一：上下文直指context|OK|OK：level4合适|
-|58|contract|OK：定义简单|OK：金属热胀冷缩场景|{contract,compact,alter,condition}→唯一：收缩直指contract|OK|OK：level4合适|
-|59|council|OK：定义简单|OK：学生会场景|{council,conference,consensus,cabinet}→唯一：决策委员会直指council|OK|OK：level4合适|
-|60|courtesy|OK：定义简单|OK：开门场景亲切|{courtesy,charity,conscience,customary}→唯一：礼貌行为直指courtesy|OK|OK：level4合适|
-|61|craft|OK：定义大致可懂|OK：陶艺场景|{craft,compose,curate,embellish}→唯一：手工技艺直指craft|OK|OK：level4合适|
-|62|crane|OK：定义简单|OK：建筑吊车场景|{crane,cabinet,chamber,cargo}→唯一：起重机直指crane|OK|OK：level4合适|
-|63|crave|OK：定义简单|OK：渴望柠檬水场景|{crave,consume,appreciate,impulse}→唯一：强烈渴望直指crave|OK|OK：level4合适|
-|64|credible|OK：定义简单|OK：科学实验场景|{credible,concrete,feasible,categorical}→唯一：可信赖直指credible|OK|OK：level4合适|
-|65|crude|OK：定义简单|OK：原始工具场景|{crude,bland,bleak,concrete}→唯一：粗糙原始直指crude|OK|OK：level4合适|
-|66|customary|OK：定义简单|OK：握手场景|{customary,courtesy,conform,civic}→唯一：传统惯例直指customary|OK|OK：level4合适|
-|67|decay|OK：定义简单|OK：腐烂原木场景|{decay,contaminate,drain,exhaust}→唯一：缓慢腐烂直指decay|OK|OK：level4合适|
-|68|deceive|OK：定义简单|OK：魔术师场景|{deceive,hoax,accuse,confess}→勉强：hoax也涉及欺骗，但deceive更贴合动词行为|OK|OK：level4合适|
-|69|declare|OK：定义简单|OK：市长宣布假日场景|{declare,disclose,confess,inaugurate}→唯一：正式宣布直指declare|OK|OK：level4合适|
-|70|defect|OK：定义简单|OK：玩具缺陷场景|{defect,condition,characteristic,demerit}→唯一：产品缺陷直指defect|OK|OK：level4合适|
-|71|defy|OK：定义简单|OK：飞行员翻转场景|{defy,contravene,conform,brace}→唯一：抗拒重力直指defy|OK|OK：level4合适|
-|72|deprive|OK：定义简单|OK：睡眠不足场景|{deprive,exhaust,consume,drain}→唯一：剥夺直指deprive|OK|OK：level4合适|
-|73|devastate|OK：定义简单|OK：飓风场景|{devastate,annihilate,contaminate,endanger}→勉强：annihilate也指摧毁，但devastate更贴合自然灾害|OK|OK：level4合适|
-|74|diplomat|OK：定义简单|OK：外交出访场景|{diplomat,client,architect,council}→唯一：代表国家谈判直指diplomat|OK|OK：level4合适|
-|75|disclose|OK：定义简单|OK：产品安全披露场景|{disclose,confess,declare,contact}→唯一：揭露秘密直指disclose|OK|OK：level4合适|
-|76|discount|OK：定义简单|OK：书包打折场景|{discount,grant,commerce,contract}→唯一：价格优惠直指discount|OK|OK：level4合适|
-|77|discrimination|OK：定义简单|OK：反歧视法场景|{discrimination,animosity,backlash,condescension}→唯一：基于群体的不公正直指discrimination|注意：种族/肤色话题需谨慎但教育意义大|OK：level4合适|
-|78|dominant|OK：定义简单|OK：头狼场景|{dominant,aggressive,audacious,dynamic}→唯一：最强控制者直指dominant|OK|OK：level4合适|
-|79|dormant|OK：定义简单|OK：休眠火山场景|{dormant,bleak,arctic,bland}→唯一：活着但不活跃直指dormant|OK|OK：level4合适|
-|80|drain|OK：定义简单|OK：洗碗排水场景|{drain,consume,exhaust,fluid}→唯一：排水直指drain|OK|OK：level4合适|
-|81|dynamic|OK：定义简单|OK：海洋场景|{dynamic,extensive,extraordinary,global}→唯一：充满活力变化直指dynamic|OK|OK：level4合适|
-|82|earnest|OK：定义简单|OK：养狗承诺场景|{earnest,credible,concrete,categorical}→唯一：认真诚恳直指earnest|OK|OK：level4合适|
-|83|eclipse|OK：定义简单|OK：日食场景|{eclipse,emission,element,atom}→唯一：天体遮挡直指eclipse|OK|OK：level4合适|
-|84|ecology|OK：定义简单|OK：黄石狼场景|{ecology,biome,element,genetic}→唯一：生态互动研究直指ecology|OK|OK：level4合适|
-|85|edition|OK：定义简单|OK：百科全书场景|{edition,catalog,category,element}→唯一：版本直指edition|OK|OK：level4合适|
-|86|element|OK：定义简单|OK：氧气场景|{element,atom,chemical,fluid}→勉强：atom也涉及基本成分，但element更贴合纯物质|OK|OK：level4合适|
-|87|elevate|OK：定义简单|OK：抬高脚踝场景|{elevate,enhance,incline,arise}→唯一：抬高位置直指elevate|OK|OK：level4合适|
-|88|emission|OK：定义简单|OK：汽车尾气场景|{emission,contaminate,chemical,fluid}→唯一：排放气体直指emission|OK|OK：level4合适|
-|89|employ|OK：定义简单|OK：面包店雇人场景|{employ,equip,enterprise,career}→唯一：雇佣直指employ|OK|OK：level4合适|
-|90|endanger|OK：定义简单|OK：污染危害海洋生物|{endanger,contaminate,devastate,deprive}→唯一：使处于危险直指endanger|OK|OK：level4合适|
-|91|enhance|OK：定义简单|OK：插图改善书籍场景|{enhance,elevate,embellish,alter}→勉强：embellish也涉及美化，但enhance更贴合改善质量|OK|OK：level4合适|
-|92|enterprise|OK：定义简单|OK：柠檬水摊场景|{enterprise,commerce,career,employ}→唯一：创业项目直指enterprise|OK|OK：level4合适|
-|93|enthusiasm|OK：定义简单|OK：欢呼场景|{enthusiasm,ebullience,exuberance,elation}→勉强：ebullience也指兴奋，但enthusiasm更贴合兴趣|OK|OK：level4合适|
-|94|entitled|OK：定义简单|OK：免费午餐场景|{entitled,exempt,federal,civic}→唯一：有权获得直指entitled|OK|OK：level4合适|
-|95|episode|OK：定义简单|OK：自然节目场景|{episode,edition,era,ceremony}→唯一：一集节目直指episode|OK|OK：level4合适|
-|96|equip|OK：定义简单|OK：教室配电脑场景|{equip,implement,employ,enhance}→唯一：配备工具直指equip|OK|OK：level4合适|
-|97|era|OK：定义简单|OK：恐龙时代场景|{era,epoch,episode,edition}→唯一：漫长时期直指era|OK|OK：level4合适|
-|98|excel|OK：定义简单|OK：数学优秀场景|{excel,enhance,elevate,adept}→唯一：表现突出直指excel|OK|OK：level4合适|
-|99|execute|OK：定义简单|OK：代码执行场景|{execute,implement,assess,compose}→勉强：implement也指执行，但execute更贴合逐步运行|OK|OK：level4合适|
-|100|exempt|OK：定义简单|OK：免考场景|{exempt,entitled,grant,discount}→唯一：免除义务直指exempt|OK|OK：level4合适|
-|101|exhaust|OK：定义简单|OK：马拉松场景|{exhaust,fatigue,deprive,consume}→勉强：fatigue也指疲劳，但exhaust更贴合耗尽|OK|OK：level4合适|
-|102|extensive|OK：定义简单|OK：图书馆藏书场景|{extensive,extraordinary,dynamic,global}→唯一：广泛覆盖直指extensive|OK|OK：level4合适|
-|103|extraordinary|OK：定义简单|OK：杂技场景|{extraordinary,astounding,bizarre,audacious}→勉强：astounding也指惊人，但extraordinary更贴合非凡|OK|OK：level4合适|
-|104|fatigue|OK：定义简单|OK：徒步场景|{fatigue,exhaust,lassitude,debilitation}→勉强：lassitude也指疲倦，但fatigue更贴合体力疲劳|OK|OK：level4合适|
-|105|feasible|OK：定义清楚（possible to do）|OK：建树屋场景|{feasible,credible,concrete,alternative}→唯一：可行性直指feasible|OK|OK：level4合适（抽象但例句支撑）|
-|106|federal|OK：定义简单|OK：全国法律场景|{federal,civic,global,council}→唯一：联邦/全国政府直指federal|OK|OK：level4合适|
-|107|fluid|OK：定义简单|OK：量杯场景|{fluid,chemical,element,emission}→唯一：流体直指fluid|OK|OK：level4合适|
-|108|frequency|OK：定义简单|OK：地震频率场景|{frequency,dynamic,extensive,condition}→唯一：发生频率直指frequency|OK|OK：level4合适|
-|109|genetic|OK：定义简单|OK：眼睛颜色场景|{genetic,characteristic,element,breed}→唯一：基因遗传直指genetic|OK|OK：level4合适|
-|110|global|OK：定义简单|OK：全球变暖场景|{global,federal,extensive,dynamic}→唯一：全球范围直指global|OK|OK：level4合适|
-|111|graduate|OK：定义简单|OK：大学毕业场景|{graduate,inaugurate,ceremony,attainment}→唯一：完成学业直指graduate|OK|OK：level4合适|
-|112|grant|OK：定义简单|OK：校长批准课间场景|{grant,entitled,exempt,discount}→唯一：正式给予直指grant|OK|OK：level4合适|
-|113|gulf|OK：定义简单|OK：墨西哥湾场景|{gulf,arctic,biome,ecology}→唯一：海湾地理直指gulf|OK|OK：level4合适|
-|114|highlight|OK：定义简单|OK：海龟场景温馨|{highlight,breakthrough,episode,ceremony}→唯一：最精彩部分直指highlight|OK|OK：level4合适|
-|115|hoax|OK：定义简单|OK：麦田怪圈场景|{hoax,deceive,delusion,fallacious}→唯一：骗局直指hoax|OK|OK：level4合适|
-|116|humid|OK：定义简单|OK：雨林场景|{humid,arctic,bleak,bland}→唯一：潮湿空气直指humid|OK|OK：level4合适|
-|117|illuminate|OK：定义简单|OK：蜡烛照亮洞穴场景|{illuminate,enhance,elevate,highlight}→唯一：照亮直指illuminate|OK|OK：level4合适|
-|118|implement|OK：定义简单|OK：回收计划场景|{implement,execute,equip,employ}→勉强：execute也指执行，但implement更贴合付诸行动|OK|OK：level4合适|
-|119|impulse|OK：定义简单|OK：冲动买糖场景|{impulse,crave,enthusiasm,agitation}→唯一：突然冲动直指impulse|OK|OK：level4合适|
-|120|inaugurate|OK：定义简单|OK：新桥剪彩场景|{inaugurate,ceremony,declare,implement}→唯一：正式启用直指inaugurate|OK|OK：level4合适|
-|121|incline|OK：定义清楚（slope）|OK：陡坡骑车场景|{incline,elevate,arise,gulf}→唯一：斜坡直指incline|OK|OK：level4合适|
-|122|industrial|OK：定义简单|OK：工厂区场景|{industrial,commerce,enterprise,federal}→唯一：工厂制造直指industrial|OK|OK：level4合适|
-|123|inevitable|OK：定义简单|OK：吃蛋糕肚子痛场景|{inevitable,inexorable,dominant,feasible}→勉强：inexorable也指不可阻挡，但inevitable更贴合必然发生|OK|OK：level4合适|
-|124|abate|OK：定义简单|OK：暴风雨减弱场景|{abate,decay,drain,curtailment}→唯一：变弱直指abate|OK|偏难：level4偏高但场景具体可接受|
-|125|aberration|OK：定义大致可懂|OK：一月暖天场景|{aberration,anomalous,idiosyncrasy,incongruity}→勉强：anomalous也指异常，但aberration更贴合一次性偏离|OK|偏难：词汇本身偏高级|
-|126|abstraction|OK：定义简单|OK：自由概念场景|{abstraction,concept,delusion,connotation}→勉强：concept也指概念，但abstraction更强调不可触摸|OK|偏难：抽象概念对10岁偏难|
-|127|acumen|OK：定义简单|OK：商业头脑场景|{acumen,discernment,foresight,adept}→勉强：discernment也涉及洞察，但acumen更贴合商业敏锐|OK|偏难：词汇本身偏高级|
-|128|adept|OK：定义简单|OK：拼图场景|{adept,excel,earnest,audacious}→勉强：excel也指擅长，但adept更贴合熟练|OK|OK：level4合适|
-|129|adversity|OK：定义简单|OK：团队不放弃场景|{adversity,destitution,desperation,futility}→唯一：困难处境直指adversity|OK|OK：level4合适|
-|130|affinity|OK：定义简单|OK：喜欢动物场景|{affinity,crave,enthusiasm,bond}→唯一：天然亲近感直指affinity|OK|OK：level4合适|
-|131|aggregation|OK：定义简单|OK：数据汇总场景|{aggregation,category,catalog,compilation}→唯一：聚合为一直指aggregation|OK|偏难：level4偏高|
-|132|agitation|OK：定义简单|OK：等成绩场景|{agitation,consternation,bewilderment,anxiety}→勉强：consternation也涉及不安，但agitation更贴合坐立不安|OK|OK：level4合适|
-|133|alleviation|OK：定义简单|OK：头痛缓解场景|{alleviation,abate,mollify,curtailment}→唯一：减轻痛苦直指alleviation|OK|偏难：名词形式偏高级|
-|134|amalgamation|OK：定义简单|OK：两校合并场景|{amalgamation,cohesion,aggregation,convergent}→唯一：合并为一直指amalgamation|OK|偏难：词汇本身偏高级|
-|135|anarchy|OK：定义大致可懂|OK：没老师的教室场景|{anarchy,chaos,backlash,agitation}→勉强：chaos也指混乱，但anarchy更贴合无政府|OK|OK：level4合适|
-|136|animosity|OK：定义简单|OK：对手球队场景|{animosity,disdainful,backlash,hostility}→唯一：强烈敌意直指animosity|OK|OK：level4合适|
-|137|annihilate|OK：定义简单|OK：飓风摧毁村庄场景|{annihilate,devastate,eradication,contaminate}→勉强：devastate也指毁灭，但annihilate更强调完全消灭|OK|OK：level4合适|
-|138|anomalous|OK：定义大致可懂|OK：异常高分场景|{anomalous,aberration,bizarre,extraordinary}→勉强：aberration也指异常，但anomalous更贴合数据偏差|OK|偏难：形容词形式偏高级|
-|139|appraisal|OK：定义简单|OK：古画估值场景|{appraisal,assessment,calibration,discernment}→唯一：价值评估直指appraisal|OK|OK：level4合适|
-|140|aristocratic|OK：定义大致可懂|OK：贵族庄园场景|{aristocratic,dominant,audacious,grandiosity}→唯一：贵族阶层直指aristocratic|注意：阶级话题在中国语境需注意|OK：level4合适|
-|141|assimilation|OK：定义简单|OK：新生融入场景|{assimilation,cohesion,amalgamation,conformity}→勉强：amalgamation也指融合，但assimilation更贴合文化融入|注意：文化同化话题可能敏感|OK：level4合适|
-|142|astounding|OK：定义简单|OK：魔术场景|{astounding,extraordinary,bizarre,audacious}→勉强：extraordinary也指惊人，但astounding更强调震惊|OK|OK：level4合适|
-|143|attainment|OK：定义简单|OK：毕业场景|{attainment,fruition,breakthrough,achievement}→唯一：达成目标直指attainment|OK|OK：level4合适|
-|144|audacious|OK：定义简单|OK：独自穿越沙漠场景|{audacious,earnest,adept,dynamic}→唯一：大胆冒险直指audacious|OK|OK：level4合适|
-|145|austerity|OK：定义大致可懂|OK：战时节俭场景|{austerity,frugality,curtailment,deprivation}→勉强：frugality也指节俭，但austerity更贴合严格限制|注意：战争话题需适度|OK：level4合适|
-|146|backlash|OK：定义简单|OK：学校新规场景|{backlash,animosity,contention,dissidence}→唯一：强烈反弹直指backlash|OK|OK：level4合适|
-|147|barrage|OK：定义简单|OK：记者提问场景|{barrage,clamorous,agitation,chaos}→唯一：连珠炮式直指barrage|OK|OK：level4合适|
-|148|begrudge|OK：定义简单|OK：为朋友高兴场景|{begrudge,covetous,animosity,disdainful}→唯一：嫉妒不满直指begrudge|OK|OK：level4合适|
-|149|benefactor|OK：定义简单|OK：捐款建操场场景|{benefactor,charity,largesse,munificence}→唯一：慈善捐助者直指benefactor|OK|OK：level4合适|
-|150|bequest|OK：定义简单|OK：遗赠画作场景|{bequest,grant,largesse,benefactor}→唯一：遗嘱赠予直指bequest|OK|偏难：遗嘱概念对10岁偏抽象|
-|151|bewilderment|OK：定义简单|OK：困惑数学题场景|{bewilderment,consternation,chagrin,agitation}→唯一：极度困惑直指bewilderment|OK|OK：level4合适|
-|152|bountiful|OK：定义简单|OK：丰收场景|{bountiful,capacious,extensive,munificence}→唯一：丰盛充足直指bountiful|OK|OK：level4合适|
-|153|calibration|OK：定义简单|OK：望远镜校准场景|{calibration,appraisal,assessment,condition}→唯一：精确调校直指calibration|OK|偏难：技术概念偏高级|
-|154|candor|OK：定义简单|OK：坦诚承认错误场景|{candor,earnest,credible,conscience}→唯一：坦诚直率直指candor|OK|OK：level4合适|
-|155|capacious|OK：定义简单|OK：大书包场景|{capacious,extensive,bountiful,chamber}→唯一：空间宽敞直指capacious|OK|偏难：词汇本身偏高级|
-|156|caricature|OK：定义简单|OK：搞笑画像场景|{caricature,embellish,bizarre,hoax}→唯一：夸张画像直指caricature|OK|OK：level4合适|
-|157|categorical|OK：定义简单|OK：明确回答场景|{categorical,concrete,credible,earnest}→唯一：明确无疑直指categorical|OK|OK：level4合适|
-|158|causation|OK：定义简单|OK：污染与健康场景|{causation,correlation,context,deduction}→唯一：因果关系直指causation|OK|偏难：因果概念偏抽象|
-|159|chagrin|OK：定义简单|OK：当众摔倒场景|{chagrin,bewilderment,consternation,ignominy}→唯一：懊恼直指chagrin|OK|OK：level4合适|
-|160|clamorous|OK：定义简单|OK：欢呼场景|{clamorous,barrage,agitation,ebullience}→唯一：喧闹直指clamorous|OK|OK：level4合适|
-|161|cognizant|OK：定义简单|OK：攀岩风险场景|{cognizant,discernment,foresight,conscience}→唯一：知道/意识到直指cognizant|OK|偏难：词汇本身偏高级|
-|162|cohesion|OK：定义简单|OK：团队合作场景|{cohesion,consensus,alliance,bond}→唯一：凝聚力直指cohesion|OK|OK：level4合适|
-|163|colloquial|OK：定义简单|OK：gonna例子具体|{colloquial,customary,courtesy,connotation}→唯一：口语化直指colloquial|OK|OK：level4合适|
-|164|commiserate|OK：定义简单|OK：拼写比赛失败场景|{commiserate,mollify,begrudge,console}→唯一：同情安慰直指commiserate|OK|OK：level4合适|
-|165|communique|OK：定义简单|OK：政府公告场景|{communique,declaration,contract,conference}→唯一：官方通报直指communique|OK|偏难：词汇本身偏高级|
-|166|compartmentalize|OK：定义简单|OK：按科目整理场景|{compartmentalize,category,catalog,curate}→唯一：分隔归类直指compartmentalize|OK|偏难：词汇很长但概念可懂|
-|167|compunction|OK：定义简单|OK：吃最后一块饼干场景|{compunction,conscience,chagrin,remorse}→勉强：conscience也涉及内疚，但compunction更贴合做了某事后的内疚|OK|OK：level4合适|
-|168|condescension|OK：定义简单|OK：居高临下场景|{condescension,disdainful,animosity,hubris}→勉强：disdainful也涉及轻蔑，但condescension更贴合态度|OK|OK：level4合适|
-|169|connotation|OK：定义简单|OK：home vs house场景好|{connotation,context,concept,abstraction}→唯一：言外之意直指connotation|OK|OK：level4合适|
-|170|consecration|OK：定义大致可懂|OK：教堂仪式场景|{consecration,ceremony,inaugurate,edification}→勉强：ceremony也涉及仪式，但consecration更贴合神圣化|注意：宗教话题在中国ESL环境需谨慎|偏难：宗教概念偏抽象|
-|171|consternation|OK：定义简单|OK：火警场景|{consternation,bewilderment,agitation,chaos}→唯一：惊慌失措直指consternation|OK|OK：level4合适|
-|172|contention|OK：定义简单|OK：泳池vs花园场景|{contention,consensus,backlash,animosity}→唯一：争论焦点直指contention|OK|OK：level4合适|
-|173|contravene|OK：定义简单|OK：消防通道违规场景|{contravene,defy,conform,violate}→勉强：defy也指违抗，但contravene更贴合违反法规|OK|偏难：词汇本身偏高级|
-|174|convergent|OK：定义简单|OK：小路汇聚场景|{convergent,divergent,cohesion,amalgamation}→唯一：汇聚一点直指convergent|OK|OK：level4合适|
-|175|conveyance|OK：定义简单|OK：马车场景|{conveyance,cargo,commerce,craft}→唯一：交通工具直指conveyance|OK|OK：level4合适|
-|176|corroboration|OK：定义简单|OK：证人佐证场景|{corroboration,credence,credible,appraisal}→唯一：证据支持直指corroboration|OK|偏难：法律概念偏高级|
-|177|covetous|OK：定义简单|OK：羡慕姐姐新车场景|{covetous,begrudge,crave,animosity}→勉强：begrudge也涉及嫉妒，但covetous更贴合觊觎他人之物|OK|OK：level4合适|
-|178|credence|OK：定义大致可懂|OK：老师相信借口场景|{credence,credible,corroboration,conscience}→勉强：credible也涉及可信，但credence更贴合相信/信任|OK|偏难：词汇本身偏高级|
-|179|culpability|OK：定义简单|OK：事故责任场景|{culpability,demerit,dereliction,malfeasance}→唯一：过错责任直指culpability|OK|偏难：法律概念偏高级|
-|180|curate|OK：定义简单|OK：图书管理员场景|{curate,catalog,browse,compartmentalize}→唯一：精心挑选整理直指curate|OK|OK：level4合适|
-|181|curtailment|OK：定义简单|OK：课间缩短场景|{curtailment,deprive,abate,alleviation}→唯一：削减限制直指curtailment|OK|OK：level4合适|
-|182|cynicism|OK：定义简单|OK：难以信任场景|{cynicism,disdainful,animosity,disillusionment}→勉强：disillusionment也涉及失望，但cynicism更贴合不信任人性|OK|OK：level4合适|
-|183|debilitation|OK：定义简单|OK：久病肌肉萎缩场景|{debilitation,fatigue,lassitude,exhaustion}→唯一：严重虚弱直指debilitation|OK|偏难：医学概念偏高级|
-|184|decadence|OK：定义简单|OK：奢华家具场景|{decadence,grandiosity,aristocratic,frivolity}→唯一：奢靡堕落直指decadence|OK|偏难：道德概念偏抽象|
-|185|declination|OK：定义简单|OK：礼貌拒绝场景|{declination,courtesy,candor,detachment}→唯一：婉拒直指declination|OK|偏难：正式用词偏高级|
-|186|deduction|OK：定义简单|OK：侦探推理场景|{deduction,discernment,appraisal,extrapolation}→唯一：逻辑推理直指deduction|OK|OK：level4合适|
-|187|delineation|OK：定义简单|OK：地图边界场景|{delineation,demarcation,calibration,appraisal}→勉强：demarcation也涉及边界，但delineation更贴合详细描绘|OK|偏难：词汇本身偏高级|
-|188|delusion|OK：定义简单|OK：以为能飞场景|{delusion,hoax,deceive,fallacious}→唯一：错误信念直指delusion|OK|OK：level4合适|
-|189|demarcation|OK：定义简单|OK：围栏分界场景|{demarcation,delineation,boundary,convergent}→唯一：分界线直指demarcation|OK|OK：level4合适|
-|190|demerit|OK：定义简单|OK：课堂扣分场景|{demerit,defect,culpability,dereliction}→唯一：处分标记直指demerit|OK|OK：level4合适|
-|191|dereliction|OK：定义简单|OK：教师失职场景|{dereliction,culpability,malfeasance,negligence}→勉强：malfeasance也涉及失职，但dereliction更贴合neglect of duty|OK|偏难：词汇本身偏高级|
-|192|derivative|OK：定义简单|OK：电影改编场景|{derivative,edition,conveyance,abstraction}→唯一：衍生物直指derivative|OK|OK：level4合适|
-|193|desperation|OK：定义简单|OK：找狗场景|{desperation,futility,adversity,destitution}→唯一：绝望感直指desperation|OK|OK：level4合适|
-|194|destitution|OK：定义简单|OK：慈善救助场景|{destitution,indigence,desperation,adversity}→勉强：indigence也指贫困，但destitution更强调一无所有|OK|偏难：概念沉重|
-|195|detachment|OK：定义简单|OK：法官公正场景|{detachment,equanimity,insouciance,discretionary}→唯一：超然客观直指detachment|OK|偏难：抽象概念偏高级|
-|196|deterrence|OK：定义简单|OK：监控防盗场景|{deterrence,fortification,contravene,curtailment}→唯一：威慑阻止直指deterrence|OK|OK：level4合适|
-|197|devolution|OK：定义简单|OK：地方分权场景|{devolution,federal,council,civic}→唯一：权力下放直指devolution|OK|偏难：政治概念偏高级|
-|198|diffusion|OK：定义简单|OK：香水扩散场景|{diffusion,emission,emanate,conveyance}→勉强：emanate也指散发，但diffusion更贴合广泛扩散|OK|OK：level4合适|
-|199|dilapidation|OK：定义简单|OK：危旧谷仓场景|{dilapidation,decay,dereliction,devastate}→唯一：年久失修直指dilapidation|OK|偏难：词汇本身偏高级|
-|200|discernment|OK：定义简单|OK：选对答案场景|{discernment,acumen,deduction,foresight}→勉强：acumen也涉及洞察，但discernment更贴合辨别力|OK|偏难：抽象概念偏高级|
-|201|discretionary|OK：定义简单|OK：校长自主经费场景|{discretionary,entitled,exempt,grant}→唯一：自主支配直指discretionary|OK|偏难：词汇本身偏高级|
-|202|disdainful|OK：定义简单|OK：嫌弃脏房间场景|{disdainful,condescension,impertinent,covetous}→唯一：鄙视的表情直指disdainful|OK|OK：level4合适|
-|203|disillusionment|OK：定义简单|OK：球队不努力场景|{disillusionment,cynicism,chagrin,futility}→唯一：幻灭失望直指disillusionment|OK|偏难：抽象情感偏高级|
-|204|disparage|OK：定义简单|OK：贬低他人努力场景|{disparage,disdainful,condescension,begrudge}→唯一：言语贬低直指disparage|OK|OK：level4合适|
-|205|dissidence|OK：定义简单|OK：反抗不公法律场景|{dissidence,backlash,intransigence,contention}→唯一：异见/反对直指dissidence|注意：政治异见话题在中国语境需谨慎|偏难：政治概念偏高级|
-|206|divergent|OK：定义简单|OK：双胞胎兴趣不同场景|{divergent,convergent,alternative,derivative}→唯一：分道扬镳直指divergent|OK|OK：level4合适|
-|207|dogmatic|OK：定义简单|OK：固执己见场景|{dogmatic,intransigence,categorical,earnest}→勉强：intransigence也指固执，但dogmatic更贴合教条|OK|偏难：词汇本身偏高级|
-|208|dormancy|OK：定义简单|OK：种子越冬场景|{dormancy,dormant,abate,decay}→勉强：dormant是同根词易混，但dormancy更贴合名词状态|OK|OK：level4合适|
-|209|draconian|OK：定义大致可懂|OK：取消课间场景|{draconian,aggressive,dominant,categorical}→唯一：严酷惩罚直指draconian|OK|偏难：典故词偏高级|
-|210|ebullience|OK：定义大致可懂|OK：游乐场场景|{ebullience,exuberance,enthusiasm,elation}→勉强：exuberance也指兴奋，但ebullience更贴合冒泡般的兴奋|OK|偏难：词汇本身偏高级|
-|211|edification|OK：定义简单|OK：纪录片场景|{edification,illumination,elucidation,enlightenment}→唯一：教化提升直指edification|OK|偏难：词汇本身偏高级|
-|212|elation|OK：定义简单|OK：赢科学展场景|{elation,ebullience,exuberance,enthusiasm}→勉强：ebullience也指喜悦，但elation更贴合心飞起来的感觉|OK|OK：level4合适|
-|213|elucidation|OK：定义简单|OK：老师讲解场景|{elucidation,explication,edification,illumination}→勉强：explication也指解释，但elucidation更贴合使清晰|OK|偏难：词汇本身偏高级|
-|214|emanate|OK：定义简单|OK：饼干香味场景|{emanate,diffusion,emission,illuminate}→唯一：从源头散发直指emanate|OK|OK：level4合适|
-|215|embellish|OK：定义简单|OK：添油加醋场景|{embellish,enhance,compose,caricature}→唯一：装饰/夸大直指embellish|OK|OK：level4合适|
-|216|embolden|OK：定义简单|OK：鼓励试训场景|{embolden,galvanize,enhance,impulse}→唯一：赋予勇气直指embolden|OK|OK：level4合适|
-|217|emigration|OK：定义简单|OK：村庄外迁场景|{emigration,expatriation,conveyance,devolution}→勉强：expatriation也涉及移居国外，但emigration更贴合离开祖国|注意：移民话题需中性呈现|OK：level4合适|
-|218|encroachment|OK：定义简单|OK：城市侵占农田场景|{encroachment,expropriation,entrenchment,contravene}→勉强：expropriation也涉及侵占，但encroachment更贴合缓慢蚕食|OK|OK：level4合适|
-|219|enfranchisement|OK：定义大致可懂|OK：1920年女性投票权场景|{enfranchisement,entitled,civic,federal}→唯一：赋予选举权直指enfranchisement|注意：选举权话题在中国需注意|偏难：政治概念偏高级|
-|220|enormity|OK：定义简单|OK：严重错误场景|{enormity,devastate,extensive,grievous}→唯一：严重程度直指enormity|OK|OK：level4合适|
-|221|entrenchment|OK：定义简单|OK：旧习难改场景|{entrenchment,intransigence,dogmatic,inexorable}→唯一：根深蒂固直指entrenchment|OK|偏难：抽象概念偏高级|
-|222|epitomize|OK：定义简单|OK：奉献精神场景|{epitomize,exemplify,characteristic,represent}→唯一：完美代表直指epitomize|OK|偏难：词汇本身偏高级|
-|223|equanimity|OK：定义简单|OK：冷静面对坏消息场景|{equanimity,detachment,insouciance,composure}→勉强：detachment也指超然，但equanimity更贴合内心平静|OK|偏难：抽象情感偏高级|
-|224|eradication|OK：定义简单|OK：消灭疾病场景|{eradication,annihilate,devastate,curtailment}→唯一：完全根除直指eradication|OK|OK：level4合适|
-|225|erstwhile|OK：定义简单|OK：前冠军回归场景|{erstwhile,nascent,dormant,derivative}→唯一：以前的直指erstwhile|OK|偏难：词汇本身偏高级|
-|226|eschew|OK：定义简单|OK：避免垃圾食品场景|{eschew,abate,curtailment,conform}→唯一：主动避开直指eschew|OK|偏难：词汇本身偏高级|
-|227|esprit|OK：定义简单|OK：团队精神场景|{esprit,cohesion,enthusiasm,ebullience}→勉强：cohesion也涉及团结，但esprit更贴合集体精神|OK|偏难：法语借词偏高级|
-|228|exacerbation|OK：定义简单|OK：干旱加剧缺水场景|{exacerbation,devastate,contaminate,deterioration}→唯一：使恶化直指exacerbation|OK|偏难：词汇本身偏高级|
-|229|exaltation|OK：定义简单|OK：赢球场景|{exaltation,elation,ebullience,exuberance}→勉强：elation也指喜悦，但exaltation更贴合骄傲的喜悦|OK|偏难：词汇本身偏高级|
-|230|exculpate|OK：定义简单|OK：洗清冤屈场景|{exculpate,indemnify,corroboration,acquit}→唯一：证明无罪直指exculpate|OK|偏难：法律概念偏高级|
-|231|exhortation|OK：定义简单|OK：教练赛前动员场景|{exhortation,embolden,galvanize,impulse}→唯一：强烈劝告直指exhortation|OK|偏难：词汇本身偏高级|
-|232|expatriation|OK：定义简单|OK：旅居日本场景|{expatriation,emigration,conveyance,itinerant}→勉强：emigration也涉及移居，但expatriation更贴合旅居国外|OK|偏难：词汇本身偏高级|
-|233|expediency|OK：定义大致可懂|OK：速度优先场景|{expediency,feasible,implement,execute}→唯一：权宜之计直指expediency|OK|偏难：抽象概念偏高级|
-|234|explication|OK：定义简单|OK：诗歌分析场景|{explication,elucidation,edification,deduction}→勉强：elucidation也指解释，但explication更贴合逐步分析|OK|偏难：词汇本身偏高级|
-|235|exponentiation|OK：定义简单|OK：2的3次方场景|{exponentiation,calibration,deduction,extrapolation}→唯一：幂运算直指exponentiation|OK|OK：数学概念可教|
-|236|expropriation|OK：定义简单|OK：征地修路场景|{expropriation,encroachment,curtailment,confiscate}→勉强：confiscate也涉及没收，但expropriation更贴合政府征地|注意：征地话题在中国可能敏感|偏难：法律概念偏高级|
-|237|extenuating|OK：定义简单|OK：减轻处罚场景|{extenuating,alleviation,mollify,exempt}→唯一：减轻罪责的情节直指extenuating|OK|偏难：法律概念偏高级|
-|238|extraneous|OK：定义简单|OK：作文跑题场景|{extraneous,innocuous,insipid,frivolity}→唯一：无关紧要直指extraneous|OK|OK：level4合适|
-|239|extrapolation|OK：定义简单|OK：人口预测场景|{extrapolation,deduction,causation,calibration}→唯一：推测未知直指extrapolation|OK|偏难：统计概念偏高级|
-|240|exuberance|OK：定义大致可懂|OK：小狗跳跃场景|{exuberance,ebullience,enthusiasm,elation}→勉强：ebullience也指活力，但exuberance更贴合外在表现|OK|OK：level4合适|
-|241|facilitation|OK：定义简单|OK：老师引导讨论场景|{facilitation,implement,enhance,edification}→唯一：促进/协助直指facilitation|OK|偏难：词汇本身偏高级|
-|242|fallacious|OK：定义简单|OK：错误论证场景|{fallacious,mendacious,delusion,hoax}→勉强：mendacious也涉及虚假，但fallacious更贴合逻辑错误|OK|偏难：词汇本身偏高级|
-|243|fanaticism|OK：定义简单|OK：球迷画脸场景|{fanaticism,enthusiasm,ebullience,exuberance}→唯一：狂热过度直指fanaticism|OK|OK：level4合适|
-|244|felicity|OK：定义大致可懂|OK：描述日落场景|{felicity,candor,eloquence,embellish}→唯一：用词精妙直指felicity|OK|偏难：文学概念偏高级|
-|245|foresight|OK：定义简单|OK：带伞场景|{foresight,acumen,discernment,deduction}→唯一：先见之明直指foresight|OK|OK：level4合适|
-|246|fortification|OK：定义简单|OK：城墙场景|{fortification,deterrence,entrenchment,demarcation}→唯一：防御工事直指fortification|OK|OK：level4合适|
-|247|frivolity|OK：定义简单|OK：课堂打闹场景|{frivolity,insouciance,exuberance,ebullience}→唯一：不严肃直指frivolity|OK|OK：level4合适|
-|248|frugality|OK：定义简单|OK：攒钱买车场景|{frugality,austerity,curtailment,expediency}→勉强：austerity也指节俭，但frugality更贴合个人节约|OK|OK：level4合适|
-|249|fruition|OK：定义简单|OK：花园项目实现场景|{fruition,attainment,breakthrough,implement}→唯一：开花结果直指fruition|OK|OK：level4合适|
-|250|futility|OK：定义简单|OK：对牛弹琴场景|{futility,desperation,adversity,lassitude}→唯一：无用感直指futility|OK|OK：level4合适|
-|251|galvanize|OK：定义简单|OK：演讲激励回收场景|{galvanize,embolden,impulse,enthusiasm}→唯一：激励行动直指galvanize|OK|OK：level4合适|
-|252|garrulous|OK：定义简单|OK：话多邻居场景|{garrulous,clamorous,colloquial,insipid}→唯一：话太多直指garrulous|OK|偏难：词汇本身偏高级|
-|253|germane|OK：定义简单|OK：相关提问场景|{germane,extraneous,context,connotation}→唯一：切题相关直指germane|OK|偏难：词汇本身偏高级|
-|254|grandiosity|OK：定义简单|OK：不切实际的宏大计划|{grandiosity,hubris,audacious,decadence}→唯一：不切实际的宏大直指grandiosity|OK|OK：level4合适|
-|255|gratuitous|OK：定义简单|OK：多余难词场景|{gratuitous,extraneous,frivolity,insipid}→勉强：extraneous也指不必要，但gratuitous更贴合无理由的|OK|偏难：词汇本身偏高级|
-|256|grievous|OK：定义简单|OK：严重伤害场景|{grievous,devastate,debilitation,enormity}→唯一：严重痛苦直指grievous|OK|OK：level4合适|
-|257|heterogeneous|OK：定义简单|OK：多国学生场景|{heterogeneous,divergent,diverse,dynamic}→唯一：多元混合直指heterogeneous|OK|偏难：科学词汇偏高级|
-|258|hubris|OK：定义简单|OK：不学习以为能过场景|{hubris,grandiosity,audacious,dogmatic}→唯一：傲慢自大直指hubris|OK|偏难：典故词偏高级|
-|259|iconoclast|勉强：定义有误"hard things to do old ideas"|OK：质疑旧理论场景|{iconoclast,dissidence,audacious,dogmatic}→唯一：挑战传统者直指iconoclast|OK|注意：定义需修改；偏难|
-|260|idiosyncrasy|OK：定义简单|OK：穿错袜子场景|{idiosyncrasy,aberration,anomalous,characteristic}→唯一：个人怪癖直指idiosyncrasy|OK|偏难：词汇本身偏高级|
-|261|ignominy|OK：定义简单|OK：作弊被抓场景|{ignominy,chagrin,culpability,demerit}→唯一：公开耻辱直指ignominy|OK|偏难：词汇本身偏高级|
-|262|illumination|OK：定义简单|OK：灯塔场景|{illumination,illuminate,edification,elucidation}→勉强：illuminate同根易混，但illumination更贴合名词光源|OK|OK：level4合适|
-|263|immutable|OK：定义简单|OK：万有引力场景|{immutable,inevitable,inexorable,categorical}→唯一：不可改变直指immutable|OK|偏难：词汇本身偏高级|
-|264|impertinent|OK：定义简单|OK：对老师无礼场景|{impertinent,disdainful,condescension,garrulous}→唯一：无礼不敬直指impertinent|OK|OK：level4合适|
-|265|impetus|OK：定义简单|OK：科学展启发场景|{impetus,impulse,galvanize,embolden}→勉强：impulse也指推动，但impetus更贴合长期动力|OK|偏难：词汇本身偏高级|
-|266|importune|OK：定义简单|OK：每天求买狗场景|{importune,crave,begrudge,coerce}→唯一：纠缠恳求直指importune|OK|偏难：词汇本身偏高级|
-|267|impugn|OK：定义简单|OK：律师质疑证人场景|{impugn,disparage,accuse,contravene}→唯一：质疑真实性直指impugn|OK|偏难：法律概念偏高级|
-|268|incandescence|OK：定义简单|OK：篝火发光场景|{incandescence,illumination,emanate,illuminate}→唯一：高温发光直指incandescence|OK|偏难：科学词汇偏高级|
-|269|incisive|OK：定义简单|OK：辩论提问场景|{incisive,discernment,acumen,germane}→唯一：犀利洞察直指incisive|OK|偏难：词汇本身偏高级|
-|270|incongruity|OK：定义简单|OK：海滩雪人场景好|{incongruity,aberration,anomalous,bizarre}→唯一：不协调/格格不入直指incongruity|OK|OK：level4合适|
-|271|inculcate|OK：定义简单|OK：教练灌输体育精神场景|{inculcate,edification,implement,conform}→唯一：反复灌输直指inculcate|OK|偏难：词汇本身偏高级|
-|272|indemnify|OK：定义简单|OK：保险赔偿场景|{indemnify,exculpate,exempt,grant}→唯一：赔偿保护直指indemnify|OK|偏难：金融概念偏高级|
-|273|indigence|OK：定义简单|OK：贫困救助场景|{indigence,destitution,adversity,desperation}→勉强：destitution也指赤贫，但indigence更贴合持续贫困|OK|偏难：词汇本身偏高级|
-|274|indolence|OK：定义简单|OK：暑假不做家务场景|{indolence,lassitude,insouciance,frivolity}→勉强：lassitude也涉及懒散，但indolence更贴合不想工作|OK|偏难：词汇本身偏高级|
-|275|inexorable|OK：定义简单|OK：时间流逝场景|{inexorable,immutable,inevitable,relentless}→勉强：inevitable也指不可避免，但inexorable更强调持续推进|OK|偏难：词汇本身偏高级|
-|276|ingratiate|OK：定义简单|OK：送苹果讨好老师场景|{ingratiate,importune,embellish,mollify}→唯一：讨好巴结直指ingratiate|OK|OK：level4合适|
-|277|innocuous|OK：定义简单|OK：无害蜘蛛场景|{innocuous,bland,insipid,dormant}→唯一：无害直指innocuous|OK|偏难：词汇本身偏高级|
-|278|insipid|OK：定义简单|OK：无聊电影场景|{insipid,bland,extraneous,frivolity}→勉强：bland也指无味/无聊，但insipid更强调乏味到令人昏睡|OK|偏难：词汇本身偏高级|
-|279|insouciance|OK：定义简单|OK：不担心考试场景|{insouciance,indolence,detachment,equanimity}→勉强：detachment也指不在意，但insouciance更贴合轻松不担心|OK|偏难：法语借词偏高级|
-|280|interloper|OK：定义简单|OK：猫闯狗公园场景|{interloper,encroachment,iconoclast,itinerant}→唯一：不请自来者直指interloper|OK|OK：level4合适|
-|281|interpolate|OK：定义简单|OK：插入新章节场景|{interpolate,implement,embellish,compartmentalize}→唯一：在中间插入直指interpolate|OK|偏难：词汇本身偏高级|
-|282|interregnum|OK：定义简单|OK：领导交接场景|{interregnum,devolution,council,interim}→唯一：两任之间的间歇直指interregnum|OK|偏难：政治概念偏高级|
-|283|intransigence|OK：定义简单|OK：双方僵持场景|{intransigence,dogmatic,entrenchment,contention}→勉强：dogmatic也指固执，但intransigence更贴合拒绝妥协|OK|偏难：词汇本身偏高级|
-|284|irascible|OK：定义简单|OK：易怒老人场景|{irascible,aggressive,clamorous,impertinent}→唯一：易怒直指irascible|OK|偏难：词汇本身偏高级|
-|285|itinerant|OK：定义简单|OK：巡回音乐家场景|{itinerant,expatriation,emigration,conveyance}→唯一：流动巡回直指itinerant|OK|偏难：词汇本身偏高级|
-|286|laconic|OK：定义简单|OK：只说"fine"场景好|{laconic,insipid,bland,colloquial}→唯一：极简用语直指laconic|OK|偏难：词汇本身偏高级|
-|287|lassitude|OK：定义简单|OK：暴晒后想午睡场景|{lassitude,fatigue,debilitation,indolence}→勉强：fatigue也指疲劳，但lassitude更贴合沉重倦怠|OK|偏难：词汇本身偏高级|
-|288|largesse|OK：定义大致可懂|OK：亿万富翁捐图书馆场景|{largesse,munificence,benefactor,charity}→勉强：munificence也指慷慨，但largesse更贴合炫耀式慷慨|OK|偏难：法语借词偏高级|
-|289|magnanimity|OK：定义简单|OK：赢家恭喜输家场景|{magnanimity,courtesy,candor,equanimity}→唯一：大度宽宏直指magnanimity|OK|偏难：词汇本身偏高级|
-|290|malfeasance|OK：定义简单|OK：市长挪用公款场景|{malfeasance,dereliction,culpability,contravene}→唯一：公职违法直指malfeasance|OK|偏难：法律概念偏高级|
-|291|mendacious|OK：定义简单|OK：虚假推销场景|{mendacious,fallacious,deceive,hoax}→勉强：fallacious也涉及虚假，但mendacious更贴合说谎|OK|偏难：词汇本身偏高级|
-|292|mercurial|OK：定义简单|OK：情绪多变场景|{mercurial,dynamic,divergent,irascible}→唯一：变幻无常直指mercurial|OK|偏难：典故词偏高级|
-|293|meritocracy|OK：定义简单|OK：能力优先场景|{meritocracy,aristocratic,federal,civic}→唯一：精英体制直指meritocracy|注意：政治制度话题需中性|偏难：政治概念偏高级|
-|294|mollify|OK：定义简单|OK：免费甜品安抚场景|{mollify,commiserate,alleviation,courtesy}→唯一：安抚平息直指mollify|OK|偏难：词汇本身偏高级|
-|295|munificence|OK：定义简单|OK：企业家捐建学校场景|{munificence,largesse,benefactor,charity}→勉强：largesse也指慷慨，但munificence更贴合大方馈赠|OK|偏难：词汇本身偏高级|
-|296|nascent|OK：定义简单|OK：自动驾驶场景|{nascent,dormant,erstwhile,innovative}→唯一：新生萌芽直指nascent|OK|偏难：词汇本身偏高级|
-|297|nefarious|OK：定义简单|OK：反派偷钻石场景|{nefarious,malfeasance,mendacious,covetous}→唯一：邪恶犯罪直指nefarious|OK|OK：level4合适|
-|298|oblique|OK：定义简单|OK：拐弯抹角回答场景|{oblique,laconic,colloquial,extraneous}→唯一：不直接直指oblique|OK|偏难：词汇本身偏高级|
-|299|exponent|OK：定义简单|OK：2³数学场景|{exponent,exponentiation,element,atom}→唯一：指数直指exponent|OK|OK：数学概念level4合适|
-|300|cortex|OK：定义简单|OK：大脑皮层场景|{cortex,chamber,element,atom}→唯一：器官外层直指cortex|OK|OK：科学概念level4合适|
-|301|adjunct|OK：定义简单|OK：课外美术班场景|{adjunct,derivative,supplement,alternative}→唯一：附加补充直指adjunct|OK|OK：level4合适|
+- **abandon** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **abbreviation** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **accuse** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **aggressive** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **alliance** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **alter** | L5 def:勉强(有点抽象/长词(completely)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **alternative** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **appreciate** | L5 def:勉强(有点抽象/长词(understand)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **architect** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **arctic** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **arise** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **assess** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **associate** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **atom** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **aviation** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **awkward** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **biome** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **bizarre** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **bland** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **bleak** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **blur** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **bond** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **boom** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **brace** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **breakthrough** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **breed** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **browse** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **cabinet** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **captive** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **career** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **cargo** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **catalog** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **category** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **ceremony** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **chamber** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ blood | L8 合适(难度与level4匹配)
+- **chaos** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **characteristic** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **charity** | L5 def:勉强(有点抽象/长词(organization)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **chemical** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **civic** | L5 def:勉强(有点抽象/长词(responsibilities)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **clause** | L5 def:勉强(有点抽象/长词(—)); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 合适(难度与level4匹配)
+- **client** | L5 def:不能(定义偏长/长词多(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **commerce** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **compose** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **comprehend** | L5 def:勉强(有点抽象/长词(understand)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **concept** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **concrete** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **condition** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **conference** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **confess** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **conform** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **conscience** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **consensus** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **consume** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **contact** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **contaminate** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **context** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **contract** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **council** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **courtesy** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 合适(难度与level4匹配)
+- **craft** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **crane** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **crave** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **credible** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 合适(难度与level4匹配)
+- **crude** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **customary** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **decay** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **deceive** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **declare** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **defect** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **defy** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **deprive** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **devastate** | L5 def:勉强(有点抽象/长词(completely)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **diplomat** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **disclose** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **discount** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **discrimination** | L5 def:勉强(有点抽象/长词(—)); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **dominant** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **dormant** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **drain** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **dynamic** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 合适(难度与level4匹配)
+- **earnest** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **eclipse** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **ecology** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **edition** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **element** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **elevate** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **emission** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **employ** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **endanger** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **enhance** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **enterprise** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **enthusiasm** | L5 def:勉强(有点抽象/长词(excitement)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **entitled** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **episode** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **equip** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **era** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **excel** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **execute** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **exempt** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **exhaust** | L5 def:勉强(有点抽象/长词(completely)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **extensive** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **extraordinary** | L5 def:勉强(有点抽象/长词(remarkably)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **fatigue** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **feasible** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **federal** | L5 def:勉强(有点抽象/长词(government)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **fluid** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **frequency** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **genetic** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **global** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **graduate** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **grant** | L5 def:勉强(有点抽象/长词(officially)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **gulf** | L5 def:勉强(有点抽象/长词(surrounded)); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 ⚠️ war | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **highlight** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **hoax** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **humid** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **illuminate** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **implement** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **impulse** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **inaugurate** | L5 def:勉强(有点抽象/长词(officially)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **incline** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **industrial** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **inevitable** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **abate** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **aberration** | L5 def:不能(定义偏长/长词多(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ war | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **abstraction** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **acumen** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **adept** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏易(词形短且常见，若本level整体偏高可前移)
+- **adversity** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **affinity** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **aggregation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **agitation** | L5 def:勉强(有点抽象/长词(—)); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **alleviation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **amalgamation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **anarchy** | L5 def:不能(定义偏长/长词多(government)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **animosity** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **annihilate** | L5 def:勉强(有点抽象/长词(completely)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **anomalous** | L5 def:不能(定义偏长/长词多(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **appraisal** | L5 def:不能(定义偏长/长词多(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **aristocratic** | L5 def:不能(定义偏长/长词多(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **assimilation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **astounding** | L5 def:勉强(有点抽象/长词(impressive)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **attainment** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **audacious** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **austerity** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **backlash** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **barrage** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **begrudge** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **benefactor** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **bequest** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **bewilderment** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **bountiful** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **calibration** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **candor** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **capacious** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **caricature** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **categorical** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **causation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **chagrin** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **clamorous** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **cognizant** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **cohesion** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **colloquial** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 合适(难度与level4匹配)
+- **commiserate** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **communique** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **compartmentalize** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **compunction** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **condescension** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 ⚠️ war | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **connotation** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ war | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **consecration** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ church | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **consternation** | L5 def:勉强(有点抽象/长词(unexpected)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **contention** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **contravene** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **convergent** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **conveyance** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **corroboration** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **covetous** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **credence** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **culpability** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **curate** | L5 def:勉强(有点抽象/长词(collection)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **curtailment** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **cynicism** | L5 def:勉强(有点抽象/长词(themselves)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **debilitation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **decadence** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **declination** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **deduction** | L5 def:勉强(有点抽象/长词(conclusion)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **delineation** | L5 def:不能(定义偏长/长词多(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **delusion** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **demarcation** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **demerit** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **dereliction** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **derivative** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **desperation** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **destitution** | L5 def:不能(定义偏长/长词多(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **detachment** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **deterrence** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **devolution** | L5 def:勉强(有点抽象/长词(government)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **diffusion** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **dilapidation** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **discernment** | L5 def:不能(定义偏长/长词多(difference)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **discretionary** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **disdainful** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **disillusionment** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **disparage** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **dissidence** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **divergent** | L5 def:勉强(有点抽象/长词(directions)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **dogmatic** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **dormancy** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **draconian** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **ebullience** | L5 def:勉强(有点抽象/长词(excitement)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **edification** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **elation** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **elucidation** | L5 def:勉强(有点抽象/长词(understand)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **emanate** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **embellish** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **embolden** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **emigration** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **encroachment** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **enfranchisement** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **enormity** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **entrenchment** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **epitomize** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **equanimity** | L5 def:勉强(有点抽象/长词(especially)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **eradication** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **erstwhile** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **eschew** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **esprit** | L5 def:勉强(有点抽象/长词(enthusiasm)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **exacerbation** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **exaltation** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **exculpate** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **exhortation** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **expatriation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **expediency** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **explication** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **exponentiation** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **expropriation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **extenuating** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **extraneous** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 合适(难度与level4匹配)
+- **extrapolation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **exuberance** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **facilitation** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **fallacious** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 合适(难度与level4匹配)
+- **fanaticism** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **felicity** | L5 def:不能(定义偏长/长词多(beautifully)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **foresight** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **fortification** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 ⚠️ attack | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **frivolity** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **frugality** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **fruition** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **futility** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **galvanize** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **garrulous** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **germane** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **grandiosity** | L5 def:勉强(有点抽象/长词(impressive)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **gratuitous** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **grievous** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **heterogeneous** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **hubris** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **iconoclast** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **idiosyncrasy** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **ignominy** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **illumination** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **immutable** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **impertinent** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **impetus** | L5 def:勉强(有点抽象/长词(encourages)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **importune** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **impugn** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **incandescence** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **incisive** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **incongruity** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **inculcate** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **indemnify** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **indigence** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **indolence** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **inexorable** | L5 def:勉强(有点抽象/长词(impossible)); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **ingratiate** | L5 def:勉强(有点抽象/长词(flattering)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **innocuous** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **insipid** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **insouciance** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **interloper** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **interpolate** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **interregnum** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **intransigence** | L5 def:勉强(有点抽象/长词(compromise)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **irascible** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **itinerant** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **laconic** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **lassitude** | L5 def:不能(定义偏长/长词多(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **largesse** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **magnanimity** | L5 def:勉强(有点抽象/长词(—)); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **malfeasance** | L5 def:勉强(有点抽象/长词(—)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **mendacious** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **mercurial** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 ⚠️ war | L8 合适(难度与level4匹配)
+- **meritocracy** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **mollify** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **munificence** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **nascent** | L5 def:能(直白); ex:勉强(信息量一般) | L6 勉强(信息量一般) | L7 OK | L8 合适(难度与level4匹配)
+- **nefarious** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **oblique** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 合适(难度与level4匹配)
+- **exponent** | L5 def:能(直白); ex:能(例句自带解释线索) | L6 能(例句自带解释线索) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **cortex** | L5 def:勉强(有点抽象/长词(especially)); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
+- **adjunct** | L5 def:能(直白); ex:能(上下文够但不一定唯一) | L6 勉强(上下文够但不一定唯一) | L7 OK | L8 偏难(偏学术/抽象，建议靠后或配前置词)
