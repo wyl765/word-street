@@ -1,0 +1,6 @@
+
+============================================================
+Testing: words-level5a.js (sample: 30)
+============================================================
+[2/30] incredulous: PASS | A(3/3): gpt-4o=C✓ gpt-4.1=C✓ gemini-2.5-pro=C✓ | B(3/3): gpt-4o=A✓ gpt-4.1=A✓ gemini-2.5-pro=A✓
+[1/30] extenuate: PASS | A(3/3): gpt-4o=B✓ gpt-4.1=B✓ gemini-2.5-pro=B✓ | B(3/3): gpt-4o=D✓ gpt-4.1=D✓ gemini-2.5-pro=D✓
