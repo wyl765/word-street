@@ -1,0 +1,1540 @@
+{
+  "file": "words-level5c",
+  "total": 328,
+  "sampled": 30,
+  "pass": 27,
+  "marginal": 1,
+  "fail": 2,
+  "results": [
+    {
+      "word": "armament",
+      "definition": "weapons and military equipment",
+      "example": "The treaty limited each country's armament.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "globalization",
+        "dazzle",
+        "debut"
+      ]
+    },
+    {
+      "word": "deceit",
+      "definition": "not telling what is true or hiding the what is real to trick someone",
+      "example": "His deceit was uncovered when the truth finally came out.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "retribution",
+        "corporal",
+        "proclamation"
+      ]
+    },
+    {
+      "word": "genealogy",
+      "definition": "the study of family what happened long ago and ancestors",
+      "example": "Genealogy helped her trace her family tree.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "aisle",
+        "injustice",
+        "molecular"
+      ]
+    },
+    {
+      "word": "immobilize",
+      "definition": "to prevent something from moving",
+      "example": "The doctor used a cast to immobilize the broken arm.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "citizenship",
+        "eminent",
+        "holistic"
+      ]
+    },
+    {
+      "word": "commodore",
+      "definition": "a naval officer ranking above captain",
+      "example": "The commodore led the fleet.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "acquittal",
+        "topography",
+        "composure"
+      ]
+    },
+    {
+      "word": "hydraulic",
+      "definition": "operated by the a pushing force of water or other liquid",
+      "example": "The hydraulic lift raised the heavy car off the ground easily.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "topography",
+        "communism",
+        "compliment"
+      ]
+    },
+    {
+      "word": "ornithology",
+      "definition": "the scientific study of birds",
+      "example": "His love of ornithology began when he started watching birds in his backyard.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "enclave",
+        "benign",
+        "bouquet"
+      ]
+    },
+    {
+      "word": "antiquity",
+      "definition": "the very distant past, especially very old times",
+      "example": "These ruins are from antiquity.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "capitulate",
+        "dominion",
+        "defamation"
+      ]
+    },
+    {
+      "word": "dissipate",
+      "definition": "to slowly vanish or scatter",
+      "example": "The morning fog will dissipate once the sun comes up.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "caffeine",
+        "bilingual",
+        "dialect"
+      ]
+    },
+    {
+      "word": "impersonate",
+      "definition": "to pretend to be another person",
+      "example": "It is illegal to impersonate a police officer.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "arcade",
+        "altruism",
+        "instigate"
+      ]
+    },
+    {
+      "word": "amphitheater",
+      "definition": "an open-air theater with seats in a circle or round and a bit long",
+      "example": "The old amphitheater could hold twenty thousand spectators.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "hydraulic",
+        "mystification",
+        "civilian"
+      ]
+    },
+    {
+      "word": "debilitate",
+      "definition": "to make someone very weak",
+      "example": "The illness can debilitate patients for months.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "condolence",
+        "censorship",
+        "chivalry"
+      ]
+    },
+    {
+      "word": "heredity",
+      "definition": "the passing of traits from parents to children through genes",
+      "example": "Heredity explains why you might have your mother's eye color.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "uprising",
+        "contingency",
+        "escapade"
+      ]
+    },
+    {
+      "word": "iridescent",
+      "definition": "showing many colors that seem to change in different lights",
+      "example": "The iridescent soap bubble shimmered with rainbow colors.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "animation",
+        "epitaph",
+        "absentee"
+      ]
+    },
+    {
+      "word": "arcade",
+      "definition": "a place with coin-operated games; also a covered walkway",
+      "example": "We spent Saturday afternoon playing games at the arcade.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "estate",
+        "crescendo",
+        "decimate"
+      ]
+    },
+    {
+      "word": "dismay",
+      "definition": "a feeling of shock and discouragement",
+      "example": "To her dismay, the library was closed for repairs.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "squander",
+        "metropolis",
+        "conspire"
+      ]
+    },
+    {
+      "word": "emigrate",
+      "definition": "to leave your own country to live in another",
+      "example": "Her grandparents chose to emigrate from Italy to America.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "extradite",
+        "arcade",
+        "gratification"
+      ]
+    },
+    {
+      "word": "feudal",
+      "definition": "from the old system where lords owned land and peasants worked it",
+      "example": "In the feudal system, knights served the king in exchange for land.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "enclave",
+        "ambassador",
+        "counterfeit"
+      ]
+    },
+    {
+      "word": "despair",
+      "definition": "complete loss of hope",
+      "example": "After failing three times, he felt a moment of despair.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "uprising",
+        "eloquence",
+        "ballad"
+      ]
+    },
+    {
+      "word": "civilian",
+      "definition": "a person who is not in the military",
+      "example": "The civilian was guided to safety during the crisis.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "bachelor",
+        "liquidate",
+        "denomination"
+      ]
+    },
+    {
+      "word": "culprit",
+      "definition": "the person responsible for doing something wrong",
+      "example": "The culprit admitted the theft.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "encryption",
+        "immobilize",
+        "estate"
+      ]
+    },
+    {
+      "word": "polarize",
+      "definition": "to divide into two opposing groups",
+      "example": "The issue began to polarize the town into supporters and opponents.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "incandescent",
+        "subdue",
+        "matriarch"
+      ]
+    },
+    {
+      "word": "liquidate",
+      "definition": "to close a business and sell everything to pay money you owe",
+      "example": "The failing store had to liquidate all its inventory at low prices.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "brigand",
+        "enclave",
+        "bipartisan"
+      ]
+    },
+    {
+      "word": "accreditation",
+      "definition": "from the people in charge approval that something meets needed standards",
+      "example": "The program earned accreditation.",
+      "status": "MARGINAL",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": false
+          }
+        ]
+      },
+      "distractors": [
+        "acclaimed",
+        "estuary",
+        "exposition"
+      ]
+    },
+    {
+      "word": "coax",
+      "definition": "to gently persuade someone to do something",
+      "example": "She tried to coax the scared kitten out from under the bed.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "mystification",
+        "chivalry",
+        "memento"
+      ]
+    },
+    {
+      "word": "delicacy",
+      "definition": "a rare or costs a lot of money food; also being gentle and careful",
+      "example": "Chocolate truffles are considered a delicacy in many countries.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "arithmetic",
+        "internship",
+        "exhilarate"
+      ]
+    },
+    {
+      "word": "brigade",
+      "definition": "a group of people organized for a purpose",
+      "example": "The fire brigade arrived within minutes of the call.",
+      "status": "FAIL",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "ERROR",
+            "correct": false
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "ERROR",
+            "correct": false
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "ERROR",
+            "correct": false
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "annuity",
+        "compliment",
+        "blockade"
+      ]
+    },
+    {
+      "word": "composure",
+      "definition": "the state of being calm and in control",
+      "example": "She kept her composure even when the test was very difficult.",
+      "status": "FAIL",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "ERROR",
+            "correct": false
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "ERROR",
+            "correct": false
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "ERROR",
+            "correct": false
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "ERROR",
+            "correct": false
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "transcontinental",
+        "condense",
+        "acute"
+      ]
+    },
+    {
+      "word": "dictator",
+      "definition": "a ruler who has total power and does not allow the other side",
+      "example": "The dictator controlled every part of the country's government.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "attic",
+        "combustion",
+        "exposition"
+      ]
+    },
+    {
+      "word": "asylum",
+      "definition": "being safe given to someone running away danger in their country",
+      "example": "The family was granted asylum after escaping the war.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "mammoth",
+        "fraternity",
+        "gratification"
+      ]
+    }
+  ]
+}
