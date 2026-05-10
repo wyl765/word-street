@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3691 ambiguous pairs found.
+3693 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -14320,7 +14320,7 @@
 
 ## L5: "conducive" vs "feasibility" (67%)
 - conducive: making something likely or possible
-- feasibility: if something is possible and practical to do
+- feasibility: how possible and practical something is to do
 
 ## L5: "constituent" vs "ascertain" (67%)
 - constituent: a voter in a certain district; also a component of something
@@ -14500,7 +14500,7 @@
 
 ## L5: "colleague" vs "dissident" (67%)
 - colleague: a person you work with
-- dissident: a person who publicly disagrees with the state
+- dissident: a person who publicly disagrees with the government
 
 ## L5: "competence" vs "complementary" (67%)
 - competence: the ability to do something well
@@ -14720,7 +14720,7 @@
 
 ## L5: "exemption" vs "immunity" (67%)
 - exemption: being free from a rule or duty that others must follow
-- immunity: a shield from disease or being free from a duty
+- immunity: protection from disease or being free from a duty
 
 ## L5: "fervent" vs "ambivalent" (80%)
 - fervent: having very strong feelings about something
@@ -14738,9 +14738,17 @@
 - inclination: a tendency or desire to do something
 - penchant: a strong liking or tendency toward something
 
+## L5: "inclination" vs "propensity" (67%)
+- inclination: a tendency or desire to do something
+- propensity: a natural tendency toward doing something often
+
 ## L5: "oppression" vs "tyranny" (75%)
 - oppression: cruel and unfair treatment of people by those in power
 - tyranny: cruel and unfair use of power by a ruler
+
+## L5: "penchant" vs "propensity" (60%)
+- penchant: a strong liking or tendency toward something
+- propensity: a natural tendency toward doing something often
 
 ## L5: "penitent" vs "rebuke" (60%)
 - penitent: feeling sorry for doing something wrong

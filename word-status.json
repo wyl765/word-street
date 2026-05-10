@@ -3,7 +3,7 @@
   "lastUpdated": "2026-05-10",
   "summary": {
     "totalWords": 5205,
-    "gate1_pass": 0,
+    "gate1_pass": 600,
     "gate2_pass": 0,
     "gate3_pass": 0,
     "gate4_pass": 0,
@@ -14,8 +14,8 @@
   "files": {
     "words-level1.js": {
       "totalWords": 600,
-      "currentGate": 1,
-      "gate1": "pending",
+      "currentGate": 2,
+      "gate1": "pass",
       "gate2": "pending",
       "gate3": "pending",
       "gate4": "pending",

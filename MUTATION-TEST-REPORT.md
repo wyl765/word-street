@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 29 |
-| Undetected | 1 |
-| **Detection rate** | **96.7%** |
+| Detected | 28 |
+| Undetected | 2 |
+| **Detection rate** | **93.3%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -20,46 +20,47 @@
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 4 | 80% |
+| grammar_error | 5 | 3 | 60% |
 
 ## Injected Mutations Detail
 
-- ✅ **correlation** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **conifer** (factual_error): def changed to: "a tree that grows underground in caves..."
-- ✅ **deem** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **mast** (factual_error): def changed to: "a tall pole on a ship that grows underground in caves..."
-- ✅ **greenhouse effect** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **caravan** (banned_word): injected "autopsy" into example
-- ✅ **segment** (banned_word): injected "pornography" into example
-- ✅ **reprimand** (banned_word): injected "autopsy" into example
-- ✅ **conquest** (banned_word): injected "massacre" into example
-- ✅ **impasse** (banned_word): injected "pornography" into example
-- ✅ **binoculars** (collocation_error): bad collocation: "big rain"
-- ✅ **hoax** (collocation_error): bad collocation: "close the light"
-- ✅ **minor** (collocation_error): bad collocation: "eat medicine"
-- ✅ **frost** (collocation_error): bad collocation: "big rain"
-- ✅ **acacia** (collocation_error): bad collocation: "eat medicine"
-- ✅ **amend** (empty_field): emptied example
-- ✅ **pinnacle** (empty_field): emptied definition
-- ✅ **affable** (empty_field): emptied example
-- ✅ **settler** (empty_field): emptied definition
-- ✅ **exclusive** (empty_field): emptied definition
-- ✅ **subsequently** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **devoted** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **globe** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **chemical** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **meanwhile** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ❌ **earnest** (grammar_error): example: "He made an earnest promise to take care of the puppy and nev..."
-- ✅ **sour** (grammar_error): example: "They is happy about the sour...."
-- ✅ **eagle** (grammar_error): example: "They is happy about the eagle...."
-- ✅ **inferno** (grammar_error): example: "They is happy about the inferno...."
-- ✅ **kilometer** (grammar_error): example: "The childrens played with the kilometer...."
+- ✅ **misnomer** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **sagacious** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **penal** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **justice** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **execute** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **quintessential** (banned_word): injected "torture" into example
+- ✅ **calculate** (banned_word): injected "pornography" into example
+- ✅ **civilization** (banned_word): injected "massacre" into example
+- ✅ **microscopic** (banned_word): injected "genocide" into example
+- ✅ **doughnut** (banned_word): injected "genocide" into example
+- ✅ **address** (collocation_error): bad collocation: "open the light"
+- ✅ **pigment** (collocation_error): bad collocation: "drink soup"
+- ✅ **debacle** (collocation_error): bad collocation: "drink soup"
+- ✅ **enable** (collocation_error): bad collocation: "eat medicine"
+- ✅ **reluctance** (collocation_error): bad collocation: "drink soup"
+- ✅ **weaken** (empty_field): emptied definition
+- ✅ **military** (empty_field): emptied example
+- ✅ **visible** (empty_field): emptied definition
+- ✅ **significant** (empty_field): emptied example
+- ✅ **autobiography** (empty_field): emptied example
+- ✅ **mulberry** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **purchase** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **turtle** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **forensic** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **imminent** (replace_accident): example: "She typed the importantword into the computer...."
+- ❌ **remonstrate** (grammar_error): example: "The parents remonstrated against the choice to cancel the sc..."
+- ✅ **prior** (grammar_error): example: "The childrens played with the prior...."
+- ✅ **overlook** (grammar_error): example: "The childrens played with the overlook...."
+- ✅ **many** (grammar_error): example: "There were many stars in the sky that night...."
+- ❌ **hand in** (grammar_error): example: "Please hand in your homework before class starts...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **earnest** (grammar_error): example: "He made an earnest promise to take care of the puppy and nev..."
+- **remonstrate** (grammar_error): example: "The parents remonstrated against the choice to cancel the sc..."
+- **hand in** (grammar_error): example: "Please hand in your homework before class starts...."
 
 ### Recommended Improvements
 

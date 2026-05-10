@@ -573,7 +573,7 @@
 - **[MAJOR]** L5: **surmise** ↔ **conjecture** — "guessing" vs "guessing thinking" (one contains the other)
 - **[MAJOR]** L5: **blatant** ↔ **flagrant** — "obvious cheat" vs "obvious cheating" (one contains the other)
 - **[MAJOR]** L5: **fetter** ↔ **abolition** — "chains" vs "freedom chains" (one contains the other)
-- **[MAJOR]** L5: **fetter** ↔ **oppression** — "chains" vs "chains bondage" (one contains the other)
+- **[MAJOR]** L5: **fetter** ↔ **oppression** — "chains" vs "heavy chains" (one contains the other)
 - **[MINOR]** L5: **abstain** ↔ **intercede** — "stepping back" vs "stepping in" (50% word overlap)
 - **[MINOR]** L5: **analogy** ↔ **juxtaposition** — "comparing things" vs "comparing two things" (67% word overlap)
 - **[MINOR]** L5: **endow** ↔ **succumb** — "giving gift" vs "giving in" (50% word overlap)

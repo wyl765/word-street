@@ -3,7 +3,7 @@
 ## Summary
 - Total entries: 5210
 - CRITICAL (≥5 超纲词 in definition): 425
-- MAJOR (≥3 超纲词 in definition): 2152
+- MAJOR (≥3 超纲词 in definition): 2153
 
 ## Issues
 
@@ -1684,7 +1684,7 @@
 - **超纲词 (5):** being, slave, forced, work, others
 
 ### 🔴 [CRITICAL] totalitarian (L5)
-- **Definition:** "a system of state that controls every part of people's lives"
+- **Definition:** "a system of government that controls every part of people's lives"
 - **超纲词 (5):** system, controls, part, people's, lives
 
 ### 🔴 [CRITICAL] unilateral (L5)
@@ -9912,8 +9912,8 @@
 - **超纲词 (3):** based, incomplete, facts
 
 ### 🟡 [MAJOR] conscription (L5)
-- **Definition:** "needing people by law to serve in the military"
-- **超纲词 (3):** needing, people, serve
+- **Definition:** "requiring people by law to serve in the military"
+- **超纲词 (3):** requiring, people, serve
 
 ### 🟡 [MAJOR] consecrate (L5)
 - **Definition:** "to officially make something holy or dedicate it to a purpose"
@@ -10022,6 +10022,10 @@
 ### 🟡 [MAJOR] gluttony (L5)
 - **Definition:** "eating or consuming far more than you need"
 - **超纲词 (3):** eating, consuming, need
+
+### 🟡 [MAJOR] immunity (L5)
+- **Definition:** "protection from disease or being free from a duty"
+- **超纲词 (3):** protection, being, free
 
 ### 🟡 [MAJOR] impromptu (L5)
 - **Definition:** "done without planning or getting ready"
@@ -10143,6 +10147,10 @@
 - **Definition:** "a high degree of skill in something"
 - **超纲词 (3):** high, degree, skill
 
+### 🟡 [MAJOR] propensity (L5)
+- **Definition:** "a natural tendency toward doing something often"
+- **超纲词 (3):** natural, tendency, doing
+
 ### 🟡 [MAJOR] proponent (L5)
 - **Definition:** "a person who supports and argues for something"
 - **超纲词 (3):** person, supports, argues
@@ -10174,10 +10182,6 @@
 ### 🟡 [MAJOR] renounce (L5)
 - **Definition:** "to formally give up something or say you no longer support it"
 - **超纲词 (4):** formally, give, say, longer
-
-### 🟡 [MAJOR] resilience (L5)
-- **Definition:** "being able to heal quickly from problems"
-- **超纲词 (3):** being, able, problems
 
 ### 🟡 [MAJOR] rudimentary (L5)
 - **Definition:** "basic and simple; at the earliest stage of development"
@@ -10240,8 +10244,8 @@
 - **超纲词 (3):** having, mixed, feelings
 
 ### 🟡 [MAJOR] anecdotal (L5)
-- **Definition:** "based on its own stories rather than facts or research"
-- **超纲词 (4):** based, own, stories, facts
+- **Definition:** "based on personal stories rather than facts or research"
+- **超纲词 (3):** based, stories, facts
 
 ### 🟡 [MAJOR] attrition (L5)
 - **Definition:** "a gradual reduction in numbers or strength"
@@ -10280,8 +10284,8 @@
 - **超纲词 (3):** confusing, problem, hard
 
 ### 🟡 [MAJOR] cosmopolitan (L5)
-- **Definition:** "with people from many different countries"
-- **超纲词 (3):** people, different, countries
+- **Definition:** "including people from many different countries"
+- **超纲词 (4):** including, people, different, countries
 
 ### 🟡 [MAJOR] denouncement (L5)
 - **Definition:** "a public statement that something is wrong or evil"
@@ -10292,7 +10296,7 @@
 - **超纲词 (4):** short-term, departure, main, subject
 
 ### 🟡 [MAJOR] dissident (L5)
-- **Definition:** "a person who publicly disagrees with the state"
+- **Definition:** "a person who publicly disagrees with the government"
 - **超纲词 (3):** person, publicly, disagrees
 
 ### 🟡 [MAJOR] emissary (L5)
