@@ -1,8 +1,8 @@
 {
-  "currentFile": "words-level2d.js",
-  "lastWordIndex": 257,
-  "totalInFile": 258,
-  "filesCompleted": ["words-level1.js", "words-level2.js", "words-level2a.js", "words-level2b.js", "words-level2c.js", "words-level2d.js"],
+  "currentFile": "words-level3a.js",
+  "lastWordIndex": 230,
+  "totalInFile": 231,
+  "filesCompleted": ["words-level1.js", "words-level2.js", "words-level2a.js", "words-level2b.js", "words-level2c.js", "words-level2d.js", "words-level3a.js"],
   "stats": {
     "words-level1.js": {
       "reviewed": 600,
@@ -39,6 +39,12 @@
       "accurate": 212,
       "partial": 2,
       "fixed": 44
+    },
+    "words-level3a.js": {
+      "reviewed": 231,
+      "accurate": 189,
+      "partial": 4,
+      "fixed": 38
     }
   }
 }
