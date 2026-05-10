@@ -269,3 +269,152 @@
 | 249 | horizon | ACCURATE | |
 
 **Batch summary:** 69 ACCURATE, 1 PARTIAL, 0 INACCURATE, 0 fixes applied
+
+---
+
+## Batch 4: words 250–389 (140 words)
+
+| # | Word | Verdict | Notes |
+|---|------|---------|-------|
+| 250 | hurt | ACCURATE | |
+| 251 | hurry | ACCURATE | |
+| 252 | idea | ACCURATE | |
+| 253 | ignore | ACCURATE | |
+| 254 | include | ACCURATE | |
+| 255 | inside | ACCURATE | |
+| 256 | invite | ACCURATE | |
+| 257 | jacket | ACCURATE | |
+| 258 | judge | ACCURATE | |
+| 259 | jump | ACCURATE | |
+| 260 | key | ACCURATE | |
+| 261 | kind | ACCURATE | |
+| 262 | knee | ACCURATE | |
+| 263 | kneel | ACCURATE | |
+| 264 | knock | ACCURATE | |
+| 265 | lantern | ACCURATE | |
+| 266 | laugh | ACCURATE | |
+| 267 | leaf | ACCURATE | |
+| 268 | leak | ACCURATE | |
+| 269 | learn | ACCURATE | |
+| 270 | least | ACCURATE | |
+| 271 | library | ACCURATE | |
+| 272 | limit | ACCURATE | |
+| 273 | listen | ACCURATE | |
+| 274 | lunch | ACCURATE | |
+| 275 | machine | ACCURATE | |
+| 276 | magic | ACCURATE | |
+| 277 | major | ACCURATE | |
+| 278 | marble | ACCURATE | |
+| 279 | mask | ACCURATE | |
+| 280 | matter | ACCURATE | |
+| 281 | memory | ACCURATE | |
+| 282 | message | ACCURATE | |
+| 283 | minute | ACCURATE | |
+| 284 | mirror | ACCURATE | |
+| 285 | mist | ACCURATE | |
+| 286 | mix | ACCURATE | |
+| 287 | model | ACCURATE | |
+| 288 | mood | ACCURATE | |
+| 289 | move | ACCURATE | |
+| 290 | mystery | ACCURATE | |
+| 291 | nature | ACCURATE | |
+| 292 | near | ACCURATE | |
+| 293 | neatly | ACCURATE | |
+| 294 | never | ACCURATE | |
+| 295 | noisy | ACCURATE | |
+| 296 | north | ACCURATE | |
+| 297 | note | ACCURATE | |
+| 298 | object | ACCURATE | |
+| 299 | ocean | ACCURATE | |
+| 300 | offer | ACCURATE | |
+| 301 | opinion | ACCURATE | |
+| 302 | opposite | ACCURATE | |
+| 303 | order | ACCURATE | |
+| 304 | outside | ACCURATE | |
+| 305 | over | ACCURATE | |
+| 306 | palace | ACCURATE | |
+| 307 | path | ACCURATE | |
+| 308 | pause | ACCURATE | |
+| 309 | picnic | ACCURATE | |
+| 310 | planet | ACCURATE | |
+| 311 | plastic | ACCURATE | |
+| 312 | playground | ACCURATE | |
+| 313 | polite | ACCURATE | |
+| 314 | praise | ACCURATE | |
+| 315 | prepare | ACCURATE | |
+| 316 | price | ACCURATE | |
+| 317 | prize | ACCURATE | |
+| 318 | protect | ACCURATE | |
+| 319 | quiet | ACCURATE | |
+| 320 | quiz | ACCURATE | |
+| 321 | raise | ACCURATE | |
+| 322 | range | INACCURATE | Was "an area between two ends" — vague and does not match the example (mountain range). Fixed to "a long line of mountains or hills" per Oxford/Collins. |
+| 323 | reach | ACCURATE | |
+| 324 | recycle | ACCURATE | |
+| 325 | refund | ACCURATE | |
+| 326 | relax | ACCURATE | |
+| 327 | rescue | ACCURATE | |
+| 328 | respect | ACCURATE | |
+| 329 | result | ACCURATE | |
+| 330 | return | ACCURATE | |
+| 331 | river | ACCURATE | |
+| 332 | role | ACCURATE | |
+| 333 | route | ACCURATE | |
+| 334 | safe | ACCURATE | |
+| 335 | sail | ACCURATE | |
+| 336 | save | ACCURATE | |
+| 337 | scared | PARTIAL | "feeling that something will hurt you" — scared is broader: feeling frightened/afraid, not necessarily about being hurt. Acceptable for kids' level but slightly narrow. |
+| 338 | scatter | ACCURATE | |
+| 339 | score | ACCURATE | |
+| 340 | shade | ACCURATE | |
+| 341 | shore | ACCURATE | |
+| 342 | signal | ACCURATE | |
+| 343 | simple | ACCURATE | |
+| 344 | slippery | ACCURATE | |
+| 345 | smell | ACCURATE | |
+| 346 | snap | ACCURATE | |
+| 347 | soak | ACCURATE | |
+| 348 | special | ACCURATE | |
+| 349 | store | ACCURATE | |
+| 350 | strong | ACCURATE | |
+| 351 | stuck | ACCURATE | |
+| 352 | suggest | ACCURATE | |
+| 353 | support | ACCURATE | |
+| 354 | surface | ACCURATE | |
+| 355 | swallow | ACCURATE | |
+| 356 | sweep | ACCURATE | |
+| 357 | sweet | ACCURATE | |
+| 358 | talent | ACCURATE | |
+| 359 | taste | PARTIAL | "what food feels like in your mouth" — taste is about flavor perception (sweet, salty, etc.), not texture/feel. Definition works loosely for kids but is slightly imprecise. |
+| 360 | team | ACCURATE | |
+| 361 | tease | ACCURATE | |
+| 362 | temperature | ACCURATE | |
+| 363 | tend | ACCURATE | |
+| 364 | tightly | ACCURATE | |
+| 365 | little | ACCURATE | |
+| 366 | track | ACCURATE | |
+| 367 | travel | ACCURATE | |
+| 368 | trick | ACCURATE | |
+| 369 | trust | ACCURATE | |
+| 370 | turn | ACCURATE | |
+| 371 | under | ACCURATE | |
+| 372 | upstairs | ACCURATE | |
+| 373 | usual | ACCURATE | |
+| 374 | visit | ACCURATE | |
+| 375 | voice | ACCURATE | |
+| 376 | vote | ACCURATE | |
+| 377 | wait | ACCURATE | |
+| 378 | warmth | ACCURATE | |
+| 379 | warn | ACCURATE | |
+| 380 | waterfall | ACCURATE | |
+| 381 | weather | ACCURATE | |
+| 382 | wheel | ACCURATE | |
+| 383 | yesterday | ACCURATE | |
+| 384 | admiral | ACCURATE | |
+| 385 | album | ACCURATE | |
+| 386 | alley | ACCURATE | |
+| 387 | amber | ACCURATE | |
+| 388 | antenna | ACCURATE | |
+| 389 | applause | ACCURATE | |
+
+**Batch summary:** 137 ACCURATE, 2 PARTIAL, 1 INACCURATE, 1 fix applied
