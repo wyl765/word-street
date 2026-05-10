@@ -4,9 +4,9 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 
 - puppy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - kitten | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- bunny | L5:能;例句:勉强(卡:也可能是frost) | L6:不能(不唯一(也像frost)) | L7:OK | L8:合适
+- bunny | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - duckling | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- chick | L5:勉强(卡:含especially);例句:能 | L6:能 | L7:OK | L8:合适
+- chick | L5:勉强(卡:especially可能不熟);例句:能 | L6:能 | L7:OK | L8:合适
 - lamb | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - cub | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - fawn | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -24,8 +24,8 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - whale | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - dolphin | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - shark | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- turtle | L5:勉强(卡:含covers);例句:能 | L6:能 | L7:OK | L8:合适
-- lizard | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:合适
+- turtle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- lizard | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - frog | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - toad | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - snail | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -34,90 +34,90 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - beetle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - ladybug | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - butterfly | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- caterpillar | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:合适
+- caterpillar | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
 - ant | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - bee | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- squirrel | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:合适
+- squirrel | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - raccoon | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - skunk | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - beaver | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - moose | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- toast | L5:能;例句:勉强(卡:也可能是spread) | L6:不能(不唯一(也像spread)) | L7:OK | L8:合适
+- toast | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - cereal | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pancake | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- waffle | L5:能;例句:勉强(卡:也可能是syrup) | L6:不能(不唯一(也像syrup)) | L7:OK | L8:合适
+- waffle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - oatmeal | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sandwich | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pretzel | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- cracker | L5:能;例句:勉强(卡:也可能是stack) | L6:能 | L7:OK | L8:合适
+- cracker | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - noodle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - muffin | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - cupcake | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - cookie | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - doughnut | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pudding | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- jelly | L5:能;例句:勉强(卡:也可能是toast) | L6:不能(不唯一(也像toast)) | L7:OK | L8:合适
-- syrup | L5:能;例句:勉强(卡:也可能是gravy) | L6:不能(不唯一(也像gravy)) | L7:OK | L8:合适
+- jelly | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- syrup | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - honey | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - popcorn | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - yogurt | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - grape | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - cherry | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- peach | L5:能;例句:勉强(卡:也可能是chin) | L6:不能(不唯一(也像chin)) | L7:OK | L8:合适
-- plum | L5:能;例句:勉强(卡:也可能是ripe) | L6:不能(不唯一(也像ripe)) | L7:OK | L8:合适
+- peach | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- plum | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - melon | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - berry | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - lemon | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - coconut | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - peanut | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- celery | L5:勉强(卡:含able);例句:能 | L6:能 | L7:OK | L8:合适
-- broccoli | L5:勉强(卡:含able);例句:能 | L6:能 | L7:OK | L8:合适
+- celery | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- broccoli | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - lettuce | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- pepper | L5:勉强(卡:含able);例句:能 | L6:能 | L7:OK | L8:合适
-- onion | L5:勉强(卡:含able);例句:能 | L6:能 | L7:OK | L8:合适
-- mushroom | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:合适
-- stew | L5:勉强(卡:含able);例句:能 | L6:能 | L7:OK | L8:合适
+- pepper | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- onion | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- mushroom | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- stew | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - gravy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - feast | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - snack | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - treat | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- slice | L5:能;例句:勉强(卡:也可能是piece) | L6:不能(不唯一(也像piece)) | L7:OK | L8:合适
+- slice | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - elbow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- wrist | L5:能;例句:勉强(卡:也可能是fancy) | L6:不能(不唯一(也像fancy)) | L7:OK | L8:合适
+- wrist | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - ankle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - heel | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - thumb | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - palm | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- fist | L5:能;例句:勉强(卡:也可能是twice) | L6:不能(不唯一(也像twice)) | L7:OK | L8:合适
-- chin | L5:能;例句:勉强(卡:也可能是peach) | L6:不能(不唯一(也像peach)) | L7:OK | L8:合适
-- cheek | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- fist | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- chin | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- cheek | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - forehead | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - eyebrow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - eyelash | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tongue | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- throat | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- shoulder | L5:能;例句:勉强(卡:也可能是ant) | L6:能 | L7:OK | L8:合适
+- throat | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- shoulder | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - hip | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - spine | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - rib | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- skull | L5:勉强(卡:含covers);例句:能 | L6:能 | L7:OK | L8:合适
+- skull | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - muscle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - mitten | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - scarf | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - hoodie | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- vest | L5:能;例句:勉强(卡:也可能是sandal) | L6:不能(不唯一(也像sandal)) | L7:OK | L8:合适
+- vest | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - apron | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- sleeve | L5:勉强(卡:含covers);例句:能 | L6:能 | L7:OK | L8:合适
+- sleeve | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pocket | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - zipper | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - button | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- buckle | L5:能;例句:勉强(卡:也可能是crunchy) | L6:能 | L7:OK | L8:合适
+- buckle | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - lace | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - slipper | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sandal | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sneaker | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- boot | L5:勉强(卡:含covers);例句:能 | L6:能 | L7:OK | L8:合适
-- collar | L5:能;例句:勉强(卡:也可能是tag) | L6:不能(不唯一(也像tag)) | L7:OK | L8:合适
+- boot | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- collar | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - hem | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pajamas | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - costume | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -127,46 +127,46 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - towel | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - soap | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sponge | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- broom | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:合适
-- bucket | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:合适
+- broom | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- bucket | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - ladder | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- drawer | L5:能;例句:勉强(卡:也可能是spread) | L6:不能(不唯一(也像sort)) | L7:OK | L8:合适
+- drawer | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - shelf | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- closet | L5:能;例句:勉强(卡:也可能是zipper) | L6:能 | L7:OK | L8:合适
-- curtain | L5:勉强(卡:含covers);例句:能 | L6:能 | L7:OK | L8:合适
+- closet | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- curtain | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - rug | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- lamp | L5:能;例句:勉强(卡:也可能是while) | L6:不能(不唯一(也像entire)) | L7:OK | L8:合适
-- candle | L5:能;例句:勉强(卡:也可能是suddenly) | L6:不能(不唯一(也像suddenly)) | L7:OK | L8:合适
+- lamp | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- candle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - vase | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - frame | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- envelope | L5:能;例句:勉强(卡:也可能是stamp) | L6:不能(不唯一(也像stamp)) | L7:OK | L8:合适
+- envelope | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - stamp | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - package | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - scissors | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - glue | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tape | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - crayon | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- chalk | L5:能;例句:勉强(卡:也可能是recent) | L6:不能(不唯一(也像recent)) | L7:OK | L8:合适
-- eraser | L5:能;例句:勉强(卡:也可能是heel) | L6:不能(不唯一(也像mistake)) | L7:OK | L8:合适
-- ruler | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- thermometer | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- chalk | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- eraser | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- ruler | L5:勉强(卡:measuring可能不熟);例句:能 | L6:能 | L7:OK | L8:合适
+- thermometer | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
 - battery | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- switch | L5:能;例句:勉强(卡:也可能是suddenly) | L6:不能(不唯一(也像suddenly)) | L7:OK | L8:合适
+- switch | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - barn | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - stable | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - cabin | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - cottage | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - castle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- tower | L5:能;例句:勉强(卡:也可能是drawer) | L6:不能(不唯一(也像drawer)) | L7:OK | L8:合适
+- tower | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - bridge | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- tunnel | L5:能;例句:勉强(卡:也可能是switch) | L6:不能(不唯一(也像through)) | L7:OK | L8:合适
-- harbor | L5:能;例句:不能(卡:多解(≈dock)) | L6:不能(不唯一(也像dock)) | L7:OK | L8:合适
+- tunnel | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- harbor | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - island | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- forest | L5:能;例句:勉强(卡:也可能是owl) | L6:不能(不唯一(也像owl)) | L7:OK | L8:合适
+- forest | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - meadow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- pond | L5:能;例句:勉强(卡:也可能是shark) | L6:能 | L7:OK | L8:合适
+- pond | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - stream | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- cliff | L5:能;例句:勉强(卡:也可能是eagle) | L6:不能(不唯一(也像eagle)) | L7:OK | L8:合适
+- cliff | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - cave | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - desert | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - jungle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -175,7 +175,7 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - storm | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - thunder | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - lightning | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- rainbow | L5:勉强(卡:含curved);例句:能 | L6:能 | L7:OK | L8:合适
+- rainbow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - breeze | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - frost | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - icicle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -185,8 +185,8 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - dew | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - fog | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - hail | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- blizzard | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- drought | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- blizzard | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- drought | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - flood | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - petal | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - stem | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -197,23 +197,23 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - acorn | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pinecone | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - seed | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- crawl | L5:能;例句:不能(卡:多解(≈fall down)) | L6:不能(不唯一(也像fall down)) | L7:OK | L8:合适
-- leap | L5:能;例句:勉强(卡:也可能是frog) | L6:不能(不唯一(也像frog)) | L7:OK | L8:合适
+- crawl | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- leap | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - skip | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- stomp | L5:能;例句:勉强(卡:也可能是sandal) | L6:能 | L7:OK | L8:合适
+- stomp | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - tiptoe | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - march | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- dash | L5:能;例句:勉强(卡:也可能是fist) | L6:不能(不唯一(也像quietly)) | L7:OK | L8:合适
+- dash | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - chase | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - grab | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- toss | L5:能;例句:勉强(卡:也可能是chase) | L6:不能(不唯一(也像chase)) | L7:OK | L8:合适
+- toss | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - catch | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - squeeze | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - stretch | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - bend | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - twist | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- shake | L5:能;例句:勉强(卡:也可能是sandwich) | L6:不能(不唯一(也像wonder)) | L7:OK | L8:合适
-- stir | L5:能;例句:勉强(卡:也可能是scoop) | L6:能 | L7:OK | L8:合适
+- shake | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- stir | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pour | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - spill | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - drip | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -221,11 +221,11 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - float | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sink | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - melt | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- freeze | L5:能;例句:勉强(卡:也可能是melt) | L6:不能(不唯一(也像freezing)) | L7:OK | L8:合适
+- freeze | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - peel | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - chop | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - grate | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- spread | L5:能;例句:勉强(卡:也可能是toast) | L6:不能(不唯一(也像toast)) | L7:OK | L8:合适
+- spread | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sprinkle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - scoop | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - whisper | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -236,36 +236,36 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - roar | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - hum | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - clap | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- wave | L5:能;例句:勉强(卡:也可能是curtain) | L6:能 | L7:OK | L8:合适
+- wave | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - nod | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- peek | L5:能;例句:勉强(卡:也可能是unwrap) | L6:不能(不唯一(也像unwrap)) | L7:OK | L8:合适
+- peek | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - stare | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - glance | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- search | L5:勉强(卡:抽象);例句:勉强(卡:也可能是lose) | L6:不能(不唯一(也像lose)) | L7:OK | L8:合适
+- search | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - discover | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- notice | L5:能;例句:勉强(卡:也可能是robin) | L6:不能(不唯一(也像robin)) | L7:OK | L8:合适
-- wonder | L5:能;例句:勉强(卡:也可能是sandwich) | L6:不能(不唯一(也像shake)) | L7:OK | L8:合适
+- notice | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- wonder | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - imagine | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pretend | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- promise | L5:能;例句:勉强(卡:也可能是later) | L6:不能(不唯一(也像later)) | L7:OK | L8:合适
+- promise | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - remind | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - forget | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- belong | L5:能;例句:勉强(卡:也可能是shelf) | L6:不能(不唯一(也像barely)) | L7:OK | L8:合适
+- belong | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - share | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- trade | L5:勉强(卡:抽象);例句:勉强(卡:也可能是robin) | L6:能 | L7:OK | L8:合适
+- trade | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - borrow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- lend | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- lend | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - gather | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - collect | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - stack | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - wrap | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- unwrap | L5:能;例句:勉强(卡:也可能是peek) | L6:不能(不唯一(也像peek)) | L7:OK | L8:合适
+- unwrap | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tug | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- drag | L5:能;例句:勉强(卡:也可能是put down) | L6:不能(不唯一(也像put down)) | L7:OK | L8:合适
-- shove | L5:能;例句:勉强(卡:也可能是blizzard) | L6:不能(不唯一(也像blizzard)) | L7:OK | L8:合适
+- drag | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- shove | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tuck | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - hang | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- fasten | L5:勉强(卡:含attach);例句:能 | L6:能 | L7:OK | L8:合适
+- fasten | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - attach | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - repair | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - create | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -274,29 +274,29 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - weigh | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - count | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sort | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- match | L5:能;例句:勉强(卡:也可能是duckling) | L6:不能(不唯一(也像duckling)) | L7:OK | L8:合适
-- deliver | L5:能;例句:勉强(卡:也可能是package) | L6:不能(不唯一(也像package)) | L7:OK | L8:合适
+- match | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- deliver | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - fetch | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - vanish | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tiny | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - huge | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- enormous | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- enormous | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - narrow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- wide | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- wide | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - steep | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - shallow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - deep | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - thick | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - thin | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- smooth | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- smooth | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - rough | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- sharp | L5:能;例句:勉强(卡:也可能是spill) | L6:不能(不唯一(也像gentle)) | L7:OK | L8:合适
-- dull | L5:能;例句:不能(卡:例句更像scissors) | L6:不能(不唯一(也像scissors)) | L7:OK | L8:合适
-- shiny | L5:勉强(卡:含reflect);例句:能 | L6:能 | L7:OK | L8:合适
-- damp | L5:能;例句:不能(卡:例句更像dew) | L6:不能(不唯一(也像dew)) | L7:OK | L8:合适
-- soaking | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- sharp | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- dull | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- shiny | L5:勉强(卡:reflecting可能不熟);例句:能 | L6:能 | L7:OK | L8:合适
+- damp | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- soaking | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - dry | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- sticky | L5:能;例句:勉强(卡:也可能是hip) | L6:不能(不唯一(也像take)) | L7:OK | L8:合适
+- sticky | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - slimy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - fluffy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - fuzzy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -306,15 +306,15 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - boiling | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - warm | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - fierce | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- gentle | L5:能;例句:勉强(卡:也可能是chick) | L6:能 | L7:OK | L8:合适
-- brave | L5:能;例句:勉强(卡:也可能是cave) | L6:不能(不唯一(也像cave)) | L7:OK | L8:合适
+- gentle | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- brave | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - shy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - proud | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - curious | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- grumpy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- grumpy | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - cheerful | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - lonely | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- calm | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- calm | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - wild | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tame | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - plain | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -326,36 +326,36 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - bitter | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sour | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - salty | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- juicy | L5:能;例句:勉强(卡:也可能是peach) | L6:不能(不唯一(也像chin)) | L7:OK | L8:合适
+- juicy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - crunchy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- creamy | L5:能;例句:勉强(卡:也可能是stew) | L6:能 | L7:OK | L8:合适
-- silent | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- creamy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- silent | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - loud | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - hollow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- solid | L5:能;例句:勉强(卡:也可能是melt) | L6:不能(不唯一(也像melt)) | L7:OK | L8:合适
+- solid | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - loose | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tight | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - crooked | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- straight | L5:能;例句:勉强(卡:也可能是ruler) | L6:不能(不唯一(也像ruler)) | L7:OK | L8:合适
+- straight | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - crowded | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - empty | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- whole | L5:能;例句:勉强(卡:也可能是quarter) | L6:不能(不唯一(也像quarter)) | L7:OK | L8:合适
+- whole | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - spare | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- certain | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- certain | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - strange | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- wonderful | L5:能;例句:不能(卡:多解(≈surprise)) | L6:不能(不唯一(也像surprise)) | L7:OK | L8:合适
+- wonderful | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - terrible | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - perfect | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - ugly | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - beautiful | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- clever | L5:能;例句:能 | L6:能 | L7:注意(武器/捕捉动物) | L8:合适
-- foolish | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- clever | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- foolish | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - greedy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- generous | L5:能;例句:勉强(卡:也可能是extra) | L6:不能(不唯一(也像extra)) | L7:OK | L8:不合适(偏高年级/抽象)
-- patient | L5:勉强(卡:含able);例句:勉强(卡:也可能是look at) | L6:不能(不唯一(也像look at)) | L7:OK | L8:不合适(偏高年级/抽象)
-- stubborn | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- generous | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- patient | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- stubborn | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - lazy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- busy | L5:能;例句:勉强(卡:也可能是honey) | L6:不能(不唯一(也像hive)) | L7:OK | L8:合适
+- busy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - clumsy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - graceful | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - quickly | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -368,9 +368,9 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - almost | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - barely | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - perhaps | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- exactly | L5:能;例句:勉强(卡:也可能是puppy) | L6:不能(不唯一(也像beneath)) | L7:OK | L8:不合适(偏高年级/抽象)
+- exactly | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - instead | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- anyway | L5:能;例句:勉强(卡:也可能是then) | L6:不能(不唯一(也像then)) | L7:OK | L8:合适
+- anyway | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - forever | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - apart | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - together | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -383,166 +383,166 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - beside | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - between | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - among | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- toward | L5:勉强(卡:含direction);例句:能 | L6:能 | L7:OK | L8:合适
+- toward | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - against | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- through | L5:能;例句:不能(卡:例句更像tunnel) | L6:不能(不唯一(也像tunnel)) | L7:OK | L8:合适
+- through | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - across | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- along | L5:能;例句:勉强(卡:也可能是bridge) | L6:不能(不唯一(也像bridge)) | L7:OK | L8:合适
+- along | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - around | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - beyond | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - during | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - until | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - since | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- whether | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- whether | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - while | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - besides | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - within | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - without | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- throughout | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- throughout | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
 - upon | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- pick up | L5:能;例句:勉强(卡:也可能是scattered) | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- put down | L5:勉强(卡:含able);例句:勉强(卡:也可能是drag) | L6:不能(不唯一(也像drag)) | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- look at | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- come back | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- sit down | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- stand up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- wake up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- give up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- find out | L5:能;例句:勉强(卡:也可能是sandwich) | L6:不能(不唯一(也像drawer)) | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- turn off | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- turn on | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- fall down | L5:能;例句:勉强(卡:也可能是crawl) | L6:不能(不唯一(也像crawl)) | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- get up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- look out | L5:能;例句:勉强(卡:也可能是sudden) | L6:不能(不唯一(也像sudden)) | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- hold on | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- clean up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- hurry up | L5:能;例句:勉强(卡:也可能是melt) | L6:不能(不唯一(也像huge)) | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- calm down | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- try on | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- throw away | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- run out | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- come in | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- go away | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- show off | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- figure out | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词(可保留但建议后置))
-- excited | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- pick up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- put down | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- look at | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- come back | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- sit down | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- stand up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- wake up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- give up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- find out | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- turn off | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- turn on | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- fall down | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- get up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- look out | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- hold on | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- clean up | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- hurry up | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- calm down | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- try on | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- throw away | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- run out | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- come in | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- go away | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- show off | L5:勉强(卡:impress可能不熟);例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- figure out | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(短语动词/短语, 需要先学基础动词+介词/副词)
+- excited | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - nervous | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- frightened | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- surprised | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- confused | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- disappointed | L5:能;例句:勉强(卡:也可能是weekly) | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- frustrated | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- jealous | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- embarrassed | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- worried | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- grateful | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- annoyed | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- bored | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- amazed | L5:能;例句:勉强(卡:也可能是vanish) | L6:能 | L7:OK | L8:合适
-- terrified | L5:能;例句:不能(卡:例句更像thunder) | L6:不能(不唯一(也像thunder)) | L7:OK | L8:合适
-- furious | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- miserable | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- relieved | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- peaceful | L5:能;例句:勉强(卡:也可能是tiptoe) | L6:不能(不唯一(也像content)) | L7:OK | L8:不合适(偏高年级/抽象)
-- comfortable | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- uncomfortable | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- exhausted | L5:能;例句:勉强(卡:也可能是caterpillar) | L6:不能(不唯一(也像lazy)) | L7:OK | L8:不合适(偏高年级/抽象)
-- delighted | L5:能;例句:勉强(卡:也可能是surprise) | L6:不能(不唯一(也像surprise)) | L7:OK | L8:不合适(偏高年级/抽象)
-- gloomy | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- hopeful | L5:能;例句:勉强(卡:也可能是lazy) | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- frightened | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
+- surprised | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- confused | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- disappointed | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
+- frustrated | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
+- jealous | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- embarrassed | L5:勉强(卡:clumsy可能不熟);例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
+- worried | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- grateful | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- annoyed | L5:勉强(卡:irritated可能不熟);例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- bored | L5:勉强(卡:interested可能不熟);例句:能 | L6:能 | L7:OK | L8:合适
+- amazed | L5:勉强(卡:surprised可能不熟);例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- terrified | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- furious | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- miserable | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- relieved | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- peaceful | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- comfortable | L5:能;例句:能 | L6:能 | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
+- uncomfortable | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:偏难(词形长/抽象, 可能更像Level2)
+- exhausted | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- delighted | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- gloomy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- hopeful | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - cranky | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - content | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - eager | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- homesick | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- ashamed | L5:能;例句:勉强(卡:也可能是sandwich) | L6:不能(不唯一(也像dozen)) | L7:注意(撒谎情节) | L8:不合适(偏高年级/抽象)
+- homesick | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- ashamed | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - before | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - after | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - next | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - then | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- finally | L5:能;例句:勉强(卡:也可能是often) | L6:不能(不唯一(也像often)) | L7:OK | L8:合适
-- meanwhile | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- soon | L5:能;例句:勉强(卡:也可能是glance) | L6:不能(不唯一(也像until)) | L7:OK | L8:合适
-- later | L5:能;例句:不能(卡:例句更像promise) | L6:不能(不唯一(也像promise)) | L7:OK | L8:合适
+- finally | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- meanwhile | L5:勉强(卡:situation可能不熟);例句:能 | L6:能 | L7:OK | L8:合适
+- soon | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- later | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - early | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- late | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- late | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - beginning | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- middle | L5:能;例句:勉强(卡:也可能是strange) | L6:不能(不唯一(也像loudly)) | L7:OK | L8:合适
+- middle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - ending | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- moment | L5:能;例句:勉强(卡:也可能是lace) | L6:能 | L7:OK | L8:合适
+- moment | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sudden | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- recent | L5:能;例句:勉强(卡:也可能是chalk) | L6:不能(不唯一(也像chalk)) | L7:OK | L8:合适
+- recent | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - daily | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - weekly | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - whenever | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - once | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- twice | L5:能;例句:不能(卡:例句更像fist) | L6:不能(不唯一(也像fist)) | L7:OK | L8:合适
-- often | L5:能;例句:勉强(卡:也可能是several) | L6:不能(不唯一(也像several)) | L7:OK | L8:合适
-- nowadays | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- twice | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- often | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- nowadays | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - dozen | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- half | L5:能;例句:勉强(卡:也可能是quarter) | L6:不能(不唯一(也像quarter)) | L7:OK | L8:合适
-- pair | L5:能;例句:勉强(卡:也可能是try on) | L6:能 | L7:OK | L8:合适
-- entire | L5:能;例句:勉强(卡:也可能是chapter) | L6:不能(不唯一(也像chapter)) | L7:OK | L8:合适
-- double | L5:能;例句:勉强(卡:也可能是scoop) | L6:不能(不唯一(也像scoop)) | L7:OK | L8:合适
+- half | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- pair | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- entire | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- double | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - single | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- plenty | L5:勉强(卡:含enough);例句:能 | L6:能 | L7:OK | L8:合适
-- several | L5:能;例句:勉强(卡:也可能是often) | L6:不能(不唯一(也像often)) | L7:OK | L8:合适
+- plenty | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- several | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - few | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- many | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- many | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - none | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - bunch | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pile | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - heap | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- piece | L5:能;例句:勉强(卡:也可能是slice) | L6:不能(不唯一(也像slice)) | L7:OK | L8:合适
-- portion | L5:勉强(卡:含amount);例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- amount | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- piece | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- portion | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- amount | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - total | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - extra | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - enough | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- less | L5:勉强(卡:含amount);例句:能 | L6:能 | L7:OK | L8:合适
-- more | L5:勉强(卡:含amount);例句:勉强(卡:也可能是slice) | L6:不能(不唯一(也像piece)) | L7:OK | L8:合适
-- quarter | L5:能;例句:勉强(卡:也可能是half) | L6:不能(不唯一(也像half)) | L7:OK | L8:合适
-- equal | L5:勉强(卡:含amount);例句:能 | L6:能 | L7:OK | L8:合适
-- average | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- shadow | L5:能;例句:勉强(卡:也可能是lizard) | L6:能 | L7:OK | L8:合适
+- less | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- more | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- quarter | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- equal | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
+- average | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- shadow | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - echo | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- secret | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:合适
-- surprise | L5:能;例句:勉强(卡:也可能是wonderful) | L6:不能(不唯一(也像wonderful)) | L7:OK | L8:合适
+- secret | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- surprise | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - mistake | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - adventure | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - treasure | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - journey | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - village | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- dock | L5:勉强(卡:含platform);例句:能 | L6:能 | L7:OK | L8:合适
+- dock | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - crowd | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - trail | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - footprint | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pattern | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- riddle | L5:能;例句:勉强(卡:也可能是puppy) | L6:不能(不唯一(也像figure out)) | L7:OK | L8:合适
-- poem | L5:能;例句:勉强(卡:也可能是kitten) | L6:不能(不唯一(也像beneath)) | L7:OK | L8:合适
+- riddle | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- poem | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
 - tale | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- legend | L5:能;例句:能 | L6:能 | L7:注意(幻想怪物(可接受但敏感家长可能介意)) | L8:不合适(偏高年级/抽象)
-- character | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- chapter | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- legend | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- character | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- chapter | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - title | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- author | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- author | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - paw | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - claw | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - feather | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- fur | L5:能;例句:勉强(卡:也可能是fluffy) | L6:不能(不唯一(也像fluffy)) | L7:OK | L8:合适
-- scale | L5:勉强(卡:含measure);例句:能 | L6:能 | L7:OK | L8:合适
+- fur | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- scale | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - wing | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - beak | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - nest | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - hive | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- den | L5:能;例句:勉强(卡:也可能是cave) | L6:不能(不唯一(也像cave)) | L7:OK | L8:合适
-- burrow | L5:能;例句:勉强(卡:也可能是bunny) | L6:能 | L7:OK | L8:合适
-- trap | L5:能;例句:勉强(卡:也可能是sideways) | L6:不能(不唯一(也像sideways)) | L7:注意(武器/捕捉动物) | L8:可用但注意(语义偏暴力/家长敏感)
+- den | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- burrow | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- trap | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - leash | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tag | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - whisker | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- tail | L5:能;例句:勉强(卡:也可能是puppy) | L6:不能(不唯一(也像puppy)) | L7:OK | L8:合适
+- tail | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - hoof | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- mane | L5:能;例句:勉强(卡:也可能是storm) | L6:不能(不唯一(也像storm)) | L7:OK | L8:合适
+- mane | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - flock | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - herd | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - pack | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -551,34 +551,34 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - bubble | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - flame | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - spark | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- smoke | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- ash | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- dawn | L5:能;例句:不能(卡:例句更像rooster) | L6:能 | L7:OK | L8:合适
-- dusk | L5:能;例句:勉强(卡:也可能是worm) | L6:能 | L7:OK | L8:合适
+- smoke | L5:能;例句:能 | L6:能 | L7:OK(建议图像/例句避开吸烟语境, 用chimney/campfire) | L8:合适
+- ash | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- dawn | L5:能;例句:勉强(卡:遮词后线索少) | L6:不能(不唯一(遮词后线索少, 多词可填)) | L7:OK | L8:合适
+- dusk | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - midnight | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - noon | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- passenger | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- passenger | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - neighbor | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- stranger | L5:能;例句:能 | L6:能 | L7:注意(陌生人安全(正向提醒)) | L8:合适
+- stranger | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - parade | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- audience | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- audience | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - crew | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - coach | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - chef | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- mayor | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
-- inventor | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- mayor | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- inventor | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - princess | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - knight | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- wizard | L5:能;例句:能 | L6:能 | L7:注意(幻想怪物(可接受但敏感家长可能介意)) | L8:合适
-- giant | L5:能;例句:能 | L6:能 | L7:注意(幻想怪物(可接受但敏感家长可能介意)) | L8:合适
-- dwarf | L5:能;例句:能 | L6:能 | L7:注意(幻想怪物(可接受但敏感家长可能介意)) | L8:合适
-- monster | L5:能;例句:能 | L6:能 | L7:注意(幻想怪物(可接受但敏感家长可能介意)) | L8:合适
-- dragon | L5:能;例句:能 | L6:能 | L7:注意(幻想怪物(可接受但敏感家长可能介意)) | L8:合适
+- wizard | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- giant | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- dwarf | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- monster | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- dragon | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - fairy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- shield | L5:能;例句:能 | L6:能 | L7:注意(武器/捕捉动物) | L8:可用但注意(语义偏暴力/家长敏感)
-- sword | L5:勉强(卡:抽象);例句:能 | L6:能 | L7:注意(武器/捕捉动物) | L8:可用但注意(语义偏暴力/家长敏感)
+- shield | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- sword | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - wand | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- throne | L5:能;例句:勉强(卡:也可能是princess) | L6:不能(不唯一(也像princess)) | L7:OK | L8:合适
+- throne | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - crown | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - wobble | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - tumble | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
@@ -586,19 +586,19 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - nibble | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - snore | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - yawn | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- shiver | L5:能;例句:勉强(卡:也可能是sparkle) | L6:不能(不唯一(也像sparkle)) | L7:OK | L8:合适
+- shiver | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - bloom | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sprout | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - wilt | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- scattered | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- scattered | L5:能;例句:能 | L6:不能(不唯一(句型太泛, 缺少唯一线索)) | L7:OK | L8:合适
 - rascal | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- gigantic | L5:能;例句:能 | L6:能 | L7:OK | L8:不合适(偏高年级/抽象)
+- gigantic | L5:勉强(卡:extremely可能不熟);例句:能 | L6:能 | L7:OK | L8:合适
 - itsy | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - whirl | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - sparkle | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - flutter | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - hear | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- lose | L5:勉强(卡:含able);例句:能 | L6:能 | L7:OK | L8:合适
+- lose | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - teach | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - take | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - than | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
