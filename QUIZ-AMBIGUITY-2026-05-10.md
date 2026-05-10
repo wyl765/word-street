@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3688 ambiguous pairs found.
+3690 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -13794,6 +13794,14 @@
 - cabal: a small secret group that plans to do something harmful
 - inimical: harmful or hostile to something
 
+## L5: "authenticate" vs "refute" (67%)
+- authenticate: to prove something is real
+- refute: to prove that something is wrong
+
+## L5: "authenticate" vs "validate" (67%)
+- authenticate: to prove something is real
+- validate: to prove that something is correct or acceptable
+
 ## L5: "benevolent" vs "benevolence" (80%)
 - benevolent: kind and generous; wanting to help others
 - benevolence: the quality of being kind and wanting to help others
@@ -13821,10 +13829,6 @@
 ## L5: "culminate" vs "pinnacle" (67%)
 - culminate: to reach the highest point or final result
 - pinnacle: the highest point of achievement
-
-## L5: "curtail" vs "parameter" (67%)
-- curtail: to reduce or limit something
-- parameter: a limit or boundary that defines how something works
 
 ## L5: "curtail" vs "circumscribe" (67%)
 - curtail: to reduce or limit something
@@ -14197,6 +14201,10 @@
 ## L5: "intractable" vs "daunting" (60%)
 - intractable: very difficult to deal with or solve
 - daunting: seeming difficult and scary to deal with
+
+## L5: "lofty" vs "spectacular" (67%)
+- lofty: very high and impressive
+- spectacular: very impressive and eye-catching
 
 ## L5: "modicum" vs "blemish" (67%)
 - modicum: a small amount of something

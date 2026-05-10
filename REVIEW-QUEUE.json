@@ -96,8 +96,9 @@
     {
       "file": "words-level5b.js",
       "words": 251,
-      "status": "pending",
-      "lastReviewRound": null
+      "status": "done",
+      "lastReviewRound": 1,
+      "lastReviewDate": "2026-05-10"
     },
     {
       "file": "words-level5c.js",

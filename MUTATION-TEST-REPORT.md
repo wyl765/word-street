@@ -24,42 +24,42 @@
 
 ## Injected Mutations Detail
 
-- ✅ **palatable** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **injure** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **debilitation** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **disembark** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **benefactor** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **attack** (banned_word): injected "genocide" into example
-- ✅ **manner** (banned_word): injected "massacre" into example
-- ✅ **cynicism** (banned_word): injected "genocide" into example
-- ✅ **altruism** (banned_word): injected "torture" into example
-- ✅ **legitimacy** (banned_word): injected "genocide" into example
-- ✅ **auspicious** (collocation_error): bad collocation: "eat medicine"
-- ✅ **reconciliation** (collocation_error): bad collocation: "open the light"
-- ✅ **altitude** (collocation_error): bad collocation: "close the light"
-- ✅ **lilac** (collocation_error): bad collocation: "eat medicine"
-- ✅ **especially** (collocation_error): bad collocation: "eat medicine"
-- ✅ **gorge** (empty_field): emptied definition
-- ✅ **chase** (empty_field): emptied definition
-- ✅ **bleak** (empty_field): emptied definition
-- ✅ **constitutional** (empty_field): emptied definition
-- ✅ **hold your horses** (empty_field): emptied example
-- ✅ **totalitarian** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **gigantic** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **wait** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **fairy** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **reticent** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **capricious** (grammar_error): example: "She don't like the capricious...."
-- ✅ **yawn** (grammar_error): example: "The childrens played with the yawn...."
-- ✅ **belie** (grammar_error): example: "Her calm smile belied the nervousness she felt inside...."
-- ❌ **culminate** (grammar_error): example: "Months of rehearsal will culminate in the big performance on..."
-- ✅ **result** (grammar_error): example: "They is happy about the result...."
+- ✅ **phase** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **erosion** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **composure** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **delighted** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **reluctant** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **mulberry** (banned_word): injected "massacre" into example
+- ✅ **mask** (banned_word): injected "autopsy" into example
+- ✅ **circulate** (banned_word): injected "massacre" into example
+- ✅ **consist** (banned_word): injected "autopsy" into example
+- ✅ **ludicrous** (banned_word): injected "genocide" into example
+- ✅ **adrift** (collocation_error): bad collocation: "open the light"
+- ✅ **garrulous** (collocation_error): bad collocation: "eat medicine"
+- ✅ **escalate** (collocation_error): bad collocation: "eat medicine"
+- ✅ **seismic** (collocation_error): bad collocation: "open the light"
+- ✅ **deliberate** (collocation_error): bad collocation: "eat medicine"
+- ✅ **geriatric** (empty_field): emptied definition
+- ✅ **gorgeous** (empty_field): emptied example
+- ✅ **emerald** (empty_field): emptied definition
+- ✅ **exclude** (empty_field): emptied definition
+- ✅ **equinox** (empty_field): emptied example
+- ✅ **seclusion** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **crowded** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **mist** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **sleeve** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **basic** (replace_accident): example: "The piano importants were black and white...."
+- ❌ **considerable** (grammar_error): example: "A considerable amount of snow fell overnight...."
+- ✅ **bay** (grammar_error): example: "The childrens played with the bay...."
+- ✅ **futility** (grammar_error): example: "She don't like the futility...."
+- ✅ **crucial** (grammar_error): example: "She don't like the crucial...."
+- ✅ **courage** (grammar_error): example: "She don't like the courage...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **culminate** (grammar_error): example: "Months of rehearsal will culminate in the big performance on..."
+- **considerable** (grammar_error): example: "A considerable amount of snow fell overnight...."
 
 ### Recommended Improvements
 

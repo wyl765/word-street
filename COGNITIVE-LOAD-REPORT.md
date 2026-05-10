@@ -2,8 +2,8 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 424
-- MAJOR (≥3 超纲词 in definition): 2148
+- CRITICAL (≥5 超纲词 in definition): 425
+- MAJOR (≥3 超纲词 in definition): 2149
 
 ## Issues
 
@@ -1398,6 +1398,10 @@
 ### 🔴 [CRITICAL] franchise (L5)
 - **Definition:** "a business given permission to sell another company's products"
 - **超纲词 (5):** business, given, sell, company's, products
+
+### 🔴 [CRITICAL] portfolio (L5)
+- **Definition:** "a collection of someone's work, shown to others"
+- **超纲词 (5):** collection, someone's, work, shown, others
 
 ### 🔴 [CRITICAL] bombastic (L5)
 - **Definition:** "using impressive words that sound important but mean little"
@@ -8459,6 +8463,10 @@
 - **Definition:** "the process of asking questions to find answers or info"
 - **超纲词 (4):** asking, questions, answers, info
 
+### 🟡 [MAJOR] leverage (L5)
+- **Definition:** "the advantage or power that helps you influence a situation"
+- **超纲词 (3):** power, helps, situation
+
 ### 🟡 [MAJOR] locomotive (L5)
 - **Definition:** "the engine that pulls a train"
 - **超纲词 (3):** engine, pulls, train
@@ -8490,10 +8498,6 @@
 ### 🟡 [MAJOR] participation (L5)
 - **Definition:** "joining in and being part of an activity"
 - **超纲词 (4):** joining, being, part, activity
-
-### 🟡 [MAJOR] portfolio (L5)
-- **Definition:** "a set of work or investments"
-- **超纲词 (3):** set, work, investments
 
 ### 🟡 [MAJOR] recession (L5)
 - **Definition:** "a period when the economy shrinks and people have less money"
@@ -8584,8 +8588,8 @@
 - **超纲词 (3):** give, false, impression
 
 ### 🟡 [MAJOR] bereft (L5)
-- **Definition:** "lacking something needed; deprived"
-- **超纲词 (3):** lacking, needed, deprived
+- **Definition:** "missing something important; without what you need"
+- **超纲词 (3):** missing, important, need
 
 ### 🟡 [MAJOR] blatant (L5)
 - **Definition:** "very clear and done without shame"
@@ -8614,6 +8618,10 @@
 ### 🟡 [MAJOR] equivocal (L5)
 - **Definition:** "unclear or having more than one meaning"
 - **超纲词 (4):** unclear, having, one, meaning
+
+### 🟡 [MAJOR] felicitous (L5)
+- **Definition:** "well chosen; perfectly suited"
+- **超纲词 (3):** chosen, perfectly, suited
 
 ### 🟡 [MAJOR] fickle (L5)
 - **Definition:** "changing opinions or loyalty a lot"
@@ -8660,8 +8668,8 @@
 - **超纲词 (3):** wrong, inaccurate, name
 
 ### 🟡 [MAJOR] obtuse (L5)
-- **Definition:** "slow to understand; not sharp-minded"
-- **超纲词 (3):** slow, understand, sharp-minded
+- **Definition:** "slow to understand; missing obvious hints"
+- **超纲词 (4):** slow, understand, missing, hints
 
 ### 🟡 [MAJOR] omnipotent (L5)
 - **Definition:** "having unlimited power"

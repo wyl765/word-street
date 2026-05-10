@@ -3,8 +3,8 @@
 ## Summary
 - HIGH risk (3+ factors): 189
 - MEDIUM risk (2 factors): 1235
-- LOW risk (1 factor): 53980
-- Total interference pairs: 55404
+- LOW risk (1 factor): 53982
+- Total interference pairs: 55406
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -38643,6 +38643,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L5: **austere** ↔ **autocracy** — phonetic (onset="au")
 - **[risk=1]** L5: **austere** ↔ **audacity** — phonetic (onset="au")
 - **[risk=1]** L5: **austere** ↔ **autonomy** — phonetic (onset="au")
+- **[risk=1]** L5: **authenticate** ↔ **refute** — definition (Jaccard=50%)
 - **[risk=1]** L5: **authenticate** ↔ **authoritative** — phonetic (onset="au")
 - **[risk=1]** L5: **authenticate** ↔ **automation** — phonetic (onset="au")
 - **[risk=1]** L5: **authenticate** ↔ **auspicious** — phonetic (onset="au")
@@ -43425,6 +43426,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L5: **levity** ↔ **lethargy** — phonetic (onset="le")
 - **[risk=1]** L5: **levity** ↔ **lexicon** — phonetic (onset="le")
 - **[risk=1]** L5: **levity** ↔ **lenient** — phonetic (onset="le")
+- **[risk=1]** L5: **lofty** ↔ **spectacular** — definition (Jaccard=50%)
 - **[risk=1]** L5: **ludicrous** ↔ **luminous** — phonetic (onset="lu")
 - **[risk=1]** L5: **malign** ↔ **maneuver** — phonetic (onset="ma")
 - **[risk=1]** L5: **malign** ↔ **martial** — phonetic (onset="ma")
