@@ -3,7 +3,7 @@
 Target: words-level5c.js
 Entries: 328
 
-Legend: ✅ ok | ❌ fix needed | ⚠️ uncertain
+Legend: ✅ ok | ⚠️ uncertain
 
 ✅ abolition — def: "the act of officially ending a law, rule, or practice" | ex: "The abolition of slavery was one of the most important events in American history." | img: "freedom chains" | noun-style definition; act framing; longer example
 ✅ abrupt — def: "sudden and unexpected" | ex: "The abrupt stop of the bus made everyone lurch forward." | img: "sudden stop" | direct definition; compact example; image keyword is focused
