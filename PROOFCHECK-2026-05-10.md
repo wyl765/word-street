@@ -1,14 +1,18 @@
 # Proofcheck Report — 2026-05-10
 
 **Engine:** proofcheck.mjs v1.0
-**Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 111 MINOR
+**Entries:** 5204
+**Results:** 0 CRITICAL | 0 MAJOR | 110 MINOR
 
 ## Issues
 
 ### [MINOR] words-level5c.js — "calligraphy" (SUBJECTIVE_DEF)
 Definition contains subjective adjective "beautiful": "the art of writing letters in a very careful and beautiful way"
 **Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level1.js — "lemon" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "lemon" def contains "sour" and "sour" def contains "lemon" (both L1)
+**Fix:** Break the cycle: at least one definition should not reference the other word
 
 ### [MINOR] words-level1.js — "less" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a smaller amount of something..."
@@ -282,10 +286,6 @@ L1 definition uses "toward" which is also an L1 word (core position)
 L1 definition uses "discover" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
-### [MINOR] words-level1.js — "nervous" (SAME_LEVEL_DEF_REF)
-L1 definition uses "worried" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
 ### [MINOR] words-level1.js — "amazed" (SAME_LEVEL_DEF_REF)
 L1 definition uses "surprised" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -340,10 +340,6 @@ L1 definition uses "design" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "claw" (SAME_LEVEL_DEF_REF)
 L1 definition uses "sharp" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "scale" (SAME_LEVEL_DEF_REF)
-L1 definition uses "measure" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "hive" (SAME_LEVEL_DEF_REF)
