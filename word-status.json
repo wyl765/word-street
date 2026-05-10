@@ -134,13 +134,13 @@
     },
     "words-level5a.js": {
       "totalWords": 232,
-      "currentGate": 3,
+      "currentGate": 6,
       "gate1": "pass",
       "gate2": "pass",
-      "gate3": "pending",
-      "gate4": "pending",
-      "gate5": "pending",
-      "gate6": "pending"
+      "gate3": "pass",
+      "gate4": "pass",
+      "gate5": "pass",
+      "gate6": "pass"
     },
     "words-level5b.js": {
       "totalWords": 251,
