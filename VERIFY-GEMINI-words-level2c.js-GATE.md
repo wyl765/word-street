@@ -1,223 +1,221 @@
-# VERIFY-GEMINI-words-level2c.js-GATE
+# Gemini Review for words-level2c.js
 
-| Word | imageKeyword (L9) | Definition (L10) | Polysemy (L11) | Game Compat (L12) | Status |
-|---|---|---|---|---|---|
-| **achieve** | Pass: "trophy winner" | Pass | Pass | Pass | ✅ PASS |
-| **adjust** | Pass: "adjusting knob" | Pass | Pass | Pass | ✅ PASS |
-| **adopt** | Pass: "adopting puppy" | Pass | Pass | Pass | ✅ PASS |
-| **affect** | Pass: "rain plans" | Pass | Pass | Pass | ✅ PASS |
-| **afford** | Pass: "piggy bank" | Pass | Pass | Pass | ✅ PASS |
-| **alarm** | Pass: "fire alarm" | Pass | Pass | Pass | ✅ PASS |
-| **alert** | Pass: "alert dog" | Pass | Pass | Pass | ✅ PASS |
-| **allowance** | Pass: "coins allowance" | Pass | Pass | Pass | ✅ PASS |
-| **amaze** | Pass: "jaw dropping surprised" | Pass | Pass | Pass | ✅ PASS |
-| **appeal** | Pass: "asking please" | Pass | Pass | Pass | ✅ PASS |
-| **appetite** | Pass: "hungry stomach" | Pass | Pass | Pass | ✅ PASS |
-| **applaud** | Pass: "clapping hands" | Pass | Pass | Pass | ✅ PASS |
-| **appropriate** | Pass: "right clothes" | Pass | Pass | Pass | ✅ PASS |
-| **assist** | Pass: "helping hand" | Pass | Pass | Pass | ✅ PASS |
-| **assume** | Pass: "guessing think" | Pass | Pass | Pass | ✅ PASS |
-| **assure** | Pass: "comforting hug" | Pass | Pass | Pass | ✅ PASS |
-| **authority** | Pass: "lifeguard whistle" | Pass | Pass | Pass | ✅ PASS |
-| **available** | Pass: "empty seat" | Pass | Pass | Pass | ✅ PASS |
-| **aware** | Pass: "looking around" | Pass | Pass | Pass | ✅ PASS |
-| **ballot** | Pass: "voting paper" | Pass | Pass | Pass | ✅ PASS |
-| **ban** | Pass: "banned skateboard sign" | Pass | Pass | Pass | ✅ PASS |
-| **barrier** | Pass: "fence barrier" | Pass | Pass | Pass | ✅ PASS |
-| **blame** | Pass: "pointing finger" | Pass | Pass | Pass | ✅ PASS |
-| **blend** | Pass: "blending smoothie" | Pass | Pass | Pass | ✅ PASS |
-| **bother** | Pass: "annoying poke" | Pass | Pass | Pass | ✅ PASS |
-| **caution** | Pass: "careful warning" | Pass | Pass | Pass | ✅ PASS |
-| **century** | Pass: "old tree" | Pass | Pass | Pass | ✅ PASS |
-| **champion** | Pass: "gold medal" | Pass | Pass | Pass | ✅ PASS |
-| **charm** | Pass: "cute kitten" | Pass | Pass | Pass | ✅ PASS |
-| **circulate** | Pass: "circulation cycle diagram" | Pass | Pass | Pass | ✅ PASS |
-| **circumstance** | Pass: "situation context" | Pass | Pass | Pass | ✅ PASS |
-| **commit** | Pass: "promise pinky" | Pass | Pass | Pass | ✅ PASS |
-| **communicate** | Pass: "dolphins talking" | Pass | Pass | Pass | ✅ PASS |
-| **compassion** | Pass: "kind helping" | Pass | Pass | Pass | ✅ PASS |
-| **compete** | Pass: "racing runners" | Pass | Pass | Pass | ✅ PASS |
-| **complex** | Pass: "complex puzzle" | Pass | Pass | Pass | ✅ PASS |
-| **concern** | Pass: "worried face" | Pass | Pass | Pass | ✅ PASS |
-| **confirm** | Pass: "checkmark confirm" | Pass | Pass | Pass | ✅ PASS |
-| **conquer** | Pass: "climbing victory" | Pass | Pass | Pass | ✅ PASS |
-| **conscious** | Pass: "awake aware" | Pass | Pass | Pass | ✅ PASS |
-| **conserve** | Pass: "saving water" | Pass | Pass | Pass | ✅ PASS |
-| **consist** | Pass: "salad ingredients" | Pass | Pass | Pass | ✅ PASS |
-| **constant** | Pass: "dripping faucet" | Pass | Pass | Pass | ✅ PASS |
-| **construct** | Pass: "building construction" | Pass | Pass | Pass | ✅ PASS |
-| **contain** | Pass: "box contents" | Pass | Pass | Pass | ✅ PASS |
-| **contest** | Pass: "competition trophy" | Pass | Pass | Pass | ✅ PASS |
-| **contrast** | Pass: "black white" | Pass | Pass | Pass | ✅ PASS |
-| **contribute** | Pass: "donating food" | Pass | Pass | Pass | ✅ PASS |
-| **convenient** | Pass: "nearby store" | Pass | Pass | Pass | ✅ PASS |
-| **core** | Pass: "apple core" | Pass | Pass | Pass | ✅ PASS |
-| **courteous** | Pass: "polite greeting bow" | Pass | Pass | Pass | ✅ PASS |
-| **credit** | Pass: "trophy award" | Pass | Pass | Pass | ✅ PASS |
-| **crisis** | Pass: "flood crisis" | Pass | Pass | Pass | ✅ PASS |
-| **critical** | Pass: "water important" | Pass | Pass | Pass | ✅ PASS |
-| **debate** | Pass: "debate podium" | Pass | Pass | Pass | ✅ PASS |
-| **decade** | Pass: "ten calendar" | Pass | Pass | Pass | ✅ PASS |
-| **decline** | Pass: "person declining invitation" | Pass | Pass | Pass | ✅ PASS |
-| **dedicate** | Pass: "focused practice" | Pass | Pass | Pass | ✅ PASS |
-| **definite** | Pass: "certain checkmark" | Pass | Pass | Pass | ✅ PASS |
-| **deliberate** | Pass: "on purpose" | Pass | Pass | Pass | ✅ PASS |
-| **deposit** | Pass: "coins dropping into jar" | Pass | Pass | Pass | ✅ PASS |
-| **deserve** | Pass: "earned reward" | Pass | Pass | Pass | ✅ PASS |
-| **desire** | Pass: "wishing star" | Pass | Pass | Pass | ✅ PASS |
-| **desperate** | Pass: "thirsty desert" | Pass | Pass | Pass | ✅ PASS |
-| **detect** | Pass: "detective magnifier" | Pass | Pass | Pass | ✅ PASS |
-| **determine** | Pass: "deciding gavel" | Pass | Pass | Pass | ✅ PASS |
-| **dignity** | Pass: "respectful handshake" | Pass | Pass | Pass | ✅ PASS |
-| **dilemma** | Pass: "two choices" | Pass | Pass | Pass | ✅ PASS |
-| **dimension** | Pass: "measuring box" | Pass | Pass | Pass | ✅ PASS |
-| **discipline** | Pass: "practice routine" | Pass | Pass | Pass | ✅ PASS |
-| **discourage** | Pass: "sad then hopeful" | Pass | Pass | Pass | ✅ PASS |
-| **display** | Pass: "museum display" | Pass | Pass | Pass | ✅ PASS |
-| **dispute** | Pass: "arguing neighbors" | Pass | Pass | Pass | ✅ PASS |
-| **distinct** | Pass: "unique snowflake" | Pass | Pass | Pass | ✅ PASS |
-| **distinguish** | Pass: "spot difference" | Pass | Pass | Pass | ✅ PASS |
-| **distribute** | Pass: "passing papers classroom" | Pass | Pass | Pass | ✅ PASS |
-| **division** | Pass: "dividing equally" | Pass | Pass | Pass | ✅ PASS |
-| **document** | Pass: "official paper" | Pass | Pass | Pass | ✅ PASS |
-| **doubt** | Pass: "question mark" | Pass | Pass | Pass | ✅ PASS |
-| **drama** | Pass: "theater stage" | Pass | Pass | Pass | ✅ PASS |
-| **drastic** | Pass: "big change" | Pass | Pass | Pass | ✅ PASS |
-| **dread** | Pass: "scared face" | Pass | Pass | Pass | ✅ PASS |
-| **duty** | Pass: "responsibility badge" | Pass | Pass | Pass | ✅ PASS |
-| **edible** | Pass: "edible berries" | Pass | Pass | Pass | ✅ PASS |
-| **efficient** | Pass: "organized efficient" | Pass | Pass | Pass | ✅ PASS |
-| **elaborate** | Pass: "fancy cake" | Pass | Pass | Pass | ✅ PASS |
-| **eliminate** | Pass: "pulling weeds" | Pass | Pass | Pass | ✅ PASS |
-| **embarrass** | Pass: "blushing face" | Pass | Pass | Pass | ✅ PASS |
-| **emerge** | Pass: "emerging butterfly" | Pass | Pass | Pass | ✅ PASS |
-| **emotion** | Pass: "feeling faces" | Pass | Pass | Pass | ✅ PASS |
-| **emphasis** | Pass: "underline important" | Pass | Pass | Pass | ✅ PASS |
-| **enable** | Pass: "wheelchair ramp" | Pass | Pass | Pass | ✅ PASS |
-| **encounter** | Pass: "meeting deer" | Pass | Pass | Pass | ✅ PASS |
-| **endure** | Pass: "hiking perseverance" | Pass | Pass | Pass | ✅ PASS |
-| **ensure** | Pass: "double checking" | Pass | Pass | Pass | ✅ PASS |
-| **environment** | Pass: "green earth" | Pass | Pass | Pass | ✅ PASS |
-| **error** | Pass: "erasing mistake" | Pass | Pass | Pass | ✅ PASS |
-| **evaluate** | Pass: "judging art" | Pass | Pass | Pass | ✅ PASS |
-| **evident** | Pass: "obvious smile" | Pass | Pass | Pass | ✅ PASS |
-| **evolve** | Pass: "evolution change" | Pass | Pass | Pass | ✅ PASS |
-| **exaggerate** | Pass: "big fish story" | Pass | Pass | Pass | ✅ PASS |
-| **excellent** | Pass: "star excellent" | Pass | Pass | Pass | ✅ PASS |
-| **exception** | Pass: "special case" | Pass | Pass | Pass | ✅ PASS |
-| **excess** | Pass: "overflowing cup" | Pass | Pass | Pass | ✅ PASS |
-| **exclude** | Pass: "left out" | Pass | Pass | Pass | ✅ PASS |
-| **exhibit** | Pass: "museum exhibit" | Pass | Pass | Pass | ✅ PASS |
-| **expand** | Pass: "expanding balloon" | Pass | Pass | Pass | ✅ PASS |
-| **expedition** | Pass: "arctic expedition" | Pass | Pass | Pass | ✅ PASS |
-| **expense** | Pass: "money spending" | Pass | Pass | Pass | ✅ PASS |
-| **expertise** | Pass: "expert chef" | Pass | Pass | Pass | ✅ PASS |
-| **exploit** | Pass: "unfair shortcut" | Pass | Pass | Pass | ✅ PASS |
-| **expose** | Pass: "uncovering hidden" | Pass | Pass | Pass | ✅ PASS |
-| **extend** | Pass: "stretching longer" | Pass | Pass | Pass | ✅ PASS |
-| **extreme** | Pass: "icicles cold" | Pass | Pass | Pass | ✅ PASS |
-| **factor** | Pass: "puzzle piece" | Pass | Pass | Pass | ✅ PASS |
-| **famine** | Pass: "dry empty field" | Pass | Pass | Pass | ✅ PASS |
-| **fascinate** | Pass: "amazed watching" | Pass | Pass | Pass | ✅ PASS |
-| **fatal** | Pass: "warning sign danger" | Pass | Pass | Pass | ✅ PASS |
-| **fate** | Pass: "crystal ball" | Pass | Pass | Pass | ✅ PASS |
-| **fault** | Pass: "broken vase" | Pass | Pass | Pass | ✅ PASS |
-| **feature** | Pass: "playground slide" | Pass | Pass | Pass | ✅ PASS |
-| **ferry** | Pass: "ferry boat" | Pass | Pass | Pass | ✅ PASS |
-| **flourish** | Pass: "thriving garden" | Pass | Pass | Pass | ✅ PASS |
-| **focus** | Pass: "focused eyes" | Pass | Pass | Pass | ✅ PASS |
-| **forbid** | Pass: "no running sign" | Pass | Pass | Pass | ✅ PASS |
-| **forecast** | Pass: "weather forecast" | Pass | Pass | Pass | ✅ PASS |
-| **fortune** | Pass: "treasure chest" | Pass | Pass | Pass | ✅ PASS |
-| **fragment** | Pass: "broken pieces" | Pass | Pass | Pass | ✅ PASS |
-| **frequent** | Pass: "rainy spring" | Pass | Pass | Pass | ✅ PASS |
-| **frontier** | Pass: "space frontier" | Pass | Pass | Pass | ✅ PASS |
-| **fulfill** | Pass: "kept promise" | Pass | Pass | Pass | ✅ PASS |
-| **function** | Pass: "bridge function" | Pass | Pass | Pass | ✅ PASS |
-| **fundamental** | Pass: "building foundation" | Pass | Pass | Pass | ✅ PASS |
-| **fund** | Pass: "lemonade stand" | Pass | Pass | Pass | ✅ PASS |
-| **grace** | Pass: "graceful dancer" | Pass | Pass | Pass | ✅ PASS |
-| **gradual** | Pass: "leaves changing" | Pass | Pass | Pass | ✅ PASS |
-| **guarantee** | Pass: "promise seal" | Pass | Pass | Pass | ✅ PASS |
-| **halt** | Pass: "stop hand" | Pass | Pass | Pass | ✅ PASS |
-| **hazard** | Pass: "icy danger" | Pass | Pass | Pass | ✅ PASS |
-| **ideal** | Pass: "perfect day" | Pass | Pass | Pass | ✅ PASS |
-| **illustrate** | Pass: "drawing illustration" | Pass | Pass | Pass | ✅ PASS |
-| **image** | Pass: "picture screen" | Pass | Pass | Pass | ✅ PASS |
-| **immediate** | Pass: "alarm clock now" | Pass | Pass | Pass | ✅ PASS |
-| **impact** | Pass: "earth recycling" | Pass | Pass | Pass | ✅ PASS |
-| **imply** | Pass: "knowing smile" | Pass | Pass | Pass | ✅ PASS |
-| **impress** | Pass: "impressed judges" | Pass | Pass | Pass | ✅ PASS |
-| **incident** | Pass: "playground report clipboard" | Pass | Pass | Pass | ✅ PASS |
-| **indicate** | Pass: "arrow pointing" | Pass | Pass | Pass | ✅ PASS |
-| **individual** | Pass: "one person" | Pass | Pass | Pass | ✅ PASS |
-| **inform** | Pass: "news announcement" | Pass | Pass | Pass | ✅ PASS |
-| **inhabit** | Pass: "fish reef" | Pass | Pass | Pass | ✅ PASS |
-| **initial** | Pass: "first reaction" | Pass | Pass | Pass | ✅ PASS |
-| **injure** | Pass: "hurt ankle" | Pass | Pass | Pass | ✅ PASS |
-| **inquire** | Pass: "asking question" | Pass | Pass | Pass | ✅ PASS |
-| **inspire** | Pass: "inspired lightbulb" | Pass | Pass | Pass | ✅ PASS |
-| **instance** | Pass: "example case" | Pass | Pass | Pass | ✅ PASS |
-| **instinct** | Pass: "bird migrating" | Pass | Pass | Pass | ✅ PASS |
-| **institution** | Pass: "library building" | Pass | Pass | Pass | ✅ PASS |
-| **integrate** | Pass: "joining group" | Pass | Pass | Pass | ✅ PASS |
-| **intense** | Pass: "hot sun intense" | Pass | Pass | Pass | ✅ PASS |
-| **interact** | Pass: "people talking" | Pass | Pass | Pass | ✅ PASS |
-| **introduce** | Pass: "meeting introduction" | Pass | Pass | Pass | ✅ PASS |
-| **invade** | Pass: "ants invading" | Pass | Pass | Pass | ✅ PASS |
-| **involve** | Pass: "joining group activity" | Pass | Pass | Pass | ✅ PASS |
-| **issue** | Pass: "problem discussion" | Pass | Pass | Pass | ✅ PASS |
-| **item** | Pass: "list item" | Pass | Pass | Pass | ✅ PASS |
-| **journal** | Pass: "writing journal" | Pass | Pass | Pass | ✅ PASS |
-| **justify** | Pass: "good reason" | Pass | Pass | Pass | ✅ PASS |
-| **lack** | Pass: "dry plant" | Pass | Pass | Pass | ✅ PASS |
-| **launch** | Pass: "rocket launch" | Pass | Pass | Pass | ✅ PASS |
-| **layer** | Pass: "layered cake" | Pass | Pass | Pass | ✅ PASS |
-| **lecture** | Pass: "teacher lecturing" | Pass | Pass | Pass | ✅ PASS |
-| **leisure** | Pass: "relaxing hammock" | Pass | Pass | Pass | ✅ PASS |
-| **liable** | Pass: "responsible person" | Pass | Pass | Pass | ✅ PASS |
-| **liberty** | Pass: "statue liberty" | Pass | Pass | Pass | ✅ PASS |
-| **license** | Pass: "driver license" | Pass | Pass | Pass | ✅ PASS |
-| **link** | Pass: "chain link" | Pass | Pass | Pass | ✅ PASS |
-| **literal** | Pass: "exact words" | Pass | Pass | Pass | ✅ PASS |
-| **locate** | Pass: "finding map" | Pass | Pass | Pass | ✅ PASS |
-| **logic** | Pass: "thinking steps" | Pass | Pass | Pass | ✅ PASS |
-| **luxury** | Pass: "fancy pool" | Pass | Pass | Pass | ✅ PASS |
-| **majority** | Pass: "crowd voting raised hands" | Pass | Pass | Pass | ✅ PASS |
-| **manage** | Pass: "managing garden" | Pass | Pass | Pass | ✅ PASS |
-| **mature** | Pass: "ripe apple" | Pass | Pass | Pass | ✅ PASS |
-| **maximum** | Pass: "full capacity" | Pass | Pass | Pass | ✅ PASS |
-| **memorial** | Pass: "memorial statue" | Pass | Pass | Pass | ✅ PASS |
-| **mental** | Pass: "glowing brain with gears" | Pass | Pass | Pass | ✅ PASS |
-| **mercy** | Pass: "kind knight" | Pass | Pass | Pass | ✅ PASS |
-| **migrate** | Pass: "geese flying south" | Pass | Pass | Pass | ✅ PASS |
-| **military** | Pass: "fighter jets in formation" | Pass | Pass | Pass | ✅ PASS |
-| **minimum** | Pass: "least amount" | Pass | Pass | Pass | ✅ PASS |
-| **minor** | Pass: "small scratch" | Pass | Pass | Pass | ✅ PASS |
-| **miracle** | Pass: "amazing return" | Pass | Pass | Pass | ✅ PASS |
-| **mission** | Pass: "space mission" | Pass | Pass | Pass | ✅ PASS |
-| **modify** | Pass: "editing drawing" | Pass | Pass | Pass | ✅ PASS |
-| **monitor** | Pass: "checking temperature" | Pass | Pass | Pass | ✅ PASS |
-| **motive** | Pass: "reason why" | Pass | Pass | Pass | ✅ PASS |
-| **mutual** | Pass: "shared interest" | Pass | Pass | Pass | ✅ PASS |
-| **navigate** | Pass: "compass navigation" | Pass | Pass | Pass | ✅ PASS |
-| **neglect** | Pass: "wilting plant" | Pass | Pass | Pass | ✅ PASS |
-| **neutral** | Pass: "balanced scale" | Pass | Pass | Pass | ✅ PASS |
-| **notable** | Pass: "big achievement" | Pass | Pass | Pass | ✅ PASS |
-| **notify** | Pass: "sending notice" | Pass | Pass | Pass | ✅ PASS |
-| **notion** | Pass: "idea lightbulb" | Pass | Pass | Pass | ✅ PASS |
-| **novel** | Pass: "new creative idea" | Pass | Pass | Pass | ✅ PASS |
-| **oath** | Pass: "hand promise" | Pass | Pass | Pass | ✅ PASS |
-| **objective** | Pass: "target goal" | Pass | Pass | Pass | ✅ PASS |
-| **obligation** | Pass: "returning books" | Pass | Pass | Pass | ✅ PASS |
-| **obstacle** | Pass: "blocked path" | Pass | Pass | Pass | ✅ PASS |
-| **obtain** | Pass: "getting card" | Pass | Pass | Pass | ✅ PASS |
-| **occur** | Pass: "earthquake happening" | Pass | Pass | Pass | ✅ PASS |
-| **offense** | Pass: "sorry apologize" | Pass | Pass | Pass | ✅ PASS |
-| **ongoing** | Pass: "building progress" | Pass | Pass | Pass | ✅ PASS |
-| **operate** | Pass: "using computer" | Pass | Pass | Pass | ✅ PASS |
-| **option** | Pass: "menu choices" | Pass | Pass | Pass | ✅ PASS |
-| **origin** | Pass: "cacao beans" | Pass | Pass | Pass | ✅ PASS |
-| **overcome** | Pass: "kid climbing mountain top" | Pass | Pass | Pass | ✅ PASS |
-| **overlook** | Pass: "missing detail" | Pass | Pass | Pass | ✅ PASS |
-| **owe** | Pass: "paying back" | Pass | Pass | Pass | ✅ PASS |
+- achieve: Pass. Image keyword "trophy winner" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- adjust: Pass. Image keyword "adjusting knob" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- adopt: Pass. Image keyword "adopting puppy" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- affect: Pass. Image keyword "rain plans" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- afford: Pass. Image keyword "piggy bank" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- alarm: Pass. Image keyword "fire alarm" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- alert: Pass. Image keyword "alert dog" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- allowance: Pass. Image keyword "coins allowance" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- amaze: Pass. Image keyword "jaw dropping surprised" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- appeal: Pass. Image keyword "asking please" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- appetite: Pass. Image keyword "hungry stomach" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- applaud: Pass. Image keyword "clapping hands" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- appropriate: Pass. Image keyword "right clothes" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- assist: Pass. Image keyword "helping hand" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- assume: Pass. Image keyword "guessing think" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- assure: Pass. Image keyword "comforting hug" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- authority: Pass. Image keyword "lifeguard whistle" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- available: Pass. Image keyword "empty seat" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- aware: Pass. Image keyword "looking around" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- ballot: Pass. Image keyword "voting paper" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- ban: Pass. Image keyword "banned skateboard sign" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- barrier: Pass. Image keyword "fence barrier" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- blame: Pass. Image keyword "pointing finger" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- blend: Pass. Image keyword "blending smoothie" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- bother: Pass. Image keyword "annoying poke" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- caution: Pass. Image keyword "careful warning" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- century: Pass. Image keyword "old tree" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- champion: Pass. Image keyword "gold medal" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- charm: Pass. Image keyword "cute kitten" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- circulate: Pass. Image keyword "circulation cycle diagram" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- circumstance: Pass. Image keyword "situation context" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- commit: Pass. Image keyword "promise pinky" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- communicate: Pass. Image keyword "dolphins talking" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- compassion: Pass. Image keyword "kind helping" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- compete: Pass. Image keyword "racing runners" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- complex: Pass. Image keyword "complex puzzle" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- concern: Pass. Image keyword "worried face" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- confirm: Pass. Image keyword "checkmark confirm" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- conquer: Pass. Image keyword "climbing victory" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- conscious: Pass. Image keyword "awake aware" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- conserve: Pass. Image keyword "saving water" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- consist: Pass. Image keyword "salad ingredients" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- constant: Pass. Image keyword "dripping faucet" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- construct: Pass. Image keyword "building construction" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- contain: Pass. Image keyword "box contents" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- contest: Pass. Image keyword "competition trophy" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- contrast: Pass. Image keyword "black white" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- contribute: Pass. Image keyword "donating food" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- convenient: Pass. Image keyword "nearby store" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- core: Pass. Image keyword "apple core" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- courteous: Pass. Image keyword "polite greeting bow" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- credit: Pass. Image keyword "trophy award" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- crisis: Pass. Image keyword "flood crisis" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- critical: Pass. Image keyword "water important" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- debate: Pass. Image keyword "debate podium" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- decade: Pass. Image keyword "ten calendar" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- decline: Pass. Image keyword "person declining invitation" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- dedicate: Pass. Image keyword "focused practice" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- definite: Pass. Image keyword "certain checkmark" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- deliberate: Pass. Image keyword "on purpose" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- deposit: Pass. Image keyword "coins dropping into jar" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- deserve: Pass. Image keyword "earned reward" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- desire: Pass. Image keyword "wishing star" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- desperate: Pass. Image keyword "thirsty desert" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- detect: Pass. Image keyword "detective magnifier" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- determine: Pass. Image keyword "deciding gavel" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- dignity: Pass. Image keyword "respectful handshake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- dilemma: Pass. Image keyword "two choices" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- dimension: Pass. Image keyword "measuring box" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- discipline: Pass. Image keyword "practice routine" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- discourage: Pass. Image keyword "sad then hopeful" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- display: Pass. Image keyword "museum display" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- dispute: Pass. Image keyword "arguing neighbors" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- distinct: Pass. Image keyword "unique snowflake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- distinguish: Pass. Image keyword "spot difference" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- distribute: Pass. Image keyword "passing papers classroom" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- division: Pass. Image keyword "dividing equally" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- document: Pass. Image keyword "official paper" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- doubt: Pass. Image keyword "question mark" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- drama: Pass. Image keyword "theater stage" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- drastic: Pass. Image keyword "big change" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- dread: Pass. Image keyword "scared face" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- duty: Pass. Image keyword "responsibility badge" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- edible: Pass. Image keyword "edible berries" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- efficient: Pass. Image keyword "organized efficient" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- elaborate: Pass. Image keyword "fancy cake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- eliminate: Pass. Image keyword "pulling weeds" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- embarrass: Pass. Image keyword "blushing face" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- emerge: Pass. Image keyword "emerging butterfly" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- emotion: Pass. Image keyword "feeling faces" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- emphasis: Pass. Image keyword "underline important" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- enable: Pass. Image keyword "wheelchair ramp" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- encounter: Pass. Image keyword "meeting deer" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- endure: Pass. Image keyword "hiking perseverance" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- ensure: Pass. Image keyword "double checking" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- environment: Pass. Image keyword "green earth" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- error: Pass. Image keyword "erasing mistake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- evaluate: Pass. Image keyword "judging art" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- evident: Pass. Image keyword "obvious smile" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- evolve: Pass. Image keyword "evolution change" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- exaggerate: Pass. Image keyword "big fish story" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- excellent: Pass. Image keyword "star excellent" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- exception: Pass. Image keyword "special case" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- excess: Pass. Image keyword "overflowing cup" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- exclude: Pass. Image keyword "left out" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- exhibit: Pass. Image keyword "museum exhibit" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- expand: Pass. Image keyword "expanding balloon" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- expedition: Pass. Image keyword "arctic expedition" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- expense: Pass. Image keyword "money spending" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- expertise: Pass. Image keyword "expert chef" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- exploit: Pass. Image keyword "unfair shortcut" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- expose: Pass. Image keyword "uncovering hidden" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- extend: Pass. Image keyword "stretching longer" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- extreme: Pass. Image keyword "icicles cold" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- factor: Pass. Image keyword "puzzle piece" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- famine: Pass. Image keyword "dry empty field" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fascinate: Pass. Image keyword "amazed watching" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fatal: Pass. Image keyword "warning sign danger" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fate: Pass. Image keyword "crystal ball" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fault: Pass. Image keyword "broken vase" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- feature: Pass. Image keyword "playground slide" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- ferry: Pass. Image keyword "ferry boat" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- flourish: Pass. Image keyword "thriving garden" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- focus: Pass. Image keyword "focused eyes" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- forbid: Pass. Image keyword "no running sign" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- forecast: Pass. Image keyword "weather forecast" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fortune: Pass. Image keyword "treasure chest" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fragment: Pass. Image keyword "broken pieces" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- frequent: Pass. Image keyword "rainy spring" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- frontier: Pass. Image keyword "space frontier" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fulfill: Pass. Image keyword "kept promise" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- function: Pass. Image keyword "bridge function" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fundamental: Pass. Image keyword "building foundation" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- fund: Pass. Image keyword "lemonade stand" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- grace: Pass. Image keyword "graceful dancer" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- gradual: Pass. Image keyword "leaves changing" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- guarantee: Pass. Image keyword "promise seal" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- halt: Pass. Image keyword "stop hand" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- hazard: Pass. Image keyword "icy danger" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- ideal: Pass. Image keyword "perfect day" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- illustrate: Pass. Image keyword "drawing illustration" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- image: Pass. Image keyword "picture screen" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- immediate: Pass. Image keyword "alarm clock now" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- impact: Pass. Image keyword "earth recycling" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- imply: Pass. Image keyword "knowing smile" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- impress: Pass. Image keyword "impressed judges" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- incident: Pass. Image keyword "playground report clipboard" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- indicate: Pass. Image keyword "arrow pointing" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- individual: Pass. Image keyword "one person" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- inform: Pass. Image keyword "news announcement" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- inhabit: Pass. Image keyword "fish reef" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- initial: Pass. Image keyword "first reaction" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- injure: Pass. Image keyword "hurt ankle" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- inquire: Pass. Image keyword "asking question" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- inspire: Pass. Image keyword "inspired lightbulb" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- instance: Pass. Image keyword "example case" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- instinct: Pass. Image keyword "bird migrating" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- institution: Pass. Image keyword "library building" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- integrate: Pass. Image keyword "joining group" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- intense: Pass. Image keyword "hot sun intense" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- interact: Pass. Image keyword "people talking" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- introduce: Pass. Image keyword "meeting introduction" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- invade: Pass. Image keyword "ants invading" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- involve: Pass. Image keyword "joining group activity" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- issue: Pass. Image keyword "problem discussion" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- item: Pass. Image keyword "list item" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- journal: Pass. Image keyword "writing journal" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- justify: Pass. Image keyword "good reason" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- lack: Pass. Image keyword "dry plant" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- launch: Pass. Image keyword "rocket launch" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- layer: Pass. Image keyword "layered cake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- lecture: Pass. Image keyword "teacher lecturing" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- leisure: Pass. Image keyword "relaxing hammock" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- liable: Pass. Image keyword "responsible person" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- liberty: Pass. Image keyword "statue liberty" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- license: Pass. Image keyword "driver license" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- link: Pass. Image keyword "chain link" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- literal: Pass. Image keyword "exact words" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- locate: Pass. Image keyword "finding map" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- logic: Pass. Image keyword "thinking steps" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- luxury: Pass. Image keyword "fancy pool" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- majority: Pass. Image keyword "crowd voting raised hands" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- manage: Pass. Image keyword "managing garden" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- mature: Pass. Image keyword "ripe apple" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- maximum: Pass. Image keyword "full capacity" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- memorial: Pass. Image keyword "memorial statue" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- mental: Pass. Image keyword "glowing brain with gears" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- mercy: Pass. Image keyword "kind knight" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- migrate: Pass. Image keyword "geese flying south" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- military: Pass. Image keyword "fighter jets in formation" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- minimum: Pass. Image keyword "least amount" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- minor: Pass. Image keyword "small scratch" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- miracle: Pass. Image keyword "amazing return" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- mission: Pass. Image keyword "space mission" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- modify: Pass. Image keyword "editing drawing" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- monitor: Pass. Image keyword "checking temperature" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- motive: Pass. Image keyword "reason why" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- mutual: Pass. Image keyword "shared interest" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- navigate: Pass. Image keyword "compass navigation" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- neglect: Pass. Image keyword "wilting plant" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- neutral: Pass. Image keyword "balanced scale" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- notable: Pass. Image keyword "big achievement" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- notify: Pass. Image keyword "sending notice" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- notion: Pass. Image keyword "idea lightbulb" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- novel: Pass. Image keyword "new creative idea" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- oath: Pass. Image keyword "hand promise" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- objective: Pass. Image keyword "target goal" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- obligation: Pass. Image keyword "returning books" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- obstacle: Pass. Image keyword "blocked path" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- obtain: Pass. Image keyword "getting card" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- occur: Pass. Image keyword "earthquake happening" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- offense: Pass. Image keyword "sorry apologize" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- ongoing: Pass. Image keyword "building progress" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- operate: Pass. Image keyword "using computer" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- option: Pass. Image keyword "menu choices" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- origin: Pass. Image keyword "cacao beans" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- overcome: Pass. Image keyword "kid climbing mountain top" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- overlook: Pass. Image keyword "missing detail" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+- owe: Pass. Image keyword "paying back" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
