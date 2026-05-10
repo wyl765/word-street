@@ -1,14 +1,18 @@
 # Proofcheck Report — 2026-05-10
 
 **Engine:** proofcheck.mjs v1.0
-**Entries:** 1656
-**Results:** 0 CRITICAL | 0 MAJOR | 12 MINOR
+**Entries:** 1966
+**Results:** 0 CRITICAL | 0 MAJOR | 15 MINOR
 
 ## Issues
 
 ### [MINOR] words-level2b.js — "homophone" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): differently
 **Fix:** Simplify definition for young learners
+
+### [MINOR] words-level4b.js — "utilitarian" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "attractive": "designed to be useful rather than attractive"
+**Fix:** Remove subjective adjectives from definitions
 
 ### [MINOR] words-level2b.js — "as a result" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "as a result" def contains "because of" and "because of" def contains "as a result" (both L2)
@@ -24,6 +28,14 @@ Definition uses "something" 2 times: "to experience something, especially someth
 
 ### [MINOR] words-level4a.js — "derivative" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "something that is based on or comes from something else"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "elucidation" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "an explanation that turns something confusing into something clear"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4b.js — "precursor" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "something that comes before and leads to something else"
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2b.js — "on the contrary" (ADJ_NOUN_MISMATCH)
