@@ -1,8 +1,8 @@
 # Proofcheck Report — 2026-05-10
 
 **Engine:** proofcheck.mjs v1.0
-**Entries:** 1355
-**Results:** 0 CRITICAL | 0 MAJOR | 11 MINOR
+**Entries:** 1656
+**Results:** 0 CRITICAL | 0 MAJOR | 12 MINOR
 
 ## Issues
 
@@ -20,6 +20,10 @@ Cross-definition cycle: "despite" def contains "even though" and "even though" d
 
 ### [MINOR] words-level2b.js — "go through" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "to experience something, especially something difficult"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "derivative" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "something that is based on or comes from something else"
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2b.js — "on the contrary" (ADJ_NOUN_MISMATCH)
