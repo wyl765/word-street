@@ -1,6 +1,6 @@
 # VERIFY (GPT) — words-level2a.js
 
-- 每个词一行：word | L5 | L6 | L7 | L8
+格式：word | L5 | L6 | L7 | L8
 
 - avoid | L5:D懂=能/E猜=能(线索:walked/around/getting) | L6:唯一=是(动作/场景线索强;线索:walked/around/getting) | L7:OK | L8:合适(基础高频/生活场景)
 - burst | L5:D懂=能/E猜=能(线索:balloon/loud/thorn) | L6:唯一=是(动作/场景线索强;线索:balloon/loud/thorn) | L7:OK | L8:合适(基础高频/生活场景)
@@ -31,7 +31,7 @@
 - form | L5:D懂=能/E猜=能(线索:used/clay/little) | L6:唯一=是(动作/场景线索强;线索:used/clay/little) | L7:OK | L8:合适(基础高频/生活场景)
 - gaze | L5:D懂=能/E猜=能(线索:stars/amazed/many) | L6:唯一=是(动作/场景线索强;线索:stars/amazed/many) | L7:OK | L8:合适(基础高频/生活场景)
 - guide | L5:D懂=能/E猜=能(线索:park/ranger/will) | L6:唯一=否(易被同level近义/同词族干扰(direct);线索:park/ranger/will) | L7:OK | L8:合适(基础高频/生活场景)
-- hasten | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:steps/dark/clouds) | L6:唯一=是(动作/场景线索强;线索:steps/dark/clouds) | L7:OK | L8:合适(基础高频/生活场景)
+- hasten | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:steps/dark/clouds) | L6:唯一=是(动作/场景线索强;线索:steps/dark/clouds) | L7:OK | L8:不合适(建议提高level；或先学hurry/quickly再引入)
 - hide | L5:D懂=能/E猜=能(线索:children/love/behind) | L6:唯一=是(动作/场景线索强;线索:children/love/behind) | L7:OK | L8:合适(基础高频/生活场景)
 - hike | L5:D懂=能/E猜=能(线索:family/likes/mountain) | L6:唯一=是(动作/场景线索强;线索:family/likes/mountain) | L7:OK | L8:合适(基础高频/生活场景)
 - hug | L5:D懂=能/E猜=能(线索:grandmother/soon/walked) | L6:唯一=是(动作/场景线索强;线索:grandmother/soon/walked) | L7:OK | L8:合适(基础高频/生活场景)
@@ -389,13 +389,13 @@
 - index | L5:D懂=能/E猜=能(线索:looked/find/chapter) | L6:唯一=是(动作/场景线索强;线索:looked/find/chapter) | L7:OK | L8:合适(基础高频/生活场景)
 - induce | L5:D懂=能/E猜=能(线索:warm/sunshine/flowers) | L6:唯一=是(动作/场景线索强;线索:warm/sunshine/flowers) | L7:OK | L8:合适(基础高频/生活场景)
 - inherent | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:curiosity/children/born) | L6:唯一=是(动作/场景线索强;线索:curiosity/children/born) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- inhibit | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:fear/trying/things) | L6:唯一=是(动作/场景线索强;线索:fear/trying/things) | L7:OK | L8:合适(基础高频/生活场景)
+- inhibit | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:fear/trying/things) | L6:唯一=是(动作/场景线索强;线索:fear/trying/things) | L7:OK | L8:不合适(建议提高level；或换更口语: stop/keep...from)
 - initiate | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:recycling/club/school) | L6:唯一=是(动作/场景线索强;线索:recycling/club/school) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
 - innovation | L5:D懂=否/E猜=勉(卡点:定义抽象/词形长;线索:smartphones/changed/talk) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:smartphones/changed/talk) | L7:OK | L8:不合适(建议提高level/先学基础同义词再引入)
 - insert | L5:D懂=能/E猜=能(线索:coin/machine) | L6:唯一=是(动作/场景线索强;线索:coin/machine) | L7:OK | L8:合适(基础高频/生活场景)
 - integral | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:teamwork/part/winning) | L6:唯一=是(动作/场景线索强;线索:teamwork/part/winning) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
 - intervene | L5:D懂=勉/E猜=勉(卡点:词义偏书面/需同义词支撑;线索:teacher/argument/worse) | L6:唯一=是(动作/场景线索强;线索:teacher/argument/worse) | L7:OK | L8:偏难(可保留但建议更多口语化同义词/图片与复现)
-- invoke | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:rules/settle/disagreement) | L6:唯一=是(动作/场景线索强;线索:rules/settle/disagreement) | L7:OK | L8:合适(基础高频/生活场景)
+- invoke | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:rules/settle/disagreement) | L6:唯一=是(动作/场景线索强;线索:rules/settle/disagreement) | L7:OK | L8:不合适(建议提高level；或改成use/call on等更口语表达)
 - isolate | L5:D懂=能/E猜=能(线索:sick/student/others) | L6:唯一=是(动作/场景线索强;线索:sick/student/others) | L7:OK | L8:合适(基础高频/生活场景)
 - levy | L5:D懂=否/E猜=勉(卡点:书面词/拉丁词根；孩子难以自己拆解;线索:town/voted/small) | L6:唯一=否(句子偏说明/概念性；仅凭语境难唯一定位;线索:town/voted/small) | L7:注意(税收/政府征税概念偏成人/社会学) | L8:不合适(明显超纲(学术/社会科学))
 - liberal | L5:D懂=能/E猜=能(线索:took/amount/paint) | L6:唯一=是(动作/场景线索强;线索:took/amount/paint) | L7:注意(英文常带政治含义；即使解释为open-minded也可能敏感) | L8:合适(基础高频/生活场景)
