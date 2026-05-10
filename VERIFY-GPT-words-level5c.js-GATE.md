@@ -4,331 +4,331 @@
 
 | word | L5(看definition) | L5(看example猜词) | L6(例句反测) | L7(文化) | L8(level/路径) |
 |---|---|---|---|---|---|
-| abolition | 勉强：大概懂，但需要中文/图片支撑；卡：officially/practice/ending | 不能：语境指向不够；线索词：abolition/important/american | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：历史/种族话题（奴隶制/废奴）—建议用“人权/平等”角度讲，避免细节刺激 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| abrupt | 勉强：大概懂，但需要中文/图片支撑；卡：unexpected/sudden | 勉强：可靠语境猜，但不稳；线索词：everyone/forward/abrupt | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| acclaimed | 勉强：大概懂，但需要中文/图片支撑；卡：praised/people/liked | 不能：语境指向不够；线索词：acclaimed/bookstore/author | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| accountant | 勉强：大概懂，但需要中文/图片支撑；卡：records/person/whose | 勉强：可靠语境猜，但不稳；线索词：accountant/checked/numbers | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：职场/经济；当前为字母序，学习上建议主题聚类 |
-| acute | 勉强：大概懂，但需要中文/图片支撑；卡：degrees/severe/sharp | 不能：语境指向不够；线索词：acute/ankle/felt | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：数学；当前为字母序，学习上建议主题聚类 |
-| adhesive | 勉强：大概懂，但需要中文/图片支撑；卡：substance/together/sticks | 不能：语境指向不够；线索词：adhesive/label/stick | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| aerial | 勉强：大概懂，但需要中文/图片支撑；卡：happening/above/seen | 不能：语境指向不够；线索词：photograph/aerial/showed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：科学/太空；当前为字母序，学习上建议主题聚类 |
-| affirmative | 不能：听不懂核心含义；卡：agreement/showing/saying | 不能：语境指向不够；线索词：affirmative/asked/ready | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| ailment | 勉强：大概懂，但需要中文/图片支撑；卡：illness/serious | 不能：语境指向不够；线索词：grandma/ailment/small | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| aisle | 能：一眼能懂（可直接配图/动作） | 能：能根据场景直接猜到；线索词：grocery/looking/walked | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| algebra | 能：一眼能懂（可直接配图/动作） | 能：能根据场景直接猜到；线索词：equation/algebra/solve | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：数学；当前为字母序，学习上建议主题聚类 |
-| allegory | 勉强：大概懂，但需要中文/图片支撑；卡：characters/meanings/events | 不能：语境指向不够；线索词：allegory/dangers/novel | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：文学/修辞；当前为字母序，学习上建议主题聚类 |
-| allude | 不能：听不懂核心含义；卡：something/indirect/mention | 不能：语境指向不够；线索词：mistake/didn't/allude | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| ambassador | 勉强：大概懂，但需要中文/图片支撑；卡：represent/country/another | 不能：语境指向不够；线索词：ambassador/leaders/discuss | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| ambiguity | 不能：听不懂核心含义；卡：understood/situation/something | 不能：语境指向不够；线索词：instructions/ambiguity/confused | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| ammunition | 勉强：大概懂，但需要中文/图片支撑；卡：bullets/weapons/things | 不能：语境指向不够；线索词：ammunition/cabinet/locked | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：战争/政治；当前为字母序，学习上建议主题聚类 |
-| anatomy | 勉强：大概懂，但需要中文/图片支撑；卡：learning/together/living | 不能：语境指向不够；线索词：science/studied/anatomy | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| animation | 勉强：大概懂，但需要中文/图片支撑；卡：drawings/process/making | 不能：语境指向不够；线索词：animation/complete/artists | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| annotate | 勉强：大概懂，但需要中文/图片支撑；卡：comments/notes/text | 不能：语境指向不够；线索词：annotate/thoughts/teacher | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| antidote | 勉强：大概懂，但需要中文/图片支撑；卡：medicine/working/poison | 勉强：可靠语境猜，但不稳；线索词：antidote/patient/doctor | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| antiquity | 不能：听不懂核心含义；卡：especially/distant/ancient | 不能：语境指向不够；线索词：antiquity/ruins | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| apparel | 勉强：大概懂，但需要中文/图片支撑；卡：especially/clothing/specific | 不能：语境指向不够；线索词：apparel/sports/store | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| apportion | 不能：听不懂核心含义；卡：something/divide/share | 不能：语境指向不够；线索词：apportion/supplies/teacher | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| arcade | 能：一眼能懂（可直接配图/动作） | 能：能根据场景直接猜到；线索词：afternoon/saturday/playing | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| archaic | 不能：听不懂核心含义；卡：old-fashioned/old | 不能：语境指向不够；线索词：understand/language/document | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| arithmetic | 勉强：大概懂，但需要中文/图片支撑；卡：subtracting/multiplying/dividing | 不能：语境指向不够；线索词：arithmetic/practiced/problems | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：数学；当前为字母序，学习上建议主题聚类 |
-| armistice | 不能：听不懂核心含义；卡：agreement/fighting/stop | 不能：语境指向不够；线索词：armistice/fighting/stopped | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：战争/政治；当前为字母序，学习上建议主题聚类 |
-| ascertain | 不能：听不懂核心含义；卡：something/certain/find | 不能：语境指向不够；线索词：detective/ascertain/needed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| assertive | 不能：听不懂核心含义；卡：confident/yourself/willing | 不能：语境指向不够；线索词：assertive/politely/helped | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| astonish | 勉强：大概懂，但需要中文/图片支撑；卡：surprise/someone/much | 不能：语境指向不够；线索词：magician's/astonish/audience | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| astronaut | 能：一眼能懂（可直接配图/动作） | 能：能根据场景直接猜到；线索词：astronaut/floated/station | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：科学/太空；当前为字母序，学习上建议主题聚类 |
-| astronomy | 勉强：大概懂，但需要中文/图片支撑；卡：planets/study/stars | 勉强：可靠语境猜，但不稳；线索词：telescope/astronomy/lesson | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：科学/太空；当前为字母序，学习上建议主题聚类 |
-| attic | 能：一眼能懂（可直接配图/动作） | 能：能根据场景直接猜到；线索词：albums/found/photo | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| audible | 勉强：大概懂，但需要中文/图片支撑；卡：enough/heard/loud | 不能：语境指向不够；线索词：whisper/audible/barely | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| automation | 勉强：大概懂，但需要中文/图片支撑；卡：machines/human/work | 勉强：可靠语境猜，但不稳；线索词：automation/factories/robots | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bachelor | 勉强：大概懂，但需要中文/图片支撑；卡：four-year/married/college | 勉强：可靠语境猜，但不稳；线索词：bachelor's/science/earned | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| ballad | 勉强：大概懂，但需要中文/图片支撑；卡：tells/story/song | 不能：语境指向不够；线索词：performed/singer/ballad | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：文学/修辞；当前为字母序，学习上建议主题聚类 |
-| barricade | 勉强：大概懂，但需要中文/图片支撑；卡：barrier/block/path | 勉强：可靠语境猜，但不稳；线索词：construction/barricade/police | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bazaar | 勉强：大概懂，但需要中文/图片支撑；卡：especially/market/middle | 不能：语境指向不够；线索词：colorful/fabrics/bought | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| benign | 勉强：大概懂，但需要中文/图片支撑；卡：harmful/gentle/kind | 勉强：可靠语境猜，但不稳；线索词：nothing/doctor/benign | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与harmless/kind类词混 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bibliography | 勉强：大概懂，但需要中文/图片支撑；卡：research/sources/books | 不能：语境指向不够；线索词：bibliography/write-up/teacher | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bilingual | 勉强：大概懂，但需要中文/图片支撑；卡：languages/speak/able | 不能：语境指向不够；线索词：bilingual/translate/student | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| blemish | 勉强：大概懂，但需要中文/图片支撑；卡：something/spoils/small | 不能：语境指向不够；线索词：otherwise/blemish/perfect | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bliss | 勉强：大概懂，但需要中文/图片支撑；卡：happiness/complete/feeling | 不能：语境指向不够；线索词：swimming/bliss/cool | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| blockade | 不能：听不懂核心含义；卡：especially/something/movement | 不能：语境指向不够；线索词：blockade/ships/kept | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bouquet | 能：一眼能懂（可直接配图/动作） | 能：能根据场景直接猜到；线索词：birthday/bouquet/roses | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| brigade | 勉强：大概懂，但需要中文/图片支撑；卡：organized/purpose/people | 不能：语境指向不够；线索词：brigade/arrived/minutes | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| buoyant | 勉强：大概懂，但需要中文/图片支撑；卡：optimistic/cheerful/float | 不能：语境指向不够；线索词：buoyant/floated/water | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| caffeine | 能：一眼能懂（可直接配图/动作） | 能：能根据场景直接猜到；线索词：caffeine/asleep/soda | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| calamity | 勉强：大概懂，但需要中文/图片支撑；卡：terrible/disaster | 勉强：可靠语境猜，但不稳；线索词：earthquake/destroyed/thousands | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| caliber | 不能：听不懂核心含义；卡：someone's/ability/level | 不能：语境指向不够；线索词：universities/student/caliber | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：职场/经济；当前为字母序，学习上建议主题聚类 |
-| calligraphy | 勉强：大概懂，但需要中文/图片支撑；卡：handwriting/careful/special | 不能：语境指向不够；线索词：calligraphy/practiced/special | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| cardiovascular | 勉强：大概懂，但需要中文/图片支撑；卡：through/about/heart | 不能：语境指向不够；线索词：cardiovascular/strengthens/exercise | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| cascade | 勉强：大概懂，但需要中文/图片支撑；卡：waterfall/happening/another | 不能：语境指向不够；线索词：cascade/water/rocks | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| casualty | 勉强：大概懂，但需要中文/图片支撑；卡：accident/injured/person | 勉强：可靠语境猜，但不稳；线索词：firefighter/casualty/accident | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：灾难/死亡相关—注意措辞和图片不要过于恐怖 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| charisma | 勉强：大概懂，但需要中文/图片支撑；卡：quality/people/follow | 不能：语境指向不够；线索词：leader's/charisma/election | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| circa | 不能：听不懂核心含义；卡：approximately/dates/used | 不能：语境指向不够；线索词：castle/built/circa | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| civilian | 勉强：大概懂，但需要中文/图片支撑；卡：military/person | 不能：语境指向不够；线索词：civilian/guided/safety | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：战争/政治；当前为字母序，学习上建议主题聚类 |
-| clarification | 勉强：大概懂，但需要中文/图片支撑；卡：explanation/understand/something | 不能：语境指向不够；线索词：clarification/asked/i | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| clemency | 不能：听不懂核心含义；卡：forgiveness/someone/mercy | 勉强：可靠语境猜，但不稳；线索词：prisoner's/governor/clemency | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| cliche | 勉强：大概懂，但需要中文/图片支撑；卡：phrase/idea/used | 不能：语境指向不够；线索词：everyone/saying/cliche | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：文学/修辞；当前为字母序，学习上建议主题聚类 |
-| clientele | 不能：听不懂核心含义；卡：customers/business/all | 不能：语境指向不够；线索词：clientele/bakery/built | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：职场/经济；当前为字母序，学习上建议主题聚类 |
-| clockwise | 能：一眼能懂（可直接配图/动作） | 能：能根据场景直接猜到；线索词：clockwise/tighten/turn | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| coax | 勉强：大概懂，但需要中文/图片支撑；卡：something/persuade/someone | 不能：语境指向不够；线索词：scared/kitten/tried | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| coexist | 勉强：大概懂，但需要中文/图片支撑；卡：peacefully/together/exist | 不能：语境指向不够；线索词：coexist/wolves/forest | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| coincidence | 勉强：大概懂，但需要中文/图片支撑；卡：surprising/situation/things | 不能：语境指向不够；线索词：coincidence/school/shirt | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| colleague | 勉强：大概懂，但需要中文/图片支撑；卡：person/work/you | 不能：语境指向不够；线索词：colleague/finished/together | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| communism | 勉强：大概懂，但需要中文/图片支撑；卡：government/property/equally | 不能：语境指向不够；线索词：individuals/communism/factories | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：政治制度/政权词—课堂需中性表述，避免价值对立式讨论 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| competence | 不能：听不懂核心含义；卡：something/ability/well | 不能：语境指向不够；线索词：competence/earned/math | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| complication | 不能：听不懂核心含义；卡：something/situation/harder | 不能：语境指向不够；线索词：complication/unexpected/outdoor | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| compliment | 勉强：大概懂，但需要中文/图片支撑；卡：praises/someone/remark | 不能：语境指向不够；线索词：well-written/compliment/teacher | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| composure | 勉强：大概懂，但需要中文/图片支撑；卡：control/state/calm | 不能：语境指向不够；线索词：composure/difficult/kept | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| conclusive | 不能：听不懂核心含义；卡：something/proving/doubt | 不能：语境指向不够；线索词：fingerprints/conclusive/evidence | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与certain/clear类词混 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| condense | 勉强：大概懂，但需要中文/图片支撑；卡：shorter/compact/change | 不能：语境指向不够；线索词：three-page/condense/please | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| conspire | 不能：听不懂核心含义；卡：something/secretly/others | 不能：语境指向不够；线索词：villains/conspire/treasure | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| contentious | 不能：听不懂核心含义；卡：disagreement/arguments/likely | 不能：语境指向不够；线索词：contentious/divided/issue | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与controversial类词混 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| contingency | 不能：听不懂核心含义；卡：something/happen/plan | 不能：语境指向不够；线索词：contingency/school/plan | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| contractor | 勉强：大概懂，但需要中文/图片支撑；卡：building/person/repair | 不能：语境指向不够；线索词：contractor/addition/built | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：职场/经济；当前为字母序，学习上建议主题聚类 |
-| conversion | 不能：听不懂核心含义；卡：something/different/changing | 勉强：可靠语境猜，但不稳；线索词：conversion/apartments/factory | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| convict | 勉强：大概懂，但需要中文/图片支撑；卡：someone/guilty/person | 不能：语境指向不够；线索词：evidence/convict/voted | 可唯一：场景名词足够强，4选1通常能锁定 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| coral | 不能：听不懂核心含义；卡：substance/creatures/formed | 不能：语境指向不够；线索词：hundreds/colorful/coral | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| coronation | 勉强：大概懂，但需要中文/图片支撑；卡：ceremony/crowning/queen | 勉强：可靠语境猜，但不稳；线索词：coronation/television/thousands | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| corporal | 勉强：大概懂，但需要中文/图片支撑；卡：about/body/army | 不能：语境指向不够；线索词：instructions/corporal/training | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| corridor | 能：一眼能懂（可直接配图/动作） | 不能：语境指向不够；线索词：classroom/students/corridor | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| counterfeit | 勉强：大概懂，但需要中文/图片支撑；卡：people/order/trick | 勉强：可靠语境猜，但不稳；线索词：counterfeit/basement/printed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| credential | 不能：听不懂核心含义；卡：qualifications/someone's/identity | 不能：语境指向不够；线索词：credential/reporter/building | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| crescendo | 勉强：大概懂，但需要中文/图片支撑；卡：increase/loudness/gradual | 不能：语境指向不够；线索词：crescendo/music/built | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| crimson | 勉强：大概懂，但需要中文/图片支撑；卡：color/deep/red | 不能：语境指向不够；线索词：painted/crimson/sunset | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| critique | 勉强：大概懂，但需要中文/图片支撑；卡：something/judgment/careful | 不能：语境指向不够；线索词：critique/painting/improve | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：文学/修辞；当前为字母序，学习上建议主题聚类 |
-| culprit | 勉强：大概懂，但需要中文/图片支撑；卡：responsible/something/person | 不能：语境指向不够；线索词：admitted/culprit/theft | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| dazzle | 勉强：大概懂，但需要中文/图片支撑；卡：impress/greatly/bright | 不能：语境指向不够；线索词：fireworks/display/dazzle | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| debut | 勉强：大概懂，但需要中文/图片支撑；卡：appearance/something/someone | 不能：语境指向不够；线索词：singer's/million/copies | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| deceit | 勉强：大概懂，但需要中文/图片支撑；卡：someone/hiding/lying | 不能：语境指向不够；线索词：uncovered/finally/deceit | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| defiance | 勉强：大概懂，但需要中文/图片支撑；卡：refusal/open/obey | 不能：语境指向不够；线索词：defiance/spoke/rules | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与refusal类词混 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| deforestation | 勉强：大概懂，但需要中文/图片支撑；卡：cutting/trees/large | 不能：语境指向不够；线索词：deforestation/rainforests/threatens | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| delicacy | 不能：听不懂核心含义；卡：expensive/careful/gentle | 不能：语境指向不够；线索词：considered/chocolate/countries | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| deluge | 勉强：大概懂，但需要中文/图片支撑；卡：sudden/heavy/flood | 不能：语境指向不够；线索词：flooded/streets/minutes | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| demolish | 勉强：大概懂，但需要中文/图片支撑；卡：completely/structure/building | 不能：语境指向不够；线索词：demolish/bridge/they | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| designation | 不能：听不懂核心含义；卡：something/official/title | 不能：语境指向不够；线索词：designation/protected/received | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| desolate | 勉强：大概懂，但需要中文/图片支撑；卡：people/empty/life | 不能：语境指向不够；线索词：desolate/ghost/empty | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| despair | 勉强：大概懂，但需要中文/图片支撑；卡：complete/loss/hope | 不能：语境指向不够；线索词：failing/despair/moment | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| destitute | 勉强：大概懂，但需要中文/图片支撑；卡：lacking/basic/needs | 不能：语境指向不够；线索词：destitute/provides/families | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| devastation | 不能：听不懂核心含义；卡：widespread/severe/ruin | 勉强：可靠语境猜，但不稳；线索词：devastation/hurricane/across | 可唯一：场景名词足够强，4选1通常能锁定 | 需注意：灾难/死亡相关—注意措辞和图片不要过于恐怖 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| devious | 不能：听不懂核心含义；卡：dishonest/clever/way | 不能：语境指向不够；线索词：dropping/devious/tricked | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| devout | 不能：听不懂核心含义；卡：religious/committed/strongly | 不能：语境指向不够；线索词：morning/sunrise/devout | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与religious类词混 | 需注意：宗教相关—建议用“了解不同文化”角度，避免劝导式表述 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：宗教；当前为字母序，学习上建议主题聚类 |
-| dialect | 勉强：大概懂，但需要中文/图片支撑；卡：particular/language/spoken | 不能：语境指向不够；线索词：different/everyday/dialect | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| dictator | 勉强：大概懂，但需要中文/图片支撑；卡：opposition/ruler/total | 不能：语境指向不够；线索词：controlled/government/country's | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：政治制度/政权词—课堂需中性表述，避免价值对立式讨论 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| disdain | 不能：听不懂核心含义；卡：something/feeling/someone | 不能：语境指向不够；线索词：disdain/looked/messy | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| dismay | 不能：听不懂核心含义；卡：discouragement/feeling/shock | 不能：语境指向不够；线索词：library/repairs/dismay | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| distinction | 勉强：大概懂，但需要中文/图片支撑；卡：difference/between/things | 不能：语境指向不够；线索词：distinction/important/between | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| divert | 勉强：大概懂，但需要中文/图片支撑；卡：direction/something/change | 勉强：可靠语境猜，但不稳；线索词：accident/workers/traffic | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| dominion | 勉强：大概懂，但需要中文/图片支撑；卡：control/people/power | 勉强：可靠语境猜，但不稳；线索词：dominion/valley/lands | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| dubious | 不能：听不懂核心含义；卡：something/doubtful/about | 不能：语境指向不够；线索词：treehouse/dubious/about | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与uncertain/suspicious类词混 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| emigrate | 勉强：大概懂，但需要中文/图片支撑；卡：country/another/leave | 不能：语境指向不够；线索词：grandparents/emigrate/america | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| eminent | 不能：听不懂核心含义；卡：respected/certain/famous | 不能：语境指向不够；线索词：scientist/research/eminent | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与famous类词混 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| empathy | 勉强：大概懂，但需要中文/图片支撑；卡：understand/ability/another | 不能：语境指向不够；线索词：understand/friend's/feelings | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| engrave | 勉强：大概懂，但需要中文/图片支撑；卡：designs/surface/words | 不能：语境指向不够；线索词：engrave/trophy/they | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| enlighten | 不能：听不懂核心含义；卡：understanding/knowledge/someone | 不能：语境指向不够；线索词：documentary/enlighten/pollution | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| enrich | 勉强：大概懂，但需要中文/图片支撑；卡：something/improve/quality | 不能：语境指向不够；线索词：vocabulary/reading/enrich | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与improve类词混 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| envoy | 不能：听不懂核心含义；卡：representative/messenger/mission | 不能：语境指向不够；线索词：carried/message/country | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| estate | 勉强：大概懂，但需要中文/图片支撑；卡：property/person/large | 不能：语境指向不够；线索词：millionaire's/included/mansion | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| eternal | 勉强：大概懂，但需要中文/图片支撑；卡：lasting/forever/end | 不能：语境指向不够；线索词：reminder/eternal/bravery | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与forever类词混 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| evade | 勉强：大概懂，但需要中文/图片支撑；卡：something/cleverly/escape | 不能：语境指向不够；线索词：rabbit/evaded/fox | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| excursion | 勉强：大概懂，但需要中文/图片支撑；卡：pleasure/short/taken | 勉强：可靠语境猜，但不稳；线索词：excursion/natural/history | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| exposition | 不能：听不懂核心含义；卡：explanation/beginning/clear | 不能：语境指向不够；线索词：exposition/introduces/character | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| ferocious | 勉强：大概懂，但需要中文/图片支撑；卡：violent/fierce | 不能：语境指向不够；线索词：ferocious/protected/threat | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| festive | 勉强：大概懂，但需要中文/图片支撑；卡：celebratory/cheerful | 不能：语境指向不够；线索词：decorations/wonderland/festive | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与cheerful/happy类词混 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| feudal | 勉强：大概懂，但需要中文/图片支撑；卡：peasants/system/worked | 勉强：可靠语境猜，但不稳；线索词：exchange/knights/feudal | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| folklore | 勉强：大概懂，但需要中文/图片支撑；卡：traditional/stories/beliefs | 不能：语境指向不够；线索词：folklore/includes/dragons | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：文学/修辞；当前为字母序，学习上建议主题聚类 |
-| fortitude | 勉强：大概懂，但需要中文/图片支撑；卡：strength/courage/trouble | 不能：语境指向不够；线索词：wilderness/fortitude/explorer | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| genealogy | 不能：听不懂核心含义；卡：ancestors/history/family | 不能：语境指向不够；线索词：genealogy/helped/family | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| grotesque | 不能：听不懂核心含义；卡：unpleasant/distorted/strange | 不能：语境指向不够；线索词：grotesque/halloween/children | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：文化节日（万圣节）—对中国孩子需补充背景，不要默认已知 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| grudge | 勉强：大概懂，但需要中文/图片支撑；卡：lasting/feeling/someone | 不能：语境指向不够；线索词：holding/grudge/makes | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| hostage | 勉强：大概懂，但需要中文/图片支撑；卡：prisoner/demands/person | 不能：语境指向不够；线索词：negotiator/hostage/worked | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：战争/政治；当前为字母序，学习上建议主题聚类 |
-| humiliation | 勉强：大概懂，但需要中文/图片支撑；卡：feeling/foolish/others | 不能：语境指向不够；线索词：humiliation/laughed/caused | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| impediment | 勉强：大概懂，但需要中文/图片支撑；卡：something/progress/blocks | 勉强：可靠语境猜，但不稳；线索词：impediment/traffic/fallen | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| inaugural | 不能：听不懂核心含义；卡：something/important/marking | 不能：语境指向不够；线索词：inaugural/airplane/success | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| incarcerate | 勉强：大概懂，但需要中文/图片支撑；卡：someone/prison/put | 勉强：可靠语境猜，但不稳；线索词：incarcerate/criminal/judge | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| indignant | 不能：听不懂核心含义；卡：something/feeling/unfair | 不能：语境指向不够；线索词：indignant/something/accused | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| infantry | 勉强：大概懂，但需要中文/图片支撑；卡：soldiers/fight/foot | 不能：语境指向不够；线索词：battlefield/infantry/marched | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：战争/政治；当前为字母序，学习上建议主题聚类 |
-| inheritance | 勉强：大概懂，但需要中文/图片支撑；卡：received/someone/money | 不能：语境指向不够；线索词：inheritance/grandmother/college | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| injustice | 勉强：大概懂，但需要中文/图片支撑；卡：treatment/situation/unfair | 不能：语境指向不够；线索词：protested/injustice/students | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| instigate | 不能：听不懂核心含义；卡：especially/something/trouble | 不能：语境指向不够；线索词：instigate/argument/tried | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| interrogate | 勉强：大概懂，但需要中文/图片支撑；卡：questions/forceful/someone | 不能：语境指向不够；线索词：interrogate/detective/witness | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| laborious | 勉强：大概懂，但需要中文/图片支撑；卡：taking/effort/time | 不能：语境指向不够；线索词：laborious/painting/entire | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| malice | 勉强：大概懂，但需要中文/图片支撑；卡：desire/others/cause | 不能：语境指向不够；线索词：accident/hurtful/malice | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| metaphor | 勉强：大概懂，但需要中文/图片支撑；卡：describes/calling/another | 不能：语境指向不够；线索词：comparing/something/metaphor | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：文学/修辞；当前为字母序，学习上建议主题聚类 |
-| neutrality | 勉强：大概懂，但需要中文/图片支撑；卡：disagreement/taking/sides | 不能：语境指向不够；线索词：neutrality/declared/country | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| overthrow | 不能：听不懂核心含义；卡：government/remove/leader | 不能：语境指向不够；线索词：overthrow/planned/restore | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：政治制度/政权词—课堂需中性表述，避免价值对立式讨论 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：战争/政治；当前为字母序，学习上建议主题聚类 |
-| patriot | 勉强：大概懂，但需要中文/图片支撑；卡：strongly/supports/country | 勉强：可靠语境猜，但不稳；线索词：patriot/country/people | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| peasant | 不能：听不懂核心含义；卡：especially/farmer/poor | 不能：语境指向不够；线索词：peasant/sunrise/worked | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| pension | 勉强：大概懂，但需要中文/图片支撑；卡：payments/regular/someone | 不能：语境指向不够；线索词：receives/grandpa/pension | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：职场/经济；当前为字母序，学习上建议主题聚类 |
-| persecution | 不能：听不懂核心含义；卡：treatment/identity/someone | 不能：语境指向不够；线索词：persecution/immigrants/countries | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| plague | 勉强：大概懂，但需要中文/图片支撑；卡：widespread/something/disease | 不能：语境指向不够；线索词：through/plague/spread | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：灾难/死亡相关—注意措辞和图片不要过于恐怖 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| plummet | 勉强：大概懂，但需要中文/图片支撑；卡：quickly/fall/drop | 不能：语境指向不够；线索词：temperature/overnight/plummet | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| polarize | 勉强：大概懂，但需要中文/图片支撑；卡：opposing/divide/groups | 不能：语境指向不够；线索词：supporters/opponents/polarize | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| retaliate | 勉强：大概懂，但需要中文/图片支撑；卡：revenge/fight/back | 不能：语境指向不够；线索词：retaliate/wanted/chose | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| retribution | 不能：听不懂核心含义；卡：punishment/something/doing | 不能：语境指向不够；线索词：retribution/villain/feared | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词；易与punishment类词混 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| sabotage | 勉强：大概懂，但需要中文/图片支撑；卡：deliberately/something/destroy | 不能：语境指向不够；线索词：materials/sabotage/someone | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| spectacular | 勉强：大概懂，但需要中文/图片支撑；卡：eye-catching/impressive | 不能：语境指向不够；线索词：mountaintop/spectacular/absolutely | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| squander | 勉强：大概懂，但需要中文/图片支撑；卡：chances/waste/money | 不能：语境指向不够；线索词：allowance/squander/things | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| subdue | 勉强：大概懂，但需要中文/图片支撑；卡：control/quieter/bring | 不能：语境指向不够；线索词：firefighters/worked/subdue | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| supersede | 不能：听不懂核心含义；卡：something/effective/replace | 不能：语境指向不够；线索词：supersede/rules/ones | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| testimony | 勉强：大概懂，但需要中文/图片支撑；卡：especially/statement/formal | 不能：语境指向不够；线索词：testimony/witness/about | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| theology | 勉强：大概懂，但需要中文/图片支撑；卡：beliefs/study/faith | 不能：语境指向不够；线索词：understand/different/religions | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：宗教相关—建议用“了解不同文化”角度，避免劝导式表述 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：宗教；当前为字母序，学习上建议主题聚类 |
-| topography | 勉强：大概懂，但需要中文/图片支撑；卡：features/surface/shape | 不能：语境指向不够；线索词：topography/mountains/includes | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| transcontinental | 不能：听不懂核心含义；卡：continent/crossing/entire | 不能：语境指向不够；线索词：transcontinental/continent/crossed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| truce | 勉强：大概懂，但需要中文/图片支撑；卡：agreement/fighting/stop | 勉强：可靠语境猜，但不稳；线索词：deliveries/called/sides | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：战争/政治；当前为字母序，学习上建议主题聚类 |
-| unanimous | 勉强：大概懂，但需要中文/图片支撑；卡：everyone/agreed | 不能：语境指向不够；线索词：unanimous/single/member | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| uprising | 不能：听不懂核心含义；卡：resistance/rebellion/people | 勉强：可靠语境猜，但不稳；线索词：uprising/marched/people | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：政治制度/政权词—课堂需中性表述，避免价值对立式讨论 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：战争/政治；当前为字母序，学习上建议主题聚类 |
-| utopia | 勉强：大概懂，但需要中文/图片支撑；卡：imagined/everyone/perfect | 勉强：可靠语境猜，但不稳；线索词：imagined/everyone/utopia | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| absentee | 勉强：大概懂，但需要中文/图片支撑；卡：expected/present/person | 勉强：可靠语境猜，但不稳；线索词：absentee/teacher/parents | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| accreditation | 不能：听不懂核心含义；卡：something/standards/official | 不能：语境指向不够；线索词：accreditation/program/earned | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| adjourn | 勉强：大概懂，但需要中文/图片支撑；卡：temporarily/meeting/plans | 勉强：可靠语境猜，但不稳；线索词：adjourn/morning/monday | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| affidavit | 不能：听不懂核心含义；卡：statement/confirmed/written | 不能：语境指向不够；线索词：affidavit/swearing/witness | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| almanac | 不能：听不懂核心含义；卡：predictions/calendars/weather | 不能：语境指向不够；线索词：farmers/almanac/plant | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| aqueduct | 不能：听不懂核心含义；卡：bridge-like/structure/across | 不能：语境指向不够；线索词：aqueduct/ancient/carried | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| aristocrat | 不能：听不懂核心含义；卡：upper-class/person/family | 不能：语境指向不够；线索词：aristocrat/servants/lived | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| artisan | 勉强：大概懂，但需要中文/图片支撑；卡：skilled/worker/things | 不能：语境指向不够；线索词：beautiful/artisan/carved | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| assailant | 勉强：大概懂，但需要中文/图片支撑；卡：attacks/someone/person | 勉强：可靠语境猜，但不稳；线索词：assailant/police/caught | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| asylum | 勉强：大概懂，但需要中文/图片支撑；卡：someone/fleeing/country | 勉强：可靠语境猜，但不稳；线索词：escaping/granted/family | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bailiff | 不能：听不懂核心含义；卡：courtroom/officer/keeps | 勉强：可靠语境猜，但不稳；线索词：everyone/bailiff/entered | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：法律/法庭；当前为字母序，学习上建议主题聚类 |
-| bankruptcy | 勉强：大概懂，但需要中文/图片支撑；卡：process/someone/cannot | 不能：语境指向不够；线索词：bankruptcy/company/closed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：职场/经济；当前为字母序，学习上建议主题聚类 |
-| besiege | 勉强：大概懂，但需要中文/图片支撑；卡：surround/requests/someone | 不能：语境指向不够；线索词：autographs/besieged/actor | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bipartisan | 不能：听不懂核心含义；卡：supported/political/parties | 不能：语境指向不够；线索词：bipartisan/agreement/reached | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| brigand | 不能：听不懂核心含义；卡：especially/bandit/robber | 不能：语境指向不够；线索词：travelers/ambushed/mountain | 可唯一：场景名词足够强，4选1通常能锁定 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| captivity | 勉强：大概懂，但需要中文/图片支撑；卡：prisoner/state/kept | 不能：语境指向不够；线索词：captivity/learned/raised | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| caravan | 勉强：大概懂，但需要中文/图片支撑；卡：traveling/through/people | 不能：语境指向不够；线索词：carrying/caravan/crossed | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| chaotic | 勉强：大概懂，但需要中文/图片支撑；卡：completely/confused/order | 不能：语境指向不够；线索词：substitute/classroom/chaotic | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| colossal | 勉强：大概懂，但需要中文/图片支撑；卡：extremely/large/great | 不能：语境指向不够；线索词：colossal/statue/miles | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| combustion | 不能：听不懂核心含义；卡：something/process/burning | 不能：语境指向不够；线索词：combustion/oxygen/needs | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| confederacy | 勉强：大概懂，但需要中文/图片支撑；卡：together/purpose/states | 不能：语境指向不够；线索词：confederacy/protect/tribes | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| congregate | 勉强：大概懂，但需要中文/图片支撑；卡：together/gather/crowd | 不能：语境指向不够；线索词：congregate/cafeteria/students | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| conspiracy | 勉强：大概懂，但需要中文/图片支撑；卡：something/secret/group | 不能：语境指向不够；线索词：conspiracy/revealed/mayor's | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| depleted | 勉强：大概懂，但需要中文/图片支撑；卡：greatly/reduced/amount | 勉强：可靠语境猜，但不稳；线索词：flashlight/depleted/couldn't | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| diplomatic | 勉强：大概懂，但需要中文/图片支撑；卡：offending/skilled/dealing | 不能：语境指向不够；线索词：diplomatic/friends/getting | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 合适：具象或在学校场景常见，适合本level作为拓展词；主题：通用；当前为字母序，学习上建议主题聚类 |
-| escapade | 不能：听不懂核心含义；卡：adventure/exciting/risky | 不能：语境指向不够；线索词：escapade/haunted/kids' | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| extortion | 不能：听不懂核心含义；卡：threatening/obtaining/someone | 不能：语境指向不够；线索词：extortion/arrested/he | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：暴力/犯罪词—家长可能担心负面内容；可弱化画面、强调安全与规则 | 偏难：抽象/政法/历史学术密度高；建议拆分成主题单元(法庭/政治/中世纪)并放后；主题：通用；当前为字母序，学习上建议主题聚类 |
-| abolitionist | 勉强：大概懂，但需要中文/图片支撑；卡：slavery/person/fought | 不能：语境指向不够；线索词：abolitionist/frederick/douglass | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：历史/种族话题（奴隶制/废奴）—建议用“人权/平等”角度讲，避免细节刺激 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| accomplice | 勉强：大概懂，但需要中文/图片支撑；卡：someone/person/commit | 不能：语境指向不够；线索词：accomplice/getaway/inside | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| altruism | 不能：听不懂核心含义；卡：well-being/unselfish/concern | 不能：语境指向不够；线索词：volunteer/altruism/inspired | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| anarchist | 不能：听不懂核心含义；卡：government/believes/person | 不能：语境指向不够；线索词：themselves/anarchist/argued | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| apathy | 不能：听不懂核心含义；卡：something/interest/caring | 不能：语境指向不够；线索词：election/apathy/people | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| armada | 勉强：大概懂，但需要中文/图片支撑；卡：warships/large/fleet | 勉强：可靠语境猜，但不稳；线索词：spanish/england/armada | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| autocracy | 不能：听不懂核心含义；卡：government/person/power | 不能：语境指向不够；线索词：autocracy/decisions/ruler | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| censorship | 勉强：大概懂，但需要中文/图片支撑；卡：government/blocking/people | 不能：语境指向不够；线索词：journalists/censorship/prevented | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| centennial | 不能：听不懂核心含义；卡：anniversary/hundredth | 不能：语境指向不够；线索词：celebrated/centennial/fireworks | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| chivalry | 勉强：大概懂，但需要中文/图片支撑；卡：medieval/behavior/knights | 不能：语境指向不够；线索词：protecting/followed/chivalry | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| circumnavigate | 不能：听不懂核心含义；卡：especially/something/travel | 不能：语境指向不够；线索词：circumnavigate/magellan's/first | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| colonialism | 不能：听不懂核心含义；卡：controlling/resources/country | 不能：语境指向不够；线索词：colonialism/countries/cultures | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| commodore | 勉强：大概懂，但需要中文/图片支撑；卡：officer/ranking/captain | 不能：语境指向不够；线索词：commodore/fleet/led | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| condolence | 不能：听不懂核心含义；卡：expression/sympathy/grieving | 不能：语境指向不够；线索词：condolence/teacher's/father | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| convalesce | 勉强：大概懂，但需要中文/图片支撑；卡：recover/slowly/health | 不能：语境指向不够；线索词：convalesce/surgery/needed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| crucible | 勉强：大概懂，但需要中文/图片支撑；卡：melting/severe/metal | 不能：语境指向不够；线索词：championship/crucible/strength | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| cryptic | 不能：听不懂核心含义；卡：mysterious/meaning/having | 不能：语境指向不够；线索词：everyone/puzzling/cryptic | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| debilitate | 勉强：大概懂，但需要中文/图片支撑；卡：someone/make/weak | 不能：语境指向不够；线索词：debilitate/patients/illness | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| decimate | 不能：听不懂核心含义；卡：something/destroy/large | 不能：语境指向不够；线索词：decimate/farmers/orange | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| despotism | 勉强：大概懂，但需要中文/图片支撑；卡：absolute/leader/cruel | 不能：语境指向不够；线索词：despotism/elections/demanded | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| duplicity | 不能：听不懂核心含义；卡：dishonest/behavior/someone | 不能：语境指向不够；线索词：duplicity/revealed/stories | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| emancipate | 勉强：大概懂，但需要中文/图片支撑；卡：slavery/control/free | 不能：语境指向不够；线索词：emancipate/lincoln's/enslaved | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 需注意：历史/种族话题（奴隶制/废奴）—建议用“人权/平等”角度讲，避免细节刺激 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| enclave | 不能：听不懂核心含义；卡：different/larger/small | 不能：语境指向不够；线索词：community/enclave/artist | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| enmity | 勉强：大概懂，但需要中文/图片支撑；卡：feeling/strong/hatred | 不能：语境指向不够；线索词：agreement/families/between | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| epitome | 不能：听不懂核心含义；卡：something/perfect/example | 不能：语境指向不够；线索词：kindness/epitome/she | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| equinox | 不能：听不懂核心含义；卡：nighttime/daytime/length | 不能：语境指向不够；线索词：official/equinox/spring | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| estuary | 勉强：大概懂，但需要中文/图片支撑；卡：river/meets/wide | 不能：语境指向不够；线索词：species/estuary/waters | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| euphoria | 不能：听不懂核心含义；卡：excitement/happiness/feeling | 不能：语境指向不够；线索词：euphoria/felt/she | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| expatriate | 勉强：大概懂，但需要中文/图片支撑；卡：outside/country/person | 不能：语境指向不够；线索词：expatriate/country/missed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| flotilla | 勉强：大概懂，但需要中文/图片支撑；卡：small/fleet/ships | 不能：语境指向不够；线索词：flotilla/fishing/headed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| fluorescent | 勉强：大概懂，但需要中文/图片支撑；卡：giving/bright/light | 不能：语境指向不够；线索词：fluorescent/classroom/flickered | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| foliage | 勉强：大概懂，但需要中文/图片支撑；卡：leaves/plant/tree | 不能：语境指向不够；线索词：brilliant/foliage/autumn | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| forensic | 勉强：大概懂，但需要中文/图片支撑；卡：science/crimes/using | 不能：语境指向不够；线索词：forensic/evidence/identify | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| fraternity | 不能：听不懂核心含义；卡：brotherhood/interests/sharing | 勉强：可靠语境猜，但不稳；线索词：fraternity/scientists/together | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| fuselage | 勉强：大概懂，但需要中文/图片支撑；卡：airplane/main/body | 不能：语境指向不够；线索词：passengers/fuselage/airplane | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| gladiator | 勉强：大概懂，但需要中文/图片支撑；卡：fighter/ancient/battled | 不能：语境指向不够；线索词：spectators/gladiator/thousands | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| globalization | 不能：听不懂核心含义；卡：information/connected/becoming | 勉强：可靠语境猜，但不稳；线索词：globalization/everywhere/products | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| hydraulic | 勉强：大概懂，但需要中文/图片支撑；卡：operated/pressure/liquid | 不能：语境指向不够；线索词：hydraulic/raised/ground | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| hypothermia | 勉强：大概懂，但需要中文/图片支撑；卡：risky/state/body | 不能：语境指向不够；线索词：hypothermia/swimmers/water | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| illegitimate | 勉强：大概懂，但需要中文/图片支撑；卡：allowed/rules/valid | 勉强：可靠语境猜，但不稳；线索词：illegitimate/declared/cheating | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| impersonate | 勉强：大概懂，但需要中文/图片支撑；卡：pretend/another/person | 勉强：可靠语境猜，但不稳；线索词：impersonate/illegal/officer | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| inauguration | 不能：听不懂核心含义；卡：officially/someone's/office | 不能：语境指向不够；线索词：inauguration/television/millions | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| incandescent | 不能：听不懂核心含义；卡：extremely/glowing/bright | 勉强：可靠语境猜，但不稳；线索词：incandescent/bulb/lamp | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| kaleidoscope | 勉强：大概懂，但需要中文/图片支撑；卡：changing/patterns/mirrors | 勉强：可靠语境猜，但不稳；线索词：kaleidoscope/beautiful/shifting | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| keynote | 勉强：大概懂，但需要中文/图片支撑；卡：central/speech/event | 不能：语境指向不够；线索词：conference/scientist/delivered | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| laureate | 不能：听不懂核心含义；卡：achievement/person/given | 不能：语境指向不够；线索词：laureate/medicine/honored | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| lieutenant | 勉强：大概懂，但需要中文/图片支撑；卡：officer/captain/deputy | 不能：语境指向不够；线索词：lieutenant/order/gave | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| longevity | 勉强：大概懂，但需要中文/图片支撑；卡：duration/long/life | 不能：语境指向不够；线索词：scientists/contribute/longevity | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| matriarch | 勉强：大概懂，但需要中文/图片支撑；卡：family/woman/head | 不能：语境指向不够；线索词：matriarch/together/grandma | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| metropolis | 不能：听不懂核心含义；卡：important/large/city | 不能：语境指向不够；线索词：metropolis/residents/millions | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| millennial | 勉强：大概懂，但需要中文/图片支撑；卡：1980s-90s/spanning/thousand | 不能：语境指向不够；线索词：millennial/internet/group | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| mystification | 勉强：大概懂，但需要中文/图片支撑；卡：confused/puzzled/state | 不能：语境指向不够；线索词：mystification/caused/magic | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| acquittal | 勉强：大概懂，但需要中文/图片支撑；卡：judgment/person/guilty | 不能：语境指向不够；线索词：acquittal/defendant/meant | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| admonition | 勉强：大概懂，但需要中文/图片支撑；卡：scolding/warning/firm | 不能：语境指向不够；线索词：admonition/hallways/teacher | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| alliteration | 勉强：大概懂，但需要中文/图片支撑；卡：repeating/nearby/first | 不能：语境指向不够；线索词：alliteration/peppers/example | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| amphitheater | 勉强：大概懂，但需要中文/图片支撑；卡：open-air/theater/circle | 不能：语境指向不够；线索词：amphitheater/spectators/thousand | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| annuity | 勉强：大概懂，但需要中文/图片支撑；卡：someone/amount/fixed | 不能：语境指向不够；线索词：retiring/received/annuity | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| appropriation | 勉强：大概懂，但需要中文/图片支撑；卡：something/personal/purpose | 勉强：可靠语境猜，但不稳；线索词：appropriation/money/aside | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| armament | 不能：听不懂核心含义；卡：equipment/military/weapons | 不能：语境指向不够；线索词：country's/armament/limited | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| biennial | 不能：听不懂核心含义；卡：happening/years/once | 不能：语境指向不够；线索词：even-numbered/biennial/happens | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| biodegradable | 勉强：大概懂，但需要中文/图片支撑；卡：naturally/harming/setting | 不能：语境指向不够；线索词：biodegradable/plastic/paper | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| botanical | 勉强：大概懂，但需要中文/图片支撑；卡：plants/about/they | 不能：语境指向不够；线索词：botanical/thousands/species | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| bureaucratic | 不能：听不懂核心含义；卡：procedures/involving/complex | 不能：语境指向不够；线索词：bureaucratic/slowed/rules | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| capitulate | 勉强：大概懂，但需要中文/图片支撑；卡：fighting/demands/side's | 不能：语境指向不够；线索词：capitulate/supplies/weeks | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| centrifugal | 勉强：大概懂，但需要中文/图片支撑；卡：spinning/moving/center | 不能：语境指向不够；线索词：centrifugal/spinning/pushed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| citizenship | 勉强：大概懂，但需要中文/图片支撑；卡：country/status/member | 不能：语境指向不够；线索词：citizenship/country/earned | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| conglomerate | 不能：听不懂核心含义；卡：corporation/businesses/different | 不能：语境指向不够；线索词：conglomerate/companies/owns | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| containment | 不能：听不懂核心含义；卡：something/spreading/keeping | 不能：语境指向不够；线索词：containment/spreading/stopped | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| defamation | 不能：听不懂核心含义；卡：reputation/someone's/saying | 不能：语境指向不够；线索词：defamation/sued/he | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| denomination | 勉强：大概懂，但需要中文/图片支撑；卡：printed/branch/faith | 不能：语境指向不够；线索词：denomination/printed/dollars | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| desegregation | 不能：听不懂核心含义；卡：separation/ending/people | 不能：语境指向不够；线索词：desegregation/children/together | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| detonate | 不能：听不懂核心含义；卡：explosive/cause/bomb | 不能：语境指向不够；线索词：controlled/engineers/detonate | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| disarmament | 勉强：大概懂，但需要中文/图片支撑；卡：getting/weapons/peace | 不能：语境指向不够；线索词：disarmament/required/treaty | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| disembark | 勉强：大概懂，但需要中文/图片支撑；卡：airplane/vehicle/ship | 不能：语境指向不够；线索词：passengers/disembark/orderly | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| dissipate | 勉强：大概懂，但需要中文/图片支撑；卡：scatter/slowly/vanish | 不能：语境指向不够；线索词：dissipate/morning/comes | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| dormitory | 勉强：大概懂，但需要中文/图片支撑；卡：building/bedrooms/students | 不能：语境指向不够；线索词：dormitory/students/college | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| dossier | 不能：听不懂核心含义；卡：documents/subject/person | 不能：语境指向不够；线索词：detective/compiled/evidence | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| eloquence | 不能：听不懂核心含义；卡：persuasively/clearly/speak | 勉强：可靠语境猜，但不稳；线索词：eloquence/impressed/debate | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| embankment | 勉强：大概懂，但需要中文/图片支撑；卡：support/earth/built | 不能：语境指向不够；线索词：embankment/prevented/flooding | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| embezzlement | 勉强：大概懂，但需要中文/图片支撑；卡：stealing/placed/money | 不能：语境指向不够；线索词：embezzlement/treasurer/arrested | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| empowerment | 勉强：大概懂，但需要中文/图片支撑；卡：confidence/control/giving | 不能：语境指向不够；线索词：empowerment/communities/school | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| encryption | 不能：听不懂核心含义；卡：information/converting/security | 不能：语境指向不够；线索词：encryption/passwords/hackers | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| entomology | 不能：听不懂核心含义；卡：scientific/insects/study | 不能：语境指向不够；线索词：butterflies/entomology/collecting | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| epitaph | 不能：听不懂核心含义；卡：gravestone/written/memory | 不能：语境指向不够；线索词：epitaph/beloved/teacher | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| exasperate | 勉强：大概懂，但需要中文/图片支撑；卡：someone/greatly/annoy | 不能：语境指向不够；线索词：interruptions/exasperate/constant | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| exhilarate | 勉强：大概懂，但需要中文/图片支撑；卡：someone/excited/happy | 不能：语境指向不够；线索词：thrill-seekers/exhilarate/coaster | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| extradite | 勉强：大概懂，但需要中文/图片支撑；卡：happened/accused/person | 不能：语境指向不够；线索词：government/extradite/fugitive | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| facsimile | 不能：听不懂核心含义；卡：something/exact/copy | 勉强：可靠语境猜，但不稳；线索词：independence/declaration/displayed | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| firebrand | 不能：听不懂核心含义；卡：encourages/rebellion/trouble | 不能：语境指向不够；线索词：passionate/firebrand/speeches | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| fissure | 勉强：大概懂，但需要中文/图片支撑；卡：narrow/crack/earth | 勉强：可靠语境猜，但不稳；线索词：earthquake/appeared/fissure | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| foreclosure | 勉强：大概懂，但需要中文/图片支撑；卡：process/cannot/takes | 不能：语境指向不够；线索词：foreclosure/family/losing | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| freelance | 不能：听不懂核心含义；卡：different/companies/permanent | 不能：语境指向不够；线索词：freelance/magazines/articles | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| geriatric | 勉强：大概懂，但需要中文/图片支撑；卡：medical/people/about | 勉强：可靠语境猜，但不稳；线索词：specializes/geriatric/hospital | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| germination | 不能：听不懂核心含义；卡：beginning/process/plant | 不能：语境指向不够；线索词：germination/absorbs/starts | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| gratification | 不能：听不懂核心含义；卡：satisfaction/receiving/pleasure | 勉强：可靠语境猜，但不稳；线索词：gratification/solved/puzzle | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| hallucination | 勉强：大概懂，但需要中文/图片支撑；卡：hearing/seeing/things | 不能：语境指向不够；线索词：hallucination/sometimes/fever | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| herbicide | 勉强：大概懂，但需要中文/图片支撑；卡：chemical/unwanted/plants | 勉强：可靠语境猜，但不稳；线索词：herbicide/farmers/choking | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| heredity | 勉强：大概懂，但需要中文/图片支撑；卡：children/passing/parents | 不能：语境指向不够；线索词：heredity/explains/mother's | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| heresy | 勉强：大概懂，但需要中文/图片支撑；卡：teachings/accepted/against | 不能：语境指向不够；线索词：medieval/punished/severely | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| holistic | 不能：听不懂核心含义；卡：considering/rather/whole | 不能：语境指向不够；线索词：considers/holistic/approach | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| idealism | 不能：听不懂核心含义；卡：impossible/believing/standards | 不能：语境指向不够；线索词：completely/eliminated/idealism | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| immobilize | 不能：听不懂核心含义；卡：something/prevent/moving | 勉强：可靠语境猜，但不稳；线索词：immobilize/doctor/broken | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| incriminate | 勉强：大概懂，但需要中文/图片支撑；卡：someone/appear/guilty | 不能：语境指向不够；线索词：fingerprints/incriminate/suspect | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| industrialization | 勉强：大概懂，但需要中文/图片支撑；卡：factories/building/starting | 不能：语境指向不够；线索词：industrialization/manufacturing/changed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| ingenuity | 不能：听不懂核心含义；卡：inventive/quality/clever | 勉强：可靠语境猜，但不稳；线索词：ingenuity/working/helped | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| insurrection | 不能：听不懂核心含义；卡：government/rebellion/violent | 不能：语境指向不够；线索词：insurrection/government/stopped | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| intercede | 勉强：大概懂，但需要中文/图片支撑；卡：someone/behalf/speak | 不能：语境指向不够；线索词：intercede/students/teacher | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| internship | 不能：听不懂核心含义；卡：experience/student/trainee | 勉强：可靠语境猜，但不稳；线索词：internship/completed/hospital | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| introspection | 不能：听不懂核心含义；卡：examining/thoughts/feelings | 不能：语境指向不够；线索词：introspection/understand/helped | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| iridescent | 勉强：大概懂，但需要中文/图片支撑；卡：different/showing/colors | 不能：语境指向不够；线索词：iridescent/shimmered/rainbow | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| juxtaposition | 勉强：大概懂，但需要中文/图片支撑；卡：different/contrast/placing | 勉强：可靠语境猜，但不稳；线索词：juxtaposition/skyscraper/striking | 可唯一：场景名词足够强，4选1通常能锁定 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| laceration | 勉强：大概懂，但需要中文/图片支撑；卡：deep/tear/skin | 不能：语境指向不够；线索词：laceration/stitches/needed | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| landlocked | 不能：听不懂核心含义；卡：surrounded/access/land | 不能：语境指向不够；线索词：switzerland/landlocked/coastline | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| legitimacy | 勉强：大概懂，但需要中文/图片支撑；卡：accepted/legal/fair | 不能：语境指向不够；线索词：questioned/legitimacy/results | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| lethargy | 不能：听不懂核心含义；卡：enthusiasm/having/little | 不能：语境指向不够；线索词：lethargy/students/weather | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| lexicon | 勉强：大概懂，但需要中文/图片支撑；卡：language/person/words | 不能：语境指向不够；线索词：specialized/medical/experts | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| liquidate | 勉强：大概懂，但需要中文/图片支撑；卡：everything/business/close | 不能：语境指向不够；线索词：liquidate/inventory/failing | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| magnate | 勉强：大概懂，但需要中文/图片支撑；卡：business/wealthy/strong | 不能：语境指向不够；线索词：refineries/continents/magnate | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| mammoth | 不能：听不懂核心含义；卡：elephant-like/extinct/animal | 不能：语境指向不够；线索词：building/mammoth/project | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| marauder | 勉强：大概懂，但需要中文/图片支撑；卡：person/steals/others | 不能：语境指向不够；线索词：marauder/supplies/stole | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| memento | 勉强：大概懂，但需要中文/图片支撑；卡：reminder/object/person | 不能：语境指向不够；线索词：seashell/vacation/memento | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| meteorology | 不能：听不懂核心含义；卡：scientific/weather/climate | 不能：语境指向不够；线索词：meteorology/forecaster/studied | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| miscellaneous | 不能：听不懂核心含义；卡：consisting/different/things | 不能：语境指向不够；线索词：miscellaneous/drawer/items | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| mobilization | 不能：听不懂核心含义；卡：organizing/especially/preparing | 勉强：可靠语境猜，但不稳；线索词：mobilization/volunteers/announced | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| molecular | 不能：听不懂核心含义；卡：everything/molecules/pieces | 不能：语境指向不够；线索词：molecular/structure/studied | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| monologue | 勉强：大概懂，但需要中文/图片支撑；卡：speech/person/long | 不能：语境指向不够；线索词：delivered/monologue/powerful | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| monsoon | 勉强：大概懂，但需要中文/图片支撑；卡：seasonal/brings/heavy | 勉强：可靠语境猜，但不稳；线索词：rainfall/monsoon/season | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| philanthropist | 勉强：大概懂，但需要中文/图片支撑；卡：wealthy/person/others | 不能：语境指向不够；线索词：philanthropist/children's/millions | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| proclamation | 不能：听不懂核心含义；卡：announcement/official/public | 不能：语境指向不够；线索词：proclamation/celebration/declaring | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
-| ornithology | 不能：听不懂核心含义；卡：scientific/study/birds | 不能：语境指向不够；线索词：ornithology/watching/backyard | 一般可：更多是“感觉对”而非唯一锁定；建议加更强指向词 | 无明显冲突 | 中等偏难：建议先教基础同义词+构词法（如re-, -tion, -ment）再上；主题：通用；当前为字母序，学习上建议主题聚类 |
+| abolition | 勉强：卡点=officially/practice | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️种族/奴隶；用人权/平等框架 | 合适：具象/可场景化；可作为本level拓展词；前置词=officially/practice |
+| abrupt | 勉强：卡点=unexpected | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=unexpected |
+| acclaimed | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| accountant | 能：卡点=无 | 勉强：线索一般(overlap=0,商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,商业/金钱) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| acute | 勉强：卡点=一词多义/severe | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=severe |
+| adhesive | 勉强：卡点=substance | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=substance |
+| aerial | 勉强：卡点=happening | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=happening |
+| affirmative | 勉强：卡点=agreement | 不能：线索弱(overlap=0) | ⚠️不稳：可能有2+干扰项(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=agreement |
+| ailment | 勉强：卡点=illness | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=illness |
+| aisle | 能：卡点=无 | 勉强：线索一般(overlap=0,商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,商业/金钱) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| algebra | 能：卡点=无 | 勉强：线索一般(overlap=1,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=1,数学/学校) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化 |
+| allegory | 勉强：卡点=characters | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=characters |
+| allude | 不能：卡点=mention/something/indirect | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=mention/something |
+| ambassador | 勉强：卡点=represent | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️政治/制度：建议中性表述，避免价值对立 | 合适：具象/可场景化；可作为本level拓展词；前置词=represent |
+| ambiguity | 不能：卡点=situation/something/understood | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=situation/something |
+| ammunition | 能：卡点=无 | 勉强：线索一般(overlap=0,战争/军事+商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,战争/军事+商业/金钱) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词 |
+| anatomy | 能：卡点=无 | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| animation | 勉强：卡点=process | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=process |
+| annotate | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| antidote | 能：卡点=无 | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | ⚠️疾病/死亡；措辞温和 | 合适：具象/可场景化；可作为本level拓展词 |
+| antiquity | 不能：卡点=distant/especially/ancient | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=distant/especially |
+| apparel | 勉强：卡点=especially/specific | 勉强：线索一般(overlap=0,商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,商业/金钱) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=especially/specific |
+| apportion | 勉强：卡点=something | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| arcade | 能：卡点=无 | 勉强：线索一般(overlap=1) | ✅唯一：线索明确(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| archaic | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| arithmetic | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化 |
+| armistice | 勉强：卡点=formal | 勉强：线索一般(overlap=1,战争/军事) | ⚠️不稳：可能有2+干扰项(overlap=1,战争/军事) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=formal |
+| ascertain | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| assertive | 勉强：卡点=confident | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=confident |
+| astonish | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| astronaut | 能：卡点=无 | 勉强：线索一般(overlap=1) | ✅唯一：线索明确(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| astronomy | 能：卡点=无 | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| attic | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| audible | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| automation | 能：卡点=无 | 能：线索强(overlap=0) | ✅唯一：线索明确(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| bachelor | 勉强：卡点=一词多义 | 勉强：线索一般(overlap=2,数学/学校+科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=2,数学/学校+科学/医学) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| ballad | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| barricade | 能：卡点=无 | 勉强：线索一般(overlap=1,法庭/法律) | ✅唯一：线索明确(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| bazaar | 勉强：卡点=especially | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=especially |
+| benign | 勉强：卡点=一词多义 | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| bibliography | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| bilingual | 勉强：卡点=languages | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=languages |
+| blemish | 勉强：卡点=something | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| bliss | 勉强：卡点=happiness | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=happiness |
+| blockade | 不能：卡点=something/movement/especially | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something/movement |
+| bouquet | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| brigade | 勉强：卡点=organized | 不能：线索弱(overlap=0) | ⚠️不稳：可能有2+干扰项(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=organized |
+| buoyant | 勉强：卡点=一词多义/optimistic | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=optimistic |
+| caffeine | 勉强：卡点=substance | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=substance |
+| calamity | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| caliber | 勉强：卡点=ability | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=ability |
+| calligraphy | 勉强：卡点=beautiful | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=beautiful |
+| cardiovascular | 能：卡点=无 | 勉强：线索一般(overlap=1,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=1,科学/医学) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| cascade | 勉强：卡点=一词多义/waterfall/happening | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=waterfall/happening |
+| casualty | 能：卡点=无 | 勉强：线索一般(overlap=2) | ✅唯一：线索明确(overlap=2) | ⚠️疾病/死亡；措辞温和 | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化 |
+| charisma | 勉强：卡点=quality | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=quality |
+| circa | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| civilian | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| clarification | 勉强：卡点=something | 不能：线索弱(overlap=0) | ⚠️不稳：可能有2+干扰项(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| clemency | 勉强：卡点=kindness/punishment | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=kindness/punishment |
+| cliche | 能：卡点=无 | 能：线索强(overlap=1) | ✅唯一：线索明确(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| clientele | 勉强：卡点=customers/business | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=customers/business |
+| clockwise | 勉强：卡点=direction | 不能：线索弱(overlap=0) | ⚠️不稳：可能有2+干扰项(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=direction |
+| coax | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| coexist | 勉强：卡点=peacefully | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=peacefully |
+| coincidence | 勉强：卡点=surprising/situation | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=surprising/situation |
+| colleague | 能：卡点=无 | 勉强：线索一般(overlap=0,商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,商业/金钱) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| communism | 不能：卡点=government/property/equally | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️政治/制度：建议中性表述，避免价值对立 | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=government/property |
+| competence | 勉强：卡点=ability/something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=ability/something |
+| complication | 勉强：卡点=something/situation | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=something/situation |
+| compliment | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| composure | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| conclusive | 勉强：卡点=something | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| condense | 勉强：卡点=一词多义 | 勉强：线索一般(overlap=0,商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,商业/金钱) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| conspire | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| contentious | 勉强：卡点=arguments | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=arguments |
+| contingency | 勉强：卡点=something | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| contractor | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| conversion | 勉强：卡点=something/different | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something/different |
+| convict | 勉强：卡点=一词多义 | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | ⚠️战争/暴力；图片/例句避免血腥 | 偏难：一词多义；需先固定一个常用义再扩展 |
+| coral | 勉强：卡点=substance/creatures | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=substance/creatures |
+| coronation | 勉强：卡点=ceremony | 勉强：线索一般(overlap=1) | ✅唯一：线索明确(overlap=1) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=ceremony |
+| corporal | 勉强：卡点=一词多义 | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| corridor | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| counterfeit | 能：卡点=无 | 勉强：线索一般(overlap=0,法庭/法律+商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律+商业/金钱) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| credential | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| crescendo | 勉强：卡点=gradual/loudness | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=gradual/loudness |
+| crimson | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| critique | 勉强：卡点=judgment/something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=judgment/something |
+| culprit | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| dazzle | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| debut | 勉强：卡点=appearance/something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=appearance/something |
+| deceit | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| defiance | 勉强：卡点=refusal | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=refusal |
+| deforestation | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| delicacy | 勉强：卡点=一词多义/expensive | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=expensive |
+| deluge | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| demolish | 勉强：卡点=completely/structure | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=completely/structure |
+| designation | 勉强：卡点=official/something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=official/something |
+| desolate | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| despair | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| destitute | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️贫困/歧视；避免标签化 | 合适：具象/可场景化；可作为本level拓展词 |
+| devastation | 勉强：卡点=severe/widespread | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=severe/widespread |
+| devious | 勉强：卡点=dishonest | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=dishonest |
+| devout | 勉强：卡点=religious/committed | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️宗教；建议尊重多元/弱化评判 | 合适：具象/可场景化；可作为本level拓展词；前置词=religious/committed |
+| dialect | 勉强：卡点=particular | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=particular |
+| dictator | 勉强：卡点=opposition | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️政治/制度：建议中性表述，避免价值对立 | 合适：具象/可场景化；可作为本level拓展词；前置词=opposition |
+| disdain | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| dismay | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| distinction | 勉强：卡点=一词多义/difference | 能：线索强(overlap=1) | ✅唯一：线索明确(overlap=1) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=difference |
+| divert | 勉强：卡点=direction/something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=direction/something |
+| dominion | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| dubious | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| emigrate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| eminent | 勉强：卡点=respected | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=respected |
+| empathy | 勉强：卡点=ability/understand | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=ability/understand |
+| engrave | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| enlighten | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| enrich | 不能：卡点=improve/quality/something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=improve/quality |
+| envoy | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| estate | 勉强：卡点=一词多义/property | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=property |
+| eternal | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| evade | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| excursion | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| exposition | 勉强：卡点=一词多义 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| ferocious | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| festive | 能：卡点=无 | 不能：线索弱(overlap=0) | ⚠️不稳：可能有2+干扰项(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| feudal | 能：卡点=无 | 勉强：线索一般(overlap=2) | ⚠️不稳：可能有2+干扰项(overlap=2) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| folklore | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| fortitude | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| genealogy | 勉强：卡点=ancestors | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=ancestors |
+| grotesque | 勉强：卡点=unpleasant/distorted | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=unpleasant/distorted |
+| grudge | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| hostage | 勉强：卡点=prisoner/demands | 勉强：线索一般(overlap=0,战争/军事) | ⚠️不稳：可能有2+干扰项(overlap=0,战争/军事) | ⚠️战争/暴力；图片/例句避免血腥 | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=prisoner/demands |
+| humiliation | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| impediment | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| inaugural | 勉强：卡点=something/important | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something/important |
+| incarcerate | 能：卡点=无 | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | ⚠️战争/暴力；图片/例句避免血腥 | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化 |
+| indignant | 勉强：卡点=something | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| infantry | 能：卡点=无 | 勉强：线索一般(overlap=0,战争/军事) | ⚠️不稳：可能有2+干扰项(overlap=0,战争/军事) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| inheritance | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| injustice | 勉强：卡点=treatment/situation | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=treatment/situation |
+| instigate | 勉强：卡点=something/especially | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something/especially |
+| interrogate | 勉强：卡点=questions | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=questions |
+| laborious | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| malice | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| metaphor | 勉强：卡点=describes | 能：线索强(overlap=0) | ✅唯一：线索明确(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=describes |
+| neutrality | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化 |
+| overthrow | 勉强：卡点=government | 勉强：线索一般(overlap=0,战争/军事) | ⚠️不稳：可能有2+干扰项(overlap=0,战争/军事) | ⚠️政治/制度：建议中性表述，避免价值对立 | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=government |
+| patriot | 能：卡点=无 | 能：线索强(overlap=1) | ✅唯一：线索明确(overlap=1) | ⚠️政治/制度：建议中性表述，避免价值对立 | 合适：具象/可场景化；可作为本level拓展词 |
+| peasant | 勉强：卡点=especially | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=especially |
+| pension | 能：卡点=无 | 勉强：线索一般(overlap=0,商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,商业/金钱) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| persecution | 勉强：卡点=treatment/identity | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️贫困/歧视；避免标签化 | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=treatment/identity |
+| plague | 勉强：卡点=一词多义/something/widespread | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️疾病/死亡；措辞温和 | 偏难：一词多义；需先固定一个常用义再扩展；前置词=something/widespread |
+| plummet | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| polarize | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| retaliate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| retribution | 勉强：卡点=punishment/something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️战争/暴力；图片/例句避免血腥 | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=punishment/something |
+| sabotage | 勉强：卡点=something | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| spectacular | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| squander | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| subdue | 勉强：卡点=一词多义 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| supersede | 勉强：卡点=something/effective | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something/effective |
+| testimony | 不能：卡点=formal/statement/especially | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=formal/statement |
+| theology | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️宗教；建议尊重多元/弱化评判 | 合适：具象/可场景化；可作为本level拓展词 |
+| topography | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| transcontinental | 勉强：卡点=continent | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=continent |
+| truce | 能：卡点=无 | 能：线索强(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1,战争/军事) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| unanimous | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| uprising | 勉强：卡点=resistance/rebellion | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | ⚠️政治/制度：建议中性表述，避免价值对立 | 合适：具象/可场景化；可作为本level拓展词；前置词=resistance/rebellion |
+| utopia | 能：卡点=无 | 能：线索强(overlap=3) | ✅唯一：线索明确(overlap=3) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| absentee | 能：卡点=无 | 能：线索强(overlap=0) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| accreditation | 不能：卡点=official/approval/something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=official/approval |
+| adjourn | 能：卡点=无 | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| affidavit | 不能：卡点=statement/confirmed/oath | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=statement/confirmed |
+| almanac | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| aqueduct | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| aristocrat | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| artisan | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| assailant | 能：卡点=无 | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词 |
+| asylum | 能：卡点=无 | 勉强：线索一般(overlap=0,战争/军事) | ⚠️不稳：可能有2+干扰项(overlap=0,战争/军事) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| bailiff | 勉强：卡点=courtroom | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=courtroom |
+| bankruptcy | 勉强：卡点=legal/process | 勉强：线索一般(overlap=0,商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,商业/金钱) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=legal/process |
+| besiege | 勉强：卡点=一词多义 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| bipartisan | 勉强：卡点=supported/political | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️政治/制度：建议中性表述，避免价值对立 | 合适：具象/可场景化；可作为本level拓展词；前置词=supported/political |
+| brigand | 勉强：卡点=especially | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=especially |
+| captivity | 勉强：卡点=prisoner | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=prisoner |
+| caravan | 勉强：卡点=traveling | 勉强：线索一般(overlap=1) | ✅唯一：线索明确(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=traveling |
+| chaotic | 勉强：卡点=completely | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=completely |
+| colossal | 勉强：卡点=extremely | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=extremely |
+| combustion | 勉强：卡点=process/something | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=process/something |
+| confederacy | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️政治/制度：建议中性表述，避免价值对立 | 合适：具象/可场景化；可作为本level拓展词 |
+| congregate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| conspiracy | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| depleted | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| diplomatic | 勉强：卡点=offending | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=offending |
+| escapade | 勉强：卡点=adventure | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=adventure |
+| extortion | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词 |
+| abolitionist | 能：卡点=无 | 勉强：线索一般(overlap=2) | ✅唯一：线索明确(overlap=2) | ⚠️种族/奴隶；用人权/平等框架 | 合适：具象/可场景化；可作为本level拓展词 |
+| accomplice | 勉强：卡点=commit | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词；前置词=commit |
+| altruism | 勉强：卡点=unselfish | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=unselfish |
+| anarchist | 勉强：卡点=government | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=government |
+| apathy | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| armada | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| autocracy | 勉强：卡点=government | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=government |
+| censorship | 勉强：卡点=government | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=government |
+| centennial | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| chivalry | 勉强：卡点=一词多义/medieval | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=medieval |
+| circumnavigate | 勉强：卡点=something/especially | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something/especially |
+| colonialism | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| commodore | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| condolence | 勉强：卡点=expression | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=expression |
+| convalesce | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| crucible | 勉强：卡点=一词多义/severe | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=severe |
+| cryptic | 勉强：卡点=一词多义/mysterious | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=mysterious |
+| debilitate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| decimate | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| despotism | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️贫困/歧视；避免标签化 | 合适：具象/可场景化；可作为本level拓展词 |
+| duplicity | 勉强：卡点=dishonest | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=dishonest |
+| emancipate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️种族/奴隶；用人权/平等框架 | 合适：具象/可场景化；可作为本level拓展词 |
+| enclave | 勉强：卡点=different | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=different |
+| enmity | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| epitome | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| equinox | 勉强：卡点=nighttime | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=nighttime |
+| estuary | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| euphoria | 勉强：卡点=happiness/excitement | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=happiness/excitement |
+| expatriate | 能：卡点=无 | 勉强：线索一般(overlap=1) | ✅唯一：线索明确(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| flotilla | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| fluorescent | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| foliage | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| forensic | 勉强：卡点=science | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词；前置词=science |
+| fraternity | 勉强：卡点=一词多义 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| fuselage | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| gladiator | 勉强：卡点=ancient | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=ancient |
+| globalization | 能：卡点=无 | 能：线索强(overlap=0) | ✅唯一：线索明确(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| hydraulic | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| hypothermia | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| illegitimate | 勉强：卡点=一词多义 | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| impersonate | 能：卡点=无 | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| inauguration | 勉强：卡点=officially | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=officially |
+| incandescent | 勉强：卡点=一词多义/extremely | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=extremely |
+| kaleidoscope | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| keynote | 勉强：卡点=central | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=central |
+| laureate | 能：卡点=无 | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| lieutenant | 勉强：卡点=一词多义 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| longevity | 勉强：卡点=duration | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=duration |
+| matriarch | 能：卡点=无 | 勉强：线索一般(overlap=2) | ⚠️不稳：可能有2+干扰项(overlap=2) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| metropolis | 勉强：卡点=important | 能：线索强(overlap=1) | ✅唯一：线索明确(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=important |
+| millennial | 勉强：卡点=一词多义 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| mystification | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| acquittal | 勉强：卡点=judgment | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词；前置词=judgment |
+| admonition | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| alliteration | 勉强：卡点=repeating | 能：线索强(overlap=0) | ✅唯一：线索明确(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=repeating |
+| amphitheater | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| annuity | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| appropriation | 勉强：卡点=一词多义/something/personal | 能：线索强(overlap=3) | ✅唯一：线索明确(overlap=3) | OK | 偏难：一词多义；需先固定一个常用义再扩展；前置词=something/personal |
+| armament | 勉强：卡点=equipment | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=equipment |
+| biennial | 勉强：卡点=happening | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=happening |
+| biodegradable | 勉强：卡点=naturally | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=naturally |
+| botanical | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| bureaucratic | 勉强：卡点=involving/procedures | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=involving/procedures |
+| capitulate | 勉强：卡点=demands | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=demands |
+| centrifugal | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| citizenship | 勉强：卡点=legal | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=legal |
+| conglomerate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| containment | 勉强：卡点=something/spreading | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something/spreading |
+| defamation | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| denomination | 勉强：卡点=一词多义 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | ⚠️宗教；建议尊重多元/弱化评判 | 偏难：一词多义；需先固定一个常用义再扩展 |
+| desegregation | 勉强：卡点=separation | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=separation |
+| detonate | 勉强：卡点=explosive | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=explosive |
+| disarmament | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| disembark | 能：卡点=无 | 不能：线索弱(overlap=0) | ⚠️不稳：可能有2+干扰项(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| dissipate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| dormitory | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| dossier | 勉强：卡点=documents | 勉强：线索一般(overlap=0,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=0,法庭/法律) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=documents |
+| eloquence | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| embankment | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| embezzlement | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| empowerment | 勉强：卡点=confidence | 能：线索强(overlap=0) | ✅唯一：线索明确(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=confidence |
+| encryption | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| entomology | 勉强：卡点=scientific | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=scientific |
+| epitaph | 勉强：卡点=gravestone | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=gravestone |
+| exasperate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| exhilarate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| extradite | 能：卡点=无 | 勉强：线索一般(overlap=1,法庭/法律) | ⚠️不稳：可能有2+干扰项(overlap=1,法庭/法律) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词 |
+| facsimile | 勉强：卡点=something | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| firebrand | 勉强：卡点=encourages/rebellion | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=encourages/rebellion |
+| fissure | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| foreclosure | 勉强：卡点=process | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=process |
+| freelance | 不能：卡点=different/companies/permanent | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=different/companies |
+| geriatric | 勉强：卡点=medical | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=medical |
+| germination | 勉强：卡点=process/beginning | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=process/beginning |
+| gratification | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| hallucination | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| herbicide | 勉强：卡点=chemical | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=chemical |
+| heredity | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| heresy | 勉强：卡点=teachings | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️宗教；建议尊重多元/弱化评判 | 合适：具象/可场景化；可作为本level拓展词；前置词=teachings |
+| holistic | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| idealism | 不能：卡点=believing/standards/impossible | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=believing/standards |
+| immobilize | 勉强：卡点=something | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=something |
+| incriminate | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | ⚠️战争/暴力；图片/例句避免血腥 | 合适：具象/可场景化；可作为本level拓展词 |
+| industrialization | 勉强：卡点=process/factories | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=process/factories |
+| ingenuity | 勉强：卡点=quality/inventive | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：抽象/学科词；建议放到主题单元后段，并先教关键前置词；前置词=quality/inventive |
+| insurrection | 勉强：卡点=rebellion/government | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 偏难：依赖学科/背景知识；建议配图+中文释义+场景化；前置词=rebellion/government |
+| intercede | 能：卡点=无 | 勉强：线索一般(overlap=0,数学/学校) | ⚠️不稳：可能有2+干扰项(overlap=0,数学/学校) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| internship | 勉强：卡点=experience | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=experience |
+| introspection | 勉强：卡点=examining | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=examining |
+| iridescent | 勉强：卡点=different | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=different |
+| juxtaposition | 勉强：卡点=different | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=different |
+| laceration | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| landlocked | 勉强：卡点=surrounded | 能：线索强(overlap=0) | ✅唯一：线索明确(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=surrounded |
+| legitimacy | 勉强：卡点=legal | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=legal |
+| lethargy | 勉强：卡点=enthusiasm | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=enthusiasm |
+| lexicon | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| liquidate | 勉强：卡点=business/everything | 勉强：线索一般(overlap=0,商业/金钱) | ⚠️不稳：可能有2+干扰项(overlap=0,商业/金钱) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=business/everything |
+| magnate | 勉强：卡点=business | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=business |
+| mammoth | 勉强：卡点=一词多义 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 偏难：一词多义；需先固定一个常用义再扩展 |
+| marauder | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| memento | 能：卡点=无 | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| meteorology | 勉强：卡点=scientific | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=scientific |
+| miscellaneous | 勉强：卡点=consisting/different | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=consisting/different |
+| mobilization | 不能：卡点=preparing/organizing/especially | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=preparing/organizing |
+| molecular | 勉强：卡点=molecules/everything | 勉强：线索一般(overlap=0,科学/医学) | ⚠️不稳：可能有2+干扰项(overlap=0,科学/医学) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=molecules/everything |
+| monologue | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| monsoon | 勉强：卡点=seasonal | 勉强：线索一般(overlap=2) | ⚠️不稳：可能有2+干扰项(overlap=2) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=seasonal |
+| philanthropist | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| proclamation | 能：卡点=无 | 不能：线索弱(overlap=0) | ❌不唯一：语境太泛(overlap=0) | OK | 合适：具象/可场景化；可作为本level拓展词 |
+| ornithology | 勉强：卡点=scientific | 勉强：线索一般(overlap=1) | ⚠️不稳：可能有2+干扰项(overlap=1) | OK | 合适：具象/可场景化；可作为本level拓展词；前置词=scientific |
