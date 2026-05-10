@@ -6,7 +6,7 @@
     "gate1_pass": 5205,
     "gate2_pass": 5205,
     "gate3_pass": 5205,
-    "gate4_pass": 3017,
+    "gate4_pass": 3212,
     "gate5_pending": 4573,
     "gate6_pending": 4115,
     "allGatesClear": 0
@@ -94,11 +94,11 @@
     },
     "words-level3c.js": {
       "totalWords": 195,
-      "currentGate": 4,
+      "currentGate": 5,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
-      "gate4": "pending",
+      "gate4": "pass",
       "gate5": "pending",
       "gate6": "pending"
     },
