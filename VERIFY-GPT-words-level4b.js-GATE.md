@@ -1,310 +1,316 @@
-- infant | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现mother等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- inflation | L5:定义勉强(卡在prices/things；更容易想到rise)；例句猜能(线索较明确(含cost)) | L6:OK(线索够) | L7:OK | L8:偏难
-- initiative | L5:定义勉强(卡在independently/needed；更容易想到drive)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- insight | L5:定义勉强(卡在understanding/something；更容易想到deep)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- install | L5:定义勉强(卡在equipment/place；更容易想到put)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:偏难
-- integrity | L5:定义勉强(卡在honest/doing；更容易想到doing)；例句猜勉强(靠情境推断(例句出现wallet等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- intellect | L5:定义勉强(卡在understand/ability；更容易想到think)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- intercept | L5:定义勉强(卡在destination/something；更容易想到stop)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- interfere | L5:定义勉强(卡在something/involved；更容易想到get)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:偏难
-- intimidate | L5:定义勉强(卡在frighten/someone；更容易想到feel)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:偏难
-- intricate | L5:定义勉强(卡在detailed/having；更容易想到small)；例句猜勉强(靠情境推断(例句出现silk等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- introduction | L5:定义勉强(卡在background/something；更容易想到first)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- investment | L5:定义勉强(卡在something/hoping；更容易想到money)；例句猜勉强(靠情境推断(例句出现seeds等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- irrigate | L5:定义勉强(卡在farmland/channels；更容易想到water)；例句猜能(线索较明确(含water)) | L6:OK(线索够) | L7:OK | L8:超纲
-- labor | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现wall等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- landscape | L5:定义勉强(卡在features/visible；更容易想到area)；例句猜勉强(靠情境推断(例句出现plains等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- liberate | L5:定义勉强(卡在controlled/free；更容易想到set)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- literacy | L5:定义勉强(卡在ability/write；更容易想到read)；例句猜勉强(靠情境推断(例句出现books等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- margin | L5:定义勉强(卡在amount/blank；更容易想到blank)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- mechanism | L5:定义勉强(卡在something/together；更容易想到parts)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- media | L5:定义勉强(卡在information/newspapers；更容易想到ways)；例句猜能(线索较明确(含people)) | L6:OK(线索够) | L7:OK | L8:偏难
-- medieval | L5:定义勉强(卡在middle/ages；更容易想到ages)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- memorize | L5:定义勉强(卡在something/perfectly；更容易想到learn)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:偏难
-- menace | L5:定义勉强(卡在something/threatens；更容易想到cause)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- merit | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- metabolism | L5:定义勉强(卡在converts/process；更容易想到body)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- mimic | L5:定义能(definition直白)；例句猜能(线索较明确(含sounds)) | L6:OK(线索够) | L7:OK | L8:超纲
-- minimal | L5:定义勉强(卡在smallest/possible)；例句猜勉强(靠情境推断(例句出现storm等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- ministry | L5:定义勉强(卡在department/specific；更容易想到state)；例句猜不能(政府部门概念抽象；例句虽有education但仍可能和agency/department混) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- momentum | L5:定义勉强(卡在because/moving；更容易想到power)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- monarch | L5:定义勉强(卡在country/queen；更容易想到king)；例句猜勉强(靠情境推断(例句出现crown等具体线索)) | L6:NG(情境可多解) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- monopoly | L5:定义勉强(卡在especially/something)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- municipal | L5:定义勉强(卡在government/belonging；更容易想到city)；例句猜能(线索较明确(含city)) | L6:OK(线索够) | L7:OK | L8:超纲
-- narrative | L5:定义勉强(卡在account/events；更容易想到story)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- nitrogen | L5:定义勉强(卡在atmosphere/earth's；更容易想到gas)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- nominate | L5:定义勉强(卡在position/suggest；更容易想到award)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- norm | L5:定义勉强(卡在expected/things；更容易想到usual)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- nuclear | L5:定义能(definition直白)；例句猜能(线索较明确(含energy)) | L6:OK(线索够) | L7:OK | L8:偏难
-- oblige | L5:定义勉强(卡在something/require；更容易想到do)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- offend | L5:定义勉强(卡在someone's/feelings；更容易想到hurt)；例句猜能(线索较明确(含hurt/feelings)) | L6:OK(线索够) | L7:OK | L8:超纲
-- oppress | L5:定义勉强(卡在cruelly/people；更容易想到treat)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- orient | L5:定义勉强(卡在direction/position；更容易想到out)；例句猜能(线索较明确(含direction)) | L6:OK(线索够) | L7:OK | L8:超纲
-- output | L5:定义勉强(卡在something/produced)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- outrage | L5:定义勉强(卡在something/shocking；更容易想到anger)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- overlap | L5:定义勉强(卡在partly/happen；更容易想到cover)；例句猜勉强(靠情境推断(例句出现circles等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- overseas | L5:定义勉强(卡在country/across；更容易想到ocean)；例句猜勉强(靠情境推断(例句出现japan等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- overwhelm | L5:定义勉强(卡在something/handle；更容易想到feel)；例句猜勉强(靠情境推断(例句出现homework等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- patron | L5:定义勉强(卡在supporter/customer；更容易想到store)；例句猜勉强(靠情境推断(例句出现library等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- peak | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现sun等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- plantation | L5:定义勉强(卡在quantities/large；更容易想到large)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- plead | L5:定义勉强(卡在something/emotion；更容易想到ask)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- poll | L5:定义勉强(卡在opinions/they'll；更容易想到vote)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- pollinate | L5:定义勉强(卡在transfer/pollen；更容易想到plant)；例句猜勉强(靠情境推断(例句出现bees等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- pollute | L5:定义勉强(卡在harmful/water；更容易想到make)；例句猜能(线索较明确(含water)) | L6:OK(线索够) | L7:OK | L8:偏难
-- populate | L5:定义勉强(卡在people/living；更容易想到fill)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- precaution | L5:定义勉强(卡在something/prevent；更容易想到taken)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- preliminary | L5:定义勉强(卡在getting/coming；更容易想到main)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- premise | L5:定义勉强(卡在statement/argument；更容易想到idea)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- preside | L5:定义能(definition直白)；例句猜能(线索较明确(含meeting)) | L6:OK(线索够) | L7:注意(美式政治/机构) | L8:超纲
-- prevalent | L5:定义勉强(卡在widespread/particular；更容易想到place)；例句猜勉强(靠情境推断(例句出现flowers等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- primarily | L5:定义勉强(卡在especially/anything；更容易想到than)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- procedure | L5:定义勉强(卡在something/followed；更容易想到set)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- quota | L5:定义勉强(卡在expected/allowed；更容易想到fixed)；例句猜勉强(靠情境推断(例句出现books等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- rational | L5:定义勉强(卡在thinking/emotions；更容易想到based)；例句猜勉强(靠情境推断(例句出现rain等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- reaction | L5:定义勉强(卡在something/response；更容易想到do)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- recede | L5:定义勉强(卡在smaller/become；更容易想到move)；例句猜勉强(靠情境推断(例句出现storm等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- reception | L5:定义勉强(卡在something/welcome；更容易想到party)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- refer | L5:定义勉强(卡在something/someone；更容易想到facts)；例句猜勉强(靠情境推断(例句出现homework等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- refuge | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- regime | L5:定义不能(卡在government/especially；更容易想到one)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:注意(抗议/游行语境) | L8:超纲
-- relay | L5:定义勉强(卡在information/message；更容易想到pass)；例句猜能(线索较明确(含message)) | L6:OK(线索够) | L7:OK | L8:偏难
-- render | L5:定义勉强(卡在something/certain；更容易想到cause)；例句猜勉强(靠情境推断(例句出现snow等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- renovate | L5:定义勉强(卡在building/improve；更容易想到fix)；例句猜勉强(靠情境推断(例句出现theater等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- repeal | L5:定义勉强(卡在officially/cancel；更容易想到take)；例句猜能(线索较明确(含law)) | L6:OK(线索够) | L7:OK | L8:超纲
-- replicate | L5:定义勉强(卡在reproduce/something；更容易想到copy)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- resign | L5:定义勉强(卡在officially/position；更容易想到quit)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- restrain | L5:定义勉强(卡在something/prevent；更容易想到hold)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- retail | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现dollars等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- retrieve | L5:定义勉强(卡在something/bring；更容易想到get)；例句猜勉强(靠情境推断(例句出现lake等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- revolve | L5:定义勉强(卡在central/circle；更容易想到move)；例句猜能(线索较明确(含around)) | L6:OK(线索够) | L7:OK | L8:偏难
-- robust | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- rotate | L5:定义勉强(卡在around/center；更容易想到turn)；例句猜勉强(靠情境推断(例句出现earth等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- sanction | L5:定义勉强(卡在official/penalty；更容易想到okay)；例句猜不能(释义一词多义(批准/制裁)，例句用法偏生僻，四选一很容易选错) | L6:NG(不够唯一) | L7:注意(国际制裁含义(偏成人/可能敏感)) | L8:超纲
-- satellite | L5:定义勉强(卡在human-made/natural；更容易想到like)；例句猜勉强(靠情境推断(例句出现gps等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- saturate | L5:定义勉强(卡在completely/absorbed；更容易想到soak)；例句猜勉强(靠情境推断(例句出现rain等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- scenario | L5:定义勉强(卡在situation/possible)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- sector | L5:定义勉强(卡在section/larger；更容易想到part)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- senate | L5:定义勉强(卡在congress/groups；更容易想到one)；例句猜能(线索较明确(含two)) | L6:OK(线索够) | L7:注意(美式政治/机构) | L8:超纲
-- siege | L5:定义勉强(卡在surrounding/surrender；更容易想到place)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- significance | L5:定义勉强(卡在importance/something)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- simultaneous | L5:定义勉强(卡在happening/exactly；更容易想到time)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- skeptical | L5:定义勉强(卡在something/whether；更容易想到true)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- solemn | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现flag等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- somewhat | L5:定义勉强(卡在completely/degree；更容易想到some)；例句猜能(线索较明确(含but)) | L6:OK(线索够) | L7:OK | L8:超纲
-- sovereign | L5:定义勉强(卡在independent/highest；更容易想到power)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- spectrum | L5:定义勉强(卡在something/complete；更容易想到range)；例句猜能(线索较明确(含colors)) | L6:OK(线索够) | L7:OK | L8:偏难
-- speculate | L5:定义勉强(卡在something/having；更容易想到guess)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- sphere | L5:定义勉强(卡在three-dimensional/perfectly；更容易想到round)；例句猜勉强(靠情境推断(例句出现earth等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- stability | L5:定义勉强(卡在steady/likely；更容易想到state)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- stagger | L5:定义勉强(卡在unsteadily/different；更容易想到walk)；例句猜能(线索较明确(含times)) | L6:OK(线索够) | L7:OK | L8:超纲
-- stake | L5:定义勉强(卡在something/situation；更容易想到lose)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- statistic | L5:定义勉强(卡在collected/studying；更容易想到fact)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- statute | L5:定义勉强(卡在government/written；更容易想到law)；例句猜能(线索较明确(含passed)) | L6:OK(线索够) | L7:OK | L8:超纲
-- stereotype | L5:定义勉强(卡在oversimplified/thought；更容易想到often)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- stimulate | L5:定义勉强(卡在encourage/something；更容易想到make)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- subordinate | L5:定义勉强(卡在important/something；更容易想到lower)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- subsequent | L5:定义勉强(卡在something/coming；更容易想到else)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- subsidy | L5:定义勉强(卡在government/support；更容易想到money)；例句猜能(线索较明确(含government/prices)) | L6:OK(线索够) | L7:OK | L8:超纲
-- substance | L5:定义勉强(卡在material/measure；更容易想到see)；例句猜勉强(靠情境推断(例句出现earth等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- substantial | L5:定义勉强(卡在importance/amount；更容易想到large)；例句猜能(线索较明确(含amount)) | L6:OK(线索够) | L7:OK | L8:超纲
-- subtle | L5:定义勉强(卡在carefully/slight；更容易想到hard)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- successor | L5:定义勉强(卡在position/someone；更容易想到takes)；例句猜勉强(靠情境推断(例句出现school等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- summarize | L5:定义勉强(卡在briefly/details；更容易想到state)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:偏难
-- superb | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- supreme | L5:定义勉强(卡在importance/highest；更容易想到rank)；例句猜能(线索较明确(含highest)) | L6:OK(线索够) | L7:注意(美式政治/机构) | L8:超纲
-- surplus | L5:定义勉强(卡在needed/amount；更容易想到than)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- surrender | L5:定义勉强(卡在fighting/give；更容易想到give)；例句猜勉强(靠情境推断(例句出现code等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- synthetic | L5:定义勉强(卡在artificial/humans；更容易想到made)；例句猜能(线索较明确(含nature)) | L6:OK(线索够) | L7:OK | L8:超纲
-- tenant | L5:定义勉强(卡在building/person；更容易想到pays)；例句猜能(线索较明确(含pays/rent)) | L6:OK(线索够) | L7:OK | L8:超纲
-- terminal | L5:定义勉强(卡在travelers/building；更容易想到end)；例句猜勉强(靠情境推断(例句出现airport等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- terrain | L5:定义勉强(卡在physical/features；更容易想到land)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- testify | L5:定义勉强(卡在evidence/state；更容易想到give)；例句猜勉强(靠情境推断(例句出现witness等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- texture | L5:定义能(definition直白)；例句猜能(线索较明确(含feels)) | L6:OK(线索够) | L7:OK | L8:偏难
-- therapy | L5:定义勉强(卡在treatment/helps；更容易想到helps)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- threat | L5:定义勉强(卡在something/warning)；例句猜勉强(靠情境推断(例句出现ice等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- timber | L5:定义勉强(卡在building/trees；更容易想到wood)；例句猜能(线索较明确(含building)) | L6:OK(线索够) | L7:OK | L8:超纲
-- toxic | L5:定义勉强(卡在poisonous/cause；更容易想到able)；例句猜勉强(靠情境推断(例句出现frog等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- transaction | L5:定义勉强(卡在exchange/services；更容易想到goods)；例句猜勉强(靠情境推断(例句出现store等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- transition | L5:定义勉强(卡在condition/changing；更容易想到one)；例句猜勉强(靠情境推断(例句出现school等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- transmit | L5:定义勉强(卡在something/person；更容易想到send)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:偏难
-- trigger | L5:定义勉强(卡在something/reaction；更容易想到event)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- turbulent | L5:定义勉强(卡在movements/violent；更容易想到full)；例句猜勉强(靠情境推断(例句出现flight等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:偏难
-- twilight | L5:定义勉强(卡在sunrise/sunset；更容易想到dim)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- ultimate | L5:定义勉强(卡在possible/extreme；更容易想到final)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:偏难
-- undermine | L5:定义能(definition直白)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- obstinate | L5:定义勉强(卡在stubbornly/refusing；更容易想到one's)；例句猜勉强(靠情境推断(例句出现vegetables等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- obviate | L5:定义能(definition直白)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- onerous | L5:定义勉强(卡在involving/trouble；更容易想到lot)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- opacity | L5:定义勉强(卡在understand/quality；更容易想到hard)；例句猜能(线索较明确(含see)) | L6:OK(线索够) | L7:OK | L8:超纲
-- opulence | L5:定义勉强(卡在wealth/luxury；更容易想到great)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- oration | L5:定义勉强(卡在important/occasion；更容易想到given)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- oscillation | L5:定义勉强(卡在movement/regular；更容易想到back)；例句猜勉强(靠情境推断(例句出现pendulum等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- ostensible | L5:定义勉强(卡在appearing/possibly；更容易想到true)；例句猜能(线索较明确(含but)) | L6:OK(线索够) | L7:OK | L8:超纲
-- ostracism | L5:定义勉强(卡在excluding/someone；更容易想到group)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- overture | L5:定义勉强(卡在relationship/agreement；更容易想到start)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- palatable | L5:定义勉强(卡在acceptable/pleasant；更容易想到taste)；例句猜勉强(靠情境推断(例句出现honey等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- panacea | L5:定义勉强(卡在solution/problems)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- paragon | L5:定义勉强(卡在perfect/example；更容易想到good)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- paradoxical | L5:定义勉强(卡在contradict/seeming；更容易想到but)；例句猜能(线索较明确(含itself)) | L6:OK(线索够) | L7:OK | L8:超纲
-- paucity | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现rain等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- pedagogue | L5:定义勉强(卡在especially/teacher；更容易想到one)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- pedantic | L5:定义勉强(卡在details/caring；更容易想到too)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- pejorative | L5:定义勉强(卡在disapproval/expressing)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- penitence | L5:定义勉强(卡在something/feeling；更容易想到sorry)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- penultimate | L5:定义勉强(卡在second/series；更容易想到last)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- pernicious | L5:定义勉强(卡在harmful/noticed；更容易想到way)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- perturbation | L5:定义勉强(卡在feeling/unease；更容易想到worry)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- petulance | L5:定义勉强(卡在grumpy/small；更容易想到rude)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- placid | L5:定义勉强(卡在peaceful/movement；更容易想到calm)；例句猜勉强(靠情境推断(例句出现lake等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- platitude | L5:定义勉强(卡在meaning/remark；更容易想到has)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- plethora | L5:定义勉强(卡在overabundance/something)；例句猜勉强(靠情境推断(例句出现store等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- poignant | L5:定义勉强(卡在sympathy/causing；更容易想到sharp)；例句猜勉强(靠情境推断(例句出现theater等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- polemic | L5:定义勉强(卡在written/opinion)；例句猜勉强(靠情境推断(例句出现school等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- ponderous | L5:定义勉强(卡在boring/heavy；更容易想到slow)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- portentous | L5:定义勉强(卡在something/important；更容易想到bad)；例句猜勉强(靠情境推断(例句出现storm等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- pragmatism | L5:定义勉强(卡在practically/theories；更容易想到than)；例句猜能(线索较明确(含rather/than)) | L6:OK(线索够) | L7:OK | L8:超纲
-- precarious | L5:定义勉强(卡在secure/likely；更容易想到safe)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- precipitous | L5:定义勉强(卡在happening/quickly；更容易想到steep)；例句猜勉强(靠情境推断(例句出现ocean等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- precursor | L5:定义勉强(卡在something/comes；更容易想到comes)；例句猜勉强(靠情境推断(例句出现rain等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- predilection | L5:定义勉强(卡在preference/something)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- preeminent | L5:定义勉强(卡在important/better；更容易想到than)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- preponderance | L5:定义勉强(卡在something/majority)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- presentiment | L5:定义勉强(卡在something/feeling；更容易想到bad)；例句猜勉强(靠情境推断(例句出现rain等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- presumptuous | L5:定义勉强(卡在permission/something；更容易想到doing)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- primordial | L5:定义勉强(卡在existing/start；更容易想到start)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- probity | L5:定义勉强(卡在standards/complete；更容易想到high)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- proclivity | L5:定义勉强(卡在tendency/natural；更容易想到way)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- procrastinate | L5:定义勉强(卡在something/delay；更容易想到delay)；例句猜勉强(靠情境推断(例句出现homework等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- prodigious | L5:定义勉强(卡在amount/degree；更容易想到great)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- profligate | L5:定义不能(卡在carelessly/wastefully；更容易想到money)；例句猜能(线索较明确(含spending)) | L6:OK(线索够) | L7:OK | L8:超纲
-- prognosticate | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现rain等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- promulgation | L5:定义勉强(卡在officially/announcing；更容易想到law)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- propitious | L5:定义勉强(卡在favorable/success；更容易想到good)；例句猜勉强(靠情境推断(例句出现school等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- proprietary | L5:定义勉强(卡在company/person；更容易想到owned)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- proscribe | L5:定义勉强(卡在officially/something)；例句猜勉强(靠情境推断(例句出现school等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- proselytize | L5:定义勉强(卡在persuade/someone；更容易想到try)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:注意(宗教劝化词) | L8:超纲
-- protracted | L5:定义勉强(卡在expected/lasting；更容易想到than)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- provenance | L5:定义勉强(卡在something/history；更容易想到place)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- provisional | L5:定义勉强(卡在temporary/changed；更容易想到later)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- prowess | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- prudence | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现money等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- pugnacious | L5:定义勉强(卡在arguments/wanting；更容易想到fight)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- pulchritude | L5:定义勉强(卡在physical/beauty；更容易想到great)；例句猜勉强(靠情境推断(例句出现ocean等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- punctilious | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- punitive | L5:定义勉强(卡在punishment/intended)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- quagmire | L5:定义勉强(卡在difficult/situation；更容易想到hard)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- qualm | L5:定义勉强(卡在something/feeling；更容易想到doubt)；例句猜能(线索较明确(含something)) | L6:OK(线索够) | L7:OK | L8:超纲
-- quandary | L5:定义勉强(卡在confusion/state；更容易想到state)；例句猜勉强(靠情境推断(例句出现soccer等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- quarrelsome | L5:定义勉强(卡在disagree/likely；更容易想到argue)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- querulous | L5:定义勉强(卡在complaining/whiny；更容易想到whiny)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- quintessential | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- quixotic | L5:定义勉强(卡在unrealistic/idealistic)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- rambunctious | L5:定义勉强(卡在control/energy；更容易想到full)；例句猜勉强(靠情境推断(例句出现puppies等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- rancor | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- rapacious | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- rapprochement | L5:定义勉强(卡在relations/friendly；更容易想到two)；例句猜能(线索较明确(含two)) | L6:OK(线索够) | L7:OK | L8:超纲
-- rationale | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- recapitulate | L5:定义勉强(卡在summarize/something；更容易想到main)；例句猜能(线索较明确(含points)) | L6:OK(线索够) | L7:OK | L8:超纲
-- recidivism | L5:定义勉强(卡在tendency/behavior；更容易想到bad)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- reciprocity | L5:定义勉强(卡在trading/favors；更容易想到both)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- reclamation | L5:定义勉强(卡在returning/materials；更容易想到land)；例句猜勉强(靠情境推断(例句出现factory等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- reconciliation | L5:定义勉强(卡在restoring/relations；更容易想到fight)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- redress | L5:定义勉强(卡在correcting/something；更容易想到way)；例句猜能(线索较明确(含something)) | L6:OK(线索够) | L7:OK | L8:超纲
-- redundancy | L5:定义勉强(卡在longer/needed；更容易想到state)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- refurbish | L5:定义勉强(卡在something/repair；更容易想到make)；例句猜勉强(靠情境推断(例句出现library等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- reiterate | L5:定义勉强(卡在something/emphasis；更容易想到say)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- relegate | L5:定义勉强(卡在something/important；更容易想到put)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- remonstrate | L5:定义勉强(卡在something/complain)；例句猜勉强(靠情境推断(例句出现school等具体线索)) | L6:NG(情境可多解) | L7:注意(抗议/游行语境) | L8:超纲
-- renunciation | L5:定义勉强(卡在something/formally；更容易想到up)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- reparation | L5:定义勉强(卡在something/wrong；更容易想到done)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- reprehensible | L5:定义勉强(卡在deserves/blame；更容易想到bad)；例句猜勉强(靠情境推断(例句出现school等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- repudiation | L5:定义勉强(卡在rejection/something；更容易想到truth)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- requisition | L5:定义勉强(卡在something/official)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- rescind | L5:定义勉强(卡在officially/cancel；更容易想到law)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- resignation | L5:定义勉强(卡在unpleasant/accepting)；例句猜勉强(靠情境推断(例句出现rain等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- resolute | L5:定义勉强(卡在determined/unwilling；更容易想到give)；例句猜能(线索较明确(含up)) | L6:OK(线索够) | L7:OK | L8:超纲
-- resurgent | L5:定义勉强(卡在decline/rising；更容易想到again)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- reticence | L5:定义勉强(卡在unwilling/feelings；更容易想到speak)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- retrospective | L5:定义勉强(卡在happened/looking；更容易想到back)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- revelry | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现fireworks等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- reverberate | L5:定义勉强(卡在lasting/effects；更容易想到echo)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- rigmarole | L5:定义勉强(卡在complicated/process；更容易想到long)；例句猜勉强(靠情境推断(例句出现library等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- ruminate | L5:定义勉强(卡在carefully/something；更容易想到think)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- sacrosanct | L5:定义勉强(卡在interfered/important；更容易想到too)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- sagacious | L5:定义勉强(卡在understanding/judgment；更容易想到good)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- salient | L5:定义勉强(卡在noticeable/important)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- sanguine | L5:定义不能(卡在optimistic/especially)；例句猜勉强(靠情境推断(例句出现rain等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- sardonic | L5:定义勉强(卡在scornful/humorous；更容易想到way)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- scrupulous | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- scrutinize | L5:定义勉强(卡在something/carefully)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- sedentary | L5:定义勉强(卡在spending/sitting；更容易想到lot)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- semblance | L5:定义勉强(卡在appearance/something；更容易想到form)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- serendipity | L5:定义勉强(卡在something/accident；更容易想到good)；例句猜能(线索较明确(含finding)) | L6:OK(线索够) | L7:OK | L8:超纲
-- servile | L5:定义勉强(卡在willing/please；更容易想到too)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- simultaneity | L5:定义勉强(卡在happening/fact；更容易想到fact)；例句猜勉强(靠情境推断(例句出现fireworks等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- solace | L5:定义能(definition直白)；例句猜勉强(靠情境推断(例句出现books等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- solicitous | L5:定义勉强(卡在showing/concern；更容易想到care)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- soporific | L5:定义勉强(卡在making/sleepy；更容易想到feel)；例句猜勉强(靠情境推断(例句出现baby等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- spurious | L5:定义勉强(卡在genuine/false；更容易想到false)；例句猜勉强(靠情境推断(例句出现earth等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- squalid | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- stagnation | L5:定义勉强(卡在progressing/growing；更容易想到state)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- stipend | L5:定义勉强(卡在regular/payment；更容易想到fixed)；例句猜能(线索较明确(含small)) | L6:OK(线索够) | L7:OK | L8:超纲
-- stringent | L5:定义勉强(卡在strict/room；更容易想到room)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- subjugation | L5:定义勉强(卡在bringing/someone；更容易想到force)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- subliminal | L5:定义勉强(卡在conscious/awareness；更容易想到below)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- subordination | L5:定义勉强(卡在something/important)；例句猜勉强(靠情境推断(例句出现homework等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- subservient | L5:定义勉强(卡在whatever/willing；更容易想到do)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- substantiation | L5:定义勉强(卡在something/evidence；更容易想到true)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- subterfuge | L5:定义勉强(卡在deception/achieve；更容易想到trick)；例句猜能(线索较明确(含used)) | L6:OK(线索够) | L7:OK | L8:超纲
-- succinct | L5:定义勉强(卡在expressed/clearly；更容易想到words)；例句猜能(线索较明确(含words)) | L6:OK(线索够) | L7:OK | L8:超纲
-- symbiosis | L5:定义勉强(卡在different/organisms；更容易想到close)；例句猜能(线索较明确(含both)) | L6:OK(线索够) | L7:OK | L8:超纲
-- tangential | L5:定义勉强(卡在slightly/related；更容易想到main)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- tantamount | L5:定义勉强(卡在something/effect；更容易想到equal)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- temerity | L5:定义勉强(卡在considered/boldness；更容易想到nerve)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- temperance | L5:定义勉强(卡在self-control/moderation)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- tenacity | L5:定义勉强(卡在persistence/achieving；更容易想到goal)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- tenet | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- tepid | L5:定义勉强(卡在interest/showing；更容易想到warm)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- terse | L5:定义勉强(卡在using/words；更容易想到using)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- tirade | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- torpor | L5:定义能(definition直白)；例句猜能(线索较明确(含state)) | L6:OK(线索够) | L7:OK | L8:超纲
-- tractable | L5:定义勉强(卡在control/easy；更容易想到easy)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- transient | L5:定义勉强(卡在lasting/short；更容易想到short)；例句猜勉强(靠情境推断(例句出现rainbow等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- trepidation | L5:定义勉强(卡在something/feeling；更容易想到fear)；例句猜勉强(靠情境推断(例句出现school等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- truculent | L5:定义勉强(卡在aggressively/defiant；更容易想到cruel)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- ubiquity | L5:定义勉强(卡在everywhere/state；更容易想到state)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- umbrage | L5:定义勉强(卡在something/offended)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- unctuous | L5:定义勉强(卡在excessively/flattering；更容易想到seems)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- underpinning | L5:定义勉强(卡在foundation/something；更容易想到basic)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- unequivocal | L5:定义勉强(卡在completely/leaving；更容易想到doubt)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- unscrupulous | L5:定义勉强(卡在dishonest/willing；更容易想到do)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- usurpation | L5:定义勉强(卡在seizing/doesn't；更容易想到power)；例句猜勉强(靠情境推断(例句出现throne等具体线索)) | L6:NG(情境可多解) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- utilitarian | L5:定义勉强(卡在attractive/designed；更容易想到than)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- vacillate | L5:定义勉强(卡在something/changing；更容易想到keep)；例句猜勉强(靠情境推断(例句出现ice等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- vapid | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- vehemence | L5:定义勉强(卡在expressing/feelings；更容易想到great)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- venerate | L5:定义勉强(卡在admiration/respect；更容易想到great)；例句猜勉强(靠动词情境推断(但四选一可能撞义)) | L6:NG(易混同类) | L7:OK | L8:超纲
-- veracious | L5:定义勉强(卡在accurate/telling；更容易想到truth)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- verbose | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- vestige | L5:定义勉强(卡在remaining/something；更容易想到small)；例句猜勉强(靠情境推断(例句出现wall等具体线索)) | L6:NG(情境可多解) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- vilification | L5:定义勉强(卡在someone's/saying；更容易想到cruel)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- vindictive | L5:定义勉强(卡在wanting/revenge；更容易想到hurt)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- virtuosity | L5:定义勉强(卡在artistic/pursuit；更容易想到rare)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- vitriolic | L5:定义勉强(卡在criticism/filled；更容易想到hate)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- vociferous | L5:定义勉强(卡在expressing/forceful；更容易想到loud)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:注意(抗议/游行语境) | L8:超纲
-- volition | L5:定义勉强(卡在decisions/choosing；更容易想到power)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- waiver | L5:定义勉强(卡在official/giving；更容易想到paper)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- wanton | L5:定义勉强(卡在purpose/caring；更容易想到done)；例句猜勉强(靠情境推断(例句出现garden等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- warranted | L5:定义勉强(卡在justified/situation；更容易想到based)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- wherewithal | L5:定义勉强(卡在resources/something；更容易想到money)；例句猜勉强(靠情境推断(例句出现roof等具体线索)) | L6:NG(情境可多解) | L7:OK | L8:超纲
-- zealot | L5:定义能(definition直白)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- abnegation | L5:定义勉强(卡在something/important；更容易想到give)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- acerbic | L5:定义勉强(卡在direct/speech；更容易想到sharp)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- anachronism | L5:定义勉强(卡在something/different；更容易想到time)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- anathema | L5:定义不能(卡在disapproved/something)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- antithesis | L5:定义勉强(卡在something/opposite；更容易想到exact)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:注意(战争/王权/殖民叙事) | L8:超纲
-- asperity | L5:定义勉强(卡在harshness/sharpness；更容易想到tone)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- calumny | L5:定义勉强(卡在reputation/statement；更容易想到false)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- chicanery | L5:定义勉强(卡在deceive/tricks；更容易想到use)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
-- contumacious | L5:定义勉强(卡在stubbornly/refusing；更容易想到obey)；例句猜不能(抽象语境/线索少(四选一容易和同类词混)) | L6:NG(线索少/抽象) | L7:OK | L8:超纲
+# VERIFY-GPT — words-level4b.js (L5–L8)
+
+模拟：10岁中国ESL孩子（MAP≈197，约2年级）。逐词四层审校：L5理解度；L6反向4选1唯一性；L7文化敏感；L8学习路径/先修。
+
+|#|Word|L5(def)|L5(ex→word)|L6 反向测试(4选1)|L7|L8|
+|---:|---|---|---|---|---|---|
+|1|infant|OK：定义直白|勉强：例句具体，但要靠情境推断|{infant,peak,scenario,successor}→唯一|OK|OK：可作为可学词|
+|2|inflation|OK：定义直白|勉强：例句具体，但要靠情境推断|{inflation,plantation,sector,perturbation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|3|initiative|OK：定义直白|勉强：例句具体，但要靠情境推断|{initiative,procedure,stability,threat}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|4|insight|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{insight,poll,retail,paragon}→唯一|OK|OK：可作为可学词|
+|5|install|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{install,orient,retrieve,refurbish}→唯一|OK|OK：可作为可学词|
+|6|integrity|OK：定义直白|勉强：例句具体，但要靠情境推断|{integrity,reaction,simultaneous,plethora}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|7|intellect|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{intellect,stability,statute,transition}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|8|intercept|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{intercept,overlap,rotate,transmit}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|9|interfere|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{interfere,refer,somewhat,proselytize}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|10|intimidate|OK：定义直白|勉强：例句具体，但要靠情境推断|{intimidate,overwhelm,surrender,reverberate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|11|intricate|OK：定义直白|勉强：例句具体，但要靠情境推断|{intricate,robust,subsequent,ostracism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|12|introduction|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{introduction,peak,scenario,ultimate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|13|investment|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{investment,primarily,substance,therapy}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|14|irrigate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{irrigate,plead,reverberate,rescind}→唯一|OK|OK：可作为可学词|
+|15|labor|OK：定义直白|勉强：例句具体，但要靠情境推断|{labor,subsequent,siege,timber}→唯一|OK|OK：可作为可学词|
+|16|landscape|OK：定义直白|勉强：例句具体，但要靠情境推断|{landscape,scenario,significance,platitude}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|17|liberate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{liberate,pollute,summarize,reiterate}→唯一|OK|OK：可作为可学词|
+|18|literacy|OK：定义直白|勉强：例句具体，但要靠情境推断|{literacy,stability,statute,transition}→唯一|OK|OK：可作为可学词|
+|19|margin|OK：定义直白|勉强：例句具体，但要靠情境推断|{margin,precaution,stereotype,oration}→唯一|OK|OK：可作为可学词|
+|20|mechanism|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{mechanism,significance,platitude,qualm}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|21|media|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{media,simultaneous,sovereign,turbulent}→唯一|OK|OK：可作为可学词|
+|22|medieval|OK：定义直白|勉强：例句具体，但要靠情境推断|{medieval,robust,subsequent,ostracism}→唯一|注意：暴力/武器|OK：可作为可学词|
+|23|memorize|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{memorize,relay,speculate,procrastinate}→不唯一：线索偏少|OK|OK：可作为可学词|
+|24|menace|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{menace,primarily,substance,palatable}→唯一|OK|OK：可作为可学词|
+|25|merit|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{merit,procedure,stability,panacea}→唯一|OK|OK：可作为可学词|
+|26|metabolism|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{metabolism,quota,twilight,paragon}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|27|mimic|OK：定义直白|勉强：例句具体，但要靠情境推断|{mimic,replicate,procrastinate,refurbish}→唯一|OK|OK：可作为可学词|
+|28|minimal|OK：定义直白|勉强：例句具体，但要靠情境推断|{minimal,sector,statistic,opacity}→唯一|OK|OK：可作为可学词|
+|29|ministry|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{ministry,stability,statute,pedagogue}→唯一|OK|OK：可作为可学词|
+|30|momentum|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{momentum,reception,stereotype,oration}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|31|monarch|OK：定义直白|勉强：例句具体，但要靠情境推断|{monarch,significance,platitude,qualm}→唯一|OK|OK：可作为可学词|
+|32|monopoly|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{monopoly,simultaneous,subordinate,ostensible}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|33|municipal|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{municipal,robust,subsequent,ostracism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|34|narrative|OK：定义直白|勉强：例句具体，但要靠情境推断|{narrative,stereotype,tenant,overture}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|35|nitrogen|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{nitrogen,sanction,terminal,perturbation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|36|nominate|OK：定义直白|勉强：例句具体，但要靠情境推断|{nominate,renovate,reverberate,rescind}→不唯一：线索偏少|注意：政治|OK：可作为可学词|
+|37|norm|OK：定义直白|勉强：例句具体，但要靠情境推断|{norm,spectrum,twilight,paragon}→唯一|OK|OK：可作为可学词|
+|38|nuclear|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{nuclear,subsidy,texture,paradoxical}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|39|oblige|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{oblige,resign,summarize,reiterate}→唯一|OK|OK：可作为可学词|
+|40|offend|OK：定义直白|OK：线索充足|{offend,restrain,rescind,relegate}→不唯一：线索偏少|OK|OK：可作为可学词|
+|41|oppress|OK：定义直白|勉强：例句具体，但要靠情境推断|{oppress,stagger,obviate,proscribe}→唯一|OK|OK：可作为可学词|
+|42|orient|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{orient,retrieve,refurbish,proselytize}→唯一|OK|OK：可作为可学词|
+|43|output|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{output,statistic,transaction,penitence}→唯一|OK|OK：可作为可学词|
+|44|outrage|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{outrage,robust,synthetic,penultimate}→唯一|OK|OK：可作为可学词|
+|45|overlap|OK：定义直白|勉强：例句具体，但要靠情境推断|{overlap,rotate,transmit,procrastinate}→唯一|OK|OK：可作为可学词|
+|46|overseas|OK：定义直白|勉强：例句具体，但要靠情境推断|{overseas,surplus,trigger,precipitous}→唯一|OK|OK：可作为可学词|
+|47|overwhelm|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{overwhelm,surrender,reverberate,rescind}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|48|patron|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{patron,spectrum,twilight,predilection}→唯一|OK|OK：可作为可学词|
+|49|peak|OK：定义直白|勉强：例句具体，但要靠情境推断|{peak,scenario,ultimate,platitude}→唯一|OK|OK：可作为可学词|
+|50|plantation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{plantation,sector,perturbation,preponderance}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|51|plead|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{plead,reverberate,rescind,relegate}→不唯一：线索偏少|OK|OK：可作为可学词|
+|52|poll|OK：定义直白|勉强：例句具体，但要靠情境推断|{poll,twilight,paragon,polemic}→唯一|OK|OK：可作为可学词|
+|53|pollinate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{pollinate,procrastinate,refurbish,proselytize}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|54|pollute|OK：定义直白|勉强：例句具体，但要靠情境推断|{pollute,summarize,reiterate,reverberate}→唯一|OK|OK：可作为可学词|
+|55|populate|OK：定义直白|勉强：例句具体，但要靠情境推断|{populate,rescind,relegate,venerate}→唯一|OK|OK：可作为可学词|
+|56|precaution|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{precaution,stereotype,oration,reclamation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|57|preliminary|OK：定义直白|勉强：例句具体，但要靠情境推断|{preliminary,surplus,trigger,precipitous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|58|premise|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{premise,transaction,penitence,precursor}→唯一|OK|OK：可作为可学词|
+|59|preside|OK：定义直白|勉强：例句具体，但要靠情境推断|{preside,relegate,venerate,prognosticate}→唯一|注意：政治|OK：可作为可学词|
+|60|prevalent|OK：定义直白|勉强：例句具体，但要靠情境推断|{prevalent,subsidy,pernicious,preeminent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|61|primarily|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{primarily,substance,palatable,propitious}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|62|procedure|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{procedure,stability,panacea,presentiment}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|63|quota|OK：定义直白|勉强：例句具体，但要靠情境推断|{quota,twilight,paragon,quagmire}→唯一|OK|OK：可作为可学词|
+|64|rational|OK：定义直白|勉强：例句具体，但要靠情境推断|{rational,stake,onerous,primordial}→唯一|OK|OK：可作为可学词|
+|65|reaction|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reaction,therapy,plethora,probity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|66|recede|OK：定义直白|勉强：例句具体，但要靠情境推断|{recede,rescind,relegate,venerate}→唯一|OK|OK：可作为可学词|
+|67|reception|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reception,stereotype,oration,reclamation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|68|refer|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{refer,stimulate,proselytize,memorize}→唯一|OK|OK：可作为可学词|
+|69|refuge|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{refuge,transaction,penitence,redress}→唯一|OK|OK：可作为可学词|
+|70|regime|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{regime,transition,proclivity,redundancy}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|71|relay|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{relay,transmit,procrastinate,refurbish}→不唯一：线索偏少|OK|OK：可作为可学词|
+|72|render|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{render,proselytize,memorize,reiterate}→唯一|OK|OK：可作为可学词|
+|73|renovate|OK：定义直白|勉强：例句具体，但要靠情境推断|{renovate,reverberate,rescind,relegate}→不唯一：线索偏少|OK|OK：可作为可学词|
+|74|repeal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{repeal,testify,prognosticate,proscribe}→唯一|OK|OK：可作为可学词|
+|75|replicate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{replicate,procrastinate,refurbish,proselytize}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|76|resign|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{resign,summarize,reiterate,reverberate}→唯一|OK|OK：可作为可学词|
+|77|restrain|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{restrain,rescind,relegate,venerate}→唯一|OK|OK：可作为可学词|
+|78|retail|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{retail,paragon,polemic,reclamation}→唯一|OK|OK：可作为可学词|
+|79|retrieve|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{retrieve,refurbish,proselytize,memorize}→唯一|OK|OK：可作为可学词|
+|80|revolve|OK：定义直白|勉强：例句具体，但要靠情境推断|{revolve,surrender,reverberate,rescind}→唯一|OK|OK：可作为可学词|
+|81|robust|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{robust,synthetic,penultimate,pugnacious}→唯一|OK|OK：可作为可学词|
+|82|rotate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{rotate,transmit,procrastinate,refurbish}→唯一|OK|OK：可作为可学词|
+|83|sanction|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{sanction,terminal,perturbation,torpor}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|84|satellite|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{satellite,terrain,precursor,rapprochement}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|85|saturate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{saturate,testify,prognosticate,remonstrate}→唯一|OK|OK：可作为可学词|
+|86|scenario|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{scenario,ultimate,platitude,qualm}→唯一|OK|OK：可作为可学词|
+|87|sector|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{sector,perturbation,preponderance,quandary}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|88|senate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{senate,obstinate,poignant,quarrelsome}→唯一|OK|OK：可作为可学词|
+|89|siege|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{siege,timber,presumptuous,querulous}→唯一|OK|OK：可作为可学词|
+|90|significance|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{significance,platitude,qualm,reconciliation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|91|simultaneous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{simultaneous,plethora,portentous,quixotic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|92|skeptical|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{skeptical,opulence,pragmatism,rambunctious}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|93|solemn|OK：定义直白|勉强：例句具体，但要靠情境推断|{solemn,pedantic,precarious,rancor}→唯一|OK|OK：可作为可学词|
+|94|somewhat|勉强：句子稍长/词偏长|OK：线索充足|{somewhat,proselytize,memorize,reiterate}→唯一|OK|OK：可作为可学词|
+|95|sovereign|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{sovereign,turbulent,profligate,reticence}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|96|spectrum|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{spectrum,twilight,predilection,rationale}→唯一|OK|OK：可作为可学词|
+|97|speculate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{speculate,procrastinate,refurbish,recapitulate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|98|sphere|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{sphere,perturbation,preponderance,recidivism}→唯一|OK|OK：可作为可学词|
+|99|stability|OK：定义直白|勉强：例句具体，但要靠情境推断|{stability,panacea,presentiment,rigmarole}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|100|stagger|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{stagger,obviate,proscribe,ruminate}→唯一|OK|OK：可作为可学词|
+|101|stake|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{stake,onerous,primordial,sacrosanct}→唯一|OK|OK：可作为可学词|
+|102|statistic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{statistic,opacity,quandary,redress}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|103|statute|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{statute,pedagogue,proclivity,redundancy}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|104|stereotype|OK：定义直白|勉强：例句具体，但要靠情境推断|{stereotype,oration,reclamation,subterfuge}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|105|stimulate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{stimulate,proselytize,memorize,reiterate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|106|subordinate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{subordinate,ostensible,profligate,reticence}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|107|subsequent|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{subsequent,ostracism,pugnacious,retrospective}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|108|subsidy|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|OK：线索充足|{subsidy,pernicious,promulgation,renunciation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|109|substance|OK：定义直白|勉强：例句具体，但要靠情境推断|{substance,palatable,propitious,reparation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|110|substantial|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{substantial,petulance,proprietary,reprehensible}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|111|subtle|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{subtle,placid,retrospective,servile}→唯一|OK|OK：可作为可学词|
+|112|successor|OK：定义直白|勉强：例句具体，但要靠情境推断|{successor,platitude,qualm,requisition}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|113|summarize|OK：定义直白|勉强：例句具体，但要靠情境推断|{summarize,reiterate,reverberate,rescind}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|114|superb|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{superb,poignant,quarrelsome,salient}→唯一|OK|OK：可作为可学词|
+|115|supreme|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{supreme,pedantic,provisional,resolute}→唯一|OK|OK：可作为可学词|
+|116|surplus|OK：定义直白|勉强：例句具体，但要靠情境推断|{surplus,pejorative,prowess,resurgent}→唯一|OK|OK：可作为可学词|
+|117|surrender|OK：定义直白|勉强：例句具体，但要靠情境推断|{surrender,reverberate,rescind,liberate}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|118|synthetic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{synthetic,penultimate,pugnacious,retrospective}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|119|tenant|勉强：句子稍长/词偏长|OK：线索充足|{tenant,reclamation,subterfuge,stipend}→唯一|OK|OK：可作为可学词|
+|120|terminal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{terminal,perturbation,torpor,semblance}→不唯一：线索偏少|OK|OK：可作为可学词|
+|121|terrain|OK：定义直白|勉强：例句具体，但要靠情境推断|{terrain,precursor,rapprochement,rigmarole}→唯一|OK|OK：可作为可学词|
+|122|testify|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{testify,prognosticate,remonstrate,ruminate}→唯一|OK|OK：可作为可学词|
+|123|texture|OK：定义直白|勉强：例句具体，但要靠情境推断|{texture,preeminent,renunciation,sacrosanct}→唯一|OK|OK：可作为可学词|
+|124|therapy|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{therapy,plethora,reparation,sagacious}→唯一|OK|OK：可作为可学词|
+|125|threat|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{threat,presentiment,rigmarole,initiative}→唯一|OK|OK：可作为可学词|
+|126|timber|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{timber,presumptuous,querulous,sanguine}→唯一|OK|OK：可作为可学词|
+|127|toxic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{toxic,ponderous,quintessential,sardonic}→唯一|OK|OK：可作为可学词|
+|128|transaction|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{transaction,quandary,redress,symbiosis}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|129|transition|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{transition,proclivity,redundancy,stagnation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|130|transmit|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{transmit,procrastinate,refurbish,intercept}→唯一|OK|OK：可作为可学词|
+|131|trigger|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{trigger,precipitous,rapacious,stringent}→唯一|OK|OK：可作为可学词|
+|132|turbulent|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{turbulent,profligate,reticence,serendipity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|133|twilight|OK：定义直白|勉强：例句具体，但要靠情境推断|{twilight,predilection,rationale,tenacity}→唯一|OK|OK：可作为可学词|
+|134|ultimate|OK：定义直白|勉强：例句具体，但要靠情境推断|{ultimate,subterfuge,stipend,simultaneity}→唯一|OK|OK：可作为可学词|
+|135|undermine|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{undermine,reiterate,reverberate,refer}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|136|obstinate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{obstinate,proprietary,reciprocity,solicitous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|137|obviate|OK：定义直白|勉强：例句具体，但要靠情境推断|{obviate,proscribe,ruminate,preside}→唯一|OK|OK：可作为可学词|
+|138|onerous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{onerous,primordial,sacrosanct,spurious}→唯一|OK|OK：可作为可学词|
+|139|opacity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{opacity,quandary,redress,symbiosis}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|140|opulence|OK：定义直白|勉强：例句具体，但要靠情境推断|{opulence,quarrelsome,salient,tangential}→唯一|OK|OK：可作为可学词|
+|141|oration|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{oration,reclamation,subterfuge,stipend}→唯一|注意：政治|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|142|oscillation|OK：定义直白|勉强：例句具体，但要靠情境推断|{oscillation,prodigious,resurgent,stringent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|143|ostensible|勉强：句子稍长/词偏长|OK：线索充足|{ostensible,profligate,reticence,subjugation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|144|ostracism|OK：定义直白|勉强：例句具体，但要靠情境推断|{ostracism,pugnacious,retrospective,subliminal}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|145|overture|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{overture,subterfuge,stipend,tenet}→唯一|OK|OK：可作为可学词|
+|146|palatable|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{palatable,propitious,reparation,subservient}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|147|panacea|OK：定义直白|勉强：例句具体，但要靠情境推断|{panacea,rapprochement,rigmarole,initiative}→唯一|OK|OK：可作为可学词|
+|148|paragon|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{paragon,quagmire,repudiation,subterfuge}→唯一|OK|OK：可作为可学词|
+|149|paradoxical|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{paradoxical,renunciation,sacrosanct,succinct}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|150|paucity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{paucity,quandary,underpinning,symbiosis}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|151|pedagogue|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{pedagogue,provenance,resignation,antithesis}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|152|pedantic|OK：定义直白|勉强：例句具体，但要靠情境推断|{pedantic,provisional,resolute,tantamount}→唯一|OK|OK：可作为可学词|
+|153|pejorative|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{pejorative,prowess,resurgent,temerity}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|154|penitence|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{penitence,redress,symbiosis,ubiquity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|155|penultimate|OK：定义直白|勉强：例句具体，但要靠情境推断|{penultimate,pugnacious,retrospective,veracious}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|156|pernicious|OK：定义直白|勉强：例句具体，但要靠情境推断|{pernicious,pulchritude,revelry,unctuous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|157|perturbation|OK：定义直白|勉强：例句具体，但要靠情境推断|{perturbation,torpor,semblance,underpinning}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|158|petulance|OK：定义直白|勉强：例句具体，但要靠情境推断|{petulance,punitive,serendipity,terse}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|159|placid|OK：定义直白|勉强：例句具体，但要靠情境推断|{placid,retrospective,servile,unscrupulous}→唯一|OK|OK：可作为可学词|
+|160|platitude|OK：定义直白|勉强：例句具体，但要靠情境推断|{platitude,qualm,simultaneity,torpor}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|161|plethora|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{plethora,reparation,sagacious,tractable}→唯一|OK|OK：可作为可学词|
+|162|poignant|OK：定义直白|勉强：例句具体，但要靠情境推断|{poignant,quarrelsome,salient,transient}→唯一|OK|OK：可作为可学词|
+|163|polemic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{polemic,reclamation,subterfuge,trepidation}→唯一|OK|OK：可作为可学词|
+|164|ponderous|OK：定义直白|勉强：例句具体，但要靠情境推断|{ponderous,quintessential,sardonic,truculent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|165|portentous|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{portentous,quixotic,scrupulous,wanton}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|166|pragmatism|OK：定义直白|不能：线索少/过泛，容易多解|{pragmatism,rambunctious,tangential,veracious}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|167|precarious|OK：定义直白|勉强：例句具体，但要靠情境推断|{precarious,rancor,sedentary,unctuous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|168|precipitous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{precipitous,rapacious,stringent,investment}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|169|precursor|OK：定义直白|勉强：例句具体，但要靠情境推断|{precursor,rapprochement,ubiquity,initiative}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|170|predilection|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{predilection,rationale,tenacity,insight}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|171|preeminent|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{preeminent,renunciation,subordination,usurpation}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|172|preponderance|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{preponderance,recidivism,underpinning,minimal}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|173|presentiment|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{presentiment,rigmarole,initiative,antithesis}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|174|presumptuous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{presumptuous,servile,soporific,vapid}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|175|primordial|OK：定义直白|勉强：例句具体，但要靠情境推断|{primordial,sacrosanct,spurious,vehemence}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|176|probity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{probity,sagacious,squalid,wanton}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|177|proclivity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{proclivity,redundancy,stagnation,stability}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|178|procrastinate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{procrastinate,refurbish,intercept,memorize}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|179|prodigious|OK：定义直白|勉强：例句具体，但要靠情境推断|{prodigious,resurgent,stringent,investment}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|180|profligate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{profligate,reticence,subjugation,vilification}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|181|prognosticate|OK：定义直白|勉强：例句具体，但要靠情境推断|{prognosticate,remonstrate,populate,preside}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|182|promulgation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{promulgation,renunciation,subordination,virtuosity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|183|propitious|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{propitious,reparation,subservient,vitriolic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|184|proprietary|OK：定义直白|勉强：例句具体，但要靠情境推断|{proprietary,reprehensible,substantiation,vociferous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|185|proscribe|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{proscribe,ruminate,preside,intercept}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|186|proselytize|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{proselytize,memorize,install,interfere}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|187|protracted|OK：定义直白|勉强：例句具体，但要靠情境推断|{protracted,sagacious,tractable,wanton}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|188|provenance|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{provenance,resignation,antithesis,stability}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|189|provisional|OK：定义直白|勉强：例句具体，但要靠情境推断|{provisional,resolute,tantamount,siege}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|190|prowess|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{prowess,resurgent,temerity,investment}→唯一|OK|OK：可作为可学词|
+|191|prudence|OK：定义直白|勉强：例句具体，但要靠情境推断|{prudence,reticence,temperance,abnegation}→唯一|OK|OK：可作为可学词|
+|192|pugnacious|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{pugnacious,retrospective,veracious,acerbic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|193|pulchritude|OK：定义直白|勉强：例句具体，但要靠情境推断|{pulchritude,revelry,unctuous,anachronism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|194|punctilious|OK：定义直白|勉强：例句具体，但要靠情境推断|{punctilious,stringent,tepid,anathema}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|195|punitive|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{punitive,serendipity,terse,sovereign}→唯一|OK|OK：可作为可学词|
+|196|quagmire|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{quagmire,tenacity,tirade,margin}→唯一|OK|OK：可作为可学词|
+|197|qualm|勉强：句子稍长/词偏长|OK：线索充足|{qualm,simultaneity,torpor,calumny}→不唯一：线索偏少|OK|OK：可作为可学词|
+|198|quandary|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{quandary,underpinning,minimal,chicanery}→不唯一：线索偏少|OK|OK：可作为可学词|
+|199|quarrelsome|OK：定义直白|勉强：例句具体，但要靠情境推断|{quarrelsome,salient,transient,contumacious}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|200|querulous|OK：定义直白|勉强：例句具体，但要靠情境推断|{querulous,sanguine,vapid,siege}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|201|quintessential|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{quintessential,sardonic,truculent,investment}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|202|quixotic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{quixotic,scrupulous,wanton,simultaneous}→唯一|OK|OK：可作为可学词|
+|203|rambunctious|OK：定义直白|勉强：例句具体，但要靠情境推断|{rambunctious,tangential,veracious,labor}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|204|rancor|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{rancor,sedentary,unctuous,nuclear}→唯一|OK|OK：可作为可学词|
+|205|rapacious|OK：定义直白|勉强：例句具体，但要靠情境推断|{rapacious,stringent,investment,integrity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|206|rapprochement|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|OK：线索充足|{rapprochement,ubiquity,initiative,intellect}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|207|rationale|OK：定义直白|勉强：例句具体，但要靠情境推断|{rationale,tenacity,insight,margin}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|208|recapitulate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{recapitulate,memorize,install,interfere}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|209|recidivism|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{recidivism,underpinning,minimal,output}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|210|reciprocity|OK：定义直白|勉强：例句具体，但要靠情境推断|{reciprocity,solicitous,vociferous,intricate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|211|reclamation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reclamation,subterfuge,volition,introduction}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|212|reconciliation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reconciliation,torpor,waiver,nitrogen}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|213|redress|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|不能：线索少/过泛，容易多解|{redress,symbiosis,chicanery,merit}→不唯一：线索偏少|OK|OK：可作为可学词|
+|214|redundancy|OK：定义直白|勉强：例句具体，但要靠情境推断|{redundancy,stagnation,stability,metabolism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|215|refurbish|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{refurbish,intercept,memorize,mimic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|216|reiterate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reiterate,interfere,refer,liberate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|217|relegate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{relegate,venerate,irrigate,offend}→唯一|OK|OK：可作为可学词|
+|218|remonstrate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{remonstrate,populate,preside,oppress}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|219|renunciation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|不能：线索少/过泛，容易多解|{renunciation,subordination,virtuosity,rational}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|220|reparation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reparation,subservient,vitriolic,media}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|221|reprehensible|OK：定义直白|勉强：例句具体，但要靠情境推断|{reprehensible,substantiation,vociferous,medieval}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|222|repudiation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{repudiation,subterfuge,volition,narrative}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|223|requisition|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{requisition,torpor,waiver,nitrogen}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|224|rescind|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{rescind,liberate,intimidate,nominate}→唯一|OK|OK：可作为可学词|
+|225|resignation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{resignation,antithesis,stability,metabolism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|226|resolute|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{resolute,tantamount,siege,nuclear}→唯一|OK|OK：可作为可学词|
+|227|resurgent|OK：定义直白|勉强：例句具体，但要靠情境推断|{resurgent,temerity,investment,primarily}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|228|reticence|OK：定义直白|勉强：例句具体，但要靠情境推断|{reticence,temperance,abnegation,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|229|retrospective|OK：定义直白|勉强：例句具体，但要靠情境推断|{retrospective,veracious,acerbic,subsequent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|230|revelry|OK：定义直白|勉强：例句具体，但要靠情境推断|{revelry,unctuous,anachronism,rational}→唯一|OK|OK：可作为可学词|
+|231|reverberate|OK：定义直白|勉强：例句具体，但要靠情境推断|{reverberate,refer,liberate,pollute}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|232|rigmarole|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{rigmarole,initiative,antithesis,stability}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|233|ruminate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{ruminate,preside,intercept,overlap}→不唯一：线索偏少|OK|OK：可作为可学词|
+|234|sacrosanct|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{sacrosanct,usurpation,rational,overseas}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|235|sagacious|OK：定义直白|勉强：例句具体，但要靠情境推断|{sagacious,tractable,media,simultaneous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|236|salient|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{salient,transient,contumacious,robust}→唯一|OK|OK：可作为可学词|
+|237|sanguine|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{sanguine,vapid,siege,nuclear}→唯一|OK|OK：可作为可学词|
+|238|sardonic|OK：定义直白|勉强：例句具体，但要靠情境推断|{sardonic,truculent,investment,primarily}→唯一|OK|OK：可作为可学词|
+|239|scrupulous|OK：定义直白|勉强：例句具体，但要靠情境推断|{scrupulous,wanton,simultaneous,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|240|scrutinize|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{scrutinize,populate,preside,oppress}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|241|sedentary|OK：定义直白|勉强：例句具体，但要靠情境推断|{sedentary,unctuous,nuclear,rational}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|242|semblance|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{semblance,underpinning,minimal,output}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|243|serendipity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{serendipity,unequivocal,sovereign,outrage}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|244|servile|OK：定义直白|勉强：例句具体，但要靠情境推断|{servile,unscrupulous,subsequent,siege}→唯一|OK|OK：可作为可学词|
+|245|simultaneity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{simultaneity,landscape,mechanism,significance}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|246|solace|OK：定义直白|勉强：例句具体，但要靠情境推断|{solace,utilitarian,media,simultaneous}→唯一|OK|OK：可作为可学词|
+|247|solicitous|OK：定义直白|勉强：例句具体，但要靠情境推断|{solicitous,vociferous,intricate,robust}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|248|soporific|OK：定义直白|勉强：例句具体，但要靠情境推断|{soporific,vapid,siege,prevalent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|249|spurious|OK：定义直白|勉强：例句具体，但要靠情境推断|{spurious,vehemence,investment,primarily}→唯一|OK|OK：可作为可学词|
+|250|squalid|OK：定义直白|勉强：例句具体，但要靠情境推断|{squalid,wanton,simultaneous,sovereign}→唯一|OK|OK：可作为可学词|
+|251|stagnation|OK：定义直白|勉强：例句具体，但要靠情境推断|{stagnation,stability,metabolism,poll}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|252|stipend|OK：定义直白|勉强：例句具体，但要靠情境推断|{stipend,wherewithal,landscape,scenario}→唯一|OK|OK：可作为可学词|
+|253|stringent|OK：定义直白|勉强：例句具体，但要靠情境推断|{stringent,investment,primarily,reaction}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|254|subjugation|OK：定义直白|勉强：例句具体，但要靠情境推断|{subjugation,vilification,sovereign,senate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|255|subliminal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{subliminal,vindictive,subsequent,siege}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|256|subordination|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{subordination,virtuosity,rational,preliminary}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|257|subservient|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{subservient,vitriolic,media,simultaneous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|258|substantiation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{substantiation,vociferous,medieval,robust}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|259|subterfuge|OK：定义直白|勉强：例句具体，但要靠情境推断|{subterfuge,volition,narrative,stereotype}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|260|succinct|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{succinct,rational,menace,primarily}→不唯一：线索偏少|OK|OK：可作为可学词|
+|261|symbiosis|勉强：句子稍长/词偏长|OK：线索充足|{symbiosis,chicanery,merit,procedure}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|262|tangential|OK：定义直白|勉强：例句具体，但要靠情境推断|{tangential,warranted,robust,subsequent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|263|tantamount|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{tantamount,siege,nuclear,rational}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|264|temerity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{temerity,investment,primarily,reaction}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|265|temperance|OK：定义直白|勉强：例句具体，但要靠情境推断|{temperance,abnegation,sovereign,senate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|266|tenacity|OK：定义直白|勉强：例句具体，但要靠情境推断|{tenacity,insight,momentum,reception}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|267|tenet|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{tenet,landscape,monarch,significance}→唯一|OK|OK：可作为可学词|
+|268|tepid|OK：定义直白|勉强：例句具体，但要靠情境推断|{tepid,anathema,monopoly,simultaneous}→唯一|OK|OK：可作为可学词|
+|269|terse|OK：定义直白|勉强：例句具体，但要靠情境推断|{terse,sovereign,municipal,robust}→唯一|OK|OK：可作为可学词|
+|270|tirade|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{tirade,margin,narrative,stereotype}→唯一|OK|OK：可作为可学词|
+|271|torpor|OK：定义直白|勉强：例句具体，但要靠情境推断|{torpor,calumny,nitrogen,sanction}→唯一|OK|OK：可作为可学词|
+|272|tractable|OK：定义直白|勉强：例句具体，但要靠情境推断|{tractable,media,simultaneous,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|273|transient|OK：定义直白|勉强：例句具体，但要靠情境推断|{transient,contumacious,robust,subsequent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|274|trepidation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{trepidation,infant,peak,scenario}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|275|truculent|OK：定义直白|勉强：例句具体，但要靠情境推断|{truculent,investment,primarily,substance}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|276|ubiquity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{ubiquity,initiative,procedure,stability}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|277|umbrage|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{umbrage,insight,poll,retail}→不唯一：线索偏少|OK|OK：可作为可学词|
+|278|unctuous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{unctuous,nuclear,rational,stake}→唯一|OK|OK：可作为可学词|
+|279|underpinning|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{underpinning,minimal,output,statistic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|280|unequivocal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{unequivocal,sovereign,outrage,robust}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|281|unscrupulous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{unscrupulous,subsequent,siege,solemn}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|282|usurpation|OK：定义直白|勉强：例句具体，但要靠情境推断|{usurpation,rational,overseas,surplus}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|283|utilitarian|OK：定义直白|勉强：例句具体，但要靠情境推断|{utilitarian,media,simultaneous,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|284|vacillate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{vacillate,populate,preside,saturate}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|285|vapid|OK：定义直白|勉强：例句具体，但要靠情境推断|{vapid,siege,prevalent,subsidy}→唯一|OK|OK：可作为可学词|
+|286|vehemence|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{vehemence,investment,primarily,substance}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|287|venerate|OK：定义直白|勉强：例句具体，但要靠情境推断|{venerate,irrigate,plead,reverberate}→唯一|OK|OK：可作为可学词|
+|288|veracious|OK：定义直白|勉强：例句具体，但要靠情境推断|{veracious,labor,subsequent,siege}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|289|verbose|OK：定义直白|勉强：例句具体，但要靠情境推断|{verbose,nuclear,rational,stake}→唯一|OK|OK：可作为可学词|
+|290|vestige|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{vestige,minimal,sector,statistic}→唯一|OK|OK：可作为可学词|
+|291|vilification|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{vilification,sovereign,senate,skeptical}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|292|vindictive|OK：定义直白|勉强：例句具体，但要靠情境推断|{vindictive,subsequent,siege,solemn}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|293|virtuosity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{virtuosity,rational,preliminary,surplus}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|294|vitriolic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{vitriolic,media,simultaneous,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|295|vociferous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{vociferous,medieval,robust,subsequent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|296|volition|OK：定义直白|勉强：例句具体，但要靠情境推断|{volition,narrative,stereotype,tenant}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|297|waiver|OK：定义直白|勉强：例句具体，但要靠情境推断|{waiver,nitrogen,sanction,sphere}→唯一|OK|OK：可作为可学词|
+|298|wanton|OK：定义直白|勉强：例句具体，但要靠情境推断|{wanton,simultaneous,sovereign,substantial}→唯一|OK|OK：可作为可学词|
+|299|warranted|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{warranted,robust,subsequent,subtle}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|300|wherewithal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{wherewithal,peak,scenario,successor}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|301|zealot|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{zealot,minimal,sector,statistic}→唯一|OK|OK：可作为可学词|
+|302|abnegation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{abnegation,sovereign,senate,superb}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|303|acerbic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{acerbic,subsequent,siege,supreme}→唯一|OK|OK：可作为可学词|
+|304|anachronism|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{anachronism,rational,stake,surplus}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|305|anathema|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{anathema,monopoly,simultaneous,subordinate}→不唯一：线索偏少|OK|OK：可作为可学词|
+|306|antithesis|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{antithesis,stability,regime,transition}→唯一|注意：暴力/武器|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|307|asperity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{asperity,siege,solemn,subsidy}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|308|calumny|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{calumny,nitrogen,sanction,terminal}→唯一|OK|OK：可作为可学词|
+|309|chicanery|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{chicanery,premise,satellite,terrain}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+|310|contumacious|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{contumacious,robust,subsequent,subtle}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
