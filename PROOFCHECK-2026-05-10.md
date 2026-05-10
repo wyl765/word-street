@@ -1,25 +1,321 @@
 # Proofcheck Report — 2026-05-10
 
 **Engine:** proofcheck.mjs v1.0
-**Entries:** 5204
-**Results:** 0 CRITICAL | 0 MAJOR | 110 MINOR
+**Entries:** 5205
+**Results:** 0 CRITICAL | 8 MAJOR | 177 MINOR
 
 ## Issues
 
-### [MINOR] words-level5c.js — "calligraphy" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "beautiful": "the art of writing letters in a very careful and beautiful way"
+### [MAJOR] words-level2b.js — "medicine" (CIRCULAR_DEF)
+Definition contains the word itself: "medicine" in "a small round bit of medicine, liquid, or cream that a doctor gives you to treat sickness"
+**Fix:** Rewrite definition without using the target word
+
+### [MAJOR] words-level2c.js — "bother" (CIRCULAR_DEF)
+Definition contains the word itself: "bother" in "to to bother or to bother or break the quiet someone"
+**Fix:** Rewrite definition without using the target word
+
+### [MAJOR] words-level2a.js — "explicit" (GRAMMAR)
+"no something" should be "without something" or "no someth"
+**Fix:** Fix grammar pattern
+
+### [MAJOR] words-level3b.js — "treaty" (GRAMMAR)
+"no fighting" should be "without fighting" or "no fight"
+**Fix:** Fix grammar pattern
+
+### [MAJOR] words-level5c.js — "disarmament" (GRAMMAR)
+"no fighting" should be "without fighting" or "no fight"
+**Fix:** Fix grammar pattern
+
+### [MAJOR] words-level5d.js — "impasse" (GRAMMAR)
+"no moving" should be "without moving" or "no mov"
+**Fix:** Fix grammar pattern
+
+### [MAJOR] words-level5d.js — "tranquility" (GRAMMAR)
+"no fighting" should be "without fighting" or "no fight"
+**Fix:** Fix grammar pattern
+
+### [MAJOR] words-level5d.js — "conciliatory" (GRAMMAR)
+"no fighting" should be "without fighting" or "no fight"
+**Fix:** Fix grammar pattern
+
+### [MINOR] words-level2d.js — "scope" (ARTICLE_ERROR)
+Possible "a/an" error: "a idea"
+**Fix:** Consider "an idea"
+
+### [MINOR] words-level3a.js — "broach" (ARTICLE_ERROR)
+Possible "a/an" error: "a idea"
+**Fix:** Consider "an idea"
+
+### [MINOR] words-level3b.js — "emboss" (ARTICLE_ERROR)
+Possible "a/an" error: "a outside"
+**Fix:** Consider "an outside"
+
+### [MINOR] words-level3b.js — "encrust" (ARTICLE_ERROR)
+Possible "a/an" error: "a outside"
+**Fix:** Consider "an outside"
+
+### [MINOR] words-level3c.js — "torch" (ARTICLE_ERROR)
+Possible "a/an" error: "a easy"
+**Fix:** Consider "an easy"
+
+### [MINOR] words-level4a.js — "browse" (ARTICLE_ERROR)
+Possible "a/an" error: "a easy"
+**Fix:** Consider "an easy"
+
+### [MINOR] words-level4b.js — "texture" (ARTICLE_ERROR)
+Possible "a/an" error: "a outside"
+**Fix:** Consider "an outside"
+
+### [MINOR] words-level4b.js — "polemic" (ARTICLE_ERROR)
+Possible "a/an" error: "a idea"
+**Fix:** Consider "an idea"
+
+### [MINOR] words-level4c.js — "stimulus" (ARTICLE_ERROR)
+Possible "a/an" error: "a an"
+**Fix:** Consider "an an"
+
+### [MINOR] words-level4c.js — "abjure" (ARTICLE_ERROR)
+Possible "a/an" error: "a idea"
+**Fix:** Consider "an idea"
+
+### [MINOR] words-level5a.js — "embody" (ARTICLE_ERROR)
+Possible "a/an" error: "a able"
+**Fix:** Consider "an able"
+
+### [MINOR] words-level5a.js — "espouse" (ARTICLE_ERROR)
+Possible "a/an" error: "a idea"
+**Fix:** Consider "an idea"
+
+### [MINOR] words-level5c.js — "heresy" (ARTICLE_ERROR)
+Possible "a/an" error: "a idea"
+**Fix:** Consider "an idea"
+
+### [MINOR] words-level5d.js — "elicit" (ARTICLE_ERROR)
+Possible "a/an" error: "a an"
+**Fix:** Consider "an an"
+
+### [MINOR] words-level2.js — "jade" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "pretty": "a smooth green stone used to make pretty things"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level2.js — "pendant" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "pretty": "a pretty thing that hangs from a chain you wear"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level4b.js — "pulchritude" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "pretty": "great about the body being pretty to look at"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level5b.js — "aesthetic" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "pretty": "about being pretty to look at, design, and good taste"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level5b.js — "sublime" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "pretty": "of the highest being pretty to look at or greatness"
+**Fix:** Remove subjective adjectives from definitions
+
+### [MINOR] words-level5d.js — "adornment" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "pretty": "a made to look nice a thing added for being pretty to look at"
 **Fix:** Remove subjective adjectives from definitions
 
 ### [MINOR] words-level1.js — "lemon" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "lemon" def contains "sour" and "sour" def contains "lemon" (both L1)
 **Fix:** Break the cycle: at least one definition should not reference the other word
 
+### [MINOR] words-level2a.js — "evidence" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "something that shows it is true that shows something is true"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level2b.js — "infer" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to figure something out from things that help you figure something out in the story"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level2c.js — "evaluate" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to look at something carefully to decide how good something is"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level2c.js — "expose" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to to find something that was hidden or show something to the open air"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level2c.js — "fault" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "the to say someone did something wrong for something that went wrong"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level2c.js — "feature" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "an important part or how good something is of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level2d.js — "potential" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "the how well you can do something to become something great in the time that has not come yet"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level2d.js — "presume" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to believe something is true without something that shows it is true"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level3b.js — "centimeter" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a small unit for measuring how long something is about the how wide something is of a fingertip"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level3c.js — "imbue" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to fill something with a how good something is or feeling"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level3c.js — "infuse" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to fill something with a how good something is, or to soak to to take out taste"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "characteristic" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a feature or how good something is that makes something easy to notice"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "defect" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a something wrong; a weak spot or weakness in something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "defy" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to refuse to obey or to something hard to do something boldly"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "enhance" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to improve the how good something is or value of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "appraisal" (VAGUE_DEFINITION)
+Definition uses "something" 3 times: "an judging how good something is of the value or how good something is of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "delineation" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a detailed drawing or telling what something is like that shows the exact shape of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "impugn" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to question or something hard to do the what is real of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4a.js — "interpolate" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to to put something in something between existing things"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4b.js — "menace" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "something or someone that says something bad will happen to cause harm"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4b.js — "stimulate" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to encourage something you do or make something more active"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4b.js — "provenance" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "the place of where something comes from or what happened long ago of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4b.js — "reiterate" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to say or do something again for putting more weight on something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4b.js — "semblance" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "an how someone or something looks or toward the outside form of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4b.js — "substantiation" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "something that shows what happened that proves something is true"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4b.js — "underpinning" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "the what something is built on or simple support for something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4c.js — "periphery" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "the outer edge or the line where something ends of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4c.js — "stimulus" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "something that things that start something a an answer back"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4c.js — "substantiate" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to provide something that shows what happened that proves something is true"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level4c.js — "adulterate" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to make something less pure by adding lower how good something is kinds of stuff"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5a.js — "deplore" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to feel strong not being happy with something of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "appraise" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to assess the value or how good something is of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "attribute" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a how good something is or feature of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "collateral" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "something said you will do something as security for a loan; also more; extra or secondary"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "constituent" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a person who picks in a certain district; also a part of something bigger of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "endow" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to provide with a how good something is or something of value"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "essence" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "the most important how good something is of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "foreclose" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to take something that is yours of land when money given for something aren't made"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "genesis" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "the where something comes from or start of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5b.js — "protract" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to extend the how long something lasts of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5c.js — "blemish" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a small mark or something wrong; a weak spot that things taken after a win something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5c.js — "debut" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "the first public how someone or something looks of something or someone"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5c.js — "enrich" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to improve how good something is or add value to something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5d.js — "condemnation" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "strong not being happy with something or declaring something is wrong"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5d.js — "depiction" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a drawing, painting, or telling what something is like of something"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5d.js — "fledgling" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "a young bird learning to fly; also something new and not having done something before"
+**Fix:** Rephrase to be more specific
+
+### [MINOR] words-level5d.js — "deprecate" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "to express not being happy with something of something"
+**Fix:** Rephrase to be more specific
+
 ### [MINOR] words-level1.js — "less" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a smaller amount of something..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level2.js — "olive" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "a small oval fruit used to make oil..."
+Word appears to be adjective but definition starts with article: "a small round fruit used to make oil..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level2b.js — "on the contrary" (ADJ_NOUN_MISMATCH)
@@ -39,16 +335,24 @@ Word appears to be adjective but definition starts with article: "a set of guide
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level4c.js — "panegyric" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "a speech or text that praises someone or something..."
+Word appears to be adjective but definition starts with article: "a talking in front of people or text that praises ..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level5a.js — "ethic" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "a moral principle that guides a person's behavior..."
+Word appears to be adjective but definition starts with article: "a moral a rule you live by that guides a person's ..."
+**Fix:** Consider rephrasing definition to adjective form
+
+### [MINOR] words-level5b.js — "comparable" (ADJ_NOUN_MISMATCH)
+Word appears to be adjective but definition starts with article: "the same enough to be compared..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level5d.js — "agnostic" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "a person who believes that some questions, especia..."
+Word appears to be adjective but definition starts with article: "a person who believes it is impossible to know whe..."
 **Fix:** Consider rephrasing definition to adjective form
+
+### [MINOR] words-level5a.js — "petulant" (COMPARISON_DEF)
+Definition depends on comparison: "like a little kid bad-tempered and sulky..."
+**Fix:** Consider an independent definition that does not rely on knowing another word
 
 ### [MINOR] words-level1.js — "pretzel" (SAME_LEVEL_DEF_REF)
 L1 definition uses "salty" which is also an L1 word (core position)
@@ -176,10 +480,6 @@ L1 definition uses "gently" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "squeeze" (SAME_LEVEL_DEF_REF)
 L1 definition uses "tight" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "bark" (SAME_LEVEL_DEF_REF)
-L1 definition uses "rough" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "clap" (SAME_LEVEL_DEF_REF)
@@ -355,7 +655,7 @@ L1 definition uses "together" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "dragon" (SAME_LEVEL_DEF_REF)
-L1 definition uses "lizard" which is also an L1 word (core position)
+L1 definition uses "fierce" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "sword" (SAME_LEVEL_DEF_REF)
@@ -445,4 +745,24 @@ Example contains military context: "army"
 ### [MINOR] words-level5d.js — "subjugate" (MILITARY_CONTEXT)
 Example contains military context: "military"
 **Fix:** Consider replacing with a neutral/civilian context
+
+### [HIGH] words-level2b.js — "go along with" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "to agree or to work together with"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2c.js — "bother" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "to to bother or to bother or break the quiet someone"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2c.js — "conquer" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "to win against or to beat or get past something"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2d.js — "worthy" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "having done enough to get of respect or to keep your mind on one thing"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2d.js — "contend" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "to struggle or to try to win against others against something difficult"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
