@@ -1,199 +1,199 @@
-# VERIFY-GPT — words-level3c.js — GATE (L5–L8)
+# VERIFY-GPT-words-level3c.js-GATE
 
-说明：每行=1个词；L5=10岁中国ESL(MAP≈197/2年级)能否凭definition+example掌握；L6=遮词做四选一能否唯一锁定；L7=文化/家长敏感点；L8=是否适配本level与顺序。
+Legend: L5=Mark(10岁中国ESL孩子: definition理解 + 例句猜词) | L6=例句反向唯一性 | L7=文化敏感度 | L8=学习路径(level匹配)
 
-- advance | L5: 勉强（“move forward”能懂；“progress”抽象） | L6: 唯一（chess piece only ___ one square） | L7: OK | L8: 合适（常用动词，建议放更靠前）
-- affordable | L5: 勉强（懂“not too expensive”；“afford”没学过可能卡） | L6: 唯一（prices… every kid could buy） | L7: OK | L8: 合适（生活词，可早于大量学术词）
-- analyze | L5: 不能（definition里“with care / understand”还行，但整体学术动词偏大） | L6: 唯一（scientist… data… experiment） | L7: OK | L8: 偏难（更像3-4年级学术词）
-- apply | L5: 勉强（“use”能懂；多义：申请/涂抹会混） | L6: 不唯一（apply sunscreen=“put on”也可选“infuse/imbue”类干扰；需更直观） | L7: OK | L8: 合适但需分义（建议明示“use/put on”）
-- burden | L5: 勉强（“heavy/hard to deal with”能懂；“deal with”可能卡） | L6: 唯一（carrying… six books… was a ___） | L7: OK | L8: 偏难（抽象名词，建议晚些）
-- cancel | L5: 能（决定不做） | L6: 唯一（coach… lightning… ___ practice） | L7: OK | L8: 合适（高频）
-- device | L5: 勉强（“tool/machine”能懂；“special purpose”抽象） | L6: 唯一（thermometer is a ___） | L7: OK | L8: 合适
-- elect | L5: 不能（“voting/ballot”概念与词都偏大） | L6: 唯一（class will ___ a new president… ballot box） | L7: 注意（选举/总统语境；建议用“class leader/monitor”更贴近中国校园） | L8: 偏难（可留到更高level或改例句降难）
-- emphasize | L5: 不能（抽象；definition不够儿童化） | L6: 唯一（underlined… to ___ it would be on test） | L7: OK | L8: 偏难
-- exclaim | L5: 勉强（“say suddenly”能懂；“strong feeling”抽象） | L6: 唯一（'Look, a shooting star!'） | L7: OK | L8: 合适
-- frustrate | L5: 勉强（“upset because hard”能懂） | L6: 唯一（puzzle… last piece not fit） | L7: OK | L8: 合适
-- glimpse | L5: 不能（“quick short look”可能能懂但词形陌生；glimpse本身难） | L6: 唯一（caught a ___ of the fox’s tail） | L7: OK | L8: 偏难（同义词“quick look/peek”更适配低年级）
-- govern | L5: 不能（“make rules and decisions for a group”太抽象） | L6: 勉强唯一（student council helps ___ school… deciding themes；也可能选“regulate”） | L7: 注意（“govern”政治感；但用学生会还行） | L8: 偏难（抽象政治动词）
-- idle | L5: 不能（“not being used”能懂但词本身抽象；易和lazy混） | L6: 不唯一（swing sat ___；也可选“listless/typical”等干扰不强但需更明确“unused”） | L7: OK | L8: 偏难（更建议用“unused”语境+对比）
-- invest | L5: 不能（钱/时间投入为回报，概念偏大） | L6: 唯一（allowance… art supplies… sell later） | L7: OK | L8: 过难（金融概念，MAP197偏超纲）
-- manner | L5: 勉强（“way you behave”能懂） | L6: 唯一（polite ___… please/thank you） | L7: OK | L8: 合适
-- negative | L5: 勉强（“bad/below zero”两义混；需拆开） | L6: 唯一（temperature dropped to ___ ten） | L7: OK | L8: 合适但建议分义（数学/情绪分开）
-- outcome | L5: 不能（“result”能懂，但词偏学术） | L6: 唯一（outcome of science test… surprised everyone） | L7: OK | L8: 偏难
-- regulate | L5: 不能（抽象控制；“works correctly”也抽象） | L6: 不唯一（thermostat helps ___ heat；也可选“govern/control”类） | L7: OK | L8: 偏难
-- rhythm | L5: 勉强（节奏概念可感受但拼写难） | L6: 唯一（clapped along to the ___ of the drum） | L7: OK | L8: 合适
-- risk | L5: 勉强（chance of bad thing；“chance”可能卡） | L6: 唯一（risk of getting stung… beehive） | L7: OK | L8: 合适
-- tension | L5: 不能（definition抽象；“tightness”不易） | L6: 勉强唯一（handed back tests face-down；也可选“tension/uneasy”但选项里需避免近义） | L7: OK | L8: 偏难
-- typical | L5: 勉强（usual/normal能懂） | L6: 唯一（A ___ school day starts…） | L7: OK | L8: 合适
-- basement | L5: 勉强（中国住宅少；概念需要图片支撑） | L6: 唯一（decorations… stacked in the ___） | L7: 注意（文化差异：很多中国家庭无地下室；可换“storage room”或说明“house under ground”） | L8: 合适但需文化适配
-- blade | L5: 不唯一/勉强（“knife part”可懂；“leaf of grass”第二义会混） | L6: 唯一（single ___ of grass… ladybug） | L7: OK | L8: 合适但建议分义
-- canyon | L5: 不能（地理概念+定义长） | L6: 唯一（edge of the ___… river far below） | L7: OK | L8: 偏难（可留到更高level）
-- chimney | L5: 勉强（房屋构件；但中国城市少见） | L6: 唯一（smoke curled up from the ___） | L7: 注意（文化差异：壁炉/烟囱不常见；可用“factory chimney”或解释） | L8: 合适但需语境本土化
-- chunk | L5: 能（大块） | L6: 唯一（bit off a big ___ of watermelon） | L7: OK | L8: 合适
-- creek | L5: 勉强（小溪=stream；creek词形陌生） | L6: 唯一（stones at bottom of the ___） | L7: OK | L8: 合适
-- crisp | L5: 勉强（firm/fresh+crunch；抽象，需食物例更直接） | L6: 不唯一（leaves crunched；目标是sound，可能与“crunchy”概念混） | L7: OK | L8: 偏难（形容词多义，低年级易混）
-- flask | L5: 不能（科学器材） | L6: 唯一（purple liquid into a glass ___） | L7: OK | L8: 偏难（可更高level或配图）
-- foil | L5: 勉强（包装铝箔可懂；foil多义未处理） | L6: 唯一（wrapped leftover pizza in ___） | L7: OK | L8: 合适
-- gasp | L5: 勉强（quickly breathe in… 需要演示） | L6: 唯一（She ___ when she saw…） | L7: OK | L8: 合适
-- glare | L5: 不能（两义：强光/怒视；易混） | L6: 勉强唯一（glare from snow… sunglasses；但如果选项里有“glow”会混） | L7: OK | L8: 偏难（建议拆义+对比glow）
-- glow | L5: 勉强（soft warm light能懂） | L6: 唯一（candle made it ___ orange） | L7: 注意（jack-o’-lantern/Halloween可能不熟；可换“lantern at festival”） | L8: 合适但需文化适配
-- hatch | L5: 勉强（小鸡破壳可懂） | L6: 唯一（baby chick took hours to ___） | L7: OK | L8: 合适
-- hose | L5: 能（花园水管） | L6: 唯一（sprayed… garden ___） | L7: OK | L8: 合适
-- inn | L5: 不能（旅店=hotel更常见；inn偏书面） | L6: 唯一（found a cozy ___… warm soup） | L7: OK | L8: 偏难（建议用“hotel”或解释“small hotel”并配图）
-- jolt | L5: 不能（抽象“shock”；词形难） | L6: 唯一（bus hit a bump… felt a ___） | L7: OK | L8: 偏难
-- ledge | L5: 不能（空间词；需要图示） | L6: 唯一（window ___… pecked at crumbs） | L7: OK | L8: 偏难
-- lumber | L5: 不能（建材词） | L6: 唯一（truck delivered a stack of ___ to build） | L7: OK | L8: 偏难
-- mend | L5: 勉强（fix torn；比“fix”难一点） | L6: 唯一（needle and thread to ___ the hole） | L7: OK | L8: 合适
-- quarry | L5: 不能（采石场概念） | L6: 唯一（marble… came from a ___） | L7: OK | L8: 过难
-- ridge | L5: 不能（地形词抽象） | L6: 唯一（From the ___ of the mountain… valleys） | L7: OK | L8: 偏难
-- slope | L5: 勉强（斜坡概念可感受） | L6: 唯一（bikes down the ___ of the hill） | L7: OK | L8: 合适
-- spout | L5: 不能（名词+动词多义；whale spout不熟） | L6: 唯一（whale’s ___ like a fountain） | L7: OK | L8: 偏难
-- stump | L5: 不能（树桩词形陌生；概念可图示） | L6: 唯一（old tree ___ as a table） | L7: OK | L8: 偏难
-- torch | L5: 勉强（flashlight可懂；但英式torch=手电筒会与火把混） | L6: 不唯一（dark cave… held a ___；若选项有“lamp/flashlight”会混） | L7: OK | L8: 偏难（建议明确“flashlight(UK)”或改定义）
-- wade | L5: 不能（动词概念可懂但词形难） | L6: 唯一（roll up pants to ___ across shallow stream） | L7: OK | L8: 偏难
-- asteroid | L5: 不能（天文词） | L6: 唯一（rocky object… flew past Earth） | L7: OK | L8: 过难
-- axis | L5: 不能（想象线概念抽象） | L6: 唯一（Earth spins on its ___ once every 24 hours） | L7: OK | L8: 过难
-- carnivore | L5: 不能（词长；需先会“meat”+动物分类） | L6: 唯一（lion… hunts and eats animals） | L7: OK | L8: 偏难（至少3年级科学）
-- census | L5: 不能（官方统计概念；词形难） | L6: 唯一（government does a ___… how many people） | L7: 注意（政府/州(state)美国语境；可换“city counts people”弱化政治） | L8: 过难
-- chlorophyll | L5: 不能（超长+科学概念） | L6: 唯一（makes leaves green… sunlight into energy） | L7: OK | L8: 过难（远超MAP197）
-- crater | L5: 不能（地貌词） | L6: 唯一（moon covered in ___… rocks from space） | L7: OK | L8: 偏难
-- crustacean | L5: 不能（动物分类词长） | L6: 唯一（lobster is a ___… hard shell） | L7: OK | L8: 过难
-- digestive | L5: 不能（身体系统学术词） | L6: 唯一（digestive system turns sandwich into energy） | L7: OK | L8: 过难
-- elevation | L5: 不能（抽象测量+“ocean level”） | L6: 唯一（town has an ___ of 8,000 feet） | L7: OK | L8: 过难
-- fertile | L5: 不能（词本身难；且“rich soil”需先会rich=富/肥沃） | L6: 唯一（fertile soil near river grows tallest corn） | L7: OK | L8: 偏难
-- glacier | L5: 不能（地理词） | L6: 唯一（glacier carved out valley… frozen river） | L7: OK | L8: 过难
-- herbivore | L5: 不能（词长；分类概念） | L6: 唯一（rabbit… munches on grass/carrots） | L7: OK | L8: 偏难
-- humidity | L5: 不能（抽象气象词） | L6: 唯一（humidity so high… glasses fogged up） | L7: OK | L8: 偏难
-- legislature | L5: 不能（政治机构；definition长） | L6: 唯一（voted to pass a new law… recess） | L7: 注意（政治机构/立法，可能引发家长敏感；建议用“city council”或更中性“lawmakers”并弱化国家/州） | L8: 过难
-- molecule | L5: 不能（科学） | L6: 唯一（water ___… millions in a drop） | L7: OK | L8: 过难
-- arid | L5: 不能（形容词不常见） | L6: 唯一（cacti… grow well in ___ places） | L7: OK | L8: 偏难
-- archaeology | L5: 不能（学科名） | L6: 唯一（dig up ancient pots/tools） | L7: OK | L8: 过难
-- mesa | L5: 不能（地形专有词） | L6: 唯一（mesa stood alone in desert like table） | L7: OK | L8: 过难
-- tundra | L5: 不能（地理） | L6: 唯一（Arctic ___… frozen… no trees） | L7: OK | L8: 过难
-- stalagmite | L5: 不能（洞穴词太难） | L6: 唯一（grew from cave floor… dripping water） | L7: OK | L8: 过难
-- tributary | L5: 不能（地理学术词） | L6: 唯一（small ___ joins main river） | L7: OK | L8: 过难
-- archipelago | L5: 不能（地理词长） | L6: 唯一（Hawaii is an ___… eight main islands） | L7: 注意（Hawaii/美国地理；可换“Indonesia/Japan/Philippines”更贴近亚洲） | L8: 过难
-- stratosphere | L5: 不能（大气层术语） | L6: 唯一（weather balloon floated up into the ___） | L7: OK | L8: 过难
-- preamble | L5: 不能（抽象法律文本） | L6: 唯一（preamble of the Constitution… 'We the People'） | L7: 注意（美国宪法/政治内容；中国家长可能不适或不相关） | L8: 过难
-- filament | L5: 不能（科学/电学） | L6: 唯一（inside light bulb glows… power flows） | L7: OK | L8: 过难
-- nocturnal | L5: 不能（词长；概念可懂但难） | L6: 唯一（Owls are ___… hunt at night） | L7: OK | L8: 偏难
-- translucent | L5: 不能（抽象形容词） | L6: 唯一（jellyfish… light passed through） | L7: OK | L8: 过难
-- omnivore | L5: 不能（分类词） | L6: 唯一（bear… eats fish and berries） | L7: OK | L8: 偏难
-- plateau | L5: 不能（地形词） | L6: 不唯一（plateau… like table；与mesa例句相近，四选一很可能混） | L7: OK | L8: 过难（且与mesa重复，应合并/区分更清楚）
-- geothermal | L5: 不能（能源词） | L6: 唯一（Iceland uses ___ energy… underground hot water） | L7: 注意（Iceland陌生；可换“hot springs in Yunnan”类更贴近） | L8: 过难
-- specimen | L5: 不能（学术名词） | L6: 勉强唯一（collected a ___ of unusual rock；也可能选“sample”类，需选项控制） | L7: OK | L8: 偏难
-- meridian | L5: 不能（地图术语） | L6: 唯一（Prime ___… London… divides world） | L7: 注意（London/世界划分；文化中性但陌生） | L8: 过难
-- respiration | L5: 不能（生理学术词） | L6: 唯一（gym class… respiration increased… chests rising） | L7: OK | L8: 过难
-- paleontology | L5: 不能（学科词长） | L6: 唯一（learn about dinosaurs… studying fossils/bones） | L7: OK | L8: 过难
-- aquifer | L5: 不能（地理/水文） | L6: 唯一（drinking water from an ___ deep below ground） | L7: OK | L8: 过难
-- deciduous | L5: 不能（形容词长；概念偏生物） | L6: 唯一（oak tree dropped every leaf by November） | L7: OK | L8: 过难
-- pharaoh | L5: 不能（历史专名） | L6: 唯一（pharaoh ordered workers… pyramid） | L7: OK | L8: 偏难
-- sedimentary | L5: 不能（地质词） | L6: 唯一（rock had visible layers… pancakes） | L7: OK | L8: 过难
-- isthmus | L5: 不能（地理词非常难） | L6: 唯一（Isthmus of Panama… land bridge） | L7: 注意（专名Panama陌生但不敏感） | L8: 过难
-- dividend | L5: 不能（数学术语；但定义清楚） | L6: 唯一（In 12 ÷ 3… dividend is 12） | L7: OK | L8: 偏难（如果level3主打数学词可；否则太跳跃）
-- divisor | L5: 不能（同上） | L6: 唯一（divisor is 3… how many groups） | L7: OK | L8: 偏难
-- mandate | L5: 不能（official order抽象） | L6: 勉强唯一（school issued a ___… must wear helmets；也可选“rule/requirement”类） | L7: OK | L8: 偏难
-- authentic | L5: 不能（抽象；“not copied/fake”可懂但词难） | L6: 唯一（authentic dinosaur tooth… 65 million years old） | L7: OK | L8: 偏难
-- scarcity | L5: 不能（抽象名词） | L6: 唯一（scarcity of water… only let people water lawns once a week） | L7: 注意（“lawns”草坪文化差异；中国家庭少浇草坪） | L8: 偏难
-- ancestry | L5: 不能（概念抽象；词难） | L6: 不唯一（studying her ___… ancestors from Ireland；与lineage非常像，四选一易混） | L7: OK | L8: 偏难（与lineage重复，建议二选一或强区分）
-- interval | L5: 不能（抽象时间/空间概念；词形难） | L6: 唯一（buses arrive at ten-minute ___） | L7: OK | L8: 偏难
-- eligible | L5: 不能（抽象“meet the rules”） | L6: 唯一（eligible to join club if finished 5 books） | L7: OK | L8: 偏难
-- manipulate | L5: 不能（两义：控制/欺骗；definition过大） | L6: 不唯一（manipulate clay=shape；与“mold/shape/hone”类易混） | L7: OK | L8: 过难（建议拆义并降低）
-- salvage | L5: 不能（抽象“save from destroyed”） | L6: 唯一（after the flood… tried to ___ photo albums） | L7: OK | L8: 偏难
-- acquire | L5: 不能（get by working；词偏书面） | L6: 唯一（worked all summer to ___ enough money） | L7: OK | L8: 偏难
-- terminate | L5: 不能（正式用语“end completely”） | L6: 唯一（train will ___ at last station… get off） | L7: OK | L8: 过难（可用“end/stop”更适配低龄）
-- verdict | L5: 不能（审判词；但“final decision”可懂） | L6: 不唯一（judges gave their ___—cherry winner；也可选“outcome/decision”类） | L7: OK | L8: 偏难
-- hangar | L5: 不能（飞机库词） | L6: 唯一（wheeled plane into the ___ to fix engine） | L7: OK | L8: 偏难
-- hardship | L5: 不能（抽象） | L6: 唯一（pioneer families faced many ___… harsh winters） | L7: OK | L8: 偏难
-- harpoon | L5: 不能（工具词且陌生） | L6: 唯一（threw the ___ at giant tuna） | L7: 注意（与捕鲸/伤害动物联想；建议用“fishing spear”并避免“whales”） | L8: 过难
-- harrow | L5: 不能（农具词不常见） | L6: 唯一（pulled a ___ across the field to prepare soil） | L7: OK | L8: 过难
-- haste | L5: 不能（书面抽象名词） | L6: 唯一（In her ___ to catch the bus… left lunch） | L7: OK | L8: 偏难
-- havoc | L5: 不能（抽象） | L6: 唯一（tornado wreaked ___… knocking down fences） | L7: OK | L8: 偏难
-- headway | L5: 不能（习语性名词） | L6: 不唯一（made ___ on piano piece；也可选“progress/advance”类，需选项控制） | L7: OK | L8: 过难
-- heed | L5: 不能（书面动词） | L6: 唯一（he ___ warning and wore a coat） | L7: OK | L8: 偏难
-- helm | L5: 不能（船舵词） | L6: 唯一（captain took the ___… guided ship） | L7: OK | L8: 偏难
-- herald | L5: 不能（双义复杂） | L6: 勉强唯一（robins called ___ of spring；但孩子不熟robins） | L7: OK | L8: 过难
-- hermit | L5: 不能（概念可懂但词难） | L6: 唯一（___ lived alone… far from any town） | L7: OK | L8: 偏难
-- hew | L5: 不能（罕见动词） | L6: 勉强唯一（lumberjack ___ fallen tree into logs；也可选“chop”） | L7: OK | L8: 过难
-- hinge | L5: 不能（器件词需图） | L6: 唯一（gate swung… on its rusty ___） | L7: OK | L8: 偏难
-- hoard | L5: 不能（动词概念可懂但词难） | L6: 唯一（dragon ___ gold coins in a pile） | L7: OK | L8: 偏难
-- hobble | L5: 不能（动词词形难） | L6: 唯一（twisting ankle… ___ to nurse） | L7: OK | L8: 偏难
-- hoist | L5: 不能（lift with ropes；词难） | L6: 唯一（sailors ___ heavy anchor） | L7: OK | L8: 偏难
-- homage | L5: 不能（抽象名词） | L6: 唯一（statue built as ___ to brave soldiers） | L7: 注意（军人/国家叙事一般可接受，但避免强政治；可换“to honor firefighters/teachers”更中性） | L8: 过难
-- homestead | L5: 不能（文化词） | L6: 唯一（old ___ had farmhouse, barn, acres） | L7: 注意（美国农庄文化；可换“中国农村院子/农场”更贴近） | L8: 过难
-- hone | L5: 不能（比“practice/improve”更书面） | L6: 不唯一（___ her drawing skills… sketching every day；也可选“improve”类） | L7: OK | L8: 偏难
-- hornet | L5: 勉强（大黄蜂；但和wasp/bee易混） | L6: 唯一（___ buzzed… picnic table） | L7: OK | L8: 合适
-- hosiery | L5: 不能（低频名词） | L6: 唯一（aisle of ___… socks and stockings） | L7: OK | L8: 过难（MAP197不需要）
-- hospitable | L5: 不能（抽象形容词） | L6: 唯一（family offered lemonade and cookies… moment we came） | L7: OK | L8: 偏难
-- hub | L5: 不能（多义：中心/轮毂；抽象） | L6: 唯一（airport is a busy ___… travelers pass through） | L7: OK | L8: 偏难
-- huddle | L5: 勉强（挤在一起；可懂） | L6: 唯一（players ___ together to plan） | L7: OK | L8: 合适
-- hull | L5: 不能（船体词） | L6: 唯一（painted the ___ of the ship） | L7: OK | L8: 偏难
-- humus | L5: 不能（科学/土壤词；且与“hummus(食物)”易混） | L6: 唯一（Adding ___ to garden made soil soft） | L7: OK | L8: 过难
-- hurdle | L5: 勉强（跨栏可懂；第二义“障碍”抽象） | L6: 不唯一（cleared every ___ on track；若选项含“barrier”也行） | L7: OK | L8: 合适但建议拆义
-- hurl | L5: 不能（throw with force；词难） | L6: 唯一（pitcher ___ the baseball… so fast） | L7: OK | L8: 偏难
-- hurricane | L5: 不能（自然灾害词可学但拼写长） | L6: 唯一（___ brought winds over 100 mph） | L7: OK | L8: 偏难
-- hydrate | L5: 不能（动词抽象；更常用“drink water”） | L6: 唯一（remind players to ___ by drinking water） | L7: OK | L8: 过难
-- hymn | L5: 不能（宗教词） | L6: 唯一（choir sang a beautiful ___… church） | L7: 注意（宗教/教堂；部分家长敏感。可改为“song”或“choral song”去宗教化） | L8: 过难/不适配
-- hyperbole | L5: 不能（修辞术语） | L6: 唯一（'so hungry I could eat a horse' is ___） | L7: OK | L8: 过难
-- icon | L5: 勉强（手机/电脑小图标概念可懂） | L6: 唯一（clicked the mail ___ on computer） | L7: OK | L8: 合适
-- imbue | L5: 不能（抽象动词） | L6: 不唯一（imbued students with love of reading；与“instill/infuse”极易混） | L7: OK | L8: 过难
-- impervious | L5: 不能（形容词难） | L6: 唯一（waterproof jacket was ___ to rain） | L7: OK | L8: 过难
-- impound | L5: 不能（法律词） | L6: 唯一（city ___ the car… parked illegally） | L7: OK | L8: 过难
-- indent | L5: 不能（写作术语；但可学） | L6: 唯一（She ___ the first line of each paragraph） | L7: OK | L8: 偏难（若本level包含写作技能可保留）
-- inferno | L5: 不能（文学词；但“大火”可懂） | L6: 唯一（forest fire grew into an ___） | L7: OK | L8: 偏难
-- infuse | L5: 不能（抽象；且与imbue混） | L6: 勉强唯一（infused water with lemon/mint；也可选“mix/add”类） | L7: OK | L8: 偏难
-- inlet | L5: 不能（地理词） | L6: 唯一（paddled through calm ___… pine trees） | L7: OK | L8: 过难
-- inquest | L5: 不能（法律词） | L6: 不唯一（judge ordered an ___ to find out; 与“investigation”概念但词难，四选一可能靠排除） | L7: OK | L8: 过难
-- instill | L5: 不能（抽象动词） | L6: 不唯一（coach ___ sense of teamwork；与imbue/infuse混） | L7: OK | L8: 过难
-- insular | L5: 不能（抽象形容词） | L6: 勉强唯一（village had little contact with outside world；也可选“isolated”） | L7: OK | L8: 过难
-- intrigue | L5: 不能（动词抽象） | L6: 唯一（mysterious locked box ___ the children） | L7: OK | L8: 偏难
-- inundate | L5: 不能（高级动词） | L6: 唯一（reporter was ___ with phone calls） | L7: OK | L8: 过难
-- irate | L5: 不能（形容词难） | L6: 唯一（___ buyer demanded to speak to manager） | L7: OK | L8: 过难
-- irk | L5: 不能（低频动词） | L6: 唯一（dripping faucet ___ her while study） | L7: OK | L8: 过难
-- ivory | L5: 不能（材料词；且概念涉及象牙） | L6: 唯一（ivory-colored keys… piano） | L7: 注意（象牙来源可能引发动物保护/偷猎联想；建议只保留“ivory color”并避免“elephant tusks”或改例句） | L8: 偏难
-- jaunt | L5: 不能（低频名词） | L6: 唯一（weekend ___ to the seaside） | L7: OK | L8: 过难
-- jest | L5: 不能（名词/动词低频） | L6: 唯一（said it in ___… thought serious） | L7: OK | L8: 过难
-- jettison | L5: 不能（罕见动词） | L6: 唯一（pilot ___ extra fuel… lighter for landing） | L7: OK | L8: 过难
-- jinx | L5: 不能（迷信词；概念可懂但难） | L6: 唯一（broken mirror was a ___… bad luck） | L7: 注意（迷信内容；部分家长不喜欢强化“broken mirror brings 7 years bad luck”） | L8: 偏难
-- jostle | L5: 不能（动词难） | L6: 唯一（shoppers ___ each other… grab last toy） | L7: OK | L8: 偏难
-- jubilant | L5: 不能（形容词高级） | L6: 唯一（___ team lifted trophy… cheered） | L7: OK | L8: 过难
-- juncture | L5: 不能（抽象名词） | L6: 不唯一（At this ___… decide go forward/change plan；与“point/interval”易混） | L7: OK | L8: 过难
-- juniper | L5: 不能（植物名） | L6: 唯一（___ bushes… tiny dark berries） | L7: OK | L8: 过难
-- kernel | L5: 勉强（爆米花粒可懂；但多义） | L6: 唯一（last ___ of popcorn） | L7: OK | L8: 合适
-- kilt | L5: 不能（文化服饰） | L6: 唯一（Scottish bagpiper wore a ___） | L7: OK | L8: 过难/不必要
-- knack | L5: 不能（抽象“natural skill”） | L6: 唯一（has a ___ for fixing things） | L7: OK | L8: 偏难
-- knead | L5: 不能（动作可懂但词难） | L6: 唯一（baker ___ bread dough） | L7: OK | L8: 偏难
-- knell | L5: 不能（文学/宗教场景） | L6: 唯一（deep ___ of the church bell… sad event） | L7: 注意（教堂+葬礼氛围偏沉重；低龄可能不适） | L8: 过难
-- knoll | L5: 不能（小丘低频） | L6: 唯一（picnic blanket on grassy ___） | L7: OK | L8: 过难
-- lacquer | L5: 不能（材料词；但“漆”概念可） | L6: 唯一（box covered in red ___… gleamed） | L7: OK | L8: 偏难
-- lair | L5: 不能（动物巢穴词） | L6: 唯一（bear returned to its ___ in the cave） | L7: OK | L8: 偏难
-- lance | L5: 不能（中世纪武器） | L6: 唯一（knight… with his ___ pointed） | L7: 注意（武器暴力元素；通常可接受但低龄可弱化为“spear”并减少战斗感） | L8: 过难
-- lanky | L5: 不能（形容词口语但难） | L6: 唯一（___ teenager had to duck… low doorway） | L7: OK | L8: 偏难
-- lattice | L5: 不能（结构词） | L6: 唯一（roses climbed up wooden ___） | L7: OK | L8: 过难
-- lavish | L5: 不能（抽象形容词） | L6: 唯一（___ party had chocolate fountain… pony ride） | L7: 注意（奢华/炫富可能让部分家长反感；可改为“big/fancy”但保持健康价值观） | L8: 过难
-- ledger | L5: 不能（记账本） | L6: 唯一（owner wrote every sale in her ___） | L7: OK | L8: 过难
-- leech | L5: 不能（生物词+吸血可能引起不适） | L6: 唯一（found a ___ stuck to his ankle） | L7: 注意（吸血/恶心感；可接受但要温和描述） | L8: 偏难
-- leer | L5: 不能（动词低频且含不良“sly/unpleasant”） | L6: 唯一（villain ___ at hero with wicked grin） | L7: OK | L8: 过难
-- legible | L5: 不能（抽象形容词） | L6: 唯一（write in ___ handwriting） | L7: OK | L8: 偏难
-- legion | L5: 不能（多义；抽象） | L6: 唯一（A ___ of fans waited outside stadium） | L7: OK | L8: 过难
-- lever | L5: 不能（简单机械词） | L6: 唯一（used a long ___ to pry lid off） | L7: OK | L8: 偏难
-- lilac | L5: 不能（植物名） | L6: 唯一（___ bushes bloomed in May… perfume） | L7: OK | L8: 过难
-- limber | L5: 不能（形容词；与limpid/lithe易混） | L6: 唯一（gymnast so ___… toes to back of head） | L7: OK | L8: 过难
-- limelight | L5: 不能（比喻义抽象） | L6: 唯一（enjoyed being in the ___ after hit movie） | L7: OK | L8: 过难
-- limpid | L5: 不能（低频形容词） | L6: 唯一（___ stream… see pebbles） | L7: OK | L8: 过难
-- lineage | L5: 不能（与ancestry重复且抽象） | L6: 不唯一（traced her ___ back… ancestors from Ireland；与ancestry几乎同句式，四选一不稳） | L7: OK | L8: 过难（建议只留一个并改例句区分）
-- linen | L5: 不能（材料词可学但低频） | L6: 唯一（crisp white ___ tablecloth） | L7: OK | L8: 偏难
-- lintel | L5: 不能（建筑术语） | L6: 唯一（stone ___ above doorway… date carved） | L7: OK | L8: 过难
-- listless | L5: 不能（抽象形容词） | L6: 唯一（hot afternoon made everyone ___… no one wanted to move） | L7: OK | L8: 过难
-- litany | L5: 不能（低频名词） | L6: 唯一（read a ___ of rules） | L7: OK | L8: 过难
-- lithe | L5: 不能（低频形容词） | L6: 唯一（___ dancer moved… like a cat） | L7: OK | L8: 过难
-- livelihood | L5: 不能（抽象名词） | L6: 唯一（Fishing was the main ___… village） | L7: OK | L8: 过难
-- loam | L5: 不能（土壤词低频） | L6: 唯一（filled pots with dark ___ before planting） | L7: OK | L8: 过难
-- lobe | L5: 不能（身体部位词可学但抽象） | L6: 唯一（earring on each ___ of her ears） | L7: OK | L8: 偏难
-- locale | L5: 不能（抽象名词） | L6: 不唯一（tropical ___ of the movie… vacation；与“setting/place”类） | L7: OK | L8: 过难
-- locomotion | L5: 不能（学术词长） | L6: 唯一（Wheels, legs, fins… tools of ___） | L7: OK | L8: 过难
-- loft | L5: 不能（房屋结构词；attic更常用） | L6: 唯一（converted dusty ___ into reading room） | L7: OK | L8: 偏难
-- lore | L5: 不能（抽象名词） | L6: 唯一（elder shared the ___… campfire） | L7: OK | L8: 过难
-- lucid | L5: 不能（抽象形容词） | L6: 唯一（gave a ___ explanation… understand fractions） | L7: OK | L8: 过难
-- lull | L5: 不能（多义；名词动词） | L6: 唯一（During a ___ in the storm… ran outside） | L7: OK | L8: 偏难
-- lunge | L5: 不能（动作词；但可演示） | L6: 唯一（fencer made a quick ___ toward opponent） | L7: OK | L8: 偏难
+- advance | L5:勉强(卡:progress);例句:勉强(卡:square) | L6:不能(易被同义词替换(线索:chess/piece)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- affordable | L5:勉强(卡:expensive);例句:勉强(卡:lemonade) | L6:不能(易被同义词替换(线索:lemonade)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- analyze | L5:勉强(卡:understand);例句:勉强(卡:scientist) | L6:不能(易被同义词替换(线索:scientist/experiment)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- apply | L5:勉强(卡:action);例句:勉强(卡:sunscreen) | L6:能(线索:sunscreen) | L7:OK | L8:合适(可配图/动作演示)
+- burden | L5:勉强(卡:heavy);例句:勉强(卡:carrying) | L6:不能(易被同义词替换(线索:carrying/library)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- cancel | L5:勉强(卡:planned);例句:勉强(卡:lightning) | L6:勉强(线索:practice/lightning) | L7:OK | L8:合适(可配图/动作演示)
+- device | L5:勉强(卡:machine);例句:勉强(卡:thermometer) | L6:能(线索:thermometer/exactly) | L7:OK | L8:合适(可配图/动作演示)
+- elect | L5:勉强(卡:choose);例句:勉强(卡:president) | L6:不能(易被同义词替换(线索:president/putting)) | L7:注意(涉及投票/选举概念;需解释vote/ballot) | L8:偏难(更像高年级常用词;需要前置词)
+- emphasize | L5:勉强(卡:important);例句:勉强(卡:underlined) | L6:不能(易被同义词替换(线索:teacher/underlined)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- exclaim | L5:勉强(卡:suddenly);例句:勉强(卡:shooting) | L6:不能(易被同义词替换(线索:shooting/pointing)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- frustrate | L5:勉强(卡:upset);例句:勉强(卡:anywhere) | L6:不能(易被同义词替换(线索:anywhere)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- glimpse | L5:勉强(卡:quick);例句:勉强(卡:disappeared) | L6:不能(易被同义词替换(线索:disappeared)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- govern | L5:勉强(卡:decisions);例句:勉强(卡:deciding) | L6:不能(易被同义词替换(线索:student/council)) | L7:注意(治理/规则制定概念;更适合配合school rules) | L8:偏难(更像高年级常用词;需要前置词)
+- idle | L5:勉强(卡:doing);例句:勉强(卡:watching) | L6:不能(易被同义词替换(线索:watching)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- invest | L5:勉强(卡:results);例句:勉强(卡:allowance) | L6:不能(易被同义词替换(线索:allowance/supplies)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- manner | L5:勉强(卡:behave);例句:勉强(卡:cashier) | L6:不能(易被同义词替换(线索:cashier)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- negative | L5:勉强(卡:below);例句:勉强(卡:temperature) | L6:不能(易被同义词替换(线索:temperature/dropped)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- outcome | L5:勉强(卡:happens);例句:勉强(卡:surprised) | L6:不能(易被同义词替换(线索:science/surprised)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- regulate | L5:勉强(卡:correctly);例句:勉强(卡:thermostat) | L6:不能(易被同义词替换(线索:thermostat/comfortable)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- rhythm | L5:勉强(卡:regular);例句:勉强(卡:perfectly) | L6:不能(易被同义词替换(线索:clapped/matching)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- risk | L5:勉强(卡:chance);例句:勉强(卡:getting) | L6:勉强(线索:getting/beehive) | L7:OK | L8:合适(可配图/动作演示)
+- tension | L5:勉强(卡:tightness);例句:勉强(卡:face-down) | L6:不能(易被同义词替换(线索:teacher/face-down)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- typical | L5:勉强(卡:normal);例句:勉强(卡:between) | L6:不能(易被同义词替换(线索:between)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- basement | L5:勉强(卡:ground);例句:勉强(卡:decorations) | L6:勉强(线索:holiday/decorations) | L7:OK | L8:合适(可配图/动作演示)
+- blade | L5:勉强(卡:cutting);例句:能 | L6:勉强(线索:ladybug/resting) | L7:OK | L8:合适(可配图/动作演示)
+- canyon | L5:勉强(卡:narrow);例句:勉强(卡:barely) | L6:勉强(线索:barely/river) | L7:OK | L8:合适(可配图/动作演示)
+- chimney | L5:勉强(卡:where);例句:勉强(卡:telling) | L6:勉强(线索:telling) | L7:OK | L8:合适(可配图/动作演示)
+- chunk | L5:勉强(卡:broken);例句:勉强(卡:watermelon) | L6:勉强(线索:watermelon/dripped) | L7:OK | L8:合适(可配图/动作演示)
+- creek | L5:能;例句:勉强(卡:skipped) | L6:勉强(线索:skipped) | L7:OK | L8:合适(可配图/动作演示)
+- crisp | L5:勉强(卡:making);例句:能 | L6:勉强(线索:crunched) | L7:OK | L8:合适(可配图/动作演示)
+- flask | L5:勉强(卡:science);例句:勉强(卡:science) | L6:不能(易被同义词替换(线索:science/teacher)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- foil | L5:勉强(卡:wrapping);例句:勉强(卡:leftover) | L6:不能(易被同义词替换(线索:wrapped/leftover)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- gasp | L5:勉强(卡:surprised);例句:能 | L6:勉强(线索:acrobat) | L7:OK | L8:合适(可配图/动作演示)
+- glare | L5:勉强(卡:strong);例句:勉强(卡:sunglasses) | L6:勉强(线索:sunglasses) | L7:OK | L8:合适(可配图/动作演示)
+- glow | L5:能;例句:能 | L6:勉强(线索:-lantern) | L7:OK | L8:合适(可配图/动作演示)
+- hatch | L5:能;例句:勉强(卡:pecking) | L6:勉强(线索:pecking) | L7:OK | L8:合适(可配图/动作演示)
+- hose | L5:勉强(卡:flexible);例句:能 | L6:勉强(线索:sprayed/brother) | L7:OK | L8:合适(可配图/动作演示)
+- inn | L5:勉强(卡:travelers);例句:勉强(卡:mountain) | L6:勉强(线索:mountain) | L7:OK | L8:合适(可配图/动作演示)
+- jolt | L5:能;例句:勉强(卡:everyone) | L6:勉强(线索:everyone) | L7:OK | L8:合适(可配图/动作演示)
+- ledge | L5:勉强(卡:sticking);例句:勉强(卡:pigeon) | L6:勉强(线索:pigeon/window) | L7:OK | L8:合适(可配图/动作演示)
+- lumber | L5:勉强(卡:building);例句:勉强(卡:delivered) | L6:不能(易被同义词替换(线索:delivered)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- mend | L5:勉强(卡:broken);例句:勉强(卡:favorite) | L6:不能(易被同义词替换(线索:grandma/favorite)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- quarry | L5:不能(卡:ground);例句:不能(卡:building) | L6:不能(学科/抽象(线索:building/workers)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- ridge | L5:勉强(卡:mountain);例句:勉强(卡:different) | L6:不能(易被同义词替换(线索:mountain/different)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- slope | L5:勉强(卡:ground);例句:勉强(卡:grassy) | L6:勉强(线索:raced/their) | L7:OK | L8:合适(可配图/动作演示)
+- spout | L5:不能(卡:opening);例句:不能(卡:fountain) | L6:不能(学科/抽象(线索:fountain)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- stump | L5:勉强(卡:ground);例句:勉强(卡:table) | L6:勉强(线索:table/their) | L7:OK | L8:合适(可配图/动作演示)
+- torch | L5:勉强(卡:flashlight);例句:勉强(卡:sparkling) | L6:勉强(线索:explorer/sparkling) | L7:OK | L8:合适(可配图/动作演示)
+- wade | L5:勉强(卡:through);例句:勉强(卡:shallow) | L6:不能(易被同义词替换(线索:shallow)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- asteroid | L5:不能(卡:smaller);例句:不能(卡:school) | L6:不能(学科/抽象(线索:school/earth)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- axis | L5:不能(卡:imaginary);例句:不能(卡:earth) | L6:不能(学科/抽象(线索:earth/spins)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- carnivore | L5:不能(卡:animal);例句:不能(卡:animals) | L6:不能(学科/抽象(线索:animals)) | L7:OK | L8:偏难(科普词;建议与herbivore/omnivore成组)
+- census | L5:不能(卡:official);例句:不能(卡:government) | L6:不能(学科/抽象(线索:government)) | L7:注意(政府统计;可用更中性“official count”解释) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- chlorophyll | L5:不能(卡:sunlight);例句:不能(卡:sunlight) | L6:不能(学科/抽象(线索:sunlight)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- crater | L5:不能(卡:ground);例句:不能(卡:billions) | L6:不能(学科/抽象(线索:covered/crashed)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- crustacean | L5:不能(卡:lobster);例句:不能(卡:lobster) | L6:不能(学科/抽象(线索:lobster)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- digestive | L5:不能(卡:breaks);例句:不能(卡:sandwich) | L6:不能(学科/抽象(线索:sandwich)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- elevation | L5:不能(卡:above);例句:不能(卡:mountain) | L6:不能(学科/抽象(线索:mountain)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- fertile | L5:不能(卡:growing);例句:不能(卡:nutrients) | L6:不能(学科/抽象(线索:tallest/nutrients)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- glacier | L5:不能(卡:slowly);例句:不能(卡:thousands) | L6:不能(学科/抽象(线索:thousands/forward)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- herbivore | L5:不能(卡:animal);例句:不能(卡:munches) | L6:不能(学科/抽象(线索:munches/carrots)) | L7:OK | L8:偏难(科普词;建议与carnivore/omnivore成组)
+- humidity | L5:不能(卡:amount);例句:不能(卡:glasses) | L6:不能(学科/抽象(线索:glasses/outside)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- legislature | L5:不能(卡:country);例句:不能(卡:requiring) | L6:不能(学科/抽象(线索:requiring/schools)) | L7:注意(政治/法律机构概念) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- molecule | L5:不能(卡:substance);例句:不能(卡:millions) | L6:不能(学科/抽象(线索:millions)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- arid | L5:不能(卡:almost);例句:不能(卡:places) | L6:不能(学科/抽象(线索:cacti/places)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- archaeology | L5:不能(卡:behind);例句:不能(卡:scientists) | L6:不能(学科/抽象(线索:scientists/ancient)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- mesa | L5:不能(卡:flat-topped);例句:不能(卡:desert) | L6:不能(学科/抽象(线索:alone/desert)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- tundra | L5:不能(卡:frozen);例句:不能(卡:survive) | L6:不能(学科/抽象(线索:survive)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- stalagmite | L5:不能(卡:shape);例句:不能(卡:thousands) | L6:不能(学科/抽象(线索:dripping/thousands)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- tributary | L5:不能(卡:smaller);例句:不能(卡:downtown) | L6:不能(学科/抽象(线索:downtown)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- archipelago | L5:不能(卡:together);例句:不能(卡:underwater) | L6:不能(学科/抽象(线索:islands/underwater)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- stratosphere | L5:不能(卡:atmosphere);例句:不能(卡:weather) | L6:不能(学科/抽象(线索:weather/balloon)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- preamble | L5:不能(卡:important);例句:不能(卡:constitution) | L6:不能(学科/抽象(线索:constitution/belongs)) | L7:注意(法律文本;容易引到政治内容) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- filament | L5:不能(卡:thread);例句:不能(卡:white-hot) | L6:不能(学科/抽象(线索:white-hot/through)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- nocturnal | L5:不能(卡:sleeping);例句:不能(卡:animals) | L6:不能(学科/抽象(线索:animals/hearing)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- translucent | L5:不能(卡:letting);例句:不能(卡:jellyfish) | L6:不能(学科/抽象(线索:jellyfish/through)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- omnivore | L5:不能(卡:animal);例句:不能(卡:berries) | L6:不能(学科/抽象(线索:berries)) | L7:OK | L8:偏难(科普词;建议在carnivore+herbivore之后)
+- plateau | L5:不能(卡:bigger);例句:不能(卡:desert) | L6:不能(学科/抽象(线索:above/desert)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- geothermal | L5:不能(卡:inside);例句:不能(卡:underground) | L6:不能(学科/抽象(线索:iceland/underground)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- specimen | L5:勉强(卡:example);例句:勉强(卡:scientist) | L6:不能(易被同义词替换(线索:scientist/collected)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- meridian | L5:不能(卡:imaginary);例句:不能(卡:through) | L6:不能(学科/抽象(线索:through/divides)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- respiration | L5:不能(卡:breathing);例句:不能(卡:increased) | L6:不能(学科/抽象(线索:increased/falling)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- paleontology | L5:不能(卡:ancient);例句:不能(卡:scientists) | L6:不能(学科/抽象(线索:scientists/dinosaurs)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- aquifer | L5:不能(卡:ground);例句:不能(卡:drinking) | L6:不能(学科/抽象(线索:drinking)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- deciduous | L5:不能(卡:growing);例句:不能(卡:november) | L6:不能(学科/抽象(线索:dropped/november)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- pharaoh | L5:不能(卡:ancient);例句:不能(卡:ordered) | L6:不能(学科/抽象(线索:ordered/workers)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- sedimentary | L5:不能(卡:together);例句:不能(卡:pancakes) | L6:不能(学科/抽象(线索:visible/pancakes)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- isthmus | L5:不能(卡:connecting);例句:不能(卡:connects) | L6:不能(学科/抽象(线索:connects/america)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- dividend | L5:不能(卡:division);例句:不能(卡:number) | L6:不能(学科/抽象(线索:number/being)) | L7:OK | L8:偏难(数学术语;需先有division语境;建议与divisor成组)
+- divisor | L5:不能(卡:number);例句:不能(卡:groups) | L6:不能(学科/抽象(线索:groups/making)) | L7:OK | L8:偏难(数学术语;需先有division语境;建议与dividend成组)
+- mandate | L5:不能(卡:official);例句:不能(卡:bike-to-school) | L6:不能(学科/抽象(线索:students/helmets)) | L7:注意(强制命令语气;家长可能不喜欢) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- authentic | L5:勉强(卡:copied);例句:勉强(卡:dinosaur) | L6:不能(易被同义词替换(线索:dinosaur/million)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- scarcity | L5:不能(卡:shortage);例句:不能(卡:during) | L6:不能(学科/抽象(线索:during/water)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- ancestry | L5:不能(卡:generations);例句:不能(卡:great-great-grandp) | L6:不能(学科/抽象(线索:studying/great-great-grandparents)) | L7:OK | L8:偏难(抽象家族史;与lineage重复)
+- interval | L5:不能(卡:between);例句:不能(卡:ten-minute) | L6:不能(学科/抽象(线索:ten-minute)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- eligible | L5:勉强(卡:allowed);例句:勉强(卡:finished) | L6:不能(易被同义词替换(线索:reading/finished)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- manipulate | L5:不能(卡:control);例句:不能(卡:learned) | L6:不能(学科/抽象(线索:fingers)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- salvage | L5:不能(卡:destroyed);例句:不能(卡:family) | L6:不能(学科/抽象(线索:flood/family)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- acquire | L5:不能(卡:working);例句:不能(卡:telescope) | L6:不能(学科/抽象(线索:telescope)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- terminate | L5:不能(卡:completely);例句:不能(卡:station-everyone) | L6:不能(学科/抽象(线索:station-everyone)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- verdict | L5:勉强(卡:decision);例句:勉强(卡:tasting) | L6:不能(易被同义词替换(线索:tasting)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hangar | L5:不能(卡:airplanes);例句:不能(卡:mechanic) | L6:不能(学科/抽象(线索:mechanic/wheeled)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hardship | L5:勉强(卡:conditions);例句:勉强(卡:families) | L6:不能(易被同义词替换(线索:pioneer/families)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- harpoon | L5:不能(卡:catching);例句:不能(卡:fisherman) | L6:不能(学科/抽象(线索:fisherman/swimming)) | L7:注意(武器/捕猎联想) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- harrow | L5:不能(卡:dragged);例句:不能(卡:planting) | L6:不能(学科/抽象(线索:prepare/planting)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- haste | L5:勉强(卡:great);例句:勉强(卡:kitchen) | L6:不能(易被同义词替换(线索:kitchen/counter)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- havoc | L5:不能(卡:confusion);例句:不能(卡:knocking) | L6:不能(学科/抽象(线索:tornado/wreaked)) | L7:注意(破坏画面较强) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- headway | L5:不能(卡:progress);例句:不能(卡:difficult) | L6:不能(学科/抽象(线索:practice/finally)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- heed | L5:勉强(卡:attention);例句:勉强(卡:warning) | L6:不能(易被同义词替换(线索:warning)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- helm | L5:不能(卡:handle);例句:不能(卡:captain) | L6:不能(学科/抽象(线索:captain/through)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- herald | L5:不能(卡:announces);例句:不能(卡:weather) | L6:不能(学科/抽象(线索:weather/arrives)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hermit | L5:不能(卡:lives);例句:不能(卡:mountaintop) | L6:不能(学科/抽象(线索:mountaintop)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hew | L5:不能(卡:chop);例句:不能(卡:lumberjack) | L6:不能(学科/抽象(线索:lumberjack/campfire)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hinge | L5:勉强(卡:metal);例句:勉强(卡:creaking) | L6:不能(易被同义词替换(线索:creaking)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hoard | L5:勉强(卡:collect);例句:勉强(卡:dragon) | L6:不能(易被同义词替换(线索:dragon/coins)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hobble | L5:勉强(卡:trouble);例句:勉强(卡:playground) | L6:不能(易被同义词替换(线索:twisting/playground)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hoist | L5:不能(卡:heavy);例句:不能(卡:sailors) | L6:不能(学科/抽象(线索:sailors/setting)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- homage | L5:不能(卡:publicly);例句:不能(卡:soldiers) | L6:不能(学科/抽象(线索:soldiers/country)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- homestead | L5:不能(卡:buildings);例句:不能(卡:farmhouse) | L6:不能(学科/抽象(线索:farmhouse)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hone | L5:勉强(卡:sharpen);例句:勉强(卡:sketching) | L6:不能(易被同义词替换(线索:drawing/sketching)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hornet | L5:勉强(卡:stinging);例句:能 | L6:勉强(线索:angrily/smelled) | L7:OK | L8:合适(可配图/动作演示)
+- hosiery | L5:不能(卡:stockings);例句:不能(卡:pattern) | L6:不能(学科/抽象(线索:pattern)) | L7:OK | L8:偏难(低频集合名词;拆成socks/stockings更直观)
+- hospitable | L5:不能(卡:welcoming);例句:不能(卡:lemonade) | L6:不能(学科/抽象(线索:offered/lemonade)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hub | L5:不能(卡:activity);例句:不能(卡:travelers) | L6:不能(学科/抽象(线索:airport/travelers)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- huddle | L5:勉强(卡:together);例句:勉强(卡:together) | L6:不能(易被同义词替换(线索:players/together)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hull | L5:勉强(卡:main);例句:勉强(卡:workers) | L6:不能(易被同义词替换(线索:workers/painted)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- humus | L5:不能(卡:healthy);例句:不能(卡:vegetables) | L6:不能(学科/抽象(线索:perfect/growing)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hurdle | L5:勉强(卡:overcome);例句:勉强(卡:finished) | L6:不能(易被同义词替换(线索:cleared/finished)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hurl | L5:勉强(卡:throw);例句:勉强(卡:baseball) | L6:不能(易被同义词替换(线索:pitcher/baseball)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hurricane | L5:不能(卡:powerful);例句:不能(卡:brought) | L6:不能(学科/抽象(线索:brought)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hydrate | L5:勉强(卡:enough);例句:勉强(卡:drinking) | L6:不能(易被同义词替换(线索:coaches/players)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- hymn | L5:不能(卡:religious);例句:不能(卡:beautiful) | L6:不能(学科/抽象(线索:beautiful/through)) | L7:注意(宗教场景;部分家长敏感) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- hyperbole | L5:不能(卡:saying);例句:不能(卡:example) | L6:不能(学科/抽象(线索:example)) | L7:OK | L8:偏难(修辞术语;更像高年级写作课)
+- icon | L5:勉强(卡:picture);例句:勉强(卡:computer) | L6:不能(易被同义词替换(线索:clicked/computer)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- imbue | L5:不能(卡:lasting);例句:不能(卡:students) | L6:不能(学科/抽象(线索:teacher/students)) | L7:OK | L8:偏难(学术动词;可换成fill/teach)
+- impervious | L5:不能(卡:affected);例句:不能(卡:waterproof) | L6:不能(学科/抽象(线索:waterproof/rain-not)) | L7:OK | L8:偏难(高级形容词;先学waterproof更自然)
+- impound | L5:不能(卡:take);例句:不能(卡:illegally) | L6:不能(学科/抽象(线索:illegally)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- indent | L5:勉强(卡:further);例句:勉强(卡:paragraph) | L6:不能(易被同义词替换(线索:paragraph)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- inferno | L5:不能(卡:fierce);例句:不能(卡:forest) | L6:不能(学科/抽象(线索:forest/night)) | L7:注意(灾难/火灾画面较强) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- infuse | L5:不能(卡:quality);例句:不能(卡:refreshing) | L6:不能(学科/抽象(线索:refreshing)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- inlet | L5:不能(卡:reaches);例句:不能(卡:surrounded) | L6:不能(学科/抽象(线索:kayakers/paddled)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- inquest | L5:不能(卡:official);例句:不能(卡:happened) | L6:不能(学科/抽象(线索:ordered/exactly)) | L7:OK | L8:偏难(司法术语;可推迟/换成investigation)
+- instill | L5:不能(卡:gradually);例句:不能(卡:teamwork) | L6:不能(学科/抽象(线索:teamwork)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- insular | L5:不能(卡:thinking);例句:不能(卡:village) | L6:不能(学科/抽象(线索:village/contact)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- intrigue | L5:不能(卡:interested);例句:不能(卡:mysterious) | L6:不能(学科/抽象(线索:mysterious/children)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- inundate | L5:不能(卡:overwhelm);例句:不能(卡:reporter) | L6:不能(学科/抽象(线索:reporter)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- irate | L5:不能(卡:angry);例句:不能(卡:demanded) | L6:不能(学科/抽象(线索:demanded/manager)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- irk | L5:勉强(卡:mildly);例句:勉强(卡:constant) | L6:不能(易被同义词替换(线索:constant/dripping)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- ivory | L5:不能(卡:creamy-white);例句:不能(卡:antique) | L6:不能(学科/抽象(线索:antique/fingers)) | L7:注意(象牙相关;建议强调“ivory-colored”避免动物贸易联想) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- jaunt | L5:勉强(卡:short);例句:勉强(卡:weekend) | L6:不能(易被同义词替换(线索:weekend/seaside)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- jest | L5:勉强(卡:funnily);例句:勉强(卡:everyone) | L6:不能(易被同义词替换(线索:everyone/thought)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- jettison | L5:不能(卡:overboard);例句:不能(卡:lighter) | L6:不能(学科/抽象(线索:lighter/landing)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- jinx | L5:不能(卡:believed);例句:不能(卡:thought) | L6:不能(学科/抽象(线索:thought)) | L7:注意(迷信/坏运气;部分家长不喜欢) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- jostle | L5:勉强(卡:roughly);例句:勉强(卡:shoppers) | L6:不能(易被同义词替换(线索:shoppers)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- jubilant | L5:勉强(卡:happiness);例句:勉强(卡:championship) | L6:不能(易被同义词替换(线索:cheered/winning)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- juncture | L5:不能(卡:particular);例句:不能(卡:whether) | L6:不能(学科/抽象(线索:whether/forward)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- juniper | L5:不能(卡:evergreen);例句:不能(卡:covered) | L6:不能(学科/抽象(线索:covered/berries)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- kernel | L5:勉强(卡:inner);例句:勉强(卡:popcorn) | L6:勉强(线索:popcorn) | L7:OK | L8:合适(可配图/动作演示)
+- kilt | L5:不能(卡:scotland);例句:不能(卡:scottish) | L6:不能(学科/抽象(线索:scottish/bagpiper)) | L7:OK(文化特定:苏格兰;建议配图/补充背景) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- knack | L5:勉强(卡:natural);例句:勉强(卡:things-he) | L6:不能(易被同义词替换(线索:things-he/repaired)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- knead | L5:勉强(卡:squeeze);例句:能 | L6:勉强(线索:baker/bread) | L7:OK | L8:合适(可配图/动作演示)
+- knell | L5:不能(卡:serious);例句:不能(卡:village) | L6:不能(学科/抽象(线索:village)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- knoll | L5:能;例句:勉强(卡:sunshine) | L6:勉强(线索:blanket/sunshine) | L7:OK | L8:合适(可配图/动作演示)
+- lacquer | L5:勉强(卡:coating);例句:勉强(卡:jewelry) | L6:不能(易被同义词替换(线索:jewelry/covered)) | L7:OK | L8:偏难(材料工艺词;可推迟)
+- lair | L5:勉强(卡:animal);例句:勉强(卡:returned) | L6:勉强(线索:returned/through) | L7:OK | L8:合适(可配图/动作演示)
+- lance | L5:不能(卡:horseback);例句:不能(卡:straight) | L6:不能(学科/抽象(线索:charged/forward)) | L7:注意(武器;放在历史/骑士故事语境更好) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- lanky | L5:勉强(卡:awkward);例句:勉强(卡:teenager) | L6:不能(易被同义词替换(线索:teenager/through)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- lattice | L5:不能(卡:crossed);例句:不能(卡:climbed) | L6:不能(学科/抽象(线索:climbed/cottage)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- lavish | L5:勉强(卡:generous);例句:勉强(卡:chocolate) | L6:不能(易被同义词替换(线索:birthday/chocolate)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- ledger | L5:勉强(卡:recording);例句:勉强(卡:owner) | L6:不能(易被同义词替换(线索:owner/wrote)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- leech | L5:不能(卡:worm-like);例句:不能(卡:wading) | L6:不能(学科/抽象(线索:wading/found)) | L7:注意(吸血虫画面可能让孩子不适) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- leer | L5:不能(卡:unpleasant);例句:不能(卡:villain) | L6:不能(学科/抽象(线索:villain)) | L7:注意(阴险/冒犯感;可接受) | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- legible | L5:勉强(卡:enough);例句:勉强(卡:handwriting) | L6:不能(易被同义词替换(线索:handwriting/teacher)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- legion | L5:不能(卡:soldiers);例句:不能(卡:outside) | L6:不能(学科/抽象(线索:outside/stadium)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- lever | L5:勉强(卡:heavy);例句:勉强(卡:wooden) | L6:勉强(线索:heavy/wooden) | L7:OK | L8:合适(可配图/动作演示)
+- lilac | L5:勉强(卡:flowers);例句:能 | L6:勉强(线索:bloomed/filling) | L7:OK | L8:合适(可配图/动作演示)
+- limber | L5:勉强(卡:flexible);例句:勉强(卡:gymnast) | L6:不能(易被同义词替换(线索:gymnast)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- limelight | L5:勉强(卡:attention);例句:勉强(卡:actress) | L6:不能(易被同义词替换(线索:actress/enjoyed)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- limpid | L5:不能(卡:perfectly);例句:不能(卡:mountain) | L6:不能(学科/抽象(线索:mountain/pebbles)) | L7:OK | L8:偏难(低频;可用clear替代)
+- lineage | L5:不能(卡:grandparents);例句:不能(卡:generations) | L6:不能(学科/抽象(线索:generations/ancestors)) | L7:OK | L8:偏难(抽象家族史;与ancestry重复)
+- linen | L5:能;例句:勉强(卡:tablecloth) | L6:勉强(线索:tablecloth) | L7:OK | L8:合适(可配图/动作演示)
+- lintel | L5:不能(卡:horizontal);例句:不能(卡:doorway) | L6:不能(学科/抽象(线索:doorway)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- listless | L5:勉强(卡:interest);例句:勉强(卡:afternoon) | L6:不能(易被同义词替换(线索:afternoon/everyone)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- litany | L5:不能(卡:boring);例句:不能(卡:teacher) | L6:不能(学科/抽象(线索:teacher)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- lithe | L5:不能(卡:flexible);例句:不能(卡:dancer) | L6:不能(学科/抽象(线索:dancer/moved)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- livelihood | L5:不能(卡:earns);例句:不能(卡:fishing) | L6:不能(学科/抽象(线索:fishing/coastal)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- loam | L5:不能(卡:rotted);例句:不能(卡:gardener) | L6:不能(学科/抽象(线索:gardener/planting)) | L7:OK | L8:偏难(更像学科/低频词;建议推迟或拆解)
+- lobe | L5:勉强(卡:rounded);例句:能 | L6:勉强(线索:earring) | L7:OK | L8:合适(可配图/动作演示)
+- locale | L5:勉强(卡:happens);例句:勉强(卡:tropical) | L6:不能(易被同义词替换(线索:tropical/vacation)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- locomotion | L5:不能(卡:ability);例句:不能(卡:different) | L6:不能(学科/抽象(线索:different/creatures)) | L7:OK | L8:偏难(学术名词;可先用movement)
+- loft | L5:勉强(卡:upper);例句:勉强(卡:converted) | L6:勉强(线索:converted/reading) | L7:OK | L8:合适(可配图/动作演示)
+- lore | L5:不能(卡:knowledge);例句:不能(卡:campfire) | L6:不能(学科/抽象(线索:village/evening)) | L7:OK | L8:偏难(抽象;可先学legend/story)
+- lucid | L5:勉强(卡:understand);例句:勉强(卡:explanation) | L6:不能(易被同义词替换(线索:teacher/explanation)) | L7:OK | L8:偏难(更像高年级常用词;需要前置词)
+- lull | L5:勉强(卡:short-term);例句:勉强(卡:quickly) | L6:勉强(线索:quickly/outside) | L7:OK | L8:合适(可配图/动作演示)
+- lunge | L5:能;例句:能 | L6:能(线索:opponent) | L7:OK | L8:合适(可配图/动作演示)
