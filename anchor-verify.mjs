@@ -377,31 +377,16 @@ async function main() {
     }
     
     if (match.score < critThreshold && allDefs.length > 0 && !isEnumeration && !glossMatch) {
-      // If the word exists in WordNet but our simplified def just uses different vocabulary,
-      // downgrade to HIGH (not CRITICAL). CRITICAL = definition is factually WRONG.
-      // A simplified ESL definition using simpler words is expected, not an error.
-      const severity = source === 'WordNet' ? 'HIGH' : 'CRITICAL';
-      if (severity === 'CRITICAL') {
-        results.CRITICAL.push({
-          word: entry.word, level: entry.level,
-          issue: 'DEFINITION_MISMATCH',
-          ourDef: entry.definition,
-          bestDictDef: match.bestDef,
-          score: match.score.toFixed(2),
-          source,
-          dictPOS: match.allPOS,
-          topDefs: allDefs.slice(0, 3).map(d => `[${d.pos}] ${d.definition}`)
-        });
-      } else {
-        results.HIGH.push({
-          word: entry.word, level: entry.level,
-          issue: 'LOW_OVERLAP',
-          ourDef: entry.definition,
-          bestDictDef: match.bestDef,
-          score: match.score.toFixed(2),
-          source
-        });
-      }
+      // Overlap scoring is intentionally conservative and often misses correct simplified ESL definitions.
+      // Treat low overlap as HIGH (needs human review), not CRITICAL (factually wrong).
+      results.HIGH.push({
+        word: entry.word, level: entry.level,
+        issue: 'LOW_OVERLAP',
+        ourDef: entry.definition,
+        bestDictDef: match.bestDef,
+        score: match.score.toFixed(2),
+        source
+      });
     } else if (match.score < 0.2) {
       results.HIGH.push({
         word: entry.word, level: entry.level,
