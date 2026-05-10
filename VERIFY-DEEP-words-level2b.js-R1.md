@@ -434,3 +434,20 @@
 
 No new patterns needed for proofcheck.mjs — all issues were one-off wording fixes, not systemic patterns.
 
+
+## 7. Verification Script Output
+
+```
+📋 审校报告核查: VERIFY-DEEP-words-level2b.js-R1.md
+📁 词库文件: words-level2b.js (382词)
+──────────────────────────────────────────────────
+✅ 报告行数: 437 ≥ 382词
+✅ 词覆盖率: 100.0% (382/382)
+✅ 审查多样性: 最大重复2/364 (0.5%), 无模板式复制
+📊 发现问题: 0个❌
+
+──────────────────────────────────────────────────
+🟢 全部通过 (3项检查)
+
+结果: PASS
+```
