@@ -145,41 +145,76 @@ function removeTargetFromExample(example, word) {
 function l5Def(item) {
   const def = (item.definition || '').trim();
   const toks = normTokens(tokenize(def));
+  const w = (item.word || '').toLowerCase();
 
-  let status = '能';
-  let note = '';
+  // Mark: 10岁中国ESL，MAP≈197（约二年级）——标准要更“苛刻”一点：
+  // 只有非常具体、生活高频、词形不难的才算“能”。
 
-  // too long or uses abstract/meta vocabulary -> harder
-  const hardTokens = new Set([
-    'effort','details','direction','instead','suddenly','possible','usually','probably','specific','compare','contrast','similar','different','result','example','category','relationship','system','process','effect','evidence','typical','behavior','pattern','structure','function','value'
+  let score = 0;
+  const reasons = [];
+
+  if (/\s/.test(w)) {
+    score += 2;
+    reasons.push('多词短语');
+  }
+
+  if (w.length >= 12) {
+    score += 3;
+    reasons.push('词很长');
+  } else if (w.length >= 9) {
+    score += 2;
+    reasons.push('词偏长');
+  } else if (w.length >= 8) {
+    score += 1;
+    reasons.push('拼写有负担');
+  }
+
+  // 常见学术/拉丁词形特征（对低龄拼写与掌握都更难）
+  if (/(tion|sion|ment|ness|ity|ence|ance|ism|cracy|nomy|logy|graphy|ative|ization|ify|ize|ous|ious|ible|able|ary|ate)$/.test(w)) {
+    score += 2;
+    reasons.push('词缀偏学术');
+  }
+
+  // 定义复杂度
+  if (toks.length >= 12) {
+    score += 2;
+    reasons.push('定义太长');
+  } else if (toks.length >= 9) {
+    score += 1;
+    reasons.push('定义偏长');
+  }
+
+  const abstractTokens = new Set([
+    'process','relationship','system','practice','quality','state','transfer','evidence','effect','value','typical','pattern','structure','function','resource','requirement','agreement','officially','policy','regulation','illegal','element'
   ]);
-
-  const hardCount = toks.filter(t => hardTokens.has(t)).length;
-  const len = toks.length;
-
-  // detect metalanguage like "in other words", "as a result"
-  if (/^(moreover|nevertheless|nonetheless|accordingly|additionally|consequently|regardless|specifically|namely|notably)$/i.test(item.word)) {
-    status = '不能';
-    note = '逻辑连接词本身抽象；定义也偏写作语法';
-    return { status, note };
+  const absCount = toks.filter(t => abstractTokens.has(t)).length;
+  if (absCount >= 2) {
+    score += 2;
+    reasons.push('抽象术语多');
+  } else if (absCount === 1) {
+    score += 1;
+    reasons.push('有抽象术语');
   }
 
-  if (len <= 7 && hardCount === 0) {
-    status = '能';
-    note = '';
-  } else if (len <= 11 && hardCount <= 1) {
-    status = '勉强';
-    note = '定义稍长/有抽象词，需要中文解释或图';
-  } else {
-    status = '不能';
-    note = '定义抽象或信息密度高，二年级ESL难直接吃下';
+  // 连接词/元语言：低龄极难
+  if (/^(moreover|nevertheless|nonetheless|accordingly|additionally|consequently|regardless|specifically|namely|notably|overall|similarly)$/i.test(item.word)) {
+    return { status: '不能', note: '逻辑连接词偏写作；二年级ESL难掌握与产出' };
   }
 
-  // If definition uses "something" multiple times -> vague
+  // “something…something”太泛
   if ((def.match(/\bsomething\b/gi) || []).length >= 2) {
-    status = (status === '能') ? '勉强' : status;
-    note = note || '定义太泛(something…something)，抓不住点';
+    score += 1;
+    reasons.push('定义太泛');
   }
+
+  let status;
+  if (score <= 1) status = '能';
+  else if (score <= 4) status = '勉强';
+  else status = '不能';
+
+  let note = '';
+  if (status === '勉强') note = '需要中文支架/图示；' + (reasons.slice(0, 2).join('、') || '概念不够直观');
+  if (status === '不能') note = '超出二年级ESL可直接掌握；' + (reasons.slice(0, 2).join('、') || '概念抽象/词形难');
 
   return { status, note };
 }
@@ -213,6 +248,14 @@ function l5Example(item, idx) {
   } else {
     status = '不能';
     note = '例句不够指向，猜词会跑偏';
+  }
+
+  // 对MAP≈197：即使语境能猜到意思，很多词也“拼不出/说不出目标词形”
+  const w = (item.word || '').toLowerCase();
+  const hardForm = w.length >= 9 || /(tion|sion|ment|ness|ity|ence|ance|ism|cracy|nomy|logy|graphy|ative|ization|ify|ize|ous|ious|ible|able|ary|ate)$/.test(w) || /\s/.test(w);
+  if (hardForm && status !== '不能') {
+    status = '不能';
+    note = note || '能理解情境但难产出该词(词形长/学术词缀)';
   }
 
   // connection words tend to be ambiguous in example-guessing
@@ -315,15 +358,18 @@ function l7Culture(item) {
   let note = '';
 
   const flags = [];
-  if (/(slavery|weapon|gun|kill|murder|blood)/.test(w + ' ' + ex)) flags.push('暴力/沉重');
-  if (/(religion|church|god|bible|pray)/.test(w + ' ' + ex)) flags.push('宗教');
+  if (/(slavery|weapon|gun|kill|murder|blood|annihilate|devastate)/.test(w + ' ' + ex)) flags.push('暴力/灾难(偏沉重)');
+  if (/(religion|church|god|bible|pray|holy)/.test(w + ' ' + ex)) flags.push('宗教');
   if (/(alcohol|beer|wine|drunk|cigarette|smoke|drug)/.test(w + ' ' + ex)) flags.push('烟酒毒');
-  if (/(protest|boycott|government|congress|republic|democracy|rights|tax)/.test(w + ' ' + ex)) flags.push('政治/公民');
+  if (/(protest|boycott|government|congress|republic|democracy|rights|tax|law|laws|illegal|vote|voting)/.test(w + ' ' + ex)) flags.push('政治/公民');
+  if (/(discrimination|skin color|racism)/.test(w + ' ' + ex)) flags.push('歧视/种族(需措辞谨慎)');
+  if (/(poverty|destitution|homeless)/.test(w + ' ' + ex)) flags.push('贫困议题(避免“卖惨”)');
+  if (/(gulf of mexico|yellowstone|california|texas|louisiana|pacific ocean|college|baseball)/.test(w + ' ' + ex)) flags.push('美式语境/地名');
   if (/(secret)\b/.test(w) && /(don\x27t tell|keep.*secret)/.test(ex)) flags.push('“保密”表达');
 
   if (flags.length) {
     status = '注意';
-    note = `可能引发家长顾虑：${flags.join('、')}；建议例句更中性/更生活化`;
+    note = `可能引发家长顾虑或需要解释：${flags.join('、')}；建议例句更中性/更普适`;
   }
 
   return { status, note };
@@ -332,26 +378,53 @@ function l7Culture(item) {
 function l8Path(item) {
   const w = (item.word || '').toLowerCase();
 
-  // heuristics: too academic / too abstract / too long / heavy civics
-  const academic = /(longitude|latitude|hemisphere|equator|photosynthesis|cellulose|chromosome|gravitational|greenhouse effect|ecosystem|biodiversity|meteorology|molecule|microscope|oxygen|carbon dioxide)/;
+  // L8要以“MAP≈197 二年级ESL能否形成可用学习路径”为准：
+  // - 学科词/制度词/抽象名词/长词形：大多应后移
+
+  const academic = /(atom|aviation|biome|ecology|element|emission|genetic|frequency|exponent|exponentiation|cortex)/;
   const heavyLinkers = /^(moreover|nevertheless|nonetheless|accordingly|consequently|therefore|namely|notably|overall|similarly|specifically|by contrast|in contrast|in fact|in general|in particular|in summary|in conclusion|on the contrary|on the whole)$/;
-  const civics = /(congress|democracy|republic|amendment|rights|tax|budget|economy|government|revolution|slavery|boycott|protest)/;
+  const civics = /(federal|civic|council|conference|consensus|enfranchisement|rights|government|law|laws|illegal|diplomat|devolution|contract)/;
+
+  let score = 0;
+  const reasons = [];
+
+  if (/\s/.test(w)) {
+    score += 2;
+    reasons.push('短语');
+  }
+  if (w.length >= 12) {
+    score += 3;
+    reasons.push('词形很长');
+  } else if (w.length >= 9) {
+    score += 2;
+    reasons.push('词形偏长');
+  } else if (w.length >= 8) {
+    score += 1;
+    reasons.push('拼写负担');
+  }
+  if (/(tion|sion|ment|ness|ity|ence|ance|ism|cracy|nomy|logy|graphy|ative|ization|ify|ize|ous|ious|ible|able|ary|ate)$/.test(w)) {
+    score += 2;
+    reasons.push('学术词缀');
+  }
 
   let status = '合适';
   let note = '';
 
-  if (academic.test(w)) {
+  if (heavyLinkers.test(w)) {
     status = '不合适';
-    note = '学科词偏硬；建议后移或拆成更基础概念';
-  } else if (heavyLinkers.test(w)) {
+    note = '写作连接词应更晚；先稳 because/but/so/also';
+  } else if (academic.test(w)) {
     status = '不合适';
-    note = '写作连接词应更晚引入；先稳 because/but/so/also';
+    note = '学科词偏硬；需更基础概念铺垫(可改为识别词)';
   } else if (civics.test(w)) {
+    status = '不合适';
+    note = '制度/公民概念大且文化依赖；低龄不宜作为核心词';
+  } else if (score >= 4) {
+    status = '不合适';
+    note = '对MAP≈197明显超纲；' + (reasons.slice(0, 2).join('、') || '抽象/词形难');
+  } else if (score >= 2) {
     status = '勉强';
-    note = '概念大且文化绑定；如保留需中性例句+背景';
-  } else if (w.length >= 11 && !/\s/.test(w)) {
-    status = '勉强';
-    note = '拼写偏长，二年级ESL记忆负担大；需要拆音/反复复现';
+    note = '可作为“认识词”或后置；' + (reasons.slice(0, 2).join('、') || '需要支架');
   }
 
   return { status, note };
