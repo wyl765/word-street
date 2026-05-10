@@ -10,10 +10,10 @@
 |4|aggressive|OK：定义简单|OK：狗吠场景具体|{aggressive,dominant,earnest,bland}→唯一：凶狗场景直指aggressive|OK|OK：level4合适|
 |5|alliance|OK：定义简单|OK：王国结盟场景|{alliance,bond,council,contract}→勉强：bond也可指联系，但alliance更贴合groups|OK|OK：level4合适|
 |6|alter|OK：定义简单|OK：裁缝改裤子具体|{alter,enhance,compose,elevate}→唯一：改短裤子直指alter|OK|OK：level4合适|
-|7|alternative|勉强：定义表述混乱"another what you pick"|OK：绕路场景具体|{alternative,incline,breakthrough,detour}→唯一：备选路线直指alternative|OK|注意：定义需修改，语法混乱|
+|7|alternative|OK：定义清楚（another choice）|OK：绕路场景具体|{alternative,incline,breakthrough,detour}→唯一：备选路线直指alternative|OK|OK：level4合适|
 |8|appreciate|OK：定义简单|OK：搬箱子场景亲切|{appreciate,crave,excel,employ}→唯一：感谢帮忙直指appreciate|OK|OK：level4合适|
 |9|architect|OK：定义简单|OK：设计图书馆具体|{architect,client,diplomat,career}→唯一：设计建筑直指architect|OK|OK：level4合适|
-|10|arctic|勉强：定义有误"North Long stick"|OK：北极熊场景|{arctic,humid,bleak,dormant}→唯一：极寒北极直指arctic|OK|注意：定义需修改，"Long stick"应为"Pole"|
+|10|arctic|OK：定义清楚（North Pole附近很冷）|OK：北极熊场景|{arctic,humid,bleak,dormant}→唯一：极寒北极直指arctic|OK|OK：level4合适|
 |11|arise|OK：定义简单|OK：拖延出问题场景|{arise,conform,consume,assess}→唯一：问题产生直指arise|OK|OK：level4合适|
 |12|assess|OK：定义简单|OK：兽医检查鸟场景|{assess,implement,execute,equip}→唯一：判断伤情直指assess|OK|OK：level4合适|
 |13|associate|OK：定义简单|OK：红色联想场景|{associate,comprehend,compose,contact}→唯一：心理联系直指associate|OK|OK：level4合适|
@@ -30,7 +30,7 @@
 |24|brace|OK：定义简单|OK：颠簸着陆场景|{brace,endanger,exhaust,fatigue}→唯一：准备应对直指brace|OK|OK：level4合适|
 |25|breakthrough|OK：定义简单|OK：科学发现场景|{breakthrough,concept,implement,enterprise}→唯一：重大发现直指breakthrough|OK|OK：level4合适|
 |26|breed|OK：定义简单|OK：金毛犬例子具体|{breed,category,characteristic,element}→唯一：犬种直指breed|OK|OK：level4合适|
-|27|browse|勉强：定义有误"easy-going; not fancy"|OK：书店场景|{browse,catalog,highlight,curate}→唯一：随意翻看直指browse|OK|注意：定义需修改|
+|27|browse|OK：定义清楚（随便翻看）|OK：书店场景|{browse,catalog,highlight,curate}→唯一：随意翻看直指browse|OK|OK：level4合适|
 |28|cabinet|OK：定义简单|OK：厨房柜子场景|{cabinet,chamber,crane,craft}→唯一：储物柜直指cabinet|OK|OK：level4合适|
 |29|captive|OK：定义简单|OK：受伤鹰场景|{captive,exempt,dormant,deprive}→唯一：被困/囚禁直指captive|OK|OK：level4合适|
 |30|career|OK：定义简单|OK：海洋生物学家场景|{career,enterprise,commerce,employ}→唯一：长期职业直指career|OK|OK：level4合适|
@@ -108,7 +108,7 @@
 |102|extensive|OK：定义简单|OK：图书馆藏书场景|{extensive,extraordinary,dynamic,global}→唯一：广泛覆盖直指extensive|OK|OK：level4合适|
 |103|extraordinary|OK：定义简单|OK：杂技场景|{extraordinary,astounding,bizarre,audacious}→勉强：astounding也指惊人，但extraordinary更贴合非凡|OK|OK：level4合适|
 |104|fatigue|OK：定义简单|OK：徒步场景|{fatigue,exhaust,lassitude,debilitation}→勉强：lassitude也指疲倦，但fatigue更贴合体力疲劳|OK|OK：level4合适|
-|105|feasible|勉强：定义表述混乱|OK：建树屋场景|{feasible,credible,concrete,alternative}→唯一：可行性直指feasible|OK|注意：定义需修改|
+|105|feasible|OK：定义清楚（possible to do）|OK：建树屋场景|{feasible,credible,concrete,alternative}→唯一：可行性直指feasible|OK|OK：level4合适（抽象但例句支撑）|
 |106|federal|OK：定义简单|OK：全国法律场景|{federal,civic,global,council}→唯一：联邦/全国政府直指federal|OK|OK：level4合适|
 |107|fluid|OK：定义简单|OK：量杯场景|{fluid,chemical,element,emission}→唯一：流体直指fluid|OK|OK：level4合适|
 |108|frequency|OK：定义简单|OK：地震频率场景|{frequency,dynamic,extensive,condition}→唯一：发生频率直指frequency|OK|OK：level4合适|
@@ -124,7 +124,7 @@
 |118|implement|OK：定义简单|OK：回收计划场景|{implement,execute,equip,employ}→勉强：execute也指执行，但implement更贴合付诸行动|OK|OK：level4合适|
 |119|impulse|OK：定义简单|OK：冲动买糖场景|{impulse,crave,enthusiasm,agitation}→唯一：突然冲动直指impulse|OK|OK：level4合适|
 |120|inaugurate|OK：定义简单|OK：新桥剪彩场景|{inaugurate,ceremony,declare,implement}→唯一：正式启用直指inaugurate|OK|OK：level4合适|
-|121|incline|勉强：定义有误"leaning to one side outside part going going up"|OK：陡坡骑车场景|{incline,elevate,arise,gulf}→唯一：斜坡直指incline|OK|注意：定义需修改|
+|121|incline|OK：定义清楚（slope）|OK：陡坡骑车场景|{incline,elevate,arise,gulf}→唯一：斜坡直指incline|OK|OK：level4合适|
 |122|industrial|OK：定义简单|OK：工厂区场景|{industrial,commerce,enterprise,federal}→唯一：工厂制造直指industrial|OK|OK：level4合适|
 |123|inevitable|OK：定义简单|OK：吃蛋糕肚子痛场景|{inevitable,inexorable,dominant,feasible}→勉强：inexorable也指不可阻挡，但inevitable更贴合必然发生|OK|OK：level4合适|
 |124|abate|OK：定义简单|OK：暴风雨减弱场景|{abate,decay,drain,curtailment}→唯一：变弱直指abate|OK|偏难：level4偏高但场景具体可接受|
