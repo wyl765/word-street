@@ -15,7 +15,7 @@ Notes:
 - alert | L5-Def:勉强(动词=warn；例句=能) | L5-Ex:能 | L6:不唯一(warn/tell) | 选项:[alert / detect / adopt / blame] | L7:OK | L8:合适(先会 warn)
 - allowance | L5-Def:不能(概念陌生；例句=勉强) | L5-Ex:勉强 | L6:不唯一(pocket money/money) | 选项:[allowance / journal / fortune / minimum] | L7:OK | L8:偏难(中国孩子不一定有“weekly allowance”背景)
 - amaze | L5-Def:能 | L5-Ex:能 | L6:不唯一(surprise/wow) | 选项:[amaze / indicate / ban / confirm] | L7:OK | L8:合适
-- appeal | L5-Def:不能(这里是“serious ask”，易和“喜欢/吸引”混) | L5-Ex:不能 | L6:不唯一(ask/beg/request) | 选项:[appeal / decline / ban / distribute] | L7:OK | L8:偏难(多义词，建议后置或换词)
+- appeal | L5-Def:不能(定义疑似损坏含“not playing; meaning what you say”；且多义：请求/吸引) | L5-Ex:不能 | L6:不唯一(ask/beg/request) | 选项:[appeal / decline / ban / distribute] | L7:OK | L8:偏难(建议先修复定义；或改用 ask/request)
 - appetite | L5-Def:勉强(想吃东西的感觉可；例句=能) | L5-Ex:能 | L6:不唯一(hunger) | 选项:[appetite / concern / doubt / crisis] | L7:OK | L8:合适(先学 hungry)
 - applaud | L5-Def:勉强(clap可，但词形长；例句=能) | L5-Ex:能 | L6:唯一 | 选项:[applaud / indicate / notify / occur] | L7:OK | L8:合适
 - appropriate | L5-Def:不能(抽象“right/fitting”；词形长) | L5-Ex:不能 | L6:不唯一(right/good/suitable) | 选项:[appropriate / convenient / literal / minor] | L7:OK | L8:偏难(建议后置或简化为 right/suitable)
@@ -59,7 +59,7 @@ Notes:
 - courteous | L5-Def:不能(词形长；和 polite 不对应) | L5-Ex:不能 | L6:不唯一(polite/kind) | 选项:[courteous / mental / distinct / miracle] | L7:OK | L8:偏难(建议用 polite)
 - credit | L5-Def:不能(多义：赞扬/学分/信用卡；def= praise 还行但易混) | L5-Ex:不能 | L6:不唯一(praise/thanks) | 选项:[credit / mental / miracle / environment] | L7:OK | L8:偏难(多义词)
 - crisis | L5-Def:不能(抽象“big trouble”；词长) | L5-Ex:不能 | L6:不唯一(problem/disaster) | 选项:[crisis / forecast / appetite / famine] | L7:OK | L8:偏难
-- critical | L5-Def:不能(多义：重要/挑剔；def=important) | L5-Ex:不能 | L6:不唯一(important) | 选项:[critical / fatal / literal / desperate] | L7:OK | L8:偏难(多义)
+- critical | L5-Def:不能(定义疑似损坏含“not playing; meaning what you say”；且多义：重要/挑剔) | L5-Ex:不能 | L6:不唯一(important) | 选项:[critical / fatal / literal / desperate] | L7:OK | L8:偏难(建议修复定义；或改用 important)
 - debate | L5-Def:勉强(=talk different opinions；例句=能) | L5-Ex:能 | L6:不唯一(talk/discuss) | 选项:[debate / dispute / lecture / contest] | L7:OK | L8:合适(先学 discuss)
 - decade | L5-Def:勉强(10 years可懂；例句=能) | L5-Ex:能 | L6:唯一 | 选项:[decade / century / dimension / doubt] | L7:OK | L8:合适
 - decline | L5-Def:不能(多义：下降/拒绝；这里只是拒绝) | L5-Ex:不能 | L6:不唯一(say no/refuse) | 选项:[decline / appeal / ban / dread] | L7:OK | L8:偏难(多义)
@@ -123,7 +123,7 @@ Notes:
 - factor | L5-Def:不能(抽象“one thing that helps cause”；词长) | L5-Ex:不能 | L6:不唯一(reason/part) | 选项:[factor / item / efficient / notable] | L7:OK | L8:偏难
 - famine | L5-Def:不能(概念重；词形陌生) | L5-Ex:不能 | L6:不唯一(hunger/no food) | 选项:[famine / crisis / expense / institution] | L7:提醒(灾难题材可接受但注意情绪) | L8:偏难
 - fascinate | L5-Def:不能(=so interesting you can’t look away；词长) | L5-Ex:不能 | L6:不唯一(interest/amaze) | 选项:[fascinate / evaluate / expose / indicate] | L7:OK | L8:偏难
-- fatal | L5-Def:不能(=cause death；概念重) | L5-Ex:不能 | L6:不唯一(dangerous/deadly) | 选项:[fatal / critical / literal / leisure] | L7:提醒(死亡词，家长敏感；可保留但温和例句) | L8:偏难
+- fatal | L5-Def:不能(定义疑似损坏含“not playing; meaning what you say”；且死亡概念重) | L5-Ex:不能 | L6:不唯一(dangerous/deadly) | 选项:[fatal / critical / literal / leisure] | L7:提醒(死亡词，家长敏感；可保留但温和例句) | L8:偏难(建议修复定义；或改用 deadly)
 - fate | L5-Def:不能(抽象“命运”；文化概念大) | L5-Ex:不能 | L6:不唯一(future/luck) | 选项:[fate / leisure / deliberate / literal] | L7:提醒(宿命论家长可能不喜欢) | L8:偏难
 - fault | L5-Def:勉强(=blame；例句=能) | L5-Ex:能 | L6:不唯一(blame/mistake) | 选项:[fault / error / contest / core] | L7:OK | L8:合适
 - feature | L5-Def:勉强(=important part；例句=能) | L5-Ex:能 | L6:不唯一(part/best thing) | 选项:[feature / core / charm / fortune] | L7:OK | L8:合适
@@ -211,7 +211,7 @@ Notes:
 - notify | L5-Def:勉强(=tell/let know；书面) | L5-Ex:勉强 | L6:不唯一(tell/inform) | 选项:[notify / neglect / overcome / inform] | L7:OK | L8:合适
 - notion | L5-Def:不能(书面“idea”；词形长) | L5-Ex:不能 | L6:不唯一(idea/thought) | 选项:[notion / dispute / doubt / error] | L7:OK | L8:偏难
 - novel | L5-Def:不能(多义：小说/新颖；这里是“新颖”) | L5-Ex:不能 | L6:不唯一(new/different) | 选项:[novel / edible / ongoing / immediate] | L7:OK | L8:偏难(多义，且“novel idea”搭配门槛)
-- oath | L5-Def:不能(严重承诺；例句有 president/serve country，政治距离) | L5-Ex:不能 | L6:不唯一(promise/swear) | 选项:[oath / drastic / image / incident] | L7:提醒(政治/宗教/法庭语境敏感) | L8:偏难(不建议该level)
+- oath | L5-Def:不能(定义疑似损坏含“not playing; meaning what you say”；且政治/宗教/法庭语境远) | L5-Ex:不能 | L6:不唯一(promise/swear) | 选项:[oath / drastic / image / incident] | L7:提醒(政治/宗教/法庭语境敏感) | L8:偏难(建议移除或换 promise)
 - objective | L5-Def:不能(多义：目标/客观；这里是目标) | L5-Ex:不能 | L6:不唯一(goal) | 选项:[objective / liberty / instinct / institution] | L7:OK | L8:偏难(多义)
 - obligation | L5-Def:不能(抽象“duty you owe”；词长) | L5-Ex:不能 | L6:不唯一(duty/must) | 选项:[obligation / forecast / institution / motive] | L7:OK | L8:偏难
 - obstacle | L5-Def:勉强(=thing in way；例句=能) | L5-Ex:能 | L6:不唯一(block/problem) | 选项:[obstacle / miracle / mature / minor] | L7:OK | L8:合适
