@@ -197,3 +197,9 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - lucid | L5:不能(卡:双义 clear thinking/understand);例句:勉强(fractions) | L6:勉强 | L7:OK | L8:偏难
 - lull | L5:不能 | L6:能(短暂平静) | L7:OK | L8:偏难
 - lunge | L5:不能 | L6:能 | L7:OK | L8:偏难
+
+## Overall Findings (for this file)
+- 定义可读性：大量 definition 含语法断裂/怪词（如“went bad and fell apart”“from the people in charge”等），对ESL孩子会显著增难；建议优先做一次 L3C 批量 definition 文法清洗。
+- 例句唯一性：多数例句靠“强场景词”才能猜中（thermostat / ballot / Constitution / stratosphere 等）；若四选一干扰项语义接近，容易不唯一。建议对抽象动词/学术动词补更强的行为线索。
+- 多义词：blade / glare / torch / negative 等，多义会放大选项干扰；更适合拆成义项或在 definition 里明确本条义项，并让例句只服务一个义项。
+- 文化点：万圣节 jack-o'-lantern、教堂 hymn、部分“美国制度词”(preamble/legislature/census) 对中国孩子背景依赖较强；建议改成更通用的场景或加更中性解释。
