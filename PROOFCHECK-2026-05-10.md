@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 112 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 111 MINOR
 
 ## Issues
 
@@ -158,6 +158,10 @@ L1 definition uses "sharp" which is also an L1 word (core position)
 L1 definition uses "quietly" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "chase" (SAME_LEVEL_DEF_REF)
+L1 definition uses "catch" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "grab" (SAME_LEVEL_DEF_REF)
 L1 definition uses "quickly" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -170,24 +174,12 @@ L1 definition uses "gently" which is also an L1 word (core position)
 L1 definition uses "tight" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
-### [MINOR] words-level1.js — "bend" (SAME_LEVEL_DEF_REF)
-L1 definition uses "straight" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
 ### [MINOR] words-level1.js — "bark" (SAME_LEVEL_DEF_REF)
 L1 definition uses "rough" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "clap" (SAME_LEVEL_DEF_REF)
 L1 definition uses "together" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "peek" (SAME_LEVEL_DEF_REF)
-L1 definition uses "quickly" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "glance" (SAME_LEVEL_DEF_REF)
-L1 definition uses "quickly" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "gather" (SAME_LEVEL_DEF_REF)
@@ -216,6 +208,10 @@ L1 definition uses "smooth" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "dull" (SAME_LEVEL_DEF_REF)
 L1 definition uses "sharp" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "gentle" (SAME_LEVEL_DEF_REF)
+L1 definition uses "rough" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "plain" (SAME_LEVEL_DEF_REF)
@@ -254,6 +250,10 @@ L1 definition uses "quickly" which is also an L1 word (core position)
 L1 definition uses "ending" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "apart" (SAME_LEVEL_DEF_REF)
+L1 definition uses "together" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "forward" (SAME_LEVEL_DEF_REF)
 L1 definition uses "toward" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -266,12 +266,12 @@ L1 definition uses "toward" which is also an L1 word (core position)
 L1 definition uses "below" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
-### [MINOR] words-level1.js — "between" (SAME_LEVEL_DEF_REF)
+### [MINOR] words-level1.js — "among" (SAME_LEVEL_DEF_REF)
 L1 definition uses "middle" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
-### [MINOR] words-level1.js — "among" (SAME_LEVEL_DEF_REF)
-L1 definition uses "middle" which is also an L1 word (core position)
+### [MINOR] words-level1.js — "until" (SAME_LEVEL_DEF_REF)
+L1 definition uses "certain" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "look at" (SAME_LEVEL_DEF_REF)
@@ -367,10 +367,6 @@ L1 definition uses "sharp" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "throne" (SAME_LEVEL_DEF_REF)
-L1 definition uses "fancy" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "crown" (SAME_LEVEL_DEF_REF)
 L1 definition uses "fancy" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
