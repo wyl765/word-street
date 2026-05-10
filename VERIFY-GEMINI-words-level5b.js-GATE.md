@@ -1,6 +1,6 @@
-# Gemini Review for words-level5b.js
+# VERIFY-GEMINI-words-level5b.js-GATE
 
-| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game |
+| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Game Compat |
 |---|---|---|---|---|
 | strategic | Pass | Pass | Pass | Pass |
 | subdivide | Pass | Pass | Pass | Pass |
