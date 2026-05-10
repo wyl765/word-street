@@ -2,9 +2,13 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 1040
-**Results:** 0 CRITICAL | 0 MAJOR | 10 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 11 MINOR
 
 ## Issues
+
+### [MINOR] words-level2b.js — "homophone" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): differently
+**Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2b.js — "as a result" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "as a result" def contains "because of" and "because of" def contains "as a result" (both L2)
