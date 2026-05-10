@@ -5,6 +5,7 @@
 - L6: Reverse test — blank example + 4 options.
 - L7: Cultural sensitivity.
 - L8: Learning path / level fit.
+- Note: word-status.json 中 currentGate 更小的若干文件在仓库内尚不存在；本次按“currentGate最小且文件存在”选择 words-level4a.js。
 
 - abandon | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abandon / adjunct / anarchy / cargo] | L7:OK | L8:合适
 - abbreviation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[abbreviation / amalgamation / colloquial / connotation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
@@ -36,11 +37,11 @@
 - cabinet | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[cabinet / elevate / emanate / exempt] | L7:OK | L8:合适
 - captive | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abandon / captive / causation / fanaticism] | L7:OK | L8:合适
 - career | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[breakthrough / career / edification / hubris] | L7:OK | L8:合适
-- cargo | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[appraisal / cargo / enhance / irascible] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:合适
+- cargo | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[appraisal / cargo / enhance / irascible] | L7:OK | L8:合适
 - catalog | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[catalog / derivative / edition / entitled] | L7:OK | L8:合适
 - category | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[catalog / category / enfranchisement / extensive] | L7:OK | L8:合适
 - ceremony | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abate / attainment / ceremony / demerit] | L7:OK | L8:合适
-- chamber | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[chamber / deprive / dormancy / elevate] | L7:注意(可能引发家长顾虑或需要解释：暴力/灾难(偏沉重)；建议例句更中性/更普适) | L8:合适
+- chamber | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[chamber / deprive / dormancy / elevate] | L7:OK | L8:合适
 - chaos | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[chaos / consternation / council / entitled] | L7:OK | L8:合适
 - characteristic | L5-Def:勉强(需要中文支架/图示；词很长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[affinity / bleak / characteristic / convergent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
 - charity | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[aberration / charity / emanate / iconoclast] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
@@ -55,7 +56,7 @@
 - concrete | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[concrete / embolden / epitomize / grant] | L7:OK | L8:合适
 - condition | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[condition / derivative / enhance / iconoclast] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
 - conference | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[aggregation / conference / context / federal] | L7:OK | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
-- confess | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accuse / cognizant / confess / grant] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:合适
+- confess | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accuse / cognizant / confess / grant] | L7:OK | L8:合适
 - conform | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assimilation / backlash / conform / execute] | L7:OK | L8:合适
 - conscience | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[adjunct / candor / conscience / enormity] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
 - consensus | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[consensus / curate / deduction / impetus] | L7:OK | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
@@ -89,7 +90,7 @@
 - dynamic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[arctic / dynamic / frivolity / inexorable] | L7:OK | L8:合适
 - earnest | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adversity / deduction / earnest / importune] | L7:OK | L8:合适
 - eclipse | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[eclipse / era / interpolate / interregnum] | L7:OK | L8:合适
-- ecology | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[assess / biome / ecology / immutable] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
+- ecology | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[assess / biome / ecology / immutable] | L7:注意(例句含Yellowstone地名；对中国孩子不熟，建议改更普适生态案例) | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
 - edition | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[edition / extensive / impertinent / indolence] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
 - element | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[discount / element / emission / humid] | L7:OK | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
 - elevate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[brace / chamber / corroboration / elevate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
@@ -108,17 +109,17 @@
 - exempt | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[clamorous / exaltation / exempt / galvanize] | L7:OK | L8:合适
 - exhaust | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[disparage / dynamic / exacerbation / exhaust] | L7:OK | L8:合适
 - extensive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[aggregation / capacious / category / extensive] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- extraordinary | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[astounding / defy / extraordinary / immutable] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- extraordinary | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[astounding / defy / extraordinary / immutable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
 - fatigue | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[condescension / fatigue / inevitable / inexorable] | L7:OK | L8:合适
 - feasible | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[alliance / amalgamation / cohesion / feasible] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
 - federal | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[federal / global / immutable / incongruity] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
 - fluid | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abate / decay / encroachment / fluid] | L7:OK | L8:合适
-- frequency | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[anomalous / elevate / excel / frequency] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
+- frequency | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[anomalous / elevate / excel / frequency] | L7:注意(例句含California地名；可改成更普适地区/国家) | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
 - genetic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[abandon / associate / discrimination / genetic] | L7:OK | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
 - global | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[emission / federal / global / oblique] | L7:OK | L8:合适
-- graduate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[attainment / disillusionment / graduate / meritocracy] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- graduate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[attainment / disillusionment / graduate / meritocracy] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
 - grant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adjunct / curtailment / discretionary / grant] | L7:OK | L8:合适
-- gulf | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[deprive / drain / emanate / gulf] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:合适
+- gulf | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[deprive / drain / emanate / gulf] | L7:注意(例句含墨西哥湾/Texas/Louisiana地名；可改成更普适地理例子) | L8:合适
 - highlight | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[endanger / enthusiasm / gulf / highlight] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
 - hoax | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[categorical / condescension / encroachment / hoax] | L7:OK | L8:合适
 - humid | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adept / breed / emission / humid] | L7:OK | L8:合适
