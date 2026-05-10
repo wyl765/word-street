@@ -1,604 +1,604 @@
-# VERIFY-GEMINI-words-level1.js-GATE
+# Gemini Verification Report: words-level1.js
 
-| Word | L9 Image | L10 Fact | L11 Polysemy | L12 Game |
+| Word | L9: imageKeyword | L10: Fact Check | L11: Meaning | L12: Game Ready |
 |---|---|---|---|---|
-| puppy | pass | pass | pass | pass |
-| kitten | pass | pass | pass | pass |
-| bunny | pass | pass | pass | pass |
-| duckling | pass | pass | pass | pass |
-| chick | pass | pass | pass | pass |
-| lamb | pass | pass | pass | pass |
-| cub | pass | pass | pass | pass |
-| fawn | pass | pass | pass | pass |
-| foal | pass | pass | pass | pass |
-| pony | pass | pass | pass | pass |
-| rooster | pass | pass | pass | pass |
-| hen | pass | pass | pass | pass |
-| goose | pass | pass | pass | pass |
-| swan | pass | pass | pass | pass |
-| owl | pass | pass | pass | pass |
-| robin | pass | pass | pass | pass |
-| sparrow | pass | pass | pass | pass |
-| crow | pass | pass | pass | pass |
-| eagle | pass | pass | pass | pass |
-| whale | pass | pass | pass | pass |
-| dolphin | pass | pass | pass | pass |
-| shark | pass | pass | pass | pass |
-| turtle | pass | pass | pass | pass |
-| lizard | pass | pass | pass | pass |
-| frog | pass | pass | pass | pass |
-| toad | pass | pass | pass | pass |
-| snail | pass | pass | pass | pass |
-| worm | pass | pass | pass | pass |
-| spider | pass | pass | pass | pass |
-| beetle | pass | pass | pass | pass |
-| ladybug | pass | pass | pass | pass |
-| butterfly | pass | pass | pass | pass |
-| caterpillar | pass | pass | pass | pass |
-| ant | pass | pass | pass | pass |
-| bee | pass | pass | pass | pass |
-| squirrel | pass | pass | pass | pass |
-| raccoon | pass | pass | pass | pass |
-| skunk | pass | pass | pass | pass |
-| beaver | pass | pass | pass | pass |
-| moose | pass | pass | pass | pass |
-| toast | pass | pass | pass | pass |
-| cereal | pass | pass | pass | pass |
-| pancake | pass | pass | pass | pass |
-| waffle | pass | pass | pass | pass |
-| oatmeal | pass | pass | pass | pass |
-| sandwich | pass | pass | pass | pass |
-| pretzel | pass | pass | pass | pass |
-| cracker | pass | pass | pass | pass |
-| noodle | pass | pass | pass | pass |
-| muffin | pass | pass | pass | pass |
-| cupcake | pass | pass | pass | pass |
-| cookie | pass | pass | pass | pass |
-| doughnut | pass | pass | pass | pass |
-| pudding | pass | pass | pass | pass |
-| jelly | pass | pass | pass | pass |
-| syrup | pass | pass | pass | pass |
-| honey | pass | pass | pass | pass |
-| popcorn | pass | pass | pass | pass |
-| yogurt | pass | pass | pass | pass |
-| grape | pass | pass | pass | pass |
-| cherry | pass | pass | pass | pass |
-| peach | pass | pass | pass | pass |
-| plum | pass | pass | pass | pass |
-| melon | pass | pass | pass | pass |
-| berry | pass | pass | pass | pass |
-| lemon | pass | pass | pass | pass |
-| coconut | pass | pass | pass | pass |
-| peanut | pass | pass | pass | pass |
-| celery | pass | pass | pass | pass |
-| broccoli | pass | pass | pass | pass |
-| lettuce | pass | pass | pass | pass |
-| pepper | pass | pass | pass | pass |
-| onion | pass | pass | pass | pass |
-| mushroom | pass | pass | pass | pass |
-| stew | pass | pass | pass | pass |
-| gravy | pass | pass | pass | pass |
-| feast | pass | pass | pass | pass |
-| snack | pass | pass | pass | pass |
-| treat | pass | pass | pass | pass |
-| slice | pass | pass | pass | pass |
-| elbow | pass | pass | pass | pass |
-| wrist | pass | pass | pass | pass |
-| ankle | pass | pass | pass | pass |
-| heel | pass | pass | pass | pass |
-| thumb | pass | pass | pass | pass |
-| palm | pass | pass | pass | pass |
-| fist | pass | pass | pass | pass |
-| chin | pass | pass | pass | pass |
-| cheek | pass | pass | pass | pass |
-| forehead | pass | pass | pass | pass |
-| eyebrow | pass | pass | pass | pass |
-| eyelash | pass | pass | pass | pass |
-| tongue | pass | pass | pass | pass |
-| throat | pass | pass | pass | pass |
-| shoulder | pass | pass | pass | pass |
-| hip | pass | pass | pass | pass |
-| spine | pass | pass | pass | pass |
-| rib | pass | pass | pass | pass |
-| skull | pass | pass | pass | pass |
-| muscle | pass | pass | pass | pass |
-| mitten | pass | pass | pass | pass |
-| scarf | pass | pass | pass | pass |
-| hoodie | pass | pass | pass | pass |
-| vest | pass | pass | pass | pass |
-| apron | pass | pass | pass | pass |
-| sleeve | pass | pass | pass | pass |
-| pocket | pass | pass | pass | pass |
-| zipper | pass | pass | pass | pass |
-| button | pass | pass | pass | pass |
-| buckle | pass | pass | pass | pass |
-| lace | pass | pass | pass | pass |
-| slipper | pass | pass | pass | pass |
-| sandal | pass | pass | pass | pass |
-| sneaker | pass | pass | pass | pass |
-| boot | pass | pass | pass | pass |
-| collar | pass | pass | pass | pass |
-| hem | pass | pass | pass | pass |
-| pajamas | pass | pass | pass | pass |
-| costume | pass | pass | pass | pass |
-| uniform | pass | pass | pass | pass |
-| blanket | pass | pass | pass | pass |
-| pillow | pass | pass | pass | pass |
-| towel | pass | pass | pass | pass |
-| soap | pass | pass | pass | pass |
-| sponge | pass | pass | pass | pass |
-| broom | pass | pass | pass | pass |
-| bucket | pass | pass | pass | pass |
-| ladder | pass | pass | pass | pass |
-| drawer | pass | pass | pass | pass |
-| shelf | pass | pass | pass | pass |
-| closet | pass | pass | pass | pass |
-| curtain | pass | pass | pass | pass |
-| rug | pass | pass | pass | pass |
-| lamp | pass | pass | pass | pass |
-| candle | pass | pass | pass | pass |
-| vase | pass | pass | pass | pass |
-| frame | pass | pass | pass | pass |
-| envelope | pass | pass | pass | pass |
-| stamp | pass | pass | pass | pass |
-| package | pass | pass | pass | pass |
-| scissors | pass | pass | pass | pass |
-| glue | pass | pass | pass | pass |
-| tape | pass | pass | pass | pass |
-| crayon | pass | pass | pass | pass |
-| chalk | pass | pass | pass | pass |
-| eraser | pass | pass | pass | pass |
-| ruler | pass | pass | pass | pass |
-| thermometer | pass | pass | pass | pass |
-| battery | pass | pass | pass | pass |
-| switch | pass | pass | pass | pass |
-| barn | pass | pass | pass | pass |
-| stable | pass | pass | pass | pass |
-| cabin | pass | pass | pass | pass |
-| cottage | pass | pass | pass | pass |
-| castle | pass | pass | pass | pass |
-| tower | pass | pass | pass | pass |
-| bridge | pass | pass | pass | pass |
-| tunnel | pass | pass | pass | pass |
-| harbor | pass | pass | pass | pass |
-| island | pass | pass | pass | pass |
-| forest | pass | pass | pass | pass |
-| meadow | pass | pass | pass | pass |
-| pond | pass | pass | pass | pass |
-| stream | pass | pass | pass | pass |
-| cliff | pass | pass | pass | pass |
-| cave | pass | pass | pass | pass |
-| desert | pass | pass | pass | pass |
-| jungle | pass | pass | pass | pass |
-| swamp | pass | pass | pass | pass |
-| valley | pass | pass | pass | pass |
-| storm | pass | pass | pass | pass |
-| thunder | pass | pass | pass | pass |
-| lightning | pass | pass | pass | pass |
-| rainbow | pass | pass | pass | pass |
-| breeze | pass | pass | pass | pass |
-| frost | pass | pass | pass | pass |
-| icicle | pass | pass | pass | pass |
-| puddle | pass | pass | pass | pass |
-| mud | pass | pass | pass | pass |
-| dust | pass | pass | pass | pass |
-| dew | pass | pass | pass | pass |
-| fog | pass | pass | pass | pass |
-| hail | pass | pass | pass | pass |
-| blizzard | pass | pass | pass | pass |
-| drought | pass | pass | pass | pass |
-| flood | pass | pass | pass | pass |
-| petal | pass | pass | pass | pass |
-| stem | pass | pass | pass | pass |
-| root | pass | pass | pass | pass |
-| thorn | pass | pass | pass | pass |
-| vine | pass | pass | pass | pass |
-| moss | pass | pass | pass | pass |
-| acorn | pass | pass | pass | pass |
-| pinecone | pass | pass | pass | pass |
-| seed | pass | pass | pass | pass |
-| crawl | pass | pass | pass | pass |
-| leap | pass | pass | pass | pass |
-| skip | pass | pass | pass | pass |
-| stomp | pass | pass | pass | pass |
-| tiptoe | pass | pass | pass | pass |
-| march | pass | pass | pass | pass |
-| dash | pass | pass | pass | pass |
-| chase | pass | pass | pass | pass |
-| grab | pass | pass | pass | pass |
-| toss | pass | pass | pass | pass |
-| catch | pass | pass | pass | pass |
-| squeeze | pass | pass | pass | pass |
-| stretch | pass | pass | pass | pass |
-| bend | pass | pass | pass | pass |
-| twist | pass | pass | pass | pass |
-| shake | pass | pass | pass | pass |
-| stir | pass | pass | pass | pass |
-| pour | pass | pass | pass | pass |
-| spill | pass | pass | pass | pass |
-| drip | pass | pass | pass | pass |
-| splash | pass | pass | pass | pass |
-| float | pass | pass | pass | pass |
-| sink | pass | pass | pass | pass |
-| melt | pass | pass | pass | pass |
-| freeze | pass | pass | pass | pass |
-| peel | pass | pass | pass | pass |
-| chop | pass | pass | pass | pass |
-| grate | pass | pass | pass | pass |
-| spread | pass | pass | pass | pass |
-| sprinkle | pass | pass | pass | pass |
-| scoop | pass | pass | pass | pass |
-| whisper | pass | pass | pass | pass |
-| shout | pass | pass | pass | pass |
-| giggle | pass | pass | pass | pass |
-| howl | pass | pass | pass | pass |
-| bark | pass | pass | pass | pass |
-| roar | pass | pass | pass | pass |
-| hum | pass | pass | pass | pass |
-| clap | pass | pass | pass | pass |
-| wave | pass | pass | pass | pass |
-| nod | pass | pass | pass | pass |
-| peek | pass | pass | pass | pass |
-| stare | pass | pass | pass | pass |
-| glance | pass | pass | pass | pass |
-| search | pass | pass | pass | pass |
-| discover | pass | pass | pass | pass |
-| notice | pass | pass | pass | pass |
-| wonder | pass | pass | pass | pass |
-| imagine | pass | pass | pass | pass |
-| pretend | pass | pass | pass | pass |
-| promise | pass | pass | pass | pass |
-| remind | pass | pass | pass | pass |
-| forget | pass | pass | pass | pass |
-| belong | pass | pass | pass | pass |
-| share | pass | pass | pass | pass |
-| trade | pass | pass | pass | pass |
-| borrow | pass | pass | pass | pass |
-| lend | pass | pass | pass | pass |
-| gather | pass | pass | pass | pass |
-| collect | pass | pass | pass | pass |
-| stack | pass | pass | pass | pass |
-| wrap | pass | pass | pass | pass |
-| unwrap | pass | pass | pass | pass |
-| tug | pass | pass | pass | pass |
-| drag | pass | pass | pass | pass |
-| shove | pass | pass | pass | pass |
-| tuck | pass | pass | pass | pass |
-| hang | pass | pass | pass | pass |
-| fasten | pass | pass | pass | pass |
-| attach | pass | pass | pass | pass |
-| repair | pass | pass | pass | pass |
-| create | pass | pass | pass | pass |
-| design | pass | pass | pass | pass |
-| measure | pass | pass | pass | pass |
-| weigh | pass | pass | pass | pass |
-| count | pass | pass | pass | pass |
-| sort | pass | pass | pass | pass |
-| match | pass | pass | pass | pass |
-| deliver | pass | pass | pass | pass |
-| fetch | pass | pass | pass | pass |
-| vanish | pass | pass | pass | pass |
-| tiny | pass | pass | pass | pass |
-| huge | pass | pass | pass | pass |
-| enormous | pass | pass | pass | pass |
-| narrow | pass | pass | pass | pass |
-| wide | pass | pass | pass | pass |
-| steep | pass | pass | pass | pass |
-| shallow | pass | pass | pass | pass |
-| deep | pass | pass | pass | pass |
-| thick | pass | pass | pass | pass |
-| thin | pass | pass | pass | pass |
-| smooth | pass | pass | pass | pass |
-| rough | pass | pass | pass | pass |
-| sharp | pass | pass | pass | pass |
-| dull | pass | pass | pass | pass |
-| shiny | pass | pass | pass | pass |
-| damp | pass | pass | pass | pass |
-| soaking | pass | pass | pass | pass |
-| dry | pass | pass | pass | pass |
-| sticky | pass | pass | pass | pass |
-| slimy | pass | pass | pass | pass |
-| fluffy | pass | pass | pass | pass |
-| fuzzy | pass | pass | pass | pass |
-| cozy | pass | pass | pass | pass |
-| chilly | pass | pass | pass | pass |
-| freezing | pass | pass | pass | pass |
-| boiling | pass | pass | pass | pass |
-| warm | pass | pass | pass | pass |
-| fierce | pass | pass | pass | pass |
-| gentle | pass | pass | pass | pass |
-| brave | pass | pass | pass | pass |
-| shy | pass | pass | pass | pass |
-| proud | pass | pass | pass | pass |
-| curious | pass | pass | pass | pass |
-| grumpy | pass | pass | pass | pass |
-| cheerful | pass | pass | pass | pass |
-| lonely | pass | pass | pass | pass |
-| calm | pass | pass | pass | pass |
-| wild | pass | pass | pass | pass |
-| tame | pass | pass | pass | pass |
-| plain | pass | pass | pass | pass |
-| fancy | pass | pass | pass | pass |
-| ripe | pass | pass | pass | pass |
-| rotten | pass | pass | pass | pass |
-| fresh | pass | pass | pass | pass |
-| stale | pass | pass | pass | pass |
-| bitter | pass | pass | pass | pass |
-| sour | pass | pass | pass | pass |
-| salty | pass | pass | pass | pass |
-| juicy | pass | pass | pass | pass |
-| crunchy | pass | pass | pass | pass |
-| creamy | pass | pass | pass | pass |
-| silent | pass | pass | pass | pass |
-| loud | pass | pass | pass | pass |
-| hollow | pass | pass | pass | pass |
-| solid | pass | pass | pass | pass |
-| loose | pass | pass | pass | pass |
-| tight | pass | pass | pass | pass |
-| crooked | pass | pass | pass | pass |
-| straight | pass | pass | pass | pass |
-| crowded | pass | pass | pass | pass |
-| empty | pass | pass | pass | pass |
-| whole | pass | pass | pass | pass |
-| spare | pass | pass | pass | pass |
-| certain | pass | pass | pass | pass |
-| strange | pass | pass | pass | pass |
-| wonderful | pass | pass | pass | pass |
-| terrible | pass | pass | pass | pass |
-| perfect | pass | pass | pass | pass |
-| ugly | pass | pass | pass | pass |
-| beautiful | pass | pass | pass | pass |
-| clever | pass | pass | pass | pass |
-| foolish | pass | pass | pass | pass |
-| greedy | pass | pass | pass | pass |
-| generous | pass | pass | pass | pass |
-| patient | pass | pass | pass | pass |
-| stubborn | pass | pass | pass | pass |
-| lazy | pass | pass | pass | pass |
-| busy | pass | pass | pass | pass |
-| clumsy | pass | pass | pass | pass |
-| graceful | pass | pass | pass | pass |
-| quickly | pass | pass | pass | pass |
-| slowly | pass | pass | pass | pass |
-| quietly | pass | pass | pass | pass |
-| loudly | pass | pass | pass | pass |
-| gently | pass | pass | pass | pass |
-| suddenly | pass | pass | pass | pass |
-| already | pass | pass | pass | pass |
-| almost | pass | pass | pass | pass |
-| barely | pass | pass | pass | pass |
-| perhaps | pass | pass | pass | pass |
-| exactly | pass | pass | pass | pass |
-| instead | pass | pass | pass | pass |
-| anyway | pass | pass | pass | pass |
-| forever | pass | pass | pass | pass |
-| apart | pass | pass | pass | pass |
-| together | pass | pass | pass | pass |
-| forward | pass | pass | pass | pass |
-| backward | pass | pass | pass | pass |
-| sideways | pass | pass | pass | pass |
-| beneath | pass | pass | pass | pass |
-| above | pass | pass | pass | pass |
-| below | pass | pass | pass | pass |
-| beside | pass | pass | pass | pass |
-| between | pass | pass | pass | pass |
-| among | pass | pass | pass | pass |
-| toward | pass | pass | pass | pass |
-| against | pass | pass | pass | pass |
-| through | pass | pass | pass | pass |
-| across | pass | pass | pass | pass |
-| along | pass | pass | pass | pass |
-| around | pass | pass | pass | pass |
-| beyond | pass | pass | pass | pass |
-| during | pass | pass | pass | pass |
-| until | pass | pass | pass | pass |
-| since | pass | pass | pass | pass |
-| whether | pass | pass | pass | pass |
-| while | pass | pass | pass | pass |
-| besides | pass | pass | pass | pass |
-| within | pass | pass | pass | pass |
-| without | pass | pass | pass | pass |
-| throughout | pass | pass | pass | pass |
-| upon | pass | pass | pass | pass |
-| pick up | pass | pass | pass | pass |
-| put down | pass | pass | pass | pass |
-| look at | pass | pass | pass | pass |
-| come back | pass | pass | pass | pass |
-| sit down | pass | pass | pass | pass |
-| stand up | pass | pass | pass | pass |
-| wake up | pass | pass | pass | pass |
-| give up | pass | pass | pass | pass |
-| find out | pass | pass | pass | pass |
-| turn off | pass | pass | pass | pass |
-| turn on | pass | pass | pass | pass |
-| fall down | pass | pass | pass | pass |
-| get up | pass | pass | pass | pass |
-| look out | pass | pass | pass | pass |
-| hold on | pass | pass | pass | pass |
-| clean up | pass | pass | pass | pass |
-| hurry up | pass | pass | pass | pass |
-| calm down | pass | pass | pass | pass |
-| try on | pass | pass | pass | pass |
-| throw away | pass | pass | pass | pass |
-| run out | pass | pass | pass | pass |
-| come in | pass | pass | pass | pass |
-| go away | pass | pass | pass | pass |
-| show off | pass | pass | pass | pass |
-| figure out | pass | pass | pass | pass |
-| excited | pass | pass | pass | pass |
-| nervous | pass | pass | pass | pass |
-| frightened | pass | pass | pass | pass |
-| surprised | pass | pass | pass | pass |
-| confused | pass | pass | pass | pass |
-| disappointed | pass | pass | pass | pass |
-| frustrated | pass | pass | pass | pass |
-| jealous | pass | pass | pass | pass |
-| embarrassed | pass | pass | pass | pass |
-| worried | pass | pass | pass | pass |
-| grateful | pass | pass | pass | pass |
-| annoyed | pass | pass | pass | pass |
-| bored | pass | pass | pass | pass |
-| amazed | pass | pass | pass | pass |
-| terrified | pass | pass | pass | pass |
-| furious | pass | pass | pass | pass |
-| miserable | pass | pass | pass | pass |
-| relieved | pass | pass | pass | pass |
-| peaceful | pass | pass | pass | pass |
-| comfortable | pass | pass | pass | pass |
-| uncomfortable | pass | pass | pass | pass |
-| exhausted | pass | pass | pass | pass |
-| delighted | pass | pass | pass | pass |
-| gloomy | pass | pass | pass | pass |
-| hopeful | pass | pass | pass | pass |
-| cranky | pass | pass | pass | pass |
-| content | pass | pass | pass | pass |
-| eager | pass | pass | pass | pass |
-| homesick | pass | pass | pass | pass |
-| ashamed | pass | pass | pass | pass |
-| before | pass | pass | pass | pass |
-| after | pass | pass | pass | pass |
-| next | pass | pass | pass | pass |
-| then | pass | pass | pass | pass |
-| finally | pass | pass | pass | pass |
-| meanwhile | pass | pass | pass | pass |
-| soon | pass | pass | pass | pass |
-| later | pass | pass | pass | pass |
-| early | pass | pass | pass | pass |
-| late | pass | pass | pass | pass |
-| beginning | pass | pass | pass | pass |
-| middle | pass | pass | pass | pass |
-| ending | pass | pass | pass | pass |
-| moment | pass | pass | pass | pass |
-| sudden | pass | pass | pass | pass |
-| recent | pass | pass | pass | pass |
-| daily | pass | pass | pass | pass |
-| weekly | pass | pass | pass | pass |
-| whenever | pass | pass | pass | pass |
-| once | pass | pass | pass | pass |
-| twice | pass | pass | pass | pass |
-| often | pass | pass | pass | pass |
-| nowadays | pass | pass | pass | pass |
-| dozen | pass | pass | pass | pass |
-| half | pass | pass | pass | pass |
-| pair | pass | pass | pass | pass |
-| entire | pass | pass | pass | pass |
-| double | pass | pass | pass | pass |
-| single | pass | pass | pass | pass |
-| plenty | pass | pass | pass | pass |
-| several | pass | pass | pass | pass |
-| few | pass | pass | pass | pass |
-| many | pass | pass | pass | pass |
-| none | pass | pass | pass | pass |
-| bunch | pass | pass | pass | pass |
-| pile | pass | pass | pass | pass |
-| heap | pass | pass | pass | pass |
-| piece | pass | pass | pass | pass |
-| portion | pass | pass | pass | pass |
-| amount | pass | pass | pass | pass |
-| total | pass | pass | pass | pass |
-| extra | pass | pass | pass | pass |
-| enough | pass | pass | pass | pass |
-| less | pass | pass | pass | pass |
-| more | pass | pass | pass | pass |
-| quarter | pass | pass | pass | pass |
-| equal | pass | pass | pass | pass |
-| average | pass | pass | pass | pass |
-| shadow | pass | pass | pass | pass |
-| echo | pass | pass | pass | pass |
-| secret | pass | pass | pass | pass |
-| surprise | pass | pass | pass | pass |
-| mistake | pass | pass | pass | pass |
-| adventure | pass | pass | pass | pass |
-| treasure | pass | pass | pass | pass |
-| journey | pass | pass | pass | pass |
-| village | pass | pass | pass | pass |
-| dock | pass | pass | pass | pass |
-| crowd | pass | pass | pass | pass |
-| trail | pass | pass | pass | pass |
-| footprint | pass | pass | pass | pass |
-| pattern | pass | pass | pass | pass |
-| riddle | pass | pass | pass | pass |
-| poem | pass | pass | pass | pass |
-| tale | pass | pass | pass | pass |
-| legend | pass | pass | pass | pass |
-| character | pass | pass | pass | pass |
-| chapter | pass | pass | pass | pass |
-| title | pass | pass | pass | pass |
-| author | pass | pass | pass | pass |
-| paw | pass | pass | pass | pass |
-| claw | pass | pass | pass | pass |
-| feather | pass | pass | pass | pass |
-| fur | pass | pass | pass | pass |
-| scale | pass | pass | pass | pass |
-| wing | pass | pass | pass | pass |
-| beak | pass | pass | pass | pass |
-| nest | pass | pass | pass | pass |
-| hive | pass | pass | pass | pass |
-| den | pass | pass | pass | pass |
-| burrow | pass | pass | pass | pass |
-| trap | pass | pass | pass | pass |
-| leash | pass | pass | pass | pass |
-| tag | pass | pass | pass | pass |
-| whisker | pass | pass | pass | pass |
-| tail | pass | pass | pass | pass |
-| hoof | pass | pass | pass | pass |
-| mane | pass | pass | pass | pass |
-| flock | pass | pass | pass | pass |
-| herd | pass | pass | pass | pass |
-| pack | pass | pass | pass | pass |
-| droplet | pass | pass | pass | pass |
-| ripple | pass | pass | pass | pass |
-| bubble | pass | pass | pass | pass |
-| flame | pass | pass | pass | pass |
-| spark | pass | pass | pass | pass |
-| smoke | pass | pass | pass | pass |
-| ash | pass | pass | pass | pass |
-| dawn | pass | pass | pass | pass |
-| dusk | pass | pass | pass | pass |
-| midnight | pass | pass | pass | pass |
-| noon | pass | pass | pass | pass |
-| passenger | pass | pass | pass | pass |
-| neighbor | pass | pass | pass | pass |
-| stranger | pass | pass | pass | pass |
-| parade | pass | pass | pass | pass |
-| audience | pass | pass | pass | pass |
-| crew | pass | pass | pass | pass |
-| coach | pass | pass | pass | pass |
-| chef | pass | pass | pass | pass |
-| mayor | pass | pass | pass | pass |
-| inventor | pass | pass | pass | pass |
-| princess | pass | pass | pass | pass |
-| knight | pass | pass | pass | pass |
-| wizard | pass | pass | pass | pass |
-| giant | pass | pass | pass | pass |
-| dwarf | pass | pass | pass | pass |
-| monster | pass | pass | pass | pass |
-| dragon | pass | pass | pass | pass |
-| fairy | pass | pass | pass | pass |
-| shield | pass | pass | pass | pass |
-| sword | pass | pass | pass | pass |
-| wand | pass | pass | pass | pass |
-| throne | pass | pass | pass | pass |
-| crown | pass | pass | pass | pass |
-| wobble | pass | pass | pass | pass |
-| tumble | pass | pass | pass | pass |
-| snuggle | pass | pass | pass | pass |
-| nibble | pass | pass | pass | pass |
-| snore | pass | pass | pass | pass |
-| yawn | pass | pass | pass | pass |
-| shiver | pass | pass | pass | pass |
-| bloom | pass | pass | pass | pass |
-| sprout | pass | pass | pass | pass |
-| wilt | pass | pass | pass | pass |
-| scattered | pass | pass | pass | pass |
-| rascal | pass | pass | pass | pass |
-| gigantic | pass | pass | pass | pass |
-| itsy | pass | pass | pass | pass |
-| whirl | pass | pass | pass | pass |
-| sparkle | pass | pass | pass | pass |
-| flutter | pass | pass | pass | pass |
-| hear | pass | pass | pass | pass |
-| lose | pass | pass | pass | pass |
-| teach | pass | pass | pass | pass |
-| take | pass | pass | pass | pass |
-| than | pass | pass | pass | pass |
+| **puppy** | ✅ `puppy` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **kitten** | ✅ `kitten` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bunny** | ✅ `bunny rabbit` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **duckling** | ✅ `duckling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **chick** | ✅ `baby chick` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lamb** | ✅ `lamb` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cub** | ✅ `bear cub` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fawn** | ✅ `baby deer` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **foal** | ✅ `baby horse` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pony** | ✅ `pony` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **rooster** | ✅ `rooster` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hen** | ✅ `hen` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **goose** | ✅ `goose` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **swan** | ✅ `swan` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **owl** | ✅ `owl` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **robin** | ✅ `robin bird` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sparrow** | ✅ `sparrow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crow** | ✅ `crow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **eagle** | ✅ `eagle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **whale** | ✅ `whale` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dolphin** | ✅ `dolphin` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shark** | ✅ `shark` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **turtle** | ✅ `turtle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lizard** | ✅ `lizard` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **frog** | ✅ `frog` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **toad** | ✅ `toad` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **snail** | ✅ `snail` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **worm** | ✅ `worm` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **spider** | ✅ `spider` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **beetle** | ✅ `beetle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ladybug** | ✅ `ladybug` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **butterfly** | ✅ `colorful butterfly on flower` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **caterpillar** | ✅ `caterpillar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ant** | ✅ `ant` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bee** | ✅ `bee` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **squirrel** | ✅ `squirrel` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **raccoon** | ✅ `raccoon` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **skunk** | ✅ `skunk` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **beaver** | ✅ `beaver` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **moose** | ✅ `moose` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **toast** | ✅ `buttered toast bread` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cereal** | ✅ `cereal bowl` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pancake** | ✅ `pancake` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **waffle** | ✅ `waffle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **oatmeal** | ✅ `oatmeal` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sandwich** | ✅ `sandwich` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pretzel** | ✅ `pretzel` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cracker** | ✅ `cracker` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **noodle** | ✅ `noodle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **muffin** | ✅ `muffin` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cupcake** | ✅ `cupcake` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cookie** | ✅ `cookie` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **doughnut** | ✅ `doughnut` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pudding** | ✅ `pudding` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **jelly** | ✅ `jelly jar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **syrup** | ✅ `maple syrup` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **honey** | ✅ `honey jar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **popcorn** | ✅ `popcorn` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **yogurt** | ✅ `yogurt` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **grape** | ✅ `grape` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cherry** | ✅ `cherry` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **peach** | ✅ `peach` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **plum** | ✅ `plum` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **melon** | ✅ `melon slice` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **berry** | ✅ `berries` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lemon** | ✅ `lemon` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **coconut** | ✅ `coconut` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **peanut** | ✅ `peanut` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **celery** | ✅ `celery` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **broccoli** | ✅ `broccoli` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lettuce** | ✅ `lettuce` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pepper** | ✅ `bell pepper` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **onion** | ✅ `onion` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **mushroom** | ✅ `mushroom` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stew** | ✅ `stew pot` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **gravy** | ✅ `gravy` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **feast** | ✅ `feast table` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **snack** | ✅ `snack` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **treat** | ✅ `ice cream treat` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **slice** | ✅ `pizza slice` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **elbow** | ✅ `arm with arrow pointing to elbow joint` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wrist** | ✅ `hand and arm with arrow pointing to wrist` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ankle** | ✅ `foot and leg with arrow pointing to ankle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **heel** | ✅ `foot with arrow pointing to heel` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **thumb** | ✅ `thumb` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **palm** | ✅ `palm hand` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fist** | ✅ `fist` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **chin** | ✅ `face with arrow pointing to chin` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cheek** | ✅ `cheek face` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **forehead** | ✅ `face with arrow pointing to forehead` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **eyebrow** | ✅ `eyebrow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **eyelash** | ✅ `eyelash` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tongue** | ✅ `tongue` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **throat** | ✅ `throat` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shoulder** | ✅ `person with arrow pointing to shoulder` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hip** | ✅ `person with arrow pointing to hip` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **spine** | ✅ `back with arrow pointing to spine` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **rib** | ✅ `rib cage` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **skull** | ✅ `anatomy head bone diagram` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **muscle** | ✅ `muscle arm` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **mitten** | ✅ `mitten` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **scarf** | ✅ `scarf` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hoodie** | ✅ `hoodie` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **vest** | ✅ `vest` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **apron** | ✅ `apron` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sleeve** | ✅ `sleeve` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pocket** | ✅ `pocket` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **zipper** | ✅ `zipper` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **button** | ✅ `button shirt` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **buckle** | ✅ `belt buckle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lace** | ✅ `shoe lace` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **slipper** | ✅ `slippers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sandal** | ✅ `sandals` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sneaker** | ✅ `sneakers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **boot** | ✅ `rain boots` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **collar** | ✅ `shirt collar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hem** | ✅ `dress hem` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pajamas** | ✅ `pajamas` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **costume** | ✅ `costume` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **uniform** | ✅ `uniform` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **blanket** | ✅ `blanket` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pillow** | ✅ `pillow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **towel** | ✅ `towel` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **soap** | ✅ `soap bubbles` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sponge** | ✅ `sponge` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **broom** | ✅ `broom` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bucket** | ✅ `bucket` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ladder** | ✅ `ladder` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **drawer** | ✅ `drawer` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shelf** | ✅ `bookshelf` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **closet** | ✅ `closet` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **curtain** | ✅ `curtain` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **rug** | ✅ `rug` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lamp** | ✅ `lamp` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **candle** | ✅ `candle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **vase** | ✅ `vase flowers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **frame** | ✅ `picture frame` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **envelope** | ✅ `envelope` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stamp** | ✅ `postage stamp` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **package** | ✅ `package box` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **scissors** | ✅ `scissors` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **glue** | ✅ `glue bottle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tape** | ✅ `tape roll` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crayon** | ✅ `crayon` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **chalk** | ✅ `chalk` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **eraser** | ✅ `eraser` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ruler** | ✅ `ruler` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **thermometer** | ✅ `thermometer` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **battery** | ✅ `battery` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **switch** | ✅ `light switch` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **barn** | ✅ `barn` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stable** | ✅ `horse stable` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cabin** | ✅ `log cabin` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cottage** | ✅ `cottage` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **castle** | ✅ `castle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tower** | ✅ `tower` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bridge** | ✅ `bridge` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tunnel** | ✅ `tunnel` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **harbor** | ✅ `harbor boats` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **island** | ✅ `island` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **forest** | ✅ `forest` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **meadow** | ✅ `meadow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pond** | ✅ `pond` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stream** | ✅ `stream` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cliff** | ✅ `cliff` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cave** | ✅ `cave` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **desert** | ✅ `desert` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **jungle** | ✅ `jungle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **swamp** | ✅ `swamp` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **valley** | ✅ `valley` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **storm** | ✅ `storm` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **thunder** | ✅ `thunder` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lightning** | ✅ `lightning` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **rainbow** | ✅ `rainbow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **breeze** | ✅ `breeze wind` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **frost** | ✅ `frost` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **icicle** | ✅ `icicle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **puddle** | ✅ `puddle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **mud** | ✅ `mud` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dust** | ✅ `dust` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dew** | ✅ `morning dew` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fog** | ✅ `fog` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hail** | ✅ `hail` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **blizzard** | ✅ `blizzard` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **drought** | ✅ `dry land` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **flood** | ✅ `flood` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **petal** | ✅ `flower petal` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stem** | ✅ `plant stem` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **root** | ✅ `tree root` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **thorn** | ✅ `thorn` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **vine** | ✅ `vine` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **moss** | ✅ `moss` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **acorn** | ✅ `acorn` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pinecone** | ✅ `pinecone` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **seed** | ✅ `seed sprouting` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crawl** | ✅ `baby crawling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **leap** | ✅ `leap jump` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **skip** | ✅ `girl skipping down sidewalk` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stomp** | ✅ `stomping foot` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tiptoe** | ✅ `child tiptoeing quietly` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **march** | ✅ `marching` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dash** | ✅ `running fast` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **chase** | ✅ `dog chasing` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **grab** | ✅ `hand grabbing cookie from jar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **toss** | ✅ `tossing ball` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **catch** | ✅ `catching ball` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **squeeze** | ✅ `squeezing sponge` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stretch** | ✅ `cat stretching after nap` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bend** | ✅ `person bending to touch toes` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **twist** | ✅ `hands twisting jar lid open` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shake** | ✅ `shaking salt shaker` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stir** | ✅ `stirring` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pour** | ✅ `pitcher pouring water glass` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **spill** | ✅ `spilling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **drip** | ✅ `dripping water` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **splash** | ✅ `splashing` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **float** | ✅ `rubber duck floating in bath` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sink** | ✅ `toy boat sinking in water` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **melt** | ✅ `ice cream melting in sun` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **freeze** | ✅ `freezing ice` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **peel** | ✅ `peeling banana` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **chop** | ✅ `chopping` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **grate** | ✅ `grating cheese` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **spread** | ✅ `spreading butter` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sprinkle** | ✅ `sprinkling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **scoop** | ✅ `scooping` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **whisper** | ✅ `child whispering in ear` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shout** | ✅ `child cupping hands shouting` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **giggle** | ✅ `children giggling covering mouths` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **howl** | ✅ `wolf howling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bark** | ✅ `tree bark` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **roar** | ✅ `lion roaring` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hum** | ✅ `humming` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **clap** | ✅ `clapping hands` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wave** | ✅ `waving hand` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **nod** | ✅ `nodding yes` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **peek** | ✅ `child peeking around corner` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stare** | ✅ `staring` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **glance** | ✅ `quick look` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **search** | ✅ `flashlight searching dark room` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **discover** | ✅ `child finding frog under log` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **notice** | ✅ `eye spotting something on ground` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wonder** | ✅ `wondering thinking` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **imagine** | ✅ `child with thought bubble dragon` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pretend** | ✅ `child pretending to be superhero cape` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **promise** | ✅ `promise pinky` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **remind** | ✅ `reminder` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **forget** | ✅ `person leaving keys on table` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **belong** | ✅ `toy in a box with name tag` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **share** | ✅ `two kids sharing pizza slice` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **trade** | ✅ `kids trading lunch snacks` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **borrow** | ✅ `handing a book to friend` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lend** | ✅ `handing pencil to classmate` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **gather** | ✅ `kids collecting sticks` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **collect** | ✅ `child collecting seashells bucket` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stack** | ✅ `stacking blocks` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wrap** | ✅ `wrapping gift` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **unwrap** | ✅ `hands unwrapping birthday present` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tug** | ✅ `tugging pulling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **drag** | ✅ `child dragging heavy backpack` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shove** | ✅ `pushing hard` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tuck** | ✅ `tucking in` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hang** | ✅ `hanging coat` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fasten** | ✅ `buckling seatbelt click` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **attach** | ✅ `hands taping paper to wall` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **repair** | ✅ `hands fixing broken toy` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **create** | ✅ `creating art` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **design** | ✅ `child drawing blueprint` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **measure** | ✅ `ruler measuring paper` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **weigh** | ✅ `weighing scale` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **count** | ✅ `child counting on fingers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sort** | ✅ `sorting colored blocks into groups` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **match** | ✅ `matching pairs` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **deliver** | ✅ `mailman delivering package door` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fetch** | ✅ `dog fetching` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **vanish** | ✅ `vanishing magic` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tiny** | ✅ `tiny ant on finger` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **huge** | ✅ `huge elephant next to car` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **enormous** | ✅ `enormous whale next to small boat` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **narrow** | ✅ `narrow path` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wide** | ✅ `wide river` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **steep** | ✅ `steep hill` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shallow** | ✅ `shallow water` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **deep** | ✅ `deep water` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **thick** | ✅ `thick book` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **thin** | ✅ `thin ice` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **smooth** | ✅ `smooth stone` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **rough** | ✅ `rough texture` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sharp** | ✅ `sharp point` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dull** | ✅ `dull blade` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shiny** | ✅ `shiny coin in sunlight` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **damp** | ✅ `damp towel on clothesline` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **soaking** | ✅ `soaking wet` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dry** | ✅ `dry cracked ground` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sticky** | ✅ `sticky hands` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **slimy** | ✅ `slimy green slug` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fluffy** | ✅ `fluffy white kitten` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fuzzy** | ✅ `fuzzy peach close up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cozy** | ✅ `cozy fireplace room` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **chilly** | ✅ `child shivering in cold wind` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **freezing** | ✅ `freezing cold` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **boiling** | ✅ `boiling water` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **warm** | ✅ `warm sun` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fierce** | ✅ `fierce lion roaring` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **gentle** | ✅ `gentle hands` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **brave** | ✅ `brave knight` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shy** | ✅ `shy child` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **proud** | ✅ `proud child trophy` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **curious** | ✅ `curious cat` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **grumpy** | ✅ `grumpy face` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cheerful** | ✅ `cheerful smiling child` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lonely** | ✅ `child sitting alone on bench` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **calm** | ✅ `calm water` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wild** | ✅ `wild horse` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tame** | ✅ `tame pet` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **plain** | ✅ `plain white t-shirt` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fancy** | ✅ `fancy dress` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ripe** | ✅ `ripe fruit` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **rotten** | ✅ `rotten apple` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fresh** | ✅ `fresh bread` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stale** | ✅ `stale food` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bitter** | ✅ `bitter taste` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sour** | ✅ `sour face` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **salty** | ✅ `salty pretzel close up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **juicy** | ✅ `juicy orange` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crunchy** | ✅ `biting crunchy carrot` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **creamy** | ✅ `creamy bowl of soup` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **silent** | ✅ `silent quiet` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **loud** | ✅ `child covering ears loud noise` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hollow** | ✅ `hollow log` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **solid** | ✅ `ice cube` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **loose** | ✅ `loose tooth` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tight** | ✅ `tight lid` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crooked** | ✅ `crooked leaning fence` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **straight** | ✅ `straight line` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crowded** | ✅ `crowded school bus` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **empty** | ✅ `empty jar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **whole** | ✅ `whole uncut pie` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **spare** | ✅ `spare key` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **certain** | ✅ `confident child pointing` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **strange** | ✅ `strange odd` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wonderful** | ✅ `child amazed at rainbow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **terrible** | ✅ `terrible storm damage` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **perfect** | ✅ `perfect circle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ugly** | ✅ `ugly duckling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **beautiful** | ✅ `beautiful sunset` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **clever** | ✅ `clever fox` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **foolish** | ✅ `person walking in rain no umbrella` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **greedy** | ✅ `child grabbing all cookies` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **generous** | ✅ `generous sharing` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **patient** | ✅ `patient waiting` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stubborn** | ✅ `stubborn mule` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lazy** | ✅ `lazy cat` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **busy** | ✅ `busy bee` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **clumsy** | ✅ `clumsy puppy tripping` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **graceful** | ✅ `graceful dancer` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **quickly** | ✅ `quickly fast` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **slowly** | ✅ `slowly turtle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **quietly** | ✅ `finger over lips shush` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **loudly** | ✅ `child shouting hands cupped` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **gently** | ✅ `hand gently petting kitten` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **suddenly** | ✅ `suddenly surprise` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **already** | ✅ `homework finished on desk` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **almost** | ✅ `hand almost catching ball` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **barely** | ✅ `barely reaching` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **perhaps** | ✅ `maybe perhaps` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **exactly** | ✅ `puzzle piece fitting perfectly` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **instead** | ✅ `apple chosen instead of candy` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **anyway** | ✅ `girl walking in rain smiling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **forever** | ✅ `stars in night sky` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **apart** | ✅ `two puzzle pieces apart` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **together** | ✅ `friends holding hands circle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **forward** | ✅ `arrow pointing forward` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **backward** | ✅ `person walking backward` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sideways** | ✅ `sideways crab` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **beneath** | ✅ `cat hiding beneath bed` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **above** | ✅ `bird flying above house` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **below** | ✅ `fish swimming below boat` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **beside** | ✅ `two friends sitting on bench` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **between** | ✅ `cat sitting between two boxes` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **among** | ✅ `toy in box full of toys` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **toward** | ✅ `dog running toward owner` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **against** | ✅ `against wall` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **through** | ✅ `through tunnel` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **across** | ✅ `bridge going across river` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **along** | ✅ `along path` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **around** | ✅ `around circle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **beyond** | ✅ `park behind trees` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **during** | ✅ `clock showing time passing` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **until** | ✅ `until waiting` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **since** | ✅ `calendar with days marked` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **whether** | ✅ `child holding coat looking at sky` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **while** | ✅ `child reading while waiting at bus stop` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **besides** | ✅ `apples and grapes together` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **within** | ✅ `coloring inside the lines` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **without** | ✅ `empty lunchbox` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **throughout** | ✅ `flowers in every part of garden` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **upon** | ✅ `castle upon a hill` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pick up** | ✅ `picking up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **put down** | ✅ `putting down` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **look at** | ✅ `looking at` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **come back** | ✅ `coming back` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sit down** | ✅ `sitting down` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stand up** | ✅ `standing up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wake up** | ✅ `waking up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **give up** | ✅ `giving up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **find out** | ✅ `finding out` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **turn off** | ✅ `turning off` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **turn on** | ✅ `turning on` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fall down** | ✅ `falling down` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **get up** | ✅ `getting up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **look out** | ✅ `look out warning` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hold on** | ✅ `holding on` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **clean up** | ✅ `cleaning up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hurry up** | ✅ `person running to catch bus` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **calm down** | ✅ `calming down` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **try on** | ✅ `trying on` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **throw away** | ✅ `throwing away` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **run out** | ✅ `running out` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **come in** | ✅ `coming in` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **go away** | ✅ `going away` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **show off** | ✅ `showing off` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **figure out** | ✅ `figuring out` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **excited** | ✅ `excited child jumping` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **nervous** | ✅ `nervous child biting nails` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **frightened** | ✅ `frightened scared` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **surprised** | ✅ `surprised child wide eyes` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **confused** | ✅ `confused person with question marks` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **disappointed** | ✅ `disappointed child frowning` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **frustrated** | ✅ `frustrated child at puzzle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **jealous** | ✅ `jealous child watching friend` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **embarrassed** | ✅ `embarrassed child red face` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **worried** | ✅ `worried child biting lip` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **grateful** | ✅ `grateful thankful` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **annoyed** | ✅ `annoyed face eye roll` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bored** | ✅ `bored child staring at ceiling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **amazed** | ✅ `child mouth open amazed` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **terrified** | ✅ `terrified child hiding blanket` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **furious** | ✅ `furious angry` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **miserable** | ✅ `miserable sick child` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **relieved** | ✅ `child sighing with relief` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **peaceful** | ✅ `peaceful sleeping baby` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **comfortable** | ✅ `child relaxing in big chair` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **uncomfortable** | ✅ `person sitting on hard rock` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **exhausted** | ✅ `exhausted tired` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **delighted** | ✅ `delighted child opening gift` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **gloomy** | ✅ `gloomy rainy window child` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hopeful** | ✅ `child wishing on star` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **cranky** | ✅ `cranky tired toddler` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **content** | ✅ `content happy` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **eager** | ✅ `excited dog waiting at door` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **homesick** | ✅ `child looking out window sad` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ashamed** | ✅ `child hiding face ashamed` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **before** | ✅ `before first` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **after** | ✅ `after next` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **next** | ✅ `arrow pointing to next door` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **then** | ✅ `sequence arrows first then next` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **finally** | ✅ `finish line celebration` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **meanwhile** | ✅ `two things happening at same time` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **soon** | ✅ `clock almost at time` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **later** | ✅ `clock hands moving forward` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **early** | ✅ `early morning` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **late** | ✅ `person rushing clock showing late` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **beginning** | ✅ `beginning start` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **middle** | ✅ `middle center` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ending** | ✅ `book closing last page` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **moment** | ✅ `snap of fingers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sudden** | ✅ `lightning bolt surprise` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **recent** | ✅ `fresh newspaper today date` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **daily** | ✅ `daily routine` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **weekly** | ✅ `weekly calendar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **whenever** | ✅ `frogs in rain puddles` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **once** | ✅ `finger holding up number one` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **twice** | ✅ `two fingers held up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **often** | ✅ `often frequently` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **nowadays** | ✅ `nowadays modern` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dozen** | ✅ `dozen eggs` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **half** | ✅ `apple cut in half` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pair** | ✅ `pair shoes` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **entire** | ✅ `entire complete` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **double** | ✅ `two identical cookies side by side` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **single** | ✅ `single flower in field` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **plenty** | ✅ `overflowing fruit basket` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **several** | ✅ `several few` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **few** | ✅ `three marbles in empty jar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **many** | ✅ `many stars` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **none** | ✅ `none empty` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bunch** | ✅ `bunch flowers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pile** | ✅ `pile leaves` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **heap** | ✅ `heap pile` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **piece** | ✅ `piece cake` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **portion** | ✅ `portion serving` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **amount** | ✅ `pile of coins` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **total** | ✅ `counting all fingers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **extra** | ✅ `extra cookie on plate` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **enough** | ✅ `glass filled exactly to top` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **less** | ✅ `half empty glass` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **more** | ✅ `overflowing cookie jar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **quarter** | ✅ `quarter fourth` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **equal** | ✅ `two equal piles of blocks` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **average** | ✅ `medium sized cup between big and small` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shadow** | ✅ `shadow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **echo** | ✅ `echo cave` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **secret** | ✅ `secret whisper` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **surprise** | ✅ `surprise party` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **mistake** | ✅ `pencil erasing wrong answer` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **adventure** | ✅ `children on adventure hike` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **treasure** | ✅ `treasure chest` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **journey** | ✅ `journey trip` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **village** | ✅ `village` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dock** | ✅ `boat dock` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crowd** | ✅ `crowd people` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **trail** | ✅ `trail path` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **footprint** | ✅ `footprint` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pattern** | ✅ `pattern stripes` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **riddle** | ✅ `riddle puzzle` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **poem** | ✅ `poem` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tale** | ✅ `grandpa telling story to child` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **legend** | ✅ `legend dragon` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **character** | ✅ `story character` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **chapter** | ✅ `book chapter` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **title** | ✅ `book title` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **author** | ✅ `author writer` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **paw** | ✅ `paw` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **claw** | ✅ `animal claw close up` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **feather** | ✅ `feather` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fur** | ✅ `fur` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **scale** | ✅ `bathroom scale` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wing** | ✅ `bird wing` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **beak** | ✅ `beak` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **nest** | ✅ `bird nest` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hive** | ✅ `beehive` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **den** | ✅ `fox den` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **burrow** | ✅ `rabbit burrow` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **trap** | ✅ `mouse trap` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **leash** | ✅ `dog leash` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tag** | ✅ `name tag` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **whisker** | ✅ `cat whisker` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tail** | ✅ `wagging tail` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hoof** | ✅ `horse hoof` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **mane** | ✅ `lion mane` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **flock** | ✅ `flock birds` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **herd** | ✅ `herd cows` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **pack** | ✅ `wolf pack` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **droplet** | ✅ `water droplet` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ripple** | ✅ `water ripple` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bubble** | ✅ `soap bubble` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **flame** | ✅ `flame fire` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **spark** | ✅ `spark` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **smoke** | ✅ `smoke` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **ash** | ✅ `ash` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dawn** | ✅ `dawn sunrise` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dusk** | ✅ `dusk sunset` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **midnight** | ✅ `clock showing midnight` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **noon** | ✅ `noon midday` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **passenger** | ✅ `passenger on bus` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **neighbor** | ✅ `neighbor waving hello` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **stranger** | ✅ `unknown person silhouette` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **parade** | ✅ `colorful parade marching` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **audience** | ✅ `audience watching show` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crew** | ✅ `crew workers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **coach** | ✅ `sports coach with clipboard` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **chef** | ✅ `chef cooking` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **mayor** | ✅ `mayor at podium` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **inventor** | ✅ `inventor with invention` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **princess** | ✅ `princess` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **knight** | ✅ `knight armor` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wizard** | ✅ `wizard` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **giant** | ✅ `giant` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dwarf** | ✅ `fantasy dwarf cartoon` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **monster** | ✅ `friendly monster` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **dragon** | ✅ `dragon` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **fairy** | ✅ `fairy` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shield** | ✅ `shield` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sword** | ✅ `cartoon medieval sword` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wand** | ✅ `magic wand` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **throne** | ✅ `throne` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **crown** | ✅ `crown` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wobble** | ✅ `toddler wobbling first steps` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **tumble** | ✅ `child tumbling on grass` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **snuggle** | ✅ `child snuggling teddy bear bed` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **nibble** | ✅ `mouse nibbling cheese` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **snore** | ✅ `snoring` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **yawn** | ✅ `yawning` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **shiver** | ✅ `shivering cold` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **bloom** | ✅ `blooming flower` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sprout** | ✅ `sprout` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **wilt** | ✅ `wilting flower` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **scattered** | ✅ `crayons scattered across floor` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **rascal** | ✅ `mischievous puppy in cookie jar` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **gigantic** | ✅ `gigantic dinosaur next to house` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **itsy** | ✅ `tiny spider` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **whirl** | ✅ `spinning top whirling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **sparkle** | ✅ `sparkling` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **flutter** | ✅ `fluttering butterfly` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **hear** | ✅ `child listening to loud basketball crowd` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **lose** | ✅ `child searching for lost toy` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **teach** | ✅ `older kid teaching younger kid to ride bike` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **take** | ✅ `hand taking cookie from plate` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
+| **than** | ✅ `basketball scoreboard comparing two numbers` search returns clear, distinct images suitable for a 10yo | ✅ Definition is factually accurate | ✅ Common primary meaning used | ✅ Works for all 4 games |
