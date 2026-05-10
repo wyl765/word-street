@@ -7,7 +7,7 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - analyze | L5:不能(卡:with care/understand抽象);例句:勉强(卡:data/experiment) | L6:勉强(若选项里有“study/observe”易混) | L7:OK | L8:偏难(偏学术)
 - apply | L5:勉强(卡:put into action);例句:能 | L6:能 | L7:OK | L8:合适
 - burden | L5:不能(卡:deal with抽象);例句:勉强(靠“carry heavy”) | L6:勉强(可能和“load/weight”混) | L7:OK | L8:偏难
-- cancel | L5:能 | L6:能 | L7:OK | L8:合适
+- cancel | L5:能;例句:勉强(卡:coach/practice/lightning) | L6:能 | L7:OK | L8:合适
 - device | L5:勉强(卡:purpose);例句:勉强(thermometer) | L6:勉强(可能和“tool/machine”混) | L7:OK | L8:合适
 - elect | L5:不能(卡:voting);例句:勉强(ballot) | L6:勉强(若选项含“choose”不唯一) | L7:OK | L8:偏难(公民词)
 - emphasize | L5:不能(卡:extra important);例句:勉强(靠underlined) | L6:能(underlined强提示) | L7:OK | L8:偏难
@@ -25,28 +25,28 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - risk | L5:勉强(卡:chance);例句:能 | L6:能 | L7:OK | L8:合适
 - tension | L5:不能(卡:worry/tightness抽象);例句:勉强 | L6:勉强(可能和“stress/worry”混) | L7:OK | L8:偏难
 - typical | L5:不能(卡:usual/expect);例句:勉强(靠school day) | L6:勉强 | L7:OK | L8:偏难
-- basement | L5:能 | L6:能 | L7:OK | L8:合适
+- basement | L5:能;例句:勉强(卡:holiday decorations) | L6:能 | L7:OK | L8:合适
 - blade | L5:不能(卡:双义 knife/grass);例句:勉强(草叶) | L6:不能(有多义+选项易混) | L7:OK | L8:偏难(建议分开义项)
 - canyon | L5:不能(卡:valley/steep);例句:勉强 | L6:勉强(可能和“valley/cliff”混) | L7:OK | L8:偏难
-- chimney | L5:勉强 | L6:能 | L7:OK | L8:合适
-- chunk | L5:能 | L6:能 | L7:OK | L8:合适
+- chimney | L5:勉强(定义语法乱但能抓住“smoke tube”);例句:能 | L6:能 | L7:OK | L8:合适
+- chunk | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - creek | L5:勉强(卡:stream);例句:勉强 | L6:勉强(可能和“stream/river”混) | L7:OK | L8:偏难
 - crisp | L5:不能(卡:firm/fresh);例句:勉强(autumn leaves) | L6:勉强(可能和“crunchy”混) | L7:OK | L8:偏难
 - flask | L5:不能(卡:narrow neck);例句:能(实验室强) | L6:能 | L7:OK | L8:偏难(学科词)
-- foil | L5:能 | L6:能 | L7:OK | L8:合适
-- gasp | L5:能 | L6:能 | L7:OK | L8:合适
+- foil | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- gasp | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - glare | L5:不能(卡:双义 light/angry look);例句:勉强(强光) | L6:不能(多义+选项易混) | L7:OK | L8:偏难
-- glow | L5:能 | L6:能 | L7:OK | L8:合适
+- glow | L5:能;例句:勉强(卡:jack-o'-lantern/万圣节背景) | L6:能 | L7:注意(万圣节南瓜灯文化背景，建议例句/图更本土化) | L8:合适
 - hatch | L5:勉强(卡:break out of egg);例句:能 | L6:能 | L7:OK | L8:合适
-- hose | L5:能 | L6:能 | L7:OK | L8:合适
+- hose | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - inn | L5:不能(卡:traveler);例句:勉强 | L6:勉强(可能和“hotel”混) | L7:OK | L8:偏难
 - jolt | L5:不能(卡:shock);例句:能 | L6:能 | L7:OK | L8:偏难
 - ledge | L5:不能(卡:sticking out);例句:能 | L6:能 | L7:OK | L8:偏难
 - lumber | L5:不能(卡:boards/building);例句:勉强 | L6:勉强(可能和“wood”混) | L7:OK | L8:偏难
-- mend | L5:能 | L6:能 | L7:OK | L8:合适
+- mend | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
 - quarry | L5:不能(卡:dig stone/blocks);例句:勉强 | L6:勉强(可能和“mine”混) | L7:OK | L8:偏难
 - ridge | L5:不能(卡:mountain top shape);例句:勉强 | L6:勉强(可能和“peak”混) | L7:OK | L8:偏难
-- slope | L5:勉强 | L6:能 | L7:OK | L8:合适
+- slope | L5:勉强(卡:angle);例句:能(骑车下坡) | L6:能 | L7:OK | L8:合适
 - spout | L5:不能(卡:opening/tube);例句:勉强(鲸喷水) | L6:勉强(可能和“spray/fountain”混) | L7:OK | L8:偏难
 - stump | L5:不能(卡:after tree cut down);例句:能 | L6:能 | L7:OK | L8:偏难
 - torch | L5:不能(卡:双义 fire/flashlight);例句:勉强 | L6:勉强(多义) | L7:OK | L8:偏难
@@ -135,7 +135,7 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - hydrate | L5:不能 | L6:勉强 | L7:OK | L8:不合适
 - hymn | L5:不能 | L6:勉强 | L7:注意(宗教词，部分家长敏感) | L8:不合适
 - hyperbole | L5:不能 | L6:勉强(例句直接给例子) | L7:OK | L8:不合适
-- icon | L5:勉强 | L6:能 | L7:OK | L8:合适
+- icon | L5:勉强(双义:screen小图标/象征);例句:能 | L6:能 | L7:OK | L8:偏难(双义+抽象“symbol”)
 - imbue | L5:不能 | L6:不能(抽象) | L7:OK | L8:不合适
 - impervious | L5:不能 | L6:勉强(例句解释+连字符) | L7:OK | L8:不合适
 - impound | L5:不能 | L6:勉强 | L7:OK | L8:不合适
