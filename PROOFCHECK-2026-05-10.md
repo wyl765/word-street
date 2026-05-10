@@ -10,10 +10,6 @@
 L1 definition uses complex word(s): comfortable
 **Fix:** Simplify definition for young learners
 
-### [MINOR] words-level2.js — "detail" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): information
-**Fix:** Simplify definition for young learners
-
 ### [MINOR] words-level2.js — "bulb" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): underground
 **Fix:** Simplify definition for young learners
@@ -64,6 +60,10 @@ Cross-definition cycle: "country" def contains "nation" and "nation" def contain
 
 ### [MINOR] words-level2.js — "chart" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "chart" def contains "table" and "table" def contains "chart" (both L2)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "afraid" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "afraid" def contains "scared" and "scared" def contains "afraid" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
 
 ### [MINOR] words-level2.js — "build" (CROSS_DEF_CYCLE)
