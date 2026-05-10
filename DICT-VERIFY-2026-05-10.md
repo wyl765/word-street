@@ -1,25 +1,13 @@
 # Dictionary Pattern Check
 
-0 HIGH | 76 MEDIUM | 67 MINOR
+0 HIGH | 64 MEDIUM | 67 MINOR
 
 ## HIGH
 
 
 ## MEDIUM
-- words-level1.js | mud | Definition "wet dirt" is too brief to be useful
-- words-level1.js | shallow | Definition "not deep" is too brief to be useful
-- words-level1.js | loose | Definition "not tight" is too brief to be useful
+- words-level1.js | loose | L1 definition packs 3 meanings: "not tight; easy to move or pull off"
 - words-level1.js | exactly | L1 definition packs 3 meanings: "just right; not more or less"
-- words-level1.js | beside | Definition "next to" is too brief to be useful
-- words-level1.js | within | Definition "inside" is too brief to be useful
-- words-level1.js | without | Definition "not having" is too brief to be useful
-- words-level1.js | then | Definition "after that" is too brief to be useful
-- words-level1.js | daily | Definition "every day" is too brief to be useful
-- words-level1.js | once | Definition "one time" is too brief to be useful
-- words-level1.js | twice | Definition "two times" is too brief to be useful
-- words-level1.js | single | Definition "only one" is too brief to be useful
-- words-level1.js | tale | Definition "a story" is too brief to be useful
-- words-level1.js | itsy | Definition "extremely tiny" is too brief to be useful
 - words-level2.js | swift | Definition "very fast" is too brief to be useful
 - words-level2.js | immediately | Definition "right away" is too brief to be useful
 - words-level2.js | frequently | Definition "many times" is too brief to be useful

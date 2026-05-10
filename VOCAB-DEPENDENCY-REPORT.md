@@ -1,7 +1,7 @@
 # Vocabulary Dependency Report — 2026-05-10
 
 ## Summary
-- Dependency inversions: 261 (224 unique words)
+- Dependency inversions: 264 (227 unique words)
 - Morphological ordering issues: 63
 
 ## Dependency Inversions
@@ -101,6 +101,7 @@ Word A's definition uses word B, but B.level > A.level — learner hasn't seen B
 - **desert** (L1): uses little(L2)
 - **storm** (L1): uses weather(L2)
 - **breeze** (L1): uses soft(L2)
+- **mud** (L1): uses soft(L2)
 - **fog** (L1): uses close(L2)
 - **flood** (L1): uses usually(L2)
 - **petal** (L1): uses soft(L2)
@@ -135,6 +136,7 @@ Word A's definition uses word B, but B.level > A.level — learner hasn't seen B
 - **enormous** (L1): uses believe(L2)
 - **wide** (L1): uses far(L2)
 - **steep** (L1): uses climb(L2)
+- **shallow** (L1): uses close(L2)
 - **deep** (L1): uses far(L2)
 - **thin** (L1): uses little(L2)
 - **shiny** (L1): uses bright(L2)
@@ -155,6 +157,7 @@ Word A's definition uses word B, but B.level > A.level — learner hasn't seen B
 - **creamy** (L1): uses soft(L2)
 - **hollow** (L1): uses inside(L2)
 - **solid** (L1): uses shape(L2)
+- **loose** (L1): uses move(L2)
 - **empty** (L1): uses inside(L2)
 - **strange** (L1): uses odd(L2)
 - **terrible** (L1): uses scared(L2)

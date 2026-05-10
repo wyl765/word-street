@@ -12,8 +12,9 @@
     {
       "file": "words-level2.js",
       "words": 552,
-      "status": "pending",
-      "lastReviewRound": null
+      "status": "done",
+      "lastReviewRound": 1,
+      "lastReviewDate": "2026-05-10"
     },
     {
       "file": "words-level2a.js",

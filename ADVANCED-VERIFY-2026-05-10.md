@@ -7,7 +7,7 @@
 - ✅ nervous (L1): Chinese may confuse with "anxious" — 紧张 covers both
 - ⚠️ borrow (L1): Chinese students confuse borrow/lend — 借 is bidirectional in Chinese
 - ✅ lend (L1): Chinese students confuse borrow/lend — 借 is bidirectional in Chinese
-- ⚠️ beside (L1): Chinese students confuse beside/besides — 在旁边 vs 此外
+- ✅ beside (L1): Chinese students confuse beside/besides — 在旁边 vs 此外
 - ⚠️ besides (L1): Chinese students confuse beside/besides
 - ✅ quite (L2): British "quite" = somewhat, American "quite" = very — confusing for ESL
 - ⚠️ since (L1): Chinese students struggle with since (因为/自从) — two meanings

@@ -3,7 +3,7 @@
 ## Summary
 - Total entries: 5210
 - CRITICAL (≥5 超纲词 in definition): 423
-- MAJOR (≥3 超纲词 in definition): 2147
+- MAJOR (≥3 超纲词 in definition): 2151
 
 ## Issues
 
@@ -2147,6 +2147,10 @@
 - **Definition:** "a small pool of water on the ground"
 - **超纲词 (4):** small, pool, water, ground
 
+### 🟡 [MAJOR] mud (L1)
+- **Definition:** "wet dirt that is soft and sticky"
+- **超纲词 (3):** wet, dirt, soft
+
 ### 🟡 [MAJOR] dust (L1)
 - **Definition:** "tiny bits of dry dirt in the air"
 - **超纲词 (3):** bits, dirt, air
@@ -2419,6 +2423,10 @@
 - **Definition:** "hard and firm; keeps its shape"
 - **超纲词 (4):** hard, firm, keeps, shape
 
+### 🟡 [MAJOR] loose (L1)
+- **Definition:** "not tight; easy to move or pull off"
+- **超纲词 (4):** easy, move, pull, off
+
 ### 🟡 [MAJOR] tight (L1)
 - **Definition:** "fitting very close, hard to move"
 - **超纲词 (4):** fitting, close, hard, move
@@ -2619,6 +2627,10 @@
 - **Definition:** "just a short time ago"
 - **超纲词 (3):** short, time, ago
 
+### 🟡 [MAJOR] twice (L1)
+- **Definition:** "two times; done again"
+- **超纲词 (3):** two, times, done
+
 ### 🟡 [MAJOR] half (L1)
 - **Definition:** "one of two equal parts"
 - **超纲词 (3):** one, two, parts
@@ -2686,6 +2698,10 @@
 ### 🟡 [MAJOR] poem (L1)
 - **Definition:** "words that sound nice together"
 - **超纲词 (3):** words, sound, nice
+
+### 🟡 [MAJOR] tale (L1)
+- **Definition:** "a story, often made up or told aloud"
+- **超纲词 (3):** story, told, aloud
 
 ### 🟡 [MAJOR] legend (L1)
 - **Definition:** "a very old story that may or may not be true"

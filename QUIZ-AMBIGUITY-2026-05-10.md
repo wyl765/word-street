@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3791 ambiguous pairs found.
+3760 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -66,9 +66,9 @@
 - worm: a tiny soft animal with no legs that lives in dirt
 - ant: a tiny bug that lives in a group
 
-## L1: "worm" vs "mud" (100%)
+## L1: "worm" vs "mud" (75%)
 - worm: a tiny soft animal with no legs that lives in dirt
-- mud: wet dirt
+- mud: wet dirt that is soft and sticky
 
 ## L1: "worm" vs "dust" (67%)
 - worm: a tiny soft animal with no legs that lives in dirt
@@ -124,7 +124,7 @@
 
 ## L1: "sandwich" vs "within" (100%)
 - sandwich: food made with bread and something inside
-- within: inside
+- within: inside of something
 
 ## L1: "muffin" vs "cupcake" (67%)
 - muffin: a small soft cake
@@ -182,21 +182,9 @@
 - melon: a large fruit with a thick skin and soft inside
 - empty: with nothing inside
 
-## L1: "melon" vs "within" (100%)
-- melon: a large fruit with a thick skin and soft inside
-- within: inside
-
 ## L1: "coconut" vs "empty" (67%)
 - coconut: a big brown fruit with white inside
 - empty: with nothing inside
-
-## L1: "coconut" vs "within" (100%)
-- coconut: a big brown fruit with white inside
-- within: inside
-
-## L1: "pepper" vs "within" (100%)
-- pepper: a crunchy vegetable that can be red, green, or yellow and is hollow inside
-- within: inside
 
 ## L1: "mushroom" vs "sharp" (67%)
 - mushroom: a living thing with a cap on top and a stem, that grows in damp places
@@ -226,17 +214,9 @@
 - palm: the flat inside part of your hand
 - tongue: the soft part inside your mouth
 
-## L1: "palm" vs "within" (100%)
-- palm: the flat inside part of your hand
-- within: inside
-
 ## L1: "fist" vs "mitten" (60%)
 - fist: a hand with all fingers closed tight
 - mitten: a warm cover for your hand with no fingers
-
-## L1: "fist" vs "loose" (100%)
-- fist: a hand with all fingers closed tight
-- loose: not tight
 
 ## L1: "chin" vs "sit down" (67%)
 - chin: the bottom part of your face
@@ -249,14 +229,6 @@
 ## L1: "tongue" vs "blanket" (67%)
 - tongue: the soft part inside your mouth
 - blanket: a soft cover for your bed
-
-## L1: "tongue" vs "within" (100%)
-- tongue: the soft part inside your mouth
-- within: inside
-
-## L1: "throat" vs "within" (100%)
-- throat: the inside of your neck where food and air pass
-- within: inside
 
 ## L1: "shoulder" vs "hip" (75%)
 - shoulder: where your arm connects to your body
@@ -309,10 +281,6 @@
 ## L1: "zipper" vs "sticky" (60%)
 - zipper: something that opens and closes your jacket
 - sticky: something that holds on to your fingers
-
-## L1: "slipper" vs "within" (100%)
-- slipper: a soft shoe you wear inside
-- within: inside
 
 ## L1: "blanket" vs "pillow" (67%)
 - blanket: a soft cover for your bed
@@ -390,10 +358,6 @@
 - hail: balls of ice that fall from the sky
 - since: from that time to now
 
-## L1: "drought" vs "once" (100%)
-- drought: a long time with no rain
-- once: one time
-
 ## L1: "thorn" vs "dull" (100%)
 - thorn: a sharp point on a plant
 - dull: not sharp at all
@@ -433,10 +397,6 @@
 ## L1: "catch" vs "take" (67%)
 - catch: to take hold of something in the air
 - take: to get hold of something with your hands
-
-## L1: "squeeze" vs "loose" (100%)
-- squeeze: to press something tight
-- loose: not tight
 
 ## L1: "stretch" vs "howl" (67%)
 - stretch: to make your body long
@@ -490,10 +450,6 @@
 - pour: to make water or juice flow out of something
 - create: to make something new
 
-## L1: "drip" vs "once" (100%)
-- drip: to fall in small drops, one at a time
-- once: one time
-
 ## L1: "shout" vs "glance" (67%)
 - shout: to say something very loud
 - glance: to look at something very quickly
@@ -518,10 +474,6 @@
 - stare: to look at something for a long time
 - search: to look carefully for something
 
-## L1: "stare" vs "once" (100%)
-- stare: to look at something for a long time
-- once: one time
-
 ## L1: "glance" vs "search" (67%)
 - glance: to look at something very quickly
 - search: to look carefully for something
@@ -537,10 +489,6 @@
 ## L1: "discover" vs "weigh" (67%)
 - discover: to find or learn about something for the first time
 - weigh: to find out how heavy something is
-
-## L1: "discover" vs "once" (100%)
-- discover: to find or learn about something for the first time
-- once: one time
 
 ## L1: "discover" vs "dawn" (67%)
 - discover: to find or learn about something for the first time
@@ -581,10 +529,6 @@
 ## L1: "lend" vs "recent" (67%)
 - lend: to let someone use your thing for a short time
 - recent: just a short time ago
-
-## L1: "lend" vs "once" (100%)
-- lend: to let someone use your thing for a short time
-- once: one time
 
 ## L1: "stack" vs "together" (67%)
 - stack: to put things on top of each other neatly
@@ -654,17 +598,9 @@
 - thick: not thin; having a lot from one side to the other
 - thin: not thick; having very little from one side to the other
 
-## L1: "thick" vs "without" (100%)
-- thick: not thin; having a lot from one side to the other
-- without: not having
-
 ## L1: "thin" vs "damp" (100%)
 - thin: not thick; having very little from one side to the other
 - damp: a little bit wet
-
-## L1: "thin" vs "without" (100%)
-- thin: not thick; having very little from one side to the other
-- without: not having
 
 ## L1: "fuzzy" vs "fur" (67%)
 - fuzzy: covered in soft short hair
@@ -682,33 +618,13 @@
 - plain: not fancy, with nothing on it
 - peaceful: feeling safe and happy, with nothing to worry about
 
-## L1: "fancy" vs "without" (100%)
-- fancy: having a lot of pretty things on it
-- without: not having
-
-## L1: "juicy" vs "within" (100%)
-- juicy: full of juice inside
-- within: inside
-
 ## L1: "crunchy" vs "silent" (100%)
 - crunchy: making a loud sound when you bite, like chips or carrots
 - silent: making no sound at all
 
-## L1: "hollow" vs "within" (100%)
-- hollow: having a hole or empty space inside
-- within: inside
-
-## L1: "hollow" vs "without" (100%)
-- hollow: having a hole or empty space inside
-- without: not having
-
 ## L1: "crowded" vs "among" (67%)
 - crowded: full of too many people or things
 - among: in the middle of many things
-
-## L1: "empty" vs "within" (100%)
-- empty: with nothing inside
-- within: inside
 
 ## L1: "empty" vs "peaceful" (67%)
 - empty: with nothing inside
@@ -717,18 +633,6 @@
 ## L1: "busy" vs "among" (67%)
 - busy: doing many things with no free time
 - among: in the middle of many things
-
-## L1: "busy" vs "once" (100%)
-- busy: doing many things with no free time
-- once: one time
-
-## L1: "slowly" vs "once" (100%)
-- slowly: not fast; taking a long time
-- once: one time
-
-## L1: "barely" vs "single" (100%)
-- barely: only just, by a tiny bit
-- single: only one
 
 ## L1: "perhaps" vs "worried" (67%)
 - perhaps: maybe, it might happen
@@ -762,10 +666,6 @@
 - during: at the same time as something else
 - while: at the same time as
 
-## L1: "during" vs "once" (100%)
-- during: at the same time as something else
-- once: one time
-
 ## L1: "since" vs "soon" (67%)
 - since: from that time to now
 - soon: in a short time from now
@@ -773,10 +673,6 @@
 ## L1: "since" vs "whenever" (67%)
 - since: from that time to now
 - whenever: every time that
-
-## L1: "since" vs "once" (100%)
-- since: from that time to now
-- once: one time
 
 ## L1: "since" vs "smoke" (67%)
 - since: from that time to now
@@ -806,10 +702,6 @@
 - ashamed: feeling bad about something you did wrong
 - mistake: something you did wrong
 
-## L1: "after" vs "once" (100%)
-- after: later than; following in time
-- once: one time
-
 ## L1: "soon" vs "moment" (67%)
 - soon: in a short time from now
 - moment: a very short bit of time
@@ -818,22 +710,6 @@
 - soon: in a short time from now
 - recent: just a short time ago
 
-## L1: "soon" vs "once" (100%)
-- soon: in a short time from now
-- once: one time
-
-## L1: "later" vs "once" (100%)
-- later: after some time passes
-- once: one time
-
-## L1: "early" vs "once" (100%)
-- early: sooner than the set time
-- once: one time
-
-## L1: "late" vs "once" (100%)
-- late: past the time it should be
-- once: one time
-
 ## L1: "ending" vs "piece" (67%)
 - ending: the last part of something
 - piece: one part of something bigger
@@ -841,18 +717,6 @@
 ## L1: "moment" vs "recent" (67%)
 - moment: a very short bit of time
 - recent: just a short time ago
-
-## L1: "moment" vs "once" (100%)
-- moment: a very short bit of time
-- once: one time
-
-## L1: "recent" vs "once" (100%)
-- recent: just a short time ago
-- once: one time
-
-## L1: "whenever" vs "once" (100%)
-- whenever: every time that
-- once: one time
 
 ## L1: "pair" vs "bunch" (67%)
 - pair: two things that go together
@@ -922,6 +786,10 @@
 - village: a very small town
 - dwarf: a very small person in stories
 
+## L1: "village" vs "itsy" (67%)
+- village: a very small town
+- itsy: very very tiny; so small
+
 ## L1: "crowd" vs "herd" (67%)
 - crowd: a large group of people
 - herd: a group of large animals together
@@ -933,6 +801,10 @@
 ## L1: "droplet" vs "ripple" (67%)
 - droplet: a very small drop of water
 - ripple: a small wave on water
+
+## L1: "droplet" vs "itsy" (67%)
+- droplet: a very small drop of water
+- itsy: very very tiny; so small
 
 ## L1: "midnight" vs "noon" (100%)
 - midnight: twelve o'clock at night
@@ -953,6 +825,10 @@
 ## L1: "giant" vs "dwarf" (75%)
 - giant: a very tall person in stories
 - dwarf: a very small person in stories
+
+## L1: "dwarf" vs "itsy" (67%)
+- dwarf: a very small person in stories
+- itsy: very very tiny; so small
 
 ## L1: "throne" vs "crown" (100%)
 - throne: a fancy chair for a king or queen

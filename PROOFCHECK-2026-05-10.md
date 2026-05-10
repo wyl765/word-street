@@ -14,10 +14,6 @@ L1 definition uses complex word(s): comfortable
 L2 definition uses complex word(s): information
 **Fix:** Simplify definition for young learners
 
-### [MINOR] words-level2.js — "amber" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): golden-yellow
-**Fix:** Simplify definition for young learners
-
 ### [MINOR] words-level2.js — "bulb" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): underground
 **Fix:** Simplify definition for young learners
@@ -210,10 +206,6 @@ Cross-definition cycle: "despite" def contains "even though" and "even though" d
 Definition uses "something" 2 times: "to build or create something; also to cause something to happen"
 **Fix:** Rephrase to be more specific
 
-### [MINOR] words-level2.js — "depend" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "to need someone or something; also to be decided by something"
-**Fix:** Rephrase to be more specific
-
 ### [MINOR] words-level2a.js — "cover" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "to put something over the top of something else"
 **Fix:** Rephrase to be more specific
@@ -305,6 +297,14 @@ Word appears to be adjective but definition starts with article: "a moral princi
 ### [MINOR] words-level5d.js — "agnostic" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a person who believes it is impossible to know whe..."
 **Fix:** Consider rephrasing definition to adjective form
+
+### [MINOR] words-level2.js — "attention" (WHEN_DEFINITION)
+Definition starts with "when": "when you look and listen well..."
+**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
+
+### [MINOR] words-level2.js — "deal" (WHEN_DEFINITION)
+Definition starts with "when": "when two people agree on what to do..."
+**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
 ### [MINOR] words-level2a.js — "motion" (WHEN_DEFINITION)
 Definition starts with "when": "when something changes position or place..."

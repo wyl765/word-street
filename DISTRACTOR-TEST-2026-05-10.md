@@ -1,6 +1,6 @@
 # Distractor Test Report
 
-36 words with weak definitions (confusable with 3+ others)
+38 words with weak definitions (confusable with 3+ others)
 
 1. L1 "sharp" → confusable with: swan, turtle, snail, worm, spider
    Def: "with a point that can cut"
@@ -101,11 +101,17 @@
 33. L1 "pile" → confusable with: stack, apart, together
    Def: "a lot of things on top of each other"
 
-34. L1 "crowd" → confusable with: many, herd, crew
+34. L1 "village" → confusable with: droplet, dwarf, itsy
+   Def: "a very small town"
+
+35. L1 "crowd" → confusable with: many, herd, crew
    Def: "a large group of people"
 
-35. L1 "lose" → confusable with: discover, measure, weigh
+36. L1 "itsy" → confusable with: village, droplet, dwarf
+   Def: "very very tiny; so small"
+
+37. L1 "lose" → confusable with: discover, measure, weigh
    Def: "to not be able to find something"
 
-36. L2 "result" → confusable with: plot, effect, usual
+38. L2 "result" → confusable with: plot, effect, usual
    Def: "what happens in the end"
