@@ -13116,7 +13116,7 @@
 
 ## L4: "accuse" vs "reproach" (100%)
 - accuse: to say someone did something wrong
-- reproach: to express letdown in someone for doing something wrong
+- reproach: to express disappointment in someone for doing something wrong
 
 ## L4: "accuse" vs "malfeasant" (67%)
 - accuse: to say someone did something wrong
@@ -13368,7 +13368,7 @@
 
 ## L4: "culpability" vs "reproach" (75%)
 - culpability: responsibility for doing something wrong
-- reproach: to express letdown in someone for doing something wrong
+- reproach: to express disappointment in someone for doing something wrong
 
 ## L4: "derivative" vs "precursor" (67%)
 - derivative: something that is based on or comes from something else
@@ -13392,7 +13392,7 @@
 
 ## L4: "deterrence" vs "reproach" (60%)
 - deterrence: discouraging someone from doing something
-- reproach: to express letdown in someone for doing something wrong
+- reproach: to express disappointment in someone for doing something wrong
 
 ## L4: "disillusionment" vs "serendipity" (60%)
 - disillusionment: disappointment from finding something is not as good as believed
@@ -13720,7 +13720,7 @@
 
 ## L4: "tirade" vs "diatribe" (75%)
 - tirade: a long angry speech of criticism
-- diatribe: a long and angry speech piece of writing criticizing something
+- diatribe: a long and angry speech or piece of writing criticizing something
 
 ## L4: "trepidation" vs "sentiment" (75%)
 - trepidation: a feeling of fear about something that might happen
@@ -13745,6 +13745,10 @@
 ## L4: "arbitrary" vs "irrational" (67%)
 - arbitrary: based on random choice rather than any reason or system
 - irrational: not based on reason or logic
+
+## L4: "articulate" vs "eloquent" (80%)
+- articulate: able to speak clearly and express thoughts well
+- eloquent: able to express thoughts clearly and persuasively
 
 ## L4: "assembly" vs "coalition" (80%)
 - assembly: a group of people gathered together for a purpose
@@ -13780,11 +13784,7 @@
 
 ## L4: "moratorium" vs "reproach" (67%)
 - moratorium: a short-term ban on doing something
-- reproach: to express letdown in someone for doing something wrong
-
-## L4: "nonpartisan" vs "partisan" (75%)
-- nonpartisan: not helping any specific political party
-- partisan: strongly helping one side of a fight or political party
+- reproach: to express disappointment in someone for doing something wrong
 
 ## L4: "repress" vs "suppress" (60%)
 - repress: to hold back or prevent the expression of feelings or actions

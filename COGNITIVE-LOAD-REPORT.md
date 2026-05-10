@@ -2,8 +2,8 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 427
-- MAJOR (≥3 超纲词 in definition): 2146
+- CRITICAL (≥5 超纲词 in definition): 424
+- MAJOR (≥3 超纲词 in definition): 2148
 
 ## Issues
 
@@ -1212,16 +1212,12 @@
 - **超纲词 (6):** person, takes, care, art, items, museum
 
 ### 🔴 [CRITICAL] diplomacy (L4)
-- **Definition:** "the skill of managing bonds between countries peacefully"
-- **超纲词 (5):** skill, managing, bonds, countries, peacefully
+- **Definition:** "the skill of managing relations between countries peacefully"
+- **超纲词 (5):** skill, managing, relations, countries, peacefully
 
 ### 🔴 [CRITICAL] doctrine (L4)
 - **Definition:** "a set of beliefs or rules taught by a group or government"
 - **超纲词 (5):** set, beliefs, rules, taught, group
-
-### 🔴 [CRITICAL] eloquent (L4)
-- **Definition:** "expressing thoughts in a clear way and persuasively with words"
-- **超纲词 (5):** expressing, thoughts, clear, persuasively, words
 
 ### 🔴 [CRITICAL] embassy (L4)
 - **Definition:** "the building where a country's representatives work in a foreign nation"
@@ -1240,7 +1236,7 @@
 - **超纲词 (5):** inspiring, fear, being, impressively, large
 
 ### 🔴 [CRITICAL] fraud (L4)
-- **Definition:** "the crime of tricking people to gain money or edge dishonestly"
+- **Definition:** "the crime of tricking people to gain money or advantage dishonestly"
 - **超纲词 (6):** crime, tricking, people, gain, money, dishonestly
 
 ### 🔴 [CRITICAL] geologist (L4)
@@ -1300,8 +1296,8 @@
 - **超纲词 (5):** group, elected, people, laws, countries
 
 ### 🔴 [CRITICAL] partisan (L4)
-- **Definition:** "strongly helping one side of a fight or political party"
-- **超纲词 (6):** strongly, helping, one, side, fight, party
+- **Definition:** "strongly supporting one side in a conflict or political party"
+- **超纲词 (5):** strongly, supporting, one, side, party
 
 ### 🔴 [CRITICAL] patrimony (L4)
 - **Definition:** "land or values inherited from one's father or ancestors"
@@ -1326,14 +1322,6 @@
 ### 🔴 [CRITICAL] precedent (L4)
 - **Definition:** "an earlier event or choice used as an example for future actions"
 - **超纲词 (5):** earlier, event, example, future, actions
-
-### 🔴 [CRITICAL] propaganda (L4)
-- **Definition:** "info spread to sway people's opinions, often in a misleading way"
-- **超纲词 (5):** info, sway, people's, opinions, misleading
-
-### 🔴 [CRITICAL] prospectus (L4)
-- **Definition:** "a paper giving facts about a school firm, or investment"
-- **超纲词 (5):** paper, giving, facts, school, firm
 
 ### 🔴 [CRITICAL] quorum (L4)
 - **Definition:** "the least number of members needed before a group can make official decisions"
@@ -1384,7 +1372,7 @@
 - **超纲词 (5):** remark, meant, sounds, boring, unoriginal
 
 ### 🔴 [CRITICAL] diatribe (L4)
-- **Definition:** "a long and angry speech piece of writing criticizing something"
+- **Definition:** "a long and angry speech or piece of writing criticizing something"
 - **超纲词 (5):** long, angry, speech, writing, criticizing
 
 ### 🔴 [CRITICAL] fecund (L4)
@@ -7959,6 +7947,10 @@
 - **Definition:** "a conductor through which electric current enters or leaves a device"
 - **超纲词 (3):** electric, enters, leaves
 
+### 🟡 [MAJOR] eloquent (L4)
+- **Definition:** "able to express thoughts clearly and persuasively"
+- **超纲词 (3):** able, thoughts, persuasively
+
 ### 🟡 [MAJOR] envision (L4)
 - **Definition:** "to imagine or picture something in your mind, especially the future"
 - **超纲词 (3):** picture, mind, future
@@ -7968,8 +7960,8 @@
 - **超纲词 (3):** practice, spying, information
 
 ### 🟡 [MAJOR] ethnic (L4)
-- **Definition:** "about a group who share culture, food, and traditions"
-- **超纲词 (3):** group, food, traditions
+- **Definition:** "about a group who share culture, language, and traditions"
+- **超纲词 (3):** group, language, traditions
 
 ### 🟡 [MAJOR] evacuate (L4)
 - **Definition:** "to leave a dangerous place quickly for safety"
@@ -8132,8 +8124,8 @@
 - **超纲词 (3):** noticing, job, watching
 
 ### 🟡 [MAJOR] patronage (L4)
-- **Definition:** "the support given by a patron customers of a business"
-- **超纲词 (3):** given, customers, business
+- **Definition:** "the support given by patrons or customers of a business"
+- **超纲词 (4):** given, patrons, customers, business
 
 ### 🟡 [MAJOR] penal (L4)
 - **Definition:** "about punishing people who break the law"
@@ -8179,10 +8171,6 @@
 - **Definition:** "an introduction written at the start of a book by the author"
 - **超纲词 (3):** written, start, book
 
-### 🟡 [MAJOR] procurement (L4)
-- **Definition:** "the process of obtaining supplies or gear"
-- **超纲词 (3):** obtaining, supplies, gear
-
 ### 🟡 [MAJOR] prodigy (L4)
 - **Definition:** "a young person with amazing talent or skill"
 - **超纲词 (4):** young, person, amazing, skill
@@ -8195,9 +8183,17 @@
 - **Definition:** "to increase rapidly in number or spread widely"
 - **超纲词 (3):** rapidly, number, widely
 
+### 🟡 [MAJOR] propaganda (L4)
+- **Definition:** "information spread to influence people's opinions, often in a misleading way"
+- **超纲词 (4):** information, people's, opinions, misleading
+
 ### 🟡 [MAJOR] prosecute (L4)
 - **Definition:** "to officially charge someone with a crime in court"
 - **超纲词 (4):** officially, charge, crime, court
+
+### 🟡 [MAJOR] prospectus (L4)
+- **Definition:** "a document giving facts about a school, company, or investment"
+- **超纲词 (4):** giving, facts, school, company
 
 ### 🟡 [MAJOR] province (L4)
 - **Definition:** "a large section of a country with its own local government"
@@ -8228,15 +8224,15 @@
 - **超纲词 (4):** hold, back, feelings, actions
 
 ### 🟡 [MAJOR] reproach (L4)
-- **Definition:** "to express letdown in someone for doing something wrong"
-- **超纲词 (3):** letdown, doing, wrong
+- **Definition:** "to express disappointment in someone for doing something wrong"
+- **超纲词 (3):** disappointment, doing, wrong
 
 ### 🟡 [MAJOR] residual (L4)
 - **Definition:** "remaining after the main part has been removed or used"
 - **超纲词 (4):** remaining, main, part, removed
 
 ### 🟡 [MAJOR] resilient (L4)
-- **Definition:** "able to heal quickly from problems; tough and flexible"
+- **Definition:** "able to recover quickly from problems; tough and flexible"
 - **超纲词 (3):** able, problems, tough
 
 ### 🟡 [MAJOR] retract (L4)

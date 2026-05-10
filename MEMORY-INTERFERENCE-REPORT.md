@@ -3,8 +3,8 @@
 ## Summary
 - HIGH risk (3+ factors): 189
 - MEDIUM risk (2 factors): 1235
-- LOW risk (1 factor): 53979
-- Total interference pairs: 55403
+- LOW risk (1 factor): 53980
+- Total interference pairs: 55404
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -37248,6 +37248,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L4: **archive** ↔ **arrogate** — phonetic (onset="a")
 - **[risk=1]** L4: **archive** ↔ **atavism** — phonetic (onset="a")
 - **[risk=1]** L4: **articulate** ↔ **assembly** — phonetic (onset="a")
+- **[risk=1]** L4: **articulate** ↔ **eloquent** — definition (Jaccard=57%)
 - **[risk=1]** L4: **articulate** ↔ **accretion** — phonetic (onset="a")
 - **[risk=1]** L4: **articulate** ↔ **adjudicate** — phonetic (onset="a")
 - **[risk=1]** L4: **articulate** ↔ **adulterate** — phonetic (onset="a")
