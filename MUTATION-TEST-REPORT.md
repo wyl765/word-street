@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 28 |
-| Undetected | 2 |
-| **Detection rate** | **93.3%** |
+| Detected | 29 |
+| Undetected | 1 |
+| **Detection rate** | **96.7%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -15,56 +15,55 @@
 
 | Mutation Type | Injected | Detected | Rate |
 |------|------|------|------|
-| factual_error | 5 | 5 | 100% |
+| factual_error | 5 | 4 | 80% |
 | banned_word | 5 | 5 | 100% |
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 3 | 60% |
+| grammar_error | 5 | 5 | 100% |
 
 ## Injected Mutations Detail
 
-- ✅ **misnomer** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **sagacious** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **penal** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **justice** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **execute** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **quintessential** (banned_word): injected "torture" into example
-- ✅ **calculate** (banned_word): injected "pornography" into example
-- ✅ **civilization** (banned_word): injected "massacre" into example
-- ✅ **microscopic** (banned_word): injected "genocide" into example
-- ✅ **doughnut** (banned_word): injected "genocide" into example
-- ✅ **address** (collocation_error): bad collocation: "open the light"
-- ✅ **pigment** (collocation_error): bad collocation: "drink soup"
-- ✅ **debacle** (collocation_error): bad collocation: "drink soup"
-- ✅ **enable** (collocation_error): bad collocation: "eat medicine"
-- ✅ **reluctance** (collocation_error): bad collocation: "drink soup"
-- ✅ **weaken** (empty_field): emptied definition
-- ✅ **military** (empty_field): emptied example
-- ✅ **visible** (empty_field): emptied definition
-- ✅ **significant** (empty_field): emptied example
-- ✅ **autobiography** (empty_field): emptied example
-- ✅ **mulberry** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **purchase** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **turtle** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **forensic** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **imminent** (replace_accident): example: "She typed the importantword into the computer...."
-- ❌ **remonstrate** (grammar_error): example: "The parents remonstrated against the choice to cancel the sc..."
-- ✅ **prior** (grammar_error): example: "The childrens played with the prior...."
-- ✅ **overlook** (grammar_error): example: "The childrens played with the overlook...."
-- ✅ **many** (grammar_error): example: "There were many stars in the sky that night...."
-- ❌ **hand in** (grammar_error): example: "Please hand in your homework before class starts...."
+- ✅ **astronomy** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **expropriation** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **methodical** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **pace** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ❌ **petulance** (factual_error): def changed to: "being grumpy and rude like a type of mineral called child..."
+- ✅ **conundrum** (banned_word): injected "genocide" into example
+- ✅ **nemesis** (banned_word): injected "massacre" into example
+- ✅ **irrigation** (banned_word): injected "genocide" into example
+- ✅ **less** (banned_word): injected "pornography" into example
+- ✅ **vitriolic** (banned_word): injected "genocide" into example
+- ✅ **stratum** (collocation_error): bad collocation: "drink soup"
+- ✅ **treat** (collocation_error): bad collocation: "eat medicine"
+- ✅ **frugal** (collocation_error): bad collocation: "open the light"
+- ✅ **back down** (collocation_error): bad collocation: "drink soup"
+- ✅ **excoriate** (collocation_error): bad collocation: "big rain"
+- ✅ **juxtaposition** (empty_field): emptied definition
+- ✅ **nautical** (empty_field): emptied example
+- ✅ **detail** (empty_field): emptied example
+- ✅ **opportune** (empty_field): emptied definition
+- ✅ **cinch** (empty_field): emptied definition
+- ✅ **granted** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **quotient** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **generate** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **obscure** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **crowded** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **turn on** (grammar_error): example: "She don't like the turn on...."
+- ✅ **affinity** (grammar_error): example: "The childrens played with the affinity...."
+- ✅ **siege** (grammar_error): example: "The childrens played with the siege...."
+- ✅ **metropolitan** (grammar_error): example: "She don't like the metropolitan...."
+- ✅ **vacant** (grammar_error): example: "She don't like the vacant...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **remonstrate** (grammar_error): example: "The parents remonstrated against the choice to cancel the sc..."
-- **hand in** (grammar_error): example: "Please hand in your homework before class starts...."
+- **petulance** (factual_error): def changed to: "being grumpy and rude like a type of mineral called child..."
 
 ### Recommended Improvements
 
-- **Grammar errors**: Expand SVA and grammar checks
+- **Factual errors**: Add fact-check rules or AI-based semantic verification
 
 ---
 *Generated by mutation-test.mjs*
