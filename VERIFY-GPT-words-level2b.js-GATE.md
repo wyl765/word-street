@@ -1,386 +1,390 @@
-# GPT Gate Verify — words-level2b.js
+# VERIFY-GPT — words-level2b.js
 
-Format: one line per word.
+One line per word (no skipping).
+L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+L6: Reverse test — blank example + 4 options.
+L7: Cultural sensitivity.
+L8: Learning path / level fit.
 
-- moral | L5(Mark): 勉强('moral of the story'搭配陌生) | L6(例句反测): 勉强(可能误选theme/lesson/message) | 选项: [algae / alloy / amass / moral] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适(建议在fable/theme之后)
-- fable | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / fable] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- folktale | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / folktale] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- myth | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / myth] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- rhyme | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / rhyme] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- stanza | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / stanza] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- verse | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / verse] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- syllable | L5(Mark): 勉强(需要会拆音节与读音) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / syllable] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- vowel | L5(Mark): 能(定义直白) | L6(例句反测): 能(定义型例句，提示强) | 选项: [algae / alloy / amass / vowel] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- consonant | L5(Mark): 能(定义直白) | L6(例句反测): 能(定义型例句，提示强) | 选项: [accessory / alternate / ambitious / consonant] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- prefix | L5(Mark): 能(定义直白) | L6(例句反测): 能(例句直接给出结构变化) | 选项: [anthem / artery / assent / prefix] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- suffix | L5(Mark): 能(定义直白) | L6(例句反测): 能(例句直接给出结构变化) | 选项: [anthem / artery / assent / suffix] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- synonym | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / synonym] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- antonym | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / boycott] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- homophone | L5(Mark): 勉强(概念可学但拼写长，需大量例子) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / homophone] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- dialogue | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / dialogue] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- narrator | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / narrator] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- scene | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / scene] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- conflict | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / conflict] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- resolution | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [amendment / difference / resolution / revolution] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- end | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [bog / end / row / tax] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- retell | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / retell] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- infer | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / infer] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- conclude | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / conclude] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- theme | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / theme] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- genre | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(可能误选type/kind) | 选项: [algae / alloy / amass / genre] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- biography | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / biography] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- autobiography | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [autobiography / compassionate / enthusiastic / gravitational] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- caption | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [addition / caption / equality / equation] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- glossary | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / glossary] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- amphibian | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [acoustics / amphibian] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- carbon | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / carbon] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- dinosaur | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / dinosaur] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- skeleton | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / skeleton] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- brain | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / brain] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- lung | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / lung] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- heart | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / heart] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- stomach | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / stomach] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- diet | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / diet] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- nutrition | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [addition / amendment / invention / nutrition] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- vitamin | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / vitamin] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- protein | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / protein] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- fiber | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / fiber] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- hygiene | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / hygiene] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- germ | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(同领域词易互换，需更区分的线索) | 选项: [amid / balk / bask / germ] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- bacteria | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(同领域词易互换，需更区分的线索) | 选项: [allergic / aperture / bacteria / brackish] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- virus | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(同领域词易互换，需更区分的线索) | 选项: [algae / alloy / amass / virus] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- vaccine | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(同领域词易互换，需更区分的线索) | 选项: [antonym / aquatic / bedrock / vaccine] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- disease | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / disease] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- symptom | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / symptom] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- medicine | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / medicine] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- organ | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / organ] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- tissue | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / tissue] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- bone | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / bone] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- joint | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / joint] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- nerve | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / nerve] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- blood | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / blood] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- artery | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / attest] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- vein | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / vein] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- pulse | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / pulse] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- breath | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / breath] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- digest | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / digest] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- trait | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / trait] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- congress | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / congress] | L7(文化): 注意(美国政治/历史指向强，家长可能质疑必要性；建议改为中性表述(例如“a country’s leaders/laws”)) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- rights | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / rights] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- tax | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [bog / end / row / tax] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- budget | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / budget] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- economy | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / economy] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- import | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / import] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- export | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / export] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- invention | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [addition / amendment / invention / nutrition] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- explorer | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / explorer] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- settler | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / settler] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- colony | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / colony] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- revolution | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [amendment / difference / resolution / revolution] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- independence | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [difference / independence / resolution / revolution] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- amendment | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [addition / amendment / invention / nutrition] | L7(文化): 注意(美国政治/历史指向强，家长可能质疑必要性；建议改为中性表述(例如“a country’s leaders/laws”)) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- slavery | L5(Mark): 勉强(概念沉重但可用温和方式讲历史) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / slavery] | L7(文化): 注意(话题沉重；需避免细节与创伤化表述，强调“wrong/不公平”即可) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- equality | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [addition / equality / equation / fraction] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- protest | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / protest] | L7(文化): 注意(社会运动语境敏感；建议换成更生活化的“refuse to buy to show disagreement”且避免现实政治联想) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- boycott | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / boycott] | L7(文化): 注意(社会运动语境敏感；建议换成更生活化的“refuse to buy to show disagreement”且避免现实政治联想) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- civil | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / civil] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- democracy | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / democracy] | L7(文化): 注意(美国政治/历史指向强，家长可能质疑必要性；建议改为中性表述(例如“a country’s leaders/laws”)) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- republic | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / republic] | L7(文化): 注意(美国政治/历史指向强，家长可能质疑必要性；建议改为中性表述(例如“a country’s leaders/laws”)) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- nation | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [addition / caption / equality / nation] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(概念大且文化绑定；如保留需更中性例句并提供背景)
-- hemisphere | L5(Mark): 不能(地理抽象+词长) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / hemisphere] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- equator | L5(Mark): 能(定义直白) | L6(例句反测): 能(“middle of the Earth”提示强) | 选项: [antonym / aquatic / bedrock / equator] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- latitude | L5(Mark): 不能(地理抽象+词长) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / latitude] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- longitude | L5(Mark): 不能(地理抽象+词长) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / longitude] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- compass | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / compass] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- resource | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / resource] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- heritage | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / heritage] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- fraction | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [addition / equality / equation / fraction] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- decimal | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / decimal] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- percent | L5(Mark): 能(定义直白) | L6(例句反测): 能(“one hundred ___”几乎唯一) | 选项: [antonym / aquatic / bedrock / percent] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- estimate | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / estimate] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- equation | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [addition / equality / equation / fraction] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- addition | L5(Mark): 能(定义直白) | L6(例句反测): 能(数学语境较明确) | 选项: [addition / equality / equation / fraction] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- difference | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 能(数学语境较明确) | 选项: [amendment / difference / resolution / revolution] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- product | L5(Mark): 能(定义直白) | L6(例句反测): 能(数学语境较明确) | 选项: [antonym / aquatic / bedrock / product] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- quotient | L5(Mark): 能(定义直白) | L6(例句反测): 能(数学语境较明确) | 选项: [allergic / aperture / bacteria / quotient] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- remainder | L5(Mark): 能(定义直白) | L6(例句反测): 能(数学语境较明确) | 选项: [accessory / alternate / ambitious / remainder] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- digit | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / digit] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- place value | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / place value] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- regroup | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / regroup] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- carry | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / carry] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- column | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / column] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- row | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [bog / end / row / tax] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- table | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / table] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- tally | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [clearly / mainly / namely / tally] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- survey | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / survey] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- greatest | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / greatest] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- even | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / even] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- adventurous | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / considerate / cooperative] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- ambitious | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / biography] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- compassionate | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [autobiography / compassionate / enthusiastic / gravitational] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- confident | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / confident] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- considerate | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / considerate / cooperative] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- cooperative | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / considerate / cooperative] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- creative | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / creative] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- demanding | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / demanding] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- dependable | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / dependable] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- devoted | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / devoted] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- energetic | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / energetic] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- enthusiastic | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / enthusiastic / nevertheless] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- fearless | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / fearless] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- forgiving | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / forgiving] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- friendly | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [certainly / clearly / equally / friendly] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- guilty | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / guilty] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- impatient | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / impatient] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- independent | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / considerate / independent] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- joyful | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / joyful] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- mean | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / mean] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- mischievous | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / considerate / mischievous] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- modest | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / modest] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- optimistic | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / optimistic] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- pessimistic | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / considerate / pessimistic] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- respectful | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / respectful] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- responsible | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / considerate / responsible] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- bring up | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [at first / bail out / bang out / bring up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- catch up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / catch up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- check out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / check out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- come along | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / day by day] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- cut off | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / grow up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- drop off | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / drop off] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- end up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [act on / add up / due to / end up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- fall apart | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / fall apart] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- get along | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / get along] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- get over | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / get over] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- get rid of | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / get rid of] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- go ahead | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / go ahead] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- go through | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [because of / bit by bit / come along / go through] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- grow up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / grow up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- hand in | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / hand in] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- hang out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / hang out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- keep up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / keep up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- knock down | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / knock down] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- leave out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / leave out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- let down | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / let down] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- line up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / line up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- look after | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / look after] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- look into | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / look into] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- look up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / look up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- make sure | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / make sure] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- mix up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [act on / add up / due to / mix up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- move on | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / move on] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- pass out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / pass out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- pay attention | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [cell membrane / go along with / in conclusion / pay attention] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- pick out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / pick out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- pull over | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / pull over] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- put away | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / put away] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- put off | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / put off] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- put together | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / put together] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- run into | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [at first / bail out / bang out / run into] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- shut down | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / shut down] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- sign up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / sign up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- slow down | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / slow down] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- sort out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / sort out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- speak up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / speak up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- stand out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / stand out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- stay up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / stay up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- take apart | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [because of / bit by bit / come along / take apart] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- take away | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [after all / back down / bar graph / take away] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- take off | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / take off] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- take over | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [after all / back down / bar graph / take over] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- think over | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / think over] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- turn down | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / turn down] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- use up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [act on / add up / due to / use up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- watch out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / watch out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- wear out | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [at first / bail out / bang out / wear out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- work out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / work out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- wrap up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / wrap up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- back and forth | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [back and forth / cell membrane / go along with / in other words] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- bit by bit | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / day by day] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- day by day | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / day by day] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- from now on | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / from now on] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- in the meantime | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at the same time / in the meantime / on the contrary / out of the blue] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- once upon a time | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 能(童话开头特征明显) | 选项: [at the same time / figure of speech / greenhouse effect / once upon a time] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- moreover | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [allergic / aperture / bacteria / moreover] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- nevertheless | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [accommodate / adventurous / enthusiastic / nevertheless] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- nonetheless | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [accommodate / adventurous / considerate / nonetheless] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- accordingly | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [accordingly / additionally / consequently / especially] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- additionally | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [accordingly / additionally / consequently / specifically] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- after all | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / check out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- altogether | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / chromosome] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- as a matter of fact | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [as a matter of fact / at the same time / greenhouse effect / take into account] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- as a result | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / bring about] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- at first | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / blend in] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- at last | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / grow up] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- at the same time | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at the same time / figure of speech / greenhouse effect / once upon a time] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- because of | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / day by day] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- before long | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / bring about] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- by contrast | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / by contrast] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- certainly | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [certainly / especially / generally / similarly] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- clearly | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [clearly / equally / friendly / notably] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- compared to | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / compared to] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- consequently | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [accordingly / additionally / consequently / specifically] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- despite | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / despite] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- due to | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [act on / add up / due to / end up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- equally | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [clearly / equally / friendly / notably] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- especially | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [accordingly / certainly / especially / generally] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- even though | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / even though] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- except | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / except] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- for instance | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / for instance] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- generally | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [certainly / especially / generally / similarly] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- in addition | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / in addition] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- in conclusion | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [cell membrane / go along with / in conclusion / in particular] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- in contrast | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / in contrast] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- in fact | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / in fact] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- in general | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / in general] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- in other words | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [back and forth / cell membrane / go along with / in other words] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- in particular | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [cell membrane / go along with / in conclusion / in particular] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- in summary | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / in summary] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- in the end | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / in the end] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- mainly | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [clearly / equally / mainly / namely] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- namely | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [clearly / equally / mainly / namely] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- notably | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [clearly / equally / friendly / notably] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- on the contrary | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at the same time / in the meantime / on the contrary / out of the blue] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- on the whole | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / on the whole] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- overall | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [antonym / aquatic / bedrock / overall] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- rather | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [anthem / artery / assent / rather] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- regardless | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [adolescent / altogether / beforehand / regardless] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- similarly | L5(Mark): 能(定义直白) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [certainly / especially / generally / similarly] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- specifically | L5(Mark): 不能(逻辑连接词偏学术，低龄难用) | L6(例句反测): 不能(连接词/副词同义多，例句难唯一) | 选项: [accordingly / additionally / consequently / specifically] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(写作连接词应晚些引入；先掌握because/but/so/also)
-- such as | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / such as] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- accessory | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / biography] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- accommodate | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accommodate / adventurous / considerate / cooperative] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- adolescent | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / chromosome] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- alternate | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / biography] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- amid | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / bone] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- back up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / grow up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- bear in mind | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / come down to] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- blend in | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / blend in] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- bring about | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / bring about] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- build up | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [at first / bail out / bang out / build up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- call off | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / call off] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- cellulose | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / cellulose] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- chromosome | L5(Mark): 不能(超出二年级常见词汇/学科前置不足) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / chromosome] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- count on | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / count on] | L7(文化): 注意(“secret”可能引发家长担心；可改为“keep your promise/keep it private”) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- cross out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / cross out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- cut back | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / cut back] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- deal with | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / deal with] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- emit | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / emit] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- exterior | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / exterior] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- fauna | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / fauna] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- focal | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / focal] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- graphic | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / graphic] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- hand out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / hand out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- keep in mind | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / keep in mind] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- lay out | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [at last / back up / cut off / lay out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- line graph | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / line graph] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- make out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / make out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- migratory | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / migratory] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- on behalf of | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / on behalf of] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- parasite | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / parasite] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- phase | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / phase] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- pie chart | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / pie chart] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- put up with | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / put up with] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- rely on | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / rely on] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- show up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / show up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- take into account | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at the same time / figure of speech / greenhouse effect / take into account] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- account for | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / bring about] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- act on | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [act on / add up / due to / end up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- add up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [act on / add up / due to / end up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- algae | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / aroma] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- allergic | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / brackish] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- aquatic | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / boycott] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- bar graph | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / check out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- beforehand | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / chromosome] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- boil down to | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / come down to] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- by and large | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / come down to] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- canine | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / canine] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- catch on | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [at first / bail out / bang out / catch on] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- cell membrane | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [cell membrane / go along with / in conclusion / in particular] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- come down to | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [bear in mind / boil down to / by and large / come down to] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- commute | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / commute] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- crop | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / crop] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- descend | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / descend] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- endangered | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [adolescent / altogether / beforehand / endangered] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- evaporate | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / evaporate] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- extinct | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / extinct] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- fall behind | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / fall behind] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- figure of speech | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at the same time / figure of speech / greenhouse effect / once upon a time] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- food chain | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / food chain] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- food web | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / food web] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- freshen up | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / freshen up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- get by | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [act on / add up / due to / get by] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- go along with | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [cell membrane / go along with / in conclusion / in particular] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- gravitational | L5(Mark): 不能(超出二年级常见词汇/学科前置不足) | L6(例句反测): 不能(线索不够唯一) | 选项: [autobiography / compassionate / enthusiastic / gravitational] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- greenhouse effect | L5(Mark): 不能(超出二年级常见词汇/学科前置不足) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at the same time / figure of speech / greenhouse effect / take into account] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- hibernate | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / hibernate] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- insulate | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / insulate] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- keep track of | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [cell membrane / go along with / in conclusion / keep track of] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- landform | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / landform] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- leave behind | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / leave behind] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- life cycle | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / life cycle] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- live up to | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [because of / bit by bit / come along / live up to] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- look out for | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [bear in mind / boil down to / by and large / look out for] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- marine | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / marine] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- offspring | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / offspring] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- on account of | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [cell membrane / go along with / in conclusion / on account of] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- out of the blue | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at the same time / in the meantime / on the contrary / out of the blue] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- ozone | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / ozone] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- plankton | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / plankton] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- point of view | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [cell membrane / go along with / in conclusion / point of view] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- pollutant | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / pollutant] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- prolonged | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / prolonged] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- put forward | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / put forward] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- reproduce | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / reproduce] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- rule out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / rule out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- soluble | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / soluble] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- volcanic | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / volcanic] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- water cycle | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [account for / as a result / before long / water cycle] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- watershed | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / watershed] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- wind up | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at last / back up / cut off / wind up] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- acoustics | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [acoustics / amphibian] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- alloy | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / aroma] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- amass | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / aroma] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- anthem | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / attest] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- aperture | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / brackish] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- aroma | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / aroma] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- assent | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / attest] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- attest | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / attest] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- back down | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [after all / back down / bar graph / check out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- bail out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / blend in] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- balk | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / bone] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- bang out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / blend in] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- bask | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / bone] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- bedrock | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / boycott] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- bestow | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / bestow] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- blot out | L5(Mark): 能(定义直白) | L6(例句反测): 勉强(句型能提示为短语，但同类短语易混) | 选项: [at first / bail out / bang out / blot out] | L7(文化): OK(无明显文化冲突) | L8(路径): 勉强(短语量大，建议分批；确保先有动词基础)
-- bog | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [bog / end / row / tax] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- botany | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / botany] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- bout | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / bout] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- brackish | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / brackish] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- bristle | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / bristle] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- brunt | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / brunt] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- bumble | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / bumble] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- capillary | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / capillary] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- chasm | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / chasm] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- clump | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / clump] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- compost | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / compost] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- concave | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / concave] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- convex | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / convex] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- crevice | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / crevice] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- decoy | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / decoy] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- detour | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / detour] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- dilute | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / dilute] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- dwindle | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / dwindle] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- eddy | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / eddy] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- engulf | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [anthem / artery / assent / engulf] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- extricate | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [accessory / alternate / ambitious / extricate] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- gust | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / gust] | L7(文化): OK(无明显文化冲突) | L8(路径): 合适
-- morph | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / morph] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- scour | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / scour] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- silt | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [amid / balk / bask / silt] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- spore | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [algae / alloy / amass / spore] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- submerge | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [allergic / aperture / bacteria / submerge] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- unearth | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / unearth] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- verdant | L5(Mark): 勉强(词形/概念偏抽象，需老师解释+图) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / verdant] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- sapling | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / sapling] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
-- topsoil | L5(Mark): 能(定义直白) | L6(例句反测): 不能(线索不够唯一) | 选项: [antonym / aquatic / bedrock / topsoil] | L7(文化): OK(无明显文化冲突) | L8(路径): 不合适(偏学术/低频，建议升到更高level或拆成更基础词(rock/soil/wet/smell))
+- moral | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conflict / dependable / moral / retell] | L7:OK | L8:合适
+- fable | L5-Def:勉强(需要中文支架/图示；词缀偏学术、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[algae / bestow / fable / moral] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- folktale | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conclude / folktale / forgiving / joyful] | L7:OK | L8:合适
+- myth | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[evaporate / migratory / myth / row] | L7:OK | L8:合适
+- rhyme | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[equality / homophone / rhyme / synonym] | L7:OK | L8:合适
+- stanza | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[latitude / longitude / stanza / verse] | L7:OK | L8:合适
+- verse | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[anthem / friendly / scene / verse] | L7:OK | L8:合适
+- syllable | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[antonym / migratory / syllable / vowel] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- vowel | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / syllable / synonym / vowel] | L7:OK | L8:合适
+- consonant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[consonant / mean / syllable / vowel] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- prefix | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[clearly / impatient / prefix / suffix] | L7:OK | L8:合适
+- suffix | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / percent / prefix / suffix] | L7:OK | L8:合适
+- synonym | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amass / equality / homophone / synonym] | L7:OK | L8:合适
+- antonym | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / evaporate / insulate / nevertheless] | L7:OK | L8:合适
+- homophone | L5-Def:勉强(需要中文支架/图示；词偏长、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[homophone / marine / mean / rhyme] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dialogue | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[alternate / dialogue / difference / forgiving] | L7:OK | L8:合适
+- narrator | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[consequently / narrator / regardless / retell] | L7:OK | L8:合适
+- scene | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[creative / friendly / invention / scene] | L7:OK | L8:合适
+- conflict | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compassionate / conflict / explorer / resolution] | L7:OK | L8:合适
+- resolution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[compassionate / conflict / resolution / respectful] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- end | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[conflict / end / moral / stomach] | L7:OK | L8:合适
+- retell | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[biography / consequently / narrator / retell] | L7:OK | L8:合适
+- infer | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / caption / graphic / infer] | L7:OK | L8:合适
+- conclude | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[altogether / conclude / consequently / folktale] | L7:OK | L8:合适
+- theme | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[glossary / mainly / organ / theme] | L7:OK | L8:合适
+- genre | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[especially / genre / infer / survey] | L7:OK | L8:合适
+- biography | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[biography / budget / consequently / retell] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- autobiography | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[autobiography / compassionate / detour / equator] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- caption | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[caption / considerate / friendly / pessimistic] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- glossary | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[glossary / homophone / mainly / retell] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- amphibian | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[amphibian / brackish / pollutant / watershed] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- carbon | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[botany / carbon / fable / reproduce] | L7:OK | L8:合适
+- dinosaur | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dinosaur / joint / plankton / skeleton] | L7:OK | L8:合适
+- skeleton | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amid / anthem / dinosaur / skeleton] | L7:OK | L8:合适
+- brain | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[brain / digest / protein / tissue] | L7:OK | L8:合适
+- lung | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[blood / lung / pollutant / spore] | L7:OK | L8:合适
+- heart | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / certainly / heart / revolution] | L7:OK | L8:合适
+- stomach | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accessory / digest / phase / stomach] | L7:OK | L8:合适
+- diet | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[diet / especially / hygiene / nutrition] | L7:OK | L8:合适
+- nutrition | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[diet / hygiene / nutrition / vitamin] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- vitamin | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / trait / vaccine / vitamin] | L7:OK | L8:合适
+- protein | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / estimate / protein / tax] | L7:OK | L8:合适
+- fiber | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attest / bacteria / fiber / nutrition] | L7:OK | L8:合适
+- hygiene | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attest / germ / hygiene / nutrition] | L7:OK | L8:合适
+- germ | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[germ / hygiene / nutrition / vitamin] | L7:OK | L8:合适
+- bacteria | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attest / bacteria / digest / nutrition] | L7:OK | L8:合适
+- virus | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[altogether / antonym / insulate / virus] | L7:OK | L8:合适
+- vaccine | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[hibernate / trait / vaccine / vitamin] | L7:OK | L8:合适
+- disease | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attest / commute / disease / explorer] | L7:OK | L8:合适
+- symptom | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / insulate / rather / symptom] | L7:OK | L8:合适
+- medicine | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accommodate / amendment / medicine / nutrition] | L7:OK | L8:合适
+- organ | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:勉强(和近义/同类词差距小，可能二选一) | 选项:[artery / heart / organ / vein] | L7:注意(可能引发家长顾虑或需要解释：暴力/灾难(偏沉重)；建议例句更中性/更普适) | L8:合适
+- tissue | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / brain / protein / tissue] | L7:OK | L8:合适
+- bone | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / bone / joint / protein] | L7:OK | L8:合适
+- joint | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / alloy / bone / joint] | L7:OK | L8:合适
+- nerve | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / brain / narrator / nerve] | L7:OK | L8:合适
+- blood | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[artery / blood / chromosome / lung] | L7:注意(可能引发家长顾虑或需要解释：暴力/灾难(偏沉重)；建议例句更中性/更普适) | L8:合适
+- artery | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[artery / heart / organ / vein] | L7:注意(可能引发家长顾虑或需要解释：暴力/灾难(偏沉重)；建议例句更中性/更普适) | L8:合适
+- vein | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[clearly / pulse / skeleton / vein] | L7:OK | L8:合适
+- pulse | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[breath / considerate / pulse / vein] | L7:OK | L8:合适
+- breath | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[breath / chasm / considerate / pulse] | L7:OK | L8:合适
+- digest | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[digest / fiber / protein / stomach] | L7:OK | L8:合适
+- trait | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / bristle / heritage / trait] | L7:OK | L8:合适
+- congress | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[brackish / congress / dilute / settler] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:合适
+- rights | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[botany / except / rights / table] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- tax | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[budget / economy / protein / tax] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:合适
+- budget | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accordingly / anthem / budget / consequently] | L7:OK | L8:合适
+- economy | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[economy / folktale / nation / nutrition] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- import | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[equator / export / import / topsoil] | L7:OK | L8:合适
+- export | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[crop / equator / export / import] | L7:OK | L8:合适
+- invention | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bask / creative / emit / invention] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- explorer | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amphibian / colony / explorer / settler] | L7:OK | L8:合适
+- settler | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amphibian / creative / explorer / settler] | L7:OK | L8:合适
+- colony | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[colony / explorer / revolution / row] | L7:OK | L8:合适
+- revolution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[adolescent / colony / revolution / slavery] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- independence | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[compassionate / independence / nation / resolution] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- amendment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[amendment / democracy / medicine / moral] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- slavery | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[civil / independence / nation / slavery] | L7:注意(可能引发家长顾虑或需要解释：暴力/灾难(偏沉重)；建议例句更中性/更普适) | L8:合适
+- equality | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[decimal / equality / nation / synonym] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- protest | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[civil / nation / protest / slavery] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:合适
+- boycott | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[boycott / civil / equality / nation] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:合适
+- civil | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[boycott / civil / equality / rights] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:合适
+- democracy | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[amendment / biography / democracy / independent] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- republic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / allergic / aperture / republic] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:合适
+- nation | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[civil / democracy / nation / slavery] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- hemisphere | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[equator / hemisphere / marine / notably] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- equator | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / equator / import / nevertheless] | L7:OK | L8:合适
+- latitude | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[compass / latitude / longitude / stanza] | L7:OK | L8:合适
+- longitude | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[addition / latitude / longitude / stanza] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- compass | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bumble / compass / explorer / resolution] | L7:OK | L8:合适
+- resource | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[additionally / aquatic / brackish / resource] | L7:OK | L8:合适
+- heritage | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[fraction / heritage / mainly / organ] | L7:OK | L8:合适
+- fraction | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[decimal / even / fraction / hemisphere] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- decimal | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:能 | 选项:[decimal / equality / fraction / synonym] | L7:OK | L8:合适
+- percent | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[confident / equally / percent / rights] | L7:OK | L8:合适
+- estimate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[altogether / estimate / protein / row] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- equation | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[addition / carry / decimal / equation] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- addition | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[addition / economy / explorer / protein] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- difference | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(例句线索有，但容易被同类词替换) | L6:勉强(和近义/同类词差距小，可能二选一) | 选项:[alternate / commute / dialogue / difference] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- product | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[carry / product / quotient / table] | L7:OK | L8:合适
+- quotient | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / carry / product / quotient] | L7:OK | L8:合适
+- remainder | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[addition / quotient / remainder / trait] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- digit | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accommodate / difference / digit / greatest] | L7:OK | L8:合适
+- place value | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[account for / as a result / before long / place value] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- regroup | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[column / congress / moreover / regroup] | L7:OK | L8:合适
+- carry | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[carry / equation / product / quotient] | L7:OK | L8:合适
+- column | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / column / digit / product] | L7:OK | L8:合适
+- row | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[altogether / estimate / impatient / row] | L7:OK | L8:合适
+- table | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[botany / product / protein / table] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- tally | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[convex / exterior / joyful / tally] | L7:OK | L8:合适
+- survey | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[explorer / genre / specifically / survey] | L7:OK | L8:合适
+- greatest | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[difference / digit / fraction / greatest] | L7:OK | L8:合适
+- even | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accommodate / congress / even / reproduce] | L7:OK | L8:合适
+- adventurous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[adventurous / creative / except / mainly] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ambitious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accessory / acoustics / ambitious / guilty] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- compassionate | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[compassionate / conflict / explorer / resolution] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- confident | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[botany / confident / guilty / percent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- considerate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bog / bristle / considerate / similarly] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- cooperative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[cooperative / nevertheless / overall / tissue] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- creative | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[creative / invention / scene / settler] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- demanding | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[demanding / impatient / nonetheless / survey] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dependable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[demanding / dependable / moral / responsible] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- devoted | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[commute / devoted / digit / plankton] | L7:注意(可能引发家长顾虑或需要解释：政治/公民；建议例句更中性/更普适) | L8:合适
+- energetic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[compassionate / energetic / mischievous / prolonged] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- enthusiastic | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[balk / clearly / consonant / enthusiastic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- fearless | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[fearless / mainly / sapling / skeleton] | L7:OK | L8:合适
+- forgiving | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[end / folktale / forgiving / stomach] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- friendly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assent / friendly / invention / settler] | L7:OK | L8:合适
+- guilty | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[ambitious / confident / guilty / stomach] | L7:OK | L8:合适
+- impatient | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[altogether / demanding / impatient / row] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- independent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[autobiography / commute / independent / retell] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- joyful | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[anthem / folktale / joyful / tally] | L7:OK | L8:合适
+- mean | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assent / dialogue / glossary / mean] | L7:OK | L8:合适
+- mischievous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[energetic / gust / mischievous / rhyme] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- modest | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[modest / namely / nonetheless / scene] | L7:OK | L8:合适
+- optimistic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accessory / narrator / optimistic / sapling] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- pessimistic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[anthem / caption / friendly / pessimistic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- respectful | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[cooperative / independence / mean / respectful] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- responsible | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[dependable / friendly / responsible / rights] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- bring up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bring up / go along with / on behalf of / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- catch up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[catch up / hang out / in the end / slow down] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- check out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / at first / back down / check out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- come along | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[come along / come down to / hang out / in particular] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- cut off | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / back up / by contrast / cut off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- drop off | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[drop off / get by / in addition / line up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- end up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[back down / end up / hang out / wind up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- fall apart | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[compared to / fall apart / make sure / wear out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- get along | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[for instance / get along / in general / move on] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- get over | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bail out / get over / line graph] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- get rid of | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[get rid of / keep in mind / rely on / think over] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- go ahead | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bail out / bang out / go ahead] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- go through | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[back and forth / bring about / go through / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- grow up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[grow up / hand in / look into / pay attention] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- hand in | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[fall behind / hand in / put off / show up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- hang out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[catch up / end up / hang out / sign up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- keep up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / back up / cut off / keep up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- knock down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[back and forth / get by / knock down / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- leave out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[account for / leave out / put off / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- let down | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[in contrast / let down / on behalf of / pie chart] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- line up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[drop off / get by / leave behind / line up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- look after | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[drop off / freshen up / look after / put away] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- look into | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[grow up / look into / run into / shut down] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- look up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / back up / figure of speech / look up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- make sure | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[drop off / fall apart / keep in mind / make sure] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- mix up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[look into / look out for / mix up / show up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- move on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[from now on / move on / sort out / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- pass out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[grow up / hand in / look into / pass out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- pay attention | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[grow up / hand in / look into / pay attention] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- pick out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bail out / pick out / stand out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- pull over | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[look into / mix up / pull over / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- put away | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[freshen up / in the meantime / look after / put away] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- put off | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[fall behind / hand in / in the end / put off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- put together | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bear in mind / boil down to / put together] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- run into | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bear in mind / grow up / look into / run into] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- shut down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(多个选项都说得通，不能唯一确定) | 选项:[after all / back down / look into / shut down] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- sign up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[hand in / hang out / show up / sign up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- slow down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / in contrast / slow down / speak up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- sort out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[in the meantime / move on / sort out / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- speak up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[back up / cut back / put away / speak up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- stand out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / in the end / pick out / stand out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- stay up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[stay up / take over / think over / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- take apart | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[deal with / for instance / make out / take apart] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- take away | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / back down / lay out / take away] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- take off | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / hand in / make sure / take off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- take over | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[grow up / look into / stay up / take over] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- think over | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bang out / keep in mind / pick out / think over] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- turn down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / back down / bar graph / turn down] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- use up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[get by / look out for / take into account / use up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- watch out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[by contrast / on the whole / watch out / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- wear out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[day by day / on the contrary / slow down / wear out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- work out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / at last / in the end / work out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- wrap up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bring up / move on / on behalf of / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- back and forth | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[back and forth / in other words / knock down / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- bit by bit | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bar graph / because of / before long / bit by bit] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- day by day | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[build up / day by day / grow up / look after] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- from now on | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[from now on / mix up / on account of / show up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- in the meantime | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bang out / because of / in the meantime / wrap up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- once upon a time | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at the same time / in fact / live up to / once upon a time] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- moreover | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[extricate / independence / moreover / slavery] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- nevertheless | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[antonym / cooperative / except / nevertheless] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- nonetheless | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[demanding / impatient / nonetheless / rhyme] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- accordingly | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accordingly / antonym / insulate / regardless] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- additionally | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[additionally / consequently / enthusiastic / resource] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- after all | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / come down to / go along with / in the end] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- altogether | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[altogether / estimate / namely / row] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- as a matter of fact | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[as a matter of fact / at the same time / greenhouse effect / take into account] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- as a result | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[as a result / because of / call off / end up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- at first | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / lay out / put together / take apart] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- at last | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / keep up / leave behind / work out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- at the same time | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at the same time / figure of speech / greenhouse effect / once upon a time] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- because of | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[because of / call off / figure of speech / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- before long | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bar graph / before long / bit by bit / build up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- by contrast | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[by contrast / cut off / on the whole / watch out] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- certainly | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[altogether / certainly / heart / revolution] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- clearly | L5-Def:能 | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(多个选项都说得通，不能唯一确定) | 选项:[balk / clearly / enthusiastic / joyful] | L7:OK | L8:合适
+- compared to | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / compared to / in the end / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- consequently | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bacteria / conclude / consequently / except] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- despite | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / aquatic / despite / overall] | L7:OK | L8:合适
+- due to | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(例句线索有，但容易被同类词替换) | L6:能 | 选项:[because of / due to / figure of speech / on account of] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- equally | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[cooperative / end / equally / percent] | L7:OK | L8:合适
+- especially | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[adolescent / diet / especially / genre] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- even though | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[account for / as a result / before long / even though] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- except | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[consequently / cooperative / except / nevertheless] | L7:OK | L8:合适
+- for instance | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[food web / for instance / get along / take apart] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- generally | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[accordingly / bask / generally / hibernate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- in addition | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[account for / as a result / drop off / in addition] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- in conclusion | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[add up / in conclusion / in general / think over] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in contrast | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bring about / go through / in contrast / speak up] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in fact | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[drop off / in fact / on account of / once upon a time] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in general | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[figure of speech / get along / in general / stay up] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in other words | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[back and forth / cell membrane / go along with / in other words] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- in particular | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[for instance / hang out / in particular / out of the blue] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in summary | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[because of / boil down to / in summary / sort out] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in the end | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[back and forth / get over / hang out / in the end] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- mainly | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[glossary / mainly / retell / theme] | L7:OK | L8:合适
+- namely | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:能 | L6:能 | 选项:[altogether / anthem / modest / namely] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- notably | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:能 | L6:能 | 选项:[aquatic / marine / notably / plankton] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- on the contrary | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[day by day / go through / on the contrary / wear out] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- on the whole | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[day by day / even though / look out for / on the whole] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- overall | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[cooperative / despite / organ / overall] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- rather | L5-Def:能 | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[antonym / import / insulate / rather] | L7:OK | L8:合适
+- regardless | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accordingly / antonym / insulate / regardless] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- similarly | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[bog / bristle / considerate / similarly] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- specifically | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(连接词/副词语义细，例句需更明确的对比/因果结构) | 选项:[consonant / medicine / specifically / survey] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- such as | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / back up / cut off / such as] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- accessory | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accessory / friendly / insulate / mean] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- accommodate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accommodate / chromosome / commute / digit] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- adolescent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[adolescent / aquatic / cooperative / rights] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- alternate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[alternate / commute / difference / exterior] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- amid | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amid / anthem / insulate / skeleton] | L7:OK | L8:合适
+- back up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / back up / cut off / grow up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- bear in mind | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bear in mind / boil down to / by and large / run into] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- blend in | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bail out / bang out / blend in] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- bring about | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bring about / bring up / go through / on the whole] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- build up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[before long / build up / figure of speech / in conclusion] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- call off | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[as a result / because of / call off / water cycle] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- cellulose | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bone / cellulose / clump / sapling] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- chromosome | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accommodate / chromosome / digit / graphic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- count on | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[count on / fall behind / keep in mind / keep up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- cross out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / back down / cross out / look up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- cut back | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bail out / cut back / get over] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- deal with | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / deal with / take apart / wear out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- emit | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amid / balk / bask / emit] | L7:OK | L8:合适
+- exterior | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / alternate / blood / exterior] | L7:OK | L8:合适
+- fauna | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / carbon / fauna / marine] | L7:OK | L8:合适
+- focal | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[additionally / focal / moreover / watershed] | L7:OK | L8:合适
+- graphic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[chromosome / decimal / fraction / graphic] | L7:OK | L8:合适
+- hand out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / hand out / on the contrary / wear out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- keep in mind | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[drop off / keep in mind / leave out / make sure] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- lay out | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / lay out / take apart / take away] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- line graph | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[day by day / get over / keep track of / line graph] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- make out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[fall apart / get rid of / in conclusion / make out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- migratory | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bone / migratory / myth / syllable] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- on behalf of | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bring up / let down / on behalf of / wrap up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- parasite | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / amphibian / canine / parasite] | L7:OK | L8:合适
+- phase | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[adventurous / explorer / phase / settler] | L7:OK | L8:合适
+- pie chart | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[come down to / in conclusion / pie chart / show up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- put up with | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[account for / as a result / before long / put up with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- rely on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / back up / food web / rely on] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- show up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[fall behind / hand in / mix up / show up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- take into account | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[hand in / line up / make sure / take into account] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- account for | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[account for / as a result / before long / bring about] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- act on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[act on / add up / due to / end up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- add up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[act on / add up / due to / point of view] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- algae | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / alloy / amass / verdant] | L7:OK | L8:合适
+- allergic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[allergic / capillary / digest / enthusiastic] | L7:OK | L8:合适
+- aquatic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[aquatic / carbon / marine / notably] | L7:OK | L8:合适
+- bar graph | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bar graph / before long / bit by bit / food web] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- beforehand | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[adolescent / altogether / beforehand / chromosome] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- boil down to | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / boil down to / in the end / wear out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- by and large | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[bear in mind / boil down to / by and large / come down to] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- canine | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[boycott / canine / narrator / parasite] | L7:OK | L8:合适
+- catch on | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at last / because of / catch on / in the meantime] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- cell membrane | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[as a result / cell membrane / life cycle / pay attention] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- come down to | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[come down to / in conclusion / in the end / take into account] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- commute | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accommodate / commute / devoted / independent] | L7:OK | L8:合适
+- crop | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[crop / export / organ / theme] | L7:OK | L8:合适
+- descend | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[anthem / beforehand / descend / volcanic] | L7:OK | L8:合适
+- endangered | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[adolescent / altogether / endangered / vowel] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- evaporate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[antonym / equator / evaporate / nevertheless] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- extinct | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dinosaur / extinct / folktale / volcanic] | L7:OK | L8:合适
+- fall behind | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[fall behind / hand in / put off / show up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- figure of speech | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[because of / figure of speech / in general / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- food chain | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[because of / bit by bit / come along / food chain] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- food web | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[count on / food web / get along / show up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- freshen up | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[freshen up / in the meantime / look after / put away] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- get by | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[before long / drop off / get by / line up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- go along with | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / bring up / come down to / go along with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- gravitational | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[autobiography / gravitational / nutrition / vitamin] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- greenhouse effect | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[get by / greenhouse effect / knock down / life cycle] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- hibernate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[antonym / generally / hibernate / insulate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- insulate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[antonym / cellulose / hibernate / insulate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- keep track of | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[day by day / keep track of / water cycle / wear out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- landform | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / allergic / aperture / landform] | L7:OK | L8:合适
+- leave behind | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[leave behind / leave out / put off / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- life cycle | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[because of / bit by bit / hand in / life cycle] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- live up to | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[because of / bit by bit / live up to / once upon a time] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- look out for | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[day by day / get by / look out for / on the whole] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- marine | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[aquatic / carbon / marine / notably] | L7:OK | L8:合适
+- offspring | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accessory / acoustics / decoy / offspring] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- on account of | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[because of / compared to / due to / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- out of the blue | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[in the meantime / on the contrary / out of the blue / water cycle] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- ozone | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dilute / nutrition / ozone / topsoil] | L7:OK | L8:合适
+- plankton | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[commute / devoted / dinosaur / plankton] | L7:OK | L8:合适
+- point of view | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[add up / cell membrane / go along with / point of view] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- pollutant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[breath / eddy / pollutant / spore] | L7:注意(可能引发家长顾虑或需要解释：烟酒毒；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- prolonged | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accessory / brackish / prolonged / watershed] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- put forward | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[end up / freshen up / hang out / put forward] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- reproduce | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[botany / carbon / creative / reproduce] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- rule out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bail out / bang out / rule out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- soluble | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[brackish / dilute / resource / soluble] | L7:OK | L8:合适
+- volcanic | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[dinosaur / extinct / prolonged / volcanic] | L7:OK | L8:合适
+- water cycle | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[because of / blot out / call off / water cycle] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- watershed | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[focal / fraction / organ / watershed] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- wind up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[end up / leave out / pull over / wind up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- acoustics | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[accessory / acoustics / alternate / ambitious] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- alloy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / alloy / amass / aroma] | L7:OK | L8:合适
+- amass | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amass / revolution / synonym / theme] | L7:OK | L8:合适
+- anthem | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amid / anthem / pessimistic / skeleton] | L7:OK | L8:合适
+- aperture | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[aperture / bask / breath / emit] | L7:OK | L8:合适
+- aroma | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / aroma / artery / brackish] | L7:OK | L8:合适
+- assent | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[assent / explorer / friendly / settler] | L7:OK | L8:合适
+- attest | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[attest / disease / economy / nutrition] | L7:OK | L8:合适
+- back down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[after all / back down / bar graph / end up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- bail out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bail out / bang out / blend in] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- balk | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[balk / clearly / consonant / mean] | L7:OK | L8:合适
+- bang out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bang out / in the meantime / think over] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- bask | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accordingly / bask / crevice / generally] | L7:OK | L8:合适
+- bedrock | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bedrock / beforehand / descend / unearth] | L7:OK | L8:合适
+- bestow | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[anthem / artery / bestow / fearless] | L7:OK | L8:合适
+- blot out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[at first / bail out / blot out / water cycle] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- bog | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bog / end / row / tax] | L7:OK | L8:合适
+- botany | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[botany / confident / rights / table] | L7:OK | L8:合适
+- bout | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[accommodate / acoustics / amid / bout] | L7:OK | L8:合适
+- brackish | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[brackish / dilute / prolonged / watershed] | L7:OK | L8:合适
+- bristle | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bog / bristle / considerate / similarly] | L7:OK | L8:合适
+- brunt | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / alloy / amass / brunt] | L7:OK | L8:合适
+- bumble | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bumble / end / nevertheless / nonetheless] | L7:OK | L8:合适
+- capillary | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[allergic / capillary / certainly / clearly] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- chasm | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / breath / chasm / eddy] | L7:OK | L8:合适
+- clump | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[clump / crevice / sapling / spore] | L7:OK | L8:合适
+- compost | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / compost / prefix / pulse] | L7:OK | L8:合适
+- concave | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bacteria / capillary / concave / convex] | L7:OK | L8:合适
+- convex | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[concave / convex / digit / vowel] | L7:OK | L8:合适
+- crevice | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[capillary / clump / crevice / spore] | L7:OK | L8:合适
+- decoy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / alloy / decoy / offspring] | L7:OK | L8:合适
+- detour | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[anthem / autobiography / detour / equator] | L7:OK | L8:合适
+- dilute | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amphibian / brackish / dilute / resource] | L7:OK | L8:合适
+- dwindle | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / boycott / dwindle / nonetheless] | L7:OK | L8:合适
+- eddy | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[amid / balk / chasm / eddy] | L7:OK | L8:合适
+- engulf | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[anthem / artery / assent / engulf] | L7:OK | L8:合适
+- extricate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能 | 选项:[cellulose / clump / extricate / sapling] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- gust | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[brain / gust / mischievous / rhyme] | L7:OK | L8:合适
+- morph | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / alloy / morph / silt] | L7:OK | L8:合适
+- scour | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / homophone / marine / scour] | L7:OK | L8:合适
+- silt | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bedrock / compost / silt / topsoil] | L7:OK | L8:合适
+- spore | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[breath / clump / pollutant / spore] | L7:OK | L8:合适
+- submerge | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[addition / allergic / aperture / submerge] | L7:OK | L8:合适
+- unearth | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[bedrock / boycott / clump / unearth] | L7:OK | L8:合适
+- verdant | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[algae / antonym / aquatic / verdant] | L7:OK | L8:合适
+- sapling | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[chasm / equator / hemisphere / sapling] | L7:OK | L8:合适
+- topsoil | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[antonym / silt / suffix / topsoil] | L7:OK | L8:合适
