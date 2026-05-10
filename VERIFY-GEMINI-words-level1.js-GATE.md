@@ -1,604 +1,604 @@
-# Gemini Verification Report for words-level1.js
+# VERIFY-GEMINI-words-level1.js-GATE
 
-| Word | L9: Image Keyword | L10: Fact Check | L11: Meaning | L12: Game Play |
-|---|---|---|---|---|
-| puppy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| kitten | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bunny | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| duckling | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| chick | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lamb | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cub | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fawn | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| foal | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pony | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| rooster | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hen | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| goose | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| swan | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| owl | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| robin | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sparrow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| eagle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| whale | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dolphin | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shark | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| turtle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lizard | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| frog | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| toad | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| snail | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| worm | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| spider | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| beetle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ladybug | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| butterfly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| caterpillar | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ant | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bee | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| squirrel | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| raccoon | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| skunk | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| beaver | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| moose | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| toast | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cereal | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pancake | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| waffle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| oatmeal | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sandwich | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pretzel | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cracker | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| noodle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| muffin | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cupcake | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cookie | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| doughnut | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pudding | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| jelly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| syrup | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| honey | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| popcorn | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| yogurt | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| grape | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cherry | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| peach | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| plum | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| melon | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| berry | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lemon | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| coconut | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| peanut | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| celery | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| broccoli | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lettuce | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pepper | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| onion | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| mushroom | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stew | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| gravy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| feast | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| snack | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| treat | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| slice | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| elbow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wrist | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ankle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| heel | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| thumb | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| palm | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fist | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| chin | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cheek | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| forehead | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| eyebrow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| eyelash | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tongue | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| throat | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shoulder | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hip | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| spine | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| rib | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| skull | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| muscle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| mitten | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| scarf | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hoodie | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| vest | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| apron | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sleeve | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pocket | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| zipper | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| button | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| buckle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lace | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| slipper | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sandal | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sneaker | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| boot | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| collar | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hem | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pajamas | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| costume | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| uniform | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| blanket | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pillow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| towel | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| soap | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sponge | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| broom | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bucket | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ladder | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| drawer | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shelf | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| closet | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| curtain | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| rug | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lamp | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| candle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| vase | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| frame | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| envelope | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stamp | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| package | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| scissors | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| glue | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tape | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crayon | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| chalk | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| eraser | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ruler | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| thermometer | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| battery | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| switch | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| barn | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stable | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cabin | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cottage | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| castle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tower | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bridge | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tunnel | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| harbor | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| island | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| forest | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| meadow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pond | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stream | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cliff | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cave | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| desert | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| jungle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| swamp | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| valley | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| storm | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| thunder | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lightning | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| rainbow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| breeze | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| frost | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| icicle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| puddle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| mud | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dust | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dew | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fog | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hail | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| blizzard | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| drought | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| flood | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| petal | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stem | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| root | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| thorn | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| vine | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| moss | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| acorn | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pinecone | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| seed | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crawl | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| leap | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| skip | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stomp | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tiptoe | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| march | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dash | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| chase | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| grab | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| toss | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| catch | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| squeeze | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stretch | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bend | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| twist | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shake | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stir | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pour | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| spill | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| drip | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| splash | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| float | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sink | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| melt | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| freeze | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| peel | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| chop | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| grate | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| spread | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sprinkle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| scoop | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| whisper | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shout | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| giggle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| howl | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bark | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| roar | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hum | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| clap | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wave | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| nod | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| peek | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stare | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| glance | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| search | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| discover | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| notice | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wonder | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| imagine | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pretend | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| promise | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| remind | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| forget | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| belong | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| share | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| trade | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| borrow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lend | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| gather | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| collect | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stack | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wrap | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| unwrap | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tug | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| drag | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shove | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tuck | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hang | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fasten | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| attach | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| repair | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| create | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| design | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| measure | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| weigh | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| count | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sort | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| match | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| deliver | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fetch | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| vanish | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tiny | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| huge | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| enormous | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| narrow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wide | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| steep | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shallow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| deep | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| thick | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| thin | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| smooth | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| rough | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sharp | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dull | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shiny | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| damp | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| soaking | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dry | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sticky | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| slimy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fluffy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fuzzy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cozy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| chilly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| freezing | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| boiling | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| warm | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fierce | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| gentle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| brave | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| proud | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| curious | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| grumpy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cheerful | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lonely | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| calm | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wild | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tame | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| plain | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fancy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ripe | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| rotten | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fresh | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stale | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bitter | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sour | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| salty | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| juicy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crunchy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| creamy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| silent | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| loud | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hollow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| solid | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| loose | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tight | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crooked | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| straight | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crowded | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| empty | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| whole | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| spare | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| certain | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| strange | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wonderful | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| terrible | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| perfect | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ugly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| beautiful | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| clever | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| foolish | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| greedy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| generous | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| patient | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stubborn | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lazy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| busy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| clumsy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| graceful | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| quickly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| slowly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| quietly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| loudly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| gently | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| suddenly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| already | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| almost | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| barely | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| perhaps | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| exactly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| instead | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| anyway | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| forever | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| apart | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| together | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| forward | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| backward | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sideways | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| beneath | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| above | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| below | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| beside | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| between | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| among | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| toward | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| against | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| through | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| across | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| along | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| around | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| beyond | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| during | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| until | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| since | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| whether | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| while | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| besides | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| within | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| without | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| throughout | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| upon | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pick up | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| put down | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| look at | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| come back | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sit down | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stand up | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wake up | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| give up | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| find out | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| turn off | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| turn on | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fall down | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| get up | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| look out | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hold on | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| clean up | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hurry up | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| calm down | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| try on | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| throw away | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| run out | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| come in | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| go away | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| show off | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| figure out | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| excited | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| nervous | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| frightened | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| surprised | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| confused | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| disappointed | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| frustrated | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| jealous | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| embarrassed | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| worried | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| grateful | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| annoyed | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bored | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| amazed | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| terrified | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| furious | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| miserable | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| relieved | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| peaceful | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| comfortable | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| uncomfortable | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| exhausted | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| delighted | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| gloomy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hopeful | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| cranky | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| content | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| eager | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| homesick | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ashamed | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| before | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| after | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| next | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| then | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| finally | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| meanwhile | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| soon | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| later | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| early | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| late | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| beginning | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| middle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ending | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| moment | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sudden | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| recent | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| daily | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| weekly | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| whenever | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| once | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| twice | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| often | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| nowadays | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dozen | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| half | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pair | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| entire | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| double | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| single | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| plenty | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| several | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| few | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| many | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| none | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bunch | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pile | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| heap | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| piece | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| portion | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| amount | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| total | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| extra | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| enough | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| less | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| more | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| quarter | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| equal | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| average | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shadow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| echo | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| secret | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| surprise | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| mistake | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| adventure | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| treasure | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| journey | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| village | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dock | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crowd | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| trail | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| footprint | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pattern | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| riddle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| poem | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tale | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| legend | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| character | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| chapter | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| title | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| author | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| paw | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| claw | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| feather | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fur | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| scale | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wing | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| beak | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| nest | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hive | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| den | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| burrow | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| trap | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| leash | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tag | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| whisker | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tail | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hoof | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| mane | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| flock | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| herd | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| pack | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| droplet | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ripple | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bubble | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| flame | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| spark | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| smoke | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| ash | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dawn | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dusk | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| midnight | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| noon | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| passenger | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| neighbor | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| stranger | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| parade | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| audience | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crew | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| coach | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| chef | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| mayor | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| inventor | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| princess | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| knight | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wizard | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| giant | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dwarf | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| monster | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| dragon | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| fairy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shield | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sword | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wand | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| throne | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| crown | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wobble | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| tumble | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| snuggle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| nibble | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| snore | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| yawn | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| shiver | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| bloom | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sprout | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| wilt | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| scattered | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| rascal | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| gigantic | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| itsy | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| whirl | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| sparkle | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| flutter | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| hear | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| lose | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| teach | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| take | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
-| than | ✅ OK | ✅ Accurate | ✅ Common | ✅ Compatible |
+| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game | Status |
+|---|---|---|---|---|---|
+| puppy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| kitten | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bunny | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| duckling | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| chick | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lamb | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cub | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fawn | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| foal | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pony | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| rooster | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hen | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| goose | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| swan | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| owl | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| robin | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sparrow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| eagle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| whale | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dolphin | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shark | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| turtle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lizard | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| frog | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| toad | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| snail | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| worm | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| spider | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| beetle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ladybug | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| butterfly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| caterpillar | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ant | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bee | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| squirrel | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| raccoon | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| skunk | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| beaver | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| moose | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| toast | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cereal | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pancake | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| waffle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| oatmeal | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sandwich | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pretzel | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cracker | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| noodle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| muffin | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cupcake | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cookie | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| doughnut | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pudding | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| jelly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| syrup | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| honey | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| popcorn | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| yogurt | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| grape | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cherry | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| peach | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| plum | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| melon | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| berry | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lemon | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| coconut | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| peanut | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| celery | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| broccoli | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lettuce | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pepper | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| onion | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| mushroom | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stew | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| gravy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| feast | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| snack | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| treat | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| slice | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| elbow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wrist | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ankle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| heel | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| thumb | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| palm | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fist | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| chin | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cheek | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| forehead | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| eyebrow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| eyelash | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tongue | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| throat | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shoulder | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hip | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| spine | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| rib | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| skull | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| muscle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| mitten | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| scarf | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hoodie | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| vest | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| apron | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sleeve | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pocket | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| zipper | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| button | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| buckle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lace | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| slipper | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sandal | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sneaker | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| boot | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| collar | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hem | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pajamas | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| costume | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| uniform | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| blanket | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pillow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| towel | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| soap | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sponge | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| broom | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bucket | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ladder | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| drawer | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shelf | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| closet | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| curtain | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| rug | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lamp | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| candle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| vase | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| frame | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| envelope | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stamp | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| package | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| scissors | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| glue | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tape | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crayon | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| chalk | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| eraser | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ruler | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| thermometer | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| battery | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| switch | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| barn | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stable | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cabin | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cottage | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| castle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tower | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bridge | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tunnel | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| harbor | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| island | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| forest | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| meadow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pond | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stream | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cliff | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cave | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| desert | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| jungle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| swamp | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| valley | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| storm | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| thunder | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lightning | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| rainbow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| breeze | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| frost | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| icicle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| puddle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| mud | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dust | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dew | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fog | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hail | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| blizzard | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| drought | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| flood | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| petal | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stem | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| root | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| thorn | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| vine | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| moss | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| acorn | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pinecone | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| seed | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crawl | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| leap | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| skip | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stomp | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tiptoe | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| march | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dash | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| chase | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| grab | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| toss | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| catch | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| squeeze | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stretch | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bend | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| twist | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shake | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stir | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pour | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| spill | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| drip | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| splash | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| float | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sink | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| melt | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| freeze | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| peel | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| chop | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| grate | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| spread | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sprinkle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| scoop | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| whisper | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shout | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| giggle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| howl | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bark | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| roar | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hum | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| clap | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wave | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| nod | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| peek | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stare | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| glance | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| search | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| discover | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| notice | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wonder | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| imagine | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pretend | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| promise | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| remind | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| forget | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| belong | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| share | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| trade | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| borrow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lend | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| gather | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| collect | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stack | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wrap | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| unwrap | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tug | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| drag | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shove | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tuck | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hang | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fasten | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| attach | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| repair | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| create | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| design | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| measure | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| weigh | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| count | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sort | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| match | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| deliver | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fetch | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| vanish | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tiny | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| huge | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| enormous | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| narrow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wide | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| steep | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shallow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| deep | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| thick | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| thin | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| smooth | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| rough | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sharp | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dull | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shiny | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| damp | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| soaking | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dry | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sticky | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| slimy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fluffy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fuzzy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cozy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| chilly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| freezing | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| boiling | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| warm | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fierce | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| gentle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| brave | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| proud | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| curious | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| grumpy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cheerful | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lonely | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| calm | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wild | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tame | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| plain | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fancy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ripe | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| rotten | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fresh | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stale | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bitter | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sour | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| salty | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| juicy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crunchy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| creamy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| silent | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| loud | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hollow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| solid | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| loose | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tight | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crooked | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| straight | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crowded | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| empty | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| whole | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| spare | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| certain | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| strange | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wonderful | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| terrible | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| perfect | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ugly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| beautiful | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| clever | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| foolish | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| greedy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| generous | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| patient | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stubborn | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lazy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| busy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| clumsy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| graceful | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| quickly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| slowly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| quietly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| loudly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| gently | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| suddenly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| already | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| almost | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| barely | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| perhaps | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| exactly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| instead | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| anyway | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| forever | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| apart | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| together | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| forward | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| backward | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sideways | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| beneath | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| above | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| below | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| beside | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| between | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| among | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| toward | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| against | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| through | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| across | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| along | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| around | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| beyond | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| during | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| until | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| since | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| whether | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| while | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| besides | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| within | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| without | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| throughout | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| upon | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pick up | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| put down | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| look at | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| come back | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sit down | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stand up | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wake up | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| give up | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| find out | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| turn off | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| turn on | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fall down | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| get up | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| look out | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hold on | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| clean up | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hurry up | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| calm down | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| try on | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| throw away | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| run out | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| come in | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| go away | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| show off | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| figure out | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| excited | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| nervous | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| frightened | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| surprised | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| confused | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| disappointed | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| frustrated | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| jealous | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| embarrassed | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| worried | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| grateful | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| annoyed | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bored | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| amazed | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| terrified | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| furious | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| miserable | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| relieved | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| peaceful | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| comfortable | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| uncomfortable | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| exhausted | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| delighted | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| gloomy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hopeful | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| cranky | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| content | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| eager | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| homesick | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ashamed | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| before | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| after | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| next | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| then | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| finally | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| meanwhile | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| soon | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| later | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| early | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| late | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| beginning | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| middle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ending | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| moment | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sudden | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| recent | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| daily | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| weekly | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| whenever | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| once | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| twice | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| often | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| nowadays | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dozen | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| half | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pair | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| entire | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| double | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| single | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| plenty | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| several | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| few | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| many | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| none | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bunch | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pile | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| heap | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| piece | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| portion | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| amount | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| total | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| extra | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| enough | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| less | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| more | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| quarter | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| equal | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| average | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shadow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| echo | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| secret | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| surprise | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| mistake | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| adventure | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| treasure | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| journey | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| village | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dock | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crowd | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| trail | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| footprint | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pattern | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| riddle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| poem | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tale | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| legend | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| character | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| chapter | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| title | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| author | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| paw | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| claw | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| feather | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fur | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| scale | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wing | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| beak | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| nest | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hive | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| den | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| burrow | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| trap | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| leash | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tag | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| whisker | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tail | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hoof | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| mane | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| flock | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| herd | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| pack | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| droplet | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ripple | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bubble | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| flame | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| spark | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| smoke | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| ash | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dawn | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dusk | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| midnight | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| noon | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| passenger | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| neighbor | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| stranger | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| parade | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| audience | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crew | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| coach | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| chef | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| mayor | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| inventor | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| princess | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| knight | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wizard | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| giant | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dwarf | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| monster | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| dragon | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| fairy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shield | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sword | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wand | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| throne | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| crown | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wobble | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| tumble | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| snuggle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| nibble | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| snore | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| yawn | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| shiver | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| bloom | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sprout | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| wilt | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| scattered | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| rascal | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| gigantic | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| itsy | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| whirl | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| sparkle | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| flutter | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| hear | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| lose | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| teach | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| take | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
+| than | PASS (Clear image) | PASS (Accurate) | PASS (Common sense) | PASS (Playable) | APPROVED |
