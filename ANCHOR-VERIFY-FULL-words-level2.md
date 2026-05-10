@@ -192,3 +192,80 @@
 | 177 | crash | ACCURATE | |
 | 178 | make | ACCURATE | |
 | 179 | crumble | ACCURATE | |
+
+## Words 180–249 (cuddle → horizon)
+
+| # | Word | Verdict | Notes |
+|---|------|---------|-------|
+| 180 | cuddle | ACCURATE | |
+| 181 | custom | ACCURATE | |
+| 182 | cycle | ACCURATE | |
+| 183 | danger | ACCURATE | |
+| 184 | dark | ACCURATE | |
+| 185 | deal | ACCURATE | |
+| 186 | delay | ACCURATE | |
+| 187 | delight | ACCURATE | |
+| 188 | deny | ACCURATE | |
+| 189 | depend | ACCURATE | |
+| 190 | destroy | ACCURATE | |
+| 191 | dig | ACCURATE | |
+| 192 | dinner | ACCURATE | |
+| 193 | find | PARTIAL | "you were looking for" excludes accidental discovery. Oxford: "discover by chance or deliberately." Core meaning covers finding without searching. Not inaccurate, but incomplete. |
+| 194 | distance | ACCURATE | |
+| 195 | dizzy | ACCURATE | |
+| 196 | dollar | ACCURATE | |
+| 197 | donate | ACCURATE | |
+| 198 | doorway | ACCURATE | |
+| 199 | downstairs | ACCURATE | |
+| 200 | drift | ACCURATE | |
+| 201 | drown | ACCURATE | Age-appropriate softening of Oxford's "die through submersion in water" |
+| 202 | earn | ACCURATE | |
+| 203 | earth | ACCURATE | |
+| 204 | edge | ACCURATE | |
+| 205 | enter | ACCURATE | |
+| 206 | escape | ACCURATE | |
+| 207 | exact | ACCURATE | |
+| 208 | fair | ACCURATE | |
+| 209 | famous | ACCURATE | |
+| 210 | far | ACCURATE | |
+| 211 | farm | ACCURATE | |
+| 212 | fence | ACCURATE | |
+| 213 | field | ACCURATE | |
+| 214 | fill | ACCURATE | |
+| 215 | finish | ACCURATE | |
+| 216 | fit | ACCURATE | |
+| 217 | flour | ACCURATE | |
+| 218 | foam | ACCURATE | |
+| 219 | fold | ACCURATE | |
+| 220 | follow | ACCURATE | |
+| 221 | fork | ACCURATE | |
+| 222 | friendship | ACCURATE | |
+| 223 | frighten | ACCURATE | |
+| 224 | front | ACCURATE | |
+| 225 | frozen | ACCURATE | |
+| 226 | gentleman | ACCURATE | |
+| 227 | glad | ACCURATE | |
+| 228 | glide | ACCURATE | |
+| 229 | glitter | ACCURATE | |
+| 230 | goal | ACCURATE | |
+| 231 | grasp | ACCURATE | |
+| 232 | greet | ACCURATE | |
+| 233 | grin | ACCURATE | |
+| 234 | groan | ACCURATE | |
+| 235 | grow | ACCURATE | |
+| 236 | guard | ACCURATE | |
+| 237 | guess | ACCURATE | |
+| 238 | habit | ACCURATE | |
+| 239 | hallway | ACCURATE | |
+| 240 | handful | ACCURATE | |
+| 241 | harm | ACCURATE | |
+| 242 | harvest | ACCURATE | |
+| 243 | heal | ACCURATE | |
+| 244 | hidden | ACCURATE | |
+| 245 | hint | ACCURATE | |
+| 246 | history | ACCURATE | |
+| 247 | holiday | ACCURATE | |
+| 248 | hop | ACCURATE | |
+| 249 | horizon | ACCURATE | |
+
+**Batch summary:** 69 ACCURATE, 1 PARTIAL, 0 INACCURATE, 0 fixes applied
