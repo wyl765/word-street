@@ -1,223 +1,223 @@
-# Gemini Review: words-level2c.js
+# Gemini Verification Report - words-level2c.js
 
-| Word | L9: Image Search (10yo context) | L10: Fact Check | L11: Meaning Commonality | L12: Game Mechanics (4 modes) | Status |
-|---|---|---|---|---|---|
-| **achieve** | Pass. "trophy winner" yields relevant, child-friendly images. | Pass. Definition "to finish something you worked hard for" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **adjust** | Pass. "adjusting knob" yields relevant, child-friendly images. | Pass. Definition "to change something a little to make it better" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **adopt** | Pass. "adopting puppy" yields relevant, child-friendly images. | Pass. Definition "to take something as your own" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **affect** | Pass. "rain plans" yields relevant, child-friendly images. | Pass. Definition "to cause a change in something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **afford** | Pass. "piggy bank" yields relevant, child-friendly images. | Pass. Definition "to have enough money for something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **alarm** | Pass. "fire alarm" yields relevant, child-friendly images. | Pass. Definition "a loud sound that warns you about danger" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **alert** | Pass. "alert dog" yields relevant, child-friendly images. | Pass. Definition "to warn someone about something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **allowance** | Pass. "coins allowance" yields relevant, child-friendly images. | Pass. Definition "a small amount of money given each week" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **amaze** | Pass. "jaw dropping surprised" yields relevant, child-friendly images. | Pass. Definition "to surprise someone in a wonderful way" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **appeal** | Pass. "asking please" yields relevant, child-friendly images. | Pass. Definition "to ask for something in a serious way" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **appetite** | Pass. "hungry stomach" yields relevant, child-friendly images. | Pass. Definition "the feeling of wanting to eat food" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **applaud** | Pass. "clapping hands" yields relevant, child-friendly images. | Pass. Definition "to clap your hands to show you liked something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **appropriate** | Pass. "right clothes" yields relevant, child-friendly images. | Pass. Definition "right or fitting for the situation" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **assist** | Pass. "helping hand" yields relevant, child-friendly images. | Pass. Definition "to help someone do something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **assume** | Pass. "guessing think" yields relevant, child-friendly images. | Pass. Definition "to think something is true without checking" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **assure** | Pass. "comforting hug" yields relevant, child-friendly images. | Pass. Definition "to tell someone everything will be fine" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **authority** | Pass. "lifeguard whistle" yields relevant, child-friendly images. | Pass. Definition "the power to make rules or decisions" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **available** | Pass. "empty seat" yields relevant, child-friendly images. | Pass. Definition "ready to be used or easy to get" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **aware** | Pass. "looking around" yields relevant, child-friendly images. | Pass. Definition "knowing that something is there or happening" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **ballot** | Pass. "voting paper" yields relevant, child-friendly images. | Pass. Definition "a piece of paper used to vote" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **ban** | Pass. "banned skateboard sign" yields relevant, child-friendly images. | Pass. Definition "to officially say something is not allowed" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **barrier** | Pass. "fence barrier" yields relevant, child-friendly images. | Pass. Definition "something that blocks the way" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **blame** | Pass. "pointing finger" yields relevant, child-friendly images. | Pass. Definition "to say someone caused something bad" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **blend** | Pass. "blending smoothie" yields relevant, child-friendly images. | Pass. Definition "to mix things together until smooth" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **bother** | Pass. "annoying poke" yields relevant, child-friendly images. | Pass. Definition "to annoy or disturb someone" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **caution** | Pass. "careful warning" yields relevant, child-friendly images. | Pass. Definition "being careful to avoid danger" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **century** | Pass. "old tree" yields relevant, child-friendly images. | Pass. Definition "a period of 100 years" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **champion** | Pass. "gold medal" yields relevant, child-friendly images. | Pass. Definition "the winner of a contest or game" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **charm** | Pass. "cute kitten" yields relevant, child-friendly images. | Pass. Definition "a quality that makes people like you" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **circulate** | Pass. "circulation cycle diagram" yields relevant, child-friendly images. | Pass. Definition "to move around in a path that comes back" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **circumstance** | Pass. "situation context" yields relevant, child-friendly images. | Pass. Definition "the facts around something that happens" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **commit** | Pass. "promise pinky" yields relevant, child-friendly images. | Pass. Definition "to promise to do something and not give up" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **communicate** | Pass. "dolphins talking" yields relevant, child-friendly images. | Pass. Definition "to share ideas or feelings with others" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **compassion** | Pass. "kind helping" yields relevant, child-friendly images. | Pass. Definition "caring about others who are hurting" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **compete** | Pass. "racing runners" yields relevant, child-friendly images. | Pass. Definition "to try to win against someone else" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **complex** | Pass. "complex puzzle" yields relevant, child-friendly images. | Pass. Definition "something with many parts; not simple" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **concern** | Pass. "worried face" yields relevant, child-friendly images. | Pass. Definition "a feeling of worry about something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **confirm** | Pass. "checkmark confirm" yields relevant, child-friendly images. | Pass. Definition "to say that something is true or right" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **conquer** | Pass. "climbing victory" yields relevant, child-friendly images. | Pass. Definition "to win against or overcome something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **conscious** | Pass. "awake aware" yields relevant, child-friendly images. | Pass. Definition "awake and knowing what is happening" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **conserve** | Pass. "saving water" yields relevant, child-friendly images. | Pass. Definition "to use less so there is some left" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **consist** | Pass. "salad ingredients" yields relevant, child-friendly images. | Pass. Definition "to be made up of certain parts" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **constant** | Pass. "dripping faucet" yields relevant, child-friendly images. | Pass. Definition "happening all the time without stopping" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **construct** | Pass. "building construction" yields relevant, child-friendly images. | Pass. Definition "to build something by putting parts together" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **contain** | Pass. "box contents" yields relevant, child-friendly images. | Pass. Definition "to hold or have something inside it" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **contest** | Pass. "competition trophy" yields relevant, child-friendly images. | Pass. Definition "a game or event where people try to win" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **contrast** | Pass. "black white" yields relevant, child-friendly images. | Pass. Definition "to show how two things are different" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **contribute** | Pass. "donating food" yields relevant, child-friendly images. | Pass. Definition "to give something to help others" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **convenient** | Pass. "nearby store" yields relevant, child-friendly images. | Pass. Definition "easy to use or do without trouble" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **core** | Pass. "apple core" yields relevant, child-friendly images. | Pass. Definition "the center or most important part" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **courteous** | Pass. "polite greeting bow" yields relevant, child-friendly images. | Pass. Definition "showing respect and good manners in how you speak and act" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **credit** | Pass. "trophy award" yields relevant, child-friendly images. | Pass. Definition "praise, or thanks for doing something good" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **crisis** | Pass. "flood crisis" yields relevant, child-friendly images. | Pass. Definition "a time of big trouble or danger" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **critical** | Pass. "water important" yields relevant, child-friendly images. | Pass. Definition "very important or serious" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **debate** | Pass. "debate podium" yields relevant, child-friendly images. | Pass. Definition "a talk where people share different opinions" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **decade** | Pass. "ten calendar" yields relevant, child-friendly images. | Pass. Definition "a period of ten years" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **decline** | Pass. "person declining invitation" yields relevant, child-friendly images. | Pass. Definition "to say no politely" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **dedicate** | Pass. "focused practice" yields relevant, child-friendly images. | Pass. Definition "to give all your effort or attention to something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **definite** | Pass. "certain checkmark" yields relevant, child-friendly images. | Pass. Definition "sure and certain, not unclear" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **deliberate** | Pass. "on purpose" yields relevant, child-friendly images. | Pass. Definition "done on purpose, not by accident" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **deposit** | Pass. "coins dropping into jar" yields relevant, child-friendly images. | Pass. Definition "to put something in a safe place" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **deserve** | Pass. "earned reward" yields relevant, child-friendly images. | Pass. Definition "to have earned something by what you did" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **desire** | Pass. "wishing star" yields relevant, child-friendly images. | Pass. Definition "a strong wish to have or do something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **desperate** | Pass. "thirsty desert" yields relevant, child-friendly images. | Pass. Definition "needing something very badly" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **detect** | Pass. "detective magnifier" yields relevant, child-friendly images. | Pass. Definition "to find or notice something hidden" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **determine** | Pass. "deciding gavel" yields relevant, child-friendly images. | Pass. Definition "to decide or figure something out" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **dignity** | Pass. "respectful handshake" yields relevant, child-friendly images. | Pass. Definition "acting in a way that earns respect" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **dilemma** | Pass. "two choices" yields relevant, child-friendly images. | Pass. Definition "a hard choice between two things" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **dimension** | Pass. "measuring box" yields relevant, child-friendly images. | Pass. Definition "a size you can measure, like how long, wide, or tall something is" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **discipline** | Pass. "practice routine" yields relevant, child-friendly images. | Pass. Definition "training yourself to follow rules and work hard" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **discourage** | Pass. "sad then hopeful" yields relevant, child-friendly images. | Pass. Definition "to make someone feel less sure they can do something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **display** | Pass. "museum display" yields relevant, child-friendly images. | Pass. Definition "to put something out for people to see" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **dispute** | Pass. "arguing neighbors" yields relevant, child-friendly images. | Pass. Definition "a fight about who is right" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **distinct** | Pass. "unique snowflake" yields relevant, child-friendly images. | Pass. Definition "clearly different from others" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **distinguish** | Pass. "spot difference" yields relevant, child-friendly images. | Pass. Definition "to tell the difference between two things" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **distribute** | Pass. "passing papers classroom" yields relevant, child-friendly images. | Pass. Definition "to spread or deliver things to many people" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **division** | Pass. "dividing equally" yields relevant, child-friendly images. | Pass. Definition "splitting something into equal parts" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **document** | Pass. "official paper" yields relevant, child-friendly images. | Pass. Definition "an important piece of paper with facts" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **doubt** | Pass. "question mark" yields relevant, child-friendly images. | Pass. Definition "a feeling of not being sure" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **drama** | Pass. "theater stage" yields relevant, child-friendly images. | Pass. Definition "a story acted out on stage or a lot of excitement" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **drastic** | Pass. "big change" yields relevant, child-friendly images. | Pass. Definition "a very big and sudden change" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **dread** | Pass. "scared face" yields relevant, child-friendly images. | Pass. Definition "to feel very scared about something coming" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **duty** | Pass. "responsibility badge" yields relevant, child-friendly images. | Pass. Definition "something you must do because it is your job or role" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **edible** | Pass. "edible berries" yields relevant, child-friendly images. | Pass. Definition "safe to eat" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **efficient** | Pass. "organized efficient" yields relevant, child-friendly images. | Pass. Definition "doing something well without wasting time or energy" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **elaborate** | Pass. "fancy cake" yields relevant, child-friendly images. | Pass. Definition "having many details and parts" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **eliminate** | Pass. "pulling weeds" yields relevant, child-friendly images. | Pass. Definition "to remove or get rid of something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **embarrass** | Pass. "blushing face" yields relevant, child-friendly images. | Pass. Definition "to make someone feel shy or ashamed in front of others" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **emerge** | Pass. "emerging butterfly" yields relevant, child-friendly images. | Pass. Definition "to come out from a hidden place" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **emotion** | Pass. "feeling faces" yields relevant, child-friendly images. | Pass. Definition "a strong feeling like happiness, sadness, or anger" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **emphasis** | Pass. "underline important" yields relevant, child-friendly images. | Pass. Definition "extra importance given to something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **enable** | Pass. "wheelchair ramp" yields relevant, child-friendly images. | Pass. Definition "to make it possible for someone to do something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **encounter** | Pass. "meeting deer" yields relevant, child-friendly images. | Pass. Definition "to meet or come across something you did not plan to see" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **endure** | Pass. "hiking perseverance" yields relevant, child-friendly images. | Pass. Definition "to go through something hard without giving up" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **ensure** | Pass. "double checking" yields relevant, child-friendly images. | Pass. Definition "to make sure something happens" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **environment** | Pass. "green earth" yields relevant, child-friendly images. | Pass. Definition "everything around you, like air, water, and land" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **error** | Pass. "erasing mistake" yields relevant, child-friendly images. | Pass. Definition "a mistake or something wrong" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **evaluate** | Pass. "judging art" yields relevant, child-friendly images. | Pass. Definition "to look at something carefully to decide quality" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **evident** | Pass. "obvious smile" yields relevant, child-friendly images. | Pass. Definition "clearly true or easy to notice" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **evolve** | Pass. "evolution change" yields relevant, child-friendly images. | Pass. Definition "to change slowly over a long time" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **exaggerate** | Pass. "big fish story" yields relevant, child-friendly images. | Pass. Definition "to make something sound bigger or more than it really is" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **excellent** | Pass. "star excellent" yields relevant, child-friendly images. | Pass. Definition "very good; better than most" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **exception** | Pass. "special case" yields relevant, child-friendly images. | Pass. Definition "something that does not follow the usual rule" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **excess** | Pass. "overflowing cup" yields relevant, child-friendly images. | Pass. Definition "too much of something; more than you can use" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **exclude** | Pass. "left out" yields relevant, child-friendly images. | Pass. Definition "to leave someone or something out" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **exhibit** | Pass. "museum exhibit" yields relevant, child-friendly images. | Pass. Definition "a display of things for people to look at" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **expand** | Pass. "expanding balloon" yields relevant, child-friendly images. | Pass. Definition "to get bigger or make something larger" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **expedition** | Pass. "arctic expedition" yields relevant, child-friendly images. | Pass. Definition "a long trip to explore or discover something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **expense** | Pass. "money spending" yields relevant, child-friendly images. | Pass. Definition "the money you spend on something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **expertise** | Pass. "expert chef" yields relevant, child-friendly images. | Pass. Definition "being very skilled at something from lots of practice" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **exploit** | Pass. "unfair shortcut" yields relevant, child-friendly images. | Pass. Definition "to use something in a clever or unfair way" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **expose** | Pass. "uncovering hidden" yields relevant, child-friendly images. | Pass. Definition "to uncover or show something to the open air" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **extend** | Pass. "stretching longer" yields relevant, child-friendly images. | Pass. Definition "to make something longer or bigger" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **extreme** | Pass. "icicles cold" yields relevant, child-friendly images. | Pass. Definition "very far from usual or very strong" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **factor** | Pass. "puzzle piece" yields relevant, child-friendly images. | Pass. Definition "one thing that helps cause something to happen" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **famine** | Pass. "dry empty field" yields relevant, child-friendly images. | Pass. Definition "a time when there is not enough food for everyone" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fascinate** | Pass. "amazed watching" yields relevant, child-friendly images. | Pass. Definition "to be so amazing that you cannot look away" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fatal** | Pass. "warning sign danger" yields relevant, child-friendly images. | Pass. Definition "causing death or very serious harm" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fate** | Pass. "crystal ball" yields relevant, child-friendly images. | Pass. Definition "what will happen to someone in the future" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fault** | Pass. "broken vase" yields relevant, child-friendly images. | Pass. Definition "the blame for something that went wrong" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **feature** | Pass. "playground slide" yields relevant, child-friendly images. | Pass. Definition "an important part or quality of something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **ferry** | Pass. "ferry boat" yields relevant, child-friendly images. | Pass. Definition "a boat that carries people across water" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **flourish** | Pass. "thriving garden" yields relevant, child-friendly images. | Pass. Definition "to grow strong and healthy" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **focus** | Pass. "focused eyes" yields relevant, child-friendly images. | Pass. Definition "to pay close attention to one thing" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **forbid** | Pass. "no running sign" yields relevant, child-friendly images. | Pass. Definition "to order someone not to do something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **forecast** | Pass. "weather forecast" yields relevant, child-friendly images. | Pass. Definition "a guess about future weather" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fortune** | Pass. "treasure chest" yields relevant, child-friendly images. | Pass. Definition "a large amount of money or good luck" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fragment** | Pass. "broken pieces" yields relevant, child-friendly images. | Pass. Definition "a small broken piece of something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **frequent** | Pass. "rainy spring" yields relevant, child-friendly images. | Pass. Definition "happening often or many times" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **frontier** | Pass. "space frontier" yields relevant, child-friendly images. | Pass. Definition "the edge of explored land or knowledge" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fulfill** | Pass. "kept promise" yields relevant, child-friendly images. | Pass. Definition "to do what you promised or complete a goal" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **function** | Pass. "bridge function" yields relevant, child-friendly images. | Pass. Definition "the job or purpose something has" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fundamental** | Pass. "building foundation" yields relevant, child-friendly images. | Pass. Definition "the most basic and important" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **fund** | Pass. "lemonade stand" yields relevant, child-friendly images. | Pass. Definition "money saved or collected for a purpose" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **grace** | Pass. "graceful dancer" yields relevant, child-friendly images. | Pass. Definition "moving in a smooth and beautiful way" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **gradual** | Pass. "leaves changing" yields relevant, child-friendly images. | Pass. Definition "changing slowly over a long time, not suddenly" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **guarantee** | Pass. "promise seal" yields relevant, child-friendly images. | Pass. Definition "to promise that something will happen or work" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **halt** | Pass. "stop hand" yields relevant, child-friendly images. | Pass. Definition "to stop suddenly" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **hazard** | Pass. "icy danger" yields relevant, child-friendly images. | Pass. Definition "something that could cause danger or harm" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **ideal** | Pass. "perfect day" yields relevant, child-friendly images. | Pass. Definition "the best or most perfect" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **illustrate** | Pass. "drawing illustration" yields relevant, child-friendly images. | Pass. Definition "to draw a picture or give an example to explain" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **image** | Pass. "picture screen" yields relevant, child-friendly images. | Pass. Definition "a picture or photo of something you can see" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **immediate** | Pass. "alarm clock now" yields relevant, child-friendly images. | Pass. Definition "happening right now with no delay" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **impact** | Pass. "earth recycling" yields relevant, child-friendly images. | Pass. Definition "a strong effect on something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **imply** | Pass. "knowing smile" yields relevant, child-friendly images. | Pass. Definition "to suggest something without saying it directly" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **impress** | Pass. "impressed judges" yields relevant, child-friendly images. | Pass. Definition "to make someone think you are very good" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **incident** | Pass. "playground report clipboard" yields relevant, child-friendly images. | Pass. Definition "an event that happens, often one that is unusual" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **indicate** | Pass. "arrow pointing" yields relevant, child-friendly images. | Pass. Definition "to point out or show something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **individual** | Pass. "one person" yields relevant, child-friendly images. | Pass. Definition "one person, apart from the group" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **inform** | Pass. "news announcement" yields relevant, child-friendly images. | Pass. Definition "to tell someone facts or news" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **inhabit** | Pass. "fish reef" yields relevant, child-friendly images. | Pass. Definition "to live in a place" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **initial** | Pass. "first reaction" yields relevant, child-friendly images. | Pass. Definition "first or at the very beginning" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **injure** | Pass. "hurt ankle" yields relevant, child-friendly images. | Pass. Definition "to hurt a part of your body" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **inquire** | Pass. "asking question" yields relevant, child-friendly images. | Pass. Definition "to ask a question to learn more about something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **inspire** | Pass. "inspired lightbulb" yields relevant, child-friendly images. | Pass. Definition "to fill someone with excitement to do something great" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **instance** | Pass. "example case" yields relevant, child-friendly images. | Pass. Definition "one particular case or example of something happening" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **instinct** | Pass. "bird migrating" yields relevant, child-friendly images. | Pass. Definition "a natural feeling that tells an animal what to do" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **institution** | Pass. "library building" yields relevant, child-friendly images. | Pass. Definition "an important group like a school, hospital, or library" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **integrate** | Pass. "joining group" yields relevant, child-friendly images. | Pass. Definition "to combine things so they work together" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **intense** | Pass. "hot sun intense" yields relevant, child-friendly images. | Pass. Definition "very strong or extreme" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **interact** | Pass. "people talking" yields relevant, child-friendly images. | Pass. Definition "to talk or do things with other people" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **introduce** | Pass. "meeting introduction" yields relevant, child-friendly images. | Pass. Definition "to present someone or something for the first time" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **invade** | Pass. "ants invading" yields relevant, child-friendly images. | Pass. Definition "to enter a place without being asked" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **involve** | Pass. "joining group activity" yields relevant, child-friendly images. | Pass. Definition "to include someone in an action" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **issue** | Pass. "problem discussion" yields relevant, child-friendly images. | Pass. Definition "a problem or important topic people talk about" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **item** | Pass. "list item" yields relevant, child-friendly images. | Pass. Definition "one single thing in a group or list" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **journal** | Pass. "writing journal" yields relevant, child-friendly images. | Pass. Definition "a notebook where you write about your day" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **justify** | Pass. "good reason" yields relevant, child-friendly images. | Pass. Definition "to give a good reason for something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **lack** | Pass. "dry plant" yields relevant, child-friendly images. | Pass. Definition "to not have enough of something you need" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **launch** | Pass. "rocket launch" yields relevant, child-friendly images. | Pass. Definition "to send up into the air or start a new project" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **layer** | Pass. "layered cake" yields relevant, child-friendly images. | Pass. Definition "one level of something covering another" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **lecture** | Pass. "teacher lecturing" yields relevant, child-friendly images. | Pass. Definition "a long talk to teach people about something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **leisure** | Pass. "relaxing hammock" yields relevant, child-friendly images. | Pass. Definition "free time when you can relax and do what you enjoy" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **liable** | Pass. "responsible person" yields relevant, child-friendly images. | Pass. Definition "having the duty to pay or fix something if it goes wrong" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **liberty** | Pass. "statue liberty" yields relevant, child-friendly images. | Pass. Definition "the freedom to do what you want" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **license** | Pass. "driver license" yields relevant, child-friendly images. | Pass. Definition "a paper that gives you permission to do something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **link** | Pass. "chain link" yields relevant, child-friendly images. | Pass. Definition "something that joins or connects two things together, like a chain" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **literal** | Pass. "exact words" shows literal text/words. OK for 10yo. | Pass. Definition "meaning exactly what the words say" is accurate. | Pass. Good choice of abstract concept for level 2. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **locate** | Pass. "finding map" yields relevant, child-friendly images. | Pass. Definition "to find out where something is" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **logic** | Pass. "thinking steps" yields relevant, child-friendly images. | Pass. Definition "thinking in a way that makes sense step by step" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **luxury** | Pass. "fancy pool" yields relevant, child-friendly images. | Pass. Definition "something expensive and nice but not needed" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **majority** | Pass. "crowd voting raised hands" yields relevant, child-friendly images. | Pass. Definition "more than half of a group" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **manage** | Pass. "managing garden" yields relevant, child-friendly images. | Pass. Definition "to be in charge of or handle something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **mature** | Pass. "ripe apple" yields relevant, child-friendly images. | Pass. Definition "fully grown or acting like a grown-up" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **maximum** | Pass. "full capacity" yields relevant, child-friendly images. | Pass. Definition "the most or largest amount possible" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **memorial** | Pass. "memorial statue" yields relevant, child-friendly images. | Pass. Definition "something built to help people remember an event or person" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **mental** | Pass. "glowing brain with gears" yields relevant, child-friendly images. | Pass. Definition "about the mind and how you think" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **mercy** | Pass. "kind knight" yields relevant, child-friendly images. | Pass. Definition "kindness shown to someone who is in trouble" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **migrate** | Pass. "geese flying south" yields relevant, child-friendly images. | Pass. Definition "to move from one place to another, often with the seasons" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **military** | Pass. "fighter jets in formation" yields relevant, child-friendly images. | Pass. Definition "about soldiers and armed forces" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **minimum** | Pass. "least amount" yields relevant, child-friendly images. | Pass. Definition "the smallest amount allowed or needed" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **minor** | Pass. "small scratch" yields relevant, child-friendly images. | Pass. Definition "small and not very important" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **miracle** | Pass. "amazing return" yields relevant, child-friendly images. | Pass. Definition "something amazing that should not be possible" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **mission** | Pass. "space mission" yields relevant, child-friendly images. | Pass. Definition "an important job someone is sent to do" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **modify** | Pass. "editing drawing" yields relevant, child-friendly images. | Pass. Definition "to change something a little to improve it" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **monitor** | Pass. "checking temperature" yields relevant, child-friendly images. | Pass. Definition "to watch something carefully over time" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **motive** | Pass. "reason why" yields relevant, child-friendly images. | Pass. Definition "the reason someone does something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **mutual** | Pass. "shared interest" yields relevant, child-friendly images. | Pass. Definition "shared by two people equally" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **navigate** | Pass. "compass navigation" yields relevant, child-friendly images. | Pass. Definition "to find your way from one place to another" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **neglect** | Pass. "wilting plant" yields relevant, child-friendly images. | Pass. Definition "to not take care of something you should" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **neutral** | Pass. "balanced scale" yields relevant, child-friendly images. | Pass. Definition "not taking either side in a fight" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **notable** | Pass. "big achievement" yields relevant, child-friendly images. | Pass. Definition "important or special enough to be noticed" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **notify** | Pass. "sending notice" yields relevant, child-friendly images. | Pass. Definition "to let someone know about something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **notion** | Pass. "idea lightbulb" yields relevant, child-friendly images. | Pass. Definition "a thought or idea about something" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **novel** | Pass. "new creative idea" yields relevant, child-friendly images. | Pass. Definition "new and different from anything before" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **oath** | Pass. "hand promise" yields relevant, child-friendly images. | Pass. Definition "a very serious promise, often to God or a court" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **objective** | Pass. "target goal" yields relevant, child-friendly images. | Pass. Definition "a goal you are trying to reach" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **obligation** | Pass. "returning books" yields relevant, child-friendly images. | Pass. Definition "a duty you cannot escape; something you owe" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **obstacle** | Pass. "blocked path" yields relevant, child-friendly images. | Pass. Definition "something in your way that makes it hard to continue" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **obtain** | Pass. "getting card" yields relevant, child-friendly images. | Pass. Definition "to get something, usually by working or asking for it" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **occur** | Pass. "earthquake happening" yields relevant, child-friendly images. | Pass. Definition "to happen or take place" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **offense** | Pass. "sorry apologize" yields relevant, child-friendly images. | Pass. Definition "something that makes someone angry or upset" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **ongoing** | Pass. "building progress" yields relevant, child-friendly images. | Pass. Definition "still happening and not finished" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **operate** | Pass. "using computer" yields relevant, child-friendly images. | Pass. Definition "to make something work or run" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **option** | Pass. "menu choices" yields relevant, child-friendly images. | Pass. Definition "one of several things you can pick from" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **origin** | Pass. "cacao beans" yields relevant, child-friendly images. | Pass. Example accurately traces chocolate origin to Central America cacao. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **overcome** | Pass. "kid climbing mountain top" yields relevant, child-friendly images. | Pass. Definition "to succeed against something hard" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **overlook** | Pass. "missing detail" yields relevant, child-friendly images. | Pass. Definition "to miss seeing something by accident" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
-| **owe** | Pass. "paying back" yields relevant, child-friendly images. | Pass. Definition "to need to pay or give something back" is accurate. | Pass. Common meaning chosen. | Pass. Works well for all 4 game modes. | ✅ Pass |
+| Word | L9: Image Keyword | L10: Fact Check | L11: Meaning | L12: Game Compat | Status |
+|------|-------------------|-----------------|--------------|------------------|--------|
+| **achieve** | ✅ "trophy winner" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **adjust** | ✅ "adjusting knob" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **adopt** | ✅ "adopting puppy" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **affect** | ✅ "rain plans" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **afford** | ✅ "piggy bank" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **alarm** | ✅ "fire alarm" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **alert** | ✅ "alert dog" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **allowance** | ✅ "coins allowance" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **amaze** | ✅ "jaw dropping surprised" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **appeal** | ✅ "asking please" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **appetite** | ✅ "hungry stomach" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **applaud** | ✅ "clapping hands" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **appropriate** | ✅ "right clothes" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **assist** | ✅ "helping hand" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **assume** | ✅ "guessing think" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **assure** | ✅ "comforting hug" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **authority** | ✅ "lifeguard whistle" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **available** | ✅ "empty seat" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **aware** | ✅ "looking around" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **ballot** | ✅ "voting paper" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **ban** | ✅ "banned skateboard sign" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **barrier** | ✅ "fence barrier" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **blame** | ✅ "pointing finger" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **blend** | ✅ "blending smoothie" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **bother** | ✅ "annoying poke" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **caution** | ✅ "careful warning" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **century** | ✅ "old tree" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **champion** | ✅ "gold medal" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **charm** | ✅ "cute kitten" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **circulate** | ✅ "circulation cycle diagram" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **circumstance** | ✅ "situation context" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **commit** | ✅ "promise pinky" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **communicate** | ✅ "dolphins talking" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **compassion** | ✅ "kind helping" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **compete** | ✅ "racing runners" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **complex** | ✅ "complex puzzle" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **concern** | ✅ "worried face" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **confirm** | ✅ "checkmark confirm" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **conquer** | ✅ "climbing victory" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **conscious** | ✅ "awake aware" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **conserve** | ✅ "saving water" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **consist** | ✅ "salad ingredients" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **constant** | ✅ "dripping faucet" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **construct** | ✅ "building construction" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **contain** | ✅ "box contents" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **contest** | ✅ "competition trophy" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **contrast** | ✅ "black white" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **contribute** | ✅ "donating food" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **convenient** | ✅ "nearby store" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **core** | ✅ "apple core" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **courteous** | ✅ "polite greeting bow" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **credit** | ✅ "trophy award" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **crisis** | ✅ "flood crisis" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **critical** | ✅ "water important" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **debate** | ✅ "debate podium" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **decade** | ✅ "ten calendar" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **decline** | ✅ "person declining invitation" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **dedicate** | ✅ "focused practice" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **definite** | ✅ "certain checkmark" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **deliberate** | ✅ "on purpose" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **deposit** | ✅ "coins dropping into jar" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **deserve** | ✅ "earned reward" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **desire** | ✅ "wishing star" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **desperate** | ✅ "thirsty desert" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **detect** | ✅ "detective magnifier" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **determine** | ✅ "deciding gavel" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **dignity** | ✅ "respectful handshake" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **dilemma** | ✅ "two choices" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **dimension** | ✅ "measuring box" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **discipline** | ✅ "practice routine" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **discourage** | ✅ "sad then hopeful" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **display** | ✅ "museum display" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **dispute** | ✅ "arguing neighbors" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **distinct** | ✅ "unique snowflake" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **distinguish** | ✅ "spot difference" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **distribute** | ✅ "passing papers classroom" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **division** | ✅ "dividing equally" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **document** | ✅ "official paper" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **doubt** | ✅ "question mark" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **drama** | ✅ "theater stage" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **drastic** | ✅ "big change" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **dread** | ✅ "scared face" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **duty** | ✅ "responsibility badge" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **edible** | ✅ "edible berries" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **efficient** | ✅ "organized efficient" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **elaborate** | ✅ "fancy cake" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **eliminate** | ✅ "pulling weeds" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **embarrass** | ✅ "blushing face" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **emerge** | ✅ "emerging butterfly" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **emotion** | ✅ "feeling faces" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **emphasis** | ✅ "underline important" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **enable** | ✅ "wheelchair ramp" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **encounter** | ✅ "meeting deer" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **endure** | ✅ "hiking perseverance" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **ensure** | ✅ "double checking" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **environment** | ✅ "green earth" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **error** | ✅ "erasing mistake" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **evaluate** | ✅ "judging art" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **evident** | ✅ "obvious smile" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **evolve** | ✅ "evolution change" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **exaggerate** | ✅ "big fish story" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **excellent** | ✅ "star excellent" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **exception** | ✅ "special case" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **excess** | ✅ "overflowing cup" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **exclude** | ✅ "left out" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **exhibit** | ✅ "museum exhibit" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **expand** | ✅ "expanding balloon" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **expedition** | ✅ "arctic expedition" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **expense** | ✅ "money spending" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **expertise** | ✅ "expert chef" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **exploit** | ✅ "unfair shortcut" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **expose** | ✅ "uncovering hidden" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **extend** | ✅ "stretching longer" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **extreme** | ✅ "icicles cold" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **factor** | ✅ "puzzle piece" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **famine** | ✅ "dry empty field" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fascinate** | ✅ "amazed watching" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fatal** | ✅ "warning sign danger" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fate** | ✅ "crystal ball" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fault** | ✅ "broken vase" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **feature** | ✅ "playground slide" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **ferry** | ✅ "ferry boat" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **flourish** | ✅ "thriving garden" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **focus** | ✅ "focused eyes" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **forbid** | ✅ "no running sign" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **forecast** | ✅ "weather forecast" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fortune** | ✅ "treasure chest" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fragment** | ✅ "broken pieces" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **frequent** | ✅ "rainy spring" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **frontier** | ✅ "space frontier" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fulfill** | ✅ "kept promise" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **function** | ✅ "bridge function" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fundamental** | ✅ "building foundation" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **fund** | ✅ "lemonade stand" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **grace** | ✅ "graceful dancer" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **gradual** | ✅ "leaves changing" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **guarantee** | ✅ "promise seal" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **halt** | ✅ "stop hand" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **hazard** | ✅ "icy danger" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **ideal** | ✅ "perfect day" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **illustrate** | ✅ "drawing illustration" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **image** | ✅ "picture screen" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **immediate** | ✅ "alarm clock now" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **impact** | ✅ "earth recycling" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **imply** | ✅ "knowing smile" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **impress** | ✅ "impressed judges" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **incident** | ✅ "playground report clipboard" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **indicate** | ✅ "arrow pointing" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **individual** | ✅ "one person" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **inform** | ✅ "news announcement" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **inhabit** | ✅ "fish reef" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **initial** | ✅ "first reaction" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **injure** | ✅ "hurt ankle" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **inquire** | ✅ "asking question" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **inspire** | ✅ "inspired lightbulb" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **instance** | ✅ "example case" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **instinct** | ✅ "bird migrating" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **institution** | ✅ "library building" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **integrate** | ✅ "joining group" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **intense** | ✅ "hot sun intense" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **interact** | ✅ "people talking" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **introduce** | ✅ "meeting introduction" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **invade** | ✅ "ants invading" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **involve** | ✅ "joining group activity" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **issue** | ✅ "problem discussion" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **item** | ✅ "list item" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **journal** | ✅ "writing journal" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **justify** | ✅ "good reason" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **lack** | ✅ "dry plant" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **launch** | ✅ "rocket launch" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **layer** | ✅ "layered cake" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **lecture** | ✅ "teacher lecturing" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **leisure** | ✅ "relaxing hammock" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **liable** | ✅ "responsible person" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **liberty** | ✅ "statue liberty" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **license** | ✅ "driver license" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **link** | ✅ "chain link" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **literal** | ✅ "exact words" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **locate** | ✅ "finding map" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **logic** | ✅ "thinking steps" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **luxury** | ✅ "fancy pool" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **majority** | ✅ "crowd voting raised hands" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **manage** | ✅ "managing garden" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **mature** | ✅ "ripe apple" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **maximum** | ✅ "full capacity" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **memorial** | ✅ "memorial statue" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **mental** | ✅ "glowing brain with gears" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **mercy** | ✅ "kind knight" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **migrate** | ✅ "geese flying south" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **military** | ✅ "fighter jets in formation" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **minimum** | ✅ "least amount" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **minor** | ✅ "small scratch" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **miracle** | ✅ "amazing return" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **mission** | ✅ "space mission" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **modify** | ✅ "editing drawing" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **monitor** | ✅ "checking temperature" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **motive** | ✅ "reason why" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **mutual** | ✅ "shared interest" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **navigate** | ✅ "compass navigation" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **neglect** | ✅ "wilting plant" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **neutral** | ✅ "balanced scale" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **notable** | ✅ "big achievement" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **notify** | ✅ "sending notice" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **notion** | ✅ "idea lightbulb" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **novel** | ✅ "new creative idea" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **oath** | ✅ "hand promise" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **objective** | ✅ "target goal" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **obligation** | ✅ "returning books" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **obstacle** | ✅ "blocked path" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **obtain** | ✅ "getting card" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **occur** | ✅ "earthquake happening" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **offense** | ✅ "sorry apologize" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **ongoing** | ✅ "building progress" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **operate** | ✅ "using computer" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **option** | ✅ "menu choices" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **origin** | ✅ "cacao beans" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **overcome** | ✅ "kid climbing mountain top" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **overlook** | ✅ "missing detail" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
+| **owe** | ✅ "paying back" safe & clear | ✅ Accurate facts | ✅ Primary meaning | ✅ Good for 4 modes | PASS |
