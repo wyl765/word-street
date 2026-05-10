@@ -2,8 +2,8 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 427
-- MAJOR (≥3 超纲词 in definition): 2148
+- CRITICAL (≥5 超纲词 in definition): 425
+- MAJOR (≥3 超纲词 in definition): 2152
 
 ## Issues
 
@@ -1527,10 +1527,6 @@
 - **Definition:** "a written statement confirmed by oath for use in court"
 - **超纲词 (5):** written, statement, confirmed, use, court
 
-### 🔴 [CRITICAL] besiege (L5)
-- **Definition:** "to surround a place and cut off supplies to force it to give up"
-- **超纲词 (5):** place, cut, off, supplies, give
-
 ### 🔴 [CRITICAL] confederacy (L5)
 - **Definition:** "a group of states or people joined together for a common purpose"
 - **超纲词 (5):** group, states, people, joined, purpose
@@ -1578,10 +1574,6 @@
 ### 🔴 [CRITICAL] appropriation (L5)
 - **Definition:** "taking something for personal use; money set aside for a purpose"
 - **超纲词 (6):** taking, use, money, set, aside, purpose
-
-### 🔴 [CRITICAL] eloquence (L5)
-- **Definition:** "being able to speak beautifully and persuasively"
-- **超纲词 (5):** being, able, speak, beautifully, persuasively
 
 ### 🔴 [CRITICAL] embankment (L5)
 - **Definition:** "a wall of earth built to hold back water or support a road"
@@ -9219,6 +9211,10 @@
 - **Definition:** "the level of someone's ability or skill"
 - **超纲词 (4):** level, someone's, ability, skill
 
+### 🟡 [MAJOR] calligraphy (L5)
+- **Definition:** "the art of careful handwriting, often done with special pens"
+- **超纲词 (4):** art, handwriting, done, pens
+
 ### 🟡 [MAJOR] cascade (L5)
 - **Definition:** "a small waterfall; also a series of things happening one after another"
 - **超纲词 (3):** small, happening, one
@@ -9367,6 +9363,10 @@
 - **Definition:** "the study of family history and ancestors"
 - **超纲词 (3):** study, family, ancestors
 
+### 🟡 [MAJOR] grotesque (L5)
+- **Definition:** "very strange and unpleasant in a way that looks distorted"
+- **超纲词 (3):** unpleasant, looks, distorted
+
 ### 🟡 [MAJOR] grudge (L5)
 - **Definition:** "a lasting feeling of anger toward someone"
 - **超纲词 (3):** lasting, feeling, anger
@@ -9490,6 +9490,10 @@
 ### 🟡 [MAJOR] bankruptcy (L5)
 - **Definition:** "the legal process when someone cannot pay their debts"
 - **超纲词 (3):** cannot, pay, debts
+
+### 🟡 [MAJOR] besiege (L5)
+- **Definition:** "to surround a place and not let people in or out; also to bother someone with many requests"
+- **超纲词 (4):** place, let, people, requests
 
 ### 🟡 [MAJOR] bipartisan (L5)
 - **Definition:** "supported by two political parties"
@@ -9702,6 +9706,10 @@
 ### 🟡 [MAJOR] dossier (L5)
 - **Definition:** "a set of documents about a person or subject"
 - **超纲词 (4):** set, documents, person, subject
+
+### 🟡 [MAJOR] eloquence (L5)
+- **Definition:** "being able to speak clearly and persuasively"
+- **超纲词 (4):** being, able, speak, persuasively
 
 ### 🟡 [MAJOR] embezzlement (L5)
 - **Definition:** "stealing money that has been placed in your care"

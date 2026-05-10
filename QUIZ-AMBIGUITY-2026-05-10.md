@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3690 ambiguous pairs found.
+3691 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -13962,6 +13962,10 @@
 - methodical: done in an organized and careful way
 - indiscriminate: done without careful judgment or selection
 
+## L5: "methodical" vs "calligraphy" (67%)
+- methodical: done in an organized and careful way
+- calligraphy: the art of careful handwriting, often done with special pens
+
 ## L5: "negate" vs "abstain" (67%)
 - negate: to cancel out or make something have no effect
 - abstain: to choose not to do or have something
@@ -14472,7 +14476,7 @@
 
 ## L5: "bilingual" vs "eloquence" (67%)
 - bilingual: able to speak two languages
-- eloquence: being able to speak beautifully and persuasively
+- eloquence: being able to speak clearly and persuasively
 
 ## L5: "blockade" vs "impediment" (60%)
 - blockade: something that blocks entry or movement, especially of ships
