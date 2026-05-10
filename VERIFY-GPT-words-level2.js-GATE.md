@@ -1,555 +1,556 @@
-# VERIFY-GPT-words-level2.js-GATE
-逐词专项审校（L5-L8）。每行一个词：L5=10岁中国ESL娃(def/ex)可懂度；L6=例句反向唯一性；L7=文化敏感度；L8=学习路径/level适配。
+# GPT专项审校（Gate L5-L8）: words-level2.js
 
-- describe | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- explain | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- solve | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- complete | L5:能(def=能；ex=能) | L6:❌(例句更像 finish/done；缺少“全部/全套”强提示) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- arrange | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- decide | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- suppose | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- mention | L5:不能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- realize | L5:勉强(def=勉强；ex=勉强；文化点:mittens) | L6:✅(线索相对明确) | L7:⚠️(文化点(mittens)，建议替换为中国孩子常见场景) | L8:合适(前置基本够)
-- repeat | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- separate | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- struggle | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- succeed | L5:勉强(def=能；ex=勉强；文化点:training wheels) | L6:⚠️(空格题易被同义泛化词抢答) | L7:⚠️(文化点(training wheels)，建议替换为中国孩子常见场景) | L8:合适(前置基本够)
-- surround | L5:勉强(def=能；ex=勉强；文化点:cabin) | L6:⚠️(空格题易被同义泛化词抢答) | L7:⚠️(文化点(cabin)，建议替换为中国孩子常见场景) | L8:合适(前置基本够)
-- wander | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- ancient | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(配合图像/对比教学更稳)
-- modern | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(配合图像/对比教学更稳)
-- brilliant | L5:勉强(def=勉强；ex=能) | L6:⚠️(fast/quick 或 smart/great 都能填) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- fragile | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- sturdy | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- swift | L5:勉强(def=能；ex=能) | L6:⚠️(fast/quick 或 smart/great 都能填) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- anxious | L5:不能(def=勉强；ex=勉强；文化点:spelling bee；概念偏抽象) | L6:✅(线索相对明确) | L7:⚠️(文化点(spelling bee)，建议替换为中国孩子常见场景) | L8:偏难(情绪词抽象；建议先有 worried/nervous(更口语))
-- setting | L5:能(def=能；ex=能) | L6:✅(学科语境强，通常可唯一) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- plot | L5:能(def=能；ex=能) | L6:✅(学科语境强，通常可唯一) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- paragraph | L5:不能(def=勉强；ex=能；概念偏抽象；拼写偏长) | L6:✅(学科语境强，通常可唯一) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- sentence | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- fiction | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- nonfiction | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- main idea | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- detail | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- cause | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- effect | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- habitat | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- insect | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mammal | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- reptile | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- liquid | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- gas | L5:能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- energy | L5:能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- force | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏易(可作为同level的缓冲词/复习词)
-- magnet | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- soil | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- climate | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- season | L5:能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- citizen | L5:能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- government | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- law | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- rule | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- map | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- globe | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- continent | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- country | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- state | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- city | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- border | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- freedom | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- election | L5:能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- subtract | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- multiply | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- divide | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- sum | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- graph | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- chart | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- data | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- length | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- width | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- height | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- area | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- shape | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- angle | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- triple | L5:勉强(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- gradually | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- immediately | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- afterward | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- recently | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- frequently | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- rarely | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- occasionally | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- however | L5:能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- therefore | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- otherwise | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- turn into | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- look forward to | L5:勉强(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- make up | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- point out | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频；拼写偏长) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- come across | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- break down | L5:不能(def=能；ex=勉强；文化点:pumpkin；词频不在COCA5000内/偏低频；拼写偏长) | L6:✅(线索相对明确) | L7:⚠️(文化点(pumpkin)，建议替换为中国孩子常见场景) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- carry out | L5:勉强(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- set up | L5:勉强(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- courageous | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- honest | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- loyal | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- selfish | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- thoughtful | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- determined | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- about | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- act | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- action | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- add | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- address | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- adult | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- afraid | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- again | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- agree | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- alive | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- alone | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- also | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- always | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- any | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- appear | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- arm | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- arrive | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- ask | L5:能(def=勉强；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- asleep | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- attack | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- attempt | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- attention | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- awake | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- backpack | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- balance | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- balloon | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bare | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bargain | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- base | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- basic | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- battle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- beach | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- beam | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- because | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- become | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏易(可作为同level的缓冲词/复习词)
-- beg | L5:不能(def=不能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- begin | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- behavior | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- believe | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- better | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- bicycle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- blink | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- block | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- blossom | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bossy | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bounce | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- breakfast | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- breathe | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- bright | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- bring | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- broad | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- build | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- bundle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- butter | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:合适(前置基本够)
-- cactus | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- calendar | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- camel | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- camp | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- capture | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- careful | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- carpet | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cart | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- carve | L5:不能(def=能；ex=勉强；文化点:pumpkin) | L6:✅(线索相对明确) | L7:⚠️(文化点(pumpkin)，建议替换为中国孩子常见场景) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- ceiling | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- center | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- chance | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- change | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- choice | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- circle | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- climb | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- close | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- clue | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- coast | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- comfort | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- common | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- complain | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- confuse | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- connect | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- corner | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- cost | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- cotton | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- course | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- crash | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- make | L5:能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- crumble | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cuddle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- custom | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- cycle | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- danger | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- dark | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- deal | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- delay | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- delight | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- deny | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- depend | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- destroy | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- dig | L5:勉强(def=勉强；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- dinner | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- find | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- distance | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- dizzy | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频；概念偏抽象) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- dollar | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- donate | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- doorway | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- downstairs | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- drift | L5:不能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- drown | L5:不能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- earn | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- earth | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- edge | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- enter | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- escape | L5:勉强(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- exact | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- fair | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- famous | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- far | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- farm | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- fence | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- field | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- fill | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- finish | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- fit | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- flour | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- foam | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- fold | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- follow | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- fork | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- friendship | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- frighten | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- front | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:合适(前置基本够)
-- frozen | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- gentleman | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- glad | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- glide | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- glitter | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- goal | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- grasp | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- greet | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- grin | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- groan | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- grow | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- guard | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- guess | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- habit | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- hallway | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- handful | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- harm | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- harvest | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- heal | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hidden | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hint | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- history | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- holiday | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- hop | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- horizon | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- hurt | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hurry | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- idea | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- ignore | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- include | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- inside | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- invite | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- jacket | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- judge | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- jump | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- key | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- kind | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- knee | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- kneel | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- knock | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- lantern | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- laugh | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- leaf | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- leak | L5:不能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- learn | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- least | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- library | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- limit | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- listen | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- lunch | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- machine | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- magic | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- major | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- marble | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mask | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- matter | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- memory | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- message | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- minute | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- mirror | L5:不能(def=不能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- mist | L5:不能(def=不能；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mix | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- model | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mood | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- move | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- mystery | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- nature | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- near | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- neatly | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- never | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- noisy | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- north | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- note | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- object | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- ocean | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- offer | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- opinion | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- opposite | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- order | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- outside | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- over | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- palace | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- path | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- pause | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- picnic | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- planet | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- plastic | L5:勉强(def=不能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- playground | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- polite | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- praise | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- prepare | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- price | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- prize | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- protect | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- quiet | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- quiz | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- raise | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- range | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- reach | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- recycle | L5:勉强(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- refund | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- relax | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- rescue | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- respect | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- result | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- return | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- river | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- role | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- route | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- safe | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- sail | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- save | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- scared | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- scatter | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- score | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- shade | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- shore | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- signal | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- simple | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- slippery | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- smell | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- snap | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- soak | L5:勉强(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- special | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- store | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- strong | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- stuck | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- suggest | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- support | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- surface | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- swallow | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- sweep | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- sweet | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- talent | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- taste | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- team | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- tease | L5:勉强(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- temperature | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- tend | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- tightly | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- little | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- track | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- travel | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- trick | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- trust | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- turn | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- under | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- upstairs | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- usual | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- visit | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- voice | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- vote | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- wait | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- warmth | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- warn | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:⚠️(敏感点:war) | L8:合适(前置基本够)
-- waterfall | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- weather | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- wheel | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- yesterday | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- admiral | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- album | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- alley | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- amber | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- antenna | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- applause | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- apricot | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- arch | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- atlas | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- avalanche | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- badge | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bagpipe | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- balcony | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- banjo | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- banner | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- basin | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bay | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- beacon | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bead | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- beeswax | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bellows | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- binoculars | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频；拼写偏长) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- birch | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- biscuit | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- blacksmith | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- blaze | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- blueprint | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bluff | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bobsled | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bolt | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bonfire | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bookshelf | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bracelet | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bramble | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- brass | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bridle | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- broth | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bugle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bulb | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bulletin | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- bunker | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- buoy | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- canal | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- canopy | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- caribou | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- carousel | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cartwheel | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频；拼写偏长) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cashew | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cedar | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cellar | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- chapel | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- chariot | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- chestnut | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- chisel | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- chord | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cider | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- clam | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cloak | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cobblestone | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cocoon | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- comet | L5:不能(def=不能；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cork | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- corral | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cradle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- crest | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- crumb | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cuff | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- cypress | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- dagger | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- dandelion | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频；拼写偏长) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- deck | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- delta | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- dinghy | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- dome | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- donkey | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- doorbell | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- drawbridge | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- drumstick | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- dune | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- easel | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- elm | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- ember | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- emerald | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- falcon | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- fiddle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- fig | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- fjord | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- flint | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- forge | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- fresco | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:church) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- gale | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- galley | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- garnet | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- gazelle | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- geyser | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:⚠️(敏感点:shoot) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- gong | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- granite | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- grapevine | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- gravel | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- griddle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- grove | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- gutter | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hammock | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- harp | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hazel | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hearth | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- heron | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hickory | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hilltop | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- holly | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- honeycomb | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- horseshoe | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频；拼写偏长) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- hourglass | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频；拼写偏长) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- husk | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- ibis | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- igloo | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- ivy | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- jade | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- javelin | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- kelp | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- kennel | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- kindle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- kingfisher | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- knapsack | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- lagoon | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- latch | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- lava | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- levee | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- lichen | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- locket | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- loom | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- lynx | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mango | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mantle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- maple | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- marsh | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mast | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- moat | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mortar | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mosaic | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- mulberry | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- muzzle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- nectar | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- nettle | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- nozzle | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- nutmeg | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- oar | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- oasis | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- olive | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- ore | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- otter | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- pagoda | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- parchment | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- parsley | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- pasture | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- pebble | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- pelican | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- pendant | L5:不能(def=勉强；ex=能；词频不在COCA5000内/偏低频) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- pier | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- pigment | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- carefully | L5:勉强(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- accept | L5:能(def=能；ex=能) | L6:⚠️(空格题易被同义泛化词抢答) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- quite | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏易(可作为同level的缓冲词/复习词)
-- rise | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- although | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- unless | L5:能(def=能；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:合适(前置基本够)
-- seldom | L5:勉强(def=能；ex=能) | L6:✅(线索相对明确) | L7:⚠️(敏感点:war) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
-- eventually | L5:能(def=勉强；ex=能) | L6:✅(线索相对明确) | L7:OK(无明显冲突) | L8:偏难(建议：先铺 think/know/feel/worried 等，再上更学术/抽象词)
+说明：每个词一行（不跳过）。格式：Word — L5(做题理解) | L6(例句反测) | L7(文化) | L8(学习路径)
+
+- describe — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- explain — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- solve — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- complete — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- arrange — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- decide — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- suppose — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- mention — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- realize — L5:勉强；卡: 概念偏抽象 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- repeat — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- separate — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- struggle — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- succeed — L5:勉强；卡: tried | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- surround — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- wander — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- ancient — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- modern — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- brilliant — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- fragile — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- sturdy — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- swift — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- anxious — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- setting — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- plot — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- paragraph — L5:不能；卡: sentences | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000);拼写偏长
+- sentence — L5:勉强；卡: makes | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- fiction — L5:勉强；卡: made | L6:能；句内有推理线索 | L7:OK | L8:OK
+- nonfiction — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；拼写偏长
+- main idea — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- detail — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cause — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- effect — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- habitat — L5:勉强；卡: lives | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- insect — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- mammal — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- reptile — L5:勉强；卡: scales | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- liquid — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- gas — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- energy — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- force — L5:勉强；卡: moves | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- magnet — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- soil — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- climate — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- season — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- citizen — L5:勉强；卡: 概念偏抽象 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- government — L5:勉强；卡: makes,rules | L6:勉强；多词可替换(更像记忆句) | L7:注意；政治词 | L8:OK
+- law — L5:不能；卡: made | L6:勉强；多词可替换(更像记忆句) | L7:注意；政治词 | L8:OK
+- rule — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- map — L5:勉强；卡: places | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- globe — L5:勉强；卡: ball-shaped | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- continent — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000);拼写偏长
+- country — L5:勉强；卡: 概念偏抽象 | L6:不能；例句太短(遮词后信息不足) | L7:注意；政治词 | L8:OK
+- state — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- city — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- border — L5:勉强；卡: places | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- freedom — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:注意；政治词 | L8:OK
+- election — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:注意；政治词 | L8:OK
+- subtract — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- multiply — L5:勉强；卡: times | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- divide — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- sum — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- graph — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- chart — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- data — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- length — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- width — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- height — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- area — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- shape — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- angle — L5:不能；卡: lines,measured,degrees | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- triple — L5:勉强；卡: times | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- gradually — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000);拼写偏长
+- immediately — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- afterward — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000);拼写偏长
+- recently — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- frequently — L5:勉强；卡: times | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- rarely — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- occasionally — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- however — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- therefore — L5:勉强；卡: 概念偏抽象 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- otherwise — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- turn into — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- look forward to — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- make up — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- point out — L5:勉强；卡: noticed | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- come across — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- break down — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；拼写偏长
+- carry out — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- set up — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- courageous — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- honest — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- loyal — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- selfish — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- thoughtful — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- determined — L5:勉强；卡: giving | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；拼写偏长
+- about — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- act — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- action — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- add — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- address — L5:勉强；卡: lives | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- adult — L5:勉强；卡: grown-up | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- afraid — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- again — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- agree — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- alive — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- alone — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- also — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- always — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- any — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- appear — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- arm — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- arrive — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- ask — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- asleep — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- attack — L5:能 | L6:能；句内有推理线索 | L7:注意；暴力/军事 | L8:OK
+- attempt — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- attention — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- awake — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- backpack — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- balance — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- balloon — L5:勉强；卡: rubber | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- bare — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- bargain — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- base — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- basic — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- battle — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:注意；暴力/军事 | L8:OK
+- beach — L5:勉强；卡: sandy | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- beam — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- because — L5:勉强；卡: 概念偏抽象 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- become — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- beg — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- begin — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- behavior — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- believe — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- better — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bicycle — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- blink — L5:勉强；卡: eyes | L6:能；句内有推理线索 | L7:OK | L8:OK
+- block — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- blossom — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bossy — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bounce — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- breakfast — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- breathe — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bright — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bring — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- broad — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- build — L5:勉强；卡: putting | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bundle — L5:勉强；卡: tied | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- butter — L5:勉强；卡: made | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- cactus — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- calendar — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- camel — L5:勉强；卡: humps | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- camp — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- capture — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- careful — L5:勉强；卡: mistakes | L6:能；句内有推理线索 | L7:OK | L8:OK
+- carpet — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- cart — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- carve — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- ceiling — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- center — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- chance — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- change — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- choice — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- circle — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- climb — L5:勉强；卡: feet | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- close — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- clue — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- coast — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- comfort — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- common — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- complain — L5:勉强；卡: unhappy | L6:能；句内有推理线索 | L7:OK | L8:OK
+- confuse — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- connect — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- corner — L5:勉强；卡: sides | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cost — L5:勉强；卡: takes | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cotton — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- course — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- crash — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- make — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- crumble — L5:勉强；卡: pieces | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cuddle — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- custom — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- cycle — L5:勉强；卡: 概念偏抽象 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- danger — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- dark — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- deal — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- delay — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- delight — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- deny — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- depend — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- destroy — L5:勉强；卡: cannot | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- dig — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- dinner — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- find — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- distance — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- dizzy — L5:勉强；卡: spinning | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- dollar — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- donate — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- doorway — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- downstairs — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- drift — L5:勉强；卡: carried | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- drown — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- earn — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- earth — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- edge — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- enter — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- escape — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- exact — L5:勉强；卡: mistakes | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- fair — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- famous — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- far — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- farm — L5:勉强；卡: raised | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- fence — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- field — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- fill — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- finish — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- fit — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- flour — L5:勉强；卡: baking | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- foam — L5:勉强；卡: bubbles | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- fold — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- follow — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- fork — L5:勉强；卡: prongs | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- friendship — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000);拼写偏长
+- frighten — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- front — L5:勉强；卡: faces | L6:能；句内有推理线索 | L7:OK | L8:OK
+- frozen — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- gentleman — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- glad — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- glide — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- glitter — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- goal — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- grasp — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- greet — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- grin — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- groan — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- grow — L5:勉强；卡: bigger | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- guard — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- guess — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- habit — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- hallway — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- handful — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- harm — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- harvest — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- heal — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- hidden — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- hint — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- history — L5:勉强；卡: stories | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- holiday — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- hop — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- horizon — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- hurt — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- hurry — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- idea — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- ignore — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- include — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- inside — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- invite — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- jacket — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- judge — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- jump — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- key — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- kind — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- knee — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- kneel — L5:勉强；卡: knees | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- knock — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- lantern — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- laugh — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- leaf — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- leak — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- learn — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- least — L5:勉强；卡: smallest | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- library — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- limit — L5:勉强；卡: farthest | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- listen — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- lunch — L5:勉强；卡: midday | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- machine — L5:勉强；卡: moving | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- magic — L5:能 | L6:不能；词偏难且例句线索不够 | L7:注意；魔法/巫师 | L8:偏难/不合适；频次偏低(rank>3000)
+- major — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- marble — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- mask — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- matter — L5:勉强；卡: takes | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- memory — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- message — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- minute — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- mirror — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- mist — L5:勉强；卡: makes | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- mix — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- model — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- mood — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- move — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- mystery — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- nature — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- near — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- neatly — L5:勉强；卡: tidy | L6:能；句内有推理线索 | L7:OK | L8:OK
+- never — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- noisy — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- north — L5:勉强；卡: compass | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- note — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- object — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- ocean — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- offer — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- opinion — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- opposite — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- order — L5:勉强；卡: arranged | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- outside — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- over — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- palace — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- path — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- pause — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- picnic — L5:勉强；卡: eaten | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- planet — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- plastic — L5:勉强；卡: bottles | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- playground — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- polite — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- praise — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- prepare — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- price — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- prize — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- protect — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- quiet — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- quiz — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- raise — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- range — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- reach — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- recycle — L5:勉强；卡: making | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- refund — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- relax — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- rescue — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- respect — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- result — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- return — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- river — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- role — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- route — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- safe — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- sail — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- save — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- scared — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- scatter — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- score — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- shade — L5:勉强；卡: cooler | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- shore — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- signal — L5:勉强；卡: gives | L6:能；句内有推理线索 | L7:OK | L8:OK
+- simple — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- slippery — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- smell — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- snap — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- soak — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- special — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- store — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- strong — L5:勉强；卡: having | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- stuck — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- suggest — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- support — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- surface — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- swallow — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- sweep — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- sweet — L5:勉强；卡: tasting | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- talent — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- taste — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- team — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- tease — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- temperature — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- tend — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- tightly — L5:勉强；卡: fitting | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- little — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- track — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- travel — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- trick — L5:勉强；卡: surprises | L6:不能；例句太短(遮词后信息不足) | L7:注意；魔法/巫师 | L8:OK
+- trust — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- turn — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- under — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- upstairs — L5:勉强；卡: higher | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- usual — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- visit — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- voice — L5:勉强；卡: talking | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- vote — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:注意；政治词 | L8:OK
+- wait — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- warmth — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- warn — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- waterfall — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- weather — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- wheel — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- yesterday — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- admiral — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:注意；暴力/军事 | L8:偏难/不合适；领域知识
+- album — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- alley — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- amber — L5:勉强；卡: gold-yellow | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- antenna — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- applause — L5:勉强；卡: clapping,liked | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- apricot — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- arch — L5:勉强；卡: curved | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- atlas — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- avalanche — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长;领域知识
+- badge — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bagpipe — L5:勉强；卡: pipes | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- balcony — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- banjo — L5:勉强；卡: pluck | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- banner — L5:勉强；卡: pictures | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- basin — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bay — L5:勉强；卡: curves | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- beacon — L5:勉强；卡: guides | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bead — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- beeswax — L5:勉强；卡: wax,made | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bellows — L5:勉强；卡: bigger | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- binoculars — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- birch — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- biscuit — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- blacksmith — L5:勉强；卡: makes | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长;领域知识
+- blaze — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- blueprint — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长;领域知识
+- bluff — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bobsled — L5:不能；卡: sled,races,icy | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bolt — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bonfire — L5:勉强；卡: built | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bookshelf — L5:勉强；卡: kept | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- bracelet — L5:勉强；卡: worn | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bramble — L5:勉强；卡: prickly,berries | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- brass — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- bridle — L5:勉强；卡: straps,horses | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- broth — L5:勉强；卡: made,vegetables | L6:能；句内有推理线索 | L7:OK | L8:OK
+- bugle — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:注意；暴力/军事 | L8:OK
+- bulb — L5:勉强；卡: underground | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bulletin — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- bunker — L5:勉强；卡: built,underground | L6:能；句内有推理线索 | L7:OK | L8:OK
+- buoy — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- canal — L5:勉强；卡: waterway,dug | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- canopy — L5:勉强；卡: made,leaves | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- caribou — L5:勉强；卡: lives,places | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- carousel — L5:勉强；卡: horses,circles | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- cartwheel — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- cashew — L5:勉强；卡: curved | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cedar — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cellar — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- chapel — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:注意；宗教场景 | L8:OK
+- chariot — L5:勉强；卡: two-wheeled,horses | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- chestnut — L5:勉强；卡: roast | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- chisel — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- chord — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- cider — L5:勉强；卡: made,apples | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- clam — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cloak — L5:勉强；卡: worn | L6:不能；例句太短(遮词后信息不足) | L7:注意；魔法/巫师 | L8:OK
+- cobblestone — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- cocoon — L5:不能；卡: makes,becomes,moth | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- comet — L5:勉强；卡: glowing,flies | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- cork — L5:勉强；卡: bottles | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- corral — L5:勉强；卡: fenced,horses | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cradle — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- crest — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- crumb — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- cuff — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- cypress — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- dagger — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:注意；暴力/军事 | L8:OK
+- dandelion — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- deck — L5:能 | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- delta — L5:勉强；卡: shaped,triangle | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- dinghy — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- dome — L5:勉强；卡: shaped | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- donkey — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- doorbell — L5:勉强；卡: makes | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- drawbridge — L5:勉强；卡: raised | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- drumstick — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- dune — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- easel — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- elm — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- ember — L5:勉强；卡: glowing | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- emerald — L5:勉强；卡: gemstone | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- falcon — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- fiddle — L5:勉强；卡: violin | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- fig — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- fjord — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；领域知识
+- flint — L5:勉强；卡: makes | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- forge — L5:勉强；卡: shaped | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；领域知识
+- fresco — L5:勉强；卡: plaster | L6:勉强；多词可替换(更像记忆句) | L7:注意；宗教场景 | L8:OK
+- gale — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- galley — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- garnet — L5:勉强；卡: gemstone | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- gazelle — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- geyser — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；领域知识
+- gong — L5:勉强；卡: makes | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- granite — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- grapevine — L5:勉强；卡: grapes | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- gravel — L5:勉强；卡: stones | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- griddle — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- grove — L5:勉强；卡: trees | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- gutter — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- hammock — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- harp — L5:勉强；卡: pluck | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- hazel — L5:勉强；卡: brown-green | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- hearth — L5:勉强；卡: fireplace | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- heron — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- hickory — L5:勉强；卡: edible | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- hilltop — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- holly — L5:勉强；卡: leaves,berries | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- honeycomb — L5:勉强；卡: wax | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- horseshoe — L5:勉强；卡: u-shaped,horses | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长;领域知识
+- hourglass — L5:勉强；卡: timer | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- husk — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- ibis — L5:勉强；卡: wading,curved | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- igloo — L5:勉强；卡: dome-shaped,made | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- ivy — L5:勉强；卡: leaves | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- jade — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- javelin — L5:勉强；卡: spear | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；领域知识
+- kelp — L5:勉强；卡: seaweed | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- kennel — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- kindle — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- kingfisher — L5:勉强；卡: dives | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；拼写偏长
+- knapsack — L5:勉强；卡: carried | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- lagoon — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- latch — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- lava — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- levee — L5:勉强；卡: built | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- lichen — L5:勉强；卡: plant-like,trees | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- locket — L5:勉强；卡: necklace | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- loom — L5:勉强；卡: weave | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- lynx — L5:勉强；卡: tufted | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- mango — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- mantle — L5:勉强；卡: fireplace | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- maple — L5:勉强；卡: leaves | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- marsh — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- mast — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- moat — L5:勉强；卡: ditch | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- mortar — L5:勉强；卡: paste,stones | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- mosaic — L5:勉强；卡: made,pieces | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- mulberry — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- muzzle — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- nectar — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- nettle — L5:勉强；卡: stings | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- nozzle — L5:勉强；卡: comes | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- nutmeg — L5:勉强；卡: spice | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- oar — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- oasis — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- olive — L5:勉强；卡: oval | L6:不能；词偏难且例句线索不够 | L7:OK | L8:偏难/不合适；频次偏低(rank>3000)
+- ore — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- otter — L5:勉强；卡: playful | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- pagoda — L5:勉强；卡: asia | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:偏难/不合适；领域知识
+- parchment — L5:勉强；卡: made | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长;领域知识
+- parsley — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- pasture — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- pebble — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- pelican — L5:勉强；卡: pouch | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- pendant — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- pier — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- pigment — L5:勉强；卡: gives | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- carefully — L5:勉强；卡: mistakes | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- accept — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- quite — L5:能 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- rise — L5:勉强；卡: higher | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- although — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
+- unless — L5:勉强；卡: 概念偏抽象 | L6:能；句内有推理线索 | L7:OK | L8:OK
+- seldom — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- eventually — L5:能 | L6:勉强；多词可替换(更像记忆句) | L7:OK | L8:OK
