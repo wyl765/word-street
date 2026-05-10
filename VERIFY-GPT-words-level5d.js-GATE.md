@@ -2,6 +2,11 @@
 
 每词一行：word — L5(def理解/ex猜词) | L6(例句反向测试) | L7(文化敏感) | L8(学习路径)
 
+复核要点（面向MAP英语197/约2年级中国ESL孩子）:
+- 该批词整体偏抽象/书面：多数L5(def/ex)会卡在定义里的抽象名词、拉丁词根派生、以及法律/政治术语。
+- L6常见问题：例句过“模板化”（plan/decision/rule/agree 等），遮词后不够唯一；建议加入更具辨识度的动作/物品/场景线索或同义改写线索。
+- L7敏感主要集中在：战争/军事、政治/法律程序、宗教信仰、死亡/丧葬、奴役/压迫；其余多为OK。
+
 001. accusatory — L5:def能/ex勉强(ex卡:tone/guilty) | L6:不能(模板场景，容易多词都能套) | L7:OK | L8:偏难(需前置/多轮复现)
 002. acidity — L5:def勉强/ex不能(def卡:acid; ex卡:sour/lemon) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:acid)
 003. acquaintance — L5:def能/ex能(def卡:slightly; ex卡:regularly/hang) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:slightly)
@@ -25,7 +30,7 @@
 021. avarice — L5:def勉强/ex不能(def卡:wealth/extreme; ex卡:poorest/king's) | L6:能(含明确举例/引用) | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:wealth/extreme)
 022. avid — L5:def勉强/ex不能(def卡:eager/keen; ex卡:finishes/reader) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:eager/keen)
 023. axiom — L5:def勉强/ex勉强(def卡:accepted/proof; ex卡:math/greater) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:accepted/proof)
-024. belligerent — L5:def勉强/ex不能(def卡:hostile; ex卡:classmates/bully) | L6:勉强 | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:hostile)
+024. belligerent — L5:def勉强/ex不能(def卡:hostile; ex卡:classmates/bully) | L6:勉强 | L7:注意(打架/霸凌语境) | L8:偏难(书面情绪态度词)(前置:hostile)
 025. benevolence — L5:def勉强/ex不能(def卡:wanting; ex卡:playground/donors) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:wanting)
 026. bewilder — L5:def不能/ex不能(def卡:confuse; ex卡:bewildered/trick) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:confuse)
 027. blight — L5:def不能/ex勉强(def卡:spoils/damages; ex卡:potato/crop) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:spoils/damages)
@@ -43,7 +48,7 @@
 039. clandestine — L5:def勉强/ex不能(def卡:secretly/hidden; ex卡:bookstore/spies) | L6:不能(模板场景，容易多词都能套) | L7:OK | L8:偏难(需前置/多轮复现)(前置:secretly/hidden)
 040. coalesce — L5:def能/ex勉强(ex卡:streams/valley) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)
 041. cogent — L5:def不能/ex不能(def卡:convincing/logical; ex卡:recess/argument) | L6:不能(模板场景，容易多词都能套) | L7:OK | L8:偏难(需前置/多轮复现)(前置:convincing/logical)
-042. cognition — L5:def勉强/ex不能(def卡:gaining/mental; ex卡:puzzles/solving) | L6:勉强 | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:gaining/mental)
+042. cognition — L5:def勉强/ex不能(def卡:mental/process; ex卡:puzzles/problem-solving) | L6:勉强 | L7:OK | L8:不合适(抽象学术词；对MAP197太概念)(前置:mental/thinking)
 043. coherence — L5:def勉强/ex不能(def卡:logical/consistent; ex卡:lacked/randomly) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:logical/consistent)
 044. commemoration — L5:def勉强/ex不能(def卡:recall; ex卡:town's/statue) | L6:能(含明确举例/引用) | L7:OK | L8:偏难(需前置/多轮复现)(前置:recall)
 045. commencement — L5:def勉强/ex能(def卡:graduation/ceremony; ex卡:exciting) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:graduation/ceremony)
@@ -53,7 +58,7 @@
 049. compliance — L5:def能/ex不能(def卡:ordered; ex卡:expects/safety) | L6:不能(模板场景，容易多词都能套) | L7:OK | L8:合适(但需支架)(前置:ordered)
 050. concession — L5:def不能/ex不能(def卡:disagreement/agree; ex卡:concessions/sides) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:disagreement/agree)
 051. concord — L5:def勉强/ex勉强(def卡:harmony/agreement; ex卡:rival/agreed) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:harmony/agreement)
-052. condemnation — L5:def不能/ex不能(def卡:disapproval/declaring; ex卡:principal's/bullying) | L6:能(含明确举例/引用) | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:disapproval/declaring)
+052. condemnation — L5:def不能/ex不能(def卡:strong disapproval; ex卡:principal's/bullying) | L6:能(含明确举例/引用) | L7:OK | L8:偏难(抽象名词；需先会condemn/criticize)(前置:disapproval)
 053. condescending — L5:def不能/ex不能(def卡:smarter/acting; ex卡:insulted/classmates) | L6:不能(模板场景，容易多词都能套) | L7:OK | L8:偏难(需前置/多轮复现)(前置:smarter/acting)
 054. confluence — L5:def勉强/ex勉强(def卡:rivers; ex卡:rivers) | L6:能(线索词:rivers/two) | L7:OK | L8:偏难(需前置/多轮复现)(前置:rivers)
 055. conjecture — L5:def不能/ex勉强(def卡:incomplete/facts; ex卡:remained/proof) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:incomplete/facts)
@@ -134,7 +139,7 @@
 130. impunity — L5:def勉强/ex不能(def卡:punishment/freedom; ex卡:bully/acted) | L6:不能(模板场景，容易多词都能套) | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:punishment/freedom)
 131. inadvertent — L5:def不能/ex勉强(def卡:accidental/purpose; ex卡:delay/mistake) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:accidental/purpose)
 132. inception — L5:def能/ex勉强(ex卡:fifty/grown) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)
-133. inclination — L5:def不能/ex不能(def卡:tendency/desire; ex卡:robotics/toward) | L6:勉强 | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:tendency/desire)
+133. inclination — L5:def不能/ex不能(def卡:tendency/desire; ex卡:robotics/toward) | L6:勉强 | L7:OK | L8:偏难(抽象倾向；更常先学tend/want)(前置:tendency/desire)
 134. indictment — L5:def勉强/ex勉强(def卡:formal/crime; ex卡:accused/jury) | L6:勉强 | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:formal/crime)
 135. indignation — L5:def勉强/ex勉强(def卡:unfair/anger; ex卡:unfair/filled) | L6:能(线索词:unfair) | L7:OK | L8:偏难(需前置/多轮复现)(前置:unfair/anger)
 136. inertia — L5:def不能/ex勉强(def卡:tendency/resist; ex卡:stays/moves) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:tendency/resist)
@@ -231,7 +236,7 @@
 227. validate — L5:def勉强/ex勉强(def卡:acceptable/prove; ex卡:helped/theory) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:acceptable/prove)
 228. vehement — L5:def勉强/ex不能(def卡:anger/feelings; ex卡:unfair/impressed) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:anger/feelings)
 229. viable — L5:def勉强/ex不能(def卡:practical/capable; ex卡:fuels/fossil) | L6:勉强 | L7:OK | L8:合适(但需支架)(前置:practical/capable)
-230. vigilant — L5:def勉强/ex不能(def卡:careful/danger; ex卡:lifeguard/remained) | L6:勉强 | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:careful/danger)
+230. vigilant — L5:def勉强/ex不能(def卡:alert/watch; ex卡:lifeguard/remained) | L6:勉强 | L7:OK | L8:偏难(更常教careful/alert；本词偏书面)(前置:alert)
 231. vindicate — L5:def不能/ex不能(def卡:blamed/fault; ex卡:vindicated/falsely) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:blamed/fault)
 232. voracious — L5:def勉强/ex不能(def卡:eager/wanting; ex卡:learner) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:eager/wanting)
 233. wane — L5:def勉强/ex能(def卡:decrease/importance) | L6:不能(模板场景，容易多词都能套) | L7:OK | L8:偏难(需前置/多轮复现)(前置:decrease/importance)
@@ -256,7 +261,7 @@
 252. congenial — L5:def不能/ex勉强(def卡:agreeable/pleasant; ex卡:atmosphere/camp) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:agreeable/pleasant)
 253. connive — L5:def不能/ex不能(def卡:dishonest/secretly; ex卡:connived/quiz) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:dishonest/secretly)
 254. contrite — L5:def能/ex不能(ex卡:heartfelt/apology) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)
-255. conundrum — L5:def勉强/ex能(def卡:confusing/solve; ex卡:fit) | L6:勉强 | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:confusing/solve)
+255. conundrum — L5:def勉强/ex能(def卡:confusing/problem; ex卡:fit) | L6:勉强 | L7:OK | L8:偏难(近义词problem/puzzle更常用)(前置:problem/puzzle)
 256. cosmopolitan — L5:def能/ex勉强(ex卡:languages/spoken) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)
 257. credulous — L5:def能/ex勉强(def卡:proof/willing; ex卡:tale/tall) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:proof/willing)
 258. debacle — L5:def勉强/ex勉强(def卡:disaster/failure; ex卡:ruined/rain) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:disaster/failure)
@@ -280,7 +285,7 @@
 276. acclimate — L5:def勉强/ex勉强(def卡:adjust/setting; ex卡:desert/weather) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:adjust/setting)
 277. agnostic — L5:def勉强/ex能(def卡:believes/exists; ex卡:faith) | L6:勉强 | L7:注意(宗教) | L8:偏成人话题(需家长接受度)(前置:believes/exists)
 278. alacrity — L5:def不能/ex不能(def卡:willingness/eager; ex卡:recess/accepted) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:willingness/eager)
-279. arbitrate — L5:def不能/ex勉强(def卡:disagreement/neutral; ex卡:dispute/teacher) | L6:不能(模板场景，容易多词都能套) | L7:注意(政治/法律/暴力) | L8:偏成人话题(需家长接受度)(前置:disagreement/neutral)
+279. arbitrate — L5:def不能/ex勉强(def卡:neutral/judge; ex卡:dispute/teacher) | L6:不能(模板场景，易被mediate/settle混淆) | L7:OK | L8:不合适(正式/法律用语；先学mediate/solve)(前置:mediate/solve)
 280. ascendancy — L5:def不能/ex勉强(def卡:sway/growing; ex卡:team's/wins) | L6:能(含明确举例/引用) | L7:OK | L8:偏难(需前置/多轮复现)(前置:sway/growing)
 281. whimsical — L5:def不能/ex不能(def卡:playfully/fanciful; ex卡:frogs/statues) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:playfully/fanciful)
 282. zenith — L5:def能/ex不能(def卡:peak/highest; ex卡:overhead/shining) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:peak/highest)
