@@ -1,0 +1,227 @@
+# VERIFY-GPT — words-level2c.js — GATE
+
+说明（简写）：
+**L5(10岁ESL/MAP197做题感)**：def理解/例句猜词 → 能 / 勉强 / 不能（卡点）
+**L6(例句反向测试)**：cloze后能否唯一锁定 → 唯一 / 不唯一（可能混淆词）
+**L7(文化敏感)**：OK / 提醒（点）
+**L8(学习路径)**：合适 / 偏难 / 偏易（原因/前置）
+
+- achieve — L5: 勉强（def“finish”可懂但抽象；例句=能）; L6: 唯一; L7: OK; L8: 合适（可先学 finish/reach）
+- adjust — L5: 勉强（def“change a little”可；例句=能）; L6: 不唯一（change/fix）；L7: OK; L8: 合适（先有 change）
+- adopt — L5: 不能（def“take as your own”抽象；例句=能但易当成 buy）; L6: 不唯一（get/buy/take）；L7: OK; L8: 偏难（建议先 learn take/keep）
+- affect — L5: 不能（抽象“cause a change”；例句=勉强）; L6: 不唯一（change/influence）；L7: OK; L8: 偏难（学术词，建议后置）
+- afford — L5: 勉强（和 money 绑定才懂；例句=能）; L6: 唯一; L7: OK; L8: 合适（先有 money/save）
+- alarm — L5: 能; L6: 唯一; L7: OK; L8: 合适
+- alert — L5: 勉强（动词=warn；例句=能）; L6: 不唯一（warn/tell）；L7: OK; L8: 合适（先会 warn）
+- allowance — L5: 不能（概念陌生；例句=勉强）; L6: 不唯一（pocket money/money）；L7: OK; L8: 偏难（中国孩子不一定有“weekly allowance”背景）
+- amaze — L5: 能; L6: 不唯一（surprise/wow）；L7: OK; L8: 合适
+- appeal — L5: 不能（这里是“serious ask”，易和“喜欢/吸引”混）; L6: 不唯一（ask/beg/request）；L7: OK; L8: 偏难（多义词，建议后置或换词）
+- appetite — L5: 勉强（想吃东西的感觉可；例句=能）; L6: 不唯一（hunger）；L7: OK; L8: 合适（先学 hungry）
+- applaud — L5: 勉强（clap可，但词形长；例句=能）; L6: 唯一; L7: OK; L8: 合适
+- appropriate — L5: 不能（抽象“right/fitting”；词形长）; L6: 不唯一（right/good/suitable）；L7: OK; L8: 偏难（建议后置或简化为 right/suitable）
+- assist — L5: 勉强（=help；例句=能）; L6: 不唯一（help）；L7: OK; L8: 合适（可做同义替换练习）
+- assume — L5: 不能（“think true without checking”较抽象）; L6: 不唯一（think/guess/believe）；L7: OK; L8: 偏难（更像学术写作词）
+- assure — L5: 不能（tell someone everything fine；不如“promise/ tell”直观）; L6: 不唯一（tell/promise）；L7: OK; L8: 偏难（先学 promise）
+- authority — L5: 不能（抽象“power to make rules”）; L6: 不唯一（power/rules）；L7: OK; L8: 偏难（更适合高年级）
+- available — L5: 勉强（能用/有空 两义易混；例句=能）; L6: 不唯一（free/empty）；L7: OK; L8: 合适（建议先 free/empty）
+- aware — L5: 不能（抽象“knowing”）; L6: 不唯一（know/notice）；L7: OK; L8: 偏难（建议后置）
+- ballot — L5: 不能（投票背景弱；词形陌生）; L6: 不唯一（vote/paper）；L7: 提醒（投票场景可，但尽量校园版）; L8: 偏难（建议换更常见 vote）
+- ban — L5: 勉强（=not allowed；例句=能）; L6: 不唯一（forbid/not allow）；L7: OK; L8: 合适
+- barrier — L5: 勉强（=block；例句=能）; L6: 不唯一（wall/fence）；L7: OK; L8: 合适
+- blame — L5: 能; L6: 不唯一（fault）；L7: OK; L8: 合适
+- blend — L5: 勉强（=mix，厨房语境可）; L6: 不唯一（mix）；L7: OK; L8: 合适（先学 mix）
+- bother — L5: 勉强（=annoy；例句=能）; L6: 不唯一（annoy/disturb）；L7: OK; L8: 合适
+- caution — L5: 不能（名词抽象；不如 careful 直观）; L6: 不唯一（careful/warning）；L7: OK; L8: 偏难（建议先 careful）
+- century — L5: 勉强（100 years可懂；例句=能）; L6: 唯一; L7: OK; L8: 合适
+- champion — L5: 能; L6: 不唯一（winner）；L7: OK; L8: 合适
+- charm — L5: 不能（“quality makes like you”抽象；还会联想到“护身符”）; L6: 不唯一（cute/nice）；L7: OK; L8: 偏难（多义）
+- circulate — L5: 不能（抽象；发音难；例句涉及血液更难）; L6: 不唯一（move/flow）；L7: OK; L8: 偏难（例句知识门槛高）
+- circumstance — L5: 不能（抽象；词长）; L6: 不唯一（situation）；L7: OK; L8: 偏难（建议后置）
+- commit — L5: 不能（这里是“promise”，常见义还可能是“犯罪”）; L6: 不唯一（promise/decide）；L7: 提醒（避免带 crime 义的联想）; L8: 偏难（多义词，建议换 promise/keep）
+- communicate — L5: 勉强（=talk/share；例句=能）; L6: 不唯一（talk/say）；L7: OK; L8: 合适
+- compassion — L5: 不能（抽象；和 kindness/feel sorry 混）; L6: 不唯一（kindness/help）；L7: OK; L8: 偏难（建议后置）
+- compete — L5: 勉强（=try to win；例句=能）; L6: 不唯一（race/play）；L7: OK; L8: 合适
+- complex — L5: 不能（抽象“many parts”；例句还用 code 加难度）; L6: 不唯一（hard/difficult）；L7: OK; L8: 偏难（例句可换更生活）
+- concern — L5: 勉强（=worry；例句=能）; L6: 不唯一（worry）；L7: OK; L8: 合适
+- confirm — L5: 勉强（=make sure/ say true；例句=能）; L6: 不唯一（check）；L7: OK; L8: 合适
+- conquer — L5: 不能（词义偏“征服”，抽象/历史感；例句=克服恐惧还行）; L6: 不唯一（overcome）；L7: 提醒（避免战争语境）; L8: 偏难（建议用 overcome）
+- conscious — L5: 不能（医学/抽象；和 conscious of 混）; L6: 不唯一（awake）；L7: OK; L8: 偏难
+- conserve — L5: 不能（抽象“use less”；词形长）; L6: 不唯一（save）；L7: OK; L8: 偏难（建议先 save）
+- consist — L5: 不能（语法结构 consist of 门槛）; L6: 不唯一（have/include）；L7: OK; L8: 偏难（需要 of 结构前置）
+- constant — L5: 不能（抽象；和 continuous 混）; L6: 不唯一（always/keep）；L7: OK; L8: 偏难
+- construct — L5: 勉强（=build；例句=能）; L6: 不唯一（build/make）；L7: OK; L8: 合适（先学 build）
+- contain — L5: 勉强（=have inside；例句=能）; L6: 不唯一（have）；L7: OK; L8: 合适
+- contest — L5: 能; L6: 不唯一（competition/game）；L7: OK; L8: 合适
+- contrast — L5: 不能（抽象“show difference”；动词用法难）; L6: 不唯一（compare/different）；L7: OK; L8: 偏难（建议先 learn different/compare）
+- contribute — L5: 不能（抽象“give to help”；词长）; L6: 不唯一（give/donate）；L7: OK; L8: 偏难（先学 donate/give）
+- convenient — L5: 不能（抽象；词长）; L6: 不唯一（easy/near）；L7: OK; L8: 偏难
+- core — L5: 勉强（苹果核可；抽象“核心”不行）; L6: 不唯一（center）；L7: OK; L8: 合适（先学 center/middle）
+- courteous — L5: 不能（词形长；和 polite 不对应）; L6: 不唯一（polite/kind）；L7: OK; L8: 偏难（建议用 polite）
+- credit — L5: 不能（多义：赞扬/学分/信用卡；def= praise 还行但易混）; L6: 不唯一（praise/thanks）；L7: OK; L8: 偏难（多义词）
+- crisis — L5: 不能（抽象“big trouble”；词长）; L6: 不唯一（problem/disaster）；L7: OK; L8: 偏难
+- critical — L5: 不能（多义：重要/挑剔；def=important）; L6: 不唯一（important）；L7: OK; L8: 偏难（多义）
+- debate — L5: 勉强（=talk different opinions；例句=能）; L6: 不唯一（talk/discuss）；L7: OK; L8: 合适（先学 discuss）
+- decade — L5: 勉强（10 years可懂；例句=能）; L6: 唯一; L7: OK; L8: 合适
+- decline — L5: 不能（多义：下降/拒绝；这里只是拒绝）; L6: 不唯一（say no/refuse）；L7: OK; L8: 偏难（多义）
+- dedicate — L5: 不能（抽象“give all effort”；词形长）; L6: 不唯一（spend/focus）；L7: OK; L8: 偏难
+- definite — L5: 不能（抽象“sure/certain”；词形长）; L6: 不唯一（sure/certain）；L7: OK; L8: 偏难
+- deliberate — L5: 不能（抽象“on purpose”；发音难）; L6: 不唯一（on purpose/choose）；L7: OK; L8: 偏难（建议用 on purpose）
+- deposit — L5: 勉强（=put money in；例句=能）; L6: 不唯一（put/save）；L7: OK; L8: 合适（银行语境可）
+- deserve — L5: 勉强（=earned；例句=能）; L6: 不唯一（should/get）；L7: OK; L8: 合适
+- desire — L5: 不能（抽象“strong wish”；词形长）; L6: 不唯一（want/wish）；L7: OK; L8: 偏难（建议先 want/wish）
+- desperate — L5: 不能（情绪强度词；抽象）; L6: 不唯一（need badly/thirsty）；L7: OK; L8: 偏难
+- detect — L5: 不能（抽象“notice hidden”；词形长）; L6: 不唯一（find/see/notice）；L7: OK; L8: 偏难
+- determine — L5: 不能（抽象“decide/figure out”；词长）; L6: 不唯一（decide）；L7: OK; L8: 偏难
+- dignity — L5: 不能（抽象；中文“尊严”概念也偏大）; L6: 不唯一（respect/proud）；L7: OK; L8: 偏难
+- dilemma — L5: 不能（抽象“hard choice”；词形长）; L6: 不唯一（choice/problem）；L7: OK; L8: 偏难
+- dimension — L5: 不能（概念+复数 dimensions；测量词长）; L6: 不唯一（size/length/width）；L7: OK; L8: 偏难
+- discipline — L5: 不能（抽象自律/纪律 两义）; L6: 不唯一（practice/rules）；L7: OK; L8: 偏难（多义）
+- discourage — L5: 不能（词长；否定前缀 dis-）; L6: 不唯一（make sad/stop）；L7: OK; L8: 偏难
+- display — L5: 勉强（=show；例句=能）; L6: 不唯一（show/put）；L7: OK; L8: 合适
+- dispute — L5: 不能（抽象“fight about who is right”；词长）; L6: 不唯一（argue/fight）；L7: OK; L8: 偏难
+- distinct — L5: 不能（抽象“clearly different”；词形长）; L6: 不唯一（different/unique）；L7: OK; L8: 偏难
+- distinguish — L5: 不能（更难的“区分”；词长）; L6: 不唯一（tell difference/see）；L7: OK; L8: 偏难（应在 distinct 之后且仍偏难）
+- distribute — L5: 不能（词长；=hand out）; L6: 不唯一（give/pass）；L7: OK; L8: 偏难（建议用 hand out）
+- division — L5: 勉强（数学“除法”孩子可能会；例句=能）; L6: 唯一; L7: OK; L8: 合适
+- document — L5: 勉强（=important paper；护照例句可）; L6: 不唯一（paper/passport）；L7: OK; L8: 合适（注意 doc/doctor 混）
+- doubt — L5: 勉强（=not sure；例句=能）; L6: 不唯一（not sure）；L7: OK; L8: 合适
+- drama — L5: 勉强（戏剧可；“a lot of excitement”第二义容易乱）; L6: 不唯一（play/show）；L7: OK; L8: 合适（建议只保留 stage/play 义）
+- drastic — L5: 不能（抽象“big sudden”；词形长）; L6: 不唯一（big/sudden）；L7: OK; L8: 偏难
+- dread — L5: 不能（较书面；和 fear 混）; L6: 不唯一（fear/hate）；L7: OK; L8: 偏难
+- duty — L5: 勉强（=must do；例句=能）; L6: 不唯一（job/need to）；L7: OK; L8: 合适
+- edible — L5: 勉强（=safe to eat；词形可猜）; L6: 不唯一（safe/good）；L7: OK; L8: 合适
+- efficient — L5: 不能（抽象“without wasting”；词形长）; L6: 不唯一（fast/good）；L7: OK; L8: 偏难
+- elaborate — L5: 不能（词长；=many details）; L6: 不唯一（fancy/complex）；L7: OK; L8: 偏难
+- eliminate — L5: 不能（=get rid of；词长）; L6: 不唯一（remove/clear）；L7: OK; L8: 偏难
+- embarrass — L5: 勉强（=feel shy；例句=能）; L6: 不唯一（shy/ashamed）；L7: OK; L8: 合适
+- emerge — L5: 不能（=come out; 书面）; L6: 不唯一（come out/appear）；L7: OK; L8: 偏难
+- emotion — L5: 勉强（感觉类词可）; L6: 不唯一（feeling）；L7: OK; L8: 合适
+- emphasis — L5: 不能（抽象；词形长）; L6: 不唯一（focus/important）；L7: OK; L8: 偏难
+- enable — L5: 不能（抽象“make possible”；词形长）; L6: 不唯一（help/allow）；L7: OK; L8: 偏难
+- encounter — L5: 不能（=come across；词形长）; L6: 不唯一（meet/see）；L7: OK; L8: 偏难
+- endure — L5: 不能（抽象“go through hard”；书面）; L6: 不唯一（keep/last）；L7: OK; L8: 偏难
+- ensure — L5: 不能（=make sure；词形长）; L6: 不唯一（make sure/check）；L7: OK; L8: 偏难（建议先 make sure）
+- environment — L5: 勉强（词长但主题常见；例句=能）; L6: 唯一; L7: OK; L8: 合适
+- error — L5: 勉强（=mistake；例句=能）; L6: 不唯一（mistake）；L7: OK; L8: 合适
+- evaluate — L5: 不能（=judge quality；词长）; L6: 不唯一（judge/check）；L7: OK; L8: 偏难
+- evident — L5: 不能（=obvious；书面）; L6: 不唯一（obvious/clear）；L7: OK; L8: 偏难
+- evolve — L5: 不能（抽象“change over long time”；词形长）; L6: 不唯一（change/grow）；L7: OK; L8: 偏难
+- exaggerate — L5: 不能（词长；概念抽象）; L6: 不唯一（lie/big story）；L7: OK; L8: 偏难
+- excellent — L5: 能; L6: 不唯一（great/good）；L7: OK; L8: 合适
+- exception — L5: 不能（抽象“not follow rule”；词长）; L6: 不唯一（special case）；L7: OK; L8: 偏难
+- excess — L5: 不能（抽象“more than needed”；词长）; L6: 不唯一（extra/too much）；L7: OK; L8: 偏难
+- exclude — L5: 勉强（=leave out；例句=能）; L6: 不唯一（leave out/not let）；L7: OK; L8: 合适
+- exhibit — L5: 不能（名词/动词多义；词长）; L6: 不唯一（show/display）；L7: OK; L8: 偏难
+- expand — L5: 勉强（=get bigger；例句=能）; L6: 不唯一（grow/bigger）；L7: OK; L8: 合适
+- expedition — L5: 不能（概念+词长；南极背景远）; L6: 不唯一（trip/journey）；L7: OK; L8: 偏难
+- expense — L5: 不能（抽象“money you spend”；词长）; L6: 不唯一（cost/money）；L7: OK; L8: 偏难
+- expertise — L5: 不能（抽象“skill from practice”；词长）; L6: 不唯一（skill/experience）；L7: OK; L8: 偏难
+- exploit — L5: 不能（词义偏负面且抽象；例句“loophole”又加难）; L6: 不唯一（use/cheat）；L7: 提醒（负面行为词，家长可能敏感）; L8: 偏难（例句与前置词 loophole 不匹配level）
+- expose — L5: 不能（多义：暴露/揭露；这里是 uncover）; L6: 不唯一（show/uncover）；L7: OK; L8: 偏难（多义）
+- extend — L5: 勉强（=make longer；例句=能）; L6: 不唯一（add/longer）；L7: OK; L8: 合适
+- extreme — L5: 勉强（=very strong；例句=能）; L6: 不唯一（very/big）；L7: OK; L8: 合适
+- factor — L5: 不能（抽象“one thing that helps cause”；词长）; L6: 不唯一（reason/part）；L7: OK; L8: 偏难
+- famine — L5: 不能（概念重；词形陌生）; L6: 不唯一（hunger/no food）；L7: 提醒（灾难题材可接受但注意情绪）; L8: 偏难
+- fascinate — L5: 不能（=so interesting you can’t look away；词长）; L6: 不唯一（interest/amaze）；L7: OK; L8: 偏难
+- fatal — L5: 不能（=cause death；概念重）; L6: 不唯一（dangerous/deadly）；L7: 提醒（死亡词，家长敏感；可保留但温和例句）; L8: 偏难
+- fate — L5: 不能（抽象“命运”；文化概念大）; L6: 不唯一（future/luck）；L7: 提醒（宿命论家长可能不喜欢）; L8: 偏难
+- fault — L5: 勉强（=blame；例句=能）; L6: 不唯一（blame/mistake）；L7: OK; L8: 合适
+- feature — L5: 勉强（=important part；例句=能）; L6: 不唯一（part/best thing）；L7: OK; L8: 合适
+- ferry — L5: 不能（词陌生；中国孩子可能没坐过渡轮）; L6: 不唯一（boat/ship）；L7: OK; L8: 偏难（建议配图/视频）
+- flourish — L5: 不能（书面；=grow well）; L6: 不唯一（grow/thrive）；L7: OK; L8: 偏难
+- focus — L5: 能; L6: 不唯一（pay attention）；L7: OK; L8: 合适
+- forbid — L5: 勉强（=order not to；例句=能）; L6: 不唯一（ban/not allow）；L7: OK; L8: 合适
+- forecast — L5: 勉强（天气词可；例句=能）; L6: 不唯一（weather report/predict）；L7: OK; L8: 合适
+- fortune — L5: 不能（多义：钱/运气；def混）; L6: 不唯一（luck/treasure/money）；L7: OK; L8: 偏难（建议拆分 luck vs money）
+- fragment — L5: 不能（书面；=small broken piece）; L6: 不唯一（piece/bit）；L7: OK; L8: 偏难
+- frequent — L5: 不能（书面；=often）; L6: 不唯一（often）；L7: OK; L8: 偏难（建议用 often）
+- frontier — L5: 不能（抽象；例句“final frontier”是习语/文化梗）; L6: 不唯一（edge/new area）；L7: 提醒（“final frontier”文化引用）; L8: 偏难
+- fulfill — L5: 不能（=do what promised；词形长）; L6: 不唯一（keep/finish）；L7: OK; L8: 偏难
+- function — L5: 不能（多义：功能/函数；抽象）; L6: 不唯一（job/purpose）；L7: OK; L8: 偏难
+- fundamental — L5: 不能（书面；词长）; L6: 不唯一（basic/important）；L7: OK; L8: 偏难
+- fund — L5: 不能（名词/动词多义；例句是 raise funds）; L6: 不唯一（money/save）；L7: OK; L8: 偏难
+- grace — L5: 不能（多义：优雅/恩典；def只给优雅）; L6: 不唯一（beauty/smooth）；L7: 提醒（宗教“恩典”义可能引发困惑）; L8: 偏难
+- gradual — L5: 不能（书面；=slow change）; L6: 不唯一（slow）；L7: OK; L8: 偏难
+- guarantee — L5: 不能（书面；=promise；词长）; L6: 不唯一（promise）；L7: OK; L8: 偏难
+- halt — L5: 勉强（=stop；例句=能）; L6: 不唯一（stop）；L7: OK; L8: 合适
+- hazard — L5: 不能（书面；=danger）; L6: 不唯一（danger/risk）；L7: OK; L8: 偏难
+- ideal — L5: 勉强（=best/perfect；例句=能）; L6: 不唯一（perfect/great）；L7: OK; L8: 合适
+- illustrate — L5: 勉强（=draw/give example；例句=能）; L6: 不唯一（draw/show）；L7: OK; L8: 合适（建议先 draw）
+- image — L5: 能; L6: 不唯一（picture/photo）；L7: OK; L8: 合适
+- immediate — L5: 不能（抽象“no delay”；词形长）; L6: 不唯一（right away/now）；L7: OK; L8: 偏难
+- impact — L5: 不能（抽象“strong effect”；词形长）; L6: 不唯一（effect）；L7: OK; L8: 偏难
+- imply — L5: 不能（抽象“suggest without saying”；词短但概念难）; L6: 不唯一（suggest/hint）；L7: OK; L8: 偏难
+- impress — L5: 勉强（=make think good；例句=能）; L6: 不唯一（amaze）；L7: OK; L8: 合适
+- incident — L5: 不能（抽象“unusual event”；词形长）; L6: 不唯一（event/thing）；L7: OK; L8: 偏难
+- indicate — L5: 不能（书面“show/point out”）; L6: 不唯一（show/point）；L7: OK; L8: 偏难
+- individual — L5: 不能（抽象“apart from group”；词长）; L6: 不唯一（each/one person）；L7: OK; L8: 偏难
+- inform — L5: 勉强（=tell; 书面）; L6: 不唯一（tell）；L7: OK; L8: 合适
+- inhabit — L5: 不能（书面；=live in）; L6: 不唯一（live in）；L7: OK; L8: 偏难
+- initial — L5: 不能（多义：最初/首字母缩写；例句是最初）; L6: 不唯一（first/beginning）；L7: OK; L8: 偏难（多义）
+- injure — L5: 勉强（=hurt；例句=能）; L6: 不唯一（hurt）；L7: OK; L8: 合适
+- inquire — L5: 不能（书面 ask；词形长）; L6: 不唯一（ask）；L7: OK; L8: 偏难（建议用 ask）
+- inspire — L5: 不能（抽象“fill with excitement to do great”）; L6: 不唯一（encourage/excite）；L7: OK; L8: 偏难
+- instance — L5: 不能（书面“example case”；词形长）; L6: 不唯一（example）；L7: OK; L8: 偏难
+- instinct — L5: 不能（抽象；自然本能）; L6: 不唯一（feeling/nature）；L7: OK; L8: 偏难
+- institution — L5: 不能（抽象；词长；学校/医院/图书馆概念可但词难）; L6: 不唯一（place/group）；L7: OK; L8: 偏难
+- integrate — L5: 不能（书面；=combine/join in）; L6: 不唯一（join/mix）；L7: OK; L8: 偏难
+- intense — L5: 勉强（=very strong；例句=能）; L6: 不唯一（very/hot）；L7: OK; L8: 合适
+- interact — L5: 不能（书面；=talk/do with others）; L6: 不唯一（talk/play）；L7: OK; L8: 偏难
+- introduce — L5: 勉强（=present first time；例句=能）; L6: 不唯一（tell/show）；L7: OK; L8: 合适
+- invade — L5: 勉强（蚂蚁“入侵”可理解；但词常用于战争）; L6: 不唯一（enter/come in）；L7: 提醒（战争义敏感，尽量保持昆虫/细菌语境）; L8: 合适（需限定语境）
+- involve — L5: 不能（抽象 include；词形长）; L6: 不唯一（include/need）；L7: OK; L8: 偏难
+- issue — L5: 不能（多义：问题/发行期；抽象）; L6: 不唯一（problem/topic）；L7: OK; L8: 偏难（多义）
+- item — L5: 能; L6: 不唯一（thing）；L7: OK; L8: 合适
+- journal — L5: 勉强（=day notebook；例句=能）; L6: 不唯一（diary/notebook）；L7: OK; L8: 合适
+- justify — L5: 不能（抽象“give good reason”；词长）; L6: 不唯一（explain/reason）；L7: OK; L8: 偏难
+- lack — L5: 勉强（=not have enough；例句=能）; L6: 不唯一（need/not have）；L7: OK; L8: 合适
+- launch — L5: 勉强（火箭语境可；也有“开始”义）; L6: 不唯一（start/send）；L7: OK; L8: 合适
+- layer — L5: 能; L6: 不唯一（level/part）；L7: OK; L8: 合适
+- lecture — L5: 勉强（=long talk；例句=能）; L6: 不唯一（talk/speech）；L7: OK; L8: 合适
+- leisure — L5: 不能（书面“free time”；发音难）; L6: 不唯一（free time/relax）；L7: OK; L8: 偏难
+- liable — L5: 不能（法律/责任概念；词形难）; L6: 不唯一（responsible/need to pay）；L7: OK; L8: 偏难（不适合该level）
+- liberty — L5: 不能（抽象“freedom”；还带美国符号 Statue of Liberty）; L6: 不唯一（freedom）；L7: 提醒（美国政治文化符号；可换 general freedom）; L8: 偏难
+- license — L5: 不能（概念可但场景“驾照”离10岁远；词长）; L6: 不唯一（permit/card）；L7: OK; L8: 偏难（建议换 school ID/permission）
+- link — L5: 能（连接）; L6: 不唯一（connection）；L7: OK; L8: 合适
+- literal — L5: 不能（抽象；还需理解习语）; L6: 不唯一（real/exact）；L7: OK; L8: 偏难（需要 idiom 前置）
+- locate — L5: 勉强（=find where；例句=能）; L6: 不唯一（find）；L7: OK; L8: 合适
+- logic — L5: 不能（抽象；例句含 bug/code 更难）; L6: 不唯一（thinking/reason）；L7: OK; L8: 偏难（例句换生活推理更好）
+- luxury — L5: 不能（抽象“expensive not needed”；词长）; L6: 不唯一（expensive/nice）；L7: OK; L8: 偏难
+- majority — L5: 不能（抽象“more than half”；词形长）; L6: 不唯一（most）；L7: OK; L8: 偏难
+- manage — L5: 勉强（=be in charge/handle；例句=能）; L6: 不唯一（take care/handle）；L7: OK; L8: 合适
+- mature — L5: 不能（多义：成熟的果/成熟的人；def混）; L6: 不唯一（grown/ripe）；L7: OK; L8: 偏难（多义）
+- maximum — L5: 勉强（=most；例句=能）; L6: 不唯一（most）；L7: OK; L8: 合适
+- memorial — L5: 不能（概念抽象；例句火消防员还可）; L6: 不唯一（statue/remember）；L7: 提醒（灾难/牺牲题材对低龄需温和）; L8: 偏难
+- mental — L5: 不能（抽象“mind”；词长）; L6: 不唯一（brain/thinking）；L7: OK; L8: 偏难
+- mercy — L5: 不能（抽象；例句有 knight/captured，文化距离）; L6: 不唯一（kindness/forgive）；L7: 提醒（中世纪骑士+俘虏情境不贴近）; L8: 偏难
+- migrate — L5: 不能（书面；=move places seasons）; L6: 不唯一（move/travel）；L7: OK; L8: 偏难
+- military — L5: 不能（军队概念+词形长）; L6: 不唯一（army/soldier）；L7: 提醒（军事内容家长可能不适，尽量中性）; L8: 偏难
+- minimum — L5: 勉强（=least；例句=能）; L6: 不唯一（least）；L7: OK; L8: 合适
+- minor — L5: 勉强（=small not important；例句=能）; L6: 不唯一（small/little）；L7: OK; L8: 合适
+- miracle — L5: 不能（抽象；也有宗教色彩）; L6: 不唯一（amazing/surprise）；L7: 提醒（宗教联想；可用“amazing thing”替代）; L8: 偏难
+- mission — L5: 勉强（=important job；太空任务例句可）; L6: 不唯一（job/task）；L7: OK; L8: 合适
+- modify — L5: 不能（书面“change a little”；词长）; L6: 不唯一（change/adjust）；L7: OK; L8: 偏难
+- monitor — L5: 不能（多义：监控/显示器；例句是“看护”）; L6: 不唯一（watch/check）；L7: OK; L8: 偏难（多义）
+- motive — L5: 不能（抽象“reason”；词形长）; L6: 不唯一（reason）；L7: OK; L8: 偏难
+- mutual — L5: 不能（抽象“shared equally”；词形长）; L6: 不唯一（same/shared）；L7: OK; L8: 偏难
+- navigate — L5: 不能（书面“find way”；词长）; L6: 不唯一（find way/use compass）；L7: OK; L8: 偏难
+- neglect — L5: 不能（抽象“不照顾”；词长）; L6: 不唯一（forget/not care）；L7: OK; L8: 偏难
+- neutral — L5: 不能（抽象“不选边”；词长）; L6: 不唯一（fair/not choose）；L7: OK; L8: 偏难
+- notable — L5: 不能（书面“worth noticing”；词长）; L6: 不唯一（important/special）；L7: OK; L8: 偏难
+- notify — L5: 勉强（=tell/let know；书面）; L6: 不唯一（tell/inform）；L7: OK; L8: 合适
+- notion — L5: 不能（书面“idea”；词形长）; L6: 不唯一（idea/thought）；L7: OK; L8: 偏难
+- novel — L5: 不能（多义：小说/新颖；这里是“新颖”）; L6: 不唯一（new/different）；L7: OK; L8: 偏难（多义，且“novel idea”搭配门槛）
+- oath — L5: 不能（严重承诺；例句有 president/serve country，政治距离）; L6: 不唯一（promise/swear）；L7: 提醒（政治/宗教/法庭语境敏感）; L8: 偏难（不建议该level）
+- objective — L5: 不能（多义：目标/客观；这里是目标）; L6: 不唯一（goal）；L7: OK; L8: 偏难（多义）
+- obligation — L5: 不能（抽象“duty you owe”；词长）; L6: 不唯一（duty/must）；L7: OK; L8: 偏难
+- obstacle — L5: 勉强（=thing in way；例句=能）; L6: 不唯一（block/problem）；L7: OK; L8: 合适
+- obtain — L5: 不能（书面“get”；词长）; L6: 不唯一（get）；L7: OK; L8: 偏难
+- occur — L5: 不能（书面“happen”；词长）; L6: 不唯一（happen）；L7: OK; L8: 偏难
+- offense — L5: 不能（多义：冒犯/罪行/进攻；这里是冒犯）; L6: 不唯一（hurt feelings/rude）；L7: OK; L8: 偏难（多义）
+- ongoing — L5: 不能（书面“still happening”；词形）; L6: 不唯一（still/continue）；L7: OK; L8: 偏难
+- operate — L5: 不能（多义：操作/手术；这里是操作）; L6: 不唯一（use/run）；L7: OK; L8: 偏难（多义）
+- option — L5: 勉强（=choice；例句=能）; L6: 不唯一（choice）；L7: OK; L8: 合适
+- origin — L5: 不能（抽象“where first came from”；词长）; L6: 不唯一（where from/beginning）；L7: OK; L8: 偏难
+- overcome — L5: 勉强（=win against hard；例句=能）; L6: 不唯一（beat/solve）；L7: OK; L8: 合适
+- overlook — L5: 不能（多义：忽略/俯瞰；这里忽略）; L6: 不唯一（miss/forget）；L7: OK; L8: 偏难（多义）
+- owe — L5: 勉强（=need to pay back；例句=能）; L6: 唯一; L7: OK; L8: 合适
