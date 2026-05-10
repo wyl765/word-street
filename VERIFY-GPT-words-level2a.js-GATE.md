@@ -1,404 +1,404 @@
-# GPT专项审校（Gate L5-L8）: words-level2a.js
+# VERIFY-GPT Gate L5-L8: words-level2a.js
 
-说明：每个词一行（不跳过）。格式：Word — L5(做题理解) | L6(例句反测) | L7(文化) | L8(学习路径)
+每词一行，不跳过。格式：Word — L5(def能否理解; ex能否猜词) | L6(遮词例句+4选项反测) | L7(文化敏感) | L8(学习路径)
 
-- avoid — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- burst — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- bury — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- cheer — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- choose — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- claim — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- combine — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- command — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- consider — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- continue — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- control — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- cover — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- cross — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- crush — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- dare — L5:勉强；卡: brave | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- demand — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- develop — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- direct — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- examine — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- exchange — L5:不能；卡: swap | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- excite — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- expect — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- explore — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- express — L5:不能；卡: using | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- fail — L5:不能；卡: tried | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- flow — L5:不能；卡: smoothly | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- form — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- gaze — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- guide — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- hasten — L5:勉强；卡: faster | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:faster
-- hide — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- hike — L5:勉强；卡: outdoors | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:outdoors
-- hug — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- hunt — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- increase — L5:不能；卡: bigger | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- insist — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- instruct — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- admire — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- announce — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- approve — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- argue — L5:不能；卡: using | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- behave — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- celebrate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- compare — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- convince — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- defend — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- disappear — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- encourage — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- improve — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- interrupt — L5:勉强；卡: talking | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- observe — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- organize — L5:不能；卡: neat | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- bold — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- brief — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- delicate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- dense — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- dim — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- distant — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- drowsy — L5:不能；卡: sleepy | L6:勉强；有线索但偏抽象;可能不唯一 | L7:注意；敏感点:war | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:sleepy
-- dusty — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- elegant — L5:不能；卡: graceful,fancy | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:勉强；定义用词偏难:graceful,fancy
-- faint — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- familiar — L5:不能；卡: seen,heard | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:勉强；定义用词偏难:seen,heard
-- flat — L5:不能；卡: bumps | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- flexible — L5:勉强；卡: ease | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- foggy — L5:不能；卡: mist,cannot | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:mist,cannot
-- glossy — L5:不能；卡: shiny | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:shiny
-- grim — L5:不能；卡: stern | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:stern
-- harsh — L5:不能；卡: unpleasant | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- heavy — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- helpless — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- humble — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- innocent — L5:不能；卡: having,done | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:勉强；定义用词偏难:having,done
-- invisible — L5:不能；卡: seen | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- keen — L5:勉强；卡: eager | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:eager
-- lean — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- lively — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- lovely — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- magnificent — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- moist — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- neat — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- noble — L5:勉强；卡: brave | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:brave
-- odd — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- pale — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- plump — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- precious — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- pure — L5:勉强；卡: mixed | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- rare — L5:不能；卡: seen | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- raw — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- round — L5:不能；卡: shaped | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- rude — L5:不能；卡: polite,unkind | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:polite,unkind
-- rusty — L5:不能；卡: reddish | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:reddish
-- scarce — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- slender — L5:不能；卡: graceful | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:graceful
-- soft — L5:勉强；卡: gentle | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- abundant — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- absurd — L5:不能；卡: making | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:making
-- accurate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- brittle — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- colorful — L5:不能；卡: having | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:having
-- cruel — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- daring — L5:勉强；卡: brave | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:brave
-- filthy — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- gorgeous — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- horrible — L5:不能；卡: unpleasant | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- mysterious — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长
-- pleasant — L5:不能；卡: enjoyable | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- powerful — L5:不能；卡: having | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- ridiculous — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- serious — L5:不能；卡: joking | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- spotless — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- tremendous — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；拼写偏长
-- visible — L5:不能；卡: seen | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- weak — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- wealthy — L5:不能；卡: having | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- wicked — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- worthless — L5:不能；卡: having | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:having
-- briefly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- constantly — L5:不能；卡: stopping | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:stopping
-- continuously — L5:不能；卡: going | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长;定义用词偏难:going
-- currently — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- formerly — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- instantly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- mostly — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- nearly — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- normally — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- originally — L5:不能；卡: changed | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:changed
-- partly — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- possibly — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- presently — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- previously — L5:不能；卡: earlier | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:earlier
-- probably — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- promptly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- regularly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- shortly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- simply — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- sometimes — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- steadily — L5:不能；卡: stopping | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:stopping
-- still — L5:勉强；卡: continuing | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- typically — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- usually — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- simultaneously — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长
-- initially — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- permanently — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- temporarily — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- lately — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- overnight — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- yearly — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- hourly — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- illustration — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长
-- diagram — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- vocabulary — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- definition — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- fact — L5:不能；卡: proven | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- summary — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- topic — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- conclusion — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
-- passage — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- research — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- method — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- experiment — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- creature — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- moisture — L5:不能；卡: wetness | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:wetness
-- material — L5:不能；卡: made | L6:不能；线索不足/可替换词太多 | L7:注意；敏感点:war | L8:OK
-- source — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- motion — L5:不能；卡: moving,changing | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:勉强；定义用词偏难:moving,changing
-- mixture — L5:不能；卡: stirred | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- direction — L5:不能；卡: moving | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- shelter — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- predator — L5:勉强；卡: hunts | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:hunts
-- prey — L5:勉强；卡: hunt | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:hunt
-- oxygen — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- galaxy — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- fossil — L5:不能；卡: kept | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- mineral — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- current — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- vapor — L5:勉强；卡: floating | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:floating
-- erosion — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- orbit — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- gravity — L5:能 | L6:不能；线索不足/可替换词太多 | L7:注意；敏感点:war | L8:OK
-- species — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- community — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- population — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- culture — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- ancestor — L5:不能；卡: lived | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- generation — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- volunteer — L5:不能；卡: paid | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- merchant — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- pioneer — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- president — L5:能 | L6:不能；线索不足/可替换词太多 | L7:注意；敏感点:president | L8:OK
-- profession — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- companion — L5:不能；卡: goes | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- guardian — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- immigrant — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- inspector — L5:不能；卡: done | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- messenger — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- relative — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- scholar — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- witness — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- advantage — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- courage — L5:勉强；卡: brave | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- effort — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- knowledge — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- patience — L5:不能；卡: getting | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- responsibility — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
-- triumph — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- accident — L5:不能；卡: planned | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- attitude — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- boundary — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- consequence — L5:不能；卡: caused | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:caused
-- conversation — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- decision — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- evidence — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- experience — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- imagination — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- occasion — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- solution — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- inspect — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- select — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- supply — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- survive — L5:勉强；卡: risky | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- transform — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- transport — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- identify — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- inherit — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- massive — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- miniature — L5:不能；卡: smaller | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:smaller
-- obvious — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- ordinary — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:party | L8:OK
-- particular — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
-- peculiar — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- rapid — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- reluctant — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- sensitive — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- severe — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- suitable — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- sufficient — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- vacant — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- vast — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- vivid — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- possess — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- reveal — L5:勉强；卡: hidden | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- assign — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- respond — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- require — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- oppose — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- occupy — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- perform — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- accomplish — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- cautious — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- capable — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- essential — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- fortunate — L5:不能；卡: having | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:having
-- incredible — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；拼写偏长
-- numerous — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- positive — L5:不能；卡: hopeful | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- previous — L5:勉强；卡: coming | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- region — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- structure — L5:不能；卡: has,built | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:勉强；定义用词偏难:has,built
-- symbol — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- tradition — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- celebration — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:party | L8:偏难/不合适；拼写偏长
-- challenge — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- equipment — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:fight | L8:OK
-- voyage — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- territory — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- disaster — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- merely — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- precisely — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- entirely — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- scarcely — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- swiftly — L5:不能；卡: moving | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:moving
-- willingly — L5:不能；卡: forced | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:forced
-- maintain — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- establish — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- cooperate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- represent — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- concentrate — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
-- manufacture — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- demonstrate — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- investigate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
-- discovery — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- penalty — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- quantity — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- reasonable — L5:不能；卡: making | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:making
-- approach — L5:不能；卡: closer | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- collapse — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- domestic — L5:不能；卡: tame | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- external — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- internal — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- annual — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- permission — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
-- recognize — L5:不能；卡: seen | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- influence — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- interpret — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- adapt — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- benefit — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- durable — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- genuine — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- hesitate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- negotiate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- temporary — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- reliable — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- absorb — L5:不能；卡: soak,liquid | L6:不能；线索不足/可替换词太多 | L7:OK | L8:勉强；定义用词偏难:soak,liquid
-- attract — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:注意；敏感点:war | L8:OK
-- predict — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- request — L5:不能；卡: politely | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- reduce — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- assemble — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- accumulate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- acknowledge — L5:不能；卡: noticed | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:noticed
-- adequate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- advocate — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- allocate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- ambiguous — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- amend — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- approximate — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- aspire — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- assert — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- authorize — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- beneficial — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- bias — L5:不能；卡: unfairly | L6:不能；例句太短(遮词后信息不足) | L7:注意；敏感点:war | L8:OK
-- capacity — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- clarify — L5:不能；卡: easier | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- coincide — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- commentary — L5:不能；卡: spoken,written | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长;定义用词偏难:spoken,written
-- compensate — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- compile — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- complement — L5:不能；卡: goes | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长;定义用词偏难:goes
-- comply — L5:勉强；卡: required | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- conceive — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
-- confine — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- consent — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- consequent — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- consolidate — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- constraint — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长
-- consult — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- contemplate — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- contradict — L5:不能；卡: said | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长;定义用词偏难:said
-- controversy — L5:不能；卡: disagreement | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:disagreement
-- convene — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- correspond — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
-- criteria — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- currency — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- deficiency — L5:不能；卡: having | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长;定义用词偏难:having
-- denote — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- derive — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- deviate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- devote — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- diminish — L5:不能；卡: smaller | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- dispose — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- distort — L5:勉强；卡: twist | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:twist
-- diverse — L5:不能；卡: having | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- domain — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- dominate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
-- draft — L5:勉强；卡: written | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- duration — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- empirical — L5:不能；卡: based | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:based
-- enforce — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- entity — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- equate — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- erode — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- exceed — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- explicit — L5:不能；卡: said,confusion | L6:不能；线索不足/可替换词太多 | L7:OK | L8:勉强；定义用词偏难:said,confusion
-- extract — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- facilitate — L5:不能；卡: easier | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长;定义用词偏难:easier
-- finite — L5:不能；卡: having | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:having
-- fluctuate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:war | L8:偏难/不合适；频次偏低(rank>5000)
-- format — L5:不能；卡: arranged | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- formula — L5:勉强；卡: written | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- foundation — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
-- framework — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- furthermore — L5:不能；卡: said | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:said
-- generate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- guideline — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- hence — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- hierarchy — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- hypothesis — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
-- identical — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- ideology — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:注意；敏感点:party | L8:OK
-- implication — L5:不能；卡: said,hinted | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:said,hinted
-- impose — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- incentive — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- incorporate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
-- index — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- induce — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:war | L8:OK
-- inherent — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- inhibit — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- initiate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- innovation — L5:勉强；卡: invention | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:invention
-- insert — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- integral — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- intervene — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- invoke — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- isolate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
-- levy — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
-- liberal — L5:勉强；卡: generous | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
-- likewise — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- magnitude — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
-- manifest — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- avoid — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"She walked around the mud to _____ getting her new shoes dirty."; 选项:A:demand B:hasten C:hunt D:avoid; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:946; 顺序:OK)
+- burst — L5(def:勉强; ex:能; 可能卡点:“suddenly”) | L6(唯一; 句:"The balloon _____ with a loud pop when it hit the thorn."; 选项:A:burst B:choose C:cheer D:bury; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4197; 顺序:OK)
+- bury — L5(def:能; ex:勉强; 可能卡点:“ground”) | L6(唯一; 句:"The squirrel likes to _____ nuts in the yard for winter."; 选项:A:burst B:choose C:bury D:cheer; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2446; 顺序:OK)
+- cheer — L5(def:勉强; ex:能; 可能卡点:“happiness”) | L6(唯一; 句:"The crowd began to _____ when the team scored the winning goal."; 选项:A:cheer B:choose C:bury D:burst; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4103; 顺序:OK)
+- choose — L5(def:能; ex:勉强; 可能卡点:“pick”) | L6(唯一; 句:"You may _____ any flavor of ice cream you want."; 选项:A:cheer B:bury C:combine D:choose; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:561; 顺序:OK)
+- claim — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"Both children _____ the toy is theirs, so the teacher had to help."; 选项:A:increase B:announce C:claim D:explore; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:834; 顺序:OK)
+- combine — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"If you _____ blue and yellow paint, you get green."; 选项:A:choose B:combine C:cheer D:command; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1707; 顺序:OK)
+- command — L5(def:能; ex:勉强; 可能卡点:“tell”) | L6(唯一; 句:"The dog trainer _____ed the puppy to sit and stay."; 选项:A:consider B:combine C:command D:choose; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2381; 顺序:OK)
+- consider — L5(def:能; ex:勉强; 可能卡点:“think”) | L6(唯一; 句:"Please _____ all the choices before you pick your answer."; 选项:A:continue B:combine C:command D:consider; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:395; 顺序:OK)
+- continue — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The rain will _____ all day, so bring your umbrella."; 选项:A:continue B:command C:control D:consider; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:350; 顺序:OK)
+- control — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"Use the remote to _____ which channel the TV shows."; 选项:A:continue B:consider C:control D:cover; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:478; 顺序:OK)
+- cover — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"Please _____ the food, so the flies don't land on it."; 选项:A:cover B:control C:cross D:continue; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:608; 顺序:OK)
+- cross — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"Look both ways before you _____ the street."; 选项:A:cover B:dare C:control D:cross; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1537; 顺序:OK)
+- crush — L5(def:不能; ex:不能; 卡点:definition里“breaks”或概念抽象/词频低) | L6(唯一; 句:"The giant rock fell and _____ed the empty box flat."; 选项:A:crush B:form C:gaze D:flow; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4347; 顺序:OK)
+- dare — L5(def:能; ex:勉强; 可能卡点:“brave”) | L6(唯一; 句:"Nobody _____d to open the creaky old door in the basement."; 选项:A:cross B:dare C:cover D:develop; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2959; 顺序:OK)
+- demand — L5(def:能; ex:勉强; 可能卡点:“strong”) | L6(唯一; 句:"The hungry baby _____ed more food by banging on the table."; 选项:A:hasten B:avoid C:demand D:hunt; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1508; 顺序:OK)
+- develop — L5(def:能; ex:勉强; 可能卡点:“change”) | L6(唯一; 句:"A tiny seed can _____ into a tall sunflower in just a few weeks."; 选项:A:dare B:cross C:direct D:develop; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:569; 顺序:OK)
+- direct — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The police officer _____ed the cars away from the flooded road."; 选项:A:examine B:dare C:direct D:develop; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1612; 顺序:OK)
+- examine — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The doctor _____d my sore throat with a tiny flashlight."; 选项:A:develop B:examine C:direct D:exchange; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1353; 顺序:OK)
+- exchange — L5(def:能; ex:勉强; 可能卡点:“swap”) | L6(唯一; 句:"The two friends _____d stickers during lunch."; 选项:A:exchange B:examine C:excite D:direct; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1649; 顺序:OK)
+- excite — L5(def:勉强; ex:勉强; 可能卡点:“energy”) | L6(唯一; 句:"The news about the field trip _____d all the students."; 选项:A:exchange B:expect C:examine D:excite; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4719; 顺序:OK)
+- expect — L5(def:能; ex:勉强; 可能卡点:“happen”) | L6(唯一; 句:"I _____ the bus will come soon because it is almost eight o'clock."; 选项:A:expect B:exchange C:express D:excite; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:426; 顺序:OK)
+- explore — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"We _____d the cave with flashlights and found cool rocks inside."; 选项:A:claim B:announce C:explore D:increase; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1650; 顺序:OK)
+- express — L5(def:勉强; ex:勉强; 可能卡点:“actions”) | L6(唯一; 句:"She _____ed her happiness by giving everyone a big smile."; 选项:A:express B:fail C:expect D:excite; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1303; 顺序:OK)
+- fail — L5(def:能; ex:勉强; 可能卡点:“tried”) | L6(唯一; 句:"He _____ed to catch the ball, but he tried again and caught the next one."; 选项:A:express B:expect C:guide D:fail; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:781; 顺序:OK)
+- flow — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The river _____s quickly over the rocks and down the hill."; 选项:A:form B:gaze C:flow D:crush; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2214; 顺序:OK)
+- form — L5(def:能; ex:勉强; 可能卡点:“shape”) | L6(唯一; 句:"We used clay to _____ little animals for our art project."; 选项:A:flow B:form C:crush D:gaze; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:556; 顺序:OK)
+- gaze — L5(def:能; ex:勉强; 可能卡点:“quietly”) | L6(唯一; 句:"He _____d at the stars, amazed by how many there were."; 选项:A:dense B:form C:gaze D:flow; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3790; 顺序:OK)
+- guide — L5(def:能; ex:勉强; 可能卡点:“show”) | L6(唯一; 句:"The park ranger _____d us along the trail through the forest."; 选项:A:hide B:express C:fail D:guide; 可较唯一定位(目标分8)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2064; 顺序:OK)
+- hasten — L5(def:不能; ex:不能; 卡点:definition里“faster”或概念抽象/词频低) | L6(唯一; 句:"We _____ed our steps when we saw the dark clouds coming."; 选项:A:hasten B:avoid C:hunt D:demand; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- hide — L5(def:能; ex:勉强; 可能卡点:“where”) | L6(唯一; 句:"The children love to _____ behind the big tree during the game."; 选项:A:guide B:fail C:hide D:insist; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1138; 顺序:OK)
+- hike — L5(def:不能; ex:不能; 卡点:definition里“outdoors”或概念抽象/词频低) | L6(唯一; 句:"Our family likes to _____ up the mountain every summer."; 选项:A:hike B:hug C:celebrate D:defend; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- hug — L5(def:勉强; ex:勉强; 可能卡点:“arms”) | L6(唯一; 句:"She ran to _____ her grandmother as soon as she walked in the door."; 选项:A:hike B:celebrate C:defend D:hug; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4262; 顺序:OK)
+- hunt — L5(def:能; ex:勉强; 可能卡点:“carefully”) | L6(唯一; 句:"The owl _____s for mice at night when it is very dark."; 选项:A:hunt B:admire C:demand D:hasten; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3693; 顺序:OK)
+- increase — L5(def:能; ex:勉强; 可能卡点:“bigger”) | L6(唯一; 句:"The number of students in our class _____d from twenty to twenty-five."; 选项:A:explore B:increase C:claim D:announce; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:701; 顺序:OK)
+- insist — L5(def:能; ex:勉强; 可能卡点:“strongly”) | L6(唯一; 句:"Mom _____ed that we wear our coats because it was freezing outside."; 选项:A:instruct B:hide C:insist D:guide; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1727; 顺序:OK)
+- instruct — L5(def:勉强; ex:勉强; 可能卡点:“teach”) | L6(唯一; 句:"The coach _____ed the players to pass the ball more often."; 选项:A:insist B:hide C:approve D:instruct; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4711; 顺序:OK)
+- admire — L5(def:能; ex:勉强; 可能卡点:“think”) | L6(唯一; 句:"Everyone stopped to _____ the beautiful painting on the wall."; 选项:A:bold B:hasten C:admire D:hunt; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3588; 顺序:OK)
+- announce — L5(def:能; ex:勉强; 可能卡点:“important”) | L6(唯一; 句:"The principal _____d that school would end early because of the snow."; 选项:A:explore B:announce C:increase D:behave; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1229; 顺序:OK)
+- approve — L5(def:能; ex:勉强; 可能卡点:“agree”) | L6(唯一; 句:"Mom _____d my plan to have a sleepover this weekend."; 选项:A:approve B:instruct C:argue D:insist; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2098; 顺序:OK)
+- argue — L5(def:勉强; ex:勉强; 可能卡点:“using”) | L6(唯一; 句:"The two brothers _____d about whose turn it was to play the game."; 选项:A:approve B:compare C:instruct D:argue; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:847; 顺序:OK)
+- behave — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The teacher asked the class to _____ nicely during the trip."; 选项:A:behave B:increase C:interrupt D:announce; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3602; 顺序:OK)
+- celebrate — L5(def:勉强; ex:勉强; 可能卡点:“special”) | L6(唯一; 句:"We _____d grandma's birthday with cake and balloons."; 选项:A:hug B:hike C:celebrate D:defend; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1956; 顺序:OK)
+- compare — L5(def:能; ex:勉强; 可能卡点:“look”) | L6(唯一; 句:"Let's _____ these two shells to see which one is bigger."; 选项:A:compare B:convince C:argue D:approve; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:800; 顺序:OK)
+- convince — L5(def:能; ex:勉强; 可能卡点:“agree”) | L6(唯一; 句:"She _____d her dad to let them get a puppy by promising to walk it every day."; 选项:A:compare B:argue C:disappear D:convince; 可较唯一定位(目标分8)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2056; 顺序:OK)
+- defend — L5(def:能; ex:勉强; 可能卡点:“protect”) | L6(唯一; 句:"The father bird _____ed his nest by flapping his wings at the cat."; 选项:A:defend B:helpless C:hug D:celebrate; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1666; 顺序:OK)
+- disappear — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The magician made the coin _____ right before our eyes."; 选项:A:convince B:disappear C:compare D:encourage; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1814; 顺序:OK)
+- encourage — L5(def:不能; ex:不能; 卡点:definition里“trying”或概念抽象/词频低) | L6(唯一; 句:"Her friends _____d her to try again after she fell off the bike."; 选项:A:improve B:disappear C:encourage D:convince; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:1305; 顺序:OK)
+- improve — L5(def:能; ex:勉强; 可能卡点:“better”) | L6(唯一; 句:"She _____d her reading by practicing every night before bed."; 选项:A:observe B:disappear C:encourage D:improve; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1023; 顺序:OK)
+- interrupt — L5(def:不能; ex:不能; 卡点:definition里“speaking”或概念抽象/词频低) | L6(唯一; 句:"Please don't _____ me while I am telling the story."; 选项:A:interrupt B:announce C:dusty D:behave; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3684; 顺序:OK)
+- observe — L5(def:能; ex:勉强; 可能卡点:“carefully”) | L6(唯一; 句:"We _____d the caterpillar as it slowly turned into a butterfly."; 选项:A:encourage B:observe C:improve D:organize; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1454; 顺序:OK)
+- organize — L5(def:勉强; ex:勉强; 可能卡点:“neat”) | L6(唯一; 句:"She _____d her crayons by color in a neat row."; 选项:A:organize B:observe C:brief D:improve; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1895; 派生词形; 顺序:OK)
+- bold — L5(def:勉强; ex:勉强; 可能卡点:“risks”) | L6(唯一; 句:"The _____ explorer walked into the dark cave without any fear."; 选项:A:admire B:delicate C:hunt D:bold; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4042; 顺序:OK)
+- brief — L5(def:能; ex:勉强; 可能卡点:“lasting”) | L6(唯一; 句:"The rain was _____—it stopped after just five minutes."; 选项:A:brief B:distant C:observe D:organize; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2463; 顺序:OK)
+- delicate — L5(def:勉强; ex:勉强; 可能卡点:“break”) | L6(唯一; 句:"The _____ butterfly wing had tiny patterns you could barely see."; 选项:A:bold B:delicate C:admire D:dim; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4707; 顺序:OK)
+- dense — L5(def:勉强; ex:勉强; 可能卡点:“together”) | L6(唯一; 句:"The forest was so _____ that sunlight could barely get through the trees."; 选项:A:dense B:lovely C:gaze D:form; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- dim — L5(def:勉强; ex:勉强; 可能卡点:“bright”) | L6(唯一; 句:"The _____ light in the hallway made it hard to find the door."; 选项:A:delicate B:bold C:elegant D:dim; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- distant — L5(def:能; ex:勉强; 可能卡点:“away”) | L6(唯一; 句:"We could see the _____ mountains, but it would take hours to reach them."; 选项:A:drowsy B:organize C:distant D:brief; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3244; 顺序:OK)
+- drowsy — L5(def:不能; ex:不能; 卡点:definition里“sleepy”或概念抽象/词频低) | L6(唯一; 句:"The warm blanket made him _____, and he soon fell asleep."; 选项:A:brief B:drowsy C:distant D:familiar; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- dusty — L5(def:不能; ex:不能; 卡点:definition里“covered”或概念抽象/词频低) | L6(唯一; 句:"The _____ old book hadn't been opened in many years."; 选项:A:dusty B:interrupt C:grim D:behave; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- elegant — L5(def:不能; ex:不能; 卡点:definition里“graceful”或概念抽象/词频低) | L6(唯一; 句:"The _____ swan glided smoothly across the lake."; 选项:A:faint B:delicate C:dim D:elegant; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4921; 顺序:OK)
+- faint — L5(def:勉强; ex:勉强; 可能卡点:“notice”) | L6(唯一; 句:"There was a _____ smell of cookies coming from the kitchen far away."; 选项:A:faint B:dim C:flat D:elegant; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- familiar — L5(def:勉强; ex:勉强; 可能卡点:“heard”) | L6(唯一; 句:"The song sounded _____ because he had heard it many times."; 选项:A:drowsy B:distant C:familiar D:flexible; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1692; 顺序:OK)
+- flat — L5(def:勉强; ex:勉强; 可能卡点:“bumps”) | L6(唯一; 句:"The pancake was thin and _____ like a plate."; 选项:A:flat B:foggy C:faint D:elegant; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3045; 顺序:OK)
+- flexible — L5(def:不能; ex:不能; 卡点:definition里“breaking”或概念抽象/词频低) | L6(唯一; 句:"The _____ rubber band stretched without snapping."; 选项:A:familiar B:drowsy C:glossy D:flexible; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4753; 派生词形; 顺序:OK)
+- foggy — L5(def:不能; ex:不能; 卡点:definition里“filled”或概念抽象/词频低) | L6(唯一; 句:"The morning was so _____ that we couldn't see across the playground."; 选项:A:foggy B:heavy C:faint D:flat; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- glossy — L5(def:不能; ex:不能; 卡点:definition里“shiny”或概念抽象/词频低) | L6(唯一; 句:"The _____ paper from the store showed all the new toys."; 选项:A:flexible B:glossy C:familiar D:humble; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- grim — L5(def:不能; ex:不能; 卡点:definition里“looking”或概念抽象/词频低) | L6(唯一; 句:"The teacher had a _____ face when she saw the mess in the classroom."; 选项:A:harsh B:dusty C:grim D:interrupt; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- harsh — L5(def:勉强; ex:勉强; 可能卡点:“unpleasant”) | L6(唯一; 句:"The _____ winter wind stung their faces as they walked to school."; 选项:A:keen B:dusty C:grim D:harsh; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3868; 顺序:OK)
+- heavy — L5(def:能; ex:勉强; 可能卡点:“weighing”) | L6(唯一; 句:"The _____ backpack made her shoulders ache by the end of the day."; 选项:A:heavy B:flat C:invisible D:foggy; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1231; 顺序:OK)
+- helpless — L5(def:勉强; ex:勉强; 可能卡点:“anything”) | L6(唯一; 句:"The _____ baby bird sat in the nest waiting for its mother."; 选项:A:celebrate B:helpless C:defend D:community; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- humble — L5(def:勉强; ex:勉强; 可能卡点:“thinking”) | L6(唯一; 句:"Even though he won first place, he was _____ and thanked his team."; 选项:A:humble B:glossy C:innocent D:flexible; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- innocent — L5(def:勉强; ex:勉强; 可能卡点:“having”) | L6(唯一; 句:"The puppy looked _____, but it was the one who chewed the shoe."; 选项:A:humble B:lively C:glossy D:innocent; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2585; 顺序:OK)
+- invisible — L5(def:不能; ex:不能; 卡点:definition里“seen”或概念抽象/词频低) | L6(唯一; 句:"The glass door was so clean it was almost _____."; 选项:A:invisible B:lean C:foggy D:heavy; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:4029; 派生词形; 顺序:OK)
+- keen — L5(def:勉强; ex:勉强; 可能卡点:“eager”) | L6(唯一; 句:"He was _____ to start reading the new book he got for his birthday."; 选项:A:harsh B:keen C:grim D:wicked; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- lean — L5(def:能; ex:勉强; 可能卡点:“looking”) | L6(唯一; 句:"The _____ runner finished the race first because she was fast and fit."; 选项:A:lean B:moist C:invisible D:heavy; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1862; 顺序:OK)
+- lively — L5(def:勉强; ex:勉强; 可能卡点:“energy”) | L6(唯一; 句:"The _____ puppy bounced around the yard chasing butterflies."; 选项:A:innocent B:humble C:magnificent D:lively; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- lovely — L5(def:能; ex:勉强; 可能卡点:“pretty”) | L6(唯一; 句:"What a _____ garden full of colorful flowers and green plants!"; 选项:A:pure B:gaze C:lovely D:dense; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2671; 顺序:OK)
+- magnificent — L5(def:不能; ex:不能; 卡点:definition里“impressive”或概念抽象/词频低) | L6(唯一; 句:"The _____ fireworks lit up the whole night sky."; 选项:A:innocent B:magnificent C:lively D:noble; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- moist — L5(def:勉强; ex:勉强; 可能卡点:“wet”) | L6(唯一; 句:"The _____ soil was perfect for planting seeds in the garden."; 选项:A:moist B:lean C:pale D:invisible; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- neat — L5(def:勉强; ex:勉强; 可能卡点:“clean”) | L6(唯一; 句:"Her desk was always _____ with pencils lined up in a row."; 选项:A:previously B:usually C:constantly D:neat; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- noble — L5(def:勉强; ex:勉强; 可能卡点:“brave”) | L6(唯一; 句:"The _____ knight promised to help everyone in the village."; 选项:A:noble B:lively C:odd D:magnificent; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- odd — L5(def:能; ex:勉强; 可能卡点:“strange”) | L6(唯一; 句:"It was _____ to see snow in April when it was supposed to be spring."; 选项:A:noble B:magnificent C:odd D:plump; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2680; 顺序:OK)
+- pale — L5(def:能; ex:勉强; 可能卡点:“bright”) | L6(唯一; 句:"Her face turned _____ when she heard the scary noise."; 选项:A:pale B:scarce C:moist D:lean; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3562; 顺序:OK)
+- plump — L5(def:勉强; ex:勉强; 可能卡点:“little”) | L6(唯一; 句:"The _____ blueberries were ready to pick from the bush."; 选项:A:odd B:noble C:precious D:plump; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- precious — L5(def:勉强; ex:勉强; 可能卡点:“valuable”) | L6(唯一; 句:"The ring was _____ to him because it belonged to his grandfather."; 选项:A:precious B:rare C:odd D:plump; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3837; 派生词形; 顺序:OK)
+- pure — L5(def:能; ex:勉强; 可能卡点:“mixed”) | L6(唯一; 句:"The mountain stream had _____ water that was clear as glass."; 选项:A:lovely B:pure C:dense D:briefly; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2391; 顺序:OK)
+- rare — L5(def:能; ex:勉强; 可能卡点:“seen”) | L6(唯一; 句:"It is _____ to see a bald eagle, so we were very lucky that day."; 选项:A:raw B:precious C:rare D:plump; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2015; 顺序:OK)
+- raw — L5(def:能; ex:勉强; 可能卡点:“cooked”) | L6(唯一; 句:"You should not eat _____ chicken because it can make you sick."; 选项:A:round B:precious C:rare D:raw; 可较唯一定位(目标分3)) | L7(OK; 食安提醒可接受；注意不要引发恐惧) | L8(合适; COCA:2858; 顺序:OK)
+- round — L5(def:能; ex:勉强; 可能卡点:“shaped”) | L6(唯一; 句:"The _____ orange rolled off the table and onto the floor."; 选项:A:round B:rare C:rude D:raw; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2365; 顺序:OK)
+- rude — L5(def:不能; ex:不能; 卡点:definition里“polite”或概念抽象/词频低) | L6(唯一; 句:"It is _____ to talk while someone else is speaking."; 选项:A:raw B:rude C:round D:rusty; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:5018; 顺序:OK)
+- rusty — L5(def:不能; ex:不能; 卡点:definition里“covered”或概念抽象/词频低) | L6(唯一; 句:"The _____ old bike had been left in the rain for too long."; 选项:A:rusty B:rude C:abundant D:round; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- scarce — L5(def:勉强; ex:勉强; 可能卡点:“hard”) | L6(唯一; 句:"When a trading card is _____, collectors will pay a much higher price for it."; 选项:A:pale B:slender C:moist D:scarce; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- slender — L5(def:不能; ex:不能; 卡点:definition里“graceful”或概念抽象/词频低) | L6(唯一; 句:"The _____ candle fit perfectly in the tiny holder."; 选项:A:slender B:soft C:pale D:scarce; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- soft — L5(def:能; ex:勉强; 可能卡点:“gentle”) | L6(唯一; 句:"The _____ kitten fur felt like a cloud when she petted it."; 选项:A:slender B:soft C:scarce D:brittle; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1762; 顺序:OK)
+- abundant — L5(def:勉强; ex:勉强; 可能卡点:“enough”) | L6(唯一; 句:"The store had _____ supplies, so prices stayed low all summer."; 选项:A:abundant B:absurd C:rusty D:rude; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- absurd — L5(def:不能; ex:不能; 卡点:definition里“making”或概念抽象/词频低) | L6(唯一; 句:"The clown wore an _____ hat that was shaped like a giant banana."; 选项:A:abundant B:rusty C:accurate D:absurd; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- accurate — L5(def:勉强; ex:勉强; 可能卡点:“mistakes”) | L6(唯一; 句:"Her drawing was so _____ it looked like a photograph."; 选项:A:cruel B:abundant C:accurate D:absurd; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2593; 顺序:OK)
+- brittle — L5(def:勉强; ex:勉强; 可能卡点:“snap”) | L6(唯一; 句:"The _____ twig snapped in half when he stepped on it."; 选项:A:slender B:brittle C:soft D:colorful; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- colorful — L5(def:不能; ex:不能; 卡点:definition里“having”或概念抽象/词频低) | L6(唯一; 句:"The _____ parrot had red, blue, and yellow feathers."; 选项:A:colorful B:brittle C:filthy D:soft; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- cruel — L5(def:勉强; ex:勉强; 可能卡点:“wanting”) | L6(唯一; 句:"It is _____ to pull a cat's tail because it causes pain."; 选项:A:daring B:absurd C:accurate D:cruel; 可较唯一定位(目标分5)) | L7(注意; 负面标签词；注意语气与示例避免羞辱/恐吓) | L8(勉强合适; COCA:4725; 顺序:OK)
+- daring — L5(def:勉强; ex:勉强; 可能卡点:“brave”) | L6(唯一; 句:"The _____ pilot flew through the storm to deliver medicine."; 选项:A:daring B:accurate C:horrible D:cruel; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- filthy — L5(def:勉强; ex:勉强; 可能卡点:“dirty”) | L6(唯一; 句:"His clothes were _____ after playing in the mud all afternoon."; 选项:A:colorful B:brittle C:filthy D:gorgeous; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- gorgeous — L5(def:勉强; ex:勉强; 可能卡点:“beautiful”) | L6(唯一; 句:"The _____ sunset turned the sky orange and pink."; 选项:A:gorgeous B:mysterious C:filthy D:colorful; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4535; 派生词形; 顺序:OK)
+- horrible — L5(def:勉强; ex:能; 可能卡点:“unpleasant”) | L6(唯一; 句:"The _____ smell from the garbage made everyone hold their nose."; 选项:A:daring B:cruel C:pleasant D:horrible; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2876; 派生词形; 顺序:OK)
+- mysterious — L5(def:不能; ex:不能; 卡点:definition里“understand”或概念抽象/词频低) | L6(唯一; 句:"A _____ light appeared in the forest at night."; 选项:A:mysterious B:spotless C:filthy D:gorgeous; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4249; 派生词形; 顺序:OK)
+- pleasant — L5(def:勉强; ex:勉强; 可能卡点:“enjoyable”) | L6(唯一; 句:"The _____ breeze cooled us down on the hot summer day."; 选项:A:horrible B:pleasant C:daring D:powerful; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4218; 顺序:OK)
+- powerful — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The _____ wind blew the leaves off every tree on the street."; 选项:A:ridiculous B:pleasant C:powerful D:horrible; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1256; 顺序:OK)
+- ridiculous — L5(def:不能; ex:不能; 卡点:definition里“makes”或概念抽象/词频低) | L6(唯一; 句:"The dog looked _____ wearing a tiny hat and sunglasses."; 选项:A:serious B:pleasant C:powerful D:ridiculous; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2818; 派生词形; 顺序:OK)
+- serious — L5(def:勉强; ex:勉强; 可能卡点:“joking”) | L6(唯一; 句:"She had a _____ look on her face when she told us the rules."; 选项:A:serious B:powerful C:tremendous D:ridiculous; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:795; 派生词形; 顺序:OK)
+- spotless — L5(def:勉强; ex:勉强; 可能卡点:“dirt”) | L6(唯一; 句:"After cleaning all day, the kitchen was _____."; 选项:A:gorgeous B:spotless C:mysterious D:visible; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- tremendous — L5(def:勉强; ex:勉强; 可能卡点:“great”) | L6(唯一; 句:"The audience gave a _____ cheer that shook the whole room."; 选项:A:tremendous B:serious C:wealthy D:ridiculous; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3386; 派生词形; 顺序:OK)
+- visible — L5(def:勉强; ex:勉强; 可能卡点:“seen”) | L6(唯一; 句:"The lighthouse was _____ from miles away because of its bright light."; 选项:A:spotless B:weak C:mysterious D:visible; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2752; 派生词形; 顺序:OK)
+- weak — L5(def:能; ex:勉强; 可能卡点:“strong”) | L6(唯一; 句:"The _____ kitten could barely stand on its tiny legs."; 选项:A:weak B:probably C:spotless D:visible; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1969; 顺序:OK)
+- wealthy — L5(def:勉强; ex:能; 可能卡点:“having”) | L6(唯一; 句:"The _____ man built a library, so everyone could read for free."; 选项:A:tremendous B:wealthy C:serious D:worthless; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2927; 顺序:OK)
+- wicked — L5(def:勉强; ex:勉强; 可能卡点:“evil”) | L6(唯一; 句:"The _____ witch in the story tried to trick the children."; 选项:A:wicked B:currently C:keen D:harsh; 可较唯一定位(目标分5)) | L7(注意; 负面标签词；注意语气与示例避免羞辱/恐吓) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- worthless — L5(def:不能; ex:不能; 卡点:definition里“having”或概念抽象/词频低) | L6(唯一; 句:"The broken toy was _____ because none of the pieces worked."; 选项:A:wealthy B:tremendous C:instantly D:worthless; 可较唯一定位(目标分5)) | L7(注意; 负面标签词；注意语气与示例避免羞辱/恐吓) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- briefly — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The sun came out _____, then the clouds covered it again."; 选项:A:continuously B:lovely C:briefly D:pure; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3657; 前置:brief; 顺序:OK)
+- constantly — L5(def:勉强; ex:勉强; 可能卡点:“stopping”) | L6(唯一; 句:"The puppy _____ wagged its tail because it was always happy."; 选项:A:usually B:constantly C:neat D:previously; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2466; 顺序:OK)
+- continuously — L5(def:不能; ex:不能; 卡点:definition里“going”或概念抽象/词频低) | L6(唯一; 句:"The river flows _____, never stopping day or night."; 选项:A:continuously B:briefly C:initially D:pure; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- currently — L5(def:勉强; ex:勉强; 可能卡点:“happening”) | L6(唯一; 句:"She is _____ reading a book about dinosaurs."; 选项:A:formerly B:keen C:wicked D:currently; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1455; 前置:current; 顺序:应先学前置)
+- formerly — L5(def:勉强; ex:勉强; 可能卡点:“past”) | L6(唯一; 句:"The building was _____ a school, but now it is a library."; 选项:A:formerly B:wicked C:promptly D:currently; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- instantly — L5(def:不能; ex:不能; 卡点:definition里“happening”或概念抽象/词频低) | L6(唯一; 句:"The light turned on _____ when she flipped the switch."; 选项:A:worthless B:wealthy C:instantly D:mostly; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4426; 顺序:OK)
+- mostly — L5(def:能; ex:勉强; 可能卡点:“completely”) | L6(唯一; 句:"The jar was _____ empty—only a few candies were left."; 选项:A:mostly B:nearly C:instantly D:worthless; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1324; 顺序:OK)
+- nearly — L5(def:能; ex:勉强; 可能卡点:“quite”) | L6(唯一; 句:"She _____ finished the race but tripped right before the finish line."; 选项:A:mostly B:instantly C:normally D:nearly; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:700; 顺序:OK)
+- normally — L5(def:能; ex:勉强; 可能卡点:“happen”) | L6(唯一; 句:"We _____ eat breakfast at seven, but today we slept late."; 选项:A:normally B:originally C:mostly D:nearly; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2654; 顺序:OK)
+- originally — L5(def:不能; ex:不能; 卡点:definition里“changed”或概念抽象/词频低) | L6(唯一; 句:"The house was _____ painted white, but now it is blue."; 选项:A:normally B:originally C:nearly D:partly; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2730; 顺序:OK)
+- partly — L5(def:能; ex:勉强; 可能卡点:“only”) | L6(唯一; 句:"The sky was _____ cloudy, so we could still see some blue."; 选项:A:possibly B:originally C:partly D:normally; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3453; 顺序:OK)
+- possibly — L5(def:能; ex:勉强; 可能卡点:“chance”) | L6(唯一; 句:"It will _____ snow tonight, so keep your boots by the door."; 选项:A:presently B:originally C:partly D:possibly; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1622; 顺序:OK)
+- presently — L5(def:不能; ex:不能; 卡点:definition里“moment”或概念抽象/词频低) | L6(唯一; 句:"He is _____ working on his art project in the other room."; 选项:A:presently B:partly C:shortly D:possibly; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- previously — L5(def:勉强; ex:能; 可能卡点:“earlier”) | L6(唯一; 句:"He had _____ visited the museum, so he knew where to find the dinosaur bones."; 选项:A:neat B:previously C:constantly D:usually; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2006; 前置:previous; 顺序:应先学前置)
+- probably — L5(def:能; ex:勉强; 可能卡点:“likely”) | L6(唯一; 句:"It will _____ rain because the sky is full of dark clouds."; 选项:A:probably B:weak C:material D:visible; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:366; 顺序:OK)
+- promptly — L5(def:勉强; ex:勉强; 可能卡点:“away”) | L6(唯一; 句:"Class starts at nine, and the teacher arrives _____ every day."; 选项:A:formerly B:regularly C:currently D:promptly; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- regularly — L5(def:不能; ex:不能; 卡点:definition里“happening”或概念抽象/词频低) | L6(唯一; 句:"She _____ waters her plant every morning before school."; 选项:A:regularly B:sometimes C:formerly D:promptly; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3018; 顺序:OK)
+- shortly — L5(def:能; ex:勉强; 可能卡点:“little”) | L6(唯一; 句:"The movie will start _____, so find your seat now."; 选项:A:presently B:shortly C:possibly D:simply; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3173; 顺序:OK)
+- simply — L5(def:能; ex:勉强; 可能卡点:“nothing”) | L6(唯一; 句:"You can fix it _____ by pressing the restart button."; 选项:A:simply B:steadily C:shortly D:presently; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:580; 顺序:OK)
+- sometimes — L5(def:能; ex:勉强; 可能卡点:“now”) | L6(唯一; 句:"Sometimes we walk to school, and _____ we take the bus."; 选项:A:regularly B:promptly C:still D:sometimes; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:474; 顺序:OK)
+- steadily — L5(def:不能; ex:不能; 卡点:definition里“stopping”或概念抽象/词频低) | L6(唯一; 句:"The rain fell _____ all afternoon without getting worse or letting up."; 选项:A:simultaneously B:shortly C:steadily D:simply; 可较唯一定位(目标分8)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- still — L5(def:能; ex:勉强; 可能卡点:“continuing”) | L6(唯一; 句:"It is ten o'clock, and she is _____ reading her book."; 选项:A:regularly B:still C:sometimes D:typically; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:128; 顺序:OK)
+- typically — L5(def:勉强; ex:勉强; 可能卡点:“happens”) | L6(唯一; 句:"He _____ walks to school, but today his mom drove him."; 选项:A:typically B:still C:illustration D:sometimes; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2110; 顺序:OK)
+- usually — L5(def:能; ex:勉强; 需要语境/图片支架) | L6(唯一; 句:"We _____ have pizza on Friday nights."; 选项:A:permanently B:constantly C:previously D:usually; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:786; 顺序:OK)
+- simultaneously — L5(def:不能; ex:不能; 卡点:概念抽象/词频低) | L6(唯一; 句:"The two friends jumped into the pool _____ and made a huge splash."; 选项:A:simultaneously B:simply C:temporarily D:steadily; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4060; 顺序:OK)
+- initially — L5(def:勉强; ex:勉强; 可能卡点:“beginning”) | L6(唯一; 句:"She was _____ scared of the water, but soon she loved swimming."; 选项:A:continuously B:briefly C:initially D:fact; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2869; 顺序:OK)
+- permanently — L5(def:不能; ex:不能; 卡点:definition里“stays”或概念抽象/词频低) | L6(唯一; 句:"The marker stain _____ stayed on the shirt even after washing."; 选项:A:permanently B:yearly C:usually D:previously; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- temporarily — L5(def:不能; ex:不能; 卡点:definition里“forever”或概念抽象/词频低) | L6(唯一; 句:"The road is _____ closed while workers fix the broken pipe."; 选项:A:simultaneously B:steadily C:lately D:temporarily; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 前置:temporary; 顺序:应先学前置)
+- lately — L5(def:能; ex:勉强; 可能卡点:“now”) | L6(唯一; 句:"It has been very cold _____, so we wear extra layers."; 选项:A:lately B:overnight C:simultaneously D:temporarily; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3402; 顺序:OK)
+- overnight — L5(def:不能; ex:不能; 卡点:definition里“during”或概念抽象/词频低) | L6(唯一; 句:"The snow fell _____, and everything was white in the morning."; 选项:A:lately B:overnight C:temporarily D:vocabulary; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- yearly — L5(def:不能; ex:不能; 卡点:definition里“happening”或概念抽象/词频低) | L6(唯一; 句:"The town has a _____ parade every summer with music and floats."; 选项:A:hourly B:permanently C:yearly D:usually; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- hourly — L5(def:不能; ex:不能; 卡点:definition里“happening”或概念抽象/词频低) | L6(唯一; 句:"The clock chimes _____, so you hear it ring twelve times at noon."; 选项:A:voyage B:permanently C:yearly D:hourly; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- illustration — L5(def:不能; ex:不能; 卡点:definition里“happening”或概念抽象/词频低) | L6(唯一; 句:"The _____ showed a dragon flying over a mountain."; 选项:A:illustration B:still C:diagram D:typically; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:3813; 派生词形; 顺序:OK)
+- diagram — L5(def:不能; ex:不能; 卡点:definition里“shows”或概念抽象/词频低) | L6(唯一; 句:"The _____ in our science book shows the parts of a flower."; 选项:A:typically B:diagram C:illustration D:summary; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- vocabulary — L5(def:不能; ex:不能; 卡点:definition里“words”或概念抽象/词频低) | L6(唯一; 句:"Reading every day helps you grow your _____."; 选项:A:vocabulary B:overnight C:definition D:lately; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:5031; 顺序:OK)
+- definition — L5(def:不能; ex:不能; 卡点:definition里“means”或概念抽象/词频低) | L6(唯一; 句:"Look up the _____ in the dictionary if you don't know the word."; 选项:A:vocabulary B:conclusion C:overnight D:definition; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:1940; 派生词形; 顺序:OK)
+- fact — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"It is a _____ that the Earth goes around the Sun."; 选项:A:fact B:experiment C:continuously D:initially; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:242; 顺序:OK)
+- summary — L5(def:勉强; ex:勉强; 可能卡点:“telling”) | L6(唯一; 句:"Write a _____ of the story in just three sentences."; 选项:A:diagram B:summary C:illustration D:topic; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3533; 顺序:OK)
+- topic — L5(def:能; ex:勉强; 可能卡点:“what”) | L6(唯一; 句:"The _____ of today's lesson is the water cycle."; 选项:A:topic B:passage C:summary D:diagram; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1610; 顺序:OK)
+- conclusion — L5(def:勉强; ex:勉强; 可能卡点:“final”) | L6(唯一; 句:"At the _____ of the movie, the hero saved the day."; 选项:A:definition B:vocabulary C:creature D:conclusion; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1659; 派生词形; 顺序:OK)
+- passage — L5(def:能; ex:勉强; 可能卡点:“article”) | L6(唯一; 句:"Read the _____ on page five and answer the questions."; 选项:A:research B:summary C:passage D:topic; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2413; 顺序:OK)
+- research — L5(def:勉强; ex:勉强; 可能卡点:“looking”) | L6(唯一; 句:"We did _____ on penguins by reading three different books."; 选项:A:topic B:research C:passage D:method; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:383; 顺序:OK)
+- method — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The teacher showed us a new _____ for solving math problems."; 选项:A:method B:research C:profession D:passage; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:911; 顺序:OK)
+- experiment — L5(def:不能; ex:不能; 卡点:definition里“happens”或概念抽象/词频低) | L6(唯一; 句:"Our _____ showed that plants grow faster in sunlight."; 选项:A:moisture B:initially C:fact D:experiment; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2011; 派生词形; 顺序:OK)
+- creature — L5(def:能; ex:勉强; 可能卡点:“living”) | L6(唯一; 句:"We saw a strange _____ with eight legs in the garden—it was a spider!"; 选项:A:creature B:definition C:motion D:conclusion; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2370; 顺序:OK)
+- moisture — L5(def:不能; ex:不能; 卡点:definition里“wetness”或概念抽象/词频低) | L6(唯一; 句:"There was _____ on the grass every morning from the cool night air."; 选项:A:experiment B:fact C:moisture D:source; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- material — L5(def:能; ex:勉强; 可能卡点:“what”) | L6(唯一; 句:"The _____ of his jacket was soft and kept him very warm."; 选项:A:material B:volunteer C:probably D:weak; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:772; 顺序:OK)
+- source — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The river's _____ is a small spring high up in the mountains."; 选项:A:moisture B:shelter C:experiment D:source; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:612; 顺序:OK)
+- motion — L5(def:能; ex:勉强; 可能卡点:“moving”) | L6(唯一; 句:"The _____ of the swing going back and forth made her laugh."; 选项:A:motion B:mixture C:conclusion D:creature; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2085; 顺序:OK)
+- mixture — L5(def:勉强; ex:勉强; 可能卡点:“stirred”) | L6(唯一; 句:"The cake batter is a _____ of flour, eggs, and sugar."; 选项:A:motion B:mixture C:creature D:direction; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2997; 顺序:OK)
+- direction — L5(def:不能; ex:不能; 卡点:definition里“pointing”或概念抽象/词频低) | L6(唯一; 句:"The wind changed _____ and started blowing from the north."; 选项:A:prey B:mixture C:direction D:motion; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:1073; 派生词形; 顺序:OK)
+- shelter — L5(def:勉强; ex:勉强; 可能卡点:“protects”) | L6(唯一; 句:"The hikers found _____ under a big rock when it started to rain."; 选项:A:predator B:moisture C:source D:shelter; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3090; 顺序:OK)
+- predator — L5(def:不能; ex:不能; 卡点:definition里“animals”或概念抽象/词频低) | L6(唯一; 句:"The hawk is a _____ that catches mice and small birds."; 选项:A:oxygen B:source C:predator D:shelter; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:5049; 顺序:OK)
+- prey — L5(def:勉强; ex:勉强; 可能卡点:“hunt”) | L6(唯一; 句:"The rabbit is _____ for foxes, so it runs very fast to escape."; 选项:A:mixture B:prey C:direction D:gravity; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- oxygen — L5(def:勉强; ex:勉强; 可能卡点:“breathe”) | L6(唯一; 句:"Trees make _____, which is why forests help us breathe clean air."; 选项:A:oxygen B:predator C:galaxy D:shelter; 可较唯一定位(目标分9)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4046; 顺序:OK)
+- galaxy — L5(def:勉强; ex:能; 可能卡点:“stars”) | L6(唯一; 句:"Our sun is just one star in a _____ with billions of others."; 选项:A:oxygen B:fossil C:predator D:galaxy; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3006; 顺序:OK)
+- fossil — L5(def:不能; ex:不能; 卡点:definition里“remains”或概念抽象/词频低) | L6(唯一; 句:"We found a _____ of a leaf that was millions of years old."; 选项:A:fossil B:mineral C:oxygen D:galaxy; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4467; 顺序:OK)
+- mineral — L5(def:勉强; ex:勉强; 可能卡点:“found”) | L6(唯一; 句:"Gold is a _____ that people dig out of the earth."; 选项:A:fossil B:galaxy C:mineral D:current; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- current — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The strong _____ in the river pushed the boat downstream."; 选项:A:current B:vapor C:mineral D:fossil; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:650; 顺序:OK)
+- vapor — L5(def:不能; ex:不能; 卡点:definition里“floating”或概念抽象/词频低) | L6(唯一; 句:"Steam from the hot soup rose into the air as water _____."; 选项:A:current B:mineral C:erosion D:vapor; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- erosion — L5(def:不能; ex:不能; 卡点:definition里“wearing”或概念抽象/词频低) | L6(唯一; 句:"Erosion from the river carved a deep valley over thousands of years."; 选项:A:orbit B:current C:erosion D:vapor; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 派生词形; 顺序:OK)
+- orbit — L5(def:不能; ex:不能; 卡点:definition里“takes”或概念抽象/词频低) | L6(唯一; 句:"The Earth takes one year to complete its _____ around the Sun."; 选项:A:vapor B:orbit C:erosion D:patience; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4548; 顺序:OK)
+- gravity — L5(def:不能; ex:不能; 卡点:definition里“pulls”或概念抽象/词频低) | L6(唯一; 句:"Gravity is what makes a ball fall back down after you throw it up."; 选项:A:species B:prey C:gravity D:direction; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4048; 派生词形; 顺序:OK)
+- species — L5(def:能; ex:勉强; 可能卡点:“living”) | L6(唯一; 句:"There are many _____ of birds, from tiny hummingbirds to huge eagles."; 选项:A:merchant B:prey C:gravity D:species; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1319; 顺序:OK)
+- community — L5(def:勉强; ex:勉强; 可能卡点:“group”) | L6(唯一; 句:"Our _____ worked together to build a new playground."; 选项:A:community B:defend C:population D:helpless; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:342; 派生词形; 顺序:OK)
+- population — L5(def:勉强; ex:勉强; 可能卡点:“living”) | L6(唯一; 句:"The _____ of our town grew when new families moved in."; 选项:A:community B:helpless C:population D:culture; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:716; 派生词形; 顺序:OK)
+- culture — L5(def:能; ex:勉强; 可能卡点:“group”) | L6(唯一; 句:"In their _____, families gather every Sunday for a big meal."; 选项:A:culture B:ancestor C:population D:community; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:706; 顺序:OK)
+- ancestor — L5(def:勉强; ex:勉强; 可能卡点:“lived”) | L6(唯一; 句:"Her _____s came from a small village across the ocean."; 选项:A:culture B:generation C:population D:ancestor; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4434; 顺序:OK)
+- generation — L5(def:勉强; ex:勉强; 可能卡点:“around”) | L6(唯一; 句:"Kids, parents, and grandparents are three different _____s."; 选项:A:generation B:pioneer C:culture D:ancestor; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1118; 派生词形; 顺序:OK)
+- volunteer — L5(def:不能; ex:不能; 卡点:definition里“helps”或概念抽象/词频低) | L6(唯一; 句:"Volunteers helped clean up the beach after the storm."; 选项:A:material B:volunteer C:probably D:effort; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2507; 顺序:OK)
+- merchant — L5(def:不能; ex:不能; 卡点:definition里“sells”或概念抽象/词频低) | L6(唯一; 句:"The _____ at the market sold fresh fruits and vegetables."; 选项:A:companion B:species C:merchant D:gravity; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:5027; 顺序:OK)
+- pioneer — L5(def:勉强; ex:勉强; 可能卡点:“try”) | L6(唯一; 句:"The _____s traveled west in covered wagons to find new land."; 选项:A:president B:ancestor C:generation D:pioneer; 可较唯一定位(目标分8)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- president — L5(def:能; ex:勉强; 可能卡点:“country”) | L6(唯一; 句:"The _____ of the club welcomed all the new members."; 选项:A:immigrant B:generation C:president D:pioneer; 可较唯一定位(目标分5)) | L7(注意; 社会/政治语境敏感；建议更中性、生活化例句) | L8(合适; COCA:173; 顺序:OK)
+- profession — L5(def:不能; ex:不能; 卡点:definition里“needs”或概念抽象/词频低) | L6(唯一; 句:"Being a doctor is a _____ that requires many years of school."; 选项:A:research B:profession C:method D:courage; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3256; 派生词形; 顺序:OK)
+- companion — L5(def:勉强; ex:勉强; 可能卡点:“friend”) | L6(唯一; 句:"The dog was her loyal _____ on every walk through the woods."; 选项:A:companion B:merchant C:guardian D:species; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3956; 顺序:OK)
+- guardian — L5(def:勉强; ex:勉强; 可能卡点:“takes”) | L6(唯一; 句:"His _____ made sure he ate healthy food and went to bed on time."; 选项:A:companion B:inspector C:merchant D:guardian; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4821; 顺序:OK)
+- immigrant — L5(def:勉强; ex:勉强; 可能卡点:“moves”) | L6(唯一; 句:"Many _____s came to this country to find a better life."; 选项:A:immigrant B:relative C:pioneer D:president; 可较唯一定位(目标分6)) | L7(注意; 社会/政治语境敏感；建议更中性、生活化例句) | L8(勉强合适; COCA:2320; 顺序:OK)
+- inspector — L5(def:勉强; ex:勉强; 可能卡点:“whose”) | L6(唯一; 句:"The _____ looked at the building to make sure it was safe."; 选项:A:guardian B:companion C:inspector D:messenger; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4114; 顺序:OK)
+- messenger — L5(def:不能; ex:不能; 卡点:definition里“carries”或概念抽象/词频低) | L6(唯一; 句:"The _____ rode his horse fast to deliver the important letter."; 选项:A:messenger B:scholar C:inspector D:guardian; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- relative — L5(def:勉强; ex:勉强; 可能卡点:“family”) | L6(唯一; 句:"Every _____ came to the big reunion at the park."; 选项:A:immigrant B:president C:conversation D:relative; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2976; 派生词形; 顺序:OK)
+- scholar — L5(def:勉强; ex:勉强; 可能卡点:“studies”) | L6(唯一; 句:"The _____ read hundreds of books about ancient history."; 选项:A:witness B:inspector C:scholar D:messenger; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2493; 顺序:OK)
+- witness — L5(def:勉强; ex:能; 可能卡点:“sees”) | L6(唯一; 句:"She was a _____ to the accident and told the police what she saw."; 选项:A:messenger B:witness C:scholar D:advantage; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1987; 派生词形; 顺序:OK)
+- advantage — L5(def:勉强; ex:勉强; 可能卡点:“gives”) | L6(唯一; 句:"Being tall is an _____ in basketball because you can reach the hoop."; 选项:A:knowledge B:witness C:advantage D:scholar; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1382; 顺序:OK)
+- courage — L5(def:能; ex:勉强; 可能卡点:“brave”) | L6(唯一; 句:"It took _____ to stand up and speak in front of the whole school."; 选项:A:responsibility B:method C:profession D:courage; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3479; 顺序:OK)
+- effort — L5(def:能; ex:勉强; 可能卡点:“trying”) | L6(唯一; 句:"She put a lot of _____ into her science project and won first place."; 选项:A:effort B:material C:attitude D:volunteer; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:530; 顺序:OK)
+- knowledge — L5(def:能; ex:勉强; 可能卡点:“learning”) | L6(唯一; 句:"Reading books gives you _____ about the world."; 选项:A:advantage B:witness C:knowledge D:accident; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:841; 顺序:OK)
+- patience — L5(def:不能; ex:不能; 卡点:definition里“getting”或概念抽象/词频低) | L6(唯一; 句:"It takes _____ to grow a garden because plants need weeks to get big."; 选项:A:patience B:rapid C:orbit D:erosion; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4288; 派生词形; 顺序:OK)
+- responsibility — L5(def:不能; ex:不能; 卡点:definition里“duty”或概念抽象/词频低) | L6(唯一; 句:"Feeding the class pet is my _____ this week."; 选项:A:courage B:triumph C:profession D:responsibility; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:1204; 派生词形; 顺序:OK)
+- triumph — L5(def:勉强; ex:勉强; 可能卡点:“success”) | L6(唯一; 句:"Our team's _____ in the championship game made the whole school cheer."; 选项:A:triumph B:decision C:courage D:responsibility; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- accident — L5(def:勉强; ex:勉强; 可能卡点:“happens”) | L6(唯一; 句:"She spilled the milk by _____ when her elbow bumped the glass."; 选项:A:knowledge B:accident C:advantage D:boundary; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1739; 顺序:OK)
+- attitude — L5(def:能; ex:勉强; 可能卡点:“think”) | L6(唯一; 句:"A positive _____ helps you keep trying even when things are hard."; 选项:A:transform B:effort C:attitude D:volunteer; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1474; 顺序:OK)
+- boundary — L5(def:勉强; ex:勉强; 可能卡点:“begins”) | L6(唯一; 句:"The fence is the _____ between our yard and the neighbor's yard."; 选项:A:consequence B:knowledge C:accident D:boundary; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3014; 顺序:OK)
+- consequence — L5(def:不能; ex:不能; 卡点:definition里“caused”或概念抽象/词频低) | L6(唯一; 句:"The _____ of forgetting her lunch was being hungry all afternoon."; 选项:A:evidence B:accident C:consequence D:boundary; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:1685; 派生词形; 顺序:OK)
+- conversation — L5(def:不能; ex:不能; 卡点:definition里“between”或概念抽象/词频低) | L6(唯一; 句:"They had a long _____ about their favorite books."; 选项:A:immigrant B:conversation C:relative D:inherit; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:991; 派生词形; 顺序:OK)
+- decision — L5(def:能; ex:勉强; 可能卡点:“thinking”) | L6(唯一; 句:"Choosing which school to attend was a big _____ for the family."; 选项:A:decision B:triumph C:inspect D:responsibility; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:488; 派生词形; 顺序:OK)
+- evidence — L5(def:勉强; ex:勉强; 可能卡点:“shows”) | L6(唯一; 句:"Muddy footprints were _____ that someone walked through the garden."; 选项:A:consequence B:experience C:boundary D:evidence; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:597; 派生词形; 顺序:OK)
+- experience — L5(def:勉强; ex:勉强; 可能卡点:“remember”) | L6(唯一; 句:"Visiting the ocean for the first time was an amazing _____."; 选项:A:experience B:imagination C:consequence D:evidence; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:421; 派生词形; 顺序:OK)
+- imagination — L5(def:不能; ex:不能; 卡点:definition里“pictures”或概念抽象/词频低) | L6(唯一; 句:"He used his _____ to pretend the cardboard box was a spaceship."; 选项:A:experience B:evidence C:imagination D:occasion; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:3200; 派生词形; 顺序:OK)
+- occasion — L5(def:勉强; ex:勉强; 可能卡点:“special”) | L6(唯一; 句:"A birthday is a happy _____ for cake and presents."; 选项:A:occasion B:solution C:imagination D:experience; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2530; 派生词形; 顺序:OK)
+- solution — L5(def:能; ex:勉强; 可能卡点:“problem”) | L6(唯一; 句:"Working together was the _____ to finishing the project on time."; 选项:A:occasion B:imagination C:supply D:solution; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1133; 派生词形; 顺序:OK)
+- inspect — L5(def:勉强; ex:勉强; 可能卡点:“carefully”) | L6(唯一; 句:"The teacher _____ed our projects to make sure they were finished."; 选项:A:select B:triumph C:inspect D:decision; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- select — L5(def:能; ex:勉强; 可能卡点:“carefully”) | L6(唯一; 句:"Please _____ one book from the shelf to read this week."; 选项:A:decision B:select C:inspect D:particular; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1791; 顺序:OK)
+- supply — L5(def:能; ex:勉强; 可能卡点:“amounts”) | L6(唯一; 句:"The store supplies food to families in the neighborhood."; 选项:A:survive B:solution C:supply D:occasion; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1680; 顺序:OK)
+- survive — L5(def:勉强; ex:勉强; 可能卡点:“risky”) | L6(唯一; 句:"The little plant _____d the cold winter and bloomed in spring."; 选项:A:transport B:solution C:supply D:survive; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1461; 派生词形; 顺序:OK)
+- transform — L5(def:能; ex:勉强; 可能卡点:“completely”) | L6(唯一; 句:"The caterpillar will _____ into a beautiful butterfly."; 选项:A:transform B:effort C:severe D:attitude; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2489; 顺序:OK)
+- transport — L5(def:勉强; ex:勉强; 可能卡点:“carry”) | L6(唯一; 句:"Trucks _____ food from farms to grocery stores."; 选项:A:survive B:supply C:transport D:identify; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4643; 顺序:OK)
+- identify — L5(def:勉强; ex:勉强; 可能卡点:“figure”) | L6(唯一; 句:"Can you _____ which bird is singing by listening to its call?"; 选项:A:identify B:massive C:transport D:survive; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:805; 派生词形; 顺序:OK)
+- inherit — L5(def:勉强; ex:勉强; 可能卡点:“family”) | L6(唯一; 句:"She _____ed her grandmother's blue eyes and curly hair."; 选项:A:conversation B:vacant C:relative D:inherit; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4857; 顺序:OK)
+- massive — L5(def:能; ex:勉强; 可能卡点:“large”) | L6(唯一; 句:"The _____ boulder was too big for anyone to move."; 选项:A:massive B:miniature C:transport D:identify; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1904; 派生词形; 顺序:OK)
+- miniature — L5(def:不能; ex:不能; 卡点:definition里“smaller”或概念抽象/词频低) | L6(唯一; 句:"She built a _____ house for her dolls out of cardboard."; 选项:A:massive B:miniature C:identify D:obvious; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- obvious — L5(def:能; ex:勉强; 可能卡点:“understand”) | L6(唯一; 句:"It was _____ the dog ate the cake because crumbs were all over its face."; 选项:A:ordinary B:miniature C:obvious D:massive; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1647; 派生词形; 顺序:OK)
+- ordinary — L5(def:勉强; ex:勉强; 可能卡点:“special”) | L6(唯一; 句:"It seemed like an _____ day until the surprise party started."; 选项:A:peculiar B:miniature C:obvious D:ordinary; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2664; 顺序:OK)
+- particular — L5(def:勉强; ex:勉强; 可能卡点:“specific”) | L6(唯一; 句:"She wanted that _____ book, not any of the other ones."; 选项:A:assign B:inspect C:particular D:select; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1045; 顺序:OK)
+- peculiar — L5(def:不能; ex:不能; 卡点:definition里“catches”或概念抽象/词频低) | L6(唯一; 句:"The _____ noise coming from the closet sounded like a squeaky toy."; 选项:A:obvious B:peculiar C:ordinary D:suitable; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- rapid — L5(def:勉强; ex:能; 可能卡点:“happening”) | L6(唯一; 句:"The _____ river moved so fast that logs were swept away in seconds."; 选项:A:rapid B:patience C:reluctant D:orbit; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3522; 顺序:OK)
+- reluctant — L5(def:不能; ex:不能; 卡点:definition里“wanting”或概念抽象/词频低) | L6(唯一; 句:"He was _____ to jump in the pool because the water looked cold."; 选项:A:rapid B:sensitive C:patience D:reluctant; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4995; 顺序:OK)
+- sensitive — L5(def:不能; ex:不能; 卡点:definition里“bothered”或概念抽象/词频低) | L6(唯一; 句:"His _____ skin turned red when he stayed in the sun too long."; 选项:A:sensitive B:sufficient C:rapid D:reluctant; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2820; 派生词形; 顺序:OK)
+- severe — L5(def:能; ex:勉强; 可能卡点:“serious”) | L6(唯一; 句:"The _____ storm brought strong winds that knocked down power lines."; 选项:A:transform B:attitude C:severe D:vivid; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2460; 顺序:OK)
+- suitable — L5(def:不能; ex:不能; 卡点:definition里“certain”或概念抽象/词频低) | L6(唯一; 句:"Sneakers are _____ shoes for running but not for a fancy dinner."; 选项:A:suitable B:vast C:peculiar D:ordinary; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 派生词形; 顺序:OK)
+- sufficient — L5(def:勉强; ex:勉强; 可能卡点:“enough”) | L6(唯一; 句:"Make sure you have _____ water for the whole hike."; 选项:A:sensitive B:reluctant C:occupy D:sufficient; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3183; 顺序:OK)
+- vacant — L5(def:勉强; ex:勉强; 可能卡点:“empty”) | L6(唯一; 句:"The _____ house had no furniture and no people living in it."; 选项:A:perform B:conversation C:vacant D:inherit; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- vast — L5(def:能; ex:勉强; 可能卡点:“extremely”) | L6(唯一; 句:"The _____ ocean stretched as far as the eye could see."; 选项:A:peculiar B:vast C:suitable D:possess; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2219; 顺序:OK)
+- vivid — L5(def:勉强; ex:勉强; 可能卡点:“picture”) | L6(唯一; 句:"She painted with _____ colors that made the flowers look real."; 选项:A:incredible B:severe C:vivid D:transform; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- possess — L5(def:能; ex:勉强; 可能卡点:“own”) | L6(唯一; 句:"The old pirate was said to _____ a chest full of gold coins."; 选项:A:reveal B:suitable C:vast D:possess; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2931; 顺序:OK)
+- reveal — L5(def:能; ex:勉强; 可能卡点:“hidden”) | L6(唯一; 句:"She pulled back the curtain to _____ the surprise behind it."; 选项:A:reveal B:vast C:require D:possess; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1011; 顺序:OK)
+- assign — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The teacher will _____ each student a different topic to research."; 选项:A:particular B:select C:assign D:respond; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2709; 顺序:OK)
+- respond — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"When the teacher asks a question, raise your hand to _____."; 选项:A:respond B:previous C:assign D:particular; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:988; 顺序:OK)
+- require — L5(def:能; ex:勉强; 可能卡点:“need”) | L6(唯一; 句:"This recipe _____s three eggs and a cup of milk."; 选项:A:reveal B:oppose C:possess D:require; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:457; 顺序:OK)
+- oppose — L5(def:能; ex:勉强; 可能卡点:“against”) | L6(唯一; 句:"Some students _____d the new rule because they thought it was unfair."; 选项:A:oppose B:accomplish C:reveal D:require; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2192; 顺序:OK)
+- occupy — L5(def:能; ex:勉强; 可能卡点:“space”) | L6(唯一; 句:"A family of owls occupied the old tree house in the backyard."; 选项:A:sufficient B:occupy C:sensitive D:essential; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2854; 顺序:OK)
+- perform — L5(def:能; ex:勉强; 可能卡点:“front”) | L6(唯一; 句:"The students will _____ a play for their parents on Friday."; 选项:A:tradition B:vacant C:perform D:inherit; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1003; 顺序:OK)
+- accomplish — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"She _____ed her goal of reading fifty books in one year."; 选项:A:cautious B:require C:oppose D:accomplish; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2423; 顺序:OK)
+- cautious — L5(def:不能; ex:不能; 卡点:definition里“happens”或概念抽象/词频低) | L6(唯一; 句:"The _____ girl looked both ways twice before crossing the street."; 选项:A:capable B:oppose C:cautious D:accomplish; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 派生词形; 顺序:OK)
+- capable — L5(def:能; ex:勉强; 可能卡点:“able”) | L6(唯一; 句:"He is _____ of running a mile without stopping."; 选项:A:accomplish B:capable C:cautious D:fortunate; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2338; 派生词形; 顺序:OK)
+- essential — L5(def:能; ex:勉强; 可能卡点:“need”) | L6(唯一; 句:"Water is _____ for all living things to survive."; 选项:A:essential B:occupy C:numerous D:sufficient; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2086; 顺序:OK)
+- fortunate — L5(def:不能; ex:不能; 卡点:definition里“having”或概念抽象/词频低) | L6(唯一; 句:"We were _____ that the rain stopped just before our picnic."; 选项:A:capable B:positive C:cautious D:fortunate; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- incredible — L5(def:不能; ex:不能; 卡点:definition里“amazing”或概念抽象/词频低) | L6(唯一; 句:"The magician did an _____ trick that made a dove appear from a hat."; 选项:A:incredible B:structure C:severe D:vivid; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2543; 派生词形; 顺序:OK)
+- numerous — L5(def:能; ex:勉强; 需要语境/图片支架) | L6(唯一; 句:"There were _____ stars in the sky that night, too many to count."; 选项:A:essential B:occupy C:numerous D:territory; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2378; 派生词形; 顺序:OK)
+- positive — L5(def:勉强; ex:勉强; 可能卡点:“hopeful”) | L6(唯一; 句:"She was _____ she left her keys on the table because she saw them there."; 选项:A:positive B:region C:fortunate D:capable; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1052; 派生词形; 顺序:OK)
+- previous — L5(def:能; ex:勉强; 可能卡点:“coming”) | L6(唯一; 句:"In the _____ chapter, the hero found a magic map."; 选项:A:respond B:assign C:establish D:previous; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1214; 派生词形; 顺序:OK)
+- region — L5(def:能; ex:勉强; 可能卡点:“large”) | L6(唯一; 句:"The desert _____ gets very little rain all year."; 选项:A:symbol B:fortunate C:region D:positive; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:912; 顺序:OK)
+- structure — L5(def:能; ex:勉强; 可能卡点:“built”) | L6(唯一; 句:"The bridge is a strong _____ made of steel and stone."; 选项:A:vivid B:structure C:incredible D:challenge; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1106; 顺序:OK)
+- symbol — L5(def:勉强; ex:勉强; 可能卡点:“stands”) | L6(唯一; 句:"A heart is a _____ that means love."; 选项:A:celebration B:region C:symbol D:positive; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2780; 顺序:OK)
+- tradition — L5(def:不能; ex:不能; 卡点:definition里“families”或概念抽象/词频低) | L6(唯一; 句:"We bake cookies every December—it is a family _____."; 选项:A:quantity B:vacant C:perform D:tradition; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:1596; 派生词形; 顺序:OK)
+- celebration — L5(def:不能; ex:不能; 卡点:definition里“happiness”或概念抽象/词频低) | L6(唯一; 句:"The town held a _____ with fireworks when the team won."; 选项:A:celebration B:region C:equipment D:symbol; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3430; 派生词形; 顺序:OK)
+- challenge — L5(def:能; ex:勉强; 可能卡点:“hard”) | L6(唯一; 句:"Climbing the mountain was a _____, but they made it to the top."; 选项:A:structure B:incredible C:challenge D:concentrate; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:972; 顺序:OK)
+- equipment — L5(def:勉强; ex:勉强; 可能卡点:“tools”) | L6(唯一; 句:"The firefighter put on all her _____ before going into the building."; 选项:A:equipment B:disaster C:celebration D:symbol; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1790; 派生词形; 顺序:OK)
+- voyage — L5(def:勉强; ex:勉强; 可能卡点:“long”) | L6(唯一; 句:"The sailors went on a _____ across the ocean that lasted three months."; 选项:A:hourly B:yearly C:permanently D:voyage; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- territory — L5(def:勉强; ex:勉强; 可能卡点:“belongs”) | L6(唯一; 句:"The wolf marked its _____ so other animals would stay away."; 选项:A:territory B:maintain C:essential D:numerous; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2431; 顺序:OK)
+- disaster — L5(def:能; ex:勉强; 可能卡点:“causes”) | L6(唯一; 句:"The flood was a _____ that damaged many homes in the town."; 选项:A:equipment B:disaster C:celebration D:merely; 可较唯一定位(目标分5)) | L7(注意; 负面标签词；注意语气与示例避免羞辱/恐吓) | L8(合适; COCA:2225; 顺序:OK)
+- merely — L5(def:能; ex:勉强; 可能卡点:“nothing”) | L6(唯一; 句:"She was _____ trying to help, nothing more."; 选项:A:precisely B:disaster C:merely D:equipment; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2140; 顺序:OK)
+- precisely — L5(def:不能; ex:不能; 卡点:definition里“mistakes”或概念抽象/词频低) | L6(唯一; 句:"The code must follow the rules _____, or the computer won't understand it."; 选项:A:entirely B:disaster C:merely D:precisely; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2942; 顺序:OK)
+- entirely — L5(def:能; ex:勉强; 可能卡点:“completely”) | L6(唯一; 句:"The glass was _____ full, with no room for even one more drop."; 选项:A:scarcely B:merely C:entirely D:precisely; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1839; 顺序:OK)
+- scarcely — L5(def:勉强; ex:勉强; 可能卡点:“hardly”) | L6(唯一; 句:"He could _____ believe he won the spelling bee."; 选项:A:precisely B:scarcely C:entirely D:swiftly; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 前置:scarce; 顺序:OK)
+- swiftly — L5(def:不能; ex:不能; 卡点:definition里“moving”或概念抽象/词频低) | L6(唯一; 句:"The deer _____ ran through the forest and disappeared."; 选项:A:swiftly B:scarcely C:willingly D:entirely; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- willingly — L5(def:不能; ex:不能; 卡点:definition里“forced”或概念抽象/词频低) | L6(唯一; 句:"He _____ shared his lunch with the new student."; 选项:A:swiftly B:represent C:scarcely D:willingly; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- maintain — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"You need to _____ your bike by keeping the tires full of air."; 选项:A:maintain B:domestic C:numerous D:territory; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1075; 顺序:OK)
+- establish — L5(def:能; ex:勉强; 可能卡点:“create”) | L6(唯一; 句:"The students _____ed a recycling club at their school."; 选项:A:previous B:respond C:establish D:cooperate; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1057; 顺序:OK)
+- cooperate — L5(def:不能; ex:不能; 卡点:definition里“together”或概念抽象/词频低) | L6(唯一; 句:"The whole class had to _____ to finish the mural on time."; 选项:A:cooperate B:demonstrate C:establish D:previous; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4525; 顺序:OK)
+- represent — L5(def:能; ex:勉强; 可能卡点:“stand”) | L6(唯一; 句:"The star on the flag _____s the state we live in."; 选项:A:willingly B:swiftly C:manufacture D:represent; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:776; 顺序:OK)
+- concentrate — L5(def:不能; ex:不能; 卡点:definition里“think”或概念抽象/词频低) | L6(唯一; 句:"It is hard to _____ on homework when the TV is on."; 选项:A:external B:structure C:concentrate D:challenge; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3011; 顺序:OK)
+- manufacture — L5(def:不能; ex:不能; 卡点:definition里“factory”或概念抽象/词频低) | L6(唯一; 句:"The factory _____s toys that are sold all over the world."; 选项:A:represent B:manufacture C:willingly D:investigate; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- demonstrate — L5(def:勉强; ex:勉强; 可能卡点:“works”) | L6(唯一; 句:"The teacher _____d how to mix paint colors on the paper."; 选项:A:discovery B:cooperate C:demonstrate D:establish; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1512; 顺序:OK)
+- investigate — L5(def:勉强; ex:勉强; 可能卡点:“truth”) | L6(唯一; 句:"The detective _____d the missing cookies from the jar."; 选项:A:approach B:represent C:manufacture D:investigate; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1834; 顺序:OK)
+- discovery — L5(def:勉强; ex:勉强; 可能卡点:“learn”) | L6(唯一; 句:"We made a great _____—a bird nest in our tree!"; 选项:A:discovery B:cooperate C:penalty D:demonstrate; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2426; 顺序:OK)
+- penalty — L5(def:勉强; ex:勉强; 可能卡点:“breaking”) | L6(唯一; 句:"The _____ for being late to class was missing five minutes of free time."; 选项:A:discovery B:demonstrate C:penalty D:reasonable; 可较唯一定位(目标分6)) | L7(注意; 负面标签词；注意语气与示例避免羞辱/恐吓) | L8(勉强合适; COCA:2727; 顺序:OK)
+- quantity — L5(def:勉强; ex:勉强; 可能卡点:“how”) | L6(唯一; 句:"She bought a large _____ of apples to make pies for the whole family."; 选项:A:quantity B:tradition C:permission D:perform; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4216; 派生词形; 顺序:OK)
+- reasonable — L5(def:勉强; ex:勉强; 可能卡点:“making”) | L6(唯一; 句:"The price of the book was _____, so she had enough money to buy it."; 选项:A:penalty B:annual C:discovery D:reasonable; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2310; 派生词形; 顺序:OK)
+- approach — L5(def:能; ex:勉强; 可能卡点:“closer”) | L6(唯一; 句:"The cat quietly _____ed the bird, trying not to scare it."; 选项:A:approach B:collapse C:manufacture D:investigate; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:831; 顺序:OK)
+- collapse — L5(def:能; ex:勉强; 可能卡点:“suddenly”) | L6(唯一; 句:"The tower of blocks _____d when the baby bumped the table."; 选项:A:approach B:collapse C:investigate D:internal; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3582; 顺序:OK)
+- domestic — L5(def:勉强; ex:勉强; 可能卡点:“animals”) | L6(唯一; 句:"Dogs and cats are _____ animals that live with people."; 选项:A:adapt B:maintain C:domestic D:territory; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1893; 顺序:OK)
+- external — L5(def:能; ex:勉强; 可能卡点:“outside”) | L6(唯一; 句:"The _____ walls of the house were painted bright yellow."; 选项:A:concentrate B:challenge C:durable D:external; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3068; 顺序:OK)
+- internal — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"The doctor checked her _____ organs to make sure she was healthy."; 选项:A:recognize B:approach C:internal D:collapse; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1961; 顺序:OK)
+- annual — L5(def:能; ex:勉强; 可能卡点:“once”) | L6(唯一; 句:"The school's _____ science fair is always in March."; 选项:A:penalty B:annual C:reasonable D:predict; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1592; 顺序:OK)
+- permission — L5(def:不能; ex:不能; 卡点:definition里“allowed”或概念抽象/词频低) | L6(唯一; 句:"You need _____ from your parents before you go on the field trip."; 选项:A:permission B:quantity C:consent D:tradition; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3177; 派生词形; 顺序:OK)
+- recognize — L5(def:不能; ex:不能; 卡点:definition里“seen”或概念抽象/词频低) | L6(唯一; 句:"I didn't _____ him at first because he was wearing a costume."; 选项:A:internal B:influence C:collapse D:recognize; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:879; 派生词形; 顺序:OK)
+- influence — L5(def:不能; ex:不能; 卡点:definition里“thinks”或概念抽象/词频低) | L6(唯一; 句:"Her older sister had a big _____ on what music she liked."; 选项:A:influence B:internal C:interpret D:recognize; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:1590; 派生词形; 顺序:OK)
+- interpret — L5(def:勉强; ex:勉强; 可能卡点:“means”) | L6(唯一; 句:"She _____ed the French menu for her friends."; 选项:A:influence B:recognize C:interpret D:benefit; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2905; 顺序:OK)
+- adapt — L5(def:能; ex:勉强; 可能卡点:“situation”) | L6(唯一; 句:"Animals _____ to new places by changing how they eat and sleep."; 选项:A:adapt B:absorb C:domestic D:maintain; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3081; 顺序:OK)
+- benefit — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"One _____ of wearing a helmet is that it protects your head."; 选项:A:interpret B:influence C:genuine D:benefit; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:827; 顺序:OK)
+- durable — L5(def:不能; ex:不能; 卡点:definition里“strong”或概念抽象/词频低) | L6(唯一; 句:"Her _____ lunchbox did not crack even when it fell on the floor."; 选项:A:attract B:concentrate C:durable D:external; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 派生词形; 顺序:OK)
+- genuine — L5(def:能; ex:勉强; 可能卡点:“fake”) | L6(唯一; 句:"His apology was _____, so his friend forgave him."; 选项:A:benefit B:genuine C:interpret D:hesitate; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3935; 顺序:OK)
+- hesitate — L5(def:勉强; ex:勉强; 可能卡点:“pause”) | L6(唯一; 句:"She _____d at the diving board, then took a deep breath and jumped."; 选项:A:negotiate B:genuine C:hesitate D:benefit; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4527; 顺序:OK)
+- negotiate — L5(def:勉强; ex:勉强; 可能卡点:“agree”) | L6(唯一; 句:"The sisters _____d and chose to split the last cookie in half."; 选项:A:temporary B:genuine C:hesitate D:negotiate; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2993; 顺序:OK)
+- temporary — L5(def:不能; ex:不能; 卡点:definition里“lasting”或概念抽象/词频低) | L6(唯一; 句:"The sign was _____, so workers took it down after the road was fixed."; 选项:A:temporary B:hesitate C:reliable D:negotiate; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3348; 顺序:OK)
+- reliable — L5(def:能; ex:勉强; 可能卡点:“count”) | L6(唯一; 句:"Our _____ bus driver came on time each day."; 选项:A:temporary B:negotiate C:reliable D:assemble; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3650; 派生词形; 顺序:OK)
+- absorb — L5(def:勉强; ex:勉强; 可能卡点:“liquid”) | L6(唯一; 句:"The towel can _____ the water from the spilled juice."; 选项:A:absorb B:adapt C:deficiency D:domestic; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3658; 顺序:OK)
+- attract — L5(def:能; ex:勉强; 可能卡点:“toward”) | L6(唯一; 句:"Bright flowers _____ bees because the bees want nectar."; 选项:A:durable B:foundation C:external D:attract; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2200; 顺序:OK)
+- predict — L5(def:能; ex:勉强; 可能卡点:“happen”) | L6(唯一; 句:"Can you _____ what will happen next in the story?"; 选项:A:predict B:request C:reasonable D:annual; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1816; 顺序:OK)
+- request — L5(def:能; ex:能; 直观/高频) | L6(唯一; 句:"She _____ed a book about sharks from the library."; 选项:A:predict B:request C:annual D:reduce; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1913; 顺序:OK)
+- reduce — L5(def:能; ex:勉强; 可能卡点:“amount”) | L6(唯一; 句:"To _____ noise, the class spoke in whispers during the test."; 选项:A:advocate B:request C:reduce D:predict; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:809; 顺序:OK)
+- assemble — L5(def:勉强; ex:能; 可能卡点:“together”) | L6(唯一; 句:"We _____d the puzzle pieces. The whole picture appeared."; 选项:A:reliable B:temporary C:accumulate D:assemble; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4152; 顺序:OK)
+- accumulate — L5(def:不能; ex:不能; 卡点:definition里“gather”或概念抽象/词频低) | L6(唯一; 句:"If you save a little each week, your money will _____ quickly."; 选项:A:acknowledge B:reliable C:accumulate D:assemble; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- acknowledge — L5(def:不能; ex:不能; 卡点:definition里“noticed”或概念抽象/词频低) | L6(唯一; 句:"She nodded to _____ his question."; 选项:A:assemble B:acknowledge C:accumulate D:adequate; 可较唯一定位(目标分2)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:1854; 顺序:OK)
+- adequate — L5(def:能; ex:勉强; 可能卡点:“enough”) | L6(唯一; 句:"We had _____ food for the whole trip."; 选项:A:adequate B:acknowledge C:allocate D:accumulate; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3856; 顺序:OK)
+- advocate — L5(def:勉强; ex:勉强; 可能卡点:“believe”) | L6(唯一; 句:"He _____s for recycling at his school."; 选项:A:reduce B:amend C:request D:advocate; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2873; 顺序:OK)
+- allocate — L5(def:不能; ex:不能; 卡点:definition里“purpose”或概念抽象/词频低) | L6(唯一; 句:"She decided to _____ half her allowance to savings and half to spending."; 选项:A:allocate B:acknowledge C:ambiguous D:adequate; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- ambiguous — L5(def:不能; ex:不能; 卡点:definition里“clear”或概念抽象/词频低) | L6(唯一; 句:"The directions were _____, so we got lost."; 选项:A:allocate B:adequate C:ambiguous D:approximate; 可较唯一定位(目标分2)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 派生词形; 顺序:OK)
+- amend — L5(def:勉强; ex:勉强; 可能卡点:“improve”) | L6(唯一; 句:"He _____ed his essay after the teacher's comments."; 选项:A:amend B:clarify C:advocate D:reduce; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- approximate — L5(def:不能; ex:不能; 卡点:definition里“exact”或概念抽象/词频低) | L6(唯一; 句:"The _____ distance is ten miles."; 选项:A:ambiguous B:allocate C:aspire D:approximate; 可较唯一定位(目标分2)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- aspire — L5(def:勉强; ex:勉强; 可能卡点:“dream”) | L6(唯一; 句:"She _____s to become a doctor one day."; 选项:A:assert B:ambiguous C:aspire D:approximate; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- assert — L5(def:能; ex:勉强; 可能卡点:“strongly”) | L6(唯一; 句:"He _____ed that his answer was correct."; 选项:A:aspire B:assert C:approximate D:authorize; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3541; 顺序:OK)
+- authorize — L5(def:不能; ex:不能; 卡点:definition里“permission”或概念抽象/词频低) | L6(唯一; 句:"The principal _____d the field trip."; 选项:A:beneficial B:assert C:authorize D:aspire; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4565; 派生词形; 顺序:OK)
+- beneficial — L5(def:不能; ex:不能; 卡点:definition里“helpful”或概念抽象/词频低) | L6(唯一; 句:"Eating fruit is _____ for your health."; 选项:A:bias B:assert C:authorize D:beneficial; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:5014; 顺序:OK)
+- bias — L5(def:勉强; ex:勉强; 可能卡点:“unfairly”) | L6(唯一; 句:"A good judge should not show _____."; 选项:A:bias B:authorize C:capacity D:beneficial; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3495; 顺序:OK)
+- capacity — L5(def:勉强; ex:勉强; 可能卡点:“hold”) | L6(唯一; 句:"The jar has a _____ of fifty marbles."; 选项:A:bias B:beneficial C:capacity D:coincide; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1965; 派生词形; 顺序:OK)
+- clarify — L5(def:不能; ex:不能; 卡点:definition里“easier”或概念抽象/词频低) | L6(唯一; 句:"The teacher clarified the instructions for the test."; 选项:A:clarify B:amend C:comply D:advocate; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4621; 派生词形; 顺序:OK)
+- coincide — L5(def:勉强; ex:勉强; 可能卡点:“happen”) | L6(唯一; 句:"The parade will _____ with the holiday."; 选项:A:capacity B:commentary C:bias D:coincide; 可较唯一定位(目标分2)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- commentary — L5(def:不能; ex:不能; 卡点:definition里“opinions”或概念抽象/词频低) | L6(唯一; 句:"The sports _____ made the game more exciting."; 选项:A:commentary B:compensate C:capacity D:coincide; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:4478; 顺序:OK)
+- compensate — L5(def:不能; ex:不能; 卡点:definition里“back”或概念抽象/词频低) | L6(唯一; 句:"The store _____d her with a new toy after the broken one."; 选项:A:commentary B:compensate C:coincide D:compile; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- compile — L5(def:不能; ex:不能; 卡点:definition里“facts”或概念抽象/词频低) | L6(唯一; 句:"She _____d a list of her favorite songs."; 选项:A:complement B:compensate C:compile D:commentary; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- complement — L5(def:不能; ex:不能; 卡点:definition里“well”或概念抽象/词频低) | L6(唯一; 句:"The red scarf was a nice _____ to his coat."; 选项:A:compile B:compensate C:conceive D:complement; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 派生词形; 顺序:OK)
+- comply — L5(def:不能; ex:不能; 卡点:definition里“required”或概念抽象/词频低) | L6(唯一; 句:"Students must _____ with the school rules."; 选项:A:consult B:amend C:comply D:clarify; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4641; 顺序:OK)
+- conceive — L5(def:勉强; ex:勉强; 可能卡点:“think”) | L6(唯一; 句:"She _____d a clever plan to surprise her friend."; 选项:A:compile B:conceive C:complement D:confine; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4574; 派生词形; 顺序:OK)
+- confine — L5(def:不能; ex:不能; 卡点:definition里“limits”或概念抽象/词频低) | L6(唯一; 句:"The dog was _____d to the backyard."; 选项:A:confine B:conceive C:consequent D:complement; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- consent — L5(def:勉强; ex:勉强; 可能卡点:“permission”) | L6(不唯一; 句:"You need your parents' _____ to go on the trip."; 选项:A:permission B:controversy C:quantity D:consent; 更像“permission”(目标分3<=3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4084; 顺序:OK)
+- consequent — L5(def:不能; ex:不能; 卡点:definition里“happening”或概念抽象/词频低) | L6(唯一; 句:"The heavy rain and the _____ flooding closed the road."; 选项:A:consequent B:conceive C:consolidate D:confine; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- consolidate — L5(def:不能; ex:不能; 卡点:definition里“together”或概念抽象/词频低) | L6(唯一; 句:"She _____d her notes into one notebook."; 选项:A:consequent B:confine C:consolidate D:constraint; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- constraint — L5(def:不能; ex:不能; 卡点:definition里“holds”或概念抽象/词频低) | L6(唯一; 句:"Time was a _____, so we had to work fast."; 选项:A:constraint B:contradict C:consolidate D:consequent; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4789; 顺序:OK)
+- consult — L5(def:能; ex:勉强; 可能卡点:“expert”) | L6(唯一; 句:"He _____ed the librarian to find the right book."; 选项:A:comply B:clarify C:contemplate D:consult; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3996; 顺序:OK)
+- contemplate — L5(def:不能; ex:不能; 卡点:definition里“deeply”或概念抽象/词频低) | L6(唯一; 句:"She sat and _____d what to write in her story."; 选项:A:draft B:comply C:contemplate D:consult; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- contradict — L5(def:不能; ex:不能; 卡点:definition里“said”或概念抽象/词频低) | L6(唯一; 句:"His actions _____ed his words."; 选项:A:constraint B:contradict C:consolidate D:correspond; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- controversy — L5(def:不能; ex:不能; 卡点:definition里“disagreement”或概念抽象/词频低) | L6(唯一; 句:"There was _____ over where to build the new park."; 选项:A:convene B:consent C:controversy D:permission; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3417; 顺序:OK)
+- convene — L5(def:勉强; ex:勉强; 可能卡点:“together”) | L6(唯一; 句:"The club members _____d in the library."; 选项:A:currency B:consent C:controversy D:convene; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- correspond — L5(def:不能; ex:不能; 卡点:definition里“similar”或概念抽象/词频低) | L6(唯一; 句:"The answers _____ to the questions on the test."; 选项:A:correspond B:constraint C:criteria D:contradict; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- criteria — L5(def:勉强; ex:勉强; 可能卡点:“rules”) | L6(唯一; 句:"The _____ for the art contest were neatness and color."; 选项:A:correspond B:contradict C:criteria D:denote; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2618; 顺序:OK)
+- currency — L5(def:勉强; ex:勉强; 可能卡点:“uses”) | L6(唯一; 句:"The dollar is the _____ of the United States."; 选项:A:currency B:convene C:diverse D:controversy; 可较唯一定位(目标分3)) | L7(注意; 社会/政治语境敏感；建议更中性、生活化例句) | L8(勉强合适; COCA:3511; 顺序:OK)
+- deficiency — L5(def:不能; ex:不能; 卡点:definition里“having”或概念抽象/词频低) | L6(唯一; 句:"A _____ of sunlight can make plants turn yellow."; 选项:A:absorb B:empirical C:adapt D:deficiency; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- denote — L5(def:勉强; ex:勉强; 可能卡点:“sign”) | L6(唯一; 句:"A red light _____s that you should stop."; 选项:A:denote B:derive C:correspond D:criteria; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- derive — L5(def:勉强; ex:勉强; 可能卡点:“source”) | L6(唯一; 句:"Many English words _____ from Latin."; 选项:A:denote B:derive C:criteria D:deviate; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3319; 派生词形; 顺序:OK)
+- deviate — L5(def:勉强; ex:勉强; 可能卡点:“usual”) | L6(唯一; 句:"He _____d from the trail and got lost."; 选项:A:devote B:derive C:deviate D:denote; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- devote — L5(def:能; ex:勉强; 可能卡点:“effort”) | L6(唯一; 句:"He _____d the morning to practicing piano."; 选项:A:deviate B:derive C:diminish D:devote; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3905; 顺序:OK)
+- diminish — L5(def:勉强; ex:勉强; 可能卡点:“smaller”) | L6(唯一; 句:"The value of the old toy did not _____—it actually went up over time."; 选项:A:dispose B:deviate C:diminish D:devote; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4608; 顺序:OK)
+- dispose — L5(def:勉强; ex:勉强; 可能卡点:“rid”) | L6(唯一; 句:"Please _____ of the trash properly."; 选项:A:devote B:dispose C:diminish D:distort; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- distort — L5(def:不能; ex:不能; 卡点:definition里“twist”或概念抽象/词频低) | L6(唯一; 句:"The fun house mirror _____ed her face."; 选项:A:distort B:dispose C:domain D:diminish; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- diverse — L5(def:勉强; ex:勉强; 可能卡点:“having”) | L6(唯一; 句:"A _____ group of friends means you know people from many different places."; 选项:A:currency B:facilitate C:convene D:diverse; 可较唯一定位(目标分8)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3056; 顺序:OK)
+- domain — L5(def:能; ex:勉强; 可能卡点:“knowledge”) | L6(唯一; 句:"Science is her main _____ of interest."; 选项:A:domain B:dispose C:dominate D:distort; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3086; 顺序:OK)
+- dominate — L5(def:勉强; ex:勉强; 可能卡点:“control”) | L6(唯一; 句:"The tallest player _____d the game, scoring point after point."; 选项:A:domain B:distort C:dominate D:duration; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2774; 顺序:OK)
+- draft — L5(def:能; ex:勉强; 可能卡点:“written”) | L6(唯一; 句:"He wrote a rough _____ of his story."; 选项:A:draft B:enforce C:contemplate D:consult; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2651; 顺序:OK)
+- duration — L5(def:不能; ex:不能; 卡点:definition里“lasts”或概念抽象/词频低) | L6(唯一; 句:"The _____ of the movie was two hours."; 选项:A:dominate B:domain C:entity D:duration; 可较唯一定位(目标分2)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 派生词形; 顺序:OK)
+- empirical — L5(def:不能; ex:不能; 卡点:definition里“based”或概念抽象/词频低) | L6(唯一; 句:"The scientist gathered _____ data by observing the plants every day."; 选项:A:hypothesis B:absorb C:empirical D:deficiency; 可较唯一定位(目标分7)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:>5000(低频); 顺序:OK)
+- enforce — L5(def:勉强; ex:能; 可能卡点:“followed”) | L6(唯一; 句:"The teacher _____d the no-running rule in the hallway."; 选项:A:draft B:enforce C:contemplate D:exceed; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3635; 顺序:OK)
+- entity — L5(def:勉强; ex:勉强; 可能卡点:“exists”) | L6(唯一; 句:"Each company is a separate business _____."; 选项:A:equate B:duration C:entity D:dominate; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3286; 派生词形; 顺序:OK)
+- equate — L5(def:勉强; ex:勉强; 可能卡点:“think”) | L6(唯一; 句:"You should not _____ being quiet with being shy."; 选项:A:erode B:duration C:entity D:equate; 可较唯一定位(目标分2)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- erode — L5(def:勉强; ex:勉强; 可能卡点:“slowly”) | L6(唯一; 句:"The waves _____d the cliff over many years."; 选项:A:erode B:entity C:extract D:equate; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- exceed — L5(def:能; ex:勉强; 可能卡点:“beyond”) | L6(唯一; 句:"His test score _____ed the class average."; 选项:A:enforce B:draft C:exceed D:explicit; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3480; 顺序:OK)
+- explicit — L5(def:勉强; ex:勉强; 可能卡点:“said”) | L6(唯一; 句:"The teacher gave _____ instructions for the project."; 选项:A:explicit B:exceed C:furthermore D:enforce; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4973; 顺序:OK)
+- extract — L5(def:勉强; ex:勉强; 可能卡点:“remove”) | L6(唯一; 句:"The dentist _____ed the loose tooth."; 选项:A:erode B:finite C:equate D:extract; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4955; 顺序:OK)
+- facilitate — L5(def:不能; ex:不能; 卡点:definition里“easier”或概念抽象/词频低) | L6(唯一; 句:"The ramp _____s entry for people in wheelchairs."; 选项:A:facilitate B:currency C:convene D:diverse; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3621; 顺序:OK)
+- finite — L5(def:不能; ex:不能; 卡点:definition里“having”或概念抽象/词频低) | L6(唯一; 句:"We have a _____ amount of time before lunch."; 选项:A:extract B:finite C:erode D:fluctuate; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- fluctuate — L5(def:不能; ex:不能; 卡点:definition里“change”或概念抽象/词频低) | L6(唯一; 句:"The temperature _____s a lot in spring, warm one day and cold the next."; 选项:A:format B:finite C:fluctuate D:extract; 可较唯一定位(目标分8)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- format — L5(def:能; ex:勉强; 可能卡点:“arranged”) | L6(唯一; 句:"The report was written in a clear _____."; 选项:A:fluctuate B:finite C:formula D:format; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:3416; 顺序:OK)
+- formula — L5(def:能; ex:勉强; 可能卡点:“symbols”) | L6(唯一; 句:"She used a math _____ to solve the problem."; 选项:A:framework B:fluctuate C:formula D:format; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2687; 顺序:OK)
+- foundation — L5(def:勉强; ex:勉强; 可能卡点:“holds”) | L6(唯一; 句:"The house was built on a strong _____."; 选项:A:external B:foundation C:attract D:durable; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:1444; 派生词形; 顺序:OK)
+- framework — L5(def:勉强; ex:勉强; 可能卡点:“supports”) | L6(唯一; 句:"The _____ of the building was made of steel."; 选项:A:framework B:formula C:generate D:format; 可较唯一定位(目标分2)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2915; 顺序:OK)
+- furthermore — L5(def:不能; ex:不能; 卡点:definition里“said”或概念抽象/词频低) | L6(唯一; 句:"The book is fun; _____, it teaches great lessons."; 选项:A:explicit B:hierarchy C:exceed D:furthermore; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:3330; 逻辑连接词; 顺序:OK)
+- generate — L5(def:能; ex:勉强; 可能卡点:“produce”) | L6(唯一; 句:"The AI can _____ a realistic painting from just a short text description."; 选项:A:generate B:formula C:guideline D:framework; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:1763; 顺序:OK)
+- guideline — L5(def:不能; ex:不能; 卡点:definition里“tells”或概念抽象/词频低) | L6(唯一; 句:"Follow the _____s to stay safe."; 选项:A:generate B:framework C:guideline D:hence; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3105; 顺序:OK)
+- hence — L5(def:勉强; ex:勉强; 可能卡点:“reason”) | L6(唯一; 句:"It rained all day; _____, the game was canceled."; 选项:A:hence B:identical C:guideline D:generate; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3324; 逻辑连接词; 顺序:OK)
+- hierarchy — L5(def:不能; ex:不能; 卡点:definition里“ranked”或概念抽象/词频低) | L6(唯一; 句:"In the school, there is a clear _____ from principal to teacher to student."; 选项:A:furthermore B:explicit C:impose D:hierarchy; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- hypothesis — L5(def:勉强; ex:勉强; 可能卡点:“happen”) | L6(唯一; 句:"His _____ was that plants grow faster with more sunlight."; 选项:A:deficiency B:absorb C:hypothesis D:empirical; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3496; 顺序:OK)
+- identical — L5(def:不能; ex:不能; 卡点:definition里“exactly”或概念抽象/词频低) | L6(唯一; 句:"The twins wore _____ outfits."; 选项:A:hence B:identical C:guideline D:ideology; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4229; 顺序:OK)
+- ideology — L5(def:不能; ex:不能; 卡点:definition里“beliefs”或概念抽象/词频低) | L6(唯一; 句:"Each political party has its own _____ about how to help the world."; 选项:A:implication B:identical C:ideology D:hence; 可较唯一定位(目标分7)) | L7(注意; 社会/政治语境敏感；建议更中性、生活化例句) | L8(偏难; COCA:3733; 派生词形; 顺序:OK)
+- implication — L5(def:不能; ex:不能; 卡点:definition里“hinted”或概念抽象/词频低) | L6(唯一; 句:"The _____ of his smile was that he had good news."; 选项:A:incentive B:identical C:ideology D:implication; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:2606; 派生词形; 顺序:OK)
+- impose — L5(def:能; ex:勉强; 可能卡点:“force”) | L6(唯一; 句:"The school _____d a new dress code."; 选项:A:impose B:furthermore C:incorporate D:hierarchy; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(合适; COCA:2584; 顺序:OK)
+- incentive — L5(def:不能; ex:不能; 卡点:definition里“makes”或概念抽象/词频低) | L6(唯一; 句:"Getting a sticker was a great _____ to do homework."; 选项:A:implication B:ideology C:incentive D:induce; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:3112; 派生词形; 顺序:OK)
+- incorporate — L5(def:不能; ex:不能; 卡点:definition里“include”或概念抽象/词频低) | L6(唯一; 句:"She _____d art into her book report."; 选项:A:incorporate B:impose C:index D:hierarchy; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2911; 顺序:OK)
+- index — L5(def:勉强; ex:勉强; 可能卡点:“helps”) | L6(唯一; 句:"He looked in the _____ to find the chapter on volcanoes."; 选项:A:incorporate B:initiate C:impose D:index; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:2653; 顺序:OK)
+- induce — L5(def:勉强; ex:勉强; 可能卡点:“happen”) | L6(唯一; 句:"The warm sunshine _____d the flowers to bloom."; 选项:A:induce B:inherent C:implication D:incentive; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4902; 顺序:OK)
+- inherent — L5(def:勉强; ex:勉强; 可能卡点:“natural”) | L6(唯一; 句:"Curiosity is _____ in children—they are born wanting to explore."; 选项:A:induce B:inherent C:incentive D:inhibit; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- inhibit — L5(def:勉强; ex:勉强; 可能卡点:“prevent”) | L6(唯一; 句:"Fear can _____ you from trying new things."; 选项:A:innovation B:inherent C:inhibit D:induce; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- initiate — L5(def:勉强; ex:勉强; 可能卡点:“start”) | L6(唯一; 句:"She _____d a recycling club at school."; 选项:A:index B:incorporate C:intervene D:initiate; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:3839; 顺序:OK)
+- innovation — L5(def:不能; ex:不能; 卡点:definition里“invention”或概念抽象/词频低) | L6(唯一; 句:"The _____ of smartphones changed how we talk."; 选项:A:insert B:inherent C:innovation D:inhibit; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:2982; 派生词形; 顺序:OK)
+- insert — L5(def:勉强; ex:勉强; 可能卡点:“inside”) | L6(唯一; 句:"He _____ed the coin into the machine."; 选项:A:inhibit B:insert C:innovation D:integral; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4487; 顺序:OK)
+- integral — L5(def:不能; ex:不能; 卡点:definition里“needed”或概念抽象/词频低) | L6(唯一; 句:"Teamwork is an _____ part of winning the game."; 选项:A:integral B:insert C:invoke D:innovation; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- intervene — L5(def:不能; ex:不能; 卡点:definition里“step”或概念抽象/词频低) | L6(唯一; 句:"The teacher _____d before the argument got worse."; 选项:A:index B:incorporate C:initiate D:intervene; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:>5000(低频); 顺序:OK)
+- invoke — L5(def:勉强; ex:勉强; 可能卡点:“call”) | L6(唯一; 句:"He _____d the rules to settle the disagreement."; 选项:A:invoke B:insert C:isolate D:integral; 可较唯一定位(目标分4)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- isolate — L5(def:勉强; ex:勉强; 可能卡点:“apart”) | L6(唯一; 句:"The sick student was _____d, so others would not catch the cold."; 选项:A:invoke B:integral C:isolate D:levy; 可较唯一定位(目标分6)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:4263; 顺序:OK)
+- levy — L5(def:勉强; ex:勉强; 可能卡点:“government”) | L6(唯一; 句:"The town voted to _____ a small tax for the new library."; 选项:A:levy B:liberal C:isolate D:invoke; 可较唯一定位(目标分6)) | L7(注意; 社会/政治语境敏感；建议更中性、生活化例句) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
+- liberal — L5(def:勉强; ex:能; 可能卡点:“generous”) | L6(唯一; 句:"She took a _____ amount of paint for her project."; 选项:A:levy B:isolate C:likewise D:liberal; 可较唯一定位(目标分4)) | L7(注意; 社会/政治语境敏感；建议更中性、生活化例句) | L8(勉强合适; COCA:2001; 顺序:OK)
+- likewise — L5(def:不能; ex:不能; 卡点:概念抽象/词频低) | L6(不唯一; 句:"She smiled, and he did _____."; 选项:A:likewise B:magnitude C:levy D:liberal; 不够唯一(目标分1≈0)) | L7(OK; 无明显文化冲突) | L8(过难; COCA:4550; 逻辑连接词; 派生词形; 顺序:OK)
+- magnitude — L5(def:不能; ex:不能; 卡点:definition里“importance”或概念抽象/词频低) | L6(唯一; 句:"The _____ of the earthquake surprised all."; 选项:A:likewise B:magnitude C:liberal D:manifest; 可较唯一定位(目标分3)) | L7(OK; 无明显文化冲突) | L8(偏难; COCA:4324; 顺序:OK)
+- manifest — L5(def:勉强; ex:勉强; 可能卡点:“clear”) | L6(唯一; 句:"Her talent _____ed clearly in every painting she made."; 选项:A:likewise B:magnitude C:manifest D:liberal; 可较唯一定位(目标分5)) | L7(OK; 无明显文化冲突) | L8(勉强合适; COCA:>5000(低频); 顺序:OK)
