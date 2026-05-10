@@ -101,7 +101,7 @@ const LEVEL5A_BANK=[{"word":"administer","level":5,"definition":"to manage or be
 {"word":"obligatory","level":5,"definition":"required by a rule or law","example":"Wearing a helmet is obligatory when riding a motorcycle.","imageKeyword":"required helmet"},
 {"word":"optimal","level":5,"definition":"the best possible for a given situation","example":"The optimal temperature for baking bread is 375 degrees.","imageKeyword":"perfect setting"},
 {"word":"parity","level":5,"definition":"the state of being equal","example":"The league worked for parity so every team had a fair chance to win.","imageKeyword":"equal signs"},
-{"word":"prerequisite","level":5,"definition":"something needed before you can do something else","example":"Passing the swim test is a prerequisite for joining the diving team.","imageKeyword":"first step"},
+{"word":"prerequisite","level":5,"definition":"a requirement you must meet before moving on","example":"Passing the swim test is a prerequisite for joining the diving team.","imageKeyword":"first step"},
 {"word":"prohibitive","level":5,"definition":"so high in cost that it prevents action","example":"The prohibitive price of the toy meant she had to save for months.","imageKeyword":"expensive tag"},
 {"word":"proportional","level":5,"definition":"matching in size or amount relative to something else","example":"The amount of paint should be proportional to the size of the wall.","imageKeyword":"matching ratio"},
 {"word":"pursuant","level":5,"definition":"done in accordance with a rule or agreement","example":"Pursuant to school policy, all visitors must sign in at the office.","imageKeyword":"following rule"},

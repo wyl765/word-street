@@ -2,153 +2,9 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 155 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 111 MINOR
 
 ## Issues
-
-### [MINOR] words-level1.js — "cozy" (COMPLEX_DEFINITION)
-L1 definition uses complex word(s): comfortable
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2.js — "bulb" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): underground
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2.js — "bunker" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): underground
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2.js — "cocoon" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): caterpillar
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2b.js — "homophone" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): differently
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level4b.js — "utilitarian" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "attractive": "designed to be useful rather than attractive"
-**Fix:** Remove subjective adjectives from definitions
-
-### [MINOR] words-level5d.js — "captivating" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "attractive": "very interesting and attractive"
-**Fix:** Remove subjective adjectives from definitions
-
-### [MINOR] words-level5d.js — "ornate" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "pretty": "made pretty with many small details"
-**Fix:** Remove subjective adjectives from definitions
-
-### [MINOR] words-level1.js — "lemon" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "lemon" def contains "sour" and "sour" def contains "lemon" (both L1)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level1.js — "tiny" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "tiny" def contains "barely" and "barely" def contains "tiny" (both L1)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level1.js — "thick" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "thick" def contains "thin" and "thin" def contains "thick" (both L1)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level1.js — "after" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "after" def contains "later" and "later" def contains "after" (both L1)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "country" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "country" def contains "nation" and "nation" def contains "country" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "chart" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "chart" def contains "table" and "table" def contains "chart" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "afraid" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "afraid" def contains "scared" and "scared" def contains "afraid" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "build" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "build" def contains "make" and "make" def contains "build" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "circle" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "circle" def contains "round" and "round" def contains "circle" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "clue" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "clue" def contains "hint" and "hint" def contains "clue" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "confuse" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "confuse" def contains "mix up" and "mix up" def contains "confuse" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "find" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "find" def contains "locate" and "locate" def contains "find" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "north" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "north" def contains "compass" and "compass" def contains "north" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "simple" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "simple" def contains "complex" and "complex" def contains "simple" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "although" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "although" def contains "even though" and "even though" def contains "although" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2b.js — "as a result" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "as a result" def contains "because of" and "because of" def contains "as a result" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2b.js — "despite" (CROSS_DEF_CYCLE)
-Cross-definition cycle: "despite" def contains "even though" and "even though" def contains "despite" (both L2)
-**Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2.js — "make" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "to build or create something; also to cause something to happen"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level2b.js — "go through" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "to experience something, especially something difficult"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level2c.js — "incident" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something that happens, often something unusual"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level2c.js — "launch" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "to send something up into the air or start something new"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level4a.js — "derivative" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something that is based on or comes from something else"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level4a.js — "elucidation" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "an explanation that turns something confusing into something clear"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level4b.js — "precursor" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something that comes before and leads to something else"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level4c.js — "adjacent" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "next to or near something without something in between"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level4c.js — "onset" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "the start of something, especially something unpleasant"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level5a.js — "prerequisite" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something needed before you can do something else"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level5d.js — "deterrent" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something that prevents people from doing something"
-**Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level1.js — "less" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a smaller amount of something..."
@@ -185,34 +41,6 @@ Word appears to be adjective but definition starts with article: "a moral princi
 ### [MINOR] words-level5d.js — "agnostic" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a person who believes it is impossible to know whe..."
 **Fix:** Consider rephrasing definition to adjective form
-
-### [MINOR] words-level2.js — "attention" (WHEN_DEFINITION)
-Definition starts with "when": "when you look and listen well..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2.js — "deal" (WHEN_DEFINITION)
-Definition starts with "when": "when two people agree on what to do..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2b.js — "equality" (WHEN_DEFINITION)
-Definition starts with "when": "when everyone is treated the same and fairly..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2b.js — "protest" (WHEN_DEFINITION)
-Definition starts with "when": "when people show they disagree with something..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2b.js — "compared to" (WHEN_DEFINITION)
-Definition starts with "when": "when looking at two things side by side..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2b.js — "evaporate" (WHEN_DEFINITION)
-Definition starts with "when": "when liquid turns into a gas..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2b.js — "greenhouse effect" (WHEN_DEFINITION)
-Definition starts with "when": "when gases trap heat around the Earth..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
 ### [MINOR] words-level1.js — "pretzel" (SAME_LEVEL_DEF_REF)
 L1 definition uses "salty" which is also an L1 word (core position)
@@ -370,6 +198,10 @@ L1 definition uses "along" which is also an L1 word (core position)
 L1 definition uses "attach" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "thick" (SAME_LEVEL_DEF_REF)
+L1 definition uses "narrow" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "thin" (SAME_LEVEL_DEF_REF)
 L1 definition uses "thick" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -380,10 +212,6 @@ L1 definition uses "smooth" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "dull" (SAME_LEVEL_DEF_REF)
 L1 definition uses "sharp" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "cozy" (SAME_LEVEL_DEF_REF)
-L1 definition uses "comfortable" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "plain" (SAME_LEVEL_DEF_REF)
@@ -456,10 +284,6 @@ L1 definition uses "worried" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "amazed" (SAME_LEVEL_DEF_REF)
 L1 definition uses "surprised" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "after" (SAME_LEVEL_DEF_REF)
-L1 definition uses "later" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "half" (SAME_LEVEL_DEF_REF)
