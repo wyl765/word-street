@@ -1,0 +1,176 @@
+{
+  "version": "6gate-v1",
+  "lastUpdated": "2026-05-10",
+  "summary": {
+    "totalWords": 5205,
+    "gate1_pass": 5205,
+    "gate2_pass": 1455,
+    "gate3_pass": 0,
+    "gate4_pass": 0,
+    "gate5_pending": 5205,
+    "gate6_pending": 5205,
+    "allGatesClear": 0
+  },
+  "files": {
+    "words-level1.js": {
+      "totalWords": 600,
+      "currentGate": 3,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pass"
+    },
+    "words-level2.js": {
+      "totalWords": 552,
+      "currentGate": 3,
+      "gate1": "pass",
+      "gate2": "pass",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level2a.js": {
+      "totalWords": 400,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level2b.js": {
+      "totalWords": 382,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level2c.js": {
+      "totalWords": 219,
+      "currentGate": 3,
+      "gate1": "pass",
+      "gate2": "pass",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level2d.js": {
+      "totalWords": 258,
+      "currentGate": 3,
+      "gate1": "pass",
+      "gate2": "pass",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level3a.js": {
+      "totalWords": 231,
+      "currentGate": 3,
+      "gate1": "pass",
+      "gate2": "pass",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level3b.js": {
+      "totalWords": 315,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level3c.js": {
+      "totalWords": 195,
+      "currentGate": 3,
+      "gate1": "pass",
+      "gate2": "pass",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level4a.js": {
+      "totalWords": 301,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level4b.js": {
+      "totalWords": 310,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level4c.js": {
+      "totalWords": 343,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level5a.js": {
+      "totalWords": 232,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level5b.js": {
+      "totalWords": 251,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level5c.js": {
+      "totalWords": 328,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    },
+    "words-level5d.js": {
+      "totalWords": 288,
+      "currentGate": 2,
+      "gate1": "pass",
+      "gate2": "pending",
+      "gate3": "pending",
+      "gate4": "pending",
+      "gate5": "pending",
+      "gate6": "pending"
+    }
+  }
+}
