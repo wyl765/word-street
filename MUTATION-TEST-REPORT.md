@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 28 |
-| Undetected | 2 |
-| **Detection rate** | **93.3%** |
+| Detected | 29 |
+| Undetected | 1 |
+| **Detection rate** | **96.7%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -15,7 +15,7 @@
 
 | Mutation Type | Injected | Detected | Rate |
 |------|------|------|------|
-| factual_error | 5 | 4 | 80% |
+| factual_error | 5 | 5 | 100% |
 | banned_word | 5 | 5 | 100% |
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
@@ -24,47 +24,45 @@
 
 ## Injected Mutations Detail
 
-- ✅ **censorship** (factual_error): def changed to: "blocking facts that grows underground in caves..."
-- ❌ **robin** (factual_error): def changed to: "a small plant with a red or orange chest..."
-- ✅ **comfortable** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **investigate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **barometer** (factual_error): def changed to: "a tool that grows underground in caves..."
-- ✅ **initially** (banned_word): injected "genocide" into example
-- ✅ **dodder** (banned_word): injected "autopsy" into example
-- ✅ **penitence** (banned_word): injected "torture" into example
-- ✅ **aspiration** (banned_word): injected "torture" into example
-- ✅ **impersonate** (banned_word): injected "autopsy" into example
-- ✅ **wobble** (collocation_error): bad collocation: "big rain"
-- ✅ **vacant** (collocation_error): bad collocation: "eat medicine"
-- ✅ **algorithm** (collocation_error): bad collocation: "eat medicine"
-- ✅ **lagoon** (collocation_error): bad collocation: "open the light"
-- ✅ **critical** (collocation_error): bad collocation: "close the light"
-- ✅ **exhilarate** (empty_field): emptied example
-- ✅ **circumscribe** (empty_field): emptied definition
-- ✅ **expedite** (empty_field): emptied example
-- ✅ **glitter** (empty_field): emptied example
-- ✅ **argue** (empty_field): emptied example
-- ✅ **flutter** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **matter** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **series** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **vanish** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **analyze** (replace_accident): example: "She typed the importantword into the computer...."
-- ❌ **monster** (grammar_error): example: "The monster under the bed was just a pile of toys...."
-- ✅ **peculiar** (grammar_error): example: "The peculiar is goes noise coming from the closet sounded li..."
-- ✅ **nozzle** (grammar_error): example: "She don't like the nozzle...."
-- ✅ **fasten** (grammar_error): example: "The childrens played with the fasten...."
-- ✅ **immediate** (grammar_error): example: "The childrens played with the immediate...."
+- ✅ **militant** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **rigid** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **entrepreneur** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **fjord** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **monopolize** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **election** (banned_word): injected "autopsy" into example
+- ✅ **subjugation** (banned_word): injected "pornography" into example
+- ✅ **reparation** (banned_word): injected "genocide" into example
+- ✅ **minimize** (banned_word): injected "autopsy" into example
+- ✅ **eave** (banned_word): injected "pornography" into example
+- ✅ **discount** (collocation_error): bad collocation: "eat medicine"
+- ✅ **foremost** (collocation_error): bad collocation: "eat medicine"
+- ✅ **hangar** (collocation_error): bad collocation: "open the light"
+- ✅ **hydrate** (collocation_error): bad collocation: "drink soup"
+- ✅ **helm** (collocation_error): bad collocation: "eat medicine"
+- ✅ **encore** (empty_field): emptied example
+- ✅ **pasture** (empty_field): emptied example
+- ✅ **measure** (empty_field): emptied definition
+- ✅ **external** (empty_field): emptied definition
+- ✅ **warn** (empty_field): emptied definition
+- ✅ **intricate** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **propensity** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **geothermal** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **badge** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **attack** (replace_accident): example: "The piano importants were black and white...."
+- ❌ **blink** (grammar_error): example: "I blinked when the camera flash was bright...."
+- ✅ **neglect** (grammar_error): example: "The childrens played with the neglect...."
+- ✅ **gracious** (grammar_error): example: "She don't like the gracious...."
+- ✅ **deduce** (grammar_error): example: "They is happy about the deduce...."
+- ✅ **moose** (grammar_error): example: "They is happy about the moose...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **robin** (factual_error): def changed to: "a small plant with a red or orange chest..."
-- **monster** (grammar_error): example: "The monster under the bed was just a pile of toys...."
+- **blink** (grammar_error): example: "I blinked when the camera flash was bright...."
 
 ### Recommended Improvements
 
-- **Factual errors**: Add fact-check rules or AI-based semantic verification
 - **Grammar errors**: Expand SVA and grammar checks
 
 ---

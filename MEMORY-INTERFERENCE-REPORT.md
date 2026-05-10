@@ -3,8 +3,8 @@
 ## Summary
 - HIGH risk (3+ factors): 189
 - MEDIUM risk (2 factors): 1235
-- LOW risk (1 factor): 53978
-- Total interference pairs: 55402
+- LOW risk (1 factor): 53979
+- Total interference pairs: 55403
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -33877,6 +33877,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L4: **incisive** ↔ **intricate** — phonetic (onset="i")
 - **[risk=1]** L4: **incisive** ↔ **investment** — phonetic (onset="i")
 - **[risk=1]** L4: **incisive** ↔ **irrigate** — phonetic (onset="i")
+- **[risk=1]** L4: **incisive** ↔ **sagacious** — definition (Jaccard=43%)
 - **[risk=1]** L4: **incisive** ↔ **ignite** — phonetic (onset="i")
 - **[risk=1]** L4: **incisive** ↔ **impeach** — phonetic (onset="i")
 - **[risk=1]** L4: **incisive** ↔ **imperial** — phonetic (onset="i")

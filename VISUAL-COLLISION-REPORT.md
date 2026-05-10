@@ -3,7 +3,7 @@
 ## Summary
 - CRITICAL (identical imageKeyword): 0
 - MAJOR (containment): 527
-- MINOR (≥50% word overlap): 49
+- MINOR (≥50% word overlap): 48
 
 ## Issues
 
@@ -557,7 +557,6 @@
 - **[MAJOR]** L4: **surrender** ↔ **capitulation** — "white flag" vs "white flag waving" (one contains the other)
 - **[MINOR]** L4: **oscillation** ↔ **oscillate** — "pendulum swinging" vs "swinging pendulum" (100% word overlap)
 - **[MAJOR]** L4: **retrospective** ↔ **retrospect** — "looking back history" vs "looking back" (one contains the other)
-- **[MINOR]** L4: **tirade** ↔ **vilification** — "angry speech" vs "speech bubble with angry face" (50% word overlap)
 - **[MAJOR]** L4: **usurpation** ↔ **arrogate** — "seizing power" vs "seizing power crown" (one contains the other)
 - **[MAJOR]** L4: **vociferous** ↔ **fulminate** — "loud protesters" vs "loud protest" (one contains the other)
 - **[MINOR]** L4: **waiver** ↔ **ratify** — "signing document" vs "signing official document" (67% word overlap)

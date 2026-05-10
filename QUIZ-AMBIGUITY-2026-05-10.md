@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3687 ambiguous pairs found.
+3688 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -13497,6 +13497,10 @@
 ## L4: "impetus" vs "catalyst" (67%)
 - impetus: something that encourages a process to happen faster
 - catalyst: something that causes an important change to happen faster
+
+## L4: "incisive" vs "sagacious" (60%)
+- incisive: showing clear thinking and good understanding
+- sagacious: having or showing good judgment and understanding
 
 ## L4: "interloper" vs "interfere" (60%)
 - interloper: a person who becomes involved without being invited

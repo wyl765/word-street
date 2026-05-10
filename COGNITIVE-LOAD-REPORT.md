@@ -2,8 +2,8 @@
 
 ## Summary
 - Total entries: 5210
-- CRITICAL (≥5 超纲词 in definition): 426
-- MAJOR (≥3 超纲词 in definition): 2148
+- CRITICAL (≥5 超纲词 in definition): 427
+- MAJOR (≥3 超纲词 in definition): 2146
 
 ## Issues
 
@@ -1055,6 +1055,10 @@
 - **Definition:** "money or time put into something hoping to get more back later"
 - **超纲词 (6):** money, time, put, hoping, get, back
 
+### 🔴 [CRITICAL] liberate (L4)
+- **Definition:** "to set free from being held or controlled"
+- **超纲词 (5):** set, free, being, held, controlled
+
 ### 🔴 [CRITICAL] media (L4)
 - **Definition:** "ways of sharing information with many people, like TV, newspapers, and internet"
 - **超纲词 (7):** ways, sharing, information, people, tv, newspapers, internet
@@ -1136,8 +1140,8 @@
 - **超纲词 (5):** trading, favors, both, sides, gain
 
 ### 🔴 [CRITICAL] sagacious (L4)
-- **Definition:** "having or showing good judgment and getting"
-- **超纲词 (5):** having, showing, good, judgment, getting
+- **Definition:** "having or showing good judgment and understanding"
+- **超纲词 (5):** having, showing, good, judgment, understanding
 
 ### 🔴 [CRITICAL] sedentary (L4)
 - **Definition:** "spending a lot of time sitting and not being active"
@@ -7160,16 +7164,12 @@
 - **超纲词 (4):** get, involved, being, asked
 
 ### 🟡 [MAJOR] intricate (L4)
-- **Definition:** "having many small complex parts or details"
-- **超纲词 (4):** having, small, parts, details
+- **Definition:** "having many small and detailed parts"
+- **超纲词 (4):** having, small, detailed, parts
 
 ### 🟡 [MAJOR] irrigate (L4)
 - **Definition:** "to supply water to farmland through pipes or channels"
 - **超纲词 (4):** water, farmland, pipes, channels
-
-### 🟡 [MAJOR] liberate (L4)
-- **Definition:** "to set free from imprisonment or control"
-- **超纲词 (3):** set, free, imprisonment
 
 ### 🟡 [MAJOR] literacy (L4)
 - **Definition:** "the ability to read and write"
@@ -7362,10 +7362,6 @@
 ### 🟡 [MAJOR] substantial (L4)
 - **Definition:** "large in size, amount, or importance"
 - **超纲词 (3):** large, size, importance
-
-### 🟡 [MAJOR] subtle (L4)
-- **Definition:** "so slight that it's hard to notice unless you look carefully"
-- **超纲词 (3):** it's, hard, look
 
 ### 🟡 [MAJOR] summarize (L4)
 - **Definition:** "to briefly state the main points without extra details"
