@@ -34,11 +34,14 @@ function getLevel(filename) {
 
 function askAI(prompt) {
   try {
-    const result = execFileSync(
-      'openclaw',
-      ['infer', 'model', 'run', '--model', 'github-copilot/gpt-4.1-mini', '--prompt', prompt],
+    // Write prompt to temp file to avoid argument length limits
+    const tmpFile = '/tmp/gate5-prompt-' + Date.now() + '.txt';
+    writeFileSync(tmpFile, prompt);
+    const result = execSync(
+      `openclaw infer model run --model github-copilot/gpt-4.1-mini --prompt-file "${tmpFile}"`,
       { timeout: 120000, maxBuffer: 2 * 1024 * 1024 }
     ).toString();
+    try { require('fs').unlinkSync(tmpFile); } catch(_) {}
     // Extract output after "outputs:" line
     const lines = result.split('\n');
     const outputIdx = lines.findIndex(l => l.startsWith('outputs:') || l.startsWith('Output:'));
