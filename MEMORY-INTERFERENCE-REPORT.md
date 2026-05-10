@@ -2,8 +2,8 @@
 
 ## Summary
 - HIGH risk (3+ factors): 189
-- MEDIUM risk (2 factors): 1234
-- LOW risk (1 factor): 53979
+- MEDIUM risk (2 factors): 1235
+- LOW risk (1 factor): 53978
 - Total interference pairs: 55402
 
 ## Recommendation
@@ -1305,6 +1305,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=2]** L4: **declination** ↔ **delineation** — spelling (edit distance=2), phonetic (onset="de")
 - **[risk=2]** L4: **destitution** ↔ **restitution** — spelling (edit distance=1)
 - **[risk=2]** L4: **ebullience** ↔ **exuberance** — phonetic (onset="e"), definition (Jaccard=50%)
+- **[risk=2]** L4: **elucidation** ↔ **illumination** — definition (Jaccard=67%)
 - **[risk=2]** L4: **inculcate** ↔ **inoculate** — spelling (edit distance=2), phonetic (onset="i")
 - **[risk=2]** L4: **indigence** ↔ **indolence** — spelling (edit distance=2), phonetic (onset="i")
 - **[risk=2]** L4: **indigence** ↔ **incidence** — spelling (edit distance=2), phonetic (onset="i")
@@ -32985,7 +32986,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L4: **elucidation** ↔ **extraneous** — phonetic (onset="e")
 - **[risk=1]** L4: **elucidation** ↔ **extrapolation** — phonetic (onset="e")
 - **[risk=1]** L4: **elucidation** ↔ **exuberance** — phonetic (onset="e")
-- **[risk=1]** L4: **elucidation** ↔ **illumination** — definition (Jaccard=43%)
 - **[risk=1]** L4: **elucidation** ↔ **electrode** — phonetic (onset="e")
 - **[risk=1]** L4: **elucidation** ↔ **encompass** — phonetic (onset="e")
 - **[risk=1]** L4: **elucidation** ↔ **equilibrium** — phonetic (onset="e")

@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 181 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 180 MINOR
 
 ## Issues
 
@@ -660,10 +660,6 @@ Example contains military context: "soldier"
 
 ### [MINOR] words-level3c.js — "homage" (MILITARY_CONTEXT)
 Example contains military context: "soldiers"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level4b.js — "subordinate" (MILITARY_CONTEXT)
-Example contains military context: "army"
 **Fix:** Consider replacing with a neutral/civilian context
 
 ### [MINOR] words-level4c.js — "commemorate" (MILITARY_CONTEXT)

@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3685 ambiguous pairs found.
+3687 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -13148,7 +13148,7 @@
 
 ## L4: "characteristic" vs "elucidation" (60%)
 - characteristic: a feature or quality that makes something recognizable
-- elucidation: a reason that makes something clear
+- elucidation: an explanation that makes something clear
 
 ## L4: "comprehend" vs "overhaul" (67%)
 - comprehend: to fully understand something
@@ -13260,7 +13260,7 @@
 
 ## L4: "hoax" vs "elucidation" (60%)
 - hoax: a trick that makes people believe something false
-- elucidation: a reason that makes something clear
+- elucidation: an explanation that makes something clear
 
 ## L4: "inaugurate" vs "proscribe" (67%)
 - inaugurate: to officially begin something new or put a leader into office
@@ -13415,12 +13415,16 @@
 - exuberance: lively energy and excitement
 
 ## L4: "elucidation" vs "explication" (67%)
-- elucidation: a reason that makes something clear
-- explication: a detailed reason of something
+- elucidation: an explanation that makes something clear
+- explication: a detailed explanation of something
 
-## L4: "elucidation" vs "illumination" (80%)
-- elucidation: a reason that makes something clear
+## L4: "elucidation" vs "illumination" (100%)
+- elucidation: an explanation that makes something clear
 - illumination: light that makes something visible, or a clear explanation
+
+## L4: "embellish" vs "explication" (67%)
+- embellish: to add extra details to make something more detailed or decorated
+- explication: a detailed explanation of something
 
 ## L4: "enfranchisement" vs "suffrage" (67%)
 - enfranchisement: giving someone the right to vote
@@ -13453,6 +13457,10 @@
 ## L4: "expatriation" vs "exile" (60%)
 - expatriation: living outside your home country
 - exile: being forced to leave your home country as punishment
+
+## L4: "explication" vs "illumination" (67%)
+- explication: a detailed explanation of something
+- illumination: light that makes something visible, or a clear explanation
 
 ## L4: "extraneous" vs "tangential" (75%)
 - extraneous: not related or needed to the main topic

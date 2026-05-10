@@ -24,43 +24,43 @@
 
 ## Injected Mutations Detail
 
-- ❌ **few** (factual_error): def changed to: "not many; a type of mineral called number of..."
-- ✅ **habit** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **capitulate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **flint** (factual_error): def changed to: "a hard stone that grows underground in caves..."
-- ✅ **nutmeg** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **imagination** (banned_word): injected "massacre" into example
-- ✅ **sovereign** (banned_word): injected "torture" into example
-- ✅ **facade** (banned_word): injected "pornography" into example
-- ✅ **energy** (banned_word): injected "pornography" into example
-- ✅ **clarification** (banned_word): injected "genocide" into example
-- ✅ **ceiling** (collocation_error): bad collocation: "eat medicine"
-- ✅ **belie** (collocation_error): bad collocation: "big rain"
-- ✅ **hallow** (collocation_error): bad collocation: "eat medicine"
-- ✅ **vertex** (collocation_error): bad collocation: "close the light"
-- ✅ **metropolis** (collocation_error): bad collocation: "close the light"
-- ✅ **expedite** (empty_field): emptied definition
-- ✅ **banner** (empty_field): emptied definition
-- ✅ **domestic** (empty_field): emptied definition
-- ✅ **denouncement** (empty_field): emptied definition
-- ✅ **akin** (empty_field): emptied example
-- ✅ **proponent** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **mercenary** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **boiling** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **harbinger** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **threat** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **manner** (grammar_error): example: "She don't spoke in a polite manner, always saying 'please' a..."
-- ✅ **recede** (grammar_error): example: "The childrens played with the recede...."
-- ❌ **data** (grammar_error): example: "We wrote data about the weather each day...."
-- ✅ **commission** (grammar_error): example: "They is happy about the commission...."
-- ✅ **literacy** (grammar_error): example: "They is happy about the literacy...."
+- ✅ **censorship** (factual_error): def changed to: "blocking facts that grows underground in caves..."
+- ❌ **robin** (factual_error): def changed to: "a small plant with a red or orange chest..."
+- ✅ **comfortable** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **investigate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **barometer** (factual_error): def changed to: "a tool that grows underground in caves..."
+- ✅ **initially** (banned_word): injected "genocide" into example
+- ✅ **dodder** (banned_word): injected "autopsy" into example
+- ✅ **penitence** (banned_word): injected "torture" into example
+- ✅ **aspiration** (banned_word): injected "torture" into example
+- ✅ **impersonate** (banned_word): injected "autopsy" into example
+- ✅ **wobble** (collocation_error): bad collocation: "big rain"
+- ✅ **vacant** (collocation_error): bad collocation: "eat medicine"
+- ✅ **algorithm** (collocation_error): bad collocation: "eat medicine"
+- ✅ **lagoon** (collocation_error): bad collocation: "open the light"
+- ✅ **critical** (collocation_error): bad collocation: "close the light"
+- ✅ **exhilarate** (empty_field): emptied example
+- ✅ **circumscribe** (empty_field): emptied definition
+- ✅ **expedite** (empty_field): emptied example
+- ✅ **glitter** (empty_field): emptied example
+- ✅ **argue** (empty_field): emptied example
+- ✅ **flutter** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **matter** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **series** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **vanish** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **analyze** (replace_accident): example: "She typed the importantword into the computer...."
+- ❌ **monster** (grammar_error): example: "The monster under the bed was just a pile of toys...."
+- ✅ **peculiar** (grammar_error): example: "The peculiar is goes noise coming from the closet sounded li..."
+- ✅ **nozzle** (grammar_error): example: "She don't like the nozzle...."
+- ✅ **fasten** (grammar_error): example: "The childrens played with the fasten...."
+- ✅ **immediate** (grammar_error): example: "The childrens played with the immediate...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **few** (factual_error): def changed to: "not many; a type of mineral called number of..."
-- **data** (grammar_error): example: "We wrote data about the weather each day...."
+- **robin** (factual_error): def changed to: "a small plant with a red or orange chest..."
+- **monster** (grammar_error): example: "The monster under the bed was just a pile of toys...."
 
 ### Recommended Improvements
 

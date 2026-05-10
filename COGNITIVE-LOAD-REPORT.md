@@ -6964,12 +6964,12 @@
 - **超纲词 (4):** feeling, great, happiness, excitement
 
 ### 🟡 [MAJOR] elucidation (L4)
-- **Definition:** "a reason that makes something clear"
-- **超纲词 (3):** reason, makes, clear
+- **Definition:** "an explanation that makes something clear"
+- **超纲词 (3):** explanation, makes, clear
 
 ### 🟡 [MAJOR] embellish (L4)
-- **Definition:** "to add details to make something more attractive or cool"
-- **超纲词 (3):** details, attractive, cool
+- **Definition:** "to add extra details to make something more detailed or decorated"
+- **超纲词 (3):** details, detailed, decorated
 
 ### 🟡 [MAJOR] emigration (L4)
 - **Definition:** "the act of leaving your country to live in another one"
@@ -6992,8 +6992,8 @@
 - **超纲词 (4):** calmness, composure, difficult, situation
 
 ### 🟡 [MAJOR] eschew (L4)
-- **Definition:** "to on purpose avoid or stay away from something"
-- **超纲词 (3):** purpose, stay, away
+- **Definition:** "to deliberately avoid or stay away from something"
+- **超纲词 (3):** deliberately, stay, away
 
 ### 🟡 [MAJOR] exacerbation (L4)
 - **Definition:** "the act of making a bad situation even worse"

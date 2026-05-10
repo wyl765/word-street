@@ -75,8 +75,9 @@
     {
       "file": "words-level4b.js",
       "words": 310,
-      "status": "pending",
-      "lastReviewRound": null
+      "status": "done",
+      "lastReviewRound": 1,
+      "lastReviewDate": "2026-05-10"
     },
     {
       "file": "words-level4c.js",
