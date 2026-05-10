@@ -1,0 +1,404 @@
+# GPT专项审校（Gate L5-L8）: words-level2a.js
+
+说明：每个词一行（不跳过）。格式：Word — L5(做题理解) | L6(例句反测) | L7(文化) | L8(学习路径)
+
+- avoid — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- burst — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- bury — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- cheer — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- choose — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- claim — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- combine — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- command — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- consider — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- continue — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- control — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- cover — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- cross — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- crush — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- dare — L5:勉强；卡: brave | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- demand — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- develop — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- direct — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- examine — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- exchange — L5:不能；卡: swap | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- excite — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- expect — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- explore — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- express — L5:不能；卡: using | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- fail — L5:不能；卡: tried | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- flow — L5:不能；卡: smoothly | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- form — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- gaze — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- guide — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- hasten — L5:勉强；卡: faster | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:faster
+- hide — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- hike — L5:勉强；卡: outdoors | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:outdoors
+- hug — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- hunt — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- increase — L5:不能；卡: bigger | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- insist — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- instruct — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- admire — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- announce — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- approve — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- argue — L5:不能；卡: using | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- behave — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- celebrate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- compare — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- convince — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- defend — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- disappear — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- encourage — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- improve — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- interrupt — L5:勉强；卡: talking | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- observe — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- organize — L5:不能；卡: neat | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- bold — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- brief — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- delicate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- dense — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- dim — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- distant — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- drowsy — L5:不能；卡: sleepy | L6:勉强；有线索但偏抽象;可能不唯一 | L7:注意；敏感点:war | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:sleepy
+- dusty — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- elegant — L5:不能；卡: graceful,fancy | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:勉强；定义用词偏难:graceful,fancy
+- faint — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- familiar — L5:不能；卡: seen,heard | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:勉强；定义用词偏难:seen,heard
+- flat — L5:不能；卡: bumps | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- flexible — L5:勉强；卡: ease | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- foggy — L5:不能；卡: mist,cannot | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:mist,cannot
+- glossy — L5:不能；卡: shiny | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:shiny
+- grim — L5:不能；卡: stern | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:stern
+- harsh — L5:不能；卡: unpleasant | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- heavy — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- helpless — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- humble — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- innocent — L5:不能；卡: having,done | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:勉强；定义用词偏难:having,done
+- invisible — L5:不能；卡: seen | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- keen — L5:勉强；卡: eager | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:eager
+- lean — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- lively — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- lovely — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- magnificent — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- moist — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- neat — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- noble — L5:勉强；卡: brave | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:brave
+- odd — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- pale — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- plump — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- precious — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- pure — L5:勉强；卡: mixed | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- rare — L5:不能；卡: seen | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- raw — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- round — L5:不能；卡: shaped | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- rude — L5:不能；卡: polite,unkind | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:polite,unkind
+- rusty — L5:不能；卡: reddish | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:reddish
+- scarce — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- slender — L5:不能；卡: graceful | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:graceful
+- soft — L5:勉强；卡: gentle | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- abundant — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- absurd — L5:不能；卡: making | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:making
+- accurate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- brittle — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- colorful — L5:不能；卡: having | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:having
+- cruel — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- daring — L5:勉强；卡: brave | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:brave
+- filthy — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- gorgeous — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- horrible — L5:不能；卡: unpleasant | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- mysterious — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长
+- pleasant — L5:不能；卡: enjoyable | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- powerful — L5:不能；卡: having | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- ridiculous — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- serious — L5:不能；卡: joking | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- spotless — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- tremendous — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；拼写偏长
+- visible — L5:不能；卡: seen | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- weak — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- wealthy — L5:不能；卡: having | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- wicked — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- worthless — L5:不能；卡: having | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:having
+- briefly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- constantly — L5:不能；卡: stopping | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:stopping
+- continuously — L5:不能；卡: going | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长;定义用词偏难:going
+- currently — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- formerly — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- instantly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- mostly — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- nearly — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- normally — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- originally — L5:不能；卡: changed | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:changed
+- partly — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- possibly — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- presently — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- previously — L5:不能；卡: earlier | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:earlier
+- probably — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- promptly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- regularly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- shortly — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- simply — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- sometimes — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- steadily — L5:不能；卡: stopping | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:stopping
+- still — L5:勉强；卡: continuing | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- typically — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- usually — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- simultaneously — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长
+- initially — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- permanently — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- temporarily — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- lately — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- overnight — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- yearly — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- hourly — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- illustration — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长
+- diagram — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- vocabulary — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- definition — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- fact — L5:不能；卡: proven | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- summary — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- topic — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- conclusion — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
+- passage — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- research — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- method — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- experiment — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- creature — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- moisture — L5:不能；卡: wetness | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:wetness
+- material — L5:不能；卡: made | L6:不能；线索不足/可替换词太多 | L7:注意；敏感点:war | L8:OK
+- source — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- motion — L5:不能；卡: moving,changing | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:勉强；定义用词偏难:moving,changing
+- mixture — L5:不能；卡: stirred | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- direction — L5:不能；卡: moving | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- shelter — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- predator — L5:勉强；卡: hunts | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:hunts
+- prey — L5:勉强；卡: hunt | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:hunt
+- oxygen — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- galaxy — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- fossil — L5:不能；卡: kept | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- mineral — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- current — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- vapor — L5:勉强；卡: floating | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:floating
+- erosion — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- orbit — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- gravity — L5:能 | L6:不能；线索不足/可替换词太多 | L7:注意；敏感点:war | L8:OK
+- species — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- community — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- population — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- culture — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- ancestor — L5:不能；卡: lived | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- generation — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- volunteer — L5:不能；卡: paid | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- merchant — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- pioneer — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- president — L5:能 | L6:不能；线索不足/可替换词太多 | L7:注意；敏感点:president | L8:OK
+- profession — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- companion — L5:不能；卡: goes | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- guardian — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- immigrant — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- inspector — L5:不能；卡: done | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- messenger — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- relative — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- scholar — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- witness — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- advantage — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- courage — L5:勉强；卡: brave | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- effort — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- knowledge — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- patience — L5:不能；卡: getting | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- responsibility — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
+- triumph — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- accident — L5:不能；卡: planned | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- attitude — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- boundary — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- consequence — L5:不能；卡: caused | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:caused
+- conversation — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- decision — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- evidence — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- experience — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- imagination — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- occasion — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- solution — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- inspect — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- select — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- supply — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- survive — L5:勉强；卡: risky | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- transform — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- transport — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- identify — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- inherit — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- massive — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- miniature — L5:不能；卡: smaller | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:smaller
+- obvious — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- ordinary — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:party | L8:OK
+- particular — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
+- peculiar — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- rapid — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- reluctant — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- sensitive — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- severe — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- suitable — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- sufficient — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- vacant — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- vast — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- vivid — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- possess — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- reveal — L5:勉强；卡: hidden | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- assign — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- respond — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- require — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- oppose — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- occupy — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- perform — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- accomplish — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- cautious — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- capable — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- essential — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- fortunate — L5:不能；卡: having | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:having
+- incredible — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；拼写偏长
+- numerous — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- positive — L5:不能；卡: hopeful | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- previous — L5:勉强；卡: coming | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- region — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- structure — L5:不能；卡: has,built | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:勉强；定义用词偏难:has,built
+- symbol — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- tradition — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- celebration — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:party | L8:偏难/不合适；拼写偏长
+- challenge — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- equipment — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:fight | L8:OK
+- voyage — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- territory — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- disaster — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- merely — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- precisely — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- entirely — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- scarcely — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- swiftly — L5:不能；卡: moving | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:moving
+- willingly — L5:不能；卡: forced | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:forced
+- maintain — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- establish — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- cooperate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- represent — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- concentrate — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- manufacture — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- demonstrate — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- investigate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长
+- discovery — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- penalty — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- quantity — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- reasonable — L5:不能；卡: making | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:making
+- approach — L5:不能；卡: closer | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- collapse — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- domestic — L5:不能；卡: tame | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- external — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- internal — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- annual — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- permission — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
+- recognize — L5:不能；卡: seen | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- influence — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- interpret — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- adapt — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- benefit — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- durable — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- genuine — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- hesitate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- negotiate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- temporary — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- reliable — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- absorb — L5:不能；卡: soak,liquid | L6:不能；线索不足/可替换词太多 | L7:OK | L8:勉强；定义用词偏难:soak,liquid
+- attract — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:注意；敏感点:war | L8:OK
+- predict — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- request — L5:不能；卡: politely | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- reduce — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- assemble — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- accumulate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- acknowledge — L5:不能；卡: noticed | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:noticed
+- adequate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- advocate — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- allocate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- ambiguous — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- amend — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- approximate — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- aspire — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- assert — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- authorize — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- beneficial — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- bias — L5:不能；卡: unfairly | L6:不能；例句太短(遮词后信息不足) | L7:注意；敏感点:war | L8:OK
+- capacity — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- clarify — L5:不能；卡: easier | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- coincide — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- commentary — L5:不能；卡: spoken,written | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长;定义用词偏难:spoken,written
+- compensate — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- compile — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- complement — L5:不能；卡: goes | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长;定义用词偏难:goes
+- comply — L5:勉强；卡: required | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- conceive — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:OK
+- confine — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- consent — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- consequent — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- consolidate — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- constraint — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长
+- consult — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- contemplate — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- contradict — L5:不能；卡: said | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长;定义用词偏难:said
+- controversy — L5:不能；卡: disagreement | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:disagreement
+- convene — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- correspond — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长
+- criteria — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- currency — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- deficiency — L5:不能；卡: having | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);拼写偏长;定义用词偏难:having
+- denote — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- derive — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- deviate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- devote — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- diminish — L5:不能；卡: smaller | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- dispose — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- distort — L5:勉强；卡: twist | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:twist
+- diverse — L5:不能；卡: having | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- domain — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- dominate — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:OK
+- draft — L5:勉强；卡: written | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- duration — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- empirical — L5:不能；卡: based | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:based
+- enforce — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- entity — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- equate — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- erode — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- exceed — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- explicit — L5:不能；卡: said,confusion | L6:不能；线索不足/可替换词太多 | L7:OK | L8:勉强；定义用词偏难:said,confusion
+- extract — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- facilitate — L5:不能；卡: easier | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>3500);拼写偏长;定义用词偏难:easier
+- finite — L5:不能；卡: having | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000);定义用词偏难:having
+- fluctuate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:war | L8:偏难/不合适；频次偏低(rank>5000)
+- format — L5:不能；卡: arranged | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- formula — L5:勉强；卡: written | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- foundation — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:偏难/不合适；拼写偏长
+- framework — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- furthermore — L5:不能；卡: said | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:said
+- generate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- guideline — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- hence — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- hierarchy — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- hypothesis — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
+- identical — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- ideology — L5:能 | L6:勉强；有线索但偏抽象;可能不唯一 | L7:注意；敏感点:party | L8:OK
+- implication — L5:不能；卡: said,hinted | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:said,hinted
+- impose — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- incentive — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- incorporate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长
+- index — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- induce — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:注意；敏感点:war | L8:OK
+- inherent — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- inhibit — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- initiate — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- innovation — L5:勉强；卡: invention | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；拼写偏长;定义用词偏难:invention
+- insert — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- integral — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- intervene — L5:能 | L6:能；场景具体;可排除多数同级动词 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- invoke — L5:能 | L6:不能；线索不足/可替换词太多 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- isolate — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:OK
+- levy — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
+- liberal — L5:勉强；卡: generous | L6:不能；线索不足/可替换词太多 | L7:OK | L8:OK
+- likewise — L5:勉强；卡: 例句线索少 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- magnitude — L5:能 | L6:不能；例句太短(遮词后信息不足) | L7:OK | L8:OK
+- manifest — L5:能 | L6:勉强；线索一般;可能不唯一 | L7:OK | L8:偏难/不合适；频次偏低(rank>5000)
