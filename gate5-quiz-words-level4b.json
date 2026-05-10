@@ -1,0 +1,1521 @@
+{
+  "file": "words-level4b",
+  "total": 310,
+  "sampled": 30,
+  "pass": 28,
+  "marginal": 2,
+  "fail": 0,
+  "results": [
+    {
+      "word": "nitrogen",
+      "definition": "a gas that makes up most of Earth's the air around the earth",
+      "example": "About seventy-eight percent of the air you breathe is actually nitrogen, not oxygen.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "utilitarian",
+        "precaution",
+        "polemic"
+      ]
+    },
+    {
+      "word": "anathema",
+      "definition": "something that a person hates and says no to with all their heart",
+      "example": "Cheating on tests was anathema to the honest student.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "profligate",
+        "umbrage",
+        "satellite"
+      ]
+    },
+    {
+      "word": "pollute",
+      "definition": "to make air, water, or land dirty and harmful",
+      "example": "Factories that dump chemicals into rivers pollute the water and harm fish.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "threat",
+        "repeal",
+        "renovate"
+      ]
+    },
+    {
+      "word": "predilection",
+      "definition": "a what you like more or special liking for something",
+      "example": "Her predilection for chocolate cake meant she always ordered it for her birthday.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "senate",
+        "nitrogen",
+        "retrieve"
+      ]
+    },
+    {
+      "word": "preponderance",
+      "definition": "a greater amount or the majority of something",
+      "example": "The preponderance of proof pointed to the suspect being guilty.",
+      "status": "MARGINAL",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": false
+          }
+        ]
+      },
+      "distractors": [
+        "spectrum",
+        "scenario",
+        "portentous"
+      ]
+    },
+    {
+      "word": "momentum",
+      "definition": "the power a moving object has because of its weight and speed; the drive to keep going",
+      "example": "After scoring three baskets in a row, our team had all the momentum.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "retrospective",
+        "robust",
+        "quixotic"
+      ]
+    },
+    {
+      "word": "sovereign",
+      "definition": "having the highest power to rule itself, free from outside control",
+      "example": "A sovereign nation makes its own laws without being controlled by another country.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "interfere",
+        "significance",
+        "vacillate"
+      ]
+    },
+    {
+      "word": "recede",
+      "definition": "to move back or become smaller over time",
+      "example": "After the storm, the floodwaters began to recede, and the streets became visible again.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "abnegation",
+        "summarize",
+        "integrity"
+      ]
+    },
+    {
+      "word": "prodigious",
+      "definition": "very great in size, amount, or degree",
+      "example": "The prodigious waterfall sent millions of gallons of water crashing down each hour.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "querulous",
+        "sanction",
+        "abnegation"
+      ]
+    },
+    {
+      "word": "minimal",
+      "definition": "the smallest possible amount; very little",
+      "example": "The damage from the storm was minimal—just a few broken branches and one dented mailbox.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "preeminent",
+        "pejorative",
+        "summarize"
+      ]
+    },
+    {
+      "word": "redress",
+      "definition": "a way of correcting something that is wrong or unfair",
+      "example": "The student sought redress after being unfairly punished for something she didn't do.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "literacy",
+        "install",
+        "verbose"
+      ]
+    },
+    {
+      "word": "tenet",
+      "definition": "a rule you live by or idea about what is right held by a group",
+      "example": "One tenet of the science club was that every thought deserved to be tested.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "terminal",
+        "vapid",
+        "preliminary"
+      ]
+    },
+    {
+      "word": "senate",
+      "definition": "one of the two groups in The group who make laws that makes laws",
+      "example": "Each state sends two senators to the United States Senate in Washington, D.C.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "texture",
+        "servile",
+        "retail"
+      ]
+    },
+    {
+      "word": "revolve",
+      "definition": "to move in a circle around a central point",
+      "example": "Earth revolves around the sun once every 365 days, giving us our year.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "profligate",
+        "transaction",
+        "soporific"
+      ]
+    },
+    {
+      "word": "testify",
+      "definition": "to give something that shows what happened or state facts under oath in court",
+      "example": "The witness was asked to testify about exactly what he saw that night.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "obviate",
+        "somewhat",
+        "onerous"
+      ]
+    },
+    {
+      "word": "spurious",
+      "definition": "false or not real; not fake",
+      "example": "The spurious claim that the earth is flat has been proven wrong many times.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "robust",
+        "panacea",
+        "install"
+      ]
+    },
+    {
+      "word": "reciprocity",
+      "definition": "trading favors so both sides gain",
+      "example": "The two friends practiced reciprocity by taking turns helping each other study.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "portentous",
+        "vilification",
+        "onerous"
+      ]
+    },
+    {
+      "word": "statute",
+      "definition": "a written law passed by a government body",
+      "example": "The city passed a statute requiring all buildings to have working smoke detectors.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "qualm",
+        "transition",
+        "vacillate"
+      ]
+    },
+    {
+      "word": "punitive",
+      "definition": "intended as a punishment",
+      "example": "The punitive measures for cheating included a zero on the test.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "populate",
+        "calumny",
+        "output"
+      ]
+    },
+    {
+      "word": "threat",
+      "definition": "a warning that something harmful may happen, or a source of danger",
+      "example": "Climate change is a serious threat to polar bears as their ice habitat melts away.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "testify",
+        "placid",
+        "underpinning"
+      ]
+    },
+    {
+      "word": "outrage",
+      "definition": "extreme a mad feeling caused by something unfair or shocking",
+      "example": "There was outrage among parents when the playground was closed without any warning.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "acerbic",
+        "prodigious",
+        "venerate"
+      ]
+    },
+    {
+      "word": "peak",
+      "definition": "the highest point of a mountain or the highest level",
+      "example": "The climbers reached the peak of Mount Everest just as the sun was rising.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "tenet",
+        "onerous",
+        "scrutinize"
+      ]
+    },
+    {
+      "word": "reparation",
+      "definition": "something done to make up for a wrong",
+      "example": "The student offered reparation by replacing the book he had accidentally damaged.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "siege",
+        "requisition",
+        "semblance"
+      ]
+    },
+    {
+      "word": "refurbish",
+      "definition": "to repair and make something look new again",
+      "example": "The workers helped refurbish the old library with fresh paint and new furniture.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "reconciliation",
+        "medieval",
+        "reaction"
+      ]
+    },
+    {
+      "word": "rescind",
+      "definition": "to officially cancel a law order, or what you pick",
+      "example": "The principal chose to rescind the new rule after students complained.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "redundancy",
+        "sphere",
+        "solicitous"
+      ]
+    },
+    {
+      "word": "torpor",
+      "definition": "a state of not being active or full of life",
+      "example": "The hot summer afternoon left the entire class in a state of torpor.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "primordial",
+        "sardonic",
+        "unscrupulous"
+      ]
+    },
+    {
+      "word": "texture",
+      "definition": "how a outside part feels when you touch it",
+      "example": "The texture of sandpaper is rough and scratchy, while silk feels smooth and soft.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "intellect",
+        "renunciation",
+        "stringent"
+      ]
+    },
+    {
+      "word": "vociferous",
+      "definition": "loud and forceful in expressing opinions",
+      "example": "The vociferous crowd chanted slogans during the peaceful protest march.",
+      "status": "MARGINAL",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": false
+          }
+        ]
+      },
+      "distractors": [
+        "insight",
+        "transient",
+        "underpinning"
+      ]
+    },
+    {
+      "word": "subsidy",
+      "definition": "money given by the government to help keep prices low or support a trade",
+      "example": "The government provides a subsidy to farmers, so they can afford to grow food at lower prices.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "render",
+        "qualm",
+        "tantamount"
+      ]
+    },
+    {
+      "word": "qualm",
+      "definition": "a feeling of doubt or a not-good feeling about doing something",
+      "example": "She had no qualm about speaking up when she saw something unfair happening.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "refuge",
+        "substantiation",
+        "palatable"
+      ]
+    }
+  ]
+}
