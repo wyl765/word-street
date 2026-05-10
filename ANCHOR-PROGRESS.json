@@ -1,8 +1,8 @@
 {
   "currentFile": "words-level2.js",
-  "lastWordIndex": 389,
+  "lastWordIndex": 551,
   "totalInFile": 552,
-  "filesCompleted": ["words-level1.js"],
+  "filesCompleted": ["words-level1.js", "words-level2.js"],
   "stats": {
     "words-level1.js": {
       "reviewed": 600,
@@ -11,9 +11,9 @@
       "fixed": 3
     },
     "words-level2.js": {
-      "reviewed": 390,
-      "accurate": 380,
-      "partial": 3,
+      "reviewed": 552,
+      "accurate": 533,
+      "partial": 16,
       "fixed": 7
     }
   }

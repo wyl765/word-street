@@ -1,0 +1,1464 @@
+{
+  "file": "words-level3a",
+  "total": 231,
+  "sampled": 30,
+  "pass": 30,
+  "marginal": 0,
+  "fail": 0,
+  "results": [
+    {
+      "word": "settle",
+      "definition": "to decide or agree on something after talking",
+      "example": "The two friends shook hands to settle their argument about whose turn it was.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "cursory",
+        "acacia",
+        "contour"
+      ]
+    },
+    {
+      "word": "snatch",
+      "definition": "to grab something fast",
+      "example": "The seagull tried to snatch the sandwich right out of her hand at the beach.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "bedlam",
+        "crouton",
+        "trace"
+      ]
+    },
+    {
+      "word": "badger",
+      "definition": "to keep asking someone to do something in an making someone upset way",
+      "example": "She badgered her dad to take her to the zoo until he finally said yes.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "adrift",
+        "buoyancy",
+        "crouton"
+      ]
+    },
+    {
+      "word": "punish",
+      "definition": "to make someone pay for breaking a rule",
+      "example": "Dad will punish us by taking away screen time if we don't finish our chores.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "chaplain",
+        "clad",
+        "dissect"
+      ]
+    },
+    {
+      "word": "translate",
+      "definition": "to change words from one language to another",
+      "example": "Her grandmother speaks Spanish, so Maria helps translate the letters into English.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "awning",
+        "naked",
+        "bamboo"
+      ]
+    },
+    {
+      "word": "bedlam",
+      "definition": "a scene of wild noise and something wrong; a mistake",
+      "example": "The classroom was bedlam when the hamster escaped from its cage.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "skim",
+        "apprentice",
+        "forgive"
+      ]
+    },
+    {
+      "word": "persuade",
+      "definition": "to convince someone to agree",
+      "example": "She tried to persuade her dad to get a puppy by showing him how responsible she could be.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "grand",
+        "bustle",
+        "crock"
+      ]
+    },
+    {
+      "word": "primitive",
+      "definition": "from a very early time, simple and simple",
+      "example": "The primitive tools made of stone were used thousands of years before metal was discovered.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "gracious",
+        "prove",
+        "curfew"
+      ]
+    },
+    {
+      "word": "condiment",
+      "definition": "something added to food for extra taste like ketchup or mustard",
+      "example": "The table had every condiment you could want—ketchup, mustard, and hot sauce.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "caldron",
+        "banter",
+        "badger"
+      ]
+    },
+    {
+      "word": "barbecue",
+      "definition": "cooking food over a fire or grill outdoors",
+      "example": "Dad fired up the barbecue to cook burgers and corn for the family picnic.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "automatic",
+        "strengthen",
+        "dapple"
+      ]
+    },
+    {
+      "word": "occasional",
+      "definition": "happening sometimes but not often",
+      "example": "We hear the occasional owl hooting outside at night, maybe once or twice a week.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "amble",
+        "daze",
+        "apprentice"
+      ]
+    },
+    {
+      "word": "gracious",
+      "definition": "kind and good, especially to people who visit",
+      "example": "The gracious host made sure every visitor had food, a drink, and a comfortable chair.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "condiment",
+        "cosmos",
+        "consort"
+      ]
+    },
+    {
+      "word": "careless",
+      "definition": "not paying attention, making mistakes",
+      "example": "His careless writing was so messy that even he couldn't read what it said.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "atrium",
+        "forgive",
+        "claustrophobia"
+      ]
+    },
+    {
+      "word": "deft",
+      "definition": "good at what they do and quick with the hands",
+      "example": "The deft magician shuffled the cards so fast nobody could follow them.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "moderate",
+        "contour",
+        "legal"
+      ]
+    },
+    {
+      "word": "illegal",
+      "definition": "breaking the law; something you can get in trouble for doing",
+      "example": "It is illegal to steal from a store, and you can get arrested for it.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "compulsion",
+        "boon",
+        "cleft"
+      ]
+    },
+    {
+      "word": "radical",
+      "definition": "very different from what is normal or expected",
+      "example": "Painting the school bright purple was a radical thought that surprised all the parents.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "native",
+        "damage",
+        "amplify"
+      ]
+    },
+    {
+      "word": "exotic",
+      "definition": "unusual and from a faraway place",
+      "example": "The zoo got an exotic bird from the rainforest with bright blue and gold feathers.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "canter",
+        "curtsy",
+        "babble"
+      ]
+    },
+    {
+      "word": "portable",
+      "definition": "easy to carry from place to place",
+      "example": "She brought a portable fan to the picnic because there was no shade from the hot sun.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "chaplain",
+        "corona",
+        "terrify"
+      ]
+    },
+    {
+      "word": "assail",
+      "definition": "to attack someone with force or rough and not nice words",
+      "example": "The strong winds assailed the ship as it crossed the rough sea.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "bastion",
+        "cleave",
+        "strengthen"
+      ]
+    },
+    {
+      "word": "moderate",
+      "definition": "not too much and not too little, in between",
+      "example": "The moderate heat of seventy degrees felt comfortable—not hot and not cold.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "capsule",
+        "damage",
+        "cleave"
+      ]
+    },
+    {
+      "word": "batter",
+      "definition": "a mixture of flour, eggs, and milk used for cooking",
+      "example": "She stirred the pancake batter until it was smooth and poured it on the griddle.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "native",
+        "cleave",
+        "contour"
+      ]
+    },
+    {
+      "word": "conifer",
+      "definition": "a tree that has cones and keeps its leaves all year",
+      "example": "Pine, spruce, and fir are all conifers that stay green even in winter.",
+      "status": "PASS",
+      "testA": {
+        "correct": "C",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "C",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "C",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "atrium",
+        "amiable",
+        "bastion"
+      ]
+    },
+    {
+      "word": "barracks",
+      "definition": "buildings where soldiers live",
+      "example": "The soldiers returned to the barracks after a long day of training.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "favorable",
+        "cupboard",
+        "blazon"
+      ]
+    },
+    {
+      "word": "decanter",
+      "definition": "an elegant glass bottle with a stopper, used to hold and pour a drink",
+      "example": "The waiter poured water from a crystal decanter into each guest's glass.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "billow",
+        "crouton",
+        "corsair"
+      ]
+    },
+    {
+      "word": "dissect",
+      "definition": "to cut apart with care to study the inside",
+      "example": "In science class, they dissected a flower to see all its tiny parts.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": null,
+      "distractors": [
+        "favorable",
+        "amble",
+        "grand"
+      ]
+    },
+    {
+      "word": "trace",
+      "definition": "to follow a path or copy by drawing over lines",
+      "example": "The detective tried to trace the footprints in the snow back to the house.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "immense",
+        "brooch",
+        "cherub"
+      ]
+    },
+    {
+      "word": "chaplain",
+      "definition": "a religious leader who works in a hospital, school, or army",
+      "example": "The hospital chaplain visited patients to offer comfort and kind words.",
+      "status": "PASS",
+      "testA": {
+        "correct": "A",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "A",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "A",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "bustle",
+        "colonnade",
+        "belfry"
+      ]
+    },
+    {
+      "word": "microscopic",
+      "definition": "so tiny you need a special tool to see it",
+      "example": "The microscopic creatures in pond water are too small to see without a microscope.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "cobalt",
+        "amplify",
+        "afflict"
+      ]
+    },
+    {
+      "word": "precise",
+      "definition": "very exact and careful about details",
+      "example": "Computers need precise instructions—one wrong character and nothing works.",
+      "status": "PASS",
+      "testA": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "B",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "B",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "B",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "dale",
+        "principal",
+        "original"
+      ]
+    },
+    {
+      "word": "correct",
+      "definition": "to fix a mistake",
+      "example": "The teacher asked him to correct the spelling errors on his paper with a red pen.",
+      "status": "PASS",
+      "testA": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "testB": {
+        "correct": "D",
+        "results": [
+          {
+            "model": "gpt-4o",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gpt-4.1",
+            "answer": "D",
+            "correct": true
+          },
+          {
+            "model": "gemini-2.5-pro",
+            "answer": "D",
+            "correct": true
+          }
+        ]
+      },
+      "distractors": [
+        "settle",
+        "barracks",
+        "dissect"
+      ]
+    }
+  ]
+}

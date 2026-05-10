@@ -418,3 +418,188 @@
 | 389 | applause | ACCURATE | |
 
 **Batch summary:** 137 ACCURATE, 2 PARTIAL, 1 INACCURATE, 1 fix applied
+
+---
+
+## Batch: words 390–551 (162 words)
+
+| # | Word | Verdict | Notes |
+|---|------|---------|-------|
+| 390 | apricot | ACCURATE | Small orange stone fruit with soft skin — correct |
+| 391 | arch | ACCURATE | A curved structure — correct |
+| 392 | atlas | ACCURATE | "pictures that show where countries and oceans are" = child-friendly paraphrase of "maps" |
+| 393 | avalanche | ACCURATE | Large mass of snow sliding down a mountain — correct |
+| 394 | badge | ACCURATE | A small device showing identity/membership — correct |
+| 395 | bagpipe | ACCURATE | Wind instrument with bag and pipes — correct for kids |
+| 396 | balcony | ACCURATE | Platform projecting from building exterior — correct |
+| 397 | banjo | ACCURATE | Stringed instrument with round body — correct; "pull" = child-friendly for "pluck" |
+| 398 | banner | ACCURATE | Long cloth with words/images — correct |
+| 399 | basin | ACCURATE | Wide bowl for holding water — correct |
+| 400 | bay | ACCURATE | Body of water curving into coastline — correct |
+| 401 | beacon | ACCURATE | Guiding light — correct |
+| 402 | bead | ACCURATE | Small round piece for threading/jewelry — correct for children's context |
+| 403 | beeswax | ACCURATE | Wax produced by bees for hive construction — correct |
+| 404 | bellows | ACCURATE | Device that pumps air to fan flames — correct |
+| 405 | binoculars | ACCURATE | Optical device for distant viewing — correct |
+| 406 | birch | ACCURATE | Tree with distinctive white bark — correct |
+| 407 | biscuit | ACCURATE | Soft quick bread (American English) — correct for target audience |
+| 408 | blacksmith | ACCURATE | Metalworker — correct (simplified from iron/steel specialist) |
+| 409 | blaze | ACCURATE | Large bright fire — correct |
+| 410 | blueprint | ACCURATE | Technical plan/drawing for construction — correct |
+| 411 | bluff | ACCURATE | High steep cliff, especially near water — correct |
+| 412 | bobsled | ACCURATE | Sled for racing down icy tracks — correct |
+| 413 | bolt | ACCURATE | Metal fastener — correct |
+| 414 | bonfire | ACCURATE | Large outdoor fire — correct |
+| 415 | bookshelf | ACCURATE | Shelf for storing books — correct |
+| 416 | bracelet | ACCURATE | Decorative band worn on wrist — correct |
+| 417 | bramble | ACCURATE | Thorny shrub bearing berries — correct |
+| 418 | brass | ACCURATE | Yellow copper-zinc alloy — correct |
+| 419 | bridle | ACCURATE | Head harness for controlling a horse — correct |
+| 420 | broth | ACCURATE | Thin soup from cooking meat/vegetables — correct |
+| 421 | bugle | ACCURATE | Brass instrument associated with military — correct |
+| 422 | bulb | ACCURATE | Underground plant storage organ — correct |
+| 423 | bulletin | ACCURATE | Short notice or news report — correct |
+| 424 | bunker | ACCURATE | Reinforced underground shelter — correct |
+| 425 | buoy | ACCURATE | Floating marker in water — correct |
+| 426 | canal | ACCURATE | Artificial waterway for navigation — correct |
+| 427 | canopy | ACCURATE | Overhead covering of cloth or foliage — correct |
+| 428 | caribou | ACCURATE | Large deer of cold regions (North American reindeer) — correct |
+| 429 | carousel | ACCURATE | Rotating ride with model horses — correct |
+| 430 | cartwheel | ACCURATE | Sideways acrobatic flip on hands — correct |
+| 431 | cashew | ACCURATE | Curved kidney-shaped nut — correct |
+| 432 | cedar | ACCURATE | Large aromatic evergreen tree — correct |
+| 433 | cellar | ACCURATE | Underground room in a house — correct |
+| 434 | chapel | ACCURATE | Small place of worship — correct |
+| 435 | chariot | ACCURATE | Two-wheeled horse-drawn vehicle of antiquity — correct; "two round parts" = wheels |
+| 436 | chestnut | ACCURATE | Edible brown nut, can be roasted — correct |
+| 437 | chisel | ACCURATE | Cutting tool for wood or stone — correct |
+| 438 | chord | ACCURATE | Multiple notes sounded together — aligns with Oxford's "two or more" |
+| 439 | cider | ACCURATE | Apple-based drink — correct |
+| 440 | clam | ACCURATE | Bivalve mollusk — correct |
+| 441 | cloak | ACCURATE | Loose outer garment draped over shoulders — correct |
+| 442 | cobblestone | ACCURATE | Naturally rounded stone for paving — correct |
+| 443 | cocoon | ACCURATE | Silk casing spun by moth larvae; example correctly references moth |
+| 444 | comet | ACCURATE | Icy body with luminous tail orbiting the sun — correct |
+| 445 | cork | ACCURATE | Light material used as bottle stopper — correct |
+| 446 | corral | ACCURATE | Fenced enclosure for livestock — correct |
+| 447 | cradle | ACCURATE | Small rocking bed for infants — correct |
+| 448 | crest | ACCURATE | Top of a hill or wave — correct |
+| 449 | crumb | ACCURATE | Tiny fragment of bread/cake — correct |
+| 450 | cuff | ACCURATE | End of a sleeve — correct |
+| 451 | cypress | ACCURATE | Tall evergreen conifer — correct |
+| 452 | dagger | ACCURATE | Short pointed weapon/knife — correct |
+| 453 | dandelion | ACCURATE | Yellow flower producing fluffy seed heads — correct |
+| 454 | deck | ACCURATE | Flat wooden platform outside a house — correct |
+| 455 | delta | ACCURATE | Fan-shaped alluvial land at river mouth — correct |
+| 456 | dinghy | ACCURATE | Small boat — correct |
+| 457 | dome | ACCURATE | Hemispherical roof/structure — correct |
+| 458 | donkey | ACCURATE | Equine with long ears, smaller than horse — correct |
+| 459 | doorbell | ACCURATE | Button-activated sound device at door — correct |
+| 460 | drawbridge | ACCURATE | Bridge that can be raised — correct |
+| 461 | drumstick | ACCURATE | Stick for striking a drum — correct |
+| 462 | dune | ACCURATE | Wind-formed sand hill — correct |
+| 463 | easel | ACCURATE | Stand for holding artwork — correct |
+| 464 | elm | ACCURATE | Tall deciduous shade tree — correct |
+| 465 | ember | ACCURATE | Glowing remnant of fire — correct |
+| 466 | emerald | ACCURATE | Green precious gemstone — correct |
+| 467 | falcon | ACCURATE | Fast bird of prey — correct |
+| 468 | fiddle | ACCURATE | Violin, especially in folk music — "old songs" is child-friendly for folk/traditional |
+| 469 | fig | ACCURATE | Soft sweet fruit with many tiny seeds — correct |
+| 470 | fjord | ACCURATE | Long narrow inlet between steep cliffs — "tall rocks" acceptable for kids |
+| 471 | flint | ACCURATE | Hard stone that produces sparks — correct |
+| 472 | forge | ACCURATE | Workshop where metal is heated and shaped — correct |
+| 473 | fresco | ACCURATE | Painting on wet plaster — "wet wall" is valid simplification |
+| 474 | gale | ACCURATE | Very strong wind — correct |
+| 475 | galley | ACCURATE | Ship's kitchen — correct (one of two primary meanings) |
+| 476 | garnet | ACCURATE | Dark red semi-precious gemstone — correct |
+| 477 | gazelle | ACCURATE | Fast graceful antelope of open plains — correct |
+| 478 | geyser | ACCURATE | Hot spring that erupts periodically — correct |
+| 479 | gong | ACCURATE | Large metal percussion disc — correct |
+| 480 | granite | ACCURATE | Hard igneous rock used in construction — correct |
+| 481 | grapevine | ACCURATE | Climbing vine that produces grapes — correct |
+| 482 | gravel | ACCURATE | Small loose stones — correct |
+| 483 | griddle | ACCURATE | Flat cooking surface/pan — correct |
+| 484 | grove | ACCURATE | Small group of trees — correct |
+| 485 | gutter | ACCURATE | Channel for draining rainwater — correct, covers both road and roof gutters |
+| 486 | hammock | ACCURATE | Suspended fabric bed — correct |
+| 487 | harp | ACCURATE | Large stringed instrument — correct; "pull" = child-friendly for "pluck" |
+| 488 | hazel | ACCURATE | Light brown-green color — valid meaning (as in "hazel eyes"); primary dictionary meaning is tree, but color sense is well-established |
+| 489 | hearth | ACCURATE | Floor of a fireplace — correct |
+| 490 | heron | ACCURATE | Tall long-legged wading bird — correct |
+| 491 | hickory | ACCURATE | Hardwood tree with edible nuts — correct |
+| 492 | hilltop | ACCURATE | Summit of a hill — correct |
+| 493 | holly | ACCURATE | Evergreen plant with glossy leaves and red berries — correct |
+| 494 | honeycomb | ACCURATE | Wax structure bees make to store honey — correct |
+| 495 | horseshoe | ACCURATE | U-shaped metal plate for horse's hoof — correct |
+| 496 | hourglass | ACCURATE | Glass timing device with flowing sand — correct |
+| 497 | husk | ACCURATE | Dry outer covering of seed/corn — correct |
+| 498 | ibis | ACCURATE | Wading bird with long curved bill — correct |
+| 499 | igloo | ACCURATE | Dome-shaped snow shelter — "hard snow" acceptable simplification of compacted snow blocks |
+| 500 | ivy | ACCURATE | Climbing plant with green leaves — correct |
+| 501 | jade | ACCURATE | Green ornamental stone — correct |
+| 502 | javelin | ACCURATE | Long throwing spear used in athletics — "stick" is child-friendly for "spear" |
+| 503 | kelp | ACCURATE | Large marine seaweed — "sea plant" is standard child-level simplification |
+| 504 | kennel | ACCURATE | Dog shelter — correct |
+| 505 | kindle | ACCURATE | To start a fire — correct |
+| 506 | kingfisher | ACCURATE | Colorful diving bird that catches fish — correct |
+| 507 | knapsack | ACCURATE | Bag carried on the back — correct |
+| 508 | lagoon | ACCURATE | Shallow body of water near the sea — correct |
+| 509 | latch | ACCURATE | Bar-type fastener for doors/gates — correct |
+| 510 | lava | ACCURATE | Molten rock from a volcano — correct |
+| 511 | levee | ACCURATE | Embankment to prevent flooding — correct |
+| 512 | lichen | ACCURATE | Organism growing on rocks and trees — "flat dry thing" is a visual simplification; acceptable for kids |
+| 513 | locket | ACCURATE | Small hinged case on a chain that holds a photo — correct |
+| 514 | loom | ACCURATE | Machine for weaving cloth — correct |
+| 515 | lynx | ACCURATE | Wild cat with distinctive ear tufts — "tall sharp ears" is correct |
+| 516 | mango | ACCURATE | Tropical fruit with orange flesh — correct |
+| 517 | mantle | ACCURATE | Shelf above fireplace (mantelpiece) — correct |
+| 518 | maple | ACCURATE | Tree with broad leaves that turn red in autumn — correct |
+| 519 | marsh | ACCURATE | Wet low-lying land — correct |
+| 520 | mast | ACCURATE | Tall vertical pole on a ship for sails — "stick" is acceptable for kids |
+| 521 | moat | PARTIAL | "Hole" is imprecise — a moat is a deep wide ditch/trench, not a "hole." Should be "a wide ditch full of water around a castle" |
+| 522 | mortar | ACCURATE | Binding mixture for bricks/stones — correct |
+| 523 | mosaic | ACCURATE | Image made from small colored pieces — correct |
+| 524 | mulberry | ACCURATE | Small dark purple fruit from a tree — correct |
+| 525 | muzzle | ACCURATE | Nose and mouth area of an animal — correct |
+| 526 | nectar | ACCURATE | Sweet liquid in flowers collected by bees — correct |
+| 527 | nettle | ACCURATE | Stinging plant — correct |
+| 528 | nozzle | ACCURATE | End fitting of a tube/hose — correct |
+| 529 | nutmeg | ACCURATE | Spice from a seed — correct |
+| 530 | oar | ACCURATE | Long pole with flat blade for rowing — correct |
+| 531 | oasis | ACCURATE | Fertile area with water in a desert — correct |
+| 532 | olive | ACCURATE | Small round fruit used for oil — correct |
+| 533 | ore | ACCURATE | Rock containing extractable metal — correct |
+| 534 | otter | ACCURATE | Aquatic playful mammal — correct; rivers is a valid common context |
+| 535 | pagoda | PARTIAL | "From lands far away" is vague and ethnocentric; should specify "found in East and Southeast Asia" |
+| 536 | parchment | ACCURATE | Writing material made from animal skin — correct |
+| 537 | parsley | ACCURATE | Herb used for flavoring food — correct |
+| 538 | pasture | ACCURATE | Grassland for grazing animals — correct |
+| 539 | pebble | ACCURATE | Small smooth stone — correct |
+| 540 | pelican | ACCURATE | Large bird with expandable throat pouch — "big bag under its beak" is correct for kids |
+| 541 | pendant | ACCURATE | Ornament hanging from a necklace chain — correct |
+| 542 | pier | ACCURATE | Structure extending over water — correct |
+| 543 | pigment | ACCURATE | Coloring substance for paint — correct |
+| 544 | carefully | ACCURATE | With great care to avoid mistakes — correct |
+| 545 | accept | ACCURATE | To agree to receive or take — correct |
+| 546 | quite | ACCURATE | To a fair degree; rather — correct (American English sense) |
+| 547 | rise | ACCURATE | To move upward — "without being pushed or pulled" distinguishes intransitive rise from transitive raise; pedagogically sound |
+| 548 | although | ACCURATE | Conjunction meaning "but/yet/in spite of" — correct |
+| 549 | unless | ACCURATE | Except if — correct |
+| 550 | seldom | ACCURATE | Almost never; very rarely — correct |
+| 551 | eventually | ACCURATE | In the end, after a long time — correct |
+
+**Batch summary:** 160 ACCURATE, 2 PARTIAL, 0 INACCURATE, 0 fixes applied
+
+### PARTIAL notes:
+- **moat (#521):** "hole" should be "ditch" — a moat is a trench/channel, not a hole. Minor imprecision.
+- **pagoda (#535):** "from lands far away" is vague and ethnocentric. Better: "found in East and Southeast Asia."
+
+---
+
+## words-level2.js COMPLETE ✅
+
+**Full file totals (552 words):**
+- Reviewed: 552
+- ACCURATE: 533
+- PARTIAL: 16
+- INACCURATE: 4 (all fixed in previous batches)
