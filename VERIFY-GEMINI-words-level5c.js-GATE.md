@@ -1,332 +1,332 @@
-# Gemini Review for words-level5c.js
+# VERIFY-GEMINI-words-level5c.js-GATE
 
-| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game |
-|---|---|---|---|---|
-| abolition | Pass | Pass | Pass | Pass |
-| abrupt | Pass | Pass | Pass | Pass |
-| acclaimed | Pass | Pass | Pass | Pass |
-| accountant | Pass | Pass | Pass | Pass |
-| acute | Pass | Pass | Pass | Pass |
-| adhesive | Pass | Pass | Pass | Pass |
-| aerial | Pass | Pass | Pass | Pass |
-| affirmative | Pass | Pass | Pass | Pass |
-| ailment | Pass | Pass | Pass | Pass |
-| aisle | Pass | Pass | Pass | Pass |
-| algebra | Pass | Pass | Pass | Pass |
-| allegory | Pass | Pass | Pass | Pass |
-| allude | Pass | Pass | Pass | Pass |
-| ambassador | Pass | Pass | Pass | Pass |
-| ambiguity | Pass | Pass | Pass | Pass |
-| ammunition | Pass | Pass | Pass | Pass |
-| anatomy | Pass | Pass | Pass | Pass |
-| animation | Pass | Pass | Pass | Pass |
-| annotate | Pass | Pass | Pass | Pass |
-| antidote | Pass | Pass | Pass | Pass |
-| antiquity | Pass | Pass | Pass | Pass |
-| apparel | Pass | Pass | Pass | Pass |
-| apportion | Pass | Pass | Pass | Pass |
-| arcade | Pass | Pass | Pass | Pass |
-| archaic | Pass | Pass | Pass | Pass |
-| arithmetic | Pass | Pass | Pass | Pass |
-| armistice | Pass | Pass | Pass | Pass |
-| ascertain | Pass | Pass | Pass | Pass |
-| assertive | Pass | Pass | Pass | Pass |
-| astonish | Pass | Pass | Pass | Pass |
-| astronaut | Pass | Pass | Pass | Pass |
-| astronomy | Pass | Pass | Pass | Pass |
-| attic | Pass | Pass | Pass | Pass |
-| audible | Pass | Pass | Pass | Pass |
-| automation | Pass | Pass | Pass | Pass |
-| bachelor | Pass | Pass | Pass | Pass |
-| ballad | Pass | Pass | Pass | Pass |
-| barricade | Pass | Pass | Pass | Pass |
-| bazaar | Pass | Pass | Pass | Pass |
-| benign | Pass | Pass | Pass | Pass |
-| bibliography | Pass | Pass | Pass | Pass |
-| bilingual | Pass | Pass | Pass | Pass |
-| blemish | Pass | Pass | Pass | Pass |
-| bliss | Pass | Pass | Pass | Pass |
-| blockade | Pass | Pass | Pass | Pass |
-| bouquet | Pass | Pass | Pass | Pass |
-| brigade | Pass | Pass | Pass | Pass |
-| buoyant | Pass | Pass | Pass | Pass |
-| caffeine | Pass | Pass | Pass | Pass |
-| calamity | Pass | Pass | Pass | Pass |
-| caliber | Pass | Pass | Pass | Pass |
-| calligraphy | Pass | Pass | Pass | Pass |
-| cardiovascular | Pass | Pass | Pass | Pass |
-| cascade | Pass | Pass | Pass | Pass |
-| casualty | Pass | Pass | Pass | Pass |
-| charisma | Pass | Pass | Pass | Pass |
-| circa | Pass | Pass | Pass | Pass |
-| civilian | Pass | Pass | Pass | Pass |
-| clarification | Pass | Pass | Pass | Pass |
-| clemency | Pass | Pass | Pass | Pass |
-| cliche | Pass | Pass | Pass | Pass |
-| clientele | Pass | Pass | Pass | Pass |
-| clockwise | Pass | Pass | Pass | Pass |
-| coax | Pass | Pass | Pass | Pass |
-| coexist | Pass | Pass | Pass | Pass |
-| coincidence | Pass | Pass | Pass | Pass |
-| colleague | Pass | Pass | Pass | Pass |
-| communism | Pass | Pass | Pass | Pass |
-| competence | Pass | Pass | Pass | Pass |
-| complication | Pass | Pass | Pass | Pass |
-| compliment | Pass | Pass | Pass | Pass |
-| composure | Pass | Pass | Pass | Pass |
-| conclusive | Pass | Pass | Pass | Pass |
-| condense | Pass | Pass | Pass | Pass |
-| conspire | Pass | Pass | Pass | Pass |
-| contentious | Pass | Pass | Pass | Pass |
-| contingency | Pass | Pass | Pass | Pass |
-| contractor | Pass | Pass | Pass | Pass |
-| conversion | Pass | Pass | Pass | Pass |
-| convict | Pass | Pass | Pass | Pass |
-| coral | Pass | Pass | Pass | Pass |
-| coronation | Pass | Pass | Pass | Pass |
-| corporal | Pass | Pass | Pass | Pass |
-| corridor | Pass | Pass | Pass | Pass |
-| counterfeit | Pass | Pass | Pass | Pass |
-| credential | Pass | Pass | Pass | Pass |
-| crescendo | Pass | Pass | Pass | Pass |
-| crimson | Pass | Pass | Pass | Pass |
-| critique | Pass | Pass | Pass | Pass |
-| culprit | Pass | Pass | Pass | Pass |
-| dazzle | Pass | Pass | Pass | Pass |
-| debut | Pass | Pass | Pass | Pass |
-| deceit | Pass | Pass | Pass | Pass |
-| defiance | Pass | Pass | Pass | Pass |
-| deforestation | Pass | Pass | Pass | Pass |
-| delicacy | Pass | Pass | Pass | Pass |
-| deluge | Pass | Pass | Pass | Pass |
-| demolish | Pass | Pass | Pass | Pass |
-| designation | Pass | Pass | Pass | Pass |
-| desolate | Pass | Pass | Pass | Pass |
-| despair | Pass | Pass | Pass | Pass |
-| destitute | Pass | Pass | Pass | Pass |
-| devastation | Pass | Pass | Pass | Pass |
-| devious | Pass | Pass | Pass | Pass |
-| devout | Pass | Pass | Pass | Pass |
-| dialect | Pass | Pass | Pass | Pass |
-| dictator | Pass | Pass | Pass | Pass |
-| disdain | Pass | Pass | Pass | Pass |
-| dismay | Pass | Pass | Pass | Pass |
-| distinction | Pass | Pass | Pass | Pass |
-| divert | Pass | Pass | Pass | Pass |
-| dominion | Pass | Pass | Pass | Pass |
-| dubious | Pass | Pass | Pass | Pass |
-| emigrate | Pass | Pass | Pass | Pass |
-| eminent | Pass | Pass | Pass | Pass |
-| empathy | Pass | Pass | Pass | Pass |
-| engrave | Pass | Pass | Pass | Pass |
-| enlighten | Pass | Pass | Pass | Pass |
-| enrich | Pass | Pass | Pass | Pass |
-| envoy | Pass | Pass | Pass | Pass |
-| estate | Pass | Pass | Pass | Pass |
-| eternal | Pass | Pass | Pass | Pass |
-| evade | Pass | Pass | Pass | Pass |
-| excursion | Pass | Pass | Pass | Pass |
-| exposition | Pass | Pass | Pass | Pass |
-| ferocious | Pass | Pass | Pass | Pass |
-| festive | Pass | Pass | Pass | Pass |
-| feudal | Pass | Pass | Pass | Pass |
-| folklore | Pass | Pass | Pass | Pass |
-| fortitude | Pass | Pass | Pass | Pass |
-| genealogy | Pass | Pass | Pass | Pass |
-| grotesque | Pass | Pass | Pass | Pass |
-| grudge | Pass | Pass | Pass | Pass |
-| hostage | Pass | Pass | Pass | Pass |
-| humiliation | Pass | Pass | Pass | Pass |
-| impediment | Pass | Pass | Pass | Pass |
-| inaugural | Pass | Pass | Pass | Pass |
-| incarcerate | Pass | Pass | Pass | Pass |
-| indignant | Pass | Pass | Pass | Pass |
-| infantry | Pass | Pass | Pass | Pass |
-| inheritance | Pass | Pass | Pass | Pass |
-| injustice | Pass | Pass | Pass | Pass |
-| instigate | Pass | Pass | Pass | Pass |
-| interrogate | Pass | Pass | Pass | Pass |
-| laborious | Pass | Pass | Pass | Pass |
-| malice | Pass | Pass | Pass | Pass |
-| metaphor | Pass | Pass | Pass | Pass |
-| neutrality | Pass | Pass | Pass | Pass |
-| overthrow | Pass | Pass | Pass | Pass |
-| patriot | Pass | Pass | Pass | Pass |
-| peasant | Pass | Pass | Pass | Pass |
-| pension | Pass | Pass | Pass | Pass |
-| persecution | Pass | Pass | Pass | Pass |
-| plague | Pass | Pass | Pass | Pass |
-| plummet | Pass | Pass | Pass | Pass |
-| polarize | Pass | Pass | Pass | Pass |
-| retaliate | Pass | Pass | Pass | Pass |
-| retribution | Pass | Pass | Pass | Pass |
-| sabotage | Pass | Pass | Pass | Pass |
-| spectacular | Pass | Pass | Pass | Pass |
-| squander | Pass | Pass | Pass | Pass |
-| subdue | Pass | Pass | Pass | Pass |
-| supersede | Pass | Pass | Pass | Pass |
-| testimony | Pass | Pass | Pass | Pass |
-| theology | Pass | Pass | Pass | Pass |
-| topography | Pass | Pass | Pass | Pass |
-| transcontinental | Pass | Pass | Pass | Pass |
-| truce | Pass | Pass | Pass | Pass |
-| unanimous | Pass | Pass | Pass | Pass |
-| uprising | Pass | Pass | Pass | Pass |
-| utopia | Pass | Pass | Pass | Pass |
-| absentee | Pass | Pass | Pass | Pass |
-| accreditation | Pass | Pass | Pass | Pass |
-| adjourn | Pass | Pass | Pass | Pass |
-| affidavit | Pass | Pass | Pass | Pass |
-| almanac | Pass | Pass | Pass | Pass |
-| aqueduct | Pass | Pass | Pass | Pass |
-| aristocrat | Pass | Pass | Pass | Pass |
-| artisan | Pass | Pass | Pass | Pass |
-| assailant | Pass | Pass | Pass | Pass |
-| asylum | Pass | Pass | Pass | Pass |
-| bailiff | Pass | Pass | Pass | Pass |
-| bankruptcy | Pass | Pass | Pass | Pass |
-| besiege | Pass | Pass | Pass | Pass |
-| bipartisan | Pass | Pass | Pass | Pass |
-| brigand | Pass | Pass | Pass | Pass |
-| captivity | Pass | Pass | Pass | Pass |
-| caravan | Pass | Pass | Pass | Pass |
-| chaotic | Pass | Pass | Pass | Pass |
-| colossal | Pass | Pass | Pass | Pass |
-| combustion | Pass | Pass | Pass | Pass |
-| confederacy | Pass | Pass | Pass | Pass |
-| congregate | Pass | Pass | Pass | Pass |
-| conspiracy | Pass | Pass | Pass | Pass |
-| depleted | Pass | Pass | Pass | Pass |
-| diplomatic | Pass | Pass | Pass | Pass |
-| escapade | Pass | Pass | Pass | Pass |
-| extortion | Pass | Pass | Pass | Pass |
-| abolitionist | Pass | Pass | Pass | Pass |
-| accomplice | Pass | Pass | Pass | Pass |
-| altruism | Pass | Pass | Pass | Pass |
-| anarchist | Pass | Pass | Pass | Pass |
-| apathy | Pass | Pass | Pass | Pass |
-| armada | Pass | Pass | Pass | Pass |
-| autocracy | Pass | Pass | Pass | Pass |
-| censorship | Pass | Pass | Pass | Pass |
-| centennial | Pass | Pass | Pass | Pass |
-| chivalry | Pass | Pass | Pass | Pass |
-| circumnavigate | Pass | Pass | Pass | Pass |
-| colonialism | Pass | Pass | Pass | Pass |
-| commodore | Pass | Pass | Pass | Pass |
-| condolence | Pass | Pass | Pass | Pass |
-| convalesce | Pass | Pass | Pass | Pass |
-| crucible | Pass | Pass | Pass | Pass |
-| cryptic | Pass | Pass | Pass | Pass |
-| debilitate | Pass | Pass | Pass | Pass |
-| decimate | Pass | Pass | Pass | Pass |
-| despotism | Pass | Pass | Pass | Pass |
-| duplicity | Pass | Pass | Pass | Pass |
-| emancipate | Pass | Pass | Pass | Pass |
-| enclave | Pass | Pass | Pass | Pass |
-| enmity | Pass | Pass | Pass | Pass |
-| epitome | Pass | Pass | Pass | Pass |
-| equinox | Pass | Pass | Pass | Pass |
-| estuary | Pass | Pass | Pass | Pass |
-| euphoria | Pass | Pass | Pass | Pass |
-| expatriate | Pass | Pass | Pass | Pass |
-| flotilla | Pass | Pass | Pass | Pass |
-| fluorescent | Pass | Pass | Pass | Pass |
-| foliage | Pass | Pass | Pass | Pass |
-| forensic | Pass | Pass | Pass | Pass |
-| fraternity | Pass | Pass | Pass | Pass |
-| fuselage | Pass | Pass | Pass | Pass |
-| gladiator | Pass | Pass | Pass | Pass |
-| globalization | Pass | Pass | Pass | Pass |
-| hydraulic | Pass | Pass | Pass | Pass |
-| hypothermia | Pass | Pass | Pass | Pass |
-| illegitimate | Pass | Pass | Pass | Pass |
-| impersonate | Pass | Pass | Pass | Pass |
-| inauguration | Pass | Pass | Pass | Pass |
-| incandescent | Pass | Pass | Pass | Pass |
-| kaleidoscope | Pass | Pass | Pass | Pass |
-| keynote | Pass | Pass | Pass | Pass |
-| laureate | Pass | Pass | Pass | Pass |
-| lieutenant | Pass | Pass | Pass | Pass |
-| longevity | Pass | Pass | Pass | Pass |
-| matriarch | Pass | Pass | Pass | Pass |
-| metropolis | Pass | Pass | Pass | Pass |
-| millennial | Pass | Pass | Pass | Pass |
-| mystification | Pass | Pass | Pass | Pass |
-| acquittal | Pass | Pass | Pass | Pass |
-| admonition | Pass | Pass | Pass | Pass |
-| alliteration | Pass | Pass | Pass | Pass |
-| amphitheater | Pass | Pass | Pass | Pass |
-| annuity | Pass | Pass | Pass | Pass |
-| appropriation | Pass | Pass | Pass | Pass |
-| armament | Pass | Pass | Pass | Pass |
-| biennial | Pass | Pass | Pass | Pass |
-| biodegradable | Pass | Pass | Pass | Pass |
-| botanical | Pass | Pass | Pass | Pass |
-| bureaucratic | Pass | Pass | Pass | Pass |
-| capitulate | Pass | Pass | Pass | Pass |
-| centrifugal | Pass | Pass | Pass | Pass |
-| citizenship | Pass | Pass | Pass | Pass |
-| conglomerate | Pass | Pass | Pass | Pass |
-| containment | Pass | Pass | Pass | Pass |
-| defamation | Pass | Pass | Pass | Pass |
-| denomination | Pass | Pass | Pass | Pass |
-| desegregation | Pass | Pass | Pass | Pass |
-| detonate | Pass | Pass | Pass | Pass |
-| disarmament | Pass | Pass | Pass | Pass |
-| disembark | Pass | Pass | Pass | Pass |
-| dissipate | Pass | Pass | Pass | Pass |
-| dormitory | Pass | Pass | Pass | Pass |
-| dossier | Pass | Pass | Pass | Pass |
-| eloquence | Pass | Pass | Pass | Pass |
-| embankment | Pass | Pass | Pass | Pass |
-| embezzlement | Pass | Pass | Pass | Pass |
-| empowerment | Pass | Pass | Pass | Pass |
-| encryption | Pass | Pass | Pass | Pass |
-| entomology | Pass | Pass | Pass | Pass |
-| epitaph | Pass | Pass | Pass | Pass |
-| exasperate | Pass | Pass | Pass | Pass |
-| exhilarate | Pass | Pass | Pass | Pass |
-| extradite | Pass | Pass | Pass | Pass |
-| facsimile | Pass | Pass | Pass | Pass |
-| firebrand | Pass | Pass | Pass | Pass |
-| fissure | Pass | Pass | Pass | Pass |
-| foreclosure | Pass | Pass | Pass | Pass |
-| freelance | Pass | Pass | Pass | Pass |
-| geriatric | Pass | Pass | Pass | Pass |
-| germination | Pass | Pass | Pass | Pass |
-| gratification | Pass | Pass | Pass | Pass |
-| hallucination | Pass | Pass | Pass | Pass |
-| herbicide | Pass | Pass | Pass | Pass |
-| heredity | Pass | Pass | Pass | Pass |
-| heresy | Pass | Pass | Pass | Pass |
-| holistic | Pass | Pass | Pass | Pass |
-| idealism | Pass | Pass | Pass | Pass |
-| immobilize | Pass | Pass | Pass | Pass |
-| incriminate | Pass | Pass | Pass | Pass |
-| industrialization | Pass | Pass | Pass | Pass |
-| ingenuity | Pass | Pass | Pass | Pass |
-| insurrection | Pass | Pass | Pass | Pass |
-| intercede | Pass | Pass | Pass | Pass |
-| internship | Pass | Pass | Pass | Pass |
-| introspection | Pass | Pass | Pass | Pass |
-| iridescent | Pass | Pass | Pass | Pass |
-| juxtaposition | Pass | Pass | Pass | Pass |
-| laceration | Pass | Pass | Pass | Pass |
-| landlocked | Pass | Pass | Pass | Pass |
-| legitimacy | Pass | Pass | Pass | Pass |
-| lethargy | Pass | Pass | Pass | Pass |
-| lexicon | Pass | Pass | Pass | Pass |
-| liquidate | Pass | Pass | Pass | Pass |
-| magnate | Pass | Pass | Pass | Pass |
-| mammoth | Pass | Pass | Pass | Pass |
-| marauder | Pass | Pass | Pass | Pass |
-| memento | Pass | Pass | Pass | Pass |
-| meteorology | Pass | Pass | Pass | Pass |
-| miscellaneous | Pass | Pass | Pass | Pass |
-| mobilization | Pass | Pass | Pass | Pass |
-| molecular | Pass | Pass | Pass | Pass |
-| monologue | Pass | Pass | Pass | Pass |
-| monsoon | Pass | Pass | Pass | Pass |
-| philanthropist | Pass | Pass | Pass | Pass |
-| proclamation | Pass | Pass | Pass | Pass |
-| ornithology | Pass | Pass | Pass | Pass |
+| Word | Image Search (L9) | Fact Check (L10) | Meaning (L11) | Game Compat (L12) | Status |
+|---|---|---|---|---|---|
+| abolition | Pass: "freedom chains" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| abrupt | Pass: "sudden stop" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| acclaimed | Pass: "award ceremony" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| accountant | Pass: "calculator ledger" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| acute | Pass: "sharp angle" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| adhesive | Pass: "glue tape" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| aerial | Pass: "bird eye view" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| affirmative | Pass: "yes nod" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ailment | Pass: "sick bed" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| aisle | Pass: "store aisle" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| algebra | Pass: "math equation" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| allegory | Pass: "symbolic story" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| allude | Pass: "hinting whisper" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ambassador | Pass: "diplomat flag" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ambiguity | Pass: "confusing directions" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ammunition | Pass: "bullets supply" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| anatomy | Pass: "body diagram" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| animation | Pass: "cartoon frames" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| annotate | Pass: "notes margin" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| antidote | Pass: "medicine cure" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| antiquity | Pass: "ancient ruins" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| apparel | Pass: "clothing rack" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| apportion | Pass: "dividing shares" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| arcade | Pass: "game machines" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| archaic | Pass: "old scroll" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| arithmetic | Pass: "math problems" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| armistice | Pass: "peace agreement" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ascertain | Pass: "detective clue" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| assertive | Pass: "confident speaking" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| astonish | Pass: "amazed crowd" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| astronaut | Pass: "space suit" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| astronomy | Pass: "telescope stars" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| attic | Pass: "roof storage" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| audible | Pass: "ear listening" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| automation | Pass: "robot factory" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bachelor | Pass: "graduation cap" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ballad | Pass: "singing guitar" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| barricade | Pass: "road block" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bazaar | Pass: "market stalls" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| benign | Pass: "gentle smile" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bibliography | Pass: "book list" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bilingual | Pass: "two languages" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| blemish | Pass: "spotted fruit" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bliss | Pass: "happy swimming" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| blockade | Pass: "ships blocking" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bouquet | Pass: "flower bunch" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| brigade | Pass: "firefighter team" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| buoyant | Pass: "floating object" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| caffeine | Pass: "coffee cup" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| calamity | Pass: "disaster ruins" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| caliber | Pass: "excellence star" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| calligraphy | Pass: "fancy writing" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| cardiovascular | Pass: "heart exercise" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| cascade | Pass: "waterfall rocks" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| casualty | Pass: "ambulance help" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| charisma | Pass: "popular leader" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| circa | Pass: "old date" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| civilian | Pass: "ordinary people" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| clarification | Pass: "clear explanation" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| clemency | Pass: "mercy forgiveness" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| cliche | Pass: "overused phrase" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| clientele | Pass: "shop customers" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| clockwise | Pass: "clock direction" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| coax | Pass: "gentle persuasion" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| coexist | Pass: "animals together" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| coincidence | Pass: "same outfit" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| colleague | Pass: "coworkers office" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| communism | Pass: "shared ownership" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| competence | Pass: "skilled worker" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| complication | Pass: "problem rain" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| compliment | Pass: "praise words" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| composure | Pass: "calm person" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| conclusive | Pass: "proof evidence" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| condense | Pass: "shrinking text" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| conspire | Pass: "secret planning" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| contentious | Pass: "heated debate" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| contingency | Pass: "backup plan" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| contractor | Pass: "construction worker" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| conversion | Pass: "building transformation" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| convict | Pass: "courtroom verdict" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| coral | Pass: "coral reef" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| coronation | Pass: "crown ceremony" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| corporal | Pass: "military rank" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| corridor | Pass: "hallway school" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| counterfeit | Pass: "fake money" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| credential | Pass: "press pass" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| crescendo | Pass: "music louder" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| crimson | Pass: "deep red" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| critique | Pass: "review feedback" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| culprit | Pass: "caught thief" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dazzle | Pass: "sparkling light" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| debut | Pass: "first performance" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| deceit | Pass: "lying mask" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| defiance | Pass: "refusing stubbornly" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| deforestation | Pass: "cleared forest" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| delicacy | Pass: "fancy food" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| deluge | Pass: "flooding rain" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| demolish | Pass: "building wrecking" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| designation | Pass: "official label" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| desolate | Pass: "empty wasteland" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| despair | Pass: "hopeless sadness" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| destitute | Pass: "extreme poverty" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| devastation | Pass: "destroyed town" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| devious | Pass: "sneaky trick" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| devout | Pass: "praying person" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dialect | Pass: "regional speech" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dictator | Pass: "absolute ruler" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| disdain | Pass: "scornful look" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dismay | Pass: "disappointed shock" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| distinction | Pass: "clear difference" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| divert | Pass: "detour sign" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dominion | Pass: "kingdom rule" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dubious | Pass: "doubtful face" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| emigrate | Pass: "leaving country" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| eminent | Pass: "famous expert" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| empathy | Pass: "understanding feelings" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| engrave | Pass: "carved letters" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| enlighten | Pass: "lightbulb knowledge" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| enrich | Pass: "adding value" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| envoy | Pass: "messenger diplomat" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| estate | Pass: "large mansion" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| eternal | Pass: "forever symbol" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| evade | Pass: "escape running" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| excursion | Pass: "field trip" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| exposition | Pass: "story beginning" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ferocious | Pass: "fierce lion" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| festive | Pass: "party decorations" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| feudal | Pass: "medieval castle" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| folklore | Pass: "old stories" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| fortitude | Pass: "brave endurance" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| genealogy | Pass: "family tree" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| grotesque | Pass: "distorted mask" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| grudge | Pass: "angry resentment" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| hostage | Pass: "captured person" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| humiliation | Pass: "embarrassed face" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| impediment | Pass: "roadblock obstacle" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| inaugural | Pass: "first ceremony" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| incarcerate | Pass: "prison bars" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| indignant | Pass: "angry unfair" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| infantry | Pass: "foot soldiers" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| inheritance | Pass: "family gift" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| injustice | Pass: "unfair scales" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| instigate | Pass: "starting trouble" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| interrogate | Pass: "questioning room" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| laborious | Pass: "hard labor" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| malice | Pass: "mean intent" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| metaphor | Pass: "comparison figure" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| neutrality | Pass: "balanced neutral" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| overthrow | Pass: "revolution flag" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| patriot | Pass: "flag pride" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| peasant | Pass: "farm worker" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| pension | Pass: "retirement money" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| persecution | Pass: "unfair cruelty" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| plague | Pass: "spreading disease" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| plummet | Pass: "falling fast" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| polarize | Pass: "divided groups" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| retaliate | Pass: "fighting back" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| retribution | Pass: "punishment justice" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| sabotage | Pass: "deliberate damage" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| spectacular | Pass: "amazing view" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| squander | Pass: "wasting money" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| subdue | Pass: "controlling force" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| supersede | Pass: "new version update" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| testimony | Pass: "court statement" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| theology | Pass: "religious study" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| topography | Pass: "land features" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| transcontinental | Pass: "cross country train" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| truce | Pass: "peace handshake" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| unanimous | Pass: "group vote yes" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| uprising | Pass: "crowd rebellion" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| utopia | Pass: "perfect world" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| absentee | Pass: "empty chair" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| accreditation | Pass: "approval certificate" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| adjourn | Pass: "meeting pause" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| affidavit | Pass: "sworn document" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| almanac | Pass: "fact book" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| aqueduct | Pass: "water bridge" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| aristocrat | Pass: "noble person" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| artisan | Pass: "handmade pottery" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| assailant | Pass: "attacker caught" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| asylum | Pass: "safe shelter" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bailiff | Pass: "court officer" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bankruptcy | Pass: "business closing" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| besiege | Pass: "crowd surrounding" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bipartisan | Pass: "two groups agreeing" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| brigand | Pass: "highway robber" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| captivity | Pass: "caged animal" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| caravan | Pass: "desert camels" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| chaotic | Pass: "messy disorder" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| colossal | Pass: "giant statue" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| combustion | Pass: "fire burning" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| confederacy | Pass: "allied group" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| congregate | Pass: "gathering crowd" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| conspiracy | Pass: "secret plot" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| depleted | Pass: "empty battery" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| diplomatic | Pass: "careful talking" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| escapade | Pass: "adventure story" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| extortion | Pass: "threatening money" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| abolitionist | Pass: "anti slavery" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| accomplice | Pass: "crime partner" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| altruism | Pass: "selfless giving" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| anarchist | Pass: "no government" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| apathy | Pass: "not caring" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| armada | Pass: "warship fleet" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| autocracy | Pass: "single ruler" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| censorship | Pass: "blocked information" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| centennial | Pass: "hundred years" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| chivalry | Pass: "knight honor" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| circumnavigate | Pass: "sailing world" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| colonialism | Pass: "colonial control" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| commodore | Pass: "naval officer" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| condolence | Pass: "sympathy card" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| convalesce | Pass: "recovering bed" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| crucible | Pass: "melting pot" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| cryptic | Pass: "mysterious code" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| debilitate | Pass: "weakened person" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| decimate | Pass: "destroyed crops" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| despotism | Pass: "iron fist absolute power" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| duplicity | Pass: "mask liar" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| emancipate | Pass: "setting free" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| enclave | Pass: "small community" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| enmity | Pass: "bitter enemies" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| epitome | Pass: "ideal model example" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| equinox | Pass: "equal day night" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| estuary | Pass: "river mouth" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| euphoria | Pass: "extreme joy" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| expatriate | Pass: "living abroad" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| flotilla | Pass: "small fleet" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| fluorescent | Pass: "bright tube light" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| foliage | Pass: "colorful leaves" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| forensic | Pass: "crime lab" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| fraternity | Pass: "brotherhood group" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| fuselage | Pass: "airplane body" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| gladiator | Pass: "roman fighter" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| globalization | Pass: "connected world" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| hydraulic | Pass: "pressure lift" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| hypothermia | Pass: "freezing cold" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| illegitimate | Pass: "invalid stamp" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| impersonate | Pass: "fake identity" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| inauguration | Pass: "president ceremony" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| incandescent | Pass: "glowing bulb" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| kaleidoscope | Pass: "colorful patterns" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| keynote | Pass: "main speech" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| laureate | Pass: "prize winner" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| lieutenant | Pass: "military officer" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| longevity | Pass: "long life" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| matriarch | Pass: "family leader" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| metropolis | Pass: "huge city" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| millennial | Pass: "young generation" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| mystification | Pass: "puzzled face" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| acquittal | Pass: "not guilty" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| admonition | Pass: "parent scolding child" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| alliteration | Pass: "repeated sounds" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| amphitheater | Pass: "roman arena" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| annuity | Pass: "yearly payment" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| appropriation | Pass: "budget allocation" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| armament | Pass: "army equipment" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| biennial | Pass: "every two years" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| biodegradable | Pass: "decomposing naturally" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| botanical | Pass: "plant garden" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| bureaucratic | Pass: "paperwork red tape" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| capitulate | Pass: "surrendering flag" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| centrifugal | Pass: "spinning outward" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| citizenship | Pass: "passport citizen" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| conglomerate | Pass: "big corporation" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| containment | Pass: "stopping spread" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| defamation | Pass: "false claims" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| denomination | Pass: "money value" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| desegregation | Pass: "integration equality" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| detonate | Pass: "explosion blast" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| disarmament | Pass: "peace treaty signing" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| disembark | Pass: "leaving plane" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dissipate | Pass: "fading mist" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dormitory | Pass: "student housing" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| dossier | Pass: "file folder" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| eloquence | Pass: "clear speech" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| embankment | Pass: "earth wall" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| embezzlement | Pass: "stealing money" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| empowerment | Pass: "gaining strength" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| encryption | Pass: "locked code" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| entomology | Pass: "insect study" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| epitaph | Pass: "gravestone words" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| exasperate | Pass: "frustrated annoyed" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| exhilarate | Pass: "thrilling excitement" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| extradite | Pass: "sending prisoner" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| facsimile | Pass: "exact copy" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| firebrand | Pass: "passionate speaker" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| fissure | Pass: "earth crack" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| foreclosure | Pass: "house lost" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| freelance | Pass: "independent worker" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| geriatric | Pass: "elderly care" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| germination | Pass: "seed sprouting" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| gratification | Pass: "satisfaction smile" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| hallucination | Pass: "seeing things" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| herbicide | Pass: "weed killer" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| heredity | Pass: "family traits" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| heresy | Pass: "forbidden belief" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| holistic | Pass: "whole picture" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| idealism | Pass: "perfect dream" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| immobilize | Pass: "stuck still" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| incriminate | Pass: "detective finding clues guilty" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| industrialization | Pass: "factory growth" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ingenuity | Pass: "clever invention" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| insurrection | Pass: "riot crowd" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| intercede | Pass: "peacemaker help" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| internship | Pass: "learning job" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| introspection | Pass: "deep thought" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| iridescent | Pass: "rainbow shimmer" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| juxtaposition | Pass: "side by side contrast" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| laceration | Pass: "deep cut" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| landlocked | Pass: "surrounded land" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| legitimacy | Pass: "valid authority" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| lethargy | Pass: "tired sluggish" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| lexicon | Pass: "word collection" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| liquidate | Pass: "selling everything" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| magnate | Pass: "wealthy businessman" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| mammoth | Pass: "huge ancient" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| marauder | Pass: "raider thief" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| memento | Pass: "keepsake souvenir" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| meteorology | Pass: "weather science" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| miscellaneous | Pass: "mixed items" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| mobilization | Pass: "volunteers gathering" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| molecular | Pass: "molecule model" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| monologue | Pass: "solo speech" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| monsoon | Pass: "heavy rain season" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| philanthropist | Pass: "generous donor" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| proclamation | Pass: "public announcement" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
+| ornithology | Pass: "bird study" is clear. | Pass: Definition is accurate. | Pass: Most common meaning. | Pass: Good for all games. | PASS |
