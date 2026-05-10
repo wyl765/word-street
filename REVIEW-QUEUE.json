@@ -54,8 +54,9 @@
     {
       "file": "words-level3b.js",
       "words": 315,
-      "status": "pending",
-      "lastReviewRound": null
+      "status": "done",
+      "lastReviewRound": 1,
+      "lastReviewDate": null
     },
     {
       "file": "words-level3c.js",
