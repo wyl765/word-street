@@ -14,9 +14,25 @@ function pathToFileUrl(p){
   return u;
 }
 
-const bank = mod.LEVEL1_BANK || mod.default?.LEVEL1_BANK || mod.default || mod.LEVEL1_BANK;
+function extractBank(mod){
+  if(Array.isArray(mod)) return mod;
+  if(Array.isArray(mod.default)) return mod.default;
+  // direct named export like LEVEL2_BANK
+  for(const k of Object.keys(mod)){
+    if(k.endsWith('_BANK') && Array.isArray(mod[k])) return mod[k];
+  }
+  // CommonJS imported via ESM => default is module.exports
+  if(mod.default && typeof mod.default === 'object'){
+    for(const k of Object.keys(mod.default)){
+      if(k.endsWith('_BANK') && Array.isArray(mod.default[k])) return mod.default[k];
+    }
+  }
+  return null;
+}
+
+const bank = extractBank(mod);
 if(!Array.isArray(bank)){
-  console.error('Could not load bank array from', targetFile, 'keys:', Object.keys(mod));
+  console.error('Could not load bank array from', targetFile, 'keys:', Object.keys(mod), 'defaultKeys:', mod.default && typeof mod.default==='object' ? Object.keys(mod.default) : null);
   process.exit(1);
 }
 
