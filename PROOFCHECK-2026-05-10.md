@@ -2,9 +2,13 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 111 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 112 MINOR
 
 ## Issues
+
+### [MINOR] words-level5c.js — "calligraphy" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "beautiful": "the art of writing letters in a very careful and beautiful way"
+**Fix:** Remove subjective adjectives from definitions
 
 ### [MINOR] words-level1.js — "less" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a smaller amount of something..."
