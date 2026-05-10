@@ -1,7 +1,7 @@
-# Vocabulary Dependency Report — 2026-05-09
+# Vocabulary Dependency Report — 2026-05-10
 
 ## Summary
-- Dependency inversions: 259 (223 unique words)
+- Dependency inversions: 261 (224 unique words)
 - Morphological ordering issues: 63
 
 ## Dependency Inversions
@@ -21,6 +21,7 @@ Word A's definition uses word B, but B.level > A.level — learner hasn't seen B
 - **skull** (L1): uses bone(L2), brain(L2)
 - **slipper** (L1): uses soft(L2), inside(L2)
 - **blanket** (L1): uses soft(L2), cover(L2)
+- **cottage** (L1): uses far(L2), city(L2)
 - **blizzard** (L1): uses heavy(L2), strong(L2)
 - **leap** (L1): uses jump(L2), far(L2)
 - **skip** (L1): uses move(L2), little(L2)

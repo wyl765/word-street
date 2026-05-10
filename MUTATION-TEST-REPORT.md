@@ -1,13 +1,13 @@
-# Mutation Test Report — 2026-05-09
+# Mutation Test Report — 2026-05-10
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 29 |
-| Undetected | 1 |
-| **Detection rate** | **96.7%** |
+| Detected | 28 |
+| Undetected | 2 |
+| **Detection rate** | **93.3%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -20,46 +20,47 @@
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
 | replace_accident | 5 | 5 | 100% |
-| grammar_error | 5 | 4 | 80% |
+| grammar_error | 5 | 3 | 60% |
 
 ## Injected Mutations Detail
 
-- ✅ **inexorable** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **creative** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **distort** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **frugality** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **anticipate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **tepid** (banned_word): injected "torture" into example
-- ✅ **rudiment** (banned_word): injected "torture" into example
-- ✅ **heterogeneous** (banned_word): injected "torture" into example
-- ✅ **cheer** (banned_word): injected "torture" into example
-- ✅ **negligence** (banned_word): injected "genocide" into example
-- ✅ **grimace** (collocation_error): bad collocation: "big rain"
-- ✅ **clamber** (collocation_error): bad collocation: "drink soup"
-- ✅ **virtual** (collocation_error): bad collocation: "big rain"
-- ✅ **bravado** (collocation_error): bad collocation: "big rain"
-- ✅ **eloquence** (collocation_error): bad collocation: "drink soup"
-- ✅ **albeit** (empty_field): emptied example
-- ✅ **reception** (empty_field): emptied definition
-- ✅ **apportion** (empty_field): emptied definition
-- ✅ **invariably** (empty_field): emptied definition
-- ✅ **levy** (empty_field): emptied definition
-- ✅ **livelihood** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **vegetation** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **gainsay** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **semantic** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **acoustics** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **attrition** (grammar_error): example: "They is happy about the attrition...."
-- ✅ **babble** (grammar_error): example: "The excited is goes toddler babbled with joy, mixing up word..."
-- ✅ **suggest** (grammar_error): example: "They is happy about the suggest...."
-- ✅ **guideline** (grammar_error): example: "Follow the guidelines to stay safe...."
-- ❌ **topic** (grammar_error): example: "The topic of today's lesson is the water cycle...."
+- ✅ **exterior** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **deceit** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **knight** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **material** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **benchmark** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **citadel** (banned_word): injected "torture" into example
+- ✅ **accept** (banned_word): injected "massacre" into example
+- ✅ **conservatory** (banned_word): injected "autopsy" into example
+- ✅ **inquiry** (banned_word): injected "massacre" into example
+- ✅ **rhyme** (banned_word): injected "genocide" into example
+- ✅ **perturbation** (collocation_error): bad collocation: "drink soup"
+- ✅ **protein** (collocation_error): bad collocation: "close the light"
+- ✅ **initiate** (collocation_error): bad collocation: "close the light"
+- ✅ **avid** (collocation_error): bad collocation: "open the light"
+- ✅ **render** (collocation_error): bad collocation: "big rain"
+- ✅ **attach** (empty_field): emptied example
+- ✅ **wander** (empty_field): emptied definition
+- ✅ **connotation** (empty_field): emptied example
+- ✅ **enormity** (empty_field): emptied example
+- ✅ **ambiguity** (empty_field): emptied example
+- ✅ **outrage** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **lethargic** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **inspector** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **relax** (replace_accident): example: "The hidden important opened the treasure chest...."
+- ✅ **rigmarole** (replace_accident): example: "She typed the importantword into the computer...."
+- ❌ **gist** (grammar_error): example: "I missed the meeting but got the gist of it from reading the..."
+- ❌ **force** (grammar_error): example: "A force makes the swing move forward...."
+- ✅ **dew** (grammar_error): example: "The childrens played with the dew...."
+- ✅ **superfluous** (grammar_error): example: "The extra is goes chunk of text was superfluous—the essay wa..."
+- ✅ **relate** (grammar_error): example: "They is happy about the relate...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **topic** (grammar_error): example: "The topic of today's lesson is the water cycle...."
+- **gist** (grammar_error): example: "I missed the meeting but got the gist of it from reading the..."
+- **force** (grammar_error): example: "A force makes the swing move forward...."
 
 ### Recommended Improvements
 

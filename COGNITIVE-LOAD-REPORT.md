@@ -1,4 +1,4 @@
-# Cognitive Load Report — 2026-05-09
+# Cognitive Load Report — 2026-05-10
 
 ## Summary
 - Total entries: 5210
@@ -100,8 +100,8 @@
 - **超纲词 (5):** big, brown, fruit, white, inside
 
 ### 🔴 [CRITICAL] peanut (L1)
-- **Definition:** "a small food that grows in a shell underground"
-- **超纲词 (5):** small, food, grows, shell, underground
+- **Definition:** "a small food that grows in a shell in the ground"
+- **超纲词 (5):** small, food, grows, shell, ground
 
 ### 🔴 [CRITICAL] pepper (L1)
 - **Definition:** "a crunchy vegetable that can be red, green, or yellow and is hollow inside"
@@ -2092,8 +2092,8 @@
 - **超纲词 (3):** small, house, wood
 
 ### 🟡 [MAJOR] cottage (L1)
-- **Definition:** "a small house, often in the countryside"
-- **超纲词 (3):** small, house, countryside
+- **Definition:** "a small house, often far from the city"
+- **超纲词 (4):** small, house, far, city
 
 ### 🟡 [MAJOR] harbor (L1)
 - **Definition:** "a safe place where boats stay"
