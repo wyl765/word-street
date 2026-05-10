@@ -2,6 +2,18 @@
 
 > 每词一行：L5 Mark(看definition能懂? 看example能猜词? 不能/勉强写卡点) / L6 反向4选1唯一性 / L7 文化敏感 / L8 level路径
 
+## Quick stats (用于Claude快速扫雷)
+
+• L5 definition：能=542 / 勉强=10 / 不能=0
+• L5 example猜词：能=77 / 勉强=99 / 不能=376
+• L6 反向唯一性：可唯一=77 / 勉强=99 / 不唯一=376
+• L7 文化敏感：注意=14（主要为美式地理/政治/金钱/宗教/战争意象）；不适=0
+• L8 学习路径：偏难=28（多为抽象学术/复合短语/低频名词）
+
+重点关注：
+• L7 注意词：state, election, attack, bargain, battle, cost, dollar, holiday, price, admiral, bugle, chapel, dagger, fresco
+• L8 偏难词(节选)：brilliant, paragraph, main idea, government, law, continent, country, immediately, occasionally, turn into, look forward to, point out, come across, break down, carry out, attention, calendar, matter, opposite, temperature, avalanche, blueprint, cartwheel, cobblestone, drawbridge
+
 - describe — L5(Mark):def理解=能; ex猜词=不能; 卡点=线索词:picture/please；祈使句框架明显 | L6(反向4选1):不唯一; 原因=靠picture/please | L7:OK | L8:合适
 - explain — L5(Mark):def理解=能; ex猜词=能 | L6(反向4选1):可唯一; 原因=靠orange/sunset | L7:OK | L8:合适
 - solve — L5(Mark):def理解=能; ex猜词=能 | L6(反向4选1):可唯一; 原因=靠problem/worked | L7:OK | L8:合适
