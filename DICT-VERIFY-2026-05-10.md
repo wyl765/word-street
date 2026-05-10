@@ -1,6 +1,6 @@
 # Dictionary Pattern Check
 
-0 HIGH | 64 MEDIUM | 67 MINOR
+0 HIGH | 63 MEDIUM | 67 MINOR
 
 ## HIGH
 
@@ -29,7 +29,6 @@
 - words-level2.js | close | Definition "to shut" is too brief to be useful
 - words-level2.js | make | L2 definition packs 3 meanings: "to build or create something; also to cause something to happen"
 - words-level2.js | delight | Definition "great happiness" is too brief to be useful
-- words-level2.js | depend | L2 definition packs 3 meanings: "to need someone or something; also to be decided by something"
 - words-level2.js | far | Definition "not near" is too brief to be useful
 - words-level2.js | finish | Definition "to end" is too brief to be useful
 - words-level2.js | frighten | Definition "to scare" is too brief to be useful

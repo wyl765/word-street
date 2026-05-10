@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3760 ambiguous pairs found.
+3739 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -1570,33 +1570,9 @@
 - triple: to make three times as much
 - tease: to make fun of
 
-## L2: "afterward" vs "act" (100%)
-- afterward: later, after something else happened
-- act: to do something
-
 ## L2: "afterward" vs "follow" (100%)
-- afterward: later, after something else happened
+- afterward: after that; later
 - follow: to go after
-
-## L2: "afterward" vs "prize" (100%)
-- afterward: later, after something else happened
-- prize: something you win
-
-## L2: "afterward" vs "cover" (67%)
-- afterward: later, after something else happened
-- cover: to put something over the top of something else
-
-## L2: "afterward" vs "dispose" (100%)
-- afterward: later, after something else happened
-- dispose: to get rid of something
-
-## L2: "afterward" vs "purchase" (100%)
-- afterward: later, after something else happened
-- purchase: to buy something
-
-## L2: "afterward" vs "refuse" (100%)
-- afterward: later, after something else happened
-- refuse: to say no and not do something
 
 ## L2: "however" vs "definition" (67%)
 - however: a word that means 'but' or 'on the other hand'
@@ -1659,56 +1635,56 @@
 - refuse: to say no and not do something
 
 ## L2: "look forward to" vs "act" (100%)
-- look forward to: to feel excited about something coming
+- look forward to: to be happy that something good is coming
 - act: to do something
 
-## L2: "look forward to" vs "complain" (67%)
-- look forward to: to feel excited about something coming
-- complain: to say you are unhappy about something
-
-## L2: "look forward to" vs "mood" (100%)
-- look forward to: to feel excited about something coming
-- mood: how you feel
+## L2: "look forward to" vs "glad" (100%)
+- look forward to: to be happy that something good is coming
+- glad: happy
 
 ## L2: "look forward to" vs "prize" (100%)
-- look forward to: to feel excited about something coming
+- look forward to: to be happy that something good is coming
 - prize: something you win
 
-## L2: "look forward to" vs "topic" (67%)
-- look forward to: to feel excited about something coming
-- topic: what something is about
+## L2: "look forward to" vs "talent" (100%)
+- look forward to: to be happy that something good is coming
+- talent: something you are good at
 
-## L2: "look forward to" vs "attitude" (75%)
-- look forward to: to feel excited about something coming
-- attitude: the way you think and feel about something
+## L2: "look forward to" vs "challenge" (67%)
+- look forward to: to be happy that something good is coming
+- challenge: something that is hard to do
 
 ## L2: "look forward to" vs "dispose" (100%)
-- look forward to: to feel excited about something coming
+- look forward to: to be happy that something good is coming
 - dispose: to get rid of something
 
-## L2: "look forward to" vs "enthusiastic" (75%)
-- look forward to: to feel excited about something coming
-- enthusiastic: very excited about something
+## L2: "look forward to" vs "entity" (67%)
+- look forward to: to be happy that something good is coming
+- entity: something that exists on its own
 
-## L2: "look forward to" vs "dread" (80%)
-- look forward to: to feel excited about something coming
-- dread: to feel very scared about something coming
+## L2: "look forward to" vs "incentive" (67%)
+- look forward to: to be happy that something good is coming
+- incentive: something that motivates you to do something
 
-## L2: "look forward to" vs "perspective" (67%)
-- look forward to: to feel excited about something coming
-- perspective: the way you see and think about something
+## L2: "look forward to" vs "barrier" (67%)
+- look forward to: to be happy that something good is coming
+- barrier: something that blocks the way
 
 ## L2: "look forward to" vs "purchase" (100%)
-- look forward to: to feel excited about something coming
+- look forward to: to be happy that something good is coming
 - purchase: to buy something
 
+## L2: "look forward to" vs "recommend" (75%)
+- look forward to: to be happy that something good is coming
+- recommend: to suggest that something is good
+
 ## L2: "look forward to" vs "refuse" (100%)
-- look forward to: to feel excited about something coming
+- look forward to: to be happy that something good is coming
 - refuse: to say no and not do something
 
-## L2: "look forward to" vs "regret" (75%)
-- look forward to: to feel excited about something coming
-- regret: to feel sorry about something you did
+## L2: "look forward to" vs "bonus" (60%)
+- look forward to: to be happy that something good is coming
+- bonus: something extra and good that you did not expect
 
 ## L2: "point out" vs "act" (100%)
 - point out: to show or tell someone about something they may not have noticed
@@ -2071,27 +2047,31 @@
 - certify: to officially say something is true or meets a standard
 
 ## L2: "better" vs "prize" (100%)
-- better: of higher quality than something else
+- better: more good than something else
 - prize: something you win
 
-## L2: "better" vs "rise" (100%)
-- better: of higher quality than something else
-- rise: to go up or get higher
+## L2: "better" vs "talent" (100%)
+- better: more good than something else
+- talent: something you are good at
 
 ## L2: "better" vs "cover" (67%)
-- better: of higher quality than something else
+- better: more good than something else
 - cover: to put something over the top of something else
 
 ## L2: "better" vs "dispose" (100%)
-- better: of higher quality than something else
+- better: more good than something else
 - dispose: to get rid of something
 
+## L2: "better" vs "exaggerate" (60%)
+- better: more good than something else
+- exaggerate: to make something sound bigger or more than it really is
+
 ## L2: "better" vs "purchase" (100%)
-- better: of higher quality than something else
+- better: more good than something else
 - purchase: to buy something
 
 ## L2: "better" vs "refuse" (100%)
-- better: of higher quality than something else
+- better: more good than something else
 - refuse: to say no and not do something
 
 ## L2: "blink" vs "cuddle" (100%)
@@ -2321,10 +2301,6 @@
 ## L2: "complain" vs "prize" (100%)
 - complain: to say you are unhappy about something
 - prize: something you win
-
-## L2: "complain" vs "scared" (67%)
-- complain: to say you are unhappy about something
-- scared: feeling fear about something
 
 ## L2: "complain" vs "consider" (67%)
 - complain: to say you are unhappy about something
@@ -2570,10 +2546,6 @@
 - dark: with little light
 - quiet: with little noise
 
-## L2: "deal" vs "conversation" (67%)
-- deal: an agreement between people
-- conversation: a talk between two or more people
-
 ## L2: "delay" vs "prize" (100%)
 - delay: to make something late
 - prize: something you win
@@ -2703,64 +2675,32 @@
 - constitute: to make up or form something
 
 ## L2: "depend" vs "prize" (100%)
-- depend: to need someone or something; also to be decided by something
+- depend: to need something to live or work
 - prize: something you win
 
 ## L2: "depend" vs "require" (100%)
-- depend: to need someone or something; also to be decided by something
+- depend: to need something to live or work
 - require: to need something
 
 ## L2: "depend" vs "essential" (67%)
-- depend: to need someone or something; also to be decided by something
+- depend: to need something to live or work
 - essential: something you fully need
 
 ## L2: "depend" vs "dispose" (100%)
-- depend: to need someone or something; also to be decided by something
+- depend: to need something to live or work
 - dispose: to get rid of something
 
-## L2: "depend" vs "leave out" (67%)
-- depend: to need someone or something; also to be decided by something
-- leave out: to not include something or someone
-
-## L2: "depend" vs "count on" (67%)
-- depend: to need someone or something; also to be decided by something
-- count on: to depend on someone or something
-
-## L2: "depend" vs "rely on" (75%)
-- depend: to need someone or something; also to be decided by something
-- rely on: to need and trust someone or something
-
-## L2: "depend" vs "assist" (67%)
-- depend: to need someone or something; also to be decided by something
-- assist: to help someone do something
-
-## L2: "depend" vs "blame" (67%)
-- depend: to need someone or something; also to be decided by something
-- blame: to say someone caused something bad
-
-## L2: "depend" vs "exclude" (67%)
-- depend: to need someone or something; also to be decided by something
-- exclude: to leave someone or something out
-
-## L2: "depend" vs "forbid" (67%)
-- depend: to need someone or something; also to be decided by something
-- forbid: to order someone not to do something
-
-## L2: "depend" vs "permit" (67%)
-- depend: to need someone or something; also to be decided by something
-- permit: to allow someone to do something
+## L2: "depend" vs "operate" (67%)
+- depend: to need something to live or work
+- operate: to make something work or run
 
 ## L2: "depend" vs "purchase" (100%)
-- depend: to need someone or something; also to be decided by something
+- depend: to need something to live or work
 - purchase: to buy something
 
 ## L2: "depend" vs "refuse" (100%)
-- depend: to need someone or something; also to be decided by something
+- depend: to need something to live or work
 - refuse: to say no and not do something
-
-## L2: "depend" vs "compel" (67%)
-- depend: to need someone or something; also to be decided by something
-- compel: to force someone to do something
 
 ## L2: "destroy" vs "ruin" (100%)
 - destroy: to break so it cannot be used
@@ -3265,30 +3205,6 @@
 ## L2: "rescue" vs "secure" (67%)
 - rescue: to save from danger
 - secure: safe and protected from danger
-
-## L2: "scared" vs "topic" (67%)
-- scared: feeling fear about something
-- topic: what something is about
-
-## L2: "scared" vs "dispose" (100%)
-- scared: feeling fear about something
-- dispose: to get rid of something
-
-## L2: "scared" vs "concern" (75%)
-- scared: feeling fear about something
-- concern: a feeling of worry about something
-
-## L2: "scared" vs "perspective" (67%)
-- scared: feeling fear about something
-- perspective: the way you see and think about something
-
-## L2: "scared" vs "purchase" (100%)
-- scared: feeling fear about something
-- purchase: to buy something
-
-## L2: "scared" vs "refuse" (100%)
-- scared: feeling fear about something
-- refuse: to say no and not do something
 
 ## L2: "shore" vs "marsh" (67%)
 - shore: land next to water

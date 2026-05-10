@@ -3,8 +3,8 @@
 ## Summary
 - HIGH risk (3+ factors): 188
 - MEDIUM risk (2 factors): 1232
-- LOW risk (1 factor): 53988
-- Total interference pairs: 55408
+- LOW risk (1 factor): 53986
+- Total interference pairs: 55406
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -4771,6 +4771,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **afterward** ↔ **address** — phonetic (onset="a")
 - **[risk=1]** L2: **afterward** ↔ **attempt** — phonetic (onset="a")
 - **[risk=1]** L2: **afterward** ↔ **attention** — phonetic (onset="a")
+- **[risk=1]** L2: **afterward** ↔ **follow** — definition (Jaccard=50%)
 - **[risk=1]** L2: **afterward** ↔ **admiral** — phonetic (onset="a")
 - **[risk=1]** L2: **afterward** ↔ **antenna** — phonetic (onset="a")
 - **[risk=1]** L2: **afterward** ↔ **applause** — phonetic (onset="a")
@@ -4951,8 +4952,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **turn into** ↔ **transform** — definition (Jaccard=50%)
 - **[risk=1]** L2: **turn into** ↔ **run into** — spelling (edit distance=2)
 - **[risk=1]** L2: **turn into** ↔ **turn down** — phonetic (onset="tu")
-- **[risk=1]** L2: **look forward to** ↔ **enthusiastic** — definition (Jaccard=50%)
-- **[risk=1]** L2: **look forward to** ↔ **dread** — definition (Jaccard=57%)
 - **[risk=1]** L2: **make up** ↔ **machine** — phonetic (onset="ma")
 - **[risk=1]** L2: **make up** ↔ **magic** — phonetic (onset="ma")
 - **[risk=1]** L2: **make up** ↔ **major** — phonetic (onset="ma")
@@ -7879,6 +7878,7 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **depend** ↔ **delicate** — phonetic (onset="de")
 - **[risk=1]** L2: **depend** ↔ **dense** — phonetic (onset="de")
 - **[risk=1]** L2: **depend** ↔ **decision** — phonetic (onset="de")
+- **[risk=1]** L2: **depend** ↔ **require** — definition (Jaccard=50%)
 - **[risk=1]** L2: **depend** ↔ **denote** — phonetic (onset="de")
 - **[risk=1]** L2: **depend** ↔ **derive** — phonetic (onset="de")
 - **[risk=1]** L2: **depend** ↔ **deviate** — phonetic (onset="de")
@@ -7886,7 +7886,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **depend** ↔ **decimal** — phonetic (onset="de")
 - **[risk=1]** L2: **depend** ↔ **devoted** — phonetic (onset="de")
 - **[risk=1]** L2: **depend** ↔ **despite** — phonetic (onset="de")
-- **[risk=1]** L2: **depend** ↔ **rely on** — definition (Jaccard=50%)
 - **[risk=1]** L2: **depend** ↔ **decoy** — phonetic (onset="de")
 - **[risk=1]** L2: **depend** ↔ **detour** — phonetic (onset="de")
 - **[risk=1]** L2: **depend** ↔ **debate** — phonetic (onset="de")
@@ -9933,7 +9932,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L2: **scared** ↔ **scatter** — phonetic (onset="sca")
 - **[risk=1]** L2: **scared** ↔ **score** — spelling (edit distance=2)
 - **[risk=1]** L2: **scared** ↔ **scarcely** — phonetic (onset="sca")
-- **[risk=1]** L2: **scared** ↔ **concern** — definition (Jaccard=60%)
 - **[risk=1]** L2: **scared** ↔ **sacred** — spelling (edit distance=2)
 - **[risk=1]** L2: **scatter** ↔ **scarce** — phonetic (onset="sca")
 - **[risk=1]** L2: **scatter** ↔ **scarcely** — phonetic (onset="sca")

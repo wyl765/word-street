@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 207 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 199 MINOR
 
 ## Issues
 
@@ -28,10 +28,6 @@ L2 definition uses complex word(s): caterpillar
 
 ### [MINOR] words-level2a.js — "rusty" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): reddish-brown
-**Fix:** Simplify definition for young learners
-
-### [MINOR] words-level2a.js — "peculiar" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): interesting
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2a.js — "controversy" (COMPLEX_DEFINITION)
@@ -206,16 +202,8 @@ Cross-definition cycle: "despite" def contains "even though" and "even though" d
 Definition uses "something" 2 times: "to build or create something; also to cause something to happen"
 **Fix:** Rephrase to be more specific
 
-### [MINOR] words-level2a.js — "cover" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "to put something over the top of something else"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level2a.js — "discovery" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "finding something new or learning something for the first time"
-**Fix:** Rephrase to be more specific
-
 ### [MINOR] words-level2a.js — "incentive" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "something that motivates you to do something"
+Definition uses "something" 2 times: "something that makes you want to do something"
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2b.js — "go through" (VAGUE_DEFINITION)
@@ -270,10 +258,6 @@ Word appears to be adjective but definition starts with article: "a smaller amou
 Word appears to be adjective but definition starts with article: "a small oval fruit used to make oil..."
 **Fix:** Consider rephrasing definition to adjective form
 
-### [MINOR] words-level2a.js — "previous" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "the one that came before..."
-**Fix:** Consider rephrasing definition to adjective form
-
 ### [MINOR] words-level2b.js — "on the contrary" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "the opposite is true..."
 **Fix:** Consider rephrasing definition to adjective form
@@ -304,14 +288,6 @@ Definition starts with "when": "when you look and listen well..."
 
 ### [MINOR] words-level2.js — "deal" (WHEN_DEFINITION)
 Definition starts with "when": "when two people agree on what to do..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2a.js — "motion" (WHEN_DEFINITION)
-Definition starts with "when": "when something changes position or place..."
-**Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
-
-### [MINOR] words-level2a.js — "erosion" (WHEN_DEFINITION)
-Definition starts with "when": "when wind or water slowly wears away rock or soil..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
 ### [MINOR] words-level2b.js — "equality" (WHEN_DEFINITION)
@@ -744,14 +720,6 @@ imageKeyword "prime number" may return brand/product images instead of the inten
 
 ### [MINOR] words-level2.js — "bugle" (MILITARY_CONTEXT)
 Example contains military context: "soldier"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level2a.js — "command" (MILITARY_CONTEXT)
-Example contains military context: "soldiers"
-**Fix:** Consider replacing with a neutral/civilian context
-
-### [MINOR] words-level2a.js — "hierarchy" (MILITARY_CONTEXT)
-Example contains military context: "army"
 **Fix:** Consider replacing with a neutral/civilian context
 
 ### [MINOR] words-level3a.js — "bastion" (MILITARY_CONTEXT)

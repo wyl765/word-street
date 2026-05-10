@@ -3,7 +3,7 @@
 ## Summary
 - Total entries: 5210
 - CRITICAL (≥5 超纲词 in definition): 423
-- MAJOR (≥3 超纲词 in definition): 2151
+- MAJOR (≥3 超纲词 in definition): 2152
 
 ## Issues
 
@@ -2995,6 +2995,10 @@
 - **Definition:** "a table or picture that shows facts"
 - **超纲词 (3):** picture, shows, facts
 
+### 🟡 [MAJOR] look forward to (L2)
+- **Definition:** "to be happy that something good is coming"
+- **超纲词 (3):** happy, good, coming
+
 ### 🟡 [MAJOR] point out (L2)
 - **Definition:** "to show or tell someone about something they may not have noticed"
 - **超纲词 (3):** show, tell, noticed
@@ -3031,10 +3035,6 @@
 - **Definition:** "to ask for something in a way that shows you really want it"
 - **超纲词 (3):** shows, really, want
 
-### 🟡 [MAJOR] better (L2)
-- **Definition:** "of higher quality than something else"
-- **超纲词 (3):** higher, quality, else
-
 ### 🟡 [MAJOR] bicycle (L2)
 - **Definition:** "a bike with two wheels"
 - **超纲词 (3):** bike, two, wheels
@@ -3062,6 +3062,10 @@
 ### 🟡 [MAJOR] crumble (L2)
 - **Definition:** "to break into small pieces"
 - **超纲词 (3):** break, small, pieces
+
+### 🟡 [MAJOR] depend (L2)
+- **Definition:** "to need something to live or work"
+- **超纲词 (3):** need, live, work
 
 ### 🟡 [MAJOR] dig (L2)
 - **Definition:** "to make a hole with hands or a tool"

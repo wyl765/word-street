@@ -5,9 +5,9 @@
 | Metric | Value |
 |--------|-------|
 | Total mutations | 30 |
-| Detected | 28 |
-| Undetected | 2 |
-| **Detection rate** | **93.3%** |
+| Detected | 29 |
+| Undetected | 1 |
+| **Detection rate** | **96.7%** |
 | Target | ≥90% |
 | Result | ✅ PASS |
 
@@ -19,52 +19,50 @@
 | banned_word | 5 | 5 | 100% |
 | collocation_error | 5 | 5 | 100% |
 | empty_field | 5 | 5 | 100% |
-| replace_accident | 5 | 4 | 80% |
+| replace_accident | 5 | 5 | 100% |
 | grammar_error | 5 | 4 | 80% |
 
 ## Injected Mutations Detail
 
-- ✅ **decade** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **dominate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **pepper** (factual_error): def changed to: "a crunchy vegetable that grows underground in caves..."
-- ✅ **clout** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **bundle** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **hearth** (banned_word): injected "massacre" into example
-- ✅ **droop** (banned_word): injected "massacre" into example
-- ✅ **lizard** (banned_word): injected "torture" into example
-- ✅ **squeeze** (banned_word): injected "autopsy" into example
-- ✅ **gentle** (banned_word): injected "torture" into example
-- ✅ **pajamas** (collocation_error): bad collocation: "open the light"
-- ✅ **excite** (collocation_error): bad collocation: "big rain"
-- ✅ **amid** (collocation_error): bad collocation: "close the light"
-- ✅ **anthem** (collocation_error): bad collocation: "big rain"
-- ✅ **a blessing in disguise** (collocation_error): bad collocation: "open the light"
-- ✅ **usurpation** (empty_field): emptied definition
-- ✅ **tribunal** (empty_field): emptied example
-- ✅ **brigade** (empty_field): emptied example
-- ✅ **competence** (empty_field): emptied example
-- ✅ **often** (empty_field): emptied example
-- ✅ **repugnant** (replace_accident): example: "The piano importants were black and white...."
-- ❌ **bar graph** (replace_accident): example: "The piano importants were black and white...."
-- ✅ **solemn** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **orbit** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **insolvency** (replace_accident): example: "She found the spare important under the mat...."
-- ✅ **censorship** (grammar_error): example: "The childrens played with the censorship...."
-- ✅ **probation** (grammar_error): example: "The student is goes was put on probation and had to follow s..."
-- ✅ **chronological** (grammar_error): example: "The biography is goes tells the story in chronological order..."
-- ✅ **passenger** (grammar_error): example: "She don't like the passenger...."
-- ❌ **allowance** (grammar_error): example: "He gets a five-dollar allowance for doing his chores...."
+- ✅ **scaffold** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **inadvertent** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **effervescent** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **forge** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **note** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **grate** (banned_word): injected "genocide" into example
+- ✅ **external** (banned_word): injected "massacre" into example
+- ✅ **alarm** (banned_word): injected "autopsy" into example
+- ✅ **bleak** (banned_word): injected "massacre" into example
+- ✅ **defamation** (banned_word): injected "genocide" into example
+- ✅ **clause** (collocation_error): bad collocation: "big rain"
+- ✅ **blood** (collocation_error): bad collocation: "drink soup"
+- ✅ **sibling** (collocation_error): bad collocation: "drink soup"
+- ✅ **run into** (collocation_error): bad collocation: "drink soup"
+- ✅ **prosper** (collocation_error): bad collocation: "big rain"
+- ✅ **inception** (empty_field): emptied example
+- ✅ **certify** (empty_field): emptied definition
+- ✅ **encompass** (empty_field): emptied example
+- ✅ **cavalier** (empty_field): emptied example
+- ✅ **approve** (empty_field): emptied example
+- ✅ **novel** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **sanguine** (replace_accident): example: "He pressed the important on the importantboard...."
+- ✅ **droplet** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **kernel** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **hymn** (replace_accident): example: "The piano importants were black and white...."
+- ✅ **isthmus** (grammar_error): example: "She don't like the isthmus...."
+- ✅ **lose** (grammar_error): example: "She don't lost her favorite toy and looked everywhere for it..."
+- ✅ **knight** (grammar_error): example: "The childrens played with the knight...."
+- ✅ **soft** (grammar_error): example: "The soft is goes kitten fur felt like a cloud when she pette..."
+- ❌ **loyal** (grammar_error): example: "Our loyal dog waited by the door every day...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **bar graph** (replace_accident): example: "The piano importants were black and white...."
-- **allowance** (grammar_error): example: "He gets a five-dollar allowance for doing his chores...."
+- **loyal** (grammar_error): example: "Our loyal dog waited by the door every day...."
 
 ### Recommended Improvements
 
-- **Replace accidents**: Add more patterns to REPLACE_ACCIDENTS
 - **Grammar errors**: Expand SVA and grammar checks
 
 ---
