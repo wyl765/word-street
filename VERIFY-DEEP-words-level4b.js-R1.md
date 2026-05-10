@@ -390,3 +390,21 @@
 - "all" as standalone pronoun meaning "everyone" → 同上，proofcheck未专门检测此模式。暂不固化，因为"all"有很多合法用法(all the, all of, all day等)，误报率太高。
 - 无新pattern需固化到proofcheck.mjs
 
+## 7. 验证脚本输出
+
+```
+📋 审校报告核查: VERIFY-DEEP-words-level4b.js-R1.md
+📁 词库文件: words-level4b.js (310词)
+──────────────────────────────────────────────────
+✅ 报告行数: 393 ≥ 310词
+✅ 词覆盖率: 99.7% (309/310)
+✅ 审查多样性: 最大重复1/321 (0.3%), 无模板式复制
+📊 发现问题: 21个❌
+✅ git确认有修改: 2faf117 deep-review words-level4b.js
+
+──────────────────────────────────────────────────
+🟢 全部通过 (4项检查)
+
+结果: PASS
+```
+
