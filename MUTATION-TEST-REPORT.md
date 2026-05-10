@@ -24,43 +24,43 @@
 
 ## Injected Mutations Detail
 
-- ✅ **accelerate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **out of the blue** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ❌ **kingfisher** (factual_error): def changed to: "a brightly colored plant that dives for fish..."
-- ✅ **surface** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **reconcile** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
-- ✅ **normal** (banned_word): injected "genocide" into example
-- ✅ **curfew** (banned_word): injected "pornography" into example
-- ✅ **extrapolation** (banned_word): injected "autopsy" into example
-- ✅ **carefully** (banned_word): injected "genocide" into example
-- ✅ **life cycle** (banned_word): injected "autopsy" into example
-- ✅ **suburban** (collocation_error): bad collocation: "open the light"
-- ✅ **inhibit** (collocation_error): bad collocation: "big rain"
-- ✅ **look forward to** (collocation_error): bad collocation: "open the light"
-- ✅ **intervene** (collocation_error): bad collocation: "big rain"
-- ✅ **bunker** (collocation_error): bad collocation: "drink soup"
-- ✅ **commode** (empty_field): emptied example
-- ✅ **atoll** (empty_field): emptied example
-- ✅ **imagination** (empty_field): emptied definition
-- ✅ **embody** (empty_field): emptied definition
-- ✅ **meadow** (empty_field): emptied example
-- ✅ **embark** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **skeleton** (replace_accident): example: "She typed the importantword into the computer...."
-- ✅ **dearth** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **enthusiastic** (replace_accident): example: "He pressed the important on the importantboard...."
-- ✅ **cursory** (replace_accident): example: "The hidden important opened the treasure chest...."
-- ✅ **cloak** (grammar_error): example: "The wizard is goes wore a dark cloak...."
-- ✅ **tribunal** (grammar_error): example: "She don't like the tribunal...."
-- ✅ **sentence** (grammar_error): example: "She don't like the sentence...."
-- ✅ **nonrenewable** (grammar_error): example: "She don't like the nonrenewable...."
-- ❌ **brain** (grammar_error): example: "Your brain helps you think, remember, and move your body...."
+- ❌ **few** (factual_error): def changed to: "not many; a type of mineral called number of..."
+- ✅ **habit** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **capitulate** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **flint** (factual_error): def changed to: "a hard stone that grows underground in caves..."
+- ✅ **nutmeg** (factual_error): def changed to: "a type of tropical fruit with purple seeds..."
+- ✅ **imagination** (banned_word): injected "massacre" into example
+- ✅ **sovereign** (banned_word): injected "torture" into example
+- ✅ **facade** (banned_word): injected "pornography" into example
+- ✅ **energy** (banned_word): injected "pornography" into example
+- ✅ **clarification** (banned_word): injected "genocide" into example
+- ✅ **ceiling** (collocation_error): bad collocation: "eat medicine"
+- ✅ **belie** (collocation_error): bad collocation: "big rain"
+- ✅ **hallow** (collocation_error): bad collocation: "eat medicine"
+- ✅ **vertex** (collocation_error): bad collocation: "close the light"
+- ✅ **metropolis** (collocation_error): bad collocation: "close the light"
+- ✅ **expedite** (empty_field): emptied definition
+- ✅ **banner** (empty_field): emptied definition
+- ✅ **domestic** (empty_field): emptied definition
+- ✅ **denouncement** (empty_field): emptied definition
+- ✅ **akin** (empty_field): emptied example
+- ✅ **proponent** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **mercenary** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **boiling** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **harbinger** (replace_accident): example: "She found the spare important under the mat...."
+- ✅ **threat** (replace_accident): example: "She typed the importantword into the computer...."
+- ✅ **manner** (grammar_error): example: "She don't spoke in a polite manner, always saying 'please' a..."
+- ✅ **recede** (grammar_error): example: "The childrens played with the recede...."
+- ❌ **data** (grammar_error): example: "We wrote data about the weather each day...."
+- ✅ **commission** (grammar_error): example: "They is happy about the commission...."
+- ✅ **literacy** (grammar_error): example: "They is happy about the literacy...."
 
 ## Undetected Mutations (Gaps)
 
 These mutation types are blind spots in the current proofcheck engine:
 
-- **kingfisher** (factual_error): def changed to: "a brightly colored plant that dives for fish..."
-- **brain** (grammar_error): example: "Your brain helps you think, remember, and move your body...."
+- **few** (factual_error): def changed to: "not many; a type of mineral called number of..."
+- **data** (grammar_error): example: "We wrote data about the weather each day...."
 
 ### Recommended Improvements
 

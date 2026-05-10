@@ -3,7 +3,7 @@
 ## Summary
 - Total entries: 5210
 - CRITICAL (≥5 超纲词 in definition): 426
-- MAJOR (≥3 超纲词 in definition): 2147
+- MAJOR (≥3 超纲词 in definition): 2148
 
 ## Issues
 
@@ -919,13 +919,13 @@
 - **Definition:** "a book or system for recording money coming in and going out"
 - **超纲词 (6):** book, system, recording, money, coming, going
 
-### 🔴 [CRITICAL] leech (L3)
-- **Definition:** "a worm-like creature that attaches to skin and feeds on body fluids"
-- **超纲词 (6):** worm-like, attaches, skin, feeds, body, fluids
-
 ### 🔴 [CRITICAL] lilac (L3)
 - **Definition:** "a bush with sweet-smelling purple or white flowers"
 - **超纲词 (5):** bush, sweet-smelling, purple, white, flowers
+
+### 🔴 [CRITICAL] lineage (L3)
+- **Definition:** "the direct line of relatives from parent to grandparent and further back"
+- **超纲词 (6):** line, relatives, parent, grandparent, further, back
 
 ### 🔴 [CRITICAL] loam (L3)
 - **Definition:** "a type of rich dark soil made of sand, clay, and rotted plants"
@@ -6355,6 +6355,10 @@
 - **Definition:** "real and not copied or fake"
 - **超纲词 (3):** real, copied, fake
 
+### 🟡 [MAJOR] scarcity (L3)
+- **Definition:** "a shortage of something that people need"
+- **超纲词 (3):** shortage, people, need
+
 ### 🟡 [MAJOR] ancestry (L3)
 - **Definition:** "your family members who lived long before you"
 - **超纲词 (4):** family, members, lived, long
@@ -6507,6 +6511,10 @@
 - **Definition:** "a frame made of crossed strips of wood or metal"
 - **超纲词 (4):** crossed, strips, wood, metal
 
+### 🟡 [MAJOR] leech (L3)
+- **Definition:** "a worm-like creature that attaches to skin and feeds on blood"
+- **超纲词 (4):** worm-like, attaches, skin, feeds
+
 ### 🟡 [MAJOR] leer (L3)
 - **Definition:** "to look at someone in a sly or unpleasant way"
 - **超纲词 (3):** look, sly, unpleasant
@@ -6518,10 +6526,6 @@
 ### 🟡 [MAJOR] legion (L3)
 - **Definition:** "a large group of soldiers, or many people"
 - **超纲词 (4):** large, group, soldiers, people
-
-### 🟡 [MAJOR] lineage (L3)
-- **Definition:** "the family members who came before you"
-- **超纲词 (3):** family, members, came
 
 ### 🟡 [MAJOR] linen (L3)
 - **Definition:** "smooth cloth woven from the flax plant"

@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5211
-**Results:** 0 CRITICAL | 0 MAJOR | 182 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 181 MINOR
 
 ## Issues
 
@@ -85,10 +85,6 @@ L2 definition uses complex word(s): responsible
 ### [MINOR] words-level2c.js — "notable" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): interesting
 **Fix:** Simplify definition for young learners
-
-### [MINOR] words-level4a.js — "embellish" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "attractive": "to add details to make something more attractive or cool"
-**Fix:** Remove subjective adjectives from definitions
 
 ### [MINOR] words-level4b.js — "utilitarian" (SUBJECTIVE_DEF)
 Definition contains subjective adjective "attractive": "designed to be useful rather than attractive"

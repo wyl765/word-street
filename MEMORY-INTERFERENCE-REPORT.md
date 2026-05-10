@@ -3,8 +3,8 @@
 ## Summary
 - HIGH risk (3+ factors): 189
 - MEDIUM risk (2 factors): 1234
-- LOW risk (1 factor): 53980
-- Total interference pairs: 55403
+- LOW risk (1 factor): 53979
+- Total interference pairs: 55402
 
 ## Recommendation
 These word pairs should NOT appear in the same learning session.
@@ -29225,7 +29225,6 @@ Spaced repetition scheduler should keep ≥3 sessions gap between them.
 - **[risk=1]** L3: **isthmus** ↔ **irate** — phonetic (onset="i")
 - **[risk=1]** L3: **isthmus** ↔ **ivory** — phonetic (onset="i")
 - **[risk=1]** L3: **ancestry** ↔ **acquire** — phonetic (onset="a")
-- **[risk=1]** L3: **ancestry** ↔ **lineage** — definition (Jaccard=56%)
 - **[risk=1]** L3: **interval** ↔ **impervious** — phonetic (onset="i")
 - **[risk=1]** L3: **interval** ↔ **impound** — phonetic (onset="i")
 - **[risk=1]** L3: **interval** ↔ **indent** — phonetic (onset="i")

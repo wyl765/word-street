@@ -1,6 +1,6 @@
 # Quiz Ambiguity Report — 2026-05-10
 
-3686 ambiguous pairs found.
+3685 ambiguous pairs found.
 
 ## L1: "goose" vs "swan" (67%)
 - goose: a big bird that honks and lives near water
@@ -13005,10 +13005,6 @@
 ## L3: "dividend" vs "divisor" (75%)
 - dividend: the number being split in a division problem
 - divisor: the number you divide by in a division problem
-
-## L3: "ancestry" vs "lineage" (75%)
-- ancestry: your family members who lived long before you
-- lineage: the family members who came before you
 
 ## L3: "harpoon" vs "lance" (60%)
 - harpoon: a long spear used for catching large fish or whales
