@@ -1,205 +1,200 @@
 # VERIFY-GPT-words-level3c.js-GATE
 
-Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例句反向唯一性(给4选1能否唯一选中) | L7=文化敏感度(中国ESL孩子/家长) | L8=学习路径(该level是否合适/前置是否够)
+Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例句反向唯一性(遮住目标词，给同level 4选1能否唯一选中) | L7=文化敏感度(中国ESL孩子/家长) | L8=学习路径(该level是否合适/前置是否够)
+
 
 - advance | L5:勉强(卡:move forward/progress抽象);例句:勉强(卡:chess/square) | L6:勉强(没有“棋”背景会弱) | L7:OK | L8:合适
-- affordable | L5:勉强(卡:expensive);例句:能 | L6:能 | L7:OK | L8:合适
+- affordable | L5:勉强(卡:expensive);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - analyze | L5:不能(卡:with care/understand抽象);例句:勉强(卡:data/experiment) | L6:勉强(若选项里有“study/observe”易混) | L7:OK | L8:偏难(偏学术)
-- apply | L5:勉强(卡:put into action);例句:能 | L6:能 | L7:OK | L8:合适
+- apply | L5:勉强(卡:put into action);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - burden | L5:不能(卡:deal with抽象);例句:勉强(靠“carry heavy”) | L6:勉强(可能和“load/weight”混) | L7:OK | L8:偏难
-- cancel | L5:能;例句:勉强(卡:coach/practice/lightning) | L6:能 | L7:OK | L8:合适
+- cancel | L5:能;例句:勉强(卡:coach/practice/lightning) | L6:能(4选1唯一) | L7:OK | L8:合适
 - device | L5:勉强(卡:purpose);例句:勉强(thermometer) | L6:勉强(可能和“tool/machine”混) | L7:OK | L8:合适
 - elect | L5:不能(卡:voting);例句:勉强(ballot) | L6:勉强(若选项含“choose”不唯一) | L7:OK | L8:偏难(公民词)
 - emphasize | L5:不能(卡:extra important);例句:勉强(靠underlined) | L6:能(underlined强提示) | L7:OK | L8:偏难
-- exclaim | L5:不能(卡:suddenly/strong feeling);例句:能 | L6:能 | L7:OK | L8:合适
-- frustrate | L5:勉强(卡:upset because hard);例句:能 | L6:能 | L7:OK | L8:合适
+- exclaim | L5:不能(卡:suddenly/strong feeling);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
+- frustrate | L5:勉强(卡:upset because hard);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - glimpse | L5:不能(卡:quick/short look抽象);例句:勉强 | L6:勉强(可能和“peek/see”混) | L7:OK | L8:偏难
 - govern | L5:不能(卡:rules/decisions抽象);例句:勉强 | L6:勉强(可能和“lead/control”混) | L7:OK | L8:偏难
-- idle | L5:不能(卡:not being used);例句:能 | L6:能 | L7:OK | L8:偏难
-- invest | L5:不能(卡:money/time hoping results);例句:勉强(allowance也难) | L6:勉强 | L7:OK | L8:偏难
+- idle | L5:不能(卡:not being used);例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- invest | L5:不能(卡:money/time hoping results);例句:勉强(allowance也难) | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - manner | L5:不能(卡:behave);例句:能 | L6:勉强(可能和“way”混) | L7:OK | L8:偏难
 - negative | L5:不能(卡:below zero);例句:勉强 | L6:勉强(若选项含“cold/freezing”易混) | L7:OK | L8:偏难
 - outcome | L5:不能(卡:result);例句:勉强 | L6:勉强(可能和“result”同义干扰) | L7:OK | L8:偏难
-- regulate | L5:不能(卡:control/correctly);例句:勉强(thermostat) | L6:勉强 | L7:OK | L8:偏难
+- regulate | L5:不能(卡:control/correctly);例句:勉强(thermostat) | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - rhythm | L5:不能(卡:pattern of beats);例句:勉强 | L6:勉强(可能和“beat/music”混) | L7:OK | L8:偏难
-- risk | L5:勉强(卡:chance);例句:能 | L6:能 | L7:OK | L8:合适
+- risk | L5:勉强(卡:chance);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - tension | L5:不能(卡:worry/tightness抽象);例句:勉强 | L6:勉强(可能和“stress/worry”混) | L7:OK | L8:偏难
-- typical | L5:不能(卡:usual/expect);例句:勉强(靠school day) | L6:勉强 | L7:OK | L8:偏难
-- basement | L5:能;例句:勉强(卡:holiday decorations) | L6:能 | L7:OK | L8:合适
+- typical | L5:不能(卡:usual/expect);例句:勉强(靠school day) | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- basement | L5:能;例句:勉强(卡:holiday decorations) | L6:能(4选1唯一) | L7:OK | L8:合适
 - blade | L5:不能(卡:双义 knife/grass);例句:勉强(草叶) | L6:不能(有多义+选项易混) | L7:OK | L8:偏难(建议分开义项)
 - canyon | L5:不能(卡:valley/steep);例句:勉强 | L6:勉强(可能和“valley/cliff”混) | L7:OK | L8:偏难
-- chimney | L5:勉强(定义语法乱但能抓住“smoke tube”);例句:能 | L6:能 | L7:OK | L8:合适
-- chunk | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- chimney | L5:勉强(定义语法乱但能抓住“smoke tube”);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
+- chunk | L5:能;例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - creek | L5:勉强(卡:stream);例句:勉强 | L6:勉强(可能和“stream/river”混) | L7:OK | L8:偏难
 - crisp | L5:不能(卡:firm/fresh);例句:勉强(autumn leaves) | L6:勉强(可能和“crunchy”混) | L7:OK | L8:偏难
-- flask | L5:不能(卡:narrow neck);例句:能(实验室强) | L6:能 | L7:OK | L8:偏难(学科词)
-- foil | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
-- gasp | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- flask | L5:不能(卡:narrow neck);例句:能(实验室强) | L6:能(4选1唯一) | L7:OK | L8:偏难(学科词)
+- foil | L5:能;例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
+- gasp | L5:能;例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - glare | L5:不能(卡:双义 light/angry look);例句:勉强(强光) | L6:不能(多义+选项易混) | L7:OK | L8:偏难
-- glow | L5:能;例句:勉强(卡:jack-o'-lantern/万圣节背景) | L6:能 | L7:注意(万圣节南瓜灯文化背景，建议例句/图更本土化) | L8:合适
-- hatch | L5:勉强(卡:break out of egg);例句:能 | L6:能 | L7:OK | L8:合适
-- hose | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- glow | L5:能;例句:勉强(卡:jack-o'-lantern/万圣节背景) | L6:能(4选1唯一) | L7:注意(万圣节南瓜灯文化背景，建议例句/图更本土化) | L8:合适
+- hatch | L5:勉强(卡:break out of egg);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
+- hose | L5:能;例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - inn | L5:不能(卡:traveler);例句:勉强 | L6:勉强(可能和“hotel”混) | L7:OK | L8:偏难
-- jolt | L5:不能(卡:shock);例句:能 | L6:能 | L7:OK | L8:偏难
-- ledge | L5:不能(卡:sticking out);例句:能 | L6:能 | L7:OK | L8:偏难
+- jolt | L5:不能(卡:shock);例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- ledge | L5:不能(卡:sticking out);例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难
 - lumber | L5:不能(卡:boards/building);例句:勉强 | L6:勉强(可能和“wood”混) | L7:OK | L8:偏难
-- mend | L5:能;例句:能 | L6:能 | L7:OK | L8:合适
+- mend | L5:能;例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - quarry | L5:不能(卡:dig stone/blocks);例句:勉强 | L6:勉强(可能和“mine”混) | L7:OK | L8:偏难
 - ridge | L5:不能(卡:mountain top shape);例句:勉强 | L6:勉强(可能和“peak”混) | L7:OK | L8:偏难
-- slope | L5:勉强(卡:angle);例句:能(骑车下坡) | L6:能 | L7:OK | L8:合适
+- slope | L5:勉强(卡:angle);例句:能(骑车下坡) | L6:能(4选1唯一) | L7:OK | L8:合适
 - spout | L5:不能(卡:opening/tube);例句:勉强(鲸喷水) | L6:勉强(可能和“spray/fountain”混) | L7:OK | L8:偏难
-- stump | L5:不能(卡:after tree cut down);例句:能 | L6:能 | L7:OK | L8:偏难
+- stump | L5:不能(卡:after tree cut down);例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难
 - torch | L5:不能(卡:双义 fire/flashlight);例句:勉强 | L6:勉强(多义) | L7:OK | L8:偏难
-- wade | L5:不能(卡:walk through water);例句:能 | L6:能 | L7:OK | L8:偏难
+- wade | L5:不能(卡:walk through water);例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难
 - asteroid | L5:不能(卡:solar system);例句:勉强 | L6:勉强(若选项含“comet/meteor”易混) | L7:OK | L8:偏难(学科)
 - axis | L5:不能(卡:imaginary line/spins);例句:不能(卡:24 hours/day-night) | L6:不能(抽象，选项易混) | L7:OK | L8:不合适(过抽象)
-- carnivore | L5:不能(卡:mostly/only);例句:能 | L6:能 | L7:OK | L8:偏难
+- carnivore | L5:不能(卡:mostly/only);例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难
 - census | L5:不能(卡:official);例句:勉强 | L6:勉强(可能和“survey/count”混) | L7:OK | L8:偏难
 - chlorophyll | L5:不能(卡:pigment/energy);例句:勉强(靠“makes leaves green”) | L6:勉强(若选项都是科学词会乱) | L7:OK | L8:不合适(过专门)
 - crater | L5:不能(卡:bowl-shaped);例句:勉强 | L6:勉强(可能和“hole/pit”混) | L7:OK | L8:偏难
-- crustacean | L5:不能(卡:类别词);例句:勉强(靠lobster) | L6:勉强 | L7:OK | L8:不合适(过专门)
+- crustacean | L5:不能(卡:类别词);例句:勉强(靠lobster) | L6:勉强(4选1不稳) | L7:OK | L8:不合适(过专门)
 - digestive | L5:不能(卡:break food/energy);例句:不能(卡:system/energy) | L6:勉强(例句解释，但词形难) | L7:OK | L8:不合适
-- elevation | L5:不能(卡:above ocean level);例句:不能(8,000 feet) | L6:勉强 | L7:OK | L8:不合适
-- fertile | L5:不能(卡:rich soil/nutrients);例句:勉强 | L6:勉强 | L7:OK | L8:偏难
-- glacier | L5:不能(卡:mass/moves slowly);例句:勉强 | L6:勉强 | L7:OK | L8:偏难
-- herbivore | L5:不能;例句:能 | L6:能 | L7:OK | L8:偏难
-- humidity | L5:不能(卡:amount of water in air);例句:勉强(眼镜起雾) | L6:勉强 | L7:OK | L8:偏难
-- legislature | L5:不能(卡:laws/state/country);例句:不能(卡:requiring/recess) | L6:勉强 | L7:OK | L8:不合适(过公民)
+- elevation | L5:不能(卡:above ocean level);例句:不能(8,000 feet) | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- fertile | L5:不能(卡:rich soil/nutrients);例句:勉强 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- glacier | L5:不能(卡:mass/moves slowly);例句:勉强 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- herbivore | L5:不能;例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- humidity | L5:不能(卡:amount of water in air);例句:勉强(眼镜起雾) | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- legislature | L5:不能(卡:laws/state/country);例句:不能(卡:requiring/recess) | L6:勉强(4选1不稳) | L7:OK | L8:不合适(过公民)
 - molecule | L5:不能(卡:atoms/substance);例句:不能 | L6:勉强(例句解释) | L7:OK | L8:不合适
 - arid | L5:不能(卡:almost no rain);例句:勉强(cacti) | L6:勉强(可能和“dry/desert”混) | L7:OK | L8:偏难
-- archaeology | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- archaeology | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - mesa | L5:不能 | L6:勉强(例句类比table) | L7:OK | L8:不合适
-- tundra | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- stalagmite | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- tributary | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- tundra | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- stalagmite | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- tributary | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - archipelago | L5:不能 | L6:勉强(例句给Hawaii) | L7:OK | L8:不合适
-- stratosphere | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- preamble | L5:不能(卡:document/purpose);例句:勉强(We the People) | L6:勉强 | L7:注意(政治文本) | L8:不合适
-- filament | L5:不能(卡:thread/wire);例句:不能(white-hot) | L6:勉强 | L7:OK | L8:不合适
-- nocturnal | L5:不能;例句:勉强(owl) | L6:勉强 | L7:OK | L8:偏难
-- translucent | L5:不能(卡:letting some light through);例句:不能(卡:jellyfish/glowed) | L6:勉强 | L7:OK | L8:不合适
-- omnivore | L5:不能;例句:能 | L6:能 | L7:OK | L8:偏难
-- plateau | L5:不能;例句:勉强(giant table比喻) | L6:勉强 | L7:OK | L8:偏难
+- stratosphere | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- preamble | L5:不能(卡:document/purpose);例句:勉强(We the People) | L6:勉强(4选1不稳) | L7:注意(政治文本) | L8:不合适
+- filament | L5:不能(卡:thread/wire);例句:不能(white-hot) | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- nocturnal | L5:不能;例句:勉强(owl) | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- translucent | L5:不能(卡:letting some light through);例句:不能(卡:jellyfish/glowed) | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- omnivore | L5:不能;例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- plateau | L5:不能;例句:勉强(giant table比喻) | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - geothermal | L5:不能 | L6:不能(例句信息太多) | L7:OK | L8:不合适
-- specimen | L5:不能(卡:study/display);例句:勉强 | L6:勉强 | L7:OK | L8:偏难
+- specimen | L5:不能(卡:study/display);例句:勉强 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - meridian | L5:不能 | L6:勉强(Prime Meridian+London) | L7:OK | L8:不合适
-- respiration | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- paleontology | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- respiration | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- paleontology | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - aquifer | L5:不能 | L6:勉强(比喻sponge) | L7:OK | L8:不合适
-- deciduous | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- pharaoh | L5:不能(卡:Ancient Egypt);例句:勉强(pyramid) | L6:勉强 | L7:OK | L8:偏难(文化/历史)
+- deciduous | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- pharaoh | L5:不能(卡:Ancient Egypt);例句:勉强(pyramid) | L6:勉强(4选1不稳) | L7:OK | L8:偏难(文化/历史)
 - sedimentary | L5:不能 | L6:勉强(例句比喻pancakes) | L7:OK | L8:不合适
 - isthmus | L5:不能 | L6:勉强(例句给Panama) | L7:OK | L8:不合适
 - dividend | L5:不能(卡:division problem);例句:勉强 | L6:勉强(和divisor易混) | L7:OK | L8:不合适(术语)
 - divisor | L5:不能;例句:勉强 | L6:不能(与dividend强混淆) | L7:OK | L8:不合适
-- mandate | L5:不能(卡:official order);例句:勉强 | L6:勉强 | L7:OK | L8:不合适
-- authentic | L5:不能(卡:copied/fake);例句:勉强 | L6:勉强 | L7:OK | L8:偏难
-- scarcity | L5:不能(卡:shortage);例句:勉强 | L6:勉强 | L7:OK | L8:偏难
-- ancestry | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- interval | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- eligible | L5:不能 | L6:勉强 | L7:OK | L8:偏难
+- mandate | L5:不能(卡:official order);例句:勉强 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- authentic | L5:不能(卡:copied/fake);例句:勉强 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- scarcity | L5:不能(卡:shortage);例句:勉强 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- ancestry | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- interval | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- eligible | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - manipulate | L5:不能(卡:双义 trick);例句:勉强(做泥塑) | L6:勉强(双义干扰) | L7:注意(含“trick”义，可误解) | L8:偏难
-- salvage | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- acquire | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- terminate | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- salvage | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- acquire | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- terminate | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - verdict | L5:不能(卡:trial);例句:勉强(当作比赛结果) | L6:勉强(若选项含“decision/result”会混) | L7:OK | L8:偏难
-- hangar | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- hardship | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- harpoon | L5:不能 | L6:勉强 | L7:注意(捕猎/武器，家长可能不喜) | L8:偏难
-- harrow | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- haste | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- havoc | L5:不能 | L6:勉强 | L7:OK | L8:偏难
+- hangar | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- hardship | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- harpoon | L5:不能 | L6:勉强(4选1不稳) | L7:注意(捕猎/武器，家长可能不喜) | L8:偏难
+- harrow | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- haste | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- havoc | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - headway | L5:不能(卡:固定搭配make headway);例句:不能 | L6:不能(短语性强) | L7:OK | L8:不合适
-- heed | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- helm | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- herald | L5:不能(卡:双义 announce/sign);例句:不能 | L6:勉强 | L7:OK | L8:不合适
-- hermit | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- hew | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- heed | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- helm | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- herald | L5:不能(卡:双义 announce/sign);例句:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- hermit | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- hew | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - hinge | L5:不能 | L6:能(door swing清楚) | L7:OK | L8:偏难
-- hoard | L5:不能 | L6:勉强 | L7:注意(龙/金币=幻想，可接受) | L8:偏难
-- hobble | L5:不能 | L6:能 | L7:OK | L8:偏难
-- hoist | L5:不能 | L6:勉强 | L7:OK | L8:偏难
+- hoard | L5:不能 | L6:勉强(4选1不稳) | L7:注意(龙/金币=幻想，可接受) | L8:偏难
+- hobble | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- hoist | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - homage | L5:不能 | L6:不能(抽象) | L7:OK | L8:不合适
 - homestead | L5:不能 | L6:勉强(例句列举) | L7:OK | L8:不合适
-- hone | L5:不能(卡:improve skill);例句:勉强 | L6:勉强 | L7:OK | L8:偏难
-- hornet | L5:不能 | L6:能 | L7:OK | L8:偏难
-- hosiery | L5:不能(卡:stockings);例句:不能(购物场景也不熟) | L6:勉强 | L7:OK | L8:不合适
-- hospitable | L5:不能 | L6:勉强 | L7:OK | L8:偏难
+- hone | L5:不能(卡:improve skill);例句:勉强 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- hornet | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- hosiery | L5:不能(卡:stockings);例句:不能(购物场景也不熟) | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- hospitable | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - hub | L5:不能(卡:双义 center/wheel);例句:勉强(机场中心) | L6:勉强(双义) | L7:OK | L8:偏难
-- huddle | L5:不能 | L6:能 | L7:OK | L8:偏难
-- hull | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- humus | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- huddle | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- hull | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- humus | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - hurdle | L5:不能(卡:双义 barrier/problem);例句:勉强(跑道) | L6:勉强(双义) | L7:OK | L8:偏难
-- hurl | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- hurricane | L5:勉强(卡:强风暴);例句:能 | L6:能 | L7:OK | L8:合适
-- hydrate | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- hymn | L5:不能 | L6:勉强 | L7:注意(宗教词，部分家长敏感) | L8:不合适
+- hurl | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- hurricane | L5:勉强(卡:强风暴);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
+- hydrate | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- hymn | L5:不能 | L6:勉强(4选1不稳) | L7:注意(宗教词，部分家长敏感) | L8:不合适
 - hyperbole | L5:不能 | L6:勉强(例句直接给例子) | L7:OK | L8:不合适
-- icon | L5:勉强(双义:screen小图标/象征);例句:能 | L6:能 | L7:OK | L8:偏难(双义+抽象“symbol”)
+- icon | L5:勉强(双义:screen小图标/象征);例句:能 | L6:能(4选1唯一) | L7:OK | L8:偏难(双义+抽象“symbol”)
 - imbue | L5:不能 | L6:不能(抽象) | L7:OK | L8:不合适
 - impervious | L5:不能 | L6:勉强(例句解释+连字符) | L7:OK | L8:不合适
-- impound | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- indent | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- impound | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- indent | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - inferno | L5:不能 | L6:能(大火强) | L7:OK | L8:偏难
-- infuse | L5:不能(卡:双义 flavor/quality);例句:勉强(泡水) | L6:勉强 | L7:OK | L8:偏难
-- inlet | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- infuse | L5:不能(卡:双义 flavor/quality);例句:勉强(泡水) | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- inlet | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - inquest | L5:不能 | L6:不能(抽象) | L7:OK | L8:不合适
-- instill | L5:不能 | L6:不能 | L7:OK | L8:不合适
-- insular | L5:不能(卡:双义 narrow thinking);例句:不能 | L6:不能 | L7:OK | L8:不合适
-- intrigue | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- inundate | L5:不能(卡:flood/overwhelm);例句:不能(viral/calls) | L6:勉强 | L7:OK | L8:不合适
-- irate | L5:不能 | L6:能 | L7:OK | L8:偏难
+- instill | L5:不能 | L6:不能(4选1无法唯一) | L7:OK | L8:不合适
+- insular | L5:不能(卡:双义 narrow thinking);例句:不能 | L6:不能(4选1无法唯一) | L7:OK | L8:不合适
+- intrigue | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- inundate | L5:不能(卡:flood/overwhelm);例句:不能(viral/calls) | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- irate | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
 - irk | L5:不能 | L6:能(例句强) | L7:OK | L8:偏难
-- ivory | L5:不能(卡:tusks);例句:勉强 | L6:勉强 | L7:注意(象牙/野生动物议题，需谨慎表述) | L8:偏难
-- jaunt | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- jest | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- jettison | L5:不能 | L6:勉强 | L7:OK | L8:不合适
+- ivory | L5:不能(卡:tusks);例句:勉强 | L6:勉强(4选1不稳) | L7:注意(象牙/野生动物议题，需谨慎表述) | L8:偏难
+- jaunt | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- jest | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- jettison | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
 - jinx | L5:不能 | L6:能(坏运气+镜子) | L7:注意(迷信内容，部分家长介意) | L8:偏难
-- jostle | L5:不能 | L6:能 | L7:OK | L8:偏难
-- jubilant | L5:不能 | L6:能 | L7:OK | L8:偏难
+- jostle | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- jubilant | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
 - juncture | L5:不能 | L6:勉强(句子太抽象) | L7:OK | L8:不合适
-- juniper | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- kernel | L5:不能(卡:seed inner part);例句:能(popcorn) | L6:能 | L7:OK | L8:偏难
-- kilt | L5:不能 | L6:勉强 | L7:OK | L8:偏难(文化词)
-- knack | L5:不能 | L6:能 | L7:OK | L8:偏难
-- knead | L5:不能 | L6:能 | L7:OK | L8:偏难
-- knell | L5:不能 | L6:勉强 | L7:注意(教堂/丧事语境) | L8:不合适
-- knoll | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- lacquer | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- lair | L5:不能 | L6:能 | L7:OK | L8:偏难
-- lance | L5:不能 | L6:能 | L7:注意(武器/骑士) | L8:偏难
-- lanky | L5:不能 | L6:能 | L7:OK | L8:偏难
-- lattice | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- lavish | L5:不能 | L6:能 | L7:OK | L8:偏难
-- ledger | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- leech | L5:不能 | L6:能 | L7:注意(吸血虫，可能引起不适) | L8:偏难
-- leer | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- legible | L5:不能 | L6:能 | L7:OK | L8:偏难
-- legion | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- lever | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- lilac | L5:不能 | L6:能 | L7:OK | L8:偏难
-- limber | L5:不能 | L6:能 | L7:OK | L8:偏难
-- limelight | L5:不能 | L6:能 | L7:OK | L8:偏难
-- limpid | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- lineage | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- linen | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- lintel | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- listless | L5:不能 | L6:能 | L7:OK | L8:偏难
-- litany | L5:不能 | L6:能 | L7:OK | L8:偏难
-- lithe | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- livelihood | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- loam | L5:不能 | L6:能 | L7:OK | L8:不合适
+- juniper | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- kernel | L5:不能(卡:seed inner part);例句:能(popcorn) | L6:能(4选1唯一) | L7:OK | L8:偏难
+- kilt | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难(文化词)
+- knack | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- knead | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- knell | L5:不能 | L6:勉强(4选1不稳) | L7:注意(教堂/丧事语境) | L8:不合适
+- knoll | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- lacquer | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- lair | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- lance | L5:不能 | L6:能(4选1唯一) | L7:注意(武器/骑士) | L8:偏难
+- lanky | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- lattice | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- lavish | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- ledger | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- leech | L5:不能 | L6:能(4选1唯一) | L7:注意(吸血虫，可能引起不适) | L8:偏难
+- leer | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- legible | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- legion | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- lever | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- lilac | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- limber | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- limelight | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- limpid | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- lineage | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- linen | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- lintel | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- listless | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- litany | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- lithe | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- livelihood | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- loam | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:不合适
 - lobe | L5:不能 | L6:能(耳垂) | L7:OK | L8:偏难
-- locale | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- locomotion | L5:不能 | L6:勉强 | L7:OK | L8:不合适
-- loft | L5:不能 | L6:能 | L7:OK | L8:偏难
-- lore | L5:不能 | L6:勉强 | L7:OK | L8:偏难
-- lucid | L5:不能(卡:双义 clear thinking/understand);例句:勉强(fractions) | L6:勉强 | L7:OK | L8:偏难
+- locale | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- locomotion | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:不合适
+- loft | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
+- lore | L5:不能 | L6:勉强(4选1不稳) | L7:OK | L8:偏难
+- lucid | L5:不能(卡:双义 clear thinking/understand);例句:勉强(fractions) | L6:勉强(4选1不稳) | L7:OK | L8:偏难
 - lull | L5:不能 | L6:能(短暂平静) | L7:OK | L8:偏难
-- lunge | L5:不能 | L6:能 | L7:OK | L8:偏难
-
-## Overall Findings (for this file)
-- 定义可读性：大量 definition 含语法断裂/怪词（如“went bad and fell apart”“from the people in charge”等），对ESL孩子会显著增难；建议优先做一次 L3C 批量 definition 文法清洗。
-- 例句唯一性：多数例句靠“强场景词”才能猜中（thermostat / ballot / Constitution / stratosphere 等）；若四选一干扰项语义接近，容易不唯一。建议对抽象动词/学术动词补更强的行为线索。
-- 多义词：blade / glare / torch / negative 等，多义会放大选项干扰；更适合拆成义项或在 definition 里明确本条义项，并让例句只服务一个义项。
-- 文化点：万圣节 jack-o'-lantern、教堂 hymn、部分“美国制度词”(preamble/legislature/census) 对中国孩子背景依赖较强；建议改成更通用的场景或加更中性解释。
+- lunge | L5:不能 | L6:能(4选1唯一) | L7:OK | L8:偏难
