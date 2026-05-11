@@ -1,554 +1,556 @@
-# VERIFY-GEMINI — words-level2.js — Gate L9–L12
-- format: one word per line; fields: kw | L9 | L10 | L11 | L12
-- describe | kw:child talking about picture | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- explain | kw:dad explaining sunset to child | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- solve | kw:puzzle | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- complete | kw:finished work | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- arrange | kw:arrange books | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- decide | kw:choice | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- suppose | kw:bus rain | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mention | kw:person speaking briefly | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- realize | kw:mittens | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- repeat | kw:loop arrows | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- separate | kw:sorting colored blocks into groups | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- struggle | kw:tangled knot | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- succeed | kw:bike success | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- surround | kw:cabin trees | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- wander | kw:walk park | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- ancient | kw:ancient pottery museum | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- modern | kw:classroom screen | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- brilliant | kw:lightbulb over head idea | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- fragile | kw:broken glass | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- sturdy | kw:wood chair | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- swift | kw:running rabbit | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- anxious | kw:spelling bee | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- setting | kw:storybook showing castle at night | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- plot | kw:story events diagram | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:alt: land plot / secret plan (story-plot is most kid-common in ELA) | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- paragraph | kw:paragraph of text on paper | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:maybe-ambig(generic)
-- sentence | kw:sentence | L9:top10≈mostly classroom paper/text examples; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:maybe-ambig(short)
-- fiction | kw:dragon book | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- nonfiction | kw:whale facts | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- main idea | kw:teamwork | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- detail | kw:red collar | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- cause | kw:puddle snow | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- effect | kw:muddy ground | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(effect~affect); spell:OK; cloze:OK
-- habitat | kw:frog pond | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- insect | kw:ant | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (kid-level); “three body parts” = head/thorax/abdomen (good) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- mammal | kw:dolphin | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (kid-level); note: “have hair” is broadly true but some (dolphins) have very little—still mammals | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- reptile | kw:snake | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (kid-level); could say “dry, scaly skin” (minor wording) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- liquid | kw:juice cup | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (kid-level) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- gas | kw:air filling balloon | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (kid-level) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- energy | kw:running kid | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (kid-level simplification; avoids physics calorie confusion) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- force | kw:swing | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (push/pull is accurate) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- magnet | kw:magnet clip | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- soil | kw:garden soil | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- climate | kw:desert | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (kid-level): “usual weather” (long-term pattern) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- season | kw:winter coat | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:alt: season food; ours is time-of-year (kid-common) | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- citizen | kw:passport | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- government | kw:city hall | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- law | kw:red light | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- rule | kw:classroom rules list | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:alt: measuring “ruler” is different; “rule” as law/regularity is most common in school | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- map | kw:map | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- globe | kw:globe | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- continent | kw:continent | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (kid-level) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- country | kw:flag | L9:top10≈mix of civic photos + symbols; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- state | kw:state map | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:two senses included; example uses US-state (kid-common) | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- city | kw:city skyline | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- border | kw:border fence | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- freedom | kw:choose book | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- election | kw:ballot box | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- subtract | kw:take away | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- multiply | kw:times sign | L9:top10≈mostly signs/posters/text-on-image; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:maybe-ambig(short)
-- divide | kw:pizza slices | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- sum | kw:addition | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- graph | kw:bar graph | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- chart | kw:class chart | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:alt: music-chart/ranking (ours is visual data chart: common in school) | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- data | kw:weather notes | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- length | kw:rope | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- width | kw:door | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- height | kw:height chart | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- area | kw:rug | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:two senses included; example is region/space (OK) | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- shape | kw:octagon | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- angle | kw:right angle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- triple | kw:measuring cups | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- gradually | kw:color fade | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- immediately | kw:school line | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(>10); cloze:OK
-- afterward | kw:clean up | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- recently | kw:shoelaces | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- frequently | kw:giggling baby | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- rarely | kw:snowflakes | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- occasionally | kw:bike library | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(>10); cloze:OK
-- however | kw:rain window | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- therefore | kw:detour sign | L9:top10≈mostly signs/posters/text-on-image; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:OK
-- otherwise | kw:rain boots | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- turn into | kw:butterfly | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- look forward to | kw:field day | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(>10); cloze:OK
-- make up | kw:funny story | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- point out | kw:comma | L9:top10≈mostly classroom paper/text examples; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:OK
-- come across | kw:shell | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(>10); cloze:OK
-- break down | kw:broken wagon | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- carry out | kw:science test | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- set up | kw:tent setup | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- courageous | kw:lifeguard | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- honest | kw:spilled milk | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- loyal | kw:dog waiting | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- selfish | kw:crayons | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- thoughtful | kw:greeting card | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- determined | kw:determined child working hard | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- about | kw:planets | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- act | kw:kid acting quickly | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- action | kw:rescuing cat from tree | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- add | kw:stack blocks | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- address | kw:postcard | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:alt: to speak to/handle (“address a problem”); ours is mailing address (kid-common) | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- adult | kw:crosswalk | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- afraid | kw:lamp | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- again | kw:reading poem | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- agree | kw:kids agree | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- alive | kw:green plant | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- alone | kw:reading alone | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- also | kw:snack | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- always | kw:handwashing | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- any | kw:pencils | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- appear | kw:rainbow | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- arm | kw:arm | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:alt: “arm” as weapon/branch; ours = body part (kid-common) | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- arrive | kw:school bus | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- ask | kw:question | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- asleep | kw:sleeping baby | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- attack | kw:goose | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- attempt | kw:juggling | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- attention | kw:child listening with hand on ear | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- awake | kw:child awake in bed at night | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- backpack | kw:backpack | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- balance | kw:balance log | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- balloon | kw:balloon | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bare | kw:bare feet | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(bare~bear); spell:OK; cloze:maybe-ambig(short)
-- bargain | kw:sale tag | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- base | kw:statue base | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- basic | kw:kindness | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- battle | kw:toy knights | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- beach | kw:sandcastle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- beam | kw:flashlight beam | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- because | kw:sun hat | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- become | kw:ice melting water | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- beg | kw:begging puppy | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- begin | kw:whistle | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- behavior | kw:two kids sharing pizza slice | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- believe | kw:lost kitten | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- better | kw:handwriting | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bicycle | kw:bicycle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- blink | kw:blink | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- block | kw:city block | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- blossom | kw:cherry blossoms | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bossy | kw:child pointing finger at others | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bounce | kw:bouncing ball | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- breakfast | kw:breakfast | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- breathe | kw:deep breath | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(breathe~breath); spell:OK; cloze:OK
-- bright | kw:bright sun | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:maybe-ambig(short)
-- bring | kw:library book | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- broad | kw:wide river | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- build | kw:birdhouse | L9:top10≈mostly animal photos + kid clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bundle | kw:bundle sticks | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- butter | kw:butter toast | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- cactus | kw:cactus | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- calendar | kw:calendar | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- camel | kw:camel | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- camp | kw:camping | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- capture | kw:butterfly net | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- careful | kw:scissors | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- carpet | kw:class carpet | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cart | kw:shopping cart | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- carve | kw:carved pumpkin | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- ceiling | kw:ceiling fan | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- center | kw:star in middle of flag | L9:top10≈mix of civic photos + symbols; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- chance | kw:line leader | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- change | kw:fall leaves | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- choice | kw:blue marker | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- circle | kw:circle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- climb | kw:playground ladder | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:maybe-ambig(short)
-- close | kw:closed door | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- clue | kw:footprint | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- coast | kw:ocean coast | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- comfort | kw:hug | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- common | kw:squirrel | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- complain | kw:chores | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- confuse | kw:confused child looking at two doors | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- connect | kw:toy train | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- corner | kw:spider corner | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cost | kw:three dollar toy price | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cotton | kw:cotton ball | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- course | kw:obstacle course | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:alt: meal course; ours is lessons/path/obstacle course (kid-common) | L12:img:OK; sound:RISK(course~coarse); spell:OK; cloze:OK
-- crash | kw:wave crash | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- make | kw:paper snowflake | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- crumble | kw:crumbs | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cuddle | kw:teddy bear | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- custom | kw:birthday song | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cycle | kw:water cycle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- danger | kw:wet floor | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- dark | kw:nightlight | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- deal | kw:handshake | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- delay | kw:flat tire | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- delight | kw:lunch note | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- deny | kw:crumbs shirt | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- depend | kw:watering plant | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- destroy | kw:sandcastle waves | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- dig | kw:digging | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- dinner | kw:dinner bowl | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- find | kw:child searching for lost book | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- distance | kw:road | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- dizzy | kw:spinning | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- dollar | kw:dollar | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- donate | kw:food donation | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- doorway | kw:doorway | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- downstairs | kw:shoes by door at bottom of stairs | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- drift | kw:leaf on water | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- drown | kw:life jacket | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- earn | kw:reward sticker | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- earth | kw:planet earth | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- edge | kw:pool edge | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- enter | kw:classroom door | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- escape | kw:hamster cage | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- exact | kw:correct checkmark on paper | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- fair | kw:equal sharing among kids | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:alt: carnival/fair; ours is “just/equal” (kid-common) | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- famous | kw:statue | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- far | kw:phone call | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- farm | kw:farm | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- fence | kw:fence | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- field | kw:soccer field | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- fill | kw:fill bottle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- finish | kw:bedtime reading | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- fit | kw:key lock | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- flour | kw:flour | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(flour~flower); spell:OK; cloze:maybe-ambig(short)
-- foam | kw:sea foam | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- fold | kw:folding paper | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- follow | kw:ducklings | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- fork | kw:fork | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- friendship | kw:friends | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- frighten | kw:loud noise | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- front | kw:front row | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- frozen | kw:frozen pond | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- gentleman | kw:holding door | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- glad | kw:smiling child celebrating | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- glide | kw:ice skating | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- glitter | kw:sparkle | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- goal | kw:reading goal | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- grasp | kw:hand rail | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- greet | kw:hello | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- grin | kw:big smile | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- groan | kw:child stubbing toe | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- grow | kw:sunflower | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- guard | kw:guard dog | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- guess | kw:jellybeans | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- habit | kw:toothbrush | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- hallway | kw:school hallway | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- handful | kw:popcorn | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- harm | kw:caution sharp glass on ground | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- harvest | kw:apple picking | L9:top10≈mostly photos + simple clipart; RISK:brand/noise risk; FIX:use “red apple fruit” / “apple fruit snack” to avoid Apple Inc. results | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- heal | kw:bandage | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- hidden | kw:key under mat | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- hint | kw:pointing | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- history | kw:old ship | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- holiday | kw:family dinner | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- hop | kw:hop | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- horizon | kw:sunset | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- hurt | kw:hurt arm | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- hurry | kw:running to bus | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- idea | kw:blanket fort | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- ignore | kw:fly | L9:top10≈mostly photos + simple clipart; RISK:ambiguous keyword, verb→noun-only KW may not show action; FIX:kw like “buzzing fly near reader (ignore)” / use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:OK
-- include | kw:lunch tray | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- inside | kw:envelope | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- invite | kw:party invite | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- jacket | kw:jacket | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- judge | kw:ribbon | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- jump | kw:jump puddle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- key | kw:key | L9:top10≈mostly photos + simple clipart; RISK:ambiguous keyword; FIX:kw like “door key in lock” | L10:OK (no hard factual claims) | L11:alt: keyboard/piano key; keep lock-key imagery | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:OK
-- kind | kw:child offering seat to friend | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- knee | kw:leg with arrow pointing to knee | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:maybe-ambig(short)
-- kneel | kw:ant hill | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- knock | kw:knocking | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:maybe-ambig(short)
-- lantern | kw:lantern | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- laugh | kw:laughing | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- leaf | kw:fall leaf | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- leak | kw:leaking bottle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- learn | kw:reading | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- least | kw:paint | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- library | kw:library | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- limit | kw:speed limit | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- listen | kw:ear hearing bell ring | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- lunch | kw:lunch | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- machine | kw:washing machine | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- magic | kw:magic trick | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- major | kw:storm | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- marble | kw:marble | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- mask | kw:tiger mask | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- matter | kw:air | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- memory | kw:snowman | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- message | kw:sticky note on fridge | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- minute | kw:timer | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mirror | kw:mirror | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- mist | kw:morning mist | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mix | kw:mix paint | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- model | kw:solar system model | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mood | kw:happy sun | L9:top10≈mostly faces/emoji-style graphics; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- move | kw:chair | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mystery | kw:missing cupcake | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- nature | kw:acorn | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- near | kw:two houses close together | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- neatly | kw:neat writing | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- never | kw:hot stove | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- noisy | kw:cafeteria | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- north | kw:compass | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- note | kw:note | L9:top10≈mostly photos + simple clipart; RISK:ambiguous keyword; FIX:kw like “handwritten note on paper” | L10:OK (no hard factual claims) | L11:alt: music note; keep handwritten note imagery | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:OK
-- object | kw:ball | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- ocean | kw:ocean waves | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (kid-level) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- offer | kw:offering seat | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- opinion | kw:ice cream | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- opposite | kw:hot cold | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- order | kw:steps | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- outside | kw:play outside | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- over | kw:plane | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- palace | kw:palace | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- path | kw:forest path | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- pause | kw:tie shoe | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- picnic | kw:picnic | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- planet | kw:planet | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (kid-level); planets orbit a star (correct) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- plastic | kw:plastic bottle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- playground | kw:playground | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- polite | kw:child saying please and thank you | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- praise | kw:gold star | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- prepare | kw:packing snacks | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- price | kw:price tag | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- prize | kw:trophy | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- protect | kw:sunscreen | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- quiet | kw:quiet classroom | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(quiet~quite); spell:OK; cloze:OK
-- quiz | kw:quiz | L9:top10≈mostly classroom paper/text examples; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:maybe-ambig(short)
-- raise | kw:raise hand | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- range | kw:mountains | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- reach | kw:reach shelf | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- recycle | kw:recycling bin | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- refund | kw:refund | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- relax | kw:relax music | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- rescue | kw:firefighter | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- respect | kw:students listening respectfully | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- result | kw:growing plant | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- return | kw:return book | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- river | kw:river | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (kid-level) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- role | kw:narrator | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- route | kw:bus route | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- safe | kw:helmet | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- sail | kw:sailboat | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(sail~sale); spell:OK; cloze:OK
-- save | kw:save dessert | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- scared | kw:scared child under blanket | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- scatter | kw:papers flying | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- score | kw:scoreboard | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- shade | kw:tree shade | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- shore | kw:shore shells | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- signal | kw:traffic light | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- simple | kw:apple | L9:top10≈mostly photos + simple clipart; RISK:brand/noise risk, ambiguous keyword; FIX:use “red apple fruit” / “apple fruit snack” to avoid Apple Inc. results / kw like “red apple fruit” | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:maybe-ambig(short)
-- slippery | kw:icy steps | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- smell | kw:child sniffing popcorn | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- snap | kw:snapped twig | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- soak | kw:wet socks | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- special | kw:birthday | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- store | kw:store | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- strong | kw:thick strong rope pulling sled | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- stuck | kw:stuck zipper | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- suggest | kw:water bottle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- support | kw:wood beam | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- surface | kw:water surface | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- swallow | kw:drinking | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- sweep | kw:broom | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- sweet | kw:strawberry | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- talent | kw:drawing | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- taste | kw:lemon | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- team | kw:sports team | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- tease | kw:kind words | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- temperature | kw:thermometer | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(>10); cloze:OK
-- tend | kw:garden | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- tightly | kw:kite string | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- little | kw:seed | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- track | kw:running track | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- travel | kw:train | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- trick | kw:magic coin | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- trust | kw:child holding parent hand crossing street | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- turn | kw:turning key in lock | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- under | kw:puppy under table | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- upstairs | kw:backpack in bedroom upstairs | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- usual | kw:banana | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- visit | kw:dentist | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- voice | kw:phone | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- vote | kw:voting | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- wait | kw:bus stop | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- warmth | kw:warm blanket | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- warn | kw:hot pan | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- waterfall | kw:waterfall | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- weather | kw:windy | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (kid-level) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(weather~whether); spell:OK; cloze:OK
-- wheel | kw:bike wheel | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- yesterday | kw:calendar day | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- admiral | kw:admiral navy | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- album | kw:photo album | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- alley | kw:alley path | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- amber | kw:amber autumn leaves | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- antenna | kw:insect antenna | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- applause | kw:applause clapping | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- apricot | kw:apricot fruit | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- arch | kw:stone arch | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- atlas | kw:atlas maps | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- avalanche | kw:avalanche snow | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- badge | kw:badge pin | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- bagpipe | kw:bagpipe instrument | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- balcony | kw:balcony building | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- banjo | kw:banjo instrument | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- banner | kw:banner sign | L9:top10≈mostly signs/posters/text-on-image; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:RISK(ambig/texty); sound:OK; spell:OK; cloze:OK
-- basin | kw:water basin | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bay | kw:bay water | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- beacon | kw:lighthouse beacon | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bead | kw:bead jewelry | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- beeswax | kw:beeswax candle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- bellows | kw:bellows fire | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- binoculars | kw:binoculars | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- birch | kw:birch tree | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- biscuit | kw:biscuit bread | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- blacksmith | kw:blacksmith forge | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- blaze | kw:blaze fire | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- blueprint | kw:blueprint plan | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bluff | kw:cliff bluff | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bobsled | kw:bobsled race | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bolt | kw:bolt and nut hardware | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bonfire | kw:bonfire outdoors | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bookshelf | kw:bookshelf | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bracelet | kw:bracelet jewelry | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bramble | kw:bramble bush | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- brass | kw:brass metal | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bridle | kw:bridle horse | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- broth | kw:broth soup | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bugle | kw:bugle horn | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bulb | kw:tulip bulb | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bulletin | kw:bulletin board | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- bunker | kw:bunker shelter | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- buoy | kw:buoy water | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- canal | kw:canal waterway | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- canopy | kw:forest canopy | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- caribou | kw:caribou deer | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- carousel | kw:carousel ride | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cartwheel | kw:cartwheel gymnastics | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cashew | kw:cashew nut | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cedar | kw:cedar tree | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cellar | kw:cellar basement | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- chapel | kw:chapel building | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- chariot | kw:chariot horses | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- chestnut | kw:chestnut nut | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- chisel | kw:chisel tool | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- chord | kw:guitar chord | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- cider | kw:apple cider | L9:top10≈mostly photos + simple clipart; RISK:brand/noise risk; FIX:use “red apple fruit” / “apple fruit snack” to avoid Apple Inc. results | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- clam | kw:clam shell | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cloak | kw:cloak coat | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- cobblestone | kw:cobblestone road | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(>10); cloze:OK
-- cocoon | kw:cocoon moth | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- comet | kw:comet sky | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- cork | kw:cork bottle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- corral | kw:corral fence | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cradle | kw:baby cradle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- crest | kw:hill crest | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- crumb | kw:bread crumb | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- cuff | kw:shirt cuff | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- cypress | kw:cypress tree | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- dagger | kw:museum dagger display | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- dandelion | kw:dandelion seeds | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- deck | kw:wooden deck | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- delta | kw:river delta | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- dinghy | kw:dinghy boat | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- dome | kw:dome building | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- donkey | kw:donkey animal | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- doorbell | kw:doorbell | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- drawbridge | kw:drawbridge castle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- drumstick | kw:drumstick for drum | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- dune | kw:sand dune | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- easel | kw:easel painting | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- elm | kw:elm tree | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- ember | kw:ember fire | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- emerald | kw:emerald gem | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- falcon | kw:falcon bird | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- fiddle | kw:fiddle violin | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- fig | kw:fig fruit | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- fjord | kw:fjord water | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- flint | kw:flint stone | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- forge | kw:hot metal workshop | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- fresco | kw:fresco painting | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- gale | kw:gale wind | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- galley | kw:ship galley | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- garnet | kw:garnet gem | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- gazelle | kw:gazelle animal | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- geyser | kw:geyser eruption | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- gong | kw:gong instrument | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- granite | kw:granite rock | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- grapevine | kw:grapevine | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- gravel | kw:gravel path | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- griddle | kw:griddle pancakes | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- grove | kw:grove trees | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- gutter | kw:rain gutter | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- hammock | kw:hammock | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- harp | kw:harp instrument | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- hazel | kw:hazel eyes color | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- hearth | kw:hearth fireplace | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- heron | kw:heron bird | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- hickory | kw:hickory tree | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- hilltop | kw:hilltop view | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- holly | kw:holly berries | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- honeycomb | kw:honeycomb | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- horseshoe | kw:horseshoe | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- hourglass | kw:hourglass timer | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- husk | kw:corn husk | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- ibis | kw:ibis bird | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- igloo | kw:igloo snow | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- ivy | kw:ivy wall | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- jade | kw:jade stone | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- javelin | kw:javelin throw | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- kelp | kw:kelp seaweed | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- kennel | kw:dog kennel | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- kindle | kw:lighting campfire with sticks | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- kingfisher | kw:kingfisher bird | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- knapsack | kw:knapsack bag | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- lagoon | kw:lagoon water | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- latch | kw:door latch | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- lava | kw:lava volcano | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- levee | kw:levee river | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- lichen | kw:lichen rock | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- locket | kw:locket necklace | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- loom | kw:weaving loom | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- lynx | kw:lynx cat | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mango | kw:mango fruit | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- mantel | kw:fireplace mantel | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- maple | kw:maple tree | L9:top10≈mostly diagrams/infographics; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- marsh | kw:marsh wetland | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mast | kw:ship mast | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- moat | kw:castle moat | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mortar | kw:bricklayer mortar | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mosaic | kw:mosaic art | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- mulberry | kw:mulberry fruit | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- muzzle | kw:dog muzzle close up | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- nectar | kw:bee nectar flower | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- nettle | kw:nettle plant | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- nozzle | kw:hose nozzle | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- nutmeg | kw:nutmeg spice | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- oar | kw:oar rowing | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- oasis | kw:oasis desert | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- olive | kw:olive fruit | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- ore | kw:ore rock | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- otter | kw:otter animal | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- pagoda | kw:pagoda tower | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- parchment | kw:parchment scroll | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- parsley | kw:parsley herb | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(short)
-- pasture | kw:pasture cows | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- pebble | kw:pebble stone | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- pelican | kw:pelican bird | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- pendant | kw:pendant necklace | L9:top10≈mostly animal photos + kid clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- pier | kw:pier ocean | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- pigment | kw:pigment paint | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- carefully | kw:hands carefully stacking blocks | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- accept | kw:two kids trading cards shaking hands | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(accept~except); spell:OK; cloze:OK
-- quite | kw:kid thinking hard at math puzzle | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:RISK(quite~quiet); spell:OK; cloze:OK
-- rise | kw:sunrise | L9:top10≈mostly photos + simple clipart; RISK:verb→noun-only KW may not show action; FIX:use action scene (“kid ___ing …”) | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- although | kw:cold without jacket | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:hard(pattern); cloze:OK
-- unless | kw:child eating dinner before going outside | L9:top10≈mostly kid/teacher photos/illustrations; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
-- seldom | kw:empty playground few people | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:maybe-ambig(generic)
-- eventually | kw:seed growing into flower stages | L9:top10≈mostly photos + simple clipart; kid-clarity OK | L10:OK (no hard factual claims) | L11:sense OK / most common for kids | L12:img:OK; sound:OK; spell:OK; cloze:OK
+# Gemini Review for words-level2.js
+
+| Word | L9 (Image) | L10 (Fact) | L11 (Meaning) | L12 (Game) |
+|---|---|---|---|---|
+| describe | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| explain | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| solve | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| complete | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| arrange | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| decide | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| suppose | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mention | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| realize | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| repeat | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| separate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| struggle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| succeed | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| surround | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| wander | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ancient | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| modern | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| brilliant | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fragile | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sturdy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| swift | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| anxious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| setting | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| plot | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| paragraph | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sentence | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fiction | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nonfiction | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| main idea | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| detail | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cause | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| effect | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| habitat | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| insect | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mammal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reptile | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| liquid | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| gas | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| energy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| force | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| magnet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| soil | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| climate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| season | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| citizen | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| government | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| law | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rule | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| map | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| globe | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| continent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| country | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| state | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| city | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| border | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| freedom | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| election | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subtract | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| multiply | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| divide | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sum | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| graph | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| chart | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| data | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| length | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| width | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| height | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| area | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| shape | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| angle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| triple | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| gradually | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| immediately | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| afterward | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| recently | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| frequently | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rarely | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| occasionally | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| however | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| therefore | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| otherwise | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| turn into | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| look forward to | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| make up | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| point out | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| come across | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| break down | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| carry out | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| set up | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| courageous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| honest | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| loyal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| selfish | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| thoughtful | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| determined | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| about | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| act | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| action | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| add | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| address | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| adult | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| afraid | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| again | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| agree | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| alive | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| alone | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| also | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| always | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| any | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| appear | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| arm | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| arrive | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ask | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| asleep | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| attack | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| attempt | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| attention | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| awake | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| backpack | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| balance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| balloon | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bare | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bargain | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| base | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| basic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| battle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| beach | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| beam | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| because | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| become | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| beg | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| begin | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| behavior | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| believe | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| better | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bicycle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| blink | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| block | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| blossom | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bossy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bounce | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| breakfast | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| breathe | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bright | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bring | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| broad | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| build | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bundle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| butter | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cactus | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| calendar | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| camel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| camp | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| capture | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| careful | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| carpet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cart | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| carve | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ceiling | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| center | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| chance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| change | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| choice | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| circle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| climb | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| close | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| clue | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| coast | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| comfort | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| common | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| complain | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| confuse | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| connect | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| corner | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cost | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cotton | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| course | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| crash | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| make | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| crumble | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cuddle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| custom | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cycle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| danger | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dark | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| deal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| delay | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| delight | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| deny | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| depend | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| destroy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dig | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dinner | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| find | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| distance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dizzy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dollar | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| donate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| doorway | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| downstairs | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| drift | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| drown | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| earn | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| earth | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| edge | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| enter | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| escape | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| exact | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fair | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| famous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| far | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| farm | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fence | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| field | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fill | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| finish | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fit | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| flour | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| foam | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fold | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| follow | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fork | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| friendship | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| frighten | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| front | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| frozen | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| gentleman | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| glad | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| glide | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| glitter | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| goal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| grasp | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| greet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| grin | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| groan | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| grow | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| guard | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| guess | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| habit | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hallway | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| handful | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| harm | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| harvest | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| heal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hidden | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hint | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| history | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| holiday | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hop | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| horizon | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hurt | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hurry | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| idea | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ignore | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| include | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| inside | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| invite | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| jacket | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| judge | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| jump | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| key | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| kind | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| knee | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| kneel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| knock | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| lantern | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| laugh | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| leaf | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| leak | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| learn | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| least | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| library | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| limit | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| listen | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| lunch | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| machine | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| magic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| major | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| marble | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mask | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| matter | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| memory | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| message | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| minute | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mirror | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mist | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mix | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| model | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mood | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| move | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mystery | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nature | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| near | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| neatly | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| never | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| noisy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| north | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| note | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| object | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ocean | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| offer | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| opinion | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| opposite | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| order | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| outside | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| over | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| palace | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| path | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pause | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| picnic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| planet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| plastic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| playground | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| polite | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| praise | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| prepare | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| price | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| prize | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| protect | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quiet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quiz | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| raise | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| range | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reach | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| recycle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| refund | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| relax | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rescue | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| respect | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| result | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| return | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| river | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| role | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| route | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| safe | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sail | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| save | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| scared | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| scatter | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| score | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| shade | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| shore | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| signal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| simple | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| slippery | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| smell | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| snap | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| soak | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| special | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| store | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| strong | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stuck | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| suggest | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| support | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| surface | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| swallow | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sweep | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sweet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| talent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| taste | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| team | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tease | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| temperature | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tend | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tightly | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| little | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| track | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| travel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| trick | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| trust | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| turn | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| under | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| upstairs | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| usual | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| visit | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| voice | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vote | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| wait | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| warmth | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| warn | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| waterfall | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| weather | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| wheel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| yesterday | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| admiral | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| album | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| alley | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| amber | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| antenna | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| applause | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| apricot | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| arch | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| atlas | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| avalanche | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| badge | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bagpipe | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| balcony | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| banjo | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| banner | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| basin | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bay | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| beacon | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bead | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| beeswax | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bellows | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| binoculars | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| birch | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| biscuit | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| blacksmith | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| blaze | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| blueprint | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bluff | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bobsled | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bolt | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bonfire | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bookshelf | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bracelet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bramble | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| brass | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bridle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| broth | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bugle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bulb | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bulletin | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| bunker | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| buoy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| canal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| canopy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| caribou | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| carousel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cartwheel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cashew | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cedar | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cellar | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| chapel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| chariot | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| chestnut | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| chisel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| chord | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cider | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| clam | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cloak | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cobblestone | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cocoon | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| comet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cork | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| corral | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cradle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| crest | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| crumb | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cuff | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| cypress | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dagger | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dandelion | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| deck | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| delta | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dinghy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dome | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| donkey | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| doorbell | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| drawbridge | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| drumstick | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| dune | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| easel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| elm | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ember | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| emerald | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| falcon | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fiddle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fig | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fjord | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| flint | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| forge | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| fresco | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| gale | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| galley | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| garnet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| gazelle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| geyser | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| gong | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| granite | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| grapevine | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| gravel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| griddle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| grove | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| gutter | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hammock | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| harp | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hazel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hearth | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| heron | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hickory | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hilltop | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| holly | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| honeycomb | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| horseshoe | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| hourglass | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| husk | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ibis | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| igloo | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ivy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| jade | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| javelin | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| kelp | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| kennel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| kindle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| kingfisher | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| knapsack | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| lagoon | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| latch | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| lava | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| levee | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| lichen | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| locket | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| loom | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| lynx | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mango | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mantel | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| maple | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| marsh | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mast | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| moat | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mortar | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mosaic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mulberry | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| muzzle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nectar | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nettle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nozzle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nutmeg | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| oar | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| oasis | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| olive | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ore | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| otter | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pagoda | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| parchment | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| parsley | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pasture | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pebble | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pelican | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pendant | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pier | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pigment | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| carefully | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| accept | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quite | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rise | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| although | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| unless | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| seldom | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| eventually | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
