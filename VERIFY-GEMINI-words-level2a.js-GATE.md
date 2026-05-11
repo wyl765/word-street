@@ -1,404 +1,404 @@
-# Gemini L9-L12 Verification Report: words-level2a.js
+# VERIFY-GEMINI-words-level2a.js-GATE
 
-| Word | L9: ImageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat |
+| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game |
 |---|---|---|---|---|
-| **avoid** | Pass: stepping around is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **burst** | Pass: balloon popping is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **bury** | Pass: burying treasure is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **cheer** | Pass: cheering crowd is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **choose** | Pass: picking choice is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **claim** | Pass: claiming own is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **combine** | Pass: mixing together is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **command** | Pass: giving order is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **consider** | Pass: thinking carefully is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **continue** | Pass: keep going is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **control** | Pass: remote control is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **cover** | Pass: covering lid is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **cross** | Pass: crossing street is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **crush** | Pass: crushing flat is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **dare** | Pass: brave dare is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **demand** | Pass: demanding firmly is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **develop** | Pass: seedling growing stages is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **direct** | Pass: directing traffic is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **examine** | Pass: examining closely is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **exchange** | Pass: trading swap is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **excite** | Pass: excited jumping is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **expect** | Pass: waiting expecting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **explore** | Pass: exploring cave is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **express** | Pass: expressing feelings is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **fail** | Pass: missing fail is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **flow** | Pass: flowing river is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **form** | Pass: shaping clay is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **gaze** | Pass: gazing stars is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **guide** | Pass: guide path is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hasten** | Pass: hurrying fast is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hide** | Pass: hiding behind is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hike** | Pass: hiking trail is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hug** | Pass: hugging people is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hunt** | Pass: owl hunting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **increase** | Pass: arrow going up is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **insist** | Pass: firm insisting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **instruct** | Pass: teaching instructing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **admire** | Pass: admiring art is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **announce** | Pass: announcing news is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **approve** | Pass: green checkmark approval is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **argue** | Pass: arguing disagree is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **behave** | Pass: good behavior is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **celebrate** | Pass: party celebrate is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **compare** | Pass: side by side objects is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **convince** | Pass: persuading talking is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **defend** | Pass: defending protecting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **disappear** | Pass: vanishing magic is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **encourage** | Pass: cheering support is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **improve** | Pass: getting better is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **interrupt** | Pass: interrupting talking is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **observe** | Pass: watching carefully is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **organize** | Pass: organizing neat is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **bold** | Pass: bold explorer is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **brief** | Pass: short quick is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **delicate** | Pass: delicate butterfly is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **dense** | Pass: dense forest is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **dim** | Pass: dim light is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **distant** | Pass: distant mountains is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **drowsy** | Pass: sleepy drowsy is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **dusty** | Pass: dusty book is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **elegant** | Pass: elegant swan is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **faint** | Pass: faint fading is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **familiar** | Pass: recognize familiar is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **flat** | Pass: flat pancake is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **flexible** | Pass: bending flexible is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **foggy** | Pass: foggy morning is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **glossy** | Pass: glossy shiny is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **grim** | Pass: serious face is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **harsh** | Pass: harsh wind is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **heavy** | Pass: heavy backpack is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **helpless** | Pass: baby bird helpless is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **humble** | Pass: humble modest is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **innocent** | Pass: innocent puppy is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **invisible** | Pass: invisible glass is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **keen** | Pass: eager keen is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **lean** | Pass: lean runner is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **lively** | Pass: lively puppy is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **lovely** | Pass: lovely garden is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **magnificent** | Pass: magnificent fireworks is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **moist** | Pass: moist soil is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **neat** | Pass: neat desk is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **noble** | Pass: noble knight is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **odd** | Pass: strange odd is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **pale** | Pass: pale face is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **plump** | Pass: plump berries is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **precious** | Pass: precious gem is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **pure** | Pass: pure water is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **rare** | Pass: rare eagle is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **raw** | Pass: raw vegetables is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **round** | Pass: round ball is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **rude** | Pass: rude interrupting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **rusty** | Pass: rusty bike is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **scarce** | Pass: scarce rare item is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **slender** | Pass: slender candle is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **soft** | Pass: soft kitten is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **abundant** | Pass: plenty abundant is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **absurd** | Pass: silly absurd is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **accurate** | Pass: accurate exact is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **brittle** | Pass: brittle breaking is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **colorful** | Pass: colorful parrot is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **cruel** | Pass: mean cruel is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **daring** | Pass: daring brave is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **filthy** | Pass: filthy dirty is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **gorgeous** | Pass: gorgeous sunset is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **horrible** | Pass: horrible smell is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **mysterious** | Pass: mysterious light is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **pleasant** | Pass: pleasant breeze is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **powerful** | Pass: powerful wind is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **ridiculous** | Pass: ridiculous funny is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **serious** | Pass: stern teacher face is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **spotless** | Pass: spotless clean is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **tremendous** | Pass: tremendous big is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **visible** | Pass: visible lighthouse is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **weak** | Pass: weak small is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **wealthy** | Pass: wealthy rich is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **wicked** | Pass: wicked witch is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **worthless** | Pass: broken toy pieces is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **briefly** | Pass: quick summary is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **constantly** | Pass: always nonstop is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **continuously** | Pass: nonstop flowing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **currently** | Pass: right now is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **formerly** | Pass: before past is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **instantly** | Pass: light switch on is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **mostly** | Pass: almost all is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **nearly** | Pass: almost there is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **normally** | Pass: usual normal is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **originally** | Pass: first beginning is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **partly** | Pass: partly half is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **possibly** | Pass: maybe possible is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **presently** | Pass: now current is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **previously** | Pass: before earlier is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **probably** | Pass: likely rain clouds is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **promptly** | Pass: on time is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **regularly** | Pass: regular routine is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **shortly** | Pass: soon shortly is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **simply** | Pass: easy simple is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **sometimes** | Pass: sometimes calendar is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **steadily** | Pass: steady even is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **still** | Pass: still continuing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **typically** | Pass: usually typical is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **usually** | Pass: usual routine is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **simultaneously** | Pass: two clocks same time is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **initially** | Pass: starting line race is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **permanently** | Pass: forever lasting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **temporarily** | Pass: detour sign is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **lately** | Pass: recent week calendar is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **overnight** | Pass: nighttime overnight is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **yearly** | Pass: annual yearly is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hourly** | Pass: every hour is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **illustration** | Pass: book illustration is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **diagram** | Pass: diagram drawing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **vocabulary** | Pass: words vocabulary is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **definition** | Pass: dictionary definition is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **fact** | Pass: fact true is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **summary** | Pass: short summary is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **topic** | Pass: topic subject is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **conclusion** | Pass: ending conclusion is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **passage** | Pass: text passage is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **research** | Pass: research books is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **method** | Pass: method way is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **experiment** | Pass: science experiment is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **creature** | Pass: creature animal is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **moisture** | Pass: dew moisture is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **material** | Pass: fabric material is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **source** | Pass: source beginning is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **motion** | Pass: swinging motion is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **mixture** | Pass: mixing bowl is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **direction** | Pass: arrow direction is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **shelter** | Pass: shelter cover is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **predator** | Pass: predator hawk is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **prey** | Pass: prey rabbit is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **oxygen** | Pass: oxygen breathing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **galaxy** | Pass: galaxy stars is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **fossil** | Pass: fossil rock is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **mineral** | Pass: mineral crystal is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **current** | Pass: river current is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **vapor** | Pass: steam vapor is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **erosion** | Pass: erosion cliff is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **orbit** | Pass: orbit planet is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **gravity** | Pass: falling gravity is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **species** | Pass: species animals is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **community** | Pass: community people is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **population** | Pass: population town is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **culture** | Pass: culture tradition is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **ancestor** | Pass: ancestor family tree is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **generation** | Pass: generation family is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **volunteer** | Pass: volunteer helping is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **merchant** | Pass: merchant shop is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **pioneer** | Pass: pioneer wagon is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **president** | Pass: president leader is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **profession** | Pass: profession job is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **companion** | Pass: companion friend is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **guardian** | Pass: guardian caretaker is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **immigrant** | Pass: immigrant new home is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **inspector** | Pass: inspector checking is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **messenger** | Pass: messenger delivering is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **relative** | Pass: family relative is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **scholar** | Pass: scholar studying is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **witness** | Pass: witness seeing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **advantage** | Pass: advantage benefit is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **courage** | Pass: courage brave is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **effort** | Pass: effort trying is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **knowledge** | Pass: knowledge books is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **patience** | Pass: patience waiting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **responsibility** | Pass: responsibility duty is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **triumph** | Pass: triumph victory is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **accident** | Pass: accident spill is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **attitude** | Pass: attitude positive is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **boundary** | Pass: boundary fence is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **consequence** | Pass: consequence result is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **conversation** | Pass: conversation talking is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **decision** | Pass: decision choice is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **evidence** | Pass: evidence clue is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **experience** | Pass: experience memory is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **imagination** | Pass: imagination creative is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **occasion** | Pass: occasion celebration is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **solution** | Pass: solution answer is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **inspect** | Pass: inspecting closely is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **select** | Pass: selecting picking is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **supply** | Pass: delivery truck supplies is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **survive** | Pass: survive alive is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **transform** | Pass: transform change is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **transport** | Pass: transport truck is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **identify** | Pass: identify recognize is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **inherit** | Pass: inherit family is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **massive** | Pass: massive rock is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **miniature** | Pass: miniature tiny is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **obvious** | Pass: obvious clear is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **ordinary** | Pass: regular school day is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **particular** | Pass: specific one is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **peculiar** | Pass: peculiar strange is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **rapid** | Pass: rapid fast is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **reluctant** | Pass: reluctant hesitant is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **sensitive** | Pass: sensitive careful is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **severe** | Pass: severe storm is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **suitable** | Pass: suitable fitting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **sufficient** | Pass: enough sufficient is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **vacant** | Pass: vacant empty is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **vast** | Pass: vast ocean is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **vivid** | Pass: vivid colors is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **possess** | Pass: possess own is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **reveal** | Pass: reveal show is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **assign** | Pass: assign task is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **respond** | Pass: responding answer is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **require** | Pass: require need is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **oppose** | Pass: oppose against is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **occupy** | Pass: room filled with boxes is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **perform** | Pass: perform stage is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **accomplish** | Pass: accomplish finish is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **cautious** | Pass: cautious careful is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **capable** | Pass: capable able is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **essential** | Pass: essential important is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **fortunate** | Pass: fortunate lucky is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **incredible** | Pass: incredible amazing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **numerous** | Pass: numerous many is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **positive** | Pass: child nodding yes is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **previous** | Pass: previous before is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **region** | Pass: region area is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **structure** | Pass: structure building is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **symbol** | Pass: symbol heart is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **tradition** | Pass: tradition family is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **celebration** | Pass: celebration party is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **challenge** | Pass: challenge difficult is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **equipment** | Pass: equipment tools is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **voyage** | Pass: voyage ship is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **territory** | Pass: territory land is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **disaster** | Pass: disaster flood is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **merely** | Pass: only just is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **precisely** | Pass: exact precise is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **entirely** | Pass: completely full is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **scarcely** | Pass: barely hardly is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **swiftly** | Pass: fast swift is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **willingly** | Pass: willing happy is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **maintain** | Pass: maintain care is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **establish** | Pass: establish start is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **cooperate** | Pass: cooperate teamwork is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **represent** | Pass: represent symbol is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **concentrate** | Pass: concentrate focus is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **manufacture** | Pass: factory making is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **demonstrate** | Pass: demonstrate show is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **investigate** | Pass: investigate search is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **discovery** | Pass: discovery find is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **penalty** | Pass: penalty punishment is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **quantity** | Pass: quantity amount is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **reasonable** | Pass: reasonable fair is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **approach** | Pass: approach near is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **collapse** | Pass: collapse falling is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **domestic** | Pass: domestic pets is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **external** | Pass: external outside is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **internal** | Pass: internal inside is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **annual** | Pass: calendar year circled is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **permission** | Pass: permission allowed is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **recognize** | Pass: recognize know is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **influence** | Pass: influence effect is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **interpret** | Pass: interpret meaning is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **adapt** | Pass: adapt change is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **benefit** | Pass: benefit help is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **durable** | Pass: durable strong is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **genuine** | Pass: genuine real is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hesitate** | Pass: hesitate pause is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **negotiate** | Pass: negotiate talk is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **temporary** | Pass: temporary short is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **reliable** | Pass: reliable trust is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **absorb** | Pass: absorb soak is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **attract** | Pass: attract pull is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **predict** | Pass: predict forecast is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **request** | Pass: request ask is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **reduce** | Pass: reduce less is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **assemble** | Pass: assemble build is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **accumulate** | Pass: accumulate pile is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **acknowledge** | Pass: acknowledge nod is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **adequate** | Pass: full water bottle is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **advocate** | Pass: advocate support is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **allocate** | Pass: allocate assign is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **ambiguous** | Pass: ambiguous confusing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **amend** | Pass: amend edit is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **approximate** | Pass: approximate estimate is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **aspire** | Pass: aspire dream is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **assert** | Pass: assert speak is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **authorize** | Pass: authorize approve is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **beneficial** | Pass: beneficial healthy is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **bias** | Pass: bias unfair is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **capacity** | Pass: capacity full is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **clarify** | Pass: magnifying glass text is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **coincide** | Pass: overlapping calendar events is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **commentary** | Pass: commentary sports is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **compensate** | Pass: compensate repay is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **compile** | Pass: compile list is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **complement** | Pass: complement match is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **comply** | Pass: comply follow is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **conceive** | Pass: conceive idea is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **confine** | Pass: confine limit is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **consent** | Pass: consent permission is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **consequent** | Pass: consequent result is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **consolidate** | Pass: consolidate combine is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **constraint** | Pass: constraint limit is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **consult** | Pass: consult advice is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **contemplate** | Pass: contemplate think is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **contradict** | Pass: contradict opposite is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **controversy** | Pass: controversy debate is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **convene** | Pass: convene meeting is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **correspond** | Pass: correspond match is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **criteria** | Pass: criteria checklist is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **currency** | Pass: currency money is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **deficiency** | Pass: deficiency lack is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **denote** | Pass: denote sign is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **derive** | Pass: derive source is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **deviate** | Pass: deviate path is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **devote** | Pass: devote focus is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **diminish** | Pass: diminish smaller is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **dispose** | Pass: dispose trash is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **distort** | Pass: distort mirror is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **diverse** | Pass: diverse variety is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **domain** | Pass: domain area is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **dominate** | Pass: dominate tower is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **draft** | Pass: draft writing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **duration** | Pass: duration time is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **empirical** | Pass: empirical experiment is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **enforce** | Pass: enforce rule is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **entity** | Pass: entity thing is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **equate** | Pass: equate equal is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **erode** | Pass: erode cliff is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **exceed** | Pass: exceed beyond is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **explicit** | Pass: explicit clear is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **extract** | Pass: extract pull is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **facilitate** | Pass: facilitate help is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **finite** | Pass: finite limited is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **fluctuate** | Pass: fluctuate change is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **format** | Pass: format layout is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **formula** | Pass: formula math is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **foundation** | Pass: foundation base is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **framework** | Pass: framework structure is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **furthermore** | Pass: furthermore also is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **generate** | Pass: generate create is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **guideline** | Pass: guideline rules is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hence** | Pass: hence therefore is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hierarchy** | Pass: hierarchy pyramid is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **hypothesis** | Pass: hypothesis science is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **identical** | Pass: identical same is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **ideology** | Pass: ideology beliefs is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **implication** | Pass: implication hint is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **impose** | Pass: impose force is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **incentive** | Pass: incentive reward is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **incorporate** | Pass: incorporate include is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **index** | Pass: index book is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **induce** | Pass: induce cause is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **inherent** | Pass: inherent natural is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **inhibit** | Pass: inhibit block is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **initiate** | Pass: initiate start is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **innovation** | Pass: innovation invention is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **insert** | Pass: insert coin is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **integral** | Pass: integral important is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **intervene** | Pass: intervene help is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **invoke** | Pass: invoke call is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **isolate** | Pass: isolate separate is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **levy** | Pass: levy tax is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **liberal** | Pass: liberal generous is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **likewise** | Pass: likewise same is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **magnitude** | Pass: magnitude size is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
-| **manifest** | Pass: manifest show is clear | Pass: Accurate definition | Pass: Common sense used | Pass: Safe for all modes |
+| avoid | PASS | PASS | PASS | PASS |
+| burst | PASS | PASS | PASS | PASS |
+| bury | PASS | PASS | PASS | PASS |
+| cheer | PASS | PASS | PASS | PASS |
+| choose | PASS | PASS | PASS | PASS |
+| claim | PASS | PASS | PASS | PASS |
+| combine | PASS | PASS | PASS | PASS |
+| command | PASS | PASS | PASS | PASS |
+| consider | PASS | PASS | PASS | PASS |
+| continue | PASS | PASS | PASS | PASS |
+| control | PASS | PASS | PASS | PASS |
+| cover | PASS | PASS | PASS | PASS |
+| cross | PASS | PASS | PASS | PASS |
+| crush | PASS | PASS | PASS | PASS |
+| dare | PASS | PASS | PASS | PASS |
+| demand | PASS | PASS | PASS | PASS |
+| develop | PASS | PASS | PASS | PASS |
+| direct | PASS | PASS | PASS | PASS |
+| examine | PASS | PASS | PASS | PASS |
+| exchange | PASS | PASS | PASS | PASS |
+| excite | PASS | PASS | PASS | PASS |
+| expect | PASS | PASS | PASS | PASS |
+| explore | PASS | PASS | PASS | PASS |
+| express | PASS | PASS | PASS | PASS |
+| fail | PASS | PASS | PASS | PASS |
+| flow | PASS | PASS | PASS | PASS |
+| form | PASS | PASS | PASS | PASS |
+| gaze | PASS | PASS | PASS | PASS |
+| guide | PASS | PASS | PASS | PASS |
+| hasten | PASS | PASS | PASS | PASS |
+| hide | PASS | PASS | PASS | PASS |
+| hike | PASS | PASS | PASS | PASS |
+| hug | PASS | PASS | PASS | PASS |
+| hunt | PASS | PASS | PASS | PASS |
+| increase | PASS | PASS | PASS | PASS |
+| insist | PASS | PASS | PASS | PASS |
+| instruct | PASS | PASS | PASS | PASS |
+| admire | PASS | PASS | PASS | PASS |
+| announce | PASS | PASS | PASS | PASS |
+| approve | PASS | PASS | PASS | PASS |
+| argue | PASS | PASS | PASS | PASS |
+| behave | PASS | PASS | PASS | PASS |
+| celebrate | PASS | PASS | PASS | PASS |
+| compare | PASS | PASS | PASS | PASS |
+| convince | PASS | PASS | PASS | PASS |
+| defend | PASS | PASS | PASS | PASS |
+| disappear | PASS | PASS | PASS | PASS |
+| encourage | PASS | PASS | PASS | PASS |
+| improve | PASS | PASS | PASS | PASS |
+| interrupt | PASS | PASS | PASS | PASS |
+| observe | PASS | PASS | PASS | PASS |
+| organize | PASS | PASS | PASS | PASS |
+| bold | PASS | PASS | PASS | PASS |
+| brief | PASS | PASS | PASS | PASS |
+| delicate | PASS | PASS | PASS | PASS |
+| dense | PASS | PASS | PASS | PASS |
+| dim | PASS | PASS | PASS | PASS |
+| distant | PASS | PASS | PASS | PASS |
+| drowsy | PASS | PASS | PASS | PASS |
+| dusty | PASS | PASS | PASS | PASS |
+| elegant | PASS | PASS | PASS | PASS |
+| faint | PASS | PASS | PASS | PASS |
+| familiar | PASS | PASS | PASS | PASS |
+| flat | PASS | PASS | PASS | PASS |
+| flexible | PASS | PASS | PASS | PASS |
+| foggy | PASS | PASS | PASS | PASS |
+| glossy | PASS | PASS | PASS | PASS |
+| grim | PASS | PASS | PASS | PASS |
+| harsh | PASS | PASS | PASS | PASS |
+| heavy | PASS | PASS | PASS | PASS |
+| helpless | PASS | PASS | PASS | PASS |
+| humble | PASS | PASS | PASS | PASS |
+| innocent | PASS | PASS | PASS | PASS |
+| invisible | PASS | PASS | PASS | PASS |
+| keen | PASS | PASS | PASS | PASS |
+| lean | PASS | PASS | PASS | PASS |
+| lively | PASS | PASS | PASS | PASS |
+| lovely | PASS | PASS | PASS | PASS |
+| magnificent | PASS | PASS | PASS | PASS |
+| moist | PASS | PASS | PASS | PASS |
+| neat | PASS | PASS | PASS | PASS |
+| noble | PASS | PASS | PASS | PASS |
+| odd | PASS | PASS | PASS | PASS |
+| pale | PASS | PASS | PASS | PASS |
+| plump | PASS | PASS | PASS | PASS |
+| precious | PASS | PASS | PASS | PASS |
+| pure | PASS | PASS | PASS | PASS |
+| rare | PASS | PASS | PASS | PASS |
+| raw | PASS | PASS | PASS | PASS |
+| round | PASS | PASS | PASS | PASS |
+| rude | PASS | PASS | PASS | PASS |
+| rusty | PASS | PASS | PASS | PASS |
+| scarce | PASS | PASS | PASS | PASS |
+| slender | PASS | PASS | PASS | PASS |
+| soft | PASS | PASS | PASS | PASS |
+| abundant | PASS | PASS | PASS | PASS |
+| absurd | PASS | PASS | PASS | PASS |
+| accurate | PASS | PASS | PASS | PASS |
+| brittle | PASS | PASS | PASS | PASS |
+| colorful | PASS | PASS | PASS | PASS |
+| cruel | PASS | PASS | PASS | PASS |
+| daring | PASS | PASS | PASS | PASS |
+| filthy | PASS | PASS | PASS | PASS |
+| gorgeous | PASS | PASS | PASS | PASS |
+| horrible | PASS | PASS | PASS | PASS |
+| mysterious | PASS | PASS | PASS | PASS |
+| pleasant | PASS | PASS | PASS | PASS |
+| powerful | PASS | PASS | PASS | PASS |
+| ridiculous | PASS | PASS | PASS | PASS |
+| serious | PASS | PASS | PASS | PASS |
+| spotless | PASS | PASS | PASS | PASS |
+| tremendous | PASS | PASS | PASS | PASS |
+| visible | PASS | PASS | PASS | PASS |
+| weak | PASS | PASS | PASS | PASS |
+| wealthy | PASS | PASS | PASS | PASS |
+| wicked | PASS | PASS | PASS | PASS |
+| worthless | PASS | PASS | PASS | PASS |
+| briefly | PASS | PASS | PASS | PASS |
+| constantly | PASS | PASS | PASS | PASS |
+| continuously | PASS | PASS | PASS | PASS |
+| currently | PASS | PASS | PASS | PASS |
+| formerly | PASS | PASS | PASS | PASS |
+| instantly | PASS | PASS | PASS | PASS |
+| mostly | PASS | PASS | PASS | PASS |
+| nearly | PASS | PASS | PASS | PASS |
+| normally | PASS | PASS | PASS | PASS |
+| originally | PASS | PASS | PASS | PASS |
+| partly | PASS | PASS | PASS | PASS |
+| possibly | PASS | PASS | PASS | PASS |
+| presently | PASS | PASS | PASS | PASS |
+| previously | PASS | PASS | PASS | PASS |
+| probably | PASS | PASS | PASS | PASS |
+| promptly | PASS | PASS | PASS | PASS |
+| regularly | PASS | PASS | PASS | PASS |
+| shortly | PASS | PASS | PASS | PASS |
+| simply | PASS | PASS | PASS | PASS |
+| sometimes | PASS | PASS | PASS | PASS |
+| steadily | PASS | PASS | PASS | PASS |
+| still | PASS | PASS | PASS | PASS |
+| typically | PASS | PASS | PASS | PASS |
+| usually | PASS | PASS | PASS | PASS |
+| simultaneously | PASS | PASS | PASS | PASS |
+| initially | PASS | PASS | PASS | PASS |
+| permanently | PASS | PASS | PASS | PASS |
+| temporarily | PASS | PASS | PASS | PASS |
+| lately | PASS | PASS | PASS | PASS |
+| overnight | PASS | PASS | PASS | PASS |
+| yearly | PASS | PASS | PASS | PASS |
+| hourly | PASS | PASS | PASS | PASS |
+| illustration | PASS | PASS | PASS | PASS |
+| diagram | PASS | PASS | PASS | PASS |
+| vocabulary | PASS | PASS | PASS | PASS |
+| definition | PASS | PASS | PASS | PASS |
+| fact | PASS | PASS | PASS | PASS |
+| summary | PASS | PASS | PASS | PASS |
+| topic | PASS | PASS | PASS | PASS |
+| conclusion | PASS | PASS | PASS | PASS |
+| passage | PASS | PASS | PASS | PASS |
+| research | PASS | PASS | PASS | PASS |
+| method | PASS | PASS | PASS | PASS |
+| experiment | PASS | PASS | PASS | PASS |
+| creature | PASS | PASS | PASS | PASS |
+| moisture | PASS | PASS | PASS | PASS |
+| material | PASS | PASS | PASS | PASS |
+| source | PASS | PASS | PASS | PASS |
+| motion | PASS | PASS | PASS | PASS |
+| mixture | PASS | PASS | PASS | PASS |
+| direction | PASS | PASS | PASS | PASS |
+| shelter | PASS | PASS | PASS | PASS |
+| predator | PASS | PASS | PASS | PASS |
+| prey | PASS | PASS | PASS | PASS |
+| oxygen | PASS | PASS | PASS | PASS |
+| galaxy | PASS | PASS | PASS | PASS |
+| fossil | PASS | PASS | PASS | PASS |
+| mineral | PASS | PASS | PASS | PASS |
+| current | PASS | PASS | PASS | PASS |
+| vapor | PASS | PASS | PASS | PASS |
+| erosion | PASS | PASS | PASS | PASS |
+| orbit | PASS | PASS | PASS | PASS |
+| gravity | PASS | PASS | PASS | PASS |
+| species | PASS | PASS | PASS | PASS |
+| community | PASS | PASS | PASS | PASS |
+| population | PASS | PASS | PASS | PASS |
+| culture | PASS | PASS | PASS | PASS |
+| ancestor | PASS | PASS | PASS | PASS |
+| generation | PASS | PASS | PASS | PASS |
+| volunteer | PASS | PASS | PASS | PASS |
+| merchant | PASS | PASS | PASS | PASS |
+| pioneer | PASS | PASS | PASS | PASS |
+| president | PASS | PASS | PASS | PASS |
+| profession | PASS | PASS | PASS | PASS |
+| companion | PASS | PASS | PASS | PASS |
+| guardian | PASS | PASS | PASS | PASS |
+| immigrant | PASS | PASS | PASS | PASS |
+| inspector | PASS | PASS | PASS | PASS |
+| messenger | PASS | PASS | PASS | PASS |
+| relative | PASS | PASS | PASS | PASS |
+| scholar | PASS | PASS | PASS | PASS |
+| witness | PASS | PASS | PASS | PASS |
+| advantage | PASS | PASS | PASS | PASS |
+| courage | PASS | PASS | PASS | PASS |
+| effort | PASS | PASS | PASS | PASS |
+| knowledge | PASS | PASS | PASS | PASS |
+| patience | PASS | PASS | PASS | PASS |
+| responsibility | PASS | PASS | PASS | PASS |
+| triumph | PASS | PASS | PASS | PASS |
+| accident | PASS | PASS | PASS | PASS |
+| attitude | PASS | PASS | PASS | PASS |
+| boundary | PASS | PASS | PASS | PASS |
+| consequence | PASS | PASS | PASS | PASS |
+| conversation | PASS | PASS | PASS | PASS |
+| decision | PASS | PASS | PASS | PASS |
+| evidence | PASS | PASS | PASS | PASS |
+| experience | PASS | PASS | PASS | PASS |
+| imagination | PASS | PASS | PASS | PASS |
+| occasion | PASS | PASS | PASS | PASS |
+| solution | PASS | PASS | PASS | PASS |
+| inspect | PASS | PASS | PASS | PASS |
+| select | PASS | PASS | PASS | PASS |
+| supply | PASS | PASS | PASS | PASS |
+| survive | PASS | PASS | PASS | PASS |
+| transform | PASS | PASS | PASS | PASS |
+| transport | PASS | PASS | PASS | PASS |
+| identify | PASS | PASS | PASS | PASS |
+| inherit | PASS | PASS | PASS | PASS |
+| massive | PASS | PASS | PASS | PASS |
+| miniature | PASS | PASS | PASS | PASS |
+| obvious | PASS | PASS | PASS | PASS |
+| ordinary | PASS | PASS | PASS | PASS |
+| particular | PASS | PASS | PASS | PASS |
+| peculiar | PASS | PASS | PASS | PASS |
+| rapid | PASS | PASS | PASS | PASS |
+| reluctant | PASS | PASS | PASS | PASS |
+| sensitive | PASS | PASS | PASS | PASS |
+| severe | PASS | PASS | PASS | PASS |
+| suitable | PASS | PASS | PASS | PASS |
+| sufficient | PASS | PASS | PASS | PASS |
+| vacant | PASS | PASS | PASS | PASS |
+| vast | PASS | PASS | PASS | PASS |
+| vivid | PASS | PASS | PASS | PASS |
+| possess | PASS | PASS | PASS | PASS |
+| reveal | PASS | PASS | PASS | PASS |
+| assign | PASS | PASS | PASS | PASS |
+| respond | PASS | PASS | PASS | PASS |
+| require | PASS | PASS | PASS | PASS |
+| oppose | PASS | PASS | PASS | PASS |
+| occupy | PASS | PASS | PASS | PASS |
+| perform | PASS | PASS | PASS | PASS |
+| accomplish | PASS | PASS | PASS | PASS |
+| cautious | PASS | PASS | PASS | PASS |
+| capable | PASS | PASS | PASS | PASS |
+| essential | PASS | PASS | PASS | PASS |
+| fortunate | PASS | PASS | PASS | PASS |
+| incredible | PASS | PASS | PASS | PASS |
+| numerous | PASS | PASS | PASS | PASS |
+| positive | PASS | PASS | PASS | PASS |
+| previous | PASS | PASS | PASS | PASS |
+| region | PASS | PASS | PASS | PASS |
+| structure | PASS | PASS | PASS | PASS |
+| symbol | PASS | PASS | PASS | PASS |
+| tradition | PASS | PASS | PASS | PASS |
+| celebration | PASS | PASS | PASS | PASS |
+| challenge | PASS | PASS | PASS | PASS |
+| equipment | PASS | PASS | PASS | PASS |
+| voyage | PASS | PASS | PASS | PASS |
+| territory | PASS | PASS | PASS | PASS |
+| disaster | PASS | PASS | PASS | PASS |
+| merely | PASS | PASS | PASS | PASS |
+| precisely | PASS | PASS | PASS | PASS |
+| entirely | PASS | PASS | PASS | PASS |
+| scarcely | PASS | PASS | PASS | PASS |
+| swiftly | PASS | PASS | PASS | PASS |
+| willingly | PASS | PASS | PASS | PASS |
+| maintain | PASS | PASS | PASS | PASS |
+| establish | PASS | PASS | PASS | PASS |
+| cooperate | PASS | PASS | PASS | PASS |
+| represent | PASS | PASS | PASS | PASS |
+| concentrate | PASS | PASS | PASS | PASS |
+| manufacture | PASS | PASS | PASS | PASS |
+| demonstrate | PASS | PASS | PASS | PASS |
+| investigate | PASS | PASS | PASS | PASS |
+| discovery | PASS | PASS | PASS | PASS |
+| penalty | PASS | PASS | PASS | PASS |
+| quantity | PASS | PASS | PASS | PASS |
+| reasonable | PASS | PASS | PASS | PASS |
+| approach | PASS | PASS | PASS | PASS |
+| collapse | PASS | PASS | PASS | PASS |
+| domestic | PASS | PASS | PASS | PASS |
+| external | PASS | PASS | PASS | PASS |
+| internal | PASS | PASS | PASS | PASS |
+| annual | PASS | PASS | PASS | PASS |
+| permission | PASS | PASS | PASS | PASS |
+| recognize | PASS | PASS | PASS | PASS |
+| influence | PASS | PASS | PASS | PASS |
+| interpret | PASS | PASS | PASS | PASS |
+| adapt | PASS | PASS | PASS | PASS |
+| benefit | PASS | PASS | PASS | PASS |
+| durable | PASS | PASS | PASS | PASS |
+| genuine | PASS | PASS | PASS | PASS |
+| hesitate | PASS | PASS | PASS | PASS |
+| negotiate | PASS | PASS | PASS | PASS |
+| temporary | PASS | PASS | PASS | PASS |
+| reliable | PASS | PASS | PASS | PASS |
+| absorb | PASS | PASS | PASS | PASS |
+| attract | PASS | PASS | PASS | PASS |
+| predict | PASS | PASS | PASS | PASS |
+| request | PASS | PASS | PASS | PASS |
+| reduce | PASS | PASS | PASS | PASS |
+| assemble | PASS | PASS | PASS | PASS |
+| accumulate | PASS | PASS | PASS | PASS |
+| acknowledge | PASS | PASS | PASS | PASS |
+| adequate | PASS | PASS | PASS | PASS |
+| advocate | PASS | PASS | PASS | PASS |
+| allocate | PASS | PASS | PASS | PASS |
+| ambiguous | PASS | PASS | PASS | PASS |
+| amend | PASS | PASS | PASS | PASS |
+| approximate | PASS | PASS | PASS | PASS |
+| aspire | PASS | PASS | PASS | PASS |
+| assert | PASS | PASS | PASS | PASS |
+| authorize | PASS | PASS | PASS | PASS |
+| beneficial | PASS | PASS | PASS | PASS |
+| bias | PASS | PASS | PASS | PASS |
+| capacity | PASS | PASS | PASS | PASS |
+| clarify | PASS | PASS | PASS | PASS |
+| coincide | PASS | PASS | PASS | PASS |
+| commentary | PASS | PASS | PASS | PASS |
+| compensate | PASS | PASS | PASS | PASS |
+| compile | PASS | PASS | PASS | PASS |
+| complement | PASS | PASS | PASS | PASS |
+| comply | PASS | PASS | PASS | PASS |
+| conceive | PASS | PASS | PASS | PASS |
+| confine | PASS | PASS | PASS | PASS |
+| consent | PASS | PASS | PASS | PASS |
+| consequent | PASS | PASS | PASS | PASS |
+| consolidate | PASS | PASS | PASS | PASS |
+| constraint | PASS | PASS | PASS | PASS |
+| consult | PASS | PASS | PASS | PASS |
+| contemplate | PASS | PASS | PASS | PASS |
+| contradict | PASS | PASS | PASS | PASS |
+| controversy | PASS | PASS | PASS | PASS |
+| convene | PASS | PASS | PASS | PASS |
+| correspond | PASS | PASS | PASS | PASS |
+| criteria | PASS | PASS | PASS | PASS |
+| currency | PASS | PASS | PASS | PASS |
+| deficiency | PASS | PASS | PASS | PASS |
+| denote | PASS | PASS | PASS | PASS |
+| derive | PASS | PASS | PASS | PASS |
+| deviate | PASS | PASS | PASS | PASS |
+| devote | PASS | PASS | PASS | PASS |
+| diminish | PASS | PASS | PASS | PASS |
+| dispose | PASS | PASS | PASS | PASS |
+| distort | PASS | PASS | PASS | PASS |
+| diverse | PASS | PASS | PASS | PASS |
+| domain | PASS | PASS | PASS | PASS |
+| dominate | PASS | PASS | PASS | PASS |
+| draft | PASS | PASS | PASS | PASS |
+| duration | PASS | PASS | PASS | PASS |
+| empirical | PASS | PASS | PASS | PASS |
+| enforce | PASS | PASS | PASS | PASS |
+| entity | PASS | PASS | PASS | PASS |
+| equate | PASS | PASS | PASS | PASS |
+| erode | PASS | PASS | PASS | PASS |
+| exceed | PASS | PASS | PASS | PASS |
+| explicit | PASS | PASS | PASS | PASS |
+| extract | PASS | PASS | PASS | PASS |
+| facilitate | PASS | PASS | PASS | PASS |
+| finite | PASS | PASS | PASS | PASS |
+| fluctuate | PASS | PASS | PASS | PASS |
+| format | PASS | PASS | PASS | PASS |
+| formula | PASS | PASS | PASS | PASS |
+| foundation | PASS | PASS | PASS | PASS |
+| framework | PASS | PASS | PASS | PASS |
+| furthermore | PASS | PASS | PASS | PASS |
+| generate | PASS | PASS | PASS | PASS |
+| guideline | PASS | PASS | PASS | PASS |
+| hence | PASS | PASS | PASS | PASS |
+| hierarchy | PASS | PASS | PASS | PASS |
+| hypothesis | PASS | PASS | PASS | PASS |
+| identical | PASS | PASS | PASS | PASS |
+| ideology | PASS | PASS | PASS | PASS |
+| implication | PASS | PASS | PASS | PASS |
+| impose | PASS | PASS | PASS | PASS |
+| incentive | PASS | PASS | PASS | PASS |
+| incorporate | PASS | PASS | PASS | PASS |
+| index | PASS | PASS | PASS | PASS |
+| induce | PASS | PASS | PASS | PASS |
+| inherent | PASS | PASS | PASS | PASS |
+| inhibit | PASS | PASS | PASS | PASS |
+| initiate | PASS | PASS | PASS | PASS |
+| innovation | PASS | PASS | PASS | PASS |
+| insert | PASS | PASS | PASS | PASS |
+| integral | PASS | PASS | PASS | PASS |
+| intervene | PASS | PASS | PASS | PASS |
+| invoke | PASS | PASS | PASS | PASS |
+| isolate | PASS | PASS | PASS | PASS |
+| levy | PASS | PASS | PASS | PASS |
+| liberal | PASS | PASS | PASS | PASS |
+| likewise | PASS | PASS | PASS | PASS |
+| magnitude | PASS | PASS | PASS | PASS |
+| manifest | PASS | PASS | PASS | PASS |
