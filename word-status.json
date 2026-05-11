@@ -76,7 +76,7 @@
     },
     "words-level3a.js": {
       "totalWords": 231,
-      "currentGate": 9,
+      "currentGate": 13,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -86,7 +86,7 @@
     },
     "words-level3b.js": {
       "totalWords": 315,
-      "currentGate": 9,
+      "currentGate": 13,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
