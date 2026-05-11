@@ -1,314 +1,314 @@
 # VERIFY-GEMINI-words-level4b.js-GATE
 
-| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game | Overall |
-|---|---|---|---|---|---|
-| infant | PASS | PASS | PASS | PASS | PASS |
-| inflation | PASS | PASS | PASS | PASS | PASS |
-| initiative | PASS | PASS | PASS | PASS | PASS |
-| insight | PASS | PASS | PASS | PASS | PASS |
-| install | PASS | PASS | PASS | PASS | PASS |
-| integrity | PASS | PASS | PASS | PASS | PASS |
-| intellect | PASS | PASS | PASS | PASS | PASS |
-| intercept | PASS | PASS | PASS | PASS | PASS |
-| interfere | PASS | PASS | PASS | PASS | PASS |
-| intimidate | PASS | PASS | PASS | PASS | PASS |
-| intricate | PASS | PASS | PASS | PASS | PASS |
-| introduction | PASS | PASS | PASS | PASS | PASS |
-| investment | PASS | PASS | PASS | PASS | PASS |
-| irrigate | PASS | PASS | PASS | PASS | PASS |
-| labor | PASS | PASS | PASS | PASS | PASS |
-| landscape | PASS | PASS | PASS | PASS | PASS |
-| liberate | PASS | PASS | PASS | PASS | PASS |
-| literacy | PASS | PASS | PASS | PASS | PASS |
-| margin | PASS | PASS | PASS | PASS | PASS |
-| mechanism | PASS | PASS | PASS | PASS | PASS |
-| media | PASS | PASS | PASS | PASS | PASS |
-| medieval | PASS | PASS | PASS | PASS | PASS |
-| memorize | PASS | PASS | PASS | PASS | PASS |
-| menace | PASS | PASS | PASS | PASS | PASS |
-| merit | PASS | PASS | PASS | PASS | PASS |
-| metabolism | PASS | PASS | PASS | PASS | PASS |
-| mimic | PASS | PASS | PASS | PASS | PASS |
-| minimal | PASS | PASS | PASS | PASS | PASS |
-| ministry | PASS | PASS | PASS | PASS | PASS |
-| momentum | PASS | PASS | PASS | PASS | PASS |
-| monarch | PASS | PASS | PASS | PASS | PASS |
-| monopoly | PASS | PASS | PASS | PASS | PASS |
-| municipal | PASS | PASS | PASS | PASS | PASS |
-| narrative | PASS | PASS | PASS | PASS | PASS |
-| nitrogen | PASS | PASS | PASS | PASS | PASS |
-| nominate | PASS | PASS | PASS | PASS | PASS |
-| norm | PASS | PASS | PASS | PASS | PASS |
-| nuclear | PASS | PASS | PASS | PASS | PASS |
-| oblige | PASS | PASS | PASS | PASS | PASS |
-| offend | PASS | PASS | PASS | PASS | PASS |
-| oppress | PASS | PASS | PASS | PASS | PASS |
-| orient | PASS | PASS | PASS | PASS | PASS |
-| output | PASS | PASS | PASS | PASS | PASS |
-| outrage | PASS | PASS | PASS | PASS | PASS |
-| overlap | PASS | PASS | PASS | PASS | PASS |
-| overseas | PASS | PASS | PASS | PASS | PASS |
-| overwhelm | PASS | PASS | PASS | PASS | PASS |
-| patron | PASS | PASS | PASS | PASS | PASS |
-| peak | PASS | PASS | PASS | PASS | PASS |
-| plantation | PASS | PASS | PASS | PASS | PASS |
-| plead | PASS | PASS | PASS | PASS | PASS |
-| poll | PASS | PASS | PASS | PASS | PASS |
-| pollinate | PASS | PASS | PASS | PASS | PASS |
-| pollute | PASS | PASS | PASS | PASS | PASS |
-| populate | PASS | PASS | PASS | PASS | PASS |
-| precaution | PASS | PASS | PASS | PASS | PASS |
-| preliminary | PASS | PASS | PASS | PASS | PASS |
-| premise | PASS | PASS | PASS | PASS | PASS |
-| preside | PASS | PASS | PASS | PASS | PASS |
-| prevalent | PASS | PASS | PASS | PASS | PASS |
-| primarily | PASS | PASS | PASS | PASS | PASS |
-| procedure | PASS | PASS | PASS | PASS | PASS |
-| quota | PASS | PASS | PASS | PASS | PASS |
-| rational | PASS | PASS | PASS | PASS | PASS |
-| reaction | PASS | PASS | PASS | PASS | PASS |
-| recede | PASS | PASS | PASS | PASS | PASS |
-| reception | PASS | PASS | PASS | PASS | PASS |
-| refer | PASS | PASS | PASS | PASS | PASS |
-| refuge | PASS | PASS | PASS | PASS | PASS |
-| regime | PASS | PASS | PASS | PASS | PASS |
-| relay | PASS | PASS | PASS | PASS | PASS |
-| render | PASS | PASS | PASS | PASS | PASS |
-| renovate | PASS | PASS | PASS | PASS | PASS |
-| repeal | PASS | PASS | PASS | PASS | PASS |
-| replicate | PASS | PASS | PASS | PASS | PASS |
-| resign | PASS | PASS | PASS | PASS | PASS |
-| restrain | PASS | PASS | PASS | PASS | PASS |
-| retail | PASS | PASS | PASS | PASS | PASS |
-| retrieve | PASS | PASS | PASS | PASS | PASS |
-| revolve | PASS | PASS | PASS | PASS | PASS |
-| robust | PASS | PASS | PASS | PASS | PASS |
-| rotate | PASS | PASS | PASS | PASS | PASS |
-| sanction | PASS | PASS | PASS | PASS | PASS |
-| satellite | PASS | PASS | PASS | PASS | PASS |
-| saturate | PASS | PASS | PASS | PASS | PASS |
-| scenario | PASS | PASS | PASS | PASS | PASS |
-| sector | PASS | PASS | PASS | PASS | PASS |
-| senate | PASS | PASS | PASS | PASS | PASS |
-| siege | PASS | PASS | PASS | PASS | PASS |
-| significance | PASS | PASS | PASS | PASS | PASS |
-| simultaneous | PASS | PASS | PASS | PASS | PASS |
-| skeptical | PASS | PASS | PASS | PASS | PASS |
-| solemn | PASS | PASS | PASS | PASS | PASS |
-| somewhat | PASS | PASS | PASS | PASS | PASS |
-| sovereign | PASS | PASS | PASS | PASS | PASS |
-| spectrum | PASS | PASS | PASS | PASS | PASS |
-| speculate | PASS | PASS | PASS | PASS | PASS |
-| sphere | PASS | PASS | PASS | PASS | PASS |
-| stability | PASS | PASS | PASS | PASS | PASS |
-| stagger | PASS | PASS | PASS | PASS | PASS |
-| stake | PASS | PASS | PASS | PASS | PASS |
-| statistic | PASS | PASS | PASS | PASS | PASS |
-| statute | PASS | PASS | PASS | PASS | PASS |
-| stereotype | PASS | PASS | PASS | PASS | PASS |
-| stimulate | PASS | PASS | PASS | PASS | PASS |
-| subordinate | PASS | PASS | PASS | PASS | PASS |
-| subsequent | PASS | PASS | PASS | PASS | PASS |
-| subsidy | PASS | PASS | PASS | PASS | PASS |
-| substance | PASS | PASS | PASS | PASS | PASS |
-| substantial | PASS | PASS | PASS | PASS | PASS |
-| subtle | PASS | PASS | PASS | PASS | PASS |
-| successor | PASS | PASS | PASS | PASS | PASS |
-| summarize | PASS | PASS | PASS | PASS | PASS |
-| superb | PASS | PASS | PASS | PASS | PASS |
-| supreme | PASS | PASS | PASS | PASS | PASS |
-| surplus | PASS | PASS | PASS | PASS | PASS |
-| surrender | PASS | PASS | PASS | PASS | PASS |
-| synthetic | PASS | PASS | PASS | PASS | PASS |
-| tenant | PASS | PASS | PASS | PASS | PASS |
-| terminal | PASS | PASS | PASS | PASS | PASS |
-| terrain | PASS | PASS | PASS | PASS | PASS |
-| testify | PASS | PASS | PASS | PASS | PASS |
-| texture | PASS | PASS | PASS | PASS | PASS |
-| therapy | PASS | PASS | PASS | PASS | PASS |
-| threat | PASS | PASS | PASS | PASS | PASS |
-| timber | PASS | PASS | PASS | PASS | PASS |
-| toxic | PASS | PASS | PASS | PASS | PASS |
-| transaction | PASS | PASS | PASS | PASS | PASS |
-| transition | PASS | PASS | PASS | PASS | PASS |
-| transmit | PASS | PASS | PASS | PASS | PASS |
-| trigger | PASS | PASS | PASS | PASS | PASS |
-| turbulent | PASS | PASS | PASS | PASS | PASS |
-| twilight | PASS | PASS | PASS | PASS | PASS |
-| ultimate | PASS | PASS | PASS | PASS | PASS |
-| undermine | PASS | PASS | PASS | PASS | PASS |
-| obstinate | PASS | PASS | PASS | PASS | PASS |
-| obviate | PASS | PASS | PASS | PASS | PASS |
-| onerous | PASS | PASS | PASS | PASS | PASS |
-| opacity | PASS | PASS | PASS | PASS | PASS |
-| opulence | PASS | PASS | PASS | PASS | PASS |
-| oration | PASS | PASS | PASS | PASS | PASS |
-| oscillation | PASS | PASS | PASS | PASS | PASS |
-| ostensible | PASS | PASS | PASS | PASS | PASS |
-| ostracism | PASS | PASS | PASS | PASS | PASS |
-| overture | PASS | PASS | PASS | PASS | PASS |
-| palatable | PASS | PASS | PASS | PASS | PASS |
-| panacea | PASS | PASS | PASS | PASS | PASS |
-| paragon | PASS | PASS | PASS | PASS | PASS |
-| paradoxical | PASS | PASS | PASS | PASS | PASS |
-| paucity | PASS | PASS | PASS | PASS | PASS |
-| pedagogue | PASS | PASS | PASS | PASS | PASS |
-| pedantic | PASS | PASS | PASS | PASS | PASS |
-| pejorative | PASS | PASS | PASS | PASS | PASS |
-| penitence | PASS | PASS | PASS | PASS | PASS |
-| penultimate | PASS | PASS | PASS | PASS | PASS |
-| pernicious | PASS | PASS | PASS | PASS | PASS |
-| perturbation | PASS | PASS | PASS | PASS | PASS |
-| petulance | PASS | PASS | PASS | PASS | PASS |
-| placid | PASS | PASS | PASS | PASS | PASS |
-| platitude | PASS | PASS | PASS | PASS | PASS |
-| plethora | PASS | PASS | PASS | PASS | PASS |
-| poignant | PASS | PASS | PASS | PASS | PASS |
-| polemic | PASS | PASS | PASS | PASS | PASS |
-| ponderous | PASS | PASS | PASS | PASS | PASS |
-| portentous | PASS | PASS | PASS | PASS | PASS |
-| pragmatism | PASS | PASS | PASS | PASS | PASS |
-| precarious | PASS | PASS | PASS | PASS | PASS |
-| precipitous | PASS | PASS | PASS | PASS | PASS |
-| precursor | PASS | PASS | PASS | PASS | PASS |
-| predilection | PASS | PASS | PASS | PASS | PASS |
-| preeminent | PASS | PASS | PASS | PASS | PASS |
-| preponderance | PASS | PASS | PASS | PASS | PASS |
-| presentiment | PASS | PASS | PASS | PASS | PASS |
-| presumptuous | PASS | PASS | PASS | PASS | PASS |
-| primordial | PASS | PASS | PASS | PASS | PASS |
-| probity | PASS | PASS | PASS | PASS | PASS |
-| proclivity | PASS | PASS | PASS | PASS | PASS |
-| procrastinate | PASS | PASS | PASS | PASS | PASS |
-| prodigious | PASS | PASS | PASS | PASS | PASS |
-| profligate | PASS | PASS | PASS | PASS | PASS |
-| prognosticate | PASS | PASS | PASS | PASS | PASS |
-| promulgation | PASS | PASS | PASS | PASS | PASS |
-| propitious | PASS | PASS | PASS | PASS | PASS |
-| proprietary | PASS | PASS | PASS | PASS | PASS |
-| proscribe | PASS | PASS | PASS | PASS | PASS |
-| proselytize | PASS | PASS | PASS | PASS | PASS |
-| protracted | PASS | PASS | PASS | PASS | PASS |
-| provenance | PASS | PASS | PASS | PASS | PASS |
-| provisional | PASS | PASS | PASS | PASS | PASS |
-| prowess | PASS | PASS | PASS | PASS | PASS |
-| prudence | PASS | PASS | PASS | PASS | PASS |
-| pugnacious | PASS | PASS | PASS | PASS | PASS |
-| pulchritude | PASS | PASS | PASS | PASS | PASS |
-| punctilious | PASS | PASS | PASS | PASS | PASS |
-| punitive | PASS | PASS | PASS | PASS | PASS |
-| quagmire | PASS | PASS | PASS | PASS | PASS |
-| qualm | PASS | PASS | PASS | PASS | PASS |
-| quandary | PASS | PASS | PASS | PASS | PASS |
-| quarrelsome | PASS | PASS | PASS | PASS | PASS |
-| querulous | PASS | PASS | PASS | PASS | PASS |
-| quintessential | PASS | PASS | PASS | PASS | PASS |
-| quixotic | PASS | PASS | PASS | PASS | PASS |
-| rambunctious | PASS | PASS | PASS | PASS | PASS |
-| rancor | PASS | PASS | PASS | PASS | PASS |
-| rapacious | PASS | PASS | PASS | PASS | PASS |
-| rapprochement | PASS | PASS | PASS | PASS | PASS |
-| rationale | PASS | PASS | PASS | PASS | PASS |
-| recapitulate | PASS | PASS | PASS | PASS | PASS |
-| recidivism | PASS | PASS | PASS | PASS | PASS |
-| reciprocity | PASS | PASS | PASS | PASS | PASS |
-| reclamation | PASS | PASS | PASS | PASS | PASS |
-| reconciliation | PASS | PASS | PASS | PASS | PASS |
-| redress | PASS | PASS | PASS | PASS | PASS |
-| redundancy | PASS | PASS | PASS | PASS | PASS |
-| refurbish | PASS | PASS | PASS | PASS | PASS |
-| reiterate | PASS | PASS | PASS | PASS | PASS |
-| relegate | PASS | PASS | PASS | PASS | PASS |
-| remonstrate | PASS | PASS | PASS | PASS | PASS |
-| renunciation | PASS | PASS | PASS | PASS | PASS |
-| reparation | PASS | PASS | PASS | PASS | PASS |
-| reprehensible | PASS | PASS | PASS | PASS | PASS |
-| repudiation | PASS | PASS | PASS | PASS | PASS |
-| requisition | PASS | PASS | PASS | PASS | PASS |
-| rescind | PASS | PASS | PASS | PASS | PASS |
-| resignation | PASS | PASS | PASS | PASS | PASS |
-| resolute | PASS | PASS | PASS | PASS | PASS |
-| resurgent | PASS | PASS | PASS | PASS | PASS |
-| reticence | PASS | PASS | PASS | PASS | PASS |
-| retrospective | PASS | PASS | PASS | PASS | PASS |
-| revelry | PASS | PASS | PASS | PASS | PASS |
-| reverberate | PASS | PASS | PASS | PASS | PASS |
-| rigmarole | PASS | PASS | PASS | PASS | PASS |
-| ruminate | PASS | PASS | PASS | PASS | PASS |
-| sacrosanct | PASS | PASS | PASS | PASS | PASS |
-| sagacious | PASS | PASS | PASS | PASS | PASS |
-| salient | PASS | PASS | PASS | PASS | PASS |
-| sanguine | PASS | PASS | PASS | PASS | PASS |
-| sardonic | PASS | PASS | PASS | PASS | PASS |
-| scrupulous | PASS | PASS | PASS | PASS | PASS |
-| scrutinize | PASS | PASS | PASS | PASS | PASS |
-| sedentary | PASS | PASS | PASS | PASS | PASS |
-| semblance | PASS | PASS | PASS | PASS | PASS |
-| serendipity | PASS | PASS | PASS | PASS | PASS |
-| servile | PASS | PASS | PASS | PASS | PASS |
-| simultaneity | PASS | PASS | PASS | PASS | PASS |
-| solace | PASS | PASS | PASS | PASS | PASS |
-| solicitous | PASS | PASS | PASS | PASS | PASS |
-| soporific | PASS | PASS | PASS | PASS | PASS |
-| spurious | PASS | PASS | PASS | PASS | PASS |
-| squalid | PASS | PASS | PASS | PASS | PASS |
-| stagnation | PASS | PASS | PASS | PASS | PASS |
-| stipend | PASS | PASS | PASS | PASS | PASS |
-| stringent | PASS | PASS | PASS | PASS | PASS |
-| subjugation | PASS | PASS | PASS | PASS | PASS |
-| subliminal | PASS | PASS | PASS | PASS | PASS |
-| subordination | PASS | PASS | PASS | PASS | PASS |
-| subservient | PASS | PASS | PASS | PASS | PASS |
-| substantiation | PASS | PASS | PASS | PASS | PASS |
-| subterfuge | PASS | PASS | PASS | PASS | PASS |
-| succinct | PASS | PASS | PASS | PASS | PASS |
-| symbiosis | PASS | PASS | PASS | PASS | PASS |
-| tangential | PASS | PASS | PASS | PASS | PASS |
-| tantamount | PASS | PASS | PASS | PASS | PASS |
-| temerity | PASS | PASS | PASS | PASS | PASS |
-| temperance | PASS | PASS | PASS | PASS | PASS |
-| tenacity | PASS | PASS | PASS | PASS | PASS |
-| tenet | PASS | PASS | PASS | PASS | PASS |
-| tepid | PASS | PASS | PASS | PASS | PASS |
-| terse | PASS | PASS | PASS | PASS | PASS |
-| tirade | PASS | PASS | PASS | PASS | PASS |
-| torpor | PASS | PASS | PASS | PASS | PASS |
-| tractable | PASS | PASS | PASS | PASS | PASS |
-| transient | PASS | PASS | PASS | PASS | PASS |
-| trepidation | PASS | PASS | PASS | PASS | PASS |
-| truculent | PASS | PASS | PASS | PASS | PASS |
-| ubiquity | PASS | PASS | PASS | PASS | PASS |
-| umbrage | PASS | PASS | PASS | PASS | PASS |
-| unctuous | PASS | PASS | PASS | PASS | PASS |
-| underpinning | PASS | PASS | PASS | PASS | PASS |
-| unequivocal | PASS | PASS | PASS | PASS | PASS |
-| unscrupulous | PASS | PASS | PASS | PASS | PASS |
-| usurpation | PASS | PASS | PASS | PASS | PASS |
-| utilitarian | PASS | PASS | PASS | PASS | PASS |
-| vacillate | PASS | PASS | PASS | PASS | PASS |
-| vapid | PASS | PASS | PASS | PASS | PASS |
-| vehemence | PASS | PASS | PASS | PASS | PASS |
-| venerate | PASS | PASS | PASS | PASS | PASS |
-| veracious | PASS | PASS | PASS | PASS | PASS |
-| verbose | PASS | PASS | PASS | PASS | PASS |
-| vestige | PASS | PASS | PASS | PASS | PASS |
-| vilification | PASS | PASS | PASS | PASS | PASS |
-| vindictive | PASS | PASS | PASS | PASS | PASS |
-| virtuosity | PASS | PASS | PASS | PASS | PASS |
-| vitriolic | PASS | PASS | PASS | PASS | PASS |
-| vociferous | PASS | PASS | PASS | PASS | PASS |
-| volition | PASS | PASS | PASS | PASS | PASS |
-| waiver | PASS | PASS | PASS | PASS | PASS |
-| wanton | PASS | PASS | PASS | PASS | PASS |
-| warranted | PASS | PASS | PASS | PASS | PASS |
-| wherewithal | PASS | PASS | PASS | PASS | PASS |
-| zealot | PASS | PASS | PASS | PASS | PASS |
-| abnegation | PASS | PASS | PASS | PASS | PASS |
-| acerbic | PASS | PASS | PASS | PASS | PASS |
-| anachronism | PASS | PASS | PASS | PASS | PASS |
-| anathema | PASS | PASS | PASS | PASS | PASS |
-| antithesis | PASS | PASS | PASS | PASS | PASS |
-| asperity | PASS | PASS | PASS | PASS | PASS |
-| calumny | PASS | PASS | PASS | PASS | PASS |
-| chicanery | PASS | PASS | PASS | PASS | PASS |
-| contumacious | PASS | PASS | PASS | PASS | PASS |
+| Word | L9: imageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat |
+|---|---|---|---|---|
+| **infant** | Pass: "baby infant" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **inflation** | Pass: "rising prices" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **initiative** | Pass: "taking action" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **insight** | Pass: "deep understanding" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **install** | Pass: "installing equipment" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **integrity** | Pass: "honest integrity" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **intellect** | Pass: "brilliant mind" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **intercept** | Pass: "intercepting ball" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **interfere** | Pass: "blocking interference" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **intimidate** | Pass: "intimidation warning" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **intricate** | Pass: "intricate pattern" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **introduction** | Pass: "book introduction" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **investment** | Pass: "growing investment" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **irrigate** | Pass: "irrigating crops" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **labor** | Pass: "hard labor" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **landscape** | Pass: "mountain landscape" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **liberate** | Pass: "setting free" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **literacy** | Pass: "reading literacy" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **margin** | Pass: "page margin" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **mechanism** | Pass: "clock mechanism" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **media** | Pass: "news media" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **medieval** | Pass: "medieval castle" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **memorize** | Pass: "memorizing study" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **menace** | Pass: "threatening menace" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **merit** | Pass: "deserving merit" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **metabolism** | Pass: "energy metabolism" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **mimic** | Pass: "parrot mimicking" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **minimal** | Pass: "very little" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **ministry** | Pass: "government ministry" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **momentum** | Pass: "rolling momentum" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **monarch** | Pass: "royal monarch" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **monopoly** | Pass: "single control" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **municipal** | Pass: "city building" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **narrative** | Pass: "story narrative" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **nitrogen** | Pass: "atmosphere gas" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **nominate** | Pass: "nominating someone" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **norm** | Pass: "normal standard" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **nuclear** | Pass: "nuclear energy" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **oblige** | Pass: "required obligation" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **offend** | Pass: "hurt feelings" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **oppress** | Pass: "unfair treatment" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **orient** | Pass: "compass orientation" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **output** | Pass: "production output" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **outrage** | Pass: "angry outrage" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **overlap** | Pass: "overlapping circles" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **overseas** | Pass: "overseas travel" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **overwhelm** | Pass: "overwhelmed student" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **patron** | Pass: "library patron" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **peak** | Pass: "mountain peak" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **plantation** | Pass: "tea plantation" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **plead** | Pass: "pleading eyes" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **poll** | Pass: "opinion poll" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pollinate** | Pass: "bee pollinating" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pollute** | Pass: "river pollution" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **populate** | Pass: "growing population" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **precaution** | Pass: "safety precaution" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **preliminary** | Pass: "first round" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **premise** | Pass: "basic idea" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **preside** | Pass: "leading meeting" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **prevalent** | Pass: "widespread common" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **primarily** | Pass: "especially first" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **procedure** | Pass: "step procedure" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **quota** | Pass: "quota target" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rational** | Pass: "logical thinking" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reaction** | Pass: "surprised reaction" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **recede** | Pass: "receding water" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reception** | Pass: "welcome reception" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **refer** | Pass: "reference book" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **refuge** | Pass: "safe refuge" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **regime** | Pass: "strict government" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **relay** | Pass: "relay race" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **render** | Pass: "snowy blocked road" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **renovate** | Pass: "renovating building" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **repeal** | Pass: "canceling law" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **replicate** | Pass: "copying exactly" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **resign** | Pass: "quitting job" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **restrain** | Pass: "holding back" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **retail** | Pass: "retail store" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **retrieve** | Pass: "fetching object" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **revolve** | Pass: "revolving planet" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **robust** | Pass: "strong oak tree" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rotate** | Pass: "rotating earth" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sanction** | Pass: "international sanctions" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **satellite** | Pass: "orbiting satellite" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **saturate** | Pass: "soaked saturated" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **scenario** | Pass: "possible situation" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sector** | Pass: "pie chart sector" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **senate** | Pass: "senate chamber" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **siege** | Pass: "castle siege" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **significance** | Pass: "great importance" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **simultaneous** | Pass: "same time" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **skeptical** | Pass: "doubting person" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **solemn** | Pass: "solemn serious" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **somewhat** | Pass: "partly somewhat" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sovereign** | Pass: "sovereign crown" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **spectrum** | Pass: "color spectrum" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **speculate** | Pass: "wondering guessing" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sphere** | Pass: "round sphere" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **stability** | Pass: "stable structure" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **stagger** | Pass: "staggering walk" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **stake** | Pass: "high stakes" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **statistic** | Pass: "data statistic" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **statute** | Pass: "written law" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **stereotype** | Pass: "unfair assumption" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **stimulate** | Pass: "brain stimulation" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subordinate** | Pass: "rank order" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subsequent** | Pass: "sequence arrows next" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subsidy** | Pass: "financial support" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **substance** | Pass: "chemical substance" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **substantial** | Pass: "large amount" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subtle** | Pass: "subtle difference" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **successor** | Pass: "next leader" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **summarize** | Pass: "brief summary" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **superb** | Pass: "excellent performance" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **supreme** | Pass: "supreme court" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **surplus** | Pass: "extra surplus" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **surrender** | Pass: "white flag" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **synthetic** | Pass: "synthetic fabric" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **tenant** | Pass: "apartment tenant" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **terminal** | Pass: "airport terminal" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **terrain** | Pass: "rocky terrain" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **testify** | Pass: "court testimony" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **texture** | Pass: "texture surfaces" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **therapy** | Pass: "physical therapy" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **threat** | Pass: "environmental threat" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **timber** | Pass: "timber logs" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **toxic** | Pass: "toxic warning" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **transaction** | Pass: "money transaction" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **transition** | Pass: "changing transition" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **transmit** | Pass: "transmitting signal" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **trigger** | Pass: "triggering event" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **turbulent** | Pass: "turbulent sky" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **twilight** | Pass: "twilight sky" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **ultimate** | Pass: "ultimate prize" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **undermine** | Pass: "weakening foundation" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **obstinate** | Pass: "stubborn child" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **obviate** | Pass: "preventing problem" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **onerous** | Pass: "heavy workload" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **opacity** | Pass: "murky water" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **opulence** | Pass: "luxurious palace" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **oration** | Pass: "formal speech podium" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **oscillation** | Pass: "pendulum swinging" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **ostensible** | Pass: "surface appearance" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **ostracism** | Pass: "excluded person" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **overture** | Pass: "friendly gesture" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **palatable** | Pass: "tasty food" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **panacea** | Pass: "magic remedy bottle" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **paragon** | Pass: "model person" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **paradoxical** | Pass: "contradiction" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **paucity** | Pass: "empty dry field" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pedagogue** | Pass: "strict teacher" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pedantic** | Pass: "correcting details" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pejorative** | Pass: "negative label" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **penitence** | Pass: "sorry apology" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **penultimate** | Pass: "second to last" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pernicious** | Pass: "hidden harm" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **perturbation** | Pass: "worried unease" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **petulance** | Pass: "cranky tantrum" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **placid** | Pass: "calm lake" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **platitude** | Pass: "empty words" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **plethora** | Pass: "many choices" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **poignant** | Pass: "emotional moment" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **polemic** | Pass: "strong argument" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **ponderous** | Pass: "heavy elephant" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **portentous** | Pass: "ominous clouds" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pragmatism** | Pass: "practical approach" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **precarious** | Pass: "teetering vase" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **precipitous** | Pass: "steep cliff" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **precursor** | Pass: "early sign" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **predilection** | Pass: "favorite choice" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **preeminent** | Pass: "top expert" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **preponderance** | Pass: "majority weight" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **presentiment** | Pass: "bad feeling" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **presumptuous** | Pass: "overstepping bounds" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **primordial** | Pass: "ancient rocks" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **probity** | Pass: "honest judge" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **proclivity** | Pass: "natural tendency" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **procrastinate** | Pass: "delaying work" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **prodigious** | Pass: "huge waterfall" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **profligate** | Pass: "wasting money" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **prognosticate** | Pass: "predicting weather" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **promulgation** | Pass: "announcing rules" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **propitious** | Pass: "favorable weather" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **proprietary** | Pass: "locked box with key" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **proscribe** | Pass: "forbidden sign" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **proselytize** | Pass: "persuading others" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **protracted** | Pass: "long meeting" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **provenance** | Pass: "origin history" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **provisional** | Pass: "temporary plan" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **prowess** | Pass: "athletic skill" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **prudence** | Pass: "careful thinking" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pugnacious** | Pass: "aggressive rooster" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **pulchritude** | Pass: "beautiful sunset" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **punctilious** | Pass: "perfect table setting" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **punitive** | Pass: "punishment penalty" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **quagmire** | Pass: "stuck in mud" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **qualm** | Pass: "hesitation doubt" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **quandary** | Pass: "confused choice" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **quarrelsome** | Pass: "arguing siblings" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **querulous** | Pass: "whiny child" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **quintessential** | Pass: "classic apple pie" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **quixotic** | Pass: "unrealistic dream" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rambunctious** | Pass: "energetic puppies" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rancor** | Pass: "bitter resentment" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rapacious** | Pass: "greedy pirate" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rapprochement** | Pass: "making peace" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rationale** | Pass: "reasoning explanation" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **recapitulate** | Pass: "summarizing points" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **recidivism** | Pass: "repeating mistakes" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reciprocity** | Pass: "mutual exchange" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reclamation** | Pass: "restoring land" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reconciliation** | Pass: "friends making up" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **redress** | Pass: "correcting wrong" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **redundancy** | Pass: "repeated copy" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **refurbish** | Pass: "fixing up old furniture" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reiterate** | Pass: "repeating message" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **relegate** | Pass: "moved to storage" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **remonstrate** | Pass: "protesting strongly" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **renunciation** | Pass: "giving up prize" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reparation** | Pass: "making amends" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reprehensible** | Pass: "wrong behavior" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **repudiation** | Pass: "rejecting falsehood" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **requisition** | Pass: "official request form" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rescind** | Pass: "canceling order" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **resignation** | Pass: "accepting defeat" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **resolute** | Pass: "determined climber" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **resurgent** | Pass: "comeback rising" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reticence** | Pass: "quiet reserved" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **retrospective** | Pass: "looking back history" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **revelry** | Pass: "party celebration" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **reverberate** | Pass: "echoing thunder" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **rigmarole** | Pass: "complicated paperwork" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **ruminate** | Pass: "deep thinking" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sacrosanct** | Pass: "sacred protected" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sagacious** | Pass: "wise grandmother" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **salient** | Pass: "important point" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sanguine** | Pass: "optimistic person" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sardonic** | Pass: "mocking humor" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **scrupulous** | Pass: "careful checking numbers" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **scrutinize** | Pass: "examining closely" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **sedentary** | Pass: "sitting desk" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **semblance** | Pass: "appearance order" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **serendipity** | Pass: "lucky discovery" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **servile** | Pass: "overly obedient" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **simultaneity** | Pass: "same time events" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **solace** | Pass: "comfort reading" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **solicitous** | Pass: "caring nurse" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **soporific** | Pass: "falling asleep" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **spurious** | Pass: "false claim" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **squalid** | Pass: "dirty messy room" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **stagnation** | Pass: "no growth still" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **stipend** | Pass: "small payment" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **stringent** | Pass: "strict rules sign" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subjugation** | Pass: "forced control" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subliminal** | Pass: "hidden message" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subordination** | Pass: "lower rank" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subservient** | Pass: "obedient robot" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **substantiation** | Pass: "proving evidence" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **subterfuge** | Pass: "secret trick" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **succinct** | Pass: "brief clear" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **symbiosis** | Pass: "bee and flower" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **tangential** | Pass: "off topic" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **tantamount** | Pass: "equal equivalent" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **temerity** | Pass: "bold nerve" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **temperance** | Pass: "self control" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **tenacity** | Pass: "persistent effort" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **tenet** | Pass: "core belief" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **tepid** | Pass: "lukewarm reaction" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **terse** | Pass: "short blunt" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **tirade** | Pass: "angry speech" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **torpor** | Pass: "sluggish lazy" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **tractable** | Pass: "obedient puppy" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **transient** | Pass: "brief rainbow" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **trepidation** | Pass: "nervous fear" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **truculent** | Pass: "aggressive arguing" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **ubiquity** | Pass: "everywhere phones" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **umbrage** | Pass: "offended person" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **unctuous** | Pass: "fake flattery" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **underpinning** | Pass: "foundation support" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **unequivocal** | Pass: "clear definite" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **unscrupulous** | Pass: "dishonest seller" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **usurpation** | Pass: "seizing power" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **utilitarian** | Pass: "practical useful" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **vacillate** | Pass: "indecisive choosing" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **vapid** | Pass: "boring show" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **vehemence** | Pass: "passionate argument" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **venerate** | Pass: "respected elder" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **veracious** | Pass: "honest reporter" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **verbose** | Pass: "too many words" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **vestige** | Pass: "ruins remains" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **vilification** | Pass: "cruel gossip" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **vindictive** | Pass: "vengeful person" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **virtuosity** | Pass: "skilled musician" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **vitriolic** | Pass: "harsh criticism" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **vociferous** | Pass: "loud protesters" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **volition** | Pass: "free choice" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **waiver** | Pass: "signing document" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **wanton** | Pass: "careless destruction" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **warranted** | Pass: "justified reason" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **wherewithal** | Pass: "resources needed" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **zealot** | Pass: "passionate activist" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **abnegation** | Pass: "selfless sacrifice" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **acerbic** | Pass: "sharp words" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **anachronism** | Pass: "out of time" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **anathema** | Pass: "strongly rejected" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **antithesis** | Pass: "complete opposite" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **asperity** | Pass: "harsh tone" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **calumny** | Pass: "false accusation" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **chicanery** | Pass: "dishonest trickery" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
+| **contumacious** | Pass: "defiant cat" is safe/clear | Pass: Def is accurate | Pass: Common meaning used | Pass: Safe for all modes (No homophone issues, clear context) |
