@@ -2,8 +2,6 @@
 
 说明：每个词一行（不跳过）。字段：L5-Def / L5-Ex / L6(遮词+四选一) / L7(文化敏感) / L8(学习路径)。
 
-汇总：共552词。L5-Def 能481/勉强70/不能1；L5-Ex 能462/勉强11/不能79；L6 能13/勉强532/不能7；L7 注意14；L8 不合适14/勉强58。
-
 - describe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[describe / effect / mention / weather] | L7:OK | L8:合适
 - explain | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:why)，易靠语感/蒙) | 选项:[cause / describe / explain / warn] | L7:OK | L8:合适
 - solve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exact / raise / solve / sum] | L7:OK | L8:合适
