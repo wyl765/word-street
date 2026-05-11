@@ -1,6 +1,20 @@
 # VERIFY-GPT — words-level5d.js — GATE
 
 > 每词一行：L5(10岁中国ESL孩子：definition能懂吗 + example能猜词吗) / L6(遮词四选一是否唯一) / 选项(同level 4选) / L7(文化敏感) / L8(level合适度+前置+顺序)
+
+## Quick stats (auto)
+- Words: 288
+- L5(def): 能 115, 勉强 135, 不能 38
+- L5(ex): 能 33, 勉强 54, 不能 201
+- L6: 唯一 168, 勉强 27, 不唯一 93
+- L7: OK 258, 注意 29
+- L8: 合适 247, 偏难 41
+- L7 topic flags:
+  - religion: consecrate, agnostic
+  - politics: amnesty, constituency, constitutional, impeachment, indictment, mediation, precinct, totalitarian, transparency, tribunal, dissident, filibuster
+  - war/military: amnesty, conscription, deportation, mercenary, secession, subjugate, utopian, attrition, cede
+  - crime/punishment: deterrent, indictment, notoriety, vindicate, exonerate
+  - death: consecrate, eulogy, dirge
 001. accusatory | L5:def=能; ex=能 | L6:唯一(线索够强)  | 选项:[accusatory / antagonist / ascendancy / compendium]| L7:OK | L8:合适(前置: 常见校园/生活词; 顺序:字母序OK)
 002. acidity | L5:def=能; ex=勉强 | L6:唯一(线索够强)  | 选项:[acidity / alacrity / fallacy / nurture]| L7:OK | L8:合适(前置: 常见校园/生活词; 顺序:字母序OK)
 003. acquaintance | L5:def=能; ex=能 | L6:唯一(线索够强)  | 选项:[acquaintance / articulation / commencement / condemnation]| L7:OK | L8:偏难(前置: 抽象名词/学术语用; 顺序:字母序OK)
