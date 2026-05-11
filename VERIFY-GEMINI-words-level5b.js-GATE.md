@@ -1,255 +1,255 @@
-# VERIFY-GEMINI-words-level5b.js-GATE
+# Gemini Review: words-level5b.js
 
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
+| Word | L9: Image | L10: Fact | L11: Sense | L12: Game |
 |---|---|---|---|---|
-| strategic | PASS | PASS | PASS | PASS |
-| subdivide | PASS | PASS | PASS | PASS |
-| successive | WARN: Long keyword | PASS | PASS | PASS |
-| tentative | PASS | PASS | PASS | PASS |
-| terrestrial | PASS | PASS | PASS | PASS |
-| thesis | PASS | PASS | PASS | PASS |
-| threshold | PASS | PASS | PASS | PASS |
-| trajectory | PASS | PASS | PASS | PASS |
-| transcend | PASS | PASS | PASS | PASS |
-| trivial | PASS | PASS | PASS | PASS |
-| turbine | PASS | PASS | PASS | PASS |
-| unify | PASS | PASS | PASS | PASS |
-| vicinity | PASS | PASS | PASS | PASS |
-| whereby | PASS | PASS | PASS | PASS |
-| abrasive | PASS | PASS | PASS | PASS |
-| abstain | PASS | PASS | PASS | PASS |
-| accessible | PASS | PASS | PASS | PASS |
-| acclaim | PASS | PASS | PASS | PASS |
-| accountable | PASS | PASS | PASS | PASS |
-| acquisition | PASS | PASS | PASS | PASS |
-| adamant | PASS | PASS | PASS | PASS |
-| admonish | PASS | PASS | PASS | PASS |
-| adverse | PASS | PASS | PASS | PASS |
-| aesthetic | PASS | PASS | PASS | PASS |
-| affiliation | PASS | PASS | PASS | PASS |
-| aggravate | PASS | PASS | PASS | PASS |
-| agile | PASS | PASS | PASS | PASS |
-| albeit | PASS | PASS | PASS | PASS |
-| allegation | PASS | PASS | PASS | PASS |
-| alleviate | WARN: Long keyword | PASS | PASS | PASS |
-| amalgamate | PASS | PASS | PASS | PASS |
-| analogy | WARN: Long keyword | PASS | PASS | PASS |
-| annex | PASS | PASS | PASS | PASS |
-| anomaly | WARN: Long keyword | PASS | PASS | PASS |
-| anthology | PASS | PASS | PASS | PASS |
-| appease | PASS | PASS | PASS | PASS |
-| appendix | PASS | PASS | PASS | PASS |
-| appraise | PASS | PASS | PASS | PASS |
-| apprehensive | PASS | PASS | PASS | PASS |
-| apt | PASS | PASS | PASS | PASS |
-| arable | PASS | PASS | PASS | PASS |
-| arduous | PASS | PASS | PASS | PASS |
-| ascend | PASS | PASS | PASS | PASS |
-| assimilate | PASS | PASS | PASS | PASS |
-| atrocity | PASS | PASS | PASS | PASS |
-| attribute | PASS | PASS | PASS | PASS |
-| audit | PASS | PASS | PASS | PASS |
-| authoritative | PASS | PASS | PASS | PASS |
-| aversion | PASS | PASS | PASS | PASS |
-| bandwidth | PASS | PASS | PASS | PASS |
-| barometer | PASS | PASS | PASS | PASS |
-| bisect | PASS | PASS | PASS | PASS |
-| bloc | PASS | PASS | PASS | PASS |
-| brevity | PASS | PASS | PASS | PASS |
-| brink | PASS | PASS | PASS | PASS |
-| bureaucrat | PASS | PASS | PASS | PASS |
-| cardinal | WARN: Long keyword | PASS | PASS | PASS |
-| cavalry | PASS | PASS | PASS | PASS |
-| circumvent | PASS | PASS | PASS | PASS |
-| collateral | PASS | PASS | PASS | PASS |
-| communal | PASS | PASS | PASS | PASS |
-| comparable | WARN: Long keyword | PASS | PASS | PASS |
-| competent | PASS | PASS | PASS | PASS |
-| complacent | PASS | PASS | PASS | PASS |
-| concise | PASS | PASS | PASS | PASS |
-| conducive | PASS | PASS | PASS | PASS |
-| conjunction | PASS | PASS | PASS | PASS |
-| conquest | PASS | PASS | PASS | PASS |
-| constituent | PASS | PASS | PASS | PASS |
-| contraband | PASS | PASS | PASS | PASS |
-| converge | PASS | PASS | PASS | PASS |
-| corrode | PASS | PASS | PASS | PASS |
-| coup | PASS | PASS | PASS | PASS |
-| covert | PASS | PASS | PASS | PASS |
-| decisive | PASS | PASS | PASS | PASS |
-| declaration | PASS | PASS | PASS | PASS |
-| decree | PASS | PASS | PASS | PASS |
-| deduce | PASS | PASS | PASS | PASS |
-| default | PASS | PASS | PASS | PASS |
-| defer | PASS | PASS | PASS | PASS |
-| degradation | PASS | PASS | PASS | PASS |
-| deliberation | PASS | PASS | PASS | PASS |
-| delinquent | PASS | PASS | PASS | PASS |
-| depreciate | PASS | PASS | PASS | PASS |
-| detrimental | PASS | PASS | PASS | PASS |
-| diffuse | PASS | PASS | PASS | PASS |
-| discern | PASS | PASS | PASS | PASS |
-| discriminate | PASS | PASS | PASS | PASS |
-| dismissal | PASS | PASS | PASS | PASS |
-| dispatch | PASS | PASS | PASS | PASS |
-| disseminate | PASS | PASS | PASS | PASS |
-| diverge | PASS | PASS | PASS | PASS |
-| dweller | PASS | PASS | PASS | PASS |
-| edict | PASS | PASS | PASS | PASS |
-| efficacy | PASS | PASS | PASS | PASS |
-| electorate | PASS | PASS | PASS | PASS |
-| elite | PASS | PASS | PASS | PASS |
-| embark | PASS | PASS | PASS | PASS |
-| emulate | PASS | PASS | PASS | PASS |
-| enact | PASS | PASS | PASS | PASS |
-| endeavor | PASS | PASS | PASS | PASS |
-| endow | PASS | PASS | PASS | PASS |
-| engender | PASS | PASS | PASS | PASS |
-| enigma | PASS | PASS | PASS | PASS |
-| ensue | WARN: Long keyword | PASS | PASS | PASS |
-| entail | PASS | PASS | PASS | PASS |
-| epoch | PASS | PASS | PASS | PASS |
-| equity | PASS | PASS | PASS | PASS |
-| erratic | PASS | PASS | PASS | PASS |
-| essence | PASS | PASS | PASS | PASS |
-| exacerbate | WARN: Long keyword | PASS | PASS | PASS |
-| excavate | PASS | PASS | PASS | PASS |
-| exclusive | PASS | PASS | PASS | PASS |
-| exemplify | PASS | PASS | PASS | PASS |
-| expedite | WARN: Long keyword | PASS | PASS | PASS |
-| exponential | PASS | PASS | PASS | PASS |
-| extravagant | PASS | PASS | PASS | PASS |
-| facade | PASS | PASS | PASS | PASS |
-| fathom | PASS | PASS | PASS | PASS |
-| feat | PASS | PASS | PASS | PASS |
-| fidelity | PASS | PASS | PASS | PASS |
-| flora | PASS | PASS | PASS | PASS |
-| foreclose | PASS | PASS | PASS | PASS |
-| forthcoming | PASS | PASS | PASS | PASS |
-| forum | PASS | PASS | PASS | PASS |
-| foster | PASS | PASS | PASS | PASS |
-| fugitive | PASS | PASS | PASS | PASS |
-| futile | PASS | PASS | PASS | PASS |
-| genesis | WARN: Long keyword | PASS | PASS | PASS |
-| geopolitical | PASS | PASS | PASS | PASS |
-| gist | PASS | PASS | PASS | PASS |
-| grandiose | PASS | PASS | PASS | PASS |
-| grassroots | PASS | PASS | PASS | PASS |
-| gratitude | PASS | PASS | PASS | PASS |
-| gross domestic product | PASS | PASS | PASS | PASS |
-| groundwater | PASS | PASS | PASS | PASS |
-| guerrilla | PASS | PASS | PASS | PASS |
-| habitual | PASS | PASS | PASS | PASS |
-| hamper | PASS | PASS | PASS | PASS |
-| harbinger | PASS | PASS | PASS | PASS |
-| harness | PASS | PASS | PASS | PASS |
-| haven | PASS | PASS | PASS | PASS |
-| hazardous | PASS | PASS | PASS | PASS |
-| hereditary | PASS | PASS | PASS | PASS |
-| homogeneous | PASS | PASS | PASS | PASS |
-| humility | PASS | PASS | PASS | PASS |
-| hybrid | PASS | PASS | PASS | PASS |
-| hypothetical | PASS | PASS | PASS | PASS |
-| illicit | PASS | PASS | PASS | PASS |
-| immerse | PASS | PASS | PASS | PASS |
-| impair | PASS | PASS | PASS | PASS |
-| impartial | PASS | PASS | PASS | PASS |
-| impede | PASS | PASS | PASS | PASS |
-| implore | PASS | PASS | PASS | PASS |
-| improvise | WARN: Long keyword | PASS | PASS | PASS |
-| incite | WARN: Long keyword | PASS | PASS | PASS |
-| inclusive | PASS | PASS | PASS | PASS |
-| increment | PASS | PASS | PASS | PASS |
-| incumbent | PASS | PASS | PASS | PASS |
-| indiscriminate | PASS | PASS | PASS | PASS |
-| influx | WARN: Long keyword | PASS | PASS | PASS |
-| initiation | PASS | PASS | PASS | PASS |
-| injunction | PASS | PASS | PASS | PASS |
-| insurgent | PASS | PASS | PASS | PASS |
-| intermittent | WARN: Long keyword | PASS | PASS | PASS |
-| invariably | PASS | PASS | PASS | PASS |
-| irrevocable | PASS | PASS | PASS | PASS |
-| jeopardize | PASS | PASS | PASS | PASS |
-| kinship | PASS | PASS | PASS | PASS |
-| labyrinth | PASS | PASS | PASS | PASS |
-| lament | PASS | PASS | PASS | PASS |
-| legacy | PASS | PASS | PASS | PASS |
-| legislative | PASS | PASS | PASS | PASS |
-| litigation | PASS | PASS | PASS | PASS |
-| lobby | PASS | PASS | PASS | PASS |
-| maiden | PASS | PASS | PASS | PASS |
-| malfunction | PASS | PASS | PASS | PASS |
-| maneuver | PASS | PASS | PASS | PASS |
-| martial | PASS | PASS | PASS | PASS |
-| meager | PASS | PASS | PASS | PASS |
-| mercantile | PASS | PASS | PASS | PASS |
-| pinnacle | PASS | PASS | PASS | PASS |
-| pious | PASS | PASS | PASS | PASS |
-| plaintive | PASS | PASS | PASS | PASS |
-| precept | PASS | PASS | PASS | PASS |
-| precocious | PASS | PASS | PASS | PASS |
-| predatory | PASS | PASS | PASS | PASS |
-| predominate | PASS | PASS | PASS | PASS |
-| premonition | PASS | PASS | PASS | PASS |
-| preposterous | PASS | PASS | PASS | PASS |
-| pretentious | WARN: Long keyword | PASS | PASS | PASS |
-| pristine | PASS | PASS | PASS | PASS |
-| profuse | PASS | PASS | PASS | PASS |
-| prognosis | PASS | PASS | PASS | PASS |
-| prolific | PASS | PASS | PASS | PASS |
-| protract | PASS | PASS | PASS | PASS |
-| rampant | PASS | PASS | PASS | PASS |
-| raucous | PASS | PASS | PASS | PASS |
-| raze | WARN: Long keyword | PASS | PASS | PASS |
-| rebuff | PASS | PASS | PASS | PASS |
-| recourse | PASS | PASS | PASS | PASS |
-| rectify | PASS | PASS | PASS | PASS |
-| regimen | PASS | PASS | PASS | PASS |
-| relentless | PASS | PASS | PASS | PASS |
-| renegade | PASS | PASS | PASS | PASS |
-| repertoire | PASS | PASS | PASS | PASS |
-| reprove | PASS | PASS | PASS | PASS |
-| repugnant | PASS | PASS | PASS | PASS |
-| resonate | PASS | PASS | PASS | PASS |
-| reticent | PASS | PASS | PASS | PASS |
-| riveting | PASS | PASS | PASS | PASS |
-| rudiment | WARN: Long keyword | PASS | PASS | PASS |
-| scathing | PASS | PASS | PASS | PASS |
-| seclusion | PASS | PASS | PASS | PASS |
-| semantic | PASS | PASS | PASS | PASS |
-| sentinel | PASS | PASS | PASS | PASS |
-| shrewd | PASS | PASS | PASS | PASS |
-| sluggish | PASS | PASS | PASS | PASS |
-| sober | PASS | PASS | PASS | PASS |
-| solitude | PASS | PASS | PASS | PASS |
-| solvent | PASS | PASS | PASS | PASS |
-| sordid | PASS | PASS | PASS | PASS |
-| spawn | PASS | PASS | PASS | PASS |
-| steadfast | PASS | PASS | PASS | PASS |
-| stigma | PASS | PASS | PASS | PASS |
-| stoic | PASS | PASS | PASS | PASS |
-| stratagem | PASS | PASS | PASS | PASS |
-| sublime | PASS | PASS | PASS | PASS |
-| succumb | WARN: Long keyword | PASS | PASS | PASS |
-| superficial | PASS | PASS | PASS | PASS |
-| supplant | PASS | PASS | PASS | PASS |
-| susceptible | PASS | PASS | PASS | PASS |
-| symposium | PASS | PASS | PASS | PASS |
-| tacit | PASS | PASS | PASS | PASS |
-| taciturn | PASS | PASS | PASS | PASS |
-| tact | PASS | PASS | PASS | PASS |
-| temperate | PASS | PASS | PASS | PASS |
-| tenacious | PASS | PASS | PASS | PASS |
-| tout | PASS | PASS | PASS | PASS |
-| transgress | PASS | PASS | PASS | PASS |
-| trite | PASS | PASS | PASS | PASS |
-| turmoil | PASS | PASS | PASS | PASS |
-| ulterior | PASS | PASS | PASS | PASS |
-| unabated | PASS | PASS | PASS | PASS |
-| unassuming | PASS | PASS | PASS | PASS |
-| underscore | PASS | PASS | PASS | PASS |
-| unfettered | PASS | PASS | PASS | PASS |
-| unobtrusive | PASS | PASS | PASS | PASS |
-| unorthodox | PASS | PASS | PASS | PASS |
-| untenable | PASS | PASS | PASS | PASS |
-| unwitting | PASS | PASS | PASS | PASS |
+| strategic | Pass: chess planning is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| subdivide | Pass: dividing land is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| successive | Pass: dominoes falling row is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| tentative | Pass: uncertain plan is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| terrestrial | Pass: land animal is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| thesis | Pass: main argument is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| threshold | Pass: crossing point is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| trajectory | Pass: curved path is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| transcend | Pass: going beyond is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| trivial | Pass: tiny unimportant is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| turbine | Pass: spinning blades is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| unify | Pass: joining together is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| vicinity | Pass: nearby area is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| whereby | Pass: method system is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| abrasive | Pass: sandpaper wood is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| abstain | Pass: stepping back is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| accessible | Pass: wheelchair ramp is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| acclaim | Pass: standing ovation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| accountable | Pass: taking responsibility is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| acquisition | Pass: gaining treasure is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| adamant | Pass: firm stubborn is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| admonish | Pass: stern warning is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| adverse | Pass: bad conditions is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| aesthetic | Pass: beautiful design is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| affiliation | Pass: connected member is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| aggravate | Pass: making worse is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| agile | Pass: quick gymnast is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| albeit | Pass: even though is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| allegation | Pass: accusation claim is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| alleviate | Pass: relief medicine helping is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| amalgamate | Pass: merging together is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| analogy | Pass: puzzle pieces matching is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| annex | Pass: added building is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| anomaly | Pass: odd one out is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| anthology | Pass: story collection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| appease | Pass: calming down is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| appendix | Pass: book extra is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| appraise | Pass: evaluating value is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| apprehensive | Pass: nervous feeling is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| apt | Pass: fitting perfectly is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| arable | Pass: fertile farmland is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| arduous | Pass: difficult climb is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| ascend | Pass: climbing upward is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| assimilate | Pass: absorbing knowledge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| atrocity | Pass: terrible cruelty is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| attribute | Pass: quality trait is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| audit | Pass: checking records is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| authoritative | Pass: expert source is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| aversion | Pass: avoiding strongly is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bandwidth | Pass: data speed is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| barometer | Pass: pressure gauge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bisect | Pass: cutting half is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bloc | Pass: united group is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| brevity | Pass: short concise is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| brink | Pass: cliff edge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bureaucrat | Pass: official paperwork is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| cardinal | Pass: gold number one trophy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| cavalry | Pass: horse soldiers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| circumvent | Pass: going around is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| collateral | Pass: security pledge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| communal | Pass: shared garden is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| comparable | Pass: side by side is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| competent | Pass: skilled capable is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| complacent | Pass: lazy relaxed is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| concise | Pass: short clear is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| conducive | Pass: helpful environment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| conjunction | Pass: connecting words is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| conquest | Pass: taking over is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| constituent | Pass: local voter is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| contraband | Pass: illegal goods is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| converge | Pass: meeting point is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| corrode | Pass: rusty metal is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| coup | Pass: power seize is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| covert | Pass: hidden secret is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| decisive | Pass: quick decision is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| declaration | Pass: official statement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| decree | Pass: royal order is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| deduce | Pass: logical thinking is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| default | Pass: automatic setting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| defer | Pass: postponing later is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| degradation | Pass: wearing down is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| deliberation | Pass: careful thinking is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| delinquent | Pass: troubled youth is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| depreciate | Pass: losing value is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| detrimental | Pass: harmful effect is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| diffuse | Pass: spreading out is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| discern | Pass: spotting hidden is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| discriminate | Pass: unfair treatment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dismissal | Pass: sending away is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dispatch | Pass: sending quickly is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| disseminate | Pass: spreading widely is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| diverge | Pass: splitting paths is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dweller | Pass: city resident is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| edict | Pass: official announcement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| efficacy | Pass: working result is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| electorate | Pass: voting public is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| elite | Pass: top performers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| embark | Pass: starting journey is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| emulate | Pass: copying hero is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| enact | Pass: passing law is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| endeavor | Pass: serious effort is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| endow | Pass: giving gift is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| engender | Pass: creating feeling is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| enigma | Pass: mysterious puzzle is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| ensue | Pass: chain reaction dominoes is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| entail | Pass: requiring work is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| epoch | Pass: new era is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| equity | Pass: fair balance is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| erratic | Pass: unpredictable path is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| essence | Pass: core quality is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exacerbate | Pass: pouring fuel on fire is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| excavate | Pass: digging site is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exclusive | Pass: members only is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exemplify | Pass: perfect example is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| expedite | Pass: express delivery truck is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exponential | Pass: rapid growth is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| extravagant | Pass: lavish party is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| facade | Pass: building front is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fathom | Pass: deep understanding is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| feat | Pass: amazing achievement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fidelity | Pass: faithful accurate is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| flora | Pass: plant life is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| foreclose | Pass: losing home is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| forthcoming | Pass: coming soon is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| forum | Pass: public discussion is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| foster | Pass: nurturing growth is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fugitive | Pass: person running is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| futile | Pass: hopeless attempt is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| genesis | Pass: seed sprouting soil is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| geopolitical | Pass: world politics is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| gist | Pass: main point is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| grandiose | Pass: huge ambitious is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| grassroots | Pass: people movement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| gratitude | Pass: thankful heart is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| gross domestic product | Pass: national economy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| groundwater | Pass: underground water is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| guerrilla | Pass: hidden fighters is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| habitual | Pass: repeated behavior is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| hamper | Pass: slowing down is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| harbinger | Pass: early sign is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| harness | Pass: using power is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| haven | Pass: safe place is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| hazardous | Pass: danger warning is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| hereditary | Pass: family genes is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| homogeneous | Pass: uniform mixture is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| humility | Pass: modest person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| hybrid | Pass: mixed vehicle is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| hypothetical | Pass: imaginary scenario is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| illicit | Pass: forbidden activity is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| immerse | Pass: diving deep is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| impair | Pass: damaging ability is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| impartial | Pass: balanced fair is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| impede | Pass: blocking path is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| implore | Pass: begging please is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| improvise | Pass: quick thinking stage is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| incite | Pass: angry crowd protest is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| inclusive | Pass: everyone welcome is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| increment | Pass: small step is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| incumbent | Pass: current holder is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| indiscriminate | Pass: without choosing is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| influx | Pass: crowd rushing gate is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| initiation | Pass: beginning ceremony is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| injunction | Pass: court order is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| insurgent | Pass: rebel fighter is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| intermittent | Pass: flickering light bulb is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| invariably | Pass: always same is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| irrevocable | Pass: cannot undo is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| jeopardize | Pass: risking loss is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| kinship | Pass: family bond is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| labyrinth | Pass: complex maze is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| lament | Pass: feeling sad is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| legacy | Pass: lasting gift is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| legislative | Pass: making laws is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| litigation | Pass: court case is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| lobby | Pass: persuading officials is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| maiden | Pass: first voyage is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| malfunction | Pass: broken machine is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| maneuver | Pass: skillful move is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| martial | Pass: military training is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| meager | Pass: very little is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| mercantile | Pass: trading shop is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| pinnacle | Pass: mountain top is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| pious | Pass: praying figure is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| plaintive | Pass: sad puppy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| precept | Pass: golden rule is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| precocious | Pass: young reader is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| predatory | Pass: hunting eagle is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| predominate | Pass: most common is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| premonition | Pass: sensing danger is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| preposterous | Pass: absurd idea is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| pretentious | Pass: fancy show off is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| pristine | Pass: clean beach is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| profuse | Pass: overflowing thanks is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| prognosis | Pass: medical forecast is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| prolific | Pass: many books is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| protract | Pass: stretching time is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| rampant | Pass: wild weeds is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| raucous | Pass: loud party is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| raze | Pass: wrecking ball building is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| rebuff | Pass: hand stop is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| recourse | Pass: help option is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| rectify | Pass: fixing mistake is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| regimen | Pass: workout plan is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| relentless | Pass: endless rain is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| renegade | Pass: lone rebel is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| repertoire | Pass: varied collection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| reprove | Pass: gentle scold is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| repugnant | Pass: disgusted face is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| resonate | Pass: echoing bell is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| reticent | Pass: quiet person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| riveting | Pass: gripping story is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| rudiment | Pass: basic building blocks is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| scathing | Pass: harsh criticism is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| seclusion | Pass: remote cabin is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| semantic | Pass: word meaning is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| sentinel | Pass: standing guard is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| shrewd | Pass: clever negotiator is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| sluggish | Pass: slow river is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| sober | Pass: serious talk is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| solitude | Pass: walking alone is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| solvent | Pass: stable finances is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| sordid | Pass: dirty room is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| spawn | Pass: creating many is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| steadfast | Pass: unmovable anchor is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| stigma | Pass: shame mark is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| stoic | Pass: strong silent is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| stratagem | Pass: clever plan is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| sublime | Pass: breathtaking view is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| succumb | Pass: white flag surrender is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| superficial | Pass: surface scratch is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| supplant | Pass: replacing old is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| susceptible | Pass: vulnerable target is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| symposium | Pass: expert meeting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| tacit | Pass: unspoken understanding is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| taciturn | Pass: quiet man is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| tact | Pass: gentle words is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| temperate | Pass: mild weather is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| tenacious | Pass: clinging vine is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| tout | Pass: promoting product is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| transgress | Pass: crossing line is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| trite | Pass: recycled idea is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| turmoil | Pass: chaos swirl is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| ulterior | Pass: hidden motive is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| unabated | Pass: nonstop noise is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| unassuming | Pass: quiet hero is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| underscore | Pass: highlighting point is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| unfettered | Pass: free bird is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| unobtrusive | Pass: hidden camera is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| unorthodox | Pass: unusual method is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| untenable | Pass: crumbling wall is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| unwitting | Pass: unaware person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |

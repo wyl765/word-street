@@ -1,305 +1,305 @@
-# GEMINI VERIFICATION REPORT - words-level4a.js
+# Gemini Review: words-level4a.js
 
-| Word | Level | L9: Image Check | L10: Fact Check | L11: Meaning Check | L12: Game Check | Status |
-|---|---|---|---|---|---|---|
-| abandon | 4 | imageKeyword 'abandoned ship' yields clear, safe images suitable for 10yo | Definition 'to leave something behind and not come back for it' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| abbreviation | 4 | imageKeyword 'abbreviation list' yields clear, safe images suitable for 10yo | Definition 'a shortened form of a word or phrase' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| accuse | 4 | imageKeyword 'pointing finger' yields clear, safe images suitable for 10yo | Definition 'to say someone did something wrong' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| aggressive | 4 | imageKeyword 'growling dog' yields clear, safe images suitable for 10yo | Definition 'acting in a forceful or hostile way, ready to fight' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| alliance | 4 | imageKeyword 'handshake deal' yields clear, safe images suitable for 10yo | Definition 'an agreement between groups to work together' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| alter | 4 | imageKeyword 'altering clothes' yields clear, safe images suitable for 10yo | Definition 'to change something without replacing it completely' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| alternative | 4 | imageKeyword 'fork road' yields clear, safe images suitable for 10yo | Definition 'another choice; something you can choose instead' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| appreciate | 4 | imageKeyword 'grateful thanks' yields clear, safe images suitable for 10yo | Definition 'to understand the value of something and feel thankful for it' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| architect | 4 | imageKeyword 'architect blueprints' yields clear, safe images suitable for 10yo | Definition 'a person who designs buildings and things that are built' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| arctic | 4 | imageKeyword 'arctic ice' yields clear, safe images suitable for 10yo | Definition 'relating to the area around the North Pole, where it is very cold' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| arise | 4 | imageKeyword 'problem appearing' yields clear, safe images suitable for 10yo | Definition 'to start up or come to be' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| assess | 4 | imageKeyword 'evaluating carefully' yields clear, safe images suitable for 10yo | Definition 'to judge how good, important, or serious something is' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| associate | 4 | imageKeyword 'connecting ideas' yields clear, safe images suitable for 10yo | Definition 'to connect one thing with another in your mind' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| atom | 4 | imageKeyword 'atom model' yields clear, safe images suitable for 10yo | Definition 'the smallest unit of a chemical element, such as oxygen or gold' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| aviation | 4 | imageKeyword 'airplane flying' yields clear, safe images suitable for 10yo | Definition 'the science and practice of flying aircraft' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| awkward | 4 | imageKeyword 'awkward moment' yields clear, safe images suitable for 10yo | Definition 'causing or feeling embarrassment, or clumsy in a situation' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| biome | 4 | imageKeyword 'biome types' yields clear, safe images suitable for 10yo | Definition 'a large area with a particular climate, plants, and animals' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| bizarre | 4 | imageKeyword 'strange creature' yields clear, safe images suitable for 10yo | Definition 'very strange or odd in a shocking way' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| bland | 4 | imageKeyword 'plain food' yields clear, safe images suitable for 10yo | Definition 'having almost no taste or seasoning' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| bleak | 4 | imageKeyword 'bleak landscape' yields clear, safe images suitable for 10yo | Definition 'cold, empty, and without hope or happiness' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| blur | 4 | imageKeyword 'blurry vision' yields clear, safe images suitable for 10yo | Definition 'something you cannot see clearly because it's out of focus' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| bond | 4 | imageKeyword 'close friendship' yields clear, safe images suitable for 10yo | Definition 'a strong connection or feeling between people' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| boom | 4 | imageKeyword 'building boom' yields clear, safe images suitable for 10yo | Definition 'a loud deep sound, or a time of rapid growth' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| brace | 4 | imageKeyword 'bracing impact' yields clear, safe images suitable for 10yo | Definition 'to prepare yourself for something hard or not nice' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| breakthrough | 4 | imageKeyword 'scientific discovery' yields clear, safe images suitable for 10yo | Definition 'an important discovery or achievement after much effort' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| breed | 4 | imageKeyword 'dog breeds' yields clear, safe images suitable for 10yo | Definition 'a particular type within a species of animal' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| browse | 4 | imageKeyword 'browsing books' yields clear, safe images suitable for 10yo | Definition 'to look through things casually; to look around' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| cabinet | 4 | imageKeyword 'kitchen cabinet' yields clear, safe images suitable for 10yo | Definition 'a piece of furniture with shelves and doors for storing things' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| captive | 4 | imageKeyword 'caged bird' yields clear, safe images suitable for 10yo | Definition 'held as a prisoner or kept in an enclosed space' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| career | 4 | imageKeyword 'career paths' yields clear, safe images suitable for 10yo | Definition 'a job or profession someone does for many years' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| cargo | 4 | imageKeyword 'cargo ship' yields clear, safe images suitable for 10yo | Definition 'goods carried by a ship, truck, or airplane' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| catalog | 4 | imageKeyword 'library catalog' yields clear, safe images suitable for 10yo | Definition 'a list of things sorted in a certain order' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| category | 4 | imageKeyword 'sorting categories' yields clear, safe images suitable for 10yo | Definition 'a group of things that share alike features' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| ceremony | 4 | imageKeyword 'ceremony stage' yields clear, safe images suitable for 10yo | Definition 'a formal event with special actions to mark an important occasion' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| chamber | 4 | imageKeyword 'heart chambers' yields clear, safe images suitable for 10yo | Definition 'a room or enclosed space used for a special purpose' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| chaos | 4 | imageKeyword 'total chaos' yields clear, safe images suitable for 10yo | Definition 'complete disorder and confusion' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| characteristic | 4 | imageKeyword 'zebra stripes' yields clear, safe images suitable for 10yo | Definition 'a thing about you or quality that makes something recognizable' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| charity | 4 | imageKeyword 'charity donation' yields clear, safe images suitable for 10yo | Definition 'an organization that helps people in need; the act of giving to help others' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| chemical | 4 | imageKeyword 'chemical reaction' yields clear, safe images suitable for 10yo | Definition 'a substance made through chemistry or found in nature' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| civic | 4 | imageKeyword 'civic duty' yields clear, safe images suitable for 10yo | Definition 'about the rights and responsibilities of people living in a community' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| clause | 4 | imageKeyword 'sentence parts' yields clear, safe images suitable for 10yo | Definition 'a group of words with a subject and verb that forms part of a sentence' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| client | 4 | imageKeyword 'business meeting' yields clear, safe images suitable for 10yo | Definition 'a person who pays for paid expert services' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| commerce | 4 | imageKeyword 'trade commerce' yields clear, safe images suitable for 10yo | Definition 'the buying and selling of goods between people or countries' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| compose | 4 | imageKeyword 'composing music' yields clear, safe images suitable for 10yo | Definition 'to create or write something like music or text' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| comprehend | 4 | imageKeyword 'understanding concept' yields clear, safe images suitable for 10yo | Definition 'to fully understand something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| concept | 4 | imageKeyword 'idea lightbulb' yields clear, safe images suitable for 10yo | Definition 'an idea or thought about how something works' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| concrete | 4 | imageKeyword 'specific example' yields clear, safe images suitable for 10yo | Definition 'real and exact rather than vague or abstract, or a hard building material' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| condition | 4 | imageKeyword 'book condition' yields clear, safe images suitable for 10yo | Definition 'the state something is in, or a rule that must be met' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| conference | 4 | imageKeyword 'conference meeting' yields clear, safe images suitable for 10yo | Definition 'a meeting where people discuss a certain topic' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| confess | 4 | imageKeyword 'confessing truth' yields clear, safe images suitable for 10yo | Definition 'to admit something you did wrong or kept secret' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| conform | 4 | imageKeyword 'following rules' yields clear, safe images suitable for 10yo | Definition 'to follow rules or to act in a way like everyone else' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| conscience | 4 | imageKeyword 'moral compass' yields clear, safe images suitable for 10yo | Definition 'the inner feeling that tells you what is right and wrong' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| consensus | 4 | imageKeyword 'group agreement' yields clear, safe images suitable for 10yo | Definition 'general agreement reached by a group of people' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| consume | 4 | imageKeyword 'eating consuming' yields clear, safe images suitable for 10yo | Definition 'to eat, drink, or use up something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| contact | 4 | imageKeyword 'making contact' yields clear, safe images suitable for 10yo | Definition 'to reach out to someone by phone, email, or in person' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| contaminate | 4 | imageKeyword 'water pollution' yields clear, safe images suitable for 10yo | Definition 'to make something dirty or unsafe by adding harmful substances' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| context | 4 | imageKeyword 'reading context' yields clear, safe images suitable for 10yo | Definition 'the facts around something that help explain its meaning' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| contract | 4 | imageKeyword 'metal shrinking cold' yields clear, safe images suitable for 10yo | Definition 'a written agreement between people, or to shrink in size' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| council | 4 | imageKeyword 'council meeting' yields clear, safe images suitable for 10yo | Definition 'a group of people chosen to make decisions for others' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| courtesy | 4 | imageKeyword 'polite manners' yields clear, safe images suitable for 10yo | Definition 'polite behavior that shows respect for others' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| craft | 4 | imageKeyword 'handmade craft' yields clear, safe images suitable for 10yo | Definition 'a skill or activity involving making things by hand, or to carefully create something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| crane | 4 | imageKeyword 'construction crane' yields clear, safe images suitable for 10yo | Definition 'a large machine for lifting heavy objects, or a tall wading bird' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| crave | 4 | imageKeyword 'craving food' yields clear, safe images suitable for 10yo | Definition 'to want something very badly' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| credible | 4 | imageKeyword 'trustworthy source' yields clear, safe images suitable for 10yo | Definition 'able to be believed and trusted as true' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| crude | 4 | imageKeyword 'crude tools' yields clear, safe images suitable for 10yo | Definition 'in a rough or natural state; not refined' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| customary | 4 | imageKeyword 'traditional custom' yields clear, safe images suitable for 10yo | Definition 'done according to what people have always done or usual practice' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| decay | 4 | imageKeyword 'decaying wood' yields clear, safe images suitable for 10yo | Definition 'to slowly break down and rot over time' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| deceive | 4 | imageKeyword 'magic trick' yields clear, safe images suitable for 10yo | Definition 'to trick someone into believing something that isn't true' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| declare | 4 | imageKeyword 'official announcement' yields clear, safe images suitable for 10yo | Definition 'to say something in a strong, official way' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| defect | 4 | imageKeyword 'product flaw' yields clear, safe images suitable for 10yo | Definition 'a flaw or weakness in something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| defy | 4 | imageKeyword 'defying gravity' yields clear, safe images suitable for 10yo | Definition 'to refuse to obey or to challenge something boldly' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| deprive | 4 | imageKeyword 'lacking sleep' yields clear, safe images suitable for 10yo | Definition 'to take away something important from someone' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| devastate | 4 | imageKeyword 'hurricane damage' yields clear, safe images suitable for 10yo | Definition 'to destroy completely or cause great sadness' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| diplomat | 4 | imageKeyword 'diplomat meeting' yields clear, safe images suitable for 10yo | Definition 'a person whose job is to represent their country in talks with other nations' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| disclose | 4 | imageKeyword 'revealing secret' yields clear, safe images suitable for 10yo | Definition 'to tell or show something that was secret or unknown' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| discount | 4 | imageKeyword 'sale discount' yields clear, safe images suitable for 10yo | Definition 'a reduction in the usual price of something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| discrimination | 4 | imageKeyword 'equality fairness' yields clear, safe images suitable for 10yo | Definition 'unfair treatment of people based on their group rather than who they are' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| dominant | 4 | imageKeyword 'alpha wolf' yields clear, safe images suitable for 10yo | Definition 'strongest or most in control' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| dormant | 4 | imageKeyword 'dormant volcano' yields clear, safe images suitable for 10yo | Definition 'alive but not active or growing at the moment' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| drain | 4 | imageKeyword 'draining water' yields clear, safe images suitable for 10yo | Definition 'to take away liquid from something, or a pipe or path that carries water away' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| dynamic | 4 | imageKeyword 'dynamic energy' yields clear, safe images suitable for 10yo | Definition 'full of power and always changing' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| earnest | 4 | imageKeyword 'sincere promise' yields clear, safe images suitable for 10yo | Definition 'very serious and sincere about what you mean' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| eclipse | 4 | imageKeyword 'solar eclipse' yields clear, safe images suitable for 10yo | Definition 'an event where one object in space blocks light from reaching another' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| ecology | 4 | imageKeyword 'ecosystem study' yields clear, safe images suitable for 10yo | Definition 'the study of how living things work together with their the world around them' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| edition | 4 | imageKeyword 'book edition' yields clear, safe images suitable for 10yo | Definition 'a particular form of a book, newspaper, or product' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| element | 4 | imageKeyword 'periodic element' yields clear, safe images suitable for 10yo | Definition 'a basic part of something, or a pure substance in chemistry' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| elevate | 4 | imageKeyword 'elevated ankle pillow' yields clear, safe images suitable for 10yo | Definition 'to raise something to a higher position or level' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| emission | 4 | imageKeyword 'exhaust emission' yields clear, safe images suitable for 10yo | Definition 'gas or substance released into the air' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| employ | 4 | imageKeyword 'hiring workers' yields clear, safe images suitable for 10yo | Definition 'to pay someone to work for you, or to use something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| endanger | 4 | imageKeyword 'endangered animal' yields clear, safe images suitable for 10yo | Definition 'to put someone or something at risk of being harmed' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| enhance | 4 | imageKeyword 'improving quality' yields clear, safe images suitable for 10yo | Definition 'to improve the quality or value of something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| enterprise | 4 | imageKeyword 'business enterprise' yields clear, safe images suitable for 10yo | Definition 'a business or a big plan or task that takes effort and courage' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| enthusiasm | 4 | imageKeyword 'excited enthusiasm' yields clear, safe images suitable for 10yo | Definition 'strong excitement and interest about something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| entitled | 4 | imageKeyword 'having rights' yields clear, safe images suitable for 10yo | Definition 'having the right to something, or given a title' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| episode | 4 | imageKeyword 'tv episode' yields clear, safe images suitable for 10yo | Definition 'one event in a row or chain, or one part of a TV show' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| equip | 4 | imageKeyword 'equipment supplies' yields clear, safe images suitable for 10yo | Definition 'to provide the tools or supplies needed for a task' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| era | 4 | imageKeyword 'dinosaur era' yields clear, safe images suitable for 10yo | Definition 'a long time of time marked by certain events or traits' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| excel | 4 | imageKeyword 'excelling student' yields clear, safe images suitable for 10yo | Definition 'to do something much better than most other people' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| execute | 4 | imageKeyword 'performing skill' yields clear, safe images suitable for 10yo | Definition 'to carry out or complete a plan or task' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exempt | 4 | imageKeyword 'excused free' yields clear, safe images suitable for 10yo | Definition 'freed from a rule or duty that others must follow' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exhaust | 4 | imageKeyword 'exhausted runner' yields clear, safe images suitable for 10yo | Definition 'to use up completely or make very tired' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| extensive | 4 | imageKeyword 'large collection' yields clear, safe images suitable for 10yo | Definition 'covering a large area or amount; very thorough' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| extraordinary | 4 | imageKeyword 'amazing performance' yields clear, safe images suitable for 10yo | Definition 'very unusual and remarkably special' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| fatigue | 4 | imageKeyword 'exhausted hiker' yields clear, safe images suitable for 10yo | Definition 'very strong tiredness after body or brain or thinking effort' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| feasible | 4 | imageKeyword 'possible plan' yields clear, safe images suitable for 10yo | Definition 'possible to do; able to be done' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| federal | 4 | imageKeyword 'federal government' yields clear, safe images suitable for 10yo | Definition 'about the whole country's government, not just one state' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| fluid | 4 | imageKeyword 'pouring liquid' yields clear, safe images suitable for 10yo | Definition 'a substance that flows like water or gas, or smooth and easy' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| frequency | 4 | imageKeyword 'frequency chart' yields clear, safe images suitable for 10yo | Definition 'how often something happens in a given time time' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| genetic | 4 | imageKeyword 'dna genetics' yields clear, safe images suitable for 10yo | Definition 'related to genes passed from parents to children' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| global | 4 | imageKeyword 'globe showing all continents' yields clear, safe images suitable for 10yo | Definition 'relating to or affecting the entire world' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| graduate | 4 | imageKeyword 'graduation cap' yields clear, safe images suitable for 10yo | Definition 'to finish a course of study and earn a degree or diploma' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| grant | 4 | imageKeyword 'grant money' yields clear, safe images suitable for 10yo | Definition 'to give or allow something officially' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| gulf | 4 | imageKeyword 'gulf map' yields clear, safe images suitable for 10yo | Definition 'a large area of sea partly surrounded by land' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| highlight | 4 | imageKeyword 'best moment' yields clear, safe images suitable for 10yo | Definition 'the most important or exciting part, or to draw attention to something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| hoax | 4 | imageKeyword 'fake trick' yields clear, safe images suitable for 10yo | Definition 'a trick that makes people believe something false' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| humid | 4 | imageKeyword 'humid tropical' yields clear, safe images suitable for 10yo | Definition 'having a lot of moisture in the air' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| illuminate | 4 | imageKeyword 'illuminated cave' yields clear, safe images suitable for 10yo | Definition 'to light up or make something clearer' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| implement | 4 | imageKeyword 'putting action' yields clear, safe images suitable for 10yo | Definition 'to put a plan or idea into action' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| impulse | 4 | imageKeyword 'sudden urge' yields clear, safe images suitable for 10yo | Definition 'a sudden strong urge to do something without thinking' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| inaugurate | 4 | imageKeyword 'inauguration ceremony' yields clear, safe images suitable for 10yo | Definition 'to officially begin something new or put a leader into office' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| incline | 4 | imageKeyword 'steep hill' yields clear, safe images suitable for 10yo | Definition 'a slope; a surface that goes up or down' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| industrial | 4 | imageKeyword 'factory with smokestacks' yields clear, safe images suitable for 10yo | Definition 'about factories and making things in large amounts' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| inevitable | 4 | imageKeyword 'certain outcome' yields clear, safe images suitable for 10yo | Definition 'sure to happen in the future, no matter what anyone does' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| abate | 4 | imageKeyword 'storm calming' yields clear, safe images suitable for 10yo | Definition 'to become less strong or very strong' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| aberration | 4 | imageKeyword 'unusual event' yields clear, safe images suitable for 10yo | Definition 'a departure from what is usual or expected' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| abstraction | 4 | imageKeyword 'abstract art' yields clear, safe images suitable for 10yo | Definition 'a broad idea rather than something specific' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| acumen | 4 | imageKeyword 'smart businessperson' yields clear, safe images suitable for 10yo | Definition 'sharp, quick thinking in business or practical matters' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| adept | 4 | imageKeyword 'skilled person' yields clear, safe images suitable for 10yo | Definition 'very skilled or proficient at something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| adversity | 4 | imageKeyword 'overcoming challenge' yields clear, safe images suitable for 10yo | Definition 'a difficult or unfortunate situation' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| affinity | 4 | imageKeyword 'person with animals' yields clear, safe images suitable for 10yo | Definition 'a natural liking or feeling of connection to something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| aggregation | 4 | imageKeyword 'collection gathered' yields clear, safe images suitable for 10yo | Definition 'a collection of things gathered together' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| agitation | 4 | imageKeyword 'nervous person' yields clear, safe images suitable for 10yo | Definition 'a state of anxiety or nervous excitement' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| alleviation | 4 | imageKeyword 'pain relief' yields clear, safe images suitable for 10yo | Definition 'the act of making pain or a difficulty less very bad' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| amalgamation | 4 | imageKeyword 'merging together' yields clear, safe images suitable for 10yo | Definition 'the joining together of two or more things' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| anarchy | 4 | imageKeyword 'chaos disorder' yields clear, safe images suitable for 10yo | Definition 'a state of disorder due to lack of government or control' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| animosity | 4 | imageKeyword 'rivals angry' yields clear, safe images suitable for 10yo | Definition 'a strong feeling of dislike or hatred' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| annihilate | 4 | imageKeyword 'total destruction' yields clear, safe images suitable for 10yo | Definition 'to destroy something completely' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| anomalous | 4 | imageKeyword 'outlier data' yields clear, safe images suitable for 10yo | Definition 'different from the expected pattern; not usual' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| appraisal | 4 | imageKeyword 'evaluating artwork' yields clear, safe images suitable for 10yo | Definition 'an assessment of the value or quality of something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| aristocratic | 4 | imageKeyword 'grand mansion' yields clear, safe images suitable for 10yo | Definition 'belonging to or typical of the highest social class' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| assimilation | 4 | imageKeyword 'joining group' yields clear, safe images suitable for 10yo | Definition 'the the way of becoming part of a group or culture' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| astounding | 4 | imageKeyword 'amazing magic' yields clear, safe images suitable for 10yo | Definition 'surprisingly impressive; astonishing' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| attainment | 4 | imageKeyword 'graduation achievement' yields clear, safe images suitable for 10yo | Definition 'the act of achieving or reaching a goal' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| audacious | 4 | imageKeyword 'bold explorer' yields clear, safe images suitable for 10yo | Definition 'willing to take bold risks' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| austerity | 4 | imageKeyword 'simple living' yields clear, safe images suitable for 10yo | Definition 'strict limits on spending and a simple way of living' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| backlash | 4 | imageKeyword 'angry protest' yields clear, safe images suitable for 10yo | Definition 'a strong negative reaction from many people' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| barrage | 4 | imageKeyword 'many questions' yields clear, safe images suitable for 10yo | Definition 'many things coming quickly one after another' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| begrudge | 4 | imageKeyword 'jealous feeling' yields clear, safe images suitable for 10yo | Definition 'to feel unhappy that someone has something you want' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| benefactor | 4 | imageKeyword 'generous donor' yields clear, safe images suitable for 10yo | Definition 'a person who gives money or help to others' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| bequest | 4 | imageKeyword 'inheritance gift' yields clear, safe images suitable for 10yo | Definition 'money or property left to someone in a will' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| bewilderment | 4 | imageKeyword 'confused person' yields clear, safe images suitable for 10yo | Definition 'a feeling of being very confused' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| bountiful | 4 | imageKeyword 'abundant harvest' yields clear, safe images suitable for 10yo | Definition 'large in quantity; more than enough' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| calibration | 4 | imageKeyword 'adjusting instrument' yields clear, safe images suitable for 10yo | Definition 'adjusting something precisely so it works correctly' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| candor | 4 | imageKeyword 'honest conversation' yields clear, safe images suitable for 10yo | Definition 'the quality of being honest and open' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| capacious | 4 | imageKeyword 'large backpack' yields clear, safe images suitable for 10yo | Definition 'having a lot of space inside' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| caricature | 4 | imageKeyword 'funny cartoon drawing' yields clear, safe images suitable for 10yo | Definition 'a funny drawing that makes features look much bigger or smaller' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| categorical | 4 | imageKeyword 'definite statement' yields clear, safe images suitable for 10yo | Definition 'stated clearly and without doubt' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| causation | 4 | imageKeyword 'cause and effect' yields clear, safe images suitable for 10yo | Definition 'the link between a cause and its effect' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| chagrin | 4 | imageKeyword 'embarrassed person' yields clear, safe images suitable for 10yo | Definition 'annoyance or embarrassment caused by failure or disappointment' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| clamorous | 4 | imageKeyword 'noisy crowd cheering' yields clear, safe images suitable for 10yo | Definition 'making a lot of loud noise' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| cognizant | 4 | imageKeyword 'aware person thinking' yields clear, safe images suitable for 10yo | Definition 'aware of or knowing about something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| cohesion | 4 | imageKeyword 'team unity' yields clear, safe images suitable for 10yo | Definition 'the state of sticking together as a group' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| colloquial | 4 | imageKeyword 'casual conversation' yields clear, safe images suitable for 10yo | Definition 'used in everyday conversation rather than formal writing' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| commiserate | 4 | imageKeyword 'friends comforting' yields clear, safe images suitable for 10yo | Definition 'to express sympathy for someone when they are sad or disappointed' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| communique | 4 | imageKeyword 'official letter document' yields clear, safe images suitable for 10yo | Definition 'an official announcement or report' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| compartmentalize | 4 | imageKeyword 'organized sections' yields clear, safe images suitable for 10yo | Definition 'to separate things into different groups or sections' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| compunction | 4 | imageKeyword 'guilty feeling' yields clear, safe images suitable for 10yo | Definition 'a feeling of guilt about doing something wrong' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| condescension | 4 | imageKeyword 'looking down attitude' yields clear, safe images suitable for 10yo | Definition 'an attitude of superiority toward others; patronizing behavior' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| connotation | 4 | imageKeyword 'word meaning layers' yields clear, safe images suitable for 10yo | Definition 'a feeling or thought that a word suggests beyond its simple meaning' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| consecration | 4 | imageKeyword 'sacred ceremony' yields clear, safe images suitable for 10yo | Definition 'the act of making something holy or special for a religious purpose' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| consternation | 4 | imageKeyword 'alarmed people' yields clear, safe images suitable for 10yo | Definition 'a shocked feeling of alarm when something unexpected goes wrong' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| contention | 4 | imageKeyword 'people disagreeing' yields clear, safe images suitable for 10yo | Definition 'a strong disagreement or clash of views' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| contravene | 4 | imageKeyword 'breaking rule' yields clear, safe images suitable for 10yo | Definition 'to go against a rule or law' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| convergent | 4 | imageKeyword 'paths meeting' yields clear, safe images suitable for 10yo | Definition 'coming together at the same point' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| conveyance | 4 | imageKeyword 'horse carriage transport' yields clear, safe images suitable for 10yo | Definition 'a thing with wheels that moves people or stuff, or the moving of something from place to place' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| corroboration | 4 | imageKeyword 'confirming evidence' yields clear, safe images suitable for 10yo | Definition 'evidence that supports or confirms a statement' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| covetous | 4 | imageKeyword 'wanting something' yields clear, safe images suitable for 10yo | Definition 'wanting something that belongs to someone else' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| credence | 4 | imageKeyword 'believing trust' yields clear, safe images suitable for 10yo | Definition 'belief that something is true' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| culpability | 4 | imageKeyword 'responsibility blame' yields clear, safe images suitable for 10yo | Definition 'responsibility or guilt for a fault or wrongdoing' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| curate | 4 | imageKeyword 'organizing collection' yields clear, safe images suitable for 10yo | Definition 'to carefully choose and organize a collection' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| curtailment | 4 | imageKeyword 'scissors cutting ribbon short' yields clear, safe images suitable for 10yo | Definition 'the act of cutting something short or limiting it' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| cynicism | 4 | imageKeyword 'distrustful person' yields clear, safe images suitable for 10yo | Definition 'a distrustful attitude that doubts people's sincerity or goodness' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| debilitation | 4 | imageKeyword 'weakness exhaustion' yields clear, safe images suitable for 10yo | Definition 'the the way of getting very weak' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| decadence | 4 | imageKeyword 'luxury excess' yields clear, safe images suitable for 10yo | Definition 'behavior showing low moral standards and too much love of luxury' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| declination | 4 | imageKeyword 'person shaking head no hands up' yields clear, safe images suitable for 10yo | Definition 'a polite refusal or turning something down' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| deduction | 4 | imageKeyword 'detective thinking' yields clear, safe images suitable for 10yo | Definition 'a conclusion reached by careful reasoning from evidence or known facts' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| delineation | 4 | imageKeyword 'clear boundary map' yields clear, safe images suitable for 10yo | Definition 'a detailed description or drawing that shows the exact outline of something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| delusion | 4 | imageKeyword 'false belief' yields clear, safe images suitable for 10yo | Definition 'a false belief held despite evidence against it' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| demarcation | 4 | imageKeyword 'boundary fence' yields clear, safe images suitable for 10yo | Definition 'a border or dividing line that shows where one area ends and another begins' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| demerit | 4 | imageKeyword 'bad mark penalty' yields clear, safe images suitable for 10yo | Definition 'a mark against someone for bad behavior' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| dereliction | 4 | imageKeyword 'neglected duty' yields clear, safe images suitable for 10yo | Definition 'the failure to do what you are supposed to do' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| derivative | 4 | imageKeyword 'copied work' yields clear, safe images suitable for 10yo | Definition 'a thing that is based on or comes from something else' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| desperation | 4 | imageKeyword 'desperate search' yields clear, safe images suitable for 10yo | Definition 'a feeling of having no hope and being willing to try anything' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| destitution | 4 | imageKeyword 'extreme poverty' yields clear, safe images suitable for 10yo | Definition 'the state of having absolutely nothing—no food, no shelter, no money' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| detachment | 4 | imageKeyword 'neutral observer' yields clear, safe images suitable for 10yo | Definition 'the state of being emotionally uninvolved or fair and open' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| deterrence | 4 | imageKeyword 'security camera' yields clear, safe images suitable for 10yo | Definition 'the act of discouraging someone from doing something through fear of consequences' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| devolution | 4 | imageKeyword 'power transfer' yields clear, safe images suitable for 10yo | Definition 'the move of power from a central to a local government' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| diffusion | 4 | imageKeyword 'spreading scent' yields clear, safe images suitable for 10yo | Definition 'the spreading of something over a wide area' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| dilapidation | 4 | imageKeyword 'crumbling building' yields clear, safe images suitable for 10yo | Definition 'the state of being in very bad condition due to care nobody gave' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| discernment | 4 | imageKeyword 'wise judgment' yields clear, safe images suitable for 10yo | Definition 'the ability to judge well and tell the difference between good and bad' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| discretionary | 4 | imageKeyword 'choosing options' yields clear, safe images suitable for 10yo | Definition 'left to someone's choice; able to be used as they decide' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| disdainful | 4 | imageKeyword 'disapproving look' yields clear, safe images suitable for 10yo | Definition 'showing a lack of respect for someone or something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| disillusionment | 4 | imageKeyword 'disappointed realization' yields clear, safe images suitable for 10yo | Definition 'the disappointment from discovering something is not as good as believed' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| disparage | 4 | imageKeyword 'disrespectful talk' yields clear, safe images suitable for 10yo | Definition 'to speak about something in a way that shows no respect' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| dissidence | 4 | imageKeyword 'protest disagreement' yields clear, safe images suitable for 10yo | Definition 'open disagreement with official rules or opinions' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| divergent | 4 | imageKeyword 'paths splitting' yields clear, safe images suitable for 10yo | Definition 'moving in different directions from a common point' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| dogmatic | 4 | imageKeyword 'stubborn insistence' yields clear, safe images suitable for 10yo | Definition 'strongly holding to your own ideas and refusing to consider other viewpoints' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| dormancy | 4 | imageKeyword 'sleeping seeds' yields clear, safe images suitable for 10yo | Definition 'a state of being inactive or resting' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| draconian | 4 | imageKeyword 'strict punishment' yields clear, safe images suitable for 10yo | Definition 'extremely harsh and very bad, especially of laws or rules' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| ebullience | 4 | imageKeyword 'excited children' yields clear, safe images suitable for 10yo | Definition 'enthusiastic excitement that is hard to contain' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| edification | 4 | imageKeyword 'learning education' yields clear, safe images suitable for 10yo | Definition 'intellectual or moral improvement through learning' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| elation | 4 | imageKeyword 'joyful celebration' yields clear, safe images suitable for 10yo | Definition 'a feeling of great happiness and excitement' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| elucidation | 4 | imageKeyword 'clear explanation' yields clear, safe images suitable for 10yo | Definition 'an explanation that makes a difficult idea clear' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| emanate | 4 | imageKeyword 'oven aroma' yields clear, safe images suitable for 10yo | Definition 'to come out from a place it comes from' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| embellish | 4 | imageKeyword 'decorating story' yields clear, safe images suitable for 10yo | Definition 'to add extra details to make something more attractive or interesting' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| embolden | 4 | imageKeyword 'gaining courage' yields clear, safe images suitable for 10yo | Definition 'to give someone the courage to do something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| emigration | 4 | imageKeyword 'leaving country' yields clear, safe images suitable for 10yo | Definition 'the act of leaving your country to live in another one' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| encroachment | 4 | imageKeyword 'city expanding' yields clear, safe images suitable for 10yo | Definition 'slowly moving into an area that belongs to someone else' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| enfranchisement | 4 | imageKeyword 'women voting rights' yields clear, safe images suitable for 10yo | Definition 'giving someone the right to vote' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| enormity | 4 | imageKeyword 'serious mistake' yields clear, safe images suitable for 10yo | Definition 'the great seriousness or extent of something negative; very strong wickedness' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| entrenchment | 4 | imageKeyword 'deeply rooted' yields clear, safe images suitable for 10yo | Definition 'the state of being deeply fixed and hard to change' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| epitomize | 4 | imageKeyword 'perfect example' yields clear, safe images suitable for 10yo | Definition 'to be a perfect example of something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| equanimity | 4 | imageKeyword 'calm person' yields clear, safe images suitable for 10yo | Definition 'brain or thinking calmness and composure, especially in a difficult situation' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| eradication | 4 | imageKeyword 'eliminating disease' yields clear, safe images suitable for 10yo | Definition 'the complete destruction or elimination of something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| erstwhile | 4 | imageKeyword 'former champion' yields clear, safe images suitable for 10yo | Definition 'former or the one before' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| eschew | 4 | imageKeyword 'avoiding junk food' yields clear, safe images suitable for 10yo | Definition 'to choose to avoid or stay away from something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| esprit | 4 | imageKeyword 'team spirit' yields clear, safe images suitable for 10yo | Definition 'shared spirit, enthusiasm, and loyalty within a group' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exacerbation | 4 | imageKeyword 'crack getting bigger in wall' yields clear, safe images suitable for 10yo | Definition 'the act of making a bad situation even worse' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exaltation | 4 | imageKeyword 'joyful triumph' yields clear, safe images suitable for 10yo | Definition 'a feeling of very strong happiness or elation' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exculpate | 4 | imageKeyword 'proven innocent' yields clear, safe images suitable for 10yo | Definition 'to prove that someone is not guilty of wrongdoing' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exhortation | 4 | imageKeyword 'coach motivating' yields clear, safe images suitable for 10yo | Definition 'a strong urging or encouragement to do something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| expatriation | 4 | imageKeyword 'living abroad' yields clear, safe images suitable for 10yo | Definition 'living outside your home country' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| expediency | 4 | imageKeyword 'quick shortcut' yields clear, safe images suitable for 10yo | Definition 'the quality of being convenient and practical, sometimes at the expense of morality' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| explication | 4 | imageKeyword 'detailed explanation' yields clear, safe images suitable for 10yo | Definition 'a detailed and systematic analysis of a text or idea' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exponentiation | 4 | imageKeyword 'math power' yields clear, safe images suitable for 10yo | Definition 'a math operation where you multiply a number by itself a certain number of times' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| expropriation | 4 | imageKeyword 'land taken' yields clear, safe images suitable for 10yo | Definition 'taking someone's property, especially land, for public use, usually by a government' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| extenuating | 4 | imageKeyword 'lessening severity' yields clear, safe images suitable for 10yo | Definition 'making a mistake or offense seem less serious' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| extraneous | 4 | imageKeyword 'unnecessary extra' yields clear, safe images suitable for 10yo | Definition 'extra and unneeded; having nothing to do with the main idea' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| extrapolation | 4 | imageKeyword 'predicting future' yields clear, safe images suitable for 10yo | Definition 'using known facts to guess about something unknown' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exuberance | 4 | imageKeyword 'excited puppy' yields clear, safe images suitable for 10yo | Definition 'the quality of being full of power and excitement' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| facilitation | 4 | imageKeyword 'teacher guiding group of students' yields clear, safe images suitable for 10yo | Definition 'the act of making something easier or helping it happen smoothly' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| fallacious | 4 | imageKeyword 'wrong logic' yields clear, safe images suitable for 10yo | Definition 'based on a false idea or wrong reasoning' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| fanaticism | 4 | imageKeyword 'extreme fan' yields clear, safe images suitable for 10yo | Definition 'very strong and uncritical enthusiasm or zeal' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| felicity | 4 | imageKeyword 'eloquent writing' yields clear, safe images suitable for 10yo | Definition 'very strong happiness; also, the ability to express ideas in an apt and pleasing way' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| foresight | 4 | imageKeyword 'planning ahead' yields clear, safe images suitable for 10yo | Definition 'the ability to think ahead and plan for the future' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| fortification | 4 | imageKeyword 'castle walls' yields clear, safe images suitable for 10yo | Definition 'a strong wall or frame or shape that holds things up built for keeping safe from attack' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| frivolity | 4 | imageKeyword 'silly behavior' yields clear, safe images suitable for 10yo | Definition 'silly behavior that is not serious' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| frugality | 4 | imageKeyword 'saving money' yields clear, safe images suitable for 10yo | Definition 'being careful with money and not wasting it' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| fruition | 4 | imageKeyword 'plan completed' yields clear, safe images suitable for 10yo | Definition 'the point at which a plan or plan or task becomes real' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| futility | 4 | imageKeyword 'pointless effort' yields clear, safe images suitable for 10yo | Definition 'the state of having no point because it will not succeed' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| galvanize | 4 | imageKeyword 'inspiring action' yields clear, safe images suitable for 10yo | Definition 'to shock or excite someone into taking action' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| garrulous | 4 | imageKeyword 'talkative person' yields clear, safe images suitable for 10yo | Definition 'talking too much about things that do not matter' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| germane | 4 | imageKeyword 'relevant connection' yields clear, safe images suitable for 10yo | Definition 'related and connected to the topic being discussed' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| grandiosity | 4 | imageKeyword 'big unrealistic plan' yields clear, safe images suitable for 10yo | Definition 'the quality of seeming very impressive but often not realistic' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| gratuitous | 4 | imageKeyword 'too much unnecessary pile' yields clear, safe images suitable for 10yo | Definition 'given or done without good reason; not needed' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| grievous | 4 | imageKeyword 'serious injury' yields clear, safe images suitable for 10yo | Definition 'very serious and causing great pain or suffering' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| heterogeneous | 4 | imageKeyword 'diverse mix' yields clear, safe images suitable for 10yo | Definition 'made up of many different kinds of things' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| hubris | 4 | imageKeyword 'overconfident person' yields clear, safe images suitable for 10yo | Definition 'too much pride or self-confidence' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| iconoclast | 4 | imageKeyword 'challenger rebel' yields clear, safe images suitable for 10yo | Definition 'a person who challenges widely accepted ideas or traditions' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| idiosyncrasy | 4 | imageKeyword 'quirky habit' yields clear, safe images suitable for 10yo | Definition 'a peculiar habit or characteristic one of a kind to a person' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| ignominy | 4 | imageKeyword 'public shame' yields clear, safe images suitable for 10yo | Definition 'public shame or disgrace' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| illumination | 4 | imageKeyword 'lighthouse beam' yields clear, safe images suitable for 10yo | Definition 'light that makes something able to be seen or easy to see' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| immutable | 4 | imageKeyword 'unchangeable law' yields clear, safe images suitable for 10yo | Definition 'fixed forever; impossible to change' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| impertinent | 4 | imageKeyword 'rude comment' yields clear, safe images suitable for 10yo | Definition 'rude and not showing proper respect' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| impetus | 4 | imageKeyword 'pushing forward' yields clear, safe images suitable for 10yo | Definition 'a force or motivation that makes something happen or happen faster' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| importune | 4 | imageKeyword 'begging child' yields clear, safe images suitable for 10yo | Definition 'to ask someone for something in a forceful and persistent way' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| impugn | 4 | imageKeyword 'challenging truth' yields clear, safe images suitable for 10yo | Definition 'to question or challenge the truth or honesty of something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| incandescence | 4 | imageKeyword 'glowing campfire' yields clear, safe images suitable for 10yo | Definition 'the glow produced by something very hot' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| incisive | 4 | imageKeyword 'sharp thinking' yields clear, safe images suitable for 10yo | Definition 'showing clear thinking and sharp understanding' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| incongruity | 4 | imageKeyword 'snowman on beach' yields clear, safe images suitable for 10yo | Definition 'the state of not fitting together or being out of place' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| inculcate | 4 | imageKeyword 'teaching values' yields clear, safe images suitable for 10yo | Definition 'to teach something by repeating it often' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| indemnify | 4 | imageKeyword 'insurance protection' yields clear, safe images suitable for 10yo | Definition 'to protect someone against loss or damage' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| indigence | 4 | imageKeyword 'poverty help' yields clear, safe images suitable for 10yo | Definition 'being so poor that you struggle to afford daily meals and clothing' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| indolence | 4 | imageKeyword 'lazy person couch' yields clear, safe images suitable for 10yo | Definition 'laziness; avoidance of activity or work' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| inexorable | 4 | imageKeyword 'unstoppable force' yields clear, safe images suitable for 10yo | Definition 'impossible to stop or prevent; moving forward relentlessly' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| ingratiate | 4 | imageKeyword 'flattering someone' yields clear, safe images suitable for 10yo | Definition 'to try to gain favor by flattering someone' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| innocuous | 4 | imageKeyword 'harmless spider' yields clear, safe images suitable for 10yo | Definition 'harmless and unlikely to bother anyone' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| insipid | 4 | imageKeyword 'boring movie' yields clear, safe images suitable for 10yo | Definition 'so boring and dull that it fails to hold your attention' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| insouciance | 4 | imageKeyword 'carefree attitude' yields clear, safe images suitable for 10yo | Definition 'a casual lack of concern about something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| interloper | 4 | imageKeyword 'uninvited guest' yields clear, safe images suitable for 10yo | Definition 'a person who intrudes into a situation where they are not welcome' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| interpolate | 4 | imageKeyword 'inserting between' yields clear, safe images suitable for 10yo | Definition 'to put in something between other parts' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| interregnum | 4 | imageKeyword 'between rulers' yields clear, safe images suitable for 10yo | Definition 'a time between two rulers or governments' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| intransigence | 4 | imageKeyword 'refusing compromise' yields clear, safe images suitable for 10yo | Definition 'refusal to change your own mind or compromise' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| irascible | 4 | imageKeyword 'angry old man' yields clear, safe images suitable for 10yo | Definition 'easily made angry' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| itinerant | 4 | imageKeyword 'traveling musician' yields clear, safe images suitable for 10yo | Definition 'traveling from place to place for work' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| laconic | 4 | imageKeyword 'few words' yields clear, safe images suitable for 10yo | Definition 'using very few words to express something' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| lassitude | 4 | imageKeyword 'tired sleepy' yields clear, safe images suitable for 10yo | Definition 'a feeling of weariness and lack of power' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| largesse | 4 | imageKeyword 'generous giving' yields clear, safe images suitable for 10yo | Definition 'generous giving of money or gifts' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| magnanimity | 4 | imageKeyword 'gracious winner' yields clear, safe images suitable for 10yo | Definition 'great generosity and forgiveness, especially toward a rival or enemy' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| malfeasance | 4 | imageKeyword 'corrupt official' yields clear, safe images suitable for 10yo | Definition 'wrongful or illegal acts by a person in power' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| mendacious | 4 | imageKeyword 'lying person' yields clear, safe images suitable for 10yo | Definition 'full of lies; tending to say things that are untrue' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| mercurial | 4 | imageKeyword 'changing moods' yields clear, safe images suitable for 10yo | Definition 'changing mood or behavior quickly and without warning' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| meritocracy | 4 | imageKeyword 'talent rewarded' yields clear, safe images suitable for 10yo | Definition 'a system where people advance based on their abilities' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| mollify | 4 | imageKeyword 'calming someone' yields clear, safe images suitable for 10yo | Definition 'to calm someone down when they are angry or upset' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| munificence | 4 | imageKeyword 'generous donation' yields clear, safe images suitable for 10yo | Definition 'great kindness in giving money or gifts' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| nascent | 4 | imageKeyword 'new beginning' yields clear, safe images suitable for 10yo | Definition 'just starting to develop' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| nefarious | 4 | imageKeyword 'evil villain' yields clear, safe images suitable for 10yo | Definition 'very wicked or criminal' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| oblique | 4 | imageKeyword 'indirect angle' yields clear, safe images suitable for 10yo | Definition 'indirect and unclear in meaning; coming at an angle' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| exponent | 4 | imageKeyword 'math exponent' yields clear, safe images suitable for 10yo | Definition 'the small number that tells how many times to multiply' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| cortex | 4 | imageKeyword 'brain diagram' yields clear, safe images suitable for 10yo | Definition 'the outer layer of an organ, especially the brain' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
-| adjunct | 4 | imageKeyword 'after-school club' yields clear, safe images suitable for 10yo | Definition 'an extra thing added that is not the main part' is factually accurate | Main common meaning selected | Fits all 4 game modes perfectly | PASS |
+| Word | L9: Image | L10: Fact | L11: Sense | L12: Game |
+|---|---|---|---|---|
+| abandon | Pass: abandoned ship is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| abbreviation | Pass: abbreviation list is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| accuse | Pass: pointing finger is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| aggressive | Pass: growling dog is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| alliance | Pass: handshake deal is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| alter | Pass: altering clothes is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| alternative | Pass: fork road is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| appreciate | Pass: grateful thanks is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| architect | Pass: architect blueprints is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| arctic | Pass: arctic ice is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| arise | Pass: problem appearing is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| assess | Pass: evaluating carefully is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| associate | Pass: connecting ideas is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| atom | Pass: atom model is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| aviation | Pass: airplane flying is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| awkward | Pass: awkward moment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| biome | Pass: biome types is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bizarre | Pass: strange creature is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bland | Pass: plain food is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bleak | Pass: bleak landscape is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| blur | Pass: blurry vision is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bond | Pass: close friendship is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| boom | Pass: building boom is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| brace | Pass: bracing impact is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| breakthrough | Pass: scientific discovery is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| breed | Pass: dog breeds is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| browse | Pass: browsing books is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| cabinet | Pass: kitchen cabinet is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| captive | Pass: caged bird is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| career | Pass: career paths is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| cargo | Pass: cargo ship is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| catalog | Pass: library catalog is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| category | Pass: sorting categories is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| ceremony | Pass: ceremony stage is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| chamber | Pass: heart chambers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| chaos | Pass: total chaos is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| characteristic | Pass: zebra stripes is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| charity | Pass: charity donation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| chemical | Pass: chemical reaction is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| civic | Pass: civic duty is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| clause | Pass: sentence parts is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| client | Pass: business meeting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| commerce | Pass: trade commerce is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| compose | Pass: composing music is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| comprehend | Pass: understanding concept is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| concept | Pass: idea lightbulb is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| concrete | Pass: specific example is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| condition | Pass: book condition is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| conference | Pass: conference meeting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| confess | Pass: confessing truth is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| conform | Pass: following rules is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| conscience | Pass: moral compass is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| consensus | Pass: group agreement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| consume | Pass: eating consuming is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| contact | Pass: making contact is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| contaminate | Pass: water pollution is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| context | Pass: reading context is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| contract | Pass: metal shrinking cold is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| council | Pass: council meeting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| courtesy | Pass: polite manners is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| craft | Pass: handmade craft is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| crane | Pass: construction crane is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| crave | Pass: craving food is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| credible | Pass: trustworthy source is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| crude | Pass: crude tools is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| customary | Pass: traditional custom is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| decay | Pass: decaying wood is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| deceive | Pass: magic trick is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| declare | Pass: official announcement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| defect | Pass: product flaw is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| defy | Pass: defying gravity is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| deprive | Pass: lacking sleep is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| devastate | Pass: hurricane damage is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| diplomat | Pass: diplomat meeting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| disclose | Pass: revealing secret is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| discount | Pass: sale discount is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| discrimination | Pass: equality fairness is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dominant | Pass: alpha wolf is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dormant | Pass: dormant volcano is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| drain | Pass: draining water is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dynamic | Pass: dynamic energy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| earnest | Pass: sincere promise is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| eclipse | Pass: solar eclipse is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| ecology | Pass: ecosystem study is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| edition | Pass: book edition is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| element | Pass: periodic element is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| elevate | Pass: elevated ankle pillow is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| emission | Pass: exhaust emission is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| employ | Pass: hiring workers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| endanger | Pass: endangered animal is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| enhance | Pass: improving quality is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| enterprise | Pass: business enterprise is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| enthusiasm | Pass: excited enthusiasm is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| entitled | Pass: having rights is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| episode | Pass: tv episode is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| equip | Pass: equipment supplies is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| era | Pass: dinosaur era is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| excel | Pass: excelling student is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| execute | Pass: performing skill is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exempt | Pass: excused free is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exhaust | Pass: exhausted runner is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| extensive | Pass: large collection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| extraordinary | Pass: amazing performance is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fatigue | Pass: exhausted hiker is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| feasible | Pass: possible plan is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| federal | Pass: federal government is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fluid | Pass: pouring liquid is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| frequency | Pass: frequency chart is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| genetic | Pass: dna genetics is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| global | Pass: globe showing all continents is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| graduate | Pass: graduation cap is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| grant | Pass: grant money is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| gulf | Pass: gulf map is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| highlight | Pass: best moment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| hoax | Pass: fake trick is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| humid | Pass: humid tropical is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| illuminate | Pass: illuminated cave is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| implement | Pass: putting action is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| impulse | Pass: sudden urge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| inaugurate | Pass: inauguration ceremony is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| incline | Pass: steep hill is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| industrial | Pass: factory with smokestacks is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| inevitable | Pass: certain outcome is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| abate | Pass: storm calming is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| aberration | Pass: unusual event is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| abstraction | Pass: abstract art is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| acumen | Pass: smart businessperson is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| adept | Pass: skilled person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| adversity | Pass: overcoming challenge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| affinity | Pass: person with animals is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| aggregation | Pass: collection gathered is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| agitation | Pass: nervous person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| alleviation | Pass: pain relief is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| amalgamation | Pass: merging together is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| anarchy | Pass: chaos disorder is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| animosity | Pass: rivals angry is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| annihilate | Pass: total destruction is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| anomalous | Pass: outlier data is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| appraisal | Pass: evaluating artwork is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| aristocratic | Pass: grand mansion is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| assimilation | Pass: joining group is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| astounding | Pass: amazing magic is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| attainment | Pass: graduation achievement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| audacious | Pass: bold explorer is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| austerity | Pass: simple living is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| backlash | Pass: angry protest is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| barrage | Pass: many questions is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| begrudge | Pass: jealous feeling is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| benefactor | Pass: generous donor is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bequest | Pass: inheritance gift is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bewilderment | Pass: confused person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| bountiful | Pass: abundant harvest is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| calibration | Pass: adjusting instrument is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| candor | Pass: honest conversation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| capacious | Pass: large backpack is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| caricature | Pass: funny cartoon drawing is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| categorical | Pass: definite statement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| causation | Pass: cause and effect is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| chagrin | Pass: embarrassed person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| clamorous | Pass: noisy crowd cheering is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| cognizant | Pass: aware person thinking is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| cohesion | Pass: team unity is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| colloquial | Pass: casual conversation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| commiserate | Pass: friends comforting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| communique | Pass: official letter document is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| compartmentalize | Pass: organized sections is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| compunction | Pass: guilty feeling is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| condescension | Pass: looking down attitude is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| connotation | Pass: word meaning layers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| consecration | Pass: sacred ceremony is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| consternation | Pass: alarmed people is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| contention | Pass: people disagreeing is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| contravene | Pass: breaking rule is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| convergent | Pass: paths meeting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| conveyance | Pass: horse carriage transport is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| corroboration | Pass: confirming evidence is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| covetous | Pass: wanting something is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| credence | Pass: believing trust is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| culpability | Pass: responsibility blame is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| curate | Pass: organizing collection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| curtailment | Pass: scissors cutting ribbon short is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| cynicism | Pass: distrustful person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| debilitation | Pass: weakness exhaustion is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| decadence | Pass: luxury excess is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| declination | Pass: person shaking head no hands up is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| deduction | Pass: detective thinking is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| delineation | Pass: clear boundary map is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| delusion | Pass: false belief is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| demarcation | Pass: boundary fence is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| demerit | Pass: bad mark penalty is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dereliction | Pass: neglected duty is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| derivative | Pass: copied work is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| desperation | Pass: desperate search is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| destitution | Pass: extreme poverty is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| detachment | Pass: neutral observer is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| deterrence | Pass: security camera is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| devolution | Pass: power transfer is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| diffusion | Pass: spreading scent is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dilapidation | Pass: crumbling building is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| discernment | Pass: wise judgment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| discretionary | Pass: choosing options is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| disdainful | Pass: disapproving look is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| disillusionment | Pass: disappointed realization is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| disparage | Pass: disrespectful talk is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dissidence | Pass: protest disagreement is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| divergent | Pass: paths splitting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dogmatic | Pass: stubborn insistence is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| dormancy | Pass: sleeping seeds is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| draconian | Pass: strict punishment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| ebullience | Pass: excited children is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| edification | Pass: learning education is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| elation | Pass: joyful celebration is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| elucidation | Pass: clear explanation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| emanate | Pass: oven aroma is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| embellish | Pass: decorating story is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| embolden | Pass: gaining courage is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| emigration | Pass: leaving country is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| encroachment | Pass: city expanding is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| enfranchisement | Pass: women voting rights is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| enormity | Pass: serious mistake is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| entrenchment | Pass: deeply rooted is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| epitomize | Pass: perfect example is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| equanimity | Pass: calm person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| eradication | Pass: eliminating disease is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| erstwhile | Pass: former champion is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| eschew | Pass: avoiding junk food is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| esprit | Pass: team spirit is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exacerbation | Pass: crack getting bigger in wall is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exaltation | Pass: joyful triumph is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exculpate | Pass: proven innocent is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exhortation | Pass: coach motivating is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| expatriation | Pass: living abroad is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| expediency | Pass: quick shortcut is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| explication | Pass: detailed explanation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exponentiation | Pass: math power is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| expropriation | Pass: land taken is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| extenuating | Pass: lessening severity is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| extraneous | Pass: unnecessary extra is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| extrapolation | Pass: predicting future is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exuberance | Pass: excited puppy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| facilitation | Pass: teacher guiding group of students is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fallacious | Pass: wrong logic is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fanaticism | Pass: extreme fan is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| felicity | Pass: eloquent writing is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| foresight | Pass: planning ahead is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fortification | Pass: castle walls is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| frivolity | Pass: silly behavior is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| frugality | Pass: saving money is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| fruition | Pass: plan completed is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| futility | Pass: pointless effort is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| galvanize | Pass: inspiring action is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| garrulous | Pass: talkative person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| germane | Pass: relevant connection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| grandiosity | Pass: big unrealistic plan is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| gratuitous | Pass: too much unnecessary pile is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| grievous | Pass: serious injury is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| heterogeneous | Pass: diverse mix is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| hubris | Pass: overconfident person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| iconoclast | Pass: challenger rebel is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| idiosyncrasy | Pass: quirky habit is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| ignominy | Pass: public shame is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| illumination | Pass: lighthouse beam is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| immutable | Pass: unchangeable law is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| impertinent | Pass: rude comment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| impetus | Pass: pushing forward is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| importune | Pass: begging child is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| impugn | Pass: challenging truth is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| incandescence | Pass: glowing campfire is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| incisive | Pass: sharp thinking is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| incongruity | Pass: snowman on beach is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| inculcate | Pass: teaching values is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| indemnify | Pass: insurance protection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| indigence | Pass: poverty help is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| indolence | Pass: lazy person couch is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| inexorable | Pass: unstoppable force is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| ingratiate | Pass: flattering someone is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| innocuous | Pass: harmless spider is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| insipid | Pass: boring movie is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| insouciance | Pass: carefree attitude is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| interloper | Pass: uninvited guest is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| interpolate | Pass: inserting between is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| interregnum | Pass: between rulers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| intransigence | Pass: refusing compromise is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| irascible | Pass: angry old man is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| itinerant | Pass: traveling musician is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| laconic | Pass: few words is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| lassitude | Pass: tired sleepy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| largesse | Pass: generous giving is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| magnanimity | Pass: gracious winner is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| malfeasance | Pass: corrupt official is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| mendacious | Pass: lying person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| mercurial | Pass: changing moods is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| meritocracy | Pass: talent rewarded is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| mollify | Pass: calming someone is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| munificence | Pass: generous donation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| nascent | Pass: new beginning is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| nefarious | Pass: evil villain is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| oblique | Pass: indirect angle is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| exponent | Pass: math exponent is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| cortex | Pass: brain diagram is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+| adjunct | Pass: after-school club is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |

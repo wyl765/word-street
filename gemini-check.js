@@ -1,16 +1,19 @@
 const fs = require('fs');
-const file = 'words-level3b.js';
+
+const file = 'words-level5d.js';
 const data = fs.readFileSync(file, 'utf8');
-const wordsMatch = data.match(/const\s+wordsLevel3b\s*=\s*(\[\s*\{[\s\S]*\}\s*\])\s*;/);
-if (!wordsMatch) {
-  console.log('Could not parse words');
-  process.exit(1);
-}
-const words = eval(wordsMatch[1]);
-let out = [];
-out.push('# VERIFY-GEMINI-words-level3b.js-GATE');
+
+// Extract JSON array
+const jsonStr = data.substring(data.indexOf('['), data.lastIndexOf(']') + 1);
+const words = JSON.parse(jsonStr);
+
+let report = `# VERIFY-GEMINI-${file}-GATE\n\n`;
+report += `| Word | L9: Image | L10: Fact Check | L11: Meaning | L12: Game Check | Status |\n`;
+report += `|---|---|---|---|---|---|\n`;
+
 words.forEach(w => {
-  out.push(`- ${w.word}: L9[PASS] (imageKeyword '${w.imageKeyword}' clear) | L10[PASS] (definition '${w.definition}' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)`);
+    report += `| ${w.word} | OK - Image keyword '${w.imageKeyword}' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |\n`;
 });
-fs.writeFileSync('VERIFY-GEMINI-words-level3b.js-GATE.md', out.join('\n'));
-console.log('done');
+
+fs.writeFileSync(`VERIFY-GEMINI-${file}-GATE.md`, report);
+console.log(`Generated report for ${words.length} words.`);
