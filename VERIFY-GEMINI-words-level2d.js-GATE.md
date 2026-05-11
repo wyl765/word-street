@@ -1,262 +1,260 @@
-# VERIFY-GEMINI-words-level2d.js-GATE
-
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
-|---|---|---|---|---|
-| pace | PASS | PASS | PASS | PASS |
-| panel | PASS | PASS | PASS | PASS |
-| participate | PASS | PASS | PASS | PASS |
-| passion | PASS | PASS | PASS | PASS |
-| passive | PASS | PASS | PASS | PASS |
-| patent | PASS | PASS | PASS | PASS |
-| peer | PASS | PASS | PASS | PASS |
-| perceive | PASS | PASS | PASS | PASS |
-| peril | PASS | PASS | PASS | PASS |
-| period | PASS | PASS | PASS | PASS |
-| permanent | PASS | PASS | PASS | PASS |
-| permit | PASS | PASS | PASS | PASS |
-| persist | PASS | PASS | PASS | PASS |
-| perspective | PASS | PASS | PASS | PASS |
-| phenomenon | PASS | PASS | PASS | PASS |
-| philosophy | PASS | PASS | PASS | PASS |
-| physical | PASS | PASS | PASS | PASS |
-| plea | PASS | PASS | PASS | PASS |
-| pledge | PASS | PASS | PASS | PASS |
-| plunge | PASS | PASS | PASS | PASS |
-| policy | PASS | PASS | PASS | PASS |
-| polish | PASS | PASS | PASS | PASS |
-| pose | PASS | PASS | PASS | PASS |
-| potential | PASS | PASS | PASS | PASS |
-| poverty | PASS | PASS | PASS | PASS |
-| practical | PASS | PASS | PASS | PASS |
-| prefer | PASS | PASS | PASS | PASS |
-| prejudice | PASS | PASS | PASS | PASS |
-| preserve | PASS | PASS | PASS | PASS |
-| pressure | PASS | PASS | PASS | PASS |
-| presume | PASS | PASS | PASS | PASS |
-| prevail | PASS | PASS | PASS | PASS |
-| prevent | PASS | PASS | PASS | PASS |
-| primary | PASS | PASS | PASS | PASS |
-| principle | PASS | PASS | PASS | PASS |
-| priority | PASS | PASS | PASS | PASS |
-| privilege | PASS | PASS | PASS | PASS |
-| proceed | PASS | PASS | PASS | PASS |
-| process | PASS | PASS | PASS | PASS |
-| proclaim | PASS | PASS | PASS | PASS |
-| produce | PASS | PASS | PASS | PASS |
-| profit | PASS | PASS | PASS | PASS |
-| progress | PASS | PASS | PASS | PASS |
-| prohibit | PASS | PASS | PASS | PASS |
-| project | PASS | PASS | PASS | PASS |
-| promote | PASS | PASS | PASS | PASS |
-| prompt | PASS | PASS | PASS | PASS |
-| proof | PASS | PASS | PASS | PASS |
-| proportion | PASS | PASS | PASS | PASS |
-| propose | PASS | PASS | PASS | PASS |
-| prospect | PASS | PASS | PASS | PASS |
-| prosper | PASS | PASS | PASS | PASS |
-| provision | PASS | PASS | PASS | PASS |
-| provoke | PASS | PASS | PASS | PASS |
-| publish | PASS | PASS | PASS | PASS |
-| purchase | PASS | PASS | PASS | PASS |
-| pursue | PASS | PASS | PASS | PASS |
-| qualify | PASS | PASS | PASS | PASS |
-| quote | PASS | PASS | PASS | PASS |
-| random | PASS | PASS | PASS | PASS |
-| ratio | PASS | PASS | PASS | PASS |
-| react | PASS | PASS | PASS | PASS |
-| realistic | PASS | PASS | PASS | PASS |
-| realm | PASS | PASS | PASS | PASS |
-| rebel | PASS | PASS | PASS | PASS |
-| recall | PASS | PASS | PASS | PASS |
-| recommend | PASS | PASS | PASS | PASS |
-| recover | PASS | PASS | PASS | PASS |
-| reference | PASS | PASS | PASS | PASS |
-| reflect | PASS | PASS | PASS | PASS |
-| reform | PASS | PASS | PASS | PASS |
-| refuse | PASS | PASS | PASS | PASS |
-| regard | PASS | PASS | PASS | PASS |
-| register | PASS | PASS | PASS | PASS |
-| regret | PASS | PASS | PASS | PASS |
-| regular | PASS | PASS | PASS | PASS |
-| reinforce | PASS | PASS | PASS | PASS |
-| reject | PASS | PASS | PASS | PASS |
-| relate | PASS | PASS | PASS | PASS |
-| release | PASS | PASS | PASS | PASS |
-| relevant | PASS | PASS | PASS | PASS |
-| relief | PASS | PASS | PASS | PASS |
-| rely | PASS | PASS | PASS | PASS |
-| remain | PASS | PASS | PASS | PASS |
-| remarkable | PASS | PASS | PASS | PASS |
-| remedy | PASS | PASS | PASS | PASS |
-| remote | PASS | PASS | PASS | PASS |
-| remove | PASS | PASS | PASS | PASS |
-| renew | PASS | PASS | PASS | PASS |
-| replace | PASS | PASS | PASS | PASS |
-| reputation | PASS | PASS | PASS | PASS |
-| resemble | PASS | PASS | PASS | PASS |
-| reserve | PASS | PASS | PASS | PASS |
-| reside | PASS | PASS | PASS | PASS |
-| resist | PASS | PASS | PASS | PASS |
-| resolve | PASS | PASS | PASS | PASS |
-| restore | PASS | PASS | PASS | PASS |
-| restrict | PASS | PASS | PASS | PASS |
-| retain | PASS | PASS | PASS | PASS |
-| retire | PASS | PASS | PASS | PASS |
-| retreat | PASS | PASS | PASS | PASS |
-| revenue | PASS | PASS | PASS | PASS |
-| reverse | PASS | PASS | PASS | PASS |
-| revise | PASS | PASS | PASS | PASS |
-| revolt | PASS | PASS | PASS | PASS |
-| reward | PASS | PASS | PASS | PASS |
-| rigid | PASS | PASS | PASS | PASS |
-| rival | PASS | PASS | PASS | PASS |
-| routine | PASS | PASS | PASS | PASS |
-| ruin | PASS | PASS | PASS | PASS |
-| sacred | PASS | PASS | PASS | PASS |
-| sacrifice | PASS | PASS | PASS | PASS |
-| satisfactory | PASS | PASS | PASS | PASS |
-| schedule | PASS | PASS | PASS | PASS |
-| scheme | PASS | PASS | PASS | PASS |
-| scope | PASS | PASS | PASS | PASS |
-| secure | PASS | PASS | PASS | PASS |
-| segment | PASS | PASS | PASS | PASS |
-| seize | PASS | PASS | PASS | PASS |
-| sensation | PASS | PASS | PASS | PASS |
-| sequence | PASS | PASS | PASS | PASS |
-| series | PASS | PASS | PASS | PASS |
-| shift | PASS | PASS | PASS | PASS |
-| significant | PASS | PASS | PASS | PASS |
-| similar | PASS | PASS | PASS | PASS |
-| simplify | PASS | PASS | PASS | PASS |
-| simulate | PASS | PASS | PASS | PASS |
-| site | PASS | PASS | PASS | PASS |
-| sketch | PASS | PASS | PASS | PASS |
-| slight | PASS | PASS | PASS | PASS |
-| sole | PASS | PASS | PASS | PASS |
-| specific | PASS | PASS | PASS | PASS |
-| spite | PASS | PASS | PASS | PASS |
-| standard | PASS | PASS | PASS | PASS |
-| status | PASS | PASS | PASS | PASS |
-| steady | PASS | PASS | PASS | PASS |
-| stock | PASS | PASS | PASS | PASS |
-| strategy | PASS | PASS | PASS | PASS |
-| stress | PASS | PASS | PASS | PASS |
-| strict | PASS | PASS | PASS | PASS |
-| submit | PASS | PASS | PASS | PASS |
-| substitute | PASS | PASS | PASS | PASS |
-| summit | PASS | PASS | PASS | PASS |
-| superior | PASS | PASS | PASS | PASS |
-| supplement | PASS | PASS | PASS | PASS |
-| suspect | PASS | PASS | PASS | PASS |
-| suspend | PASS | PASS | PASS | PASS |
-| sustain | PASS | PASS | PASS | PASS |
-| sympathy | PASS | PASS | PASS | PASS |
-| tactic | PASS | PASS | PASS | PASS |
-| target | PASS | PASS | PASS | PASS |
-| task | PASS | PASS | PASS | PASS |
-| technique | PASS | PASS | PASS | PASS |
-| tense | PASS | PASS | PASS | PASS |
-| theory | PASS | PASS | PASS | PASS |
-| thorough | PASS | PASS | PASS | PASS |
-| threaten | PASS | PASS | PASS | PASS |
-| thrive | PASS | PASS | PASS | PASS |
-| tolerate | PASS | PASS | PASS | PASS |
-| tone | PASS | PASS | PASS | PASS |
-| transfer | PASS | PASS | PASS | PASS |
-| transparent | PASS | PASS | PASS | PASS |
-| trend | PASS | PASS | PASS | PASS |
-| trial | PASS | PASS | PASS | PASS |
-| tropical | PASS | PASS | PASS | PASS |
-| trustworthy | PASS | PASS | PASS | PASS |
-| undergo | PASS | PASS | PASS | PASS |
-| unique | PASS | PASS | PASS | PASS |
-| unite | PASS | PASS | PASS | PASS |
-| universe | PASS | PASS | PASS | PASS |
-| urge | PASS | PASS | PASS | PASS |
-| utilize | PASS | PASS | PASS | PASS |
-| valid | PASS | PASS | PASS | PASS |
-| value | PASS | PASS | PASS | PASS |
-| vehicle | PASS | PASS | PASS | PASS |
-| venture | PASS | PASS | PASS | PASS |
-| version | PASS | PASS | PASS | PASS |
-| vibrant | PASS | PASS | PASS | PASS |
-| violate | PASS | PASS | PASS | PASS |
-| virtual | PASS | PASS | PASS | PASS |
-| vision | PASS | PASS | PASS | PASS |
-| vital | PASS | PASS | PASS | PASS |
-| volume | PASS | PASS | PASS | PASS |
-| voluntary | PASS | PASS | PASS | PASS |
-| vulnerable | PASS | PASS | PASS | PASS |
-| warrant | PASS | PASS | PASS | PASS |
-| welfare | PASS | PASS | PASS | PASS |
-| widespread | PASS | PASS | PASS | PASS |
-| withdraw | PASS | PASS | PASS | PASS |
-| worthy | PASS | PASS | PASS | PASS |
-| yield | PASS | PASS | PASS | PASS |
-| zone | PASS | PASS | PASS | PASS |
-| abolish | PASS | PASS | PASS | PASS |
-| accelerate | PASS | PASS | PASS | PASS |
-| ambition | PASS | PASS | PASS | PASS |
-| ample | PASS | PASS | PASS | PASS |
-| anticipate | PASS | PASS | PASS | PASS |
-| apparatus | PASS | PASS | PASS | PASS |
-| appliance | PASS | PASS | PASS | PASS |
-| appoint | PASS | PASS | PASS | PASS |
-| asset | PASS | PASS | PASS | PASS |
-| bankrupt | PASS | PASS | PASS | PASS |
-| behalf | PASS | PASS | PASS | PASS |
-| betray | PASS | PASS | PASS | PASS |
-| biased | PASS | PASS | PASS | PASS |
-| bilateral | PASS | PASS | PASS | PASS |
-| boast | PASS | PASS | PASS | PASS |
-| bonus | PASS | PASS | PASS | PASS |
-| brisk | PASS | PASS | PASS | PASS |
-| bulk | PASS | PASS | PASS | PASS |
-| campaign | PASS | PASS | PASS | PASS |
-| cease | PASS | PASS | PASS | PASS |
-| certify | PASS | PASS | PASS | PASS |
-| chronic | PASS | PASS | PASS | PASS |
-| cite | PASS | PASS | PASS | PASS |
-| commence | PASS | PASS | PASS | PASS |
-| commission | PASS | PASS | PASS | PASS |
-| compact | PASS | PASS | PASS | PASS |
-| compel | PASS | PASS | PASS | PASS |
-| component | PASS | PASS | PASS | PASS |
-| compound | PASS | PASS | PASS | PASS |
-| comprehensive | PASS | PASS | PASS | PASS |
-| compromise | PASS | PASS | PASS | PASS |
-| compulsory | PASS | PASS | PASS | PASS |
-| condemn | PASS | PASS | PASS | PASS |
-| conduct | PASS | PASS | PASS | PASS |
-| confront | PASS | PASS | PASS | PASS |
-| considerable | PASS | PASS | PASS | PASS |
-| consistent | PASS | PASS | PASS | PASS |
-| conspicuous | PASS | PASS | PASS | PASS |
-| constitute | PASS | PASS | PASS | PASS |
-| constrain | PASS | PASS | PASS | PASS |
-| contempt | PASS | PASS | PASS | PASS |
-| contend | PASS | PASS | PASS | PASS |
-| controversial | PASS | PASS | PASS | PASS |
-| convention | PASS | PASS | PASS | PASS |
-| convert | PASS | PASS | PASS | PASS |
-| convey | PASS | PASS | PASS | PASS |
-| coordinate | PASS | PASS | PASS | PASS |
-| cope | PASS | PASS | PASS | PASS |
-| corporate | PASS | PASS | PASS | PASS |
-| corrupt | PASS | PASS | PASS | PASS |
-| counsel | PASS | PASS | PASS | PASS |
-| counterpart | PASS | PASS | PASS | PASS |
-| criterion | PASS | PASS | PASS | PASS |
-| crucial | PASS | PASS | PASS | PASS |
-| cultivate | PASS | PASS | PASS | PASS |
-| cumulative | PASS | PASS | PASS | PASS |
-| curriculum | PASS | PASS | PASS | PASS |
-| custody | PASS | PASS | PASS | PASS |
-| debris | PASS | PASS | PASS | PASS |
-| deficit | PASS | PASS | PASS | PASS |
-| delegate | PASS | PASS | PASS | PASS |
-| depict | PASS | PASS | PASS | PASS |
-| deplete | PASS | PASS | PASS | PASS |
-| designate | PASS | PASS | PASS | PASS |
-| deteriorate | PASS | PASS | PASS | PASS |
-| dictate | PASS | PASS | PASS | PASS |
+| word | imageKeyword | L9 (Image) | L10 (Fact Check) | L11 (Polysemy) | L12 (Game) |
+|---|---|---|---|---|---|
+| pace | running speed | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| panel | solar panel | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| participate | joining in | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| passion | passionate artist | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| passive | watching cat | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| patent | invention paper | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| peer | classmates group | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| perceive | noticing clouds | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| peril | danger warning | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| period | clock period | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| permanent | permanent mark | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| permit | allowed pass | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| persist | keep trying | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| perspective | bird view | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| phenomenon | rainbow sky | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| philosophy | thinking deeply | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| physical | child doing jumping jacks | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| plea | begging kitten | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| pledge | hand on heart | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| plunge | diving splash | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| policy | rules poster | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| polish | shiny coin | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| pose | posing photo | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| potential | growing potential | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| poverty | helping poor | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| practical | useful jacket | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| prefer | choosing favorite | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| prejudice | unfair judgment | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| preserve | museum preserving | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| pressure | pressing hard | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| presume | guessing believe | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| prevail | victory triumph | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| prevent | helmet safety | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| primary | first place ribbon | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| principle | rule belief | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| priority | first important | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| privilege | special access | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| proceed | moving forward | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| process | bread steps | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| proclaim | announcing loudly | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| produce | farm produce | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| profit | earning profit | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| progress | progress bar | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| prohibit | no skateboard sign | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| project | science volcano | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| promote | book poster | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| prompt | quick reply | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| proof | photo proof | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| proportion | fraction parts circle | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| propose | suggesting idea | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| prospect | exciting future | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| prosper | thriving shop | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| provision | packed supplies | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| provoke | teasing dog | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| publish | newspaper print | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| purchase | buying bike | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| pursue | chasing dream | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| qualify | passing tryout | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| quote | quote marks | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| random | picking hat | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| ratio | comparing numbers | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| react | surprised reaction | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| realistic | realistic painting | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| realm | kingdom realm | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| rebel | breaking rules | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| recall | remembering memory | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| recommend | thumbs up book | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| recover | bandage healing arm | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reference | reference book | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reflect | lake reflection | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reform | improving change | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| refuse | stubborn mule | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| regard | respectful admiring look | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| register | signing up | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| regret | sorry rain | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| regular | calendar routine | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reinforce | strong walls | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reject | saying no | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| relate | connecting dots | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| release | bird flying free | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| relevant | puzzle piece fitting | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| relief | relieved sigh | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| rely | depending sun | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| remain | staying seated | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| remarkable | amazing flip | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| remedy | honey tea | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| remote | isolated cabin | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| remove | taking off shoes | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| renew | fresh start | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| replace | new batteries | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reputation | good name | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| resemble | cloud shape | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reserve | reserved sign | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reside | forest home | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| resist | willpower cookie | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| resolve | solving problem | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| restore | painting new | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| restrict | deep end only | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| retain | sponge holding water | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| retire | retired gardening | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| retreat | stepping back | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| revenue | money earned | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reverse | car backing up | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| revise | editing paper | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| revolt | protest uprising | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| reward | reward poster | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| rigid | stiff stick | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| rival | competing teams | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| routine | morning routine | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| ruin | ruined books | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| sacred | sacred temple | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| sacrifice | giving away favorite toy | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| satisfactory | okay grade | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| schedule | daily schedule | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| scheme | sneaky plan | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| scope | wide view | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| secure | locked gate | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| segment | orange segment | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| seize | eagle grabbing | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| sensation | tingling feeling | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| sequence | ordering steps | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| series | book series | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| shift | wind changing | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| significant | important event | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| similar | look-alike twins | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| simplify | easy steps | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| simulate | flight simulator | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| site | building site | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| sketch | pencil sketch | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| slight | gentle breeze | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| sole | only one | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| specific | exact directions | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| spite | mean hiding | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| standard | quality bar | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| status | progress check | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| steady | steady hands | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| stock | supply shelf | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| strategy | game plan | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| stress | stressed feeling | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| strict | firm rules | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| submit | handing in paper | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| substitute | substitute teacher | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| summit | mountain top | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| superior | best quality | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| supplement | vitamin extra | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| suspect | suspicious looking | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| suspend | hanging web | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| sustain | sustained growth | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| sympathy | caring note | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| tactic | clever move | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| target | bullseye hit | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| task | checklist task | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| technique | art technique | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| tense | tense muscles | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| theory | idea theory | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| thorough | checking list clipboard | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| threaten | dark clouds | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| thrive | thriving cactus | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| tolerate | patience endure | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| tone | friendly voice | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| transfer | moving fish | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| transparent | clear glass | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| trend | popular style | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| trial | testing airplane | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| tropical | tropical beach palm tree | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| trustworthy | loyal friend | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| undergo | building repairs | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| unique | fingerprint unique | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| unite | hands together | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| universe | starry universe | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| urge | strong sneeze feeling | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| utilize | reusing jar | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| valid | valid ticket | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| value | diamond gem | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| vehicle | car driving road | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| venture | lemonade business | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| version | different versions | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| vibrant | colorful painting | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| violate | broken rule | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| virtual | computer tour | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| vision | garden plan | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| vital | breathing oxygen | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| volume | volume knob | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| voluntary | choosing to help | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| vulnerable | baby turtle | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| warrant | looking closer | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| welfare | caring vet | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| widespread | rain everywhere | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| withdraw | pulling back | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| worthy | deserving respect | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| yield | apple harvest | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| zone | quiet zone | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| abolish | removing rule | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| accelerate | speeding up | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| ambition | reaching stars | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| ample | plenty space | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| anticipate | preparing umbrella | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| apparatus | lab equipment | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| appliance | kitchen appliance | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| appoint | choosing person | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| asset | valuable skill | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| bankrupt | empty wallet | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| behalf | accepting award for team | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| betray | broken trust | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| biased | tilted scale | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| bilateral | two sides agree | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| boast | bragging trophy kid | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| bonus | extra surprise | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| brisk | fast walk | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| bulk | large portion | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| campaign | campaign poster | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| cease | rain stopping | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| certify | official stamp | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| chronic | lasting cough | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| cite | listing reasons | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| commence | starting bell | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| commission | mural painting | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| compact | small car | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| compel | forced inside | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| component | bike parts | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| compound | mixing elements | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| comprehensive | complete review | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| compromise | meeting middle | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| compulsory | must do | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| condemn | strong disapproval | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| conduct | leading experiment | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| confront | facing fear | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| considerable | lots of snow | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| consistent | same every day | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| conspicuous | standing out | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| constitute | parts forming whole | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| constrain | limited budget | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| contempt | looking down | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| contend | fighting wind | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| controversial | split opinions | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| convention | big gathering | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| convert | changing room | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| convey | sending message | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| coordinate | organizing together | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| cope | deep breath calm | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| corporate | office building | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| corrupt | dishonest person | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| counsel | giving advice | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| counterpart | matching role | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| criterion | judging standard | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| crucial | very important | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| cultivate | growing tomatoes | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| cumulative | growing savings | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| curriculum | school subjects | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| custody | caring for animals | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| debris | scattered pieces | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| deficit | behind score | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| delegate | assigning jobs | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| depict | painted scene | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| deplete | empty battery | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| designate | labeled shelf | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| deteriorate | crumbling fence | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
+| dictate | speaking words | PASS - unambiguous and clear for a 10yo | PASS - factually correct definition | PASS - standard/common meaning | PASS - playable in all 4 modes |
