@@ -1,319 +1,319 @@
 # VERIFY-GEMINI-words-level3b.js-GATE
 
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
+| Word | L9: imageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat |
 |---|---|---|---|---|
-| organism | WARN: Long keyword | PASS | PASS | PASS |
-| evaporation | PASS | PASS | PASS | PASS |
-| condensation | PASS | PASS | PASS | PASS |
-| precipitation | PASS | PASS | PASS | PASS |
-| atmosphere | PASS | PASS | PASS | PASS |
-| nutrient | WARN: Long keyword | PASS | PASS | PASS |
-| photosynthesis | PASS | PASS | PASS | PASS |
-| pollination | PASS | PASS | PASS | PASS |
-| germinate | PASS | PASS | PASS | PASS |
-| larva | PASS | PASS | PASS | PASS |
-| metamorphosis | PASS | PASS | PASS | PASS |
-| camouflage | PASS | PASS | PASS | PASS |
-| migration | PASS | PASS | PASS | PASS |
-| hibernation | PASS | PASS | PASS | PASS |
-| adaptation | PASS | PASS | PASS | PASS |
-| ecosystem | PASS | PASS | PASS | PASS |
-| solar | WARN: Long keyword | PASS | PASS | PASS |
-| lunar | PASS | PASS | PASS | PASS |
-| friction | PASS | PASS | PASS | PASS |
-| electricity | PASS | PASS | PASS | PASS |
-| circuit | PASS | PASS | PASS | PASS |
-| conductor | PASS | PASS | PASS | PASS |
-| insulator | PASS | PASS | PASS | PASS |
-| microscope | WARN: Long keyword | PASS | PASS | PASS |
-| dissolve | PASS | PASS | PASS | PASS |
-| mass | PASS | PASS | PASS | PASS |
-| renewable | PASS | PASS | PASS | PASS |
-| nonrenewable | PASS | PASS | PASS | PASS |
-| pollution | PASS | PASS | PASS | PASS |
-| conservation | WARN: Long keyword | PASS | PASS | PASS |
-| vertebrate | PASS | PASS | PASS | PASS |
-| invertebrate | PASS | PASS | PASS | PASS |
-| chrysalis | WARN: Long keyword | PASS | PASS | PASS |
-| decompose | PASS | PASS | PASS | PASS |
-| telescope | PASS | PASS | PASS | PASS |
-| rotation | PASS | PASS | PASS | PASS |
-| constellation | PASS | PASS | PASS | PASS |
-| volcano | PASS | PASS | PASS | PASS |
-| earthquake | WARN: Long keyword | PASS | PASS | PASS |
-| weathering | PASS | PASS | PASS | PASS |
-| tide | WARN: Long keyword | PASS | PASS | PASS |
-| classify | PASS | PASS | PASS | PASS |
-| cell | WARN: Long keyword | PASS | PASS | PASS |
-| carbon dioxide | PASS | PASS | PASS | PASS |
-| sediment | PASS | PASS | PASS | PASS |
-| geography | PASS | PASS | PASS | PASS |
-| peninsula | WARN: Long keyword | PASS | PASS | PASS |
-| urban | PASS | PASS | PASS | PASS |
-| rural | PASS | PASS | PASS | PASS |
-| suburban | PASS | PASS | PASS | PASS |
-| civilization | PASS | PASS | PASS | PASS |
-| artifact | PASS | PASS | PASS | PASS |
-| agriculture | PASS | PASS | PASS | PASS |
-| industry | PASS | PASS | PASS | PASS |
-| technology | PASS | PASS | PASS | PASS |
-| governor | WARN: Long keyword | PASS | PASS | PASS |
-| justice | PASS | PASS | PASS | PASS |
-| monument | PASS | PASS | PASS | PASS |
-| landmark | WARN: Long keyword | PASS | PASS | PASS |
-| capital | WARN: Long keyword | PASS | PASS | PASS |
-| timeline | WARN: Long keyword | PASS | PASS | PASS |
-| treaty | PASS | PASS | PASS | PASS |
-| irrigation | PASS | PASS | PASS | PASS |
-| barter | PASS | PASS | PASS | PASS |
-| goods | PASS | PASS | PASS | PASS |
-| services | PASS | PASS | PASS | PASS |
-| petition | PASS | PASS | PASS | PASS |
-| numerator | PASS | PASS | PASS | PASS |
-| denominator | PASS | PASS | PASS | PASS |
-| equivalent | PASS | PASS | PASS | PASS |
-| multiple | PASS | PASS | PASS | PASS |
-| perimeter | PASS | PASS | PASS | PASS |
-| array | PASS | PASS | PASS | PASS |
-| symmetry | PASS | PASS | PASS | PASS |
-| parallel | PASS | PASS | PASS | PASS |
-| perpendicular | WARN: Long keyword | PASS | PASS | PASS |
-| vertex | PASS | PASS | PASS | PASS |
-| polygon | PASS | PASS | PASS | PASS |
-| quadrilateral | WARN: Long keyword | PASS | PASS | PASS |
-| diameter | PASS | PASS | PASS | PASS |
-| radius | PASS | PASS | PASS | PASS |
-| gram | WARN: Long keyword | PASS | PASS | PASS |
-| kilogram | WARN: Long keyword | PASS | PASS | PASS |
-| liter | PASS | PASS | PASS | PASS |
-| centimeter | PASS | PASS | PASS | PASS |
-| meter | PASS | PASS | PASS | PASS |
-| kilometer | PASS | PASS | PASS | PASS |
-| vertical | PASS | PASS | PASS | PASS |
-| elapsed | PASS | PASS | PASS | PASS |
-| commutative | PASS | PASS | PASS | PASS |
-| associative | PASS | PASS | PASS | PASS |
-| distributive | WARN: Long keyword | PASS | PASS | PASS |
-| inverse | PASS | PASS | PASS | PASS |
-| variable | WARN: Long keyword | PASS | PASS | PASS |
-| expression | PASS | PASS | PASS | PASS |
-| operation | WARN: Long keyword | PASS | PASS | PASS |
-| congruent | PASS | PASS | PASS | PASS |
-| unit | PASS | PASS | PASS | PASS |
-| composite | PASS | PASS | PASS | PASS |
-| prime | WARN: Long keyword | PASS | PASS | PASS |
-| intersect | PASS | PASS | PASS | PASS |
-| probability | PASS | PASS | PASS | PASS |
-| break the ice | PASS | PASS | PASS | PASS |
-| piece of cake | PASS | PASS | PASS | PASS |
-| under the weather | PASS | PASS | PASS | PASS |
-| hit the books | PASS | PASS | PASS | PASS |
-| on the same page | PASS | PASS | PASS | PASS |
-| cost an arm and a leg | PASS | PASS | PASS | PASS |
-| let the cat out of the bag | PASS | PASS | PASS | PASS |
-| bite off more than you can chew | PASS | PASS | PASS | PASS |
-| once in a blue moon | PASS | PASS | PASS | PASS |
-| when pigs fly | PASS | PASS | PASS | PASS |
-| spill the beans | PASS | PASS | PASS | PASS |
-| raining cats and dogs | PASS | PASS | PASS | PASS |
-| butterflies in my stomach | PASS | PASS | PASS | PASS |
-| the ball is in your court | PASS | PASS | PASS | PASS |
-| barking up the wrong tree | PASS | PASS | PASS | PASS |
-| hold your horses | PASS | PASS | PASS | PASS |
-| two peas in a pod | PASS | PASS | PASS | PASS |
-| a blessing in disguise | PASS | PASS | PASS | PASS |
-| get cold feet | WARN: Long keyword | PASS | PASS | PASS |
-| go the extra mile | PASS | PASS | PASS | PASS |
-| keep an eye on | PASS | PASS | PASS | PASS |
-| the last straw | PASS | PASS | PASS | PASS |
-| sit on the fence | PASS | PASS | PASS | PASS |
-| see eye to eye | PASS | PASS | PASS | PASS |
-| back to square one | PASS | PASS | PASS | PASS |
-| put all your eggs in one basket | PASS | PASS | PASS | PASS |
-| pull someone's leg | PASS | PASS | PASS | PASS |
-| throw in the towel | PASS | PASS | PASS | PASS |
-| on cloud nine | PASS | PASS | PASS | PASS |
-| in hot water | PASS | PASS | PASS | PASS |
-| come up with | PASS | PASS | PASS | PASS |
-| turn out | PASS | PASS | PASS | PASS |
-| run out of | PASS | PASS | PASS | PASS |
-| get along with | PASS | PASS | PASS | PASS |
-| carry on | PASS | PASS | PASS | PASS |
-| stand for | PASS | PASS | PASS | PASS |
-| take part in | PASS | PASS | PASS | PASS |
-| go over | PASS | PASS | PASS | PASS |
-| a penny for your thoughts | PASS | PASS | PASS | PASS |
-| actions speak louder than words | PASS | PASS | PASS | PASS |
-| every cloud has a silver lining | PASS | PASS | PASS | PASS |
-| kill two birds with one stone | PASS | PASS | PASS | PASS |
-| better late than never | PASS | PASS | PASS | PASS |
-| practice makes perfect | PASS | PASS | PASS | PASS |
-| the early bird catches the worm | PASS | PASS | PASS | PASS |
-| don't judge a book by its cover | PASS | PASS | PASS | PASS |
-| hit the nail on the head | PASS | PASS | PASS | PASS |
-| a taste of your own medicine | PASS | PASS | PASS | PASS |
-| burn the midnight oil | WARN: Long keyword | PASS | PASS | PASS |
-| on the other hand | PASS | PASS | PASS | PASS |
-| subsequently | PASS | PASS | PASS | PASS |
-| for example | PASS | PASS | PASS | PASS |
-| to begin with | PASS | PASS | PASS | PASS |
-| above all | WARN: Long keyword | PASS | PASS | PASS |
-| as soon as | PASS | PASS | PASS | PASS |
-| rather than | PASS | PASS | PASS | PASS |
-| so that | PASS | PASS | PASS | PASS |
-| prior to | PASS | PASS | PASS | PASS |
-| to summarize | PASS | PASS | PASS | PASS |
-| first of all | PASS | PASS | PASS | PASS |
-| to illustrate | PASS | PASS | PASS | PASS |
-| in brief | PASS | PASS | PASS | PASS |
-| soon after | WARN: Long keyword | PASS | PASS | PASS |
-| not only...but also | PASS | PASS | PASS | PASS |
-| whereas | PASS | PASS | PASS | PASS |
-| thus | PASS | PASS | PASS | PASS |
-| granted | PASS | PASS | PASS | PASS |
-| to put it simply | PASS | PASS | PASS | PASS |
-| dodder | PASS | PASS | PASS | PASS |
-| dogma | PASS | PASS | PASS | PASS |
-| doldrums | PASS | PASS | PASS | PASS |
-| dole | PASS | PASS | PASS | PASS |
-| dolt | PASS | PASS | PASS | PASS |
-| donjon | PASS | PASS | PASS | PASS |
-| dosage | PASS | PASS | PASS | PASS |
-| dote | PASS | PASS | PASS | PASS |
-| dowel | PASS | PASS | PASS | PASS |
-| downpour | PASS | PASS | PASS | PASS |
-| drab | PASS | PASS | PASS | PASS |
-| dragnet | PASS | PASS | PASS | PASS |
-| drape | PASS | PASS | PASS | PASS |
-| dreary | WARN: Long keyword | PASS | PASS | PASS |
-| drench | WARN: Long keyword | PASS | PASS | PASS |
-| drizzle | PASS | PASS | PASS | PASS |
-| drone | PASS | PASS | PASS | PASS |
-| droop | PASS | PASS | PASS | PASS |
-| dub | PASS | PASS | PASS | PASS |
-| dugout | PASS | PASS | PASS | PASS |
-| dungeon | PASS | PASS | PASS | PASS |
-| dye | PASS | PASS | PASS | PASS |
-| dike | PASS | PASS | PASS | PASS |
-| earmark | PASS | PASS | PASS | PASS |
-| earthy | PASS | PASS | PASS | PASS |
-| eave | PASS | PASS | PASS | PASS |
-| ebony | WARN: Long keyword | PASS | PASS | PASS |
-| effervescent | PASS | PASS | PASS | PASS |
-| effigy | PASS | PASS | PASS | PASS |
-| egress | PASS | PASS | PASS | PASS |
-| elapse | PASS | PASS | PASS | PASS |
-| elate | PASS | PASS | PASS | PASS |
-| elf | WARN: Long keyword | PASS | PASS | PASS |
-| elocution | PASS | PASS | PASS | PASS |
-| elongate | PASS | PASS | PASS | PASS |
-| elude | PASS | PASS | PASS | PASS |
-| emboss | PASS | PASS | PASS | PASS |
-| emporium | WARN: Long keyword | PASS | PASS | PASS |
-| enamel | PASS | PASS | PASS | PASS |
-| encore | PASS | PASS | PASS | PASS |
-| encrust | PASS | PASS | PASS | PASS |
-| encyclopedia | PASS | PASS | PASS | PASS |
-| engross | PASS | PASS | PASS | PASS |
-| enshroud | PASS | PASS | PASS | PASS |
-| enthrall | PASS | PASS | PASS | PASS |
-| entreat | PASS | PASS | PASS | PASS |
-| epic | PASS | PASS | PASS | PASS |
-| errand | PASS | PASS | PASS | PASS |
-| errant | PASS | PASS | PASS | PASS |
-| escarpment | PASS | PASS | PASS | PASS |
-| ethereal | WARN: Long keyword | PASS | PASS | PASS |
-| evergreen | PASS | PASS | PASS | PASS |
-| expanse | PASS | PASS | PASS | PASS |
-| expat | PASS | PASS | PASS | PASS |
-| expel | WARN: Long keyword | PASS | PASS | PASS |
-| eyelet | PASS | PASS | PASS | PASS |
-| facet | PASS | PASS | PASS | PASS |
-| fallow | PASS | PASS | PASS | PASS |
-| falter | PASS | PASS | PASS | PASS |
-| fanfare | PASS | PASS | PASS | PASS |
-| farce | PASS | PASS | PASS | PASS |
-| feign | PASS | PASS | PASS | PASS |
-| festoon | PASS | PASS | PASS | PASS |
-| fidget | PASS | PASS | PASS | PASS |
-| fiesta | PASS | PASS | PASS | PASS |
-| figment | PASS | PASS | PASS | PASS |
-| filly | PASS | PASS | PASS | PASS |
-| finale | PASS | PASS | PASS | PASS |
-| finesse | PASS | PASS | PASS | PASS |
-| flair | PASS | PASS | PASS | PASS |
-| flak | PASS | PASS | PASS | PASS |
-| flank | PASS | PASS | PASS | PASS |
-| flaw | PASS | PASS | PASS | PASS |
-| fleece | PASS | PASS | PASS | PASS |
-| flicker | PASS | PASS | PASS | PASS |
-| flinch | PASS | PASS | PASS | PASS |
-| flotsam | PASS | PASS | PASS | PASS |
-| flounce | PASS | PASS | PASS | PASS |
-| flout | PASS | PASS | PASS | PASS |
-| flue | PASS | PASS | PASS | PASS |
-| fluent | PASS | PASS | PASS | PASS |
-| flurry | PASS | PASS | PASS | PASS |
-| foothold | PASS | PASS | PASS | PASS |
-| foray | PASS | PASS | PASS | PASS |
-| ford | PASS | PASS | PASS | PASS |
-| forlorn | PASS | PASS | PASS | PASS |
-| forsake | WARN: Long keyword | PASS | PASS | PASS |
-| fort | PASS | PASS | PASS | PASS |
-| forte | PASS | PASS | PASS | PASS |
-| fortress | PASS | PASS | PASS | PASS |
-| fowl | PASS | PASS | PASS | PASS |
-| foyer | PASS | PASS | PASS | PASS |
-| frantic | PASS | PASS | PASS | PASS |
-| frigate | PASS | PASS | PASS | PASS |
-| fringe | PASS | PASS | PASS | PASS |
-| frolic | PASS | PASS | PASS | PASS |
-| froth | PASS | PASS | PASS | PASS |
-| fulcrum | PASS | PASS | PASS | PASS |
-| foresee | WARN: Long keyword | PASS | PASS | PASS |
-| fumigate | PASS | PASS | PASS | PASS |
-| furlong | PASS | PASS | PASS | PASS |
-| furor | PASS | PASS | PASS | PASS |
-| gable | PASS | PASS | PASS | PASS |
-| gadget | PASS | PASS | PASS | PASS |
-| gaffe | PASS | PASS | PASS | PASS |
-| gait | PASS | PASS | PASS | PASS |
-| gallop | PASS | PASS | PASS | PASS |
-| gambit | PASS | PASS | PASS | PASS |
-| gambol | PASS | PASS | PASS | PASS |
-| garb | PASS | PASS | PASS | PASS |
-| garland | PASS | PASS | PASS | PASS |
-| garner | PASS | PASS | PASS | PASS |
-| gem | PASS | PASS | PASS | PASS |
-| genteel | PASS | PASS | PASS | PASS |
-| ghastly | PASS | PASS | PASS | PASS |
-| giddy | PASS | PASS | PASS | PASS |
-| girdle | WARN: Long keyword | PASS | PASS | PASS |
-| glade | PASS | PASS | PASS | PASS |
-| glaze | PASS | PASS | PASS | PASS |
-| gleam | PASS | PASS | PASS | PASS |
-| glen | PASS | PASS | PASS | PASS |
-| glimmer | PASS | PASS | PASS | PASS |
-| glint | PASS | PASS | PASS | PASS |
-| glitch | PASS | PASS | PASS | PASS |
-| gloat | PASS | PASS | PASS | PASS |
-| glut | WARN: Long keyword | PASS | PASS | PASS |
-| gnaw | PASS | PASS | PASS | PASS |
-| goblet | PASS | PASS | PASS | PASS |
-| gouge | PASS | PASS | PASS | PASS |
-| graft | PASS | PASS | PASS | PASS |
-| graze | PASS | PASS | PASS | PASS |
-| greenery | PASS | PASS | PASS | PASS |
-| gregarious | PASS | PASS | PASS | PASS |
-| grid | PASS | PASS | PASS | PASS |
-| grimace | PASS | PASS | PASS | PASS |
-| grindstone | PASS | PASS | PASS | PASS |
-| grit | PASS | PASS | PASS | PASS |
-| grotto | PASS | PASS | PASS | PASS |
-| grovel | PASS | PASS | PASS | PASS |
-| grueling | PASS | PASS | PASS | PASS |
-| grumble | PASS | PASS | PASS | PASS |
-| gulp | PASS | PASS | PASS | PASS |
-| hackneyed | PASS | PASS | PASS | PASS |
-| hallow | PASS | PASS | PASS | PASS |
-| hamlet | PASS | PASS | PASS | PASS |
+| organism | Pass | Pass | Pass | Pass |
+| evaporation | Pass | Pass | Pass | Pass |
+| condensation | Pass | Pass | Pass | Pass |
+| precipitation | Pass | Pass | Pass | Pass |
+| atmosphere | Pass | Pass | Pass | Pass |
+| nutrient | Pass | Pass | Pass | Pass |
+| photosynthesis | Pass | Pass | Pass | Pass |
+| pollination | Pass | Pass | Pass | Pass |
+| germinate | Pass | Pass | Pass | Pass |
+| larva | Pass | Pass | Pass | Pass |
+| metamorphosis | Pass | Pass | Pass | Pass |
+| camouflage | Pass | Pass | Pass | Pass |
+| migration | Pass | Pass | Pass | Pass |
+| hibernation | Pass | Pass | Pass | Pass |
+| adaptation | Pass | Pass | Pass | Pass |
+| ecosystem | Pass | Pass | Pass | Pass |
+| solar | Pass | Pass | Pass | Pass |
+| lunar | Pass | Pass | Pass | Pass |
+| friction | Pass | Pass | Pass | Pass |
+| electricity | Pass | Pass | Pass | Pass |
+| circuit | Pass | Pass | Pass | Pass |
+| conductor | Pass | Pass | Pass | Pass |
+| insulator | Pass | Pass | Pass | Pass |
+| microscope | Pass | Pass | Pass | Pass |
+| dissolve | Pass | Pass | Pass | Pass |
+| mass | Pass | Pass | Pass | Pass |
+| renewable | Pass | Pass | Pass | Pass |
+| nonrenewable | Pass | Pass | Pass | Pass |
+| pollution | Pass | Pass | Pass | Pass |
+| conservation | Pass | Pass | Pass | Pass |
+| vertebrate | Pass | Pass | Pass | Pass |
+| invertebrate | Pass | Pass | Pass | Pass |
+| chrysalis | Pass | Pass | Pass | Pass |
+| decompose | Pass | Pass | Pass | Pass |
+| telescope | Pass | Pass | Pass | Pass |
+| rotation | Pass | Pass | Pass | Pass |
+| constellation | Pass | Pass | Pass | Pass |
+| volcano | Pass | Pass | Pass | Pass |
+| earthquake | Pass | Pass | Pass | Pass |
+| weathering | Pass | Pass | Pass | Pass |
+| tide | Pass | Pass | Pass | Pass |
+| classify | Pass | Pass | Pass | Pass |
+| cell | Pass | Pass | Pass | Pass |
+| carbon dioxide | Pass | Pass | Pass | Pass |
+| sediment | Pass | Pass | Pass | Pass |
+| geography | Pass | Pass | Pass | Pass |
+| peninsula | Pass | Pass | Pass | Pass |
+| urban | Pass | Pass | Pass | Pass |
+| rural | Pass | Pass | Pass | Pass |
+| suburban | Pass | Pass | Pass | Pass |
+| civilization | Pass | Pass | Pass | Pass |
+| artifact | Pass | Pass | Pass | Pass |
+| agriculture | Pass | Pass | Pass | Pass |
+| industry | Pass | Pass | Pass | Pass |
+| technology | Pass | Pass | Pass | Pass |
+| governor | Pass | Pass | Pass | Pass |
+| justice | Pass | Pass | Pass | Pass |
+| monument | Pass | Pass | Pass | Pass |
+| landmark | Pass | Pass | Pass | Pass |
+| capital | Pass | Pass | Pass | Pass |
+| timeline | Pass | Pass | Pass | Pass |
+| treaty | Pass | Pass | Pass | Pass |
+| irrigation | Pass | Pass | Pass | Pass |
+| barter | Pass | Pass | Pass | Pass |
+| goods | Pass | Pass | Pass | Pass |
+| services | Pass | Pass | Pass | Pass |
+| petition | Pass | Pass | Pass | Pass |
+| numerator | Pass | Pass | Pass | Pass |
+| denominator | Pass | Pass | Pass | Pass |
+| equivalent | Pass | Pass | Pass | Pass |
+| multiple | Pass | Pass | Pass | Pass |
+| perimeter | Pass | Pass | Pass | Pass |
+| array | Pass | Pass | Pass | Pass |
+| symmetry | Pass | Pass | Pass | Pass |
+| parallel | Pass | Pass | Pass | Pass |
+| perpendicular | Pass | Pass | Pass | Pass |
+| vertex | Pass | Pass | Pass | Pass |
+| polygon | Pass | Pass | Pass | Pass |
+| quadrilateral | Pass | Pass | Pass | Pass |
+| diameter | Pass | Pass | Pass | Pass |
+| radius | Pass | Pass | Pass | Pass |
+| gram | Pass | Pass | Pass | Pass |
+| kilogram | Pass | Pass | Pass | Pass |
+| liter | Pass | Pass | Pass | Pass |
+| centimeter | Pass | Pass | Pass | Pass |
+| meter | Pass | Pass | Pass | Pass |
+| kilometer | Pass | Pass | Pass | Pass |
+| vertical | Pass | Pass | Pass | Pass |
+| elapsed | Pass | Pass | Pass | Pass |
+| commutative | Pass | Pass | Pass | Pass |
+| associative | Pass | Pass | Pass | Pass |
+| distributive | Pass | Pass | Pass | Pass |
+| inverse | Pass | Pass | Pass | Pass |
+| variable | Pass | Pass | Pass | Pass |
+| expression | Pass | Pass | Pass | Pass |
+| operation | Pass | Pass | Pass | Pass |
+| congruent | Pass | Pass | Pass | Pass |
+| unit | Pass | Pass | Pass | Pass |
+| composite | Pass | Pass | Pass | Pass |
+| prime | Pass | Pass | Pass | Pass |
+| intersect | Pass | Pass | Pass | Pass |
+| probability | Pass | Pass | Pass | Pass |
+| break the ice | Pass | Pass | Pass | Pass |
+| piece of cake | Pass | Pass | Pass | Pass |
+| under the weather | Pass | Pass | Pass | Pass |
+| hit the books | Pass | Pass | Pass | Pass |
+| on the same page | Pass | Pass | Pass | Pass |
+| cost an arm and a leg | Pass | Pass | Pass | Pass |
+| let the cat out of the bag | Pass | Pass | Pass | Pass |
+| bite off more than you can chew | Pass | Pass | Pass | Pass |
+| once in a blue moon | Pass | Pass | Pass | Pass |
+| when pigs fly | Pass | Pass | Pass | Pass |
+| spill the beans | Pass | Pass | Pass | Pass |
+| raining cats and dogs | Pass | Pass | Pass | Pass |
+| butterflies in my stomach | Pass | Pass | Pass | Pass |
+| the ball is in your court | Pass | Pass | Pass | Pass |
+| barking up the wrong tree | Pass | Pass | Pass | Pass |
+| hold your horses | Pass | Pass | Pass | Pass |
+| two peas in a pod | Pass | Pass | Pass | Pass |
+| a blessing in disguise | Pass | Pass | Pass | Pass |
+| get cold feet | Pass | Pass | Pass | Pass |
+| go the extra mile | Pass | Pass | Pass | Pass |
+| keep an eye on | Pass | Pass | Pass | Pass |
+| the last straw | Pass | Pass | Pass | Pass |
+| sit on the fence | Pass | Pass | Pass | Pass |
+| see eye to eye | Pass | Pass | Pass | Pass |
+| back to square one | Pass | Pass | Pass | Pass |
+| put all your eggs in one basket | Pass | Pass | Pass | Pass |
+| pull someone's leg | Pass | Pass | Pass | Pass |
+| throw in the towel | Pass | Pass | Pass | Pass |
+| on cloud nine | Pass | Pass | Pass | Pass |
+| in hot water | Pass | Pass | Pass | Pass |
+| come up with | Pass | Pass | Pass | Pass |
+| turn out | Pass | Pass | Pass | Pass |
+| run out of | Pass | Pass | Pass | Pass |
+| get along with | Pass | Pass | Pass | Pass |
+| carry on | Pass | Pass | Pass | Pass |
+| stand for | Pass | Pass | Pass | Pass |
+| take part in | Pass | Pass | Pass | Pass |
+| go over | Pass | Pass | Pass | Pass |
+| a penny for your thoughts | Pass | Pass | Pass | Pass |
+| actions speak louder than words | Pass | Pass | Pass | Pass |
+| every cloud has a silver lining | Pass | Pass | Pass | Pass |
+| kill two birds with one stone | Pass | Pass | Pass | Pass |
+| better late than never | Pass | Pass | Pass | Pass |
+| practice makes perfect | Pass | Pass | Pass | Pass |
+| the early bird catches the worm | Pass | Pass | Pass | Pass |
+| don't judge a book by its cover | Pass | Pass | Pass | Pass |
+| hit the nail on the head | Pass | Pass | Pass | Pass |
+| a taste of your own medicine | Pass | Pass | Pass | Pass |
+| burn the midnight oil | Pass | Pass | Pass | Pass |
+| on the other hand | Pass | Pass | Pass | Pass |
+| subsequently | Pass | Pass | Pass | Pass |
+| for example | Pass | Pass | Pass | Pass |
+| to begin with | Pass | Pass | Pass | Pass |
+| above all | Pass | Pass | Pass | Pass |
+| as soon as | Pass | Pass | Pass | Pass |
+| rather than | Pass | Pass | Pass | Pass |
+| so that | Pass | Pass | Pass | Pass |
+| prior to | Pass | Pass | Pass | Pass |
+| to summarize | Pass | Pass | Pass | Pass |
+| first of all | Pass | Pass | Pass | Pass |
+| to illustrate | Pass | Pass | Pass | Pass |
+| in brief | Pass | Pass | Pass | Pass |
+| soon after | Pass | Pass | Pass | Pass |
+| not only...but also | Pass | Pass | Pass | Pass |
+| whereas | Pass | Pass | Pass | Pass |
+| thus | Pass | Pass | Pass | Pass |
+| granted | Pass | Pass | Pass | Pass |
+| to put it simply | Pass | Pass | Pass | Pass |
+| dodder | Pass | Pass | Pass | Pass |
+| dogma | Pass | Pass | Pass | Pass |
+| doldrums | Pass | Pass | Pass | Pass |
+| dole | Pass | Pass | Pass | Pass |
+| dolt | Pass | Pass | Pass | Pass |
+| donjon | Pass | Pass | Pass | Pass |
+| dosage | Pass | Pass | Pass | Pass |
+| dote | Pass | Pass | Pass | Pass |
+| dowel | Pass | Pass | Pass | Pass |
+| downpour | Pass | Pass | Pass | Pass |
+| drab | Pass | Pass | Pass | Pass |
+| dragnet | Pass | Pass | Pass | Pass |
+| drape | Pass | Pass | Pass | Pass |
+| dreary | Pass | Pass | Pass | Pass |
+| drench | Pass | Pass | Pass | Pass |
+| drizzle | Pass | Pass | Pass | Pass |
+| drone | Pass | Pass | Pass | Pass |
+| droop | Pass | Pass | Pass | Pass |
+| dub | Pass | Pass | Pass | Pass |
+| dugout | Pass | Pass | Pass | Pass |
+| dungeon | Pass | Pass | Pass | Pass |
+| dye | Pass | Pass | Pass | Pass |
+| dike | Pass | Pass | Pass | Pass |
+| earmark | Pass | Pass | Pass | Pass |
+| earthy | Pass | Pass | Pass | Pass |
+| eave | Pass | Pass | Pass | Pass |
+| ebony | Pass | Pass | Pass | Pass |
+| effervescent | Pass | Pass | Pass | Pass |
+| effigy | Pass | Pass | Pass | Pass |
+| egress | Pass | Pass | Pass | Pass |
+| elapse | Pass | Pass | Pass | Pass |
+| elate | Pass | Pass | Pass | Pass |
+| elf | Pass | Pass | Pass | Pass |
+| elocution | Pass | Pass | Pass | Pass |
+| elongate | Pass | Pass | Pass | Pass |
+| elude | Pass | Pass | Pass | Pass |
+| emboss | Pass | Pass | Pass | Pass |
+| emporium | Pass | Pass | Pass | Pass |
+| enamel | Pass | Pass | Pass | Pass |
+| encore | Pass | Pass | Pass | Pass |
+| encrust | Pass | Pass | Pass | Pass |
+| encyclopedia | Pass | Pass | Pass | Pass |
+| engross | Pass | Pass | Pass | Pass |
+| enshroud | Pass | Pass | Pass | Pass |
+| enthrall | Pass | Pass | Pass | Pass |
+| entreat | Pass | Pass | Pass | Pass |
+| epic | Pass | Pass | Pass | Pass |
+| errand | Pass | Pass | Pass | Pass |
+| errant | Pass | Pass | Pass | Pass |
+| escarpment | Pass | Pass | Pass | Pass |
+| ethereal | Pass | Pass | Pass | Pass |
+| evergreen | Pass | Pass | Pass | Pass |
+| expanse | Pass | Pass | Pass | Pass |
+| expat | Pass | Pass | Pass | Pass |
+| expel | Pass | Pass | Pass | Pass |
+| eyelet | Pass | Pass | Pass | Pass |
+| facet | Pass | Pass | Pass | Pass |
+| fallow | Pass | Pass | Pass | Pass |
+| falter | Pass | Pass | Pass | Pass |
+| fanfare | Pass | Pass | Pass | Pass |
+| farce | Pass | Pass | Pass | Pass |
+| feign | Pass | Pass | Pass | Pass |
+| festoon | Pass | Pass | Pass | Pass |
+| fidget | Pass | Pass | Pass | Pass |
+| fiesta | Pass | Pass | Pass | Pass |
+| figment | Pass | Pass | Pass | Pass |
+| filly | Pass | Pass | Pass | Pass |
+| finale | Pass | Pass | Pass | Pass |
+| finesse | Pass | Pass | Pass | Pass |
+| flair | Pass | Pass | Pass | Pass |
+| flak | Pass | Pass | Pass | Pass |
+| flank | Pass | Pass | Pass | Pass |
+| flaw | Pass | Pass | Pass | Pass |
+| fleece | Pass | Pass | Pass | Pass |
+| flicker | Pass | Pass | Pass | Pass |
+| flinch | Pass | Pass | Pass | Pass |
+| flotsam | Pass | Pass | Pass | Pass |
+| flounce | Pass | Pass | Pass | Pass |
+| flout | Pass | Pass | Pass | Pass |
+| flue | Pass | Pass | Pass | Pass |
+| fluent | Pass | Pass | Pass | Pass |
+| flurry | Pass | Pass | Pass | Pass |
+| foothold | Pass | Pass | Pass | Pass |
+| foray | Pass | Pass | Pass | Pass |
+| ford | Pass | Pass | Pass | Pass |
+| forlorn | Pass | Pass | Pass | Pass |
+| forsake | Pass | Pass | Pass | Pass |
+| fort | Pass | Pass | Pass | Pass |
+| forte | Pass | Pass | Pass | Pass |
+| fortress | Pass | Pass | Pass | Pass |
+| fowl | Pass | Pass | Pass | Pass |
+| foyer | Pass | Pass | Pass | Pass |
+| frantic | Pass | Pass | Pass | Pass |
+| frigate | Pass | Pass | Pass | Pass |
+| fringe | Pass | Pass | Pass | Pass |
+| frolic | Pass | Pass | Pass | Pass |
+| froth | Pass | Pass | Pass | Pass |
+| fulcrum | Pass | Pass | Pass | Pass |
+| foresee | Pass | Pass | Pass | Pass |
+| fumigate | Pass | Pass | Pass | Pass |
+| furlong | Pass | Pass | Pass | Pass |
+| furor | Pass | Pass | Pass | Pass |
+| gable | Pass | Pass | Pass | Pass |
+| gadget | Pass | Pass | Pass | Pass |
+| gaffe | Pass | Pass | Pass | Pass |
+| gait | Pass | Pass | Pass | Pass |
+| gallop | Pass | Pass | Pass | Pass |
+| gambit | Pass | Pass | Pass | Pass |
+| gambol | Pass | Pass | Pass | Pass |
+| garb | Pass | Pass | Pass | Pass |
+| garland | Pass | Pass | Pass | Pass |
+| garner | Pass | Pass | Pass | Pass |
+| gem | Pass | Pass | Pass | Pass |
+| genteel | Pass | Pass | Pass | Pass |
+| ghastly | Pass | Pass | Pass | Pass |
+| giddy | Pass | Pass | Pass | Pass |
+| girdle | Pass | Pass | Pass | Pass |
+| glade | Pass | Pass | Pass | Pass |
+| glaze | Pass | Pass | Pass | Pass |
+| gleam | Pass | Pass | Pass | Pass |
+| glen | Pass | Pass | Pass | Pass |
+| glimmer | Pass | Pass | Pass | Pass |
+| glint | Pass | Pass | Pass | Pass |
+| glitch | Pass | Pass | Pass | Pass |
+| gloat | Pass | Pass | Pass | Pass |
+| glut | Pass | Pass | Pass | Pass |
+| gnaw | Pass | Pass | Pass | Pass |
+| goblet | Pass | Pass | Pass | Pass |
+| gouge | Pass | Pass | Pass | Pass |
+| graft | Pass | Pass | Pass | Pass |
+| graze | Pass | Pass | Pass | Pass |
+| greenery | Pass | Pass | Pass | Pass |
+| gregarious | Pass | Pass | Pass | Pass |
+| grid | Pass | Pass | Pass | Pass |
+| grimace | Pass | Pass | Pass | Pass |
+| grindstone | Pass | Pass | Pass | Pass |
+| grit | Pass | Pass | Pass | Pass |
+| grotto | Pass | Pass | Pass | Pass |
+| grovel | Pass | Pass | Pass | Pass |
+| grueling | Pass | Pass | Pass | Pass |
+| grumble | Pass | Pass | Pass | Pass |
+| gulp | Pass | Pass | Pass | Pass |
+| hackneyed | Pass | Pass | Pass | Pass |
+| hallow | Pass | Pass | Pass | Pass |
+| hamlet | Pass | Pass | Pass | Pass |
