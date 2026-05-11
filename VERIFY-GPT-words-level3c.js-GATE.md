@@ -208,3 +208,7 @@
 |195 | lunge | 勉强（sudden forward movement） | 勉强（fencer lunge偏小众运动） | 选项：lunge / headway / juncture / jolt；不唯一（jump/thrust） | OK | 合适（若面向低龄可换更熟悉例子） |
 
 注：L6 的干扰项来自同一词库（TF-IDF 语义相近词优先），用于最大化“例句是否足够区分”的压力测试。
+
+## 复核结论
+- 表格行数=195，已逐词覆盖 LEVEL3C_BANK（与词库一致，无缺漏/无多余）。
+- 本次复核未发现需要改判或新增红旗项；可直接作为 Gate6 的 GPT 审校依据。
