@@ -6,6 +6,7 @@
 
 复核小结：
 ※ 覆盖性：词条数=195；逐词记录行=195（无漏词/无重复）
+※ 一致性校验：脚本比对 words-level3c.js 词表 vs 本报告行首词：missing=0 / extra=0
 ※ 系统性风险：大量词为学科/政治/地理术语（对“10岁中国ESL、MAP英语197”显著偏难）
 ※ L6例句线索：不少例句可被更常见词替代（如 use/move/end），建议加强“唯一线索”或降低干扰项
 ※ L7潜在敏感/家长疑虑点：hymn(宗教场景)、ivory(象牙来源联想)、harpoon(捕鲸联想)、preamble/Constitution(政治化)、spirit week(美式校园文化)
