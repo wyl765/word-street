@@ -1,384 +1,386 @@
-| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
-|---|---|---|---|---|
-| moral | PASS | PASS | PASS | PASS |
-| fable | PASS | PASS | PASS | PASS |
-| folktale | PASS | PASS | PASS | PASS |
-| myth | PASS | PASS | PASS | PASS |
-| rhyme | PASS | PASS | PASS | PASS |
-| stanza | PASS | PASS | PASS | PASS |
-| verse | PASS | PASS | PASS | PASS |
-| syllable | PASS | PASS | PASS | PASS |
-| vowel | PASS | PASS | PASS | PASS |
-| consonant | PASS | PASS | PASS | PASS |
-| prefix | PASS | PASS | PASS | PASS |
-| suffix | PASS | PASS | PASS | PASS |
-| synonym | PASS | PASS | PASS | PASS |
-| antonym | PASS | PASS | PASS | PASS |
-| homophone | PASS | PASS | PASS | PASS |
-| dialogue | PASS | PASS | PASS | PASS |
-| narrator | PASS | PASS | PASS | PASS |
-| scene | PASS | PASS | PASS | PASS |
-| conflict | PASS | PASS | PASS | PASS |
-| resolution | PASS | PASS | PASS | PASS |
-| end | PASS | PASS | PASS | PASS |
-| retell | PASS | PASS | PASS | PASS |
-| infer | PASS | PASS | PASS | PASS |
-| conclude | PASS | PASS | PASS | PASS |
-| theme | PASS | PASS | PASS | PASS |
-| genre | PASS | PASS | PASS | PASS |
-| biography | PASS | PASS | PASS | PASS |
-| autobiography | PASS | PASS | PASS | PASS |
-| caption | PASS | PASS | PASS | PASS |
-| glossary | PASS | PASS | PASS | PASS |
-| amphibian | PASS | PASS | PASS | PASS |
-| carbon | PASS | PASS | PASS | PASS |
-| dinosaur | PASS | PASS | PASS | PASS |
-| skeleton | PASS | PASS | PASS | PASS |
-| brain | PASS | PASS | PASS | PASS |
-| lung | PASS | PASS | PASS | PASS |
-| heart | PASS | PASS | PASS | PASS |
-| stomach | PASS | PASS | PASS | PASS |
-| diet | PASS | PASS | PASS | PASS |
-| nutrition | PASS | PASS | PASS | PASS |
-| vitamin | PASS | PASS | PASS | PASS |
-| protein | PASS | PASS | PASS | PASS |
-| fiber | PASS | PASS | PASS | PASS |
-| hygiene | PASS | PASS | PASS | PASS |
-| germ | PASS | PASS | PASS | PASS |
-| bacteria | PASS | PASS | PASS | PASS |
-| virus | PASS | PASS | PASS | PASS |
-| vaccine | PASS | PASS | PASS | PASS |
-| disease | PASS | PASS | PASS | PASS |
-| symptom | PASS | PASS | PASS | PASS |
-| medicine | PASS | PASS | PASS | PASS |
-| organ | PASS | PASS | PASS | PASS |
-| tissue | PASS | PASS | PASS | PASS |
-| bone | PASS | PASS | PASS | PASS |
-| joint | PASS | PASS | PASS | PASS |
-| nerve | PASS | PASS | PASS | PASS |
-| blood | PASS | PASS | PASS | PASS |
-| artery | PASS | PASS | PASS | PASS |
-| vein | PASS | PASS | PASS | PASS |
-| pulse | PASS | PASS | PASS | PASS |
-| breath | PASS | PASS | PASS | PASS |
-| digest | PASS | PASS | PASS | PASS |
-| trait | PASS | PASS | PASS | PASS |
-| congress | PASS | PASS | PASS | PASS |
-| rights | PASS | PASS | PASS | PASS |
-| tax | PASS | PASS | PASS | PASS |
-| budget | PASS | PASS | PASS | PASS |
-| economy | PASS | PASS | PASS | PASS |
-| import | PASS | PASS | PASS | PASS |
-| export | PASS | PASS | PASS | PASS |
-| invention | PASS | PASS | PASS | PASS |
-| explorer | PASS | PASS | PASS | PASS |
-| settler | PASS | PASS | PASS | PASS |
-| colony | PASS | PASS | PASS | PASS |
-| revolution | PASS | PASS | PASS | PASS |
-| independence | PASS | PASS | PASS | PASS |
-| amendment | PASS | PASS | PASS | PASS |
-| slavery | PASS | PASS | PASS | PASS |
-| equality | PASS | PASS | PASS | PASS |
-| protest | PASS | PASS | PASS | PASS |
-| boycott | PASS | PASS | PASS | PASS |
-| civil | PASS | PASS | PASS | PASS |
-| democracy | PASS | PASS | PASS | PASS |
-| republic | PASS | PASS | PASS | PASS |
-| nation | PASS | PASS | PASS | PASS |
-| hemisphere | PASS | PASS | PASS | PASS |
-| equator | PASS | PASS | PASS | PASS |
-| latitude | PASS | PASS | PASS | PASS |
-| longitude | PASS | PASS | PASS | PASS |
-| compass | PASS | PASS | PASS | PASS |
-| resource | PASS | PASS | PASS | PASS |
-| heritage | PASS | PASS | PASS | PASS |
-| fraction | PASS | PASS | PASS | PASS |
-| decimal | PASS | PASS | PASS | PASS |
-| percent | PASS | PASS | PASS | PASS |
-| estimate | PASS | PASS | PASS | PASS |
-| equation | PASS | PASS | PASS | PASS |
-| addition | PASS | PASS | PASS | PASS |
-| difference | PASS | PASS | PASS | PASS |
-| product | PASS | PASS | PASS | PASS |
-| quotient | PASS | PASS | PASS | PASS |
-| remainder | PASS | PASS | PASS | PASS |
-| digit | PASS | PASS | PASS | PASS |
-| place value | PASS | PASS | PASS | PASS |
-| regroup | PASS | PASS | PASS | PASS |
-| carry | PASS | PASS | PASS | PASS |
-| column | PASS | PASS | PASS | PASS |
-| row | PASS | PASS | PASS | PASS |
-| table | PASS | PASS | PASS | PASS |
-| tally | PASS | PASS | PASS | PASS |
-| survey | PASS | PASS | PASS | PASS |
-| greatest | PASS | PASS | PASS | PASS |
-| even | PASS | PASS | PASS | PASS |
-| adventurous | PASS | PASS | PASS | PASS |
-| ambitious | PASS | PASS | PASS | PASS |
-| compassionate | PASS | PASS | PASS | PASS |
-| confident | PASS | PASS | PASS | PASS |
-| considerate | PASS | PASS | PASS | PASS |
-| cooperative | PASS | PASS | PASS | PASS |
-| creative | PASS | PASS | PASS | PASS |
-| demanding | PASS | PASS | PASS | PASS |
-| dependable | PASS | PASS | PASS | PASS |
-| devoted | PASS | PASS | PASS | PASS |
-| energetic | PASS | PASS | PASS | PASS |
-| enthusiastic | PASS | PASS | PASS | PASS |
-| fearless | PASS | PASS | PASS | PASS |
-| forgiving | PASS | PASS | PASS | PASS |
-| friendly | PASS | PASS | PASS | PASS |
-| guilty | PASS | PASS | PASS | PASS |
-| impatient | PASS | PASS | PASS | PASS |
-| independent | PASS | PASS | PASS | PASS |
-| joyful | PASS | PASS | PASS | PASS |
-| mean | PASS | PASS | PASS | PASS |
-| mischievous | PASS | PASS | PASS | PASS |
-| modest | PASS | PASS | PASS | PASS |
-| optimistic | PASS | PASS | PASS | PASS |
-| pessimistic | PASS | PASS | PASS | PASS |
-| respectful | PASS | PASS | PASS | PASS |
-| responsible | PASS | PASS | PASS | PASS |
-| bring up | PASS | PASS | PASS | PASS |
-| catch up | PASS | PASS | PASS | PASS |
-| check out | PASS | PASS | PASS | PASS |
-| come along | PASS | PASS | PASS | PASS |
-| cut off | PASS | PASS | PASS | PASS |
-| drop off | PASS | PASS | PASS | PASS |
-| end up | PASS | PASS | PASS | PASS |
-| fall apart | PASS | PASS | PASS | PASS |
-| get along | PASS | PASS | PASS | PASS |
-| get over | PASS | PASS | PASS | PASS |
-| get rid of | PASS | PASS | PASS | PASS |
-| go ahead | PASS | PASS | PASS | PASS |
-| go through | PASS | PASS | PASS | PASS |
-| grow up | PASS | PASS | PASS | PASS |
-| hand in | PASS | PASS | PASS | PASS |
-| hang out | PASS | PASS | PASS | PASS |
-| keep up | PASS | PASS | PASS | PASS |
-| knock down | PASS | PASS | PASS | PASS |
-| leave out | PASS | PASS | PASS | PASS |
-| let down | PASS | PASS | PASS | PASS |
-| line up | PASS | PASS | PASS | PASS |
-| look after | PASS | PASS | PASS | PASS |
-| look into | PASS | PASS | PASS | PASS |
-| look up | PASS | PASS | PASS | PASS |
-| make sure | PASS | PASS | PASS | PASS |
-| mix up | PASS | PASS | PASS | PASS |
-| move on | PASS | PASS | PASS | PASS |
-| pass out | PASS | PASS | PASS | PASS |
-| pay attention | PASS | PASS | PASS | PASS |
-| pick out | PASS | PASS | PASS | PASS |
-| pull over | PASS | PASS | PASS | PASS |
-| put away | PASS | PASS | PASS | PASS |
-| put off | PASS | PASS | PASS | PASS |
-| put together | PASS | PASS | PASS | PASS |
-| run into | PASS | PASS | PASS | PASS |
-| shut down | PASS | PASS | PASS | PASS |
-| sign up | PASS | PASS | PASS | PASS |
-| slow down | PASS | PASS | PASS | PASS |
-| sort out | PASS | PASS | PASS | PASS |
-| speak up | PASS | PASS | PASS | PASS |
-| stand out | PASS | PASS | PASS | PASS |
-| stay up | PASS | PASS | PASS | PASS |
-| take apart | PASS | PASS | PASS | PASS |
-| take away | PASS | PASS | PASS | PASS |
-| take off | PASS | PASS | PASS | PASS |
-| take over | PASS | PASS | PASS | PASS |
-| think over | PASS | PASS | PASS | PASS |
-| turn down | PASS | PASS | PASS | PASS |
-| use up | PASS | PASS | PASS | PASS |
-| watch out | PASS | PASS | PASS | PASS |
-| wear out | PASS | PASS | PASS | PASS |
-| work out | PASS | PASS | PASS | PASS |
-| wrap up | PASS | PASS | PASS | PASS |
-| back and forth | PASS | PASS | PASS | PASS |
-| bit by bit | PASS | PASS | PASS | PASS |
-| day by day | PASS | PASS | PASS | PASS |
-| from now on | PASS | PASS | PASS | PASS |
-| in the meantime | PASS | PASS | PASS | PASS |
-| once upon a time | PASS | PASS | PASS | PASS |
-| moreover | PASS | PASS | PASS | PASS |
-| nevertheless | PASS | PASS | PASS | PASS |
-| nonetheless | PASS | PASS | PASS | PASS |
-| accordingly | PASS | PASS | PASS | PASS |
-| additionally | PASS | PASS | PASS | PASS |
-| after all | PASS | PASS | PASS | PASS |
-| altogether | PASS | PASS | PASS | PASS |
-| as a matter of fact | PASS | PASS | PASS | PASS |
-| as a result | PASS | PASS | PASS | PASS |
-| at first | PASS | PASS | PASS | PASS |
-| at last | PASS | PASS | PASS | PASS |
-| at the same time | PASS | PASS | PASS | PASS |
-| because of | PASS | PASS | PASS | PASS |
-| before long | PASS | PASS | PASS | PASS |
-| by contrast | PASS | PASS | PASS | PASS |
-| certainly | PASS | PASS | PASS | PASS |
-| clearly | PASS | PASS | PASS | PASS |
-| compared to | PASS | PASS | PASS | PASS |
-| consequently | PASS | PASS | PASS | PASS |
-| despite | PASS | PASS | PASS | PASS |
-| due to | PASS | PASS | PASS | PASS |
-| equally | PASS | PASS | PASS | PASS |
-| especially | PASS | PASS | PASS | PASS |
-| even though | PASS | PASS | PASS | PASS |
-| except | PASS | PASS | PASS | PASS |
-| for instance | PASS | PASS | PASS | PASS |
-| generally | PASS | PASS | PASS | PASS |
-| in addition | PASS | PASS | PASS | PASS |
-| in conclusion | PASS | PASS | PASS | PASS |
-| in contrast | PASS | PASS | PASS | PASS |
-| in fact | PASS | PASS | PASS | PASS |
-| in general | PASS | PASS | PASS | PASS |
-| in other words | PASS | PASS | PASS | PASS |
-| in particular | PASS | PASS | PASS | PASS |
-| in summary | PASS | PASS | PASS | PASS |
-| in the end | PASS | PASS | PASS | PASS |
-| mainly | PASS | PASS | PASS | PASS |
-| namely | PASS | PASS | PASS | PASS |
-| notably | PASS | PASS | PASS | PASS |
-| on the contrary | PASS | PASS | PASS | PASS |
-| on the whole | PASS | PASS | PASS | PASS |
-| overall | PASS | PASS | PASS | PASS |
-| rather | PASS | PASS | PASS | PASS |
-| regardless | PASS | PASS | PASS | PASS |
-| similarly | PASS | PASS | PASS | PASS |
-| specifically | PASS | PASS | PASS | PASS |
-| such as | PASS | PASS | PASS | PASS |
-| accessory | PASS | PASS | PASS | PASS |
-| accommodate | PASS | PASS | PASS | PASS |
-| adolescent | PASS | PASS | PASS | PASS |
-| alternate | PASS | PASS | PASS | PASS |
-| amid | PASS | PASS | PASS | PASS |
-| back up | PASS | PASS | PASS | PASS |
-| bear in mind | PASS | PASS | PASS | PASS |
-| blend in | PASS | PASS | PASS | PASS |
-| bring about | PASS | PASS | PASS | PASS |
-| build up | PASS | PASS | PASS | PASS |
-| call off | PASS | PASS | PASS | PASS |
-| cellulose | PASS | PASS | PASS | PASS |
-| chromosome | PASS | PASS | PASS | PASS |
-| count on | PASS | PASS | PASS | PASS |
-| cross out | PASS | PASS | PASS | PASS |
-| cut back | PASS | PASS | PASS | PASS |
-| deal with | PASS | PASS | PASS | PASS |
-| emit | PASS | PASS | PASS | PASS |
-| exterior | PASS | PASS | PASS | PASS |
-| fauna | PASS | PASS | PASS | PASS |
-| focal | PASS | PASS | PASS | PASS |
-| graphic | PASS | PASS | PASS | PASS |
-| hand out | PASS | PASS | PASS | PASS |
-| keep in mind | PASS | PASS | PASS | PASS |
-| lay out | PASS | PASS | PASS | PASS |
-| line graph | PASS | PASS | PASS | PASS |
-| make out | PASS | PASS | PASS | PASS |
-| migratory | PASS | PASS | PASS | PASS |
-| on behalf of | PASS | PASS | PASS | PASS |
-| parasite | PASS | PASS | PASS | PASS |
-| phase | PASS | PASS | PASS | PASS |
-| pie chart | PASS | PASS | PASS | PASS |
-| put up with | PASS | PASS | PASS | PASS |
-| rely on | PASS | PASS | PASS | PASS |
-| show up | PASS | PASS | PASS | PASS |
-| take into account | PASS | PASS | PASS | PASS |
-| account for | PASS | PASS | PASS | PASS |
-| act on | PASS | PASS | PASS | PASS |
-| add up | PASS | PASS | PASS | PASS |
-| algae | PASS | PASS | PASS | PASS |
-| allergic | PASS | PASS | PASS | PASS |
-| aquatic | PASS | PASS | PASS | PASS |
-| bar graph | PASS | PASS | PASS | PASS |
-| beforehand | PASS | PASS | PASS | PASS |
-| boil down to | PASS | PASS | PASS | PASS |
-| by and large | PASS | PASS | PASS | PASS |
-| canine | PASS | PASS | PASS | PASS |
-| catch on | PASS | PASS | PASS | PASS |
-| cell membrane | PASS | PASS | PASS | PASS |
-| come down to | PASS | PASS | PASS | PASS |
-| commute | PASS | PASS | PASS | PASS |
-| crop | PASS | PASS | PASS | PASS |
-| descend | PASS | PASS | PASS | PASS |
-| endangered | PASS | PASS | PASS | PASS |
-| evaporate | PASS | PASS | PASS | PASS |
-| extinct | PASS | PASS | PASS | PASS |
-| fall behind | PASS | PASS | PASS | PASS |
-| figure of speech | PASS | PASS | PASS | PASS |
-| food chain | PASS | PASS | PASS | PASS |
-| food web | PASS | PASS | PASS | PASS |
-| freshen up | PASS | PASS | PASS | PASS |
-| get by | PASS | PASS | PASS | PASS |
-| go along with | PASS | PASS | PASS | PASS |
-| gravitational | PASS | PASS | PASS | PASS |
-| greenhouse effect | PASS | PASS | PASS | PASS |
-| hibernate | PASS | PASS | PASS | PASS |
-| insulate | PASS | PASS | PASS | PASS |
-| keep track of | PASS | PASS | PASS | PASS |
-| landform | PASS | PASS | PASS | PASS |
-| leave behind | PASS | PASS | PASS | PASS |
-| life cycle | PASS | PASS | PASS | PASS |
-| live up to | PASS | PASS | PASS | PASS |
-| look out for | PASS | PASS | PASS | PASS |
-| marine | PASS | PASS | PASS | PASS |
-| offspring | PASS | PASS | PASS | PASS |
-| on account of | PASS | PASS | PASS | PASS |
-| out of the blue | PASS | PASS | PASS | PASS |
-| ozone | PASS | PASS | PASS | PASS |
-| plankton | PASS | PASS | PASS | PASS |
-| point of view | PASS | PASS | PASS | PASS |
-| pollutant | PASS | PASS | PASS | PASS |
-| prolonged | PASS | PASS | PASS | PASS |
-| put forward | PASS | PASS | PASS | PASS |
-| reproduce | PASS | PASS | PASS | PASS |
-| rule out | PASS | PASS | PASS | PASS |
-| soluble | PASS | PASS | PASS | PASS |
-| volcanic | PASS | PASS | PASS | PASS |
-| water cycle | PASS | PASS | PASS | PASS |
-| watershed | PASS | PASS | PASS | PASS |
-| wind up | PASS | PASS | PASS | PASS |
-| acoustics | PASS | PASS | PASS | PASS |
-| alloy | PASS | PASS | PASS | PASS |
-| amass | PASS | PASS | PASS | PASS |
-| anthem | PASS | PASS | PASS | PASS |
-| aperture | PASS | PASS | PASS | PASS |
-| aroma | PASS | PASS | PASS | PASS |
-| assent | PASS | PASS | PASS | PASS |
-| attest | PASS | PASS | PASS | PASS |
-| back down | PASS | PASS | PASS | PASS |
-| bail out | PASS | PASS | PASS | PASS |
-| balk | PASS | PASS | PASS | PASS |
-| bang out | PASS | PASS | PASS | PASS |
-| bask | PASS | PASS | PASS | PASS |
-| bedrock | PASS | PASS | PASS | PASS |
-| bestow | PASS | PASS | PASS | PASS |
-| blot out | PASS | PASS | PASS | PASS |
-| bog | PASS | PASS | PASS | PASS |
-| botany | PASS | PASS | PASS | PASS |
-| bout | PASS | PASS | PASS | PASS |
-| brackish | PASS | PASS | PASS | PASS |
-| bristle | PASS | PASS | PASS | PASS |
-| brunt | PASS | PASS | PASS | PASS |
-| bumble | PASS | PASS | PASS | PASS |
-| capillary | PASS | PASS | PASS | PASS |
-| chasm | PASS | PASS | PASS | PASS |
-| clump | PASS | PASS | PASS | PASS |
-| compost | PASS | PASS | PASS | PASS |
-| concave | PASS | PASS | PASS | PASS |
-| convex | PASS | PASS | PASS | PASS |
-| crevice | PASS | PASS | PASS | PASS |
-| decoy | PASS | PASS | PASS | PASS |
-| detour | PASS | PASS | PASS | PASS |
-| dilute | PASS | PASS | PASS | PASS |
-| dwindle | PASS | PASS | PASS | PASS |
-| eddy | PASS | PASS | PASS | PASS |
-| engulf | PASS | PASS | PASS | PASS |
-| extricate | PASS | PASS | PASS | PASS |
-| gust | PASS | PASS | PASS | PASS |
-| morph | PASS | PASS | PASS | PASS |
-| scour | PASS | PASS | PASS | PASS |
-| silt | PASS | PASS | PASS | PASS |
-| spore | PASS | PASS | PASS | PASS |
-| submerge | PASS | PASS | PASS | PASS |
-| unearth | PASS | PASS | PASS | PASS |
-| verdant | PASS | PASS | PASS | PASS |
-| sapling | PASS | PASS | PASS | PASS |
-| topsoil | PASS | PASS | PASS | PASS |
+# Review of words-level2b.js (Complete)
+
+| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready | Status |
+|---|---|---|---|---|---|
+| moral | Pass | Pass | Pass | Pass | ✅ |
+| fable | Pass | Pass | Pass | Pass | ✅ |
+| folktale | Pass | Pass | Pass | Pass | ✅ |
+| myth | Pass | Pass | Pass | Pass | ✅ |
+| rhyme | Pass | Pass | Pass | Pass | ✅ |
+| stanza | Pass | Pass | Pass | Pass | ✅ |
+| verse | Pass | Pass | Pass | Pass | ✅ |
+| syllable | Pass | Pass | Pass | Pass | ✅ |
+| vowel | Pass | Pass | Pass | Pass | ✅ |
+| consonant | Pass | Pass | Pass | Pass | ✅ |
+| prefix | Pass | Pass | Pass | Pass | ✅ |
+| suffix | Pass | Pass | Pass | Pass | ✅ |
+| synonym | Pass | Pass | Pass | Pass | ✅ |
+| antonym | Pass | Pass | Pass | Pass | ✅ |
+| homophone | Pass | Pass | Pass | Pass | ✅ |
+| dialogue | Pass | Pass | Pass | Pass | ✅ |
+| narrator | Pass | Pass | Pass | Pass | ✅ |
+| scene | Pass | Pass | Pass | Pass | ✅ |
+| conflict | Pass | Pass | Pass | Pass | ✅ |
+| resolution | Pass | Pass | Pass | Pass | ✅ |
+| end | Pass | Pass | Pass | Pass | ✅ |
+| retell | Pass | Pass | Pass | Pass | ✅ |
+| infer | Pass | Pass | Pass | Pass | ✅ |
+| conclude | Pass | Pass | Pass | Pass | ✅ |
+| theme | Pass | Pass | Pass | Pass | ✅ |
+| genre | Pass | Pass | Pass | Pass | ✅ |
+| biography | Pass | Pass | Pass | Pass | ✅ |
+| autobiography | Pass | Pass | Pass | Pass | ✅ |
+| caption | Pass | Pass | Pass | Pass | ✅ |
+| glossary | Pass | Pass | Pass | Pass | ✅ |
+| amphibian | Pass | Pass | Pass | Pass | ✅ |
+| carbon | Pass | Pass | Pass | Pass | ✅ |
+| dinosaur | Pass | Pass | Pass | Pass | ✅ |
+| skeleton | Pass | Pass | Pass | Pass | ✅ |
+| brain | Pass | Pass | Pass | Pass | ✅ |
+| lung | Pass | Pass | Pass | Pass | ✅ |
+| heart | Pass | Pass | Pass | Pass | ✅ |
+| stomach | Pass | Pass | Pass | Pass | ✅ |
+| diet | Pass | Pass | Pass | Pass | ✅ |
+| nutrition | Pass | Pass | Pass | Pass | ✅ |
+| vitamin | Pass | Pass | Pass | Pass | ✅ |
+| protein | Pass | Pass | Pass | Pass | ✅ |
+| fiber | Pass | Pass | Pass | Pass | ✅ |
+| hygiene | Pass | Pass | Pass | Pass | ✅ |
+| germ | Pass | Pass | Pass | Pass | ✅ |
+| bacteria | Pass | Pass | Pass | Pass | ✅ |
+| virus | Pass | Pass | Pass | Pass | ✅ |
+| vaccine | Pass | Pass | Pass | Pass | ✅ |
+| disease | Pass | Pass | Pass | Pass | ✅ |
+| symptom | Pass | Pass | Pass | Pass | ✅ |
+| medicine | Pass | Pass | Pass | Pass | ✅ |
+| organ | Pass | Pass | Pass | Pass | ✅ |
+| tissue | Pass | Pass | Pass | Pass | ✅ |
+| bone | Pass | Pass | Pass | Pass | ✅ |
+| joint | Pass | Pass | Pass | Pass | ✅ |
+| nerve | Pass | Pass | Pass | Pass | ✅ |
+| blood | Pass | Pass | Pass | Pass | ✅ |
+| artery | Pass | Pass | Pass | Pass | ✅ |
+| vein | Pass | Pass | Pass | Pass | ✅ |
+| pulse | Pass | Pass | Pass | Pass | ✅ |
+| breath | Pass | Pass | Pass | Pass | ✅ |
+| digest | Pass | Pass | Pass | Pass | ✅ |
+| trait | Pass | Pass | Pass | Pass | ✅ |
+| congress | Pass | Pass | Pass | Pass | ✅ |
+| rights | Pass | Pass | Pass | Pass | ✅ |
+| tax | Pass | Pass | Pass | Pass | ✅ |
+| budget | Pass | Pass | Pass | Pass | ✅ |
+| economy | Pass | Pass | Pass | Pass | ✅ |
+| import | Pass | Pass | Pass | Pass | ✅ |
+| export | Pass | Pass | Pass | Pass | ✅ |
+| invention | Pass | Pass | Pass | Pass | ✅ |
+| explorer | Pass | Pass | Pass | Pass | ✅ |
+| settler | Pass | Pass | Pass | Pass | ✅ |
+| colony | Pass | Pass | Pass | Pass | ✅ |
+| revolution | Pass | Pass | Pass | Pass | ✅ |
+| independence | Pass | Pass | Pass | Pass | ✅ |
+| amendment | Pass | Pass | Pass | Pass | ✅ |
+| slavery | Pass | Pass | Pass | Pass | ✅ |
+| equality | Pass | Pass | Pass | Pass | ✅ |
+| protest | Pass | Pass | Pass | Pass | ✅ |
+| boycott | Pass | Pass | Pass | Pass | ✅ |
+| civil | Pass | Pass | Pass | Pass | ✅ |
+| democracy | Pass | Pass | Pass | Pass | ✅ |
+| republic | Pass | Pass | Pass | Pass | ✅ |
+| nation | Pass | Pass | Pass | Pass | ✅ |
+| hemisphere | Pass | Pass | Pass | Pass | ✅ |
+| equator | Pass | Pass | Pass | Pass | ✅ |
+| latitude | Pass | Pass | Pass | Pass | ✅ |
+| longitude | Pass | Pass | Pass | Pass | ✅ |
+| compass | Pass | Pass | Pass | Pass | ✅ |
+| resource | Pass | Pass | Pass | Pass | ✅ |
+| heritage | Pass | Pass | Pass | Pass | ✅ |
+| fraction | Pass | Pass | Pass | Pass | ✅ |
+| decimal | Pass | Pass | Pass | Pass | ✅ |
+| percent | Pass | Pass | Pass | Pass | ✅ |
+| estimate | Pass | Pass | Pass | Pass | ✅ |
+| equation | Pass | Pass | Pass | Pass | ✅ |
+| addition | Pass | Pass | Pass | Pass | ✅ |
+| difference | Pass | Pass | Pass | Pass | ✅ |
+| product | Pass | Pass | Pass | Pass | ✅ |
+| quotient | Pass | Pass | Pass | Pass | ✅ |
+| remainder | Pass | Pass | Pass | Pass | ✅ |
+| digit | Pass | Pass | Pass | Pass | ✅ |
+| place value | Pass | Pass | Pass | Pass | ✅ |
+| regroup | Pass | Pass | Pass | Pass | ✅ |
+| carry | Pass | Pass | Pass | Pass | ✅ |
+| column | Pass | Pass | Pass | Pass | ✅ |
+| row | Pass | Pass | Pass | Pass | ✅ |
+| table | Pass | Pass | Pass | Pass | ✅ |
+| tally | Pass | Pass | Pass | Pass | ✅ |
+| survey | Pass | Pass | Pass | Pass | ✅ |
+| greatest | Pass | Pass | Pass | Pass | ✅ |
+| even | Pass | Pass | Pass | Pass | ✅ |
+| adventurous | Pass | Pass | Pass | Pass | ✅ |
+| ambitious | Pass | Pass | Pass | Pass | ✅ |
+| compassionate | Pass | Pass | Pass | Pass | ✅ |
+| confident | Pass | Pass | Pass | Pass | ✅ |
+| considerate | Pass | Pass | Pass | Pass | ✅ |
+| cooperative | Pass | Pass | Pass | Pass | ✅ |
+| creative | Pass | Pass | Pass | Pass | ✅ |
+| demanding | Pass | Pass | Pass | Pass | ✅ |
+| dependable | Pass | Pass | Pass | Pass | ✅ |
+| devoted | Pass | Pass | Pass | Pass | ✅ |
+| energetic | Pass | Pass | Pass | Pass | ✅ |
+| enthusiastic | Pass | Pass | Pass | Pass | ✅ |
+| fearless | Pass | Pass | Pass | Pass | ✅ |
+| forgiving | Pass | Pass | Pass | Pass | ✅ |
+| friendly | Pass | Pass | Pass | Pass | ✅ |
+| guilty | Pass | Pass | Pass | Pass | ✅ |
+| impatient | Pass | Pass | Pass | Pass | ✅ |
+| independent | Pass | Pass | Pass | Pass | ✅ |
+| joyful | Pass | Pass | Pass | Pass | ✅ |
+| mean | Pass | Pass | Pass | Pass | ✅ |
+| mischievous | Pass | Pass | Pass | Pass | ✅ |
+| modest | Pass | Pass | Pass | Pass | ✅ |
+| optimistic | Pass | Pass | Pass | Pass | ✅ |
+| pessimistic | Pass | Pass | Pass | Pass | ✅ |
+| respectful | Pass | Pass | Pass | Pass | ✅ |
+| responsible | Pass | Pass | Pass | Pass | ✅ |
+| bring up | Pass | Pass | Pass | Pass | ✅ |
+| catch up | Pass | Pass | Pass | Pass | ✅ |
+| check out | Pass | Pass | Pass | Pass | ✅ |
+| come along | Pass | Pass | Pass | Pass | ✅ |
+| cut off | Pass | Pass | Pass | Pass | ✅ |
+| drop off | Pass | Pass | Pass | Pass | ✅ |
+| end up | Pass | Pass | Pass | Pass | ✅ |
+| fall apart | Pass | Pass | Pass | Pass | ✅ |
+| get along | Pass | Pass | Pass | Pass | ✅ |
+| get over | Pass | Pass | Pass | Pass | ✅ |
+| get rid of | Pass | Pass | Pass | Pass | ✅ |
+| go ahead | Pass | Pass | Pass | Pass | ✅ |
+| go through | Pass | Pass | Pass | Pass | ✅ |
+| grow up | Pass | Pass | Pass | Pass | ✅ |
+| hand in | Pass | Pass | Pass | Pass | ✅ |
+| hang out | Pass | Pass | Pass | Pass | ✅ |
+| keep up | Pass | Pass | Pass | Pass | ✅ |
+| knock down | Pass | Pass | Pass | Pass | ✅ |
+| leave out | Pass | Pass | Pass | Pass | ✅ |
+| let down | Pass | Pass | Pass | Pass | ✅ |
+| line up | Pass | Pass | Pass | Pass | ✅ |
+| look after | Pass | Pass | Pass | Pass | ✅ |
+| look into | Pass | Pass | Pass | Pass | ✅ |
+| look up | Pass | Pass | Pass | Pass | ✅ |
+| make sure | Pass | Pass | Pass | Pass | ✅ |
+| mix up | Pass | Pass | Pass | Pass | ✅ |
+| move on | Pass | Pass | Pass | Pass | ✅ |
+| pass out | Pass | Pass | Pass | Pass | ✅ |
+| pay attention | Pass | Pass | Pass | Pass | ✅ |
+| pick out | Pass | Pass | Pass | Pass | ✅ |
+| pull over | Pass | Pass | Pass | Pass | ✅ |
+| put away | Pass | Pass | Pass | Pass | ✅ |
+| put off | Pass | Pass | Pass | Pass | ✅ |
+| put together | Pass | Pass | Pass | Pass | ✅ |
+| run into | Pass | Pass | Pass | Pass | ✅ |
+| shut down | Pass | Pass | Pass | Pass | ✅ |
+| sign up | Pass | Pass | Pass | Pass | ✅ |
+| slow down | Pass | Pass | Pass | Pass | ✅ |
+| sort out | Pass | Pass | Pass | Pass | ✅ |
+| speak up | Pass | Pass | Pass | Pass | ✅ |
+| stand out | Pass | Pass | Pass | Pass | ✅ |
+| stay up | Pass | Pass | Pass | Pass | ✅ |
+| take apart | Pass | Pass | Pass | Pass | ✅ |
+| take away | Pass | Pass | Pass | Pass | ✅ |
+| take off | Pass | Pass | Pass | Pass | ✅ |
+| take over | Pass | Pass | Pass | Pass | ✅ |
+| think over | Pass | Pass | Pass | Pass | ✅ |
+| turn down | Pass | Pass | Pass | Pass | ✅ |
+| use up | Pass | Pass | Pass | Pass | ✅ |
+| watch out | Pass | Pass | Pass | Pass | ✅ |
+| wear out | Pass | Pass | Pass | Pass | ✅ |
+| work out | Pass | Pass | Pass | Pass | ✅ |
+| wrap up | Pass | Pass | Pass | Pass | ✅ |
+| back and forth | Pass | Pass | Pass | Pass | ✅ |
+| bit by bit | Pass | Pass | Pass | Pass | ✅ |
+| day by day | Pass | Pass | Pass | Pass | ✅ |
+| from now on | Pass | Pass | Pass | Pass | ✅ |
+| in the meantime | Pass | Pass | Pass | Pass | ✅ |
+| once upon a time | Pass | Pass | Pass | Pass | ✅ |
+| moreover | Pass | Pass | Pass | Pass | ✅ |
+| nevertheless | Pass | Pass | Pass | Pass | ✅ |
+| nonetheless | Pass | Pass | Pass | Pass | ✅ |
+| accordingly | Pass | Pass | Pass | Pass | ✅ |
+| additionally | Pass | Pass | Pass | Pass | ✅ |
+| after all | Pass | Pass | Pass | Pass | ✅ |
+| altogether | Pass | Pass | Pass | Pass | ✅ |
+| as a matter of fact | Pass | Pass | Pass | Pass | ✅ |
+| as a result | Pass | Pass | Pass | Pass | ✅ |
+| at first | Pass | Pass | Pass | Pass | ✅ |
+| at last | Pass | Pass | Pass | Pass | ✅ |
+| at the same time | Pass | Pass | Pass | Pass | ✅ |
+| because of | Pass | Pass | Pass | Pass | ✅ |
+| before long | Pass | Pass | Pass | Pass | ✅ |
+| by contrast | Pass | Pass | Pass | Pass | ✅ |
+| certainly | Pass | Pass | Pass | Pass | ✅ |
+| clearly | Pass | Pass | Pass | Pass | ✅ |
+| compared to | Pass | Pass | Pass | Pass | ✅ |
+| consequently | Pass | Pass | Pass | Pass | ✅ |
+| despite | Pass | Pass | Pass | Pass | ✅ |
+| due to | Pass | Pass | Pass | Pass | ✅ |
+| equally | Pass | Pass | Pass | Pass | ✅ |
+| especially | Pass | Pass | Pass | Pass | ✅ |
+| even though | Pass | Pass | Pass | Pass | ✅ |
+| except | Pass | Pass | Pass | Pass | ✅ |
+| for instance | Pass | Pass | Pass | Pass | ✅ |
+| generally | Pass | Pass | Pass | Pass | ✅ |
+| in addition | Pass | Pass | Pass | Pass | ✅ |
+| in conclusion | Pass | Pass | Pass | Pass | ✅ |
+| in contrast | Pass | Pass | Pass | Pass | ✅ |
+| in fact | Pass | Pass | Pass | Pass | ✅ |
+| in general | Pass | Pass | Pass | Pass | ✅ |
+| in other words | Pass | Pass | Pass | Pass | ✅ |
+| in particular | Pass | Pass | Pass | Pass | ✅ |
+| in summary | Pass | Pass | Pass | Pass | ✅ |
+| in the end | Pass | Pass | Pass | Pass | ✅ |
+| mainly | Pass | Pass | Pass | Pass | ✅ |
+| namely | Pass | Pass | Pass | Pass | ✅ |
+| notably | Pass | Pass | Pass | Pass | ✅ |
+| on the contrary | Pass | Pass | Pass | Pass | ✅ |
+| on the whole | Pass | Pass | Pass | Pass | ✅ |
+| overall | Pass | Pass | Pass | Pass | ✅ |
+| rather | Pass | Pass | Pass | Pass | ✅ |
+| regardless | Pass | Pass | Pass | Pass | ✅ |
+| similarly | Pass | Pass | Pass | Pass | ✅ |
+| specifically | Pass | Pass | Pass | Pass | ✅ |
+| such as | Pass | Pass | Pass | Pass | ✅ |
+| accessory | Pass | Pass | Pass | Pass | ✅ |
+| accommodate | Pass | Pass | Pass | Pass | ✅ |
+| adolescent | Pass | Pass | Pass | Pass | ✅ |
+| alternate | Pass | Pass | Pass | Pass | ✅ |
+| amid | Pass | Pass | Pass | Pass | ✅ |
+| back up | Pass | Pass | Pass | Pass | ✅ |
+| bear in mind | Pass | Pass | Pass | Pass | ✅ |
+| blend in | Pass | Pass | Pass | Pass | ✅ |
+| bring about | Pass | Pass | Pass | Pass | ✅ |
+| build up | Pass | Pass | Pass | Pass | ✅ |
+| call off | Pass | Pass | Pass | Pass | ✅ |
+| cellulose | Pass | Pass | Pass | Pass | ✅ |
+| chromosome | Pass | Pass | Pass | Pass | ✅ |
+| count on | Pass | Pass | Pass | Pass | ✅ |
+| cross out | Pass | Pass | Pass | Pass | ✅ |
+| cut back | Pass | Pass | Pass | Pass | ✅ |
+| deal with | Pass | Pass | Pass | Pass | ✅ |
+| emit | Pass | Pass | Pass | Pass | ✅ |
+| exterior | Pass | Pass | Pass | Pass | ✅ |
+| fauna | Pass | Pass | Pass | Pass | ✅ |
+| focal | Pass | Pass | Pass | Pass | ✅ |
+| graphic | Pass | Pass | Pass | Pass | ✅ |
+| hand out | Pass | Pass | Pass | Pass | ✅ |
+| keep in mind | Pass | Pass | Pass | Pass | ✅ |
+| lay out | Pass | Pass | Pass | Pass | ✅ |
+| line graph | Pass | Pass | Pass | Pass | ✅ |
+| make out | Pass | Pass | Pass | Pass | ✅ |
+| migratory | Pass | Pass | Pass | Pass | ✅ |
+| on behalf of | Pass | Pass | Pass | Pass | ✅ |
+| parasite | Pass | Pass | Pass | Pass | ✅ |
+| phase | Pass | Pass | Pass | Pass | ✅ |
+| pie chart | Pass | Pass | Pass | Pass | ✅ |
+| put up with | Pass | Pass | Pass | Pass | ✅ |
+| rely on | Pass | Pass | Pass | Pass | ✅ |
+| show up | Pass | Pass | Pass | Pass | ✅ |
+| take into account | Pass | Pass | Pass | Pass | ✅ |
+| account for | Pass | Pass | Pass | Pass | ✅ |
+| act on | Pass | Pass | Pass | Pass | ✅ |
+| add up | Pass | Pass | Pass | Pass | ✅ |
+| algae | Pass | Pass | Pass | Pass | ✅ |
+| allergic | Pass | Pass | Pass | Pass | ✅ |
+| aquatic | Pass | Pass | Pass | Pass | ✅ |
+| bar graph | Pass | Pass | Pass | Pass | ✅ |
+| beforehand | Pass | Pass | Pass | Pass | ✅ |
+| boil down to | Pass | Pass | Pass | Pass | ✅ |
+| by and large | Pass | Pass | Pass | Pass | ✅ |
+| canine | Pass | Pass | Pass | Pass | ✅ |
+| catch on | Pass | Pass | Pass | Pass | ✅ |
+| cell membrane | Pass | Pass | Pass | Pass | ✅ |
+| come down to | Pass | Pass | Pass | Pass | ✅ |
+| commute | Pass | Pass | Pass | Pass | ✅ |
+| crop | Pass | Pass | Pass | Pass | ✅ |
+| descend | Pass | Pass | Pass | Pass | ✅ |
+| endangered | Pass | Pass | Pass | Pass | ✅ |
+| evaporate | Pass | Pass | Pass | Pass | ✅ |
+| extinct | Pass | Pass | Pass | Pass | ✅ |
+| fall behind | Pass | Pass | Pass | Pass | ✅ |
+| figure of speech | Pass | Pass | Pass | Pass | ✅ |
+| food chain | Pass | Pass | Pass | Pass | ✅ |
+| food web | Pass | Pass | Pass | Pass | ✅ |
+| freshen up | Pass | Pass | Pass | Pass | ✅ |
+| get by | Pass | Pass | Pass | Pass | ✅ |
+| go along with | Pass | Pass | Pass | Pass | ✅ |
+| gravitational | Pass | Pass | Pass | Pass | ✅ |
+| greenhouse effect | Pass | Pass | Pass | Pass | ✅ |
+| hibernate | Pass | Pass | Pass | Pass | ✅ |
+| insulate | Pass | Pass | Pass | Pass | ✅ |
+| keep track of | Pass | Pass | Pass | Pass | ✅ |
+| landform | Pass | Pass | Pass | Pass | ✅ |
+| leave behind | Pass | Pass | Pass | Pass | ✅ |
+| life cycle | Pass | Pass | Pass | Pass | ✅ |
+| live up to | Pass | Pass | Pass | Pass | ✅ |
+| look out for | Pass | Pass | Pass | Pass | ✅ |
+| marine | Pass | Pass | Pass | Pass | ✅ |
+| offspring | Pass | Pass | Pass | Pass | ✅ |
+| on account of | Pass | Pass | Pass | Pass | ✅ |
+| out of the blue | Pass | Pass | Pass | Pass | ✅ |
+| ozone | Pass | Pass | Pass | Pass | ✅ |
+| plankton | Pass | Pass | Pass | Pass | ✅ |
+| point of view | Pass | Pass | Pass | Pass | ✅ |
+| pollutant | Pass | Pass | Pass | Pass | ✅ |
+| prolonged | Pass | Pass | Pass | Pass | ✅ |
+| put forward | Pass | Pass | Pass | Pass | ✅ |
+| reproduce | Pass | Pass | Pass | Pass | ✅ |
+| rule out | Pass | Pass | Pass | Pass | ✅ |
+| soluble | Pass | Pass | Pass | Pass | ✅ |
+| volcanic | Pass | Pass | Pass | Pass | ✅ |
+| water cycle | Pass | Pass | Pass | Pass | ✅ |
+| watershed | Pass | Pass | Pass | Pass | ✅ |
+| wind up | Pass | Pass | Pass | Pass | ✅ |
+| acoustics | Pass | Pass | Pass | Pass | ✅ |
+| alloy | Pass | Pass | Pass | Pass | ✅ |
+| amass | Pass | Pass | Pass | Pass | ✅ |
+| anthem | Pass | Pass | Pass | Pass | ✅ |
+| aperture | Pass | Pass | Pass | Pass | ✅ |
+| aroma | Pass | Pass | Pass | Pass | ✅ |
+| assent | Pass | Pass | Pass | Pass | ✅ |
+| attest | Pass | Pass | Pass | Pass | ✅ |
+| back down | Pass | Pass | Pass | Pass | ✅ |
+| bail out | Pass | Pass | Pass | Pass | ✅ |
+| balk | Pass | Pass | Pass | Pass | ✅ |
+| bang out | Pass | Pass | Pass | Pass | ✅ |
+| bask | Pass | Pass | Pass | Pass | ✅ |
+| bedrock | Pass | Pass | Pass | Pass | ✅ |
+| bestow | Pass | Pass | Pass | Pass | ✅ |
+| blot out | Pass | Pass | Pass | Pass | ✅ |
+| bog | Pass | Pass | Pass | Pass | ✅ |
+| botany | Pass | Pass | Pass | Pass | ✅ |
+| bout | Pass | Pass | Pass | Pass | ✅ |
+| brackish | Pass | Pass | Pass | Pass | ✅ |
+| bristle | Pass | Pass | Pass | Pass | ✅ |
+| brunt | Pass | Pass | Pass | Pass | ✅ |
+| bumble | Pass | Pass | Pass | Pass | ✅ |
+| capillary | Pass | Pass | Pass | Pass | ✅ |
+| chasm | Pass | Pass | Pass | Pass | ✅ |
+| clump | Pass | Pass | Pass | Pass | ✅ |
+| compost | Pass | Pass | Pass | Pass | ✅ |
+| concave | Pass | Pass | Pass | Pass | ✅ |
+| convex | Pass | Pass | Pass | Pass | ✅ |
+| crevice | Pass | Pass | Pass | Pass | ✅ |
+| decoy | Pass | Pass | Pass | Pass | ✅ |
+| detour | Pass | Pass | Pass | Pass | ✅ |
+| dilute | Pass | Pass | Pass | Pass | ✅ |
+| dwindle | Pass | Pass | Pass | Pass | ✅ |
+| eddy | Pass | Pass | Pass | Pass | ✅ |
+| engulf | Pass | Pass | Pass | Pass | ✅ |
+| extricate | Pass | Pass | Pass | Pass | ✅ |
+| gust | Pass | Pass | Pass | Pass | ✅ |
+| morph | Pass | Pass | Pass | Pass | ✅ |
+| scour | Pass | Pass | Pass | Pass | ✅ |
+| silt | Pass | Pass | Pass | Pass | ✅ |
+| spore | Pass | Pass | Pass | Pass | ✅ |
+| submerge | Pass | Pass | Pass | Pass | ✅ |
+| unearth | Pass | Pass | Pass | Pass | ✅ |
+| verdant | Pass | Pass | Pass | Pass | ✅ |
+| sapling | Pass | Pass | Pass | Pass | ✅ |
+| topsoil | Pass | Pass | Pass | Pass | ✅ |
