@@ -1,0 +1,7786 @@
+[
+  {
+    "word": "puppy",
+    "definition": "a baby dog",
+    "blanked": "The little ______ wagged its tail and licked my hand.",
+    "options": [
+      "none",
+      "pajamas",
+      "puppy",
+      "roar"
+    ],
+    "correctAnswer": "puppy",
+    "status": "PENDING"
+  },
+  {
+    "word": "kitten",
+    "definition": "a baby cat",
+    "blanked": "The soft ______ curled up in my lap and purred.",
+    "options": [
+      "kitten",
+      "forward",
+      "share",
+      "moose"
+    ],
+    "correctAnswer": "kitten",
+    "status": "PENDING"
+  },
+  {
+    "word": "bunny",
+    "definition": "a small rabbit",
+    "blanked": "The white ______ hopped across the grass.",
+    "options": [
+      "bunny",
+      "towel",
+      "shallow",
+      "ripple"
+    ],
+    "correctAnswer": "bunny",
+    "status": "PENDING"
+  },
+  {
+    "word": "duckling",
+    "definition": "a baby duck",
+    "blanked": "The yellow ______ followed its mother to the pond.",
+    "options": [
+      "nest",
+      "breeze",
+      "duckling",
+      "goose"
+    ],
+    "correctAnswer": "duckling",
+    "status": "PENDING"
+  },
+  {
+    "word": "chick",
+    "definition": "a very young bird, especially a baby chicken",
+    "blanked": "The fluffy ______ pecked at the seeds on the ground.",
+    "options": [
+      "shelf",
+      "chick",
+      "ant",
+      "barely"
+    ],
+    "correctAnswer": "chick",
+    "status": "PENDING"
+  },
+  {
+    "word": "lamb",
+    "definition": "a baby sheep",
+    "blanked": "The little ______ stayed close to its mother in the field.",
+    "options": [
+      "thunder",
+      "melon",
+      "lamb",
+      "skip"
+    ],
+    "correctAnswer": "lamb",
+    "status": "PENDING"
+  },
+  {
+    "word": "cub",
+    "definition": "a baby bear, lion, or fox",
+    "blanked": "The bear ______ played near the river while its mother watched.",
+    "options": [
+      "battery",
+      "sponge",
+      "feather",
+      "cub"
+    ],
+    "correctAnswer": "cub",
+    "status": "PENDING"
+  },
+  {
+    "word": "fawn",
+    "definition": "a baby deer",
+    "blanked": "The spotted ______ hid in the tall grass.",
+    "options": [
+      "puddle",
+      "shiny",
+      "among",
+      "fawn"
+    ],
+    "correctAnswer": "fawn",
+    "status": "PENDING"
+  },
+  {
+    "word": "foal",
+    "definition": "a baby horse",
+    "blanked": "The long-legged ______ ran beside its mother.",
+    "options": [
+      "foal",
+      "perfect",
+      "look out",
+      "solid"
+    ],
+    "correctAnswer": "foal",
+    "status": "PENDING"
+  },
+  {
+    "word": "pony",
+    "definition": "a small horse",
+    "blanked": "She got to ride a ______ at the farm.",
+    "options": [
+      "pony",
+      "hail",
+      "fawn",
+      "dust"
+    ],
+    "correctAnswer": "pony",
+    "status": "PENDING"
+  },
+  {
+    "word": "rooster",
+    "definition": "a male chicken that crows",
+    "blanked": "The ______ crowed loudly every morning at sunrise.",
+    "options": [
+      "rooster",
+      "ant",
+      "soon",
+      "steep"
+    ],
+    "correctAnswer": "rooster",
+    "status": "PENDING"
+  },
+  {
+    "word": "hen",
+    "definition": "a female chicken that lays eggs",
+    "blanked": "The ______ sat on her eggs to keep them warm.",
+    "options": [
+      "between",
+      "skull",
+      "stamp",
+      "hen"
+    ],
+    "correctAnswer": "hen",
+    "status": "PENDING"
+  },
+  {
+    "word": "goose",
+    "definition": "a big bird that honks and lives near water",
+    "blanked": "The ______ honked and flapped its wings at us.",
+    "options": [
+      "foal",
+      "goose",
+      "heel",
+      "later"
+    ],
+    "correctAnswer": "goose",
+    "status": "PENDING"
+  },
+  {
+    "word": "swan",
+    "definition": "a large bird with a long neck that lives on water",
+    "blanked": "The beautiful ______ glided across the lake.",
+    "options": [
+      "sword",
+      "swan",
+      "tower",
+      "howl"
+    ],
+    "correctAnswer": "swan",
+    "status": "PENDING"
+  },
+  {
+    "word": "owl",
+    "definition": "a bird that hunts at night",
+    "blanked": "The ______ hooted from the tree when it got dark.",
+    "options": [
+      "desert",
+      "huge",
+      "jealous",
+      "owl"
+    ],
+    "correctAnswer": "owl",
+    "status": "PENDING"
+  },
+  {
+    "word": "robin",
+    "definition": "a small bird with a red or orange chest",
+    "blanked": "A ______ sat on the fence singing a sweet song.",
+    "options": [
+      "robin",
+      "patient",
+      "stomp",
+      "shove"
+    ],
+    "correctAnswer": "robin",
+    "status": "PENDING"
+  },
+  {
+    "word": "sparrow",
+    "definition": "a small brown bird",
+    "blanked": "The tiny ______ pecked crumbs from the sidewalk.",
+    "options": [
+      "sparrow",
+      "rainbow",
+      "forest",
+      "half"
+    ],
+    "correctAnswer": "sparrow",
+    "status": "PENDING"
+  },
+  {
+    "word": "crow",
+    "definition": "a big black bird",
+    "blanked": "The ______ cawed loudly from the top of the tree.",
+    "options": [
+      "poem",
+      "flame",
+      "crow",
+      "soon"
+    ],
+    "correctAnswer": "crow",
+    "status": "PENDING"
+  },
+  {
+    "word": "eagle",
+    "definition": "a very large bird that flies high",
+    "blanked": "The ______ soared high above the mountains.",
+    "options": [
+      "eagle",
+      "butterfly",
+      "fasten",
+      "grateful"
+    ],
+    "correctAnswer": "eagle",
+    "status": "PENDING"
+  },
+  {
+    "word": "whale",
+    "definition": "a very large animal that lives in the ocean and breathes air",
+    "blanked": "We saw a huge ______ jump out of the ocean.",
+    "options": [
+      "whale",
+      "create",
+      "toss",
+      "desert"
+    ],
+    "correctAnswer": "whale",
+    "status": "PENDING"
+  },
+  {
+    "word": "dolphin",
+    "definition": "a friendly gray sea animal with a pointed nose that jumps and plays in waves",
+    "blanked": "The ______ leaped out of the water and splashed back in.",
+    "options": [
+      "dolphin",
+      "extra",
+      "backward",
+      "clever"
+    ],
+    "correctAnswer": "dolphin",
+    "status": "PENDING"
+  },
+  {
+    "word": "shark",
+    "definition": "a large ocean animal with sharp teeth",
+    "blanked": "The ______ swam fast through the dark water.",
+    "options": [
+      "shark",
+      "howl",
+      "crowd",
+      "duckling"
+    ],
+    "correctAnswer": "shark",
+    "status": "PENDING"
+  },
+  {
+    "word": "turtle",
+    "definition": "an animal with a hard shell that covers its body",
+    "blanked": "The ______ pulled its head inside its shell.",
+    "options": [
+      "muffin",
+      "eager",
+      "spine",
+      "turtle"
+    ],
+    "correctAnswer": "turtle",
+    "status": "PENDING"
+  },
+  {
+    "word": "lizard",
+    "definition": "a small animal like a snake but with four legs and a long tail",
+    "blanked": "A green ______ sat on the warm rock in the sun.",
+    "options": [
+      "lizard",
+      "borrow",
+      "sponge",
+      "journey"
+    ],
+    "correctAnswer": "lizard",
+    "status": "PENDING"
+  },
+  {
+    "word": "frog",
+    "definition": "a small animal that jumps and lives near water",
+    "blanked": "The ______ jumped off the lily pad into the pond.",
+    "options": [
+      "stomp",
+      "foolish",
+      "huge",
+      "frog"
+    ],
+    "correctAnswer": "frog",
+    "status": "PENDING"
+  },
+  {
+    "word": "toad",
+    "definition": "a small bumpy animal that hops and lives on land",
+    "blanked": "The ______ sat in the mud near the garden.",
+    "options": [
+      "sleeve",
+      "toad",
+      "blizzard",
+      "cereal"
+    ],
+    "correctAnswer": "toad",
+    "status": "PENDING"
+  },
+  {
+    "word": "snail",
+    "definition": "a tiny animal with a shell that moves slowly",
+    "blanked": "The ______ left a shiny trail on the leaf.",
+    "options": [
+      "create",
+      "unwrap",
+      "snail",
+      "slimy"
+    ],
+    "correctAnswer": "snail",
+    "status": "PENDING"
+  },
+  {
+    "word": "worm",
+    "definition": "a tiny soft animal with no legs that lives in dirt",
+    "blanked": "After the rain, a ______ came out of the dirt.",
+    "options": [
+      "worm",
+      "then",
+      "among",
+      "ugly"
+    ],
+    "correctAnswer": "worm",
+    "status": "PENDING"
+  },
+  {
+    "word": "spider",
+    "definition": "a small animal with eight legs that makes webs",
+    "blanked": "The ______ made a web between two branches.",
+    "options": [
+      "spider",
+      "hang",
+      "tag",
+      "hoof"
+    ],
+    "correctAnswer": "spider",
+    "status": "PENDING"
+  },
+  {
+    "word": "beetle",
+    "definition": "an insect with a hard shell",
+    "blanked": "A shiny black ______ crawled across the log.",
+    "options": [
+      "beetle",
+      "later",
+      "around",
+      "than"
+    ],
+    "correctAnswer": "beetle",
+    "status": "PENDING"
+  },
+  {
+    "word": "ladybug",
+    "definition": "a small red bug with black spots",
+    "blanked": "A ______ landed on my finger, and then flew away.",
+    "options": [
+      "ladybug",
+      "pancake",
+      "hopeful",
+      "beyond"
+    ],
+    "correctAnswer": "ladybug",
+    "status": "PENDING"
+  },
+  {
+    "word": "butterfly",
+    "definition": "an insect with big colorful wings",
+    "blanked": "The orange ______ flew from flower to flower.",
+    "options": [
+      "valley",
+      "shoulder",
+      "rainbow",
+      "butterfly"
+    ],
+    "correctAnswer": "butterfly",
+    "status": "PENDING"
+  },
+  {
+    "word": "caterpillar",
+    "definition": "a small animal with many legs that turns into a butterfly or moth",
+    "blanked": "The green ______ munched on leaves all day.",
+    "options": [
+      "title",
+      "caterpillar",
+      "syrup",
+      "cabin"
+    ],
+    "correctAnswer": "caterpillar",
+    "status": "PENDING"
+  },
+  {
+    "word": "ant",
+    "definition": "a tiny bug that lives in a group",
+    "blanked": "The ______ carried a crumb back to its hill.",
+    "options": [
+      "ant",
+      "dry",
+      "calm",
+      "vase"
+    ],
+    "correctAnswer": "ant",
+    "status": "PENDING"
+  },
+  {
+    "word": "bee",
+    "definition": "a small flying insect that buzzes and can sting",
+    "blanked": "The ______ buzzed around the yellow flowers.",
+    "options": [
+      "bee",
+      "silent",
+      "snack",
+      "tiptoe"
+    ],
+    "correctAnswer": "bee",
+    "status": "PENDING"
+  },
+  {
+    "word": "squirrel",
+    "definition": "a small animal with a bushy tail that climbs trees and collects nuts",
+    "blanked": "The ______ hid a nut inside the tree hole.",
+    "options": [
+      "hip",
+      "brave",
+      "tiny",
+      "squirrel"
+    ],
+    "correctAnswer": "squirrel",
+    "status": "PENDING"
+  },
+  {
+    "word": "raccoon",
+    "definition": "an animal with black fur around its eyes like a mask",
+    "blanked": "A ______ knocked over the trash can at night.",
+    "options": [
+      "come in",
+      "calm",
+      "raccoon",
+      "trade"
+    ],
+    "correctAnswer": "raccoon",
+    "status": "PENDING"
+  },
+  {
+    "word": "skunk",
+    "definition": "a black and white animal that smells bad",
+    "blanked": "We smelled the ______ before we even saw it.",
+    "options": [
+      "lamp",
+      "celery",
+      "skunk",
+      "rib"
+    ],
+    "correctAnswer": "skunk",
+    "status": "PENDING"
+  },
+  {
+    "word": "beaver",
+    "definition": "an animal that builds dams with sticks",
+    "blanked": "The ______ chewed on a log to build its home.",
+    "options": [
+      "slowly",
+      "coconut",
+      "beaver",
+      "wide"
+    ],
+    "correctAnswer": "beaver",
+    "status": "PENDING"
+  },
+  {
+    "word": "moose",
+    "definition": "a very big deer with large flat antlers",
+    "blanked": "The huge ______ stood in the middle of the road.",
+    "options": [
+      "chick",
+      "burrow",
+      "moose",
+      "button"
+    ],
+    "correctAnswer": "moose",
+    "status": "PENDING"
+  },
+  {
+    "word": "toast",
+    "definition": "bread that is cooked until brown",
+    "blanked": "I put butter on my ______ for breakfast.",
+    "options": [
+      "shelf",
+      "toast",
+      "dragon",
+      "syrup"
+    ],
+    "correctAnswer": "toast",
+    "status": "PENDING"
+  },
+  {
+    "word": "cereal",
+    "definition": "food you eat with milk, often for breakfast",
+    "blanked": "He poured ______ into his bowl and added milk.",
+    "options": [
+      "slimy",
+      "search",
+      "cereal",
+      "curtain"
+    ],
+    "correctAnswer": "cereal",
+    "status": "PENDING"
+  },
+  {
+    "word": "pancake",
+    "definition": "a flat round food you eat for breakfast",
+    "blanked": "Dad made a ______ shaped like a smiley face.",
+    "options": [
+      "fairy",
+      "while",
+      "pancake",
+      "adventure"
+    ],
+    "correctAnswer": "pancake",
+    "status": "PENDING"
+  },
+  {
+    "word": "waffle",
+    "definition": "a breakfast food with little squares on it",
+    "blanked": "I poured syrup into the squares of my ______.",
+    "options": [
+      "pancake",
+      "dull",
+      "thin",
+      "waffle"
+    ],
+    "correctAnswer": "waffle",
+    "status": "PENDING"
+  },
+  {
+    "word": "oatmeal",
+    "definition": "a hot breakfast food made from oats",
+    "blanked": "On cold mornings, I like a warm bowl of ______.",
+    "options": [
+      "puppy",
+      "belong",
+      "hollow",
+      "oatmeal"
+    ],
+    "correctAnswer": "oatmeal",
+    "status": "PENDING"
+  },
+  {
+    "word": "sandwich",
+    "definition": "food made with bread and something inside",
+    "blanked": "Mom packed a peanut butter ______ in my lunch box.",
+    "options": [
+      "comfortable",
+      "sandwich",
+      "rainbow",
+      "cottage"
+    ],
+    "correctAnswer": "sandwich",
+    "status": "PENDING"
+  },
+  {
+    "word": "pretzel",
+    "definition": "a salty snack made of twisted bread",
+    "blanked": "I ate a warm ______ with mustard.",
+    "options": [
+      "pretzel",
+      "snack",
+      "crow",
+      "middle"
+    ],
+    "correctAnswer": "pretzel",
+    "status": "PENDING"
+  },
+  {
+    "word": "cracker",
+    "definition": "thin dry food that crunches",
+    "blanked": "She put cheese on each ______.",
+    "options": [
+      "cracker",
+      "stale",
+      "apron",
+      "count"
+    ],
+    "correctAnswer": "cracker",
+    "status": "PENDING"
+  },
+  {
+    "word": "noodle",
+    "definition": "long thin food made from dough",
+    "blanked": "He slurped the long ______ into his mouth.",
+    "options": [
+      "cupcake",
+      "moss",
+      "tag",
+      "noodle"
+    ],
+    "correctAnswer": "noodle",
+    "status": "PENDING"
+  },
+  {
+    "word": "muffin",
+    "definition": "a small round bread, often with fruit or chocolate inside",
+    "blanked": "The blueberry ______ was still warm from the oven.",
+    "options": [
+      "tower",
+      "peel",
+      "cabin",
+      "muffin"
+    ],
+    "correctAnswer": "muffin",
+    "status": "PENDING"
+  },
+  {
+    "word": "cupcake",
+    "definition": "a small cake with frosting on top",
+    "blanked": "She licked the pink frosting off her ______.",
+    "options": [
+      "cupcake",
+      "cookie",
+      "crowded",
+      "wonder"
+    ],
+    "correctAnswer": "cupcake",
+    "status": "PENDING"
+  },
+  {
+    "word": "cookie",
+    "definition": "a small sweet flat food",
+    "blanked": "Grandma baked chocolate chip ______ for us.",
+    "options": [
+      "cookie",
+      "valley",
+      "fog",
+      "march"
+    ],
+    "correctAnswer": "cookie",
+    "status": "PENDING"
+  },
+  {
+    "word": "doughnut",
+    "definition": "round sweet food with a hole",
+    "blanked": "The ______ was covered in sugar and sprinkles.",
+    "options": [
+      "doughnut",
+      "claw",
+      "fancy",
+      "perhaps"
+    ],
+    "correctAnswer": "doughnut",
+    "status": "PENDING"
+  },
+  {
+    "word": "pudding",
+    "definition": "a soft sweet food you eat with a spoon",
+    "blanked": "The chocolate ______ was cold and smooth.",
+    "options": [
+      "nod",
+      "poem",
+      "pudding",
+      "sprinkle"
+    ],
+    "correctAnswer": "pudding",
+    "status": "PENDING"
+  },
+  {
+    "word": "jelly",
+    "definition": "a soft sweet spread for bread",
+    "blanked": "I like grape ______ on my toast.",
+    "options": [
+      "jelly",
+      "jungle",
+      "gigantic",
+      "early"
+    ],
+    "correctAnswer": "jelly",
+    "status": "PENDING"
+  },
+  {
+    "word": "syrup",
+    "definition": "a thick sweet stuff you pour on food",
+    "blanked": "He poured ______ all over his pancakes.",
+    "options": [
+      "tower",
+      "syrup",
+      "pinecone",
+      "title"
+    ],
+    "correctAnswer": "syrup",
+    "status": "PENDING"
+  },
+  {
+    "word": "honey",
+    "definition": "sweet food that bees make",
+    "blanked": "Bears love to eat ______ from beehives.",
+    "options": [
+      "village",
+      "bend",
+      "moose",
+      "honey"
+    ],
+    "correctAnswer": "honey",
+    "status": "PENDING"
+  },
+  {
+    "word": "popcorn",
+    "definition": "corn that pops when you heat it",
+    "blanked": "We ate ______ while we watched the movie.",
+    "options": [
+      "popcorn",
+      "adventure",
+      "peaceful",
+      "hum"
+    ],
+    "correctAnswer": "popcorn",
+    "status": "PENDING"
+  },
+  {
+    "word": "yogurt",
+    "definition": "thick creamy food made from milk",
+    "blanked": "He stirred the ______ and added some berries on top.",
+    "options": [
+      "yogurt",
+      "pinecone",
+      "excited",
+      "hail"
+    ],
+    "correctAnswer": "yogurt",
+    "status": "PENDING"
+  },
+  {
+    "word": "grape",
+    "definition": "a small round fruit that grows in bunches",
+    "blanked": "She picked a purple ______ off the vine.",
+    "options": [
+      "stew",
+      "weigh",
+      "exactly",
+      "grape"
+    ],
+    "correctAnswer": "grape",
+    "status": "PENDING"
+  },
+  {
+    "word": "cherry",
+    "definition": "a small round red fruit",
+    "blanked": "The ______ on top of the ice cream was bright red.",
+    "options": [
+      "yogurt",
+      "hang",
+      "cherry",
+      "storm"
+    ],
+    "correctAnswer": "cherry",
+    "status": "PENDING"
+  },
+  {
+    "word": "peach",
+    "definition": "a soft fruit with fuzzy skin",
+    "blanked": "Juice dripped down my chin when I bit the ______.",
+    "options": [
+      "peach",
+      "cave",
+      "cupcake",
+      "enough"
+    ],
+    "correctAnswer": "peach",
+    "status": "PENDING"
+  },
+  {
+    "word": "plum",
+    "definition": "a small purple fruit",
+    "blanked": "The ripe ______ was sweet and juicy.",
+    "options": [
+      "plum",
+      "turn on",
+      "crunchy",
+      "sparkle"
+    ],
+    "correctAnswer": "plum",
+    "status": "PENDING"
+  },
+  {
+    "word": "melon",
+    "definition": "a large fruit with a thick skin and soft inside",
+    "blanked": "We cut the ______ into slices on a hot day.",
+    "options": [
+      "melon",
+      "eyelash",
+      "disappointed",
+      "toward"
+    ],
+    "correctAnswer": "melon",
+    "status": "PENDING"
+  },
+  {
+    "word": "berry",
+    "definition": "a small juicy fruit",
+    "blanked": "We picked every ______ from the bush in our yard.",
+    "options": [
+      "flame",
+      "closet",
+      "berry",
+      "costume"
+    ],
+    "correctAnswer": "berry",
+    "status": "PENDING"
+  },
+  {
+    "word": "lemon",
+    "definition": "a yellow fruit with a very sour taste",
+    "blanked": "The ______ was too sour to eat by itself.",
+    "options": [
+      "lemon",
+      "whirl",
+      "jungle",
+      "search"
+    ],
+    "correctAnswer": "lemon",
+    "status": "PENDING"
+  },
+  {
+    "word": "coconut",
+    "definition": "a big brown fruit with white inside",
+    "blanked": "We cracked open the ______ and drank the water inside.",
+    "options": [
+      "amount",
+      "wide",
+      "coconut",
+      "wrist"
+    ],
+    "correctAnswer": "coconut",
+    "status": "PENDING"
+  },
+  {
+    "word": "peanut",
+    "definition": "a small food that grows in a shell in the ground",
+    "blanked": "The elephant ate a ______ right from my hand.",
+    "options": [
+      "peanut",
+      "butterfly",
+      "costume",
+      "comfortable"
+    ],
+    "correctAnswer": "peanut",
+    "status": "PENDING"
+  },
+  {
+    "word": "celery",
+    "definition": "a long green crunchy vegetable",
+    "blanked": "She dipped the ______ stick into peanut butter.",
+    "options": [
+      "den",
+      "suddenly",
+      "celery",
+      "next"
+    ],
+    "correctAnswer": "celery",
+    "status": "PENDING"
+  },
+  {
+    "word": "broccoli",
+    "definition": "a green vegetable that looks like a tiny tree",
+    "blanked": "The ______ on my plate looked like little trees.",
+    "options": [
+      "broccoli",
+      "forehead",
+      "ashamed",
+      "sword"
+    ],
+    "correctAnswer": "broccoli",
+    "status": "PENDING"
+  },
+  {
+    "word": "lettuce",
+    "definition": "green leaves you eat in a salad",
+    "blanked": "The rabbit munched on the fresh green ______.",
+    "options": [
+      "snail",
+      "lettuce",
+      "wizard",
+      "imagine"
+    ],
+    "correctAnswer": "lettuce",
+    "status": "PENDING"
+  },
+  {
+    "word": "pepper",
+    "definition": "a crunchy vegetable that can be red, green, or yellow and is hollow inside",
+    "blanked": "Mom sliced a red bell ______ for our salad.",
+    "options": [
+      "grateful",
+      "cupcake",
+      "pepper",
+      "pond"
+    ],
+    "correctAnswer": "pepper",
+    "status": "PENDING"
+  },
+  {
+    "word": "onion",
+    "definition": "a round vegetable that makes you cry",
+    "blanked": "Cutting the ______ made tears run down my face.",
+    "options": [
+      "wing",
+      "hang",
+      "wobble",
+      "onion"
+    ],
+    "correctAnswer": "onion",
+    "status": "PENDING"
+  },
+  {
+    "word": "mushroom",
+    "definition": "a living thing with a cap on top and a stem, that grows in damp places",
+    "blanked": "The ______ grew under the big tree after the rain.",
+    "options": [
+      "along",
+      "barely",
+      "secret",
+      "mushroom"
+    ],
+    "correctAnswer": "mushroom",
+    "status": "PENDING"
+  },
+  {
+    "word": "stew",
+    "definition": "a thick hot meal of meat and vegetables cooked slowly in a pot",
+    "blanked": "The warm ______ was perfect on a cold winter night.",
+    "options": [
+      "stew",
+      "put down",
+      "ankle",
+      "beaver"
+    ],
+    "correctAnswer": "stew",
+    "status": "PENDING"
+  },
+  {
+    "word": "gravy",
+    "definition": "a thick sauce you pour on meat",
+    "blanked": "He poured ______ all over his mashed potatoes.",
+    "options": [
+      "gravy",
+      "lend",
+      "broccoli",
+      "dusk"
+    ],
+    "correctAnswer": "gravy",
+    "status": "PENDING"
+  },
+  {
+    "word": "feast",
+    "definition": "a very big special meal",
+    "blanked": "The family had a ______ with turkey and pie.",
+    "options": [
+      "feast",
+      "portion",
+      "comfortable",
+      "graceful"
+    ],
+    "correctAnswer": "feast",
+    "status": "PENDING"
+  },
+  {
+    "word": "snack",
+    "definition": "a small bit of food between meals",
+    "blanked": "After school, he had a ______ of apples and cheese.",
+    "options": [
+      "pudding",
+      "weigh",
+      "snack",
+      "owl"
+    ],
+    "correctAnswer": "snack",
+    "status": "PENDING"
+  },
+  {
+    "word": "treat",
+    "definition": "a special food or small gift that makes you happy",
+    "blanked": "Ice cream after dinner was a special ______.",
+    "options": [
+      "howl",
+      "lamp",
+      "figure out",
+      "treat"
+    ],
+    "correctAnswer": "treat",
+    "status": "PENDING"
+  },
+  {
+    "word": "slice",
+    "definition": "a thin flat piece you get when you cut food with a knife",
+    "blanked": "Can I have one ______ of pizza, please?",
+    "options": [
+      "slice",
+      "seed",
+      "deliver",
+      "berry"
+    ],
+    "correctAnswer": "slice",
+    "status": "PENDING"
+  },
+  {
+    "word": "elbow",
+    "definition": "the part in the middle of your arm that can bend",
+    "blanked": "She bumped her ______ on the table and said ouch.",
+    "options": [
+      "elbow",
+      "pond",
+      "crooked",
+      "moss"
+    ],
+    "correctAnswer": "elbow",
+    "status": "PENDING"
+  },
+  {
+    "word": "wrist",
+    "definition": "where your hand meets your arm",
+    "blanked": "She wore a pretty bracelet on her ______.",
+    "options": [
+      "candle",
+      "figure out",
+      "rug",
+      "wrist"
+    ],
+    "correctAnswer": "wrist",
+    "status": "PENDING"
+  },
+  {
+    "word": "ankle",
+    "definition": "where your foot meets your leg",
+    "blanked": "He twisted his ______ when he jumped off the step.",
+    "options": [
+      "ankle",
+      "bubble",
+      "lizard",
+      "eyelash"
+    ],
+    "correctAnswer": "ankle",
+    "status": "PENDING"
+  },
+  {
+    "word": "heel",
+    "definition": "the back part of your foot",
+    "blanked": "Her shoe rubbed a blister on her ______.",
+    "options": [
+      "hem",
+      "heel",
+      "beaver",
+      "skip"
+    ],
+    "correctAnswer": "heel",
+    "status": "PENDING"
+  },
+  {
+    "word": "thumb",
+    "definition": "the short fat finger on your hand",
+    "blanked": "The baby sucked his ______ when he was sleepy.",
+    "options": [
+      "author",
+      "feather",
+      "title",
+      "thumb"
+    ],
+    "correctAnswer": "thumb",
+    "status": "PENDING"
+  },
+  {
+    "word": "palm",
+    "definition": "the flat inside part of your hand",
+    "blanked": "He held the coin in the ______ of his hand.",
+    "options": [
+      "palm",
+      "calm",
+      "perhaps",
+      "come back"
+    ],
+    "correctAnswer": "palm",
+    "status": "PENDING"
+  },
+  {
+    "word": "fist",
+    "definition": "a hand with all fingers closed tight",
+    "blanked": "He made a ______ and knocked on the door.",
+    "options": [
+      "claw",
+      "grab",
+      "fist",
+      "snack"
+    ],
+    "correctAnswer": "fist",
+    "status": "PENDING"
+  },
+  {
+    "word": "chin",
+    "definition": "the bottom part of your face",
+    "blanked": "Juice dripped down his ______ when he ate the peach.",
+    "options": [
+      "discover",
+      "scissors",
+      "busy",
+      "chin"
+    ],
+    "correctAnswer": "chin",
+    "status": "PENDING"
+  },
+  {
+    "word": "cheek",
+    "definition": "the soft side of your face",
+    "blanked": "Grandma kissed him on the ______.",
+    "options": [
+      "throughout",
+      "than",
+      "collar",
+      "cheek"
+    ],
+    "correctAnswer": "cheek",
+    "status": "PENDING"
+  },
+  {
+    "word": "forehead",
+    "definition": "the flat part above your eyes",
+    "blanked": "Mom felt my ______ to see if I had a fever.",
+    "options": [
+      "count",
+      "forehead",
+      "itsy",
+      "cheek"
+    ],
+    "correctAnswer": "forehead",
+    "status": "PENDING"
+  },
+  {
+    "word": "eyebrow",
+    "definition": "the line of hair above your eye",
+    "blanked": "He raised one ______ when he was surprised.",
+    "options": [
+      "eyebrow",
+      "rotten",
+      "dry",
+      "glance"
+    ],
+    "correctAnswer": "eyebrow",
+    "status": "PENDING"
+  },
+  {
+    "word": "eyelash",
+    "definition": "tiny hairs on the edge of your eye",
+    "blanked": "An ______ fell on her cheek, and she made a wish.",
+    "options": [
+      "eyelash",
+      "lamb",
+      "beneath",
+      "dry"
+    ],
+    "correctAnswer": "eyelash",
+    "status": "PENDING"
+  },
+  {
+    "word": "tongue",
+    "definition": "the soft part inside your mouth",
+    "blanked": "The dog stuck out its ______ and licked my face.",
+    "options": [
+      "hollow",
+      "shake",
+      "cave",
+      "tongue"
+    ],
+    "correctAnswer": "tongue",
+    "status": "PENDING"
+  },
+  {
+    "word": "throat",
+    "definition": "the inside of your neck where food and air pass",
+    "blanked": "My ______ hurt so much I could not swallow.",
+    "options": [
+      "spare",
+      "throat",
+      "bunny",
+      "hurry up"
+    ],
+    "correctAnswer": "throat",
+    "status": "PENDING"
+  },
+  {
+    "word": "shoulder",
+    "definition": "where your arm connects to your body",
+    "blanked": "She carried the bag over her ______.",
+    "options": [
+      "shoulder",
+      "wand",
+      "design",
+      "hen"
+    ],
+    "correctAnswer": "shoulder",
+    "status": "PENDING"
+  },
+  {
+    "word": "hip",
+    "definition": "the wide part where your legs meet your body",
+    "blanked": "He put his hands on his ______ and said stop.",
+    "options": [
+      "hip",
+      "damp",
+      "juicy",
+      "lizard"
+    ],
+    "correctAnswer": "hip",
+    "status": "PENDING"
+  },
+  {
+    "word": "spine",
+    "definition": "the bones down your back that hold your body up",
+    "blanked": "Stand up straight, so your ______ is not curved.",
+    "options": [
+      "tongue",
+      "spine",
+      "sudden",
+      "pinecone"
+    ],
+    "correctAnswer": "spine",
+    "status": "PENDING"
+  },
+  {
+    "word": "rib",
+    "definition": "the bones around your chest that protect your body",
+    "blanked": "He laughed so hard his ______ hurt.",
+    "options": [
+      "rib",
+      "eagle",
+      "root",
+      "enough"
+    ],
+    "correctAnswer": "rib",
+    "status": "PENDING"
+  },
+  {
+    "word": "skull",
+    "definition": "the bone that covers your brain",
+    "blanked": "Helmets protect your ______ if you fall.",
+    "options": [
+      "skull",
+      "vanish",
+      "yogurt",
+      "legend"
+    ],
+    "correctAnswer": "skull",
+    "status": "PENDING"
+  },
+  {
+    "word": "muscle",
+    "definition": "the part of your body that helps you move",
+    "blanked": "He flexed his arm to show his ______.",
+    "options": [
+      "annoyed",
+      "kitten",
+      "muscle",
+      "ladybug"
+    ],
+    "correctAnswer": "muscle",
+    "status": "PENDING"
+  },
+  {
+    "word": "mitten",
+    "definition": "a warm cover for your hand with no fingers",
+    "blanked": "She put on a fuzzy ______ to keep her hand warm.",
+    "options": [
+      "pancake",
+      "late",
+      "catch",
+      "mitten"
+    ],
+    "correctAnswer": "mitten",
+    "status": "PENDING"
+  },
+  {
+    "word": "scarf",
+    "definition": "a long cloth you wrap around your neck",
+    "blanked": "The red ______ kept her neck warm in the snow.",
+    "options": [
+      "certain",
+      "cherry",
+      "sticky",
+      "scarf"
+    ],
+    "correctAnswer": "scarf",
+    "status": "PENDING"
+  },
+  {
+    "word": "hoodie",
+    "definition": "a shirt with a hood on the back",
+    "blanked": "He pulled the hood of his ______ over his head in the rain.",
+    "options": [
+      "hoodie",
+      "rotten",
+      "grateful",
+      "nibble"
+    ],
+    "correctAnswer": "hoodie",
+    "status": "PENDING"
+  },
+  {
+    "word": "vest",
+    "definition": "clothes with no sleeves that you wear over a shirt",
+    "blanked": "He wore a warm ______ over his shirt.",
+    "options": [
+      "vest",
+      "forest",
+      "fawn",
+      "ant"
+    ],
+    "correctAnswer": "vest",
+    "status": "PENDING"
+  },
+  {
+    "word": "apron",
+    "definition": "cloth you wear to keep clean while cooking",
+    "blanked": "Mom tied her ______ before she started baking.",
+    "options": [
+      "whisker",
+      "apron",
+      "later",
+      "average"
+    ],
+    "correctAnswer": "apron",
+    "status": "PENDING"
+  },
+  {
+    "word": "sleeve",
+    "definition": "the part of a shirt that covers your arm",
+    "blanked": "He rolled up his ______ before washing his hands.",
+    "options": [
+      "sleeve",
+      "feast",
+      "damp",
+      "against"
+    ],
+    "correctAnswer": "sleeve",
+    "status": "PENDING"
+  },
+  {
+    "word": "pocket",
+    "definition": "a small bag sewn into clothes",
+    "blanked": "He put the rock in his ______ to save for later.",
+    "options": [
+      "pocket",
+      "dusk",
+      "howl",
+      "beaver"
+    ],
+    "correctAnswer": "pocket",
+    "status": "PENDING"
+  },
+  {
+    "word": "zipper",
+    "definition": "something that opens and closes your jacket",
+    "blanked": "He pulled up the ______ on his coat because it was cold.",
+    "options": [
+      "crawl",
+      "beetle",
+      "pair",
+      "zipper"
+    ],
+    "correctAnswer": "zipper",
+    "status": "PENDING"
+  },
+  {
+    "word": "button",
+    "definition": "a small round thing that holds clothes closed",
+    "blanked": "One ______ on his shirt popped off.",
+    "options": [
+      "button",
+      "slice",
+      "cereal",
+      "ripple"
+    ],
+    "correctAnswer": "button",
+    "status": "PENDING"
+  },
+  {
+    "word": "buckle",
+    "definition": "a metal clip that holds a belt closed",
+    "blanked": "He snapped the ______ on his belt.",
+    "options": [
+      "buckle",
+      "coach",
+      "glue",
+      "heap"
+    ],
+    "correctAnswer": "buckle",
+    "status": "PENDING"
+  },
+  {
+    "word": "lace",
+    "definition": "the string you tie on a shoe",
+    "blanked": "She pulled the ______ tight and tied a bow on her shoe.",
+    "options": [
+      "lace",
+      "vest",
+      "wake up",
+      "flood"
+    ],
+    "correctAnswer": "lace",
+    "status": "PENDING"
+  },
+  {
+    "word": "slipper",
+    "definition": "a soft shoe you wear inside",
+    "blanked": "She put on her fuzzy ______ when she got out of bed.",
+    "options": [
+      "slipper",
+      "narrow",
+      "figure out",
+      "clap"
+    ],
+    "correctAnswer": "slipper",
+    "status": "PENDING"
+  },
+  {
+    "word": "sandal",
+    "definition": "an open shoe for warm weather",
+    "blanked": "He wore ______ to the beach so his feet could breathe.",
+    "options": [
+      "crowded",
+      "sandal",
+      "fawn",
+      "loose"
+    ],
+    "correctAnswer": "sandal",
+    "status": "PENDING"
+  },
+  {
+    "word": "sneaker",
+    "definition": "a shoe for running and playing",
+    "blanked": "She put on her ______ before going to the playground.",
+    "options": [
+      "sneaker",
+      "scissors",
+      "shiny",
+      "fur"
+    ],
+    "correctAnswer": "sneaker",
+    "status": "PENDING"
+  },
+  {
+    "word": "boot",
+    "definition": "a tall shoe that covers your ankle",
+    "blanked": "He wore rain ______ so his feet stayed dry.",
+    "options": [
+      "noodle",
+      "plum",
+      "pillow",
+      "boot"
+    ],
+    "correctAnswer": "boot",
+    "status": "PENDING"
+  },
+  {
+    "word": "collar",
+    "definition": "the part of a shirt around your neck",
+    "blanked": "The tag on his ______ was itchy.",
+    "options": [
+      "collar",
+      "creamy",
+      "hip",
+      "shallow"
+    ],
+    "correctAnswer": "collar",
+    "status": "PENDING"
+  },
+  {
+    "word": "hem",
+    "definition": "the bottom edge of a skirt or pants",
+    "blanked": "The ______ of her dress dragged on the floor.",
+    "options": [
+      "dust",
+      "wake up",
+      "pancake",
+      "hem"
+    ],
+    "correctAnswer": "hem",
+    "status": "PENDING"
+  },
+  {
+    "word": "pajamas",
+    "definition": "clothes you wear to bed",
+    "blanked": "She changed into her ______ and brushed her teeth.",
+    "options": [
+      "neighbor",
+      "pajamas",
+      "tight",
+      "embarrassed"
+    ],
+    "correctAnswer": "pajamas",
+    "status": "PENDING"
+  },
+  {
+    "word": "costume",
+    "definition": "special clothes to look like someone else",
+    "blanked": "He wore a pirate ______ for the school play.",
+    "options": [
+      "costume",
+      "grape",
+      "many",
+      "fawn"
+    ],
+    "correctAnswer": "costume",
+    "status": "PENDING"
+  },
+  {
+    "word": "uniform",
+    "definition": "the same clothes everyone in a group wears",
+    "blanked": "All the players wore the same team ______.",
+    "options": [
+      "uniform",
+      "ladybug",
+      "boiling",
+      "glue"
+    ],
+    "correctAnswer": "uniform",
+    "status": "PENDING"
+  },
+  {
+    "word": "blanket",
+    "definition": "a soft cover for your bed",
+    "blanked": "She pulled the warm ______ up to her chin.",
+    "options": [
+      "sleeve",
+      "slipper",
+      "rainbow",
+      "blanket"
+    ],
+    "correctAnswer": "blanket",
+    "status": "PENDING"
+  },
+  {
+    "word": "pillow",
+    "definition": "a soft thing you rest your head on",
+    "blanked": "He fluffed his ______ before going to sleep.",
+    "options": [
+      "soap",
+      "notice",
+      "quickly",
+      "pillow"
+    ],
+    "correctAnswer": "pillow",
+    "status": "PENDING"
+  },
+  {
+    "word": "towel",
+    "definition": "cloth you use to dry off",
+    "blanked": "She wrapped a ______ around herself after her bath.",
+    "options": [
+      "towel",
+      "trail",
+      "surprised",
+      "furious"
+    ],
+    "correctAnswer": "towel",
+    "status": "PENDING"
+  },
+  {
+    "word": "soap",
+    "definition": "what you use to get clean",
+    "blanked": "The ______ made lots of bubbles in the bath.",
+    "options": [
+      "cave",
+      "seed",
+      "grab",
+      "soap"
+    ],
+    "correctAnswer": "soap",
+    "status": "PENDING"
+  },
+  {
+    "word": "sponge",
+    "definition": "a soft thing that soaks up water",
+    "blanked": "Dad wiped the table with a wet ______.",
+    "options": [
+      "sponge",
+      "petal",
+      "equal",
+      "toward"
+    ],
+    "correctAnswer": "sponge",
+    "status": "PENDING"
+  },
+  {
+    "word": "broom",
+    "definition": "a long stick with stiff hairs at the end, used for sweeping",
+    "blanked": "She used the ______ to sweep the crumbs off the floor.",
+    "options": [
+      "ash",
+      "hum",
+      "cupcake",
+      "broom"
+    ],
+    "correctAnswer": "broom",
+    "status": "PENDING"
+  },
+  {
+    "word": "bucket",
+    "definition": "a round open thing with a handle for carrying water or sand",
+    "blanked": "He filled the ______ with sand at the beach.",
+    "options": [
+      "leash",
+      "chin",
+      "bucket",
+      "drip"
+    ],
+    "correctAnswer": "bucket",
+    "status": "PENDING"
+  },
+  {
+    "word": "ladder",
+    "definition": "something with steps you climb up",
+    "blanked": "Dad used a ______ to reach the roof.",
+    "options": [
+      "howl",
+      "surprised",
+      "ladder",
+      "broccoli"
+    ],
+    "correctAnswer": "ladder",
+    "status": "PENDING"
+  },
+  {
+    "word": "drawer",
+    "definition": "a box that slides in and out of a desk",
+    "blanked": "She put her socks in the top ______.",
+    "options": [
+      "turtle",
+      "elbow",
+      "cereal",
+      "drawer"
+    ],
+    "correctAnswer": "drawer",
+    "status": "PENDING"
+  },
+  {
+    "word": "shelf",
+    "definition": "a flat board on a wall for holding things",
+    "blanked": "The books sat in a row on the ______.",
+    "options": [
+      "shelf",
+      "hurry up",
+      "extra",
+      "nervous"
+    ],
+    "correctAnswer": "shelf",
+    "status": "PENDING"
+  },
+  {
+    "word": "closet",
+    "definition": "a small room where you keep clothes",
+    "blanked": "He hung his coat in the ______.",
+    "options": [
+      "closet",
+      "ladder",
+      "switch",
+      "journey"
+    ],
+    "correctAnswer": "closet",
+    "status": "PENDING"
+  },
+  {
+    "word": "curtain",
+    "definition": "cloth that covers a window",
+    "blanked": "She opened the ______ to let the sun in.",
+    "options": [
+      "later",
+      "tag",
+      "less",
+      "curtain"
+    ],
+    "correctAnswer": "curtain",
+    "status": "PENDING"
+  },
+  {
+    "word": "rug",
+    "definition": "a soft cloth on the floor",
+    "blanked": "The cat slept on the soft ______ by the fire.",
+    "options": [
+      "island",
+      "calm down",
+      "noodle",
+      "rug"
+    ],
+    "correctAnswer": "rug",
+    "status": "PENDING"
+  },
+  {
+    "word": "lamp",
+    "definition": "something that gives light",
+    "blanked": "He turned on the ______ to read his book.",
+    "options": [
+      "pick up",
+      "empty",
+      "less",
+      "lamp"
+    ],
+    "correctAnswer": "lamp",
+    "status": "PENDING"
+  },
+  {
+    "word": "candle",
+    "definition": "a stick of wax that burns with a flame",
+    "blanked": "We lit a ______ when the lights went out.",
+    "options": [
+      "design",
+      "yawn",
+      "candle",
+      "fetch"
+    ],
+    "correctAnswer": "candle",
+    "status": "PENDING"
+  },
+  {
+    "word": "vase",
+    "definition": "a jar you put flowers in",
+    "blanked": "She put the roses in a pretty ______.",
+    "options": [
+      "soaking",
+      "vase",
+      "peel",
+      "hum"
+    ],
+    "correctAnswer": "vase",
+    "status": "PENDING"
+  },
+  {
+    "word": "frame",
+    "definition": "a border around a picture",
+    "blanked": "The photo was in a wooden ______ on the wall.",
+    "options": [
+      "dock",
+      "dash",
+      "frame",
+      "worm"
+    ],
+    "correctAnswer": "frame",
+    "status": "PENDING"
+  },
+  {
+    "word": "envelope",
+    "definition": "a paper cover for a letter",
+    "blanked": "She sealed the ______ and put a stamp on it.",
+    "options": [
+      "envelope",
+      "whenever",
+      "frightened",
+      "below"
+    ],
+    "correctAnswer": "envelope",
+    "status": "PENDING"
+  },
+  {
+    "word": "stamp",
+    "definition": "a small sticker you put on mail",
+    "blanked": "You need a ______ to send a letter.",
+    "options": [
+      "turn on",
+      "stamp",
+      "howl",
+      "beside"
+    ],
+    "correctAnswer": "stamp",
+    "status": "PENDING"
+  },
+  {
+    "word": "package",
+    "definition": "a box that is sent to you",
+    "blanked": "A big ______ came in the mail today.",
+    "options": [
+      "echo",
+      "wilt",
+      "package",
+      "boot"
+    ],
+    "correctAnswer": "package",
+    "status": "PENDING"
+  },
+  {
+    "word": "scissors",
+    "definition": "a tool for cutting paper",
+    "blanked": "She used ______ to cut out the paper star.",
+    "options": [
+      "silent",
+      "through",
+      "around",
+      "scissors"
+    ],
+    "correctAnswer": "scissors",
+    "status": "PENDING"
+  },
+  {
+    "word": "glue",
+    "definition": "sticky stuff you use to stick things together",
+    "blanked": "He used ______ to stick the picture on the poster.",
+    "options": [
+      "glue",
+      "hen",
+      "exhausted",
+      "herd"
+    ],
+    "correctAnswer": "glue",
+    "status": "PENDING"
+  },
+  {
+    "word": "tape",
+    "definition": "sticky strip for holding things",
+    "blanked": "He used ______ to hang the drawing on the fridge.",
+    "options": [
+      "tape",
+      "weigh",
+      "inventor",
+      "blanket"
+    ],
+    "correctAnswer": "tape",
+    "status": "PENDING"
+  },
+  {
+    "word": "crayon",
+    "definition": "a colored stick for drawing",
+    "blanked": "She picked a red ______ to color the apple.",
+    "options": [
+      "graceful",
+      "yawn",
+      "crayon",
+      "through"
+    ],
+    "correctAnswer": "crayon",
+    "status": "PENDING"
+  },
+  {
+    "word": "chalk",
+    "definition": "a soft stick for writing on a board",
+    "blanked": "He drew a rainbow on the sidewalk with ______.",
+    "options": [
+      "plum",
+      "notice",
+      "hear",
+      "chalk"
+    ],
+    "correctAnswer": "chalk",
+    "status": "PENDING"
+  },
+  {
+    "word": "eraser",
+    "definition": "something you rub to erase pencil marks",
+    "blanked": "She rubbed the ______ over her mistake.",
+    "options": [
+      "berry",
+      "noodle",
+      "eraser",
+      "forever"
+    ],
+    "correctAnswer": "eraser",
+    "status": "PENDING"
+  },
+  {
+    "word": "ruler",
+    "definition": "a straight tool for measuring",
+    "blanked": "He used a ______ to draw a straight line.",
+    "options": [
+      "ruler",
+      "fuzzy",
+      "design",
+      "puppy"
+    ],
+    "correctAnswer": "ruler",
+    "status": "PENDING"
+  },
+  {
+    "word": "thermometer",
+    "definition": "a tool that tells how hot or cold it is",
+    "blanked": "Mom put the ______ in my mouth to check my temperature.",
+    "options": [
+      "thermometer",
+      "rainbow",
+      "take",
+      "ladybug"
+    ],
+    "correctAnswer": "thermometer",
+    "status": "PENDING"
+  },
+  {
+    "word": "battery",
+    "definition": "the thing that gives power to a toy",
+    "blanked": "The toy stopped working because the ______ ran out.",
+    "options": [
+      "hopeful",
+      "crunchy",
+      "hoof",
+      "battery"
+    ],
+    "correctAnswer": "battery",
+    "status": "PENDING"
+  },
+  {
+    "word": "switch",
+    "definition": "the thing you flip to turn something on or off",
+    "blanked": "He flipped the ______ and the room went dark.",
+    "options": [
+      "switch",
+      "exactly",
+      "berry",
+      "deliver"
+    ],
+    "correctAnswer": "switch",
+    "status": "PENDING"
+  },
+  {
+    "word": "barn",
+    "definition": "a building on a farm for animals",
+    "blanked": "The cows went into the big red ______ at night.",
+    "options": [
+      "kitten",
+      "butterfly",
+      "barn",
+      "vest"
+    ],
+    "correctAnswer": "barn",
+    "status": "PENDING"
+  },
+  {
+    "word": "stable",
+    "definition": "a building where horses live",
+    "blanked": "The horse walked back into its ______ after the ride.",
+    "options": [
+      "stable",
+      "dragon",
+      "anyway",
+      "grateful"
+    ],
+    "correctAnswer": "stable",
+    "status": "PENDING"
+  },
+  {
+    "word": "cabin",
+    "definition": "a small house made of wood",
+    "blanked": "We stayed in a cozy ______ in the mountains.",
+    "options": [
+      "cabin",
+      "cheek",
+      "howl",
+      "lamp"
+    ],
+    "correctAnswer": "cabin",
+    "status": "PENDING"
+  },
+  {
+    "word": "cottage",
+    "definition": "a small house, often far from the city",
+    "blanked": "The old woman lived in a little ______ by the woods.",
+    "options": [
+      "drip",
+      "peach",
+      "wobble",
+      "cottage"
+    ],
+    "correctAnswer": "cottage",
+    "status": "PENDING"
+  },
+  {
+    "word": "castle",
+    "definition": "a big stone building where kings live",
+    "blanked": "The princess lived in a tall ______ on the hill.",
+    "options": [
+      "crew",
+      "ankle",
+      "castle",
+      "rooster"
+    ],
+    "correctAnswer": "castle",
+    "status": "PENDING"
+  },
+  {
+    "word": "tower",
+    "definition": "a tall thin building",
+    "blanked": "She looked out from the top of the ______.",
+    "options": [
+      "beetle",
+      "tower",
+      "half",
+      "sharp"
+    ],
+    "correctAnswer": "tower",
+    "status": "PENDING"
+  },
+  {
+    "word": "bridge",
+    "definition": "a thing built over water so people can walk or drive across",
+    "blanked": "We walked across the ______ to get to the other side of the river.",
+    "options": [
+      "duckling",
+      "slice",
+      "bridge",
+      "loud"
+    ],
+    "correctAnswer": "bridge",
+    "status": "PENDING"
+  },
+  {
+    "word": "tunnel",
+    "definition": "a long path dug under the ground or through a hill",
+    "blanked": "The train went into the dark ______.",
+    "options": [
+      "delighted",
+      "dawn",
+      "wide",
+      "tunnel"
+    ],
+    "correctAnswer": "tunnel",
+    "status": "PENDING"
+  },
+  {
+    "word": "harbor",
+    "definition": "a safe place where boats stay",
+    "blanked": "The boats were tied up in the ______.",
+    "options": [
+      "sneaker",
+      "dust",
+      "turn on",
+      "harbor"
+    ],
+    "correctAnswer": "harbor",
+    "status": "PENDING"
+  },
+  {
+    "word": "island",
+    "definition": "land with water all around it",
+    "blanked": "The ______ was so small you could walk around it in one hour.",
+    "options": [
+      "toad",
+      "moss",
+      "island",
+      "beetle"
+    ],
+    "correctAnswer": "island",
+    "status": "PENDING"
+  },
+  {
+    "word": "forest",
+    "definition": "a big area full of trees",
+    "blanked": "They got lost in the dark ______.",
+    "options": [
+      "grab",
+      "wonder",
+      "forest",
+      "breeze"
+    ],
+    "correctAnswer": "forest",
+    "status": "PENDING"
+  },
+  {
+    "word": "meadow",
+    "definition": "a big open field of grass and flowers",
+    "blanked": "The deer ate grass in the sunny ______.",
+    "options": [
+      "meadow",
+      "crew",
+      "twist",
+      "thick"
+    ],
+    "correctAnswer": "meadow",
+    "status": "PENDING"
+  },
+  {
+    "word": "pond",
+    "definition": "a small body of water",
+    "blanked": "The ducks swam around the ______.",
+    "options": [
+      "pond",
+      "anyway",
+      "collect",
+      "oatmeal"
+    ],
+    "correctAnswer": "pond",
+    "status": "PENDING"
+  },
+  {
+    "word": "stream",
+    "definition": "a small river",
+    "blanked": "We stepped on rocks to cross the ______.",
+    "options": [
+      "together",
+      "come back",
+      "straight",
+      "stream"
+    ],
+    "correctAnswer": "stream",
+    "status": "PENDING"
+  },
+  {
+    "word": "cliff",
+    "definition": "a very tall rock wall",
+    "blanked": "The bird nested on the high ______.",
+    "options": [
+      "equal",
+      "shiver",
+      "village",
+      "cliff"
+    ],
+    "correctAnswer": "cliff",
+    "status": "PENDING"
+  },
+  {
+    "word": "cave",
+    "definition": "a hole in a rock or mountain",
+    "blanked": "The bear went into the dark ______ to sleep.",
+    "options": [
+      "gravy",
+      "thermometer",
+      "cave",
+      "oatmeal"
+    ],
+    "correctAnswer": "cave",
+    "status": "PENDING"
+  },
+  {
+    "word": "desert",
+    "definition": "a very dry place with very little rain",
+    "blanked": "Nothing grew in the hot ______ except cactus.",
+    "options": [
+      "desert",
+      "wrap",
+      "figure out",
+      "worm"
+    ],
+    "correctAnswer": "desert",
+    "status": "PENDING"
+  },
+  {
+    "word": "jungle",
+    "definition": "a thick forest with many plants",
+    "blanked": "Monkeys swung from tree to tree in the ______.",
+    "options": [
+      "jungle",
+      "bark",
+      "pepper",
+      "boot"
+    ],
+    "correctAnswer": "jungle",
+    "status": "PENDING"
+  },
+  {
+    "word": "swamp",
+    "definition": "wet muddy land with water",
+    "blanked": "The alligator hid in the dark ______.",
+    "options": [
+      "beaver",
+      "swamp",
+      "cabin",
+      "stew"
+    ],
+    "correctAnswer": "swamp",
+    "status": "PENDING"
+  },
+  {
+    "word": "valley",
+    "definition": "low land between two mountains",
+    "blanked": "The little town sat in the green ______.",
+    "options": [
+      "thin",
+      "figure out",
+      "shake",
+      "valley"
+    ],
+    "correctAnswer": "valley",
+    "status": "PENDING"
+  },
+  {
+    "word": "storm",
+    "definition": "very bad weather with wind and rain",
+    "blanked": "The ______ blew the tree branches everywhere.",
+    "options": [
+      "chick",
+      "toast",
+      "ugly",
+      "storm"
+    ],
+    "correctAnswer": "storm",
+    "status": "PENDING"
+  },
+  {
+    "word": "thunder",
+    "definition": "the loud sound you hear in a storm",
+    "blanked": "The ______ was so loud it shook the windows.",
+    "options": [
+      "eraser",
+      "enormous",
+      "thunder",
+      "cottage"
+    ],
+    "correctAnswer": "thunder",
+    "status": "PENDING"
+  },
+  {
+    "word": "lightning",
+    "definition": "a flash of light in the sky during a storm",
+    "blanked": "The ______ lit up the whole sky for a second.",
+    "options": [
+      "lightning",
+      "dozen",
+      "float",
+      "steep"
+    ],
+    "correctAnswer": "lightning",
+    "status": "PENDING"
+  },
+  {
+    "word": "rainbow",
+    "definition": "a curved band of colors in the sky after rain",
+    "blanked": "After the rain stopped, a beautiful ______ appeared.",
+    "options": [
+      "island",
+      "rainbow",
+      "jelly",
+      "eraser"
+    ],
+    "correctAnswer": "rainbow",
+    "status": "PENDING"
+  },
+  {
+    "word": "breeze",
+    "definition": "a gentle soft wind",
+    "blanked": "The light ______ made the leaves dance.",
+    "options": [
+      "eyebrow",
+      "breeze",
+      "beaver",
+      "several"
+    ],
+    "correctAnswer": "breeze",
+    "status": "PENDING"
+  },
+  {
+    "word": "frost",
+    "definition": "thin ice that forms on cold mornings",
+    "blanked": "The grass was white with ______ on the cold morning.",
+    "options": [
+      "frightened",
+      "frost",
+      "lizard",
+      "swamp"
+    ],
+    "correctAnswer": "frost",
+    "status": "PENDING"
+  },
+  {
+    "word": "icicle",
+    "definition": "a long pointed piece of ice hanging down",
+    "blanked": "A long ______ hung from the roof.",
+    "options": [
+      "cheerful",
+      "icicle",
+      "apron",
+      "robin"
+    ],
+    "correctAnswer": "icicle",
+    "status": "PENDING"
+  },
+  {
+    "word": "puddle",
+    "definition": "a small pool of water on the ground",
+    "blanked": "She jumped in every ______ on the way to school.",
+    "options": [
+      "kitten",
+      "count",
+      "jungle",
+      "puddle"
+    ],
+    "correctAnswer": "puddle",
+    "status": "PENDING"
+  },
+  {
+    "word": "mud",
+    "definition": "wet dirt that is soft and sticky",
+    "blanked": "The pig rolled in the ______ to stay cool.",
+    "options": [
+      "within",
+      "hen",
+      "pony",
+      "mud"
+    ],
+    "correctAnswer": "mud",
+    "status": "PENDING"
+  },
+  {
+    "word": "dust",
+    "definition": "tiny bits of dry dirt in the air",
+    "blanked": "The old book was covered in ______.",
+    "options": [
+      "dust",
+      "through",
+      "around",
+      "sit down"
+    ],
+    "correctAnswer": "dust",
+    "status": "PENDING"
+  },
+  {
+    "word": "dew",
+    "definition": "tiny water drops on grass in the morning",
+    "blanked": "The ______ on the flowers sparkled in the sun.",
+    "options": [
+      "dew",
+      "without",
+      "hoof",
+      "show off"
+    ],
+    "correctAnswer": "dew",
+    "status": "PENDING"
+  },
+  {
+    "word": "fog",
+    "definition": "a cloud close to the ground",
+    "blanked": "The ______ was so thick we could not see the road.",
+    "options": [
+      "graceful",
+      "fog",
+      "moose",
+      "sticky"
+    ],
+    "correctAnswer": "fog",
+    "status": "PENDING"
+  },
+  {
+    "word": "hail",
+    "definition": "balls of ice that fall from the sky",
+    "blanked": "The ______ bounced off the car like little white stones.",
+    "options": [
+      "collar",
+      "quietly",
+      "hail",
+      "quarter"
+    ],
+    "correctAnswer": "hail",
+    "status": "PENDING"
+  },
+  {
+    "word": "blizzard",
+    "definition": "a heavy snow storm with strong wind",
+    "blanked": "The ______ dropped so much snow we could not open the door.",
+    "options": [
+      "blizzard",
+      "silent",
+      "pajamas",
+      "fog"
+    ],
+    "correctAnswer": "blizzard",
+    "status": "PENDING"
+  },
+  {
+    "word": "drought",
+    "definition": "a long time with no rain",
+    "blanked": "The flowers turned brown because of the long ______.",
+    "options": [
+      "fasten",
+      "chop",
+      "cottage",
+      "drought"
+    ],
+    "correctAnswer": "drought",
+    "status": "PENDING"
+  },
+  {
+    "word": "flood",
+    "definition": "water covering land that is usually dry",
+    "blanked": "The river rose so high it caused a ______.",
+    "options": [
+      "stomp",
+      "curious",
+      "flood",
+      "crow"
+    ],
+    "correctAnswer": "flood",
+    "status": "PENDING"
+  },
+  {
+    "word": "petal",
+    "definition": "one soft piece of a flower",
+    "blanked": "A pink ______ fell from the rose.",
+    "options": [
+      "petal",
+      "repair",
+      "celery",
+      "scarf"
+    ],
+    "correctAnswer": "petal",
+    "status": "PENDING"
+  },
+  {
+    "word": "stem",
+    "definition": "the long green part of a plant",
+    "blanked": "He held the flower by its long green ______.",
+    "options": [
+      "thermometer",
+      "stem",
+      "beautiful",
+      "owl"
+    ],
+    "correctAnswer": "stem",
+    "status": "PENDING"
+  },
+  {
+    "word": "root",
+    "definition": "the part of a plant under the ground",
+    "blanked": "The tree's ______ went deep into the dirt.",
+    "options": [
+      "root",
+      "surprise",
+      "hear",
+      "finally"
+    ],
+    "correctAnswer": "root",
+    "status": "PENDING"
+  },
+  {
+    "word": "thorn",
+    "definition": "a sharp point on a plant",
+    "blanked": "She pricked her finger on the rose's ______.",
+    "options": [
+      "spine",
+      "thorn",
+      "muscle",
+      "dew"
+    ],
+    "correctAnswer": "thorn",
+    "status": "PENDING"
+  },
+  {
+    "word": "vine",
+    "definition": "a plant that grows along the ground or up walls",
+    "blanked": "The ______ climbed all the way up the old wall.",
+    "options": [
+      "imagine",
+      "mane",
+      "vine",
+      "bored"
+    ],
+    "correctAnswer": "vine",
+    "status": "PENDING"
+  },
+  {
+    "word": "moss",
+    "definition": "a soft green plant that grows on rocks and trees",
+    "blanked": "The rocks were covered in soft green ______.",
+    "options": [
+      "noon",
+      "spider",
+      "trade",
+      "moss"
+    ],
+    "correctAnswer": "moss",
+    "status": "PENDING"
+  },
+  {
+    "word": "acorn",
+    "definition": "a nut that falls from an oak tree",
+    "blanked": "The squirrel buried the ______ to eat later.",
+    "options": [
+      "acorn",
+      "snore",
+      "spread",
+      "soaking"
+    ],
+    "correctAnswer": "acorn",
+    "status": "PENDING"
+  },
+  {
+    "word": "pinecone",
+    "definition": "the brown seed holder from a pine tree",
+    "blanked": "She picked up a ______ from under the big tree.",
+    "options": [
+      "giant",
+      "sneaker",
+      "frog",
+      "pinecone"
+    ],
+    "correctAnswer": "pinecone",
+    "status": "PENDING"
+  },
+  {
+    "word": "seed",
+    "definition": "a tiny thing that grows into a plant",
+    "blanked": "She planted a ______ and watered it every day.",
+    "options": [
+      "seed",
+      "shake",
+      "owl",
+      "soap"
+    ],
+    "correctAnswer": "seed",
+    "status": "PENDING"
+  },
+  {
+    "word": "crawl",
+    "definition": "to move on your hands and knees",
+    "blanked": "The baby learned to ______ before he could walk.",
+    "options": [
+      "broccoli",
+      "crawl",
+      "palm",
+      "foal"
+    ],
+    "correctAnswer": "crawl",
+    "status": "PENDING"
+  },
+  {
+    "word": "leap",
+    "definition": "to jump far",
+    "blanked": "The frog ______ across the pond.",
+    "options": [
+      "leap",
+      "lend",
+      "dragon",
+      "dolphin"
+    ],
+    "correctAnswer": "leap",
+    "status": "PENDING"
+  },
+  {
+    "word": "skip",
+    "definition": "to move with little hops and steps",
+    "blanked": "She liked to ______ down the path singing a song.",
+    "options": [
+      "fist",
+      "count",
+      "spill",
+      "skip"
+    ],
+    "correctAnswer": "skip",
+    "status": "PENDING"
+  },
+  {
+    "word": "stomp",
+    "definition": "to step down very hard",
+    "blanked": "He would ______ his feet when he was angry.",
+    "options": [
+      "forest",
+      "deliver",
+      "stomp",
+      "drag"
+    ],
+    "correctAnswer": "stomp",
+    "status": "PENDING"
+  },
+  {
+    "word": "tiptoe",
+    "definition": "to walk very quietly on your toes",
+    "blanked": "She had to ______ past the sleeping baby.",
+    "options": [
+      "tiptoe",
+      "moose",
+      "rascal",
+      "damp"
+    ],
+    "correctAnswer": "tiptoe",
+    "status": "PENDING"
+  },
+  {
+    "word": "march",
+    "definition": "to walk with big strong steps",
+    "blanked": "The band members ______ in a straight line during the parade.",
+    "options": [
+      "grumpy",
+      "forever",
+      "ripe",
+      "march"
+    ],
+    "correctAnswer": "march",
+    "status": "PENDING"
+  },
+  {
+    "word": "dash",
+    "definition": "to run very fast",
+    "blanked": "He ______ to the door before it closed.",
+    "options": [
+      "unwrap",
+      "sword",
+      "desert",
+      "dash"
+    ],
+    "correctAnswer": "dash",
+    "status": "PENDING"
+  },
+  {
+    "word": "chase",
+    "definition": "to run after someone or something to try to catch it",
+    "blanked": "The dog liked to ______ the ball in the yard.",
+    "options": [
+      "chase",
+      "pajamas",
+      "island",
+      "zipper"
+    ],
+    "correctAnswer": "chase",
+    "status": "PENDING"
+  },
+  {
+    "word": "grab",
+    "definition": "to take something quickly with your hand",
+    "blanked": "She tried to ______ the last cookie before her brother.",
+    "options": [
+      "chop",
+      "grab",
+      "rough",
+      "busy"
+    ],
+    "correctAnswer": "grab",
+    "status": "PENDING"
+  },
+  {
+    "word": "toss",
+    "definition": "to throw something gently",
+    "blanked": "He would ______ the ball to his friend.",
+    "options": [
+      "whisker",
+      "clumsy",
+      "stream",
+      "toss"
+    ],
+    "correctAnswer": "toss",
+    "status": "PENDING"
+  },
+  {
+    "word": "catch",
+    "definition": "to take hold of something in the air",
+    "blanked": "She held out her hands to ______ the ball.",
+    "options": [
+      "catch",
+      "beaver",
+      "than",
+      "figure out"
+    ],
+    "correctAnswer": "catch",
+    "status": "PENDING"
+  },
+  {
+    "word": "squeeze",
+    "definition": "to press something tight",
+    "blanked": "She ______ the sponge to get the water out.",
+    "options": [
+      "slowly",
+      "goose",
+      "measure",
+      "squeeze"
+    ],
+    "correctAnswer": "squeeze",
+    "status": "PENDING"
+  },
+  {
+    "word": "stretch",
+    "definition": "to make your body long",
+    "blanked": "The cat liked to ______ after a nap.",
+    "options": [
+      "crunchy",
+      "flutter",
+      "find out",
+      "stretch"
+    ],
+    "correctAnswer": "stretch",
+    "status": "PENDING"
+  },
+  {
+    "word": "bend",
+    "definition": "to curve your body or an object so it is no longer straight",
+    "blanked": "You need to ______ down to pick up the toy.",
+    "options": [
+      "plum",
+      "perfect",
+      "bend",
+      "glue"
+    ],
+    "correctAnswer": "bend",
+    "status": "PENDING"
+  },
+  {
+    "word": "twist",
+    "definition": "to turn something around",
+    "blanked": "She had to ______ the cap to open the bottle.",
+    "options": [
+      "finally",
+      "twist",
+      "beyond",
+      "more"
+    ],
+    "correctAnswer": "twist",
+    "status": "PENDING"
+  },
+  {
+    "word": "shake",
+    "definition": "to move something back and forth fast",
+    "blanked": "He would ______ the box to guess what was inside.",
+    "options": [
+      "shake",
+      "rascal",
+      "design",
+      "cub"
+    ],
+    "correctAnswer": "shake",
+    "status": "PENDING"
+  },
+  {
+    "word": "stir",
+    "definition": "to move something around in a circle",
+    "blanked": "She used a spoon to ______ the soup.",
+    "options": [
+      "feast",
+      "toward",
+      "stir",
+      "glue"
+    ],
+    "correctAnswer": "stir",
+    "status": "PENDING"
+  },
+  {
+    "word": "pour",
+    "definition": "to make water or juice flow out of something",
+    "blanked": "Please ______ some milk into my cup.",
+    "options": [
+      "wrap",
+      "itsy",
+      "pour",
+      "plum"
+    ],
+    "correctAnswer": "pour",
+    "status": "PENDING"
+  },
+  {
+    "word": "spill",
+    "definition": "to let water or juice fall by accident",
+    "blanked": "Be careful not to ______ your juice on the table.",
+    "options": [
+      "grate",
+      "robin",
+      "spill",
+      "clever"
+    ],
+    "correctAnswer": "spill",
+    "status": "PENDING"
+  },
+  {
+    "word": "drip",
+    "definition": "to fall in small drops, one at a time",
+    "blanked": "Water started to ______ from the leaky roof.",
+    "options": [
+      "forest",
+      "sandwich",
+      "wrist",
+      "drip"
+    ],
+    "correctAnswer": "drip",
+    "status": "PENDING"
+  },
+  {
+    "word": "splash",
+    "definition": "to make water fly everywhere",
+    "blanked": "The kids love to ______ in the pool.",
+    "options": [
+      "splash",
+      "twist",
+      "middle",
+      "slimy"
+    ],
+    "correctAnswer": "splash",
+    "status": "PENDING"
+  },
+  {
+    "word": "float",
+    "definition": "to stay on top of water",
+    "blanked": "The rubber duck can ______ in the bathtub.",
+    "options": [
+      "breeze",
+      "float",
+      "chef",
+      "cozy"
+    ],
+    "correctAnswer": "float",
+    "status": "PENDING"
+  },
+  {
+    "word": "sink",
+    "definition": "to go down under the water",
+    "blanked": "The heavy rock will ______ to the bottom.",
+    "options": [
+      "shadow",
+      "clumsy",
+      "sink",
+      "curious"
+    ],
+    "correctAnswer": "sink",
+    "status": "PENDING"
+  },
+  {
+    "word": "melt",
+    "definition": "to change from hard to soft, like ice becoming water",
+    "blanked": "The ice cream will ______ if you leave it in the sun.",
+    "options": [
+      "melt",
+      "sharp",
+      "grate",
+      "cabin"
+    ],
+    "correctAnswer": "melt",
+    "status": "PENDING"
+  },
+  {
+    "word": "freeze",
+    "definition": "to get so cold it turns to ice",
+    "blanked": "The water will ______ into ice tonight.",
+    "options": [
+      "entire",
+      "freeze",
+      "look out",
+      "flame"
+    ],
+    "correctAnswer": "freeze",
+    "status": "PENDING"
+  },
+  {
+    "word": "peel",
+    "definition": "to take the skin off a fruit",
+    "blanked": "She had to ______ the banana before eating it.",
+    "options": [
+      "peel",
+      "perfect",
+      "rooster",
+      "cub"
+    ],
+    "correctAnswer": "peel",
+    "status": "PENDING"
+  },
+  {
+    "word": "chop",
+    "definition": "to cut into pieces",
+    "blanked": "Dad helped ______ the vegetables for dinner.",
+    "options": [
+      "cheerful",
+      "hen",
+      "shadow",
+      "chop"
+    ],
+    "correctAnswer": "chop",
+    "status": "PENDING"
+  },
+  {
+    "word": "grate",
+    "definition": "to rub food on a tool to make tiny pieces",
+    "blanked": "He helped ______ the cheese for the pizza.",
+    "options": [
+      "quarter",
+      "grate",
+      "giggle",
+      "pajamas"
+    ],
+    "correctAnswer": "grate",
+    "status": "PENDING"
+  },
+  {
+    "word": "spread",
+    "definition": "to put a thin layer on top",
+    "blanked": "She liked to ______ butter on her toast.",
+    "options": [
+      "spread",
+      "hoodie",
+      "skip",
+      "snail"
+    ],
+    "correctAnswer": "spread",
+    "status": "PENDING"
+  },
+  {
+    "word": "sprinkle",
+    "definition": "to drop tiny bits on something",
+    "blanked": "He wanted to ______ sugar on his cereal.",
+    "options": [
+      "dust",
+      "before",
+      "gather",
+      "sprinkle"
+    ],
+    "correctAnswer": "sprinkle",
+    "status": "PENDING"
+  },
+  {
+    "word": "scoop",
+    "definition": "to pick up with a spoon or hands",
+    "blanked": "She used a big spoon to ______ the ice cream.",
+    "options": [
+      "scoop",
+      "crown",
+      "chilly",
+      "fuzzy"
+    ],
+    "correctAnswer": "scoop",
+    "status": "PENDING"
+  },
+  {
+    "word": "whisper",
+    "definition": "to speak in a soft low voice",
+    "blanked": "She had to ______, so the baby would not wake up.",
+    "options": [
+      "search",
+      "cereal",
+      "beginning",
+      "whisper"
+    ],
+    "correctAnswer": "whisper",
+    "status": "PENDING"
+  },
+  {
+    "word": "shout",
+    "definition": "to say something very loud",
+    "blanked": "He had to ______, so his friend across the field could hear.",
+    "options": [
+      "juicy",
+      "shout",
+      "feast",
+      "thumb"
+    ],
+    "correctAnswer": "shout",
+    "status": "PENDING"
+  },
+  {
+    "word": "giggle",
+    "definition": "to laugh in a quiet silly way",
+    "blanked": "The joke made him ______ and cover his mouth.",
+    "options": [
+      "giggle",
+      "nibble",
+      "burrow",
+      "flame"
+    ],
+    "correctAnswer": "giggle",
+    "status": "PENDING"
+  },
+  {
+    "word": "howl",
+    "definition": "to make a long loud cry",
+    "blanked": "The wolf would ______ at the moon every night.",
+    "options": [
+      "howl",
+      "grab",
+      "take",
+      "broom"
+    ],
+    "correctAnswer": "howl",
+    "status": "PENDING"
+  },
+  {
+    "word": "bark",
+    "definition": "the short loud sound a dog makes",
+    "blanked": "The ______ of the old oak tree was rough and bumpy.",
+    "options": [
+      "blanket",
+      "bark",
+      "scarf",
+      "shallow"
+    ],
+    "correctAnswer": "bark",
+    "status": "PENDING"
+  },
+  {
+    "word": "roar",
+    "definition": "to make a big loud sound like a lion",
+    "blanked": "The lion opened its mouth to ______.",
+    "options": [
+      "roar",
+      "turn on",
+      "boot",
+      "march"
+    ],
+    "correctAnswer": "roar",
+    "status": "PENDING"
+  },
+  {
+    "word": "hum",
+    "definition": "to make music with your mouth closed",
+    "blanked": "She liked to ______ her favorite song while she worked.",
+    "options": [
+      "shield",
+      "skunk",
+      "hum",
+      "tail"
+    ],
+    "correctAnswer": "hum",
+    "status": "PENDING"
+  },
+  {
+    "word": "clap",
+    "definition": "to hit your hands together",
+    "blanked": "Everyone began to ______ when the show ended.",
+    "options": [
+      "tunnel",
+      "bunch",
+      "lightning",
+      "clap"
+    ],
+    "correctAnswer": "clap",
+    "status": "PENDING"
+  },
+  {
+    "word": "wave",
+    "definition": "to move your hand to say hello or bye",
+    "blanked": "She would ______ goodbye from the window.",
+    "options": [
+      "soaking",
+      "wave",
+      "button",
+      "during"
+    ],
+    "correctAnswer": "wave",
+    "status": "PENDING"
+  },
+  {
+    "word": "nod",
+    "definition": "to move your head up and down for yes",
+    "blanked": "He ______ to show he understood.",
+    "options": [
+      "nod",
+      "quarter",
+      "whisper",
+      "honey"
+    ],
+    "correctAnswer": "nod",
+    "status": "PENDING"
+  },
+  {
+    "word": "peek",
+    "definition": "to look at something secretly, trying not to be seen",
+    "blanked": "She tried to ______ at her birthday present.",
+    "options": [
+      "pretzel",
+      "gently",
+      "peek",
+      "stretch"
+    ],
+    "correctAnswer": "peek",
+    "status": "PENDING"
+  },
+  {
+    "word": "stare",
+    "status": "SKIP",
+    "reason": "word not in example"
+  },
+  {
+    "word": "glance",
+    "definition": "to look at something for just one quick second",
+    "blanked": "She ______ at the clock and ran to catch the bus.",
+    "options": [
+      "glance",
+      "mayor",
+      "pancake",
+      "island"
+    ],
+    "correctAnswer": "glance",
+    "status": "PENDING"
+  },
+  {
+    "word": "search",
+    "definition": "to look carefully for something",
+    "blanked": "He had to ______ everywhere for his lost toy.",
+    "options": [
+      "generous",
+      "treat",
+      "burrow",
+      "search"
+    ],
+    "correctAnswer": "search",
+    "status": "PENDING"
+  },
+  {
+    "word": "discover",
+    "definition": "to find or learn about something for the first time",
+    "blanked": "She was excited to ______ a frog under the log.",
+    "options": [
+      "hopeful",
+      "busy",
+      "nod",
+      "discover"
+    ],
+    "correctAnswer": "discover",
+    "status": "PENDING"
+  },
+  {
+    "word": "notice",
+    "definition": "to see or become aware of something",
+    "blanked": "Did you ______ the bird sitting on the fence?",
+    "options": [
+      "notice",
+      "rotten",
+      "broom",
+      "shelf"
+    ],
+    "correctAnswer": "notice",
+    "status": "PENDING"
+  },
+  {
+    "word": "wonder",
+    "definition": "to think about something you don't know",
+    "blanked": "I ______ what is inside that big box.",
+    "options": [
+      "wonder",
+      "ashamed",
+      "fawn",
+      "owl"
+    ],
+    "correctAnswer": "wonder",
+    "status": "PENDING"
+  },
+  {
+    "word": "imagine",
+    "definition": "to make pictures in your mind",
+    "blanked": "Close your eyes and ______ you are flying.",
+    "options": [
+      "create",
+      "forehead",
+      "together",
+      "imagine"
+    ],
+    "correctAnswer": "imagine",
+    "status": "PENDING"
+  },
+  {
+    "word": "pretend",
+    "definition": "to act like something that is not real",
+    "blanked": "Let's ______ we are pirates on a ship!",
+    "options": [
+      "spark",
+      "bored",
+      "tumble",
+      "pretend"
+    ],
+    "correctAnswer": "pretend",
+    "status": "PENDING"
+  },
+  {
+    "word": "promise",
+    "definition": "to say you will really do something",
+    "blanked": "I ______ I will clean my room after dinner.",
+    "options": [
+      "promise",
+      "wand",
+      "clumsy",
+      "perfect"
+    ],
+    "correctAnswer": "promise",
+    "status": "PENDING"
+  },
+  {
+    "word": "remind",
+    "definition": "to help someone recall",
+    "blanked": "Please ______ me to bring my book tomorrow.",
+    "options": [
+      "castle",
+      "collar",
+      "lamb",
+      "remind"
+    ],
+    "correctAnswer": "remind",
+    "status": "PENDING"
+  },
+  {
+    "word": "forget",
+    "definition": "to not remember something you knew before",
+    "blanked": "Don't ______ to pack your lunch!",
+    "options": [
+      "thermometer",
+      "match",
+      "fresh",
+      "forget"
+    ],
+    "correctAnswer": "forget",
+    "status": "PENDING"
+  },
+  {
+    "word": "belong",
+    "definition": "to be in the right place",
+    "blanked": "These books ______ on the top shelf.",
+    "options": [
+      "melt",
+      "weigh",
+      "belong",
+      "boot"
+    ],
+    "correctAnswer": "belong",
+    "status": "PENDING"
+  },
+  {
+    "word": "share",
+    "definition": "to give part of yours to someone",
+    "blanked": "She learned to ______ her toys with her sister.",
+    "options": [
+      "boot",
+      "feast",
+      "share",
+      "uncomfortable"
+    ],
+    "correctAnswer": "share",
+    "status": "PENDING"
+  },
+  {
+    "word": "trade",
+    "definition": "to give one thing and get a different thing back",
+    "blanked": "I will ______ my apple for your orange.",
+    "options": [
+      "trade",
+      "brave",
+      "eyebrow",
+      "pour"
+    ],
+    "correctAnswer": "trade",
+    "status": "PENDING"
+  },
+  {
+    "word": "borrow",
+    "definition": "to use something and give it back",
+    "blanked": "Can I ______ your pencil? I will return it soon.",
+    "options": [
+      "frog",
+      "leap",
+      "delighted",
+      "borrow"
+    ],
+    "correctAnswer": "borrow",
+    "status": "PENDING"
+  },
+  {
+    "word": "lend",
+    "definition": "to let someone use your thing for a short time",
+    "blanked": "She was kind to ______ me her umbrella.",
+    "options": [
+      "calm down",
+      "count",
+      "lend",
+      "eraser"
+    ],
+    "correctAnswer": "lend",
+    "status": "PENDING"
+  },
+  {
+    "word": "gather",
+    "definition": "to pick up and bring together",
+    "blanked": "Let's ______ all the fallen leaves into one big pile.",
+    "options": [
+      "grape",
+      "stable",
+      "beyond",
+      "gather"
+    ],
+    "correctAnswer": "gather",
+    "status": "PENDING"
+  },
+  {
+    "word": "collect",
+    "definition": "to get many of the same thing",
+    "blanked": "He liked to ______ shiny rocks from the beach.",
+    "options": [
+      "waffle",
+      "vine",
+      "sour",
+      "collect"
+    ],
+    "correctAnswer": "collect",
+    "status": "PENDING"
+  },
+  {
+    "word": "stack",
+    "definition": "to put things on top of each other neatly",
+    "blanked": "He liked to ______ the blocks as high as he could.",
+    "options": [
+      "tunnel",
+      "toad",
+      "stack",
+      "dozen"
+    ],
+    "correctAnswer": "stack",
+    "status": "PENDING"
+  },
+  {
+    "word": "wrap",
+    "definition": "to cover something with paper or cloth",
+    "blanked": "She helped ______ the gift in pretty paper.",
+    "options": [
+      "slice",
+      "sticky",
+      "wrap",
+      "figure out"
+    ],
+    "correctAnswer": "wrap",
+    "status": "PENDING"
+  },
+  {
+    "word": "unwrap",
+    "definition": "to take the cover off something",
+    "blanked": "He was so excited to ______ his birthday present.",
+    "options": [
+      "unwrap",
+      "shy",
+      "attach",
+      "pajamas"
+    ],
+    "correctAnswer": "unwrap",
+    "status": "PENDING"
+  },
+  {
+    "word": "tug",
+    "definition": "to pull hard on something",
+    "blanked": "She had to ______ the door hard to open it.",
+    "options": [
+      "tug",
+      "palm",
+      "flame",
+      "come back"
+    ],
+    "correctAnswer": "tug",
+    "status": "PENDING"
+  },
+  {
+    "word": "drag",
+    "definition": "to pull something heavy along the ground",
+    "blanked": "He had to ______ the heavy bag across the floor.",
+    "options": [
+      "fawn",
+      "calm",
+      "drag",
+      "fuzzy"
+    ],
+    "correctAnswer": "drag",
+    "status": "PENDING"
+  },
+  {
+    "word": "shove",
+    "definition": "to push hard",
+    "blanked": "The wind would ______ the door shut.",
+    "options": [
+      "shove",
+      "crew",
+      "costume",
+      "pocket"
+    ],
+    "correctAnswer": "shove",
+    "status": "PENDING"
+  },
+  {
+    "word": "tuck",
+    "definition": "to push edges in to make neat",
+    "blanked": "Mom would ______ the blanket around him at bedtime.",
+    "options": [
+      "feast",
+      "tuck",
+      "pillow",
+      "thin"
+    ],
+    "correctAnswer": "tuck",
+    "status": "PENDING"
+  },
+  {
+    "word": "hang",
+    "definition": "to put something up so it is not on the ground",
+    "blanked": "Please ______ your coat on the hook.",
+    "options": [
+      "peel",
+      "icicle",
+      "hang",
+      "design"
+    ],
+    "correctAnswer": "hang",
+    "status": "PENDING"
+  },
+  {
+    "word": "fasten",
+    "definition": "to close or attach something",
+    "blanked": "Please ______ your seatbelt before the car moves.",
+    "options": [
+      "fasten",
+      "disappointed",
+      "cave",
+      "muffin"
+    ],
+    "correctAnswer": "fasten",
+    "status": "PENDING"
+  },
+  {
+    "word": "attach",
+    "definition": "to join one thing to another",
+    "blanked": "He used a clip to ______ the paper to the board.",
+    "options": [
+      "petal",
+      "attach",
+      "borrow",
+      "whenever"
+    ],
+    "correctAnswer": "attach",
+    "status": "PENDING"
+  },
+  {
+    "word": "repair",
+    "definition": "to fix something broken",
+    "blanked": "Dad can ______ the broken chair with glue.",
+    "options": [
+      "zipper",
+      "rainbow",
+      "during",
+      "repair"
+    ],
+    "correctAnswer": "repair",
+    "status": "PENDING"
+  },
+  {
+    "word": "create",
+    "definition": "to make something new that was not there before",
+    "blanked": "She used paint to ______ a beautiful picture.",
+    "options": [
+      "create",
+      "match",
+      "instead",
+      "dock"
+    ],
+    "correctAnswer": "create",
+    "status": "PENDING"
+  },
+  {
+    "word": "design",
+    "definition": "to plan what something will look like",
+    "blanked": "He wanted to ______ his own treehouse.",
+    "options": [
+      "design",
+      "brave",
+      "toward",
+      "shy"
+    ],
+    "correctAnswer": "design",
+    "status": "PENDING"
+  },
+  {
+    "word": "measure",
+    "definition": "to find out how big something is",
+    "blanked": "She used a ruler to ______ how tall the plant grew.",
+    "options": [
+      "stale",
+      "wrist",
+      "measure",
+      "pancake"
+    ],
+    "correctAnswer": "measure",
+    "status": "PENDING"
+  },
+  {
+    "word": "weigh",
+    "definition": "to find out how heavy something is",
+    "blanked": "Let's ______ the pumpkin to see how heavy it is.",
+    "options": [
+      "weigh",
+      "boot",
+      "rooster",
+      "wilt"
+    ],
+    "correctAnswer": "weigh",
+    "status": "PENDING"
+  },
+  {
+    "word": "count",
+    "definition": "to say numbers to find how many",
+    "blanked": "Can you ______ how many apples are in the basket?",
+    "options": [
+      "count",
+      "empty",
+      "sticky",
+      "breeze"
+    ],
+    "correctAnswer": "count",
+    "status": "PENDING"
+  },
+  {
+    "word": "sort",
+    "definition": "to put things in groups",
+    "blanked": "She helped ______ the socks by color.",
+    "options": [
+      "grape",
+      "imagine",
+      "less",
+      "sort"
+    ],
+    "correctAnswer": "sort",
+    "status": "PENDING"
+  },
+  {
+    "word": "match",
+    "definition": "to find two things that are the same",
+    "blanked": "Can you ______ the baby animal to its mother?",
+    "options": [
+      "than",
+      "dawn",
+      "quarter",
+      "match"
+    ],
+    "correctAnswer": "match",
+    "status": "PENDING"
+  },
+  {
+    "word": "deliver",
+    "definition": "to bring something to someone",
+    "blanked": "The mail carrier will ______ the package today.",
+    "options": [
+      "deliver",
+      "battery",
+      "tag",
+      "tunnel"
+    ],
+    "correctAnswer": "deliver",
+    "status": "PENDING"
+  },
+  {
+    "word": "fetch",
+    "definition": "to go get something and bring it back",
+    "blanked": "The dog ran to ______ the stick I threw.",
+    "options": [
+      "crow",
+      "acorn",
+      "zipper",
+      "fetch"
+    ],
+    "correctAnswer": "fetch",
+    "status": "PENDING"
+  },
+  {
+    "word": "vanish",
+    "definition": "to go away so no one can see it, like magic",
+    "blanked": "The magician made the coin ______!",
+    "options": [
+      "knight",
+      "brave",
+      "vine",
+      "vanish"
+    ],
+    "correctAnswer": "vanish",
+    "status": "PENDING"
+  },
+  {
+    "word": "tiny",
+    "definition": "so small you can almost not see it or hold it",
+    "blanked": "The ______ ant carried a crumb ten times its size.",
+    "options": [
+      "tiny",
+      "moose",
+      "among",
+      "seed"
+    ],
+    "correctAnswer": "tiny",
+    "status": "PENDING"
+  },
+  {
+    "word": "huge",
+    "definition": "so big it fills up a room or towers over you",
+    "blanked": "The ______ elephant was taller than the bus.",
+    "options": [
+      "gravy",
+      "huge",
+      "patient",
+      "dull"
+    ],
+    "correctAnswer": "huge",
+    "status": "PENDING"
+  },
+  {
+    "word": "enormous",
+    "definition": "so big it is hard to believe",
+    "blanked": "The ______ whale made the boat look like a toy.",
+    "options": [
+      "foolish",
+      "throughout",
+      "none",
+      "enormous"
+    ],
+    "correctAnswer": "enormous",
+    "status": "PENDING"
+  },
+  {
+    "word": "narrow",
+    "definition": "so thin from side to side that there is barely room to fit through",
+    "blanked": "The path was so ______ only one person could walk at a time.",
+    "options": [
+      "recent",
+      "creamy",
+      "anyway",
+      "narrow"
+    ],
+    "correctAnswer": "narrow",
+    "status": "PENDING"
+  },
+  {
+    "word": "wide",
+    "definition": "going far from side to side",
+    "blanked": "The river was too ______ to jump across.",
+    "options": [
+      "wide",
+      "during",
+      "generous",
+      "anyway"
+    ],
+    "correctAnswer": "wide",
+    "status": "PENDING"
+  },
+  {
+    "word": "steep",
+    "definition": "going up very sharply, hard to climb",
+    "blanked": "The hill was so ______ they had to crawl up it.",
+    "options": [
+      "steep",
+      "warm",
+      "tight",
+      "zipper"
+    ],
+    "correctAnswer": "steep",
+    "status": "PENDING"
+  },
+  {
+    "word": "shallow",
+    "definition": "not deep; close to the top",
+    "blanked": "The water was ______ enough for the little kids to stand in.",
+    "options": [
+      "shallow",
+      "proud",
+      "smooth",
+      "slice"
+    ],
+    "correctAnswer": "shallow",
+    "status": "PENDING"
+  },
+  {
+    "word": "deep",
+    "definition": "going far down",
+    "blanked": "The pool was too ______ for her to touch the bottom.",
+    "options": [
+      "deep",
+      "dew",
+      "dragon",
+      "march"
+    ],
+    "correctAnswer": "deep",
+    "status": "PENDING"
+  },
+  {
+    "word": "thick",
+    "definition": "wide from one side to the other; not narrow",
+    "blanked": "The ______ book had over 300 pages.",
+    "options": [
+      "thick",
+      "coach",
+      "clap",
+      "kitten"
+    ],
+    "correctAnswer": "thick",
+    "status": "PENDING"
+  },
+  {
+    "word": "thin",
+    "definition": "not thick; having very little from one side to the other",
+    "blanked": "The ice was too ______ to walk on safely.",
+    "options": [
+      "drip",
+      "later",
+      "thin",
+      "pepper"
+    ],
+    "correctAnswer": "thin",
+    "status": "PENDING"
+  },
+  {
+    "word": "smooth",
+    "definition": "with no bumps at all, perfectly flat and even to touch",
+    "blanked": "The rock was ______ like a piece of glass.",
+    "options": [
+      "discover",
+      "worried",
+      "syrup",
+      "smooth"
+    ],
+    "correctAnswer": "smooth",
+    "status": "PENDING"
+  },
+  {
+    "word": "rough",
+    "definition": "bumpy and not smooth",
+    "blanked": "The tree bark felt ______ under her fingers.",
+    "options": [
+      "battery",
+      "rough",
+      "monster",
+      "throat"
+    ],
+    "correctAnswer": "rough",
+    "status": "PENDING"
+  },
+  {
+    "word": "sharp",
+    "definition": "with a point that can cut",
+    "blanked": "Be careful! That knife is very ______.",
+    "options": [
+      "salty",
+      "rainbow",
+      "hum",
+      "sharp"
+    ],
+    "correctAnswer": "sharp",
+    "status": "PENDING"
+  },
+  {
+    "word": "dull",
+    "definition": "not sharp enough to cut, with a flat worn edge",
+    "blanked": "The ______ scissors could not cut the paper.",
+    "options": [
+      "bee",
+      "imagine",
+      "nibble",
+      "dull"
+    ],
+    "correctAnswer": "dull",
+    "status": "PENDING"
+  },
+  {
+    "word": "shiny",
+    "definition": "bright and reflecting light",
+    "blanked": "The ______ coin sparkled in the sunlight.",
+    "options": [
+      "gigantic",
+      "sprout",
+      "dragon",
+      "shiny"
+    ],
+    "correctAnswer": "shiny",
+    "status": "PENDING"
+  },
+  {
+    "word": "damp",
+    "definition": "a little bit wet",
+    "blanked": "The grass was ______ from the morning dew.",
+    "options": [
+      "damp",
+      "duckling",
+      "lamb",
+      "crow"
+    ],
+    "correctAnswer": "damp",
+    "status": "PENDING"
+  },
+  {
+    "word": "soaking",
+    "definition": "completely wet, dripping with water from head to toe",
+    "blanked": "He was ______ wet after playing in the rain.",
+    "options": [
+      "treat",
+      "waffle",
+      "petal",
+      "soaking"
+    ],
+    "correctAnswer": "soaking",
+    "status": "PENDING"
+  },
+  {
+    "word": "dry",
+    "definition": "having no water or wetness on it at all",
+    "blanked": "She waited for her hair to get ______ after her bath.",
+    "options": [
+      "adventure",
+      "come in",
+      "elbow",
+      "dry"
+    ],
+    "correctAnswer": "dry",
+    "status": "PENDING"
+  },
+  {
+    "word": "sticky",
+    "definition": "something that holds on to your fingers",
+    "blanked": "His hands were ______ from the candy.",
+    "options": [
+      "breeze",
+      "pile",
+      "tiptoe",
+      "sticky"
+    ],
+    "correctAnswer": "sticky",
+    "status": "PENDING"
+  },
+  {
+    "word": "slimy",
+    "definition": "wet and slippery in a yucky way",
+    "blanked": "The ______ slug left a trail on the sidewalk.",
+    "options": [
+      "slimy",
+      "heel",
+      "whenever",
+      "eyebrow"
+    ],
+    "correctAnswer": "slimy",
+    "status": "PENDING"
+  },
+  {
+    "word": "fluffy",
+    "definition": "soft and light like a cloud",
+    "blanked": "The ______ kitten looked like a little cotton ball.",
+    "options": [
+      "toad",
+      "fluffy",
+      "sword",
+      "stare"
+    ],
+    "correctAnswer": "fluffy",
+    "status": "PENDING"
+  },
+  {
+    "word": "fuzzy",
+    "definition": "covered in soft short hair",
+    "blanked": "The ______ peach tickled his lip.",
+    "options": [
+      "echo",
+      "half",
+      "ladybug",
+      "fuzzy"
+    ],
+    "correctAnswer": "fuzzy",
+    "status": "PENDING"
+  },
+  {
+    "word": "cozy",
+    "definition": "warm and nice to be in",
+    "blanked": "The ______ bed made her want to stay asleep.",
+    "options": [
+      "elbow",
+      "cherry",
+      "cozy",
+      "share"
+    ],
+    "correctAnswer": "cozy",
+    "status": "PENDING"
+  },
+  {
+    "word": "chilly",
+    "definition": "a little cold",
+    "blanked": "The ______ wind made her wish she had a jacket.",
+    "options": [
+      "frustrated",
+      "chilly",
+      "coach",
+      "salty"
+    ],
+    "correctAnswer": "chilly",
+    "status": "PENDING"
+  },
+  {
+    "word": "freezing",
+    "definition": "so cold like ice",
+    "blanked": "The water was ______ so no one wanted to swim.",
+    "options": [
+      "freezing",
+      "crooked",
+      "spider",
+      "slipper"
+    ],
+    "correctAnswer": "freezing",
+    "status": "PENDING"
+  },
+  {
+    "word": "boiling",
+    "definition": "so hot with lots of bubbles",
+    "blanked": "The ______ water was too hot to touch.",
+    "options": [
+      "lazy",
+      "boiling",
+      "beyond",
+      "smoke"
+    ],
+    "correctAnswer": "boiling",
+    "status": "PENDING"
+  },
+  {
+    "word": "warm",
+    "definition": "a nice heat that feels good",
+    "blanked": "The ______ sun felt nice on her face.",
+    "options": [
+      "hoof",
+      "beaver",
+      "fetch",
+      "warm"
+    ],
+    "correctAnswer": "warm",
+    "status": "PENDING"
+  },
+  {
+    "word": "fierce",
+    "definition": "very strong and powerful",
+    "blanked": "The ______ lion roared and showed its sharp teeth.",
+    "options": [
+      "fierce",
+      "remind",
+      "roar",
+      "around"
+    ],
+    "correctAnswer": "fierce",
+    "status": "PENDING"
+  },
+  {
+    "word": "gentle",
+    "definition": "soft and careful, not rough or strong",
+    "blanked": "He was ______ when he held the baby bird.",
+    "options": [
+      "tiny",
+      "chick",
+      "clumsy",
+      "gentle"
+    ],
+    "correctAnswer": "gentle",
+    "status": "PENDING"
+  },
+  {
+    "word": "brave",
+    "definition": "not afraid to do scary things",
+    "blanked": "The ______ knight went into the dark cave.",
+    "options": [
+      "fog",
+      "wave",
+      "giggle",
+      "brave"
+    ],
+    "correctAnswer": "brave",
+    "status": "PENDING"
+  },
+  {
+    "word": "shy",
+    "definition": "afraid to talk to new people",
+    "blanked": "The ______ girl hid behind her mother.",
+    "options": [
+      "shy",
+      "sneaker",
+      "slice",
+      "lonely"
+    ],
+    "correctAnswer": "shy",
+    "status": "PENDING"
+  },
+  {
+    "word": "proud",
+    "definition": "happy about something you did well",
+    "blanked": "She felt ______ when she finished the hard puzzle.",
+    "options": [
+      "nervous",
+      "since",
+      "several",
+      "proud"
+    ],
+    "correctAnswer": "proud",
+    "status": "PENDING"
+  },
+  {
+    "word": "curious",
+    "definition": "wanting to know about things",
+    "blanked": "The ______ cat peeked inside the open box.",
+    "options": [
+      "curious",
+      "echo",
+      "slice",
+      "tower"
+    ],
+    "correctAnswer": "curious",
+    "status": "PENDING"
+  },
+  {
+    "word": "grumpy",
+    "definition": "in a bad mood and not wanting to talk",
+    "blanked": "He was ______ because he did not sleep well.",
+    "options": [
+      "search",
+      "moose",
+      "grate",
+      "grumpy"
+    ],
+    "correctAnswer": "grumpy",
+    "status": "PENDING"
+  },
+  {
+    "word": "cheerful",
+    "definition": "happy and smiling",
+    "blanked": "The ______ girl sang a song on the way to school.",
+    "options": [
+      "cheerful",
+      "lonely",
+      "bitter",
+      "already"
+    ],
+    "correctAnswer": "cheerful",
+    "status": "PENDING"
+  },
+  {
+    "word": "lonely",
+    "definition": "sad because you are alone",
+    "blanked": "The ______ puppy sat by the door waiting for someone to play.",
+    "options": [
+      "lonely",
+      "average",
+      "pack",
+      "greedy"
+    ],
+    "correctAnswer": "lonely",
+    "status": "PENDING"
+  },
+  {
+    "word": "calm",
+    "definition": "quiet and not upset",
+    "blanked": "The lake was ______ and still like a mirror.",
+    "options": [
+      "calm",
+      "ruler",
+      "vase",
+      "glue"
+    ],
+    "correctAnswer": "calm",
+    "status": "PENDING"
+  },
+  {
+    "word": "wild",
+    "definition": "not tame, living free in nature",
+    "blanked": "The ______ horse ran free across the plains.",
+    "options": [
+      "wild",
+      "trap",
+      "quietly",
+      "perfect"
+    ],
+    "correctAnswer": "wild",
+    "status": "PENDING"
+  },
+  {
+    "word": "tame",
+    "definition": "friendly and used to people",
+    "blanked": "The ______ rabbit let the children pet it.",
+    "options": [
+      "island",
+      "tame",
+      "cherry",
+      "float"
+    ],
+    "correctAnswer": "tame",
+    "status": "PENDING"
+  },
+  {
+    "word": "plain",
+    "definition": "not fancy, with nothing on it",
+    "blanked": "He wanted a ______ white T-shirt with no picture.",
+    "options": [
+      "wonderful",
+      "plain",
+      "beyond",
+      "look at"
+    ],
+    "correctAnswer": "plain",
+    "status": "PENDING"
+  },
+  {
+    "word": "fancy",
+    "definition": "having a lot of pretty things on it",
+    "blanked": "She wore a ______ dress with sparkles to the party.",
+    "options": [
+      "clean up",
+      "chef",
+      "backward",
+      "fancy"
+    ],
+    "correctAnswer": "fancy",
+    "status": "PENDING"
+  },
+  {
+    "word": "ripe",
+    "definition": "ready to eat (for fruit)",
+    "blanked": "The ______ banana was yellow and sweet.",
+    "options": [
+      "shove",
+      "ripe",
+      "toward",
+      "ladybug"
+    ],
+    "correctAnswer": "ripe",
+    "status": "PENDING"
+  },
+  {
+    "word": "rotten",
+    "definition": "old and bad to eat",
+    "blanked": "The ______ apple was brown and smelled terrible.",
+    "options": [
+      "finally",
+      "wand",
+      "once",
+      "rotten"
+    ],
+    "correctAnswer": "rotten",
+    "status": "PENDING"
+  },
+  {
+    "word": "fresh",
+    "definition": "just made or picked, not old",
+    "blanked": "The ______ bread smelled wonderful from the oven.",
+    "options": [
+      "unwrap",
+      "clever",
+      "oatmeal",
+      "fresh"
+    ],
+    "correctAnswer": "fresh",
+    "status": "PENDING"
+  },
+  {
+    "word": "stale",
+    "definition": "old and not fresh anymore",
+    "blanked": "The ______ crackers were not crunchy anymore.",
+    "options": [
+      "bloom",
+      "stale",
+      "bucket",
+      "fluffy"
+    ],
+    "correctAnswer": "stale",
+    "status": "PENDING"
+  },
+  {
+    "word": "bitter",
+    "definition": "a strong taste that is not sweet",
+    "blanked": "The dark chocolate tasted ______ to her.",
+    "options": [
+      "around",
+      "surprised",
+      "chef",
+      "bitter"
+    ],
+    "correctAnswer": "bitter",
+    "status": "PENDING"
+  },
+  {
+    "word": "sour",
+    "definition": "a sharp taste like lemon",
+    "blanked": "The ______ candy made her face scrunch up.",
+    "options": [
+      "grumpy",
+      "sour",
+      "duckling",
+      "crown"
+    ],
+    "correctAnswer": "sour",
+    "status": "PENDING"
+  },
+  {
+    "word": "salty",
+    "definition": "tasting like salt",
+    "blanked": "The ocean water was too ______ to drink.",
+    "options": [
+      "spark",
+      "salty",
+      "sudden",
+      "equal"
+    ],
+    "correctAnswer": "salty",
+    "status": "PENDING"
+  },
+  {
+    "word": "juicy",
+    "definition": "full of juice inside",
+    "blanked": "The ______ orange dripped down his chin.",
+    "options": [
+      "sprout",
+      "juicy",
+      "hem",
+      "kitten"
+    ],
+    "correctAnswer": "juicy",
+    "status": "PENDING"
+  },
+  {
+    "word": "crunchy",
+    "definition": "making a loud sound when you bite, like chips or carrots",
+    "blanked": "The ______ carrot snapped when she bit it.",
+    "options": [
+      "crunchy",
+      "shallow",
+      "furious",
+      "stew"
+    ],
+    "correctAnswer": "crunchy",
+    "status": "PENDING"
+  },
+  {
+    "word": "creamy",
+    "definition": "smooth and soft like cream",
+    "blanked": "The ______ soup was thick and warm.",
+    "options": [
+      "whisker",
+      "creamy",
+      "hum",
+      "shiny"
+    ],
+    "correctAnswer": "creamy",
+    "status": "PENDING"
+  },
+  {
+    "word": "silent",
+    "definition": "making no sound at all",
+    "blanked": "The house was ______ because everyone was asleep.",
+    "options": [
+      "wonder",
+      "treat",
+      "hold on",
+      "silent"
+    ],
+    "correctAnswer": "silent",
+    "status": "PENDING"
+  },
+  {
+    "word": "loud",
+    "definition": "making a lot of noise that hurts your ears",
+    "blanked": "The ______ music made it hard to talk.",
+    "options": [
+      "lazy",
+      "loud",
+      "annoyed",
+      "toward"
+    ],
+    "correctAnswer": "loud",
+    "status": "PENDING"
+  },
+  {
+    "word": "hollow",
+    "definition": "having a hole or empty space inside",
+    "blanked": "The ______ log made a drum sound when she hit it.",
+    "options": [
+      "hollow",
+      "loud",
+      "tiptoe",
+      "eyebrow"
+    ],
+    "correctAnswer": "hollow",
+    "status": "PENDING"
+  },
+  {
+    "word": "solid",
+    "definition": "hard and firm; keeps its shape",
+    "blanked": "Ice is ______, but it melts into water.",
+    "options": [
+      "solid",
+      "muffin",
+      "stomp",
+      "dawn"
+    ],
+    "correctAnswer": "solid",
+    "status": "PENDING"
+  },
+  {
+    "word": "loose",
+    "definition": "not tight; easy to move or pull off",
+    "blanked": "His ______ tooth wiggled when he touched it.",
+    "options": [
+      "loose",
+      "later",
+      "shoulder",
+      "snack"
+    ],
+    "correctAnswer": "loose",
+    "status": "PENDING"
+  },
+  {
+    "word": "tight",
+    "definition": "fitting very close, hard to move",
+    "blanked": "The lid was on so ______ he could not open the jar.",
+    "options": [
+      "uniform",
+      "portion",
+      "tight",
+      "cabin"
+    ],
+    "correctAnswer": "tight",
+    "status": "PENDING"
+  },
+  {
+    "word": "crooked",
+    "definition": "not straight, bent",
+    "blanked": "The old fence was ______ and leaning to one side.",
+    "options": [
+      "cliff",
+      "notice",
+      "coconut",
+      "crooked"
+    ],
+    "correctAnswer": "crooked",
+    "status": "PENDING"
+  },
+  {
+    "word": "straight",
+    "definition": "going one way without bending",
+    "blanked": "She drew a ______ line with her ruler.",
+    "options": [
+      "nest",
+      "straight",
+      "design",
+      "thermometer"
+    ],
+    "correctAnswer": "straight",
+    "status": "PENDING"
+  },
+  {
+    "word": "crowded",
+    "definition": "full of too many people or things",
+    "blanked": "The bus was so ______ there was no place to sit.",
+    "options": [
+      "crowded",
+      "stale",
+      "lonely",
+      "spare"
+    ],
+    "correctAnswer": "crowded",
+    "status": "PENDING"
+  },
+  {
+    "word": "empty",
+    "definition": "with nothing inside",
+    "blanked": "The ______ jar had no cookies left.",
+    "options": [
+      "cereal",
+      "peel",
+      "adventure",
+      "empty"
+    ],
+    "correctAnswer": "empty",
+    "status": "PENDING"
+  },
+  {
+    "word": "whole",
+    "definition": "all of it, nothing missing",
+    "blanked": "He ate the ______ pizza by himself!",
+    "options": [
+      "eyelash",
+      "muscle",
+      "pillow",
+      "whole"
+    ],
+    "correctAnswer": "whole",
+    "status": "PENDING"
+  },
+  {
+    "word": "spare",
+    "definition": "extra, in case you need it",
+    "blanked": "Mom keeps a ______ key under the mat.",
+    "options": [
+      "chase",
+      "spare",
+      "shiver",
+      "freeze"
+    ],
+    "correctAnswer": "spare",
+    "status": "PENDING"
+  },
+  {
+    "word": "certain",
+    "definition": "you know it is true for sure",
+    "blanked": "I am ______ I left my bag on the chair.",
+    "options": [
+      "certain",
+      "eraser",
+      "go away",
+      "freeze"
+    ],
+    "correctAnswer": "certain",
+    "status": "PENDING"
+  },
+  {
+    "word": "strange",
+    "definition": "odd or not like what you thought",
+    "blanked": "She heard a ______ noise coming from the closet.",
+    "options": [
+      "strange",
+      "wobble",
+      "switch",
+      "giggle"
+    ],
+    "correctAnswer": "strange",
+    "status": "PENDING"
+  },
+  {
+    "word": "wonderful",
+    "definition": "very good and nice",
+    "blanked": "The birthday party was ______!",
+    "options": [
+      "wonderful",
+      "herd",
+      "since",
+      "shy"
+    ],
+    "correctAnswer": "wonderful",
+    "status": "PENDING"
+  },
+  {
+    "word": "terrible",
+    "definition": "so bad it makes you upset or scared",
+    "blanked": "The ______ storm knocked down many trees.",
+    "options": [
+      "frightened",
+      "terrible",
+      "onion",
+      "cheek"
+    ],
+    "correctAnswer": "terrible",
+    "status": "PENDING"
+  },
+  {
+    "word": "perfect",
+    "definition": "nothing wrong at all",
+    "blanked": "She drew a ______ circle without any bumps.",
+    "options": [
+      "roar",
+      "scoop",
+      "together",
+      "perfect"
+    ],
+    "correctAnswer": "perfect",
+    "status": "PENDING"
+  },
+  {
+    "word": "ugly",
+    "definition": "not nice to look at",
+    "blanked": "The ______ duckling grew into a beautiful swan.",
+    "options": [
+      "treat",
+      "sandal",
+      "ugly",
+      "jealous"
+    ],
+    "correctAnswer": "ugly",
+    "status": "PENDING"
+  },
+  {
+    "word": "beautiful",
+    "definition": "so lovely it makes you stop and stare",
+    "blanked": "The sunset painted the sky in ______ colors.",
+    "options": [
+      "harbor",
+      "tower",
+      "dragon",
+      "beautiful"
+    ],
+    "correctAnswer": "beautiful",
+    "status": "PENDING"
+  },
+  {
+    "word": "clever",
+    "definition": "smart and good at thinking",
+    "blanked": "The ______ fox found a way out of the trap.",
+    "options": [
+      "less",
+      "create",
+      "drag",
+      "clever"
+    ],
+    "correctAnswer": "clever",
+    "status": "PENDING"
+  },
+  {
+    "word": "foolish",
+    "definition": "not smart, silly in a bad way",
+    "blanked": "It was ______ to go outside without a coat in the snow.",
+    "options": [
+      "together",
+      "foolish",
+      "wing",
+      "along"
+    ],
+    "correctAnswer": "foolish",
+    "status": "PENDING"
+  },
+  {
+    "word": "greedy",
+    "definition": "wanting too much for yourself",
+    "blanked": "The ______ boy took all the cookies and shared none.",
+    "options": [
+      "greedy",
+      "trade",
+      "title",
+      "tug"
+    ],
+    "correctAnswer": "greedy",
+    "status": "PENDING"
+  },
+  {
+    "word": "generous",
+    "definition": "happy to give to others",
+    "blanked": "He was ______ and shared his lunch with his friend.",
+    "options": [
+      "treat",
+      "generous",
+      "weigh",
+      "mud"
+    ],
+    "correctAnswer": "generous",
+    "status": "PENDING"
+  },
+  {
+    "word": "patient",
+    "definition": "able to wait and stay calm",
+    "blanked": "Be ______ — your turn will come soon.",
+    "options": [
+      "cub",
+      "trail",
+      "patient",
+      "pair"
+    ],
+    "correctAnswer": "patient",
+    "status": "PENDING"
+  },
+  {
+    "word": "stubborn",
+    "definition": "will not change your mind",
+    "blanked": "The ______ mule would not move no matter what.",
+    "options": [
+      "stubborn",
+      "pudding",
+      "weigh",
+      "chalk"
+    ],
+    "correctAnswer": "stubborn",
+    "status": "PENDING"
+  },
+  {
+    "word": "lazy",
+    "definition": "not wanting to work or move",
+    "blanked": "The ______ cat slept all day in the sunny spot.",
+    "options": [
+      "quickly",
+      "terrible",
+      "lazy",
+      "burrow"
+    ],
+    "correctAnswer": "lazy",
+    "status": "PENDING"
+  },
+  {
+    "word": "busy",
+    "definition": "doing many things with no free time",
+    "blanked": "The bees were very ______ making honey.",
+    "options": [
+      "busy",
+      "clap",
+      "rascal",
+      "tiptoe"
+    ],
+    "correctAnswer": "busy",
+    "status": "PENDING"
+  },
+  {
+    "word": "clumsy",
+    "definition": "bumping into things a lot",
+    "blanked": "The ______ puppy tripped over its own feet.",
+    "options": [
+      "clumsy",
+      "fur",
+      "soap",
+      "create"
+    ],
+    "correctAnswer": "clumsy",
+    "status": "PENDING"
+  },
+  {
+    "word": "graceful",
+    "definition": "moving in a pretty smooth way",
+    "blanked": "The ______ dancer spun without falling.",
+    "options": [
+      "graceful",
+      "imagine",
+      "wand",
+      "ugly"
+    ],
+    "correctAnswer": "graceful",
+    "status": "PENDING"
+  },
+  {
+    "word": "quickly",
+    "definition": "in a fast way",
+    "blanked": "She ______ grabbed her bag and ran to school.",
+    "options": [
+      "terrible",
+      "quickly",
+      "frog",
+      "bark"
+    ],
+    "correctAnswer": "quickly",
+    "status": "PENDING"
+  },
+  {
+    "word": "slowly",
+    "definition": "not fast; taking a long time",
+    "blanked": "The turtle walked ______ across the road.",
+    "options": [
+      "slowly",
+      "meadow",
+      "fresh",
+      "peanut"
+    ],
+    "correctAnswer": "slowly",
+    "status": "PENDING"
+  },
+  {
+    "word": "quietly",
+    "definition": "without making noise",
+    "blanked": "She ______ closed the door, so the baby would not wake.",
+    "options": [
+      "quietly",
+      "cub",
+      "dragon",
+      "pinecone"
+    ],
+    "correctAnswer": "quietly",
+    "status": "PENDING"
+  },
+  {
+    "word": "loudly",
+    "definition": "in a way that everyone nearby can hear",
+    "blanked": "The baby cried ______ in the middle of the night.",
+    "options": [
+      "pond",
+      "kitten",
+      "lamp",
+      "loudly"
+    ],
+    "correctAnswer": "loudly",
+    "status": "PENDING"
+  },
+  {
+    "word": "gently",
+    "definition": "doing something in a soft, careful way, without force",
+    "blanked": "She ______ placed the egg in the basket.",
+    "options": [
+      "gently",
+      "treasure",
+      "vase",
+      "fluffy"
+    ],
+    "correctAnswer": "gently",
+    "status": "PENDING"
+  },
+  {
+    "word": "suddenly",
+    "definition": "quickly and without warning",
+    "blanked": "______ the lights went out, and the room was dark.",
+    "options": [
+      "suddenly",
+      "valley",
+      "hem",
+      "hip"
+    ],
+    "correctAnswer": "suddenly",
+    "status": "PENDING"
+  },
+  {
+    "word": "already",
+    "definition": "before now; earlier than expected",
+    "blanked": "She was surprised he had ______ finished his homework.",
+    "options": [
+      "cave",
+      "elbow",
+      "cookie",
+      "already"
+    ],
+    "correctAnswer": "already",
+    "status": "PENDING"
+  },
+  {
+    "word": "almost",
+    "definition": "very close but not quite",
+    "blanked": "He ______ caught the ball, but it slipped away.",
+    "options": [
+      "owl",
+      "count",
+      "come in",
+      "almost"
+    ],
+    "correctAnswer": "almost",
+    "status": "PENDING"
+  },
+  {
+    "word": "barely",
+    "definition": "only just, by a tiny bit",
+    "blanked": "He could ______ reach the top shelf on his toes.",
+    "options": [
+      "deep",
+      "beaver",
+      "barely",
+      "slice"
+    ],
+    "correctAnswer": "barely",
+    "status": "PENDING"
+  },
+  {
+    "word": "perhaps",
+    "definition": "maybe, it might happen",
+    "blanked": "______ we will go to the park if it stops raining.",
+    "options": [
+      "island",
+      "perhaps",
+      "kitten",
+      "scarf"
+    ],
+    "correctAnswer": "perhaps",
+    "status": "PENDING"
+  },
+  {
+    "word": "exactly",
+    "definition": "just right; not more or less",
+    "blanked": "That is ______ what I was looking for!",
+    "options": [
+      "closet",
+      "fist",
+      "exactly",
+      "pack"
+    ],
+    "correctAnswer": "exactly",
+    "status": "PENDING"
+  },
+  {
+    "word": "instead",
+    "definition": "in place of something else",
+    "blanked": "It rained, so we played inside ______.",
+    "options": [
+      "desert",
+      "tiny",
+      "instead",
+      "creamy"
+    ],
+    "correctAnswer": "instead",
+    "status": "PENDING"
+  },
+  {
+    "word": "anyway",
+    "definition": "even so, no matter what",
+    "blanked": "It was raining, but she went outside ______.",
+    "options": [
+      "curtain",
+      "share",
+      "crooked",
+      "anyway"
+    ],
+    "correctAnswer": "anyway",
+    "status": "PENDING"
+  },
+  {
+    "word": "forever",
+    "definition": "for all time, never ending",
+    "blanked": "I wish summer could last ______.",
+    "options": [
+      "forever",
+      "parade",
+      "cheek",
+      "roar"
+    ],
+    "correctAnswer": "forever",
+    "status": "PENDING"
+  },
+  {
+    "word": "apart",
+    "definition": "not together, with empty space in between",
+    "blanked": "The two friends lived far ______ but still wrote letters.",
+    "options": [
+      "apart",
+      "stamp",
+      "dusk",
+      "moss"
+    ],
+    "correctAnswer": "apart",
+    "status": "PENDING"
+  },
+  {
+    "word": "together",
+    "definition": "with each other, side by side or in the same group",
+    "blanked": "The kids played ______ in the sandbox.",
+    "options": [
+      "tape",
+      "vine",
+      "together",
+      "come in"
+    ],
+    "correctAnswer": "together",
+    "status": "PENDING"
+  },
+  {
+    "word": "forward",
+    "definition": "toward the front",
+    "blanked": "Take one step ______ and two steps back.",
+    "options": [
+      "forward",
+      "pond",
+      "sandwich",
+      "swan"
+    ],
+    "correctAnswer": "forward",
+    "status": "PENDING"
+  },
+  {
+    "word": "backward",
+    "definition": "toward the back",
+    "blanked": "She counted ______ from ten to one.",
+    "options": [
+      "backward",
+      "boot",
+      "annoyed",
+      "hum"
+    ],
+    "correctAnswer": "backward",
+    "status": "PENDING"
+  },
+  {
+    "word": "sideways",
+    "definition": "to the left or right",
+    "blanked": "The crab walked ______ across the sand.",
+    "options": [
+      "sideways",
+      "empty",
+      "treat",
+      "nod"
+    ],
+    "correctAnswer": "sideways",
+    "status": "PENDING"
+  },
+  {
+    "word": "beneath",
+    "definition": "right below it",
+    "blanked": "The cat hid ______ the bed.",
+    "options": [
+      "put down",
+      "dragon",
+      "beneath",
+      "apron"
+    ],
+    "correctAnswer": "beneath",
+    "status": "PENDING"
+  },
+  {
+    "word": "above",
+    "definition": "up higher than something, with space in between",
+    "blanked": "The bird flew ______ the trees.",
+    "options": [
+      "above",
+      "cracker",
+      "whisper",
+      "robin"
+    ],
+    "correctAnswer": "above",
+    "status": "PENDING"
+  },
+  {
+    "word": "below",
+    "definition": "down lower than something, farther toward the ground",
+    "blanked": "The fish swam ______ the boat.",
+    "options": [
+      "below",
+      "shoulder",
+      "drawer",
+      "tunnel"
+    ],
+    "correctAnswer": "below",
+    "status": "PENDING"
+  },
+  {
+    "word": "beside",
+    "definition": "next to; right by the side of",
+    "blanked": "She sat ______ her best friend.",
+    "options": [
+      "imagine",
+      "beside",
+      "upon",
+      "mane"
+    ],
+    "correctAnswer": "beside",
+    "status": "PENDING"
+  },
+  {
+    "word": "between",
+    "definition": "in the space that has one thing on each side",
+    "blanked": "The ball rolled ______ the two chairs.",
+    "options": [
+      "between",
+      "shy",
+      "show off",
+      "cranky"
+    ],
+    "correctAnswer": "between",
+    "status": "PENDING"
+  },
+  {
+    "word": "among",
+    "definition": "in the middle of many things",
+    "blanked": "He found his toy ______ all the others in the box.",
+    "options": [
+      "among",
+      "celery",
+      "suddenly",
+      "excited"
+    ],
+    "correctAnswer": "among",
+    "status": "PENDING"
+  },
+  {
+    "word": "toward",
+    "definition": "moving closer and closer to a person, place, or thing",
+    "blanked": "The puppy ran ______ its owner.",
+    "options": [
+      "frightened",
+      "slowly",
+      "title",
+      "toward"
+    ],
+    "correctAnswer": "toward",
+    "status": "PENDING"
+  },
+  {
+    "word": "against",
+    "definition": "touching or leaning on something",
+    "blanked": "He leaned ______ the wall and waited for his friend.",
+    "options": [
+      "against",
+      "feast",
+      "amazed",
+      "toss"
+    ],
+    "correctAnswer": "against",
+    "status": "PENDING"
+  },
+  {
+    "word": "through",
+    "definition": "going in one end and out the other",
+    "blanked": "The train went ______ the long tunnel.",
+    "options": [
+      "through",
+      "slice",
+      "feather",
+      "seed"
+    ],
+    "correctAnswer": "through",
+    "status": "PENDING"
+  },
+  {
+    "word": "across",
+    "definition": "from this side over to that side",
+    "blanked": "She swam ______ the pool to the other end.",
+    "options": [
+      "ant",
+      "scarf",
+      "bucket",
+      "across"
+    ],
+    "correctAnswer": "across",
+    "status": "PENDING"
+  },
+  {
+    "word": "along",
+    "definition": "following the edge or line of",
+    "blanked": "They walked ______ the path by the river.",
+    "options": [
+      "along",
+      "peach",
+      "yawn",
+      "skip"
+    ],
+    "correctAnswer": "along",
+    "status": "PENDING"
+  },
+  {
+    "word": "around",
+    "definition": "following a path that makes a circle or loop",
+    "blanked": "The dog ran ______ the tree three times.",
+    "options": [
+      "weekly",
+      "around",
+      "fairy",
+      "whole"
+    ],
+    "correctAnswer": "around",
+    "status": "PENDING"
+  },
+  {
+    "word": "beyond",
+    "definition": "past, farther away than",
+    "blanked": "The park is just ______ those tall trees.",
+    "options": [
+      "cupcake",
+      "beyond",
+      "proud",
+      "sticky"
+    ],
+    "correctAnswer": "beyond",
+    "status": "PENDING"
+  },
+  {
+    "word": "during",
+    "definition": "while something else is going on, at the same time as that event",
+    "blanked": "She fell asleep ______ the movie.",
+    "options": [
+      "tiny",
+      "during",
+      "thunder",
+      "dock"
+    ],
+    "correctAnswer": "during",
+    "status": "PENDING"
+  },
+  {
+    "word": "until",
+    "definition": "up to a certain moment in time, and then stopping",
+    "blanked": "Wait here ______ I come back.",
+    "options": [
+      "frost",
+      "until",
+      "discover",
+      "lizard"
+    ],
+    "correctAnswer": "until",
+    "status": "PENDING"
+  },
+  {
+    "word": "since",
+    "definition": "from a past time all the way until now",
+    "blanked": "She has been happy ______ she got the puppy.",
+    "options": [
+      "rotten",
+      "since",
+      "jungle",
+      "bitter"
+    ],
+    "correctAnswer": "since",
+    "status": "PENDING"
+  },
+  {
+    "word": "whether",
+    "definition": "used when you are choosing between two possible things",
+    "blanked": "I don't know ______ to bring a coat or not.",
+    "options": [
+      "breeze",
+      "find out",
+      "butterfly",
+      "whether"
+    ],
+    "correctAnswer": "whether",
+    "status": "PENDING"
+  },
+  {
+    "word": "while",
+    "definition": "at the same time as",
+    "blanked": "She read a book ______ she waited for the bus.",
+    "options": [
+      "while",
+      "show off",
+      "oatmeal",
+      "puppy"
+    ],
+    "correctAnswer": "while",
+    "status": "PENDING"
+  },
+  {
+    "word": "besides",
+    "definition": "on top of what was already said, there is also this",
+    "blanked": "______ apples, she also likes grapes.",
+    "options": [
+      "besides",
+      "heel",
+      "fresh",
+      "peanut"
+    ],
+    "correctAnswer": "besides",
+    "status": "PENDING"
+  },
+  {
+    "word": "within",
+    "definition": "inside the edges or limits of something, not going past them",
+    "blanked": "Stay ______ the lines when you color.",
+    "options": [
+      "within",
+      "ashamed",
+      "together",
+      "goose"
+    ],
+    "correctAnswer": "within",
+    "status": "PENDING"
+  },
+  {
+    "word": "without",
+    "definition": "not having; with none of",
+    "blanked": "He went to school ______ his lunch box.",
+    "options": [
+      "feast",
+      "around",
+      "peach",
+      "without"
+    ],
+    "correctAnswer": "without",
+    "status": "PENDING"
+  },
+  {
+    "word": "throughout",
+    "definition": "in every part of",
+    "blanked": "Flowers grew ______ the whole garden.",
+    "options": [
+      "droplet",
+      "squeeze",
+      "throughout",
+      "vanish"
+    ],
+    "correctAnswer": "throughout",
+    "status": "PENDING"
+  },
+  {
+    "word": "upon",
+    "definition": "on top of (used in stories)",
+    "blanked": "Once ______ a time, there was a little bear.",
+    "options": [
+      "upon",
+      "bridge",
+      "furious",
+      "splash"
+    ],
+    "correctAnswer": "upon",
+    "status": "PENDING"
+  },
+  {
+    "word": "pick up",
+    "definition": "to lift something from the ground",
+    "blanked": "Please ______ your toys from the floor.",
+    "options": [
+      "enough",
+      "village",
+      "dragon",
+      "pick up"
+    ],
+    "correctAnswer": "pick up",
+    "status": "PENDING"
+  },
+  {
+    "word": "put down",
+    "definition": "to set something on a table or the floor",
+    "blanked": "She ______ the heavy bag on the table.",
+    "options": [
+      "put down",
+      "crunchy",
+      "whisker",
+      "juicy"
+    ],
+    "correctAnswer": "put down",
+    "status": "PENDING"
+  },
+  {
+    "word": "look at",
+    "definition": "to turn your eyes toward something",
+    "blanked": "Come ______ this funny picture!",
+    "options": [
+      "plain",
+      "perfect",
+      "look at",
+      "plenty"
+    ],
+    "correctAnswer": "look at",
+    "status": "PENDING"
+  },
+  {
+    "word": "come back",
+    "status": "SKIP",
+    "reason": "word not in example"
+  },
+  {
+    "word": "sit down",
+    "definition": "to put your bottom on a chair",
+    "blanked": "Please ______, so the movie can start.",
+    "options": [
+      "dock",
+      "sit down",
+      "float",
+      "wobble"
+    ],
+    "correctAnswer": "sit down",
+    "status": "PENDING"
+  },
+  {
+    "word": "stand up",
+    "definition": "to get on your feet",
+    "blanked": "Everyone ______ when the teacher walks in.",
+    "options": [
+      "kitten",
+      "leash",
+      "fog",
+      "stand up"
+    ],
+    "correctAnswer": "stand up",
+    "status": "PENDING"
+  },
+  {
+    "word": "wake up",
+    "definition": "to stop sleeping",
+    "blanked": "I ______ every morning when the sun comes in my window.",
+    "options": [
+      "ripple",
+      "nibble",
+      "wake up",
+      "goose"
+    ],
+    "correctAnswer": "wake up",
+    "status": "PENDING"
+  },
+  {
+    "word": "give up",
+    "definition": "to stop trying",
+    "blanked": "Don't ______! You can do it if you keep trying.",
+    "options": [
+      "pond",
+      "grateful",
+      "give up",
+      "shelf"
+    ],
+    "correctAnswer": "give up",
+    "status": "PENDING"
+  },
+  {
+    "word": "find out",
+    "definition": "to learn or discover",
+    "blanked": "I want to ______ what is in that box!",
+    "options": [
+      "together",
+      "find out",
+      "hem",
+      "cereal"
+    ],
+    "correctAnswer": "find out",
+    "status": "PENDING"
+  },
+  {
+    "word": "turn off",
+    "definition": "to make something stop working",
+    "blanked": "Please ______ the light before you sleep.",
+    "options": [
+      "turn off",
+      "spine",
+      "pajamas",
+      "burrow"
+    ],
+    "correctAnswer": "turn off",
+    "status": "PENDING"
+  },
+  {
+    "word": "turn on",
+    "definition": "to make something start working",
+    "blanked": "Can you ______ the TV? My show is starting.",
+    "options": [
+      "freeze",
+      "princess",
+      "turn on",
+      "frost"
+    ],
+    "correctAnswer": "turn on",
+    "status": "PENDING"
+  },
+  {
+    "word": "fall down",
+    "definition": "to drop to the ground",
+    "blanked": "The baby learned to walk but would ______ sometimes.",
+    "options": [
+      "mistake",
+      "fancy",
+      "fall down",
+      "figure out"
+    ],
+    "correctAnswer": "fall down",
+    "status": "PENDING"
+  },
+  {
+    "word": "get up",
+    "definition": "to rise from bed or the floor",
+    "blanked": "It is time to ______ and get ready for school.",
+    "options": [
+      "instead",
+      "tight",
+      "giggle",
+      "get up"
+    ],
+    "correctAnswer": "get up",
+    "status": "PENDING"
+  },
+  {
+    "word": "look out",
+    "definition": "to be careful of danger",
+    "blanked": "______! There is a car coming!",
+    "options": [
+      "once",
+      "look out",
+      "match",
+      "desert"
+    ],
+    "correctAnswer": "look out",
+    "status": "PENDING"
+  },
+  {
+    "word": "hold on",
+    "definition": "to grip something tightly so you do not fall",
+    "blanked": "______ tight, so you don't fall off the swing.",
+    "options": [
+      "vest",
+      "hold on",
+      "smooth",
+      "double"
+    ],
+    "correctAnswer": "hold on",
+    "status": "PENDING"
+  },
+  {
+    "word": "clean up",
+    "definition": "to make a place neat and tidy",
+    "blanked": "Let's ______ the mess before Mom gets home.",
+    "options": [
+      "pinecone",
+      "snore",
+      "clean up",
+      "sticky"
+    ],
+    "correctAnswer": "clean up",
+    "status": "PENDING"
+  },
+  {
+    "word": "hurry up",
+    "definition": "to go faster",
+    "blanked": "______! The bus is about to leave!",
+    "options": [
+      "tower",
+      "title",
+      "match",
+      "hurry up"
+    ],
+    "correctAnswer": "hurry up",
+    "status": "PENDING"
+  },
+  {
+    "word": "calm down",
+    "definition": "to become less upset",
+    "blanked": "Take a deep breath and ______.",
+    "options": [
+      "calm down",
+      "imagine",
+      "exactly",
+      "collect"
+    ],
+    "correctAnswer": "calm down",
+    "status": "PENDING"
+  },
+  {
+    "word": "try on",
+    "definition": "to put clothes on to see if they fit",
+    "blanked": "She wanted to ______ the new shoes before buying them.",
+    "options": [
+      "jealous",
+      "try on",
+      "middle",
+      "beautiful"
+    ],
+    "correctAnswer": "try on",
+    "status": "PENDING"
+  },
+  {
+    "word": "throw away",
+    "definition": "to put in the trash",
+    "blanked": "Please ______ the empty wrapper.",
+    "options": [
+      "lonely",
+      "among",
+      "throw away",
+      "fairy"
+    ],
+    "correctAnswer": "throw away",
+    "status": "PENDING"
+  },
+  {
+    "word": "run out",
+    "definition": "to have none left",
+    "blanked": "We always ______ of milk before the weekend.",
+    "options": [
+      "than",
+      "pile",
+      "bridge",
+      "run out"
+    ],
+    "correctAnswer": "run out",
+    "status": "PENDING"
+  },
+  {
+    "word": "come in",
+    "definition": "to enter a room or building",
+    "blanked": "______! It is too cold to stand outside.",
+    "options": [
+      "glue",
+      "come in",
+      "feast",
+      "boot"
+    ],
+    "correctAnswer": "come in",
+    "status": "PENDING"
+  },
+  {
+    "word": "go away",
+    "definition": "to leave, to move far from here",
+    "blanked": "The dark clouds will ______, and the sun will come out.",
+    "options": [
+      "go away",
+      "celery",
+      "sudden",
+      "boot"
+    ],
+    "correctAnswer": "go away",
+    "status": "PENDING"
+  },
+  {
+    "word": "show off",
+    "definition": "to try to impress people",
+    "blanked": "He liked to ______ by doing tricks on his bike.",
+    "options": [
+      "remind",
+      "mistake",
+      "throat",
+      "show off"
+    ],
+    "correctAnswer": "show off",
+    "status": "PENDING"
+  },
+  {
+    "word": "figure out",
+    "definition": "to think hard until you find the answer",
+    "blanked": "She tried to ______ the answer to the riddle.",
+    "options": [
+      "figure out",
+      "terrible",
+      "waffle",
+      "chase"
+    ],
+    "correctAnswer": "figure out",
+    "status": "PENDING"
+  },
+  {
+    "word": "excited",
+    "definition": "so happy you can barely wait",
+    "blanked": "He was ______ about going to the zoo tomorrow.",
+    "options": [
+      "ladder",
+      "peel",
+      "mayor",
+      "excited"
+    ],
+    "correctAnswer": "excited",
+    "status": "PENDING"
+  },
+  {
+    "word": "nervous",
+    "definition": "feeling shaky inside because something new or scary is about to happen",
+    "blanked": "He felt ______ before his first day of school.",
+    "options": [
+      "nervous",
+      "monster",
+      "stale",
+      "quarter"
+    ],
+    "correctAnswer": "nervous",
+    "status": "PENDING"
+  },
+  {
+    "word": "frightened",
+    "definition": "so scared you want to run away",
+    "blanked": "The ______ rabbit ran when it heard the loud noise.",
+    "options": [
+      "sleeve",
+      "thunder",
+      "come in",
+      "frightened"
+    ],
+    "correctAnswer": "frightened",
+    "status": "PENDING"
+  },
+  {
+    "word": "surprised",
+    "definition": "feeling shock because something you did not expect just happened",
+    "blanked": "She was ______ to find a gift on her desk.",
+    "options": [
+      "surprised",
+      "thumb",
+      "twist",
+      "peek"
+    ],
+    "correctAnswer": "surprised",
+    "status": "PENDING"
+  },
+  {
+    "word": "confused",
+    "definition": "not sure what is going on",
+    "blanked": "He was ______ because the directions made no sense.",
+    "options": [
+      "salty",
+      "shiny",
+      "hem",
+      "confused"
+    ],
+    "correctAnswer": "confused",
+    "status": "PENDING"
+  },
+  {
+    "word": "disappointed",
+    "definition": "sad because something did not happen the way you wanted",
+    "blanked": "She was ______ when the trip was canceled.",
+    "options": [
+      "whisker",
+      "after",
+      "chalk",
+      "disappointed"
+    ],
+    "correctAnswer": "disappointed",
+    "status": "PENDING"
+  },
+  {
+    "word": "frustrated",
+    "definition": "angry because you cannot do something",
+    "blanked": "He got ______ when the puzzle piece would not fit.",
+    "options": [
+      "wrist",
+      "rough",
+      "worm",
+      "frustrated"
+    ],
+    "correctAnswer": "frustrated",
+    "status": "PENDING"
+  },
+  {
+    "word": "jealous",
+    "definition": "wanting what someone else has",
+    "blanked": "She was ______ of her friend's new bike.",
+    "options": [
+      "poem",
+      "snore",
+      "jealous",
+      "match"
+    ],
+    "correctAnswer": "jealous",
+    "status": "PENDING"
+  },
+  {
+    "word": "embarrassed",
+    "definition": "feeling bad because others saw you do something wrong or clumsy",
+    "blanked": "He was ______ when he tripped in front of everyone.",
+    "options": [
+      "embarrassed",
+      "borrow",
+      "peanut",
+      "pillow"
+    ],
+    "correctAnswer": "embarrassed",
+    "status": "PENDING"
+  },
+  {
+    "word": "worried",
+    "definition": "thinking bad things might happen",
+    "blanked": "He was ______ his lost cat would not come home.",
+    "options": [
+      "worried",
+      "search",
+      "rough",
+      "create"
+    ],
+    "correctAnswer": "worried",
+    "status": "PENDING"
+  },
+  {
+    "word": "grateful",
+    "definition": "glad and thankful for what you got",
+    "blanked": "She was ______ her friend helped her carry the books.",
+    "options": [
+      "grateful",
+      "dolphin",
+      "ripple",
+      "weigh"
+    ],
+    "correctAnswer": "grateful",
+    "status": "PENDING"
+  },
+  {
+    "word": "annoyed",
+    "definition": "a little angry or irritated",
+    "blanked": "He was ______ that his sister kept poking him.",
+    "options": [
+      "chin",
+      "peach",
+      "annoyed",
+      "greedy"
+    ],
+    "correctAnswer": "annoyed",
+    "status": "PENDING"
+  },
+  {
+    "word": "bored",
+    "definition": "not interested, nothing to do",
+    "blanked": "On rainy days with nothing to do, she felt ______.",
+    "options": [
+      "proud",
+      "terrified",
+      "bored",
+      "hail"
+    ],
+    "correctAnswer": "bored",
+    "status": "PENDING"
+  },
+  {
+    "word": "amazed",
+    "definition": "so surprised in a good way",
+    "blanked": "She was ______ by the magic trick.",
+    "options": [
+      "shark",
+      "whisper",
+      "mayor",
+      "amazed"
+    ],
+    "correctAnswer": "amazed",
+    "status": "PENDING"
+  },
+  {
+    "word": "terrified",
+    "definition": "so scared you cannot move or think",
+    "blanked": "He was ______ of the thunder during the storm.",
+    "options": [
+      "hen",
+      "puppy",
+      "ruler",
+      "terrified"
+    ],
+    "correctAnswer": "terrified",
+    "status": "PENDING"
+  },
+  {
+    "word": "furious",
+    "definition": "so mad you want to yell",
+    "blanked": "He was ______ when someone broke his favorite toy.",
+    "options": [
+      "echo",
+      "furious",
+      "bark",
+      "moss"
+    ],
+    "correctAnswer": "furious",
+    "status": "PENDING"
+  },
+  {
+    "word": "miserable",
+    "definition": "very unhappy and feeling bad",
+    "blanked": "He felt ______ with a cold and a sore throat.",
+    "options": [
+      "miserable",
+      "character",
+      "treat",
+      "swan"
+    ],
+    "correctAnswer": "miserable",
+    "status": "PENDING"
+  },
+  {
+    "word": "relieved",
+    "definition": "happy that something bad did not happen",
+    "blanked": "She was ______ to find her lost homework in her bag.",
+    "options": [
+      "relieved",
+      "before",
+      "figure out",
+      "during"
+    ],
+    "correctAnswer": "relieved",
+    "status": "PENDING"
+  },
+  {
+    "word": "peaceful",
+    "definition": "feeling safe and happy, with nothing to worry about",
+    "blanked": "The sleeping baby looked so ______.",
+    "options": [
+      "flame",
+      "peaceful",
+      "knight",
+      "stranger"
+    ],
+    "correctAnswer": "peaceful",
+    "status": "PENDING"
+  },
+  {
+    "word": "comfortable",
+    "definition": "feeling good, not in pain",
+    "blanked": "The big soft chair was very ______.",
+    "options": [
+      "almost",
+      "parade",
+      "comfortable",
+      "greedy"
+    ],
+    "correctAnswer": "comfortable",
+    "status": "PENDING"
+  },
+  {
+    "word": "uncomfortable",
+    "definition": "not feeling good in your body",
+    "blanked": "The hard bench was ______ to sit on.",
+    "options": [
+      "sandwich",
+      "popcorn",
+      "uncomfortable",
+      "goose"
+    ],
+    "correctAnswer": "uncomfortable",
+    "status": "PENDING"
+  },
+  {
+    "word": "exhausted",
+    "definition": "so tired you can barely move",
+    "blanked": "After running all day, she was ______.",
+    "options": [
+      "exhausted",
+      "greedy",
+      "broom",
+      "snuggle"
+    ],
+    "correctAnswer": "exhausted",
+    "status": "PENDING"
+  },
+  {
+    "word": "delighted",
+    "definition": "so happy you want to jump up and down",
+    "blanked": "She was ______ when she saw the surprise party.",
+    "options": [
+      "fall down",
+      "middle",
+      "chin",
+      "delighted"
+    ],
+    "correctAnswer": "delighted",
+    "status": "PENDING"
+  },
+  {
+    "word": "gloomy",
+    "definition": "dark and sad feeling",
+    "blanked": "The rainy day made everyone feel ______.",
+    "options": [
+      "march",
+      "dash",
+      "search",
+      "gloomy"
+    ],
+    "correctAnswer": "gloomy",
+    "status": "PENDING"
+  },
+  {
+    "word": "hopeful",
+    "definition": "feeling like good things will happen",
+    "blanked": "He was ______ that tomorrow would be a sunny day.",
+    "options": [
+      "hopeful",
+      "eyebrow",
+      "flood",
+      "crayon"
+    ],
+    "correctAnswer": "hopeful",
+    "status": "PENDING"
+  },
+  {
+    "word": "cranky",
+    "definition": "whiny and fussy, often from being tired or hungry",
+    "blanked": "Babies get ______ when they are tired and hungry.",
+    "options": [
+      "icicle",
+      "sour",
+      "cranky",
+      "search"
+    ],
+    "correctAnswer": "cranky",
+    "status": "PENDING"
+  },
+  {
+    "word": "content",
+    "definition": "happy with what you have",
+    "blanked": "The cat looked ______ sleeping in the warm sun.",
+    "options": [
+      "slipper",
+      "sprinkle",
+      "gather",
+      "content"
+    ],
+    "correctAnswer": "content",
+    "status": "PENDING"
+  },
+  {
+    "word": "eager",
+    "definition": "really wanting to do something",
+    "blanked": "The ______ puppy waited by the door for its walk.",
+    "options": [
+      "eager",
+      "frightened",
+      "tiptoe",
+      "measure"
+    ],
+    "correctAnswer": "eager",
+    "status": "PENDING"
+  },
+  {
+    "word": "homesick",
+    "definition": "missing your home when you are away",
+    "blanked": "At camp, she felt ______ and missed her family.",
+    "options": [
+      "puppy",
+      "cheek",
+      "sudden",
+      "homesick"
+    ],
+    "correctAnswer": "homesick",
+    "status": "PENDING"
+  },
+  {
+    "word": "ashamed",
+    "definition": "feeling bad about something you did wrong",
+    "blanked": "He was ______ that he lied to his mom.",
+    "options": [
+      "robin",
+      "promise",
+      "sleeve",
+      "ashamed"
+    ],
+    "correctAnswer": "ashamed",
+    "status": "PENDING"
+  },
+  {
+    "word": "before",
+    "definition": "earlier in time; at a point in the past",
+    "blanked": "Wash your hands ______ you eat dinner.",
+    "options": [
+      "whether",
+      "before",
+      "rotten",
+      "rib"
+    ],
+    "correctAnswer": "before",
+    "status": "PENDING"
+  },
+  {
+    "word": "after",
+    "definition": "following in time; coming behind",
+    "blanked": "We will have cake ______ we sing happy birthday.",
+    "options": [
+      "loudly",
+      "match",
+      "after",
+      "shelf"
+    ],
+    "correctAnswer": "after",
+    "status": "PENDING"
+  },
+  {
+    "word": "next",
+    "definition": "coming right after this one",
+    "blanked": "The ______ day, we went to the zoo.",
+    "options": [
+      "sharp",
+      "next",
+      "crunchy",
+      "mitten"
+    ],
+    "correctAnswer": "next",
+    "status": "PENDING"
+  },
+  {
+    "word": "then",
+    "definition": "after that; next in time",
+    "blanked": "First she put on her shoes, ______ she went outside.",
+    "options": [
+      "generous",
+      "noon",
+      "dozen",
+      "then"
+    ],
+    "correctAnswer": "then",
+    "status": "PENDING"
+  },
+  {
+    "word": "finally",
+    "definition": "at last, after a long wait",
+    "blanked": "After trying many times, she ______ did it!",
+    "options": [
+      "finally",
+      "cub",
+      "perhaps",
+      "weigh"
+    ],
+    "correctAnswer": "finally",
+    "status": "PENDING"
+  },
+  {
+    "word": "meanwhile",
+    "definition": "at the same time, but in a different place or situation",
+    "blanked": "He was at school. ______, his dad baked a cake at home.",
+    "options": [
+      "meanwhile",
+      "thin",
+      "scarf",
+      "tug"
+    ],
+    "correctAnswer": "meanwhile",
+    "status": "PENDING"
+  },
+  {
+    "word": "soon",
+    "definition": "in a short time from now",
+    "blanked": "The bus will be here ______.",
+    "options": [
+      "soon",
+      "castle",
+      "gigantic",
+      "against"
+    ],
+    "correctAnswer": "soon",
+    "status": "PENDING"
+  },
+  {
+    "word": "later",
+    "definition": "after some time passes",
+    "blanked": "I will clean my room ______.",
+    "options": [
+      "later",
+      "whale",
+      "gloomy",
+      "gentle"
+    ],
+    "correctAnswer": "later",
+    "status": "PENDING"
+  },
+  {
+    "word": "early",
+    "definition": "sooner than the set time",
+    "blanked": "She woke up ______ to watch the sunrise.",
+    "options": [
+      "early",
+      "whether",
+      "frustrated",
+      "jealous"
+    ],
+    "correctAnswer": "early",
+    "status": "PENDING"
+  },
+  {
+    "word": "late",
+    "definition": "past the time it should be",
+    "blanked": "He was ______ for school because he overslept.",
+    "options": [
+      "crunchy",
+      "cheerful",
+      "uniform",
+      "late"
+    ],
+    "correctAnswer": "late",
+    "status": "PENDING"
+  },
+  {
+    "word": "beginning",
+    "definition": "the start of something",
+    "blanked": "At the ______ of the story, a boy found a map.",
+    "options": [
+      "stubborn",
+      "quietly",
+      "terrible",
+      "beginning"
+    ],
+    "correctAnswer": "beginning",
+    "status": "PENDING"
+  },
+  {
+    "word": "middle",
+    "definition": "the center part, not start or end",
+    "blanked": "In the ______ of the night, she heard a noise.",
+    "options": [
+      "middle",
+      "whisker",
+      "howl",
+      "fluffy"
+    ],
+    "correctAnswer": "middle",
+    "status": "PENDING"
+  },
+  {
+    "word": "ending",
+    "definition": "the last part of something",
+    "blanked": "The ______ of the movie made everyone cry.",
+    "options": [
+      "slowly",
+      "ending",
+      "gentle",
+      "silent"
+    ],
+    "correctAnswer": "ending",
+    "status": "PENDING"
+  },
+  {
+    "word": "moment",
+    "definition": "a very short bit of time",
+    "blanked": "Wait just a ______ while I tie my shoe.",
+    "options": [
+      "bark",
+      "total",
+      "collar",
+      "moment"
+    ],
+    "correctAnswer": "moment",
+    "status": "PENDING"
+  },
+  {
+    "word": "sudden",
+    "definition": "with no sign it was coming",
+    "blanked": "There was a ______ crash of thunder.",
+    "options": [
+      "uniform",
+      "soon",
+      "sudden",
+      "apart"
+    ],
+    "correctAnswer": "sudden",
+    "status": "PENDING"
+  },
+  {
+    "word": "recent",
+    "definition": "just a short time ago",
+    "blanked": "In her ______ painting, she drew a rainbow.",
+    "options": [
+      "beautiful",
+      "desert",
+      "recent",
+      "above"
+    ],
+    "correctAnswer": "recent",
+    "status": "PENDING"
+  },
+  {
+    "word": "daily",
+    "definition": "happening every day",
+    "blanked": "Brushing your teeth is a ______ habit.",
+    "options": [
+      "daily",
+      "lonely",
+      "rooster",
+      "hem"
+    ],
+    "correctAnswer": "daily",
+    "status": "PENDING"
+  },
+  {
+    "word": "weekly",
+    "definition": "happening once a week",
+    "blanked": "They had a ______ trip to the library.",
+    "options": [
+      "vine",
+      "cliff",
+      "weekly",
+      "imagine"
+    ],
+    "correctAnswer": "weekly",
+    "status": "PENDING"
+  },
+  {
+    "word": "whenever",
+    "definition": "every time that",
+    "blanked": "______ it rains, the frogs come out.",
+    "options": [
+      "whenever",
+      "pinecone",
+      "beyond",
+      "desert"
+    ],
+    "correctAnswer": "whenever",
+    "status": "PENDING"
+  },
+  {
+    "word": "once",
+    "definition": "one time only",
+    "blanked": "He visited the ocean ______ and never forgot it.",
+    "options": [
+      "once",
+      "wobble",
+      "heel",
+      "wave"
+    ],
+    "correctAnswer": "once",
+    "status": "PENDING"
+  },
+  {
+    "word": "twice",
+    "definition": "two times; done again",
+    "blanked": "He knocked on the door ______.",
+    "options": [
+      "twice",
+      "hen",
+      "dozen",
+      "cereal"
+    ],
+    "correctAnswer": "twice",
+    "status": "PENDING"
+  },
+  {
+    "word": "often",
+    "definition": "many times, again and again",
+    "blanked": "She ______ read books before bed.",
+    "options": [
+      "wonderful",
+      "comfortable",
+      "coach",
+      "often"
+    ],
+    "correctAnswer": "often",
+    "status": "PENDING"
+  },
+  {
+    "word": "nowadays",
+    "definition": "in the time we live in now",
+    "blanked": "______, most kids use computers at school.",
+    "options": [
+      "clap",
+      "steep",
+      "nowadays",
+      "dawn"
+    ],
+    "correctAnswer": "nowadays",
+    "status": "PENDING"
+  },
+  {
+    "word": "dozen",
+    "definition": "twelve of something",
+    "blanked": "Mom bought a ______ eggs at the store.",
+    "options": [
+      "bend",
+      "dozen",
+      "ash",
+      "frame"
+    ],
+    "correctAnswer": "dozen",
+    "status": "PENDING"
+  },
+  {
+    "word": "half",
+    "definition": "one of two equal pieces when you cut something down the middle",
+    "blanked": "She ate ______ the sandwich and saved the rest.",
+    "options": [
+      "half",
+      "thin",
+      "nibble",
+      "sleeve"
+    ],
+    "correctAnswer": "half",
+    "status": "PENDING"
+  },
+  {
+    "word": "pair",
+    "definition": "two things that go together",
+    "blanked": "He bought a new ______ of shoes.",
+    "options": [
+      "pair",
+      "swan",
+      "discover",
+      "blanket"
+    ],
+    "correctAnswer": "pair",
+    "status": "PENDING"
+  },
+  {
+    "word": "entire",
+    "definition": "all something from start to finish",
+    "blanked": "She read the ______ book in one afternoon.",
+    "options": [
+      "entire",
+      "crowd",
+      "around",
+      "stubborn"
+    ],
+    "correctAnswer": "entire",
+    "status": "PENDING"
+  },
+  {
+    "word": "double",
+    "definition": "two of something; twice as much",
+    "blanked": "She asked for a ______ scoop of ice cream.",
+    "options": [
+      "double",
+      "treat",
+      "waffle",
+      "discover"
+    ],
+    "correctAnswer": "double",
+    "status": "PENDING"
+  },
+  {
+    "word": "single",
+    "definition": "only one; just one",
+    "blanked": "There was a ______ flower growing in the crack.",
+    "options": [
+      "grateful",
+      "tunnel",
+      "single",
+      "vase"
+    ],
+    "correctAnswer": "single",
+    "status": "PENDING"
+  },
+  {
+    "word": "plenty",
+    "definition": "more than enough",
+    "blanked": "There is ______ of food for everyone.",
+    "options": [
+      "plenty",
+      "unwrap",
+      "fluffy",
+      "tiptoe"
+    ],
+    "correctAnswer": "plenty",
+    "status": "PENDING"
+  },
+  {
+    "word": "several",
+    "definition": "more than two but not a lot",
+    "blanked": "She read ______ books over the weekend.",
+    "options": [
+      "several",
+      "among",
+      "sword",
+      "run out"
+    ],
+    "correctAnswer": "several",
+    "status": "PENDING"
+  },
+  {
+    "word": "few",
+    "definition": "not many; a small number of",
+    "blanked": "Only a ______ kids came to school on the snowy day.",
+    "options": [
+      "yogurt",
+      "few",
+      "bridge",
+      "instead"
+    ],
+    "correctAnswer": "few",
+    "status": "PENDING"
+  },
+  {
+    "word": "many",
+    "definition": "a large number of people or things",
+    "blanked": "There were ______ stars in the sky that night.",
+    "options": [
+      "many",
+      "drip",
+      "duckling",
+      "empty"
+    ],
+    "correctAnswer": "many",
+    "status": "PENDING"
+  },
+  {
+    "word": "none",
+    "definition": "not any, zero",
+    "blanked": "He looked in the cookie jar, but ______ were left.",
+    "options": [
+      "single",
+      "burrow",
+      "shark",
+      "none"
+    ],
+    "correctAnswer": "none",
+    "status": "PENDING"
+  },
+  {
+    "word": "bunch",
+    "definition": "a group of things together",
+    "blanked": "He picked a ______ of flowers for his mom.",
+    "options": [
+      "bunch",
+      "frost",
+      "bucket",
+      "beyond"
+    ],
+    "correctAnswer": "bunch",
+    "status": "PENDING"
+  },
+  {
+    "word": "pile",
+    "definition": "a lot of things on top of each other",
+    "blanked": "There was a ______ of leaves in the yard.",
+    "options": [
+      "dozen",
+      "peel",
+      "hang",
+      "pile"
+    ],
+    "correctAnswer": "pile",
+    "status": "PENDING"
+  },
+  {
+    "word": "heap",
+    "definition": "a big messy group of things thrown together",
+    "blanked": "His dirty clothes made a ______ on the floor.",
+    "options": [
+      "cereal",
+      "spill",
+      "boot",
+      "heap"
+    ],
+    "correctAnswer": "heap",
+    "status": "PENDING"
+  },
+  {
+    "word": "piece",
+    "definition": "one part broken or taken from something bigger",
+    "blanked": "Can I have one ______ of cake, please?",
+    "options": [
+      "thorn",
+      "chalk",
+      "dull",
+      "piece"
+    ],
+    "correctAnswer": "piece",
+    "status": "PENDING"
+  },
+  {
+    "word": "portion",
+    "definition": "the amount of food for one person",
+    "blanked": "Each child got an equal ______ of the pie.",
+    "options": [
+      "portion",
+      "curious",
+      "snack",
+      "plum"
+    ],
+    "correctAnswer": "portion",
+    "status": "PENDING"
+  },
+  {
+    "word": "amount",
+    "definition": "how much of something there is",
+    "blanked": "A small ______ of sugar makes the tea sweet.",
+    "options": [
+      "find out",
+      "embarrassed",
+      "yawn",
+      "amount"
+    ],
+    "correctAnswer": "amount",
+    "status": "PENDING"
+  },
+  {
+    "word": "total",
+    "definition": "all things added together",
+    "blanked": "The ______ number of students in class is twenty.",
+    "options": [
+      "battery",
+      "half",
+      "total",
+      "stir"
+    ],
+    "correctAnswer": "total",
+    "status": "PENDING"
+  },
+  {
+    "word": "extra",
+    "definition": "more than what is needed",
+    "blanked": "She packed an ______ sandwich in case her friend forgot lunch.",
+    "options": [
+      "ladybug",
+      "cabin",
+      "extra",
+      "chapter"
+    ],
+    "correctAnswer": "extra",
+    "status": "PENDING"
+  },
+  {
+    "word": "enough",
+    "definition": "as much as you need",
+    "blanked": "Do we have ______ chairs for everyone?",
+    "options": [
+      "princess",
+      "enough",
+      "ugly",
+      "disappointed"
+    ],
+    "correctAnswer": "enough",
+    "status": "PENDING"
+  },
+  {
+    "word": "less",
+    "definition": "a smaller amount of something",
+    "blanked": "She used ______ sugar in her tea today.",
+    "options": [
+      "discover",
+      "march",
+      "less",
+      "twist"
+    ],
+    "correctAnswer": "less",
+    "status": "PENDING"
+  },
+  {
+    "word": "more",
+    "definition": "a bigger amount of something",
+    "blanked": "Can I have ______ juice, please?",
+    "options": [
+      "owl",
+      "clap",
+      "claw",
+      "more"
+    ],
+    "correctAnswer": "more",
+    "status": "PENDING"
+  },
+  {
+    "word": "quarter",
+    "definition": "one of four equal pieces when you cut something into four parts",
+    "blanked": "She ate a ______ of the pizza and saved the rest.",
+    "options": [
+      "quarter",
+      "fist",
+      "stomp",
+      "thumb"
+    ],
+    "correctAnswer": "quarter",
+    "status": "PENDING"
+  },
+  {
+    "word": "equal",
+    "definition": "the same size or amount",
+    "blanked": "Make sure both pieces are ______.",
+    "options": [
+      "equal",
+      "lonely",
+      "shark",
+      "barn"
+    ],
+    "correctAnswer": "equal",
+    "status": "PENDING"
+  },
+  {
+    "word": "average",
+    "definition": "not too much, not too little, in the middle",
+    "blanked": "It was an ______ day with nothing special happening.",
+    "options": [
+      "hen",
+      "content",
+      "average",
+      "robin"
+    ],
+    "correctAnswer": "average",
+    "status": "PENDING"
+  },
+  {
+    "word": "shadow",
+    "definition": "a dark shape made when something blocks light",
+    "blanked": "His ______ was very long in the afternoon sun.",
+    "options": [
+      "sprinkle",
+      "shadow",
+      "wonder",
+      "delighted"
+    ],
+    "correctAnswer": "shadow",
+    "status": "PENDING"
+  },
+  {
+    "word": "echo",
+    "definition": "a sound that bounces back to you",
+    "blanked": "He shouted in the cave and heard his ______ come back.",
+    "options": [
+      "below",
+      "hold on",
+      "tale",
+      "echo"
+    ],
+    "correctAnswer": "echo",
+    "status": "PENDING"
+  },
+  {
+    "word": "secret",
+    "definition": "something known by only a few people and not told to others",
+    "blanked": "She whispered a ______ into her friend's ear.",
+    "options": [
+      "through",
+      "silent",
+      "ripple",
+      "secret"
+    ],
+    "correctAnswer": "secret",
+    "status": "PENDING"
+  },
+  {
+    "word": "surprise",
+    "definition": "a thing or event nobody knew was coming",
+    "blanked": "The birthday party was a big ______!",
+    "options": [
+      "wobble",
+      "pinecone",
+      "collar",
+      "surprise"
+    ],
+    "correctAnswer": "surprise",
+    "status": "PENDING"
+  },
+  {
+    "word": "mistake",
+    "definition": "something you did wrong",
+    "blanked": "Everyone makes a ______ sometimes.",
+    "options": [
+      "heel",
+      "mistake",
+      "splash",
+      "delighted"
+    ],
+    "correctAnswer": "mistake",
+    "status": "PENDING"
+  },
+  {
+    "word": "adventure",
+    "definition": "an exciting trip where fun things happen",
+    "blanked": "Going into the dark cave was a real ______.",
+    "options": [
+      "swan",
+      "damp",
+      "adventure",
+      "pajamas"
+    ],
+    "correctAnswer": "adventure",
+    "status": "PENDING"
+  },
+  {
+    "word": "treasure",
+    "definition": "something worth a lot, like gold or gems",
+    "blanked": "The pirates buried the ______ on the island.",
+    "options": [
+      "soap",
+      "treasure",
+      "hem",
+      "switch"
+    ],
+    "correctAnswer": "treasure",
+    "status": "PENDING"
+  },
+  {
+    "word": "journey",
+    "definition": "a long trip from one place to another",
+    "blanked": "The ______ to grandma's house took three hours.",
+    "options": [
+      "fuzzy",
+      "wizard",
+      "journey",
+      "vine"
+    ],
+    "correctAnswer": "journey",
+    "status": "PENDING"
+  },
+  {
+    "word": "village",
+    "definition": "a very small town",
+    "blanked": "The tiny ______ had only ten houses.",
+    "options": [
+      "muffin",
+      "skunk",
+      "village",
+      "popcorn"
+    ],
+    "correctAnswer": "village",
+    "status": "PENDING"
+  },
+  {
+    "word": "dock",
+    "definition": "a platform where boats are tied up",
+    "blanked": "They walked along the ______ and looked at the boats.",
+    "options": [
+      "few",
+      "dock",
+      "ladybug",
+      "cub"
+    ],
+    "correctAnswer": "dock",
+    "status": "PENDING"
+  },
+  {
+    "word": "crowd",
+    "definition": "a large group of people",
+    "blanked": "A big ______ gathered to watch the parade.",
+    "options": [
+      "wrist",
+      "cereal",
+      "crowd",
+      "bloom"
+    ],
+    "correctAnswer": "crowd",
+    "status": "PENDING"
+  },
+  {
+    "word": "trail",
+    "definition": "a path through the woods",
+    "blanked": "They followed the ______ deep into the forest.",
+    "options": [
+      "trail",
+      "muffin",
+      "smooth",
+      "moss"
+    ],
+    "correctAnswer": "trail",
+    "status": "PENDING"
+  },
+  {
+    "word": "footprint",
+    "definition": "the mark your foot makes",
+    "blanked": "She saw a ______ in the snow and followed it.",
+    "options": [
+      "acorn",
+      "village",
+      "footprint",
+      "moose"
+    ],
+    "correctAnswer": "footprint",
+    "status": "PENDING"
+  },
+  {
+    "word": "pattern",
+    "definition": "a design that repeats",
+    "blanked": "The zebra has a black and white stripe ______.",
+    "options": [
+      "pattern",
+      "cheek",
+      "stretch",
+      "worried"
+    ],
+    "correctAnswer": "pattern",
+    "status": "PENDING"
+  },
+  {
+    "word": "riddle",
+    "definition": "a tricky question for fun",
+    "blanked": "Can you solve this ______?",
+    "options": [
+      "butterfly",
+      "pond",
+      "measure",
+      "riddle"
+    ],
+    "correctAnswer": "riddle",
+    "status": "PENDING"
+  },
+  {
+    "word": "poem",
+    "definition": "words that sound nice together",
+    "blanked": "She wrote a ______ about her cat.",
+    "options": [
+      "poem",
+      "yogurt",
+      "puppy",
+      "bunny"
+    ],
+    "correctAnswer": "poem",
+    "status": "PENDING"
+  },
+  {
+    "word": "tale",
+    "definition": "a story, often made up or told aloud",
+    "blanked": "Grandpa told us a ______ about a magic fish.",
+    "options": [
+      "pony",
+      "sandwich",
+      "frog",
+      "tale"
+    ],
+    "correctAnswer": "tale",
+    "status": "PENDING"
+  },
+  {
+    "word": "legend",
+    "definition": "a very old story that may or may not be true",
+    "blanked": "The ______ says a dragon lived in that mountain.",
+    "options": [
+      "rough",
+      "steep",
+      "legend",
+      "deliver"
+    ],
+    "correctAnswer": "legend",
+    "status": "PENDING"
+  },
+  {
+    "word": "character",
+    "definition": "a person or animal in a story",
+    "blanked": "My favorite ______ in the book is the clever fox.",
+    "options": [
+      "character",
+      "flutter",
+      "before",
+      "cupcake"
+    ],
+    "correctAnswer": "character",
+    "status": "PENDING"
+  },
+  {
+    "word": "chapter",
+    "definition": "one part of a book",
+    "blanked": "We read one ______ of the book every night.",
+    "options": [
+      "chapter",
+      "grab",
+      "icicle",
+      "vine"
+    ],
+    "correctAnswer": "chapter",
+    "status": "PENDING"
+  },
+  {
+    "word": "title",
+    "definition": "the name of a book or story",
+    "blanked": "The ______ of the book was printed in big letters.",
+    "options": [
+      "catch",
+      "plain",
+      "title",
+      "sparrow"
+    ],
+    "correctAnswer": "title",
+    "status": "PENDING"
+  },
+  {
+    "word": "author",
+    "definition": "the person who writes a book",
+    "blanked": "The ______ wrote my favorite story about dragons.",
+    "options": [
+      "hurry up",
+      "spine",
+      "blanket",
+      "author"
+    ],
+    "correctAnswer": "author",
+    "status": "PENDING"
+  },
+  {
+    "word": "paw",
+    "definition": "an animal's foot",
+    "blanked": "The dog lifted its ______ and shook my hand.",
+    "options": [
+      "sword",
+      "bunch",
+      "uncomfortable",
+      "paw"
+    ],
+    "correctAnswer": "paw",
+    "status": "PENDING"
+  },
+  {
+    "word": "claw",
+    "definition": "the sharp nail on an animal's foot",
+    "blanked": "The cat used its ______ to climb the tree.",
+    "options": [
+      "stomp",
+      "claw",
+      "fur",
+      "glue"
+    ],
+    "correctAnswer": "claw",
+    "status": "PENDING"
+  },
+  {
+    "word": "feather",
+    "definition": "the soft covering on a bird",
+    "blanked": "A blue ______ floated down from the sky.",
+    "options": [
+      "feather",
+      "gentle",
+      "jelly",
+      "snack"
+    ],
+    "correctAnswer": "feather",
+    "status": "PENDING"
+  },
+  {
+    "word": "fur",
+    "definition": "the soft hair on an animal",
+    "blanked": "The rabbit's ______ was as soft as a cloud.",
+    "options": [
+      "soap",
+      "fur",
+      "excited",
+      "zipper"
+    ],
+    "correctAnswer": "fur",
+    "status": "PENDING"
+  },
+  {
+    "word": "scale",
+    "definition": "one of the small hard flat pieces that cover a fish or snake's body",
+    "blanked": "Each shiny ______ on the fish glowed in the sunlight.",
+    "options": [
+      "scale",
+      "stare",
+      "dwarf",
+      "cottage"
+    ],
+    "correctAnswer": "scale",
+    "status": "PENDING"
+  },
+  {
+    "word": "wing",
+    "definition": "the body part a bird uses to fly",
+    "blanked": "The bird spread its ______ and took off.",
+    "options": [
+      "fluffy",
+      "since",
+      "sneaker",
+      "wing"
+    ],
+    "correctAnswer": "wing",
+    "status": "PENDING"
+  },
+  {
+    "word": "beak",
+    "definition": "the hard mouth part of a bird",
+    "blanked": "The bird used its ______ to crack the seed.",
+    "options": [
+      "beak",
+      "mitten",
+      "shield",
+      "wave"
+    ],
+    "correctAnswer": "beak",
+    "status": "PENDING"
+  },
+  {
+    "word": "nest",
+    "definition": "a bird's home made of sticks",
+    "blanked": "Three eggs sat in the ______ on the branch.",
+    "options": [
+      "nest",
+      "goose",
+      "mitten",
+      "beaver"
+    ],
+    "correctAnswer": "nest",
+    "status": "PENDING"
+  },
+  {
+    "word": "hive",
+    "definition": "where bees live and make honey",
+    "blanked": "Hundreds of bees buzzed around the ______.",
+    "options": [
+      "hive",
+      "sticky",
+      "costume",
+      "syrup"
+    ],
+    "correctAnswer": "hive",
+    "status": "PENDING"
+  },
+  {
+    "word": "den",
+    "definition": "a wild animal's home",
+    "blanked": "The fox went into its ______ to sleep.",
+    "options": [
+      "celery",
+      "sponge",
+      "den",
+      "perfect"
+    ],
+    "correctAnswer": "den",
+    "status": "PENDING"
+  },
+  {
+    "word": "burrow",
+    "definition": "a hole in the ground where an animal lives",
+    "blanked": "The rabbit disappeared into its ______.",
+    "options": [
+      "deliver",
+      "sit down",
+      "muffin",
+      "burrow"
+    ],
+    "correctAnswer": "burrow",
+    "status": "PENDING"
+  },
+  {
+    "word": "trap",
+    "definition": "something used to catch animals",
+    "blanked": "The mouse walked right into the ______.",
+    "options": [
+      "extra",
+      "perfect",
+      "forehead",
+      "trap"
+    ],
+    "correctAnswer": "trap",
+    "status": "PENDING"
+  },
+  {
+    "word": "leash",
+    "definition": "a rope or strap for walking a dog",
+    "blanked": "He held the ______ tight, so the dog would not run away.",
+    "options": [
+      "surprise",
+      "legend",
+      "leash",
+      "itsy"
+    ],
+    "correctAnswer": "leash",
+    "status": "PENDING"
+  },
+  {
+    "word": "tag",
+    "definition": "a small label with words on it",
+    "blanked": "The ______ on her shirt said her name.",
+    "options": [
+      "journey",
+      "noodle",
+      "feast",
+      "tag"
+    ],
+    "correctAnswer": "tag",
+    "status": "PENDING"
+  },
+  {
+    "word": "whisker",
+    "definition": "long hair on a cat's face",
+    "blanked": "The cat's ______ twitched when it smelled the fish.",
+    "options": [
+      "whisker",
+      "battery",
+      "vest",
+      "across"
+    ],
+    "correctAnswer": "whisker",
+    "status": "PENDING"
+  },
+  {
+    "word": "tail",
+    "definition": "the long part at the back of an animal",
+    "blanked": "The happy dog wagged its ______.",
+    "options": [
+      "rotten",
+      "early",
+      "splash",
+      "tail"
+    ],
+    "correctAnswer": "tail",
+    "status": "PENDING"
+  },
+  {
+    "word": "hoof",
+    "definition": "the hard bottom of a horse's foot",
+    "blanked": "The horse's ______ clip-clopped on the road.",
+    "options": [
+      "curtain",
+      "run out",
+      "seed",
+      "hoof"
+    ],
+    "correctAnswer": "hoof",
+    "status": "PENDING"
+  },
+  {
+    "word": "mane",
+    "definition": "long hair on a horse's or lion's neck",
+    "blanked": "The lion's ______ blew in the wind.",
+    "options": [
+      "create",
+      "measure",
+      "beaver",
+      "mane"
+    ],
+    "correctAnswer": "mane",
+    "status": "PENDING"
+  },
+  {
+    "word": "flock",
+    "definition": "a group of birds",
+    "blanked": "A ______ of geese flew over the house.",
+    "options": [
+      "wave",
+      "amount",
+      "crawl",
+      "flock"
+    ],
+    "correctAnswer": "flock",
+    "status": "PENDING"
+  },
+  {
+    "word": "herd",
+    "definition": "a group of large animals together",
+    "blanked": "A ______ of cows walked across the field.",
+    "options": [
+      "syrup",
+      "popcorn",
+      "palm",
+      "herd"
+    ],
+    "correctAnswer": "herd",
+    "status": "PENDING"
+  },
+  {
+    "word": "pack",
+    "definition": "a group of wolves or dogs",
+    "blanked": "The ______ of wolves hunted together.",
+    "options": [
+      "pack",
+      "imagine",
+      "ant",
+      "nervous"
+    ],
+    "correctAnswer": "pack",
+    "status": "PENDING"
+  },
+  {
+    "word": "droplet",
+    "definition": "a very small drop of water",
+    "blanked": "A ______ of rain landed on her nose.",
+    "options": [
+      "beautiful",
+      "droplet",
+      "beyond",
+      "moment"
+    ],
+    "correctAnswer": "droplet",
+    "status": "PENDING"
+  },
+  {
+    "word": "ripple",
+    "definition": "a small wave on water",
+    "blanked": "The stone made a ______ when it hit the lake.",
+    "options": [
+      "ripple",
+      "hoodie",
+      "while",
+      "stubborn"
+    ],
+    "correctAnswer": "ripple",
+    "status": "PENDING"
+  },
+  {
+    "word": "bubble",
+    "definition": "a ball of air in water or soap",
+    "blanked": "She blew a big ______ with her ______ wand.",
+    "options": [
+      "bubble",
+      "ant",
+      "desert",
+      "count"
+    ],
+    "correctAnswer": "bubble",
+    "status": "PENDING"
+  },
+  {
+    "word": "flame",
+    "definition": "the bright burning part of a fire",
+    "blanked": "The candle's ______ danced in the dark.",
+    "options": [
+      "flame",
+      "muffin",
+      "audience",
+      "dolphin"
+    ],
+    "correctAnswer": "flame",
+    "status": "PENDING"
+  },
+  {
+    "word": "spark",
+    "definition": "a tiny flash of fire",
+    "blanked": "A ______ flew up from the campfire.",
+    "options": [
+      "spark",
+      "late",
+      "elbow",
+      "measure"
+    ],
+    "correctAnswer": "spark",
+    "status": "PENDING"
+  },
+  {
+    "word": "smoke",
+    "definition": "the gray cloud that comes from fire",
+    "blanked": "______ rose from the chimney into the sky.",
+    "options": [
+      "inventor",
+      "hang",
+      "finally",
+      "smoke"
+    ],
+    "correctAnswer": "smoke",
+    "status": "PENDING"
+  },
+  {
+    "word": "ash",
+    "definition": "the gray powder left after fire",
+    "blanked": "After the campfire, only ______ was left.",
+    "options": [
+      "ash",
+      "pond",
+      "salty",
+      "duckling"
+    ],
+    "correctAnswer": "ash",
+    "status": "PENDING"
+  },
+  {
+    "word": "dawn",
+    "definition": "the time the sun first comes up",
+    "blanked": "The rooster crowed at ______.",
+    "options": [
+      "dawn",
+      "lonely",
+      "leash",
+      "within"
+    ],
+    "correctAnswer": "dawn",
+    "status": "PENDING"
+  },
+  {
+    "word": "dusk",
+    "definition": "the time the sun is going down",
+    "blanked": "The fireflies came out at ______.",
+    "options": [
+      "dusk",
+      "grape",
+      "design",
+      "create"
+    ],
+    "correctAnswer": "dusk",
+    "status": "PENDING"
+  },
+  {
+    "word": "midnight",
+    "definition": "twelve o'clock at night",
+    "blanked": "The clock struck ______ and everyone was asleep.",
+    "options": [
+      "midnight",
+      "sink",
+      "measure",
+      "belong"
+    ],
+    "correctAnswer": "midnight",
+    "status": "PENDING"
+  },
+  {
+    "word": "noon",
+    "definition": "twelve o'clock in the day",
+    "blanked": "We eat lunch at ______ every day.",
+    "options": [
+      "rainbow",
+      "pinecone",
+      "noon",
+      "palm"
+    ],
+    "correctAnswer": "noon",
+    "status": "PENDING"
+  },
+  {
+    "word": "passenger",
+    "definition": "a person riding in a vehicle like a car, bus, train, or airplane",
+    "blanked": "Every ______ on the bus found a seat.",
+    "options": [
+      "dawn",
+      "graceful",
+      "mud",
+      "passenger"
+    ],
+    "correctAnswer": "passenger",
+    "status": "PENDING"
+  },
+  {
+    "word": "neighbor",
+    "definition": "a person who lives near you",
+    "blanked": "Our ______ brought us cookies when we moved in.",
+    "options": [
+      "drag",
+      "fierce",
+      "neighbor",
+      "borrow"
+    ],
+    "correctAnswer": "neighbor",
+    "status": "PENDING"
+  },
+  {
+    "word": "stranger",
+    "definition": "a person you do not know",
+    "blanked": "Dad said never to talk to a ______.",
+    "options": [
+      "drought",
+      "sparkle",
+      "berry",
+      "stranger"
+    ],
+    "correctAnswer": "stranger",
+    "status": "PENDING"
+  },
+  {
+    "word": "parade",
+    "definition": "people marching together down a street",
+    "blanked": "The ______ had music and colorful floats.",
+    "options": [
+      "come in",
+      "parade",
+      "run out",
+      "many"
+    ],
+    "correctAnswer": "parade",
+    "status": "PENDING"
+  },
+  {
+    "word": "audience",
+    "definition": "people watching a show",
+    "blanked": "The ______ clapped at the end of the play.",
+    "options": [
+      "audience",
+      "generous",
+      "palm",
+      "mushroom"
+    ],
+    "correctAnswer": "audience",
+    "status": "PENDING"
+  },
+  {
+    "word": "crew",
+    "definition": "a group of people working together",
+    "blanked": "The ______ fixed the road in just one day.",
+    "options": [
+      "next",
+      "desert",
+      "crew",
+      "together"
+    ],
+    "correctAnswer": "crew",
+    "status": "PENDING"
+  },
+  {
+    "word": "coach",
+    "definition": "a person who teaches a sport",
+    "blanked": "The basketball ______ taught them a new play during halftime.",
+    "options": [
+      "crayon",
+      "harbor",
+      "coach",
+      "toast"
+    ],
+    "correctAnswer": "coach",
+    "status": "PENDING"
+  },
+  {
+    "word": "chef",
+    "definition": "a person who cooks food as a job",
+    "blanked": "The ______ made the best soup I ever tasted.",
+    "options": [
+      "giggle",
+      "mistake",
+      "chef",
+      "grateful"
+    ],
+    "correctAnswer": "chef",
+    "status": "PENDING"
+  },
+  {
+    "word": "mayor",
+    "definition": "the leader of a town",
+    "blanked": "The ______ cut the ribbon to open the new park.",
+    "options": [
+      "mayor",
+      "throat",
+      "beginning",
+      "pudding"
+    ],
+    "correctAnswer": "mayor",
+    "status": "PENDING"
+  },
+  {
+    "word": "inventor",
+    "definition": "a person who makes new things",
+    "blanked": "The ______ built a machine that could fly.",
+    "options": [
+      "nibble",
+      "grab",
+      "oatmeal",
+      "inventor"
+    ],
+    "correctAnswer": "inventor",
+    "status": "PENDING"
+  },
+  {
+    "word": "princess",
+    "definition": "the daughter of a king and queen",
+    "blanked": "The ______ wore a golden crown on her head.",
+    "options": [
+      "princess",
+      "beak",
+      "fasten",
+      "bark"
+    ],
+    "correctAnswer": "princess",
+    "status": "PENDING"
+  },
+  {
+    "word": "knight",
+    "definition": "a soldier in armor from long ago",
+    "blanked": "In the story, the ______ wore armor to protect the castle.",
+    "options": [
+      "drag",
+      "towel",
+      "stand up",
+      "knight"
+    ],
+    "correctAnswer": "knight",
+    "status": "PENDING"
+  },
+  {
+    "word": "wizard",
+    "definition": "a person with magic powers in stories",
+    "blanked": "The ______ waved his wand and made sparks fly.",
+    "options": [
+      "melt",
+      "sparrow",
+      "chalk",
+      "wizard"
+    ],
+    "correctAnswer": "wizard",
+    "status": "PENDING"
+  },
+  {
+    "word": "giant",
+    "definition": "a very tall person in stories",
+    "blanked": "The ______ was so big his head touched the clouds.",
+    "options": [
+      "giant",
+      "tug",
+      "twist",
+      "find out"
+    ],
+    "correctAnswer": "giant",
+    "status": "PENDING"
+  },
+  {
+    "word": "dwarf",
+    "definition": "a very small person in stories",
+    "blanked": "The seven ______ helped Snow White in the forest.",
+    "options": [
+      "trade",
+      "weigh",
+      "slice",
+      "dwarf"
+    ],
+    "correctAnswer": "dwarf",
+    "status": "PENDING"
+  },
+  {
+    "word": "monster",
+    "definition": "a scary thing in stories that is not real",
+    "blanked": "The ______ under the bed was just a pile of toys.",
+    "options": [
+      "monster",
+      "amount",
+      "later",
+      "crown"
+    ],
+    "correctAnswer": "monster",
+    "status": "PENDING"
+  },
+  {
+    "word": "dragon",
+    "definition": "a large fierce creature with wings that breathes fire in stories",
+    "blanked": "The ______ spread its wings and flew over the castle.",
+    "options": [
+      "damp",
+      "pond",
+      "lose",
+      "dragon"
+    ],
+    "correctAnswer": "dragon",
+    "status": "PENDING"
+  },
+  {
+    "word": "fairy",
+    "definition": "a tiny person with wings in stories",
+    "blanked": "The ______ sprinkled magic dust on the flowers.",
+    "options": [
+      "fairy",
+      "duckling",
+      "shiny",
+      "ugly"
+    ],
+    "correctAnswer": "fairy",
+    "status": "PENDING"
+  },
+  {
+    "word": "shield",
+    "definition": "something you hold to stop things from hitting you",
+    "blanked": "The knight held a ______ to stay safe.",
+    "options": [
+      "early",
+      "shield",
+      "rainbow",
+      "pillow"
+    ],
+    "correctAnswer": "shield",
+    "status": "PENDING"
+  },
+  {
+    "word": "sword",
+    "definition": "a long sharp piece of metal from old times, often in stories",
+    "blanked": "The hero pulled the ______ from the stone.",
+    "options": [
+      "sword",
+      "crayon",
+      "mistake",
+      "clever"
+    ],
+    "correctAnswer": "sword",
+    "status": "PENDING"
+  },
+  {
+    "word": "wand",
+    "definition": "a magic stick",
+    "blanked": "She waved her ______ and made the pumpkin turn into a golden carriage.",
+    "options": [
+      "wand",
+      "tail",
+      "drought",
+      "moss"
+    ],
+    "correctAnswer": "wand",
+    "status": "PENDING"
+  },
+  {
+    "word": "throne",
+    "definition": "a big fancy chair that only a king or queen sits on",
+    "blanked": "The king sat on his golden ______.",
+    "options": [
+      "chef",
+      "throne",
+      "cave",
+      "almost"
+    ],
+    "correctAnswer": "throne",
+    "status": "PENDING"
+  },
+  {
+    "word": "crown",
+    "definition": "a circle of gold and jewels worn on the head of a king or queen",
+    "blanked": "The ______ was covered in shiny jewels.",
+    "options": [
+      "giggle",
+      "rib",
+      "crown",
+      "freeze"
+    ],
+    "correctAnswer": "crown",
+    "status": "PENDING"
+  },
+  {
+    "word": "wobble",
+    "definition": "to move side to side in an unsteady way",
+    "blanked": "The table started to ______ when she leaned on it.",
+    "options": [
+      "wobble",
+      "eyelash",
+      "chase",
+      "show off"
+    ],
+    "correctAnswer": "wobble",
+    "status": "PENDING"
+  },
+  {
+    "word": "tumble",
+    "definition": "to fall and roll",
+    "blanked": "The blocks started to ______ when he pulled the bottom one.",
+    "options": [
+      "share",
+      "tumble",
+      "waffle",
+      "flock"
+    ],
+    "correctAnswer": "tumble",
+    "status": "PENDING"
+  },
+  {
+    "word": "snuggle",
+    "definition": "to get close and cozy with someone",
+    "blanked": "The kitten liked to ______ up next to its mother.",
+    "options": [
+      "stream",
+      "doughnut",
+      "while",
+      "snuggle"
+    ],
+    "correctAnswer": "snuggle",
+    "status": "PENDING"
+  },
+  {
+    "word": "nibble",
+    "definition": "to eat in tiny bites",
+    "blanked": "The mouse would ______ on the corner of the cracker.",
+    "options": [
+      "blizzard",
+      "silent",
+      "melon",
+      "nibble"
+    ],
+    "correctAnswer": "nibble",
+    "status": "PENDING"
+  },
+  {
+    "word": "snore",
+    "definition": "to make noise while sleeping",
+    "blanked": "Grandpa would ______ so loudly you could hear it downstairs.",
+    "options": [
+      "tail",
+      "wild",
+      "terrible",
+      "snore"
+    ],
+    "correctAnswer": "snore",
+    "status": "PENDING"
+  },
+  {
+    "word": "yawn",
+    "definition": "to open your mouth wide when tired",
+    "blanked": "She started to ______ because it was past her bedtime.",
+    "options": [
+      "shy",
+      "yawn",
+      "foolish",
+      "sudden"
+    ],
+    "correctAnswer": "yawn",
+    "status": "PENDING"
+  },
+  {
+    "word": "shiver",
+    "definition": "to shake because you are cold",
+    "blanked": "Standing in the snow made her ______.",
+    "options": [
+      "shiver",
+      "elbow",
+      "vase",
+      "peaceful"
+    ],
+    "correctAnswer": "shiver",
+    "status": "PENDING"
+  },
+  {
+    "word": "bloom",
+    "definition": "to open and grow flowers",
+    "blanked": "The roses ______ every spring in our garden.",
+    "options": [
+      "mitten",
+      "cub",
+      "pillow",
+      "bloom"
+    ],
+    "correctAnswer": "bloom",
+    "status": "PENDING"
+  },
+  {
+    "word": "sprout",
+    "definition": "to begin to grow from a seed",
+    "blanked": "The seeds will ______ if you water them every day.",
+    "options": [
+      "once",
+      "chop",
+      "roar",
+      "sprout"
+    ],
+    "correctAnswer": "sprout",
+    "status": "PENDING"
+  },
+  {
+    "word": "wilt",
+    "definition": "to bend down and become weak, often because of heat",
+    "blanked": "The flower started to ______ in the hot sun.",
+    "options": [
+      "wilt",
+      "together",
+      "lace",
+      "cub"
+    ],
+    "correctAnswer": "wilt",
+    "status": "PENDING"
+  },
+  {
+    "word": "scattered",
+    "definition": "spread out in different places",
+    "blanked": "Toys were ______ all over the bedroom floor.",
+    "options": [
+      "scattered",
+      "frightened",
+      "beyond",
+      "lonely"
+    ],
+    "correctAnswer": "scattered",
+    "status": "PENDING"
+  },
+  {
+    "word": "rascal",
+    "definition": "a naughty but funny child or animal",
+    "blanked": "That little ______ got into the cookie jar again!",
+    "options": [
+      "rascal",
+      "scale",
+      "shark",
+      "raccoon"
+    ],
+    "correctAnswer": "rascal",
+    "status": "PENDING"
+  },
+  {
+    "word": "gigantic",
+    "definition": "extremely big, bigger than big",
+    "blanked": "The ______ dinosaur was bigger than our house.",
+    "options": [
+      "snack",
+      "shelf",
+      "give up",
+      "gigantic"
+    ],
+    "correctAnswer": "gigantic",
+    "status": "PENDING"
+  },
+  {
+    "word": "itsy",
+    "definition": "very very tiny; so small",
+    "blanked": "An ______ bitsy spider climbed up the water spout.",
+    "options": [
+      "foal",
+      "crowded",
+      "itsy",
+      "huge"
+    ],
+    "correctAnswer": "itsy",
+    "status": "PENDING"
+  },
+  {
+    "word": "whirl",
+    "definition": "to spin around and around",
+    "blanked": "The leaves ______ in the wind like little dancers.",
+    "options": [
+      "cracker",
+      "rooster",
+      "dock",
+      "whirl"
+    ],
+    "correctAnswer": "whirl",
+    "status": "PENDING"
+  },
+  {
+    "word": "sparkle",
+    "definition": "to shine with little flashes of light",
+    "blanked": "The snow made everything ______ in the sunshine.",
+    "options": [
+      "sparkle",
+      "nibble",
+      "wonder",
+      "meadow"
+    ],
+    "correctAnswer": "sparkle",
+    "status": "PENDING"
+  },
+  {
+    "word": "flutter",
+    "definition": "to move wings quickly up and down",
+    "blanked": "The butterfly would ______ from one flower to the next.",
+    "options": [
+      "flutter",
+      "show off",
+      "already",
+      "silent"
+    ],
+    "correctAnswer": "flutter",
+    "status": "PENDING"
+  },
+  {
+    "word": "hear",
+    "definition": "to notice sounds with your ears",
+    "blanked": "You can ______ the crowd cheering at the basketball game from outside.",
+    "options": [
+      "hear",
+      "waffle",
+      "shelf",
+      "whenever"
+    ],
+    "correctAnswer": "hear",
+    "status": "PENDING"
+  },
+  {
+    "word": "lose",
+    "definition": "to not be able to find something",
+    "blanked": "Be careful not to ______ your keys at the park.",
+    "options": [
+      "often",
+      "beyond",
+      "whether",
+      "lose"
+    ],
+    "correctAnswer": "lose",
+    "status": "PENDING"
+  },
+  {
+    "word": "teach",
+    "definition": "to help someone learn something new",
+    "blanked": "My big sister will ______ me how to ride a bicycle.",
+    "options": [
+      "teach",
+      "fasten",
+      "lamp",
+      "single"
+    ],
+    "correctAnswer": "teach",
+    "status": "PENDING"
+  },
+  {
+    "word": "take",
+    "definition": "to get hold of something with your hands",
+    "blanked": "Please ______ a cookie from the plate.",
+    "options": [
+      "take",
+      "jealous",
+      "thin",
+      "damp"
+    ],
+    "correctAnswer": "take",
+    "status": "PENDING"
+  },
+  {
+    "word": "than",
+    "definition": "a word used to compare two things",
+    "blanked": "She scored more points ______ anyone else on the basketball team.",
+    "options": [
+      "than",
+      "foal",
+      "before",
+      "moose"
+    ],
+    "correctAnswer": "than",
+    "status": "PENDING"
+  }
+]

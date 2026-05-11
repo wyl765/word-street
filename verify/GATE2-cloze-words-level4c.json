@@ -1,0 +1,4461 @@
+[
+  {
+    "word": "undertake",
+    "definition": "to commit to doing a task or project",
+    "blanked": "The class chose to ______ the challenge of cleaning up the entire beach in one day.",
+    "options": [
+      "undertake",
+      "browse",
+      "feasible",
+      "eclipse"
+    ],
+    "correctAnswer": "undertake",
+    "status": "PENDING"
+  },
+  {
+    "word": "unfold",
+    "definition": "to open up gradually, or to come to light",
+    "blanked": "The mystery began to ______ as the detective found new clues at every turn.",
+    "options": [
+      "unfold",
+      "gazette",
+      "cumulus",
+      "scrupulous"
+    ],
+    "correctAnswer": "unfold",
+    "status": "PENDING"
+  },
+  {
+    "word": "universal",
+    "definition": "applying to everyone and all things",
+    "blanked": "Laughter is a ______ language—people everywhere understand a smile.",
+    "options": [
+      "universal",
+      "emanate",
+      "ministry",
+      "inexorable"
+    ],
+    "correctAnswer": "universal",
+    "status": "PENDING"
+  },
+  {
+    "word": "vegetation",
+    "definition": "plant life in general, especially in a certain area",
+    "blanked": "Thick green ______ covered the jungle floor making it hard to walk through.",
+    "options": [
+      "chagrin",
+      "dereliction",
+      "vegetation",
+      "culpability"
+    ],
+    "correctAnswer": "vegetation",
+    "status": "PENDING"
+  },
+  {
+    "word": "verify",
+    "definition": "to check whether something is true or correct",
+    "blanked": "Always ______ facts from the internet by checking at least two different sources.",
+    "options": [
+      "timber",
+      "confess",
+      "verify",
+      "foresight"
+    ],
+    "correctAnswer": "verify",
+    "status": "PENDING"
+  },
+  {
+    "word": "versus",
+    "definition": "against; used to show two sides trying to win against others",
+    "blanked": "Today's big game is the Eagles ______ the Hawks—the two best teams in the league.",
+    "options": [
+      "versus",
+      "solidarity",
+      "compunction",
+      "relay"
+    ],
+    "correctAnswer": "versus",
+    "status": "PENDING"
+  },
+  {
+    "word": "veto",
+    "definition": "the power or right to reject or block a decision or proposal",
+    "blanked": "The president used the ______ to block the law from going into effect.",
+    "options": [
+      "agitation",
+      "bizarre",
+      "per capita",
+      "veto"
+    ],
+    "correctAnswer": "veto",
+    "status": "PENDING"
+  },
+  {
+    "word": "via",
+    "definition": "by way of; going through a one certain place or method",
+    "blanked": "We traveled from New York to Los Angeles ______ Chicago, stopping for lunch there.",
+    "options": [
+      "via",
+      "industrial",
+      "enterprise",
+      "ceremony"
+    ],
+    "correctAnswer": "via",
+    "status": "PENDING"
+  },
+  {
+    "word": "vibrate",
+    "definition": "to shake rapidly back and forth with small movements",
+    "blanked": "Guitar strings ______ when you pluck them, creating sound waves you hear as music.",
+    "options": [
+      "vibrate",
+      "boom",
+      "contract",
+      "disillusionment"
+    ],
+    "correctAnswer": "vibrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "volatile",
+    "definition": "likely to change fast and without warning",
+    "blanked": "The weather in spring is ______—sunny one hour and pouring rain the next.",
+    "options": [
+      "desperation",
+      "garrulous",
+      "volatile",
+      "scrupulous"
+    ],
+    "correctAnswer": "volatile",
+    "status": "PENDING"
+  },
+  {
+    "word": "wage",
+    "definition": "money paid to a worker for the hours they work",
+    "blanked": "The minimum ______ is the lowest amount an employer is legally allowed to pay per hour.",
+    "options": [
+      "wage",
+      "veto",
+      "craft",
+      "senate"
+    ],
+    "correctAnswer": "wage",
+    "status": "PENDING"
+  },
+  {
+    "word": "withstand",
+    "definition": "to be strong enough to survive something without being damaged",
+    "blanked": "The fortress was built to ______ attacks, with walls ten feet thick.",
+    "options": [
+      "withstand",
+      "overture",
+      "exacerbation",
+      "fraud"
+    ],
+    "correctAnswer": "withstand",
+    "status": "PENDING"
+  },
+  {
+    "word": "abstract",
+    "definition": "existing as an idea rather than something physical that you can touch",
+    "blanked": "Love and justice are ______ concepts—you can't hold them, but you can feel their effects.",
+    "options": [
+      "supreme",
+      "robust",
+      "subterfuge",
+      "abstract"
+    ],
+    "correctAnswer": "abstract",
+    "status": "PENDING"
+  },
+  {
+    "word": "academy",
+    "definition": "a school for special training",
+    "blanked": "She attended a dance ______ where students practiced ballet for six hours each day.",
+    "options": [
+      "accuse",
+      "academy",
+      "ministry",
+      "discretionary"
+    ],
+    "correctAnswer": "academy",
+    "status": "PENDING"
+  },
+  {
+    "word": "access",
+    "definition": "the ability or right to enter, use, or approach something",
+    "blanked": "A library card gives you ______ to thousands of books, movies, and computers.",
+    "options": [
+      "anachronism",
+      "incline",
+      "renovate",
+      "access"
+    ],
+    "correctAnswer": "access",
+    "status": "PENDING"
+  },
+  {
+    "word": "adjacent",
+    "definition": "right next to, with nothing in between",
+    "blanked": "The playground is ______ to the school building—just a few steps from the back door.",
+    "options": [
+      "bond",
+      "oblige",
+      "expatriation",
+      "adjacent"
+    ],
+    "correctAnswer": "adjacent",
+    "status": "PENDING"
+  },
+  {
+    "word": "affiliate",
+    "definition": "to link up with a bigger group",
+    "blanked": "The local soccer club chose to ______ with the national league to compete in bigger tournaments.",
+    "options": [
+      "iconoclast",
+      "eradication",
+      "fraud",
+      "affiliate"
+    ],
+    "correctAnswer": "affiliate",
+    "status": "PENDING"
+  },
+  {
+    "word": "agenda",
+    "definition": "a list of ideas to discuss or things to do at a meeting",
+    "blanked": "The first item on today's meeting ______ is planning the spring concert.",
+    "options": [
+      "monarch",
+      "agenda",
+      "chancellor",
+      "incongruity"
+    ],
+    "correctAnswer": "agenda",
+    "status": "PENDING"
+  },
+  {
+    "word": "aggregate",
+    "definition": "a total made by adding parts together",
+    "blanked": "The ______ score from all three rounds determined who won the competition.",
+    "options": [
+      "opulence",
+      "endorse",
+      "curate",
+      "aggregate"
+    ],
+    "correctAnswer": "aggregate",
+    "status": "PENDING"
+  },
+  {
+    "word": "agitate",
+    "definition": "to stir up or make someone feel worried and upset",
+    "blanked": "Loud noises tend to ______ the horses, making them stomp and neigh nervously.",
+    "options": [
+      "agitate",
+      "equip",
+      "pedagogy",
+      "calibration"
+    ],
+    "correctAnswer": "agitate",
+    "status": "PENDING"
+  },
+  {
+    "word": "algorithm",
+    "definition": "a set of steps for solving a hard question",
+    "blanked": "The computer uses an ______ to sort thousands of photos by date in just seconds.",
+    "options": [
+      "nomadic",
+      "aggregation",
+      "algorithm",
+      "preside"
+    ],
+    "correctAnswer": "algorithm",
+    "status": "PENDING"
+  },
+  {
+    "word": "allegiance",
+    "definition": "loyalty and support given to a country, leader, or cause",
+    "blanked": "Citizens say the Pledge of ______ to show loyalty to their country.",
+    "options": [
+      "allegiance",
+      "probity",
+      "aggressive",
+      "soporific"
+    ],
+    "correctAnswer": "allegiance",
+    "status": "PENDING"
+  },
+  {
+    "word": "allot",
+    "definition": "to give a share of something for a certain purpose",
+    "blanked": "The teacher ______ fifteen minutes for each group to present their science project.",
+    "options": [
+      "allot",
+      "fallacious",
+      "deduction",
+      "servile"
+    ],
+    "correctAnswer": "allot",
+    "status": "PENDING"
+  },
+  {
+    "word": "ally",
+    "definition": "a country or person who agrees to help and support another",
+    "blanked": "France was an important ______ of the American colonies during the Revolutionary War.",
+    "options": [
+      "ally",
+      "verify",
+      "protocol",
+      "fortify"
+    ],
+    "correctAnswer": "ally",
+    "status": "PENDING"
+  },
+  {
+    "word": "altitude",
+    "definition": "the height of something above sea level",
+    "blanked": "At high ______ in the mountains, the air has less oxygen and breathing feels harder.",
+    "options": [
+      "quintessential",
+      "agitation",
+      "altitude",
+      "abate"
+    ],
+    "correctAnswer": "altitude",
+    "status": "PENDING"
+  },
+  {
+    "word": "anchor",
+    "definition": "a heavy object that keeps a boat from drifting, or something that holds firm",
+    "blanked": "The ship dropped its heavy iron ______ to stay in place during the storm.",
+    "options": [
+      "anchor",
+      "chancellor",
+      "decay",
+      "deterrence"
+    ],
+    "correctAnswer": "anchor",
+    "status": "PENDING"
+  },
+  {
+    "word": "anecdote",
+    "definition": "a short, interesting story about a real event or person",
+    "blanked": "Grandpa shared a funny ______ about the time he accidentally wore two different shoes to work.",
+    "options": [
+      "breach",
+      "interfere",
+      "anecdote",
+      "wanton"
+    ],
+    "correctAnswer": "anecdote",
+    "status": "PENDING"
+  },
+  {
+    "word": "anonymous",
+    "definition": "with the name unknown or not revealed",
+    "blanked": "Someone left an ______ note in the idea box asking for more recess time.",
+    "options": [
+      "anonymous",
+      "disposition",
+      "roster",
+      "dormant"
+    ],
+    "correctAnswer": "anonymous",
+    "status": "PENDING"
+  },
+  {
+    "word": "arbitrary",
+    "definition": "based on random choice rather than any reason or system",
+    "blanked": "The rule that you can't wear hats indoors seems completely ______—what harm does a hat do?",
+    "options": [
+      "arbitrary",
+      "infrastructure",
+      "nominate",
+      "epitomize"
+    ],
+    "correctAnswer": "arbitrary",
+    "status": "PENDING"
+  },
+  {
+    "word": "archive",
+    "definition": "a collection of historical documents or records stored for reference",
+    "blanked": "The city ______ contains newspapers and photographs from over a century ago.",
+    "options": [
+      "culpability",
+      "archive",
+      "undermine",
+      "subjugation"
+    ],
+    "correctAnswer": "archive",
+    "status": "PENDING"
+  },
+  {
+    "word": "articulate",
+    "definition": "able to speak clearly, choosing exact words to express each idea",
+    "blanked": "The ten-year-old was so ______ that adults were amazed by how clearly she explained her science project.",
+    "options": [
+      "articulate",
+      "ratify",
+      "rescind",
+      "subsidy"
+    ],
+    "correctAnswer": "articulate",
+    "status": "PENDING"
+  },
+  {
+    "word": "aspect",
+    "definition": "one part or feature of a larger thing",
+    "blanked": "The most challenging ______ of the project was building the model volcano.",
+    "options": [
+      "assimilation",
+      "aspect",
+      "contravene",
+      "rancor"
+    ],
+    "correctAnswer": "aspect",
+    "status": "PENDING"
+  },
+  {
+    "word": "assault",
+    "definition": "a violent physical attack on someone",
+    "blanked": "The castle walls protected the people inside from ______ by invading armies.",
+    "options": [
+      "proficient",
+      "promulgation",
+      "assault",
+      "rancor"
+    ],
+    "correctAnswer": "assault",
+    "status": "PENDING"
+  },
+  {
+    "word": "assembly",
+    "definition": "a group of people called together for a task or event",
+    "blanked": "The entire school met in the gymnasium for the Friday morning ______.",
+    "options": [
+      "solicitous",
+      "paradox",
+      "scrutinize",
+      "assembly"
+    ],
+    "correctAnswer": "assembly",
+    "status": "PENDING"
+  },
+  {
+    "word": "attain",
+    "definition": "to reach or to do well at something you have been working toward",
+    "blanked": "He studied every day to ______ his goal of earning straight A's this semester.",
+    "options": [
+      "attain",
+      "abandon",
+      "clause",
+      "verbose"
+    ],
+    "correctAnswer": "attain",
+    "status": "PENDING"
+  },
+  {
+    "word": "autonomous",
+    "definition": "having the freedom to govern itself or make its own decisions",
+    "blanked": "An ______ robot can vacuum the house without anyone controlling it.",
+    "options": [
+      "devastate",
+      "commiserate",
+      "autonomous",
+      "diplomat"
+    ],
+    "correctAnswer": "autonomous",
+    "status": "PENDING"
+  },
+  {
+    "word": "backdrop",
+    "definition": "the scenery behind something or the setting for events",
+    "blanked": "Snow-covered mountains gave a stunning ______ for the holiday photograph.",
+    "options": [
+      "arbitrary",
+      "backdrop",
+      "celerity",
+      "subservient"
+    ],
+    "correctAnswer": "backdrop",
+    "status": "PENDING"
+  },
+  {
+    "word": "barren",
+    "definition": "too dry or poor to produce plants; empty of life",
+    "blanked": "The ______ desert stretched for miles without a single tree or blade of grass.",
+    "options": [
+      "preliminary",
+      "timber",
+      "relay",
+      "barren"
+    ],
+    "correctAnswer": "barren",
+    "status": "PENDING"
+  },
+  {
+    "word": "battalion",
+    "definition": "a large group of soldiers organized as a unit",
+    "blanked": "The ______ of five hundred soldiers marched across the field in perfect rows.",
+    "options": [
+      "prodigious",
+      "verify",
+      "acumen",
+      "battalion"
+    ],
+    "correctAnswer": "battalion",
+    "status": "PENDING"
+  },
+  {
+    "word": "benchmark",
+    "definition": "a standard used to judge how well something works",
+    "blanked": "Scoring eighty percent on the test was the ______ for passing to the next level.",
+    "options": [
+      "benchmark",
+      "unequivocal",
+      "repress",
+      "novice"
+    ],
+    "correctAnswer": "benchmark",
+    "status": "PENDING"
+  },
+  {
+    "word": "beneficiary",
+    "definition": "a person who gets the benefit",
+    "blanked": "As the ______ of the scholarship, she received enough money to pay for the whole school year.",
+    "options": [
+      "atavism",
+      "adjunct",
+      "concept",
+      "beneficiary"
+    ],
+    "correctAnswer": "beneficiary",
+    "status": "PENDING"
+  },
+  {
+    "word": "bolster",
+    "definition": "to support or make stronger something",
+    "blanked": "Reading reviews from happy customers helped ______ confidence in the new restaurant.",
+    "options": [
+      "connotation",
+      "insight",
+      "posterity",
+      "bolster"
+    ],
+    "correctAnswer": "bolster",
+    "status": "PENDING"
+  },
+  {
+    "word": "breach",
+    "definition": "a break or gap in something, especially a wall or agreement",
+    "blanked": "Water poured through the ______ in the dam and flooded the valley below.",
+    "options": [
+      "theorem",
+      "architect",
+      "precaution",
+      "breach"
+    ],
+    "correctAnswer": "breach",
+    "status": "PENDING"
+  },
+  {
+    "word": "brochure",
+    "definition": "a small printed booklet with information about something",
+    "blanked": "The travel ______ showed stunning pictures of beaches and hotels in Hawaii.",
+    "options": [
+      "compose",
+      "brochure",
+      "plantation",
+      "transmit"
+    ],
+    "correctAnswer": "brochure",
+    "status": "PENDING"
+  },
+  {
+    "word": "bureaucracy",
+    "definition": "a system of government with many complex rules and procedures",
+    "blanked": "The long paperwork and waiting times showed just how slow the ______ could be.",
+    "options": [
+      "bureaucracy",
+      "discretionary",
+      "contravene",
+      "agitation"
+    ],
+    "correctAnswer": "bureaucracy",
+    "status": "PENDING"
+  },
+  {
+    "word": "calibrate",
+    "definition": "to adjust an instrument so it gives accurate readings",
+    "blanked": "You must ______ the thermometer so it shows the correct temperature.",
+    "options": [
+      "disclose",
+      "episode",
+      "calibrate",
+      "enterprise"
+    ],
+    "correctAnswer": "calibrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "captivate",
+    "definition": "to attract and hold another person's focus all the way",
+    "blanked": "The storyteller's voice ______ the children so much that no one moved for an hour.",
+    "options": [
+      "senate",
+      "captivate",
+      "defect",
+      "penultimate"
+    ],
+    "correctAnswer": "captivate",
+    "status": "PENDING"
+  },
+  {
+    "word": "catalyst",
+    "definition": "something that causes an important change to happen faster",
+    "blanked": "The discovery of gold was the ______ that sent thousands of people rushing west in 1849.",
+    "options": [
+      "ubiquity",
+      "acumen",
+      "mendacious",
+      "catalyst"
+    ],
+    "correctAnswer": "catalyst",
+    "status": "PENDING"
+  },
+  {
+    "word": "catastrophe",
+    "definition": "a sudden awful disaster causing great damage",
+    "blanked": "The earthquake was a ______ that destroyed hundreds of buildings in just thirty seconds.",
+    "options": [
+      "stipend",
+      "repudiation",
+      "lapse",
+      "catastrophe"
+    ],
+    "correctAnswer": "catastrophe",
+    "status": "PENDING"
+  },
+  {
+    "word": "censor",
+    "definition": "to remove parts of something considered wrong or harmful",
+    "blanked": "Some countries ______ the news, so people cannot read about certain events.",
+    "options": [
+      "censor",
+      "attain",
+      "rapacious",
+      "patrimony"
+    ],
+    "correctAnswer": "censor",
+    "status": "PENDING"
+  },
+  {
+    "word": "chancellor",
+    "definition": "a top leader of a state or school",
+    "blanked": "The ______ of the school announced free tuition for students from low-income families.",
+    "options": [
+      "chancellor",
+      "retail",
+      "cylinder",
+      "tariff"
+    ],
+    "correctAnswer": "chancellor",
+    "status": "PENDING"
+  },
+  {
+    "word": "chronicle",
+    "definition": "a written record of historical events in time order",
+    "blanked": "The explorer kept a detailed ______ of each island he visited during his three-year voyage.",
+    "options": [
+      "austerity",
+      "robust",
+      "tangential",
+      "chronicle"
+    ],
+    "correctAnswer": "chronicle",
+    "status": "PENDING"
+  },
+  {
+    "word": "coalition",
+    "definition": "a group of people or groups joining together for a common purpose",
+    "blanked": "Several environmental groups formed a ______ to fight against ocean pollution.",
+    "options": [
+      "coalition",
+      "exponentiation",
+      "subterfuge",
+      "bland"
+    ],
+    "correctAnswer": "coalition",
+    "status": "PENDING"
+  },
+  {
+    "word": "cognitive",
+    "definition": "about thinking and learning",
+    "blanked": "Playing chess builds ______ skills like memory, planning, and problem-solving.",
+    "options": [
+      "immutable",
+      "cognitive",
+      "derivative",
+      "stipulate"
+    ],
+    "correctAnswer": "cognitive",
+    "status": "PENDING"
+  },
+  {
+    "word": "coherent",
+    "definition": "making sense and staying the same each time; making meaning as a whole",
+    "blanked": "Her essay was ______—each paragraph connected smoothly to the next.",
+    "options": [
+      "adjacent",
+      "coherent",
+      "excel",
+      "bountiful"
+    ],
+    "correctAnswer": "coherent",
+    "status": "PENDING"
+  },
+  {
+    "word": "collaborate",
+    "definition": "to work together with others on project",
+    "blanked": "The two artists chose to ______ on a mural that covered the entire school wall.",
+    "options": [
+      "novice",
+      "collaborate",
+      "espionage",
+      "procrastinate"
+    ],
+    "correctAnswer": "collaborate",
+    "status": "PENDING"
+  },
+  {
+    "word": "commemorate",
+    "definition": "to honor the memory of an important person or event",
+    "blanked": "The bronze statue was built to ______ the soldiers who fought in the war.",
+    "options": [
+      "commemorate",
+      "interfere",
+      "veracious",
+      "acerbic"
+    ],
+    "correctAnswer": "commemorate",
+    "status": "PENDING"
+  },
+  {
+    "word": "commodity",
+    "definition": "a raw material or basic good that can be bought and sold",
+    "blanked": "Oil is a valuable ______ that countries buy and sell on the global market every day.",
+    "options": [
+      "rationale",
+      "access",
+      "commodity",
+      "outbreak"
+    ],
+    "correctAnswer": "commodity",
+    "status": "PENDING"
+  },
+  {
+    "word": "compatible",
+    "definition": "able to work well together without problems",
+    "blanked": "The new game is ______ with both old and new versions of the gaming console.",
+    "options": [
+      "compatible",
+      "overwhelm",
+      "norm",
+      "bountiful"
+    ],
+    "correctAnswer": "compatible",
+    "status": "PENDING"
+  },
+  {
+    "word": "conceal",
+    "definition": "to hide something from sight or keep it secret",
+    "blanked": "The squirrel tried to ______ its acorns by burying them under the fallen leaves.",
+    "options": [
+      "entrenchment",
+      "conceal",
+      "blur",
+      "meritocracy"
+    ],
+    "correctAnswer": "conceal",
+    "status": "PENDING"
+  },
+  {
+    "word": "concede",
+    "definition": "to admit that something is true, or to give up in a contest",
+    "blanked": "After counting the votes twice, the losing candidate finally ______ the election.",
+    "options": [
+      "detain",
+      "vapid",
+      "commemorate",
+      "concede"
+    ],
+    "correctAnswer": "concede",
+    "status": "PENDING"
+  },
+  {
+    "word": "confederation",
+    "definition": "a group of states or organizations joined together for mutual support",
+    "blanked": "The thirteen colonies formed a ______ to fight for being free together.",
+    "options": [
+      "confederation",
+      "margin",
+      "tendentious",
+      "panacea"
+    ],
+    "correctAnswer": "confederation",
+    "status": "PENDING"
+  },
+  {
+    "word": "congregation",
+    "definition": "the people who come together at a church or place of worship",
+    "blanked": "The entire ______ stood and sang together as the organ played.",
+    "options": [
+      "congregation",
+      "foresight",
+      "pertinent",
+      "importune"
+    ],
+    "correctAnswer": "congregation",
+    "status": "PENDING"
+  },
+  {
+    "word": "consecutive",
+    "definition": "following one after another in order",
+    "blanked": "She won the spelling bee three ______ years in a row—third grade, fourth, and fifth.",
+    "options": [
+      "abate",
+      "extraordinary",
+      "monopolize",
+      "consecutive"
+    ],
+    "correctAnswer": "consecutive",
+    "status": "PENDING"
+  },
+  {
+    "word": "consul",
+    "definition": "an official who lives in a foreign city to help their country's citizens",
+    "blanked": "When she lost her passport abroad, the ______ at the embassy helped her get a new one.",
+    "options": [
+      "cohesion",
+      "consul",
+      "incline",
+      "rambunctious"
+    ],
+    "correctAnswer": "consul",
+    "status": "PENDING"
+  },
+  {
+    "word": "continental",
+    "definition": "relating to one of Earth's large landmasses",
+    "blanked": "The ______ United States does not include Hawaii or Alaska.",
+    "options": [
+      "continental",
+      "landscape",
+      "transmit",
+      "paucity"
+    ],
+    "correctAnswer": "continental",
+    "status": "PENDING"
+  },
+  {
+    "word": "contingent",
+    "definition": "depending on something else happening first",
+    "blanked": "The picnic is ______ on good weather—if it rains, we'll eat inside instead.",
+    "options": [
+      "contingent",
+      "scrutinize",
+      "prowess",
+      "consul"
+    ],
+    "correctAnswer": "contingent",
+    "status": "PENDING"
+  },
+  {
+    "word": "convergence",
+    "definition": "the point where two or more things come together",
+    "blanked": "The ______ of the two rivers created a wide, strong waterway.",
+    "options": [
+      "reciprocity",
+      "convergence",
+      "debilitation",
+      "ministry"
+    ],
+    "correctAnswer": "convergence",
+    "status": "PENDING"
+  },
+  {
+    "word": "correlation",
+    "definition": "a connection or link between two things",
+    "blanked": "Scientists found a ______ between exercise and better sleep quality.",
+    "options": [
+      "preface",
+      "correlation",
+      "provisional",
+      "tenure"
+    ],
+    "correctAnswer": "correlation",
+    "status": "PENDING"
+  },
+  {
+    "word": "credibility",
+    "definition": "the quality of being trusted and believed",
+    "blanked": "Using facts from real scientists gives your report more ______.",
+    "options": [
+      "credibility",
+      "reciprocity",
+      "replenish",
+      "coherent"
+    ],
+    "correctAnswer": "credibility",
+    "status": "PENDING"
+  },
+  {
+    "word": "crossroads",
+    "definition": "a point where two roads meet, or a time of important decisions",
+    "blanked": "The town stood at a ______ and had to decide between building a mall or keeping the park.",
+    "options": [
+      "crossroads",
+      "contention",
+      "jurisdiction",
+      "enhance"
+    ],
+    "correctAnswer": "crossroads",
+    "status": "PENDING"
+  },
+  {
+    "word": "cumulus",
+    "definition": "white, fluffy clouds that look like cotton balls in the sky",
+    "blanked": "The ______ clouds floating overhead looked like a parade of giant marshmallows.",
+    "options": [
+      "dominant",
+      "deduction",
+      "sedentary",
+      "cumulus"
+    ],
+    "correctAnswer": "cumulus",
+    "status": "PENDING"
+  },
+  {
+    "word": "curator",
+    "definition": "a person who takes care of art and things in a museum",
+    "blanked": "The ______ carefully arranged the dinosaur bones, so visitors could see the complete bones.",
+    "options": [
+      "curator",
+      "grievous",
+      "anathema",
+      "barrage"
+    ],
+    "correctAnswer": "curator",
+    "status": "PENDING"
+  },
+  {
+    "word": "cylinder",
+    "definition": "a solid shape with round ends and straight sides, like a can",
+    "blanked": "A soup can is shaped like a ______—round on the top and bottom with straight sides.",
+    "options": [
+      "cylinder",
+      "evacuate",
+      "exile",
+      "descendant"
+    ],
+    "correctAnswer": "cylinder",
+    "status": "PENDING"
+  },
+  {
+    "word": "demographic",
+    "definition": "about how many people live somewhere and who they are",
+    "blanked": "The ______ data showed that the town's population had doubled in ten years.",
+    "options": [
+      "impetus",
+      "solemn",
+      "venerate",
+      "demographic"
+    ],
+    "correctAnswer": "demographic",
+    "status": "PENDING"
+  },
+  {
+    "word": "denounce",
+    "definition": "to publicly declare something as wrong or evil",
+    "blanked": "Leaders around the world ______ the attack and called for immediate peace.",
+    "options": [
+      "terminal",
+      "bleak",
+      "affinity",
+      "denounce"
+    ],
+    "correctAnswer": "denounce",
+    "status": "PENDING"
+  },
+  {
+    "word": "deploy",
+    "definition": "to move something into position for use",
+    "blanked": "The fire department chose to ______ extra trucks to the area during the dry season.",
+    "options": [
+      "chicanery",
+      "deploy",
+      "niche",
+      "vapid"
+    ],
+    "correctAnswer": "deploy",
+    "status": "PENDING"
+  },
+  {
+    "word": "depot",
+    "definition": "a place where goods are stored or vehicles are kept",
+    "blanked": "The bus ______ holds fifty buses overnight and sends them out on routes each morning.",
+    "options": [
+      "corroboration",
+      "integrity",
+      "arrogate",
+      "depot"
+    ],
+    "correctAnswer": "depot",
+    "status": "PENDING"
+  },
+  {
+    "word": "deputy",
+    "definition": "a person who acts as a substitute for or assistant to a leader",
+    "blanked": "When the sheriff was away, the ______ was in charge of keeping the town safe.",
+    "options": [
+      "deputy",
+      "aberration",
+      "aggregate",
+      "transaction"
+    ],
+    "correctAnswer": "deputy",
+    "status": "PENDING"
+  },
+  {
+    "word": "descendant",
+    "definition": "a person who comes from a certain ancestor",
+    "blanked": "He is a ______ of one of the first families who settled in the town in 1820.",
+    "options": [
+      "courtesy",
+      "descendant",
+      "divergent",
+      "embolden"
+    ],
+    "correctAnswer": "descendant",
+    "status": "PENDING"
+  },
+  {
+    "word": "detain",
+    "definition": "to keep someone from leaving; to hold them in a place",
+    "blanked": "Airport security had to ______ the traveler because his luggage triggered the alarm.",
+    "options": [
+      "detain",
+      "sanction",
+      "galvanize",
+      "innocuous"
+    ],
+    "correctAnswer": "detain",
+    "status": "PENDING"
+  },
+  {
+    "word": "deter",
+    "definition": "to stop someone from doing something by showing what could go wrong",
+    "blanked": "The tall fence was built to ______ raccoons from raiding the garbage cans at night.",
+    "options": [
+      "deter",
+      "investment",
+      "graduate",
+      "alter"
+    ],
+    "correctAnswer": "deter",
+    "status": "PENDING"
+  },
+  {
+    "word": "differentiate",
+    "definition": "to tell things apart or show how they differ",
+    "blanked": "Twins can be hard to ______ unless you know them well enough to spot tiny differences.",
+    "options": [
+      "liberate",
+      "differentiate",
+      "archive",
+      "paradoxical"
+    ],
+    "correctAnswer": "differentiate",
+    "status": "PENDING"
+  },
+  {
+    "word": "diligent",
+    "definition": "showing careful and persistent effort in work",
+    "blanked": "The ______ student checked her homework three times before turning it in.",
+    "options": [
+      "diligent",
+      "terminal",
+      "adept",
+      "timber"
+    ],
+    "correctAnswer": "diligent",
+    "status": "PENDING"
+  },
+  {
+    "word": "diplomacy",
+    "definition": "the skill of managing relations between countries peacefully",
+    "blanked": "Through ______ rather than fighting, the two nations resolved their border dispute.",
+    "options": [
+      "prodigious",
+      "draconian",
+      "devastate",
+      "diplomacy"
+    ],
+    "correctAnswer": "diplomacy",
+    "status": "PENDING"
+  },
+  {
+    "word": "dire",
+    "definition": "very serious or urgent",
+    "blanked": "The animals were in ______ need of water after the creek dried up during the drought.",
+    "options": [
+      "dire",
+      "tangential",
+      "elevate",
+      "procrastinate"
+    ],
+    "correctAnswer": "dire",
+    "status": "PENDING"
+  },
+  {
+    "word": "discourse",
+    "definition": "written or spoken talk about a serious idea",
+    "blanked": "The classroom ______ about climate change involved each student sharing research findings.",
+    "options": [
+      "discourse",
+      "termagant",
+      "grievance",
+      "restitution"
+    ],
+    "correctAnswer": "discourse",
+    "status": "PENDING"
+  },
+  {
+    "word": "discretion",
+    "definition": "the freedom to decide what should be done; also, being careful not to share secrets",
+    "blanked": "Use your ______ when choosing partners—pick someone who works well with you.",
+    "options": [
+      "discretion",
+      "appraisal",
+      "agenda",
+      "fecund"
+    ],
+    "correctAnswer": "discretion",
+    "status": "PENDING"
+  },
+  {
+    "word": "disperse",
+    "definition": "to spread out or scatter in different directions",
+    "blanked": "When the bell rang, the crowd began to ______ and students walked to their classrooms.",
+    "options": [
+      "elevate",
+      "disperse",
+      "insignificant",
+      "prodigious"
+    ],
+    "correctAnswer": "disperse",
+    "status": "PENDING"
+  },
+  {
+    "word": "disposition",
+    "definition": "a person's natural tendency in behavior or mood",
+    "blanked": "The golden retriever has a friendly ______ and wags its tail at everyone.",
+    "options": [
+      "disposition",
+      "encompass",
+      "delusion",
+      "incline"
+    ],
+    "correctAnswer": "disposition",
+    "status": "PENDING"
+  },
+  {
+    "word": "disrupt",
+    "definition": "to interrupt and prevent something from continuing normally",
+    "blanked": "The fire alarm will ______ class, but safety drills are important practice.",
+    "options": [
+      "forfeit",
+      "input",
+      "tepid",
+      "disrupt"
+    ],
+    "correctAnswer": "disrupt",
+    "status": "PENDING"
+  },
+  {
+    "word": "dissent",
+    "definition": "the act of disagreeing with an official ruling or decision",
+    "blanked": "Two judges expressed ______, disagreeing with the court's final decision.",
+    "options": [
+      "dissent",
+      "reciprocity",
+      "reservoir",
+      "unequivocal"
+    ],
+    "correctAnswer": "dissent",
+    "status": "PENDING"
+  },
+  {
+    "word": "doctrine",
+    "definition": "a set of ideas about what is right or rules taught by a group or government",
+    "blanked": "The Monroe ______ stated that European countries should not interfere in the Americas.",
+    "options": [
+      "sanction",
+      "internecine",
+      "output",
+      "doctrine"
+    ],
+    "correctAnswer": "doctrine",
+    "status": "PENDING"
+  },
+  {
+    "word": "dwelling",
+    "definition": "a place where someone lives; a home",
+    "blanked": "The cliff ______ were homes carved into rock faces by ancient Pueblo people.",
+    "options": [
+      "dwelling",
+      "preface",
+      "credible",
+      "primordial"
+    ],
+    "correctAnswer": "dwelling",
+    "status": "PENDING"
+  },
+  {
+    "word": "dynasty",
+    "definition": "a line of rulers from the same family",
+    "blanked": "The Ming ______ ruled China for nearly three hundred years and built the Forbidden City.",
+    "options": [
+      "dynasty",
+      "semblance",
+      "accuse",
+      "exponent"
+    ],
+    "correctAnswer": "dynasty",
+    "status": "PENDING"
+  },
+  {
+    "word": "electrode",
+    "definition": "a conductor through which electric current enters or leaves a device",
+    "blanked": "The battery has two ______—one positive and one negative—that allow current to flow.",
+    "options": [
+      "metabolism",
+      "turbulent",
+      "electrode",
+      "probity"
+    ],
+    "correctAnswer": "electrode",
+    "status": "PENDING"
+  },
+  {
+    "word": "eloquent",
+    "definition": "speaking in a moving and powerful way that wins people over",
+    "blanked": "The student gave an ______ speech that moved the entire audience to tears.",
+    "options": [
+      "senate",
+      "alter",
+      "contact",
+      "eloquent"
+    ],
+    "correctAnswer": "eloquent",
+    "status": "PENDING"
+  },
+  {
+    "word": "embassy",
+    "definition": "the building where a country's diplomatic officials work in another country",
+    "blanked": "If you lose your passport while traveling, visit your country's ______ for help.",
+    "options": [
+      "adjunct",
+      "embassy",
+      "insignificant",
+      "enthusiasm"
+    ],
+    "correctAnswer": "embassy",
+    "status": "PENDING"
+  },
+  {
+    "word": "encompass",
+    "definition": "to include or contain a wide range of things",
+    "blanked": "The national park ______ forests, rivers, mountains, and meadows across five hundred square miles.",
+    "options": [
+      "encompass",
+      "inflation",
+      "provenance",
+      "prodigious"
+    ],
+    "correctAnswer": "encompass",
+    "status": "PENDING"
+  },
+  {
+    "word": "endorse",
+    "definition": "to publicly support or suggest something",
+    "blanked": "The famous athlete agreed to ______ the new running shoe by wearing it in every race.",
+    "options": [
+      "aggressive",
+      "repudiate",
+      "metabolism",
+      "endorse"
+    ],
+    "correctAnswer": "endorse",
+    "status": "PENDING"
+  },
+  {
+    "word": "envision",
+    "definition": "to imagine or picture something in your mind, especially the future",
+    "blanked": "She could ______ the empty lot transformed into a thriving community garden.",
+    "options": [
+      "accretion",
+      "bowdlerize",
+      "abate",
+      "envision"
+    ],
+    "correctAnswer": "envision",
+    "status": "PENDING"
+  },
+  {
+    "word": "epidemic",
+    "definition": "a sickness that spreads quickly to many people in an area",
+    "blanked": "The flu ______ kept so many students home that the school closed for a week.",
+    "options": [
+      "tantamount",
+      "canard",
+      "labor",
+      "epidemic"
+    ],
+    "correctAnswer": "epidemic",
+    "status": "PENDING"
+  },
+  {
+    "word": "equilibrium",
+    "definition": "a state of balance where opposing forces are equal",
+    "blanked": "A seesaw reaches ______ when both children weigh the same, and it stays level.",
+    "options": [
+      "presentiment",
+      "devolution",
+      "captive",
+      "equilibrium"
+    ],
+    "correctAnswer": "equilibrium",
+    "status": "PENDING"
+  },
+  {
+    "word": "escalate",
+    "definition": "to become more serious or very strong step by step",
+    "blanked": "A small argument can quickly ______ into a big fight if no one stays calm.",
+    "options": [
+      "tenacity",
+      "escalate",
+      "significance",
+      "subterfuge"
+    ],
+    "correctAnswer": "escalate",
+    "status": "PENDING"
+  },
+  {
+    "word": "espionage",
+    "definition": "the act of spying to learn secret information",
+    "blanked": "The spy movie was full of ______ with agents using hidden cameras and secret codes.",
+    "options": [
+      "virtuosity",
+      "espionage",
+      "spurious",
+      "monopolize"
+    ],
+    "correctAnswer": "espionage",
+    "status": "PENDING"
+  },
+  {
+    "word": "ethnic",
+    "definition": "about a group who share culture, language, and traditions",
+    "blanked": "The festival celebrated ______ diversity with food, music, and dances from around the world.",
+    "options": [
+      "client",
+      "disrupt",
+      "paucity",
+      "ethnic"
+    ],
+    "correctAnswer": "ethnic",
+    "status": "PENDING"
+  },
+  {
+    "word": "evacuate",
+    "definition": "to leave a dangerous place quickly for safety",
+    "blanked": "Firefighters told everyone to ______ the building immediately when smoke filled the hallway.",
+    "options": [
+      "preside",
+      "rescind",
+      "dilapidation",
+      "evacuate"
+    ],
+    "correctAnswer": "evacuate",
+    "status": "PENDING"
+  },
+  {
+    "word": "exert",
+    "definition": "to use power or effort to do something",
+    "blanked": "You have to ______ a lot of force to push open the heavy iron gate.",
+    "options": [
+      "exert",
+      "grandiosity",
+      "preside",
+      "scrutinize"
+    ],
+    "correctAnswer": "exert",
+    "status": "PENDING"
+  },
+  {
+    "word": "exile",
+    "definition": "being forced to leave your home country as punishment",
+    "blanked": "The king was sent into ______ and spent the rest of his life in a foreign country.",
+    "options": [
+      "exile",
+      "minimal",
+      "statistic",
+      "facilitation"
+    ],
+    "correctAnswer": "exile",
+    "status": "PENDING"
+  },
+  {
+    "word": "expenditure",
+    "definition": "the amount of money spent on something",
+    "blanked": "The school's biggest ______ this year was buying new laptops for every classroom.",
+    "options": [
+      "expenditure",
+      "simultaneous",
+      "deterrence",
+      "concept"
+    ],
+    "correctAnswer": "expenditure",
+    "status": "PENDING"
+  },
+  {
+    "word": "faction",
+    "definition": "a small group within a larger one that disagrees with the majority",
+    "blanked": "A ______ of students wanted pizza while the rest of the class voted for tacos.",
+    "options": [
+      "cylinder",
+      "bolster",
+      "faction",
+      "tenure"
+    ],
+    "correctAnswer": "faction",
+    "status": "PENDING"
+  },
+  {
+    "word": "fluctuation",
+    "definition": "irregular rising and falling; unsteady change",
+    "blanked": "The ______ in temperature from hot to cold made it hard to decide what to wear.",
+    "options": [
+      "fluctuation",
+      "quagmire",
+      "edification",
+      "terminal"
+    ],
+    "correctAnswer": "fluctuation",
+    "status": "PENDING"
+  },
+  {
+    "word": "forfeit",
+    "definition": "to lose or give up something as a penalty",
+    "blanked": "If your team doesn't show up, you ______ the game, and the other team wins automatically.",
+    "options": [
+      "accuse",
+      "forfeit",
+      "quota",
+      "meritocracy"
+    ],
+    "correctAnswer": "forfeit",
+    "status": "PENDING"
+  },
+  {
+    "word": "formidable",
+    "definition": "causing fear or respect by being very strong or good at what they do",
+    "blanked": "The opposing center was ______—six feet tall and blocking every shot.",
+    "options": [
+      "clause",
+      "mimic",
+      "quarrelsome",
+      "formidable"
+    ],
+    "correctAnswer": "formidable",
+    "status": "PENDING"
+  },
+  {
+    "word": "fortify",
+    "definition": "to make stronger or more secure against attack",
+    "blanked": "The soldiers used sandbags to ______ the walls against the rising floodwater.",
+    "options": [
+      "indigenous",
+      "preponderance",
+      "fortify",
+      "utilitarian"
+    ],
+    "correctAnswer": "fortify",
+    "status": "PENDING"
+  },
+  {
+    "word": "fraud",
+    "definition": "the crime of tricking people to gain money or advantage through deception",
+    "blanked": "The scammer committed ______ by selling fake concert tickets that didn't actually exist.",
+    "options": [
+      "beneficiary",
+      "protracted",
+      "prospectus",
+      "fraud"
+    ],
+    "correctAnswer": "fraud",
+    "status": "PENDING"
+  },
+  {
+    "word": "frugal",
+    "definition": "careful with money; avoiding waste",
+    "blanked": "My ______ grandmother reuses wrapping paper and never throws away leftovers.",
+    "options": [
+      "frugal",
+      "assimilation",
+      "abandon",
+      "vegetation"
+    ],
+    "correctAnswer": "frugal",
+    "status": "PENDING"
+  },
+  {
+    "word": "garrison",
+    "definition": "a group of soldiers stationed at a fort to protect it",
+    "blanked": "The ______ of two hundred soldiers guarded the fort day and night.",
+    "options": [
+      "garrison",
+      "inflation",
+      "depot",
+      "dynamic"
+    ],
+    "correctAnswer": "garrison",
+    "status": "PENDING"
+  },
+  {
+    "word": "gazette",
+    "definition": "a newspaper or official journal",
+    "blanked": "The town ______ published a story about the record-breaking pumpkin grown by a local farmer.",
+    "options": [
+      "atom",
+      "retrospect",
+      "differentiate",
+      "gazette"
+    ],
+    "correctAnswer": "gazette",
+    "status": "PENDING"
+  },
+  {
+    "word": "geologist",
+    "definition": "a scientist who studies rocks, minerals, and Earth's structure",
+    "blanked": "The ______ examined the layers of rock in the cliff to find out how old they were.",
+    "options": [
+      "populate",
+      "arctic",
+      "geologist",
+      "anarchy"
+    ],
+    "correctAnswer": "geologist",
+    "status": "PENDING"
+  },
+  {
+    "word": "gorge",
+    "definition": "a narrow valley with steep rocky walls, often with a river at the bottom",
+    "blanked": "The river had carved a deep ______ through the rock over millions of years.",
+    "options": [
+      "prosecute",
+      "gorge",
+      "volatile",
+      "rancor"
+    ],
+    "correctAnswer": "gorge",
+    "status": "PENDING"
+  },
+  {
+    "word": "gradient",
+    "definition": "the rate at which something changes, especially heat or slope",
+    "blanked": "The steep ______ of the hill made cyclists shift to their lowest gear.",
+    "options": [
+      "terse",
+      "censor",
+      "disperse",
+      "gradient"
+    ],
+    "correctAnswer": "gradient",
+    "status": "PENDING"
+  },
+  {
+    "word": "grapple",
+    "definition": "to struggle or wrestle with something hard",
+    "blanked": "Students ______ with long division before it finally clicks and becomes easy.",
+    "options": [
+      "grapple",
+      "ignite",
+      "expenditure",
+      "gerrymandering"
+    ],
+    "correctAnswer": "grapple",
+    "status": "PENDING"
+  },
+  {
+    "word": "grassland",
+    "definition": "a large area of land covered especially with grass rather than trees",
+    "blanked": "The African ______ are home to zebras, lions, and huge herds of wildebeest.",
+    "options": [
+      "anonymous",
+      "grassland",
+      "trenchant",
+      "renunciation"
+    ],
+    "correctAnswer": "grassland",
+    "status": "PENDING"
+  },
+  {
+    "word": "grievance",
+    "definition": "a formal complaint about something believed to be wrong or unfair",
+    "blanked": "The workers filed a ______ because they were not being paid for overtime hours.",
+    "options": [
+      "vociferous",
+      "sardonic",
+      "fulminate",
+      "grievance"
+    ],
+    "correctAnswer": "grievance",
+    "status": "PENDING"
+  },
+  {
+    "word": "gross",
+    "definition": "the total amount before deductions, or disgusting",
+    "blanked": "The company's ______ income was one million dollars before paying taxes and expenses.",
+    "options": [
+      "gross",
+      "disclose",
+      "squalid",
+      "delineation"
+    ],
+    "correctAnswer": "gross",
+    "status": "PENDING"
+  },
+  {
+    "word": "humanitarian",
+    "definition": "concerned with helping people who are suffering",
+    "blanked": "The ______ group sent food, water, and medicine to earthquake survivors.",
+    "options": [
+      "bequest",
+      "inject",
+      "procedure",
+      "humanitarian"
+    ],
+    "correctAnswer": "humanitarian",
+    "status": "PENDING"
+  },
+  {
+    "word": "ignite",
+    "definition": "to catch fire or cause something to start burning",
+    "blanked": "A single spark from the campfire can ______ dry leaves and start a forest fire.",
+    "options": [
+      "repudiate",
+      "battalion",
+      "sardonic",
+      "ignite"
+    ],
+    "correctAnswer": "ignite",
+    "status": "PENDING"
+  },
+  {
+    "word": "impeach",
+    "definition": "to charge a public official with serious misconduct while in office",
+    "blanked": "Congress has the power to ______ a president who breaks the law while serving.",
+    "options": [
+      "tantamount",
+      "hubris",
+      "portentous",
+      "impeach"
+    ],
+    "correctAnswer": "impeach",
+    "status": "PENDING"
+  },
+  {
+    "word": "imperial",
+    "definition": "relating to an empire or its ruler",
+    "blanked": "The ______ palace in Beijing was home to Chinese emperors for five hundred years.",
+    "options": [
+      "elation",
+      "preliminary",
+      "imperial",
+      "anathema"
+    ],
+    "correctAnswer": "imperial",
+    "status": "PENDING"
+  },
+  {
+    "word": "incidence",
+    "definition": "how often something occurs in a certain group or area",
+    "blanked": "The ______ of cavities dropped after the school started a daily tooth-brushing program.",
+    "options": [
+      "context",
+      "commerce",
+      "nullify",
+      "incidence"
+    ],
+    "correctAnswer": "incidence",
+    "status": "PENDING"
+  },
+  {
+    "word": "indigenous",
+    "definition": "by nature belonging to a place; native",
+    "blanked": "The kangaroo is ______ to Australia and is not found wild anywhere else in the world.",
+    "options": [
+      "bolster",
+      "indigenous",
+      "bifurcate",
+      "gross"
+    ],
+    "correctAnswer": "indigenous",
+    "status": "PENDING"
+  },
+  {
+    "word": "infrastructure",
+    "definition": "the simple things a country needs to work, like roads and power",
+    "blanked": "Good ______ like smooth roads and reliable power helps a city grow.",
+    "options": [
+      "espionage",
+      "denounce",
+      "infrastructure",
+      "capitulation"
+    ],
+    "correctAnswer": "infrastructure",
+    "status": "PENDING"
+  },
+  {
+    "word": "inject",
+    "definition": "to put liquid into something using a needle or force",
+    "blanked": "The nurse will ______ the vaccine into your arm with a tiny needle that barely stings.",
+    "options": [
+      "inject",
+      "sovereign",
+      "continental",
+      "condition"
+    ],
+    "correctAnswer": "inject",
+    "status": "PENDING"
+  },
+  {
+    "word": "innate",
+    "definition": "born with a quality or trait; not learned through experience",
+    "blanked": "Some people seem to have an ______ talent for music—they can play by ear without lessons.",
+    "options": [
+      "endorse",
+      "allot",
+      "frugal",
+      "innate"
+    ],
+    "correctAnswer": "innate",
+    "status": "PENDING"
+  },
+  {
+    "word": "innovate",
+    "definition": "to bring in new ideas or methods that improve things",
+    "blanked": "The company constantly tries to ______ by making products no one has thought of before.",
+    "options": [
+      "innovate",
+      "fallacious",
+      "retrospective",
+      "render"
+    ],
+    "correctAnswer": "innovate",
+    "status": "PENDING"
+  },
+  {
+    "word": "inoculate",
+    "definition": "to give a vaccine to protect against a sickness",
+    "blanked": "Doctors ______ babies against risky diseases in their first year of life.",
+    "options": [
+      "inoculate",
+      "discourse",
+      "unscrupulous",
+      "rigmarole"
+    ],
+    "correctAnswer": "inoculate",
+    "status": "PENDING"
+  },
+  {
+    "word": "input",
+    "definition": "ideas or info added to project, or facts and numbers typed into a computer",
+    "blanked": "The teacher asked for ______ from every student when deciding on the field trip destination.",
+    "options": [
+      "input",
+      "temperance",
+      "impulse",
+      "candor"
+    ],
+    "correctAnswer": "input",
+    "status": "PENDING"
+  },
+  {
+    "word": "inscription",
+    "definition": "words carved or written on something as a permanent record",
+    "blanked": "The ______ on the old tombstone was so worn that only a few letters remained readable.",
+    "options": [
+      "inscription",
+      "proprietary",
+      "embassy",
+      "notorious"
+    ],
+    "correctAnswer": "inscription",
+    "status": "PENDING"
+  },
+  {
+    "word": "insignificant",
+    "definition": "too small or small; not very important to matter",
+    "blanked": "The tiny scratch on the car was so ______ that nobody even noticed it.",
+    "options": [
+      "insignificant",
+      "career",
+      "orient",
+      "context"
+    ],
+    "correctAnswer": "insignificant",
+    "status": "PENDING"
+  },
+  {
+    "word": "intact",
+    "definition": "whole and not hurt or broken; not broken",
+    "blanked": "Amazingly, the glass vase survived the earthquake and remained completely ______.",
+    "options": [
+      "paragon",
+      "preeminent",
+      "extenuating",
+      "intact"
+    ],
+    "correctAnswer": "intact",
+    "status": "PENDING"
+  },
+  {
+    "word": "interim",
+    "definition": "for a short time; serving during the time between two events",
+    "blanked": "An ______ principal led the school for two months while they searched for a permanent one.",
+    "options": [
+      "coherent",
+      "rationale",
+      "restitution",
+      "interim"
+    ],
+    "correctAnswer": "interim",
+    "status": "PENDING"
+  },
+  {
+    "word": "intersection",
+    "definition": "a place where two roads or lines cross each other",
+    "blanked": "Always look both ways at an ______ before crossing the street.",
+    "options": [
+      "ostracism",
+      "intersection",
+      "declare",
+      "prevalent"
+    ],
+    "correctAnswer": "intersection",
+    "status": "PENDING"
+  },
+  {
+    "word": "intimate",
+    "definition": "very close and personal, or private",
+    "blanked": "He shared the ______ details of his childhood with only his closest friends.",
+    "options": [
+      "intimate",
+      "tenure",
+      "reticence",
+      "dwelling"
+    ],
+    "correctAnswer": "intimate",
+    "status": "PENDING"
+  },
+  {
+    "word": "intrepid",
+    "definition": "fearless and bold",
+    "blanked": "The ______ explorer ventured into the unknown jungle where no human had gone before.",
+    "options": [
+      "accretion",
+      "assembly",
+      "intrepid",
+      "semblance"
+    ],
+    "correctAnswer": "intrepid",
+    "status": "PENDING"
+  },
+  {
+    "word": "intrinsic",
+    "definition": "belonging to something as a simple and needed part",
+    "blanked": "Curiosity is an ______ part of being a scientist—they always want to know why.",
+    "options": [
+      "aberration",
+      "intrinsic",
+      "quarantine",
+      "probity"
+    ],
+    "correctAnswer": "intrinsic",
+    "status": "PENDING"
+  },
+  {
+    "word": "inventory",
+    "definition": "a complete list of things in stock or owned",
+    "blanked": "The store clerk counted every item to make sure the ______ matched the computer records.",
+    "options": [
+      "inventory",
+      "arbitrary",
+      "drain",
+      "execute"
+    ],
+    "correctAnswer": "inventory",
+    "status": "PENDING"
+  },
+  {
+    "word": "irrational",
+    "definition": "not based on reason or logic",
+    "blanked": "His fear of butterflies was completely ______—they cannot harm anyone.",
+    "options": [
+      "irrational",
+      "enfranchisement",
+      "stipend",
+      "confederation"
+    ],
+    "correctAnswer": "irrational",
+    "status": "PENDING"
+  },
+  {
+    "word": "isle",
+    "definition": "a small island",
+    "blanked": "The tiny ______ in the middle of the lake had just one palm tree, and a sandy beach.",
+    "options": [
+      "stagnation",
+      "subterfuge",
+      "isle",
+      "convergence"
+    ],
+    "correctAnswer": "isle",
+    "status": "PENDING"
+  },
+  {
+    "word": "jargon",
+    "definition": "special words used by a certain job that people not in the group find hard to understand",
+    "blanked": "The doctor used so much medical ______ that the patient had to ask what every word meant.",
+    "options": [
+      "jargon",
+      "abjure",
+      "council",
+      "menace"
+    ],
+    "correctAnswer": "jargon",
+    "status": "PENDING"
+  },
+  {
+    "word": "judicial",
+    "definition": "relating to courts, judges, and legal decisions",
+    "blanked": "The ______ branch of government includes all the courts and judges in the country.",
+    "options": [
+      "judicial",
+      "legislation",
+      "arctic",
+      "retrieve"
+    ],
+    "correctAnswer": "judicial",
+    "status": "PENDING"
+  },
+  {
+    "word": "jurisdiction",
+    "definition": "the official power to make legal decisions in a certain area",
+    "blanked": "The city police have ______ within town limits, but the sheriff covers the county.",
+    "options": [
+      "rancor",
+      "jurisdiction",
+      "jargon",
+      "disposition"
+    ],
+    "correctAnswer": "jurisdiction",
+    "status": "PENDING"
+  },
+  {
+    "word": "juvenile",
+    "definition": "young and not fully grown, or acting childishly",
+    "blanked": "The ______ eagle still had brown feathers and wouldn't grow its white head for two more years.",
+    "options": [
+      "juvenile",
+      "espionage",
+      "temperance",
+      "frugal"
+    ],
+    "correctAnswer": "juvenile",
+    "status": "PENDING"
+  },
+  {
+    "word": "kinetic",
+    "definition": "relating to or caused by movement and the energy it produces",
+    "blanked": "A rolling bowling ball has ______ energy that transfers to the pins when it hits them.",
+    "options": [
+      "kinetic",
+      "tractable",
+      "agitate",
+      "prospectus"
+    ],
+    "correctAnswer": "kinetic",
+    "status": "PENDING"
+  },
+  {
+    "word": "lapse",
+    "definition": "a brief failure or slip, or a period of time passing",
+    "blanked": "After a ______ of ten seconds, she remembered the answer and shouted it out.",
+    "options": [
+      "opulence",
+      "lapse",
+      "declination",
+      "abstraction"
+    ],
+    "correctAnswer": "lapse",
+    "status": "PENDING"
+  },
+  {
+    "word": "legislation",
+    "definition": "laws that have been made by a government",
+    "blanked": "New ______ requires all restaurants to list the calories in each menu item.",
+    "options": [
+      "legislation",
+      "unfold",
+      "memoir",
+      "unscrupulous"
+    ],
+    "correctAnswer": "legislation",
+    "status": "PENDING"
+  },
+  {
+    "word": "liaison",
+    "definition": "a person who helps two groups talk and work together",
+    "blanked": "The parent ______ between the school and families helped translate newsletters into five languages.",
+    "options": [
+      "liaison",
+      "pedagogue",
+      "presentiment",
+      "plethora"
+    ],
+    "correctAnswer": "liaison",
+    "status": "PENDING"
+  },
+  {
+    "word": "lucrative",
+    "definition": "producing a lot of profit or money",
+    "blanked": "Selling homemade cookies at the fair turned out to be quite ______—she earned eighty dollars.",
+    "options": [
+      "lucrative",
+      "awkward",
+      "surveillance",
+      "pulchritude"
+    ],
+    "correctAnswer": "lucrative",
+    "status": "PENDING"
+  },
+  {
+    "word": "magistrate",
+    "definition": "a judge who handles minor legal cases",
+    "blanked": "The ______ settled the small dispute between neighbors over a noisy dog.",
+    "options": [
+      "adjunct",
+      "correlation",
+      "magistrate",
+      "entitled"
+    ],
+    "correctAnswer": "magistrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "manuscript",
+    "definition": "a written or typed text, especially an author's original draft",
+    "blanked": "The author mailed her finished ______ to the publisher and waited nervously for a reply.",
+    "options": [
+      "manuscript",
+      "ecology",
+      "plantation",
+      "industrial"
+    ],
+    "correctAnswer": "manuscript",
+    "status": "PENDING"
+  },
+  {
+    "word": "maritime",
+    "definition": "about the sea, ships, and people who work on ships",
+    "blanked": "The ______ museum displays old ships, navigation tools, and maps used by ancient sailors.",
+    "options": [
+      "threat",
+      "veto",
+      "equip",
+      "maritime"
+    ],
+    "correctAnswer": "maritime",
+    "status": "PENDING"
+  },
+  {
+    "word": "meander",
+    "definition": "to follow a winding path without hurrying",
+    "blanked": "The river ______ through the valley, curving back and forth like a lazy snake.",
+    "options": [
+      "meander",
+      "consume",
+      "asperity",
+      "exile"
+    ],
+    "correctAnswer": "meander",
+    "status": "PENDING"
+  },
+  {
+    "word": "mediate",
+    "definition": "to help two sides reach an agreement by talking to both",
+    "blanked": "The school counselor offered to ______ between the two friends who were fighting.",
+    "options": [
+      "courtesy",
+      "mediate",
+      "anchor",
+      "nitrogen"
+    ],
+    "correctAnswer": "mediate",
+    "status": "PENDING"
+  },
+  {
+    "word": "memoir",
+    "definition": "a book about a person's own memories and experiences",
+    "blanked": "The astronaut wrote a ______ describing what it felt like to see Earth from space.",
+    "options": [
+      "memoir",
+      "clause",
+      "venerate",
+      "asperity"
+    ],
+    "correctAnswer": "memoir",
+    "status": "PENDING"
+  },
+  {
+    "word": "merchandise",
+    "definition": "goods that are bought and sold in stores",
+    "blanked": "The gift shop sold all kinds of ______ with the zoo's logo: t-shirts, mugs, and stuffed animals.",
+    "options": [
+      "indolence",
+      "anathema",
+      "merchandise",
+      "facilitation"
+    ],
+    "correctAnswer": "merchandise",
+    "status": "PENDING"
+  },
+  {
+    "word": "metropolitan",
+    "definition": "about a big city and the towns around it",
+    "blanked": "The ______ area includes the main city plus all the suburbs surrounding it.",
+    "options": [
+      "proselytize",
+      "vitriolic",
+      "opulence",
+      "metropolitan"
+    ],
+    "correctAnswer": "metropolitan",
+    "status": "PENDING"
+  },
+  {
+    "word": "militant",
+    "definition": "willing to use strong or aggressive action for a cause",
+    "blanked": "The ______ protesters blocked the road and refused to move until their demands were met.",
+    "options": [
+      "crude",
+      "platitude",
+      "expediency",
+      "militant"
+    ],
+    "correctAnswer": "militant",
+    "status": "PENDING"
+  },
+  {
+    "word": "militia",
+    "definition": "a group of regular citizens trained to fight in times of danger",
+    "blanked": "During the Revolutionary War, local ______ members grabbed their rifles and joined the fight.",
+    "options": [
+      "novice",
+      "rigorous",
+      "militia",
+      "innate"
+    ],
+    "correctAnswer": "militia",
+    "status": "PENDING"
+  },
+  {
+    "word": "millennium",
+    "definition": "a period of one thousand years",
+    "blanked": "We entered a new ______ when the year changed from 1999 to 2000.",
+    "options": [
+      "millennium",
+      "statute",
+      "dissent",
+      "terminal"
+    ],
+    "correctAnswer": "millennium",
+    "status": "PENDING"
+  },
+  {
+    "word": "mobilize",
+    "definition": "to organize people or resources for action",
+    "blanked": "Volunteers ______ quickly to fill sandbags when the river began rising toward town.",
+    "options": [
+      "mobilize",
+      "drain",
+      "embassy",
+      "incisive"
+    ],
+    "correctAnswer": "mobilize",
+    "status": "PENDING"
+  },
+  {
+    "word": "monarchy",
+    "definition": "a form of government ruled by a king or queen",
+    "blanked": "England has a constitutional ______ where the king reigns but Parliament makes the laws.",
+    "options": [
+      "fluctuation",
+      "merit",
+      "seminar",
+      "monarchy"
+    ],
+    "correctAnswer": "monarchy",
+    "status": "PENDING"
+  },
+  {
+    "word": "monetary",
+    "definition": "about money, coins, and currency",
+    "blanked": "The ______ value of the old coin was five hundred dollars because it was so rare.",
+    "options": [
+      "concede",
+      "monetary",
+      "pulchritude",
+      "tepid"
+    ],
+    "correctAnswer": "monetary",
+    "status": "PENDING"
+  },
+  {
+    "word": "monopolize",
+    "definition": "to have complete control over something allowing no one else a turn",
+    "blanked": "Please don't ______ the swing—let your brother have a turn after five minutes.",
+    "options": [
+      "incandescence",
+      "probity",
+      "reconcile",
+      "monopolize"
+    ],
+    "correctAnswer": "monopolize",
+    "status": "PENDING"
+  },
+  {
+    "word": "morale",
+    "definition": "the confidence and enthusiasm of a person or group",
+    "blanked": "Winning three games in a row boosted the team's ______ and made them believe they could win the championship.",
+    "options": [
+      "immutable",
+      "devolution",
+      "morale",
+      "prowess"
+    ],
+    "correctAnswer": "morale",
+    "status": "PENDING"
+  },
+  {
+    "word": "moratorium",
+    "definition": "a temporary ban on an activity",
+    "blanked": "The city placed a ______ on new building until they could fix the overcrowded roads.",
+    "options": [
+      "sedentary",
+      "threat",
+      "moratorium",
+      "exponent"
+    ],
+    "correctAnswer": "moratorium",
+    "status": "PENDING"
+  },
+  {
+    "word": "mortgage",
+    "definition": "a loan from a bank to buy a house, paid back over many years",
+    "blanked": "Most families take out a ______ to buy a home because houses cost hundreds of thousands of dollars.",
+    "options": [
+      "reconciliation",
+      "reconcile",
+      "mortgage",
+      "wherewithal"
+    ],
+    "correctAnswer": "mortgage",
+    "status": "PENDING"
+  },
+  {
+    "word": "mutiny",
+    "definition": "a rebellion by soldiers or sailors against their commanders",
+    "blanked": "The crew staged a ______ against the cruel captain and took control of the ship.",
+    "options": [
+      "fortify",
+      "rationale",
+      "mutiny",
+      "anchor"
+    ],
+    "correctAnswer": "mutiny",
+    "status": "PENDING"
+  },
+  {
+    "word": "narrate",
+    "definition": "to tell a story or describe events as they happen",
+    "blanked": "The nature documentary was ______ by a voice that described each animal's behavior.",
+    "options": [
+      "proselytize",
+      "narrate",
+      "asperity",
+      "per capita"
+    ],
+    "correctAnswer": "narrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "nationalism",
+    "definition": "strong pride and loyalty toward one's own country",
+    "blanked": "______ grew stronger as citizens united to compete in the Olympic Games.",
+    "options": [
+      "explication",
+      "divergent",
+      "proprietary",
+      "nationalism"
+    ],
+    "correctAnswer": "nationalism",
+    "status": "PENDING"
+  },
+  {
+    "word": "niche",
+    "definition": "a special role or position that fits someone or something perfectly",
+    "blanked": "The woodpecker fills a ______ in the ecosystem by eating insects hiding under bark.",
+    "options": [
+      "niche",
+      "consanguinity",
+      "ordinance",
+      "plausible"
+    ],
+    "correctAnswer": "niche",
+    "status": "PENDING"
+  },
+  {
+    "word": "nomenclature",
+    "definition": "a system of names used in a particular field of study",
+    "blanked": "In scientific ______, humans are called Homo sapiens.",
+    "options": [
+      "tenure",
+      "nomenclature",
+      "munificence",
+      "congregation"
+    ],
+    "correctAnswer": "nomenclature",
+    "status": "PENDING"
+  },
+  {
+    "word": "nomadic",
+    "definition": "moving from place to place instead of staying in one spot",
+    "blanked": "______ tribes followed herds of animals across the plains for thousands of years.",
+    "options": [
+      "nomadic",
+      "bureaucracy",
+      "earnest",
+      "dormant"
+    ],
+    "correctAnswer": "nomadic",
+    "status": "PENDING"
+  },
+  {
+    "word": "nonpartisan",
+    "definition": "not helping any certain political party",
+    "blanked": "The ______ group invited speakers from each party to share their views equally.",
+    "options": [
+      "ebullience",
+      "categorical",
+      "nonpartisan",
+      "infant"
+    ],
+    "correctAnswer": "nonpartisan",
+    "status": "PENDING"
+  },
+  {
+    "word": "notorious",
+    "definition": "known by many people for something bad",
+    "blanked": "The ______ pirate Blackbeard terrified sailors along the entire Atlantic coast.",
+    "options": [
+      "expenditure",
+      "innovate",
+      "eclipse",
+      "notorious"
+    ],
+    "correctAnswer": "notorious",
+    "status": "PENDING"
+  },
+  {
+    "word": "novice",
+    "definition": "a person who is new to an activity and still learning",
+    "blanked": "As a ______ skier, she stuck to the easy slopes and fell down many times.",
+    "options": [
+      "arise",
+      "doctrine",
+      "novice",
+      "initiative"
+    ],
+    "correctAnswer": "novice",
+    "status": "PENDING"
+  },
+  {
+    "word": "nullify",
+    "definition": "to make something legally void or without effect",
+    "blanked": "The judge chose to ______ the unfair contract because one side was tricked into signing.",
+    "options": [
+      "underpinning",
+      "usurpation",
+      "tractable",
+      "nullify"
+    ],
+    "correctAnswer": "nullify",
+    "status": "PENDING"
+  },
+  {
+    "word": "obscure",
+    "definition": "not well known, or difficult to understand",
+    "blanked": "The answer was hidden in an ______ paragraph at the very bottom of page fifty-three.",
+    "options": [
+      "obscure",
+      "exert",
+      "diffusion",
+      "inevitable"
+    ],
+    "correctAnswer": "obscure",
+    "status": "PENDING"
+  },
+  {
+    "word": "obstruct",
+    "definition": "to block a path or prevent progress",
+    "blanked": "The fallen tree ______ the road, so cars had to turn around and find another way.",
+    "options": [
+      "subjugation",
+      "obstruct",
+      "initiative",
+      "insipid"
+    ],
+    "correctAnswer": "obstruct",
+    "status": "PENDING"
+  },
+  {
+    "word": "offset",
+    "definition": "to balance or cancel out the effect of something else",
+    "blanked": "She hoped the extra credit assignment would ______ the low grade she got on the quiz.",
+    "options": [
+      "civic",
+      "offset",
+      "decadence",
+      "rapacious"
+    ],
+    "correctAnswer": "offset",
+    "status": "PENDING"
+  },
+  {
+    "word": "omit",
+    "definition": "to leave something out either on purpose or by accident",
+    "blanked": "Be careful not to ______ any steps when explaining how the test works.",
+    "options": [
+      "moratorium",
+      "tangential",
+      "commemorate",
+      "omit"
+    ],
+    "correctAnswer": "omit",
+    "status": "PENDING"
+  },
+  {
+    "word": "onset",
+    "definition": "the start of something, especially something unpleasant",
+    "blanked": "The ______ of winter brought freezing temperatures, and the first snowfall of the year.",
+    "options": [
+      "obscure",
+      "espionage",
+      "outrage",
+      "onset"
+    ],
+    "correctAnswer": "onset",
+    "status": "PENDING"
+  },
+  {
+    "word": "opaque",
+    "definition": "not able to be seen through; not clear",
+    "blanked": "The ______ curtains blocked all sunlight, making the bedroom completely dark.",
+    "options": [
+      "opaque",
+      "destitution",
+      "conform",
+      "nonpartisan"
+    ],
+    "correctAnswer": "opaque",
+    "status": "PENDING"
+  },
+  {
+    "word": "optimize",
+    "definition": "to make something as good or effective as possible",
+    "blanked": "The coach helped players ______ their running form to shave seconds off their times.",
+    "options": [
+      "fruition",
+      "excoriate",
+      "integrity",
+      "optimize"
+    ],
+    "correctAnswer": "optimize",
+    "status": "PENDING"
+  },
+  {
+    "word": "ordinance",
+    "definition": "a law or rule made by a city government",
+    "blanked": "The new ______ says all dogs must be on a leash when walking on city sidewalks.",
+    "options": [
+      "reciprocity",
+      "superfluous",
+      "federal",
+      "ordinance"
+    ],
+    "correctAnswer": "ordinance",
+    "status": "PENDING"
+  },
+  {
+    "word": "oscillate",
+    "definition": "to move back and forth in a regular rhythm",
+    "blanked": "The pendulum in a grandfather clock ______ back and forth once every second.",
+    "options": [
+      "exponentiation",
+      "temerity",
+      "oscillate",
+      "merit"
+    ],
+    "correctAnswer": "oscillate",
+    "status": "PENDING"
+  },
+  {
+    "word": "outbreak",
+    "definition": "a sudden burst of something bad, like a sickness",
+    "blanked": "The ______ of chicken pox affected fifteen students in just one week.",
+    "options": [
+      "outbreak",
+      "threat",
+      "amalgamation",
+      "vociferous"
+    ],
+    "correctAnswer": "outbreak",
+    "status": "PENDING"
+  },
+  {
+    "word": "outskirts",
+    "definition": "the outer edges of a town or city",
+    "blanked": "The new shopping center was built on the ______ of town where there was more open land.",
+    "options": [
+      "dominant",
+      "dereliction",
+      "archive",
+      "outskirts"
+    ],
+    "correctAnswer": "outskirts",
+    "status": "PENDING"
+  },
+  {
+    "word": "overhaul",
+    "definition": "to take apart and repair something thoroughly",
+    "blanked": "The mechanic needed to ______ the entire engine by taking it apart and replacing worn pieces.",
+    "options": [
+      "overhaul",
+      "diplomat",
+      "refuge",
+      "preface"
+    ],
+    "correctAnswer": "overhaul",
+    "status": "PENDING"
+  },
+  {
+    "word": "oversight",
+    "definition": "a mistake from not noticing, or the job of watching over",
+    "blanked": "Forgetting to invite Jake to the party was a complete ______—we didn't mean to leave him out.",
+    "options": [
+      "panacea",
+      "drain",
+      "tepid",
+      "oversight"
+    ],
+    "correctAnswer": "oversight",
+    "status": "PENDING"
+  },
+  {
+    "word": "overt",
+    "definition": "done openly without any try to hide",
+    "blanked": "His ______ enthusiasm was obvious—he jumped up and cheered before the teacher even finished speaking.",
+    "options": [
+      "superb",
+      "anachronism",
+      "anomalous",
+      "overt"
+    ],
+    "correctAnswer": "overt",
+    "status": "PENDING"
+  },
+  {
+    "word": "paradigm",
+    "definition": "a typical example or pattern that serves as a model",
+    "blanked": "The smartphone created a new ______ for how people talk and access facts.",
+    "options": [
+      "paradigm",
+      "gratuitous",
+      "chagrin",
+      "onerous"
+    ],
+    "correctAnswer": "paradigm",
+    "status": "PENDING"
+  },
+  {
+    "word": "paradox",
+    "definition": "a statement that seems to clash with itself but may be true",
+    "blanked": "It's a ______ that standing still in a long line can feel longer than walking a mile.",
+    "options": [
+      "recidivism",
+      "aggrandize",
+      "convergence",
+      "paradox"
+    ],
+    "correctAnswer": "paradox",
+    "status": "PENDING"
+  },
+  {
+    "word": "parliament",
+    "definition": "the group of elected people who make laws in some countries",
+    "blanked": "The British ______ meets in the Palace of Westminster in London.",
+    "options": [
+      "anarchy",
+      "stake",
+      "extenuating",
+      "parliament"
+    ],
+    "correctAnswer": "parliament",
+    "status": "PENDING"
+  },
+  {
+    "word": "partisan",
+    "definition": "strongly supporting one side in a conflict or political party",
+    "blanked": "The ______ debate got heated as each side refused to think of the other's point of view.",
+    "options": [
+      "semblance",
+      "wage",
+      "geologist",
+      "partisan"
+    ],
+    "correctAnswer": "partisan",
+    "status": "PENDING"
+  },
+  {
+    "word": "patrimony",
+    "definition": "property or values inherited from one's father or ancestors",
+    "blanked": "The ancient castle was part of the family's ______ passed down for twelve generations.",
+    "options": [
+      "affiliate",
+      "patrimony",
+      "craft",
+      "aristocratic"
+    ],
+    "correctAnswer": "patrimony",
+    "status": "PENDING"
+  },
+  {
+    "word": "patronage",
+    "definition": "the support given by patrons or customers of a business",
+    "blanked": "The small bookstore survived thanks to the ______ of loyal neighborhood readers.",
+    "options": [
+      "felicity",
+      "animosity",
+      "wherewithal",
+      "patronage"
+    ],
+    "correctAnswer": "patronage",
+    "status": "PENDING"
+  },
+  {
+    "word": "pedagogy",
+    "definition": "the method and practice of teaching",
+    "blanked": "Her ______ included hands-on experiments because she believed students learn by doing.",
+    "options": [
+      "pedagogy",
+      "oscillation",
+      "monarchy",
+      "devolution"
+    ],
+    "correctAnswer": "pedagogy",
+    "status": "PENDING"
+  },
+  {
+    "word": "penal",
+    "definition": "about punishing people who break the law",
+    "blanked": "The ______ code lists all crimes and their punishments in the state.",
+    "options": [
+      "forfeit",
+      "employ",
+      "deleterious",
+      "penal"
+    ],
+    "correctAnswer": "penal",
+    "status": "PENDING"
+  },
+  {
+    "word": "per capita",
+    "definition": "for each person; split equally among all people",
+    "blanked": "The ______ income shows how much money each person would get if all earnings were shared equally.",
+    "options": [
+      "per capita",
+      "referendum",
+      "felicity",
+      "cynicism"
+    ],
+    "correctAnswer": "per capita",
+    "status": "PENDING"
+  },
+  {
+    "word": "perennial",
+    "definition": "lasting a very long time, or a plant that lives more than two years",
+    "blanked": "______ flowers come back each spring without needing to be replanted.",
+    "options": [
+      "abandon",
+      "expenditure",
+      "ostracism",
+      "perennial"
+    ],
+    "correctAnswer": "perennial",
+    "status": "PENDING"
+  },
+  {
+    "word": "periphery",
+    "definition": "the outer edge or boundary of something",
+    "blanked": "The shy fox watched from the ______ of the clearing never stepping into the open.",
+    "options": [
+      "periphery",
+      "dereliction",
+      "pugnacious",
+      "pollinate"
+    ],
+    "correctAnswer": "periphery",
+    "status": "PENDING"
+  },
+  {
+    "word": "permeable",
+    "definition": "allowing liquids or gases to pass through",
+    "blanked": "Sandy soil is ______, letting rain soak through quickly to the groundwater below.",
+    "options": [
+      "zealot",
+      "nullify",
+      "permeable",
+      "chancellor"
+    ],
+    "correctAnswer": "permeable",
+    "status": "PENDING"
+  },
+  {
+    "word": "perpetual",
+    "definition": "never ending or changing; lasting for all time",
+    "blanked": "The ______ motion of ocean waves never stops, crashing on the beach day and night.",
+    "options": [
+      "perpetual",
+      "council",
+      "credible",
+      "global"
+    ],
+    "correctAnswer": "perpetual",
+    "status": "PENDING"
+  },
+  {
+    "word": "persecute",
+    "definition": "to treat someone cruelly because of their beliefs, race, or identity",
+    "blanked": "Throughout history, many groups have been ______ for practicing their faith.",
+    "options": [
+      "persecute",
+      "adversity",
+      "concrete",
+      "candor"
+    ],
+    "correctAnswer": "persecute",
+    "status": "PENDING"
+  },
+  {
+    "word": "persona",
+    "definition": "the character or image someone presents to others",
+    "blanked": "On stage, the comedian takes on a goofy ______ that is very different from how he acts at home.",
+    "options": [
+      "persona",
+      "fortify",
+      "internecine",
+      "predominant"
+    ],
+    "correctAnswer": "persona",
+    "status": "PENDING"
+  },
+  {
+    "word": "pertinent",
+    "definition": "relevant and directly related to the matter being discussed",
+    "blanked": "The detective asked only ______ questions that would help solve the case.",
+    "options": [
+      "pertinent",
+      "veracious",
+      "acumen",
+      "begrudge"
+    ],
+    "correctAnswer": "pertinent",
+    "status": "PENDING"
+  },
+  {
+    "word": "pervasive",
+    "definition": "spreading all through and present everywhere",
+    "blanked": "The ______ smell of popcorn filled every hallway as we walked toward the theater.",
+    "options": [
+      "subordination",
+      "evacuate",
+      "fraud",
+      "pervasive"
+    ],
+    "correctAnswer": "pervasive",
+    "status": "PENDING"
+  },
+  {
+    "word": "petroleum",
+    "definition": "a thick oil found deep in the ground, used to make power",
+    "blanked": "______ is pumped from deep underground and refined into gasoline for cars.",
+    "options": [
+      "taxonomy",
+      "veto",
+      "subordination",
+      "petroleum"
+    ],
+    "correctAnswer": "petroleum",
+    "status": "PENDING"
+  },
+  {
+    "word": "philanthropy",
+    "definition": "the practice of giving money to help others and improve society",
+    "blanked": "Her ______ funded the building of a children's hospital that treats patients for free.",
+    "options": [
+      "conceal",
+      "disrupt",
+      "pugnacious",
+      "philanthropy"
+    ],
+    "correctAnswer": "philanthropy",
+    "status": "PENDING"
+  },
+  {
+    "word": "pivotal",
+    "definition": "very important because other things depend on it",
+    "blanked": "The invention of the printing press was a ______ moment that changed how knowledge spread.",
+    "options": [
+      "solace",
+      "conveyance",
+      "significance",
+      "pivotal"
+    ],
+    "correctAnswer": "pivotal",
+    "status": "PENDING"
+  },
+  {
+    "word": "plausible",
+    "definition": "seeming reasonable and likely to be true",
+    "blanked": "His excuse about the bus being late was ______ since it had been snowing all morning.",
+    "options": [
+      "plausible",
+      "commiserate",
+      "fanaticism",
+      "synthetic"
+    ],
+    "correctAnswer": "plausible",
+    "status": "PENDING"
+  },
+  {
+    "word": "plurality",
+    "definition": "the largest number of votes when no one gets more than half",
+    "blanked": "She won with a ______—more votes than anyone else but less than fifty percent of the total.",
+    "options": [
+      "plurality",
+      "bewilderment",
+      "consternation",
+      "condescension"
+    ],
+    "correctAnswer": "plurality",
+    "status": "PENDING"
+  },
+  {
+    "word": "posterity",
+    "definition": "all the people who will live after us",
+    "blanked": "We must protect the rainforest for ______, so our grandchildren can enjoy its wonders.",
+    "options": [
+      "posterity",
+      "simultaneous",
+      "mutiny",
+      "tenant"
+    ],
+    "correctAnswer": "posterity",
+    "status": "PENDING"
+  },
+  {
+    "word": "pragmatic",
+    "definition": "dealing with things in a practical rather than idealistic way",
+    "blanked": "The ______ fix was to fix the leak with tape today and call a plumber the next day.",
+    "options": [
+      "subsidy",
+      "curator",
+      "pragmatic",
+      "grievous"
+    ],
+    "correctAnswer": "pragmatic",
+    "status": "PENDING"
+  },
+  {
+    "word": "precede",
+    "definition": "to come before something else in time or order",
+    "blanked": "Thunder always follows lightning—the flash ______ the boom by several seconds.",
+    "options": [
+      "render",
+      "gorge",
+      "precede",
+      "synthetic"
+    ],
+    "correctAnswer": "precede",
+    "status": "PENDING"
+  },
+  {
+    "word": "precedent",
+    "definition": "an earlier event or decision used as an example for future actions",
+    "blanked": "The court's ruling set a ______ that schools must provide equal resources to all students.",
+    "options": [
+      "exacerbation",
+      "precedent",
+      "render",
+      "grapple"
+    ],
+    "correctAnswer": "precedent",
+    "status": "PENDING"
+  },
+  {
+    "word": "predominant",
+    "definition": "most common, strong, or noticeable",
+    "blanked": "Blue was the ______ color in the painting, covering almost the entire canvas.",
+    "options": [
+      "predominant",
+      "destitution",
+      "fanaticism",
+      "nominate"
+    ],
+    "correctAnswer": "predominant",
+    "status": "PENDING"
+  },
+  {
+    "word": "preface",
+    "definition": "opening words written at the start of a book by the author",
+    "blanked": "In the ______, the author explains why she spent five years researching dinosaurs.",
+    "options": [
+      "employ",
+      "preface",
+      "ingratiate",
+      "niche"
+    ],
+    "correctAnswer": "preface",
+    "status": "PENDING"
+  },
+  {
+    "word": "procurement",
+    "definition": "the process of getting supplies or equipment",
+    "blanked": "The school's ______ department ordered five hundred new desks for the renovation.",
+    "options": [
+      "warranted",
+      "articulate",
+      "nomadic",
+      "procurement"
+    ],
+    "correctAnswer": "procurement",
+    "status": "PENDING"
+  },
+  {
+    "word": "prodigy",
+    "definition": "a young person with exceptional talent or ability",
+    "blanked": "The chess ______ defeated adult grandmasters when he was only nine years old.",
+    "options": [
+      "infant",
+      "substance",
+      "apotheosis",
+      "prodigy"
+    ],
+    "correctAnswer": "prodigy",
+    "status": "PENDING"
+  },
+  {
+    "word": "proficient",
+    "definition": "skilled and competent at doing something",
+    "blanked": "After two years of practice, she became ______ at playing the violin.",
+    "options": [
+      "proficient",
+      "communique",
+      "proscribe",
+      "execute"
+    ],
+    "correctAnswer": "proficient",
+    "status": "PENDING"
+  },
+  {
+    "word": "proliferate",
+    "definition": "to increase rapidly in number or spread widely",
+    "blanked": "Wildflowers ______ in the meadow each spring, turning the field into a carpet of color.",
+    "options": [
+      "proliferate",
+      "monopoly",
+      "immutable",
+      "rigorous"
+    ],
+    "correctAnswer": "proliferate",
+    "status": "PENDING"
+  },
+  {
+    "word": "propaganda",
+    "definition": "ideas spread to sway what people think, often in a one-sided way",
+    "blanked": "During the war, ______ posters encouraged citizens to support the troops.",
+    "options": [
+      "mobilize",
+      "proliferate",
+      "significance",
+      "propaganda"
+    ],
+    "correctAnswer": "propaganda",
+    "status": "PENDING"
+  },
+  {
+    "word": "prosecute",
+    "definition": "to officially charge someone with a crime in court",
+    "blanked": "The district attorney chose to ______ the company for dumping chemicals in the river.",
+    "options": [
+      "placid",
+      "solemn",
+      "anarchy",
+      "prosecute"
+    ],
+    "correctAnswer": "prosecute",
+    "status": "PENDING"
+  },
+  {
+    "word": "prospectus",
+    "definition": "a document giving facts about a school, company, or investment",
+    "blanked": "The college sent a ______ showing campus photos, courses offered, and student activities.",
+    "options": [
+      "prospectus",
+      "doctrine",
+      "threat",
+      "begrudge"
+    ],
+    "correctAnswer": "prospectus",
+    "status": "PENDING"
+  },
+  {
+    "word": "protocol",
+    "definition": "the official rules for how things should be done",
+    "blanked": "Safety ______ requires all visitors to sign in at the front desk before entering the building.",
+    "options": [
+      "aggregation",
+      "protocol",
+      "facilitation",
+      "wherewithal"
+    ],
+    "correctAnswer": "protocol",
+    "status": "PENDING"
+  },
+  {
+    "word": "province",
+    "definition": "a large section of a country with its own local government",
+    "blanked": "Canada is divided into ten ______, each with its own premier and legislature.",
+    "options": [
+      "appreciate",
+      "stake",
+      "contact",
+      "province"
+    ],
+    "correctAnswer": "province",
+    "status": "PENDING"
+  },
+  {
+    "word": "proximity",
+    "definition": "nearness in distance or time",
+    "blanked": "We chose this apartment because of its ______ to the school—it's only a two-minute walk.",
+    "options": [
+      "proximity",
+      "mortgage",
+      "impetus",
+      "backdrop"
+    ],
+    "correctAnswer": "proximity",
+    "status": "PENDING"
+  },
+  {
+    "word": "prudent",
+    "definition": "showing careful judgment to avoid risks",
+    "blanked": "It was ______ to bring an umbrella since the sky looked dark and cloudy.",
+    "options": [
+      "prudent",
+      "consecration",
+      "jargon",
+      "fortification"
+    ],
+    "correctAnswer": "prudent",
+    "status": "PENDING"
+  },
+  {
+    "word": "quarantine",
+    "definition": "a period of isolation to prevent the spread of disease",
+    "blanked": "The sick sailor was put in ______ for two weeks, so he wouldn't infect the crew.",
+    "options": [
+      "quarantine",
+      "input",
+      "commiserate",
+      "impeach"
+    ],
+    "correctAnswer": "quarantine",
+    "status": "PENDING"
+  },
+  {
+    "word": "quorum",
+    "definition": "the minimum number of members needed before a group can make decisions",
+    "blanked": "The club couldn't vote because only eight members showed up, and the ______ required twelve.",
+    "options": [
+      "quorum",
+      "monetary",
+      "lucrative",
+      "intersection"
+    ],
+    "correctAnswer": "quorum",
+    "status": "PENDING"
+  },
+  {
+    "word": "ratify",
+    "definition": "to officially approve and make something valid",
+    "blanked": "Three-quarters of the states must ______ an amendment before it becomes part of the Constitution.",
+    "options": [
+      "ratify",
+      "divergent",
+      "roster",
+      "proscribe"
+    ],
+    "correctAnswer": "ratify",
+    "status": "PENDING"
+  },
+  {
+    "word": "ration",
+    "definition": "a fixed amount of something given to each person when supplies are limited",
+    "blanked": "During the war each family received a weekly ______ of sugar, butter, and meat.",
+    "options": [
+      "ration",
+      "intercept",
+      "blur",
+      "causation"
+    ],
+    "correctAnswer": "ration",
+    "status": "PENDING"
+  },
+  {
+    "word": "recess",
+    "definition": "a break from work or school, or a hidden alcove",
+    "blanked": "The students raced outside for ______ and immediately started a game of kickball.",
+    "options": [
+      "replicate",
+      "grassland",
+      "recess",
+      "charity"
+    ],
+    "correctAnswer": "recess",
+    "status": "PENDING"
+  },
+  {
+    "word": "reconcile",
+    "definition": "to restore a friendly relationship after a conflict",
+    "blanked": "The two best friends decided to ______ after a week of not speaking to each other.",
+    "options": [
+      "covetous",
+      "reconcile",
+      "expenditure",
+      "deterrence"
+    ],
+    "correctAnswer": "reconcile",
+    "status": "PENDING"
+  },
+  {
+    "word": "referendum",
+    "definition": "a vote in which all citizens decide on a single important question",
+    "blanked": "Citizens voted in a ______ to decide whether the town should build a new sports stadium.",
+    "options": [
+      "begrudge",
+      "meritocracy",
+      "tenant",
+      "referendum"
+    ],
+    "correctAnswer": "referendum",
+    "status": "PENDING"
+  },
+  {
+    "word": "reimburse",
+    "definition": "to pay someone back money they have spent",
+    "blanked": "The company will ______ you for any supplies you buy for the school project.",
+    "options": [
+      "reimburse",
+      "dormant",
+      "proscribe",
+      "inexorable"
+    ],
+    "correctAnswer": "reimburse",
+    "status": "PENDING"
+  },
+  {
+    "word": "renaissance",
+    "definition": "a time of great art and learning, around the 1400s to 1600s",
+    "blanked": "During the ______, artists like Leonardo da Vinci created masterpieces that still amaze people today.",
+    "options": [
+      "precarious",
+      "senate",
+      "associate",
+      "renaissance"
+    ],
+    "correctAnswer": "renaissance",
+    "status": "PENDING"
+  },
+  {
+    "word": "replenish",
+    "definition": "to fill something up again after it has been used",
+    "blanked": "We need to ______ our water bottles before starting the second half of the hike.",
+    "options": [
+      "replenish",
+      "succinct",
+      "mollify",
+      "statute"
+    ],
+    "correctAnswer": "replenish",
+    "status": "PENDING"
+  },
+  {
+    "word": "repository",
+    "definition": "a place where things are stored or can be found",
+    "blanked": "The museum is a ______ of ancient artifacts from civilizations around the world.",
+    "options": [
+      "incongruity",
+      "elucidation",
+      "disrupt",
+      "repository"
+    ],
+    "correctAnswer": "repository",
+    "status": "PENDING"
+  },
+  {
+    "word": "repress",
+    "definition": "to hold back or prevent the expression of feelings or actions",
+    "blanked": "She tried to ______ her laughter during the serious meeting, but a giggle escaped.",
+    "options": [
+      "usurpation",
+      "conform",
+      "repress",
+      "regime"
+    ],
+    "correctAnswer": "repress",
+    "status": "PENDING"
+  },
+  {
+    "word": "reproach",
+    "definition": "to scold or blame someone for doing something wrong",
+    "blanked": "His mother looked at him with ______ when she saw the broken vase on the floor.",
+    "options": [
+      "penal",
+      "subservient",
+      "global",
+      "reproach"
+    ],
+    "correctAnswer": "reproach",
+    "status": "PENDING"
+  },
+  {
+    "word": "repudiate",
+    "definition": "to refuse to accept or be associated with something",
+    "blanked": "The scientist ______ the false claims made about her research in the newspaper.",
+    "options": [
+      "punitive",
+      "vacillate",
+      "benefactor",
+      "repudiate"
+    ],
+    "correctAnswer": "repudiate",
+    "status": "PENDING"
+  },
+  {
+    "word": "requisite",
+    "definition": "needed for a certain purpose",
+    "blanked": "Good hiking boots are a ______ piece of gear for any serious mountain trek.",
+    "options": [
+      "precaution",
+      "entrenchment",
+      "requisite",
+      "demarcation"
+    ],
+    "correctAnswer": "requisite",
+    "status": "PENDING"
+  },
+  {
+    "word": "reservoir",
+    "definition": "a large natural or man-made lake used for storing water",
+    "blanked": "The ______ holds enough water to supply the entire city for six months.",
+    "options": [
+      "reservoir",
+      "prosecute",
+      "contravene",
+      "menace"
+    ],
+    "correctAnswer": "reservoir",
+    "status": "PENDING"
+  },
+  {
+    "word": "residual",
+    "definition": "remaining after the main part has been removed or used",
+    "blanked": "Even after scrubbing, there was ______ paint on his hands that wouldn't come off.",
+    "options": [
+      "abate",
+      "investment",
+      "customary",
+      "residual"
+    ],
+    "correctAnswer": "residual",
+    "status": "PENDING"
+  },
+  {
+    "word": "resilient",
+    "definition": "able to recover quickly from problems; tough and able to bend without breaking",
+    "blanked": "Bamboo is incredibly ______—it bends in strong winds but almost never breaks.",
+    "options": [
+      "anomalous",
+      "declination",
+      "incline",
+      "resilient"
+    ],
+    "correctAnswer": "resilient",
+    "status": "PENDING"
+  },
+  {
+    "word": "resonance",
+    "definition": "the quality of being deep and full, or of evoking strong feelings",
+    "blanked": "The story about the rescue dog had an emotional ______ that made everyone in the room tear up.",
+    "options": [
+      "ministry",
+      "resonance",
+      "calumny",
+      "simultaneous"
+    ],
+    "correctAnswer": "resonance",
+    "status": "PENDING"
+  },
+  {
+    "word": "restitution",
+    "definition": "payment or action to make up for loss or damage",
+    "blanked": "The boy had to pay ______ for the neighbor's window he broke with his baseball.",
+    "options": [
+      "restitution",
+      "tenant",
+      "abandon",
+      "futility"
+    ],
+    "correctAnswer": "restitution",
+    "status": "PENDING"
+  },
+  {
+    "word": "retract",
+    "definition": "to pull back or take back something previously said",
+    "blanked": "After checking his facts, the reporter had to ______ his incorrect story about the mayor.",
+    "options": [
+      "devolution",
+      "fatuous",
+      "connotation",
+      "retract"
+    ],
+    "correctAnswer": "retract",
+    "status": "PENDING"
+  },
+  {
+    "word": "retrospect",
+    "definition": "looking back on past events with the knowledge one has now",
+    "blanked": "In ______, she realized that studying every night had been the key to her success.",
+    "options": [
+      "posterity",
+      "contention",
+      "retrospect",
+      "prosecute"
+    ],
+    "correctAnswer": "retrospect",
+    "status": "PENDING"
+  },
+  {
+    "word": "rhetoric",
+    "definition": "the art of using language well to persuade people",
+    "blanked": "The candidate's strong ______ convinced many undecided voters to support her.",
+    "options": [
+      "summarize",
+      "chemical",
+      "vilification",
+      "rhetoric"
+    ],
+    "correctAnswer": "rhetoric",
+    "status": "PENDING"
+  },
+  {
+    "word": "rigorous",
+    "definition": "very thorough, having many rules, and demanding",
+    "blanked": "The ______ training program required athletes to practice five hours every single day.",
+    "options": [
+      "exempt",
+      "rigorous",
+      "onerous",
+      "alliance"
+    ],
+    "correctAnswer": "rigorous",
+    "status": "PENDING"
+  },
+  {
+    "word": "roster",
+    "definition": "a list of names showing who is part of a team or group",
+    "blanked": "The coach posted the team ______ on the bulletin board, so players could check if they made the cut.",
+    "options": [
+      "candor",
+      "preface",
+      "landscape",
+      "roster"
+    ],
+    "correctAnswer": "roster",
+    "status": "PENDING"
+  },
+  {
+    "word": "rubric",
+    "definition": "a set of guidelines used for grading work",
+    "blanked": "The ______ showed exactly how many points each section of the essay was worth.",
+    "options": [
+      "rubric",
+      "delusion",
+      "memoir",
+      "desperation"
+    ],
+    "correctAnswer": "rubric",
+    "status": "PENDING"
+  },
+  {
+    "word": "rupture",
+    "definition": "to break open or burst suddenly",
+    "blanked": "The water pipe will ______ if the heat drops below freezing, and the water inside expands.",
+    "options": [
+      "rupture",
+      "assembly",
+      "testament",
+      "commodity"
+    ],
+    "correctAnswer": "rupture",
+    "status": "PENDING"
+  },
+  {
+    "word": "sanitary",
+    "definition": "clean and safe from germs and a sickness",
+    "blanked": "Restaurant kitchens must meet strict ______ standards, so customers stay healthy.",
+    "options": [
+      "vegetation",
+      "frivolity",
+      "sanitary",
+      "fanaticism"
+    ],
+    "correctAnswer": "sanitary",
+    "status": "PENDING"
+  },
+  {
+    "word": "scaffold",
+    "definition": "a metal frame workers stand on to reach high parts of a building",
+    "blanked": "Workers stood on the ______ to paint the outside of the three-story building.",
+    "options": [
+      "stipend",
+      "algorithm",
+      "rigorous",
+      "scaffold"
+    ],
+    "correctAnswer": "scaffold",
+    "status": "PENDING"
+  },
+  {
+    "word": "segregation",
+    "definition": "the enforced separation of different groups of people",
+    "blanked": "Rosa Parks fought against ______ by refusing to give up her bus seat.",
+    "options": [
+      "segregation",
+      "reclamation",
+      "gazette",
+      "doctrine"
+    ],
+    "correctAnswer": "segregation",
+    "status": "PENDING"
+  },
+  {
+    "word": "seismic",
+    "definition": "relating to or caused by earthquakes",
+    "blanked": "The ______ sensors detected underground movement hours before the volcano erupted.",
+    "options": [
+      "career",
+      "seismic",
+      "vociferous",
+      "felicity"
+    ],
+    "correctAnswer": "seismic",
+    "status": "PENDING"
+  },
+  {
+    "word": "seminar",
+    "definition": "a small class or meeting for talking about something together and learning",
+    "blanked": "The writing ______ had only twelve students, so everyone could share their work.",
+    "options": [
+      "seminar",
+      "rigmarole",
+      "disperse",
+      "scrutinize"
+    ],
+    "correctAnswer": "seminar",
+    "status": "PENDING"
+  },
+  {
+    "word": "sentiment",
+    "definition": "a feeling or opinion about something",
+    "blanked": "The broad ______ among students was that the school carnival should happen twice a year.",
+    "options": [
+      "extraordinary",
+      "connotation",
+      "reaction",
+      "sentiment"
+    ],
+    "correctAnswer": "sentiment",
+    "status": "PENDING"
+  },
+  {
+    "word": "skeptic",
+    "definition": "a person who questions whether something is true or real",
+    "blanked": "The ______ asked to see the proof before believing the magician's claim of real magic.",
+    "options": [
+      "sustainable",
+      "skeptic",
+      "defy",
+      "acumen"
+    ],
+    "correctAnswer": "skeptic",
+    "status": "PENDING"
+  },
+  {
+    "word": "solidarity",
+    "definition": "being together as one and support among members of a group",
+    "blanked": "The whole class showed ______ with their sick friend by sending cards and flowers.",
+    "options": [
+      "solidarity",
+      "platitude",
+      "confess",
+      "reimburse"
+    ],
+    "correctAnswer": "solidarity",
+    "status": "PENDING"
+  },
+  {
+    "word": "solitary",
+    "definition": "alone; done without anyone else",
+    "blanked": "The ______ lighthouse stood alone on the rocky cliff, guiding ships through the fog.",
+    "options": [
+      "congregation",
+      "solitary",
+      "rancor",
+      "pervasive"
+    ],
+    "correctAnswer": "solitary",
+    "status": "PENDING"
+  },
+  {
+    "word": "sovereignty",
+    "definition": "the authority of a country to govern itself on its own",
+    "blanked": "Every nation's ______ means it has the right to make its own laws without outside control.",
+    "options": [
+      "rationale",
+      "sovereignty",
+      "prospectus",
+      "remonstrate"
+    ],
+    "correctAnswer": "sovereignty",
+    "status": "PENDING"
+  },
+  {
+    "word": "spontaneous",
+    "definition": "happening by nature and without planning",
+    "blanked": "The ______ applause surprised the singer—he hadn't expected anyone to clap mid-song.",
+    "options": [
+      "spontaneous",
+      "bromide",
+      "inculcate",
+      "consecration"
+    ],
+    "correctAnswer": "spontaneous",
+    "status": "PENDING"
+  },
+  {
+    "word": "stagnant",
+    "definition": "not moving or flowing; not changing or growing",
+    "blanked": "The ______ pond water turned green with algae because there was no current to keep it fresh.",
+    "options": [
+      "ingratiate",
+      "referendum",
+      "stagnant",
+      "accuse"
+    ],
+    "correctAnswer": "stagnant",
+    "status": "PENDING"
+  },
+  {
+    "word": "stimulus",
+    "definition": "something that causes a reaction or response",
+    "blanked": "The loud noise was a ______ that made every bird in the tree fly away instantly.",
+    "options": [
+      "stimulus",
+      "discourse",
+      "nullify",
+      "contingent"
+    ],
+    "correctAnswer": "stimulus",
+    "status": "PENDING"
+  },
+  {
+    "word": "stipulate",
+    "definition": "to state exactly what must be done as part of an agreement",
+    "blanked": "The rules ______ that every player must be at least eight years old to enter the contest.",
+    "options": [
+      "stipulate",
+      "reparation",
+      "sector",
+      "detachment"
+    ],
+    "correctAnswer": "stipulate",
+    "status": "PENDING"
+  },
+  {
+    "word": "stratum",
+    "definition": "a layer of rock, soil, or material, or a level of society",
+    "blanked": "Each ______ of rock in the Grand Canyon tells the story of a different era in Earth's history.",
+    "options": [
+      "consul",
+      "animosity",
+      "stratum",
+      "elucidation"
+    ],
+    "correctAnswer": "stratum",
+    "status": "PENDING"
+  },
+  {
+    "word": "subsistence",
+    "definition": "having just barely enough to stay alive",
+    "blanked": "______ farmers grow just enough food to feed their own families with nothing left to sell.",
+    "options": [
+      "subsistence",
+      "abate",
+      "torpor",
+      "overwhelm"
+    ],
+    "correctAnswer": "subsistence",
+    "status": "PENDING"
+  },
+  {
+    "word": "substantiate",
+    "definition": "to provide evidence that proves something is true",
+    "blanked": "She used three different sources to ______ her claim that dolphins can know themselves.",
+    "options": [
+      "cadence",
+      "explication",
+      "investment",
+      "substantiate"
+    ],
+    "correctAnswer": "substantiate",
+    "status": "PENDING"
+  },
+  {
+    "word": "suffrage",
+    "definition": "the right to vote in elections",
+    "blanked": "Women in the United States gained ______ in 1920 when the 19th Amendment was passed.",
+    "options": [
+      "covetous",
+      "suffrage",
+      "quarantine",
+      "intransigence"
+    ],
+    "correctAnswer": "suffrage",
+    "status": "PENDING"
+  },
+  {
+    "word": "superfluous",
+    "definition": "more than what is needed; not needed",
+    "blanked": "The extra paragraph was ______—the essay was already complete without it.",
+    "options": [
+      "superfluous",
+      "acumen",
+      "reciprocity",
+      "censor"
+    ],
+    "correctAnswer": "superfluous",
+    "status": "PENDING"
+  },
+  {
+    "word": "suppress",
+    "definition": "to put an end to something by force, or to hold back feelings",
+    "blanked": "She had to ______ a yawn during the long speech, so she wouldn't seem rude.",
+    "options": [
+      "testament",
+      "suppress",
+      "verify",
+      "substantiation"
+    ],
+    "correctAnswer": "suppress",
+    "status": "PENDING"
+  },
+  {
+    "word": "surveillance",
+    "definition": "close watching of someone, especially by police or cameras",
+    "blanked": "Security cameras provide ______ of the parking lot twenty-four hours a day.",
+    "options": [
+      "repeal",
+      "rapprochement",
+      "subordinate",
+      "surveillance"
+    ],
+    "correctAnswer": "surveillance",
+    "status": "PENDING"
+  },
+  {
+    "word": "sustainable",
+    "definition": "able to continue without depleting resources or causing damage",
+    "blanked": "Using solar power is ______ because the sun will keep shining for billions of years.",
+    "options": [
+      "pedagogue",
+      "ostracism",
+      "regime",
+      "sustainable"
+    ],
+    "correctAnswer": "sustainable",
+    "status": "PENDING"
+  },
+  {
+    "word": "tariff",
+    "definition": "a cost added to goods brought in from another country",
+    "blanked": "The ______ on foreign steel made imported metal more expensive than locally produced steel.",
+    "options": [
+      "access",
+      "tariff",
+      "monopoly",
+      "ruminate"
+    ],
+    "correctAnswer": "tariff",
+    "status": "PENDING"
+  },
+  {
+    "word": "taxonomy",
+    "definition": "the science of sorting living things into groups",
+    "blanked": "In ______, all living things are sorted from broad kingdoms down to individual species.",
+    "options": [
+      "dormancy",
+      "monarch",
+      "province",
+      "taxonomy"
+    ],
+    "correctAnswer": "taxonomy",
+    "status": "PENDING"
+  },
+  {
+    "word": "tenure",
+    "definition": "the period of time someone holds a position",
+    "blanked": "During her ten-year ______ as principal, she transformed the school into the best in the district.",
+    "options": [
+      "oration",
+      "heterogeneous",
+      "universal",
+      "tenure"
+    ],
+    "correctAnswer": "tenure",
+    "status": "PENDING"
+  },
+  {
+    "word": "testament",
+    "definition": "proof that shows how good or true something is",
+    "blanked": "His perfect score was a ______ to months of dedicated studying every single night.",
+    "options": [
+      "adjudicate",
+      "grievance",
+      "insignificant",
+      "testament"
+    ],
+    "correctAnswer": "testament",
+    "status": "PENDING"
+  },
+  {
+    "word": "theorem",
+    "definition": "a mathematical statement that has been proven true",
+    "blanked": "The Pythagorean ______ shows how to find the longest side of a right triangle.",
+    "options": [
+      "academy",
+      "theorem",
+      "fruition",
+      "benefactor"
+    ],
+    "correctAnswer": "theorem",
+    "status": "PENDING"
+  },
+  {
+    "word": "abjure",
+    "definition": "to formally give up a belief or claim",
+    "blanked": "The knight had to ______ his loyalty to the old king before serving the new one.",
+    "options": [
+      "abjure",
+      "soporific",
+      "embassy",
+      "judicial"
+    ],
+    "correctAnswer": "abjure",
+    "status": "PENDING"
+  },
+  {
+    "word": "accretion",
+    "definition": "growth or increase by gradual adding",
+    "blanked": "The ______ of snow on the roof made the family worry about its weight.",
+    "options": [
+      "accretion",
+      "recede",
+      "begrudge",
+      "altitude"
+    ],
+    "correctAnswer": "accretion",
+    "status": "PENDING"
+  },
+  {
+    "word": "adjudicate",
+    "definition": "to make a formal judgment or decision about a dispute",
+    "blanked": "The teacher was asked to ______ the argument between the two students.",
+    "options": [
+      "equip",
+      "expediency",
+      "repeal",
+      "adjudicate"
+    ],
+    "correctAnswer": "adjudicate",
+    "status": "PENDING"
+  },
+  {
+    "word": "adulterate",
+    "definition": "to make something less pure by adding lower-quality substances",
+    "blanked": "Adding water to the juice would ______ its natural flavor.",
+    "options": [
+      "adulterate",
+      "condescension",
+      "terminal",
+      "bellwether"
+    ],
+    "correctAnswer": "adulterate",
+    "status": "PENDING"
+  },
+  {
+    "word": "aggrandize",
+    "definition": "to increase the power, status, or wealth of someone",
+    "blanked": "The emperor tried to ______ his kingdom by conquering neighboring lands.",
+    "options": [
+      "assembly",
+      "novice",
+      "confederation",
+      "aggrandize"
+    ],
+    "correctAnswer": "aggrandize",
+    "status": "PENDING"
+  },
+  {
+    "word": "apotheosis",
+    "definition": "the highest point of growth or the perfect example",
+    "blanked": "The final symphony was the ______ of the composer's musical career.",
+    "options": [
+      "liberate",
+      "capacious",
+      "grapple",
+      "apotheosis"
+    ],
+    "correctAnswer": "apotheosis",
+    "status": "PENDING"
+  },
+  {
+    "word": "approbation",
+    "definition": "formal approval or praise",
+    "blanked": "The student's project received ______ from each teacher in the school.",
+    "options": [
+      "approbation",
+      "decadence",
+      "substantiation",
+      "contention"
+    ],
+    "correctAnswer": "approbation",
+    "status": "PENDING"
+  },
+  {
+    "word": "arrogate",
+    "definition": "to take something without having the right to do so",
+    "blanked": "The older sibling tried to ______ control of the television remote each evening.",
+    "options": [
+      "investment",
+      "incongruity",
+      "serendipity",
+      "arrogate"
+    ],
+    "correctAnswer": "arrogate",
+    "status": "PENDING"
+  },
+  {
+    "word": "atavism",
+    "definition": "a return to an earlier, more primitive type",
+    "blanked": "The sudden appearance of spots on the horse was considered an ______.",
+    "options": [
+      "fortify",
+      "frugal",
+      "opprobrium",
+      "atavism"
+    ],
+    "correctAnswer": "atavism",
+    "status": "PENDING"
+  },
+  {
+    "word": "bellwether",
+    "definition": "something that indicates future trends",
+    "blanked": "The early election results in that county are a ______ for the whole state.",
+    "options": [
+      "bellwether",
+      "onset",
+      "ubiquity",
+      "obscure"
+    ],
+    "correctAnswer": "bellwether",
+    "status": "PENDING"
+  },
+  {
+    "word": "bifurcate",
+    "definition": "to divide into two branches or parts",
+    "blanked": "The road will ______ at the next intersection, going north and south.",
+    "options": [
+      "bifurcate",
+      "presumptuous",
+      "margin",
+      "fruition"
+    ],
+    "correctAnswer": "bifurcate",
+    "status": "PENDING"
+  },
+  {
+    "word": "bowdlerize",
+    "definition": "to remove parts of a book or text considered offensive or inappropriate",
+    "blanked": "The publisher chose to ______ the old story to make it suitable for children.",
+    "options": [
+      "bowdlerize",
+      "siege",
+      "abandon",
+      "connotation"
+    ],
+    "correctAnswer": "bowdlerize",
+    "status": "PENDING"
+  },
+  {
+    "word": "bromide",
+    "definition": "a remark that is meant to comfort but sounds dull and unoriginal",
+    "blanked": "Telling someone 'time heals all wounds' is a common ______ that rarely helps.",
+    "options": [
+      "tenure",
+      "abstract",
+      "grandiosity",
+      "bromide"
+    ],
+    "correctAnswer": "bromide",
+    "status": "PENDING"
+  },
+  {
+    "word": "cadence",
+    "definition": "the rise and fall of the voice when speaking, or a rhythmic pattern",
+    "blanked": "The poet read with a beautiful ______ that made the words sound like music.",
+    "options": [
+      "cadence",
+      "wherewithal",
+      "quorum",
+      "remonstrate"
+    ],
+    "correctAnswer": "cadence",
+    "status": "PENDING"
+  },
+  {
+    "word": "cabal",
+    "definition": "a small secret group that plans to do something harmful",
+    "blanked": "The story was about a ______ of wizards who plotted to steal the king's crown.",
+    "options": [
+      "temerity",
+      "asperity",
+      "jargon",
+      "cabal"
+    ],
+    "correctAnswer": "cabal",
+    "status": "PENDING"
+  },
+  {
+    "word": "canard",
+    "definition": "a false story or rumor that is spread to trick people",
+    "blanked": "The ______ about the school closing turned out to be completely untrue.",
+    "options": [
+      "canard",
+      "aberration",
+      "onerous",
+      "blur"
+    ],
+    "correctAnswer": "canard",
+    "status": "PENDING"
+  },
+  {
+    "word": "capitulation",
+    "definition": "giving in or giving way when you cannot win",
+    "blanked": "The team's ______ to the opposing side ended the long debate.",
+    "options": [
+      "capitulation",
+      "grapple",
+      "introduction",
+      "subsidy"
+    ],
+    "correctAnswer": "capitulation",
+    "status": "PENDING"
+  },
+  {
+    "word": "celerity",
+    "definition": "speed and quickness of movement",
+    "blanked": "The fire crew responded with ______ and arrived at the scene in minutes.",
+    "options": [
+      "craft",
+      "province",
+      "turbulent",
+      "celerity"
+    ],
+    "correctAnswer": "celerity",
+    "status": "PENDING"
+  },
+  {
+    "word": "cogitate",
+    "definition": "to think hard and carefully, using deep focus",
+    "blanked": "She sat quietly to ______ on the best solution to the difficult problem.",
+    "options": [
+      "curtailment",
+      "paucity",
+      "cogitate",
+      "gradient"
+    ],
+    "correctAnswer": "cogitate",
+    "status": "PENDING"
+  },
+  {
+    "word": "collude",
+    "definition": "to secretly work together to cheat or to trick someone",
+    "blanked": "The two students ______ to copy each other's answers during the test.",
+    "options": [
+      "collude",
+      "medieval",
+      "penitence",
+      "stagger"
+    ],
+    "correctAnswer": "collude",
+    "status": "PENDING"
+  },
+  {
+    "word": "conflate",
+    "definition": "to mix up two or more things into one by mistake",
+    "blanked": "It is easy to ______ the words 'affect' and 'effect' because they sound alike.",
+    "options": [
+      "sustainable",
+      "stake",
+      "confess",
+      "conflate"
+    ],
+    "correctAnswer": "conflate",
+    "status": "PENDING"
+  },
+  {
+    "word": "consanguinity",
+    "definition": "the state of being related by blood",
+    "blanked": "The family tree showed the ______ between the cousins.",
+    "options": [
+      "consanguinity",
+      "withstand",
+      "contract",
+      "propitious"
+    ],
+    "correctAnswer": "consanguinity",
+    "status": "PENDING"
+  },
+  {
+    "word": "contiguous",
+    "definition": "sharing a border or touching along an edge",
+    "blanked": "The two ______ states shared a long border along the river.",
+    "options": [
+      "contiguous",
+      "quandary",
+      "spurious",
+      "faction"
+    ],
+    "correctAnswer": "contiguous",
+    "status": "PENDING"
+  },
+  {
+    "word": "countermand",
+    "definition": "to cancel or reverse an order or command",
+    "blanked": "The general chose to ______ the previous order and retreat instead.",
+    "options": [
+      "countermand",
+      "veracious",
+      "profligate",
+      "pulchritude"
+    ],
+    "correctAnswer": "countermand",
+    "status": "PENDING"
+  },
+  {
+    "word": "deleterious",
+    "definition": "causing harm, especially slowly over time",
+    "blanked": "Too much screen time can have ______ effects on a child's sleep.",
+    "options": [
+      "umbrage",
+      "outskirts",
+      "covetous",
+      "deleterious"
+    ],
+    "correctAnswer": "deleterious",
+    "status": "PENDING"
+  },
+  {
+    "word": "diatribe",
+    "definition": "a long and angry speech or text attacking something",
+    "blanked": "The letter to the editor was a ______ against the new parking rules.",
+    "options": [
+      "diatribe",
+      "militia",
+      "utilitarian",
+      "requisition"
+    ],
+    "correctAnswer": "diatribe",
+    "status": "PENDING"
+  },
+  {
+    "word": "efficacious",
+    "definition": "works well; gets the job done",
+    "blanked": "The new cleaning product was surprisingly ______ at removing tough stains.",
+    "options": [
+      "curate",
+      "equanimity",
+      "efficacious",
+      "federal"
+    ],
+    "correctAnswer": "efficacious",
+    "status": "PENDING"
+  },
+  {
+    "word": "excoriate",
+    "definition": "to criticize someone very harshly",
+    "blanked": "The food critic ______ the restaurant for its poor service and cold food.",
+    "options": [
+      "excoriate",
+      "clamorous",
+      "maritime",
+      "vindictive"
+    ],
+    "correctAnswer": "excoriate",
+    "status": "PENDING"
+  },
+  {
+    "word": "exigent",
+    "definition": "needing immediate action; urgent",
+    "blanked": "The ______ situation demanded that everyone evacuate the building immediately.",
+    "options": [
+      "pedagogue",
+      "enormity",
+      "exigent",
+      "foresight"
+    ],
+    "correctAnswer": "exigent",
+    "status": "PENDING"
+  },
+  {
+    "word": "expurgate",
+    "definition": "to cut out bad or harmful parts from a text",
+    "blanked": "The school chose to ______ certain words from the play before performing it.",
+    "options": [
+      "paradoxical",
+      "grandiosity",
+      "alternative",
+      "expurgate"
+    ],
+    "correctAnswer": "expurgate",
+    "status": "PENDING"
+  },
+  {
+    "word": "extirpate",
+    "definition": "to completely destroy or remove something",
+    "blanked": "The gardener worked hard to ______ the weeds from the flower bed.",
+    "options": [
+      "primarily",
+      "intimidate",
+      "endorse",
+      "extirpate"
+    ],
+    "correctAnswer": "extirpate",
+    "status": "PENDING"
+  },
+  {
+    "word": "fatuous",
+    "definition": "silly and pointless",
+    "blanked": "His ______ suggestion to fly to school was met with eye rolls from everyone.",
+    "options": [
+      "fatuous",
+      "devolution",
+      "siege",
+      "sustainable"
+    ],
+    "correctAnswer": "fatuous",
+    "status": "PENDING"
+  },
+  {
+    "word": "fecund",
+    "definition": "producing many new ideas, plants, or offspring; fertile",
+    "blanked": "The ______ garden overflowed with tomatoes, peppers, and squash all summer.",
+    "options": [
+      "interpolate",
+      "fecund",
+      "ultimate",
+      "adjacent"
+    ],
+    "correctAnswer": "fecund",
+    "status": "PENDING"
+  },
+  {
+    "word": "fulminate",
+    "definition": "to express strong protest or criticism loudly",
+    "blanked": "The coach began to ______ about the unfair referee calls during the game.",
+    "options": [
+      "predilection",
+      "civic",
+      "anathema",
+      "fulminate"
+    ],
+    "correctAnswer": "fulminate",
+    "status": "PENDING"
+  },
+  {
+    "word": "gainsay",
+    "definition": "to deny or contradict something",
+    "blanked": "No one could ______ the evidence that the test had succeeded.",
+    "options": [
+      "gainsay",
+      "condescension",
+      "excoriate",
+      "transaction"
+    ],
+    "correctAnswer": "gainsay",
+    "status": "PENDING"
+  },
+  {
+    "word": "gerrymandering",
+    "definition": "the practice of drawing electoral district boundaries to favor one party",
+    "blanked": "______ can unfairly influence election results by changing district lines.",
+    "options": [
+      "synthetic",
+      "elucidation",
+      "resonance",
+      "gerrymandering"
+    ],
+    "correctAnswer": "gerrymandering",
+    "status": "PENDING"
+  },
+  {
+    "word": "impecunious",
+    "definition": "having very little money; poor",
+    "blanked": "The ______ artist could barely afford paint and canvas for her work.",
+    "options": [
+      "execute",
+      "impecunious",
+      "commodity",
+      "crave"
+    ],
+    "correctAnswer": "impecunious",
+    "status": "PENDING"
+  },
+  {
+    "word": "ineluctable",
+    "definition": "impossible to avoid or escape",
+    "blanked": "The ______ conclusion was that the old bridge needed to be replaced.",
+    "options": [
+      "penitence",
+      "diffusion",
+      "captivate",
+      "ineluctable"
+    ],
+    "correctAnswer": "ineluctable",
+    "status": "PENDING"
+  },
+  {
+    "word": "inimical",
+    "definition": "harmful or hostile to something",
+    "blanked": "The dry weather was ______ to the growth of the young trees.",
+    "options": [
+      "frivolity",
+      "astounding",
+      "inimical",
+      "depot"
+    ],
+    "correctAnswer": "inimical",
+    "status": "PENDING"
+  },
+  {
+    "word": "inscrutable",
+    "definition": "impossible to understand or interpret",
+    "blanked": "The cat's ______ expression gave no clue about what it was thinking.",
+    "options": [
+      "associate",
+      "inscrutable",
+      "capacious",
+      "escalate"
+    ],
+    "correctAnswer": "inscrutable",
+    "status": "PENDING"
+  },
+  {
+    "word": "internecine",
+    "definition": "harmful to both sides in a conflict",
+    "blanked": "The ______ rivalry between the two departments hurt the whole firm.",
+    "options": [
+      "internecine",
+      "fluctuation",
+      "proximity",
+      "cogitate"
+    ],
+    "correctAnswer": "internecine",
+    "status": "PENDING"
+  },
+  {
+    "word": "malfeasant",
+    "definition": "a person who commits wrongdoing or illegal acts, especially in public office",
+    "blanked": "The ______ official was removed from his position after the investigation.",
+    "options": [
+      "garrulous",
+      "veracious",
+      "explication",
+      "malfeasant"
+    ],
+    "correctAnswer": "malfeasant",
+    "status": "PENDING"
+  },
+  {
+    "word": "obdurate",
+    "definition": "stubbornly refusing to change one's mind or behavior",
+    "blanked": "The ______ negotiator would not agree to any compromise whatsoever.",
+    "options": [
+      "obdurate",
+      "catalyst",
+      "aggregation",
+      "pugnacious"
+    ],
+    "correctAnswer": "obdurate",
+    "status": "PENDING"
+  },
+  {
+    "word": "opprobrium",
+    "definition": "harsh criticism or public disgrace",
+    "blanked": "The cheating scandal brought ______ upon the entire team.",
+    "options": [
+      "opprobrium",
+      "expurgate",
+      "initiative",
+      "bizarre"
+    ],
+    "correctAnswer": "opprobrium",
+    "status": "PENDING"
+  },
+  {
+    "word": "palimpsest",
+    "definition": "something used again or changed but still showing traces of its earlier form",
+    "blanked": "The old wall was a ______ of layers of paint from different decades.",
+    "options": [
+      "exculpate",
+      "palimpsest",
+      "deputy",
+      "categorical"
+    ],
+    "correctAnswer": "palimpsest",
+    "status": "PENDING"
+  },
+  {
+    "word": "tendentious",
+    "definition": "showing a strong and one-sided opinion",
+    "blanked": "The ______ article clearly favored one political party over the other.",
+    "options": [
+      "consul",
+      "interpolate",
+      "tendentious",
+      "cabinet"
+    ],
+    "correctAnswer": "tendentious",
+    "status": "PENDING"
+  },
+  {
+    "word": "termagant",
+    "definition": "a harsh, bad-tempered, and aggressive person",
+    "blanked": "The ______ shopkeeper shouted at each buyer who touched the merchandise.",
+    "options": [
+      "termagant",
+      "garrulous",
+      "taxonomy",
+      "aviation"
+    ],
+    "correctAnswer": "termagant",
+    "status": "PENDING"
+  },
+  {
+    "word": "trenchant",
+    "definition": "expressed strongly and clearly; cutting",
+    "blanked": "Her ______ analysis of the problem helped the team find a fix quickly.",
+    "options": [
+      "humid",
+      "rigorous",
+      "chagrin",
+      "trenchant"
+    ],
+    "correctAnswer": "trenchant",
+    "status": "PENDING"
+  },
+  {
+    "word": "nugatory",
+    "definition": "having no purpose or value",
+    "blanked": "The committee's ______ efforts produced no results after months of meetings.",
+    "options": [
+      "texture",
+      "nascent",
+      "testify",
+      "nugatory"
+    ],
+    "correctAnswer": "nugatory",
+    "status": "PENDING"
+  },
+  {
+    "word": "panegyric",
+    "definition": "a speech or text that praises someone or something highly",
+    "blanked": "The retirement speech was a heartfelt ______ about the teacher's thirty-year career.",
+    "options": [
+      "panegyric",
+      "trigger",
+      "aspect",
+      "abjure"
+    ],
+    "correctAnswer": "panegyric",
+    "status": "PENDING"
+  }
+]

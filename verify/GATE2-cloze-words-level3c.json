@@ -1,0 +1,2537 @@
+[
+  {
+    "word": "advance",
+    "definition": "to move forward or make progress; improvement",
+    "blanked": "The chess piece can only ______ one square at a time.",
+    "options": [
+      "principal",
+      "lance",
+      "irritate",
+      "advance"
+    ],
+    "correctAnswer": "advance",
+    "status": "PENDING"
+  },
+  {
+    "word": "affordable",
+    "definition": "not too expensive; something you can pay for",
+    "blanked": "The lemonade stand had ______ prices, so every kid could buy a cup.",
+    "options": [
+      "don't judge a book by its cover",
+      "affordable",
+      "limelight",
+      "glen"
+    ],
+    "correctAnswer": "affordable",
+    "status": "PENDING"
+  },
+  {
+    "word": "analyze",
+    "definition": "to look at something with care to understand it",
+    "blanked": "The scientist had to ______ the data from the experiment to see what happened.",
+    "options": [
+      "radical",
+      "analyze",
+      "forte",
+      "bamboo"
+    ],
+    "correctAnswer": "analyze",
+    "status": "PENDING"
+  },
+  {
+    "word": "apply",
+    "definition": "to use something or put it into action",
+    "blanked": "She learned to ______ sunscreen before going to the beach, so she wouldn't burn.",
+    "options": [
+      "let the cat out of the bag",
+      "correct",
+      "cyclone",
+      "apply"
+    ],
+    "correctAnswer": "apply",
+    "status": "PENDING"
+  },
+  {
+    "word": "burden",
+    "definition": "something heavy or hard to carry or deal with",
+    "blanked": "Carrying all six library books at once was a ______, so she made two trips.",
+    "options": [
+      "dale",
+      "favor",
+      "burden",
+      "amble"
+    ],
+    "correctAnswer": "burden",
+    "status": "PENDING"
+  },
+  {
+    "word": "cancel",
+    "definition": "to decide that something planned will not happen",
+    "blanked": "The coach had to ______ practice because lightning flashed across the sky.",
+    "options": [
+      "gleam",
+      "cancel",
+      "fulcrum",
+      "garland"
+    ],
+    "correctAnswer": "cancel",
+    "status": "PENDING"
+  },
+  {
+    "word": "device",
+    "definition": "a tool or machine made for a special purpose",
+    "blanked": "A thermometer is a ______ that tells you exactly how hot or cold it is.",
+    "options": [
+      "device",
+      "justice",
+      "indent",
+      "services"
+    ],
+    "correctAnswer": "device",
+    "status": "PENDING"
+  },
+  {
+    "word": "elect",
+    "definition": "to choose someone by voting",
+    "blanked": "The class will ______ a new president by putting names in a ballot box.",
+    "options": [
+      "elect",
+      "cost an arm and a leg",
+      "belfry",
+      "angular"
+    ],
+    "correctAnswer": "elect",
+    "status": "PENDING"
+  },
+  {
+    "word": "emphasize",
+    "definition": "to show that something is extra important",
+    "blanked": "The teacher underlined the word to ______ that it would be on the test.",
+    "options": [
+      "emboss",
+      "gambit",
+      "emphasize",
+      "furlong"
+    ],
+    "correctAnswer": "emphasize",
+    "status": "PENDING"
+  },
+  {
+    "word": "exclaim",
+    "definition": "to say something suddenly with strong feeling",
+    "blanked": "He ______, 'Look, a shooting star!' while pointing at the night sky.",
+    "options": [
+      "operation",
+      "meridian",
+      "capsize",
+      "exclaim"
+    ],
+    "correctAnswer": "exclaim",
+    "status": "PENDING"
+  },
+  {
+    "word": "frustrate",
+    "definition": "to make someone feel upset because something is hard",
+    "blanked": "The puzzle began to ______ him because the last piece would not fit anywhere.",
+    "options": [
+      "frustrate",
+      "in brief",
+      "nonrenewable",
+      "badger"
+    ],
+    "correctAnswer": "frustrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "glimpse",
+    "definition": "a quick, short look at something",
+    "blanked": "He caught a ______ of the fox's tail before it disappeared into the bushes.",
+    "options": [
+      "buttress",
+      "gleam",
+      "glimpse",
+      "knead"
+    ],
+    "correctAnswer": "glimpse",
+    "status": "PENDING"
+  },
+  {
+    "word": "govern",
+    "definition": "to make rules and decisions for a group or country",
+    "blanked": "The student council helps ______ the school by deciding on spirit week themes.",
+    "options": [
+      "lacquer",
+      "greenery",
+      "apply",
+      "govern"
+    ],
+    "correctAnswer": "govern",
+    "status": "PENDING"
+  },
+  {
+    "word": "idle",
+    "definition": "not doing anything or not being used",
+    "blanked": "The swing sat ______ in the yard because all the kids were inside watching the rain.",
+    "options": [
+      "idle",
+      "proper",
+      "nonrenewable",
+      "encyclopedia"
+    ],
+    "correctAnswer": "idle",
+    "status": "PENDING"
+  },
+  {
+    "word": "invest",
+    "definition": "to put money or time into something hoping for good results",
+    "blanked": "She chose to ______ her allowance in art supplies, so she could sell paintings later.",
+    "options": [
+      "partial",
+      "intersect",
+      "inlet",
+      "invest"
+    ],
+    "correctAnswer": "invest",
+    "status": "PENDING"
+  },
+  {
+    "word": "manner",
+    "definition": "the way you do something or to act in a way",
+    "blanked": "She spoke in a polite ______, always saying 'please' and 'thank you' to the cashier.",
+    "options": [
+      "emboss",
+      "typical",
+      "manner",
+      "fluent"
+    ],
+    "correctAnswer": "manner",
+    "status": "PENDING"
+  },
+  {
+    "word": "negative",
+    "definition": "bad or below zero",
+    "blanked": "The temperature dropped to ______ ten degrees, so ice formed inside the windows.",
+    "options": [
+      "negative",
+      "curfew",
+      "don't judge a book by its cover",
+      "contour"
+    ],
+    "correctAnswer": "negative",
+    "status": "PENDING"
+  },
+  {
+    "word": "outcome",
+    "definition": "what happens at the end, the result",
+    "blanked": "The ______ of the science test surprised everyone-the plant grew faster in the dark!",
+    "options": [
+      "abode",
+      "outcome",
+      "atone",
+      "regional"
+    ],
+    "correctAnswer": "outcome",
+    "status": "PENDING"
+  },
+  {
+    "word": "regulate",
+    "definition": "to control something so it works correctly",
+    "blanked": "A thermostat helps ______ the heat, so your house stays comfortable.",
+    "options": [
+      "regulate",
+      "treaty",
+      "ajar",
+      "prove"
+    ],
+    "correctAnswer": "regulate",
+    "status": "PENDING"
+  },
+  {
+    "word": "rhythm",
+    "definition": "a regular pattern of beats or sounds",
+    "blanked": "She clapped along to the ______ of the drum, matching every boom perfectly.",
+    "options": [
+      "prove",
+      "original",
+      "rhythm",
+      "arbiter"
+    ],
+    "correctAnswer": "rhythm",
+    "status": "PENDING"
+  },
+  {
+    "word": "risk",
+    "definition": "the chance that something bad might happen",
+    "blanked": "There's a ______ of getting stung if you poke a beehive with a stick.",
+    "options": [
+      "gleam",
+      "risk",
+      "ecosystem",
+      "strengthen"
+    ],
+    "correctAnswer": "risk",
+    "status": "PENDING"
+  },
+  {
+    "word": "tension",
+    "definition": "a feeling of worry and tightness, like something is about to happen",
+    "blanked": "There was ______ in the room as the teacher handed back the tests face-down.",
+    "options": [
+      "tension",
+      "favor",
+      "greenery",
+      "specimen"
+    ],
+    "correctAnswer": "tension",
+    "status": "PENDING"
+  },
+  {
+    "word": "typical",
+    "definition": "usual and normal, what you would expect",
+    "blanked": "A ______ school day starts at 8:00 and ends at 3:00, with lunch in between.",
+    "options": [
+      "artificial",
+      "flank",
+      "typical",
+      "billow"
+    ],
+    "correctAnswer": "typical",
+    "status": "PENDING"
+  },
+  {
+    "word": "basement",
+    "definition": "the room under a house, below the ground",
+    "blanked": "The family keeps their holiday decorations in boxes stacked in the ______.",
+    "options": [
+      "landmark",
+      "favor",
+      "basement",
+      "garb"
+    ],
+    "correctAnswer": "basement",
+    "status": "PENDING"
+  },
+  {
+    "word": "blade",
+    "definition": "the flat cutting part of a knife or a single leaf of grass",
+    "blanked": "A single ______ of grass had a tiny ladybug resting on its tip.",
+    "options": [
+      "technology",
+      "blade",
+      "gouge",
+      "regional"
+    ],
+    "correctAnswer": "blade",
+    "status": "PENDING"
+  },
+  {
+    "word": "canyon",
+    "definition": "a deep, narrow valley with steep rock walls",
+    "blanked": "They stood at the edge of the ______ and could barely see the river far below.",
+    "options": [
+      "canyon",
+      "pollution",
+      "locomotion",
+      "automatic"
+    ],
+    "correctAnswer": "canyon",
+    "status": "PENDING"
+  },
+  {
+    "word": "chimney",
+    "definition": "a tall tube on top of a building where smoke goes out",
+    "blanked": "Smoke curled up from the ______, telling us someone had lit a fire inside.",
+    "options": [
+      "chimney",
+      "manipulate",
+      "multiple",
+      "nonrenewable"
+    ],
+    "correctAnswer": "chimney",
+    "status": "PENDING"
+  },
+  {
+    "word": "chunk",
+    "definition": "a thick piece broken off from something bigger",
+    "blanked": "He bit off a big ______ of watermelon and juice dripped down his chin.",
+    "options": [
+      "mobile",
+      "billow",
+      "official",
+      "chunk"
+    ],
+    "correctAnswer": "chunk",
+    "status": "PENDING"
+  },
+  {
+    "word": "creek",
+    "definition": "a small, narrow stream of water",
+    "blanked": "They found smooth stones at the bottom of the ______ and skipped them across the water.",
+    "options": [
+      "creek",
+      "snatch",
+      "political",
+      "persuade"
+    ],
+    "correctAnswer": "creek",
+    "status": "PENDING"
+  },
+  {
+    "word": "crisp",
+    "definition": "firm and fresh, making a nice crunch sound",
+    "blanked": "The ______ autumn leaves crunched under their feet as they walked to school.",
+    "options": [
+      "regional",
+      "hose",
+      "crisp",
+      "effervescent"
+    ],
+    "correctAnswer": "crisp",
+    "status": "PENDING"
+  },
+  {
+    "word": "flask",
+    "definition": "a bottle with a narrow neck used in science",
+    "blanked": "The science teacher poured purple liquid into a glass ______, and it started to bubble.",
+    "options": [
+      "barracks",
+      "define",
+      "manner",
+      "flask"
+    ],
+    "correctAnswer": "flask",
+    "status": "PENDING"
+  },
+  {
+    "word": "foil",
+    "definition": "thin, shiny metal sheet used for wrapping food",
+    "blanked": "Dad wrapped the leftover pizza in ______ to keep it fresh for tomorrow.",
+    "options": [
+      "harrow",
+      "hyperbole",
+      "blade",
+      "foil"
+    ],
+    "correctAnswer": "foil",
+    "status": "PENDING"
+  },
+  {
+    "word": "gasp",
+    "definition": "to quickly breathe in because you're surprised or shocked",
+    "blanked": "She ______ when she saw the acrobat flip three times in the air.",
+    "options": [
+      "tundra",
+      "weaken",
+      "adage",
+      "gasp"
+    ],
+    "correctAnswer": "gasp",
+    "status": "PENDING"
+  },
+  {
+    "word": "glare",
+    "definition": "a strong bright light that hurts your eyes, or an angry look",
+    "blanked": "The ______ from the snow was so bright that she had to put on sunglasses.",
+    "options": [
+      "atoll",
+      "adrift",
+      "elongate",
+      "glare"
+    ],
+    "correctAnswer": "glare",
+    "status": "PENDING"
+  },
+  {
+    "word": "glow",
+    "definition": "to give off a soft, warm light",
+    "blanked": "The jack-o'-lantern's candle made it ______ orange on the dark porch.",
+    "options": [
+      "glow",
+      "numerator",
+      "glare",
+      "consort"
+    ],
+    "correctAnswer": "glow",
+    "status": "PENDING"
+  },
+  {
+    "word": "hatch",
+    "definition": "to break out of an egg",
+    "blanked": "The baby chick took hours to ______, pecking tiny cracks in the shell until it broke free.",
+    "options": [
+      "hatch",
+      "conduit",
+      "salvage",
+      "tide"
+    ],
+    "correctAnswer": "hatch",
+    "status": "PENDING"
+  },
+  {
+    "word": "hose",
+    "definition": "a long, flexible tube that water flows through",
+    "blanked": "She sprayed her brother with the garden ______ on the hot summer day.",
+    "options": [
+      "consort",
+      "finesse",
+      "hostile",
+      "hose"
+    ],
+    "correctAnswer": "hose",
+    "status": "PENDING"
+  },
+  {
+    "word": "inn",
+    "definition": "a small hotel where travelers can sleep and eat",
+    "blanked": "The tired hikers found a cozy ______ at the bottom of the mountain with warm soup.",
+    "options": [
+      "flout",
+      "soon after",
+      "interval",
+      "inn"
+    ],
+    "correctAnswer": "inn",
+    "status": "PENDING"
+  },
+  {
+    "word": "jolt",
+    "definition": "a sudden shake or shock",
+    "blanked": "The bus hit a bump, and everyone felt a ______ that made their bags slide off the seats.",
+    "options": [
+      "deft",
+      "atrium",
+      "jolt",
+      "kill two birds with one stone"
+    ],
+    "correctAnswer": "jolt",
+    "status": "PENDING"
+  },
+  {
+    "word": "ledge",
+    "definition": "a narrow, flat surface sticking out from a wall or cliff",
+    "blanked": "The pigeon sat on the window ______ and pecked at crumbs left on the sill.",
+    "options": [
+      "favor",
+      "ledge",
+      "chaplain",
+      "daze"
+    ],
+    "correctAnswer": "ledge",
+    "status": "PENDING"
+  },
+  {
+    "word": "lumber",
+    "definition": "wood that has been cut into boards for building",
+    "blanked": "A big truck delivered a stack of ______ to build the new tree house.",
+    "options": [
+      "lumber",
+      "legion",
+      "ebony",
+      "flak"
+    ],
+    "correctAnswer": "lumber",
+    "status": "PENDING"
+  },
+  {
+    "word": "mend",
+    "definition": "to fix something that is broken or torn",
+    "blanked": "Grandma used a needle and thread to ______ the hole in his favorite stuffed bear.",
+    "options": [
+      "brooch",
+      "amble",
+      "mend",
+      "edit"
+    ],
+    "correctAnswer": "mend",
+    "status": "PENDING"
+  },
+  {
+    "word": "quarry",
+    "definition": "a place where people dig stone out of the ground",
+    "blanked": "The marble for the building came from a ______ where workers cut huge blocks of white rock.",
+    "options": [
+      "blazon",
+      "historic",
+      "exclaim",
+      "quarry"
+    ],
+    "correctAnswer": "quarry",
+    "status": "PENDING"
+  },
+  {
+    "word": "ridge",
+    "definition": "a long narrow top of a hill or mountain",
+    "blanked": "From the ______ of the mountain, they could see three different valleys below.",
+    "options": [
+      "ridge",
+      "ford",
+      "grotto",
+      "dapple"
+    ],
+    "correctAnswer": "ridge",
+    "status": "PENDING"
+  },
+  {
+    "word": "slope",
+    "definition": "ground that goes up or down at an angle",
+    "blanked": "They raced their bikes down the ______ of the grassy hill, going faster and faster.",
+    "options": [
+      "governor",
+      "amulet",
+      "hoist",
+      "slope"
+    ],
+    "correctAnswer": "slope",
+    "status": "PENDING"
+  },
+  {
+    "word": "spout",
+    "definition": "a tube or opening where liquid pours out",
+    "blanked": "Water shot up from the whale's ______ like a fountain twenty feet into the air.",
+    "options": [
+      "calculate",
+      "egress",
+      "spout",
+      "landmark"
+    ],
+    "correctAnswer": "spout",
+    "status": "PENDING"
+  },
+  {
+    "word": "stump",
+    "definition": "the short piece left in the ground after a tree is cut down",
+    "blanked": "They used the old tree ______ as a table for their tea party in the woods.",
+    "options": [
+      "artifact",
+      "stump",
+      "axis",
+      "adaptation"
+    ],
+    "correctAnswer": "stump",
+    "status": "PENDING"
+  },
+  {
+    "word": "torch",
+    "definition": "a portable light, either a burning stick or a flashlight",
+    "blanked": "In the dark cave, the explorer held a ______ that lit up the sparkling walls.",
+    "options": [
+      "expel",
+      "flotsam",
+      "torch",
+      "granted"
+    ],
+    "correctAnswer": "torch",
+    "status": "PENDING"
+  },
+  {
+    "word": "wade",
+    "definition": "to walk through water that is not very deep",
+    "blanked": "They rolled up their pants to ______ across the shallow stream to the other side.",
+    "options": [
+      "ignorant",
+      "operation",
+      "hurdle",
+      "wade"
+    ],
+    "correctAnswer": "wade",
+    "status": "PENDING"
+  },
+  {
+    "word": "asteroid",
+    "definition": "a rocky object orbiting the Sun that is smaller than a planet",
+    "blanked": "An ______ the size of a school bus flew past Earth but didn't come close enough to hit us.",
+    "options": [
+      "glimmer",
+      "goods",
+      "asteroid",
+      "solar"
+    ],
+    "correctAnswer": "asteroid",
+    "status": "PENDING"
+  },
+  {
+    "word": "axis",
+    "definition": "an imaginary line that something spins around",
+    "blanked": "Earth spins on its ______ once every 24 hours, which gives us day and night.",
+    "options": [
+      "axis",
+      "landmark",
+      "boggle",
+      "donjon"
+    ],
+    "correctAnswer": "axis",
+    "status": "PENDING"
+  },
+  {
+    "word": "carnivore",
+    "definition": "an animal that eats mostly or only meat",
+    "blanked": "A lion is a ______ because it hunts and eats other animals like zebras.",
+    "options": [
+      "carnivore",
+      "intersect",
+      "decrease",
+      "thus"
+    ],
+    "correctAnswer": "carnivore",
+    "status": "PENDING"
+  },
+  {
+    "word": "census",
+    "definition": "an official count of all the people living in a place",
+    "blanked": "Every ten years, the government does a ______ to find out how many people live in each state.",
+    "options": [
+      "atrium",
+      "decrease",
+      "don't judge a book by its cover",
+      "census"
+    ],
+    "correctAnswer": "census",
+    "status": "PENDING"
+  },
+  {
+    "word": "chlorophyll",
+    "definition": "the green pigment in leaves that helps plants make food from light from the sun",
+    "blanked": "______ is what makes leaves green and helps the plant turn sunlight into energy.",
+    "options": [
+      "chlorophyll",
+      "prove",
+      "ajar",
+      "daze"
+    ],
+    "correctAnswer": "chlorophyll",
+    "status": "PENDING"
+  },
+  {
+    "word": "crater",
+    "definition": "a big round hole in the ground shaped like a bowl, often from a space rock",
+    "blanked": "The moon is covered in ______ where rocks from space crashed into it billions of years ago.",
+    "options": [
+      "curfew",
+      "hit the nail on the head",
+      "crater",
+      "brawn"
+    ],
+    "correctAnswer": "crater",
+    "status": "PENDING"
+  },
+  {
+    "word": "crustacean",
+    "definition": "an animal with a hard shell and many legs, like a crab or lobster",
+    "blanked": "A lobster is a ______ with big claws, eight legs, and a hard red shell.",
+    "options": [
+      "ecosystem",
+      "practice makes perfect",
+      "define",
+      "crustacean"
+    ],
+    "correctAnswer": "crustacean",
+    "status": "PENDING"
+  },
+  {
+    "word": "digestive",
+    "definition": "about how your body breaks down food into energy it can use",
+    "blanked": "Your ______ system turns the sandwich you ate into energy your body can use.",
+    "options": [
+      "gram",
+      "digestive",
+      "char",
+      "adage"
+    ],
+    "correctAnswer": "digestive",
+    "status": "PENDING"
+  },
+  {
+    "word": "elevation",
+    "definition": "how high something is above the ocean level",
+    "blanked": "The mountain town has an ______ of 8,000 feet, which is why it's cooler there.",
+    "options": [
+      "adage",
+      "conservation",
+      "gasp",
+      "elevation"
+    ],
+    "correctAnswer": "elevation",
+    "status": "PENDING"
+  },
+  {
+    "word": "fertile",
+    "definition": "soil that is rich and good for growing plants",
+    "blanked": "The ______ soil near the river grows the tallest corn because it has lots of nutrients.",
+    "options": [
+      "preamble",
+      "rather than",
+      "fertile",
+      "earthy"
+    ],
+    "correctAnswer": "fertile",
+    "status": "PENDING"
+  },
+  {
+    "word": "glacier",
+    "definition": "a huge mass of ice that moves very slowly over land",
+    "blanked": "The ______ carved out the valley over thousands of years as it crept forward like a frozen river.",
+    "options": [
+      "flaw",
+      "grindstone",
+      "lavish",
+      "glacier"
+    ],
+    "correctAnswer": "glacier",
+    "status": "PENDING"
+  },
+  {
+    "word": "herbivore",
+    "definition": "an animal that eats only plants",
+    "blanked": "A rabbit is a ______ that munches on grass, carrots, and leafy greens all day.",
+    "options": [
+      "claustrophobia",
+      "juncture",
+      "herbivore",
+      "brooch"
+    ],
+    "correctAnswer": "herbivore",
+    "status": "PENDING"
+  },
+  {
+    "word": "humidity",
+    "definition": "the amount of water in the air",
+    "blanked": "The ______ was so high that her glasses fogged up the moment she walked outside.",
+    "options": [
+      "humidity",
+      "array",
+      "proper",
+      "respiration"
+    ],
+    "correctAnswer": "humidity",
+    "status": "PENDING"
+  },
+  {
+    "word": "legislature",
+    "definition": "the group of people who make laws for a state or country",
+    "blanked": "The ______ voted to pass a new law requiring all schools to have a recess period.",
+    "options": [
+      "monument",
+      "bastion",
+      "weaken",
+      "legislature"
+    ],
+    "correctAnswer": "legislature",
+    "status": "PENDING"
+  },
+  {
+    "word": "molecule",
+    "definition": "the smallest unit of a substance, made of two or more atoms joined together",
+    "blanked": "A water ______ is so small that millions of them fit in a single drop.",
+    "options": [
+      "molecule",
+      "goblet",
+      "rotation",
+      "portable"
+    ],
+    "correctAnswer": "molecule",
+    "status": "PENDING"
+  },
+  {
+    "word": "arid",
+    "definition": "very dry with almost no rain",
+    "blanked": "Cacti grow well in ______ places because they store water inside their thick stems.",
+    "options": [
+      "arid",
+      "denture",
+      "soar",
+      "harpoon"
+    ],
+    "correctAnswer": "arid",
+    "status": "PENDING"
+  },
+  {
+    "word": "archaeology",
+    "definition": "the study of ancient things people left behind long ago",
+    "blanked": "In ______ class, they learned how scientists dig up ancient pots and tools buried in dirt.",
+    "options": [
+      "decrease",
+      "due",
+      "expanse",
+      "archaeology"
+    ],
+    "correctAnswer": "archaeology",
+    "status": "PENDING"
+  },
+  {
+    "word": "mesa",
+    "definition": "a tall hill that is flat on top with steep sides, found in dry areas",
+    "blanked": "The ______ stood alone in the desert like a giant table made of red rock.",
+    "options": [
+      "historic",
+      "portable",
+      "imaginary",
+      "mesa"
+    ],
+    "correctAnswer": "mesa",
+    "status": "PENDING"
+  },
+  {
+    "word": "tundra",
+    "definition": "a flat, frozen area where no trees grow because it's too cold",
+    "blanked": "In the Arctic ______, the ground stays frozen and only small tough plants can survive.",
+    "options": [
+      "tundra",
+      "unit",
+      "awning",
+      "soon after"
+    ],
+    "correctAnswer": "tundra",
+    "status": "PENDING"
+  },
+  {
+    "word": "stalagmite",
+    "definition": "a rock shape that grows up from the floor of a cave",
+    "blanked": "The ______ grew from the cave floor like a stone tower built by dripping water over thousands of years.",
+    "options": [
+      "ancestry",
+      "get along with",
+      "stalagmite",
+      "translate"
+    ],
+    "correctAnswer": "stalagmite",
+    "status": "PENDING"
+  },
+  {
+    "word": "tributary",
+    "definition": "a smaller river that flows into a bigger river",
+    "blanked": "The small ______ joins the main river near the bridge downtown.",
+    "options": [
+      "tributary",
+      "figment",
+      "flak",
+      "ridge"
+    ],
+    "correctAnswer": "tributary",
+    "status": "PENDING"
+  },
+  {
+    "word": "archipelago",
+    "definition": "a group of islands close together in the sea",
+    "blanked": "Hawaii is an ______ made of eight main islands formed by underwater volcanoes.",
+    "options": [
+      "artificial",
+      "glint",
+      "archipelago",
+      "decrease"
+    ],
+    "correctAnswer": "archipelago",
+    "status": "PENDING"
+  },
+  {
+    "word": "stratosphere",
+    "definition": "the layer of the air around the earth where the ozone layer is, above where most planes fly",
+    "blanked": "The weather balloon floated up into the ______, far above the clouds where the sky looks black.",
+    "options": [
+      "marvel",
+      "stratosphere",
+      "services",
+      "glen"
+    ],
+    "correctAnswer": "stratosphere",
+    "status": "PENDING"
+  },
+  {
+    "word": "preamble",
+    "definition": "the opening part at the start of an important document that explains its purpose",
+    "blanked": "The ______ of the Constitution starts with 'We the People' to show it belongs to all.",
+    "options": [
+      "occasional",
+      "preamble",
+      "symmetry",
+      "dime"
+    ],
+    "correctAnswer": "preamble",
+    "status": "PENDING"
+  },
+  {
+    "word": "filament",
+    "definition": "a very thin thread or wire, like the one inside a light bulb",
+    "blanked": "The ______ inside the light bulb glows white-hot when power flows through it.",
+    "options": [
+      "nautical",
+      "carafe",
+      "epic",
+      "filament"
+    ],
+    "correctAnswer": "filament",
+    "status": "PENDING"
+  },
+  {
+    "word": "nocturnal",
+    "definition": "active at night and sleeping during the day",
+    "blanked": "Owls are ______ animals that hunt mice in the dark using their great hearing.",
+    "options": [
+      "nocturnal",
+      "break the ice",
+      "cherub",
+      "census"
+    ],
+    "correctAnswer": "nocturnal",
+    "status": "PENDING"
+  },
+  {
+    "word": "translucent",
+    "definition": "letting some light through but not clear enough to see through",
+    "blanked": "The ______ jellyfish glowed when light passed through its body in the dark ocean.",
+    "options": [
+      "better late than never",
+      "babble",
+      "translucent",
+      "soon after"
+    ],
+    "correctAnswer": "translucent",
+    "status": "PENDING"
+  },
+  {
+    "word": "omnivore",
+    "definition": "an animal that eats both plants and meat",
+    "blanked": "A bear is an ______ because it eats fish from the river and berries from bushes.",
+    "options": [
+      "fringe",
+      "omnivore",
+      "fowl",
+      "hackneyed"
+    ],
+    "correctAnswer": "omnivore",
+    "status": "PENDING"
+  },
+  {
+    "word": "plateau",
+    "definition": "a flat area of land that sits high above the land around it",
+    "blanked": "The ______ rose above the desert like a giant table with flat land on top.",
+    "options": [
+      "plateau",
+      "hasty",
+      "asteroid",
+      "negative"
+    ],
+    "correctAnswer": "plateau",
+    "status": "PENDING"
+  },
+  {
+    "word": "geothermal",
+    "definition": "using heat that comes from deep inside the Earth",
+    "blanked": "Iceland uses ______ energy from underground hot water to heat homes and fill swimming pools.",
+    "options": [
+      "irritate",
+      "influential",
+      "cinch",
+      "geothermal"
+    ],
+    "correctAnswer": "geothermal",
+    "status": "PENDING"
+  },
+  {
+    "word": "specimen",
+    "definition": "one example of something used to study or display",
+    "blanked": "The scientist collected a ______ of the unusual rock to study back in the lab.",
+    "options": [
+      "specimen",
+      "exclaim",
+      "consort",
+      "carbon dioxide"
+    ],
+    "correctAnswer": "specimen",
+    "status": "PENDING"
+  },
+  {
+    "word": "meridian",
+    "definition": "an imaginary line running from the North Pole to the South Pole on a map",
+    "blanked": "The Prime ______ passes through London and divides the world into east and west halves.",
+    "options": [
+      "meridian",
+      "drab",
+      "litany",
+      "dolt"
+    ],
+    "correctAnswer": "meridian",
+    "status": "PENDING"
+  },
+  {
+    "word": "respiration",
+    "definition": "the process of breathing in oxygen and breathing out carbon dioxide",
+    "blanked": "During gym class, their ______ increased, and they could feel their chests rising and falling faster.",
+    "options": [
+      "the ball is in your court",
+      "profound",
+      "haste",
+      "respiration"
+    ],
+    "correctAnswer": "respiration",
+    "status": "PENDING"
+  },
+  {
+    "word": "paleontology",
+    "definition": "the study of prehistoric life by examining fossils",
+    "blanked": "______ helps scientists learn about dinosaurs by studying their bones found in rock.",
+    "options": [
+      "gleam",
+      "chaplain",
+      "paleontology",
+      "artifact"
+    ],
+    "correctAnswer": "paleontology",
+    "status": "PENDING"
+  },
+  {
+    "word": "aquifer",
+    "definition": "rock or sand below the ground that holds water like a sponge",
+    "blanked": "The town gets its drinking water from an ______ deep below the ground.",
+    "options": [
+      "aquifer",
+      "hackneyed",
+      "haste",
+      "elf"
+    ],
+    "correctAnswer": "aquifer",
+    "status": "PENDING"
+  },
+  {
+    "word": "deciduous",
+    "definition": "losing all leaves in autumn and growing new ones in spring",
+    "blanked": "The ______ oak tree dropped every leaf by November leaving bare branches against the sky.",
+    "options": [
+      "blotch",
+      "deciduous",
+      "commutative",
+      "kernel"
+    ],
+    "correctAnswer": "deciduous",
+    "status": "PENDING"
+  },
+  {
+    "word": "pharaoh",
+    "definition": "a king or ruler of ancient Egypt",
+    "blanked": "The ______ ordered workers to build a massive pyramid that took twenty years to finish.",
+    "options": [
+      "lunge",
+      "encore",
+      "pharaoh",
+      "archipelago"
+    ],
+    "correctAnswer": "pharaoh",
+    "status": "PENDING"
+  },
+  {
+    "word": "sedimentary",
+    "definition": "rock formed from layers of sand, mud, or tiny pieces pressed together over time",
+    "blanked": "The ______ rock had visible layers like a stack of pancakes pressed into stone.",
+    "options": [
+      "brawn",
+      "sedimentary",
+      "elude",
+      "crock"
+    ],
+    "correctAnswer": "sedimentary",
+    "status": "PENDING"
+  },
+  {
+    "word": "isthmus",
+    "definition": "a narrow strip of land connecting two larger land areas",
+    "blanked": "The ______ of Panama connects North America and South America like a skinny land bridge.",
+    "options": [
+      "isthmus",
+      "expanse",
+      "telescope",
+      "strengthen"
+    ],
+    "correctAnswer": "isthmus",
+    "status": "PENDING"
+  },
+  {
+    "word": "dividend",
+    "definition": "the big number on top that gets split up when you divide",
+    "blanked": "In 12 ÷ 3, the ______ is 12 because that's the number being split into groups.",
+    "options": [
+      "dividend",
+      "jubilant",
+      "hibernation",
+      "atmosphere"
+    ],
+    "correctAnswer": "dividend",
+    "status": "PENDING"
+  },
+  {
+    "word": "divisor",
+    "definition": "the small number that tells how many groups to make when you divide",
+    "blanked": "In 12 ÷ 3, the ______ is 3 because that's how many groups you're making.",
+    "options": [
+      "tundra",
+      "divisor",
+      "glade",
+      "a taste of your own medicine"
+    ],
+    "correctAnswer": "divisor",
+    "status": "PENDING"
+  },
+  {
+    "word": "mandate",
+    "definition": "an official order that must be followed",
+    "blanked": "The school issued a ______ that all students must wear helmets during bike-to-school day.",
+    "options": [
+      "froth",
+      "escarpment",
+      "mandate",
+      "knead"
+    ],
+    "correctAnswer": "mandate",
+    "status": "PENDING"
+  },
+  {
+    "word": "authentic",
+    "definition": "real and not copied or fake",
+    "blanked": "The ______ dinosaur tooth in the museum is 65 million years old.",
+    "options": [
+      "authentic",
+      "vertical",
+      "capsule",
+      "legible"
+    ],
+    "correctAnswer": "authentic",
+    "status": "PENDING"
+  },
+  {
+    "word": "scarcity",
+    "definition": "a shortage of something that people need",
+    "blanked": "During the ______ of water in summer the town only let people water lawns once a week.",
+    "options": [
+      "banter",
+      "buffet",
+      "scarcity",
+      "collide"
+    ],
+    "correctAnswer": "scarcity",
+    "status": "PENDING"
+  },
+  {
+    "word": "ancestry",
+    "definition": "your family members who lived long before you",
+    "blanked": "By studying her ______, she found that her great-great-grandparents came from Ireland.",
+    "options": [
+      "metamorphosis",
+      "effervescent",
+      "eventual",
+      "ancestry"
+    ],
+    "correctAnswer": "ancestry",
+    "status": "PENDING"
+  },
+  {
+    "word": "interval",
+    "definition": "the amount of time or space between two things",
+    "blanked": "The buses arrive at ten-minute ______, so you never wait very long.",
+    "options": [
+      "billow",
+      "to put it simply",
+      "interval",
+      "terrify"
+    ],
+    "correctAnswer": "interval",
+    "status": "PENDING"
+  },
+  {
+    "word": "eligible",
+    "definition": "allowed to do something because you meet the rules",
+    "blanked": "You are ______ to join the reading club if you've finished at least five books this year.",
+    "options": [
+      "afflict",
+      "decanter",
+      "akin",
+      "eligible"
+    ],
+    "correctAnswer": "eligible",
+    "status": "PENDING"
+  },
+  {
+    "word": "manipulate",
+    "definition": "to handle or control something skillfully, or to trick someone",
+    "blanked": "He learned to ______ the clay into the shape of a tiny horse with his fingers.",
+    "options": [
+      "molecule",
+      "casual",
+      "manipulate",
+      "radius"
+    ],
+    "correctAnswer": "manipulate",
+    "status": "PENDING"
+  },
+  {
+    "word": "salvage",
+    "definition": "to save or rescue something from being lost or destroyed",
+    "blanked": "After the flood, the family tried to ______ their photo albums by drying them in the sun.",
+    "options": [
+      "locomotion",
+      "salvage",
+      "a blessing in disguise",
+      "ajar"
+    ],
+    "correctAnswer": "salvage",
+    "status": "PENDING"
+  },
+  {
+    "word": "acquire",
+    "definition": "to get something new, often by working for it",
+    "blanked": "She worked all summer to ______ enough money for the telescope she wanted.",
+    "options": [
+      "asteroid",
+      "acquire",
+      "invertebrate",
+      "capital"
+    ],
+    "correctAnswer": "acquire",
+    "status": "PENDING"
+  },
+  {
+    "word": "terminate",
+    "definition": "to end or stop something completely",
+    "blanked": "The train will ______ at the last station-everyone must get off there.",
+    "options": [
+      "deciduous",
+      "terminate",
+      "blazon",
+      "go over"
+    ],
+    "correctAnswer": "terminate",
+    "status": "PENDING"
+  },
+  {
+    "word": "verdict",
+    "definition": "the final decision made at the end of a trial or contest",
+    "blanked": "After tasting all three pies, the judges gave their ______-cherry was the winner!",
+    "options": [
+      "verdict",
+      "kilt",
+      "gregarious",
+      "grit"
+    ],
+    "correctAnswer": "verdict",
+    "status": "PENDING"
+  },
+  {
+    "word": "hangar",
+    "definition": "a large building where airplanes are kept",
+    "blanked": "The mechanic wheeled the small plane into the ______ to fix its engine.",
+    "options": [
+      "hangar",
+      "amplify",
+      "so that",
+      "landmark"
+    ],
+    "correctAnswer": "hangar",
+    "status": "PENDING"
+  },
+  {
+    "word": "hardship",
+    "definition": "hard conditions that cause suffering",
+    "blanked": "The pioneer families faced many ______ with harsh winters and limited food.",
+    "options": [
+      "tension",
+      "hardship",
+      "dote",
+      "the last straw"
+    ],
+    "correctAnswer": "hardship",
+    "status": "PENDING"
+  },
+  {
+    "word": "harpoon",
+    "definition": "a long spear used for catching large fish or whales",
+    "blanked": "The fisherman threw the ______ at the giant tuna swimming near the boat.",
+    "options": [
+      "harpoon",
+      "knead",
+      "to begin with",
+      "negative"
+    ],
+    "correctAnswer": "harpoon",
+    "status": "PENDING"
+  },
+  {
+    "word": "harrow",
+    "definition": "a farm tool dragged over soil to break up small bumps or pieces",
+    "blanked": "The farmer pulled a ______ across the field to prepare the soil for planting.",
+    "options": [
+      "blotch",
+      "ghastly",
+      "ignorant",
+      "harrow"
+    ],
+    "correctAnswer": "harrow",
+    "status": "PENDING"
+  },
+  {
+    "word": "haste",
+    "definition": "great speed or hurry",
+    "blanked": "In her ______ to catch the bus, she left her lunch on the kitchen counter.",
+    "options": [
+      "haste",
+      "asteroid",
+      "atone",
+      "prove"
+    ],
+    "correctAnswer": "haste",
+    "status": "PENDING"
+  },
+  {
+    "word": "havoc",
+    "definition": "great damage and disorder everywhere",
+    "blanked": "The tornado wreaked ______ on the small town, knocking down fences and signs.",
+    "options": [
+      "havoc",
+      "canyon",
+      "adaptation",
+      "earthquake"
+    ],
+    "correctAnswer": "havoc",
+    "status": "PENDING"
+  },
+  {
+    "word": "headway",
+    "definition": "moving forward; getting better toward a goal",
+    "blanked": "After weeks of practice, she finally made ______ on the difficult piano piece.",
+    "options": [
+      "dime",
+      "boon",
+      "dogma",
+      "headway"
+    ],
+    "correctAnswer": "headway",
+    "status": "PENDING"
+  },
+  {
+    "word": "heed",
+    "definition": "to pay attention to advice or a warning",
+    "blanked": "______ ______ his father's warning and wore a coat on the chilly day.",
+    "options": [
+      "buccaneer",
+      "pull someone's leg",
+      "heed",
+      "billow"
+    ],
+    "correctAnswer": "heed",
+    "status": "PENDING"
+  },
+  {
+    "word": "helm",
+    "definition": "the wheel or handle used to steer a ship",
+    "blanked": "The captain took the ______ and guided the ship through the narrow channel.",
+    "options": [
+      "helm",
+      "filament",
+      "compulsion",
+      "aright"
+    ],
+    "correctAnswer": "helm",
+    "status": "PENDING"
+  },
+  {
+    "word": "herald",
+    "definition": "a person who announces important news, or to be a sign of something coming",
+    "blanked": "Robins are often called ______ of spring because they appear when warm weather arrives.",
+    "options": [
+      "herald",
+      "earthquake",
+      "humus",
+      "atmosphere"
+    ],
+    "correctAnswer": "herald",
+    "status": "PENDING"
+  },
+  {
+    "word": "hermit",
+    "definition": "a person who lives alone away from other people",
+    "blanked": "The ______ lived in a small cabin on the mountaintop, far from any town.",
+    "options": [
+      "carafe",
+      "flask",
+      "hermit",
+      "symmetry"
+    ],
+    "correctAnswer": "hermit",
+    "status": "PENDING"
+  },
+  {
+    "word": "hew",
+    "definition": "to chop or cut something with an axe or heavy tool",
+    "blanked": "The lumberjack ______ the fallen tree into logs for the campfire.",
+    "options": [
+      "cleave",
+      "convoy",
+      "isthmus",
+      "hew"
+    ],
+    "correctAnswer": "hew",
+    "status": "PENDING"
+  },
+  {
+    "word": "hinge",
+    "definition": "a metal piece that lets a door or lid swing open and shut",
+    "blanked": "The gate swung back and forth on its rusty ______, creaking loudly.",
+    "options": [
+      "hinge",
+      "dolt",
+      "inferior",
+      "favorable"
+    ],
+    "correctAnswer": "hinge",
+    "status": "PENDING"
+  },
+  {
+    "word": "hoard",
+    "definition": "to collect and store a large amount of something",
+    "blanked": "The dragon ______ gold coins in a giant pile inside its cave.",
+    "options": [
+      "moderate",
+      "carry on",
+      "hoard",
+      "spout"
+    ],
+    "correctAnswer": "hoard",
+    "status": "PENDING"
+  },
+  {
+    "word": "hobble",
+    "definition": "to walk with trouble, usually because of pain",
+    "blanked": "He ______ to the nurse's office after twisting his ankle on the playground.",
+    "options": [
+      "hobble",
+      "canter",
+      "define",
+      "elude"
+    ],
+    "correctAnswer": "hobble",
+    "status": "PENDING"
+  },
+  {
+    "word": "hoist",
+    "definition": "to lift something heavy, often with ropes",
+    "blanked": "The sailors ______ the heavy anchor out of the water before setting sail.",
+    "options": [
+      "photosynthesis",
+      "geothermal",
+      "hoist",
+      "boulder"
+    ],
+    "correctAnswer": "hoist",
+    "status": "PENDING"
+  },
+  {
+    "word": "homage",
+    "definition": "special respect or honor shown publicly",
+    "blanked": "The statue was built as ______ to the brave soldiers who served the country.",
+    "options": [
+      "flak",
+      "ethereal",
+      "basement",
+      "homage"
+    ],
+    "correctAnswer": "homage",
+    "status": "PENDING"
+  },
+  {
+    "word": "homestead",
+    "definition": "a house with the land and buildings around it",
+    "blanked": "The old ______ had a farmhouse, a red barn, and acres of apple trees.",
+    "options": [
+      "regional",
+      "homestead",
+      "eventual",
+      "mend"
+    ],
+    "correctAnswer": "homestead",
+    "status": "PENDING"
+  },
+  {
+    "word": "hone",
+    "definition": "to sharpen or improve a skill",
+    "blanked": "She ______ her drawing skills by sketching in her notebook every single day.",
+    "options": [
+      "hone",
+      "agriculture",
+      "akin",
+      "cairn"
+    ],
+    "correctAnswer": "hone",
+    "status": "PENDING"
+  },
+  {
+    "word": "hornet",
+    "definition": "a large stinging insect similar to a wasp",
+    "blanked": "A ______ buzzed angrily around the picnic table when it smelled the fruit.",
+    "options": [
+      "flak",
+      "to illustrate",
+      "limber",
+      "hornet"
+    ],
+    "correctAnswer": "hornet",
+    "status": "PENDING"
+  },
+  {
+    "word": "hosiery",
+    "definition": "socks and stockings",
+    "blanked": "The store had a whole aisle of ______ in every color and pattern.",
+    "options": [
+      "akin",
+      "amiable",
+      "cupboard",
+      "hosiery"
+    ],
+    "correctAnswer": "hosiery",
+    "status": "PENDING"
+  },
+  {
+    "word": "hospitable",
+    "definition": "friendly and welcoming to people who come to visit",
+    "blanked": "The ______ family offered us lemonade and cookies the moment we came.",
+    "options": [
+      "hospitable",
+      "buggy",
+      "expression",
+      "agriculture"
+    ],
+    "correctAnswer": "hospitable",
+    "status": "PENDING"
+  },
+  {
+    "word": "hub",
+    "definition": "the center of an activity or a wheel",
+    "blanked": "The airport is a busy ______ where travelers from many countries pass through.",
+    "options": [
+      "egress",
+      "garb",
+      "monument",
+      "hub"
+    ],
+    "correctAnswer": "hub",
+    "status": "PENDING"
+  },
+  {
+    "word": "huddle",
+    "definition": "to crowd together closely",
+    "blanked": "The players ______ together to plan their next move before the final play.",
+    "options": [
+      "horizontal",
+      "graft",
+      "atmosphere",
+      "huddle"
+    ],
+    "correctAnswer": "huddle",
+    "status": "PENDING"
+  },
+  {
+    "word": "hull",
+    "definition": "the main body of a ship",
+    "blanked": "Workers painted the ______ of the ship bright blue before it went back in the water.",
+    "options": [
+      "graft",
+      "hull",
+      "to summarize",
+      "dote"
+    ],
+    "correctAnswer": "hull",
+    "status": "PENDING"
+  },
+  {
+    "word": "humus",
+    "definition": "dark, rich soil made from decomposed plants",
+    "blanked": "Adding ______ to the garden made the soil soft and perfect for growing vegetables.",
+    "options": [
+      "humus",
+      "conifer",
+      "assail",
+      "horizontal"
+    ],
+    "correctAnswer": "humus",
+    "status": "PENDING"
+  },
+  {
+    "word": "hurdle",
+    "definition": "a barrier to jump over in a race, or a difficulty to overcome",
+    "blanked": "She cleared every ______ on the track and finished in first place.",
+    "options": [
+      "elapsed",
+      "flurry",
+      "hurdle",
+      "immune"
+    ],
+    "correctAnswer": "hurdle",
+    "status": "PENDING"
+  },
+  {
+    "word": "hurl",
+    "definition": "to throw something with great force",
+    "blanked": "The pitcher ______ the baseball so fast the batter could barely see it.",
+    "options": [
+      "timeline",
+      "flotsam",
+      "hurl",
+      "composite"
+    ],
+    "correctAnswer": "hurl",
+    "status": "PENDING"
+  },
+  {
+    "word": "hurricane",
+    "definition": "a powerful storm with very strong winds and heavy rain",
+    "blanked": "The ______ brought winds of over 100 miles per hour to the coast.",
+    "options": [
+      "clad",
+      "hurricane",
+      "ambrosia",
+      "alpine"
+    ],
+    "correctAnswer": "hurricane",
+    "status": "PENDING"
+  },
+  {
+    "word": "hydrate",
+    "definition": "to add water to something, or to drink enough water",
+    "blanked": "Coaches remind players to ______ by drinking water during each break.",
+    "options": [
+      "hydrate",
+      "rhythm",
+      "anagram",
+      "adage"
+    ],
+    "correctAnswer": "hydrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "hymn",
+    "definition": "a religious song of praise",
+    "blanked": "The choir sang a beautiful ______ that echoed through the old stone church.",
+    "options": [
+      "litany",
+      "escarpment",
+      "hymn",
+      "coil"
+    ],
+    "correctAnswer": "hymn",
+    "status": "PENDING"
+  },
+  {
+    "word": "hyperbole",
+    "definition": "saying something much bigger or wilder than reality to make a point",
+    "blanked": "Saying 'I'm so hungry I could eat a horse' is an example of ______.",
+    "options": [
+      "humidity",
+      "under the weather",
+      "solar",
+      "hyperbole"
+    ],
+    "correctAnswer": "hyperbole",
+    "status": "PENDING"
+  },
+  {
+    "word": "icon",
+    "definition": "a small picture on a screen, or a widely recognized symbol",
+    "blanked": "She clicked the mail ______ on her computer to check for new messages.",
+    "options": [
+      "a blessing in disguise",
+      "barge",
+      "icon",
+      "colander"
+    ],
+    "correctAnswer": "icon",
+    "status": "PENDING"
+  },
+  {
+    "word": "imbue",
+    "definition": "to fill something with a quality or feeling",
+    "blanked": "The teacher ______ his students with a love of reading from day one.",
+    "options": [
+      "invertebrate",
+      "decompose",
+      "compulsion",
+      "imbue"
+    ],
+    "correctAnswer": "imbue",
+    "status": "PENDING"
+  },
+  {
+    "word": "impervious",
+    "definition": "not allowing anything to pass through; not affected by something",
+    "blanked": "The waterproof jacket was ______ to rain-not a single drop got through.",
+    "options": [
+      "egress",
+      "grindstone",
+      "knoll",
+      "impervious"
+    ],
+    "correctAnswer": "impervious",
+    "status": "PENDING"
+  },
+  {
+    "word": "impound",
+    "definition": "to take and keep something by law",
+    "blanked": "The city ______ the car because it had been parked illegally for weeks.",
+    "options": [
+      "historic",
+      "rhythm",
+      "constellation",
+      "impound"
+    ],
+    "correctAnswer": "impound",
+    "status": "PENDING"
+  },
+  {
+    "word": "indent",
+    "definition": "to start a line of text further from the edge",
+    "blanked": "She ______ the first line of each paragraph in her essay.",
+    "options": [
+      "indent",
+      "friction",
+      "civilization",
+      "flue"
+    ],
+    "correctAnswer": "indent",
+    "status": "PENDING"
+  },
+  {
+    "word": "inferno",
+    "definition": "a very large, fierce fire",
+    "blanked": "The forest fire grew into an ______ that lit up the night sky.",
+    "options": [
+      "flank",
+      "subsequently",
+      "inferno",
+      "knead"
+    ],
+    "correctAnswer": "inferno",
+    "status": "PENDING"
+  },
+  {
+    "word": "infuse",
+    "definition": "to fill something with a quality, or to soak to extract flavor",
+    "blanked": "She ______ the water with slices of lemon and mint for a refreshing drink.",
+    "options": [
+      "infuse",
+      "greenery",
+      "akin",
+      "provide"
+    ],
+    "correctAnswer": "infuse",
+    "status": "PENDING"
+  },
+  {
+    "word": "inlet",
+    "definition": "a small body of water that reaches into the land from the sea",
+    "blanked": "Kayakers paddled through the calm ______ surrounded by tall pine trees.",
+    "options": [
+      "inlet",
+      "buffet",
+      "burgeon",
+      "enthrall"
+    ],
+    "correctAnswer": "inlet",
+    "status": "PENDING"
+  },
+  {
+    "word": "inquest",
+    "definition": "an official investigation to find out what happened",
+    "blanked": "The judge ordered an ______ to find out exactly what had happened.",
+    "options": [
+      "wade",
+      "flak",
+      "elongate",
+      "inquest"
+    ],
+    "correctAnswer": "inquest",
+    "status": "PENDING"
+  },
+  {
+    "word": "instill",
+    "definition": "to gradually teach a thought or feeling to someone",
+    "blanked": "The coach ______ a sense of teamwork in every player on the squad.",
+    "options": [
+      "instill",
+      "immune",
+      "amiable",
+      "exotic"
+    ],
+    "correctAnswer": "instill",
+    "status": "PENDING"
+  },
+  {
+    "word": "insular",
+    "definition": "cut off from others; narrow in thinking",
+    "blanked": "The ______ village had little contact with the outside world.",
+    "options": [
+      "insular",
+      "a taste of your own medicine",
+      "locale",
+      "hamlet"
+    ],
+    "correctAnswer": "insular",
+    "status": "PENDING"
+  },
+  {
+    "word": "intrigue",
+    "definition": "to make someone very curious and interested",
+    "blanked": "The mysterious locked box ______ the children, and they wanted to open it.",
+    "options": [
+      "apparent",
+      "intrigue",
+      "hamlet",
+      "raining cats and dogs"
+    ],
+    "correctAnswer": "intrigue",
+    "status": "PENDING"
+  },
+  {
+    "word": "inundate",
+    "definition": "to flood or overwhelm with too much of something",
+    "blanked": "After the story went viral, the reporter was ______ with phone calls.",
+    "options": [
+      "microscope",
+      "inundate",
+      "inferior",
+      "renewable"
+    ],
+    "correctAnswer": "inundate",
+    "status": "PENDING"
+  },
+  {
+    "word": "irate",
+    "definition": "very angry and upset about something",
+    "blanked": "The ______ buyer demanded to speak to the manager about the broken product.",
+    "options": [
+      "composite",
+      "irate",
+      "conifer",
+      "treaty"
+    ],
+    "correctAnswer": "irate",
+    "status": "PENDING"
+  },
+  {
+    "word": "irk",
+    "definition": "to mildly annoy someone",
+    "blanked": "The constant dripping of the faucet ______ her while she tried to study.",
+    "options": [
+      "favorable",
+      "irk",
+      "electricity",
+      "dividend"
+    ],
+    "correctAnswer": "irk",
+    "status": "PENDING"
+  },
+  {
+    "word": "ivory",
+    "definition": "a hard, pale white material from elephant tusks, or the soft white color named after it",
+    "blanked": "The antique piano had ______-colored keys that felt smooth under his fingers.",
+    "options": [
+      "get cold feet",
+      "assail",
+      "frantic",
+      "ivory"
+    ],
+    "correctAnswer": "ivory",
+    "status": "PENDING"
+  },
+  {
+    "word": "jaunt",
+    "definition": "a short trip taken for fun",
+    "blanked": "They took a weekend ______ to the seaside to enjoy the fresh ocean air.",
+    "options": [
+      "jolt",
+      "for example",
+      "jaunt",
+      "filly"
+    ],
+    "correctAnswer": "jaunt",
+    "status": "PENDING"
+  },
+  {
+    "word": "jest",
+    "definition": "a joke or something said in a funny way",
+    "blanked": "He said it in ______, but everyone thought he was being serious.",
+    "options": [
+      "jest",
+      "germinate",
+      "doldrums",
+      "don't judge a book by its cover"
+    ],
+    "correctAnswer": "jest",
+    "status": "PENDING"
+  },
+  {
+    "word": "jettison",
+    "definition": "to throw something overboard or get rid of it",
+    "blanked": "The pilot ______ the extra fuel to make the plane lighter for landing.",
+    "options": [
+      "jettison",
+      "deciduous",
+      "awning",
+      "forgive"
+    ],
+    "correctAnswer": "jettison",
+    "status": "PENDING"
+  },
+  {
+    "word": "jinx",
+    "definition": "bad luck, or something believed to bring bad luck",
+    "blanked": "She thought the broken mirror was a ______ that would bring seven years of bad luck.",
+    "options": [
+      "provide",
+      "jinx",
+      "excessive",
+      "favorable"
+    ],
+    "correctAnswer": "jinx",
+    "status": "PENDING"
+  },
+  {
+    "word": "jostle",
+    "definition": "to bump or push roughly in a crowd",
+    "blanked": "Shoppers ______ each other trying to grab the last toy on the shelf.",
+    "options": [
+      "urban",
+      "friction",
+      "jostle",
+      "hit the nail on the head"
+    ],
+    "correctAnswer": "jostle",
+    "status": "PENDING"
+  },
+  {
+    "word": "jubilant",
+    "definition": "feeling or showing great happiness",
+    "blanked": "The ______ team lifted the trophy high and cheered winning the championship.",
+    "options": [
+      "ditto",
+      "jubilant",
+      "boon",
+      "hallow"
+    ],
+    "correctAnswer": "jubilant",
+    "status": "PENDING"
+  },
+  {
+    "word": "juncture",
+    "definition": "a particular point in time, or where things join",
+    "blanked": "At this ______, we need to decide whether to go forward or change our plan.",
+    "options": [
+      "corona",
+      "antiquated",
+      "flotsam",
+      "juncture"
+    ],
+    "correctAnswer": "juncture",
+    "status": "PENDING"
+  },
+  {
+    "word": "juniper",
+    "definition": "an evergreen shrub with small dark berries",
+    "blanked": "The ______ bushes along the fence were covered in tiny dark berries.",
+    "options": [
+      "prominent",
+      "juniper",
+      "akin",
+      "canyon"
+    ],
+    "correctAnswer": "juniper",
+    "status": "PENDING"
+  },
+  {
+    "word": "kernel",
+    "definition": "the inner part of a seed or nut, or a small piece",
+    "blanked": "She ate every last ______ of popcorn in the big bucket at the movies.",
+    "options": [
+      "kernel",
+      "amble",
+      "hit the books",
+      "telescope"
+    ],
+    "correctAnswer": "kernel",
+    "status": "PENDING"
+  },
+  {
+    "word": "kilt",
+    "definition": "a skirt that goes down to the knees with a plaid pattern, worn in Scotland",
+    "blanked": "The Scottish bagpiper wore a green and blue ______ while playing music.",
+    "options": [
+      "kilt",
+      "ledger",
+      "deciduous",
+      "blade"
+    ],
+    "correctAnswer": "kilt",
+    "status": "PENDING"
+  },
+  {
+    "word": "knack",
+    "definition": "a natural talent for doing something well",
+    "blanked": "He has a ______ for fixing things-he repaired the broken chair in ten minutes.",
+    "options": [
+      "to summarize",
+      "girdle",
+      "outcome",
+      "knack"
+    ],
+    "correctAnswer": "knack",
+    "status": "PENDING"
+  },
+  {
+    "word": "knead",
+    "definition": "to press and squeeze dough with your hands",
+    "blanked": "The baker ______ the bread dough until it was soft and smooth.",
+    "options": [
+      "cache",
+      "let the cat out of the bag",
+      "knead",
+      "buccaneer"
+    ],
+    "correctAnswer": "knead",
+    "status": "PENDING"
+  },
+  {
+    "word": "knell",
+    "definition": "the sound of a bell rung slowly for a sad or serious event",
+    "blanked": "The deep ______ of the church bell echoed across the quiet village.",
+    "options": [
+      "babble",
+      "germinate",
+      "nocturnal",
+      "knell"
+    ],
+    "correctAnswer": "knell",
+    "status": "PENDING"
+  },
+  {
+    "word": "knoll",
+    "definition": "a small, round hill",
+    "blanked": "They spread a picnic blanket on the grassy ______ and ate lunch in the sunshine.",
+    "options": [
+      "knoll",
+      "cornet",
+      "solar",
+      "glow"
+    ],
+    "correctAnswer": "knoll",
+    "status": "PENDING"
+  },
+  {
+    "word": "lacquer",
+    "definition": "a shiny coating painted on wood or metal",
+    "blanked": "The wooden jewelry box was covered in red ______ that gleamed in the light.",
+    "options": [
+      "lacquer",
+      "earthy",
+      "not only...but also",
+      "dragnet"
+    ],
+    "correctAnswer": "lacquer",
+    "status": "PENDING"
+  },
+  {
+    "word": "lair",
+    "definition": "a wild animal's den or hiding place",
+    "blanked": "The bear returned to its ______ in the cave to sleep through the winter.",
+    "options": [
+      "contour",
+      "in hot water",
+      "gouge",
+      "lair"
+    ],
+    "correctAnswer": "lair",
+    "status": "PENDING"
+  },
+  {
+    "word": "lance",
+    "definition": "a long spear used by knights on horseback",
+    "blanked": "The knight charged forward with his ______ pointed straight at the target.",
+    "options": [
+      "glacier",
+      "downpour",
+      "eyelet",
+      "lance"
+    ],
+    "correctAnswer": "lance",
+    "status": "PENDING"
+  },
+  {
+    "word": "lanky",
+    "definition": "tall and thin in an awkward way",
+    "blanked": "The ______ teenager had to duck to walk through the low doorway.",
+    "options": [
+      "photosynthesis",
+      "lanky",
+      "germinate",
+      "fulcrum"
+    ],
+    "correctAnswer": "lanky",
+    "status": "PENDING"
+  },
+  {
+    "word": "lattice",
+    "definition": "a frame made of crossed strips of wood or metal",
+    "blanked": "Roses climbed up the wooden ______ on the side of the cottage.",
+    "options": [
+      "lattice",
+      "services",
+      "stalagmite",
+      "akin"
+    ],
+    "correctAnswer": "lattice",
+    "status": "PENDING"
+  },
+  {
+    "word": "lavish",
+    "definition": "very giving, fancy, or more than enough",
+    "blanked": "The ______ birthday party had a chocolate fountain, a live band, and a pony ride.",
+    "options": [
+      "cleave",
+      "perpendicular",
+      "festoon",
+      "lavish"
+    ],
+    "correctAnswer": "lavish",
+    "status": "PENDING"
+  },
+  {
+    "word": "ledger",
+    "definition": "a book or system for recording money coming in and going out",
+    "blanked": "The shop owner wrote every sale in her ______ to keep track of the money.",
+    "options": [
+      "kilometer",
+      "occasional",
+      "flaw",
+      "ledger"
+    ],
+    "correctAnswer": "ledger",
+    "status": "PENDING"
+  },
+  {
+    "word": "leech",
+    "definition": "a worm-like creature that attaches to skin and feeds on blood",
+    "blanked": "After wading in the pond, he found a ______ stuck to his ankle.",
+    "options": [
+      "persuade",
+      "leech",
+      "official",
+      "carry on"
+    ],
+    "correctAnswer": "leech",
+    "status": "PENDING"
+  },
+  {
+    "word": "leer",
+    "definition": "to look at someone in a sly or unpleasant way",
+    "blanked": "The villain in the movie ______ at the hero with a wicked grin.",
+    "options": [
+      "technology",
+      "ford",
+      "expel",
+      "leer"
+    ],
+    "correctAnswer": "leer",
+    "status": "PENDING"
+  },
+  {
+    "word": "legible",
+    "definition": "clear enough to be read without much work",
+    "blanked": "Please write in ______ handwriting, so the teacher can read your answers.",
+    "options": [
+      "afflict",
+      "girdle",
+      "legible",
+      "chaplain"
+    ],
+    "correctAnswer": "legible",
+    "status": "PENDING"
+  },
+  {
+    "word": "legion",
+    "definition": "a large group of soldiers, or many people",
+    "blanked": "A ______ of fans waited outside the stadium for the concert to begin.",
+    "options": [
+      "inlet",
+      "alpine",
+      "belfry",
+      "legion"
+    ],
+    "correctAnswer": "legion",
+    "status": "PENDING"
+  },
+  {
+    "word": "lever",
+    "definition": "a bar used to lift or move heavy things",
+    "blanked": "He used a long ______ to pry the heavy lid off the old wooden crate.",
+    "options": [
+      "lever",
+      "boon",
+      "jettison",
+      "chrysalis"
+    ],
+    "correctAnswer": "lever",
+    "status": "PENDING"
+  },
+  {
+    "word": "lilac",
+    "definition": "a shrub with purple or white flowers that smell very nice",
+    "blanked": "The ______ bushes bloomed in May, filling the whole garden with perfume.",
+    "options": [
+      "hyperbole",
+      "irritate",
+      "favor",
+      "lilac"
+    ],
+    "correctAnswer": "lilac",
+    "status": "PENDING"
+  },
+  {
+    "word": "limber",
+    "definition": "flexible and able to bend well",
+    "blanked": "The gymnast was so ______ he could touch his toes to the back of his head.",
+    "options": [
+      "seek",
+      "limber",
+      "calculate",
+      "snatch"
+    ],
+    "correctAnswer": "limber",
+    "status": "PENDING"
+  },
+  {
+    "word": "limelight",
+    "definition": "the center of public attention",
+    "blanked": "The young actress enjoyed being in the ______ after her hit movie.",
+    "options": [
+      "limelight",
+      "arbiter",
+      "mass",
+      "forsake"
+    ],
+    "correctAnswer": "limelight",
+    "status": "PENDING"
+  },
+  {
+    "word": "limpid",
+    "definition": "perfectly clear, so you can see right through it",
+    "blanked": "The ______ mountain stream was so clear you could count the pebbles on the bottom.",
+    "options": [
+      "lever",
+      "composite",
+      "immense",
+      "limpid"
+    ],
+    "correctAnswer": "limpid",
+    "status": "PENDING"
+  },
+  {
+    "word": "lineage",
+    "definition": "the direct line of family members going back through history",
+    "blanked": "She traced her ______ back five generations and found she had ancestors from Ireland.",
+    "options": [
+      "lineage",
+      "exclaim",
+      "mobile",
+      "damage"
+    ],
+    "correctAnswer": "lineage",
+    "status": "PENDING"
+  },
+  {
+    "word": "linen",
+    "definition": "smooth cloth woven from the flax plant",
+    "blanked": "The table was set with a crisp white ______ tablecloth for the dinner party.",
+    "options": [
+      "linen",
+      "irritate",
+      "fringe",
+      "artifact"
+    ],
+    "correctAnswer": "linen",
+    "status": "PENDING"
+  },
+  {
+    "word": "lintel",
+    "definition": "a horizontal beam above a door or window that supports the wall above",
+    "blanked": "The stone ______ above the old doorway had the date 1820 carved into it.",
+    "options": [
+      "expat",
+      "get along with",
+      "billow",
+      "lintel"
+    ],
+    "correctAnswer": "lintel",
+    "status": "PENDING"
+  },
+  {
+    "word": "listless",
+    "definition": "having no energy or interest",
+    "blanked": "The hot afternoon made everyone ______, and no one wanted to move.",
+    "options": [
+      "for example",
+      "original",
+      "camouflage",
+      "listless"
+    ],
+    "correctAnswer": "listless",
+    "status": "PENDING"
+  },
+  {
+    "word": "litany",
+    "definition": "a long, boring list of things",
+    "blanked": "The teacher read a ______ of rules on the first day of school.",
+    "options": [
+      "billow",
+      "litany",
+      "irate",
+      "flair"
+    ],
+    "correctAnswer": "litany",
+    "status": "PENDING"
+  },
+  {
+    "word": "lithe",
+    "definition": "thin, flexible, and graceful",
+    "blanked": "The ______ dancer moved across the stage like a cat.",
+    "options": [
+      "lithe",
+      "agriculture",
+      "original",
+      "strengthen"
+    ],
+    "correctAnswer": "lithe",
+    "status": "PENDING"
+  },
+  {
+    "word": "livelihood",
+    "definition": "the way someone earns money to live",
+    "blanked": "Fishing was the main ______ for people in the small coastal village.",
+    "options": [
+      "grit",
+      "larva",
+      "livelihood",
+      "bane"
+    ],
+    "correctAnswer": "livelihood",
+    "status": "PENDING"
+  },
+  {
+    "word": "loam",
+    "definition": "a type of rich dark soil made of sand, clay, and decomposed plants",
+    "blanked": "The gardener filled the pots with dark ______ before planting the seeds.",
+    "options": [
+      "loam",
+      "fanfare",
+      "inferior",
+      "dapple"
+    ],
+    "correctAnswer": "loam",
+    "status": "PENDING"
+  },
+  {
+    "word": "lobe",
+    "definition": "a rounded part of something, like an ear or brain",
+    "blanked": "She wore a tiny gold earring on each ______ of her ears.",
+    "options": [
+      "lobe",
+      "raining cats and dogs",
+      "adage",
+      "humus"
+    ],
+    "correctAnswer": "lobe",
+    "status": "PENDING"
+  },
+  {
+    "word": "locale",
+    "definition": "the place where something happens",
+    "blanked": "The tropical ______ of the movie made it feel like a vacation.",
+    "options": [
+      "baroque",
+      "inferior",
+      "locale",
+      "occasional"
+    ],
+    "correctAnswer": "locale",
+    "status": "PENDING"
+  },
+  {
+    "word": "locomotion",
+    "definition": "the ability to move from place to place",
+    "blanked": "Wheels, legs, and fins are all tools of ______ used by different creatures.",
+    "options": [
+      "barley",
+      "adage",
+      "locomotion",
+      "every cloud has a silver lining"
+    ],
+    "correctAnswer": "locomotion",
+    "status": "PENDING"
+  },
+  {
+    "word": "loft",
+    "definition": "an upper room or space just below the top",
+    "blanked": "They converted the dusty ______ into a cozy reading room with bean bag chairs.",
+    "options": [
+      "clatter",
+      "symmetry",
+      "loft",
+      "pharaoh"
+    ],
+    "correctAnswer": "loft",
+    "status": "PENDING"
+  },
+  {
+    "word": "lore",
+    "definition": "knowledge and stories passed down over many years",
+    "blanked": "The village elder shared the ______ of their people around the evening campfire.",
+    "options": [
+      "hull",
+      "lore",
+      "collide",
+      "mandate"
+    ],
+    "correctAnswer": "lore",
+    "status": "PENDING"
+  },
+  {
+    "word": "lucid",
+    "definition": "easy to understand, or thinking clearly",
+    "blanked": "The teacher gave a ______ explanation that helped everyone understand fractions.",
+    "options": [
+      "buoyancy",
+      "egress",
+      "composite",
+      "lucid"
+    ],
+    "correctAnswer": "lucid",
+    "status": "PENDING"
+  },
+  {
+    "word": "lull",
+    "definition": "a temporary calm or quiet period",
+    "blanked": "During a ______ in the storm, they quickly ran outside to bring in the chairs.",
+    "options": [
+      "get along with",
+      "lull",
+      "ethereal",
+      "a blessing in disguise"
+    ],
+    "correctAnswer": "lull",
+    "status": "PENDING"
+  },
+  {
+    "word": "lunge",
+    "definition": "a sudden forward movement",
+    "blanked": "The fencer made a quick ______ toward his opponent and scored a point.",
+    "options": [
+      "practice makes perfect",
+      "stalagmite",
+      "ecosystem",
+      "lunge"
+    ],
+    "correctAnswer": "lunge",
+    "status": "PENDING"
+  }
+]

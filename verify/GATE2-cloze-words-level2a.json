@@ -1,0 +1,5202 @@
+[
+  {
+    "word": "avoid",
+    "definition": "to stay away from something",
+    "blanked": "She walked around the mud to ______ getting her new shoes dirty.",
+    "options": [
+      "anxious",
+      "mean",
+      "horizon",
+      "avoid"
+    ],
+    "correctAnswer": "avoid",
+    "status": "PENDING"
+  },
+  {
+    "word": "burst",
+    "definition": "to break open suddenly",
+    "blanked": "The balloon ______ with a loud pop when it hit the thorn.",
+    "options": [
+      "burst",
+      "sign up",
+      "noble",
+      "orbit"
+    ],
+    "correctAnswer": "burst",
+    "status": "PENDING"
+  },
+  {
+    "word": "bury",
+    "definition": "to put something under the ground",
+    "blanked": "The squirrel likes to ______ nuts in the yard for winter.",
+    "options": [
+      "mortar",
+      "mango",
+      "forecast",
+      "bury"
+    ],
+    "correctAnswer": "bury",
+    "status": "PENDING"
+  },
+  {
+    "word": "cheer",
+    "definition": "to shout with happiness to show support",
+    "blanked": "The crowd began to ______ when the team scored the winning goal.",
+    "options": [
+      "immediately",
+      "cheer",
+      "surface",
+      "store"
+    ],
+    "correctAnswer": "cheer",
+    "status": "PENDING"
+  },
+  {
+    "word": "choose",
+    "definition": "to pick one thing from many",
+    "blanked": "You may ______ any flavor of ice cream you want.",
+    "options": [
+      "choose",
+      "positive",
+      "brisk",
+      "complete"
+    ],
+    "correctAnswer": "choose",
+    "status": "PENDING"
+  },
+  {
+    "word": "claim",
+    "definition": "to say something is yours or is true",
+    "blanked": "Both children ______ the toy is theirs, so the teacher had to help.",
+    "options": [
+      "pale",
+      "material",
+      "pay attention",
+      "claim"
+    ],
+    "correctAnswer": "claim",
+    "status": "PENDING"
+  },
+  {
+    "word": "combine",
+    "definition": "to mix or put things together",
+    "blanked": "If you ______ blue and yellow paint, you get green.",
+    "options": [
+      "combine",
+      "back up",
+      "summary",
+      "bring"
+    ],
+    "correctAnswer": "combine",
+    "status": "PENDING"
+  },
+  {
+    "word": "command",
+    "definition": "to give an order that must be followed",
+    "blanked": "The dog trainer ______ the puppy to sit and stay.",
+    "options": [
+      "use up",
+      "fearless",
+      "ideal",
+      "command"
+    ],
+    "correctAnswer": "command",
+    "status": "PENDING"
+  },
+  {
+    "word": "consider",
+    "definition": "to think with care about something",
+    "blanked": "Please ______ all the choices before you pick your answer.",
+    "options": [
+      "communicate",
+      "guideline",
+      "conflict",
+      "consider"
+    ],
+    "correctAnswer": "consider",
+    "status": "PENDING"
+  },
+  {
+    "word": "continue",
+    "definition": "to keep going and not stop what you are doing",
+    "blanked": "The rain will ______ all day, so bring your umbrella.",
+    "options": [
+      "immediately",
+      "easel",
+      "consequence",
+      "continue"
+    ],
+    "correctAnswer": "continue",
+    "status": "PENDING"
+  },
+  {
+    "word": "control",
+    "definition": "to have power over something and make it do what you want",
+    "blanked": "Use the remote to ______ which channel the TV shows.",
+    "options": [
+      "accurate",
+      "bonfire",
+      "dialogue",
+      "control"
+    ],
+    "correctAnswer": "control",
+    "status": "PENDING"
+  },
+  {
+    "word": "cover",
+    "definition": "to place something on top of another thing to hide or protect it",
+    "blanked": "Please ______ the food, so the flies don't land on it.",
+    "options": [
+      "signal",
+      "harvest",
+      "modify",
+      "cover"
+    ],
+    "correctAnswer": "cover",
+    "status": "PENDING"
+  },
+  {
+    "word": "cross",
+    "definition": "to go from one side to the other side of a road, river, or area",
+    "blanked": "Look both ways before you ______ the street.",
+    "options": [
+      "zone",
+      "leaf",
+      "cross",
+      "calendar"
+    ],
+    "correctAnswer": "cross",
+    "status": "PENDING"
+  },
+  {
+    "word": "crush",
+    "definition": "to press something so hard it breaks into pieces",
+    "blanked": "The giant rock fell and ______ the empty box flat.",
+    "options": [
+      "crush",
+      "demonstrate",
+      "subtract",
+      "depend"
+    ],
+    "correctAnswer": "crush",
+    "status": "PENDING"
+  },
+  {
+    "word": "dare",
+    "definition": "to be brave enough to try something scary",
+    "blanked": "Nobody ______ to open the creaky old door in the basement.",
+    "options": [
+      "dare",
+      "noble",
+      "succeed",
+      "score"
+    ],
+    "correctAnswer": "dare",
+    "status": "PENDING"
+  },
+  {
+    "word": "demand",
+    "definition": "to ask for something in a strong, firm way",
+    "blanked": "The hungry baby ______ more food by banging on the table.",
+    "options": [
+      "flourish",
+      "error",
+      "such as",
+      "demand"
+    ],
+    "correctAnswer": "demand",
+    "status": "PENDING"
+  },
+  {
+    "word": "develop",
+    "definition": "to grow or change over time",
+    "blanked": "A tiny seed can ______ into a tall sunflower in just a few weeks.",
+    "options": [
+      "course",
+      "summary",
+      "oar",
+      "develop"
+    ],
+    "correctAnswer": "develop",
+    "status": "PENDING"
+  },
+  {
+    "word": "direct",
+    "definition": "to show people or vehicles where they must go",
+    "blanked": "A crossing guard can ______ cars to stop so children walk safely.",
+    "options": [
+      "aware",
+      "wear out",
+      "impatient",
+      "direct"
+    ],
+    "correctAnswer": "direct",
+    "status": "PENDING"
+  },
+  {
+    "word": "examine",
+    "definition": "to look at something very closely",
+    "blanked": "The doctor ______ my sore throat with a tiny flashlight.",
+    "options": [
+      "examine",
+      "hazard",
+      "consequence",
+      "rude"
+    ],
+    "correctAnswer": "examine",
+    "status": "PENDING"
+  },
+  {
+    "word": "exchange",
+    "definition": "to trade one thing for another",
+    "blanked": "The two friends ______ stickers during lunch.",
+    "options": [
+      "exploit",
+      "mean",
+      "orbit",
+      "exchange"
+    ],
+    "correctAnswer": "exchange",
+    "status": "PENDING"
+  },
+  {
+    "word": "excite",
+    "definition": "to make someone feel very happy and full of life",
+    "blanked": "The news about the field trip ______ all the students.",
+    "options": [
+      "fail",
+      "compassionate",
+      "excite",
+      "ambitious"
+    ],
+    "correctAnswer": "excite",
+    "status": "PENDING"
+  },
+  {
+    "word": "expect",
+    "definition": "to think something will happen",
+    "blanked": "I ______ the bus will come soon because it is almost eight o'clock.",
+    "options": [
+      "hammock",
+      "descend",
+      "perform",
+      "expect"
+    ],
+    "correctAnswer": "expect",
+    "status": "PENDING"
+  },
+  {
+    "word": "explore",
+    "definition": "to look around a new place to learn about it",
+    "blanked": "We ______ the cave with flashlights and found cool rocks inside.",
+    "options": [
+      "explore",
+      "humble",
+      "setting",
+      "ancient"
+    ],
+    "correctAnswer": "explore",
+    "status": "PENDING"
+  },
+  {
+    "word": "express",
+    "definition": "to show how you feel using words or actions",
+    "blanked": "She ______ her happiness by giving everyone a big smile.",
+    "options": [
+      "oppose",
+      "prosper",
+      "nettle",
+      "express"
+    ],
+    "correctAnswer": "express",
+    "status": "PENDING"
+  },
+  {
+    "word": "fail",
+    "definition": "to not be able to do something you tried",
+    "blanked": "He ______ to catch the ball, but he tried again and caught the next one.",
+    "options": [
+      "fail",
+      "put away",
+      "close",
+      "domain"
+    ],
+    "correctAnswer": "fail",
+    "status": "PENDING"
+  },
+  {
+    "word": "flow",
+    "definition": "to move smoothly like water",
+    "blanked": "The river ______ quickly over the rocks and down the hill.",
+    "options": [
+      "flow",
+      "inquire",
+      "symbol",
+      "insert"
+    ],
+    "correctAnswer": "flow",
+    "status": "PENDING"
+  },
+  {
+    "word": "form",
+    "definition": "to make or shape something into a new thing",
+    "blanked": "We used clay to ______ little animals for our art project.",
+    "options": [
+      "frighten",
+      "playground",
+      "compact",
+      "form"
+    ],
+    "correctAnswer": "form",
+    "status": "PENDING"
+  },
+  {
+    "word": "gaze",
+    "definition": "to look at something quietly with wonder or interest",
+    "blanked": "He ______ at the stars, amazed by how many there were.",
+    "options": [
+      "passion",
+      "gaze",
+      "course",
+      "penalty"
+    ],
+    "correctAnswer": "gaze",
+    "status": "PENDING"
+  },
+  {
+    "word": "guide",
+    "definition": "to lead someone by going with them and showing the path",
+    "blanked": "The park ranger will ______ us along the trail through the forest.",
+    "options": [
+      "guide",
+      "conspicuous",
+      "absurd",
+      "look forward to"
+    ],
+    "correctAnswer": "guide",
+    "status": "PENDING"
+  },
+  {
+    "word": "hasten",
+    "definition": "to move or do something faster",
+    "blanked": "We ______ our steps when we saw the dark clouds coming.",
+    "options": [
+      "figure of speech",
+      "hasten",
+      "lately",
+      "direct"
+    ],
+    "correctAnswer": "hasten",
+    "status": "PENDING"
+  },
+  {
+    "word": "hide",
+    "definition": "to put yourself or something where no one can see",
+    "blanked": "The children love to ______ behind the big tree during the game.",
+    "options": [
+      "parchment",
+      "hide",
+      "fair",
+      "revise"
+    ],
+    "correctAnswer": "hide",
+    "status": "PENDING"
+  },
+  {
+    "word": "hike",
+    "definition": "to take a long walk outdoors, usually on a trail",
+    "blanked": "Our family likes to ______ up the mountain every summer.",
+    "options": [
+      "hike",
+      "complete",
+      "dense",
+      "sometimes"
+    ],
+    "correctAnswer": "hike",
+    "status": "PENDING"
+  },
+  {
+    "word": "hug",
+    "definition": "to put your arms around someone to show love",
+    "blanked": "She ran to ______ her grandmother as soon as she walked in the door.",
+    "options": [
+      "bonfire",
+      "hug",
+      "comfort",
+      "comet"
+    ],
+    "correctAnswer": "hug",
+    "status": "PENDING"
+  },
+  {
+    "word": "hunt",
+    "definition": "to chase or search for animals or things you want to catch",
+    "blanked": "The owl ______ for mice at night when it is very dark.",
+    "options": [
+      "generate",
+      "framework",
+      "hunt",
+      "glide"
+    ],
+    "correctAnswer": "hunt",
+    "status": "PENDING"
+  },
+  {
+    "word": "increase",
+    "definition": "to make something bigger in size or amount",
+    "blanked": "The number of students in our class ______ from twenty to twenty-five.",
+    "options": [
+      "holly",
+      "triple",
+      "near",
+      "increase"
+    ],
+    "correctAnswer": "increase",
+    "status": "PENDING"
+  },
+  {
+    "word": "insist",
+    "definition": "to say something strongly and not change your mind",
+    "blanked": "Mom ______ that we wear our coats because it was freezing outside.",
+    "options": [
+      "handful",
+      "keen",
+      "guard",
+      "insist"
+    ],
+    "correctAnswer": "insist",
+    "status": "PENDING"
+  },
+  {
+    "word": "instruct",
+    "definition": "to teach someone by explaining the steps",
+    "blanked": "The coach ______ the players to pass the ball more often.",
+    "options": [
+      "instruct",
+      "arm",
+      "respect",
+      "close"
+    ],
+    "correctAnswer": "instruct",
+    "status": "PENDING"
+  },
+  {
+    "word": "admire",
+    "definition": "to look at something and think it is very good",
+    "blanked": "Everyone stopped to ______ the beautiful painting on the wall.",
+    "options": [
+      "admire",
+      "lunch",
+      "dependable",
+      "solution"
+    ],
+    "correctAnswer": "admire",
+    "status": "PENDING"
+  },
+  {
+    "word": "announce",
+    "definition": "to tell everyone something important",
+    "blanked": "The principal ______ that school would end early because of the snow.",
+    "options": [
+      "definition",
+      "announce",
+      "handful",
+      "convince"
+    ],
+    "correctAnswer": "announce",
+    "status": "PENDING"
+  },
+  {
+    "word": "approve",
+    "definition": "to say yes or agree that something is all right",
+    "blanked": "Mom ______ my plan to have a sleepover this weekend.",
+    "options": [
+      "cross out",
+      "bring",
+      "approve",
+      "innovation"
+    ],
+    "correctAnswer": "approve",
+    "status": "PENDING"
+  },
+  {
+    "word": "argue",
+    "definition": "to disagree with someone using words",
+    "blanked": "The two brothers ______ about whose turn it was to play the game.",
+    "options": [
+      "argue",
+      "initially",
+      "mineral",
+      "bobsled"
+    ],
+    "correctAnswer": "argue",
+    "status": "PENDING"
+  },
+  {
+    "word": "behave",
+    "definition": "to act in a good or right way",
+    "blanked": "The teacher asked the class to ______ nicely during the trip.",
+    "options": [
+      "behave",
+      "luxury",
+      "daring",
+      "gutter"
+    ],
+    "correctAnswer": "behave",
+    "status": "PENDING"
+  },
+  {
+    "word": "celebrate",
+    "definition": "to do something special because of a happy event",
+    "blanked": "We ______ grandma's birthday with cake and balloons.",
+    "options": [
+      "delay",
+      "celebrate",
+      "reserve",
+      "horizon"
+    ],
+    "correctAnswer": "celebrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "compare",
+    "definition": "to look at two things to see how they are the same or different",
+    "blanked": "Let's ______ these two shells to see which one is bigger.",
+    "options": [
+      "compare",
+      "bright",
+      "accurate",
+      "guide"
+    ],
+    "correctAnswer": "compare",
+    "status": "PENDING"
+  },
+  {
+    "word": "convince",
+    "definition": "to get someone to agree with you",
+    "blanked": "She ______ her dad to let them get a puppy by promising to walk it every day.",
+    "options": [
+      "combine",
+      "famous",
+      "clump",
+      "convince"
+    ],
+    "correctAnswer": "convince",
+    "status": "PENDING"
+  },
+  {
+    "word": "defend",
+    "definition": "to protect someone or something from danger",
+    "blanked": "The father bird ______ his nest by flapping his wings at the cat.",
+    "options": [
+      "vacant",
+      "suspect",
+      "defend",
+      "fence"
+    ],
+    "correctAnswer": "defend",
+    "status": "PENDING"
+  },
+  {
+    "word": "disappear",
+    "definition": "to go away so no one can see it anymore",
+    "blanked": "The magician made the coin ______ right before our eyes.",
+    "options": [
+      "patience",
+      "strong",
+      "capture",
+      "disappear"
+    ],
+    "correctAnswer": "disappear",
+    "status": "PENDING"
+  },
+  {
+    "word": "encourage",
+    "definition": "to say kind words to help someone keep trying",
+    "blanked": "Her friends ______ her to try again after she fell off the bike.",
+    "options": [
+      "selfish",
+      "encourage",
+      "steady",
+      "rude"
+    ],
+    "correctAnswer": "encourage",
+    "status": "PENDING"
+  },
+  {
+    "word": "improve",
+    "definition": "to get better at something",
+    "blanked": "She ______ her reading by practicing every night before bed.",
+    "options": [
+      "route",
+      "act",
+      "message",
+      "improve"
+    ],
+    "correctAnswer": "improve",
+    "status": "PENDING"
+  },
+  {
+    "word": "interrupt",
+    "definition": "to start talking when someone else is already speaking",
+    "blanked": "Please don't ______ me while I am telling the story.",
+    "options": [
+      "interrupt",
+      "habit",
+      "interpret",
+      "glitter"
+    ],
+    "correctAnswer": "interrupt",
+    "status": "PENDING"
+  },
+  {
+    "word": "observe",
+    "definition": "to watch something carefully",
+    "blanked": "We ______ the caterpillar as it slowly turned into a butterfly.",
+    "options": [
+      "observe",
+      "album",
+      "again",
+      "digest"
+    ],
+    "correctAnswer": "observe",
+    "status": "PENDING"
+  },
+  {
+    "word": "organize",
+    "definition": "to put things in order so they are neat",
+    "blanked": "She ______ her crayons by color in a neat row.",
+    "options": [
+      "knock down",
+      "bit by bit",
+      "passion",
+      "organize"
+    ],
+    "correctAnswer": "organize",
+    "status": "PENDING"
+  },
+  {
+    "word": "bold",
+    "definition": "not afraid to take risks",
+    "blanked": "The ______ explorer walked into the dark cave without any fear.",
+    "options": [
+      "complement",
+      "carefully",
+      "profit",
+      "bold"
+    ],
+    "correctAnswer": "bold",
+    "status": "PENDING"
+  },
+  {
+    "word": "brief",
+    "definition": "taking very little time from start to finish",
+    "blanked": "The rain was ______—it stopped after just five minutes.",
+    "options": [
+      "brief",
+      "soil",
+      "guess",
+      "granite"
+    ],
+    "correctAnswer": "brief",
+    "status": "PENDING"
+  },
+  {
+    "word": "delicate",
+    "definition": "thin and easy to break",
+    "blanked": "The ______ butterfly wing had tiny patterns you could barely see.",
+    "options": [
+      "delicate",
+      "accommodate",
+      "kindle",
+      "reasonable"
+    ],
+    "correctAnswer": "delicate",
+    "status": "PENDING"
+  },
+  {
+    "word": "dense",
+    "definition": "very close together with no space",
+    "blanked": "The forest was so ______ that sunlight could barely get through the trees.",
+    "options": [
+      "encounter",
+      "dense",
+      "key",
+      "gravel"
+    ],
+    "correctAnswer": "dense",
+    "status": "PENDING"
+  },
+  {
+    "word": "dim",
+    "definition": "not very bright, hard to see",
+    "blanked": "The ______ light in the hallway made it hard to find the door.",
+    "options": [
+      "colorful",
+      "safe",
+      "dim",
+      "attract"
+    ],
+    "correctAnswer": "dim",
+    "status": "PENDING"
+  },
+  {
+    "word": "distant",
+    "definition": "far away",
+    "blanked": "We could see the ______ mountains, but it would take hours to reach them.",
+    "options": [
+      "heal",
+      "circle",
+      "object",
+      "distant"
+    ],
+    "correctAnswer": "distant",
+    "status": "PENDING"
+  },
+  {
+    "word": "drowsy",
+    "definition": "feeling very tired and ready to sleep",
+    "blanked": "The warm blanket made him ______, and he soon fell asleep.",
+    "options": [
+      "welfare",
+      "birch",
+      "drowsy",
+      "learn"
+    ],
+    "correctAnswer": "drowsy",
+    "status": "PENDING"
+  },
+  {
+    "word": "dusty",
+    "definition": "covered with tiny bits of dirt",
+    "blanked": "The ______ old book hadn't been opened in many years.",
+    "options": [
+      "glitter",
+      "raw",
+      "anxious",
+      "dusty"
+    ],
+    "correctAnswer": "dusty",
+    "status": "PENDING"
+  },
+  {
+    "word": "elegant",
+    "definition": "beautiful and graceful in a fancy way",
+    "blanked": "The ______ swan glided smoothly across the lake.",
+    "options": [
+      "elegant",
+      "gust",
+      "boil down to",
+      "mean"
+    ],
+    "correctAnswer": "elegant",
+    "status": "PENDING"
+  },
+  {
+    "word": "faint",
+    "definition": "very weak and hard to notice",
+    "blanked": "There was a ______ smell of cookies coming from the kitchen far away.",
+    "options": [
+      "afford",
+      "purchase",
+      "such as",
+      "faint"
+    ],
+    "correctAnswer": "faint",
+    "status": "PENDING"
+  },
+  {
+    "word": "familiar",
+    "definition": "something you have seen or know about before",
+    "blanked": "The song sounded ______ because he had heard it many times.",
+    "options": [
+      "propose",
+      "confine",
+      "flint",
+      "familiar"
+    ],
+    "correctAnswer": "familiar",
+    "status": "PENDING"
+  },
+  {
+    "word": "flat",
+    "definition": "smooth and level with no bumps",
+    "blanked": "The pancake was thin and ______ like a plate.",
+    "options": [
+      "campaign",
+      "reach",
+      "bead",
+      "flat"
+    ],
+    "correctAnswer": "flat",
+    "status": "PENDING"
+  },
+  {
+    "word": "flexible",
+    "definition": "able to bend well without breaking",
+    "blanked": "The ______ rubber band stretched without snapping.",
+    "options": [
+      "summary",
+      "conclusion",
+      "marble",
+      "flexible"
+    ],
+    "correctAnswer": "flexible",
+    "status": "PENDING"
+  },
+  {
+    "word": "foggy",
+    "definition": "filled with thick mist so you cannot see well",
+    "blanked": "The morning was so ______ that we couldn't see across the playground.",
+    "options": [
+      "guilty",
+      "foggy",
+      "dimension",
+      "easel"
+    ],
+    "correctAnswer": "foggy",
+    "status": "PENDING"
+  },
+  {
+    "word": "glossy",
+    "definition": "smooth and shiny like glass",
+    "blanked": "The ______ paper from the store showed all the new toys.",
+    "options": [
+      "glossy",
+      "indicate",
+      "estimate",
+      "catch on"
+    ],
+    "correctAnswer": "glossy",
+    "status": "PENDING"
+  },
+  {
+    "word": "grim",
+    "definition": "looking sad and not happy at all",
+    "blanked": "The teacher had a ______ face when she saw the mess in the classroom.",
+    "options": [
+      "grim",
+      "proportion",
+      "crest",
+      "mention"
+    ],
+    "correctAnswer": "grim",
+    "status": "PENDING"
+  },
+  {
+    "word": "harsh",
+    "definition": "rough and not nice",
+    "blanked": "The ______ winter wind stung their faces as they walked to school.",
+    "options": [
+      "cause",
+      "encounter",
+      "harsh",
+      "yearly"
+    ],
+    "correctAnswer": "harsh",
+    "status": "PENDING"
+  },
+  {
+    "word": "heavy",
+    "definition": "weighing a lot and hard to lift",
+    "blanked": "The ______ backpack made her shoulders ache by the end of the day.",
+    "options": [
+      "guarantee",
+      "neatly",
+      "hourly",
+      "heavy"
+    ],
+    "correctAnswer": "heavy",
+    "status": "PENDING"
+  },
+  {
+    "word": "helpless",
+    "definition": "not able to do anything to help yourself",
+    "blanked": "The ______ baby bird sat in the nest waiting for its mother.",
+    "options": [
+      "point out",
+      "helpless",
+      "harvest",
+      "examine"
+    ],
+    "correctAnswer": "helpless",
+    "status": "PENDING"
+  },
+  {
+    "word": "humble",
+    "definition": "not thinking you are better than others",
+    "blanked": "Even though he won first place, he was ______ and thanked his team.",
+    "options": [
+      "humble",
+      "exact",
+      "equate",
+      "pleasant"
+    ],
+    "correctAnswer": "humble",
+    "status": "PENDING"
+  },
+  {
+    "word": "innocent",
+    "definition": "not having done anything wrong",
+    "blanked": "The puppy looked ______, but it was the one who chewed the shoe.",
+    "options": [
+      "marsh",
+      "innocent",
+      "nature",
+      "regard"
+    ],
+    "correctAnswer": "innocent",
+    "status": "PENDING"
+  },
+  {
+    "word": "invisible",
+    "definition": "not able to be seen",
+    "blanked": "The glass door was so clean it was almost ______.",
+    "options": [
+      "call off",
+      "bonus",
+      "before long",
+      "invisible"
+    ],
+    "correctAnswer": "invisible",
+    "status": "PENDING"
+  },
+  {
+    "word": "keen",
+    "definition": "very interested and eager to do something",
+    "blanked": "He was ______ to start reading the new book he got for his birthday.",
+    "options": [
+      "keen",
+      "garnet",
+      "compel",
+      "picnic"
+    ],
+    "correctAnswer": "keen",
+    "status": "PENDING"
+  },
+  {
+    "word": "lean",
+    "definition": "thin and strong and well looking",
+    "blanked": "The ______ runner finished the race first because she was fast and fit.",
+    "options": [
+      "lean",
+      "vein",
+      "regular",
+      "enthusiastic"
+    ],
+    "correctAnswer": "lean",
+    "status": "PENDING"
+  },
+  {
+    "word": "lively",
+    "definition": "full of life and fun",
+    "blanked": "The ______ puppy bounced around the yard chasing butterflies.",
+    "options": [
+      "food chain",
+      "fail",
+      "lively",
+      "knee"
+    ],
+    "correctAnswer": "lively",
+    "status": "PENDING"
+  },
+  {
+    "word": "lovely",
+    "definition": "very pretty or nice",
+    "blanked": "What a ______ garden full of colorful flowers and green plants!",
+    "options": [
+      "lovely",
+      "temporary",
+      "bilateral",
+      "keep track of"
+    ],
+    "correctAnswer": "lovely",
+    "status": "PENDING"
+  },
+  {
+    "word": "magnificent",
+    "definition": "very nice and impressive",
+    "blanked": "The ______ fireworks lit up the whole night sky.",
+    "options": [
+      "admire",
+      "magnificent",
+      "incorporate",
+      "signal"
+    ],
+    "correctAnswer": "magnificent",
+    "status": "PENDING"
+  },
+  {
+    "word": "moist",
+    "definition": "slightly wet, often in a soft or good way",
+    "blanked": "The ______ soil was perfect for planting seeds in the garden.",
+    "options": [
+      "dinghy",
+      "triumph",
+      "heritage",
+      "moist"
+    ],
+    "correctAnswer": "moist",
+    "status": "PENDING"
+  },
+  {
+    "word": "neat",
+    "definition": "clean and in good order",
+    "blanked": "Her desk was always ______ with pencils lined up in a row.",
+    "options": [
+      "neat",
+      "ambitious",
+      "go through",
+      "designate"
+    ],
+    "correctAnswer": "neat",
+    "status": "PENDING"
+  },
+  {
+    "word": "noble",
+    "definition": "good, brave, and fair",
+    "blanked": "The ______ knight promised to help everyone in the village.",
+    "options": [
+      "noble",
+      "obstacle",
+      "minimum",
+      "reptile"
+    ],
+    "correctAnswer": "noble",
+    "status": "PENDING"
+  },
+  {
+    "word": "odd",
+    "definition": "strange or unusual",
+    "blanked": "It was ______ to see snow in April when it was supposed to be spring.",
+    "options": [
+      "unearth",
+      "blot out",
+      "predict",
+      "odd"
+    ],
+    "correctAnswer": "odd",
+    "status": "PENDING"
+  },
+  {
+    "word": "pale",
+    "definition": "light in color, not bright",
+    "blanked": "Her face turned ______ when she heard the scary noise.",
+    "options": [
+      "arm",
+      "simple",
+      "pale",
+      "chromosome"
+    ],
+    "correctAnswer": "pale",
+    "status": "PENDING"
+  },
+  {
+    "word": "plump",
+    "definition": "round and a little bit fat",
+    "blanked": "The ______ blueberries were ready to pick from the bush.",
+    "options": [
+      "plump",
+      "challenge",
+      "fall apart",
+      "amber"
+    ],
+    "correctAnswer": "plump",
+    "status": "PENDING"
+  },
+  {
+    "word": "precious",
+    "definition": "very special and valuable",
+    "blanked": "The ring was ______ to him because it belonged to his grandfather.",
+    "options": [
+      "ore",
+      "beam",
+      "reject",
+      "precious"
+    ],
+    "correctAnswer": "precious",
+    "status": "PENDING"
+  },
+  {
+    "word": "pure",
+    "definition": "clean and not mixed with anything else",
+    "blanked": "The mountain stream had ______ water that was clear as glass.",
+    "options": [
+      "succeed",
+      "far",
+      "guess",
+      "pure"
+    ],
+    "correctAnswer": "pure",
+    "status": "PENDING"
+  },
+  {
+    "word": "rare",
+    "definition": "not found or seen very often",
+    "blanked": "It is ______ to see a bald eagle, so we were very lucky that day.",
+    "options": [
+      "regularly",
+      "odd",
+      "friendship",
+      "rare"
+    ],
+    "correctAnswer": "rare",
+    "status": "PENDING"
+  },
+  {
+    "word": "raw",
+    "definition": "not cooked or prepared with heat",
+    "blanked": "You should not eat ______ chicken because it can make you sick.",
+    "options": [
+      "fail",
+      "burst",
+      "raw",
+      "suspect"
+    ],
+    "correctAnswer": "raw",
+    "status": "PENDING"
+  },
+  {
+    "word": "round",
+    "definition": "shaped like a circle or ball",
+    "blanked": "The ______ orange rolled off the table and onto the floor.",
+    "options": [
+      "put off",
+      "bugle",
+      "round",
+      "universe"
+    ],
+    "correctAnswer": "round",
+    "status": "PENDING"
+  },
+  {
+    "word": "rude",
+    "definition": "not kind and good, saying or doing mean things",
+    "blanked": "It is ______ to talk while someone else is speaking.",
+    "options": [
+      "rude",
+      "regularly",
+      "catch on",
+      "connect"
+    ],
+    "correctAnswer": "rude",
+    "status": "PENDING"
+  },
+  {
+    "word": "rusty",
+    "definition": "covered in a rough, dark brown layer that forms when metal gets wet",
+    "blanked": "The ______ old bike had been left in the rain for too long.",
+    "options": [
+      "noisy",
+      "century",
+      "rusty",
+      "familiar"
+    ],
+    "correctAnswer": "rusty",
+    "status": "PENDING"
+  },
+  {
+    "word": "scarce",
+    "definition": "hard to find because there is not much",
+    "blanked": "When a trading card is ______, collectors will pay a much higher price for it.",
+    "options": [
+      "granite",
+      "derive",
+      "cotton",
+      "scarce"
+    ],
+    "correctAnswer": "scarce",
+    "status": "PENDING"
+  },
+  {
+    "word": "slender",
+    "definition": "thin and graceful",
+    "blanked": "The ______ candle fit perfectly in the tiny holder.",
+    "options": [
+      "fair",
+      "basin",
+      "look up",
+      "slender"
+    ],
+    "correctAnswer": "slender",
+    "status": "PENDING"
+  },
+  {
+    "word": "soft",
+    "definition": "not hard, gentle to touch",
+    "blanked": "The ______ kitten fur felt like a cloud when she petted it.",
+    "options": [
+      "soft",
+      "in summary",
+      "prompt",
+      "cut back"
+    ],
+    "correctAnswer": "soft",
+    "status": "PENDING"
+  },
+  {
+    "word": "abundant",
+    "definition": "more than enough, a very large amount",
+    "blanked": "The store had ______ supplies, so prices stayed low all summer.",
+    "options": [
+      "abundant",
+      "progress",
+      "in the end",
+      "use up"
+    ],
+    "correctAnswer": "abundant",
+    "status": "PENDING"
+  },
+  {
+    "word": "absurd",
+    "definition": "very silly and with no meaning at all",
+    "blanked": "The clown wore an ______ hat that was shaped like a giant banana.",
+    "options": [
+      "absurd",
+      "convention",
+      "moral",
+      "in addition"
+    ],
+    "correctAnswer": "absurd",
+    "status": "PENDING"
+  },
+  {
+    "word": "accurate",
+    "definition": "right and without mistakes",
+    "blanked": "Her drawing was so ______ it looked like a photograph.",
+    "options": [
+      "hibernate",
+      "overlook",
+      "accurate",
+      "progress"
+    ],
+    "correctAnswer": "accurate",
+    "status": "PENDING"
+  },
+  {
+    "word": "brittle",
+    "definition": "hard but easy to snap or break",
+    "blanked": "The ______ twig snapped in half when he stepped on it.",
+    "options": [
+      "brittle",
+      "learn",
+      "balance",
+      "refund"
+    ],
+    "correctAnswer": "brittle",
+    "status": "PENDING"
+  },
+  {
+    "word": "colorful",
+    "definition": "having many bright colors",
+    "blanked": "The ______ parrot had red, blue, and yellow feathers.",
+    "options": [
+      "main idea",
+      "prevail",
+      "accomplish",
+      "colorful"
+    ],
+    "correctAnswer": "colorful",
+    "status": "PENDING"
+  },
+  {
+    "word": "cruel",
+    "definition": "wanting to hurt others on purpose",
+    "blanked": "It is ______ to pull a cat's tail because it causes pain.",
+    "options": [
+      "cut off",
+      "survey",
+      "division",
+      "cruel"
+    ],
+    "correctAnswer": "cruel",
+    "status": "PENDING"
+  },
+  {
+    "word": "daring",
+    "definition": "brave enough to do dangerous things",
+    "blanked": "The ______ pilot flew through the storm to deliver medicine.",
+    "options": [
+      "daring",
+      "humble",
+      "parchment",
+      "country"
+    ],
+    "correctAnswer": "daring",
+    "status": "PENDING"
+  },
+  {
+    "word": "filthy",
+    "definition": "very dirty, covered all over in dirt",
+    "blanked": "His clothes were ______ after playing in the mud all afternoon.",
+    "options": [
+      "effect",
+      "nozzle",
+      "fearless",
+      "filthy"
+    ],
+    "correctAnswer": "filthy",
+    "status": "PENDING"
+  },
+  {
+    "word": "gorgeous",
+    "definition": "very beautiful in a way that gets your attention",
+    "blanked": "The ______ sunset turned the sky orange and pink.",
+    "options": [
+      "amendment",
+      "gorgeous",
+      "capacity",
+      "contradict"
+    ],
+    "correctAnswer": "gorgeous",
+    "status": "PENDING"
+  },
+  {
+    "word": "horrible",
+    "definition": "very bad or not nice",
+    "blanked": "The ______ smell from the garbage made everyone hold their nose.",
+    "options": [
+      "in fact",
+      "proceed",
+      "horrible",
+      "disaster"
+    ],
+    "correctAnswer": "horrible",
+    "status": "PENDING"
+  },
+  {
+    "word": "mysterious",
+    "definition": "hard to explain or understand",
+    "blanked": "A ______ light appeared in the forest at night.",
+    "options": [
+      "mysterious",
+      "biased",
+      "companion",
+      "discovery"
+    ],
+    "correctAnswer": "mysterious",
+    "status": "PENDING"
+  },
+  {
+    "word": "pleasant",
+    "definition": "nice and enjoyable",
+    "blanked": "The ______ breeze cooled us down on the hot summer day.",
+    "options": [
+      "matter",
+      "fascinate",
+      "pleasant",
+      "cause"
+    ],
+    "correctAnswer": "pleasant",
+    "status": "PENDING"
+  },
+  {
+    "word": "powerful",
+    "definition": "having great power",
+    "blanked": "The ______ wind blew the leaves off every tree on the street.",
+    "options": [
+      "cellar",
+      "deteriorate",
+      "powerful",
+      "reveal"
+    ],
+    "correctAnswer": "powerful",
+    "status": "PENDING"
+  },
+  {
+    "word": "ridiculous",
+    "definition": "so silly it makes you laugh",
+    "blanked": "The dog looked ______ wearing a tiny hat and sunglasses.",
+    "options": [
+      "ridiculous",
+      "obtain",
+      "acknowledge",
+      "penalty"
+    ],
+    "correctAnswer": "ridiculous",
+    "status": "PENDING"
+  },
+  {
+    "word": "serious",
+    "definition": "not playing around, meaning what you say",
+    "blanked": "She had a ______ look on her face when she told us the rules.",
+    "options": [
+      "serious",
+      "continue",
+      "perform",
+      "easel"
+    ],
+    "correctAnswer": "serious",
+    "status": "PENDING"
+  },
+  {
+    "word": "spotless",
+    "definition": "perfectly clean with no dirt at all",
+    "blanked": "After cleaning all day, the kitchen was ______.",
+    "options": [
+      "spotless",
+      "ban",
+      "cut back",
+      "germ"
+    ],
+    "correctAnswer": "spotless",
+    "status": "PENDING"
+  },
+  {
+    "word": "tremendous",
+    "definition": "very big or very great",
+    "blanked": "The audience gave a ______ cheer that shook the whole room.",
+    "options": [
+      "foggy",
+      "tremendous",
+      "admiral",
+      "friendly"
+    ],
+    "correctAnswer": "tremendous",
+    "status": "PENDING"
+  },
+  {
+    "word": "visible",
+    "definition": "able to be seen",
+    "blanked": "The lighthouse was ______ from miles away because of its bright light.",
+    "options": [
+      "show up",
+      "visible",
+      "bury",
+      "operate"
+    ],
+    "correctAnswer": "visible",
+    "status": "PENDING"
+  },
+  {
+    "word": "weak",
+    "definition": "not strong, having little power",
+    "blanked": "The ______ kitten could barely stand on its tiny legs.",
+    "options": [
+      "weak",
+      "essential",
+      "issue",
+      "imagination"
+    ],
+    "correctAnswer": "weak",
+    "status": "PENDING"
+  },
+  {
+    "word": "wealthy",
+    "definition": "having a lot of money",
+    "blanked": "The ______ man built a library, so everyone could read for free.",
+    "options": [
+      "wealthy",
+      "make sure",
+      "bright",
+      "agree"
+    ],
+    "correctAnswer": "wealthy",
+    "status": "PENDING"
+  },
+  {
+    "word": "wicked",
+    "definition": "very bad or evil",
+    "blanked": "The ______ witch in the story tried to trick the children.",
+    "options": [
+      "predict",
+      "due to",
+      "order",
+      "wicked"
+    ],
+    "correctAnswer": "wicked",
+    "status": "PENDING"
+  },
+  {
+    "word": "worthless",
+    "definition": "having no value at all",
+    "blanked": "The broken toy was ______ because none of the pieces worked.",
+    "options": [
+      "license",
+      "signal",
+      "pale",
+      "worthless"
+    ],
+    "correctAnswer": "worthless",
+    "status": "PENDING"
+  },
+  {
+    "word": "briefly",
+    "definition": "in a quick way, using only a few words or moments",
+    "blanked": "She ______ explained the rules, then we started the game.",
+    "options": [
+      "foundation",
+      "noble",
+      "briefly",
+      "carve"
+    ],
+    "correctAnswer": "briefly",
+    "status": "PENDING"
+  },
+  {
+    "word": "constantly",
+    "definition": "again and again, so often it feels like it never ends",
+    "blanked": "The puppy ______ wagged its tail because it was always happy.",
+    "options": [
+      "idea",
+      "immediate",
+      "ongoing",
+      "constantly"
+    ],
+    "correctAnswer": "constantly",
+    "status": "PENDING"
+  },
+  {
+    "word": "continuously",
+    "definition": "in one long stretch without any break at all",
+    "blanked": "The river flows ______, never stopping day or night.",
+    "options": [
+      "doubt",
+      "appliance",
+      "swiftly",
+      "continuously"
+    ],
+    "correctAnswer": "continuously",
+    "status": "PENDING"
+  },
+  {
+    "word": "currently",
+    "definition": "happening right now",
+    "blanked": "She is ______ reading a book about dinosaurs.",
+    "options": [
+      "interrupt",
+      "currently",
+      "bog",
+      "currency"
+    ],
+    "correctAnswer": "currently",
+    "status": "PENDING"
+  },
+  {
+    "word": "formerly",
+    "definition": "in the past, before now",
+    "blanked": "The building was ______ a school, but now it is a library.",
+    "options": [
+      "pleasant",
+      "amphibian",
+      "formerly",
+      "divide"
+    ],
+    "correctAnswer": "formerly",
+    "status": "PENDING"
+  },
+  {
+    "word": "instantly",
+    "definition": "happening in one second right away",
+    "blanked": "The light turned on ______ when she flipped the switch.",
+    "options": [
+      "mantle",
+      "instantly",
+      "numerous",
+      "water cycle"
+    ],
+    "correctAnswer": "instantly",
+    "status": "PENDING"
+  },
+  {
+    "word": "mostly",
+    "definition": "almost all, but not completely",
+    "blanked": "The jar was ______ empty—only a few candies were left.",
+    "options": [
+      "inquire",
+      "respect",
+      "mostly",
+      "cost"
+    ],
+    "correctAnswer": "mostly",
+    "status": "PENDING"
+  },
+  {
+    "word": "nearly",
+    "definition": "almost but not quite",
+    "blanked": "She ______ finished the race but tripped right before the finish line.",
+    "options": [
+      "nearly",
+      "integrate",
+      "carpet",
+      "snap"
+    ],
+    "correctAnswer": "nearly",
+    "status": "PENDING"
+  },
+  {
+    "word": "normally",
+    "definition": "in the regular way, when nothing special changes",
+    "blanked": "We ______ eat breakfast at seven, but today we slept late.",
+    "options": [
+      "normally",
+      "expect",
+      "effort",
+      "track"
+    ],
+    "correctAnswer": "normally",
+    "status": "PENDING"
+  },
+  {
+    "word": "originally",
+    "definition": "at first, before things changed",
+    "blanked": "The house was ______ painted white, but now it is blue.",
+    "options": [
+      "originally",
+      "usually",
+      "alley",
+      "brass"
+    ],
+    "correctAnswer": "originally",
+    "status": "PENDING"
+  },
+  {
+    "word": "partly",
+    "definition": "not all the way, only some",
+    "blanked": "The sky was ______ cloudy, so we could still see some blue.",
+    "options": [
+      "pleasant",
+      "tolerate",
+      "partly",
+      "chariot"
+    ],
+    "correctAnswer": "partly",
+    "status": "PENDING"
+  },
+  {
+    "word": "possibly",
+    "definition": "maybe, there is a chance it could happen",
+    "blanked": "It will ______ snow tonight, so keep your boots by the door.",
+    "options": [
+      "possibly",
+      "counterpart",
+      "catch up",
+      "mulberry"
+    ],
+    "correctAnswer": "possibly",
+    "status": "PENDING"
+  },
+  {
+    "word": "presently",
+    "definition": "at this moment; now",
+    "blanked": "He is ______ working on his art project in the other room.",
+    "options": [
+      "count on",
+      "presently",
+      "induce",
+      "leave behind"
+    ],
+    "correctAnswer": "presently",
+    "status": "PENDING"
+  },
+  {
+    "word": "previously",
+    "definition": "at an earlier time in the past, not recently",
+    "blanked": "He had ______ visited the museum, so he knew where to find the dinosaur bones.",
+    "options": [
+      "previously",
+      "lean",
+      "period",
+      "pie chart"
+    ],
+    "correctAnswer": "previously",
+    "status": "PENDING"
+  },
+  {
+    "word": "probably",
+    "definition": "very likely to happen",
+    "blanked": "It will ______ rain because the sky is full of dark clouds.",
+    "options": [
+      "smell",
+      "insulate",
+      "probably",
+      "effect"
+    ],
+    "correctAnswer": "probably",
+    "status": "PENDING"
+  },
+  {
+    "word": "promptly",
+    "definition": "right on time or right away",
+    "blanked": "Class starts at nine, and the teacher arrives ______ every day.",
+    "options": [
+      "promptly",
+      "for instance",
+      "quote",
+      "rude"
+    ],
+    "correctAnswer": "promptly",
+    "status": "PENDING"
+  },
+  {
+    "word": "regularly",
+    "definition": "happening at the same time again and again",
+    "blanked": "She ______ waters her plant every morning before school.",
+    "options": [
+      "hibernate",
+      "regularly",
+      "skeleton",
+      "depict"
+    ],
+    "correctAnswer": "regularly",
+    "status": "PENDING"
+  },
+  {
+    "word": "shortly",
+    "definition": "in a little while, very soon",
+    "blanked": "The movie will start ______, so find your seat now.",
+    "options": [
+      "trust",
+      "method",
+      "plump",
+      "shortly"
+    ],
+    "correctAnswer": "shortly",
+    "status": "PENDING"
+  },
+  {
+    "word": "simply",
+    "definition": "without much work, nothing more",
+    "blanked": "You can fix it ______ by pressing the restart button.",
+    "options": [
+      "simply",
+      "odd",
+      "pure",
+      "chisel"
+    ],
+    "correctAnswer": "simply",
+    "status": "PENDING"
+  },
+  {
+    "word": "sometimes",
+    "definition": "now and then, not always",
+    "blanked": "______ we walk to school, and ______ we take the bus.",
+    "options": [
+      "fair",
+      "ridiculous",
+      "sometimes",
+      "constant"
+    ],
+    "correctAnswer": "sometimes",
+    "status": "PENDING"
+  },
+  {
+    "word": "steadily",
+    "definition": "in a smooth, even way without stopping",
+    "blanked": "The rain fell ______ all afternoon without getting worse or letting up.",
+    "options": [
+      "dwindle",
+      "notify",
+      "slavery",
+      "steadily"
+    ],
+    "correctAnswer": "steadily",
+    "status": "PENDING"
+  },
+  {
+    "word": "still",
+    "definition": "even now, continuing",
+    "blanked": "It is ten o'clock, and she is ______ reading her book.",
+    "options": [
+      "illustration",
+      "combine",
+      "keep up",
+      "still"
+    ],
+    "correctAnswer": "still",
+    "status": "PENDING"
+  },
+  {
+    "word": "typically",
+    "definition": "in the most common way for that kind of thing",
+    "blanked": "He ______ walks to school, but today his mom drove him.",
+    "options": [
+      "ocean",
+      "finish",
+      "typically",
+      "dialogue"
+    ],
+    "correctAnswer": "typically",
+    "status": "PENDING"
+  },
+  {
+    "word": "usually",
+    "definition": "more often than not",
+    "blanked": "We ______ have pizza on Friday nights.",
+    "options": [
+      "round",
+      "usually",
+      "detour",
+      "dinner"
+    ],
+    "correctAnswer": "usually",
+    "status": "PENDING"
+  },
+  {
+    "word": "simultaneously",
+    "definition": "at the exact same moment, with two actions happening together",
+    "blanked": "The two friends jumped into the pool ______ and made a huge splash.",
+    "options": [
+      "diagram",
+      "food chain",
+      "simultaneously",
+      "leaf"
+    ],
+    "correctAnswer": "simultaneously",
+    "status": "PENDING"
+  },
+  {
+    "word": "initially",
+    "definition": "at the very beginning, before anything changed",
+    "blanked": "She was ______ scared of the water, but soon she loved swimming.",
+    "options": [
+      "prosper",
+      "initially",
+      "violate",
+      "restore"
+    ],
+    "correctAnswer": "initially",
+    "status": "PENDING"
+  },
+  {
+    "word": "permanently",
+    "definition": "stays the same and never ends",
+    "blanked": "The marker stain ______ stayed on the shirt even after washing.",
+    "options": [
+      "permanently",
+      "bring up",
+      "hallway",
+      "offer"
+    ],
+    "correctAnswer": "permanently",
+    "status": "PENDING"
+  },
+  {
+    "word": "temporarily",
+    "definition": "for a limited time, with plans to go back to normal later",
+    "blanked": "The road is ______ closed while workers fix the broken pipe.",
+    "options": [
+      "temporarily",
+      "particular",
+      "subtract",
+      "anticipate"
+    ],
+    "correctAnswer": "temporarily",
+    "status": "PENDING"
+  },
+  {
+    "word": "lately",
+    "definition": "during the past few days or weeks, very recently",
+    "blanked": "It has been very cold ______, so we wear extra layers.",
+    "options": [
+      "sum",
+      "lately",
+      "material",
+      "suppose"
+    ],
+    "correctAnswer": "lately",
+    "status": "PENDING"
+  },
+  {
+    "word": "overnight",
+    "definition": "during the night while you sleep",
+    "blanked": "The snow fell ______, and everything was white in the morning.",
+    "options": [
+      "overnight",
+      "essential",
+      "swallow",
+      "deserve"
+    ],
+    "correctAnswer": "overnight",
+    "status": "PENDING"
+  },
+  {
+    "word": "yearly",
+    "definition": "happening one time each year",
+    "blanked": "The town has a ______ parade every summer with music and floats.",
+    "options": [
+      "yearly",
+      "birch",
+      "gorgeous",
+      "theory"
+    ],
+    "correctAnswer": "yearly",
+    "status": "PENDING"
+  },
+  {
+    "word": "hourly",
+    "definition": "happening every hour",
+    "blanked": "The clock chimes ______, so you hear it ring twelve times at noon.",
+    "options": [
+      "hourly",
+      "ceiling",
+      "joyful",
+      "supply"
+    ],
+    "correctAnswer": "hourly",
+    "status": "PENDING"
+  },
+  {
+    "word": "illustration",
+    "definition": "a picture in a book that shows what is happening",
+    "blanked": "The ______ showed a dragon flying over a mountain.",
+    "options": [
+      "concave",
+      "illustration",
+      "boundary",
+      "influence"
+    ],
+    "correctAnswer": "illustration",
+    "status": "PENDING"
+  },
+  {
+    "word": "diagram",
+    "definition": "a drawing that shows how something works",
+    "blanked": "The ______ in our science book shows the parts of a flower.",
+    "options": [
+      "prefix",
+      "longitude",
+      "add up",
+      "diagram"
+    ],
+    "correctAnswer": "diagram",
+    "status": "PENDING"
+  },
+  {
+    "word": "vocabulary",
+    "definition": "all the words a person knows",
+    "blanked": "Reading every day helps you grow your ______.",
+    "options": [
+      "ignore",
+      "little",
+      "corner",
+      "vocabulary"
+    ],
+    "correctAnswer": "vocabulary",
+    "status": "PENDING"
+  },
+  {
+    "word": "definition",
+    "definition": "what a word means",
+    "blanked": "Look up the ______ in the dictionary if you don't know the word.",
+    "options": [
+      "relative",
+      "capture",
+      "rule out",
+      "definition"
+    ],
+    "correctAnswer": "definition",
+    "status": "PENDING"
+  },
+  {
+    "word": "fact",
+    "definition": "something that is true and can be proven",
+    "blanked": "It is a ______ that the Earth goes around the Sun.",
+    "options": [
+      "clump",
+      "qualify",
+      "once upon a time",
+      "fact"
+    ],
+    "correctAnswer": "fact",
+    "status": "PENDING"
+  },
+  {
+    "word": "summary",
+    "definition": "a short telling of the most important parts",
+    "blanked": "Write a ______ of the story in just three sentences.",
+    "options": [
+      "summary",
+      "fauna",
+      "keep up",
+      "excess"
+    ],
+    "correctAnswer": "summary",
+    "status": "PENDING"
+  },
+  {
+    "word": "topic",
+    "definition": "what something is mainly about or the subject being talked about",
+    "blanked": "The ______ of today's lesson is the water cycle.",
+    "options": [
+      "foundation",
+      "demanding",
+      "independence",
+      "topic"
+    ],
+    "correctAnswer": "topic",
+    "status": "PENDING"
+  },
+  {
+    "word": "conclusion",
+    "definition": "the end or final part",
+    "blanked": "At the ______ of the movie, the hero saved the day.",
+    "options": [
+      "grasp",
+      "complex",
+      "range",
+      "conclusion"
+    ],
+    "correctAnswer": "conclusion",
+    "status": "PENDING"
+  },
+  {
+    "word": "passage",
+    "definition": "a short part of a book or story",
+    "blanked": "Read the ______ on page five and answer the questions.",
+    "options": [
+      "passage",
+      "current",
+      "allocate",
+      "recommend"
+    ],
+    "correctAnswer": "passage",
+    "status": "PENDING"
+  },
+  {
+    "word": "research",
+    "definition": "looking for facts to learn about something",
+    "blanked": "We did ______ on penguins by reading three different books.",
+    "options": [
+      "accumulate",
+      "hurt",
+      "liberal",
+      "research"
+    ],
+    "correctAnswer": "research",
+    "status": "PENDING"
+  },
+  {
+    "word": "method",
+    "definition": "a way of doing something",
+    "blanked": "The teacher showed us a new ______ for solving math problems.",
+    "options": [
+      "patent",
+      "bias",
+      "acoustics",
+      "method"
+    ],
+    "correctAnswer": "method",
+    "status": "PENDING"
+  },
+  {
+    "word": "experiment",
+    "definition": "a test to find out what happens",
+    "blanked": "Our ______ showed that plants grow faster in sunlight.",
+    "options": [
+      "greenhouse effect",
+      "loom",
+      "common",
+      "experiment"
+    ],
+    "correctAnswer": "experiment",
+    "status": "PENDING"
+  },
+  {
+    "word": "creature",
+    "definition": "any living animal",
+    "blanked": "We saw a strange ______ with eight legs in the garden—it was a spider!",
+    "options": [
+      "polish",
+      "paragraph",
+      "signal",
+      "creature"
+    ],
+    "correctAnswer": "creature",
+    "status": "PENDING"
+  },
+  {
+    "word": "moisture",
+    "definition": "wetness; water you can feel on something or in the air",
+    "blanked": "There was ______ on the grass every morning from the cool night air.",
+    "options": [
+      "moisture",
+      "explore",
+      "participate",
+      "cuff"
+    ],
+    "correctAnswer": "moisture",
+    "status": "PENDING"
+  },
+  {
+    "word": "material",
+    "definition": "what something is made of, like cloth or metal",
+    "blanked": "The ______ of his jacket was soft and kept him very warm.",
+    "options": [
+      "banjo",
+      "civil",
+      "material",
+      "familiar"
+    ],
+    "correctAnswer": "material",
+    "status": "PENDING"
+  },
+  {
+    "word": "source",
+    "definition": "the place or thing where something first comes from",
+    "blanked": "The river's ______ is a small spring high up in the mountains.",
+    "options": [
+      "source",
+      "ore",
+      "factor",
+      "learn"
+    ],
+    "correctAnswer": "source",
+    "status": "PENDING"
+  },
+  {
+    "word": "motion",
+    "definition": "the act of moving or changing position",
+    "blanked": "The ______ of the swing going back and forth made her laugh.",
+    "options": [
+      "neutral",
+      "flow",
+      "basic",
+      "motion"
+    ],
+    "correctAnswer": "motion",
+    "status": "PENDING"
+  },
+  {
+    "word": "mixture",
+    "definition": "two or more things stirred together",
+    "blanked": "The cake batter is a ______ of flour, eggs, and sugar.",
+    "options": [
+      "mixture",
+      "cautious",
+      "chapel",
+      "hence"
+    ],
+    "correctAnswer": "mixture",
+    "status": "PENDING"
+  },
+  {
+    "word": "direction",
+    "definition": "the way something is moving or pointing",
+    "blanked": "The wind changed ______ and started blowing from the north.",
+    "options": [
+      "direction",
+      "divide",
+      "standard",
+      "waterfall"
+    ],
+    "correctAnswer": "direction",
+    "status": "PENDING"
+  },
+  {
+    "word": "shelter",
+    "definition": "a place that protects you from weather or danger",
+    "blanked": "The hikers found ______ under a big rock when it started to rain.",
+    "options": [
+      "flexible",
+      "comet",
+      "hang out",
+      "shelter"
+    ],
+    "correctAnswer": "shelter",
+    "status": "PENDING"
+  },
+  {
+    "word": "predator",
+    "definition": "an animal that hunts other animals for food",
+    "blanked": "The hawk is a ______ that catches mice and small birds.",
+    "options": [
+      "conquer",
+      "kingfisher",
+      "frequently",
+      "predator"
+    ],
+    "correctAnswer": "predator",
+    "status": "PENDING"
+  },
+  {
+    "word": "prey",
+    "definition": "an animal that others hunt and eat",
+    "blanked": "The rabbit is ______ for foxes, so it runs very fast to escape.",
+    "options": [
+      "turn into",
+      "magnitude",
+      "marsh",
+      "prey"
+    ],
+    "correctAnswer": "prey",
+    "status": "PENDING"
+  },
+  {
+    "word": "oxygen",
+    "definition": "a gas in the air that we breathe to stay alive",
+    "blanked": "Trees make ______, which is why forests help us breathe clean air.",
+    "options": [
+      "bicycle",
+      "object",
+      "merchant",
+      "oxygen"
+    ],
+    "correctAnswer": "oxygen",
+    "status": "PENDING"
+  },
+  {
+    "word": "galaxy",
+    "definition": "a huge group of stars in space",
+    "blanked": "Our sun is just one star in a ______ with billions of others.",
+    "options": [
+      "galaxy",
+      "intense",
+      "mast",
+      "granite"
+    ],
+    "correctAnswer": "galaxy",
+    "status": "PENDING"
+  },
+  {
+    "word": "fossil",
+    "definition": "the remains of a plant or animal from long ago, kept safe inside rock",
+    "blanked": "We found a ______ of a leaf that was millions of years old.",
+    "options": [
+      "willingly",
+      "effort",
+      "fossil",
+      "in other words"
+    ],
+    "correctAnswer": "fossil",
+    "status": "PENDING"
+  },
+  {
+    "word": "mineral",
+    "definition": "a solid natural thing found in the ground",
+    "blanked": "Gold is a ______ that people dig out of the earth.",
+    "options": [
+      "add up",
+      "mineral",
+      "essential",
+      "address"
+    ],
+    "correctAnswer": "mineral",
+    "status": "PENDING"
+  },
+  {
+    "word": "current",
+    "definition": "a steady flow of water or air moving in one direction",
+    "blanked": "The strong ______ in the river pushed the boat downstream.",
+    "options": [
+      "fragile",
+      "current",
+      "connect",
+      "badge"
+    ],
+    "correctAnswer": "current",
+    "status": "PENDING"
+  },
+  {
+    "word": "vapor",
+    "definition": "water in the form of a gas, often seen as steam or mist",
+    "blanked": "Steam from the hot soup rose into the air as water ______.",
+    "options": [
+      "potential",
+      "frighten",
+      "fossil",
+      "vapor"
+    ],
+    "correctAnswer": "vapor",
+    "status": "PENDING"
+  },
+  {
+    "word": "erosion",
+    "definition": "the slow wearing away of rock or soil by wind or water",
+    "blanked": "______ from the river carved a deep valley over thousands of years.",
+    "options": [
+      "from now on",
+      "idea",
+      "erosion",
+      "break down"
+    ],
+    "correctAnswer": "erosion",
+    "status": "PENDING"
+  },
+  {
+    "word": "orbit",
+    "definition": "the path something takes as it moves around another thing in space",
+    "blanked": "The Earth takes one year to complete its ______ around the Sun.",
+    "options": [
+      "orbit",
+      "pose",
+      "unless",
+      "upstairs"
+    ],
+    "correctAnswer": "orbit",
+    "status": "PENDING"
+  },
+  {
+    "word": "gravity",
+    "definition": "the force that pulls things down toward the ground",
+    "blanked": "______ is what makes a ball fall back down after you throw it up.",
+    "options": [
+      "marine",
+      "noble",
+      "gravity",
+      "bare"
+    ],
+    "correctAnswer": "gravity",
+    "status": "PENDING"
+  },
+  {
+    "word": "species",
+    "definition": "a group of living things that are the same kind",
+    "blanked": "There are many ______ of birds, from tiny hummingbirds to huge eagles.",
+    "options": [
+      "cider",
+      "hurt",
+      "species",
+      "protein"
+    ],
+    "correctAnswer": "species",
+    "status": "PENDING"
+  },
+  {
+    "word": "community",
+    "definition": "a group of people who live in the same area",
+    "blanked": "Our ______ worked together to build a new playground.",
+    "options": [
+      "community",
+      "cashew",
+      "water cycle",
+      "sort out"
+    ],
+    "correctAnswer": "community",
+    "status": "PENDING"
+  },
+  {
+    "word": "population",
+    "definition": "all the people living in one place",
+    "blanked": "The ______ of our town grew when new families moved in.",
+    "options": [
+      "endure",
+      "invisible",
+      "figure of speech",
+      "population"
+    ],
+    "correctAnswer": "population",
+    "status": "PENDING"
+  },
+  {
+    "word": "culture",
+    "definition": "the way of life of a group of people",
+    "blanked": "In their ______, families gather every Sunday for a big meal.",
+    "options": [
+      "culture",
+      "binoculars",
+      "target",
+      "perspective"
+    ],
+    "correctAnswer": "culture",
+    "status": "PENDING"
+  },
+  {
+    "word": "ancestor",
+    "definition": "a family member who lived long before you",
+    "blanked": "Her ______ came from a small village across the ocean.",
+    "options": [
+      "drastic",
+      "deplete",
+      "ancestor",
+      "excess"
+    ],
+    "correctAnswer": "ancestor",
+    "status": "PENDING"
+  },
+  {
+    "word": "generation",
+    "definition": "all the people born around the same time",
+    "blanked": "Kids, parents, and grandparents are three different ______.",
+    "options": [
+      "plump",
+      "main idea",
+      "guide",
+      "generation"
+    ],
+    "correctAnswer": "generation",
+    "status": "PENDING"
+  },
+  {
+    "word": "volunteer",
+    "definition": "a person who helps without being paid",
+    "blanked": "______ helped clean up the beach after the storm.",
+    "options": [
+      "structure",
+      "opposite",
+      "scarce",
+      "volunteer"
+    ],
+    "correctAnswer": "volunteer",
+    "status": "PENDING"
+  },
+  {
+    "word": "merchant",
+    "definition": "a person who buys and sells things",
+    "blanked": "The ______ at the market sold fresh fruits and vegetables.",
+    "options": [
+      "merchant",
+      "sentence",
+      "mist",
+      "never"
+    ],
+    "correctAnswer": "merchant",
+    "status": "PENDING"
+  },
+  {
+    "word": "pioneer",
+    "definition": "one of the first people to go to a new place or try something new",
+    "blanked": "The ______ traveled west in covered wagons to find new land.",
+    "options": [
+      "prevent",
+      "narrator",
+      "pioneer",
+      "put up with"
+    ],
+    "correctAnswer": "pioneer",
+    "status": "PENDING"
+  },
+  {
+    "word": "president",
+    "definition": "the leader of a country or group",
+    "blanked": "The ______ of the club welcomed all the new members.",
+    "options": [
+      "urge",
+      "store",
+      "sentence",
+      "president"
+    ],
+    "correctAnswer": "president",
+    "status": "PENDING"
+  },
+  {
+    "word": "profession",
+    "definition": "a job that needs special training",
+    "blanked": "Being a doctor is a ______ that requires many years of school.",
+    "options": [
+      "project",
+      "javelin",
+      "profession",
+      "pleasant"
+    ],
+    "correctAnswer": "profession",
+    "status": "PENDING"
+  },
+  {
+    "word": "companion",
+    "definition": "a friend who goes with you",
+    "blanked": "The dog was her loyal ______ on every walk through the woods.",
+    "options": [
+      "companion",
+      "complete",
+      "discipline",
+      "ignore"
+    ],
+    "correctAnswer": "companion",
+    "status": "PENDING"
+  },
+  {
+    "word": "guardian",
+    "definition": "a person who takes care of someone",
+    "blanked": "His ______ made sure he ate healthy food and went to bed on time.",
+    "options": [
+      "guardian",
+      "line graph",
+      "work out",
+      "oath"
+    ],
+    "correctAnswer": "guardian",
+    "status": "PENDING"
+  },
+  {
+    "word": "immigrant",
+    "definition": "a person who moves to a new country to live",
+    "blanked": "Many ______ came to this country to find a better life.",
+    "options": [
+      "guardian",
+      "follow",
+      "immigrant",
+      "breathe"
+    ],
+    "correctAnswer": "immigrant",
+    "status": "PENDING"
+  },
+  {
+    "word": "inspector",
+    "definition": "a person who job is to check that things are done right",
+    "blanked": "The ______ looked at the building to make sure it was safe.",
+    "options": [
+      "make",
+      "delight",
+      "watch out",
+      "inspector"
+    ],
+    "correctAnswer": "inspector",
+    "status": "PENDING"
+  },
+  {
+    "word": "messenger",
+    "definition": "a person who carries news from one place to another",
+    "blanked": "The ______ rode his horse fast to deliver the important letter.",
+    "options": [
+      "messenger",
+      "chord",
+      "bail out",
+      "bead"
+    ],
+    "correctAnswer": "messenger",
+    "status": "PENDING"
+  },
+  {
+    "word": "relative",
+    "definition": "a person in your family",
+    "blanked": "Every ______ came to the big reunion at the park.",
+    "options": [
+      "deplete",
+      "bright",
+      "warn",
+      "relative"
+    ],
+    "correctAnswer": "relative",
+    "status": "PENDING"
+  },
+  {
+    "word": "scholar",
+    "definition": "a person who studies and learns a lot",
+    "blanked": "The ______ read hundreds of books about ancient history.",
+    "options": [
+      "shelter",
+      "domain",
+      "struggle",
+      "scholar"
+    ],
+    "correctAnswer": "scholar",
+    "status": "PENDING"
+  },
+  {
+    "word": "witness",
+    "definition": "a person who sees something happen",
+    "blanked": "She was a ______ to the accident and told the police what she saw.",
+    "options": [
+      "witness",
+      "bail out",
+      "accumulate",
+      "tightly"
+    ],
+    "correctAnswer": "witness",
+    "status": "PENDING"
+  },
+  {
+    "word": "advantage",
+    "definition": "something that gives you a better chance to succeed",
+    "blanked": "Being tall is an ______ in basketball because you can reach the hoop.",
+    "options": [
+      "advantage",
+      "equator",
+      "instance",
+      "grow up"
+    ],
+    "correctAnswer": "advantage",
+    "status": "PENDING"
+  },
+  {
+    "word": "courage",
+    "definition": "being brave when you are scared",
+    "blanked": "It took ______ to stand up and speak in front of the whole school.",
+    "options": [
+      "magnitude",
+      "regularly",
+      "courage",
+      "disaster"
+    ],
+    "correctAnswer": "courage",
+    "status": "PENDING"
+  },
+  {
+    "word": "effort",
+    "definition": "trying hard to do something",
+    "blanked": "She put a lot of ______ into her science project and won first place.",
+    "options": [
+      "fork",
+      "effort",
+      "diagram",
+      "deteriorate"
+    ],
+    "correctAnswer": "effort",
+    "status": "PENDING"
+  },
+  {
+    "word": "knowledge",
+    "definition": "things you know from learning",
+    "blanked": "Reading books gives you ______ about the world.",
+    "options": [
+      "knowledge",
+      "cultivate",
+      "hazel",
+      "circle"
+    ],
+    "correctAnswer": "knowledge",
+    "status": "PENDING"
+  },
+  {
+    "word": "patience",
+    "definition": "being able to wait without getting upset",
+    "blanked": "It takes ______ to grow a garden because plants need weeks to get big.",
+    "options": [
+      "patience",
+      "still",
+      "expose",
+      "wind up"
+    ],
+    "correctAnswer": "patience",
+    "status": "PENDING"
+  },
+  {
+    "word": "responsibility",
+    "definition": "a job or duty that you must do",
+    "blanked": "Feeding the class pet is my ______ this week.",
+    "options": [
+      "grasp",
+      "current",
+      "from now on",
+      "responsibility"
+    ],
+    "correctAnswer": "responsibility",
+    "status": "PENDING"
+  },
+  {
+    "word": "triumph",
+    "definition": "a great win",
+    "blanked": "Our team's ______ in the championship game made the whole school cheer.",
+    "options": [
+      "triumph",
+      "limit",
+      "before long",
+      "select"
+    ],
+    "correctAnswer": "triumph",
+    "status": "PENDING"
+  },
+  {
+    "word": "accident",
+    "definition": "something bad that happens without being planned",
+    "blanked": "She spilled the milk by ______ when her elbow bumped the glass.",
+    "options": [
+      "travel",
+      "accident",
+      "amber",
+      "scholar"
+    ],
+    "correctAnswer": "accident",
+    "status": "PENDING"
+  },
+  {
+    "word": "attitude",
+    "definition": "the way you think and feel about something",
+    "blanked": "A positive ______ helps you keep trying even when things are hard.",
+    "options": [
+      "cypress",
+      "griddle",
+      "ban",
+      "attitude"
+    ],
+    "correctAnswer": "attitude",
+    "status": "PENDING"
+  },
+  {
+    "word": "boundary",
+    "definition": "a line that shows where one area ends and another begins",
+    "blanked": "The fence is the ______ between our yard and the neighbor's yard.",
+    "options": [
+      "election",
+      "bellows",
+      "begin",
+      "boundary"
+    ],
+    "correctAnswer": "boundary",
+    "status": "PENDING"
+  },
+  {
+    "word": "consequence",
+    "definition": "a result caused by something you did",
+    "blanked": "The ______ of forgetting her lunch was being hungry all afternoon.",
+    "options": [
+      "sort out",
+      "document",
+      "consequence",
+      "least"
+    ],
+    "correctAnswer": "consequence",
+    "status": "PENDING"
+  },
+  {
+    "word": "conversation",
+    "definition": "a talk between two or more people",
+    "blanked": "They had a long ______ about their favorite books.",
+    "options": [
+      "field",
+      "conversation",
+      "locket",
+      "adequate"
+    ],
+    "correctAnswer": "conversation",
+    "status": "PENDING"
+  },
+  {
+    "word": "decision",
+    "definition": "a choice you make after thinking",
+    "blanked": "Choosing which school to attend was a big ______ for the family.",
+    "options": [
+      "decision",
+      "fate",
+      "accordingly",
+      "barrier"
+    ],
+    "correctAnswer": "decision",
+    "status": "PENDING"
+  },
+  {
+    "word": "evidence",
+    "definition": "facts or signs that help prove something is true",
+    "blanked": "Muddy footprints were ______ that someone walked through the garden.",
+    "options": [
+      "on the contrary",
+      "evidence",
+      "rely on",
+      "edible"
+    ],
+    "correctAnswer": "evidence",
+    "status": "PENDING"
+  },
+  {
+    "word": "experience",
+    "definition": "something you live through and remember",
+    "blanked": "Visiting the ocean for the first time was an amazing ______.",
+    "options": [
+      "cautious",
+      "experience",
+      "function",
+      "hunt"
+    ],
+    "correctAnswer": "experience",
+    "status": "PENDING"
+  },
+  {
+    "word": "imagination",
+    "definition": "the part of your mind that makes up new ideas and pictures",
+    "blanked": "He used his ______ to pretend the cardboard box was a spaceship.",
+    "options": [
+      "digit",
+      "durable",
+      "imagination",
+      "dimension"
+    ],
+    "correctAnswer": "imagination",
+    "status": "PENDING"
+  },
+  {
+    "word": "occasion",
+    "definition": "a special time or event",
+    "blanked": "A birthday is a happy ______ for cake and presents.",
+    "options": [
+      "occasion",
+      "famine",
+      "come down to",
+      "get rid of"
+    ],
+    "correctAnswer": "occasion",
+    "status": "PENDING"
+  },
+  {
+    "word": "solution",
+    "definition": "the answer to a hard question",
+    "blanked": "Working together was the ______ to finishing the project on time.",
+    "options": [
+      "furthermore",
+      "solution",
+      "keen",
+      "lagoon"
+    ],
+    "correctAnswer": "solution",
+    "status": "PENDING"
+  },
+  {
+    "word": "inspect",
+    "definition": "to look at something closely to check if it is correct or safe",
+    "blanked": "The teacher ______ our projects to make sure they were finished.",
+    "options": [
+      "tone",
+      "decimal",
+      "inspect",
+      "biography"
+    ],
+    "correctAnswer": "inspect",
+    "status": "PENDING"
+  },
+  {
+    "word": "select",
+    "definition": "to choose something carefully",
+    "blanked": "Please ______ one book from the shelf to read this week.",
+    "options": [
+      "rule out",
+      "obtain",
+      "commit",
+      "select"
+    ],
+    "correctAnswer": "select",
+    "status": "PENDING"
+  },
+  {
+    "word": "supply",
+    "definition": "to give or provide something that is needed",
+    "blanked": "The school asked the store to ______ paper and pencils for every classroom.",
+    "options": [
+      "pleasant",
+      "supply",
+      "essential",
+      "presently"
+    ],
+    "correctAnswer": "supply",
+    "status": "PENDING"
+  },
+  {
+    "word": "survive",
+    "definition": "to stay alive through something not safe",
+    "blanked": "The little plant ______ the cold winter and bloomed in spring.",
+    "options": [
+      "reward",
+      "shade",
+      "blaze",
+      "survive"
+    ],
+    "correctAnswer": "survive",
+    "status": "PENDING"
+  },
+  {
+    "word": "transform",
+    "definition": "to change completely into something different",
+    "blanked": "The caterpillar will ______ into a beautiful butterfly.",
+    "options": [
+      "desperate",
+      "consolidate",
+      "banjo",
+      "transform"
+    ],
+    "correctAnswer": "transform",
+    "status": "PENDING"
+  },
+  {
+    "word": "transport",
+    "definition": "to carry something from one place to another",
+    "blanked": "Trucks ______ food from farms to grocery stores.",
+    "options": [
+      "scour",
+      "transport",
+      "contest",
+      "notably"
+    ],
+    "correctAnswer": "transport",
+    "status": "PENDING"
+  },
+  {
+    "word": "identify",
+    "definition": "to figure out what something is",
+    "blanked": "Can you ______ which bird is singing by listening to its call?",
+    "options": [
+      "experience",
+      "complex",
+      "cactus",
+      "identify"
+    ],
+    "correctAnswer": "identify",
+    "status": "PENDING"
+  },
+  {
+    "word": "inherit",
+    "definition": "to get something from a family member",
+    "blanked": "She ______ her grandmother's blue eyes and curly hair.",
+    "options": [
+      "strong",
+      "muzzle",
+      "settler",
+      "inherit"
+    ],
+    "correctAnswer": "inherit",
+    "status": "PENDING"
+  },
+  {
+    "word": "massive",
+    "definition": "very large and heavy",
+    "blanked": "The ______ boulder was too big for anyone to move.",
+    "options": [
+      "miracle",
+      "erode",
+      "massive",
+      "accommodate"
+    ],
+    "correctAnswer": "massive",
+    "status": "PENDING"
+  },
+  {
+    "word": "miniature",
+    "definition": "much smaller than usual",
+    "blanked": "She built a ______ house for her dolls out of cardboard.",
+    "options": [
+      "bright",
+      "decision",
+      "miniature",
+      "relative"
+    ],
+    "correctAnswer": "miniature",
+    "status": "PENDING"
+  },
+  {
+    "word": "obvious",
+    "definition": "very easy to see or understand",
+    "blanked": "It was ______ the dog ate the cake because crumbs were all over its face.",
+    "options": [
+      "instinct",
+      "mineral",
+      "obvious",
+      "flat"
+    ],
+    "correctAnswer": "obvious",
+    "status": "PENDING"
+  },
+  {
+    "word": "ordinary",
+    "definition": "not special; just like the rest",
+    "blanked": "It seemed like an ______ day until the surprise party started.",
+    "options": [
+      "bring",
+      "ordinary",
+      "act on",
+      "cotton"
+    ],
+    "correctAnswer": "ordinary",
+    "status": "PENDING"
+  },
+  {
+    "word": "particular",
+    "definition": "one certain thing out of many, chosen for a special reason",
+    "blanked": "She wanted that ______ book, not any of the other ones.",
+    "options": [
+      "particular",
+      "regret",
+      "modest",
+      "for instance"
+    ],
+    "correctAnswer": "particular",
+    "status": "PENDING"
+  },
+  {
+    "word": "peculiar",
+    "definition": "strange or odd in a way that catches your eye",
+    "blanked": "The ______ noise coming from the closet sounded like a squeaky toy.",
+    "options": [
+      "strong",
+      "peculiar",
+      "accordingly",
+      "conceive"
+    ],
+    "correctAnswer": "peculiar",
+    "status": "PENDING"
+  },
+  {
+    "word": "rapid",
+    "definition": "happening very quickly",
+    "blanked": "The ______ river moved so fast that logs were swept away in seconds.",
+    "options": [
+      "revolt",
+      "soluble",
+      "rapid",
+      "settler"
+    ],
+    "correctAnswer": "rapid",
+    "status": "PENDING"
+  },
+  {
+    "word": "reluctant",
+    "definition": "not wanting to do something, slow to act because of doubt",
+    "blanked": "He was ______ to jump in the pool because the water looked cold.",
+    "options": [
+      "patience",
+      "bobsled",
+      "certify",
+      "reluctant"
+    ],
+    "correctAnswer": "reluctant",
+    "status": "PENDING"
+  },
+  {
+    "word": "sensitive",
+    "definition": "easily hurt or upset",
+    "blanked": "His ______ skin turned red when he stayed in the sun too long.",
+    "options": [
+      "lagoon",
+      "sensitive",
+      "sacred",
+      "decide"
+    ],
+    "correctAnswer": "sensitive",
+    "status": "PENDING"
+  },
+  {
+    "word": "severe",
+    "definition": "very serious or very bad",
+    "blanked": "The ______ storm brought strong winds that knocked down power lines.",
+    "options": [
+      "severe",
+      "modest",
+      "biography",
+      "phase"
+    ],
+    "correctAnswer": "severe",
+    "status": "PENDING"
+  },
+  {
+    "word": "suitable",
+    "definition": "right for a certain purpose",
+    "blanked": "Sneakers are ______ shoes for running but not for a fancy dinner.",
+    "options": [
+      "component",
+      "liable",
+      "suitable",
+      "period"
+    ],
+    "correctAnswer": "suitable",
+    "status": "PENDING"
+  },
+  {
+    "word": "sufficient",
+    "definition": "the right amount needed, not too little and not too much",
+    "blanked": "Make sure you have ______ water for the whole hike.",
+    "options": [
+      "hibernate",
+      "because of",
+      "moral",
+      "sufficient"
+    ],
+    "correctAnswer": "sufficient",
+    "status": "PENDING"
+  },
+  {
+    "word": "vacant",
+    "definition": "empty and not being used, with no people or things inside",
+    "blanked": "The ______ house had no furniture and no people living in it.",
+    "options": [
+      "dark",
+      "vacant",
+      "fence",
+      "delicate"
+    ],
+    "correctAnswer": "vacant",
+    "status": "PENDING"
+  },
+  {
+    "word": "vast",
+    "definition": "extremely large and wide",
+    "blanked": "The ______ ocean stretched as far as the eye could see.",
+    "options": [
+      "innovation",
+      "galaxy",
+      "ore",
+      "vast"
+    ],
+    "correctAnswer": "vast",
+    "status": "PENDING"
+  },
+  {
+    "word": "vivid",
+    "definition": "very bright and easy to picture in your mind",
+    "blanked": "She painted with ______ colors that made the flowers look real.",
+    "options": [
+      "glitter",
+      "concave",
+      "canal",
+      "vivid"
+    ],
+    "correctAnswer": "vivid",
+    "status": "PENDING"
+  },
+  {
+    "word": "possess",
+    "definition": "to have or own something as your own",
+    "blanked": "The old pirate was said to ______ a chest full of gold coins.",
+    "options": [
+      "possess",
+      "capillary",
+      "examine",
+      "estimate"
+    ],
+    "correctAnswer": "possess",
+    "status": "PENDING"
+  },
+  {
+    "word": "reveal",
+    "definition": "to show something that was hidden",
+    "blanked": "She pulled back the curtain to ______ the surprise behind it.",
+    "options": [
+      "reveal",
+      "kind",
+      "prospect",
+      "graph"
+    ],
+    "correctAnswer": "reveal",
+    "status": "PENDING"
+  },
+  {
+    "word": "assign",
+    "definition": "to give someone a job or task to do",
+    "blanked": "The teacher will ______ each student a different topic to research.",
+    "options": [
+      "assign",
+      "near",
+      "introduce",
+      "nevertheless"
+    ],
+    "correctAnswer": "assign",
+    "status": "PENDING"
+  },
+  {
+    "word": "respond",
+    "definition": "to answer or reply",
+    "blanked": "When the teacher asks a question, raise your hand to ______.",
+    "options": [
+      "still",
+      "indicate",
+      "commence",
+      "respond"
+    ],
+    "correctAnswer": "respond",
+    "status": "PENDING"
+  },
+  {
+    "word": "require",
+    "definition": "to need something before you can move forward",
+    "blanked": "This recipe ______ three eggs and a cup of milk.",
+    "options": [
+      "require",
+      "dune",
+      "fatal",
+      "hidden"
+    ],
+    "correctAnswer": "require",
+    "status": "PENDING"
+  },
+  {
+    "word": "oppose",
+    "definition": "to be against something or disagree with it",
+    "blanked": "Some students ______ the new rule because they thought it was unfair.",
+    "options": [
+      "oppose",
+      "alley",
+      "commence",
+      "topic"
+    ],
+    "correctAnswer": "oppose",
+    "status": "PENDING"
+  },
+  {
+    "word": "occupy",
+    "definition": "to fill or use a space by being in it",
+    "blanked": "Boxes and old chairs ______ most of the space in the garage.",
+    "options": [
+      "occupy",
+      "deteriorate",
+      "swift",
+      "banjo"
+    ],
+    "correctAnswer": "occupy",
+    "status": "PENDING"
+  },
+  {
+    "word": "perform",
+    "definition": "to do something in front of people",
+    "blanked": "The students will ______ a play for their parents on Friday.",
+    "options": [
+      "pass out",
+      "describe",
+      "build up",
+      "perform"
+    ],
+    "correctAnswer": "perform",
+    "status": "PENDING"
+  },
+  {
+    "word": "accomplish",
+    "definition": "to finish something well",
+    "blanked": "She ______ her goal of reading fifty books in one year.",
+    "options": [
+      "accomplish",
+      "adapt",
+      "pagoda",
+      "agree"
+    ],
+    "correctAnswer": "accomplish",
+    "status": "PENDING"
+  },
+  {
+    "word": "cautious",
+    "definition": "very careful so nothing bad happens",
+    "blanked": "The ______ girl looked both ways twice before crossing the street.",
+    "options": [
+      "strong",
+      "accept",
+      "cooperate",
+      "cautious"
+    ],
+    "correctAnswer": "cautious",
+    "status": "PENDING"
+  },
+  {
+    "word": "capable",
+    "definition": "able to do something well",
+    "blanked": "He is ______ of running a mile without stopping.",
+    "options": [
+      "pessimistic",
+      "capable",
+      "basin",
+      "clue"
+    ],
+    "correctAnswer": "capable",
+    "status": "PENDING"
+  },
+  {
+    "word": "essential",
+    "definition": "something you really need",
+    "blanked": "Water is ______ for all living things to survive.",
+    "options": [
+      "glide",
+      "willingly",
+      "election",
+      "essential"
+    ],
+    "correctAnswer": "essential",
+    "status": "PENDING"
+  },
+  {
+    "word": "fortunate",
+    "definition": "having good things happen; lucky",
+    "blanked": "We were ______ that the rain stopped just before our picnic.",
+    "options": [
+      "fortunate",
+      "carry out",
+      "predict",
+      "criterion"
+    ],
+    "correctAnswer": "fortunate",
+    "status": "PENDING"
+  },
+  {
+    "word": "incredible",
+    "definition": "so very, very good it is hard to believe",
+    "blanked": "The magician did an ______ trick that made a dove appear from a hat.",
+    "options": [
+      "visible",
+      "concentrate",
+      "demanding",
+      "incredible"
+    ],
+    "correctAnswer": "incredible",
+    "status": "PENDING"
+  },
+  {
+    "word": "numerous",
+    "definition": "very many, a large number of",
+    "blanked": "There were ______ stars in the sky that night, too many to count.",
+    "options": [
+      "ocean",
+      "formerly",
+      "numerous",
+      "colorful"
+    ],
+    "correctAnswer": "numerous",
+    "status": "PENDING"
+  },
+  {
+    "word": "positive",
+    "definition": "sure something is true, or feeling hopeful",
+    "blanked": "She was ______ she left her keys on the table because she saw them there.",
+    "options": [
+      "positive",
+      "such as",
+      "choose",
+      "break down"
+    ],
+    "correctAnswer": "positive",
+    "status": "PENDING"
+  },
+  {
+    "word": "previous",
+    "definition": "coming before in time or order",
+    "blanked": "In the ______ chapter, the hero found a magic map.",
+    "options": [
+      "dare",
+      "lantern",
+      "independent",
+      "previous"
+    ],
+    "correctAnswer": "previous",
+    "status": "PENDING"
+  },
+  {
+    "word": "region",
+    "definition": "a large area of land",
+    "blanked": "The desert ______ gets very little rain all year.",
+    "options": [
+      "vivid",
+      "especially",
+      "powerful",
+      "region"
+    ],
+    "correctAnswer": "region",
+    "status": "PENDING"
+  },
+  {
+    "word": "structure",
+    "definition": "something that has been built, like a building or bridge",
+    "blanked": "The bridge is a strong ______ made of steel and stone.",
+    "options": [
+      "structure",
+      "fiction",
+      "backpack",
+      "bare"
+    ],
+    "correctAnswer": "structure",
+    "status": "PENDING"
+  },
+  {
+    "word": "symbol",
+    "definition": "a picture or mark that stands for something else",
+    "blanked": "A heart is a ______ that means love.",
+    "options": [
+      "country",
+      "weak",
+      "equally",
+      "symbol"
+    ],
+    "correctAnswer": "symbol",
+    "status": "PENDING"
+  },
+  {
+    "word": "tradition",
+    "definition": "something families or groups do the same way year after year",
+    "blanked": "We bake cookies every December—it is a family ______.",
+    "options": [
+      "bellows",
+      "tradition",
+      "granite",
+      "product"
+    ],
+    "correctAnswer": "tradition",
+    "status": "PENDING"
+  },
+  {
+    "word": "celebration",
+    "definition": "a happy time when people come together",
+    "blanked": "The town held a ______ with fireworks when the team won.",
+    "options": [
+      "carpet",
+      "celebration",
+      "direction",
+      "rigid"
+    ],
+    "correctAnswer": "celebration",
+    "status": "PENDING"
+  },
+  {
+    "word": "challenge",
+    "definition": "something that is hard to do and tests your ability",
+    "blanked": "Climbing the mountain was a ______, but they made it to the top.",
+    "options": [
+      "influence",
+      "challenge",
+      "fraction",
+      "pagoda"
+    ],
+    "correctAnswer": "challenge",
+    "status": "PENDING"
+  },
+  {
+    "word": "equipment",
+    "definition": "tools or things you need to do a job",
+    "blanked": "The firefighter put on all her ______ before going into the building.",
+    "options": [
+      "freedom",
+      "guess",
+      "normally",
+      "equipment"
+    ],
+    "correctAnswer": "equipment",
+    "status": "PENDING"
+  },
+  {
+    "word": "voyage",
+    "definition": "a long trip, usually by sea",
+    "blanked": "The sailors went on a ______ across the ocean that lasted three months.",
+    "options": [
+      "odd",
+      "selfish",
+      "album",
+      "voyage"
+    ],
+    "correctAnswer": "voyage",
+    "status": "PENDING"
+  },
+  {
+    "word": "territory",
+    "definition": "an area of land that belongs to someone",
+    "blanked": "The wolf marked its ______ so other animals would stay away.",
+    "options": [
+      "deliberate",
+      "in fact",
+      "in other words",
+      "territory"
+    ],
+    "correctAnswer": "territory",
+    "status": "PENDING"
+  },
+  {
+    "word": "disaster",
+    "definition": "a very bad event that causes great harm",
+    "blanked": "The flood was a ______ that damaged many homes in the town.",
+    "options": [
+      "bead",
+      "farm",
+      "track",
+      "disaster"
+    ],
+    "correctAnswer": "disaster",
+    "status": "PENDING"
+  },
+  {
+    "word": "merely",
+    "definition": "only, nothing more than",
+    "blanked": "She was ______ trying to help, nothing more.",
+    "options": [
+      "previous",
+      "flow",
+      "relief",
+      "merely"
+    ],
+    "correctAnswer": "merely",
+    "status": "PENDING"
+  },
+  {
+    "word": "precisely",
+    "definition": "in an exact way, with no mistakes",
+    "blanked": "The code must follow the rules ______, or the computer won't understand it.",
+    "options": [
+      "precisely",
+      "least",
+      "affect",
+      "cooperative"
+    ],
+    "correctAnswer": "precisely",
+    "status": "PENDING"
+  },
+  {
+    "word": "entirely",
+    "definition": "completely, all the way",
+    "blanked": "The glass was ______ full, with no room for even one more drop.",
+    "options": [
+      "particular",
+      "near",
+      "deserve",
+      "entirely"
+    ],
+    "correctAnswer": "entirely",
+    "status": "PENDING"
+  },
+  {
+    "word": "scarcely",
+    "definition": "almost not, hardly",
+    "blanked": "He could ______ believe he won the spelling bee.",
+    "options": [
+      "scarcely",
+      "cease",
+      "cocoon",
+      "commentary"
+    ],
+    "correctAnswer": "scarcely",
+    "status": "PENDING"
+  },
+  {
+    "word": "swiftly",
+    "definition": "moving very quickly",
+    "blanked": "The deer ______ ran through the forest and disappeared.",
+    "options": [
+      "companion",
+      "witness",
+      "previously",
+      "swiftly"
+    ],
+    "correctAnswer": "swiftly",
+    "status": "PENDING"
+  },
+  {
+    "word": "willingly",
+    "definition": "happy to do something without being forced",
+    "blanked": "He ______ shared his lunch with the new student.",
+    "options": [
+      "willingly",
+      "permanent",
+      "companion",
+      "effort"
+    ],
+    "correctAnswer": "willingly",
+    "status": "PENDING"
+  },
+  {
+    "word": "maintain",
+    "definition": "to keep something in good shape",
+    "blanked": "You need to ______ your bike by keeping the tires full of air.",
+    "options": [
+      "sketch",
+      "in the meantime",
+      "maintain",
+      "dare"
+    ],
+    "correctAnswer": "maintain",
+    "status": "PENDING"
+  },
+  {
+    "word": "establish",
+    "definition": "to start or create something new",
+    "blanked": "The students ______ a recycling club at their school.",
+    "options": [
+      "establish",
+      "parchment",
+      "look after",
+      "cease"
+    ],
+    "correctAnswer": "establish",
+    "status": "PENDING"
+  },
+  {
+    "word": "cooperate",
+    "definition": "to work together with others",
+    "blanked": "The whole class had to ______ to finish the mural on time.",
+    "options": [
+      "mysterious",
+      "concentrate",
+      "cooperate",
+      "allocate"
+    ],
+    "correctAnswer": "cooperate",
+    "status": "PENDING"
+  },
+  {
+    "word": "represent",
+    "definition": "to stand for or speak for something",
+    "blanked": "The star on the flag ______ the state we live in.",
+    "options": [
+      "equation",
+      "drop off",
+      "represent",
+      "alive"
+    ],
+    "correctAnswer": "represent",
+    "status": "PENDING"
+  },
+  {
+    "word": "concentrate",
+    "definition": "to think very hard about one thing",
+    "blanked": "It is hard to ______ on homework when the TV is on.",
+    "options": [
+      "grin",
+      "before long",
+      "interrupt",
+      "concentrate"
+    ],
+    "correctAnswer": "concentrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "manufacture",
+    "definition": "to make things in a factory, usually in large amounts",
+    "blanked": "The factory ______ toys that are sold all over the world.",
+    "options": [
+      "possibly",
+      "challenge",
+      "objective",
+      "manufacture"
+    ],
+    "correctAnswer": "manufacture",
+    "status": "PENDING"
+  },
+  {
+    "word": "demonstrate",
+    "definition": "to show how something works",
+    "blanked": "The teacher ______ how to mix paint colors on the paper.",
+    "options": [
+      "demonstrate",
+      "parsley",
+      "smell",
+      "life cycle"
+    ],
+    "correctAnswer": "demonstrate",
+    "status": "PENDING"
+  },
+  {
+    "word": "investigate",
+    "definition": "to look into something to find out what really happened",
+    "blanked": "The detective ______ the missing cookies from the jar.",
+    "options": [
+      "investigate",
+      "insulate",
+      "ambiguous",
+      "incident"
+    ],
+    "correctAnswer": "investigate",
+    "status": "PENDING"
+  },
+  {
+    "word": "discovery",
+    "definition": "something new that you find or learn about for the first time",
+    "blanked": "We made a great ______—a bird nest in our tree!",
+    "options": [
+      "hickory",
+      "compensate",
+      "discovery",
+      "incredible"
+    ],
+    "correctAnswer": "discovery",
+    "status": "PENDING"
+  },
+  {
+    "word": "penalty",
+    "definition": "what happens when you break a rule",
+    "blanked": "The ______ for being late to class was missing five minutes of free time.",
+    "options": [
+      "penalty",
+      "examine",
+      "drift",
+      "boundary"
+    ],
+    "correctAnswer": "penalty",
+    "status": "PENDING"
+  },
+  {
+    "word": "quantity",
+    "definition": "how much or how many of something there is",
+    "blanked": "She bought a large ______ of apples to make pies for the whole family.",
+    "options": [
+      "magnitude",
+      "quote",
+      "edge",
+      "quantity"
+    ],
+    "correctAnswer": "quantity",
+    "status": "PENDING"
+  },
+  {
+    "word": "reasonable",
+    "definition": "fair and making good sense",
+    "blanked": "The price of the book was ______, so she had enough money to buy it.",
+    "options": [
+      "permission",
+      "reasonable",
+      "respectful",
+      "maintain"
+    ],
+    "correctAnswer": "reasonable",
+    "status": "PENDING"
+  },
+  {
+    "word": "approach",
+    "definition": "to come closer to something",
+    "blanked": "The cat quietly ______ the bird, trying not to scare it.",
+    "options": [
+      "optimistic",
+      "line up",
+      "marine",
+      "approach"
+    ],
+    "correctAnswer": "approach",
+    "status": "PENDING"
+  },
+  {
+    "word": "collapse",
+    "definition": "to fall down suddenly",
+    "blanked": "The tower of blocks ______ when the baby bumped the table.",
+    "options": [
+      "halt",
+      "reduce",
+      "collapse",
+      "confuse"
+    ],
+    "correctAnswer": "collapse",
+    "status": "PENDING"
+  },
+  {
+    "word": "domestic",
+    "definition": "raised by people and living in homes, not wild",
+    "blanked": "Dogs and cats are ______ animals that live with people.",
+    "options": [
+      "domestic",
+      "forgiving",
+      "trust",
+      "complete"
+    ],
+    "correctAnswer": "domestic",
+    "status": "PENDING"
+  },
+  {
+    "word": "external",
+    "definition": "on the outside of something, not inside",
+    "blanked": "The ______ walls of the house were painted bright yellow.",
+    "options": [
+      "voluntary",
+      "external",
+      "atlas",
+      "dinghy"
+    ],
+    "correctAnswer": "external",
+    "status": "PENDING"
+  },
+  {
+    "word": "internal",
+    "definition": "on the inside of something, not outside",
+    "blanked": "The doctor checked her ______ organs to make sure she was healthy.",
+    "options": [
+      "internal",
+      "defend",
+      "climb",
+      "cartwheel"
+    ],
+    "correctAnswer": "internal",
+    "status": "PENDING"
+  },
+  {
+    "word": "annual",
+    "definition": "once a year",
+    "blanked": "The school's ______ science fair is always in March.",
+    "options": [
+      "by contrast",
+      "thrive",
+      "mood",
+      "annual"
+    ],
+    "correctAnswer": "annual",
+    "status": "PENDING"
+  },
+  {
+    "word": "permission",
+    "definition": "being allowed to do something by someone in charge",
+    "blanked": "You need ______ from your parents before you go on the field trip.",
+    "options": [
+      "vocabulary",
+      "remain",
+      "witness",
+      "permission"
+    ],
+    "correctAnswer": "permission",
+    "status": "PENDING"
+  },
+  {
+    "word": "recognize",
+    "definition": "to know what something is because you have seen it before",
+    "blanked": "I didn't ______ him at first because he was wearing a costume.",
+    "options": [
+      "look after",
+      "blame",
+      "tolerate",
+      "recognize"
+    ],
+    "correctAnswer": "recognize",
+    "status": "PENDING"
+  },
+  {
+    "word": "influence",
+    "definition": "the power to change how someone thinks or acts",
+    "blanked": "Her older sister had a big ______ on what music she liked.",
+    "options": [
+      "snap",
+      "basin",
+      "incorporate",
+      "influence"
+    ],
+    "correctAnswer": "influence",
+    "status": "PENDING"
+  },
+  {
+    "word": "interpret",
+    "definition": "to explain what something means",
+    "blanked": "She ______ the French menu for her friends.",
+    "options": [
+      "any",
+      "waterfall",
+      "namely",
+      "interpret"
+    ],
+    "correctAnswer": "interpret",
+    "status": "PENDING"
+  },
+  {
+    "word": "adapt",
+    "definition": "to change so you fit a new situation",
+    "blanked": "Animals ______ to new places by changing how they eat and sleep.",
+    "options": [
+      "adapt",
+      "action",
+      "confuse",
+      "cost"
+    ],
+    "correctAnswer": "adapt",
+    "status": "PENDING"
+  },
+  {
+    "word": "benefit",
+    "definition": "a good result or helpful thing you get",
+    "blanked": "One ______ of wearing a helmet is that it protects your head.",
+    "options": [
+      "pressure",
+      "river",
+      "bare",
+      "benefit"
+    ],
+    "correctAnswer": "benefit",
+    "status": "PENDING"
+  },
+  {
+    "word": "durable",
+    "definition": "strong and able to last a long time",
+    "blanked": "Her ______ lunchbox did not crack even when it fell on the floor.",
+    "options": [
+      "once upon a time",
+      "durable",
+      "revolt",
+      "circumstance"
+    ],
+    "correctAnswer": "durable",
+    "status": "PENDING"
+  },
+  {
+    "word": "genuine",
+    "definition": "real and not fake",
+    "blanked": "His apology was ______, so his friend forgave him.",
+    "options": [
+      "guardian",
+      "genuine",
+      "induce",
+      "make"
+    ],
+    "correctAnswer": "genuine",
+    "status": "PENDING"
+  },
+  {
+    "word": "hesitate",
+    "definition": "to pause because you are not sure",
+    "blanked": "She ______ at the diving board, then took a deep breath and jumped.",
+    "options": [
+      "guide",
+      "hesitate",
+      "ferry",
+      "grow"
+    ],
+    "correctAnswer": "hesitate",
+    "status": "PENDING"
+  },
+  {
+    "word": "negotiate",
+    "definition": "to talk to agree on a fair plan",
+    "blanked": "The sisters ______ and chose to split the last cookie in half.",
+    "options": [
+      "negotiate",
+      "adequate",
+      "absorb",
+      "voyage"
+    ],
+    "correctAnswer": "negotiate",
+    "status": "PENDING"
+  },
+  {
+    "word": "temporary",
+    "definition": "not lasting forever, only for now",
+    "blanked": "The sign was ______, so workers took it down after the road was fixed.",
+    "options": [
+      "identify",
+      "confident",
+      "fence",
+      "temporary"
+    ],
+    "correctAnswer": "temporary",
+    "status": "PENDING"
+  },
+  {
+    "word": "reliable",
+    "definition": "you can count on it to work or be true",
+    "blanked": "Our ______ bus driver came on time each day.",
+    "options": [
+      "crest",
+      "caribou",
+      "strategy",
+      "reliable"
+    ],
+    "correctAnswer": "reliable",
+    "status": "PENDING"
+  },
+  {
+    "word": "absorb",
+    "definition": "to soak up a liquid",
+    "blanked": "The towel can ______ the water from the spilled juice.",
+    "options": [
+      "dome",
+      "absorb",
+      "conversation",
+      "barrier"
+    ],
+    "correctAnswer": "absorb",
+    "status": "PENDING"
+  },
+  {
+    "word": "attract",
+    "definition": "to pull something toward you",
+    "blanked": "Bright flowers ______ bees because the bees want nectar.",
+    "options": [
+      "attract",
+      "mixture",
+      "spite",
+      "beeswax"
+    ],
+    "correctAnswer": "attract",
+    "status": "PENDING"
+  },
+  {
+    "word": "predict",
+    "definition": "to guess what will happen next",
+    "blanked": "Can you ______ what will happen next in the story?",
+    "options": [
+      "request",
+      "deck",
+      "predict",
+      "worthy"
+    ],
+    "correctAnswer": "predict",
+    "status": "PENDING"
+  },
+  {
+    "word": "request",
+    "definition": "to ask in a kind way for something",
+    "blanked": "She ______ a book about sharks from the library.",
+    "options": [
+      "deficit",
+      "request",
+      "retell",
+      "food web"
+    ],
+    "correctAnswer": "request",
+    "status": "PENDING"
+  },
+  {
+    "word": "reduce",
+    "definition": "to make less; to lower the amount",
+    "blanked": "To ______ noise, the class spoke in whispers during the test.",
+    "options": [
+      "admiral",
+      "mist",
+      "point of view",
+      "reduce"
+    ],
+    "correctAnswer": "reduce",
+    "status": "PENDING"
+  },
+  {
+    "word": "assemble",
+    "definition": "to put parts together",
+    "blanked": "We ______ the puzzle pieces. The whole picture appeared.",
+    "options": [
+      "save",
+      "definite",
+      "behave",
+      "assemble"
+    ],
+    "correctAnswer": "assemble",
+    "status": "PENDING"
+  },
+  {
+    "word": "accumulate",
+    "definition": "to gather more and more over time",
+    "blanked": "If you save a little each week, your money will ______ quickly.",
+    "options": [
+      "plump",
+      "alley",
+      "canal",
+      "accumulate"
+    ],
+    "correctAnswer": "accumulate",
+    "status": "PENDING"
+  },
+  {
+    "word": "acknowledge",
+    "definition": "to show that you noticed or agree",
+    "blanked": "She nodded to ______ his question.",
+    "options": [
+      "deal",
+      "acknowledge",
+      "guardian",
+      "separate"
+    ],
+    "correctAnswer": "acknowledge",
+    "status": "PENDING"
+  },
+  {
+    "word": "adequate",
+    "definition": "just barely enough to get the job done",
+    "blanked": "We had ______ food for the whole trip.",
+    "options": [
+      "adequate",
+      "think over",
+      "dedicate",
+      "site"
+    ],
+    "correctAnswer": "adequate",
+    "status": "PENDING"
+  },
+  {
+    "word": "advocate",
+    "definition": "to speak up for something you believe in",
+    "blanked": "He ______ for recycling at his school.",
+    "options": [
+      "consent",
+      "generation",
+      "advocate",
+      "intense"
+    ],
+    "correctAnswer": "advocate",
+    "status": "PENDING"
+  },
+  {
+    "word": "allocate",
+    "definition": "to set apart for a purpose",
+    "blanked": "She decided to ______ half her allowance to savings and half to spending.",
+    "options": [
+      "bring about",
+      "allocate",
+      "preserve",
+      "nevertheless"
+    ],
+    "correctAnswer": "allocate",
+    "status": "PENDING"
+  },
+  {
+    "word": "ambiguous",
+    "definition": "not clear; could mean more than one thing",
+    "blanked": "The directions were ______, so we got lost.",
+    "options": [
+      "ambiguous",
+      "material",
+      "assemble",
+      "triumph"
+    ],
+    "correctAnswer": "ambiguous",
+    "status": "PENDING"
+  },
+  {
+    "word": "amend",
+    "definition": "to change something to fix or improve it",
+    "blanked": "He ______ his essay after the teacher's comments.",
+    "options": [
+      "amend",
+      "drop off",
+      "smell",
+      "wander"
+    ],
+    "correctAnswer": "amend",
+    "status": "PENDING"
+  },
+  {
+    "word": "approximate",
+    "definition": "close to the real number but not exact",
+    "blanked": "The ______ distance is ten miles.",
+    "options": [
+      "approximate",
+      "allowance",
+      "constitute",
+      "engulf"
+    ],
+    "correctAnswer": "approximate",
+    "status": "PENDING"
+  },
+  {
+    "word": "aspire",
+    "definition": "to dream of doing something great",
+    "blanked": "She ______ to become a doctor one day.",
+    "options": [
+      "run into",
+      "close",
+      "experience",
+      "aspire"
+    ],
+    "correctAnswer": "aspire",
+    "status": "PENDING"
+  },
+  {
+    "word": "assert",
+    "definition": "to say something strongly and clearly",
+    "blanked": "He ______ that his answer was correct.",
+    "options": [
+      "still",
+      "cumulative",
+      "plump",
+      "assert"
+    ],
+    "correctAnswer": "assert",
+    "status": "PENDING"
+  },
+  {
+    "word": "authorize",
+    "definition": "to give official permission for something",
+    "blanked": "The principal ______ the field trip.",
+    "options": [
+      "pursue",
+      "objective",
+      "issue",
+      "authorize"
+    ],
+    "correctAnswer": "authorize",
+    "status": "PENDING"
+  },
+  {
+    "word": "beneficial",
+    "definition": "helpful or good for you",
+    "blanked": "Eating fruit is ______ for your health.",
+    "options": [
+      "dinghy",
+      "beneficial",
+      "lovely",
+      "spite"
+    ],
+    "correctAnswer": "beneficial",
+    "status": "PENDING"
+  },
+  {
+    "word": "bias",
+    "definition": "leaning toward one side in a way that is not right",
+    "blanked": "A good judge should not show ______.",
+    "options": [
+      "before long",
+      "disease",
+      "routine",
+      "bias"
+    ],
+    "correctAnswer": "bias",
+    "status": "PENDING"
+  },
+  {
+    "word": "capacity",
+    "definition": "the most that something can hold or carry",
+    "blanked": "The jar has a ______ of fifty marbles.",
+    "options": [
+      "similarly",
+      "nettle",
+      "capacity",
+      "boundary"
+    ],
+    "correctAnswer": "capacity",
+    "status": "PENDING"
+  },
+  {
+    "word": "clarify",
+    "definition": "to say something again so it is clear",
+    "blanked": "Can you ______ what you mean? I do not understand the question.",
+    "options": [
+      "clarify",
+      "maple",
+      "entirely",
+      "virtual"
+    ],
+    "correctAnswer": "clarify",
+    "status": "PENDING"
+  },
+  {
+    "word": "coincide",
+    "definition": "to happen at the same time as something else",
+    "blanked": "My birthday will ______ with the school carnival this year.",
+    "options": [
+      "persist",
+      "stomach",
+      "let down",
+      "coincide"
+    ],
+    "correctAnswer": "coincide",
+    "status": "PENDING"
+  },
+  {
+    "word": "commentary",
+    "definition": "spoken or written opinions about an event",
+    "blanked": "The sports ______ made the game more exciting.",
+    "options": [
+      "complain",
+      "document",
+      "commentary",
+      "dizzy"
+    ],
+    "correctAnswer": "commentary",
+    "status": "PENDING"
+  },
+  {
+    "word": "compensate",
+    "definition": "to make up for something or pay someone back",
+    "blanked": "The store ______ her with a new toy after the broken one.",
+    "options": [
+      "compensate",
+      "ancient",
+      "crumb",
+      "praise"
+    ],
+    "correctAnswer": "compensate",
+    "status": "PENDING"
+  },
+  {
+    "word": "compile",
+    "definition": "to put together facts from many places",
+    "blanked": "She ______ a list of her favorite songs.",
+    "options": [
+      "compile",
+      "column",
+      "poverty",
+      "come down to"
+    ],
+    "correctAnswer": "compile",
+    "status": "PENDING"
+  },
+  {
+    "word": "complement",
+    "definition": "something that goes well with another thing",
+    "blanked": "The red scarf was a nice ______ to his coat.",
+    "options": [
+      "complement",
+      "carefully",
+      "bumble",
+      "messenger"
+    ],
+    "correctAnswer": "complement",
+    "status": "PENDING"
+  },
+  {
+    "word": "comply",
+    "definition": "to do what is asked or required",
+    "blanked": "Students must ______ with the school rules.",
+    "options": [
+      "comply",
+      "jacket",
+      "peculiar",
+      "groan"
+    ],
+    "correctAnswer": "comply",
+    "status": "PENDING"
+  },
+  {
+    "word": "conceive",
+    "definition": "to think of an idea",
+    "blanked": "She ______ a clever plan to surprise her friend.",
+    "options": [
+      "coast",
+      "struggle",
+      "conceive",
+      "bulletin"
+    ],
+    "correctAnswer": "conceive",
+    "status": "PENDING"
+  },
+  {
+    "word": "confine",
+    "definition": "to keep within limits",
+    "blanked": "The dog was ______ to the backyard.",
+    "options": [
+      "confine",
+      "liberty",
+      "cartwheel",
+      "antonym"
+    ],
+    "correctAnswer": "confine",
+    "status": "PENDING"
+  },
+  {
+    "word": "consent",
+    "definition": "saying yes; giving permission for something to happen",
+    "blanked": "You need your parents' ______ to go on the trip.",
+    "options": [
+      "consent",
+      "transport",
+      "gorgeous",
+      "guard"
+    ],
+    "correctAnswer": "consent",
+    "status": "PENDING"
+  },
+  {
+    "word": "consequent",
+    "definition": "happening as a result of something",
+    "blanked": "The heavy rain and the ______ flooding closed the road.",
+    "options": [
+      "cashew",
+      "beacon",
+      "bunker",
+      "consequent"
+    ],
+    "correctAnswer": "consequent",
+    "status": "PENDING"
+  },
+  {
+    "word": "consolidate",
+    "definition": "to bring things together into one",
+    "blanked": "She ______ her notes into one notebook.",
+    "options": [
+      "greenhouse effect",
+      "intervene",
+      "consolidate",
+      "enthusiastic"
+    ],
+    "correctAnswer": "consolidate",
+    "status": "PENDING"
+  },
+  {
+    "word": "constraint",
+    "definition": "a limit or rule that holds you back",
+    "blanked": "Time was a ______, so we had to work fast.",
+    "options": [
+      "odd",
+      "constraint",
+      "carefully",
+      "hug"
+    ],
+    "correctAnswer": "constraint",
+    "status": "PENDING"
+  },
+  {
+    "word": "consult",
+    "definition": "to ask someone who knows a lot for help",
+    "blanked": "He ______ the librarian to find the right book.",
+    "options": [
+      "binoculars",
+      "consult",
+      "near",
+      "integral"
+    ],
+    "correctAnswer": "consult",
+    "status": "PENDING"
+  },
+  {
+    "word": "contemplate",
+    "definition": "to think about something deeply",
+    "blanked": "She sat and ______ what to write in her story.",
+    "options": [
+      "honeycomb",
+      "contemplate",
+      "debris",
+      "knock"
+    ],
+    "correctAnswer": "contemplate",
+    "status": "PENDING"
+  },
+  {
+    "word": "contradict",
+    "definition": "to say the opposite of what someone else said",
+    "blanked": "His actions ______ his words.",
+    "options": [
+      "contradict",
+      "fail",
+      "mist",
+      "neatly"
+    ],
+    "correctAnswer": "contradict",
+    "status": "PENDING"
+  },
+  {
+    "word": "controversy",
+    "definition": "a big argument among people about an important idea",
+    "blanked": "There was ______ over where to build the new park.",
+    "options": [
+      "controversy",
+      "gutter",
+      "promptly",
+      "reduce"
+    ],
+    "correctAnswer": "controversy",
+    "status": "PENDING"
+  },
+  {
+    "word": "convene",
+    "definition": "to come together for a meeting",
+    "blanked": "The club members ______ in the library.",
+    "options": [
+      "credit",
+      "conclusion",
+      "convene",
+      "cactus"
+    ],
+    "correctAnswer": "convene",
+    "status": "PENDING"
+  },
+  {
+    "word": "correspond",
+    "definition": "to match or be similar to",
+    "blanked": "The answers ______ to the questions on the test.",
+    "options": [
+      "correspond",
+      "encounter",
+      "choice",
+      "trustworthy"
+    ],
+    "correctAnswer": "correspond",
+    "status": "PENDING"
+  },
+  {
+    "word": "criteria",
+    "definition": "rules used to judge or decide something",
+    "blanked": "The ______ for the art contest were neatness and color.",
+    "options": [
+      "keep in mind",
+      "criteria",
+      "custom",
+      "clam"
+    ],
+    "correctAnswer": "criteria",
+    "status": "PENDING"
+  },
+  {
+    "word": "currency",
+    "definition": "the type of money a country uses",
+    "blanked": "The dollar is the ______ of the United States.",
+    "options": [
+      "frequently",
+      "currency",
+      "height",
+      "privilege"
+    ],
+    "correctAnswer": "currency",
+    "status": "PENDING"
+  },
+  {
+    "word": "deficiency",
+    "definition": "not having enough of something needed",
+    "blanked": "A ______ of sunlight can make plants turn yellow.",
+    "options": [
+      "make",
+      "deficiency",
+      "practical",
+      "behavior"
+    ],
+    "correctAnswer": "deficiency",
+    "status": "PENDING"
+  },
+  {
+    "word": "denote",
+    "definition": "to be a sign of or to mean",
+    "blanked": "A red light ______ that you should stop.",
+    "options": [
+      "multiply",
+      "doorway",
+      "parsley",
+      "denote"
+    ],
+    "correctAnswer": "denote",
+    "status": "PENDING"
+  },
+  {
+    "word": "derive",
+    "definition": "to get something from a source",
+    "blanked": "Many English words ______ from Latin.",
+    "options": [
+      "derive",
+      "inherit",
+      "duration",
+      "accumulate"
+    ],
+    "correctAnswer": "derive",
+    "status": "PENDING"
+  },
+  {
+    "word": "deviate",
+    "definition": "to go a different way from what is usual",
+    "blanked": "He ______ from the trail and got lost.",
+    "options": [
+      "deviate",
+      "vocabulary",
+      "project",
+      "turn"
+    ],
+    "correctAnswer": "deviate",
+    "status": "PENDING"
+  },
+  {
+    "word": "devote",
+    "definition": "to give your time and effort to something",
+    "blanked": "He ______ the morning to practicing piano.",
+    "options": [
+      "bay",
+      "designate",
+      "diagram",
+      "devote"
+    ],
+    "correctAnswer": "devote",
+    "status": "PENDING"
+  },
+  {
+    "word": "diminish",
+    "definition": "to become smaller or less",
+    "blanked": "The value of the old toy did not ______—it actually went up over time.",
+    "options": [
+      "diminish",
+      "consent",
+      "describe",
+      "temporarily"
+    ],
+    "correctAnswer": "diminish",
+    "status": "PENDING"
+  },
+  {
+    "word": "dispose",
+    "definition": "to get rid of something",
+    "blanked": "Please ______ of the trash properly.",
+    "options": [
+      "culture",
+      "brittle",
+      "exception",
+      "dispose"
+    ],
+    "correctAnswer": "dispose",
+    "status": "PENDING"
+  },
+  {
+    "word": "distort",
+    "definition": "to twist out of shape",
+    "blanked": "The fun house mirror ______ her face.",
+    "options": [
+      "distort",
+      "suspend",
+      "set up",
+      "carpet"
+    ],
+    "correctAnswer": "distort",
+    "status": "PENDING"
+  },
+  {
+    "word": "diverse",
+    "definition": "having many different kinds",
+    "blanked": "A ______ group of friends means you know people from many different places.",
+    "options": [
+      "admire",
+      "oar",
+      "opinion",
+      "diverse"
+    ],
+    "correctAnswer": "diverse",
+    "status": "PENDING"
+  },
+  {
+    "word": "domain",
+    "definition": "an area of what you know or control",
+    "blanked": "Science is her main ______ of interest.",
+    "options": [
+      "mental",
+      "crisis",
+      "tally",
+      "domain"
+    ],
+    "correctAnswer": "domain",
+    "status": "PENDING"
+  },
+  {
+    "word": "dominate",
+    "definition": "to have the most power or control",
+    "blanked": "The tallest player ______ the game, scoring point after point.",
+    "options": [
+      "dominate",
+      "water cycle",
+      "select",
+      "gutter"
+    ],
+    "correctAnswer": "dominate",
+    "status": "PENDING"
+  },
+  {
+    "word": "draft",
+    "definition": "a first try of something written",
+    "blanked": "He wrote a rough ______ of his story.",
+    "options": [
+      "draft",
+      "lately",
+      "check out",
+      "mango"
+    ],
+    "correctAnswer": "draft",
+    "status": "PENDING"
+  },
+  {
+    "word": "duration",
+    "definition": "how long something lasts",
+    "blanked": "The ______ of the movie was two hours.",
+    "options": [
+      "duration",
+      "cashew",
+      "pie chart",
+      "atlas"
+    ],
+    "correctAnswer": "duration",
+    "status": "PENDING"
+  },
+  {
+    "word": "empirical",
+    "definition": "based on what you watch and test",
+    "blanked": "The scientist gathered ______ data by observing the plants every day.",
+    "options": [
+      "find",
+      "empirical",
+      "mantle",
+      "confront"
+    ],
+    "correctAnswer": "empirical",
+    "status": "PENDING"
+  },
+  {
+    "word": "enforce",
+    "definition": "to make sure a rule is followed",
+    "blanked": "The teacher ______ the no-running rule in the hallway.",
+    "options": [
+      "beeswax",
+      "creature",
+      "enforce",
+      "decade"
+    ],
+    "correctAnswer": "enforce",
+    "status": "PENDING"
+  },
+  {
+    "word": "entity",
+    "definition": "a single thing that has its own name and life",
+    "blanked": "A country, a school, and a person are each a separate ______.",
+    "options": [
+      "live up to",
+      "put off",
+      "entity",
+      "close"
+    ],
+    "correctAnswer": "entity",
+    "status": "PENDING"
+  },
+  {
+    "word": "equate",
+    "definition": "to think of two things as equal",
+    "blanked": "You should not ______ being quiet with being shy.",
+    "options": [
+      "arrange",
+      "predator",
+      "strict",
+      "equate"
+    ],
+    "correctAnswer": "equate",
+    "status": "PENDING"
+  },
+  {
+    "word": "erode",
+    "definition": "to slowly wear away",
+    "blanked": "The waves ______ the cliff over many years.",
+    "options": [
+      "advocate",
+      "vitamin",
+      "erode",
+      "region"
+    ],
+    "correctAnswer": "erode",
+    "status": "PENDING"
+  },
+  {
+    "word": "exceed",
+    "definition": "to go beyond a limit or amount",
+    "blanked": "His test score ______ the class average.",
+    "options": [
+      "flat",
+      "approve",
+      "exceed",
+      "consult"
+    ],
+    "correctAnswer": "exceed",
+    "status": "PENDING"
+  },
+  {
+    "word": "explicit",
+    "definition": "said clearly so there is no mistake about what you mean",
+    "blanked": "The teacher gave ______ instructions for the project.",
+    "options": [
+      "find",
+      "mortar",
+      "bedrock",
+      "explicit"
+    ],
+    "correctAnswer": "explicit",
+    "status": "PENDING"
+  },
+  {
+    "word": "extract",
+    "definition": "to pull out or remove",
+    "blanked": "The dentist ______ the loose tooth.",
+    "options": [
+      "extract",
+      "conscious",
+      "reveal",
+      "chance"
+    ],
+    "correctAnswer": "extract",
+    "status": "PENDING"
+  },
+  {
+    "word": "facilitate",
+    "definition": "to help something happen",
+    "blanked": "The ramp ______ entry for people in wheelchairs.",
+    "options": [
+      "facilitate",
+      "fall apart",
+      "operate",
+      "blood"
+    ],
+    "correctAnswer": "facilitate",
+    "status": "PENDING"
+  },
+  {
+    "word": "finite",
+    "definition": "having a limit or end",
+    "blanked": "We have a ______ amount of time before lunch.",
+    "options": [
+      "marsh",
+      "finite",
+      "provoke",
+      "independence"
+    ],
+    "correctAnswer": "finite",
+    "status": "PENDING"
+  },
+  {
+    "word": "fluctuate",
+    "definition": "to go up and down or change often",
+    "blanked": "The temperature ______ a lot in spring, warm one day and cold the next.",
+    "options": [
+      "fluctuate",
+      "ignore",
+      "encourage",
+      "responsibility"
+    ],
+    "correctAnswer": "fluctuate",
+    "status": "PENDING"
+  },
+  {
+    "word": "format",
+    "definition": "the way something is set up or arranged",
+    "blanked": "The report was written in a clear ______.",
+    "options": [
+      "format",
+      "decide",
+      "proceed",
+      "cotton"
+    ],
+    "correctAnswer": "format",
+    "status": "PENDING"
+  },
+  {
+    "word": "formula",
+    "definition": "a rule or method written with symbols",
+    "blanked": "She used a math ______ to solve the problem.",
+    "options": [
+      "affect",
+      "commence",
+      "sweet",
+      "formula"
+    ],
+    "correctAnswer": "formula",
+    "status": "PENDING"
+  },
+  {
+    "word": "foundation",
+    "definition": "the base that holds something up",
+    "blanked": "The house was built on a strong ______.",
+    "options": [
+      "foundation",
+      "finite",
+      "make",
+      "gravel"
+    ],
+    "correctAnswer": "foundation",
+    "status": "PENDING"
+  },
+  {
+    "word": "framework",
+    "definition": "a plan or set of rules that holds together something",
+    "blanked": "The ______ of the building was made of steel.",
+    "options": [
+      "framework",
+      "knowledge",
+      "monitor",
+      "distribute"
+    ],
+    "correctAnswer": "framework",
+    "status": "PENDING"
+  },
+  {
+    "word": "furthermore",
+    "definition": "in addition to what was already said",
+    "blanked": "The book is fun; ______, it teaches great lessons.",
+    "options": [
+      "pelican",
+      "blueprint",
+      "serious",
+      "furthermore"
+    ],
+    "correctAnswer": "furthermore",
+    "status": "PENDING"
+  },
+  {
+    "word": "generate",
+    "definition": "to create or produce",
+    "blanked": "The AI can ______ a realistic painting from just a short text description.",
+    "options": [
+      "upstairs",
+      "form",
+      "generate",
+      "neat"
+    ],
+    "correctAnswer": "generate",
+    "status": "PENDING"
+  },
+  {
+    "word": "guideline",
+    "definition": "a rule that tells you how to do something",
+    "blanked": "Follow the ______ to stay safe.",
+    "options": [
+      "guideline",
+      "develop",
+      "incredible",
+      "horrible"
+    ],
+    "correctAnswer": "guideline",
+    "status": "PENDING"
+  },
+  {
+    "word": "hence",
+    "definition": "for this reason, and so it follows that",
+    "blanked": "It rained all day; ______, the game was canceled.",
+    "options": [
+      "explore",
+      "patent",
+      "plastic",
+      "hence"
+    ],
+    "correctAnswer": "hence",
+    "status": "PENDING"
+  },
+  {
+    "word": "hierarchy",
+    "definition": "a system where things go from top to bottom",
+    "blanked": "In the school, there is a clear ______ from principal to teacher to student.",
+    "options": [
+      "optimistic",
+      "run into",
+      "budget",
+      "hierarchy"
+    ],
+    "correctAnswer": "hierarchy",
+    "status": "PENDING"
+  },
+  {
+    "word": "hypothesis",
+    "definition": "a guess about what will happen in a test",
+    "blanked": "His ______ was that plants grow faster with more sunlight.",
+    "options": [
+      "soil",
+      "arm",
+      "horizon",
+      "hypothesis"
+    ],
+    "correctAnswer": "hypothesis",
+    "status": "PENDING"
+  },
+  {
+    "word": "identical",
+    "definition": "exactly the same",
+    "blanked": "The twins wore ______ outfits.",
+    "options": [
+      "material",
+      "judge",
+      "superior",
+      "identical"
+    ],
+    "correctAnswer": "identical",
+    "status": "PENDING"
+  },
+  {
+    "word": "ideology",
+    "definition": "a set of ideas about how things should be",
+    "blanked": "The team's ______ was simple: practice hard, play fair, and never give up.",
+    "options": [
+      "ideology",
+      "consequent",
+      "cover",
+      "life cycle"
+    ],
+    "correctAnswer": "ideology",
+    "status": "PENDING"
+  },
+  {
+    "word": "implication",
+    "definition": "something that is said without using words",
+    "blanked": "The ______ of his smile was that he had good news.",
+    "options": [
+      "hibernate",
+      "implication",
+      "constantly",
+      "climate"
+    ],
+    "correctAnswer": "implication",
+    "status": "PENDING"
+  },
+  {
+    "word": "impose",
+    "definition": "to force a rule or task on someone",
+    "blanked": "The school ______ a new dress code.",
+    "options": [
+      "separate",
+      "raw",
+      "battle",
+      "impose"
+    ],
+    "correctAnswer": "impose",
+    "status": "PENDING"
+  },
+  {
+    "word": "incentive",
+    "definition": "something that makes you want to try harder",
+    "blanked": "Getting a sticker was a great ______ to do homework.",
+    "options": [
+      "massive",
+      "due to",
+      "approach",
+      "incentive"
+    ],
+    "correctAnswer": "incentive",
+    "status": "PENDING"
+  },
+  {
+    "word": "incorporate",
+    "definition": "to include as part of something",
+    "blanked": "She ______ art into her book report.",
+    "options": [
+      "incorporate",
+      "otter",
+      "horizon",
+      "mood"
+    ],
+    "correctAnswer": "incorporate",
+    "status": "PENDING"
+  },
+  {
+    "word": "index",
+    "definition": "a list at the back of a book that helps you find things",
+    "blanked": "He looked in the ______ to find the chapter on volcanoes.",
+    "options": [
+      "symptom",
+      "shut down",
+      "retire",
+      "index"
+    ],
+    "correctAnswer": "index",
+    "status": "PENDING"
+  },
+  {
+    "word": "induce",
+    "definition": "to cause or lead something to happen",
+    "blanked": "The warm sunshine ______ the flowers to bloom.",
+    "options": [
+      "induce",
+      "describe",
+      "carry out",
+      "voice"
+    ],
+    "correctAnswer": "induce",
+    "status": "PENDING"
+  },
+  {
+    "word": "inherent",
+    "definition": "a natural part of something",
+    "blanked": "Curiosity is ______ in children—they are born wanting to explore.",
+    "options": [
+      "volunteer",
+      "respond",
+      "swiftly",
+      "inherent"
+    ],
+    "correctAnswer": "inherent",
+    "status": "PENDING"
+  },
+  {
+    "word": "inhibit",
+    "definition": "to hold back or prevent",
+    "blanked": "Fear can ______ you from trying new things.",
+    "options": [
+      "trend",
+      "inhibit",
+      "harsh",
+      "invisible"
+    ],
+    "correctAnswer": "inhibit",
+    "status": "PENDING"
+  },
+  {
+    "word": "initiate",
+    "definition": "to start or begin something new",
+    "blanked": "She ______ a recycling club at school.",
+    "options": [
+      "jacket",
+      "form",
+      "conceive",
+      "initiate"
+    ],
+    "correctAnswer": "initiate",
+    "status": "PENDING"
+  },
+  {
+    "word": "innovation",
+    "definition": "a new idea or way of doing things",
+    "blanked": "The ______ of smartphones changed how we talk.",
+    "options": [
+      "otter",
+      "innovation",
+      "approach",
+      "direction"
+    ],
+    "correctAnswer": "innovation",
+    "status": "PENDING"
+  },
+  {
+    "word": "insert",
+    "definition": "to put something inside",
+    "blanked": "He ______ the coin into the machine.",
+    "options": [
+      "weather",
+      "behavior",
+      "region",
+      "insert"
+    ],
+    "correctAnswer": "insert",
+    "status": "PENDING"
+  },
+  {
+    "word": "integral",
+    "definition": "very important and needed as part of something",
+    "blanked": "Teamwork is an ______ part of winning the game.",
+    "options": [
+      "integral",
+      "graphic",
+      "deposit",
+      "corrupt"
+    ],
+    "correctAnswer": "integral",
+    "status": "PENDING"
+  },
+  {
+    "word": "intervene",
+    "definition": "to step in to help or stop something",
+    "blanked": "The teacher ______ before the argument got worse.",
+    "options": [
+      "intervene",
+      "replace",
+      "basin",
+      "make up"
+    ],
+    "correctAnswer": "intervene",
+    "status": "PENDING"
+  },
+  {
+    "word": "invoke",
+    "definition": "to call upon for help or use",
+    "blanked": "He ______ the rules to settle the disagreement.",
+    "options": [
+      "invoke",
+      "insulate",
+      "subtract",
+      "talent"
+    ],
+    "correctAnswer": "invoke",
+    "status": "PENDING"
+  },
+  {
+    "word": "isolate",
+    "definition": "to keep apart from others",
+    "blanked": "The sick student was ______, so others would not catch the cold.",
+    "options": [
+      "bare",
+      "isolate",
+      "trust",
+      "ancient"
+    ],
+    "correctAnswer": "isolate",
+    "status": "PENDING"
+  },
+  {
+    "word": "levy",
+    "definition": "to collect money by order of the government",
+    "blanked": "The town voted to ______ a small tax for the new library.",
+    "options": [
+      "levy",
+      "near",
+      "accumulate",
+      "except"
+    ],
+    "correctAnswer": "levy",
+    "status": "PENDING"
+  },
+  {
+    "word": "liberal",
+    "definition": "willing to give a lot; open to new ideas",
+    "blanked": "She took a ______ amount of paint for her project.",
+    "options": [
+      "excellent",
+      "pose",
+      "internal",
+      "liberal"
+    ],
+    "correctAnswer": "liberal",
+    "status": "PENDING"
+  },
+  {
+    "word": "likewise",
+    "definition": "in the same way",
+    "blanked": "She smiled, and he did ______.",
+    "options": [
+      "companion",
+      "likewise",
+      "bring up",
+      "wander"
+    ],
+    "correctAnswer": "likewise",
+    "status": "PENDING"
+  },
+  {
+    "word": "magnitude",
+    "definition": "the size or importance of something",
+    "blanked": "The ______ of the earthquake surprised all.",
+    "options": [
+      "magnitude",
+      "crush",
+      "supply",
+      "forge"
+    ],
+    "correctAnswer": "magnitude",
+    "status": "PENDING"
+  },
+  {
+    "word": "manifest",
+    "definition": "to show or make clear",
+    "blanked": "Her talent ______ clearly in every painting she made.",
+    "options": [
+      "manifest",
+      "make up",
+      "caption",
+      "assemble"
+    ],
+    "correctAnswer": "manifest",
+    "status": "PENDING"
+  }
+]
