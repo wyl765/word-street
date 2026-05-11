@@ -2,8 +2,9 @@
 
 > 每词一行：L5(定义能懂?/例句能猜?) + L6(例句反向填空唯一性：同level四选项) + L7(中国ESL家长视角文化敏感) + L8(学习路径/前置)
 
-选择依据：word-status.json → currentGate 最小=15；并列时按 totalWords 从小到大优先处理 → 选 `words-level3c.js`。
+选择依据：word-status.json → 审校前 currentGate 最小=15；并列时按 totalWords 从小到大优先处理 → 选 `words-level3c.js`。
 完整性校验：词库 195 词；本报告逐词 195 行；missing=0 / extra=0。
+状态同步：已在 word-status.json 将 `words-level3c.js` 标记为 gate15=pass，并把 currentGate 推进到 16。
 
 概览（不替代逐词记录）：
 - L5主要卡点：抽象学术词（政府/地理/科学/修辞/法律）对 MAP≈197 偏难；多义词（apply/glare/impervious/manipulate）易混。
