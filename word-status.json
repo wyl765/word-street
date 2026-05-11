@@ -16,7 +16,7 @@
   "files": {
     "words-level1.js": {
       "totalWords": 600,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -33,7 +33,7 @@
     },
     "words-level2.js": {
       "totalWords": 552,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -109,7 +109,7 @@
     },
     "words-level3a.js": {
       "totalWords": 231,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -154,7 +154,7 @@
     },
     "words-level4a.js": {
       "totalWords": 301,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -169,7 +169,7 @@
     },
     "words-level4b.js": {
       "totalWords": 310,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -180,7 +180,7 @@
     },
     "words-level4c.js": {
       "totalWords": 343,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -191,7 +191,7 @@
     },
     "words-level5a.js": {
       "totalWords": 232,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -202,7 +202,7 @@
     },
     "words-level5b.js": {
       "totalWords": 251,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -213,7 +213,7 @@
     },
     "words-level5c.js": {
       "totalWords": 328,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -224,7 +224,7 @@
     },
     "words-level5d.js": {
       "totalWords": 288,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
