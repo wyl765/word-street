@@ -1,292 +1,292 @@
-# Gemini Verification Report: words-level5d.js
+# VERIFY-GEMINI-words-level5d.js-GATE
 
-| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Game Compat | Status |
-|------|------------------|-----------------|---------------|------------------|--------|
-| accusatory | Pass | Pass | Pass | Pass | Pass |
-| acidity | Pass | Pass | Pass | Pass | Pass |
-| acquaintance | Pass | Pass | Pass | Pass | Pass |
-| adjoining | Pass | Pass | Pass | Pass | Pass |
-| adornment | Pass | Pass | Pass | Pass | Pass |
-| affirmation | Pass | Pass | Pass | Pass | Pass |
-| amnesty | Pass | Pass | Pass | Pass | Pass |
-| animated | Pass | Pass | Pass | Pass | Pass |
-| antagonist | Pass | Pass | Pass | Pass | Pass |
-| ardent | Pass | Pass | Pass | Pass | Pass |
-| aristocracy | Pass | Pass | Pass | Pass | Pass |
-| articulation | Pass | Pass | Pass | Pass | Pass |
-| aspirant | Pass | Pass | Pass | Pass | Pass |
-| assertion | Pass | Pass | Pass | Pass | Pass |
-| astute | Pass | Pass | Pass | Pass | Pass |
-| atrophy | Pass | Pass | Pass | Pass | Pass |
-| audacity | Pass | Pass | Pass | Pass | Pass |
-| auspicious | Pass | Pass | Pass | Pass | Pass |
-| authoritarian | Pass | Pass | Pass | Pass | Pass |
-| autonomy | Pass | Pass | Pass | Pass | Pass |
-| avarice | Pass | Pass | Pass | Pass | Pass |
-| avid | Pass | Pass | Pass | Pass | Pass |
-| axiom | Pass | Pass | Pass | Pass | Pass |
-| belligerent | Pass | Pass | Pass | Pass | Pass |
-| benevolence | Pass | Pass | Pass | Pass | Pass |
-| bewilder | Pass | Pass | Pass | Pass | Pass |
-| blight | Pass | Pass | Pass | Pass | Pass |
-| bombard | Pass | Pass | Pass | Pass | Pass |
-| bounty | Pass | Pass | Pass | Pass | Pass |
-| capitalize | Pass | Pass | Pass | Pass | Pass |
-| capricious | Pass | Pass | Pass | Pass | Pass |
-| captivating | Pass | Pass | Pass | Pass | Pass |
-| catastrophic | Pass | Pass | Pass | Pass | Pass |
-| caustic | Pass | Pass | Pass | Pass | Pass |
-| cessation | Pass | Pass | Pass | Pass | Pass |
-| chronological | Pass | Pass | Pass | Pass | Pass |
-| circumscribe | Pass | Pass | Pass | Pass | Pass |
-| clamber | Pass | Pass | Pass | Pass | Pass |
-| clandestine | Pass | Pass | Pass | Pass | Pass |
-| coalesce | Pass | Pass | Pass | Pass | Pass |
-| cogent | Pass | Pass | Pass | Pass | Pass |
-| cognition | Pass | Pass | Pass | Pass | Pass |
-| coherence | Pass | Pass | Pass | Pass | Pass |
-| commemoration | Pass | Pass | Pass | Pass | Pass |
-| commencement | Pass | Pass | Pass | Pass | Pass |
-| compendium | Pass | Pass | Pass | Pass | Pass |
-| complacency | Pass | Pass | Pass | Pass | Pass |
-| complementary | Pass | Pass | Pass | Pass | Pass |
-| compliance | Pass | Pass | Pass | Pass | Pass |
-| concession | Pass | Pass | Pass | Pass | Pass |
-| concord | Pass | Pass | Pass | Pass | Pass |
-| condemnation | Pass | Pass | Pass | Pass | Pass |
-| condescending | Pass | Pass | Pass | Pass | Pass |
-| confluence | Pass | Pass | Pass | Pass | Pass |
-| conjecture | Pass | Pass | Pass | Pass | Pass |
-| conscription | Pass | Pass | Pass | Pass | Pass |
-| consecrate | Pass | Pass | Pass | Pass | Pass |
-| consequential | Pass | Pass | Pass | Pass | Pass |
-| conservatory | Pass | Pass | Pass | Pass | Pass |
-| consolidation | Pass | Pass | Pass | Pass | Pass |
-| constituency | Pass | Pass | Pass | Pass | Pass |
-| constitutional | Pass | Pass | Pass | Pass | Pass |
-| consultation | Pass | Pass | Pass | Pass | Pass |
-| consummate | Pass | Pass | Pass | Pass | Pass |
-| contagious | Pass | Pass | Pass | Pass | Pass |
-| contemplation | Pass | Pass | Pass | Pass | Pass |
-| continuity | Pass | Pass | Pass | Pass | Pass |
-| contradiction | Pass | Pass | Pass | Pass | Pass |
-| copious | Pass | Pass | Pass | Pass | Pass |
-| cordial | Pass | Pass | Pass | Pass | Pass |
-| corroborate | Pass | Pass | Pass | Pass | Pass |
-| creed | Pass | Pass | Pass | Pass | Pass |
-| culpable | Pass | Pass | Pass | Pass | Pass |
-| cynical | Pass | Pass | Pass | Pass | Pass |
-| daunting | Pass | Pass | Pass | Pass | Pass |
-| decorum | Pass | Pass | Pass | Pass | Pass |
-| defunct | Pass | Pass | Pass | Pass | Pass |
-| delineate | Pass | Pass | Pass | Pass | Pass |
-| demeanor | Pass | Pass | Pass | Pass | Pass |
-| depiction | Pass | Pass | Pass | Pass | Pass |
-| depletion | Pass | Pass | Pass | Pass | Pass |
-| deportation | Pass | Pass | Pass | Pass | Pass |
-| deprivation | Pass | Pass | Pass | Pass | Pass |
-| derogatory | Pass | Pass | Pass | Pass | Pass |
-| deterrent | Pass | Pass | Pass | Pass | Pass |
-| dexterity | Pass | Pass | Pass | Pass | Pass |
-| dichotomy | Pass | Pass | Pass | Pass | Pass |
-| dilapidated | Pass | Pass | Pass | Pass | Pass |
-| diligence | Pass | Pass | Pass | Pass | Pass |
-| diminutive | Pass | Pass | Pass | Pass | Pass |
-| disclaimer | Pass | Pass | Pass | Pass | Pass |
-| discrepancy | Pass | Pass | Pass | Pass | Pass |
-| dismantle | Pass | Pass | Pass | Pass | Pass |
-| disparity | Pass | Pass | Pass | Pass | Pass |
-| dissolution | Pass | Pass | Pass | Pass | Pass |
-| echelon | Pass | Pass | Pass | Pass | Pass |
-| edifice | Pass | Pass | Pass | Pass | Pass |
-| egalitarian | Pass | Pass | Pass | Pass | Pass |
-| elicit | Pass | Pass | Pass | Pass | Pass |
-| emblem | Pass | Pass | Pass | Pass | Pass |
-| eradicate | Pass | Pass | Pass | Pass | Pass |
-| esteem | Pass | Pass | Pass | Pass | Pass |
-| ethical | Pass | Pass | Pass | Pass | Pass |
-| etiquette | Pass | Pass | Pass | Pass | Pass |
-| eulogy | Pass | Pass | Pass | Pass | Pass |
-| excise | Pass | Pass | Pass | Pass | Pass |
-| exclamation | Pass | Pass | Pass | Pass | Pass |
-| exemplary | Pass | Pass | Pass | Pass | Pass |
-| exemption | Pass | Pass | Pass | Pass | Pass |
-| exodus | Pass | Pass | Pass | Pass | Pass |
-| expedient | Pass | Pass | Pass | Pass | Pass |
-| exploitation | Pass | Pass | Pass | Pass | Pass |
-| exquisite | Pass | Pass | Pass | Pass | Pass |
-| fallacy | Pass | Pass | Pass | Pass | Pass |
-| feasibility | Pass | Pass | Pass | Pass | Pass |
-| fervent | Pass | Pass | Pass | Pass | Pass |
-| flagrant | Pass | Pass | Pass | Pass | Pass |
-| fledgling | Pass | Pass | Pass | Pass | Pass |
-| forbearance | Pass | Pass | Pass | Pass | Pass |
-| forgo | Pass | Pass | Pass | Pass | Pass |
-| frivolous | Pass | Pass | Pass | Pass | Pass |
-| gentry | Pass | Pass | Pass | Pass | Pass |
-| gluttony | Pass | Pass | Pass | Pass | Pass |
-| harmonious | Pass | Pass | Pass | Pass | Pass |
-| hypocrisy | Pass | Pass | Pass | Pass | Pass |
-| immunity | Pass | Pass | Pass | Pass | Pass |
-| impasse | Pass | Pass | Pass | Pass | Pass |
-| impeachment | Pass | Pass | Pass | Pass | Pass |
-| impromptu | Pass | Pass | Pass | Pass | Pass |
-| impunity | Pass | Pass | Pass | Pass | Pass |
-| inadvertent | Pass | Pass | Pass | Pass | Pass |
-| inception | Pass | Pass | Pass | Pass | Pass |
-| inclination | Pass | Pass | Pass | Pass | Pass |
-| indictment | Pass | Pass | Pass | Pass | Pass |
-| indignation | Pass | Pass | Pass | Pass | Pass |
-| inertia | Pass | Pass | Pass | Pass | Pass |
-| infallible | Pass | Pass | Pass | Pass | Pass |
-| inference | Pass | Pass | Pass | Pass | Pass |
-| infringement | Pass | Pass | Pass | Pass | Pass |
-| inquisitive | Pass | Pass | Pass | Pass | Pass |
-| insatiable | Pass | Pass | Pass | Pass | Pass |
-| insolvency | Pass | Pass | Pass | Pass | Pass |
-| integration | Pass | Pass | Pass | Pass | Pass |
-| intervention | Pass | Pass | Pass | Pass | Pass |
-| intimidation | Pass | Pass | Pass | Pass | Pass |
-| itinerary | Pass | Pass | Pass | Pass | Pass |
-| jubilee | Pass | Pass | Pass | Pass | Pass |
-| jurisprudence | Pass | Pass | Pass | Pass | Pass |
-| lenient | Pass | Pass | Pass | Pass | Pass |
-| liberation | Pass | Pass | Pass | Pass | Pass |
-| luminous | Pass | Pass | Pass | Pass | Pass |
-| malevolent | Pass | Pass | Pass | Pass | Pass |
-| manifesto | Pass | Pass | Pass | Pass | Pass |
-| mediation | Pass | Pass | Pass | Pass | Pass |
-| mercenary | Pass | Pass | Pass | Pass | Pass |
-| meticulous | Pass | Pass | Pass | Pass | Pass |
-| mitigate | Pass | Pass | Pass | Pass | Pass |
-| myriad | Pass | Pass | Pass | Pass | Pass |
-| negligence | Pass | Pass | Pass | Pass | Pass |
-| nemesis | Pass | Pass | Pass | Pass | Pass |
-| nonchalant | Pass | Pass | Pass | Pass | Pass |
-| notoriety | Pass | Pass | Pass | Pass | Pass |
-| nurture | Pass | Pass | Pass | Pass | Pass |
-| oblivious | Pass | Pass | Pass | Pass | Pass |
-| ominous | Pass | Pass | Pass | Pass | Pass |
-| oppression | Pass | Pass | Pass | Pass | Pass |
-| optimism | Pass | Pass | Pass | Pass | Pass |
-| ornate | Pass | Pass | Pass | Pass | Pass |
-| ostracize | Pass | Pass | Pass | Pass | Pass |
-| paramount | Pass | Pass | Pass | Pass | Pass |
-| penchant | Pass | Pass | Pass | Pass | Pass |
-| penitent | Pass | Pass | Pass | Pass | Pass |
-| permeate | Pass | Pass | Pass | Pass | Pass |
-| perpetuate | Pass | Pass | Pass | Pass | Pass |
-| perseverance | Pass | Pass | Pass | Pass | Pass |
-| pessimism | Pass | Pass | Pass | Pass | Pass |
-| placate | Pass | Pass | Pass | Pass | Pass |
-| precinct | Pass | Pass | Pass | Pass | Pass |
-| predicament | Pass | Pass | Pass | Pass | Pass |
-| preemptive | Pass | Pass | Pass | Pass | Pass |
-| prerogative | Pass | Pass | Pass | Pass | Pass |
-| prestige | Pass | Pass | Pass | Pass | Pass |
-| principled | Pass | Pass | Pass | Pass | Pass |
-| probation | Pass | Pass | Pass | Pass | Pass |
-| proficiency | Pass | Pass | Pass | Pass | Pass |
-| propensity | Pass | Pass | Pass | Pass | Pass |
-| proponent | Pass | Pass | Pass | Pass | Pass |
-| propriety | Pass | Pass | Pass | Pass | Pass |
-| prosperity | Pass | Pass | Pass | Pass | Pass |
-| protagonist | Pass | Pass | Pass | Pass | Pass |
-| provocation | Pass | Pass | Pass | Pass | Pass |
-| purview | Pass | Pass | Pass | Pass | Pass |
-| rebuke | Pass | Pass | Pass | Pass | Pass |
-| redundant | Pass | Pass | Pass | Pass | Pass |
-| relinquish | Pass | Pass | Pass | Pass | Pass |
-| remnant | Pass | Pass | Pass | Pass | Pass |
-| remuneration | Pass | Pass | Pass | Pass | Pass |
-| renounce | Pass | Pass | Pass | Pass | Pass |
-| repercussion | Pass | Pass | Pass | Pass | Pass |
-| reprimand | Pass | Pass | Pass | Pass | Pass |
-| resilience | Pass | Pass | Pass | Pass | Pass |
-| resurgence | Pass | Pass | Pass | Pass | Pass |
-| revere | Pass | Pass | Pass | Pass | Pass |
-| rudimentary | Pass | Pass | Pass | Pass | Pass |
-| sanctuary | Pass | Pass | Pass | Pass | Pass |
-| secession | Pass | Pass | Pass | Pass | Pass |
-| servitude | Pass | Pass | Pass | Pass | Pass |
-| sporadic | Pass | Pass | Pass | Pass | Pass |
-| staunch | Pass | Pass | Pass | Pass | Pass |
-| strife | Pass | Pass | Pass | Pass | Pass |
-| subjugate | Pass | Pass | Pass | Pass | Pass |
-| supremacy | Pass | Pass | Pass | Pass | Pass |
-| sustenance | Pass | Pass | Pass | Pass | Pass |
-| synthesis | Pass | Pass | Pass | Pass | Pass |
-| temperament | Pass | Pass | Pass | Pass | Pass |
-| totalitarian | Pass | Pass | Pass | Pass | Pass |
-| tranquility | Pass | Pass | Pass | Pass | Pass |
-| transparency | Pass | Pass | Pass | Pass | Pass |
-| tribunal | Pass | Pass | Pass | Pass | Pass |
-| tumultuous | Pass | Pass | Pass | Pass | Pass |
-| tyranny | Pass | Pass | Pass | Pass | Pass |
-| unilateral | Pass | Pass | Pass | Pass | Pass |
-| unprecedented | Pass | Pass | Pass | Pass | Pass |
-| upheaval | Pass | Pass | Pass | Pass | Pass |
-| usurp | Pass | Pass | Pass | Pass | Pass |
-| utopian | Pass | Pass | Pass | Pass | Pass |
-| validate | Pass | Pass | Pass | Pass | Pass |
-| vehement | Pass | Pass | Pass | Pass | Pass |
-| viable | Pass | Pass | Pass | Pass | Pass |
-| vigilant | Pass | Pass | Pass | Pass | Pass |
-| vindicate | Pass | Pass | Pass | Pass | Pass |
-| voracious | Pass | Pass | Pass | Pass | Pass |
-| wane | Pass | Pass | Pass | Pass | Pass |
-| zealous | Pass | Pass | Pass | Pass | Pass |
-| abdicate | Pass | Pass | Pass | Pass | Pass |
-| accolade | Pass | Pass | Pass | Pass | Pass |
-| affable | Pass | Pass | Pass | Pass | Pass |
-| ambivalent | Pass | Pass | Pass | Pass | Pass |
-| amenable | Pass | Pass | Pass | Pass | Pass |
-| amicable | Pass | Pass | Pass | Pass | Pass |
-| anecdotal | Pass | Pass | Pass | Pass | Pass |
-| antipathy | Pass | Pass | Pass | Pass | Pass |
-| apathetic | Pass | Pass | Pass | Pass | Pass |
-| attrition | Pass | Pass | Pass | Pass | Pass |
-| bravado | Pass | Pass | Pass | Pass | Pass |
-| cavalier | Pass | Pass | Pass | Pass | Pass |
-| cede | Pass | Pass | Pass | Pass | Pass |
-| charlatan | Pass | Pass | Pass | Pass | Pass |
-| circumspect | Pass | Pass | Pass | Pass | Pass |
-| commensurate | Pass | Pass | Pass | Pass | Pass |
-| conciliatory | Pass | Pass | Pass | Pass | Pass |
-| congenial | Pass | Pass | Pass | Pass | Pass |
-| connive | Pass | Pass | Pass | Pass | Pass |
-| contrite | Pass | Pass | Pass | Pass | Pass |
-| conundrum | Pass | Pass | Pass | Pass | Pass |
-| cosmopolitan | Pass | Pass | Pass | Pass | Pass |
-| credulous | Pass | Pass | Pass | Pass | Pass |
-| debacle | Pass | Pass | Pass | Pass | Pass |
-| demagogue | Pass | Pass | Pass | Pass | Pass |
-| denouncement | Pass | Pass | Pass | Pass | Pass |
-| deprecate | Pass | Pass | Pass | Pass | Pass |
-| derelict | Pass | Pass | Pass | Pass | Pass |
-| digression | Pass | Pass | Pass | Pass | Pass |
-| dirge | Pass | Pass | Pass | Pass | Pass |
-| dissident | Pass | Pass | Pass | Pass | Pass |
-| docile | Pass | Pass | Pass | Pass | Pass |
-| egregious | Pass | Pass | Pass | Pass | Pass |
-| elusive | Pass | Pass | Pass | Pass | Pass |
-| emissary | Pass | Pass | Pass | Pass | Pass |
-| exonerate | Pass | Pass | Pass | Pass | Pass |
-| extrapolate | Pass | Pass | Pass | Pass | Pass |
-| fastidious | Pass | Pass | Pass | Pass | Pass |
-| fiasco | Pass | Pass | Pass | Pass | Pass |
-| filibuster | Pass | Pass | Pass | Pass | Pass |
-| fracas | Pass | Pass | Pass | Pass | Pass |
-| acclimate | Pass | Pass | Pass | Pass | Pass |
-| agnostic | Pass | Pass | Pass | Pass | Pass |
-| alacrity | Pass | Pass | Pass | Pass | Pass |
-| arbitrate | Pass | Pass | Pass | Pass | Pass |
-| ascendancy | Pass | Pass | Pass | Pass | Pass |
-| whimsical | Pass | Pass | Pass | Pass | Pass |
-| zenith | Pass | Pass | Pass | Pass | Pass |
-| amicably | Pass | Pass | Pass | Pass | Pass |
-| gratify | Pass | Pass | Pass | Pass | Pass |
-| personable | Pass | Pass | Pass | Pass | Pass |
-| perilous | Pass | Pass | Pass | Pass | Pass |
-| orthodontics | Pass | Pass | Pass | Pass | Pass |
-| palindrome | Pass | Pass | Pass | Pass | Pass |
+| Word | L9: Image Search | L10: Fact Check | L11: Polysemy/Meaning | L12: Game Mechanics |
+|------|-------------------|-----------------|-----------------------|---------------------|
+| accusatory | PASS - "pointing finger" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| acidity | PASS - "lemon acid" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| acquaintance | PASS - "casual greeting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| adjoining | PASS - "connected rooms" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| adornment | PASS - "jewelry decoration" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| affirmation | PASS - "positive words mirror" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| amnesty | PASS - "pardon freedom" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| animated | PASS - "lively person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| antagonist | PASS - "villain character" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| ardent | PASS - "passionate fan" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| aristocracy | PASS - "noble palace" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| articulation | PASS - "clear speaking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| aspirant | PASS - "goal reaching" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| assertion | PASS - "confident statement" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| astute | PASS - "sharp observer" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| atrophy | PASS - "weak muscle" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| audacity | PASS - "bold person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| auspicious | PASS - "lucky sunrise" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| authoritarian | PASS - "strict ruler" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| autonomy | PASS - "independence freedom" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| avarice | PASS - "greedy gold" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| avid | PASS - "eager reader" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| axiom | PASS - "math truth" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| belligerent | PASS - "aggressive stance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| benevolence | PASS - "generous giving" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| bewilder | PASS - "confused amazed" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| blight | PASS - "diseased plant" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| bombard | PASS - "many questions" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| bounty | PASS - "harvest abundance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| capitalize | PASS - "opportunity seize" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| capricious | PASS - "changing weather" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| captivating | PASS - "enchanted reader" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| catastrophic | PASS - "earthquake damage" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| caustic | PASS - "chemical warning" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| cessation | PASS - "rain stopping" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| chronological | PASS - "timeline order" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| circumscribe | PASS - "circle boundary" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| clamber | PASS - "climbing rocks" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| clandestine | PASS - "secret meeting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| coalesce | PASS - "streams merging" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| cogent | PASS - "logical argument" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| cognition | PASS - "glowing brain with gears" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| coherence | PASS - "connected puzzle" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| commemoration | PASS - "memorial statue" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| commencement | PASS - "graduation ceremony" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| compendium | PASS - "reference book" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| complacency | PASS - "sleeping on the job" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| complementary | PASS - "color wheel" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| compliance | PASS - "following rules" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| concession | PASS - "compromise handshake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| concord | PASS - "harmony peace" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| condemnation | PASS - "disapproval sign" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| condescending | PASS - "looking down" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| confluence | PASS - "rivers meeting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| conjecture | PASS - "guessing thinking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| conscription | PASS - "military draft" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| consecrate | PASS - "sacred ceremony" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| consequential | PASS - "important decision" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| conservatory | PASS - "greenhouse plants" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| consolidation | PASS - "companies joining one" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| constituency | PASS - "voting citizens" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| constitutional | PASS - "constitution document" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| consultation | PASS - "meeting advice" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| consummate | PASS - "perfect performance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| contagious | PASS - "spreading germs" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| contemplation | PASS - "person meditating thinking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| continuity | PASS - "unbroken chain" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| contradiction | PASS - "opposite signs" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| copious | PASS - "many notes" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| cordial | PASS - "friendly greeting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| corroborate | PASS - "confirming evidence" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| creed | PASS - "guiding principles" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| culpable | PASS - "blame responsibility" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| cynical | PASS - "doubtful person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| daunting | PASS - "scary challenging obstacle" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| decorum | PASS - "formal behavior" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| defunct | PASS - "abandoned factory" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| delineate | PASS - "drawing borders" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| demeanor | PASS - "calm posture" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| depiction | PASS - "painting scene" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| depletion | PASS - "empty resource" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| deportation | PASS - "exile leaving" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| deprivation | PASS - "tired exhausted" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| derogatory | PASS - "mean words" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| deterrent | PASS - "warning alarm" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| dexterity | PASS - "skilled hands" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| dichotomy | PASS - "split two" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| dilapidated | PASS - "ruined house" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| diligence | PASS - "hard work" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| diminutive | PASS - "tiny bird" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| disclaimer | PASS - "warning label" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| discrepancy | PASS - "mismatch difference" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| dismantle | PASS - "taking apart" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| disparity | PASS - "unequal balance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| dissolution | PASS - "breaking apart" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| echelon | PASS - "hierarchy levels" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| edifice | PASS - "grand building" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| egalitarian | PASS - "equal people" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| elicit | PASS - "causing laughter" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| emblem | PASS - "national symbol" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| eradicate | PASS - "eliminating germs" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| esteem | PASS - "respect admiration" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| ethical | PASS - "angel devil on shoulders" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| etiquette | PASS - "polite manners" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| eulogy | PASS - "memorial speech" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| excise | PASS - "cutting scissors" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| exclamation | PASS - "surprised shout" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| exemplary | PASS - "gold star" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| exemption | PASS - "exception pass" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| exodus | PASS - "crowd leaving" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| expedient | PASS - "shortcut path" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| exploitation | PASS - "unfair labor" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| exquisite | PASS - "beautiful painting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| fallacy | PASS - "wrong idea" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| feasibility | PASS - "planning possible" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| fervent | PASS - "passionate cheering" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| flagrant | PASS - "obvious cheating" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| fledgling | PASS - "baby bird" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| forbearance | PASS - "patience calm" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| forgo | PASS - "saying no" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| frivolous | PASS - "silly spending" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| gentry | PASS - "wealthy landowners" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| gluttony | PASS - "overeating feast" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| harmonious | PASS - "harmony together" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| hypocrisy | PASS - "two faces" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| immunity | PASS - "shield protection" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| impasse | PASS - "blocked road" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| impeachment | PASS - "court trial" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| impromptu | PASS - "surprise test" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| impunity | PASS - "no consequences" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| inadvertent | PASS - "accidental spill" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| inception | PASS - "starting point" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| inclination | PASS - "leaning toward" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| indictment | PASS - "court charge" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| indignation | PASS - "angry protest" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| inertia | PASS - "still object" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| infallible | PASS - "perfect record" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| inference | PASS - "clue deduction" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| infringement | PASS - "rule violation" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| inquisitive | PASS - "curious child" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| insatiable | PASS - "endless hunger" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| insolvency | PASS - "empty wallet" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| integration | PASS - "combining subjects" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| intervention | PASS - "doctor helping patient" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| intimidation | PASS - "threatening stance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| itinerary | PASS - "travel plan" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| jubilee | PASS - "anniversary celebration" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| jurisprudence | PASS - "law books" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| lenient | PASS - "gentle teacher" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| liberation | PASS - "freedom celebration" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| luminous | PASS - "bright moon" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| malevolent | PASS - "evil villain" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| manifesto | PASS - "declaration poster" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| mediation | PASS - "peace mediator" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| mercenary | PASS - "hired soldier" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| meticulous | PASS - "detailed work" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| mitigate | PASS - "reducing harm" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| myriad | PASS - "countless stars" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| negligence | PASS - "careless mistake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| nemesis | PASS - "rival opponent" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| nonchalant | PASS - "casual relaxed" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| notoriety | PASS - "infamous person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| nurture | PASS - "caring growth" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| oblivious | PASS - "person not noticing danger" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| ominous | PASS - "dark clouds" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| oppression | PASS - "heavy chains" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| optimism | PASS - "bright sunshine" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| ornate | PASS - "decorated frame" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| ostracize | PASS - "excluded alone" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| paramount | PASS - "top priority" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| penchant | PASS - "favorite hobby" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| penitent | PASS - "sorry apology" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| permeate | PASS - "spreading aroma" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| perpetuate | PASS - "continuing cycle" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| perseverance | PASS - "never giving up" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| pessimism | PASS - "gloomy outlook" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| placate | PASS - "offering peace gift" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| precinct | PASS - "district map" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| predicament | PASS - "stuck trouble" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| preemptive | PASS - "acting first" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| prerogative | PASS - "special right" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| prestige | PASS - "trophy honor" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| principled | PASS - "person standing firm beliefs" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| probation | PASS - "trial period" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| proficiency | PASS - "skilled expert" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| propensity | PASS - "natural tendency" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| proponent | PASS - "supporter advocate" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| propriety | PASS - "formal etiquette manners" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| prosperity | PASS - "thriving town" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| protagonist | PASS - "main character" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| provocation | PASS - "teasing anger" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| purview | PASS - "authority scope" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| rebuke | PASS - "stern scolding" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| redundant | PASS - "extra repeated" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| relinquish | PASS - "letting go" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| remnant | PASS - "remaining piece" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| remuneration | PASS - "paycheck money" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| renounce | PASS - "giving up crown" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| repercussion | PASS - "consequence result" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| reprimand | PASS - "boss correcting employee" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| resilience | PASS - "bouncing back" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| resurgence | PASS - "comeback rising" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| revere | PASS - "deep respect" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| rudimentary | PASS - "simple basic" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| sanctuary | PASS - "wildlife refuge" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| secession | PASS - "puzzle piece pulling away" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| servitude | PASS - "forced labor" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| sporadic | PASS - "scattered rain" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| staunch | PASS - "loyal supporter" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| strife | PASS - "conflict argument" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| subjugate | PASS - "forced control" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| supremacy | PASS - "top power" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| sustenance | PASS - "food water" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| synthesis | PASS - "combining ideas" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| temperament | PASS - "calm nature" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| totalitarian | PASS - "strict control" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| tranquility | PASS - "peaceful lake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| transparency | PASS - "clear glass" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| tribunal | PASS - "court hearing" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| tumultuous | PASS - "excited crowd" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| tyranny | PASS - "cruel ruler" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| unilateral | PASS - "one-sided choice" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| unprecedented | PASS - "record breaking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| upheaval | PASS - "big change" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| usurp | PASS - "seizing throne" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| utopian | PASS - "dreamy ideal society" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| validate | PASS - "checkmark approval" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| vehement | PASS - "passionate protest" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| viable | PASS - "working solution" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| vigilant | PASS - "watchful guard" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| vindicate | PASS - "proven innocent" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| voracious | PASS - "eager hungry" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| wane | PASS - "fading moon" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| zealous | PASS - "enthusiastic helper" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| abdicate | PASS - "stepping down" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| accolade | PASS - "award trophy" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| affable | PASS - "friendly smile" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| ambivalent | PASS - "mixed feelings" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| amenable | PASS - "agreeable person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| amicable | PASS - "friendly handshake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| anecdotal | PASS - "storytelling" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| antipathy | PASS - "strong dislike" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| apathetic | PASS - "bored audience" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| attrition | PASS - "erosion slow decay" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| bravado | PASS - "pretending brave" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| cavalier | PASS - "careless shrug" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| cede | PASS - "surrendering land" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| charlatan | PASS - "fake pretender" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| circumspect | PASS - "careful planning" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| commensurate | PASS - "equal match" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| conciliatory | PASS - "peacemaking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| congenial | PASS - "welcoming place" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| connive | PASS - "sneaky plan" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| contrite | PASS - "sorry face" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| conundrum | PASS - "puzzle problem" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| cosmopolitan | PASS - "diverse city" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| credulous | PASS - "gullible believing" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| debacle | PASS - "disaster mess" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| demagogue | PASS - "angry speaker" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| denouncement | PASS - "public statement" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| deprecate | PASS - "thumbs down" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| derelict | PASS - "abandoned building" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| digression | PASS - "side path" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| dirge | PASS - "sad music" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| dissident | PASS - "protester speaking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| docile | PASS - "gentle pony" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| egregious | PASS - "terrible mistake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| elusive | PASS - "escaping butterfly" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| emissary | PASS - "messenger envoy" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| exonerate | PASS - "freed from prison innocent" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| extrapolate | PASS - "predicting trend" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| fastidious | PASS - "perfectionist detail" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| fiasco | PASS - "stage collapse" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| filibuster | PASS - "long speech" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| fracas | PASS - "noisy argument" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| acclimate | PASS - "adjusting temperature" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| agnostic | PASS - "open question" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| alacrity | PASS - "eager running" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| arbitrate | PASS - "neutral judge" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| ascendancy | PASS - "rising arrow" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| whimsical | PASS - "playful garden" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| zenith | PASS - "highest point" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| amicably | PASS - "peaceful friendly agreement" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| gratify | PASS - "happy satisfaction" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| personable | PASS - "warm host" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| perilous | PASS - "dangerous path" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| orthodontics | PASS - "dental braces" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| palindrome | PASS - "mirror word" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
