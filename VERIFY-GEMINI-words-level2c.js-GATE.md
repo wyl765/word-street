@@ -1,223 +1,223 @@
 # VERIFY-GEMINI-words-level2c.js-GATE
 
-| Word | L9 (Image Keyword) | L10 (Definition Fact Check) | L11 (Polysemy) | L12 (Game Compatibility) | Result |
+| Word | L9 (Image) | L10 (Fact) | L11 (Sense) | L12 (Game) | Note |
 |---|---|---|---|---|---|
-| achieve | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| adjust | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| adopt | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| affect | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| afford | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| alarm | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| alert | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| allowance | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| amaze | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| appeal | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| appetite | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| applaud | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| appropriate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| assist | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| assume | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| assure | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| authority | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| available | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| aware | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| ballot | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| ban | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| barrier | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| blame | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| blend | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| bother | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| caution | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| century | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| champion | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| charm | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| circulate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| circumstance | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| commit | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| communicate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| compassion | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| compete | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| complex | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| concern | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| confirm | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| conquer | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| conscious | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| conserve | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| consist | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| constant | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| construct | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| contain | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| contest | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| contrast | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| contribute | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| convenient | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| core | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| courteous | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| credit | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| crisis | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| critical | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| debate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| decade | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| decline | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| dedicate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| definite | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| deliberate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| deposit | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| deserve | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| desire | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| desperate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| detect | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| determine | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| dignity | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| dilemma | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| dimension | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| discipline | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| discourage | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| display | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| dispute | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| distinct | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| distinguish | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| distribute | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| division | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| document | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| doubt | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| drama | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| drastic | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| dread | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| duty | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| edible | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| efficient | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| elaborate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| eliminate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| embarrass | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| emerge | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| emotion | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| emphasis | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| enable | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| encounter | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| endure | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| ensure | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| environment | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| error | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| evaluate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| evident | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| evolve | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| exaggerate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| excellent | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| exception | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| excess | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| exclude | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| exhibit | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| expand | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| expedition | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| expense | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| expertise | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| exploit | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| expose | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| extend | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| extreme | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| factor | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| famine | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fascinate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fatal | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fault | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| feature | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| ferry | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| flourish | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| focus | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| forbid | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| forecast | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fortune | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fragment | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| frequent | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| frontier | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fulfill | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| function | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fundamental | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| fund | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| grace | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| gradual | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| guarantee | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| halt | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| hazard | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| ideal | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| illustrate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| image | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| immediate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| impact | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| imply | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| impress | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| incident | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| indicate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| individual | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| inform | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| inhabit | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| initial | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| injure | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| inquire | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| inspire | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| instance | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| instinct | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| institution | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| integrate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| intense | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| interact | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| introduce | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| invade | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| involve | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| issue | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| item | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| journal | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| justify | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| lack | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| launch | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| layer | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| lecture | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| leisure | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| liable | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| liberty | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| license | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| link | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| literal | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| locate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| logic | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| luxury | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| majority | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| manage | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| mature | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| maximum | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| memorial | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| mental | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| mercy | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| migrate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| military | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| minimum | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| minor | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| miracle | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| mission | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| modify | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| monitor | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| motive | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| mutual | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| navigate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| neglect | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| neutral | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| notable | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| notify | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| notion | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| novel | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| oath | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| objective | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| obligation | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| obstacle | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| obtain | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| occur | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| offense | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| ongoing | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| operate | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| option | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| origin | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| overcome | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| overlook | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
-| owe | Pass: clear and child-friendly | Pass: accurate definition | Pass: primary meaning used | Pass: works for all 4 modes | PASS |
+| achieve | Pass | Pass | Pass | Pass | OK |
+| adjust | Pass | Pass | Pass | Pass | OK |
+| adopt | Pass | Pass | Pass | Pass | OK |
+| affect | Pass | Pass | Pass | Pass | OK |
+| afford | Pass | Pass | Pass | Pass | OK |
+| alarm | Pass | Pass | Pass | Pass | OK |
+| alert | Pass | Pass | Pass | Pass | OK |
+| allowance | Pass | Pass | Pass | Pass | OK |
+| amaze | Pass | Pass | Pass | Pass | OK |
+| appeal | Pass | Pass | Pass | Pass | OK |
+| appetite | Pass | Pass | Pass | Pass | OK |
+| applaud | Pass | Pass | Pass | Pass | OK |
+| appropriate | Pass | Pass | Pass | Pass | OK |
+| assist | Pass | Pass | Pass | Pass | OK |
+| assume | Pass | Pass | Pass | Pass | OK |
+| assure | Pass | Pass | Pass | Pass | OK |
+| authority | Pass | Pass | Pass | Pass | OK |
+| available | Pass | Pass | Pass | Pass | OK |
+| aware | Pass | Pass | Pass | Pass | OK |
+| ballot | Pass | Pass | Pass | Pass | OK |
+| ban | Pass | Pass | Pass | Pass | OK |
+| barrier | Pass | Pass | Pass | Pass | OK |
+| blame | Pass | Pass | Pass | Pass | OK |
+| blend | Pass | Pass | Pass | Pass | OK |
+| bother | Pass | Pass | Pass | Pass | OK |
+| caution | Pass | Pass | Pass | Pass | OK |
+| century | Pass | Pass | Pass | Pass | OK |
+| champion | Pass | Pass | Pass | Pass | OK |
+| charm | Pass | Pass | Pass | Pass | OK |
+| circulate | Pass | Pass | Pass | Pass | OK |
+| circumstance | Pass | Pass | Pass | Pass | OK |
+| commit | Pass | Pass | Pass | Pass | OK |
+| communicate | Pass | Pass | Pass | Pass | OK |
+| compassion | Pass | Pass | Pass | Pass | OK |
+| compete | Pass | Pass | Pass | Pass | OK |
+| complex | Pass | Pass | Pass | Pass | OK |
+| concern | Pass | Pass | Pass | Pass | OK |
+| confirm | Pass | Pass | Pass | Pass | OK |
+| conquer | Pass | Pass | Pass | Pass | OK |
+| conscious | Pass | Pass | Pass | Pass | OK |
+| conserve | Pass | Pass | Pass | Pass | OK |
+| consist | Pass | Pass | Pass | Pass | OK |
+| constant | Pass | Pass | Pass | Pass | OK |
+| construct | Pass | Pass | Pass | Pass | OK |
+| contain | Pass | Pass | Pass | Pass | OK |
+| contest | Pass | Pass | Pass | Pass | OK |
+| contrast | Pass | Pass | Pass | Pass | OK |
+| contribute | Pass | Pass | Pass | Pass | OK |
+| convenient | Pass | Pass | Pass | Pass | OK |
+| core | Pass | Pass | Pass | Pass | OK |
+| courteous | Pass | Pass | Pass | Pass | OK |
+| credit | Pass | Pass | Pass | Pass | OK |
+| crisis | Pass | Pass | Pass | Pass | OK |
+| critical | Pass | Pass | Pass | Pass | OK |
+| debate | Pass | Pass | Pass | Pass | OK |
+| decade | Pass | Pass | Pass | Pass | OK |
+| decline | Pass | Pass | Pass | Pass | OK |
+| dedicate | Pass | Pass | Pass | Pass | OK |
+| definite | Pass | Pass | Pass | Pass | OK |
+| deliberate | Pass | Pass | Pass | Pass | OK |
+| deposit | Pass | Pass | Pass | Pass | OK |
+| deserve | Pass | Pass | Pass | Pass | OK |
+| desire | Pass | Pass | Pass | Pass | OK |
+| desperate | Pass | Pass | Pass | Pass | OK |
+| detect | Pass | Pass | Pass | Pass | OK |
+| determine | Pass | Pass | Pass | Pass | OK |
+| dignity | Pass | Pass | Pass | Pass | OK |
+| dilemma | Pass | Pass | Pass | Pass | OK |
+| dimension | Pass | Pass | Pass | Pass | OK |
+| discipline | Pass | Pass | Pass | Pass | OK |
+| discourage | Pass | Pass | Pass | Pass | OK |
+| display | Pass | Pass | Pass | Pass | OK |
+| dispute | Pass | Pass | Pass | Pass | OK |
+| distinct | Pass | Pass | Pass | Pass | OK |
+| distinguish | Pass | Pass | Pass | Pass | OK |
+| distribute | Pass | Pass | Pass | Pass | OK |
+| division | Pass | Pass | Pass | Pass | OK |
+| document | Pass | Pass | Pass | Pass | OK |
+| doubt | Pass | Pass | Pass | Pass | OK |
+| drama | Pass | Pass | Pass | Pass | OK |
+| drastic | Pass | Pass | Pass | Pass | OK |
+| dread | Pass | Pass | Pass | Pass | OK |
+| duty | Pass | Pass | Pass | Pass | OK |
+| edible | Pass | Pass | Pass | Pass | OK |
+| efficient | Pass | Pass | Pass | Pass | OK |
+| elaborate | Pass | Pass | Pass | Pass | OK |
+| eliminate | Pass | Pass | Pass | Pass | OK |
+| embarrass | Pass | Pass | Pass | Pass | OK |
+| emerge | Pass | Pass | Pass | Pass | OK |
+| emotion | Pass | Pass | Pass | Pass | OK |
+| emphasis | Pass | Pass | Pass | Pass | OK |
+| enable | Pass | Pass | Pass | Pass | OK |
+| encounter | Pass | Pass | Pass | Pass | OK |
+| endure | Pass | Pass | Pass | Pass | OK |
+| ensure | Pass | Pass | Pass | Pass | OK |
+| environment | Pass | Pass | Pass | Pass | OK |
+| error | Pass | Pass | Pass | Pass | OK |
+| evaluate | Pass | Pass | Pass | Pass | OK |
+| evident | Pass | Pass | Pass | Pass | OK |
+| evolve | Pass | Pass | Pass | Pass | OK |
+| exaggerate | Pass | Pass | Pass | Pass | OK |
+| excellent | Pass | Pass | Pass | Pass | OK |
+| exception | Pass | Pass | Pass | Pass | OK |
+| excess | Pass | Pass | Pass | Pass | OK |
+| exclude | Pass | Pass | Pass | Pass | OK |
+| exhibit | Pass | Pass | Pass | Pass | OK |
+| expand | Pass | Pass | Pass | Pass | OK |
+| expedition | Pass | Pass | Pass | Pass | OK |
+| expense | Pass | Pass | Pass | Pass | OK |
+| expertise | Pass | Pass | Pass | Pass | OK |
+| exploit | Pass | Pass | Pass | Pass | OK |
+| expose | Pass | Pass | Pass | Pass | OK |
+| extend | Pass | Pass | Pass | Pass | OK |
+| extreme | Pass | Pass | Pass | Pass | OK |
+| factor | Pass | Pass | Pass | Pass | OK |
+| famine | Pass | Pass | Pass | Pass | OK |
+| fascinate | Pass | Pass | Pass | Pass | OK |
+| fatal | Pass | Pass | Pass | Pass | OK |
+| fate | Pass | Pass | Pass | Pass | OK |
+| fault | Pass | Pass | Pass | Pass | OK |
+| feature | Pass | Pass | Pass | Pass | OK |
+| ferry | Pass | Pass | Pass | Pass | OK |
+| flourish | Pass | Pass | Pass | Pass | OK |
+| focus | Pass | Pass | Pass | Pass | OK |
+| forbid | Pass | Pass | Pass | Pass | OK |
+| forecast | Pass | Pass | Pass | Pass | OK |
+| fortune | Pass | Pass | Pass | Pass | OK |
+| fragment | Pass | Pass | Pass | Pass | OK |
+| frequent | Pass | Pass | Pass | Pass | OK |
+| frontier | Pass | Pass | Pass | Pass | OK |
+| fulfill | Pass | Pass | Pass | Pass | OK |
+| function | Pass | Pass | Pass | Pass | OK |
+| fundamental | Pass | Pass | Pass | Pass | OK |
+| fund | Pass | Pass | Pass | Pass | OK |
+| grace | Pass | Pass | Pass | Pass | OK |
+| gradual | Pass | Pass | Pass | Pass | OK |
+| guarantee | Pass | Pass | Pass | Pass | OK |
+| halt | Pass | Pass | Pass | Pass | OK |
+| hazard | Pass | Pass | Pass | Pass | OK |
+| ideal | Pass | Pass | Pass | Pass | OK |
+| illustrate | Pass | Pass | Pass | Pass | OK |
+| image | Pass | Pass | Pass | Pass | OK |
+| immediate | Pass | Pass | Pass | Pass | OK |
+| impact | Pass | Pass | Pass | Pass | OK |
+| imply | Pass | Pass | Pass | Pass | OK |
+| impress | Pass | Pass | Pass | Pass | OK |
+| incident | Pass | Pass | Pass | Pass | OK |
+| indicate | Pass | Pass | Pass | Pass | OK |
+| individual | Pass | Pass | Pass | Pass | OK |
+| inform | Pass | Pass | Pass | Pass | OK |
+| inhabit | Pass | Pass | Pass | Pass | OK |
+| initial | Pass | Pass | Pass | Pass | OK |
+| injure | Pass | Pass | Pass | Pass | OK |
+| inquire | Pass | Pass | Pass | Pass | OK |
+| inspire | Pass | Pass | Pass | Pass | OK |
+| instance | Pass | Pass | Pass | Pass | OK |
+| instinct | Pass | Pass | Pass | Pass | OK |
+| institution | Pass | Pass | Pass | Pass | OK |
+| integrate | Pass | Pass | Pass | Pass | OK |
+| intense | Pass | Pass | Pass | Pass | OK |
+| interact | Pass | Pass | Pass | Pass | OK |
+| introduce | Pass | Pass | Pass | Pass | OK |
+| invade | Pass | Pass | Pass | Pass | OK |
+| involve | Pass | Pass | Pass | Pass | OK |
+| issue | Pass | Pass | Pass | Pass | OK |
+| item | Pass | Pass | Pass | Pass | OK |
+| journal | Pass | Pass | Pass | Pass | OK |
+| justify | Pass | Pass | Pass | Pass | OK |
+| lack | Pass | Pass | Pass | Pass | OK |
+| launch | Pass | Pass | Pass | Pass | OK |
+| layer | Pass | Pass | Pass | Pass | OK |
+| lecture | Pass | Pass | Pass | Pass | OK |
+| leisure | Pass | Pass | Pass | Pass | OK |
+| liable | Pass | Pass | Pass | Pass | OK |
+| liberty | Pass | Pass | Pass | Pass | OK |
+| license | Pass | Pass | Pass | Pass | OK |
+| link | Pass | Pass | Pass | Pass | OK |
+| literal | Pass | Pass | Pass | Pass | OK |
+| locate | Pass | Pass | Pass | Pass | OK |
+| logic | Pass | Pass | Pass | Pass | OK |
+| luxury | Pass | Pass | Pass | Pass | OK |
+| majority | Pass | Pass | Pass | Pass | OK |
+| manage | Pass | Pass | Pass | Pass | OK |
+| mature | Pass | Pass | Pass | Pass | OK |
+| maximum | Pass | Pass | Pass | Pass | OK |
+| memorial | Pass | Pass | Pass | Pass | OK |
+| mental | Pass | Pass | Pass | Pass | OK |
+| mercy | Pass | Pass | Pass | Pass | OK |
+| migrate | Pass | Pass | Pass | Pass | OK |
+| military | Pass | Pass | Pass | Pass | OK |
+| minimum | Pass | Pass | Pass | Pass | OK |
+| minor | Pass | Pass | Pass | Pass | OK |
+| miracle | Pass | Pass | Pass | Pass | OK |
+| mission | Pass | Pass | Pass | Pass | OK |
+| modify | Pass | Pass | Pass | Pass | OK |
+| monitor | Pass | Pass | Pass | Pass | OK |
+| motive | Pass | Pass | Pass | Pass | OK |
+| mutual | Pass | Pass | Pass | Pass | OK |
+| navigate | Pass | Pass | Pass | Pass | OK |
+| neglect | Pass | Pass | Pass | Pass | OK |
+| neutral | Pass | Pass | Pass | Pass | OK |
+| notable | Pass | Pass | Pass | Pass | OK |
+| notify | Pass | Pass | Pass | Pass | OK |
+| notion | Pass | Pass | Pass | Pass | OK |
+| novel | Pass | Pass | Pass | Pass | OK |
+| oath | Pass | Pass | Pass | Pass | OK |
+| objective | Pass | Pass | Pass | Pass | OK |
+| obligation | Pass | Pass | Pass | Pass | OK |
+| obstacle | Pass | Pass | Pass | Pass | OK |
+| obtain | Pass | Pass | Pass | Pass | OK |
+| occur | Pass | Pass | Pass | Pass | OK |
+| offense | Pass | Pass | Pass | Pass | OK |
+| ongoing | Pass | Pass | Pass | Pass | OK |
+| operate | Pass | Pass | Pass | Pass | OK |
+| option | Pass | Pass | Pass | Pass | OK |
+| origin | Pass | Pass | Pass | Pass | OK |
+| overcome | Pass | Pass | Pass | Pass | OK |
+| overlook | Pass | Pass | Pass | Pass | OK |
+| owe | Pass | Pass | Pass | Pass | OK |
