@@ -1,5 +1,7 @@
 # VERIFY-GPT-words-level5b.js-GATE
 
+目标词库：words-level5b.js（根据 word-status.json：currentGate 最小值并列时，取仓库中最新更新的 words-level*.js）
+
 每词一行：word — L5(def理解/ex猜词) | L6(例句反向测试) | L7(文化敏感) | L8(学习路径)
 
 001. strategic — L5:def能/ex勉强(ex卡:strongest/center) | L6:勉强(“赢了比赛”线索强但也像smart/wise) | L7:OK | L8:合适(策略=常用抽象词)
@@ -89,12 +91,12 @@
 085. detrimental — L5:def能/ex能(ex卡:screen time/sleep) | L6:能(线索:harmful) | L7:OK | L8:偏难(但实用)
 086. diffuse — L5:def能/ex能(ex卡:open windows/smell) | L6:能(线索:spread out) | L7:OK | L8:偏难(但例句强)
 087. discern — L5:def勉强(def卡:recognize)/ex能(ex卡:tiny lizard hiding) | L6:能(线索:hard to see) | L7:OK | L8:偏难(阅读理解常用)
-088. discriminate — L5:def不能/ex不能(def卡:identity)/ex卡:race | L6:能(线索:treat unfairly) | L7:注意(种族话题；中国家长可能不适或需引导) | L8:偏成人话题(价值观重要但需慎用例句)
+088. discriminate — L5:def不能/ex不能(def卡:unfairly/based on group)/ex卡:race | L6:能(线索:treat unfairly) | L7:注意(种族话题；中国家长可能不适或需引导) | L8:偏成人话题(价值观重要但需慎用例句) 
 089. dismissal — L5:def勉强(def卡:idea)/ex能(ex卡:school delayed) | L6:勉强(也可能是closing) | L7:OK | L8:偏难(多义：解雇/放学)
 090. dispatch — L5:def能/ex能(ex卡:fire station/truck) | L6:能(线索:send quickly) | L7:OK | L8:偏难(但可教)
-091. disseminate — L5:def不能/ex不能(def卡:wildly)/ex卡:millions instantly | L6:能(线索:spread news) | L7:OK | L8:偏难(书面动词)
+091. disseminate — L5:def不能/ex不能(def卡:widely)/ex卡:millions instantly | L6:能(线索:spread news) | L7:OK | L8:偏难(书面动词)
 092. diverge — L5:def能/ex能(ex卡:trail splits) | L6:能(线索:separate directions) | L7:OK | L8:偏难(但例句好)
-093. dweller — L5:def能/ex能(ex卡:city dwellers) | L6:能(线索:lives in…) | L7:OK | L8:偏难(词缀-er可教)
+093. dweller — L5:def能(但definition有语法别扭: "in a one certain place")/ex能(ex卡:city dwellers) | L6:能(线索:lives in…) | L7:OK | L8:偏难(词缀-er可教)
 094. edict — L5:def能/ex能(ex卡:mayor banning fireworks) | L6:能(线索:official order) | L7:OK | L8:偏难(与decree近义，易混)
 095. efficacy — L5:def不能/ex不能(def卡:desired)/ex卡:drug/patients | L6:能(线索:test drug works) | L7:OK | L8:偏难(学术医学词)
 096. electorate — L5:def不能/ex不能(def卡:eligible)/ex卡:choose leader | L6:能(线索:voters) | L7:注意(选举政治) | L8:偏成人话题
@@ -129,7 +131,7 @@
 125. forum — L5:def勉强(def卡:public)/ex能(ex卡:town forum voice opinions) | L6:能(线索:discussion meeting) | L7:OK | L8:偏难(但可教)
 126. foster — L5:def能/ex能(ex卡:love of books) | L6:能(线索:encourage growth) | L7:OK | L8:合适
 127. fugitive — L5:def不能/ex不能(def卡:custody)/ex卡:police found | L6:能(线索:escape from law) | L7:OK | L8:偏难(犯罪词；可谨慎)
-128. futile — L5:def能/ex能(ex卡:ocean with bucket) | L6:能(线索:no chance) | L7:OK | L8:偏难(但例句形象)
+128. futile — L5:def能(但definition里"chance of win"建议改"chance of winning")/ex能(ex卡:ocean with bucket) | L6:能(线索:no chance) | L7:OK | L8:偏难(但例句形象)
 129. genesis — L5:def不能/ex能(ex卡:origin of interest) | L6:能(线索:origin/start) | L7:OK | L8:偏难(书面词)
 130. geopolitical — L5:def不能/ex不能(def卡:geography affects politics)/ex卡:Middle East | L6:能(线索:between countries politics) | L7:注意(地区政治敏感) | L8:不合适(成人时政词)
 131. gist — L5:def能/ex能(ex卡:got the gist) | L6:能(线索:main point) | L7:OK | L8:合适
