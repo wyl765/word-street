@@ -1,239 +1,246 @@
-# VERIFY-GPT — words-level3a.js
+# VERIFY-GPT-words-level3a.js-GATE
 
-- One line per word (no skipping).
-- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
-- L6: Reverse test — blank example + 4 options.
-- L7: Cultural sensitivity.
-- L8: Learning path / level fit.
+审校范围：LEVEL3A_BANK（231词）
 
-- calculate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alms / calculate / decibel / excessive] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- correct | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blotch / cinch / correct / prominent] | L7:OK | L8:合适
-- damage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ardor / assail / bastion / damage] | L7:OK | L8:合适
-- decrease | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[broach / brooch / burgeon / decrease] | L7:OK | L8:合适
-- define | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:word)，易靠语感/蒙) | 选项:[anagram / aright / cinch / define] | L7:OK | L8:合适
-- discuss | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[discuss / dissect / dramatic / radical] | L7:OK | L8:合适
-- edit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amplify / antiquated / clench / edit] | L7:OK | L8:合适
-- engage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dissect / engage / immune / prove] | L7:OK | L8:合适
-- favor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alms / buffet / ditto / favor] | L7:OK | L8:合适
-- flee | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clatter / din / excessive / flee] | L7:OK | L8:合适
-- forgive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[atone / collide / forgive / skim] | L7:OK | L8:合适
-- furnish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afflict / amiable / furnish / mobile] | L7:OK | L8:合适
-- intend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amble / intend / official / primitive] | L7:OK | L8:合适
-- irritate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[irritate / persuade / seek / snatch] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- marvel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cobalt / immense / marvel / original] | L7:OK | L8:合适
-- persuade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[engage / illegal / persuade / snatch] | L7:OK | L8:合适
-- postpone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arbiter / logical / postpone / satisfy] | L7:OK | L8:合适
-- prove | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[burgeon / dapple / engage / prove] | L7:OK | L8:合适
-- provide | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chaplain / dehydrate / devour / provide] | L7:OK | L8:合适
-- punish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[define / dehydrate / persuade / punish] | L7:OK | L8:合适
-- satisfy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barracks / eventual / postpone / satisfy] | L7:OK | L8:合适
-- seek | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[distraught / infinite / irritate / seek] | L7:OK | L8:合适
-- settle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[banter / crux / mechanical / settle] | L7:OK | L8:合适
-- skim | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cinch / forgive / historic / skim] | L7:OK | L8:合适
-- snatch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[irritate / persuade / snatch / trace] | L7:OK | L8:合适
-- soar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cherub / conifer / dale / soar] | L7:OK | L8:合适
-- startle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clatter / decibel / din / startle] | L7:OK | L8:合适
-- strengthen | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bamboo / brawn / gracious / strengthen] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- terrify | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decibel / hostile / marvel / terrify] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- trace | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coil / persuade / snatch / trace] | L7:OK | L8:合适
-- translate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anagram / automatic / buccaneer / translate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- weaken | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antiquated / awning / excessive / weaken] | L7:OK | L8:合适
-- apparent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apparent / cache / crock / hasty] | L7:OK | L8:合适
-- artificial | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:made)，易靠语感/蒙) | 选项:[artificial / burgeon / imaginary / professional] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- automatic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[automatic / bistro / buffet / cupboard] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- careless | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[badger / careless / dishevel / edit] | L7:OK | L8:合适
-- casual | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blotch / buffet / casual / normal] | L7:OK | L8:合适
-- central | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:part)，易靠语感/蒙) | 选项:[atrium / belfry / bulge / central] | L7:OK | L8:合适
-- dramatic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amulet / bastion / discuss / dramatic] | L7:OK | L8:合适
-- due | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bastion / due / literary / punish] | L7:OK | L8:合适
-- eventual | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:after)，易靠语感/蒙) | 选项:[cinch / eventual / primitive / satisfy] | L7:OK | L8:合适
-- excessive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clatter / din / excessive / flee] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- exotic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blazon / cobalt / exotic / terrify] | L7:OK | L8:合适
-- favorable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[billow / clench / favorable / interior] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- formal | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:fancy)，易靠语感/蒙) | 选项:[bistro / broach / disrepute / formal] | L7:OK | L8:合适
-- gracious | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambrosia / aright / gracious / strengthen] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- grand | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barge / breadth / grand / horizontal] | L7:OK | L8:合适
-- grave | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arbiter / boon / grave / political] | L7:OK | L8:合适
-- hasty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ajar / apparent / devour / hasty] | L7:OK | L8:合适
-- historic | L5-Def:勉强(需要中文支架/图示；拼写有负担、定义偏长) | L5-Ex:能 | L6:能(线索词: important,long,ago) | 选项:[barracks / buccaneer / central / historic] | L7:OK | L8:合适
-- horizontal | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ajar / brim / correct / horizontal] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- hostile | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ajar / exotic / hostile / terrify] | L7:OK | L8:合适
-- ignorant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boon / ignorant / literary / punish] | L7:OK | L8:合适
-- illegal | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:get)，易靠语感/蒙) | 选项:[cache / engage / illegal / persuade] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)、政治/法律/制度；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
-- imaginary | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confide / grave / imaginary / radical] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- immense | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capsize / cobalt / immense / marvel] | L7:OK | L8:合适
-- immune | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dehydrate / engage / immune / strengthen] | L7:OK | L8:合适
-- inferior | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boulder / cobalt / eventual / inferior] | L7:OK | L8:合适
-- infinite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bivouac / contour / infinite / seek] | L7:OK | L8:合适
-- influential | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / excessive / influential / personal] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- interior | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[colonnade / favorable / interior / prove] | L7:OK | L8:合适
-- isolated | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / alpine / isolated / prominent] | L7:OK | L8:合适
-- legal | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:rules)，易靠语感/蒙) | 选项:[claustrophobia / deft / legal / reckless] | L7:OK | L8:合适
-- legitimate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boon / legitimate / principal / prominent] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- literary | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confide / din / ignorant / literary] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- logical | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dapper / immune / logical / postpone] | L7:OK | L8:合适
-- mechanical | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capsize / dissect / mechanical / settle] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- microscopic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:see)，易靠语感/蒙) | 选项:[adrift / bivouac / dehydrate / microscopic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- mobile | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cringe / distraught / furnish / mobile] | L7:OK | L8:合适
-- moderate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:not)，易靠语感/蒙) | 选项:[casual / distraught / moderate / original] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- naked | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contour / naked / naval / prove] | L7:OK | L8:合适
-- native | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amiable / boon / native / original] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- naval | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barnacle / naked / nautical / naval] | L7:OK | L8:合适
-- normal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[baffle / boon / irritate / normal] | L7:OK | L8:合适
-- occasional | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ardor / broach / occasional / probable] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- official | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[intend / official / primitive / principal] | L7:OK | L8:合适
-- original | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[akin / marvel / native / original] | L7:OK | L8:合适
-- partial | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:only)，易靠语感/蒙) | 选项:[afflict / breadth / microscopic / partial] | L7:OK | L8:合适
-- personal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[akin / conifer / influential / personal] | L7:OK | L8:合适
-- political | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[discuss / grave / legal / political] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- portable | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barbecue / carafe / corona / portable] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- precise | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aright / normal / precise / provide] | L7:OK | L8:合适
-- primitive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[buttress / caldron / eventual / primitive] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- principal | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[legitimate / marvel / microscopic / principal] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- private | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confide / denture / divulge / private] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- probable | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ardor / cinch / probable / skim] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- productive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambrosia / banter / cursory / productive] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- professional | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artificial / divulge / imaginary / professional] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
-- profound | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alcove / artificial / boggle / profound] | L7:OK | L8:合适
-- prominent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[correct / isolated / legitimate / prominent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- proper | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:way)，易靠语感/蒙) | 选项:[calculate / dale / original / proper] | L7:OK | L8:合适
-- prosperous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / barbecue / countenance / prosperous] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- radical | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[discuss / imaginary / original / radical] | L7:OK | L8:合适
-- reckless | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afflict / disrepute / legal / reckless] | L7:OK | L8:合适
-- regional | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambrosia / citadel / political / regional] | L7:OK | L8:合适
-- abode | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / alcove / bane / isolated] | L7:OK | L8:合适
-- acacia | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:leaves)，易靠语感/蒙) | 选项:[acacia / akin / atrium / dapple] | L7:OK | L8:合适
-- adage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / adage / amble / badger] | L7:OK | L8:合适
-- adrift | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adrift / bistro / breadth / capsize] | L7:OK | L8:合适
-- afflict | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afflict / boon / compulsion / disrepute] | L7:OK | L8:合适
-- ajar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ajar / coil / hasty / hostile] | L7:OK | L8:合适
-- akin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acacia / akin / original / trace] | L7:OK | L8:合适
-- alcove | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / alcove / billow / profound] | L7:OK | L8:合适
-- alms | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alms / buffet / chaplain / gracious] | L7:OK | L8:合适
-- alpine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alpine / apex / burgeon / contour] | L7:OK | L8:合适
-- amble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amble / bulge / intend / microscopic] | L7:OK | L8:合适
-- ambrosia | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambrosia / buffet / crouton / productive] | L7:OK | L8:合适
-- amiable | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amiable / capsize / disrepute / native] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- amplify | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amplify / colonnade / excessive / provide] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- amulet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amulet / baffle / corona / dramatic] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
-- anagram | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:word)，易靠语感/蒙) | 选项:[afflict / anagram / cinch / define] | L7:OK | L8:合适
-- angular | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[angular / atrium / buttress / historic] | L7:OK | L8:合适
-- antiquated | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antiquated / capsize / clench / edit] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- apex | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alpine / apex / broach / contour] | L7:OK | L8:合适
-- apprentice | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apprentice / contour / hasty / soar] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- arbiter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arbiter / grave / legal / postpone] | L7:OK | L8:合适
-- ardor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ardor / brawn / ignorant / probable] | L7:OK | L8:合适
-- aright | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aright / define / gracious / precise] | L7:OK | L8:合适
-- assail | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assail / barnacle / corsair / cyclone] | L7:OK | L8:合适
-- atoll | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[atoll / buoyancy / cobalt / dehydrate] | L7:OK | L8:合适
-- atone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[atone / burgeon / convoy / forgive] | L7:OK | L8:合适
-- atrium | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acacia / atrium / central / naked] | L7:OK | L8:合适
-- aura | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aura / bastion / buttress / due] | L7:OK | L8:合适
-- awning | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:rain)，易靠语感/蒙) | 选项:[awning / dehydrate / discuss / weaken] | L7:OK | L8:合适
-- babble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anagram / assail / babble / translate] | L7:OK | L8:合适
-- badger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apex / badger / careless / char] | L7:OK | L8:合适
-- baffle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amulet / apparent / baffle / deft] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
-- bamboo | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bamboo / dehydrate / favorable / strengthen] | L7:OK | L8:合适
-- bane | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / bane / calculate / principal] | L7:OK | L8:合适
-- banter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[banter / daze / productive / settle] | L7:OK | L8:合适
-- barbecue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barbecue / persuade / portable / prosperous] | L7:OK | L8:合适
-- barge | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:wide)，易靠语感/蒙) | 选项:[amble / barge / breadth / convoy] | L7:OK | L8:合适
-- barley | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / bane / barley / legitimate] | L7:OK | L8:合适
-- barnacle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barnacle / clad / clench / naval] | L7:OK | L8:合适
-- baroque | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afflict / amiable / baroque / exotic] | L7:OK | L8:合适
-- barracks | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:soldiers)，易靠语感/蒙) | 选项:[barracks / eventual / historic / satisfy] | L7:OK | L8:合适
-- bastion | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aura / bastion / dramatic / due] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- batter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[batter / caldron / canter / colander] | L7:OK | L8:合适
-- bedlam | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bedlam / dissect / immense / soar] | L7:OK | L8:合适
-- belfry | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bells)，易靠语感/蒙) | 选项:[belfry / cinch / crypt / denture] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
-- berth | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:train)，易靠语感/蒙) | 选项:[berth / capsule / clatter / disrepute] | L7:OK | L8:合适
-- billow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ajar / alcove / billow / favorable] | L7:OK | L8:合适
-- bistro | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amble / bistro / disrepute / eventual] | L7:OK | L8:合适
-- bivouac | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bivouac / cairn / infinite / moderate] | L7:OK | L8:合适
-- blazon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blazon / cobalt / cringe / exotic] | L7:OK | L8:合适
-- blotch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[billow / blotch / casual / correct] | L7:OK | L8:合适
-- boggle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:mind)，易靠语感/蒙) | 选项:[boggle / imaginary / infinite / prove] | L7:OK | L8:合适
-- boon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afflict / boon / grave / normal] | L7:OK | L8:合适
-- boulder | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boulder / cairn / eventual / immense] | L7:OK | L8:合适
-- brawn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ardor / brawn / breadth / mechanical] | L7:OK | L8:合适
-- breadth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adrift / barge / breadth / weaken] | L7:OK | L8:合适
-- brim | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:cup)，易靠语感/蒙) | 选项:[brim / dehydrate / interior / portable] | L7:OK | L8:合适
-- broach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apex / broach / formal / immune] | L7:OK | L8:合适
-- brooch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[atoll / brooch / crock / decrease] | L7:OK | L8:合适
-- buccaneer | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[buccaneer / dapper / formal / skim] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- buffet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambrosia / buffet / casual / satisfy] | L7:OK | L8:合适
-- buggy | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:horse)，易靠语感/蒙) | 选项:[buggy / canter / cranny / dapple] | L7:OK | L8:合适
-- bulge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amble / bulge / cache / central] | L7:OK | L8:合适
-- buoyancy | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[adrift / buoyancy / colander / dehydrate] | L7:OK | L8:合适
-- burgeon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[atone / burgeon / coil / decrease] | L7:OK | L8:合适
-- bustle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acacia / adrift / bustle / dramatic] | L7:OK | L8:合适
-- buttress | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:stone)，易靠语感/蒙) | 选项:[buttress / colonnade / cranny / immense] | L7:OK | L8:合适
-- cache | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apparent / bulge / cache / crypt] | L7:OK | L8:合适
-- cairn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bivouac / blotch / boulder / cairn] | L7:OK | L8:合适
-- caldron | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[batter / caldron / crone / dale] | L7:OK | L8:合适
-- canter | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:horse)，易靠语感/蒙) | 选项:[adrift / buggy / canter / legitimate] | L7:OK | L8:合适
-- capsize | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adrift / capsize / curfew / immense] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- capsule | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[atrium / berth / capsule / infinite] | L7:OK | L8:合适
-- carafe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artificial / carafe / cuisine / portable] | L7:OK | L8:合适
-- chaplain | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hospital)，易靠语感/蒙) | 选项:[alms / assail / chaplain / gracious] | L7:OK | L8:合适
-- char | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ajar / badger / boggle / char] | L7:OK | L8:合适
-- cherub | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:wings)，易靠语感/蒙) | 选项:[barley / cherub / original / soar] | L7:OK | L8:合适
-- cinch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anagram / cinch / define / probable] | L7:OK | L8:合适
-- citadel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[citadel / intend / prominent / prosperous] | L7:OK | L8:合适
-- clad | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ajar / akin / alms / clad] | L7:OK | L8:合适
-- clatter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artificial / clatter / dapple / disrepute] | L7:OK | L8:合适
-- claustrophobia | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[claustrophobia / din / legal / mechanical] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
-- cleave | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acacia / adrift / cleave / cyclone] | L7:OK | L8:合适
-- cleft | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acacia / buttress / cleft / cranny] | L7:OK | L8:合适
-- clench | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antiquated / clench / edit / favorable] | L7:OK | L8:合适
-- cobalt | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:blue)，易靠语感/蒙) | 选项:[cobalt / inferior / naked / original] | L7:OK | L8:合适
-- coil | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ajar / burgeon / coil / denture] | L7:OK | L8:合适
-- colander | L5-Def:能 | L5-Ex:能 | L6:能(线索词: drain,water) | 选项:[buoyancy / colander / decanter / dehydrate] | L7:OK | L8:合适
-- collide | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[central / cleave / collide / forgive] | L7:OK | L8:合适
-- colonnade | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:columns)，易靠语感/蒙) | 选项:[colonnade / interior / naval / principal] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- commode | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commode / condiment / interior / weaken] | L7:OK | L8:合适
-- compulsion | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afflict / compulsion / daze / moderate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- condiment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: ketchup,mustard) | 选项:[artificial / condiment / ditto / favorable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- conduit | L5-Def:能 | L5-Ex:能 | L6:能(线索词: carries,water) | 选项:[adrift / capsize / conduit / dehydrate] | L7:OK | L8:合适
-- confide | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confide / imaginary / intend / seek] | L7:OK | L8:合适
-- conifer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[caldron / conifer / dale / naked] | L7:OK | L8:合适
-- consort | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:queen)，易靠语感/蒙) | 选项:[afflict / amiable / amplify / consort] | L7:OK | L8:合适
-- contour | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alpine / apex / contour / infinite] | L7:OK | L8:合适
-- convoy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barge / convoy / furnish / prosperous] | L7:OK | L8:合适
-- cornet | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:shiny)，易靠语感/蒙) | 选项:[cobalt / cornet / decibel / dime] | L7:OK | L8:合适
-- corona | L5-Def:能 | L5-Ex:能 | L6:能(线索词: around,moon) | 选项:[atoll / corona / discuss / interior] | L7:OK | L8:合适
-- corsair | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blazon / char / corsair / nautical] | L7:OK | L8:合适
-- cosmos | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acacia / adrift / alcove / cosmos] | L7:OK | L8:合适
-- countenance | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abode / alcove / countenance / productive] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- cranny | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alcove / buttress / cleft / cranny] | L7:OK | L8:合适
-- cringe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blazon / cringe / excessive / mobile] | L7:OK | L8:合适
-- crock | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apparent / brooch / cache / crock] | L7:OK | L8:合适
-- crone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boon / crone / interior / isolated] | L7:OK | L8:合适
-- crouton | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:salad)，易靠语感/蒙) | 选项:[afflict / ambrosia / amiable / crouton] | L7:OK | L8:合适
-- crux | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antiquated / crux / settle / weaken] | L7:OK | L8:合适
-- crypt | L5-Def:能 | L5-Ex:能 | L6:能(线索词: church,beneath) | 选项:[belfry / cache / crypt / dapple] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
-- cuisine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afflict / carafe / cuisine / influential] | L7:OK | L8:合适
-- cupboard | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alpine / artificial / cupboard / disrepute] | L7:OK | L8:合适
-- curfew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bivouac / capsize / curfew / startle] | L7:OK | L8:合适
-- cursory | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alms / cursory / curtsy / productive] | L7:OK | L8:合适
-- curtsy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alms / cursory / curtsy / eventual] | L7:OK | L8:合适
-- cyclone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[curtsy / cyclone / naked / nautical] | L7:OK | L8:合适
-- dale | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[banter / caldron / conifer / dale] | L7:OK | L8:合适
-- dapper | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amulet / curtsy / dapper / formal] | L7:OK | L8:合适
-- dapple | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acacia / clatter / dapple / prove] | L7:OK | L8:合适
-- daze | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compulsion / corona / cyclone / daze] | L7:OK | L8:合适
-- decanter | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:glass)，易靠语感/蒙) | 选项:[carafe / colander / decanter / denture] | L7:OK | L8:合适
-- decibel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:loud)，易靠语感/蒙) | 选项:[boulder / cleft / damage / decibel] | L7:OK | L8:合适
-- deft | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[baffle / deft / snatch / trace] | L7:OK | L8:合适
-- dehydrate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[colander / decanter / dehydrate / provide] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- denture | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decanter / dehydrate / denture / private] | L7:OK | L8:合适
-- devour | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hungry)，易靠语感/蒙) | 选项:[ambrosia / colander / decrease / devour] | L7:OK | L8:合适
-- dime | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cornet / denture / dime / furnish] | L7:OK | L8:合适
-- din | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[claustrophobia / collide / din / excessive] | L7:OK | L8:合适
-- dishevel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hair)，易靠语感/蒙) | 选项:[coil / dishevel / isolated / weaken] | L7:OK | L8:合适
-- disrepute | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amiable / bistro / disrepute / eventual] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- dissect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[discuss / dissect / mechanical / microscopic] | L7:OK | L8:合适
-- distraught | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calculate / distraught / moderate / seek] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- ditto | L5-Def:能 | L5-Ex:能 | L6:能(线索词: same,thing) | 选项:[ditto / favor / favorable / satisfy] | L7:OK | L8:合适
-- divulge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cache / divulge / ignorant / professional] | L7:OK | L8:合适
-- nautical | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alpine / berth / cyclone / nautical] | L7:OK | L8:合适
+字段说明：
+- L5-Def：只看definition是否能懂
+- L5-Ex：遮住目标词，只看example能否“猜出词”
+- L6：example反向测试（同level 4选项）是否能唯一确定
+- L7：文化/家长敏感点
+- L8：是否适配MAP197（约二年级）学习路径
+
+---
+
+## 逐词记录（每词一行）
+
+- calculate | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:calculate / decrease / dehydrate / translate; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- correct | L5-Def:能(definition句子短、词简单) | L5-Ex:能(场景+线索词:mistake,error) | L6:能(opts:afflict / atone / correct / edit; 线索词:mistake,error) | L7:OK | L8:合适(高频课堂/生活可用)
+- damage | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:assail / babble / damage / punish; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- decrease | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:decrease / dishevel / irritate / persuade; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- define | L5-Def:能(definition句子短、词简单) | L5-Ex:能(场景+线索词:word,dictionary) | L6:能(opts:define / forgive / intend / satisfy; 线索词:word,dictionary) | L7:OK | L8:合适(高频课堂/生活可用)
+- discuss | L5-Def:能(definition句子短、词简单) | L5-Ex:能(场景+线索词:about) | L6:勉强(opts:afflict / amplify / babble / discuss; 线索少(只有:about)，若干同义词会抢答案) | L7:OK | L8:合适(高频课堂/生活可用)
+- edit | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:char / coil / correct / edit; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- engage | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / babble / badger / engage; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- favor | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amble / atone / babble / favor; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- flee | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:char / coil / cringe / flee; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- forgive | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:define / forgive / provide / satisfy; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- furnish | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(语境线索较强:furniture,desk) | L6:能(opts:afflict / amplify / burgeon / furnish; 线索词:furniture,desk,lamp) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- intend | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:assail / babble / define / intend; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- irritate | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:forgive / irritate / provide / satisfy; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- marvel | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / babble / marvel / startle; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- persuade | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:decrease / dishevel / persuade / settle; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- postpone | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:decrease / dishevel / irritate / postpone; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- prove | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amble / atone / bulge / prove; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- provide | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:define / forgive / provide / satisfy; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- punish | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:assail / babble / damage / punish; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- satisfy | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:define / forgive / provide / satisfy; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- seek | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:char / coil / edit / seek; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- settle | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:assail / babble / persuade / settle; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- skim | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:babble / burgeon / devour / skim; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- snatch | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / babble / badger / snatch; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- soar | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:char / coil / edit / soar; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- startle | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:afflict / amplify / marvel / startle; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- strengthen | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:amplify / calculate / dehydrate / strengthen; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- terrify | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:afflict / amplify / burgeon / terrify; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- trace | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:amble / atone / bulge / trace; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- translate | L5-Def:能(definition句子短、词简单) | L5-Ex:能(场景+线索词:language,english) | L6:能(opts:assail / calculate / define / translate; 线索词:language,english,spanish) | L7:OK | L8:合适(高频课堂/生活可用)
+- weaken | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:assail / babble / badger / weaken; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- apparent | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apparent / cinch / portable / prominent; 易和obvious互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- artificial | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:alpine / artificial / banter / official; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- automatic | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:automatic / naked / personal / reckless; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- careless | L5-Def:勉强(可能卡在:attention) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ambrosia / apparent / careless / cursory; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- casual | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adrift / casual / distraught / formal; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- central | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:central / grave / interior / principal; 易和principal互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- dramatic | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ambrosia / ardor / bastion / dramatic; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- due | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:due / normal / radical / regional; 易和late互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- eventual | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:eventual / historic / infinite / probable; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- excessive | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:aright / excessive / moderate / productive; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- exotic | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bastion / exotic / native / portable; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- favorable | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:deft / favorable / inferior / private; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- formal | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:casual / formal / legal / legitimate; 易和official互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- gracious | L5-Def:勉强(可能卡在:especially) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:gracious / inferior / nautical / official; 易和grand互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- grand | L5-Def:勉强(可能卡在:impressive) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ardor / brawn / grand / immense; 易和gracious互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- grave | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:central / crux / grave / principal; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- hasty | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:excessive / hasty / moderate / naked; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- historic | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(语境线索较强:important,long) | L6:不能(opts:eventual / historic / influential / principal; 易和historical互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- horizontal | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:antiquated / breadth / horizontal / infinite; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- hostile | L5-Def:勉强(可能卡在:unfriendly) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amiable / angular / bastion / hostile; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- ignorant | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(语境线索较强:about,because) | L6:能(opts:ignorant / literary / private / regional; 线索词:about,because) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- illegal | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(语境线索较强:you,can) | L6:不能(opts:cinch / ignorant / illegal / private; 易和legal互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- imaginary | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:automatic / condiment / imaginary / legitimate; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- immense | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amiable / angular / grand / immense; 易和huge互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- immune | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adrift / bastion / immune / productive; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- inferior | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:akin / favorable / inferior / productive; 易和worse互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- infinite | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:cinch / due / eventual / infinite; 易和endless互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- influential | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:artificial / historic / influential / official; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- interior | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:central / interior / mechanical / partial; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- isolated | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ambrosia / apparent / barbecue / isolated; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- legal | L5-Def:勉强(可能卡在:officially) | L5-Ex:勉强(语境线索较强:follow,rul) | L6:不能(opts:formal / legal / legitimate / logical; 易和illegal互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- legitimate | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:formal / imaginary / legal / legitimate; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- literary | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:ignorant / literary / political / regional; 线索少(只有:writ)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- logical | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:formal / legitimate / logical / proper; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- mechanical | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:central / interior / mechanical / partial; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- microscopic | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:favorable / ignorant / microscopic / private; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- mobile | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adrift / alpine / mobile / prosperous; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- moderate | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:banter / excessive / hasty / moderate; 易和average互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- naked | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:clad / cursory / hasty / naked; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(字面“裸体”容易让家长警觉；此处是“光秃秃的树”，建议用 bare) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- native | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:exotic / native / personal / portable; 易和original互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- naval | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:naval / political / precise / regional; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(军事/军舰话题；低龄可弱化或换“ships”) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- normal | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:勉强(opts:adrift / due / normal / radical; 更多靠场景常识/语感；建议在例句里加入更“定义型”的提示词) | L7:OK | L8:合适(高频课堂/生活可用)
+- occasional | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:eventual / historic / occasional / probable; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- official | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:不能(opts:alms / artificial / banter / official; 易和formal互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:合适(高频课堂/生活可用)
+- original | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:不能(opts:ambrosia / apparent / barbecue / original; 易和native互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:合适(高频课堂/生活可用)
+- partial | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:central / interior / mechanical / partial; 线索少(只有:only)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- personal | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:不能(opts:ambrosia / automatic / native / personal; 易和private互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:合适(高频课堂/生活可用)
+- political | L5-Def:勉强(可能卡在:government) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ignorant / naval / political / regional; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(政治话题，低龄ESL不友好) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- portable | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apparent / cinch / exotic / portable; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- precise | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:cursory / ignorant / precise / regional; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- primitive | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:due / eventual / infinite / primitive; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- principal | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bastion / central / grave / principal; 易和central互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- private | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(场景能理解，但要“说出准确词形”仍有难度) | L6:不能(opts:favorable / ignorant / microscopic / private; 易和personal互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:合适(高频课堂/生活可用)
+- probable | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:eventual / historic / occasional / probable; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- productive | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:aright / excessive / inferior / productive; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- professional | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:automatic / bane / professional / prosperous; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- profound | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:angular / productive / profound / prosperous; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- prominent | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apparent / cinch / portable / prominent; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- proper | L5-Def:能(definition句子短、词简单) | L5-Ex:能(场景+线索词:way) | L6:勉强(opts:aright / excessive / logical / proper; 线索少(只有:way)，若干同义词会抢答案) | L7:OK | L8:合适(高频课堂/生活可用)
+- prosperous | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:automatic / mobile / profound / prosperous; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- radical | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:due / favorable / normal / radical; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- reckless | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:automatic / naked / reckless / regional; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- regional | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:due / ignorant / literary / regional; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- abode | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:abode / aura / berth / cuisine; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- acacia | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出acacia) | L6:勉强(opts:acacia / bistro / conifer / cranny; 线索少(只有:leav)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- adage | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:abode / adage / atoll / crone; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- adrift | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adrift / buoyancy / cursory / naked; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- afflict | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:afflict / amplify / burgeon / capsize; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- ajar | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ajar / akin / alms / apex; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- akin | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ajar / akin / alms / inferior; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- alcove | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:alcove / bistro / cranny / denture; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- alms | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:alms / artificial / banter / official; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(涉及乞讨/施舍语境，可能引发家长敏感；建议改成“donation/charity”更中性) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- alpine | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:adrift / alpine / aright / artificial; 线索少(只有:mountain)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- amble | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amble / atone / badger / devour; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- ambrosia | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:alms / ambrosia / antiquated / barbecue; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(含“gods/神”的设定，家长可能介意；可换成更中性解释) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- amiable | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amiable / angular / banter / bastion; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- amplify | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:afflict / amplify / burgeon / strengthen; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- amulet | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amulet / bistro / brooch / cranny; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- anagram | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出anagram) | L6:能(opts:anagram / arbiter / baroque / bivouac; 线索词:word,dictionary) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- angular | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:angular / infinite / profound / prosperous; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- antiquated | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ambrosia / antiquated / artificial / distraught; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- apex | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ajar / apex / brim / crux; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- apprentice | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apprentice / arbiter / aura / countenance; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- arbiter | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apprentice / arbiter / aura / countenance; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- ardor | L5-Def:不能(definition里硬词/抽象点多:enthusiasm,passion) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ardor / bastion / brawn / dramatic; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- aright | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:aright / excessive / productive / proper; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- assail | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / cleave / collide / translate; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- atoll | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出atoll) | L6:勉强(opts:atoll / colander / conduit / corona; 线索少(只有:water)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- atone | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amble / atone / bulge / correct; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- atrium | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:atrium / boulder / cleft / cranny; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- aura | L5-Def:勉强(可能卡在:quality) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:abode / arbiter / aura / cuisine; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- awning | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出awning) | L6:勉强(opts:acacia / awning / corona / cupboard; 线索少(只有:rain)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- babble | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:babble / burgeon / discuss / favor; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- badger | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amble / badger / devour / irritate; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- baffle | L5-Def:勉强(可能卡在:completely) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / babble / badger / baffle; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- bamboo | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bamboo / citadel / compulsion / cyclone; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- bane | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bane / cinch / illegal / professional; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- banter | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amiable / banter / moderate / official; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- barbecue | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:alms / ambrosia / barbecue / condiment; 线索少(只有:cook)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- barge | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出barge) | L6:能(opts:barge / batter / cairn / dale; 线索词:wide,river) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- barley | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:barley / batter / cairn / crouton; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- barnacle | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:barnacle / bistro / boulder / corsair; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- baroque | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:baroque / countenance / cuisine / dime; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(欧洲艺术史概念；文化背景重) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- barracks | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:ambrosia / apparent / barracks / belfry; 线索少(只有:soldier)，若干同义词会抢答案) | L7:注意(军事住宿；低龄可能不常见) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- bastion | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bastion / central / grave / principal; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- batter | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:batter / cairn / caldron / cuisine; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- bedlam | L5-Def:勉强(可能卡在:confusion) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bedlam / clatter / daze / din; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- belfry | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:belfry / central / interior / mechanical; 线索少(只有:bell)，若干同义词会抢答案) | L7:注意(教堂钟楼；文化背景重) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- berth | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出berth) | L6:勉强(opts:abode / berth / corsair / cuisine; 线索少(只有:train)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- billow | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / babble / billow / bulge; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- bistro | L5-Def:勉强(可能卡在:restaurant) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:alcove / bistro / claustrophobia / cranny; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- bivouac | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:anagram / arbiter / bivouac / carafe; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- blazon | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / babble / badger / blazon; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- blotch | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:acacia / alcove / amulet / blotch; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- boggle | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:assail / babble / badger / boggle; 线索少(只有:mind)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- boon | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ajar / akin / boon / favorable; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- boulder | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:barnacle / boulder / caldron / cleft; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- brawn | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ardor / brawn / cinch / ditto; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- breadth | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amiable / angular / breadth / horizontal; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- brim | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:ajar / akin / apex / brim; 线索少(只有:cup)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- broach | L5-Def:勉强(可能卡在:discussion) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / babble / badger / broach; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- brooch | L5-Def:勉强(可能卡在:decorative) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:acacia / alcove / amulet / brooch; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- buccaneer | L5-Def:勉强(可能卡在:especially) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:buccaneer / conduit / consort / corsair; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(海盗暴力/掠夺背景；低龄可用 pirate) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- buffet | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:abode / alcove / buffet / denture; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- buggy | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bistro / buggy / claustrophobia / cranny; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- bulge | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amble / atone / billow / bulge; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- buoyancy | L5-Def:勉强(可能卡在:ability) | L5-Ex:勉强(语境线索较强:float,water) | L6:能(opts:adrift / ambrosia / apparent / buoyancy; 线索词:float,water) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- burgeon | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:babble / burgeon / devour / skim; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- bustle | L5-Def:勉强(可能卡在:activity) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adrift / alpine / aright / bustle; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- buttress | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出buttress) | L6:能(opts:alcove / barnacle / buttress / citadel; 线索词:stone,wall) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- cache | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:abode / cache / commode / cupboard; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- cairn | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:batter / cairn / caldron / decibel; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- caldron | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:batter / boulder / caldron / cuisine; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(witch 场景；可保留但注意低龄) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- canter | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出canter) | L6:勉强(opts:acacia / alcove / buggy / canter; 线索少(只有:horse)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- capsize | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:afflict / capsize / char / dehydrate; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- capsule | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bistro / capsule / claustrophobia / cranny; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- carafe | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bivouac / cairn / carafe / decanter; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- chaplain | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出chaplain) | L6:勉强(opts:barnacle / buttress / chaplain / colander; 线索少(只有:hospital)，若干同义词会抢答案) | L7:注意(宗教职务；中国孩子可能陌生) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- char | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:capsize / char / coil / irritate; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- cherub | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出cherub) | L6:勉强(opts:bistro / cherub / claustrophobia / cranny; 线索少(只有:wing)，若干同义词会抢答案) | L7:注意(宗教天使意象；陌生) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- cinch | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apparent / bane / cinch / portable; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- citadel | L5-Def:勉强(可能卡在:city) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bamboo / citadel / compulsion / cyclone; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- clad | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ajar / akin / clad / naked; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- clatter | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bedlam / clatter / decibel / din; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- claustrophobia | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:alcove / bistro / claustrophobia / cranny; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- cleave | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / cleave / collide / dissect; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- cleft | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:boulder / cleft / cranny / crypt; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- clench | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:assail / babble / badger / clench; 线索少(只有:fist)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- cobalt | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出cobalt) | L6:勉强(opts:caldron / cobalt / compulsion / cornet; 线索少(只有:blue)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- coil | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:char / coil / edit / flee; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- colander | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出colander) | L6:能(opts:cairn / caldron / colander / cupboard; 线索词:drain,water) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- collide | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:afflict / assail / cleave / collide; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- colonnade | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出colonnade) | L6:勉强(opts:atrium / capsule / colonnade / decanter; 线索少(只有:column)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- commode | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出commode) | L6:勉强(opts:anagram / cache / commode / cupboard; 线索少(只有:stor)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- compulsion | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bamboo / citadel / compulsion / cyclone; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- condiment | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:能(opts:alms / ambrosia / barbecue / condiment; 线索词:ketchup,mustard) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- conduit | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出conduit) | L6:能(opts:atoll / buccaneer / colander / conduit; 线索词:carri,water) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- confide | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:afflict / confide / cringe / divulge; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- conifer | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出conifer) | L6:勉强(opts:acacia / anagram / arbiter / conifer; 线索少(只有:all)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- consort | L5-Def:勉强(可能卡在:especially) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出consort) | L6:勉强(opts:anagram / arbiter / buccaneer / consort; 线索少(只有:queen)，若干同义词会抢答案) | L7:注意(王室配偶含义可能引发不必要联想；更适合高年级) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- contour | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:amiable / angular / bastion / contour; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- convoy | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:acacia / alcove / amulet / convoy; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(军事/灾害运送语境偏硬) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- cornet | L5-Def:勉强(可能卡在:instrument) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出cornet) | L6:勉强(opts:bistro / cobalt / cornet / cranny; 线索少(只有:shiny)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- corona | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出corona) | L6:能(opts:atoll / awning / buggy / corona; 线索词:around,moon) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- corsair | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出corsair) | L6:勉强(opts:barnacle / berth / buccaneer / corsair; 线索少(只有:ship)，若干同义词会抢答案) | L7:注意(海盗/私掠船；过于冷僻) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- cosmos | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adrift / alpine / aright / cosmos; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- countenance | L5-Def:勉强(可能卡在:expression) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apprentice / arbiter / baroque / countenance; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- cranny | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bistro / claustrophobia / cleft / cranny; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- cringe | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:assail / confide / cringe / flee; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- crock | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:abode / acacia / caldron / crock; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- crone | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adage / cherub / crone / crypt; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(老巫婆刻板形象；可用 old woman) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- crouton | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出crouton) | L6:勉强(opts:barley / bistro / cranny / crouton; 线索少(只有:salad)，若干同义词会抢答案) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- crux | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apex / crux / grave / principal; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- crypt | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出crypt) | L6:能(opts:alcove / cleft / crone / crypt; 线索词:beneath,church) | L7:注意(教堂地下墓室+宗教；容易偏暗/敏感) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- cuisine | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:abode / aura / baroque / cuisine; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- cupboard | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:cache / cairn / commode / cupboard; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- curfew | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:acacia / alcove / buffet / curfew; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- cursory | L5-Def:勉强(可能卡在:attention) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:careless / cursory / naked / precise; 易和quick互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- curtsy | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:acacia / alcove / amulet / curtsy; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- cyclone | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bamboo / citadel / compulsion / cyclone; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- dale | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:aura / barge / dale / daze; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- dapper | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adrift / alpine / aright / dapper; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- dapple | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:adrift / alpine / aright / dapple; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- daze | L5-Def:勉强(可能卡在:confusion) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:aura / bedlam / dale / daze; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- decanter | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出decanter) | L6:能(opts:cairn / carafe / colonnade / decanter; 线索词:glas,pour) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- decibel | L5-Def:能(definition句子短、词简单) | L5-Ex:勉强(能猜大意(物/地/人)，但未必能说出decibel) | L6:能(opts:cairn / clatter / decibel / din; 线索词:loud,noise) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- deft | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:deft / favorable / inferior / radical; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- dehydrate | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:calculate / capsize / dehydrate / translate; 线索少(只有:water)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- denture | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:alcove / anagram / buffet / denture; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- devour | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:babble / badger / burgeon / devour; 线索少(只有:hungry)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- dime | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bistro / claustrophobia / cranny / dime; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:注意(美国硬币单位；中国孩子不熟) | L8:偏难(文化/背景依赖强；如保留建议更中性例句+配图)
+- din | L5-Def:勉强(可能卡在:unpleasant) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:bedlam / clatter / decibel / din; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- dishevel | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:decrease / dishevel / irritate / persuade; 线索少(只有:hair)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- disrepute | L5-Def:勉强(可能卡在:reputation) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:apprentice / buccaneer / colonnade / disrepute; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(可作为拓展认识词，但不建议当核心拼写/输出词)
+- dissect | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:afflict / amplify / cleave / dissect; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- distraught | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:antiquated / artificial / casual / distraught; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:不合适(词形长/抽象；更适合更高level先学基础词)
+- ditto | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:ardor / ditto / proper / reckless; 易和same互换；需要更强区分线索(更具体的对象/动作)) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- divulge | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:不能(opts:afflict / amplify / confide / divulge; 缺少可抓的提示词；换成更具体的对象/动作会更好) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
+- nautical | L5-Def:能(definition句子短、词简单) | L5-Ex:不能(低频/抽象词：看懂句子也难从语境“想出词”) | L6:勉强(opts:gracious / nautical / official / regional; 线索少(只有:ship)，若干同义词会抢答案) | L7:OK | L8:偏难(概念抽象，建议后置或降低为口头认识)
