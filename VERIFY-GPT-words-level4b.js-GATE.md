@@ -1,316 +1,318 @@
-# VERIFY-GPT — words-level4b.js (L5–L8)
+# VERIFY-GPT-words-level4b.js-GATE
 
-模拟：10岁中国ESL孩子（MAP≈197，约2年级）。逐词四层审校：L5理解度；L6反向4选1唯一性；L7文化敏感；L8学习路径/先修。
+范围：words-level4b.js（逐词不跳过）
 
-|#|Word|L5(def)|L5(ex→word)|L6 反向测试(4选1)|L7|L8|
-|---:|---|---|---|---|---|---|
-|1|infant|OK：定义直白|勉强：例句具体，但要靠情境推断|{infant,peak,scenario,successor}→唯一|OK|OK：可作为可学词|
-|2|inflation|OK：定义直白|勉强：例句具体，但要靠情境推断|{inflation,plantation,sector,perturbation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|3|initiative|OK：定义直白|勉强：例句具体，但要靠情境推断|{initiative,procedure,stability,threat}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|4|insight|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{insight,poll,retail,paragon}→唯一|OK|OK：可作为可学词|
-|5|install|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{install,orient,retrieve,refurbish}→唯一|OK|OK：可作为可学词|
-|6|integrity|OK：定义直白|勉强：例句具体，但要靠情境推断|{integrity,reaction,simultaneous,plethora}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|7|intellect|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{intellect,stability,statute,transition}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|8|intercept|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{intercept,overlap,rotate,transmit}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|9|interfere|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{interfere,refer,somewhat,proselytize}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|10|intimidate|OK：定义直白|勉强：例句具体，但要靠情境推断|{intimidate,overwhelm,surrender,reverberate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|11|intricate|OK：定义直白|勉强：例句具体，但要靠情境推断|{intricate,robust,subsequent,ostracism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|12|introduction|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{introduction,peak,scenario,ultimate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|13|investment|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{investment,primarily,substance,therapy}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|14|irrigate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{irrigate,plead,reverberate,rescind}→唯一|OK|OK：可作为可学词|
-|15|labor|OK：定义直白|勉强：例句具体，但要靠情境推断|{labor,subsequent,siege,timber}→唯一|OK|OK：可作为可学词|
-|16|landscape|OK：定义直白|勉强：例句具体，但要靠情境推断|{landscape,scenario,significance,platitude}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|17|liberate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{liberate,pollute,summarize,reiterate}→唯一|OK|OK：可作为可学词|
-|18|literacy|OK：定义直白|勉强：例句具体，但要靠情境推断|{literacy,stability,statute,transition}→唯一|OK|OK：可作为可学词|
-|19|margin|OK：定义直白|勉强：例句具体，但要靠情境推断|{margin,precaution,stereotype,oration}→唯一|OK|OK：可作为可学词|
-|20|mechanism|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{mechanism,significance,platitude,qualm}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|21|media|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{media,simultaneous,sovereign,turbulent}→唯一|OK|OK：可作为可学词|
-|22|medieval|OK：定义直白|勉强：例句具体，但要靠情境推断|{medieval,robust,subsequent,ostracism}→唯一|注意：暴力/武器|OK：可作为可学词|
-|23|memorize|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{memorize,relay,speculate,procrastinate}→不唯一：线索偏少|OK|OK：可作为可学词|
-|24|menace|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{menace,primarily,substance,palatable}→唯一|OK|OK：可作为可学词|
-|25|merit|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{merit,procedure,stability,panacea}→唯一|OK|OK：可作为可学词|
-|26|metabolism|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{metabolism,quota,twilight,paragon}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|27|mimic|OK：定义直白|勉强：例句具体，但要靠情境推断|{mimic,replicate,procrastinate,refurbish}→唯一|OK|OK：可作为可学词|
-|28|minimal|OK：定义直白|勉强：例句具体，但要靠情境推断|{minimal,sector,statistic,opacity}→唯一|OK|OK：可作为可学词|
-|29|ministry|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{ministry,stability,statute,pedagogue}→唯一|OK|OK：可作为可学词|
-|30|momentum|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{momentum,reception,stereotype,oration}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|31|monarch|OK：定义直白|勉强：例句具体，但要靠情境推断|{monarch,significance,platitude,qualm}→唯一|OK|OK：可作为可学词|
-|32|monopoly|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{monopoly,simultaneous,subordinate,ostensible}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|33|municipal|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{municipal,robust,subsequent,ostracism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|34|narrative|OK：定义直白|勉强：例句具体，但要靠情境推断|{narrative,stereotype,tenant,overture}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|35|nitrogen|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{nitrogen,sanction,terminal,perturbation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|36|nominate|OK：定义直白|勉强：例句具体，但要靠情境推断|{nominate,renovate,reverberate,rescind}→不唯一：线索偏少|注意：政治|OK：可作为可学词|
-|37|norm|OK：定义直白|勉强：例句具体，但要靠情境推断|{norm,spectrum,twilight,paragon}→唯一|OK|OK：可作为可学词|
-|38|nuclear|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{nuclear,subsidy,texture,paradoxical}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|39|oblige|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{oblige,resign,summarize,reiterate}→唯一|OK|OK：可作为可学词|
-|40|offend|OK：定义直白|OK：线索充足|{offend,restrain,rescind,relegate}→不唯一：线索偏少|OK|OK：可作为可学词|
-|41|oppress|OK：定义直白|勉强：例句具体，但要靠情境推断|{oppress,stagger,obviate,proscribe}→唯一|OK|OK：可作为可学词|
-|42|orient|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{orient,retrieve,refurbish,proselytize}→唯一|OK|OK：可作为可学词|
-|43|output|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{output,statistic,transaction,penitence}→唯一|OK|OK：可作为可学词|
-|44|outrage|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{outrage,robust,synthetic,penultimate}→唯一|OK|OK：可作为可学词|
-|45|overlap|OK：定义直白|勉强：例句具体，但要靠情境推断|{overlap,rotate,transmit,procrastinate}→唯一|OK|OK：可作为可学词|
-|46|overseas|OK：定义直白|勉强：例句具体，但要靠情境推断|{overseas,surplus,trigger,precipitous}→唯一|OK|OK：可作为可学词|
-|47|overwhelm|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{overwhelm,surrender,reverberate,rescind}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|48|patron|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{patron,spectrum,twilight,predilection}→唯一|OK|OK：可作为可学词|
-|49|peak|OK：定义直白|勉强：例句具体，但要靠情境推断|{peak,scenario,ultimate,platitude}→唯一|OK|OK：可作为可学词|
-|50|plantation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{plantation,sector,perturbation,preponderance}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|51|plead|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{plead,reverberate,rescind,relegate}→不唯一：线索偏少|OK|OK：可作为可学词|
-|52|poll|OK：定义直白|勉强：例句具体，但要靠情境推断|{poll,twilight,paragon,polemic}→唯一|OK|OK：可作为可学词|
-|53|pollinate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{pollinate,procrastinate,refurbish,proselytize}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|54|pollute|OK：定义直白|勉强：例句具体，但要靠情境推断|{pollute,summarize,reiterate,reverberate}→唯一|OK|OK：可作为可学词|
-|55|populate|OK：定义直白|勉强：例句具体，但要靠情境推断|{populate,rescind,relegate,venerate}→唯一|OK|OK：可作为可学词|
-|56|precaution|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{precaution,stereotype,oration,reclamation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|57|preliminary|OK：定义直白|勉强：例句具体，但要靠情境推断|{preliminary,surplus,trigger,precipitous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|58|premise|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{premise,transaction,penitence,precursor}→唯一|OK|OK：可作为可学词|
-|59|preside|OK：定义直白|勉强：例句具体，但要靠情境推断|{preside,relegate,venerate,prognosticate}→唯一|注意：政治|OK：可作为可学词|
-|60|prevalent|OK：定义直白|勉强：例句具体，但要靠情境推断|{prevalent,subsidy,pernicious,preeminent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|61|primarily|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{primarily,substance,palatable,propitious}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|62|procedure|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{procedure,stability,panacea,presentiment}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|63|quota|OK：定义直白|勉强：例句具体，但要靠情境推断|{quota,twilight,paragon,quagmire}→唯一|OK|OK：可作为可学词|
-|64|rational|OK：定义直白|勉强：例句具体，但要靠情境推断|{rational,stake,onerous,primordial}→唯一|OK|OK：可作为可学词|
-|65|reaction|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reaction,therapy,plethora,probity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|66|recede|OK：定义直白|勉强：例句具体，但要靠情境推断|{recede,rescind,relegate,venerate}→唯一|OK|OK：可作为可学词|
-|67|reception|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reception,stereotype,oration,reclamation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|68|refer|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{refer,stimulate,proselytize,memorize}→唯一|OK|OK：可作为可学词|
-|69|refuge|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{refuge,transaction,penitence,redress}→唯一|OK|OK：可作为可学词|
-|70|regime|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{regime,transition,proclivity,redundancy}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|71|relay|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{relay,transmit,procrastinate,refurbish}→不唯一：线索偏少|OK|OK：可作为可学词|
-|72|render|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{render,proselytize,memorize,reiterate}→唯一|OK|OK：可作为可学词|
-|73|renovate|OK：定义直白|勉强：例句具体，但要靠情境推断|{renovate,reverberate,rescind,relegate}→不唯一：线索偏少|OK|OK：可作为可学词|
-|74|repeal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{repeal,testify,prognosticate,proscribe}→唯一|OK|OK：可作为可学词|
-|75|replicate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{replicate,procrastinate,refurbish,proselytize}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|76|resign|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{resign,summarize,reiterate,reverberate}→唯一|OK|OK：可作为可学词|
-|77|restrain|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{restrain,rescind,relegate,venerate}→唯一|OK|OK：可作为可学词|
-|78|retail|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{retail,paragon,polemic,reclamation}→唯一|OK|OK：可作为可学词|
-|79|retrieve|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{retrieve,refurbish,proselytize,memorize}→唯一|OK|OK：可作为可学词|
-|80|revolve|OK：定义直白|勉强：例句具体，但要靠情境推断|{revolve,surrender,reverberate,rescind}→唯一|OK|OK：可作为可学词|
-|81|robust|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{robust,synthetic,penultimate,pugnacious}→唯一|OK|OK：可作为可学词|
-|82|rotate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{rotate,transmit,procrastinate,refurbish}→唯一|OK|OK：可作为可学词|
-|83|sanction|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{sanction,terminal,perturbation,torpor}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|84|satellite|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{satellite,terrain,precursor,rapprochement}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|85|saturate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{saturate,testify,prognosticate,remonstrate}→唯一|OK|OK：可作为可学词|
-|86|scenario|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{scenario,ultimate,platitude,qualm}→唯一|OK|OK：可作为可学词|
-|87|sector|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{sector,perturbation,preponderance,quandary}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|88|senate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{senate,obstinate,poignant,quarrelsome}→唯一|OK|OK：可作为可学词|
-|89|siege|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{siege,timber,presumptuous,querulous}→唯一|OK|OK：可作为可学词|
-|90|significance|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{significance,platitude,qualm,reconciliation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|91|simultaneous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{simultaneous,plethora,portentous,quixotic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|92|skeptical|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{skeptical,opulence,pragmatism,rambunctious}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|93|solemn|OK：定义直白|勉强：例句具体，但要靠情境推断|{solemn,pedantic,precarious,rancor}→唯一|OK|OK：可作为可学词|
-|94|somewhat|勉强：句子稍长/词偏长|OK：线索充足|{somewhat,proselytize,memorize,reiterate}→唯一|OK|OK：可作为可学词|
-|95|sovereign|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{sovereign,turbulent,profligate,reticence}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|96|spectrum|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{spectrum,twilight,predilection,rationale}→唯一|OK|OK：可作为可学词|
-|97|speculate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{speculate,procrastinate,refurbish,recapitulate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|98|sphere|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{sphere,perturbation,preponderance,recidivism}→唯一|OK|OK：可作为可学词|
-|99|stability|OK：定义直白|勉强：例句具体，但要靠情境推断|{stability,panacea,presentiment,rigmarole}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|100|stagger|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{stagger,obviate,proscribe,ruminate}→唯一|OK|OK：可作为可学词|
-|101|stake|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{stake,onerous,primordial,sacrosanct}→唯一|OK|OK：可作为可学词|
-|102|statistic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{statistic,opacity,quandary,redress}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|103|statute|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{statute,pedagogue,proclivity,redundancy}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|104|stereotype|OK：定义直白|勉强：例句具体，但要靠情境推断|{stereotype,oration,reclamation,subterfuge}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|105|stimulate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{stimulate,proselytize,memorize,reiterate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|106|subordinate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{subordinate,ostensible,profligate,reticence}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|107|subsequent|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{subsequent,ostracism,pugnacious,retrospective}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|108|subsidy|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|OK：线索充足|{subsidy,pernicious,promulgation,renunciation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|109|substance|OK：定义直白|勉强：例句具体，但要靠情境推断|{substance,palatable,propitious,reparation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|110|substantial|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{substantial,petulance,proprietary,reprehensible}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|111|subtle|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{subtle,placid,retrospective,servile}→唯一|OK|OK：可作为可学词|
-|112|successor|OK：定义直白|勉强：例句具体，但要靠情境推断|{successor,platitude,qualm,requisition}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|113|summarize|OK：定义直白|勉强：例句具体，但要靠情境推断|{summarize,reiterate,reverberate,rescind}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|114|superb|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{superb,poignant,quarrelsome,salient}→唯一|OK|OK：可作为可学词|
-|115|supreme|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{supreme,pedantic,provisional,resolute}→唯一|OK|OK：可作为可学词|
-|116|surplus|OK：定义直白|勉强：例句具体，但要靠情境推断|{surplus,pejorative,prowess,resurgent}→唯一|OK|OK：可作为可学词|
-|117|surrender|OK：定义直白|勉强：例句具体，但要靠情境推断|{surrender,reverberate,rescind,liberate}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|118|synthetic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{synthetic,penultimate,pugnacious,retrospective}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|119|tenant|勉强：句子稍长/词偏长|OK：线索充足|{tenant,reclamation,subterfuge,stipend}→唯一|OK|OK：可作为可学词|
-|120|terminal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{terminal,perturbation,torpor,semblance}→不唯一：线索偏少|OK|OK：可作为可学词|
-|121|terrain|OK：定义直白|勉强：例句具体，但要靠情境推断|{terrain,precursor,rapprochement,rigmarole}→唯一|OK|OK：可作为可学词|
-|122|testify|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{testify,prognosticate,remonstrate,ruminate}→唯一|OK|OK：可作为可学词|
-|123|texture|OK：定义直白|勉强：例句具体，但要靠情境推断|{texture,preeminent,renunciation,sacrosanct}→唯一|OK|OK：可作为可学词|
-|124|therapy|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{therapy,plethora,reparation,sagacious}→唯一|OK|OK：可作为可学词|
-|125|threat|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{threat,presentiment,rigmarole,initiative}→唯一|OK|OK：可作为可学词|
-|126|timber|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{timber,presumptuous,querulous,sanguine}→唯一|OK|OK：可作为可学词|
-|127|toxic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{toxic,ponderous,quintessential,sardonic}→唯一|OK|OK：可作为可学词|
-|128|transaction|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{transaction,quandary,redress,symbiosis}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|129|transition|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{transition,proclivity,redundancy,stagnation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|130|transmit|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{transmit,procrastinate,refurbish,intercept}→唯一|OK|OK：可作为可学词|
-|131|trigger|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{trigger,precipitous,rapacious,stringent}→唯一|OK|OK：可作为可学词|
-|132|turbulent|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{turbulent,profligate,reticence,serendipity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|133|twilight|OK：定义直白|勉强：例句具体，但要靠情境推断|{twilight,predilection,rationale,tenacity}→唯一|OK|OK：可作为可学词|
-|134|ultimate|OK：定义直白|勉强：例句具体，但要靠情境推断|{ultimate,subterfuge,stipend,simultaneity}→唯一|OK|OK：可作为可学词|
-|135|undermine|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{undermine,reiterate,reverberate,refer}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|136|obstinate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{obstinate,proprietary,reciprocity,solicitous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|137|obviate|OK：定义直白|勉强：例句具体，但要靠情境推断|{obviate,proscribe,ruminate,preside}→唯一|OK|OK：可作为可学词|
-|138|onerous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{onerous,primordial,sacrosanct,spurious}→唯一|OK|OK：可作为可学词|
-|139|opacity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{opacity,quandary,redress,symbiosis}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|140|opulence|OK：定义直白|勉强：例句具体，但要靠情境推断|{opulence,quarrelsome,salient,tangential}→唯一|OK|OK：可作为可学词|
-|141|oration|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{oration,reclamation,subterfuge,stipend}→唯一|注意：政治|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|142|oscillation|OK：定义直白|勉强：例句具体，但要靠情境推断|{oscillation,prodigious,resurgent,stringent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|143|ostensible|勉强：句子稍长/词偏长|OK：线索充足|{ostensible,profligate,reticence,subjugation}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|144|ostracism|OK：定义直白|勉强：例句具体，但要靠情境推断|{ostracism,pugnacious,retrospective,subliminal}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|145|overture|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{overture,subterfuge,stipend,tenet}→唯一|OK|OK：可作为可学词|
-|146|palatable|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{palatable,propitious,reparation,subservient}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|147|panacea|OK：定义直白|勉强：例句具体，但要靠情境推断|{panacea,rapprochement,rigmarole,initiative}→唯一|OK|OK：可作为可学词|
-|148|paragon|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{paragon,quagmire,repudiation,subterfuge}→唯一|OK|OK：可作为可学词|
-|149|paradoxical|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{paradoxical,renunciation,sacrosanct,succinct}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|150|paucity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{paucity,quandary,underpinning,symbiosis}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|151|pedagogue|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{pedagogue,provenance,resignation,antithesis}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|152|pedantic|OK：定义直白|勉强：例句具体，但要靠情境推断|{pedantic,provisional,resolute,tantamount}→唯一|OK|OK：可作为可学词|
-|153|pejorative|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{pejorative,prowess,resurgent,temerity}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|154|penitence|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{penitence,redress,symbiosis,ubiquity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|155|penultimate|OK：定义直白|勉强：例句具体，但要靠情境推断|{penultimate,pugnacious,retrospective,veracious}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|156|pernicious|OK：定义直白|勉强：例句具体，但要靠情境推断|{pernicious,pulchritude,revelry,unctuous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|157|perturbation|OK：定义直白|勉强：例句具体，但要靠情境推断|{perturbation,torpor,semblance,underpinning}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|158|petulance|OK：定义直白|勉强：例句具体，但要靠情境推断|{petulance,punitive,serendipity,terse}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|159|placid|OK：定义直白|勉强：例句具体，但要靠情境推断|{placid,retrospective,servile,unscrupulous}→唯一|OK|OK：可作为可学词|
-|160|platitude|OK：定义直白|勉强：例句具体，但要靠情境推断|{platitude,qualm,simultaneity,torpor}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|161|plethora|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{plethora,reparation,sagacious,tractable}→唯一|OK|OK：可作为可学词|
-|162|poignant|OK：定义直白|勉强：例句具体，但要靠情境推断|{poignant,quarrelsome,salient,transient}→唯一|OK|OK：可作为可学词|
-|163|polemic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{polemic,reclamation,subterfuge,trepidation}→唯一|OK|OK：可作为可学词|
-|164|ponderous|OK：定义直白|勉强：例句具体，但要靠情境推断|{ponderous,quintessential,sardonic,truculent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|165|portentous|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{portentous,quixotic,scrupulous,wanton}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|166|pragmatism|OK：定义直白|不能：线索少/过泛，容易多解|{pragmatism,rambunctious,tangential,veracious}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|167|precarious|OK：定义直白|勉强：例句具体，但要靠情境推断|{precarious,rancor,sedentary,unctuous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|168|precipitous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{precipitous,rapacious,stringent,investment}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|169|precursor|OK：定义直白|勉强：例句具体，但要靠情境推断|{precursor,rapprochement,ubiquity,initiative}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|170|predilection|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{predilection,rationale,tenacity,insight}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|171|preeminent|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{preeminent,renunciation,subordination,usurpation}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|172|preponderance|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{preponderance,recidivism,underpinning,minimal}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|173|presentiment|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{presentiment,rigmarole,initiative,antithesis}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|174|presumptuous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{presumptuous,servile,soporific,vapid}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|175|primordial|OK：定义直白|勉强：例句具体，但要靠情境推断|{primordial,sacrosanct,spurious,vehemence}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|176|probity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{probity,sagacious,squalid,wanton}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|177|proclivity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{proclivity,redundancy,stagnation,stability}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|178|procrastinate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{procrastinate,refurbish,intercept,memorize}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|179|prodigious|OK：定义直白|勉强：例句具体，但要靠情境推断|{prodigious,resurgent,stringent,investment}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|180|profligate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{profligate,reticence,subjugation,vilification}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|181|prognosticate|OK：定义直白|勉强：例句具体，但要靠情境推断|{prognosticate,remonstrate,populate,preside}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|182|promulgation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{promulgation,renunciation,subordination,virtuosity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|183|propitious|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{propitious,reparation,subservient,vitriolic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|184|proprietary|OK：定义直白|勉强：例句具体，但要靠情境推断|{proprietary,reprehensible,substantiation,vociferous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|185|proscribe|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{proscribe,ruminate,preside,intercept}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|186|proselytize|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{proselytize,memorize,install,interfere}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|187|protracted|OK：定义直白|勉强：例句具体，但要靠情境推断|{protracted,sagacious,tractable,wanton}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|188|provenance|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{provenance,resignation,antithesis,stability}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|189|provisional|OK：定义直白|勉强：例句具体，但要靠情境推断|{provisional,resolute,tantamount,siege}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|190|prowess|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{prowess,resurgent,temerity,investment}→唯一|OK|OK：可作为可学词|
-|191|prudence|OK：定义直白|勉强：例句具体，但要靠情境推断|{prudence,reticence,temperance,abnegation}→唯一|OK|OK：可作为可学词|
-|192|pugnacious|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{pugnacious,retrospective,veracious,acerbic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|193|pulchritude|OK：定义直白|勉强：例句具体，但要靠情境推断|{pulchritude,revelry,unctuous,anachronism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|194|punctilious|OK：定义直白|勉强：例句具体，但要靠情境推断|{punctilious,stringent,tepid,anathema}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|195|punitive|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{punitive,serendipity,terse,sovereign}→唯一|OK|OK：可作为可学词|
-|196|quagmire|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{quagmire,tenacity,tirade,margin}→唯一|OK|OK：可作为可学词|
-|197|qualm|勉强：句子稍长/词偏长|OK：线索充足|{qualm,simultaneity,torpor,calumny}→不唯一：线索偏少|OK|OK：可作为可学词|
-|198|quandary|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{quandary,underpinning,minimal,chicanery}→不唯一：线索偏少|OK|OK：可作为可学词|
-|199|quarrelsome|OK：定义直白|勉强：例句具体，但要靠情境推断|{quarrelsome,salient,transient,contumacious}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|200|querulous|OK：定义直白|勉强：例句具体，但要靠情境推断|{querulous,sanguine,vapid,siege}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|201|quintessential|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{quintessential,sardonic,truculent,investment}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|202|quixotic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{quixotic,scrupulous,wanton,simultaneous}→唯一|OK|OK：可作为可学词|
-|203|rambunctious|OK：定义直白|勉强：例句具体，但要靠情境推断|{rambunctious,tangential,veracious,labor}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|204|rancor|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{rancor,sedentary,unctuous,nuclear}→唯一|OK|OK：可作为可学词|
-|205|rapacious|OK：定义直白|勉强：例句具体，但要靠情境推断|{rapacious,stringent,investment,integrity}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|206|rapprochement|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|OK：线索充足|{rapprochement,ubiquity,initiative,intellect}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|207|rationale|OK：定义直白|勉强：例句具体，但要靠情境推断|{rationale,tenacity,insight,margin}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|208|recapitulate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{recapitulate,memorize,install,interfere}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|209|recidivism|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{recidivism,underpinning,minimal,output}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|210|reciprocity|OK：定义直白|勉强：例句具体，但要靠情境推断|{reciprocity,solicitous,vociferous,intricate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|211|reclamation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reclamation,subterfuge,volition,introduction}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|212|reconciliation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reconciliation,torpor,waiver,nitrogen}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|213|redress|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|不能：线索少/过泛，容易多解|{redress,symbiosis,chicanery,merit}→不唯一：线索偏少|OK|OK：可作为可学词|
-|214|redundancy|OK：定义直白|勉强：例句具体，但要靠情境推断|{redundancy,stagnation,stability,metabolism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|215|refurbish|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{refurbish,intercept,memorize,mimic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|216|reiterate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reiterate,interfere,refer,liberate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|217|relegate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{relegate,venerate,irrigate,offend}→唯一|OK|OK：可作为可学词|
-|218|remonstrate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{remonstrate,populate,preside,oppress}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|219|renunciation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|不能：线索少/过泛，容易多解|{renunciation,subordination,virtuosity,rational}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|220|reparation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{reparation,subservient,vitriolic,media}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|221|reprehensible|OK：定义直白|勉强：例句具体，但要靠情境推断|{reprehensible,substantiation,vociferous,medieval}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|222|repudiation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{repudiation,subterfuge,volition,narrative}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|223|requisition|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{requisition,torpor,waiver,nitrogen}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|224|rescind|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{rescind,liberate,intimidate,nominate}→唯一|OK|OK：可作为可学词|
-|225|resignation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{resignation,antithesis,stability,metabolism}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|226|resolute|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{resolute,tantamount,siege,nuclear}→唯一|OK|OK：可作为可学词|
-|227|resurgent|OK：定义直白|勉强：例句具体，但要靠情境推断|{resurgent,temerity,investment,primarily}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|228|reticence|OK：定义直白|勉强：例句具体，但要靠情境推断|{reticence,temperance,abnegation,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|229|retrospective|OK：定义直白|勉强：例句具体，但要靠情境推断|{retrospective,veracious,acerbic,subsequent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|230|revelry|OK：定义直白|勉强：例句具体，但要靠情境推断|{revelry,unctuous,anachronism,rational}→唯一|OK|OK：可作为可学词|
-|231|reverberate|OK：定义直白|勉强：例句具体，但要靠情境推断|{reverberate,refer,liberate,pollute}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|232|rigmarole|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{rigmarole,initiative,antithesis,stability}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|233|ruminate|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{ruminate,preside,intercept,overlap}→不唯一：线索偏少|OK|OK：可作为可学词|
-|234|sacrosanct|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{sacrosanct,usurpation,rational,overseas}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|235|sagacious|OK：定义直白|勉强：例句具体，但要靠情境推断|{sagacious,tractable,media,simultaneous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|236|salient|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{salient,transient,contumacious,robust}→唯一|OK|OK：可作为可学词|
-|237|sanguine|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{sanguine,vapid,siege,nuclear}→唯一|OK|OK：可作为可学词|
-|238|sardonic|OK：定义直白|勉强：例句具体，但要靠情境推断|{sardonic,truculent,investment,primarily}→唯一|OK|OK：可作为可学词|
-|239|scrupulous|OK：定义直白|勉强：例句具体，但要靠情境推断|{scrupulous,wanton,simultaneous,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|240|scrutinize|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{scrutinize,populate,preside,oppress}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|241|sedentary|OK：定义直白|勉强：例句具体，但要靠情境推断|{sedentary,unctuous,nuclear,rational}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|242|semblance|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{semblance,underpinning,minimal,output}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|243|serendipity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{serendipity,unequivocal,sovereign,outrage}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|244|servile|OK：定义直白|勉强：例句具体，但要靠情境推断|{servile,unscrupulous,subsequent,siege}→唯一|OK|OK：可作为可学词|
-|245|simultaneity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{simultaneity,landscape,mechanism,significance}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|246|solace|OK：定义直白|勉强：例句具体，但要靠情境推断|{solace,utilitarian,media,simultaneous}→唯一|OK|OK：可作为可学词|
-|247|solicitous|OK：定义直白|勉强：例句具体，但要靠情境推断|{solicitous,vociferous,intricate,robust}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|248|soporific|OK：定义直白|勉强：例句具体，但要靠情境推断|{soporific,vapid,siege,prevalent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|249|spurious|OK：定义直白|勉强：例句具体，但要靠情境推断|{spurious,vehemence,investment,primarily}→唯一|OK|OK：可作为可学词|
-|250|squalid|OK：定义直白|勉强：例句具体，但要靠情境推断|{squalid,wanton,simultaneous,sovereign}→唯一|OK|OK：可作为可学词|
-|251|stagnation|OK：定义直白|勉强：例句具体，但要靠情境推断|{stagnation,stability,metabolism,poll}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|252|stipend|OK：定义直白|勉强：例句具体，但要靠情境推断|{stipend,wherewithal,landscape,scenario}→唯一|OK|OK：可作为可学词|
-|253|stringent|OK：定义直白|勉强：例句具体，但要靠情境推断|{stringent,investment,primarily,reaction}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|254|subjugation|OK：定义直白|勉强：例句具体，但要靠情境推断|{subjugation,vilification,sovereign,senate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|255|subliminal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{subliminal,vindictive,subsequent,siege}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|256|subordination|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{subordination,virtuosity,rational,preliminary}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|257|subservient|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{subservient,vitriolic,media,simultaneous}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|258|substantiation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{substantiation,vociferous,medieval,robust}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|259|subterfuge|OK：定义直白|勉强：例句具体，但要靠情境推断|{subterfuge,volition,narrative,stereotype}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|260|succinct|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{succinct,rational,menace,primarily}→不唯一：线索偏少|OK|OK：可作为可学词|
-|261|symbiosis|勉强：句子稍长/词偏长|OK：线索充足|{symbiosis,chicanery,merit,procedure}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|262|tangential|OK：定义直白|勉强：例句具体，但要靠情境推断|{tangential,warranted,robust,subsequent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|263|tantamount|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{tantamount,siege,nuclear,rational}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|264|temerity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{temerity,investment,primarily,reaction}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|265|temperance|OK：定义直白|勉强：例句具体，但要靠情境推断|{temperance,abnegation,sovereign,senate}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|266|tenacity|OK：定义直白|勉强：例句具体，但要靠情境推断|{tenacity,insight,momentum,reception}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|267|tenet|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{tenet,landscape,monarch,significance}→唯一|OK|OK：可作为可学词|
-|268|tepid|OK：定义直白|勉强：例句具体，但要靠情境推断|{tepid,anathema,monopoly,simultaneous}→唯一|OK|OK：可作为可学词|
-|269|terse|OK：定义直白|勉强：例句具体，但要靠情境推断|{terse,sovereign,municipal,robust}→唯一|OK|OK：可作为可学词|
-|270|tirade|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{tirade,margin,narrative,stereotype}→唯一|OK|OK：可作为可学词|
-|271|torpor|OK：定义直白|勉强：例句具体，但要靠情境推断|{torpor,calumny,nitrogen,sanction}→唯一|OK|OK：可作为可学词|
-|272|tractable|OK：定义直白|勉强：例句具体，但要靠情境推断|{tractable,media,simultaneous,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|273|transient|OK：定义直白|勉强：例句具体，但要靠情境推断|{transient,contumacious,robust,subsequent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|274|trepidation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{trepidation,infant,peak,scenario}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|275|truculent|OK：定义直白|勉强：例句具体，但要靠情境推断|{truculent,investment,primarily,substance}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|276|ubiquity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{ubiquity,initiative,procedure,stability}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|277|umbrage|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{umbrage,insight,poll,retail}→不唯一：线索偏少|OK|OK：可作为可学词|
-|278|unctuous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{unctuous,nuclear,rational,stake}→唯一|OK|OK：可作为可学词|
-|279|underpinning|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{underpinning,minimal,output,statistic}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|280|unequivocal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{unequivocal,sovereign,outrage,robust}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|281|unscrupulous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{unscrupulous,subsequent,siege,solemn}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|282|usurpation|OK：定义直白|勉强：例句具体，但要靠情境推断|{usurpation,rational,overseas,surplus}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|283|utilitarian|OK：定义直白|勉强：例句具体，但要靠情境推断|{utilitarian,media,simultaneous,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|284|vacillate|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{vacillate,populate,preside,saturate}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|285|vapid|OK：定义直白|勉强：例句具体，但要靠情境推断|{vapid,siege,prevalent,subsidy}→唯一|OK|OK：可作为可学词|
-|286|vehemence|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{vehemence,investment,primarily,substance}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|287|venerate|OK：定义直白|勉强：例句具体，但要靠情境推断|{venerate,irrigate,plead,reverberate}→唯一|OK|OK：可作为可学词|
-|288|veracious|OK：定义直白|勉强：例句具体，但要靠情境推断|{veracious,labor,subsequent,siege}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|289|verbose|OK：定义直白|勉强：例句具体，但要靠情境推断|{verbose,nuclear,rational,stake}→唯一|OK|OK：可作为可学词|
-|290|vestige|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{vestige,minimal,sector,statistic}→唯一|OK|OK：可作为可学词|
-|291|vilification|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{vilification,sovereign,senate,skeptical}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|292|vindictive|OK：定义直白|勉强：例句具体，但要靠情境推断|{vindictive,subsequent,siege,solemn}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|293|virtuosity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{virtuosity,rational,preliminary,surplus}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|294|vitriolic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{vitriolic,media,simultaneous,sovereign}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|295|vociferous|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{vociferous,medieval,robust,subsequent}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|296|volition|OK：定义直白|勉强：例句具体，但要靠情境推断|{volition,narrative,stereotype,tenant}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|297|waiver|OK：定义直白|勉强：例句具体，但要靠情境推断|{waiver,nitrogen,sanction,sphere}→唯一|OK|OK：可作为可学词|
-|298|wanton|OK：定义直白|勉强：例句具体，但要靠情境推断|{wanton,simultaneous,sovereign,substantial}→唯一|OK|OK：可作为可学词|
-|299|warranted|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{warranted,robust,subsequent,subtle}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|300|wherewithal|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{wherewithal,peak,scenario,successor}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|301|zealot|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{zealot,minimal,sector,statistic}→唯一|OK|OK：可作为可学词|
-|302|abnegation|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{abnegation,sovereign,senate,superb}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|303|acerbic|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{acerbic,subsequent,siege,supreme}→唯一|OK|OK：可作为可学词|
-|304|anachronism|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{anachronism,rational,stake,surplus}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|305|anathema|勉强：句子稍长/词偏长|不能：线索少/过泛，容易多解|{anathema,monopoly,simultaneous,subordinate}→不唯一：线索偏少|OK|OK：可作为可学词|
-|306|antithesis|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{antithesis,stability,regime,transition}→唯一|注意：暴力/武器|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|307|asperity|不能：偏抽象/学术，需要中文支架（MAP≈197难直接靠英文定义）|勉强：例句具体，但要靠情境推断|{asperity,siege,solemn,subsidy}→不唯一：线索偏少|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|308|calumny|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{calumny,nitrogen,sanction,terminal}→唯一|OK|OK：可作为可学词|
-|309|chicanery|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{chicanery,premise,satellite,terrain}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
-|310|contumacious|勉强：句子稍长/词偏长|勉强：例句具体，但要靠情境推断|{contumacious,robust,subsequent,subtle}→唯一|OK|偏难：更适合作为“认识词/后置”，对MAP≈197偏超纲|
+审校：L5 Mark模拟做题（10岁中国ESL，MAP约197/2年级）｜L6 例句反向测试｜L7 文化敏感度｜L8 学习路径验证
+
+格式：每词一行：word — L5:def=…;ex=…(卡点) | L6(可唯一/不唯一) | L7 | L8
+
+- infant — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- inflation — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- initiative — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- insight — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- install — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- integrity — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- intellect — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- intercept — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- interfere — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- intimidate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- intricate — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- introduction — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- investment — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- irrigate — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- labor — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- landscape — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- liberate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- literacy — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- margin — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- mechanism — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- media — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- medieval — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- memorize — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- menace — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- merit — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- metabolism — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- mimic — L5:def=能;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- minimal — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- ministry — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- momentum — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- monarch — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- monopoly — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- municipal — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- narrative — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- nitrogen — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- nominate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:⚠️(可能触发家长敏感：politics) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- norm — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- nuclear — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- oblige — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- offend — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:偏不唯一(有线索但不够尖锐) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- oppress — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- orient — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- output — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- outrage — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- overlap — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- overseas — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- overwhelm — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- patron — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- peak — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- plantation — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- plead — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- poll — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- pollinate — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- pollute — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- populate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- precaution — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- preliminary — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- premise — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- preside — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:⚠️(可能触发家长敏感：politics) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- prevalent — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- primarily — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- procedure — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- quota — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- rational — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- reaction — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- recede — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- reception — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- refer — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- refuge — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- regime — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- relay — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- render — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- renovate — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- repeal — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- replicate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- resign — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- restrain — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- retail — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- retrieve — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- revolve — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- robust — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- rotate — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- sanction — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- satellite — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- saturate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- scenario — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- sector — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- senate — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- siege — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- significance — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- simultaneous — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- skeptical — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- solemn — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- somewhat — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- sovereign — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- spectrum — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- speculate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- sphere — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- stability — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- stagger — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- stake — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- statistic — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- statute — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- stereotype — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- stimulate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- subordinate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- subsequent — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- subsidy — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:偏不唯一(有线索但不够尖锐) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- substance — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- substantial — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- subtle — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- successor — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- summarize — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- superb — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- supreme — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- surplus — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- surrender — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- synthetic — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- tenant — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:偏不唯一(有线索但不够尖锐) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- terminal — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- terrain — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- testify — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- texture — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- therapy — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- threat — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- timber — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- toxic — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- transaction — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- transition — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- transmit — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- trigger — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- turbulent — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- twilight — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- ultimate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- undermine — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- obstinate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- obviate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- onerous — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- opacity — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- opulence — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- oration — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:⚠️(可能触发家长敏感：politics) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- oscillation — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- ostensible — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- ostracism — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- overture — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- palatable — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- panacea — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- paragon — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- paradoxical — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- paucity — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- pedagogue — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- pedantic — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- pejorative — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- penitence — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- penultimate — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- pernicious — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- perturbation — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- petulance — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- placid — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- platitude — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- plethora — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- poignant — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- polemic — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- ponderous — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- portentous — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- pragmatism — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- precarious — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- precipitous — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- precursor — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- predilection — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- preeminent — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- preponderance — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- presentiment — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- presumptuous — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- primordial — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- probity — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- proclivity — L5:def=不能;ex=不能(definition 句子坏/像残片) | L6:不唯一(definition 不稳，反测更难成立) | L7:OK(无明显敏感点) | L8:不合适(先修definition质量，否则无法学)
+- procrastinate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- prodigious — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- profligate — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- prognosticate — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- promulgation — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- propitious — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- proprietary — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- proscribe — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- proselytize — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- protracted — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- provenance — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- provisional — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- prowess — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- prudence — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- pugnacious — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- pulchritude — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- punctilious — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- punitive — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- quagmire — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- qualm — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:偏不唯一(有线索但不够尖锐) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- quandary — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- quarrelsome — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- querulous — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- quintessential — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- quixotic — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- rambunctious — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- rancor — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- rapacious — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- rapprochement — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:偏不唯一(有线索但不够尖锐) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- rationale — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- recapitulate — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- recidivism — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- reciprocity — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- reclamation — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- reconciliation — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- redress — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- redundancy — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- refurbish — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- reiterate — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- relegate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- remonstrate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- renunciation — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- reparation — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- reprehensible — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- repudiation — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- requisition — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- rescind — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- resignation — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- resolute — L5:def=不能;ex=不能(definition 句子坏/像残片) | L6:不唯一(definition 不稳，反测更难成立) | L7:OK(无明显敏感点) | L8:不合适(先修definition质量，否则无法学)
+- resurgent — L5:def=能;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- reticence — L5:def=不能;ex=不能(definition 句子坏/像残片) | L6:不唯一(definition 不稳，反测更难成立) | L7:OK(无明显敏感点) | L8:不合适(先修definition质量，否则无法学)
+- retrospective — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- revelry — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- reverberate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- rigmarole — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- ruminate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- sacrosanct — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- sagacious — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- salient — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- sanguine — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- sardonic — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- scrupulous — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- scrutinize — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- sedentary — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- semblance — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- serendipity — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- servile — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- simultaneity — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- solace — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- solicitous — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- soporific — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- spurious — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- squalid — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- stagnation — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- stipend — L5:def=能;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- stringent — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- subjugation — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- subliminal — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- subordination — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- subservient — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- substantiation — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- subterfuge — L5:def=不能;ex=勉强(definition 句子坏/像残片) | L6:不唯一(definition 不稳，反测更难成立) | L7:OK(无明显敏感点) | L8:不合适(先修definition质量，否则无法学)
+- succinct — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:偏不唯一(有线索但不够尖锐) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- symbiosis — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:偏不唯一(有线索但不够尖锐) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- tangential — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- tantamount — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- temerity — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- temperance — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- tenacity — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- tenet — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- tepid — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- terse — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- tirade — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- torpor — L5:def=勉强;ex=勉强(需要中文支架/更直白例句) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- tractable — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- transient — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- trepidation — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- truculent — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- ubiquity — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- umbrage — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- unctuous — L5:def=不能;ex=不能(definition 句子坏/像残片) | L6:不唯一(definition 不稳，反测更难成立) | L7:OK(无明显敏感点) | L8:不合适(先修definition质量，否则无法学)
+- underpinning — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- unequivocal — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- unscrupulous — L5:def=不能;ex=不能(definition 句子坏/像残片) | L6:不唯一(definition 不稳，反测更难成立) | L7:OK(无明显敏感点) | L8:不合适(先修definition质量，否则无法学)
+- usurpation — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- utilitarian — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- vacillate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- vapid — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- vehemence — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- venerate — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- veracious — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- verbose — L5:def=能;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- vestige — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- vilification — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- vindictive — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- virtuosity — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- vitriolic — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- vociferous — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- volition — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- waiver — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- wanton — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- warranted — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- wherewithal — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- zealot — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:偏难但可教(更具体；仍高于2年级但可通过情境/图片教)
+- abnegation — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- acerbic — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- anachronism — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- anathema — L5:def=不能;ex=不能(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- antithesis — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
+- asperity — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- calumny — L5:def=不能;ex=勉强(definition 抽象+词汇门槛高) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:明显偏难(需要更高词汇/概念；建议靠后+图示+中文支架)
+- chicanery — L5:def=不能;ex=勉强(definition 句子坏/像残片) | L6:不唯一(definition 不稳，反测更难成立) | L7:OK(无明显敏感点) | L8:不合适(先修definition质量，否则无法学)
+- contumacious — L5:def=勉强;ex=不能(例句不体现核心含义/可套很多词) | L6:不唯一(上下文太泛) | L7:OK(无明显敏感点) | L8:不合适(对MAP197明显超纲；建议更高level/更后面)
