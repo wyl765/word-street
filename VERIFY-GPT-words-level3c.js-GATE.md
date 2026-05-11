@@ -1,203 +1,199 @@
-# VERIFY-GPT — words-level3c.js
+# VERIFY-GPT — words-level3c.js — GATE
 
-- One line per word (no skipping).
-- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
-- L6: Reverse test — blank example + 4 options.
-- L7: Cultural sensitivity.
-- L8: Learning path / level fit.
+格式：word / L5(能/勉强/不能) / L6(唯一/不唯一) / L7(OK/注意) / L8(合适/偏高/偏低) / 备注
 
-- advance | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[advance / carnivore / chunk / herbivore] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- affordable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affordable / hone / hosiery / hospitable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- analyze | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[analyze / inquest / specimen / typical] | L7:OK | L8:合适
-- apply | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apply / lineage / manipulate / slope] | L7:OK | L8:合适
-- burden | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[burden / eligible / humus / scarcity] | L7:OK | L8:合适
-- cancel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cancel / headway / instill / lithe] | L7:OK | L8:合适
-- device | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[device / divisor / hose / inquest] | L7:OK | L8:合适
-- elect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquire / elect / intrigue / lacquer] | L7:OK | L8:合适
-- emphasize | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emphasize / imbue / litany / outcome] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- exclaim | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cancel / exclaim / inferno / nocturnal] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
-- frustrate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frustrate / idle / impervious / kernel] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- glimpse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glimpse / juniper / lilac / omnivore] | L7:OK | L8:合适
-- govern | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chlorophyll / govern / mandate / scarcity] | L7:OK | L8:合适
-- idle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arid / filament / idle / ledge] | L7:OK | L8:合适
-- invest | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[burden / cancel / canyon / invest] | L7:OK | L8:合适
-- manner | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[burden / cancel / hyperbole / manner] | L7:OK | L8:合适
-- negative | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[archipelago / filament / glacier / negative] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- outcome | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emphasize / flask / outcome / slope] | L7:OK | L8:合适
-- regulate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[basement / chlorophyll / geothermal / regulate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- rhythm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hosiery / juniper / limpid / rhythm] | L7:OK | L8:合适
-- risk | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arid / headway / risk / torch] | L7:OK | L8:合适
-- tension | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[lineage / loft / tension / terminate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- typical | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[interval / litany / mandate / typical] | L7:OK | L8:合适
-- basement | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancestry / basement / hospitable / salvage] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- blade | L5-Def:能 | L5-Ex:能 | L6:能(线索词: single,grass) | 选项:[blade / herbivore / hone / molecule] | L7:OK | L8:合适
-- canyon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[canyon / hurl / ridge / tributary] | L7:OK | L8:合适
-- chimney | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:smoke)，易靠语感/蒙) | 选项:[chimney / filament / inferno / torch] | L7:注意(可能引发家长顾虑或需要解释：烟酒毒；建议例句更中性/更普适) | L8:合适
-- chunk | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chunk / dividend / kernel / lumber] | L7:OK | L8:合适
-- creek | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[creek / hydrate / inn / wade] | L7:OK | L8:合适
-- crisp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chlorophyll / crisp / deciduous / mandate] | L7:OK | L8:合适
-- flask | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:science)，易靠语感/蒙) | 选项:[flask / lilac / outcome / spout] | L7:OK | L8:合适
-- foil | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crisp / foil / impound / jaunt] | L7:OK | L8:合适
-- gasp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gasp / humidity / jaunt / spout] | L7:OK | L8:合适
-- glare | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bright)，易靠语感/蒙) | 选项:[apply / glare / hull / invest] | L7:OK | L8:合适
-- glow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glow / humus / juniper / loam] | L7:OK | L8:合适
-- hatch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[axis / crustacean / hatch / knead] | L7:OK | L8:合适
-- hose | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquire / hose / lilac / scarcity] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
-- inn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[creek / inn / limpid / ridge] | L7:OK | L8:合适
-- jolt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[asteroid / jolt / limelight / listless] | L7:OK | L8:合适
-- ledge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[haste / idle / ledge / lintel] | L7:OK | L8:合适
-- lumber | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deciduous / lumber / pharaoh / stump] | L7:OK | L8:合适
-- mend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[lair / lever / mend / omnivore] | L7:OK | L8:合适
-- quarry | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:where)，易靠语感/蒙) | 选项:[chimney / hangar / lumber / quarry] | L7:OK | L8:合适
-- ridge | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:mountain)，易靠语感/蒙) | 选项:[aquifer / canyon / limpid / ridge] | L7:OK | L8:合适
-- slope | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[knoll / outcome / respiration / slope] | L7:OK | L8:合适
-- spout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aquifer / humidity / hydrate / spout] | L7:OK | L8:合适
-- stump | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:tree)，易靠语感/蒙) | 选项:[lavish / lever / linen / stump] | L7:OK | L8:合适
-- torch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[juniper / loam / stalagmite / torch] | L7:OK | L8:合适
-- wade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[creek / lattice / limpid / wade] | L7:OK | L8:合适
-- asteroid | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[asteroid / jolt / limelight / mandate] | L7:OK | L8:合适
-- axis | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:spins)，易靠语感/蒙) | 选项:[axis / elevation / hone / nocturnal] | L7:OK | L8:合适
-- carnivore | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:eats)，易靠语感/蒙) | 选项:[carnivore / herbivore / nocturnal / omnivore] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- census | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[census / divisor / inquest / lore] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
-- chlorophyll | L5-Def:勉强(需要中文支架/图示；词偏长、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: leaves,green,helps) | 选项:[chlorophyll / digestive / inquest / outcome] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- crater | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:space)，易靠语感/蒙) | 选项:[crater / interval / quarry / stratosphere] | L7:OK | L8:合适
-- crustacean | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: lobster,legs,hard) | 选项:[crustacean / hatch / homestead / locomotion] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
-- digestive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: energy,body,use) | 选项:[apply / digestive / kernel / knoll] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- elevation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elevation / ridge / tension / terminate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- fertile | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:soil)，易靠语感/蒙) | 选项:[fertile / harrow / humus / tributary] | L7:OK | L8:合适
-- glacier | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[canyon / glacier / stalagmite / tributary] | L7:OK | L8:合适
-- herbivore | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blade / herbivore / imbue / litany] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- humidity | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crisp / hospitable / humidity / insular] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- legislature | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hub / impound / legislature / lull] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
-- molecule | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blade / creek / impervious / molecule] | L7:OK | L8:合适
-- arid | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arid / chunk / hoard / hydrate] | L7:OK | L8:合适
-- archaeology | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:ancient)，易靠语感/蒙) | 选项:[archaeology / divisor / elect / locomotion] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- mesa | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[canyon / mesa / plateau / sedimentary] | L7:OK | L8:合适
-- tundra | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:frozen)，易靠语感/蒙) | 选项:[aquifer / herbivore / regulate / tundra] | L7:OK | L8:合适
-- stalagmite | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: cave,floor) | 选项:[glacier / hydrate / irk / stalagmite] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- tributary | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:river)，易靠语感/蒙) | 选项:[canyon / hull / livelihood / tributary] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- archipelago | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:islands)，易靠语感/蒙) | 选项:[archipelago / humus / livelihood / negative] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- stratosphere | L5-Def:勉强(需要中文支架/图示；词很长、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: above,where) | 选项:[lintel / plateau / quarry / stratosphere] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
-- preamble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancestry / emphasize / preamble / typical] | L7:OK | L8:合适
-- filament | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: inside,light,bulb) | 选项:[filament / hose / ivory / translucent] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- nocturnal | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancestry / juniper / loam / nocturnal] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- translucent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: light,through) | 选项:[digestive / filament / glow / translucent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- omnivore | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:eats)，易靠语感/蒙) | 选项:[carnivore / juniper / omnivore / tributary] | L7:OK | L8:合适
-- plateau | L5-Def:能 | L5-Ex:能 | L6:能(线索词: above,flat,land) | 选项:[isthmus / lintel / mesa / plateau] | L7:OK | L8:合适
-- geothermal | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:heat)，易靠语感/蒙) | 选项:[digestive / geothermal / infuse / listless] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- specimen | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:study)，易靠语感/蒙) | 选项:[analyze / lineage / paleontology / specimen] | L7:OK | L8:合适
-- meridian | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[impervious / insular / meridian / translucent] | L7:OK | L8:合适
-- respiration | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elect / locale / respiration / slope] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- paleontology | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancestry / chlorophyll / mesa / paleontology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
-- aquifer | L5-Def:能 | L5-Ex:能 | L6:能(线索词: water,below,ground) | 选项:[aquifer / canyon / hydrate / scarcity] | L7:OK | L8:合适
-- deciduous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deciduous / hew / negative / stump] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- pharaoh | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hull / lumber / pharaoh / spout] | L7:OK | L8:合适
-- sedimentary | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: rock,layers,pressed) | 选项:[lumber / quarry / sedimentary / stalagmite] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- isthmus | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:land)，易靠语感/蒙) | 选项:[glacier / isthmus / meridian / plateau] | L7:OK | L8:合适
-- dividend | L5-Def:能 | L5-Ex:能 | L6:能(线索词: number,split) | 选项:[ancestry / asteroid / dividend / divisor] | L7:OK | L8:合适
-- divisor | L5-Def:能 | L5-Ex:能 | L6:能(线索词: how,many,groups) | 选项:[census / dividend / divisor / gasp] | L7:OK | L8:合适
-- mandate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[imbue / litany / mandate / typical] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- authentic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[authentic / homestead / hymn / stump] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- scarcity | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[aquifer / creek / hydrate / scarcity] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- ancestry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancestry / haste / hurl / paleontology] | L7:OK | L8:合适
-- interval | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hose / interval / litany / ridge] | L7:OK | L8:合适
-- eligible | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[burden / eligible / hurdle / imbue] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- manipulate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apply / loam / manipulate / stalagmite] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- salvage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[basement / inundate / irk / salvage] | L7:OK | L8:合适
-- acquire | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquire / hose / intrigue / ledger] | L7:OK | L8:合适
-- terminate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquire / jettison / tension / terminate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- verdict | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hobble / limelight / lucid / verdict] | L7:OK | L8:合适
-- hangar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hangar / hoard / jettison / mend] | L7:OK | L8:合适
-- hardship | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[divisor / foil / hardship / hub] | L7:OK | L8:合适
-- harpoon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[geothermal / harpoon / hoard / mesa] | L7:OK | L8:合适
-- harrow | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:soil)，易靠语感/蒙) | 选项:[fertile / harrow / humus / loam] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
-- haste | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[haste / jolt / knoll / typical] | L7:OK | L8:合适
-- havoc | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elevation / havoc / hermit / scarcity] | L7:OK | L8:合适
-- headway | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[headway / impound / ivory / stump] | L7:OK | L8:合适
-- heed | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:warning)，易靠语感/蒙) | 选项:[heed / imbue / kilt / lobe] | L7:OK | L8:合适
-- helm | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ship)，易靠语感/蒙) | 选项:[helm / hull / jaunt / translucent] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
-- herald | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquire / glow / herald / inn] | L7:OK | L8:合适
-- hermit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancestry / elevation / havoc / hermit] | L7:OK | L8:合适
-- hew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hew / lore / lumber / stump] | L7:OK | L8:合适
-- hinge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hinge / limber / lineage / tension] | L7:OK | L8:合适
-- hoard | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[filament / hoard / lair / stalagmite] | L7:OK | L8:合适
-- hobble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hobble / inundate / leech / limelight] | L7:OK | L8:合适
-- hoist | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:heavy)，易靠语感/蒙) | 选项:[hoist / hull / hydrate / lever] | L7:OK | L8:合适
-- homage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[govern / homage / legion / legislature] | L7:OK | L8:合适
-- homestead | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[authentic / homestead / inlet / lacquer] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- hone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[axis / blade / hone / molecule] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
-- hornet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hornet / knoll / linen / plateau] | L7:OK | L8:合适
-- hosiery | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hoard / hosiery / lilac / rhythm] | L7:OK | L8:合适
-- hospitable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affordable / ancestry / hospitable / humidity] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- hub | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hub / impervious / inn / translucent] | L7:OK | L8:合适
-- huddle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:together)，易靠语感/蒙) | 选项:[huddle / hydrate / juncture / verdict] | L7:OK | L8:合适
-- hull | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ship)，易靠语感/蒙) | 选项:[glare / helm / hull / lineage] | L7:OK | L8:合适
-- humus | L5-Def:能 | L5-Ex:能 | L6:能(线索词: made,soil) | 选项:[fertile / glow / harrow / humus] | L7:OK | L8:合适
-- hurdle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[census / hurdle / ledger / locomotion] | L7:OK | L8:合适
-- hurl | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[analyze / canyon / hurl / ridge] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:合适
-- hurricane | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:winds)，易靠语感/蒙) | 选项:[authentic / carnivore / deciduous / hurricane] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- hydrate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[aquifer / creek / hydrate / scarcity] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- hymn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hymn / knell / lintel / translucent] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
-- hyperbole | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:saying)，易靠语感/蒙) | 选项:[hyperbole / inn / manner / specimen] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- icon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquire / elect / icon / lumber] | L7:OK | L8:合适
-- imbue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eligible / imbue / litany / mandate] | L7:OK | L8:合适
-- impervious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: not,through) | 选项:[idle / impervious / molecule / translucent] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- impound | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquire / advance / headway / impound] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
-- indent | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:line)，易靠语感/蒙) | 选项:[hurdle / indent / litany / lobe] | L7:OK | L8:合适
-- inferno | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:fire)，易靠语感/蒙) | 选项:[chimney / exclaim / inferno / outcome] | L7:OK | L8:合适
-- infuse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[creek / hydrate / infuse / scarcity] | L7:OK | L8:合适
-- inlet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[inlet / lanky / lull / translucent] | L7:OK | L8:合适
-- inquest | L5-Def:能 | L5-Ex:能 | L6:能(线索词: find,what,happened) | 选项:[analyze / device / inquest / pharaoh] | L7:OK | L8:合适
-- instill | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cancel / hone / hosiery / instill] | L7:OK | L8:合适
-- insular | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[humidity / insular / legion / livelihood] | L7:OK | L8:合适
-- intrigue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquire / elect / intrigue / lacquer] | L7:OK | L8:合适
-- inundate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hobble / hull / inundate / limelight] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
-- irate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chunk / irate / knack / mend] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- irk | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[irk / salvage / specimen / stalagmite] | L7:OK | L8:合适
-- ivory | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[headway / ivory / jolt / manipulate] | L7:OK | L8:合适
-- jaunt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crisp / elevation / humidity / jaunt] | L7:OK | L8:合适
-- jest | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:said)，易靠语感/蒙) | 选项:[instill / jest / knell / terminate] | L7:OK | L8:合适
-- jettison | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[advance / emphasize / hangar / jettison] | L7:OK | L8:合适
-- jinx | L5-Def:能 | L5-Ex:能 | L6:能(线索词: bring,bad,luck) | 选项:[jinx / lull / negative / risk] | L7:OK | L8:合适
-- jostle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frustrate / jostle / terminate / wade] | L7:OK | L8:合适
-- jubilant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elevation / humidity / jubilant / plateau] | L7:OK | L8:合适
-- juncture | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cancel / huddle / juncture / scarcity] | L7:OK | L8:合适
-- juniper | L5-Def:能 | L5-Ex:能 | L6:能(线索词: dark,berries) | 选项:[juniper / loam / omnivore / rhythm] | L7:OK | L8:合适
-- kernel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frustrate / kernel / knoll / terminate] | L7:OK | L8:合适
-- kilt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chlorophyll / hull / kilt / lobe] | L7:OK | L8:合适
-- knack | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chunk / irate / knack / litany] | L7:OK | L8:合适
-- knead | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:dough)，易靠语感/蒙) | 选项:[creek / hatch / ivory / knead] | L7:OK | L8:合适
-- knell | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bell)，易靠语感/蒙) | 选项:[hymn / knell / lull / wade] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
-- knoll | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[haste / knoll / slope / typical] | L7:OK | L8:合适
-- lacquer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[filament / intrigue / lacquer / translucent] | L7:OK | L8:合适
-- lair | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hoard / lair / stalagmite / translucent] | L7:OK | L8:合适
-- lance | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[advance / juncture / lance / lunge] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- lanky | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hobble / lanky / translucent / wade] | L7:OK | L8:合适
-- lattice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[lacquer / lattice / lever / wade] | L7:OK | L8:合适
-- lavish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[lavish / linen / livelihood / spout] | L7:OK | L8:合适
-- ledger | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:money)，易靠语感/蒙) | 选项:[hurdle / impound / ledger / livelihood] | L7:OK | L8:合适
-- leech | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[creek / hobble / leech / limelight] | L7:OK | L8:合适
-- leer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arid / leer / limelight / locale] | L7:OK | L8:合适
-- legible | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:read)，易靠语感/蒙) | 选项:[emphasize / imbue / legible / litany] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
-- legion | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[humidity / insular / legion / lull] | L7:OK | L8:合适
-- lever | L5-Def:能 | L5-Ex:能 | L6:能(线索词: used,heavy) | 选项:[hoist / lance / lever / stump] | L7:OK | L8:合适
-- lilac | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glimpse / hose / hosiery / lilac] | L7:OK | L8:合适
-- limber | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[limber / lineage / specimen / tension] | L7:OK | L8:合适
-- limelight | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[jolt / leer / limelight / locale] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- limpid | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:clear)，易靠语感/蒙) | 选项:[creek / inn / limpid / ridge] | L7:OK | L8:合适
-- lineage | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:back)，易靠语感/蒙) | 选项:[ancestry / creek / limber / lineage] | L7:OK | L8:合适
-- linen | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crisp / ivory / linen / stump] | L7:OK | L8:合适
-- lintel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:above)，易靠语感/蒙) | 选项:[hymn / lintel / plateau / stratosphere] | L7:OK | L8:合适
-- listless | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:no)，易靠语感/蒙) | 选项:[acquire / device / jolt / listless] | L7:OK | L8:合适
-- litany | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[govern / legible / litany / mandate] | L7:OK | L8:合适
-- lithe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cancel / creek / lithe / wade] | L7:OK | L8:合适
-- livelihood | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[census / livelihood / lore / tributary] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- loam | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:dark)，易靠语感/蒙) | 选项:[archaeology / harrow / juniper / loam] | L7:OK | L8:合适
-- lobe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[heed / hoard / kilt / lobe] | L7:OK | L8:合适
-- locale | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frustrate / leer / limelight / locale] | L7:OK | L8:合适
-- locomotion | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crustacean / lever / locomotion / ridge] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- loft | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:room)，易靠语感/蒙) | 选项:[basement / imbue / loft / lull] | L7:OK | L8:合适
-- lore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[census / hew / livelihood / lore] | L7:OK | L8:合适
-- lucid | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:understand)，易靠语感/蒙) | 选项:[analyze / emphasize / lucid / verdict] | L7:OK | L8:合适
-- lull | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gasp / humidity / jinx / lull] | L7:OK | L8:合适
-- lunge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glimpse / headway / juncture / lunge] | L7:OK | L8:合适
+advance | 勉强 | 不唯一 | OK | 合适 | definition里有抽象词(进步/改善)；例句靠“棋子向前走”但也像move/go
+affordable | 勉强 | 唯一 | OK | 合适 | definition依赖“expensive”是否认识；例句“价格不贵大家都买得起”指向清楚
+analyze | 不能 | 不唯一 | OK | 偏高 | definition抽象；例句是科学数据场景，孩子可能只会think/look
+apply | 勉强 | 不唯一 | OK | 合适 | “use/put into action”偏抽象；例句像put on/use(防晒)不够唯一
+burden | 勉强 | 不唯一 | OK | 合适 | 需要理解“难扛/麻烦的负担”；例句也可能是problem/heavy
+cancel | 能 | 唯一 | OK | 合适 | definition直白；天气原因把活动停掉语境明确
+device | 勉强 | 不唯一 | OK | 合适 | “special purpose”偏抽象；例句温度计是device但也可叫tool
+elect | 勉强 | 不唯一 | OK | 合适 | 投票/选举概念对低阶ESL偏难；例句里有ballot信息但仍可能用choose
+emphasize | 勉强 | 唯一 | OK | 合适 | definition能懂但词形长；下划线=强调语境很强
+exclaim | 勉强 | 唯一 | OK | 合适 | 需要知道“突然大声说”；感叹发现流星的语境指向较准
+frustrate | 勉强 | 不唯一 | OK | 合适 | 情绪词可懂但definition较绕；拼图卡住也可能是annoy/upset
+glimpse | 勉强 | 不唯一 | OK | 合适 | “quick short look”要对比look/see；例句也能填see
+govern | 不能 | 不唯一 | OK | 偏高 | “make rules/decisions”抽象且社会学；例句学生会语境仍可能用run/lead
+idle | 勉强 | 不唯一 | OK | 合适 | “not being used”可懂；例句秋千没人用也可写empty
+invest | 不能 | 不唯一 | OK | 偏高 | 金钱/投资概念超出；例句更像spend/save/use money
+manner | 勉强 | 不唯一 | OK | 合适 | 名词多义；例句“polite manner”也可用way
+negative | 不能 | 不唯一 | OK | 偏高 | “below zero/不好的”双义；例句温度场景需要理解零下
+outcome | 勉强 | 不唯一 | OK | 合适 | result概念可懂；例句“结果让人惊讶”也能填result
+regulate | 不能 | 不唯一 | OK | 偏高 | “control so it works correctly”抽象；例句恒温器也可用control
+rhythm | 勉强 | 不唯一 | OK | 合适 | 需要音乐经验；拍鼓点能猜但也像beat
+risk | 勉强 | 唯一 | OK | 合适 | “可能有坏事发生”可懂；蜂窝例句能锁定risk
+tension | 不能 | 不唯一 | OK | 偏高 | 抽象情绪+身体紧绷；例句“发卷子前紧张”也可能填nervousness
+typical | 勉强 | 不唯一 | OK | 合适 | usual/normal可懂；学校一天作例子但也可用normal
+basement | 能 | 唯一 | OK | 合适 | 具体房屋部位；存放盒子语境明确
+blade | 勉强 | 不唯一 | OK | 合适 | definition有两义(刀刃/草叶)；例句是草叶但也可用leaf
+canyon | 勉强 | 唯一 | OK | 合适 | 地理词偏难但definition形象；站在边缘看河能锁定
+chimney | 勉强 | 唯一 | OK | 合适 | 如果没见过壁炉房子会卡；烟从上面出来语境很明确
+chunk | 能 | 唯一 | OK | 合适 | 一大块很直观；吃西瓜咬下一块指向清楚
+creek | 勉强 | 不唯一 | OK | 合适 | stream/小河概念可猜；例句也可能填stream
+crisp | 勉强 | 不唯一 | OK | 合适 | 抽象形容词；落叶咔嚓声能猜但也像crunchy
+flask | 不能 | 不唯一 | OK | 偏高 | 科学器材词；例句“玻璃容器装液体”也可写bottle
+foil | 勉强 | 唯一 | OK | 合适 | “wrapping metal sheet”可学；包披萨语境很强
+gasp | 勉强 | 唯一 | OK | 合适 | 动作词需要体验；看到杂技惊到吸气语境明确
+glare | 勉强 | 不唯一 | OK | 合适 | 两义(刺眼光/怒视)易混；雪的强光能猜但也像shine
+glow | 能 | 不唯一 | OK | 合适 | “发柔光”可懂；南瓜灯也能填shine/light up
+hatch | 勉强 | 唯一 | OK | 合适 | 需要知道小鸡出壳；例句很强
+hose | 能 | 唯一 | OK | 合适 | 具体物体；花园浇水管语境明确
+inn | 不能 | 不唯一 | OK | 偏高 | “小旅馆”文化词；例句也可能写hotel
+jolt | 勉强 | 不唯一 | OK | 合适 | “突然一震”可感受；公交颠一下也可写bump
+ledge | 勉强 | 不唯一 | OK | 合适 | 定义抽象；窗边窄台也可叫sill
+lumber | 不能 | 不唯一 | OK | 偏高 | 建材词；例句也可能是wood/boards
+mend | 勉强 | 唯一 | OK | 合适 | fix/repair可懂；缝补玩偶洞语境明确
+quarry | 不能 | 不唯一 | OK | 偏高 | 采石场知识词；例句也可能写mine
+ridge | 不能 | 不唯一 | OK | 偏高 | 地形词较难；山脊看山谷也可能用top
+slope | 勉强 | 不唯一 | OK | 合适 | “斜坡”可懂；骑车下坡语境强
+spout | 不能 | 不唯一 | OK | 偏高 | 多义(壶嘴/喷口/鲸喷水)；例句能猜但也像blowhole
+stump | 勉强 | 唯一 | OK | 合适 | 需要图像支持；砍树后剩下的部分语境明确
+torch | 勉强 | 不唯一 | OK | 合适 | 英美里torch=手电会混；洞里照明也可用flashlight
+wade | 勉强 | 不唯一 | OK | 合适 | 走浅水概念可懂；例句也可用walk across
+asteroid | 不能 | 不唯一 | OK | 偏高 | 天文词；例句仍需要“绕太阳的石头”背景
+axis | 不能 | 不唯一 | OK | 偏高 | “imaginary line”抽象；自转概念超出
+carnivore | 不能 | 不唯一 | OK | 偏高 | 词形长；例句狮子吃肉也可写meat-eater
+census | 不能 | 不唯一 | OK | 偏高 | 政府统计概念难；例句也可写count/survey
+chlorophyll | 不能 | 不唯一 | OK | 偏高 | 专业术语；即使例句解释也太长记不住
+crater | 不能 | 不唯一 | OK | 偏高 | 地形词+太空背景；例句也可写holes
+crustacean | 不能 | 不唯一 | OK | 偏高 | 分类学术语；例句说龙虾但孩子会直接说lobster
+digestive | 不能 | 不唯一 | OK | 偏高 | 生物学词；例句会更像stomach/body system
+elevation | 不能 | 不唯一 | OK | 偏高 | 抽象测量概念；例句也可用height
+fertile | 不能 | 不唯一 | OK | 偏高 | 词义在成人语境也有别义需避开；这里土壤肥沃对孩子偏难
+glacier | 不能 | 不唯一 | OK | 偏高 | 地理词；例句虽形象但信息量大
+herbivore | 不能 | 不唯一 | OK | 偏高 | 词形长；例句兔子吃植物也可写plant-eater
+humidity | 不能 | 不唯一 | OK | 偏高 | 抽象气象概念；例句“眼镜起雾”也可写air was wet
+legislature | 不能 | 不唯一 | OK | 偏高 | 政治词太难；例句也可写lawmakers/government
+molecule | 不能 | 不唯一 | OK | 偏高 | 微观概念；例句依赖科学知识
+arid | 不能 | 不唯一 | OK | 偏高 | 同义词dry可能懂但arid本身难；例句也可填dry
+archaeology | 不能 | 不唯一 | OK | 偏高 | 学科词太长；例句也可写history/digging old things
+mesa | 不能 | 不唯一 | OK | 偏高 | 地形专名；例句虽比喻但仍不易记
+tundra | 不能 | 不唯一 | OK | 偏高 | 地理生态词；例句长且概念新
+stalagmite | 不能 | 不唯一 | OK | 偏高 | 洞穴地质术语；例句太长
+tributary | 不能 | 不唯一 | OK | 偏高 | 水系术语；例句也可写small river
+archipelago | 不能 | 不唯一 | OK | 偏高 | 地理词；例句如果没学过岛链会卡
+stratosphere | 不能 | 不唯一 | OK | 偏高 | 大气层术语过长；例句信息量大
+preamble | 不能 | 不唯一 | 注意 | 偏高 | 与特定国家宪法强绑定；对孩子文化背景不友好
+filament | 不能 | 不唯一 | OK | 偏高 | 科学部件词；例句也可用wire
+nocturnal | 不能 | 不唯一 | OK | 偏高 | 词形长；猫头鹰夜行可猜但也可写night-active
+translucent | 不能 | 不唯一 | OK | 偏高 | 形容词长且抽象；例句靠水母但不够唯一
+omnivore | 不能 | 不唯一 | OK | 偏高 | 分类词；例句熊吃鱼和浆果可猜但仍是术语
+plateau | 不能 | 不唯一 | OK | 偏高 | 地形词；例句比喻但仍难
+geothermal | 不能 | 不唯一 | OK | 偏高 | 能源术语；例句国家案例对低阶ESL不友好
+specimen | 不能 | 不唯一 | OK | 偏高 | 学术展示词；例句也可用sample
+meridian | 不能 | 不唯一 | OK | 偏高 | 地理地图术语；例句依赖世界地理背景
+respiration | 不能 | 不唯一 | OK | 偏高 | 生理学词；例句也可写breathing
+paleontology | 不能 | 不唯一 | OK | 偏高 | 学科词太长；例句虽给恐龙但仍难
+aquifer | 不能 | 不唯一 | OK | 偏高 | 地下水层术语；例句需要地理知识
+deciduous | 不能 | 不唯一 | OK | 偏高 | 植物分类词；例句能懂掉叶子但词形难
+pharaoh | 不能 | 不唯一 | OK | 偏高 | 历史文化专名；例句金字塔背景很远
+sedimentary | 不能 | 不唯一 | OK | 偏高 | 岩石分类词；例句长且抽象
+isthmus | 不能 | 不唯一 | OK | 偏高 | 地理术语；例句依赖地图知识
+dividend | 不能 | 不唯一 | OK | 偏高 | 数学术语；低阶ESL可能连除法术语都没建立
+divisor | 不能 | 不唯一 | OK | 偏高 | 同上；成对出现但对该读者群过难
+mandate | 不能 | 不唯一 | OK | 偏高 | “official order”抽象；例句也可用rule/require
+authentic | 不能 | 不唯一 | OK | 偏高 | 抽象形容词；例句博物馆真品可猜但也可写real
+scarcity | 不能 | 不唯一 | OK | 偏高 | 抽象名词；例句水短缺能懂但词形难
+ancestry | 不能 | 不唯一 | OK | 偏高 | 家族史概念偏难；例句也可用family history
+interval | 不能 | 不唯一 | OK | 偏高 | 抽象“间隔”概念；例句是交通间隔但也可写gap
+eligible | 不能 | 不唯一 | OK | 偏高 | 规则资格词；例句也可写allowed
+manipulate | 不能 | 不唯一 | 注意 | 偏高 | 词有“操控/骗”负面义需家长敏感；例句是捏黏土但更像shape
+salvage | 不能 | 不唯一 | OK | 偏高 | 灾后抢救概念难；例句也可写save
+acquire | 不能 | 不唯一 | OK | 偏高 | 同义get/earn更常用；例句也可用buy/get
+terminate | 不能 | 不唯一 | OK | 偏高 | 词在别处有强烈含义需谨慎；这里=终点结束但例句仍可用end
+verdict | 不能 | 不唯一 | OK | 偏高 | 司法词；例句是评比但孩子更会说decision/winner
+hangar | 不能 | 不唯一 | OK | 偏高 | 专业场所词；例句也可写garage for planes
+hardship | 不能 | 不唯一 | OK | 偏高 | 抽象名词；例句拓荒者背景离孩子远
+harpoon | 不能 | 不唯一 | 注意 | 偏高 | 捕鲸/猎杀意象可能让家长不适；例句也可写spear
+harrow | 不能 | 不唯一 | OK | 偏高 | 农具冷门；例句信息仍需要农耕背景
+haste | 不能 | 不唯一 | OK | 偏高 | 抽象名词；例句也可写hurry
+havoc | 不能 | 不唯一 | OK | 偏高 | 抽象灾害词；例句龙卷风破坏可懂但也可用damage
+headway | 不能 | 不唯一 | OK | 偏高 | 习语感强；例句练琴进步也可写progress
+heed | 不能 | 不唯一 | OK | 偏高 | 低频动词；例句=listen to/follow advice
+helm | 不能 | 不唯一 | OK | 偏高 | 航海词；例句也可写wheel
+herald | 不能 | 不唯一 | OK | 偏高 | 抽象/双义；例句“春天的预兆”也可写sign
+hermit | 不能 | 不唯一 | OK | 偏高 | 文化词；例句也可写person living alone
+hew | 不能 | 不唯一 | OK | 偏高 | 低频砍劈动词；例句也可写chop
+hinge | 不能 | 不唯一 | OK | 偏高 | 部件词；例句也可写metal part
+hoard | 不能 | 不唯一 | OK | 偏高 | 既可中性收藏也可贬义囤积需讲；例句龙囤金币能猜但也可用keep
+hobble | 不能 | 不唯一 | OK | 偏高 | 低频动词；例句=limp
+hoist | 不能 | 不唯一 | OK | 偏高 | 低频动词；例句=lift/pull up
+homage | 不能 | 不唯一 | 注意 | 偏高 | 纪念士兵的语境可能引发家长对战争话题敏感；词本身抽象
+homestead | 不能 | 不唯一 | OK | 偏高 | 美国拓荒文化色彩重；例句也可写farm/house
+hone | 不能 | 不唯一 | OK | 偏高 | 抽象“磨练技能”；例句也可写practice/improve
+hornet | 勉强 | 不唯一 | OK | 合适 | 和wasp/bee易混；例句“嗡嗡绕桌”也能填wasp
+hosiery | 不能 | 不唯一 | OK | 偏高 | 生活词但很低频；例句就是商店货架仍不够常用
+hospitable | 不能 | 不唯一 | OK | 偏高 | 形容词长；例句也可用friendly/welcoming
+hub | 不能 | 不唯一 | OK | 偏高 | 多义(中心/轮毂)；机场例句可猜但也可写center
+huddle | 勉强 | 不唯一 | OK | 合适 | 动作词；队员围在一起也可用gather
+hull | 不能 | 不唯一 | OK | 偏高 | 船体部位词；例句也可写body of ship
+humus | 不能 | 不唯一 | OK | 偏高 | 土壤术语；例句解释后仍难记
+hurdle | 勉强 | 不唯一 | OK | 合适 | 既可栏架也可困难两义；例句田径更像jumped over the bar
+hurl | 不能 | 不唯一 | OK | 偏高 | 低频“猛扔”；例句也可用throw
+hurricane | 勉强 | 不唯一 | OK | 合适 | 自然灾害词可能已听过；例句也可用storm
+hydrate | 不能 | 不唯一 | OK | 偏高 | 动词化学感强；例句就是drink water
+hymn | 不能 | 不唯一 | 注意 | 偏高 | 宗教歌曲对部分家庭敏感；例句也可写song
+hyperbole | 不能 | 不唯一 | OK | 偏高 | 修辞术语；例句虽解释但词形太难
+icon | 勉强 | 不唯一 | OK | 合适 | 电脑图标可能熟；例句也可用picture/button
+imbue | 不能 | 不唯一 | OK | 偏高 | 书面词；例句也可写filled/taught
+impervious | 不能 | 不唯一 | OK | 偏高 | 词形长；例句=waterproof/resistant
+impound | 不能 | 不唯一 | OK | 偏高 | 法律场景；例句也可写towed/took the car
+indent | 不能 | 不唯一 | OK | 偏高 | 写作排版术语；例句靠作文技能但孩子可能没学段落
+inferno | 不能 | 不唯一 | OK | 偏高 | 文学化大火；例句也可写big fire
+infuse | 不能 | 不唯一 | OK | 偏高 | 双义；柠檬水例句也可写add flavor
+inlet | 不能 | 不唯一 | OK | 偏高 | 地理词；例句也可写bay
+inquest | 不能 | 不唯一 | OK | 偏高 | 司法调查词；例句过于泛(找发生了啥)不够唯一
+instill | 不能 | 不唯一 | OK | 偏高 | 书面词；例句也可写taught/put into
+insular | 不能 | 不唯一 | OK | 偏高 | 抽象且有价值判断；例句“与外界少联系”也可写isolated
+intrigue | 不能 | 不唯一 | OK | 偏高 | 动词抽象；例句神秘盒子也可写interested
+inundate | 不能 | 不唯一 | OK | 偏高 | 书面词；例句=lots of calls/overwhelmed
+irate | 不能 | 不唯一 | OK | 偏高 | 低频“暴怒”；例句也可写angry
+irk | 不能 | 不唯一 | OK | 偏高 | 低频轻微恼人；例句也可写annoyed
+ivory | 勉强 | 不唯一 | 注意 | 偏高 | 涉及象牙来源家长可能敏感；例句实际是“象牙色”更安全但仍需讲清
+jaunt | 不能 | 不唯一 | OK | 偏高 | 低频“短途游玩”；例句也可写trip
+jest | 不能 | 不唯一 | OK | 偏高 | 低频；例句也可写joke
+jettison | 不能 | 不唯一 | OK | 偏高 | 航空/海事书面词；例句也可写dropped/threw away
+jinx | 不能 | 不唯一 | 注意 | 偏高 | 迷信/不祥话题对部分家长敏感；例句也可写bad luck
+jostle | 不能 | 不唯一 | OK | 偏高 | 低频；例句也可写push/bump
+jubilant | 不能 | 不唯一 | OK | 偏高 | 词形长；例句=very happy/cheering
+juncture | 不能 | 不唯一 | OK | 偏高 | 抽象“关键点”；例句几乎可用moment/point
+juniper | 不能 | 不唯一 | OK | 偏高 | 植物词冷门；例句也可写bushes
+kernel | 勉强 | 不唯一 | OK | 合适 | popcorn语境能猜；但kernel也有别义，仍可能写piece
+kilt | 不能 | 不唯一 | OK | 偏高 | 文化服饰词；例句很具体但需要苏格兰背景
+knack | 不能 | 不唯一 | OK | 偏高 | 抽象“天赋”；例句也可写talent
+knead | 不能 | 不唯一 | OK | 偏高 | 烘焙动词；例句也可写mixed/pressed dough
+knell | 不能 | 不唯一 | OK | 偏高 | 低频名词；例句=bell sound，但也可直接写ringing
+knoll | 不能 | 不唯一 | OK | 偏高 | 低频“小圆丘”；例句也可写hill
+lacquer | 不能 | 不唯一 | OK | 偏高 | 工艺涂层词；例句也可写paint/coating
+lair | 不能 | 不唯一 | OK | 偏高 | 书面“兽穴”；例句也可写den
+lance | 不能 | 不唯一 | OK | 偏高 | 中世纪武器词；例句也可写spear
+lanky | 不能 | 不唯一 | OK | 偏高 | 形容人身材词；例句也可写tall and thin
+lattice | 不能 | 不唯一 | OK | 偏高 | 结构词；例句也可写wood frame
+lavish | 不能 | 不唯一 | OK | 偏高 | 抽象“奢华/大方”；例句也可写fancy/big
+ledger | 不能 | 不唯一 | OK | 偏高 | 账本词；例句也可写record book
+leech | 勉强 | 不唯一 | OK | 合适 | 有点恶心但能学；例句也可写worm
+leer | 不能 | 不唯一 | OK | 偏高 | 低频且语用细；例句也可写looked
+legible | 不能 | 不唯一 | OK | 偏高 | 书面词；例句也可写neat/clear writing
+legion | 不能 | 不唯一 | OK | 偏高 | 多义且夸张；例句也可写crowd/tons
+lever | 不能 | 不唯一 | OK | 偏高 | 物理/工具词；例句也可写bar
+lilac | 不能 | 不唯一 | OK | 偏高 | 植物词冷门；例句很好但需要见过花
+limber | 不能 | 不唯一 | OK | 偏高 | 形容词低频；例句也可写flexible
+limelight | 不能 | 不唯一 | OK | 偏高 | 比喻义强；例句也可写attention/fame
+limpid | 不能 | 不唯一 | OK | 偏高 | 低频“清澈”；例句也可写clear
+lineage | 不能 | 不唯一 | OK | 偏高 | 和ancestry重复；例句也可写family line
+linen | 不能 | 不唯一 | OK | 偏高 | 生活词但不高频；例句也可写cloth/tablecloth
+lintel | 不能 | 不唯一 | OK | 偏高 | 建筑构件词；例句也可写beam over door
+listless | 不能 | 不唯一 | OK | 偏高 | 情绪/状态词；例句也可写tired/no energy
+litany | 不能 | 不唯一 | OK | 偏高 | 抽象“冗长列表”；例句也可写long list
+lithe | 不能 | 不唯一 | OK | 偏高 | 低频“轻盈柔韧”；例句也可写graceful
+livelihood | 不能 | 不唯一 | OK | 偏高 | 抽象“谋生方式”；例句也可写job
+loam | 不能 | 不唯一 | OK | 偏高 | 土壤词；例句也可写soil
+lobe | 不能 | 不唯一 | OK | 偏高 | 身体部位词可学但不常用；例句也可写part of ear
+locale | 不能 | 不唯一 | OK | 偏高 | 抽象“地点/场景”；例句也可写place/setting
+locomotion | 不能 | 不唯一 | OK | 偏高 | 学术名词；例句也可写movement
+loft | 不能 | 不唯一 | OK | 偏高 | 房屋部位词但不常用；例句也可写attic
+lore | 不能 | 不唯一 | OK | 偏高 | 文化“传说/知识”；例句也可写stories
+lucid | 不能 | 不唯一 | OK | 偏高 | 抽象“清楚易懂”；例句也可写clear
+lull | 不能 | 不唯一 | OK | 偏高 | 名词/动词多义；例句也可写break/calm
+lunge | 不能 | 不唯一 | OK | 偏高 | 运动动词；例句也可写quick move forward
