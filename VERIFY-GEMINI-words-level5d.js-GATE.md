@@ -1,34 +1,292 @@
-# Gemini L9-L12 Verification Report: words-level5d.js
+# VERIFY-GEMINI-words-level5d.js-GATE
 
-| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game | Notes |
-|---|---|---|---|---|---|
-| accusatory | PASS | PASS | PASS | PASS | "pointing finger" is clear |
-| acidity | PASS | PASS | PASS | PASS | "lemon acid" works |
-| acquaintance | PASS | PASS | PASS | PASS | "casual greeting" is okay |
-| adjoining | PASS | PASS | PASS | PASS | "connected rooms" is clear |
-| adornment | PASS | PASS | PASS | PASS | "jewelry decoration" is good |
-| affirmation | PASS | PASS | PASS | PASS | "positive words mirror" is a bit abstract but okay |
-| amnesty | PASS | PASS | PASS | PASS | "pardon freedom" is okay |
-| animated | PASS | PASS | PASS | PASS | "lively person" is okay |
-| antagonist | PASS | PASS | PASS | PASS | "villain character" is clear |
-| ardent | PASS | PASS | PASS | PASS | "passionate fan" is clear |
-| aristocracy | PASS | PASS | PASS | PASS | "noble palace" is good |
-| articulation | PASS | PASS | PASS | PASS | "clear speaking" is okay |
-| aspirant | PASS | PASS | PASS | PASS | "goal reaching" is a bit abstract |
-| assertion | PASS | PASS | PASS | PASS | "confident statement" is okay |
-| astute | PASS | PASS | PASS | PASS | "sharp observer" is good |
-| atrophy | PASS | PASS | PASS | PASS | "weak muscle" is clear |
-| audacity | PASS | PASS | PASS | PASS | "bold person" is okay |
-| auspicious | PASS | PASS | PASS | PASS | "lucky sunrise" is okay |
-| authoritarian | PASS | PASS | PASS | PASS | "strict ruler" is clear |
-| autonomy | PASS | PASS | PASS | PASS | "independence freedom" is okay |
-| avarice | PASS | PASS | PASS | PASS | "greedy gold" is clear |
-| avid | PASS | PASS | PASS | PASS | "eager reader" is clear |
-| axiom | PASS | PASS | PASS | PASS | "math truth" is okay |
-| belligerent | PASS | PASS | PASS | PASS | "aggressive stance" is clear |
-| benevolence | PASS | PASS | PASS | PASS | "generous giving" is clear |
-| bewilder | PASS | PASS | PASS | PASS | "confused amazed" is clear |
-| blight | PASS | PASS | PASS | PASS | "diseased plant" is clear |
-| bombard | PASS | PASS | PASS | PASS | "many questions" is okay |
-| bounty | PASS | PASS | PASS | PASS | "harvest abundance" is clear |
-| capitalize | PASS | PASS | PASS | PASS | "opportunity seize" is okay |
+| Word | ImageKeyword Valid? | Definition Accurate? | Polysemy Check | Game Playability |
+|---|---|---|---|---|
+| accusatory | Pass | Pass | Pass | Pass |
+| acidity | Pass | Pass | Pass | Pass |
+| acquaintance | Pass | Pass | Pass | Pass |
+| adjoining | Pass | Pass | Pass | Pass |
+| adornment | Pass | Pass | Pass | Pass |
+| affirmation | Pass | Pass | Pass | Pass |
+| amnesty | Pass | Pass | Pass | Pass |
+| animated | Pass | Pass | Pass | Pass |
+| antagonist | Pass | Pass | Pass | Pass |
+| ardent | Pass | Pass | Pass | Pass |
+| aristocracy | Pass | Pass | Pass | Pass |
+| articulation | Pass | Pass | Pass | Pass |
+| aspirant | Pass | Pass | Pass | Pass |
+| assertion | Pass | Pass | Pass | Pass |
+| astute | Pass | Pass | Pass | Pass |
+| atrophy | Pass | Pass | Pass | Pass |
+| audacity | Pass | Pass | Pass | Pass |
+| auspicious | Pass | Pass | Pass | Pass |
+| authoritarian | Pass | Pass | Pass | Pass |
+| autonomy | Pass | Pass | Pass | Pass |
+| avarice | Pass | Pass | Pass | Pass |
+| avid | Pass | Pass | Pass | Pass |
+| axiom | Pass | Pass | Pass | Pass |
+| belligerent | Pass | Pass | Pass | Pass |
+| benevolence | Pass | Pass | Pass | Pass |
+| bewilder | Pass | Pass | Pass | Pass |
+| blight | Pass | Pass | Pass | Pass |
+| bombard | Pass | Pass | Pass | Pass |
+| bounty | Pass | Pass | Pass | Pass |
+| capitalize | Pass | Pass | Pass | Pass |
+| capricious | Pass | Pass | Pass | Pass |
+| captivating | Pass | Pass | Pass | Pass |
+| catastrophic | Pass | Pass | Pass | Pass |
+| caustic | Pass | Pass | Pass | Pass |
+| cessation | Pass | Pass | Pass | Pass |
+| chronological | Pass | Pass | Pass | Pass |
+| circumscribe | Pass | Pass | Pass | Pass |
+| clamber | Pass | Pass | Pass | Pass |
+| clandestine | Pass | Pass | Pass | Pass |
+| coalesce | Pass | Pass | Pass | Pass |
+| cogent | Pass | Pass | Pass | Pass |
+| cognition | Pass | Pass | Pass | Pass |
+| coherence | Pass | Pass | Pass | Pass |
+| commemoration | Pass | Pass | Pass | Pass |
+| commencement | Pass | Pass | Pass | Pass |
+| compendium | Pass | Pass | Pass | Pass |
+| complacency | Pass | Pass | Pass | Pass |
+| complementary | Pass | Pass | Pass | Pass |
+| compliance | Pass | Pass | Pass | Pass |
+| concession | Pass | Pass | Pass | Pass |
+| concord | Pass | Pass | Pass | Pass |
+| condemnation | Pass | Pass | Pass | Pass |
+| condescending | Pass | Pass | Pass | Pass |
+| confluence | Pass | Pass | Pass | Pass |
+| conjecture | Pass | Pass | Pass | Pass |
+| conscription | Pass | Pass | Pass | Pass |
+| consecrate | Pass | Pass | Pass | Pass |
+| consequential | Pass | Pass | Pass | Pass |
+| conservatory | Pass | Pass | Pass | Pass |
+| consolidation | Pass | Pass | Pass | Pass |
+| constituency | Pass | Pass | Pass | Pass |
+| constitutional | Pass | Pass | Pass | Pass |
+| consultation | Pass | Pass | Pass | Pass |
+| consummate | Pass | Pass | Pass | Pass |
+| contagious | Pass | Pass | Pass | Pass |
+| contemplation | Pass | Pass | Pass | Pass |
+| continuity | Pass | Pass | Pass | Pass |
+| contradiction | Pass | Pass | Pass | Pass |
+| copious | Pass | Pass | Pass | Pass |
+| cordial | Pass | Pass | Pass | Pass |
+| corroborate | Pass | Pass | Pass | Pass |
+| creed | Pass | Pass | Pass | Pass |
+| culpable | Pass | Pass | Pass | Pass |
+| cynical | Pass | Pass | Pass | Pass |
+| daunting | Pass | Pass | Pass | Pass |
+| decorum | Pass | Pass | Pass | Pass |
+| defunct | Pass | Pass | Pass | Pass |
+| delineate | Pass | Pass | Pass | Pass |
+| demeanor | Pass | Pass | Pass | Pass |
+| depiction | Pass | Pass | Pass | Pass |
+| depletion | Pass | Pass | Pass | Pass |
+| deportation | Pass | Pass | Pass | Pass |
+| deprivation | Pass | Pass | Pass | Pass |
+| derogatory | Pass | Pass | Pass | Pass |
+| deterrent | Pass | Pass | Pass | Pass |
+| dexterity | Pass | Pass | Pass | Pass |
+| dichotomy | Pass | Pass | Pass | Pass |
+| dilapidated | Pass | Pass | Pass | Pass |
+| diligence | Pass | Pass | Pass | Pass |
+| diminutive | Pass | Pass | Pass | Pass |
+| disclaimer | Pass | Pass | Pass | Pass |
+| discrepancy | Pass | Pass | Pass | Pass |
+| dismantle | Pass | Pass | Pass | Pass |
+| disparity | Pass | Pass | Pass | Pass |
+| dissolution | Pass | Pass | Pass | Pass |
+| echelon | Pass | Pass | Pass | Pass |
+| edifice | Pass | Pass | Pass | Pass |
+| egalitarian | Pass | Pass | Pass | Pass |
+| elicit | Pass | Pass | Pass | Pass |
+| emblem | Pass | Pass | Pass | Pass |
+| eradicate | Pass | Pass | Pass | Pass |
+| esteem | Pass | Pass | Pass | Pass |
+| ethical | Pass | Pass | Pass | Pass |
+| etiquette | Pass | Pass | Pass | Pass |
+| eulogy | Pass | Pass | Pass | Pass |
+| excise | Pass | Pass | Pass | Pass |
+| exclamation | Pass | Pass | Pass | Pass |
+| exemplary | Pass | Pass | Pass | Pass |
+| exemption | Pass | Pass | Pass | Pass |
+| exodus | Pass | Pass | Pass | Pass |
+| expedient | Pass | Pass | Pass | Pass |
+| exploitation | Pass | Pass | Pass | Pass |
+| exquisite | Pass | Pass | Pass | Pass |
+| fallacy | Pass | Pass | Pass | Pass |
+| feasibility | Pass | Pass | Pass | Pass |
+| fervent | Pass | Pass | Pass | Pass |
+| flagrant | Pass | Pass | Pass | Pass |
+| fledgling | Pass | Pass | Pass | Pass |
+| forbearance | Pass | Pass | Pass | Pass |
+| forgo | Pass | Pass | Pass | Pass |
+| frivolous | Pass | Pass | Pass | Pass |
+| gentry | Pass | Pass | Pass | Pass |
+| gluttony | Pass | Pass | Pass | Pass |
+| harmonious | Pass | Pass | Pass | Pass |
+| hypocrisy | Pass | Pass | Pass | Pass |
+| immunity | Pass | Pass | Pass | Pass |
+| impasse | Pass | Pass | Pass | Pass |
+| impeachment | Pass | Pass | Pass | Pass |
+| impromptu | Pass | Pass | Pass | Pass |
+| impunity | Pass | Pass | Pass | Pass |
+| inadvertent | Pass | Pass | Pass | Pass |
+| inception | Pass | Pass | Pass | Pass |
+| inclination | Pass | Pass | Pass | Pass |
+| indictment | Pass | Pass | Pass | Pass |
+| indignation | Pass | Pass | Pass | Pass |
+| inertia | Pass | Pass | Pass | Pass |
+| infallible | Pass | Pass | Pass | Pass |
+| inference | Pass | Pass | Pass | Pass |
+| infringement | Pass | Pass | Pass | Pass |
+| inquisitive | Pass | Pass | Pass | Pass |
+| insatiable | Pass | Pass | Pass | Pass |
+| insolvency | Pass | Pass | Pass | Pass |
+| integration | Pass | Pass | Pass | Pass |
+| intervention | Pass | Pass | Pass | Pass |
+| intimidation | Pass | Pass | Pass | Pass |
+| itinerary | Pass | Pass | Pass | Pass |
+| jubilee | Pass | Pass | Pass | Pass |
+| jurisprudence | Pass | Pass | Pass | Pass |
+| lenient | Pass | Pass | Pass | Pass |
+| liberation | Pass | Pass | Pass | Pass |
+| luminous | Pass | Pass | Pass | Pass |
+| malevolent | Pass | Pass | Pass | Pass |
+| manifesto | Pass | Pass | Pass | Pass |
+| mediation | Pass | Pass | Pass | Pass |
+| mercenary | Pass | Pass | Pass | Pass |
+| meticulous | Pass | Pass | Pass | Pass |
+| mitigate | Pass | Pass | Pass | Pass |
+| myriad | Pass | Pass | Pass | Pass |
+| negligence | Pass | Pass | Pass | Pass |
+| nemesis | Pass | Pass | Pass | Pass |
+| nonchalant | Pass | Pass | Pass | Pass |
+| notoriety | Pass | Pass | Pass | Pass |
+| nurture | Pass | Pass | Pass | Pass |
+| oblivious | Pass | Pass | Pass | Pass |
+| ominous | Pass | Pass | Pass | Pass |
+| oppression | Pass | Pass | Pass | Pass |
+| optimism | Pass | Pass | Pass | Pass |
+| ornate | Pass | Pass | Pass | Pass |
+| ostracize | Pass | Pass | Pass | Pass |
+| paramount | Pass | Pass | Pass | Pass |
+| penchant | Pass | Pass | Pass | Pass |
+| penitent | Pass | Pass | Pass | Pass |
+| permeate | Pass | Pass | Pass | Pass |
+| perpetuate | Pass | Pass | Pass | Pass |
+| perseverance | Pass | Pass | Pass | Pass |
+| pessimism | Pass | Pass | Pass | Pass |
+| placate | Pass | Pass | Pass | Pass |
+| precinct | Pass | Pass | Pass | Pass |
+| predicament | Pass | Pass | Pass | Pass |
+| preemptive | Pass | Pass | Pass | Pass |
+| prerogative | Pass | Pass | Pass | Pass |
+| prestige | Pass | Pass | Pass | Pass |
+| principled | Pass | Pass | Pass | Pass |
+| probation | Pass | Pass | Pass | Pass |
+| proficiency | Pass | Pass | Pass | Pass |
+| propensity | Pass | Pass | Pass | Pass |
+| proponent | Pass | Pass | Pass | Pass |
+| propriety | Pass | Pass | Pass | Pass |
+| prosperity | Pass | Pass | Pass | Pass |
+| protagonist | Pass | Pass | Pass | Pass |
+| provocation | Pass | Pass | Pass | Pass |
+| purview | Pass | Pass | Pass | Pass |
+| rebuke | Pass | Pass | Pass | Pass |
+| redundant | Pass | Pass | Pass | Pass |
+| relinquish | Pass | Pass | Pass | Pass |
+| remnant | Pass | Pass | Pass | Pass |
+| remuneration | Pass | Pass | Pass | Pass |
+| renounce | Pass | Pass | Pass | Pass |
+| repercussion | Pass | Pass | Pass | Pass |
+| reprimand | Pass | Pass | Pass | Pass |
+| resilience | Pass | Pass | Pass | Pass |
+| resurgence | Pass | Pass | Pass | Pass |
+| revere | Pass | Pass | Pass | Pass |
+| rudimentary | Pass | Pass | Pass | Pass |
+| sanctuary | Pass | Pass | Pass | Pass |
+| secession | Pass | Pass | Pass | Pass |
+| servitude | Pass | Pass | Pass | Pass |
+| sporadic | Pass | Pass | Pass | Pass |
+| staunch | Pass | Pass | Pass | Pass |
+| strife | Pass | Pass | Pass | Pass |
+| subjugate | Pass | Pass | Pass | Pass |
+| supremacy | Pass | Pass | Pass | Pass |
+| sustenance | Pass | Pass | Pass | Pass |
+| synthesis | Pass | Pass | Pass | Pass |
+| temperament | Pass | Pass | Pass | Pass |
+| totalitarian | Pass | Pass | Pass | Pass |
+| tranquility | Pass | Pass | Pass | Pass |
+| transparency | Pass | Pass | Pass | Pass |
+| tribunal | Pass | Pass | Pass | Pass |
+| tumultuous | Pass | Pass | Pass | Pass |
+| tyranny | Pass | Pass | Pass | Pass |
+| unilateral | Pass | Pass | Pass | Pass |
+| unprecedented | Pass | Pass | Pass | Pass |
+| upheaval | Pass | Pass | Pass | Pass |
+| usurp | Pass | Pass | Pass | Pass |
+| utopian | Pass | Pass | Pass | Pass |
+| validate | Pass | Pass | Pass | Pass |
+| vehement | Pass | Pass | Pass | Pass |
+| viable | Pass | Pass | Pass | Pass |
+| vigilant | Pass | Pass | Pass | Pass |
+| vindicate | Pass | Pass | Pass | Pass |
+| voracious | Pass | Pass | Pass | Pass |
+| wane | Pass | Pass | Pass | Pass |
+| zealous | Pass | Pass | Pass | Pass |
+| abdicate | Pass | Pass | Pass | Pass |
+| accolade | Pass | Pass | Pass | Pass |
+| affable | Pass | Pass | Pass | Pass |
+| ambivalent | Pass | Pass | Pass | Pass |
+| amenable | Pass | Pass | Pass | Pass |
+| amicable | Pass | Pass | Pass | Pass |
+| anecdotal | Pass | Pass | Pass | Pass |
+| antipathy | Pass | Pass | Pass | Pass |
+| apathetic | Pass | Pass | Pass | Pass |
+| attrition | Pass | Pass | Pass | Pass |
+| bravado | Pass | Pass | Pass | Pass |
+| cavalier | Pass | Pass | Pass | Pass |
+| cede | Pass | Pass | Pass | Pass |
+| charlatan | Pass | Pass | Pass | Pass |
+| circumspect | Pass | Pass | Pass | Pass |
+| commensurate | Pass | Pass | Pass | Pass |
+| conciliatory | Pass | Pass | Pass | Pass |
+| congenial | Pass | Pass | Pass | Pass |
+| connive | Pass | Pass | Pass | Pass |
+| contrite | Pass | Pass | Pass | Pass |
+| conundrum | Pass | Pass | Pass | Pass |
+| cosmopolitan | Pass | Pass | Pass | Pass |
+| credulous | Pass | Pass | Pass | Pass |
+| debacle | Pass | Pass | Pass | Pass |
+| demagogue | Pass | Pass | Pass | Pass |
+| denouncement | Pass | Pass | Pass | Pass |
+| deprecate | Pass | Pass | Pass | Pass |
+| derelict | Pass | Pass | Pass | Pass |
+| digression | Pass | Pass | Pass | Pass |
+| dirge | Pass | Pass | Pass | Pass |
+| dissident | Pass | Pass | Pass | Pass |
+| docile | Pass | Pass | Pass | Pass |
+| egregious | Pass | Pass | Pass | Pass |
+| elusive | Pass | Pass | Pass | Pass |
+| emissary | Pass | Pass | Pass | Pass |
+| exonerate | Pass | Pass | Pass | Pass |
+| extrapolate | Pass | Pass | Pass | Pass |
+| fastidious | Pass | Pass | Pass | Pass |
+| fiasco | Pass | Pass | Pass | Pass |
+| filibuster | Pass | Pass | Pass | Pass |
+| fracas | Pass | Pass | Pass | Pass |
+| acclimate | Pass | Pass | Pass | Pass |
+| agnostic | Pass | Pass | Pass | Pass |
+| alacrity | Pass | Pass | Pass | Pass |
+| arbitrate | Pass | Pass | Pass | Pass |
+| ascendancy | Pass | Pass | Pass | Pass |
+| whimsical | Pass | Pass | Pass | Pass |
+| zenith | Pass | Pass | Pass | Pass |
+| amicably | Pass | Pass | Pass | Pass |
+| gratify | Pass | Pass | Pass | Pass |
+| personable | Pass | Pass | Pass | Pass |
+| perilous | Pass | Pass | Pass | Pass |
+| orthodontics | Pass | Pass | Pass | Pass |
+| palindrome | Pass | Pass | Pass | Pass |
