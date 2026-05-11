@@ -2,5 +2,7 @@
 _tmp_*.tsv
 _tmp_*.json
 
+evaluate-gemini.js
+
 # OS
 .DS_Store
