@@ -5,6 +5,7 @@
 - L6: Reverse test — blank example + 4 options.
 - L7: Cultural sensitivity.
 - L8: Learning path / level fit.
+- Selection note: word-status.json shows currentGate min=6 for all files → pick words-level1.js (first key) for this run.
 
 - puppy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[palm / puppy / tail / tongue] | L7:OK | L8:合适
 - kitten | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fur / kitten / moss / rug] | L7:OK | L8:合适
