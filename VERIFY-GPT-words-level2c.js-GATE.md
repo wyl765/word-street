@@ -1,5 +1,7 @@
 # VERIFY-GPT — words-level2c.js
 
+说明：依据 word-status.json 选择 currentGate 最小的文件进行复核；若并列，按 files 字段出现顺序取第一个（本次为 words-level2c.js）。
+
 规则：每行=1词；包含 L5/L6/L7/L8 结论。
 
 - achieve | L5:def=能; ex=勉强(能猜到动作意思，但常需要选项才能锁定) | L6:能 | L7:OK | L8:合适(顺序:字母序(便于查找，非先易后难))
