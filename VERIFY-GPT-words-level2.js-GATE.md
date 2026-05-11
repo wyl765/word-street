@@ -61,7 +61,7 @@
 - state | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / again / state] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；学术词缀)
 - city | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alley / city / granite / little] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
 - border | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[border / fence / grapevine / guard] | L7:OK | L8:合适
-- freedom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alone / election / freedom / vote] | L7:OK | L8:合适
+- freedom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alone / election / freedom / vote] | L7:注意(词义容易被联想到政治概念；好在例句用“选书自由”做了降敏，教学上建议先用choose/permission做支架) | L8:合适
 - election | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / election / quiet / vote] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
 - subtract | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chestnut / crumble / pasture / subtract] | L7:OK | L8:合适
 - multiply | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“fold”，目标词不唯一) | 选项:[fill / fold / mix / multiply] | L7:OK | L8:合适
@@ -131,7 +131,7 @@
 - bargain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bargain / cost / occasionally / price] | L7:OK | L8:合适
 - base | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[base / beeswax / chisel / famous] | L7:OK | L8:合适
 - basic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[basic / gentleman / kind / rule] | L7:OK | L8:合适
-- battle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / afterward / battle / score] | L7:OK | L8:合适
+- battle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / afterward / battle / score] | L7:注意(暴力/战争意象；例句用pretend game已弱化，但仍可能触发部分家长对“打仗/打斗”词的顾虑) | L8:勉强(可作为认识词；非低龄核心高频)
 - beach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beach / bonfire / bunker / destroy] | L7:OK | L8:合适
 - beam | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / blaze / comet / hallway] | L7:OK | L8:合适
 - because | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / bright / mask / weather] | L7:OK | L8:合适
@@ -440,12 +440,12 @@
 - cashew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / cashew / handful / hickory] | L7:OK | L8:合适
 - cedar | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tree,smell) | 选项:[cedar / fence / fig / mulberry] | L7:OK | L8:合适
 - cellar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cellar / cobblestone / dagger / modern] | L7:OK | L8:合适
-- chapel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chance / chapel / dark / gradually] | L7:OK | L8:合适
+- chapel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chance / chapel / dark / gradually] | L7:注意(宗教/祈祷语境+结婚；中国家长口味分化，建议例句更中性如参观小礼拜堂建筑) | L8:勉强(更适合作为认识词；文化/宗教依赖)
 - chariot | L5-Def:能 | L5-Ex:能 | L6:能(线索词: pulled,horses) | 选项:[bicycle / chariot / corral / palace] | L7:OK | L8:合适
 - chestnut | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / bonfire / chestnut / kindle] | L7:OK | L8:合适
 - chisel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:used)，易靠语感/蒙) | 选项:[base / carve / chisel / famous] | L7:OK | L8:合适
 - chord | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:played)，易靠语感/蒙) | 选项:[chord / fiddle / field / outside] | L7:OK | L8:合适
-- cider | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[become / change / cider / harvest] | L7:OK | L8:合适
+- cider | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[become / change / cider / harvest] | L7:注意(英美语境cider有时指含酒精饮品；低龄材料建议明确apple cider(非酒精)或改成apple juice/fruit drink) | L8:合适
 - clam | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[beach / believe / clam / nature] | L7:OK | L8:合适
 - cloak | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / cloak / dark / mask] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
 - cobblestone | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[adult / balcony / block / cobblestone] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
@@ -458,7 +458,7 @@
 - crumb | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[crumb / least / move / under] | L7:OK | L8:合适
 - cuff | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[although / cuff / jacket / marble] | L7:OK | L8:合适
 - cypress | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[cypress / grove / hammock / immediately] | L7:OK | L8:合适
-- dagger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancient / cobblestone / dagger / modern] | L7:OK | L8:合适
+- dagger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancient / cobblestone / dagger / modern] | L7:注意(武器/暴力意象；例句“博物馆展品”较中性，但仍可能不适合低龄作为重点词) | L8:勉强(可作为认识词；如不走历史/武器主题可后置)
 - dandelion | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:seeds)，易靠语感/蒙) | 选项:[dandelion / dig / gale / scatter] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
 - deck | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[deck / dinner / lunch / save] | L7:OK | L8:合适
 - delta | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:river)，易靠语感/蒙) | 选项:[binoculars / delta / depend / earth] | L7:OK | L8:合适
