@@ -60,7 +60,8 @@
       "gate4": "pass",
       "gate5": "pass",
       "gate6": "pass",
-      "gate13": "pass"
+      "gate13": "pass",
+      "gate14": "pass"
     },
     "words-level2c.js": {
       "totalWords": 219,
