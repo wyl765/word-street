@@ -101,7 +101,11 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass",
+      "gate9": "pass",
+      "gate10": "pass",
+      "gate11": "pass",
+      "gate12": "pass"
     },
     "words-level3b.js": {
       "totalWords": 315,
