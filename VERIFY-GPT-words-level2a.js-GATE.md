@@ -6,6 +6,12 @@
 - L7: Cultural sensitivity.
 - L8: Learning path / level fit.
 
+快速量化结论（便于挑重点改）:
+- 整体：对MAP≈197更友好；400词里绝大多数在L5(def/ex)可理解，例句也相对可用。
+- L6:不能（遮词后难以唯一确定）: 3/400 — probably, usually, hypothesis
+- L8:不合适（偏学科术语/前置知识要求高）: 1/400 — oxygen
+- L7:注意（家长接受度/成人制度语境）: 1/400 — levy
+
 - avoid | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[avoid / explore / filthy / hug] | L7:OK | L8:合适
 - burst | L5-Def:勉强(定义稍长/有抽象词，需要中文解释或图) | L5-Ex:能 | L6:能 | 选项:[adapt / amend / burst / implication] | L7:OK | L8:合适
 - bury | L5-Def:能 | L5-Ex:能 | L6:能 | 选项:[boundary / bury / harsh / hike] | L7:OK | L8:合适
