@@ -5,6 +5,7 @@
 - L6: Reverse test — blank example + 4 options.
 - L7: Cultural sensitivity.
 - L8: Learning path / level fit.
+- Method: gen_verify_gpt_gate_auto.mjs heuristic pass (useful for spotting weak defs/examples/culture/level-fit; human follow-up where flagged).
 
 - moral | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:story)，易靠语感/蒙) | 选项:[conflict / dependable / moral / retell] | L7:OK | L8:合适
 - fable | L5-Def:勉强(需要中文支架/图示；词缀偏学术、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / bestow / fable / moral] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
