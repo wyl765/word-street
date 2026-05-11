@@ -4,331 +4,331 @@
 
 格式: word | L5(Mark模拟) | L6(例句反测) | L7(文化敏感) | L8(学习路径)
 
-- abolition | 不能(卡点:officially) | 不唯一(选项:abolition/desegregation/illegitimate/uprising; 得分:abolition=0,次优=0) | 注意(奴隶制/种族议题;政治/制度语境) | 合适
-- abrupt | 勉强(卡点:unexpected) | 不唯一(选项:abrupt/deluge/abolition/acclaimed; 得分:abrupt=0,次优=0) | OK | 合适
-- acclaimed | 勉强 | 不唯一(选项:acclaimed/dominion/desegregation/proclamation; 得分:acclaimed=0,次优=0) | OK | 合适
-- accountant | 不能(卡点:person/who/job) | 不唯一(选项:accountant/civilian/philanthropist/absentee; 得分:accountant=0,次优=0) | OK | 合适(定义语法不稳→额外负担)
-- acute | 不能(卡点:sharp/bad/angle) | 不唯一(选项:acute/calamity/devastation/crucible; 得分:acute=0,次优=0) | OK | 合适
-- adhesive | 勉强 | 不唯一(选项:adhesive/brigade/anatomy/congregate; 得分:adhesive=0,次优=0) | OK | 合适(定义语法不稳→额外负担)
-- aerial | 勉强(卡点:happening) | 不唯一(选项:aerial/biennial/cascade/amphitheater; 得分:aerial=0,次优=0) | OK | 合适
-- affirmative | 勉强(卡点:agreement) | 不唯一(选项:affirmative/armistice/truce/iridescent; 得分:affirmative=0,次优=0) | OK | 偏难(抽象词形态)
-- ailment | 勉强(卡点:serious) | 不唯一(选项:ailment/abolition/abrupt/acclaimed; 得分:ailment=0,次优=0) | OK | 合适
-- aisle | 勉强 | 不唯一(选项:aisle/amphitheater/abolition/abrupt; 得分:aisle=0,次优=0) | OK | 合适
-- algebra | 不能(卡点:working/numbers/uses) | 不唯一(选项:algebra/arithmetic/antidote/mammoth; 得分:algebra=1,次优=0) | OK | 合适
-- allegory | 不能(卡点:characters) | 不唯一(选项:allegory/theology/ambiguity/persecution; 得分:allegory=0,次优=1) | OK | 合适
-- allude | 勉强(卡点:mention/something) | 不唯一(选项:allude/blockade/circumnavigate/ambiguity; 得分:allude=0,次优=0) | OK | 合适
-- ambassador | 勉强(卡点:represent/nation) | 不唯一(选项:ambassador/impersonate/emigrate/expatriate; 得分:ambassador=0,次优=0) | OK | 合适
-- ambiguity | 不能(卡点:situation/something) | 不唯一(选项:ambiguity/complication/allude/devious; 得分:ambiguity=0,次优=0) | OK | 合适
-- ammunition | 勉强 | 不唯一(选项:ammunition/armament/distinction/hallucination; 得分:ammunition=0,次优=0) | 注意(战争/武器) | 合适
-- anatomy | 不能(卡点:learning/about/parts) | 不唯一(选项:anatomy/botanical/adhesive/cardiovascular; 得分:anatomy=0,次优=0) | OK | 合适
-- animation | 不能(卡点:process/making/drawings) | 不唯一(选项:animation/combustion/germination/bankruptcy; 得分:animation=0,次优=0) | OK | 合适
-- annotate | 不能(卡点:something) | 不唯一(选项:annotate/dubious/defamation/indignant; 得分:annotate=0,次优=0) | OK | 合适
-- antidote | 勉强 | 不唯一(选项:antidote/arithmetic/freelance/algebra; 得分:antidote=0,次优=0) | OK | 合适
-- antiquity | 勉强(卡点:especially) | 不唯一(选项:antiquity/archaic/apparel/testimony; 得分:antiquity=0,次优=0) | OK | 合适
-- apparel | 勉强(卡点:especially) | 不唯一(选项:apparel/ascertain/testimony/brigand; 得分:apparel=0,次优=0) | OK | 合适
-- apportion | 勉强(卡点:something) | 不唯一(选项:apportion/ascertain/contingency/divert; 得分:apportion=0,次优=0) | OK | 合适
-- arcade | 勉强 | 不唯一(选项:arcade/devastation/hydraulic/plague; 得分:arcade=1,次优=0) | OK | 合适
-- archaic | 勉强(卡点:fashioned) | 不唯一(选项:archaic/antiquity/geriatric/feudal; 得分:archaic=0,次优=0) | OK | 合适
-- arithmetic | 不能(卡点:subtracting/multiplying) | 不唯一(选项:arithmetic/algebra/antidote/destitute; 得分:arithmetic=0,次优=0) | OK | 合适
-- armistice | 勉强(卡点:agreement) | 不唯一(选项:armistice/truce/capitulate/affirmative; 得分:armistice=1,次优=2) | 注意(战争/武器) | 合适
-- ascertain | 勉强(卡点:something) | 不唯一(选项:ascertain/apportion/contingency/convict; 得分:ascertain=0,次优=0) | OK | 合适
-- assertive | 勉强 | 不唯一(选项:assertive/empowerment/bilingual/dubious; 得分:assertive=0,次优=0) | OK | 合适
-- astonish | 勉强 | 不唯一(选项:astonish/incarcerate/debilitate/exasperate; 得分:astonish=0,次优=0) | OK | 合适
-- astronaut | 勉强 | 不唯一(选项:astronaut/colleague/attic/civilian; 得分:astronaut=1,次优=1) | OK | 合适
-- astronomy | 勉强 | 不唯一(选项:astronomy/attic/entomology/ornithology; 得分:astronomy=0,次优=0) | OK | 偏难(偏学科/术语)
-- attic | 勉强 | 不唯一(选项:attic/astronaut/astronomy/estate; 得分:attic=0,次优=0) | OK | 合适
-- audible | 勉强 | 不唯一(选项:audible/circa/dubious/botanical; 得分:audible=0,次优=0) | OK | 合适
-- automation | 不能(卡点:use/machines/do) | 不唯一(选项:automation/contractor/diplomatic/colleague; 得分:automation=0,次优=0) | OK | 合适
-- bachelor | 不能(卡点:定义句子偏长/抽象) | 能唯一(选项:bachelor/inheritance/dictator/civilian; 得分:bachelor=3,次优=0) | OK | 合适
-- ballad | 勉强 | 不唯一(选项:ballad/exposition/allegory/abolition; 得分:ballad=0,次优=0) | OK | 合适
-- barricade | 勉强 | 不唯一(选项:barricade/emancipate/assertive/depleted; 得分:barricade=1,次优=1) | OK | 合适
-- bazaar | 不能(卡点:especially) | 不唯一(选项:bazaar/apparel/testimony/brigand; 得分:bazaar=0,次优=0) | OK | 合适
-- benign | 勉强 | 不唯一(选项:benign/compliment/containment/delicacy; 得分:benign=0,次优=0) | OK | 合适
-- bibliography | 勉强 | 不唯一(选项:bibliography/circa/depleted/lexicon; 得分:bibliography=0,次优=1) | OK | 合适
-- bilingual | 勉强(卡点:languages) | 不唯一(选项:bilingual/eloquence/distinction/polarize; 得分:bilingual=0,次优=0) | OK | 合适
-- blemish | 不能(卡点:something) | 不唯一(选项:blemish/cascade/retribution/conspire; 得分:blemish=1,次优=2) | OK | 合适
-- bliss | 勉强(卡点:happiness) | 不唯一(选项:bliss/euphoria/despair/dismay; 得分:bliss=0,次优=0) | OK | 合适
-- blockade | 勉强(卡点:something/movement) | 不唯一(选项:blockade/circumnavigate/allude/instigate; 得分:blockade=1,次优=0) | OK | 合适
-- bouquet | 勉强 | 不唯一(选项:bouquet/congregate/coexist/adhesive; 得分:bouquet=0,次优=0) | OK | 合适
-- brigade | 不能(卡点:firefighters) | 不唯一(选项:brigade/adhesive/charisma/confederacy; 得分:brigade=0,次优=0) | OK | 合适
-- buoyant | 不能(卡点:able/float/cheerful) | 不唯一(选项:buoyant/artisan/coincidence/festive; 得分:buoyant=0,次优=0) | OK | 合适
-- caffeine | 勉强 | 不唯一(选项:caffeine/complication/exhilarate/adhesive; 得分:caffeine=0,次优=1) | OK | 合适
-- calamity | 勉强 | 不唯一(选项:calamity/devastation/acute/crucible; 得分:calamity=0,次优=0) | OK | 合适
-- caliber | 勉强 | 不唯一(选项:caliber/competence/defamation/credential; 得分:caliber=0,次优=0) | OK | 合适
-- calligraphy | 不能(卡点:handwriting) | 不唯一(选项:calligraphy/critique/coronation/fluorescent; 得分:calligraphy=1,次优=1) | OK | 合适
-- cardiovascular | 不能(卡点:about/heart/how) | 不唯一(选项:cardiovascular/botanical/corporal/anatomy; 得分:cardiovascular=1,次优=0) | 注意(死亡/暴力) | 合适
-- cascade | 不能(卡点:waterfall/happening) | 不唯一(选项:cascade/blemish/enclave/metaphor; 得分:cascade=0,次优=0) | OK | 合适
-- casualty | 勉强 | 能唯一(选项:casualty/colleague/civilian/impersonate; 得分:casualty=2,次优=0) | 注意(战争/武器;死亡/暴力) | 合适
-- charisma | 不能(卡点:something) | 不唯一(选项:charisma/ingenuity/enrich/clarification; 得分:charisma=0,次优=0) | 注意(政治/制度语境) | 合适
-- circa | 勉强 | 不唯一(选项:circa/audible/dubious/botanical; 得分:circa=0,次优=0) | OK | 合适
-- civilian | 勉强 | 不唯一(选项:civilian/absentee/assailant/anarchist; 得分:civilian=0,次优=0) | 注意(战争/武器) | 合适
-- clarification | 不能(卡点:something/understand) | 不唯一(选项:clarification/exposition/charisma/complication; 得分:clarification=0,次优=0) | OK | 偏难(抽象词形态)
-- clemency | 勉强(卡点:forgiveness) | 不唯一(选项:clemency/besiege/censorship/astonish; 得分:clemency=0,次优=0) | OK | 合适
-- cliche | 勉强 | 不唯一(选项:cliche/astonish/circa/bibliography; 得分:cliche=1,次优=0) | OK | 合适
-- clientele | 勉强(卡点:customers) | 不唯一(选项:clientele/devastation/lexicon/deforestation; 得分:clientele=0,次优=0) | OK | 合适
-- clockwise | 勉强(卡点:direction) | 不唯一(选项:clockwise/divert/immobilize/centrifugal; 得分:clockwise=0,次优=0) | OK | 合适
-- coax | 勉强(卡点:something) | 不唯一(选项:coax/competence/debut/disdain; 得分:coax=0,次优=0) | OK | 合适
-- coexist | 勉强(卡点:peacefully) | 不唯一(选项:coexist/congregate/bouquet/emigrate; 得分:coexist=0,次优=0) | OK | 合适
-- coincidence | 不能(卡点:surprising/situation/chance) | 不唯一(选项:coincidence/distinction/buoyant/juxtaposition; 得分:coincidence=1,次优=0) | OK | 偏难(抽象词形态)
-- colleague | 勉强 | 不唯一(选项:colleague/contractor/civilian/impersonate; 得分:colleague=0,次优=0) | OK | 合适
-- communism | 不能(卡点:government) | 不唯一(选项:communism/autocracy/estate/feudal; 得分:communism=0,次优=1) | 注意(政治/制度语境) | 合适
-- competence | 勉强(卡点:something) | 不唯一(选项:competence/coax/caliber/conspiracy; 得分:competence=0,次优=0) | OK | 合适
-- complication | 勉强(卡点:something/situation) | 不唯一(选项:complication/charisma/clarification/ambiguity; 得分:complication=0,次优=0) | OK | 偏难(抽象词形态)
-- compliment | 勉强 | 不唯一(选项:compliment/astonish/benign/incarcerate; 得分:compliment=0,次优=0) | OK | 合适
-- composure | 勉强 | 不唯一(选项:composure/mystification/dominion/subdue; 得分:composure=0,次优=0) | OK | 合适
-- conclusive | 勉强(卡点:something) | 不唯一(选项:conclusive/contingency/divert/combustion; 得分:conclusive=0,次优=0) | OK | 合适
-- condense | 不能(卡点:make/shorter/small) | 不唯一(选项:condense/divert/congregate/debilitate; 得分:condense=0,次优=0) | OK | 合适
-- conspire | 勉强(卡点:something) | 不唯一(选项:conspire/conspiracy/contingency/retribution; 得分:conspire=0,次优=0) | OK | 合适
-- contentious | 勉强(卡点:disagreement/arguments) | 不唯一(选项:contentious/malice/neutrality/instigate; 得分:contentious=0,次优=1) | OK | 合适
-- contingency | 勉强(卡点:something) | 不唯一(选项:contingency/conspire/conspiracy/divert; 得分:contingency=1,次优=1) | OK | 合适
-- contractor | 勉强 | 不唯一(选项:contractor/colleague/automation/civilian; 得分:contractor=0,次优=0) | OK | 合适
-- conversion | 勉强(卡点:something/different) | 不唯一(选项:conversion/contingency/divert/combustion; 得分:conversion=0,次优=0) | OK | 合适
-- convict | 不能(卡点:something) | 不唯一(选项:convict/acquittal/incriminate/accomplice; 得分:convict=0,次优=0) | 注意(政治/制度语境) | 合适
-- coral | 不能(卡点:creatures) | 不唯一(选项:coral/deluge/fissure/landlocked; 得分:coral=0,次优=0) | OK | 合适
-- coronation | 勉强 | 不唯一(选项:coronation/illegitimate/memento/encryption; 得分:coronation=1,次优=0) | OK | 合适
-- corporal | 勉强 | 不唯一(选项:corporal/cardiovascular/circa/fuselage; 得分:corporal=0,次优=0) | 注意(战争/武器) | 合适
-- corridor | 勉强 | 不唯一(选项:corridor/demolish/peasant/longevity; 得分:corridor=0,次优=0) | OK | 合适
-- counterfeit | 不能(卡点:fake/made/look) | 不唯一(选项:counterfeit/humiliation/deceit/acclaimed; 得分:counterfeit=0,次优=0) | OK | 合适
-- credential | 勉强(卡点:qualifications) | 不唯一(选项:credential/caliber/inauguration/defamation; 得分:credential=0,次优=0) | OK | 合适
-- crescendo | 勉强 | 不唯一(选项:crescendo/abolition/abrupt/acclaimed; 得分:crescendo=0,次优=0) | OK | 合适
-- crimson | 勉强 | 不唯一(选项:crimson/laceration/abolition/abrupt; 得分:crimson=0,次优=0) | OK | 合适
-- critique | 勉强(卡点:judgment/something) | 不唯一(选项:critique/acquittal/contingency/divert; 得分:critique=0,次优=0) | OK | 合适
-- culprit | 勉强(卡点:responsible/something) | 不唯一(选项:culprit/retribution/acquittal/conspire; 得分:culprit=0,次优=0) | OK | 合适
-- dazzle | 勉强 | 不唯一(选项:dazzle/fluorescent/exasperate/incandescent; 得分:dazzle=0,次优=0) | OK | 合适
-- debut | 不能(卡点:something) | 不唯一(选项:debut/coax/longevity/ingenuity; 得分:debut=0,次优=0) | OK | 合适
-- deceit | 不能(卡点:telling/what/true) | 不唯一(选项:deceit/duplicity/devious/enlighten; 得分:deceit=0,次优=0) | OK | 合适
-- defiance | 勉强 | 不唯一(选项:defiance/amphitheater/abolition/abrupt; 得分:defiance=0,次优=0) | OK | 合适
-- deforestation | 勉强 | 不唯一(选项:deforestation/estate/clientele/colossal; 得分:deforestation=0,次优=0) | OK | 偏难(抽象词形态)
-- delicacy | 不能(卡点:rare/costs/lot) | 不唯一(选项:delicacy/magnate/philanthropist/benign; 得分:delicacy=0,次优=0) | OK | 合适
-- deluge | 勉强 | 不唯一(选项:deluge/abrupt/monsoon/hydraulic; 得分:deluge=0,次优=0) | OK | 合适
-- demolish | 勉强(卡点:completely) | 不唯一(选项:demolish/corridor/sabotage/chaotic; 得分:demolish=0,次优=0) | OK | 合适
-- designation | 勉强(卡点:something) | 不唯一(选项:designation/accreditation/proclamation/laureate; 得分:designation=0,次优=0) | OK | 偏难(抽象词形态；定义语法不稳→额外负担)
-- desolate | 勉强 | 不唯一(选项:desolate/diplomatic/acclaimed/dominion; 得分:desolate=1,次优=0) | OK | 合适
-- despair | 勉强 | 不唯一(选项:despair/bliss/despotism/abolition; 得分:despair=0,次优=0) | OK | 合适
-- destitute | 勉强 | 不唯一(选项:destitute/peasant/arithmetic/abolition; 得分:destitute=0,次优=0) | OK | 合适
-- devastation | 勉强 | 不唯一(选项:devastation/calamity/plague/clientele; 得分:devastation=0,次优=0) | OK | 偏难(抽象词形态)
-- devious | 勉强 | 不唯一(选项:devious/deceit/duplicity/ambiguity; 得分:devious=0,次优=0) | OK | 合适
-- devout | 勉强(卡点:religious/committed) | 不唯一(选项:devout/patriot/abolition/abrupt; 得分:devout=0,次优=0) | OK | 合适
-- dialect | 勉强 | 不唯一(选项:dialect/apparel/ascertain/conversion; 得分:dialect=1,次优=1) | OK | 合适
-- dictator | 不能(卡点:ruler/who/has) | 不唯一(选项:dictator/despotism/inheritance/autocracy; 得分:dictator=0,次优=1) | 注意(政治/制度语境) | 合适
-- disdain | 勉强(卡点:something) | 不唯一(选项:disdain/coax/grudge/indignant; 得分:disdain=0,次优=0) | OK | 合适
-- dismay | 勉强(卡点:discouragement) | 不唯一(选项:dismay/bliss/euphoria/grudge; 得分:dismay=0,次优=0) | OK | 合适
-- distinction | 勉强(卡点:difference) | 不唯一(选项:distinction/juxtaposition/coincidence/bilingual; 得分:distinction=0,次优=0) | OK | 偏难(抽象词形态)
-- divert | 勉强(卡点:direction/something) | 不唯一(选项:divert/contingency/combustion/epitome; 得分:divert=0,次优=0) | OK | 合适
-- dominion | 勉强 | 不唯一(选项:dominion/empowerment/composure/acclaimed; 得分:dominion=0,次优=0) | OK | 合适
-- dubious | 勉强(卡点:something) | 不唯一(选项:dubious/indignant/apathy/annotate; 得分:dubious=1,次优=1) | OK | 合适
-- emigrate | 勉强 | 不唯一(选项:emigrate/expatriate/ambassador/impersonate; 得分:emigrate=0,次优=0) | OK | 合适
-- eminent | 勉强(卡点:respected) | 不唯一(选项:eminent/uprising/besiege/acclaimed; 得分:eminent=0,次优=0) | OK | 合适
-- empathy | 不能(卡点:understand) | 不唯一(选项:empathy/impersonate/ambassador/caliber; 得分:empathy=1,次优=0) | OK | 合适
-- engrave | 勉强 | 不唯一(选项:engrave/topography/decimate/laceration; 得分:engrave=0,次优=0) | OK | 合适
-- enlighten | 勉强(卡点:understanding) | 不唯一(选项:enlighten/deceit/persecution/duplicity; 得分:enlighten=0,次优=1) | OK | 合适
-- enrich | 不能(卡点:something) | 不唯一(选项:enrich/ingenuity/charisma/longevity; 得分:enrich=0,次优=0) | OK | 合适
-- envoy | 勉强(卡点:messenger/representative) | 不唯一(选项:envoy/ambassador/abolition/abrupt; 得分:envoy=0,次优=1) | OK | 合适
-- estate | 不能(卡点:large/area/land) | 不唯一(选项:estate/deforestation/communism/lexicon; 得分:estate=0,次优=0) | OK | 合适
-- eternal | 勉强 | 不唯一(选项:eternal/freelance/grudge/adjourn; 得分:eternal=0,次优=0) | OK | 合适
-- evade | 勉强(卡点:something) | 不唯一(选项:evade/contingency/divert/combustion; 得分:evade=0,次优=0) | OK | 合适
-- excursion | 勉强 | 不唯一(选项:excursion/gratification/disdain/dismay; 得分:excursion=0,次优=0) | OK | 合适
-- exposition | 勉强(卡点:beginning) | 不唯一(选项:exposition/clarification/duplicity/ballad; 得分:exposition=0,次优=0) | OK | 合适
-- ferocious | 勉强 | 不唯一(选项:ferocious/insurrection/malice/conspire; 得分:ferocious=0,次优=0) | OK | 合适
-- festive | 勉强(卡点:celebratory) | 不唯一(选项:festive/buoyant/abolition/abrupt; 得分:festive=0,次优=0) | OK | 合适
-- feudal | 不能(卡点:old/system/where) | 不唯一(选项:feudal/communism/archaic/dominion; 得分:feudal=2,次优=1) | OK | 合适
-- folklore | 不能(卡点:traditional) | 不唯一(选项:folklore/fraternity/theology/persecution; 得分:folklore=0,次优=0) | OK | 合适
-- fortitude | 勉强 | 不唯一(选项:fortitude/dominion/instigate/despotism; 得分:fortitude=0,次优=0) | OK | 合适
-- genealogy | 不能(卡点:ancestors) | 不唯一(选项:genealogy/peasant/theology/chivalry; 得分:genealogy=1,次优=0) | OK | 合适
-- grotesque | 勉强(卡点:distorted) | 不唯一(选项:grotesque/allude/devious/blockade; 得分:grotesque=0,次优=0) | OK | 合适
-- grudge | 勉强 | 不唯一(选项:grudge/enmity/disdain/astonish; 得分:grudge=0,次优=0) | OK | 合适
-- hostage | 勉强 | 不唯一(选项:hostage/colleague/civilian/impersonate; 得分:hostage=0,次优=0) | OK | 合适
-- humiliation | 勉强 | 不唯一(选项:humiliation/counterfeit/dismay/ferocious; 得分:humiliation=1,次优=0) | OK | 偏难(抽象词形态)
-- impediment | 不能(卡点:something) | 不唯一(选项:impediment/immobilize/blockade/contingency; 得分:impediment=0,次优=0) | OK | 合适
-- inaugural | 勉强(卡点:something/important) | 不唯一(选项:inaugural/instigate/contingency/divert; 得分:inaugural=0,次优=0) | OK | 合适
-- incarcerate | 勉强 | 不唯一(选项:incarcerate/astonish/debilitate/exasperate; 得分:incarcerate=0,次优=0) | OK | 合适
-- indignant | 勉强(卡点:something) | 不唯一(选项:indignant/dubious/apathy/disdain; 得分:indignant=1,次优=1) | OK | 合适
-- infantry | 勉强 | 不唯一(选项:infantry/abolitionist/civilian/gladiator; 得分:infantry=0,次优=0) | OK | 合适
-- inheritance | 不能(卡点:money/land/received) | 不唯一(选项:inheritance/assailant/extortion/condolence; 得分:inheritance=0,次优=0) | 注意(死亡/暴力) | 偏难(抽象词形态)
-- injustice | 勉强(卡点:treatment/situation) | 不唯一(选项:injustice/persecution/complication/indignant; 得分:injustice=0,次优=0) | OK | 合适
-- instigate | 勉强(卡点:something/especially) | 不唯一(选项:instigate/inaugural/blockade/circumnavigate; 得分:instigate=0,次优=0) | OK | 合适
-- interrogate | 勉强(卡点:questions) | 不唯一(选项:interrogate/besiege/astonish/incarcerate; 得分:interrogate=0,次优=0) | OK | 合适
-- laborious | 勉强 | 不唯一(选项:laborious/neutrality/magnate/delicacy; 得分:laborious=0,次优=0) | OK | 合适
-- malice | 勉强 | 不唯一(选项:malice/ferocious/contentious/conspire; 得分:malice=0,次优=0) | OK | 合适
-- metaphor | 不能(卡点:describes) | 不唯一(选项:metaphor/monologue/keynote/caravan; 得分:metaphor=0,次优=0) | OK | 合适
-- neutrality | 勉强(卡点:disagreement) | 不唯一(选项:neutrality/armistice/contentious/laborious; 得分:neutrality=0,次优=0) | 注意(战争/武器) | 合适
-- overthrow | 不能(卡点:government) | 不唯一(选项:overthrow/anarchist/insurrection/despotism; 得分:overthrow=0,次优=0) | 注意(政治/制度语境) | 合适
-- patriot | 勉强 | 不唯一(选项:patriot/civilian/absentee/assailant; 得分:patriot=1,次优=0) | OK | 合适
-- peasant | 勉强(卡点:especially) | 不唯一(选项:peasant/genealogy/corridor/chivalry; 得分:peasant=0,次优=0) | OK | 合适
-- pension | 不能(卡点:something) | 不唯一(选项:pension/extortion/coax/debut; 得分:pension=0,次优=0) | OK | 合适
-- persecution | 不能(卡点:treatment) | 不唯一(选项:persecution/theology/folklore/fraternity; 得分:persecution=0,次优=0) | OK | 偏难(抽象词形态)
-- plague | 不能(卡点:something) | 不唯一(选项:plague/devastation/instigate/circumnavigate; 得分:plague=0,次优=0) | OK | 合适
-- plummet | 勉强 | 不唯一(选项:plummet/plague/abolition/abrupt; 得分:plummet=0,次优=0) | OK | 合适
-- polarize | 勉强 | 不唯一(选项:polarize/apportion/bilingual/distinction; 得分:polarize=0,次优=0) | OK | 合适
-- retaliate | 勉强 | 不唯一(选项:retaliate/astonish/ferocious/incarcerate; 得分:retaliate=0,次优=0) | OK | 合适
-- retribution | 勉强(卡点:punishment/something) | 不唯一(选项:retribution/culprit/conspire/conspiracy; 得分:retribution=0,次优=0) | OK | 偏难(抽象词形态)
-- sabotage | 勉强(卡点:something) | 不唯一(选项:sabotage/decimate/appropriation/contingency; 得分:sabotage=0,次优=0) | OK | 合适
-- spectacular | 勉强(卡点:impressive) | 不唯一(选项:spectacular/abolition/abrupt/acclaimed; 得分:spectacular=0,次优=0) | OK | 合适
-- squander | 勉强 | 不唯一(选项:squander/extortion/denomination/embezzlement; 得分:squander=0,次优=0) | OK | 合适
-- subdue | 勉强 | 不唯一(选项:subdue/composure/debilitate/dominion; 得分:subdue=0,次优=0) | OK | 合适
-- supersede | 勉强(卡点:something/effective) | 不唯一(选项:supersede/contingency/divert/combustion; 得分:supersede=0,次优=0) | OK | 合适
-- testimony | 勉强(卡点:statement/especially) | 不唯一(选项:testimony/affidavit/apparel/brigand; 得分:testimony=0,次优=0) | OK | 合适
-- theology | 不能(卡点:study/faith/ideas) | 不唯一(选项:theology/persecution/heresy/folklore; 得分:theology=0,次优=0) | OK | 偏难(偏学科/术语)
-- topography | 勉强 | 不唯一(选项:topography/engrave/demolish/dominion; 得分:topography=0,次优=0) | OK | 合适
-- transcontinental | 勉强(卡点:continent) | 不唯一(选项:transcontinental/abolition/abrupt/acclaimed; 得分:transcontinental=1,次优=0) | OK | 合适
-- truce | 勉强(卡点:agreement) | 不唯一(选项:truce/armistice/capitulate/affirmative; 得分:truce=0,次优=1) | OK | 合适
-- unanimous | 勉强 | 不唯一(选项:unanimous/utopia/abolition/abrupt; 得分:unanimous=0,次优=0) | OK | 合适
-- uprising | 勉强(卡点:rebellion) | 不唯一(选项:uprising/eminent/besiege/acclaimed; 得分:uprising=2,次优=2) | OK | 合适
-- utopia | 不能(卡点:imagined/perfect/all) | 能唯一(选项:utopia/brigade/confederacy/autocracy; 得分:utopia=3,次优=1) | OK | 合适
-- absentee | 勉强 | 不唯一(选项:absentee/civilian/assailant/anarchist; 得分:absentee=0,次优=0) | OK | 合适
-- accreditation | 不能(卡点:something/standards) | 不唯一(选项:accreditation/designation/proclamation/charisma; 得分:accreditation=0,次优=0) | OK | 偏难(抽象词形态)
-- adjourn | 勉强(卡点:temporarily) | 不唯一(选项:adjourn/eternal/abolitionist/accountant; 得分:adjourn=0,次优=0) | OK | 合适
-- affidavit | 不能(卡点:statement) | 不唯一(选项:affidavit/testimony/affirmative/devious; 得分:affidavit=1,次优=1) | OK | 合适
-- almanac | 勉强(卡点:predictions/calendars) | 不唯一(选项:almanac/meteorology/censorship/abolition; 得分:almanac=0,次优=0) | OK | 合适
-- aqueduct | 不能(卡点:bridge/like/shape) | 不唯一(选项:aqueduct/embankment/deluge/demolish; 得分:aqueduct=1,次优=1) | OK | 合适
-- aristocrat | 勉强 | 不唯一(选项:aristocrat/colleague/civilian/impersonate; 得分:aristocrat=0,次优=0) | OK | 合适
-- artisan | 不能(卡点:good/what/do) | 不唯一(选项:artisan/diplomatic/caliber/buoyant; 得分:artisan=0,次优=0) | OK | 合适
-- assailant | 勉强 | 不唯一(选项:assailant/marauder/civilian/accomplice; 得分:assailant=0,次优=0) | OK | 合适
-- asylum | 不能(卡点:safe/given/someone) | 不唯一(选项:asylum/citizenship/pension/astonish; 得分:asylum=0,次优=1) | 注意(战争/武器) | 合适
-- bailiff | 勉强(卡点:courtroom) | 不唯一(选项:bailiff/civilian/infantry/absentee; 得分:bailiff=0,次优=0) | OK | 合适
-- bankruptcy | 不能(卡点:legal/process/someone) | 不唯一(选项:bankruptcy/liquidate/foreclosure/extortion; 得分:bankruptcy=0,次优=0) | OK | 合适
-- besiege | 不能(卡点:surround/place/let) | 不唯一(选项:besiege/clemency/exasperate/eminent; 得分:besiege=0,次优=0) | OK | 合适
-- bipartisan | 不能(卡点:supported/political) | 不唯一(选项:bipartisan/bilingual/distinction/polarize; 得分:bipartisan=0,次优=0) | OK | 合适
-- brigand | 勉强(卡点:especially) | 不唯一(选项:brigand/apparel/testimony/antiquity; 得分:brigand=0,次优=0) | OK | 合适
-- captivity | 勉强 | 不唯一(选项:captivity/composure/mystification/memento; 得分:captivity=0,次优=0) | OK | 合适
-- caravan | 不能(卡点:traveling) | 不唯一(选项:caravan/monologue/confederacy/metaphor; 得分:caravan=1,次优=0) | OK | 合适
-- chaotic | 勉强(卡点:completely) | 不唯一(选项:chaotic/mystification/demolish/conclusive; 得分:chaotic=0,次优=0) | OK | 合适
-- colossal | 勉强(卡点:extremely) | 不唯一(选项:colossal/metropolis/armada/decimate; 得分:colossal=0,次优=0) | OK | 合适
-- combustion | 不能(卡点:something) | 不唯一(选项:combustion/contingency/divert/epitome; 得分:combustion=0,次优=0) | OK | 合适
-- confederacy | 不能(卡点:group/states/people) | 不唯一(选项:confederacy/brigade/caravan/utopia; 得分:confederacy=0,次优=0) | OK | 合适
-- congregate | 勉强 | 不唯一(选项:congregate/bouquet/coexist/adhesive; 得分:congregate=0,次优=0) | OK | 合适
-- conspiracy | 勉强(卡点:something) | 不唯一(选项:conspiracy/conspire/contingency/competence; 得分:conspiracy=0,次优=0) | 注意(政治/制度语境) | 合适
-- depleted | 勉强 | 不唯一(选项:depleted/circa/exasperate/assertive; 得分:depleted=0,次优=0) | OK | 合适
-- diplomatic | 不能(卡点:offending) | 不唯一(选项:diplomatic/artisan/desolate/caliber; 得分:diplomatic=0,次优=0) | OK | 合适
-- escapade | 勉强(卡点:adventure) | 不唯一(选项:escapade/hypothermia/asylum/amphitheater; 得分:escapade=0,次优=0) | OK | 合适
-- extortion | 勉强(卡点:threatening) | 不唯一(选项:extortion/inheritance/bankruptcy/annuity; 得分:extortion=0,次优=0) | OK | 合适
-- abolitionist | 勉强 | 不唯一(选项:abolitionist/gladiator/civilian/infantry; 得分:abolitionist=2,次优=1) | 注意(奴隶制/种族议题) | 合适
-- accomplice | 不能(卡点:person/who/helps) | 不唯一(选项:accomplice/assailant/convict/civilian; 得分:accomplice=0,次优=0) | 注意(政治/制度语境) | 合适
-- altruism | 勉强(卡点:unselfish) | 不唯一(选项:altruism/ferocious/competence/malice; 得分:altruism=0,次优=0) | OK | 合适
-- anarchist | 不能(卡点:government) | 不唯一(选项:anarchist/civilian/absentee/assailant; 得分:anarchist=0,次优=0) | 注意(政治/制度语境) | 合适
-- apathy | 勉强(卡点:something) | 不唯一(选项:apathy/dubious/indignant/annotate; 得分:apathy=0,次优=1) | 注意(政治/制度语境) | 合适
-- armada | 勉强 | 不唯一(选项:armada/flotilla/colossal/metropolis; 得分:armada=1,次优=1) | 注意(战争/武器) | 合适
-- autocracy | 不能(卡点:government) | 不唯一(选项:autocracy/communism/anarchist/lexicon; 得分:autocracy=1,次优=1) | 注意(政治/制度语境) | 合适
-- censorship | 不能(卡点:government) | 不唯一(选项:censorship/clemency/acclaimed/dominion; 得分:censorship=0,次优=0) | 注意(政治/制度语境) | 合适
-- centennial | 勉强(卡点:hundredth/anniversary) | 不唯一(选项:centennial/abolition/abrupt/acclaimed; 得分:centennial=0,次优=0) | OK | 合适
-- chivalry | 不能(卡点:定义句子偏长/抽象) | 不唯一(选项:chivalry/duplicity/compliment/peasant; 得分:chivalry=1,次优=0) | OK | 合适
-- circumnavigate | 勉强(卡点:something/especially) | 不唯一(选项:circumnavigate/blockade/allude/instigate; 得分:circumnavigate=0,次优=0) | OK | 合适
-- colonialism | 不能(卡点:controlling) | 不唯一(选项:colonialism/appropriation/distinction/laborious; 得分:colonialism=0,次优=0) | OK | 偏难(抽象词形态)
-- commodore | 勉强 | 不唯一(选项:commodore/lieutenant/bailiff/abolition; 得分:commodore=0,次优=0) | OK | 合适
-- condolence | 勉强 | 不唯一(选项:condolence/assailant/inheritance/accomplice; 得分:condolence=0,次优=0) | OK | 合适
-- convalesce | 勉强 | 不唯一(选项:convalesce/dissipate/geriatric/cascade; 得分:convalesce=1,次优=1) | OK | 合适
-- crucible | 勉强 | 不唯一(选项:crucible/calamity/devastation/acute; 得分:crucible=0,次优=0) | OK | 合适
-- cryptic | 勉强(卡点:mysterious) | 不唯一(选项:cryptic/lethargy/magnate/acquittal; 得分:cryptic=1,次优=0) | OK | 合适
-- debilitate | 勉强 | 不唯一(选项:debilitate/exhilarate/astonish/incarcerate; 得分:debilitate=0,次优=0) | OK | 合适
-- decimate | 勉强(卡点:something) | 不唯一(选项:decimate/sabotage/contingency/divert; 得分:decimate=0,次优=0) | OK | 合适
-- despotism | 勉强 | 不唯一(选项:despotism/dictator/despair/bliss; 得分:despotism=0,次优=0) | OK | 合适
-- duplicity | 不能(卡点:telling/what/true) | 不唯一(选项:duplicity/deceit/devious/chivalry; 得分:duplicity=0,次优=0) | OK | 合适
-- emancipate | 勉强 | 不唯一(选项:emancipate/composure/dominion/subdue; 得分:emancipate=0,次优=1) | 注意(奴隶制/种族议题) | 合适
-- enclave | 勉强(卡点:different) | 不唯一(选项:enclave/cascade/conversion/brigand; 得分:enclave=0,次优=0) | OK | 合适
-- enmity | 勉强 | 不唯一(选项:enmity/grudge/dismay/bliss; 得分:enmity=0,次优=0) | OK | 合适
-- epitome | 勉强(卡点:something) | 不唯一(选项:epitome/contingency/divert/combustion; 得分:epitome=0,次优=0) | OK | 合适
-- equinox | 不能(卡点:something) | 不唯一(选项:equinox/longevity/ingenuity/debut; 得分:equinox=0,次优=0) | OK | 合适
-- estuary | 勉强 | 不唯一(选项:estuary/decimate/topography/landlocked; 得分:estuary=0,次优=0) | OK | 合适
-- euphoria | 勉强(卡点:happiness/excitement) | 不唯一(选项:euphoria/bliss/dismay/grudge; 得分:euphoria=0,次优=0) | OK | 合适
-- expatriate | 勉强 | 不唯一(选项:expatriate/emigrate/ambassador/patriot; 得分:expatriate=1,次优=1) | OK | 合适
-- flotilla | 勉强 | 不唯一(选项:flotilla/armada/blockade/conspiracy; 得分:flotilla=1,次优=0) | OK | 合适
-- fluorescent | 勉强 | 不唯一(选项:fluorescent/dazzle/incandescent/disembark; 得分:fluorescent=0,次优=0) | OK | 合适
-- foliage | 勉强 | 不唯一(选项:foliage/germination/abolition/abrupt; 得分:foliage=0,次优=0) | OK | 合适
-- forensic | 勉强(卡点:science) | 不唯一(选项:forensic/distinction/hallucination/ammunition; 得分:forensic=0,次优=0) | 注意(政治/制度语境) | 合适
-- fraternity | 不能(卡点:interests/brotherhood) | 不唯一(选项:fraternity/folklore/theology/persecution; 得分:fraternity=0,次优=0) | OK | 合适
-- fuselage | 勉强 | 不唯一(选项:fuselage/corporal/disembark/hypothermia; 得分:fuselage=1,次优=1) | OK | 合适
-- gladiator | 不能(卡点:entertainment) | 不唯一(选项:gladiator/abolitionist/civilian/infantry; 得分:gladiator=0,次优=0) | OK | 合适
-- globalization | 不能(卡点:connected/information) | 不唯一(选项:globalization/combustion/animation/germination; 得分:globalization=0,次优=0) | OK | 偏难(抽象词形态)
-- hydraulic | 勉强 | 不唯一(选项:hydraulic/deluge/overthrow/ammunition; 得分:hydraulic=0,次优=1) | OK | 合适
-- hypothermia | 勉强 | 不唯一(选项:hypothermia/composure/fuselage/mystification; 得分:hypothermia=1,次优=0) | OK | 合适
-- illegitimate | 勉强 | 不唯一(选项:illegitimate/injustice/devious/abolition; 得分:illegitimate=0,次优=0) | 注意(政治/制度语境) | 合适
-- impersonate | 勉强 | 不唯一(选项:impersonate/ambassador/colleague/empathy; 得分:impersonate=0,次优=0) | OK | 合适
-- inauguration | 不能(卡点:officially) | 不唯一(选项:inauguration/credential/caliber/defamation; 得分:inauguration=0,次优=0) | OK | 偏难(抽象词形态)
-- incandescent | 勉强(卡点:extremely) | 不唯一(选项:incandescent/colossal/dazzle/fluorescent; 得分:incandescent=0,次优=1) | OK | 合适
-- kaleidoscope | 不能(卡点:tube/mirrors/colored) | 不唯一(选项:kaleidoscope/complication/conversion/caffeine; 得分:kaleidoscope=0,次优=0) | OK | 合适
-- keynote | 不能(卡点:main/talking/front) | 不唯一(选项:keynote/monologue/metaphor/fuselage; 得分:keynote=0,次优=0) | OK | 合适
-- laureate | 不能(卡点:something) | 不唯一(选项:laureate/culprit/designation/pension; 得分:laureate=0,次优=0) | OK | 合适
-- lieutenant | 勉强 | 不唯一(选项:lieutenant/commodore/colleague/civilian; 得分:lieutenant=0,次优=0) | 注意(战争/武器) | 合适
-- longevity | 不能(卡点:something) | 不唯一(选项:longevity/equinox/ingenuity/debut; 得分:longevity=0,次优=0) | OK | 合适
-- matriarch | 勉强 | 不唯一(选项:matriarch/civilian/infantry/absentee; 得分:matriarch=2,次优=1) | OK | 合适
-- metropolis | 勉强(卡点:important) | 不唯一(选项:metropolis/colossal/inaugural/armada; 得分:metropolis=1,次优=0) | OK | 合适
-- millennial | 不能(卡点:spanning/thousand/years) | 不唯一(选项:millennial/colleague/civilian/impersonate; 得分:millennial=0,次优=0) | OK | 合适
-- mystification | 勉强 | 不唯一(选项:mystification/composure/chaotic/captivity; 得分:mystification=0,次优=0) | OK | 偏难(抽象词形态)
-- acquittal | 不能(卡点:judgment/something) | 不唯一(选项:acquittal/convict/incriminate/culprit; 得分:acquittal=0,次优=0) | 注意(政治/制度语境) | 合适
-- admonition | 勉强 | 不唯一(选项:admonition/deceit/duplicity/incriminate; 得分:admonition=0,次优=0) | OK | 合适
-- alliteration | 勉强(卡点:repeating) | 不唯一(选项:alliteration/clockwise/condolence/epitaph; 得分:alliteration=0,次优=0) | OK | 偏难(抽象词形态)
-- amphitheater | 不能(卡点:open/air/theater) | 不唯一(选项:amphitheater/aerial/corridor/defiance; 得分:amphitheater=0,次优=0) | OK | 合适
-- annuity | 不能(卡点:fixed/amount/money) | 不唯一(选项:annuity/extortion/inheritance/bankruptcy; 得分:annuity=0,次优=1) | OK | 合适
-- appropriation | 不能(卡点:something) | 不唯一(选项:appropriation/sabotage/pension/colonialism; 得分:appropriation=2,次优=1) | OK | 偏难(抽象词形态)
-- armament | 勉强(卡点:equipment) | 不唯一(选项:armament/civilian/ammunition/disarmament; 得分:armament=0,次优=0) | 注意(战争/武器) | 合适
-- biennial | 勉强(卡点:happening) | 不唯一(选项:biennial/aerial/bilingual/distinction; 得分:biennial=1,次优=0) | OK | 合适
-- biodegradable | 不能(卡点:naturally) | 不唯一(选项:biodegradable/bilingual/chaotic/eloquence; 得分:biodegradable=0,次优=0) | OK | 合适
-- botanical | 勉强 | 不唯一(选项:botanical/cardiovascular/anatomy/circa; 得分:botanical=0,次优=0) | OK | 合适
-- bureaucratic | 不能(卡点:involving) | 不唯一(选项:bureaucratic/illegitimate/dormitory/cliche; 得分:bureaucratic=1,次优=1) | OK | 合适
-- capitulate | 勉强 | 不唯一(选项:capitulate/armistice/truce/neutrality; 得分:capitulate=0,次优=0) | OK | 合适
-- centrifugal | 勉强 | 不唯一(选项:centrifugal/immobilize/clockwise/impediment; 得分:centrifugal=1,次优=0) | OK | 合适
-- citizenship | 勉强 | 不唯一(选项:citizenship/asylum/bankruptcy/astonish; 得分:citizenship=1,次优=1) | OK | 合适
-- conglomerate | 不能(卡点:corporation/different/businesses) | 不唯一(选项:conglomerate/miscellaneous/iridescent/colossal; 得分:conglomerate=1,次优=1) | OK | 合适
-- containment | 勉强(卡点:something/spreading) | 不唯一(选项:containment/benign/contingency/divert; 得分:containment=1,次优=0) | OK | 偏难(抽象词形态)
-- defamation | 不能(卡点:定义句子偏长/抽象) | 不唯一(选项:defamation/caliber/annotate/folklore; 得分:defamation=0,次优=0) | OK | 合适
-- denomination | 勉强 | 不唯一(选项:denomination/squander/extortion/embezzlement; 得分:denomination=1,次优=0) | OK | 偏难(抽象词形态)
-- desegregation | 勉强 | 不唯一(选项:desegregation/acclaimed/dominion/proclamation; 得分:desegregation=0,次优=0) | OK | 偏难(抽象词形态)
-- detonate | 不能(卡点:cause/bomb/able) | 不唯一(选项:detonate/bilingual/contentious/malice; 得分:detonate=0,次优=0) | 注意(战争/武器) | 合适
-- disarmament | 勉强(卡点:countries) | 不唯一(选项:disarmament/armament/coexist/extortion; 得分:disarmament=1,次优=0) | 注意(战争/武器) | 偏难(抽象词形态)
-- disembark | 勉强 | 不唯一(选项:disembark/fuselage/retaliate/fluorescent; 得分:disembark=0,次优=0) | OK | 合适
-- dissipate | 勉强 | 不唯一(选项:dissipate/convalesce/abolition/abrupt; 得分:dissipate=0,次优=0) | OK | 合适
-- dormitory | 勉强 | 不唯一(选项:dormitory/industrialization/corridor/demolish; 得分:dormitory=1,次优=0) | OK | 合适
-- dossier | 勉强 | 不唯一(选项:dossier/colleague/circa/civilian; 得分:dossier=0,次优=0) | OK | 合适
-- eloquence | 勉强(卡点:persuasively) | 不唯一(选项:eloquence/bilingual/intercede/assertive; 得分:eloquence=0,次优=0) | OK | 合适
-- embankment | 不能(卡点:wall/earth/built) | 不唯一(选项:embankment/aqueduct/deluge/barricade; 得分:embankment=0,次优=1) | OK | 合适
-- embezzlement | 勉强 | 不唯一(选项:embezzlement/inheritance/squander/extortion; 得分:embezzlement=0,次优=0) | OK | 偏难(抽象词形态)
-- empowerment | 不能(卡点:giving/people/power) | 不唯一(选项:empowerment/dominion/assertive/composure; 得分:empowerment=0,次优=0) | OK | 偏难(抽象词形态)
-- encryption | 勉强(卡点:converting/information) | 不唯一(选项:encryption/chivalry/emancipate/barricade; 得分:encryption=0,次优=0) | OK | 合适
-- entomology | 不能(卡点:scientific) | 不唯一(选项:entomology/ornithology/meteorology/astronomy; 得分:entomology=0,次优=0) | OK | 偏难(偏学科/术语)
-- epitaph | 勉强(卡点:gravestone) | 不唯一(选项:epitaph/lexicon/colleague/civilian; 得分:epitaph=0,次优=0) | OK | 合适
-- exasperate | 勉强 | 不唯一(选项:exasperate/astonish/incarcerate/besiege; 得分:exasperate=0,次优=0) | OK | 合适
-- exhilarate | 勉强 | 不唯一(选项:exhilarate/debilitate/incriminate/astonish; 得分:exhilarate=0,次优=0) | OK | 合适
-- extradite | 不能(卡点:send/person/accused) | 不唯一(选项:extradite/accomplice/acquittal/convict; 得分:extradite=1,次优=0) | 注意(政治/制度语境) | 合适
-- facsimile | 勉强(卡点:something) | 不唯一(选项:facsimile/contingency/divert/combustion; 得分:facsimile=0,次优=0) | OK | 合适
-- firebrand | 不能(卡点:encourages/rebellion) | 不唯一(选项:firebrand/civilian/absentee/assailant; 得分:firebrand=0,次优=0) | OK | 合适
-- fissure | 勉强 | 不唯一(选项:fissure/corridor/peasant/longevity; 得分:fissure=0,次优=0) | OK | 合适
-- foreclosure | 不能(卡点:process/where/bank) | 不唯一(选项:foreclosure/bankruptcy/extradite/attic; 得分:foreclosure=0,次优=0) | OK | 合适
-- freelance | 不能(卡点:different/companies) | 不唯一(选项:freelance/eternal/antidote/conversion; 得分:freelance=0,次优=0) | OK | 合适
-- geriatric | 不能(卡点:about/about/helping) | 不唯一(选项:geriatric/annotate/archaic/folklore; 得分:geriatric=0,次优=0) | OK | 合适
-- germination | 不能(卡点:beginning) | 不唯一(选项:germination/combustion/foliage/botanical; 得分:germination=1,次优=0) | OK | 偏难(抽象词形态)
-- gratification | 不能(卡点:satisfaction/receiving) | 不唯一(选项:gratification/excursion/disdain/diplomatic; 得分:gratification=0,次优=0) | OK | 偏难(抽象词形态)
-- hallucination | 勉强 | 不唯一(选项:hallucination/distinction/ammunition/adhesive; 得分:hallucination=0,次优=0) | OK | 偏难(抽象词形态)
-- herbicide | 不能(卡点:chemical/used/kill) | 不唯一(选项:herbicide/circa/botanical/bibliography; 得分:herbicide=1,次优=0) | 注意(死亡/暴力) | 合适
-- heredity | 勉强 | 不唯一(选项:heredity/cardiovascular/caravan/globalization; 得分:heredity=0,次优=0) | OK | 合适
-- heresy | 不能(卡点:teachings) | 不唯一(选项:heresy/theology/persecution/folklore; 得分:heresy=0,次优=0) | OK | 合适
-- holistic | 勉强(卡点:considering) | 不唯一(选项:holistic/anatomy/molecular/metaphor; 得分:holistic=0,次优=0) | OK | 合适
-- idealism | 勉强(卡点:believing/standards) | 不唯一(选项:idealism/accreditation/iridescent/bachelor; 得分:idealism=0,次优=0) | OK | 合适
-- immobilize | 勉强(卡点:something) | 不唯一(选项:immobilize/impediment/contingency/divert; 得分:immobilize=0,次优=0) | OK | 合适
-- incriminate | 不能(卡点:something) | 不唯一(选项:incriminate/convict/acquittal/accomplice; 得分:incriminate=0,次优=0) | 注意(政治/制度语境) | 合适
-- industrialization | 不能(卡点:factories) | 不唯一(选项:industrialization/dormitory/corridor/combustion; 得分:industrialization=0,次优=0) | OK | 偏难(抽象词形态)
-- ingenuity | 勉强(卡点:something/inventive) | 不唯一(选项:ingenuity/enrich/charisma/longevity; 得分:ingenuity=0,次优=0) | OK | 合适
-- insurrection | 不能(卡点:rebellion/government) | 不唯一(选项:insurrection/ferocious/malice/overthrow; 得分:insurrection=1,次优=1) | 注意(政治/制度语境) | 偏难(抽象词形态)
-- intercede | 勉强 | 不唯一(选项:intercede/astonish/incarcerate/debilitate; 得分:intercede=0,次优=0) | OK | 合适
-- internship | 不能(卡点:experience) | 不唯一(选项:internship/colleague/astonish/incarcerate; 得分:internship=0,次优=0) | OK | 合适
-- introspection | 勉强(卡点:examining) | 不唯一(选项:introspection/emigrate/expatriate/abolition; 得分:introspection=0,次优=0) | OK | 偏难(抽象词形态)
-- iridescent | 不能(卡点:different) | 不唯一(选项:iridescent/miscellaneous/conglomerate/divert; 得分:iridescent=1,次优=0) | OK | 合适
-- juxtaposition | 不能(卡点:different) | 不唯一(选项:juxtaposition/distinction/miscellaneous/coincidence; 得分:juxtaposition=0,次优=0) | 注意(宗教) | 偏难(抽象词形态)
-- laceration | 勉强 | 不唯一(选项:laceration/crimson/engrave/abolition; 得分:laceration=0,次优=0) | OK | 合适
-- landlocked | 勉强(卡点:surrounded) | 不唯一(选项:landlocked/dominion/chaotic/conclusive; 得分:landlocked=1,次优=1) | OK | 合适
-- legitimacy | 勉强 | 不唯一(选项:legitimacy/citizenship/bankruptcy/heresy; 得分:legitimacy=0,次优=0) | OK | 合适
-- lethargy | 勉强(卡点:enthusiasm) | 不唯一(选项:lethargy/composure/mystification/dominion; 得分:lethargy=0,次优=0) | OK | 合适
-- lexicon | 勉强 | 不唯一(选项:lexicon/epitaph/autocracy/colleague; 得分:lexicon=0,次优=0) | OK | 合适
-- liquidate | 不能(卡点:everything) | 不唯一(选项:liquidate/bankruptcy/magnate/clientele; 得分:liquidate=0,次优=1) | OK | 合适
-- magnate | 勉强 | 不唯一(选项:magnate/philanthropist/accountant/delicacy; 得分:magnate=0,次优=0) | OK | 合适
-- mammoth | 勉强 | 不唯一(选项:mammoth/colossal/metropolis/armada; 得分:mammoth=0,次优=0) | OK | 合适
-- marauder | 勉强 | 不唯一(选项:marauder/assailant/civilian/philanthropist; 得分:marauder=0,次优=0) | OK | 合适
-- memento | 勉强 | 不唯一(选项:memento/colleague/civilian/impersonate; 得分:memento=1,次优=0) | OK | 合适
-- meteorology | 不能(卡点:scientific) | 不唯一(选项:meteorology/entomology/ornithology/astronomy; 得分:meteorology=1,次优=0) | OK | 偏难(偏学科/术语)
-- miscellaneous | 勉强(卡点:different) | 不唯一(选项:miscellaneous/conglomerate/iridescent/juxtaposition; 得分:miscellaneous=0,次优=0) | OK | 合适
-- mobilization | 勉强(卡点:preparing/organizing) | 不唯一(选项:mobilization/acclaimed/apparel/dominion; 得分:mobilization=0,次优=0) | OK | 偏难(抽象词形态)
-- molecular | 不能(卡点:something/everything) | 不唯一(选项:molecular/dubious/indignant/apathy; 得分:molecular=0,次优=0) | OK | 合适
-- monologue | 勉强 | 不唯一(选项:monologue/metaphor/keynote/caravan; 得分:monologue=0,次优=0) | OK | 合适
-- monsoon | 勉强 | 不唯一(选项:monsoon/deluge/abolition/abrupt; 得分:monsoon=2,次优=1) | OK | 合适
-- philanthropist | 不能(卡点:having/lot/money) | 不唯一(选项:philanthropist/magnate/marauder/accountant; 得分:philanthropist=0,次优=0) | OK | 合适
-- proclamation | 勉强(卡点:announcement) | 不唯一(选项:proclamation/designation/accreditation/acclaimed; 得分:proclamation=0,次优=0) | 注意(政治/制度语境) | 偏难(抽象词形态；定义语法不稳→额外负担)
-- ornithology | 不能(卡点:scientific) | 不唯一(选项:ornithology/entomology/meteorology/astronomy; 得分:ornithology=1,次优=0) | OK | 偏难(偏学科/术语)
+- abolition | 不能(卡点:officially/practice) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- abrupt | 勉强(卡点:unexpected) | 不唯一(语境泛/同义词多) | OK | 偏易
+- acclaimed | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- accountant | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- acute | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- adhesive | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- aerial | 勉强(卡点:happening) | 偏不唯一(线索弱:above) | OK | 偏易
+- affirmative | 不能(卡点:agreement) | 不唯一(语境泛/同义词多) | OK | 合适
+- ailment | 能 | 偏不唯一(线索弱:that) | OK | 合适
+- aisle | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- algebra | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- allegory | 勉强(卡点:characters) | 不唯一(语境泛/同义词多) | OK | 合适
+- allude | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- ambassador | 勉强(卡点:represent) | 不唯一(语境泛/同义词多) | OK | 合适
+- ambiguity | 勉强(卡点:situation) | 不唯一(语境泛/同义词多) | OK | 合适
+- ammunition | 勉强 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
+- anatomy | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- animation | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- annotate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- antidote | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- antiquity | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
+- apparel | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
+- apportion | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- arcade | 勉强(卡点:coin-operated) | 偏不唯一(线索弱:games) | OK | 偏易
+- archaic | 勉强(卡点:old-fashioned) | 不唯一(语境泛/同义词多) | OK | 合适
+- arithmetic | 勉强(卡点:subtracting/multiplying) | 不唯一(语境泛/同义词多) | OK | 合适
+- armistice | 勉强(卡点:agreement) | 较唯一(线索:stop/fighting) | 注意(violence/weapons) | 合适
+- ascertain | 勉强 | 偏不唯一(线索弱:certain) | OK | 合适
+- assertive | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- astonish | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- astronaut | 勉强 | 偏不唯一(线索弱:space) | OK | 合适
+- astronomy | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- attic | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- audible | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- automation | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- bachelor | 勉强(卡点:four-year) | 偏不唯一(线索弱:degree) | OK | 合适
+- ballad | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- barricade | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- bazaar | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 偏易
+- benign | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- bibliography | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- bilingual | 勉强(卡点:languages) | 不唯一(语境泛/同义词多) | OK | 合适
+- blemish | 能 | 偏不唯一(线索弱:small) | OK | 合适
+- bliss | 勉强(卡点:happiness) | 不唯一(语境泛/同义词多) | OK | 偏易
+- blockade | 勉强(卡点:especially) | 偏不唯一(线索弱:ships) | OK | 合适
+- bouquet | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- brigade | 勉强(卡点:firefighters) | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
+- buoyant | 能 | 偏不唯一(线索弱:float) | OK | 合适
+- caffeine | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- calamity | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- caliber | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- calligraphy | 不能(卡点:handwriting) | 偏不唯一(线索弱:special) | OK | 合适
+- cardiovascular | 不能 | 较唯一(线索:heart/your) | OK | 合适
+- cascade | 勉强(卡点:waterfall/happening) | 不唯一(语境泛/同义词多) | OK | 合适
+- casualty | 能 | 较唯一(线索:injured/accident) | 注意(violence/weapons) | 合适
+- charisma | 能 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 合适
+- circa | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- civilian | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- clarification | 不能(卡点:understand) | 不唯一(语境泛/同义词多) | OK | 合适
+- clemency | 勉强(卡点:forgiveness) | 不唯一(语境泛/同义词多) | OK | 合适
+- cliche | 能 | 偏不唯一(线索弱:that) | OK | 偏易
+- clientele | 勉强(卡点:customers) | 不唯一(语境泛/同义词多) | OK | 合适
+- clockwise | 勉强(卡点:direction) | 偏不唯一(线索弱:clock) | OK | 合适
+- coax | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- coexist | 勉强(卡点:peacefully) | 偏不唯一(线索弱:exist) | OK | 合适
+- coincidence | 不能(卡点:surprising/situation) | 偏不唯一(线索弱:same) | OK | 合适
+- colleague | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- communism | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- competence | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- complication | 不能(卡点:situation) | 不唯一(语境泛/同义词多) | OK | 合适
+- compliment | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- composure | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- conclusive | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- condense | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- conspire | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- contentious | 不能(卡点:disagreement/arguments) | 不唯一(语境泛/同义词多) | OK | 合适
+- contingency | 不能 | 偏不唯一(线索弱:plan) | OK | 合适
+- contractor | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- conversion | 勉强(卡点:different) | 不唯一(语境泛/同义词多) | OK | 合适
+- convict | 能 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
+- coral | 勉强(卡点:creatures) | 不唯一(语境泛/同义词多) | OK | 偏易
+- coronation | 勉强 | 偏不唯一(线索弱:king) | OK | 合适
+- corporal | 能 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
+- corridor | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- counterfeit | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- credential | 勉强(卡点:qualifications) | 不唯一(语境泛/同义词多) | OK | 合适
+- crescendo | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- crimson | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- critique | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- culprit | 勉强(卡点:responsible) | 不唯一(语境泛/同义词多) | OK | 合适
+- dazzle | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- debut | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- deceit | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- defiance | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- deforestation | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- delicacy | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- deluge | 能 | 偏不唯一(线索弱:flood) | OK | 偏易
+- demolish | 勉强(卡点:completely) | 不唯一(语境泛/同义词多) | OK | 合适
+- designation | 不能 | 不唯一(语境泛/同义词多) | OK | 合适(定义语法异常→额外负担)
+- desolate | 能 | 偏不唯一(线索弱:empty) | OK | 合适
+- despair | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- destitute | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- devastation | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- devious | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- devout | 勉强(卡点:religious/committed) | 不唯一(语境泛/同义词多) | OK | 偏易
+- dialect | 能 | 偏不唯一(线索弱:region) | OK | 合适
+- dictator | 能 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- disdain | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- dismay | 勉强(卡点:discouragement) | 不唯一(语境泛/同义词多) | OK | 偏易
+- distinction | 不能(卡点:difference) | 偏不唯一(线索弱:between) | OK | 合适
+- divert | 勉强(卡点:direction) | 不唯一(语境泛/同义词多) | OK | 偏易
+- dominion | 能 | 偏不唯一(线索弱:land) | OK | 合适
+- dubious | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- emigrate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- eminent | 勉强(卡点:respected) | 不唯一(语境泛/同义词多) | OK | 合适
+- empathy | 勉强(卡点:understand) | 偏不唯一(线索弱:understand) | OK | 合适
+- engrave | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- enlighten | 勉强(卡点:understanding) | 不唯一(语境泛/同义词多) | OK | 合适
+- enrich | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- envoy | 勉强(卡点:messenger/representative) | 不唯一(语境泛/同义词多) | OK | 偏易
+- estate | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- eternal | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- evade | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- excursion | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- exposition | 勉强(卡点:beginning) | 不唯一(语境泛/同义词多) | OK | 合适
+- ferocious | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- festive | 勉强(卡点:celebratory) | 不唯一(语境泛/同义词多) | OK | 合适
+- feudal | 能 | 较唯一(线索:system/land) | OK | 偏易
+- folklore | 勉强(卡点:traditional) | 不唯一(语境泛/同义词多) | OK | 合适
+- fortitude | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- genealogy | 勉强(卡点:ancestors) | 偏不唯一(线索弱:family) | OK | 合适
+- grotesque | 勉强(卡点:distorted) | 不唯一(语境泛/同义词多) | OK | 合适
+- grudge | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- hostage | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- humiliation | 不能 | 偏不唯一(线索弱:front) | OK | 合适
+- impediment | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- inaugural | 勉强(卡点:important) | 不唯一(语境泛/同义词多) | OK | 合适
+- incarcerate | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- indignant | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- infantry | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- inheritance | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- injustice | 勉强(卡点:treatment/situation) | 不唯一(语境泛/同义词多) | OK | 合适
+- instigate | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
+- interrogate | 不能(卡点:questions) | 不唯一(语境泛/同义词多) | OK | 合适
+- laborious | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- malice | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- metaphor | 勉强(卡点:describes) | 不唯一(语境泛/同义词多) | OK | 合适
+- neutrality | 勉强(卡点:disagreement) | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
+- overthrow | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- patriot | 能 | 偏不唯一(线索弱:country) | OK | 合适
+- peasant | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
+- pension | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- persecution | 不能(卡点:treatment) | 偏不唯一(线索弱:their) | OK | 合适
+- plague | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- plummet | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- polarize | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- retaliate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- retribution | 不能(卡点:punishment) | 不唯一(语境泛/同义词多) | OK | 合适
+- sabotage | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- spectacular | 不能(卡点:impressive/eye-catching) | 不唯一(语境泛/同义词多) | OK | 合适
+- squander | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- subdue | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- supersede | 勉强(卡点:effective) | 不唯一(语境泛/同义词多) | OK | 合适
+- testimony | 勉强(卡点:statement/especially) | 不唯一(语境泛/同义词多) | OK | 合适
+- theology | 能 | 不唯一(语境泛/同义词多) | 注意(religion) | 偏难(偏学科/术语)
+- topography | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- transcontinental | 不能(卡点:continent) | 偏不唯一(线索弱:continent) | OK | 合适
+- truce | 勉强(卡点:agreement) | 不唯一(语境泛/同义词多) | OK | 偏易
+- unanimous | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- uprising | 不能(卡点:rebellion) | 不唯一(语境泛/同义词多) | OK | 合适
+- utopia | 能 | 较唯一(线索:imagined/where) | OK | 偏易
+- absentee | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- accreditation | 不能(卡点:standards) | 不唯一(语境泛/同义词多) | OK | 合适
+- adjourn | 勉强(卡点:temporarily) | 不唯一(语境泛/同义词多) | OK | 合适
+- affidavit | 勉强(卡点:statement) | 偏不唯一(线索弱:true) | OK | 合适
+- almanac | 勉强(卡点:predictions/calendars) | 不唯一(语境泛/同义词多) | OK | 合适
+- aqueduct | 勉强(卡点:bridge-like) | 偏不唯一(线索弱:water) | OK | 合适
+- aristocrat | 勉强(卡点:upper-class) | 不唯一(语境泛/同义词多) | OK | 合适
+- artisan | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- assailant | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- asylum | 能 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 偏易
+- bailiff | 勉强(卡点:courtroom) | 不唯一(语境泛/同义词多) | OK | 合适
+- bankruptcy | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- besiege | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- bipartisan | 勉强(卡点:supported/political) | 不唯一(语境泛/同义词多) | OK | 合适
+- brigand | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
+- captivity | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- caravan | 勉强(卡点:traveling) | 偏不唯一(线索弱:desert) | OK | 合适
+- chaotic | 勉强(卡点:completely) | 不唯一(语境泛/同义词多) | OK | 合适
+- colossal | 勉强(卡点:extremely) | 不唯一(语境泛/同义词多) | OK | 合适
+- combustion | 勉强 | 不唯一(语境泛/同义词多) | OK | 偏难(抽象名词形态)
+- confederacy | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- congregate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- conspiracy | 勉强 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- depleted | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- diplomatic | 勉强(卡点:offending) | 不唯一(语境泛/同义词多) | OK | 合适
+- escapade | 勉强(卡点:adventure) | 不唯一(语境泛/同义词多) | OK | 合适
+- extortion | 勉强(卡点:threatening) | 不唯一(语境泛/同义词多) | OK | 合适
+- abolitionist | 不能 | 偏不唯一(线索弱:slavery) | 注意(politics/race) | 偏难(制度/社会语境)
+- accomplice | 勉强 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
+- altruism | 勉强(卡点:unselfish) | 不唯一(语境泛/同义词多) | OK | 合适
+- anarchist | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- apathy | 能 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏易
+- armada | 能 | 偏不唯一(线索弱:ships) | 注意(violence/weapons) | 偏易
+- autocracy | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- censorship | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- centennial | 勉强(卡点:hundredth/anniversary) | 不唯一(语境泛/同义词多) | OK | 合适
+- chivalry | 能 | 偏不唯一(线索弱:rules) | OK | 合适
+- circumnavigate | 不能(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
+- colonialism | 不能(卡点:controlling) | 不唯一(语境泛/同义词多) | OK | 合适
+- commodore | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- condolence | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- convalesce | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- crucible | 能 | 偏不唯一(线索弱:test) | OK | 合适
+- cryptic | 勉强(卡点:mysterious) | 偏不唯一(线索弱:meaning) | OK | 合适
+- debilitate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- decimate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- despotism | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- duplicity | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- emancipate | 勉强 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- enclave | 勉强(卡点:different) | 不唯一(语境泛/同义词多) | OK | 合适
+- enmity | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
+- epitome | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- equinox | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- estuary | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- euphoria | 勉强(卡点:happiness/excitement) | 不唯一(语境泛/同义词多) | OK | 合适
+- expatriate | 勉强 | 偏不唯一(线索弱:country) | OK | 合适
+- flotilla | 能 | 偏不唯一(线索弱:boats) | OK | 合适
+- fluorescent | 不能 | 偏不唯一(线索弱:light) | OK | 合适
+- foliage | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- forensic | 能 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
+- fraternity | 勉强(卡点:interests/brotherhood) | 不唯一(语境泛/同义词多) | OK | 合适
+- fuselage | 能 | 偏不唯一(线索弱:airplane) | OK | 合适
+- gladiator | 勉强(卡点:entertainment) | 不唯一(语境泛/同义词多) | OK | 合适
+- globalization | 不能(卡点:connected/information) | 不唯一(语境泛/同义词多) | OK | 偏难(抽象名词形态)
+- hydraulic | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- hypothermia | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- illegitimate | 不能 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
+- impersonate | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- inauguration | 不能(卡点:officially) | 不唯一(语境泛/同义词多) | OK | 合适
+- incandescent | 不能(卡点:extremely) | 不唯一(语境泛/同义词多) | OK | 合适
+- kaleidoscope | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- keynote | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- laureate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- lieutenant | 勉强 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
+- longevity | 勉强 | 较唯一(线索:long/long) | OK | 合适
+- matriarch | 勉强 | 偏不唯一(线索弱:family) | OK | 合适
+- metropolis | 勉强(卡点:important) | 偏不唯一(线索弱:city) | OK | 合适
+- millennial | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- mystification | 不能 | 不唯一(语境泛/同义词多) | OK | 偏难(抽象名词形态)
+- acquittal | 勉强 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
+- admonition | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- alliteration | 不能(卡点:repeating) | 不唯一(语境泛/同义词多) | OK | 合适
+- amphitheater | 不能 | 偏不唯一(线索弱:theater) | OK | 合适
+- annuity | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- appropriation | 不能 | 偏不唯一(线索弱:money) | OK | 合适
+- armament | 勉强(卡点:equipment) | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
+- biennial | 勉强(卡点:happening) | 偏不唯一(线索弱:years) | OK | 合适
+- biodegradable | 不能(卡点:naturally) | 偏不唯一(线索弱:able) | OK | 合适
+- botanical | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- bureaucratic | 不能(卡点:involving) | 偏不唯一(线索弱:rules) | OK | 合适
+- capitulate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- centrifugal | 不能 | 偏不唯一(线索弱:spinning) | OK | 合适
+- citizenship | 不能 | 偏不唯一(线索弱:country) | OK | 合适
+- conglomerate | 不能(卡点:corporation/different/businesses) | 不唯一(语境泛/同义词多) | OK | 合适
+- containment | 不能(卡点:spreading) | 偏不唯一(线索弱:spreading) | OK | 合适
+- defamation | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- denomination | 不能 | 偏不唯一(线索弱:printed) | OK | 合适
+- desegregation | 不能 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
+- detonate | 能 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
+- disarmament | 不能(卡点:countries) | 偏不唯一(线索弱:peace) | 注意(violence/weapons) | 合适
+- disembark | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- dissipate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- dormitory | 勉强 | 偏不唯一(线索弱:students) | OK | 合适
+- dossier | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- eloquence | 勉强(卡点:persuasively) | 不唯一(语境泛/同义词多) | OK | 合适
+- embankment | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- embezzlement | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- empowerment | 不能 | 偏不唯一(线索弱:power) | OK | 合适
+- encryption | 勉强(卡点:converting/information) | 不唯一(语境泛/同义词多) | OK | 合适
+- entomology | 不能(卡点:scientific) | 较唯一(学科线索明显) | OK | 偏难(偏学科/术语)
+- epitaph | 勉强(卡点:gravestone) | 不唯一(语境泛/同义词多) | OK | 合适
+- exasperate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- exhilarate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- extradite | 勉强 | 偏不唯一(线索弱:back) | 注意(politics/race) | 偏难(制度/社会语境)
+- facsimile | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- firebrand | 勉强(卡点:encourages/rebellion) | 不唯一(语境泛/同义词多) | OK | 合适
+- fissure | 能 | 偏不唯一(线索弱:earth) | OK | 合适
+- foreclosure | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- freelance | 勉强(卡点:different/companies) | 不唯一(语境泛/同义词多) | OK | 合适
+- geriatric | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- germination | 不能(卡点:beginning) | 偏不唯一(线索弱:seed) | OK | 偏难(抽象名词形态)
+- gratification | 不能(卡点:satisfaction/receiving) | 不唯一(语境泛/同义词多) | OK | 合适
+- hallucination | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- herbicide | 勉强 | 偏不唯一(线索弱:weeds) | 注意(violence/weapons) | 合适
+- heredity | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- heresy | 勉强(卡点:teachings) | 不唯一(语境泛/同义词多) | OK | 偏易
+- holistic | 勉强(卡点:considering) | 不唯一(语境泛/同义词多) | OK | 合适
+- idealism | 勉强(卡点:believing/standards/impossible) | 不唯一(语境泛/同义词多) | OK | 合适
+- immobilize | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- incriminate | 不能 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
+- industrialization | 不能(卡点:factories) | 不唯一(语境泛/同义词多) | OK | 偏难(抽象名词形态)
+- ingenuity | 勉强(卡点:inventive) | 不唯一(语境泛/同义词多) | OK | 合适
+- insurrection | 不能(卡点:rebellion/government) | 偏不唯一(线索弱:government) | 注意(politics/race) | 偏难(制度/社会语境)
+- intercede | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- internship | 勉强(卡点:experience) | 不唯一(语境泛/同义词多) | OK | 合适
+- introspection | 不能(卡点:examining) | 不唯一(语境泛/同义词多) | OK | 合适
+- iridescent | 勉强(卡点:different) | 偏不唯一(线索弱:colors) | OK | 合适
+- juxtaposition | 不能(卡点:different) | 不唯一(语境泛/同义词多) | 注意(religion) | 合适
+- laceration | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- landlocked | 勉强(卡点:surrounded) | 较唯一(线索:land/without) | OK | 合适
+- legitimacy | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- lethargy | 不能(卡点:enthusiasm) | 不唯一(语境泛/同义词多) | OK | 合适
+- lexicon | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- liquidate | 勉强(卡点:everything) | 不唯一(语境泛/同义词多) | OK | 合适
+- magnate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- mammoth | 勉强(卡点:elephant-like) | 不唯一(语境泛/同义词多) | OK | 合适
+- marauder | 能 | 不唯一(语境泛/同义词多) | OK | 合适
+- memento | 能 | 偏不唯一(线索弱:kept) | OK | 合适
+- meteorology | 不能(卡点:scientific) | 偏不唯一(线索弱:weather) | OK | 偏难(偏学科/术语)
+- miscellaneous | 不能(卡点:different) | 不唯一(语境泛/同义词多) | OK | 合适
+- mobilization | 不能(卡点:preparing/organizing/especially) | 不唯一(语境泛/同义词多) | OK | 合适
+- molecular | 勉强(卡点:everything) | 不唯一(语境泛/同义词多) | OK | 合适
+- monologue | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
+- monsoon | 能 | 较唯一(线索:brings/heavy) | OK | 合适
+- philanthropist | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
+- proclamation | 不能(卡点:announcement) | 较唯一(固定搭配) | 注意(politics/race) | 合适(定义语法异常→额外负担)
+- ornithology | 不能(卡点:scientific) | 偏不唯一(线索弱:birds) | OK | 偏难(偏学科/术语)
