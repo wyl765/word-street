@@ -1,5 +1,8 @@
 # VERIFY-GPT — words-level3a.js
 
+选择依据：word-status.json → currentGate 最小=15；并列时选 totalWords 最小 → words-level3a.js。
+完整性校验：词库 231 词；本报告逐词 231 行；missing=0 / extra=0。
+
 - One line per word (no skipping).
 - L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
 - L6: Reverse test — blank example + 4 options.
