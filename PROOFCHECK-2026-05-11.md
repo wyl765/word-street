@@ -2,24 +2,52 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 135 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 149 MINOR
 
 ## Issues
 
+### [MINOR] words-level1.js — "crow" (COMPLEX_DEFINITION)
+L1 definition uses complex word(s): medium-sized
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level1.js — "frog" (COMPLEX_DEFINITION)
+L1 definition uses complex word(s): smooth-skinned
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level1.js — "cracker" (COMPLEX_DEFINITION)
+L1 definition uses complex word(s): unsweetened
+**Fix:** Simplify definition for young learners
+
 ### [MINOR] words-level1.js — "peanut" (COMPLEX_DEFINITION)
 L1 definition uses complex word(s): underground
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level1.js — "meadow" (COMPLEX_DEFINITION)
+L1 definition uses complex word(s): wildflowers
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2.js — "amber" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): golden-brown
 **Fix:** Simplify definition for young learners
 
+### [MINOR] words-level2.js — "cocoon" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): caterpillar
+**Fix:** Simplify definition for young learners
+
 ### [MINOR] words-level2.js — "cork" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): lightweight
 **Fix:** Simplify definition for young learners
 
+### [MINOR] words-level2a.js — "harsh" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): unpleasantly
+**Fix:** Simplify definition for young learners
+
 ### [MINOR] words-level2a.js — "absurd" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): unreasonable
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2a.js — "current" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): electricity
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2b.js — "homophone" (COMPLEX_DEFINITION)
@@ -46,13 +74,13 @@ L2 definition uses complex word(s): interesting
 L2 definition uses complex word(s): responsibility
 **Fix:** Simplify definition for young learners
 
-### [MINOR] words-level2d.js — "convey" (COMPLEX_DEFINITION)
-L2 definition uses complex word(s): communicate
-**Fix:** Simplify definition for young learners
-
 ### [MINOR] words-level2d.js — "debris" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): destruction
 **Fix:** Simplify definition for young learners
+
+### [MINOR] words-level1.js — "bunny" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "cute": "a rabbit, especially one that is cute or friendly"
+**Fix:** Remove subjective adjectives from definitions
 
 ### [MINOR] words-level2.js — "jade" (SUBJECTIVE_DEF)
 Definition contains subjective adjective "pretty": "a smooth green stone used to make pretty things"
@@ -72,6 +100,10 @@ Definition contains subjective adjective "ugly": "very strange and ugly in a way
 
 ### [MINOR] words-level1.js — "lemon" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "lemon" def contains "sour" and "sour" def contains "lemon" (both L1)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level1.js — "narrow" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "narrow" def contains "thin" and "thin" def contains "narrow" (both L1)
 **Fix:** Break the cycle: at least one definition should not reference the other word
 
 ### [MINOR] words-level2.js — "area" (CROSS_DEF_CYCLE)
@@ -134,12 +166,28 @@ Word appears to be adjective but definition starts with article: "a person who b
 Definition starts with "when": "when two sides of something look exactly the same..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
+### [MINOR] words-level1.js — "swan" (SAME_LEVEL_DEF_REF)
+L1 definition uses "graceful" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "sparrow" (SAME_LEVEL_DEF_REF)
+L1 definition uses "thick" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "ladybug" (SAME_LEVEL_DEF_REF)
 L1 definition uses "beetle" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "caterpillar" (SAME_LEVEL_DEF_REF)
+L1 definition uses "butterfly" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "pretzel" (SAME_LEVEL_DEF_REF)
 L1 definition uses "salty" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "pudding" (SAME_LEVEL_DEF_REF)
+L1 definition uses "thick" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "jelly" (SAME_LEVEL_DEF_REF)
@@ -202,8 +250,16 @@ L1 definition uses "above" which is also an L1 word (core position)
 L1 definition uses "above" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "vest" (SAME_LEVEL_DEF_REF)
+L1 definition uses "piece" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "boot" (SAME_LEVEL_DEF_REF)
 L1 definition uses "ankle" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "ladder" (SAME_LEVEL_DEF_REF)
+L1 definition uses "frame" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "glue" (SAME_LEVEL_DEF_REF)
@@ -299,19 +355,11 @@ L1 definition uses "narrow" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "thin" (SAME_LEVEL_DEF_REF)
-L1 definition uses "thick" which is also an L1 word (core position)
+L1 definition uses "narrow" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "rough" (SAME_LEVEL_DEF_REF)
 L1 definition uses "smooth" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "dull" (SAME_LEVEL_DEF_REF)
-L1 definition uses "sharp" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "gentle" (SAME_LEVEL_DEF_REF)
-L1 definition uses "rough" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "shy" (SAME_LEVEL_DEF_REF)
@@ -319,7 +367,7 @@ L1 definition uses "nervous" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "plain" (SAME_LEVEL_DEF_REF)
-L1 definition uses "fancy" which is also an L1 word (core position)
+L1 definition uses "extra" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "stale" (SAME_LEVEL_DEF_REF)
@@ -335,7 +383,7 @@ L1 definition uses "smooth" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "loose" (SAME_LEVEL_DEF_REF)
-L1 definition uses "tight" which is also an L1 word (core position)
+L1 definition uses "extra" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "crooked" (SAME_LEVEL_DEF_REF)
@@ -346,16 +394,16 @@ L1 definition uses "straight" which is also an L1 word (core position)
 L1 definition uses "extra" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "lazy" (SAME_LEVEL_DEF_REF)
+L1 definition uses "instead" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "suddenly" (SAME_LEVEL_DEF_REF)
 L1 definition uses "quickly" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "forever" (SAME_LEVEL_DEF_REF)
 L1 definition uses "ending" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
-### [MINOR] words-level1.js — "apart" (SAME_LEVEL_DEF_REF)
-L1 definition uses "together" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "forward" (SAME_LEVEL_DEF_REF)
@@ -430,6 +478,10 @@ L1 definition uses "equal" which is also an L1 word (core position)
 L1 definition uses "amount" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "average" (SAME_LEVEL_DEF_REF)
+L1 definition uses "middle" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "pattern" (SAME_LEVEL_DEF_REF)
 L1 definition uses "design" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -472,6 +524,10 @@ L1 definition uses "shake" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "scattered" (SAME_LEVEL_DEF_REF)
 L1 definition uses "spread" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "gigantic" (SAME_LEVEL_DEF_REF)
+L1 definition uses "giant" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "flutter" (SAME_LEVEL_DEF_REF)
@@ -554,12 +610,16 @@ L2 definition has multiple distinct meanings: "a part of a country; also the con
 L2 definition has multiple distinct meanings: "a warm golden-brown color; also hard material formed from ancient tree sap"
 **Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
-### [HIGH] words-level2.js — "mantle" (MULTI_MEANING)
-L2 definition has multiple distinct meanings: "a loose cloak worn over the shoulders; also a layer of the Earth beneath the crust"
+### [HIGH] words-level2.js — "hazel" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "a tree that produces small nuts; also a light brown color with a little green"
 **Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
 ### [HIGH] words-level2a.js — "inherit" (MULTI_MEANING)
 L2 definition has multiple distinct meanings: "to receive something from a family member who has died, or to get traits passed down from parents"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2a.js — "approach" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "to come closer to something; also a way of dealing with a problem"
 **Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
 ### [HIGH] words-level2b.js — "turn down" (MULTI_MEANING)

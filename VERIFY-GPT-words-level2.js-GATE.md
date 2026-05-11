@@ -187,7 +187,7 @@
 - make | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fold / make / note / parchment] | L7:OK | L8:合适
 - crumble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crumble / raise / scatter / subtract] | L7:OK | L8:合适
 - cuddle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cotton / cuddle / dizzy / scared] | L7:OK | L8:合适
-- custom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[custom / holiday / igloo / mantle] | L7:OK | L8:合适
+- custom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[custom / holiday / igloo / mantel] | L7:OK | L8:合适
 - cycle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cycle / effect / river / soak] | L7:OK | L8:合适
 - danger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[danger / downstairs / slippery / upstairs] | L7:OK | L8:合适
 - dark | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chisel / dark / fork / kindle] | L7:OK | L8:合适
@@ -391,7 +391,7 @@
 - wheel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[occasionally / river / safe / wheel] | L7:OK | L8:合适
 - yesterday | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blaze / major / outside / yesterday] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
 - admiral | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ships)，易靠语感/蒙) | 选项:[admiral / beacon / history / warmth] | L7:OK | L8:合适
-- album | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:photos)，易靠语感/蒙) | 选项:[add / album / arrange / mantle] | L7:OK | L8:合适
+- album | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:photos)，易靠语感/蒙) | 选项:[add / album / arrange / mantel] | L7:OK | L8:合适
 - alley | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[action / alley / swift / track] | L7:OK | L8:合适
 - amber | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[amber / change / harvest / maple] | L7:OK | L8:合适
 - antenna | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antenna / capture / river / wheel] | L7:OK | L8:合适
@@ -523,7 +523,7 @@
 - loom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beeswax / bright / broth / loom] | L7:OK | L8:合适
 - lynx | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blaze / canopy / lynx / setting] | L7:OK | L8:合适
 - mango | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[about / carve / chisel / mango] | L7:OK | L8:合适
-- mantle | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“album”，目标词不唯一) | 选项:[album / custom / holiday / mantle] | L7:OK | L8:合适
+- mantel | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“album”，目标词不唯一) | 选项:[album / custom / holiday / mantel] | L7:OK | L8:合适
 - maple | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tree,red) | 选项:[because / bright / frozen / maple] | L7:OK | L8:合适
 - marsh | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bluff / delta / marsh / river] | L7:OK | L8:合适
 - mast | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[center / mast / over / weather] | L7:OK | L8:合适

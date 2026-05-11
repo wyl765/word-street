@@ -96,7 +96,7 @@
 - prosperous | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[prosperous / reckless / crone / central] | L7:OK | L8:勉强(拼写较长；建议先听懂会用，再要求拼写)
 - radical | L5-Def:不能(卡在长词:different,involving,fundamental) | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[radical / antiquated / grave / distraught] | L7:OK | L8:合适
 - reckless | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[reckless / moderate / buoyancy / anagram] | L7:OK | L8:合适
-- regional | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[regional / apprentice / caldron / colander] | L7:OK | L8:合适
+- regional | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[regional / apprentice / cauldron / colander] | L7:OK | L8:合适
 - abode | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[abode / cobalt / countenance / automatic] | L7:OK | L8:合适
 - acacia | L5-Def:能 | L5-Ex:勉强(线索少(仅:leaves)) | L6:勉强(线索偏少(仅:leaves)，同类选项易混) | 选项:[acacia / cranny / ardor / angular] | L7:OK | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
 - adage | L5-Def:勉强(概念偏抽象/需要中文支架) | L5-Ex:不能(例句主要靠语感/抽象语义，低龄很难猜出准确词) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[adage / literary / legal / atrium] | L7:OK | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
@@ -105,7 +105,7 @@
 - ajar | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:勉强(更多靠场景词；换一组同类选项时可能不唯一) | 选项:[ajar / due / buggy / prosperous] | L7:OK | L8:合适
 - akin | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[akin / primitive / careless / hasty] | L7:OK | L8:合适
 - alcove | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:勉强(更多靠场景词；换一组同类选项时可能不唯一) | 选项:[alcove / professional / legal / aright] | L7:OK | L8:合适
-- alms | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[alms / caldron / disrepute / buffet] | L7:OK | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
+- alms | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[alms / cauldron / disrepute / buffet] | L7:OK | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
 - alpine | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:勉强(更多靠场景词；换一组同类选项时可能不唯一) | 选项:[alpine / contour / official / dale] | L7:OK | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
 - amble | L5-Def:能 | L5-Ex:勉强(动作/情境可猜，但不太可能凭英文例句产出该动词) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[amble / satisfy / startle / edit] | L7:OK | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
 - ambrosia | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[ambrosia / belfry / crypt / cherub] | L7:注意(宗教元素(中国家长可能敏感)；建议更中性/文化介绍口吻，避免“灌输”语气) | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
@@ -134,7 +134,7 @@
 - banter | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:勉强(更多靠场景词；换一组同类选项时可能不唯一) | 选项:[banter / crux / personal / bastion] | L7:OK | L8:合适
 - barbecue | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[barbecue / condiment / apprentice / bistro] | L7:OK | L8:合适
 - barge | L5-Def:能 | L5-Ex:勉强(线索少(仅:wide)) | L6:勉强(线索偏少(仅:wide)，同类选项易混) | 选项:[barge / atoll / breadth / adrift] | L7:OK | L8:合适
-- barley | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[barley / apprentice / caldron / regional] | L7:OK | L8:合适
+- barley | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[barley / apprentice / cauldron / regional] | L7:OK | L8:合适
 - barnacle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[barnacle / atoll / nautical / berth] | L7:OK | L8:合适
 - baroque | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[baroque / ajar / adage / arbiter] | L7:OK | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
 - barracks | L5-Def:能 | L5-Ex:勉强(线索少(仅:soldiers)) | L6:勉强(线索偏少(仅:soldiers)，同类选项易混) | 选项:[barracks / buoyancy / deft / dime] | L7:OK | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
@@ -166,7 +166,7 @@
 - buttress | L5-Def:能 | L5-Ex:勉强(线索少(仅:stone)) | L6:勉强(线索偏少(仅:stone)，同类选项易混) | 选项:[buttress / ambrosia / belfry / cherub] | L7:注意(宗教元素(中国家长可能敏感)；建议更中性/文化介绍口吻，避免“灌输”语气) | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
 - cache | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[cache / deft / dime / cairn] | L7:OK | L8:合适
 - cairn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[cairn / banter / illegal / cosmos] | L7:OK | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
-- caldron | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[caldron / disrepute / buffet / barley] | L7:OK | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
+- cauldron | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[cauldron / disrepute / buffet / barley] | L7:OK | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
 - canter | L5-Def:能 | L5-Ex:勉强(线索少(仅:horse)) | L6:勉强(线索偏少(仅:horse)，同类选项易混) | 选项:[canter / naked / amulet / banter] | L7:OK | L8:合适
 - capsize | L5-Def:能 | L5-Ex:勉强(动作/情境可猜，但不太可能凭英文例句产出该动词) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[capsize / divulge / atone / skim] | L7:OK | L8:合适
 - capsule | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[capsule / immune / denture / angular] | L7:OK | L8:合适
@@ -227,7 +227,7 @@
 - dime | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[dime / cleft / curtsy / crone] | L7:注意(美分硬币(文化背景差异)；中国孩子不熟，建议换成更通用的“coin”或补充说明/配图) | L8:勉强(概念/用法可能需要中文解释或更多例句支架)
 - din | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[din / primitive / conduit / principal] | L7:OK | L8:合适
 - dishevel | L5-Def:能 | L5-Ex:勉强(线索少(仅:hair)) | L6:勉强(线索偏少(仅:hair)，同类选项易混) | 选项:[dishevel / soar / weaken / coil] | L7:OK | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
-- disrepute | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[disrepute / regional / condiment / caldron] | L7:OK | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
+- disrepute | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[disrepute / regional / condiment / cauldron] | L7:OK | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
 - dissect | L5-Def:能 | L5-Ex:勉强(动作/情境可猜，但不太可能凭英文例句产出该动词) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[dissect / divulge / billow / forgive] | L7:OK | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
 - distraught | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图联想) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[distraught / favorable / imaginary / dapper] | L7:OK | L8:偏难(稀有/学术/领域词；对MAP197更像“认识即可”，建议后置或拆成更生活化词汇)
 - ditto | L5-Def:能 | L5-Ex:能(线索词:same,thing) | L6:能(线索足(例句含:same,thing)) | 选项:[ditto / buggy / aright / illegal] | L7:OK | L8:合适
