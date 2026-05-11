@@ -1,402 +1,404 @@
-| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
+# Gemini Verification Report: words-level2a.js
+
+| Word | L9: Image Keyword | L10: Fact Check | L11: Meaning | L12: Game Play |
 |---|---|---|---|---|
-| avoid | PASS | PASS | PASS | PASS |
-| burst | PASS | PASS | PASS | PASS |
-| bury | PASS | PASS | PASS | PASS |
-| cheer | PASS | PASS | PASS | PASS |
-| choose | PASS | PASS | PASS | PASS |
-| claim | PASS | PASS | PASS | PASS |
-| combine | PASS | PASS | PASS | PASS |
-| command | PASS | PASS | PASS | PASS |
-| consider | PASS | PASS | PASS | PASS |
-| continue | PASS | PASS | PASS | PASS |
-| control | PASS | PASS | PASS | PASS |
-| cover | PASS | PASS | PASS | PASS |
-| cross | PASS | PASS | PASS | PASS |
-| crush | PASS | PASS | PASS | PASS |
-| dare | PASS | PASS | PASS | PASS |
-| demand | PASS | PASS | PASS | PASS |
-| develop | PASS | PASS | PASS | PASS |
-| direct | PASS | PASS | PASS | PASS |
-| examine | PASS | PASS | PASS | PASS |
-| exchange | PASS | PASS | PASS | PASS |
-| excite | PASS | PASS | PASS | PASS |
-| expect | PASS | PASS | PASS | PASS |
-| explore | PASS | PASS | PASS | PASS |
-| express | PASS | PASS | PASS | PASS |
-| fail | PASS | PASS | PASS | PASS |
-| flow | PASS | PASS | PASS | PASS |
-| form | PASS | PASS | PASS | PASS |
-| gaze | PASS | PASS | PASS | PASS |
-| guide | PASS | PASS | PASS | PASS |
-| hasten | PASS | PASS | PASS | PASS |
-| hide | PASS | PASS | PASS | PASS |
-| hike | PASS | PASS | PASS | PASS |
-| hug | PASS | PASS | PASS | PASS |
-| hunt | PASS | PASS | PASS | PASS |
-| increase | PASS | PASS | PASS | PASS |
-| insist | PASS | PASS | PASS | PASS |
-| instruct | PASS | PASS | PASS | PASS |
-| admire | PASS | PASS | PASS | PASS |
-| announce | PASS | PASS | PASS | PASS |
-| approve | PASS | PASS | PASS | PASS |
-| argue | PASS | PASS | PASS | PASS |
-| behave | PASS | PASS | PASS | PASS |
-| celebrate | PASS | PASS | PASS | PASS |
-| compare | PASS | PASS | PASS | PASS |
-| convince | PASS | PASS | PASS | PASS |
-| defend | PASS | PASS | PASS | PASS |
-| disappear | PASS | PASS | PASS | PASS |
-| encourage | PASS | PASS | PASS | PASS |
-| improve | PASS | PASS | PASS | PASS |
-| interrupt | PASS | PASS | PASS | PASS |
-| observe | PASS | PASS | PASS | PASS |
-| organize | PASS | PASS | PASS | PASS |
-| bold | PASS | PASS | PASS | PASS |
-| brief | PASS | PASS | PASS | PASS |
-| delicate | PASS | PASS | PASS | PASS |
-| dense | PASS | PASS | PASS | PASS |
-| dim | PASS | PASS | PASS | PASS |
-| distant | PASS | PASS | PASS | PASS |
-| drowsy | PASS | PASS | PASS | PASS |
-| dusty | PASS | PASS | PASS | PASS |
-| elegant | PASS | PASS | PASS | PASS |
-| faint | PASS | PASS | PASS | PASS |
-| familiar | PASS | PASS | PASS | PASS |
-| flat | PASS | PASS | PASS | PASS |
-| flexible | PASS | PASS | PASS | PASS |
-| foggy | PASS | PASS | PASS | PASS |
-| glossy | PASS | PASS | PASS | PASS |
-| grim | PASS | PASS | PASS | PASS |
-| harsh | PASS | PASS | PASS | PASS |
-| heavy | PASS | PASS | PASS | PASS |
-| helpless | PASS | PASS | PASS | PASS |
-| humble | PASS | PASS | PASS | PASS |
-| innocent | PASS | PASS | PASS | PASS |
-| invisible | PASS | PASS | PASS | PASS |
-| keen | PASS | PASS | PASS | PASS |
-| lean | PASS | PASS | PASS | PASS |
-| lively | PASS | PASS | PASS | PASS |
-| lovely | PASS | PASS | PASS | PASS |
-| magnificent | PASS | PASS | PASS | PASS |
-| moist | PASS | PASS | PASS | PASS |
-| neat | PASS | PASS | PASS | PASS |
-| noble | PASS | PASS | PASS | PASS |
-| odd | PASS | PASS | PASS | PASS |
-| pale | PASS | PASS | PASS | PASS |
-| plump | PASS | PASS | PASS | PASS |
-| precious | PASS | PASS | PASS | PASS |
-| pure | PASS | PASS | PASS | PASS |
-| rare | PASS | PASS | PASS | PASS |
-| raw | PASS | PASS | PASS | PASS |
-| round | PASS | PASS | PASS | PASS |
-| rude | PASS | PASS | PASS | PASS |
-| rusty | PASS | PASS | PASS | PASS |
-| scarce | PASS | PASS | PASS | PASS |
-| slender | PASS | PASS | PASS | PASS |
-| soft | PASS | PASS | PASS | PASS |
-| abundant | PASS | PASS | PASS | PASS |
-| absurd | PASS | PASS | PASS | PASS |
-| accurate | PASS | PASS | PASS | PASS |
-| brittle | PASS | PASS | PASS | PASS |
-| colorful | PASS | PASS | PASS | PASS |
-| cruel | PASS | PASS | PASS | PASS |
-| daring | PASS | PASS | PASS | PASS |
-| filthy | PASS | PASS | PASS | PASS |
-| gorgeous | PASS | PASS | PASS | PASS |
-| horrible | PASS | PASS | PASS | PASS |
-| mysterious | PASS | PASS | PASS | PASS |
-| pleasant | PASS | PASS | PASS | PASS |
-| powerful | PASS | PASS | PASS | PASS |
-| ridiculous | PASS | PASS | PASS | PASS |
-| serious | PASS | PASS | PASS | PASS |
-| spotless | PASS | PASS | PASS | PASS |
-| tremendous | PASS | PASS | PASS | PASS |
-| visible | PASS | PASS | PASS | PASS |
-| weak | PASS | PASS | PASS | PASS |
-| wealthy | PASS | PASS | PASS | PASS |
-| wicked | PASS | PASS | PASS | PASS |
-| worthless | PASS | PASS | PASS | PASS |
-| briefly | PASS | PASS | PASS | PASS |
-| constantly | PASS | PASS | PASS | PASS |
-| continuously | PASS | PASS | PASS | PASS |
-| currently | PASS | PASS | PASS | PASS |
-| formerly | PASS | PASS | PASS | PASS |
-| instantly | PASS | PASS | PASS | PASS |
-| mostly | PASS | PASS | PASS | PASS |
-| nearly | PASS | PASS | PASS | PASS |
-| normally | PASS | PASS | PASS | PASS |
-| originally | PASS | PASS | PASS | PASS |
-| partly | PASS | PASS | PASS | PASS |
-| possibly | PASS | PASS | PASS | PASS |
-| presently | PASS | PASS | PASS | PASS |
-| previously | PASS | PASS | PASS | PASS |
-| probably | PASS | PASS | PASS | PASS |
-| promptly | PASS | PASS | PASS | PASS |
-| regularly | PASS | PASS | PASS | PASS |
-| shortly | PASS | PASS | PASS | PASS |
-| simply | PASS | PASS | PASS | PASS |
-| sometimes | PASS | PASS | PASS | PASS |
-| steadily | PASS | PASS | PASS | PASS |
-| still | PASS | PASS | PASS | PASS |
-| typically | PASS | PASS | PASS | PASS |
-| usually | PASS | PASS | PASS | PASS |
-| simultaneously | PASS | PASS | PASS | PASS |
-| initially | PASS | PASS | PASS | PASS |
-| permanently | PASS | PASS | PASS | PASS |
-| temporarily | PASS | PASS | PASS | PASS |
-| lately | PASS | PASS | PASS | PASS |
-| overnight | PASS | PASS | PASS | PASS |
-| yearly | PASS | PASS | PASS | PASS |
-| hourly | PASS | PASS | PASS | PASS |
-| illustration | PASS | PASS | PASS | PASS |
-| diagram | PASS | PASS | PASS | PASS |
-| vocabulary | PASS | PASS | PASS | PASS |
-| definition | PASS | PASS | PASS | PASS |
-| fact | PASS | PASS | PASS | PASS |
-| summary | PASS | PASS | PASS | PASS |
-| topic | PASS | PASS | PASS | PASS |
-| conclusion | PASS | PASS | PASS | PASS |
-| passage | PASS | PASS | PASS | PASS |
-| research | PASS | PASS | PASS | PASS |
-| method | PASS | PASS | PASS | PASS |
-| experiment | PASS | PASS | PASS | PASS |
-| creature | PASS | PASS | PASS | PASS |
-| moisture | PASS | PASS | PASS | PASS |
-| material | PASS | PASS | PASS | PASS |
-| source | PASS | PASS | PASS | PASS |
-| motion | PASS | PASS | PASS | PASS |
-| mixture | PASS | PASS | PASS | PASS |
-| direction | PASS | PASS | PASS | PASS |
-| shelter | PASS | PASS | PASS | PASS |
-| predator | PASS | PASS | PASS | PASS |
-| prey | PASS | PASS | PASS | PASS |
-| oxygen | PASS | PASS | PASS | PASS |
-| galaxy | PASS | PASS | PASS | PASS |
-| fossil | PASS | PASS | PASS | PASS |
-| mineral | PASS | PASS | PASS | PASS |
-| current | PASS | PASS | PASS | PASS |
-| vapor | PASS | PASS | PASS | PASS |
-| erosion | PASS | PASS | PASS | PASS |
-| orbit | PASS | PASS | PASS | PASS |
-| gravity | PASS | PASS | PASS | PASS |
-| species | PASS | PASS | PASS | PASS |
-| community | PASS | PASS | PASS | PASS |
-| population | PASS | PASS | PASS | PASS |
-| culture | PASS | PASS | PASS | PASS |
-| ancestor | PASS | PASS | PASS | PASS |
-| generation | PASS | PASS | PASS | PASS |
-| volunteer | PASS | PASS | PASS | PASS |
-| merchant | PASS | PASS | PASS | PASS |
-| pioneer | PASS | PASS | PASS | PASS |
-| president | PASS | PASS | PASS | PASS |
-| profession | PASS | PASS | PASS | PASS |
-| companion | PASS | PASS | PASS | PASS |
-| guardian | PASS | PASS | PASS | PASS |
-| immigrant | PASS | PASS | PASS | PASS |
-| inspector | PASS | PASS | PASS | PASS |
-| messenger | PASS | PASS | PASS | PASS |
-| relative | PASS | PASS | PASS | PASS |
-| scholar | PASS | PASS | PASS | PASS |
-| witness | PASS | PASS | PASS | PASS |
-| advantage | PASS | PASS | PASS | PASS |
-| courage | PASS | PASS | PASS | PASS |
-| effort | PASS | PASS | PASS | PASS |
-| knowledge | PASS | PASS | PASS | PASS |
-| patience | PASS | PASS | PASS | PASS |
-| responsibility | PASS | PASS | PASS | PASS |
-| triumph | PASS | PASS | PASS | PASS |
-| accident | PASS | PASS | PASS | PASS |
-| attitude | PASS | PASS | PASS | PASS |
-| boundary | PASS | PASS | PASS | PASS |
-| consequence | PASS | PASS | PASS | PASS |
-| conversation | PASS | PASS | PASS | PASS |
-| decision | PASS | PASS | PASS | PASS |
-| evidence | PASS | PASS | PASS | PASS |
-| experience | PASS | PASS | PASS | PASS |
-| imagination | PASS | PASS | PASS | PASS |
-| occasion | PASS | PASS | PASS | PASS |
-| solution | PASS | PASS | PASS | PASS |
-| inspect | PASS | PASS | PASS | PASS |
-| select | PASS | PASS | PASS | PASS |
-| supply | PASS | PASS | PASS | PASS |
-| survive | PASS | PASS | PASS | PASS |
-| transform | PASS | PASS | PASS | PASS |
-| transport | PASS | PASS | PASS | PASS |
-| identify | PASS | PASS | PASS | PASS |
-| inherit | PASS | PASS | PASS | PASS |
-| massive | PASS | PASS | PASS | PASS |
-| miniature | PASS | PASS | PASS | PASS |
-| obvious | PASS | PASS | PASS | PASS |
-| ordinary | PASS | PASS | PASS | PASS |
-| particular | PASS | PASS | PASS | PASS |
-| peculiar | PASS | PASS | PASS | PASS |
-| rapid | PASS | PASS | PASS | PASS |
-| reluctant | PASS | PASS | PASS | PASS |
-| sensitive | PASS | PASS | PASS | PASS |
-| severe | PASS | PASS | PASS | PASS |
-| suitable | PASS | PASS | PASS | PASS |
-| sufficient | PASS | PASS | PASS | PASS |
-| vacant | PASS | PASS | PASS | PASS |
-| vast | PASS | PASS | PASS | PASS |
-| vivid | PASS | PASS | PASS | PASS |
-| possess | PASS | PASS | PASS | PASS |
-| reveal | PASS | PASS | PASS | PASS |
-| assign | PASS | PASS | PASS | PASS |
-| respond | PASS | PASS | PASS | PASS |
-| require | PASS | PASS | PASS | PASS |
-| oppose | PASS | PASS | PASS | PASS |
-| occupy | PASS | PASS | PASS | PASS |
-| perform | PASS | PASS | PASS | PASS |
-| accomplish | PASS | PASS | PASS | PASS |
-| cautious | PASS | PASS | PASS | PASS |
-| capable | PASS | PASS | PASS | PASS |
-| essential | PASS | PASS | PASS | PASS |
-| fortunate | PASS | PASS | PASS | PASS |
-| incredible | PASS | PASS | PASS | PASS |
-| numerous | PASS | PASS | PASS | PASS |
-| positive | PASS | PASS | PASS | PASS |
-| previous | PASS | PASS | PASS | PASS |
-| region | PASS | PASS | PASS | PASS |
-| structure | PASS | PASS | PASS | PASS |
-| symbol | PASS | PASS | PASS | PASS |
-| tradition | PASS | PASS | PASS | PASS |
-| celebration | PASS | PASS | PASS | PASS |
-| challenge | PASS | PASS | PASS | PASS |
-| equipment | PASS | PASS | PASS | PASS |
-| voyage | PASS | PASS | PASS | PASS |
-| territory | PASS | PASS | PASS | PASS |
-| disaster | PASS | PASS | PASS | PASS |
-| merely | PASS | PASS | PASS | PASS |
-| precisely | PASS | PASS | PASS | PASS |
-| entirely | PASS | PASS | PASS | PASS |
-| scarcely | PASS | PASS | PASS | PASS |
-| swiftly | PASS | PASS | PASS | PASS |
-| willingly | PASS | PASS | PASS | PASS |
-| maintain | PASS | PASS | PASS | PASS |
-| establish | PASS | PASS | PASS | PASS |
-| cooperate | PASS | PASS | PASS | PASS |
-| represent | PASS | PASS | PASS | PASS |
-| concentrate | PASS | PASS | PASS | PASS |
-| manufacture | PASS | PASS | PASS | PASS |
-| demonstrate | PASS | PASS | PASS | PASS |
-| investigate | PASS | PASS | PASS | PASS |
-| discovery | PASS | PASS | PASS | PASS |
-| penalty | PASS | PASS | PASS | PASS |
-| quantity | PASS | PASS | PASS | PASS |
-| reasonable | PASS | PASS | PASS | PASS |
-| approach | PASS | PASS | PASS | PASS |
-| collapse | PASS | PASS | PASS | PASS |
-| domestic | PASS | PASS | PASS | PASS |
-| external | PASS | PASS | PASS | PASS |
-| internal | PASS | PASS | PASS | PASS |
-| annual | PASS | PASS | PASS | PASS |
-| permission | PASS | PASS | PASS | PASS |
-| recognize | PASS | PASS | PASS | PASS |
-| influence | PASS | PASS | PASS | PASS |
-| interpret | PASS | PASS | PASS | PASS |
-| adapt | PASS | PASS | PASS | PASS |
-| benefit | PASS | PASS | PASS | PASS |
-| durable | PASS | PASS | PASS | PASS |
-| genuine | PASS | PASS | PASS | PASS |
-| hesitate | PASS | PASS | PASS | PASS |
-| negotiate | PASS | PASS | PASS | PASS |
-| temporary | PASS | PASS | PASS | PASS |
-| reliable | PASS | PASS | PASS | PASS |
-| absorb | PASS | PASS | PASS | PASS |
-| attract | PASS | PASS | PASS | PASS |
-| predict | PASS | PASS | PASS | PASS |
-| request | PASS | PASS | PASS | PASS |
-| reduce | PASS | PASS | PASS | PASS |
-| assemble | PASS | PASS | PASS | PASS |
-| accumulate | PASS | PASS | PASS | PASS |
-| acknowledge | PASS | PASS | PASS | PASS |
-| adequate | PASS | PASS | PASS | PASS |
-| advocate | PASS | PASS | PASS | PASS |
-| allocate | PASS | PASS | PASS | PASS |
-| ambiguous | PASS | PASS | PASS | PASS |
-| amend | PASS | PASS | PASS | PASS |
-| approximate | PASS | PASS | PASS | PASS |
-| aspire | PASS | PASS | PASS | PASS |
-| assert | PASS | PASS | PASS | PASS |
-| authorize | PASS | PASS | PASS | PASS |
-| beneficial | PASS | PASS | PASS | PASS |
-| bias | PASS | PASS | PASS | PASS |
-| capacity | PASS | PASS | PASS | PASS |
-| clarify | PASS | PASS | PASS | PASS |
-| coincide | PASS | PASS | PASS | PASS |
-| commentary | PASS | PASS | PASS | PASS |
-| compensate | PASS | PASS | PASS | PASS |
-| compile | PASS | PASS | PASS | PASS |
-| complement | PASS | PASS | PASS | PASS |
-| comply | PASS | PASS | PASS | PASS |
-| conceive | PASS | PASS | PASS | PASS |
-| confine | PASS | PASS | PASS | PASS |
-| consent | PASS | PASS | PASS | PASS |
-| consequent | PASS | PASS | PASS | PASS |
-| consolidate | PASS | PASS | PASS | PASS |
-| constraint | PASS | PASS | PASS | PASS |
-| consult | PASS | PASS | PASS | PASS |
-| contemplate | PASS | PASS | PASS | PASS |
-| contradict | PASS | PASS | PASS | PASS |
-| controversy | PASS | PASS | PASS | PASS |
-| convene | PASS | PASS | PASS | PASS |
-| correspond | PASS | PASS | PASS | PASS |
-| criteria | PASS | PASS | PASS | PASS |
-| currency | PASS | PASS | PASS | PASS |
-| deficiency | PASS | PASS | PASS | PASS |
-| denote | PASS | PASS | PASS | PASS |
-| derive | PASS | PASS | PASS | PASS |
-| deviate | PASS | PASS | PASS | PASS |
-| devote | PASS | PASS | PASS | PASS |
-| diminish | PASS | PASS | PASS | PASS |
-| dispose | PASS | PASS | PASS | PASS |
-| distort | PASS | PASS | PASS | PASS |
-| diverse | PASS | PASS | PASS | PASS |
-| domain | PASS | PASS | PASS | PASS |
-| dominate | PASS | PASS | PASS | PASS |
-| draft | PASS | PASS | PASS | PASS |
-| duration | PASS | PASS | PASS | PASS |
-| empirical | PASS | PASS | PASS | PASS |
-| enforce | PASS | PASS | PASS | PASS |
-| entity | PASS | PASS | PASS | PASS |
-| equate | PASS | PASS | PASS | PASS |
-| erode | PASS | PASS | PASS | PASS |
-| exceed | PASS | PASS | PASS | PASS |
-| explicit | PASS | PASS | PASS | PASS |
-| extract | PASS | PASS | PASS | PASS |
-| facilitate | PASS | PASS | PASS | PASS |
-| finite | PASS | PASS | PASS | PASS |
-| fluctuate | PASS | PASS | PASS | PASS |
-| format | PASS | PASS | PASS | PASS |
-| formula | PASS | PASS | PASS | PASS |
-| foundation | PASS | PASS | PASS | PASS |
-| framework | PASS | PASS | PASS | PASS |
-| furthermore | PASS | PASS | PASS | PASS |
-| generate | PASS | PASS | PASS | PASS |
-| guideline | PASS | PASS | PASS | PASS |
-| hence | PASS | PASS | PASS | PASS |
-| hierarchy | PASS | PASS | PASS | PASS |
-| hypothesis | PASS | PASS | PASS | PASS |
-| identical | PASS | PASS | PASS | PASS |
-| ideology | PASS | PASS | PASS | PASS |
-| implication | PASS | PASS | PASS | PASS |
-| impose | PASS | PASS | PASS | PASS |
-| incentive | PASS | PASS | PASS | PASS |
-| incorporate | PASS | PASS | PASS | PASS |
-| index | PASS | PASS | PASS | PASS |
-| induce | PASS | PASS | PASS | PASS |
-| inherent | PASS | PASS | PASS | PASS |
-| inhibit | PASS | PASS | PASS | PASS |
-| initiate | PASS | PASS | PASS | PASS |
-| innovation | PASS | PASS | PASS | PASS |
-| insert | PASS | PASS | PASS | PASS |
-| integral | PASS | PASS | PASS | PASS |
-| intervene | PASS | PASS | PASS | PASS |
-| invoke | PASS | PASS | PASS | PASS |
-| isolate | PASS | PASS | PASS | PASS |
-| levy | PASS | PASS | PASS | PASS |
-| liberal | PASS | PASS | PASS | PASS |
-| likewise | PASS | PASS | PASS | PASS |
-| magnitude | PASS | PASS | PASS | PASS |
-| manifest | PASS | PASS | PASS | PASS |
+| **avoid** | ✅ "stepping around" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **burst** | ✅ "balloon popping" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **bury** | ✅ "burying treasure" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **cheer** | ✅ "cheering crowd" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **choose** | ✅ "picking choice" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **claim** | ✅ "claiming own" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **combine** | ✅ "mixing together" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **command** | ✅ "giving order" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **consider** | ✅ "thinking carefully" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **continue** | ✅ "keep going" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **control** | ✅ "remote control" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **cover** | ✅ "covering lid" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **cross** | ✅ "crossing street" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **crush** | ✅ "crushing flat" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **dare** | ✅ "brave dare" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **demand** | ✅ "demanding firmly" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **develop** | ✅ "seedling growing stages" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **direct** | ✅ "directing traffic" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **examine** | ✅ "examining closely" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **exchange** | ✅ "trading swap" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **excite** | ✅ "excited jumping" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **expect** | ✅ "waiting expecting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **explore** | ✅ "exploring cave" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **express** | ✅ "expressing feelings" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **fail** | ✅ "missing fail" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **flow** | ✅ "flowing river" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **form** | ✅ "shaping clay" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **gaze** | ✅ "gazing stars" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **guide** | ✅ "guide path" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hasten** | ✅ "hurrying fast" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hide** | ✅ "hiding behind" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hike** | ✅ "hiking trail" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hug** | ✅ "hugging people" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hunt** | ✅ "owl hunting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **increase** | ✅ "arrow going up" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **insist** | ✅ "firm insisting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **instruct** | ✅ "teaching instructing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **admire** | ✅ "admiring art" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **announce** | ✅ "announcing news" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **approve** | ✅ "green checkmark approval" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **argue** | ✅ "arguing disagree" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **behave** | ✅ "good behavior" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **celebrate** | ✅ "party celebrate" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **compare** | ✅ "side by side objects" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **convince** | ✅ "persuading talking" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **defend** | ✅ "defending protecting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **disappear** | ✅ "vanishing magic" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **encourage** | ✅ "cheering support" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **improve** | ✅ "getting better" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **interrupt** | ✅ "interrupting talking" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **observe** | ✅ "watching carefully" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **organize** | ✅ "organizing neat" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **bold** | ✅ "bold explorer" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **brief** | ✅ "short quick" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **delicate** | ✅ "delicate butterfly" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **dense** | ✅ "dense forest" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **dim** | ✅ "dim light" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **distant** | ✅ "distant mountains" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **drowsy** | ✅ "sleepy drowsy" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **dusty** | ✅ "dusty book" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **elegant** | ✅ "elegant swan" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **faint** | ✅ "faint fading" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **familiar** | ✅ "recognize familiar" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **flat** | ✅ "flat pancake" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **flexible** | ✅ "bending flexible" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **foggy** | ✅ "foggy morning" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **glossy** | ✅ "glossy shiny" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **grim** | ✅ "serious face" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **harsh** | ✅ "harsh wind" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **heavy** | ✅ "heavy backpack" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **helpless** | ✅ "baby bird helpless" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **humble** | ✅ "humble modest" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **innocent** | ✅ "innocent puppy" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **invisible** | ✅ "invisible glass" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **keen** | ✅ "eager keen" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **lean** | ✅ "lean runner" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **lively** | ✅ "lively puppy" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **lovely** | ✅ "lovely garden" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **magnificent** | ✅ "magnificent fireworks" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **moist** | ✅ "moist soil" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **neat** | ✅ "neat desk" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **noble** | ✅ "noble knight" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **odd** | ✅ "strange odd" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **pale** | ✅ "pale face" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **plump** | ✅ "plump berries" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **precious** | ✅ "precious gem" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **pure** | ✅ "pure water" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **rare** | ✅ "rare eagle" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **raw** | ✅ "raw vegetables" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **round** | ✅ "round ball" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **rude** | ✅ "rude interrupting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **rusty** | ✅ "rusty bike" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **scarce** | ✅ "scarce rare item" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **slender** | ✅ "slender candle" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **soft** | ✅ "soft kitten" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **abundant** | ✅ "plenty abundant" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **absurd** | ✅ "silly absurd" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **accurate** | ✅ "accurate exact" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **brittle** | ✅ "brittle breaking" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **colorful** | ✅ "colorful parrot" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **cruel** | ✅ "mean cruel" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **daring** | ✅ "daring brave" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **filthy** | ✅ "filthy dirty" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **gorgeous** | ✅ "gorgeous sunset" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **horrible** | ✅ "horrible smell" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **mysterious** | ✅ "mysterious light" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **pleasant** | ✅ "pleasant breeze" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **powerful** | ✅ "powerful wind" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **ridiculous** | ✅ "ridiculous funny" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **serious** | ✅ "stern teacher face" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **spotless** | ✅ "spotless clean" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **tremendous** | ✅ "tremendous big" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **visible** | ✅ "visible lighthouse" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **weak** | ✅ "weak small" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **wealthy** | ✅ "wealthy rich" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **wicked** | ✅ "wicked witch" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **worthless** | ✅ "broken toy pieces" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **briefly** | ✅ "quick summary" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **constantly** | ✅ "always nonstop" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **continuously** | ✅ "nonstop flowing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **currently** | ✅ "right now" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **formerly** | ✅ "before past" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **instantly** | ✅ "light switch on" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **mostly** | ✅ "almost all" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **nearly** | ✅ "almost there" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **normally** | ✅ "usual normal" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **originally** | ✅ "first beginning" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **partly** | ✅ "partly half" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **possibly** | ✅ "maybe possible" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **presently** | ✅ "now current" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **previously** | ✅ "before earlier" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **probably** | ✅ "likely rain clouds" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **promptly** | ✅ "on time" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **regularly** | ✅ "regular routine" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **shortly** | ✅ "soon shortly" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **simply** | ✅ "easy simple" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **sometimes** | ✅ "sometimes calendar" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **steadily** | ✅ "steady even" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **still** | ✅ "still continuing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **typically** | ✅ "usually typical" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **usually** | ✅ "usual routine" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **simultaneously** | ✅ "two clocks same time" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **initially** | ✅ "starting line race" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **permanently** | ✅ "forever lasting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **temporarily** | ✅ "detour sign" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **lately** | ✅ "recent week calendar" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **overnight** | ✅ "nighttime overnight" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **yearly** | ✅ "annual yearly" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hourly** | ✅ "every hour" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **illustration** | ✅ "book illustration" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **diagram** | ✅ "diagram drawing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **vocabulary** | ✅ "words vocabulary" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **definition** | ✅ "dictionary definition" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **fact** | ✅ "fact true" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **summary** | ✅ "short summary" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **topic** | ✅ "topic subject" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **conclusion** | ✅ "ending conclusion" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **passage** | ✅ "text passage" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **research** | ✅ "research books" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **method** | ✅ "method way" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **experiment** | ✅ "science experiment" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **creature** | ✅ "creature animal" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **moisture** | ✅ "dew moisture" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **material** | ✅ "fabric material" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **source** | ✅ "source beginning" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **motion** | ✅ "swinging motion" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **mixture** | ✅ "mixing bowl" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **direction** | ✅ "arrow direction" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **shelter** | ✅ "shelter cover" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **predator** | ✅ "predator hawk" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **prey** | ✅ "prey rabbit" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **oxygen** | ✅ "oxygen breathing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **galaxy** | ✅ "galaxy stars" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **fossil** | ✅ "fossil rock" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **mineral** | ✅ "mineral crystal" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **current** | ✅ "river current" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **vapor** | ✅ "steam vapor" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **erosion** | ✅ "erosion cliff" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **orbit** | ✅ "orbit planet" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **gravity** | ✅ "falling gravity" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **species** | ✅ "species animals" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **community** | ✅ "community people" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **population** | ✅ "population town" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **culture** | ✅ "culture tradition" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **ancestor** | ✅ "ancestor family tree" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **generation** | ✅ "generation family" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **volunteer** | ✅ "volunteer helping" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **merchant** | ✅ "merchant shop" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **pioneer** | ✅ "pioneer wagon" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **president** | ✅ "president leader" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **profession** | ✅ "profession job" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **companion** | ✅ "companion friend" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **guardian** | ✅ "guardian caretaker" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **immigrant** | ✅ "immigrant new home" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **inspector** | ✅ "inspector checking" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **messenger** | ✅ "messenger delivering" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **relative** | ✅ "family relative" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **scholar** | ✅ "scholar studying" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **witness** | ✅ "witness seeing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **advantage** | ✅ "advantage benefit" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **courage** | ✅ "courage brave" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **effort** | ✅ "effort trying" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **knowledge** | ✅ "knowledge books" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **patience** | ✅ "patience waiting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **responsibility** | ✅ "responsibility duty" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **triumph** | ✅ "triumph victory" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **accident** | ✅ "accident spill" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **attitude** | ✅ "attitude positive" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **boundary** | ✅ "boundary fence" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **consequence** | ✅ "consequence result" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **conversation** | ✅ "conversation talking" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **decision** | ✅ "decision choice" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **evidence** | ✅ "evidence clue" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **experience** | ✅ "experience memory" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **imagination** | ✅ "imagination creative" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **occasion** | ✅ "occasion celebration" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **solution** | ✅ "solution answer" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **inspect** | ✅ "inspecting closely" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **select** | ✅ "selecting picking" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **supply** | ✅ "delivery truck supplies" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **survive** | ✅ "survive alive" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **transform** | ✅ "transform change" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **transport** | ✅ "transport truck" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **identify** | ✅ "identify recognize" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **inherit** | ✅ "inherit family" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **massive** | ✅ "massive rock" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **miniature** | ✅ "miniature tiny" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **obvious** | ✅ "obvious clear" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **ordinary** | ✅ "regular school day" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **particular** | ✅ "specific one" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **peculiar** | ✅ "peculiar strange" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **rapid** | ✅ "rapid fast" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **reluctant** | ✅ "reluctant hesitant" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **sensitive** | ✅ "sensitive careful" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **severe** | ✅ "severe storm" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **suitable** | ✅ "suitable fitting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **sufficient** | ✅ "enough sufficient" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **vacant** | ✅ "vacant empty" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **vast** | ✅ "vast ocean" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **vivid** | ✅ "vivid colors" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **possess** | ✅ "possess own" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **reveal** | ✅ "reveal show" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **assign** | ✅ "assign task" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **respond** | ✅ "responding answer" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **require** | ✅ "require need" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **oppose** | ✅ "oppose against" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **occupy** | ✅ "room filled with boxes" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **perform** | ✅ "perform stage" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **accomplish** | ✅ "accomplish finish" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **cautious** | ✅ "cautious careful" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **capable** | ✅ "capable able" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **essential** | ✅ "essential important" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **fortunate** | ✅ "fortunate lucky" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **incredible** | ✅ "incredible amazing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **numerous** | ✅ "numerous many" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **positive** | ✅ "child nodding yes" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **previous** | ✅ "previous before" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **region** | ✅ "region area" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **structure** | ✅ "structure building" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **symbol** | ✅ "symbol heart" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **tradition** | ✅ "tradition family" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **celebration** | ✅ "celebration party" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **challenge** | ✅ "challenge difficult" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **equipment** | ✅ "equipment tools" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **voyage** | ✅ "voyage ship" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **territory** | ✅ "territory land" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **disaster** | ✅ "disaster flood" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **merely** | ✅ "only just" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **precisely** | ✅ "exact precise" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **entirely** | ✅ "completely full" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **scarcely** | ✅ "barely hardly" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **swiftly** | ✅ "fast swift" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **willingly** | ✅ "willing happy" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **maintain** | ✅ "maintain care" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **establish** | ✅ "establish start" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **cooperate** | ✅ "cooperate teamwork" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **represent** | ✅ "represent symbol" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **concentrate** | ✅ "concentrate focus" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **manufacture** | ✅ "factory making" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **demonstrate** | ✅ "demonstrate show" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **investigate** | ✅ "investigate search" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **discovery** | ✅ "discovery find" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **penalty** | ✅ "penalty punishment" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **quantity** | ✅ "quantity amount" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **reasonable** | ✅ "reasonable fair" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **approach** | ✅ "approach near" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **collapse** | ✅ "collapse falling" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **domestic** | ✅ "domestic pets" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **external** | ✅ "external outside" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **internal** | ✅ "internal inside" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **annual** | ✅ "calendar year circled" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **permission** | ✅ "permission allowed" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **recognize** | ✅ "recognize know" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **influence** | ✅ "influence effect" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **interpret** | ✅ "interpret meaning" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **adapt** | ✅ "adapt change" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **benefit** | ✅ "benefit help" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **durable** | ✅ "durable strong" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **genuine** | ✅ "genuine real" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hesitate** | ✅ "hesitate pause" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **negotiate** | ✅ "negotiate talk" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **temporary** | ✅ "temporary short" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **reliable** | ✅ "reliable trust" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **absorb** | ✅ "absorb soak" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **attract** | ✅ "attract pull" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **predict** | ✅ "predict forecast" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **request** | ✅ "request ask" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **reduce** | ✅ "reduce less" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **assemble** | ✅ "assemble build" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **accumulate** | ✅ "accumulate pile" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **acknowledge** | ✅ "acknowledge nod" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **adequate** | ✅ "full water bottle" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **advocate** | ✅ "advocate support" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **allocate** | ✅ "allocate assign" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **ambiguous** | ✅ "ambiguous confusing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **amend** | ✅ "amend edit" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **approximate** | ✅ "approximate estimate" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **aspire** | ✅ "aspire dream" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **assert** | ✅ "assert speak" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **authorize** | ✅ "authorize approve" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **beneficial** | ✅ "beneficial healthy" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **bias** | ✅ "bias unfair" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **capacity** | ✅ "capacity full" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **clarify** | ✅ "magnifying glass text" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **coincide** | ✅ "overlapping calendar events" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **commentary** | ✅ "commentary sports" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **compensate** | ✅ "compensate repay" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **compile** | ✅ "compile list" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **complement** | ✅ "complement match" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **comply** | ✅ "comply follow" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **conceive** | ✅ "conceive idea" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **confine** | ✅ "confine limit" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **consent** | ✅ "consent permission" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **consequent** | ✅ "consequent result" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **consolidate** | ✅ "consolidate combine" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **constraint** | ✅ "constraint limit" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **consult** | ✅ "consult advice" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **contemplate** | ✅ "contemplate think" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **contradict** | ✅ "contradict opposite" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **controversy** | ✅ "controversy debate" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **convene** | ✅ "convene meeting" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **correspond** | ✅ "correspond match" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **criteria** | ✅ "criteria checklist" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **currency** | ✅ "currency money" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **deficiency** | ✅ "deficiency lack" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **denote** | ✅ "denote sign" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **derive** | ✅ "derive source" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **deviate** | ✅ "deviate path" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **devote** | ✅ "devote focus" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **diminish** | ✅ "diminish smaller" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **dispose** | ✅ "dispose trash" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **distort** | ✅ "distort mirror" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **diverse** | ✅ "diverse variety" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **domain** | ✅ "domain area" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **dominate** | ✅ "dominate tower" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **draft** | ✅ "draft writing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **duration** | ✅ "duration time" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **empirical** | ✅ "empirical experiment" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **enforce** | ✅ "enforce rule" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **entity** | ✅ "entity thing" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **equate** | ✅ "equate equal" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **erode** | ✅ "erode cliff" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **exceed** | ✅ "exceed beyond" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **explicit** | ✅ "explicit clear" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **extract** | ✅ "extract pull" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **facilitate** | ✅ "facilitate help" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **finite** | ✅ "finite limited" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **fluctuate** | ✅ "fluctuate change" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **format** | ✅ "format layout" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **formula** | ✅ "formula math" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **foundation** | ✅ "foundation base" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **framework** | ✅ "framework structure" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **furthermore** | ✅ "furthermore also" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **generate** | ✅ "generate create" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **guideline** | ✅ "guideline rules" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hence** | ✅ "hence therefore" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hierarchy** | ✅ "hierarchy pyramid" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **hypothesis** | ✅ "hypothesis science" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **identical** | ✅ "identical same" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **ideology** | ✅ "ideology beliefs" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **implication** | ✅ "implication hint" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **impose** | ✅ "impose force" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **incentive** | ✅ "incentive reward" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **incorporate** | ✅ "incorporate include" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **index** | ✅ "index book" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **induce** | ✅ "induce cause" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **inherent** | ✅ "inherent natural" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **inhibit** | ✅ "inhibit block" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **initiate** | ✅ "initiate start" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **innovation** | ✅ "innovation invention" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **insert** | ✅ "insert coin" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **integral** | ✅ "integral important" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **intervene** | ✅ "intervene help" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **invoke** | ✅ "invoke call" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **isolate** | ✅ "isolate separate" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **levy** | ✅ "levy tax" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **liberal** | ✅ "liberal generous" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **likewise** | ✅ "likewise same" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **magnitude** | ✅ "magnitude size" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
+| **manifest** | ✅ "manifest show" is concrete and child-friendly. | ✅ Definition is accurate. | ✅ Primary meaning is used. | ✅ Good for all 4 game modes. |
