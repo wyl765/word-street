@@ -1,6 +1,6 @@
-# Gemini L9-L12 Verification Report: words-level1.js
+# Gemini Gate Review - words-level1.js
 
-| Word | L9: imageKeyword | L10: Fact Check | L11: Meaning | L12: Game Compat |
+| Word | L9: Image Keyword | L10: Fact Check | L11: Meaning | L12: Game Compat |
 |---|---|---|---|---|
 | puppy | Pass | Pass | Pass | Pass |
 | kitten | Pass | Pass | Pass | Pass |
