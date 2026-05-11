@@ -2,7 +2,7 @@
 
 > 每词一行：L5(定义能懂?/例句能猜?) + L6(例句反向填空唯一性：同level四选项) + L7(中国ESL家长视角文化敏感) + L8(学习路径/前置)
 
-说明：word-status.json 中 currentGate 并列最小；本次按 **totalWords 最少** 选 `words-level3c.js` 复核。
+说明：word-status.json 中 currentGate 并列最小；本次按「currentGate 最小 + 在并列里优先选 gate9 不是 pass（含缺失 gate9 字段）的一份」选 `words-level3c.js` 复核。
 
 - advance | L5-Def:勉强(卡: progress/improvement 抽象) | L5-Ex:能(棋子只能“前进一格”线索强) | L6:唯一(选项:A=advance, B=wade, C=hoist, D=lunge; 原因:棋子前进=advance 最贴) | L7:OK | L8:合适(但先会 forward / move)
 - affordable | L5-Def:勉强(卡: without worry 抽象) | L5-Ex:能(价钱不贵) | L6:唯一(选项:A=affordable, B=lavish, C=scarcity, D=eligible; 原因:价格能买得起) | L7:OK | L8:合适(可与 expensive/lavish 对比)
