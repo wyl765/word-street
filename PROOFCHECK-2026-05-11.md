@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 133 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 135 MINOR
 
 ## Issues
 
@@ -72,6 +72,10 @@ Definition contains subjective adjective "ugly": "very strange and ugly in a way
 
 ### [MINOR] words-level1.js — "lemon" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "lemon" def contains "sour" and "sour" def contains "lemon" (both L1)
+**Fix:** Break the cycle: at least one definition should not reference the other word
+
+### [MINOR] words-level2.js — "area" (CROSS_DEF_CYCLE)
+Cross-definition cycle: "area" def contains "region" and "region" def contains "area" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
 
 ### [MINOR] words-level2b.js — "despite" (CROSS_DEF_CYCLE)
@@ -268,6 +272,10 @@ L1 definition uses "tight" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "clap" (SAME_LEVEL_DEF_REF)
 L1 definition uses "together" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "borrow" (SAME_LEVEL_DEF_REF)
+L1 definition uses "later" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "gather" (SAME_LEVEL_DEF_REF)
@@ -537,6 +545,10 @@ Example contains military context: "army"
 ### [MINOR] words-level5d.js — "subjugate" (MILITARY_CONTEXT)
 Example contains military context: "military"
 **Fix:** Consider replacing with a neutral/civilian context
+
+### [HIGH] words-level2.js — "state" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "a part of a country; also the condition something is in"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
 ### [HIGH] words-level2a.js — "inherit" (MULTI_MEANING)
 L2 definition has multiple distinct meanings: "to receive something from a family member who has died, or to get traits passed down from parents"
