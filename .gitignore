@@ -6,3 +6,4 @@ evaluate-gemini.js
 
 # OS
 .DS_Store
+node_modules/
