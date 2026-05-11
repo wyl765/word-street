@@ -9,9 +9,9 @@ L6=遮住目标词后(例句+4选项)能否唯一确定。
 - participate | L5-Def:能 | L5-Ex:勉强(词形长/拼写负担) | L6:能(场景强线索) | 选项:[regular / series / participate / proclaim] | L7:OK | L8:勉强(更适合作为“认识词”或后置)
 - passion | L5-Def:能 | L5-Ex:不能(学术词缀/拼写负担) | L6:勉强(主要靠语感/蒙) | 选项:[shift / passion / produce / reinforce] | L7:OK | L8:不合适(词形/拼写负担偏大)
 - passive | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词少，易混) | 选项:[passive / profit / reject / significant] | L7:OK | L8:合适
-- patent | L5-Def:勉强(需要中文支架/图示) | L5-Ex:能 | L6:能(线索词:one) | 选项:[progress / relate / similar / patent] | L7:OK | L8:合适
+- patent | L5-Def:不能(legal/right/invention都偏术语) | L5-Ex:勉强(靠"copy her idea"猜到是保护发明) | L6:能(线索:inventor/copy idea) | 选项:[progress / relate / similar / patent] | L7:OK | L8:不合适(法律/商业专门词，低龄低频)
 - peer | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[release / simplify / peer / prohibit] | L7:OK | L8:合适
-- perceive | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[simulate / perceive / project / relevant] | L7:OK | L8:合适
+- perceive | L5-Def:勉强(知道"notice"才行) | L5-Ex:勉强(更像"noticed"/"felt") | L6:不唯一(选项里若有notice/feel/see都能通) | 选项:[simulate / perceive / project / relevant] | L7:OK | L8:勉强(可做认识词；更建议用notice)
 - peril | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[peril / promote / relief / site] | L7:OK | L8:合适
 - period | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词少，易混) | 选项:[prompt / rely / sketch / period] | L7:OK | L8:合适
 - permanent | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[remain / slight / permanent / proof] | L7:OK | L8:合适
@@ -160,7 +160,7 @@ L6=遮住目标词后(例句+4选项)能否唯一确定。
 - tense | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词少，易混) | 选项:[yield / confront / phenomenon / tense] | L7:OK | L8:合适
 - theory | L5-Def:勉强(需要中文支架/图示) | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[considerable / philosophy / theory / zone] | L7:OK | L8:合适
 - thorough | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[physical / thorough / abolish / consistent] | L7:OK | L8:合适
-- threaten | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[threaten / accelerate / conspicuous / plea] | L7:注意(字面“威胁伤害”可能让家长不适(建议天气等非暴力语境)) | L8:合适
+- threaten | L5-Def:勉强(释义=伤害威胁，但例句=快要发生) | L5-Ex:勉强(天气用法可懂，但和释义不一致会卡) | L6:不唯一(seem likely/going to都能放进句子) | 选项:[threaten / accelerate / conspicuous / plea] | L7:注意(建议把释义改成含"seem likely to"或换成更贴释义的例句) | L8:勉强(先补齐"threaten to"结构再教)
 - thrive | L5-Def:能 | L5-Ex:能 | L6:能(场景强线索) | 选项:[ambition / constitute / pledge / thrive] | L7:OK | L8:合适
 - tolerate | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词少，易混) | 选项:[constrain / plunge / tolerate / ample] | L7:OK | L8:合适
 - tone | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[policy / tone / anticipate / contempt] | L7:OK | L8:合适
@@ -201,7 +201,7 @@ L6=遮住目标词后(例句+4选项)能否唯一确定。
 - ambition | L5-Def:能 | L5-Ex:不能(学术词缀/拼写负担) | L6:勉强(线索词少，易混) | 选项:[period / purchase / ambition / constrain] | L7:OK | L8:不合适(词形/拼写负担偏大)
 - ample | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[pursue / ample / contempt / permanent] | L7:OK | L8:合适
 - anticipate | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[anticipate / contend / permit / qualify] | L7:OK | L8:合适
-- apparatus | L5-Def:能 | L5-Ex:勉强(学术词/不常用) | L6:能(场景强线索) | 选项:[controversial / persist / quote / apparatus] | L7:OK | L8:勉强(更适合作为“认识词”或后置)
+- apparatus | L5-Def:勉强(需要先会equipment/tool) | L5-Ex:勉强(依赖理化实验室背景) | L6:能(线索:beakers/test tubes) | 选项:[controversial / persist / quote / apparatus] | L7:OK | L8:不合适(学术低频；equipment更合适)
 - appliance | L5-Def:能 | L5-Ex:不能(学术词缀/拼写负担) | L6:勉强(线索词少，易混) | 选项:[perspective / random / appliance / convention] | L7:OK | L8:不合适(词形/拼写负担偏大)
 - appoint | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[ratio / appoint / convert / phenomenon] | L7:OK | L8:合适
 - asset | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词少，易混) | 选项:[asset / convey / philosophy / react] | L7:OK | L8:合适
@@ -227,7 +227,7 @@ L6=遮住目标词后(例句+4选项)能否唯一确定。
 - compound | L5-Def:能 | L5-Ex:能 | L6:能(线索词:made) | 选项:[compound / dictate / priority / relief] | L7:OK | L8:合适
 - comprehensive | L5-Def:能 | L5-Ex:不能(词形长/拼写负担) | L6:勉强(线索词少，易混) | 选项:[pace / privilege / rely / comprehensive] | L7:OK | L8:不合适(词形/拼写负担偏大)
 - compromise | L5-Def:能 | L5-Ex:不能(学术词缀/拼写负担) | L6:勉强(主要靠语感/蒙) | 选项:[proceed / remain / compromise / panel] | L7:OK | L8:不合适(词形/拼写负担偏大)
-- compulsory | L5-Def:能 | L5-Ex:勉强(学术词/不常用) | L6:能(场景强线索) | 选项:[remarkable / compulsory / participate / process] | L7:OK | L8:勉强(更适合作为“认识词”或后置)
+- compulsory | L5-Def:勉强(知道=required/必须) | L5-Ex:勉强(能懂意思但词形负担大) | L6:能(线索:seatbelt/for all) | 选项:[remarkable / compulsory / participate / process] | L7:OK | L8:不合适(正式/法律感强；required/need更适配)
 - condemn | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词少，易混) | 选项:[condemn / passion / proclaim / remedy] | L7:注意(强烈谴责语气，注意情绪强度) | L8:合适
 - conduct | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词少，易混) | 选项:[passive / produce / remote / conduct] | L7:OK | L8:合适
 - confront | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[profit / remove / confront / patent] | L7:OK | L8:合适
@@ -235,8 +235,8 @@ L6=遮住目标词后(例句+4选项)能否唯一确定。
 - consistent | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[consistent / perceive / prohibit / replace] | L7:OK | L8:合适
 - conspicuous | L5-Def:能 | L5-Ex:不能(词形长/拼写负担) | L6:勉强(主要靠语感/蒙) | 选项:[peril / project / reputation / conspicuous] | L7:OK | L8:不合适(词形/拼写负担偏大)
 - constitute | L5-Def:能 | L5-Ex:不能(学术词/不常用) | L6:勉强(线索词少，易混) | 选项:[promote / resemble / constitute / period] | L7:OK | L8:不合适(词形/拼写负担偏大)
-- constrain | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词少，易混) | 选项:[reserve / constrain / permanent / prompt] | L7:OK | L8:合适
-- contempt | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[contempt / permit / proof / reside] | L7:OK | L8:合适
+- constrain | L5-Def:勉强(更像"limit"但词本身偏书面) | L5-Ex:勉强(预算限制=抽象) | L6:不唯一(limit/restrict都能放进句子) | 选项:[reserve / constrain / permanent / prompt] | L7:OK | L8:不合适(书面/抽象；limit/restrict更合适)
+- contempt | L5-Def:不能(含"worthless/below"抽象评判) | L5-Ex:不能(情绪+语气都偏成人) | L6:不唯一(disgust/anger/annoy都可能) | 选项:[contempt / permit / proof / reside] | L7:OK | L8:不合适(抽象负面情绪词，低龄更适合mad/mean/disrespect)
 - contend | L5-Def:能 | L5-Ex:能 | L6:勉强(主要靠语感/蒙) | 选项:[persist / proportion / resist / contend] | L7:OK | L8:合适
 - controversial | L5-Def:能 | L5-Ex:不能(词形长/拼写负担) | L6:勉强(主要靠语感/蒙) | 选项:[propose / resolve / controversial / perspective] | L7:OK | L8:不合适(词形/拼写负担偏大)
 - convention | L5-Def:能 | L5-Ex:不能(学术词缀/拼写负担) | L6:勉强(主要靠语感/蒙) | 选项:[restore / convention / phenomenon / prospect] | L7:OK | L8:不合适(词形/拼写负担偏大)
