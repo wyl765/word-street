@@ -1,223 +1,219 @@
-# VERIFY-GEMINI-words-level2c.js-GATE
-
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
-|---|---|---|---|---|
-| achieve | PASS | PASS | PASS | PASS |
-| adjust | PASS | PASS | PASS | PASS |
-| adopt | PASS | PASS | PASS | PASS |
-| affect | PASS | PASS | PASS | PASS |
-| afford | PASS | PASS | PASS | PASS |
-| alarm | PASS | PASS | PASS | PASS |
-| alert | PASS | PASS | PASS | PASS |
-| allowance | PASS | PASS | PASS | PASS |
-| amaze | WARN: Long keyword | PASS | PASS | PASS |
-| appeal | PASS | PASS | PASS | PASS |
-| appetite | PASS | PASS | PASS | PASS |
-| applaud | PASS | PASS | PASS | PASS |
-| appropriate | PASS | PASS | PASS | PASS |
-| assist | PASS | PASS | PASS | PASS |
-| assume | PASS | PASS | PASS | PASS |
-| assure | PASS | PASS | PASS | PASS |
-| authority | PASS | PASS | PASS | PASS |
-| available | PASS | PASS | PASS | PASS |
-| aware | PASS | PASS | PASS | PASS |
-| ballot | PASS | PASS | PASS | PASS |
-| ban | WARN: Long keyword | PASS | PASS | PASS |
-| barrier | PASS | PASS | PASS | PASS |
-| blame | PASS | PASS | PASS | PASS |
-| blend | PASS | PASS | PASS | PASS |
-| bother | PASS | PASS | PASS | PASS |
-| caution | PASS | PASS | PASS | PASS |
-| century | PASS | PASS | PASS | PASS |
-| champion | PASS | PASS | PASS | PASS |
-| charm | PASS | PASS | PASS | PASS |
-| circulate | WARN: Long keyword | PASS | PASS | PASS |
-| circumstance | PASS | PASS | PASS | PASS |
-| commit | PASS | PASS | PASS | PASS |
-| communicate | PASS | PASS | PASS | PASS |
-| compassion | PASS | PASS | PASS | PASS |
-| compete | PASS | PASS | PASS | PASS |
-| complex | PASS | PASS | PASS | PASS |
-| concern | PASS | PASS | PASS | PASS |
-| confirm | PASS | PASS | PASS | PASS |
-| conquer | PASS | PASS | PASS | PASS |
-| conscious | PASS | PASS | PASS | PASS |
-| conserve | PASS | PASS | PASS | PASS |
-| consist | PASS | PASS | PASS | PASS |
-| constant | PASS | PASS | PASS | PASS |
-| construct | PASS | PASS | PASS | PASS |
-| contain | PASS | PASS | PASS | PASS |
-| contest | PASS | PASS | PASS | PASS |
-| contrast | PASS | PASS | PASS | PASS |
-| contribute | PASS | PASS | PASS | PASS |
-| convenient | PASS | PASS | PASS | PASS |
-| core | PASS | PASS | PASS | PASS |
-| courteous | WARN: Long keyword | PASS | PASS | PASS |
-| credit | PASS | PASS | PASS | PASS |
-| crisis | PASS | PASS | PASS | PASS |
-| critical | PASS | PASS | PASS | PASS |
-| debate | PASS | PASS | PASS | PASS |
-| decade | PASS | PASS | PASS | PASS |
-| decline | WARN: Long keyword | PASS | PASS | PASS |
-| dedicate | PASS | PASS | PASS | PASS |
-| definite | PASS | PASS | PASS | PASS |
-| deliberate | PASS | PASS | PASS | PASS |
-| deposit | WARN: Long keyword | PASS | PASS | PASS |
-| deserve | PASS | PASS | PASS | PASS |
-| desire | PASS | PASS | PASS | PASS |
-| desperate | PASS | PASS | PASS | PASS |
-| detect | PASS | PASS | PASS | PASS |
-| determine | PASS | PASS | PASS | PASS |
-| dignity | PASS | PASS | PASS | PASS |
-| dilemma | PASS | PASS | PASS | PASS |
-| dimension | PASS | PASS | PASS | PASS |
-| discipline | PASS | PASS | PASS | PASS |
-| discourage | WARN: Long keyword | PASS | PASS | PASS |
-| display | PASS | PASS | PASS | PASS |
-| dispute | PASS | PASS | PASS | PASS |
-| distinct | PASS | PASS | PASS | PASS |
-| distinguish | PASS | PASS | PASS | PASS |
-| distribute | WARN: Long keyword | PASS | PASS | PASS |
-| division | PASS | PASS | PASS | PASS |
-| document | PASS | PASS | PASS | PASS |
-| doubt | PASS | PASS | PASS | PASS |
-| drama | PASS | PASS | PASS | PASS |
-| drastic | PASS | PASS | PASS | PASS |
-| dread | PASS | PASS | PASS | PASS |
-| duty | PASS | PASS | PASS | PASS |
-| edible | PASS | PASS | PASS | PASS |
-| efficient | PASS | PASS | PASS | PASS |
-| elaborate | PASS | PASS | PASS | PASS |
-| eliminate | PASS | PASS | PASS | PASS |
-| embarrass | PASS | PASS | PASS | PASS |
-| emerge | PASS | PASS | PASS | PASS |
-| emotion | PASS | PASS | PASS | PASS |
-| emphasis | PASS | PASS | PASS | PASS |
-| enable | PASS | PASS | PASS | PASS |
-| encounter | PASS | PASS | PASS | PASS |
-| endure | PASS | PASS | PASS | PASS |
-| ensure | PASS | PASS | PASS | PASS |
-| environment | PASS | PASS | PASS | PASS |
-| error | PASS | PASS | PASS | PASS |
-| evaluate | PASS | PASS | PASS | PASS |
-| evident | PASS | PASS | PASS | PASS |
-| evolve | PASS | PASS | PASS | PASS |
-| exaggerate | WARN: Long keyword | PASS | PASS | PASS |
-| excellent | PASS | PASS | PASS | PASS |
-| exception | PASS | PASS | PASS | PASS |
-| excess | PASS | PASS | PASS | PASS |
-| exclude | PASS | PASS | PASS | PASS |
-| exhibit | PASS | PASS | PASS | PASS |
-| expand | PASS | PASS | PASS | PASS |
-| expedition | PASS | PASS | PASS | PASS |
-| expense | PASS | PASS | PASS | PASS |
-| expertise | PASS | PASS | PASS | PASS |
-| exploit | PASS | PASS | PASS | PASS |
-| expose | PASS | PASS | PASS | PASS |
-| extend | PASS | PASS | PASS | PASS |
-| extreme | PASS | PASS | PASS | PASS |
-| factor | PASS | PASS | PASS | PASS |
-| famine | WARN: Long keyword | PASS | PASS | PASS |
-| fascinate | PASS | PASS | PASS | PASS |
-| fatal | WARN: Long keyword | PASS | PASS | PASS |
-| fate | PASS | PASS | PASS | PASS |
-| fault | PASS | PASS | PASS | PASS |
-| feature | PASS | PASS | PASS | PASS |
-| ferry | PASS | PASS | PASS | PASS |
-| flourish | PASS | PASS | PASS | PASS |
-| focus | PASS | PASS | PASS | PASS |
-| forbid | WARN: Long keyword | PASS | PASS | PASS |
-| forecast | PASS | PASS | PASS | PASS |
-| fortune | PASS | PASS | PASS | PASS |
-| fragment | PASS | PASS | PASS | PASS |
-| frequent | PASS | PASS | PASS | PASS |
-| frontier | PASS | PASS | PASS | PASS |
-| fulfill | PASS | PASS | PASS | PASS |
-| function | PASS | PASS | PASS | PASS |
-| fundamental | PASS | PASS | PASS | PASS |
-| fund | PASS | PASS | PASS | PASS |
-| grace | PASS | PASS | PASS | PASS |
-| gradual | PASS | PASS | PASS | PASS |
-| guarantee | PASS | PASS | PASS | PASS |
-| halt | PASS | PASS | PASS | PASS |
-| hazard | PASS | PASS | PASS | PASS |
-| ideal | PASS | PASS | PASS | PASS |
-| illustrate | PASS | PASS | PASS | PASS |
-| image | PASS | PASS | PASS | PASS |
-| immediate | WARN: Long keyword | PASS | PASS | PASS |
-| impact | PASS | PASS | PASS | PASS |
-| imply | PASS | PASS | PASS | PASS |
-| impress | PASS | PASS | PASS | PASS |
-| incident | WARN: Long keyword | PASS | PASS | PASS |
-| indicate | PASS | PASS | PASS | PASS |
-| individual | PASS | PASS | PASS | PASS |
-| inform | PASS | PASS | PASS | PASS |
-| inhabit | PASS | PASS | PASS | PASS |
-| initial | PASS | PASS | PASS | PASS |
-| injure | PASS | PASS | PASS | PASS |
-| inquire | PASS | PASS | PASS | PASS |
-| inspire | PASS | PASS | PASS | PASS |
-| instance | PASS | PASS | PASS | PASS |
-| instinct | PASS | PASS | PASS | PASS |
-| institution | PASS | PASS | PASS | PASS |
-| integrate | PASS | PASS | PASS | PASS |
-| intense | WARN: Long keyword | PASS | PASS | PASS |
-| interact | PASS | PASS | PASS | PASS |
-| introduce | PASS | PASS | PASS | PASS |
-| invade | PASS | PASS | PASS | PASS |
-| involve | WARN: Long keyword | PASS | PASS | PASS |
-| issue | PASS | PASS | PASS | PASS |
-| item | PASS | PASS | PASS | PASS |
-| journal | PASS | PASS | PASS | PASS |
-| justify | PASS | PASS | PASS | PASS |
-| lack | PASS | PASS | PASS | PASS |
-| launch | PASS | PASS | PASS | PASS |
-| layer | PASS | PASS | PASS | PASS |
-| lecture | PASS | PASS | PASS | PASS |
-| leisure | PASS | PASS | PASS | PASS |
-| liable | PASS | PASS | PASS | PASS |
-| liberty | PASS | PASS | PASS | PASS |
-| license | PASS | PASS | PASS | PASS |
-| link | PASS | PASS | PASS | PASS |
-| literal | PASS | PASS | PASS | PASS |
-| locate | PASS | PASS | PASS | PASS |
-| logic | PASS | PASS | PASS | PASS |
-| luxury | PASS | PASS | PASS | PASS |
-| majority | WARN: Long keyword | PASS | PASS | PASS |
-| manage | PASS | PASS | PASS | PASS |
-| mature | PASS | PASS | PASS | PASS |
-| maximum | PASS | PASS | PASS | PASS |
-| memorial | PASS | PASS | PASS | PASS |
-| mental | WARN: Long keyword | PASS | PASS | PASS |
-| mercy | PASS | PASS | PASS | PASS |
-| migrate | WARN: Long keyword | PASS | PASS | PASS |
-| military | WARN: Long keyword | PASS | PASS | PASS |
-| minimum | PASS | PASS | PASS | PASS |
-| minor | PASS | PASS | PASS | PASS |
-| miracle | PASS | PASS | PASS | PASS |
-| mission | PASS | PASS | PASS | PASS |
-| modify | PASS | PASS | PASS | PASS |
-| monitor | PASS | PASS | PASS | PASS |
-| motive | PASS | PASS | PASS | PASS |
-| mutual | PASS | PASS | PASS | PASS |
-| navigate | PASS | PASS | PASS | PASS |
-| neglect | PASS | PASS | PASS | PASS |
-| neutral | PASS | PASS | PASS | PASS |
-| notable | PASS | PASS | PASS | PASS |
-| notify | PASS | PASS | PASS | PASS |
-| notion | PASS | PASS | PASS | PASS |
-| novel | WARN: Long keyword | PASS | PASS | PASS |
-| oath | PASS | PASS | PASS | PASS |
-| objective | PASS | PASS | PASS | PASS |
-| obligation | PASS | PASS | PASS | PASS |
-| obstacle | PASS | PASS | PASS | PASS |
-| obtain | PASS | PASS | PASS | PASS |
-| occur | PASS | PASS | PASS | PASS |
-| offense | PASS | PASS | PASS | PASS |
-| ongoing | PASS | PASS | PASS | PASS |
-| operate | PASS | PASS | PASS | PASS |
-| option | PASS | PASS | PASS | PASS |
-| origin | PASS | PASS | PASS | PASS |
-| overcome | WARN: Long keyword | PASS | PASS | PASS |
-| overlook | PASS | PASS | PASS | PASS |
-| owe | PASS | PASS | PASS | PASS |
+achieve | PASS | Image: trophy winner, good for 10yo | Def/Fact: accurate | Sense: primary | Game: highly recognizable, no homophone issues, ok spelling
+adjust | PASS | Image: adjusting knob, ok for 10yo | Def/Fact: accurate | Sense: primary | Game: clear image, no homophone issues, ok spelling
+adopt | PASS | Image: adopting puppy, excellent for 10yo | Def/Fact: accurate | Sense: primary | Game: clear, easy spelling
+affect | PASS | Image: rain plans, abstract but understandable | Def/Fact: accurate | Sense: primary | Game: good enough, effect vs affect is a spelling challenge but acceptable for L2
+afford | PASS | Image: piggy bank, good concept | Def/Fact: accurate | Sense: primary | Game: clear, no homophone issues
+alarm | PASS | Image: fire alarm, highly recognizable | Def/Fact: accurate | Sense: primary | Game: loud and clear, good spelling
+alert | PASS | Image: alert dog, clear | Def/Fact: accurate | Sense: primary | Game: good, no issues
+allowance | PASS | Image: coins allowance, clear for kids | Def/Fact: accurate | Sense: primary | Game: recognizable, spelling is a bit long but phonetic enough
+amaze | PASS | Image: jaw dropping surprised, good emotion | Def/Fact: accurate | Sense: primary | Game: clear, no issues
+appeal | PASS | Image: asking please, good | Def/Fact: accurate | Sense: primary | Game: good
+appetite | PASS | Image: hungry stomach, clear | Def/Fact: accurate | Sense: primary | Game: good
+applaud | PASS | Image: clapping hands, highly recognizable | Def/Fact: accurate | Sense: primary | Game: very clear
+appropriate | PASS | Image: right clothes, a bit abstract but okay with context | Def/Fact: accurate | Sense: primary | Game: spelling is tough but it's L2
+assist | PASS | Image: helping hand, clear | Def/Fact: accurate | Sense: primary | Game: good
+assume | PASS | Image: guessing think, abstract but okay | Def/Fact: accurate | Sense: primary | Game: good
+assure | PASS | Image: comforting hug, good | Def/Fact: accurate | Sense: primary | Game: good
+authority | PASS | Image: lifeguard whistle, good symbol | Def/Fact: accurate | Sense: primary | Game: good
+available | PASS | Image: empty seat, clear | Def/Fact: accurate | Sense: primary | Game: good
+aware | PASS | Image: looking around, clear | Def/Fact: accurate | Sense: primary | Game: good
+ballot | PASS | Image: voting paper, clear | Def/Fact: accurate | Sense: primary | Game: good
+ban | PASS | Image: banned skateboard sign, highly recognizable | Def/Fact: accurate | Sense: primary | Game: very clear, easy spelling
+barrier | PASS | Image: fence barrier, clear | Def/Fact: accurate | Sense: primary | Game: good
+blame | PASS | Image: pointing finger, clear | Def/Fact: accurate | Sense: primary | Game: good
+blend | PASS | Image: blending smoothie, clear | Def/Fact: accurate | Sense: primary | Game: good
+bother | PASS | Image: annoying poke, clear | Def/Fact: accurate | Sense: primary | Game: good
+caution | PASS | Image: careful warning, clear sign | Def/Fact: accurate | Sense: primary | Game: good
+century | PASS | Image: old tree, ok concept | Def/Fact: accurate | Sense: primary | Game: good
+champion | PASS | Image: gold medal, clear | Def/Fact: accurate | Sense: primary | Game: good
+charm | PASS | Image: cute kitten, clear | Def/Fact: accurate | Sense: primary | Game: good
+circulate | PASS | Image: circulation cycle diagram, abstract but acceptable | Def/Fact: accurate | Sense: primary | Game: good
+circumstance | PASS | Image: situation context, very abstract | Def/Fact: accurate | Sense: primary | Game: acceptable for L2
+commit | PASS | Image: promise pinky, clear | Def/Fact: accurate | Sense: primary | Game: good
+communicate | PASS | Image: dolphins talking, interesting/clear | Def/Fact: accurate | Sense: primary | Game: good
+compassion | PASS | Image: kind helping, clear | Def/Fact: accurate | Sense: primary | Game: good
+compete | PASS | Image: racing runners, clear | Def/Fact: accurate | Sense: primary | Game: good
+complex | PASS | Image: complex puzzle, clear | Def/Fact: accurate | Sense: primary | Game: good
+concern | PASS | Image: worried face, clear | Def/Fact: accurate | Sense: primary | Game: good
+confirm | PASS | Image: checkmark confirm, clear | Def/Fact: accurate | Sense: primary | Game: good
+conquer | PASS | Image: climbing victory, clear | Def/Fact: accurate | Sense: primary | Game: good
+conscious | PASS | Image: awake aware, clear | Def/Fact: accurate | Sense: primary | Game: good
+conserve | PASS | Image: saving water, clear | Def/Fact: accurate | Sense: primary | Game: good
+consist | PASS | Image: salad ingredients, clear | Def/Fact: accurate | Sense: primary | Game: good
+constant | PASS | Image: dripping faucet, clear | Def/Fact: accurate | Sense: primary | Game: good
+construct | PASS | Image: building construction, clear | Def/Fact: accurate | Sense: primary | Game: good
+contain | PASS | Image: box contents, clear | Def/Fact: accurate | Sense: primary | Game: good
+contest | PASS | Image: competition trophy, clear | Def/Fact: accurate | Sense: primary | Game: good
+contrast | PASS | Image: black white, abstract but ok | Def/Fact: accurate | Sense: primary | Game: good
+contribute | PASS | Image: donating food, clear | Def/Fact: accurate | Sense: primary | Game: good
+convenient | PASS | Image: nearby store, clear | Def/Fact: accurate | Sense: primary | Game: good
+core | PASS | Image: apple core, clear | Def/Fact: accurate | Sense: primary | Game: good
+courteous | PASS | Image: polite greeting bow, clear | Def/Fact: accurate | Sense: primary | Game: good
+credit | PASS | Image: trophy award, ok | Def/Fact: accurate | Sense: primary | Game: good
+crisis | PASS | Image: flood crisis, clear | Def/Fact: accurate | Sense: primary | Game: good
+critical | PASS | Image: water important, abstract but ok | Def/Fact: accurate | Sense: primary | Game: good
+debate | PASS | Image: debate podium, clear | Def/Fact: accurate | Sense: primary | Game: good
+decade | PASS | Image: ten calendar, ok | Def/Fact: accurate | Sense: primary | Game: good
+decline | PASS | Image: person declining invitation, clear | Def/Fact: accurate | Sense: primary | Game: good
+dedicate | PASS | Image: focused practice, ok | Def/Fact: accurate | Sense: primary | Game: good
+definite | PASS | Image: certain checkmark, clear | Def/Fact: accurate | Sense: primary | Game: good
+deliberate | PASS | Image: on purpose, abstract | Def/Fact: accurate | Sense: primary | Game: acceptable
+deposit | PASS | Image: coins dropping into jar, clear | Def/Fact: accurate | Sense: primary | Game: good
+deserve | PASS | Image: earned reward, clear | Def/Fact: accurate | Sense: primary | Game: good
+desire | PASS | Image: wishing star, clear | Def/Fact: accurate | Sense: primary | Game: good
+desperate | PASS | Image: thirsty desert, clear | Def/Fact: accurate | Sense: primary | Game: good
+detect | PASS | Image: detective magnifier, clear | Def/Fact: accurate | Sense: primary | Game: good
+determine | PASS | Image: deciding gavel, clear | Def/Fact: accurate | Sense: primary | Game: good
+dignity | PASS | Image: respectful handshake, clear | Def/Fact: accurate | Sense: primary | Game: good
+dilemma | PASS | Image: two choices, clear | Def/Fact: accurate | Sense: primary | Game: good
+dimension | PASS | Image: measuring box, clear | Def/Fact: accurate | Sense: primary | Game: good
+discipline | PASS | Image: practice routine, clear | Def/Fact: accurate | Sense: primary | Game: good
+discourage | PASS | Image: sad then hopeful, abstract | Def/Fact: accurate | Sense: primary | Game: acceptable
+display | PASS | Image: museum display, clear | Def/Fact: accurate | Sense: primary | Game: good
+dispute | PASS | Image: arguing neighbors, clear | Def/Fact: accurate | Sense: primary | Game: good
+distinct | PASS | Image: unique snowflake, clear | Def/Fact: accurate | Sense: primary | Game: good
+distinguish | PASS | Image: spot difference, clear | Def/Fact: accurate | Sense: primary | Game: good
+distribute | PASS | Image: passing papers classroom, clear | Def/Fact: accurate | Sense: primary | Game: good
+division | PASS | Image: dividing equally, clear | Def/Fact: accurate | Sense: primary | Game: good
+document | PASS | Image: official paper, clear | Def/Fact: accurate | Sense: primary | Game: good
+doubt | PASS | Image: question mark, clear | Def/Fact: accurate | Sense: primary | Game: good
+drama | PASS | Image: theater stage, clear | Def/Fact: accurate | Sense: primary | Game: good
+drastic | PASS | Image: big change, abstract | Def/Fact: accurate | Sense: primary | Game: acceptable
+dread | PASS | Image: scared face, clear | Def/Fact: accurate | Sense: primary | Game: good
+duty | PASS | Image: responsibility badge, clear | Def/Fact: accurate | Sense: primary | Game: good
+edible | PASS | Image: edible berries, clear | Def/Fact: accurate | Sense: primary | Game: good
+efficient | PASS | Image: organized efficient, clear | Def/Fact: accurate | Sense: primary | Game: good
+elaborate | PASS | Image: fancy cake, clear | Def/Fact: accurate | Sense: primary | Game: good
+eliminate | PASS | Image: pulling weeds, clear | Def/Fact: accurate | Sense: primary | Game: good
+embarrass | PASS | Image: blushing face, clear | Def/Fact: accurate | Sense: primary | Game: good
+emerge | PASS | Image: emerging butterfly, clear | Def/Fact: accurate | Sense: primary | Game: good
+emotion | PASS | Image: feeling faces, clear | Def/Fact: accurate | Sense: primary | Game: good
+emphasis | PASS | Image: underline important, clear | Def/Fact: accurate | Sense: primary | Game: good
+enable | PASS | Image: wheelchair ramp, clear | Def/Fact: accurate | Sense: primary | Game: good
+encounter | PASS | Image: meeting deer, clear | Def/Fact: accurate | Sense: primary | Game: good
+endure | PASS | Image: hiking perseverance, clear | Def/Fact: accurate | Sense: primary | Game: good
+ensure | PASS | Image: double checking, clear | Def/Fact: accurate | Sense: primary | Game: good
+environment | PASS | Image: green earth, clear | Def/Fact: accurate | Sense: primary | Game: good
+error | PASS | Image: erasing mistake, clear | Def/Fact: accurate | Sense: primary | Game: good
+evaluate | PASS | Image: judging art, clear | Def/Fact: accurate | Sense: primary | Game: good
+evident | PASS | Image: obvious smile, clear | Def/Fact: accurate | Sense: primary | Game: good
+evolve | PASS | Image: evolution change, clear | Def/Fact: accurate | Sense: primary | Game: good
+exaggerate | PASS | Image: big fish story, clear | Def/Fact: accurate | Sense: primary | Game: good
+excellent | PASS | Image: star excellent, clear | Def/Fact: accurate | Sense: primary | Game: good
+exception | PASS | Image: special case, clear | Def/Fact: accurate | Sense: primary | Game: good
+excess | PASS | Image: overflowing cup, clear | Def/Fact: accurate | Sense: primary | Game: good
+exclude | PASS | Image: left out, clear | Def/Fact: accurate | Sense: primary | Game: good
+exhibit | PASS | Image: museum exhibit, clear | Def/Fact: accurate | Sense: primary | Game: good
+expand | PASS | Image: expanding balloon, clear | Def/Fact: accurate | Sense: primary | Game: good
+expedition | PASS | Image: arctic expedition, clear | Def/Fact: accurate | Sense: primary | Game: good
+expense | PASS | Image: money spending, clear | Def/Fact: accurate | Sense: primary | Game: good
+expertise | PASS | Image: expert chef, clear | Def/Fact: accurate | Sense: primary | Game: good
+exploit | PASS | Image: unfair shortcut, clear | Def/Fact: accurate | Sense: primary | Game: good
+expose | PASS | Image: uncovering hidden, clear | Def/Fact: accurate | Sense: primary | Game: good
+extend | PASS | Image: stretching longer, clear | Def/Fact: accurate | Sense: primary | Game: good
+extreme | PASS | Image: icicles cold, clear | Def/Fact: accurate | Sense: primary | Game: good
+factor | PASS | Image: puzzle piece, abstract | Def/Fact: accurate | Sense: primary | Game: acceptable
+famine | PASS | Image: dry empty field, clear | Def/Fact: accurate | Sense: primary | Game: good
+fascinate | PASS | Image: amazed watching, clear | Def/Fact: accurate | Sense: primary | Game: good
+fatal | PASS | Image: warning sign danger, clear | Def/Fact: accurate | Sense: primary | Game: good
+fate | PASS | Image: crystal ball, clear | Def/Fact: accurate | Sense: primary | Game: good
+fault | PASS | Image: broken vase, clear | Def/Fact: accurate | Sense: primary | Game: good
+feature | PASS | Image: playground slide, clear | Def/Fact: accurate | Sense: primary | Game: good
+ferry | PASS | Image: ferry boat, clear | Def/Fact: accurate | Sense: primary | Game: good
+flourish | PASS | Image: thriving garden, clear | Def/Fact: accurate | Sense: primary | Game: good
+focus | PASS | Image: focused eyes, clear | Def/Fact: accurate | Sense: primary | Game: good
+forbid | PASS | Image: no running sign, clear | Def/Fact: accurate | Sense: primary | Game: good
+forecast | PASS | Image: weather forecast, clear | Def/Fact: accurate | Sense: primary | Game: good
+fortune | PASS | Image: treasure chest, clear | Def/Fact: accurate | Sense: primary | Game: good
+fragment | PASS | Image: broken pieces, clear | Def/Fact: accurate | Sense: primary | Game: good
+frequent | PASS | Image: rainy spring, clear | Def/Fact: accurate | Sense: primary | Game: good
+frontier | PASS | Image: space frontier, clear | Def/Fact: accurate | Sense: primary | Game: good
+fulfill | PASS | Image: kept promise, clear | Def/Fact: accurate | Sense: primary | Game: good
+function | PASS | Image: bridge function, clear | Def/Fact: accurate | Sense: primary | Game: good
+fundamental | PASS | Image: building foundation, clear | Def/Fact: accurate | Sense: primary | Game: good
+fund | PASS | Image: lemonade stand, clear | Def/Fact: accurate | Sense: primary | Game: good
+grace | PASS | Image: graceful dancer, clear | Def/Fact: accurate | Sense: primary | Game: good
+gradual | PASS | Image: leaves changing, clear | Def/Fact: accurate | Sense: primary | Game: good
+guarantee | PASS | Image: promise seal, clear | Def/Fact: accurate | Sense: primary | Game: good
+halt | PASS | Image: stop hand, clear | Def/Fact: accurate | Sense: primary | Game: good
+hazard | PASS | Image: icy danger, clear | Def/Fact: accurate | Sense: primary | Game: good
+ideal | PASS | Image: perfect day, clear | Def/Fact: accurate | Sense: primary | Game: good
+illustrate | PASS | Image: drawing illustration, clear | Def/Fact: accurate | Sense: primary | Game: good
+image | PASS | Image: picture screen, clear | Def/Fact: accurate | Sense: primary | Game: good
+immediate | PASS | Image: alarm clock now, clear | Def/Fact: accurate | Sense: primary | Game: good
+impact | PASS | Image: earth recycling, clear | Def/Fact: accurate | Sense: primary | Game: good
+imply | PASS | Image: knowing smile, clear | Def/Fact: accurate | Sense: primary | Game: good
+impress | PASS | Image: impressed judges, clear | Def/Fact: accurate | Sense: primary | Game: good
+incident | PASS | Image: playground report clipboard, clear | Def/Fact: accurate | Sense: primary | Game: good
+indicate | PASS | Image: arrow pointing, clear | Def/Fact: accurate | Sense: primary | Game: good
+individual | PASS | Image: one person, clear | Def/Fact: accurate | Sense: primary | Game: good
+inform | PASS | Image: news announcement, clear | Def/Fact: accurate | Sense: primary | Game: good
+inhabit | PASS | Image: fish reef, clear | Def/Fact: accurate | Sense: primary | Game: good
+initial | PASS | Image: first reaction, clear | Def/Fact: accurate | Sense: primary | Game: good
+injure | PASS | Image: hurt ankle, clear | Def/Fact: accurate | Sense: primary | Game: good
+inquire | PASS | Image: asking question, clear | Def/Fact: accurate | Sense: primary | Game: good
+inspire | PASS | Image: inspired lightbulb, clear | Def/Fact: accurate | Sense: primary | Game: good
+instance | PASS | Image: example case, clear | Def/Fact: accurate | Sense: primary | Game: good
+instinct | PASS | Image: bird migrating, clear | Def/Fact: accurate | Sense: primary | Game: good
+institution | PASS | Image: library building, clear | Def/Fact: accurate | Sense: primary | Game: good
+integrate | PASS | Image: joining group, clear | Def/Fact: accurate | Sense: primary | Game: good
+intense | PASS | Image: hot sun intense, clear | Def/Fact: accurate | Sense: primary | Game: good
+interact | PASS | Image: people talking, clear | Def/Fact: accurate | Sense: primary | Game: good
+introduce | PASS | Image: meeting introduction, clear | Def/Fact: accurate | Sense: primary | Game: good
+invade | PASS | Image: ants invading, clear | Def/Fact: accurate | Sense: primary | Game: good
+involve | PASS | Image: joining group activity, clear | Def/Fact: accurate | Sense: primary | Game: good
+issue | PASS | Image: problem discussion, clear | Def/Fact: accurate | Sense: primary | Game: good
+item | PASS | Image: list item, clear | Def/Fact: accurate | Sense: primary | Game: good
+journal | PASS | Image: writing journal, clear | Def/Fact: accurate | Sense: primary | Game: good
+justify | PASS | Image: good reason, clear | Def/Fact: accurate | Sense: primary | Game: good
+lack | PASS | Image: dry plant, clear | Def/Fact: accurate | Sense: primary | Game: good
+launch | PASS | Image: rocket launch, clear | Def/Fact: accurate | Sense: primary | Game: good
+layer | PASS | Image: layered cake, clear | Def/Fact: accurate | Sense: primary | Game: good
+lecture | PASS | Image: teacher lecturing, clear | Def/Fact: accurate | Sense: primary | Game: good
+leisure | PASS | Image: relaxing hammock, clear | Def/Fact: accurate | Sense: primary | Game: good
+liable | PASS | Image: responsible person, clear | Def/Fact: accurate | Sense: primary | Game: good
+liberty | PASS | Image: statue liberty, clear | Def/Fact: accurate | Sense: primary | Game: good
+license | PASS | Image: driver license, clear | Def/Fact: accurate | Sense: primary | Game: good
+link | PASS | Image: chain link, clear | Def/Fact: accurate | Sense: primary | Game: good
+literal | PASS | Image: exact words, clear | Def/Fact: accurate | Sense: primary | Game: good
+locate | PASS | Image: finding map, clear | Def/Fact: accurate | Sense: primary | Game: good
+logic | PASS | Image: thinking steps, clear | Def/Fact: accurate | Sense: primary | Game: good
+luxury | PASS | Image: fancy pool, clear | Def/Fact: accurate | Sense: primary | Game: good
+majority | PASS | Image: crowd voting raised hands, clear | Def/Fact: accurate | Sense: primary | Game: good
+manage | PASS | Image: managing garden, clear | Def/Fact: accurate | Sense: primary | Game: good
+mature | PASS | Image: ripe apple, clear | Def/Fact: accurate | Sense: primary | Game: good
+maximum | PASS | Image: full capacity, clear | Def/Fact: accurate | Sense: primary | Game: good
+memorial | PASS | Image: memorial statue, clear | Def/Fact: accurate | Sense: primary | Game: good
+mental | PASS | Image: glowing brain with gears, clear | Def/Fact: accurate | Sense: primary | Game: good
+mercy | PASS | Image: kind knight, clear | Def/Fact: accurate | Sense: primary | Game: good
+migrate | PASS | Image: geese flying south, clear | Def/Fact: accurate | Sense: primary | Game: good
+military | PASS | Image: fighter jets in formation, clear | Def/Fact: accurate | Sense: primary | Game: good
+minimum | PASS | Image: least amount, clear | Def/Fact: accurate | Sense: primary | Game: good
+minor | PASS | Image: small scratch, clear | Def/Fact: accurate | Sense: primary | Game: good
+miracle | PASS | Image: amazing return, clear | Def/Fact: accurate | Sense: primary | Game: good
+mission | PASS | Image: space mission, clear | Def/Fact: accurate | Sense: primary | Game: good
+modify | PASS | Image: editing drawing, clear | Def/Fact: accurate | Sense: primary | Game: good
+monitor | PASS | Image: checking temperature, clear | Def/Fact: accurate | Sense: primary | Game: good
+motive | PASS | Image: reason why, clear | Def/Fact: accurate | Sense: primary | Game: good
+mutual | PASS | Image: shared interest, clear | Def/Fact: accurate | Sense: primary | Game: good
+navigate | PASS | Image: compass navigation, clear | Def/Fact: accurate | Sense: primary | Game: good
+neglect | PASS | Image: wilting plant, clear | Def/Fact: accurate | Sense: primary | Game: good
+neutral | PASS | Image: balanced scale, clear | Def/Fact: accurate | Sense: primary | Game: good
+notable | PASS | Image: big achievement, clear | Def/Fact: accurate | Sense: primary | Game: good
+notify | PASS | Image: sending notice, clear | Def/Fact: accurate | Sense: primary | Game: good
+notion | PASS | Image: idea lightbulb, clear | Def/Fact: accurate | Sense: primary | Game: good
+novel | PASS | Image: new creative idea, clear | Def/Fact: accurate | Sense: primary | Game: good
+oath | PASS | Image: hand promise, clear | Def/Fact: accurate | Sense: primary | Game: good
+objective | PASS | Image: target goal, clear | Def/Fact: accurate | Sense: primary | Game: good
+obligation | PASS | Image: returning books, clear | Def/Fact: accurate | Sense: primary | Game: good
+obstacle | PASS | Image: blocked path, clear | Def/Fact: accurate | Sense: primary | Game: good
+obtain | PASS | Image: getting card, clear | Def/Fact: accurate | Sense: primary | Game: good
+occur | PASS | Image: earthquake happening, clear | Def/Fact: accurate | Sense: primary | Game: good
+offense | PASS | Image: sorry apologize, clear | Def/Fact: accurate | Sense: primary | Game: good
+ongoing | PASS | Image: building progress, clear | Def/Fact: accurate | Sense: primary | Game: good
+operate | PASS | Image: using computer, clear | Def/Fact: accurate | Sense: primary | Game: good
+option | PASS | Image: menu choices, clear | Def/Fact: accurate | Sense: primary | Game: good
+origin | PASS | Image: cacao beans, clear | Def/Fact: accurate | Sense: primary | Game: good
+overcome | PASS | Image: kid climbing mountain top, clear | Def/Fact: accurate | Sense: primary | Game: good
+overlook | PASS | Image: missing detail, clear | Def/Fact: accurate | Sense: primary | Game: good
+owe | PASS | Image: paying back, clear | Def/Fact: accurate | Sense: primary | Game: good
