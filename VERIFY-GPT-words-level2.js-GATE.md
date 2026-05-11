@@ -5,6 +5,7 @@
 - L6: Reverse test — blank example + 4 options.
 - L7: Cultural sensitivity.
 - L8: Learning path / level fit.
+- Re-verified against the current words-level2.js bank; no word-level entries were changed in this pass.
 
 - describe | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[describe / frighten / kennel / under] | L7:OK | L8:合适
 - explain | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:why)，易靠语感/蒙) | 选项:[alive / cause / earth / explain] | L7:OK | L8:合适
