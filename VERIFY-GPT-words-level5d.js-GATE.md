@@ -1,296 +1,292 @@
-# VERIFY-GPT — words-level5d.js
+# VERIFY-GPT — words-level5d.js — GATE（L5-L8）
 
-One line per word (no skipping).
-L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
-L6: Reverse test — blank example + 4 options.
-L7: Cultural sensitivity.
-L8: Learning path / level fit.
+记法：L5=Mark(10岁中国ESL/约2年级)做题模拟；L6=遮词反选唯一性；L7=文化/家长敏感；L8=学习路径/前置与同级排序。
 
-- accusatory | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像contrite) | 选项:[auspicious / apathetic / accusatory / contrite] | L7:OK | L8:合适
-- acidity | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[aristocracy / articulation / echelon / acidity] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- acquaintance | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[agnostic / cordial / acquaintance / amicable] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- adjoining | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[aristocracy / articulation / antagonist / adjoining] | L7:OK | L8:合适
-- adornment | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,necklace,favorite) | L6:不能(更像aristocracy) | 选项:[aristocracy / articulation / adornment / ornate] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- affirmation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[affirmation / axiom / auspicious / assertion] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- amnesty | L5-Def:勉强(卡词:official) | L5-Ex:勉强(卡词:prisoner) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[aspirant / charlatan / exonerate / amnesty] | L7:注意(政治/法律) | L8:合适
-- animated | L5-Def:能(OK) | L5-Ex:勉强(卡词:descript,adventur) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[demeanor / captivating / animated / perilous] | L7:OK | L8:合适
-- antagonist | L5-Def:勉强(卡词:character) | L5-Ex:不能(卡词:词形长/不常见,superhero) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[mercenary / aspirant / antagonist / protagonist] | L7:OK | L8:合适
-- ardent | L5-Def:勉强(卡词:enthusiasm) | L5-Ex:勉强(卡词:supporter,basketball) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[apathetic / vehement / ardent / fervent] | L7:OK | L8:合适(情境具体，利于建义)
-- aristocracy | L5-Def:勉强(卡词:privileg) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[zenith / emissary / aristocracy / gentry] | L7:OK | L8:合适
-- articulation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,everyone,understood) | L6:不能(更像cogent) | 选项:[contemplation / cogent / reprimand / articulation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- aspirant | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[proponent / charlatan / aspirant / dissident] | L7:OK | L8:合适(情境具体，利于建义)
-- assertion | L5-Def:勉强(卡词:confident) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[axiom / disclaimer / assertion / affirmation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- astute | L5-Def:能(OK) | L5-Ex:勉强(卡词:detective,everyone) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[resilience / predicament / astute / impasse] | L7:OK | L8:合适
-- atrophy | L5-Def:能(OK) | L5-Ex:勉强(卡词:exercise) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[insatiable / redundant / circumscribe / atrophy] | L7:OK | L8:合适
-- audacity | L5-Def:勉强(卡词:behavior) | L5-Ex:不能(卡词:词形长/不常见,principal,homework) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[daunting / propriety / audacity / etiquette] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- auspicious | L5-Def:勉强(卡词:successful) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[affirmation / auspicious / accusatory / apathetic] | L7:OK | L8:合适
-- authoritarian | L5-Def:勉强(卡词:complete) | L5-Ex:不能(卡词:词形长/不常见,disagree) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[debacle / authoritarian / constitutional / fiasco] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- autonomy | L5-Def:勉强(卡词:yourself) | L5-Ex:勉强(卡词:teenager) | L6:勉强(线索弱(靠常识/语感)) | 选项:[autonomy / placate / mitigate / egalitarian] | L7:OK | L8:合适
-- avarice | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[diminutive / prosperity / inclination / avarice] | L7:OK | L8:合适
-- avid | L5-Def:能(OK) | L5-Ex:勉强(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[avid / voracious / alacrity / inquisitive] | L7:OK | L8:合适(情境具体，利于建义)
-- axiom | L5-Def:能(OK) | L5-Ex:勉强(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[affirmation / assertion / axiom / corroborate] | L7:OK | L8:合适
-- belligerent | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,classmat) | L6:不能(更像fracas) | 选项:[fracas / provocation / placate / belligerent] | L7:注意(暴力/犯罪) | L8:合适
-- benevolence | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,playground) | L6:勉强(线索一般) | 选项:[unilateral / coherence / benevolence / condescending] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- bewilder | L5-Def:能(OK) | L5-Ex:勉强(卡词:bewilder) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[intimidation / oblivious / bewilder / compliance] | L7:OK | L8:合适
-- blight | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[blight / immunity / conservatory / cessation] | L7:OK | L8:合适(情境具体，利于建义)
-- bombard | L5-Def:能(OK) | L5-Ex:勉强(卡词:reporter) | L6:不能(更像inquisitive) | 选项:[inquisitive / notoriety / compliance / bombard] | L7:OK | L8:合适
-- bounty | L5-Def:能(OK) | L5-Ex:勉强(卡词:vegetabl) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[copious / bounty / edifice / myriad] | L7:OK | L8:合适
-- capitalize | L5-Def:勉强(卡词:advantage) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[capitalize / tyranny / corroborate / delineate] | L7:OK | L8:合适
-- capricious | L5-Def:勉强(卡词:behavior) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[cynical / etiquette / capricious / propriety] | L7:OK | L8:合适
-- captivating | L5-Def:勉强(卡词:interest) | L5-Ex:不能(卡词:词形长/不常见,midnight) | L6:勉强(线索弱(靠常识/语感)) | 选项:[captivating / apathetic / demeanor / nonchalant] | L7:OK | L8:合适
-- catastrophic | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,earthquake,building) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[upheaval / voracious / catastrophic / indignation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- caustic | L5-Def:勉强(卡词:chemical,critical) | L5-Ex:勉强(卡词:chemical) | L6:勉强(线索一般) | 选项:[caustic / deterrent / demeanor / contagious] | L7:OK | L8:合适
-- cessation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[dissolution / cessation / conciliatory / concession] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- chronological | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,biography,earliest) | L6:勉强(不够唯一(易混:compliance)) | 选项:[chronological / unprecedented / sporadic / compliance] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- circumscribe | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[delineate / elicit / depiction / circumscribe] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- clamber | L5-Def:勉强(卡词:difficulty) | L5-Ex:勉强(卡词:children,hillside) | L6:勉强(线索弱(靠常识/语感)) | 选项:[clamber / contradiction / elicit / dexterity] | L7:OK | L8:合适
-- clandestine | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,bookstore) | L6:勉强(线索弱(靠常识/语感)) | 选项:[clandestine / connive / contagious / copious] | L7:OK | L8:合适(情境具体，利于建义)
-- coalesce | L5-Def:勉强(卡词:together) | L5-Ex:能(OK) | L6:不能(更像confluence) | 选项:[echelon / coalesce / confluence / ostracize] | L7:OK | L8:合适
-- cogent | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[cogent / infallible / articulation / complementary] | L7:OK | L8:合适
-- cognition | L5-Def:勉强(卡词:knowledge) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[cognition / impeachment / demagogue / accusatory] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- coherence | L5-Def:勉强(卡词:consistent) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[coherence / benevolence / transparency / compendium] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- commemoration | L5-Def:勉强(卡词:important) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[paramount / consequential / commemoration / frivolous] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- commencement | L5-Def:勉强(卡词:ceremony) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[inception / concord / condemnation / commencement] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- compendium | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像conjecture) | 选项:[delineate / conjecture / digression / compendium] | L7:OK | L8:合适(情境具体，利于建义)
-- complacency | L5-Def:勉强(卡词:satisfact) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[complacency / deterrent / contrite / antipathy] | L7:OK | L8:合适
-- complementary | L5-Def:勉强(卡词:complete) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[fiasco / mitigate / complementary / debacle] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- compliance | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[intimidation / compliance / bewilder / chronological] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- concession | L5-Def:勉强(卡词:disagreem) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[concession / dissolution / cessation / compliance] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- concord | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[concord / deprivation / continuity / tranquility] | L7:OK | L8:合适(通用学术词(可跨学科))
-- condemnation | L5-Def:勉强(卡词:disapproval) | L5-Ex:不能(卡词:词形长/不常见,principal') | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[accusatory / contrite / deprecate / condemnation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- condescending | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,classmat) | L6:勉强(线索弱(靠常识/语感)) | 选项:[condescending / preemptive / deterrent / demeanor] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- confluence | L5-Def:勉强(卡词:together) | L5-Ex:不能(卡词:词形长/不常见) | L6:能(线索足) | 选项:[sanctuary / coalesce / confluence / contradiction] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- conjecture | L5-Def:勉强(卡词:incomplete) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[conjecture / anecdotal / compendium / extrapolate] | L7:OK | L8:合适
-- conscription | L5-Def:勉强(卡词:military) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[jurisprudence / conscription / amnesty / constitutional] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- consecrate | L5-Def:勉强(卡词:official,dedicate) | L5-Ex:不能(卡词:词形长/不常见,memorial) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[inadvertent / mitigate / consecrate / exonerate] | L7:注意(宗教+死亡/悼念) | L8:合适(情境具体，利于建义)
-- consequential | L5-Def:勉强(卡词:important) | L5-Ex:不能(卡词:词形长/不常见,everyone) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[ambivalent / commemoration / deprivation / consequential] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- conservatory | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,tropical) | L6:勉强(不够唯一(易混:blight)) | 选项:[edifice / impasse / conservatory / blight] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- consolidation | L5-Def:勉强(卡词:effective) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[complementary / integration / consolidation / synthesis] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- constituency | L5-Def:勉强(卡词:particular,district) | L5-Ex:不能(卡词:词形长/不常见,politician) | L6:勉强(线索弱(靠常识/语感)) | 选项:[constituency / ostracize / echelon / prerogative] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- constitutional | L5-Def:勉强(卡词:country',important) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[frivolous / jurisprudence / constitutional / commemoration] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- consultation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索一般) | 选项:[benevolence / mediation / eradicate / consultation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- consummate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,performer) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[diminutive / permeate / consummate / demeanor] | L7:OK | L8:合适
-- contagious | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[contagious / hypocrisy / permeate / cede] | L7:OK | L8:合适
-- contemplation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[antipathy / contemplation / delineate / revere] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- continuity | L5-Def:勉强(卡词:interrupt) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[continuity / deprivation / concord / tranquility] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- contradiction | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,mistreat) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[confluence / assertion / impasse / contradiction] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- copious | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[myriad / bounty / copious / edifice] | L7:OK | L8:合适
-- cordial | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[affable / amicably / cordial / amicable] | L7:OK | L8:合适
-- corroborate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[proponent / credulous / corroborate / staunch] | L7:OK | L8:合适(通用学术词(可跨学科))
-- creed | L5-Def:勉强(卡词:principl) | L5-Ex:勉强(卡词:neighbor) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[fallacy / purview / manifesto / creed] | L7:注意(宗教) | L8:合适
-- culpable | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[culpable / accusatory / contrite / impunity] | L7:注意(暴力/犯罪) | L8:合适
-- cynical | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[demeanor / preemptive / deterrent / cynical] | L7:OK | L8:合适
-- daunting | L5-Def:勉强(卡词:difficult) | L5-Ex:勉强(卡词:mountain,challenge) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[elusive / predicament / daunting / indignation] | L7:OK | L8:合适
-- decorum | L5-Def:勉强(卡词:behavior) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[propriety / reprimand / etiquette / decorum] | L7:OK | L8:合适
-- defunct | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[remuneration / defunct / exploitation / amenable] | L7:OK | L8:合适
-- delineate | L5-Def:勉强(卡词:describe) | L5-Ex:不能(卡词:词形长/不常见,delineat) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[fastidious / circumscribe / contemplation / delineate] | L7:OK | L8:合适(通用学术词(可跨学科))
-- demeanor | L5-Def:能(OK) | L5-Ex:勉强(卡词:everyone) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[deterrent / arbitrate / preemptive / demeanor] | L7:OK | L8:合适
-- depiction | L5-Def:勉强(卡词:descript) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像delineate) | 选项:[delineate / elicit / circumscribe / depiction] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- depletion | L5-Def:勉强(卡词:resource) | L5-Ex:不能(卡词:词形长/不常见,fishermen) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[deprivation / attrition / depletion / dexterity] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- deportation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[mercenary / deportation / secession / servitude] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- deprivation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,concentrate) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[prosperity / supremacy / insolvency / deprivation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- derogatory | L5-Def:勉强(卡词:disrespect) | L5-Ex:不能(卡词:词形长/不常见,acceptable) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[apathetic / auspicious / derogatory / accusatory] | L7:OK | L8:合适
-- deterrent | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像demeanor) | 选项:[demeanor / arbitrate / preemptive / deterrent] | L7:注意(暴力/犯罪) | L8:合适
-- dexterity | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,delicate) | L6:勉强(线索弱(靠常识/语感)) | 选项:[dexterity / consummate / clamber / dissolution] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- dichotomy | L5-Def:勉强(卡词:complete,different) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[dichotomy / discrepancy / debacle / fiasco] | L7:OK | L8:合适
-- dilapidated | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[egregious / dilapidated / flagrant / derelict] | L7:OK | L8:合适
-- diligence | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,significant) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[chronological / contemplation / diligence / delineate] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- diminutive | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,hummingbird) | L6:勉强(线索弱(靠常识/语感)) | 选项:[diminutive / avarice / remnant / consummate] | L7:OK | L8:合适(情境具体，利于建义)
-- disclaimer | L5-Def:勉强(卡词:responsible) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[assertion / affirmation / disclaimer / hypocrisy] | L7:OK | L8:合适
-- discrepancy | L5-Def:勉强(卡词:difference) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(不够唯一(易混:contradiction)) | 选项:[disparity / discrepancy / contradiction / dichotomy] | L7:OK | L8:合适
-- dismantle | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,dismantl,playground) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[negligence / remnant / usurp / dismantle] | L7:OK | L8:合适
-- disparity | L5-Def:勉强(卡词:difference,inequali) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像discrepancy) | 选项:[discrepancy / upheaval / disparity / consequential] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- dissolution | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[cessation / conciliatory / dissolution / concession] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- echelon | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[ostracize / acidity / echelon / coalesce] | L7:OK | L8:合适
-- edifice | L5-Def:勉强(卡词:impressive) | L5-Ex:勉强(卡词:courthouse) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[myriad / bounty / edifice / copious] | L7:OK | L8:合适
-- egalitarian | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:能(线索足) | 选项:[nonchalant / ethical / cynical / egalitarian] | L7:OK | L8:合适
-- elicit | L5-Def:勉强(卡词:response,informat) | L5-Ex:勉强(卡词:laughter) | L6:勉强(线索弱(靠常识/语感)) | 选项:[elicit / circumscribe / depiction / excise] | L7:OK | L8:合适
-- emblem | L5-Def:能(OK) | L5-Ex:勉强(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[etiquette / eulogy / emblem / nemesis] | L7:OK | L8:合适
-- eradicate | L5-Def:勉强(卡词:complete) | L5-Ex:不能(卡词:词形长/不常见,scientist) | L6:勉强(线索弱(靠常识/语感)) | 选项:[eradicate / debacle / fiasco / consultation] | L7:OK | L8:合适
-- esteem | L5-Def:能(OK) | L5-Ex:勉强(卡词:volunteer,firefighter) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[revere / esteem / etiquette / prestige] | L7:OK | L8:合适(通用学术词(可跨学科))
-- ethical | L5-Def:能(OK) | L5-Ex:勉强(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[ethical / contrite / compliance / accusatory] | L7:OK | L8:合适
-- etiquette | L5-Def:勉强(卡词:behavior) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[etiquette / principled / propriety / decorum] | L7:OK | L8:合适
-- eulogy | L5-Def:能(OK) | L5-Ex:勉强(卡词:memorial) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[aspirant / proponent / charlatan / eulogy] | L7:注意(死亡/悼念) | L8:合适
-- excise | L5-Def:能(OK) | L5-Ex:勉强(卡词:paragraph) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[elicit / ostracize / excise / nurture] | L7:OK | L8:合适
-- exclamation | L5-Def:勉强(卡词:surprise) | L5-Ex:不能(卡词:词形长/不常见,surprise) | L6:勉强(线索一般) | 选项:[catastrophic / upheaval / capricious / exclamation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- exemplary | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,behavior,citizenship) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[unilateral / condescending / exemption / exemplary] | L7:OK | L8:合适
-- exemption | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索一般) | 选项:[immunity / exemplary / unilateral / exemption] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- exodus | L5-Def:勉强(卡词:departure) | L5-Ex:勉强(卡词:hurricane) | L6:勉强(线索弱(靠常识/语感)) | 选项:[exodus / confluence / sanctuary / digression] | L7:OK | L8:合适
-- expedient | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,shortcut) | L6:勉强(线索弱(靠常识/语感)) | 选项:[expedient / harmonious / consecrate / inadvertent] | L7:OK | L8:合适
-- exploitation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索一般) | 选项:[exploitation / defunct / amenable / remuneration] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- exquisite | L5-Def:勉强(卡词:delicate) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[fallacy / fledgling / feasibility / exquisite] | L7:OK | L8:合适
-- fallacy | L5-Def:能(OK) | L5-Ex:勉强(卡词:goldfish) | L6:勉强(线索弱(靠常识/语感)) | 选项:[fallacy / capricious / cynical / inference] | L7:OK | L8:合适
-- feasibility | L5-Def:勉强(卡词:possible,practical) | L5-Ex:不能(卡词:词形长/不常见,treehouse,schoolyard) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[viable / circumspect / ethical / feasibility] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- fervent | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[fervent / ardent / ambivalent / tumultuous] | L7:OK | L8:合适
-- flagrant | L5-Def:勉强(卡词:shocking) | L5-Ex:勉强(卡词:someone',homework) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[dilapidated / mitigate / egregious / flagrant] | L7:OK | L8:合适(情境具体，利于建义)
-- fledgling | L5-Def:勉强(卡词:inexperienc) | L5-Ex:不能(卡词:词形长/不常见,customer) | L6:勉强(线索弱(靠常识/语感)) | 选项:[fledgling / inquisitive / acclimate / synthesis] | L7:OK | L8:合适(情境具体，利于建义)
-- forbearance | L5-Def:勉强(卡词:tolerance) | L5-Ex:不能(卡词:词形长/不常见,brother') | L6:勉强(线索弱(靠常识/语感)) | 选项:[forbearance / docile / subjugate / relinquish] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- forgo | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[mitigate / ostracize / nurture / forgo] | L7:OK | L8:合适
-- frivolous | L5-Def:勉强(卡词:important) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[commemoration / frivolous / consequential / paramount] | L7:OK | L8:合适(通用学术词(可跨学科))
-- gentry | L5-Def:能(OK) | L5-Ex:勉强(卡词:throughout,countryside) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[aristocracy / inception / gentry / proficiency] | L7:OK | L8:合适
-- gluttony | L5-Def:能(OK) | L5-Ex:勉强(卡词:yourself) | L6:勉强(线索一般) | 选项:[gluttony / impunity / impeachment / impasse] | L7:OK | L8:合适
-- harmonious | L5-Def:勉强(卡词:together,conflict) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[amenable / harmonious / remuneration / viable] | L7:OK | L8:合适
-- hypocrisy | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,yourself) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[credulous / contagious / hypocrisy / disclaimer] | L7:OK | L8:合适
-- immunity | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[blight / exemption / immunity / liberation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- impasse | L5-Def:能(OK) | L5-Ex:勉强(卡词:negotiat,compromise) | L6:勉强(线索弱(靠常识/语感)) | 选项:[impasse / predicament / contradiction / amenable] | L7:OK | L8:合适
-- impeachment | L5-Def:勉强(卡词:official) | L5-Ex:不能(卡词:词形长/不常见,proceeding,broadcast) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[continuity / impeachment / accusatory / concord] | L7:注意(政治/法律) | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- impromptu | L5-Def:勉强(卡词:preparat) | L5-Ex:不能(卡词:词形长/不常见,everyone) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[itinerary / luminous / lenient / impromptu] | L7:OK | L8:合适
-- impunity | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,behavior) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[accusatory / contrite / culpable / impunity] | L7:注意(暴力/犯罪) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- inadvertent | L5-Def:勉强(卡词:accidental) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[inadvertent / expedient / lenient / consecrate] | L7:OK | L8:合适
-- inception | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[inclination / indictment / commencement / inception] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- inclination | L5-Def:勉强(卡词:tendency) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像propensity) | 选项:[inclination / inertia / avarice / propensity] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- indictment | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[frivolous / reprimand / decorum / indictment] | L7:注意(政治/法律+暴力/犯罪) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- indignation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(不够唯一(易混:exploitation)) | 选项:[indignation / daunting / exploitation / oppression] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- inertia | L5-Def:勉强(卡词:tendency) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[inertia / propensity / penchant / inclination] | L7:OK | L8:合适(通用学术词(可跨学科))
-- infallible | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,everyone) | L6:能(线索足) | 选项:[infallible / cogent / inquisitive / unprecedented] | L7:OK | L8:合适
-- inference | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,overnight) | L6:勉强(线索一般) | 选项:[credulous / axiom / corroborate / inference] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- infringement | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,copyright) | L6:勉强(线索弱(靠常识/语感)) | 选项:[infringement / hypocrisy / contagious / dissolution] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- inquisitive | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(不够唯一(易混:bombard)) | 选项:[avid / alacrity / inquisitive / bombard] | L7:OK | L8:合适
-- insatiable | L5-Def:勉强(卡词:impossible) | L5-Ex:不能(卡词:词形长/不常见,appetite) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[intimidation / voracious / insatiable / atrophy] | L7:OK | L8:合适(情境具体，利于建义)
-- insolvency | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,company') | L6:勉强(线索一般) | 选项:[insolvency / prosperity / supremacy / deprivation] | L7:OK | L8:合适
-- integration | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[integration / remuneration / consolidation / defunct] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- intervention | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,teacher') | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[oblivious / deterrent / intervention / compliance] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- intimidation | L5-Def:勉强(卡词:frighten) | L5-Ex:不能(卡词:词形长/不常见,acceptable,behavior) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[placate / intimidation / compliance / mitigate] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- itinerary | L5-Def:勉强(卡词:schedule) | L5-Ex:不能(卡词:词形长/不常见,different) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[impromptu / itinerary / nonchalant / meticulous] | L7:OK | L8:合适
-- jubilee | L5-Def:不能(卡词:celebrat,important,anniversary) | L5-Ex:勉强(卡词:fiftieth) | L6:勉强(线索弱(靠常识/语感)) | 选项:[jubilee / frivolous / paramount / commemoration] | L7:OK | L8:合适(情境具体，利于建义)
-- jurisprudence | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,professor) | L6:不能(更像constitutional) | 选项:[constitutional / amnesty / conscription / jurisprudence] | L7:注意(政治/法律) | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- lenient | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[oblivious / penchant / lenient / ominous] | L7:OK | L8:合适
-- liberation | L5-Def:勉强(卡词:prisoner) | L5-Ex:不能(卡词:词形长/不常见,prisoner) | L6:勉强(线索一般) | 选项:[exemption / liberation / immunity / decorum] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- luminous | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[nonchalant / meticulous / luminous / notoriety] | L7:OK | L8:合适(情境具体，利于建义)
-- malevolent | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[condescending / denouncement / unilateral / malevolent] | L7:OK | L8:合适
-- manifesto | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[manifesto / ostracize / assertion / disclaimer] | L7:OK | L8:合适
-- mediation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,counselor) | L6:勉强(线索弱(靠常识/语感)) | 选项:[mediation / concord / discrepancy / unilateral] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- mercenary | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,mercenari) | L6:勉强(不够唯一(易混:belligerent)) | 选项:[mercenary / belligerent / aspirant / antagonist] | L7:注意(政治/法律+暴力/犯罪) | L8:合适
-- meticulous | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[meticulous / permeate / compendium / delineate] | L7:OK | L8:合适(通用学术词(可跨学科))
-- mitigate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,sunscreen) | L6:勉强(线索弱(靠常识/语感)) | 选项:[mitigate / dilapidated / egregious / flagrant] | L7:OK | L8:合适
-- myriad | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[myriad / attrition / edifice / copious] | L7:OK | L8:合适
-- negligence | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,accident,maintain) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[debacle / dismantle / fiasco / negligence] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- nemesis | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[nemesis / filibuster / perpetuate / emblem] | L7:OK | L8:合适
-- nonchalant | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(不够唯一(易混:demeanor)) | 选项:[nonchalant / captivating / tranquility / demeanor] | L7:OK | L8:合适
-- notoriety | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[egregious / flagrant / notoriety / dilapidated] | L7:OK | L8:合适
-- nurture | L5-Def:勉强(卡词:encourage) | L5-Ex:勉强(卡词:children) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[negligence / nurture / rebuke / placate] | L7:OK | L8:合适
-- oblivious | L5-Def:勉强(卡词:complete) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[oblivious / compliance / debacle / intervention] | L7:OK | L8:合适(情境具体，利于建义)
-- ominous | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[antipathy / contrite / ominous / egregious] | L7:OK | L8:合适
-- oppression | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[ascendancy / attrition / oppression / tyranny] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- optimism | L5-Def:勉强(卡词:hopefulnes,confidence) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[optimism / extrapolate / perseverance / pessimism] | L7:OK | L8:合适
-- ornate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索一般) | 选项:[adornment / ornate / notoriety / diminutive] | L7:OK | L8:合适
-- ostracize | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,classmate,different) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[coalesce / echelon / ostracize / constituency] | L7:OK | L8:合适
-- paramount | L5-Def:勉强(卡词:important) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[frivolous / preemptive / commemoration / paramount] | L7:OK | L8:合适(通用学术词(可跨学科))
-- penchant | L5-Def:勉强(卡词:tendency) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[propensity / inclination / fervent / penchant] | L7:OK | L8:合适
-- penitent | L5-Def:能(OK) | L5-Ex:勉强(卡词:apologiz) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[antipathy / penitent / contrite / accusatory] | L7:OK | L8:合适
-- permeate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[totalitarian / consummate / contagious / permeate] | L7:OK | L8:合适(情境具体，利于建义)
-- perpetuate | L5-Def:勉强(卡词:continue) | L5-Ex:不能(卡词:词形长/不常见,perpetuat,misunderstand) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[chronological / perpetuate / nemesis / diligence] | L7:OK | L8:合适
-- perseverance | L5-Def:勉强(卡词:difficult) | L5-Ex:不能(卡词:词形长/不常见,practice) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[continuity / conundrum / perseverance / predicament] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- pessimism | L5-Def:勉强(卡词:tendency) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[pessimism / inertia / propensity / inclination] | L7:OK | L8:合适
-- placate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[belligerent / provocation / placate / mitigate] | L7:OK | L8:合适(情境具体，利于建义)
-- precinct | L5-Def:勉强(卡词:district,especial) | L5-Ex:能(OK) | L6:勉强(线索一般) | 选项:[precinct / vehement / abdicate / constituency] | L7:注意(政治/法律) | L8:合适
-- predicament | L5-Def:勉强(卡词:difficult,unpleasant) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[predicament / astute / daunting / elusive] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- preemptive | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[deterrent / paramount / demeanor / preemptive] | L7:OK | L8:合适
-- prerogative | L5-Def:勉强(卡词:particular) | L5-Ex:不能(卡词:词形长/不常见,birthday) | L6:勉强(线索弱(靠常识/语感)) | 选项:[prerogative / ostracize / tribunal / constituency] | L7:OK | L8:合适(情境具体，利于建义)
-- prestige | L5-Def:能(OK) | L5-Ex:勉强(卡词:national) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[protagonist / prestige / esteem / revere] | L7:OK | L8:合适(情境具体，利于建义)
-- principled | L5-Def:勉强(卡词:behavior) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[principled / fervent / etiquette / ambivalent] | L7:OK | L8:合适
-- probation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[probation / deterrent / demeanor / preemptive] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- proficiency | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,interview) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[charlatan / resilience / commensurate / proficiency] | L7:OK | L8:合适(通用学术词(可跨学科))
-- propensity | L5-Def:勉强(卡词:tendency) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[penchant / propensity / inertia / inclination] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- proponent | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[aspirant / charlatan / corroborate / proponent] | L7:OK | L8:合适
-- propriety | L5-Def:勉强(卡词:behavior) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像decorum) | 选项:[validate / decorum / propriety / cavalier] | L7:OK | L8:合适
-- prosperity | L5-Def:勉强(卡词:successful) | L5-Ex:不能(卡词:词形长/不常见,building) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[deprivation / prosperity / insolvency / supremacy] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- protagonist | L5-Def:勉强(卡词:character) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[protagonist / digression / temperament / antagonist] | L7:OK | L8:合适
-- provocation | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[provocation / belligerent / placate / demeanor] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- purview | L5-Def:勉强(卡词:responsibili) | L5-Ex:勉强(卡词:playground) | L6:勉强(线索弱(靠常识/语感)) | 选项:[purview / infringement / creed / supremacy] | L7:OK | L8:合适
-- rebuke | L5-Def:勉强(卡词:criticize) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[contrite / accusatory / rebuke / culpable] | L7:OK | L8:合适
-- redundant | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像atrophy) | 选项:[compliance / deprivation / atrophy / redundant] | L7:OK | L8:合适
-- relinquish | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,relinquish) | L6:勉强(线索弱(靠常识/语感)) | 选项:[relinquish / cede / abdicate / subjugate] | L7:OK | L8:合适
-- remnant | L5-Def:能(OK) | L5-Ex:勉强(卡词:original) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[diminutive / remnant / ornate / dismantle] | L7:OK | L8:合适
-- remuneration | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像defunct) | 选项:[defunct / amenable / exploitation / remuneration] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- renounce | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[corroborate / renounce / disclaimer / defunct] | L7:OK | L8:合适(通用学术词(可跨学科))
-- repercussion | L5-Def:勉强(卡词:unintend,negative) | L5-Ex:不能(卡词:词形长/不常见,practice) | L6:勉强(线索弱(靠常识/语感)) | 选项:[repercussion / demeanor / deterrent / preemptive] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- reprimand | L5-Def:勉强(卡词:disapproval) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[reprimand / indictment / condemnation / deprecate] | L7:OK | L8:合适
-- resilience | L5-Def:勉强(卡词:difficulti) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[charlatan / astute / proficiency / resilience] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- resurgence | L5-Def:勉强(卡词:populari) | L5-Ex:不能(卡词:词形长/不常见,discover) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[attrition / cede / ascendancy / resurgence] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- revere | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[esteem / antipathy / prestige / revere] | L7:OK | L8:合适(通用学术词(可跨学科))
-- rudimentary | L5-Def:勉强(卡词:developm) | L5-Ex:不能(卡词:词形长/不常见,understand) | L6:不能(更像viable) | 选项:[rudimentary / vigilant / voracious / viable] | L7:OK | L8:合适
-- sanctuary | L5-Def:勉强(卡词:wildlife) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(不够唯一(易混:immunity)) | 选项:[exodus / confluence / sanctuary / immunity] | L7:OK | L8:合适(情境具体，利于建义)
-- secession | L5-Def:勉强(卡词:official) | L5-Ex:不能(卡词:词形长/不常见,southern) | L6:勉强(线索弱(靠常识/语感)) | 选项:[secession / ostracize / deportation / echelon] | L7:注意(政治/法律) | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- servitude | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,prisoner) | L6:能(线索足) | 选项:[remuneration / continuity / concord / servitude] | L7:注意(政治/法律+暴力/犯罪) | L8:合适
-- sporadic | L5-Def:能(OK) | L5-Ex:勉强(卡词:thunderstorm,activiti) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[chronological / oblivious / unprecedented / sporadic] | L7:OK | L8:合适
-- staunch | L5-Def:能(OK) | L5-Ex:勉强(卡词:defender) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[fervent / proponent / staunch / corroborate] | L7:OK | L8:合适(通用学术词(可跨学科))
-- strife | L5-Def:勉强(卡词:disagreem,conflict) | L5-Ex:能(OK) | L6:不能(更像concession) | 选项:[arbitrate / concession / strife / harmonious] | L7:OK | L8:合适
-- subjugate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,military) | L6:不能(更像relinquish) | 选项:[subjugate / relinquish / forbearance / docile] | L7:注意(政治/法律) | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- supremacy | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,undefeat) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[deprivation / supremacy / insolvency / prosperity] | L7:OK | L8:合适
-- sustenance | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[temperament / sustenance / deprivation / redundant] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- synthesis | L5-Def:勉强(卡词:different) | L5-Ex:不能(卡词:词形长/不常见,different) | L6:能(线索足) | 选项:[acclimate / contemplation / synthesis / coalesce] | L7:OK | L8:合适(情境具体，利于建义)
-- temperament | L5-Def:勉强(卡词:character) | L5-Ex:不能(卡词:词形长/不常见,hospital) | L6:勉强(线索弱(靠常识/语感)) | 选项:[temperament / protagonist / propensity / feasibility] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- totalitarian | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索一般) | 选项:[totalitarian / docile / subjugate / permeate] | L7:注意(政治/法律) | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- tranquility | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,breathtak) | L6:勉强(线索弱(靠常识/语感)) | 选项:[tranquility / concord / continuity / deprivation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- transparency | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(不够唯一(易混:probation)) | 选项:[transparency / coherence / benevolence / probation] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- tribunal | L5-Def:勉强(卡词:particular) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[prerogative / constituency / tribunal / arbitrate] | L7:注意(政治/法律) | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- tumultuous | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[fervent / vehement / ardent / tumultuous] | L7:OK | L8:合适
-- tyranny | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[ascendancy / attrition / oppression / tyranny] | L7:注意(政治/法律) | L8:合适
-- unilateral | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像malevolent) | 选项:[concord / malevolent / unilateral / condescending] | L7:OK | L8:合适(通用学术词(可跨学科))
-- unprecedented | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[unprecedented / fervent / deprivation / ambivalent] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- upheaval | L5-Def:能(OK) | L5-Ex:能(OK) | L6:不能(更像catastrophic) | 选项:[upheaval / disparity / catastrophic / consequential] | L7:OK | L8:合适(通用学术词(可跨学科))
-- usurp | L5-Def:能(OK) | L5-Ex:勉强(卡词:rightful) | L6:不能(更像abdicate) | 选项:[ascendancy / abdicate / subjugate / usurp] | L7:OK | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- utopian | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[utopian / consummate / exemplary / etiquette] | L7:注意(政治/法律) | L8:合适
-- validate | L5-Def:勉强(卡词:acceptable) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[validate / fastidious / vindicate / propriety] | L7:OK | L8:合适(情境具体，利于建义)
-- vehement | L5-Def:勉强(卡词:especial,determinat) | L5-Ex:不能(卡词:词形长/不常见,principal) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[fervent / tumultuous / vehement / ardent] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- viable | L5-Def:勉强(卡词:practical) | L5-Ex:不能(卡词:词形长/不常见,alternative) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[remuneration / defunct / harmonious / viable] | L7:OK | L8:合适
-- vigilant | L5-Def:能(OK) | L5-Ex:勉强(卡词:lifeguard,children) | L6:勉强(线索弱(靠常识/语感)) | 选项:[vigilant / perilous / contemplation / conundrum] | L7:OK | L8:合适
-- vindicate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,vindicat) | L6:能(线索足) | 选项:[aspirant / vindicate / proponent / charlatan] | L7:OK | L8:合适
-- voracious | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,available) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[avid / voracious / copious / alacrity] | L7:OK | L8:合适
-- wane | L5-Def:勉强(卡词:decrease,importance) | L5-Ex:勉强(卡词:interest) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[ascendancy / cede / attrition / wane] | L7:OK | L8:合适
-- zealous | L5-Def:勉强(卡词:enthusiasm) | L5-Ex:不能(卡词:词形长/不常见,volunteer) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[apathetic / accusatory / zealous / ardent] | L7:OK | L8:合适
-- abdicate | L5-Def:勉强(卡词:especial) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[cede / relinquish / ascendancy / abdicate] | L7:OK | L8:合适
-- accolade | L5-Def:勉强(卡词:achievem) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[zealous / voracious / accolade / catastrophic] | L7:OK | L8:合适(情境具体，利于建义)
-- affable | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,shopkeeper) | L6:不能(更像cordial) | 选项:[amicable / affable / amicably / cordial] | L7:OK | L8:合适
-- ambivalent | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[deprivation / unprecedented / fervent / ambivalent] | L7:OK | L8:合适
-- amenable | L5-Def:勉强(卡词:together) | L5-Ex:不能(卡词:词形长/不常见,deadline) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[credulous / amenable / harmonious / remuneration] | L7:OK | L8:合适
-- amicable | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,neighbor) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[affable / cordial / amicable / amicably] | L7:OK | L8:合适
-- anecdotal | L5-Def:勉强(卡词:personal,research) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索一般) | 选项:[conjecture / compendium / extrapolate / anecdotal] | L7:OK | L8:合适
-- antipathy | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[antipathy / penitent / contrite / contemplation] | L7:OK | L8:合适
-- apathetic | L5-Def:勉强(卡词:interest,enthusiasm) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像accusatory) | 选项:[accusatory / apathetic / ardent / zealous] | L7:OK | L8:合适
-- attrition | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[attrition / depletion / myriad / ascendancy] | L7:注意(政治/法律) | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- bravado | L5-Def:能(OK) | L5-Ex:勉强(卡词:disappear) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[provocation / bravado / amicably / personable] | L7:OK | L8:合适
-- cavalier | L5-Def:能(OK) | L5-Ex:勉强(卡词:attitude,homework) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[accusatory / cavalier / auspicious / apathetic] | L7:OK | L8:合适
-- cede | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[relinquish / contagious / cede / abdicate] | L7:注意(政治/法律) | L8:合适
-- charlatan | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[charlatan / proficiency / proponent / aspirant] | L7:OK | L8:合适(通用学术词(可跨学科))
-- circumspect | L5-Def:不能(卡词:consider,possible,consequenc) | L5-Ex:不能(卡词:词形长/不常见,forecast) | L6:勉强(线索弱(靠常识/语感)) | 选项:[circumspect / demeanor / contemplation / fastidious] | L7:OK | L8:合适
-- commensurate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[proficiency / denouncement / commensurate / demagogue] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- conciliatory | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,disagreem) | L6:勉强(线索弱(靠常识/语感)) | 选项:[conciliatory / dissolution / cessation / amicable] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- congenial | L5-Def:勉强(卡词:pleasant,agreeable) | L5-Ex:不能(卡词:词形长/不常见,atmosphere,everyone) | L6:勉强(线索弱(靠常识/语感)) | 选项:[congenial / personable / credulous / amicably] | L7:OK | L8:合适
-- connive | L5-Def:勉强(卡词:dishonest) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[connive / clandestine / arbitrate / gratify] | L7:OK | L8:合适
-- contrite | L5-Def:能(OK) | L5-Ex:勉强(卡词:heartfelt) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[accusatory / antipathy / contrite / penitent] | L7:OK | L8:合适
-- conundrum | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,everyone) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[perseverance / vigilant / tumultuous / conundrum] | L7:OK | L8:合适
-- cosmopolitan | L5-Def:勉强(卡词:different) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[cosmopolitan / dichotomy / notoriety / bombard] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- credulous | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[hypocrisy / corroborate / credulous / amenable] | L7:OK | L8:合适
-- debacle | L5-Def:勉强(卡词:complete,disaster) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[dichotomy / fiasco / debacle / eradicate] | L7:OK | L8:合适
-- demagogue | L5-Def:勉强(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[demagogue / charlatan / aspirant / ambivalent] | L7:OK | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- denouncement | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,principal') | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[accusatory / contrite / denouncement / assertion] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- deprecate | L5-Def:勉强(卡词:disapproval) | L5-Ex:不能(卡词:词形长/不常见,deprecat,unrealistic) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[condemnation / arbitrate / reprimand / deprecate] | L7:OK | L8:合适
-- derelict | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[acclimate / fracas / derelict / dilapidated] | L7:OK | L8:合适
-- digression | L5-Def:勉强(卡词:temporary,departure) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[compendium / digression / exodus / protagonist] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- dirge | L5-Def:能(OK) | L5-Ex:勉强(卡词:memorial,ceremony) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[dismantle / dirge / wane / remnant] | L7:注意(死亡/悼念) | L8:合适
-- dissident | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[aspirant / proponent / dissident / charlatan] | L7:注意(政治/法律) | L8:合适
-- docile | L5-Def:能(OK) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[docile / affable / tranquility / subjugate] | L7:OK | L8:合适(情境具体，利于建义)
-- egregious | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[egregious / flagrant / mitigate / dilapidated] | L7:OK | L8:合适
-- elusive | L5-Def:勉强(卡词:difficult) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[daunting / elusive / aspirant / predicament] | L7:OK | L8:合适
-- emissary | L5-Def:勉强(卡词:representative) | L5-Ex:不能(卡词:词形长/不常见,neighbor) | L6:勉强(线索一般) | 选项:[prerogative / emissary / jubilee / aristocracy] | L7:OK | L8:合适
-- exonerate | L5-Def:勉强(卡词:official) | L5-Ex:不能(卡词:词形长/不常见,exonerat,imprison) | L6:不能(更像amnesty) | 选项:[secession / exonerate / consecrate / amnesty] | L7:注意(政治/法律) | L8:合适
-- extrapolate | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[conjecture / anecdotal / notoriety / extrapolate] | L7:OK | L8:合适
-- fastidious | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[delineate / fastidious / contemplation / circumspect] | L7:OK | L8:合适(情境具体，利于建义)
-- fiasco | L5-Def:勉强(卡词:complete,embarrass) | L5-Ex:能(OK) | L6:不能(更像dichotomy) | 选项:[debacle / dichotomy / eradicate / fiasco] | L7:OK | L8:合适(情境具体，利于建义)
-- filibuster | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[dissident / eulogy / nemesis / filibuster] | L7:注意(政治/法律) | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- fracas | L5-Def:能(OK) | L5-Ex:勉强(卡词:cafeteria) | L6:勉强(线索弱(靠常识/语感)) | 选项:[fracas / belligerent / amicable / conciliatory] | L7:注意(暴力/犯罪) | L8:合适
-- acclimate | L5-Def:勉强(卡词:environm) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[derelict / acclimate / fledgling / dilapidated] | L7:OK | L8:合适
-- agnostic | L5-Def:勉强(卡词:impossible) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[agnostic / aspirant / charlatan / acquaintance] | L7:注意(宗教) | L8:合适
-- alacrity | L5-Def:勉强(卡词:willingnes) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像voracious) | 选项:[voracious / inquisitive / avid / alacrity] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
-- arbitrate | L5-Def:勉强(卡词:disagreem) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索弱(靠常识/语感)) | 选项:[arbitrate / demeanor / deterrent / preemptive] | L7:注意(政治/法律) | L8:合适
-- ascendancy | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,straight) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[abdicate / usurp / attrition / ascendancy] | L7:OK | L8:合适
-- whimsical | L5-Def:勉强(卡词:fanciful) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[capricious / whimsical / auspicious / belligerent] | L7:OK | L8:合适(情境具体，利于建义)
-- zenith | L5-Def:能(OK) | L5-Ex:勉强(卡词:overhead) | L6:勉强(线索弱(靠常识/语感)) | 选项:[zenith / affirmation / adornment / aristocracy] | L7:OK | L8:合适
-- amicably | L5-Def:勉强(卡词:pleasant) | L5-Ex:勉强(卡词:disagreem) | L6:勉强(线索弱(靠常识/语感)) | 选项:[amicably / personable / amicable / congenial] | L7:OK | L8:合适
-- gratify | L5-Def:勉强(卡词:pleasure,satisfact) | L5-Ex:能(OK) | L6:勉强(线索弱(靠常识/语感)) | 选项:[gratify / abdicate / relinquish / cede] | L7:OK | L8:合适
-- personable | L5-Def:勉强(卡词:pleasant,appearance) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[amicably / personable / ambivalent / congenial] | L7:OK | L8:合适
-- perilous | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见,mountain,guardrail) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[vigilant / animated / tumultuous / perilous] | L7:OK | L8:合适
-- orthodontics | L5-Def:勉强(卡词:dentistry) | L5-Ex:不能(卡词:词形长/不常见,straighter) | L6:勉强(线索一般) | 选项:[validate / propriety / orthodontics / fastidious] | L7:OK | L8:偏专门(更适合后置/专题(公民/法律/历史/医学))
-- palindrome | L5-Def:勉强(卡词:backward) | L5-Ex:不能(卡词:词形长/不常见,'racecar') | L6:不能(更像articulation) | 选项:[discrepancy / articulation / impasse / palindrome] | L7:OK | L8:合适
+- accusatory | L5: def=勉强(句式“showing that…”抽象) ex=不能(tone/guilty/at fault难) | L6: 不唯一(也像“angry/harsh”) | L7: 无 | L8: 偏难(情绪+语气词需先学 angry/mean/tone)
+- acidity | L5: def=勉强(acid不熟) ex=勉强(靠lemon+sour猜) | L6: 唯一(“taste sour”强线索) | L7: 无 | L8: 偏难(科学概念；先有 sour/sweet)
+- acquaintance | L5: def=不能(slight/close概念+长句) ex=不能(hang out regularly难) | L6: 不唯一(与friend/classmate/neighbor易混) | L7: 无 | L8: 偏难(社交关系层级；先有 friend/know)
+- adjoining | L5: def=勉强(next to ok, joined抽象) ex=勉强(shared a door可猜“next to”) | L6: 不唯一(与next to/connected相近) | L7: 无 | L8: 偏难(空间介词体系先学)
+- adornment | L5: def=不能(ornament/decoration同义生词) ex=勉强(necklace+special occasions可猜“饰品”) | L6: 不唯一(与decoration/jewelry/ornament都像) | L7: 无 | L8: 偏难(名词化抽象；先学 jewelry/decoration)
+- affirmation | L5: def=不能(statement/sign of support抽象) ex=勉强(nod=agree线索) | L6: 不唯一(与agreement/approval/confirmation近) | L7: 无 | L8: 偏难(抽象名词；先学 agree/approve)
+- amnesty | L5: def=不能(official pardon/law太难) ex=不能(prisoners of war生词+沉重) | L6: 不唯一(与pardon/forgiveness/parole易混) | L7: 注意(战争/囚犯/政治) | L8: 偏难(强背景词；更适合高阶公民/历史主题)
+- animated | L5: def=勉强(两义项+life抽象) ex=勉强(description/adventures难但可猜“很兴奋”) | L6: 不唯一(与excited/energetic/lively近) | L7: 无 | L8: 偏难(多义；建议先学 lively/excited)
+- antagonist | L5: def=不能(opposes/main character抽象) ex=勉强(villain线索强) | L6: 唯一(“villain”基本指反派) | L7: 无 | L8: 偏难(文学术语；应在 protagonist 后/同组)
+- ardent | L5: def=勉强(enthusiasm生词) ex=勉强(supporter+team可猜“很热情”) | L6: 不唯一(与zealous/fervent/avid同级近义) | L7: 无 | L8: 偏难(建议与 zeal/fervent/avid做区分教学)
+- aristocracy | L5: def=不能(highest social class/privileges难) ex=不能(old England/grand estates背景) | L6: 不唯一(与nobility/gentry/royalty易混) | L7: 注意(阶级/历史) | L8: 偏难(强文化史背景；不适合MAP197)
+- articulation | L5: def=不能(clear speaking/expression抽象) ex=勉强(clear=everyone understood可推) | L6: 不唯一(与pronunciation/clarity易混) | L7: 无 | L8: 偏难(元语言术语；先学 speak clearly/pronounce)
+- aspirant | L5: def=勉强(hopes to achieve可懂但抽象) ex=勉强(for the team+practice线索) | L6: 不唯一(与candidate/hopeful/tryout student近) | L7: 无 | L8: 偏难(更常用“want to be…/hopeful”)
+- assertion | L5: def=勉强(confident statement抽象) ex=勉强(turned out correct线索) | L6: 不唯一(与claim/opinion/statement近) | L7: 无 | L8: 偏难(学术写作词；先学 say/think)
+- astute | L5: def=不能(grasp situations quickly难) ex=勉强(detective+small detail线索) | L6: 不唯一(与smart/sharp/clever难区分) | L7: 无 | L8: 偏难(需要先有 clever/smart)
+- atrophy | L5: def=勉强(weaker/not used可懂) ex=勉强(exercise/regularly生词) | L6: 不唯一(与weaken/shrink近) | L7: 无 | L8: 偏难(科学/身体词；可用“get smaller/weaker”先铺垫)
+- audacity | L5: def=不能(bold/daring/rude抽象) ex=勉强(ask principal cancel homework情境) | L6: 不唯一(与bravado/nerve/boldness近) | L7: 无 | L8: 偏难(抽象品质词；先学 brave/rude)
+- auspicious | L5: def=不能(signs successful难) ex=勉强(sunny morning=start线索) | L6: 不唯一(与lucky/good/promising近) | L7: 无 | L8: 偏难(偏书面；建议先用 lucky)
+- authoritarian | L5: def=不能(obey completely/without question抽象) ex=不能(ruler/disagree) | L6: 不唯一(与totalitarian/strict/tyrannical近) | L7: 注意(政治体制) | L8: 偏难(强社会学词；更高年级)
+- autonomy | L5: def=不能(govern yourself抽象) ex=勉强(teenagers+parents可理解但词难) | L6: 不唯一(与independence/freedom近) | L7: 无 | L8: 偏难(抽象；可先教 independence)
+- avarice | L5: def=不能(extreme desire/wealth) ex=不能(taxes/poorest) | L6: 不唯一(与greed/gluttony近但不同域) | L7: 无 | L8: 偏难(道德抽象词；先学 greedy)
+- avid | L5: def=勉强(eager/keen可懂) ex=勉强(reader+three books/week线索) | L6: 不唯一(与ardent/fervent/voracious同义域) | L7: 无 | L8: 偏难(同义簇太密，建议排序：eager→avid→voracious)
+- axiom | L5: def=不能(accepted true without proof) ex=不能(whole/parts抽象数学表达) | L6: 不唯一(与rule/principle/postulate易混) | L7: 无 | L8: 偏难(数学/逻辑术语，不适合MAP197)
+- belligerent | L5: def=勉强(angry/ready to fight) ex=勉强(bully+picking arguments) | L6: 不唯一(与aggressive/hostile近) | L7: 无 | L8: 偏难(可先教 angry/aggressive)
+- benevolence | L5: def=不能(quality of being kind抽象) ex=不能(donors/build playground) | L6: 不唯一(与kindness/generosity近) | L7: 无 | L8: 偏难(名词化；先学 kind/generous)
+- bewilder | L5: def=勉强(confuse…not know what to do) ex=勉强(magic trick/crowd) | L6: 不唯一(与confuse/surprise近) | L7: 无 | L8: 合适偏难(可作为 confuse 的升级词)
+- blight | L5: def=不能(disease/damages/plants+转义) ex=不能(potato crop) | L6: 不唯一(与disease/rot/pest易混) | L7: 无 | L8: 偏难(农业词；更适合自然主题单元)
+- bombard | L5: def=不能(attack/at once抽象) ex=勉强(many questions线索) | L6: 不唯一(与question/grill/attack) | L7: 无 | L8: 偏难(多义；先学 ask many questions)
+- bounty | L5: def=不能(reward/catching someone多义) ex=勉强(harvest+fruits/veg线索) | L6: 不唯一(与lots/plenty/harvest易混) | L7: 注意(“catching someone”悬赏概念) | L8: 偏难(多义且文化；建议仅保留“lots of”义)
+- capitalize | L5: def=不能(advantage/letters两义) ex=不能(early lead游戏术语) | L6: 不唯一(与use/take advantage混) | L7: 无 | L8: 偏难(多义；应拆分：capitalize letters vs capitalize on)
+- capricious | L5: def=不能(changing…without reason抽象) ex=勉强(weather示例可感) | L6: 不唯一(与unpredictable/moody近) | L7: 无 | L8: 偏难(可先教 moody/unpredictable)
+- captivating | L5: def=勉强(interesting…cannot look away) ex=勉强(reading until midnight线索) | L6: 不唯一(与interesting/fascinating/engaging近) | L7: 无 | L8: 偏难(但可作为“very interesting”替换)
+- catastrophic | L5: def=不能(sudden great damage/suffering) ex=不能(earthquake/destroyed hundreds) | L6: 不唯一(与terrible/disastrous易混) | L7: 注意(灾难/死亡联想) | L8: 偏难(词长且书面；先学 disaster)
+- caustic | L5: def=不能(chemical action+转义) ex=不能(safety warning) | L6: 不唯一(与dangerous/corrosive易混) | L7: 无 | L8: 偏难(科学词且多义，不适合MAP197)
+- cessation | L5: def=不能(名词化“stopping/ending”) ex=勉强(rain stopped) | L6: 不唯一(与stop/end/pause近) | L7: 无 | L8: 偏难(强书面名词；可换“the rain stopped”)
+- chronological | L5: def=不能(order/time/happened抽象) ex=不能(biography/earliest/latest) | L6: 不唯一(与in order/by date近) | L7: 无 | L8: 偏难(学术词；先学 first/next/then)
+- circumscribe | L5: def=不能(draw a line around/limit两义) ex=不能(lunch break规则) | L6: 不唯一(与limit/restrict/outline混) | L7: 无 | L8: 偏难(罕见词；不建议此level)
+- clamber | L5: def=勉强(climb with difficulty) ex=勉强(rocky hillside) | L6: 不唯一(与climb/scramble近) | L7: 无 | L8: 偏难(可在 climb 之后)
+- clandestine | L5: def=勉强(secretly/hidden) ex=勉强(spies+back of bookstore线索) | L6: 不唯一(与secret/hidden/covert近) | L7: 注意(间谍/秘密会面) | L8: 偏难(同义替换密集；先教 secret)
+- coalesce | L5: def=不能(form one group/thing抽象) ex=勉强(streams→river强意象) | L6: 唯一(溪流汇成河较专指) | L7: 无 | L8: 偏难(科学/地理词；可在 join/combine 后)
+- cogent | L5: def=不能(convincing抽象) ex=勉强(argument+why recess longer) | L6: 不唯一(与clear/strong/convincing近) | L7: 无 | L8: 偏难(写作评价词；不适合MAP197)
+- cognition | L5: def=不能(mental process/gaining knowledge) ex=不能(puzzles/problem-solving) | L6: 不唯一(与thinking/brain function近) | L7: 无 | L8: 偏难(心理学术语)
+- coherence | L5: def=不能(logical/consistent) ex=不能(essay lacked/jumped around) | L6: 不唯一(与logic/clarity/organization近) | L7: 无 | L8: 偏难(写作术语)
+- commemoration | L5: def=不能(recall important person/event) ex=不能(founder/statue) | L6: 不唯一(与memorial/celebration/tribute近) | L7: 无 | L8: 偏难(书面名词)
+- commencement | L5: def=不能(two meanings) ex=勉强(start of school year线索) | L6: 不唯一(与beginning/start混；若选项含 graduation 则更乱) | L7: 无 | L8: 偏难(多义；建议拆分)
+- compendium | L5: def=不能(collection of detailed facts) ex=不能(species/state) | L6: 不唯一(与encyclopedia/reference/book近) | L7: 无 | L8: 偏难(书面/学术)
+- complacency | L5: def=不能(satisfaction stops trying) ex=不能(led to losing) | L6: 不唯一(与confidence/laziness/overconfidence近) | L7: 无 | L8: 偏难(抽象心理词)
+- complementary | L5: def=不能(combining well/complete) ex=不能(colors概念) | L6: 不唯一(与matching/going well together近) | L7: 无 | L8: 偏难(学术/艺术词；先学 match)
+- compliance | L5: def=不能(ordered to do) ex=勉强(safety rules) | L6: 不唯一(与obedience/following rules近) | L7: 无 | L8: 偏难(抽象名词；可用 follow rules)
+- concession | L5: def=不能(give up to end disagreement) ex=勉强(fair agreement线索) | L6: 不唯一(与compromise/trade-off近) | L7: 无 | L8: 偏难(谈判词)
+- concord | L5: def=不能(harmony/ agreement抽象) ex=勉强(rival teams share field) | L6: 不唯一(与harmony/peace/agreement同义) | L7: 无 | L8: 偏难(较罕见；可用 agreement)
+- condemnation | L5: def=不能(strong disapproval) ex=勉强(principal speech vs bullying) | L6: 不唯一(与criticism/disapproval/denouncement近) | L7: 无 | L8: 偏难(名词化)
+- condescending | L5: def=不能(acting as if better) ex=勉强(tone+classmates insulted) | L6: 不唯一(与rude/arrogant/snobby近) | L7: 无 | L8: 偏难(但常见；先教 rude/arrogant)
+- confluence | L5: def=不能(place rivers meet/come together) ex=勉强(two rivers meet清晰) | L6: 唯一(“two rivers meet”指向强) | L7: 无 | L8: 偏难(地理词；可与 coalesce 同组排序)
+- conjecture | L5: def=不能(incomplete facts) ex=勉强(without proof) | L6: 不唯一(与guess/theory/supposition近) | L7: 无 | L8: 偏难(学术词)
+- conscription | L5: def=不能(by law serve military) ex=不能(war/army) | L6: 唯一(法律强制参军较专) | L7: 注意(战争/征兵敏感) | L8: 偏难(社会/历史词)
+- consecrate | L5: def=不能(sacred/dedicate) ex=不能(memorial garden) | L6: 不唯一(与dedicate/bless/approve混) | L7: 注意(宗教“sacred”) | L8: 偏难(文化宗教背景)
+- consequential | L5: def=不能(big results) ex=不能(judge/law) | L6: 不唯一(与important/serious/significant近) | L7: 注意(法律) | L8: 偏难(抽象评价词)
+- conservatory | L5: def=不能(two meanings) ex=勉强(plants+glass building意象) | L6: 不唯一(与greenhouse/plant house) | L7: 无 | L8: 偏难(多义；先教 greenhouse)
+- consolidation | L5: def=不能(combining into single effective whole) ex=不能(saved money) | L6: 不唯一(与combination/merger/integration近) | L7: 无 | L8: 偏难(商业/行政词)
+- constituency | L5: def=不能(voters/district) ex=不能(politician/concerns) | L6: 不唯一(与voters/district/community近) | L7: 注意(政治/选举) | L8: 偏难(强背景)
+- constitutional | L5: def=不能(country’s rules/laws) ex=不能(United States背景) | L6: 不唯一(与legal/governmental近) | L7: 注意(美国语境) | L8: 偏难(公民教育高阶)
+- consultation | L5: def=勉强(meeting to discuss/get help) ex=勉强(doctor discuss results) | L6: 不唯一(与meeting/appointment/talk近) | L7: 无 | L8: 偏难(书面名词；可用 appointment)
+- consummate | L5: def=不能(extremely skilled/perfect) ex=勉强(neverm ade a mistake) | L6: 不唯一(与excellent/masterful/very skilled近) | L7: 无 | L8: 偏难(书面夸赞词)
+- contagious | L5: def=勉强(spread person to person) ex=勉强(flu+stay home) | L6: 唯一(健康语境强) | L7: 无 | L8: 合适偏难(可与 sick/germs 后)
+- contemplation | L5: def=不能(deep/careful thought) ex=不能(college/attend) | L6: 不唯一(与thinking/consideration近) | L7: 无 | L8: 偏难(学术名词)
+- continuity | L5: def=不能(without interruption) ex=不能(series/actors changed) | L6: 不唯一(与consistency/connection近) | L7: 无 | L8: 偏难(抽象概念)
+- contradiction | L5: def=不能(cannot both be true) ex=勉强(love animals but mistreat) | L6: 唯一(逻辑冲突例子清楚) | L7: 无 | L8: 偏难(逻辑词；但例子好，可稍降难度词汇)
+- copious | L5: def=不能(quantity/amount抽象) ex=勉强(notes during lecture线索) | L6: 不唯一(与many/a lot/plenty近) | L7: 无 | L8: 偏难(书面替换 many)
+- cordial | L5: def=勉强(warm and friendly) ex=勉强(welcome at party) | L6: 不唯一(与amicable/affable/congenial同簇) | L7: 无 | L8: 偏难(同义簇过密，建议只留1-2个)
+- corroborate | L5: def=不能(confirm/support with proof) ex=不能(victim/witness) | L6: 不唯一(与confirm/prove/validate近) | L7: 注意(受害者/犯罪语境) | L8: 偏难(法律/新闻词)
+- creed | L5: def=不能(beliefs/principles guide life) ex=勉强(help neighbors) | L6: 不唯一(与beliefs/values/religion易混) | L7: 注意(常带宗教色彩) | L8: 偏难(抽象；可用 values)
+- culpable | L5: def=不能(deserving blame) ex=勉强(food fight情境) | L6: 不唯一(与guilty/responsible/to blame近) | L7: 无 | L8: 偏难(与 vindicate 同主题可配对教学)
+- cynical | L5: def=不能(selfish reasons抽象) ex=不能(rule only helped teachers) | L6: 不唯一(与skeptical/negative/ distrustful近) | L7: 无 | L8: 偏难(心理态度词)
+- daunting | L5: def=勉强(difficult+scary) ex=勉强(mountain challenge) | L6: 不唯一(与hard/scary/challenging近) | L7: 无 | L8: 合适偏难(可作为 challenging 的升级)
+- decorum | L5: def=不能(polite/proper/formal) ex=不能(assembly) | L6: 不唯一(与manners/etiquette/propriety近) | L7: 无 | L8: 偏难(同义簇：etiquette/propriety/decorum)
+- defunct | L5: def=勉强(no longer working) ex=勉强(factory closed) | L6: 不唯一(与closed/unused/old近) | L7: 无 | L8: 偏难(较书面，但例句直)
+- delineate | L5: def=不能(in careful detail) ex=不能(borders/countries) | L6: 不唯一(与describe/outline/draw近) | L7: 无 | L8: 偏难(学术动词)
+- demeanor | L5: def=勉强(looks and acts) ex=勉强(calm→less nervous) | L6: 不唯一(与behavior/attitude/ manner近) | L7: 无 | L8: 偏难(可先教 behavior)
+- depiction | L5: def=不能(description/painting抽象) ex=不能(ancient Rome) | L6: 不唯一(与picture/description/illustration近) | L7: 注意(古罗马文化距离) | L8: 偏难(书面名词)
+- depletion | L5: def=不能(reduction/resource) ex=不能(fishermen) | L6: 不唯一(与loss/decline/reduction近) | L7: 无 | L8: 偏难(环境/资源词)
+- deportation | L5: def=不能(forcing leave a country) ex=不能(history/war) | L6: 唯一(强概念) | L7: 注意(战争/强制驱逐敏感) | L8: 偏难(社会议题)
+- deprivation | L5: def=不能(state of not having needed) ex=勉强(sleep deprivation) | L6: 不唯一(与lack/shortage/poverty近) | L7: 无 | L8: 偏难(抽象名词)
+- derogatory | L5: def=不能(disrespect/low opinion) ex=勉强(derogatory comments=not acceptable) | L6: 不唯一(与mean/rude/insulting近) | L7: 无 | L8: 偏难(但校园反霸凌主题可用)
+- deterrent | L5: def=不能(stops people from action) ex=不能(burglars) | L6: 不唯一(与prevention/protection/guard近) | L7: 注意(入室盗窃) | L8: 偏难(抽象名词)
+- dexterity | L5: def=不能(skill/ease using hands/body) ex=不能(surgeon/delicate operation) | L6: 不唯一(与skill/coordination/ability近) | L7: 无 | L8: 偏难(医学背景)
+- dichotomy | L5: def=不能(division into two completely different) ex=勉强(what he says vs does) | L6: 不唯一(与difference/contrast/binary split近) | L7: 无 | L8: 偏难(逻辑/学术)
+- dilapidated | L5: def=勉强(old+bad condition) ex=勉强(broken windows/sagging roof) | L6: 不唯一(与run-down/old/broken近) | L7: 无 | L8: 偏难(但画面感强，可用)
+- diligence | L5: def=不能(steady effort over time) ex=勉强(hard work→grades) | L6: 不唯一(与perseverance/hard work/effort近) | L7: 无 | L8: 偏难(与 perseverance 顺序：diligence→perseverance)
+- diminutive | L5: def=勉强(extremely small/tiny) ex=勉强(hummingbird thumb) | L6: 不唯一(与tiny/small/diminishing近) | L7: 无 | L8: 偏难(书面替换 tiny)
+- disclaimer | L5: def=不能(not responsible) ex=不能(results may vary) | L6: 不唯一(与warning/note/legal statement近) | L7: 无 | L8: 偏难(消费品法律语境)
+- discrepancy | L5: def=不能(should be same) ex=勉强(two reports differ) | L6: 不唯一(与difference/mismatch/inconsistency近) | L7: 无 | L8: 偏难(学术名词)
+- dismantle | L5: def=勉强(take apart piece by piece) ex=勉强(old playground build new) | L6: 不唯一(与take apart/destroy/remove近) | L7: 无 | L8: 合适偏难(动词具体，可在 build/repair 主题)
+- disparity | L5: def=不能(inequality) ex=勉强(scores huge difference) | L6: 不唯一(与difference/gap/inequality近) | L7: 无 | L8: 偏难(抽象名词)
+- dissolution | L5: def=不能(breaking up/ending) ex=勉强(band ended) | L6: 不唯一(与breakup/end/closure近) | L7: 无 | L8: 偏难(书面名词)
+- echelon | L5: def=不能(level/rank) ex=不能(firm/secret project) | L6: 不唯一(与rank/top level/leadership近) | L7: 无 | L8: 偏难(商业组织词)
+- edifice | L5: def=不能(impressive building) ex=不能(courthouse/town square) | L6: 不唯一(与building/structure/monument近) | L7: 无 | L8: 偏难(罕见书面词)
+- egalitarian | L5: def=不能(equal rights) ex=不能(equal voice) | L6: 不唯一(与fair/equal/democratic近) | L7: 注意(政治价值观) | L8: 偏难(社会学术语)
+- elicit | L5: def=不能(draw out response) ex=勉强(video→laughter) | L6: 不唯一(与cause/get/make someone do近) | L7: 无 | L8: 偏难(学术动词)
+- emblem | L5: def=勉强(symbol/design stands for) ex=不能(eagle emblem US) | L6: 不唯一(与symbol/logo/sign近) | L7: 注意(美国国徽例子) | L8: 偏难(可改为更中性例子)
+- eradicate | L5: def=不能(completely destroy/get rid of) ex=不能(scientists/region) | L6: 不唯一(与eliminate/remove/destroy近) | L7: 无 | L8: 偏难(书面动词)
+- esteem | L5: def=勉强(respect/admiration) ex=不能(volunteer firefighters) | L6: 不唯一(与respect/admire/revere近) | L7: 无 | L8: 偏难(与 revere 同簇，需排序)
+- ethical | L5: def=勉强(right/wrong) ex=勉强(returning lost money) | L6: 不唯一(与moral/right/good近) | L7: 无 | L8: 偏难(抽象；但例子贴近)
+- etiquette | L5: def=勉强(rules of polite behavior) ex=勉强(table manners例子) | L6: 不唯一(与decorum/propriety/manners近) | L7: 无 | L8: 偏难(同义簇需去重)
+- eulogy | L5: def=不能(died/memorial) ex=不能(touching eulogy) | L6: 唯一(葬礼致辞较专) | L7: 注意(死亡题材家长敏感) | L8: 偏难(不适合MAP197；可放更高level或替换主题)
+- excise | L5: def=不能(editor/paragraphs) ex=不能(boring paragraphs) | L6: 不唯一(与cut/remove/delete近) | L7: 无 | L8: 偏难(书面动词)
+- exclamation | L5: def=勉强(sudden cry/remark) ex=勉强("Wow!") | L6: 唯一(例子直给) | L7: 无 | L8: 合适(但“remark”可换简单词)
+- exemplary | L5: def=不能(perfect example) ex=勉强(award) | L6: 不唯一(与great/model/ideal近) | L7: 无 | L8: 偏难(书面夸赞)
+- exemption | L5: def=不能(free from a rule/duty) ex=不能(allergies/peanut rule) | L6: 不唯一(与exception/permission/waiver近) | L7: 无 | L8: 偏难(学校规章词)
+- exodus | L5: def=不能(mass departure) ex=不能(hurricane warning) | L6: 不唯一(与evacuation/leave/flee近) | L7: 注意(灾害/宗教典故联想) | L8: 偏难(书面名词)
+- expedient | L5: def=不能(even if not fair) ex=不能(shortcut longer) | L6: 不唯一(与convenient/useful/quick fix近) | L7: 无 | L8: 偏难(语义细微)
+- exploitation | L5: def=不能(unfairly benefit) ex=不能(labor laws) | L6: 不唯一(与abuse/mistreatment/unfair use近) | L7: 注意(社会议题/剥削) | L8: 偏难(抽象社会词)
+- exquisite | L5: def=勉强(very lovely+delicate) ex=勉强(painting tiny detail) | L6: 不唯一(与beautiful/pretty/delicate近) | L7: 无 | L8: 偏难(书面夸赞)
+- fallacy | L5: def=不能(mistake in reasoning) ex=不能(goldfish memory) | L6: 不唯一(与myth/false belief/mistake近) | L7: 无 | L8: 偏难(逻辑词)
+- feasibility | L5: def=不能(practical) ex=不能(treehouse in schoolyard) | L6: 不唯一(与possibility/practicality/viability近) | L7: 无 | L8: 偏难(与 viable 同簇)
+- fervent | L5: def=勉强(very strong feelings) ex=勉强(cheer) | L6: 不唯一(与ardent/zealous同簇) | L7: 无 | L8: 偏难(同义簇过密)
+- flagrant | L5: def=不能(shockingly bad/obvious) ex=勉强(copying homework violation) | L6: 不唯一(与obvious/bad/serious近) | L7: 无 | L8: 偏难(书面)
+- fledgling | L5: def=不能(two meanings) ex=不能(company/customers) | L6: 不唯一(与new/beginner/young近) | L7: 无 | L8: 偏难(多义且比喻)
+- forbearance | L5: def=不能(self-control/tolerance) ex=不能(little brother mess) | L6: 不唯一(与patience/restraint/ tolerance近) | L7: 无 | L8: 偏难(抽象品质词)
+- forgo | L5: def=勉强(decide not to have) ex=勉强(skip dessert) | L6: 不唯一(与skip/give up/avoid近) | L7: 无 | L8: 偏难(可先 teach skip)
+- frivolous | L5: def=勉强(silly/not serious) ex=勉强(toys with lunch money) | L6: 不唯一(与silly/unimportant/ childish近) | L7: 无 | L8: 偏难(但情境贴近)
+- gentry | L5: def=不能(high social class/nobility) ex=不能(owned farms) | L6: 不唯一(与aristocracy/nobility/upper class近) | L7: 注意(阶级历史) | L8: 偏难(与 aristocracy 同域，且文化距离)
+- gluttony | L5: def=勉强(eating far more) ex=勉强(entire cake) | L6: 不唯一(与greed/overeating近) | L7: 注意(七宗罪文化/羞辱体重风险) | L8: 偏难(可改更中性：eat too much)
+- harmonious | L5: def=勉强(without conflict) ex=勉强(project fun) | L6: 不唯一(与peaceful/agreeable/amicable近) | L7: 无 | L8: 偏难(同义簇)
+- hypocrisy | L5: def=不能(believe one thing do another) ex=勉强(kind vs mean) | L6: 唯一(定义型例子较清晰) | L7: 无 | L8: 偏难(抽象道德词)
+- immunity | L5: def=不能(protection from disease/duty两义) ex=勉强(vaccine gives) | L6: 不唯一(与protection/resistance近) | L7: 无 | L8: 偏难(多义；建议只保留疾病义)
+- impasse | L5: def=不能(move forward/agree) ex=不能(neither side compromise) | L6: 不唯一(与deadlock/stalemate近) | L7: 无 | L8: 偏难(谈判抽象词)
+- impeachment | L5: def=不能(state official/process) ex=不能(proceedings broadcast) | L6: 唯一(概念专) | L7: 注意(美国政治敏感/家长不想触碰) | L8: 偏难(强文化政治背景)
+- impromptu | L5: def=勉强(without planning) ex=勉强(quiz surprised) | L6: 不唯一(与sudden/unplanned/spontaneous近) | L7: 无 | L8: 偏难但可用(比很多政治词更实用)
+- impunity | L5: def=不能(freedom from punishment) ex=不能(no one reported) | L6: 不唯一(与unpunished/no consequences近) | L7: 无 | L8: 偏难(抽象法律感)
+- inadvertent | L5: def=勉强(not on purpose) ex=勉强(mistake delay) | L6: 不唯一(与accidental/unintentional近) | L7: 无 | L8: 偏难(但实用，可替 accidental)
+- inception | L5: def=勉强(beginning/start) ex=勉强(club grew) | L6: 不唯一(与beginning/start/origin近) | L7: 无 | L8: 偏难(书面词)
+- inclination | L5: def=不能(tendency/desire) ex=不能(science/robotics) | L6: 不唯一(与interest/ preference/propensity近) | L7: 无 | L8: 偏难(与 propensity/penchant 同簇)
+- indictment | L5: def=不能(formal charge/crime) ex=不能(grand jury/accused) | L6: 唯一(法律术语) | L7: 注意(犯罪/司法) | L8: 偏难(法律背景)
+- indignation | L5: def=不能(anger unfair) ex=勉强(unfair rule) | L6: 不唯一(与anger/outrage/upset近) | L7: 无 | L8: 偏难(抽象情绪词)
+- inertia | L5: def=不能(resist change in motion) ex=不能(physics sentence) | L6: 唯一(物理概念专) | L7: 无 | L8: 偏难(理科术语，不适合MAP197)
+- infallible | L5: def=勉强(never making mistakes) ex=勉强(everyone makes mistakes) | L6: 不唯一(与perfect/always right近) | L7: 无 | L8: 偏难(前置：mistake)
+- inference | L5: def=不能(based on proof/reasoning) ex=勉强(wet ground→rained) | L6: 唯一(例子清楚) | L7: 无 | L8: 偏难(但例子非常好，建议保留)
+- infringement | L5: def=不能(rights/copyright) ex=不能(permission) | L6: 不唯一(与breaking a rule/violation近) | L7: 无 | L8: 偏难(法律/版权)
+- inquisitive | L5: def=勉强(asking lots of questions) ex=勉强(sky blue) | L6: 不唯一(与curious/questioning近) | L7: 无 | L8: 合适偏难(可在 curious 后)
+- insatiable | L5: def=不能(always want more) ex=勉强(appetite for books) | L6: 不唯一(与voracious/never enough近) | L7: 无 | L8: 偏难(与 voracious 同簇)
+- insolvency | L5: def=不能(pay debts) ex=不能(pay workers) | L6: 唯一(商业术语专) | L7: 无 | L8: 偏难(经济词)
+- integration | L5: def=不能(unified whole) ex=不能(art and science) | L6: 不唯一(与combination/consolidation/synthesis近) | L7: 无 | L8: 偏难(同义簇)
+- intervention | L5: def=勉强(stepping in to stop/change) ex=勉强(teacher stopped argument) | L6: 不唯一(与help/step in/mediation近) | L7: 无 | L8: 偏难(但例句好)
+- intimidation | L5: def=勉强(frighten to make do) ex=勉强(bullying) | L6: 不唯一(与threatening/bullying near) | L7: 无 | L8: 偏难(校园安全主题可用)
+- itinerary | L5: def=不能(schedule for trip) ex=不能(stops/cities/five days) | L6: 不唯一(与schedule/plan/route近) | L7: 无 | L8: 偏难(旅行词，但对孩子不常用)
+- jubilee | L5: def=不能(anniversary celebration) ex=不能(fiftieth year) | L6: 不唯一(与anniversary/celebration/festival近) | L7: 无 | L8: 偏难(文化词)
+- jurisprudence | L5: def=不能(theory of law) ex=不能(law school) | L6: 唯一(术语专) | L7: 注意(法律/学术) | L8: 偏难(完全不适合MAP197)
+- lenient | L5: def=勉强(not strict) ex=勉强(extra time) | L6: 不唯一(与easy-going/soft/forgiving近) | L7: 无 | L8: 合适偏难(比很多名词更实用)
+- liberation | L5: def=不能(prisoners/captives) ex=不能(cheered across country) | L6: 不唯一(与freedom/release/rescue近) | L7: 注意(战争/囚犯) | L8: 偏难(社会历史词)
+- luminous | L5: def=勉强(bright light) ex=勉强(full moon lit up) | L6: 不唯一(与bright/glowing/shiny近) | L7: 无 | L8: 偏难(书面但画面感强)
+- malevolent | L5: def=勉强(evil/wishing harm) ex=勉强(villain plotted destroy city) | L6: 不唯一(与evil/cruel/ wicked近) | L7: 无 | L8: 偏难(与 antagonist 同域)
+- manifesto | L5: def=不能(beliefs/aims statement) ex=不能(student council promises) | L6: 不唯一(与plan/statement/pledge近) | L7: 无 | L8: 偏难(政治/社团写作词)
+- mediation | L5: def=不能(without going to court) ex=不能(school counselor) | L6: 不唯一(与intervention/arbitration/ negotiation近) | L7: 注意(“court”法律) | L8: 偏难(抽象且同簇)
+- mercenary | L5: def=不能(soldier fights for money) ex=不能(king hired) | L6: 唯一(概念较专) | L7: 注意(战争/雇佣兵) | L8: 偏难(题材敏感)
+- meticulous | L5: def=勉强(attention to detail) ex=勉强(artist tiny stroke) | L6: 不唯一(与careful/fastidious近) | L7: 无 | L8: 偏难(与 fastidious 同簇需排序)
+- mitigate | L5: def=不能(less severe) ex=不能(sunscreen/harmful effects) | L6: 不唯一(与reduce/lessen/prevent近) | L7: 无 | L8: 偏难(学术动词)
+- myriad | L5: def=勉强(very large number) ex=勉强(stars night sky) | L6: 不唯一(与many/countless/tons近) | L7: 无 | L8: 偏难(书面)
+- negligence | L5: def=不能(failure to take proper care) ex=不能(gear maintenance) | L6: 不唯一(与carelessness/ mistake near) | L7: 无 | L8: 偏难(法律/责任感)
+- nemesis | L5: def=不能(rival/enemy) ex=勉强(chess players rivals) | L6: 不唯一(与antagonist/rival/enemy近) | L7: 无 | L8: 偏难(文学/夸张用法)
+- nonchalant | L5: def=勉强(calm/not worried) ex=勉强(studied all weekend) | L6: 不唯一(与calm/casual/ relaxed near) | L7: 无 | L8: 偏难(形容态度细微)
+- notoriety | L5: def=不能(known for something bad) ex=不能(outlaw/robbing banks) | L6: 不唯一(与fame/bad reputation/infamy近) | L7: 注意(犯罪/抢银行) | L8: 偏难(题材+抽象)
+- nurture | L5: def=勉强(care for encourage growth) ex=勉强(love/support) | L6: 不唯一(与raise/care for/support近) | L7: 无 | L8: 合适偏难(比较实用)
+- oblivious | L5: def=勉强(unaware) ex=勉强(book+noise) | L6: 不唯一(与unaware/not notice near) | L7: 无 | L8: 偏难(但例句好)
+- ominous | L5: def=勉强(something bad will happen) ex=勉强(thunder before storm) | L6: 不唯一(与scary/threatening/foreboding近) | L7: 无 | L8: 偏难(文学氛围词)
+- oppression | L5: def=不能(cruel unfair treatment by power) ex=不能(gain freedom) | L6: 不唯一(与tyranny/abuse/subjugation同域) | L7: 注意(政治压迫话题) | L8: 偏难(社会议题)
+- optimism | L5: def=勉强(hopefulness/confidence) ex=勉强(motivated) | L6: 不唯一(与positive attitude/hope near) | L7: 无 | L8: 偏难但可用(可与 pessimism 配对)
+- ornate | L5: def=勉强(many small decorations) ex=勉强(golden swirls) | L6: 不唯一(与decorated/fancy/elaborate near) | L7: 无 | L8: 偏难(形容词较书面)
+- ostracize | L5: def=不能(exclude from group) ex=勉强(classmate different) | L6: 不唯一(与exclude/ignore/bully near) | L7: 无 | L8: 偏难(校园反霸凌可用，但词长)
+- paramount | L5: def=勉强(more important than anything) ex=勉强(safety in lab) | L6: 不唯一(与most important/critical near) | L7: 无 | L8: 偏难(书面，但例句好)
+- penchant | L5: def=不能(strong liking/tendency) ex=不能(collecting odd rocks) | L6: 不唯一(与propensity/inclination/preference near) | L7: 无 | L8: 偏难(同义簇)
+- penitent | L5: def=勉强(feeling sorry) ex=勉强(apologized sincerely) | L6: 不唯一(与sorry/remorseful/contrite近) | L7: 无 | L8: 偏难(与 contrite 重复)
+- permeate | L5: def=不能(spread through every part) ex=勉强(smell cookies entire house) | L6: 唯一(气味“spread everywhere”指向强) | L7: 无 | L8: 偏难(但例句优秀，可保留)
+- perpetuate | L5: def=不能(cause to continue) ex=不能(false rumors misunderstanding) | L6: 不唯一(与continue/keep going/maintain近) | L7: 无 | L8: 偏难(学术动词)
+- perseverance | L5: def=不能(keep trying when difficult) ex=勉强(months practice swimmer) | L6: 不唯一(与diligence/resilience/effort near) | L7: 无 | L8: 偏难(但可作为品格词)
+- pessimism | L5: def=不能(expect worst) ex=勉强(team would lose) | L6: 不唯一(与negative thinking/doubt near) | L7: 无 | L8: 偏难(与 optimism 配对OK)
+- placate | L5: def=勉强(make less angry) ex=勉强(cookie to crying brother) | L6: 不唯一(与calm/comfort/soothe近) | L7: 无 | L8: 偏难(可先 teach calm down)
+- precinct | L5: def=不能(district esp police/voting) ex=不能(polling station) | L6: 不唯一(与district/area/zone near) | L7: 注意(选举/投票美国语境) | L8: 偏难(文化背景)
+- predicament | L5: def=勉强(difficult unpleasant situation) ex=勉强(locked out) | L6: 不唯一(与problem/trouble/situation near) | L7: 无 | L8: 偏难但实用(比很多政治词更可用)
+- preemptive | L5: def=不能(prevent before someone acts) ex=不能(evacuation before flood) | L6: 不唯一(与preventive/early/action before near) | L7: 注意(灾害) | L8: 偏难(概念细)
+- prerogative | L5: def=不能(special right belongs to person/group) ex=勉强(birthday girl choose movie) | L6: 不唯一(与right/choice/privilege near) | L7: 无 | L8: 偏难(抽象法律/权利词)
+- prestige | L5: def=勉强(respect/admiration earned) ex=勉强(science fair brought prestige) | L6: 不唯一(与honor/reputation/esteem near) | L7: 无 | L8: 偏难(与 esteem/revere 同簇)
+- principled | L5: def=不能(moral rules guide) ex=勉强(refused to lie) | L6: 不唯一(与honest/moral/ethical near) | L7: 无 | L8: 偏难(抽象品格词)
+- probation | L5: def=不能(period of testing) ex=不能(strict rules) | L6: 不唯一(与trial period/warning near) | L7: 无 | L8: 偏难(学校/司法术语)
+- proficiency | L5: def=不能(high degree ability) ex=不能(interview panel) | L6: 不唯一(与skill/ability/competence near) | L7: 无 | L8: 偏难(学术名词)
+- propensity | L5: def=不能(natural tendency) ex=勉强(asking questions) | L6: 不唯一(与inclination/penchant near) | L7: 无 | L8: 偏难(同义簇)
+- proponent | L5: def=不能(supports and argues for) ex=勉强(longer recess) | L6: 不唯一(与supporter/advocate near) | L7: 无 | L8: 偏难(学术词)
+- propriety | L5: def=不能(correct proper behavior) ex=不能(formal event) | L6: 不唯一(与decorum/etiquette near) | L7: 无 | L8: 偏难(同义簇重复)
+- prosperity | L5: def=不能(successful/wealth) ex=不能(new buildings/parks) | L6: 不唯一(与wealth/success/richness near) | L7: 无 | L8: 偏难(抽象名词)
+- protagonist | L5: def=不能(main character) ex=勉强(brave girl on quest) | L6: 不唯一(与main character/hero near；若选项含 antagonist 则可) | L7: 无 | L8: 偏难(文学术语；应与 antagonist 成对并简化定义)
+- provocation | L5: def=不能(meant to make angry) ex=勉强(ignored and walked away) | L6: 不唯一(与insult/teasing/trigger near) | L7: 无 | L8: 偏难(抽象名词)
+- purview | L5: def=不能(range of authority) ex=不能(recess monitors) | L6: 不唯一(与responsibility/role/scope near) | L7: 无 | L8: 偏难(罕见书面词)
+- rebuke | L5: def=勉强(criticize sharply) ex=勉强(coach player rules) | L6: 不唯一(与scold/reprimand near) | L7: 无 | L8: 偏难(与 reprimand 同簇)
+- redundant | L5: def=不能(repeats) ex=不能(“free gift”语言解释) | L6: 唯一(例子清楚) | L7: 无 | L8: 偏难(元语言，但例子很棒)
+- relinquish | L5: def=不能(give up control/possession) ex=勉强(give ball to referee) | L6: 不唯一(与give up/hand over/renounce near) | L7: 无 | L8: 偏难(例句好)
+- remnant | L5: def=勉强(small remaining piece) ex=勉强(last piece of wall) | L6: 不唯一(与leftover/remaining piece near) | L7: 无 | L8: 偏难(但可用)
+- remuneration | L5: def=勉强(payment for work) ex=不能(employees demanded) | L6: 不唯一(与pay/salary/wages near) | L7: 无 | L8: 偏难(书面经济词)
+- renounce | L5: def=不能(formally give up/support) ex=不能(claim to throne) | L6: 不唯一(与relinquish/abdicate/c ede近) | L7: 无 | L8: 偏难(皇家背景)
+- repercussion | L5: def=不能(unintended negative result) ex=勉强(skipping practice→benched) | L6: 不唯一(与consequence/result near) | L7: 无 | L8: 偏难(学术名词)
+- reprimand | L5: def=不能(formal disapproval) ex=勉强(talking during test) | L6: 不唯一(与rebuke/scold/warning near) | L7: 无 | L8: 偏难(与 rebuke 去重或排序)
+- resilience | L5: def=不能(recover quickly) ex=不能(setback inspired teammates) | L6: 不唯一(与perseverance/toughness near) | L7: 无 | L8: 偏难(品格词，可保留但需先教 recover)
+- resurgence | L5: def=不能(return after decline) ex=勉强(board game popular again) | L6: 不唯一(与return/comeback/revival near) | L7: 无 | L8: 偏难(书面)
+- revere | L5: def=勉强(deep respect) ex=勉强(community teacher 40 years) | L6: 不唯一(与respect/admire/esteem near) | L7: 无 | L8: 偏难(同义簇)
+- rudimentary | L5: def=不能(basic/first stage) ex=不能(engine) | L6: 不唯一(与basic/simple/elementary near) | L7: 无 | L8: 偏难(书面)
+- sanctuary | L5: def=勉强(safe place/wildlife protected) ex=勉强(bird sanctuary migration) | L6: 不唯一(与safe place/refuge/reserve near) | L7: 无 | L8: 偏难(但可用)
+- secession | L5: def=不能(leaving group/country) ex=不能(Civil War背景) | L6: 唯一(政治术语专) | L7: 注意(美国内战/政治) | L8: 偏难(强历史背景)
+- servitude | L5: def=不能(slave/forced work) ex=不能(prisoners forced) | L6: 不唯一(与slavery/forced labor near) | L7: 注意(奴役/暴力压迫敏感) | L8: 偏难(不适合低龄)
+- sporadic | L5: def=勉强(now and then) ex=勉强(thunderstorms plan) | L6: 不唯一(与occasional/irregular near) | L7: 无 | L8: 偏难(可在 sometimes 后)
+- staunch | L5: def=勉强(very loyal) ex=不能(animal rights) | L6: 不唯一(与loyal/strong supporter/ardent near) | L7: 无 | L8: 偏难(同义簇)
+- strife | L5: def=勉强(conflict) ex=勉强(two families peace dinner) | L6: 不唯一(与conflict/fighting/argument near) | L7: 无 | L8: 偏难(书面)
+- subjugate | L5: def=不能(control by force) ex=不能(empire/nations/military) | L6: 不唯一(与oppress/enslave/ conquer near) | L7: 注意(帝国/军事暴力) | L8: 偏难(社会历史)
+- supremacy | L5: def=不能(most power/authority) ex=勉强(undefeated record) | L6: 不唯一(与dominance/leadership/top position near) | L7: 注意(可能联想到种族主义“supremacy”语境) | L8: 偏难(需谨慎例句与语域)
+- sustenance | L5: def=不能(food/drink needed) ex=勉强(hikers packed enough) | L6: 不唯一(与food/supplies/ nourishment near) | L7: 无 | L8: 偏难(书面)
+- synthesis | L5: def=不能(combining thoughts) ex=不能(three books) | L6: 不唯一(与integration/combination/summary near) | L7: 无 | L8: 偏难(写作学术词)
+- temperament | L5: def=不能(natural character affects behave) ex=勉强(calm dog) | L6: 不唯一(与personality/mood/attitude near) | L7: 无 | L8: 偏难(抽象)
+- totalitarian | L5: def=不能(government controls every part) ex=不能(what read/say) | L6: 不唯一(与authoritarian/tyranny同域) | L7: 注意(政治体制敏感) | L8: 偏难(不适合MAP197)
+- tranquility | L5: def=勉强(calm and quiet) ex=勉强(lake sunrise) | L6: 不唯一(与peace/quiet/calm near) | L7: 无 | L8: 偏难(书面，但画面感强)
+- transparency | L5: def=不能(openness/honesty; see-through两义) ex=不能(citizens see decisions) | L6: 不唯一(与openness/honesty/clarity near) | L7: 注意(政府透明度政治语境) | L8: 偏难(多义+抽象)
+- tribunal | L5: def=不能(special court) ex=不能(unfair treatment workers) | L6: 不唯一(与court/jury/trial near) | L7: 注意(法律/劳工) | L8: 偏难(术语)
+- tumultuous | L5: def=不能(confused/strong feelings) ex=勉强(crowd cheered wildly) | L6: 不唯一(与noisy/chaotic/excited near) | L7: 无 | L8: 偏难(书面)
+- tyranny | L5: def=不能(cruel unfair use of power) ex=不能(rebelled) | L6: 不唯一(与oppression/totalitarianism near) | L7: 注意(政治暴政) | L8: 偏难(社会议题)
+- unilateral | L5: def=不能(one side only) ex=勉强(team members not asked) | L6: 不唯一(与one-sided/solo decision near) | L7: 无 | L8: 偏难(抽象)
+- unprecedented | L5: def=勉强(never happened before) ex=不能(AI advancing speed/experts) | L6: 不唯一(与new/never before/unique near) | L7: 无 | L8: 偏难(例句含AI/experts偏大龄)
+- upheaval | L5: def=不能(sudden change disruption) ex=不能(move to new country) | L6: 不唯一(与chaos/major change/ turmoil near) | L7: 无 | L8: 偏难(社会变动词)
+- usurp | L5: def=不能(take power by force) ex=勉强(villain throne) | L6: 不唯一(与steal/take over/abdicate反向近) | L7: 无 | L8: 偏难(较书面)
+- utopian | L5: def=不能(perfect society) ex=不能(poverty/war) | L6: 不唯一(与perfect/ideal world near) | L7: 无 | L8: 偏难(概念抽象)
+- validate | L5: def=勉强(prove correct/acceptable) ex=不能(validate theory) | L6: 不唯一(与confirm/corroborate/vindicate近) | L7: 无 | L8: 偏难(学术动词)
+- vehement | L5: def=不能(determination/strong feelings) ex=不能(protest impressed principal) | L6: 不唯一(与strong/angry/passionate near) | L7: 无 | L8: 偏难(书面)
+- viable | L5: def=勉强(can work/practical) ex=不能(fossil fuels) | L6: 不唯一(与possible/feasible/practical near) | L7: 无 | L8: 偏难(例句偏科普社会议题)
+- vigilant | L5: def=勉强(careful watch) ex=勉强(lifeguard children pool) | L6: 不唯一(与careful/alert/watchful near) | L7: 无 | L8: 合适偏难(例句好)
+- vindicate | L5: def=不能(accused/not at fault) ex=不能(new proof falsely accused) | L6: 不唯一(与prove innocent/exonerate near) | L7: 注意(犯罪指控语境) | L8: 偏难(与 exonerate 同簇)
+- voracious | L5: def=不能(want great amount/eager) ex=不能(took every class available) | L6: 不唯一(与avid/insatiable near) | L7: 无 | L8: 偏难(同义簇)
+- wane | L5: def=勉强(decrease slowly) ex=勉强(interest began to wane) | L6: 不唯一(与decrease/fade/dwindle near) | L7: 无 | L8: 偏难(但实用)
+- zealous | L5: def=勉强(great energy/enthusiasm) ex=勉强(volunteers arrived early) | L6: 不唯一(与ardent/fervent/avid near) | L7: 无 | L8: 偏难(同义簇)
+- abdicate | L5: def=不能(throne) ex=不能(king/son could rule) | L6: 不唯一(与renounce/relinquish近) | L7: 无 | L8: 偏难(皇家背景)
+- accolade | L5: def=勉强(award or praise) ex=勉强(spelling bee highest) | L6: 不唯一(与award/prize/praise near) | L7: 无 | L8: 偏难(书面)
+- affable | L5: def=勉强(friendly/easy to talk) ex=勉强(shopkeeper warm smile) | L6: 不唯一(与amicable/congenial/cordial同簇) | L7: 无 | L8: 偏难(同义簇去重)
+- ambivalent | L5: def=勉强(mixed feelings) ex=勉强(excited but sad) | L6: 唯一(例句直接解释混合情绪) | L7: 无 | L8: 偏难(但例句极好)
+- amenable | L5: def=勉强(willing to agree) ex=勉强(extend deadline) | L6: 不唯一(与willing/agreeable/ready near) | L7: 无 | L8: 偏难(与 agreeable 可替)
+- amicable | L5: def=勉强(friendly without arguments) ex=勉强(shared fence agreement) | L6: 不唯一(与cordial/affable/congenial同簇) | L7: 无 | L8: 偏难(同义簇去重)
+- anecdotal | L5: def=不能(personal stories vs facts) ex=不能(not real data) | L6: 不唯一(与personal/unproven/story-based near) | L7: 无 | L8: 偏难(学术词)
+- antipathy | L5: def=勉强(deep dislike) ex=勉强(spiders basement) | L6: 不唯一(与hatred/dislike/aversion near) | L7: 无 | L8: 偏难(书面名词)
+- apathetic | L5: def=勉强(no interest) ex=勉强(barely clapped) | L6: 不唯一(与bored/uninterested/ indifferent near) | L7: 无 | L8: 偏难(但实用)
+- attrition | L5: def=不能(reduction in numbers/power) ex=不能(war supplies) | L6: 不唯一(与loss/decline/depletion near) | L7: 注意(战争) | L8: 偏难(社会/军事术语)
+- bravado | L5: def=不能(impress/hide fear) ex=勉强(diving board high) | L6: 不唯一(与audacity/boldness near) | L7: 无 | L8: 偏难(概念细但例句好)
+- cavalier | L5: def=不能(lack of proper concern) ex=勉强(homework→poor grades) | L6: 不唯一(与careless/nonchalant near) | L7: 无 | L8: 偏难(态度词细微)
+- cede | L5: def=勉强(give up land/power) ex=不能(country forced island) | L6: 不唯一(与give up/hand over/relinquish near) | L7: 注意(战争领土) | L8: 偏难(政治背景)
+- charlatan | L5: def=不能(pretends ability) ex=勉强(pretend doctor no training) | L6: 不唯一(与fraud/fake/liar near) | L7: 无 | L8: 偏难(但可用“fake doctor”先教)
+- circumspect | L5: def=不能(consequences before acting) ex=不能(weather forecast three times) | L6: 不唯一(与careful/cautious/prudent near) | L7: 无 | L8: 偏难(高级同义词)
+- commensurate | L5: def=不能(matching in degree) ex=不能(reward vs effort) | L6: 不唯一(与equal/proportional/fair near) | L7: 无 | L8: 偏难(学术)
+- conciliatory | L5: def=不能(make peace) ex=勉强(calm disagreement) | L6: 不唯一(与peaceful/mediating/amicable near) | L7: 无 | L8: 偏难(同义簇)
+- congenial | L5: def=勉强(pleasant/agreeable) ex=勉强(atmosphere camp welcome) | L6: 不唯一(与cordial/affable/amicable同簇) | L7: 无 | L8: 偏难(同义簇去重)
+- connive | L5: def=不能(dishonest plan secretly) ex=勉强(share answers) | L6: 不唯一(与plot/cheat/plan secretly near) | L7: 无 | L8: 偏难(罕见)
+- contrite | L5: def=勉强(very sorry) ex=勉强(apology letter) | L6: 不唯一(与penitent/remorseful/sorry near) | L7: 无 | L8: 偏难(与 penitent 重复)
+- conundrum | L5: def=勉强(confusing problem) ex=勉强(fit everyone in one car) | L6: 不唯一(与puzzle/problem/dilemma near) | L7: 无 | L8: 偏难(但可用，例句贴近)
+- cosmopolitan | L5: def=不能(many different countries) ex=不能(New York/hundreds languages) | L6: 不唯一(与international/diverse/global near) | L7: 无 | L8: 偏难(文化城市词)
+- credulous | L5: def=不能(believe without proof) ex=勉强(believed tall tale) | L6: 不唯一(与gullible/naive/trusting near) | L7: 无 | L8: 偏难(但例句好)
+- debacle | L5: def=勉强(complete failure) ex=勉强(field day rain ruined) | L6: 不唯一(与disaster/fiasco/catastrophe near) | L7: 无 | L8: 偏难(与 fiasco 重复)
+- demagogue | L5: def=不能(appealing fears) ex=不能(angry speeches) | L6: 唯一(政治术语专) | L7: 注意(政治煽动) | L8: 偏难(不适合低龄)
+- denouncement | L5: def=不能(public statement wrong/evil) ex=勉强(denouncement of cheating) | L6: 不唯一(与condemnation/ denunciation near) | L7: 无 | L8: 偏难(与 condemnation 重复)
+- deprecate | L5: def=不能(express disapproval) ex=不能(film storyline) | L6: 不唯一(与criticize/disapprove near) | L7: 无 | L8: 偏难(书面)
+- derelict | L5: def=勉强(poor condition from neglect) ex=勉强(vines no windows) | L6: 不唯一(与dilapidated/abandoned near) | L7: 无 | L8: 偏难(与 dilapidated 重复)
+- digression | L5: def=不能(departure from main subject) ex=不能(returned to lesson) | L6: 唯一(课堂跑题语境较专) | L7: 无 | L8: 偏难(但课堂场景可用)
+- dirge | L5: def=不能(sad song for dead) ex=不能(memorial) | L6: 唯一(概念专) | L7: 注意(死亡/葬礼敏感) | L8: 偏难(不适合MAP197)
+- dissident | L5: def=不能(disagrees with government) ex=不能(risks) | L6: 唯一(政治术语专) | L7: 注意(政治敏感) | L8: 偏难(不适合)
+- docile | L5: def=勉强(quiet easy to control) ex=勉强(pony for young riders) | L6: 不唯一(与gentle/calm/tame near) | L7: 无 | L8: 偏难(但可用，例句直)
+- egregious | L5: def=勉强(very bad/shocking) ex=勉强(referee error) | L6: 不唯一(与terrible/awful/flagrant near) | L7: 无 | L8: 偏难(书面)
+- elusive | L5: def=勉强(difficult to catch/achieve) ex=勉强(butterfly out of reach) | L6: 唯一(追蝴蝶语境清楚) | L7: 无 | L8: 偏难(但例句好)
+- emissary | L5: def=不能(representative on mission) ex=不能(queen message) | L6: 不唯一(与messenger/ envoy/representative near) | L7: 无 | L8: 偏难(皇家背景)
+- exonerate | L5: def=不能(officially not guilty) ex=不能(DNA/wrongly imprisoned) | L6: 唯一(司法术语专) | L7: 注意(司法/监禁) | L8: 偏难(与 vindicate 重复)
+- extrapolate | L5: def=不能(guess future from facts) ex=不能(test scores/final) | L6: 不唯一(与predict/guess/estimate near) | L7: 无 | L8: 偏难(数学/科学写作词)
+- fastidious | L5: def=不能(want all correct) ex=勉强(editor spelling mistakes) | L6: 不唯一(与meticulous/picky near) | L7: 无 | L8: 偏难(与 meticulous 同簇)
+- fiasco | L5: def=勉强(embarrassing failure) ex=勉强(stage collapsed) | L6: 不唯一(与debacle/disaster/catastrophe near) | L7: 无 | L8: 偏难(与 debacle 重复)
+- filibuster | L5: def=不能(delay a vote/government) ex=不能(senator/bill) | L6: 唯一(美国政治术语专) | L7: 注意(美国政治强文化/敏感) | L8: 偏难(完全不适合MAP197)
+- fracas | L5: def=勉强(noisy argument/fight) ex=勉强(cut in line) | L6: 不唯一(与fight/argument/strife near) | L7: 无 | L8: 偏难(较罕见，但例句贴近)
+- acclimate | L5: def=勉强(adjust to new conditions) ex=勉强(hot desert weeks) | L6: 不唯一(与adapt/adjust near) | L7: 无 | L8: 偏难(但实用)
+- agnostic | L5: def=不能(God exists/faith) ex=不能(open mind faith) | L6: 唯一(宗教术语专) | L7: 注意(宗教敏感，家长可能不适) | L8: 偏难(不建议此level)
+- alacrity | L5: def=不能(eager willingness and speed) ex=勉强(extra recess with great alacrity) | L6: 不唯一(与eagerly/gladly/quickly near) | L7: 无 | L8: 偏难(罕见书面词)
+- arbitrate | L5: def=不能(neutral judge/disagreement) ex=勉强(teacher dispute rules) | L6: 不唯一(与mediate/decide/judge near) | L7: 无 | L8: 偏难(与 mediation 同簇)
+- ascendancy | L5: def=不能(growing power/sway) ex=勉强(five straight wins) | L6: 不唯一(与rise/success/supremacy near) | L7: 无 | L8: 偏难(抽象名词)
+- whimsical | L5: def=不能(fanciful) ex=勉强(dancing frogs singing birds) | L6: 唯一(例句给了“odd/fanciful”画面) | L7: 无 | L8: 偏难(但例句很好，适合故事阅读)
+- zenith | L5: def=勉强(highest point) ex=不能(shining directly overhead) | L6: 唯一(noon overhead强线索) | L7: 无 | L8: 偏难(天文词，但概念单一)
+- amicably | L5: def=勉强(friendly manner) ex=勉强(settled disagreement over lunch) | L6: 不唯一(与peacefully/friendly/cordially近) | L7: 无 | L8: 偏难(与 amicable/cordial重复)
+- gratify | L5: def=勉强(give pleasure/satisfaction) ex=不能(teacher see succeed on exam) | L6: 不唯一(与please/satisfy/delight near) | L7: 无 | L8: 偏难(动词较书面)
+- personable | L5: def=勉强(pleasant manner) ex=勉强(host made welcome) | L6: 不唯一(与friendly/affable/charming near) | L7: 无 | L8: 偏难(同义簇)
+- perilous | L5: def=勉强(danger/risk) ex=勉强(no guardrails cliff) | L6: 不唯一(与dangerous/risky/hazardous near) | L7: 无 | L8: 偏难(但画面强)
+- orthodontics | L5: def=不能(branch of dentistry/jaw alignment) ex=不能(studied so help straighter teeth) | L6: 唯一(专业术语) | L7: 无 | L8: 偏难(专业学科词，不适合)
+- palindrome | L5: def=勉强(reads same backward/forward) ex=勉强(racecar例子) | L6: 唯一(例句直给) | L7: 无 | L8: 偏难(元语言/趣味词，可放更高level或做拓展)
