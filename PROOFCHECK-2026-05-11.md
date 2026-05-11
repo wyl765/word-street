@@ -2,7 +2,7 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 149 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 150 MINOR
 
 ## Issues
 
@@ -52,6 +52,10 @@ L2 definition uses complex word(s): electricity
 
 ### [MINOR] words-level2b.js — "homophone" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): differently
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2b.js — "amphibian" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): cold-blooded
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2c.js — "champion" (COMPLEX_DEFINITION)
