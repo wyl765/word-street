@@ -1,262 +1,260 @@
-# VERIFY-GEMINI-words-level2d.js-GATE
-
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
+| word | L9: imageKeyword | L10: Definition Fact | L11: Meaning Commonality | L12: Game Compatibility |
 |---|---|---|---|---|
-| pace | PASS | PASS | PASS | PASS |
-| panel | PASS | PASS | PASS | PASS |
-| participate | PASS | PASS | PASS | PASS |
-| passion | PASS | PASS | PASS | PASS |
-| passive | PASS | PASS | PASS | PASS |
-| patent | PASS | PASS | PASS | PASS |
-| peer | PASS | PASS | PASS | PASS |
-| perceive | PASS | PASS | PASS | PASS |
-| peril | PASS | PASS | PASS | PASS |
-| period | PASS | PASS | PASS | PASS |
-| permanent | PASS | PASS | PASS | PASS |
-| permit | PASS | PASS | PASS | PASS |
-| persist | PASS | PASS | PASS | PASS |
-| perspective | PASS | PASS | PASS | PASS |
-| phenomenon | PASS | PASS | PASS | PASS |
-| philosophy | PASS | PASS | PASS | PASS |
-| physical | WARN: Long keyword | PASS | PASS | PASS |
-| plea | PASS | PASS | PASS | PASS |
-| pledge | WARN: Long keyword | PASS | PASS | PASS |
-| plunge | PASS | PASS | PASS | PASS |
-| policy | PASS | PASS | PASS | PASS |
-| polish | PASS | PASS | PASS | PASS |
-| pose | PASS | PASS | PASS | PASS |
-| potential | PASS | PASS | PASS | PASS |
-| poverty | PASS | PASS | PASS | PASS |
-| practical | PASS | PASS | PASS | PASS |
-| prefer | PASS | PASS | PASS | PASS |
-| prejudice | PASS | PASS | PASS | PASS |
-| preserve | PASS | PASS | PASS | PASS |
-| pressure | PASS | PASS | PASS | PASS |
-| presume | PASS | PASS | PASS | PASS |
-| prevail | PASS | PASS | PASS | PASS |
-| prevent | PASS | PASS | PASS | PASS |
-| primary | WARN: Long keyword | PASS | PASS | PASS |
-| principle | PASS | PASS | PASS | PASS |
-| priority | PASS | PASS | PASS | PASS |
-| privilege | PASS | PASS | PASS | PASS |
-| proceed | PASS | PASS | PASS | PASS |
-| process | PASS | PASS | PASS | PASS |
-| proclaim | PASS | PASS | PASS | PASS |
-| produce | PASS | PASS | PASS | PASS |
-| profit | PASS | PASS | PASS | PASS |
-| progress | PASS | PASS | PASS | PASS |
-| prohibit | WARN: Long keyword | PASS | PASS | PASS |
-| project | PASS | PASS | PASS | PASS |
-| promote | PASS | PASS | PASS | PASS |
-| prompt | PASS | PASS | PASS | PASS |
-| proof | PASS | PASS | PASS | PASS |
-| proportion | WARN: Long keyword | PASS | PASS | PASS |
-| propose | PASS | PASS | PASS | PASS |
-| prospect | PASS | PASS | PASS | PASS |
-| prosper | PASS | PASS | PASS | PASS |
-| provision | PASS | PASS | PASS | PASS |
-| provoke | PASS | PASS | PASS | PASS |
-| publish | PASS | PASS | PASS | PASS |
-| purchase | PASS | PASS | PASS | PASS |
-| pursue | PASS | PASS | PASS | PASS |
-| qualify | PASS | PASS | PASS | PASS |
-| quote | PASS | PASS | PASS | PASS |
-| random | PASS | PASS | PASS | PASS |
-| ratio | PASS | PASS | PASS | PASS |
-| react | PASS | PASS | PASS | PASS |
-| realistic | PASS | PASS | PASS | PASS |
-| realm | PASS | PASS | PASS | PASS |
-| rebel | PASS | PASS | PASS | PASS |
-| recall | PASS | PASS | PASS | PASS |
-| recommend | WARN: Long keyword | PASS | PASS | PASS |
-| recover | WARN: Long keyword | PASS | PASS | PASS |
-| reference | PASS | PASS | PASS | PASS |
-| reflect | PASS | PASS | PASS | PASS |
-| reform | PASS | PASS | PASS | PASS |
-| refuse | PASS | PASS | PASS | PASS |
-| regard | WARN: Long keyword | PASS | PASS | PASS |
-| register | PASS | PASS | PASS | PASS |
-| regret | PASS | PASS | PASS | PASS |
-| regular | PASS | PASS | PASS | PASS |
-| reinforce | PASS | PASS | PASS | PASS |
-| reject | PASS | PASS | PASS | PASS |
-| relate | PASS | PASS | PASS | PASS |
-| release | WARN: Long keyword | PASS | PASS | PASS |
-| relevant | WARN: Long keyword | PASS | PASS | PASS |
-| relief | PASS | PASS | PASS | PASS |
-| rely | PASS | PASS | PASS | PASS |
-| remain | PASS | PASS | PASS | PASS |
-| remarkable | PASS | PASS | PASS | PASS |
-| remedy | PASS | PASS | PASS | PASS |
-| remote | PASS | PASS | PASS | PASS |
-| remove | WARN: Long keyword | PASS | PASS | PASS |
-| renew | PASS | PASS | PASS | PASS |
-| replace | PASS | PASS | PASS | PASS |
-| reputation | PASS | PASS | PASS | PASS |
-| resemble | PASS | PASS | PASS | PASS |
-| reserve | PASS | PASS | PASS | PASS |
-| reside | PASS | PASS | PASS | PASS |
-| resist | PASS | PASS | PASS | PASS |
-| resolve | PASS | PASS | PASS | PASS |
-| restore | PASS | PASS | PASS | PASS |
-| restrict | WARN: Long keyword | PASS | PASS | PASS |
-| retain | WARN: Long keyword | PASS | PASS | PASS |
-| retire | PASS | PASS | PASS | PASS |
-| retreat | PASS | PASS | PASS | PASS |
-| revenue | PASS | PASS | PASS | PASS |
-| reverse | WARN: Long keyword | PASS | PASS | PASS |
-| revise | PASS | PASS | PASS | PASS |
-| revolt | PASS | PASS | PASS | PASS |
-| reward | PASS | PASS | PASS | PASS |
-| rigid | PASS | PASS | PASS | PASS |
-| rival | PASS | PASS | PASS | PASS |
-| routine | PASS | PASS | PASS | PASS |
-| ruin | PASS | PASS | PASS | PASS |
-| sacred | PASS | PASS | PASS | PASS |
-| sacrifice | WARN: Long keyword | PASS | PASS | PASS |
-| satisfactory | PASS | PASS | PASS | PASS |
-| schedule | PASS | PASS | PASS | PASS |
-| scheme | PASS | PASS | PASS | PASS |
-| scope | PASS | PASS | PASS | PASS |
-| secure | PASS | PASS | PASS | PASS |
-| segment | PASS | PASS | PASS | PASS |
-| seize | PASS | PASS | PASS | PASS |
-| sensation | PASS | PASS | PASS | PASS |
-| sequence | PASS | PASS | PASS | PASS |
-| series | PASS | PASS | PASS | PASS |
-| shift | PASS | PASS | PASS | PASS |
-| significant | PASS | PASS | PASS | PASS |
-| similar | PASS | PASS | PASS | PASS |
-| simplify | PASS | PASS | PASS | PASS |
-| simulate | PASS | PASS | PASS | PASS |
-| site | PASS | PASS | PASS | PASS |
-| sketch | PASS | PASS | PASS | PASS |
-| slight | PASS | PASS | PASS | PASS |
-| sole | PASS | PASS | PASS | PASS |
-| specific | PASS | PASS | PASS | PASS |
-| spite | PASS | PASS | PASS | PASS |
-| standard | PASS | PASS | PASS | PASS |
-| status | PASS | PASS | PASS | PASS |
-| steady | PASS | PASS | PASS | PASS |
-| stock | PASS | PASS | PASS | PASS |
-| strategy | PASS | PASS | PASS | PASS |
-| stress | PASS | PASS | PASS | PASS |
-| strict | PASS | PASS | PASS | PASS |
-| submit | WARN: Long keyword | PASS | PASS | PASS |
-| substitute | PASS | PASS | PASS | PASS |
-| summit | PASS | PASS | PASS | PASS |
-| superior | PASS | PASS | PASS | PASS |
-| supplement | PASS | PASS | PASS | PASS |
-| suspect | PASS | PASS | PASS | PASS |
-| suspend | PASS | PASS | PASS | PASS |
-| sustain | PASS | PASS | PASS | PASS |
-| sympathy | PASS | PASS | PASS | PASS |
-| tactic | PASS | PASS | PASS | PASS |
-| target | PASS | PASS | PASS | PASS |
-| task | PASS | PASS | PASS | PASS |
-| technique | PASS | PASS | PASS | PASS |
-| tense | PASS | PASS | PASS | PASS |
-| theory | PASS | PASS | PASS | PASS |
-| thorough | WARN: Long keyword | PASS | PASS | PASS |
-| threaten | PASS | PASS | PASS | PASS |
-| thrive | PASS | PASS | PASS | PASS |
-| tolerate | PASS | PASS | PASS | PASS |
-| tone | PASS | PASS | PASS | PASS |
-| transfer | PASS | PASS | PASS | PASS |
-| transparent | PASS | PASS | PASS | PASS |
-| trend | PASS | PASS | PASS | PASS |
-| trial | PASS | PASS | PASS | PASS |
-| tropical | WARN: Long keyword | PASS | PASS | PASS |
-| trustworthy | PASS | PASS | PASS | PASS |
-| undergo | PASS | PASS | PASS | PASS |
-| unique | PASS | PASS | PASS | PASS |
-| unite | PASS | PASS | PASS | PASS |
-| universe | PASS | PASS | PASS | PASS |
-| urge | WARN: Long keyword | PASS | PASS | PASS |
-| utilize | PASS | PASS | PASS | PASS |
-| valid | PASS | PASS | PASS | PASS |
-| value | PASS | PASS | PASS | PASS |
-| vehicle | WARN: Long keyword | PASS | PASS | PASS |
-| venture | PASS | PASS | PASS | PASS |
-| version | PASS | PASS | PASS | PASS |
-| vibrant | PASS | PASS | PASS | PASS |
-| violate | PASS | PASS | PASS | PASS |
-| virtual | PASS | PASS | PASS | PASS |
-| vision | PASS | PASS | PASS | PASS |
-| vital | PASS | PASS | PASS | PASS |
-| volume | PASS | PASS | PASS | PASS |
-| voluntary | WARN: Long keyword | PASS | PASS | PASS |
-| vulnerable | PASS | PASS | PASS | PASS |
-| warrant | PASS | PASS | PASS | PASS |
-| welfare | PASS | PASS | PASS | PASS |
-| widespread | PASS | PASS | PASS | PASS |
-| withdraw | PASS | PASS | PASS | PASS |
-| worthy | PASS | PASS | PASS | PASS |
-| yield | PASS | PASS | PASS | PASS |
-| zone | PASS | PASS | PASS | PASS |
-| abolish | PASS | PASS | PASS | PASS |
-| accelerate | PASS | PASS | PASS | PASS |
-| ambition | PASS | PASS | PASS | PASS |
-| ample | PASS | PASS | PASS | PASS |
-| anticipate | PASS | PASS | PASS | PASS |
-| apparatus | PASS | PASS | PASS | PASS |
-| appliance | PASS | PASS | PASS | PASS |
-| appoint | PASS | PASS | PASS | PASS |
-| asset | PASS | PASS | PASS | PASS |
-| bankrupt | PASS | PASS | PASS | PASS |
-| behalf | WARN: Long keyword | PASS | PASS | PASS |
-| betray | PASS | PASS | PASS | PASS |
-| biased | PASS | PASS | PASS | PASS |
-| bilateral | WARN: Long keyword | PASS | PASS | PASS |
-| boast | WARN: Long keyword | PASS | PASS | PASS |
-| bonus | PASS | PASS | PASS | PASS |
-| brisk | PASS | PASS | PASS | PASS |
-| bulk | PASS | PASS | PASS | PASS |
-| campaign | PASS | PASS | PASS | PASS |
-| cease | PASS | PASS | PASS | PASS |
-| certify | PASS | PASS | PASS | PASS |
-| chronic | PASS | PASS | PASS | PASS |
-| cite | PASS | PASS | PASS | PASS |
-| commence | PASS | PASS | PASS | PASS |
-| commission | PASS | PASS | PASS | PASS |
-| compact | PASS | PASS | PASS | PASS |
-| compel | PASS | PASS | PASS | PASS |
-| component | PASS | PASS | PASS | PASS |
-| compound | PASS | PASS | PASS | PASS |
-| comprehensive | PASS | PASS | PASS | PASS |
-| compromise | PASS | PASS | PASS | PASS |
-| compulsory | PASS | PASS | PASS | PASS |
-| condemn | PASS | PASS | PASS | PASS |
-| conduct | PASS | PASS | PASS | PASS |
-| confront | PASS | PASS | PASS | PASS |
-| considerable | WARN: Long keyword | PASS | PASS | PASS |
-| consistent | WARN: Long keyword | PASS | PASS | PASS |
-| conspicuous | PASS | PASS | PASS | PASS |
-| constitute | WARN: Long keyword | PASS | PASS | PASS |
-| constrain | PASS | PASS | PASS | PASS |
-| contempt | PASS | PASS | PASS | PASS |
-| contend | PASS | PASS | PASS | PASS |
-| controversial | PASS | PASS | PASS | PASS |
-| convention | PASS | PASS | PASS | PASS |
-| convert | PASS | PASS | PASS | PASS |
-| convey | PASS | PASS | PASS | PASS |
-| coordinate | PASS | PASS | PASS | PASS |
-| cope | WARN: Long keyword | PASS | PASS | PASS |
-| corporate | PASS | PASS | PASS | PASS |
-| corrupt | PASS | PASS | PASS | PASS |
-| counsel | PASS | PASS | PASS | PASS |
-| counterpart | PASS | PASS | PASS | PASS |
-| criterion | PASS | PASS | PASS | PASS |
-| crucial | PASS | PASS | PASS | PASS |
-| cultivate | PASS | PASS | PASS | PASS |
-| cumulative | PASS | PASS | PASS | PASS |
-| curriculum | PASS | PASS | PASS | PASS |
-| custody | WARN: Long keyword | PASS | PASS | PASS |
-| debris | PASS | PASS | PASS | PASS |
-| deficit | PASS | PASS | PASS | PASS |
-| delegate | PASS | PASS | PASS | PASS |
-| depict | PASS | PASS | PASS | PASS |
-| deplete | PASS | PASS | PASS | PASS |
-| designate | PASS | PASS | PASS | PASS |
-| deteriorate | PASS | PASS | PASS | PASS |
-| dictate | PASS | PASS | PASS | PASS |
+| pace | running speed (clear for 10yo) | Accurate | Primary meaning | Compatible |
+| panel | solar panel (clear, easy to identify) | Accurate | Primary meaning | Compatible |
+| participate | joining in (might be abstract, but understandable) | Accurate | Primary meaning | Compatible |
+| passion | passionate artist (a bit abstract, maybe 'someone painting eagerly' is better but acceptable) | Accurate | Primary meaning | Compatible |
+| passive | watching cat (can be misinterpreted, but acceptable with context) | Accurate | Primary meaning | Compatible |
+| patent | invention paper (good) | Accurate | Primary meaning | Compatible |
+| peer | classmates group (good) | Accurate | Primary meaning | Compatible |
+| perceive | noticing clouds (abstract, but okay) | Accurate | Primary meaning | Compatible |
+| peril | danger warning (clear) | Accurate | Primary meaning | Compatible |
+| period | clock period (a bit weird, maybe 'calendar or clock' but acceptable) | Accurate | Primary meaning | Compatible |
+| permanent | permanent mark (good) | Accurate | Primary meaning | Compatible |
+| permit | allowed pass (clear) | Accurate | Primary meaning | Compatible |
+| persist | keep trying (clear) | Accurate | Primary meaning | Compatible |
+| perspective | bird view (good) | Accurate | Primary meaning | Compatible |
+| phenomenon | rainbow sky (good example) | Accurate | Primary meaning | Compatible |
+| philosophy | thinking deeply (abstract, hard to picture, but acceptable for this level) | Accurate | Primary meaning | Compatible |
+| physical | child doing jumping jacks (clear) | Accurate | Primary meaning | Compatible |
+| plea | begging kitten (clear) | Accurate | Primary meaning | Compatible |
+| pledge | hand on heart (good) | Accurate | Primary meaning | Compatible |
+| plunge | diving splash (clear) | Accurate | Primary meaning | Compatible |
+| policy | rules poster (clear) | Accurate | Primary meaning | Compatible |
+| polish | shiny coin (clear) | Accurate | Primary meaning | Compatible |
+| pose | posing photo (clear) | Accurate | Primary meaning | Compatible |
+| potential | growing potential (abstract, maybe 'plant growing' is better) | Accurate | Primary meaning | Compatible |
+| poverty | helping poor (abstract, maybe 'empty wallet' is clearer, but acceptable) | Accurate | Primary meaning | Compatible |
+| practical | useful jacket (okay) | Accurate | Primary meaning | Compatible |
+| prefer | choosing favorite (clear) | Accurate | Primary meaning | Compatible |
+| prejudice | unfair judgment (abstract, hard to visualize) | Accurate | Primary meaning | Compatible |
+| preserve | museum preserving (clear) | Accurate | Primary meaning | Compatible |
+| pressure | pressing hard (clear) | Accurate | Primary meaning | Compatible |
+| presume | guessing believe (abstract) | Accurate | Primary meaning | Compatible |
+| prevail | victory triumph (clear) | Accurate | Primary meaning | Compatible |
+| prevent | helmet safety (good) | Accurate | Primary meaning | Compatible |
+| primary | first place ribbon (clear) | Accurate | Primary meaning | Compatible |
+| principle | rule belief (abstract) | Accurate | Primary meaning | Compatible |
+| priority | first important (abstract) | Accurate | Primary meaning | Compatible |
+| privilege | special access (abstract) | Accurate | Primary meaning | Compatible |
+| proceed | moving forward (clear) | Accurate | Primary meaning | Compatible |
+| process | bread steps (good) | Accurate | Primary meaning | Compatible |
+| proclaim | announcing loudly (clear) | Accurate | Primary meaning | Compatible |
+| produce | farm produce (clear) | Accurate | Primary meaning | Compatible |
+| profit | earning profit (clear) | Accurate | Primary meaning | Compatible |
+| progress | progress bar (clear) | Accurate | Primary meaning | Compatible |
+| prohibit | no skateboard sign (very clear) | Accurate | Primary meaning | Compatible |
+| project | science volcano (good) | Accurate | Primary meaning | Compatible |
+| promote | book poster (clear) | Accurate | Primary meaning | Compatible |
+| prompt | quick reply (clear) | Accurate | Primary meaning | Compatible |
+| proof | photo proof (clear) | Accurate | Primary meaning | Compatible |
+| proportion | fraction parts circle (very clear) | Accurate | Primary meaning | Compatible |
+| propose | suggesting idea (abstract but acceptable) | Accurate | Primary meaning | Compatible |
+| prospect | exciting future (abstract) | Accurate | Primary meaning | Compatible |
+| prosper | thriving shop (clear) | Accurate | Primary meaning | Compatible |
+| provision | packed supplies (clear) | Accurate | Primary meaning | Compatible |
+| provoke | teasing dog (clear) | Accurate | Primary meaning | Compatible |
+| publish | newspaper print (clear) | Accurate | Primary meaning | Compatible |
+| purchase | buying bike (clear) | Accurate | Primary meaning | Compatible |
+| pursue | chasing dream (abstract) | Accurate | Primary meaning | Compatible |
+| qualify | passing tryout (clear) | Accurate | Primary meaning | Compatible |
+| quote | quote marks (very clear) | Accurate | Primary meaning | Compatible |
+| random | picking hat (clear) | Accurate | Primary meaning | Compatible |
+| ratio | comparing numbers (clear) | Accurate | Primary meaning | Compatible |
+| react | surprised reaction (clear) | Accurate | Primary meaning | Compatible |
+| realistic | realistic painting (clear) | Accurate | Primary meaning | Compatible |
+| realm | kingdom realm (clear) | Accurate | Primary meaning | Compatible |
+| rebel | breaking rules (clear) | Accurate | Primary meaning | Compatible |
+| recall | remembering memory (abstract) | Accurate | Primary meaning | Compatible |
+| recommend | thumbs up book (clear) | Accurate | Primary meaning | Compatible |
+| recover | bandage healing arm (clear) | Accurate | Primary meaning | Compatible |
+| reference | reference book (clear) | Accurate | Primary meaning | Compatible |
+| reflect | lake reflection (clear) | Accurate | Primary meaning | Compatible |
+| reform | improving change (abstract) | Accurate | Primary meaning | Compatible |
+| refuse | stubborn mule (good example) | Accurate | Primary meaning | Compatible |
+| regard | respectful admiring look (clear) | Accurate | Primary meaning | Compatible |
+| register | signing up (clear) | Accurate | Primary meaning | Compatible |
+| regret | sorry rain (abstract, maybe 'sad mistake' is better) | Accurate | Primary meaning | Compatible |
+| regular | calendar routine (clear) | Accurate | Primary meaning | Compatible |
+| reinforce | strong walls (clear) | Accurate | Primary meaning | Compatible |
+| reject | saying no (clear) | Accurate | Primary meaning | Compatible |
+| relate | connecting dots (clear) | Accurate | Primary meaning | Compatible |
+| release | bird flying free (clear) | Accurate | Primary meaning | Compatible |
+| relevant | puzzle piece fitting (good metaphor) | Accurate | Primary meaning | Compatible |
+| relief | relieved sigh (clear) | Accurate | Primary meaning | Compatible |
+| rely | depending sun (abstract, but acceptable) | Accurate | Primary meaning | Compatible |
+| remain | staying seated (clear) | Accurate | Primary meaning | Compatible |
+| remarkable | amazing flip (clear) | Accurate | Primary meaning | Compatible |
+| remedy | honey tea (good example) | Accurate | Primary meaning | Compatible |
+| remote | isolated cabin (clear) | Accurate | Primary meaning | Compatible |
+| remove | taking off shoes (clear) | Accurate | Primary meaning | Compatible |
+| renew | fresh start (abstract) | Accurate | Primary meaning | Compatible |
+| replace | new batteries (clear) | Accurate | Primary meaning | Compatible |
+| reputation | good name (abstract) | Accurate | Primary meaning | Compatible |
+| resemble | cloud shape (clear) | Accurate | Primary meaning | Compatible |
+| reserve | reserved sign (clear) | Accurate | Primary meaning | Compatible |
+| reside | forest home (clear) | Accurate | Primary meaning | Compatible |
+| resist | willpower cookie (good example) | Accurate | Primary meaning | Compatible |
+| resolve | solving problem (clear) | Accurate | Primary meaning | Compatible |
+| restore | painting new (clear) | Accurate | Primary meaning | Compatible |
+| restrict | deep end only (clear) | Accurate | Primary meaning | Compatible |
+| retain | sponge holding water (good example) | Accurate | Primary meaning | Compatible |
+| retire | retired gardening (clear) | Accurate | Primary meaning | Compatible |
+| retreat | stepping back (clear) | Accurate | Primary meaning | Compatible |
+| revenue | money earned (clear) | Accurate | Primary meaning | Compatible |
+| reverse | car backing up (clear) | Accurate | Primary meaning | Compatible |
+| revise | editing paper (clear) | Accurate | Primary meaning | Compatible |
+| revolt | protest uprising (clear) | Accurate | Primary meaning | Compatible |
+| reward | reward poster (clear) | Accurate | Primary meaning | Compatible |
+| rigid | stiff stick (clear) | Accurate | Primary meaning | Compatible |
+| rival | competing teams (clear) | Accurate | Primary meaning | Compatible |
+| routine | morning routine (clear) | Accurate | Primary meaning | Compatible |
+| ruin | ruined books (clear) | Accurate | Primary meaning | Compatible |
+| sacred | sacred temple (clear) | Accurate | Primary meaning | Compatible |
+| sacrifice | giving away favorite toy (clear) | Accurate | Primary meaning | Compatible |
+| satisfactory | okay grade (clear) | Accurate | Primary meaning | Compatible |
+| schedule | daily schedule (clear) | Accurate | Primary meaning | Compatible |
+| scheme | sneaky plan (clear) | Accurate | Primary meaning | Compatible |
+| scope | wide view (abstract) | Accurate | Primary meaning | Compatible |
+| secure | locked gate (clear) | Accurate | Primary meaning | Compatible |
+| segment | orange segment (clear) | Accurate | Primary meaning | Compatible |
+| seize | eagle grabbing (clear) | Accurate | Primary meaning | Compatible |
+| sensation | tingling feeling (abstract, but ok) | Accurate | Primary meaning | Compatible |
+| sequence | ordering steps (clear) | Accurate | Primary meaning | Compatible |
+| series | book series (clear) | Accurate | Primary meaning | Compatible |
+| shift | wind changing (clear) | Accurate | Primary meaning | Compatible |
+| significant | important event (abstract) | Accurate | Primary meaning | Compatible |
+| similar | look-alike twins (clear) | Accurate | Primary meaning | Compatible |
+| simplify | easy steps (clear) | Accurate | Primary meaning | Compatible |
+| simulate | flight simulator (clear) | Accurate | Primary meaning | Compatible |
+| site | building site (clear) | Accurate | Primary meaning | Compatible |
+| sketch | pencil sketch (clear) | Accurate | Primary meaning | Compatible |
+| slight | gentle breeze (clear) | Accurate | Primary meaning | Compatible |
+| sole | only one (abstract) | Accurate | Primary meaning | Compatible |
+| specific | exact directions (clear) | Accurate | Primary meaning | Compatible |
+| spite | mean hiding (abstract) | Accurate | Primary meaning | Compatible |
+| standard | quality bar (abstract) | Accurate | Primary meaning | Compatible |
+| status | progress check (abstract) | Accurate | Primary meaning | Compatible |
+| steady | steady hands (clear) | Accurate | Primary meaning | Compatible |
+| stock | supply shelf (clear) | Accurate | Primary meaning | Compatible |
+| strategy | game plan (clear) | Accurate | Primary meaning | Compatible |
+| stress | stressed feeling (clear) | Accurate | Primary meaning | Compatible |
+| strict | firm rules (abstract) | Accurate | Primary meaning | Compatible |
+| submit | handing in paper (clear) | Accurate | Primary meaning | Compatible |
+| substitute | substitute teacher (clear) | Accurate | Primary meaning | Compatible |
+| summit | mountain top (clear) | Accurate | Primary meaning | Compatible |
+| superior | best quality (abstract) | Accurate | Primary meaning | Compatible |
+| supplement | vitamin extra (clear) | Accurate | Primary meaning | Compatible |
+| suspect | suspicious looking (clear) | Accurate | Primary meaning | Compatible |
+| suspend | paused sign (clear) | Accurate | Primary meaning | Compatible |
+| sustain | sustained growth (abstract) | Accurate | Primary meaning | Compatible |
+| sympathy | caring note (clear) | Accurate | Primary meaning | Compatible |
+| tactic | clever move (abstract) | Accurate | Primary meaning | Compatible |
+| target | bullseye hit (clear) | Accurate | Primary meaning | Compatible |
+| task | checklist task (clear) | Accurate | Primary meaning | Compatible |
+| technique | art technique (clear) | Accurate | Primary meaning | Compatible |
+| tense | tense muscles (clear) | Accurate | Primary meaning | Compatible |
+| theory | idea theory (abstract) | Accurate | Primary meaning | Compatible |
+| thorough | checking list clipboard (clear) | Accurate | Primary meaning | Compatible |
+| threaten | dark clouds (clear metaphor) | Accurate | Primary meaning | Compatible |
+| thrive | thriving cactus (clear) | Accurate | Primary meaning | Compatible |
+| tolerate | patience endure (abstract) | Accurate | Primary meaning | Compatible |
+| tone | friendly voice (clear) | Accurate | Primary meaning | Compatible |
+| transfer | moving fish (clear) | Accurate | Primary meaning | Compatible |
+| transparent | clear glass (clear) | Accurate | Primary meaning | Compatible |
+| trend | popular style (abstract) | Accurate | Primary meaning | Compatible |
+| trial | testing airplane (clear) | Accurate | Primary meaning | Compatible |
+| tropical | tropical beach palm tree (clear) | Accurate | Primary meaning | Compatible |
+| trustworthy | loyal friend (clear) | Accurate | Primary meaning | Compatible |
+| undergo | building repairs (clear) | Accurate | Primary meaning | Compatible |
+| unique | fingerprint unique (clear) | Accurate | Primary meaning | Compatible |
+| unite | hands together (clear) | Accurate | Primary meaning | Compatible |
+| universe | starry universe (clear) | Accurate | Primary meaning | Compatible |
+| urge | strong sneeze feeling (clear) | Accurate | Primary meaning | Compatible |
+| utilize | reusing jar (clear) | Accurate | Primary meaning | Compatible |
+| valid | valid ticket (clear) | Accurate | Primary meaning | Compatible |
+| value | diamond gem (clear) | Accurate | Primary meaning | Compatible |
+| vehicle | car driving road (clear) | Accurate | Primary meaning | Compatible |
+| venture | lemonade business (clear) | Accurate | Primary meaning | Compatible |
+| version | different versions (abstract) | Accurate | Primary meaning | Compatible |
+| vibrant | colorful painting (clear) | Accurate | Primary meaning | Compatible |
+| violate | broken rule (abstract) | Accurate | Primary meaning | Compatible |
+| virtual | computer tour (clear) | Accurate | Primary meaning | Compatible |
+| vision | garden plan (clear) | Accurate | Primary meaning | Compatible |
+| vital | breathing oxygen (clear) | Accurate | Primary meaning | Compatible |
+| volume | volume knob (clear) | Accurate | Primary meaning | Compatible |
+| voluntary | choosing to help (clear) | Accurate | Primary meaning | Compatible |
+| vulnerable | baby turtle (good example) | Accurate | Primary meaning | Compatible |
+| warrant | looking closer (abstract) | Accurate | Primary meaning | Compatible |
+| welfare | caring vet (clear) | Accurate | Primary meaning | Compatible |
+| widespread | rain everywhere (clear) | Accurate | Primary meaning | Compatible |
+| withdraw | pulling back (clear) | Accurate | Primary meaning | Compatible |
+| worthy | deserving respect (abstract) | Accurate | Primary meaning | Compatible |
+| yield | apple harvest (clear) | Accurate | Primary meaning | Compatible |
+| zone | quiet zone (clear) | Accurate | Primary meaning | Compatible |
+| abolish | removing rule (abstract) | Accurate | Primary meaning | Compatible |
+| accelerate | speeding up (clear) | Accurate | Primary meaning | Compatible |
+| ambition | reaching stars (abstract) | Accurate | Primary meaning | Compatible |
+| ample | plenty space (clear) | Accurate | Primary meaning | Compatible |
+| anticipate | preparing umbrella (clear) | Accurate | Primary meaning | Compatible |
+| apparatus | lab equipment (clear) | Accurate | Primary meaning | Compatible |
+| appliance | kitchen appliance (clear) | Accurate | Primary meaning | Compatible |
+| appoint | choosing person (abstract) | Accurate | Primary meaning | Compatible |
+| asset | valuable skill (abstract) | Accurate | Primary meaning | Compatible |
+| bankrupt | empty wallet (clear) | Accurate | Primary meaning | Compatible |
+| behalf | accepting award for team (clear) | Accurate | Primary meaning | Compatible |
+| betray | broken trust (abstract) | Accurate | Primary meaning | Compatible |
+| biased | tilted scale (good metaphor) | Accurate | Primary meaning | Compatible |
+| bilateral | two sides agree (abstract) | Accurate | Primary meaning | Compatible |
+| boast | bragging trophy kid (clear) | Accurate | Primary meaning | Compatible |
+| bonus | extra surprise (abstract) | Accurate | Primary meaning | Compatible |
+| brisk | fast walk (clear) | Accurate | Primary meaning | Compatible |
+| bulk | large portion (clear) | Accurate | Primary meaning | Compatible |
+| campaign | campaign poster (clear) | Accurate | Primary meaning | Compatible |
+| cease | rain stopping (clear) | Accurate | Primary meaning | Compatible |
+| certify | official stamp (clear) | Accurate | Primary meaning | Compatible |
+| chronic | lasting cough (clear) | Accurate | Primary meaning | Compatible |
+| cite | listing reasons (abstract) | Accurate | Primary meaning | Compatible |
+| commence | starting bell (clear) | Accurate | Primary meaning | Compatible |
+| commission | mural painting (clear) | Accurate | Primary meaning | Compatible |
+| compact | small car (clear) | Accurate | Primary meaning | Compatible |
+| compel | forced inside (abstract) | Accurate | Primary meaning | Compatible |
+| component | bike parts (clear) | Accurate | Primary meaning | Compatible |
+| compound | mixing elements (clear) | Accurate | Primary meaning | Compatible |
+| comprehensive | complete review (abstract) | Accurate | Primary meaning | Compatible |
+| compromise | meeting middle (abstract) | Accurate | Primary meaning | Compatible |
+| compulsory | must do (abstract) | Accurate | Primary meaning | Compatible |
+| condemn | strong disapproval (abstract) | Accurate | Primary meaning | Compatible |
+| conduct | leading experiment (clear) | Accurate | Primary meaning | Compatible |
+| confront | facing fear (abstract) | Accurate | Primary meaning | Compatible |
+| considerable | lots of snow (clear) | Accurate | Primary meaning | Compatible |
+| consistent | same every day (abstract) | Accurate | Primary meaning | Compatible |
+| conspicuous | standing out (abstract) | Accurate | Primary meaning | Compatible |
+| constitute | parts forming whole (abstract) | Accurate | Primary meaning | Compatible |
+| constrain | limited budget (abstract) | Accurate | Primary meaning | Compatible |
+| contempt | looking down (abstract) | Accurate | Primary meaning | Compatible |
+| contend | fighting wind (clear) | Accurate | Primary meaning | Compatible |
+| controversial | split opinions (abstract) | Accurate | Primary meaning | Compatible |
+| convention | big gathering (clear) | Accurate | Primary meaning | Compatible |
+| convert | changing room (clear) | Accurate | Primary meaning | Compatible |
+| convey | sending message (abstract) | Accurate | Primary meaning | Compatible |
+| coordinate | organizing together (abstract) | Accurate | Primary meaning | Compatible |
+| cope | deep breath calm (clear) | Accurate | Primary meaning | Compatible |
+| corporate | office building (clear) | Accurate | Primary meaning | Compatible |
+| corrupt | dishonest person (abstract) | Accurate | Primary meaning | Compatible |
+| counsel | giving advice (clear) | Accurate | Primary meaning | Compatible |
+| counterpart | matching role (abstract) | Accurate | Primary meaning | Compatible |
+| criterion | judging standard (abstract) | Accurate | Primary meaning | Compatible |
+| crucial | very important (abstract) | Accurate | Primary meaning | Compatible |
+| cultivate | growing tomatoes (clear) | Accurate | Primary meaning | Compatible |
+| cumulative | growing savings (clear) | Accurate | Primary meaning | Compatible |
+| curriculum | school subjects (clear) | Accurate | Primary meaning | Compatible |
+| custody | caring for animals (clear) | Accurate | Primary meaning | Compatible |
+| debris | scattered pieces (clear) | Accurate | Primary meaning | Compatible |
+| deficit | behind score (abstract) | Accurate | Primary meaning | Compatible |
+| delegate | assigning jobs (abstract) | Accurate | Primary meaning | Compatible |
+| depict | painted scene (clear) | Accurate | Primary meaning | Compatible |
+| deplete | empty battery (clear) | Accurate | Primary meaning | Compatible |
+| designate | labeled shelf (clear) | Accurate | Primary meaning | Compatible |
+| deteriorate | crumbling fence (clear) | Accurate | Primary meaning | Compatible |
+| dictate | speaking words (clear) | Accurate | Primary meaning | Compatible |
