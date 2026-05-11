@@ -2,17 +2,9 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 130 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 125 MINOR
 
 ## Issues
-
-### [MINOR] words-level5c.js — "heresy" (ARTICLE_ERROR)
-Possible "a/an" error: "a idea"
-**Fix:** Consider "an idea"
-
-### [MINOR] words-level5d.js — "elicit" (ARTICLE_ERROR)
-Possible "a/an" error: "a an"
-**Fix:** Consider "an an"
 
 ### [MINOR] words-level2b.js — "homophone" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): differently
@@ -50,8 +42,8 @@ Definition contains subjective adjective "attractive": "to add extra details to 
 Definition contains subjective adjective "pretty": "about being pretty to look at, design, and good taste"
 **Fix:** Remove subjective adjectives from definitions
 
-### [MINOR] words-level5b.js — "sublime" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "pretty": "of the highest being pretty to look at or greatness"
+### [MINOR] words-level5c.js — "grotesque" (SUBJECTIVE_DEF)
+Definition contains subjective adjective "ugly": "very strange and ugly in a way that looks distorted"
 **Fix:** Remove subjective adjectives from definitions
 
 ### [MINOR] words-level1.js — "lemon" (CROSS_DEF_CYCLE)
@@ -61,10 +53,6 @@ Cross-definition cycle: "lemon" def contains "sour" and "sour" def contains "lem
 ### [MINOR] words-level2b.js — "despite" (CROSS_DEF_CYCLE)
 Cross-definition cycle: "despite" def contains "even though" and "even though" def contains "despite" (both L2)
 **Fix:** Break the cycle: at least one definition should not reference the other word
-
-### [MINOR] words-level2c.js — "evaluate" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "to look at something carefully to decide how good something is"
-**Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level2c.js — "expose" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "to uncover something hidden or show something to the open air"
@@ -79,15 +67,7 @@ Definition uses "something" 2 times: "the start of something, especially somethi
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level5d.js — "condemnation" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "strong not being happy with something or declaring something is wrong"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level5d.js — "depiction" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "a drawing, painting, or telling what something is like of something"
-**Fix:** Rephrase to be more specific
-
-### [MINOR] words-level5d.js — "fledgling" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "a young bird learning to fly; also something new and not having done something before"
+Definition uses "something" 2 times: "strong disapproval of something or declaring something is wrong"
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level1.js — "less" (ADJ_NOUN_MISMATCH)
