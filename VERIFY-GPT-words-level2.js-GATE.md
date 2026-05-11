@@ -62,7 +62,7 @@
 - state | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / again / state] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；学术词缀)
 - city | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alley / city / granite / little] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
 - border | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[border / fence / grapevine / guard] | L7:OK | L8:合适
-- freedom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alone / election / freedom / vote] | L7:OK | L8:合适
+- freedom | L5-Def:勉强(概念偏抽象，“choose and act”需要中文支架) | L5-Ex:勉强(能理解“可选择”，但不一定能主动产出该词) | L6:勉强(例句偏“选择时间”，和choice/permission易混) | 选项:[alone / election / freedom / vote] | L7:注意(价值观/制度相关词；建议例句更贴近日常“free time/自由活动”并弱化制度指向) | L8:勉强(可作认识词后置；先学free+time/choice更稳)
 - election | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / election / quiet / vote] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
 - subtract | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chestnut / crumble / pasture / subtract] | L7:OK | L8:合适
 - multiply | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“fold”，目标词不唯一) | 选项:[fill / fold / mix / multiply] | L7:OK | L8:合适
@@ -132,7 +132,7 @@
 - bargain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bargain / cost / occasionally / price] | L7:OK | L8:合适
 - base | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[base / beeswax / chisel / famous] | L7:OK | L8:合适
 - basic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[basic / gentleman / kind / rule] | L7:OK | L8:合适
-- battle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / afterward / battle / score] | L7:OK | L8:合适
+- battle | L5-Def:勉强(“big fight”可懂，但语义偏暴力/历史) | L5-Ex:勉强(pretend game里能懂“打仗/打架”，但不一定会用battle) | L6:不唯一(pretend game场景里fight/game/war都可能；线索不足) | 选项:[accept / afterward / battle / score] | L7:注意(战争/打斗意象，家长可能不喜欢低龄频繁出现；建议改成更低冲突语境或替换词) | L8:勉强(可作拓展词；核心词更推荐game/match/fight后置battle)
 - beach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beach / bonfire / bunker / destroy] | L7:OK | L8:合适
 - beam | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / blaze / comet / hallway] | L7:OK | L8:合适
 - because | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / bright / mask / weather] | L7:OK | L8:合适
@@ -391,7 +391,7 @@
 - weather | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / mast / over / weather] | L7:OK | L8:合适
 - wheel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[occasionally / river / safe / wheel] | L7:OK | L8:合适
 - yesterday | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blaze / major / outside / yesterday] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- admiral | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ships)，易靠语感/蒙) | 选项:[admiral / beacon / history / warmth] | L7:OK | L8:合适
+- admiral | L5-Def:不能(军衔/组织概念重；definition含fight/leader/fleet负担大) | L5-Ex:不能(例句缺少可视化动作线索，难从orders/ships推出具体军衔) | L6:不能(“orders to ships”可指captain/commander等；不够唯一) | 选项:[admiral / beacon / history / warmth] | L7:注意(军事/战争语境明显；中国家长可能希望低龄少用军衔词) | L8:不合适(罕见且文化依赖强；建议移到更高level或改成captain/leader)
 - album | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:photos)，易靠语感/蒙) | 选项:[add / album / arrange / mantel] | L7:OK | L8:合适
 - alley | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[action / alley / swift / track] | L7:OK | L8:合适
 - amber | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[amber / change / harvest / maple] | L7:OK | L8:合适
@@ -400,7 +400,7 @@
 - apricot | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / apricot / simple / usual] | L7:OK | L8:合适
 - arch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arch / cobblestone / enter / knock] | L7:OK | L8:合适
 - atlas | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:where)，易靠语感/蒙) | 选项:[atlas / delight / map / solve] | L7:OK | L8:合适
-- avalanche | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:mountain)，易靠语感/蒙) | 选项:[avalanche / crash / quiet / setting] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- avalanche | L5-Def:不能(自然灾害专词；“slide of snow”需要较强雪山经验) | L5-Ex:不能(例句只给noise+mountain，缺少“snow sliding”直观线索) | L6:不能(仅凭mountain/noise可能选crash等；不够唯一) | 选项:[avalanche / crash / quiet / setting] | L7:OK | L8:不合适(罕见灾害词且拼写长；建议移到更高level或换更常见snowstorm/landslide)
 - badge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[badge / because / cloak / mask] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
 - bagpipe | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[bagpipe / chord / fiddle / gentleman] | L7:OK | L8:合适
 - balcony | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[balcony / ceiling / doorway / over] | L7:OK | L8:合适
@@ -428,10 +428,10 @@
 - brass | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / brass / bright / dark] | L7:OK | L8:合适
 - bridle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridle / donkey / finish / succeed] | L7:OK | L8:合适
 - broth | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:made)，易靠语感/蒙) | 选项:[beeswax / broth / heal / honest] | L7:OK | L8:合适
-- bugle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bugle / chord / fiddle / outside] | L7:OK | L8:合适
+- bugle | L5-Def:勉强(需要知道army/金属号角；词形也生) | L5-Ex:不能(只凭soldier+sunrise难锁定是bugle) | L6:不唯一(同类乐器词很多；例句线索不足以唯一确定) | 选项:[bugle / chord / fiddle / outside] | L7:注意(军事关联明显；家长可能希望低龄更中性，建议例句改成band/music class场景) | L8:勉强(可作拓展认识词；更核心的是trumpet/horn/bugle应后置)
 - bulb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulb / dig / nozzle / tend] | L7:OK | L8:合适
 - bulletin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ask / bulletin / front / greet] | L7:OK | L8:合适
-- bunker | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / bunker / corner / under] | L7:OK | L8:合适
+- bunker | L5-Def:勉强(“strong shelter under ground”能懂，但词本身陌生) | L5-Ex:勉强(暴风雨躲避能懂，但不一定能想到bunker) | L6:勉强(例句线索主要是hide+shelter；可被cellar/basement等替代) | 选项:[appear / bunker / corner / under] | L7:注意(常见于战争/袭击语境；此例句已偏灾害中性，但仍建议评估是否换更普适词) | L8:勉强(建议后置或替换为shelter/basement)
 - buoy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bay / buoy / law / maple] | L7:OK | L8:合适
 - canal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[canal / dinghy / pier / sail] | L7:OK | L8:合适
 - canopy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / blaze / canopy / lynx] | L7:OK | L8:合适
@@ -441,7 +441,7 @@
 - cashew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / cashew / handful / hickory] | L7:OK | L8:合适
 - cedar | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tree,smell) | 选项:[cedar / fence / fig / mulberry] | L7:OK | L8:合适
 - cellar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cellar / cobblestone / dagger / modern] | L7:OK | L8:合适
-- chapel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chance / chapel / dark / gradually] | L7:OK | L8:合适
+- chapel | L5-Def:勉强(需要知道prayer/宗教场所概念) | L5-Ex:勉强(“married in a little chapel”能猜是小教堂，但文化依赖) | L6:勉强(例句可被church/wedding hall替代；不够唯一) | 选项:[chance / chapel / dark / gradually] | L7:注意(宗教/祷告场景；部分家长可能介意或需要解释，建议例句改更中性或换词) | L8:勉强(文化依赖较强，建议后置/可选词)
 - chariot | L5-Def:能 | L5-Ex:能 | L6:能(线索词: pulled,horses) | 选项:[bicycle / chariot / corral / palace] | L7:OK | L8:合适
 - chestnut | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / bonfire / chestnut / kindle] | L7:OK | L8:合适
 - chisel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:used)，易靠语感/蒙) | 选项:[base / carve / chisel / famous] | L7:OK | L8:合适
@@ -459,7 +459,7 @@
 - crumb | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[crumb / least / move / under] | L7:OK | L8:合适
 - cuff | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[although / cuff / jacket / marble] | L7:OK | L8:合适
 - cypress | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[cypress / grove / hammock / immediately] | L7:OK | L8:合适
-- dagger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancient / cobblestone / dagger / modern] | L7:OK | L8:合适
+- dagger | L5-Def:勉强(knife类可懂，但dagger更具体且拼写陌生) | L5-Ex:不能(“displayed in the museum”只能推出old weapon/object，不一定是dagger) | L6:不能(例句不足以区分knife/sword/dagger；不唯一) | 选项:[ancient / cobblestone / dagger / modern] | L7:注意(武器/暴力意象；低龄家长可能不喜欢作为核心词，建议改成knife或换更安全物品) | L8:不合适(过于具体且低频；建议移到更高level或删/替换)
 - dandelion | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:seeds)，易靠语感/蒙) | 选项:[dandelion / dig / gale / scatter] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
 - deck | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[deck / dinner / lunch / save] | L7:OK | L8:合适
 - delta | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:river)，易靠语感/蒙) | 选项:[binoculars / delta / depend / earth] | L7:OK | L8:合适
