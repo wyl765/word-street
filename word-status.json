@@ -60,14 +60,15 @@
     },
     "words-level2c.js": {
       "totalWords": 219,
-      "currentGate": 13,
+      "currentGate": 14,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
       "gate6": "pass",
-      "gate13": "pass"
+      "gate13": "pass",
+      "gate14": "pass"
     },
     "words-level2d.js": {
       "totalWords": 258,
