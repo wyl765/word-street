@@ -1,404 +1,404 @@
-# VERIFY-GEMINI-words-level2a.js-GATE
+# Gemini Verification Report: words-level2a.js
 
-| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game |
-|---|---|---|---|---|
-| avoid | PASS | PASS | PASS | PASS |
-| burst | PASS | PASS | PASS | PASS |
-| bury | PASS | PASS | PASS | PASS |
-| cheer | PASS | PASS | PASS | PASS |
-| choose | PASS | PASS | PASS | PASS |
-| claim | PASS | PASS | PASS | PASS |
-| combine | PASS | PASS | PASS | PASS |
-| command | PASS | PASS | PASS | PASS |
-| consider | PASS | PASS | PASS | PASS |
-| continue | PASS | PASS | PASS | PASS |
-| control | PASS | PASS | PASS | PASS |
-| cover | PASS | PASS | PASS | PASS |
-| cross | PASS | PASS | PASS | PASS |
-| crush | PASS | PASS | PASS | PASS |
-| dare | PASS | PASS | PASS | PASS |
-| demand | PASS | PASS | PASS | PASS |
-| develop | PASS | PASS | PASS | PASS |
-| direct | PASS | PASS | PASS | PASS |
-| examine | PASS | PASS | PASS | PASS |
-| exchange | PASS | PASS | PASS | PASS |
-| excite | PASS | PASS | PASS | PASS |
-| expect | PASS | PASS | PASS | PASS |
-| explore | PASS | PASS | PASS | PASS |
-| express | PASS | PASS | PASS | PASS |
-| fail | PASS | PASS | PASS | PASS |
-| flow | PASS | PASS | PASS | PASS |
-| form | PASS | PASS | PASS | PASS |
-| gaze | PASS | PASS | PASS | PASS |
-| guide | PASS | PASS | PASS | PASS |
-| hasten | PASS | PASS | PASS | PASS |
-| hide | PASS | PASS | PASS | PASS |
-| hike | PASS | PASS | PASS | PASS |
-| hug | PASS | PASS | PASS | PASS |
-| hunt | PASS | PASS | PASS | PASS |
-| increase | PASS | PASS | PASS | PASS |
-| insist | PASS | PASS | PASS | PASS |
-| instruct | PASS | PASS | PASS | PASS |
-| admire | PASS | PASS | PASS | PASS |
-| announce | PASS | PASS | PASS | PASS |
-| approve | PASS | PASS | PASS | PASS |
-| argue | PASS | PASS | PASS | PASS |
-| behave | PASS | PASS | PASS | PASS |
-| celebrate | PASS | PASS | PASS | PASS |
-| compare | PASS | PASS | PASS | PASS |
-| convince | PASS | PASS | PASS | PASS |
-| defend | PASS | PASS | PASS | PASS |
-| disappear | PASS | PASS | PASS | PASS |
-| encourage | PASS | PASS | PASS | PASS |
-| improve | PASS | PASS | PASS | PASS |
-| interrupt | PASS | PASS | PASS | PASS |
-| observe | PASS | PASS | PASS | PASS |
-| organize | PASS | PASS | PASS | PASS |
-| bold | PASS | PASS | PASS | PASS |
-| brief | PASS | PASS | PASS | PASS |
-| delicate | PASS | PASS | PASS | PASS |
-| dense | PASS | PASS | PASS | PASS |
-| dim | PASS | PASS | PASS | PASS |
-| distant | PASS | PASS | PASS | PASS |
-| drowsy | PASS | PASS | PASS | PASS |
-| dusty | PASS | PASS | PASS | PASS |
-| elegant | PASS | PASS | PASS | PASS |
-| faint | PASS | PASS | PASS | PASS |
-| familiar | PASS | PASS | PASS | PASS |
-| flat | PASS | PASS | PASS | PASS |
-| flexible | PASS | PASS | PASS | PASS |
-| foggy | PASS | PASS | PASS | PASS |
-| glossy | PASS | PASS | PASS | PASS |
-| grim | PASS | PASS | PASS | PASS |
-| harsh | PASS | PASS | PASS | PASS |
-| heavy | PASS | PASS | PASS | PASS |
-| helpless | PASS | PASS | PASS | PASS |
-| humble | PASS | PASS | PASS | PASS |
-| innocent | PASS | PASS | PASS | PASS |
-| invisible | PASS | PASS | PASS | PASS |
-| keen | PASS | PASS | PASS | PASS |
-| lean | PASS | PASS | PASS | PASS |
-| lively | PASS | PASS | PASS | PASS |
-| lovely | PASS | PASS | PASS | PASS |
-| magnificent | PASS | PASS | PASS | PASS |
-| moist | PASS | PASS | PASS | PASS |
-| neat | PASS | PASS | PASS | PASS |
-| noble | PASS | PASS | PASS | PASS |
-| odd | PASS | PASS | PASS | PASS |
-| pale | PASS | PASS | PASS | PASS |
-| plump | PASS | PASS | PASS | PASS |
-| precious | PASS | PASS | PASS | PASS |
-| pure | PASS | PASS | PASS | PASS |
-| rare | PASS | PASS | PASS | PASS |
-| raw | PASS | PASS | PASS | PASS |
-| round | PASS | PASS | PASS | PASS |
-| rude | PASS | PASS | PASS | PASS |
-| rusty | PASS | PASS | PASS | PASS |
-| scarce | PASS | PASS | PASS | PASS |
-| slender | PASS | PASS | PASS | PASS |
-| soft | PASS | PASS | PASS | PASS |
-| abundant | PASS | PASS | PASS | PASS |
-| absurd | PASS | PASS | PASS | PASS |
-| accurate | PASS | PASS | PASS | PASS |
-| brittle | PASS | PASS | PASS | PASS |
-| colorful | PASS | PASS | PASS | PASS |
-| cruel | PASS | PASS | PASS | PASS |
-| daring | PASS | PASS | PASS | PASS |
-| filthy | PASS | PASS | PASS | PASS |
-| gorgeous | PASS | PASS | PASS | PASS |
-| horrible | PASS | PASS | PASS | PASS |
-| mysterious | PASS | PASS | PASS | PASS |
-| pleasant | PASS | PASS | PASS | PASS |
-| powerful | PASS | PASS | PASS | PASS |
-| ridiculous | PASS | PASS | PASS | PASS |
-| serious | PASS | PASS | PASS | PASS |
-| spotless | PASS | PASS | PASS | PASS |
-| tremendous | PASS | PASS | PASS | PASS |
-| visible | PASS | PASS | PASS | PASS |
-| weak | PASS | PASS | PASS | PASS |
-| wealthy | PASS | PASS | PASS | PASS |
-| wicked | PASS | PASS | PASS | PASS |
-| worthless | PASS | PASS | PASS | PASS |
-| briefly | PASS | PASS | PASS | PASS |
-| constantly | PASS | PASS | PASS | PASS |
-| continuously | PASS | PASS | PASS | PASS |
-| currently | PASS | PASS | PASS | PASS |
-| formerly | PASS | PASS | PASS | PASS |
-| instantly | PASS | PASS | PASS | PASS |
-| mostly | PASS | PASS | PASS | PASS |
-| nearly | PASS | PASS | PASS | PASS |
-| normally | PASS | PASS | PASS | PASS |
-| originally | PASS | PASS | PASS | PASS |
-| partly | PASS | PASS | PASS | PASS |
-| possibly | PASS | PASS | PASS | PASS |
-| presently | PASS | PASS | PASS | PASS |
-| previously | PASS | PASS | PASS | PASS |
-| probably | PASS | PASS | PASS | PASS |
-| promptly | PASS | PASS | PASS | PASS |
-| regularly | PASS | PASS | PASS | PASS |
-| shortly | PASS | PASS | PASS | PASS |
-| simply | PASS | PASS | PASS | PASS |
-| sometimes | PASS | PASS | PASS | PASS |
-| steadily | PASS | PASS | PASS | PASS |
-| still | PASS | PASS | PASS | PASS |
-| typically | PASS | PASS | PASS | PASS |
-| usually | PASS | PASS | PASS | PASS |
-| simultaneously | PASS | PASS | PASS | PASS |
-| initially | PASS | PASS | PASS | PASS |
-| permanently | PASS | PASS | PASS | PASS |
-| temporarily | PASS | PASS | PASS | PASS |
-| lately | PASS | PASS | PASS | PASS |
-| overnight | PASS | PASS | PASS | PASS |
-| yearly | PASS | PASS | PASS | PASS |
-| hourly | PASS | PASS | PASS | PASS |
-| illustration | PASS | PASS | PASS | PASS |
-| diagram | PASS | PASS | PASS | PASS |
-| vocabulary | PASS | PASS | PASS | PASS |
-| definition | PASS | PASS | PASS | PASS |
-| fact | PASS | PASS | PASS | PASS |
-| summary | PASS | PASS | PASS | PASS |
-| topic | PASS | PASS | PASS | PASS |
-| conclusion | PASS | PASS | PASS | PASS |
-| passage | PASS | PASS | PASS | PASS |
-| research | PASS | PASS | PASS | PASS |
-| method | PASS | PASS | PASS | PASS |
-| experiment | PASS | PASS | PASS | PASS |
-| creature | PASS | PASS | PASS | PASS |
-| moisture | PASS | PASS | PASS | PASS |
-| material | PASS | PASS | PASS | PASS |
-| source | PASS | PASS | PASS | PASS |
-| motion | PASS | PASS | PASS | PASS |
-| mixture | PASS | PASS | PASS | PASS |
-| direction | PASS | PASS | PASS | PASS |
-| shelter | PASS | PASS | PASS | PASS |
-| predator | PASS | PASS | PASS | PASS |
-| prey | PASS | PASS | PASS | PASS |
-| oxygen | PASS | PASS | PASS | PASS |
-| galaxy | PASS | PASS | PASS | PASS |
-| fossil | PASS | PASS | PASS | PASS |
-| mineral | PASS | PASS | PASS | PASS |
-| current | PASS | PASS | PASS | PASS |
-| vapor | PASS | PASS | PASS | PASS |
-| erosion | PASS | PASS | PASS | PASS |
-| orbit | PASS | PASS | PASS | PASS |
-| gravity | PASS | PASS | PASS | PASS |
-| species | PASS | PASS | PASS | PASS |
-| community | PASS | PASS | PASS | PASS |
-| population | PASS | PASS | PASS | PASS |
-| culture | PASS | PASS | PASS | PASS |
-| ancestor | PASS | PASS | PASS | PASS |
-| generation | PASS | PASS | PASS | PASS |
-| volunteer | PASS | PASS | PASS | PASS |
-| merchant | PASS | PASS | PASS | PASS |
-| pioneer | PASS | PASS | PASS | PASS |
-| president | PASS | PASS | PASS | PASS |
-| profession | PASS | PASS | PASS | PASS |
-| companion | PASS | PASS | PASS | PASS |
-| guardian | PASS | PASS | PASS | PASS |
-| immigrant | PASS | PASS | PASS | PASS |
-| inspector | PASS | PASS | PASS | PASS |
-| messenger | PASS | PASS | PASS | PASS |
-| relative | PASS | PASS | PASS | PASS |
-| scholar | PASS | PASS | PASS | PASS |
-| witness | PASS | PASS | PASS | PASS |
-| advantage | PASS | PASS | PASS | PASS |
-| courage | PASS | PASS | PASS | PASS |
-| effort | PASS | PASS | PASS | PASS |
-| knowledge | PASS | PASS | PASS | PASS |
-| patience | PASS | PASS | PASS | PASS |
-| responsibility | PASS | PASS | PASS | PASS |
-| triumph | PASS | PASS | PASS | PASS |
-| accident | PASS | PASS | PASS | PASS |
-| attitude | PASS | PASS | PASS | PASS |
-| boundary | PASS | PASS | PASS | PASS |
-| consequence | PASS | PASS | PASS | PASS |
-| conversation | PASS | PASS | PASS | PASS |
-| decision | PASS | PASS | PASS | PASS |
-| evidence | PASS | PASS | PASS | PASS |
-| experience | PASS | PASS | PASS | PASS |
-| imagination | PASS | PASS | PASS | PASS |
-| occasion | PASS | PASS | PASS | PASS |
-| solution | PASS | PASS | PASS | PASS |
-| inspect | PASS | PASS | PASS | PASS |
-| select | PASS | PASS | PASS | PASS |
-| supply | PASS | PASS | PASS | PASS |
-| survive | PASS | PASS | PASS | PASS |
-| transform | PASS | PASS | PASS | PASS |
-| transport | PASS | PASS | PASS | PASS |
-| identify | PASS | PASS | PASS | PASS |
-| inherit | PASS | PASS | PASS | PASS |
-| massive | PASS | PASS | PASS | PASS |
-| miniature | PASS | PASS | PASS | PASS |
-| obvious | PASS | PASS | PASS | PASS |
-| ordinary | PASS | PASS | PASS | PASS |
-| particular | PASS | PASS | PASS | PASS |
-| peculiar | PASS | PASS | PASS | PASS |
-| rapid | PASS | PASS | PASS | PASS |
-| reluctant | PASS | PASS | PASS | PASS |
-| sensitive | PASS | PASS | PASS | PASS |
-| severe | PASS | PASS | PASS | PASS |
-| suitable | PASS | PASS | PASS | PASS |
-| sufficient | PASS | PASS | PASS | PASS |
-| vacant | PASS | PASS | PASS | PASS |
-| vast | PASS | PASS | PASS | PASS |
-| vivid | PASS | PASS | PASS | PASS |
-| possess | PASS | PASS | PASS | PASS |
-| reveal | PASS | PASS | PASS | PASS |
-| assign | PASS | PASS | PASS | PASS |
-| respond | PASS | PASS | PASS | PASS |
-| require | PASS | PASS | PASS | PASS |
-| oppose | PASS | PASS | PASS | PASS |
-| occupy | PASS | PASS | PASS | PASS |
-| perform | PASS | PASS | PASS | PASS |
-| accomplish | PASS | PASS | PASS | PASS |
-| cautious | PASS | PASS | PASS | PASS |
-| capable | PASS | PASS | PASS | PASS |
-| essential | PASS | PASS | PASS | PASS |
-| fortunate | PASS | PASS | PASS | PASS |
-| incredible | PASS | PASS | PASS | PASS |
-| numerous | PASS | PASS | PASS | PASS |
-| positive | PASS | PASS | PASS | PASS |
-| previous | PASS | PASS | PASS | PASS |
-| region | PASS | PASS | PASS | PASS |
-| structure | PASS | PASS | PASS | PASS |
-| symbol | PASS | PASS | PASS | PASS |
-| tradition | PASS | PASS | PASS | PASS |
-| celebration | PASS | PASS | PASS | PASS |
-| challenge | PASS | PASS | PASS | PASS |
-| equipment | PASS | PASS | PASS | PASS |
-| voyage | PASS | PASS | PASS | PASS |
-| territory | PASS | PASS | PASS | PASS |
-| disaster | PASS | PASS | PASS | PASS |
-| merely | PASS | PASS | PASS | PASS |
-| precisely | PASS | PASS | PASS | PASS |
-| entirely | PASS | PASS | PASS | PASS |
-| scarcely | PASS | PASS | PASS | PASS |
-| swiftly | PASS | PASS | PASS | PASS |
-| willingly | PASS | PASS | PASS | PASS |
-| maintain | PASS | PASS | PASS | PASS |
-| establish | PASS | PASS | PASS | PASS |
-| cooperate | PASS | PASS | PASS | PASS |
-| represent | PASS | PASS | PASS | PASS |
-| concentrate | PASS | PASS | PASS | PASS |
-| manufacture | PASS | PASS | PASS | PASS |
-| demonstrate | PASS | PASS | PASS | PASS |
-| investigate | PASS | PASS | PASS | PASS |
-| discovery | PASS | PASS | PASS | PASS |
-| penalty | PASS | PASS | PASS | PASS |
-| quantity | PASS | PASS | PASS | PASS |
-| reasonable | PASS | PASS | PASS | PASS |
-| approach | PASS | PASS | PASS | PASS |
-| collapse | PASS | PASS | PASS | PASS |
-| domestic | PASS | PASS | PASS | PASS |
-| external | PASS | PASS | PASS | PASS |
-| internal | PASS | PASS | PASS | PASS |
-| annual | PASS | PASS | PASS | PASS |
-| permission | PASS | PASS | PASS | PASS |
-| recognize | PASS | PASS | PASS | PASS |
-| influence | PASS | PASS | PASS | PASS |
-| interpret | PASS | PASS | PASS | PASS |
-| adapt | PASS | PASS | PASS | PASS |
-| benefit | PASS | PASS | PASS | PASS |
-| durable | PASS | PASS | PASS | PASS |
-| genuine | PASS | PASS | PASS | PASS |
-| hesitate | PASS | PASS | PASS | PASS |
-| negotiate | PASS | PASS | PASS | PASS |
-| temporary | PASS | PASS | PASS | PASS |
-| reliable | PASS | PASS | PASS | PASS |
-| absorb | PASS | PASS | PASS | PASS |
-| attract | PASS | PASS | PASS | PASS |
-| predict | PASS | PASS | PASS | PASS |
-| request | PASS | PASS | PASS | PASS |
-| reduce | PASS | PASS | PASS | PASS |
-| assemble | PASS | PASS | PASS | PASS |
-| accumulate | PASS | PASS | PASS | PASS |
-| acknowledge | PASS | PASS | PASS | PASS |
-| adequate | PASS | PASS | PASS | PASS |
-| advocate | PASS | PASS | PASS | PASS |
-| allocate | PASS | PASS | PASS | PASS |
-| ambiguous | PASS | PASS | PASS | PASS |
-| amend | PASS | PASS | PASS | PASS |
-| approximate | PASS | PASS | PASS | PASS |
-| aspire | PASS | PASS | PASS | PASS |
-| assert | PASS | PASS | PASS | PASS |
-| authorize | PASS | PASS | PASS | PASS |
-| beneficial | PASS | PASS | PASS | PASS |
-| bias | PASS | PASS | PASS | PASS |
-| capacity | PASS | PASS | PASS | PASS |
-| clarify | PASS | PASS | PASS | PASS |
-| coincide | PASS | PASS | PASS | PASS |
-| commentary | PASS | PASS | PASS | PASS |
-| compensate | PASS | PASS | PASS | PASS |
-| compile | PASS | PASS | PASS | PASS |
-| complement | PASS | PASS | PASS | PASS |
-| comply | PASS | PASS | PASS | PASS |
-| conceive | PASS | PASS | PASS | PASS |
-| confine | PASS | PASS | PASS | PASS |
-| consent | PASS | PASS | PASS | PASS |
-| consequent | PASS | PASS | PASS | PASS |
-| consolidate | PASS | PASS | PASS | PASS |
-| constraint | PASS | PASS | PASS | PASS |
-| consult | PASS | PASS | PASS | PASS |
-| contemplate | PASS | PASS | PASS | PASS |
-| contradict | PASS | PASS | PASS | PASS |
-| controversy | PASS | PASS | PASS | PASS |
-| convene | PASS | PASS | PASS | PASS |
-| correspond | PASS | PASS | PASS | PASS |
-| criteria | PASS | PASS | PASS | PASS |
-| currency | PASS | PASS | PASS | PASS |
-| deficiency | PASS | PASS | PASS | PASS |
-| denote | PASS | PASS | PASS | PASS |
-| derive | PASS | PASS | PASS | PASS |
-| deviate | PASS | PASS | PASS | PASS |
-| devote | PASS | PASS | PASS | PASS |
-| diminish | PASS | PASS | PASS | PASS |
-| dispose | PASS | PASS | PASS | PASS |
-| distort | PASS | PASS | PASS | PASS |
-| diverse | PASS | PASS | PASS | PASS |
-| domain | PASS | PASS | PASS | PASS |
-| dominate | PASS | PASS | PASS | PASS |
-| draft | PASS | PASS | PASS | PASS |
-| duration | PASS | PASS | PASS | PASS |
-| empirical | PASS | PASS | PASS | PASS |
-| enforce | PASS | PASS | PASS | PASS |
-| entity | PASS | PASS | PASS | PASS |
-| equate | PASS | PASS | PASS | PASS |
-| erode | PASS | PASS | PASS | PASS |
-| exceed | PASS | PASS | PASS | PASS |
-| explicit | PASS | PASS | PASS | PASS |
-| extract | PASS | PASS | PASS | PASS |
-| facilitate | PASS | PASS | PASS | PASS |
-| finite | PASS | PASS | PASS | PASS |
-| fluctuate | PASS | PASS | PASS | PASS |
-| format | PASS | PASS | PASS | PASS |
-| formula | PASS | PASS | PASS | PASS |
-| foundation | PASS | PASS | PASS | PASS |
-| framework | PASS | PASS | PASS | PASS |
-| furthermore | PASS | PASS | PASS | PASS |
-| generate | PASS | PASS | PASS | PASS |
-| guideline | PASS | PASS | PASS | PASS |
-| hence | PASS | PASS | PASS | PASS |
-| hierarchy | PASS | PASS | PASS | PASS |
-| hypothesis | PASS | PASS | PASS | PASS |
-| identical | PASS | PASS | PASS | PASS |
-| ideology | PASS | PASS | PASS | PASS |
-| implication | PASS | PASS | PASS | PASS |
-| impose | PASS | PASS | PASS | PASS |
-| incentive | PASS | PASS | PASS | PASS |
-| incorporate | PASS | PASS | PASS | PASS |
-| index | PASS | PASS | PASS | PASS |
-| induce | PASS | PASS | PASS | PASS |
-| inherent | PASS | PASS | PASS | PASS |
-| inhibit | PASS | PASS | PASS | PASS |
-| initiate | PASS | PASS | PASS | PASS |
-| innovation | PASS | PASS | PASS | PASS |
-| insert | PASS | PASS | PASS | PASS |
-| integral | PASS | PASS | PASS | PASS |
-| intervene | PASS | PASS | PASS | PASS |
-| invoke | PASS | PASS | PASS | PASS |
-| isolate | PASS | PASS | PASS | PASS |
-| levy | PASS | PASS | PASS | PASS |
-| liberal | PASS | PASS | PASS | PASS |
-| likewise | PASS | PASS | PASS | PASS |
-| magnitude | PASS | PASS | PASS | PASS |
-| manifest | PASS | PASS | PASS | PASS |
+| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Game Compat | Status |
+|------|------------------|-----------------|---------------|------------------|--------|
+| avoid | Pass | Pass | Pass | Pass | Pass |
+| burst | Pass | Pass | Pass | Pass | Pass |
+| bury | Pass | Pass | Pass | Pass | Pass |
+| cheer | Pass | Pass | Pass | Pass | Pass |
+| choose | Pass | Pass | Pass | Pass | Pass |
+| claim | Pass | Pass | Pass | Pass | Pass |
+| combine | Pass | Pass | Pass | Pass | Pass |
+| command | Pass | Pass | Pass | Pass | Pass |
+| consider | Pass | Pass | Pass | Pass | Pass |
+| continue | Pass | Pass | Pass | Pass | Pass |
+| control | Pass | Pass | Pass | Pass | Pass |
+| cover | Pass | Pass | Pass | Pass | Pass |
+| cross | Pass | Pass | Pass | Pass | Pass |
+| crush | Pass | Pass | Pass | Pass | Pass |
+| dare | Pass | Pass | Pass | Pass | Pass |
+| demand | Pass | Pass | Pass | Pass | Pass |
+| develop | Pass | Pass | Pass | Pass | Pass |
+| direct | Pass | Pass | Pass | Pass | Pass |
+| examine | Pass | Pass | Pass | Pass | Pass |
+| exchange | Pass | Pass | Pass | Pass | Pass |
+| excite | Pass | Pass | Pass | Pass | Pass |
+| expect | Pass | Pass | Pass | Pass | Pass |
+| explore | Pass | Pass | Pass | Pass | Pass |
+| express | Pass | Pass | Pass | Pass | Pass |
+| fail | Pass | Pass | Pass | Pass | Pass |
+| flow | Pass | Pass | Pass | Pass | Pass |
+| form | Pass | Pass | Pass | Pass | Pass |
+| gaze | Pass | Pass | Pass | Pass | Pass |
+| guide | Pass | Pass | Pass | Pass | Pass |
+| hasten | Pass | Pass | Pass | Pass | Pass |
+| hide | Pass | Pass | Pass | Pass | Pass |
+| hike | Pass | Pass | Pass | Pass | Pass |
+| hug | Pass | Pass | Pass | Pass | Pass |
+| hunt | Pass | Pass | Pass | Pass | Pass |
+| increase | Pass | Pass | Pass | Pass | Pass |
+| insist | Pass | Pass | Pass | Pass | Pass |
+| instruct | Pass | Pass | Pass | Pass | Pass |
+| admire | Pass | Pass | Pass | Pass | Pass |
+| announce | Pass | Pass | Pass | Pass | Pass |
+| approve | Pass | Pass | Pass | Pass | Pass |
+| argue | Pass | Pass | Pass | Pass | Pass |
+| behave | Pass | Pass | Pass | Pass | Pass |
+| celebrate | Pass | Pass | Pass | Pass | Pass |
+| compare | Pass | Pass | Pass | Pass | Pass |
+| convince | Pass | Pass | Pass | Pass | Pass |
+| defend | Pass | Pass | Pass | Pass | Pass |
+| disappear | Pass | Pass | Pass | Pass | Pass |
+| encourage | Pass | Pass | Pass | Pass | Pass |
+| improve | Pass | Pass | Pass | Pass | Pass |
+| interrupt | Pass | Pass | Pass | Pass | Pass |
+| observe | Pass | Pass | Pass | Pass | Pass |
+| organize | Pass | Pass | Pass | Pass | Pass |
+| bold | Pass | Pass | Pass | Pass | Pass |
+| brief | Pass | Pass | Pass | Pass | Pass |
+| delicate | Pass | Pass | Pass | Pass | Pass |
+| dense | Pass | Pass | Pass | Pass | Pass |
+| dim | Pass | Pass | Pass | Pass | Pass |
+| distant | Pass | Pass | Pass | Pass | Pass |
+| drowsy | Pass | Pass | Pass | Pass | Pass |
+| dusty | Pass | Pass | Pass | Pass | Pass |
+| elegant | Pass | Pass | Pass | Pass | Pass |
+| faint | Pass | Pass | Pass | Pass | Pass |
+| familiar | Pass | Pass | Pass | Pass | Pass |
+| flat | Pass | Pass | Pass | Pass | Pass |
+| flexible | Pass | Pass | Pass | Pass | Pass |
+| foggy | Pass | Pass | Pass | Pass | Pass |
+| glossy | Pass | Pass | Pass | Pass | Pass |
+| grim | Pass | Pass | Pass | Pass | Pass |
+| harsh | Pass | Pass | Pass | Pass | Pass |
+| heavy | Pass | Pass | Pass | Pass | Pass |
+| helpless | Pass | Pass | Pass | Pass | Pass |
+| humble | Pass | Pass | Pass | Pass | Pass |
+| innocent | Pass | Pass | Pass | Pass | Pass |
+| invisible | Pass | Pass | Pass | Pass | Pass |
+| keen | Pass | Pass | Pass | Pass | Pass |
+| lean | Pass | Pass | Pass | Pass | Pass |
+| lively | Pass | Pass | Pass | Pass | Pass |
+| lovely | Pass | Pass | Pass | Pass | Pass |
+| magnificent | Pass | Pass | Pass | Pass | Pass |
+| moist | Pass | Pass | Pass | Pass | Pass |
+| neat | Pass | Pass | Pass | Pass | Pass |
+| noble | Pass | Pass | Pass | Pass | Pass |
+| odd | Pass | Pass | Pass | Pass | Pass |
+| pale | Pass | Pass | Pass | Pass | Pass |
+| plump | Pass | Pass | Pass | Pass | Pass |
+| precious | Pass | Pass | Pass | Pass | Pass |
+| pure | Pass | Pass | Pass | Pass | Pass |
+| rare | Pass | Pass | Pass | Pass | Pass |
+| raw | Pass | Pass | Pass | Pass | Pass |
+| round | Pass | Pass | Pass | Pass | Pass |
+| rude | Pass | Pass | Pass | Pass | Pass |
+| rusty | Pass | Pass | Pass | Pass | Pass |
+| scarce | Pass | Pass | Pass | Pass | Pass |
+| slender | Pass | Pass | Pass | Pass | Pass |
+| soft | Pass | Pass | Pass | Pass | Pass |
+| abundant | Pass | Pass | Pass | Pass | Pass |
+| absurd | Pass | Pass | Pass | Pass | Pass |
+| accurate | Pass | Pass | Pass | Pass | Pass |
+| brittle | Pass | Pass | Pass | Pass | Pass |
+| colorful | Pass | Pass | Pass | Pass | Pass |
+| cruel | Pass | Pass | Pass | Pass | Pass |
+| daring | Pass | Pass | Pass | Pass | Pass |
+| filthy | Pass | Pass | Pass | Pass | Pass |
+| gorgeous | Pass | Pass | Pass | Pass | Pass |
+| horrible | Pass | Pass | Pass | Pass | Pass |
+| mysterious | Pass | Pass | Pass | Pass | Pass |
+| pleasant | Pass | Pass | Pass | Pass | Pass |
+| powerful | Pass | Pass | Pass | Pass | Pass |
+| ridiculous | Pass | Pass | Pass | Pass | Pass |
+| serious | Pass | Pass | Pass | Pass | Pass |
+| spotless | Pass | Pass | Pass | Pass | Pass |
+| tremendous | Pass | Pass | Pass | Pass | Pass |
+| visible | Pass | Pass | Pass | Pass | Pass |
+| weak | Pass | Pass | Pass | Pass | Pass |
+| wealthy | Pass | Pass | Pass | Pass | Pass |
+| wicked | Pass | Pass | Pass | Pass | Pass |
+| worthless | Pass | Pass | Pass | Pass | Pass |
+| briefly | Pass | Pass | Pass | Pass | Pass |
+| constantly | Pass | Pass | Pass | Pass | Pass |
+| continuously | Pass | Pass | Pass | Pass | Pass |
+| currently | Pass | Pass | Pass | Pass | Pass |
+| formerly | Pass | Pass | Pass | Pass | Pass |
+| instantly | Pass | Pass | Pass | Pass | Pass |
+| mostly | Pass | Pass | Pass | Pass | Pass |
+| nearly | Pass | Pass | Pass | Pass | Pass |
+| normally | Pass | Pass | Pass | Pass | Pass |
+| originally | Pass | Pass | Pass | Pass | Pass |
+| partly | Pass | Pass | Pass | Pass | Pass |
+| possibly | Pass | Pass | Pass | Pass | Pass |
+| presently | Pass | Pass | Pass | Pass | Pass |
+| previously | Pass | Pass | Pass | Pass | Pass |
+| probably | Pass | Pass | Pass | Pass | Pass |
+| promptly | Pass | Pass | Pass | Pass | Pass |
+| regularly | Pass | Pass | Pass | Pass | Pass |
+| shortly | Pass | Pass | Pass | Pass | Pass |
+| simply | Pass | Pass | Pass | Pass | Pass |
+| sometimes | Pass | Pass | Pass | Pass | Pass |
+| steadily | Pass | Pass | Pass | Pass | Pass |
+| still | Pass | Pass | Pass | Pass | Pass |
+| typically | Pass | Pass | Pass | Pass | Pass |
+| usually | Pass | Pass | Pass | Pass | Pass |
+| simultaneously | Pass | Pass | Pass | Pass | Pass |
+| initially | Pass | Pass | Pass | Pass | Pass |
+| permanently | Pass | Pass | Pass | Pass | Pass |
+| temporarily | Pass | Pass | Pass | Pass | Pass |
+| lately | Pass | Pass | Pass | Pass | Pass |
+| overnight | Pass | Pass | Pass | Pass | Pass |
+| yearly | Pass | Pass | Pass | Pass | Pass |
+| hourly | Pass | Pass | Pass | Pass | Pass |
+| illustration | Pass | Pass | Pass | Pass | Pass |
+| diagram | Pass | Pass | Pass | Pass | Pass |
+| vocabulary | Pass | Pass | Pass | Pass | Pass |
+| definition | Pass | Pass | Pass | Pass | Pass |
+| fact | Pass | Pass | Pass | Pass | Pass |
+| summary | Pass | Pass | Pass | Pass | Pass |
+| topic | Pass | Pass | Pass | Pass | Pass |
+| conclusion | Pass | Pass | Pass | Pass | Pass |
+| passage | Pass | Pass | Pass | Pass | Pass |
+| research | Pass | Pass | Pass | Pass | Pass |
+| method | Pass | Pass | Pass | Pass | Pass |
+| experiment | Pass | Pass | Pass | Pass | Pass |
+| creature | Pass | Pass | Pass | Pass | Pass |
+| moisture | Pass | Pass | Pass | Pass | Pass |
+| material | Pass | Pass | Pass | Pass | Pass |
+| source | Pass | Pass | Pass | Pass | Pass |
+| motion | Pass | Pass | Pass | Pass | Pass |
+| mixture | Pass | Pass | Pass | Pass | Pass |
+| direction | Pass | Pass | Pass | Pass | Pass |
+| shelter | Pass | Pass | Pass | Pass | Pass |
+| predator | Pass | Pass | Pass | Pass | Pass |
+| prey | Pass | Pass | Pass | Pass | Pass |
+| oxygen | Pass | Pass | Pass | Pass | Pass |
+| galaxy | Pass | Pass | Pass | Pass | Pass |
+| fossil | Pass | Pass | Pass | Pass | Pass |
+| mineral | Pass | Pass | Pass | Pass | Pass |
+| current | Pass | Pass | Pass | Pass | Pass |
+| vapor | Pass | Pass | Pass | Pass | Pass |
+| erosion | Pass | Pass | Pass | Pass | Pass |
+| orbit | Pass | Pass | Pass | Pass | Pass |
+| gravity | Pass | Pass | Pass | Pass | Pass |
+| species | Pass | Pass | Pass | Pass | Pass |
+| community | Pass | Pass | Pass | Pass | Pass |
+| population | Pass | Pass | Pass | Pass | Pass |
+| culture | Pass | Pass | Pass | Pass | Pass |
+| ancestor | Pass | Pass | Pass | Pass | Pass |
+| generation | Pass | Pass | Pass | Pass | Pass |
+| volunteer | Pass | Pass | Pass | Pass | Pass |
+| merchant | Pass | Pass | Pass | Pass | Pass |
+| pioneer | Pass | Pass | Pass | Pass | Pass |
+| president | Pass | Pass | Pass | Pass | Pass |
+| profession | Pass | Pass | Pass | Pass | Pass |
+| companion | Pass | Pass | Pass | Pass | Pass |
+| guardian | Pass | Pass | Pass | Pass | Pass |
+| immigrant | Pass | Pass | Pass | Pass | Pass |
+| inspector | Pass | Pass | Pass | Pass | Pass |
+| messenger | Pass | Pass | Pass | Pass | Pass |
+| relative | Pass | Pass | Pass | Pass | Pass |
+| scholar | Pass | Pass | Pass | Pass | Pass |
+| witness | Pass | Pass | Pass | Pass | Pass |
+| advantage | Pass | Pass | Pass | Pass | Pass |
+| courage | Pass | Pass | Pass | Pass | Pass |
+| effort | Pass | Pass | Pass | Pass | Pass |
+| knowledge | Pass | Pass | Pass | Pass | Pass |
+| patience | Pass | Pass | Pass | Pass | Pass |
+| responsibility | Pass | Pass | Pass | Pass | Pass |
+| triumph | Pass | Pass | Pass | Pass | Pass |
+| accident | Pass | Pass | Pass | Pass | Pass |
+| attitude | Pass | Pass | Pass | Pass | Pass |
+| boundary | Pass | Pass | Pass | Pass | Pass |
+| consequence | Pass | Pass | Pass | Pass | Pass |
+| conversation | Pass | Pass | Pass | Pass | Pass |
+| decision | Pass | Pass | Pass | Pass | Pass |
+| evidence | Pass | Pass | Pass | Pass | Pass |
+| experience | Pass | Pass | Pass | Pass | Pass |
+| imagination | Pass | Pass | Pass | Pass | Pass |
+| occasion | Pass | Pass | Pass | Pass | Pass |
+| solution | Pass | Pass | Pass | Pass | Pass |
+| inspect | Pass | Pass | Pass | Pass | Pass |
+| select | Pass | Pass | Pass | Pass | Pass |
+| supply | Pass | Pass | Pass | Pass | Pass |
+| survive | Pass | Pass | Pass | Pass | Pass |
+| transform | Pass | Pass | Pass | Pass | Pass |
+| transport | Pass | Pass | Pass | Pass | Pass |
+| identify | Pass | Pass | Pass | Pass | Pass |
+| inherit | Pass | Pass | Pass | Pass | Pass |
+| massive | Pass | Pass | Pass | Pass | Pass |
+| miniature | Pass | Pass | Pass | Pass | Pass |
+| obvious | Pass | Pass | Pass | Pass | Pass |
+| ordinary | Pass | Pass | Pass | Pass | Pass |
+| particular | Pass | Pass | Pass | Pass | Pass |
+| peculiar | Pass | Pass | Pass | Pass | Pass |
+| rapid | Pass | Pass | Pass | Pass | Pass |
+| reluctant | Pass | Pass | Pass | Pass | Pass |
+| sensitive | Pass | Pass | Pass | Pass | Pass |
+| severe | Pass | Pass | Pass | Pass | Pass |
+| suitable | Pass | Pass | Pass | Pass | Pass |
+| sufficient | Pass | Pass | Pass | Pass | Pass |
+| vacant | Pass | Pass | Pass | Pass | Pass |
+| vast | Pass | Pass | Pass | Pass | Pass |
+| vivid | Pass | Pass | Pass | Pass | Pass |
+| possess | Pass | Pass | Pass | Pass | Pass |
+| reveal | Pass | Pass | Pass | Pass | Pass |
+| assign | Pass | Pass | Pass | Pass | Pass |
+| respond | Pass | Pass | Pass | Pass | Pass |
+| require | Pass | Pass | Pass | Pass | Pass |
+| oppose | Pass | Pass | Pass | Pass | Pass |
+| occupy | Pass | Pass | Pass | Pass | Pass |
+| perform | Pass | Pass | Pass | Pass | Pass |
+| accomplish | Pass | Pass | Pass | Pass | Pass |
+| cautious | Pass | Pass | Pass | Pass | Pass |
+| capable | Pass | Pass | Pass | Pass | Pass |
+| essential | Pass | Pass | Pass | Pass | Pass |
+| fortunate | Pass | Pass | Pass | Pass | Pass |
+| incredible | Pass | Pass | Pass | Pass | Pass |
+| numerous | Pass | Pass | Pass | Pass | Pass |
+| positive | Pass | Pass | Pass | Pass | Pass |
+| previous | Pass | Pass | Pass | Pass | Pass |
+| region | Pass | Pass | Pass | Pass | Pass |
+| structure | Pass | Pass | Pass | Pass | Pass |
+| symbol | Pass | Pass | Pass | Pass | Pass |
+| tradition | Pass | Pass | Pass | Pass | Pass |
+| celebration | Pass | Pass | Pass | Pass | Pass |
+| challenge | Pass | Pass | Pass | Pass | Pass |
+| equipment | Pass | Pass | Pass | Pass | Pass |
+| voyage | Pass | Pass | Pass | Pass | Pass |
+| territory | Pass | Pass | Pass | Pass | Pass |
+| disaster | Pass | Pass | Pass | Pass | Pass |
+| merely | Pass | Pass | Pass | Pass | Pass |
+| precisely | Pass | Pass | Pass | Pass | Pass |
+| entirely | Pass | Pass | Pass | Pass | Pass |
+| scarcely | Pass | Pass | Pass | Pass | Pass |
+| swiftly | Pass | Pass | Pass | Pass | Pass |
+| willingly | Pass | Pass | Pass | Pass | Pass |
+| maintain | Pass | Pass | Pass | Pass | Pass |
+| establish | Pass | Pass | Pass | Pass | Pass |
+| cooperate | Pass | Pass | Pass | Pass | Pass |
+| represent | Pass | Pass | Pass | Pass | Pass |
+| concentrate | Pass | Pass | Pass | Pass | Pass |
+| manufacture | Pass | Pass | Pass | Pass | Pass |
+| demonstrate | Pass | Pass | Pass | Pass | Pass |
+| investigate | Pass | Pass | Pass | Pass | Pass |
+| discovery | Pass | Pass | Pass | Pass | Pass |
+| penalty | Pass | Pass | Pass | Pass | Pass |
+| quantity | Pass | Pass | Pass | Pass | Pass |
+| reasonable | Pass | Pass | Pass | Pass | Pass |
+| approach | Pass | Pass | Pass | Pass | Pass |
+| collapse | Pass | Pass | Pass | Pass | Pass |
+| domestic | Pass | Pass | Pass | Pass | Pass |
+| external | Pass | Pass | Pass | Pass | Pass |
+| internal | Pass | Pass | Pass | Pass | Pass |
+| annual | Pass | Pass | Pass | Pass | Pass |
+| permission | Pass | Pass | Pass | Pass | Pass |
+| recognize | Pass | Pass | Pass | Pass | Pass |
+| influence | Pass | Pass | Pass | Pass | Pass |
+| interpret | Pass | Pass | Pass | Pass | Pass |
+| adapt | Pass | Pass | Pass | Pass | Pass |
+| benefit | Pass | Pass | Pass | Pass | Pass |
+| durable | Pass | Pass | Pass | Pass | Pass |
+| genuine | Pass | Pass | Pass | Pass | Pass |
+| hesitate | Pass | Pass | Pass | Pass | Pass |
+| negotiate | Pass | Pass | Pass | Pass | Pass |
+| temporary | Pass | Pass | Pass | Pass | Pass |
+| reliable | Pass | Pass | Pass | Pass | Pass |
+| absorb | Pass | Pass | Pass | Pass | Pass |
+| attract | Pass | Pass | Pass | Pass | Pass |
+| predict | Pass | Pass | Pass | Pass | Pass |
+| request | Pass | Pass | Pass | Pass | Pass |
+| reduce | Pass | Pass | Pass | Pass | Pass |
+| assemble | Pass | Pass | Pass | Pass | Pass |
+| accumulate | Pass | Pass | Pass | Pass | Pass |
+| acknowledge | Pass | Pass | Pass | Pass | Pass |
+| adequate | Pass | Pass | Pass | Pass | Pass |
+| advocate | Pass | Pass | Pass | Pass | Pass |
+| allocate | Pass | Pass | Pass | Pass | Pass |
+| ambiguous | Pass | Pass | Pass | Pass | Pass |
+| amend | Pass | Pass | Pass | Pass | Pass |
+| approximate | Pass | Pass | Pass | Pass | Pass |
+| aspire | Pass | Pass | Pass | Pass | Pass |
+| assert | Pass | Pass | Pass | Pass | Pass |
+| authorize | Pass | Pass | Pass | Pass | Pass |
+| beneficial | Pass | Pass | Pass | Pass | Pass |
+| bias | Pass | Pass | Pass | Pass | Pass |
+| capacity | Pass | Pass | Pass | Pass | Pass |
+| clarify | Pass | Pass | Pass | Pass | Pass |
+| coincide | Pass | Pass | Pass | Pass | Pass |
+| commentary | Pass | Pass | Pass | Pass | Pass |
+| compensate | Pass | Pass | Pass | Pass | Pass |
+| compile | Pass | Pass | Pass | Pass | Pass |
+| complement | Pass | Pass | Pass | Pass | Pass |
+| comply | Pass | Pass | Pass | Pass | Pass |
+| conceive | Pass | Pass | Pass | Pass | Pass |
+| confine | Pass | Pass | Pass | Pass | Pass |
+| consent | Pass | Pass | Pass | Pass | Pass |
+| consequent | Pass | Pass | Pass | Pass | Pass |
+| consolidate | Pass | Pass | Pass | Pass | Pass |
+| constraint | Pass | Pass | Pass | Pass | Pass |
+| consult | Pass | Pass | Pass | Pass | Pass |
+| contemplate | Pass | Pass | Pass | Pass | Pass |
+| contradict | Pass | Pass | Pass | Pass | Pass |
+| controversy | Pass | Pass | Pass | Pass | Pass |
+| convene | Pass | Pass | Pass | Pass | Pass |
+| correspond | Pass | Pass | Pass | Pass | Pass |
+| criteria | Pass | Pass | Pass | Pass | Pass |
+| currency | Pass | Pass | Pass | Pass | Pass |
+| deficiency | Pass | Pass | Pass | Pass | Pass |
+| denote | Pass | Pass | Pass | Pass | Pass |
+| derive | Pass | Pass | Pass | Pass | Pass |
+| deviate | Pass | Pass | Pass | Pass | Pass |
+| devote | Pass | Pass | Pass | Pass | Pass |
+| diminish | Pass | Pass | Pass | Pass | Pass |
+| dispose | Pass | Pass | Pass | Pass | Pass |
+| distort | Pass | Pass | Pass | Pass | Pass |
+| diverse | Pass | Pass | Pass | Pass | Pass |
+| domain | Pass | Pass | Pass | Pass | Pass |
+| dominate | Pass | Pass | Pass | Pass | Pass |
+| draft | Pass | Pass | Pass | Pass | Pass |
+| duration | Pass | Pass | Pass | Pass | Pass |
+| empirical | Pass | Pass | Pass | Pass | Pass |
+| enforce | Pass | Pass | Pass | Pass | Pass |
+| entity | Pass | Pass | Pass | Pass | Pass |
+| equate | Pass | Pass | Pass | Pass | Pass |
+| erode | Pass | Pass | Pass | Pass | Pass |
+| exceed | Pass | Pass | Pass | Pass | Pass |
+| explicit | Pass | Pass | Pass | Pass | Pass |
+| extract | Pass | Pass | Pass | Pass | Pass |
+| facilitate | Pass | Pass | Pass | Pass | Pass |
+| finite | Pass | Pass | Pass | Pass | Pass |
+| fluctuate | Pass | Pass | Pass | Pass | Pass |
+| format | Pass | Pass | Pass | Pass | Pass |
+| formula | Pass | Pass | Pass | Pass | Pass |
+| foundation | Pass | Pass | Pass | Pass | Pass |
+| framework | Pass | Pass | Pass | Pass | Pass |
+| furthermore | Pass | Pass | Pass | Pass | Pass |
+| generate | Pass | Pass | Pass | Pass | Pass |
+| guideline | Pass | Pass | Pass | Pass | Pass |
+| hence | Pass | Pass | Pass | Pass | Pass |
+| hierarchy | Pass | Pass | Pass | Pass | Pass |
+| hypothesis | Pass | Pass | Pass | Pass | Pass |
+| identical | Pass | Pass | Pass | Pass | Pass |
+| ideology | Pass | Pass | Pass | Pass | Pass |
+| implication | Pass | Pass | Pass | Pass | Pass |
+| impose | Pass | Pass | Pass | Pass | Pass |
+| incentive | Pass | Pass | Pass | Pass | Pass |
+| incorporate | Pass | Pass | Pass | Pass | Pass |
+| index | Pass | Pass | Pass | Pass | Pass |
+| induce | Pass | Pass | Pass | Pass | Pass |
+| inherent | Pass | Pass | Pass | Pass | Pass |
+| inhibit | Pass | Pass | Pass | Pass | Pass |
+| initiate | Pass | Pass | Pass | Pass | Pass |
+| innovation | Pass | Pass | Pass | Pass | Pass |
+| insert | Pass | Pass | Pass | Pass | Pass |
+| integral | Pass | Pass | Pass | Pass | Pass |
+| intervene | Pass | Pass | Pass | Pass | Pass |
+| invoke | Pass | Pass | Pass | Pass | Pass |
+| isolate | Pass | Pass | Pass | Pass | Pass |
+| levy | Pass | Pass | Pass | Pass | Pass |
+| liberal | Pass | Pass | Pass | Pass | Pass |
+| likewise | Pass | Pass | Pass | Pass | Pass |
+| magnitude | Pass | Pass | Pass | Pass | Pass |
+| manifest | Pass | Pass | Pass | Pass | Pass |
