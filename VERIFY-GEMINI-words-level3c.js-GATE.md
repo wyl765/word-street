@@ -1,199 +1,197 @@
-# VERIFY-GEMINI-words-level3c.js-GATE
-
-| Word | L9 Image | L10 Fact | L11 Polysemy | L12 Game |
+| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
 |---|---|---|---|---|
-| advance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| affordable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| analyze | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| apply | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| burden | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cancel | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| device | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| elect | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| emphasize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exclaim | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| frustrate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| glimpse | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| govern | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| idle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| invest | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| manner | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| negative | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| outcome | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| regulate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| rhythm | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| risk | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tension | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| typical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| basement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| blade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| canyon | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| chimney | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| chunk | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| creek | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| crisp | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| flask | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| foil | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| gasp | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| glare | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| glow | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hatch | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hose | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inn | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jolt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ledge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lumber | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mend | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| quarry | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ridge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| slope | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| spout | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| stump | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| torch | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| wade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| asteroid | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| axis | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| carnivore | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| census | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| chlorophyll | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| crater | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| crustacean | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| digestive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| elevation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fertile | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| glacier | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| herbivore | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| humidity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| legislature | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| molecule | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| arid | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| archaeology | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mesa | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tundra | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| stalagmite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tributary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| archipelago | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| stratosphere | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| preamble | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| filament | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| nocturnal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| translucent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| omnivore | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| plateau | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| geothermal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| specimen | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| meridian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| respiration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| paleontology | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| aquifer | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deciduous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| pharaoh | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sedimentary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| isthmus | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dividend | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| divisor | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mandate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| authentic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| scarcity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ancestry | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| interval | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| eligible | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| manipulate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| salvage | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| acquire | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| terminate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| verdict | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hangar | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hardship | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| harpoon | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| harrow | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| haste | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| havoc | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| headway | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| heed | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| helm | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| herald | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hermit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hew | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hinge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hoard | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hobble | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hoist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| homage | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| homestead | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hone | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hornet | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hosiery | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hospitable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hub | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| huddle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hull | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| humus | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hurdle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hurl | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hurricane | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hydrate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hymn | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hyperbole | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| icon | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| imbue | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| impervious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| impound | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| indent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inferno | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| infuse | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inlet | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inquest | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| instill | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| insular | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| intrigue | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inundate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| irate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| irk | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ivory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jaunt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jest | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jettison | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jinx | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jostle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jubilant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| juncture | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| juniper | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| kernel | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| kilt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| knack | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| knead | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| knell | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| knoll | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lacquer | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lair | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lanky | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lattice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lavish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ledger | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| leech | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| leer | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| legible | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| legion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lever | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lilac | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| limber | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| limelight | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| limpid | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lineage | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| linen | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lintel | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| listless | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| litany | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lithe | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| livelihood | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| loam | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lobe | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| locale | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| locomotion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| loft | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lore | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lucid | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lull | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lunge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| advance | PASS | PASS | PASS | PASS |
+| affordable | PASS | PASS | PASS | PASS |
+| analyze | PASS | PASS | PASS | PASS |
+| apply | PASS | PASS | PASS | PASS |
+| burden | PASS | PASS | PASS | PASS |
+| cancel | PASS | PASS | PASS | PASS |
+| device | PASS | PASS | PASS | PASS |
+| elect | PASS | PASS | PASS | PASS |
+| emphasize | PASS | PASS | PASS | PASS |
+| exclaim | PASS | PASS | PASS | PASS |
+| frustrate | PASS | PASS | PASS | PASS |
+| glimpse | PASS | PASS | PASS | PASS |
+| govern | PASS | PASS | PASS | PASS |
+| idle | PASS | PASS | PASS | PASS |
+| invest | PASS | PASS | PASS | PASS |
+| manner | PASS | PASS | PASS | PASS |
+| negative | PASS | PASS | PASS | PASS |
+| outcome | PASS | PASS | PASS | PASS |
+| regulate | PASS | PASS | PASS | PASS |
+| rhythm | PASS | PASS | PASS | PASS |
+| risk | PASS | PASS | PASS | PASS |
+| tension | PASS | PASS | PASS | PASS |
+| typical | PASS | PASS | PASS | PASS |
+| basement | PASS | PASS | PASS | PASS |
+| blade | PASS | PASS | PASS | PASS |
+| canyon | PASS | PASS | PASS | PASS |
+| chimney | PASS | PASS | PASS | PASS |
+| chunk | PASS | PASS | PASS | PASS |
+| creek | PASS | PASS | PASS | PASS |
+| crisp | PASS | PASS | PASS | PASS |
+| flask | PASS | PASS | PASS | PASS |
+| foil | PASS | PASS | PASS | PASS |
+| gasp | PASS | PASS | PASS | PASS |
+| glare | PASS | PASS | PASS | PASS |
+| glow | PASS | PASS | PASS | PASS |
+| hatch | PASS | PASS | PASS | PASS |
+| hose | PASS | PASS | PASS | PASS |
+| inn | PASS | PASS | PASS | PASS |
+| jolt | PASS | PASS | PASS | PASS |
+| ledge | PASS | PASS | PASS | PASS |
+| lumber | PASS | PASS | PASS | PASS |
+| mend | PASS | PASS | PASS | PASS |
+| quarry | PASS | PASS | PASS | PASS |
+| ridge | PASS | PASS | PASS | PASS |
+| slope | PASS | PASS | PASS | PASS |
+| spout | PASS | PASS | PASS | PASS |
+| stump | PASS | PASS | PASS | PASS |
+| torch | PASS | PASS | PASS | PASS |
+| wade | PASS | PASS | PASS | PASS |
+| asteroid | PASS | PASS | PASS | PASS |
+| axis | PASS | PASS | PASS | PASS |
+| carnivore | PASS | PASS | PASS | PASS |
+| census | PASS | PASS | PASS | PASS |
+| chlorophyll | PASS | PASS | PASS | PASS |
+| crater | PASS | PASS | PASS | PASS |
+| crustacean | PASS | PASS | PASS | PASS |
+| digestive | PASS | PASS | PASS | PASS |
+| elevation | PASS | PASS | PASS | PASS |
+| fertile | PASS | PASS | PASS | PASS |
+| glacier | PASS | PASS | PASS | PASS |
+| herbivore | PASS | PASS | PASS | PASS |
+| humidity | PASS | PASS | PASS | PASS |
+| legislature | PASS | PASS | PASS | PASS |
+| molecule | PASS | PASS | PASS | PASS |
+| arid | PASS | PASS | PASS | PASS |
+| archaeology | PASS | PASS | PASS | PASS |
+| mesa | PASS | PASS | PASS | PASS |
+| tundra | PASS | PASS | PASS | PASS |
+| stalagmite | PASS | PASS | PASS | PASS |
+| tributary | PASS | PASS | PASS | PASS |
+| archipelago | PASS | PASS | PASS | PASS |
+| stratosphere | PASS | PASS | PASS | PASS |
+| preamble | PASS | PASS | PASS | PASS |
+| filament | PASS | PASS | PASS | PASS |
+| nocturnal | PASS | PASS | PASS | PASS |
+| translucent | PASS | PASS | PASS | PASS |
+| omnivore | PASS | PASS | PASS | PASS |
+| plateau | PASS | PASS | PASS | PASS |
+| geothermal | PASS | PASS | PASS | PASS |
+| specimen | PASS | PASS | PASS | PASS |
+| meridian | PASS | PASS | PASS | PASS |
+| respiration | PASS | PASS | PASS | PASS |
+| paleontology | PASS | PASS | PASS | PASS |
+| aquifer | PASS | PASS | PASS | PASS |
+| deciduous | PASS | PASS | PASS | PASS |
+| pharaoh | PASS | PASS | PASS | PASS |
+| sedimentary | PASS | PASS | PASS | PASS |
+| isthmus | PASS | PASS | PASS | PASS |
+| dividend | PASS | PASS | PASS | PASS |
+| divisor | PASS | PASS | PASS | PASS |
+| mandate | PASS | PASS | PASS | PASS |
+| authentic | PASS | PASS | PASS | PASS |
+| scarcity | PASS | PASS | PASS | PASS |
+| ancestry | PASS | PASS | PASS | PASS |
+| interval | PASS | PASS | PASS | PASS |
+| eligible | PASS | PASS | PASS | PASS |
+| manipulate | PASS | PASS | PASS | PASS |
+| salvage | PASS | PASS | PASS | PASS |
+| acquire | PASS | PASS | PASS | PASS |
+| terminate | PASS | PASS | PASS | PASS |
+| verdict | PASS | PASS | PASS | PASS |
+| hangar | PASS | PASS | PASS | PASS |
+| hardship | PASS | PASS | PASS | PASS |
+| harpoon | PASS | PASS | PASS | PASS |
+| harrow | PASS | PASS | PASS | PASS |
+| haste | PASS | PASS | PASS | PASS |
+| havoc | PASS | PASS | PASS | PASS |
+| headway | PASS | PASS | PASS | PASS |
+| heed | PASS | PASS | PASS | PASS |
+| helm | PASS | PASS | PASS | PASS |
+| herald | PASS | PASS | PASS | PASS |
+| hermit | PASS | PASS | PASS | PASS |
+| hew | PASS | PASS | PASS | PASS |
+| hinge | PASS | PASS | PASS | PASS |
+| hoard | PASS | PASS | PASS | PASS |
+| hobble | PASS | PASS | PASS | PASS |
+| hoist | PASS | PASS | PASS | PASS |
+| homage | PASS | PASS | PASS | PASS |
+| homestead | PASS | PASS | PASS | PASS |
+| hone | PASS | PASS | PASS | PASS |
+| hornet | PASS | PASS | PASS | PASS |
+| hosiery | PASS | PASS | PASS | PASS |
+| hospitable | PASS | PASS | PASS | PASS |
+| hub | PASS | PASS | PASS | PASS |
+| huddle | PASS | PASS | PASS | PASS |
+| hull | PASS | PASS | PASS | PASS |
+| humus | PASS | PASS | PASS | PASS |
+| hurdle | PASS | PASS | PASS | PASS |
+| hurl | PASS | PASS | PASS | PASS |
+| hurricane | PASS | PASS | PASS | PASS |
+| hydrate | PASS | PASS | PASS | PASS |
+| hymn | PASS | PASS | PASS | PASS |
+| hyperbole | PASS | PASS | PASS | PASS |
+| icon | PASS | PASS | PASS | PASS |
+| imbue | PASS | PASS | PASS | PASS |
+| impervious | PASS | PASS | PASS | PASS |
+| impound | PASS | PASS | PASS | PASS |
+| indent | PASS | PASS | PASS | PASS |
+| inferno | PASS | PASS | PASS | PASS |
+| infuse | PASS | PASS | PASS | PASS |
+| inlet | PASS | PASS | PASS | PASS |
+| inquest | PASS | PASS | PASS | PASS |
+| instill | PASS | PASS | PASS | PASS |
+| insular | PASS | PASS | PASS | PASS |
+| intrigue | PASS | PASS | PASS | PASS |
+| inundate | PASS | PASS | PASS | PASS |
+| irate | PASS | PASS | PASS | PASS |
+| irk | PASS | PASS | PASS | PASS |
+| ivory | PASS | PASS | PASS | PASS |
+| jaunt | PASS | PASS | PASS | PASS |
+| jest | PASS | PASS | PASS | PASS |
+| jettison | PASS | PASS | PASS | PASS |
+| jinx | PASS | PASS | PASS | PASS |
+| jostle | PASS | PASS | PASS | PASS |
+| jubilant | PASS | PASS | PASS | PASS |
+| juncture | PASS | PASS | PASS | PASS |
+| juniper | PASS | PASS | PASS | PASS |
+| kernel | PASS | PASS | PASS | PASS |
+| kilt | PASS | PASS | PASS | PASS |
+| knack | PASS | PASS | PASS | PASS |
+| knead | PASS | PASS | PASS | PASS |
+| knell | PASS | PASS | PASS | PASS |
+| knoll | PASS | PASS | PASS | PASS |
+| lacquer | PASS | PASS | PASS | PASS |
+| lair | PASS | PASS | PASS | PASS |
+| lance | PASS | PASS | PASS | PASS |
+| lanky | PASS | PASS | PASS | PASS |
+| lattice | PASS | PASS | PASS | PASS |
+| lavish | PASS | PASS | PASS | PASS |
+| ledger | PASS | PASS | PASS | PASS |
+| leech | PASS | PASS | PASS | PASS |
+| leer | PASS | PASS | PASS | PASS |
+| legible | PASS | PASS | PASS | PASS |
+| legion | PASS | PASS | PASS | PASS |
+| lever | PASS | PASS | PASS | PASS |
+| lilac | PASS | PASS | PASS | PASS |
+| limber | PASS | PASS | PASS | PASS |
+| limelight | PASS | PASS | PASS | PASS |
+| limpid | PASS | PASS | PASS | PASS |
+| lineage | PASS | PASS | PASS | PASS |
+| linen | PASS | PASS | PASS | PASS |
+| lintel | PASS | PASS | PASS | PASS |
+| listless | PASS | PASS | PASS | PASS |
+| litany | PASS | PASS | PASS | PASS |
+| lithe | PASS | PASS | PASS | PASS |
+| livelihood | PASS | PASS | PASS | PASS |
+| loam | PASS | PASS | PASS | PASS |
+| lobe | PASS | PASS | PASS | PASS |
+| locale | PASS | PASS | PASS | PASS |
+| locomotion | PASS | PASS | PASS | PASS |
+| loft | PASS | PASS | PASS | PASS |
+| lore | PASS | PASS | PASS | PASS |
+| lucid | PASS | PASS | PASS | PASS |
+| lull | PASS | PASS | PASS | PASS |
+| lunge | PASS | PASS | PASS | PASS |

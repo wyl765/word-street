@@ -1,225 +1,404 @@
-# Gemini Independent Review — words-level2a.js (Gate 2)
+# Gemini Verification Report: words-level2a.js
 
-**Reviewer:** Gemini (subagent)
-**File:** words-level2a.js (400 words)
-**Layers:** L9 (imageKeyword search safety), L10 (fact checking), L11 (polysemy completeness), L12 (game compatibility)
-
----
-
-## L9: imageKeyword Search Safety
-
-Checking whether each imageKeyword would return child-safe, on-topic images in a stock photo search.
-
-| # | Word | imageKeyword | Issue | Severity |
-|---|------|-------------|-------|----------|
-| 1 | burst | balloon popping | OK — clear, safe | ✅ |
-| 2 | bury | burying treasure | OK — safe | ✅ |
-| 3 | crush | crushing flat | ⚠️ Could return violent crush/injury images. Suggest "box being crushed" or "can crushing" | MAJOR |
-| 4 | dare | brave dare | Vague — may return truth-or-dare party images, not educational. Suggest "brave child trying" | MINOR |
-| 5 | fail | missing fail | ⚠️ "missing fail" is incoherent as a search term. Will return random fail compilations. Suggest "missed catch ball" | MAJOR |
-| 6 | hunt | owl hunting | OK but may return graphic prey capture. Suggest "owl searching night" | MINOR |
-| 7 | hide | hiding behind | OK — safe | ✅ |
-| 8 | argue | arguing disagree | May return aggressive confrontation images. Suggest "children disagreeing" | MINOR |
-| 9 | cruel | mean cruel | ⚠️ "mean cruel" returns bullying/abuse imagery. Suggest "cartoon villain" | MAJOR |
-| 10 | filthy | filthy dirty | May return disturbing hygiene images. Suggest "muddy clothes child" | MINOR |
-| 11 | horrible | horrible smell | Could return gross/shock images. Suggest "holding nose bad smell" | MINOR |
-| 12 | wicked | wicked witch | OK — fairy tale context makes this safe | ✅ |
-| 13 | worthless | broken toy pieces | OK — safe | ✅ |
-| 14 | helpless | baby bird helpless | OK — safe, evocative | ✅ |
-| 15 | grim | serious face | OK — safe | ✅ |
-| 16 | harsh | harsh wind | OK — safe | ✅ |
-| 17 | prey | prey rabbit | May return predator-catching-prey violence. Suggest "rabbit running away" | MINOR |
-| 18 | predator | predator hawk | May return graphic hunting images. Suggest "hawk flying searching" | MINOR |
-| 19 | collapse | collapse falling | ⚠️ Returns building collapse/disaster imagery. Suggest "block tower falling" | MAJOR |
-| 20 | disaster | disaster flood | May return distressing real disaster photos. Suggest "cartoon flood" or "storm damage illustration" | MINOR |
-| 21 | penalty | penalty punishment | Returns corporal punishment or sports penalty images, neither ideal. Suggest "yellow card referee" | MINOR |
-| 22 | impose | impose force | Vague, could return forceful/aggressive imagery. Suggest "teacher posting rules" | MINOR |
-| 23 | dominate | dominate tower | ⚠️ "dominate" as search term returns BDSM/power imagery. Suggest "tallest building skyline" | CRITICAL |
-| 24 | inhibit | inhibit block | Vague, poor search results. Suggest "stop sign blocking" | MINOR |
-| 25 | isolate | isolate separate | May return sad/lonely imagery. Suggest "puzzle piece apart" | MINOR |
-| 26 | levy | levy tax | OK — returns tax/government images, appropriate | ✅ |
-| 27 | distort | distort mirror | OK — fun house mirror is safe | ✅ |
-| 28 | erode | erode cliff | OK — geological, safe | ✅ |
-| 29 | dispose | dispose trash | OK — safe | ✅ |
-| 30 | enforce | enforce rule | May return police/authority images. Suggest "rule poster classroom" | MINOR |
-| 31 | induce | induce cause | Vague, may return medical induction images. Suggest "sunshine flowers blooming" | MINOR |
-| 32 | invoke | invoke call | ⚠️ Returns occult/ritual/summoning imagery. Suggest "raising hand asking for help" | MAJOR |
-| 33 | manifest | manifest show | ⚠️ Returns new-age/manifestation/law-of-attraction imagery. Suggest "talent showing painting" | MAJOR |
-| 34 | explicit | explicit clear | ⚠️ Returns adult content warnings. Suggest "clear written instructions" | CRITICAL |
-| 35 | liberal | liberal generous | ⚠️ Returns political imagery, divisive. Suggest "generous helping paint" | MAJOR |
-| 36 | bias | bias unfair | Returns political/media bias imagery. Suggest "tilted scale unfair" | MINOR |
-| 37 | controversy | controversy debate | May return heated political imagery. Suggest "people discussing different opinions" | MINOR |
-| 38 | ideology | ideology beliefs | Returns political/propaganda imagery. Suggest "thought bubbles different ideas" | MINOR |
-| 39 | compensate | compensate repay | OK — safe | ✅ |
-| 40 | contemplate | contemplate think | OK — safe, returns thoughtful poses | ✅ |
-
-**L9 Summary:** 2 CRITICAL, 7 MAJOR, 16 MINOR issues out of 400 imageKeywords. Most are safe and well-chosen.
-
----
-
-## L10: Fact Checking
-
-Reviewing definitions, examples, and factual accuracy.
-
-| # | Word | Issue | Severity |
-|---|------|-------|----------|
-| 1 | command | Definition: "to tell a person what they must do" — Example uses "commanded the puppy" (not a person). Minor inconsistency. | MINOR |
-| 2 | hasten | Level 2 word but "hasten" is uncommon/literary for this age group. May be better at level 3+. | MINOR |
-| 3 | oxygen | "Trees make oxygen" — Slightly imprecise. Trees produce oxygen through photosynthesis but also consume it. Acceptable simplification for children. | OK |
-| 4 | galaxy | "a huge group of stars in space" — Omits gas, dust, dark matter, but acceptable for level 2 definition. | OK |
-| 5 | erosion | "slow wearing away of rock or soil by wind or water" — Missing ice/glacial erosion, but acceptable simplification. | OK |
-| 6 | gravity | "the force that pulls things down toward the ground" — Acceptable simplification. | OK |
-| 7 | currency | "The dollar is the currency of the United States" — Fact correct. | OK |
-| 8 | empirical | "based on what you observe and test" — This is a very advanced word for level 2a. Seems misleveled. | MAJOR |
-| 9 | hierarchy | "a system where things are ranked from top to bottom" — Advanced concept for level 2. Likely misleveled. | MAJOR |
-| 10 | hypothesis | "a guess about what will happen in a test" — Oversimplified. A hypothesis is an educated/informed guess, not just any guess. Suggest "an educated guess" | MINOR |
-| 11 | ideology | "a set of ideas or beliefs" — Very advanced for level 2. Likely misleveled. | MAJOR |
-| 12 | simultaneously | "at the same time" — Advanced word for level 2a. | MINOR |
-| 13 | diminish | "to become smaller or less" — Example says "The value of the old toy did not diminish—it actually went up over time." Correct usage. | OK |
-| 14 | consequent | "happening as a result of something" — Very advanced for level 2a. | MAJOR |
-| 15 | levy | "to collect a tax or charge by order of the government" — Very advanced for level 2a. | MAJOR |
-| 16 | invoke | "to call upon for help or use" — Very advanced for level 2a. | MAJOR |
-| 17 | manifest | "to show or make clear" — Very advanced for level 2a. | MAJOR |
-| 18 | ambiguous | "not clear; could mean more than one thing" — Advanced for level 2a. | MAJOR |
-| 19 | integral | "very important and needed as part of something" — Advanced for level 2a. | MAJOR |
-| 20 | entity | "something that exists on its own" — Advanced for level 2a. | MAJOR |
-| 21 | finite | "having a limit or end" — Advanced for level 2a. | MAJOR |
-| 22 | fluctuate | "to go up and down or change often" — Advanced for level 2a. | MAJOR |
-| 23 | furthermore | "in addition to what was already said" — Transition word, appropriate concept but advanced vocabulary. | MINOR |
-| 24 | hence | "for this reason" — Formal/advanced for level 2a. | MAJOR |
-| 25 | scarce | Definition OK. Example: "When a trading card is scarce, collectors will pay a much higher price for it" — concept fine but slightly advanced example for level 2. | MINOR |
-| 26 | positive | Definition: "sure something is true, or feeling hopeful" — Covers two senses well. | OK |
-| 27 | devise | Not in list — no issue. | — |
-
-**L10 Summary:** 13 MAJOR (mostly misleveled advanced words in level 2a), 5 MINOR. The last ~100 words of the file (from "accumulate" onward) appear to be level 4-5 academic vocabulary misplaced in a level 2a file.
-
----
-
-## L11: Polysemy Completeness
-
-Checking if important alternate meanings are missing from definitions.
-
-| # | Word | Listed Definition | Missing Sense | Severity |
-|---|------|------------------|---------------|----------|
-| 1 | current | "the movement of water or air in one direction" | Missing: "happening now" (adjective sense). This is a very common meaning. | MAJOR |
-| 2 | form | "to make or shape something" | Missing: "a paper with blanks to fill in" (noun); "the shape of something" (noun). | MAJOR |
-| 3 | cross | "to go from one side to the other" | Missing: "angry" (adjective); "a shape like +" (noun). Both common for children. | MAJOR |
-| 4 | cover | "to place something on top of another thing to hide or protect it" | Missing: "the front of a book" (noun). | MINOR |
-| 5 | control | "to make something do what you want" | Missing: "a button or device used to operate something" (noun, as in "remote control"). Ironic since imageKeyword IS "remote control". | MINOR |
-| 6 | direct | "to show or tell someone which way to go" | Missing: "straight, without stopping" (adjective). | MINOR |
-| 7 | express | "to show how you feel using words or actions" | Missing: "fast" (adjective, as in "express train"). | MINOR |
-| 8 | claim | "to say something is yours or is true" | Missing: "a demand for something owed" (noun, as in "insurance claim"). | MINOR |
-| 9 | demand | "to ask for something in a strong, firm way" | Missing: "the desire of consumers" (noun, as in "supply and demand"). OK for level 2. | OK |
-| 10 | exchange | "to swap one thing for another" | Missing: "a place where things are traded" (noun, as in "stock exchange"). OK for level 2. | OK |
-| 11 | rare | "not found or seen very often" | Missing: "lightly cooked" (as in rare steak). Common meaning. | MINOR |
-| 12 | flat | "smooth and level with no bumps" | Missing: "an apartment" (British English); "a flat tire". | MINOR |
-| 13 | raw | "not cooked" | Missing: "rough/painful" (as in "raw skin"); "unprocessed" (as in "raw data"). OK for level 2. | OK |
-| 14 | round | "shaped like a circle or ball" | Missing: "a stage in a competition"; "to go around". | MINOR |
-| 15 | material | "what something is made of" | Missing: "important/relevant" (adjective). | MINOR |
-| 16 | source | "where something comes from" | Missing: "a person who provides information". OK for level 2. | OK |
-| 17 | draft | "a first version of something written" | Missing: "a current of air"; "selecting people for military service". | MINOR |
-| 18 | domain | "an area of knowledge or control" | Missing: "a website address" (as in domain name). | MINOR |
-| 19 | passage | "a short part of a book or article" | Missing: "a hallway or corridor"; "the act of passing". | MINOR |
-| 20 | region | "a large area of land" | OK — single core meaning sufficient for level 2. | OK |
-| 21 | positive | "sure something is true, or feeling hopeful" | Missing: "greater than zero" (math). | MINOR |
-| 22 | capacity | "the most something can hold" | Missing: "ability" (as in "the capacity to learn"). | MINOR |
-| 23 | index | "a list at the back of a book that helps you find things" | Missing: "a number showing change" (as in price index); "index finger". | MINOR |
-| 24 | complement | "something that goes well with another thing" | Note: easily confused with "compliment" (praise). Definition is correct but no disambiguation. | MINOR |
-| 25 | consent | "permission to do something" | OK — primary meaning covered. | OK |
-| 26 | liberal | "open to new ideas and generous" | Missing: political sense. But appropriate to omit for children. | OK |
-| 27 | formula | "a rule or method written with symbols" | Missing: "baby formula" (nutrition); "a fixed way of doing something". | MINOR |
-| 28 | foundation | "the base that holds something up" | Missing: "a charitable organization". | MINOR |
-
-**L11 Summary:** 3 MAJOR (current, form, cross — very common alternate meanings missing), 20 MINOR.
-
----
-
-## L12: Game Compatibility
-
-Checking suitability for a word-learning game: definition length, example clarity, word-definition matching for quiz/flashcard use.
-
-| # | Word | Issue | Severity |
-|---|------|-------|----------|
-| 1 | hasten | Uncommon word — students may never encounter it. Low game utility at level 2. | MINOR |
-| 2 | empirical | Far too advanced for level 2 gameplay. Would frustrate young learners. | MAJOR |
-| 3 | hierarchy | Too abstract for level 2 game. | MAJOR |
-| 4 | ideology | Too abstract for level 2 game. | MAJOR |
-| 5 | ambiguous | Too advanced for level 2 game. | MAJOR |
-| 6 | consequent | Too advanced and rarely used standalone. "Consequence" is already in list. Redundant. | MAJOR |
-| 7 | levy | Too advanced for level 2 game. | MAJOR |
-| 8 | invoke | Too advanced for level 2 game. | MAJOR |
-| 9 | manifest | Too advanced for level 2 game. | MAJOR |
-| 10 | entity | Too abstract for level 2 game. | MAJOR |
-| 11 | finite | Too advanced for level 2 game. | MAJOR |
-| 12 | hence | Too formal for level 2 game. | MAJOR |
-| 13 | conceive | "to think of an idea" — word is more commonly associated with pregnancy. Could confuse or distract. | MAJOR |
-| 14 | comply | Advanced for level 2. | MINOR |
-| 15 | consolidate | Advanced for level 2. | MINOR |
-| 16 | constraint | Advanced for level 2. | MINOR |
-| 17 | contradict | Advanced for level 2. | MINOR |
-| 18 | controversy | Advanced for level 2. | MINOR |
-| 19 | convene | Advanced for level 2. | MINOR |
-| 20 | correspond | Advanced for level 2. | MINOR |
-| 21 | criteria | Advanced for level 2. | MINOR |
-| 22 | deficiency | Advanced for level 2. | MINOR |
-| 23 | denote | Advanced for level 2. | MINOR |
-| 24 | derive | Advanced for level 2. | MINOR |
-| 25 | deviate | Advanced for level 2. | MINOR |
-| 26 | devote | Borderline — acceptable at level 2. | OK |
-| 27 | diminish | Advanced for level 2. | MINOR |
-| 28 | diverse | Borderline — used commonly enough. | OK |
-| 29 | duration | Advanced for level 2. | MINOR |
-| 30 | equate | Advanced for level 2. | MINOR |
-| 31 | exceed | Advanced for level 2. | MINOR |
-| 32 | extract | Borderline — acceptable. | OK |
-| 33 | facilitate | Advanced for level 2. | MINOR |
-| 34 | fluctuate | Advanced for level 2. | MINOR |
-| 35 | furthermore | Transition word — acceptable. | OK |
-| 36 | guideline | Acceptable. | OK |
-| 37 | simultaneously | Very advanced for level 2. Spelling alone is challenging. | MAJOR |
-| 38 | accumulate | Advanced for level 2. | MINOR |
-| 39 | acknowledge | Advanced for level 2. | MINOR |
-| 40 | adequate | Advanced for level 2. | MINOR |
-| 41 | advocate | Advanced for level 2. | MINOR |
-| 42 | allocate | Advanced for level 2. | MINOR |
-| 43 | amend | Advanced for level 2. | MINOR |
-| 44 | approximate | Advanced for level 2. | MINOR |
-| 45 | aspire | Advanced for level 2. | MINOR |
-| 46 | assert | Advanced for level 2. | MINOR |
-| 47 | authorize | Advanced for level 2. | MINOR |
-| 48 | beneficial | Advanced for level 2. | MINOR |
-| 49 | clarify | Advanced for level 2. | MINOR |
-| 50 | coincide | Advanced for level 2. | MINOR |
-| 51 | commentary | Advanced for level 2. | MINOR |
-| 52 | compile | Advanced for level 2. | MINOR |
-| 53 | confine | Advanced for level 2. | MINOR |
-| 54 | consult | Advanced for level 2. | MINOR |
-| 55 | contemplate | Advanced for level 2. | MINOR |
-
-**L12 Summary:** 13 MAJOR (words completely unsuitable for level 2 gameplay), 35 MINOR (borderline advanced). Approximately 25% of the file (the last ~100 words) appears to be academic vocabulary that belongs in levels 4-5.
-
----
-
-## Overall Summary
-
-| Layer | CRITICAL | MAJOR | MINOR | OK/Pass |
-|-------|----------|-------|-------|---------|
-| L9: imageKeyword Safety | 2 | 7 | 16 | 375 |
-| L10: Fact Checking | 0 | 13 | 5 | 382 |
-| L11: Polysemy | 0 | 3 | 20 | 377 |
-| L12: Game Compatibility | 0 | 13 | 35 | 352 |
-| **TOTAL** | **2** | **36** | **76** | — |
-
-### Top Priority Fixes
-
-1. **CRITICAL — L9:** `dominate` imageKeyword "dominate tower" → unsafe search results. Change to "tallest building skyline".
-2. **CRITICAL — L9:** `explicit` imageKeyword "explicit clear" → adult content flags. Change to "clear written instructions".
-3. **MAJOR — L10/L12:** ~100 words from "accumulate" to "manifest" are academic vocabulary (AWL-level) misplaced in level 2a. These should be relocated to level 4 or 5 files.
-4. **MAJOR — L9:** `invoke` imageKeyword returns occult imagery; `manifest` returns new-age imagery; `liberal` returns political imagery; `crush`/`collapse`/`cruel`/`fail` imageKeywords need child-safe alternatives.
-5. **MAJOR — L11:** `current`, `form`, `cross` are missing very common alternate meanings that children will encounter.
-
-### Word-by-Word Pass List (400 words)
-
-Below: one line per word. ✅ = pass all 4 layers, ⚠️ = has issue (see tables above).
-
-avoid ✅ | burst ✅ | bury ✅ | cheer ✅ | choose ✅ | claim ⚠️L11 | combine ✅ | command ⚠️L10 | consider ✅ | continue ✅ | control ⚠️L11 | cover ⚠️L11 | cross ⚠️L11 | crush ⚠️L9 | dare ⚠️L9 | demand ✅ | develop ✅ | direct ⚠️L11 | examine ✅ | exchange ✅ | excite ✅ | expect ✅ | explore ✅ | express ⚠️L11 | fail ⚠️L9 | flow ✅ | form ⚠️L11 | gaze ✅ | guide ✅ | hasten ⚠️L10,L12 | hide ✅ | hike ✅ | hug ✅ | hunt ⚠️L9 | increase ✅ | insist ✅ | instruct ✅ | admire ✅ | announce ✅ | approve ✅ | argue ⚠️L9 | behave ✅ | celebrate ✅ | compare ✅ | convince ✅ | defend ✅ | disappear ✅ | encourage ✅ | improve ✅ | interrupt ✅ | observe ✅ | organize ✅ | bold ✅ | brief ✅ | delicate ✅ | dense ✅ | dim ✅ | distant ✅ | drowsy ✅ | dusty ✅ | elegant ✅ | faint ✅ | familiar ✅ | flat ⚠️L11 | flexible ✅ | foggy ✅ | glossy ✅ | grim ✅ | harsh ✅ | heavy ✅ | helpless ✅ | humble ✅ | innocent ✅ | invisible ✅ | keen ✅ | lean ✅ | lively ✅ | lovely ✅ | magnificent ✅ | moist ✅ | neat ✅ | noble ✅ | odd ✅ | pale ✅ | plump ✅ | precious ✅ | pure ✅ | rare ⚠️L11 | raw ✅ | round ⚠️L11 | rude ✅ | rusty ✅ | scarce ⚠️L10 | slender ✅ | soft ✅ | abundant ✅ | absurd ✅ | accurate ✅ | brittle ✅ | colorful ✅ | cruel ⚠️L9 | daring ✅ | filthy ⚠️L9 | gorgeous ✅ | horrible ⚠️L9 | mysterious ✅ | pleasant ✅ | powerful ✅ | ridiculous ✅ | serious ✅ | spotless ✅ | tremendous ✅ | visible ✅ | weak ✅ | wealthy ✅ | wicked ✅ | worthless ✅ | briefly ✅ | constantly ✅ | continuously ✅ | currently ✅ | formerly ✅ | instantly ✅ | mostly ✅ | nearly ✅ | normally ✅ | originally ✅ | partly ✅ | possibly ✅ | presently ✅ | previously ✅ | probably ✅ | promptly ✅ | regularly ✅ | shortly ✅ | simply ✅ | sometimes ✅ | steadily ✅ | still ✅ | typically ✅ | usually ✅ | simultaneously ⚠️L12 | initially ✅ | permanently ✅ | temporarily ✅ | lately ✅ | overnight ✅ | yearly ✅ | hourly ✅ | illustration ✅ | diagram ✅ | vocabulary ✅ | definition ✅ | fact ✅ | summary ✅ | topic ✅ | conclusion ✅ | passage ⚠️L11 | research ✅ | method ✅ | experiment ✅ | creature ✅ | moisture ✅ | material ⚠️L11 | source ✅ | motion ✅ | mixture ✅ | direction ✅ | shelter ✅ | predator ⚠️L9 | prey ⚠️L9 | oxygen ✅ | galaxy ✅ | fossil ✅ | mineral ✅ | current ⚠️L11 | vapor ✅ | erosion ✅ | orbit ✅ | gravity ✅ | species ✅ | community ✅ | population ✅ | culture ✅ | ancestor ✅ | generation ✅ | volunteer ✅ | merchant ✅ | pioneer ✅ | president ✅ | profession ✅ | companion ✅ | guardian ✅ | immigrant ✅ | inspector ✅ | messenger ✅ | relative ✅ | scholar ✅ | witness ✅ | advantage ✅ | courage ✅ | effort ✅ | knowledge ✅ | patience ✅ | responsibility ✅ | triumph ✅ | accident ✅ | attitude ✅ | boundary ✅ | consequence ✅ | conversation ✅ | decision ✅ | evidence ✅ | experience ✅ | imagination ✅ | occasion ✅ | solution ✅ | inspect ✅ | select ✅ | supply ✅ | survive ✅ | transform ✅ | transport ✅ | identify ✅ | inherit ✅ | massive ✅ | miniature ✅ | obvious ✅ | ordinary ✅ | particular ✅ | peculiar ✅ | rapid ✅ | reluctant ✅ | sensitive ✅ | severe ✅ | suitable ✅ | sufficient ✅ | vacant ✅ | vast ✅ | vivid ✅ | possess ✅ | reveal ✅ | assign ✅ | respond ✅ | require ✅ | oppose ✅ | occupy ✅ | perform ✅ | accomplish ✅ | cautious ✅ | capable ✅ | essential ✅ | fortunate ✅ | incredible ✅ | numerous ✅ | positive ⚠️L11 | previous ✅ | region ✅ | structure ✅ | symbol ✅ | tradition ✅ | celebration ✅ | challenge ✅ | equipment ✅ | voyage ✅ | territory ✅ | disaster ⚠️L9 | merely ✅ | precisely ✅ | entirely ✅ | scarcely ✅ | swiftly ✅ | willingly ✅ | maintain ✅ | establish ✅ | cooperate ✅ | represent ✅ | concentrate ✅ | manufacture ✅ | demonstrate ✅ | investigate ✅ | discovery ✅ | penalty ⚠️L9 | quantity ✅ | reasonable ✅ | approach ✅ | collapse ⚠️L9 | domestic ✅ | external ✅ | internal ✅ | annual ✅ | permission ✅ | recognize ✅ | influence ✅ | interpret ✅ | adapt ✅ | benefit ✅ | durable ✅ | genuine ✅ | hesitate ✅ | negotiate ✅ | temporary ✅ | reliable ✅ | absorb ✅ | attract ✅ | predict ✅ | request ✅ | reduce ✅ | assemble ✅ | accumulate ⚠️L12 | acknowledge ⚠️L12 | adequate ⚠️L12 | advocate ⚠️L12 | allocate ⚠️L12 | ambiguous ⚠️L9,L12 | amend ⚠️L12 | approximate ⚠️L12 | aspire ⚠️L12 | assert ⚠️L12 | authorize ⚠️L12 | beneficial ⚠️L12 | bias ⚠️L9 | capacity ⚠️L11 | clarify ⚠️L12 | coincide ⚠️L12 | commentary ⚠️L12 | compensate ✅ | compile ⚠️L12 | complement ⚠️L11 | comply ⚠️L12 | conceive ⚠️L12 | confine ⚠️L12 | consent ✅ | consequent ⚠️L10,L12 | consolidate ⚠️L12 | constraint ⚠️L12 | consult ⚠️L12 | contemplate ⚠️L12 | contradict ⚠️L12 | controversy ⚠️L9,L12 | convene ⚠️L12 | correspond ⚠️L12 | criteria ⚠️L12 | currency ✅ | deficiency ⚠️L12 | denote ⚠️L12 | derive ⚠️L12 | deviate ⚠️L12 | devote ✅ | diminish ⚠️L12 | dispose ✅ | distort ✅ | diverse ✅ | domain ⚠️L11 | dominate ⚠️L9 | draft ⚠️L11 | duration ⚠️L12 | empirical ⚠️L10,L12 | enforce ⚠️L9 | entity ⚠️L10,L12 | equate ⚠️L12 | erode ✅ | exceed ⚠️L12 | explicit ⚠️L9 | extract ✅ | facilitate ⚠️L12 | finite ⚠️L10,L12 | fluctuate ⚠️L10,L12 | format ✅ | formula ⚠️L11 | foundation ⚠️L11 | furthermore ✅ | generate ✅ | guideline ✅ | hence ⚠️L10,L12 | hierarchy ⚠️L10,L12 | hypothesis ⚠️L10 | identical ✅ | ideology ⚠️L9,L10,L12 | implication ⚠️L12 | impose ⚠️L9 | incentive ✅ | incorporate ✅ | index ⚠️L11 | induce ⚠️L9 | inherent ✅ | inhibit ⚠️L9 | initiate ✅ | innovation ✅ | insert ✅ | integral ⚠️L10,L12 | intervene ✅ | invoke ⚠️L9,L10,L12 | isolate ⚠️L9 | levy ⚠️L10,L12 | liberal ⚠️L9 | likewise ✅ | magnitude ✅ | manifest ⚠️L9,L10,L12
+| Word | Image Search | Fact Check | Meaning | Gameplay | Action |
+|------|--------------|------------|---------|----------|--------|
+| **avoid** | Pass: 'stepping around' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **burst** | Pass: 'balloon popping' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **bury** | Pass: 'burying treasure' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **cheer** | Pass: 'cheering crowd' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **choose** | Pass: 'picking choice' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **claim** | Pass: 'claiming own' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **combine** | Pass: 'mixing together' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **command** | Pass: 'giving order' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **consider** | Pass: 'thinking carefully' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **continue** | Pass: 'keep going' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **control** | Pass: 'remote control' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **cover** | Pass: 'covering lid' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **cross** | Pass: 'crossing street' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **crush** | Pass: 'crushing flat' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **dare** | Pass: 'brave dare' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **demand** | Pass: 'demanding firmly' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **develop** | Pass: 'seedling growing stages' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **direct** | Pass: 'directing traffic' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **examine** | Pass: 'examining closely' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **exchange** | Pass: 'trading swap' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **excite** | Pass: 'excited jumping' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **expect** | Pass: 'waiting expecting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **explore** | Pass: 'exploring cave' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **express** | Pass: 'expressing feelings' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **fail** | Pass: 'missing fail' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **flow** | Pass: 'flowing river' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **form** | Pass: 'shaping clay' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **gaze** | Pass: 'gazing stars' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **guide** | Pass: 'guide path' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hasten** | Pass: 'hurrying fast' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hide** | Pass: 'hiding behind' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hike** | Pass: 'hiking trail' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hug** | Pass: 'hugging people' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hunt** | Pass: 'owl hunting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **increase** | Pass: 'arrow going up' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **insist** | Pass: 'firm insisting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **instruct** | Pass: 'teaching instructing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **admire** | Pass: 'admiring art' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **announce** | Pass: 'announcing news' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **approve** | Pass: 'green checkmark approval' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **argue** | Pass: 'arguing disagree' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **behave** | Pass: 'good behavior' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **celebrate** | Pass: 'party celebrate' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **compare** | Pass: 'side by side objects' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **convince** | Pass: 'persuading talking' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **defend** | Pass: 'defending protecting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **disappear** | Pass: 'vanishing magic' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **encourage** | Pass: 'cheering support' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **improve** | Pass: 'getting better' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **interrupt** | Pass: 'interrupting talking' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **observe** | Pass: 'watching carefully' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **organize** | Pass: 'organizing neat' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **bold** | Pass: 'bold explorer' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **brief** | Pass: 'short quick' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **delicate** | Pass: 'delicate butterfly' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **dense** | Pass: 'dense forest' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **dim** | Pass: 'dim light' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **distant** | Pass: 'distant mountains' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **drowsy** | Pass: 'sleepy drowsy' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **dusty** | Pass: 'dusty book' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **elegant** | Pass: 'elegant swan' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **faint** | Pass: 'faint fading' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **familiar** | Pass: 'recognize familiar' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **flat** | Pass: 'flat pancake' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **flexible** | Pass: 'bending flexible' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **foggy** | Pass: 'foggy morning' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **glossy** | Pass: 'glossy shiny' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **grim** | Pass: 'serious face' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **harsh** | Pass: 'harsh wind' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **heavy** | Pass: 'heavy backpack' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **helpless** | Pass: 'baby bird helpless' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **humble** | Pass: 'humble modest' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **innocent** | Pass: 'innocent puppy' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **invisible** | Pass: 'invisible glass' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **keen** | Pass: 'eager keen' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **lean** | Pass: 'lean runner' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **lively** | Pass: 'lively puppy' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **lovely** | Pass: 'lovely garden' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **magnificent** | Pass: 'magnificent fireworks' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **moist** | Pass: 'moist soil' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **neat** | Pass: 'neat desk' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **noble** | Pass: 'noble knight' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **odd** | Pass: 'strange odd' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **pale** | Pass: 'pale face' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **plump** | Pass: 'plump berries' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **precious** | Pass: 'precious gem' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **pure** | Pass: 'pure water' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **rare** | Pass: 'rare eagle' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **raw** | Pass: 'raw vegetables' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **round** | Pass: 'round ball' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **rude** | Pass: 'rude interrupting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **rusty** | Pass: 'rusty bike' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **scarce** | Pass: 'scarce rare item' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **slender** | Pass: 'slender candle' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **soft** | Pass: 'soft kitten' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **abundant** | Pass: 'plenty abundant' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **absurd** | Pass: 'silly absurd' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **accurate** | Pass: 'accurate exact' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **brittle** | Pass: 'brittle breaking' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **colorful** | Pass: 'colorful parrot' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **cruel** | Pass: 'mean cruel' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **daring** | Pass: 'daring brave' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **filthy** | Pass: 'filthy dirty' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **gorgeous** | Pass: 'gorgeous sunset' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **horrible** | Pass: 'horrible smell' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **mysterious** | Pass: 'mysterious light' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **pleasant** | Pass: 'pleasant breeze' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **powerful** | Pass: 'powerful wind' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **ridiculous** | Pass: 'ridiculous funny' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **serious** | Pass: 'stern teacher face' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **spotless** | Pass: 'spotless clean' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **tremendous** | Pass: 'tremendous big' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **visible** | Pass: 'visible lighthouse' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **weak** | Pass: 'weak small' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **wealthy** | Pass: 'wealthy rich' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **wicked** | Pass: 'wicked witch' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **worthless** | Pass: 'broken toy pieces' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **briefly** | Pass: 'quick summary' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **constantly** | Pass: 'always nonstop' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **continuously** | Pass: 'nonstop flowing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **currently** | Pass: 'right now' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **formerly** | Pass: 'before past' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **instantly** | Pass: 'light switch on' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **mostly** | Pass: 'almost all' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **nearly** | Pass: 'almost there' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **normally** | Pass: 'usual normal' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **originally** | Pass: 'first beginning' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **partly** | Pass: 'partly half' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **possibly** | Pass: 'maybe possible' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **presently** | Pass: 'now current' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **previously** | Pass: 'before earlier' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **probably** | Pass: 'likely rain clouds' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **promptly** | Pass: 'on time' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **regularly** | Pass: 'regular routine' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **shortly** | Pass: 'soon shortly' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **simply** | Pass: 'easy simple' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **sometimes** | Pass: 'sometimes calendar' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **steadily** | Pass: 'steady even' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **still** | Pass: 'still continuing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **typically** | Pass: 'usually typical' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **usually** | Pass: 'usual routine' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **simultaneously** | Pass: 'two clocks same time' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **initially** | Pass: 'starting line race' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **permanently** | Pass: 'forever lasting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **temporarily** | Pass: 'detour sign' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **lately** | Pass: 'recent week calendar' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **overnight** | Pass: 'nighttime overnight' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **yearly** | Pass: 'annual yearly' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hourly** | Pass: 'every hour' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **illustration** | Pass: 'book illustration' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **diagram** | Pass: 'diagram drawing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **vocabulary** | Pass: 'words vocabulary' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **definition** | Pass: 'dictionary definition' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **fact** | Pass: 'fact true' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **summary** | Pass: 'short summary' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **topic** | Pass: 'topic subject' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **conclusion** | Pass: 'ending conclusion' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **passage** | Pass: 'text passage' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **research** | Pass: 'research books' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **method** | Pass: 'method way' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **experiment** | Pass: 'science experiment' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **creature** | Pass: 'creature animal' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **moisture** | Pass: 'dew moisture' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **material** | Pass: 'fabric material' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **source** | Pass: 'source beginning' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **motion** | Pass: 'swinging motion' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **mixture** | Pass: 'mixing bowl' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **direction** | Pass: 'arrow direction' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **shelter** | Pass: 'shelter cover' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **predator** | Pass: 'predator hawk' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **prey** | Pass: 'prey rabbit' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **oxygen** | Pass: 'oxygen breathing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **galaxy** | Pass: 'galaxy stars' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **fossil** | Pass: 'fossil rock' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **mineral** | Pass: 'mineral crystal' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **current** | Pass: 'river current' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **vapor** | Pass: 'steam vapor' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **erosion** | Pass: 'erosion cliff' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **orbit** | Pass: 'orbit planet' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **gravity** | Pass: 'falling gravity' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **species** | Pass: 'species animals' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **community** | Pass: 'community people' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **population** | Pass: 'population town' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **culture** | Pass: 'culture tradition' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **ancestor** | Pass: 'ancestor family tree' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **generation** | Pass: 'generation family' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **volunteer** | Pass: 'volunteer helping' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **merchant** | Pass: 'merchant shop' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **pioneer** | Pass: 'pioneer wagon' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **president** | Pass: 'president leader' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **profession** | Pass: 'profession job' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **companion** | Pass: 'companion friend' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **guardian** | Pass: 'guardian caretaker' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **immigrant** | Pass: 'immigrant new home' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **inspector** | Pass: 'inspector checking' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **messenger** | Pass: 'messenger delivering' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **relative** | Pass: 'family relative' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **scholar** | Pass: 'scholar studying' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **witness** | Pass: 'witness seeing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **advantage** | Pass: 'advantage benefit' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **courage** | Pass: 'courage brave' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **effort** | Pass: 'effort trying' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **knowledge** | Pass: 'knowledge books' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **patience** | Pass: 'patience waiting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **responsibility** | Pass: 'responsibility duty' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **triumph** | Pass: 'triumph victory' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **accident** | Pass: 'accident spill' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **attitude** | Pass: 'attitude positive' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **boundary** | Pass: 'boundary fence' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **consequence** | Pass: 'consequence result' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **conversation** | Pass: 'conversation talking' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **decision** | Pass: 'decision choice' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **evidence** | Pass: 'evidence clue' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **experience** | Pass: 'experience memory' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **imagination** | Pass: 'imagination creative' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **occasion** | Pass: 'occasion celebration' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **solution** | Pass: 'solution answer' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **inspect** | Pass: 'inspecting closely' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **select** | Pass: 'selecting picking' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **supply** | Pass: 'delivery truck supplies' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **survive** | Pass: 'survive alive' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **transform** | Pass: 'transform change' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **transport** | Pass: 'transport truck' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **identify** | Pass: 'identify recognize' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **inherit** | Pass: 'inherit family' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **massive** | Pass: 'massive rock' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **miniature** | Pass: 'miniature tiny' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **obvious** | Pass: 'obvious clear' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **ordinary** | Pass: 'regular school day' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **particular** | Pass: 'specific one' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **peculiar** | Pass: 'peculiar strange' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **rapid** | Pass: 'rapid fast' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **reluctant** | Pass: 'reluctant hesitant' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **sensitive** | Pass: 'sensitive careful' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **severe** | Pass: 'severe storm' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **suitable** | Pass: 'suitable fitting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **sufficient** | Pass: 'enough sufficient' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **vacant** | Pass: 'vacant empty' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **vast** | Pass: 'vast ocean' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **vivid** | Pass: 'vivid colors' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **possess** | Pass: 'possess own' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **reveal** | Pass: 'reveal show' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **assign** | Pass: 'assign task' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **respond** | Pass: 'responding answer' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **require** | Pass: 'require need' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **oppose** | Pass: 'oppose against' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **occupy** | Pass: 'room filled with boxes' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **perform** | Pass: 'perform stage' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **accomplish** | Pass: 'accomplish finish' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **cautious** | Pass: 'cautious careful' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **capable** | Pass: 'capable able' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **essential** | Pass: 'essential important' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **fortunate** | Pass: 'fortunate lucky' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **incredible** | Pass: 'incredible amazing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **numerous** | Pass: 'numerous many' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **positive** | Pass: 'child nodding yes' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **previous** | Pass: 'previous before' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **region** | Pass: 'region area' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **structure** | Pass: 'structure building' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **symbol** | Pass: 'symbol heart' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **tradition** | Pass: 'tradition family' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **celebration** | Pass: 'celebration party' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **challenge** | Pass: 'challenge difficult' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **equipment** | Pass: 'equipment tools' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **voyage** | Pass: 'voyage ship' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **territory** | Pass: 'territory land' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **disaster** | Pass: 'disaster flood' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **merely** | Pass: 'only just' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **precisely** | Pass: 'exact precise' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **entirely** | Pass: 'completely full' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **scarcely** | Pass: 'barely hardly' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **swiftly** | Pass: 'fast swift' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **willingly** | Pass: 'willing happy' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **maintain** | Pass: 'maintain care' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **establish** | Pass: 'establish start' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **cooperate** | Pass: 'cooperate teamwork' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **represent** | Pass: 'represent symbol' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **concentrate** | Pass: 'concentrate focus' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **manufacture** | Pass: 'factory making' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **demonstrate** | Pass: 'demonstrate show' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **investigate** | Pass: 'investigate search' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **discovery** | Pass: 'discovery find' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **penalty** | Pass: 'penalty punishment' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **quantity** | Pass: 'quantity amount' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **reasonable** | Pass: 'reasonable fair' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **approach** | Pass: 'approach near' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **collapse** | Pass: 'collapse falling' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **domestic** | Pass: 'domestic pets' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **external** | Pass: 'external outside' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **internal** | Pass: 'internal inside' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **annual** | Pass: 'calendar year circled' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **permission** | Pass: 'permission allowed' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **recognize** | Pass: 'recognize know' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **influence** | Pass: 'influence effect' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **interpret** | Pass: 'interpret meaning' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **adapt** | Pass: 'adapt change' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **benefit** | Pass: 'benefit help' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **durable** | Pass: 'durable strong' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **genuine** | Pass: 'genuine real' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hesitate** | Pass: 'hesitate pause' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **negotiate** | Pass: 'negotiate talk' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **temporary** | Pass: 'temporary short' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **reliable** | Pass: 'reliable trust' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **absorb** | Pass: 'absorb soak' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **attract** | Pass: 'attract pull' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **predict** | Pass: 'predict forecast' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **request** | Pass: 'request ask' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **reduce** | Pass: 'reduce less' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **assemble** | Pass: 'assemble build' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **accumulate** | Pass: 'accumulate pile' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **acknowledge** | Pass: 'acknowledge nod' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **adequate** | Pass: 'full water bottle' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **advocate** | Pass: 'advocate support' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **allocate** | Pass: 'allocate assign' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **ambiguous** | Pass: 'ambiguous confusing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **amend** | Pass: 'amend edit' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **approximate** | Pass: 'approximate estimate' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **aspire** | Pass: 'aspire dream' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **assert** | Pass: 'assert speak' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **authorize** | Pass: 'authorize approve' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **beneficial** | Pass: 'beneficial healthy' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **bias** | Pass: 'bias unfair' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **capacity** | Pass: 'capacity full' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **clarify** | Pass: 'magnifying glass text' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **coincide** | Pass: 'overlapping calendar events' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **commentary** | Pass: 'commentary sports' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **compensate** | Pass: 'compensate repay' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **compile** | Pass: 'compile list' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **complement** | Pass: 'complement match' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **comply** | Pass: 'comply follow' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **conceive** | Pass: 'conceive idea' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **confine** | Pass: 'confine limit' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **consent** | Pass: 'consent permission' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **consequent** | Pass: 'consequent result' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **consolidate** | Pass: 'consolidate combine' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **constraint** | Pass: 'constraint limit' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **consult** | Pass: 'consult advice' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **contemplate** | Pass: 'contemplate think' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **contradict** | Pass: 'contradict opposite' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **controversy** | Pass: 'controversy debate' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **convene** | Pass: 'convene meeting' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **correspond** | Pass: 'correspond match' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **criteria** | Pass: 'criteria checklist' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **currency** | Pass: 'currency money' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **deficiency** | Pass: 'deficiency lack' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **denote** | Pass: 'denote sign' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **derive** | Pass: 'derive source' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **deviate** | Pass: 'deviate path' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **devote** | Pass: 'devote focus' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **diminish** | Pass: 'diminish smaller' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **dispose** | Pass: 'dispose trash' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **distort** | Pass: 'distort mirror' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **diverse** | Pass: 'diverse variety' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **domain** | Pass: 'domain area' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **dominate** | Pass: 'dominate tower' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **draft** | Pass: 'draft writing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **duration** | Pass: 'duration time' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **empirical** | Pass: 'empirical experiment' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **enforce** | Pass: 'enforce rule' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **entity** | Pass: 'entity thing' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **equate** | Pass: 'equate equal' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **erode** | Pass: 'erode cliff' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **exceed** | Pass: 'exceed beyond' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **explicit** | Pass: 'explicit clear' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **extract** | Pass: 'extract pull' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **facilitate** | Pass: 'facilitate help' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **finite** | Pass: 'finite limited' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **fluctuate** | Pass: 'fluctuate change' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **format** | Pass: 'format layout' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **formula** | Pass: 'formula math' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **foundation** | Pass: 'foundation base' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **framework** | Pass: 'framework structure' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **furthermore** | Pass: 'furthermore also' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **generate** | Pass: 'generate create' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **guideline** | Pass: 'guideline rules' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hence** | Pass: 'hence therefore' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hierarchy** | Pass: 'hierarchy pyramid' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **hypothesis** | Pass: 'hypothesis science' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **identical** | Pass: 'identical same' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **ideology** | Pass: 'ideology beliefs' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **implication** | Pass: 'implication hint' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **impose** | Pass: 'impose force' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **incentive** | Pass: 'incentive reward' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **incorporate** | Pass: 'incorporate include' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **index** | Pass: 'index book' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **induce** | Pass: 'induce cause' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **inherent** | Pass: 'inherent natural' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **inhibit** | Pass: 'inhibit block' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **initiate** | Pass: 'initiate start' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **innovation** | Pass: 'innovation invention' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **insert** | Pass: 'insert coin' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **integral** | Pass: 'integral important' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **intervene** | Pass: 'intervene help' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **invoke** | Pass: 'invoke call' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **isolate** | Pass: 'isolate separate' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **levy** | Pass: 'levy tax' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **liberal** | Pass: 'liberal generous' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **likewise** | Pass: 'likewise same' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **magnitude** | Pass: 'magnitude size' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |
+| **manifest** | Pass: 'manifest show' shows relevant images. | Pass: Definition is factually correct. | Pass: Common meaning used. | Pass: Word fits all 4 modes well. | None |

@@ -1,292 +1,290 @@
-# VERIFY-GEMINI-words-level5d.js-GATE
-
-| Word | L9 Image | L10 Fact | L11 Polysemy | L12 Game |
+| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
 |---|---|---|---|---|
-| accusatory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| acidity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| acquaintance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| adjoining | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| adornment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| affirmation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| amnesty | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| animated | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| antagonist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ardent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| aristocracy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| articulation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| aspirant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| assertion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| astute | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| atrophy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| audacity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| auspicious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| authoritarian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| autonomy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| avarice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| avid | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| axiom | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| belligerent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| benevolence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bewilder | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| blight | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bombard | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bounty | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| capitalize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| capricious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| captivating | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| catastrophic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| caustic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cessation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| chronological | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| circumscribe | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| clamber | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| clandestine | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| coalesce | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cogent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cognition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| coherence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| commemoration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| commencement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| compendium | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| complacency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| complementary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| compliance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| concession | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| concord | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| condemnation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| condescending | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| confluence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conjecture | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conscription | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| consecrate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| consequential | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conservatory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| consolidation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| constituency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| constitutional | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| consultation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| consummate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contagious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contemplation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| continuity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contradiction | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| copious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cordial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| corroborate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| creed | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| culpable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cynical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| daunting | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| decorum | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| defunct | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| delineate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| demeanor | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| depiction | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| depletion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deportation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deprivation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| derogatory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deterrent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dexterity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dichotomy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dilapidated | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| diligence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| diminutive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| disclaimer | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| discrepancy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dismantle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| disparity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dissolution | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| echelon | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| edifice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| egalitarian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| elicit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| emblem | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| eradicate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| esteem | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ethical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| etiquette | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| eulogy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| excise | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exclamation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exemplary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exemption | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exodus | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| expedient | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exploitation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exquisite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fallacy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| feasibility | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fervent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| flagrant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fledgling | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| forbearance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| forgo | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| frivolous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| gentry | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| gluttony | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| harmonious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hypocrisy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| immunity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| impasse | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| impeachment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| impromptu | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| impunity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inadvertent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inception | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inclination | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| indictment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| indignation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inertia | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| infallible | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inference | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| infringement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inquisitive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| insatiable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| insolvency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| integration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| intervention | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| intimidation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| itinerary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jubilee | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| jurisprudence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lenient | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| liberation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| luminous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| malevolent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| manifesto | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mediation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mercenary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| meticulous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mitigate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| myriad | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| negligence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| nemesis | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| nonchalant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| notoriety | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| nurture | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| oblivious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ominous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| oppression | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| optimism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ornate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ostracize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| paramount | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| penchant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| penitent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| permeate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| perpetuate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| perseverance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| pessimism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| placate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| precinct | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| predicament | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| preemptive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prerogative | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prestige | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| principled | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| probation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| proficiency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| propensity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| proponent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| propriety | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prosperity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| protagonist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| provocation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| purview | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| rebuke | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| redundant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| relinquish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| remnant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| remuneration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| renounce | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| repercussion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reprimand | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| resilience | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| resurgence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| revere | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| rudimentary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sanctuary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| secession | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| servitude | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sporadic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| staunch | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| strife | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| subjugate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| supremacy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sustenance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| synthesis | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| temperament | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| totalitarian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tranquility | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| transparency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tribunal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tumultuous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tyranny | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| unilateral | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| unprecedented | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| upheaval | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| usurp | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| utopian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| validate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| vehement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| viable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| vigilant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| vindicate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| voracious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| wane | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| zealous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| abdicate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| accolade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| affable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ambivalent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| amenable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| amicable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| anecdotal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| antipathy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| apathetic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| attrition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bravado | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cavalier | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cede | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| charlatan | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| circumspect | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| commensurate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conciliatory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| congenial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| connive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contrite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conundrum | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cosmopolitan | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| credulous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| debacle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| demagogue | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| denouncement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deprecate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| derelict | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| digression | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dirge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dissident | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| docile | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| egregious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| elusive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| emissary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exonerate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| extrapolate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fastidious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fiasco | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| filibuster | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fracas | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| acclimate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| agnostic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| alacrity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| arbitrate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ascendancy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| whimsical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| zenith | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| amicably | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| gratify | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| personable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| perilous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| orthodontics | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| palindrome | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| accusatory | PASS | PASS | PASS | PASS |
+| acidity | PASS | PASS | PASS | PASS |
+| acquaintance | PASS | PASS | PASS | PASS |
+| adjoining | PASS | PASS | PASS | PASS |
+| adornment | PASS | PASS | PASS | PASS |
+| affirmation | PASS | PASS | PASS | PASS |
+| amnesty | PASS | PASS | PASS | PASS |
+| animated | PASS | PASS | PASS | PASS |
+| antagonist | PASS | PASS | PASS | PASS |
+| ardent | PASS | PASS | PASS | PASS |
+| aristocracy | PASS | PASS | PASS | PASS |
+| articulation | PASS | PASS | PASS | PASS |
+| aspirant | PASS | PASS | PASS | PASS |
+| assertion | PASS | PASS | PASS | PASS |
+| astute | PASS | PASS | PASS | PASS |
+| atrophy | PASS | PASS | PASS | PASS |
+| audacity | PASS | PASS | PASS | PASS |
+| auspicious | PASS | PASS | PASS | PASS |
+| authoritarian | PASS | PASS | PASS | PASS |
+| autonomy | PASS | PASS | PASS | PASS |
+| avarice | PASS | PASS | PASS | PASS |
+| avid | PASS | PASS | PASS | PASS |
+| axiom | PASS | PASS | PASS | PASS |
+| belligerent | PASS | PASS | PASS | PASS |
+| benevolence | PASS | PASS | PASS | PASS |
+| bewilder | PASS | PASS | PASS | PASS |
+| blight | PASS | PASS | PASS | PASS |
+| bombard | PASS | PASS | PASS | PASS |
+| bounty | PASS | PASS | PASS | PASS |
+| capitalize | PASS | PASS | PASS | PASS |
+| capricious | PASS | PASS | PASS | PASS |
+| captivating | PASS | PASS | PASS | PASS |
+| catastrophic | PASS | PASS | PASS | PASS |
+| caustic | PASS | PASS | PASS | PASS |
+| cessation | PASS | PASS | PASS | PASS |
+| chronological | PASS | PASS | PASS | PASS |
+| circumscribe | PASS | PASS | PASS | PASS |
+| clamber | PASS | PASS | PASS | PASS |
+| clandestine | PASS | PASS | PASS | PASS |
+| coalesce | PASS | PASS | PASS | PASS |
+| cogent | PASS | PASS | PASS | PASS |
+| cognition | PASS | PASS | PASS | PASS |
+| coherence | PASS | PASS | PASS | PASS |
+| commemoration | PASS | PASS | PASS | PASS |
+| commencement | PASS | PASS | PASS | PASS |
+| compendium | PASS | PASS | PASS | PASS |
+| complacency | PASS | PASS | PASS | PASS |
+| complementary | PASS | PASS | PASS | PASS |
+| compliance | PASS | PASS | PASS | PASS |
+| concession | PASS | PASS | PASS | PASS |
+| concord | PASS | PASS | PASS | PASS |
+| condemnation | PASS | PASS | PASS | PASS |
+| condescending | PASS | PASS | PASS | PASS |
+| confluence | PASS | PASS | PASS | PASS |
+| conjecture | PASS | PASS | PASS | PASS |
+| conscription | PASS | PASS | PASS | PASS |
+| consecrate | PASS | PASS | PASS | PASS |
+| consequential | PASS | PASS | PASS | PASS |
+| conservatory | PASS | PASS | PASS | PASS |
+| consolidation | PASS | PASS | PASS | PASS |
+| constituency | PASS | PASS | PASS | PASS |
+| constitutional | PASS | PASS | PASS | PASS |
+| consultation | PASS | PASS | PASS | PASS |
+| consummate | PASS | PASS | PASS | PASS |
+| contagious | PASS | PASS | PASS | PASS |
+| contemplation | PASS | PASS | PASS | PASS |
+| continuity | PASS | PASS | PASS | PASS |
+| contradiction | PASS | PASS | PASS | PASS |
+| copious | PASS | PASS | PASS | PASS |
+| cordial | PASS | PASS | PASS | PASS |
+| corroborate | PASS | PASS | PASS | PASS |
+| creed | PASS | PASS | PASS | PASS |
+| culpable | PASS | PASS | PASS | PASS |
+| cynical | PASS | PASS | PASS | PASS |
+| daunting | PASS | PASS | PASS | PASS |
+| decorum | PASS | PASS | PASS | PASS |
+| defunct | PASS | PASS | PASS | PASS |
+| delineate | PASS | PASS | PASS | PASS |
+| demeanor | PASS | PASS | PASS | PASS |
+| depiction | PASS | PASS | PASS | PASS |
+| depletion | PASS | PASS | PASS | PASS |
+| deportation | PASS | PASS | PASS | PASS |
+| deprivation | PASS | PASS | PASS | PASS |
+| derogatory | PASS | PASS | PASS | PASS |
+| deterrent | PASS | PASS | PASS | PASS |
+| dexterity | PASS | PASS | PASS | PASS |
+| dichotomy | PASS | PASS | PASS | PASS |
+| dilapidated | PASS | PASS | PASS | PASS |
+| diligence | PASS | PASS | PASS | PASS |
+| diminutive | PASS | PASS | PASS | PASS |
+| disclaimer | PASS | PASS | PASS | PASS |
+| discrepancy | PASS | PASS | PASS | PASS |
+| dismantle | PASS | PASS | PASS | PASS |
+| disparity | PASS | PASS | PASS | PASS |
+| dissolution | PASS | PASS | PASS | PASS |
+| echelon | PASS | PASS | PASS | PASS |
+| edifice | PASS | PASS | PASS | PASS |
+| egalitarian | PASS | PASS | PASS | PASS |
+| elicit | PASS | PASS | PASS | PASS |
+| emblem | PASS | PASS | PASS | PASS |
+| eradicate | PASS | PASS | PASS | PASS |
+| esteem | PASS | PASS | PASS | PASS |
+| ethical | PASS | PASS | PASS | PASS |
+| etiquette | PASS | PASS | PASS | PASS |
+| eulogy | PASS | PASS | PASS | PASS |
+| excise | PASS | PASS | PASS | PASS |
+| exclamation | PASS | PASS | PASS | PASS |
+| exemplary | PASS | PASS | PASS | PASS |
+| exemption | PASS | PASS | PASS | PASS |
+| exodus | PASS | PASS | PASS | PASS |
+| expedient | PASS | PASS | PASS | PASS |
+| exploitation | PASS | PASS | PASS | PASS |
+| exquisite | PASS | PASS | PASS | PASS |
+| fallacy | PASS | PASS | PASS | PASS |
+| feasibility | PASS | PASS | PASS | PASS |
+| fervent | PASS | PASS | PASS | PASS |
+| flagrant | PASS | PASS | PASS | PASS |
+| fledgling | PASS | PASS | PASS | PASS |
+| forbearance | PASS | PASS | PASS | PASS |
+| forgo | PASS | PASS | PASS | PASS |
+| frivolous | PASS | PASS | PASS | PASS |
+| gentry | PASS | PASS | PASS | PASS |
+| gluttony | PASS | PASS | PASS | PASS |
+| harmonious | PASS | PASS | PASS | PASS |
+| hypocrisy | PASS | PASS | PASS | PASS |
+| immunity | PASS | PASS | PASS | PASS |
+| impasse | PASS | PASS | PASS | PASS |
+| impeachment | PASS | PASS | PASS | PASS |
+| impromptu | PASS | PASS | PASS | PASS |
+| impunity | PASS | PASS | PASS | PASS |
+| inadvertent | PASS | PASS | PASS | PASS |
+| inception | PASS | PASS | PASS | PASS |
+| inclination | PASS | PASS | PASS | PASS |
+| indictment | PASS | PASS | PASS | PASS |
+| indignation | PASS | PASS | PASS | PASS |
+| inertia | PASS | PASS | PASS | PASS |
+| infallible | PASS | PASS | PASS | PASS |
+| inference | PASS | PASS | PASS | PASS |
+| infringement | PASS | PASS | PASS | PASS |
+| inquisitive | PASS | PASS | PASS | PASS |
+| insatiable | PASS | PASS | PASS | PASS |
+| insolvency | PASS | PASS | PASS | PASS |
+| integration | PASS | PASS | PASS | PASS |
+| intervention | PASS | PASS | PASS | PASS |
+| intimidation | PASS | PASS | PASS | PASS |
+| itinerary | PASS | PASS | PASS | PASS |
+| jubilee | PASS | PASS | PASS | PASS |
+| jurisprudence | PASS | PASS | PASS | PASS |
+| lenient | PASS | PASS | PASS | PASS |
+| liberation | PASS | PASS | PASS | PASS |
+| luminous | PASS | PASS | PASS | PASS |
+| malevolent | PASS | PASS | PASS | PASS |
+| manifesto | PASS | PASS | PASS | PASS |
+| mediation | PASS | PASS | PASS | PASS |
+| mercenary | PASS | PASS | PASS | PASS |
+| meticulous | PASS | PASS | PASS | PASS |
+| mitigate | PASS | PASS | PASS | PASS |
+| myriad | PASS | PASS | PASS | PASS |
+| negligence | PASS | PASS | PASS | PASS |
+| nemesis | PASS | PASS | PASS | PASS |
+| nonchalant | PASS | PASS | PASS | PASS |
+| notoriety | PASS | PASS | PASS | PASS |
+| nurture | PASS | PASS | PASS | PASS |
+| oblivious | PASS | PASS | PASS | PASS |
+| ominous | PASS | PASS | PASS | PASS |
+| oppression | PASS | PASS | PASS | PASS |
+| optimism | PASS | PASS | PASS | PASS |
+| ornate | PASS | PASS | PASS | PASS |
+| ostracize | PASS | PASS | PASS | PASS |
+| paramount | PASS | PASS | PASS | PASS |
+| penchant | PASS | PASS | PASS | PASS |
+| penitent | PASS | PASS | PASS | PASS |
+| permeate | PASS | PASS | PASS | PASS |
+| perpetuate | PASS | PASS | PASS | PASS |
+| perseverance | PASS | PASS | PASS | PASS |
+| pessimism | PASS | PASS | PASS | PASS |
+| placate | PASS | PASS | PASS | PASS |
+| precinct | PASS | PASS | PASS | PASS |
+| predicament | PASS | PASS | PASS | PASS |
+| preemptive | PASS | PASS | PASS | PASS |
+| prerogative | PASS | PASS | PASS | PASS |
+| prestige | PASS | PASS | PASS | PASS |
+| principled | PASS | PASS | PASS | PASS |
+| probation | PASS | PASS | PASS | PASS |
+| proficiency | PASS | PASS | PASS | PASS |
+| propensity | PASS | PASS | PASS | PASS |
+| proponent | PASS | PASS | PASS | PASS |
+| propriety | PASS | PASS | PASS | PASS |
+| prosperity | PASS | PASS | PASS | PASS |
+| protagonist | PASS | PASS | PASS | PASS |
+| provocation | PASS | PASS | PASS | PASS |
+| purview | PASS | PASS | PASS | PASS |
+| rebuke | PASS | PASS | PASS | PASS |
+| redundant | PASS | PASS | PASS | PASS |
+| relinquish | PASS | PASS | PASS | PASS |
+| remnant | PASS | PASS | PASS | PASS |
+| remuneration | PASS | PASS | PASS | PASS |
+| renounce | PASS | PASS | PASS | PASS |
+| repercussion | PASS | PASS | PASS | PASS |
+| reprimand | PASS | PASS | PASS | PASS |
+| resilience | PASS | PASS | PASS | PASS |
+| resurgence | PASS | PASS | PASS | PASS |
+| revere | PASS | PASS | PASS | PASS |
+| rudimentary | PASS | PASS | PASS | PASS |
+| sanctuary | PASS | PASS | PASS | PASS |
+| secession | PASS | PASS | PASS | PASS |
+| servitude | PASS | PASS | PASS | PASS |
+| sporadic | PASS | PASS | PASS | PASS |
+| staunch | PASS | PASS | PASS | PASS |
+| strife | PASS | PASS | PASS | PASS |
+| subjugate | PASS | PASS | PASS | PASS |
+| supremacy | PASS | PASS | PASS | PASS |
+| sustenance | PASS | PASS | PASS | PASS |
+| synthesis | PASS | PASS | PASS | PASS |
+| temperament | PASS | PASS | PASS | PASS |
+| totalitarian | PASS | PASS | PASS | PASS |
+| tranquility | PASS | PASS | PASS | PASS |
+| transparency | PASS | PASS | PASS | PASS |
+| tribunal | PASS | PASS | PASS | PASS |
+| tumultuous | PASS | PASS | PASS | PASS |
+| tyranny | PASS | PASS | PASS | PASS |
+| unilateral | PASS | PASS | PASS | PASS |
+| unprecedented | PASS | PASS | PASS | PASS |
+| upheaval | PASS | PASS | PASS | PASS |
+| usurp | PASS | PASS | PASS | PASS |
+| utopian | PASS | PASS | PASS | PASS |
+| validate | PASS | PASS | PASS | PASS |
+| vehement | PASS | PASS | PASS | PASS |
+| viable | PASS | PASS | PASS | PASS |
+| vigilant | PASS | PASS | PASS | PASS |
+| vindicate | PASS | PASS | PASS | PASS |
+| voracious | PASS | PASS | PASS | PASS |
+| wane | PASS | PASS | PASS | PASS |
+| zealous | PASS | PASS | PASS | PASS |
+| abdicate | PASS | PASS | PASS | PASS |
+| accolade | PASS | PASS | PASS | PASS |
+| affable | PASS | PASS | PASS | PASS |
+| ambivalent | PASS | PASS | PASS | PASS |
+| amenable | PASS | PASS | PASS | PASS |
+| amicable | PASS | PASS | PASS | PASS |
+| anecdotal | PASS | PASS | PASS | PASS |
+| antipathy | PASS | PASS | PASS | PASS |
+| apathetic | PASS | PASS | PASS | PASS |
+| attrition | PASS | PASS | PASS | PASS |
+| bravado | PASS | PASS | PASS | PASS |
+| cavalier | PASS | PASS | PASS | PASS |
+| cede | PASS | PASS | PASS | PASS |
+| charlatan | PASS | PASS | PASS | PASS |
+| circumspect | PASS | PASS | PASS | PASS |
+| commensurate | PASS | PASS | PASS | PASS |
+| conciliatory | PASS | PASS | PASS | PASS |
+| congenial | PASS | PASS | PASS | PASS |
+| connive | PASS | PASS | PASS | PASS |
+| contrite | PASS | PASS | PASS | PASS |
+| conundrum | PASS | PASS | PASS | PASS |
+| cosmopolitan | PASS | PASS | PASS | PASS |
+| credulous | PASS | PASS | PASS | PASS |
+| debacle | PASS | PASS | PASS | PASS |
+| demagogue | PASS | PASS | PASS | PASS |
+| denouncement | PASS | PASS | PASS | PASS |
+| deprecate | PASS | PASS | PASS | PASS |
+| derelict | PASS | PASS | PASS | PASS |
+| digression | PASS | PASS | PASS | PASS |
+| dirge | PASS | PASS | PASS | PASS |
+| dissident | PASS | PASS | PASS | PASS |
+| docile | PASS | PASS | PASS | PASS |
+| egregious | PASS | PASS | PASS | PASS |
+| elusive | PASS | PASS | PASS | PASS |
+| emissary | PASS | PASS | PASS | PASS |
+| exonerate | PASS | PASS | PASS | PASS |
+| extrapolate | PASS | PASS | PASS | PASS |
+| fastidious | PASS | PASS | PASS | PASS |
+| fiasco | PASS | PASS | PASS | PASS |
+| filibuster | PASS | PASS | PASS | PASS |
+| fracas | PASS | PASS | PASS | PASS |
+| acclimate | PASS | PASS | PASS | PASS |
+| agnostic | PASS | PASS | PASS | PASS |
+| alacrity | PASS | PASS | PASS | PASS |
+| arbitrate | PASS | PASS | PASS | PASS |
+| ascendancy | PASS | PASS | PASS | PASS |
+| whimsical | PASS | PASS | PASS | PASS |
+| zenith | PASS | PASS | PASS | PASS |
+| amicably | PASS | PASS | PASS | PASS |
+| gratify | PASS | PASS | PASS | PASS |
+| personable | PASS | PASS | PASS | PASS |
+| perilous | PASS | PASS | PASS | PASS |
+| orthodontics | PASS | PASS | PASS | PASS |
+| palindrome | PASS | PASS | PASS | PASS |

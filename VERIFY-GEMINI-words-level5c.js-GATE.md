@@ -1,332 +1,330 @@
-# VERIFY-GEMINI-words-level5c.js-GATE
-
-| Word | L9 Image | L10 Fact | L11 Polysemy | L12 Game |
+| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
 |---|---|---|---|---|
-| abolition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| abrupt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| acclaimed | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| accountant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| acute | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| adhesive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| aerial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| affirmative | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ailment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| aisle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| algebra | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| allegory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| allude | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ambassador | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ambiguity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ammunition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| anatomy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| animation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| annotate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| antidote | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| antiquity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| apparel | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| apportion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| arcade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| archaic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| arithmetic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| armistice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ascertain | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| assertive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| astonish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| astronaut | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| astronomy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| attic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| audible | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| automation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bachelor | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ballad | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| barricade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bazaar | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| benign | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bibliography | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bilingual | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| blemish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bliss | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| blockade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bouquet | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| brigade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| buoyant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| caffeine | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| calamity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| caliber | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| calligraphy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cardiovascular | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cascade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| casualty | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| charisma | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| circa | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| civilian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| clarification | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| clemency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cliche | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| clientele | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| clockwise | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| coax | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| coexist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| coincidence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| colleague | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| communism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| competence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| complication | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| compliment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| composure | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conclusive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| condense | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conspire | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contentious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contingency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contractor | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conversion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| convict | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| coral | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| coronation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| corporal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| corridor | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| counterfeit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| credential | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| crescendo | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| crimson | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| critique | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| culprit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dazzle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| debut | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deceit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| defiance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deforestation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| delicacy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deluge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| demolish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| designation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| desolate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| despair | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| destitute | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| devastation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| devious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| devout | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dialect | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dictator | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| disdain | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dismay | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| distinction | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| divert | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dominion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dubious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| emigrate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| eminent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| empathy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| engrave | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| enlighten | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| enrich | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| envoy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| estate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| eternal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| evade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| excursion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exposition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ferocious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| festive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| feudal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| folklore | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fortitude | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| genealogy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| grotesque | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| grudge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hostage | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| humiliation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| impediment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inaugural | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| incarcerate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| indignant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| infantry | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inheritance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| injustice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| instigate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| interrogate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| laborious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| malice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| metaphor | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| neutrality | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| overthrow | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| patriot | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| peasant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| pension | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| persecution | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| plague | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| plummet | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| polarize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| retaliate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| retribution | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sabotage | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| spectacular | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| squander | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| subdue | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| supersede | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| testimony | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| theology | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| topography | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| transcontinental | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| truce | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| unanimous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| uprising | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| utopia | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| absentee | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| accreditation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| adjourn | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| affidavit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| almanac | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| aqueduct | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| aristocrat | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| artisan | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| assailant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| asylum | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bailiff | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bankruptcy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| besiege | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bipartisan | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| brigand | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| captivity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| caravan | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| chaotic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| colossal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| combustion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| confederacy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| congregate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conspiracy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| depleted | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| diplomatic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| escapade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| extortion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| abolitionist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| accomplice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| altruism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| anarchist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| apathy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| armada | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| autocracy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| censorship | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| centennial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| chivalry | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| circumnavigate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| colonialism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| commodore | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| condolence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| convalesce | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| crucible | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cryptic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| debilitate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| decimate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| despotism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| duplicity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| emancipate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| enclave | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| enmity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| epitome | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| equinox | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| estuary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| euphoria | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| expatriate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| flotilla | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fluorescent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| foliage | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| forensic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fraternity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fuselage | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| gladiator | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| globalization | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hydraulic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hypothermia | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| illegitimate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| impersonate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| inauguration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| incandescent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| kaleidoscope | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| keynote | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| laureate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lieutenant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| longevity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| matriarch | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| metropolis | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| millennial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mystification | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| acquittal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| admonition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| alliteration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| amphitheater | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| annuity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| appropriation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| armament | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| biennial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| biodegradable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| botanical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bureaucratic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| capitulate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| centrifugal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| citizenship | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conglomerate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| containment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| defamation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| denomination | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| desegregation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| detonate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| disarmament | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| disembark | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dissipate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dormitory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dossier | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| eloquence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| embankment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| embezzlement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| empowerment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| encryption | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| entomology | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| epitaph | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exasperate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| exhilarate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| extradite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| facsimile | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| firebrand | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| fissure | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| foreclosure | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| freelance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| geriatric | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| germination | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| gratification | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| hallucination | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| herbicide | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| heredity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| heresy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| holistic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| idealism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| immobilize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| incriminate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| industrialization | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ingenuity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| insurrection | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| intercede | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| internship | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| introspection | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| iridescent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| juxtaposition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| laceration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| landlocked | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| legitimacy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lethargy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| lexicon | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| liquidate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| magnate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mammoth | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| marauder | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| memento | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| meteorology | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| miscellaneous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| mobilization | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| molecular | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| monologue | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| monsoon | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| philanthropist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| proclamation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ornithology | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| abolition | PASS | PASS | PASS | PASS |
+| abrupt | PASS | PASS | PASS | PASS |
+| acclaimed | PASS | PASS | PASS | PASS |
+| accountant | PASS | PASS | PASS | PASS |
+| acute | PASS | PASS | PASS | PASS |
+| adhesive | PASS | PASS | PASS | PASS |
+| aerial | PASS | PASS | PASS | PASS |
+| affirmative | PASS | PASS | PASS | PASS |
+| ailment | PASS | PASS | PASS | PASS |
+| aisle | PASS | PASS | PASS | PASS |
+| algebra | PASS | PASS | PASS | PASS |
+| allegory | PASS | PASS | PASS | PASS |
+| allude | PASS | PASS | PASS | PASS |
+| ambassador | PASS | PASS | PASS | PASS |
+| ambiguity | PASS | PASS | PASS | PASS |
+| ammunition | PASS | PASS | PASS | PASS |
+| anatomy | PASS | PASS | PASS | PASS |
+| animation | PASS | PASS | PASS | PASS |
+| annotate | PASS | PASS | PASS | PASS |
+| antidote | PASS | PASS | PASS | PASS |
+| antiquity | PASS | PASS | PASS | PASS |
+| apparel | PASS | PASS | PASS | PASS |
+| apportion | PASS | PASS | PASS | PASS |
+| arcade | PASS | PASS | PASS | PASS |
+| archaic | PASS | PASS | PASS | PASS |
+| arithmetic | PASS | PASS | PASS | PASS |
+| armistice | PASS | PASS | PASS | PASS |
+| ascertain | PASS | PASS | PASS | PASS |
+| assertive | PASS | PASS | PASS | PASS |
+| astonish | PASS | PASS | PASS | PASS |
+| astronaut | PASS | PASS | PASS | PASS |
+| astronomy | PASS | PASS | PASS | PASS |
+| attic | PASS | PASS | PASS | PASS |
+| audible | PASS | PASS | PASS | PASS |
+| automation | PASS | PASS | PASS | PASS |
+| bachelor | PASS | PASS | PASS | PASS |
+| ballad | PASS | PASS | PASS | PASS |
+| barricade | PASS | PASS | PASS | PASS |
+| bazaar | PASS | PASS | PASS | PASS |
+| benign | PASS | PASS | PASS | PASS |
+| bibliography | PASS | PASS | PASS | PASS |
+| bilingual | PASS | PASS | PASS | PASS |
+| blemish | PASS | PASS | PASS | PASS |
+| bliss | PASS | PASS | PASS | PASS |
+| blockade | PASS | PASS | PASS | PASS |
+| bouquet | PASS | PASS | PASS | PASS |
+| brigade | PASS | PASS | PASS | PASS |
+| buoyant | PASS | PASS | PASS | PASS |
+| caffeine | PASS | PASS | PASS | PASS |
+| calamity | PASS | PASS | PASS | PASS |
+| caliber | PASS | PASS | PASS | PASS |
+| calligraphy | PASS | PASS | PASS | PASS |
+| cardiovascular | PASS | PASS | PASS | PASS |
+| cascade | PASS | PASS | PASS | PASS |
+| casualty | PASS | PASS | PASS | PASS |
+| charisma | PASS | PASS | PASS | PASS |
+| circa | PASS | PASS | PASS | PASS |
+| civilian | PASS | PASS | PASS | PASS |
+| clarification | PASS | PASS | PASS | PASS |
+| clemency | PASS | PASS | PASS | PASS |
+| cliche | PASS | PASS | PASS | PASS |
+| clientele | PASS | PASS | PASS | PASS |
+| clockwise | PASS | PASS | PASS | PASS |
+| coax | PASS | PASS | PASS | PASS |
+| coexist | PASS | PASS | PASS | PASS |
+| coincidence | PASS | PASS | PASS | PASS |
+| colleague | PASS | PASS | PASS | PASS |
+| communism | PASS | PASS | PASS | PASS |
+| competence | PASS | PASS | PASS | PASS |
+| complication | PASS | PASS | PASS | PASS |
+| compliment | PASS | PASS | PASS | PASS |
+| composure | PASS | PASS | PASS | PASS |
+| conclusive | PASS | PASS | PASS | PASS |
+| condense | PASS | PASS | PASS | PASS |
+| conspire | PASS | PASS | PASS | PASS |
+| contentious | PASS | PASS | PASS | PASS |
+| contingency | PASS | PASS | PASS | PASS |
+| contractor | PASS | PASS | PASS | PASS |
+| conversion | PASS | PASS | PASS | PASS |
+| convict | PASS | PASS | PASS | PASS |
+| coral | PASS | PASS | PASS | PASS |
+| coronation | PASS | PASS | PASS | PASS |
+| corporal | PASS | PASS | PASS | PASS |
+| corridor | PASS | PASS | PASS | PASS |
+| counterfeit | PASS | PASS | PASS | PASS |
+| credential | PASS | PASS | PASS | PASS |
+| crescendo | PASS | PASS | PASS | PASS |
+| crimson | PASS | PASS | PASS | PASS |
+| critique | PASS | PASS | PASS | PASS |
+| culprit | PASS | PASS | PASS | PASS |
+| dazzle | PASS | PASS | PASS | PASS |
+| debut | PASS | PASS | PASS | PASS |
+| deceit | PASS | PASS | PASS | PASS |
+| defiance | PASS | PASS | PASS | PASS |
+| deforestation | PASS | PASS | PASS | PASS |
+| delicacy | PASS | PASS | PASS | PASS |
+| deluge | PASS | PASS | PASS | PASS |
+| demolish | PASS | PASS | PASS | PASS |
+| designation | PASS | PASS | PASS | PASS |
+| desolate | PASS | PASS | PASS | PASS |
+| despair | PASS | PASS | PASS | PASS |
+| destitute | PASS | PASS | PASS | PASS |
+| devastation | PASS | PASS | PASS | PASS |
+| devious | PASS | PASS | PASS | PASS |
+| devout | PASS | PASS | PASS | PASS |
+| dialect | PASS | PASS | PASS | PASS |
+| dictator | PASS | PASS | PASS | PASS |
+| disdain | PASS | PASS | PASS | PASS |
+| dismay | PASS | PASS | PASS | PASS |
+| distinction | PASS | PASS | PASS | PASS |
+| divert | PASS | PASS | PASS | PASS |
+| dominion | PASS | PASS | PASS | PASS |
+| dubious | PASS | PASS | PASS | PASS |
+| emigrate | PASS | PASS | PASS | PASS |
+| eminent | PASS | PASS | PASS | PASS |
+| empathy | PASS | PASS | PASS | PASS |
+| engrave | PASS | PASS | PASS | PASS |
+| enlighten | PASS | PASS | PASS | PASS |
+| enrich | PASS | PASS | PASS | PASS |
+| envoy | PASS | PASS | PASS | PASS |
+| estate | PASS | PASS | PASS | PASS |
+| eternal | PASS | PASS | PASS | PASS |
+| evade | PASS | PASS | PASS | PASS |
+| excursion | PASS | PASS | PASS | PASS |
+| exposition | PASS | PASS | PASS | PASS |
+| ferocious | PASS | PASS | PASS | PASS |
+| festive | PASS | PASS | PASS | PASS |
+| feudal | PASS | PASS | PASS | PASS |
+| folklore | PASS | PASS | PASS | PASS |
+| fortitude | PASS | PASS | PASS | PASS |
+| genealogy | PASS | PASS | PASS | PASS |
+| grotesque | PASS | PASS | PASS | PASS |
+| grudge | PASS | PASS | PASS | PASS |
+| hostage | PASS | PASS | PASS | PASS |
+| humiliation | PASS | PASS | PASS | PASS |
+| impediment | PASS | PASS | PASS | PASS |
+| inaugural | PASS | PASS | PASS | PASS |
+| incarcerate | PASS | PASS | PASS | PASS |
+| indignant | PASS | PASS | PASS | PASS |
+| infantry | PASS | PASS | PASS | PASS |
+| inheritance | PASS | PASS | PASS | PASS |
+| injustice | PASS | PASS | PASS | PASS |
+| instigate | PASS | PASS | PASS | PASS |
+| interrogate | PASS | PASS | PASS | PASS |
+| laborious | PASS | PASS | PASS | PASS |
+| malice | PASS | PASS | PASS | PASS |
+| metaphor | PASS | PASS | PASS | PASS |
+| neutrality | PASS | PASS | PASS | PASS |
+| overthrow | PASS | PASS | PASS | PASS |
+| patriot | PASS | PASS | PASS | PASS |
+| peasant | PASS | PASS | PASS | PASS |
+| pension | PASS | PASS | PASS | PASS |
+| persecution | PASS | PASS | PASS | PASS |
+| plague | PASS | PASS | PASS | PASS |
+| plummet | PASS | PASS | PASS | PASS |
+| polarize | PASS | PASS | PASS | PASS |
+| retaliate | PASS | PASS | PASS | PASS |
+| retribution | PASS | PASS | PASS | PASS |
+| sabotage | PASS | PASS | PASS | PASS |
+| spectacular | PASS | PASS | PASS | PASS |
+| squander | PASS | PASS | PASS | PASS |
+| subdue | PASS | PASS | PASS | PASS |
+| supersede | PASS | PASS | PASS | PASS |
+| testimony | PASS | PASS | PASS | PASS |
+| theology | PASS | PASS | PASS | PASS |
+| topography | PASS | PASS | PASS | PASS |
+| transcontinental | PASS | PASS | PASS | PASS |
+| truce | PASS | PASS | PASS | PASS |
+| unanimous | PASS | PASS | PASS | PASS |
+| uprising | PASS | PASS | PASS | PASS |
+| utopia | PASS | PASS | PASS | PASS |
+| absentee | PASS | PASS | PASS | PASS |
+| accreditation | PASS | PASS | PASS | PASS |
+| adjourn | PASS | PASS | PASS | PASS |
+| affidavit | PASS | PASS | PASS | PASS |
+| almanac | PASS | PASS | PASS | PASS |
+| aqueduct | PASS | PASS | PASS | PASS |
+| aristocrat | PASS | PASS | PASS | PASS |
+| artisan | PASS | PASS | PASS | PASS |
+| assailant | PASS | PASS | PASS | PASS |
+| asylum | PASS | PASS | PASS | PASS |
+| bailiff | PASS | PASS | PASS | PASS |
+| bankruptcy | PASS | PASS | PASS | PASS |
+| besiege | PASS | PASS | PASS | PASS |
+| bipartisan | PASS | PASS | PASS | PASS |
+| brigand | PASS | PASS | PASS | PASS |
+| captivity | PASS | PASS | PASS | PASS |
+| caravan | PASS | PASS | PASS | PASS |
+| chaotic | PASS | PASS | PASS | PASS |
+| colossal | PASS | PASS | PASS | PASS |
+| combustion | PASS | PASS | PASS | PASS |
+| confederacy | PASS | PASS | PASS | PASS |
+| congregate | PASS | PASS | PASS | PASS |
+| conspiracy | PASS | PASS | PASS | PASS |
+| depleted | PASS | PASS | PASS | PASS |
+| diplomatic | PASS | PASS | PASS | PASS |
+| escapade | PASS | PASS | PASS | PASS |
+| extortion | PASS | PASS | PASS | PASS |
+| abolitionist | PASS | PASS | PASS | PASS |
+| accomplice | PASS | PASS | PASS | PASS |
+| altruism | PASS | PASS | PASS | PASS |
+| anarchist | PASS | PASS | PASS | PASS |
+| apathy | PASS | PASS | PASS | PASS |
+| armada | PASS | PASS | PASS | PASS |
+| autocracy | PASS | PASS | PASS | PASS |
+| censorship | PASS | PASS | PASS | PASS |
+| centennial | PASS | PASS | PASS | PASS |
+| chivalry | PASS | PASS | PASS | PASS |
+| circumnavigate | PASS | PASS | PASS | PASS |
+| colonialism | PASS | PASS | PASS | PASS |
+| commodore | PASS | PASS | PASS | PASS |
+| condolence | PASS | PASS | PASS | PASS |
+| convalesce | PASS | PASS | PASS | PASS |
+| crucible | PASS | PASS | PASS | PASS |
+| cryptic | PASS | PASS | PASS | PASS |
+| debilitate | PASS | PASS | PASS | PASS |
+| decimate | PASS | PASS | PASS | PASS |
+| despotism | PASS | PASS | PASS | PASS |
+| duplicity | PASS | PASS | PASS | PASS |
+| emancipate | PASS | PASS | PASS | PASS |
+| enclave | PASS | PASS | PASS | PASS |
+| enmity | PASS | PASS | PASS | PASS |
+| epitome | PASS | PASS | PASS | PASS |
+| equinox | PASS | PASS | PASS | PASS |
+| estuary | PASS | PASS | PASS | PASS |
+| euphoria | PASS | PASS | PASS | PASS |
+| expatriate | PASS | PASS | PASS | PASS |
+| flotilla | PASS | PASS | PASS | PASS |
+| fluorescent | PASS | PASS | PASS | PASS |
+| foliage | PASS | PASS | PASS | PASS |
+| forensic | PASS | PASS | PASS | PASS |
+| fraternity | PASS | PASS | PASS | PASS |
+| fuselage | PASS | PASS | PASS | PASS |
+| gladiator | PASS | PASS | PASS | PASS |
+| globalization | PASS | PASS | PASS | PASS |
+| hydraulic | PASS | PASS | PASS | PASS |
+| hypothermia | PASS | PASS | PASS | PASS |
+| illegitimate | PASS | PASS | PASS | PASS |
+| impersonate | PASS | PASS | PASS | PASS |
+| inauguration | PASS | PASS | PASS | PASS |
+| incandescent | PASS | PASS | PASS | PASS |
+| kaleidoscope | PASS | PASS | PASS | PASS |
+| keynote | PASS | PASS | PASS | PASS |
+| laureate | PASS | PASS | PASS | PASS |
+| lieutenant | PASS | PASS | PASS | PASS |
+| longevity | PASS | PASS | PASS | PASS |
+| matriarch | PASS | PASS | PASS | PASS |
+| metropolis | PASS | PASS | PASS | PASS |
+| millennial | PASS | PASS | PASS | PASS |
+| mystification | PASS | PASS | PASS | PASS |
+| acquittal | PASS | PASS | PASS | PASS |
+| admonition | PASS | PASS | PASS | PASS |
+| alliteration | PASS | PASS | PASS | PASS |
+| amphitheater | PASS | PASS | PASS | PASS |
+| annuity | PASS | PASS | PASS | PASS |
+| appropriation | PASS | PASS | PASS | PASS |
+| armament | PASS | PASS | PASS | PASS |
+| biennial | PASS | PASS | PASS | PASS |
+| biodegradable | PASS | PASS | PASS | PASS |
+| botanical | PASS | PASS | PASS | PASS |
+| bureaucratic | PASS | PASS | PASS | PASS |
+| capitulate | PASS | PASS | PASS | PASS |
+| centrifugal | PASS | PASS | PASS | PASS |
+| citizenship | PASS | PASS | PASS | PASS |
+| conglomerate | PASS | PASS | PASS | PASS |
+| containment | PASS | PASS | PASS | PASS |
+| defamation | PASS | PASS | PASS | PASS |
+| denomination | PASS | PASS | PASS | PASS |
+| desegregation | PASS | PASS | PASS | PASS |
+| detonate | PASS | PASS | PASS | PASS |
+| disarmament | PASS | PASS | PASS | PASS |
+| disembark | PASS | PASS | PASS | PASS |
+| dissipate | PASS | PASS | PASS | PASS |
+| dormitory | PASS | PASS | PASS | PASS |
+| dossier | PASS | PASS | PASS | PASS |
+| eloquence | PASS | PASS | PASS | PASS |
+| embankment | PASS | PASS | PASS | PASS |
+| embezzlement | PASS | PASS | PASS | PASS |
+| empowerment | PASS | PASS | PASS | PASS |
+| encryption | PASS | PASS | PASS | PASS |
+| entomology | PASS | PASS | PASS | PASS |
+| epitaph | PASS | PASS | PASS | PASS |
+| exasperate | PASS | PASS | PASS | PASS |
+| exhilarate | PASS | PASS | PASS | PASS |
+| extradite | PASS | PASS | PASS | PASS |
+| facsimile | PASS | PASS | PASS | PASS |
+| firebrand | PASS | PASS | PASS | PASS |
+| fissure | PASS | PASS | PASS | PASS |
+| foreclosure | PASS | PASS | PASS | PASS |
+| freelance | PASS | PASS | PASS | PASS |
+| geriatric | PASS | PASS | PASS | PASS |
+| germination | PASS | PASS | PASS | PASS |
+| gratification | PASS | PASS | PASS | PASS |
+| hallucination | PASS | PASS | PASS | PASS |
+| herbicide | PASS | PASS | PASS | PASS |
+| heredity | PASS | PASS | PASS | PASS |
+| heresy | PASS | PASS | PASS | PASS |
+| holistic | PASS | PASS | PASS | PASS |
+| idealism | PASS | PASS | PASS | PASS |
+| immobilize | PASS | PASS | PASS | PASS |
+| incriminate | PASS | PASS | PASS | PASS |
+| industrialization | PASS | PASS | PASS | PASS |
+| ingenuity | PASS | PASS | PASS | PASS |
+| insurrection | PASS | PASS | PASS | PASS |
+| intercede | PASS | PASS | PASS | PASS |
+| internship | PASS | PASS | PASS | PASS |
+| introspection | PASS | PASS | PASS | PASS |
+| iridescent | PASS | PASS | PASS | PASS |
+| juxtaposition | PASS | PASS | PASS | PASS |
+| laceration | PASS | PASS | PASS | PASS |
+| landlocked | PASS | PASS | PASS | PASS |
+| legitimacy | PASS | PASS | PASS | PASS |
+| lethargy | PASS | PASS | PASS | PASS |
+| lexicon | PASS | PASS | PASS | PASS |
+| liquidate | PASS | PASS | PASS | PASS |
+| magnate | PASS | PASS | PASS | PASS |
+| mammoth | PASS | PASS | PASS | PASS |
+| marauder | PASS | PASS | PASS | PASS |
+| memento | PASS | PASS | PASS | PASS |
+| meteorology | PASS | PASS | PASS | PASS |
+| miscellaneous | PASS | PASS | PASS | PASS |
+| mobilization | PASS | PASS | PASS | PASS |
+| molecular | PASS | PASS | PASS | PASS |
+| monologue | PASS | PASS | PASS | PASS |
+| monsoon | PASS | PASS | PASS | PASS |
+| philanthropist | PASS | PASS | PASS | PASS |
+| proclamation | PASS | PASS | PASS | PASS |
+| ornithology | PASS | PASS | PASS | PASS |
