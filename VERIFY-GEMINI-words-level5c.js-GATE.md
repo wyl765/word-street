@@ -8,7 +8,7 @@
 | accountant | PASS | PASS | PASS | PASS |
 | acute | PASS | PASS | PASS | PASS |
 | adhesive | PASS | PASS | PASS | PASS |
-| aerial | PASS | PASS | PASS | PASS |
+| aerial | WARN: Long keyword | PASS | PASS | PASS |
 | affirmative | PASS | PASS | PASS | PASS |
 | ailment | PASS | PASS | PASS | PASS |
 | aisle | PASS | PASS | PASS | PASS |
@@ -164,11 +164,11 @@
 | spectacular | PASS | PASS | PASS | PASS |
 | squander | PASS | PASS | PASS | PASS |
 | subdue | PASS | PASS | PASS | PASS |
-| supersede | PASS | PASS | PASS | PASS |
+| supersede | WARN: Long keyword | PASS | PASS | PASS |
 | testimony | PASS | PASS | PASS | PASS |
 | theology | PASS | PASS | PASS | PASS |
 | topography | PASS | PASS | PASS | PASS |
-| transcontinental | PASS | PASS | PASS | PASS |
+| transcontinental | WARN: Long keyword | PASS | PASS | PASS |
 | truce | PASS | PASS | PASS | PASS |
 | unanimous | PASS | PASS | PASS | PASS |
 | uprising | PASS | PASS | PASS | PASS |
@@ -186,7 +186,7 @@
 | bailiff | PASS | PASS | PASS | PASS |
 | bankruptcy | PASS | PASS | PASS | PASS |
 | besiege | PASS | PASS | PASS | PASS |
-| bipartisan | PASS | PASS | PASS | PASS |
+| bipartisan | WARN: Long keyword | PASS | PASS | PASS |
 | brigand | PASS | PASS | PASS | PASS |
 | captivity | PASS | PASS | PASS | PASS |
 | caravan | PASS | PASS | PASS | PASS |
@@ -219,18 +219,18 @@
 | cryptic | PASS | PASS | PASS | PASS |
 | debilitate | PASS | PASS | PASS | PASS |
 | decimate | PASS | PASS | PASS | PASS |
-| despotism | PASS | PASS | PASS | PASS |
+| despotism | WARN: Long keyword | PASS | PASS | PASS |
 | duplicity | PASS | PASS | PASS | PASS |
 | emancipate | PASS | PASS | PASS | PASS |
 | enclave | PASS | PASS | PASS | PASS |
 | enmity | PASS | PASS | PASS | PASS |
-| epitome | PASS | PASS | PASS | PASS |
-| equinox | PASS | PASS | PASS | PASS |
+| epitome | WARN: Long keyword | PASS | PASS | PASS |
+| equinox | WARN: Long keyword | PASS | PASS | PASS |
 | estuary | PASS | PASS | PASS | PASS |
 | euphoria | PASS | PASS | PASS | PASS |
 | expatriate | PASS | PASS | PASS | PASS |
 | flotilla | PASS | PASS | PASS | PASS |
-| fluorescent | PASS | PASS | PASS | PASS |
+| fluorescent | WARN: Long keyword | PASS | PASS | PASS |
 | foliage | PASS | PASS | PASS | PASS |
 | forensic | PASS | PASS | PASS | PASS |
 | fraternity | PASS | PASS | PASS | PASS |
@@ -253,16 +253,16 @@
 | millennial | PASS | PASS | PASS | PASS |
 | mystification | PASS | PASS | PASS | PASS |
 | acquittal | PASS | PASS | PASS | PASS |
-| admonition | PASS | PASS | PASS | PASS |
+| admonition | WARN: Long keyword | PASS | PASS | PASS |
 | alliteration | PASS | PASS | PASS | PASS |
 | amphitheater | PASS | PASS | PASS | PASS |
 | annuity | PASS | PASS | PASS | PASS |
 | appropriation | PASS | PASS | PASS | PASS |
 | armament | PASS | PASS | PASS | PASS |
-| biennial | PASS | PASS | PASS | PASS |
+| biennial | WARN: Long keyword | PASS | PASS | PASS |
 | biodegradable | PASS | PASS | PASS | PASS |
 | botanical | PASS | PASS | PASS | PASS |
-| bureaucratic | PASS | PASS | PASS | PASS |
+| bureaucratic | WARN: Long keyword | PASS | PASS | PASS |
 | capitulate | PASS | PASS | PASS | PASS |
 | centrifugal | PASS | PASS | PASS | PASS |
 | citizenship | PASS | PASS | PASS | PASS |
@@ -272,7 +272,7 @@
 | denomination | PASS | PASS | PASS | PASS |
 | desegregation | PASS | PASS | PASS | PASS |
 | detonate | PASS | PASS | PASS | PASS |
-| disarmament | PASS | PASS | PASS | PASS |
+| disarmament | WARN: Long keyword | PASS | PASS | PASS |
 | disembark | PASS | PASS | PASS | PASS |
 | dissipate | PASS | PASS | PASS | PASS |
 | dormitory | PASS | PASS | PASS | PASS |
@@ -302,7 +302,7 @@
 | holistic | PASS | PASS | PASS | PASS |
 | idealism | PASS | PASS | PASS | PASS |
 | immobilize | PASS | PASS | PASS | PASS |
-| incriminate | PASS | PASS | PASS | PASS |
+| incriminate | WARN: Long keyword | PASS | PASS | PASS |
 | industrialization | PASS | PASS | PASS | PASS |
 | ingenuity | PASS | PASS | PASS | PASS |
 | insurrection | PASS | PASS | PASS | PASS |
@@ -310,7 +310,7 @@
 | internship | PASS | PASS | PASS | PASS |
 | introspection | PASS | PASS | PASS | PASS |
 | iridescent | PASS | PASS | PASS | PASS |
-| juxtaposition | PASS | PASS | PASS | PASS |
+| juxtaposition | WARN: Long keyword | PASS | PASS | PASS |
 | laceration | PASS | PASS | PASS | PASS |
 | landlocked | PASS | PASS | PASS | PASS |
 | legitimacy | PASS | PASS | PASS | PASS |
@@ -326,7 +326,7 @@
 | mobilization | PASS | PASS | PASS | PASS |
 | molecular | PASS | PASS | PASS | PASS |
 | monologue | PASS | PASS | PASS | PASS |
-| monsoon | PASS | PASS | PASS | PASS |
+| monsoon | WARN: Long keyword | PASS | PASS | PASS |
 | philanthropist | PASS | PASS | PASS | PASS |
 | proclamation | PASS | PASS | PASS | PASS |
 | ornithology | PASS | PASS | PASS | PASS |

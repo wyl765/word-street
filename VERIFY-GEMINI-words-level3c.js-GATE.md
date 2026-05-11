@@ -24,7 +24,7 @@
 | rhythm | PASS | PASS | PASS | PASS |
 | risk | PASS | PASS | PASS | PASS |
 | tension | PASS | PASS | PASS | PASS |
-| typical | PASS | PASS | PASS | PASS |
+| typical | WARN: Long keyword | PASS | PASS | PASS |
 | basement | PASS | PASS | PASS | PASS |
 | blade | PASS | PASS | PASS | PASS |
 | canyon | PASS | PASS | PASS | PASS |
@@ -75,7 +75,7 @@
 | archipelago | PASS | PASS | PASS | PASS |
 | stratosphere | PASS | PASS | PASS | PASS |
 | preamble | PASS | PASS | PASS | PASS |
-| filament | PASS | PASS | PASS | PASS |
+| filament | WARN: Long keyword | PASS | PASS | PASS |
 | nocturnal | PASS | PASS | PASS | PASS |
 | translucent | PASS | PASS | PASS | PASS |
 | omnivore | PASS | PASS | PASS | PASS |
@@ -86,7 +86,7 @@
 | respiration | PASS | PASS | PASS | PASS |
 | paleontology | PASS | PASS | PASS | PASS |
 | aquifer | PASS | PASS | PASS | PASS |
-| deciduous | PASS | PASS | PASS | PASS |
+| deciduous | WARN: Long keyword | PASS | PASS | PASS |
 | pharaoh | PASS | PASS | PASS | PASS |
 | sedimentary | PASS | PASS | PASS | PASS |
 | isthmus | PASS | PASS | PASS | PASS |
@@ -134,7 +134,7 @@
 | hurricane | PASS | PASS | PASS | PASS |
 | hydrate | PASS | PASS | PASS | PASS |
 | hymn | PASS | PASS | PASS | PASS |
-| hyperbole | PASS | PASS | PASS | PASS |
+| hyperbole | WARN: Long keyword | PASS | PASS | PASS |
 | icon | PASS | PASS | PASS | PASS |
 | imbue | PASS | PASS | PASS | PASS |
 | impervious | PASS | PASS | PASS | PASS |
@@ -168,7 +168,7 @@
 | lacquer | PASS | PASS | PASS | PASS |
 | lair | PASS | PASS | PASS | PASS |
 | lance | PASS | PASS | PASS | PASS |
-| lanky | PASS | PASS | PASS | PASS |
+| lanky | WARN: Long keyword | PASS | PASS | PASS |
 | lattice | PASS | PASS | PASS | PASS |
 | lavish | PASS | PASS | PASS | PASS |
 | ledger | PASS | PASS | PASS | PASS |

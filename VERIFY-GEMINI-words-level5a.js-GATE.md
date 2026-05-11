@@ -26,7 +26,7 @@
 | copyright | PASS | PASS | PASS | PASS |
 | correlate | PASS | PASS | PASS | PASS |
 | culminate | PASS | PASS | PASS | PASS |
-| curtail | PASS | PASS | PASS | PASS |
+| curtail | WARN: Long keyword | PASS | PASS | PASS |
 | deem | PASS | PASS | PASS | PASS |
 | devise | PASS | PASS | PASS | PASS |
 | displace | PASS | PASS | PASS | PASS |
@@ -88,7 +88,7 @@
 | accountability | PASS | PASS | PASS | PASS |
 | altruistic | PASS | PASS | PASS | PASS |
 | caveat | PASS | PASS | PASS | PASS |
-| condone | PASS | PASS | PASS | PASS |
+| condone | WARN: Long keyword | PASS | PASS | PASS |
 | dearth | PASS | PASS | PASS | PASS |
 | definitive | PASS | PASS | PASS | PASS |
 | ebbing | PASS | PASS | PASS | PASS |
@@ -113,14 +113,14 @@
 | respective | PASS | PASS | PASS | PASS |
 | revoke | PASS | PASS | PASS | PASS |
 | solicit | PASS | PASS | PASS | PASS |
-| statutory | PASS | PASS | PASS | PASS |
+| statutory | WARN: Long keyword | PASS | PASS | PASS |
 | suffice | PASS | PASS | PASS | PASS |
 | surge | PASS | PASS | PASS | PASS |
 | surmise | PASS | PASS | PASS | PASS |
 | tangible | PASS | PASS | PASS | PASS |
 | tenuous | PASS | PASS | PASS | PASS |
-| uphold | PASS | PASS | PASS | PASS |
-| wield | PASS | PASS | PASS | PASS |
+| uphold | WARN: Long keyword | PASS | PASS | PASS |
+| wield | WARN: Long keyword | PASS | PASS | PASS |
 | abysmal | PASS | PASS | PASS | PASS |
 | accrue | PASS | PASS | PASS | PASS |
 | acrimonious | PASS | PASS | PASS | PASS |
@@ -141,7 +141,7 @@
 | blatant | PASS | PASS | PASS | PASS |
 | blithe | PASS | PASS | PASS | PASS |
 | bombastic | PASS | PASS | PASS | PASS |
-| brandish | PASS | PASS | PASS | PASS |
+| brandish | WARN: Long keyword | PASS | PASS | PASS |
 | brazen | PASS | PASS | PASS | PASS |
 | callous | PASS | PASS | PASS | PASS |
 | censure | PASS | PASS | PASS | PASS |
@@ -149,7 +149,7 @@
 | clout | PASS | PASS | PASS | PASS |
 | coffer | PASS | PASS | PASS | PASS |
 | comport | PASS | PASS | PASS | PASS |
-| consign | PASS | PASS | PASS | PASS |
+| consign | WARN: Long keyword | PASS | PASS | PASS |
 | construe | PASS | PASS | PASS | PASS |
 | corrosive | PASS | PASS | PASS | PASS |
 | decry | PASS | PASS | PASS | PASS |

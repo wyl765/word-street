@@ -14,11 +14,11 @@
 | volatile | PASS | PASS | PASS | PASS |
 | wage | PASS | PASS | PASS | PASS |
 | withstand | PASS | PASS | PASS | PASS |
-| abstract | PASS | PASS | PASS | PASS |
+| abstract | WARN: Long keyword | PASS | PASS | PASS |
 | academy | PASS | PASS | PASS | PASS |
 | access | PASS | PASS | PASS | PASS |
 | adjacent | PASS | PASS | PASS | PASS |
-| affiliate | PASS | PASS | PASS | PASS |
+| affiliate | WARN: Long keyword | PASS | PASS | PASS |
 | agenda | PASS | PASS | PASS | PASS |
 | aggregate | PASS | PASS | PASS | PASS |
 | agitate | PASS | PASS | PASS | PASS |
@@ -55,12 +55,12 @@
 | chancellor | PASS | PASS | PASS | PASS |
 | chronicle | PASS | PASS | PASS | PASS |
 | coalition | PASS | PASS | PASS | PASS |
-| cognitive | PASS | PASS | PASS | PASS |
+| cognitive | WARN: Long keyword | PASS | PASS | PASS |
 | coherent | PASS | PASS | PASS | PASS |
 | collaborate | PASS | PASS | PASS | PASS |
 | commemorate | PASS | PASS | PASS | PASS |
 | commodity | PASS | PASS | PASS | PASS |
-| compatible | PASS | PASS | PASS | PASS |
+| compatible | WARN: Long keyword | PASS | PASS | PASS |
 | conceal | PASS | PASS | PASS | PASS |
 | concede | PASS | PASS | PASS | PASS |
 | confederation | PASS | PASS | PASS | PASS |
@@ -113,12 +113,12 @@
 | exile | PASS | PASS | PASS | PASS |
 | expenditure | PASS | PASS | PASS | PASS |
 | faction | PASS | PASS | PASS | PASS |
-| fluctuation | PASS | PASS | PASS | PASS |
+| fluctuation | WARN: Long keyword | PASS | PASS | PASS |
 | forfeit | PASS | PASS | PASS | PASS |
 | formidable | PASS | PASS | PASS | PASS |
 | fortify | PASS | PASS | PASS | PASS |
 | fraud | PASS | PASS | PASS | PASS |
-| frugal | PASS | PASS | PASS | PASS |
+| frugal | WARN: Long keyword | PASS | PASS | PASS |
 | garrison | PASS | PASS | PASS | PASS |
 | gazette | PASS | PASS | PASS | PASS |
 | geologist | PASS | PASS | PASS | PASS |
@@ -138,7 +138,7 @@
 | inject | PASS | PASS | PASS | PASS |
 | innate | PASS | PASS | PASS | PASS |
 | innovate | PASS | PASS | PASS | PASS |
-| inoculate | PASS | PASS | PASS | PASS |
+| inoculate | WARN: Long keyword | PASS | PASS | PASS |
 | input | PASS | PASS | PASS | PASS |
 | inscription | PASS | PASS | PASS | PASS |
 | insignificant | PASS | PASS | PASS | PASS |
@@ -147,7 +147,7 @@
 | intersection | PASS | PASS | PASS | PASS |
 | intimate | PASS | PASS | PASS | PASS |
 | intrepid | PASS | PASS | PASS | PASS |
-| intrinsic | PASS | PASS | PASS | PASS |
+| intrinsic | WARN: Long keyword | PASS | PASS | PASS |
 | inventory | PASS | PASS | PASS | PASS |
 | irrational | PASS | PASS | PASS | PASS |
 | isle | PASS | PASS | PASS | PASS |
@@ -155,14 +155,14 @@
 | judicial | PASS | PASS | PASS | PASS |
 | jurisdiction | PASS | PASS | PASS | PASS |
 | juvenile | PASS | PASS | PASS | PASS |
-| kinetic | PASS | PASS | PASS | PASS |
+| kinetic | WARN: Long keyword | PASS | PASS | PASS |
 | lapse | PASS | PASS | PASS | PASS |
 | legislation | PASS | PASS | PASS | PASS |
 | liaison | PASS | PASS | PASS | PASS |
 | lucrative | PASS | PASS | PASS | PASS |
 | magistrate | PASS | PASS | PASS | PASS |
 | manuscript | PASS | PASS | PASS | PASS |
-| maritime | PASS | PASS | PASS | PASS |
+| maritime | WARN: Long keyword | PASS | PASS | PASS |
 | meander | PASS | PASS | PASS | PASS |
 | mediate | PASS | PASS | PASS | PASS |
 | memoir | PASS | PASS | PASS | PASS |
@@ -175,7 +175,7 @@
 | monarchy | PASS | PASS | PASS | PASS |
 | monetary | PASS | PASS | PASS | PASS |
 | monopolize | PASS | PASS | PASS | PASS |
-| morale | PASS | PASS | PASS | PASS |
+| morale | WARN: Long keyword | PASS | PASS | PASS |
 | moratorium | PASS | PASS | PASS | PASS |
 | mortgage | PASS | PASS | PASS | PASS |
 | mutiny | PASS | PASS | PASS | PASS |
@@ -220,12 +220,12 @@
 | pertinent | PASS | PASS | PASS | PASS |
 | pervasive | PASS | PASS | PASS | PASS |
 | petroleum | PASS | PASS | PASS | PASS |
-| philanthropy | PASS | PASS | PASS | PASS |
+| philanthropy | WARN: Long keyword | PASS | PASS | PASS |
 | pivotal | PASS | PASS | PASS | PASS |
 | plausible | PASS | PASS | PASS | PASS |
 | plurality | PASS | PASS | PASS | PASS |
 | posterity | PASS | PASS | PASS | PASS |
-| pragmatic | PASS | PASS | PASS | PASS |
+| pragmatic | WARN: Long keyword | PASS | PASS | PASS |
 | precede | PASS | PASS | PASS | PASS |
 | precedent | PASS | PASS | PASS | PASS |
 | predominant | PASS | PASS | PASS | PASS |
@@ -243,16 +243,16 @@
 | prudent | PASS | PASS | PASS | PASS |
 | quarantine | PASS | PASS | PASS | PASS |
 | quorum | PASS | PASS | PASS | PASS |
-| ratify | PASS | PASS | PASS | PASS |
+| ratify | WARN: Long keyword | PASS | PASS | PASS |
 | ration | PASS | PASS | PASS | PASS |
 | recess | PASS | PASS | PASS | PASS |
-| reconcile | PASS | PASS | PASS | PASS |
+| reconcile | WARN: Long keyword | PASS | PASS | PASS |
 | referendum | PASS | PASS | PASS | PASS |
 | reimburse | PASS | PASS | PASS | PASS |
 | renaissance | PASS | PASS | PASS | PASS |
 | replenish | PASS | PASS | PASS | PASS |
 | repository | PASS | PASS | PASS | PASS |
-| repress | PASS | PASS | PASS | PASS |
+| repress | WARN: Long keyword | PASS | PASS | PASS |
 | reproach | PASS | PASS | PASS | PASS |
 | repudiate | PASS | PASS | PASS | PASS |
 | requisite | PASS | PASS | PASS | PASS |
@@ -268,7 +268,7 @@
 | roster | PASS | PASS | PASS | PASS |
 | rubric | PASS | PASS | PASS | PASS |
 | rupture | PASS | PASS | PASS | PASS |
-| sanitary | PASS | PASS | PASS | PASS |
+| sanitary | WARN: Long keyword | PASS | PASS | PASS |
 | scaffold | PASS | PASS | PASS | PASS |
 | segregation | PASS | PASS | PASS | PASS |
 | seismic | PASS | PASS | PASS | PASS |
@@ -286,13 +286,13 @@
 | subsistence | PASS | PASS | PASS | PASS |
 | substantiate | PASS | PASS | PASS | PASS |
 | suffrage | PASS | PASS | PASS | PASS |
-| superfluous | PASS | PASS | PASS | PASS |
-| suppress | PASS | PASS | PASS | PASS |
-| surveillance | PASS | PASS | PASS | PASS |
+| superfluous | WARN: Long keyword | PASS | PASS | PASS |
+| suppress | WARN: Long keyword | PASS | PASS | PASS |
+| surveillance | WARN: Long keyword | PASS | PASS | PASS |
 | sustainable | PASS | PASS | PASS | PASS |
 | tariff | PASS | PASS | PASS | PASS |
 | taxonomy | PASS | PASS | PASS | PASS |
-| tenure | PASS | PASS | PASS | PASS |
+| tenure | WARN: Long keyword | PASS | PASS | PASS |
 | testament | PASS | PASS | PASS | PASS |
 | theorem | PASS | PASS | PASS | PASS |
 | abjure | PASS | PASS | PASS | PASS |
@@ -302,27 +302,27 @@
 | aggrandize | PASS | PASS | PASS | PASS |
 | apotheosis | PASS | PASS | PASS | PASS |
 | approbation | PASS | PASS | PASS | PASS |
-| arrogate | PASS | PASS | PASS | PASS |
+| arrogate | WARN: Long keyword | PASS | PASS | PASS |
 | atavism | PASS | PASS | PASS | PASS |
 | bellwether | PASS | PASS | PASS | PASS |
-| bifurcate | PASS | PASS | PASS | PASS |
+| bifurcate | WARN: Long keyword | PASS | PASS | PASS |
 | bowdlerize | PASS | PASS | PASS | PASS |
 | bromide | PASS | PASS | PASS | PASS |
 | cadence | PASS | PASS | PASS | PASS |
 | cabal | PASS | PASS | PASS | PASS |
 | canard | PASS | PASS | PASS | PASS |
-| capitulation | PASS | PASS | PASS | PASS |
+| capitulation | WARN: Long keyword | PASS | PASS | PASS |
 | celerity | PASS | PASS | PASS | PASS |
 | cogitate | PASS | PASS | PASS | PASS |
 | collude | PASS | PASS | PASS | PASS |
 | conflate | PASS | PASS | PASS | PASS |
-| consanguinity | PASS | PASS | PASS | PASS |
+| consanguinity | WARN: Long keyword | PASS | PASS | PASS |
 | contiguous | PASS | PASS | PASS | PASS |
 | countermand | PASS | PASS | PASS | PASS |
 | deleterious | PASS | PASS | PASS | PASS |
 | diatribe | PASS | PASS | PASS | PASS |
 | efficacious | PASS | PASS | PASS | PASS |
-| excoriate | PASS | PASS | PASS | PASS |
+| excoriate | WARN: Long keyword | PASS | PASS | PASS |
 | exigent | PASS | PASS | PASS | PASS |
 | expurgate | PASS | PASS | PASS | PASS |
 | extirpate | PASS | PASS | PASS | PASS |
@@ -336,9 +336,9 @@
 | inimical | PASS | PASS | PASS | PASS |
 | inscrutable | PASS | PASS | PASS | PASS |
 | internecine | PASS | PASS | PASS | PASS |
-| malfeasant | PASS | PASS | PASS | PASS |
+| malfeasant | WARN: Long keyword | PASS | PASS | PASS |
 | obdurate | PASS | PASS | PASS | PASS |
-| opprobrium | PASS | PASS | PASS | PASS |
+| opprobrium | WARN: Long keyword | PASS | PASS | PASS |
 | palimpsest | PASS | PASS | PASS | PASS |
 | tendentious | PASS | PASS | PASS | PASS |
 | termagant | PASS | PASS | PASS | PASS |

@@ -59,7 +59,7 @@
 | contact | PASS | PASS | PASS | PASS |
 | contaminate | PASS | PASS | PASS | PASS |
 | context | PASS | PASS | PASS | PASS |
-| contract | PASS | PASS | PASS | PASS |
+| contract | WARN: Long keyword | PASS | PASS | PASS |
 | council | PASS | PASS | PASS | PASS |
 | courtesy | PASS | PASS | PASS | PASS |
 | craft | PASS | PASS | PASS | PASS |
@@ -88,7 +88,7 @@
 | ecology | PASS | PASS | PASS | PASS |
 | edition | PASS | PASS | PASS | PASS |
 | element | PASS | PASS | PASS | PASS |
-| elevate | PASS | PASS | PASS | PASS |
+| elevate | WARN: Long keyword | PASS | PASS | PASS |
 | emission | PASS | PASS | PASS | PASS |
 | employ | PASS | PASS | PASS | PASS |
 | endanger | PASS | PASS | PASS | PASS |
@@ -111,7 +111,7 @@
 | fluid | PASS | PASS | PASS | PASS |
 | frequency | PASS | PASS | PASS | PASS |
 | genetic | PASS | PASS | PASS | PASS |
-| global | PASS | PASS | PASS | PASS |
+| global | WARN: Long keyword | PASS | PASS | PASS |
 | graduate | PASS | PASS | PASS | PASS |
 | grant | PASS | PASS | PASS | PASS |
 | gulf | PASS | PASS | PASS | PASS |
@@ -123,7 +123,7 @@
 | impulse | PASS | PASS | PASS | PASS |
 | inaugurate | PASS | PASS | PASS | PASS |
 | incline | PASS | PASS | PASS | PASS |
-| industrial | PASS | PASS | PASS | PASS |
+| industrial | WARN: Long keyword | PASS | PASS | PASS |
 | inevitable | PASS | PASS | PASS | PASS |
 | abate | PASS | PASS | PASS | PASS |
 | aberration | PASS | PASS | PASS | PASS |
@@ -131,7 +131,7 @@
 | acumen | PASS | PASS | PASS | PASS |
 | adept | PASS | PASS | PASS | PASS |
 | adversity | PASS | PASS | PASS | PASS |
-| affinity | PASS | PASS | PASS | PASS |
+| affinity | WARN: Long keyword | PASS | PASS | PASS |
 | aggregation | PASS | PASS | PASS | PASS |
 | agitation | PASS | PASS | PASS | PASS |
 | alleviation | PASS | PASS | PASS | PASS |
@@ -157,41 +157,41 @@
 | calibration | PASS | PASS | PASS | PASS |
 | candor | PASS | PASS | PASS | PASS |
 | capacious | PASS | PASS | PASS | PASS |
-| caricature | PASS | PASS | PASS | PASS |
+| caricature | WARN: Long keyword | PASS | PASS | PASS |
 | categorical | PASS | PASS | PASS | PASS |
-| causation | PASS | PASS | PASS | PASS |
+| causation | WARN: Long keyword | PASS | PASS | PASS |
 | chagrin | PASS | PASS | PASS | PASS |
-| clamorous | PASS | PASS | PASS | PASS |
-| cognizant | PASS | PASS | PASS | PASS |
+| clamorous | WARN: Long keyword | PASS | PASS | PASS |
+| cognizant | WARN: Long keyword | PASS | PASS | PASS |
 | cohesion | PASS | PASS | PASS | PASS |
 | colloquial | PASS | PASS | PASS | PASS |
 | commiserate | PASS | PASS | PASS | PASS |
-| communique | PASS | PASS | PASS | PASS |
+| communique | WARN: Long keyword | PASS | PASS | PASS |
 | compartmentalize | PASS | PASS | PASS | PASS |
 | compunction | PASS | PASS | PASS | PASS |
-| condescension | PASS | PASS | PASS | PASS |
-| connotation | PASS | PASS | PASS | PASS |
+| condescension | WARN: Long keyword | PASS | PASS | PASS |
+| connotation | WARN: Long keyword | PASS | PASS | PASS |
 | consecration | PASS | PASS | PASS | PASS |
 | consternation | PASS | PASS | PASS | PASS |
 | contention | PASS | PASS | PASS | PASS |
 | contravene | PASS | PASS | PASS | PASS |
 | convergent | PASS | PASS | PASS | PASS |
-| conveyance | PASS | PASS | PASS | PASS |
+| conveyance | WARN: Long keyword | PASS | PASS | PASS |
 | corroboration | PASS | PASS | PASS | PASS |
 | covetous | PASS | PASS | PASS | PASS |
 | credence | PASS | PASS | PASS | PASS |
 | culpability | PASS | PASS | PASS | PASS |
 | curate | PASS | PASS | PASS | PASS |
-| curtailment | PASS | PASS | PASS | PASS |
+| curtailment | WARN: Long keyword | PASS | PASS | PASS |
 | cynicism | PASS | PASS | PASS | PASS |
 | debilitation | PASS | PASS | PASS | PASS |
 | decadence | PASS | PASS | PASS | PASS |
-| declination | PASS | PASS | PASS | PASS |
+| declination | WARN: Long keyword | PASS | PASS | PASS |
 | deduction | PASS | PASS | PASS | PASS |
-| delineation | PASS | PASS | PASS | PASS |
+| delineation | WARN: Long keyword | PASS | PASS | PASS |
 | delusion | PASS | PASS | PASS | PASS |
 | demarcation | PASS | PASS | PASS | PASS |
-| demerit | PASS | PASS | PASS | PASS |
+| demerit | WARN: Long keyword | PASS | PASS | PASS |
 | dereliction | PASS | PASS | PASS | PASS |
 | derivative | PASS | PASS | PASS | PASS |
 | desperation | PASS | PASS | PASS | PASS |
@@ -220,16 +220,16 @@
 | embolden | PASS | PASS | PASS | PASS |
 | emigration | PASS | PASS | PASS | PASS |
 | encroachment | PASS | PASS | PASS | PASS |
-| enfranchisement | PASS | PASS | PASS | PASS |
+| enfranchisement | WARN: Long keyword | PASS | PASS | PASS |
 | enormity | PASS | PASS | PASS | PASS |
 | entrenchment | PASS | PASS | PASS | PASS |
 | epitomize | PASS | PASS | PASS | PASS |
 | equanimity | PASS | PASS | PASS | PASS |
 | eradication | PASS | PASS | PASS | PASS |
 | erstwhile | PASS | PASS | PASS | PASS |
-| eschew | PASS | PASS | PASS | PASS |
+| eschew | WARN: Long keyword | PASS | PASS | PASS |
 | esprit | PASS | PASS | PASS | PASS |
-| exacerbation | PASS | PASS | PASS | PASS |
+| exacerbation | WARN: Long keyword | PASS | PASS | PASS |
 | exaltation | PASS | PASS | PASS | PASS |
 | exculpate | PASS | PASS | PASS | PASS |
 | exhortation | PASS | PASS | PASS | PASS |
@@ -242,7 +242,7 @@
 | extraneous | PASS | PASS | PASS | PASS |
 | extrapolation | PASS | PASS | PASS | PASS |
 | exuberance | PASS | PASS | PASS | PASS |
-| facilitation | PASS | PASS | PASS | PASS |
+| facilitation | WARN: Long keyword | PASS | PASS | PASS |
 | fallacious | PASS | PASS | PASS | PASS |
 | fanaticism | PASS | PASS | PASS | PASS |
 | felicity | PASS | PASS | PASS | PASS |
@@ -255,8 +255,8 @@
 | galvanize | PASS | PASS | PASS | PASS |
 | garrulous | PASS | PASS | PASS | PASS |
 | germane | PASS | PASS | PASS | PASS |
-| grandiosity | PASS | PASS | PASS | PASS |
-| gratuitous | PASS | PASS | PASS | PASS |
+| grandiosity | WARN: Long keyword | PASS | PASS | PASS |
+| gratuitous | WARN: Long keyword | PASS | PASS | PASS |
 | grievous | PASS | PASS | PASS | PASS |
 | heterogeneous | PASS | PASS | PASS | PASS |
 | hubris | PASS | PASS | PASS | PASS |
@@ -271,11 +271,11 @@
 | impugn | PASS | PASS | PASS | PASS |
 | incandescence | PASS | PASS | PASS | PASS |
 | incisive | PASS | PASS | PASS | PASS |
-| incongruity | PASS | PASS | PASS | PASS |
+| incongruity | WARN: Long keyword | PASS | PASS | PASS |
 | inculcate | PASS | PASS | PASS | PASS |
 | indemnify | PASS | PASS | PASS | PASS |
 | indigence | PASS | PASS | PASS | PASS |
-| indolence | PASS | PASS | PASS | PASS |
+| indolence | WARN: Long keyword | PASS | PASS | PASS |
 | inexorable | PASS | PASS | PASS | PASS |
 | ingratiate | PASS | PASS | PASS | PASS |
 | innocuous | PASS | PASS | PASS | PASS |
@@ -285,7 +285,7 @@
 | interpolate | PASS | PASS | PASS | PASS |
 | interregnum | PASS | PASS | PASS | PASS |
 | intransigence | PASS | PASS | PASS | PASS |
-| irascible | PASS | PASS | PASS | PASS |
+| irascible | WARN: Long keyword | PASS | PASS | PASS |
 | itinerant | PASS | PASS | PASS | PASS |
 | laconic | PASS | PASS | PASS | PASS |
 | lassitude | PASS | PASS | PASS | PASS |
