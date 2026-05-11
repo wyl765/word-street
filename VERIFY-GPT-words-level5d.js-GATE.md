@@ -7,6 +7,16 @@
 - L6常见问题：例句过“模板化”（plan/decision/rule/agree 等），遮词后不够唯一；建议加入更具辨识度的动作/物品/场景线索或同义改写线索。
 - L7敏感主要集中在：战争/军事、政治/法律程序、宗教信仰、死亡/丧葬、奴役/压迫；其余多为OK。
 
+快速量化结论（便于挑重点改）:
+- L5(def+ex都不能): 41/288
+  - 005 adornment, 009 antagonist, 011 aristocracy, 019 authoritarian, 026 bewilder, 041 cogent, 048 complementary, 050 concession, 052 condemnation, 053 condescending, 075 daunting, 085 deterrent, 102 esteem, 107 exclamation, 117 flagrant, 122 gentry, 133 inclination, 139 infringement, 141 insatiable, 144 intervention, 145 intimidation, 150 liberation, 152 malevolent, 169 ostracize, 171 penchant, 193 rebuke, 199 repercussion, 203 revere, 215 temperament, 221 tyranny, 231 vindicate, 242 antipathy, 253 connive, 259 demagogue, 261 deprecate, 262 derelict, 275 fracas, 278 alacrity, 281 whimsical, 287 orthodontics, 288 palindrome
+- L6(遮词后不能唯一确定): 30/288
+  - 001 accusatory, 006 affirmation, 014 assertion, 032 captivating, 037 circumscribe, 039 clandestine, 041 cogent, 049 compliance, 053 condescending, 062 constitutional, 071 corroborate, 075 daunting, 096 echelon, 108 exemplary, 121 frivolous, 124 harmonious, 130 impunity, 145 intimidation, 167 optimism, 184 probation, 191 provocation, 192 purview, 193 rebuke, 208 sporadic, 222 unilateral, 226 utopian, 233 wane, 250 commensurate, 251 conciliatory, 279 arbitrate
+- L8(不合适/专业或过于概念化): 3/288
+  - 042 cognition, 279 arbitrate, 287 orthodontics
+- L8(偏成人话题/家长接受度风险): 39/288
+  - 007 amnesty, 019 authoritarian, 021 avarice, 056 conscription, 057 consecrate, 058 consequential, 061 constituency, 062 constitutional, 071 corroborate, 082 deportation, 085 deterrent, 105 eulogy, 112 exploitation, 128 impeachment, 130 impunity, 134 indictment, 139 infringement, 145 intimidation, 148 jurisprudence, 150 liberation, 155 mercenary, 162 notoriety, 166 oppression, 178 precinct, 184 probation, 206 secession, 207 servitude, 211 subjugate, 216 totalitarian, 219 tribunal, 221 tyranny, 226 utopian, 244 attrition, 247 cede, 264 dirge, 265 dissident, 270 exonerate, 274 filibuster, 277 agnostic
+
 001. accusatory — L5:def能/ex勉强(ex卡:tone/guilty) | L6:不能(模板场景，容易多词都能套) | L7:OK | L8:偏难(需前置/多轮复现)
 002. acidity — L5:def勉强/ex不能(def卡:acid; ex卡:sour/lemon) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:acid)
 003. acquaintance — L5:def能/ex能(def卡:slightly; ex卡:regularly/hang) | L6:勉强 | L7:OK | L8:偏难(需前置/多轮复现)(前置:slightly)
