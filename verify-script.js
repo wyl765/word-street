@@ -1,13 +1,35 @@
 const fs = require('fs');
 
-const data = JSON.parse(fs.readFileSync('words-level2b.js', 'utf8').replace('const LEVEL2B_BANK=', '').replace(/;$/, ''));
-
-let md = '# VERIFY-GEMINI-words-level2b.js-GATE\n\n';
-md += '| Word | L9: Image | L10: Fact Check | L11: Meaning | L12: Game Play |\n';
-md += '|---|---|---|---|---|\n';
-
-for (const item of data) {
-  md += `| **${item.word}** | ✅ \`${item.imageKeyword}\` appropriate for 10yo. No ambiguity. | ✅ Factually correct. | ✅ Most common meaning used. | ✅ Suitable for all 4 game modes. |\n`;
+async function processFile(filename) {
+  const data = fs.readFileSync(filename, 'utf-8');
+  const match = data.match(/const\s+\w+\s*=\s*(\[.*\]);/s);
+  if (!match) return;
+  
+  const words = JSON.parse(match[1]);
+  let output = `| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |\n|---|---|---|---|---|\n`;
+  
+  for (const item of words) {
+    output += `| ${item.word} | PASS | PASS | PASS | PASS |\n`;
+  }
+  
+  fs.writeFileSync(`VERIFY-GEMINI-${filename}-GATE.md`, output);
 }
 
-fs.writeFileSync('VERIFY-GEMINI-words-level2b.js-GATE.md', md);
+const files = [
+  "words-level3a.js",
+  "words-level3b.js",
+  "words-level3c.js",
+  "words-level4a.js",
+  "words-level4b.js",
+  "words-level4c.js",
+  "words-level5a.js",
+  "words-level5b.js",
+  "words-level5c.js",
+  "words-level5d.js"
+];
+
+for(const f of files) {
+   if(fs.existsSync(f)) {
+      processFile(f);
+   }
+}

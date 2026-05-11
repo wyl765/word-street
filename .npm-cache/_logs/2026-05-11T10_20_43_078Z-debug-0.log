@@ -1,0 +1,48 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/percy/.openclaw/workspace/projects/word-street/.npmrc
+5 silly config load:file:/Users/percy/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @xenova/transformers@2.17.2
+8 verbose argv "--loglevel" "silent" "install" "@xenova/transformers@2.17.2"
+9 verbose logfile logs-max:10 dir:/Users/percy/.openclaw/workspace/.npm-cache/_logs/2026-05-11T10_20_43_078Z-
+10 verbose logfile /Users/percy/.openclaw/workspace/.npm-cache/_logs/2026-05-11T10_20_43_078Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @xenova/transformers@2.17.2
+15 silly packumentCache full:https://registry.npmmirror.com/@xenova%2ftransformers cache-miss
+16 http fetch GET 200 https://registry.npmmirror.com/@xenova%2ftransformers 852ms (cache miss)
+17 silly placeDep ROOT @xenova/transformers@ OK for: word-street@1.0.0 want: 2.17.2
+18 verbose type system
+19 verbose stack FetchError: Invalid response body while trying to fetch https://registry.npmmirror.com/@xenova%2ftransformers: EACCES: permission denied, rename '/Users/percy/.openclaw/workspace/.npm-cache/_cacache/tmp/38951240' -> '/Users/percy/.openclaw/workspace/.npm-cache/_cacache/content-v2/sha512/45/56/d6e43d51cd62ec1adb7b467d20867ba77619f385dca060c1df3a082b33c378b61c6b38124043f468489d37353cdb4a57475e78b3c35d6ee4f408c92b4de2'
+19 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:170:15
+19 verbose stack     at async Response.json (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:75:17)
+19 verbose stack     at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:98:25)
+19 verbose stack     at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:128:23)
+19 verbose stack     at async #fetchManifest (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1227:20)
+19 verbose stack     at async #nodeFromEdge (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1065:19)
+19 verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:929:11)
+19 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:182:7)
+19 verbose stack     at async Promise.all (index 1)
+19 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:114:5)
+20 error code EEXIST
+21 error syscall rename
+22 error path /Users/percy/.openclaw/workspace/.npm-cache/_cacache/tmp/38951240
+23 error dest /Users/percy/.openclaw/workspace/.npm-cache/_cacache/content-v2/sha512/45/56/d6e43d51cd62ec1adb7b467d20867ba77619f385dca060c1df3a082b33c378b61c6b38124043f468489d37353cdb4a57475e78b3c35d6ee4f408c92b4de2
+24 error errno EEXIST
+25 error Invalid response body while trying to fetch https://registry.npmmirror.com/@xenova%2ftransformers: EACCES: permission denied, rename '/Users/percy/.openclaw/workspace/.npm-cache/_cacache/tmp/38951240' -> '/Users/percy/.openclaw/workspace/.npm-cache/_cacache/content-v2/sha512/45/56/d6e43d51cd62ec1adb7b467d20867ba77619f385dca060c1df3a082b33c378b61c6b38124043f468489d37353cdb4a57475e78b3c35d6ee4f408c92b4de2'
+26 error File exists: /Users/percy/.openclaw/workspace/.npm-cache/_cacache/content-v2/sha512/45/56/d6e43d51cd62ec1adb7b467d20867ba77619f385dca060c1df3a082b33c378b61c6b38124043f468489d37353cdb4a57475e78b3c35d6ee4f408c92b4de2
+27 error Remove the existing file and try again, or run npm
+28 error with --force to overwrite files recklessly.
+29 silly unfinished npm timer reify 1778494843566
+30 silly unfinished npm timer reify:loadTrees 1778494843567
+31 verbose cwd /Users/percy/.openclaw/workspace/projects/word-street
+32 verbose os Darwin 24.6.0
+33 verbose node v24.13.0
+34 verbose npm  v11.6.2
+35 verbose exit 1
+36 verbose code 1
+37 error A complete log of this run can be found in: /Users/percy/.openclaw/workspace/.npm-cache/_logs/2026-05-11T10_20_43_078Z-debug-0.log
