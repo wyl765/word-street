@@ -276,35 +276,66 @@ function l5Example(item, idx) {
 }
 
 function pickDistractorsBySimilarity(item, idx) {
-  const ex = item.example || '';
-  const query = removeTargetFromExample(ex, item.word);
-  const matches = bestMatches(query, idx, 12);
+  // L6 反测的选项应尽量“可混淆但不投机取巧”：
+  // - 优先用 definition 去找同类词（而不是用 example 里的场景词）
+  // - 避免把例句中已出现的词当成选项（否则孩子可直接排除）
+
+  const ex = (item.example || '').toLowerCase();
+
+  function escRe(s) {
+    return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function appearsInExample(candidate) {
+    const c = (candidate || '').toLowerCase().trim();
+    if (!c) return false;
+    if (/\s/.test(c)) {
+      // phrase: if all tokens appear, treat as appearing
+      const parts = c.split(/\s+/).filter(Boolean);
+      return parts.every(p => new RegExp(`\\b${escRe(p)}\\b`).test(ex));
+    }
+    return new RegExp(`\\b${escRe(c)}\\b`).test(ex);
+  }
+
+  const targetPhrase = /\s/.test(item.word);
+
+  // Use definition tokens as query (more stable, less likely to pull in example-only nouns like "tail")
+  const defQuery = tokenize(item.definition || '');
+  const matches = bestMatches(defQuery, idx, 20);
+
   const distractors = [];
   for (const [i] of matches) {
     if (i === idx) continue;
     const w = items[i].word;
     if (w === item.word) continue;
-    // Avoid multiword phrases as distractors for single-word targets (and vice versa)
+
     const isPhrase = /\s/.test(w);
-    const targetPhrase = /\s/.test(item.word);
     if (isPhrase !== targetPhrase) continue;
+
+    if (appearsInExample(w)) continue;
+
     distractors.push(w);
     if (distractors.length >= 3) break;
   }
-  // Fallback: fill with nearest-length words
+
+  // Fallback: fill with nearest-length words (still excluding words that appear in the example)
   if (distractors.length < 3) {
     const tlen = item.word.length;
-    const pool = items.map(x => x.word).filter(w => w !== item.word);
+    const pool = items
+      .map(x => x.word)
+      .filter(w => w !== item.word)
+      .filter(w => (/\s/.test(w)) === targetPhrase)
+      .filter(w => !appearsInExample(w));
+
     pool.sort((a, b) => Math.abs(a.length - tlen) - Math.abs(b.length - tlen) || a.localeCompare(b));
+
     for (const w of pool) {
       if (distractors.includes(w)) continue;
-      const isPhrase = /\s/.test(w);
-      const targetPhrase = /\s/.test(item.word);
-      if (isPhrase !== targetPhrase) continue;
       distractors.push(w);
       if (distractors.length >= 3) break;
     }
   }
+
   return distractors.slice(0, 3);
 }
 
