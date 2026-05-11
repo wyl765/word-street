@@ -48,7 +48,7 @@
     },
     "words-level2a.js": {
       "totalWords": 400,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -60,7 +60,7 @@
     },
     "words-level2b.js": {
       "totalWords": 382,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -72,7 +72,7 @@
     },
     "words-level2c.js": {
       "totalWords": 219,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -84,7 +84,7 @@
     },
     "words-level2d.js": {
       "totalWords": 258,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
