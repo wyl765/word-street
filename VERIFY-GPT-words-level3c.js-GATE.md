@@ -6,198 +6,198 @@
 - L7: Cultural sensitivity (CN ESL kid/parent).
 - L8: Level fit / learning path.
 
-- advance | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:chess/piece/advance/square) | 选项:[advance / cancel / outcome / ridge] | L7:OK | L8:合适
-- affordable | L5-Def:不能 | L5-Ex:能 | L6:唯一(线索:lemonade/stand/affordable/prices) | 选项:[affordable / device / regulate / slope] | L7:OK | L8:合适
-- analyze | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:scientist/analyze/data/experiment) | 选项:[analyze / elect / rhythm / spout] | L7:OK | L8:偏高
-- apply | L5-Def:勉强(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:learned/apply/sunscreen/going) | 选项:[apply / emphasize / risk / stump] | L7:OK | L8:合适
-- burden | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:carrying/library/books/once) | 选项:[burden / exclaim / tension / torch] | L7:OK | L8:合适
-- cancel | L5-Def:能 | L5-Ex:能 | L6:唯一(线索:coach/cancel/practice/lightning) | 选项:[cancel / frustrate / typical / wade] | L7:OK | L8:合适
-- device | L5-Def:勉强(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:thermometer/device/tells/exactly) | 选项:[device / glimpse / basement / asteroid] | L7:OK | L8:合适
-- elect | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:class/elect/new/president) | 选项:[elect / govern / blade / axis] | L7:OK | L8:合适
-- emphasize | L5-Def:不能 | L5-Ex:勉强(卡:语境强) | L6:唯一(线索:teacher/underlined/word/emphasize) | 选项:[emphasize / idle / canyon / carnivore] | L7:OK | L8:合适
-- exclaim | L5-Def:勉强 | L5-Ex:勉强 | L6:唯一(线索:exclaimed/look/shooting/star) | 选项:[exclaim / invest / chimney / census] | L7:OK | L8:合适
-- frustrate | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:puzzle/began/frustrate/last) | 选项:[frustrate / manner / chunk / chlorophyll] | L7:OK | L8:合适
-- glimpse | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:caught/glimpse/fox's/tail) | 选项:[glimpse / negative / creek / crater] | L7:OK | L8:合适
-- govern | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:student/council/helps/govern) | 选项:[govern / outcome / crisp / crustacean] | L7:OK | L8:偏高
-- idle | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:swing/sat/idle/yard) | 选项:[idle / regulate / flask / digestive] | L7:OK | L8:合适
-- invest | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:chose/invest/allowance/art) | 选项:[invest / rhythm / foil / elevation] | L7:OK | L8:偏高
-- manner | L5-Def:勉强(卡:多义易混) | L5-Ex:不能 | L6:不唯一(线索:spoke/polite/manner/always) | 选项:[manner / risk / gasp / fertile] | L7:OK | L8:合适
-- negative | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一(线索:temperature/dropped/negative/degrees) | 选项:[negative / tension / glare / glacier] | L7:OK | L8:偏高
-- outcome | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:outcome/science/test/surprised) | 选项:[outcome / typical / glow / herbivore] | L7:OK | L8:合适
-- regulate | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:thermostat/helps/regulate/heat) | 选项:[regulate / basement / hatch / humidity] | L7:OK | L8:偏高
-- rhythm | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:clapped/along/rhythm/drum) | 选项:[rhythm / blade / hose / legislature] | L7:OK | L8:合适
-- risk | L5-Def:勉强 | L5-Ex:勉强 | L6:唯一(线索:there's/risk/getting/stung) | 选项:[risk / canyon / inn / molecule] | L7:OK | L8:合适
-- tension | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:there/tension/room/teacher) | 选项:[tension / chimney / jolt / arid] | L7:OK | L8:偏高
-- typical | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:typical/school/day/starts) | 选项:[typical / chunk / ledge / archaeology] | L7:OK | L8:合适
-- basement | L5-Def:能 | L5-Ex:能 | L6:唯一(线索:family/keeps/holiday/decorations) | 选项:[basement / creek / lumber / mesa] | L7:OK | L8:合适
-- blade | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:single/blade/grass/tiny) | 选项:[blade / crisp / mend / tundra] | L7:OK | L8:合适
-- canyon | L5-Def:勉强 | L5-Ex:勉强 | L6:唯一(线索:stood/edge/canyon/barely) | 选项:[canyon / flask / quarry / stalagmite] | L7:OK | L8:合适
-- chimney | L5-Def:勉强 | L5-Ex:勉强 | L6:唯一(线索:smoke/curled/chimney/telling) | 选项:[chimney / foil / ridge / tributary] | L7:OK | L8:合适
-- chunk | L5-Def:能 | L5-Ex:能 | L6:唯一(线索:bit/off/big/chunk) | 选项:[chunk / gasp / slope / archipelago] | L7:OK | L8:合适
-- creek | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:found/smooth/stones/bottom) | 选项:[creek / glare / spout / stratosphere] | L7:OK | L8:合适
-- crisp | L5-Def:勉强(卡:抽象) | L5-Ex:勉强 | L6:不唯一(线索:crisp/autumn/leaves/crunched) | 选项:[crisp / glow / stump / preamble] | L7:OK | L8:合适
-- flask | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:science/teacher/poured/purple) | 选项:[flask / hatch / torch / filament] | L7:OK | L8:偏高
-- foil | L5-Def:勉强 | L5-Ex:勉强(卡:语境强) | L6:唯一(线索:dad/wrapped/leftover/pizza) | 选项:[foil / hose / wade / nocturnal] | L7:OK | L8:合适
-- gasp | L5-Def:勉强 | L5-Ex:勉强(卡:语境强) | L6:唯一(线索:gasped/saw/acrobat/flip) | 选项:[gasp / inn / asteroid / translucent] | L7:OK | L8:合适
-- glare | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:glare/snow/bright/put) | 选项:[glare / jolt / axis / omnivore] | L7:OK | L8:合适
-- glow | L5-Def:能 | L5-Ex:能 | L6:不唯一(线索:jack/lantern's/candle/made) | 选项:[glow / ledge / carnivore / plateau] | L7:OK | L8:合适
-- hatch | L5-Def:勉强 | L5-Ex:能 | L6:唯一(线索:baby/chick/took/hours) | 选项:[hatch / lumber / census / geothermal] | L7:OK | L8:合适
-- hose | L5-Def:能 | L5-Ex:能 | L6:唯一(线索:sprayed/brother/garden/hose) | 选项:[hose / mend / chlorophyll / specimen] | L7:OK | L8:合适
-- inn | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:tired/hikers/found/cozy) | 选项:[inn / quarry / crater / meridian] | L7:OK | L8:偏高
-- jolt | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:bus/hit/bump/everyone) | 选项:[jolt / ridge / crustacean / respiration] | L7:OK | L8:合适
-- ledge | L5-Def:勉强(卡:抽象) | L5-Ex:勉强 | L6:不唯一(线索:pigeon/sat/window/ledge) | 选项:[ledge / slope / digestive / paleontology] | L7:OK | L8:合适
-- lumber | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:big/truck/delivered/stack) | 选项:[lumber / spout / elevation / aquifer] | L7:OK | L8:偏高
-- mend | L5-Def:勉强 | L5-Ex:勉强(卡:语境强) | L6:唯一(线索:grandma/used/needle/thread) | 选项:[mend / stump / fertile / deciduous] | L7:OK | L8:合适
-- quarry | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:marble/building/came/quarry) | 选项:[quarry / torch / glacier / pharaoh] | L7:OK | L8:偏高
-- ridge | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:ridge/mountain/see/different) | 选项:[ridge / wade / herbivore / sedimentary] | L7:OK | L8:偏高
-- slope | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:raced/bikes/down/slope) | 选项:[slope / asteroid / humidity / isthmus] | L7:OK | L8:合适
-- spout | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一(线索:water/shot/whale's/spout) | 选项:[spout / axis / legislature / dividend] | L7:OK | L8:偏高
-- stump | L5-Def:勉强 | L5-Ex:勉强(卡:语境强) | L6:唯一(线索:used/old/tree/stump) | 选项:[stump / carnivore / molecule / divisor] | L7:OK | L8:合适
-- torch | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:dark/cave/explorer/held) | 选项:[torch / census / arid / mandate] | L7:OK | L8:合适
-- wade | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:rolled/pants/wade/across) | 选项:[wade / chlorophyll / archaeology / authentic] | L7:OK | L8:合适
-- asteroid | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:asteroid/size/school/bus) | 选项:[asteroid / crater / mesa / scarcity] | L7:OK | L8:偏高
-- axis | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:earth/spins/axis/once) | 选项:[axis / crustacean / tundra / ancestry] | L7:OK | L8:偏高
-- carnivore | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一(线索:lion/carnivore/hunts/eats) | 选项:[carnivore / digestive / stalagmite / interval] | L7:OK | L8:偏高
-- census | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:years/government/census/find) | 选项:[census / elevation / tributary / eligible] | L7:OK | L8:偏高
-- chlorophyll | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:chlorophyll/what/makes/leaves) | 选项:[chlorophyll / fertile / archipelago / manipulate] | L7:OK | L8:偏高
-- crater | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:moon/covered/craters/where) | 选项:[crater / glacier / stratosphere / salvage] | L7:OK | L8:偏高
-- crustacean | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:lobster/crustacean/big/claws) | 选项:[crustacean / herbivore / preamble / acquire] | L7:OK | L8:偏高
-- digestive | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:digestive/system/turns/sandwich) | 选项:[digestive / humidity / filament / terminate] | L7:OK | L8:偏高
-- elevation | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:mountain/town/elevation/feet) | 选项:[elevation / legislature / nocturnal / verdict] | L7:OK | L8:偏高
-- fertile | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:fertile/soil/near/river) | 选项:[fertile / molecule / translucent / hangar] | L7:OK | L8:偏高
-- glacier | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:glacier/carved/out/valley) | 选项:[glacier / arid / omnivore / hardship] | L7:OK | L8:偏高
-- herbivore | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一(线索:rabbit/herbivore/munches/grass) | 选项:[herbivore / archaeology / plateau / harpoon] | L7:OK | L8:偏高
-- humidity | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:humidity/high/glasses/fogged) | 选项:[humidity / mesa / geothermal / harrow] | L7:OK | L8:偏高
-- legislature | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:legislature/voted/pass/new) | 选项:[legislature / tundra / specimen / haste] | L7:OK | L8:偏高
-- molecule | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:water/molecule/small/millions) | 选项:[molecule / stalagmite / meridian / havoc] | L7:OK | L8:偏高
-- arid | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:cacti/grow/well/arid) | 选项:[arid / tributary / respiration / headway] | L7:OK | L8:偏高
-- archaeology | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:archaeology/class/learned/how) | 选项:[archaeology / archipelago / paleontology / heed] | L7:OK | L8:偏高
-- mesa | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:mesa/stood/alone/desert) | 选项:[mesa / stratosphere / aquifer / helm] | L7:OK | L8:偏高
-- tundra | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:arctic/tundra/ground/stays) | 选项:[tundra / preamble / deciduous / herald] | L7:OK | L8:偏高
-- stalagmite | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:stalagmite/grew/cave/floor) | 选项:[stalagmite / filament / pharaoh / hermit] | L7:OK | L8:偏高
-- tributary | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:small/tributary/joins/main) | 选项:[tributary / nocturnal / sedimentary / hew] | L7:OK | L8:偏高
-- archipelago | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:hawaii/archipelago/made/main) | 选项:[archipelago / translucent / isthmus / hinge] | L7:OK | L8:偏高
-- stratosphere | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:weather/balloon/floated/stratosphere) | 选项:[stratosphere / omnivore / dividend / hoard] | L7:OK | L8:偏高
-- preamble | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:preamble/constitution/starts/people) | 选项:[preamble / plateau / divisor / hobble] | L7:注意 | L8:偏高
-- filament | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:filament/inside/light/bulb) | 选项:[filament / geothermal / mandate / hoist] | L7:OK | L8:偏高
-- nocturnal | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一(线索:owls/nocturnal/animals/hunt) | 选项:[nocturnal / specimen / authentic / homage] | L7:OK | L8:偏高
-- translucent | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:translucent/jellyfish/glowed/light) | 选项:[translucent / meridian / scarcity / homestead] | L7:OK | L8:偏高
-- omnivore | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:bear/omnivore/eats/fish) | 选项:[omnivore / respiration / ancestry / hone] | L7:OK | L8:偏高
-- plateau | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:plateau/rose/above/desert) | 选项:[plateau / paleontology / interval / hornet] | L7:OK | L8:偏高
-- geothermal | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:iceland/uses/geothermal/energy) | 选项:[geothermal / aquifer / eligible / hosiery] | L7:OK | L8:偏高
-- specimen | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:scientist/collected/specimen/unusual) | 选项:[specimen / deciduous / manipulate / hospitable] | L7:OK | L8:偏高
-- meridian | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:prime/meridian/passes/london) | 选项:[meridian / pharaoh / salvage / hub] | L7:OK | L8:偏高
-- respiration | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:gym/class/respiration/increased) | 选项:[respiration / sedimentary / acquire / huddle] | L7:OK | L8:偏高
-- paleontology | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:paleontology/helps/scientists/learn) | 选项:[paleontology / isthmus / terminate / hull] | L7:OK | L8:偏高
-- aquifer | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:town/gets/drinking/water) | 选项:[aquifer / dividend / verdict / humus] | L7:OK | L8:偏高
-- deciduous | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:deciduous/oak/tree/dropped) | 选项:[deciduous / divisor / hangar / hurdle] | L7:OK | L8:偏高
-- pharaoh | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:pharaoh/ordered/workers/build) | 选项:[pharaoh / mandate / hardship / hurl] | L7:OK | L8:偏高
-- sedimentary | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:sedimentary/rock/visible/layers) | 选项:[sedimentary / authentic / harpoon / hurricane] | L7:OK | L8:偏高
-- isthmus | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:isthmus/panama/connects/north) | 选项:[isthmus / scarcity / harrow / hydrate] | L7:OK | L8:偏高
-- dividend | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:dividend/that's/number/split) | 选项:[dividend / ancestry / haste / hymn] | L7:OK | L8:偏高
-- divisor | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:divisor/that's/how/many) | 选项:[divisor / interval / havoc / hyperbole] | L7:OK | L8:偏高
-- mandate | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:school/issued/mandate/students) | 选项:[mandate / eligible / headway / icon] | L7:OK | L8:偏高
-- authentic | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:authentic/dinosaur/tooth/museum) | 选项:[authentic / manipulate / heed / imbue] | L7:OK | L8:偏高
-- scarcity | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:scarcity/water/summer/town) | 选项:[scarcity / salvage / helm / impervious] | L7:OK | L8:偏高
-- ancestry | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:studying/ancestry/found/great) | 选项:[ancestry / acquire / herald / impound] | L7:OK | L8:偏高
-- interval | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:buses/arrive/minute/intervals) | 选项:[interval / terminate / hermit / indent] | L7:OK | L8:偏高
-- eligible | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:eligible/join/reading/club) | 选项:[eligible / verdict / hew / inferno] | L7:OK | L8:偏高
-- manipulate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:learned/manipulate/clay/shape) | 选项:[manipulate / hangar / hinge / infuse] | L7:注意 | L8:偏高
-- salvage | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:flood/family/tried/salvage) | 选项:[salvage / hardship / hoard / inlet] | L7:OK | L8:偏高
-- acquire | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:worked/summer/acquire/enough) | 选项:[acquire / harpoon / hobble / inquest] | L7:OK | L8:偏高
-- terminate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:train/terminate/last/station) | 选项:[terminate / harrow / hoist / instill] | L7:OK | L8:偏高
-- verdict | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:tasting/pies/judges/gave) | 选项:[verdict / haste / homage / insular] | L7:OK | L8:偏高
-- hangar | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:mechanic/wheeled/small/plane) | 选项:[hangar / havoc / homestead / intrigue] | L7:OK | L8:偏高
-- hardship | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:pioneer/families/faced/many) | 选项:[hardship / headway / hone / inundate] | L7:OK | L8:偏高
-- harpoon | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:fisherman/threw/harpoon/giant) | 选项:[harpoon / heed / hornet / irate] | L7:注意 | L8:偏高
-- harrow | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:farmer/pulled/harrow/across) | 选项:[harrow / helm / hosiery / irk] | L7:OK | L8:偏高
-- haste | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:haste/catch/bus/left) | 选项:[haste / herald / hospitable / ivory] | L7:OK | L8:偏高
-- havoc | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:tornado/wreaked/havoc/small) | 选项:[havoc / hermit / hub / jaunt] | L7:OK | L8:偏高
-- headway | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:weeks/practice/finally/made) | 选项:[headway / hew / huddle / jest] | L7:OK | L8:偏高
-- heed | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:heeded/father's/warning/wore) | 选项:[heed / hinge / hull / jettison] | L7:OK | L8:偏高
-- helm | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:captain/took/helm/guided) | 选项:[helm / hoard / humus / jinx] | L7:OK | L8:偏高
-- herald | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:robins/often/called/heralds) | 选项:[herald / hobble / hurdle / jostle] | L7:OK | L8:偏高
-- hermit | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:hermit/lived/small/cabin) | 选项:[hermit / hoist / hurl / jubilant] | L7:OK | L8:偏高
-- hew | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:lumberjack/hewed/fallen/tree) | 选项:[hew / homage / hurricane / juncture] | L7:OK | L8:偏高
-- hinge | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:gate/swung/back/forth) | 选项:[hinge / homestead / hydrate / juniper] | L7:OK | L8:偏高
-- hoard | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:dragon/hoarded/gold/coins) | 选项:[hoard / hone / hymn / kernel] | L7:OK | L8:偏高
-- hobble | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:hobbled/nurse's/office/twisting) | 选项:[hobble / hornet / hyperbole / kilt] | L7:OK | L8:偏高
-- hoist | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:sailors/hoisted/heavy/anchor) | 选项:[hoist / hosiery / icon / knack] | L7:OK | L8:偏高
-- homage | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:statue/built/homage/brave) | 选项:[homage / hospitable / imbue / knead] | L7:注意 | L8:偏高
-- homestead | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:old/homestead/farmhouse/red) | 选项:[homestead / hub / impervious / knell] | L7:OK | L8:偏高
-- hone | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:honed/drawing/skills/sketching) | 选项:[hone / huddle / impound / knoll] | L7:OK | L8:偏高
-- hornet | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:hornet/buzzed/angrily/picnic) | 选项:[hornet / hull / indent / lacquer] | L7:OK | L8:合适
-- hosiery | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:store/whole/aisle/hosiery) | 选项:[hosiery / humus / inferno / lair] | L7:OK | L8:偏高
-- hospitable | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:hospitable/family/offered/lemonade) | 选项:[hospitable / hurdle / infuse / lance] | L7:OK | L8:偏高
-- hub | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一(线索:airport/busy/hub/where) | 选项:[hub / hurl / inlet / lanky] | L7:OK | L8:偏高
-- huddle | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:players/huddled/together/plan) | 选项:[huddle / hurricane / inquest / lattice] | L7:OK | L8:合适
-- hull | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:workers/painted/hull/ship) | 选项:[hull / hydrate / instill / lavish] | L7:OK | L8:偏高
-- humus | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:adding/humus/garden/made) | 选项:[humus / hymn / insular / ledger] | L7:OK | L8:偏高
-- hurdle | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:cleared/hurdle/track/finished) | 选项:[hurdle / hyperbole / intrigue / leech] | L7:OK | L8:合适
-- hurl | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:pitcher/hurled/baseball/fast) | 选项:[hurl / icon / inundate / leer] | L7:OK | L8:偏高
-- hurricane | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:hurricane/brought/winds/miles) | 选项:[hurricane / imbue / irate / legible] | L7:OK | L8:合适
-- hydrate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:coaches/remind/players/hydrate) | 选项:[hydrate / impervious / irk / legion] | L7:OK | L8:偏高
-- hymn | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:choir/sang/beautiful/hymn) | 选项:[hymn / impound / ivory / lever] | L7:注意 | L8:偏高
-- hyperbole | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:saying/i'm/hungry/eat) | 选项:[hyperbole / indent / jaunt / lilac] | L7:OK | L8:偏高
-- icon | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:clicked/mail/icon/computer) | 选项:[icon / inferno / jest / limber] | L7:OK | L8:合适
-- imbue | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:teacher/imbued/students/love) | 选项:[imbue / infuse / jettison / limelight] | L7:OK | L8:偏高
-- impervious | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一(线索:waterproof/jacket/impervious/rain) | 选项:[impervious / inlet / jinx / limpid] | L7:OK | L8:偏高
-- impound | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:city/impounded/car/parked) | 选项:[impound / inquest / jostle / lineage] | L7:OK | L8:偏高
-- indent | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:indented/first/line/paragraph) | 选项:[indent / instill / jubilant / linen] | L7:OK | L8:偏高
-- inferno | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:forest/fire/grew/inferno) | 选项:[inferno / insular / juncture / lintel] | L7:OK | L8:偏高
-- infuse | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一(线索:infused/water/slices/lemon) | 选项:[infuse / intrigue / juniper / listless] | L7:OK | L8:偏高
-- inlet | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:kayakers/paddled/calm/inlet) | 选项:[inlet / inundate / kernel / litany] | L7:OK | L8:偏高
-- inquest | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:judge/ordered/inquest/find) | 选项:[inquest / irate / kilt / lithe] | L7:OK | L8:偏高
-- instill | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:coach/instilled/sense/teamwork) | 选项:[instill / irk / knack / livelihood] | L7:OK | L8:偏高
-- insular | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:insular/village/little/contact) | 选项:[insular / ivory / knead / loam] | L7:OK | L8:偏高
-- intrigue | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:mysterious/locked/box/intrigued) | 选项:[intrigue / jaunt / knell / lobe] | L7:OK | L8:偏高
-- inundate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:story/went/viral/reporter) | 选项:[inundate / jest / knoll / locale] | L7:OK | L8:偏高
-- irate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:irate/buyer/demanded/speak) | 选项:[irate / jettison / lacquer / locomotion] | L7:OK | L8:偏高
-- irk | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:constant/dripping/faucet/irked) | 选项:[irk / jinx / lair / loft] | L7:OK | L8:偏高
-- ivory | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:antique/piano/ivory/colored) | 选项:[ivory / jostle / lance / lore] | L7:注意 | L8:偏高
-- jaunt | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:took/weekend/jaunt/seaside) | 选项:[jaunt / jubilant / lanky / lucid] | L7:OK | L8:偏高
-- jest | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:said/jest/everyone/thought) | 选项:[jest / juncture / lattice / lull] | L7:OK | L8:偏高
-- jettison | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:pilot/jettisoned/extra/fuel) | 选项:[jettison / juniper / lavish / lunge] | L7:OK | L8:偏高
-- jinx | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:thought/broken/mirror/jinx) | 选项:[jinx / kernel / ledger / advance] | L7:注意 | L8:偏高
-- jostle | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:shoppers/jostled/other/trying) | 选项:[jostle / kilt / leech / affordable] | L7:OK | L8:偏高
-- jubilant | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一(线索:jubilant/team/lifted/trophy) | 选项:[jubilant / knack / leer / analyze] | L7:OK | L8:偏高
-- juncture | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:juncture/need/decide/whether) | 选项:[juncture / knead / legible / apply] | L7:OK | L8:偏高
-- juniper | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:juniper/bushes/along/fence) | 选项:[juniper / knell / legion / burden] | L7:OK | L8:偏高
-- kernel | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一(线索:ate/last/kernel/popcorn) | 选项:[kernel / knoll / lever / cancel] | L7:OK | L8:合适
-- kilt | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:scottish/bagpiper/wore/green) | 选项:[kilt / lacquer / lilac / device] | L7:OK | L8:偏高
-- knack | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:knack/fixing/things/repaired) | 选项:[knack / lair / limber / elect] | L7:OK | L8:偏高
-- knead | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:baker/kneaded/bread/dough) | 选项:[knead / lance / limelight / emphasize] | L7:OK | L8:偏高
-- knell | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:deep/knell/church/bell) | 选项:[knell / lanky / limpid / exclaim] | L7:OK | L8:偏高
-- knoll | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:spread/picnic/blanket/grassy) | 选项:[knoll / lattice / lineage / frustrate] | L7:OK | L8:偏高
-- lacquer | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:wooden/jewelry/box/covered) | 选项:[lacquer / lavish / linen / glimpse] | L7:OK | L8:偏高
-- lair | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:bear/returned/lair/cave) | 选项:[lair / ledger / lintel / govern] | L7:OK | L8:偏高
-- lance | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:knight/charged/forward/lance) | 选项:[lance / leech / listless / idle] | L7:OK | L8:偏高
-- lanky | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:lanky/teenager/duck/walk) | 选项:[lanky / leer / litany / invest] | L7:OK | L8:偏高
-- lattice | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:roses/climbed/wooden/lattice) | 选项:[lattice / legible / lithe / manner] | L7:OK | L8:偏高
-- lavish | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:lavish/birthday/party/chocolate) | 选项:[lavish / legion / livelihood / negative] | L7:OK | L8:偏高
-- ledger | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:shop/owner/wrote/sale) | 选项:[ledger / lever / loam / outcome] | L7:OK | L8:偏高
-- leech | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一(线索:wading/pond/found/leech) | 选项:[leech / lilac / lobe / regulate] | L7:OK | L8:合适
-- leer | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:villain/movie/leered/hero) | 选项:[leer / limber / locale / rhythm] | L7:OK | L8:偏高
-- legible | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:please/write/legible/handwriting) | 选项:[legible / limelight / locomotion / risk] | L7:OK | L8:偏高
-- legion | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一(线索:legion/fans/waited/outside) | 选项:[legion / limpid / loft / tension] | L7:OK | L8:偏高
-- lever | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:used/long/lever/pry) | 选项:[lever / lineage / lore / typical] | L7:OK | L8:偏高
-- lilac | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:lilac/bushes/bloomed/filling) | 选项:[lilac / linen / lucid / basement] | L7:OK | L8:偏高
-- limber | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:gymnast/limber/touch/toes) | 选项:[limber / lintel / lull / blade] | L7:OK | L8:偏高
-- limelight | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:young/actress/enjoyed/limelight) | 选项:[limelight / listless / lunge / canyon] | L7:OK | L8:偏高
-- limpid | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:limpid/mountain/stream/clear) | 选项:[limpid / litany / advance / chimney] | L7:OK | L8:偏高
-- lineage | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:traced/lineage/back/generations) | 选项:[lineage / lithe / affordable / chunk] | L7:OK | L8:偏高
-- linen | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:table/set/crisp/white) | 选项:[linen / livelihood / analyze / creek] | L7:OK | L8:偏高
-- lintel | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:stone/lintel/above/old) | 选项:[lintel / loam / apply / crisp] | L7:OK | L8:偏高
-- listless | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:hot/afternoon/made/everyone) | 选项:[listless / lobe / burden / flask] | L7:OK | L8:偏高
-- litany | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:teacher/read/litany/rules) | 选项:[litany / locale / cancel / foil] | L7:OK | L8:偏高
-- lithe | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:lithe/dancer/moved/across) | 选项:[lithe / locomotion / device / gasp] | L7:OK | L8:偏高
-- livelihood | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:fishing/main/livelihood/people) | 选项:[livelihood / loft / elect / glare] | L7:OK | L8:偏高
-- loam | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:gardener/filled/pots/dark) | 选项:[loam / lore / emphasize / glow] | L7:OK | L8:偏高
-- lobe | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:wore/tiny/gold/earring) | 选项:[lobe / lucid / exclaim / hatch] | L7:OK | L8:偏高
-- locale | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:tropical/locale/movie/made) | 选项:[locale / lull / frustrate / hose] | L7:OK | L8:偏高
-- locomotion | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:wheels/legs/fins/tools) | 选项:[locomotion / lunge / glimpse / inn] | L7:OK | L8:偏高
-- loft | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:converted/dusty/loft/cozy) | 选项:[loft / advance / govern / jolt] | L7:OK | L8:偏高
-- lore | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:village/elder/shared/lore) | 选项:[lore / affordable / idle / ledge] | L7:OK | L8:偏高
-- lucid | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一(线索:teacher/gave/lucid/explanation) | 选项:[lucid / analyze / invest / lumber] | L7:OK | L8:偏高
-- lull | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一(线索:lull/storm/quickly/ran) | 选项:[lull / apply / manner / mend] | L7:OK | L8:偏高
-- lunge | L5-Def:不能 | L5-Ex:不能 | L6:不唯一(线索:fencer/made/quick/lunge) | 选项:[lunge / burden / negative / quarry] | L7:OK | L8:偏高
+- advance | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The chess piece can only ____ one square at a time." | 选项:[advance / cancel / outcome / ridge] | L7:OK | L8:合适
+- affordable | L5-Def:不能 | L5-Ex:能 | L6:唯一 | 遮词例句:"The lemonade stand had ____ prices, so every kid could buy a cup." | 选项:[affordable / device / regulate / slope] | L7:OK | L8:合适
+- analyze | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The scientist had to ____ the data from the experiment to see what happened." | 选项:[analyze / elect / rhythm / spout] | L7:OK | L8:偏高
+- apply | L5-Def:勉强(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She learned to ____ sunscreen before going to the beach, so she wouldn't burn." | 选项:[apply / emphasize / risk / stump] | L7:OK | L8:合适
+- burden | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Carrying all six library books at once was a ____, so she made two trips." | 选项:[burden / exclaim / tension / torch] | L7:OK | L8:合适
+- cancel | L5-Def:能 | L5-Ex:能 | L6:唯一 | 遮词例句:"The coach had to ____ practice because lightning flashed across the sky." | 选项:[cancel / frustrate / typical / wade] | L7:OK | L8:合适
+- device | L5-Def:勉强(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A thermometer is a ____ that tells you exactly how hot or cold it is." | 选项:[device / glimpse / basement / asteroid] | L7:OK | L8:合适
+- elect | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"The class will ____ a new president by putting names in a ballot box." | 选项:[elect / govern / blade / axis] | L7:OK | L8:合适
+- emphasize | L5-Def:不能 | L5-Ex:勉强(卡:语境强) | L6:唯一 | 遮词例句:"The teacher underlined the word to ____ that it would be on the test." | 选项:[emphasize / idle / canyon / carnivore] | L7:OK | L8:合适
+- exclaim | L5-Def:勉强 | L5-Ex:勉强 | L6:唯一 | 遮词例句:"He ____, 'Look, a shooting star!' while pointing at the night sky." | 选项:[exclaim / invest / chimney / census] | L7:OK | L8:合适
+- frustrate | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"The puzzle began to ____ him because the last piece would not fit anywhere." | 选项:[frustrate / manner / chunk / chlorophyll] | L7:OK | L8:合适
+- glimpse | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"He caught a ____ of the fox's tail before it disappeared into the bushes." | 选项:[glimpse / negative / creek / crater] | L7:OK | L8:合适
+- govern | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The student council helps ____ the school by deciding on spirit week themes." | 选项:[govern / outcome / crisp / crustacean] | L7:OK | L8:偏高
+- idle | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The swing sat ____ in the yard because all the kids were inside watching the rain." | 选项:[idle / regulate / flask / digestive] | L7:OK | L8:合适
+- invest | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She chose to ____ her allowance in art supplies, so she could sell paintings later." | 选项:[invest / rhythm / foil / elevation] | L7:OK | L8:偏高
+- manner | L5-Def:勉强(卡:多义易混) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She spoke in a polite ____, always saying 'please' and 'thank you' to the cashier." | 选项:[manner / risk / gasp / fertile] | L7:OK | L8:合适
+- negative | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The temperature dropped to ____ ten degrees, so ice formed inside the windows." | 选项:[negative / tension / glare / glacier] | L7:OK | L8:偏高
+- outcome | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ of the science test surprised everyone-the plant grew faster in the dark!" | 选项:[outcome / typical / glow / herbivore] | L7:OK | L8:合适
+- regulate | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A thermostat helps ____ the heat, so your house stays comfortable." | 选项:[regulate / basement / hatch / humidity] | L7:OK | L8:偏高
+- rhythm | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"She clapped along to the ____ of the drum, matching every boom perfectly." | 选项:[rhythm / blade / hose / legislature] | L7:OK | L8:合适
+- risk | L5-Def:勉强 | L5-Ex:勉强 | L6:唯一 | 遮词例句:"There's a ____ of getting stung if you poke a beehive with a stick." | 选项:[risk / canyon / inn / molecule] | L7:OK | L8:合适
+- tension | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"There was ____ in the room as the teacher handed back the tests face-down." | 选项:[tension / chimney / jolt / arid] | L7:OK | L8:偏高
+- typical | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"A ____ school day starts at 8:00 and ends at 3:00, with lunch in between." | 选项:[typical / chunk / ledge / archaeology] | L7:OK | L8:合适
+- basement | L5-Def:能 | L5-Ex:能 | L6:唯一 | 遮词例句:"The family keeps their holiday decorations in boxes stacked in the ____." | 选项:[basement / creek / lumber / mesa] | L7:OK | L8:合适
+- blade | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A single ____ of grass had a tiny ladybug resting on its tip." | 选项:[blade / crisp / mend / tundra] | L7:OK | L8:合适
+- canyon | L5-Def:勉强 | L5-Ex:勉强 | L6:唯一 | 遮词例句:"They stood at the edge of the ____ and could barely see the river far below." | 选项:[canyon / flask / quarry / stalagmite] | L7:OK | L8:合适
+- chimney | L5-Def:勉强 | L5-Ex:勉强 | L6:唯一 | 遮词例句:"Smoke curled up from the ____, telling us someone had lit a fire inside." | 选项:[chimney / foil / ridge / tributary] | L7:OK | L8:合适
+- chunk | L5-Def:能 | L5-Ex:能 | L6:唯一 | 遮词例句:"He bit off a big ____ of watermelon and juice dripped down his chin." | 选项:[chunk / gasp / slope / archipelago] | L7:OK | L8:合适
+- creek | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"They found smooth stones at the bottom of the ____ and skipped them across the water." | 选项:[creek / glare / spout / stratosphere] | L7:OK | L8:合适
+- crisp | L5-Def:勉强(卡:抽象) | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"The ____ autumn leaves crunched under their feet as they walked to school." | 选项:[crisp / glow / stump / preamble] | L7:OK | L8:合适
+- flask | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The science teacher poured purple liquid into a glass ____, and it started to bubble." | 选项:[flask / hatch / torch / filament] | L7:OK | L8:偏高
+- foil | L5-Def:勉强 | L5-Ex:勉强(卡:语境强) | L6:唯一 | 遮词例句:"Dad wrapped the leftover pizza in ____ to keep it fresh for tomorrow." | 选项:[foil / hose / wade / nocturnal] | L7:OK | L8:合适
+- gasp | L5-Def:勉强 | L5-Ex:勉强(卡:语境强) | L6:唯一 | 遮词例句:"She ____ when she saw the acrobat flip three times in the air." | 选项:[gasp / inn / asteroid / translucent] | L7:OK | L8:合适
+- glare | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"The ____ from the snow was so bright that she had to put on sunglasses." | 选项:[glare / jolt / axis / omnivore] | L7:OK | L8:合适
+- glow | L5-Def:能 | L5-Ex:能 | L6:不唯一 | 遮词例句:"The jack-o'-lantern's candle made it ____ orange on the dark porch." | 选项:[glow / ledge / carnivore / plateau] | L7:OK | L8:合适
+- hatch | L5-Def:勉强 | L5-Ex:能 | L6:唯一 | 遮词例句:"The baby chick took hours to ____, pecking tiny cracks in the shell until it broke free." | 选项:[hatch / lumber / census / geothermal] | L7:OK | L8:合适
+- hose | L5-Def:能 | L5-Ex:能 | L6:唯一 | 遮词例句:"She sprayed her brother with the garden ____ on the hot summer day." | 选项:[hose / mend / chlorophyll / specimen] | L7:OK | L8:合适
+- inn | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The tired hikers found a cozy ____ at the bottom of the mountain with warm soup." | 选项:[inn / quarry / crater / meridian] | L7:OK | L8:偏高
+- jolt | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"The bus hit a bump, and everyone felt a ____ that made their bags slide off the seats." | 选项:[jolt / ridge / crustacean / respiration] | L7:OK | L8:合适
+- ledge | L5-Def:勉强(卡:抽象) | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"The pigeon sat on the window ____ and pecked at crumbs left on the sill." | 选项:[ledge / slope / digestive / paleontology] | L7:OK | L8:合适
+- lumber | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A big truck delivered a stack of ____ to build the new tree house." | 选项:[lumber / spout / elevation / aquifer] | L7:OK | L8:偏高
+- mend | L5-Def:勉强 | L5-Ex:勉强(卡:语境强) | L6:唯一 | 遮词例句:"Grandma used a needle and thread to ____ the hole in his favorite stuffed bear." | 选项:[mend / stump / fertile / deciduous] | L7:OK | L8:合适
+- quarry | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The marble for the building came from a ____ where workers cut huge blocks of white rock." | 选项:[quarry / torch / glacier / pharaoh] | L7:OK | L8:偏高
+- ridge | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"From the ____ of the mountain, they could see three different valleys below." | 选项:[ridge / wade / herbivore / sedimentary] | L7:OK | L8:偏高
+- slope | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"They raced their bikes down the ____ of the grassy hill, going faster and faster." | 选项:[slope / asteroid / humidity / isthmus] | L7:OK | L8:合适
+- spout | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Water shot up from the whale's ____ like a fountain twenty feet into the air." | 选项:[spout / axis / legislature / dividend] | L7:OK | L8:偏高
+- stump | L5-Def:勉强 | L5-Ex:勉强(卡:语境强) | L6:唯一 | 遮词例句:"They used the old tree ____ as a table for their tea party in the woods." | 选项:[stump / carnivore / molecule / divisor] | L7:OK | L8:合适
+- torch | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"In the dark cave, the explorer held a ____ that lit up the sparkling walls." | 选项:[torch / census / arid / mandate] | L7:OK | L8:合适
+- wade | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"They rolled up their pants to ____ across the shallow stream to the other side." | 选项:[wade / chlorophyll / archaeology / authentic] | L7:OK | L8:合适
+- asteroid | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"An ____ the size of a school bus flew past Earth but didn't come close enough to hit us." | 选项:[asteroid / crater / mesa / scarcity] | L7:OK | L8:偏高
+- axis | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Earth spins on its ____ once every 24 hours, which gives us day and night." | 选项:[axis / crustacean / tundra / ancestry] | L7:OK | L8:偏高
+- carnivore | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A lion is a ____ because it hunts and eats other animals like zebras." | 选项:[carnivore / digestive / stalagmite / interval] | L7:OK | L8:偏高
+- census | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Every ten years, the government does a ____ to find out how many people live in each state." | 选项:[census / elevation / tributary / eligible] | L7:OK | L8:偏高
+- chlorophyll | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"____ is what makes leaves green and helps the plant turn sunlight into energy." | 选项:[chlorophyll / fertile / archipelago / manipulate] | L7:OK | L8:偏高
+- crater | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The moon is covered in ____ where rocks from space crashed into it billions of years ago." | 选项:[crater / glacier / stratosphere / salvage] | L7:OK | L8:偏高
+- crustacean | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A lobster is a ____ with big claws, eight legs, and a hard red shell." | 选项:[crustacean / herbivore / preamble / acquire] | L7:OK | L8:偏高
+- digestive | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Your ____ system turns the sandwich you ate into energy your body can use." | 选项:[digestive / humidity / filament / terminate] | L7:OK | L8:偏高
+- elevation | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The mountain town has an ____ of 8,000 feet, which is why it's cooler there." | 选项:[elevation / legislature / nocturnal / verdict] | L7:OK | L8:偏高
+- fertile | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ soil near the river grows the tallest corn because it has lots of nutrients." | 选项:[fertile / molecule / translucent / hangar] | L7:OK | L8:偏高
+- glacier | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ carved out the valley over thousands of years as it crept forward like a frozen river." | 选项:[glacier / arid / omnivore / hardship] | L7:OK | L8:偏高
+- herbivore | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A rabbit is a ____ that munches on grass, carrots, and leafy greens all day." | 选项:[herbivore / archaeology / plateau / harpoon] | L7:OK | L8:偏高
+- humidity | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ was so high that her glasses fogged up the moment she walked outside." | 选项:[humidity / mesa / geothermal / harrow] | L7:OK | L8:偏高
+- legislature | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ voted to pass a new law requiring all schools to have a recess period." | 选项:[legislature / tundra / specimen / haste] | L7:OK | L8:偏高
+- molecule | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A water ____ is so small that millions of them fit in a single drop." | 选项:[molecule / stalagmite / meridian / havoc] | L7:OK | L8:偏高
+- arid | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Cacti grow well in ____ places because they store water inside their thick stems." | 选项:[arid / tributary / respiration / headway] | L7:OK | L8:偏高
+- archaeology | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"In ____ class, they learned how scientists dig up ancient pots and tools buried in dirt." | 选项:[archaeology / archipelago / paleontology / heed] | L7:OK | L8:偏高
+- mesa | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ stood alone in the desert like a giant table made of red rock." | 选项:[mesa / stratosphere / aquifer / helm] | L7:OK | L8:偏高
+- tundra | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"In the Arctic ____, the ground stays frozen and only small tough plants can survive." | 选项:[tundra / preamble / deciduous / herald] | L7:OK | L8:偏高
+- stalagmite | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ grew from the cave floor like a stone tower built by dripping water over thousands of years." | 选项:[stalagmite / filament / pharaoh / hermit] | L7:OK | L8:偏高
+- tributary | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The small ____ joins the main river near the bridge downtown." | 选项:[tributary / nocturnal / sedimentary / hew] | L7:OK | L8:偏高
+- archipelago | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Hawaii is an ____ made of eight main islands formed by underwater volcanoes." | 选项:[archipelago / translucent / isthmus / hinge] | L7:OK | L8:偏高
+- stratosphere | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The weather balloon floated up into the ____, far above the clouds where the sky looks black." | 选项:[stratosphere / omnivore / dividend / hoard] | L7:OK | L8:偏高
+- preamble | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ of the Constitution starts with 'We the People' to show it belongs to all." | 选项:[preamble / plateau / divisor / hobble] | L7:注意(政治/美国宪法语境, 可能离生活远) | L8:偏高
+- filament | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ inside the light bulb glows white-hot when power flows through it." | 选项:[filament / geothermal / mandate / hoist] | L7:OK | L8:偏高
+- nocturnal | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Owls are ____ animals that hunt mice in the dark using their great hearing." | 选项:[nocturnal / specimen / authentic / homage] | L7:OK | L8:偏高
+- translucent | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ jellyfish glowed when light passed through its body in the dark ocean." | 选项:[translucent / meridian / scarcity / homestead] | L7:OK | L8:偏高
+- omnivore | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A bear is an ____ because it eats fish from the river and berries from bushes." | 选项:[omnivore / respiration / ancestry / hone] | L7:OK | L8:偏高
+- plateau | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ rose above the desert like a giant table with flat land on top." | 选项:[plateau / paleontology / interval / hornet] | L7:OK | L8:偏高
+- geothermal | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Iceland uses ____ energy from underground hot water to heat homes and fill swimming pools." | 选项:[geothermal / aquifer / eligible / hosiery] | L7:OK | L8:偏高
+- specimen | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The scientist collected a ____ of the unusual rock to study back in the lab." | 选项:[specimen / deciduous / manipulate / hospitable] | L7:OK | L8:偏高
+- meridian | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The Prime ____ passes through London and divides the world into east and west halves." | 选项:[meridian / pharaoh / salvage / hub] | L7:OK | L8:偏高
+- respiration | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"During gym class, their ____ increased, and they could feel their chests rising and falling faster." | 选项:[respiration / sedimentary / acquire / huddle] | L7:OK | L8:偏高
+- paleontology | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"____ helps scientists learn about dinosaurs by studying their bones found in rock." | 选项:[paleontology / isthmus / terminate / hull] | L7:OK | L8:偏高
+- aquifer | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The town gets its drinking water from an ____ deep below the ground." | 选项:[aquifer / dividend / verdict / humus] | L7:OK | L8:偏高
+- deciduous | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ oak tree dropped every leaf by November leaving bare branches against the sky." | 选项:[deciduous / divisor / hangar / hurdle] | L7:OK | L8:偏高
+- pharaoh | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ ordered workers to build a massive pyramid that took twenty years to finish." | 选项:[pharaoh / mandate / hardship / hurl] | L7:OK | L8:偏高
+- sedimentary | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ rock had visible layers like a stack of pancakes pressed into stone." | 选项:[sedimentary / authentic / harpoon / hurricane] | L7:OK | L8:偏高
+- isthmus | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ of Panama connects North America and South America like a skinny land bridge." | 选项:[isthmus / scarcity / harrow / hydrate] | L7:OK | L8:偏高
+- dividend | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"In 12 ÷ 3, the ____ is 12 because that's the number being split into groups." | 选项:[dividend / ancestry / haste / hymn] | L7:OK | L8:偏高
+- divisor | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"In 12 ÷ 3, the ____ is 3 because that's how many groups you're making." | 选项:[divisor / interval / havoc / hyperbole] | L7:OK | L8:偏高
+- mandate | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The school issued a ____ that all students must wear helmets during bike-to-school day." | 选项:[mandate / eligible / headway / icon] | L7:OK | L8:偏高
+- authentic | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ dinosaur tooth in the museum is 65 million years old." | 选项:[authentic / manipulate / heed / imbue] | L7:OK | L8:偏高
+- scarcity | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"During the ____ of water in summer the town only let people water lawns once a week." | 选项:[scarcity / salvage / helm / impervious] | L7:OK | L8:偏高
+- ancestry | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"By studying her ____, she found that her great-great-grandparents came from Ireland." | 选项:[ancestry / acquire / herald / impound] | L7:OK | L8:偏高
+- interval | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The buses arrive at ten-minute ____, so you never wait very long." | 选项:[interval / terminate / hermit / indent] | L7:OK | L8:偏高
+- eligible | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"You are ____ to join the reading club if you've finished at least five books this year." | 选项:[eligible / verdict / hew / inferno] | L7:OK | L8:偏高
+- manipulate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"He learned to ____ the clay into the shape of a tiny horse with his fingers." | 选项:[manipulate / hangar / hinge / infuse] | L7:注意(含“操控/骗人”义, 家长可能敏感) | L8:偏高
+- salvage | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"After the flood, the family tried to ____ their photo albums by drying them in the sun." | 选项:[salvage / hardship / hoard / inlet] | L7:OK | L8:偏高
+- acquire | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She worked all summer to ____ enough money for the telescope she wanted." | 选项:[acquire / harpoon / hobble / inquest] | L7:OK | L8:偏高
+- terminate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The train will ____ at the last station-everyone must get off there." | 选项:[terminate / harrow / hoist / instill] | L7:OK | L8:偏高
+- verdict | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"After tasting all three pies, the judges gave their ____-cherry was the winner!" | 选项:[verdict / haste / homage / insular] | L7:OK | L8:偏高
+- hangar | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The mechanic wheeled the small plane into the ____ to fix its engine." | 选项:[hangar / havoc / homestead / intrigue] | L7:OK | L8:偏高
+- hardship | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The pioneer families faced many ____ with harsh winters and limited food." | 选项:[hardship / headway / hone / inundate] | L7:OK | L8:偏高
+- harpoon | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The fisherman threw the ____ at the giant tuna swimming near the boat." | 选项:[harpoon / heed / hornet / irate] | L7:注意(捕猎/暴力联想, 尤其易想到捕鲸) | L8:偏高
+- harrow | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The farmer pulled a ____ across the field to prepare the soil for planting." | 选项:[harrow / helm / hosiery / irk] | L7:OK | L8:偏高
+- haste | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"In her ____ to catch the bus, she left her lunch on the kitchen counter." | 选项:[haste / herald / hospitable / ivory] | L7:OK | L8:偏高
+- havoc | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The tornado wreaked ____ on the small town, knocking down fences and signs." | 选项:[havoc / hermit / hub / jaunt] | L7:OK | L8:偏高
+- headway | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"After weeks of practice, she finally made ____ on the difficult piano piece." | 选项:[headway / hew / huddle / jest] | L7:OK | L8:偏高
+- heed | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"He ____ his father's warning and wore a coat on the chilly day." | 选项:[heed / hinge / hull / jettison] | L7:OK | L8:偏高
+- helm | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The captain took the ____ and guided the ship through the narrow channel." | 选项:[helm / hoard / humus / jinx] | L7:OK | L8:偏高
+- herald | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Robins are often called ____ of spring because they appear when warm weather arrives." | 选项:[herald / hobble / hurdle / jostle] | L7:OK | L8:偏高
+- hermit | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ lived in a small cabin on the mountaintop, far from any town." | 选项:[hermit / hoist / hurl / jubilant] | L7:OK | L8:偏高
+- hew | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The lumberjack ____ the fallen tree into logs for the campfire." | 选项:[hew / homage / hurricane / juncture] | L7:OK | L8:偏高
+- hinge | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The gate swung back and forth on its rusty ____, creaking loudly." | 选项:[hinge / homestead / hydrate / juniper] | L7:OK | L8:偏高
+- hoard | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The dragon ____ gold coins in a giant pile inside its cave." | 选项:[hoard / hone / hymn / kernel] | L7:OK | L8:偏高
+- hobble | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"He hobbled to the nurse's office after twisting his ankle on the playground." | 选项:[hobble / hornet / hyperbole / kilt] | L7:OK | L8:偏高
+- hoist | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The sailors ____ the heavy anchor out of the water before setting sail." | 选项:[hoist / hosiery / icon / knack] | L7:OK | L8:偏高
+- homage | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The statue was built as ____ to the brave soldiers who served the country." | 选项:[homage / hospitable / imbue / knead] | L7:注意(军人/战争/纪念语境, 偏成人/公共叙事) | L8:偏高
+- homestead | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The old ____ had a farmhouse, a red barn, and acres of apple trees." | 选项:[homestead / hub / impervious / knell] | L7:OK | L8:偏高
+- hone | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She honed her drawing skills by sketching in her notebook every single day." | 选项:[hone / huddle / impound / knoll] | L7:OK | L8:偏高
+- hornet | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A ____ buzzed angrily around the picnic table when it smelled the fruit." | 选项:[hornet / hull / indent / lacquer] | L7:OK | L8:合适
+- hosiery | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The store had a whole aisle of ____ in every color and pattern." | 选项:[hosiery / humus / inferno / lair] | L7:OK | L8:偏高
+- hospitable | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ family offered us lemonade and cookies the moment we came." | 选项:[hospitable / hurdle / infuse / lance] | L7:OK | L8:偏高
+- hub | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The airport is a busy ____ where travelers from many countries pass through." | 选项:[hub / hurl / inlet / lanky] | L7:OK | L8:偏高
+- huddle | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"The players huddled together to plan their next move before the final play." | 选项:[huddle / hurricane / inquest / lattice] | L7:OK | L8:合适
+- hull | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Workers painted the ____ of the ship bright blue before it went back in the water." | 选项:[hull / hydrate / instill / lavish] | L7:OK | L8:偏高
+- humus | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Adding ____ to the garden made the soil soft and perfect for growing vegetables." | 选项:[humus / hymn / insular / ledger] | L7:OK | L8:偏高
+- hurdle | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She cleared every ____ on the track and finished in first place." | 选项:[hurdle / hyperbole / intrigue / leech] | L7:OK | L8:合适
+- hurl | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The pitcher ____ the baseball so fast the batter could barely see it." | 选项:[hurl / icon / inundate / leer] | L7:OK | L8:偏高
+- hurricane | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ brought winds of over 100 miles per hour to the coast." | 选项:[hurricane / imbue / irate / legible] | L7:OK | L8:合适
+- hydrate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Coaches remind players to ____ by drinking water during each break." | 选项:[hydrate / impervious / irk / legion] | L7:OK | L8:偏高
+- hymn | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The choir sang a beautiful ____ that echoed through the old stone church." | 选项:[hymn / impound / ivory / lever] | L7:注意(宗教场景词, 家长可能介意或陌生) | L8:偏高
+- hyperbole | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Saying 'I'm so hungry I could eat a horse' is an example of ____." | 选项:[hyperbole / indent / jaunt / lilac] | L7:OK | L8:偏高
+- icon | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She clicked the mail ____ on her computer to check for new messages." | 选项:[icon / inferno / jest / limber] | L7:OK | L8:合适
+- imbue | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The teacher imbued his students with a love of reading from day one." | 选项:[imbue / infuse / jettison / limelight] | L7:OK | L8:偏高
+- impervious | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The waterproof jacket was ____ to rain-not a single drop got through." | 选项:[impervious / inlet / jinx / limpid] | L7:OK | L8:偏高
+- impound | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The city ____ the car because it had been parked illegally for weeks." | 选项:[impound / inquest / jostle / lineage] | L7:OK | L8:偏高
+- indent | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She ____ the first line of each paragraph in her essay." | 选项:[indent / instill / jubilant / linen] | L7:OK | L8:偏高
+- inferno | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The forest fire grew into an ____ that lit up the night sky." | 选项:[inferno / insular / juncture / lintel] | L7:OK | L8:偏高
+- infuse | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She infused the water with slices of lemon and mint for a refreshing drink." | 选项:[infuse / intrigue / juniper / listless] | L7:OK | L8:偏高
+- inlet | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Kayakers paddled through the calm ____ surrounded by tall pine trees." | 选项:[inlet / inundate / kernel / litany] | L7:OK | L8:偏高
+- inquest | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The judge ordered an ____ to find out exactly what had happened." | 选项:[inquest / irate / kilt / lithe] | L7:OK | L8:偏高
+- instill | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The coach ____ a sense of teamwork in every player on the squad." | 选项:[instill / irk / knack / livelihood] | L7:OK | L8:偏高
+- insular | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ village had little contact with the outside world." | 选项:[insular / ivory / knead / loam] | L7:OK | L8:偏高
+- intrigue | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The mysterious locked box intrigued the children, and they wanted to open it." | 选项:[intrigue / jaunt / knell / lobe] | L7:OK | L8:偏高
+- inundate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"After the story went viral, the reporter was inundated with phone calls." | 选项:[inundate / jest / knoll / locale] | L7:OK | L8:偏高
+- irate | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ buyer demanded to speak to the manager about the broken product." | 选项:[irate / jettison / lacquer / locomotion] | L7:OK | L8:偏高
+- irk | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The constant dripping of the faucet ____ her while she tried to study." | 选项:[irk / jinx / lair / loft] | L7:OK | L8:偏高
+- ivory | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"The antique piano had ____-colored keys that felt smooth under his fingers." | 选项:[ivory / jostle / lance / lore] | L7:注意(象牙/动物保护联想, 也可能被理解成来源残忍) | L8:偏高
+- jaunt | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"They took a weekend ____ to the seaside to enjoy the fresh ocean air." | 选项:[jaunt / jubilant / lanky / lucid] | L7:OK | L8:偏高
+- jest | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"He said it in ____, but everyone thought he was being serious." | 选项:[jest / juncture / lattice / lull] | L7:OK | L8:偏高
+- jettison | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The pilot ____ the extra fuel to make the plane lighter for landing." | 选项:[jettison / juniper / lavish / lunge] | L7:OK | L8:偏高
+- jinx | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She thought the broken mirror was a ____ that would bring seven years of bad luck." | 选项:[jinx / kernel / ledger / advance] | L7:注意(迷信/诅咒语境, 家长可能不喜欢) | L8:偏高
+- jostle | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Shoppers jostled each other trying to grab the last toy on the shelf." | 选项:[jostle / kilt / leech / affordable] | L7:OK | L8:偏高
+- jubilant | L5-Def:不能(卡:词形长) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ team lifted the trophy high and cheered winning the championship." | 选项:[jubilant / knack / leer / analyze] | L7:OK | L8:偏高
+- juncture | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"At this ____, we need to decide whether to go forward or change our plan." | 选项:[juncture / knead / legible / apply] | L7:OK | L8:偏高
+- juniper | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ bushes along the fence were covered in tiny dark berries." | 选项:[juniper / knell / legion / burden] | L7:OK | L8:偏高
+- kernel | L5-Def:勉强 | L5-Ex:勉强 | L6:不唯一 | 遮词例句:"She ate every last ____ of popcorn in the big bucket at the movies." | 选项:[kernel / knoll / lever / cancel] | L7:OK | L8:合适
+- kilt | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The Scottish bagpiper wore a green and blue ____ while playing music." | 选项:[kilt / lacquer / lilac / device] | L7:OK | L8:偏高
+- knack | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"He has a ____ for fixing things-he repaired the broken chair in ten minutes." | 选项:[knack / lair / limber / elect] | L7:OK | L8:偏高
+- knead | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The baker ____ the bread dough until it was soft and smooth." | 选项:[knead / lance / limelight / emphasize] | L7:OK | L8:偏高
+- knell | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The deep ____ of the church bell echoed across the quiet village." | 选项:[knell / lanky / limpid / exclaim] | L7:OK | L8:偏高
+- knoll | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"They spread a picnic blanket on the grassy ____ and ate lunch in the sunshine." | 选项:[knoll / lattice / lineage / frustrate] | L7:OK | L8:偏高
+- lacquer | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The wooden jewelry box was covered in red ____ that gleamed in the light." | 选项:[lacquer / lavish / linen / glimpse] | L7:OK | L8:偏高
+- lair | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The bear returned to its ____ in the cave to sleep through the winter." | 选项:[lair / ledger / lintel / govern] | L7:OK | L8:偏高
+- lance | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The knight charged forward with his ____ pointed straight at the target." | 选项:[lance / leech / listless / idle] | L7:OK | L8:偏高
+- lanky | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ teenager had to duck to walk through the low doorway." | 选项:[lanky / leer / litany / invest] | L7:OK | L8:偏高
+- lattice | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Roses climbed up the wooden ____ on the side of the cottage." | 选项:[lattice / legible / lithe / manner] | L7:OK | L8:偏高
+- lavish | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ birthday party had a chocolate fountain, a live band, and a pony ride." | 选项:[lavish / legion / livelihood / negative] | L7:OK | L8:偏高
+- ledger | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The shop owner wrote every sale in her ____ to keep track of the money." | 选项:[ledger / lever / loam / outcome] | L7:OK | L8:偏高
+- leech | L5-Def:勉强 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"After wading in the pond, he found a ____ stuck to his ankle." | 选项:[leech / lilac / lobe / regulate] | L7:OK | L8:合适
+- leer | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The villain in the movie ____ at the hero with a wicked grin." | 选项:[leer / limber / locale / rhythm] | L7:OK | L8:偏高
+- legible | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Please write in ____ handwriting, so the teacher can read your answers." | 选项:[legible / limelight / locomotion / risk] | L7:OK | L8:偏高
+- legion | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"A ____ of fans waited outside the stadium for the concert to begin." | 选项:[legion / limpid / loft / tension] | L7:OK | L8:偏高
+- lever | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"He used a long ____ to pry the heavy lid off the old wooden crate." | 选项:[lever / lineage / lore / typical] | L7:OK | L8:偏高
+- lilac | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ bushes bloomed in May, filling the whole garden with perfume." | 选项:[lilac / linen / lucid / basement] | L7:OK | L8:偏高
+- limber | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The gymnast was so ____ he could touch his toes to the back of his head." | 选项:[limber / lintel / lull / blade] | L7:OK | L8:偏高
+- limelight | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The young actress enjoyed being in the ____ after her hit movie." | 选项:[limelight / listless / lunge / canyon] | L7:OK | L8:偏高
+- limpid | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ mountain stream was so clear you could count the pebbles on the bottom." | 选项:[limpid / litany / advance / chimney] | L7:OK | L8:偏高
+- lineage | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She traced her ____ back five generations and found she had ancestors from Ireland." | 选项:[lineage / lithe / affordable / chunk] | L7:OK | L8:偏高
+- linen | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The table was set with a crisp white ____ tablecloth for the dinner party." | 选项:[linen / livelihood / analyze / creek] | L7:OK | L8:偏高
+- lintel | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The stone ____ above the old doorway had the date 1820 carved into it." | 选项:[lintel / loam / apply / crisp] | L7:OK | L8:偏高
+- listless | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The hot afternoon made everyone ____, and no one wanted to move." | 选项:[listless / lobe / burden / flask] | L7:OK | L8:偏高
+- litany | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The teacher read a ____ of rules on the first day of school." | 选项:[litany / locale / cancel / foil] | L7:OK | L8:偏高
+- lithe | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The ____ dancer moved across the stage like a cat." | 选项:[lithe / locomotion / device / gasp] | L7:OK | L8:偏高
+- livelihood | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Fishing was the main ____ for people in the small coastal village." | 选项:[livelihood / loft / elect / glare] | L7:OK | L8:偏高
+- loam | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The gardener filled the pots with dark ____ before planting the seeds." | 选项:[loam / lore / emphasize / glow] | L7:OK | L8:偏高
+- lobe | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"She wore a tiny gold earring on each ____ of her ears." | 选项:[lobe / lucid / exclaim / hatch] | L7:OK | L8:偏高
+- locale | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The tropical ____ of the movie made it feel like a vacation." | 选项:[locale / lull / frustrate / hose] | L7:OK | L8:偏高
+- locomotion | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"Wheels, legs, and fins are all tools of ____ used by different creatures." | 选项:[locomotion / lunge / glimpse / inn] | L7:OK | L8:偏高
+- loft | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"They converted the dusty ____ into a cozy reading room with bean bag chairs." | 选项:[loft / advance / govern / jolt] | L7:OK | L8:偏高
+- lore | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The village elder shared the ____ of their people around the evening campfire." | 选项:[lore / affordable / idle / ledge] | L7:OK | L8:偏高
+- lucid | L5-Def:不能(卡:抽象) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The teacher gave a ____ explanation that helped everyone understand fractions." | 选项:[lucid / analyze / invest / lumber] | L7:OK | L8:偏高
+- lull | L5-Def:不能(卡:多义易混) | L5-Ex:不能 | L6:不唯一 | 遮词例句:"During a ____ in the storm, they quickly ran outside to bring in the chairs." | 选项:[lull / apply / manner / mend] | L7:OK | L8:偏高
+- lunge | L5-Def:不能 | L5-Ex:不能 | L6:不唯一 | 遮词例句:"The fencer made a quick ____ toward his opponent and scored a point." | 选项:[lunge / burden / negative / quarry] | L7:OK | L8:偏高
