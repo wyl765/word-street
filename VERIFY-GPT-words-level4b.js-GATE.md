@@ -1,4 +1,7 @@
-# VERIFY-GPT — words-level4b.js
+# VERIFY-GPT — words-level4b.js — GATE
+
+选择依据：word-status.json → currentGate 最小=14；并列时选 gate 字段最少（进度最落后）的词库 → words-level4b.js。
+完整性校验：词库 310 词；本报告逐词 310 行；missing=0 / extra=0。
 
 - One line per word (no skipping).
 - L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
