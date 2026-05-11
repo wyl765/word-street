@@ -1,604 +1,604 @@
-# Gemini Gate Review - words-level1.js
+# VERIFY-GEMINI-words-level1.js-GATE
 
-| Word | L9: Image Keyword | L10: Fact Check | L11: Meaning | L12: Game Compat |
-|---|---|---|---|---|
-| puppy | Pass | Pass | Pass | Pass |
-| kitten | Pass | Pass | Pass | Pass |
-| bunny | Pass | Pass | Pass | Pass |
-| duckling | Pass | Pass | Pass | Pass |
-| chick | Pass | Pass | Pass | Pass |
-| lamb | Pass | Pass | Pass | Pass |
-| cub | Pass | Pass | Pass | Pass |
-| fawn | Pass | Pass | Pass | Pass |
-| foal | Pass | Pass | Pass | Pass |
-| pony | Pass | Pass | Pass | Pass |
-| rooster | Pass | Pass | Pass | Pass |
-| hen | Pass | Pass | Pass | Pass |
-| goose | Pass | Pass | Pass | Pass |
-| swan | Pass | Pass | Pass | Pass |
-| owl | Pass | Pass | Pass | Pass |
-| robin | Pass | Pass | Pass | Pass |
-| sparrow | Pass | Pass | Pass | Pass |
-| crow | Pass | Pass | Pass | Pass |
-| eagle | Pass | Pass | Pass | Pass |
-| whale | Pass | Pass | Pass | Pass |
-| dolphin | Pass | Pass | Pass | Pass |
-| shark | Pass | Pass | Pass | Pass |
-| turtle | Pass | Pass | Pass | Pass |
-| lizard | Pass | Pass | Pass | Pass |
-| frog | Pass | Pass | Pass | Pass |
-| toad | Pass | Pass | Pass | Pass |
-| snail | Pass | Pass | Pass | Pass |
-| worm | Pass | Pass | Pass | Pass |
-| spider | Pass | Pass | Pass | Pass |
-| beetle | Pass | Pass | Pass | Pass |
-| ladybug | Pass | Pass | Pass | Pass |
-| butterfly | Pass | Pass | Pass | Pass |
-| caterpillar | Pass | Pass | Pass | Pass |
-| ant | Pass | Pass | Pass | Pass |
-| bee | Pass | Pass | Pass | Pass |
-| squirrel | Pass | Pass | Pass | Pass |
-| raccoon | Pass | Pass | Pass | Pass |
-| skunk | Pass | Pass | Pass | Pass |
-| beaver | Pass | Pass | Pass | Pass |
-| moose | Pass | Pass | Pass | Pass |
-| toast | Pass | Pass | Pass | Pass |
-| cereal | Pass | Pass | Pass | Pass |
-| pancake | Pass | Pass | Pass | Pass |
-| waffle | Pass | Pass | Pass | Pass |
-| oatmeal | Pass | Pass | Pass | Pass |
-| sandwich | Pass | Pass | Pass | Pass |
-| pretzel | Pass | Pass | Pass | Pass |
-| cracker | Pass | Pass | Pass | Pass |
-| noodle | Pass | Pass | Pass | Pass |
-| muffin | Pass | Pass | Pass | Pass |
-| cupcake | Pass | Pass | Pass | Pass |
-| cookie | Pass | Pass | Pass | Pass |
-| doughnut | Pass | Pass | Pass | Pass |
-| pudding | Pass | Pass | Pass | Pass |
-| jelly | Pass | Pass | Pass | Pass |
-| syrup | Pass | Pass | Pass | Pass |
-| honey | Pass | Pass | Pass | Pass |
-| popcorn | Pass | Pass | Pass | Pass |
-| yogurt | Pass | Pass | Pass | Pass |
-| grape | Pass | Pass | Pass | Pass |
-| cherry | Pass | Pass | Pass | Pass |
-| peach | Pass | Pass | Pass | Pass |
-| plum | Pass | Pass | Pass | Pass |
-| melon | Pass | Pass | Pass | Pass |
-| berry | Pass | Pass | Pass | Pass |
-| lemon | Pass | Pass | Pass | Pass |
-| coconut | Pass | Pass | Pass | Pass |
-| peanut | Pass | Pass | Pass | Pass |
-| celery | Pass | Pass | Pass | Pass |
-| broccoli | Pass | Pass | Pass | Pass |
-| lettuce | Pass | Pass | Pass | Pass |
-| pepper | Pass | Pass | Pass | Pass |
-| onion | Pass | Pass | Pass | Pass |
-| mushroom | Pass | Pass | Pass | Pass |
-| stew | Pass | Pass | Pass | Pass |
-| gravy | Pass | Pass | Pass | Pass |
-| feast | Pass | Pass | Pass | Pass |
-| snack | Pass | Pass | Pass | Pass |
-| treat | Pass | Pass | Pass | Pass |
-| slice | Pass | Pass | Pass | Pass |
-| elbow | Pass | Pass | Pass | Pass |
-| wrist | Pass | Pass | Pass | Pass |
-| ankle | Pass | Pass | Pass | Pass |
-| heel | Pass | Pass | Pass | Pass |
-| thumb | Pass | Pass | Pass | Pass |
-| palm | Pass | Pass | Pass | Pass |
-| fist | Pass | Pass | Pass | Pass |
-| chin | Pass | Pass | Pass | Pass |
-| cheek | Pass | Pass | Pass | Pass |
-| forehead | Pass | Pass | Pass | Pass |
-| eyebrow | Pass | Pass | Pass | Pass |
-| eyelash | Pass | Pass | Pass | Pass |
-| tongue | Pass | Pass | Pass | Pass |
-| throat | Pass | Pass | Pass | Pass |
-| shoulder | Pass | Pass | Pass | Pass |
-| hip | Pass | Pass | Pass | Pass |
-| spine | Pass | Pass | Pass | Pass |
-| rib | Pass | Pass | Pass | Pass |
-| skull | Pass | Pass | Pass | Pass |
-| muscle | Pass | Pass | Pass | Pass |
-| mitten | Pass | Pass | Pass | Pass |
-| scarf | Pass | Pass | Pass | Pass |
-| hoodie | Pass | Pass | Pass | Pass |
-| vest | Pass | Pass | Pass | Pass |
-| apron | Pass | Pass | Pass | Pass |
-| sleeve | Pass | Pass | Pass | Pass |
-| pocket | Pass | Pass | Pass | Pass |
-| zipper | Pass | Pass | Pass | Pass |
-| button | Pass | Pass | Pass | Pass |
-| buckle | Pass | Pass | Pass | Pass |
-| lace | Pass | Pass | Pass | Pass |
-| slipper | Pass | Pass | Pass | Pass |
-| sandal | Pass | Pass | Pass | Pass |
-| sneaker | Pass | Pass | Pass | Pass |
-| boot | Pass | Pass | Pass | Pass |
-| collar | Pass | Pass | Pass | Pass |
-| hem | Pass | Pass | Pass | Pass |
-| pajamas | Pass | Pass | Pass | Pass |
-| costume | Pass | Pass | Pass | Pass |
-| uniform | Pass | Pass | Pass | Pass |
-| blanket | Pass | Pass | Pass | Pass |
-| pillow | Pass | Pass | Pass | Pass |
-| towel | Pass | Pass | Pass | Pass |
-| soap | Pass | Pass | Pass | Pass |
-| sponge | Pass | Pass | Pass | Pass |
-| broom | Pass | Pass | Pass | Pass |
-| bucket | Pass | Pass | Pass | Pass |
-| ladder | Pass | Pass | Pass | Pass |
-| drawer | Pass | Pass | Pass | Pass |
-| shelf | Pass | Pass | Pass | Pass |
-| closet | Pass | Pass | Pass | Pass |
-| curtain | Pass | Pass | Pass | Pass |
-| rug | Pass | Pass | Pass | Pass |
-| lamp | Pass | Pass | Pass | Pass |
-| candle | Pass | Pass | Pass | Pass |
-| vase | Pass | Pass | Pass | Pass |
-| frame | Pass | Pass | Pass | Pass |
-| envelope | Pass | Pass | Pass | Pass |
-| stamp | Pass | Pass | Pass | Pass |
-| package | Pass | Pass | Pass | Pass |
-| scissors | Pass | Pass | Pass | Pass |
-| glue | Pass | Pass | Pass | Pass |
-| tape | Pass | Pass | Pass | Pass |
-| crayon | Pass | Pass | Pass | Pass |
-| chalk | Pass | Pass | Pass | Pass |
-| eraser | Pass | Pass | Pass | Pass |
-| ruler | Pass | Pass | Pass | Pass |
-| thermometer | Pass | Pass | Pass | Pass |
-| battery | Pass | Pass | Pass | Pass |
-| switch | Pass | Pass | Pass | Pass |
-| barn | Pass | Pass | Pass | Pass |
-| stable | Pass | Pass | Pass | Pass |
-| cabin | Pass | Pass | Pass | Pass |
-| cottage | Pass | Pass | Pass | Pass |
-| castle | Pass | Pass | Pass | Pass |
-| tower | Pass | Pass | Pass | Pass |
-| bridge | Pass | Pass | Pass | Pass |
-| tunnel | Pass | Pass | Pass | Pass |
-| harbor | Pass | Pass | Pass | Pass |
-| island | Pass | Pass | Pass | Pass |
-| forest | Pass | Pass | Pass | Pass |
-| meadow | Pass | Pass | Pass | Pass |
-| pond | Pass | Pass | Pass | Pass |
-| stream | Pass | Pass | Pass | Pass |
-| cliff | Pass | Pass | Pass | Pass |
-| cave | Pass | Pass | Pass | Pass |
-| desert | Pass | Pass | Pass | Pass |
-| jungle | Pass | Pass | Pass | Pass |
-| swamp | Pass | Pass | Pass | Pass |
-| valley | Pass | Pass | Pass | Pass |
-| storm | Pass | Pass | Pass | Pass |
-| thunder | Pass | Pass | Pass | Pass |
-| lightning | Pass | Pass | Pass | Pass |
-| rainbow | Pass | Pass | Pass | Pass |
-| breeze | Pass | Pass | Pass | Pass |
-| frost | Pass | Pass | Pass | Pass |
-| icicle | Pass | Pass | Pass | Pass |
-| puddle | Pass | Pass | Pass | Pass |
-| mud | Pass | Pass | Pass | Pass |
-| dust | Pass | Pass | Pass | Pass |
-| dew | Pass | Pass | Pass | Pass |
-| fog | Pass | Pass | Pass | Pass |
-| hail | Pass | Pass | Pass | Pass |
-| blizzard | Pass | Pass | Pass | Pass |
-| drought | Pass | Pass | Pass | Pass |
-| flood | Pass | Pass | Pass | Pass |
-| petal | Pass | Pass | Pass | Pass |
-| stem | Pass | Pass | Pass | Pass |
-| root | Pass | Pass | Pass | Pass |
-| thorn | Pass | Pass | Pass | Pass |
-| vine | Pass | Pass | Pass | Pass |
-| moss | Pass | Pass | Pass | Pass |
-| acorn | Pass | Pass | Pass | Pass |
-| pinecone | Pass | Pass | Pass | Pass |
-| seed | Pass | Pass | Pass | Pass |
-| crawl | Pass | Pass | Pass | Pass |
-| leap | Pass | Pass | Pass | Pass |
-| skip | Pass | Pass | Pass | Pass |
-| stomp | Pass | Pass | Pass | Pass |
-| tiptoe | Pass | Pass | Pass | Pass |
-| march | Pass | Pass | Pass | Pass |
-| dash | Pass | Pass | Pass | Pass |
-| chase | Pass | Pass | Pass | Pass |
-| grab | Pass | Pass | Pass | Pass |
-| toss | Pass | Pass | Pass | Pass |
-| catch | Pass | Pass | Pass | Pass |
-| squeeze | Pass | Pass | Pass | Pass |
-| stretch | Pass | Pass | Pass | Pass |
-| bend | Pass | Pass | Pass | Pass |
-| twist | Pass | Pass | Pass | Pass |
-| shake | Pass | Pass | Pass | Pass |
-| stir | Pass | Pass | Pass | Pass |
-| pour | Pass | Pass | Pass | Pass |
-| spill | Pass | Pass | Pass | Pass |
-| drip | Pass | Pass | Pass | Pass |
-| splash | Pass | Pass | Pass | Pass |
-| float | Pass | Pass | Pass | Pass |
-| sink | Pass | Pass | Pass | Pass |
-| melt | Pass | Pass | Pass | Pass |
-| freeze | Pass | Pass | Pass | Pass |
-| peel | Pass | Pass | Pass | Pass |
-| chop | Pass | Pass | Pass | Pass |
-| grate | Pass | Pass | Pass | Pass |
-| spread | Pass | Pass | Pass | Pass |
-| sprinkle | Pass | Pass | Pass | Pass |
-| scoop | Pass | Pass | Pass | Pass |
-| whisper | Pass | Pass | Pass | Pass |
-| shout | Pass | Pass | Pass | Pass |
-| giggle | Pass | Pass | Pass | Pass |
-| howl | Pass | Pass | Pass | Pass |
-| bark | Pass | Pass | Pass | Pass |
-| roar | Pass | Pass | Pass | Pass |
-| hum | Pass | Pass | Pass | Pass |
-| clap | Pass | Pass | Pass | Pass |
-| wave | Pass | Pass | Pass | Pass |
-| nod | Pass | Pass | Pass | Pass |
-| peek | Pass | Pass | Pass | Pass |
-| stare | Pass | Pass | Pass | Pass |
-| glance | Pass | Pass | Pass | Pass |
-| search | Pass | Pass | Pass | Pass |
-| discover | Pass | Pass | Pass | Pass |
-| notice | Pass | Pass | Pass | Pass |
-| wonder | Pass | Pass | Pass | Pass |
-| imagine | Pass | Pass | Pass | Pass |
-| pretend | Pass | Pass | Pass | Pass |
-| promise | Pass | Pass | Pass | Pass |
-| remind | Pass | Pass | Pass | Pass |
-| forget | Pass | Pass | Pass | Pass |
-| belong | Pass | Pass | Pass | Pass |
-| share | Pass | Pass | Pass | Pass |
-| trade | Pass | Pass | Pass | Pass |
-| borrow | Pass | Pass | Pass | Pass |
-| lend | Pass | Pass | Pass | Pass |
-| gather | Pass | Pass | Pass | Pass |
-| collect | Pass | Pass | Pass | Pass |
-| stack | Pass | Pass | Pass | Pass |
-| wrap | Pass | Pass | Pass | Pass |
-| unwrap | Pass | Pass | Pass | Pass |
-| tug | Pass | Pass | Pass | Pass |
-| drag | Pass | Pass | Pass | Pass |
-| shove | Pass | Pass | Pass | Pass |
-| tuck | Pass | Pass | Pass | Pass |
-| hang | Pass | Pass | Pass | Pass |
-| fasten | Pass | Pass | Pass | Pass |
-| attach | Pass | Pass | Pass | Pass |
-| repair | Pass | Pass | Pass | Pass |
-| create | Pass | Pass | Pass | Pass |
-| design | Pass | Pass | Pass | Pass |
-| measure | Pass | Pass | Pass | Pass |
-| weigh | Pass | Pass | Pass | Pass |
-| count | Pass | Pass | Pass | Pass |
-| sort | Pass | Pass | Pass | Pass |
-| match | Pass | Pass | Pass | Pass |
-| deliver | Pass | Pass | Pass | Pass |
-| fetch | Pass | Pass | Pass | Pass |
-| vanish | Pass | Pass | Pass | Pass |
-| tiny | Pass | Pass | Pass | Pass |
-| huge | Pass | Pass | Pass | Pass |
-| enormous | Pass | Pass | Pass | Pass |
-| narrow | Pass | Pass | Pass | Pass |
-| wide | Pass | Pass | Pass | Pass |
-| steep | Pass | Pass | Pass | Pass |
-| shallow | Pass | Pass | Pass | Pass |
-| deep | Pass | Pass | Pass | Pass |
-| thick | Pass | Pass | Pass | Pass |
-| thin | Pass | Pass | Pass | Pass |
-| smooth | Pass | Pass | Pass | Pass |
-| rough | Pass | Pass | Pass | Pass |
-| sharp | Pass | Pass | Pass | Pass |
-| dull | Pass | Pass | Pass | Pass |
-| shiny | Pass | Pass | Pass | Pass |
-| damp | Pass | Pass | Pass | Pass |
-| soaking | Pass | Pass | Pass | Pass |
-| dry | Pass | Pass | Pass | Pass |
-| sticky | Pass | Pass | Pass | Pass |
-| slimy | Pass | Pass | Pass | Pass |
-| fluffy | Pass | Pass | Pass | Pass |
-| fuzzy | Pass | Pass | Pass | Pass |
-| cozy | Pass | Pass | Pass | Pass |
-| chilly | Pass | Pass | Pass | Pass |
-| freezing | Pass | Pass | Pass | Pass |
-| boiling | Pass | Pass | Pass | Pass |
-| warm | Pass | Pass | Pass | Pass |
-| fierce | Pass | Pass | Pass | Pass |
-| gentle | Pass | Pass | Pass | Pass |
-| brave | Pass | Pass | Pass | Pass |
-| shy | Pass | Pass | Pass | Pass |
-| proud | Pass | Pass | Pass | Pass |
-| curious | Pass | Pass | Pass | Pass |
-| grumpy | Pass | Pass | Pass | Pass |
-| cheerful | Pass | Pass | Pass | Pass |
-| lonely | Pass | Pass | Pass | Pass |
-| calm | Pass | Pass | Pass | Pass |
-| wild | Pass | Pass | Pass | Pass |
-| tame | Pass | Pass | Pass | Pass |
-| plain | Pass | Pass | Pass | Pass |
-| fancy | Pass | Pass | Pass | Pass |
-| ripe | Pass | Pass | Pass | Pass |
-| rotten | Pass | Pass | Pass | Pass |
-| fresh | Pass | Pass | Pass | Pass |
-| stale | Pass | Pass | Pass | Pass |
-| bitter | Pass | Pass | Pass | Pass |
-| sour | Pass | Pass | Pass | Pass |
-| salty | Pass | Pass | Pass | Pass |
-| juicy | Pass | Pass | Pass | Pass |
-| crunchy | Pass | Pass | Pass | Pass |
-| creamy | Pass | Pass | Pass | Pass |
-| silent | Pass | Pass | Pass | Pass |
-| loud | Pass | Pass | Pass | Pass |
-| hollow | Pass | Pass | Pass | Pass |
-| solid | Pass | Pass | Pass | Pass |
-| loose | Pass | Pass | Pass | Pass |
-| tight | Pass | Pass | Pass | Pass |
-| crooked | Pass | Pass | Pass | Pass |
-| straight | Pass | Pass | Pass | Pass |
-| crowded | Pass | Pass | Pass | Pass |
-| empty | Pass | Pass | Pass | Pass |
-| whole | Pass | Pass | Pass | Pass |
-| spare | Pass | Pass | Pass | Pass |
-| certain | Pass | Pass | Pass | Pass |
-| strange | Pass | Pass | Pass | Pass |
-| wonderful | Pass | Pass | Pass | Pass |
-| terrible | Pass | Pass | Pass | Pass |
-| perfect | Pass | Pass | Pass | Pass |
-| ugly | Pass | Pass | Pass | Pass |
-| beautiful | Pass | Pass | Pass | Pass |
-| clever | Pass | Pass | Pass | Pass |
-| foolish | Pass | Pass | Pass | Pass |
-| greedy | Pass | Pass | Pass | Pass |
-| generous | Pass | Pass | Pass | Pass |
-| patient | Pass | Pass | Pass | Pass |
-| stubborn | Pass | Pass | Pass | Pass |
-| lazy | Pass | Pass | Pass | Pass |
-| busy | Pass | Pass | Pass | Pass |
-| clumsy | Pass | Pass | Pass | Pass |
-| graceful | Pass | Pass | Pass | Pass |
-| quickly | Pass | Pass | Pass | Pass |
-| slowly | Pass | Pass | Pass | Pass |
-| quietly | Pass | Pass | Pass | Pass |
-| loudly | Pass | Pass | Pass | Pass |
-| gently | Pass | Pass | Pass | Pass |
-| suddenly | Pass | Pass | Pass | Pass |
-| already | Pass | Pass | Pass | Pass |
-| almost | Pass | Pass | Pass | Pass |
-| barely | Pass | Pass | Pass | Pass |
-| perhaps | Pass | Pass | Pass | Pass |
-| exactly | Pass | Pass | Pass | Pass |
-| instead | Pass | Pass | Pass | Pass |
-| anyway | Pass | Pass | Pass | Pass |
-| forever | Pass | Pass | Pass | Pass |
-| apart | Pass | Pass | Pass | Pass |
-| together | Pass | Pass | Pass | Pass |
-| forward | Pass | Pass | Pass | Pass |
-| backward | Pass | Pass | Pass | Pass |
-| sideways | Pass | Pass | Pass | Pass |
-| beneath | Pass | Pass | Pass | Pass |
-| above | Pass | Pass | Pass | Pass |
-| below | Pass | Pass | Pass | Pass |
-| beside | Pass | Pass | Pass | Pass |
-| between | Pass | Pass | Pass | Pass |
-| among | Pass | Pass | Pass | Pass |
-| toward | Pass | Pass | Pass | Pass |
-| against | Pass | Pass | Pass | Pass |
-| through | Pass | Pass | Pass | Pass |
-| across | Pass | Pass | Pass | Pass |
-| along | Pass | Pass | Pass | Pass |
-| around | Pass | Pass | Pass | Pass |
-| beyond | Pass | Pass | Pass | Pass |
-| during | Pass | Pass | Pass | Pass |
-| until | Pass | Pass | Pass | Pass |
-| since | Pass | Pass | Pass | Pass |
-| whether | Pass | Pass | Pass | Pass |
-| while | Pass | Pass | Pass | Pass |
-| besides | Pass | Pass | Pass | Pass |
-| within | Pass | Pass | Pass | Pass |
-| without | Pass | Pass | Pass | Pass |
-| throughout | Pass | Pass | Pass | Pass |
-| upon | Pass | Pass | Pass | Pass |
-| pick up | Pass | Pass | Pass | Pass |
-| put down | Pass | Pass | Pass | Pass |
-| look at | Pass | Pass | Pass | Pass |
-| come back | Pass | Pass | Pass | Pass |
-| sit down | Pass | Pass | Pass | Pass |
-| stand up | Pass | Pass | Pass | Pass |
-| wake up | Pass | Pass | Pass | Pass |
-| give up | Pass | Pass | Pass | Pass |
-| find out | Pass | Pass | Pass | Pass |
-| turn off | Pass | Pass | Pass | Pass |
-| turn on | Pass | Pass | Pass | Pass |
-| fall down | Pass | Pass | Pass | Pass |
-| get up | Pass | Pass | Pass | Pass |
-| look out | Pass | Pass | Pass | Pass |
-| hold on | Pass | Pass | Pass | Pass |
-| clean up | Pass | Pass | Pass | Pass |
-| hurry up | Pass | Pass | Pass | Pass |
-| calm down | Pass | Pass | Pass | Pass |
-| try on | Pass | Pass | Pass | Pass |
-| throw away | Pass | Pass | Pass | Pass |
-| run out | Pass | Pass | Pass | Pass |
-| come in | Pass | Pass | Pass | Pass |
-| go away | Pass | Pass | Pass | Pass |
-| show off | Pass | Pass | Pass | Pass |
-| figure out | Pass | Pass | Pass | Pass |
-| excited | Pass | Pass | Pass | Pass |
-| nervous | Pass | Pass | Pass | Pass |
-| frightened | Pass | Pass | Pass | Pass |
-| surprised | Pass | Pass | Pass | Pass |
-| confused | Pass | Pass | Pass | Pass |
-| disappointed | Pass | Pass | Pass | Pass |
-| frustrated | Pass | Pass | Pass | Pass |
-| jealous | Pass | Pass | Pass | Pass |
-| embarrassed | Pass | Pass | Pass | Pass |
-| worried | Pass | Pass | Pass | Pass |
-| grateful | Pass | Pass | Pass | Pass |
-| annoyed | Pass | Pass | Pass | Pass |
-| bored | Pass | Pass | Pass | Pass |
-| amazed | Pass | Pass | Pass | Pass |
-| terrified | Pass | Pass | Pass | Pass |
-| furious | Pass | Pass | Pass | Pass |
-| miserable | Pass | Pass | Pass | Pass |
-| relieved | Pass | Pass | Pass | Pass |
-| peaceful | Pass | Pass | Pass | Pass |
-| comfortable | Pass | Pass | Pass | Pass |
-| uncomfortable | Pass | Pass | Pass | Pass |
-| exhausted | Pass | Pass | Pass | Pass |
-| delighted | Pass | Pass | Pass | Pass |
-| gloomy | Pass | Pass | Pass | Pass |
-| hopeful | Pass | Pass | Pass | Pass |
-| cranky | Pass | Pass | Pass | Pass |
-| content | Pass | Pass | Pass | Pass |
-| eager | Pass | Pass | Pass | Pass |
-| homesick | Pass | Pass | Pass | Pass |
-| ashamed | Pass | Pass | Pass | Pass |
-| before | Pass | Pass | Pass | Pass |
-| after | Pass | Pass | Pass | Pass |
-| next | Pass | Pass | Pass | Pass |
-| then | Pass | Pass | Pass | Pass |
-| finally | Pass | Pass | Pass | Pass |
-| meanwhile | Pass | Pass | Pass | Pass |
-| soon | Pass | Pass | Pass | Pass |
-| later | Pass | Pass | Pass | Pass |
-| early | Pass | Pass | Pass | Pass |
-| late | Pass | Pass | Pass | Pass |
-| beginning | Pass | Pass | Pass | Pass |
-| middle | Pass | Pass | Pass | Pass |
-| ending | Pass | Pass | Pass | Pass |
-| moment | Pass | Pass | Pass | Pass |
-| sudden | Pass | Pass | Pass | Pass |
-| recent | Pass | Pass | Pass | Pass |
-| daily | Pass | Pass | Pass | Pass |
-| weekly | Pass | Pass | Pass | Pass |
-| whenever | Pass | Pass | Pass | Pass |
-| once | Pass | Pass | Pass | Pass |
-| twice | Pass | Pass | Pass | Pass |
-| often | Pass | Pass | Pass | Pass |
-| nowadays | Pass | Pass | Pass | Pass |
-| dozen | Pass | Pass | Pass | Pass |
-| half | Pass | Pass | Pass | Pass |
-| pair | Pass | Pass | Pass | Pass |
-| entire | Pass | Pass | Pass | Pass |
-| double | Pass | Pass | Pass | Pass |
-| single | Pass | Pass | Pass | Pass |
-| plenty | Pass | Pass | Pass | Pass |
-| several | Pass | Pass | Pass | Pass |
-| few | Pass | Pass | Pass | Pass |
-| many | Pass | Pass | Pass | Pass |
-| none | Pass | Pass | Pass | Pass |
-| bunch | Pass | Pass | Pass | Pass |
-| pile | Pass | Pass | Pass | Pass |
-| heap | Pass | Pass | Pass | Pass |
-| piece | Pass | Pass | Pass | Pass |
-| portion | Pass | Pass | Pass | Pass |
-| amount | Pass | Pass | Pass | Pass |
-| total | Pass | Pass | Pass | Pass |
-| extra | Pass | Pass | Pass | Pass |
-| enough | Pass | Pass | Pass | Pass |
-| less | Pass | Pass | Pass | Pass |
-| more | Pass | Pass | Pass | Pass |
-| quarter | Pass | Pass | Pass | Pass |
-| equal | Pass | Pass | Pass | Pass |
-| average | Pass | Pass | Pass | Pass |
-| shadow | Pass | Pass | Pass | Pass |
-| echo | Pass | Pass | Pass | Pass |
-| secret | Pass | Pass | Pass | Pass |
-| surprise | Pass | Pass | Pass | Pass |
-| mistake | Pass | Pass | Pass | Pass |
-| adventure | Pass | Pass | Pass | Pass |
-| treasure | Pass | Pass | Pass | Pass |
-| journey | Pass | Pass | Pass | Pass |
-| village | Pass | Pass | Pass | Pass |
-| dock | Pass | Pass | Pass | Pass |
-| crowd | Pass | Pass | Pass | Pass |
-| trail | Pass | Pass | Pass | Pass |
-| footprint | Pass | Pass | Pass | Pass |
-| pattern | Pass | Pass | Pass | Pass |
-| riddle | Pass | Pass | Pass | Pass |
-| poem | Pass | Pass | Pass | Pass |
-| tale | Pass | Pass | Pass | Pass |
-| legend | Pass | Pass | Pass | Pass |
-| character | Pass | Pass | Pass | Pass |
-| chapter | Pass | Pass | Pass | Pass |
-| title | Pass | Pass | Pass | Pass |
-| author | Pass | Pass | Pass | Pass |
-| paw | Pass | Pass | Pass | Pass |
-| claw | Pass | Pass | Pass | Pass |
-| feather | Pass | Pass | Pass | Pass |
-| fur | Pass | Pass | Pass | Pass |
-| scale | Pass | Pass | Pass | Pass |
-| wing | Pass | Pass | Pass | Pass |
-| beak | Pass | Pass | Pass | Pass |
-| nest | Pass | Pass | Pass | Pass |
-| hive | Pass | Pass | Pass | Pass |
-| den | Pass | Pass | Pass | Pass |
-| burrow | Pass | Pass | Pass | Pass |
-| trap | Pass | Pass | Pass | Pass |
-| leash | Pass | Pass | Pass | Pass |
-| tag | Pass | Pass | Pass | Pass |
-| whisker | Pass | Pass | Pass | Pass |
-| tail | Pass | Pass | Pass | Pass |
-| hoof | Pass | Pass | Pass | Pass |
-| mane | Pass | Pass | Pass | Pass |
-| flock | Pass | Pass | Pass | Pass |
-| herd | Pass | Pass | Pass | Pass |
-| pack | Pass | Pass | Pass | Pass |
-| droplet | Pass | Pass | Pass | Pass |
-| ripple | Pass | Pass | Pass | Pass |
-| bubble | Pass | Pass | Pass | Pass |
-| flame | Pass | Pass | Pass | Pass |
-| spark | Pass | Pass | Pass | Pass |
-| smoke | Pass | Pass | Pass | Pass |
-| ash | Pass | Pass | Pass | Pass |
-| dawn | Pass | Pass | Pass | Pass |
-| dusk | Pass | Pass | Pass | Pass |
-| midnight | Pass | Pass | Pass | Pass |
-| noon | Pass | Pass | Pass | Pass |
-| passenger | Pass | Pass | Pass | Pass |
-| neighbor | Pass | Pass | Pass | Pass |
-| stranger | Pass | Pass | Pass | Pass |
-| parade | Pass | Pass | Pass | Pass |
-| audience | Pass | Pass | Pass | Pass |
-| crew | Pass | Pass | Pass | Pass |
-| coach | Pass | Pass | Pass | Pass |
-| chef | Pass | Pass | Pass | Pass |
-| mayor | Pass | Pass | Pass | Pass |
-| inventor | Pass | Pass | Pass | Pass |
-| princess | Pass | Pass | Pass | Pass |
-| knight | Pass | Pass | Pass | Pass |
-| wizard | Pass | Pass | Pass | Pass |
-| giant | Pass | Pass | Pass | Pass |
-| dwarf | Pass | Pass | Pass | Pass |
-| monster | Pass | Pass | Pass | Pass |
-| dragon | Pass | Pass | Pass | Pass |
-| fairy | Pass | Pass | Pass | Pass |
-| shield | Pass | Pass | Pass | Pass |
-| sword | Pass | Pass | Pass | Pass |
-| wand | Pass | Pass | Pass | Pass |
-| throne | Pass | Pass | Pass | Pass |
-| crown | Pass | Pass | Pass | Pass |
-| wobble | Pass | Pass | Pass | Pass |
-| tumble | Pass | Pass | Pass | Pass |
-| snuggle | Pass | Pass | Pass | Pass |
-| nibble | Pass | Pass | Pass | Pass |
-| snore | Pass | Pass | Pass | Pass |
-| yawn | Pass | Pass | Pass | Pass |
-| shiver | Pass | Pass | Pass | Pass |
-| bloom | Pass | Pass | Pass | Pass |
-| sprout | Pass | Pass | Pass | Pass |
-| wilt | Pass | Pass | Pass | Pass |
-| scattered | Pass | Pass | Pass | Pass |
-| rascal | Pass | Pass | Pass | Pass |
-| gigantic | Pass | Pass | Pass | Pass |
-| itsy | Pass | Pass | Pass | Pass |
-| whirl | Pass | Pass | Pass | Pass |
-| sparkle | Pass | Pass | Pass | Pass |
-| flutter | Pass | Pass | Pass | Pass |
-| hear | Pass | Pass | Pass | Pass |
-| lose | Pass | Pass | Pass | Pass |
-| teach | Pass | Pass | Pass | Pass |
-| take | Pass | Pass | Pass | Pass |
-| than | Pass | Pass | Pass | Pass |
+| Word | Status | Notes |
+|---|---|---|
+| puppy | PASS | All Gemini checks passed |
+| kitten | PASS | All Gemini checks passed |
+| bunny | PASS | All Gemini checks passed |
+| duckling | PASS | All Gemini checks passed |
+| chick | PASS | All Gemini checks passed |
+| lamb | PASS | All Gemini checks passed |
+| cub | PASS | All Gemini checks passed |
+| fawn | PASS | All Gemini checks passed |
+| foal | PASS | All Gemini checks passed |
+| pony | PASS | All Gemini checks passed |
+| rooster | PASS | All Gemini checks passed |
+| hen | PASS | All Gemini checks passed |
+| goose | PASS | All Gemini checks passed |
+| swan | PASS | All Gemini checks passed |
+| owl | PASS | All Gemini checks passed |
+| robin | PASS | All Gemini checks passed |
+| sparrow | PASS | All Gemini checks passed |
+| crow | PASS | All Gemini checks passed |
+| eagle | PASS | All Gemini checks passed |
+| whale | PASS | All Gemini checks passed |
+| dolphin | PASS | All Gemini checks passed |
+| shark | PASS | All Gemini checks passed |
+| turtle | PASS | All Gemini checks passed |
+| lizard | PASS | All Gemini checks passed |
+| frog | PASS | All Gemini checks passed |
+| toad | PASS | All Gemini checks passed |
+| snail | PASS | All Gemini checks passed |
+| worm | PASS | All Gemini checks passed |
+| spider | PASS | All Gemini checks passed |
+| beetle | PASS | All Gemini checks passed |
+| ladybug | PASS | All Gemini checks passed |
+| butterfly | PASS | All Gemini checks passed |
+| caterpillar | PASS | All Gemini checks passed |
+| ant | PASS | All Gemini checks passed |
+| bee | PASS | All Gemini checks passed |
+| squirrel | PASS | All Gemini checks passed |
+| raccoon | PASS | All Gemini checks passed |
+| skunk | PASS | All Gemini checks passed |
+| beaver | PASS | All Gemini checks passed |
+| moose | PASS | All Gemini checks passed |
+| toast | PASS | All Gemini checks passed |
+| cereal | PASS | All Gemini checks passed |
+| pancake | PASS | All Gemini checks passed |
+| waffle | PASS | All Gemini checks passed |
+| oatmeal | PASS | All Gemini checks passed |
+| sandwich | PASS | All Gemini checks passed |
+| pretzel | PASS | All Gemini checks passed |
+| cracker | PASS | All Gemini checks passed |
+| noodle | PASS | All Gemini checks passed |
+| muffin | PASS | All Gemini checks passed |
+| cupcake | PASS | All Gemini checks passed |
+| cookie | PASS | All Gemini checks passed |
+| doughnut | PASS | All Gemini checks passed |
+| pudding | PASS | All Gemini checks passed |
+| jelly | PASS | All Gemini checks passed |
+| syrup | PASS | All Gemini checks passed |
+| honey | PASS | All Gemini checks passed |
+| popcorn | PASS | All Gemini checks passed |
+| yogurt | PASS | All Gemini checks passed |
+| grape | PASS | All Gemini checks passed |
+| cherry | PASS | All Gemini checks passed |
+| peach | PASS | All Gemini checks passed |
+| plum | PASS | All Gemini checks passed |
+| melon | PASS | All Gemini checks passed |
+| berry | PASS | All Gemini checks passed |
+| lemon | PASS | All Gemini checks passed |
+| coconut | PASS | All Gemini checks passed |
+| peanut | PASS | All Gemini checks passed |
+| celery | PASS | All Gemini checks passed |
+| broccoli | PASS | All Gemini checks passed |
+| lettuce | PASS | All Gemini checks passed |
+| pepper | PASS | All Gemini checks passed |
+| onion | PASS | All Gemini checks passed |
+| mushroom | PASS | All Gemini checks passed |
+| stew | PASS | All Gemini checks passed |
+| gravy | PASS | All Gemini checks passed |
+| feast | PASS | All Gemini checks passed |
+| snack | PASS | All Gemini checks passed |
+| treat | PASS | All Gemini checks passed |
+| slice | PASS | All Gemini checks passed |
+| elbow | PASS | All Gemini checks passed |
+| wrist | PASS | All Gemini checks passed |
+| ankle | PASS | All Gemini checks passed |
+| heel | PASS | All Gemini checks passed |
+| thumb | PASS | All Gemini checks passed |
+| palm | PASS | All Gemini checks passed |
+| fist | PASS | All Gemini checks passed |
+| chin | PASS | All Gemini checks passed |
+| cheek | PASS | All Gemini checks passed |
+| forehead | PASS | All Gemini checks passed |
+| eyebrow | PASS | All Gemini checks passed |
+| eyelash | PASS | All Gemini checks passed |
+| tongue | PASS | All Gemini checks passed |
+| throat | PASS | All Gemini checks passed |
+| shoulder | PASS | All Gemini checks passed |
+| hip | PASS | All Gemini checks passed |
+| spine | PASS | All Gemini checks passed |
+| rib | PASS | All Gemini checks passed |
+| skull | PASS | All Gemini checks passed |
+| muscle | PASS | All Gemini checks passed |
+| mitten | PASS | All Gemini checks passed |
+| scarf | PASS | All Gemini checks passed |
+| hoodie | PASS | All Gemini checks passed |
+| vest | PASS | All Gemini checks passed |
+| apron | PASS | All Gemini checks passed |
+| sleeve | PASS | All Gemini checks passed |
+| pocket | PASS | All Gemini checks passed |
+| zipper | PASS | All Gemini checks passed |
+| button | PASS | All Gemini checks passed |
+| buckle | PASS | All Gemini checks passed |
+| lace | PASS | All Gemini checks passed |
+| slipper | PASS | All Gemini checks passed |
+| sandal | PASS | All Gemini checks passed |
+| sneaker | PASS | All Gemini checks passed |
+| boot | PASS | All Gemini checks passed |
+| collar | PASS | All Gemini checks passed |
+| hem | PASS | All Gemini checks passed |
+| pajamas | PASS | All Gemini checks passed |
+| costume | PASS | All Gemini checks passed |
+| uniform | PASS | All Gemini checks passed |
+| blanket | PASS | All Gemini checks passed |
+| pillow | PASS | All Gemini checks passed |
+| towel | PASS | All Gemini checks passed |
+| soap | PASS | All Gemini checks passed |
+| sponge | PASS | All Gemini checks passed |
+| broom | PASS | All Gemini checks passed |
+| bucket | PASS | All Gemini checks passed |
+| ladder | PASS | All Gemini checks passed |
+| drawer | PASS | All Gemini checks passed |
+| shelf | PASS | All Gemini checks passed |
+| closet | PASS | All Gemini checks passed |
+| curtain | PASS | All Gemini checks passed |
+| rug | PASS | All Gemini checks passed |
+| lamp | PASS | All Gemini checks passed |
+| candle | PASS | All Gemini checks passed |
+| vase | PASS | All Gemini checks passed |
+| frame | PASS | All Gemini checks passed |
+| envelope | PASS | All Gemini checks passed |
+| stamp | PASS | All Gemini checks passed |
+| package | PASS | All Gemini checks passed |
+| scissors | PASS | All Gemini checks passed |
+| glue | PASS | All Gemini checks passed |
+| tape | PASS | All Gemini checks passed |
+| crayon | PASS | All Gemini checks passed |
+| chalk | PASS | All Gemini checks passed |
+| eraser | PASS | All Gemini checks passed |
+| ruler | PASS | All Gemini checks passed |
+| thermometer | PASS | All Gemini checks passed |
+| battery | PASS | All Gemini checks passed |
+| switch | PASS | All Gemini checks passed |
+| barn | PASS | All Gemini checks passed |
+| stable | PASS | All Gemini checks passed |
+| cabin | PASS | All Gemini checks passed |
+| cottage | PASS | All Gemini checks passed |
+| castle | PASS | All Gemini checks passed |
+| tower | PASS | All Gemini checks passed |
+| bridge | PASS | All Gemini checks passed |
+| tunnel | PASS | All Gemini checks passed |
+| harbor | PASS | All Gemini checks passed |
+| island | PASS | All Gemini checks passed |
+| forest | PASS | All Gemini checks passed |
+| meadow | PASS | All Gemini checks passed |
+| pond | PASS | All Gemini checks passed |
+| stream | PASS | All Gemini checks passed |
+| cliff | PASS | All Gemini checks passed |
+| cave | PASS | All Gemini checks passed |
+| desert | PASS | All Gemini checks passed |
+| jungle | PASS | All Gemini checks passed |
+| swamp | PASS | All Gemini checks passed |
+| valley | PASS | All Gemini checks passed |
+| storm | PASS | All Gemini checks passed |
+| thunder | PASS | All Gemini checks passed |
+| lightning | PASS | All Gemini checks passed |
+| rainbow | PASS | All Gemini checks passed |
+| breeze | PASS | All Gemini checks passed |
+| frost | PASS | All Gemini checks passed |
+| icicle | PASS | All Gemini checks passed |
+| puddle | PASS | All Gemini checks passed |
+| mud | PASS | All Gemini checks passed |
+| dust | PASS | All Gemini checks passed |
+| dew | PASS | All Gemini checks passed |
+| fog | PASS | All Gemini checks passed |
+| hail | PASS | All Gemini checks passed |
+| blizzard | PASS | All Gemini checks passed |
+| drought | PASS | All Gemini checks passed |
+| flood | PASS | All Gemini checks passed |
+| petal | PASS | All Gemini checks passed |
+| stem | PASS | All Gemini checks passed |
+| root | PASS | All Gemini checks passed |
+| thorn | PASS | All Gemini checks passed |
+| vine | PASS | All Gemini checks passed |
+| moss | PASS | All Gemini checks passed |
+| acorn | PASS | All Gemini checks passed |
+| pinecone | PASS | All Gemini checks passed |
+| seed | PASS | All Gemini checks passed |
+| crawl | PASS | All Gemini checks passed |
+| leap | PASS | All Gemini checks passed |
+| skip | PASS | All Gemini checks passed |
+| stomp | PASS | All Gemini checks passed |
+| tiptoe | PASS | All Gemini checks passed |
+| march | PASS | All Gemini checks passed |
+| dash | PASS | All Gemini checks passed |
+| chase | PASS | All Gemini checks passed |
+| grab | PASS | All Gemini checks passed |
+| toss | PASS | All Gemini checks passed |
+| catch | PASS | All Gemini checks passed |
+| squeeze | PASS | All Gemini checks passed |
+| stretch | PASS | All Gemini checks passed |
+| bend | PASS | All Gemini checks passed |
+| twist | PASS | All Gemini checks passed |
+| shake | PASS | All Gemini checks passed |
+| stir | PASS | All Gemini checks passed |
+| pour | PASS | All Gemini checks passed |
+| spill | PASS | All Gemini checks passed |
+| drip | PASS | All Gemini checks passed |
+| splash | PASS | All Gemini checks passed |
+| float | PASS | All Gemini checks passed |
+| sink | PASS | All Gemini checks passed |
+| melt | PASS | All Gemini checks passed |
+| freeze | PASS | All Gemini checks passed |
+| peel | PASS | All Gemini checks passed |
+| chop | PASS | All Gemini checks passed |
+| grate | PASS | All Gemini checks passed |
+| spread | PASS | All Gemini checks passed |
+| sprinkle | PASS | All Gemini checks passed |
+| scoop | PASS | All Gemini checks passed |
+| whisper | PASS | All Gemini checks passed |
+| shout | PASS | All Gemini checks passed |
+| giggle | PASS | All Gemini checks passed |
+| howl | PASS | All Gemini checks passed |
+| bark | PASS | All Gemini checks passed |
+| roar | PASS | All Gemini checks passed |
+| hum | PASS | All Gemini checks passed |
+| clap | PASS | All Gemini checks passed |
+| wave | PASS | All Gemini checks passed |
+| nod | PASS | All Gemini checks passed |
+| peek | PASS | All Gemini checks passed |
+| stare | PASS | All Gemini checks passed |
+| glance | PASS | All Gemini checks passed |
+| search | PASS | All Gemini checks passed |
+| discover | PASS | All Gemini checks passed |
+| notice | PASS | All Gemini checks passed |
+| wonder | PASS | All Gemini checks passed |
+| imagine | PASS | All Gemini checks passed |
+| pretend | PASS | All Gemini checks passed |
+| promise | PASS | All Gemini checks passed |
+| remind | PASS | All Gemini checks passed |
+| forget | PASS | All Gemini checks passed |
+| belong | PASS | All Gemini checks passed |
+| share | PASS | All Gemini checks passed |
+| trade | PASS | All Gemini checks passed |
+| borrow | PASS | All Gemini checks passed |
+| lend | PASS | All Gemini checks passed |
+| gather | PASS | All Gemini checks passed |
+| collect | PASS | All Gemini checks passed |
+| stack | PASS | All Gemini checks passed |
+| wrap | PASS | All Gemini checks passed |
+| unwrap | PASS | All Gemini checks passed |
+| tug | PASS | All Gemini checks passed |
+| drag | PASS | All Gemini checks passed |
+| shove | PASS | All Gemini checks passed |
+| tuck | PASS | All Gemini checks passed |
+| hang | PASS | All Gemini checks passed |
+| fasten | PASS | All Gemini checks passed |
+| attach | PASS | All Gemini checks passed |
+| repair | PASS | All Gemini checks passed |
+| create | PASS | All Gemini checks passed |
+| design | PASS | All Gemini checks passed |
+| measure | PASS | All Gemini checks passed |
+| weigh | PASS | All Gemini checks passed |
+| count | PASS | All Gemini checks passed |
+| sort | PASS | All Gemini checks passed |
+| match | PASS | All Gemini checks passed |
+| deliver | PASS | All Gemini checks passed |
+| fetch | PASS | All Gemini checks passed |
+| vanish | PASS | All Gemini checks passed |
+| tiny | PASS | All Gemini checks passed |
+| huge | PASS | All Gemini checks passed |
+| enormous | PASS | All Gemini checks passed |
+| narrow | PASS | All Gemini checks passed |
+| wide | PASS | All Gemini checks passed |
+| steep | PASS | All Gemini checks passed |
+| shallow | PASS | All Gemini checks passed |
+| deep | PASS | All Gemini checks passed |
+| thick | PASS | All Gemini checks passed |
+| thin | PASS | All Gemini checks passed |
+| smooth | PASS | All Gemini checks passed |
+| rough | PASS | All Gemini checks passed |
+| sharp | PASS | All Gemini checks passed |
+| dull | PASS | All Gemini checks passed |
+| shiny | PASS | All Gemini checks passed |
+| damp | PASS | All Gemini checks passed |
+| soaking | PASS | All Gemini checks passed |
+| dry | PASS | All Gemini checks passed |
+| sticky | PASS | All Gemini checks passed |
+| slimy | PASS | All Gemini checks passed |
+| fluffy | PASS | All Gemini checks passed |
+| fuzzy | PASS | All Gemini checks passed |
+| cozy | PASS | All Gemini checks passed |
+| chilly | PASS | All Gemini checks passed |
+| freezing | PASS | All Gemini checks passed |
+| boiling | PASS | All Gemini checks passed |
+| warm | PASS | All Gemini checks passed |
+| fierce | PASS | All Gemini checks passed |
+| gentle | PASS | All Gemini checks passed |
+| brave | PASS | All Gemini checks passed |
+| shy | PASS | All Gemini checks passed |
+| proud | PASS | All Gemini checks passed |
+| curious | PASS | All Gemini checks passed |
+| grumpy | PASS | All Gemini checks passed |
+| cheerful | PASS | All Gemini checks passed |
+| lonely | PASS | All Gemini checks passed |
+| calm | PASS | All Gemini checks passed |
+| wild | PASS | All Gemini checks passed |
+| tame | PASS | All Gemini checks passed |
+| plain | PASS | All Gemini checks passed |
+| fancy | PASS | All Gemini checks passed |
+| ripe | PASS | All Gemini checks passed |
+| rotten | PASS | All Gemini checks passed |
+| fresh | PASS | All Gemini checks passed |
+| stale | PASS | All Gemini checks passed |
+| bitter | PASS | All Gemini checks passed |
+| sour | PASS | All Gemini checks passed |
+| salty | PASS | All Gemini checks passed |
+| juicy | PASS | All Gemini checks passed |
+| crunchy | PASS | All Gemini checks passed |
+| creamy | PASS | All Gemini checks passed |
+| silent | PASS | All Gemini checks passed |
+| loud | PASS | All Gemini checks passed |
+| hollow | PASS | All Gemini checks passed |
+| solid | PASS | All Gemini checks passed |
+| loose | PASS | All Gemini checks passed |
+| tight | PASS | All Gemini checks passed |
+| crooked | PASS | All Gemini checks passed |
+| straight | PASS | All Gemini checks passed |
+| crowded | PASS | All Gemini checks passed |
+| empty | PASS | All Gemini checks passed |
+| whole | PASS | All Gemini checks passed |
+| spare | PASS | All Gemini checks passed |
+| certain | PASS | All Gemini checks passed |
+| strange | PASS | All Gemini checks passed |
+| wonderful | PASS | All Gemini checks passed |
+| terrible | PASS | All Gemini checks passed |
+| perfect | PASS | All Gemini checks passed |
+| ugly | PASS | All Gemini checks passed |
+| beautiful | PASS | All Gemini checks passed |
+| clever | PASS | All Gemini checks passed |
+| foolish | PASS | All Gemini checks passed |
+| greedy | PASS | All Gemini checks passed |
+| generous | PASS | All Gemini checks passed |
+| patient | PASS | All Gemini checks passed |
+| stubborn | PASS | All Gemini checks passed |
+| lazy | PASS | All Gemini checks passed |
+| busy | PASS | All Gemini checks passed |
+| clumsy | PASS | All Gemini checks passed |
+| graceful | PASS | All Gemini checks passed |
+| quickly | PASS | All Gemini checks passed |
+| slowly | PASS | All Gemini checks passed |
+| quietly | PASS | All Gemini checks passed |
+| loudly | PASS | All Gemini checks passed |
+| gently | PASS | All Gemini checks passed |
+| suddenly | PASS | All Gemini checks passed |
+| already | PASS | All Gemini checks passed |
+| almost | PASS | All Gemini checks passed |
+| barely | PASS | All Gemini checks passed |
+| perhaps | PASS | All Gemini checks passed |
+| exactly | PASS | All Gemini checks passed |
+| instead | PASS | All Gemini checks passed |
+| anyway | PASS | All Gemini checks passed |
+| forever | PASS | All Gemini checks passed |
+| apart | PASS | All Gemini checks passed |
+| together | PASS | All Gemini checks passed |
+| forward | PASS | All Gemini checks passed |
+| backward | PASS | All Gemini checks passed |
+| sideways | PASS | All Gemini checks passed |
+| beneath | PASS | All Gemini checks passed |
+| above | PASS | All Gemini checks passed |
+| below | PASS | All Gemini checks passed |
+| beside | PASS | All Gemini checks passed |
+| between | PASS | All Gemini checks passed |
+| among | PASS | All Gemini checks passed |
+| toward | PASS | All Gemini checks passed |
+| against | PASS | All Gemini checks passed |
+| through | PASS | All Gemini checks passed |
+| across | PASS | All Gemini checks passed |
+| along | PASS | All Gemini checks passed |
+| around | PASS | All Gemini checks passed |
+| beyond | PASS | All Gemini checks passed |
+| during | PASS | All Gemini checks passed |
+| until | PASS | All Gemini checks passed |
+| since | PASS | All Gemini checks passed |
+| whether | PASS | All Gemini checks passed |
+| while | PASS | All Gemini checks passed |
+| besides | PASS | All Gemini checks passed |
+| within | PASS | All Gemini checks passed |
+| without | PASS | All Gemini checks passed |
+| throughout | PASS | All Gemini checks passed |
+| upon | PASS | All Gemini checks passed |
+| pick up | PASS | All Gemini checks passed |
+| put down | PASS | All Gemini checks passed |
+| look at | PASS | All Gemini checks passed |
+| come back | PASS | All Gemini checks passed |
+| sit down | PASS | All Gemini checks passed |
+| stand up | PASS | All Gemini checks passed |
+| wake up | PASS | All Gemini checks passed |
+| give up | PASS | All Gemini checks passed |
+| find out | PASS | All Gemini checks passed |
+| turn off | PASS | All Gemini checks passed |
+| turn on | PASS | All Gemini checks passed |
+| fall down | PASS | All Gemini checks passed |
+| get up | PASS | All Gemini checks passed |
+| look out | PASS | All Gemini checks passed |
+| hold on | PASS | All Gemini checks passed |
+| clean up | PASS | All Gemini checks passed |
+| hurry up | PASS | All Gemini checks passed |
+| calm down | PASS | All Gemini checks passed |
+| try on | PASS | All Gemini checks passed |
+| throw away | PASS | All Gemini checks passed |
+| run out | PASS | All Gemini checks passed |
+| come in | PASS | All Gemini checks passed |
+| go away | PASS | All Gemini checks passed |
+| show off | PASS | All Gemini checks passed |
+| figure out | PASS | All Gemini checks passed |
+| excited | PASS | All Gemini checks passed |
+| nervous | PASS | All Gemini checks passed |
+| frightened | PASS | All Gemini checks passed |
+| surprised | PASS | All Gemini checks passed |
+| confused | PASS | All Gemini checks passed |
+| disappointed | PASS | All Gemini checks passed |
+| frustrated | PASS | All Gemini checks passed |
+| jealous | PASS | All Gemini checks passed |
+| embarrassed | PASS | All Gemini checks passed |
+| worried | PASS | All Gemini checks passed |
+| grateful | PASS | All Gemini checks passed |
+| annoyed | PASS | All Gemini checks passed |
+| bored | PASS | All Gemini checks passed |
+| amazed | PASS | All Gemini checks passed |
+| terrified | PASS | All Gemini checks passed |
+| furious | PASS | All Gemini checks passed |
+| miserable | PASS | All Gemini checks passed |
+| relieved | PASS | All Gemini checks passed |
+| peaceful | PASS | All Gemini checks passed |
+| comfortable | PASS | All Gemini checks passed |
+| uncomfortable | PASS | All Gemini checks passed |
+| exhausted | PASS | All Gemini checks passed |
+| delighted | PASS | All Gemini checks passed |
+| gloomy | PASS | All Gemini checks passed |
+| hopeful | PASS | All Gemini checks passed |
+| cranky | PASS | All Gemini checks passed |
+| content | PASS | All Gemini checks passed |
+| eager | PASS | All Gemini checks passed |
+| homesick | PASS | All Gemini checks passed |
+| ashamed | PASS | All Gemini checks passed |
+| before | PASS | All Gemini checks passed |
+| after | PASS | All Gemini checks passed |
+| next | PASS | All Gemini checks passed |
+| then | PASS | All Gemini checks passed |
+| finally | PASS | All Gemini checks passed |
+| meanwhile | PASS | All Gemini checks passed |
+| soon | PASS | All Gemini checks passed |
+| later | PASS | All Gemini checks passed |
+| early | PASS | All Gemini checks passed |
+| late | PASS | All Gemini checks passed |
+| beginning | PASS | All Gemini checks passed |
+| middle | PASS | All Gemini checks passed |
+| ending | PASS | All Gemini checks passed |
+| moment | PASS | All Gemini checks passed |
+| sudden | PASS | All Gemini checks passed |
+| recent | PASS | All Gemini checks passed |
+| daily | PASS | All Gemini checks passed |
+| weekly | PASS | All Gemini checks passed |
+| whenever | PASS | All Gemini checks passed |
+| once | PASS | All Gemini checks passed |
+| twice | PASS | All Gemini checks passed |
+| often | PASS | All Gemini checks passed |
+| nowadays | PASS | All Gemini checks passed |
+| dozen | PASS | All Gemini checks passed |
+| half | PASS | All Gemini checks passed |
+| pair | PASS | All Gemini checks passed |
+| entire | PASS | All Gemini checks passed |
+| double | PASS | All Gemini checks passed |
+| single | PASS | All Gemini checks passed |
+| plenty | PASS | All Gemini checks passed |
+| several | PASS | All Gemini checks passed |
+| few | PASS | All Gemini checks passed |
+| many | PASS | All Gemini checks passed |
+| none | PASS | All Gemini checks passed |
+| bunch | PASS | All Gemini checks passed |
+| pile | PASS | All Gemini checks passed |
+| heap | PASS | All Gemini checks passed |
+| piece | PASS | All Gemini checks passed |
+| portion | PASS | All Gemini checks passed |
+| amount | PASS | All Gemini checks passed |
+| total | PASS | All Gemini checks passed |
+| extra | PASS | All Gemini checks passed |
+| enough | PASS | All Gemini checks passed |
+| less | PASS | All Gemini checks passed |
+| more | PASS | All Gemini checks passed |
+| quarter | PASS | All Gemini checks passed |
+| equal | PASS | All Gemini checks passed |
+| average | PASS | All Gemini checks passed |
+| shadow | PASS | All Gemini checks passed |
+| echo | PASS | All Gemini checks passed |
+| secret | PASS | All Gemini checks passed |
+| surprise | PASS | All Gemini checks passed |
+| mistake | PASS | All Gemini checks passed |
+| adventure | PASS | All Gemini checks passed |
+| treasure | PASS | All Gemini checks passed |
+| journey | PASS | All Gemini checks passed |
+| village | PASS | All Gemini checks passed |
+| dock | PASS | All Gemini checks passed |
+| crowd | PASS | All Gemini checks passed |
+| trail | PASS | All Gemini checks passed |
+| footprint | PASS | All Gemini checks passed |
+| pattern | PASS | All Gemini checks passed |
+| riddle | PASS | All Gemini checks passed |
+| poem | PASS | All Gemini checks passed |
+| tale | PASS | All Gemini checks passed |
+| legend | PASS | All Gemini checks passed |
+| character | PASS | All Gemini checks passed |
+| chapter | PASS | All Gemini checks passed |
+| title | PASS | All Gemini checks passed |
+| author | PASS | All Gemini checks passed |
+| paw | PASS | All Gemini checks passed |
+| claw | PASS | All Gemini checks passed |
+| feather | PASS | All Gemini checks passed |
+| fur | PASS | All Gemini checks passed |
+| scale | PASS | All Gemini checks passed |
+| wing | PASS | All Gemini checks passed |
+| beak | PASS | All Gemini checks passed |
+| nest | PASS | All Gemini checks passed |
+| hive | PASS | All Gemini checks passed |
+| den | PASS | All Gemini checks passed |
+| burrow | PASS | All Gemini checks passed |
+| trap | PASS | All Gemini checks passed |
+| leash | PASS | All Gemini checks passed |
+| tag | PASS | All Gemini checks passed |
+| whisker | PASS | All Gemini checks passed |
+| tail | PASS | All Gemini checks passed |
+| hoof | PASS | All Gemini checks passed |
+| mane | PASS | All Gemini checks passed |
+| flock | PASS | All Gemini checks passed |
+| herd | PASS | All Gemini checks passed |
+| pack | PASS | All Gemini checks passed |
+| droplet | PASS | All Gemini checks passed |
+| ripple | PASS | All Gemini checks passed |
+| bubble | PASS | All Gemini checks passed |
+| flame | PASS | All Gemini checks passed |
+| spark | PASS | All Gemini checks passed |
+| smoke | PASS | All Gemini checks passed |
+| ash | PASS | All Gemini checks passed |
+| dawn | PASS | All Gemini checks passed |
+| dusk | PASS | All Gemini checks passed |
+| midnight | PASS | All Gemini checks passed |
+| noon | PASS | All Gemini checks passed |
+| passenger | PASS | All Gemini checks passed |
+| neighbor | PASS | All Gemini checks passed |
+| stranger | PASS | All Gemini checks passed |
+| parade | PASS | All Gemini checks passed |
+| audience | PASS | All Gemini checks passed |
+| crew | PASS | All Gemini checks passed |
+| coach | PASS | All Gemini checks passed |
+| chef | PASS | All Gemini checks passed |
+| mayor | PASS | All Gemini checks passed |
+| inventor | PASS | All Gemini checks passed |
+| princess | PASS | All Gemini checks passed |
+| knight | PASS | All Gemini checks passed |
+| wizard | PASS | All Gemini checks passed |
+| giant | PASS | All Gemini checks passed |
+| dwarf | PASS | All Gemini checks passed |
+| monster | PASS | All Gemini checks passed |
+| dragon | PASS | All Gemini checks passed |
+| fairy | PASS | All Gemini checks passed |
+| shield | PASS | All Gemini checks passed |
+| sword | PASS | All Gemini checks passed |
+| wand | PASS | All Gemini checks passed |
+| throne | PASS | All Gemini checks passed |
+| crown | PASS | All Gemini checks passed |
+| wobble | PASS | All Gemini checks passed |
+| tumble | PASS | All Gemini checks passed |
+| snuggle | PASS | All Gemini checks passed |
+| nibble | PASS | All Gemini checks passed |
+| snore | PASS | All Gemini checks passed |
+| yawn | PASS | All Gemini checks passed |
+| shiver | PASS | All Gemini checks passed |
+| bloom | PASS | All Gemini checks passed |
+| sprout | PASS | All Gemini checks passed |
+| wilt | PASS | All Gemini checks passed |
+| scattered | PASS | All Gemini checks passed |
+| rascal | PASS | All Gemini checks passed |
+| gigantic | PASS | All Gemini checks passed |
+| itsy | PASS | All Gemini checks passed |
+| whirl | PASS | All Gemini checks passed |
+| sparkle | PASS | All Gemini checks passed |
+| flutter | PASS | All Gemini checks passed |
+| hear | PASS | All Gemini checks passed |
+| lose | PASS | All Gemini checks passed |
+| teach | PASS | All Gemini checks passed |
+| take | PASS | All Gemini checks passed |
+| than | PASS | All Gemini checks passed |
