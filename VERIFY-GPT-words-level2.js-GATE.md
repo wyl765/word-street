@@ -1,10 +1,6 @@
 # VERIFY-GPT — words-level2.js
 
-- One line per word (no skipping).
-- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
-- L6: Reverse test — blank example + 4 options.
-- L7: Cultural sensitivity.
-- L8: Learning path / level fit.
+说明：每个词一行（不跳过）。字段：L5(Def/Ex) / L6(遮词+四选一) / L7(文化敏感) / L8(学习路径)。
 
 - describe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[describe / effect / mention / weather] | L7:OK | L8:合适
 - explain | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:why)，易靠语感/蒙) | 选项:[cause / describe / explain / warn] | L7:OK | L8:合适
