@@ -172,11 +172,11 @@
 |159 | kilt | 不能（Scotland文化服饰） | 勉强（bagpiper wore kilt） | 选项：kilt / chlorophyll / hosiery / hull；不唯一（skirt） | OK | 偏难（文化词；可做拓展） |
 |160 | knack | 勉强（natural talent） | 能（修东西很在行） | 选项：knack / irate / chunk / mend；不唯一（talent/skill） | OK | 合适 |
 |161 | knead | 不能（press/squeeze dough） | 勉强（baker kneaded dough） | 选项：knead / ivory / hatch / creek；不唯一（mix/press） | OK | 偏难（烘焙动词） |
-|162 | knell | 不能（bell rung slowly for sad event） | 勉强（church bell echo） | 选项：knell / hymn / wade / jest；不唯一（bell sound） | OK | 偏难 |
+|162 | knell | 不能（bell rung slowly for sad event） | 勉强（church bell echo） | 选项：knell / hymn / wade / jest；不唯一（bell sound） | 注意（“sad event/慢敲钟声”接近葬礼语境；且含 church 场景） | 偏难 |
 |163 | knoll | 勉强（small round hill） | 能（grassy knoll picnic） | 选项：knoll / slope / kernel / haste；不唯一（hill） | OK | 合适 |
 |164 | lacquer | 不能（shiny coating） | 勉强（red lacquer gleamed） | 选项：lacquer / lattice / foil / translucent；不唯一（paint/coating） | OK | 偏难 |
 |165 | lair | 勉强（animal den/hiding place） | 能（bear returned to lair） | 选项：lair / translucent / hoard / locomotion；不唯一（den/cave） | OK | 合适 |
-|166 | lance | 不能（knights spear） | 勉强（knight charged lance） | 选项：lance / harpoon / lever / advance；不唯一（spear） | OK | 偏难（中世纪文化词） |
+|166 | lance | 不能（knights spear） | 勉强（knight charged lance） | 选项：lance / harpoon / lever / advance；不唯一（spear） | 注意（武器/骑士冲锋画面偏“打斗”） | 偏难（中世纪文化词） |
 |167 | lanky | 勉强（tall thin awkward） | 能（duck through low doorway） | 选项：lanky / wade / manner / inlet；不唯一（tall/thin） | OK | 合适 |
 |168 | lattice | 不能（frame crossed strips） | 勉强（roses climbed lattice） | 选项：lattice / lacquer / wade / lumber；不唯一（fence/trellis） | OK | 偏难 |
 |169 | lavish | 不能（giving/fancy/more than enough多义） | 勉强（豪华生日派对） | 选项：lavish / spout / livelihood / linen；不唯一（fancy/big） | OK | 偏难 |
