@@ -1,5 +1,7 @@
 # VERIFY-GPT — words-level3a.js — GATE
 
+选择：word-status.json 中 currentGate=14 为最小；并列文件中优先选 totalWords 最少的词库进行本轮审校 → words-level3a.js。
+
 字段：L5(def)=看definition是否能懂；L5(ex)=看example(把目标词当作空)能否猜；L6=例句+同level四选一能否唯一；L7=文化敏感；L8=对MAP197左右(中国ESL二年级感受)难度/前置/顺序。
 
 - calculate | L5(def):勉强(“work with numbers”能懂) L5(ex):能(算旅行要多少钱) | L6:是 | L7:OK | L8:合适(数学场景常见)
