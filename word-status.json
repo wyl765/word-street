@@ -16,7 +16,7 @@
   "files": {
     "words-level1.js": {
       "totalWords": 600,
-      "currentGate": 9,
+      "currentGate": 10,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -26,7 +26,7 @@
     },
     "words-level2.js": {
       "totalWords": 552,
-      "currentGate": 9,
+      "currentGate": 10,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
