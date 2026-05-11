@@ -161,7 +161,11 @@
       "gate4": "pass",
       "gate5": "pass",
       "gate6": "pass",
-      "gate7": "pass"
+      "gate7": "pass",
+      "gate9": "pass",
+      "gate10": "pass",
+      "gate11": "pass",
+      "gate12": "pass"
     },
     "words-level4b.js": {
       "totalWords": 310,
