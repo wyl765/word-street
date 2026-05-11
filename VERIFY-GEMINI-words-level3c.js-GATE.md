@@ -1,197 +1,199 @@
-| Word | L9: imageKeyword | L10: Definition Facts | L11: Common Meaning | L12: Game Compatibility |
-|---|---|---|---|---|
-| advance | ok | ok | ok | ok |
-| affordable | ok | ok | ok | ok |
-| analyze | ok | ok | ok | ok |
-| apply | ok | ok | ok | ok |
-| burden | ok | ok | ok | ok |
-| cancel | ok | ok | ok | ok |
-| device | ok | ok | ok | ok |
-| elect | ok | ok | ok | ok |
-| emphasize | ok | ok | ok | ok |
-| exclaim | ok | ok | ok | ok |
-| frustrate | ok | ok | ok | ok |
-| glimpse | ok | ok | ok | ok |
-| govern | ok | ok | ok | ok |
-| idle | ok | ok | ok | ok |
-| invest | ok | ok | ok | ok |
-| manner | ok | ok | ok | ok |
-| negative | ok | ok | ok | ok |
-| outcome | ok | ok | ok | ok |
-| regulate | ok | ok | ok | ok |
-| rhythm | ok | ok | ok | ok |
-| risk | ok | ok | ok | ok |
-| tension | ok | ok | ok | ok |
-| typical | ok | ok | ok | ok |
-| basement | ok | ok | ok | ok |
-| blade | ok | ok | ok | ok |
-| canyon | ok | ok | ok | ok |
-| chimney | ok | ok | ok | ok |
-| chunk | ok | ok | ok | ok |
-| creek | ok | ok | ok | ok |
-| crisp | ok | ok | ok | ok |
-| flask | ok | ok | ok | ok |
-| foil | ok | ok | ok | ok |
-| gasp | ok | ok | ok | ok |
-| glare | ok | ok | ok | ok |
-| glow | ok | ok | ok | ok |
-| hatch | ok | ok | ok | ok |
-| hose | ok | ok | ok | ok |
-| inn | ok | ok | ok | ok |
-| jolt | ok | ok | ok | ok |
-| ledge | ok | ok | ok | ok |
-| lumber | ok | ok | ok | ok |
-| mend | ok | ok | ok | ok |
-| quarry | ok | ok | ok | ok |
-| ridge | ok | ok | ok | ok |
-| slope | ok | ok | ok | ok |
-| spout | ok | ok | ok | ok |
-| stump | ok | ok | ok | ok |
-| torch | ok | ok | ok | ok |
-| wade | ok | ok | ok | ok |
-| asteroid | ok | ok | ok | ok |
-| axis | ok | ok | ok | ok |
-| carnivore | ok | ok | ok | ok |
-| census | ok | ok | ok | ok |
-| chlorophyll | ok | ok | ok | ok |
-| crater | ok | ok | ok | ok |
-| crustacean | ok | ok | ok | ok |
-| digestive | ok | ok | ok | ok |
-| elevation | ok | ok | ok | ok |
-| fertile | ok | ok | ok | ok |
-| glacier | ok | ok | ok | ok |
-| herbivore | ok | ok | ok | ok |
-| humidity | ok | ok | ok | ok |
-| legislature | ok | ok | ok | ok |
-| molecule | ok | ok | ok | ok |
-| arid | ok | ok | ok | ok |
-| archaeology | ok | ok | ok | ok |
-| mesa | ok | ok | ok | ok |
-| tundra | ok | ok | ok | ok |
-| stalagmite | ok | ok | ok | ok |
-| tributary | ok | ok | ok | ok |
-| archipelago | ok | ok | ok | ok |
-| stratosphere | ok | ok | ok | ok |
-| preamble | ok | ok | ok | ok |
-| filament | ok | ok | ok | ok |
-| nocturnal | ok | ok | ok | ok |
-| translucent | ok | ok | ok | ok |
-| omnivore | ok | ok | ok | ok |
-| plateau | ok | ok | ok | ok |
-| geothermal | ok | ok | ok | ok |
-| specimen | ok | ok | ok | ok |
-| meridian | ok | ok | ok | ok |
-| respiration | ok | ok | ok | ok |
-| paleontology | ok | ok | ok | ok |
-| aquifer | ok | ok | ok | ok |
-| deciduous | ok | ok | ok | ok |
-| pharaoh | ok | ok | ok | ok |
-| sedimentary | ok | ok | ok | ok |
-| isthmus | ok | ok | ok | ok |
-| dividend | ok | ok | ok | ok |
-| divisor | ok | ok | ok | ok |
-| mandate | ok | ok | ok | ok |
-| authentic | ok | ok | ok | ok |
-| scarcity | ok | ok | ok | ok |
-| ancestry | ok | ok | ok | ok |
-| interval | ok | ok | ok | ok |
-| eligible | ok | ok | ok | ok |
-| manipulate | ok | ok | ok | ok |
-| salvage | ok | ok | ok | ok |
-| acquire | ok | ok | ok | ok |
-| terminate | ok | ok | ok | ok |
-| verdict | ok | ok | ok | ok |
-| hangar | ok | ok | ok | ok |
-| hardship | ok | ok | ok | ok |
-| harpoon | ok | ok | ok | ok |
-| harrow | ok | ok | ok | ok |
-| haste | ok | ok | ok | ok |
-| havoc | ok | ok | ok | ok |
-| headway | ok | ok | ok | ok |
-| heed | ok | ok | ok | ok |
-| helm | ok | ok | ok | ok |
-| herald | ok | ok | ok | ok |
-| hermit | ok | ok | ok | ok |
-| hew | ok | ok | ok | ok |
-| hinge | ok | ok | ok | ok |
-| hoard | ok | ok | ok | ok |
-| hobble | ok | ok | ok | ok |
-| hoist | ok | ok | ok | ok |
-| homage | ok | ok | ok | ok |
-| homestead | ok | ok | ok | ok |
-| hone | ok | ok | ok | ok |
-| hornet | ok | ok | ok | ok |
-| hosiery | ok | ok | ok | ok |
-| hospitable | ok | ok | ok | ok |
-| hub | ok | ok | ok | ok |
-| huddle | ok | ok | ok | ok |
-| hull | ok | ok | ok | ok |
-| humus | ok | ok | ok | ok |
-| hurdle | ok | ok | ok | ok |
-| hurl | ok | ok | ok | ok |
-| hurricane | ok | ok | ok | ok |
-| hydrate | ok | ok | ok | ok |
-| hymn | ok | ok | ok | ok |
-| hyperbole | ok | ok | ok | ok |
-| icon | ok | ok | ok | ok |
-| imbue | ok | ok | ok | ok |
-| impervious | ok | ok | ok | ok |
-| impound | ok | ok | ok | ok |
-| indent | ok | ok | ok | ok |
-| inferno | ok | ok | ok | ok |
-| infuse | ok | ok | ok | ok |
-| inlet | ok | ok | ok | ok |
-| inquest | ok | ok | ok | ok |
-| instill | ok | ok | ok | ok |
-| insular | ok | ok | ok | ok |
-| intrigue | ok | ok | ok | ok |
-| inundate | ok | ok | ok | ok |
-| irate | ok | ok | ok | ok |
-| irk | ok | ok | ok | ok |
-| ivory | ok | ok | ok | ok |
-| jaunt | ok | ok | ok | ok |
-| jest | ok | ok | ok | ok |
-| jettison | ok | ok | ok | ok |
-| jinx | ok | ok | ok | ok |
-| jostle | ok | ok | ok | ok |
-| jubilant | ok | ok | ok | ok |
-| juncture | ok | ok | ok | ok |
-| juniper | ok | ok | ok | ok |
-| kernel | ok | ok | ok | ok |
-| kilt | ok | ok | ok | ok |
-| knack | ok | ok | ok | ok |
-| knead | ok | ok | ok | ok |
-| knell | ok | ok | ok | ok |
-| knoll | ok | ok | ok | ok |
-| lacquer | ok | ok | ok | ok |
-| lair | ok | ok | ok | ok |
-| lance | ok | ok | ok | ok |
-| lanky | ok | ok | ok | ok |
-| lattice | ok | ok | ok | ok |
-| lavish | ok | ok | ok | ok |
-| ledger | ok | ok | ok | ok |
-| leech | ok | ok | ok | ok |
-| leer | ok | ok | ok | ok |
-| legible | ok | ok | ok | ok |
-| legion | ok | ok | ok | ok |
-| lever | ok | ok | ok | ok |
-| lilac | ok | ok | ok | ok |
-| limber | ok | ok | ok | ok |
-| limelight | ok | ok | ok | ok |
-| limpid | ok | ok | ok | ok |
-| lineage | ok | ok | ok | ok |
-| linen | ok | ok | ok | ok |
-| lintel | ok | ok | ok | ok |
-| listless | ok | ok | ok | ok |
-| litany | ok | ok | ok | ok |
-| lithe | ok | ok | ok | ok |
-| livelihood | ok | ok | ok | ok |
-| loam | ok | ok | ok | ok |
-| lobe | ok | ok | ok | ok |
-| locale | ok | ok | ok | ok |
-| locomotion | ok | ok | ok | ok |
-| loft | ok | ok | ok | ok |
-| lore | ok | ok | ok | ok |
-| lucid | ok | ok | ok | ok |
-| lull | ok | ok | ok | ok |
-| lunge | ok | ok | ok | ok |
+# Gemini Verification Report: words-level3c.js
+
+| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Game Compat | Status |
+|------|------------------|-----------------|---------------|------------------|--------|
+| advance | Pass | Pass | Pass | Pass | Pass |
+| affordable | Pass | Pass | Pass | Pass | Pass |
+| analyze | Pass | Pass | Pass | Pass | Pass |
+| apply | Pass | Pass | Pass | Pass | Pass |
+| burden | Pass | Pass | Pass | Pass | Pass |
+| cancel | Pass | Pass | Pass | Pass | Pass |
+| device | Pass | Pass | Pass | Pass | Pass |
+| elect | Pass | Pass | Pass | Pass | Pass |
+| emphasize | Pass | Pass | Pass | Pass | Pass |
+| exclaim | Pass | Pass | Pass | Pass | Pass |
+| frustrate | Pass | Pass | Pass | Pass | Pass |
+| glimpse | Pass | Pass | Pass | Pass | Pass |
+| govern | Pass | Pass | Pass | Pass | Pass |
+| idle | Pass | Pass | Pass | Pass | Pass |
+| invest | Pass | Pass | Pass | Pass | Pass |
+| manner | Pass | Pass | Pass | Pass | Pass |
+| negative | Pass | Pass | Pass | Pass | Pass |
+| outcome | Pass | Pass | Pass | Pass | Pass |
+| regulate | Pass | Pass | Pass | Pass | Pass |
+| rhythm | Pass | Pass | Pass | Pass | Pass |
+| risk | Pass | Pass | Pass | Pass | Pass |
+| tension | Pass | Pass | Pass | Pass | Pass |
+| typical | Pass | Pass | Pass | Pass | Pass |
+| basement | Pass | Pass | Pass | Pass | Pass |
+| blade | Pass | Pass | Pass | Pass | Pass |
+| canyon | Pass | Pass | Pass | Pass | Pass |
+| chimney | Pass | Pass | Pass | Pass | Pass |
+| chunk | Pass | Pass | Pass | Pass | Pass |
+| creek | Pass | Pass | Pass | Pass | Pass |
+| crisp | Pass | Pass | Pass | Pass | Pass |
+| flask | Pass | Pass | Pass | Pass | Pass |
+| foil | Pass | Pass | Pass | Pass | Pass |
+| gasp | Pass | Pass | Pass | Pass | Pass |
+| glare | Pass | Pass | Pass | Pass | Pass |
+| glow | Pass | Pass | Pass | Pass | Pass |
+| hatch | Pass | Pass | Pass | Pass | Pass |
+| hose | Pass | Pass | Pass | Pass | Pass |
+| inn | Pass | Pass | Pass | Pass | Pass |
+| jolt | Pass | Pass | Pass | Pass | Pass |
+| ledge | Pass | Pass | Pass | Pass | Pass |
+| lumber | Pass | Pass | Pass | Pass | Pass |
+| mend | Pass | Pass | Pass | Pass | Pass |
+| quarry | Pass | Pass | Pass | Pass | Pass |
+| ridge | Pass | Pass | Pass | Pass | Pass |
+| slope | Pass | Pass | Pass | Pass | Pass |
+| spout | Pass | Pass | Pass | Pass | Pass |
+| stump | Pass | Pass | Pass | Pass | Pass |
+| torch | Pass | Pass | Pass | Pass | Pass |
+| wade | Pass | Pass | Pass | Pass | Pass |
+| asteroid | Pass | Pass | Pass | Pass | Pass |
+| axis | Pass | Pass | Pass | Pass | Pass |
+| carnivore | Pass | Pass | Pass | Pass | Pass |
+| census | Pass | Pass | Pass | Pass | Pass |
+| chlorophyll | Pass | Pass | Pass | Pass | Pass |
+| crater | Pass | Pass | Pass | Pass | Pass |
+| crustacean | Pass | Pass | Pass | Pass | Pass |
+| digestive | Pass | Pass | Pass | Pass | Pass |
+| elevation | Pass | Pass | Pass | Pass | Pass |
+| fertile | Pass | Pass | Pass | Pass | Pass |
+| glacier | Pass | Pass | Pass | Pass | Pass |
+| herbivore | Pass | Pass | Pass | Pass | Pass |
+| humidity | Pass | Pass | Pass | Pass | Pass |
+| legislature | Pass | Pass | Pass | Pass | Pass |
+| molecule | Pass | Pass | Pass | Pass | Pass |
+| arid | Pass | Pass | Pass | Pass | Pass |
+| archaeology | Pass | Pass | Pass | Pass | Pass |
+| mesa | Pass | Pass | Pass | Pass | Pass |
+| tundra | Pass | Pass | Pass | Pass | Pass |
+| stalagmite | Pass | Pass | Pass | Pass | Pass |
+| tributary | Pass | Pass | Pass | Pass | Pass |
+| archipelago | Pass | Pass | Pass | Pass | Pass |
+| stratosphere | Pass | Pass | Pass | Pass | Pass |
+| preamble | Pass | Pass | Pass | Pass | Pass |
+| filament | Pass | Pass | Pass | Pass | Pass |
+| nocturnal | Pass | Pass | Pass | Pass | Pass |
+| translucent | Pass | Pass | Pass | Pass | Pass |
+| omnivore | Pass | Pass | Pass | Pass | Pass |
+| plateau | Pass | Pass | Pass | Pass | Pass |
+| geothermal | Pass | Pass | Pass | Pass | Pass |
+| specimen | Pass | Pass | Pass | Pass | Pass |
+| meridian | Pass | Pass | Pass | Pass | Pass |
+| respiration | Pass | Pass | Pass | Pass | Pass |
+| paleontology | Pass | Pass | Pass | Pass | Pass |
+| aquifer | Pass | Pass | Pass | Pass | Pass |
+| deciduous | Pass | Pass | Pass | Pass | Pass |
+| pharaoh | Pass | Pass | Pass | Pass | Pass |
+| sedimentary | Pass | Pass | Pass | Pass | Pass |
+| isthmus | Pass | Pass | Pass | Pass | Pass |
+| dividend | Pass | Pass | Pass | Pass | Pass |
+| divisor | Pass | Pass | Pass | Pass | Pass |
+| mandate | Pass | Pass | Pass | Pass | Pass |
+| authentic | Pass | Pass | Pass | Pass | Pass |
+| scarcity | Pass | Pass | Pass | Pass | Pass |
+| ancestry | Pass | Pass | Pass | Pass | Pass |
+| interval | Pass | Pass | Pass | Pass | Pass |
+| eligible | Pass | Pass | Pass | Pass | Pass |
+| manipulate | Pass | Pass | Pass | Pass | Pass |
+| salvage | Pass | Pass | Pass | Pass | Pass |
+| acquire | Pass | Pass | Pass | Pass | Pass |
+| terminate | Pass | Pass | Pass | Pass | Pass |
+| verdict | Pass | Pass | Pass | Pass | Pass |
+| hangar | Pass | Pass | Pass | Pass | Pass |
+| hardship | Pass | Pass | Pass | Pass | Pass |
+| harpoon | Pass | Pass | Pass | Pass | Pass |
+| harrow | Pass | Pass | Pass | Pass | Pass |
+| haste | Pass | Pass | Pass | Pass | Pass |
+| havoc | Pass | Pass | Pass | Pass | Pass |
+| headway | Pass | Pass | Pass | Pass | Pass |
+| heed | Pass | Pass | Pass | Pass | Pass |
+| helm | Pass | Pass | Pass | Pass | Pass |
+| herald | Pass | Pass | Pass | Pass | Pass |
+| hermit | Pass | Pass | Pass | Pass | Pass |
+| hew | Pass | Pass | Pass | Pass | Pass |
+| hinge | Pass | Pass | Pass | Pass | Pass |
+| hoard | Pass | Pass | Pass | Pass | Pass |
+| hobble | Pass | Pass | Pass | Pass | Pass |
+| hoist | Pass | Pass | Pass | Pass | Pass |
+| homage | Pass | Pass | Pass | Pass | Pass |
+| homestead | Pass | Pass | Pass | Pass | Pass |
+| hone | Pass | Pass | Pass | Pass | Pass |
+| hornet | Pass | Pass | Pass | Pass | Pass |
+| hosiery | Pass | Pass | Pass | Pass | Pass |
+| hospitable | Pass | Pass | Pass | Pass | Pass |
+| hub | Pass | Pass | Pass | Pass | Pass |
+| huddle | Pass | Pass | Pass | Pass | Pass |
+| hull | Pass | Pass | Pass | Pass | Pass |
+| humus | Pass | Pass | Pass | Pass | Pass |
+| hurdle | Pass | Pass | Pass | Pass | Pass |
+| hurl | Pass | Pass | Pass | Pass | Pass |
+| hurricane | Pass | Pass | Pass | Pass | Pass |
+| hydrate | Pass | Pass | Pass | Pass | Pass |
+| hymn | Pass | Pass | Pass | Pass | Pass |
+| hyperbole | Pass | Pass | Pass | Pass | Pass |
+| icon | Pass | Pass | Pass | Pass | Pass |
+| imbue | Pass | Pass | Pass | Pass | Pass |
+| impervious | Pass | Pass | Pass | Pass | Pass |
+| impound | Pass | Pass | Pass | Pass | Pass |
+| indent | Pass | Pass | Pass | Pass | Pass |
+| inferno | Pass | Pass | Pass | Pass | Pass |
+| infuse | Pass | Pass | Pass | Pass | Pass |
+| inlet | Pass | Pass | Pass | Pass | Pass |
+| inquest | Pass | Pass | Pass | Pass | Pass |
+| instill | Pass | Pass | Pass | Pass | Pass |
+| insular | Pass | Pass | Pass | Pass | Pass |
+| intrigue | Pass | Pass | Pass | Pass | Pass |
+| inundate | Pass | Pass | Pass | Pass | Pass |
+| irate | Pass | Pass | Pass | Pass | Pass |
+| irk | Pass | Pass | Pass | Pass | Pass |
+| ivory | Pass | Pass | Pass | Pass | Pass |
+| jaunt | Pass | Pass | Pass | Pass | Pass |
+| jest | Pass | Pass | Pass | Pass | Pass |
+| jettison | Pass | Pass | Pass | Pass | Pass |
+| jinx | Pass | Pass | Pass | Pass | Pass |
+| jostle | Pass | Pass | Pass | Pass | Pass |
+| jubilant | Pass | Pass | Pass | Pass | Pass |
+| juncture | Pass | Pass | Pass | Pass | Pass |
+| juniper | Pass | Pass | Pass | Pass | Pass |
+| kernel | Pass | Pass | Pass | Pass | Pass |
+| kilt | Pass | Pass | Pass | Pass | Pass |
+| knack | Pass | Pass | Pass | Pass | Pass |
+| knead | Pass | Pass | Pass | Pass | Pass |
+| knell | Pass | Pass | Pass | Pass | Pass |
+| knoll | Pass | Pass | Pass | Pass | Pass |
+| lacquer | Pass | Pass | Pass | Pass | Pass |
+| lair | Pass | Pass | Pass | Pass | Pass |
+| lance | Pass | Pass | Pass | Pass | Pass |
+| lanky | Pass | Pass | Pass | Pass | Pass |
+| lattice | Pass | Pass | Pass | Pass | Pass |
+| lavish | Pass | Pass | Pass | Pass | Pass |
+| ledger | Pass | Pass | Pass | Pass | Pass |
+| leech | Pass | Pass | Pass | Pass | Pass |
+| leer | Pass | Pass | Pass | Pass | Pass |
+| legible | Pass | Pass | Pass | Pass | Pass |
+| legion | Pass | Pass | Pass | Pass | Pass |
+| lever | Pass | Pass | Pass | Pass | Pass |
+| lilac | Pass | Pass | Pass | Pass | Pass |
+| limber | Pass | Pass | Pass | Pass | Pass |
+| limelight | Pass | Pass | Pass | Pass | Pass |
+| limpid | Pass | Pass | Pass | Pass | Pass |
+| lineage | Pass | Pass | Pass | Pass | Pass |
+| linen | Pass | Pass | Pass | Pass | Pass |
+| lintel | Pass | Pass | Pass | Pass | Pass |
+| listless | Pass | Pass | Pass | Pass | Pass |
+| litany | Pass | Pass | Pass | Pass | Pass |
+| lithe | Pass | Pass | Pass | Pass | Pass |
+| livelihood | Pass | Pass | Pass | Pass | Pass |
+| loam | Pass | Pass | Pass | Pass | Pass |
+| lobe | Pass | Pass | Pass | Pass | Pass |
+| locale | Pass | Pass | Pass | Pass | Pass |
+| locomotion | Pass | Pass | Pass | Pass | Pass |
+| loft | Pass | Pass | Pass | Pass | Pass |
+| lore | Pass | Pass | Pass | Pass | Pass |
+| lucid | Pass | Pass | Pass | Pass | Pass |
+| lull | Pass | Pass | Pass | Pass | Pass |
+| lunge | Pass | Pass | Pass | Pass | Pass |

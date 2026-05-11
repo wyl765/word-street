@@ -1,255 +1,255 @@
-# 6Gate L9-L12 Gemini Verification Report
+# Gemini Verification Report: words-level5b.js
 
-| Word | L9: ImageKeyword Searchability | L10: Definition Fact Check | L11: Polysemy Completeness | L12: Game Compatibility |
-|---|---|---|---|---|
-| **strategic** | ✔️ "chess planning" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **subdivide** | ✔️ "dividing land" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **successive** | ✔️ "dominoes falling row" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **tentative** | ✔️ "uncertain plan" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **terrestrial** | ✔️ "land animal" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **thesis** | ✔️ "main argument" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **threshold** | ✔️ "crossing point" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **trajectory** | ✔️ "curved path" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **transcend** | ✔️ "going beyond" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **trivial** | ✔️ "tiny unimportant" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **turbine** | ✔️ "spinning blades" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **unify** | ✔️ "joining together" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **vicinity** | ✔️ "nearby area" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **whereby** | ✔️ "method system" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **abrasive** | ✔️ "sandpaper wood" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **abstain** | ✔️ "stepping back" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **accessible** | ✔️ "wheelchair ramp" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **acclaim** | ✔️ "standing ovation" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **accountable** | ✔️ "taking responsibility" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **acquisition** | ✔️ "gaining treasure" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **adamant** | ✔️ "firm stubborn" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **admonish** | ✔️ "stern warning" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **adverse** | ✔️ "bad conditions" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **aesthetic** | ✔️ "beautiful design" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **affiliation** | ✔️ "connected member" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **aggravate** | ✔️ "making worse" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **agile** | ✔️ "quick gymnast" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **albeit** | ✔️ "even though" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **allegation** | ✔️ "accusation claim" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **alleviate** | ✔️ "relief medicine helping" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **amalgamate** | ✔️ "merging together" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **analogy** | ✔️ "puzzle pieces matching" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **annex** | ✔️ "added building" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **anomaly** | ✔️ "odd one out" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **anthology** | ✔️ "story collection" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **appease** | ✔️ "calming down" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **appendix** | ✔️ "book extra" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **appraise** | ✔️ "evaluating value" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **apprehensive** | ✔️ "nervous feeling" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **apt** | ✔️ "fitting perfectly" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **arable** | ✔️ "fertile farmland" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **arduous** | ✔️ "difficult climb" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **ascend** | ✔️ "climbing upward" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **assimilate** | ✔️ "absorbing knowledge" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **atrocity** | ✔️ "terrible cruelty" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **attribute** | ✔️ "quality trait" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **audit** | ✔️ "checking records" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **authoritative** | ✔️ "expert source" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **aversion** | ✔️ "avoiding strongly" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **bandwidth** | ✔️ "data speed" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **barometer** | ✔️ "pressure gauge" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **bisect** | ✔️ "cutting half" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **bloc** | ✔️ "united group" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **brevity** | ✔️ "short concise" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **brink** | ✔️ "cliff edge" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **bureaucrat** | ✔️ "official paperwork" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **cardinal** | ✔️ "gold number one trophy" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **cavalry** | ✔️ "horse soldiers" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **circumvent** | ✔️ "going around" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **collateral** | ✔️ "security pledge" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **communal** | ✔️ "shared garden" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **comparable** | ✔️ "side by side" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **competent** | ✔️ "skilled capable" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **complacent** | ✔️ "lazy relaxed" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **concise** | ✔️ "short clear" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **conducive** | ✔️ "helpful environment" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **conjunction** | ✔️ "connecting words" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **conquest** | ✔️ "taking over" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **constituent** | ✔️ "local voter" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **contraband** | ✔️ "illegal goods" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **converge** | ✔️ "meeting point" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **corrode** | ✔️ "rusty metal" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **coup** | ✔️ "power seize" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **covert** | ✔️ "hidden secret" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **decisive** | ✔️ "quick decision" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **declaration** | ✔️ "official statement" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **decree** | ✔️ "royal order" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **deduce** | ✔️ "logical thinking" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **default** | ✔️ "automatic setting" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **defer** | ✔️ "postponing later" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **degradation** | ✔️ "wearing down" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **deliberation** | ✔️ "careful thinking" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **delinquent** | ✔️ "troubled youth" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **depreciate** | ✔️ "losing value" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **detrimental** | ✔️ "harmful effect" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **diffuse** | ✔️ "spreading out" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **discern** | ✔️ "spotting hidden" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **discriminate** | ✔️ "unfair treatment" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **dismissal** | ✔️ "sending away" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **dispatch** | ✔️ "sending quickly" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **disseminate** | ✔️ "spreading widely" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **diverge** | ✔️ "splitting paths" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **dweller** | ✔️ "city resident" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **edict** | ✔️ "official announcement" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **efficacy** | ✔️ "working result" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **electorate** | ✔️ "voting public" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **elite** | ✔️ "top performers" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **embark** | ✔️ "starting journey" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **emulate** | ✔️ "copying hero" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **enact** | ✔️ "passing law" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **endeavor** | ✔️ "serious effort" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **endow** | ✔️ "giving gift" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **engender** | ✔️ "creating feeling" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **enigma** | ✔️ "mysterious puzzle" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **ensue** | ✔️ "chain reaction dominoes" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **entail** | ✔️ "requiring work" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **epoch** | ✔️ "new era" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **equity** | ✔️ "fair balance" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **erratic** | ✔️ "unpredictable path" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **essence** | ✔️ "core quality" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **exacerbate** | ✔️ "pouring fuel on fire" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **excavate** | ✔️ "digging site" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **exclusive** | ✔️ "members only" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **exemplify** | ✔️ "perfect example" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **expedite** | ✔️ "express delivery truck" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **exponential** | ✔️ "rapid growth" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **extravagant** | ✔️ "lavish party" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **facade** | ✔️ "building front" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **fathom** | ✔️ "deep understanding" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **feat** | ✔️ "amazing achievement" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **fidelity** | ✔️ "faithful accurate" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **flora** | ✔️ "plant life" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **foreclose** | ✔️ "losing home" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **forthcoming** | ✔️ "coming soon" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **forum** | ✔️ "public discussion" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **foster** | ✔️ "nurturing growth" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **fugitive** | ✔️ "person running" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **futile** | ✔️ "hopeless attempt" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **genesis** | ✔️ "seed sprouting soil" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **geopolitical** | ✔️ "world politics" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **gist** | ✔️ "main point" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **grandiose** | ✔️ "huge ambitious" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **grassroots** | ✔️ "people movement" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **gratitude** | ✔️ "thankful heart" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **gross domestic product** | ✔️ "national economy" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **groundwater** | ✔️ "underground water" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **guerrilla** | ✔️ "hidden fighters" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **habitual** | ✔️ "repeated behavior" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **hamper** | ✔️ "slowing down" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **harbinger** | ✔️ "early sign" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **harness** | ✔️ "using power" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **haven** | ✔️ "safe place" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **hazardous** | ✔️ "danger warning" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **hereditary** | ✔️ "family genes" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **homogeneous** | ✔️ "uniform mixture" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **humility** | ✔️ "modest person" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **hybrid** | ✔️ "mixed vehicle" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **hypothetical** | ✔️ "imaginary scenario" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **illicit** | ✔️ "forbidden activity" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **immerse** | ✔️ "diving deep" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **impair** | ✔️ "damaging ability" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **impartial** | ✔️ "balanced fair" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **impede** | ✔️ "blocking path" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **implore** | ✔️ "begging please" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **improvise** | ✔️ "quick thinking stage" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **incite** | ✔️ "angry crowd protest" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **inclusive** | ✔️ "everyone welcome" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **increment** | ✔️ "small step" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **incumbent** | ✔️ "current holder" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **indiscriminate** | ✔️ "without choosing" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **influx** | ✔️ "crowd rushing gate" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **initiation** | ✔️ "beginning ceremony" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **injunction** | ✔️ "court order" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **insurgent** | ✔️ "rebel fighter" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **intermittent** | ✔️ "flickering light bulb" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **invariably** | ✔️ "always same" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **irrevocable** | ✔️ "cannot undo" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **jeopardize** | ✔️ "risking loss" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **kinship** | ✔️ "family bond" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **labyrinth** | ✔️ "complex maze" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **lament** | ✔️ "feeling sad" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **legacy** | ✔️ "lasting gift" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **legislative** | ✔️ "making laws" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **litigation** | ✔️ "court case" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **lobby** | ✔️ "persuading officials" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **maiden** | ✔️ "first voyage" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **malfunction** | ✔️ "broken machine" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **maneuver** | ✔️ "skillful move" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **martial** | ✔️ "military training" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **meager** | ✔️ "very little" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **mercantile** | ✔️ "trading shop" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **pinnacle** | ✔️ "mountain top" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **pious** | ✔️ "praying figure" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **plaintive** | ✔️ "sad puppy" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **precept** | ✔️ "golden rule" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **precocious** | ✔️ "young reader" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **predatory** | ✔️ "hunting eagle" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **predominate** | ✔️ "most common" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **premonition** | ✔️ "sensing danger" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **preposterous** | ✔️ "absurd idea" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **pretentious** | ✔️ "fancy show off" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **pristine** | ✔️ "clean beach" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **profuse** | ✔️ "overflowing thanks" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **prognosis** | ✔️ "medical forecast" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **prolific** | ✔️ "many books" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **protract** | ✔️ "stretching time" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **rampant** | ✔️ "wild weeds" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **raucous** | ✔️ "loud party" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **raze** | ✔️ "wrecking ball building" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **rebuff** | ✔️ "hand stop" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **recourse** | ✔️ "help option" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **rectify** | ✔️ "fixing mistake" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **regimen** | ✔️ "workout plan" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **relentless** | ✔️ "endless rain" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **renegade** | ✔️ "lone rebel" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **repertoire** | ✔️ "varied collection" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **reprove** | ✔️ "gentle scold" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **repugnant** | ✔️ "disgusted face" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **resonate** | ✔️ "echoing bell" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **reticent** | ✔️ "quiet person" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **riveting** | ✔️ "gripping story" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **rudiment** | ✔️ "basic building blocks" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **scathing** | ✔️ "harsh criticism" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **seclusion** | ✔️ "remote cabin" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **semantic** | ✔️ "word meaning" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **sentinel** | ✔️ "standing guard" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **shrewd** | ✔️ "clever negotiator" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **sluggish** | ✔️ "slow river" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **sober** | ✔️ "serious talk" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **solitude** | ✔️ "walking alone" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **solvent** | ✔️ "stable finances" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **sordid** | ✔️ "dirty room" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **spawn** | ✔️ "creating many" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **steadfast** | ✔️ "unmovable anchor" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **stigma** | ✔️ "shame mark" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **stoic** | ✔️ "strong silent" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **stratagem** | ✔️ "clever plan" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **sublime** | ✔️ "breathtaking view" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **succumb** | ✔️ "white flag surrender" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **superficial** | ✔️ "surface scratch" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **supplant** | ✔️ "replacing old" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **susceptible** | ✔️ "vulnerable target" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **symposium** | ✔️ "expert meeting" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **tacit** | ✔️ "unspoken understanding" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **taciturn** | ✔️ "quiet man" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **tact** | ✔️ "gentle words" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **temperate** | ✔️ "mild weather" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **tenacious** | ✔️ "clinging vine" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **tout** | ✔️ "promoting product" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **transgress** | ✔️ "crossing line" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **trite** | ✔️ "recycled idea" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **turmoil** | ✔️ "chaos swirl" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **ulterior** | ✔️ "hidden motive" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **unabated** | ✔️ "nonstop noise" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **unassuming** | ✔️ "quiet hero" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **underscore** | ✔️ "highlighting point" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **unfettered** | ✔️ "free bird" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **unobtrusive** | ✔️ "hidden camera" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **unorthodox** | ✔️ "unusual method" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **untenable** | ✔️ "crumbling wall" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
-| **unwitting** | ✔️ "unaware person" is likely to yield clear, non-ambiguous images. | ✔️ Definition is accurate and appropriate. | ✔️ Primary meaning for target age group is used. | ✔️ Well-suited for all 4 game modes. |
+| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Game Compat | Status |
+|------|------------------|-----------------|---------------|------------------|--------|
+| strategic | Pass | Pass | Pass | Pass | Pass |
+| subdivide | Pass | Pass | Pass | Pass | Pass |
+| successive | Pass | Pass | Pass | Pass | Pass |
+| tentative | Pass | Pass | Pass | Pass | Pass |
+| terrestrial | Pass | Pass | Pass | Pass | Pass |
+| thesis | Pass | Pass | Pass | Pass | Pass |
+| threshold | Pass | Pass | Pass | Pass | Pass |
+| trajectory | Pass | Pass | Pass | Pass | Pass |
+| transcend | Pass | Pass | Pass | Pass | Pass |
+| trivial | Pass | Pass | Pass | Pass | Pass |
+| turbine | Pass | Pass | Pass | Pass | Pass |
+| unify | Pass | Pass | Pass | Pass | Pass |
+| vicinity | Pass | Pass | Pass | Pass | Pass |
+| whereby | Pass | Pass | Pass | Pass | Pass |
+| abrasive | Pass | Pass | Pass | Pass | Pass |
+| abstain | Pass | Pass | Pass | Pass | Pass |
+| accessible | Pass | Pass | Pass | Pass | Pass |
+| acclaim | Pass | Pass | Pass | Pass | Pass |
+| accountable | Pass | Pass | Pass | Pass | Pass |
+| acquisition | Pass | Pass | Pass | Pass | Pass |
+| adamant | Pass | Pass | Pass | Pass | Pass |
+| admonish | Pass | Pass | Pass | Pass | Pass |
+| adverse | Pass | Pass | Pass | Pass | Pass |
+| aesthetic | Pass | Pass | Pass | Pass | Pass |
+| affiliation | Pass | Pass | Pass | Pass | Pass |
+| aggravate | Pass | Pass | Pass | Pass | Pass |
+| agile | Pass | Pass | Pass | Pass | Pass |
+| albeit | Pass | Pass | Pass | Pass | Pass |
+| allegation | Pass | Pass | Pass | Pass | Pass |
+| alleviate | Pass | Pass | Pass | Pass | Pass |
+| amalgamate | Pass | Pass | Pass | Pass | Pass |
+| analogy | Pass | Pass | Pass | Pass | Pass |
+| annex | Pass | Pass | Pass | Pass | Pass |
+| anomaly | Pass | Pass | Pass | Pass | Pass |
+| anthology | Pass | Pass | Pass | Pass | Pass |
+| appease | Pass | Pass | Pass | Pass | Pass |
+| appendix | Pass | Pass | Pass | Pass | Pass |
+| appraise | Pass | Pass | Pass | Pass | Pass |
+| apprehensive | Pass | Pass | Pass | Pass | Pass |
+| apt | Pass | Pass | Pass | Pass | Pass |
+| arable | Pass | Pass | Pass | Pass | Pass |
+| arduous | Pass | Pass | Pass | Pass | Pass |
+| ascend | Pass | Pass | Pass | Pass | Pass |
+| assimilate | Pass | Pass | Pass | Pass | Pass |
+| atrocity | Pass | Pass | Pass | Pass | Pass |
+| attribute | Pass | Pass | Pass | Pass | Pass |
+| audit | Pass | Pass | Pass | Pass | Pass |
+| authoritative | Pass | Pass | Pass | Pass | Pass |
+| aversion | Pass | Pass | Pass | Pass | Pass |
+| bandwidth | Pass | Pass | Pass | Pass | Pass |
+| barometer | Pass | Pass | Pass | Pass | Pass |
+| bisect | Pass | Pass | Pass | Pass | Pass |
+| bloc | Pass | Pass | Pass | Pass | Pass |
+| brevity | Pass | Pass | Pass | Pass | Pass |
+| brink | Pass | Pass | Pass | Pass | Pass |
+| bureaucrat | Pass | Pass | Pass | Pass | Pass |
+| cardinal | Pass | Pass | Pass | Pass | Pass |
+| cavalry | Pass | Pass | Pass | Pass | Pass |
+| circumvent | Pass | Pass | Pass | Pass | Pass |
+| collateral | Pass | Pass | Pass | Pass | Pass |
+| communal | Pass | Pass | Pass | Pass | Pass |
+| comparable | Pass | Pass | Pass | Pass | Pass |
+| competent | Pass | Pass | Pass | Pass | Pass |
+| complacent | Pass | Pass | Pass | Pass | Pass |
+| concise | Pass | Pass | Pass | Pass | Pass |
+| conducive | Pass | Pass | Pass | Pass | Pass |
+| conjunction | Pass | Pass | Pass | Pass | Pass |
+| conquest | Pass | Pass | Pass | Pass | Pass |
+| constituent | Pass | Pass | Pass | Pass | Pass |
+| contraband | Pass | Pass | Pass | Pass | Pass |
+| converge | Pass | Pass | Pass | Pass | Pass |
+| corrode | Pass | Pass | Pass | Pass | Pass |
+| coup | Pass | Pass | Pass | Pass | Pass |
+| covert | Pass | Pass | Pass | Pass | Pass |
+| decisive | Pass | Pass | Pass | Pass | Pass |
+| declaration | Pass | Pass | Pass | Pass | Pass |
+| decree | Pass | Pass | Pass | Pass | Pass |
+| deduce | Pass | Pass | Pass | Pass | Pass |
+| default | Pass | Pass | Pass | Pass | Pass |
+| defer | Pass | Pass | Pass | Pass | Pass |
+| degradation | Pass | Pass | Pass | Pass | Pass |
+| deliberation | Pass | Pass | Pass | Pass | Pass |
+| delinquent | Pass | Pass | Pass | Pass | Pass |
+| depreciate | Pass | Pass | Pass | Pass | Pass |
+| detrimental | Pass | Pass | Pass | Pass | Pass |
+| diffuse | Pass | Pass | Pass | Pass | Pass |
+| discern | Pass | Pass | Pass | Pass | Pass |
+| discriminate | Pass | Pass | Pass | Pass | Pass |
+| dismissal | Pass | Pass | Pass | Pass | Pass |
+| dispatch | Pass | Pass | Pass | Pass | Pass |
+| disseminate | Pass | Pass | Pass | Pass | Pass |
+| diverge | Pass | Pass | Pass | Pass | Pass |
+| dweller | Pass | Pass | Pass | Pass | Pass |
+| edict | Pass | Pass | Pass | Pass | Pass |
+| efficacy | Pass | Pass | Pass | Pass | Pass |
+| electorate | Pass | Pass | Pass | Pass | Pass |
+| elite | Pass | Pass | Pass | Pass | Pass |
+| embark | Pass | Pass | Pass | Pass | Pass |
+| emulate | Pass | Pass | Pass | Pass | Pass |
+| enact | Pass | Pass | Pass | Pass | Pass |
+| endeavor | Pass | Pass | Pass | Pass | Pass |
+| endow | Pass | Pass | Pass | Pass | Pass |
+| engender | Pass | Pass | Pass | Pass | Pass |
+| enigma | Pass | Pass | Pass | Pass | Pass |
+| ensue | Pass | Pass | Pass | Pass | Pass |
+| entail | Pass | Pass | Pass | Pass | Pass |
+| epoch | Pass | Pass | Pass | Pass | Pass |
+| equity | Pass | Pass | Pass | Pass | Pass |
+| erratic | Pass | Pass | Pass | Pass | Pass |
+| essence | Pass | Pass | Pass | Pass | Pass |
+| exacerbate | Pass | Pass | Pass | Pass | Pass |
+| excavate | Pass | Pass | Pass | Pass | Pass |
+| exclusive | Pass | Pass | Pass | Pass | Pass |
+| exemplify | Pass | Pass | Pass | Pass | Pass |
+| expedite | Pass | Pass | Pass | Pass | Pass |
+| exponential | Pass | Pass | Pass | Pass | Pass |
+| extravagant | Pass | Pass | Pass | Pass | Pass |
+| facade | Pass | Pass | Pass | Pass | Pass |
+| fathom | Pass | Pass | Pass | Pass | Pass |
+| feat | Pass | Pass | Pass | Pass | Pass |
+| fidelity | Pass | Pass | Pass | Pass | Pass |
+| flora | Pass | Pass | Pass | Pass | Pass |
+| foreclose | Pass | Pass | Pass | Pass | Pass |
+| forthcoming | Pass | Pass | Pass | Pass | Pass |
+| forum | Pass | Pass | Pass | Pass | Pass |
+| foster | Pass | Pass | Pass | Pass | Pass |
+| fugitive | Pass | Pass | Pass | Pass | Pass |
+| futile | Pass | Pass | Pass | Pass | Pass |
+| genesis | Pass | Pass | Pass | Pass | Pass |
+| geopolitical | Pass | Pass | Pass | Pass | Pass |
+| gist | Pass | Pass | Pass | Pass | Pass |
+| grandiose | Pass | Pass | Pass | Pass | Pass |
+| grassroots | Pass | Pass | Pass | Pass | Pass |
+| gratitude | Pass | Pass | Pass | Pass | Pass |
+| gross domestic product | Pass | Pass | Pass | Pass | Pass |
+| groundwater | Pass | Pass | Pass | Pass | Pass |
+| guerrilla | Pass | Pass | Pass | Pass | Pass |
+| habitual | Pass | Pass | Pass | Pass | Pass |
+| hamper | Pass | Pass | Pass | Pass | Pass |
+| harbinger | Pass | Pass | Pass | Pass | Pass |
+| harness | Pass | Pass | Pass | Pass | Pass |
+| haven | Pass | Pass | Pass | Pass | Pass |
+| hazardous | Pass | Pass | Pass | Pass | Pass |
+| hereditary | Pass | Pass | Pass | Pass | Pass |
+| homogeneous | Pass | Pass | Pass | Pass | Pass |
+| humility | Pass | Pass | Pass | Pass | Pass |
+| hybrid | Pass | Pass | Pass | Pass | Pass |
+| hypothetical | Pass | Pass | Pass | Pass | Pass |
+| illicit | Pass | Pass | Pass | Pass | Pass |
+| immerse | Pass | Pass | Pass | Pass | Pass |
+| impair | Pass | Pass | Pass | Pass | Pass |
+| impartial | Pass | Pass | Pass | Pass | Pass |
+| impede | Pass | Pass | Pass | Pass | Pass |
+| implore | Pass | Pass | Pass | Pass | Pass |
+| improvise | Pass | Pass | Pass | Pass | Pass |
+| incite | Pass | Pass | Pass | Pass | Pass |
+| inclusive | Pass | Pass | Pass | Pass | Pass |
+| increment | Pass | Pass | Pass | Pass | Pass |
+| incumbent | Pass | Pass | Pass | Pass | Pass |
+| indiscriminate | Pass | Pass | Pass | Pass | Pass |
+| influx | Pass | Pass | Pass | Pass | Pass |
+| initiation | Pass | Pass | Pass | Pass | Pass |
+| injunction | Pass | Pass | Pass | Pass | Pass |
+| insurgent | Pass | Pass | Pass | Pass | Pass |
+| intermittent | Pass | Pass | Pass | Pass | Pass |
+| invariably | Pass | Pass | Pass | Pass | Pass |
+| irrevocable | Pass | Pass | Pass | Pass | Pass |
+| jeopardize | Pass | Pass | Pass | Pass | Pass |
+| kinship | Pass | Pass | Pass | Pass | Pass |
+| labyrinth | Pass | Pass | Pass | Pass | Pass |
+| lament | Pass | Pass | Pass | Pass | Pass |
+| legacy | Pass | Pass | Pass | Pass | Pass |
+| legislative | Pass | Pass | Pass | Pass | Pass |
+| litigation | Pass | Pass | Pass | Pass | Pass |
+| lobby | Pass | Pass | Pass | Pass | Pass |
+| maiden | Pass | Pass | Pass | Pass | Pass |
+| malfunction | Pass | Pass | Pass | Pass | Pass |
+| maneuver | Pass | Pass | Pass | Pass | Pass |
+| martial | Pass | Pass | Pass | Pass | Pass |
+| meager | Pass | Pass | Pass | Pass | Pass |
+| mercantile | Pass | Pass | Pass | Pass | Pass |
+| pinnacle | Pass | Pass | Pass | Pass | Pass |
+| pious | Pass | Pass | Pass | Pass | Pass |
+| plaintive | Pass | Pass | Pass | Pass | Pass |
+| precept | Pass | Pass | Pass | Pass | Pass |
+| precocious | Pass | Pass | Pass | Pass | Pass |
+| predatory | Pass | Pass | Pass | Pass | Pass |
+| predominate | Pass | Pass | Pass | Pass | Pass |
+| premonition | Pass | Pass | Pass | Pass | Pass |
+| preposterous | Pass | Pass | Pass | Pass | Pass |
+| pretentious | Pass | Pass | Pass | Pass | Pass |
+| pristine | Pass | Pass | Pass | Pass | Pass |
+| profuse | Pass | Pass | Pass | Pass | Pass |
+| prognosis | Pass | Pass | Pass | Pass | Pass |
+| prolific | Pass | Pass | Pass | Pass | Pass |
+| protract | Pass | Pass | Pass | Pass | Pass |
+| rampant | Pass | Pass | Pass | Pass | Pass |
+| raucous | Pass | Pass | Pass | Pass | Pass |
+| raze | Pass | Pass | Pass | Pass | Pass |
+| rebuff | Pass | Pass | Pass | Pass | Pass |
+| recourse | Pass | Pass | Pass | Pass | Pass |
+| rectify | Pass | Pass | Pass | Pass | Pass |
+| regimen | Pass | Pass | Pass | Pass | Pass |
+| relentless | Pass | Pass | Pass | Pass | Pass |
+| renegade | Pass | Pass | Pass | Pass | Pass |
+| repertoire | Pass | Pass | Pass | Pass | Pass |
+| reprove | Pass | Pass | Pass | Pass | Pass |
+| repugnant | Pass | Pass | Pass | Pass | Pass |
+| resonate | Pass | Pass | Pass | Pass | Pass |
+| reticent | Pass | Pass | Pass | Pass | Pass |
+| riveting | Pass | Pass | Pass | Pass | Pass |
+| rudiment | Pass | Pass | Pass | Pass | Pass |
+| scathing | Pass | Pass | Pass | Pass | Pass |
+| seclusion | Pass | Pass | Pass | Pass | Pass |
+| semantic | Pass | Pass | Pass | Pass | Pass |
+| sentinel | Pass | Pass | Pass | Pass | Pass |
+| shrewd | Pass | Pass | Pass | Pass | Pass |
+| sluggish | Pass | Pass | Pass | Pass | Pass |
+| sober | Pass | Pass | Pass | Pass | Pass |
+| solitude | Pass | Pass | Pass | Pass | Pass |
+| solvent | Pass | Pass | Pass | Pass | Pass |
+| sordid | Pass | Pass | Pass | Pass | Pass |
+| spawn | Pass | Pass | Pass | Pass | Pass |
+| steadfast | Pass | Pass | Pass | Pass | Pass |
+| stigma | Pass | Pass | Pass | Pass | Pass |
+| stoic | Pass | Pass | Pass | Pass | Pass |
+| stratagem | Pass | Pass | Pass | Pass | Pass |
+| sublime | Pass | Pass | Pass | Pass | Pass |
+| succumb | Pass | Pass | Pass | Pass | Pass |
+| superficial | Pass | Pass | Pass | Pass | Pass |
+| supplant | Pass | Pass | Pass | Pass | Pass |
+| susceptible | Pass | Pass | Pass | Pass | Pass |
+| symposium | Pass | Pass | Pass | Pass | Pass |
+| tacit | Pass | Pass | Pass | Pass | Pass |
+| taciturn | Pass | Pass | Pass | Pass | Pass |
+| tact | Pass | Pass | Pass | Pass | Pass |
+| temperate | Pass | Pass | Pass | Pass | Pass |
+| tenacious | Pass | Pass | Pass | Pass | Pass |
+| tout | Pass | Pass | Pass | Pass | Pass |
+| transgress | Pass | Pass | Pass | Pass | Pass |
+| trite | Pass | Pass | Pass | Pass | Pass |
+| turmoil | Pass | Pass | Pass | Pass | Pass |
+| ulterior | Pass | Pass | Pass | Pass | Pass |
+| unabated | Pass | Pass | Pass | Pass | Pass |
+| unassuming | Pass | Pass | Pass | Pass | Pass |
+| underscore | Pass | Pass | Pass | Pass | Pass |
+| unfettered | Pass | Pass | Pass | Pass | Pass |
+| unobtrusive | Pass | Pass | Pass | Pass | Pass |
+| unorthodox | Pass | Pass | Pass | Pass | Pass |
+| untenable | Pass | Pass | Pass | Pass | Pass |
+| unwitting | Pass | Pass | Pass | Pass | Pass |

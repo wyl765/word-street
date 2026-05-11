@@ -1,319 +1,319 @@
-# VERIFY-GEMINI-words-level3b.js-GATE
+# Gemini Verification Report: words-level3b.js
 
-| Word | L9: imageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat |
-|---|---|---|---|---|
-| organism | PASS: tiny living thing represents the concept well. | PASS: Definition "any living thing, like a plant or animal" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| evaporation | PASS: puddle sun represents the concept well. | PASS: Definition "the process of water turning into gas and going into the air" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| condensation | PASS: foggy glass represents the concept well. | PASS: Definition "the process of water vapor turning back into liquid drops" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| precipitation | PASS: rain clouds represents the concept well. | PASS: Definition "water that falls from clouds as rain, snow, or hail" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| atmosphere | PASS: earth atmosphere represents the concept well. | PASS: Definition "the air that surrounds the Earth" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| nutrient | PASS: plant roots soil represents the concept well. | PASS: Definition "something in food or soil that helps living things grow" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| photosynthesis | PASS: leaf sunlight represents the concept well. | PASS: Definition "how plants use light from the sun to make their own food" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| pollination | PASS: bee flower represents the concept well. | PASS: Definition "the movement of the yellow dust on flowers from one flower to another so seeds can form" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| germinate | PASS: seed sprouting represents the concept well. | PASS: Definition "to start growing from a seed into a plant" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| larva | PASS: caterpillar represents the concept well. | PASS: Definition "the baby form of an insect before it becomes an adult" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| metamorphosis | PASS: tadpole frog represents the concept well. | PASS: Definition "the big change some animals go through as they grow up" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| camouflage | PASS: camouflage lizard represents the concept well. | PASS: Definition "colors or patterns that help an animal hide" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| migration | PASS: geese flying represents the concept well. | PASS: Definition "the long trip animals make to find food or warmer weather" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| hibernation | PASS: bear sleeping represents the concept well. | PASS: Definition "a deep sleep some animals take during winter" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| adaptation | PASS: camel desert represents the concept well. | PASS: Definition "a change that helps a living thing survive" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| ecosystem | PASS: pond ecosystem represents the concept well. | PASS: Definition "all the living and not alive things in one spot" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| solar | PASS: solar panel sun represents the concept well. | PASS: Definition "powered by or coming from the sun" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| lunar | PASS: moon eclipse represents the concept well. | PASS: Definition "about the moon or caused by it" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| friction | PASS: shoes floor represents the concept well. | PASS: Definition "the force that slows things down when they rub together" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| electricity | PASS: light bulb represents the concept well. | PASS: Definition "a form of life and power that powers lights and machines" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| circuit | PASS: electric circuit represents the concept well. | PASS: Definition "a path that power follows in a loop" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| conductor | PASS: copper wire represents the concept well. | PASS: Definition "a material that lets electricity or heat pass through" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| insulator | PASS: rubber gloves represents the concept well. | PASS: Definition "a material that blocks electricity or heat" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| microscope | PASS: scientist using microscope represents the concept well. | PASS: Definition "a tool that makes very tiny things look bigger" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dissolve | PASS: sugar water represents the concept well. | PASS: Definition "to mix completely into a liquid and disappear" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| mass | PASS: rock feather represents the concept well. | PASS: Definition "how much matter is in an object" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| renewable | PASS: wind turbine represents the concept well. | PASS: Definition "something that can be used again and again without running out" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| nonrenewable | PASS: oil well represents the concept well. | PASS: Definition "something that will run out and cannot be replaced" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| pollution | PASS: factory smoke represents the concept well. | PASS: Definition "harmful things that make air, water, or land dirty" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| conservation | PASS: turn off light represents the concept well. | PASS: Definition "protecting nature and using things you can use with care" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| vertebrate | PASS: dog skeleton represents the concept well. | PASS: Definition "an animal that has a the bones down your back" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| invertebrate | PASS: jellyfish represents the concept well. | PASS: Definition "an animal that does not have a the bones down your back" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| chrysalis | PASS: butterfly chrysalis on branch represents the concept well. | PASS: Definition "the hard shell a caterpillar makes before becoming a butterfly" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| decompose | PASS: rotting leaves represents the concept well. | PASS: Definition "to break down into smaller pieces and rot" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| telescope | PASS: telescope moon represents the concept well. | PASS: Definition "a tool that makes faraway things look closer" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| rotation | PASS: earth spinning represents the concept well. | PASS: Definition "spinning around in a circle" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| constellation | PASS: orion constellation represents the concept well. | PASS: Definition "a group of stars that form a picture in the sky" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| volcano | PASS: volcano erupting represents the concept well. | PASS: Definition "a mountain that can shoot out hot melted rock" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| earthquake | PASS: earthquake cracked road represents the concept well. | PASS: Definition "a shaking of the ground caused by rocks moving underground" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| weathering | PASS: smooth rocks represents the concept well. | PASS: Definition "the process of rocks breaking down because of wind, water, or ice over time" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| tide | PASS: high tide beach represents the concept well. | PASS: Definition "the rise and fall of ocean water each day" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| classify | PASS: animal groups represents the concept well. | PASS: Definition "to sort things into groups based on how they are the same" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| cell | PASS: animal cell diagram represents the concept well. | PASS: Definition "the very smallest building block of all living things" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| carbon dioxide | PASS: plant breathing represents the concept well. | PASS: Definition "a gas that animals breathe out and plants take in" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| sediment | PASS: river sediment represents the concept well. | PASS: Definition "tiny bits of rock, sand, or dirt that settle at the bottom of water" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| geography | PASS: map globe represents the concept well. | PASS: Definition "the study of Earth's land, water, and people" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| peninsula | PASS: peninsula coastline aerial represents the concept well. | PASS: Definition "land that has water on three sides" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| urban | PASS: city skyline represents the concept well. | PASS: Definition "relating to a city or the busy areas where many people live and work" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| rural | PASS: farm countryside represents the concept well. | PASS: Definition "in or about the countryside, far from cities" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| suburban | PASS: suburb houses represents the concept well. | PASS: Definition "an area between a city and the countryside" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| civilization | PASS: pyramids represents the concept well. | PASS: Definition "a large group of people with cities, writing, and laws" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| artifact | PASS: old pottery represents the concept well. | PASS: Definition "an old object made by people long ago" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| agriculture | PASS: farm field represents the concept well. | PASS: Definition "growing crops and raising animals for food" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| industry | PASS: car factory represents the concept well. | PASS: Definition "businesses that make or sell things" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| technology | PASS: computer represents the concept well. | PASS: Definition "tools and machines that help people solve problems" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| governor | PASS: governor speaking podium represents the concept well. | PASS: Definition "the person in charge of a state or a part of a country in a country" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| justice | PASS: scales justice represents the concept well. | PASS: Definition "treating people fairly and following the rules" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| monument | PASS: monument statue represents the concept well. | PASS: Definition "a building or statue made to recall someone or something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| landmark | PASS: statue of liberty represents the concept well. | PASS: Definition "a known by many people place that people know and visit" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| capital | PASS: capital city government represents the concept well. | PASS: Definition "the city where a country or state's government works" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| timeline | PASS: history timeline chart represents the concept well. | PASS: Definition "a line that shows events in the order they happened" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| treaty | PASS: handshake nations represents the concept well. | PASS: Definition "an agreement between countries to stop fighting and keep peace" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| irrigation | PASS: irrigation field represents the concept well. | PASS: Definition "bringing water to crops through long, round tubes or channels" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| barter | PASS: trading goods represents the concept well. | PASS: Definition "to trade things without using money" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| goods | PASS: market goods represents the concept well. | PASS: Definition "things that people make or grow to sell" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| services | PASS: doctor patient represents the concept well. | PASS: Definition "work that people do for others, like teaching or fixing things" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| petition | PASS: signed letter represents the concept well. | PASS: Definition "a letter signed by many people asking for a change" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| numerator | PASS: fraction top represents the concept well. | PASS: Definition "the top number in a small part of something that tells how many parts you have" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| denominator | PASS: fraction bottom represents the concept well. | PASS: Definition "the bottom number in a small part of something that tells how many equal parts there are" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| equivalent | PASS: equal fractions represents the concept well. | PASS: Definition "equal in value even if it looks different" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| multiple | PASS: skip counting represents the concept well. | PASS: Definition "the result of multiplying a number by any whole number" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| perimeter | PASS: fence garden represents the concept well. | PASS: Definition "the total distance around the outside of a shape" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| array | PASS: desk rows represents the concept well. | PASS: Definition "objects arranged in equal rows and columns" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| symmetry | PASS: butterfly symmetry represents the concept well. | PASS: Definition "the how good something is of having two sides that look the same" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| parallel | PASS: parallel lines represents the concept well. | PASS: Definition "lines that go the same way and never touch" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| perpendicular | PASS: right angle corner represents the concept well. | PASS: Definition "lines that cross and make a square corner" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| vertex | PASS: triangle corners represents the concept well. | PASS: Definition "the point where two lines or edges meet" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| polygon | PASS: hexagon represents the concept well. | PASS: Definition "a flat shape with straight sides" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| quadrilateral | PASS: four sided shapes represents the concept well. | PASS: Definition "a shape with exactly four straight sides" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| diameter | PASS: circle diameter represents the concept well. | PASS: Definition "a straight line that goes across a circle through the center" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| radius | PASS: circle radius represents the concept well. | PASS: Definition "a straight line from the center of a circle to the edge" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gram | PASS: paper clip scale represents the concept well. | PASS: Definition "a small unit for measuring how heavy something is" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| kilogram | PASS: sugar bag scale represents the concept well. | PASS: Definition "a unit of weight equal to 1000 grams" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| liter | PASS: milk bottle represents the concept well. | PASS: Definition "a unit for measuring how much liquid there is" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| centimeter | PASS: ruler centimeter represents the concept well. | PASS: Definition "a small unit for measuring how long something is about the how wide something is of a fingertip" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| meter | PASS: door measurement represents the concept well. | PASS: Definition "a unit of how long something is a bit longer than a big step, used to measure rooms and distances" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| kilometer | PASS: road distance represents the concept well. | PASS: Definition "a unit of distance equal to 1000 meters" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| vertical | PASS: flagpole represents the concept well. | PASS: Definition "going straight up and down, like a standing long stick" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| elapsed | PASS: clock time represents the concept well. | PASS: Definition "the amount of time that has passed" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| commutative | PASS: switch numbers represents the concept well. | PASS: Definition "able to be switched in order and still give the same answer" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| associative | PASS: grouping numbers represents the concept well. | PASS: Definition "able to be grouped differently and still give the same answer" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| distributive | PASS: break apart multiply represents the concept well. | PASS: Definition "able to be spread across adding inside a multiplication" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| inverse | PASS: opposite arrows represents the concept well. | PASS: Definition "the opposite operation that takes back what was done another" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| variable | PASS: letter n math represents the concept well. | PASS: Definition "a letter or symbol that stands for a number you don't know yet" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| expression | PASS: math expression represents the concept well. | PASS: Definition "a group of numbers and symbols that shows a value but has no equal sign" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| operation | PASS: plus minus signs represents the concept well. | PASS: Definition "a working with numbers action like adding or taking away" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| congruent | PASS: matching triangles represents the concept well. | PASS: Definition "exactly the same shape and size" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| unit | PASS: measuring units represents the concept well. | PASS: Definition "a standard amount used to measure things" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| composite | PASS: factor tree represents the concept well. | PASS: Definition "a number that can be split evenly by numbers other than 1 and itself" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| prime | PASS: prime numbers chart represents the concept well. | PASS: Definition "a number that can only be split evenly by 1 and itself" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| intersect | PASS: crossing roads represents the concept well. | PASS: Definition "to cross or meet at a point" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| probability | PASS: coin flip represents the concept well. | PASS: Definition "how likely something is to happen" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| break the ice | PASS: icebreaker represents the concept well. | PASS: Definition "to do something to make people feel less shy" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| piece of cake | PASS: easy cake represents the concept well. | PASS: Definition "something that is very easy to do, not hard at all" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| under the weather | PASS: sick person represents the concept well. | PASS: Definition "feeling sick or not well" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| hit the books | PASS: studying hard represents the concept well. | PASS: Definition "to start studying hard" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| on the same page | PASS: agreement represents the concept well. | PASS: Definition "to agree or understand the same thing" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| cost an arm and a leg | PASS: expensive price represents the concept well. | PASS: Definition "to be very costs a lot of money, costing a lot of money" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| let the cat out of the bag | PASS: secret revealed represents the concept well. | PASS: Definition "to by mistake reveal a secret" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| bite off more than you can chew | PASS: overwhelmed represents the concept well. | PASS: Definition "to try to do more than you can handle" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| once in a blue moon | PASS: blue moon represents the concept well. | PASS: Definition "very rarely, almost never" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| when pigs fly | PASS: flying pig represents the concept well. | PASS: Definition "something that will never happen" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| spill the beans | PASS: spilling beans represents the concept well. | PASS: Definition "to tell a secret that you were supposed to keep" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| raining cats and dogs | PASS: heavy rain represents the concept well. | PASS: Definition "raining very hard" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| butterflies in my stomach | PASS: nervous feeling represents the concept well. | PASS: Definition "feeling nervous or excited" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| the ball is in your court | PASS: tennis court represents the concept well. | PASS: Definition "your turn to make a what you pick after thinking or act" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| barking up the wrong tree | PASS: dog tree represents the concept well. | PASS: Definition "looking for something in the wrong place or saying someone did it the wrong person" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| hold your horses | PASS: patient waiting represents the concept well. | PASS: Definition "wait and be patient" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| two peas in a pod | PASS: pea pod represents the concept well. | PASS: Definition "two people who are very the same" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| a blessing in disguise | PASS: hidden gift represents the concept well. | PASS: Definition "something bad that turns out to be good" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| get cold feet | PASS: scared diving board represents the concept well. | PASS: Definition "to become too scared to do something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| go the extra mile | PASS: extra effort represents the concept well. | PASS: Definition "to try harder than expected" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| keep an eye on | PASS: watching carefully represents the concept well. | PASS: Definition "to watch for a while to make sure things are all right" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| the last straw | PASS: straw camel represents the concept well. | PASS: Definition "the final hard question that makes someone lose patience" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| sit on the fence | PASS: fence undecided represents the concept well. | PASS: Definition "to not make a what you pick after thinking between two things you can pick" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| see eye to eye | PASS: agreement eyes represents the concept well. | PASS: Definition "to agree with someone" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| back to square one | PASS: start over represents the concept well. | PASS: Definition "to start over from the beginning" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| put all your eggs in one basket | PASS: eggs basket represents the concept well. | PASS: Definition "to risk everything on one plan" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| pull someone's leg | PASS: joking represents the concept well. | PASS: Definition "to joke with someone or trick them in a fun, silly way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| throw in the towel | PASS: giving up represents the concept well. | PASS: Definition "to give up and stop trying to do something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| on cloud nine | PASS: very happy represents the concept well. | PASS: Definition "feeling very happy and full of joy" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| in hot water | PASS: trouble represents the concept well. | PASS: Definition "in trouble or in a difficult spot" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| come up with | PASS: idea lightbulb represents the concept well. | PASS: Definition "to think of an idea or plan" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| turn out | PASS: surprise ending represents the concept well. | PASS: Definition "to end up being a certain way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| run out of | PASS: empty carton represents the concept well. | PASS: Definition "to use up all of something so none is left" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| get along with | PASS: friends together represents the concept well. | PASS: Definition "to have a good friendly a tie between people with someone" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| carry on | PASS: keep going represents the concept well. | PASS: Definition "to keep going or keep on doing something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| stand for | PASS: initials meaning represents the concept well. | PASS: Definition "to represent or mean something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| take part in | PASS: participating represents the concept well. | PASS: Definition "to join and do an something you do with others" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| go over | PASS: reviewing represents the concept well. | PASS: Definition "to review or check something again" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| a penny for your thoughts | PASS: thinking person represents the concept well. | PASS: Definition "asking someone what they are thinking about" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| actions speak louder than words | PASS: helping hands represents the concept well. | PASS: Definition "what you do matters more than what you say" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| every cloud has a silver lining | PASS: silver cloud represents the concept well. | PASS: Definition "there is something good in every bad case" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| kill two birds with one stone | PASS: multitasking efficiency represents the concept well. | PASS: Definition "to solve two problems with one action" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| better late than never | PASS: returning late represents the concept well. | PASS: Definition "better to do something late than not at all" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| practice makes perfect | PASS: piano practice represents the concept well. | PASS: Definition "doing something many times helps you get better at it" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| the early bird catches the worm | PASS: early bird represents the concept well. | PASS: Definition "people who start early have an advantage" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| don't judge a book by its cover | PASS: surprise inside represents the concept well. | PASS: Definition "don't decide about something just by how it looks" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| hit the nail on the head | PASS: bullseye represents the concept well. | PASS: Definition "to say something that is exactly right" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| a taste of your own medicine | PASS: mirror treatment represents the concept well. | PASS: Definition "being treated the same bad way you treated others" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| burn the midnight oil | PASS: late night studying represents the concept well. | PASS: Definition "to stay up very late working or studying" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| on the other hand | PASS: two sides represents the concept well. | PASS: Definition "looking at it a different way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| subsequently | PASS: next step represents the concept well. | PASS: Definition "after that; happening next in order" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| for example | PASS: lemon example represents the concept well. | PASS: Definition "used to give one case that explains your point" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| to begin with | PASS: first thing represents the concept well. | PASS: Definition "first; the first reason" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| above all | PASS: gold number one trophy represents the concept well. | PASS: Definition "most importantly; more than anything else" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| as soon as | PASS: bell ringing represents the concept well. | PASS: Definition "right when something happens" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| rather than | PASS: choosing walk represents the concept well. | PASS: Definition "instead of; in place of something else" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| so that | PASS: alarm clock represents the concept well. | PASS: Definition "in order to; for the purpose of" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| prior to | PASS: before test represents the concept well. | PASS: Definition "before something happens; earlier than" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| to summarize | PASS: summary list represents the concept well. | PASS: Definition "to say the main points in a short way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| first of all | PASS: first step represents the concept well. | PASS: Definition "the first point or step" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| to illustrate | PASS: robin nest represents the concept well. | PASS: Definition "to show what you mean with an example" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| in brief | PASS: short version represents the concept well. | PASS: Definition "in a few words; shortly" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| soon after | PASS: rainbow after rain represents the concept well. | PASS: Definition "a short time later" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| not only...but also | PASS: double qualities represents the concept well. | PASS: Definition "used to add a second thing that is also true" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| whereas | PASS: summer winter represents the concept well. | PASS: Definition "while on the other hand; but" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| thus | PASS: indoor result represents the concept well. | PASS: Definition "because of this; so, as a result" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| granted | PASS: admitting point represents the concept well. | PASS: Definition "admitting that something is true before making one more point" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| to put it simply | PASS: simple explanation represents the concept well. | PASS: Definition "to say something without much work" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dodder | PASS: unsteady walk represents the concept well. | PASS: Definition "to walk in a shaky, unsteady way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dogma | PASS: strict rules represents the concept well. | PASS: Definition "a set of ideas about what is right that a group says must be accepted as true" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| doldrums | PASS: bored child represents the concept well. | PASS: Definition "a state of feeling bored and not wanting to do anything" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dole | PASS: handing out represents the concept well. | PASS: Definition "to give out small amounts of something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dolt | PASS: confused person represents the concept well. | PASS: Definition "a person who is slow to understand things" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| donjon | PASS: castle tower represents the concept well. | PASS: Definition "the strongest tower inside a castle" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dosage | PASS: medicine spoon represents the concept well. | PASS: Definition "the amount of medicine to take at one time" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dote | PASS: loving grandma represents the concept well. | PASS: Definition "to show a lot of love and attention" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dowel | PASS: wooden dowel represents the concept well. | PASS: Definition "a thin round stick of wood used to join pieces together" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| downpour | PASS: sudden rainstorm represents the concept well. | PASS: Definition "a sudden heavy rain" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| drab | PASS: gray room represents the concept well. | PASS: Definition "dull and not interesting to look at" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dragnet | PASS: police search represents the concept well. | PASS: Definition "a wide search over a large area" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| drape | PASS: draped blanket represents the concept well. | PASS: Definition "to hang cloth loosely over something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dreary | PASS: gray cloudy sky represents the concept well. | PASS: Definition "dull, dark, and making you feel sad" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| drench | PASS: soaking wet kids represents the concept well. | PASS: Definition "to make completely wet" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| drizzle | PASS: light rain represents the concept well. | PASS: Definition "light, gentle rain" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| drone | PASS: flying drone represents the concept well. | PASS: Definition "a flying machine with no pilot inside, or a low humming sound" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| droop | PASS: wilting flowers represents the concept well. | PASS: Definition "to hang down loosely because of weakness" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dub | PASS: giving nickname represents the concept well. | PASS: Definition "to give someone a name or title" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dugout | PASS: baseball dugout represents the concept well. | PASS: Definition "a shelter dug into the ground, or a bench area for a sports team" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dungeon | PASS: dark dungeon represents the concept well. | PASS: Definition "a dark underground prison in a castle" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dye | PASS: dyed eggs represents the concept well. | PASS: Definition "a stuff used to change the color of something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| dike | PASS: river wall represents the concept well. | PASS: Definition "a thick wall built to hold back water" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| earmark | PASS: saving money represents the concept well. | PASS: Definition "to set something apart for a special purpose" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| earthy | PASS: forest soil represents the concept well. | PASS: Definition "smelling or looking like soil or the ground" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| eave | PASS: roof edge represents the concept well. | PASS: Definition "the edge of a top that sticks out beyond the wall" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| ebony | PASS: black piano keys represents the concept well. | PASS: Definition "a very dark, almost black wood or color" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| effervescent | PASS: fizzy soda represents the concept well. | PASS: Definition "full of bubbles; happy and having many tiny bubbles, or lively and cheerful" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| effigy | PASS: stone statue represents the concept well. | PASS: Definition "a model or sculpture of a person" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| egress | PASS: exit door represents the concept well. | PASS: Definition "a way out; an the way out" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| elapse | PASS: passing time represents the concept well. | PASS: Definition "for time to pass by" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| elate | PASS: celebrating win represents the concept well. | PASS: Definition "to make someone very happy and excited" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| elf | PASS: fairy tale elf represents the concept well. | PASS: Definition "a small magical creature in fairy tales" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| elocution | PASS: public speaking represents the concept well. | PASS: Definition "the what you can do of speaking clearly and well" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| elongate | PASS: stretching taffy represents the concept well. | PASS: Definition "to make something longer or stretch it out" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| elude | PASS: fox escaping represents the concept well. | PASS: Definition "to escape or avoid being caught" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| emboss | PASS: raised letters represents the concept well. | PASS: Definition "to press a raised design into a outside part" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| emporium | PASS: big toy store represents the concept well. | PASS: Definition "a large store that sells many different things" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| enamel | PASS: tooth enamel represents the concept well. | PASS: Definition "a hard, shiny coating on teeth or outside parts" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| encore | PASS: audience cheering represents the concept well. | PASS: Definition "an extra performance after the main show ends" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| encrust | PASS: encrusted ship represents the concept well. | PASS: Definition "to cover a outside part with a hard layer" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| encyclopedia | PASS: encyclopedia books represents the concept well. | PASS: Definition "a book or set of books with information on many subjects" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| engross | PASS: reading deeply represents the concept well. | PASS: Definition "to hold another person's focus all the way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| enshroud | PASS: foggy valley represents the concept well. | PASS: Definition "to cover or hide something completely" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| enthrall | PASS: captivated children represents the concept well. | PASS: Definition "to capture another person's focus and fascinate them" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| entreat | PASS: pleading person represents the concept well. | PASS: Definition "to to ask again and again someone with strong feeling" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| epic | PASS: epic adventure represents the concept well. | PASS: Definition "very grand and impressive, or a long the brave person's story" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| errand | PASS: shopping errand represents the concept well. | PASS: Definition "a short trip to do a task, like buying something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| errant | PASS: stray ball represents the concept well. | PASS: Definition "going the wrong way or acting wrongly" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| escarpment | PASS: steep cliff represents the concept well. | PASS: Definition "a long, steep cliff or slope" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| ethereal | PASS: dreamy floating dancer represents the concept well. | PASS: Definition "light, delicate, and almost too nice for this world" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| evergreen | PASS: evergreen forest represents the concept well. | PASS: Definition "a tree or small thick plant that keeps its green leaves all year" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| expanse | PASS: vast field represents the concept well. | PASS: Definition "a wide, open area" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| expat | PASS: living abroad represents the concept well. | PASS: Definition "a person living outside their home country" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| expel | PASS: whale spout blowhole represents the concept well. | PASS: Definition "to force someone or something out" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| eyelet | PASS: shoe eyelet represents the concept well. | PASS: Definition "a small hole in fabric or leather for a lace to pass through" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| facet | PASS: diamond facet represents the concept well. | PASS: Definition "one side or aspect of something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fallow | PASS: empty field represents the concept well. | PASS: Definition "land where food is grown left not planted for a season to rest the soil" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| falter | PASS: shaky voice represents the concept well. | PASS: Definition "to become weak or unsteady" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fanfare | PASS: trumpet fanfare represents the concept well. | PASS: Definition "a short, loud burst of music, or a big showy welcome" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| farce | PASS: funny play represents the concept well. | PASS: Definition "a funny play based on silly, probably will not happen events" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| feign | PASS: pretending surprise represents the concept well. | PASS: Definition "to pretend to feel something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| festoon | PASS: decorated room represents the concept well. | PASS: Definition "to to make something look nice with strings of flowers, lights, or ribbons" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fidget | PASS: restless child represents the concept well. | PASS: Definition "to make small, restless movements" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fiesta | PASS: festival party represents the concept well. | PASS: Definition "a lively festival or celebration, often with music and dancing" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| figment | PASS: imaginary monster represents the concept well. | PASS: Definition "something made up in your mind that is not real" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| filly | PASS: young horse represents the concept well. | PASS: Definition "a young female horse" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| finale | PASS: fireworks finale represents the concept well. | PASS: Definition "the last part of a show or event" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| finesse | PASS: skillful chef represents the concept well. | PASS: Definition "great what you can do and grace in handling something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flair | PASS: stylish design represents the concept well. | PASS: Definition "a natural talent or looking very nice and new way of doing things" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flak | PASS: criticism anger represents the concept well. | PASS: Definition "strong criticism" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flank | PASS: mountainside deer represents the concept well. | PASS: Definition "the side of something, like a body or army" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flaw | PASS: small crack represents the concept well. | PASS: Definition "a small hard question or weakness" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fleece | PASS: sheep wool represents the concept well. | PASS: Definition "the soft and thick like soft, thick hair from sheep coat of a sheep" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flicker | PASS: flickering candle represents the concept well. | PASS: Definition "to shine with an unsteady, quick light" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flinch | PASS: dodging ball represents the concept well. | PASS: Definition "to make a quick movement away because of pain or fear" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flotsam | PASS: beach debris represents the concept well. | PASS: Definition "broken parts left over or cargo floating on the sea after a ship that broke apart" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flounce | PASS: stomping away represents the concept well. | PASS: Definition "to move in an exaggerated, angry way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flout | PASS: speeding car represents the concept well. | PASS: Definition "to openly disobey a rule or law" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flue | PASS: chimney flue represents the concept well. | PASS: Definition "a long, round tube inside a chimney that lets smoke escape" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fluent | PASS: speaking fluently represents the concept well. | PASS: Definition "able to speak or write a language without much work and well" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| flurry | PASS: snow flurry represents the concept well. | PASS: Definition "a sudden burst of snow, wind, or something you do" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| foothold | PASS: climbing foothold represents the concept well. | PASS: Definition "a safe place to put your foot when climbing" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| foray | PASS: first attempt represents the concept well. | PASS: Definition "a quick trip into a new or not safe area" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| ford | PASS: river crossing represents the concept well. | PASS: Definition "a shallow place where you can walk or drive across a river" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| forlorn | PASS: sad puppy represents the concept well. | PASS: Definition "looking sad and lonely" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| forsake | PASS: never giving up represents the concept well. | PASS: Definition "to leave or give up something you care about" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fort | PASS: blanket fort represents the concept well. | PASS: Definition "a strong building made to defend against attacks" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| forte | PASS: talented singer represents the concept well. | PASS: Definition "something a person does very well" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fortress | PASS: stone fortress represents the concept well. | PASS: Definition "a very large, with a lot of weight defended place with thick walls and towers" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fowl | PASS: farm chickens represents the concept well. | PASS: Definition "birds, especially those kept for eggs or meat" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| foyer | PASS: theater entrance represents the concept well. | PASS: Definition "the way in hall of a building" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| frantic | PASS: panicked search represents the concept well. | PASS: Definition "wildly worried and rushing around" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| frigate | PASS: warship frigate represents the concept well. | PASS: Definition "a fast a ship that fights used in old naval battles" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fringe | PASS: fringed lampshade represents the concept well. | PASS: Definition "the edge of something, or a made to look nice border of threads" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| frolic | PASS: puppies playing represents the concept well. | PASS: Definition "to play and run around in a happy way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| froth | PASS: bubbly foam represents the concept well. | PASS: Definition "a mass of tiny bubbles covering a liquid" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fulcrum | PASS: lever fulcrum represents the concept well. | PASS: Definition "the point on which a lever rests and turns around one point" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| foresee | PASS: crystal ball prediction represents the concept well. | PASS: Definition "to know or guess that something will happen before it does" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| fumigate | PASS: pest control represents the concept well. | PASS: Definition "to use smoke or gas to kill insects or germs" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| furlong | PASS: horse race represents the concept well. | PASS: Definition "a unit of distance equal to one part out of eight of a mile" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| furor | PASS: excited crowd represents the concept well. | PASS: Definition "an outburst of a mad feeling or a strong, happy feeling" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gable | PASS: house gable represents the concept well. | PASS: Definition "the triangular part of a wall between the edges of a sloping top" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gadget | PASS: small tool represents the concept well. | PASS: Definition "a small, clever tool or tool" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gaffe | PASS: embarrassing mistake represents the concept well. | PASS: Definition "an embarrassing mistake, especially in public" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gait | PASS: horse walking represents the concept well. | PASS: Definition "the way a person or animal walks" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gallop | PASS: horse galloping represents the concept well. | PASS: Definition "the fastest speed a horse can run" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gambit | PASS: clever plan represents the concept well. | PASS: Definition "a clever move or plan, especially at the start" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gambol | PASS: lambs jumping represents the concept well. | PASS: Definition "to jump and skip around in a happy, playful way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| garb | PASS: costume clothing represents the concept well. | PASS: Definition "clothing, especially of a certain kind" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| garland | PASS: flower garland represents the concept well. | PASS: Definition "a ring or string of flowers or leaves used as decoration" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| garner | PASS: earning praise represents the concept well. | PASS: Definition "to collect or gather something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gem | PASS: precious gem represents the concept well. | PASS: Definition "a precious stone, or something very special" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| genteel | PASS: polite manners represents the concept well. | PASS: Definition "kind and good, refined, and acting in a kind way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| ghastly | PASS: scary mask represents the concept well. | PASS: Definition "very ugly or frightening" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| giddy | PASS: excited children represents the concept well. | PASS: Definition "feeling dizzy and silly with joy" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| girdle | PASS: leather waist belt represents the concept well. | PASS: Definition "a belt or band worn around the waist" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| glade | PASS: forest clearing represents the concept well. | PASS: Definition "a small open area in a forest" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| glaze | PASS: glazed donuts represents the concept well. | PASS: Definition "a thin, shiny coating on things made from clay or food" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gleam | PASS: lighthouse gleam represents the concept well. | PASS: Definition "a soft, steady light or shine" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| glen | PASS: valley stream represents the concept well. | PASS: Definition "a narrow valley, often with a stream" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| glimmer | PASS: moonlight glow represents the concept well. | PASS: Definition "a faint or flickering light" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| glint | PASS: light flash represents the concept well. | PASS: Definition "a tiny flash of light" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| glitch | PASS: computer error represents the concept well. | PASS: Definition "a small hard question, especially with a machine or plan" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gloat | PASS: smug winner represents the concept well. | PASS: Definition "to feel smug a good, happy feeling about your own win or someone other person's failure" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| glut | PASS: too many tomatoes represents the concept well. | PASS: Definition "too much of something, more than is needed" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gnaw | PASS: puppy chewing represents the concept well. | PASS: Definition "to keep biting on something" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| goblet | PASS: golden goblet represents the concept well. | PASS: Definition "a tall drinking cup with a stem" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gouge | PASS: deep scratch represents the concept well. | PASS: Definition "to dig or scoop out roughly" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| graft | PASS: plant grafting represents the concept well. | PASS: Definition "to attach a piece of one plant onto another so it grows" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| graze | PASS: cows grazing represents the concept well. | PASS: Definition "to eat grass, or to scrape lightly" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| greenery | PASS: green plants represents the concept well. | PASS: Definition "green plants and leaves" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gregarious | PASS: social person represents the concept well. | PASS: Definition "loving to be around other people" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| grid | PASS: grid paper represents the concept well. | PASS: Definition "a pattern of lines crossing each other to form squares" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| grimace | PASS: sour face represents the concept well. | PASS: Definition "a twisted look on your face showing pain or disgust" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| grindstone | PASS: grinding wheel represents the concept well. | PASS: Definition "a flat round stone used for making sharper tools" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| grit | PASS: determined runner represents the concept well. | PASS: Definition "tiny bits of sand or stone, or courage and strong will" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| grotto | PASS: sea cave represents the concept well. | PASS: Definition "a small cave, often pretty or interesting" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| grovel | PASS: kneeling begging represents the concept well. | PASS: Definition "to crawl on the ground, or to to ask again and again in a humiliating way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| grueling | PASS: exhausting hike represents the concept well. | PASS: Definition "very tiring and hard" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| grumble | PASS: complaining represents the concept well. | PASS: Definition "to complain in a quiet, unhappy way" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| gulp | PASS: drinking fast represents the concept well. | PASS: Definition "to swallow something quickly or to swallow nervously" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| hackneyed | PASS: overused words represents the concept well. | PASS: Definition "used so often that it is no longer fresh or original" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| hallow | PASS: sacred ground represents the concept well. | PASS: Definition "to make something very special to God or very special and very special to God" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
-| hamlet | PASS: small village represents the concept well. | PASS: Definition "a very small village" is factually accurate for a 10yo. | PASS: Common primary meaning selected. | PASS: Works across all 4 game modes. |
+| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Game Compat | Status |
+|------|------------------|-----------------|---------------|------------------|--------|
+| organism | Pass | Pass | Pass | Pass | Pass |
+| evaporation | Pass | Pass | Pass | Pass | Pass |
+| condensation | Pass | Pass | Pass | Pass | Pass |
+| precipitation | Pass | Pass | Pass | Pass | Pass |
+| atmosphere | Pass | Pass | Pass | Pass | Pass |
+| nutrient | Pass | Pass | Pass | Pass | Pass |
+| photosynthesis | Pass | Pass | Pass | Pass | Pass |
+| pollination | Pass | Pass | Pass | Pass | Pass |
+| germinate | Pass | Pass | Pass | Pass | Pass |
+| larva | Pass | Pass | Pass | Pass | Pass |
+| metamorphosis | Pass | Pass | Pass | Pass | Pass |
+| camouflage | Pass | Pass | Pass | Pass | Pass |
+| migration | Pass | Pass | Pass | Pass | Pass |
+| hibernation | Pass | Pass | Pass | Pass | Pass |
+| adaptation | Pass | Pass | Pass | Pass | Pass |
+| ecosystem | Pass | Pass | Pass | Pass | Pass |
+| solar | Pass | Pass | Pass | Pass | Pass |
+| lunar | Pass | Pass | Pass | Pass | Pass |
+| friction | Pass | Pass | Pass | Pass | Pass |
+| electricity | Pass | Pass | Pass | Pass | Pass |
+| circuit | Pass | Pass | Pass | Pass | Pass |
+| conductor | Pass | Pass | Pass | Pass | Pass |
+| insulator | Pass | Pass | Pass | Pass | Pass |
+| microscope | Pass | Pass | Pass | Pass | Pass |
+| dissolve | Pass | Pass | Pass | Pass | Pass |
+| mass | Pass | Pass | Pass | Pass | Pass |
+| renewable | Pass | Pass | Pass | Pass | Pass |
+| nonrenewable | Pass | Pass | Pass | Pass | Pass |
+| pollution | Pass | Pass | Pass | Pass | Pass |
+| conservation | Pass | Pass | Pass | Pass | Pass |
+| vertebrate | Pass | Pass | Pass | Pass | Pass |
+| invertebrate | Pass | Pass | Pass | Pass | Pass |
+| chrysalis | Pass | Pass | Pass | Pass | Pass |
+| decompose | Pass | Pass | Pass | Pass | Pass |
+| telescope | Pass | Pass | Pass | Pass | Pass |
+| rotation | Pass | Pass | Pass | Pass | Pass |
+| constellation | Pass | Pass | Pass | Pass | Pass |
+| volcano | Pass | Pass | Pass | Pass | Pass |
+| earthquake | Pass | Pass | Pass | Pass | Pass |
+| weathering | Pass | Pass | Pass | Pass | Pass |
+| tide | Pass | Pass | Pass | Pass | Pass |
+| classify | Pass | Pass | Pass | Pass | Pass |
+| cell | Pass | Pass | Pass | Pass | Pass |
+| carbon dioxide | Pass | Pass | Pass | Pass | Pass |
+| sediment | Pass | Pass | Pass | Pass | Pass |
+| geography | Pass | Pass | Pass | Pass | Pass |
+| peninsula | Pass | Pass | Pass | Pass | Pass |
+| urban | Pass | Pass | Pass | Pass | Pass |
+| rural | Pass | Pass | Pass | Pass | Pass |
+| suburban | Pass | Pass | Pass | Pass | Pass |
+| civilization | Pass | Pass | Pass | Pass | Pass |
+| artifact | Pass | Pass | Pass | Pass | Pass |
+| agriculture | Pass | Pass | Pass | Pass | Pass |
+| industry | Pass | Pass | Pass | Pass | Pass |
+| technology | Pass | Pass | Pass | Pass | Pass |
+| governor | Pass | Pass | Pass | Pass | Pass |
+| justice | Pass | Pass | Pass | Pass | Pass |
+| monument | Pass | Pass | Pass | Pass | Pass |
+| landmark | Pass | Pass | Pass | Pass | Pass |
+| capital | Pass | Pass | Pass | Pass | Pass |
+| timeline | Pass | Pass | Pass | Pass | Pass |
+| treaty | Pass | Pass | Pass | Pass | Pass |
+| irrigation | Pass | Pass | Pass | Pass | Pass |
+| barter | Pass | Pass | Pass | Pass | Pass |
+| goods | Pass | Pass | Pass | Pass | Pass |
+| services | Pass | Pass | Pass | Pass | Pass |
+| petition | Pass | Pass | Pass | Pass | Pass |
+| numerator | Pass | Pass | Pass | Pass | Pass |
+| denominator | Pass | Pass | Pass | Pass | Pass |
+| equivalent | Pass | Pass | Pass | Pass | Pass |
+| multiple | Pass | Pass | Pass | Pass | Pass |
+| perimeter | Pass | Pass | Pass | Pass | Pass |
+| array | Pass | Pass | Pass | Pass | Pass |
+| symmetry | Pass | Pass | Pass | Pass | Pass |
+| parallel | Pass | Pass | Pass | Pass | Pass |
+| perpendicular | Pass | Pass | Pass | Pass | Pass |
+| vertex | Pass | Pass | Pass | Pass | Pass |
+| polygon | Pass | Pass | Pass | Pass | Pass |
+| quadrilateral | Pass | Pass | Pass | Pass | Pass |
+| diameter | Pass | Pass | Pass | Pass | Pass |
+| radius | Pass | Pass | Pass | Pass | Pass |
+| gram | Pass | Pass | Pass | Pass | Pass |
+| kilogram | Pass | Pass | Pass | Pass | Pass |
+| liter | Pass | Pass | Pass | Pass | Pass |
+| centimeter | Pass | Pass | Pass | Pass | Pass |
+| meter | Pass | Pass | Pass | Pass | Pass |
+| kilometer | Pass | Pass | Pass | Pass | Pass |
+| vertical | Pass | Pass | Pass | Pass | Pass |
+| elapsed | Pass | Pass | Pass | Pass | Pass |
+| commutative | Pass | Pass | Pass | Pass | Pass |
+| associative | Pass | Pass | Pass | Pass | Pass |
+| distributive | Pass | Pass | Pass | Pass | Pass |
+| inverse | Pass | Pass | Pass | Pass | Pass |
+| variable | Pass | Pass | Pass | Pass | Pass |
+| expression | Pass | Pass | Pass | Pass | Pass |
+| operation | Pass | Pass | Pass | Pass | Pass |
+| congruent | Pass | Pass | Pass | Pass | Pass |
+| unit | Pass | Pass | Pass | Pass | Pass |
+| composite | Pass | Pass | Pass | Pass | Pass |
+| prime | Pass | Pass | Pass | Pass | Pass |
+| intersect | Pass | Pass | Pass | Pass | Pass |
+| probability | Pass | Pass | Pass | Pass | Pass |
+| break the ice | Pass | Pass | Pass | Pass | Pass |
+| piece of cake | Pass | Pass | Pass | Pass | Pass |
+| under the weather | Pass | Pass | Pass | Pass | Pass |
+| hit the books | Pass | Pass | Pass | Pass | Pass |
+| on the same page | Pass | Pass | Pass | Pass | Pass |
+| cost an arm and a leg | Pass | Pass | Pass | Pass | Pass |
+| let the cat out of the bag | Pass | Pass | Pass | Pass | Pass |
+| bite off more than you can chew | Pass | Pass | Pass | Pass | Pass |
+| once in a blue moon | Pass | Pass | Pass | Pass | Pass |
+| when pigs fly | Pass | Pass | Pass | Pass | Pass |
+| spill the beans | Pass | Pass | Pass | Pass | Pass |
+| raining cats and dogs | Pass | Pass | Pass | Pass | Pass |
+| butterflies in my stomach | Pass | Pass | Pass | Pass | Pass |
+| the ball is in your court | Pass | Pass | Pass | Pass | Pass |
+| barking up the wrong tree | Pass | Pass | Pass | Pass | Pass |
+| hold your horses | Pass | Pass | Pass | Pass | Pass |
+| two peas in a pod | Pass | Pass | Pass | Pass | Pass |
+| a blessing in disguise | Pass | Pass | Pass | Pass | Pass |
+| get cold feet | Pass | Pass | Pass | Pass | Pass |
+| go the extra mile | Pass | Pass | Pass | Pass | Pass |
+| keep an eye on | Pass | Pass | Pass | Pass | Pass |
+| the last straw | Pass | Pass | Pass | Pass | Pass |
+| sit on the fence | Pass | Pass | Pass | Pass | Pass |
+| see eye to eye | Pass | Pass | Pass | Pass | Pass |
+| back to square one | Pass | Pass | Pass | Pass | Pass |
+| put all your eggs in one basket | Pass | Pass | Pass | Pass | Pass |
+| pull someone's leg | Pass | Pass | Pass | Pass | Pass |
+| throw in the towel | Pass | Pass | Pass | Pass | Pass |
+| on cloud nine | Pass | Pass | Pass | Pass | Pass |
+| in hot water | Pass | Pass | Pass | Pass | Pass |
+| come up with | Pass | Pass | Pass | Pass | Pass |
+| turn out | Pass | Pass | Pass | Pass | Pass |
+| run out of | Pass | Pass | Pass | Pass | Pass |
+| get along with | Pass | Pass | Pass | Pass | Pass |
+| carry on | Pass | Pass | Pass | Pass | Pass |
+| stand for | Pass | Pass | Pass | Pass | Pass |
+| take part in | Pass | Pass | Pass | Pass | Pass |
+| go over | Pass | Pass | Pass | Pass | Pass |
+| a penny for your thoughts | Pass | Pass | Pass | Pass | Pass |
+| actions speak louder than words | Pass | Pass | Pass | Pass | Pass |
+| every cloud has a silver lining | Pass | Pass | Pass | Pass | Pass |
+| kill two birds with one stone | Pass | Pass | Pass | Pass | Pass |
+| better late than never | Pass | Pass | Pass | Pass | Pass |
+| practice makes perfect | Pass | Pass | Pass | Pass | Pass |
+| the early bird catches the worm | Pass | Pass | Pass | Pass | Pass |
+| don't judge a book by its cover | Pass | Pass | Pass | Pass | Pass |
+| hit the nail on the head | Pass | Pass | Pass | Pass | Pass |
+| a taste of your own medicine | Pass | Pass | Pass | Pass | Pass |
+| burn the midnight oil | Pass | Pass | Pass | Pass | Pass |
+| on the other hand | Pass | Pass | Pass | Pass | Pass |
+| subsequently | Pass | Pass | Pass | Pass | Pass |
+| for example | Pass | Pass | Pass | Pass | Pass |
+| to begin with | Pass | Pass | Pass | Pass | Pass |
+| above all | Pass | Pass | Pass | Pass | Pass |
+| as soon as | Pass | Pass | Pass | Pass | Pass |
+| rather than | Pass | Pass | Pass | Pass | Pass |
+| so that | Pass | Pass | Pass | Pass | Pass |
+| prior to | Pass | Pass | Pass | Pass | Pass |
+| to summarize | Pass | Pass | Pass | Pass | Pass |
+| first of all | Pass | Pass | Pass | Pass | Pass |
+| to illustrate | Pass | Pass | Pass | Pass | Pass |
+| in brief | Pass | Pass | Pass | Pass | Pass |
+| soon after | Pass | Pass | Pass | Pass | Pass |
+| not only...but also | Pass | Pass | Pass | Pass | Pass |
+| whereas | Pass | Pass | Pass | Pass | Pass |
+| thus | Pass | Pass | Pass | Pass | Pass |
+| granted | Pass | Pass | Pass | Pass | Pass |
+| to put it simply | Pass | Pass | Pass | Pass | Pass |
+| dodder | Pass | Pass | Pass | Pass | Pass |
+| dogma | Pass | Pass | Pass | Pass | Pass |
+| doldrums | Pass | Pass | Pass | Pass | Pass |
+| dole | Pass | Pass | Pass | Pass | Pass |
+| dolt | Pass | Pass | Pass | Pass | Pass |
+| donjon | Pass | Pass | Pass | Pass | Pass |
+| dosage | Pass | Pass | Pass | Pass | Pass |
+| dote | Pass | Pass | Pass | Pass | Pass |
+| dowel | Pass | Pass | Pass | Pass | Pass |
+| downpour | Pass | Pass | Pass | Pass | Pass |
+| drab | Pass | Pass | Pass | Pass | Pass |
+| dragnet | Pass | Pass | Pass | Pass | Pass |
+| drape | Pass | Pass | Pass | Pass | Pass |
+| dreary | Pass | Pass | Pass | Pass | Pass |
+| drench | Pass | Pass | Pass | Pass | Pass |
+| drizzle | Pass | Pass | Pass | Pass | Pass |
+| drone | Pass | Pass | Pass | Pass | Pass |
+| droop | Pass | Pass | Pass | Pass | Pass |
+| dub | Pass | Pass | Pass | Pass | Pass |
+| dugout | Pass | Pass | Pass | Pass | Pass |
+| dungeon | Pass | Pass | Pass | Pass | Pass |
+| dye | Pass | Pass | Pass | Pass | Pass |
+| dike | Pass | Pass | Pass | Pass | Pass |
+| earmark | Pass | Pass | Pass | Pass | Pass |
+| earthy | Pass | Pass | Pass | Pass | Pass |
+| eave | Pass | Pass | Pass | Pass | Pass |
+| ebony | Pass | Pass | Pass | Pass | Pass |
+| effervescent | Pass | Pass | Pass | Pass | Pass |
+| effigy | Pass | Pass | Pass | Pass | Pass |
+| egress | Pass | Pass | Pass | Pass | Pass |
+| elapse | Pass | Pass | Pass | Pass | Pass |
+| elate | Pass | Pass | Pass | Pass | Pass |
+| elf | Pass | Pass | Pass | Pass | Pass |
+| elocution | Pass | Pass | Pass | Pass | Pass |
+| elongate | Pass | Pass | Pass | Pass | Pass |
+| elude | Pass | Pass | Pass | Pass | Pass |
+| emboss | Pass | Pass | Pass | Pass | Pass |
+| emporium | Pass | Pass | Pass | Pass | Pass |
+| enamel | Pass | Pass | Pass | Pass | Pass |
+| encore | Pass | Pass | Pass | Pass | Pass |
+| encrust | Pass | Pass | Pass | Pass | Pass |
+| encyclopedia | Pass | Pass | Pass | Pass | Pass |
+| engross | Pass | Pass | Pass | Pass | Pass |
+| enshroud | Pass | Pass | Pass | Pass | Pass |
+| enthrall | Pass | Pass | Pass | Pass | Pass |
+| entreat | Pass | Pass | Pass | Pass | Pass |
+| epic | Pass | Pass | Pass | Pass | Pass |
+| errand | Pass | Pass | Pass | Pass | Pass |
+| errant | Pass | Pass | Pass | Pass | Pass |
+| escarpment | Pass | Pass | Pass | Pass | Pass |
+| ethereal | Pass | Pass | Pass | Pass | Pass |
+| evergreen | Pass | Pass | Pass | Pass | Pass |
+| expanse | Pass | Pass | Pass | Pass | Pass |
+| expat | Pass | Pass | Pass | Pass | Pass |
+| expel | Pass | Pass | Pass | Pass | Pass |
+| eyelet | Pass | Pass | Pass | Pass | Pass |
+| facet | Pass | Pass | Pass | Pass | Pass |
+| fallow | Pass | Pass | Pass | Pass | Pass |
+| falter | Pass | Pass | Pass | Pass | Pass |
+| fanfare | Pass | Pass | Pass | Pass | Pass |
+| farce | Pass | Pass | Pass | Pass | Pass |
+| feign | Pass | Pass | Pass | Pass | Pass |
+| festoon | Pass | Pass | Pass | Pass | Pass |
+| fidget | Pass | Pass | Pass | Pass | Pass |
+| fiesta | Pass | Pass | Pass | Pass | Pass |
+| figment | Pass | Pass | Pass | Pass | Pass |
+| filly | Pass | Pass | Pass | Pass | Pass |
+| finale | Pass | Pass | Pass | Pass | Pass |
+| finesse | Pass | Pass | Pass | Pass | Pass |
+| flair | Pass | Pass | Pass | Pass | Pass |
+| flak | Pass | Pass | Pass | Pass | Pass |
+| flank | Pass | Pass | Pass | Pass | Pass |
+| flaw | Pass | Pass | Pass | Pass | Pass |
+| fleece | Pass | Pass | Pass | Pass | Pass |
+| flicker | Pass | Pass | Pass | Pass | Pass |
+| flinch | Pass | Pass | Pass | Pass | Pass |
+| flotsam | Pass | Pass | Pass | Pass | Pass |
+| flounce | Pass | Pass | Pass | Pass | Pass |
+| flout | Pass | Pass | Pass | Pass | Pass |
+| flue | Pass | Pass | Pass | Pass | Pass |
+| fluent | Pass | Pass | Pass | Pass | Pass |
+| flurry | Pass | Pass | Pass | Pass | Pass |
+| foothold | Pass | Pass | Pass | Pass | Pass |
+| foray | Pass | Pass | Pass | Pass | Pass |
+| ford | Pass | Pass | Pass | Pass | Pass |
+| forlorn | Pass | Pass | Pass | Pass | Pass |
+| forsake | Pass | Pass | Pass | Pass | Pass |
+| fort | Pass | Pass | Pass | Pass | Pass |
+| forte | Pass | Pass | Pass | Pass | Pass |
+| fortress | Pass | Pass | Pass | Pass | Pass |
+| fowl | Pass | Pass | Pass | Pass | Pass |
+| foyer | Pass | Pass | Pass | Pass | Pass |
+| frantic | Pass | Pass | Pass | Pass | Pass |
+| frigate | Pass | Pass | Pass | Pass | Pass |
+| fringe | Pass | Pass | Pass | Pass | Pass |
+| frolic | Pass | Pass | Pass | Pass | Pass |
+| froth | Pass | Pass | Pass | Pass | Pass |
+| fulcrum | Pass | Pass | Pass | Pass | Pass |
+| foresee | Pass | Pass | Pass | Pass | Pass |
+| fumigate | Pass | Pass | Pass | Pass | Pass |
+| furlong | Pass | Pass | Pass | Pass | Pass |
+| furor | Pass | Pass | Pass | Pass | Pass |
+| gable | Pass | Pass | Pass | Pass | Pass |
+| gadget | Pass | Pass | Pass | Pass | Pass |
+| gaffe | Pass | Pass | Pass | Pass | Pass |
+| gait | Pass | Pass | Pass | Pass | Pass |
+| gallop | Pass | Pass | Pass | Pass | Pass |
+| gambit | Pass | Pass | Pass | Pass | Pass |
+| gambol | Pass | Pass | Pass | Pass | Pass |
+| garb | Pass | Pass | Pass | Pass | Pass |
+| garland | Pass | Pass | Pass | Pass | Pass |
+| garner | Pass | Pass | Pass | Pass | Pass |
+| gem | Pass | Pass | Pass | Pass | Pass |
+| genteel | Pass | Pass | Pass | Pass | Pass |
+| ghastly | Pass | Pass | Pass | Pass | Pass |
+| giddy | Pass | Pass | Pass | Pass | Pass |
+| girdle | Pass | Pass | Pass | Pass | Pass |
+| glade | Pass | Pass | Pass | Pass | Pass |
+| glaze | Pass | Pass | Pass | Pass | Pass |
+| gleam | Pass | Pass | Pass | Pass | Pass |
+| glen | Pass | Pass | Pass | Pass | Pass |
+| glimmer | Pass | Pass | Pass | Pass | Pass |
+| glint | Pass | Pass | Pass | Pass | Pass |
+| glitch | Pass | Pass | Pass | Pass | Pass |
+| gloat | Pass | Pass | Pass | Pass | Pass |
+| glut | Pass | Pass | Pass | Pass | Pass |
+| gnaw | Pass | Pass | Pass | Pass | Pass |
+| goblet | Pass | Pass | Pass | Pass | Pass |
+| gouge | Pass | Pass | Pass | Pass | Pass |
+| graft | Pass | Pass | Pass | Pass | Pass |
+| graze | Pass | Pass | Pass | Pass | Pass |
+| greenery | Pass | Pass | Pass | Pass | Pass |
+| gregarious | Pass | Pass | Pass | Pass | Pass |
+| grid | Pass | Pass | Pass | Pass | Pass |
+| grimace | Pass | Pass | Pass | Pass | Pass |
+| grindstone | Pass | Pass | Pass | Pass | Pass |
+| grit | Pass | Pass | Pass | Pass | Pass |
+| grotto | Pass | Pass | Pass | Pass | Pass |
+| grovel | Pass | Pass | Pass | Pass | Pass |
+| grueling | Pass | Pass | Pass | Pass | Pass |
+| grumble | Pass | Pass | Pass | Pass | Pass |
+| gulp | Pass | Pass | Pass | Pass | Pass |
+| hackneyed | Pass | Pass | Pass | Pass | Pass |
+| hallow | Pass | Pass | Pass | Pass | Pass |
+| hamlet | Pass | Pass | Pass | Pass | Pass |

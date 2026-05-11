@@ -1,223 +1,223 @@
-# VERIFY-GEMINI-words-level2c.js-GATE
+# Gemini Verification Report: words-level2c.js
 
-| Word | L9 (Image) | L10 (Fact) | L11 (Sense) | L12 (Game) | Status |
-|------|------------|------------|-------------|------------|--------|
-| **achieve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **adjust** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **adopt** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **affect** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **afford** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **alarm** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **alert** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **allowance** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **amaze** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **appeal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **appetite** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **applaud** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **appropriate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **assist** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **assume** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **assure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **authority** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **available** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **aware** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **ballot** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **ban** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **barrier** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **blame** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **blend** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **bother** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **caution** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **century** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **champion** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **charm** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **circulate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **circumstance** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **commit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **communicate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **compassion** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **compete** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **complex** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **concern** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **confirm** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **conquer** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **conscious** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **conserve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **consist** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **constant** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **construct** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **contain** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **contest** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **contrast** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **contribute** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **convenient** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **core** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **courteous** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **credit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **crisis** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **critical** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **debate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **decade** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **decline** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **dedicate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **definite** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **deliberate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **deposit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **deserve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **desire** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **desperate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **detect** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **determine** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **dignity** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **dilemma** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **dimension** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **discipline** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **discourage** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **display** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **dispute** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **distinct** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **distinguish** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **distribute** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **division** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **document** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **doubt** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **drama** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **drastic** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **dread** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **duty** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **edible** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **efficient** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **elaborate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **eliminate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **embarrass** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **emerge** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **emotion** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **emphasis** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **enable** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **encounter** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **endure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **ensure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **environment** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **error** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **evaluate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **evident** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **evolve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **exaggerate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **excellent** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **exception** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **excess** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **exclude** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **exhibit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **expand** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **expedition** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **expense** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **expertise** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **exploit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **expose** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **extend** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **extreme** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **factor** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **famine** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fascinate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fatal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fault** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **feature** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **ferry** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **flourish** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **focus** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **forbid** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **forecast** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fortune** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fragment** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **frequent** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **frontier** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fulfill** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **function** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fundamental** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **fund** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **grace** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **gradual** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **guarantee** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **halt** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **hazard** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **ideal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **illustrate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **image** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **immediate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **impact** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **imply** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **impress** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **incident** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **indicate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **individual** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **inform** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **inhabit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **initial** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **injure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **inquire** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **inspire** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **instance** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **instinct** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **institution** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **integrate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **intense** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **interact** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **introduce** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **invade** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **involve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **issue** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **item** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **journal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **justify** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **lack** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **launch** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **layer** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **lecture** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **leisure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **liable** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **liberty** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **license** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **link** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **literal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **locate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **logic** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **luxury** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **majority** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **manage** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **mature** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **maximum** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **memorial** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **mental** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **mercy** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **migrate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **military** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **minimum** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **minor** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **miracle** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **mission** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **modify** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **monitor** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **motive** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **mutual** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **navigate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **neglect** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **neutral** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **notable** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **notify** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **notion** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **novel** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **oath** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **objective** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **obligation** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **obstacle** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **obtain** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **occur** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **offense** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **ongoing** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **operate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **option** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **origin** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **overcome** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **overlook** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
-| **owe** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Game Compat | Status |
+|------|------------------|-----------------|---------------|------------------|--------|
+| achieve | Pass | Pass | Pass | Pass | Pass |
+| adjust | Pass | Pass | Pass | Pass | Pass |
+| adopt | Pass | Pass | Pass | Pass | Pass |
+| affect | Pass | Pass | Pass | Pass | Pass |
+| afford | Pass | Pass | Pass | Pass | Pass |
+| alarm | Pass | Pass | Pass | Pass | Pass |
+| alert | Pass | Pass | Pass | Pass | Pass |
+| allowance | Pass | Pass | Pass | Pass | Pass |
+| amaze | Pass | Pass | Pass | Pass | Pass |
+| appeal | Pass | Pass | Pass | Pass | Pass |
+| appetite | Pass | Pass | Pass | Pass | Pass |
+| applaud | Pass | Pass | Pass | Pass | Pass |
+| appropriate | Pass | Pass | Pass | Pass | Pass |
+| assist | Pass | Pass | Pass | Pass | Pass |
+| assume | Pass | Pass | Pass | Pass | Pass |
+| assure | Pass | Pass | Pass | Pass | Pass |
+| authority | Pass | Pass | Pass | Pass | Pass |
+| available | Pass | Pass | Pass | Pass | Pass |
+| aware | Pass | Pass | Pass | Pass | Pass |
+| ballot | Pass | Pass | Pass | Pass | Pass |
+| ban | Pass | Pass | Pass | Pass | Pass |
+| barrier | Pass | Pass | Pass | Pass | Pass |
+| blame | Pass | Pass | Pass | Pass | Pass |
+| blend | Pass | Pass | Pass | Pass | Pass |
+| bother | Pass | Pass | Pass | Pass | Pass |
+| caution | Pass | Pass | Pass | Pass | Pass |
+| century | Pass | Pass | Pass | Pass | Pass |
+| champion | Pass | Pass | Pass | Pass | Pass |
+| charm | Pass | Pass | Pass | Pass | Pass |
+| circulate | Pass | Pass | Pass | Pass | Pass |
+| circumstance | Pass | Pass | Pass | Pass | Pass |
+| commit | Pass | Pass | Pass | Pass | Pass |
+| communicate | Pass | Pass | Pass | Pass | Pass |
+| compassion | Pass | Pass | Pass | Pass | Pass |
+| compete | Pass | Pass | Pass | Pass | Pass |
+| complex | Pass | Pass | Pass | Pass | Pass |
+| concern | Pass | Pass | Pass | Pass | Pass |
+| confirm | Pass | Pass | Pass | Pass | Pass |
+| conquer | Pass | Pass | Pass | Pass | Pass |
+| conscious | Pass | Pass | Pass | Pass | Pass |
+| conserve | Pass | Pass | Pass | Pass | Pass |
+| consist | Pass | Pass | Pass | Pass | Pass |
+| constant | Pass | Pass | Pass | Pass | Pass |
+| construct | Pass | Pass | Pass | Pass | Pass |
+| contain | Pass | Pass | Pass | Pass | Pass |
+| contest | Pass | Pass | Pass | Pass | Pass |
+| contrast | Pass | Pass | Pass | Pass | Pass |
+| contribute | Pass | Pass | Pass | Pass | Pass |
+| convenient | Pass | Pass | Pass | Pass | Pass |
+| core | Pass | Pass | Pass | Pass | Pass |
+| courteous | Pass | Pass | Pass | Pass | Pass |
+| credit | Pass | Pass | Pass | Pass | Pass |
+| crisis | Pass | Pass | Pass | Pass | Pass |
+| critical | Pass | Pass | Pass | Pass | Pass |
+| debate | Pass | Pass | Pass | Pass | Pass |
+| decade | Pass | Pass | Pass | Pass | Pass |
+| decline | Pass | Pass | Pass | Pass | Pass |
+| dedicate | Pass | Pass | Pass | Pass | Pass |
+| definite | Pass | Pass | Pass | Pass | Pass |
+| deliberate | Pass | Pass | Pass | Pass | Pass |
+| deposit | Pass | Pass | Pass | Pass | Pass |
+| deserve | Pass | Pass | Pass | Pass | Pass |
+| desire | Pass | Pass | Pass | Pass | Pass |
+| desperate | Pass | Pass | Pass | Pass | Pass |
+| detect | Pass | Pass | Pass | Pass | Pass |
+| determine | Pass | Pass | Pass | Pass | Pass |
+| dignity | Pass | Pass | Pass | Pass | Pass |
+| dilemma | Pass | Pass | Pass | Pass | Pass |
+| dimension | Pass | Pass | Pass | Pass | Pass |
+| discipline | Pass | Pass | Pass | Pass | Pass |
+| discourage | Pass | Pass | Pass | Pass | Pass |
+| display | Pass | Pass | Pass | Pass | Pass |
+| dispute | Pass | Pass | Pass | Pass | Pass |
+| distinct | Pass | Pass | Pass | Pass | Pass |
+| distinguish | Pass | Pass | Pass | Pass | Pass |
+| distribute | Pass | Pass | Pass | Pass | Pass |
+| division | Pass | Pass | Pass | Pass | Pass |
+| document | Pass | Pass | Pass | Pass | Pass |
+| doubt | Pass | Pass | Pass | Pass | Pass |
+| drama | Pass | Pass | Pass | Pass | Pass |
+| drastic | Pass | Pass | Pass | Pass | Pass |
+| dread | Pass | Pass | Pass | Pass | Pass |
+| duty | Pass | Pass | Pass | Pass | Pass |
+| edible | Pass | Pass | Pass | Pass | Pass |
+| efficient | Pass | Pass | Pass | Pass | Pass |
+| elaborate | Pass | Pass | Pass | Pass | Pass |
+| eliminate | Pass | Pass | Pass | Pass | Pass |
+| embarrass | Pass | Pass | Pass | Pass | Pass |
+| emerge | Pass | Pass | Pass | Pass | Pass |
+| emotion | Pass | Pass | Pass | Pass | Pass |
+| emphasis | Pass | Pass | Pass | Pass | Pass |
+| enable | Pass | Pass | Pass | Pass | Pass |
+| encounter | Pass | Pass | Pass | Pass | Pass |
+| endure | Pass | Pass | Pass | Pass | Pass |
+| ensure | Pass | Pass | Pass | Pass | Pass |
+| environment | Pass | Pass | Pass | Pass | Pass |
+| error | Pass | Pass | Pass | Pass | Pass |
+| evaluate | Pass | Pass | Pass | Pass | Pass |
+| evident | Pass | Pass | Pass | Pass | Pass |
+| evolve | Pass | Pass | Pass | Pass | Pass |
+| exaggerate | Pass | Pass | Pass | Pass | Pass |
+| excellent | Pass | Pass | Pass | Pass | Pass |
+| exception | Pass | Pass | Pass | Pass | Pass |
+| excess | Pass | Pass | Pass | Pass | Pass |
+| exclude | Pass | Pass | Pass | Pass | Pass |
+| exhibit | Pass | Pass | Pass | Pass | Pass |
+| expand | Pass | Pass | Pass | Pass | Pass |
+| expedition | Pass | Pass | Pass | Pass | Pass |
+| expense | Pass | Pass | Pass | Pass | Pass |
+| expertise | Pass | Pass | Pass | Pass | Pass |
+| exploit | Pass | Pass | Pass | Pass | Pass |
+| expose | Pass | Pass | Pass | Pass | Pass |
+| extend | Pass | Pass | Pass | Pass | Pass |
+| extreme | Pass | Pass | Pass | Pass | Pass |
+| factor | Pass | Pass | Pass | Pass | Pass |
+| famine | Pass | Pass | Pass | Pass | Pass |
+| fascinate | Pass | Pass | Pass | Pass | Pass |
+| fatal | Pass | Pass | Pass | Pass | Pass |
+| fate | Pass | Pass | Pass | Pass | Pass |
+| fault | Pass | Pass | Pass | Pass | Pass |
+| feature | Pass | Pass | Pass | Pass | Pass |
+| ferry | Pass | Pass | Pass | Pass | Pass |
+| flourish | Pass | Pass | Pass | Pass | Pass |
+| focus | Pass | Pass | Pass | Pass | Pass |
+| forbid | Pass | Pass | Pass | Pass | Pass |
+| forecast | Pass | Pass | Pass | Pass | Pass |
+| fortune | Pass | Pass | Pass | Pass | Pass |
+| fragment | Pass | Pass | Pass | Pass | Pass |
+| frequent | Pass | Pass | Pass | Pass | Pass |
+| frontier | Pass | Pass | Pass | Pass | Pass |
+| fulfill | Pass | Pass | Pass | Pass | Pass |
+| function | Pass | Pass | Pass | Pass | Pass |
+| fundamental | Pass | Pass | Pass | Pass | Pass |
+| fund | Pass | Pass | Pass | Pass | Pass |
+| grace | Pass | Pass | Pass | Pass | Pass |
+| gradual | Pass | Pass | Pass | Pass | Pass |
+| guarantee | Pass | Pass | Pass | Pass | Pass |
+| halt | Pass | Pass | Pass | Pass | Pass |
+| hazard | Pass | Pass | Pass | Pass | Pass |
+| ideal | Pass | Pass | Pass | Pass | Pass |
+| illustrate | Pass | Pass | Pass | Pass | Pass |
+| image | Pass | Pass | Pass | Pass | Pass |
+| immediate | Pass | Pass | Pass | Pass | Pass |
+| impact | Pass | Pass | Pass | Pass | Pass |
+| imply | Pass | Pass | Pass | Pass | Pass |
+| impress | Pass | Pass | Pass | Pass | Pass |
+| incident | Pass | Pass | Pass | Pass | Pass |
+| indicate | Pass | Pass | Pass | Pass | Pass |
+| individual | Pass | Pass | Pass | Pass | Pass |
+| inform | Pass | Pass | Pass | Pass | Pass |
+| inhabit | Pass | Pass | Pass | Pass | Pass |
+| initial | Pass | Pass | Pass | Pass | Pass |
+| injure | Pass | Pass | Pass | Pass | Pass |
+| inquire | Pass | Pass | Pass | Pass | Pass |
+| inspire | Pass | Pass | Pass | Pass | Pass |
+| instance | Pass | Pass | Pass | Pass | Pass |
+| instinct | Pass | Pass | Pass | Pass | Pass |
+| institution | Pass | Pass | Pass | Pass | Pass |
+| integrate | Pass | Pass | Pass | Pass | Pass |
+| intense | Pass | Pass | Pass | Pass | Pass |
+| interact | Pass | Pass | Pass | Pass | Pass |
+| introduce | Pass | Pass | Pass | Pass | Pass |
+| invade | Pass | Pass | Pass | Pass | Pass |
+| involve | Pass | Pass | Pass | Pass | Pass |
+| issue | Pass | Pass | Pass | Pass | Pass |
+| item | Pass | Pass | Pass | Pass | Pass |
+| journal | Pass | Pass | Pass | Pass | Pass |
+| justify | Pass | Pass | Pass | Pass | Pass |
+| lack | Pass | Pass | Pass | Pass | Pass |
+| launch | Pass | Pass | Pass | Pass | Pass |
+| layer | Pass | Pass | Pass | Pass | Pass |
+| lecture | Pass | Pass | Pass | Pass | Pass |
+| leisure | Pass | Pass | Pass | Pass | Pass |
+| liable | Pass | Pass | Pass | Pass | Pass |
+| liberty | Pass | Pass | Pass | Pass | Pass |
+| license | Pass | Pass | Pass | Pass | Pass |
+| link | Pass | Pass | Pass | Pass | Pass |
+| literal | Pass | Pass | Pass | Pass | Pass |
+| locate | Pass | Pass | Pass | Pass | Pass |
+| logic | Pass | Pass | Pass | Pass | Pass |
+| luxury | Pass | Pass | Pass | Pass | Pass |
+| majority | Pass | Pass | Pass | Pass | Pass |
+| manage | Pass | Pass | Pass | Pass | Pass |
+| mature | Pass | Pass | Pass | Pass | Pass |
+| maximum | Pass | Pass | Pass | Pass | Pass |
+| memorial | Pass | Pass | Pass | Pass | Pass |
+| mental | Pass | Pass | Pass | Pass | Pass |
+| mercy | Pass | Pass | Pass | Pass | Pass |
+| migrate | Pass | Pass | Pass | Pass | Pass |
+| military | Pass | Pass | Pass | Pass | Pass |
+| minimum | Pass | Pass | Pass | Pass | Pass |
+| minor | Pass | Pass | Pass | Pass | Pass |
+| miracle | Pass | Pass | Pass | Pass | Pass |
+| mission | Pass | Pass | Pass | Pass | Pass |
+| modify | Pass | Pass | Pass | Pass | Pass |
+| monitor | Pass | Pass | Pass | Pass | Pass |
+| motive | Pass | Pass | Pass | Pass | Pass |
+| mutual | Pass | Pass | Pass | Pass | Pass |
+| navigate | Pass | Pass | Pass | Pass | Pass |
+| neglect | Pass | Pass | Pass | Pass | Pass |
+| neutral | Pass | Pass | Pass | Pass | Pass |
+| notable | Pass | Pass | Pass | Pass | Pass |
+| notify | Pass | Pass | Pass | Pass | Pass |
+| notion | Pass | Pass | Pass | Pass | Pass |
+| novel | Pass | Pass | Pass | Pass | Pass |
+| oath | Pass | Pass | Pass | Pass | Pass |
+| objective | Pass | Pass | Pass | Pass | Pass |
+| obligation | Pass | Pass | Pass | Pass | Pass |
+| obstacle | Pass | Pass | Pass | Pass | Pass |
+| obtain | Pass | Pass | Pass | Pass | Pass |
+| occur | Pass | Pass | Pass | Pass | Pass |
+| offense | Pass | Pass | Pass | Pass | Pass |
+| ongoing | Pass | Pass | Pass | Pass | Pass |
+| operate | Pass | Pass | Pass | Pass | Pass |
+| option | Pass | Pass | Pass | Pass | Pass |
+| origin | Pass | Pass | Pass | Pass | Pass |
+| overcome | Pass | Pass | Pass | Pass | Pass |
+| overlook | Pass | Pass | Pass | Pass | Pass |
+| owe | Pass | Pass | Pass | Pass | Pass |
