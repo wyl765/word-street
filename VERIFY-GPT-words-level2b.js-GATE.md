@@ -1,390 +1,390 @@
-# VERIFY-GPT-words-level2b.js-GATE
+# VERIFY-GPT — words-level2b.js
 
-文件: words-level2b.js
+- One line per word (no skipping).
+- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+- L6: Reverse test — blank example + 4 options.
+- L7: Cultural sensitivity.
+- L8: Learning path / level fit.
 
-规则: 每词一行(L5-L8)
-
-说明: L6「不唯一」表示遮住目标词后，仅靠该例句很难在同level常见干扰项里唯一锁定答案（例句可考虑补强线索）。
-
-- 001. **moral** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 002. **fable** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 003. **folktale** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 004. **myth** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:注意(含gods等宗教元素(多数可接受但部分家长介意)); L8:偏易(基础词; 可提前或用作复习)
-- 005. **rhyme** — L5:能; L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适(前置词在后面:end)
-- 006. **stanza** — L5:勉强(难词:paragraph); L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 007. **verse** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 008. **syllable** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适(前置词在后面:vowel)
-- 009. **vowel** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 010. **consonant** — L5:能; L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 011. **prefix** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 012. **suffix** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适(前置词在后面:end)
-- 013. **synonym** — L5:能; L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 014. **antonym** — L5:能; L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 015. **homophone** — L5:不能(难词:differently/different; 定义偏长/抽象); L6:唯一(线索足(overlap=3)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 016. **dialogue** — L5:勉强(难词:characters); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 017. **narrator** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 018. **scene** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 019. **conflict** — L5:勉强(难词:characters); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 020. **resolution** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 021. **end** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 022. **retell** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 023. **infer** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 024. **conclude** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 025. **theme** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 026. **genre** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 027. **biography** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 028. **autobiography** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 029. **caption** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 030. **glossary** — L5:能; L6:唯一(线索足(overlap=2)); L7:OK; L8:合适
-- 031. **amphibian** — L5:能; L6:不唯一(线索偏少(overlap=3)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 032. **carbon** — L5:能; L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 033. **dinosaur** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 034. **skeleton** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 035. **brain** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适(前置词在后面:organ)
-- 036. **lung** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏易(基础词; 可提前或用作复习; 前置词在后面:organ)
-- 037. **heart** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:注意(涉及:暴力); L8:合适(前置词在后面:organ,blood)
-- 038. **stomach** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 039. **diet** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 040. **nutrition** — L5:勉强(难词:process); L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 041. **vitamin** — L5:勉强(定义偏长); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 042. **protein** — L5:勉强(难词:something); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 043. **fiber** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适(前置词在后面:digest)
-- 044. **hygiene** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 045. **germ** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 046. **bacteria** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 047. **virus** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 048. **vaccine** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适(前置词在后面:medicine)
-- 049. **disease** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 050. **symptom** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 051. **medicine** — L5:勉强(难词:something); L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 052. **organ** — L5:勉强(难词:important); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:注意(涉及:暴力); L8:合适
-- 053. **tissue** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 054. **bone** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 055. **joint** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 056. **nerve** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 057. **blood** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:注意(涉及:暴力); L8:合适
-- 058. **artery** — L5:能; L6:不唯一(线索偏少(overlap=3)); L7:注意(涉及:暴力); L8:合适
-- 059. **vein** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:注意(涉及:暴力); L8:偏易(基础词; 可提前或用作复习)
-- 060. **pulse** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:注意(涉及:暴力); L8:合适
-- 061. **breath** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 062. **digest** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 063. **trait** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 064. **congress** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 065. **rights** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 066. **tax** — L5:勉强(难词:government); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 067. **budget** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 068. **economy** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 069. **import** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 070. **export** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 071. **invention** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 072. **explorer** — L5:能; L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 073. **settler** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 074. **colony** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 075. **revolution** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 076. **independence** — L5:勉强(难词:controlled); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 077. **amendment** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 078. **slavery** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 079. **equality** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 080. **protest** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 081. **boycott** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 082. **civil** — L5:勉强(难词:community); L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 083. **democracy** — L5:勉强(难词:decisions); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 084. **republic** — L5:勉强(难词:represent); L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 085. **nation** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 086. **hemisphere** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 087. **equator** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 088. **latitude** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 089. **longitude** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 090. **compass** — L5:勉强(难词:direction); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 091. **resource** — L5:勉强(难词:something); L6:不唯一(线索偏少(overlap=2)); L7:OK; L8:合适
-- 092. **heritage** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 093. **fraction** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 094. **decimal** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 095. **percent** — L5:能; L6:唯一(线索足(overlap=2)); L7:OK; L8:合适
-- 096. **estimate** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 097. **equation** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 098. **addition** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 099. **difference** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 100. **product** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 101. **quotient** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 102. **remainder** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 103. **digit** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 104. **place value** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 105. **regroup** — L5:能; L6:唯一(线索足(overlap=3)); L7:OK; L8:合适
-- 106. **carry** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适(前置词在后面:column)
-- 107. **column** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 108. **row** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 109. **table** — L5:勉强(难词:organizes); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 110. **tally** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 111. **survey** — L5:勉强(难词:questions); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 112. **greatest** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 113. **even** — L5:能; L6:不唯一(线索偏少(overlap=3)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 114. **adventurous** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 115. **ambitious** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 116. **compassionate** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 117. **confident** — L5:不能(难词:believing/abilities; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 118. **considerate** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 119. **cooperative** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 120. **creative** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 121. **demanding** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 122. **dependable** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 123. **devoted** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 124. **energetic** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 125. **enthusiastic** — L5:勉强(难词:something); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 126. **fearless** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 127. **forgiving** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 128. **friendly** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 129. **guilty** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 130. **impatient** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 131. **independent** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 132. **joyful** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 133. **mean** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 134. **mischievous** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 135. **modest** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 136. **optimistic** — L5:勉强(难词:believing); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 137. **pessimistic** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 138. **respectful** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 139. **responsible** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 140. **bring up** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 141. **catch up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 142. **check out** — L5:勉强(难词:something); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 143. **come along** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 144. **cut off** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 145. **drop off** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 146. **end up** — L5:勉强(难词:situation); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 147. **fall apart** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 148. **get along** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 149. **get over** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 150. **get rid of** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 151. **go ahead** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 152. **go through** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 153. **grow up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 154. **hand in** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 155. **hang out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 156. **keep up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 157. **knock down** — L5:勉强(难词:something); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 158. **leave out** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 159. **let down** — L5:勉强(难词:disappoint); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 160. **line up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 161. **look after** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 162. **look into** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 163. **look up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 164. **make sure** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 165. **mix up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 166. **move on** — L5:勉强(难词:something); L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 167. **pass out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 168. **pay attention** — L5:勉强(难词:carefully); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 169. **pick out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 170. **pull over** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 171. **put away** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 172. **put off** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 173. **put together** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 174. **run into** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 175. **shut down** — L5:勉强(难词:completely); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 176. **sign up** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 177. **slow down** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 178. **sort out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 179. **speak up** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 180. **stand out** — L5:勉强(难词:different); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 181. **stay up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 182. **take apart** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 183. **take away** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 184. **take off** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 185. **take over** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 186. **think over** — L5:不能(难词:something/carefully; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 187. **turn down** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 188. **use up** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 189. **watch out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 190. **wear out** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 191. **work out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 192. **wrap up** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 193. **back and forth** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 194. **bit by bit** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 195. **day by day** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 196. **from now on** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 197. **in the meantime** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 198. **once upon a time** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 199. **moreover** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 200. **nevertheless** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 201. **nonetheless** — L5:不能(难词:something/difficult; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 202. **accordingly** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 203. **additionally** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 204. **after all** — L5:勉强(难词:everything); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 205. **altogether** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 206. **as a matter of fact** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 207. **as a result** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 208. **at first** — L5:勉强(难词:beginning); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 209. **at last** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 210. **at the same time** — L5:勉强(难词:happening); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 211. **because of** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 212. **before long** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 213. **by contrast** — L5:勉强(难词:different); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 214. **certainly** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 215. **clearly** — L5:勉强(难词:understand); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 216. **compared to** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 217. **consequently** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 218. **despite** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 219. **due to** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 220. **equally** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 221. **especially** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适(前置词在后面:mainly)
-- 222. **even though** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 223. **except** — L5:不能(难词:including/everything; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 224. **for instance** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 225. **generally** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 226. **in addition** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 227. **in conclusion** — L5:勉强(难词:introduce); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 228. **in contrast** — L5:勉强(难词:different); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 229. **in fact** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 230. **in general** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 231. **in other words** — L5:勉强(难词:different); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 232. **in particular** — L5:不能(难词:especially/everything; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 233. **in summary** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 234. **in the end** — L5:勉强(难词:everything); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 235. **mainly** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 236. **namely** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 237. **notably** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 238. **on the contrary** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 239. **on the whole** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 240. **overall** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 241. **rather** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 242. **regardless** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 243. **similarly** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 244. **specifically** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 245. **such as** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 246. **accessory** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 247. **accommodate** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 248. **adolescent** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 249. **alternate** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 250. **amid** — L5:勉强(难词:surrounded); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 251. **back up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 252. **bear in mind** — L5:不能(难词:something/important; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 253. **blend in** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 254. **bring about** — L5:不能(难词:something/different; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 255. **build up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 256. **call off** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 257. **cellulose** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 258. **chromosome** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 259. **count on** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 260. **cross out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 261. **cut back** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 262. **deal with** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 263. **emit** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 264. **exterior** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 265. **fauna** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 266. **focal** — L5:勉强(难词:attention); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 267. **graphic** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 268. **hand out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 269. **keep in mind** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 270. **lay out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 271. **line graph** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 272. **make out** — L5:不能(难词:understand/something; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 273. **migratory** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 274. **on behalf of** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 275. **parasite** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 276. **phase** — L5:勉强(难词:process); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 277. **pie chart** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 278. **put up with** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 279. **rely on** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 280. **show up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 281. **take into account** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 282. **account for** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 283. **act on** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 284. **add up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 285. **algae** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 286. **allergic** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 287. **aquatic** — L5:勉强(难词:happening); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 288. **bar graph** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 289. **beforehand** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 290. **boil down to** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 291. **by and large** — L5:勉强(难词:generally); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 292. **canine** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 293. **catch on** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 294. **cell membrane** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 295. **come down to** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 296. **commute** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 297. **crop** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 298. **descend** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 299. **endangered** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适(前置词在后面:extinct)
-- 300. **evaporate** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 301. **extinct** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 302. **fall behind** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 303. **figure of speech** — L5:不能(难词:something/different; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 304. **food chain** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 305. **food web** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 306. **freshen up** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 307. **get by** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 308. **go along with** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 309. **gravitational** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 310. **greenhouse effect** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 311. **hibernate** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 312. **insulate** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 313. **keep track of** — L5:不能(难词:attention/something; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 314. **landform** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 315. **leave behind** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 316. **life cycle** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:注意(涉及:暴力); L8:偏难(词形/概念偏学术或偏少见)
-- 317. **live up to** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 318. **look out for** — L5:勉强(难词:carefully); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 319. **marine** — L5:勉强(难词:connected); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 320. **offspring** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 321. **on account of** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 322. **out of the blue** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 323. **ozone** — L5:能; L6:唯一(线索足(overlap=2)); L7:OK; L8:合适
-- 324. **plankton** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 325. **point of view** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 326. **pollutant** — L5:勉强(难词:something); L6:不唯一(线索偏少(overlap=1)); L7:注意(涉及:烟酒毒品); L8:偏难(词形/概念偏学术或偏少见)
-- 327. **prolonged** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 328. **put forward** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 329. **reproduce** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 330. **rule out** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 331. **soluble** — L5:勉强(难词:dissolved); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 332. **volcanic** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 333. **water cycle** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 334. **watershed** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 335. **wind up** — L5:勉强(难词:situation); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 336. **acoustics** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 337. **alloy** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 338. **amass** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 339. **anthem** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 340. **aperture** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 341. **aroma** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 342. **assent** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 343. **attest** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 344. **back down** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 345. **bail out** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 346. **balk** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 347. **bang out** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 348. **bask** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 349. **bedrock** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 350. **bestow** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 351. **blot out** — L5:勉强(难词:completely); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 352. **bog** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 353. **botany** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 354. **bout** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 355. **brackish** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 356. **bristle** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 357. **brunt** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 358. **bumble** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 359. **capillary** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:注意(涉及:暴力); L8:偏难(词形/概念偏学术或偏少见)
-- 360. **chasm** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 361. **clump** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 362. **compost** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 363. **concave** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 364. **convex** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 365. **crevice** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 366. **decoy** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 367. **detour** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 368. **dilute** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:合适
-- 369. **dwindle** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 370. **eddy** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 371. **engulf** — L5:勉强(难词:completely); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 372. **extricate** — L5:不能(难词:difficult/situation; 定义偏长/抽象); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:偏难(词形/概念偏学术或偏少见)
-- 373. **gust** — L5:能; L6:不唯一(线索偏少(overlap=1)); L7:OK; L8:偏易(基础词; 可提前或用作复习)
-- 374. **morph** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 375. **scour** — L5:勉强(难词:thoroughly); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 376. **silt** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 377. **spore** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 378. **submerge** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 379. **unearth** — L5:勉强(难词:something); L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 380. **verdant** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 381. **sapling** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
-- 382. **topsoil** — L5:能; L6:不唯一(例句线索少(去掉词后几乎是空壳)); L7:OK; L8:合适
+- moral | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:story)，易靠语感/蒙) | 选项:[conflict / dependable / moral / retell] | L7:OK | L8:合适
+- fable | L5-Def:勉强(需要中文支架/图示；词缀偏学术、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / bestow / fable / moral] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- folktale | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conclude / folktale / forgiving / joyful] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- myth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[evaporate / migratory / myth / ozone] | L7:OK | L8:合适
+- rhyme | L5-Def:能 | L5-Ex:能 | L6:能(线索词: end,same,sound) | 选项:[equality / homophone / rhyme / synonym] | L7:OK | L8:合适
+- stanza | L5-Def:能 | L5-Ex:能 | L6:能(线索词: poem,lines) | 选项:[latitude / longitude / stanza / verse] | L7:OK | L8:合适
+- verse | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:song)，易靠语感/蒙) | 选项:[anthem / friendly / scene / verse] | L7:OK | L8:合适
+- syllable | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:word)，易靠语感/蒙) | 选项:[antonym / migratory / syllable / vowel] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- vowel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:word)，易靠语感/蒙) | 选项:[antonym / syllable / synonym / vowel] | L7:OK | L8:合适
+- consonant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: letter,not,vowel) | 选项:[consonant / mean / syllable / vowel] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- prefix | L5-Def:勉强(需要中文支架/图示；定义太长) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clearly / impatient / prefix / suffix] | L7:OK | L8:合适
+- suffix | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / percent / prefix / suffix] | L7:OK | L8:合适
+- synonym | L5-Def:能 | L5-Ex:能 | L6:能(线索词: big,large,same) | 选项:[amass / equality / rhyme / synonym] | L7:OK | L8:合适
+- antonym | L5-Def:能 | L5-Ex:能 | L6:能(线索词: hot,cold) | 选项:[antonym / evaporate / insulate / nevertheless] | L7:OK | L8:合适
+- homophone | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: words,sound,different) | 选项:[homophone / marine / mean / rhyme] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dialogue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alternate / dialogue / difference / forgiving] | L7:OK | L8:合适
+- narrator | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[consequently / narrator / regardless / retell] | L7:OK | L8:合适
+- scene | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[creative / friendly / invention / scene] | L7:OK | L8:合适
+- conflict | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:story)，易靠语感/蒙) | 选项:[compassionate / conflict / explorer / resolution] | L7:OK | L8:合适
+- resolution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compassionate / conflict / resolution / respectful] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- end | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conflict / end / moral / stomach] | L7:OK | L8:合适
+- retell | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biography / consequently / narrator / retell] | L7:OK | L8:合适
+- infer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / caption / graphic / infer] | L7:OK | L8:合适
+- conclude | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altogether / conclude / consequently / folktale] | L7:OK | L8:合适
+- theme | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glossary / mainly / organ / theme] | L7:OK | L8:合适
+- genre | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[especially / genre / infer / survey] | L7:OK | L8:合适
+- biography | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biography / consequently / modest / retell] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- autobiography | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[autobiography / compassionate / detour / equator] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- caption | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[caption / considerate / friendly / pessimistic] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- glossary | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: book,words) | 选项:[glossary / homophone / mainly / retell] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- amphibian | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: water,lives,land) | 选项:[amphibian / brackish / pollutant / watershed] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- carbon | L5-Def:能 | L5-Ex:能 | L6:能(线索词: plants,animals) | 选项:[botany / carbon / fable / reproduce] | L7:OK | L8:合适
+- dinosaur | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[dinosaur / joint / plankton / skeleton] | L7:OK | L8:合适
+- skeleton | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amid / anthem / dinosaur / skeleton] | L7:OK | L8:合适
+- brain | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:body)，易靠语感/蒙) | 选项:[brain / digest / protein / tissue] | L7:OK | L8:合适
+- lung | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:breathe)，易靠语感/蒙) | 选项:[blood / breath / lung / pollutant] | L7:OK | L8:合适
+- heart | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / certainly / heart / revolution] | L7:OK | L8:合适
+- stomach | L5-Def:能 | L5-Ex:能 | L6:能(线索词: after,food) | 选项:[accessory / compost / digest / stomach] | L7:OK | L8:合适
+- diet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[diet / especially / germ / nutrition] | L7:OK | L8:合适
+- nutrition | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: strong,healthy) | 选项:[attest / diet / nutrition / vitamin] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- vitamin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / trait / vaccine / vitamin] | L7:OK | L8:合适
+- protein | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:helps)，易靠语感/蒙) | 选项:[addition / estimate / protein / tax] | L7:OK | L8:合适
+- fiber | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attest / bacteria / fiber / hygiene] | L7:OK | L8:合适
+- hygiene | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attest / digest / germ / hygiene] | L7:OK | L8:合适
+- germ | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[germ / hygiene / nutrition / vitamin] | L7:OK | L8:合适
+- bacteria | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attest / bacteria / digest / stomach] | L7:OK | L8:合适
+- virus | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / insulate / virus / volcanic] | L7:OK | L8:合适
+- vaccine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[generally / hibernate / trait / vaccine] | L7:OK | L8:合适
+- disease | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:work)，易靠语感/蒙) | 选项:[attest / commute / disease / explorer] | L7:OK | L8:合适
+- symptom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / insulate / rather / symptom] | L7:OK | L8:合适
+- medicine | L5-Def:能 | L5-Ex:能 | L6:能(线索词: doctor,help) | 选项:[accommodate / amendment / longitude / medicine] | L7:OK | L8:合适
+- organ | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[artery / heart / organ / vein] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- tissue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / brain / protein / tissue] | L7:OK | L8:合适
+- bone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / bone / joint / protein] | L7:OK | L8:合适
+- joint | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bend)，易靠语感/蒙) | 选项:[algae / alloy / bone / joint] | L7:OK | L8:合适
+- nerve | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:brain)，易靠语感/蒙) | 选项:[antonym / narrator / nerve / nevertheless] | L7:OK | L8:合适
+- blood | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:body)，易靠语感/蒙) | 选项:[artery / blood / chromosome / lung] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- artery | L5-Def:能 | L5-Ex:能 | L6:能(线索词: carries,blood,heart) | 选项:[artery / heart / organ / vein] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- vein | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[concave / pulse / skeleton / vein] | L7:OK | L8:合适
+- pulse | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:feel)，易靠语感/蒙) | 选项:[breath / considerate / pulse / vein] | L7:OK | L8:合适
+- breath | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:take)，易靠语感/蒙) | 选项:[breath / chasm / considerate / pulse] | L7:OK | L8:合适
+- digest | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:food)，易靠语感/蒙) | 选项:[allergic / digest / protein / stomach] | L7:OK | L8:合适
+- trait | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:get)，易靠语感/蒙) | 选项:[addition / bristle / heritage / trait] | L7:OK | L8:合适
+- congress | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:make)，易靠语感/蒙) | 选项:[brackish / congress / dilute / settler] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- rights | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:school)，易靠语感/蒙) | 选项:[botany / except / rights / table] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- tax | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:money)，易靠语感/蒙) | 选项:[budget / economy / protein / tax] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- budget | L5-Def:能 | L5-Ex:能 | L6:能(线索词: how,spend) | 选项:[accordingly / anthem / budget / modest] | L7:OK | L8:合适
+- economy | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:jobs)，易靠语感/蒙) | 选项:[economy / folktale / nation / slavery] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- import | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[equator / export / import / topsoil] | L7:OK | L8:合适
+- export | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crop / equator / export / import] | L7:OK | L8:合适
+- invention | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bask / creative / emit / invention] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- explorer | L5-Def:能 | L5-Ex:能 | L6:能(线索词: find,new) | 选项:[amphibian / colony / explorer / settler] | L7:OK | L8:合适
+- settler | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:new)，易靠语感/蒙) | 选项:[amphibian / creative / explorer / settler] | L7:OK | L8:合适
+- colony | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[colony / explorer / revolution / row] | L7:OK | L8:合适
+- revolution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adolescent / colony / revolution / slavery] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- independence | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compassionate / import / independence / nation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- amendment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amendment / democracy / medicine / moral] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- slavery | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[consonant / independence / nation / slavery] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- equality | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:same)，易靠语感/蒙) | 选项:[decimal / equality / nation / synonym] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- protest | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[hibernate / nation / protest / slavery] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- boycott | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boycott / canine / civil / equality] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- civil | L5-Def:能 | L5-Ex:能 | L6:能(线索词: rights,people) | 选项:[boycott / civil / equality / rights] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- democracy | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:vote)，易靠语感/蒙) | 选项:[amendment / biography / democracy / independent] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- republic | L5-Def:能 | L5-Ex:能 | L6:能(线索词: elect,leaders) | 选项:[addition / allergic / democracy / republic] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- nation | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[myth / nation / row / slavery] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- hemisphere | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[equator / hemisphere / marine / notably] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- equator | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / equator / import / nevertheless] | L7:OK | L8:合适
+- latitude | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:lines)，易靠语感/蒙) | 选项:[compass / latitude / longitude / stanza] | L7:OK | L8:合适
+- longitude | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:lines)，易靠语感/蒙) | 选项:[addition / latitude / longitude / stanza] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- compass | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bumble / compass / explorer / resolution] | L7:OK | L8:合适
+- resource | L5-Def:能 | L5-Ex:能 | L6:能(线索词: water,need) | 选项:[additionally / aquatic / brackish / resource] | L7:OK | L8:合适
+- heritage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fraction / heritage / mainly / organ] | L7:OK | L8:合适
+- fraction | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decimal / even / fraction / hemisphere] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- decimal | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[decimal / equality / fraction / synonym] | L7:OK | L8:合适
+- percent | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hundred)，易靠语感/蒙) | 选项:[confident / equally / percent / rights] | L7:OK | L8:合适
+- estimate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altogether / estimate / protein / row] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- equation | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / carry / decimal / equation] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- addition | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / economy / explorer / protein] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- difference | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[alternate / commute / dialogue / difference] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- product | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry / product / quotient / table] | L7:OK | L8:合适
+- quotient | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / carry / product / quotient] | L7:OK | L8:合适
+- remainder | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:divide)，易靠语感/蒙) | 选项:[addition / quotient / remainder / trait] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- digit | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:number)，易靠语感/蒙) | 选项:[accommodate / difference / digit / greatest] | L7:OK | L8:合适
+- place value | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:number)，易靠语感/蒙) | 选项:[account for / as a result / before long / place value] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- regroup | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ones)，易靠语感/蒙) | 选项:[column / congress / moreover / regroup] | L7:OK | L8:合适
+- carry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry / equation / product / quotient] | L7:OK | L8:合适
+- column | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / column / digit / product] | L7:OK | L8:合适
+- row | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altogether / estimate / impatient / row] | L7:OK | L8:合适
+- table | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:facts)，易靠语感/蒙) | 选项:[botany / product / protein / table] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- tally | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:mark)，易靠语感/蒙) | 选项:[convex / exterior / joyful / tally] | L7:OK | L8:合适
+- survey | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[explorer / genre / specifically / survey] | L7:OK | L8:合适
+- greatest | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[difference / digit / fraction / greatest] | L7:OK | L8:合适
+- even | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:groups)，易靠语感/蒙) | 选项:[accommodate / congress / even / reproduce] | L7:OK | L8:合适
+- adventurous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adventurous / creative / except / mainly] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ambitious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accessory / acoustics / ambitious / guilty] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- compassionate | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compassionate / conflict / energetic / resolution] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- confident | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[botany / confident / guilty / percent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- considerate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bog / bristle / considerate / similarly] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- cooperative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cooperative / nevertheless / overall / tissue] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- creative | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[creative / invention / scene / settler] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- demanding | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[demanding / impatient / nonetheless / survey] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dependable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[demanding / dependable / moral / responsible] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- devoted | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commute / devoted / digit / plankton] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- energetic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compassionate / energetic / mischievous / prolonged] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- enthusiastic | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:stop)，易靠语感/蒙) | 选项:[balk / clearly / consonant / enthusiastic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- fearless | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fearless / mainly / sapling / skeleton] | L7:OK | L8:合适
+- forgiving | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[end / folktale / forgiving / stomach] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- friendly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assent / friendly / invention / settler] | L7:OK | L8:合适
+- guilty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambitious / confident / guilty / stomach] | L7:OK | L8:合适
+- impatient | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altogether / demanding / impatient / row] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- independent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[autobiography / commute / independent / retell] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- joyful | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anthem / folktale / joyful / tally] | L7:OK | L8:合适
+- mean | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assent / dialogue / glossary / mean] | L7:OK | L8:合适
+- mischievous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[energetic / gust / mischievous / rhyme] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- modest | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[despite / modest / nonetheless / scene] | L7:OK | L8:合适
+- optimistic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accessory / medicine / optimistic / sapling] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- pessimistic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anthem / caption / friendly / pessimistic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- respectful | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:others)，易靠语感/蒙) | 选项:[cooperative / mean / modest / respectful] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- responsible | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dependable / friendly / responsible / rights] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- bring up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bring up / go along with / on behalf of / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- catch up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[catch up / hang out / in the end / slow down] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- check out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:cool)，易靠语感/蒙) | 选项:[after all / at first / back down / check out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- come along | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come along / come down to / hang out / in particular] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- cut off | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at last / back up / by contrast / cut off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- drop off | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drop off / get by / in addition / line up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- end up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[back down / end up / hang out / wind up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- fall apart | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compared to / fall apart / make sure / wear out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- get along | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[for instance / get along / in general / move on] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- get over | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bail out / get over / line graph] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- get rid of | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[get rid of / keep in mind / rely on / think over] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- go ahead | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bail out / bang out / go ahead] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- go through | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:hard)，易靠语感/蒙) | 选项:[back and forth / bring about / go through / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- grow up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grow up / hand in / look into / pay attention] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- hand in | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fall behind / hand in / put off / show up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- hang out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[catch up / end up / hang out / sign up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- keep up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at last / back up / cut off / keep up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- knock down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:enough)，易靠语感/蒙) | 选项:[back and forth / get by / knock down / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- leave out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[account for / leave out / put off / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- let down | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[in contrast / let down / on behalf of / pie chart] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- line up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drop off / get by / leave behind / line up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- look after | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drop off / freshen up / look after / put away] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- look into | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fall apart / look into / run into / shut down] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- look up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add up / at last / back up / look up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- make sure | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drop off / fall apart / keep in mind / make sure] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- mix up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[look into / look out for / mix up / show up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- move on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:next)，易靠语感/蒙) | 选项:[from now on / move on / sort out / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- pass out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grow up / hand in / look into / pass out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- pay attention | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grow up / hand in / look into / pay attention] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- pick out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bail out / pick out / stand out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- pull over | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[look into / mix up / pull over / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- put away | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[freshen up / in the meantime / look after / put away] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- put off | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fall behind / hand in / in the end / put off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- put together | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bear in mind / boil down to / put together] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- run into | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bear in mind / grow up / look into / run into] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- shut down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[after all / back down / look into / shut down] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- sign up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hand in / hang out / show up / sign up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- slow down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / in contrast / slow down / speak up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- sort out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[in the meantime / move on / sort out / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- speak up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:hear)，易靠语感/蒙) | 选项:[back up / cut back / put away / speak up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- stand out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / in the end / pick out / stand out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- stay up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[stay up / take over / think over / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- take apart | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deal with / for instance / make out / take apart] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- take away | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / back down / lay out / take away] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- take off | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / hand in / make sure / take off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- take over | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grow up / look into / stay up / take over] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- think over | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bang out / keep in mind / pick out / think over] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- turn down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / back down / bar graph / turn down] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- use up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[get by / look out for / take into account / use up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- watch out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[by contrast / on the whole / watch out / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- wear out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[day by day / on the contrary / slow down / wear out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- work out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / at last / in the end / work out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- wrap up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bring up / move on / on behalf of / wrap up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- back and forth | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[back and forth / in other words / knock down / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- bit by bit | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bar graph / because of / before long / bit by bit] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- day by day | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[build up / day by day / grow up / look after] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- from now on | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[from now on / mix up / on account of / show up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- in the meantime | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bang out / because of / in the meantime / wrap up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- once upon a time | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at the same time / in fact / live up to / once upon a time] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- moreover | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[extricate / independence / moreover / regardless] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- nevertheless | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / cooperative / except / nevertheless] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- nonetheless | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[demanding / impatient / nonetheless / rhyme] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- accordingly | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accordingly / bask / insulate / regardless] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- additionally | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[additionally / consequently / enthusiastic / resource] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- after all | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / come down to / go along with / in the end] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- altogether | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altogether / estimate / namely / row] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- as a matter of fact | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as a matter of fact / at the same time / greenhouse effect / take into account] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- as a result | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as a result / because of / call off / end up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- at first | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / fall apart / lay out / put together] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- at last | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at last / keep up / leave behind / work out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- at the same time | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at the same time / figure of speech / greenhouse effect / once upon a time] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- because of | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because of / call off / figure of speech / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- before long | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bar graph / before long / bit by bit / build up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- by contrast | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[by contrast / cut off / on the whole / watch out] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- certainly | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altogether / certainly / heart / revolution] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- clearly | L5-Def:能 | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[balk / clearly / enthusiastic / joyful] | L7:OK | L8:合适
+- compared to | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at last / compared to / in the end / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- consequently | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bacteria / consequently / except / modest] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- despite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / aquatic / despite / overall] | L7:OK | L8:合适
+- due to | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[because of / due to / figure of speech / on account of] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- equally | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cooperative / end / equally / percent] | L7:OK | L8:合适
+- especially | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adolescent / diet / especially / genre] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- even though | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[account for / as a result / before long / even though] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- except | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compassionate / cooperative / except / nevertheless] | L7:OK | L8:合适
+- for instance | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[food web / for instance / get along / take apart] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- generally | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accordingly / bask / generally / hibernate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- in addition | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[account for / as a result / drop off / in addition] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- in conclusion | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add up / in conclusion / in general / think over] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in contrast | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bring about / go through / in contrast / speak up] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in fact | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drop off / in fact / on account of / once upon a time] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in general | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[figure of speech / get along / in general / stay up] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in other words | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[back and forth / cell membrane / go along with / in other words] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- in particular | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[for instance / hang out / in particular / out of the blue] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in summary | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add up / boil down to / in summary / sort out] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- in the end | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / back and forth / hang out / in the end] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- mainly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glossary / mainly / retell / theme] | L7:OK | L8:合适
+- namely | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altogether / anthem / modest / namely] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- notably | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aquatic / marine / notably / plankton] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- on the contrary | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[day by day / go through / on the contrary / wear out] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- on the whole | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[day by day / even though / look out for / on the whole] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- overall | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cooperative / despite / organ / overall] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- rather | L5-Def:能 | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / import / insulate / rather] | L7:OK | L8:合适
+- regardless | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accordingly / antonym / insulate / regardless] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- similarly | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bog / bristle / considerate / similarly] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- specifically | L5-Def:不能(逻辑连接词偏写作；二年级ESL难掌握与产出) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[consonant / mean / specifically / survey] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- such as | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at last / back up / cut off / such as] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- accessory | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accessory / friendly / insulate / mean] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- accommodate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accommodate / chromosome / commute / digit] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- adolescent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adolescent / aquatic / cooperative / rights] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- alternate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alternate / commute / difference / exterior] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- amid | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amid / anthem / insulate / skeleton] | L7:OK | L8:合适
+- back up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at last / back up / cut off / grow up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- bear in mind | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bear in mind / boil down to / by and large / run into] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- blend in | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bail out / bang out / blend in] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- bring about | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bring about / bring up / go through / on the whole] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- build up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[before long / build up / figure of speech / in conclusion] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- call off | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as a result / because of / call off / water cycle] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- cellulose | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bone / cellulose / clump / sapling] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- chromosome | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accommodate / chromosome / digit / graphic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- count on | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[count on / fall behind / keep in mind / keep up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- cross out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / back down / cross out / look up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- cut back | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bail out / bang out / cut back] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- deal with | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / deal with / take apart / wear out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- emit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amid / balk / bask / emit] | L7:OK | L8:合适
+- exterior | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / alternate / blood / exterior] | L7:OK | L8:合适
+- fauna | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / carbon / fauna / marine] | L7:OK | L8:合适
+- focal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[additionally / focal / moreover / watershed] | L7:OK | L8:合适
+- graphic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chromosome / decimal / fraction / graphic] | L7:OK | L8:合适
+- hand out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / hand out / on the contrary / wear out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- keep in mind | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drop off / keep in mind / leave out / make sure] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- lay out | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / go ahead / lay out / take away] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- line graph | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[day by day / get over / keep track of / line graph] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- make out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fall apart / get rid of / in conclusion / make out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- migratory | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bone / migratory / myth / syllable] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- on behalf of | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bring up / let down / on behalf of / wrap up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- parasite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / amphibian / canine / parasite] | L7:OK | L8:合适
+- phase | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adventurous / explorer / phase / settler] | L7:OK | L8:合适
+- pie chart | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come down to / in conclusion / pie chart / show up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- put up with | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[account for / as a result / before long / put up with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- rely on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add up / at last / food web / rely on] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- show up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fall behind / hand in / mix up / show up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- take into account | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hand in / line up / make sure / take into account] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- account for | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[account for / as a result / before long / bring about] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- act on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[act on / add up / due to / end up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- add up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[act on / add up / due to / point of view] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- algae | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:green)，易靠语感/蒙) | 选项:[algae / alloy / amass / verdant] | L7:OK | L8:合适
+- allergic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allergic / capillary / digest / enthusiastic] | L7:OK | L8:合适
+- aquatic | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[aquatic / carbon / marine / notably] | L7:OK | L8:合适
+- bar graph | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bar graph / before long / bit by bit / food web] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- beforehand | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adolescent / altogether / beforehand / chromosome] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- boil down to | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at last / boil down to / in the end / wear out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- by and large | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bear in mind / boil down to / by and large / come down to] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- canine | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:dogs)，易靠语感/蒙) | 选项:[boycott / canine / narrator / parasite] | L7:OK | L8:合适
+- catch on | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at last / because of / catch on / in the meantime] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- cell membrane | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as a result / cell membrane / life cycle / pay attention] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- come down to | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come down to / in conclusion / in the end / pie chart] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- commute | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accommodate / commute / devoted / independent] | L7:OK | L8:合适
+- crop | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:grown)，易靠语感/蒙) | 选项:[crop / export / organ / theme] | L7:OK | L8:合适
+- descend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anthem / bedrock / beforehand / descend] | L7:OK | L8:合适
+- endangered | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adolescent / endangered / vitamin / vowel] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- evaporate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / equator / evaporate / nevertheless] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- extinct | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dinosaur / extinct / folktale / volcanic] | L7:OK | L8:合适
+- fall behind | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fall behind / hand in / put off / show up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- figure of speech | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because of / figure of speech / in general / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- food chain | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because of / bit by bit / come along / food chain] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- food web | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[count on / food web / for instance / get along] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- freshen up | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[freshen up / in the meantime / look after / put away] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- get by | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[before long / drop off / get by / line up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- go along with | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / bring up / come down to / go along with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- gravitational | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gravitational / landform / nutrition / vitamin] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- greenhouse effect | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:earth)，易靠语感/蒙) | 选项:[get by / greenhouse effect / knock down / life cycle] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- hibernate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:winter)，易靠语感/蒙) | 选项:[antonym / generally / hibernate / insulate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- insulate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:cold)，易靠语感/蒙) | 选项:[antonym / cellulose / hibernate / insulate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- keep track of | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[day by day / keep track of / water cycle / wear out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- landform | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / allergic / aperture / landform] | L7:OK | L8:合适
+- leave behind | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:go)，易靠语感/蒙) | 选项:[leave behind / leave out / put off / wind up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- life cycle | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because of / bit by bit / hand in / life cycle] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- live up to | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because of / bit by bit / live up to / once upon a time] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- look out for | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[day by day / get by / look out for / on the whole] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- marine | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[aquatic / carbon / marine / notably] | L7:OK | L8:合适
+- offspring | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accessory / acoustics / decoy / offspring] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- on account of | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because of / compared to / due to / on account of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- out of the blue | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[in the meantime / on the contrary / out of the blue / water cycle] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- ozone | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:rays)，易靠语感/蒙) | 选项:[dilute / nutrition / ozone / topsoil] | L7:OK | L8:合适
+- plankton | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commute / devoted / dinosaur / plankton] | L7:OK | L8:合适
+- point of view | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add up / cell membrane / go along with / point of view] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- pollutant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:air)，易靠语感/蒙) | 选项:[breath / eddy / lung / pollutant] | L7:注意(可能引发家长顾虑或需要解释：烟酒毒；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- prolonged | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accessory / brackish / prolonged / watershed] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- put forward | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:plan)，易靠语感/蒙) | 选项:[end up / freshen up / hang out / put forward] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- reproduce | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[botany / carbon / creative / reproduce] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- rule out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bail out / bang out / rule out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- soluble | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[brackish / dilute / resource / soluble] | L7:OK | L8:合适
+- volcanic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dinosaur / extinct / prolonged / volcanic] | L7:OK | L8:合适
+- water cycle | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because of / blot out / call off / water cycle] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- watershed | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[focal / fraction / organ / watershed] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- wind up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[end up / leave out / pull over / wind up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- acoustics | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accessory / acoustics / alternate / ambitious] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- alloy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / alloy / amass / aroma] | L7:OK | L8:合适
+- amass | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amass / revolution / synonym / theme] | L7:OK | L8:合适
+- anthem | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amid / anthem / pessimistic / skeleton] | L7:OK | L8:合适
+- aperture | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aperture / breath / emit / invention] | L7:OK | L8:合适
+- aroma | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / aroma / artery / brackish] | L7:OK | L8:合适
+- assent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assent / explorer / friendly / settler] | L7:OK | L8:合适
+- attest | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attest / bacteria / disease / economy] | L7:OK | L8:合适
+- back down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after all / back down / bar graph / end up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- bail out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bail out / bang out / blend in] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- balk | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[balk / clearly / consonant / mean] | L7:OK | L8:合适
+- bang out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bang out / in the meantime / think over] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- bask | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:warm)，易靠语感/蒙) | 选项:[accordingly / bask / crevice / generally] | L7:OK | L8:合适
+- bedrock | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bedrock / beforehand / descend / unearth] | L7:OK | L8:合适
+- bestow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anthem / bestow / fearless / myth] | L7:OK | L8:合适
+- blot out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[at first / bail out / blot out / water cycle] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- bog | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bog / end / row / tax] | L7:OK | L8:合适
+- botany | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[botany / confident / homophone / rights] | L7:OK | L8:合适
+- bout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accommodate / acoustics / amid / bout] | L7:OK | L8:合适
+- brackish | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[brackish / dilute / prolonged / watershed] | L7:OK | L8:合适
+- bristle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bog / bristle / considerate / similarly] | L7:OK | L8:合适
+- brunt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / alloy / amass / brunt] | L7:OK | L8:合适
+- bumble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bumble / end / nevertheless / nonetheless] | L7:OK | L8:合适
+- capillary | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:tiny)，易靠语感/蒙) | 选项:[allergic / capillary / certainly / clearly] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- chasm | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:deep)，易靠语感/蒙) | 选项:[algae / breath / chasm / eddy] | L7:OK | L8:合适
+- clump | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clump / crevice / sapling / spore] | L7:OK | L8:合适
+- compost | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compost / prefix / pulse / silt] | L7:OK | L8:合适
+- concave | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bacteria / capillary / concave / convex] | L7:OK | L8:合适
+- convex | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[concave / convex / digit / vowel] | L7:OK | L8:合适
+- crevice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capillary / clump / crevice / spore] | L7:OK | L8:合适
+- decoy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / alloy / decoy / offspring] | L7:OK | L8:合适
+- detour | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anthem / autobiography / detour / equator] | L7:OK | L8:合适
+- dilute | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[brackish / dilute / nutrition / resource] | L7:OK | L8:合适
+- dwindle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / boycott / dwindle / nonetheless] | L7:OK | L8:合适
+- eddy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amid / balk / chasm / eddy] | L7:OK | L8:合适
+- engulf | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anthem / artery / engulf / landform] | L7:OK | L8:合适
+- extricate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cellulose / clump / extricate / sapling] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- gust | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:wind)，易靠语感/蒙) | 选项:[brain / gust / mischievous / rhyme] | L7:OK | L8:合适
+- morph | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / alloy / morph / silt] | L7:OK | L8:合适
+- scour | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / homophone / marine / scour] | L7:OK | L8:合适
+- silt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bedrock / compost / silt / topsoil] | L7:OK | L8:合适
+- spore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clump / pollutant / spore / virus] | L7:OK | L8:合适
+- submerge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[addition / allergic / aperture / submerge] | L7:OK | L8:合适
+- unearth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bedrock / boycott / clump / unearth] | L7:OK | L8:合适
+- verdant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[algae / antonym / aquatic / verdant] | L7:OK | L8:合适
+- sapling | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[equator / gravitational / hemisphere / sapling] | L7:OK | L8:合适
+- topsoil | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antonym / silt / suffix / topsoil] | L7:OK | L8:合适
