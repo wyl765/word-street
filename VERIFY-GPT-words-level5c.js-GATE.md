@@ -1,334 +1,336 @@
-# VERIFY-GPT words-level5c.js GATE
+# VERIFY-GPT — words-level5c.js
 
-逐词专项审校（L5-L8）。每行=1词。
+- One line per word (no skipping).
+- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+- L6: Reverse test — blank example + 4 options.
+- L7: Cultural sensitivity.
+- L8: Learning path / level fit.
 
-格式: word | L5(Mark模拟) | L6(例句反测) | L7(文化敏感) | L8(学习路径)
-
-- abolition | 不能(卡点:officially/practice) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- abrupt | 勉强(卡点:unexpected) | 不唯一(语境泛/同义词多) | OK | 偏易
-- acclaimed | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- accountant | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- acute | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- adhesive | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- aerial | 勉强(卡点:happening) | 偏不唯一(线索弱:above) | OK | 偏易
-- affirmative | 不能(卡点:agreement) | 不唯一(语境泛/同义词多) | OK | 合适
-- ailment | 能 | 偏不唯一(线索弱:that) | OK | 合适
-- aisle | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- algebra | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- allegory | 勉强(卡点:characters) | 不唯一(语境泛/同义词多) | OK | 合适
-- allude | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- ambassador | 勉强(卡点:represent) | 不唯一(语境泛/同义词多) | OK | 合适
-- ambiguity | 勉强(卡点:situation) | 不唯一(语境泛/同义词多) | OK | 合适
-- ammunition | 勉强 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
-- anatomy | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- animation | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- annotate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- antidote | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- antiquity | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
-- apparel | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
-- apportion | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- arcade | 勉强(卡点:coin-operated) | 偏不唯一(线索弱:games) | OK | 偏易
-- archaic | 勉强(卡点:old-fashioned) | 不唯一(语境泛/同义词多) | OK | 合适
-- arithmetic | 勉强(卡点:subtracting/multiplying) | 不唯一(语境泛/同义词多) | OK | 合适
-- armistice | 勉强(卡点:agreement) | 较唯一(线索:stop/fighting) | 注意(violence/weapons) | 合适
-- ascertain | 勉强 | 偏不唯一(线索弱:certain) | OK | 合适
-- assertive | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- astonish | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- astronaut | 勉强 | 偏不唯一(线索弱:space) | OK | 合适
-- astronomy | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- attic | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- audible | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- automation | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- bachelor | 勉强(卡点:four-year) | 偏不唯一(线索弱:degree) | OK | 合适
-- ballad | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- barricade | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- bazaar | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 偏易
-- benign | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- bibliography | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- bilingual | 勉强(卡点:languages) | 不唯一(语境泛/同义词多) | OK | 合适
-- blemish | 能 | 偏不唯一(线索弱:small) | OK | 合适
-- bliss | 勉强(卡点:happiness) | 不唯一(语境泛/同义词多) | OK | 偏易
-- blockade | 勉强(卡点:especially) | 偏不唯一(线索弱:ships) | OK | 合适
-- bouquet | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- brigade | 勉强(卡点:firefighters) | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
-- buoyant | 能 | 偏不唯一(线索弱:float) | OK | 合适
-- caffeine | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- calamity | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- caliber | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- calligraphy | 不能(卡点:handwriting) | 偏不唯一(线索弱:special) | OK | 合适
-- cardiovascular | 不能 | 较唯一(线索:heart/your) | OK | 合适
-- cascade | 勉强(卡点:waterfall/happening) | 不唯一(语境泛/同义词多) | OK | 合适
-- casualty | 能 | 较唯一(线索:injured/accident) | 注意(violence/weapons) | 合适
-- charisma | 能 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 合适
-- circa | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- civilian | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- clarification | 不能(卡点:understand) | 不唯一(语境泛/同义词多) | OK | 合适
-- clemency | 勉强(卡点:forgiveness) | 不唯一(语境泛/同义词多) | OK | 合适
-- cliche | 能 | 偏不唯一(线索弱:that) | OK | 偏易
-- clientele | 勉强(卡点:customers) | 不唯一(语境泛/同义词多) | OK | 合适
-- clockwise | 勉强(卡点:direction) | 偏不唯一(线索弱:clock) | OK | 合适
-- coax | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- coexist | 勉强(卡点:peacefully) | 偏不唯一(线索弱:exist) | OK | 合适
-- coincidence | 不能(卡点:surprising/situation) | 偏不唯一(线索弱:same) | OK | 合适
-- colleague | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- communism | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- competence | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- complication | 不能(卡点:situation) | 不唯一(语境泛/同义词多) | OK | 合适
-- compliment | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- composure | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- conclusive | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- condense | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- conspire | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- contentious | 不能(卡点:disagreement/arguments) | 不唯一(语境泛/同义词多) | OK | 合适
-- contingency | 不能 | 偏不唯一(线索弱:plan) | OK | 合适
-- contractor | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- conversion | 勉强(卡点:different) | 不唯一(语境泛/同义词多) | OK | 合适
-- convict | 能 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
-- coral | 勉强(卡点:creatures) | 不唯一(语境泛/同义词多) | OK | 偏易
-- coronation | 勉强 | 偏不唯一(线索弱:king) | OK | 合适
-- corporal | 能 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
-- corridor | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- counterfeit | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- credential | 勉强(卡点:qualifications) | 不唯一(语境泛/同义词多) | OK | 合适
-- crescendo | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- crimson | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- critique | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- culprit | 勉强(卡点:responsible) | 不唯一(语境泛/同义词多) | OK | 合适
-- dazzle | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- debut | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- deceit | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- defiance | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- deforestation | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- delicacy | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- deluge | 能 | 偏不唯一(线索弱:flood) | OK | 偏易
-- demolish | 勉强(卡点:completely) | 不唯一(语境泛/同义词多) | OK | 合适
-- designation | 不能 | 不唯一(语境泛/同义词多) | OK | 合适(定义语法异常→额外负担)
-- desolate | 能 | 偏不唯一(线索弱:empty) | OK | 合适
-- despair | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- destitute | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- devastation | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- devious | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- devout | 勉强(卡点:religious/committed) | 不唯一(语境泛/同义词多) | OK | 偏易
-- dialect | 能 | 偏不唯一(线索弱:region) | OK | 合适
-- dictator | 能 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- disdain | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- dismay | 勉强(卡点:discouragement) | 不唯一(语境泛/同义词多) | OK | 偏易
-- distinction | 不能(卡点:difference) | 偏不唯一(线索弱:between) | OK | 合适
-- divert | 勉强(卡点:direction) | 不唯一(语境泛/同义词多) | OK | 偏易
-- dominion | 能 | 偏不唯一(线索弱:land) | OK | 合适
-- dubious | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- emigrate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- eminent | 勉强(卡点:respected) | 不唯一(语境泛/同义词多) | OK | 合适
-- empathy | 勉强(卡点:understand) | 偏不唯一(线索弱:understand) | OK | 合适
-- engrave | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- enlighten | 勉强(卡点:understanding) | 不唯一(语境泛/同义词多) | OK | 合适
-- enrich | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- envoy | 勉强(卡点:messenger/representative) | 不唯一(语境泛/同义词多) | OK | 偏易
-- estate | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- eternal | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- evade | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- excursion | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- exposition | 勉强(卡点:beginning) | 不唯一(语境泛/同义词多) | OK | 合适
-- ferocious | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- festive | 勉强(卡点:celebratory) | 不唯一(语境泛/同义词多) | OK | 合适
-- feudal | 能 | 较唯一(线索:system/land) | OK | 偏易
-- folklore | 勉强(卡点:traditional) | 不唯一(语境泛/同义词多) | OK | 合适
-- fortitude | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- genealogy | 勉强(卡点:ancestors) | 偏不唯一(线索弱:family) | OK | 合适
-- grotesque | 勉强(卡点:distorted) | 不唯一(语境泛/同义词多) | OK | 合适
-- grudge | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- hostage | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- humiliation | 不能 | 偏不唯一(线索弱:front) | OK | 合适
-- impediment | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- inaugural | 勉强(卡点:important) | 不唯一(语境泛/同义词多) | OK | 合适
-- incarcerate | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- indignant | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- infantry | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- inheritance | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- injustice | 勉强(卡点:treatment/situation) | 不唯一(语境泛/同义词多) | OK | 合适
-- instigate | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
-- interrogate | 不能(卡点:questions) | 不唯一(语境泛/同义词多) | OK | 合适
-- laborious | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- malice | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- metaphor | 勉强(卡点:describes) | 不唯一(语境泛/同义词多) | OK | 合适
-- neutrality | 勉强(卡点:disagreement) | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
-- overthrow | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- patriot | 能 | 偏不唯一(线索弱:country) | OK | 合适
-- peasant | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
-- pension | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- persecution | 不能(卡点:treatment) | 偏不唯一(线索弱:their) | OK | 合适
-- plague | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- plummet | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- polarize | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- retaliate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- retribution | 不能(卡点:punishment) | 不唯一(语境泛/同义词多) | OK | 合适
-- sabotage | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- spectacular | 不能(卡点:impressive/eye-catching) | 不唯一(语境泛/同义词多) | OK | 合适
-- squander | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- subdue | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- supersede | 勉强(卡点:effective) | 不唯一(语境泛/同义词多) | OK | 合适
-- testimony | 勉强(卡点:statement/especially) | 不唯一(语境泛/同义词多) | OK | 合适
-- theology | 能 | 不唯一(语境泛/同义词多) | 注意(religion) | 偏难(偏学科/术语)
-- topography | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- transcontinental | 不能(卡点:continent) | 偏不唯一(线索弱:continent) | OK | 合适
-- truce | 勉强(卡点:agreement) | 不唯一(语境泛/同义词多) | OK | 偏易
-- unanimous | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- uprising | 不能(卡点:rebellion) | 不唯一(语境泛/同义词多) | OK | 合适
-- utopia | 能 | 较唯一(线索:imagined/where) | OK | 偏易
-- absentee | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- accreditation | 不能(卡点:standards) | 不唯一(语境泛/同义词多) | OK | 合适
-- adjourn | 勉强(卡点:temporarily) | 不唯一(语境泛/同义词多) | OK | 合适
-- affidavit | 勉强(卡点:statement) | 偏不唯一(线索弱:true) | OK | 合适
-- almanac | 勉强(卡点:predictions/calendars) | 不唯一(语境泛/同义词多) | OK | 合适
-- aqueduct | 勉强(卡点:bridge-like) | 偏不唯一(线索弱:water) | OK | 合适
-- aristocrat | 勉强(卡点:upper-class) | 不唯一(语境泛/同义词多) | OK | 合适
-- artisan | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- assailant | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- asylum | 能 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 偏易
-- bailiff | 勉强(卡点:courtroom) | 不唯一(语境泛/同义词多) | OK | 合适
-- bankruptcy | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- besiege | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- bipartisan | 勉强(卡点:supported/political) | 不唯一(语境泛/同义词多) | OK | 合适
-- brigand | 勉强(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
-- captivity | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- caravan | 勉强(卡点:traveling) | 偏不唯一(线索弱:desert) | OK | 合适
-- chaotic | 勉强(卡点:completely) | 不唯一(语境泛/同义词多) | OK | 合适
-- colossal | 勉强(卡点:extremely) | 不唯一(语境泛/同义词多) | OK | 合适
-- combustion | 勉强 | 不唯一(语境泛/同义词多) | OK | 偏难(抽象名词形态)
-- confederacy | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- congregate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- conspiracy | 勉强 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- depleted | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- diplomatic | 勉强(卡点:offending) | 不唯一(语境泛/同义词多) | OK | 合适
-- escapade | 勉强(卡点:adventure) | 不唯一(语境泛/同义词多) | OK | 合适
-- extortion | 勉强(卡点:threatening) | 不唯一(语境泛/同义词多) | OK | 合适
-- abolitionist | 不能 | 偏不唯一(线索弱:slavery) | 注意(politics/race) | 偏难(制度/社会语境)
-- accomplice | 勉强 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
-- altruism | 勉强(卡点:unselfish) | 不唯一(语境泛/同义词多) | OK | 合适
-- anarchist | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- apathy | 能 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏易
-- armada | 能 | 偏不唯一(线索弱:ships) | 注意(violence/weapons) | 偏易
-- autocracy | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- censorship | 勉强(卡点:government) | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- centennial | 勉强(卡点:hundredth/anniversary) | 不唯一(语境泛/同义词多) | OK | 合适
-- chivalry | 能 | 偏不唯一(线索弱:rules) | OK | 合适
-- circumnavigate | 不能(卡点:especially) | 不唯一(语境泛/同义词多) | OK | 合适
-- colonialism | 不能(卡点:controlling) | 不唯一(语境泛/同义词多) | OK | 合适
-- commodore | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- condolence | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- convalesce | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- crucible | 能 | 偏不唯一(线索弱:test) | OK | 合适
-- cryptic | 勉强(卡点:mysterious) | 偏不唯一(线索弱:meaning) | OK | 合适
-- debilitate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- decimate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- despotism | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- duplicity | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- emancipate | 勉强 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- enclave | 勉强(卡点:different) | 不唯一(语境泛/同义词多) | OK | 合适
-- enmity | 能 | 不唯一(语境泛/同义词多) | OK | 偏易
-- epitome | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- equinox | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- estuary | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- euphoria | 勉强(卡点:happiness/excitement) | 不唯一(语境泛/同义词多) | OK | 合适
-- expatriate | 勉强 | 偏不唯一(线索弱:country) | OK | 合适
-- flotilla | 能 | 偏不唯一(线索弱:boats) | OK | 合适
-- fluorescent | 不能 | 偏不唯一(线索弱:light) | OK | 合适
-- foliage | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- forensic | 能 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
-- fraternity | 勉强(卡点:interests/brotherhood) | 不唯一(语境泛/同义词多) | OK | 合适
-- fuselage | 能 | 偏不唯一(线索弱:airplane) | OK | 合适
-- gladiator | 勉强(卡点:entertainment) | 不唯一(语境泛/同义词多) | OK | 合适
-- globalization | 不能(卡点:connected/information) | 不唯一(语境泛/同义词多) | OK | 偏难(抽象名词形态)
-- hydraulic | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- hypothermia | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- illegitimate | 不能 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
-- impersonate | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- inauguration | 不能(卡点:officially) | 不唯一(语境泛/同义词多) | OK | 合适
-- incandescent | 不能(卡点:extremely) | 不唯一(语境泛/同义词多) | OK | 合适
-- kaleidoscope | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- keynote | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- laureate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- lieutenant | 勉强 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
-- longevity | 勉强 | 较唯一(线索:long/long) | OK | 合适
-- matriarch | 勉强 | 偏不唯一(线索弱:family) | OK | 合适
-- metropolis | 勉强(卡点:important) | 偏不唯一(线索弱:city) | OK | 合适
-- millennial | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- mystification | 不能 | 不唯一(语境泛/同义词多) | OK | 偏难(抽象名词形态)
-- acquittal | 勉强 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
-- admonition | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- alliteration | 不能(卡点:repeating) | 不唯一(语境泛/同义词多) | OK | 合适
-- amphitheater | 不能 | 偏不唯一(线索弱:theater) | OK | 合适
-- annuity | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- appropriation | 不能 | 偏不唯一(线索弱:money) | OK | 合适
-- armament | 勉强(卡点:equipment) | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
-- biennial | 勉强(卡点:happening) | 偏不唯一(线索弱:years) | OK | 合适
-- biodegradable | 不能(卡点:naturally) | 偏不唯一(线索弱:able) | OK | 合适
-- botanical | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- bureaucratic | 不能(卡点:involving) | 偏不唯一(线索弱:rules) | OK | 合适
-- capitulate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- centrifugal | 不能 | 偏不唯一(线索弱:spinning) | OK | 合适
-- citizenship | 不能 | 偏不唯一(线索弱:country) | OK | 合适
-- conglomerate | 不能(卡点:corporation/different/businesses) | 不唯一(语境泛/同义词多) | OK | 合适
-- containment | 不能(卡点:spreading) | 偏不唯一(线索弱:spreading) | OK | 合适
-- defamation | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- denomination | 不能 | 偏不唯一(线索弱:printed) | OK | 合适
-- desegregation | 不能 | 不唯一(语境泛/同义词多) | 注意(politics/race) | 偏难(制度/社会语境)
-- detonate | 能 | 不唯一(语境泛/同义词多) | 注意(violence/weapons) | 合适
-- disarmament | 不能(卡点:countries) | 偏不唯一(线索弱:peace) | 注意(violence/weapons) | 合适
-- disembark | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- dissipate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- dormitory | 勉强 | 偏不唯一(线索弱:students) | OK | 合适
-- dossier | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- eloquence | 勉强(卡点:persuasively) | 不唯一(语境泛/同义词多) | OK | 合适
-- embankment | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- embezzlement | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- empowerment | 不能 | 偏不唯一(线索弱:power) | OK | 合适
-- encryption | 勉强(卡点:converting/information) | 不唯一(语境泛/同义词多) | OK | 合适
-- entomology | 不能(卡点:scientific) | 较唯一(学科线索明显) | OK | 偏难(偏学科/术语)
-- epitaph | 勉强(卡点:gravestone) | 不唯一(语境泛/同义词多) | OK | 合适
-- exasperate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- exhilarate | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- extradite | 勉强 | 偏不唯一(线索弱:back) | 注意(politics/race) | 偏难(制度/社会语境)
-- facsimile | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- firebrand | 勉强(卡点:encourages/rebellion) | 不唯一(语境泛/同义词多) | OK | 合适
-- fissure | 能 | 偏不唯一(线索弱:earth) | OK | 合适
-- foreclosure | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- freelance | 勉强(卡点:different/companies) | 不唯一(语境泛/同义词多) | OK | 合适
-- geriatric | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- germination | 不能(卡点:beginning) | 偏不唯一(线索弱:seed) | OK | 偏难(抽象名词形态)
-- gratification | 不能(卡点:satisfaction/receiving) | 不唯一(语境泛/同义词多) | OK | 合适
-- hallucination | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- herbicide | 勉强 | 偏不唯一(线索弱:weeds) | 注意(violence/weapons) | 合适
-- heredity | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- heresy | 勉强(卡点:teachings) | 不唯一(语境泛/同义词多) | OK | 偏易
-- holistic | 勉强(卡点:considering) | 不唯一(语境泛/同义词多) | OK | 合适
-- idealism | 勉强(卡点:believing/standards/impossible) | 不唯一(语境泛/同义词多) | OK | 合适
-- immobilize | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- incriminate | 不能 | 不唯一(语境泛/同义词多) | OK | 偏难(制度/社会语境)
-- industrialization | 不能(卡点:factories) | 不唯一(语境泛/同义词多) | OK | 偏难(抽象名词形态)
-- ingenuity | 勉强(卡点:inventive) | 不唯一(语境泛/同义词多) | OK | 合适
-- insurrection | 不能(卡点:rebellion/government) | 偏不唯一(线索弱:government) | 注意(politics/race) | 偏难(制度/社会语境)
-- intercede | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- internship | 勉强(卡点:experience) | 不唯一(语境泛/同义词多) | OK | 合适
-- introspection | 不能(卡点:examining) | 不唯一(语境泛/同义词多) | OK | 合适
-- iridescent | 勉强(卡点:different) | 偏不唯一(线索弱:colors) | OK | 合适
-- juxtaposition | 不能(卡点:different) | 不唯一(语境泛/同义词多) | 注意(religion) | 合适
-- laceration | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- landlocked | 勉强(卡点:surrounded) | 较唯一(线索:land/without) | OK | 合适
-- legitimacy | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- lethargy | 不能(卡点:enthusiasm) | 不唯一(语境泛/同义词多) | OK | 合适
-- lexicon | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- liquidate | 勉强(卡点:everything) | 不唯一(语境泛/同义词多) | OK | 合适
-- magnate | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- mammoth | 勉强(卡点:elephant-like) | 不唯一(语境泛/同义词多) | OK | 合适
-- marauder | 能 | 不唯一(语境泛/同义词多) | OK | 合适
-- memento | 能 | 偏不唯一(线索弱:kept) | OK | 合适
-- meteorology | 不能(卡点:scientific) | 偏不唯一(线索弱:weather) | OK | 偏难(偏学科/术语)
-- miscellaneous | 不能(卡点:different) | 不唯一(语境泛/同义词多) | OK | 合适
-- mobilization | 不能(卡点:preparing/organizing/especially) | 不唯一(语境泛/同义词多) | OK | 合适
-- molecular | 勉强(卡点:everything) | 不唯一(语境泛/同义词多) | OK | 合适
-- monologue | 勉强 | 不唯一(语境泛/同义词多) | OK | 合适
-- monsoon | 能 | 较唯一(线索:brings/heavy) | OK | 合适
-- philanthropist | 不能 | 不唯一(语境泛/同义词多) | OK | 合适
-- proclamation | 不能(卡点:announcement) | 较唯一(固定搭配) | 注意(politics/race) | 合适(定义语法异常→额外负担)
-- ornithology | 不能(卡点:scientific) | 偏不唯一(线索弱:birds) | OK | 偏难(偏学科/术语)
+- abolition | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolition / abolitionist / emancipate / genealogy] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- abrupt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abrupt / capitulate / truce / utopia] | L7:OK | L8:合适
+- acclaimed | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acclaimed / affidavit / bibliography / enrich] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- accountant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accountant / algebra / colleague / condense] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- acute | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acute / convalesce / despair / euphoria] | L7:OK | L8:合适
+- adhesive | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:stick)，易靠语感/蒙) | 选项:[abrupt / adhesive / conglomerate / festive] | L7:OK | L8:合适
+- aerial | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:above)，易靠语感/蒙) | 选项:[aerial / commodore / exasperate / metropolis] | L7:OK | L8:合适
+- affirmative | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affirmative / annotate / clarification / disembark] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ailment | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ailment / blemish / coax / memento] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- aisle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aisle / ammunition / apparel / kaleidoscope] | L7:OK | L8:合适
+- algebra | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / algebra / forensic / fraternity] | L7:OK | L8:合适
+- allegory | L5-Def:勉强(需要中文支架/图示；拼写有负担、定义偏长) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[absentee / allegory / conspiracy / exposition] | L7:OK | L8:合适
+- allude | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allude / designation / engrave / indignant] | L7:OK | L8:合适
+- ambassador | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambassador / armistice / disarmament / hostage] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- ambiguity | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambiguity / chaotic / corporal / mystification] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ammunition | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ammunition / apparel / composure / memento] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- anatomy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anatomy / molecular / sabotage / theology] | L7:OK | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
+- animation | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[animation / biennial / despair / mammoth] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- annotate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[annotate / ballad / clarification / introspection] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- antidote | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antidote / benign / immobilize / internship] | L7:OK | L8:合适
+- antiquity | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolition / acclaimed / acquittal / antiquity] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- apparel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aisle / ammunition / apparel / liquidate] | L7:OK | L8:合适
+- apportion | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apportion / marauder / mystification / polarize] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- arcade | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:games)，易靠语感/蒙) | 选项:[abrupt / aerial / allude / arcade] | L7:OK | L8:合适
+- archaic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[archaic / clarification / empathy / lexicon] | L7:OK | L8:合适
+- arithmetic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / accountant / arithmetic / calligraphy] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- armistice | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:fighting)，易靠语感/蒙) | 选项:[armistice / capitulate / disarmament / truce] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- ascertain | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ascertain / dossier / forensic / interrogate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- assertive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ascertain / assertive / interrogate / testimony] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- astonish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[astonish / dazzle / exhilarate / monologue] | L7:OK | L8:合适
+- astronaut | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:space)，易靠语感/蒙) | 选项:[astronaut / astronomy / attic / buoyant] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- astronomy | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[astronomy / circa / immobilize / lexicon] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- attic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[archaic / attic / counterfeit / demolish] | L7:OK | L8:合适
+- audible | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audible / devastation / disdain / magnate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- automation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[automation / dubious / globalization / truce] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- bachelor | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:degree)，易靠语感/蒙) | 选项:[bachelor / biennial / citizenship / pension] | L7:OK | L8:合适
+- ballad | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abrupt / aerial / allude / ballad] | L7:OK | L8:合适
+- barricade | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assailant / barricade / counterfeit / incarcerate] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- bazaar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abrupt / bazaar / caravan / coral] | L7:OK | L8:合适
+- benign | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[benign / immobilize / malice / unanimous] | L7:OK | L8:合适
+- bibliography | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[armament / ascertain / bibliography / laceration] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- bilingual | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bilingual / caliber / critique / internship] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- blemish | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:small)，易靠语感/蒙) | 选项:[blemish / bliss / conclusive / epitome] | L7:OK | L8:合适
+- bliss | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bliss / dubious / equinox / lethargy] | L7:OK | L8:合适
+- blockade | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[armada / blockade / flotilla / memento] | L7:OK | L8:合适
+- bouquet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affirmative / bouquet / lieutenant / testimony] | L7:OK | L8:合适
+- brigade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brigade / chaotic / contingency / deluge] | L7:OK | L8:合适
+- buoyant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aqueduct / astronaut / buoyant / deluge] | L7:OK | L8:合适
+- caffeine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acute / caffeine / debilitate / plummet] | L7:OK | L8:合适
+- calamity | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[botanical / calamity / coronation / fissure] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- caliber | L5-Def:勉强(需要中文支架/图示；定义偏长、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[almanac / bilingual / caliber / internship] | L7:OK | L8:合适
+- calligraphy | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:special)，易靠语感/蒙) | 选项:[affirmative / arithmetic / calligraphy / centrifugal] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- cardiovascular | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:heart)，易靠语感/蒙) | 选项:[admonition / cardiovascular / colossal / corporal] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- cascade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aqueduct / buoyant / cascade / deluge] | L7:OK | L8:合适
+- casualty | L5-Def:能 | L5-Ex:能 | L6:能(线索词: injured,accident) | 选项:[casualty / divert / grudge / malice] | L7:OK | L8:合适
+- charisma | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apathy / charisma / euphoria / inauguration] | L7:OK | L8:合适
+- circa | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circa / clientele / contractor / crescendo] | L7:OK | L8:合适
+- civilian | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[civilian / corporal / dormitory / eloquence] | L7:OK | L8:合适
+- clarification | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[affirmative / annotate / clarification / disembark] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- clemency | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aerial / apathy / clemency / credential] | L7:OK | L8:合适
+- cliche | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audible / cliche / defamation / utopia] | L7:OK | L8:合适
+- clientele | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circa / clientele / contractor / crescendo] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- clockwise | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolition / acclaimed / acquittal / clockwise] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- coax | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ailment / coax / grotesque / instigate] | L7:OK | L8:合适
+- coexist | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clockwise / coexist / coincidence / fraternity] | L7:OK | L8:合适
+- coincidence | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:same)，易靠语感/蒙) | 选项:[coexist / coincidence / contingency / empowerment] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- colleague | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accountant / colleague / condense / congregate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- communism | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[communism / composure / magnate / mystification] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- competence | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accreditation / arithmetic / brigade / competence] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- complication | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolitionist / abrupt / complication / monsoon] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- compliment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[admonition / competence / compliment / epitaph] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- composure | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biennial / composure / crucible / memento] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- conclusive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conclusive / dossier / forensic / incriminate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- condense | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[absentee / accountant / colleague / condense] | L7:OK | L8:合适
+- conspire | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[absentee / adhesive / conspiracy / conspire] | L7:OK | L8:合适
+- contentious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contentious / neutrality / polarize / truce] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- contingency | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:plan)，易靠语感/蒙) | 选项:[brigade / contingency / dubious / empowerment] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- contractor | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attic / circa / clientele / contractor] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- conversion | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / conversion / duplicity / foliage] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- convict | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / conclusive / convict / dossier] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)、政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- coral | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquittal / bazaar / coral / estuary] | L7:OK | L8:合适
+- coronation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:king)，易靠语感/蒙) | 选项:[calamity / coronation / dominion / inauguration] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- corporal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambiguity / cardiovascular / civilian / corporal] | L7:OK | L8:合适
+- corridor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chaotic / corridor / credential / dormitory] | L7:OK | L8:合适
+- counterfeit | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attic / counterfeit / denomination / impersonate] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- credential | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clemency / corridor / credential / demolish] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- crescendo | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circa / clientele / contractor / crescendo] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- crimson | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / crimson / foliage / peasant] | L7:OK | L8:合适
+- critique | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bilingual / critique / enrich / laborious] | L7:OK | L8:合适
+- culprit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / ailment / algebra / culprit] | L7:OK | L8:合适
+- dazzle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[astonish / centennial / dazzle / exhilarate] | L7:OK | L8:合适
+- debut | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acute / debut / freelance / globalization] | L7:OK | L8:合适
+- deceit | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:truth)，易靠语感/蒙) | 选项:[abrupt / aerial / censorship / deceit] | L7:OK | L8:合适
+- defiance | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[abolitionist / bureaucratic / defiance / supersede] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- deforestation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deforestation / dormitory / estuary / mammoth] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- delicacy | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[colonialism / conglomerate / delicacy / persecution] | L7:OK | L8:合适
+- deluge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abrupt / brigade / deluge / enclave] | L7:OK | L8:合适
+- demolish | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[antiquity / aqueduct / archaic / demolish] | L7:OK | L8:合适
+- designation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[annuity / designation / ferocious / inheritance] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- desolate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:empty)，易靠语感/蒙) | 选项:[biennial / centennial / desolate / polarize] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- despair | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acute / antiquity / despair / euphoria] | L7:OK | L8:合适
+- destitute | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:food)，易靠语感/蒙) | 选项:[delicacy / destitute / enmity / truce] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- devastation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audible / cryptic / devastation / magnate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- devious | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centennial / devious / evade / ferocious] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- devout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[devout / dissipate / peasant / unanimous] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
+- dialect | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:region)，易靠语感/蒙) | 选项:[dialect / juxtaposition / miscellaneous / topography] | L7:OK | L8:合适
+- dictator | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[armament / detonate / dictator / insurrection] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- disdain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / ailment / audible / disdain] | L7:OK | L8:合适
+- dismay | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abrupt / aerial / bankruptcy / dismay] | L7:OK | L8:合适
+- distinction | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:between)，易靠语感/蒙) | 选项:[conclusive / distinction / inaugural / meteorology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- divert | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[casualty / divert / impediment / malice] | L7:OK | L8:合适
+- dominion | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aqueduct / coronation / dominion / feudal] | L7:OK | L8:合适
+- dubious | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conspire / contingency / dubious / equinox] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- emigrate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / emigrate / incarcerate / retaliate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- eminent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bibliography / eminent / keynote / laureate] | L7:OK | L8:合适
+- empathy | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:understand)，易靠语感/蒙) | 选项:[accomplice / clarification / empathy / introspection] | L7:OK | L8:合适
+- engrave | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / allude / designation / engrave] | L7:OK | L8:合适
+- enlighten | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolition / acclaimed / acquittal / enlighten] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- enrich | L5-Def:勉强(需要中文支架/图示；抽象术语多) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acclaimed / bibliography / enrich / proclamation] | L7:OK | L8:合适
+- envoy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[citizenship / envoy / expatriate / patriot] | L7:OK | L8:合适
+- estate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conglomerate / estate / interrogate / uprising] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- eternal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[colossal / enclave / eternal / memento] | L7:OK | L8:合适
+- evade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acute / aisle / devious / evade] | L7:OK | L8:合适
+- excursion | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[charisma / excursion / facsimile / genealogy] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- exposition | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conspiracy / exposition / fuselage / keynote] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ferocious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centennial / clientele / designation / ferocious] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- festive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[counterfeit / festive / humiliation / miscellaneous] | L7:OK | L8:合适
+- feudal | L5-Def:能 | L5-Ex:能 | L6:能(线索词: system,land) | 选项:[chivalry / coronation / dominion / feudal] | L7:OK | L8:合适
+- folklore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[absentee / dialect / folklore / topography] | L7:OK | L8:合适
+- fortitude | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[colossal / credential / fortitude / transcontinental] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- genealogy | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:family)，易靠语感/蒙) | 选项:[foliage / genealogy / impediment / matriarch] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- grotesque | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coax / desegregation / grotesque / heredity] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- grudge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[caffeine / casualty / clarification / grudge] | L7:OK | L8:合适
+- hostage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquittal / emancipate / hostage / subdue] | L7:OK | L8:合适
+- humiliation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:front)，易靠语感/蒙) | 选项:[humiliation / mystification / plummet / retribution] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- impediment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brigand / divert / genealogy / impediment] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- inaugural | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contractor / disembark / fuselage / inaugural] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- incarcerate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / bailiff / biennial / incarcerate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- indignant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:something)，易靠语感/蒙) | 选项:[allude / epitome / extradite / indignant] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- infantry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[colossal / denomination / infantry / uprising] | L7:OK | L8:合适
+- inheritance | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankruptcy / circa / dormitory / inheritance] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- injustice | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[corridor / dormitory / injustice / insurrection] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- instigate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolition / coax / instigate / sabotage] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- interrogate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[ascertain / dossier / interrogate / testimony] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- laborious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[critique / devastation / exasperate / laborious] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- malice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[benign / casualty / divert / malice] | L7:OK | L8:合适
+- metaphor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affirmative / cliche / defamation / metaphor] | L7:OK | L8:合适
+- neutrality | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[citizenship / juxtaposition / neutrality / patriot] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- overthrow | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolition / acclaimed / acquittal / overthrow] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- patriot | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:country)，易靠语感/蒙) | 选项:[citizenship / expatriate / patriot / uprising] | L7:OK | L8:合适
+- peasant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crimson / devout / peasant / subdue] | L7:OK | L8:合适
+- pension | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankruptcy / biennial / incarcerate / pension] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- persecution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[colonialism / conglomerate / delicacy / persecution] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- plague | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centennial / plague / polarize / subdue] | L7:OK | L8:合适
+- plummet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gladiator / humiliation / hypothermia / plummet] | L7:OK | L8:合适
+- polarize | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centennial / contentious / intercede / polarize] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- retaliate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assailant / incarcerate / meteorology / retaliate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- retribution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[lethargy / malice / mystification / retribution] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- sabotage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coax / deceit / instigate / sabotage] | L7:OK | L8:合适
+- spectacular | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affirmative / calligraphy / centrifugal / spectacular] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- squander | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cascade / decimate / defamation / squander] | L7:OK | L8:合适
+- subdue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brigade / congregate / plague / subdue] | L7:OK | L8:合适
+- supersede | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[archaic / bureaucratic / defiance / supersede] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- testimony | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[affidavit / gratification / interrogate / testimony] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- theology | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[archaic / clarification / empathy / theology] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- topography | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dialect / folklore / laceration / topography] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- transcontinental | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:continent)，易靠语感/蒙) | 选项:[caravan / cardiovascular / industrialization / transcontinental] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- truce | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[absentee / destitute / dictator / truce] | L7:OK | L8:合适
+- unanimous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affirmative / citizenship / legitimacy / unanimous] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- uprising | L5-Def:能 | L5-Ex:能 | L6:能(线索词: many,people) | 选项:[conglomerate / infantry / iridescent / uprising] | L7:OK | L8:合适
+- utopia | L5-Def:能 | L5-Ex:能 | L6:能(线索词: imagined,where,everyone) | 选项:[audible / destitute / truce / utopia] | L7:OK | L8:合适
+- absentee | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[absentee / heredity / patriot / truce] | L7:OK | L8:合适
+- accreditation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accreditation / bachelor / citizenship / competence] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- adjourn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / dissipate / hostage / incarcerate] | L7:OK | L8:合适
+- affidavit | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acclaimed / affidavit / interrogate / testimony] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- almanac | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[almanac / contingency / dubious / herbicide] | L7:OK | L8:合适
+- aqueduct | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[aqueduct / envoy / gladiator / metropolis] | L7:OK | L8:合适
+- aristocrat | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aristocrat / attic / contractor / estate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- artisan | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / artisan / bazaar / kaleidoscope] | L7:OK | L8:合适
+- assailant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assailant / barricade / impediment / impersonate] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- asylum | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[armistice / asylum / genealogy / matriarch] | L7:OK | L8:合适
+- bailiff | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bailiff / incarcerate / unanimous / utopia] | L7:OK | L8:合适
+- bankruptcy | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankruptcy / centennial / dismay / pension] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- besiege | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[besiege / biennial / convalesce / monologue] | L7:OK | L8:合适
+- bipartisan | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affirmative / armistice / bipartisan / truce] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- brigand | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / brigand / embankment / impediment] | L7:OK | L8:合适
+- captivity | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[astonish / captivity / dazzle / hydraulic] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- caravan | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:desert)，易靠语感/蒙) | 选项:[adjourn / bazaar / caravan / transcontinental] | L7:OK | L8:合适
+- chaotic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brigade / chaotic / corridor / fluorescent] | L7:OK | L8:合适
+- colossal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aerial / colossal / eternal / infantry] | L7:OK | L8:合适
+- combustion | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / accountant / combustion / incandescent] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- confederacy | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confederacy / dominion / feudal / inheritance] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- congregate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[congregate / corridor / dormitory / intercede] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- conspiracy | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conspiracy / conspire / duplicity / gratification] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- depleted | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[autocracy / depleted / dominion / empowerment] | L7:OK | L8:合适
+- diplomatic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[diplomatic / disarmament / extortion / memento] | L7:OK | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- escapade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[archaic / attic / escapade / humiliation] | L7:OK | L8:合适
+- extortion | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[abolition / acclaimed / embezzlement / extortion] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- abolitionist | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: who,slavery) | 选项:[abolitionist / defiance / emancipate / insurrection] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形很长)
+- accomplice | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / convict / fuselage / hydraulic] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- altruism | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altruism / armament / bibliography / destitute] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- anarchist | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anarchist / desolate / diplomatic / landlocked] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- apathy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apathy / charisma / desegregation / equinox] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- armada | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ships)，易靠语感/蒙) | 选项:[armada / blockade / grudge / industrialization] | L7:OK | L8:合适
+- autocracy | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[autocracy / dictator / landlocked / legitimacy] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- censorship | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / censorship / deceit / embankment] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- centennial | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centennial / dazzle / plague / polarize] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- chivalry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bureaucratic / chivalry / debilitate / defiance] | L7:OK | L8:合适
+- circumnavigate | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circumnavigate / debut / dormitory / facsimile] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- colonialism | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bazaar / colonialism / industrialization / persecution] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- commodore | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolition / acclaimed / acquittal / commodore] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- condolence | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambassador / condolence / envoy / folklore] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- convalesce | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:after)，易靠语感/蒙) | 选项:[ascertain / capitulate / convalesce / laceration] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- crucible | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[absentee / adhesive / crucible / fortitude] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- cryptic | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:meaning)，易靠语感/蒙) | 选项:[cryptic / devastation / envoy / utopia] | L7:OK | L8:合适
+- debilitate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ailment / debilitate / geriatric / monsoon] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- decimate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[almanac / decimate / foliage / squander] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- despotism | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[despotism / injustice / insurrection / legitimacy] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- duplicity | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conspiracy / conversion / duplicity / epitaph] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- emancipate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dominion / emancipate / legitimacy / uprising] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- enclave | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bazaar / enclave / eternal / metropolis] | L7:OK | L8:合适
+- enmity | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[armistice / disarmament / distinction / enmity] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- epitome | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / ailment / algebra / epitome] | L7:OK | L8:合适
+- equinox | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accreditation / equinox / inaugural / instigate] | L7:OK | L8:合适
+- estuary | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[composure / conglomerate / deforestation / estuary] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- euphoria | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acute / convalesce / despair / euphoria] | L7:OK | L8:合适
+- expatriate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:country)，易靠语感/蒙) | 选项:[citizenship / expatriate / longevity / patriot] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- flotilla | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:boats)，易靠语感/蒙) | 选项:[coral / estuary / flotilla / landlocked] | L7:OK | L8:合适
+- fluorescent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chaotic / corridor / fluorescent / iridescent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- foliage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conversion / crimson / decimate / foliage] | L7:OK | L8:合适
+- forensic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[convict / dossier / forensic / incriminate] | L7:OK | L8:合适
+- fraternity | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[colleague / forensic / fraternity / longevity] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- fuselage | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:airplane)，易靠语感/蒙) | 选项:[astronaut / disembark / fuselage / inaugural] | L7:OK | L8:合适
+- gladiator | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:fought)，易靠语感/蒙) | 选项:[abolitionist / botanical / calamity / gladiator] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- globalization | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[citizenship / expatriate / globalization / patriot] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- hydraulic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / captivity / hydraulic / monsoon] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- hypothermia | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:too)，易靠语感/蒙) | 选项:[aqueduct / bureaucratic / hypothermia / longevity] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- illegitimate | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[illegitimate / legitimacy / neutrality / testimony] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- impersonate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assailant / commodore / impersonate / lieutenant] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)、政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- inauguration | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[charisma / coronation / inauguration / metropolis] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- incandescent | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[archaic / demolish / fluorescent / incandescent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- kaleidoscope | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artisan / interrogate / kaleidoscope / testimony] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- keynote | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / eminent / keynote / monologue] | L7:OK | L8:合适
+- laureate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antidote / colleague / eminent / laureate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- lieutenant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[bailiff / chaotic / counterfeit / lieutenant] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- longevity | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[automation / fraternity / longevity / testimony] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- matriarch | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: who,family) | 选项:[ailment / ambiguity / genealogy / matriarch] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- metropolis | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:city)，易靠语感/蒙) | 选项:[enclave / inauguration / metropolis / philanthropist] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- millennial | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[armada / confederacy / conspiracy / millennial] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- mystification | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apportion / congregate / lethargy / mystification] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- acquittal | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquittal / detonate / emancipate / hostage] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- admonition | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[admonition / cardiovascular / compliment / intercede] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- alliteration | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolitionist / alliteration / amphitheater / epitome] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- amphitheater | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amphitheater / archaic / denomination / infantry] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- annuity | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[annuity / convalesce / inheritance / pension] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- appropriation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: set,money) | 选项:[appropriation / designation / emancipate / extortion] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- armament | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[armament / bibliography / dictator / disarmament] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- biennial | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:years)，易靠语感/蒙) | 选项:[biennial / calligraphy / composure / idealism] | L7:OK | L8:合适
+- biodegradable | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biodegradable / civilian / illegitimate / miscellaneous] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- botanical | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[botanical / circumnavigate / divert / empowerment] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- bureaucratic | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:rules)，易靠语感/蒙) | 选项:[bureaucratic / chivalry / defiance / supersede] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- capitulate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apportion / capitulate / convalesce / landlocked] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- centrifugal | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:spinning)，易靠语感/蒙) | 选项:[aqueduct / buoyant / centrifugal / overthrow] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- citizenship | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:country)，易靠语感/蒙) | 选项:[bachelor / biennial / citizenship / expatriate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- conglomerate | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:many)，易靠语感/蒙) | 选项:[conglomerate / estate / freelance / uprising] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- containment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:spreading)，易靠语感/蒙) | 选项:[affirmative / armistice / containment / insurrection] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- defamation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / accountant / admonition / defamation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- denomination | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amphitheater / counterfeit / denomination / infantry] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- desegregation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acquittal / desegregation / duplicity / grotesque] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- detonate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[archaic / demolish / detonate / dictator] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- disarmament | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:peace)，易靠语感/蒙) | 选项:[accreditation / armament / armistice / disarmament] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- disembark | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affirmative / clarification / disembark / fuselage] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dissipate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjourn / biennial / devout / dissipate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- dormitory | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:students)，易靠语感/蒙) | 选项:[bachelor / civilian / dormitory / inheritance] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dossier | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ascertain / conclusive / dossier / forensic] | L7:OK | L8:合适
+- eloquence | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[civilian / corporal / dormitory / eloquence] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- embankment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[censorship / embankment / estuary / monsoon] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- embezzlement | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolitionist / alliteration / embezzlement / extortion] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- empowerment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[botanical / circumnavigate / divert / empowerment] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- encryption | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accomplice / accountant / bailiff / encryption] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- entomology | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apathy / entomology / intercede / ornithology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- epitaph | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apportion / duplicity / epitaph / intercede] | L7:OK | L8:合适
+- exasperate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[devastation / exasperate / laborious / transcontinental] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- exhilarate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[astonish / captivity / dazzle / exhilarate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- extradite | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:back)，易靠语感/蒙) | 选项:[denomination / extradite / insurrection / unanimous] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- facsimile | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circumnavigate / debut / excursion / facsimile] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- firebrand | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[divert / firebrand / metaphor / uprising] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- fissure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calamity / convalesce / fissure / hydraulic] | L7:OK | L8:合适
+- foreclosure | L5-Def:勉强(需要中文支架/图示；词偏长、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[asylum / foreclosure / genealogy / matriarch] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- freelance | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolition / debut / freelance / globalization] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- geriatric | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[debilitate / geriatric / philanthropist / supersede] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- germination | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:seed)，易靠语感/蒙) | 选项:[amphitheater / aqueduct / defiance / germination] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- gratification | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conspiracy / enmity / euphoria / gratification] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- hallucination | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contentious / hallucination / idealism / instigate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- herbicide | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:weeds)，易靠语感/蒙) | 选项:[almanac / barricade / decimate / herbicide] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- heredity | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crimson / heredity / introspection / spectacular] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- heresy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antiquity / chivalry / despair / heresy] | L7:OK | L8:合适
+- holistic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[convalesce / corporal / fuselage / holistic] | L7:OK | L8:合适
+- idealism | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abrupt / chaotic / demolish / idealism] | L7:注意(可能引发家长顾虑或需要解释：贫困议题(避免“卖惨”)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- immobilize | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antidote / benign / circa / immobilize] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- incriminate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conclusive / dossier / forensic / incriminate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- industrialization | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambassador / armada / colonialism / industrialization] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- ingenuity | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anatomy / antidote / dubious / ingenuity] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- insurrection | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:government)，易靠语感/蒙) | 选项:[armistice / autocracy / containment / insurrection] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- intercede | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[congregate / corridor / dormitory / intercede] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- internship | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antidote / geriatric / immobilize / internship] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- introspection | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clarification / empathy / indignant / introspection] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- iridescent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:colors)，易靠语感/蒙) | 选项:[accomplice / accountant / admonition / iridescent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- juxtaposition | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antiquity / archaic / demolish / juxtaposition] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- laceration | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ascertain / bibliography / convalesce / laceration] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- landlocked | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:without)，易靠语感/蒙) | 选项:[citizenship / expatriate / landlocked / patriot] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- legitimacy | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[autocracy / illegitimate / legitimacy / unanimous] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- lethargy | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dormitory / lethargy / meteorology / mystification] | L7:OK | L8:合适
+- lexicon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emigrate / geriatric / introspection / lexicon] | L7:OK | L8:合适
+- liquidate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apparel / corporal / despair / liquidate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- magnate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audible / communism / devastation / magnate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- mammoth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[animation / biennial / mammoth / sabotage] | L7:OK | L8:合适
+- marauder | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[absentee / apportion / capitulate / marauder] | L7:OK | L8:合适
+- memento | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:kept)，易靠语感/蒙) | 选项:[ailment / captivity / composure / memento] | L7:OK | L8:合适
+- meteorology | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:weather)，易靠语感/蒙) | 选项:[meteorology / molecular / retaliate / theology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- miscellaneous | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biodegradable / calligraphy / festive / miscellaneous] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- mobilization | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[admonition / entomology / intercede / mobilization] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- molecular | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[anatomy / demolish / molecular / theology] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- monologue | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[astonish / keynote / magnate / monologue] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- monsoon | L5-Def:能 | L5-Ex:能 | L6:能(线索词: brings,heavy) | 选项:[debilitate / deluge / equinox / monsoon] | L7:OK | L8:合适
+- philanthropist | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dubious / geriatric / metropolis / philanthropist] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- proclamation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolitionist / alliteration / enrich / proclamation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- ornithology | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:birds)，易靠语感/蒙) | 选项:[armistice / entomology / intercede / ornithology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)

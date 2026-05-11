@@ -1,558 +1,560 @@
-# VERIFY-GPT words-level2.js (Gate6)
+# VERIFY-GPT — words-level2.js
 
-每行=一个词（不跳词）。字段：L5(定义/例句) | L6(例句反测) | L7(文化) | L8(学习路径)。
+- One line per word (no skipping).
+- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+- L6: Reverse test — blank example + 4 options.
+- L7: Cultural sensitivity.
+- L8: Learning path / level fit.
 
-| # | Word | L5-Def(懂?) | L5-ExGuess(猜?) | L6(反测) | L7(文化) | L8(路径) | 卡点/说明 |
-|---:|---|---|---|---|---|---|---|
-| 1 | describe | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:explain/say/mention |
-| 2 | explain | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:explain/say/mention |
-| 3 | solve | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 4 | complete | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:finish/end/complete |
-| 5 | arrange | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 6 | decide | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:pick/select/decide |
-| 7 | suppose | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:verb; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 8 | mention | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 9 | realize | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:notice/find out/remember |
-| 10 | repeat | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 11 | separate | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:verb; def卡点:定义偏长或含抽象词/语法解释; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 12 | struggle | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 13 | succeed | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 14 | surround | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 15 | wander | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 16 | ancient | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 17 | modern | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 18 | brilliant | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:smart/great/bright |
-| 19 | fragile | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 20 | sturdy | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 21 | swift | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:quick/rapid/speedy |
-| 22 | anxious | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 23 | setting | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 24 | plot | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 25 | paragraph | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 26 | sentence | 勉强 | 能 | 唯一 | OK | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 27 | fiction | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 28 | nonfiction | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:adj; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 29 | main idea | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 30 | detail | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 31 | cause | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 32 | effect | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 33 | habitat | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 34 | insect | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 35 | mammal | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 36 | reptile | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 37 | liquid | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 38 | gas | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 39 | energy | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 40 | force | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 41 | magnet | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 42 | soil | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 43 | climate | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 44 | season | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 45 | citizen | 勉强 | 能 | 唯一 | 注意 | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 46 | government | 勉强 | 能 | 唯一 | 注意 | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 47 | law | 勉强 | 勉强 | 勉强 | 注意 | 偏难 | pos:adj; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 48 | rule | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 49 | map | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 50 | globe | 能 | 能 | 唯一 | 注意 | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 51 | continent | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 52 | country | 能 | 能 | 唯一 | 注意 | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 53 | state | 能 | 能 | 唯一 | 注意 | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 54 | city | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 55 | border | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 56 | freedom | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:pick/select/decide |
-| 57 | election | 勉强 | 能 | 勉强 | 注意 | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 58 | subtract | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 59 | multiply | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 60 | divide | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 61 | sum | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 62 | graph | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 63 | chart | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 64 | data | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 65 | length | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 66 | width | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 67 | height | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 68 | area | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 69 | shape | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 70 | angle | 勉强 | 能 | 唯一 | OK | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 71 | triple | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 72 | gradually | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 73 | immediately | 不能 | 不能 | 不唯一 | OK | 过难 | pos:function; def卡点:抽象+语法+词形偏难; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 74 | afterward | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 75 | recently | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 76 | frequently | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 77 | rarely | 勉强 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 78 | occasionally | 不能 | 不能 | 不唯一 | OK | 过难 | pos:function; def卡点:抽象+语法+词形偏难; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 79 | however | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:but/though/instead |
-| 80 | therefore | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:so/because/then |
-| 81 | otherwise | 不能 | 不能 | 不唯一 | OK | 过难 | pos:function; def卡点:抽象+语法+词形偏难; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:or else/if not/instead |
-| 82 | turn into | 勉强 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义偏长或含抽象词/语法解释; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 83 | look forward to | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:verb; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 84 | make up | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 85 | point out | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:verb; def卡点:定义偏长或含抽象词/语法解释; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 86 | come across | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:verb; def卡点:定义偏长或含抽象词/语法解释; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 87 | break down | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 88 | carry out | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 89 | set up | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:prepare/ready/set |
-| 90 | courageous | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:other; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 91 | honest | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 92 | loyal | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 93 | selfish | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 94 | thoughtful | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 95 | determined | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:other; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 96 | about | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 97 | act | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 98 | action | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 99 | add | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 100 | address | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 101 | adult | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 102 | afraid | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 103 | again | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 104 | agree | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 105 | alive | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 106 | alone | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 107 | also | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 108 | always | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 109 | any | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 110 | appear | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 111 | arm | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 112 | arrive | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 113 | ask | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 114 | asleep | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 115 | attack | 能 | 勉强 | 勉强 | 注意 | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 116 | attempt | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 117 | attention | 勉强 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 118 | awake | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 119 | backpack | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 120 | balance | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 121 | balloon | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 122 | bare | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 123 | bargain | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 124 | base | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 125 | basic | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 126 | battle | 能 | 能 | 唯一 | 注意 | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 127 | beach | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 128 | beam | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 129 | because | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 130 | become | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:begin/start/open |
-| 131 | beg | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 132 | begin | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:begin/start/open |
-| 133 | behavior | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 134 | believe | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 135 | better | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 136 | bicycle | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 137 | blink | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 138 | block | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 139 | blossom | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 140 | bossy | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 141 | bounce | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 142 | breakfast | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 143 | breathe | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 144 | bright | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 145 | bring | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 146 | broad | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 147 | build | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 148 | bundle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 149 | butter | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 150 | cactus | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 151 | calendar | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 152 | camel | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 153 | camp | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 154 | capture | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 155 | careful | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 156 | carpet | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 157 | cart | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 158 | carve | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 159 | ceiling | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 160 | center | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 161 | chance | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 162 | change | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 163 | choice | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 164 | circle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 165 | climb | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 166 | close | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 167 | clue | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 168 | coast | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 169 | comfort | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 170 | common | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 171 | complain | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 172 | confuse | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 173 | connect | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:link/attach/connect |
-| 174 | corner | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 175 | cost | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 176 | cotton | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 177 | course | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 178 | crash | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 179 | make | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 180 | crumble | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 181 | cuddle | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 182 | custom | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 183 | cycle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 184 | danger | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 185 | dark | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 186 | deal | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 187 | delay | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 188 | delight | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 189 | deny | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 190 | depend | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 191 | destroy | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 192 | dig | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 193 | dinner | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 194 | find | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 195 | distance | 勉强 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 196 | dizzy | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 197 | dollar | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 198 | donate | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 199 | doorway | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 200 | downstairs | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 201 | drift | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 202 | drown | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 203 | earn | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 204 | earth | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 205 | edge | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 206 | enter | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:go in/walk in/come in |
-| 207 | escape | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:run away/leave/hide |
-| 208 | exact | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 209 | fair | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 210 | famous | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 211 | far | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 212 | farm | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 213 | fence | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 214 | field | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 215 | fill | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 216 | finish | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 217 | fit | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 218 | flour | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 219 | foam | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 220 | fold | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 221 | follow | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 222 | fork | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 223 | friendship | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 224 | frighten | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 225 | front | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 226 | frozen | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 227 | gentleman | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 228 | glad | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 229 | glide | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 230 | glitter | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 231 | goal | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 232 | grasp | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 233 | greet | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 234 | grin | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 235 | groan | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 236 | grow | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 237 | guard | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 238 | guess | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 239 | habit | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 240 | hallway | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 241 | handful | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 242 | harm | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 243 | harvest | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 244 | heal | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 245 | hidden | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 246 | hint | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 247 | history | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 248 | holiday | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 249 | hop | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 250 | horizon | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 251 | hurt | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 252 | hurry | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 253 | idea | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 254 | ignore | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 255 | include | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 256 | inside | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 257 | invite | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 258 | jacket | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 259 | judge | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 260 | jump | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 261 | key | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 262 | kind | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 263 | knee | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 264 | kneel | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 265 | knock | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 266 | lantern | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 267 | laugh | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 268 | leaf | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 269 | leak | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 270 | learn | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 271 | least | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 272 | library | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 273 | limit | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 274 | listen | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 275 | lunch | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 276 | machine | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 277 | magic | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 278 | major | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 279 | marble | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 280 | mask | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 281 | matter | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 282 | memory | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 283 | message | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 284 | minute | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 285 | mirror | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 286 | mist | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 287 | mix | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 288 | model | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 289 | mood | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 290 | move | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 291 | mystery | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 292 | nature | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 293 | near | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 294 | neatly | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 295 | never | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:do/make/use |
-| 296 | noisy | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 297 | north | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 298 | note | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 299 | object | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 300 | ocean | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 301 | offer | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 302 | opinion | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 303 | opposite | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:other; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 304 | order | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 305 | outside | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 306 | over | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 307 | palace | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 308 | path | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 309 | pause | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 310 | picnic | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 311 | planet | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 312 | plastic | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 313 | playground | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 314 | polite | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 315 | praise | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 316 | prepare | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:prepare/ready/set |
-| 317 | price | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 318 | prize | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 319 | protect | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 320 | quiet | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 321 | quiz | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 322 | raise | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 323 | range | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 324 | reach | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 325 | recycle | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 326 | refund | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 327 | relax | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 328 | rescue | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:save/help/protect |
-| 329 | respect | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 330 | result | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 331 | return | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 332 | river | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 333 | role | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 334 | route | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 335 | safe | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 336 | sail | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 337 | save | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 338 | scared | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 339 | scatter | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 340 | score | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 341 | shade | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 342 | shore | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 343 | signal | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 344 | simple | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 345 | slippery | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 346 | smell | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 347 | snap | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 348 | soak | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 349 | special | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 350 | store | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 351 | strong | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 352 | stuck | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 353 | suggest | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 354 | support | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 355 | surface | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 356 | swallow | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 357 | sweep | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 358 | sweet | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 359 | talent | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 360 | taste | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 361 | team | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 362 | tease | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 363 | temperature | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:other; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 364 | tend | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 365 | tightly | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 366 | little | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 367 | track | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 368 | travel | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 369 | trick | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 370 | trust | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 371 | turn | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 372 | under | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 373 | upstairs | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 374 | usual | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 375 | visit | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 376 | voice | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 377 | vote | 能 | 勉强 | 勉强 | 注意 | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 378 | wait | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 379 | warmth | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 380 | warn | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:explain/say/mention |
-| 381 | waterfall | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 382 | weather | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 383 | wheel | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 384 | yesterday | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 385 | admiral | 勉强 | 能 | 唯一 | 注意 | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 386 | album | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 387 | alley | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 388 | amber | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 389 | antenna | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 390 | applause | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 391 | apricot | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 392 | arch | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 393 | atlas | 能 | 能 | 唯一 | 注意 | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 394 | avalanche | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 395 | badge | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 396 | bagpipe | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 397 | balcony | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 398 | banjo | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 399 | banner | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 400 | basin | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 401 | bay | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 402 | beacon | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 403 | bead | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 404 | beeswax | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 405 | bellows | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 406 | binoculars | 勉强 | 能 | 勉强 | OK | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 407 | birch | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 408 | biscuit | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 409 | blacksmith | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 410 | blaze | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 411 | blueprint | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 412 | bluff | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 413 | bobsled | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 414 | bolt | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 415 | bonfire | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 416 | bookshelf | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 417 | bracelet | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 418 | bramble | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 419 | brass | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 420 | bridle | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 421 | broth | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 422 | bugle | 能 | 能 | 唯一 | 注意 | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 423 | bulb | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 424 | bulletin | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 425 | bunker | 能 | 能 | 唯一 | 注意 | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 426 | buoy | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 427 | canal | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 428 | canopy | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 429 | caribou | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 430 | carousel | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 431 | cartwheel | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 432 | cashew | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 433 | cedar | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 434 | cellar | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 435 | chapel | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 436 | chariot | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 437 | chestnut | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 438 | chisel | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 439 | chord | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 440 | cider | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 441 | clam | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 442 | cloak | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 443 | cobblestone | 勉强 | 能 | 唯一 | OK | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 444 | cocoon | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 445 | comet | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 446 | cork | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 447 | corral | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 448 | cradle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 449 | crest | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 450 | crumb | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 451 | cuff | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 452 | cypress | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 453 | dagger | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 454 | dandelion | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 455 | deck | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 456 | delta | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 457 | dinghy | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 458 | dome | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 459 | donkey | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 460 | doorbell | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 461 | drawbridge | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 462 | drumstick | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 463 | dune | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 464 | easel | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 465 | elm | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 466 | ember | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 467 | emerald | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 468 | falcon | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 469 | fiddle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 470 | fig | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 471 | fjord | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 472 | flint | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 473 | forge | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 474 | fresco | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 475 | gale | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 476 | galley | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 477 | garnet | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 478 | gazelle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 479 | geyser | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 480 | gong | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 481 | granite | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 482 | grapevine | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 483 | gravel | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 484 | griddle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 485 | grove | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 486 | gutter | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 487 | hammock | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 488 | harp | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 489 | hazel | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 490 | hearth | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 491 | heron | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 492 | hickory | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 493 | hilltop | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 494 | holly | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 495 | honeycomb | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 496 | horseshoe | 勉强 | 能 | 勉强 | OK | 偏难 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 497 | hourglass | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 498 | husk | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 499 | ibis | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 500 | igloo | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 501 | ivy | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 502 | jade | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 503 | javelin | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 504 | kelp | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 505 | kennel | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 506 | kindle | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:begin/start/open |
-| 507 | kingfisher | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 508 | knapsack | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 509 | lagoon | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 510 | latch | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 511 | lava | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 512 | levee | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 513 | lichen | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 514 | locket | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 515 | loom | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 516 | lynx | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 517 | mango | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 518 | mantle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 519 | maple | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 520 | marsh | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 521 | mast | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 522 | moat | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 523 | mortar | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 524 | mosaic | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 525 | mulberry | 勉强 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义偏长或含抽象词/语法解释; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 526 | muzzle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 527 | nectar | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 528 | nettle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 529 | nozzle | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 530 | nutmeg | 能 | 勉强 | 勉强 | OK | 合适 | pos:adj; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 531 | oar | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 532 | oasis | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 533 | olive | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 534 | ore | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 535 | otter | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 536 | pagoda | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 537 | parchment | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 538 | parsley | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 539 | pasture | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 540 | pebble | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 541 | pelican | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 542 | pendant | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 543 | pier | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 544 | pigment | 能 | 能 | 唯一 | OK | 合适 | pos:noun; def卡点:定义直白/词形常见; ex卡点:名词情景具体; 反测:名词语境指向明确; 易混:do/make/use |
-| 545 | carefully | 勉强 | 勉强 | 勉强 | OK | 偏难 | pos:other; def卡点:定义偏长或含抽象词/语法解释; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 546 | accept | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 547 | quite | 能 | 勉强 | 勉强 | OK | 合适 | pos:other; def卡点:定义直白/词形常见; ex卡点:可猜但不稳; 反测:需要靠细节推断，未必唯一; 易混:do/make/use |
-| 548 | rise | 能 | 勉强 | 勉强 | OK | 合适 | pos:verb; def卡点:定义直白/词形常见; ex卡点:动词常可被近义词替换; 反测:可能与近义动词混淆; 易混:do/make/use |
-| 549 | although | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:though/even though/but |
-| 550 | unless | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:if/if not/except if |
-| 551 | seldom | 勉强 | 不能 | 不唯一 | OK | 偏难 | pos:function; def卡点:定义偏长或含抽象词/语法解释; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:rarely/hardly ever/sometimes |
-| 552 | eventually | 不能 | 不能 | 不唯一 | OK | 过难 | pos:function; def卡点:抽象+语法+词形偏难; ex卡点:需要句式对比/语法意识; 反测:空格处多种连接/副词都说得通; 易混:finally/in the end/later |
+- describe | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[describe / frighten / kennel / under] | L7:OK | L8:合适
+- explain | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:why)，易靠语感/蒙) | 选项:[alive / cause / earth / explain] | L7:OK | L8:合适
+- solve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[determined / galley / quite / solve] | L7:OK | L8:合适
+- complete | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[backpack / complete / include / lunch] | L7:OK | L8:合适
+- arrange | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[arrange / bookshelf / library / reach] | L7:OK | L8:合适
+- decide | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bring / decide / simple / suggest] | L7:OK | L8:合适
+- suppose | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delay / hurry / route / suppose] | L7:OK | L8:合适
+- mention | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delay / describe / mention / warn] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- realize | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / move / realize / sturdy] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- repeat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / action / afraid / repeat] | L7:OK | L8:合适
+- separate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add / connect / distance / separate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- struggle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ask / earn / invite / struggle] | L7:OK | L8:合适
+- succeed | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[better / bridle / cart / succeed] | L7:OK | L8:合适
+- surround | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cypress / grove / hammock / surround] | L7:OK | L8:合适
+- wander | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[binoculars / distance / picnic / wander] | L7:OK | L8:合适
+- ancient | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancient / coast / dagger / grin] | L7:OK | L8:合适
+- modern | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enter / modern / outside / rule] | L7:OK | L8:合适
+- brilliant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / brilliant / idea / suggest] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- fragile | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fragile / hurt / leaf / marble] | L7:OK | L8:合适
+- sturdy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[determined / move / realize / sturdy] | L7:OK | L8:合适
+- swift | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alley / field / javelin / swift] | L7:OK | L8:合适
+- anxious | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anxious / finish / nectar / quiz] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- setting | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[avalanche / glitter / lantern / setting] | L7:OK | L8:合适
+- plot | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[map / parchment / planet / plot] | L7:OK | L8:合适
+- paragraph | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chart / length / paragraph / signal] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- sentence | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / applause / backpack / sentence] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- fiction | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fiction / finish / honest / selfish] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- nonfiction | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:facts)，易靠语感/蒙) | 选项:[chart / data / finish / nonfiction] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- main idea | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry out / main idea / point out / turn into] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- detail | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[detail / kennel / loyal / maple] | L7:OK | L8:合适
+- cause | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cause / jump / lava / seldom] | L7:OK | L8:合适
+- effect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clue / effect / playground / soak] | L7:OK | L8:合适
+- habitat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drift / follow / frozen / habitat] | L7:OK | L8:合适
+- insect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deny / insect / kneel / sweep] | L7:OK | L8:合适
+- mammal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[far / mammal / matter / mosaic] | L7:OK | L8:合适
+- reptile | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:snake)，易靠语感/蒙) | 选项:[alone / enter / hallway / reptile] | L7:OK | L8:合适
+- liquid | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / gas / liquid / nectar] | L7:OK | L8:合适
+- gas | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:air)，易靠语感/蒙) | 选项:[bagpipe / balloon / gas / liquid] | L7:OK | L8:合适
+- energy | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:play)，易靠语感/蒙) | 选项:[breakfast / energy / pause / role] | L7:OK | L8:合适
+- force | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[force / front / government / hurt] | L7:OK | L8:合适
+- magnet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fold / handful / magnet / under] | L7:OK | L8:合适
+- soil | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dark / ore / raise / soil] | L7:OK | L8:合适
+- climate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[calendar / climate / geyser / oasis] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- season | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:winter)，易靠语感/蒙) | 选项:[although / backpack / safe / season] | L7:OK | L8:合适
+- citizen | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:country)，易靠语感/蒙) | 选项:[citizen / follow / rule / state] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- government | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:makes)，易靠语感/蒙) | 选项:[government / protect / safe / trust] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- law | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:says)，易靠语感/蒙) | 选项:[buoy / garnet / law / limit] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- rule | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[enter / modern / raise / rule] | L7:OK | L8:合适
+- map | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[atlas / delight / fork / map] | L7:OK | L8:合适
+- globe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ceiling / delight / globe / map] | L7:OK | L8:合适
+- continent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[atlas / continent / famous / multiply] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- country | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beeswax / bright / broth / country] | L7:OK | L8:合适
+- state | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / again / state] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；学术词缀)
+- city | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alley / city / granite / little] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- border | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[border / fence / grapevine / guard] | L7:OK | L8:合适
+- freedom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alone / election / freedom / vote] | L7:OK | L8:合适
+- election | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / election / quiet / vote] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- subtract | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chestnut / crumble / pasture / subtract] | L7:OK | L8:合适
+- multiply | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“fold”，目标词不唯一) | 选项:[fill / fold / mix / multiply] | L7:OK | L8:合适
+- divide | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[become / divide / greet / olive] | L7:OK | L8:合适
+- sum | L5-Def:能 | L5-Ex:不能(例句信息太少，难从情境猜词) | L6:不能(例句更像在说“act”，目标词不唯一) | 选项:[act / add / any / sum] | L7:OK | L8:合适
+- graph | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:shows)，易靠语感/蒙) | 选项:[cider / graph / harvest / noisy] | L7:OK | L8:合适
+- chart | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chart / goal / paragraph / vote] | L7:OK | L8:合适
+- data | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / data / greet / weather] | L7:OK | L8:合适
+- length | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / action / length / strong] | L7:OK | L8:合适
+- width | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[angle / close / downstairs / width] | L7:OK | L8:合适
+- height | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fresco / height / ivy / vote] | L7:OK | L8:合适
+- area | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[area / danger / downstairs / hop] | L7:OK | L8:合适
+- shape | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grin / limit / pause / shape] | L7:OK | L8:合适
+- angle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[angle / arrange / famous / multiply] | L7:OK | L8:合适
+- triple | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[depend / fair / find / triple] | L7:OK | L8:合适
+- gradually | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dark / gradually / least / pigment] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- immediately | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrive / cypress / immediately / listen] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- afterward | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afterward / battle / chord / outside] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- recently | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[downstairs / pause / recently / soak] | L7:OK | L8:合适
+- frequently | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[applause / asleep / cradle / frequently] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- rarely | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hilltop / rarely / seldom / special] | L7:OK | L8:合适
+- occasionally | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eventually / occasionally / safe / wheel] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- however | L5-Def:能 | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[energy / however / playground / role] | L7:OK | L8:合适
+- therefore | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gutter / opposite / swallow / therefore] | L7:OK | L8:不合适(写作连接词应更晚；先稳 because/but/so/also)
+- otherwise | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bare / climb / danger / otherwise] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- turn into | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry out / main idea / point out / turn into] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- look forward to | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break down / carry out / come across / look forward to] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- make up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry out / main idea / make up / set up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- point out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry out / main idea / point out / turn into] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- come across | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break down / carry out / come across / main idea] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- break down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break down / carry out / come across / main idea] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- carry out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break down / carry out / main idea / point out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- set up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry out / main idea / make up / set up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- courageous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[courageous / earn / stuck / support] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- honest | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[butter / honest / include / locket] | L7:OK | L8:合适
+- loyal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[always / doorbell / learn / loyal] | L7:OK | L8:合适
+- selfish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fiction / kind / selfish / subtract] | L7:OK | L8:合适
+- thoughtful | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[fill / fold / invite / thoughtful] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- determined | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[complete / determined / finish / quite] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- about | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / brilliant / pause / quiet] | L7:OK | L8:合适
+- act | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[act / frozen / opinion / swift] | L7:OK | L8:合适
+- action | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[action / capture / dollar / snap] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- add | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add / distance / grow / result] | L7:OK | L8:合适
+- address | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / data / neatly / note] | L7:OK | L8:合适
+- adult | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adult / block / cobblestone / friendship] | L7:OK | L8:合适
+- afraid | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afraid / dark / lantern / wait] | L7:OK | L8:合适
+- again | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[again / cradle / goal / learn] | L7:OK | L8:合适
+- agree | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[agree / government / kind / upstairs] | L7:OK | L8:合适
+- alive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alive / holly / ivy / leaf] | L7:OK | L8:合适
+- alone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alone / enter / freedom / hallway] | L7:OK | L8:合适
+- also | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / knapsack / simple / usual] | L7:OK | L8:合适
+- always | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[always / basin / dig / fork] | L7:OK | L8:合适
+- any | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[act / add / any / library] | L7:OK | L8:合适
+- appear | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / bunker / destroy / major] | L7:OK | L8:合适
+- arm | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[arm / backpack / knapsack / lantern] | L7:OK | L8:合适
+- arrive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrive / breakfast / immediately / listen] | L7:OK | L8:合适
+- ask | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[ask / greet / realize / simple] | L7:OK | L8:合适
+- asleep | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[asleep / cradle / frequently / mammal] | L7:OK | L8:合适
+- attack | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attack / escape / fit / return] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- attempt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrive / attempt / breakfast / order] | L7:OK | L8:合适
+- attention | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / attention / ignore / order] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- awake | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[awake / edge / frozen / near] | L7:OK | L8:合适
+- backpack | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[backpack / complete / include / lunch] | L7:OK | L8:合适
+- balance | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[balance / chisel / dark / fork] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- balloon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[balloon / bay / enter / otter] | L7:OK | L8:合适
+- bare | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bare / climb / otherwise / shade] | L7:OK | L8:合适
+- bargain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bargain / cost / occasionally / price] | L7:OK | L8:合适
+- base | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[base / beeswax / chisel / famous] | L7:OK | L8:合适
+- basic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[basic / gentleman / kind / rule] | L7:OK | L8:合适
+- battle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / afterward / battle / score] | L7:OK | L8:合适
+- beach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beach / bonfire / bunker / destroy] | L7:OK | L8:合适
+- beam | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / blaze / comet / hallway] | L7:OK | L8:合适
+- because | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / bright / mask / weather] | L7:OK | L8:合适
+- become | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[basin / become / fair / frozen] | L7:OK | L8:合适
+- beg | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beg / describe / kennel / under] | L7:OK | L8:合适
+- begin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / begin / bellows / track] | L7:OK | L8:合适
+- behavior | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attention / behavior / relax / talent] | L7:OK | L8:合适
+- believe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[believe / clam / find / rescue] | L7:OK | L8:合适
+- better | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alive / better / earth / succeed] | L7:OK | L8:合适
+- bicycle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bicycle / breathe / canal / drift] | L7:OK | L8:合适
+- blink | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / blaze / blink / bright] | L7:OK | L8:合适
+- block | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add / block / distance / store] | L7:OK | L8:合适
+- blossom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blossom / bounce / shade / simple] | L7:OK | L8:合适
+- bossy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attack / bossy / danger / hurt] | L7:OK | L8:合适
+- bounce | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bounce / marble / object / team] | L7:OK | L8:合适
+- breakfast | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrive / block / breakfast / soak] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- breathe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[breathe / groan / hurt / mood] | L7:OK | L8:合适
+- bright | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / beeswax / bright / mood] | L7:OK | L8:合适
+- bring | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[bring / find / occasionally / return] | L7:OK | L8:合适
+- broad | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[broad / delta / dinghy / sail] | L7:OK | L8:合适
+- build | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[build / chisel / ember / hickory] | L7:OK | L8:合适
+- bundle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bundle / kindle / memory / pier] | L7:OK | L8:合适
+- butter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[become / butter / mortar / scatter] | L7:OK | L8:合适
+- cactus | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:spines)，易靠语感/蒙) | 选项:[cactus / careful / never / reach] | L7:OK | L8:合适
+- calendar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / applause / calendar / special] | L7:OK | L8:合适
+- camel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:its)，易靠语感/蒙) | 选项:[alive / camel / kennel / pelican] | L7:OK | L8:合适
+- camp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / arch / area / camp] | L7:OK | L8:合适
+- capture | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[action / antenna / capture / snap] | L7:OK | L8:合适
+- careful | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cactus / careful / fork / lynx] | L7:OK | L8:合适
+- carpet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carpet / fiction / setting / shade] | L7:OK | L8:合适
+- cart | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[block / cart / refund / store] | L7:OK | L8:合适
+- carve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carve / jade / mask / mirror] | L7:OK | L8:合适
+- ceiling | L5-Def:能 | L5-Ex:能 | L6:能(线索词: above,head) | 选项:[ceiling / globe / over / support] | L7:OK | L8:合适
+- center | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[center / mast / planet / praise] | L7:OK | L8:合适
+- chance | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chance / chapel / temperature / yesterday] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- change | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[amber / change / harvest / maple] | L7:OK | L8:合适
+- choice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[buoy / choice / earth / recycle] | L7:OK | L8:合适
+- circle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circle / planet / raise / sum] | L7:OK | L8:合适
+- climb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[climb / dune / grasp / slippery] | L7:OK | L8:合适
+- close | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[close / cypress / quiet / surround] | L7:OK | L8:合适
+- clue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bunker / clue / effect / mood] | L7:OK | L8:合适
+- coast | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancient / coast / grin / pier] | L7:OK | L8:合适
+- comfort | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comfort / cuddle / loyal / trust] | L7:OK | L8:合适
+- common | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[common / distance / picnic / wander] | L7:OK | L8:合适
+- complain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[complain / deny / far / outside] | L7:OK | L8:合适
+- confuse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[always / confuse / ember / message] | L7:OK | L8:合适
+- connect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[connect / separate / signal / travel] | L7:OK | L8:合适
+- corner | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bunker / corner / under / upstairs] | L7:OK | L8:合适
+- cost | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bargain / cost / price / refund] | L7:OK | L8:合适
+- cotton | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bounce / cotton / cuddle / object] | L7:OK | L8:合适
+- course | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[course / pause / planet / track] | L7:OK | L8:合适
+- crash | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cradle / crash / ocean / signal] | L7:OK | L8:合适
+- make | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fold / magnet / make / parchment] | L7:OK | L8:合适
+- crumble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crumble / raise / scatter / subtract] | L7:OK | L8:合适
+- cuddle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cotton / cuddle / dizzy / scared] | L7:OK | L8:合适
+- custom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[custom / holiday / igloo / mantle] | L7:OK | L8:合适
+- cycle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cycle / effect / river / soak] | L7:OK | L8:合适
+- danger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[danger / downstairs / slippery / upstairs] | L7:OK | L8:合适
+- dark | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chisel / dark / fork / kindle] | L7:OK | L8:合适
+- deal | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[deal / earn / energy / role] | L7:OK | L8:合适
+- delay | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delay / leaf / mention / prepare] | L7:OK | L8:合适
+- delight | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delight / include / inside / lunch] | L7:OK | L8:合适
+- deny | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:not)，易靠语感/蒙) | 选项:[cuff / deny / insect / sweep] | L7:OK | L8:合适
+- depend | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[depend / grow / little / soil] | L7:OK | L8:合适
+- destroy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / beach / destroy / major] | L7:OK | L8:合适
+- dig | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[bulb / dandelion / dig / grapevine] | L7:OK | L8:合适
+- dinner | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[broth / dinner / lunch / parsley] | L7:OK | L8:合适
+- find | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bring / find / finish / return] | L7:OK | L8:合适
+- distance | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add / common / distance / picnic] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- dizzy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carousel / cuddle / dizzy / scared] | L7:OK | L8:合适
+- dollar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / action / bargain / dollar] | L7:OK | L8:合适
+- donate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bunker / butter / donate / kennel] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- doorway | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / balcony / bluff / doorway] | L7:OK | L8:合适
+- downstairs | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[close / downstairs / recently / soak] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- drift | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bead / drift / frozen / leaf] | L7:OK | L8:合适
+- drown | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / any / drown / exact] | L7:OK | L8:合适
+- earn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deal / earn / neatly / sweep] | L7:OK | L8:合适
+- earth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alive / better / choice / earth] | L7:OK | L8:合适
+- edge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[awake / edge / far / frozen] | L7:OK | L8:合适
+- enter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alone / enter / modern / rule] | L7:OK | L8:合适
+- escape | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attack / escape / fit / therefore] | L7:OK | L8:合适
+- exact | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[exact / hint / raise / sum] | L7:OK | L8:合适
+- fair | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[become / divide / fair / triple] | L7:OK | L8:合适
+- famous | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[angle / base / city / famous] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- far | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / far / habitat / subtract] | L7:OK | L8:合适
+- farm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / arch / farm / husk] | L7:OK | L8:合适
+- fence | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:yard)，易靠语感/蒙) | 选项:[bookshelf / detail / fence / guard] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- field | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afterward / chord / field / outside] | L7:OK | L8:合适
+- fill | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cork / fill / kelp / leak] | L7:OK | L8:合适
+- finish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bookshelf / fiction / find / finish] | L7:OK | L8:合适
+- fit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fit / hidden / key / message] | L7:OK | L8:合适
+- flour | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / flour / pigment] | L7:OK | L8:合适
+- foam | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[dinghy / dune / foam / ocean] | L7:OK | L8:合适
+- fold | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fold / magnet / make / thoughtful] | L7:OK | L8:合适
+- follow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drift / follow / frozen / habitat] | L7:OK | L8:合适
+- fork | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:used)，易靠语感/蒙) | 选项:[choice / fork / harvest / vote] | L7:OK | L8:合适
+- friendship | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adult / data / friendship / greet] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- frighten | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[describe / frighten / under / waterfall] | L7:OK | L8:合适
+- front | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulletin / front / near / range] | L7:OK | L8:合适
+- frozen | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[awake / edge / follow / frozen] | L7:OK | L8:合适
+- gentleman | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gentleman / levee / scared / slippery] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- glad | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bobsled / glad / prize / team] | L7:OK | L8:合适
+- glide | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[act / become / frozen / glide] | L7:OK | L8:合适
+- glitter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comet / glitter / lantern / setting] | L7:OK | L8:合适
+- goal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[again / arrange / goal / library] | L7:OK | L8:合适
+- grasp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[climb / dune / grasp / slippery] | L7:OK | L8:合适
+- greet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[data / friendship / greet / mist] | L7:OK | L8:合适
+- grin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancient / grin / pause / shape] | L7:OK | L8:合适
+- groan | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / again / groan] | L7:OK | L8:合适
+- grow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add / also / grow / result] | L7:OK | L8:合适
+- guard | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[detail / fence / guard / kennel] | L7:OK | L8:合适
+- guess | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / guess / multiply] | L7:OK | L8:合适
+- habit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[habit / range / special / talent] | L7:OK | L8:合适
+- hallway | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[alone / cobblestone / enter / hallway] | L7:OK | L8:合适
+- handful | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / handful / magnet / smell] | L7:OK | L8:合适
+- harm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bare / harm / jump / marble] | L7:OK | L8:合适
+- harvest | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[change / cider / harvest / maple] | L7:OK | L8:合适
+- heal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / arch / heal / knee] | L7:OK | L8:合适
+- hidden | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fit / hidden / key / turn] | L7:OK | L8:合适
+- hint | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[describe / hint / mosaic / warmth] | L7:OK | L8:合适
+- history | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[admiral / history / playground / recently] | L7:OK | L8:合适
+- holiday | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[custom / holiday / igloo / nutmeg] | L7:OK | L8:合适
+- hop | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[area / hop / over / sweet] | L7:OK | L8:合适
+- horizon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / cellar / horizon / under] | L7:OK | L8:合适
+- hurt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arm / fragile / hurt / leaf] | L7:OK | L8:合适
+- hurry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hurry / route / suppose / wait] | L7:OK | L8:合适
+- idea | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / beeswax / build / idea] | L7:OK | L8:合适
+- ignore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alone / freedom / ignore / save] | L7:OK | L8:合适
+- include | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[backpack / butter / include / lunch] | L7:OK | L8:合适
+- inside | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / delight / inside / note] | L7:OK | L8:合适
+- invite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / action / invite / thoughtful] | L7:OK | L8:合适
+- jacket | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / action / afraid / jacket] | L7:OK | L8:合适
+- judge | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:best)，易靠语感/蒙) | 选项:[any / fresco / judge / prize] | L7:OK | L8:合适
+- jump | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[also / arch / cause / jump] | L7:OK | L8:合适
+- key | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frozen / key / latch / turn] | L7:OK | L8:合适
+- kind | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / kind / offer / selfish] | L7:OK | L8:合适
+- knee | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[knee / pause / recently / snap] | L7:OK | L8:合适
+- kneel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crest / hilltop / insect / kneel] | L7:OK | L8:合适
+- knock | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arch / enter / knock / upstairs] | L7:OK | L8:合适
+- lantern | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glitter / lantern / path / wander] | L7:OK | L8:合适
+- laugh | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afraid / corner / laugh / wait] | L7:OK | L8:合适
+- leaf | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brass / fragile / hurt / leaf] | L7:OK | L8:合适
+- leak | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fill / leak / scatter / shade] | L7:OK | L8:合适
+- learn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[again / goal / learn / loyal] | L7:OK | L8:合适
+- least | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gradually / least / pigment / vote] | L7:OK | L8:合适
+- library | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:books)，易靠语感/蒙) | 选项:[arrange / bookshelf / goal / library] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- limit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / law / limit / shape] | L7:OK | L8:合适
+- listen | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrive / immediately / listen / minute] | L7:OK | L8:合适
+- lunch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biscuit / dinner / holiday / lunch] | L7:OK | L8:合适
+- machine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / admiral / ancient / machine] | L7:OK | L8:合适
+- magic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[magic / raise / rule / trick] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- major | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / close / major / near] | L7:OK | L8:合适
+- marble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / action / cuff / marble] | L7:OK | L8:合适
+- mask | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / dome / horseshoe / mask] | L7:OK | L8:合适
+- matter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[destroy / gas / mammal / matter] | L7:OK | L8:合适
+- memory | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[judge / memory / opinion / prize] | L7:OK | L8:合适
+- message | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bundle / confuse / memory / message] | L7:OK | L8:合适
+- minute | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emerald / listen / minute / wait] | L7:OK | L8:合适
+- mirror | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancient / grin / least / mirror] | L7:OK | L8:合适
+- mist | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cartwheel / greet / mirror / mist] | L7:OK | L8:合适
+- mix | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[least / mix / mulberry / pigment] | L7:OK | L8:合适
+- model | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beeswax / bright / broth / model] | L7:OK | L8:合适
+- mood | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / bright / glad / mood] | L7:OK | L8:合适
+- move | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[move / realize / sturdy / under] | L7:OK | L8:合适
+- mystery | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dinner / lunch / mystery / order] | L7:OK | L8:合适
+- nature | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[believe / clam / nature / shore] | L7:OK | L8:合适
+- near | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / awake / front / near] | L7:OK | L8:合适
+- neatly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / data / lagoon / neatly] | L7:OK | L8:合适
+- never | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[geyser / never / object / reach] | L7:OK | L8:合适
+- noisy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[graph / noisy / upstairs / voice] | L7:OK | L8:合适
+- north | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / fork / north / score] | L7:OK | L8:合适
+- note | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / data / greet / note] | L7:OK | L8:合适
+- object | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biscuit / bounce / marble / object] | L7:OK | L8:合适
+- ocean | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[crash / dinghy / foam / ocean] | L7:OK | L8:合适
+- offer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adult / kind / mystery / offer] | L7:OK | L8:合适
+- opinion | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[act / judge / opinion / prize] | L7:OK | L8:合适
+- opposite | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[although / caribou / opposite / temperature] | L7:OK | L8:合适
+- order | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrive / attention / mystery / order] | L7:OK | L8:合适
+- outside | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chord / harp / mulberry / outside] | L7:OK | L8:合适
+- over | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cellar / mast / over / weather] | L7:OK | L8:合适
+- palace | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brass / little / palace / surround] | L7:OK | L8:合适
+- path | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[binoculars / blueprint / path / wander] | L7:OK | L8:合适
+- pause | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[knee / pause / recently / snap] | L7:OK | L8:合适
+- picnic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[common / distance / picnic / scared] | L7:OK | L8:合适
+- planet | L5-Def:能 | L5-Ex:能 | L6:能(线索词: goes,around) | 选项:[because / carousel / planet / plot] | L7:OK | L8:合适
+- plastic | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[cork / fill / leak / plastic] | L7:OK | L8:合适
+- playground | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / bobsled / history / playground] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- polite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[complain / greet / polite / repeat] | L7:OK | L8:合适
+- praise | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[center / depend / pendant / praise] | L7:OK | L8:合适
+- prepare | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / delay / mention / prepare] | L7:OK | L8:合适
+- price | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[badge / bargain / cost / price] | L7:OK | L8:合适
+- prize | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glad / judge / memory / prize] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- protect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apricot / clue / parchment / protect] | L7:OK | L8:合适
+- quiet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / quiet / quiz / upstairs] | L7:OK | L8:合适
+- quiz | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anxious / ask / quiz / tease] | L7:OK | L8:合适
+- raise | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ask / learn / raise / sum] | L7:OK | L8:合适
+- range | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[avalanche / donkey / habit / range] | L7:OK | L8:合适
+- reach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrange / bookshelf / mantle / reach] | L7:OK | L8:合适
+- recycle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / choice / earth / recycle] | L7:OK | L8:合适
+- refund | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[block / cost / refund / store] | L7:OK | L8:合适
+- relax | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attention / banjo / behavior / relax] | L7:OK | L8:合适
+- rescue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[believe / elm / mulberry / rescue] | L7:OK | L8:合适
+- respect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / attention / relax / respect] | L7:OK | L8:合适
+- result | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add / alive / grow / result] | L7:OK | L8:合适
+- return | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“bring”，目标词不唯一) | 选项:[bring / find / occasionally / return] | L7:OK | L8:合适
+- river | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[act / effect / river / wheel] | L7:OK | L8:合适
+- role | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:play)，易靠语感/蒙) | 选项:[deal / energy / playground / role] | L7:OK | L8:合适
+- route | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[corner / hurry / route / wait] | L7:OK | L8:合适
+- safe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[balance / occasionally / safe / wait] | L7:OK | L8:合适
+- sail | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:boat)，易靠语感/蒙) | 选项:[bay / dinghy / pier / sail] | L7:OK | L8:合适
+- save | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / deck / dinner / save] | L7:OK | L8:合适
+- scared | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[awake / gentleman / picnic / scared] | L7:OK | L8:合适
+- scatter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blossom / crumble / gale / scatter] | L7:OK | L8:合适
+- score | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / again / score] | L7:OK | L8:合适
+- shade | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[carpet / elm / mulberry / shade] | L7:OK | L8:合适
+- shore | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“clam”，目标词不唯一) | 选项:[believe / clam / nature / shore] | L7:OK | L8:合适
+- signal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[connect / jade / signal / store] | L7:OK | L8:合适
+- simple | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / decide / simple / usual] | L7:OK | L8:合适
+- slippery | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bobsled / gentleman / grasp / slippery] | L7:OK | L8:合适
+- smell | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / galley / handful / smell] | L7:OK | L8:合适
+- snap | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / knee / pause / snap] | L7:OK | L8:合适
+- soak | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[downstairs / effect / recently / soak] | L7:OK | L8:合适
+- special | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calendar / lunch / special / yesterday] | L7:OK | L8:合适
+- store | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biscuit / crumb / signal / store] | L7:OK | L8:合适
+- strong | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[banjo / force / length / strong] | L7:OK | L8:合适
+- stuck | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[courageous / earn / stuck / support] | L7:OK | L8:合适
+- suggest | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bring / decide / kelp / suggest] | L7:OK | L8:合适
+- support | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / ceiling / over / support] | L7:OK | L8:合适
+- surface | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[foam / kelp / nectar / surface] | L7:OK | L8:合适
+- swallow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[kelp / river / swallow / therefore] | L7:OK | L8:合适
+- sweep | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[data / deny / insect / sweep] | L7:OK | L8:合适
+- sweet | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:like)，易靠语感/蒙) | 选项:[describe / mask / sweet / waterfall] | L7:OK | L8:合适
+- talent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blueprint / map / nature / talent] | L7:OK | L8:合适
+- taste | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beeswax / bright / broth / taste] | L7:OK | L8:合适
+- team | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bounce / object / score / team] | L7:OK | L8:合适
+- tease | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ask / kind / listen / tease] | L7:OK | L8:合适
+- temperature | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bargain / chance / temperature / yesterday] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- tend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dig / grapevine / nozzle / tend] | L7:OK | L8:合适
+- tightly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gale / handful / scatter / tightly] | L7:OK | L8:合适
+- little | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cypress / elm / grow / little] | L7:OK | L8:合适
+- track | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alley / planet / swift / track] | L7:OK | L8:合适
+- travel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / connect / travel / visit] | L7:OK | L8:合适
+- trick | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beeswax / broth / magic / trick] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- trust | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[government / protect / safe / trust] | L7:OK | L8:合适
+- turn | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[gazelle / hidden / key / turn] | L7:OK | L8:合适
+- under | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[corner / describe / move / under] | L7:OK | L8:合适
+- upstairs | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alone / backpack / quiet / upstairs] | L7:OK | L8:合适
+- usual | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / apricot / simple / usual] | L7:OK | L8:合适
+- visit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / cypress / season / visit] | L7:OK | L8:合适
+- voice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / again / voice] | L7:OK | L8:合适
+- vote | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:pick)，易靠语感/蒙) | 选项:[chance / choice / election / vote] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- wait | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[edge / hurry / route / wait] | L7:OK | L8:合适
+- warmth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[caribou / opposite / picnic / warmth] | L7:OK | L8:合适
+- warn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[geyser / griddle / opposite / warn] | L7:OK | L8:合适
+- waterfall | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[crash / drumstick / sweet / waterfall] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- weather | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / mast / over / weather] | L7:OK | L8:合适
+- wheel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[occasionally / river / safe / wheel] | L7:OK | L8:合适
+- yesterday | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blaze / major / outside / yesterday] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- admiral | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ships)，易靠语感/蒙) | 选项:[admiral / beacon / history / warmth] | L7:OK | L8:合适
+- album | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:photos)，易靠语感/蒙) | 选项:[add / album / arrange / mantle] | L7:OK | L8:合适
+- alley | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[action / alley / swift / track] | L7:OK | L8:合适
+- amber | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amber / change / harvest / maple] | L7:OK | L8:合适
+- antenna | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[antenna / camel / river / wheel] | L7:OK | L8:合适
+- applause | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[applause / crash / frequently / waterfall] | L7:OK | L8:合适
+- apricot | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / apricot / simple / usual] | L7:OK | L8:合适
+- arch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arch / cobblestone / enter / knock] | L7:OK | L8:合适
+- atlas | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:where)，易靠语感/蒙) | 选项:[atlas / delight / fork / map] | L7:OK | L8:合适
+- avalanche | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:mountain)，易靠语感/蒙) | 选项:[avalanche / crash / quiet / setting] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- badge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[badge / because / brass / mask] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- bagpipe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bagpipe / chord / gentleman / outside] | L7:OK | L8:合适
+- balcony | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[balcony / ceiling / doorway / over] | L7:OK | L8:合适
+- banjo | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[banjo / chord / fiddle / harp] | L7:OK | L8:合适
+- banner | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[banner / close / downstairs / holly] | L7:OK | L8:合适
+- basin | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[always / balloon / basin / become] | L7:OK | L8:合适
+- bay | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[balloon / bay / buoy / canal] | L7:OK | L8:合适
+- beacon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[admiral / adult / beacon / friendship] | L7:OK | L8:合适
+- bead | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bead / drift / garnet / jade] | L7:OK | L8:合适
+- beeswax | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:made)，易靠语感/蒙) | 选项:[base / beeswax / bright / broth] | L7:OK | L8:合适
+- bellows | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bellows / ceiling / delta / fork] | L7:OK | L8:合适
+- binoculars | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[binoculars / delta / fork / guard] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- birch | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tree,white,bark) | 选项:[birch / cotton / mulberry / pebble] | L7:OK | L8:合适
+- biscuit | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[biscuit / butter / dinner / lunch] | L7:OK | L8:合适
+- blacksmith | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blacksmith / geyser / never / opposite] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- blaze | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / blaze / canopy / dark] | L7:OK | L8:合适
+- blueprint | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blueprint / mortar / over / path] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- bluff | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bluff / delta / doorway / under] | L7:OK | L8:合适
+- bobsled | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bobsled / crest / glad / playground] | L7:OK | L8:合适
+- bolt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[also / arch / area / bolt] | L7:OK | L8:合适
+- bonfire | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bonfire / chestnut / planet / surround] | L7:OK | L8:合适
+- bookshelf | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[album / bookshelf / finish / learn] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- bracelet | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:wrist)，易靠语感/蒙) | 选项:[because / bracelet / cloak / mask] | L7:OK | L8:合适
+- bramble | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:berries)，易靠语感/蒙) | 选项:[arm / bramble / holly / hurt] | L7:OK | L8:合适
+- brass | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / brass / bright / dark] | L7:OK | L8:合适
+- bridle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridle / donkey / finish / succeed] | L7:OK | L8:合适
+- broth | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:made)，易靠语感/蒙) | 选项:[beeswax / broth / heal / honest] | L7:OK | L8:合适
+- bugle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bugle / chord / field / outside] | L7:OK | L8:合适
+- bulb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulb / dig / grapevine / tend] | L7:OK | L8:合适
+- bulletin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ask / bulletin / front / greet] | L7:OK | L8:合适
+- bunker | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appear / bunker / corner / under] | L7:OK | L8:合适
+- buoy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bay / buoy / law / maple] | L7:OK | L8:合适
+- canal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[canal / dinghy / pier / sail] | L7:OK | L8:合适
+- canopy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / blaze / canopy / lynx] | L7:OK | L8:合适
+- caribou | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:cold)，易靠语感/蒙) | 选项:[although / caribou / opposite / setting] | L7:OK | L8:合适
+- carousel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / applause / backpack / carousel] | L7:OK | L8:合适
+- cartwheel | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[bare / cartwheel / over / pasture] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- cashew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / cashew / handful / hickory] | L7:OK | L8:合适
+- cedar | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tree,smell) | 选项:[cedar / fence / fig / mulberry] | L7:OK | L8:合适
+- cellar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cellar / cobblestone / dagger / modern] | L7:OK | L8:合适
+- chapel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chance / chapel / dark / gradually] | L7:OK | L8:合适
+- chariot | L5-Def:能 | L5-Ex:能 | L6:能(线索词: pulled,horses) | 选项:[bicycle / chariot / corral / palace] | L7:OK | L8:合适
+- chestnut | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / bonfire / chestnut / kindle] | L7:OK | L8:合适
+- chisel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:used)，易靠语感/蒙) | 选项:[base / carve / chisel / famous] | L7:OK | L8:合适
+- chord | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:played)，易靠语感/蒙) | 选项:[afterward / chord / field / outside] | L7:OK | L8:合适
+- cider | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amber / change / cider / harvest] | L7:OK | L8:合适
+- clam | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[beach / believe / clam / nature] | L7:OK | L8:合适
+- cloak | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / cloak / dark / mask] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- cobblestone | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[adult / balcony / block / cobblestone] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- cocoon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afterward / cocoon / globe / save] | L7:OK | L8:合适
+- comet | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[beam / blaze / comet / glitter] | L7:OK | L8:合适
+- cork | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[chariot / cork / drawbridge / fill] | L7:OK | L8:合适
+- corral | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:horses)，易靠语感/蒙) | 选项:[accept / carousel / chariot / corral] | L7:OK | L8:合适
+- cradle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:baby)，易靠语感/蒙) | 选项:[asleep / cradle / hearth / kennel] | L7:OK | L8:合适
+- crest | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hill)，易靠语感/蒙) | 选项:[ancient / crest / grin / hilltop] | L7:OK | L8:合适
+- crumb | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[crumb / magnet / move / under] | L7:OK | L8:合适
+- cuff | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[although / cuff / jacket / marble] | L7:OK | L8:合适
+- cypress | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[cypress / grove / hammock / immediately] | L7:OK | L8:合适
+- dagger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ancient / cobblestone / dagger / modern] | L7:OK | L8:合适
+- dandelion | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:seeds)，易靠语感/蒙) | 选项:[dandelion / dig / gale / scatter] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- deck | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[deck / dinner / lunch / save] | L7:OK | L8:合适
+- delta | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:river)，易靠语感/蒙) | 选项:[binoculars / delta / depend / earth] | L7:OK | L8:合适
+- dinghy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dinghy / foam / ocean / shore] | L7:OK | L8:合适
+- dome | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / dome / garnet / hallway] | L7:OK | L8:合适
+- donkey | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[avalanche / donkey / lantern / setting] | L7:OK | L8:合适
+- doorbell | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / doorbell / heron / loyal] | L7:OK | L8:合适
+- drawbridge | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chariot / drawbridge / glitter / moat] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- drumstick | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: hit,drum) | 选项:[crash / drumstick / gong / waterfall] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dune | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:sand)，易靠语感/蒙) | 选项:[beach / climb / dune / grasp] | L7:OK | L8:合适
+- easel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / course / easel / pigment] | L7:OK | L8:合适
+- elm | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tree,shade) | 选项:[distance / elm / picnic / shade] | L7:OK | L8:合适
+- ember | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[buoy / detail / ember / maple] | L7:OK | L8:合适
+- emerald | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[amber / emerald / hazel / minute] | L7:OK | L8:合适
+- falcon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[camel / comet / falcon / rise] | L7:OK | L8:合适
+- fiddle | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[banjo / chord / fiddle / harp] | L7:OK | L8:合适
+- fig | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[cedar / elm / fig / mulberry] | L7:OK | L8:合适
+- fjord | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dinghy / fjord / oar / sail] | L7:OK | L8:合适
+- flint | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[become / flint / gong / kindle] | L7:OK | L8:合适
+- forge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beeswax / forge / geyser / horseshoe] | L7:OK | L8:合适
+- fresco | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amber / emerald / fresco / hazel] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
+- gale | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[always / gale / maple / mulberry] | L7:OK | L8:合适
+- galley | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / action / galley / solve] | L7:OK | L8:合适
+- garnet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bead / dark / dome / garnet] | L7:OK | L8:合适
+- gazelle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:open)，易靠语感/蒙) | 选项:[caribou / field / gazelle / over] | L7:OK | L8:合适
+- geyser | L5-Def:能 | L5-Ex:能 | L6:能(线索词: hot,water) | 选项:[geyser / kelp / oasis / opposite] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
+- gong | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[become / begin / flint / gong] | L7:OK | L8:合适
+- granite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beeswax / bright / broth / granite] | L7:OK | L8:合适
+- grapevine | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[border / grapevine / gravel / ivy] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- gravel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grapevine / gravel / ivy / lichen] | L7:OK | L8:合适
+- griddle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / admiral / ancient / griddle] | L7:OK | L8:合适
+- grove | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:trees)，易靠语感/蒙) | 选项:[apricot / grove / hammock / surround] | L7:OK | L8:合适
+- gutter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / action / gutter / lava] | L7:OK | L8:合适
+- hammock | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:trees)，易靠语感/蒙) | 选项:[cypress / grove / hammock / surround] | L7:OK | L8:合适
+- harp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[banjo / chord / fiddle / harp] | L7:OK | L8:合适
+- hazel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amber / blink / emerald / hazel] | L7:OK | L8:合适
+- hearth | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[action / cradle / hearth / kennel] | L7:OK | L8:合适
+- heron | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[doorbell / frozen / heron / kingfisher] | L7:OK | L8:合适
+- hickory | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:wood)，易靠语感/蒙) | 选项:[breathe / build / ember / hickory] | L7:OK | L8:合适
+- hilltop | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[city / hilltop / rarely / seldom] | L7:OK | L8:合适
+- holly | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[banner / close / holiday / holly] | L7:OK | L8:合适
+- honeycomb | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:honey)，易靠语感/蒙) | 选项:[bright / fill / honeycomb / noisy] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- horseshoe | L5-Def:勉强(需要中文支架/图示；词偏长、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blacksmith / bridle / donkey / horseshoe] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- hourglass | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[destroy / hourglass / mosaic / team] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- husk | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:corn)，易靠语感/蒙) | 选项:[also / arch / farm / husk] | L7:OK | L8:合适
+- ibis | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[butter / camel / ibis / pelican] | L7:OK | L8:合适
+- igloo | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bookshelf / holiday / igloo / outside] | L7:OK | L8:合适
+- ivy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fresco / gravel / ivy / lichen] | L7:OK | L8:合适
+- jade | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:green)，易靠语感/蒙) | 选项:[bead / carve / garnet / jade] | L7:OK | L8:合适
+- javelin | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[field / javelin / over / swift] | L7:OK | L8:合适
+- kelp | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[basin / drift / kelp / oar] | L7:OK | L8:合适
+- kennel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[camel / hearth / kennel / under] | L7:OK | L8:合适
+- kindle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bundle / chestnut / kindle / pier] | L7:OK | L8:合适
+- kingfisher | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:fish)，易靠语感/蒙) | 选项:[kingfisher / lagoon / otter / river] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- knapsack | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[also / include / knapsack / lunch] | L7:OK | L8:合适
+- lagoon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bright / kingfisher / lagoon / neatly] | L7:OK | L8:合适
+- latch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / adult / key / latch] | L7:OK | L8:合适
+- lava | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[broad / gutter / lava / width] | L7:OK | L8:合适
+- levee | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gentleman / levee / return / slippery] | L7:OK | L8:合适
+- lichen | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[fresco / ivy / jade / lichen] | L7:OK | L8:合适
+- locket | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bookshelf / honest / igloo / locket] | L7:OK | L8:合适
+- loom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beeswax / bright / broth / loom] | L7:OK | L8:合适
+- lynx | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blaze / canopy / lynx / setting] | L7:OK | L8:合适
+- mango | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[about / carve / chisel / mango] | L7:OK | L8:合适
+- mantle | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“album”，目标词不唯一) | 选项:[album / custom / holiday / mantle] | L7:OK | L8:合适
+- maple | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tree,red) | 选项:[because / bright / maple / mulberry] | L7:OK | L8:合适
+- marsh | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bluff / delta / marsh / river] | L7:OK | L8:合适
+- mast | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[center / mast / over / weather] | L7:OK | L8:合适
+- moat | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:castle)，易靠语感/蒙) | 选项:[drawbridge / moat / protect / save] | L7:OK | L8:合适
+- mortar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blueprint / butter / mortar / scatter] | L7:OK | L8:合适
+- mosaic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[buoy / height / mammal / mosaic] | L7:OK | L8:合适
+- mulberry | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:tree)，易靠语感/蒙) | 选项:[cedar / fence / fig / mulberry] | L7:OK | L8:合适
+- muzzle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[danger / leak / marsh / muzzle] | L7:OK | L8:合适
+- nectar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / anxious / nectar / surface] | L7:OK | L8:合适
+- nettle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / chance / chapel / nettle] | L7:OK | L8:合适
+- nozzle | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[dagger / dig / nozzle / tend] | L7:OK | L8:合适
+- nutmeg | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bundle / holiday / memory / nutmeg] | L7:OK | L8:合适
+- oar | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[chariot / cork / drawbridge / oar] | L7:OK | L8:合适
+- oasis | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:desert)，易靠语感/蒙) | 选项:[climate / geyser / oasis / opposite] | L7:OK | L8:合适
+- olive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[add / divide / olive / reach] | L7:OK | L8:合适
+- ore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[canal / groan / ore / soil] | L7:OK | L8:合适
+- otter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[camel / otter / return / river] | L7:OK | L8:合适
+- pagoda | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arch / cashew / ibis / pagoda] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
+- parchment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afterward / map / parchment / plot] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- parsley | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[address / broth / dinner / parsley] | L7:OK | L8:合适
+- pasture | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alive / jade / leaf / pasture] | L7:OK | L8:合适
+- pebble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hop / over / pebble / shore] | L7:OK | L8:合适
+- pelican | L5-Def:能 | L5-Ex:能 | L6:能(线索词: its,beak) | 选项:[camel / ibis / kingfisher / pelican] | L7:OK | L8:合适
+- pendant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[because / locket / pendant / praise] | L7:OK | L8:合适
+- pier | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coast / ocean / pier / sail] | L7:OK | L8:合适
+- pigment | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:paint)，易靠语感/蒙) | 选项:[flour / maple / mix / pigment] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- carefully | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carefully / drift / fragile / marble] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- accept | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accept / grin / major / outside] | L7:OK | L8:合适
+- quite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[determined / mystery / quite / solve] | L7:OK | L8:合适
+- rise | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[horizon / pier / rise / upstairs] | L7:OK | L8:合适
+- although | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[although / caribou / jacket / safe] | L7:OK | L8:合适
+- unless | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[complete / determined / finish / unless] | L7:OK | L8:合适
+- seldom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[igloo / rarely / seldom / waterfall] | L7:OK | L8:合适
+- eventually | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[careful / eventually / learn / occasionally] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)

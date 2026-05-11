@@ -1,227 +1,227 @@
 # VERIFY-GPT — words-level2c.js
 
-标准（每词一行）：
-L5 Mark模拟：def能否直接懂；ex能否猜到目标词（以“10岁中国ESL孩子，约2年级”标准）
-L6 例句反向：把目标词遮住，给4个同level选项时，是否能唯一选中（不唯一=例句弱/可撞词）
-L7 文化敏感：中国家长/孩子视角是否可能不舒服/引争议
-L8 学习路径：是否适配本level；是否需要明显前置知识；是否应更换例句/降级
+- One line per word (no skipping).
+- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+- L6: Reverse test — blank example + 4 options.
+- L7: Cultural sensitivity.
+- L8: Learning path / level fit.
 
-- achieve | L5:def=能 | L5:ex=勉强(能懂“做到/达成”，但不一定能自己想起achieve) | L6:能(句型+语义锁定“达成”) | L7:OK | L8:合适
-- adjust | L5:def=能 | L5:ex=勉强(能懂“调一调”，但回忆词可能靠选项) | L6:能(高度/椅子语境很典型) | L7:OK | L8:合适
-- adopt | L5:def=勉强(“take…as your own”对低龄略抽象) | L5:ex=能(收养小狗语境强) | L6:能(与buy/choose区分明显) | L7:OK | L8:合适
-- affect | L5:def=能 | L5:ex=勉强(懂“影响”，但未必想到affect而是impact/change) | L6:勉强(可能撞词: impact / change) | L7:OK | L8:合适
-- afford | L5:def=能 | L5:ex=勉强(懂“买得起”，但回忆词偏难) | L6:能(allowance+saved提示强) | L7:OK | L8:合适
-- alarm | L5:def=能 | L5:ex=能(火警报非常直观) | L6:能 | L7:OK | L8:合适
-- alert | L5:def=能 | L5:ex=勉强(懂“提醒/警告”，但可能想到warn) | L6:能(狗叫提醒家里人) | L7:OK | L8:合适
-- allowance | L5:def=能 | L5:ex=勉强(句意懂，但“零花钱”更常用pocket money；allowance回忆偏难) | L6:能 | L7:OK | L8:偏难(可作为词汇扩展但建议更早铺垫pocket money/earn)
-- amaze | L5:def=能 | L5:ex=勉强(能懂“让人惊奇”，但amaze/astonish易混) | L6:能(魔术+观众) | L7:OK | L8:合适
-- appeal | L5:def=勉强(“serious or heartfelt”难) | L5:ex=不能(语义懂，但很难自然想到appeal) | L6:勉强(可能撞词: ask / encourage / request) | L7:OK | L8:偏难(建议例句更固定搭配: appeal to sb to do sth)
-- appetite | L5:def=能 | L5:ex=勉强(懂“胃口”，但拼写/回忆可能困难) | L6:能 | L7:OK | L8:合适
-- applaud | L5:def=能 | L5:ex=能(鼓掌语境很明确) | L6:能 | L7:OK | L8:合适
-- appropriate | L5:def=勉强(“fitting for the situation”抽象) | L5:ex=不能(孩子更可能说good/right) | L6:勉强(可撞词: right / good / best) | L7:OK | L8:偏难(建议改更低门槛例句: “It’s not appropriate to shout in the library.”)
-- assist | L5:def=能 | L5:ex=勉强(懂“帮助”，但assist/help易替换) | L6:能 | L7:OK | L8:合适
-- assume | L5:def=能 | L5:ex=不能(懂“别想当然”，但更可能说guess/think) | L6:勉强(可撞词: guess / think) | L7:OK | L8:偏难(建议搭配更固定: “Don’t assume…”可保留)
-- assure | L5:def=勉强(“assure”与ensure/confirm易混) | L5:ex=不能(语义懂“安慰/保证”，但回忆词难) | L6:勉强(可撞词: promise / tell) | L7:OK | L8:偏难(可考虑更生活化: “Mom assured me, ‘You’ll be okay.’”)
-- authority | L5:def=勉强(“power / rules / decisions”偏抽象) | L5:ex=不能(懂句子，但想不起authority) | L6:能(“has the ___ to…”结构提示强) | L7:OK | L8:偏难
-- available | L5:def=能 | L5:ex=勉强(孩子更可能说no seats/none left) | L6:能 | L7:OK | L8:合适
-- aware | L5:def=勉强(“knowing that…”抽象) | L5:ex=不能(更可能用careful/watch out) | L6:勉强(可撞词: careful / watch) | L7:OK | L8:偏难
-- ballot | L5:def=勉强(“vote”在低龄ESL可能陌生) | L5:ex=勉强(班级投票选宠物可懂，但ballot词回忆难) | L6:能 | L7:注意(涉及投票/选举语境；一般可接受但可能有家长敏感) | L8:偏难
-- ban | L5:def=能 | L5:ex=能(公园禁止滑板很直观) | L6:能 | L7:OK | L8:合适
-- barrier | L5:def=能 | L5:ex=勉强(懂“挡住”，但可能想到fence/wall) | L6:能 | L7:OK | L8:合适
-- blame | L5:def=能 | L5:ex=能(“别怪你妹妹”很常见) | L6:能 | L7:OK | L8:合适
-- blend | L5:def=能 | L5:ex=能(搅拌机做奶昔语境强) | L6:能 | L7:OK | L8:合适
-- bother | L5:def=能 | L5:ex=能(“别打扰”常见) | L6:能 | L7:OK | L8:合适
-- caution | L5:def=能 | L5:ex=勉强(句意懂，但caution回忆难；更可能说be careful) | L6:能 | L7:OK | L8:合适
-- century | L5:def=能 | L5:ex=勉强(懂“一百年”，但词形回忆可能靠选项) | L6:能 | L7:OK | L8:合适
-- champion | L5:def=能 | L5:ex=勉强(懂“冠军”，但可能先想到winner) | L6:能 | L7:OK | L8:合适
-- charm | L5:def=勉强(“quality”抽象) | L5:ex=勉强(懂“讨人喜欢”，但回忆词难) | L6:勉强(可撞词: cute / sweet) | L7:OK | L8:偏难
-- circulate | L5:def=勉强(抽象动词) | L5:ex=不能(血液循环+器官词汇对2年级偏难) | L6:勉强(可撞词: move / flow) | L7:OK | L8:偏难(例句可换更生活: “Air circulates in the room.”)
-- circumstance | L5:def=勉强(“facts around…”抽象) | L5:ex=不能(更可能说situation) | L6:勉强(可撞词: situation / problem) | L7:OK | L8:偏难
-- commit | L5:def=勉强(“promise…not give up”句子长) | L5:ex=不能(孩子可能说decided/promised) | L6:勉强(可撞词: promise / decide) | L7:OK | L8:偏难
-- communicate | L5:def=能 | L5:ex=勉强(懂“交流”，但更常用talk) | L6:能 | L7:OK | L8:合适
-- compassion | L5:def=勉强(抽象名词) | L5:ex=不能(更可能说kindness) | L6:勉强(可撞词: kindness / care) | L7:OK | L8:偏难
-- compete | L5:def=能 | L5:ex=能(跑步比赛) | L6:能 | L7:OK | L8:合适
-- complex | L5:def=能 | L5:ex=不能(“program/code/lines”对低龄不友好) | L6:勉强(可撞词: hard / difficult) | L7:OK | L8:偏难(建议例句换非编程场景)
-- concern | L5:def=能 | L5:ex=勉强(懂“担心”，但concern/worry易换) | L6:能 | L7:OK | L8:合适
-- confirm | L5:def=能 | L5:ex=能(“确认名字”结构强) | L6:能 | L7:OK | L8:合适
-- conquer | L5:def=勉强(词本身更常见“征服”，定义偏心理) | L5:ex=勉强(懂克服恐高，但回忆词可能难) | L6:能 | L7:OK | L8:偏难
-- conscious | L5:def=勉强(偏医学/抽象) | L5:ex=不能(坐飞机“conscious”不典型；孩子更说awake) | L6:勉强(可撞词: awake) | L7:OK | L8:偏难(建议例句更典型: “He was still conscious after the fall.”)
-- conserve | L5:def=勉强(“use less so…”句式) | L5:ex=勉强(节约水能懂，但conserve回忆难) | L6:能 | L7:OK | L8:合适
-- consist | L5:def=勉强(固定搭配consist of) | L5:ex=勉强(能懂“由…组成”，但回忆词难) | L6:能(“consists of”强提示) | L7:OK | L8:偏难
-- constant | L5:def=能 | L5:ex=勉强(懂“一直滴”，但constant回忆难) | L6:勉强(可撞词: continual / nonstop) | L7:OK | L8:合适
-- construct | L5:def=能 | L5:ex=勉强(懂“建造”，但construct/build易换) | L6:能 | L7:OK | L8:合适
-- contain | L5:def=能 | L5:ex=能(箱子里装着) | L6:能 | L7:OK | L8:合适
-- contest | L5:def=能 | L5:ex=能(拼写比赛) | L6:能 | L7:OK | L8:合适
-- contrast | L5:def=能 | L5:ex=勉强(懂“对比”，但回忆词可能靠选项) | L6:能(“contrasted A and B”结构强) | L7:OK | L8:合适
-- contribute | L5:def=勉强(抽象动词) | L5:ex=不能(“food drive/canned food”文化+词汇门槛高) | L6:勉强(可撞词: donate / give) | L7:OK | L8:偏难(建议例句换更普适: “Everyone contributed ideas to the project.”)
-- convenient | L5:def=能 | L5:ex=勉强(懂“方便”，但回忆词难) | L6:能 | L7:OK | L8:合适
-- core | L5:def=能 | L5:ex=能(苹果核直观) | L6:能 | L7:OK | L8:合适
-- courteous | L5:def=勉强(定义较长) | L5:ex=勉强(能懂“有礼貌”，但courteous回忆难) | L6:能 | L7:OK | L8:偏难
-- credit | L5:def=勉强(credit多义：表扬/学分/赊账) | L5:ex=勉强(老师给credit可懂，但可能误解为分数) | L6:勉强(可撞词: praise) | L7:OK | L8:偏难(建议加“praise”同义提示或换词义更单一)
-- crisis | L5:def=能 | L5:ex=勉强(洪水能懂，但crisis词回忆难) | L6:能 | L7:OK | L8:合适
-- critical | L5:def=能 | L5:ex=勉强(懂“重要”，但critical回忆难) | L6:能 | L7:OK | L8:合适
-- debate | L5:def=能 | L5:ex=能(猫狗哪个更好) | L6:能 | L7:OK | L8:合适
-- decade | L5:def=能 | L5:ex=勉强(懂“十年”，但回忆词难) | L6:能 | L7:OK | L8:合适
-- decline | L5:def=能 | L5:ex=能(婉拒邀请) | L6:能 | L7:OK | L8:注意(词多义：下降/婉拒；可在后续level再补另一个义)
-- dedicate | L5:def=勉强(句子长) | L5:ex=勉强(懂“投入整个夏天”，但dedicate回忆难) | L6:能 | L7:OK | L8:偏难
-- definite | L5:def=勉强(“not hard to see or understand”对definite略怪) | L5:ex=勉强(有计划能懂，但definite回忆难) | L6:能 | L7:OK | L8:偏难(建议definition更直接: “sure and clear”)
-- deliberate | L5:def=能 | L5:ex=勉强(懂“故意/深思熟虑”，但词回忆难) | L6:能(“not by accident”强提示) | L7:OK | L8:合适
-- deposit | L5:def=勉强(“safe place”泛；更常见银行/存钱) | L5:ex=能(存硬币进存钱罐很贴切) | L6:能 | L7:OK | L8:合适
-- deserve | L5:def=能 | L5:ex=能(努力后值得休息) | L6:能 | L7:OK | L8:合适
-- desire | L5:def=能 | L5:ex=勉强(懂“强烈愿望”，但desire回忆难) | L6:能 | L7:OK | L8:合适
-- desperate | L5:def=能 | L5:ex=勉强(懂“非常需要”，但词回忆难) | L6:能 | L7:OK | L8:合适
-- detect | L5:def=能 | L5:ex=勉强(智能摄像头场景可懂，但detect回忆难) | L6:能 | L7:OK | L8:合适
-- determine | L5:def=能 | L5:ex=勉强(法官/比赛语境可懂，但judge词可能门槛) | L6:能 | L7:OK | L8:合适
-- dignity | L5:def=勉强(抽象名词) | L5:ex=勉强(握手接受失败可懂，但dignity回忆难) | L6:勉强(可撞词: respect) | L7:OK | L8:偏难
-- dilemma | L5:def=能 | L5:ex=能(两件事二选一很清晰) | L6:能 | L7:OK | L8:合适
-- dimension | L5:def=勉强(定义长；dimension与dimensions形式变化) | L5:ex=不能(英寸/长宽对低龄负担大) | L6:能(“dimensions of the box”结构提示) | L7:OK | L8:偏难(可改用“length/width/height”更口语)
-- discipline | L5:def=能 | L5:ex=勉强(懂“自律”，但词回忆难) | L6:能 | L7:OK | L8:合适
-- discourage | L5:def=勉强(双重否定/语气对低龄) | L5:ex=勉强(能懂“别灰心”，但词回忆难) | L6:能 | L7:OK | L8:偏难
-- display | L5:def=能 | L5:ex=能(博物馆展示) | L6:能 | L7:OK | L8:合适
-- dispute | L5:def=能 | L5:ex=勉强(邻居争执可懂，但dispute回忆难) | L6:能 | L7:OK | L8:合适
-- distinct | L5:def=能 | L5:ex=不能(指纹/解锁对低龄略抽象；句子偏长) | L6:能 | L7:OK | L8:偏难
-- distinguish | L5:def=勉强(动词较长/抽象) | L5:ex=能(真假花对比直观) | L6:能 | L7:OK | L8:偏难
-- distribute | L5:def=能 | L5:ex=能(老师发蜡笔) | L6:能 | L7:OK | L8:合适
-- division | L5:def=能 | L5:ex=能(分饼干/数学) | L6:能 | L7:OK | L8:合适
-- document | L5:def=能 | L5:ex=勉强(护照概念可懂，但document回忆难) | L6:能 | L7:OK | L8:合适
-- doubt | L5:def=能 | L5:ex=勉强(“no doubt”结构可懂，但doubt回忆难) | L6:能 | L7:OK | L8:合适
-- drama | L5:def=勉强(定义含两个义；易混) | L5:ex=能(戏剧社演出) | L6:能 | L7:OK | L8:注意(若目标是“舞台剧”建议删掉“a lot of excitement”第二义)
-- drastic | L5:def=能 | L5:ex=勉强(搬家到国外可懂，但drastic回忆难) | L6:能 | L7:OK | L8:偏难
-- dread | L5:def=能 | L5:ex=能(害怕看牙医) | L6:能 | L7:OK | L8:合适
-- duty | L5:def=勉强(定义较长) | L5:ex=能(喂仓鼠的职责) | L6:能 | L7:OK | L8:合适
-- edible | L5:def=能 | L5:ex=能(有的浆果能吃有的会生病) | L6:能 | L7:OK | L8:合适
-- efficient | L5:def=能 | L5:ex=勉强(例句重复“without wasting time”信息冗余) | L6:能 | L7:OK | L8:合适(建议例句更具体: “She finished her homework efficiently.”)
-- elaborate | L5:def=能 | L5:ex=能(多层蛋糕细节多) | L6:能 | L7:OK | L8:合适
-- eliminate | L5:def=能 | L5:ex=勉强(除草可懂，但eliminate回忆难) | L6:能 | L7:OK | L8:合适
-- embarrass | L5:def=能 | L5:ex=能(舞台绊倒尴尬) | L6:能 | L7:OK | L8:合适
-- emerge | L5:def=能 | L5:ex=能(蝴蝶破茧) | L6:能 | L7:OK | L8:合适
-- emotion | L5:def=能 | L5:ex=能(电影感动哭) | L6:能 | L7:OK | L8:合适
-- emphasis | L5:def=勉强(抽象名词) | L5:ex=勉强(懂“强调阅读”，但词回忆难) | L6:能 | L7:OK | L8:偏难
-- enable | L5:def=勉强(抽象动词) | L5:ex=勉强(轮椅坡道场景清晰，但wheelchairs词可能门槛) | L6:能 | L7:OK | L8:偏难
-- encounter | L5:def=能 | L5:ex=能(路上遇到鹿) | L6:能 | L7:OK | L8:合适
-- endure | L5:def=能 | L5:ex=能(忍受炎热到达瀑布) | L6:能 | L7:OK | L8:合适
-- ensure | L5:def=能 | L5:ex=勉强(能懂“确保”，但ensure/confirm易混) | L6:能 | L7:OK | L8:合适
-- environment | L5:def=能 | L5:ex=能(保护环境) | L6:能 | L7:OK | L8:合适
-- error | L5:def=能 | L5:ex=能(数学错误) | L6:能 | L7:OK | L8:合适
-- evaluate | L5:def=勉强(“judge its value”抽象) | L5:ex=勉强(评委评画可懂，但evaluate回忆难) | L6:能 | L7:OK | L8:偏难
-- evident | L5:def=勉强(抽象形容词) | L5:ex=勉强(从笑容看出来可懂，但evident回忆难) | L6:勉强(可撞词: clear / obvious) | L7:OK | L8:偏难
-- evolve | L5:def=能 | L5:ex=不能(voice assistants/understanding对低龄偏硬) | L6:勉强(可撞词: improve / change) | L7:OK | L8:偏难(建议例句更儿童化: “Tadpoles evolve into frogs.”)
-- exaggerate | L5:def=能 | L5:ex=能(夸张“鱼像车一样大”) | L6:能 | L7:OK | L8:合适
-- excellent | L5:def=能 | L5:ex=勉强(语义懂但非常常用同义词多) | L6:勉强(可撞词: great / amazing) | L7:OK | L8:合适
-- exception | L5:def=能 | L5:ex=能(校服规则有例外) | L6:能 | L7:OK | L8:合适
-- excess | L5:def=能 | L5:ex=能(多余油漆) | L6:能 | L7:OK | L8:合适
-- exclude | L5:def=能 | L5:ex=能(不排挤别人) | L6:能 | L7:OK | L8:合适
-- exhibit | L5:def=能 | L5:ex=能(博物馆展览) | L6:能 | L7:OK | L8:合适
-- expand | L5:def=能 | L5:ex=能(气球变大) | L6:能 | L7:OK | L8:合适
-- expedition | L5:def=勉强(概念偏学术) | L5:ex=不能(南极/多个月信息量大) | L6:能 | L7:OK | L8:偏难
-- expense | L5:def=能 | L5:ex=勉强(懂“花费”，但expense回忆难) | L6:能 | L7:OK | L8:合适
-- expertise | L5:def=勉强(抽象名词) | L5:ex=勉强(厨师很会烘焙可懂，但expertise回忆难) | L6:能 | L7:OK | L8:偏难
-- exploit | L5:def=勉强(“clever or unfair”还行，但exploit多义) | L5:ex=不能(“loophole”对低龄几乎不可理解) | L6:不能(例句关键线索是loophole，本身过难) | L7:注意(“钻空子插队”价值观易引争议，建议改为负面批判更明确或换例句) | L8:不合适(建议后移level或换更简单例句/语境)
-- expose | L5:def=能 | L5:ex=能(风吹走沙子露出贝壳) | L6:能 | L7:OK | L8:合适
-- extend | L5:def=能 | L5:ex=能(延长自由时间5分钟) | L6:能 | L7:OK | L8:合适
-- extreme | L5:def=能 | L5:ex=能(极寒结冰柱) | L6:能 | L7:OK | L8:合适
-- factor | L5:def=能 | L5:ex=勉强(睡眠因素可懂，但factor回忆难) | L6:能 | L7:OK | L8:合适
-- famine | L5:def=勉强(概念偏沉重) | L5:ex=勉强(干旱庄稼不长能懂，但famine词回忆难) | L6:能 | L7:注意(饥荒/灾难较沉重，低龄可能需要家长解释) | L8:偏难
-- fascinate | L5:def=能 | L5:ex=能(魔术表演太吸引) | L6:能 | L7:OK | L8:合适
-- fatal | L5:def=勉强(“death”词汇+恐惧) | L5:ex=勉强(蛇咬可能致命，语义清楚但偏吓人) | L6:能 | L7:注意(涉及致命/危险；部分家长可能不喜欢) | L8:偏难
-- fate | L5:def=勉强(抽象哲学概念) | L5:ex=不能(更可能理解为dream/goal) | L6:勉强(可撞词: dream / goal) | L7:OK | L8:偏难
-- fault | L5:def=能 | L5:ex=能(打球打碎花瓶是我的错) | L6:能 | L7:OK | L8:合适
-- feature | L5:def=能 | L5:ex=能(游乐场最大特点是滑梯) | L6:能 | L7:OK | L8:合适
-- ferry | L5:def=能 | L5:ex=能(坐渡轮过河去岛) | L6:能 | L7:OK | L8:合适
-- flourish | L5:def=勉强(抽象动词) | L5:ex=勉强(花园茂盛可懂，但flourish回忆难) | L6:能 | L7:OK | L8:偏难
-- focus | L5:def=能 | L5:ex=能(上课看黑板) | L6:能 | L7:OK | L8:合适
-- forbid | L5:def=能 | L5:ex=能(标志禁止跑) | L6:能 | L7:OK | L8:合适
-- forecast | L5:def=能 | L5:ex=能(天气预报) | L6:能 | L7:OK | L8:合适
-- fortune | L5:def=勉强(“大钱或好运”两义) | L5:ex=勉强(找到稀有硬币像发财可懂，但fortune义不够单一) | L6:勉强(可撞词: treasure / luck) | L7:OK | L8:偏难(建议拆义或换更明确例句)
-- fragment | L5:def=能 | L5:ex=勉强(碎片可懂，但fragment回忆难) | L6:能 | L7:OK | L8:合适
-- frequent | L5:def=能 | L5:ex=勉强(频繁下雨可懂，但frequent回忆难) | L6:能 | L7:OK | L8:合适
-- frontier | L5:def=不能(“edge of explored land / what you know”抽象+隐喻) | L5:ex=不能(“final frontier”隐喻性强) | L6:不能(例句更像固定文化梗，低龄难凭语境选) | L7:OK | L8:不合适(建议后移level或换成更具体的地理边界语境)
-- fulfill | L5:def=能 | L5:ex=勉强(懂“兑现承诺/完成”，但fulfill回忆难) | L6:能 | L7:OK | L8:合适
-- function | L5:def=能 | L5:ex=能(桥的功能) | L6:能 | L7:OK | L8:合适
-- fundamental | L5:def=勉强(抽象形容词) | L5:ex=勉强(阅读是基础技能可懂，但fundamental回忆难) | L6:勉强(可撞词: important / basic) | L7:OK | L8:偏难
-- fund | L5:def=能 | L5:ex=勉强(例句用funds复数；单词fund可能被当动词) | L6:勉强(形式干扰: fund vs funds) | L7:OK | L8:偏难(建议改为: “We started a fund for the trip.”)
-- grace | L5:def=勉强(词多义：优雅/恩典) | L5:ex=能(舞者优雅) | L6:能 | L7:OK | L8:合适
-- gradual | L5:def=能 | L5:ex=勉强(叶子变色可懂，但gradual回忆难) | L6:能 | L7:OK | L8:合适
-- guarantee | L5:def=能 | L5:ex=勉强(退款保证可懂，但guarantee回忆难) | L6:能 | L7:OK | L8:合适
-- halt | L5:def=能 | L5:ex=能(车停下) | L6:能 | L7:OK | L8:合适
-- hazard | L5:def=能 | L5:ex=能(结冰人会滑倒) | L6:能 | L7:OK | L8:合适
-- ideal | L5:def=能 | L5:ex=勉强(理想野餐天气能懂，但ideal回忆难) | L6:能 | L7:OK | L8:合适
-- illustrate | L5:def=能 | L5:ex=能(画插图) | L6:能 | L7:OK | L8:合适
-- image | L5:def=能 | L5:ex=能(屏幕上的图片) | L6:能 | L7:OK | L8:合适
-- immediate | L5:def=能 | L5:ex=勉强(立刻清理能懂，但immediate回忆难) | L6:能 | L7:OK | L8:合适
-- impact | L5:def=能 | L5:ex=勉强(懂“影响”，impact/affect易混) | L6:勉强(可撞词: affect) | L7:OK | L8:合适
-- imply | L5:def=勉强(抽象动词) | L5:ex=不能(“tone seems to…”对低龄难) | L6:勉强(可撞词: mean / suggest) | L7:OK | L8:偏难(建议换更直观例句: “His smile implied he was joking.”)
-- impress | L5:def=能 | L5:ex=能(评委被新点子打动) | L6:能 | L7:OK | L8:合适
-- incident | L5:def=能 | L5:ex=勉强(“操场上的那件事”可懂但incident回忆难) | L6:能 | L7:OK | L8:合适
-- indicate | L5:def=能 | L5:ex=能(箭头指路) | L6:能 | L7:OK | L8:合适
-- individual | L5:def=能 | L5:ex=勉强(懂“每个学生”，但individual回忆难) | L6:能 | L7:OK | L8:合适
-- inform | L5:def=能 | L5:ex=能(校长通知) | L6:能 | L7:OK | L8:合适
-- inhabit | L5:def=能 | L5:ex=勉强(鱼住在浅水区可懂，但inhabit回忆难) | L6:能 | L7:OK | L8:合适
-- initial | L5:def=能 | L5:ex=勉强(“最开始的感觉”可懂但initial回忆难) | L6:能 | L7:OK | L8:合适
-- injure | L5:def=能 | L5:ex=能(扭伤脚踝) | L6:能 | L7:OK | L8:合适
-- inquire | L5:def=勉强(较正式的ask) | L5:ex=勉强(问公交时间表可懂，但inquire回忆难) | L6:能 | L7:OK | L8:偏难
-- inspire | L5:def=能 | L5:ex=勉强(太空故事激励学科学可懂，但inspire回忆难) | L6:能 | L7:OK | L8:合适
-- instance | L5:def=勉强(抽象名词) | L5:ex=不能(句子太泛：很多词都能填) | L6:不能(可撞词: example / time / case) | L7:OK | L8:偏难(建议例句更具体: “For instance, you can…”)
-- instinct | L5:def=勉强(抽象名词) | L5:ex=勉强(鸟迁徙可懂，但instinct回忆难) | L6:能 | L7:OK | L8:偏难
-- institution | L5:def=勉强(概念偏学术) | L5:ex=勉强(图书馆是institution可懂，但偏抽象) | L6:勉强(可撞词: place / building) | L7:OK | L8:偏难
-- integrate | L5:def=勉强(抽象动词) | L5:ex=勉强(新同学融入群体可懂，但integrate回忆难) | L6:勉强(可撞词: join / fit in) | L7:OK | L8:偏难
-- intense | L5:def=能 | L5:ex=勉强(太阳强烈可懂，但intense回忆难) | L6:能 | L7:OK | L8:合适
-- interact | L5:def=能 | L5:ex=能(不爱和陌生人互动) | L6:能 | L7:OK | L8:合适
-- introduce | L5:def=能 | L5:ex=能(介绍新邻居) | L6:能 | L7:OK | L8:合适
-- invade | L5:def=能 | L5:ex=能(蚂蚁闯进厨房) | L6:能 | L7:OK | L8:合适
-- involve | L5:def=能 | L5:ex=勉强(冰棍棒造桥可懂，但involve回忆难) | L6:能 | L7:OK | L8:合适
-- issue | L5:def=勉强(抽象名词) | L5:ex=勉强(水污染问题可懂，但issue回忆难) | L6:勉强(可撞词: problem) | L7:OK | L8:偏难
-- item | L5:def=能 | L5:ex=能(清单上的每一项) | L6:能 | L7:OK | L8:合适
-- journal | L5:def=能 | L5:ex=能(写日记) | L6:能 | L7:OK | L8:合适
-- justify | L5:def=勉强(抽象动词) | L5:ex=勉强(给理由要更多时间可懂，但justify回忆难) | L6:能 | L7:OK | L8:偏难
-- lack | L5:def=能 | L5:ex=能(缺水植物变黄) | L6:能 | L7:OK | L8:合适
-- launch | L5:def=能 | L5:ex=能(火箭发射) | L6:能 | L7:OK | L8:合适
-- layer | L5:def=能 | L5:ex=能(蛋糕三层) | L6:能 | L7:OK | L8:合适
-- lecture | L5:def=能 | L5:ex=能(科学家讲座) | L6:能 | L7:OK | L8:合适
-- leisure | L5:def=能 | L5:ex=勉强(周末休闲时间可懂，但leisure回忆难) | L6:能 | L7:OK | L8:合适
-- liable | L5:def=不能(法律概念+句式难) | L5:ex=勉强(打碎窗要负责能懂，但liable词太硬) | L6:勉强(可撞词: responsible) | L7:OK | L8:不合适(建议后移level或改为responsible/accountable)
-- liberty | L5:def=勉强(“right to do what you want”抽象) | L5:ex=不能(Statue of Liberty文化点强且不一定熟) | L6:勉强(可撞词: freedom) | L7:注意(美国地标+政治象征；部分家长不喜欢) | L8:偏难(建议换更中性例句，不绑定美国符号)
-- license | L5:def=能 | L5:ex=能(开车要驾照) | L6:能 | L7:OK | L8:合适
-- link | L5:def=能 | L5:ex=勉强(健康饮食与强壮有关联可懂，但link回忆难) | L6:能 | L7:OK | L8:合适
-- literal | L5:def=能 | L5:ex=勉强(“raining cats and dogs”习语对ESL偏难，但“not literal”能学到点) | L6:能 | L7:OK | L8:偏难(习语可留，但建议配更常见/更易理解的习语)
-- locate | L5:def=能 | L5:ex=能(在地图上找非洲) | L6:能 | L7:OK | L8:合适
-- logic | L5:def=能 | L5:ex=不能(例句是编程找bug；低龄不友好) | L6:勉强(可撞词: thinking / steps) | L7:OK | L8:偏难(建议换生活例句: “Use logic to solve the puzzle.”)
-- luxury | L5:def=能 | L5:ex=能(泳池是奢侈不是必需) | L6:能 | L7:OK | L8:合适
-- majority | L5:def=能 | L5:ex=能(大多数投披萨) | L6:能 | L7:OK | L8:合适
-- manage | L5:def=能 | L5:ex=能(管理学校花园) | L6:能 | L7:OK | L8:合适
-- mature | L5:def=勉强(两义并列：成熟/长成，易混) | L5:ex=勉强(例句只体现“成熟的苹果”，没覆盖“行为成熟”) | L6:能 | L7:OK | L8:注意(建议拆成两个义或换例句更贴“act mature”)
-- maximum | L5:def=能 | L5:ex=能(公交最多40人) | L6:能 | L7:OK | L8:合适
-- memorial | L5:def=能 | L5:ex=勉强(纪念碑可懂，但memorial回忆难) | L6:能 | L7:OK | L8:合适
-- mental | L5:def=能 | L5:ex=能(脑力锻炼) | L6:能 | L7:OK | L8:合适
-- mercy | L5:def=勉强(抽象名词) | L5:ex=勉强(骑士/俘虏语境偏故事化，词可懂但不常见) | L6:能 | L7:注意(“captured man go free”轻微暴力语境；一般可接受) | L8:偏难
-- migrate | L5:def=能 | L5:ex=能(大雁南迁) | L6:能 | L7:OK | L8:合适
-- military | L5:def=能 | L5:ex=勉强(编队飞行可懂，但military偏严肃) | L6:能 | L7:注意(军队相关；部分家长不喜欢低龄出现军事画面) | L8:偏难
-- minimum | L5:def=能 | L5:ex=能(至少5人开局) | L6:能 | L7:OK | L8:合适
-- minor | L5:def=能 | L5:ex=能(小擦伤没事) | L6:能 | L7:OK | L8:合适
-- miracle | L5:def=能 | L5:ex=能(走失猫回家) | L6:能 | L7:OK | L8:合适
-- mission | L5:def=能 | L5:ex=能(宇航员任务) | L6:能 | L7:OK | L8:合适
-- modify | L5:def=能 | L5:ex=能(修改配方少糖) | L6:能 | L7:OK | L8:合适
-- monitor | L5:def=能 | L5:ex=能(护士每小时观察) | L6:能 | L7:OK | L8:合适
-- motive | L5:def=能 | L5:ex=能(动机是多玩屏幕) | L6:能 | L7:OK | L8:合适
-- mutual | L5:def=勉强(抽象形容词) | L5:ex=勉强(共同爱好足球能懂，但mutual回忆难) | L6:能 | L7:OK | L8:偏难
-- navigate | L5:def=能 | L5:ex=能(指南针找路) | L6:能 | L7:OK | L8:合适
-- neglect | L5:def=能 | L5:ex=能(不照顾植物会枯) | L6:能 | L7:OK | L8:合适
-- neutral | L5:def=能 | L5:ex=能(老师不偏袒) | L6:能 | L7:OK | L8:合适
-- notable | L5:def=勉强(抽象形容词) | L5:ex=勉强(读100本书成就可懂，但notable回忆难) | L6:勉强(可撞词: great / big) | L7:OK | L8:偏难
-- notify | L5:def=能 | L5:ex=能(学校通知家长停课) | L6:能 | L7:OK | L8:合适
-- notion | L5:def=勉强(抽象名词) | L5:ex=勉强(想法“建树屋会很好玩”可懂，但notion回忆难) | L6:勉强(可撞词: idea / thought) | L7:OK | L8:偏难
-- novel | L5:def=能 | L5:ex=能(新奇点子) | L6:能 | L7:OK | L8:注意(与名词novel“小说”同形；后续可补另一个义)
-- oath | L5:def=不能(“made to God / in a court”文化+词汇门槛) | L5:ex=勉强(“总统宣誓”可懂但远离儿童生活) | L6:勉强(可撞词: promise) | L7:注意(涉及宗教“God”与政治人物；部分家长敏感) | L8:不合适(建议后移level或去掉God、换更儿童化例句)
-- objective | L5:def=能 | L5:ex=能(今天目标做海报) | L6:能 | L7:OK | L8:合适
-- obligation | L5:def=勉强(抽象名词+句式) | L5:ex=勉强(还书是义务可懂，但obligation回忆难) | L6:能 | L7:OK | L8:偏难
-- obstacle | L5:def=能 | L5:ex=能(倒树挡路) | L6:能 | L7:OK | L8:合适
-- obtain | L5:def=能 | L5:ex=勉强(办借书证可懂，但obtain回忆难) | L6:能 | L7:OK | L8:合适
-- occur | L5:def=能 | L5:ex=能(地震发生) | L6:能 | L7:OK | L8:合适
-- offense | L5:def=勉强(抽象名词) | L5:ex=勉强(无意冒犯可懂，但offense回忆难) | L6:能 | L7:OK | L8:偏难
-- ongoing | L5:def=能 | L5:ex=勉强(施工持续几个月可懂，但ongoing回忆难) | L6:能 | L7:OK | L8:合适
-- operate | L5:def=能 | L5:ex=勉强(操作电脑程序可懂，但operate回忆难) | L6:能 | L7:OK | L8:合适
-- option | L5:def=能 | L5:ex=能(午饭选项) | L6:能 | L7:OK | L8:合适
-- origin | L5:def=勉强(抽象名词) | L5:ex=不能(cacao beans/Central America/traced对低龄太硬) | L6:勉强(可撞词: start / where from) | L7:OK | L8:偏难(建议例句换更生活: “Do you know the origin of this song?”)
-- overcome | L5:def=能 | L5:ex=能(克服挑战) | L6:能 | L7:OK | L8:合适
-- overlook | L5:def=能 | L5:ex=能(别漏看小字) | L6:能 | L7:OK | L8:合适
-- owe | L5:def=能 | L5:ex=能(欠朋友一美元) | L6:能 | L7:OK | L8:合适
+- achieve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / constant / ideal / journal] | L7:OK | L8:合适
+- adjust | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / affect / fragment / objective] | L7:OK | L8:合适
+- adopt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / alert / drastic / instinct] | L7:OK | L8:合适
+- affect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affect / ban / forecast / ideal] | L7:OK | L8:合适
+- afford | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afford / blend / fulfill / fund] | L7:OK | L8:合适
+- alarm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alarm / appetite / appropriate / launch] | L7:OK | L8:合适
+- alert | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:someone)，易靠语感/蒙) | 选项:[adopt / alert / detect / drastic] | L7:OK | L8:合适
+- allowance | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allowance / credit / individual / owe] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- amaze | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / alarm / amaze / fascinate] | L7:OK | L8:合适
+- appeal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appeal / decline / distribute / integrate] | L7:OK | L8:合适
+- appetite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appetite / appropriate / exclude / lecture] | L7:OK | L8:合适
+- applaud | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[applaud / drama / notify / ongoing] | L7:OK | L8:合适
+- appropriate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alarm / appetite / appropriate / communicate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- assist | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assist / fundamental / leisure / mature] | L7:OK | L8:合适
+- assume | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assume / ensure / forecast / ideal] | L7:OK | L8:合适
+- assure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assure / fascinate / immediate / injure] | L7:OK | L8:合适
+- authority | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[authority / contest / focus / forbid] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- available | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[available / decline / doubt / ensure] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- aware | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / aware / conscious / halt] | L7:OK | L8:合适
+- ballot | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ballot / contribute / distribute / individual] | L7:OK | L8:合适
+- ban | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affect / ban / feature / incident] | L7:OK | L8:合适
+- barrier | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barrier / dispute / drama / overcome] | L7:OK | L8:合适
+- blame | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / blame / bother / individual] | L7:OK | L8:合适
+- blend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blend / edible / expand / extend] | L7:OK | L8:合适
+- bother | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assume / blame / bother / overlook] | L7:OK | L8:合适
+- caution | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[caution / intense / lack / option] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- century | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[century / contain / mature / obstacle] | L7:OK | L8:合适
+- champion | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[champion / deserve / doubt / excess] | L7:OK | L8:合适
+- charm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / appeal / charm / modify] | L7:OK | L8:合适
+- circulate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:back)，易靠语感/蒙) | 选项:[circulate / injure / navigate / owe] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- circumstance | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affect / circumstance / dilemma / fund] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- commit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commit / discipline / journal / mutual] | L7:OK | L8:合适
+- communicate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appropriate / communicate / distinguish / environment] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- compassion | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compassion / credit / locate / monitor] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- compete | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compete / desire / determine / dispute] | L7:OK | L8:合适
+- complex | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[complex / deserve / obtain / operate] | L7:OK | L8:合适
+- concern | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assume / concern / consist / ensure] | L7:OK | L8:合适
+- confirm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confirm / document / introduce / license] | L7:OK | L8:合适
+- conquer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / applaud / conquer / injure] | L7:OK | L8:合适
+- conscious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allowance / aware / conscious / image] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- conserve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conserve / constant / environment / error] | L7:OK | L8:合适
+- consist | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / applaud / barrier / consist] | L7:OK | L8:合适
+- constant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / conscious / conserve / constant] | L7:OK | L8:合适
+- construct | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ban / construct / feature / incident] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- contain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[century / contain / discourage / illustrate] | L7:OK | L8:合适
+- contest | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / authority / contest / focus] | L7:OK | L8:合适
+- contrast | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contrast / dedicate / instinct / lack] | L7:OK | L8:合适
+- contribute | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appetite / contribute / expense / famine] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- convenient | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confirm / convenient / dispute / guarantee] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- core | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contain / core / fault / mature] | L7:OK | L8:合适
+- courteous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alert / courteous / expose / individual] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- credit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compassion / credit / impact / lecture] | L7:OK | L8:合适
+- crisis | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / crisis / ferry / memorial] | L7:OK | L8:合适
+- critical | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[critical / desperate / environment / link] | L7:OK | L8:合适
+- debate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barrier / debate / excellent / literal] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- decade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / decade / dedicate / discipline] | L7:OK | L8:合适
+- decline | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / decline / edible / monitor] | L7:OK | L8:合适
+- dedicate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contrast / decade / dedicate / lack] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- definite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[definite / duty / encounter / exclude] | L7:OK | L8:合适
+- deliberate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afford / allowance / deliberate / dilemma] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- deposit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[construct / deposit / forecast / manage] | L7:OK | L8:合适
+- deserve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[champion / deserve / excess / obtain] | L7:OK | L8:合适
+- desire | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contain / desire / exhibit / initial] | L7:OK | L8:合适
+- desperate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[desperate / environment / locate / navigate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- detect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alert / detect / embarrass / launch] | L7:OK | L8:合适
+- determine | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[champion / contest / determine / evaluate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dignity | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[applaud / dignity / exclude / minimum] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- dilemma | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:between)，易靠语感/蒙) | 选项:[circumstance / dilemma / expense / fund] | L7:OK | L8:合适
+- dimension | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: long,wide) | 选项:[contain / dimension / expedition / lecture] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- discipline | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commit / decade / dedicate / discipline] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- discourage | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blame / contain / discourage / overcome] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- display | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[display / doubt / exhibit / instance] | L7:OK | L8:合适
+- dispute | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barrier / dispute / indicate / locate] | L7:OK | L8:合适
+- distinct | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[convenient / distinct / indicate / justify] | L7:OK | L8:合适
+- distinguish | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appropriate / communicate / distinguish / environment] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- distribute | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appeal / ballot / distribute / individual] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- division | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[communicate / division / fundamental / integrate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- document | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[document / drastic / image / layer] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- doubt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[available / champion / decline / doubt] | L7:OK | L8:合适
+- drama | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / applaud / drama / miracle] | L7:OK | L8:合适
+- drastic | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:change)，易靠语感/蒙) | 选项:[alert / document / drastic / grace] | L7:OK | L8:合适
+- dread | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / alarm / dread / exaggerate] | L7:OK | L8:合适
+- duty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ballot / definite / duty / majority] | L7:OK | L8:合适
+- edible | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decline / edible / luxury / monitor] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- efficient | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: without,wasting) | 选项:[efficient / excellent / fatal / integrate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- elaborate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elaborate / eliminate / frequent / layer] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- eliminate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elaborate / eliminate / flourish / frequent] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- embarrass | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appeal / drama / embarrass / grace] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- emerge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[charm / emerge / illustrate / impress] | L7:OK | L8:合适
+- emotion | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / ballot / emotion / excess] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- emphasis | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:extra)，易靠语感/蒙) | 选项:[assist / distribute / emphasis / motive] | L7:OK | L8:合适
+- enable | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enable / invade / involve / notion] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- encounter | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allowance / authority / encounter / launch] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- endure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / affect / endure / intense] | L7:OK | L8:合适
+- ensure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[available / decline / doubt / ensure] | L7:OK | L8:合适
+- environment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: air,water,land) | 选项:[environment / expand / frontier / impact] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- error | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conserve / error / miracle / novel] | L7:OK | L8:合适
+- evaluate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[champion / error / evaluate / impress] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- evident | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amaze / evident / imply / initial] | L7:OK | L8:合适
+- evolve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[debate / evolve / excellent / liberty] | L7:OK | L8:合适
+- exaggerate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exaggerate / forecast / inhabit / license] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- excellent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excellent / impress / justify / novel] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- exception | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exception / majority / maximum / objective] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- excess | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[champion / conserve / deserve / excess] | L7:OK | L8:合适
+- exclude | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appetite / exclude / luxury / minimum] | L7:OK | L8:合适
+- exhibit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[desire / display / exhibit / introduce] | L7:OK | L8:合适
+- expand | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[environment / expand / expose / launch] | L7:OK | L8:合适
+- expedition | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[expedition / instinct / migrate / ongoing] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- expense | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contribute / dilemma / expense / majority] | L7:OK | L8:合适
+- expertise | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[consist / expertise / extreme / integrate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- exploit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exploit / hazard / liberty / logic] | L7:OK | L8:合适
+- expose | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assure / expose / fascinate / immediate] | L7:OK | L8:合适
+- extend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[extend / incident / leisure / mercy] | L7:OK | L8:合适
+- extreme | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[concern / consist / extreme / integrate] | L7:OK | L8:合适
+- factor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[efficient / evolve / factor / flourish] | L7:OK | L8:合适
+- famine | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:not)，易靠语感/蒙) | 选项:[blame / dimension / famine / gradual] | L7:OK | L8:合适
+- fascinate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amaze / fascinate / indicate / monitor] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- fatal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assist / fatal / frequent / integrate] | L7:OK | L8:合适
+- fate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[core / duty / fate / inspire] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- fault | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / contain / core / fault] | L7:OK | L8:合适
+- feature | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ban / feature / ideal / incident] | L7:OK | L8:合适
+- ferry | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:across)，易靠语感/蒙) | 选项:[crisis / encounter / ferry / grace] | L7:OK | L8:合适
+- flourish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[environment / flourish / intense / manage] | L7:OK | L8:合适
+- focus | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / alarm / focus / illustrate] | L7:OK | L8:合适
+- forbid | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / authority / forbid / luxury] | L7:OK | L8:合适
+- forecast | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:weather)，易靠语感/蒙) | 选项:[affect / assume / exaggerate / forecast] | L7:OK | L8:合适
+- fortune | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[charm / document / fortune / interact] | L7:OK | L8:合适
+- fragment | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:broken)，易靠语感/蒙) | 选项:[adjust / appetite / champion / fragment] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- frequent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affect / elaborate / eliminate / frequent] | L7:OK | L8:合适
+- frontier | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frontier / inspire / launch / ongoing] | L7:OK | L8:合适
+- fulfill | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afford / commit / fulfill / journal] | L7:OK | L8:合适
+- function | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[function / involve / issue / memorial] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- fundamental | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assist / compete / fundamental / institution] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- fund | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circumstance / dilemma / fund / majority] | L7:OK | L8:合适
+- grace | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[embarrass / encounter / ferry / grace] | L7:OK | L8:合适
+- gradual | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drastic / dread / gradual / migrate] | L7:OK | L8:合适
+- guarantee | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[construct / convenient / deposit / guarantee] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- halt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aware / core / duty / halt] | L7:OK | L8:合适
+- hazard | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enable / hazard / intense / liberty] | L7:OK | L8:合适
+- ideal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affect / assume / commit / ideal] | L7:OK | L8:合适
+- illustrate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contain / emerge / illustrate / inspire] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- image | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conscious / image / locate / motive] | L7:OK | L8:合适
+- immediate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alert / error / immediate / novel] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- impact | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[credit / doubt / environment / impact] | L7:OK | L8:合适
+- imply | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[definite / encounter / evident / imply] | L7:OK | L8:合适
+- impress | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[evaluate / excellent / impress / novel] | L7:OK | L8:合适
+- incident | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ban / feature / incident / invade] | L7:OK | L8:合适
+- indicate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dispute / distinct / endure / indicate] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- individual | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allowance / ballot / distribute / individual] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- inform | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[inform / launch / minimum / notify] | L7:OK | L8:合适
+- inhabit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[environment / exaggerate / inhabit / mission] | L7:OK | L8:合适
+- initial | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amaze / emotion / evident / initial] | L7:OK | L8:合适
+- injure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / affect / conquer / injure] | L7:OK | L8:合适
+- inquire | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[detect / embarrass / inquire / maximum] | L7:OK | L8:合适
+- inspire | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excellent / illustrate / inspire / launch] | L7:OK | L8:合适
+- instance | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dispute / exaggerate / instance / locate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- instinct | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contrast / expedition / instinct / military] | L7:OK | L8:合适
+- institution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:library)，易靠语感/蒙) | 选项:[fundamental / institution / obligation / obtain] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- integrate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appeal / division / individual / integrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- intense | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excess / flourish / hazard / intense] | L7:OK | L8:合适
+- interact | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[embarrass / interact / luxury / miracle] | L7:OK | L8:合适
+- introduce | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confirm / discourage / introduce / notify] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- invade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / affect / afford / invade] | L7:OK | L8:合适
+- involve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excellent / function / involve / notion] | L7:OK | L8:合适
+- issue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appeal / charm / environment / issue] | L7:OK | L8:合适
+- item | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:list)，易靠语感/蒙) | 选项:[appetite / eliminate / item / justify] | L7:OK | L8:合适
+- journal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / constant / error / journal] | L7:OK | L8:合适
+- justify | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[distinct / excellent / justify / objective] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- lack | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contrast / dedicate / lack / neglect] | L7:OK | L8:合适
+- launch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alarm / encounter / inspire / launch] | L7:OK | L8:合适
+- layer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dilemma / distinguish / elaborate / layer] | L7:OK | L8:合适
+- lecture | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appetite / credit / lecture / operate] | L7:OK | L8:合适
+- leisure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assist / fundamental / leisure / notable] | L7:OK | L8:合适
+- liable | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / affect / afford / liable] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- liberty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enable / function / hazard / liberty] | L7:OK | L8:合适
+- license | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contribute / exaggerate / justify / license] | L7:OK | L8:合适
+- link | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contribute / dilemma / famine / link] | L7:OK | L8:合适
+- literal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[debate / exaggerate / forecast / literal] | L7:OK | L8:合适
+- locate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / affect / image / locate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- logic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ballot / locate / logic / navigate] | L7:OK | L8:合适
+- luxury | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:not)，易靠语感/蒙) | 选项:[authority / famine / forbid / luxury] | L7:OK | L8:合适
+- majority | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[expense / majority / maximum / option] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- manage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allowance / construct / flourish / manage] | L7:OK | L8:合适
+- mature | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[century / core / edible / mature] | L7:OK | L8:合适
+- maximum | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exception / inquire / majority / maximum] | L7:OK | L8:合适
+- memorial | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:built)，易靠语感/蒙) | 选项:[appetite / champion / crisis / memorial] | L7:OK | L8:合适
+- mental | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excellent / impress / justify / mental] | L7:OK | L8:合适
+- mercy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dispute / extend / indicate / mercy] | L7:OK | L8:合适
+- migrate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assume / forecast / locate / migrate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- military | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ferry / grace / instinct / military] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- minimum | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exclude / inform / launch / minimum] | L7:OK | L8:合适
+- minor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / alarm / concern / minor] | L7:OK | L8:合适
+- miracle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compassion / error / interact / miracle] | L7:OK | L8:合适
+- mission | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / applaud / inhabit / mission] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- modify | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / conserve / discourage / modify] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- monitor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decline / edible / fascinate / monitor] | L7:OK | L8:合适
+- motive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / emphasis / image / motive] | L7:OK | L8:合适
+- mutual | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commit / ideal / journal / mutual] | L7:OK | L8:合适
+- navigate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[available / ballot / logic / navigate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- neglect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / applaud / lack / neglect] | L7:OK | L8:合适
+- neutral | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[majority / maximum / neutral / notify] | L7:OK | L8:合适
+- notable | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assist / notable / obligation / obtain] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- notify | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[inform / manage / notify / ongoing] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- notion | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / enable / involve / notion] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- novel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excellent / issue / notion / novel] | L7:OK | L8:合适
+- oath | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[discipline / drastic / image / oath] | L7:OK | L8:合适
+- objective | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[achieve / exception / justify / objective] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- obligation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[institution / notable / obligation / obtain] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- obstacle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[century / circulate / mature / obstacle] | L7:OK | L8:合适
+- obtain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[institution / notable / obligation / obtain] | L7:OK | L8:合适
+- occur | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adopt / gradual / halt / occur] | L7:OK | L8:合适
+- offense | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affect / evolve / hazard / offense] | L7:OK | L8:合适
+- ongoing | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[expedition / neglect / occur / ongoing] | L7:OK | L8:合适
+- operate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[complex / dedicate / lecture / operate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- option | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / caution / majority / option] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- origin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adjust / affect / afford / origin] | L7:OK | L8:合适
+- overcome | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barrier / discourage / objective / overcome] | L7:OK | L8:合适
+- overlook | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[assume / bother / minor / overlook] | L7:OK | L8:合适
+- owe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allowance / ban / core / owe] | L7:OK | L8:合适

@@ -39,6 +39,10 @@ function extractItems(text) {
   m = text.match(/const\s+[A-Z0-9_]+\s*=\s*\[(.*)\]\s*;\s*$/s);
   if (m) return JSON.parse('[' + m[1] + ']');
 
+  // Some sources omit the trailing semicolon (EOF)
+  m = text.match(/const\s+[A-Z0-9_]+\s*=\s*\[(.*)\]\s*$/s);
+  if (m) return JSON.parse('[' + m[1] + ']');
+
   m = text.match(/module\.exports\s*=\s*\[(.*)\]\s*;\s*$/s);
   if (m) return JSON.parse('[' + m[1] + ']');
 

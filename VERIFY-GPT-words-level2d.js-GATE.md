@@ -1,264 +1,266 @@
-# VERIFY-GPT-words-level2d.js-GATE
+# VERIFY-GPT — words-level2d.js
 
-逐词专项审校（GPT侧）：L5 Mark模拟做题 / L6 例句反向测试 / L7 文化敏感度 / L8 学习路径验证
+- One line per word (no skipping).
+- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+- L6: Reverse test — blank example + 4 options.
+- L7: Cultural sensitivity.
+- L8: Learning path / level fit.
 
-格式：编号 词 | L5(def/示例猜词) | L6(唯一性+选项) | L7(文化) | L8(level/前置/顺序)
-
-001 pace | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [passion / pace / panel / patent] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-002 panel | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [patent / pace / panel / peril] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-003 participate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [deteriorate / accelerate / participate / anticipate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-004 passion | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [provision / passion / vision / version] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-005 passive | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [physical / passive / biased / deficit] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-006 patent | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [patent / permanent / panel / passion] | L7: 注意(注意(法律概念偏成人；若保留需更生活化解释)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-007 peer | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [peer / period / pace / peril] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-008 perceive | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [persist / preserve / permit / perceive] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-009 peril | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [panel / period / peril / peer] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-010 period | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [permanent / peer / peril / period] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-011 permanent | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [permanent / patent / perspective / component] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-012 permit | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [persist / submit / permit / perceive] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-013 persist | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [perceive / permit / persist / resist] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-014 perspective | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [perspective / permanent / cumulative / period] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-015 phenomenon | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [provision / phenomenon / proportion / philosophy] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-016 philosophy | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [priority / proportion / phenomenon / philosophy] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-017 physical | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [passive / physical / biased / deficit] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-018 plea | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [pace / pledge / plea / peer] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-019 pledge | L5: def=勉强(原定义措辞拗口“in the time that has not come yet”易卡；需要更直白=promise in the future); ex=勉强(能懂“许诺”，但pledge词形偏学术) | L6: 不唯一(空格处真实可填promise/vow；四选一若含近义会分不清); 选项: [pledge / promise / permit / plea] | L7: OK | L8: 不合适(更适合在promise之后作为书面替换词引入)
-020 plunge | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [produce / plunge / pursue / presume] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-021 policy | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [primary / patent / policy / poverty] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-022 polish | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [publish / abolish / pose / polish] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-023 pose | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [propose / plunge / polish / pose] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-024 potential | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [potential / bilateral / poverty / practical] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-025 poverty | L5: def=勉强; ex=不能(概念能懂“穷”，但词形长且抽象；更像需要中文支架) | L6: 不唯一(“work to end ___”太泛，容易被policy/progress等抽象词干扰); 选项: [priority / primary / policy / poverty] | L7: 注意(贫困话题可教，但图片/例句避免过度苦难或“卖惨”叙事) | L8: 勉强(可后置到更高level或先学poor/need/help再引入poverty)
-026 practical | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [potential / prejudice / tropical / practical] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-027 prefer | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [prefer / prosper / presume / prevail] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-028 prejudice | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [principle / privilege / pressure / prejudice] | L7: 注意(注意(涉及外貌/种族刻板印象；例句需强调公平)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-029 preserve | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [preserve / reserve / presume / prevail] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-030 pressure | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [principle / privilege / prejudice / pressure] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-031 presume | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [preserve / prevail / prevent / presume] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-032 prevail | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [prevent / presume / prefer / prevail] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-033 prevent | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [prevent / presume / prevail / prefer] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-034 primary | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [principle / privilege / primary / priority] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-035 principle | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [principle / prejudice / privilege / priority] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-036 priority | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [principle / primary / priority / privilege] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-037 privilege | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [prejudice / priority / principle / privilege] | L7: 注意(注意(“privilege, not a right”家长可能觉得刺；可换更中性场景)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-038 proceed | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [produce / promote / proceed / proclaim] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-039 process | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [progress / profit / process / project] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-040 proclaim | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [proceed / proclaim / produce / prohibit] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-041 produce | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [produce / propose / promote / provoke] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-042 profit | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [project / prompt / profit / prospect] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-043 progress | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [process / project / prospect / progress] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-044 prohibit | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [proclaim / prohibit / produce / proceed] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-045 project | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [profit / prompt / prospect / project] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-046 promote | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [propose / produce / promote / provoke] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-047 prompt | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [prompt / profit / project / prospect] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-048 proof | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [proof / profit / prompt / process] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-049 proportion | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [proportion / convention / reputation / provision] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-050 propose | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [propose / provoke / promote / produce] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-051 prospect | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [profit / project / prospect / progress] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-052 prosper | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [prefer / produce / prosper / proceed] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-053 provision | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [proportion / vision / passion / provision] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-054 provoke | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [promote / produce / provoke / propose] | L7: 注意(注意(例句里“pulling its tail”像教孩子欺负动物；建议改成更安全的provoking场景)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-055 publish | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [polish / publish / purchase / abolish] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-056 purchase | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [pursue / perceive / propose / purchase] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-057 pursue | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [pursue / publish / plunge / purchase] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-058 qualify | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [simplify / quote / certify / qualify] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-059 quote | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [quote / qualify / promote / unite] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-060 random | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [ratio / random / relief / realm] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-061 ratio | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [rigid / ratio / random / realm] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-062 react | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [reject / react / regret / reflect] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-063 realistic | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [realistic / relevant / reference / realm] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-064 realm | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [realistic / remedy / realm / relief] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-065 rebel | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [rebel / react / renew / recall] | L7: 注意(注意(鼓励反叛联想；例句已弱化为小调皮，可接受)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-066 recall | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [recover / recommend / rebel / recall] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-067 recommend | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [recall / recover / recommend / reinforce] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-068 recover | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [recover / recommend / register / recall] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-069 reference | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [remarkable / realistic / reference / sequence] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-070 reflect | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [reject / restrict / react / reflect] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-071 reform | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [refuse / recall / reform / reflect] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-072 refuse | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [refuse / revise / reform / release] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-073 regard | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [regret / recall / regard / register] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-074 register | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [recover / regret / register / regard] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-075 regret | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [regard / resist / reject / regret] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-076 regular | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [regular / similar / revenue / relevant] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-077 reinforce | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [replace / recommend / reinforce / resemble] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-078 reject | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [reflect / regret / reject / react] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-079 relate | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [refuse / remove / release / relate] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-080 release | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [relate / refuse / release / reverse] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-081 relevant | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [realistic / reference / relief / relevant] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-082 relief | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [relevant / remedy / remote / relief] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-083 rely | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [rely / release / relate / react] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-084 remain | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [remain / remove / retain / recall] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-085 remarkable | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [reference / remote / remarkable / vulnerable] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-086 remedy | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [remedy / remote / relief / reward] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-087 remote | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [remote / revenue / remarkable / remedy] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-088 remove | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [remove / remain / reserve / resolve] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-089 renew | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [react / rebel / recall / renew] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-090 replace | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [release / reinforce / replace / reserve] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-091 reputation | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [sensation / proportion / convention / reputation] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-092 resemble | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [reserve / restore / resemble / resolve] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-093 reserve | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [resemble / preserve / reserve / resolve] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-094 reside | L5: def=勉强(原定义语法别扭“to live in a one certain place”；且reside=更正式的live) ; ex=不能(例句里用live/stay更自然，孩子会填基础词) | L6: 不唯一(空格可被live/stay/remain替换，线索不足以唯一指向书面词reside); 选项: [reside / live / stay / remain] | L7: OK | L8: 不合适(应先学live/stay，再在更高level引入reside=live formally)
-095 resist | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [restrict / regret / resist / reside] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-096 resolve | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [resolve / reserve / restore / resemble] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-097 restore | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [resolve / restrict / restore / reserve] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-098 restrict | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [restrict / restore / reflect / resemble] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-099 retain | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [remain / retreat / retire / retain] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-100 retire | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [restore / retire / refuse / retain] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-101 retreat | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [reflect / retreat / retire / retain] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-102 revenue | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [revenue / remote / reference / regular] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-103 reverse | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [release / refuse / reverse / revise] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-104 revise | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [revise / refuse / reverse / release] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-105 revolt | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [revolt / revise / regret / reject] | L7: 注意(注意(社会运动/对抗语境；建议更中性历史/课堂语境)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-106 reward | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [relief / remote / reward / remedy] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-107 rigid | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [valid / rigid / rival / reward] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-108 rival | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [rival / vital / trial / rigid] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-109 routine | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [routine / remote / revenue / reference] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-110 ruin | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [ruin / retain / remain / rely] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-111 sacred | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [sacred / scheme / secure / series] | L7: 注意(注意(宗教/信仰相关；保持尊重与中性描述)) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-112 sacrifice | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [reinforce / commence / simulate / sacrifice] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-113 satisfactory | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [satisfactory / strategy / significant / compulsory] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-114 schedule | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [scheme / sequence / schedule / scope] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-115 scheme | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [schedule / secure / scope / scheme] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-116 scope | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [schedule / scheme / scope / spite] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-117 secure | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [scheme / secure / sequence / series] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-118 segment | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [supplement / secure / segment / patent] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-119 seize | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [seize / shift / quote / utilize] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-120 sensation | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [sensation / proportion / ambition / reputation] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-121 sequence | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [secure / schedule / reference / sequence] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-122 series | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [status / series / secure / segment] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-123 shift | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [seize / suspect / shift / submit] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-124 significant | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [supplement / significant / relevant / transparent] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-125 similar | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [regular / segment / similar / superior] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-126 simplify | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [simulate / certify / qualify / simplify] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-127 simulate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [simulate / violate / simplify / relate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-128 site | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [scope / site / spite / sole] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-129 sketch | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [sketch / sacred / scheme / secure] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-130 slight | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [strict / segment / slight / summit] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-131 sole | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [site / spite / scope / sole] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-132 specific | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [schedule / sequence / specific / realistic] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-133 spite | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [site / scheme / scope / spite] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-134 standard | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [strategy / reward / status / standard] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-135 status | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [standard / steady / status / stress] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-136 steady | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [steady / strategy / stress / status] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-137 stock | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [steady / stress / stock / status] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-138 strategy | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [stress / standard / strategy / strict] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-139 stress | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [stress / strict / status / strategy] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-140 strict | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [stress / status / strategy / strict] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-141 submit | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [submit / permit / suspect / suspend] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-142 substitute | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [superior / schedule / substitute / supplement] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-143 summit | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [slight / strict / profit / summit] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-144 superior | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [supplement / substitute / similar / superior] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-145 supplement | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [segment / superior / significant / supplement] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-146 suspect | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [suspend / submit / suspect / sustain] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-147 suspend | L5: def=不懂; ex=不能(词形长且“暂停/中止”属抽象规则语；二年级多用stop/pause) | L6: 唯一(“because of rain…finished next day”强指向“暂停/延期”，四选一可锁定); 选项: [suspend / sustain / suspect / contend] | L7: OK | L8: 不合适(建议后置；或先学pause/stop，再引入suspend=stop for a while)
-148 sustain | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [suspect / retain / sustain / suspend] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-149 sympathy | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [worthy / schedule / strategy / sympathy] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-150 tactic | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [tactic / task / target / realistic] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-151 target | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [tactic / theory / task / target] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-152 task | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [tactic / target / tone / task] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-153 technique | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [technique / tense / unique / prejudice] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-154 tense | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [technique / trend / tense / tone] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-155 theory | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [thorough / tactic / primary / theory] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-156 thorough | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [tropical / technique / thorough / theory] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-157 threaten | L5: def=不能(定义只讲“说要伤害人”，但例句是天气“可能要…”，两种义混用会让孩子困惑); ex=勉强(从“dark clouds…storm”可猜“快要/可能要”) | L6: 相对唯一(天气语境能锁定threaten=seem likely，但若给likely/going to等干扰则不稳); 选项: [threaten / likely / begin / thrive] | L7: 注意(建议把定义改成含天气义：seem likely to happen；避免暴力场景) | L8: 不合适(二年级先学might/going to，再引入threaten=seem likely)
-158 thrive | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [thrive / remove / perceive / threaten] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-159 tolerate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [tolerate / accelerate / simulate / delegate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-160 tone | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [tense / task / tone / zone] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-161 transfer | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [prefer / transfer / prosper / register] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-162 transparent | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [transparent / consistent / supplement / trustworthy] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-163 trend | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [tense / tropical / trial / trend] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-164 trial | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [trial / rival / trend / tropical] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-165 tropical | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [tropical / practical / trial / potential] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-166 trustworthy | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [philosophy / trustworthy / worthy / transparent] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-167 undergo | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [undergo / unite / utilize / persist] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-168 unique | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [universe / technique / revenue / unique] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-169 unite | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [cite / undergo / quote / unite] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-170 universe | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [unique / pressure / schedule / universe] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-171 urge | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [unique / urge / pledge / pace] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-172 utilize | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [utilize / unite / undergo / seize] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-173 valid | L5: def=勉强; ex=勉强(“still good/可用”能懂，但valid本身偏书面；需要对照not valid/expired) | L6: 唯一(“ticket…for another hour”线索强，四选一可唯一锁定); 选项: [rigid / value / valid / vital] | L7: OK | L8: 勉强(更像三年级起；若保留建议搭配expire/invalid与生活票证场景)
-174 value | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [valid / volume / unique / value] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-175 vehicle | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [vehicle / version / venture / volume] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-176 venture | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [vehicle / venture / pressure / version] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-177 version | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [version / vision / passion / provision] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-178 vibrant | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [relevant / virtual / vibrant / vision] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-179 violate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [simulate / dictate / violate / relate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-180 virtual | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [vision / virtual / vital / vibrant] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-181 vision | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [vision / version / provision / passion] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-182 vital | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [vital / vision / virtual / rival] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-183 volume | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [volume / value / scheme / voluntary] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-184 voluntary | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [voluntary / primary / volume / compulsory] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-185 vulnerable | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [remarkable / considerable / vulnerable / vehicle] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-186 warrant | L5: def=勉强; ex=不能(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 不唯一(线索不够唯一，容易被同类词干扰); 选项: [prevent / appoint / confront / warrant] | L7: 注意(注意(容易联想到警察搜查令；例句用teacher较安全)) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-187 welfare | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [welfare / pressure / venture / secure] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-188 widespread | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [widespread / philosophy / proportion / phenomenon] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-189 withdraw | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [withdraw / perceive / preserve / warrant] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-190 worthy | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [trustworthy / policy / worthy / sympathy] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-191 yield | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [proceed / quote / regard / yield] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-192 zone | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [zone / tone / pace / site] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-193 abolish | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [publish / polish / abolish / appoint] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-194 accelerate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [tolerate / deteriorate / anticipate / accelerate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-195 ambition | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [sensation / reputation / ambition / proportion] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-196 ample | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [sole / asset / ambition / ample] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-197 anticipate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [accelerate / coordinate / anticipate / participate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-198 apparatus | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [ambition / apparatus / appliance / status] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-199 appliance | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [apparatus / reference / sequence / appliance] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-200 appoint | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [prevent / abolish / warrant / appoint] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-201 asset | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [ample / target / asset / patent] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-202 bankrupt | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [prompt / bankrupt / corrupt / contempt] | L7: 注意(注意(商业破产偏成人；可换更儿童化“ran out of money”)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-203 behalf | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [behalf / bonus / brisk / relief] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-204 betray | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [boast / qualify / convey / betray] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-205 biased | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [biased / passive / deficit / physical] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-206 bilateral | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [practical / potential / bilateral / tropical] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-207 boast | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [resist / persist / react / boast] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-208 bonus | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [behalf / bonus / status / brisk] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-209 brisk | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [task / bonus / bulk / brisk] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-210 bulk | L5: def=懂; ex=不能(定义直白且场景常见) | L6: 相对唯一(大致能猜，但仍可能被近义/同类词误选); 选项: [bulk / bonus / task / brisk] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-211 campaign | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [campaign / criterion / compound / contempt] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-212 cease | L5: def=懂; ex=勉强(定义直白且场景常见) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [certify / cite / release / cease] | L7: OK(无明显文化冲突) | L8: 合适(可作为高频基础学术词/课堂用语扩展)
-213 certify | L5: def=不懂; ex=不能(官方/检验/认证概念偏成人；二年级通常用check/confirm) | L6: 唯一(“inspector…playground…safe”语境强指“认证/确认合格”，四选一可锁定); 选项: [simplify / qualify / certify / cease] | L7: OK | L8: 不合适(建议后置到更高level；或改成更儿童化场景+更简单同义表达)
-214 chronic | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [tactic / compact / chronic / specific] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-215 cite | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [cease / cite / unite / cope] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-216 commence | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [commission / confront / commence / compel] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-217 commission | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [commence / constitute / commission / constrain] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-218 compact | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [component / compact / compromise / compound] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-219 compel | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [compel / commission / convey / commence] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-220 component | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [compact / compromise / compound / component] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-221 compound | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [compromise / compound / component / compact] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-222 comprehensive | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [compulsory / compromise / comprehensive / component] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-223 compromise | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [compulsory / component / compromise / comprehensive] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-224 compulsory | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [compromise / component / compound / compulsory] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-225 condemn | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [condemn / constrain / conduct / contend] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-226 conduct | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [conduct / condemn / convert / confront] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-227 confront | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [condemn / confront / conduct / convert] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-228 considerable | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [vulnerable / considerable / consistent / conspicuous] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-229 consistent | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [consistent / component / conspicuous / considerable] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-230 conspicuous | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [considerable / convention / consistent / conspicuous] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-231 constitute | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [coordinate / constrain / constitute / confront] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-232 constrain | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [constitute / confront / constrain / condemn] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-233 contempt | L5: def=不懂; ex=不能(强烈抽象情绪词；二年级更该用mean/rude/dislike) | L6: 不唯一(“looked…refused”可对应dislike/angry，难唯一到contempt); 选项: [contempt / compact / corrupt / consistent] | L7: 注意(“看不起/鄙视”价值观敏感；建议例句强调不应该这样对人) | L8: 不合适(明显超纲；若保留需更高level并配情绪阶梯词)
-234 contend | L5: def=不懂; ex=不能(固定搭配contend with更难；二年级应先学fight/handle) | L6: 相对唯一(“contend with strong winds”语境指“艰难应对”，但需已见过搭配；否则靠排除); 选项: [condemn / convert / conduct / contend] | L7: OK | L8: 不合适(建议后置；或改用更直白例句并先铺垫handle/deal with)
-235 controversial | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [conspicuous / contempt / considerable / controversial] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-236 convention | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [proportion / reputation / consistent / convention] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-237 convert | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [confront / convert / convey / conduct] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-238 convey | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [condemn / convert / convey / conduct] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-239 coordinate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [coordinate / cultivate / constitute / designate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-240 cope | L5: def=勉强; ex=勉强(词形偏长或概念偏抽象，需要更多图示/对比例子) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [cease / commence / cite / cope] | L7: OK(无明显文化冲突) | L8: 勉强(建议放在更具体、更常见词之后，并配图/对比例句)
-241 corporate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [compromise / component / corrupt / corporate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-242 corrupt | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [contempt / bankrupt / compact / corrupt] | L7: 注意(注意(官员腐败话题偏成人；可改为“dishonest leader”)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-243 counsel | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [counterpart / compact / corrupt / counsel] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-244 counterpart | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [counsel / component / counterpart / consistent] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-245 criterion | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [convention / provision / sensation / criterion] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-246 crucial | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [trial / crucial / counsel / potential] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-247 cultivate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [coordinate / designate / cultivate / constitute] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-248 cumulative | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [perspective / curriculum / cumulative / comprehensive] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-249 curriculum | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [cumulative / compulsory / curriculum / compromise] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-250 custody | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [remedy / chronic / steady / custody] | L7: 注意(注意(常见于离婚/法律；建议坚持动物/监护中性例句)) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-251 debris | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [stress / debris / series / status] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-252 deficit | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [deficit / physical / biased / passive] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-253 delegate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [designate / deplete / deteriorate / delegate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-254 depict | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [restrict / depict / deplete / reject] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-255 deplete | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 唯一(例句场景/线索较明确，能把答案锁定); 选项: [delegate / depict / designate / deplete] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-256 designate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [deteriorate / delegate / designate / deplete] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-257 deteriorate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [deteriorate / accelerate / delegate / designate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
-258 dictate | L5: def=不懂; ex=不能(词长/抽象/学科或成人概念，二年级难直接掌握) | L6: 不唯一(例句线索偏泛+词本身抽象，难唯一定位); 选项: [deplete / delegate / dictate / designate] | L7: OK(无明显文化冲突) | L8: 不合适(对MAP约2年级偏超纲；建议后移或拆成更基础表达)
+- pace | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contend / pace / release / zone] | L7:OK | L8:合适
+- panel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / panel / transparent / undergo] | L7:OK | L8:合适
+- participate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commence / compel / coordinate / participate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- passion | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[passion / sketch / technique / transparent] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- passive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[passive / secure / sketch / suspect] | L7:OK | L8:合适
+- patent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankrupt / patent / retreat / simulate] | L7:OK | L8:合适
+- peer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[peer / prevail / relate / segment] | L7:OK | L8:合适
+- perceive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[perceive / reform / revise / threaten] | L7:OK | L8:合适
+- peril | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[peril / polish / recall / retreat] | L7:OK | L8:合适
+- period | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[period / proceed / pursue / routine] | L7:OK | L8:合适
+- permanent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankrupt / deplete / permanent / resemble] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- permit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[designate / permit / satisfactory / substitute] | L7:OK | L8:合适
+- persist | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[peril / persist / polish / tolerate] | L7:OK | L8:合适
+- perspective | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contempt / perspective / prejudice / reference] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- phenomenon | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[peril / phenomenon / threaten / vibrant] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- philosophy | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[certify / philosophy / regard / reputation] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- physical | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:body)，易靠语感/蒙) | 选项:[participate / physical / sensation / violate] | L7:OK | L8:合适
+- plea | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:help)，易靠语感/蒙) | 选项:[compound / plea / tolerate / volume] | L7:OK | L8:合适
+- pledge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compound / convey / pledge / reputation] | L7:OK | L8:合适
+- plunge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[plunge / reflect / thrive / withdraw] | L7:OK | L8:合适
+- policy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankrupt / policy / sole / undergo] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- polish | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:until)，易靠语感/蒙) | 选项:[contempt / polish / realistic / replace] | L7:OK | L8:合适
+- pose | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[pose / principle / proof / realistic] | L7:OK | L8:合适
+- potential | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:great)，易靠语感/蒙) | 选项:[asset / peril / potential / strategy] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- poverty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bilateral / brisk / poverty / widespread] | L7:注意(可能引发家长顾虑或需要解释：贫困议题(避免“卖惨”)；建议例句更中性/更普适) | L8:合适
+- practical | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compel / convey / practical / sympathy] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- prefer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[behalf / betray / biased / prefer] | L7:OK | L8:合适
+- prejudice | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[perspective / prejudice / reference / value] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- preserve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deteriorate / preserve / replace / utilize] | L7:OK | L8:合适
+- pressure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boast / deplete / pressure / stress] | L7:OK | L8:合适
+- presume | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / presume / relief / transfer] | L7:OK | L8:合适
+- prevail | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[peer / prevail / relate / restrict] | L7:OK | L8:合适
+- prevent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compulsory / crucial / prevent / trend] | L7:OK | L8:合适
+- primary | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[constitute / primary / progress / trend] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- principle | L5-Def:勉强(需要中文支架/图示；词偏长、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[pose / primary / principle / value] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- priority | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[priority / realm / restrict / violate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- privilege | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: not,right) | 选项:[privilege / remarkable / trustworthy / virtual] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- proceed | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulk / period / proceed / reform] | L7:OK | L8:合适
+- process | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[controversial / process / retain / sustain] | L7:OK | L8:合适
+- proclaim | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commission / condemn / delegate / proclaim] | L7:OK | L8:合适
+- produce | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[period / produce / pursue / routine] | L7:OK | L8:合适
+- profit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bonus / compound / profit / reward] | L7:OK | L8:合适
+- progress | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compound / period / potential / progress] | L7:OK | L8:合适
+- prohibit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compact / prohibit / register / reverse] | L7:OK | L8:合适
+- project | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apparatus / phenomenon / project / realm] | L7:OK | L8:合适
+- promote | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[period / promote / recommend / schedule] | L7:OK | L8:合适
+- prompt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[behalf / betray / prompt / virtual] | L7:OK | L8:合适
+- proof | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / pose / proof / realistic] | L7:OK | L8:合适
+- proportion | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / compromise / proportion / quote] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- propose | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[poverty / propose / strict / version] | L7:OK | L8:合适
+- prospect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compound / prospect / provision / regard] | L7:OK | L8:合适
+- prosper | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankrupt / cumulative / participate / prosper] | L7:OK | L8:合适
+- provision | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / compact / provision / unite] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- provoke | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[provoke / recall / reward / specific] | L7:OK | L8:合适
+- publish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolish / publish / regard / vehicle] | L7:OK | L8:合适
+- purchase | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[component / purchase / reject / renew] | L7:OK | L8:合适
+- pursue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[period / pursue / vibrant / vision] | L7:OK | L8:合适
+- qualify | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[asset / behalf / qualify / register] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- quote | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[convey / proportion / quote / recommend] | L7:OK | L8:合适
+- random | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accelerate / conspicuous / random / release] | L7:OK | L8:合适
+- ratio | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[permit / ratio / schedule / substitute] | L7:OK | L8:合适
+- react | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[react / recommend / value / volume] | L7:OK | L8:合适
+- realistic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contempt / proof / realistic / sketch] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- realm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[priority / realm / summit / tone] | L7:OK | L8:合适
+- rebel | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[compulsory / controversial / rebel / trend] | L7:OK | L8:合适
+- recall | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[peril / recall / reward / voluntary] | L7:OK | L8:合适
+- recommend | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[convention / promote / quote / recommend] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- recover | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brisk / chronic / corrupt / recover] | L7:OK | L8:合适
+- reference | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[reference / revise / significant / substitute] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- reflect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[plunge / realistic / reflect / tolerate] | L7:OK | L8:合适
+- reform | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulk / period / proceed / reform] | L7:OK | L8:合适
+- refuse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambition / brisk / contempt / refuse] | L7:OK | L8:合适
+- regard | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biased / regard / reputation / revolt] | L7:OK | L8:合适
+- register | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[period / primary / qualify / register] | L7:OK | L8:合适
+- regret | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biased / privilege / regret / tense] | L7:OK | L8:合适
+- regular | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compromise / regular / routine / submit] | L7:OK | L8:合适
+- reinforce | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apparatus / appliance / reinforce / tropical] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- reject | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[debris / reject / renew / replace] | L7:OK | L8:合适
+- relate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[prevail / react / relate / similar] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- release | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[release / resemble / restore / scheme] | L7:OK | L8:合适
+- relevant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bilateral / relevant / scope / sole] | L7:OK | L8:合适
+- relief | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[betray / peril / relief / transfer] | L7:OK | L8:合适
+- rely | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cease / rely / sustain / thrive] | L7:OK | L8:合适
+- remain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[polish / relief / remain / vehicle] | L7:OK | L8:合适
+- remarkable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dictate / remarkable / retire / simulate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- remedy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[react / recommend / remedy / satisfactory] | L7:OK | L8:合适
+- remote | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankrupt / realm / remote / zone] | L7:OK | L8:合适
+- remove | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[register / remove / similar / sketch] | L7:OK | L8:合适
+- renew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[renew / ruin / tactic / zone] | L7:OK | L8:合适
+- replace | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:old)，易靠语感/蒙) | 选项:[ample / rely / remote / replace] | L7:OK | L8:合适
+- reputation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[philosophy / pledge / regard / reputation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- resemble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambition / permanent / release / resemble] | L7:OK | L8:合适
+- reserve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolish / appoint / reserve / suspect] | L7:OK | L8:合适
+- reside | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[custody / reside / vehicle / widespread] | L7:OK | L8:合适
+- resist | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[period / polish / resist / routine] | L7:OK | L8:合适
+- resolve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / relevant / resolve / segment] | L7:OK | L8:合适
+- restore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[certify / replace / restore / superior] | L7:OK | L8:合适
+- restrict | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cope / priority / restrict / sole] | L7:OK | L8:合适
+- retain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[persist / retain / thorough / tolerate] | L7:OK | L8:合适
+- retire | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / remarkable / retire / thorough] | L7:OK | L8:合适
+- retreat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boast / deteriorate / peril / retreat] | L7:OK | L8:合适
+- revenue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[convention / renew / revenue / warrant] | L7:OK | L8:合适
+- reverse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compact / compulsory / prohibit / reverse] | L7:OK | L8:合适
+- revise | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[reference / revise / significant / undergo] | L7:OK | L8:合适
+- revolt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biased / deteriorate / regard / revolt] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- reward | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bonus / profit / recall / reward] | L7:OK | L8:合适
+- rigid | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bend)，易靠语感/蒙) | 选项:[ample / asset / boast / rigid] | L7:OK | L8:合适
+- rival | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[reside / rival / vehicle / widespread] | L7:OK | L8:合适
+- routine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brisk / resist / routine / scope] | L7:OK | L8:合适
+- ruin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[renew / revenue / ruin / series] | L7:OK | L8:合适
+- sacred | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[reside / sacred / substitute / transfer] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
+- sacrifice | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[plea / reference / release / sacrifice] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- satisfactory | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coordinate / designate / permit / satisfactory] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- schedule | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[period / proof / schedule / simplify] | L7:OK | L8:合适
+- scheme | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[behalf / betray / release / scheme] | L7:OK | L8:合适
+- scope | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:includes)，易靠语感/蒙) | 选项:[biased / reside / routine / scope] | L7:OK | L8:合适
+- secure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[passive / renew / ruin / secure] | L7:OK | L8:合适
+- segment | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / peer / resolve / segment] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- seize | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[prosper / retain / seize / task] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- sensation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / comprehensive / retain / sensation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- sequence | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[process / pursue / sequence / tactic] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- series | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[publish / ruin / series / unite] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- shift | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:direction)，易靠语感/蒙) | 选项:[component / counterpart / regard / shift] | L7:OK | L8:合适
+- significant | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conspicuous / reference / revise / significant] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- similar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolish / convert / remove / similar] | L7:OK | L8:合适
+- simplify | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:hard)，易靠语感/蒙) | 选项:[remedy / satisfactory / schedule / simplify] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- simulate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[practical / simulate / suspend / virtual] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- site | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulk / cite / cope / site] | L7:OK | L8:合适
+- sketch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compound / realistic / sketch / suspect] | L7:OK | L8:合适
+- slight | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / behalf / betray / slight] | L7:OK | L8:合适
+- sole | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[counsel / designate / sole / suspend] | L7:OK | L8:合适
+- specific | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[provoke / relief / reward / specific] | L7:OK | L8:合适
+- spite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bilateral / pressure / relevant / spite] | L7:OK | L8:合适
+- standard | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conduct / standard / urge / valid] | L7:OK | L8:合适
+- status | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[similar / sole / status / suspend] | L7:OK | L8:合适
+- steady | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[constrain / depict / retain / steady] | L7:OK | L8:合适
+- stock | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / corporate / stock / trustworthy] | L7:OK | L8:合适
+- strategy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambition / potential / strategy / zone] | L7:OK | L8:合适
+- stress | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boast / deplete / pressure / stress] | L7:OK | L8:合适
+- strict | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[controversial / relief / strict / submit] | L7:OK | L8:合适
+- submit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[regular / routine / submit / task] | L7:OK | L8:合适
+- substitute | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[curriculum / permit / recover / substitute] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- summit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chronic / compromise / period / summit] | L7:OK | L8:合适
+- superior | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cite / preserve / restore / superior] | L7:OK | L8:合适
+- supplement | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compel / remain / supplement / vehicle] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- suspect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[realistic / reserve / sketch / suspect] | L7:OK | L8:合适
+- suspend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cease / designate / sole / suspend] | L7:OK | L8:合适
+- sustain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cease / rely / sustain / thrive] | L7:OK | L8:合适
+- sympathy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[publish / recover / substitute / sympathy] | L7:OK | L8:合适
+- tactic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[renew / reserve / suspend / tactic] | L7:OK | L8:合适
+- target | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[behalf / betray / biased / target] | L7:OK | L8:合适
+- task | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[regular / seize / submit / task] | L7:OK | L8:合适
+- technique | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[passion / sketch / substitute / technique] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- tense | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[betray / comprehensive / regret / tense] | L7:OK | L8:合适
+- theory | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cultivate / curriculum / theory / thrive] | L7:OK | L8:合适
+- thorough | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / persist / retain / thorough] | L7:OK | L8:合适
+- threaten | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[perceive / peril / restore / threaten] | L7:OK | L8:合适
+- thrive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[rely / sustain / thrive / tropical] | L7:OK | L8:合适
+- tolerate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[curriculum / polish / tolerate / volume] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- tone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compound / realm / regret / tone] | L7:OK | L8:合适
+- transfer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambition / presume / relief / transfer] | L7:OK | L8:合适
+- transparent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / panel / passion / transparent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- trend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compulsory / primary / rebel / trend] | L7:OK | L8:合适
+- trial | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankrupt / presume / primary / trial] | L7:OK | L8:合适
+- tropical | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accelerate / conspicuous / tropical / vulnerable] | L7:OK | L8:合适
+- trustworthy | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / dictate / sacrifice / trustworthy] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- undergo | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[policy / replace / revise / undergo] | L7:OK | L8:合适
+- unique | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bankrupt / betray / quote / unique] | L7:OK | L8:合适
+- unite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / proportion / series / unite] | L7:OK | L8:合适
+- universe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambition / bankrupt / campaign / universe] | L7:OK | L8:合适
+- urge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contend / peril / urge / zone] | L7:OK | L8:合适
+- utilize | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bonus / deteriorate / replace / utilize] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- valid | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[betray / substitute / transfer / valid] | L7:OK | L8:合适
+- value | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:something)，易靠语感/蒙) | 选项:[cope / presume / principle / value] | L7:OK | L8:合适
+- vehicle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[publish / reside / vehicle / widespread] | L7:OK | L8:合适
+- venture | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:business)，易靠语感/蒙) | 选项:[corporate / pose / primary / venture] | L7:OK | L8:合适
+- version | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[propose / replace / utilize / version] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- vibrant | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:color)，易靠语感/蒙) | 选项:[phenomenon / pursue / sketch / vibrant] | L7:OK | L8:合适
+- violate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[priority / qualify / rebel / violate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- virtual | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[practical / prompt / simulate / virtual] | L7:OK | L8:合适
+- vision | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[depict / deteriorate / vibrant / vision] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- vital | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compel / compound / remain / vital] | L7:OK | L8:合适
+- volume | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:loud)，易靠语感/蒙) | 选项:[convert / pressure / tolerate / volume] | L7:OK | L8:合适
+- voluntary | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[peril / recall / voluntary / worthy] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- vulnerable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambition / custody / tropical / vulnerable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- warrant | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:enough)，易靠语感/蒙) | 选项:[perspective / reference / satisfactory / warrant] | L7:OK | L8:合适
+- welfare | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[custody / reside / scope / welfare] | L7:OK | L8:合适
+- widespread | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compound / suspend / virtual / widespread] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- withdraw | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[plunge / prompt / submit / withdraw] | L7:OK | L8:合适
+- worthy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[constrain / sole / voluntary / worthy] | L7:OK | L8:合适
+- yield | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[debris / deteriorate / pose / yield] | L7:OK | L8:合适
+- zone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[period / renew / urge / zone] | L7:OK | L8:合适
+- abolish | L5-Def:勉强(需要中文支架/图示；抽象术语多) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolish / publish / vehicle / voluntary] | L7:OK | L8:合适
+- accelerate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accelerate / ample / compulsory / rely] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ambition | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambition / brisk / deteriorate / sole] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- ample | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / compulsory / segment / slight] | L7:OK | L8:合适
+- anticipate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anticipate / deficit / potential / site] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- apparatus | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apparatus / conduct / project / realm] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- appliance | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appliance / sensation / trustworthy / unite] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- appoint | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[appoint / reject / renew / replace] | L7:OK | L8:合适
+- asset | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accelerate / asset / pace / potential] | L7:OK | L8:合适
+- bankrupt | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:no)，易靠语感/蒙) | 选项:[bankrupt / prosper / trial / unique] | L7:OK | L8:合适
+- behalf | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[asset / behalf / qualify / valid] | L7:OK | L8:合适
+- betray | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[betray / relief / sacrifice / trustworthy] | L7:OK | L8:合适
+- biased | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:not)，易靠语感/蒙) | 选项:[biased / criterion / progress / qualify] | L7:OK | L8:合适
+- bilateral | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bilateral / compromise / relevant / spite] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- boast | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / boast / polish / segment] | L7:OK | L8:合适
+- bonus | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bonus / profit / replace / reward] | L7:OK | L8:合适
+- brisk | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brisk / condemn / recover / routine] | L7:OK | L8:合适
+- bulk | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulk / designate / period / suspend] | L7:OK | L8:合适
+- campaign | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ample / campaign / pursue / thorough] | L7:OK | L8:合适
+- cease | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cease / chronic / rely / suspend] | L7:OK | L8:合适
+- certify | L5-Def:勉强(需要中文支架/图示；词缀偏学术、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[certify / depict / deplete / restore] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- chronic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chronic / recover / register / summit] | L7:OK | L8:合适
+- cite | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cite / release / sacrifice / superior] | L7:OK | L8:合适
+- commence | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commence / convey / coordinate / participate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- commission | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commission / depict / restore / superior] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- compact | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:small)，易靠语感/蒙) | 选项:[compact / compulsory / prohibit / reverse] | L7:OK | L8:合适
+- compel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cease / compel / remain / suspend] | L7:OK | L8:合适
+- component | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[component / primary / purchase / sacrifice] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- compound | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:made)，易靠语感/蒙) | 选项:[compound / retain / sustain / vital] | L7:OK | L8:合适
+- comprehensive | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comprehensive / sensation / submit / tense] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- compromise | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compromise / proportion / regular / summit] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- compulsory | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accelerate / ample / compulsory / prevent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- condemn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolish / brisk / condemn / proclaim] | L7:OK | L8:合适
+- conduct | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comprehensive / conduct / standard / urge] | L7:OK | L8:合适
+- confront | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ambition / bankrupt / campaign / confront] | L7:OK | L8:合适
+- considerable | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulk / considerable / satisfactory / slight] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- consistent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abolish / compound / consistent / satisfactory] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- conspicuous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conspicuous / convert / random / tropical] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- constitute | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brisk / constitute / primary / trend] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- constrain | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compact / constrain / value / volume] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- contempt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contempt / pose / realistic / refuse] | L7:OK | L8:合适
+- contend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[contend / pace / peril / urge] | L7:OK | L8:合适
+- controversial | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[controversial / rebel / submit / trend] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- convention | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[convention / promote / recommend / revenue] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- convert | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conspicuous / convert / replace / vibrant] | L7:OK | L8:合适
+- convey | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[behalf / betray / convey / practical] | L7:OK | L8:合适
+- coordinate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commence / convey / coordinate / participate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- cope | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cope / passive / restrict / value] | L7:OK | L8:合适
+- corporate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[corporate / period / reject / renew] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- corrupt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brisk / corrupt / proclaim / recover] | L7:OK | L8:合适
+- counsel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[counsel / participate / reject / reside] | L7:OK | L8:合适
+- counterpart | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[component / counterpart / shift / substitute] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- criterion | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[criterion / curriculum / project / status] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- crucial | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[compulsory / crucial / prevent / trend] | L7:OK | L8:合适
+- cultivate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apparatus / appliance / bilateral / cultivate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- cumulative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cumulative / prosper / ratio / segment] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- curriculum | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[criterion / curriculum / theory / tolerate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- custody | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[custody / reside / vulnerable / welfare] | L7:OK | L8:合适
+- debris | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[behalf / debris / pose / yield] | L7:OK | L8:合适
+- deficit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anticipate / deficit / persist / sequence] | L7:OK | L8:合适
+- delegate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[asset / delegate / proclaim / qualify] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- depict | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[certify / commission / depict / vision] | L7:OK | L8:合适
+- deplete | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:use)，易靠语感/蒙) | 选项:[boast / deplete / pressure / stock] | L7:OK | L8:合适
+- designate | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulk / designate / permit / satisfactory] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- deteriorate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deteriorate / replace / yield / zone] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- dictate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[betray / dictate / sacrifice / trustworthy] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
