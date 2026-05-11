@@ -84,7 +84,7 @@
     },
     "words-level2c.js": {
       "totalWords": 219,
-      "currentGate": 16,
+      "currentGate": 17,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -93,7 +93,9 @@
       "gate6": "pass",
       "gate7": "pass",
       "gate13": "pass",
-      "gate14": "pass"
+      "gate14": "pass",
+      "gate15": "pass",
+      "gate16": "pass"
     },
     "words-level2d.js": {
       "totalWords": 258,
