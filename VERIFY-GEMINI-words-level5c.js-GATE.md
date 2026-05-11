@@ -1,330 +1,332 @@
-| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
-|---|---|---|---|---|
-| abolition | PASS | PASS | PASS | PASS |
-| abrupt | PASS | PASS | PASS | PASS |
-| acclaimed | PASS | PASS | PASS | PASS |
-| accountant | PASS | PASS | PASS | PASS |
-| acute | PASS | PASS | PASS | PASS |
-| adhesive | PASS | PASS | PASS | PASS |
-| aerial | PASS | PASS | PASS | PASS |
-| affirmative | PASS | PASS | PASS | PASS |
-| ailment | PASS | PASS | PASS | PASS |
-| aisle | PASS | PASS | PASS | PASS |
-| algebra | PASS | PASS | PASS | PASS |
-| allegory | PASS | PASS | PASS | PASS |
-| allude | PASS | PASS | PASS | PASS |
-| ambassador | PASS | PASS | PASS | PASS |
-| ambiguity | PASS | PASS | PASS | PASS |
-| ammunition | PASS | PASS | PASS | PASS |
-| anatomy | PASS | PASS | PASS | PASS |
-| animation | PASS | PASS | PASS | PASS |
-| annotate | PASS | PASS | PASS | PASS |
-| antidote | PASS | PASS | PASS | PASS |
-| antiquity | PASS | PASS | PASS | PASS |
-| apparel | PASS | PASS | PASS | PASS |
-| apportion | PASS | PASS | PASS | PASS |
-| arcade | PASS | PASS | PASS | PASS |
-| archaic | PASS | PASS | PASS | PASS |
-| arithmetic | PASS | PASS | PASS | PASS |
-| armistice | PASS | PASS | PASS | PASS |
-| ascertain | PASS | PASS | PASS | PASS |
-| assertive | PASS | PASS | PASS | PASS |
-| astonish | PASS | PASS | PASS | PASS |
-| astronaut | PASS | PASS | PASS | PASS |
-| astronomy | PASS | PASS | PASS | PASS |
-| attic | PASS | PASS | PASS | PASS |
-| audible | PASS | PASS | PASS | PASS |
-| automation | PASS | PASS | PASS | PASS |
-| bachelor | PASS | PASS | PASS | PASS |
-| ballad | PASS | PASS | PASS | PASS |
-| barricade | PASS | PASS | PASS | PASS |
-| bazaar | PASS | PASS | PASS | PASS |
-| benign | PASS | PASS | PASS | PASS |
-| bibliography | PASS | PASS | PASS | PASS |
-| bilingual | PASS | PASS | PASS | PASS |
-| blemish | PASS | PASS | PASS | PASS |
-| bliss | PASS | PASS | PASS | PASS |
-| blockade | PASS | PASS | PASS | PASS |
-| bouquet | PASS | PASS | PASS | PASS |
-| brigade | PASS | PASS | PASS | PASS |
-| buoyant | PASS | PASS | PASS | PASS |
-| caffeine | PASS | PASS | PASS | PASS |
-| calamity | PASS | PASS | PASS | PASS |
-| caliber | PASS | PASS | PASS | PASS |
-| calligraphy | PASS | PASS | PASS | PASS |
-| cardiovascular | PASS | PASS | PASS | PASS |
-| cascade | PASS | PASS | PASS | PASS |
-| casualty | PASS | PASS | PASS | PASS |
-| charisma | PASS | PASS | PASS | PASS |
-| circa | PASS | PASS | PASS | PASS |
-| civilian | PASS | PASS | PASS | PASS |
-| clarification | PASS | PASS | PASS | PASS |
-| clemency | PASS | PASS | PASS | PASS |
-| cliche | PASS | PASS | PASS | PASS |
-| clientele | PASS | PASS | PASS | PASS |
-| clockwise | PASS | PASS | PASS | PASS |
-| coax | PASS | PASS | PASS | PASS |
-| coexist | PASS | PASS | PASS | PASS |
-| coincidence | PASS | PASS | PASS | PASS |
-| colleague | PASS | PASS | PASS | PASS |
-| communism | PASS | PASS | PASS | PASS |
-| competence | PASS | PASS | PASS | PASS |
-| complication | PASS | PASS | PASS | PASS |
-| compliment | PASS | PASS | PASS | PASS |
-| composure | PASS | PASS | PASS | PASS |
-| conclusive | PASS | PASS | PASS | PASS |
-| condense | PASS | PASS | PASS | PASS |
-| conspire | PASS | PASS | PASS | PASS |
-| contentious | PASS | PASS | PASS | PASS |
-| contingency | PASS | PASS | PASS | PASS |
-| contractor | PASS | PASS | PASS | PASS |
-| conversion | PASS | PASS | PASS | PASS |
-| convict | PASS | PASS | PASS | PASS |
-| coral | PASS | PASS | PASS | PASS |
-| coronation | PASS | PASS | PASS | PASS |
-| corporal | PASS | PASS | PASS | PASS |
-| corridor | PASS | PASS | PASS | PASS |
-| counterfeit | PASS | PASS | PASS | PASS |
-| credential | PASS | PASS | PASS | PASS |
-| crescendo | PASS | PASS | PASS | PASS |
-| crimson | PASS | PASS | PASS | PASS |
-| critique | PASS | PASS | PASS | PASS |
-| culprit | PASS | PASS | PASS | PASS |
-| dazzle | PASS | PASS | PASS | PASS |
-| debut | PASS | PASS | PASS | PASS |
-| deceit | PASS | PASS | PASS | PASS |
-| defiance | PASS | PASS | PASS | PASS |
-| deforestation | PASS | PASS | PASS | PASS |
-| delicacy | PASS | PASS | PASS | PASS |
-| deluge | PASS | PASS | PASS | PASS |
-| demolish | PASS | PASS | PASS | PASS |
-| designation | PASS | PASS | PASS | PASS |
-| desolate | PASS | PASS | PASS | PASS |
-| despair | PASS | PASS | PASS | PASS |
-| destitute | PASS | PASS | PASS | PASS |
-| devastation | PASS | PASS | PASS | PASS |
-| devious | PASS | PASS | PASS | PASS |
-| devout | PASS | PASS | PASS | PASS |
-| dialect | PASS | PASS | PASS | PASS |
-| dictator | PASS | PASS | PASS | PASS |
-| disdain | PASS | PASS | PASS | PASS |
-| dismay | PASS | PASS | PASS | PASS |
-| distinction | PASS | PASS | PASS | PASS |
-| divert | PASS | PASS | PASS | PASS |
-| dominion | PASS | PASS | PASS | PASS |
-| dubious | PASS | PASS | PASS | PASS |
-| emigrate | PASS | PASS | PASS | PASS |
-| eminent | PASS | PASS | PASS | PASS |
-| empathy | PASS | PASS | PASS | PASS |
-| engrave | PASS | PASS | PASS | PASS |
-| enlighten | PASS | PASS | PASS | PASS |
-| enrich | PASS | PASS | PASS | PASS |
-| envoy | PASS | PASS | PASS | PASS |
-| estate | PASS | PASS | PASS | PASS |
-| eternal | PASS | PASS | PASS | PASS |
-| evade | PASS | PASS | PASS | PASS |
-| excursion | PASS | PASS | PASS | PASS |
-| exposition | PASS | PASS | PASS | PASS |
-| ferocious | PASS | PASS | PASS | PASS |
-| festive | PASS | PASS | PASS | PASS |
-| feudal | PASS | PASS | PASS | PASS |
-| folklore | PASS | PASS | PASS | PASS |
-| fortitude | PASS | PASS | PASS | PASS |
-| genealogy | PASS | PASS | PASS | PASS |
-| grotesque | PASS | PASS | PASS | PASS |
-| grudge | PASS | PASS | PASS | PASS |
-| hostage | PASS | PASS | PASS | PASS |
-| humiliation | PASS | PASS | PASS | PASS |
-| impediment | PASS | PASS | PASS | PASS |
-| inaugural | PASS | PASS | PASS | PASS |
-| incarcerate | PASS | PASS | PASS | PASS |
-| indignant | PASS | PASS | PASS | PASS |
-| infantry | PASS | PASS | PASS | PASS |
-| inheritance | PASS | PASS | PASS | PASS |
-| injustice | PASS | PASS | PASS | PASS |
-| instigate | PASS | PASS | PASS | PASS |
-| interrogate | PASS | PASS | PASS | PASS |
-| laborious | PASS | PASS | PASS | PASS |
-| malice | PASS | PASS | PASS | PASS |
-| metaphor | PASS | PASS | PASS | PASS |
-| neutrality | PASS | PASS | PASS | PASS |
-| overthrow | PASS | PASS | PASS | PASS |
-| patriot | PASS | PASS | PASS | PASS |
-| peasant | PASS | PASS | PASS | PASS |
-| pension | PASS | PASS | PASS | PASS |
-| persecution | PASS | PASS | PASS | PASS |
-| plague | PASS | PASS | PASS | PASS |
-| plummet | PASS | PASS | PASS | PASS |
-| polarize | PASS | PASS | PASS | PASS |
-| retaliate | PASS | PASS | PASS | PASS |
-| retribution | PASS | PASS | PASS | PASS |
-| sabotage | PASS | PASS | PASS | PASS |
-| spectacular | PASS | PASS | PASS | PASS |
-| squander | PASS | PASS | PASS | PASS |
-| subdue | PASS | PASS | PASS | PASS |
-| supersede | PASS | PASS | PASS | PASS |
-| testimony | PASS | PASS | PASS | PASS |
-| theology | PASS | PASS | PASS | PASS |
-| topography | PASS | PASS | PASS | PASS |
-| transcontinental | PASS | PASS | PASS | PASS |
-| truce | PASS | PASS | PASS | PASS |
-| unanimous | PASS | PASS | PASS | PASS |
-| uprising | PASS | PASS | PASS | PASS |
-| utopia | PASS | PASS | PASS | PASS |
-| absentee | PASS | PASS | PASS | PASS |
-| accreditation | PASS | PASS | PASS | PASS |
-| adjourn | PASS | PASS | PASS | PASS |
-| affidavit | PASS | PASS | PASS | PASS |
-| almanac | PASS | PASS | PASS | PASS |
-| aqueduct | PASS | PASS | PASS | PASS |
-| aristocrat | PASS | PASS | PASS | PASS |
-| artisan | PASS | PASS | PASS | PASS |
-| assailant | PASS | PASS | PASS | PASS |
-| asylum | PASS | PASS | PASS | PASS |
-| bailiff | PASS | PASS | PASS | PASS |
-| bankruptcy | PASS | PASS | PASS | PASS |
-| besiege | PASS | PASS | PASS | PASS |
-| bipartisan | PASS | PASS | PASS | PASS |
-| brigand | PASS | PASS | PASS | PASS |
-| captivity | PASS | PASS | PASS | PASS |
-| caravan | PASS | PASS | PASS | PASS |
-| chaotic | PASS | PASS | PASS | PASS |
-| colossal | PASS | PASS | PASS | PASS |
-| combustion | PASS | PASS | PASS | PASS |
-| confederacy | PASS | PASS | PASS | PASS |
-| congregate | PASS | PASS | PASS | PASS |
-| conspiracy | PASS | PASS | PASS | PASS |
-| depleted | PASS | PASS | PASS | PASS |
-| diplomatic | PASS | PASS | PASS | PASS |
-| escapade | PASS | PASS | PASS | PASS |
-| extortion | PASS | PASS | PASS | PASS |
-| abolitionist | PASS | PASS | PASS | PASS |
-| accomplice | PASS | PASS | PASS | PASS |
-| altruism | PASS | PASS | PASS | PASS |
-| anarchist | PASS | PASS | PASS | PASS |
-| apathy | PASS | PASS | PASS | PASS |
-| armada | PASS | PASS | PASS | PASS |
-| autocracy | PASS | PASS | PASS | PASS |
-| censorship | PASS | PASS | PASS | PASS |
-| centennial | PASS | PASS | PASS | PASS |
-| chivalry | PASS | PASS | PASS | PASS |
-| circumnavigate | PASS | PASS | PASS | PASS |
-| colonialism | PASS | PASS | PASS | PASS |
-| commodore | PASS | PASS | PASS | PASS |
-| condolence | PASS | PASS | PASS | PASS |
-| convalesce | PASS | PASS | PASS | PASS |
-| crucible | PASS | PASS | PASS | PASS |
-| cryptic | PASS | PASS | PASS | PASS |
-| debilitate | PASS | PASS | PASS | PASS |
-| decimate | PASS | PASS | PASS | PASS |
-| despotism | PASS | PASS | PASS | PASS |
-| duplicity | PASS | PASS | PASS | PASS |
-| emancipate | PASS | PASS | PASS | PASS |
-| enclave | PASS | PASS | PASS | PASS |
-| enmity | PASS | PASS | PASS | PASS |
-| epitome | PASS | PASS | PASS | PASS |
-| equinox | PASS | PASS | PASS | PASS |
-| estuary | PASS | PASS | PASS | PASS |
-| euphoria | PASS | PASS | PASS | PASS |
-| expatriate | PASS | PASS | PASS | PASS |
-| flotilla | PASS | PASS | PASS | PASS |
-| fluorescent | PASS | PASS | PASS | PASS |
-| foliage | PASS | PASS | PASS | PASS |
-| forensic | PASS | PASS | PASS | PASS |
-| fraternity | PASS | PASS | PASS | PASS |
-| fuselage | PASS | PASS | PASS | PASS |
-| gladiator | PASS | PASS | PASS | PASS |
-| globalization | PASS | PASS | PASS | PASS |
-| hydraulic | PASS | PASS | PASS | PASS |
-| hypothermia | PASS | PASS | PASS | PASS |
-| illegitimate | PASS | PASS | PASS | PASS |
-| impersonate | PASS | PASS | PASS | PASS |
-| inauguration | PASS | PASS | PASS | PASS |
-| incandescent | PASS | PASS | PASS | PASS |
-| kaleidoscope | PASS | PASS | PASS | PASS |
-| keynote | PASS | PASS | PASS | PASS |
-| laureate | PASS | PASS | PASS | PASS |
-| lieutenant | PASS | PASS | PASS | PASS |
-| longevity | PASS | PASS | PASS | PASS |
-| matriarch | PASS | PASS | PASS | PASS |
-| metropolis | PASS | PASS | PASS | PASS |
-| millennial | PASS | PASS | PASS | PASS |
-| mystification | PASS | PASS | PASS | PASS |
-| acquittal | PASS | PASS | PASS | PASS |
-| admonition | PASS | PASS | PASS | PASS |
-| alliteration | PASS | PASS | PASS | PASS |
-| amphitheater | PASS | PASS | PASS | PASS |
-| annuity | PASS | PASS | PASS | PASS |
-| appropriation | PASS | PASS | PASS | PASS |
-| armament | PASS | PASS | PASS | PASS |
-| biennial | PASS | PASS | PASS | PASS |
-| biodegradable | PASS | PASS | PASS | PASS |
-| botanical | PASS | PASS | PASS | PASS |
-| bureaucratic | PASS | PASS | PASS | PASS |
-| capitulate | PASS | PASS | PASS | PASS |
-| centrifugal | PASS | PASS | PASS | PASS |
-| citizenship | PASS | PASS | PASS | PASS |
-| conglomerate | PASS | PASS | PASS | PASS |
-| containment | PASS | PASS | PASS | PASS |
-| defamation | PASS | PASS | PASS | PASS |
-| denomination | PASS | PASS | PASS | PASS |
-| desegregation | PASS | PASS | PASS | PASS |
-| detonate | PASS | PASS | PASS | PASS |
-| disarmament | PASS | PASS | PASS | PASS |
-| disembark | PASS | PASS | PASS | PASS |
-| dissipate | PASS | PASS | PASS | PASS |
-| dormitory | PASS | PASS | PASS | PASS |
-| dossier | PASS | PASS | PASS | PASS |
-| eloquence | PASS | PASS | PASS | PASS |
-| embankment | PASS | PASS | PASS | PASS |
-| embezzlement | PASS | PASS | PASS | PASS |
-| empowerment | PASS | PASS | PASS | PASS |
-| encryption | PASS | PASS | PASS | PASS |
-| entomology | PASS | PASS | PASS | PASS |
-| epitaph | PASS | PASS | PASS | PASS |
-| exasperate | PASS | PASS | PASS | PASS |
-| exhilarate | PASS | PASS | PASS | PASS |
-| extradite | PASS | PASS | PASS | PASS |
-| facsimile | PASS | PASS | PASS | PASS |
-| firebrand | PASS | PASS | PASS | PASS |
-| fissure | PASS | PASS | PASS | PASS |
-| foreclosure | PASS | PASS | PASS | PASS |
-| freelance | PASS | PASS | PASS | PASS |
-| geriatric | PASS | PASS | PASS | PASS |
-| germination | PASS | PASS | PASS | PASS |
-| gratification | PASS | PASS | PASS | PASS |
-| hallucination | PASS | PASS | PASS | PASS |
-| herbicide | PASS | PASS | PASS | PASS |
-| heredity | PASS | PASS | PASS | PASS |
-| heresy | PASS | PASS | PASS | PASS |
-| holistic | PASS | PASS | PASS | PASS |
-| idealism | PASS | PASS | PASS | PASS |
-| immobilize | PASS | PASS | PASS | PASS |
-| incriminate | PASS | PASS | PASS | PASS |
-| industrialization | PASS | PASS | PASS | PASS |
-| ingenuity | PASS | PASS | PASS | PASS |
-| insurrection | PASS | PASS | PASS | PASS |
-| intercede | PASS | PASS | PASS | PASS |
-| internship | PASS | PASS | PASS | PASS |
-| introspection | PASS | PASS | PASS | PASS |
-| iridescent | PASS | PASS | PASS | PASS |
-| juxtaposition | PASS | PASS | PASS | PASS |
-| laceration | PASS | PASS | PASS | PASS |
-| landlocked | PASS | PASS | PASS | PASS |
-| legitimacy | PASS | PASS | PASS | PASS |
-| lethargy | PASS | PASS | PASS | PASS |
-| lexicon | PASS | PASS | PASS | PASS |
-| liquidate | PASS | PASS | PASS | PASS |
-| magnate | PASS | PASS | PASS | PASS |
-| mammoth | PASS | PASS | PASS | PASS |
-| marauder | PASS | PASS | PASS | PASS |
-| memento | PASS | PASS | PASS | PASS |
-| meteorology | PASS | PASS | PASS | PASS |
-| miscellaneous | PASS | PASS | PASS | PASS |
-| mobilization | PASS | PASS | PASS | PASS |
-| molecular | PASS | PASS | PASS | PASS |
-| monologue | PASS | PASS | PASS | PASS |
-| monsoon | PASS | PASS | PASS | PASS |
-| philanthropist | PASS | PASS | PASS | PASS |
-| proclamation | PASS | PASS | PASS | PASS |
-| ornithology | PASS | PASS | PASS | PASS |
+# VERIFY-GEMINI-words-level5c.js-GATE
+
+| Word | L9: Image | L10: Fact Check | L11: Meaning | L12: Game Check | Status |
+|---|---|---|---|---|---|
+| abolition | OK - Image keyword 'freedom chains' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| abrupt | OK - Image keyword 'sudden stop' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| acclaimed | OK - Image keyword 'award ceremony' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| accountant | OK - Image keyword 'calculator ledger' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| acute | OK - Image keyword 'sharp angle' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| adhesive | OK - Image keyword 'glue tape' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| aerial | OK - Image keyword 'bird eye view' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| affirmative | OK - Image keyword 'thumbs up' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ailment | OK - Image keyword 'sick bed' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| aisle | OK - Image keyword 'store aisle' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| algebra | OK - Image keyword 'math equation' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| allegory | OK - Image keyword 'symbolic story' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| allude | OK - Image keyword 'hinting whisper' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ambassador | OK - Image keyword 'diplomat flag' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ambiguity | OK - Image keyword 'confusing directions' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ammunition | OK - Image keyword 'bullets supply' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| anatomy | OK - Image keyword 'body diagram' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| animation | OK - Image keyword 'cartoon frames' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| annotate | OK - Image keyword 'notes margin' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| antidote | OK - Image keyword 'medicine cure' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| antiquity | OK - Image keyword 'ancient ruins' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| apparel | OK - Image keyword 'clothing rack' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| apportion | OK - Image keyword 'dividing shares' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| arcade | OK - Image keyword 'game machines' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| archaic | OK - Image keyword 'old scroll' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| arithmetic | OK - Image keyword 'math problems' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| armistice | OK - Image keyword 'peace agreement' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ascertain | OK - Image keyword 'detective clue' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| assertive | OK - Image keyword 'confident speaking' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| astonish | OK - Image keyword 'amazed crowd' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| astronaut | OK - Image keyword 'space suit' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| astronomy | OK - Image keyword 'telescope stars' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| attic | OK - Image keyword 'roof storage' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| audible | OK - Image keyword 'ear listening' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| automation | OK - Image keyword 'robot factory' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bachelor | OK - Image keyword 'graduation cap' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ballad | OK - Image keyword 'singing guitar' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| barricade | OK - Image keyword 'road block' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bazaar | OK - Image keyword 'market stalls' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| benign | OK - Image keyword 'gentle smile' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bibliography | OK - Image keyword 'book list' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bilingual | OK - Image keyword 'two languages' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| blemish | OK - Image keyword 'spotted fruit' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bliss | OK - Image keyword 'happy swimming' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| blockade | OK - Image keyword 'ships blocking' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bouquet | OK - Image keyword 'flower bunch' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| brigade | OK - Image keyword 'firefighter team' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| buoyant | OK - Image keyword 'floating object' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| caffeine | OK - Image keyword 'coffee cup' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| calamity | OK - Image keyword 'disaster ruins' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| caliber | OK - Image keyword 'excellence star' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| calligraphy | OK - Image keyword 'fancy writing' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| cardiovascular | OK - Image keyword 'heart exercise' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| cascade | OK - Image keyword 'waterfall rocks' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| casualty | OK - Image keyword 'ambulance help' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| charisma | OK - Image keyword 'popular leader' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| circa | OK - Image keyword 'old date' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| civilian | OK - Image keyword 'ordinary people' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| clarification | OK - Image keyword 'clear explanation' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| clemency | OK - Image keyword 'mercy forgiveness' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| cliche | OK - Image keyword 'overused phrase' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| clientele | OK - Image keyword 'shop customers' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| clockwise | OK - Image keyword 'clock direction' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| coax | OK - Image keyword 'gentle persuasion' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| coexist | OK - Image keyword 'animals together' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| coincidence | OK - Image keyword 'same outfit' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| colleague | OK - Image keyword 'coworkers office' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| communism | OK - Image keyword 'shared ownership' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| competence | OK - Image keyword 'skilled worker' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| complication | OK - Image keyword 'problem rain' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| compliment | OK - Image keyword 'praise words' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| composure | OK - Image keyword 'calm person' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| conclusive | OK - Image keyword 'proof evidence' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| condense | OK - Image keyword 'shrinking text' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| conspire | OK - Image keyword 'secret planning' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| contentious | OK - Image keyword 'heated debate' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| contingency | OK - Image keyword 'backup plan' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| contractor | OK - Image keyword 'construction worker' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| conversion | OK - Image keyword 'building transformation' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| convict | OK - Image keyword 'courtroom verdict' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| coral | OK - Image keyword 'coral reef' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| coronation | OK - Image keyword 'crown ceremony' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| corporal | OK - Image keyword 'military rank' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| corridor | OK - Image keyword 'hallway school' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| counterfeit | OK - Image keyword 'fake money' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| credential | OK - Image keyword 'id badge' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| crescendo | OK - Image keyword 'music louder' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| crimson | OK - Image keyword 'deep red' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| critique | OK - Image keyword 'review feedback' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| culprit | OK - Image keyword 'caught thief' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dazzle | OK - Image keyword 'sparkling light' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| debut | OK - Image keyword 'first performance' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| deceit | OK - Image keyword 'lying mask' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| defiance | OK - Image keyword 'refusing stubbornly' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| deforestation | OK - Image keyword 'cleared forest' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| delicacy | OK - Image keyword 'fancy food' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| deluge | OK - Image keyword 'flooding rain' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| demolish | OK - Image keyword 'building wrecking' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| designation | OK - Image keyword 'official label' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| desolate | OK - Image keyword 'empty wasteland' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| despair | OK - Image keyword 'hopeless sadness' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| destitute | OK - Image keyword 'extreme poverty' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| devastation | OK - Image keyword 'destroyed town' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| devious | OK - Image keyword 'sneaky trick' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| devout | OK - Image keyword 'praying person' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dialect | OK - Image keyword 'regional speech' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dictator | OK - Image keyword 'absolute ruler' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| disdain | OK - Image keyword 'scornful look' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dismay | OK - Image keyword 'disappointed shock' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| distinction | OK - Image keyword 'clear difference' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| divert | OK - Image keyword 'detour sign' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dominion | OK - Image keyword 'kingdom rule' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dubious | OK - Image keyword 'doubtful face' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| emigrate | OK - Image keyword 'leaving country' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| eminent | OK - Image keyword 'famous expert' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| empathy | OK - Image keyword 'understanding feelings' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| engrave | OK - Image keyword 'carved letters' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| enlighten | OK - Image keyword 'lightbulb knowledge' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| enrich | OK - Image keyword 'adding value' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| envoy | OK - Image keyword 'messenger diplomat' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| estate | OK - Image keyword 'large mansion' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| eternal | OK - Image keyword 'forever symbol' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| evade | OK - Image keyword 'escape running' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| excursion | OK - Image keyword 'field trip' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| exposition | OK - Image keyword 'story beginning' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ferocious | OK - Image keyword 'fierce lion' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| festive | OK - Image keyword 'party decorations' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| feudal | OK - Image keyword 'medieval castle' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| folklore | OK - Image keyword 'old stories' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| fortitude | OK - Image keyword 'brave endurance' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| genealogy | OK - Image keyword 'family tree' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| grotesque | OK - Image keyword 'distorted mask' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| grudge | OK - Image keyword 'angry resentment' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| hostage | OK - Image keyword 'captured person' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| humiliation | OK - Image keyword 'embarrassed face' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| impediment | OK - Image keyword 'roadblock obstacle' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| inaugural | OK - Image keyword 'first ceremony' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| incarcerate | OK - Image keyword 'prison bars' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| indignant | OK - Image keyword 'angry unfair' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| infantry | OK - Image keyword 'foot soldiers' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| inheritance | OK - Image keyword 'family gift' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| injustice | OK - Image keyword 'unfair scales' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| instigate | OK - Image keyword 'starting trouble' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| interrogate | OK - Image keyword 'questioning room' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| laborious | OK - Image keyword 'hard labor' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| malice | OK - Image keyword 'mean intent' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| metaphor | OK - Image keyword 'comparison figure' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| neutrality | OK - Image keyword 'balanced neutral' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| overthrow | OK - Image keyword 'revolution flag' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| patriot | OK - Image keyword 'flag pride' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| peasant | OK - Image keyword 'farm worker' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| pension | OK - Image keyword 'retirement money' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| persecution | OK - Image keyword 'unfair cruelty' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| plague | OK - Image keyword 'spreading disease' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| plummet | OK - Image keyword 'falling fast' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| polarize | OK - Image keyword 'divided groups' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| retaliate | OK - Image keyword 'fighting back' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| retribution | OK - Image keyword 'punishment justice' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| sabotage | OK - Image keyword 'deliberate damage' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| spectacular | OK - Image keyword 'amazing view' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| squander | OK - Image keyword 'wasting money' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| subdue | OK - Image keyword 'controlling force' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| supersede | OK - Image keyword 'new version update' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| testimony | OK - Image keyword 'court statement' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| theology | OK - Image keyword 'religious study' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| topography | OK - Image keyword 'land features' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| transcontinental | OK - Image keyword 'cross country train' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| truce | OK - Image keyword 'peace handshake' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| unanimous | OK - Image keyword 'all agree' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| uprising | OK - Image keyword 'crowd rebellion' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| utopia | OK - Image keyword 'perfect world' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| absentee | OK - Image keyword 'empty chair' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| accreditation | OK - Image keyword 'approval certificate' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| adjourn | OK - Image keyword 'meeting pause' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| affidavit | OK - Image keyword 'sworn document' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| almanac | OK - Image keyword 'fact book' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| aqueduct | OK - Image keyword 'water bridge' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| aristocrat | OK - Image keyword 'noble person' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| artisan | OK - Image keyword 'craftsperson' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| assailant | OK - Image keyword 'attacker caught' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| asylum | OK - Image keyword 'safe shelter' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bailiff | OK - Image keyword 'court officer' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bankruptcy | OK - Image keyword 'business closing' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| besiege | OK - Image keyword 'crowd surrounding' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bipartisan | OK - Image keyword 'two groups agreeing' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| brigand | OK - Image keyword 'highway robber' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| captivity | OK - Image keyword 'caged animal' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| caravan | OK - Image keyword 'desert camels' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| chaotic | OK - Image keyword 'messy disorder' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| colossal | OK - Image keyword 'giant statue' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| combustion | OK - Image keyword 'fire burning' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| confederacy | OK - Image keyword 'allied group' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| congregate | OK - Image keyword 'gathering crowd' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| conspiracy | OK - Image keyword 'secret plot' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| depleted | OK - Image keyword 'empty battery' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| diplomatic | OK - Image keyword 'careful talking' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| escapade | OK - Image keyword 'adventure story' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| extortion | OK - Image keyword 'threatening money' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| abolitionist | OK - Image keyword 'anti slavery' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| accomplice | OK - Image keyword 'crime partner' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| altruism | OK - Image keyword 'selfless giving' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| anarchist | OK - Image keyword 'no government' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| apathy | OK - Image keyword 'not caring' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| armada | OK - Image keyword 'warship fleet' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| autocracy | OK - Image keyword 'single ruler' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| censorship | OK - Image keyword 'blocked information' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| centennial | OK - Image keyword 'hundred years' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| chivalry | OK - Image keyword 'knight honor' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| circumnavigate | OK - Image keyword 'sailing world' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| colonialism | OK - Image keyword 'colonial control' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| commodore | OK - Image keyword 'naval officer' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| condolence | OK - Image keyword 'sympathy card' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| convalesce | OK - Image keyword 'recovering bed' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| crucible | OK - Image keyword 'melting pot' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| cryptic | OK - Image keyword 'mysterious code' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| debilitate | OK - Image keyword 'weakened person' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| decimate | OK - Image keyword 'destroyed crops' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| despotism | OK - Image keyword 'iron fist absolute power' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| duplicity | OK - Image keyword 'two faced' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| emancipate | OK - Image keyword 'setting free' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| enclave | OK - Image keyword 'small community' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| enmity | OK - Image keyword 'bitter enemies' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| epitome | OK - Image keyword 'ideal model example' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| equinox | OK - Image keyword 'equal day night' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| estuary | OK - Image keyword 'river mouth' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| euphoria | OK - Image keyword 'extreme joy' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| expatriate | OK - Image keyword 'living abroad' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| flotilla | OK - Image keyword 'small fleet' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| fluorescent | OK - Image keyword 'bright tube light' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| foliage | OK - Image keyword 'colorful leaves' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| forensic | OK - Image keyword 'crime lab' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| fraternity | OK - Image keyword 'brotherhood group' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| fuselage | OK - Image keyword 'airplane body' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| gladiator | OK - Image keyword 'roman fighter' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| globalization | OK - Image keyword 'connected world' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| hydraulic | OK - Image keyword 'pressure lift' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| hypothermia | OK - Image keyword 'freezing cold' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| illegitimate | OK - Image keyword 'invalid stamp' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| impersonate | OK - Image keyword 'fake identity' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| inauguration | OK - Image keyword 'swearing in' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| incandescent | OK - Image keyword 'glowing bulb' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| kaleidoscope | OK - Image keyword 'colorful patterns' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| keynote | OK - Image keyword 'main speech' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| laureate | OK - Image keyword 'prize winner' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| lieutenant | OK - Image keyword 'military officer' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| longevity | OK - Image keyword 'long life' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| matriarch | OK - Image keyword 'family leader' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| metropolis | OK - Image keyword 'huge city' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| millennial | OK - Image keyword 'young generation' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| mystification | OK - Image keyword 'puzzled face' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| acquittal | OK - Image keyword 'not guilty' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| admonition | OK - Image keyword 'parent scolding child' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| alliteration | OK - Image keyword 'repeated sounds' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| amphitheater | OK - Image keyword 'roman arena' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| annuity | OK - Image keyword 'yearly payment' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| appropriation | OK - Image keyword 'budget allocation' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| armament | OK - Image keyword 'army equipment' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| biennial | OK - Image keyword 'every two years' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| biodegradable | OK - Image keyword 'decomposing naturally' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| botanical | OK - Image keyword 'plant garden' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| bureaucratic | OK - Image keyword 'paperwork red tape' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| capitulate | OK - Image keyword 'surrendering flag' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| centrifugal | OK - Image keyword 'spinning outward' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| citizenship | OK - Image keyword 'passport citizen' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| conglomerate | OK - Image keyword 'big corporation' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| containment | OK - Image keyword 'stopping spread' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| defamation | OK - Image keyword 'false claims' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| denomination | OK - Image keyword 'money value' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| desegregation | OK - Image keyword 'integration equality' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| detonate | OK - Image keyword 'explosion blast' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| disarmament | OK - Image keyword 'peace treaty signing' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| disembark | OK - Image keyword 'leaving plane' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dissipate | OK - Image keyword 'fading mist' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dormitory | OK - Image keyword 'student housing' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| dossier | OK - Image keyword 'file folder' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| eloquence | OK - Image keyword 'clear speech' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| embankment | OK - Image keyword 'earth wall' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| embezzlement | OK - Image keyword 'stealing money' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| empowerment | OK - Image keyword 'gaining strength' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| encryption | OK - Image keyword 'locked code' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| entomology | OK - Image keyword 'insect study' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| epitaph | OK - Image keyword 'gravestone words' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| exasperate | OK - Image keyword 'frustrated annoyed' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| exhilarate | OK - Image keyword 'thrilling excitement' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| extradite | OK - Image keyword 'sending prisoner' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| facsimile | OK - Image keyword 'exact copy' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| firebrand | OK - Image keyword 'passionate speaker' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| fissure | OK - Image keyword 'earth crack' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| foreclosure | OK - Image keyword 'house lost' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| freelance | OK - Image keyword 'independent worker' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| geriatric | OK - Image keyword 'elderly care' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| germination | OK - Image keyword 'seed sprouting' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| gratification | OK - Image keyword 'satisfaction smile' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| hallucination | OK - Image keyword 'seeing things' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| herbicide | OK - Image keyword 'weed killer' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| heredity | OK - Image keyword 'family traits' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| heresy | OK - Image keyword 'forbidden belief' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| holistic | OK - Image keyword 'whole picture' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| idealism | OK - Image keyword 'perfect dream' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| immobilize | OK - Image keyword 'stuck still' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| incriminate | OK - Image keyword 'detective finding clues guilty' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| industrialization | OK - Image keyword 'factory growth' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ingenuity | OK - Image keyword 'clever invention' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| insurrection | OK - Image keyword 'riot crowd' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| intercede | OK - Image keyword 'stepping in' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| internship | OK - Image keyword 'learning job' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| introspection | OK - Image keyword 'deep thought' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| iridescent | OK - Image keyword 'rainbow shimmer' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| juxtaposition | OK - Image keyword 'comparing two things' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| laceration | OK - Image keyword 'deep cut' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| landlocked | OK - Image keyword 'surrounded land' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| legitimacy | OK - Image keyword 'valid authority' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| lethargy | OK - Image keyword 'tired sluggish' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| lexicon | OK - Image keyword 'word collection' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| liquidate | OK - Image keyword 'selling everything' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| magnate | OK - Image keyword 'wealthy businessman' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| mammoth | OK - Image keyword 'huge ancient' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| marauder | OK - Image keyword 'raider thief' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| memento | OK - Image keyword 'keepsake souvenir' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| meteorology | OK - Image keyword 'weather science' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| miscellaneous | OK - Image keyword 'mixed items' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| mobilization | OK - Image keyword 'volunteers gathering' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| molecular | OK - Image keyword 'molecule model' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| monologue | OK - Image keyword 'solo speech' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| monsoon | OK - Image keyword 'heavy rain season' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| philanthropist | OK - Image keyword 'generous donor' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| proclamation | OK - Image keyword 'public announcement' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
+| ornithology | OK - Image keyword 'bird study' is clear | OK - Definition is factual | OK - Common meaning used | OK - Works for all 4 games | PASS |
