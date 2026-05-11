@@ -45,7 +45,7 @@
 |32 | foil | 能（wrap food） | 能（包披萨） | 选项：foil / lacquer / impound / lever；唯一 | OK | 合适 |
 |33 | gasp | 勉强（quickly breathe in） | 能（看到杂技惊到吸气） | 选项：gasp / outcome / lull / humidity；不唯一（scream/cry可误选） | OK | 合适 |
 |34 | glare | 不能（光/怒视双义；definition长） | 勉强（雪太亮戴墨镜=强光） | 选项：glare / hull / irate / translucent；不唯一（bright light） | OK | 偏难（建议拆成“glare(光)”） |
-|35 | glow | 能（soft warm light） | 能（南瓜灯发橙光） | 选项：glow / humus / translucent / loam；唯一 | OK | 合适 |
+|35 | glow | 能（soft warm light） | 勉强（jack-o'-lantern/porch偏文化；能懂“发光”但产词不稳） | 选项：glow / humus / translucent / loam；唯一 | 注意（万圣节 jack-o'-lantern 文化；建议补充说明/或换更普适载体如 night light） | 合适 |
 |36 | hatch | 勉强（break out of egg） | 能（小鸡啄壳出来） | 选项：hatch / crustacean / knead / axis；唯一 | OK | 合适 |
 |37 | hose | 能（long tube for water） | 能（花园水管喷水） | 选项：hose / filament / scarcity / spout；唯一 | OK | 合适 |
 |38 | inn | 不能（traveler/inn概念偏文化） | 勉强（hikers+sleep/eat） | 选项：inn / creek / ridge / limpid；不唯一（hotel/lodge） | OK | 偏难（先会 hotel） |
@@ -83,7 +83,7 @@
 |70 | tributary | 不能（smaller river flows into bigger） | 勉强（joins main river） | 选项：tributary / canyon / omnivore / fertile；不唯一（branch river/stream） | OK | 偏难 |
 |71 | archipelago | 不能（group of islands） | 勉强（Hawaii例子） | 选项：archipelago / huddle / sedimentary / molecule；不唯一（islands） | OK | 偏难 |
 |72 | stratosphere | 不能（layer/ozone/above planes） | 勉强（气球飞很高天空变黑） | 选项：stratosphere / lintel / quarry / plateau；不唯一（sky/space） | OK | 偏难 |
-|73 | preamble | 不能（document purpose） | 勉强（We the People） | 选项：preamble / emphasize / blade / typical；不唯一（opening/start） | OK | 偏难（文化/美国宪法） |
+|73 | preamble | 不能（document purpose） | 勉强（We the People；语境偏政治/法律） | 选项：preamble / emphasize / blade / typical；不唯一（opening/start） | 注意（美国宪法语境；家长可能不想在低龄材料里出现政治文本） | 偏难（文化/美国宪法） |
 |74 | filament | 不能（thread/wire; light bulb inside） | 勉强（灯丝发白热光） | 选项：filament / translucent / hose / geothermal；不唯一（wire） | OK | 偏难 |
 |75 | nocturnal | 不能（active at night） | 能（owl夜里猎鼠） | 选项：nocturnal / ancestry / axis / mandate；不唯一（night animal） | OK | 偏难（术语；但例句清晰） |
 |76 | translucent | 不能（letting some light through） | 勉强（水母透光发亮） | 选项：translucent / limpid / impervious / filament；不唯一（see-through/clear） | OK | 偏难 |
@@ -91,7 +91,7 @@
 |78 | plateau | 不能（flat high area） | 勉强（像桌子） | 选项：plateau / isthmus / mesa / lintel；不唯一（mesa） | OK | 偏难（建议与 mesa 拉开） |
 |79 | geothermal | 不能（using heat deep inside earth） | 勉强（Iceland地下热水供暖） | 选项：geothermal / regulate / filament / listless；不唯一（hot energy） | OK | 偏难 |
 |80 | specimen | 不能（example to study/display） | 勉强（收集岩石样本） | 选项：specimen / paleontology / irk / analyze；不唯一（sample） | OK | 偏难（可先教 sample） |
-|81 | meridian | 不能（imaginary line map） | 勉强（Prime Meridian/London偏文化地理） | 选项：meridian / indent / axis / isthmus；不唯一（line） | OK | 偏难 |
+|81 | meridian | 不能（imaginary line map） | 勉强（Prime Meridian/London偏文化地理） | 选项：meridian / indent / axis / isthmus；不唯一（line） | 注意（Prime Meridian/London 偏西方中心叙事；可改为“on a map”更中性） | 偏难 |
 |82 | respiration | 不能（oxygen/carbon dioxide术语） | 勉强（gym呼吸变快） | 选项：respiration / slope / locale / elect；不唯一（breathing） | OK | 偏难（建议先 teach breathe） |
 |83 | paleontology | 不能（prehistoric/fossils） | 勉强（研究恐龙骨头） | 选项：paleontology / specimen / ancestry / archaeology；不唯一（dinosaur study） | OK | 偏难 |
 |84 | aquifer | 不能（rock/sand holds water） | 勉强（town drinking water） | 选项：aquifer / hydrate / basement / canyon；不唯一（underground water） | OK | 偏难 |
@@ -169,7 +169,7 @@
 |156 | juncture | 不能（particular point in time） | 勉强（need decide now） | 选项：juncture / lunge / advance / interval；不唯一（time/point） | OK | 偏难 |
 |157 | juniper | 不能（evergreen shrub） | 勉强（berries on bushes） | 选项：juniper / omnivore / loam / lilac；不唯一（bush） | OK | 偏难（植物细分） |
 |158 | kernel | 勉强（inner part/ small piece） | 能（popcorn kernel） | 选项：kernel / frustrate / knoll / chunk；不唯一（piece/seed） | OK | 合适 |
-|159 | kilt | 不能（Scotland文化服饰） | 勉强（bagpiper wore kilt） | 选项：kilt / chlorophyll / hosiery / hull；不唯一（skirt） | OK | 偏难（文化词；可做拓展） |
+|159 | kilt | 不能（Scotland文化服饰） | 勉强（bagpiper wore kilt） | 选项：kilt / chlorophyll / hosiery / hull；不唯一（衣物类：kilt/hosiery都可能被选中） | 注意（文化专有：苏格兰服饰；不冲突但需图示） | 偏难（文化词；可做拓展） |
 |160 | knack | 勉强（natural talent） | 能（修东西很在行） | 选项：knack / irate / chunk / mend；不唯一（talent/skill） | OK | 合适 |
 |161 | knead | 不能（press/squeeze dough） | 勉强（baker kneaded dough） | 选项：knead / ivory / hatch / creek；不唯一（mix/press） | OK | 偏难（烘焙动词） |
 |162 | knell | 不能（bell rung slowly for sad event） | 勉强（church bell echo） | 选项：knell / hymn / wade / jest；不唯一（bell sound） | 注意（“sad event/慢敲钟声”接近葬礼语境；且含 church 场景） | 偏难 |
