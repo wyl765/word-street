@@ -1,347 +1,349 @@
-# VERIFY-GPT — words-level4c.js
+# VERIFY-GPT — words-level4c.js — GATE (L5-L8)
 
-标准：扮演10岁中国ESL孩子（MAP≈197，约2年级）。逐词不跳过；每词一行。
+说明：按“10岁中国ESL孩子（MAP 197≈2年级）”做 L5-L8。L6 因无真实4选项，改用 cloze 可预测性近似（定义关键词在例句中复现/强搭配→更容易唯一命中）。
 
-- undertake | L5-Def:不能(“commit/task/project”抽象) | L5-Ex:勉强(懂“接受挑战做…”，但很难想到undertake) | L6:不唯一(accept/take on) | L7:OK | L8:偏难(对Level4可；对MAP197超纲/拼写长)
-- unfold | L5-Def:勉强(“come to light”难) | L5-Ex:勉强(侦探/线索语境能猜“展开/揭开”) | L6:不唯一(reveal/open) | L7:OK | L8:合适(常用；但需先会fold/open/reveal)
-- universal | L5-Def:不能(“applying to…”抽象) | L5-Ex:勉强(“everyone”提示) | L6:不唯一(common/worldwide) | L7:OK | L8:偏难(对Level4可；MAP197偏抽象)
-- vegetation | L5-Def:不能(“plant life in general”学术) | L5-Ex:勉强(丛林植物很多可猜“植物”) | L6:不唯一(plants/forest) | L7:OK | L8:偏难(更像学科词；需先会plant)
-- verify | L5-Def:勉强(“accurate”难) | L5-Ex:勉强(查事实=核实) | L6:不唯一(check/confirm) | L7:OK | L8:合适(学术常用；MAP197需中文支架)
-- versus | L5-Def:勉强(“against/competing”可) | L5-Ex:能(比赛A vs B) | L6:唯一(语法功能强) | L7:OK | L8:合适
-- veto | L5-Def:不能(“power to reject”+政治概念) | L5-Ex:不能(总统/法律背景超纲) | L6:不唯一(block/reject) | L7:注意(政治制度强；家长可能不想在低龄学) | L8:偏难(更适合社会学/时政单元)
-- via | L5-Def:勉强(“by way of”需要例子) | L5-Ex:能(路线经由…) | L6:唯一(介词用法固定) | L7:OK | L8:合适
-- vibrate | L5-Def:不能(“rapidly…small movements”描述难) | L5-Ex:勉强(吉他弦动=震动) | L6:不唯一(shake/tremble) | L7:OK | L8:偏难(可作为科学场景词)
-- volatile | L5-Def:不能(抽象“change fast”) | L5-Ex:不能(比喻用法；需读懂破折号句) | L6:不唯一(unpredictable/changeable) | L7:OK | L8:偏难(更偏学术/新闻)
-- wage | L5-Def:勉强(与salary区分难) | L5-Ex:勉强(最低工资概念偏成人) | L6:不唯一(pay/salary) | L7:注意(金钱/劳动法规偏成人话题) | L8:偏难(对Level4可；MAP197不建议)
-- withstand | L5-Def:不能(结构“with+stand”不透明) | L5-Ex:勉强(城堡能扛住攻击) | L6:不唯一(survive/resist) | L7:OK | L8:偏难(需先会stand/hold)
-- abstract | L5-Def:不能(“concepts”抽象) | L5-Ex:不能(爱/正义解释难) | L6:不唯一(idea/nonphysical) | L7:OK | L8:偏难(更高年级概念词)
-- academy | L5-Def:勉强(“special training”可) | L5-Ex:能(舞蹈学院) | L6:不唯一(school/institute) | L7:OK | L8:合适
-- access | L5-Def:勉强(“ability/right to…”抽象) | L5-Ex:勉强(图书馆卡=能用/进入) | L6:不唯一(enter/use) | L7:OK | L8:合适(常用；但需简化定义)
-- adjacent | L5-Def:不能(“with nothing in between”表达难) | L5-Ex:勉强(紧挨着学校) | L6:不唯一(next to/beside) | L7:OK | L8:偏难(可教作学术同义替换)
-- affiliate | L5-Def:不能(“link up”抽象) | L5-Ex:不能(俱乐部/国家联赛背景) | L6:不唯一(join/partner) | L7:OK | L8:偏难(商业/组织语境)
-- agenda | L5-Def:勉强(会议概念可) | L5-Ex:能(第一项议程) | L6:不唯一(schedule/list) | L7:OK | L8:合适
-- aggregate | L5-Def:不能(“a total made by adding parts”学术) | L5-Ex:勉强(总分=加总) | L6:不唯一(total/sum) | L7:OK | L8:偏难(偏数学/统计)
-- agitate | L5-Def:不能(两个义项“stir up/ upset”混) | L5-Ex:不能(马/紧张词汇多) | L6:不唯一(upset/annoy/stir) | L7:OK | L8:偏难(多义词；建议拆义项)
-- algorithm | L5-Def:不能(抽象) | L5-Ex:不能(排序/照片/秒等信息密) | L6:不唯一(steps/method) | L7:OK | L8:偏难(学科词；适合STEM单元)
-- allegiance | L5-Def:不能(“loyalty…cause”抽象) | L5-Ex:不能(Pledge of Allegiance强美国文化) | L6:不唯一(loyalty/devotion) | L7:注意(美国宣誓文化/政治色彩) | L8:偏难(概念+文化负担)
-- allot | L5-Def:勉强(“give a share”可) | L5-Ex:能(分配15分钟) | L6:不唯一(give/assign) | L7:OK | L8:合适
-- ally | L5-Def:勉强(概念可) | L5-Ex:不能(革命战争背景) | L6:不唯一(friend/partner) | L7:注意(战争史；可换更儿童场景) | L8:合适(常用；例句可更生活化)
-- altitude | L5-Def:不能(“above sea level”地理概念) | L5-Ex:不能(氧气/山地阅读负担) | L6:不唯一(height/elevation) | L7:OK | L8:偏难(科学地理词)
-- anchor | L5-Def:勉强(船锚可) | L5-Ex:能(暴风雨停船) | L6:不唯一(weight/hold) | L7:OK | L8:合适
-- anecdote | L5-Def:不能(“amusing”抽象) | L5-Ex:勉强(短小趣事) | L6:不唯一(story/joke) | L7:OK | L8:偏难(偏写作课词)
-- anonymous | L5-Def:不能(“not revealed”抽象) | L5-Ex:勉强(匿名纸条) | L6:不唯一(unknown/unnamed) | L7:OK | L8:偏难
-- arbitrary | L5-Def:不能(抽象“random choice rather than reason”) | L5-Ex:不能(论证句/反问句超纲) | L6:不唯一(random/unfair) | L7:OK | L8:不合适(对MAP197过抽象；对Level4也偏学术)
-- archive | L5-Def:不能(“historical documents/records”抽象) | L5-Ex:勉强(城市档案) | L6:不唯一(records/storage) | L7:OK | L8:偏难(可留作认识词)
-- articulate | L5-Def:不能(抽象“express each idea”) | L5-Ex:不能(句子长) | L6:不唯一(clear/expressive) | L7:OK | L8:偏难(写作/口语评价词)
-- aspect | L5-Def:勉强(“one part”可) | L5-Ex:勉强(项目最难部分) | L6:不唯一(part/side) | L7:OK | L8:合适
-- assault | L5-Def:勉强(攻击) | L5-Ex:勉强(入侵/城堡) | L6:不唯一(attack/strike) | L7:注意(暴力词；可中性化) | L8:合适(但例句偏战争)
-- assembly | L5-Def:勉强(集合/大会) | L5-Ex:能(学校集会) | L6:不唯一(meeting/gathering) | L7:OK | L8:合适
-- attain | L5-Def:不能(“achieve…toward”抽象) | L5-Ex:勉强(达成目标) | L6:不唯一(achieve/reach) | L7:OK | L8:偏难(同义替换词)
-- autonomous | L5-Def:不能(抽象) | L5-Ex:不能(机器人吸尘需要背景) | L6:不唯一(self-governing/automatic) | L7:OK | L8:偏难(STEM/政治双语境)
-- backdrop | L5-Def:勉强(背景/布景) | L5-Ex:能(雪山背景) | L6:不唯一(background/scene) | L7:OK | L8:合适
-- barren | L5-Def:勉强(贫瘠/荒芜) | L5-Ex:勉强(沙漠无草) | L6:不唯一(empty/dry) | L7:OK | L8:合适(但对MAP197偏难)
-- battalion | L5-Def:不能(军事单位概念) | L5-Ex:不能(500士兵行军) | L6:不唯一(unit/troops) | L7:注意(军事) | L8:偏难(更适合历史/战争主题)
-- benchmark | L5-Def:不能(抽象“standard to judge”) | L5-Ex:勉强(80%门槛) | L6:不唯一(standard/goal) | L7:OK | L8:偏难(学术评价词)
-- beneficiary | L5-Def:不能(抽象) | L5-Ex:不能(奖学金/学年信息密) | L6:不唯一(receiver/winner) | L7:OK | L8:偏难(正式用语)
-- bolster | L5-Def:不能(比喻“strengthen”不直观) | L5-Ex:不能(餐厅/评论/信心) | L6:不唯一(strengthen/support) | L7:OK | L8:偏难
-- breach | L5-Def:不能(名词义+协议义) | L5-Ex:勉强(大坝缺口进水) | L6:不唯一(gap/break) | L7:OK | L8:偏难(多义/正式)
-- brochure | L5-Def:勉强(小册子) | L5-Ex:能(旅行册) | L6:不唯一(pamphlet/booklet) | L7:OK | L8:合适
-- bureaucracy | L5-Def:不能(系统概念很抽象) | L5-Ex:不能(“paperwork/waiting times”也偏抽象) | L6:不唯一(system/red tape) | L7:OK | L8:不合适(对MAP197过抽象；对Level4也偏社会学)
-- calibrate | L5-Def:不能(仪器/读数抽象) | L5-Ex:不能(thermometer词汇负担) | L6:不唯一(adjust/check) | L7:OK | L8:偏难(科学实验词)
-- captivate | L5-Def:不能(抽象) | L5-Ex:勉强(讲故事吸引孩子) | L6:不唯一(fascinate/attract) | L7:OK | L8:偏难(书面词)
-- catalyst | L5-Def:不能(抽象“causes change faster”) | L5-Ex:不能(淘金潮/1849文化历史负担) | L6:不唯一(cause/trigger) | L7:注意(美国历史背景) | L8:偏难(科学/历史双语境)
-- catastrophe | L5-Def:勉强(大灾难) | L5-Ex:勉强(地震毁楼) | L6:不唯一(disaster/tragedy) | L7:OK | L8:合适(但对MAP197偏难)
-- censor | L5-Def:不能(政治/媒体概念) | L5-Ex:不能(国家审查新闻) | L6:不唯一(block/remove) | L7:注意(政治敏感；不同家庭看法) | L8:偏难(社会议题)
-- chancellor | L5-Def:不能(职位概念不熟) | L5-Ex:不能(低收入家庭/免学费信息密) | L6:不唯一(leader/head) | L7:OK | L8:偏难(文化/制度差异)
-- chronicle | L5-Def:不能(“record…in time order”抽象) | L5-Ex:不能(探险/航海句长) | L6:不唯一(record/journal) | L7:OK | L8:偏难(写作/历史词)
-- coalition | L5-Def:不能(组织概念) | L5-Ex:不能(环保组织联盟) | L6:不唯一(alliance/group) | L7:OK | L8:偏难
-- cognitive | L5-Def:不能(抽象“thinking/learning”) | L5-Ex:不能(棋/问题解决) | L6:不唯一(mental/brain) | L7:OK | L8:偏难(心理学术语)
-- coherent | L5-Def:不能(抽象“logical/consistent”) | L5-Ex:不能(写作评价词) | L6:不唯一(clear/logical) | L7:OK | L8:偏难
-- collaborate | L5-Def:勉强(一起合作) | L5-Ex:勉强(艺术家画壁画) | L6:不唯一(work together/team up) | L7:OK | L8:合适(但对MAP197拼写长)
-- commemorate | L5-Def:不能(“honor the memory”抽象) | L5-Ex:不能(战争纪念碑) | L6:不唯一(honor/remember) | L7:注意(战争/纪念；可换更中性) | L8:偏难
-- commodity | L5-Def:不能(经济概念) | L5-Ex:不能(石油/全球市场) | L6:不唯一(product/good) | L7:OK | L8:偏难(经济词)
-- compatible | L5-Def:不能(抽象) | L5-Ex:勉强(游戏机兼容) | L6:不唯一(works with/fits) | L7:OK | L8:偏难(科技语境常用)
-- conceal | L5-Def:勉强(藏起来) | L5-Ex:能(松鼠藏坚果) | L6:不唯一(hide/cover) | L7:OK | L8:合适
-- concede | L5-Def:不能(两义“admit/give up”难) | L5-Ex:不能(选举背景) | L6:不唯一(admit/accept) | L7:注意(政治选举) | L8:偏难
-- confederation | L5-Def:不能(政治组织概念) | L5-Ex:不能(十三殖民地背景) | L6:不唯一(union/alliance) | L7:注意(美国建国史) | L8:不合适(文化/历史负担重)
-- congregation | L5-Def:不能(宗教场景词) | L5-Ex:不能(教堂/管风琴) | L6:不唯一(crowd/group) | L7:注意(宗教词；家长敏感度分化) | L8:偏难(可换更中性场景)
-- consecutive | L5-Def:不能(抽象) | L5-Ex:勉强(连续三年) | L6:不唯一(three years in a row) | L7:OK | L8:偏难(数学/时间词)
-- consul | L5-Def:不能(外交职位) | L5-Ex:不能(护照/海外/使馆) | L6:不唯一(official/embassy staff) | L7:OK | L8:偏难(社会常识)
-- continental | L5-Def:不能(地理学术) | L5-Ex:不能(美国本土含夏威夷阿拉斯加文化负担) | L6:不唯一(mainland) | L7:注意(美国地理特指) | L8:偏难
-- contingent | L5-Def:不能(“depending on”抽象) | L5-Ex:勉强(野餐看天气) | L6:不唯一(depending on/if) | L7:OK | L8:偏难(学术连接词)
-- convergence | L5-Def:不能(抽象“come together”) | L5-Ex:不能(两河汇流) | L6:不唯一(meeting/joining) | L7:OK | L8:偏难(数学/科学词)
-- correlation | L5-Def:不能(统计概念) | L5-Ex:不能(科学研究句式) | L6:不唯一(connection/link) | L7:OK | L8:偏难(统计词)
-- credibility | L5-Def:不能(抽象) | L5-Ex:不能(“real scientists”概念) | L6:不唯一(trust/believability) | L7:OK | L8:偏难
-- crossroads | L5-Def:勉强(十字路口) | L5-Ex:不能(比喻“重大决定”) | L6:不唯一(turning point) | L7:OK | L8:偏难(比喻义对MAP197难)
-- cumulus | L5-Def:不能(云类科学词) | L5-Ex:勉强(棉花糖云) | L6:不唯一(puffy clouds) | L7:OK | L8:偏难(科学词；可配图)
-- curator | L5-Def:不能(职业词) | L5-Ex:不能(化石布置句长) | L6:不唯一(museum worker) | L7:OK | L8:偏难
-- cylinder | L5-Def:不能(几何术语) | L5-Ex:勉强(罐头形状) | L6:不唯一(can/tube) | L7:OK | L8:偏难(数学词)
-- demographic | L5-Def:不能(统计/人群概念) | L5-Ex:不能(人口数据) | L6:不唯一(population) | L7:OK | L8:不合适(对MAP197过学术)
-- denounce | L5-Def:不能(“publicly declare”抽象) | L5-Ex:不能(领导人/攻击/和平) | L6:不唯一(condemn/criticize) | L7:注意(战争/政治) | L8:偏难
-- deploy | L5-Def:不能(军事/资源调度概念) | L5-Ex:不能(消防车/干旱季) | L6:不唯一(send/position) | L7:OK | L8:偏难
-- depot | L5-Def:勉强(仓库/车站) | L5-Ex:勉强(公交车场) | L6:不唯一(station/warehouse) | L7:OK | L8:合适(但对MAP197偏难)
-- deputy | L5-Def:不能(职位概念) | L5-Ex:不能(警长/治安) | L6:不唯一(assistant/substitute) | L7:OK | L8:偏难
-- descendant | L5-Def:不能(家谱概念) | L5-Ex:不能(1820定居者) | L6:不唯一(relative/child) | L7:OK | L8:偏难
-- detain | L5-Def:不能(抽象“hold from leaving”) | L5-Ex:不能(机场安检/行李报警) | L6:不唯一(hold/stop) | L7:OK | L8:偏难
-- deter | L5-Def:不能(抽象) | L5-Ex:勉强(栅栏防浣熊) | L6:不唯一(prevent/stop) | L7:OK | L8:偏难
-- differentiate | L5-Def:不能(词长+抽象) | L5-Ex:勉强(双胞胎分辨) | L6:不唯一(tell apart/distinguish) | L7:OK | L8:偏难
-- diligent | L5-Def:不能(品质词抽象) | L5-Ex:勉强(作业检查3遍) | L6:不唯一(hardworking/careful) | L7:OK | L8:偏难
-- diplomacy | L5-Def:不能(国家关系概念) | L5-Ex:不能(边境争端) | L6:不唯一(negotiation/peace talks) | L7:OK | L8:偏难(时政)
-- dire | L5-Def:不能(“urgent/serious”书面) | L5-Ex:勉强(严重缺水) | L6:不唯一(serious/urgent) | L7:OK | L8:偏难
-- discourse | L5-Def:不能(学术“serious talk”) | L5-Ex:不能(气候变化课堂讨论) | L6:不唯一(discussion/talk) | L7:OK | L8:偏难
-- discretion | L5-Def:不能(两义“freedom to decide/keep secrets”) | L5-Ex:不能(选伙伴抽象) | L6:不唯一(judgment/choice) | L7:OK | L8:偏难(多义)
-- disperse | L5-Def:勉强(散开) | L5-Ex:能(人群散去) | L6:不唯一(scatter/spread) | L7:OK | L8:合适
-- disposition | L5-Def:不能(抽象“tendency/mood”) | L5-Ex:勉强(狗性格友好) | L6:不唯一(personality/temperament) | L7:OK | L8:偏难
-- disrupt | L5-Def:勉强(打断) | L5-Ex:能(火警打断上课) | L6:不唯一(interrupt/stop) | L7:OK | L8:合适
-- dissent | L5-Def:不能(法律场景) | L5-Ex:不能(法官不同意见) | L6:不唯一(disagree/opposition) | L7:OK | L8:偏难
-- doctrine | L5-Def:不能(信条/政策) | L5-Ex:不能(Monroe Doctrine历史负担) | L6:不唯一(belief/policy) | L7:注意(政治历史) | L8:偏难
-- dwelling | L5-Def:勉强(住处) | L5-Ex:不能(悬崖居住史) | L6:不唯一(home/house) | L7:OK | L8:合适(但例句偏历史)
-- dynasty | L5-Def:勉强(王朝概念孩子可能懂中文) | L5-Ex:勉强(明朝/紫禁城有文化熟悉度) | L6:不唯一(royal family) | L7:OK | L8:合适(对中国孩子友好)
-- electrode | L5-Def:不能(物理术语) | L5-Ex:不能(电流/正负极) | L6:不唯一(terminal) | L7:OK | L8:不合适(对MAP197过学科)
-- eloquent | L5-Def:不能(抽象评价词) | L5-Ex:不能(“moved…to tears”情绪表达) | L6:不唯一(powerful/smooth) | L7:OK | L8:偏难
-- embassy | L5-Def:不能(机构词) | L5-Ex:不能(护照/出国场景) | L6:不唯一(consulate/office) | L7:OK | L8:偏难
-- encompass | L5-Def:不能(抽象“include wide range”) | L5-Ex:不能(国家公园句长) | L6:不唯一(include/cover) | L7:OK | L8:偏难
-- endorse | L5-Def:不能(抽象“publicly support”) | L5-Ex:不能(代言/运动员) | L6:不唯一(support/recommend) | L7:OK | L8:偏难
-- envision | L5-Def:不能(抽象“picture in mind”) | L5-Ex:勉强(想象空地变花园) | L6:不唯一(imagine/see) | L7:OK | L8:偏难
-- epidemic | L5-Def:不能(疾病传播术语) | L5-Ex:勉强(流感爆发停课) | L6:不唯一(outbreak) | L7:OK | L8:偏难(但可与outbreak同单元)
-- equilibrium | L5-Def:不能(物理概念) | L5-Ex:不能(跷跷板+opposing forces) | L6:不唯一(balance) | L7:OK | L8:偏难
-- escalate | L5-Def:不能(抽象) | L5-Ex:勉强(争吵升级) | L6:不唯一(increase/grow) | L7:OK | L8:偏难
-- espionage | L5-Def:不能(间谍活动概念) | L5-Ex:不能(特工/暗号) | L6:不唯一(spying) | L7:注意(暴力/国家对立；家长敏感度分化) | L8:偏难
-- ethnic | L5-Def:不能(文化群体概念抽象) | L5-Ex:不能(多样性话题) | L6:不唯一(cultural/racial) | L7:注意(种族/族群议题需谨慎表述) | L8:偏难
-- evacuate | L5-Def:不能(“leave quickly for safety”抽象) | L5-Ex:勉强(消防让人撤离) | L6:不唯一(leave/escape) | L7:OK | L8:偏难(但在安全主题可教)
-- exert | L5-Def:不能(抽象“use effort”) | L5-Ex:勉强(用力推门) | L6:不唯一(use/apply) | L7:OK | L8:偏难
-- exile | L5-Def:不能(政治惩罚概念) | L5-Ex:不能(国王流放) | L6:不唯一(banish) | L7:OK | L8:偏难
-- expenditure | L5-Def:不能(抽象“amount spent”) | L5-Ex:不能(学校最大开支) | L6:不唯一(spending/cost) | L7:OK | L8:偏难(经济词)
-- faction | L5-Def:不能(群体内部派别抽象) | L5-Ex:勉强(披萨vs塔可小派别) | L6:不唯一(group/side) | L7:OK | L8:偏难
-- fluctuation | L5-Def:不能(抽象) | L5-Ex:勉强(温度忽高忽低) | L6:不唯一(change/variation) | L7:OK | L8:偏难
-- forfeit | L5-Def:不能(正式用语) | L5-Ex:勉强(缺席判负) | L6:不唯一(lose/give up) | L7:OK | L8:偏难
-- formidable | L5-Def:不能(抽象“fear/respect”) | L5-Ex:不能(篮球中锋+句长) | L6:不唯一(strong/tough) | L7:OK | L8:偏难
-- fortify | L5-Def:不能(比喻“make stronger”) | L5-Ex:不能(士兵沙袋) | L6:不唯一(strengthen/defend) | L7:注意(军事) | L8:偏难
-- fraud | L5-Def:不能(犯罪概念抽象) | L5-Ex:勉强(假票骗局) | L6:不唯一(scam) | L7:OK | L8:偏难
-- frugal | L5-Def:不能(品质词) | L5-Ex:勉强(节省奶奶) | L6:不唯一(thrifty) | L7:OK | L8:偏难
-- garrison | L5-Def:不能(军事驻军) | L5-Ex:不能(守堡垒) | L6:不唯一(troops/guards) | L7:注意(军事) | L8:偏难
-- gazette | L5-Def:不能(报刊词偏旧) | L5-Ex:勉强(镇报纸) | L6:不唯一(newspaper/journal) | L7:OK | L8:偏难(更常用newspaper)
-- geologist | L5-Def:不能(科学职业词长) | L5-Ex:不能(岩层/多义) | L6:不唯一(scientist) | L7:OK | L8:偏难(STEM)
-- gorge | L5-Def:不能(地理术语) | L5-Ex:勉强(河切出峡谷) | L6:不唯一(canyon) | L7:OK | L8:偏难
-- gradient | L5-Def:不能(数学/坡度术语) | L5-Ex:不能(骑行换挡) | L6:不唯一(slope) | L7:OK | L8:偏难
-- grapple | L5-Def:不能(比喻义) | L5-Ex:勉强(长除法很难) | L6:不唯一(struggle/deal with) | L7:OK | L8:偏难
-- grassland | L5-Def:勉强(草原) | L5-Ex:不能(非洲草原动物词负担) | L6:不唯一(savanna/plain) | L7:OK | L8:合适
-- grievance | L5-Def:不能(正式“complaint”) | L5-Ex:不能(加班/工人) | L6:不唯一(complaint) | L7:OK | L8:偏难
-- gross | L5-Def:不能(两义“总的/恶心”混) | L5-Ex:不能(收入/税) | L6:不唯一(total) | L7:OK | L8:偏难(多义；建议拆义)
-- humanitarian | L5-Def:不能(抽象) | L5-Ex:不能(地震救援) | L6:不唯一(helpful/aid) | L7:OK | L8:偏难
-- ignite | L5-Def:勉强(点燃) | L5-Ex:能(火星点燃枯叶) | L6:不唯一(start/burn) | L7:注意(与火有关需安全提醒) | L8:合适
-- impeach | L5-Def:不能(政治法律概念) | L5-Ex:不能(国会/总统) | L6:不唯一(charge/remove) | L7:注意(政治强美国制度) | L8:不合适(文化/制度负担)
-- imperial | L5-Def:勉强(帝国/皇帝相关) | L5-Ex:勉强(北京皇宫对中国孩子熟) | L6:不唯一(royal/empire) | L7:OK | L8:合适
-- incidence | L5-Def:不能(统计“how often occurs”) | L5-Ex:不能(蛀牙发生率) | L6:不唯一(rate/frequency) | L7:OK | L8:偏难
-- indigenous | L5-Def:不能(抽象“native to”) | L5-Ex:不能(袋鼠澳洲背景) | L6:不唯一(native/local) | L7:OK | L8:偏难
-- infrastructure | L5-Def:不能(抽象系统) | L5-Ex:不能(道路电力城市发展) | L6:不唯一(public works) | L7:OK | L8:不合适(对MAP197过抽象)
-- inject | L5-Def:勉强(打针) | L5-Ex:能(疫苗注射) | L6:不唯一(put in) | L7:OK | L8:合适
-- innate | L5-Def:不能(抽象“born with”) | L5-Ex:不能(“play by ear”文化负担) | L6:不唯一(inborn/natural) | L7:OK | L8:偏难
-- innovate | L5-Def:不能(抽象) | L5-Ex:不能(公司/产品) | L6:不唯一(create/improve) | L7:OK | L8:偏难
-- inoculate | L5-Def:不能(医学词) | L5-Ex:勉强(给宝宝打疫苗) | L6:不唯一(vaccinate) | L7:OK | L8:偏难(更常用vaccinate)
-- input | L5-Def:不能(抽象+双义“意见/数据”) | L5-Ex:勉强(大家提意见) | L6:不唯一(info/idea) | L7:OK | L8:偏难(多义)
-- inscription | L5-Def:不能(书面词) | L5-Ex:不能(墓碑/磨损) | L6:不唯一(words/carving) | L7:OK | L8:偏难
-- insignificant | L5-Def:不能(否定前缀+抽象) | L5-Ex:勉强(小划痕不重要) | L6:不唯一(unimportant/tiny) | L7:OK | L8:偏难(前缀学习后更好)
-- intact | L5-Def:不能(“undamaged”书面) | L5-Ex:勉强(花瓶没碎) | L6:不唯一(whole/undamaged) | L7:OK | L8:偏难
-- interim | L5-Def:不能(抽象“between two events”) | L5-Ex:不能(临时校长) | L6:不唯一(temporary) | L7:OK | L8:偏难
-- intersection | L5-Def:勉强(路口) | L5-Ex:能(过马路) | L6:唯一(语境明确) | L7:OK | L8:合适
-- intimate | L5-Def:不能(“close/personal/private”抽象) | L5-Ex:不能(分享私密童年细节不适龄) | L6:不唯一(private/close) | L7:注意(“intimate details”容易让家长误解；建议换更安全例句) | L8:偏难(且例句需重写)
-- intrepid | L5-Def:不能(书面“fearless/bold”) | L5-Ex:不能(无人去过丛林夸张) | L6:不唯一(brave/fearless) | L7:OK | L8:偏难
-- intrinsic | L5-Def:不能(抽象) | L5-Ex:不能(科学家好奇心) | L6:不唯一(inherent) | L7:OK | L8:偏难
-- inventory | L5-Def:不能(抽象“list of stock”) | L5-Ex:不能(盘点/记录) | L6:不唯一(list/stock) | L7:OK | L8:偏难
-- irrational | L5-Def:不能(抽象) | L5-Ex:勉强(怕蝴蝶不合理) | L6:不唯一(illogical/unreasonable) | L7:OK | L8:偏难
-- isle | L5-Def:勉强(小岛) | L5-Ex:能(湖中小岛) | L6:不唯一(island) | L7:OK | L8:合适(但更常用island)
-- jargon | L5-Def:不能(抽象“profession words”) | L5-Ex:不能(病人/医学术语) | L6:不唯一(technical terms) | L7:OK | L8:偏难
-- judicial | L5-Def:不能(法律系统词) | L5-Ex:不能(三权分立背景) | L6:不唯一(court/legal) | L7:注意(美国政府结构) | L8:偏难
-- jurisdiction | L5-Def:不能(抽象“official power”) | L5-Ex:不能(城市警察/郡警长) | L6:不唯一(authority/area) | L7:注意(美国治安体系) | L8:不合适(文化制度负担)
-- juvenile | L5-Def:不能(两义“young/childish”) | L5-Ex:不能(幼鹰羽毛) | L6:不唯一(young) | L7:OK | L8:偏难(多义)
-- kinetic | L5-Def:不能(物理术语) | L5-Ex:不能(保龄球能量转移) | L6:不唯一(moving energy) | L7:OK | L8:不合适(对MAP197)
-- lapse | L5-Def:不能(两义“slip/time passing”) | L5-Ex:不能(“lapse of ten seconds”不自然) | L6:不唯一(pause/forget) | L7:OK | L8:偏难(用法易混；例句建议更常见)
-- legislation | L5-Def:不能(政府立法) | L5-Ex:不能(餐厅标卡路里) | L6:不唯一(laws) | L7:OK | L8:偏难
-- liaison | L5-Def:不能(角色词) | L5-Ex:不能(家校翻译) | L6:不唯一(go-between) | L7:OK | L8:偏难
-- lucrative | L5-Def:不能(书面) | L5-Ex:勉强(卖饼干赚钱多) | L6:不唯一(profitable) | L7:OK | L8:偏难
-- magistrate | L5-Def:不能(司法职位) | L5-Ex:不能(邻里纠纷) | L6:不唯一(judge) | L7:OK | L8:偏难
-- manuscript | L5-Def:不能(写作出版概念) | L5-Ex:不能(寄出版社等待) | L6:不唯一(draft) | L7:OK | L8:偏难
-- maritime | L5-Def:不能(书面) | L5-Ex:不能(海事博物馆) | L6:不唯一(sea/ocean) | L7:OK | L8:偏难
-- meander | L5-Def:不能(比喻/河流弯曲) | L5-Ex:勉强(河像蛇弯) | L6:不唯一(wind/curve) | L7:OK | L8:偏难
-- mediate | L5-Def:不能(抽象“help reach agreement”) | L5-Ex:勉强(辅导员调解) | L6:不唯一(help/settle) | L7:OK | L8:偏难
-- memoir | L5-Def:不能(体裁词) | L5-Ex:不能(宇航员/太空) | L6:不唯一(autobiography) | L7:OK | L8:偏难
-- merchandise | L5-Def:不能(商业词) | L5-Ex:勉强(礼品店商品) | L6:不唯一(goods/products) | L7:OK | L8:偏难
-- metropolitan | L5-Def:不能(概念词) | L5-Ex:不能(主城+郊区) | L6:不唯一(city/urban) | L7:OK | L8:偏难
-- militant | L5-Def:不能(抽象+政治) | L5-Ex:不能(激进抗议者) | L6:不唯一(aggressive/extreme) | L7:注意(抗议/政治冲突，家长敏感) | L8:偏难
-- militia | L5-Def:不能(历史军事) | L5-Ex:不能(革命战争) | L6:不唯一(citizen soldiers) | L7:注意(枪械/战争) | L8:偏难
-- millennium | L5-Def:勉强(一千年) | L5-Ex:勉强(1999到2000) | L6:不唯一(thousand years) | L7:OK | L8:合适
-- mobilize | L5-Def:不能(抽象) | L5-Ex:不能(志愿者装沙袋) | L6:不唯一(organize/prepare) | L7:OK | L8:偏难
-- monarchy | L5-Def:不能(政体概念) | L5-Ex:不能(英国君主立宪制) | L6:不唯一(kingdom) | L7:OK | L8:偏难
-- monetary | L5-Def:不能(书面) | L5-Ex:不能(硬币价值/稀有) | L6:不唯一(financial) | L7:OK | L8:偏难
-- monopolize | L5-Def:不能(抽象+词长) | L5-Ex:勉强(别霸占秋千) | L6:不唯一(take over/keep) | L7:OK | L8:偏难
-- morale | L5-Def:不能(抽象“confidence/enthusiasm”) | L5-Ex:不能(连胜/冠军) | L6:不唯一(team spirit) | L7:OK | L8:偏难
-- moratorium | L5-Def:不能(正式词) | L5-Ex:不能(城市暂停建设) | L6:不唯一(ban/pause) | L7:OK | L8:不合适(对MAP197过正式)
-- mortgage | L5-Def:不能(金融概念) | L5-Ex:不能(买房贷款) | L6:不唯一(loan) | L7:注意(成人财务) | L8:不合适(低龄)
-- mutiny | L5-Def:不能(历史/军事) | L5-Ex:不能(残酷船长) | L6:不唯一(rebellion) | L7:注意(暴力/叛乱) | L8:偏难
-- narrate | L5-Def:勉强(讲述) | L5-Ex:勉强(纪录片旁白) | L6:不唯一(tell/describe) | L7:OK | L8:合适
-- nationalism | L5-Def:不能(政治概念) | L5-Ex:不能(奥运/公民) | L6:不唯一(patriotism) | L7:注意(政治价值观差异) | L8:偏难
-- niche | L5-Def:不能(抽象“special role/spot”) | L5-Ex:不能(生态位概念) | L6:不唯一(role/place) | L7:OK | L8:偏难
-- nomenclature | L5-Def:不能(学术) | L5-Ex:不能(拉丁学名) | L6:不唯一(naming system) | L7:OK | L8:不合适(过学术)
-- nomadic | L5-Def:不能(概念词) | L5-Ex:不能(部落跟随兽群) | L6:不唯一(moving) | L7:OK | L8:偏难
-- nonpartisan | L5-Def:不能(政治概念+前缀) | L5-Ex:不能(政党/邀请发言) | L6:不唯一(neutral) | L7:注意(政治语境) | L8:偏难
-- notorious | L5-Def:不能(书面) | L5-Ex:不能(黑胡子海盗文化负担) | L6:不唯一(infamous) | L7:OK | L8:偏难
-- novice | L5-Def:勉强(新手) | L5-Ex:能(新手滑雪) | L6:不唯一(beginner) | L7:OK | L8:合适
-- nullify | L5-Def:不能(法律正式) | L5-Ex:不能(合同/欺骗签署) | L6:不唯一(cancel/void) | L7:OK | L8:偏难
-- obscure | L5-Def:不能(两义“not known/hard to understand”) | L5-Ex:不能(第53页末段) | L6:不唯一(rare/unclear) | L7:OK | L8:偏难
-- obstruct | L5-Def:不能(书面) | L5-Ex:勉强(树挡路) | L6:不唯一(block) | L7:OK | L8:偏难
-- offset | L5-Def:不能(抽象“balance out”) | L5-Ex:不能(额外学分抵消低分) | L6:不唯一(make up for) | L7:OK | L8:偏难
-- omit | L5-Def:勉强(漏掉) | L5-Ex:能(别漏步骤) | L6:不唯一(leave out) | L7:OK | L8:合适
-- onset | L5-Def:不能(书面“start of condition”) | L5-Ex:不能(冬天到来句式) | L6:不唯一(beginning/start) | L7:OK | L8:偏难
-- opaque | L5-Def:不能(概念词) | L5-Ex:勉强(不透光窗帘) | L6:不唯一(not see-through) | L7:OK | L8:偏难
-- optimize | L5-Def:不能(书面) | L5-Ex:不能(跑姿/秒数) | L6:不唯一(improve) | L7:OK | L8:偏难
-- ordinance | L5-Def:不能(政府法规) | L5-Ex:不能(狗牵绳) | L6:不唯一(law/rule) | L7:OK | L8:偏难
-- oscillate | L5-Def:不能(科学术语) | L5-Ex:不能(钟摆/频率) | L6:不唯一(swing) | L7:OK | L8:不合适(对MAP197过学科)
-- outbreak | L5-Def:勉强(突然爆发) | L5-Ex:能(水痘爆发) | L6:不唯一(epidemic) | L7:OK | L8:合适
-- outskirts | L5-Def:勉强(城郊/边缘) | L5-Ex:勉强(城外建商场) | L6:不唯一(edge) | L7:OK | L8:合适
-- overhaul | L5-Def:不能(机械修理概念) | L5-Ex:不能(发动机拆装) | L6:不唯一(repair/redo) | L7:OK | L8:偏难
-- oversight | L5-Def:不能(两义“not noticing/monitoring”) | L5-Ex:勉强(忘记邀请=疏忽) | L6:不唯一(mistake) | L7:OK | L8:偏难(多义)
-- overt | L5-Def:不能(书面) | L5-Ex:不能(“overt enthusiasm”抽象) | L6:不唯一(obvious/open) | L7:OK | L8:偏难
-- paradigm | L5-Def:不能(学术) | L5-Ex:不能(缺常见生活例) | L6:不唯一(model/pattern) | L7:OK | L8:不合适(过学术)
-- paradox | L5-Def:不能(抽象逻辑概念) | L5-Ex:不能(缺生活化) | L6:不唯一(contradiction) | L7:OK | L8:偏难
-- parliament | L5-Def:不能(政府机构) | L5-Ex:不能(政治制度) | L6:不唯一(congress) | L7:OK | L8:偏难
-- partisan | L5-Def:不能(政治派别) | L5-Ex:不能(政治语境) | L6:不唯一(biased) | L7:注意(政治立场) | L8:偏难
-- patrimony | L5-Def:不能(法律/继承) | L5-Ex:不能 | L6:不唯一(inheritance) | L7:OK | L8:不合适(过书面)
-- patronage | L5-Def:不能(抽象) | L5-Ex:不能 | L6:不唯一(support) | L7:OK | L8:偏难
-- pedagogy | L5-Def:不能(教育学术语) | L5-Ex:不能 | L6:不唯一(teaching) | L7:OK | L8:不合适(过学术)
-- penal | L5-Def:不能(法律“惩罚的”) | L5-Ex:不能 | L6:不唯一(punishing) | L7:OK | L8:偏难
-- per capita | L5-Def:不能(统计短语) | L5-Ex:不能 | L6:不唯一(per person) | L7:OK | L8:不合适(对MAP197)
-- perennial | L5-Def:不能(书面“lasting/returning”) | L5-Ex:不能 | L6:不唯一(ongoing) | L7:OK | L8:偏难
-- periphery | L5-Def:不能(抽象) | L5-Ex:不能 | L6:不唯一(edge) | L7:OK | L8:偏难
-- permeable | L5-Def:不能(科学术语) | L5-Ex:不能 | L6:不唯一(allow through) | L7:OK | L8:不合适(学科词)
-- perpetual | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(never-ending) | L7:OK | L8:偏难
-- persecute | L5-Def:不能(社会历史词) | L5-Ex:不能 | L6:不唯一(harass/oppress) | L7:注意(迫害题材可能沉重) | L8:偏难
-- persona | L5-Def:不能(概念词) | L5-Ex:不能 | L6:不唯一(identity) | L7:OK | L8:偏难
-- pertinent | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(relevant) | L7:OK | L8:偏难
-- pervasive | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(widespread) | L7:OK | L8:偏难
-- petroleum | L5-Def:不能(科学词) | L5-Ex:不能 | L6:不唯一(oil) | L7:OK | L8:偏难
-- philanthropy | L5-Def:不能(抽象+词长) | L5-Ex:不能 | L6:不唯一(charity) | L7:OK | L8:不合适(过书面)
-- pivotal | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(key/important) | L7:OK | L8:偏难
-- plausible | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(reasonable) | L7:OK | L8:偏难
-- plurality | L5-Def:不能(统计/政治) | L5-Ex:不能 | L6:不唯一(most) | L7:OK | L8:偏难
-- posterity | L5-Def:不能(抽象“future generations”) | L5-Ex:不能 | L6:不唯一(future) | L7:OK | L8:偏难
-- pragmatic | L5-Def:不能(抽象) | L5-Ex:不能 | L6:不唯一(practical) | L7:OK | L8:偏难
-- precede | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(come before) | L7:OK | L8:偏难
-- precedent | L5-Def:不能(法律概念) | L5-Ex:不能 | L6:不唯一(example) | L7:OK | L8:偏难
-- predominant | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(main/mostly) | L7:OK | L8:偏难
-- preface | L5-Def:不能(书籍结构词) | L5-Ex:不能 | L6:不唯一(introduction) | L7:OK | L8:偏难
-- procurement | L5-Def:不能(商务) | L5-Ex:不能 | L6:不唯一(purchasing) | L7:OK | L8:不合适
-- prodigy | L5-Def:不能(概念词) | L5-Ex:不能 | L6:不唯一(genius) | L7:OK | L8:偏难
-- proficient | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(skilled) | L7:OK | L8:偏难
-- proliferate | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(increase/spread) | L7:OK | L8:不合适(过学术)
-- propaganda | L5-Def:不能(政治概念敏感) | L5-Ex:不能 | L6:不唯一(political messaging) | L7:注意(政治宣传词在不同语境很敏感) | L8:偏难/慎用
-- prosecute | L5-Def:不能(法律) | L5-Ex:不能 | L6:不唯一(put on trial) | L7:OK | L8:偏难
-- prospectus | L5-Def:不能(正式文件) | L5-Ex:不能 | L6:不唯一(brochure/plan) | L7:OK | L8:不合适
-- protocol | L5-Def:不能(多义/正式) | L5-Ex:不能 | L6:不唯一(rules) | L7:OK | L8:偏难
-- province | L5-Def:能(省；中国孩子熟) | L5-Ex:能 | L6:不唯一(region) | L7:OK | L8:合适
-- proximity | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(nearness) | L7:OK | L8:偏难
-- prudent | L5-Def:不能(书面品质词) | L5-Ex:不能 | L6:不唯一(wise/careful) | L7:OK | L8:偏难
-- quarantine | L5-Def:勉强(隔离；疫情后孩子可能听过) | L5-Ex:勉强 | L6:不唯一(isolation) | L7:OK | L8:偏难(但现实相关)
-- quorum | L5-Def:不能(会议制度) | L5-Ex:不能 | L6:不唯一(minimum) | L7:OK | L8:不合适
-- ratify | L5-Def:不能(正式“批准”) | L5-Ex:不能 | L6:不唯一(approve) | L7:OK | L8:偏难
-- ration | L5-Def:不能(两义“配给/定量”) | L5-Ex:不能 | L6:不唯一(share/limit) | L7:OK | L8:偏难
-- recess | L5-Def:能(课间休息在学校常用) | L5-Ex:能 | L6:唯一(学校场景明确) | L7:OK | L8:合适
-- reconcile | L5-Def:不能(抽象) | L5-Ex:不能 | L6:不唯一(make up/settle) | L7:OK | L8:偏难
-- referendum | L5-Def:不能(政治) | L5-Ex:不能 | L6:不唯一(vote) | L7:注意(政治制度) | L8:不合适(低龄)
-- reimburse | L5-Def:不能(正式财务) | L5-Ex:不能 | L6:不唯一(pay back) | L7:OK | L8:不合适
-- renaissance | L5-Def:不能(历史术语) | L5-Ex:不能 | L6:不唯一(rebirth) | L7:OK | L8:偏难
-- replenish | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(refill) | L7:OK | L8:偏难
-- repository | L5-Def:不能(书面/技术) | L5-Ex:不能 | L6:不唯一(storage/place) | L7:OK | L8:不合适(过正式)
-- repress | L5-Def:不能(心理/政治双义) | L5-Ex:不能 | L6:不唯一(suppress) | L7:注意(政治/心理语境) | L8:偏难
-- reproach | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(blame/scold) | L7:OK | L8:偏难
-- repudiate | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(reject/deny) | L7:OK | L8:不合适(过书面)
-- requisite | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(required) | L7:OK | L8:偏难
-- reservoir | L5-Def:不能(地理/工程) | L5-Ex:不能 | L6:不唯一(lake/storage) | L7:OK | L8:偏难
-- residual | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(remaining) | L7:OK | L8:偏难
-- resilient | L5-Def:不能(抽象品质词) | L5-Ex:不能 | L6:不唯一(tough/recovering) | L7:OK | L8:偏难
-- resonance | L5-Def:不能(物理/比喻双义) | L5-Ex:不能 | L6:不唯一(echo/connection) | L7:OK | L8:偏难
-- restitution | L5-Def:不能(法律/赔偿) | L5-Ex:不能 | L6:不唯一(compensation) | L7:OK | L8:不合适
-- retract | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(take back) | L7:OK | L8:偏难
-- retrospect | L5-Def:不能(抽象) | L5-Ex:不能 | L6:不唯一(looking back) | L7:OK | L8:偏难
-- rhetoric | L5-Def:不能(学术/政治) | L5-Ex:不能 | L6:不唯一(speech style) | L7:OK | L8:不合适(过学术)
-- rigorous | L5-Def:不能(书面) | L5-Ex:不能 | L6:不唯一(strict) | L7:OK | L8:偏难
-- roster | L5-Def:勉强(名单) | L5-Ex:勉强(球队名单) | L6:不唯一(list) | L7:OK | L8:合适
-- rubric | L5-Def:不能(学校评分术语) | L5-Ex:不能(作文评分细则) | L6:不唯一(grading guide) | L7:OK | L8:偏难(学术场景；但可用在学校)
-- rupture | L5-Def:不能(书面) | L5-Ex:不能(水管破裂句长) | L6:不唯一(burst/break) | L7:OK | L8:偏难
-- sanitary | L5-Def:不能(书面) | L5-Ex:不能(卫生标准) | L6:不唯一(clean/hygienic) | L7:OK | L8:偏难
-- scaffold | L5-Def:不能(建筑词) | L5-Ex:勉强(工人站架子刷墙) | L6:不唯一(platform) | L7:OK | L8:偏难
-- segregation | L5-Def:不能(社会历史概念) | L5-Ex:不能(Rosa Parks美国民权史) | L6:不唯一(separation) | L7:注意(种族议题；需要慎重教学/背景) | L8:偏难(文化历史负担)
-- seismic | L5-Def:不能(科学术语) | L5-Ex:不能(火山/传感器) | L6:不唯一(earthquake-related) | L7:OK | L8:不合适(对MAP197)
-- seminar | L5-Def:不能(课堂形式词) | L5-Ex:不能(写作研讨班) | L6:不唯一(class/workshop) | L7:OK | L8:偏难
-- sentiment | L5-Def:不能(抽象“feeling/opinion”) | L5-Ex:不能(群体情绪) | L6:不唯一(feeling) | L7:OK | L8:偏难
-- skeptic | L5-Def:不能(概念词) | L5-Ex:不能(魔术“真实魔法”) | L6:不唯一(doubter) | L7:OK | L8:偏难
-- solidarity | L5-Def:不能(抽象) | L5-Ex:不能(送卡片鲜花) | L6:不唯一(unity) | L7:OK | L8:偏难
-- solitary | L5-Def:勉强(孤单) | L5-Ex:勉强(灯塔孤立) | L6:不唯一(alone) | L7:OK | L8:合适
-- sovereignty | L5-Def:不能(政治概念) | L5-Ex:不能(国家法律/外部控制) | L6:不唯一(independence) | L7:注意(主权话题敏感度分化) | L8:偏难
-- spontaneous | L5-Def:不能(抽象) | L5-Ex:不能(自发掌声) | L6:不唯一(unplanned) | L7:OK | L8:偏难
-- stagnant | L5-Def:不能(书面/比喻) | L5-Ex:不能(藻类/水流) | L6:不唯一(still/not changing) | L7:OK | L8:偏难
-- stimulus | L5-Def:不能(心理学术语) | L5-Ex:不能(刺激触发鸟飞) | L6:不唯一(trigger) | L7:OK | L8:不合适(过学术)
-- stipulate | L5-Def:不能(正式“规定”) | L5-Ex:不能(规则规定年龄) | L6:不唯一(require/state) | L7:OK | L8:偏难
-- stratum | L5-Def:不能(地质/社会双义) | L5-Ex:不能(大峡谷地层) | L6:不唯一(layer) | L7:OK | L8:偏难
-- subsistence | L5-Def:不能(抽象“barely enough to stay alive”) | L5-Ex:不能(自给农民) | L6:不唯一(bare survival) | L7:OK | L8:偏难
-- substantiate | L5-Def:不能(正式) | L5-Ex:不能(海豚自我认知) | L6:不唯一(prove/support) | L7:OK | L8:偏难
-- suffrage | L5-Def:不能(政治史) | L5-Ex:不能(美国1920/修正案) | L6:不唯一(voting rights) | L7:注意(美国政治史；可换更中性) | L8:偏难
-- superfluous | L5-Def:不能(书面) | L5-Ex:不能(作文多余段) | L6:不唯一(unnecessary/extra) | L7:OK | L8:偏难
-- suppress | L5-Def:不能(多义) | L5-Ex:不能(抑制哈欠) | L6:不唯一(hold back/stop) | L7:OK | L8:偏难
-- surveillance | L5-Def:不能(正式) | L5-Ex:勉强(监控摄像头) | L6:不唯一(monitoring) | L7:注意(隐私/警务；可中性化) | L8:偏难
-- sustainable | L5-Def:不能(抽象) | L5-Ex:不能(太阳能/十亿年) | L6:不唯一(eco-friendly/lasting) | L7:OK | L8:偏难
-- tariff | L5-Def:不能(经济/贸易) | L5-Ex:不能(钢铁进口税) | L6:不唯一(import tax) | L7:OK | L8:不合适(低龄)
-- taxonomy | L5-Def:不能(学科词) | L5-Ex:不能(生物分类) | L6:不唯一(classification) | L7:OK | L8:不合适(过学术)
-- tenure | L5-Def:不能(职位任期概念) | L5-Ex:不能(10年任期) | L6:不唯一(term) | L7:OK | L8:偏难
-- testament | L5-Def:不能(书面“proof”) | L5-Ex:不能(完美分数证明) | L6:不唯一(proof/sign) | L7:OK | L8:偏难
-- theorem | L5-Def:不能(数学术语) | L5-Ex:不能(勾股定理) | L6:不唯一(rule/formula) | L7:OK | L8:偏难(数学单元可)
-- abjure | L5-Def:不能(正式“放弃信念”) | L5-Ex:不能(骑士/旧王) | L6:不唯一(renounce) | L7:OK | L8:不合适(词罕见/过书面)
-- accretion | L5-Def:不能(学术) | L5-Ex:不能(屋顶积雪“accretion”不常用) | L6:不唯一(buildup) | L7:OK | L8:不合适(过学术)
-- adjudicate | L5-Def:不能(正式“裁决”) | L5-Ex:不能(老师裁判争吵仍偏正式) | L6:不唯一(judge/decide) | L7:OK | L8:不合适(过正式)
-- adulterate | L5-Def:不能(正式“掺假”) | L5-Ex:不能(果汁掺水) | L6:不唯一(dilute/contaminate) | L7:OK | L8:不合适(过书面)
-- aggrandize | L5-Def:不能(书面) | L5-Ex:不能(皇帝征服扩张) | L6:不唯一(expand/increase) | L7:注意(战争/扩张叙事) | L8:不合适(罕见)
-- apotheosis | L5-Def:不能(极罕见+抽象) | L5-Ex:不能(交响乐巅峰) | L6:不唯一(peak) | L7:OK | L8:不合适(远超Level4常规)
-- approbation | L5-Def:不能(罕见) | L5-Ex:不能(正式表扬) | L6:不唯一(approval/praise) | L7:OK | L8:不合适(远超Level4)
-- arrogate | L5-Def:不能(罕见) | L5-Ex:不能(抢遥控器) | L6:不唯一(seize/claim) | L7:OK | L8:不合适(罕见)
-- atavism | L5-Def:不能(罕见+科学) | L5-Ex:不能(马的斑点返祖) | L6:不唯一(throwback) | L7:OK | L8:不合适(过学术)
-- bellwether | L5-Def:不能(罕见) | L5-Ex:不能(选举预测词) | L6:不唯一(indicator) | L7:注意(政治选举) | L8:不合适(罕见)
-- bifurcate | L5-Def:不能(书面) | L5-Ex:不能(道路分叉) | L6:不唯一(split/divide) | L7:OK | L8:不合适(罕见；可用split)
-- bowdlerize | L5-Def:不能(极罕见) | L5-Ex:不能(删改文本) | L6:不唯一(edit/censor) | L7:注意(与censor接近且更冷僻) | L8:不合适(远超Level4)
-- bromide | L5-Def:不能(罕见+抽象) | L5-Ex:不能(谚语“time heals…”文化负担) | L6:不唯一(cliché) | L7:OK | L8:不合适
-- cadence | L5-Def:不能(抽象) | L5-Ex:不能(诗歌朗读韵律) | L6:不唯一(rhythm) | L7:OK | L8:偏难(文艺课可；MAP197不行)
-- cabal | L5-Def:不能(罕见) | L5-Ex:不能(阴谋“harmful”) | L6:不唯一(secret group) | L7:OK | L8:不合适(罕见)
-- canard | L5-Def:不能(罕见) | L5-Ex:不能(学校谣言) | L6:不唯一(rumor/false story) | L7:OK | L8:不合适(罕见)
-- capitulation | L5-Def:不能(书面) | L5-Ex:不能(辩论“capitulation”不贴切) | L6:不唯一(surrender/give in) | L7:OK | L8:不合适(过书面；例句也不理想)
-- celerity | L5-Def:不能(罕见) | L5-Ex:不能(消防快速到达) | L6:不唯一(speed) | L7:OK | L8:不合适(罕见；用speed)
-- cogitate | L5-Def:不能(罕见) | L5-Ex:不能(坐着沉思) | L6:不唯一(think) | L7:OK | L8:不合适(罕见)
-- collude | L5-Def:不能(正式) | L5-Ex:不能(考试串通) | L6:不唯一(conspire/cheat together) | L7:OK | L8:偏难(但比后面冷僻词更可)
-- conflate | L5-Def:不能(书面) | L5-Ex:不能(affect/effect对MAP197太难) | L6:不唯一(mix up/confuse) | L7:OK | L8:偏难(例句需更低门槛)
-- consanguinity | L5-Def:不能(极罕见) | L5-Ex:不能(家谱/堂表亲) | L6:不唯一(related) | L7:OK | L8:不合适(远超Level4)
-- contiguous | L5-Def:不能(书面) | L5-Ex:不能(相邻州+边界) | L6:不唯一(adjacent) | L7:OK | L8:偏难(与adjacent重复；contiguous更难)
-- countermand | L5-Def:不能(罕见) | L5-Ex:不能(将军撤销命令) | L6:不唯一(cancel/reverse) | L7:注意(军事) | L8:不合适(罕见)
-- deleterious | L5-Def:不能(书面) | L5-Ex:不能(屏幕时间影响睡眠句长) | L6:不唯一(harmful) | L7:OK | L8:不合适(过书面；用harmful)
-- diatribe | L5-Def:不能(书面) | L5-Ex:不能(写信抱怨停车) | L6:不唯一(rant) | L7:OK | L8:不合适(罕见)
-- efficacious | L5-Def:不能(书面) | L5-Ex:不能(去污渍) | L6:不唯一(effective) | L7:OK | L8:不合适(罕见)
-- excoriate | L5-Def:不能(罕见) | L5-Ex:不能(美食评论家严厉批评) | L6:不唯一(criticize harshly) | L7:OK | L8:不合适
-- exigent | L5-Def:不能(罕见) | L5-Ex:不能(紧急情况+撤离) | L6:不唯一(urgent) | L7:OK | L8:不合适(用urgent即可)
-- expurgate | L5-Def:不能(罕见) | L5-Ex:不能(学校删改台词) | L6:不唯一(remove/censor) | L7:OK | L8:不合适(罕见)
-- extirpate | L5-Def:不能(罕见) | L5-Ex:不能(拔草“fully destroy”) | L6:不唯一(remove) | L7:OK | L8:不合适(罕见)
-- fatuous | L5-Def:不能(书面) | L5-Ex:勉强(荒唐建议) | L6:不唯一(silly) | L7:OK | L8:不合适(罕见)
-- fecund | L5-Def:不能(罕见) | L5-Ex:不能(菜园丰产) | L6:不唯一(fertile) | L7:OK | L8:不合适(罕见)
-- fulminate | L5-Def:不能(罕见) | L5-Ex:不能(教练大声抗议) | L6:不唯一(complain loudly) | L7:OK | L8:不合适(罕见)
-- gainsay | L5-Def:不能(罕见) | L5-Ex:不能(“could gainsay the evidence”) | L6:不唯一(deny) | L7:OK | L8:不合适(罕见)
-- gerrymandering | L5-Def:不能(极政治+词长) | L5-Ex:不能(选区划分) | L6:不唯一(unfair districting) | L7:注意(高度政治化；家长敏感) | L8:不合适(远超Level4)
-- impecunious | L5-Def:不能(罕见) | L5-Ex:不能(穷艺术家) | L6:不唯一(poor) | L7:OK | L8:不合适(罕见)
-- ineluctable | L5-Def:不能(极罕见) | L5-Ex:不能(桥要换“unavoidable”) | L6:不唯一(unavoidable) | L7:OK | L8:不合适
-- inimical | L5-Def:不能(罕见) | L5-Ex:不能(干旱不利生长) | L6:不唯一(harmful/hostile) | L7:OK | L8:不合适
-- inscrutable | L5-Def:不能(书面) | L5-Ex:勉强(猫表情看不懂) | L6:不唯一(mysterious) | L7:OK | L8:不合适(罕见)
-- internecine | L5-Def:不能(罕见) | L5-Ex:不能(部门内斗) | L6:不唯一(mutually harmful) | L7:OK | L8:不合适
-- malfeasant | L5-Def:不能(罕见+公职犯罪) | L5-Ex:不能(调查移除官员) | L6:不唯一(wrongdoer) | L7:注意(政治/腐败话题) | L8:不合适
-- obdurate | L5-Def:不能(罕见) | L5-Ex:不能(谈判者不妥协) | L6:不唯一(stubborn) | L7:OK | L8:不合适
-- opprobrium | L5-Def:不能(罕见) | L5-Ex:不能(作弊丑闻) | L6:不唯一(disgrace) | L7:OK | L8:不合适
-- palimpsest | L5-Def:不能(学术比喻) | L5-Ex:不能(墙壁层漆) | L6:不唯一(layered traces) | L7:OK | L8:不合适(过学术)
-- tendentious | L5-Def:不能(书面+政治) | L5-Ex:不能(偏袒政党) | L6:不唯一(biased) | L7:注意(政治立场) | L8:不合适
-- termagant | L5-Def:不能(罕见) | L5-Ex:不能(骂顾客店主) | L6:不唯一(mean person) | L7:OK | L8:不合适
-- trenchant | L5-Def:不能(书面) | L5-Ex:不能(分析问题“cutting”) | L6:不唯一(sharp) | L7:OK | L8:不合适
-- nugatory | L5-Def:不能(罕见) | L5-Ex:不能(委员会努力无用) | L6:不唯一(useless) | L7:OK | L8:不合适
-- panegyric | L5-Def:不能(罕见) | L5-Ex:不能(退休致辞赞美) | L6:不唯一(praise speech) | L7:OK | L8:不合适(罕见；用praise/tribute)
+每行格式：word | L5(def/ex) | L6 | L7 | L8
+
+- undertake | L5 def:能(OK) ex:不能(卡:challenge/cleaning) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- unfold | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- universal | L5 def:勉强(卡:applying/everyone) ex:不能(卡:everywhere/understand) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- vegetation | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- verify | L5 def:能(OK) ex:不能(卡:different/internet) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- versus | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- veto | L5 def:勉强(卡:decision/proposal) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:注意(关键词:president) | L8:不合适(对MAP197过抽象/词形长/低频)
+- via | L5 def:能(OK) ex:勉强(卡:traveled/stopping) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- vibrate | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- volatile | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- wage | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- withstand | L5 def:能(OK) ex:勉强(卡:fortress/attacks) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- abstract | L5 def:不能(卡:something/existing) ex:勉强(卡:concepts/justice) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- academy | L5 def:能(OK) ex:不能(卡:practiced/attended) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- access | L5 def:勉强(卡:something/approach) ex:勉强(卡:thousands/computers) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- adjacent | L5 def:能(OK) ex:不能(卡:playground/building) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- affiliate | L5 def:能(OK) ex:不能(卡:tournaments/national) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- agenda | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- aggregate | L5 def:能(OK) ex:不能(卡:competition/determined) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- agitate | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- algorithm | L5 def:能(OK) ex:不能(卡:thousands/computer) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- allegiance | L5 def:能(OK) ex:勉强(卡:citizens/loyalty) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- allot | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- ally | L5 def:能(OK) ex:不能(卡:revolutionary/important) | L6:不能(例句偏泛(ov=0)) | L7:注意(关键词:war) | L8:不合适(对MAP197过抽象/词形长/低频)
+- altitude | L5 def:能(OK) ex:不能(卡:mountains/breathing) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- anchor | L5 def:勉强(卡:something/drifting) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- anecdote | L5 def:能(OK) ex:不能(卡:accidentally/different) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- anonymous | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- arbitrary | L5 def:能(OK) ex:勉强(卡:completely/indoors) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- archive | L5 def:不能(卡:collection/historical) ex:不能(卡:photographs/newspapers) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- articulate | L5 def:能(OK) ex:不能(卡:ten-year-old/explained) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- aspect | L5 def:能(OK) ex:勉强(卡:challenging/building) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- assault | L5 def:能(OK) ex:勉强(卡:protected/invading) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- assembly | L5 def:能(OK) ex:勉强(卡:gymnasium/morning) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- attain | L5 def:能(OK) ex:勉强(卡:straight/semester) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- autonomous | L5 def:能(OK) ex:勉强(卡:controlling/without) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- backdrop | L5 def:能(OK) ex:不能(卡:snow-covered/photograph) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- barren | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- battalion | L5 def:勉强(卡:organized/soldiers) ex:勉强(卡:soldiers/hundred) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- benchmark | L5 def:勉强(卡:something/standard) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- beneficiary | L5 def:能(OK) ex:不能(卡:scholarship/received) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- bolster | L5 def:勉强(卡:something/stronger) ex:不能(卡:confidence/restaurant) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- breach | L5 def:不能(卡:especially/something) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- brochure | L5 def:勉强(卡:information/something) ex:不能(卡:stunning/pictures) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- bureaucracy | L5 def:勉强(卡:government/procedures) ex:勉强(卡:paperwork/waiting) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- calibrate | L5 def:不能(卡:instrument/accurate) ex:不能(卡:thermometer/temperature) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- captivate | L5 def:能(OK) ex:不能(卡:storyteller's/captivated) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- catalyst | L5 def:勉强(卡:something/important) ex:不能(卡:discovery/thousands) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- catastrophe | L5 def:能(OK) ex:不能(卡:earthquake/destroyed) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- censor | L5 def:勉强(卡:considered/something) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- chancellor | L5 def:能(OK) ex:不能(卡:low-income/announced) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- chronicle | L5 def:能(OK) ex:不能(卡:three-year/explorer) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- coalition | L5 def:能(OK) ex:不能(卡:environmental/pollution) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- cognitive | L5 def:勉强(卡:thinking/learning) ex:不能(卡:problem-solving/planning) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- coherent | L5 def:能(OK) ex:不能(卡:paragraph/connected) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- collaborate | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- commemorate | L5 def:能(OK) ex:勉强(卡:soldiers/bronze) | L6:不能(例句偏泛(ov=0)) | L7:注意(关键词:war) | L8:不合适(对MAP197过抽象/词形长/低频)
+- commodity | L5 def:能(OK) ex:不能(卡:countries/valuable) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- compatible | L5 def:勉强(卡:together/problems) ex:勉强(卡:versions/console) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- conceal | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- concede | L5 def:能(OK) ex:不能(卡:candidate/counting) | L6:不能(例句偏泛(ov=0)) | L7:注意(关键词:election) | L8:不合适(对MAP197过抽象/词形长/低频)
+- confederation | L5 def:勉强(卡:organizations/together) ex:不能(卡:thirteen/colonies) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- congregation | L5 def:能(OK) ex:勉强(卡:together/entire) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- consecutive | L5 def:能(OK) ex:勉强(卡:spelling/fourth) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- consul | L5 def:不能(卡:country's/official) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- continental | L5 def:勉强(卡:landmasses/relating) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- contingent | L5 def:不能(卡:depending/something) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- convergence | L5 def:能(OK) ex:勉强(卡:waterway/created) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- correlation | L5 def:能(OK) ex:不能(卡:scientists/exercise) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- credibility | L5 def:能(OK) ex:勉强(卡:scientists/report) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- crossroads | L5 def:勉强(卡:important/decisions) ex:勉强(卡:building/between) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- cumulus | L5 def:能(OK) ex:不能(卡:marshmallows/floating) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- curator | L5 def:能(OK) ex:不能(卡:carefully/arranged) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- cylinder | L5 def:能(OK) ex:勉强(卡:straight/shaped) | L6:能(线索足(ov=4)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- demographic | L5 def:能(OK) ex:勉强(卡:population/doubled) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- denounce | L5 def:勉强(卡:something/publicly) ex:勉强(卡:denounced/immediate) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- deploy | L5 def:勉强(卡:something/position) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- depot | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- deputy | L5 def:勉强(卡:substitute/assistant) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- descendant | L5 def:能(OK) ex:勉强(卡:families/settled) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- detain | L5 def:能(OK) ex:不能(卡:triggered/security) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- deter | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- differentiate | L5 def:能(OK) ex:勉强(卡:differences/unless) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- diligent | L5 def:能(OK) ex:勉强(卡:homework/student) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- diplomacy | L5 def:不能(卡:peacefully/relations) ex:不能(卡:fighting/resolved) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- dire | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- discourse | L5 def:能(OK) ex:不能(卡:classroom/involved) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- discretion | L5 def:能(OK) ex:不能(卡:choosing/partners) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- disperse | L5 def:勉强(卡:directions/different) ex:不能(卡:classrooms/students) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- disposition | L5 def:不能(卡:person's/tendency) ex:不能(卡:retriever/friendly) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- disrupt | L5 def:不能(卡:continuing/interrupt) ex:勉强(卡:important/practice) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- dissent | L5 def:不能(卡:disagreeing/official) ex:不能(卡:disagreeing/expressed) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- doctrine | L5 def:能(OK) ex:不能(卡:countries/interfere) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- dwelling | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- dynasty | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- electrode | L5 def:勉强(卡:conductor/electric) ex:不能(卡:electrodes/positive) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- eloquent | L5 def:勉强(卡:speaking/powerful) ex:勉强(卡:audience/student) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- embassy | L5 def:不能(卡:diplomatic/country's) ex:不能(卡:traveling/country's) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- encompass | L5 def:能(OK) ex:不能(卡:encompasses/mountains) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- endorse | L5 def:勉强(卡:something/publicly) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- envision | L5 def:勉强(卡:especially/something) ex:不能(卡:transformed/community) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- epidemic | L5 def:能(OK) ex:勉强(卡:students/school) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- equilibrium | L5 def:能(OK) ex:勉强(卡:children/reaches) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- escalate | L5 def:能(OK) ex:勉强(卡:argument/quickly) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- espionage | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- ethnic | L5 def:勉强(卡:traditions/language) ex:不能(卡:celebrated/diversity) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- evacuate | L5 def:能(OK) ex:不能(卡:firefighters/immediately) | L6:不能(例句偏泛(ov=0)) | L7:注意(关键词:smoke) | L8:不合适(对MAP197过抽象/词形长/低频)
+- exert | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- exile | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- expenditure | L5 def:能(OK) ex:不能(卡:classroom/school's) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- faction | L5 def:勉强(卡:disagrees/majority) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- fluctuation | L5 def:勉强(卡:irregular/unsteady) ex:勉强(卡:temperature/decide) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- forfeit | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- formidable | L5 def:能(OK) ex:不能(卡:opposing/blocking) | L6:不能(例句偏泛(ov=0)) | L7:注意(关键词:shot) | L8:不合适(对MAP197过抽象/词形长/低频)
+- fortify | L5 def:能(OK) ex:不能(卡:floodwater/soldiers) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- fraud | L5 def:不能(卡:advantage/deception) ex:勉强(卡:committed/actually) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- frugal | L5 def:能(OK) ex:不能(卡:grandmother/leftovers) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- garrison | L5 def:勉强(卡:stationed/soldiers) ex:勉强(卡:soldiers/hundred) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- gazette | L5 def:勉强(卡:newspaper/official) ex:勉强(卡:record-breaking/published) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- geologist | L5 def:不能(卡:scientist/structure) ex:勉强(卡:examined/layers) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- gorge | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- gradient | L5 def:勉强(卡:especially/something) ex:勉强(卡:cyclists/lowest) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- grapple | L5 def:勉强(卡:something/struggle) ex:勉强(卡:students/division) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- grassland | L5 def:能(OK) ex:勉强(卡:grasslands/wildebeest) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- grievance | L5 def:不能(卡:complaint/something) ex:勉强(卡:overtime/workers) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- gross | L5 def:勉强(卡:deductions/disgusting) ex:勉强(卡:company's/expenses) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- humanitarian | L5 def:勉强(卡:concerned/suffering) ex:不能(卡:earthquake/survivors) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- ignite | L5 def:能(OK) ex:能(OK) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- impeach | L5 def:勉强(卡:misconduct/official) ex:勉强(卡:president/congress) | L6:勉强(多解风险(ov=1)) | L7:注意(关键词:president) | L8:不合适(对MAP197过抽象/词形长/低频)
+- imperial | L5 def:能(OK) ex:勉强(卡:emperors/beijing) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- incidence | L5 def:能(OK) ex:不能(卡:tooth-brushing/cavities) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- indigenous | L5 def:能(OK) ex:不能(卡:australia/kangaroo) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- infrastructure | L5 def:能(OK) ex:勉强(卡:reliable/smooth) | L6:能(线索足(ov=3)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- inject | L5 def:能(OK) ex:能(OK) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- innate | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- innovate | L5 def:能(OK) ex:不能(卡:constantly/products) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- inoculate | L5 def:能(OK) ex:勉强(卡:diseases/doctors) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- input | L5 def:能(OK) ex:勉强(卡:destination/deciding) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- inscription | L5 def:勉强(卡:something/permanent) ex:不能(卡:tombstone/remained) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- insignificant | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- intact | L5 def:能(OK) ex:不能(卡:earthquake/completely) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- interim | L5 def:能(OK) ex:不能(卡:principal/permanent) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- intersection | L5 def:能(OK) ex:勉强(卡:crossing/always) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- intimate | L5 def:能(OK) ex:勉强(卡:childhood/details) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- intrepid | L5 def:能(OK) ex:不能(卡:explorer/ventured) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- intrinsic | L5 def:勉强(卡:belonging/something) ex:不能(卡:curiosity/scientist) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- inventory | L5 def:能(OK) ex:勉强(卡:computer/counted) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- irrational | L5 def:能(OK) ex:不能(卡:butterflies/completely) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- isle | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- jargon | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- judicial | L5 def:勉强(卡:decisions/relating) ex:不能(卡:government/includes) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- jurisdiction | L5 def:勉强(卡:decisions/official) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- juvenile | L5 def:能(OK) ex:不能(卡:feathers/wouldn't) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- kinetic | L5 def:不能(卡:relating/movement) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- lapse | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- legislation | L5 def:能(OK) ex:不能(卡:restaurants/requires) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- liaison | L5 def:能(OK) ex:不能(卡:newsletters/translate) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- lucrative | L5 def:能(OK) ex:勉强(卡:homemade/selling) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- magistrate | L5 def:能(OK) ex:勉强(卡:neighbors/settled) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- manuscript | L5 def:不能(卡:especially/author's) ex:不能(卡:publisher/nervously) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- maritime | L5 def:能(OK) ex:不能(卡:navigation/displays) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- meander | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- mediate | L5 def:能(OK) ex:勉强(卡:counselor/fighting) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- memoir | L5 def:不能(卡:experiences/person's) ex:勉强(卡:describing/astronaut) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- merchandise | L5 def:能(OK) ex:勉强(卡:t-shirts/stuffed) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- metropolitan | L5 def:能(OK) ex:不能(卡:surrounding/includes) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- militant | L5 def:能(OK) ex:勉强(卡:protesters/blocked) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- militia | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:注意(关键词:war) | L8:不合适(对MAP197偏学术/不高频)
+- millennium | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- mobilize | L5 def:勉强(卡:resources/organize) ex:不能(卡:volunteers/mobilized) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- monarchy | L5 def:能(OK) ex:不能(卡:constitutional/parliament) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- monetary | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- monopolize | L5 def:不能(卡:something/complete) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- morale | L5 def:勉强(卡:confidence/enthusiasm) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- moratorium | L5 def:勉强(卡:temporary/activity) ex:不能(卡:overcrowded/building) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- mortgage | L5 def:能(OK) ex:不能(卡:thousands/families) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- mutiny | L5 def:不能(卡:commanders/rebellion) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- narrate | L5 def:能(OK) ex:不能(卡:documentary/described) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- nationalism | L5 def:能(OK) ex:不能(卡:stronger/citizens) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- niche | L5 def:不能(卡:something/perfectly) ex:勉强(卡:woodpecker/ecosystem) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- nomenclature | L5 def:能(OK) ex:勉强(卡:scientific/sapiens) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- nomadic | L5 def:能(OK) ex:勉强(卡:thousands/followed) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- nonpartisan | L5 def:能(OK) ex:勉强(卡:speakers/invited) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- notorious | L5 def:能(OK) ex:不能(卡:blackbeard/terrified) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- novice | L5 def:勉强(卡:activity/learning) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- nullify | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- obscure | L5 def:勉强(卡:understand/difficult) ex:勉强(卡:fifty-three/paragraph) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- obstruct | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- offset | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- omit | L5 def:勉强(卡:something/accident) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- onset | L5 def:不能(卡:especially/unpleasant) ex:不能(卡:temperatures/freezing) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- opaque | L5 def:能(OK) ex:不能(卡:completely/curtains) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- optimize | L5 def:不能(卡:something/effective) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- ordinance | L5 def:能(OK) ex:勉强(卡:sidewalks/walking) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- oscillate | L5 def:能(OK) ex:不能(卡:grandfather/oscillates) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- outbreak | L5 def:勉强(卡:something/sickness) ex:不能(卡:affected/students) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- outskirts | L5 def:能(OK) ex:勉强(卡:shopping/center) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- overhaul | L5 def:勉强(卡:thoroughly/something) ex:不能(卡:replacing/mechanic) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- oversight | L5 def:勉强(卡:noticing/watching) ex:不能(卡:forgetting/complete) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- overt | L5 def:能(OK) ex:不能(卡:enthusiasm/finished) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- paradigm | L5 def:能(OK) ex:勉强(卡:smartphone/created) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- paradox | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- parliament | L5 def:能(OK) ex:勉强(卡:westminster/british) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- partisan | L5 def:不能(卡:supporting/political) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- patrimony | L5 def:不能(卡:inherited/ancestors) ex:不能(卡:generations/family's) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- patronage | L5 def:勉强(卡:customers/business) ex:不能(卡:neighborhood/bookstore) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- pedagogy | L5 def:勉强(卡:practice/teaching) ex:不能(卡:experiments/included) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- penal | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- per capita | L5 def:能(OK) ex:能(OK) | L6:能(线索足(ov=4)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- perennial | L5 def:能(OK) ex:勉强(卡:replanted/flowers) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- periphery | L5 def:勉强(卡:something/boundary) ex:不能(卡:clearing/stepping) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- permeable | L5 def:能(OK) ex:勉强(卡:groundwater/letting) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- perpetual | L5 def:能(OK) ex:勉强(卡:crashing/motion) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- persecute | L5 def:能(OK) ex:不能(卡:throughout/persecuted) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- persona | L5 def:勉强(卡:character/presents) ex:勉强(卡:different/comedian) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- pertinent | L5 def:不能(卡:discussed/relevant) ex:不能(卡:detective/questions) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- pervasive | L5 def:勉强(卡:everywhere/spreading) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- petroleum | L5 def:能(OK) ex:不能(卡:underground/gasoline) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- philanthropy | L5 def:能(OK) ex:不能(卡:children's/building) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- pivotal | L5 def:能(OK) ex:不能(卡:invention/knowledge) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- plausible | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- plurality | L5 def:能(OK) ex:能(OK) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- posterity | L5 def:能(OK) ex:不能(卡:grandchildren/rainforest) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- pragmatic | L5 def:勉强(卡:idealistic/practical) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- precede | L5 def:能(OK) ex:勉强(卡:lightning/precedes) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- precedent | L5 def:能(OK) ex:不能(卡:resources/students) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- predominant | L5 def:能(OK) ex:不能(卡:painting/covering) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- preface | L5 def:能(OK) ex:不能(卡:researching/dinosaurs) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- procurement | L5 def:勉强(卡:equipment/supplies) ex:不能(卡:department/renovation) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- prodigy | L5 def:能(OK) ex:勉强(卡:grandmasters/defeated) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- proficient | L5 def:勉强(卡:competent/something) ex:勉强(卡:practice/playing) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- proliferate | L5 def:能(OK) ex:勉强(卡:wildflowers/turning) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- propaganda | L5 def:能(OK) ex:不能(卡:encouraged/citizens) | L6:不能(例句偏泛(ov=0)) | L7:注意(关键词:war) | L8:不合适(对MAP197过抽象/词形长/低频)
+- prosecute | L5 def:能(OK) ex:不能(卡:chemicals/district) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- prospectus | L5 def:勉强(卡:investment/document) ex:勉强(卡:activities/college) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- protocol | L5 def:能(OK) ex:不能(卡:requires/visitors) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- province | L5 def:能(OK) ex:勉强(卡:legislature/provinces) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- proximity | L5 def:勉强(卡:nearness/distance) ex:不能(卡:two-minute/apartment) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- prudent | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- quarantine | L5 def:能(OK) ex:勉强(卡:wouldn't/sailor) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- quorum | L5 def:能(OK) ex:勉强(卡:couldn't/required) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- ratify | L5 def:勉强(卡:officially/something) ex:不能(卡:three-quarters/constitution) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- ration | L5 def:勉强(卡:something/supplies) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:注意(关键词:war) | L8:不合适(对MAP197过抽象/词形长/低频)
+- recess | L5 def:能(OK) ex:不能(卡:immediately/students) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- reconcile | L5 def:不能(卡:relationship/friendly) ex:勉强(卡:speaking/friends) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- referendum | L5 def:不能(卡:important/citizens) ex:勉强(卡:citizens/whether) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- reimburse | L5 def:能(OK) ex:勉强(卡:supplies/company) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- renaissance | L5 def:能(OK) ex:不能(卡:masterpieces/leonardo) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- replenish | L5 def:能(OK) ex:勉强(卡:starting/bottles) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- repository | L5 def:能(OK) ex:不能(卡:civilizations/artifacts) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- repress | L5 def:勉强(卡:expression/feelings) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- reproach | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- repudiate | L5 def:勉强(卡:associated/something) ex:不能(卡:repudiated/scientist) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- requisite | L5 def:能(OK) ex:勉强(卡:mountain/serious) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- reservoir | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- residual | L5 def:能(OK) ex:不能(卡:scrubbing/wouldn't) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- resilient | L5 def:勉强(卡:problems/breaking) ex:勉强(卡:incredibly/bamboo) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- resonance | L5 def:能(OK) ex:不能(卡:emotional/everyone) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- restitution | L5 def:能(OK) ex:不能(卡:neighbor's/baseball) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- retract | L5 def:勉强(卡:previously/something) ex:不能(卡:incorrect/checking) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- retrospect | L5 def:能(OK) ex:不能(卡:realized/studying) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- rhetoric | L5 def:勉强(卡:language/persuade) ex:不能(卡:candidate's/convinced) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- rigorous | L5 def:勉强(卡:demanding/thorough) ex:不能(卡:training/required) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- roster | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- rubric | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- rupture | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- sanitary | L5 def:能(OK) ex:不能(卡:restaurant/standards) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- scaffold | L5 def:能(OK) ex:不能(卡:three-story/building) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- segregation | L5 def:不能(卡:separation/different) ex:勉强(卡:refusing/against) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- seismic | L5 def:勉强(卡:earthquakes/relating) ex:不能(卡:underground/detected) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- seminar | L5 def:不能(卡:something/together) ex:勉强(卡:students/everyone) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- sentiment | L5 def:能(OK) ex:不能(卡:students/carnival) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- skeptic | L5 def:勉强(卡:questions/something) ex:勉强(卡:magician's/believing) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- solidarity | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- solitary | L5 def:能(OK) ex:勉强(卡:lighthouse/guiding) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- sovereignty | L5 def:能(OK) ex:勉强(卡:nation's/without) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- spontaneous | L5 def:勉强(卡:happening/planning) ex:不能(卡:surprised/applause) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- stagnant | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- stimulus | L5 def:不能(卡:something/reaction) ex:勉强(卡:instantly/noise) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- stipulate | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- stratum | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- subsistence | L5 def:能(OK) ex:勉强(卡:families/farmers) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- substantiate | L5 def:勉强(卡:something/evidence) ex:不能(卡:themselves/different) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- suffrage | L5 def:能(OK) ex:勉强(卡:amendment/united) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- superfluous | L5 def:能(OK) ex:不能(卡:paragraph/complete) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- suppress | L5 def:勉强(卡:something/feelings) ex:勉强(卡:wouldn't/during) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- surveillance | L5 def:勉强(卡:especially/watching) ex:不能(卡:twenty-four/security) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- sustainable | L5 def:不能(卡:depleting/resources) ex:勉强(卡:billions/because) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- tariff | L5 def:能(OK) ex:不能(卡:expensive/imported) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- taxonomy | L5 def:能(OK) ex:不能(卡:individual/kingdoms) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- tenure | L5 def:能(OK) ex:不能(卡:transformed/principal) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- testament | L5 def:能(OK) ex:不能(卡:dedicated/studying) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- theorem | L5 def:勉强(卡:mathematical/statement) ex:勉强(卡:pythagorean/triangle) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- abjure | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- accretion | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- adjudicate | L5 def:勉强(卡:judgment/decision) ex:不能(卡:argument/students) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- adulterate | L5 def:不能(卡:lower-quality/substances) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- aggrandize | L5 def:能(OK) ex:不能(卡:neighboring/conquering) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- apotheosis | L5 def:能(OK) ex:不能(卡:composer's/symphony) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- approbation | L5 def:能(OK) ex:不能(卡:student's/received) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- arrogate | L5 def:能(OK) ex:勉强(卡:television/sibling) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- atavism | L5 def:能(OK) ex:勉强(卡:appearance/considered) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- bellwether | L5 def:勉强(卡:something/indicates) ex:勉强(卡:election/results) | L6:不能(例句偏泛(ov=0)) | L7:注意(关键词:election) | L8:不合适(对MAP197过抽象/词形长/低频)
+- bifurcate | L5 def:能(OK) ex:勉强(卡:intersection/going) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- bowdlerize | L5 def:不能(卡:inappropriate/considered) ex:不能(卡:publisher/suitable) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- bromide | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- cadence | L5 def:勉强(卡:speaking/rhythmic) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- cabal | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- canard | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:偏难(短词但仍需语境/搭配)
+- capitulation | L5 def:能(OK) ex:勉强(卡:opposing/team's) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- celerity | L5 def:勉强(卡:quickness/movement) ex:勉强(卡:responded/arrived) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- cogitate | L5 def:能(OK) ex:不能(卡:difficult/solution) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- collude | L5 def:勉强(卡:secretly/together) ex:勉强(卡:students/colluded) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- conflate | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- consanguinity | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- contiguous | L5 def:能(OK) ex:能(OK) | L6:能(线索足(ov=2)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- countermand | L5 def:能(OK) ex:勉强(卡:previous/general) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- deleterious | L5 def:能(OK) ex:能(OK) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- diatribe | L5 def:勉强(卡:attacking/something) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- efficacious | L5 def:能(OK) ex:不能(卡:surprisingly/cleaning) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- excoriate | L5 def:能(OK) ex:勉强(卡:excoriated/restaurant) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- exigent | L5 def:能(OK) ex:不能(卡:immediately/situation) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- expurgate | L5 def:能(OK) ex:勉强(卡:performing/certain) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- extirpate | L5 def:勉强(卡:completely/something) ex:勉强(卡:gardener/worked) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- fatuous | L5 def:能(OK) ex:勉强(卡:suggestion/everyone) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197偏学术/不高频)
+- fecund | L5 def:勉强(卡:producing/offspring) ex:勉强(卡:overflowed/tomatoes) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- fulminate | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- gainsay | L5 def:勉强(卡:contradict/something) ex:勉强(卡:succeeded/evidence) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- gerrymandering | L5 def:不能(卡:boundaries/electoral) ex:不能(卡:influence/unfairly) | L6:勉强(多解风险(ov=1)) | L7:注意(关键词:election) | L8:不合适(对MAP197过抽象/词形长/低频)
+- impecunious | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- ineluctable | L5 def:能(OK) ex:不能(卡:conclusion/replaced) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- inimical | L5 def:能(OK) ex:能(OK) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- inscrutable | L5 def:不能(卡:impossible/understand) ex:不能(卡:expression/thinking) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- internecine | L5 def:能(OK) ex:勉强(卡:departments/rivalry) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- malfeasant | L5 def:勉强(卡:wrongdoing/especially) ex:不能(卡:investigation/official) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- obdurate | L5 def:不能(卡:stubbornly/refusing) ex:不能(卡:negotiator/compromise) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- opprobrium | L5 def:勉强(卡:criticism/disgrace) ex:勉强(卡:cheating/scandal) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- palimpsest | L5 def:能(OK) ex:勉强(卡:different/decades) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- tendentious | L5 def:能(OK) ex:勉强(卡:political/article) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- termagant | L5 def:勉强(卡:bad-tempered/aggressive) ex:不能(卡:merchandise/shopkeeper) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- trenchant | L5 def:勉强(卡:expressed/strongly) ex:勉强(卡:analysis/problem) | L6:不能(例句偏泛(ov=0)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- nugatory | L5 def:能(OK) ex:不能(卡:committee's/produced) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
+- panegyric | L5 def:能(OK) ex:不能(卡:thirty-year/retirement) | L6:勉强(多解风险(ov=1)) | L7:OK(OK) | L8:不合适(对MAP197过抽象/词形长/低频)
