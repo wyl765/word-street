@@ -1,241 +1,236 @@
-# VERIFY-GPT — words-level5a.js (GATE)
+# VERIFY-GPT — words-level5a.js
 
-对象：10岁中国ESL孩子，MAP英语约197（~2年级）。逐词不跳过。
+说明：每个词一行（不跳过）。字段：L5-Def / L5-Ex / L6(遮词+四选一) / L7(文化敏感) / L8(学习路径)。
 
-字段说明（每词一行）：
-L5：Mark模拟做题（def=看definition能否懂；ex=遮词后看例句能否猜到目标词）
-L6：例句反向测试（遮住例句目标词 + 4选1；能否“唯一指向”；本文件给出A-D选项）
-L7：文化敏感度（中国孩子/家长视角）
-L8：学习路径验证（该词放在5a是否合适；前置与同组顺序建议）
-- administer | L5:(def:勉强(“manage / be in charge”抽象); ex:不能(vice principal/principal词汇阻塞)) | L6:不唯一(遮词:The vice principal will ____ the school while the principal is away.; 选项:A.lead / B.run / C.administer / D.oversee) | L7:OK(学校管理) | L8:合适(学术动词; 建议与oversee/governance成组)
-- adversary | L5:(def:勉强(enemy/opponent可能只懂其一); ex:勉强(棋类对手可猜opponent但未必是adversary)) | L6:不唯一(遮词:In chess, your ____ sits across the board planning their next move.; 选项:A.enemy / B.opponent / C.rival / D.adversary) | L7:OK | L8:合适(建议先有opponent/rival再上)
-- affluent | L5:(def:勉强(wealthy不一定懂); ex:不能(neighborhood/swimming pools线索偏生活化但词形难)) | L6:不唯一(遮词:The ____ neighborhood had large houses with swimming pools.; 选项:A.expensive neighborhood / B.affluent / C.wealthy / D.rich) | L7:轻微(“富人区大房子泳池”易引攀比) | L8:合适
-- apprehend | L5:(def:勉强(“arrest”可能陌生); ex:不能(police/thief/mall多信息+词形长)) | L6:不唯一(遮词:The police were able to ____ the thief before he left the mall.; 选项:A.apprehend / B.capture / C.arrest / D.catch) | L7:轻微(盗窃/抓捕可接受但家长可能不爱犯罪题材) | L8:合适(与confiscate/revoke同主题)
-- aspiration | L5:(def:不能(goal/work toward抽象); ex:不能(astronaut/science线索清楚但词形难)) | L6:不唯一(遮词:His ____ to become an astronaut drove him to study science every day.; 选项:A.aspiration / B.ambition / C.goal / D.dream) | L7:OK(正向理想) | L8:合适(可与imperative/prerequisite学习目标链)
-- augment | L5:(def:不能(greater/adding抽象); ex:不能(shelf/storage/closet词汇负担)) | L6:不唯一(遮词:Adding another shelf will ____ the storage space in the closet.; 选项:A.expand / B.increase / C.add / D.augment) | L7:OK | L8:合适(建议与maximize/minimize/refine放一组对比)
-- austere | L5:(def:不能(plain/decoration/comfortable多抽象); ex:不能(monk/candle宗教与物品词汇负担)) | L6:不唯一(遮词:The monk's ____ room had only a bed, a table, and a single candle.; 选项:A.bare / B.plain / C.simple / D.austere) | L7:需注意(monk宗教元素；可换“camp cabin / simple room”) | L8:合适但例句可更儿童化
-- authenticate | L5:(def:不能(prove real抽象); ex:不能(museum expert/painting语境成人)) | L6:不唯一(遮词:The museum expert could ____ the painting as real.; 选项:A.authenticate / B.prove / C.verify / D.confirm) | L7:OK | L8:合适(建议先有prove/verify再上)
-- avert | L5:(def:不能(prevent something bad抽象); ex:不能(argument/changing the subject社会策略难)) | L6:不唯一(遮词:She averted an argument by changing the subject.; 选项:A.avoid / B.avert / C.prevent / D.stop) | L7:OK | L8:合适
-- benevolent | L5:(def:不能(wanting to help others抽象); ex:不能(donor/million dollars/hospital词汇负担)) | L6:不唯一(遮词:The ____ donor gave a million dollars to build a children's hospital.; 选项:A.benevolent / B.kind / C.charitable / D.generous) | L7:OK(慈善正向) | L8:合适
-- biodiversity | L5:(def:不能(range/area概念抽象); ex:不能(rainforest/species学科词负担)) | L6:较唯一(遮词:The rainforest has incredible ____ with thousands of different species.; 选项:A.diversity / B.thousands of species / C.rainforest / D.biodiversity) | L7:OK | L8:合适(偏学科; 建议配图片/先有diversity)
-- candid | L5:(def:不能(straightforward抽象); ex:不能(review/boring/special effects语境偏大)) | L6:不唯一(遮词:Her ____ review of the movie said it was boring despite the great special effects.; 选项:A.straightforward / B.frank / C.honest / D.candid) | L7:OK | L8:合适
-- capitalism | L5:(def:不能(economic system/privately owned/profit超纲); ex:不能(companies/earn profits抽象)) | L6:较唯一(遮词:Under ____, people can start their own companies and earn profits.; 选项:A.trade / B.profit / C.capitalism / D.own companies) | L7:敏感度中等(政治经济概念；家长可能不想早接触意识形态词) | L8:偏难(更像中学社科词；若保留建议降到学科扩展并配对socialism对比会更敏感)
-- circumference | L5:(def:不能(distance around/outside抽象); ex:不能(measured/string/basketball仍需要数学概念)) | L6:较唯一(遮词:We measured the ____ of the basketball using a piece of string.; 选项:A.circumference / B.adversary / C.distance around circle / D.aspiration) | L7:OK | L8:合适(数学术语; 建议先有circle/diameter/radius)
-- clamor | L5:(def:不能(strong demand抽象); ex:勉强(cafeteria有bird引起吵闹可猜noise但词形难)) | L6:不唯一(遮词:There was a ____ in the cafeteria when someone spotted a bird inside.; 选项:A.commotion / B.clamor / C.shouting / D.noise) | L7:OK | L8:合适
-- coerce | L5:(def:不能(against their will抽象); ex:不能(bully/lunch money校园勒索偏敏感)) | L6:不唯一(遮词:The bully tried to ____ younger kids into giving up their lunch money.; 选项:A.coerce / B.pressure / C.make / D.force) | L7:需注意(霸凌+抢钱，家长可能不舒服；可改更轻的“force to share toys”) | L8:合适但例句建议更温和
-- comprise | L5:(def:不能(be made up of/territories抽象); ex:不能(United States/territories知识负担)) | L6:不唯一(遮词:The United States comprises many states and several territories.; 选项:A.comprise / B.consist of / C.made up of / D.include) | L7:OK(但美国地理不如“a team comprises…”) | L8:合适
-- concurrent | L5:(def:不能(at the same time抽象); ex:不能(concerts/attend/choose词汇负担)) | L6:不唯一(遮词:The two concerts were ____, so we had to choose which one to attend.; 选项:A.simultaneous / B.overlapping / C.same time / D.concurrent) | L7:OK | L8:合适
-- confer | L5:(def:不能(discuss before deciding抽象); ex:不能(judges/announcing语境成人)) | L6:不唯一(遮词:The judges needed to ____ before announcing the winner.; 选项:A.discuss / B.confer / C.consult / D.talk) | L7:OK | L8:合适
-- confiscate | L5:(def:不能(punishment/authority抽象); ex:勉强(老师没收玩具可懂，但confiscate词形难)) | L6:不唯一(遮词:The teacher had to ____ the toy because it was distracting the class.; 选项:A.administer / B.take away / C.remove / D.confiscate) | L7:OK | L8:合适(建议先有take away)
-- conscientious | L5:(def:不能(thorough/double-check抽象); ex:不能(double-checked/test语境可懂但词形极难)) | L6:不唯一(遮词:The ____ student double-checked each answer before turning in the test.; 选项:A.conscientious / B.diligent / C.careful / D.meticulous) | L7:OK | L8:偏难(词形长; 可能更靠后)
-- copyright | L5:(def:不能(legal right/control/creative work超纲); ex:不能(novel/copy) | L6:较唯一(遮词:The author holds the ____ to her novel, so no one can copy it.; 选项:A.author / B.adversary / C.copyright / D.no one can copy) | L7:OK | L8:合适(数字时代重要，但需前置law/legal)
-- correlate | L5:(def:不能(connection/relationship抽象); ex:不能(scientists/exercise/sleep学术语境)) | L6:不唯一(遮词:Scientists found that more exercise tends to ____ with better sleep.; 选项:A.connect / B.correlate / C.relate / D.link) | L7:OK | L8:合适(建议与data/graph前置)
-- culminate | L5:(def:不能(highest point/final result抽象); ex:不能(months of rehearsal/performance语境偏大)) | L6:不唯一(遮词:Months of rehearsal will ____ in the big performance on Friday night.; 选项:A.result in / B.culminate / C.lead to / D.end) | L7:OK | L8:合适
-- curtail | L5:(def:不能(reduce/limit抽象); ex:不能(recess/forced/ten minutes) | L6:不唯一(遮词:Bad weather forced the school to ____ outdoor recess to just ten minutes.; 选项:A.reduce / B.shorten / C.limit / D.curtail) | L7:OK | L8:合适
-- deem | L5:(def:不能(consider/judge抽象); ex:不能(mural/appropriate) | L6:不唯一(遮词:The principal deemed the hallway mural appropriate and allowed it to stay.; 选项:A.think / B.consider / C.judge / D.deem) | L7:OK | L8:合适
-- devise | L5:(def:不能(plan something clever抽象); ex:勉强(救风筝情境可懂但devise不易猜)) | L6:不唯一(遮词:The kids had to ____ a plan to rescue their kite from the tall tree.; 选项:A.devise / B.figure out / C.plan / D.invent) | L7:OK | L8:合适
-- displace | L5:(def:不能(usual place/force out抽象); ex:不能(flood/hundreds of families严重灾害) | L6:不唯一(遮词:The flood will ____ hundreds of families from their homes.; 选项:A.force out / B.move / C.displace / D.coerce) | L7:轻微(灾害致流离失所可能引焦虑；可改更轻的“chair displaced”) | L8:合适但例句可更轻
-- disposable | L5:(def:不能(designed to be thrown away抽象); ex:不能(cafeteria/reusable trays) | L6:较唯一(遮词:The cafeteria switched from ____ plates to reusable trays.; 选项:A.candid / B.vs / C.concurrent / D.disposable) | L7:OK | L8:合适
-- diversity | L5:(def:勉强(range of different types抽象); ex:不能(cultures/represented) | L6:较唯一(遮词:Our school celebrates the ____ of cultures represented by its students.; 选项:A.biodiversity / B.diversity / C.adversary / D.cultures represented) | L7:OK | L8:合适(建议先biodiversity前置此词)
-- domesticate | L5:(def:不能(tame/human use抽象); ex:不能(thousands of years/wolves into dogs) | L6:较唯一(遮词:Thousands of years ago humans began to ____ wolves into dogs.; 选项:A.augment / B.apprehend / C.domesticate / D.administer) | L7:OK | L8:合适
-- dominance | L5:(def:不能(power/control抽象); ex:不能(pride/lion eats first生态词汇) | L6:不唯一(遮词:The lion's ____ over the pride means it eats first.; 选项:A.dominance / B.leadership / C.control / D.omnipotent) | L7:OK | L8:合适
-- embargo | L5:(def:不能(official ban/trading/country超纲); ex:不能(ships/delivering goods) | L6:较唯一(遮词:The ____ prevented any ships from delivering goods to that nation.; 选项:A.aspiration / B.embargo / C.adversary / D.governance) | L7:敏感度中等(国际制裁/政治) | L8:偏难(更像社科高年级词)
-- entrepreneur | L5:(def:不能(runs their own business抽象); ex:不能(farmers market/handmade bracelets) | L6:不唯一(遮词:The young ____ sold handmade bracelets at the farmers market.; 选项:A.seller / B.business owner / C.entrepreneur / D.franchise) | L7:OK | L8:合适但可先introduce business/market
-- enumerate | L5:(def:不能(list one by one抽象); ex:不能(planets/solar system学科词) | L6:较唯一(遮词:The teacher asked us to ____ all the planets in our solar system.; 选项:A.apprehend / B.list all the planets / C.administer / D.enumerate) | L7:OK | L8:合适
-- equitable | L5:(def:不能(fair and equal抽象); ex:不能(divide supplies among groups) | L6:不唯一(遮词:The teacher found an ____ way to divide the art supplies among all groups.; 选项:A.equitable / B.just / C.fair / D.equal) | L7:OK | L8:合适(但与parity重复度高)
-- ethic | L5:(def:不能(moral principle/guides behavior抽象); ex:不能(work ethic/homework) | L6:不唯一(遮词:His strong work ____ meant he always finished his homework before playing.; 选项:A.principle / B.values / C.morals / D.ethic) | L7:OK | L8:合适
-- evoke | L5:(def:不能(feeling/memory to mind抽象); ex:不能(“smell of cookies”可懂但evoke难猜) | L6:不唯一(遮词:The smell of cookies can ____ happy memories of visiting grandma's house.; 选项:A.trigger / B.remind / C.bring up / D.evoke) | L7:OK | L8:合适
-- excerpt | L5:(def:不能(passage/longer work) | ex:不能(novel/get interested) | L6:不唯一(遮词:The teacher read an ____ from the novel to get students interested.; 选项:A.piece / B.part / C.selection / D.excerpt) | L7:OK | L8:合适
-- fabricate | L5:(def:不能(false story) | ex:不能(excuse/believe) | L6:不唯一(遮词:He tried to ____ an excuse for being late, but the teacher didn't believe him.; 选项:A.fabricate / B.invent / C.lie / D.make up) | L7:OK | L8:合适
-- fiscal | L5:(def:不能(budgets/financial management) | ex:不能(fiscal year/budget) | L6:较唯一(遮词:The school's ____ year begins in September when the new budget starts.; 选项:A.candid / B.penurious / C.abiotic / D.fiscal) | L7:OK | L8:合适(偏学术)
-- foremost | L5:(def:不能(leading/expert) | ex:不能(natural history museum) | L6:不唯一(遮词:She is the ____ expert on dinosaurs at the natural history museum.; 选项:A.most important / B.foremost / C.leading / D.top) | L7:OK | L8:合适
-- formulate | L5:(def:不能(develop plan with care) | ex:不能(detective/theory/crime) | L6:不唯一(遮词:The detective needed time to ____ a theory about who committed the crime.; 选项:A.formulate / B.develop / C.make / D.create) | L7:轻微(犯罪题材可换“science project plan”) | L8:合适
-- fracture | L5:(def:不能(bone) | ex:不能(X-ray/wrist/skateboard) | L6:较唯一(遮词:The X-ray showed a small ____ in her wrist from the skateboard fall.; 选项:A.adversary / B.aspiration / C.fracture / D.X-ray) | L7:轻微(受伤可接受) | L8:合适
-- franchise | L5:(def:不能(permission/company products) | ex:不能(identical stores/fifty cities) | L6:较唯一(遮词:The ice cream shop is a ____ with identical stores in fifty cities.; 选项:A.entrepreneur / B.franchise / C.adversary / D.aspiration) | L7:OK | L8:合适
-- gauge | L5:(def:勉强(measure/guess可能懂其一) | ex:不能(checking the map) | L6:不唯一(遮词:It's hard to ____ how long the trip will take without checking the map.; 选项:A.estimate / B.gauge / C.measure / D.judge) | L7:OK | L8:合适
-- governance | L5:(def:不能(managed/leaders/fair decisions抽象) | ex:不能(leaders) | L6:不唯一(遮词:Good ____ means leaders make fair decisions that help all.; 选项:A.governance / B.government / C.leadership / D.management) | L7:敏感度中等(政治治理) | L8:偏难(抽象；若保留建议配“school governance”弱化国家政治)
-- immigrate | L5:(def:不能(permanently) | ex:不能(grandparents/better chances) | L6:不唯一(遮词:Her grandparents chose to ____ to another country for better chances.; 选项:A.come / B.immigrate / C.move / D.live) | L7:OK(移民话题可) | L8:合适
-- imminent | L5:(def:不能(about to happen) | ex:勉强(dark clouds->storm快来可猜soon) | L6:不唯一(遮词:The dark clouds meant a thunderstorm was ____.; 选项:A.candid / B.imminent / C.soon / D.coming) | L7:OK | L8:合适
-- imperative | L5:(def:不能(absolutely necessary) | ex:不能(evacuate/fire drill) | L6:不唯一(遮词:It is ____ that everyone evacuate the building during a fire drill.; 选项:A.must / B.necessary / C.indispensable / D.imperative) | L7:OK | L8:合适
-- implicate | L5:(def:不能(involved/wrong) | ex:不能(fingerprints/cookie jar) | L6:较唯一(遮词:The fingerprints on the cookie jar ____ the youngest brother.; 选项:A.brandish / B.decry / C.implicate / D.refute) | L7:OK | L8:合适
-- implicit | L5:(def:不能(suggested/not stated) | ex:不能(understanding/clean up) | L6:不唯一(遮词:There was an ____ understanding that everyone would help clean up after the party.; 选项:A.implicit / B.assumed / C.candid / D.unspoken) | L7:OK | L8:合适
-- inquiry | L5:(def:不能(process) | ex:不能(detective/missing bike/garage) | L6:不唯一(遮词:The detective's ____ into the missing bike led him to check every garage.; 选项:A.questioning / B.inquiry / C.search / D.investigation) | L7:轻微(侦探/调查可接受) | L8:合适
-- intensify | L5:(def:不能(more extreme) | ex:不能(winds 80 miles per hour) | L6:不唯一(遮词:The storm will ____ overnight with winds reaching 80 miles per hour.; 选项:A.estrange / B.intensify / C.get stronger / D.increase) | L7:OK | L8:合适
-- leverage | L5:(def:不能(advantage/power/influence抽象) | ex:不能(debate) | L6:不唯一(遮词:Having more facts gave the team ____ in the debate.; 选项:A.edge / B.leverage / C.optimal / D.advantage) | L7:OK | L8:合适
-- locomotive | L5:(def:不能(engine pulls train) | ex:不能(freight cars/mountain tracks) | L6:较唯一(遮词:The strong ____ pulled fifty freight cars along the mountain tracks.; 选项:A.locomotive / B.biodiversity / C.adversary / D.aspiration) | L7:OK | L8:合适
-- lure | L5:(def:勉强(attract/tempt可能懂attract) | ex:勉强(candy colors吸引孩子可猜attract) | L6:不唯一(遮词:The bright colors of the candy display ____ children into the store.; 选项:A.draw / B.attract / C.lure / D.tempt) | L7:OK | L8:合适
-- maximize | L5:(def:不能(as large as possible) | ex:不能(score/answer every question) | L6:不唯一(遮词:To ____ your score, answer every question even if you're not sure.; 选项:A.maximize / B.minimize / C.increase / D.improve) | L7:OK | L8:合适(与minimize成对)
-- medium | L5:(def:不能(sharing information/ideas抽象) | ex:不能(internet/news) | L6:不唯一(遮词:The internet has become the main ____ for sharing news.; 选项:A.way / B.method / C.channel / D.medium) | L7:OK | L8:合适
-- membrane | L5:(def:不能(thin layer/separates) | ex:不能(cell controls) | L6:较唯一(遮词:The cell ____ controls what goes in and out of each cell.; 选项:A.cell membrane / B.aspiration / C.membrane / D.adversary) | L7:OK | L8:偏学科(需要cell基础)
-- minimize | L5:(def:不能(smallest possible) | ex:不能(sunscreen/risk) | L6:不唯一(遮词:Wearing sunscreen helps ____ the risk of sunburn.; 选项:A.minimize / B.curtail / C.reduce / D.lower) | L7:OK | L8:合适
-- negligible | L5:(def:不能(not worth worrying) | ex:不能(test scores) | L6:较唯一(遮词:The difference between their test scores was ____—only one point.; 选项:A.negligible / B.concurrent / C.candid / D.only one point) | L7:OK | L8:合适
-- network | L5:(def:勉强(connected computers/people可能懂computer network) | ex:不能(underground tunnels) | L6:不唯一(遮词:The city has a ____ of underground tunnels connecting all the buildings.; 选项:A.system / B.network / C.governance / D.web) | L7:OK | L8:合适
-- nominal | L5:(def:不能(in name only) | ex:不能(fee/cover costs) | L6:不唯一(遮词:The museum charges a ____ fee of one dollar to help cover costs.; 选项:A.tiny / B.nominal / C.affluent / D.small) | L7:OK | L8:合适
-- objection | L5:(def:不能(disagreeing) | ex:不能(plan/take too long) | L6:不唯一(遮词:Her main ____ to the plan was that it would take too long.; 选项:A.reason / B.complaint / C.adversary / D.objection) | L7:OK | L8:合适
-- obligate | L5:(def:不能(bind/require) | ex:不能(contract/mow lawn) | L6:不唯一(遮词:The contract will ____ you to mow the lawn every Saturday.; 选项:A.administer / B.force / C.obligate / D.require) | L7:OK | L8:合适
-- obsolete | L5:(def:不能(no longer useful) | ex:勉强(typewriters/computers可懂但obsolete难猜) | L6:较唯一(遮词:Typewriters became ____ once computers became widely available.; 选项:A.conscientious / B.candid / C.obsolete / D.concurrent) | L7:OK | L8:合适
-- optimum | L5:(def:不能(most favorable) | ex:不能(temperature/growing tomatoes) | L6:不唯一(遮词:The ____ temperature for growing tomatoes is around 75 degrees.; 选项:A.optimum / B.optimal / C.ideal / D.best) | L7:OK | L8:合适(与optimal重复，建议只留一种或区分用法)
-- oversee | L5:(def:不能(direct work) | ex:不能(construction manager/gym) | L6:不唯一(遮词:The construction manager will ____ the building of the new gym.; 选项:A.supervise / B.oversee / C.manage / D.administer) | L7:OK | L8:合适(可放administer前作支撑)
-- parameter | L5:(def:不能(scope/boundary) | ex:不能(plants/equal sunlight) | L6:较唯一(遮词:One ____ of the test was that all plants must get equal sunlight.; 选项:A.adversary / B.aspiration / C.biodiversity / D.parameter) | L7:OK | L8:偏学科(需要实验变量概念)
-- participation | L5:(def:不能(activity) | ex:不能(counts for twenty percent) | L6:较唯一(遮词:Class ____ counts for twenty percent of your final grade.; 选项:A.concurrent / B.participation / C.conscientious / D.candid) | L7:OK | L8:合适
-- portfolio | L5:(def:不能(collection of work) | ex:不能(gallery interview) | L6:不唯一(遮词:The artist brought her ____ of paintings to the gallery interview.; 选项:A.folder / B.collection / C.portfolio / D.pariah) | L7:OK | L8:合适
-- prior | L5:(def:不能(coming before) | ex:不能(prior to/prepare) | L6:不唯一(遮词:____ to starting fifth grade, she read all summer to prepare.; 选项:A.prior / B.before / C.proportional / D.earlier) | L7:OK | L8:合适
-- projection | L5:(def:不能(estimate future) | ex:不能(weather projection) | L6:不唯一(遮词:The weather ____ shows sunny skies for the rest of the week.; 选项:A.adversary / B.estimate / C.projection / D.forecast) | L7:OK | L8:合适
-- propagate | L5:(def:不能(reproduce) | ex:不能(dandelions/fluffy seeds) | L6:较唯一(遮词:Dandelions ____ by sending fluffy seeds floating through the wind.; 选项:A.administer / B.apprehend / C.propagate / D.augment) | L7:OK | L8:合适(偏学科)
-- recession | L5:(def:不能(economy shrinks) | ex:不能(stores closed/people stopped shopping) | L6:较唯一(遮词:During the ____ many stores closed because people stopped shopping.; 选项:A.adversary / B.capitalism / C.coffer / D.recession) | L7:敏感度中等(经济危机) | L8:偏难(社科词)
-- refine | L5:(def:不能(improve small changes) | ex:不能(essay/sentence) | L6:不唯一(遮词:He continued to ____ his essay until every sentence was clear and strong.; 选项:A.refine / B.improve / C.edit / D.administer) | L7:OK | L8:合适
-- reliance | L5:(def:不能(depending) | ex:不能(smartphones feel lost) | L6:不唯一(遮词:Our ____ on smartphones means we feel lost without them.; 选项:A.adversary / B.dependence / C.need / D.reliance) | L7:OK | L8:合适
-- reluctance | L5:(def:不能(feeling of not wanting) | ex:不能(try new foods) | L6:不唯一(遮词:His ____ to try new foods meant he always ordered the same thing.; 选项:A.reluctance / B.adversary / C.aspiration / D.unwillingness) | L7:OK | L8:合适
-- scrutiny | L5:(def:不能(examination) | ex:不能(contestant/artwork) | L6:不唯一(遮词:The judge examined each contestant's artwork with close ____ before choosing a winner.; 选项:A.inspection / B.methodical / C.close look / D.scrutiny) | L7:OK | L8:合适
-- sibling | L5:(def:能(very concrete) | ex:能(兄弟姐妹情境直接) | L6:唯一(遮词:She is the oldest of four siblings, with two brothers and one sister.; 选项:A.adversary / B.brother / C.sibling / D.sister) | L7:OK | L8:偏易(更像低level词；若在5a建议作为复习/桥接)
-- specify | L5:(def:不能(exactly and clearly) | ex:勉强(选香草或巧克力可猜choose/say which) | L6:不唯一(遮词:Please ____ which flavor of ice cream you want—vanilla or chocolate.; 选项:A.tell / B.specify / C.say / D.choose) | L7:OK | L8:合适
-- stance | L5:(def:不能(attitude/issue) | ex:不能(homework time limit) | L6:不唯一(遮词:Her ____ on homework was that it should never take more than thirty minutes.; 选项:A.stance / B.position / C.opinion / D.adversary) | L7:OK | L8:合适
-- accountability | L5:(def:不能(responsible for actions抽象) | ex:不能(turning in homework) | L6:不唯一(遮词:Students learn ____ by turning in their own homework on time.; 选项:A.parity / B.responsibility / C.adversary / D.accountability) | L7:OK | L8:合适(偏抽象)
-- altruistic | L5:(def:不能(caring about others more) | ex:不能(donate birthday money) | L6:不唯一(遮词:Her ____ nature led her to donate all her birthday money to charity.; 选项:A.generous / B.kind / C.aloof / D.altruistic) | L7:OK | L8:合适
-- caveat | L5:(def:不能(condition) | ex:不能(free trial/cancel before thirty days) | L6:较唯一(遮词:The free trial came with one ____: you must cancel before thirty days.; 选项:A.adversary / B.aspiration / C.caveat / D.one caveat) | L7:OK | L8:合适
-- condone | L5:(def:不能(accept behavior most think wrong) | ex:勉强(does not condone bullying可能从否定推断) | L6:不唯一(遮词:The school does not ____ bullying of any kind.; 选项:A.condone / B.tolerate / C.approve / D.allow) | L7:OK | L8:合适
-- dearth | L5:(def:不能(lack) | ex:不能(wilt) | L6:不唯一(遮词:The ____ of rain caused the flowers to wilt in the garden.; 选项:A.adversary / B.dearth / C.shortage / D.lack) | L7:OK | L8:合适
-- definitive | L5:(def:不能(most trusted) | ex:不能(encyclopedia/guide) | L6:不唯一(遮词:The encyclopedia was the ____ guide to world animals.; 选项:A.authoritative / B.final / C.candid / D.definitive) | L7:OK | L8:合适
-- ebbing | L5:(def:不能(fading) | ex:不能(playground interest) | L6:不唯一(遮词:Interest in the old playground was ____ as the new one opened.; 选项:A.candid / B.fading / C.decreasing / D.ebbing) | L7:OK | L8:合适
-- embody | L5:(def:不能(represent idea) | ex:不能(statue/spirit freedom/courage) | L6:不唯一(遮词:The statue embodies the spirit of freedom and courage.; 选项:A.show / B.embody / C.represent / D.formulate) | L7:OK | L8:合适
-- espouse | L5:(def:不能(publicly support) | ex:不能(mayor/river clean) | L6:不唯一(遮词:The mayor espoused the importance of keeping the river clean.; 选项:A.support / B.espouse / C.decry / D.advocate) | L7:OK | L8:合适
-- foreseeable | L5:(def:不能(predicted) | ex:勉强(no snow days foreseeable可猜expected) | L6:不唯一(遮词:There are no snow days in the ____ future.; 选项:A.likely / B.expected / C.affluent / D.foreseeable) | L7:OK | L8:合适
-- hinder | L5:(def:勉强(make it difficult) | ex:勉强(loud noise makes concentrate hard可理解但hinder难猜) | L6:不唯一(遮词:Loud noise from the street hindered our ability to concentrate.; 选项:A.block / B.hinder / C.prevent / D.encumber) | L7:OK | L8:合适
-- inconclusive | L5:(def:不能(without clear result) | ex:不能(test try again) | L6:较唯一(遮词:The test was ____, so we had to try again.; 选项:A.candid / B.concurrent / C.conscientious / D.inconclusive) | L7:OK | L8:合适
-- indispensable | L5:(def:不能(cannot do without) | ex:不能(clean water/survival) | L6:不唯一(遮词:Clean water is ____ for survival.; 选项:A.essential / B.imperative / C.indispensable / D.necessary) | L7:OK | L8:合适
-- innovative | L5:(def:不能(creative methods) | ex:不能(robot move faster) | L6:不唯一(遮词:The student's ____ design made the robot move faster.; 选项:A.innovative / B.candid / C.new / D.creative) | L7:OK | L8:合适
-- methodical | L5:(def:不能(organized careful) | ex:不能(spotless) | L6:不唯一(遮词:His ____ approach to cleaning meant each corner was spotless.; 选项:A.systematic / B.conscientious / C.careful / D.methodical) | L7:OK | L8:合适
-- multifaceted | L5:(def:不能(aspects/sides) | ex:不能(climate change) | L6:较唯一(遮词:Climate change is a ____ problem affecting food, water, and weather.; 选项:A.multifaceted / B.food / C.water / D.weather) | L7:OK | L8:合适但偏抽象
-- negate | L5:(def:不能(cancel out) | ex:不能(eating cake negate exercise) | L6:较唯一(遮词:Eating a whole cake would ____ the benefits of exercising.; 选项:A.revoke / B.administer / C.apprehend / D.negate) | L7:OK | L8:合适
-- obligatory | L5:(def:不能(rule or law) | ex:不能(motorcycle/helmet) | L6:不唯一(遮词:Wearing a helmet is ____ when riding a motorcycle.; 选项:A.required / B.statutory / C.mandatory / D.obligatory) | L7:轻微(摩托车场景可换自行车更儿童) | L8:合适
-- optimal | L5:(def:不能(best possible) | ex:不能(baking bread 375 degrees) | L6:不唯一(遮词:The ____ temperature for baking bread is 375 degrees.; 选项:A.optimum / B.optimal / C.best / D.ideal) | L7:OK | L8:合适(与optimum重复)
-- parity | L5:(def:不能(equal state) | ex:不能(league/team fair chance) | L6:较唯一(遮词:The league worked for ____ so every team had a fair chance to win.; 选项:A.accountability / B.aspiration / C.parity / D.adversary) | L7:OK | L8:合适
-- prerequisite | L5:(def:不能(requirement before) | ex:不能(swim test/diving team) | L6:较唯一(遮词:Passing the swim test is a ____ for joining the diving team.; 选项:A.aspiration / B.adversary / C.biodiversity / D.prerequisite) | L7:OK | L8:合适
-- prohibitive | L5:(def:不能(cost prevents action) | ex:不能(save for months) | L6:较唯一(遮词:The ____ price of the toy meant she had to save for months.; 选项:A.concurrent / B.indolent / C.candid / D.prohibitive) | L7:OK | L8:合适
-- proportional | L5:(def:不能(relative) | ex:不能(paint to wall size) | L6:较唯一(遮词:The amount of paint should be ____ to the size of the wall.; 选项:A.concurrent / B.proportional / C.candid / D.prior) | L7:OK | L8:合适(数学)
-- pursuant | L5:(def:不能(in accordance) | ex:不能(school policy/visitors sign in) | L6:较唯一(遮词:____ to school policy, all visitors must sign in at the office.; 选项:A.concurrent / B.obligatory / C.candid / D.pursuant) | L7:OK | L8:偏难(法律书面语)
-- refute | L5:(def:不能(prove wrong) | ex:不能(receipts evidence) | L6:较唯一(遮词:She refuted the claim by showing her receipts as evidence.; 选项:A.refute / B.decry / C.authenticate / D.implicate) | L7:OK | L8:合适
-- respective | L5:(def:不能(separately to each) | ex:不能(respective classrooms) | L6:较唯一(遮词:The students returned to their ____ classrooms after lunch.; 选项:A.conscientious / B.respective / C.candid / D.concurrent) | L7:OK | L8:合适
-- revoke | L5:(def:不能(officially cancel) | ex:不能(library card) | L6:不唯一(遮词:The school may ____ your library card if you lose too many books.; 选项:A.take away / B.cancel / C.negate / D.revoke) | L7:OK | L8:合适
-- solicit | L5:(def:不能(ask for from someone) | ex:不能(door to door/donations/food bank) | L6:较唯一(遮词:Volunteers went door to door to ____ donations for the food bank.; 选项:A.apprehend / B.solicit / C.administer / D.augment) | L7:OK | L8:合适
-- statutory | L5:(def:不能(established by law) | ex:不能(speed limit) | L6:较唯一(遮词:The ____ speed limit on this road is thirty miles per hour.; 选项:A.obligatory / B.candid / C.statutory / D.concurrent) | L7:OK | L8:偏难(法律词)
-- suffice | L5:(def:不能(be enough) | ex:不能(apology/gift) | L6:不唯一(遮词:A simple apology will ____—you don't need to buy a gift.; 选项:A.suffice / B.adequate / C.enough / D.comport) | L7:OK | L8:合适
-- surge | L5:(def:不能(powerful increase) | ex:勉强(wind surge knocked kite可理解但surge难猜) | L6:不唯一(遮词:A ____ of wind knocked the kite out of his hands.; 选项:A.increase / B.adversary / C.surge / D.gust) | L7:OK | L8:合适
-- surmise | L5:(def:不能(limited evidence) | ex:勉强(empty plate -> guess eaten可懂但词形难) | L6:不唯一(遮词:From the empty plate, she surmised that someone had eaten lunch.; 选项:A.gauge / B.figure / C.guess / D.surmise) | L7:OK | L8:合适
-- tangible | L5:(def:不能(concrete) | ex:不能(trophy proof) | L6:不唯一(遮词:The trophy was ____ proof of the team's hard work.; 选项:A.affluent / B.concrete / C.tangible / D.real) | L7:OK | L8:合适
-- tenuous | L5:(def:不能(weak/slight) | ex:不能(clues connection) | L6:不唯一(遮词:The connection between the two clues was ____ at best.; 选项:A.fragile / B.affluent / C.tenuous / D.weak) | L7:OK | L8:合适
-- uphold | L5:(def:不能(maintain law/principle) | ex:不能(court/ruling) | L6:不唯一(遮词:The court chose to ____ the original ruling.; 选项:A.espouse / B.keep / C.support / D.uphold) | L7:OK | L8:合适(偏法律)
-- wield | L5:(def:不能(hold and use power) | ex:不能(blacksmith/hammer/red-hot metal) | L6:较唯一(遮词:The blacksmith wielded a heavy hammer to shape the red-hot metal.; 选项:A.fetter / B.wield / C.administer / D.apprehend) | L7:OK | L8:合适
-- abysmal | L5:(def:不能(very poor quality) | ex:不能(record/zero wins) | L6:较唯一(遮词:The team's ____ record of zero wins disappointed all.; 选项:A.austere / B.abysmal / C.benevolent / D.affluent) | L7:OK | L8:合适
-- accrue | L5:(def:不能(increase over time) | ex:不能(interest/savings account) | L6:较唯一(遮词:Interest will ____ in your savings account each month.; 选项:A.apprehend / B.administer / C.accrue / D.augment) | L7:OK | L8:偏难(金融词)
-- acrimonious | L5:(def:不能(bitter tone) | ex:不能(debate/upset) | L6:不唯一(遮词:The ____ debate left both sides feeling upset.; 选项:A.acrimonious / B.hostile / C.bitter / D.candid) | L7:OK | L8:合适
-- adroit | L5:(def:不能(skillful) | ex:不能(magician/vanish) | L6:不唯一(遮词:The ____ magician made the coin vanish from his hand.; 选项:A.clever / B.skillful / C.adroit / D.clout) | L7:OK | L8:合适
-- afoot | L5:(def:不能(planned) | ex:不能(mysterious lights went out) | L6:较唯一(遮词:Something mysterious was ____ when all the lights went out.; 选项:A.was afoot / B.concurrent / C.afoot / D.something) | L7:OK | L8:合适(偏习语)
-- agonize | L5:(def:不能(worry greatly) | ex:不能(dress/school dance) | L6:不唯一(遮词:He agonized over which dress to wear to the school dance.; 选项:A.worry / B.agonize / C.struggle / D.allay) | L7:OK | L8:合适
-- allay | L5:(def:不能(reduce fear) | ex:不能(fears about the test) | L6:不唯一(遮词:The teacher's calm words helped ____ the students' fears about the test.; 选项:A.curtail / B.calm / C.allay / D.ease) | L7:OK | L8:合适
-- aloof | L5:(def:不能(distant/not friendly) | ex:不能(sitting alone at lunch) | L6:较唯一(遮词:The new student seemed ____, sitting alone at lunch every day.; 选项:A.candid / B.genial / C.aloof / D.altruistic) | L7:OK | L8:合适
-- amalgam | L5:(def:不能(mixture/combination) | ex:不能(city's culture/traditions) | L6:不唯一(遮词:The city's culture is an ____ of traditions from many countries.; 选项:A.mix / B.adversary / C.blend / D.amalgam) | L7:OK | L8:偏难(学术名词)
-- amenity | L5:(def:不能(feature) | ex:不能(amenities include pool/gym) | L6:较唯一(遮词:The hotel's amenities included a pool, gym, and free breakfast.; 选项:A.aspiration / B.amenity / C.adversary / D.biodiversity) | L7:OK | L8:合适
-- amorphous | L5:(def:不能(no clear shape) | ex:勉强(clay blob能想象但词形难) | L6:较唯一(遮词:The ____ blob of clay waited to be shaped into a vase.; 选项:A.dominance / B.blatant / C.amorphous / D.omnipotent) | L7:OK | L8:合适(科学/美术)
-- anguish | L5:(def:不能(emotional suffering) | ex:不能(losing pet) | L6:不唯一(遮词:The ____ of losing her pet was written all over her face.; 选项:A.anguish / B.sadness / C.grief / D.pain) | L7:OK(宠物去世略伤感但可接受) | L8:合适
-- aplomb | L5:(def:不能(self-confidence/stressful) | ex:不能(surprise quiz) | L6:不唯一(遮词:She handled the surprise quiz with ____, finishing first.; 选项:A.calm / B.aplomb / C.diffident / D.confidence) | L7:OK | L8:偏难(低频)
-- banal | L5:(def:不能(been said too many times) | ex:不能(phrases) | L6:不唯一(遮词:The speech was full of ____ phrases like 'try your best.'; 选项:A.boring / B.candid / C.banal / D.common) | L7:OK | L8:偏难(抽象)
-- belie | L5:(def:不能(false impression) | ex:不能(nervousness) | L6:较唯一(遮词:Her calm smile belied the nervousness she felt inside.; 选项:A.fabricate / B.belie / C.administer / D.apprehend) | L7:OK | L8:合适
-- berate | L5:(def:不能(scold at length) | ex:不能(coach/team) | L6:不唯一(遮词:The coach berated the team for not trying hard enough.; 选项:A.administer / B.yell at / C.scold / D.berate) | L7:OK | L8:合适
-- bereft | L5:(def:不能(without what you need) | ex:不能(garden bereft of color) | L6:较唯一(遮词:The garden looked ____ of color after the frost destroyed all the flowers.; 选项:A.bereft / B.foremost / C.bombastic / D.imperative) | L7:OK | L8:合适
-- blatant | L5:(def:不能(without shame) | ex:能/勉强(cheating语境清晰但词形难→勉强) | L6:较唯一(遮词:Copying answers from a neighbor is a ____ form of cheating.; 选项:A.blatant / B.austere / C.affluent / D.amorphous) | L7:OK(作弊话题可) | L8:合适
-- blithe | L5:(def:不能(carefree lack of concern) | ex:不能(parents worried) | L6:不唯一(遮词:His ____ attitude about the test worried his parents.; 选项:A.callous / B.blithe / C.carefree / D.casual) | L7:OK | L8:偏难(低频)
-- bombastic | L5:(def:不能(impressive words mean little) | ex:不能(politician speech) | L6:较唯一(遮词:The politician's ____ speech was full of big words but few ideas.; 选项:A.penurious / B.foremost / C.big words but few ideas / D.bombastic) | L7:轻微(politician政治职业) | L8:偏难(低频)
-- brandish | L5:(def:不能(as a threat) | ex:不能(umbrella scare goose) | L6:较唯一(遮词:He brandished his umbrella to scare off the goose.; 选项:A.brandish / B.apprehend / C.implicate / D.administer) | L7:OK | L8:合适
-- brazen | L5:(def:不能(shameless) | ex:不能(squirrel stole sandwich) | L6:不唯一(遮词:The ____ squirrel stole a sandwich right off the picnic table.; 选项:A.brazen / B.bold / C.candid / D.shameless) | L7:OK | L8:合适
-- callous | L5:(def:不能(no concern feelings) | ex:不能(remark made her cry) | L6:不唯一(遮词:His ____ remark about her painting made her cry.; 选项:A.callous / B.heartless / C.unkind / D.blithe) | L7:OK | L8:合适
-- censure | L5:(def:不能(official disapproval) | ex:不能(student council voted) | L6:较唯一(遮词:The student council voted to ____ the member who broke the rules.; 选项:A.administer / B.deplore / C.censure / D.revoke) | L7:OK | L8:合适
-- penurious | L5:(def:不能(extremely poor) | ex:不能(afford groceries) | L6:不唯一(遮词:The ____ family could barely afford groceries each week.; 选项:A.poor / B.imperative / C.penurious / D.broke) | L7:OK(贫困可敏感但表述克制) | L8:偏难(低频)
-- clout | L5:(def:不能(influence politics) | ex:不能(change lunch menu) | L6:不唯一(遮词:The principal had enough ____ to change the school lunch menu.; 选项:A.influence / B.levity / C.clout / D.power) | L7:OK | L8:合适
-- coffer | L5:(def:不能(strongbox/funds) | ex:不能(coffers were empty) | L6:不唯一(遮词:The club's coffers were empty after paying for the field trip.; 选项:A.recession / B.coffer / C.funds / D.money) | L7:OK | L8:偏难(低频名词)
-- comport | L5:(def:不能(behave) | ex:不能(dignity/award event) | L6:不唯一(遮词:She comported herself with dignity during the award event.; 选项:A.behave / B.comport / C.act / D.suffice) | L7:OK | L8:偏难(低频)
-- consign | L5:(def:不能(hand over forever) | ex:勉强(donation box可懂但consign难猜) | L6:不唯一(遮词:Old toys were consigned to the donation box.; 选项:A.send / B.put / C.donate / D.consign) | L7:OK | L8:合适
-- construe | L5:(def:不能(interpret meaning) | ex:不能(silence as agreement) | L6:较唯一(遮词:His silence was construed as agreement by the rest of the group.; 选项:A.administer / B.was construed as / C.construe / D.apprehend) | L7:OK | L8:合适
-- corrosive | L5:(def:不能(wear away slowly) | ex:不能(acid/ate through metal) | L6:较唯一(遮词:The ____ acid slowly ate through the metal container.; 选项:A.corrosive / B.concurrent / C.conscientious / D.candid) | L7:OK | L8:合适(学科)
-- decry | L5:(def:不能(publicly criticize) | ex:不能(environmental groups/forest) | L6:不唯一(遮词:Environmental groups decried the plan to cut down the old forest.; 选项:A.condemn / B.decry / C.criticize / D.refute) | L7:OK | L8:合适
-- delude | L5:(def:不能(believe not true) | ex:不能(pass without studying) | L6:不唯一(遮词:Don't ____ yourself into thinking you can pass without studying.; 选项:A.delude / B.lie to yourself / C.fool / D.administer) | L7:OK | L8:合适
-- deplore | L5:(def:不能(strong disapproval) | ex:不能(teachers deplore cheating) | L6:不唯一(遮词:Teachers ____ cheating because it hurts everyone's learning.; 选项:A.censure / B.disapprove / C.deplore / D.hate) | L7:OK | L8:合适
-- despot | L5:(def:不能(ruler cruel) | ex:不能(work without pay) | L6:较唯一(遮词:The ____ forced the people to work without pay.; 选项:A.despot / B.aspiration / C.leverage / D.adversary) | L7:轻微(政治压迫) | L8:偏难
-- didactic | L5:(def:不能(moral lesson) | ex:不能(fable/value honesty) | L6:较唯一(遮词:The ____ fable taught children the value of honesty.; 选项:A.concurrent / B.candid / C.didactic / D.conscientious) | L7:OK | L8:合适
-- diffident | L5:(def:不能(self-confidence) | ex:不能(spoke quietly) | L6:不唯一(遮词:The ____ boy spoke so quietly that nobody could hear him.; 选项:A.shy / B.timid / C.diffident / D.aplomb) | L7:OK | L8:偏难(低频)
-- disparate | L5:(def:不能(not the same at all) | ex:不能(interests sports/art) | L6:较唯一(遮词:The two sisters had ____ interests—one loved sports, the other art.; 选项:A.very different / B.affluent / C.austere / D.disparate) | L7:OK | L8:合适
-- edify | L5:(def:不能(wiser/better) | ex:不能(documentary) | L6:不唯一(遮词:The documentary was designed to ____ viewers about ocean life.; 选项:A.inform / B.teach / C.edify / D.administer) | L7:OK | L8:偏难(低频)
-- emaciated | L5:(def:不能(abnormally thin) | ex:不能(stray cat/shelter) | L6:较唯一(遮词:The ____ stray cat was taken to a shelter for care.; 选项:A.blithe / B.candid / C.levity / D.emaciated) | L7:轻微(流浪猫可引不适但不血腥) | L8:合适
-- embroil | L5:(def:不能(conflict) | ex:不能(argument class) | L6:不唯一(遮词:The argument embroiled the entire class in a heated debate.; 选项:A.hinder / B.embroil / C.involve / D.drag into) | L7:OK | L8:合适
-- encumber | L5:(def:不能(weigh down/movement) | ex:不能(backpack/hiker) | L6:较唯一(遮词:The heavy backpack encumbered the hiker on the steep trail.; 选项:A.hinder / B.embroil / C.administer / D.encumber) | L7:OK | L8:合适
-- equivocal | L5:(def:不能(more than one meaning) | ex:不能(unsure he agreed) | L6:不唯一(遮词:His ____ answer left everyone unsure whether he agreed or not.; 选项:A.penurious / B.ambiguous / C.unclear / D.equivocal) | L7:OK | L8:合适
-- estrange | L5:(def:不能(unfriendly/distant) | ex:不能(best friends year) | L6:较唯一(遮词:The argument estranged the two best friends for an entire year.; 选项:A.estrange / B.intensify / C.espouse / D.palliate) | L7:OK | L8:合适
-- exhort | L5:(def:不能(strongly urge) | ex:不能(read a book a week) | L6:不唯一(遮词:The principal exhorted students to read at least one book a week.; 选项:A.encourage / B.urge / C.exhort / D.administer) | L7:OK | L8:合适
-- extenuate | L5:(def:不能(make fault less serious) | ex:不能(apology/teacher's eyes) | L6:不唯一(遮词:Her apology helped ____ the offense in the teacher's eyes.; 选项:A.palliate / B.justify / C.excuse / D.extenuate) | L7:OK | L8:偏难(低频)
-- extol | L5:(def:不能(praise with excitement) | ex:不能(benefits of reading) | L6:不唯一(遮词:The teacher extolled the benefits of reading every single day.; 选项:A.praise / B.extol / C.laud / D.administer) | L7:OK | L8:合适
-- facetious | L5:(def:不能(inappropriate humor) | ex:不能(laugh nervously) | L6:较唯一(遮词:His ____ comment about the test made everyone laugh nervously.; 选项:A.facetious / B.concurrent / C.candid / D.levity) | L7:OK | L8:偏难
-- felicitous | L5:(def:不能(well chosen) | ex:不能(comparison rivers and time) | L6:不唯一(遮词:The teacher made a ____ comparison between rivers and time.; 选项:A.felicitous / B.well-suited / C.apt / D.candid) | L7:OK | L8:偏难
-- fetter | L5:(def:不能(restrain freedom) | ex:不能(rules fetter ideas) | L6:不唯一(遮词:Too many rules can ____ a student's new ideas.; 选项:A.wield / B.limit / C.restrain / D.fetter) | L7:OK | L8:偏难
-- fickle | L5:(def:不能(changing loyalty) | ex:勉强(weather changes可懂但fickle难猜) | L6:不唯一(遮词:The ____ weather changed from sunny to rainy three times today.; 选项:A.candid / B.concurrent / C.fickle / D.changeable) | L7:OK | L8:合适
-- foment | L5:(def:不能(stir up trouble) | ex:不能(food fight) | L6:较唯一(遮词:The troublemaker tried to ____ a food fight in the cafeteria.; 选项:A.apprehend / B.augment / C.foment / D.administer) | L7:OK(食物大战轻微) | L8:偏难
-- furtive | L5:(def:不能(secretive) | ex:不能(glance at test paper) | L6:较唯一(遮词:The ____ glance at his neighbor's test paper was caught by the teacher.; 选项:A.indolent / B.candid / C.concurrent / D.furtive) | L7:OK | L8:合适
-- gauche | L5:(def:不能(social grace) | ex:不能(start eating early) | L6:不唯一(遮词:It was ____ to start eating before everyone was seated at the table.; 选项:A.mundane / B.gauche / C.awkward / D.rude) | L7:OK | L8:偏难(低频)
-- genial | L5:(def:不能(cheerful) | ex:不能(host/handshake) | L6:不唯一(遮词:The ____ host greeted every guest with a warm handshake.; 选项:A.aloof / B.friendly / C.warm / D.genial) | L7:OK | L8:合适
-- glean | L5:(def:不能(bit by bit) | ex:不能(facts/books) | L6:不唯一(遮词:She gleaned useful facts from several different library books.; 选项:A.administer / B.collect / C.glean / D.learn) | L7:OK | L8:合适
-- guise | L5:(def:不能(outward appearance hide truth) | ex:不能(spy/waiter) | L6:较唯一(遮词:The spy entered the party in the ____ of a waiter.; 选项:A.disguise / B.adversary / C.guise / D.aspiration) | L7:OK | L8:合适
-- hapless | L5:(def:不能(no luck) | ex:不能(wallet/flight) | L6:较唯一(遮词:The ____ traveler lost his wallet, then missed his flight.; 选项:A.hapless / B.judicious / C.dominance / D.omnipotent) | L7:OK | L8:合适
-- harrowing | L5:(def:不能(upset/frightening) | ex:不能(trapped miners/news) | L6:较唯一(遮词:The ____ rescue of the trapped miners was shown on the news.; 选项:A.austere / B.benevolent / C.harrowing / D.affluent) | L7:需注意(矿难救援较沉重) | L8:偏难
-- haughty | L5:(def:不能(superior) | ex:不能(queen/common villagers) | L6:不唯一(遮词:The ____ queen refused to speak with the common villagers.; 选项:A.arrogant / B.proud / C.haughty / D.candid) | L7:OK | L8:合适
-- idyllic | L5:(def:不能(pleasant peaceful) | ex:不能(village/stream) | L6:不唯一(遮词:The ____ village had flower gardens and a quiet stream.; 选项:A.beautiful / B.affluent / C.peaceful / D.idyllic) | L7:OK | L8:合适
-- impeccable | L5:(def:不能(without faults) | ex:不能(spelling bee) | L6:不唯一(遮词:His ____ spelling earned his first place in the spelling bee.; 选项:A.candid / B.impeccable / C.perfect / D.flawless) | L7:OK | L8:合适
-- implacable | L5:(def:不能(appease/calm) | ex:不能(critic) | L6:不唯一(遮词:The ____ critic never had a kind word for any performance.; 选项:A.impregnable / B.implacable / C.unforgiving / D.incorrigible) | L7:OK | L8:偏难
-- impregnable | L5:(def:不能(defeat/capture) | ex:不能(castle/attackers) | L6:较唯一(遮词:The castle's thick walls made it seem ____ to attackers.; 选项:A.implacable / B.impregnable / C.incorrigible / D.indelible) | L7:OK | L8:偏难
-- impropriety | L5:(def:不能(not proper) | ex:不能(ceremony) | L6:不唯一(遮词:Talking loudly during the ceremony was considered an ____.; 选项:A.impropriety / B.bad behavior / C.candid / D.concurrent) | L7:OK | L8:偏难
-- inauspicious | L5:(def:不能(signs may go badly) | ex:不能(errors/inning) | L6:较唯一(遮词:The ____ start to the game—two errors in the first inning—worried the fans.; 选项:A.pastoral / B.blithe / C.callous / D.inauspicious) | L7:OK | L8:偏难
-- incorrigible | L5:(def:不能(correct) | ex:不能(puppy chewing shoes) | L6:不唯一(遮词:The ____ puppy kept chewing shoes no matter what we tried.; 选项:A.indelible / B.incorrigible / C.impregnable / D.unmanageable) | L7:OK | L8:偏难
-- incredulous | L5:(def:不能(unable to believe) | ex:勉强(won prize->can't believe可懂但词形难) | L6:不唯一(遮词:She was ____ when told she had won the grand prize.; 选项:A.unbelieving / B.surprised / C.incredulous / D.candid) | L7:OK | L8:合适
-- indefatigable | L5:(def:不能(never tired) | ex:不能(marathons) | L6:不唯一(遮词:The ____ runner completed five marathons in one year.; 选项:A.lethargic / B.indefatigable / C.tireless / D.panoramic) | L7:OK | L8:偏难(超低频)
-- indelible | L5:(def:不能(remove/forget) | ex:不能(Grand Canyon) | L6:不唯一(遮词:The trip to the Grand Canyon left an ____ impression on her mind.; 选项:A.unforgettable / B.incorrigible / C.impregnable / D.indelible) | L7:OK | L8:偏难
-- indolent | L5:(def:能/勉强(lazy可懂但definition长→勉强) | ex:能(猫懒)但词形难→勉强 | L6:不唯一(遮词:The ____ cat spent the entire day sleeping on the couch.; 选项:A.sluggish / B.indolent / C.prohibitive / D.lazy) | L7:OK | L8:合适
-- inept | L5:(def:不能(lacking skill) | ex:不能(juggling) | L6:不唯一(遮词:His ____ attempt at juggling sent all three balls rolling away.; 选项:A.mundane / B.inept / C.clumsy / D.bad at) | L7:OK | L8:合适
-- intractable | L5:(def:不能(difficult) | ex:不能(math problem) | L6:不唯一(遮词:The ____ math problem stumped even the brightest students.; 选项:A.hard / B.unsolvable / C.intractable / D.affluent) | L7:OK | L8:偏难
-- irksome | L5:(def:不能(irritation) | ex:不能(buzzing fly) | L6:不唯一(遮词:The ____ buzzing of the fly made it hard to concentrate.; 选项:A.annoying / B.concurrent / C.candid / D.irksome) | L7:OK | L8:合适
-- judicious | L5:(def:不能(good judgment) | ex:不能(allowance/save) | L6:不唯一(遮词:A ____ use of her allowance let her save enough for the bike.; 选项:A.dominance / B.omnipotent / C.judicious / D.wise) | L7:OK | L8:合适
-- latent | L5:(def:不能(not yet visible) | ex:不能(talent discovered) | L6:较唯一(遮词:His ____ talent for singing was discovered during music class.; 选项:A.candid / B.concurrent / C.conscientious / D.latent) | L7:OK | L8:合适
-- laud | L5:(def:不能(praise highly) | ex:不能(critics/lauded) | L6:不唯一(遮词:Critics lauded the young author for her brilliant first novel.; 选项:A.laud / B.administer / C.praise / D.extol) | L7:OK | L8:合适
-- lethargic | L5:(def:不能(slow/tired) | ex:不能(hot day) | L6:不唯一(遮词:The hot day made the students feel ____ during afternoon classes.; 选项:A.lethargic / B.tired / C.sluggish / D.indefatigable) | L7:OK | L8:合适
-- levity | L5:(def:不能(unexpected humor) | ex:不能(ease tension) | L6:较唯一(遮词:A bit of ____ from the teacher helped ease the tension before the exam.; 选项:A.blithe / B.clout / C.levity / D.bit of levity) | L7:OK | L8:偏难
-- lofty | L5:(def:能/勉强(very high可懂但lofty词形不熟→勉强) | ex:勉强(mountain peaks可猜high) | L6:不唯一(遮词:The ____ mountain peaks were covered in snow year-round.; 选项:A.lofty / B.affluent / C.tall / D.high) | L7:OK | L8:合适
-- ludicrous | L5:(def:不能(absurd laughable) | ex:不能(pet elephant tiny apartment) | L6:较唯一(遮词:The idea of keeping a pet elephant in a tiny apartment is ____.; 选项:A.candid / B.ludicrous / C.conscientious / D.concurrent) | L7:OK | L8:合适
-- malign | L5:(def:不能(harmful untrue) | ex:不能(behind back) | L6:不唯一(遮词:It is wrong to ____ someone behind their back.; 选项:A.slander / B.badmouth / C.administer / D.malign) | L7:OK | L8:合适
-- malleable | L5:(def:不能(shaped or influenced) | ex:不能(metals) | L6:不唯一(遮词:Gold is one of the most ____ metals on Earth.; 选项:A.malleable / B.concurrent / C.candid / D.bendable) | L7:OK | L8:合适(科学)
-- meritorious | L5:(def:不能(deserving reward) | ex:不能(service to town) | L6:不唯一(遮词:The student received an award for ____ service to the town.; 选项:A.candid / B.praiseworthy / C.concurrent / D.meritorious) | L7:OK | L8:偏难
-- misnomer | L5:(def:不能(inaccurate name) | ex:不能(dolphin fish mammal) | L6:较唯一(遮词:Calling a dolphin a fish is a ____ because it is a mammal.; 选项:A.aspiration / B.biodiversity / C.adversary / D.misnomer) | L7:OK | L8:合适(学科)
-- modicum | L5:(def:不能(a small amount) | ex:不能(tidy room) | L6:不唯一(遮词:With a ____ of effort, you can keep your room tidy.; 选项:A.modicum / B.small amount / C.adversary / D.a little) | L7:OK | L8:偏难(低频)
-- mundane | L5:(def:不能(ordinary) | ex:能/勉强(dishes chore可懂但mundane不易猜→勉强) | L6:不唯一(遮词:Washing dishes is a ____ chore that still needs to be done.; 选项:A.boring / B.mundane / C.ordinary / D.inept) | L7:OK | L8:合适
-- nonplussed | L5:(def:不能(do not know how to react) | ex:不能(surprise holiday) | L6:不唯一(遮词:She was ____ when the principal announced a surprise holiday.; 选项:A.nonplussed / B.candid / C.confused / D.shocked) | L7:OK | L8:偏难
-- noxious | L5:(def:不能(poisonous) | ex:不能(fumes/factory/polluted lake) | L6:较唯一(遮词:____ fumes from the factory polluted the nearby lake.; 选项:A.concurrent / B.candid / C.conscientious / D.noxious) | L7:OK | L8:合适
-- nuance | L5:(def:不能(subtle difference) | ex:不能(elated) | L6:较唯一(遮词:Understanding the ____ between 'happy' and 'elated' improves your writing.; 选项:A.pathos / B.nuance / C.adversary / D.aspiration) | L7:OK | L8:合适(需要synonym基础)
-- obtuse | L5:(def:不能(perceive) | ex:不能(joke) | L6:不唯一(遮词:He was being ____ on purpose, pretending not to understand the joke.; 选项:A.slow / B.lethargic / C.dull / D.obtuse) | L7:OK | L8:偏难
-- odious | L5:(def:不能(hateful) | ex:能/勉强(garbage smell强线索但词形难→勉强) | L6:不唯一(遮词:The ____ smell from the garbage made everyone cover their noses.; 选项:A.affluent / B.odious / C.awful / D.disgusting) | L7:OK | L8:合适
-- omnipotent | L5:(def:不能(unlimited power) | ex:不能(wizard/control weather) | L6:较唯一(遮词:In the story, the wizard was ____ and could control the weather.; 选项:A.judicious / B.dominance / C.multifaceted / D.omnipotent) | L7:轻微(“wizard”魔法元素一般可接受) | L8:偏难(低频)
-- opportune | L5:(def:不能(convenient time) | ex:不能(outdoor concert) | L6:不唯一(遮词:The rain stopped at an ____ moment, just before the outdoor concert.; 选项:A.concurrent / B.convenient / C.opportune / D.timely) | L7:OK | L8:合适
-- palatial | L5:(def:不能(grand spacious) | ex:不能(mansion/marble staircase) | L6:较唯一(遮词:The ____ mansion had thirty rooms, and a marble staircase.; 选项:A.concurrent / B.candid / C.palatial / D.conscientious) | L7:轻微(豪宅描写) | L8:偏难
-- palliate | L5:(def:不能(without removing cause) | ex:不能(cure illness) | L6:较唯一(遮词:Medicine can ____ the pain even if it cannot cure the illness.; 选项:A.palliate / B.espouse / C.estrange / D.extenuate) | L7:OK | L8:偏难(医学词)
-- palpable | L5:(def:不能(almost be felt) | ex:不能(tension/winner announced) | L6:较唯一(遮词:The tension in the room was ____ as the winner was announced.; 选项:A.palpable / B.concurrent / C.candid / D.conscientious) | L7:OK | L8:合适
-- panoramic | L5:(def:不能(unobstructed view) | ex:不能(mountaintop/valley) | L6:较唯一(遮词:The ____ view from the mountaintop showed the entire valley.; 选项:A.concurrent / B.panoramic / C.indefatigable / D.candid) | L7:OK | L8:合适
-- pariah | L5:(def:不能(outcast) | ex:不能(telling on teammates) | L6:不唯一(遮词:After telling on his teammates, he became a ____ in the group.; 选项:A.portfolio / B.outsider / C.pariah / D.outcast) | L7:需注意(“告状被孤立”会让家长担心校园排挤；可换更中性语境) | L8:偏难
-- pastoral | L5:(def:不能(countryside scene) | ex:不能(grazing sheep) | L6:较唯一(遮词:The ____ landscape of green hills and grazing sheep calmed her mind.; 选项:A.implacable / B.inauspicious / C.pastoral / D.callous) | L7:OK | L8:偏难(文学词)
-- pathos | L5:(def:不能(pity/sadness) | ex:不能(movie ending) | L6:较唯一(遮词:The ending of the movie was full of ____ that moved the audience to tears.; 选项:A.nuance / B.adversary / C.pathos / D.aspiration) | L7:OK | L8:偏难(文学术语)
-- petulant | L5:(def:不能(sulky) | ex:不能(dessert) | L6:不唯一(遮词:The ____ child stomped his feet when he did not get dessert.; 选项:A.petulant / B.whiny / C.candid / D.irritable) | L7:OK | L8:合适
-- bowstring | L5:(def:不能(bow用于射箭；bowstring更细) | ex:不能(let the arrow fly) | L6:较唯一(遮词:He pulled back the ____ and let the arrow fly.; 选项:A.adversary / B.aspiration / C.biodiversity / D.bowstring) | L7:轻微(武器元素；但体育/传统射箭可接受) | L8:偏难(低频名词)
-- foxglove | L5:(def:不能(bell-shaped flowers) | ex:不能(garden wall) | L6:不唯一(遮词:The ____ grew next to the garden wall.; 选项:A.adversary / B.biodiversity / C.foxglove / D.oxbow) | L7:OK | L8:偏难(专名；若保留建议配图且同组多植物名)
-- inkwell | L5:(def:不能(pot holds ink) | ex:不能(dipped pen) | L6:较唯一(遮词:He dipped his pen into the ____.; 选项:A.adversary / B.aspiration / C.inkwell / D.biodiversity) | L7:OK | L8:偏难(复古物件)
-- oxbow | L5:(def:不能(U-shaped bend) | ex:不能(river formed) | L6:较唯一(遮词:The river formed an ____ around the hill.; 选项:A.oxbow / B.aspiration / C.foxglove / D.adversary) | L7:OK | L8:偏难(地理术语)
-- molt | L5:(def:不能(shed feathers/fur) | ex:不能(snake skin) | L6:较唯一(遮词:The snake molted its old skin and grew a new one.; 选项:A.molt / B.augment / C.apprehend / D.administer) | L7:OK | L8:合适(自然科学)
-- abiotic | L5:(def:不能(non-living parts) | ex:不能(environment) | L6:较唯一(遮词:Rocks and water are ____ parts of the environment.; 选项:A.water / B.air / C.rocks / D.abiotic) | L7:OK | L8:偏难(科学术语; 需要biotic对照)
-- abscond | L5:(def:不能(secretly and quickly) | ex:不能(thief/cash box) | L6:不唯一(遮词:The thief absconded with the money from the cash box.; 选项:A.administer / B.flee / C.run away / D.abscond) | L7:轻微(盗窃) | L8:偏难(低频)
-- copse | L5:(def:不能(group of trees) | ex:不能(nested) | L6:不唯一(遮词:Birds nested in the ____ near the river.; 选项:A.copse / B.governance / C.woods / D.grove) | L7:OK | L8:偏难(低频)
-- desiccate | L5:(def:不能(dry out completely) | ex:不能(fruit like a chip) | L6:较唯一(遮词:The hot sun desiccated the fruit until it was like a chip.; 选项:A.desiccate / B.augment / C.administer / D.apprehend) | L7:OK | L8:合适
-- efface | L5:(def:不能(wipe out) | ex:勉强(chalk drawing washed away可懂但efface难猜) | L6:不唯一(遮词:Rain effaced the chalk drawing on the sidewalk.; 选项:A.wash away / B.efface / C.administer / D.erase) | L7:OK | L8:偏难(低频)
-- bellicose | L5:(def:不能(wanting to fight/argue抽象) | ex:不能(disagreement into argument) | L6:不唯一(遮词:His ____ comments turned a small disagreement into an argument.; 选项:A.indolent / B.bellicose / C.aggressive / D.hostile) | L7:OK | L8:偏难(低频形容词)
+- administer | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[administer / afoot / modicum / refute] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- adversary | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adversary / amorphous / apprehend / bellicose] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- affluent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abscond / affluent / omnipotent / penurious] | L7:OK | L8:合适
+- apprehend | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apprehend / malign / obligate / pariah] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- aspiration | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aspiration / ethic / lure / tenuous] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- augment | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:adding)，易靠语感/蒙) | 选项:[accrue / augment / fabricate / hinder] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- austere | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[austere / delude / indispensable / obtuse] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
+- authenticate | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:real)，易靠语感/蒙) | 选项:[afoot / authenticate / refute / tangible] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- avert | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[administer / avert / confiscate / curtail] | L7:OK | L8:合适
+- benevolent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bellicose / benevolent / condone / implacable] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- biodiversity | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biodiversity / diversity / edify / foxglove] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- candid | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[candid / condone / incorrigible / projection] | L7:OK | L8:合适
+- capitalism | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[capitalism / enumerate / fabricate / recession] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- circumference | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brandish / circumference / optimum / oxbow] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- clamor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capitalism / clamor / hinder / recession] | L7:OK | L8:合适
+- coerce | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coerce / displace / malign / obligate] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- comprise | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:several)，易靠语感/蒙) | 选项:[abiotic / comprise / glean / odious] | L7:OK | L8:合适
+- concurrent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / concurrent / opportune / reluctance] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- confer | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:before)，易靠语感/蒙) | 选项:[altruistic / confer / pariah / prior] | L7:OK | L8:合适
+- confiscate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[avert / confiscate / objection / revoke] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- conscientious | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conscientious / methodical / oversee / scrutiny] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- copyright | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[copyright / dominance / omnipotent / portfolio] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- correlate | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[correlate / felicitous / negligible / tenuous] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- culminate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[culminate / definitive / inconclusive / negligible] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- curtail | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[allay / curtail / minimize / parameter] | L7:OK | L8:合适
+- deem | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comport / deem / scrutiny / suffice] | L7:OK | L8:合适
+- devise | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:plan)，易靠语感/蒙) | 选项:[decry / devise / fabricate / objection] | L7:OK | L8:合适
+- displace | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coerce / displace / diversity / malign] | L7:OK | L8:合适
+- disposable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[avert / disposable / edify / judicious] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- diversity | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amalgam / biodiversity / diversity / network] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- domesticate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biodiversity / disposable / domesticate / judicious] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- dominance | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[copyright / dominance / leverage / omnipotent] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- embargo | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / embargo / governance / immigrate] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- entrepreneur | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accountability / despot / entrepreneur / fiscal] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形很长)
+- enumerate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amalgam / correlate / diversity / enumerate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- equitable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[equitable / implicate / parameter / parity] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ethic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condone / ethic / obligatory / uphold] | L7:OK | L8:合适
+- evoke | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acrimonious / evoke / indelible / reluctance] | L7:OK | L8:合适
+- excerpt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emaciated / excerpt / obsolete / oversee] | L7:OK | L8:合适
+- fabricate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[belie / fabricate / hinder / negate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- fiscal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / abscond / altruistic / fiscal] | L7:OK | L8:合适
+- foremost | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bereft / bombastic / foremost / imperative] | L7:OK | L8:合适
+- formulate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[devise / emaciated / formulate / objection] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- fracture | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adroit / anguish / clout / fracture] | L7:OK | L8:合适
+- franchise | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[augment / entrepreneur / franchise / optimal] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- gauge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / gauge / modicum / surmise] | L7:OK | L8:合适
+- governance | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[construe / embargo / governance / immigrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- immigrate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:country)，易靠语感/蒙) | 选项:[foreseeable / governance / immigrate / innovative] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- imminent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affluent / hinder / imminent / projection] | L7:OK | L8:合适
+- imperative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[foremost / imperative / indispensable / penurious] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- implicate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brandish / implicate / malign / refute] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- implicit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condone / implicit / obtuse / tenuous] | L7:OK | L8:合适
+- inquiry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blatant / glean / inquiry / medium] | L7:OK | L8:合适
+- intensify | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anguish / aspiration / estrange / intensify] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- leverage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clout / leverage / minimize / optimal] | L7:OK | L8:合适
+- locomotive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[administer / altruistic / aspiration / locomotive] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- lure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aspiration / lure / malign / obligate] | L7:OK | L8:合适
+- maximize | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affluent / fabricate / maximize / optimal] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- medium | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:sharing)，易靠语感/蒙) | 选项:[fetter / glean / innovative / medium] | L7:OK | L8:合适
+- membrane | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amalgam / emaciated / enumerate / membrane] | L7:OK | L8:合适
+- minimize | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[minimize / modicum / optimal / proportional] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- negligible | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gauge / modicum / negligible / obtuse] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- network | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capitalism / diversity / network / recession] | L7:OK | L8:合适
+- nominal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[austere / misnomer / negligible / nominal] | L7:OK | L8:合适
+- objection | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / modicum / objection / refute] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- obligate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exhort / malign / obligate / reliance] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- obsolete | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amenity / excerpt / negate / obsolete] | L7:OK | L8:合适
+- optimum | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[estrange / optimal / optimum / tenuous] | L7:OK | L8:合适
+- oversee | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[despot / excerpt / oversee / tangible] | L7:OK | L8:合适
+- parameter | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / curtail / parameter / statutory] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- participation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circumference / conscientious / participation / prerequisite] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- portfolio | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brandish / copyright / implicate / portfolio] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- prior | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apprehend / confer / prior / proportional] | L7:OK | L8:合适
+- projection | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[foreseeable / hinder / imminent / projection] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- propagate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adversary / amorphous / apprehend / propagate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- recession | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[capitalism / extenuate / palliate / recession] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- refine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[harrowing / incorrigible / modicum / refine] | L7:OK | L8:合适
+- reliance | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exhort / malign / obligate / reliance] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- reluctance | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acrimonious / bellicose / evoke / reluctance] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- scrutiny | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affluent / conscientious / methodical / scrutiny] | L7:OK | L8:合适
+- sibling | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:sister)，易靠语感/蒙) | 选项:[abiotic / abscond / implicate / sibling] | L7:OK | L8:合适
+- specify | L5-Def:勉强(需要中文支架/图示；词缀偏学术、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / accountability / parity / specify] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- stance | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / adroit / blithe / stance] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- accountability | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accountability / circumference / parity / specify] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- altruistic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aloof / altruistic / delude / pariah] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- caveat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adroit / caveat / indelible / modicum] | L7:OK | L8:合适
+- condone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capitalism / condone / impropriety / recession] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- dearth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[berate / dearth / equivocal / judicious] | L7:OK | L8:合适
+- definitive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[administer / culminate / definitive / participation] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- ebbing | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / adroit / aplomb / ebbing] | L7:OK | L8:合适
+- embody | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amorphous / blatant / embody / latent] | L7:OK | L8:合适
+- espouse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decry / espouse / estrange / uphold] | L7:OK | L8:合适
+- foreseeable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acrimonious / apprehend / foreseeable / tangible] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- hinder | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[encumber / fabricate / hinder / imminent] | L7:OK | L8:合适
+- inconclusive | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blatant / culminate / inconclusive / pathos] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- indispensable | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[imperative / inconclusive / indispensable / palliate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- innovative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[copyright / fetter / innovative / medium] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- methodical | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comport / conscientious / methodical / scrutiny] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- multifaceted | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acrimonious / amalgam / diversity / multifaceted] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- negate | L5-Def:勉强(需要中文支架/图示；词缀偏学术、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[caveat / fabricate / negate / revoke] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- obligatory | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[obligatory / pursuant / statutory / uphold] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- optimal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[embroil / leverage / minimize / optimal] | L7:OK | L8:合适
+- parity | L5-Def:勉强(需要中文支架/图示；词缀偏学术、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accountability / equitable / parameter / parity] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- prerequisite | L5-Def:勉强(需要中文支架/图示；词很长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apprehend / confer / opportune / prerequisite] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- prohibitive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acrimonious / indolent / lofty / prohibitive] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- proportional | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: amount,size) | 选项:[minimize / modicum / prior / proportional] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- pursuant | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[construe / ethic / obligatory / pursuant] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- refute | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[authenticate / decry / implicate / refute] | L7:OK | L8:合适
+- respective | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / methodical / penurious / respective] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- revoke | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brazen / censure / confiscate / revoke] | L7:OK | L8:合适
+- solicit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exhort / malign / obligate / solicit] | L7:OK | L8:合适
+- statutory | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adversary / obligatory / statutory / uphold] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- suffice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comport / dearth / deem / suffice] | L7:OK | L8:合适
+- surge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / afoot / allay / surge] | L7:OK | L8:合适
+- surmise | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / gauge / refute / surmise] | L7:OK | L8:合适
+- tangible | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[authenticate / foreseeable / palpable / tangible] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- tenuous | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emaciated / obtuse / palpable / tenuous] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- uphold | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[espouse / ethic / obligatory / uphold] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- wield | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[disposable / fetter / judicious / wield] | L7:OK | L8:合适
+- abysmal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abysmal / nuance / pathos / penurious] | L7:OK | L8:合适
+- accrue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / augment / propagate / surge] | L7:OK | L8:合适
+- acrimonious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acrimonious / domesticate / foreseeable / impregnable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- adroit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adroit / clout / devise / surge] | L7:OK | L8:合适
+- afoot | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / allay / concurrent / opportune] | L7:OK | L8:合适
+- agonize | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / abscond / agonize / allay] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- allay | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[agonize / allay / curtail / minimize] | L7:OK | L8:合适
+- aloof | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aloof / delude / estrange / genial] | L7:OK | L8:合适
+- amalgam | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amalgam / biodiversity / diversity / enumerate] | L7:OK | L8:合适
+- amenity | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amenity / displace / idyllic / impeccable] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- amorphous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amorphous / blatant / hapless / inconclusive] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- anguish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anguish / clout / intensify / palliate] | L7:OK | L8:合适
+- aplomb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aplomb / diffident / intractable / opportune] | L7:OK | L8:合适
+- banal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[banal / candid / fetter / revoke] | L7:OK | L8:合适
+- belie | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / belie / fabricate / indelible] | L7:OK | L8:合适
+- berate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[berate / malign / obligate / pariah] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- bereft | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bereft / foremost / inquiry / suffice] | L7:OK | L8:合适
+- blatant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amorphous / blatant / inconclusive / refine] | L7:OK | L8:合适
+- blithe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blithe / callous / dearth / refute] | L7:OK | L8:合适
+- bombastic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:words)，易靠语感/蒙) | 选项:[allay / bombastic / circumference / lofty] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- brandish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brandish / implicate / optimum / portfolio] | L7:OK | L8:合适
+- brazen | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / adroit / aplomb / brazen] | L7:OK | L8:合适
+- callous | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blithe / callous / judicious / refute] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- censure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[censure / deplore / revoke / tenuous] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- penurious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abysmal / affluent / imperative / penurious] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- clout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anguish / clout / leverage / omnipotent] | L7:OK | L8:合适
+- coffer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abscond / affluent / altruistic / coffer] | L7:OK | L8:合适
+- comport | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comport / deem / malign / suffice] | L7:OK | L8:合适
+- consign | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adroit / afoot / consign / modicum] | L7:OK | L8:合适
+- construe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / construe / equivocal / nuance] | L7:OK | L8:合适
+- corrosive | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:slowly)，易靠语感/蒙) | 选项:[agonize / avert / confiscate / corrosive] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- decry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[avert / decry / espouse / refute] | L7:OK | L8:合适
+- delude | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delude / edify / fabricate / incredulous] | L7:OK | L8:合适
+- deplore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[censure / deplore / harrowing / reliance] | L7:OK | L8:合适
+- despot | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[censure / despot / dominance / omnipotent] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- didactic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[affluent / didactic / edify / ethic] | L7:OK | L8:合适
+- diffident | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aplomb / diffident / gauche / mundane] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- disparate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:other)，易靠语感/蒙) | 选项:[amalgam / concurrent / disparate / reluctance] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- edify | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delude / didactic / edify / fabricate] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- emaciated | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blithe / dearth / emaciated / tenuous] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- embroil | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[embroil / leverage / malign / optimal] | L7:OK | L8:合适
+- encumber | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[embroil / encumber / fabricate / hinder] | L7:OK | L8:合适
+- equivocal | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[construe / equivocal / nuance / omnipotent] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- estrange | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[aloof / espouse / estrange / malign] | L7:OK | L8:合适
+- exhort | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exhort / malign / obligate / reliance] | L7:OK | L8:合适
+- extenuate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[extenuate / fabricate / impregnable / palliate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- extol | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[extol / laud / meritorious / mundane] | L7:OK | L8:合适
+- facetious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adversary / extenuate / facetious / levity] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- felicitous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[administer / altruistic / aspiration / felicitous] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- fetter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[embody / fetter / malign / wield] | L7:OK | L8:合适
+- fickle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / adroit / avert / fickle] | L7:OK | L8:合适
+- foment | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / adroit / aplomb / foment] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- furtive | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / berate / furtive / indolent] | L7:OK | L8:合适
+- gauche | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[diffident / gauche / inept / mundane] | L7:OK | L8:合适
+- genial | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / adroit / aloof / genial] | L7:OK | L8:合适
+- glean | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glean / inquiry / levity / medium] | L7:OK | L8:合适
+- guise | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bowstring / copyright / guise / portfolio] | L7:OK | L8:合适
+- hapless | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amorphous / ethic / hapless / reluctance] | L7:OK | L8:合适
+- harrowing | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acrimonious / deplore / harrowing / refine] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- haughty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[comport / haughty / malign / methodical] | L7:OK | L8:合适
+- idyllic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / amenity / idyllic / pastoral] | L7:OK | L8:合适
+- impeccable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blatant / impeccable / inconclusive / indispensable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- implacable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[belie / implacable / impregnable / indelible] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- impregnable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[implacable / impregnable / incorrigible / indelible] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- impropriety | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condone / ethic / impropriety / obtuse] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- inauspicious | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blithe / callous / inauspicious / refute] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- incorrigible | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[implacable / incorrigible / indelible / refine] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- incredulous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / delude / fabricate / incredulous] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- indefatigable | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[implacable / indefatigable / lethargic / stance] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- indelible | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[implacable / impregnable / incorrigible / indelible] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- indolent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bellicose / furtive / indolent / prohibitive] | L7:OK | L8:合适
+- inept | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[diffident / gauche / inept / mundane] | L7:OK | L8:合适
+- intractable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[embroil / encumber / hinder / intractable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- irksome | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / abscond / abysmal / irksome] | L7:OK | L8:合适
+- judicious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[governance / judicious / opportune / refute] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- latent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[embody / latent / obtuse / tenuous] | L7:OK | L8:合适
+- laud | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deem / extol / laud / meritorious] | L7:OK | L8:合适
+- lethargic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biodiversity / edify / indefatigable / lethargic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- levity | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blithe / dearth / facetious / levity] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- lofty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / bombastic / lofty / prohibitive] | L7:OK | L8:合适
+- ludicrous | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adversary / amorphous / apprehend / ludicrous] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- malign | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:someone)，易靠语感/蒙) | 选项:[comport / haughty / malign / noxious] | L7:OK | L8:合适
+- malleable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amorphous / foxglove / malleable / oxbow] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- meritorious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acrimonious / extol / laud / meritorious] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- misnomer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condone / misnomer / nominal / refute] | L7:OK | L8:合适
+- modicum | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[minimize / modicum / proportional / refine] | L7:OK | L8:合适
+- mundane | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[extol / gauche / inept / mundane] | L7:OK | L8:合适
+- nonplussed | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[copyright / gauge / nonplussed / obtuse] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- noxious | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / abscond / malign / noxious] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- nuance | L5-Def:勉强(需要中文支架/图示；词缀偏学术、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abysmal / construe / negligible / nuance] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- obtuse | L5-Def:能 | L5-Ex:能 | L6:能(线索词: not,understand) | 选项:[amalgam / enumerate / lethargic / obtuse] | L7:OK | L8:合适
+- odious | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / adroit / aplomb / odious] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- omnipotent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clout / dominance / leverage / omnipotent] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- opportune | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[afoot / concurrent / judicious / opportune] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- palatial | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[desiccate / incredulous / indelible / palatial] | L7:OK | L8:合适
+- palliate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delude / extenuate / fabricate / palliate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- palpable | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[belie / palpable / tangible / tenuous] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- panoramic | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:view)，易靠语感/蒙) | 选项:[benevolent / coerce / indefatigable / panoramic] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- pariah | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[altruistic / confer / malign / pariah] | L7:OK | L8:合适
+- pastoral | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[belie / idyllic / pastoral / refute] | L7:OK | L8:合适
+- pathos | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abysmal / accrue / nuance / pathos] | L7:OK | L8:合适
+- petulant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abysmal / avert / curtail / petulant] | L7:OK | L8:合适
+- bowstring | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bowstring / circumference / copyright / guise] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；词形偏长)
+- foxglove | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biodiversity / dearth / devise / foxglove] | L7:OK | L8:合适
+- inkwell | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[copyright / inkwell / modicum / nuance] | L7:OK | L8:合适
+- oxbow | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:river)，易靠语感/蒙) | 选项:[copse / espouse / malleable / oxbow] | L7:OK | L8:合适
+- molt | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:skin)，易靠语感/蒙) | 选项:[deem / laud / lure / molt] | L7:OK | L8:合适
+- abiotic | L5-Def:能 | L5-Ex:能 | L6:能(线索词: rocks,water,parts) | 选项:[abiotic / altruistic / fiscal / indispensable] | L7:OK | L8:合适
+- abscond | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[abiotic / abscond / abysmal / agonize] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- copse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[construe / copse / optimum / scrutiny] | L7:OK | L8:合适
+- desiccate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adversary / amorphous / apprehend / desiccate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- efface | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[accrue / adroit / aplomb / efface] | L7:OK | L8:合适
+- bellicose | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bellicose / foment / indolent / reluctance] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
