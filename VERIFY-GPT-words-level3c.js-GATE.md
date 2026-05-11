@@ -1,5 +1,7 @@
 # GPT 专项审校报告（L5-L8）- words-level3c.js
 
+Selection note: word-status.json 显示 currentGate 最小值为 6（各文件并列），本次按 totalWords 最少优先 → 选择 words-level3c.js（195词）进行抽查式独立审校。
+
 判定口径（10岁中国ESL孩子 / MAP≈197 / 约二年级）：
 - L5-Def：看到 definition 能否理解（能 / 勉强 / 不能）
 - L5-Ex：遮住词后，仅看 example 能否猜到词（能 / 勉强 / 不能）
