@@ -1,209 +1,205 @@
 # VERIFY-GPT — words-level3c.js — GATE
 
-> 每词一行：L5(定义/例句) + L6(例句填空唯一性+同level四选项) + L7(文化敏感) + L8(学习路径)
+> 每词一行：L5(定义能懂?/例句能猜?) + L6(例句反向填空唯一性：同level四选项) + L7(中国ESL家长视角文化敏感) + L8(学习路径/前置)
 
-说明：word-status.json 中各文件 currentGate 并列最小；本次按词数最少选 words-level3c.js 复核。
+说明：word-status.json 中 currentGate 并列最小；本次按 **totalWords 最少** 选 `words-level3c.js` 复核。
 
-复核小结：
-※ 覆盖性：词条数=195；逐词记录行=195（无漏词/无重复）
-※ 一致性校验：脚本比对 words-level3c.js 词表 vs 本报告行首词：missing=0 / extra=0
-※ 系统性风险：大量词为学科/政治/地理术语（对“10岁中国ESL、MAP英语197”显著偏难）
-※ L6例句线索：不少例句可被更常见词替代（如 use/move/end），建议加强“唯一线索”或降低干扰项
-※ L7潜在敏感/家长疑虑点：hymn(宗教场景)、ivory(象牙来源联想)、harpoon(捕鲸联想)、preamble/Constitution(政治化)、spirit week(美式校园文化)
-※ L8顺序建议：mesa vs plateau、archaeology vs paleontology、dividend/divisor 等成对词应相邻并先补前置概念
+- advance | L5-Def:勉强(卡: progress/improvement 抽象) | L5-Ex:能(棋子只能“前进一格”线索强) | L6:唯一(选项:A=advance, B=wade, C=hoist, D=lunge; 原因:棋子前进=advance 最贴) | L7:OK | L8:合适(但先会 forward / move)
+- affordable | L5-Def:勉强(卡: without worry 抽象) | L5-Ex:能(价钱不贵) | L6:唯一(选项:A=affordable, B=lavish, C=scarcity, D=eligible; 原因:价格能买得起) | L7:OK | L8:合适(可与 expensive/lavish 对比)
+- analyze | L5-Def:不能(卡: with care/understand 抽象；analyze 低频) | L5-Ex:勉强(能猜“看数据/检查”，但不一定是 analyze) | L6:不唯一(选项:A=analyze, B=regulate, C=manipulate, D=emphasize; 原因:看数据=analyze，但也可能误选 regulate/manipulate) | L7:OK | L8:偏高(建议先 teach study/examine)
+- apply | L5-Def:勉强(卡: put into action；多义) | L5-Ex:能(涂防晒=apply/put on) | L6:不唯一(选项:A=apply, B=infuse, C=imbue, D=hydrate; 原因:句子也可能被理解成“put on”，apply 最对但干扰仍有) | L7:OK | L8:合适(需先拆多义：apply=涂/应用/申请)
+- burden | L5-Def:勉强(卡: deal with 抽象) | L5-Ex:能(书太多=负担) | L6:不唯一(选项:A=burden, B=hardship, C=havoc, D=scarcity; 原因:都像“很难/很糟”，易混 hardship) | L7:OK | L8:合适(先会 heavy/problem)
+- cancel | L5-Def:能 | L5-Ex:能(天气原因取消) | L6:唯一(选项:A=cancel, B=terminate, C=mandate, D=elect; 原因:闪电→取消) | L7:OK | L8:偏低(更常用，可能应更低 level)
+- device | L5-Def:勉强(卡: special purpose) | L5-Ex:能(温度计是工具) | L6:不唯一(选项:A=device, B=lever, C=icon, D=hose; 原因:都能算“东西/工具”，device 较泛) | L7:OK | L8:合适(建议加“电子/小工具”更具体)
+- elect | L5-Def:勉强(卡: voting 概念) | L5-Ex:勉强(卡: ballot box 文化词) | L6:不唯一(选项:A=elect, B=mandate, C=verdict, D=legislature; 原因:都和“规则/法律/决定”有关，孩子可能抓不住 vote) | L7:OK | L8:偏高(先 teach vote/president)
+- emphasize | L5-Def:勉强(卡: extra important 抽象) | L5-Ex:勉强(underlined=强调，能猜) | L6:唯一(选项:A=emphasize, B=indent, C=instill, D=herald; 原因:画线=强调) | L7:OK | L8:合适
+- exclaim | L5-Def:勉强(卡: suddenly/strong feeling) | L5-Ex:能(引号+感叹) | L6:唯一(选项:A=exclaim, B=gasp, C=jest, D=irk; 原因:“Look!”突然喊) | L7:OK | L8:合适
+- frustrate | L5-Def:勉强(卡: upset because hard) | L5-Ex:能(拼图卡住=frustrate) | L6:不唯一(选项:A=frustrate, B=irk, C=irate, D=jinx; 原因:irk/irate 也像生气，语义边界不稳) | L7:OK | L8:合适(建议配 upset/angry)
+- glimpse | L5-Def:勉强(卡: quick/short look) | L5-Ex:能(看到一下狐狸尾巴) | L6:不唯一(选项:A=glimpse, B=glare, C=leer, D=glow; 原因:都是“看/光”，孩子可能靠感觉蒙) | L7:OK | L8:合适
+- govern | L5-Def:不能(卡: rules/decisions for group/country 抽象政治) | L5-Ex:不能(卡: student council/spirit week 美式校园文化) | L6:不唯一(选项:A=govern, B=regulate, C=mandate, D=legislature; 原因:都像“管/规则”，无 vote/law 明确线索) | L7:注意(美式 student council/spirit week；可换更普适例句) | L8:偏高(建议先 teach rule/law/government)
+- idle | L5-Def:勉强(卡: no task/unused) | L5-Ex:能(秋千闲着) | L6:不唯一(选项:A=idle, B=listless, C=lull, D=insular; 原因:都像“静/没动”，listless 也可能被选) | L7:OK | L8:合适
+- invest | L5-Def:不能(卡: money/time hoping results 抽象金融) | L5-Ex:勉强(零花钱买材料=投入，能懂一点) | L6:不唯一(选项:A=invest, B=acquire, C=hoard, D=salvage; 原因:买东西/存起来/抢救都可能被误解成“invest”) | L7:OK | L8:偏高(先 teach save/spend/buy)
+- manner | L5-Def:勉强(卡:behaves 抽象；多义) | L5-Ex:能(礼貌方式) | L6:唯一(选项:A=manner, B=haste, C=jest, D=heed; 原因:"polite ___"最自然是 manner) | L7:OK | L8:合适
+- negative | L5-Def:勉强(卡: below zero 概念) | L5-Ex:能(负十度) | L6:唯一(选项:A=negative, B=arid, C=fertile, D=authentic; 原因:温度<0) | L7:OK | L8:合适(可与 positive/zero 连)
+- outcome | L5-Def:勉强(卡: result) | L5-Ex:能(结果出乎意料) | L6:不唯一(选项:A=outcome, B=verdict, C=interval, D=headway; 原因:judges/decision vs result 易混 verdict) | L7:OK | L8:合适
+- regulate | L5-Def:勉强(卡: works correctly 抽象) | L5-Ex:勉强(thermostat 可能陌生但能猜“控制温度”) | L6:不唯一(选项:A=regulate, B=govern, C=manipulate, D=mandate; 原因:都像“控制”，缺独特线索) | L7:OK | L8:合适(先会 control)
+- rhythm | L5-Def:能 | L5-Ex:能(鼓点节奏) | L6:唯一(选项:A=rhythm, B=interval, C=hyperbole, D=hymn; 原因:beats→rhythm) | L7:OK | L8:合适
+- risk | L5-Def:能 | L5-Ex:能(可能被蜇) | L6:唯一(选项:A=risk, B=havoc, C=hardship, D=hurricane; 原因:chance bad thing→risk) | L7:OK | L8:合适
+- tension | L5-Def:勉强(卡: tightness/像要发生事 抽象) | L5-Ex:勉强(懂“紧张”，但定义偏绕) | L6:不唯一(选项:A=tension, B=risk, C=irate, D=intrigue; 原因:课堂还卷子情境=紧张，但也可被理解成 risk/irate) | L7:OK | L8:合适
+- typical | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=typical, B=authentic, C=eligible, D=affordable; 原因:usual vs real(authetic) 可能混) | L7:OK | L8:合适
+- basement | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=basement, B=loft, C=hangar, D=inn; 原因:house below ground) | L7:OK | L8:合适(可与 loft 对比)
+- blade | L5-Def:勉强(卡: flat cutting part) | L5-Ex:能(草叶+瓢虫) | L6:唯一(选项:A=blade, B=kernel, C=filament, D=lintel; 原因:blade of grass 固定搭配) | L7:OK | L8:合适
+- canyon | L5-Def:勉强(卡: valley/steep) | L5-Ex:能(很深看不到河) | L6:唯一(选项:A=canyon, B=crater, C=mesa, D=plateau; 原因:深峡谷) | L7:OK | L8:合适
+- chimney | L5-Def:勉强(卡: tube) | L5-Ex:能(冒烟) | L6:唯一(选项:A=chimney, B=ledge, C=lintel, D=hinge; 原因:smoke goes out) | L7:OK | L8:合适
+- chunk | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=chunk, B=kernel, C=stump, D=blade; 原因:"a big ___ of watermelon"=chunk) | L7:OK | L8:合适
+- creek | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=creek, B=tributary, C=inlet, D=aquifer; 原因:都和水有关，孩子可能只知道“river”) | L7:OK | L8:合适(先 teach stream/river)
+- crisp | L5-Def:勉强(卡: firm/fresh) | L5-Ex:能(树叶咔嚓) | L6:不唯一(选项:A=crisp, B=arid, C=limpid, D=lithe; 原因:都像形容词，孩子可凭“秋天叶子”猜但不稳) | L7:OK | L8:合适
+- flask | L5-Def:勉强(卡: narrow neck) | L5-Ex:能(科学实验瓶) | L6:不唯一(选项:A=flask, B=foil, C=device, D=specimen; 原因:实验室语境，flask/device/specimen 都可能) | L7:OK | L8:合适
+- foil | L5-Def:能 | L5-Ex:能(包披萨) | L6:唯一(选项:A=foil, B=linen, C=lacquer, D=hosiery; 原因:wrap food) | L7:OK | L8:合适
+- gasp | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=gasp, B=exclaim, C=irk, D=intrigue; 原因:surprised quick breathe in) | L7:OK | L8:合适
+- glare | L5-Def:勉强(卡: angry look vs light 两义) | L5-Ex:能(雪太亮) | L6:唯一(选项:A=glare, B=glow, C=glimpse, D=leer; 原因:bright light that hurts eyes=glare) | L7:OK | L8:合适(注意两义)
+- glow | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=glow, B=glare, C=torch, D=limpid; 原因:candle made it ___ orange=glow) | L7:OK | L8:合适
+- hatch | L5-Def:能 | L5-Ex:能(小鸡破壳) | L6:唯一(选项:A=hatch, B=hew, C=mend, D=hone; 原因:egg breaks) | L7:OK | L8:合适
+- hose | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=hose, B=spout, C=inlet, D=hub; 原因:water flows through tube) | L7:OK | L8:合适
+- inn | L5-Def:勉强(卡: travelers) | L5-Ex:能(小旅馆) | L6:唯一(选项:A=inn, B=hangar, C=homestead, D=loft; 原因:小酒店) | L7:OK | L8:合适
+- jolt | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=jolt, B=jostle, C=lunge, D=hurl; 原因:车颠一下=shock/jolt) | L7:OK | L8:合适
+- ledge | L5-Def:勉强(卡: sticking out) | L5-Ex:能(窗台上) | L6:不唯一(选项:A=ledge, B=lintel, C=lattice, D=hinge; 原因:都在“门窗/结构”附近，孩子可能分不清) | L7:OK | L8:合适
+- lumber | L5-Def:勉强(卡: boards) | L5-Ex:能(树屋用木板) | L6:不唯一(选项:A=lumber, B=loam, C=humus, D=linen; 原因:都是材料名词，可能混) | L7:OK | L8:合适
+- mend | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=mend, B=hone, C=hew, D=knead; 原因:needle/thread fix) | L7:OK | L8:合适
+- quarry | L5-Def:勉强(卡: dig stone) | L5-Ex:勉强(大理石来源，能懂一点) | L6:不唯一(选项:A=quarry, B=canyon, C=crater, D=plateau; 原因:都是地形/地理词，区分难) | L7:OK | L8:偏高(建议配图或更生活例)
+- ridge | L5-Def:勉强(卡: narrow top) | L5-Ex:能(山脊看山谷) | L6:不唯一(选项:A=ridge, B=ledge, C=slope, D=plateau; 原因:都是地形，孩子易混 slope/ridge) | L7:OK | L8:合适
+- slope | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=slope, B=ridge, C=mesa, D=plateau; 原因:都像“高地/斜坡”，需更独特线索如 angle) | L7:OK | L8:合适
+- spout | L5-Def:勉强(卡: opening/tube) | L5-Ex:能(鲸喷水) | L6:不唯一(选项:A=spout, B=hose, C=inlet, D=tributary; 原因:都和水相关，孩子可能只抓“water”) | L7:注意(鲸喷/捕鲸联想轻微；可保留) | L8:合适
+- stump | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=stump, B=chunk, C=kernel, D=ledge; 原因:cut tree left piece) | L7:OK | L8:合适
+- torch | L5-Def:勉强(卡: portable light 两义) | L5-Ex:能(洞里照明=手电) | L6:唯一(选项:A=torch, B=helm, C=hub, D=icon; 原因:cave light) | L7:OK | L8:合适
+- wade | L5-Def:能 | L5-Ex:能(浅水走) | L6:唯一(选项:A=wade, B=advance, C=hobble, D=lunge; 原因:walk through water) | L7:OK | L8:合适
 
-- advance | L5-Def:不能(卡:progress/improvement 抽象) | L5-Ex:勉强(能猜“move forward”但不一定是 advance；棋/棋子语境也可能不熟) | L6:不唯一(选项:A=move, B=go, C=use, D=advance; 原因:可能混:move/go) | L7:OK | L8:合适(但需先有 move/forward/progress)
-- affordable | L5-Def:勉强(卡:expensive) | L5-Ex:能(价格不贵) | L6:唯一(选项:A=hosiery, B=affordable, C=limpid, D=hyperbole; 原因:便宜→affordable) | L7:OK | L8:合适(可比 cheap/expensive)
-- analyze | L5-Def:不能(卡:with care/understand 抽象；analyze 本身生词) | L5-Ex:勉强(能猜“look at/check”但不一定) | L6:不唯一(选项:A=check, B=analyze, C=use, D=study; 原因:可能混:check/study) | L7:OK | L8:偏高(学术动词，建议先 teach study/examine)
-- apply | L5-Def:勉强(卡:put into action 抽象；多义) | L5-Ex:能(涂防晒=put on) | L6:不唯一(选项:A=use, B=do, C=apply, D=put; 原因:可能混:use/put) | L7:OK | L8:合适(但要分“apply(涂)”与“apply(申请/应用)”)
-- burden | L5-Def:勉强(卡:deal with 抽象) | L5-Ex:勉强(能懂“太重/麻烦”) | L6:不唯一(选项:A=problem, B=thing, C=load, D=burden; 原因:可能混:load/problem) | L7:OK | L8:合适(可先 heavy/problem)
-- cancel | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=infuse, B=salvage, C=cancel, D=jettison; 原因:天气原因→cancel) | L7:OK | L8:偏低(更像 level2 常用词)
-- device | L5-Def:勉强(卡:special purpose/抽象分类) | L5-Ex:能(温度计是工具) | L6:不唯一(选项:A=tool, B=thing, C=device, D=machine; 原因:可能混:tool/machine) | L7:OK | L8:合适
-- elect | L5-Def:勉强(卡:voting 概念) | L5-Ex:勉强(ballot box 可能不懂) | L6:不唯一(选项:A=elect, B=use, C=pick, D=choose; 原因:可能混:choose/pick) | L7:OK | L8:合适(建议先 teach vote)
-- emphasize | L5-Def:不能(卡:extra important/抽象) | L5-Ex:勉强(underlined 暗示“强调”) | L6:唯一(选项:A=terminate, B=advance, C=emphasize, D=invest; 原因:underlined→emphasize) | L7:OK | L8:合适
-- exclaim | L5-Def:勉强(卡:suddenly/strong feeling) | L5-Ex:能(引号+感叹) | L6:唯一(选项:A=exclaim, B=apply, C=inundate, D=mend; 原因:说出“Look!”那种) | L7:OK | L8:合适
-- frustrate | L5-Def:勉强(卡:upset because hard) | L5-Ex:能(拼图卡住→沮丧) | L6:不唯一(选项:A=annoy, B=upset, C=thing, D=frustrate; 原因:可能混:annoy/upset) | L7:OK | L8:合适
-- glimpse | L5-Def:勉强(卡:quick/short look) | L5-Ex:勉强(能懂“看到一下”) | L6:不唯一(选项:A=glimpse, B=see, C=use, D=look; 原因:可能混:look/see) | L7:OK | L8:合适
-- govern | L5-Def:不能(卡:rules/decisions for group/country 抽象政治) | L5-Ex:不能(卡:student council/spirit week 文化不熟) | L6:不唯一(选项:A=govern, B=lead, C=manage, D=use; 原因:可能混:lead/manage) | L7:注意(美国学校 student council/spirit week 文化偏美式) | L8:偏高(建议放更高 level 或换更通用例句)
-- idle | L5-Def:勉强(卡:not being used) | L5-Ex:能(秋千闲着) | L6:不唯一(选项:A=thing, B=idle, C=empty, D=unused; 原因:可能混:empty/unused) | L7:OK | L8:合适
-- invest | L5-Def:不能(卡:put money hoping for results 抽象金融) | L5-Ex:勉强(零花钱买画材=投入) | L6:不唯一(选项:A=invest, B=spend, C=buy, D=save; 原因:可能混:save/spend/buy) | L7:OK | L8:偏高(对小学生可先 save/spend)
-- manner | L5-Def:勉强(卡:behaves 抽象；多义) | L5-Ex:能(礼貌方式) | L6:不唯一(选项:A=style, B=thing, C=manner, D=way; 原因:可能混:way/style) | L7:OK | L8:合适
-- negative | L5-Def:不能(卡:多义；below zero/“bad”切换) | L5-Ex:勉强(温度负十→below zero) | L6:不唯一(选项:A=below, B=minus, C=negative, D=zero; 原因:可能混:minus/below zero) | L7:OK | L8:合适(但要和 minus/bad 分开讲)
-- outcome | L5-Def:勉强(卡:result 抽象名词) | L5-Ex:勉强(能懂“结果”) | L6:不唯一(选项:A=use, B=outcome, C=result, D=end; 原因:可能混:result/end) | L7:OK | L8:合适
-- regulate | L5-Def:不能(卡:control so works correctly 抽象) | L5-Ex:勉强(thermostat 控温) | L6:不唯一(选项:A=regulate, B=manage, C=use, D=control; 原因:可能混:control/manage) | L7:OK | L8:偏高(建议先 teach control)
-- rhythm | L5-Def:勉强(卡:pattern of beats) | L5-Ex:能(鼓点/拍手) | L6:唯一(选项:A=hymn, B=icon, C=inferno, D=rhythm; 原因:鼓→rhythm) | L7:OK | L8:合适
-- risk | L5-Def:勉强(卡:chance that) | L5-Ex:能(会被蜇) | L6:唯一(选项:A=risk, B=tension, C=havoc, D=hardship; 原因:"There's a ___ of getting stung"=有坏事发生的可能性→risk) | L7:OK | L8:合适
-- tension | L5-Def:不能(卡:feeling of worry/tightness 抽象隐喻) | L5-Ex:勉强(发卷子前紧张) | L6:不唯一(选项:A=nervousness, B=thing, C=worry, D=tension; 原因:可能混:nervousness/worry) | L7:OK | L8:偏高(建议先 nervous)
-- typical | L5-Def:勉强(卡:usual/what you expect) | L5-Ex:能(普通的一天) | L6:不唯一(选项:A=normal, B=thing, C=typical, D=usual; 原因:可能混:normal/usual) | L7:OK | L8:合适
-- basement | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=basement, B=inn, C=hangar, D=canyon; 原因:decorations in boxes stacked "in the ___" 且在房子下面→basement) | L7:OK | L8:合适(但中国住房不一定有 basement，可加说明)
-- blade | L5-Def:不能(卡:knife 刃/grass 单叶多义) | L5-Ex:勉强(草的一片) | L6:不唯一(选项:A=leaf, B=knife, C=part, D=blade; 原因:可能混:leaf/knife part) | L7:OK | L8:合适(需提醒多义)
-- canyon | L5-Def:勉强(卡:steep rock walls) | L5-Ex:能 | L6:唯一(选项:A=canyon, B=ridge, C=slope, D=plateau; 原因:"edge" + "river far below" 强指深谷→canyon) | L7:OK | L8:合适
-- chimney | L5-Def:勉强(卡:tube on top) | L5-Ex:能 | L6:唯一(选项:A=chimney, B=lintel, C=ledge, D=inlet; 原因:smoke curled up from the ___（屋顶排烟处）→chimney) | L7:OK | L8:合适
-- chunk | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=chunk, B=kernel, C=stump, D=lobe; 原因:"a big ___ of watermelon"=一大块→chunk) | L7:OK | L8:偏低
-- creek | L5-Def:勉强(卡:stream) | L5-Ex:勉强(小河) | L6:不唯一(选项:A=thing, B=creek, C=stream, D=river; 原因:可能混:stream/river) | L7:OK | L8:合适
-- crisp | L5-Def:不能(卡:firm and fresh/抽象形容口感) | L5-Ex:勉强(叶子“脆”) | L6:不唯一(选项:A=crisp, B=thing, C=fresh, D=crunchy; 原因:可能混:crunchy/fresh) | L7:OK | L8:合适
-- flask | L5-Def:不能(卡:narrow neck/实验室器皿) | L5-Ex:能(科学课瓶子) | L6:不唯一(选项:A=flask, B=jar, C=thing, D=bottle; 原因:可能混:bottle/jar) | L7:OK | L8:偏高(更偏学科词)
-- foil | L5-Def:勉强(卡:metal sheet) | L5-Ex:能(包披萨) | L6:唯一(选项:A=foil, B=linen, C=lacquer, D=lumber; 原因:wrap leftover pizza "in ___"=铝箔纸→foil) | L7:OK | L8:合适
-- gasp | L5-Def:勉强(卡:shocked) | L5-Ex:能 | L6:不唯一(选项:A=gasp, B=exclaim, C=jolt, D=glimpse; 原因:"She ___ when she saw..." 也可能是 exclaim；缺少"breathe in"线索) | L7:OK | L8:合适
-- glare | L5-Def:不能(卡:两义“强光/怒视”) | L5-Ex:勉强(雪反光刺眼) | L6:不唯一(选项:A=glare, B=light, C=bright, D=shine; 原因:可能混:shine/bright light) | L7:OK | L8:合适(需分两义)
-- glow | L5-Def:勉强(卡:soft light) | L5-Ex:能(南瓜灯发光) | L6:不唯一(选项:A=light, B=up, C=glow, D=shine; 原因:可能混:shine/light up) | L7:注意(Halloween/jack-o'-lantern 对部分家庭陌生但不冲突) | L8:合适
-- hatch | L5-Def:勉强(卡:break out of egg) | L5-Ex:能(小鸡破壳) | L6:唯一(选项:A=hatch, B=mend, C=knead, D=hew; 原因:"baby chick" + "in the shell" + "broke free"→hatch) | L7:OK | L8:合适
-- hose | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=hose, B=spout, C=torch, D=lever; 原因:喷/浇花园用长软管→hose) | L7:OK | L8:合适
-- inn | L5-Def:勉强(卡:travelers; 小旅馆概念) | L5-Ex:勉强(山脚小旅馆) | L6:不唯一(选项:A=lodge, B=thing, C=inn, D=hotel; 原因:可能混:hotel/lodge) | L7:OK | L8:偏高(不如先 hotel)
-- jolt | L5-Def:勉强(卡:sudden shake) | L5-Ex:能(公交颠一下) | L6:不唯一(选项:A=jolt, B=shake, C=bump, D=thing; 原因:可能混:bump/shake) | L7:OK | L8:合适
-- ledge | L5-Def:不能(卡:sticking out from wall) | L5-Ex:能(窗台) | L6:唯一(选项:A=ledge, B=preamble, C=filament, D=stratosphere; 原因:窗台→ledge) | L7:OK | L8:合适
-- lumber | L5-Def:不能(卡:boards for building) | L5-Ex:能(建树屋木板) | L6:不唯一(选项:A=boards, B=wood, C=lumber, D=thing; 原因:可能混:wood/boards) | L7:OK | L8:偏高(对儿童可先 wood)
-- mend | L5-Def:能(修补) | L5-Ex:能 | L6:不唯一(选项:A=fix, B=use, C=sew, D=mend; 原因:可能混:fix/sew) | L7:OK | L8:合适
-- quarry | L5-Def:不能(卡:dig stone out; 名词) | L5-Ex:不能(卡:marble/huge blocks 场景生) | L6:不唯一(选项:A=thing, B=place, C=mine, D=quarry; 原因:可能混:mine) | L7:OK | L8:偏高
-- ridge | L5-Def:不能(卡:long narrow top) | L5-Ex:勉强(山脊) | L6:不唯一(选项:A=ridge, B=thing, C=top, D=peak; 原因:可能混:peak/top) | L7:OK | L8:偏高
-- slope | L5-Def:勉强(卡:at an angle) | L5-Ex:能(下坡骑车) | L6:不唯一(选项:A=slope, B=incline, C=thing, D=hill; 原因:可能混:hill/incline) | L7:OK | L8:合适
-- spout | L5-Def:不能(卡:opening where liquid pours; 词形) | L5-Ex:勉强(鲸喷水孔/喷泉) | L6:不唯一(选项:A=fountain, B=spray, C=spout, D=use; 原因:可能混:spray/fountain) | L7:OK | L8:偏高
-- stump | L5-Def:勉强(卡:piece left in ground) | L5-Ex:能(树桩) | L6:唯一(选项:A=stump, B=ledge, C=knoll, D=ridge; 原因:"tree ___" 且被当桌子=树被砍后剩下的部分→stump) | L7:OK | L8:合适
-- torch | L5-Def:不能(卡:portable light; 多义“火把/手电”) | L5-Ex:勉强(洞里照明) | L6:不唯一(选项:A=flashlight, B=lantern, C=thing, D=torch; 原因:可能混:flashlight/lantern) | L7:OK | L8:合适(需说明英美差异 torch)
-- wade | L5-Def:勉强(卡:not very deep) | L5-Ex:能(趟水) | L6:不唯一(选项:A=through, B=walk, C=wade, D=water; 原因:可能混:walk through water) | L7:OK | L8:合适
-- asteroid | L5-Def:不能(卡:orbiting the Sun/planet 概念) | L5-Ex:不能(卡:size of bus/太抽象) | L6:不唯一(选项:A=asteroid, B=thing, C=comet, D=meteor; 原因:可能混:meteor/comet) | L7:OK | L8:偏高(天文词)
-- axis | L5-Def:不能(卡:imaginary line/spin around) | L5-Ex:不能(卡:地球自转概念+axis 生词) | L6:不唯一(选项:A=axis, B=thing, C=pole, D=line; 原因:可能混:line/pole) | L7:OK | L8:偏高
-- carnivore | L5-Def:不能(卡:mostly/only meat; 词形) | L5-Ex:勉强(狮子吃肉) | L6:不唯一(选项:A=carnivore, B=predator, C=thing, D=place; 原因:可能混:predator) | L7:OK | L8:偏高(建议先 meat-eater/animal groups)
-- census | L5-Def:不能(卡:official count/government) | L5-Ex:不能(卡:every ten years/state 文化&概念) | L6:不唯一(选项:A=census, B=count, C=survey, D=thing; 原因:可能混:survey/count) | L7:注意(美国 census/州概念) | L8:偏高
-- chlorophyll | L5-Def:不能(卡:pigment/sunlight/能量转化) | L5-Ex:不能(同上) | L6:唯一(选项:A=pharaoh, B=chlorophyll, C=respiration, D=aquifer; 原因:叶子变绿→chlorophyll，但词太难) | L7:OK | L8:偏高(更像中学科学词)
-- crater | L5-Def:不能(卡:bowl-shaped/from space rock) | L5-Ex:勉强(月球坑) | L6:不唯一(选项:A=pit, B=hole, C=crater, D=thing; 原因:可能混:hole/pit) | L7:OK | L8:偏高
-- crustacean | L5-Def:不能(卡:分类词+many legs) | L5-Ex:勉强(龙虾/硬壳) | L6:不唯一(选项:A=crustacean, B=thing, C=place, D=shellfish; 原因:可能混:shellfish) | L7:OK | L8:偏高
-- digestive | L5-Def:不能(卡:break down food into energy) | L5-Ex:不能(卡:system 概念) | L6:不唯一(选项:A=stomach, B=body, C=thing, D=digestive; 原因:可能混:stomach/body) | L7:OK | L8:偏高
-- elevation | L5-Def:不能(卡:above ocean level/测量概念) | L5-Ex:不能(卡:8,000 feet 单位+概念) | L6:不唯一(选项:A=altitude, B=thing, C=elevation, D=height; 原因:可能混:height/altitude) | L7:注意(feet 单位不友好) | L8:偏高
-- fertile | L5-Def:不能(卡:rich soil; fertile 多义“生育力”) | L5-Ex:勉强(河边土好) | L6:不唯一(选项:A=fertile, B=good, C=rich, D=for; 原因:可能混:rich/good for plants) | L7:OK | L8:偏高(易引出成人义；建议语境更明确)
-- glacier | L5-Def:不能(卡:mass of ice moves slowly) | L5-Ex:勉强(冰河像冻河) | L6:不唯一(选项:A=glacier, B=iceberg, C=thing, D=place; 原因:可能混:iceberg) | L7:OK | L8:偏高
-- herbivore | L5-Def:不能(卡:分类词) | L5-Ex:勉强(兔子吃草) | L6:不唯一(选项:A=place, B=herbivore, C=plant-eater, D=thing; 原因:可能混:plant-eater) | L7:OK | L8:偏高
-- humidity | L5-Def:不能(卡:amount of water in air) | L5-Ex:勉强(眼镜起雾) | L6:不唯一(选项:A=heat, B=thing, C=humidity, D=wetness; 原因:可能混:wetness/heat) | L7:OK | L8:偏高
-- legislature | L5-Def:不能(卡:make laws; 政治机构) | L5-Ex:不能(卡:voted/pass law/recess 概念串太长) | L6:不唯一(选项:A=legislature, B=congress, C=government, D=thing; 原因:可能混:government/congress) | L7:OK | L8:偏高
-- molecule | L5-Def:不能(卡:unit/substance/atoms) | L5-Ex:不能(卡:millions fit in drop 抽象数量) | L6:不唯一(选项:A=particle, B=thing, C=atom, D=molecule; 原因:可能混:atom/particle) | L7:OK | L8:偏高
-- arid | L5-Def:不能(卡:almost no rain) | L5-Ex:勉强(仙人掌→干) | L6:不唯一(选项:A=thing, B=arid, C=dry, D=desert; 原因:可能混:dry/desert) | L7:OK | L8:偏高(先 teach dry)
-- archaeology | L5-Def:不能(卡:ancient/left behind/study) | L5-Ex:不能(卡:dig up artifacts) | L6:不唯一(选项:A=history, B=place, C=thing, D=archaeology; 原因:可能混:history) | L7:OK | L8:偏高
-- mesa | L5-Def:不能(卡:地貌专名) | L5-Ex:不能(卡:像桌子=隐喻但词难) | L6:不唯一(选项:A=plateau；且本表两词易互混, B=mesa, C=place, D=thing; 原因:可能混:plateau；且本表两词易互混) | L7:OK | L8:偏高(建议与 plateau 对比并错开)
-- tundra | L5-Def:不能(卡:biome/ frozen/no trees) | L5-Ex:不能(卡:Arctic/tough plants) | L6:不唯一(选项:A=ice, B=land, C=thing, D=tundra; 原因:可能混:ice land) | L7:OK | L8:偏高
-- stalagmite | L5-Def:不能(卡:洞穴地质词) | L5-Ex:不能(卡:dripping water/over thousands years 太长) | L6:不唯一(选项:A=stalagmite, B=thing, C=stalactite, D=place; 原因:可能混:stalactite) | L7:OK | L8:偏高
-- tributary | L5-Def:不能(卡:flows into bigger river) | L5-Ex:不能(卡:joins main river) | L6:不唯一(选项:A=stream, B=thing, C=branch, D=tributary; 原因:可能混:branch/stream) | L7:OK | L8:偏高
-- archipelago | L5-Def:不能(卡:group of islands) | L5-Ex:勉强(Hawaii 可能听过但概念不稳) | L6:不唯一(选项:A=archipelago, B=islands, C=thing, D=place; 原因:可能混:islands) | L7:OK | L8:偏高
-- stratosphere | L5-Def:不能(卡:atmosphere layers/ozone) | L5-Ex:不能(卡:weather balloon/sky looks black) | L6:不唯一(选项:A=space, B=stratosphere, C=thing, D=sky; 原因:可能混:space/sky) | L7:OK | L8:偏高
-- preamble | L5-Def:不能(卡:opening part/purpose) | L5-Ex:不能(卡:Constitution/We the People 文化) | L6:不唯一(选项:A=introduction, B=thing, C=place, D=preamble; 原因:可能混:introduction) | L7:注意(美国宪法梗；家长可能觉得政治化) | L8:偏高(建议换更通用文本例子)
-- filament | L5-Def:不能(卡:thin thread/wire) | L5-Ex:不能(卡:light bulb/white-hot) | L6:不唯一(选项:A=thing, B=filament, C=wire, D=thread; 原因:可能混:wire/thread) | L7:OK | L8:偏高
-- nocturnal | L5-Def:不能(卡:词形+sleeping during day) | L5-Ex:勉强(猫头鹰晚上活动) | L6:不唯一(选项:A=animals, B=thing, C=night, D=nocturnal; 原因:可能混:night animals) | L7:OK | L8:偏高
-- translucent | L5-Def:不能(卡:let light through but not clear) | L5-Ex:不能(卡:jellyfish+抽象描述) | L6:不唯一(选项:A=thing, B=place, C=translucent, D=transparent; 原因:可能混:transparent) | L7:OK | L8:偏高
-- omnivore | L5-Def:不能(卡:分类词) | L5-Ex:勉强(熊吃鱼也吃莓) | L6:不唯一(选项:A=omnivore, B=that, C=animal, D=eats; 原因:可能混:animal that eats both) | L7:OK | L8:偏高
-- plateau | L5-Def:不能(卡:地貌词) | L5-Ex:不能(卡:像桌子比喻；与 mesa 重复) | L6:不唯一(选项:A=thing, B=place, C=mesa, D=plateau; 原因:可能混:mesa) | L7:OK | L8:偏高(与 mesa 一起教更好)
-- geothermal | L5-Def:不能(卡:deep inside Earth/energy) | L5-Ex:不能(卡:Iceland 文化地理) | L6:不唯一(选项:A=spring, B=heat, C=hot, D=geothermal; 原因:可能混:hot spring/heat energy) | L7:OK | L8:偏高
-- specimen | L5-Def:不能(卡:one example used to study) | L5-Ex:不能(卡:lab/collect) | L6:不唯一(选项:A=sample, B=place, C=specimen, D=thing; 原因:可能混:sample) | L7:OK | L8:偏高
-- meridian | L5-Def:不能(卡:imaginary line on map) | L5-Ex:不能(卡:Prime Meridian/London) | L6:不唯一(选项:A=meridian, B=line, C=longitude, D=thing; 原因:可能混:longitude line) | L7:注意(伦敦/东西半球知识) | L8:偏高
-- respiration | L5-Def:不能(卡:process/oxygen/carbon dioxide) | L5-Ex:不能(卡:gym class/生理词) | L6:不唯一(选项:A=breathing, B=place, C=thing, D=respiration; 原因:可能混:breathing) | L7:OK | L8:偏高
-- paleontology | L5-Def:不能(卡:prehistoric/fossils) | L5-Ex:勉强(恐龙化石→线索强但词极难) | L6:不唯一(选项:A=thing, B=place, C=paleontology, D=archaeology；两个学科易混; 原因:可能混:archaeology；两个学科易混) | L7:OK | L8:偏高
-- aquifer | L5-Def:不能(卡:permeable rock/sediment holds water) | L5-Ex:不能(卡:drinking water from aquifer 概念) | L6:不唯一(选项:A=water, B=underground, C=aquifer, D=thing; 原因:可能混:underground water) | L7:OK | L8:偏高
-- deciduous | L5-Def:不能(卡:季节落叶+词形) | L5-Ex:不能(卡:oak/November 细节多) | L6:不唯一(选项:A=tree, B=leafy, C=deciduous, D=thing; 原因:可能混:leafy tree) | L7:OK | L8:偏高
-- pharaoh | L5-Def:不能(卡:ancient Egypt ruler) | L5-Ex:勉强(金字塔+埃及王) | L6:唯一(选项:A=pharaoh, B=hermit, C=herald, D=harrow; 原因:埃及金字塔→pharaoh) | L7:OK | L8:偏高(文化历史词)
-- sedimentary | L5-Def:不能(卡:layers pressed together) | L5-Ex:勉强(像煎饼层=线索好) | L6:不唯一(选项:A=sedimentary, B=thing, C=rock, D=layered; 原因:可能混:layered rock) | L7:OK | L8:偏高
-- isthmus | L5-Def:不能(卡:narrow strip connecting land) | L5-Ex:不能(卡:Isthmus of Panama/地理知识) | L6:不唯一(选项:A=isthmus, B=thing, C=bridge, D=land; 原因:可能混:land bridge) | L7:OK | L8:偏高
-- dividend | L5-Def:不能(卡:dividend/divide 抽象术语) | L5-Ex:勉强(12÷3 例子能跟着，但“dividend”仍难) | L6:唯一(选项:A=homestead, B=hornet, C=dividend, D=hinge; 原因:数学格式强) | L7:OK | L8:偏高(需先会 division/÷)
-- divisor | L5-Def:不能(卡:术语+groups) | L5-Ex:勉强(12÷3) | L6:唯一(选项:A=dividend, B=divisor, C=interval, D=outcome; 原因:"12 ÷ 3" 中"the ___ is 3"且=分成几组的数→divisor) | L7:OK | L8:偏高(建议 dividend/divisor 成对紧挨且先 teach divide)
-- mandate | L5-Def:不能(卡:official order) | L5-Ex:勉强(学校规定戴头盔) | L6:不唯一(选项:A=rule, B=mandate, C=thing, D=order; 原因:可能混:rule/order) | L7:OK | L8:偏高(先 teach rule)
-- authentic | L5-Def:勉强(卡:copied/fake) | L5-Ex:勉强(博物馆真牙) | L6:不唯一(选项:A=true, B=thing, C=authentic, D=real; 原因:可能混:real/true) | L7:OK | L8:合适
-- scarcity | L5-Def:不能(卡:shortage/needs) | L5-Ex:不能(卡:water lawns once a week 文化&逻辑) | L6:不唯一(选项:A=thing, B=scarcity, C=lack, D=shortage; 原因:可能混:lack/shortage) | L7:注意(浇草坪在中国家庭不常见) | L8:偏高
-- ancestry | L5-Def:不能(卡:family members long before) | L5-Ex:勉强(家族来自爱尔兰) | L6:不唯一(选项:A=ancestry, B=place, C=thing, D=lineage; 原因:可能混:lineage) | L7:OK | L8:偏高(需先 family tree/ancestor)
-- interval | L5-Def:不能(卡:time/space between) | L5-Ex:勉强(十分钟一班) | L6:不唯一(选项:A=interval, B=thing, C=between, D=gap; 原因:可能混:gap/between) | L7:OK | L8:偏高
-- eligible | L5-Def:不能(卡:meet the rules) | L5-Ex:不能(卡:reading club 条件句较长) | L6:不唯一(选项:A=eligible, B=thing, C=qualified, D=allowed; 原因:可能混:allowed/qualified) | L7:OK | L8:偏高
-- manipulate | L5-Def:不能(卡:两义“skillfully handle/骗”) | L5-Ex:能(捏黏土=handle) | L6:不唯一(选项:A=mold；且需避免引到“操控别人”, B=thing, C=shape, D=manipulate; 原因:可能混:shape/mold；且需避免引到“操控别人”) | L7:注意(“trick someone”含道德敏感，家长可能介意) | L8:偏高(建议只保留“shape/handle”义)
-- salvage | L5-Def:不能(卡:rescue from destroyed) | L5-Ex:不能(卡:flood/photo albums 场景重) | L6:不唯一(选项:A=salvage, B=save, C=use, D=do; 原因:可能混:save) | L7:OK | L8:偏高
-- acquire | L5-Def:勉强(卡:often by working for it) | L5-Ex:勉强(攒钱买望远镜) | L6:不唯一(选项:A=get, B=thing, C=acquire, D=buy; 原因:可能混:get/buy) | L7:OK | L8:合适
-- terminate | L5-Def:不能(卡:stop completely/抽象) | L5-Ex:不能(卡:train terminate; 破折号句式) | L6:不唯一(选项:A=stop, B=use, C=terminate, D=end; 原因:可能混:end/stop) | L7:OK | L8:偏高
-- verdict | L5-Def:不能(卡:trial/judges 决定) | L5-Ex:不能(卡:judges/contest) | L6:不唯一(选项:A=verdict, B=result, C=decision, D=thing; 原因:可能混:decision/result) | L7:OK | L8:偏高
-- hangar | L5-Def:不能(卡:airplanes kept; 不常见名词) | L5-Ex:勉强(飞机库修引擎) | L6:不唯一(选项:A=hangar, B=thing, C=garage, D=place; 原因:可能混:garage) | L7:OK | L8:偏高
-- hardship | L5-Def:不能(卡:conditions cause suffering) | L5-Ex:不能(卡:pioneer families 文化) | L6:不唯一(选项:A=thing, B=difficulty, C=hardship, D=place; 原因:可能混:difficulty) | L7:注意(pioneer/美国拓荒叙事) | L8:偏高
-- harpoon | L5-Def:不能(卡:spear catching whales) | L5-Ex:勉强(扎大鱼金枪鱼) | L6:不唯一(选项:A=harpoon, B=place, C=thing, D=spear; 原因:可能混:spear) | L7:注意(涉及捕鲸联想；部分家长反感) | L8:偏高
-- harrow | L5-Def:不能(卡:farm tool/soil clumps) | L5-Ex:不能(卡:prepare soil 术语) | L6:不唯一(选项:A=thing, B=place, C=harrow, D=plow; 原因:可能混:plow) | L7:OK | L8:偏高
-- haste | L5-Def:勉强(卡:hurry) | L5-Ex:能(赶公交忘午饭) | L6:不唯一(选项:A=haste, B=thing, C=rush, D=hurry; 原因:可能混:hurry/rush) | L7:OK | L8:合适
-- havoc | L5-Def:不能(卡:damage and disorder) | L5-Ex:勉强(龙卷风破坏) | L6:不唯一(选项:A=havoc, B=chaos, C=damage, D=thing; 原因:可能混:damage/chaos) | L7:OK | L8:偏高
-- headway | L5-Def:不能(卡:idiom; progress toward goal) | L5-Ex:不能(卡:make headway 习语) | L6:不唯一(选项:A=thing, B=progress, C=headway, D=place; 原因:可能混:progress) | L7:OK | L8:偏高(习语不适合低龄)
-- heed | L5-Def:不能(卡:pay attention to advice) | L5-Ex:勉强(听爸爸警告穿外套) | L6:不唯一(选项:A=thing, B=heed, C=listen, D=follow; 原因:可能混:listen/follow) | L7:OK | L8:偏高
-- helm | L5-Def:不能(卡:steer a ship; 名词) | L5-Ex:不能(卡:channel/航海词) | L6:不唯一(选项:A=wheel, B=place, C=thing, D=helm; 原因:可能混:wheel) | L7:OK | L8:偏高
-- herald | L5-Def:不能(卡:announce news / sign of coming 双义) | L5-Ex:不能(卡:heralds of spring 隐喻) | L6:不唯一(选项:A=thing, B=herald, C=sign, D=announce; 原因:可能混:sign/announce) | L7:OK | L8:偏高
-- hermit | L5-Def:勉强(卡:lives alone away from others) | L5-Ex:能(山顶小屋独居) | L6:不唯一(选项:A=hermit, B=person, C=lonely, D=thing; 原因:可能混:lonely person) | L7:OK | L8:偏高
-- hew | L5-Def:不能(卡:chop/heavy tool 词形) | L5-Ex:勉强(樵夫砍树成木段) | L6:不唯一(选项:A=cut, B=hew, C=thing, D=chop; 原因:可能混:cut/chop) | L7:OK | L8:偏高
-- hinge | L5-Def:不能(卡:metal piece lets door swing) | L5-Ex:能(门轴嘎吱) | L6:唯一(选项:A=hinge, B=helm, C=lever, D=lintel; 原因:"gate swung" + "on its rusty ___"=让门/门闩转动的部件→hinge) | L7:OK | L8:合适
-- hoard | L5-Def:不能(卡:store large amount) | L5-Ex:勉强(龙存金币) | L6:不唯一(选项:A=collect, B=use, C=save, D=hoard; 原因:可能混:collect/save) | L7:OK | L8:偏高
-- hobble | L5-Def:不能(卡:walk with trouble) | L5-Ex:能(扭脚走不稳) | L6:不唯一(选项:A=limp, B=place, C=hobble, D=thing; 原因:可能混:limp) | L7:OK | L8:偏高
-- hoist | L5-Def:不能(卡:lift with ropes) | L5-Ex:勉强(船员拉锚) | L6:不唯一(选项:A=hoist, B=up, C=pull, D=lift; 原因:可能混:lift/pull up) | L7:OK | L8:偏高
-- homage | L5-Def:不能(卡:honor shown publicly) | L5-Ex:不能(卡:statue/serve country 抽象) | L6:不唯一(选项:A=homage, B=respect, C=honor, D=thing; 原因:可能混:honor/respect) | L7:OK | L8:偏高
-- homestead | L5-Def:不能(卡:land/buildings around house) | L5-Ex:不能(卡:acres/barn 场景偏美式农场) | L6:不唯一(选项:A=farm, B=thing, C=house, D=homestead; 原因:可能混:farm/house) | L7:注意(美式农庄意象) | L8:偏高
-- hone | L5-Def:不能(卡:improve a skill; 动词隐喻“磨”) | L5-Ex:勉强(练画=improve) | L6:不唯一(选项:A=practice, B=improve, C=thing, D=hone; 原因:可能混:practice/improve) | L7:OK | L8:偏高
-- hornet | L5-Def:勉强(卡:similar to wasp) | L5-Ex:能(野餐桌旁大黄蜂) | L6:不唯一(选项:A=wasp, B=bee, C=thing, D=hornet; 原因:可能混:wasp/bee) | L7:OK | L8:合适
-- hosiery | L5-Def:不能(卡:stockings 词) | L5-Ex:不能(卡:aisle/词难) | L6:不唯一(选项:A=thing, B=socks, C=hosiery, D=place; 原因:可能混:socks) | L7:OK | L8:偏高(低频品类词)
-- hospitable | L5-Def:不能(卡:welcoming) | L5-Ex:能(端柠檬水饼干欢迎) | L6:不唯一(选项:A=kind, B=friendly, C=hospitable, D=thing; 原因:可能混:friendly/kind) | L7:OK | L8:偏高
-- hub | L5-Def:勉强(卡:center of activity) | L5-Ex:勉强(机场枢纽) | L6:不唯一(选项:A=hub, B=thing, C=place, D=center; 原因:可能混:center) | L7:OK | L8:偏高
-- huddle | L5-Def:勉强(卡:crowd together) | L5-Ex:能(队员围在一起) | L6:不唯一(选项:A=thing, B=place, C=gather, D=huddle; 原因:可能混:gather) | L7:OK | L8:合适
-- hull | L5-Def:不能(卡:main body of ship) | L5-Ex:不能(卡:painted hull; 船体词) | L6:不唯一(选项:A=body, B=ship, C=hull, D=thing; 原因:可能混:ship body) | L7:OK | L8:偏高
-- humus | L5-Def:不能(卡:decomposed plants) | L5-Ex:不能(卡:garden soil 专词) | L6:不唯一(选项:A=soil, B=place, C=thing, D=humus; 原因:可能混:soil) | L7:OK | L8:偏高
-- hurdle | L5-Def:不能(卡:两义“跨栏/困难”) | L5-Ex:勉强(跑道跨栏) | L6:不唯一(选项:A=place, B=hurdle, C=barrier, D=thing; 原因:可能混:barrier) | L7:OK | L8:合适(但要说明比喻义)
-- hurl | L5-Def:勉强(卡:great force) | L5-Ex:勉强(投手用力扔) | L6:不唯一(选项:A=hurl, B=do, C=use, D=throw; 原因:可能混:throw) | L7:OK | L8:偏高
-- hurricane | L5-Def:勉强(卡:powerful storm) | L5-Ex:能(很强风雨) | L6:不唯一(选项:A=hurricane, B=typhoon, C=thing, D=storm; 原因:可能混:storm/typhoon) | L7:OK | L8:合适(可提示=typhoon 同类)
-- hydrate | L5-Def:不能(卡:to drink enough water; 动词形态) | L5-Ex:勉强(教练提醒喝水) | L6:不唯一(选项:A=water, B=thing, C=hydrate, D=drink; 原因:可能混:drink water) | L7:OK | L8:偏高(先 teach drink water)
-- hymn | L5-Def:不能(卡:religious song/praise) | L5-Ex:不能(卡:church/choir 文化词) | L6:不唯一(选项:A=song, B=place, C=thing, D=hymn; 原因:可能混:song) | L7:注意(宗教内容；部分家长敏感) | L8:偏高
-- hyperbole | L5-Def:不能(卡:修辞术语) | L5-Ex:不能(卡:idiom eat a horse) | L6:不唯一(选项:A=exaggeration, B=thing, C=place, D=hyperbole; 原因:可能混:exaggeration) | L7:注意(“吃马”夸张句可能让部分孩子不适) | L8:偏高(修辞学更高年级)
-- icon | L5-Def:勉强(卡:symbol) | L5-Ex:能(邮件小图标) | L6:不唯一(选项:A=logo, B=thing, C=icon, D=button; 原因:可能混:button/logo) | L7:OK | L8:合适
-- imbue | L5-Def:不能(卡:fill with a quality) | L5-Ex:不能(卡:love of reading 抽象) | L6:不唯一(选项:A=inspire, B=thing, C=teach, D=imbue; 原因:可能混:inspire/teach) | L7:OK | L8:偏高
-- impervious | L5-Def:不能(卡:不透/不受影响；词形太难) | L5-Ex:勉强(防水外套不进水) | L6:不唯一(选项:A=impervious, B=thing, C=place, D=waterproof; 原因:可能混:waterproof) | L7:OK | L8:偏高
-- impound | L5-Def:不能(卡:by law; take and keep) | L5-Ex:不能(卡:parked illegally/towed 生活经验不足) | L6:不唯一(选项:A=thing, B=impound, C=take, D=away; 原因:可能混:take away) | L7:OK | L8:偏高
-- indent | L5-Def:不能(卡:文本排版术语) | L5-Ex:不能(卡:paragraph/essay) | L6:唯一(选项:A=acquire, B=indent, C=manipulate, D=salvage; 原因:写作格式→indent) | L7:OK | L8:偏高
-- inferno | L5-Def:不能(卡:fierce fire) | L5-Ex:勉强(森林大火) | L6:不唯一(选项:A=inferno, B=fire, C=thing, D=big; 原因:可能混:big fire) | L7:OK | L8:偏高
-- infuse | L5-Def:不能(卡:两义“fill/泡出味道”) | L5-Ex:勉强(柠檬薄荷泡水) | L6:不唯一(选项:A=mix, B=thing, C=infuse, D=add; 原因:可能混:mix/add) | L7:OK | L8:偏高
-- inlet | L5-Def:不能(卡:water reaches into land) | L5-Ex:不能(卡:kayakers/pine trees) | L6:不唯一(选项:A=place, B=inlet, C=bay, D=thing; 原因:可能混:bay) | L7:OK | L8:偏高
-- inquest | L5-Def:不能(卡:official investigation; 法律词) | L5-Ex:不能(卡:judge ordered inquest) | L6:不唯一(选项:A=inquest, B=place, C=thing, D=investigation; 原因:可能混:investigation) | L7:OK | L8:偏高
-- instill | L5-Def:不能(卡:gradually teach feeling) | L5-Ex:勉强(教练灌输团队感) | L6:不唯一(选项:A=build, B=thing, C=instill, D=teach; 原因:可能混:teach/build) | L7:OK | L8:偏高
-- insular | L5-Def:不能(卡:cut off/narrow thinking 双义抽象) | L5-Ex:不能(卡:outside world 抽象) | L6:不唯一(选项:A=isolated, B=place, C=thing, D=insular; 原因:可能混:isolated) | L7:OK | L8:偏高
-- intrigue | L5-Def:不能(卡:curious/interested; 动词) | L5-Ex:勉强(神秘盒子引起好奇) | L6:不唯一(选项:A=intrigue, B=interest, C=curious, D=thing; 原因:可能混:interest/curious) | L7:OK | L8:偏高
-- inundate | L5-Def:不能(卡:flood/overwhelm) | L5-Ex:不能(卡:viral/inundated with calls) | L6:不唯一(选项:A=fill, B=flood, C=thing, D=inundate; 原因:可能混:fill/flood) | L7:OK | L8:偏高
-- irate | L5-Def:不能(卡:very angry) | L5-Ex:勉强(顾客要找经理) | L6:不唯一(选项:A=mad, B=angry, C=irate, D=thing; 原因:可能混:angry/mad) | L7:OK | L8:偏高
-- irk | L5-Def:不能(卡:mildly annoy) | L5-Ex:勉强(水龙头滴答很烦) | L6:不唯一(选项:A=annoy, B=irk, C=place, D=thing; 原因:可能混:annoy) | L7:OK | L8:偏高(低频)
-- ivory | L5-Def:不能(卡:material from tusks; 动物相关) | L5-Ex:勉强(象牙色琴键) | L6:不唯一(选项:A=ivory, B=cream, C=white, D=thing; 原因:可能混:white/cream) | L7:注意(象牙涉及盗猎伦理；家长可能不舒服) | L8:偏高
-- jaunt | L5-Def:不能(卡:short trip for fun) | L5-Ex:勉强(周末小旅行) | L6:不唯一(选项:A=trip, B=thing, C=place, D=jaunt; 原因:可能混:trip) | L7:OK | L8:偏高
-- jest | L5-Def:勉强(卡:in a funny way) | L5-Ex:勉强(说着玩) | L6:不唯一(选项:A=joke, B=place, C=jest, D=thing; 原因:可能混:joke) | L7:OK | L8:偏高
-- jettison | L5-Def:不能(卡:throw overboard; 航空词) | L5-Ex:不能(卡:pilot jettisoned fuel) | L6:不唯一(选项:A=away, B=use, C=throw, D=jettison; 原因:可能混:throw away) | L7:OK | L8:偏高
-- jinx | L5-Def:不能(卡:bad luck/迷信词) | L5-Ex:不能(卡:broken mirror superstition) | L6:不唯一(选项:A=jinx, B=luck, C=bad, D=thing; 原因:可能混:bad luck) | L7:注意(迷信内容；家长可能不喜欢) | L8:偏高
-- jostle | L5-Def:不能(卡:bump/push roughly) | L5-Ex:能(抢玩具互推) | L6:不唯一(选项:A=bump, B=push, C=jostle, D=thing; 原因:可能混:push/bump) | L7:OK | L8:偏高
-- jubilant | L5-Def:不能(卡:great happiness) | L5-Ex:勉强(举奖杯庆祝) | L6:不唯一(选项:A=jubilant, B=excited, C=thing, D=happy; 原因:可能混:happy/excited) | L7:OK | L8:偏高
-- juncture | L5-Def:不能(卡:point in time; where things join 双义) | L5-Ex:不能(卡:At this juncture 书面表达) | L6:不唯一(选项:A=time, B=moment, C=thing, D=juncture; 原因:可能混:time/moment) | L7:OK | L8:偏高
-- juniper | L5-Def:不能(卡:植物专名) | L5-Ex:不能(卡:berries/shrub) | L6:不唯一(选项:A=juniper, B=place, C=thing, D=bush; 原因:可能混:bush) | L7:OK | L8:偏高
-- kernel | L5-Def:勉强(卡:seed/nut inner part) | L5-Ex:能(爆米花一粒粒) | L6:不唯一(选项:A=thing, B=place, C=kernel, D=piece; 原因:可能混:piece) | L7:OK | L8:合适
-- kilt | L5-Def:不能(卡:Scotland 文化服饰) | L5-Ex:不能(卡:bagpiper 文化词) | L6:唯一(选项:A=hymn, B=icon, C=inferno, D=kilt; 原因:苏格兰格子裙→kilt，但文化门槛高) | L7:OK(文化陌生但不冲突) | L8:偏高
-- knack | L5-Def:不能(卡:natural talent) | L5-Ex:勉强(很会修东西) | L6:不唯一(选项:A=talent, B=thing, C=skill, D=knack; 原因:可能混:talent/skill) | L7:OK | L8:偏高
-- knead | L5-Def:不能(卡:dough/press squeeze) | L5-Ex:勉强(做面包揉面) | L6:不唯一(选项:A=knead, B=thing, C=mix, D=place; 原因:可能混:mix) | L7:OK | L8:偏高
-- knell | L5-Def:不能(卡:sad event bell; 词形) | L5-Ex:不能(卡:church bell; 文化词) | L6:不唯一(选项:A=ring, B=thing, C=knell, D=sound; 原因:可能混:ring sound) | L7:注意(church 场景+丧事) | L8:偏高
-- knoll | L5-Def:不能(卡:small round hill) | L5-Ex:勉强(草坡野餐) | L6:不唯一(选项:A=hill, B=thing, C=place, D=knoll; 原因:可能混:hill) | L7:OK | L8:偏高
-- lacquer | L5-Def:不能(卡:coating) | L5-Ex:不能(卡:jewelry box lacquer) | L6:不唯一(选项:A=lacquer, B=coating, C=paint, D=thing; 原因:可能混:paint/coating) | L7:OK | L8:偏高
-- lair | L5-Def:不能(卡:den/hiding place) | L5-Ex:勉强(熊洞里过冬) | L6:不唯一(选项:A=cave, B=thing, C=den, D=lair; 原因:可能混:den/cave) | L7:OK | L8:偏高
-- lance | L5-Def:不能(卡:knights/weapon) | L5-Ex:不能(卡:knight charge 文化) | L6:不唯一(选项:A=thing, B=place, C=lance, D=spear; 原因:可能混:spear) | L7:OK | L8:偏高
-- lanky | L5-Def:不能(卡:awkward way) | L5-Ex:能(高个子进门要低头) | L6:不唯一(选项:A=thin, B=thing, C=lanky, D=tall; 原因:可能混:tall/thin) | L7:OK | L8:偏高
-- lattice | L5-Def:不能(卡:crossed strips frame) | L5-Ex:不能(卡:玫瑰爬架词) | L6:不唯一(选项:A=fence, B=thing, C=trellis, D=lattice; 原因:可能混:fence/trellis) | L7:OK | L8:偏高
-- lavish | L5-Def:不能(卡:fancy/more than enough) | L5-Ex:能(巧克力喷泉/乐队/小马) | L6:不唯一(选项:A=big, B=thing, C=lavish, D=fancy; 原因:可能混:fancy/big) | L7:OK | L8:偏高
-- ledger | L5-Def:不能(卡:recording money) | L5-Ex:勉强(店主记账本) | L6:不唯一(选项:A=record, B=thing, C=ledger, D=book; 原因:可能混:book/record) | L7:OK | L8:偏高
-- leech | L5-Def:不能(卡:feeds on blood) | L5-Ex:能(脚踝吸血虫) | L6:唯一(选项:A=leech, B=hornet, C=crustacean, D=juniper; 原因:"stuck to his ankle" + wading in pond→吸血水蛭 leech) | L7:注意(吸血/有点恶心但可接受) | L8:偏高
-- leer | L5-Def:不能(卡:sly/unpleasant look) | L5-Ex:不能(卡:villain leered; 抽象情绪词) | L6:不唯一(选项:A=look, B=stare, C=use, D=leer; 原因:可能混:look/stare) | L7:OK | L8:偏高
-- legible | L5-Def:不能(卡:without much work/抽象) | L5-Ex:勉强(字写清楚老师能读) | L6:不唯一(选项:A=clear, B=thing, C=legible, D=neat; 原因:可能混:clear/neat) | L7:OK | L8:偏高
-- legion | L5-Def:不能(卡:many people/ soldiers) | L5-Ex:勉强(很多粉丝) | L6:不唯一(选项:A=crowd, B=legion, C=thing, D=many; 原因:可能混:crowd/many) | L7:OK | L8:偏高
-- lever | L5-Def:不能(卡:pry/工具概念) | L5-Ex:不能(卡:crate/lid 场景) | L6:不唯一(选项:A=thing, B=lever, C=bar, D=tool; 原因:可能混:bar/tool) | L7:OK | L8:偏高
-- lilac | L5-Def:不能(卡:植物专名) | L5-Ex:不能(卡:perfume 词) | L6:不唯一(选项:A=lilac, B=bush, C=flower, D=thing; 原因:可能混:flower/bush) | L7:OK | L8:偏高
-- limber | L5-Def:不能(卡:flexible) | L5-Ex:勉强(体操柔韧) | L6:不唯一(选项:A=limber, B=thing, C=flexible, D=place; 原因:可能混:flexible) | L7:OK | L8:偏高
-- limelight | L5-Def:不能(卡:public attention/抽象隐喻) | L5-Ex:不能(卡:actress hit movie) | L6:不唯一(选项:A=limelight, B=fame, C=thing, D=attention; 原因:可能混:attention/fame) | L7:OK | L8:偏高
-- limpid | L5-Def:不能(卡:perfectly clear 书面词) | L5-Ex:勉强(清到能数石子) | L6:不唯一(选项:A=limpid, B=clear, C=thing, D=place; 原因:可能混:clear) | L7:OK | L8:偏高(低频同义词)
-- lineage | L5-Def:不能(卡:direct line of family) | L5-Ex:勉强(追溯几代祖先) | L6:不唯一(选项:A=thing, B=ancestry, C=lineage, D=place; 原因:可能混:ancestry) | L7:OK | L8:偏高(与 ancestry 重复)
-- linen | L5-Def:不能(卡:flax plant) | L5-Ex:勉强(桌布布料) | L6:不唯一(选项:A=cloth, B=place, C=linen, D=thing; 原因:可能混:cloth) | L7:OK | L8:偏高
-- lintel | L5-Def:不能(卡:beam supports wall) | L5-Ex:不能(卡:carved date) | L6:不唯一(选项:A=door, B=thing, C=frame, D=lintel; 原因:可能混:door frame) | L7:OK | L8:偏高
-- listless | L5-Def:不能(卡:no energy/interest) | L5-Ex:勉强(热下午没劲) | L6:不唯一(选项:A=listless, B=place, C=thing, D=tired; 原因:可能混:tired) | L7:OK | L8:偏高
-- litany | L5-Def:不能(卡:repetitive list) | L5-Ex:勉强(老师念一长串规则) | L6:不唯一(选项:A=litany, B=thing, C=place, D=list; 原因:可能混:list) | L7:OK | L8:偏高
-- lithe | L5-Def:不能(卡:graceful) | L5-Ex:勉强(舞者像猫) | L6:不唯一(选项:A=flexible, B=thing, C=graceful, D=lithe; 原因:可能混:graceful/flexible) | L7:OK | L8:偏高
-- livelihood | L5-Def:不能(卡:earn money to live) | L5-Ex:不能(卡:coastal village/fishing) | L6:不唯一(选项:A=livelihood, B=work, C=job, D=thing; 原因:可能混:job/work) | L7:OK | L8:偏高
-- loam | L5-Def:不能(卡:soil mix sand/clay) | L5-Ex:不能(卡:garden pots) | L6:不唯一(选项:A=loam, B=dirt, C=soil, D=thing; 原因:可能混:soil/dirt) | L7:OK | L8:偏高
-- lobe | L5-Def:不能(卡:rounded part; ear/brain) | L5-Ex:能(耳垂戴耳钉) | L6:不唯一(选项:A=thing, B=place, C=part, D=lobe; 原因:可能混:part) | L7:OK | L8:偏高
-- locale | L5-Def:不能(卡:place where happens) | L5-Ex:不能(卡:tropical locale) | L6:不唯一(选项:A=place, B=locale, C=thing, D=location; 原因:可能混:place/location) | L7:OK | L8:偏高
-- locomotion | L5-Def:不能(卡:ability to move; 抽象术语) | L5-Ex:不能(卡:fins/creatures) | L6:不唯一(选项:A=thing, B=place, C=locomotion, D=movement; 原因:可能混:movement) | L7:OK | L8:偏高
-- loft | L5-Def:勉强(卡:just below the roof) | L5-Ex:勉强(阁楼改阅读室) | L6:不唯一(选项:A=loft, B=attic, C=upper, D=room; 原因:可能混:attic/upper room) | L7:OK | L8:偏高
-- lore | L5-Def:不能(卡:passed down stories/knowledge) | L5-Ex:不能(卡:village elder/campfire) | L6:不唯一(选项:A=stories, B=thing, C=place, D=lore; 原因:可能混:stories) | L7:OK | L8:偏高
-- lucid | L5-Def:不能(卡:easy to understand/clear thinking 双义) | L5-Ex:勉强(解释清楚) | L6:不唯一(选项:A=lucid, B=clear, C=thing, D=place; 原因:可能混:clear) | L7:OK | L8:偏高
-- lull | L5-Def:不能(卡:temporary calm) | L5-Ex:勉强(暴风雨间歇) | L6:不唯一(选项:A=lull, B=calm, C=break, D=thing; 原因:可能混:break/calm) | L7:OK | L8:偏高
-- lunge | L5-Def:不能(卡:sudden forward movement) | L5-Ex:不能(卡:fencer 运动不熟) | L6:不唯一(选项:A=lunge, B=step, C=thing, D=jump; 原因:可能混:jump/step) | L7:OK | L8:偏高
+- asteroid | L5-Def:勉强(卡: orbiting) | L5-Ex:勉强(“school bus size fly past”能猜是太空石头) | L6:唯一(选项:A=asteroid, B=molecule, C=axis, D=crater; 原因:飞过地球的太空岩) | L7:OK | L8:偏高(需先会 space/planet/orbit)
+- axis | L5-Def:勉强(卡: imaginary line 抽象) | L5-Ex:勉强(地球转，能懂但抽象) | L6:不唯一(选项:A=axis, B=meridian, C=hinge, D=lever; 原因:axis/meridian 都像“看不见的线”，只靠句子可能犹豫) | L7:OK | L8:偏高(需先会 spin/rotate)
+- carnivore | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=carnivore, B=herbivore, C=omnivore, D=crustacean; 原因:eats meat) | L7:OK | L8:合适(与 herbivore/omnivore 成组)
+- census | L5-Def:勉强(卡: official count) | L5-Ex:勉强(政府做统计，概念偏政务) | L6:不唯一(选项:A=census, B=legislature, C=mandate, D=verdict; 原因:都像政府词，没“count”强线索) | L7:注意(政府统计可；避免政治化延伸) | L8:偏高(建议先 teach count/survey)
+- chlorophyll | L5-Def:不能(卡: pigment/turn sunlight into energy) | L5-Ex:勉强(绿叶原因，能记忆但难理解) | L6:唯一(选项:A=chlorophyll, B=molecule, C=digestive, D=humidity; 原因:leaves green) | L7:OK | L8:偏高(科学术语，需先 teach plant/leaf)
+- crater | L5-Def:勉强(卡: bowl-shaped) | L5-Ex:能(月球坑) | L6:不唯一(选项:A=crater, B=canyon, C=quarry, D=ledge; 原因:都像“坑/谷/边”，但 moon+space rock 提示 crater) | L7:OK | L8:合适
+- crustacean | L5-Def:不能(卡: hard shell/many legs 分类词) | L5-Ex:能(龙虾=壳+爪) | L6:不唯一(选项:A=crustacean, B=carnivore, C=herbivore, D=omnivore; 原因:都是动物分类词，孩子可能靠猜) | L7:OK | L8:偏高(建议配图，先教 crab/lobster)
+- digestive | L5-Def:不能(卡: breaks down/energy) | L5-Ex:勉强(能懂“身体把食物变能量”) | L6:不唯一(选项:A=digestive, B=respiration, C=hydrate, D=humidity; 原因:都和身体/气/水有关，易混 respiration) | L7:OK | L8:偏高(建议先 teach stomach/digest)
+- elevation | L5-Def:勉强(卡: above ocean level) | L5-Ex:勉强(8000 feet 单位不熟) | L6:不唯一(选项:A=elevation, B=axis, C=meridian, D=interval; 原因:都偏“概念/测量”，缺强线索) | L7:OK | L8:偏高(建议换成 meters/高低对比)
+- fertile | L5-Def:勉强(卡: rich/nutrients) | L5-Ex:勉强(营养词不熟但能猜“土好”) | L6:不唯一(选项:A=fertile, B=loam, C=humus, D=arid; 原因:loam/humus 也指好土，需更强线索如"grows well") | L7:OK | L8:合适(建议与 arid 对比)
+- glacier | L5-Def:勉强(卡: mass/moves slowly) | L5-Ex:勉强(冻河比喻好，但词长) | L6:唯一(选项:A=glacier, B=tundra, C=plateau, D=mesa; 原因:huge moving ice) | L7:OK | L8:偏高(建议先 teach ice/snow)
+- herbivore | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=herbivore, B=carnivore, C=omnivore, D=nocturnal; 原因:eats plants) | L7:OK | L8:合适(与 carnivore/omnivore 成组)
+- humidity | L5-Def:勉强(卡: amount of water in air) | L5-Ex:能(眼镜起雾) | L6:不唯一(选项:A=humidity, B=hydrate, C=arid, D=translucent; 原因:都和水/干湿有关，hydrate 也可能被选) | L7:OK | L8:偏高(先 teach wet/dry)
+- legislature | L5-Def:不能(卡: group make laws) | L5-Ex:不能(卡: pass a law/recess period 政务) | L6:不唯一(选项:A=legislature, B=mandate, C=census, D=preamble; 原因:都政府词，缺“make laws”清晰线索) | L7:注意(政治/法律词，家长可能觉得偏早) | L8:偏高(可后置)
+- molecule | L5-Def:不能(卡: unit/substance/atoms) | L5-Ex:勉强(水分子很小，能背但难懂) | L6:不唯一(选项:A=molecule, B=filament, C=specimen, D=dividend; 原因:都是学术名词，孩子更靠陌生度猜) | L7:OK | L8:偏高(需先 teach atom/very small)
+
+- arid | L5-Def:能 | L5-Ex:能(仙人掌) | L6:唯一(选项:A=arid, B=fertile, C=glacier, D=tundra; 原因:very dry/no rain→arid) | L7:OK | L8:合适
+- archaeology | L5-Def:不能(卡: ancient/things left behind) | L5-Ex:勉强(挖罐子=考古，能猜) | L6:不唯一(选项:A=archaeology, B=paleontology, C=specimen, D=pharaoh; 原因:都和“古代/化石/埃及”相关，易混 paleontology) | L7:OK | L8:偏高(与 paleontology 成对，先 teach fossils vs artifacts)
+- mesa | L5-Def:勉强(卡: steep sides) | L5-Ex:勉强(像桌子比喻好，但 desert/红岩词可能不熟) | L6:不唯一(选项:A=mesa, B=plateau, C=ridge, D=canyon; 原因:mesa/plateau 都是平顶高地，孩子难区分) | L7:OK | L8:偏高(建议先 plateau 再 mesa)
+- tundra | L5-Def:勉强(卡: frozen/no trees) | L5-Ex:能(北极冻土) | L6:不唯一(选项:A=tundra, B=glacier, C=arid, D=plateau; 原因:glacier/tundra 都在寒冷地带，孩子可能混) | L7:OK | L8:偏高(地理生态词)
+- stalagmite | L5-Def:不能(卡: cave rock grows) | L5-Ex:勉强(像塔=形象，但词长难记) | L6:唯一(选项:A=stalagmite, B=filament, C=lintel, D=kernel; 原因:cave floor rock tower) | L7:OK | L8:偏高(建议先 teach cave)
+- tributary | L5-Def:勉强(卡: flows into) | L5-Ex:勉强(主河/支流概念) | L6:不唯一(选项:A=tributary, B=creek, C=inlet, D=aquifer; 原因:都像水体名词，缺“flows into bigger river”强线索) | L7:OK | L8:偏高(建议先 river/stream)
+- archipelago | L5-Def:不能(卡: group of islands) | L5-Ex:勉强(Hawaii 对中国孩子可能熟/不熟不一) | L6:唯一(选项:A=archipelago, B=isthmus, C=plateau, D=meridian; 原因:islands group) | L7:OK | L8:偏高(地理术语)
+- stratosphere | L5-Def:不能(卡: atmosphere/troposphere/ozone) | L5-Ex:不能(概念层层叠，难) | L6:唯一(选项:A=stratosphere, B=archipelago, C=axis, D=humidity; 原因:weather balloon up into layer) | L7:OK | L8:偏高(建议后置)
+- preamble | L5-Def:不能(卡: important paper/purpose) | L5-Ex:不能(Constitution/We the People 文化+政治) | L6:不唯一(选项:A=preamble, B=mandate, C=verdict, D=legislature; 原因:都政务词，且例句强美式政治) | L7:注意(美式政治文本；中国家长可能不适) | L8:偏高(建议换中性文书场景)
+- filament | L5-Def:勉强(卡: thin thread/wire) | L5-Ex:能(灯泡里细丝发光) | L6:唯一(选项:A=filament, B=kernel, C=linen, D=lever; 原因:light bulb inside) | L7:OK | L8:合适
+- nocturnal | L5-Def:勉强(卡: active/sleeping) | L5-Ex:能(猫头鹰夜里活动) | L6:唯一(选项:A=nocturnal, B=herbivore, C=omnivore, D=arid; 原因:active at night) | L7:OK | L8:合适
+- translucent | L5-Def:勉强(卡: clear enough) | L5-Ex:勉强(水母发光+透光有点绕) | L6:不唯一(选项:A=translucent, B=limpid, C=impervious, D=authentic; 原因:limpid/impervious 都是“性质词”，孩子易混) | L7:OK | L8:偏高(需先 teach透明/不透明)
+- omnivore | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=omnivore, B=herbivore, C=carnivore, D=nocturnal; 原因:eats plants and meat) | L7:OK | L8:合适(与 herbivore/carnivore 成组)
+- plateau | L5-Def:勉强(卡: sits high above) | L5-Ex:勉强(“giant table”好，但地形词易混) | L6:不唯一(选项:A=plateau, B=mesa, C=ridge, D=canyon; 原因:mesa/plateau 太像) | L7:OK | L8:偏高(建议先 plateau 再 mesa，配图区分)
+- geothermal | L5-Def:不能(卡: deep inside Earth/energy) | L5-Ex:不能(国家例子+能量概念偏大) | L6:唯一(选项:A=geothermal, B=humidity, C=glacier, D=chlorophyll; 原因:underground heat energy) | L7:OK | L8:偏高
+- specimen | L5-Def:勉强(卡: used to study) | L5-Ex:勉强(拿岩石样本，能懂) | L6:不唯一(选项:A=specimen, B=device, C=flask, D=molecule; 原因:实验室语境名词都可能) | L7:OK | L8:合适
+- meridian | L5-Def:不能(卡: imaginary line/pole) | L5-Ex:不能(地图经线+London 文化地理) | L6:不唯一(选项:A=meridian, B=axis, C=isthmus, D=archipelago; 原因:都是地理术语，缺“line on map”强线索) | L7:OK | L8:偏高
+- respiration | L5-Def:不能(卡: oxygen/carbon dioxide) | L5-Ex:勉强(运动呼吸快，能猜) | L6:不唯一(选项:A=respiration, B=digestive, C=hydrate, D=humidity; 原因:都和身体/水/气相关) | L7:OK | L8:偏高
+- paleontology | L5-Def:不能(卡: prehistoric/examining fossils) | L5-Ex:能(恐龙骨头=化石研究) | L6:不唯一(选项:A=paleontology, B=archaeology, C=pharaoh, D=specimen; 原因:archaeology 也像“挖东西”) | L7:OK | L8:偏高(与 archaeology 成对，建议并排讲)
+- aquifer | L5-Def:不能(卡: permeable/sediment) | L5-Ex:勉强(地下水库概念) | L6:不唯一(选项:A=aquifer, B=inlet, C=tributary, D=creek; 原因:都水相关，例句缺“地下”) | L7:OK | L8:偏高(建议例句强调 underground)
+- deciduous | L5-Def:不能(卡: autumn/spring 词+概念) | L5-Ex:勉强(橡树落叶，能猜) | L6:不唯一(选项:A=deciduous, B=arid, C=fertile, D=nocturnal; 原因:选项跨度大，容易靠排除法；例句还算直指) | L7:OK | L8:偏高(建议先 teach evergreen)
+- pharaoh | L5-Def:勉强(卡: ancient Egypt) | L5-Ex:能(金字塔) | L6:唯一(选项:A=pharaoh, B=hermit, C=herald, D=homestead; 原因:Egypt king+pyramid) | L7:OK | L8:合适(文化词，但孩子常见)
+- sedimentary | L5-Def:不能(卡: layers/pressed) | L5-Ex:勉强(像煎饼层=形象) | L6:不唯一(选项:A=sedimentary, B=authentic, C=impervious, D=translucent; 原因:都是性质词，孩子更靠陌生度) | L7:OK | L8:偏高
+- isthmus | L5-Def:不能(卡: narrow strip connecting land) | L5-Ex:勉强(Panama 地理点不熟) | L6:不唯一(选项:A=isthmus, B=archipelago, C=meridian, D=plateau; 原因:都地理术语，例句缺“land bridge”形象) | L7:OK | L8:偏高(建议更直观例句)
+
+- dividend | L5-Def:勉强(卡: split up/除法术语) | L5-Ex:能(12÷3) | L6:唯一(选项:A=dividend, B=divisor, C=interval, D=axis; 原因:top number being split) | L7:OK | L8:合适(必须与 divisor 相邻并先讲 division)
+- divisor | L5-Def:勉强(卡: groups) | L5-Ex:能 | L6:唯一(选项:A=divisor, B=dividend, C=interval, D=meridian; 原因:number of groups) | L7:OK | L8:合适(与 dividend 成对)
+- mandate | L5-Def:勉强(卡: official order) | L5-Ex:能(学校规定戴头盔) | L6:不唯一(选项:A=mandate, B=regulate, C=govern, D=legislature; 原因:都像“规定/管”，缺强线索如 must/by law) | L7:OK | L8:偏高(先 teach rule/must)
+- authentic | L5-Def:能 | L5-Ex:能(真牙不是假的) | L6:不唯一(选项:A=authentic, B=typical, C=eligible, D=affordable; 原因:真实 vs 通常 容易混 typical) | L7:OK | L8:合适
+- scarcity | L5-Def:勉强(卡: shortage) | L5-Ex:勉强(限水=能懂，但句子长) | L6:不唯一(选项:A=scarcity, B=hardship, C=burden, D=havoc; 原因:都像“难/缺/坏”，缺明确“not enough”) | L7:OK | L8:偏高(建议例句更短)
+- ancestry | L5-Def:勉强(卡: members long before) | L5-Ex:勉强(家谱概念；Ireland 文化点) | L6:不唯一(选项:A=ancestry, B=lineage, C=locale, D=homage; 原因:ancestry/lineage 太像) | L7:OK | L8:合适(与 lineage 顺序相邻)
+- interval | L5-Def:勉强(卡: amount of time/space) | L5-Ex:能(十分钟一班) | L6:不唯一(选项:A=interval, B=rhythm, C=juncture, D=meridian; 原因:interval/juncture 都像“时间点/间隔”) | L7:OK | L8:合适
+- eligible | L5-Def:勉强(卡: meet rules) | L5-Ex:能(满足条件才能加入) | L6:唯一(选项:A=eligible, B=typical, C=authentic, D=affordable; 原因:meet the rules→eligible) | L7:OK | L8:合适
+- manipulate | L5-Def:勉强(卡: skillfully/或 trick 多义) | L5-Ex:能(捏泥) | L6:不唯一(选项:A=manipulate, B=apply, C=imbue, D=infuse; 原因:都像“用手/加入”，但 manipulate 有“塑形/控制”) | L7:OK | L8:合适(需提示另义：操纵别人)
+- salvage | L5-Def:勉强(卡: rescue from being lost) | L5-Ex:能(洪水后救相册) | L6:不唯一(选项:A=salvage, B=acquire, C=hoard, D=impound; 原因:都像“拿/留住”，impound 也像“扣留”) | L7:OK | L8:偏高(可先 teach save)
+- acquire | L5-Def:勉强(卡: often by working) | L5-Ex:能(攒钱得到望远镜) | L6:不唯一(选项:A=acquire, B=invest, C=hoard, D=salvage; 原因:都和“得到/存/投入”相关) | L7:OK | L8:合适
+- terminate | L5-Def:勉强(卡: completely) | L5-Ex:能(终点站) | L6:唯一(选项:A=terminate, B=cancel, C=mandate, D=regulate; 原因:"train will ___ at the last station"=terminate) | L7:OK | L8:合适(可与 cancel 区分)
+- verdict | L5-Def:勉强(卡: trial) | L5-Ex:能(评委最后决定) | L6:不唯一(选项:A=verdict, B=outcome, C=mandate, D=elect; 原因:contest 里是 decision/verdict，但 outcome 也可) | L7:OK | L8:偏高(法律词；但用比赛评委可降门槛)
+
+- hangar | L5-Def:勉强(卡: airplanes kept) | L5-Ex:能(飞机库) | L6:唯一(选项:A=hangar, B=basement, C=inn, D=homestead; 原因:plane building) | L7:OK | L8:偏高(低频；配图)
+- hardship | L5-Def:勉强(卡: conditions/suffering) | L5-Ex:勉强(句子长) | L6:不唯一(选项:A=hardship, B=burden, C=havoc, D=scarcity; 原因:都像“困难”，例句不够独特) | L7:OK | L8:合适
+- harpoon | L5-Def:不能(卡: spear/whales) | L5-Ex:勉强(抓大鱼；但 harpoon 生词) | L6:唯一(选项:A=harpoon, B=lance, C=lever, D=harrow; 原因:throw spear at tuna) | L7:注意(可能联想到捕鲸/血腥；可改为救援/历史工具) | L8:偏高(低频工具词)
+- harrow | L5-Def:不能(卡: farm tool/clumps) | L5-Ex:勉强(农具准备土) | L6:唯一(选项:A=harrow, B=hew, C=hone, D=hose; 原因:farm tool dragged over soil=harrow) | L7:OK | L8:偏高(农具低频；建议配图)
+- haste | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=haste, B=headway, C=lull, D=juncture; 原因:in her haste) | L7:OK | L8:合适
+- havoc | L5-Def:勉强(卡: disorder) | L5-Ex:能(龙卷风破坏) | L6:不唯一(选项:A=havoc, B=hardship, C=burden, D=scarcity; 原因:都像坏事，例句有 tornado 但选项不够贴) | L7:OK | L8:合适
+- headway | L5-Def:勉强(卡: progress toward goal) | L5-Ex:勉强(钢琴练习进展，能懂) | L6:不唯一(选项:A=headway, B=advance, C=outcome, D=interval; 原因:advance/headway 都像进步) | L7:OK | L8:合适
+- heed | L5-Def:勉强(卡: pay attention to advice) | L5-Ex:能(听爸爸劝) | L6:唯一(选项:A=heed, B=emphasize, C=instill, D=imbue; 原因:heeded his warning→heed) | L7:OK | L8:合适
+- helm | L5-Def:勉强(卡: steer a ship) | L5-Ex:能(船长掌舵) | L6:唯一(选项:A=helm, B=hull, C=hinge, D=hub; 原因:steer ship) | L7:OK | L8:偏高(低频；配图)
+- herald | L5-Def:勉强(卡: announces/ sign of coming) | L5-Ex:勉强(robins=春天使者，文化尚可) | L6:唯一(选项:A=herald, B=homage, C=icon, D=hymn; 原因:"heralds of spring"固定搭配) | L7:OK | L8:偏高(比喻义；可配更直观例句)
+- hermit | L5-Def:勉强(卡: away from people) | L5-Ex:能 | L6:唯一(选项:A=hermit, B=homestead, C=inn, D=hub; 原因:lives alone) | L7:OK | L8:合适
+- hew | L5-Def:勉强(卡: axe/heavy tool) | L5-Ex:能(砍树成木头) | L6:不唯一(选项:A=hew, B=hurl, C=hone, D=harpoon; 原因:都是动词，孩子可能只抓“用力”) | L7:OK | L8:偏高(低频；可用 chop 先导)
+- hinge | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=hinge, B=lintel, C=ledge, D=lever; 原因:都是“门/杠/结构”词) | L7:OK | L8:合适
+- hoard | L5-Def:能 | L5-Ex:能(龙囤金) | L6:不唯一(选项:A=hoard, B=acquire, C=impound, D=salvage; 原因:都像“得到/留住”，但 hoard=存很多) | L7:OK | L8:合适
+- hobble | L5-Def:能 | L5-Ex:能(扭脚一瘸一拐) | L6:不唯一(选项:A=hobble, B=wade, C=lunge, D=advance; 原因:都是动作动词，需“因为疼走不稳”线索更强) | L7:OK | L8:合适
+- hoist | L5-Def:勉强(卡: with ropes) | L5-Ex:能(起锚) | L6:不唯一(选项:A=hoist, B=hurl, C=jettison, D=lever; 原因:都是"用力动作"，但 anchor+rope 更偏 hoist) | L7:OK | L8:合适
+- homage | L5-Def:不能(卡: honor shown publicly) | L5-Ex:勉强(纪念雕像，能懂但词难) | L6:不唯一(选项:A=homage, B=herald, C=icon, D=ancestry; 原因:都像“文化词”，不够独特) | L7:OK | L8:偏高(抽象)
+- homestead | L5-Def:勉强(卡: buildings around) | L5-Ex:能(农场房子+谷仓) | L6:不唯一(选项:A=homestead, B=inn, C=hangar, D=basement; 原因:都是“地方”，但 farmhouse/barn 线索可指 homestead) | L7:OK | L8:偏高(低频)
+- hone | L5-Def:勉强(卡: improve a skill) | L5-Ex:能 | L6:不唯一(选项:A=hone, B=mend, C=knead, D=indent; 原因:都是动词，例句还算直指“skills”) | L7:OK | L8:合适
+- hornet | L5-Def:勉强(卡: similar to wasp) | L5-Ex:能 | L6:不唯一(选项:A=hornet, B=hurricane, C=hydrate, D=hurdle; 原因:只有 hornet 像昆虫，过于易) | L7:OK | L8:合适
+- hosiery | L5-Def:不能(卡: stockings) | L5-Ex:勉强(商店一排袜子=能猜) | L6:唯一(选项:A=hosiery, B=linen, C=lacquer, D=lilac; 原因:socks/stockings) | L7:OK | L8:偏高(低频)
+- hospitable | L5-Def:勉强(卡: welcoming) | L5-Ex:能 | L6:唯一(选项:A=hospitable, B=lavish, C=jubilant, D=typical; 原因:welcoming→hospitable) | L7:OK | L8:合适
+- hub | L5-Def:勉强(卡: center of activity; wheel) | L5-Ex:勉强(机场=枢纽，概念可懂) | L6:不唯一(选项:A=hub, B=locale, C=inn, D=hangar; 原因:place/center 概念抽象) | L7:OK | L8:偏高
+- huddle | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=huddle, B=jostle, C=hobble, D=lunge; 原因:crowd together closely→huddle) | L7:OK | L8:合适
+- hull | L5-Def:勉强(卡: main body of ship) | L5-Ex:能 | L6:不唯一(选项:A=hull, B=helm, C=hinge, D=ledge; 原因:船相关词只有 hull/helm，仍可靠排除) | L7:OK | L8:偏高
+- humus | L5-Def:不能(卡: decomposed plants) | L5-Ex:勉强(花园土变好) | L6:不唯一(选项:A=humus, B=loam, C=fertile, D=arid; 原因:humus/loam/fertile 都和"好土"有关) | L7:OK | L8:偏高(科学土壤词)
+- hurdle | L5-Def:勉强(卡: difficulty to get past) | L5-Ex:能(跨栏) | L6:不唯一(选项:A=hurdle, B=burden, C=hardship, D=risk; 原因:难题/困难=burden/hardship 也可能) | L7:OK | L8:合适
+- hurl | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=hurl, B=jettison, C=harpoon, D=hoist; 原因:都像"扔/丢/抬"，但 hurl=throw with great force) | L7:OK | L8:合适
+- hurricane | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=hurricane, B=havoc, C=inferno, D=hardship; 原因:storm winds heavy rain) | L7:OK | L8:合适
+- hydrate | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=hydrate, B=infuse, C=hose, D=humidity; 原因:都和水相关，需强调"drink water"才锁定 hydrate) | L7:OK | L8:合适
+- hymn | L5-Def:勉强(卡: religious/praise) | L5-Ex:勉强(教堂唱歌，能懂但宗教) | L6:不唯一(选项:A=hymn, B=hyperbole, C=jest, D=litany; 原因:都是“说/唱/列举”，孩子不稳) | L7:注意(宗教场景；部分家长介意，建议更中性音乐场景) | L8:偏高(文化词)
+- hyperbole | L5-Def:不能(卡: wilder than reality) | L5-Ex:能(“饿得能吃马”很好) | L6:不唯一(选项:A=hyperbole, B=jest, C=litany, D=lucid; 原因:孩子可能只知道“夸张/开玩笑”混 jest) | L7:OK | L8:偏高(修辞术语)
+- icon | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=icon, B=device, C=indent, D=ledger; 原因:screen small picture you click→icon) | L7:OK | L8:合适
+- imbue | L5-Def:不能(卡: fill with a quality/feeling) | L5-Ex:勉强(灌输热爱阅读，能猜但抽象) | L6:不唯一(选项:A=imbue, B=instill, C=infuse, D=emphasize; 原因:imbue/instill/infuse 太像) | L7:OK | L8:偏高(抽象动词)
+- impervious | L5-Def:不能(卡: sealed/unbothered) | L5-Ex:勉强(防水夹克不进水，能懂) | L6:不唯一(选项:A=impervious, B=translucent, C=authentic, D=limpid; 原因:都是性质词，孩子靠排除) | L7:OK | L8:偏高(词长+抽象)
+- impound | L5-Def:不能(卡: by law) | L5-Ex:勉强(车被拖走扣留，能懂) | L6:不唯一(选项:A=impound, B=salvage, C=hoard, D=acquire; 原因:都像“拿走/保留”，例句缺“by law”) | L7:OK | L8:偏高(法律动作词)
+- indent | L5-Def:勉强(卡: edge) | L5-Ex:能(作文首行缩进) | L6:唯一(选项:A=indent, B=emphasize, C=legible, D=ledger; 原因:text line start further) | L7:OK | L8:偏高(技能词；但写作课可)
+- inferno | L5-Def:勉强(卡: fierce) | L5-Ex:能(大火) | L6:唯一(选项:A=inferno, B=hurricane, C=havoc, D=hardship; 原因:very large fire) | L7:OK | L8:合适
+- infuse | L5-Def:勉强(卡: soak/pull out flavor) | L5-Ex:能(柠檬薄荷水) | L6:不唯一(选项:A=infuse, B=imbue, C=instill, D=hydrate; 原因:三词语义近，孩子易混) | L7:OK | L8:偏高(抽象动词)
+- inlet | L5-Def:勉强(卡: reaches into land) | L5-Ex:勉强(划皮艇，能懂) | L6:不唯一(选项:A=inlet, B=creek, C=tributary, D=aquifer; 原因:都水相关) | L7:OK | L8:偏高(地理)
+- inquest | L5-Def:不能(卡: official investigation) | L5-Ex:不能(judge/inquest 司法) | L6:不唯一(选项:A=inquest, B=verdict, C=mandate, D=legislature; 原因:全是法律/政府词) | L7:注意(司法词，家长可能觉得偏早/沉重) | L8:偏高
+- instill | L5-Def:不能(卡: gradually teach feeling) | L5-Ex:勉强(教练教团队感，能猜) | L6:不唯一(选项:A=instill, B=imbue, C=infuse, D=emphasize; 原因:instill/imbue/infuse 太像) | L7:OK | L8:偏高(抽象动词)
+- insular | L5-Def:不能(卡: cut off/narrow in thinking) | L5-Ex:勉强(村子很封闭) | L6:不唯一(选项:A=insular, B=hermit, C=archipelago, D=hub; 原因:hermit/insular 都有"孤立"感) | L7:OK | L8:偏高(抽象形容词)
+- intrigue | L5-Def:勉强(卡: curious/interested) | L5-Ex:能(神秘盒子) | L6:不唯一(选项:A=intrigue, B=irk, C=glimpse, D=jinx; 原因:好奇/烦/瞥见 都可能被误选，需更强"curious"线索) | L7:OK | L8:合适
+- inundate | L5-Def:不能(卡: overwhelm) | L5-Ex:勉强(电话太多=淹没) | L6:不唯一(选项:A=inundate, B=jostle, C=hoard, D=havoc; 原因:只有 inundate 真正表达"大量涌来"，但词形太生可能靠蒙) | L7:OK | L8:偏高(低频/抽象)
+- irate | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=irate, B=irk, C=frustrate, D=jinx; 原因:irk/frustrate 都会让人生气) | L7:OK | L8:合适
+- irk | L5-Def:勉强(卡: mildly) | L5-Ex:能(滴水烦) | L6:不唯一(选项:A=irk, B=frustrate, C=irate, D=intrigue; 原因:烦/生气/好奇情绪词易混) | L7:OK | L8:合适
+- ivory | L5-Def:勉强(卡: tusks；象牙来源) | L5-Ex:能(象牙色) | L6:不唯一(选项:A=ivory, B=linen, C=lilac, D=lacquer; 原因:颜色/材料词易混，但 keys 线索较强) | L7:注意(可能引发“象牙贸易/保护动物”联想；建议强调颜色义或改例) | L8:偏高
+- jaunt | L5-Def:勉强(卡: for fun) | L5-Ex:能(周末小旅行) | L6:不唯一(选项:A=jaunt, B=interval, C=juncture, D=locale; 原因:时间/地点词混) | L7:OK | L8:偏高(低频)
+- jest | L5-Def:能 | L5-Ex:能(开玩笑) | L6:不唯一(选项:A=jest, B=hyperbole, C=exclaim, D=litany; 原因:开玩笑/夸张容易混) | L7:OK | L8:合适
+- jettison | L5-Def:不能(卡: overboard) | L5-Ex:勉强(丢燃料减重) | L6:不唯一(选项:A=jettison, B=hurl, C=hoist, D=impound; 原因:都是“扔/搬/扣留”，但 plane lighter 线索偏强) | L7:OK | L8:偏高(低频)
+- jinx | L5-Def:勉强(卡: believed to bring bad luck) | L5-Ex:能(破镜7年霉运) | L6:不唯一(选项:A=jinx, B=hymn, C=hyperbole, D=jest; 原因:孩子可能只抓“bad luck”还行，但与文化迷信相关) | L7:注意(迷信元素；可保留但别强化) | L8:合适
+- jostle | L5-Def:勉强(卡: roughly) | L5-Ex:能(人群推挤) | L6:不唯一(选项:A=jostle, B=jolt, C=huddle, D=lunge; 原因:jolt/jostle 易混，需强调"in a crowd") | L7:OK | L8:合适
+- jubilant | L5-Def:勉强(卡: showing) | L5-Ex:能(举奖杯) | L6:唯一(选项:A=jubilant, B=irate, C=listless, D=lucid; 原因:赢冠军很开心→jubilant) | L7:OK | L8:合适
+- juncture | L5-Def:勉强(卡: particular point in time) | L5-Ex:勉强(句子抽象) | L6:不唯一(选项:A=juncture, B=interval, C=jolt, D=meridian; 原因:juncture/interval 都像时间) | L7:OK | L8:偏高(抽象)
+- juniper | L5-Def:不能(卡: shrub/berries) | L5-Ex:勉强(篱笆灌木) | L6:不唯一(选项:A=juniper, B=lilac, C=loam, D=hornet; 原因:植物词较冷门，孩子多靠排除) | L7:OK | L8:偏高(低频植物词)
+- kernel | L5-Def:能 | L5-Ex:能(爆米花粒) | L6:唯一(选项:A=kernel, B=chunk, C=filament, D=lobe; 原因:popcorn kernel) | L7:OK | L8:合适
+- kilt | L5-Def:不能(卡: Scotland/tartan) | L5-Ex:勉强(风笛手穿裙子) | L6:不唯一(选项:A=kilt, B=lance, C=linen, D=hosiery; 原因:衣物类都可能，且文化陌生) | L7:注意(苏格兰传统服饰；可保留但需配图) | L8:偏高
+- knack | L5-Def:勉强(卡: natural talent) | L5-Ex:能(修椅子很快) | L6:不唯一(选项:A=knack, B=hone, C=lucid, D=legible; 原因:knack/hone 都像技能) | L7:OK | L8:合适
+- knead | L5-Def:勉强(卡: squeeze dough) | L5-Ex:能(揉面) | L6:唯一(选项:A=knead, B=mend, C=hew, D=hone; 原因:dough) | L7:OK | L8:合适
+- knell | L5-Def:不能(卡: bell for sad event) | L5-Ex:勉强(教堂钟声，能懂但词难) | L6:不唯一(选项:A=knell, B=hymn, C=litany, D=herald; 原因:宗教/仪式词易混) | L7:注意(死亡/丧事氛围；家长可能不想要) | L8:偏高
+- knoll | L5-Def:勉强(卡: round hill) | L5-Ex:能(小山野餐) | L6:不唯一(选项:A=knoll, B=ridge, C=mesa, D=slope; 原因:全是地形词) | L7:OK | L8:偏高(低频地形)
+- lacquer | L5-Def:勉强(卡: coating) | L5-Ex:能(亮漆) | L6:不唯一(选项:A=lacquer, B=linen, C=foil, D=ivory; 原因:材料词混，但“coating”线索可指) | L7:OK | L8:偏高
+- lair | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=lair, B=inn, C=loft, D=basement; 原因:都是“地方”，但 wild animal den= lair) | L7:OK | L8:合适
+- lance | L5-Def:勉强(卡: knights) | L5-Ex:勉强(中世纪骑士文化) | L6:不唯一(选项:A=lance, B=harpoon, C=lever, D=lattice; 原因:harpoon/lance 都像长矛) | L7:OK | L8:偏高
+- lanky | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=lanky, B=listless, C=limber, D=lithe; 原因:tall thin awkward) | L7:OK | L8:合适
+- lattice | L5-Def:不能(卡: crossed strips) | L5-Ex:勉强(玫瑰爬架子) | L6:不唯一(选项:A=lattice, B=ledge, C=lintel, D=hinge; 原因:都是结构词) | L7:OK | L8:偏高
+- lavish | L5-Def:勉强(卡: more than enough) | L5-Ex:能(生日派对很豪华) | L6:不唯一(选项:A=lavish, B=affordable, C=scarcity, D=hardship; 原因:lavish vs affordable 对比强，但也可能只懂“big party”) | L7:OK | L8:合适
+- ledger | L5-Def:不能(卡: recording money) | L5-Ex:勉强(店主记账) | L6:不唯一(选项:A=ledger, B=verdict, C=mandate, D=indent; 原因:都是“书/决定/规则”，缺“money record”) | L7:OK | L8:偏高
+- leech | L5-Def:能 | L5-Ex:能(吸血虫) | L6:唯一(选项:A=leech, B=hornet, C=hermit, D=kernel; 原因:stuck to ankle feeds blood) | L7:OK | L8:合适
+- leer | L5-Def:勉强(卡: sly/unpleasant) | L5-Ex:能(坏人邪笑) | L6:不唯一(选项:A=leer, B=glare, C=glimpse, D=intrigue; 原因:看法类词多) | L7:OK | L8:偏高(情绪细分词)
+- legible | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=legible, B=lucid, C=limpid, D=authentic; 原因:都像“清楚”，legible/lucid/limpid 易混) | L7:OK | L8:合适
+- legion | L5-Def:勉强(卡: soldiers) | L5-Ex:勉强(粉丝很多=能懂) | L6:不唯一(选项:A=legion, B=huddle, C=hoard, D=litany; 原因:都是“很多/一群”) | L7:OK | L8:偏高
+- lever | L5-Def:勉强(卡: pry) | L5-Ex:能(撬盖子) | L6:不唯一(选项:A=lever, B=device, C=hinge, D=helm; 原因:工具词混) | L7:OK | L8:合适
+- lilac | L5-Def:勉强(卡: shrub) | L5-Ex:勉强(香味花灌木) | L6:不唯一(选项:A=lilac, B=juniper, C=loam, D=linen; 原因:植物/材料词混) | L7:OK | L8:偏高
+- limber | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=limber, B=lithe, C=lanky, D=listless; 原因:身体状态词易混 lithe) | L7:OK | L8:合适
+- limelight | L5-Def:勉强(卡: public attention) | L5-Ex:勉强(女演员受关注) | L6:不唯一(选项:A=limelight, B=icon, C=homage, D=locale; 原因:都像"名气/地方/符号"，但中心关注=limelight) | L7:OK | L8:偏高(比喻义)
+- limpid | L5-Def:勉强(卡: perfectly clear) | L5-Ex:能(清到数石子) | L6:不唯一(选项:A=limpid, B=translucent, C=legible, D=lucid; 原因:都像"清楚/透明"，孩子易混) | L7:OK | L8:偏高(低频形容词)
+- lineage | L5-Def:不能(卡: direct line generations) | L5-Ex:勉强(祖先几代，能懂) | L6:不唯一(选项:A=lineage, B=ancestry, C=locale, D=homage; 原因:lineage/ancestry 易混) | L7:OK | L8:偏高(抽象；与 ancestry 连着教)
+- linen | L5-Def:勉强(卡: flax) | L5-Ex:能(桌布) | L6:不唯一(选项:A=linen, B=foil, C=hosiery, D=ivory; 原因:材料/布类词混) | L7:OK | L8:偏高
+- lintel | L5-Def:不能(卡: horizontal beam supports wall) | L5-Ex:勉强(门上梁，能想象但词难) | L6:不唯一(选项:A=lintel, B=ledge, C=hinge, D=lattice; 原因:结构词太像，孩子靠蒙) | L7:OK | L8:偏高(建筑词)
+- listless | L5-Def:勉强(卡: having no power/interest) | L5-Ex:能(热到不想动) | L6:不唯一(选项:A=listless, B=idle, C=lull, D=irate; 原因:idle/listless 都像没精神) | L7:OK | L8:合适
+- litany | L5-Def:不能(卡: repetitive list) | L5-Ex:勉强(老师念一串规则) | L6:不唯一(选项:A=litany, B=hyperbole, C=hymn, D=jest; 原因:孩子可能只知道“很多规则”，未必锁定 litany) | L7:OK | L8:偏高(低频)
+- lithe | L5-Def:勉强(卡: graceful) | L5-Ex:能(像猫) | L6:不唯一(选项:A=lithe, B=limber, C=lanky, D=listless; 原因:lithe/limber 接近) | L7:OK | L8:合适
+- livelihood | L5-Def:不能(卡: earns money) | L5-Ex:勉强(捕鱼谋生) | L6:不唯一(选项:A=livelihood, B=ledger, C=hardship, D=homestead; 原因:都和生活/钱/农场有关，词难) | L7:OK | L8:偏高
+- loam | L5-Def:不能(卡: sand/clay/decomposed) | L5-Ex:勉强(种子土) | L6:不唯一(选项:A=loam, B=humus, C=fertile, D=arid; 原因:土相关词很多) | L7:OK | L8:偏高
+- lobe | L5-Def:勉强(卡: rounded part) | L5-Ex:能(耳垂) | L6:不唯一(选项:A=lobe, B=kernel, C=lever, D=blade; 原因:都是名词，孩子可能只凭"ear"线索) | L7:OK | L8:合适
+- locale | L5-Def:勉强(卡: happens) | L5-Ex:能(热带地点) | L6:不唯一(选项:A=locale, B=hub, C=inn, D=homestead; 原因:都是地点词，locale 偏书面) | L7:OK | L8:偏高(书面词)
+- locomotion | L5-Def:不能(卡: ability to move) | L5-Ex:勉强(轮子/腿/鳍，能理解但词长) | L6:不唯一(选项:A=locomotion, B=advance, C=wade, D=lunge; 原因:都是移动动词/名词，孩子不稳) | L7:OK | L8:偏高
+- loft | L5-Def:勉强(卡: just below roof) | L5-Ex:能 | L6:唯一(选项:A=loft, B=basement, C=hangar, D=inn; 原因:upper room below roof) | L7:OK | L8:合适
+- lore | L5-Def:不能(卡: passed down knowledge/stories) | L5-Ex:勉强(长老讲故事) | L6:不唯一(选项:A=lore, B=litany, C=hyperbole, D=homage; 原因:故事/列表/夸张/致敬都可能混) | L7:OK | L8:偏高
+- lucid | L5-Def:勉强(卡: thinking clearly) | L5-Ex:能(解释清楚) | L6:不唯一(选项:A=lucid, B=legible, C=limpid, D=authentic; 原因:三词都像“清楚”) | L7:OK | L8:合适
+- lull | L5-Def:勉强(卡: short-time calm) | L5-Ex:能(暴风雨间歇) | L6:不唯一(选项:A=lull, B=idle, C=listless, D=interval; 原因:都像“停一下/安静/间隔”) | L7:OK | L8:合适
+- lunge | L5-Def:能 | L5-Ex:能(击剑猛刺) | L6:不唯一(选项:A=lunge, B=advance, C=hurl, D=jostle; 原因:都是动作动词，仍可) | L7:OK | L8:合适
