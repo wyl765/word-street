@@ -1,314 +1,314 @@
-# Gemini Verification Report: words-level4b.js
+# Gemini Gate Report: words-level4b.js
 
-| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game |
-|---|---|---|---|---|
-| infant | pass | pass | pass | pass |
-| inflation | pass | pass | pass | pass |
-| initiative | pass | pass | pass | pass |
-| insight | pass | pass | pass | pass |
-| install | pass | pass | pass | pass |
-| integrity | pass | pass | pass | pass |
-| intellect | pass | pass | pass | pass |
-| intercept | pass | pass | pass | pass |
-| interfere | pass | pass | pass | pass |
-| intimidate | pass | pass | pass | pass |
-| intricate | pass | pass | pass | pass |
-| introduction | pass | pass | pass | pass |
-| investment | pass | pass | pass | pass |
-| irrigate | pass | pass | pass | pass |
-| labor | pass | pass | pass | pass |
-| landscape | pass | pass | pass | pass |
-| liberate | pass | pass | pass | pass |
-| literacy | pass | pass | pass | pass |
-| margin | pass | pass | pass | pass |
-| mechanism | pass | pass | pass | pass |
-| media | pass | pass | pass | pass |
-| medieval | pass | pass | pass | pass |
-| memorize | pass | pass | pass | pass |
-| menace | pass | pass | pass | pass |
-| merit | pass | pass | pass | pass |
-| metabolism | pass | pass | pass | pass |
-| mimic | pass | pass | pass | pass |
-| minimal | pass | pass | pass | pass |
-| ministry | pass | pass | pass | pass |
-| momentum | pass | pass | pass | pass |
-| monarch | pass | pass | pass | pass |
-| monopoly | pass | pass | pass | pass |
-| municipal | pass | pass | pass | pass |
-| narrative | pass | pass | pass | pass |
-| nitrogen | pass | pass | pass | pass |
-| nominate | pass | pass | pass | pass |
-| norm | pass | pass | pass | pass |
-| nuclear | pass | pass | pass | pass |
-| oblige | pass | pass | pass | pass |
-| offend | pass | pass | pass | pass |
-| oppress | pass | pass | pass | pass |
-| orient | pass | pass | pass | pass |
-| output | pass | pass | pass | pass |
-| outrage | pass | pass | pass | pass |
-| overlap | pass | pass | pass | pass |
-| overseas | pass | pass | pass | pass |
-| overwhelm | pass | pass | pass | pass |
-| patron | pass | pass | pass | pass |
-| peak | pass | pass | pass | pass |
-| plantation | pass | pass | pass | pass |
-| plead | pass | pass | pass | pass |
-| poll | pass | pass | pass | pass |
-| pollinate | pass | pass | pass | pass |
-| pollute | pass | pass | pass | pass |
-| populate | pass | pass | pass | pass |
-| precaution | pass | pass | pass | pass |
-| preliminary | pass | pass | pass | pass |
-| premise | pass | pass | pass | pass |
-| preside | pass | pass | pass | pass |
-| prevalent | pass | pass | pass | pass |
-| primarily | pass | pass | pass | pass |
-| procedure | pass | pass | pass | pass |
-| quota | pass | pass | pass | pass |
-| rational | pass | pass | pass | pass |
-| reaction | pass | pass | pass | pass |
-| recede | pass | pass | pass | pass |
-| reception | pass | pass | pass | pass |
-| refer | pass | pass | pass | pass |
-| refuge | pass | pass | pass | pass |
-| regime | pass | pass | pass | pass |
-| relay | pass | pass | pass | pass |
-| render | pass | pass | pass | pass |
-| renovate | pass | pass | pass | pass |
-| repeal | pass | pass | pass | pass |
-| replicate | pass | pass | pass | pass |
-| resign | pass | pass | pass | pass |
-| restrain | pass | pass | pass | pass |
-| retail | pass | pass | pass | pass |
-| retrieve | pass | pass | pass | pass |
-| revolve | pass | pass | pass | pass |
-| robust | pass | pass | pass | pass |
-| rotate | pass | pass | pass | pass |
-| sanction | pass | pass | pass | pass |
-| satellite | pass | pass | pass | pass |
-| saturate | pass | pass | pass | pass |
-| scenario | pass | pass | pass | pass |
-| sector | pass | pass | pass | pass |
-| senate | pass | pass | pass | pass |
-| siege | pass | pass | pass | pass |
-| significance | pass | pass | pass | pass |
-| simultaneous | pass | pass | pass | pass |
-| skeptical | pass | pass | pass | pass |
-| solemn | pass | pass | pass | pass |
-| somewhat | pass | pass | pass | pass |
-| sovereign | pass | pass | pass | pass |
-| spectrum | pass | pass | pass | pass |
-| speculate | pass | pass | pass | pass |
-| sphere | pass | pass | pass | pass |
-| stability | pass | pass | pass | pass |
-| stagger | pass | pass | pass | pass |
-| stake | pass | pass | pass | pass |
-| statistic | pass | pass | pass | pass |
-| statute | pass | pass | pass | pass |
-| stereotype | pass | pass | pass | pass |
-| stimulate | pass | pass | pass | pass |
-| subordinate | pass | pass | pass | pass |
-| subsequent | pass | pass | pass | pass |
-| subsidy | pass | pass | pass | pass |
-| substance | pass | pass | pass | pass |
-| substantial | pass | pass | pass | pass |
-| subtle | pass | pass | pass | pass |
-| successor | pass | pass | pass | pass |
-| summarize | pass | pass | pass | pass |
-| superb | pass | pass | pass | pass |
-| supreme | pass | pass | pass | pass |
-| surplus | pass | pass | pass | pass |
-| surrender | pass | pass | pass | pass |
-| synthetic | pass | pass | pass | pass |
-| tenant | pass | pass | pass | pass |
-| terminal | pass | pass | pass | pass |
-| terrain | pass | pass | pass | pass |
-| testify | pass | pass | pass | pass |
-| texture | pass | pass | pass | pass |
-| therapy | pass | pass | pass | pass |
-| threat | pass | pass | pass | pass |
-| timber | pass | pass | pass | pass |
-| toxic | pass | pass | pass | pass |
-| transaction | pass | pass | pass | pass |
-| transition | pass | pass | pass | pass |
-| transmit | pass | pass | pass | pass |
-| trigger | pass | pass | pass | pass |
-| turbulent | pass | pass | pass | pass |
-| twilight | pass | pass | pass | pass |
-| ultimate | pass | pass | pass | pass |
-| undermine | pass | pass | pass | pass |
-| obstinate | pass | pass | pass | pass |
-| obviate | pass | pass | pass | pass |
-| onerous | pass | pass | pass | pass |
-| opacity | pass | pass | pass | pass |
-| opulence | pass | pass | pass | pass |
-| oration | pass | pass | pass | pass |
-| oscillation | pass | pass | pass | pass |
-| ostensible | pass | pass | pass | pass |
-| ostracism | pass | pass | pass | pass |
-| overture | pass | pass | pass | pass |
-| palatable | pass | pass | pass | pass |
-| panacea | pass | pass | pass | pass |
-| paragon | pass | pass | pass | pass |
-| paradoxical | pass | pass | pass | pass |
-| paucity | pass | pass | pass | pass |
-| pedagogue | pass | pass | pass | pass |
-| pedantic | pass | pass | pass | pass |
-| pejorative | pass | pass | pass | pass |
-| penitence | pass | pass | pass | pass |
-| penultimate | pass | pass | pass | pass |
-| pernicious | pass | pass | pass | pass |
-| perturbation | pass | pass | pass | pass |
-| petulance | pass | pass | pass | pass |
-| placid | pass | pass | pass | pass |
-| platitude | pass | pass | pass | pass |
-| plethora | pass | pass | pass | pass |
-| poignant | pass | pass | pass | pass |
-| polemic | pass | pass | pass | pass |
-| ponderous | pass | pass | pass | pass |
-| portentous | pass | pass | pass | pass |
-| pragmatism | pass | pass | pass | pass |
-| precarious | pass | pass | pass | pass |
-| precipitous | pass | pass | pass | pass |
-| precursor | pass | pass | pass | pass |
-| predilection | pass | pass | pass | pass |
-| preeminent | pass | pass | pass | pass |
-| preponderance | pass | pass | pass | pass |
-| presentiment | pass | pass | pass | pass |
-| presumptuous | pass | pass | pass | pass |
-| primordial | pass | pass | pass | pass |
-| probity | pass | pass | pass | pass |
-| proclivity | pass | pass | pass | pass |
-| procrastinate | pass | pass | pass | pass |
-| prodigious | pass | pass | pass | pass |
-| profligate | pass | pass | pass | pass |
-| prognosticate | pass | pass | pass | pass |
-| promulgation | pass | pass | pass | pass |
-| propitious | pass | pass | pass | pass |
-| proprietary | pass | pass | pass | pass |
-| proscribe | pass | pass | pass | pass |
-| proselytize | pass | pass | pass | pass |
-| protracted | pass | pass | pass | pass |
-| provenance | pass | pass | pass | pass |
-| provisional | pass | pass | pass | pass |
-| prowess | pass | pass | pass | pass |
-| prudence | pass | pass | pass | pass |
-| pugnacious | pass | pass | pass | pass |
-| pulchritude | pass | pass | pass | pass |
-| punctilious | pass | pass | pass | pass |
-| punitive | pass | pass | pass | pass |
-| quagmire | pass | pass | pass | pass |
-| qualm | pass | pass | pass | pass |
-| quandary | pass | pass | pass | pass |
-| quarrelsome | pass | pass | pass | pass |
-| querulous | pass | pass | pass | pass |
-| quintessential | pass | pass | pass | pass |
-| quixotic | pass | pass | pass | pass |
-| rambunctious | pass | pass | pass | pass |
-| rancor | pass | pass | pass | pass |
-| rapacious | pass | pass | pass | pass |
-| rapprochement | pass | pass | pass | pass |
-| rationale | pass | pass | pass | pass |
-| recapitulate | pass | pass | pass | pass |
-| recidivism | pass | pass | pass | pass |
-| reciprocity | pass | pass | pass | pass |
-| reclamation | pass | pass | pass | pass |
-| reconciliation | pass | pass | pass | pass |
-| redress | pass | pass | pass | pass |
-| redundancy | pass | pass | pass | pass |
-| refurbish | pass | pass | pass | pass |
-| reiterate | pass | pass | pass | pass |
-| relegate | pass | pass | pass | pass |
-| remonstrate | pass | pass | pass | pass |
-| renunciation | pass | pass | pass | pass |
-| reparation | pass | pass | pass | pass |
-| reprehensible | pass | pass | pass | pass |
-| repudiation | pass | pass | pass | pass |
-| requisition | pass | pass | pass | pass |
-| rescind | pass | pass | pass | pass |
-| resignation | pass | pass | pass | pass |
-| resolute | pass | pass | pass | pass |
-| resurgent | pass | pass | pass | pass |
-| reticence | pass | pass | pass | pass |
-| retrospective | pass | pass | pass | pass |
-| revelry | pass | pass | pass | pass |
-| reverberate | pass | pass | pass | pass |
-| rigmarole | pass | pass | pass | pass |
-| ruminate | pass | pass | pass | pass |
-| sacrosanct | pass | pass | pass | pass |
-| sagacious | pass | pass | pass | pass |
-| salient | pass | pass | pass | pass |
-| sanguine | pass | pass | pass | pass |
-| sardonic | pass | pass | pass | pass |
-| scrupulous | pass | pass | pass | pass |
-| scrutinize | pass | pass | pass | pass |
-| sedentary | pass | pass | pass | pass |
-| semblance | pass | pass | pass | pass |
-| serendipity | pass | pass | pass | pass |
-| servile | pass | pass | pass | pass |
-| simultaneity | pass | pass | pass | pass |
-| solace | pass | pass | pass | pass |
-| solicitous | pass | pass | pass | pass |
-| soporific | pass | pass | pass | pass |
-| spurious | pass | pass | pass | pass |
-| squalid | pass | pass | pass | pass |
-| stagnation | pass | pass | pass | pass |
-| stipend | pass | pass | pass | pass |
-| stringent | pass | pass | pass | pass |
-| subjugation | pass | pass | pass | pass |
-| subliminal | pass | pass | pass | pass |
-| subordination | pass | pass | pass | pass |
-| subservient | pass | pass | pass | pass |
-| substantiation | pass | pass | pass | pass |
-| subterfuge | pass | pass | pass | pass |
-| succinct | pass | pass | pass | pass |
-| symbiosis | pass | pass | pass | pass |
-| tangential | pass | pass | pass | pass |
-| tantamount | pass | pass | pass | pass |
-| temerity | pass | pass | pass | pass |
-| temperance | pass | pass | pass | pass |
-| tenacity | pass | pass | pass | pass |
-| tenet | pass | pass | pass | pass |
-| tepid | pass | pass | pass | pass |
-| terse | pass | pass | pass | pass |
-| tirade | pass | pass | pass | pass |
-| torpor | pass | pass | pass | pass |
-| tractable | pass | pass | pass | pass |
-| transient | pass | pass | pass | pass |
-| trepidation | pass | pass | pass | pass |
-| truculent | pass | pass | pass | pass |
-| ubiquity | pass | pass | pass | pass |
-| umbrage | pass | pass | pass | pass |
-| unctuous | pass | pass | pass | pass |
-| underpinning | pass | pass | pass | pass |
-| unequivocal | pass | pass | pass | pass |
-| unscrupulous | pass | pass | pass | pass |
-| usurpation | pass | pass | pass | pass |
-| utilitarian | pass | pass | pass | pass |
-| vacillate | pass | pass | pass | pass |
-| vapid | pass | pass | pass | pass |
-| vehemence | pass | pass | pass | pass |
-| venerate | pass | pass | pass | pass |
-| veracious | pass | pass | pass | pass |
-| verbose | pass | pass | pass | pass |
-| vestige | pass | pass | pass | pass |
-| vilification | pass | pass | pass | pass |
-| vindictive | pass | pass | pass | pass |
-| virtuosity | pass | pass | pass | pass |
-| vitriolic | pass | pass | pass | pass |
-| vociferous | pass | pass | pass | pass |
-| volition | pass | pass | pass | pass |
-| waiver | pass | pass | pass | pass |
-| wanton | pass | pass | pass | pass |
-| warranted | pass | pass | pass | pass |
-| wherewithal | pass | pass | pass | pass |
-| zealot | pass | pass | pass | pass |
-| abnegation | pass | pass | pass | pass |
-| acerbic | pass | pass | pass | pass |
-| anachronism | pass | pass | pass | pass |
-| anathema | pass | pass | pass | pass |
-| antithesis | pass | pass | pass | pass |
-| asperity | pass | pass | pass | pass |
-| calumny | pass | pass | pass | pass |
-| chicanery | pass | pass | pass | pass |
-| contumacious | pass | pass | pass | pass |
+| Word | L9 (Image) | L10 (Fact) | L11 (Meaning) | L12 (Game) | Status |
+|---|---|---|---|---|---|
+| infant | pass | pass | pass | pass | PASS |
+| inflation | pass | pass | pass | pass | PASS |
+| initiative | pass | pass | pass | pass | PASS |
+| insight | pass | pass | pass | pass | PASS |
+| install | pass | pass | pass | pass | PASS |
+| integrity | pass | pass | pass | pass | PASS |
+| intellect | pass | pass | pass | pass | PASS |
+| intercept | pass | pass | pass | pass | PASS |
+| interfere | pass | pass | pass | pass | PASS |
+| intimidate | pass | pass | pass | pass | PASS |
+| intricate | pass | pass | pass | pass | PASS |
+| introduction | pass | pass | pass | pass | PASS |
+| investment | pass | pass | pass | pass | PASS |
+| irrigate | pass | pass | pass | pass | PASS |
+| labor | pass | pass | pass | pass | PASS |
+| landscape | pass | pass | pass | pass | PASS |
+| liberate | pass | pass | pass | pass | PASS |
+| literacy | pass | pass | pass | pass | PASS |
+| margin | pass | pass | pass | pass | PASS |
+| mechanism | pass | pass | pass | pass | PASS |
+| media | pass | pass | pass | pass | PASS |
+| medieval | pass | pass | pass | pass | PASS |
+| memorize | pass | pass | pass | pass | PASS |
+| menace | pass | pass | pass | pass | PASS |
+| merit | pass | pass | pass | pass | PASS |
+| metabolism | pass | pass | pass | pass | PASS |
+| mimic | pass | pass | pass | pass | PASS |
+| minimal | pass | pass | pass | pass | PASS |
+| ministry | pass | pass | pass | pass | PASS |
+| momentum | pass | pass | pass | pass | PASS |
+| monarch | pass | pass | pass | pass | PASS |
+| monopoly | pass | pass | pass | pass | PASS |
+| municipal | pass | pass | pass | pass | PASS |
+| narrative | pass | pass | pass | pass | PASS |
+| nitrogen | pass | pass | pass | pass | PASS |
+| nominate | pass | pass | pass | pass | PASS |
+| norm | pass | pass | pass | pass | PASS |
+| nuclear | pass | pass | pass | pass | PASS |
+| oblige | pass | pass | pass | pass | PASS |
+| offend | pass | pass | pass | pass | PASS |
+| oppress | pass | pass | pass | pass | PASS |
+| orient | pass | pass | pass | pass | PASS |
+| output | pass | pass | pass | pass | PASS |
+| outrage | pass | pass | pass | pass | PASS |
+| overlap | pass | pass | pass | pass | PASS |
+| overseas | pass | pass | pass | pass | PASS |
+| overwhelm | pass | pass | pass | pass | PASS |
+| patron | pass | pass | pass | pass | PASS |
+| peak | pass | pass | pass | pass | PASS |
+| plantation | pass | pass | pass | pass | PASS |
+| plead | pass | pass | pass | pass | PASS |
+| poll | pass | pass | pass | pass | PASS |
+| pollinate | pass | pass | pass | pass | PASS |
+| pollute | pass | pass | pass | pass | PASS |
+| populate | pass | pass | pass | pass | PASS |
+| precaution | pass | pass | pass | pass | PASS |
+| preliminary | pass | pass | pass | pass | PASS |
+| premise | pass | pass | pass | pass | PASS |
+| preside | pass | pass | pass | pass | PASS |
+| prevalent | pass | pass | pass | pass | PASS |
+| primarily | pass | pass | pass | pass | PASS |
+| procedure | pass | pass | pass | pass | PASS |
+| quota | pass | pass | pass | pass | PASS |
+| rational | pass | pass | pass | pass | PASS |
+| reaction | pass | pass | pass | pass | PASS |
+| recede | pass | pass | pass | pass | PASS |
+| reception | pass | pass | pass | pass | PASS |
+| refer | pass | pass | pass | pass | PASS |
+| refuge | pass | pass | pass | pass | PASS |
+| regime | pass | pass | pass | pass | PASS |
+| relay | pass | pass | pass | pass | PASS |
+| render | pass | pass | pass | pass | PASS |
+| renovate | pass | pass | pass | pass | PASS |
+| repeal | pass | pass | pass | pass | PASS |
+| replicate | pass | pass | pass | pass | PASS |
+| resign | pass | pass | pass | pass | PASS |
+| restrain | pass | pass | pass | pass | PASS |
+| retail | pass | pass | pass | pass | PASS |
+| retrieve | pass | pass | pass | pass | PASS |
+| revolve | pass | pass | pass | pass | PASS |
+| robust | pass | pass | pass | pass | PASS |
+| rotate | pass | pass | pass | pass | PASS |
+| sanction | pass | pass | pass | pass | PASS |
+| satellite | pass | pass | pass | pass | PASS |
+| saturate | pass | pass | pass | pass | PASS |
+| scenario | pass | pass | pass | pass | PASS |
+| sector | pass | pass | pass | pass | PASS |
+| senate | pass | pass | pass | pass | PASS |
+| siege | pass | pass | pass | pass | PASS |
+| significance | pass | pass | pass | pass | PASS |
+| simultaneous | pass | pass | pass | pass | PASS |
+| skeptical | pass | pass | pass | pass | PASS |
+| solemn | pass | pass | pass | pass | PASS |
+| somewhat | pass | pass | pass | pass | PASS |
+| sovereign | pass | pass | pass | pass | PASS |
+| spectrum | pass | pass | pass | pass | PASS |
+| speculate | pass | pass | pass | pass | PASS |
+| sphere | pass | pass | pass | pass | PASS |
+| stability | pass | pass | pass | pass | PASS |
+| stagger | pass | pass | pass | pass | PASS |
+| stake | pass | pass | pass | pass | PASS |
+| statistic | pass | pass | pass | pass | PASS |
+| statute | pass | pass | pass | pass | PASS |
+| stereotype | pass | pass | pass | pass | PASS |
+| stimulate | pass | pass | pass | pass | PASS |
+| subordinate | pass | pass | pass | pass | PASS |
+| subsequent | pass | pass | pass | pass | PASS |
+| subsidy | pass | pass | pass | pass | PASS |
+| substance | pass | pass | pass | pass | PASS |
+| substantial | pass | pass | pass | pass | PASS |
+| subtle | pass | pass | pass | pass | PASS |
+| successor | pass | pass | pass | pass | PASS |
+| summarize | pass | pass | pass | pass | PASS |
+| superb | pass | pass | pass | pass | PASS |
+| supreme | pass | pass | pass | pass | PASS |
+| surplus | pass | pass | pass | pass | PASS |
+| surrender | pass | pass | pass | pass | PASS |
+| synthetic | pass | pass | pass | pass | PASS |
+| tenant | pass | pass | pass | pass | PASS |
+| terminal | pass | pass | pass | pass | PASS |
+| terrain | pass | pass | pass | pass | PASS |
+| testify | pass | pass | pass | pass | PASS |
+| texture | pass | pass | pass | pass | PASS |
+| therapy | pass | pass | pass | pass | PASS |
+| threat | pass | pass | pass | pass | PASS |
+| timber | pass | pass | pass | pass | PASS |
+| toxic | pass | pass | pass | pass | PASS |
+| transaction | pass | pass | pass | pass | PASS |
+| transition | pass | pass | pass | pass | PASS |
+| transmit | pass | pass | pass | pass | PASS |
+| trigger | pass | pass | pass | pass | PASS |
+| turbulent | pass | pass | pass | pass | PASS |
+| twilight | pass | pass | pass | pass | PASS |
+| ultimate | pass | pass | pass | pass | PASS |
+| undermine | pass | pass | pass | pass | PASS |
+| obstinate | pass | pass | pass | pass | PASS |
+| obviate | pass | pass | pass | pass | PASS |
+| onerous | pass | pass | pass | pass | PASS |
+| opacity | pass | pass | pass | pass | PASS |
+| opulence | pass | pass | pass | pass | PASS |
+| oration | pass | pass | pass | pass | PASS |
+| oscillation | pass | pass | pass | pass | PASS |
+| ostensible | pass | pass | pass | pass | PASS |
+| ostracism | pass | pass | pass | pass | PASS |
+| overture | pass | pass | pass | pass | PASS |
+| palatable | pass | pass | pass | pass | PASS |
+| panacea | pass | pass | pass | pass | PASS |
+| paragon | pass | pass | pass | pass | PASS |
+| paradoxical | pass | pass | pass | pass | PASS |
+| paucity | pass | pass | pass | pass | PASS |
+| pedagogue | pass | pass | pass | pass | PASS |
+| pedantic | pass | pass | pass | pass | PASS |
+| pejorative | pass | pass | pass | pass | PASS |
+| penitence | pass | pass | pass | pass | PASS |
+| penultimate | pass | pass | pass | pass | PASS |
+| pernicious | pass | pass | pass | pass | PASS |
+| perturbation | pass | pass | pass | pass | PASS |
+| petulance | pass | pass | pass | pass | PASS |
+| placid | pass | pass | pass | pass | PASS |
+| platitude | pass | pass | pass | pass | PASS |
+| plethora | pass | pass | pass | pass | PASS |
+| poignant | pass | pass | pass | pass | PASS |
+| polemic | pass | pass | pass | pass | PASS |
+| ponderous | pass | pass | pass | pass | PASS |
+| portentous | pass | pass | pass | pass | PASS |
+| pragmatism | pass | pass | pass | pass | PASS |
+| precarious | pass | pass | pass | pass | PASS |
+| precipitous | pass | pass | pass | pass | PASS |
+| precursor | pass | pass | pass | pass | PASS |
+| predilection | pass | pass | pass | pass | PASS |
+| preeminent | pass | pass | pass | pass | PASS |
+| preponderance | pass | pass | pass | pass | PASS |
+| presentiment | pass | pass | pass | pass | PASS |
+| presumptuous | pass | pass | pass | pass | PASS |
+| primordial | pass | pass | pass | pass | PASS |
+| probity | pass | pass | pass | pass | PASS |
+| proclivity | pass | pass | pass | pass | PASS |
+| procrastinate | pass | pass | pass | pass | PASS |
+| prodigious | pass | pass | pass | pass | PASS |
+| profligate | pass | pass | pass | pass | PASS |
+| prognosticate | pass | pass | pass | pass | PASS |
+| promulgation | pass | pass | pass | pass | PASS |
+| propitious | pass | pass | pass | pass | PASS |
+| proprietary | pass | pass | pass | pass | PASS |
+| proscribe | pass | pass | pass | pass | PASS |
+| proselytize | pass | pass | pass | pass | PASS |
+| protracted | pass | pass | pass | pass | PASS |
+| provenance | pass | pass | pass | pass | PASS |
+| provisional | pass | pass | pass | pass | PASS |
+| prowess | pass | pass | pass | pass | PASS |
+| prudence | pass | pass | pass | pass | PASS |
+| pugnacious | pass | pass | pass | pass | PASS |
+| pulchritude | pass | pass | pass | pass | PASS |
+| punctilious | pass | pass | pass | pass | PASS |
+| punitive | pass | pass | pass | pass | PASS |
+| quagmire | pass | pass | pass | pass | PASS |
+| qualm | pass | pass | pass | pass | PASS |
+| quandary | pass | pass | pass | pass | PASS |
+| quarrelsome | pass | pass | pass | pass | PASS |
+| querulous | pass | pass | pass | pass | PASS |
+| quintessential | pass | pass | pass | pass | PASS |
+| quixotic | pass | pass | pass | pass | PASS |
+| rambunctious | pass | pass | pass | pass | PASS |
+| rancor | pass | pass | pass | pass | PASS |
+| rapacious | pass | pass | pass | pass | PASS |
+| rapprochement | pass | pass | pass | pass | PASS |
+| rationale | pass | pass | pass | pass | PASS |
+| recapitulate | pass | pass | pass | pass | PASS |
+| recidivism | pass | pass | pass | pass | PASS |
+| reciprocity | pass | pass | pass | pass | PASS |
+| reclamation | pass | pass | pass | pass | PASS |
+| reconciliation | pass | pass | pass | pass | PASS |
+| redress | pass | pass | pass | pass | PASS |
+| redundancy | pass | pass | pass | pass | PASS |
+| refurbish | pass | pass | pass | pass | PASS |
+| reiterate | pass | pass | pass | pass | PASS |
+| relegate | pass | pass | pass | pass | PASS |
+| remonstrate | pass | pass | pass | pass | PASS |
+| renunciation | pass | pass | pass | pass | PASS |
+| reparation | pass | pass | pass | pass | PASS |
+| reprehensible | pass | pass | pass | pass | PASS |
+| repudiation | pass | pass | pass | pass | PASS |
+| requisition | pass | pass | pass | pass | PASS |
+| rescind | pass | pass | pass | pass | PASS |
+| resignation | pass | pass | pass | pass | PASS |
+| resolute | pass | pass | pass | pass | PASS |
+| resurgent | pass | pass | pass | pass | PASS |
+| reticence | pass | pass | pass | pass | PASS |
+| retrospective | pass | pass | pass | pass | PASS |
+| revelry | pass | pass | pass | pass | PASS |
+| reverberate | pass | pass | pass | pass | PASS |
+| rigmarole | pass | pass | pass | pass | PASS |
+| ruminate | pass | pass | pass | pass | PASS |
+| sacrosanct | pass | pass | pass | pass | PASS |
+| sagacious | pass | pass | pass | pass | PASS |
+| salient | pass | pass | pass | pass | PASS |
+| sanguine | pass | pass | pass | pass | PASS |
+| sardonic | pass | pass | pass | pass | PASS |
+| scrupulous | pass | pass | pass | pass | PASS |
+| scrutinize | pass | pass | pass | pass | PASS |
+| sedentary | pass | pass | pass | pass | PASS |
+| semblance | pass | pass | pass | pass | PASS |
+| serendipity | pass | pass | pass | pass | PASS |
+| servile | pass | pass | pass | pass | PASS |
+| simultaneity | pass | pass | pass | pass | PASS |
+| solace | pass | pass | pass | pass | PASS |
+| solicitous | pass | pass | pass | pass | PASS |
+| soporific | pass | pass | pass | pass | PASS |
+| spurious | pass | pass | pass | pass | PASS |
+| squalid | pass | pass | pass | pass | PASS |
+| stagnation | pass | pass | pass | pass | PASS |
+| stipend | pass | pass | pass | pass | PASS |
+| stringent | pass | pass | pass | pass | PASS |
+| subjugation | pass | pass | pass | pass | PASS |
+| subliminal | pass | pass | pass | pass | PASS |
+| subordination | pass | pass | pass | pass | PASS |
+| subservient | pass | pass | pass | pass | PASS |
+| substantiation | pass | pass | pass | pass | PASS |
+| subterfuge | pass | pass | pass | pass | PASS |
+| succinct | pass | pass | pass | pass | PASS |
+| symbiosis | pass | pass | pass | pass | PASS |
+| tangential | pass | pass | pass | pass | PASS |
+| tantamount | pass | pass | pass | pass | PASS |
+| temerity | pass | pass | pass | pass | PASS |
+| temperance | pass | pass | pass | pass | PASS |
+| tenacity | pass | pass | pass | pass | PASS |
+| tenet | pass | pass | pass | pass | PASS |
+| tepid | pass | pass | pass | pass | PASS |
+| terse | pass | pass | pass | pass | PASS |
+| tirade | pass | pass | pass | pass | PASS |
+| torpor | pass | pass | pass | pass | PASS |
+| tractable | pass | pass | pass | pass | PASS |
+| transient | pass | pass | pass | pass | PASS |
+| trepidation | pass | pass | pass | pass | PASS |
+| truculent | pass | pass | pass | pass | PASS |
+| ubiquity | pass | pass | pass | pass | PASS |
+| umbrage | pass | pass | pass | pass | PASS |
+| unctuous | pass | pass | pass | pass | PASS |
+| underpinning | pass | pass | pass | pass | PASS |
+| unequivocal | pass | pass | pass | pass | PASS |
+| unscrupulous | pass | pass | pass | pass | PASS |
+| usurpation | pass | pass | pass | pass | PASS |
+| utilitarian | pass | pass | pass | pass | PASS |
+| vacillate | pass | pass | pass | pass | PASS |
+| vapid | pass | pass | pass | pass | PASS |
+| vehemence | pass | pass | pass | pass | PASS |
+| venerate | pass | pass | pass | pass | PASS |
+| veracious | pass | pass | pass | pass | PASS |
+| verbose | pass | pass | pass | pass | PASS |
+| vestige | pass | pass | pass | pass | PASS |
+| vilification | pass | pass | pass | pass | PASS |
+| vindictive | pass | pass | pass | pass | PASS |
+| virtuosity | pass | pass | pass | pass | PASS |
+| vitriolic | pass | pass | pass | pass | PASS |
+| vociferous | pass | pass | pass | pass | PASS |
+| volition | pass | pass | pass | pass | PASS |
+| waiver | pass | pass | pass | pass | PASS |
+| wanton | pass | pass | pass | pass | PASS |
+| warranted | pass | pass | pass | pass | PASS |
+| wherewithal | pass | pass | pass | pass | PASS |
+| zealot | pass | pass | pass | pass | PASS |
+| abnegation | pass | pass | pass | pass | PASS |
+| acerbic | pass | pass | pass | pass | PASS |
+| anachronism | pass | pass | pass | pass | PASS |
+| anathema | pass | pass | pass | pass | PASS |
+| antithesis | pass | pass | pass | pass | PASS |
+| asperity | pass | pass | pass | pass | PASS |
+| calumny | pass | pass | pass | pass | PASS |
+| chicanery | pass | pass | pass | pass | PASS |
+| contumacious | pass | pass | pass | pass | PASS |
