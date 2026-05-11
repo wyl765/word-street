@@ -558,7 +558,7 @@
 - dusk | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dusk / later / zipper / together] | L7:OK | L8:合适
 - midnight | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[midnight / package / buckle / sudden] | L7:OK | L8:合适
 - noon | L5-Def:能 | L5-Ex:勉强(线索少(仅:day)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:day)，同类词易混) | 选项:[noon / deep / patient / hive] | L7:OK | L8:合适
-- passenger | L5-Def:能 | L5-Ex:勉强(线索少(仅:bus)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:bus)，同类词易混) | 选项:[passenger / drought / cozy / freezing] | L7:OK | L8:合适
+- passenger | L5-Def:勉强(定义里有vehicle/airplane/riding等生词；需要靠“car/bus/train”反推) | L5-Ex:能(“on the bus + found a seat”很像乘客) | L6:能(用同level近义干扰也基本唯一) | 选项:[passenger / neighbor / stranger / audience] | L7:OK | L8:合适
 - neighbor | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[neighbor / monster / solid / entire] | L7:OK | L8:合适
 - stranger | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stranger / puddle / amazed / tongue] | L7:OK(安全教育场景可接受；注意别造成过度恐惧) | L8:合适
 - parade | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[parade / squirrel / meadow / acorn] | L7:OK | L8:合适
