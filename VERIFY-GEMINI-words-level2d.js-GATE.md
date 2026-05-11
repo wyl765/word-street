@@ -1,262 +1,260 @@
-# VERIFY-GEMINI-words-level2d.js-GATE
-
-| Word | L9 Image | L10 Fact | L11 Polysemy | L12 Game |
+| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
 |---|---|---|---|---|
-| pace | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| panel | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| participate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| passion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| passive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| patent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| peer | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| perceive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| peril | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| period | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| permanent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| permit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| persist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| perspective | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| phenomenon | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| philosophy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| physical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| plea | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| pledge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| plunge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| policy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| polish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| pose | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| potential | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| poverty | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| practical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prefer | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prejudice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| preserve | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| pressure | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| presume | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prevail | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prevent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| primary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| principle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| priority | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| privilege | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| proceed | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| process | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| proclaim | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| produce | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| profit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| progress | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prohibit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| project | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| promote | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prompt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| proof | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| proportion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| propose | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prospect | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| prosper | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| provision | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| provoke | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| publish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| purchase | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| pursue | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| qualify | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| quote | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| random | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ratio | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| react | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| realistic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| realm | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| rebel | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| recall | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| recommend | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| recover | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reference | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reflect | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reform | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| refuse | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| regard | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| register | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| regret | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| regular | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reinforce | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reject | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| relate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| release | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| relevant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| relief | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| rely | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| remain | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| remarkable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| remedy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| remote | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| remove | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| renew | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| replace | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reputation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| resemble | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reserve | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reside | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| resist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| resolve | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| restore | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| restrict | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| retain | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| retire | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| retreat | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| revenue | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reverse | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| revise | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| revolt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| reward | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| rigid | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| rival | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| routine | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ruin | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sacred | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sacrifice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| satisfactory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| schedule | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| scheme | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| scope | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| secure | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| segment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| seize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sensation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sequence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| series | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| shift | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| significant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| similar | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| simplify | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| simulate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| site | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sketch | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| slight | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sole | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| specific | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| spite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| standard | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| status | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| steady | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| stock | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| strategy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| stress | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| strict | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| submit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| substitute | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| summit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| superior | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| supplement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| suspect | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| suspend | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sustain | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| sympathy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tactic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| target | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| task | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| technique | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tense | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| theory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| thorough | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| threaten | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| thrive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tolerate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tone | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| transfer | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| transparent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| trend | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| trial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| tropical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| trustworthy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| undergo | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| unique | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| unite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| universe | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| urge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| utilize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| valid | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| value | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| vehicle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| venture | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| version | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| vibrant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| violate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| virtual | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| vision | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| vital | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| volume | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| voluntary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| vulnerable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| warrant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| welfare | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| widespread | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| withdraw | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| worthy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| yield | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| zone | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| abolish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| accelerate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ambition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| ample | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| anticipate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| apparatus | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| appliance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| appoint | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| asset | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bankrupt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| behalf | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| betray | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| biased | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bilateral | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| boast | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bonus | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| brisk | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| bulk | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| campaign | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cease | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| certify | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| chronic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| commence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| commission | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| compact | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| compel | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| component | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| compound | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| comprehensive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| compromise | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| compulsory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| condemn | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conduct | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| confront | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| considerable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| consistent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| conspicuous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| constitute | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| constrain | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contempt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| contend | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| controversial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| convention | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| convert | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| convey | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| coordinate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cope | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| corporate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| corrupt | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| counsel | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| counterpart | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| criterion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| crucial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cultivate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| cumulative | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| curriculum | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| custody | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| debris | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deficit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| delegate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| depict | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deplete | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| designate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| deteriorate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
-| dictate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| pace | PASS | PASS | PASS | PASS |
+| panel | PASS | PASS | PASS | PASS |
+| participate | PASS | PASS | PASS | PASS |
+| passion | PASS | PASS | PASS | PASS |
+| passive | PASS | PASS | PASS | PASS |
+| patent | PASS | PASS | PASS | PASS |
+| peer | PASS | PASS | PASS | PASS |
+| perceive | PASS | PASS | PASS | PASS |
+| peril | PASS | PASS | PASS | PASS |
+| period | PASS | PASS | PASS | PASS |
+| permanent | PASS | PASS | PASS | PASS |
+| permit | PASS | PASS | PASS | PASS |
+| persist | PASS | PASS | PASS | PASS |
+| perspective | PASS | PASS | PASS | PASS |
+| phenomenon | PASS | PASS | PASS | PASS |
+| philosophy | PASS | PASS | PASS | PASS |
+| physical | PASS | PASS | PASS | PASS |
+| plea | PASS | PASS | PASS | PASS |
+| pledge | PASS | PASS | PASS | PASS |
+| plunge | PASS | PASS | PASS | PASS |
+| policy | PASS | PASS | PASS | PASS |
+| polish | PASS | PASS | PASS | PASS |
+| pose | PASS | PASS | PASS | PASS |
+| potential | PASS | PASS | PASS | PASS |
+| poverty | PASS | PASS | PASS | PASS |
+| practical | PASS | PASS | PASS | PASS |
+| prefer | PASS | PASS | PASS | PASS |
+| prejudice | PASS | PASS | PASS | PASS |
+| preserve | PASS | PASS | PASS | PASS |
+| pressure | PASS | PASS | PASS | PASS |
+| presume | PASS | PASS | PASS | PASS |
+| prevail | PASS | PASS | PASS | PASS |
+| prevent | PASS | PASS | PASS | PASS |
+| primary | PASS | PASS | PASS | PASS |
+| principle | PASS | PASS | PASS | PASS |
+| priority | PASS | PASS | PASS | PASS |
+| privilege | PASS | PASS | PASS | PASS |
+| proceed | PASS | PASS | PASS | PASS |
+| process | PASS | PASS | PASS | PASS |
+| proclaim | PASS | PASS | PASS | PASS |
+| produce | PASS | PASS | PASS | PASS |
+| profit | PASS | PASS | PASS | PASS |
+| progress | PASS | PASS | PASS | PASS |
+| prohibit | PASS | PASS | PASS | PASS |
+| project | PASS | PASS | PASS | PASS |
+| promote | PASS | PASS | PASS | PASS |
+| prompt | PASS | PASS | PASS | PASS |
+| proof | PASS | PASS | PASS | PASS |
+| proportion | PASS | PASS | PASS | PASS |
+| propose | PASS | PASS | PASS | PASS |
+| prospect | PASS | PASS | PASS | PASS |
+| prosper | PASS | PASS | PASS | PASS |
+| provision | PASS | PASS | PASS | PASS |
+| provoke | PASS | PASS | PASS | PASS |
+| publish | PASS | PASS | PASS | PASS |
+| purchase | PASS | PASS | PASS | PASS |
+| pursue | PASS | PASS | PASS | PASS |
+| qualify | PASS | PASS | PASS | PASS |
+| quote | PASS | PASS | PASS | PASS |
+| random | PASS | PASS | PASS | PASS |
+| ratio | PASS | PASS | PASS | PASS |
+| react | PASS | PASS | PASS | PASS |
+| realistic | PASS | PASS | PASS | PASS |
+| realm | PASS | PASS | PASS | PASS |
+| rebel | PASS | PASS | PASS | PASS |
+| recall | PASS | PASS | PASS | PASS |
+| recommend | PASS | PASS | PASS | PASS |
+| recover | PASS | PASS | PASS | PASS |
+| reference | PASS | PASS | PASS | PASS |
+| reflect | PASS | PASS | PASS | PASS |
+| reform | PASS | PASS | PASS | PASS |
+| refuse | PASS | PASS | PASS | PASS |
+| regard | PASS | PASS | PASS | PASS |
+| register | PASS | PASS | PASS | PASS |
+| regret | PASS | PASS | PASS | PASS |
+| regular | PASS | PASS | PASS | PASS |
+| reinforce | PASS | PASS | PASS | PASS |
+| reject | PASS | PASS | PASS | PASS |
+| relate | PASS | PASS | PASS | PASS |
+| release | PASS | PASS | PASS | PASS |
+| relevant | PASS | PASS | PASS | PASS |
+| relief | PASS | PASS | PASS | PASS |
+| rely | PASS | PASS | PASS | PASS |
+| remain | PASS | PASS | PASS | PASS |
+| remarkable | PASS | PASS | PASS | PASS |
+| remedy | PASS | PASS | PASS | PASS |
+| remote | PASS | PASS | PASS | PASS |
+| remove | PASS | PASS | PASS | PASS |
+| renew | PASS | PASS | PASS | PASS |
+| replace | PASS | PASS | PASS | PASS |
+| reputation | PASS | PASS | PASS | PASS |
+| resemble | PASS | PASS | PASS | PASS |
+| reserve | PASS | PASS | PASS | PASS |
+| reside | PASS | PASS | PASS | PASS |
+| resist | PASS | PASS | PASS | PASS |
+| resolve | PASS | PASS | PASS | PASS |
+| restore | PASS | PASS | PASS | PASS |
+| restrict | PASS | PASS | PASS | PASS |
+| retain | PASS | PASS | PASS | PASS |
+| retire | PASS | PASS | PASS | PASS |
+| retreat | PASS | PASS | PASS | PASS |
+| revenue | PASS | PASS | PASS | PASS |
+| reverse | PASS | PASS | PASS | PASS |
+| revise | PASS | PASS | PASS | PASS |
+| revolt | PASS | PASS | PASS | PASS |
+| reward | PASS | PASS | PASS | PASS |
+| rigid | PASS | PASS | PASS | PASS |
+| rival | PASS | PASS | PASS | PASS |
+| routine | PASS | PASS | PASS | PASS |
+| ruin | PASS | PASS | PASS | PASS |
+| sacred | PASS | PASS | PASS | PASS |
+| sacrifice | PASS | PASS | PASS | PASS |
+| satisfactory | PASS | PASS | PASS | PASS |
+| schedule | PASS | PASS | PASS | PASS |
+| scheme | PASS | PASS | PASS | PASS |
+| scope | PASS | PASS | PASS | PASS |
+| secure | PASS | PASS | PASS | PASS |
+| segment | PASS | PASS | PASS | PASS |
+| seize | PASS | PASS | PASS | PASS |
+| sensation | PASS | PASS | PASS | PASS |
+| sequence | PASS | PASS | PASS | PASS |
+| series | PASS | PASS | PASS | PASS |
+| shift | PASS | PASS | PASS | PASS |
+| significant | PASS | PASS | PASS | PASS |
+| similar | PASS | PASS | PASS | PASS |
+| simplify | PASS | PASS | PASS | PASS |
+| simulate | PASS | PASS | PASS | PASS |
+| site | PASS | PASS | PASS | PASS |
+| sketch | PASS | PASS | PASS | PASS |
+| slight | PASS | PASS | PASS | PASS |
+| sole | PASS | PASS | PASS | PASS |
+| specific | PASS | PASS | PASS | PASS |
+| spite | PASS | PASS | PASS | PASS |
+| standard | PASS | PASS | PASS | PASS |
+| status | PASS | PASS | PASS | PASS |
+| steady | PASS | PASS | PASS | PASS |
+| stock | PASS | PASS | PASS | PASS |
+| strategy | PASS | PASS | PASS | PASS |
+| stress | PASS | PASS | PASS | PASS |
+| strict | PASS | PASS | PASS | PASS |
+| submit | PASS | PASS | PASS | PASS |
+| substitute | PASS | PASS | PASS | PASS |
+| summit | PASS | PASS | PASS | PASS |
+| superior | PASS | PASS | PASS | PASS |
+| supplement | PASS | PASS | PASS | PASS |
+| suspect | PASS | PASS | PASS | PASS |
+| suspend | PASS | PASS | PASS | PASS |
+| sustain | PASS | PASS | PASS | PASS |
+| sympathy | PASS | PASS | PASS | PASS |
+| tactic | PASS | PASS | PASS | PASS |
+| target | PASS | PASS | PASS | PASS |
+| task | PASS | PASS | PASS | PASS |
+| technique | PASS | PASS | PASS | PASS |
+| tense | PASS | PASS | PASS | PASS |
+| theory | PASS | PASS | PASS | PASS |
+| thorough | PASS | PASS | PASS | PASS |
+| threaten | PASS | PASS | PASS | PASS |
+| thrive | PASS | PASS | PASS | PASS |
+| tolerate | PASS | PASS | PASS | PASS |
+| tone | PASS | PASS | PASS | PASS |
+| transfer | PASS | PASS | PASS | PASS |
+| transparent | PASS | PASS | PASS | PASS |
+| trend | PASS | PASS | PASS | PASS |
+| trial | PASS | PASS | PASS | PASS |
+| tropical | PASS | PASS | PASS | PASS |
+| trustworthy | PASS | PASS | PASS | PASS |
+| undergo | PASS | PASS | PASS | PASS |
+| unique | PASS | PASS | PASS | PASS |
+| unite | PASS | PASS | PASS | PASS |
+| universe | PASS | PASS | PASS | PASS |
+| urge | PASS | PASS | PASS | PASS |
+| utilize | PASS | PASS | PASS | PASS |
+| valid | PASS | PASS | PASS | PASS |
+| value | PASS | PASS | PASS | PASS |
+| vehicle | PASS | PASS | PASS | PASS |
+| venture | PASS | PASS | PASS | PASS |
+| version | PASS | PASS | PASS | PASS |
+| vibrant | PASS | PASS | PASS | PASS |
+| violate | PASS | PASS | PASS | PASS |
+| virtual | PASS | PASS | PASS | PASS |
+| vision | PASS | PASS | PASS | PASS |
+| vital | PASS | PASS | PASS | PASS |
+| volume | PASS | PASS | PASS | PASS |
+| voluntary | PASS | PASS | PASS | PASS |
+| vulnerable | PASS | PASS | PASS | PASS |
+| warrant | PASS | PASS | PASS | PASS |
+| welfare | PASS | PASS | PASS | PASS |
+| widespread | PASS | PASS | PASS | PASS |
+| withdraw | PASS | PASS | PASS | PASS |
+| worthy | PASS | PASS | PASS | PASS |
+| yield | PASS | PASS | PASS | PASS |
+| zone | PASS | PASS | PASS | PASS |
+| abolish | PASS | PASS | PASS | PASS |
+| accelerate | PASS | PASS | PASS | PASS |
+| ambition | PASS | PASS | PASS | PASS |
+| ample | PASS | PASS | PASS | PASS |
+| anticipate | PASS | PASS | PASS | PASS |
+| apparatus | PASS | PASS | PASS | PASS |
+| appliance | PASS | PASS | PASS | PASS |
+| appoint | PASS | PASS | PASS | PASS |
+| asset | PASS | PASS | PASS | PASS |
+| bankrupt | PASS | PASS | PASS | PASS |
+| behalf | PASS | PASS | PASS | PASS |
+| betray | PASS | PASS | PASS | PASS |
+| biased | PASS | PASS | PASS | PASS |
+| bilateral | PASS | PASS | PASS | PASS |
+| boast | PASS | PASS | PASS | PASS |
+| bonus | PASS | PASS | PASS | PASS |
+| brisk | PASS | PASS | PASS | PASS |
+| bulk | PASS | PASS | PASS | PASS |
+| campaign | PASS | PASS | PASS | PASS |
+| cease | PASS | PASS | PASS | PASS |
+| certify | PASS | PASS | PASS | PASS |
+| chronic | PASS | PASS | PASS | PASS |
+| cite | PASS | PASS | PASS | PASS |
+| commence | PASS | PASS | PASS | PASS |
+| commission | PASS | PASS | PASS | PASS |
+| compact | PASS | PASS | PASS | PASS |
+| compel | PASS | PASS | PASS | PASS |
+| component | PASS | PASS | PASS | PASS |
+| compound | PASS | PASS | PASS | PASS |
+| comprehensive | PASS | PASS | PASS | PASS |
+| compromise | PASS | PASS | PASS | PASS |
+| compulsory | PASS | PASS | PASS | PASS |
+| condemn | PASS | PASS | PASS | PASS |
+| conduct | PASS | PASS | PASS | PASS |
+| confront | PASS | PASS | PASS | PASS |
+| considerable | PASS | PASS | PASS | PASS |
+| consistent | PASS | PASS | PASS | PASS |
+| conspicuous | PASS | PASS | PASS | PASS |
+| constitute | PASS | PASS | PASS | PASS |
+| constrain | PASS | PASS | PASS | PASS |
+| contempt | PASS | PASS | PASS | PASS |
+| contend | PASS | PASS | PASS | PASS |
+| controversial | PASS | PASS | PASS | PASS |
+| convention | PASS | PASS | PASS | PASS |
+| convert | PASS | PASS | PASS | PASS |
+| convey | PASS | PASS | PASS | PASS |
+| coordinate | PASS | PASS | PASS | PASS |
+| cope | PASS | PASS | PASS | PASS |
+| corporate | PASS | PASS | PASS | PASS |
+| corrupt | PASS | PASS | PASS | PASS |
+| counsel | PASS | PASS | PASS | PASS |
+| counterpart | PASS | PASS | PASS | PASS |
+| criterion | PASS | PASS | PASS | PASS |
+| crucial | PASS | PASS | PASS | PASS |
+| cultivate | PASS | PASS | PASS | PASS |
+| cumulative | PASS | PASS | PASS | PASS |
+| curriculum | PASS | PASS | PASS | PASS |
+| custody | PASS | PASS | PASS | PASS |
+| debris | PASS | PASS | PASS | PASS |
+| deficit | PASS | PASS | PASS | PASS |
+| delegate | PASS | PASS | PASS | PASS |
+| depict | PASS | PASS | PASS | PASS |
+| deplete | PASS | PASS | PASS | PASS |
+| designate | PASS | PASS | PASS | PASS |
+| deteriorate | PASS | PASS | PASS | PASS |
+| dictate | PASS | PASS | PASS | PASS |

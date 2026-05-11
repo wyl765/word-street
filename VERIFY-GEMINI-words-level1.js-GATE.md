@@ -1,6 +1,4 @@
-# VERIFY-GEMINI-words-level1.js-GATE
-
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
+| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
 |---|---|---|---|---|
 | puppy | PASS | PASS | PASS | PASS |
 | kitten | PASS | PASS | PASS | PASS |
@@ -33,7 +31,7 @@
 | spider | PASS | PASS | PASS | PASS |
 | beetle | PASS | PASS | PASS | PASS |
 | ladybug | PASS | PASS | PASS | PASS |
-| butterfly | WARN: Long keyword | PASS | PASS | PASS |
+| butterfly | PASS | PASS | PASS | PASS |
 | caterpillar | PASS | PASS | PASS | PASS |
 | ant | PASS | PASS | PASS | PASS |
 | bee | PASS | PASS | PASS | PASS |
@@ -42,7 +40,7 @@
 | skunk | PASS | PASS | PASS | PASS |
 | beaver | PASS | PASS | PASS | PASS |
 | moose | PASS | PASS | PASS | PASS |
-| toast | WARN: Long keyword | PASS | PASS | PASS |
+| toast | PASS | PASS | PASS | PASS |
 | cereal | PASS | PASS | PASS | PASS |
 | pancake | PASS | PASS | PASS | PASS |
 | waffle | PASS | PASS | PASS | PASS |
@@ -80,27 +78,27 @@
 | gravy | PASS | PASS | PASS | PASS |
 | feast | PASS | PASS | PASS | PASS |
 | snack | PASS | PASS | PASS | PASS |
-| treat | WARN: Long keyword | PASS | PASS | PASS |
+| treat | PASS | PASS | PASS | PASS |
 | slice | PASS | PASS | PASS | PASS |
-| elbow | WARN: Long keyword | PASS | PASS | PASS |
-| wrist | WARN: Long keyword | PASS | PASS | PASS |
-| ankle | WARN: Long keyword | PASS | PASS | PASS |
-| heel | WARN: Long keyword | PASS | PASS | PASS |
+| elbow | PASS | PASS | PASS | PASS |
+| wrist | PASS | PASS | PASS | PASS |
+| ankle | PASS | PASS | PASS | PASS |
+| heel | PASS | PASS | PASS | PASS |
 | thumb | PASS | PASS | PASS | PASS |
 | palm | PASS | PASS | PASS | PASS |
 | fist | PASS | PASS | PASS | PASS |
-| chin | WARN: Long keyword | PASS | PASS | PASS |
+| chin | PASS | PASS | PASS | PASS |
 | cheek | PASS | PASS | PASS | PASS |
-| forehead | WARN: Long keyword | PASS | PASS | PASS |
+| forehead | PASS | PASS | PASS | PASS |
 | eyebrow | PASS | PASS | PASS | PASS |
 | eyelash | PASS | PASS | PASS | PASS |
 | tongue | PASS | PASS | PASS | PASS |
 | throat | PASS | PASS | PASS | PASS |
-| shoulder | WARN: Long keyword | PASS | PASS | PASS |
-| hip | WARN: Long keyword | PASS | PASS | PASS |
-| spine | WARN: Long keyword | PASS | PASS | PASS |
+| shoulder | PASS | PASS | PASS | PASS |
+| hip | PASS | PASS | PASS | PASS |
+| spine | PASS | PASS | PASS | PASS |
 | rib | PASS | PASS | PASS | PASS |
-| skull | WARN: Long keyword | PASS | PASS | PASS |
+| skull | PASS | PASS | PASS | PASS |
 | muscle | PASS | PASS | PASS | PASS |
 | mitten | PASS | PASS | PASS | PASS |
 | scarf | PASS | PASS | PASS | PASS |
@@ -199,38 +197,38 @@
 | seed | PASS | PASS | PASS | PASS |
 | crawl | PASS | PASS | PASS | PASS |
 | leap | PASS | PASS | PASS | PASS |
-| skip | WARN: Long keyword | PASS | PASS | PASS |
+| skip | PASS | PASS | PASS | PASS |
 | stomp | PASS | PASS | PASS | PASS |
-| tiptoe | WARN: Long keyword | PASS | PASS | PASS |
+| tiptoe | PASS | PASS | PASS | PASS |
 | march | PASS | PASS | PASS | PASS |
 | dash | PASS | PASS | PASS | PASS |
 | chase | PASS | PASS | PASS | PASS |
-| grab | WARN: Long keyword | PASS | PASS | PASS |
+| grab | PASS | PASS | PASS | PASS |
 | toss | PASS | PASS | PASS | PASS |
 | catch | PASS | PASS | PASS | PASS |
 | squeeze | PASS | PASS | PASS | PASS |
-| stretch | WARN: Long keyword | PASS | PASS | PASS |
-| bend | WARN: Long keyword | PASS | PASS | PASS |
-| twist | WARN: Long keyword | PASS | PASS | PASS |
-| shake | WARN: Long keyword | PASS | PASS | PASS |
+| stretch | PASS | PASS | PASS | PASS |
+| bend | PASS | PASS | PASS | PASS |
+| twist | PASS | PASS | PASS | PASS |
+| shake | PASS | PASS | PASS | PASS |
 | stir | PASS | PASS | PASS | PASS |
-| pour | WARN: Long keyword | PASS | PASS | PASS |
+| pour | PASS | PASS | PASS | PASS |
 | spill | PASS | PASS | PASS | PASS |
 | drip | PASS | PASS | PASS | PASS |
 | splash | PASS | PASS | PASS | PASS |
-| float | WARN: Long keyword | PASS | PASS | PASS |
-| sink | WARN: Long keyword | PASS | PASS | PASS |
-| melt | WARN: Long keyword | PASS | PASS | PASS |
+| float | PASS | PASS | PASS | PASS |
+| sink | PASS | PASS | PASS | PASS |
+| melt | PASS | PASS | PASS | PASS |
 | freeze | PASS | PASS | PASS | PASS |
 | peel | PASS | PASS | PASS | PASS |
 | chop | PASS | PASS | PASS | PASS |
 | grate | PASS | PASS | PASS | PASS |
 | spread | PASS | PASS | PASS | PASS |
-| sprinkle | WARN: Long keyword | PASS | PASS | PASS |
+| sprinkle | PASS | PASS | PASS | PASS |
 | scoop | PASS | PASS | PASS | PASS |
-| whisper | WARN: Long keyword | PASS | PASS | PASS |
-| shout | WARN: Long keyword | PASS | PASS | PASS |
-| giggle | WARN: Long keyword | PASS | PASS | PASS |
+| whisper | PASS | PASS | PASS | PASS |
+| shout | PASS | PASS | PASS | PASS |
+| giggle | PASS | PASS | PASS | PASS |
 | howl | PASS | PASS | PASS | PASS |
 | bark | PASS | PASS | PASS | PASS |
 | roar | PASS | PASS | PASS | PASS |
@@ -238,49 +236,49 @@
 | clap | PASS | PASS | PASS | PASS |
 | wave | PASS | PASS | PASS | PASS |
 | nod | PASS | PASS | PASS | PASS |
-| peek | WARN: Long keyword | PASS | PASS | PASS |
-| stare | WARN: Long keyword | PASS | PASS | PASS |
+| peek | PASS | PASS | PASS | PASS |
+| stare | PASS | PASS | PASS | PASS |
 | glance | PASS | PASS | PASS | PASS |
-| search | WARN: Long keyword | PASS | PASS | PASS |
-| discover | WARN: Long keyword | PASS | PASS | PASS |
-| notice | WARN: Long keyword | PASS | PASS | PASS |
+| search | PASS | PASS | PASS | PASS |
+| discover | PASS | PASS | PASS | PASS |
+| notice | PASS | PASS | PASS | PASS |
 | wonder | PASS | PASS | PASS | PASS |
-| imagine | WARN: Long keyword | PASS | PASS | PASS |
-| pretend | WARN: Long keyword | PASS | PASS | PASS |
+| imagine | PASS | PASS | PASS | PASS |
+| pretend | PASS | PASS | PASS | PASS |
 | promise | PASS | PASS | PASS | PASS |
 | remind | PASS | PASS | PASS | PASS |
-| forget | WARN: Long keyword | PASS | PASS | PASS |
-| belong | WARN: Long keyword | PASS | PASS | PASS |
-| share | WARN: Long keyword | PASS | PASS | PASS |
-| trade | WARN: Long keyword | PASS | PASS | PASS |
-| borrow | WARN: Long keyword | PASS | PASS | PASS |
-| lend | WARN: Long keyword | PASS | PASS | PASS |
-| gather | WARN: Long keyword | PASS | PASS | PASS |
-| collect | WARN: Long keyword | PASS | PASS | PASS |
+| forget | PASS | PASS | PASS | PASS |
+| belong | PASS | PASS | PASS | PASS |
+| share | PASS | PASS | PASS | PASS |
+| trade | PASS | PASS | PASS | PASS |
+| borrow | PASS | PASS | PASS | PASS |
+| lend | PASS | PASS | PASS | PASS |
+| gather | PASS | PASS | PASS | PASS |
+| collect | PASS | PASS | PASS | PASS |
 | stack | PASS | PASS | PASS | PASS |
 | wrap | PASS | PASS | PASS | PASS |
-| unwrap | WARN: Long keyword | PASS | PASS | PASS |
+| unwrap | PASS | PASS | PASS | PASS |
 | tug | PASS | PASS | PASS | PASS |
-| drag | WARN: Long keyword | PASS | PASS | PASS |
+| drag | PASS | PASS | PASS | PASS |
 | shove | PASS | PASS | PASS | PASS |
 | tuck | PASS | PASS | PASS | PASS |
 | hang | PASS | PASS | PASS | PASS |
-| fasten | WARN: Long keyword | PASS | PASS | PASS |
-| attach | WARN: Long keyword | PASS | PASS | PASS |
-| repair | WARN: Long keyword | PASS | PASS | PASS |
+| fasten | PASS | PASS | PASS | PASS |
+| attach | PASS | PASS | PASS | PASS |
+| repair | PASS | PASS | PASS | PASS |
 | create | PASS | PASS | PASS | PASS |
-| design | WARN: Long keyword | PASS | PASS | PASS |
-| measure | WARN: Long keyword | PASS | PASS | PASS |
+| design | PASS | PASS | PASS | PASS |
+| measure | PASS | PASS | PASS | PASS |
 | weigh | PASS | PASS | PASS | PASS |
-| count | WARN: Long keyword | PASS | PASS | PASS |
-| sort | WARN: Long keyword | PASS | PASS | PASS |
+| count | PASS | PASS | PASS | PASS |
+| sort | PASS | PASS | PASS | PASS |
 | match | PASS | PASS | PASS | PASS |
-| deliver | WARN: Long keyword | PASS | PASS | PASS |
+| deliver | PASS | PASS | PASS | PASS |
 | fetch | PASS | PASS | PASS | PASS |
 | vanish | PASS | PASS | PASS | PASS |
-| tiny | WARN: Long keyword | PASS | PASS | PASS |
-| huge | WARN: Long keyword | PASS | PASS | PASS |
-| enormous | WARN: Long keyword | PASS | PASS | PASS |
+| tiny | PASS | PASS | PASS | PASS |
+| huge | PASS | PASS | PASS | PASS |
+| enormous | PASS | PASS | PASS | PASS |
 | narrow | PASS | PASS | PASS | PASS |
 | wide | PASS | PASS | PASS | PASS |
 | steep | PASS | PASS | PASS | PASS |
@@ -292,32 +290,32 @@
 | rough | PASS | PASS | PASS | PASS |
 | sharp | PASS | PASS | PASS | PASS |
 | dull | PASS | PASS | PASS | PASS |
-| shiny | WARN: Long keyword | PASS | PASS | PASS |
-| damp | WARN: Long keyword | PASS | PASS | PASS |
+| shiny | PASS | PASS | PASS | PASS |
+| damp | PASS | PASS | PASS | PASS |
 | soaking | PASS | PASS | PASS | PASS |
-| dry | WARN: Long keyword | PASS | PASS | PASS |
+| dry | PASS | PASS | PASS | PASS |
 | sticky | PASS | PASS | PASS | PASS |
-| slimy | WARN: Long keyword | PASS | PASS | PASS |
-| fluffy | WARN: Long keyword | PASS | PASS | PASS |
-| fuzzy | WARN: Long keyword | PASS | PASS | PASS |
-| cozy | WARN: Long keyword | PASS | PASS | PASS |
-| chilly | WARN: Long keyword | PASS | PASS | PASS |
+| slimy | PASS | PASS | PASS | PASS |
+| fluffy | PASS | PASS | PASS | PASS |
+| fuzzy | PASS | PASS | PASS | PASS |
+| cozy | PASS | PASS | PASS | PASS |
+| chilly | PASS | PASS | PASS | PASS |
 | freezing | PASS | PASS | PASS | PASS |
 | boiling | PASS | PASS | PASS | PASS |
 | warm | PASS | PASS | PASS | PASS |
-| fierce | WARN: Long keyword | PASS | PASS | PASS |
+| fierce | PASS | PASS | PASS | PASS |
 | gentle | PASS | PASS | PASS | PASS |
 | brave | PASS | PASS | PASS | PASS |
 | shy | PASS | PASS | PASS | PASS |
-| proud | WARN: Long keyword | PASS | PASS | PASS |
+| proud | PASS | PASS | PASS | PASS |
 | curious | PASS | PASS | PASS | PASS |
 | grumpy | PASS | PASS | PASS | PASS |
-| cheerful | WARN: Long keyword | PASS | PASS | PASS |
-| lonely | WARN: Long keyword | PASS | PASS | PASS |
+| cheerful | PASS | PASS | PASS | PASS |
+| lonely | PASS | PASS | PASS | PASS |
 | calm | PASS | PASS | PASS | PASS |
 | wild | PASS | PASS | PASS | PASS |
 | tame | PASS | PASS | PASS | PASS |
-| plain | WARN: Long keyword | PASS | PASS | PASS |
+| plain | PASS | PASS | PASS | PASS |
 | fancy | PASS | PASS | PASS | PASS |
 | ripe | PASS | PASS | PASS | PASS |
 | rotten | PASS | PASS | PASS | PASS |
@@ -325,81 +323,81 @@
 | stale | PASS | PASS | PASS | PASS |
 | bitter | PASS | PASS | PASS | PASS |
 | sour | PASS | PASS | PASS | PASS |
-| salty | WARN: Long keyword | PASS | PASS | PASS |
+| salty | PASS | PASS | PASS | PASS |
 | juicy | PASS | PASS | PASS | PASS |
-| crunchy | WARN: Long keyword | PASS | PASS | PASS |
-| creamy | WARN: Long keyword | PASS | PASS | PASS |
+| crunchy | PASS | PASS | PASS | PASS |
+| creamy | PASS | PASS | PASS | PASS |
 | silent | PASS | PASS | PASS | PASS |
-| loud | WARN: Long keyword | PASS | PASS | PASS |
+| loud | PASS | PASS | PASS | PASS |
 | hollow | PASS | PASS | PASS | PASS |
 | solid | PASS | PASS | PASS | PASS |
 | loose | PASS | PASS | PASS | PASS |
 | tight | PASS | PASS | PASS | PASS |
-| crooked | WARN: Long keyword | PASS | PASS | PASS |
+| crooked | PASS | PASS | PASS | PASS |
 | straight | PASS | PASS | PASS | PASS |
-| crowded | WARN: Long keyword | PASS | PASS | PASS |
+| crowded | PASS | PASS | PASS | PASS |
 | empty | PASS | PASS | PASS | PASS |
-| whole | WARN: Long keyword | PASS | PASS | PASS |
+| whole | PASS | PASS | PASS | PASS |
 | spare | PASS | PASS | PASS | PASS |
-| certain | WARN: Long keyword | PASS | PASS | PASS |
+| certain | PASS | PASS | PASS | PASS |
 | strange | PASS | PASS | PASS | PASS |
-| wonderful | WARN: Long keyword | PASS | PASS | PASS |
-| terrible | WARN: Long keyword | PASS | PASS | PASS |
+| wonderful | PASS | PASS | PASS | PASS |
+| terrible | PASS | PASS | PASS | PASS |
 | perfect | PASS | PASS | PASS | PASS |
 | ugly | PASS | PASS | PASS | PASS |
 | beautiful | PASS | PASS | PASS | PASS |
 | clever | PASS | PASS | PASS | PASS |
-| foolish | WARN: Long keyword | PASS | PASS | PASS |
-| greedy | WARN: Long keyword | PASS | PASS | PASS |
+| foolish | PASS | PASS | PASS | PASS |
+| greedy | PASS | PASS | PASS | PASS |
 | generous | PASS | PASS | PASS | PASS |
 | patient | PASS | PASS | PASS | PASS |
 | stubborn | PASS | PASS | PASS | PASS |
 | lazy | PASS | PASS | PASS | PASS |
 | busy | PASS | PASS | PASS | PASS |
-| clumsy | WARN: Long keyword | PASS | PASS | PASS |
+| clumsy | PASS | PASS | PASS | PASS |
 | graceful | PASS | PASS | PASS | PASS |
 | quickly | PASS | PASS | PASS | PASS |
 | slowly | PASS | PASS | PASS | PASS |
-| quietly | WARN: Long keyword | PASS | PASS | PASS |
-| loudly | WARN: Long keyword | PASS | PASS | PASS |
-| gently | WARN: Long keyword | PASS | PASS | PASS |
+| quietly | PASS | PASS | PASS | PASS |
+| loudly | PASS | PASS | PASS | PASS |
+| gently | PASS | PASS | PASS | PASS |
 | suddenly | PASS | PASS | PASS | PASS |
-| already | WARN: Long keyword | PASS | PASS | PASS |
-| almost | WARN: Long keyword | PASS | PASS | PASS |
+| already | PASS | PASS | PASS | PASS |
+| almost | PASS | PASS | PASS | PASS |
 | barely | PASS | PASS | PASS | PASS |
 | perhaps | PASS | PASS | PASS | PASS |
-| exactly | WARN: Long keyword | PASS | PASS | PASS |
-| instead | WARN: Long keyword | PASS | PASS | PASS |
-| anyway | WARN: Long keyword | PASS | PASS | PASS |
-| forever | WARN: Long keyword | PASS | PASS | PASS |
-| apart | WARN: Long keyword | PASS | PASS | PASS |
-| together | WARN: Long keyword | PASS | PASS | PASS |
-| forward | WARN: Long keyword | PASS | PASS | PASS |
-| backward | WARN: Long keyword | PASS | PASS | PASS |
+| exactly | PASS | PASS | PASS | PASS |
+| instead | PASS | PASS | PASS | PASS |
+| anyway | PASS | PASS | PASS | PASS |
+| forever | PASS | PASS | PASS | PASS |
+| apart | PASS | PASS | PASS | PASS |
+| together | PASS | PASS | PASS | PASS |
+| forward | PASS | PASS | PASS | PASS |
+| backward | PASS | PASS | PASS | PASS |
 | sideways | PASS | PASS | PASS | PASS |
-| beneath | WARN: Long keyword | PASS | PASS | PASS |
-| above | WARN: Long keyword | PASS | PASS | PASS |
-| below | WARN: Long keyword | PASS | PASS | PASS |
-| beside | WARN: Long keyword | PASS | PASS | PASS |
-| between | WARN: Long keyword | PASS | PASS | PASS |
-| among | WARN: Long keyword | PASS | PASS | PASS |
-| toward | WARN: Long keyword | PASS | PASS | PASS |
+| beneath | PASS | PASS | PASS | PASS |
+| above | PASS | PASS | PASS | PASS |
+| below | PASS | PASS | PASS | PASS |
+| beside | PASS | PASS | PASS | PASS |
+| between | PASS | PASS | PASS | PASS |
+| among | PASS | PASS | PASS | PASS |
+| toward | PASS | PASS | PASS | PASS |
 | against | PASS | PASS | PASS | PASS |
 | through | PASS | PASS | PASS | PASS |
-| across | WARN: Long keyword | PASS | PASS | PASS |
+| across | PASS | PASS | PASS | PASS |
 | along | PASS | PASS | PASS | PASS |
 | around | PASS | PASS | PASS | PASS |
-| beyond | WARN: Long keyword | PASS | PASS | PASS |
-| during | WARN: Long keyword | PASS | PASS | PASS |
+| beyond | PASS | PASS | PASS | PASS |
+| during | PASS | PASS | PASS | PASS |
 | until | PASS | PASS | PASS | PASS |
-| since | WARN: Long keyword | PASS | PASS | PASS |
-| whether | WARN: Long keyword | PASS | PASS | PASS |
-| while | WARN: Long keyword | PASS | PASS | PASS |
-| besides | WARN: Long keyword | PASS | PASS | PASS |
-| within | WARN: Long keyword | PASS | PASS | PASS |
+| since | PASS | PASS | PASS | PASS |
+| whether | PASS | PASS | PASS | PASS |
+| while | PASS | PASS | PASS | PASS |
+| besides | PASS | PASS | PASS | PASS |
+| within | PASS | PASS | PASS | PASS |
 | without | PASS | PASS | PASS | PASS |
-| throughout | WARN: Long keyword | PASS | PASS | PASS |
-| upon | WARN: Long keyword | PASS | PASS | PASS |
+| throughout | PASS | PASS | PASS | PASS |
+| upon | PASS | PASS | PASS | PASS |
 | pick up | PASS | PASS | PASS | PASS |
 | put down | PASS | PASS | PASS | PASS |
 | look at | PASS | PASS | PASS | PASS |
@@ -413,10 +411,10 @@
 | turn on | PASS | PASS | PASS | PASS |
 | fall down | PASS | PASS | PASS | PASS |
 | get up | PASS | PASS | PASS | PASS |
-| look out | WARN: Long keyword | PASS | PASS | PASS |
+| look out | PASS | PASS | PASS | PASS |
 | hold on | PASS | PASS | PASS | PASS |
 | clean up | PASS | PASS | PASS | PASS |
-| hurry up | WARN: Long keyword | PASS | PASS | PASS |
+| hurry up | PASS | PASS | PASS | PASS |
 | calm down | PASS | PASS | PASS | PASS |
 | try on | PASS | PASS | PASS | PASS |
 | throw away | PASS | PASS | PASS | PASS |
@@ -425,68 +423,68 @@
 | go away | PASS | PASS | PASS | PASS |
 | show off | PASS | PASS | PASS | PASS |
 | figure out | PASS | PASS | PASS | PASS |
-| excited | WARN: Long keyword | PASS | PASS | PASS |
-| nervous | WARN: Long keyword | PASS | PASS | PASS |
+| excited | PASS | PASS | PASS | PASS |
+| nervous | PASS | PASS | PASS | PASS |
 | frightened | PASS | PASS | PASS | PASS |
-| surprised | WARN: Long keyword | PASS | PASS | PASS |
-| confused | WARN: Long keyword | PASS | PASS | PASS |
-| disappointed | WARN: Long keyword | PASS | PASS | PASS |
-| frustrated | WARN: Long keyword | PASS | PASS | PASS |
-| jealous | WARN: Long keyword | PASS | PASS | PASS |
-| embarrassed | WARN: Long keyword | PASS | PASS | PASS |
-| worried | WARN: Long keyword | PASS | PASS | PASS |
+| surprised | PASS | PASS | PASS | PASS |
+| confused | PASS | PASS | PASS | PASS |
+| disappointed | PASS | PASS | PASS | PASS |
+| frustrated | PASS | PASS | PASS | PASS |
+| jealous | PASS | PASS | PASS | PASS |
+| embarrassed | PASS | PASS | PASS | PASS |
+| worried | PASS | PASS | PASS | PASS |
 | grateful | PASS | PASS | PASS | PASS |
-| annoyed | WARN: Long keyword | PASS | PASS | PASS |
-| bored | WARN: Long keyword | PASS | PASS | PASS |
-| amazed | WARN: Long keyword | PASS | PASS | PASS |
-| terrified | WARN: Long keyword | PASS | PASS | PASS |
+| annoyed | PASS | PASS | PASS | PASS |
+| bored | PASS | PASS | PASS | PASS |
+| amazed | PASS | PASS | PASS | PASS |
+| terrified | PASS | PASS | PASS | PASS |
 | furious | PASS | PASS | PASS | PASS |
-| miserable | WARN: Long keyword | PASS | PASS | PASS |
-| relieved | WARN: Long keyword | PASS | PASS | PASS |
-| peaceful | WARN: Long keyword | PASS | PASS | PASS |
-| comfortable | WARN: Long keyword | PASS | PASS | PASS |
-| uncomfortable | WARN: Long keyword | PASS | PASS | PASS |
+| miserable | PASS | PASS | PASS | PASS |
+| relieved | PASS | PASS | PASS | PASS |
+| peaceful | PASS | PASS | PASS | PASS |
+| comfortable | PASS | PASS | PASS | PASS |
+| uncomfortable | PASS | PASS | PASS | PASS |
 | exhausted | PASS | PASS | PASS | PASS |
-| delighted | WARN: Long keyword | PASS | PASS | PASS |
-| gloomy | WARN: Long keyword | PASS | PASS | PASS |
-| hopeful | WARN: Long keyword | PASS | PASS | PASS |
-| cranky | WARN: Long keyword | PASS | PASS | PASS |
+| delighted | PASS | PASS | PASS | PASS |
+| gloomy | PASS | PASS | PASS | PASS |
+| hopeful | PASS | PASS | PASS | PASS |
+| cranky | PASS | PASS | PASS | PASS |
 | content | PASS | PASS | PASS | PASS |
-| eager | WARN: Long keyword | PASS | PASS | PASS |
-| homesick | WARN: Long keyword | PASS | PASS | PASS |
-| ashamed | WARN: Long keyword | PASS | PASS | PASS |
+| eager | PASS | PASS | PASS | PASS |
+| homesick | PASS | PASS | PASS | PASS |
+| ashamed | PASS | PASS | PASS | PASS |
 | before | PASS | PASS | PASS | PASS |
 | after | PASS | PASS | PASS | PASS |
-| next | WARN: Long keyword | PASS | PASS | PASS |
-| then | WARN: Long keyword | PASS | PASS | PASS |
-| finally | WARN: Long keyword | PASS | PASS | PASS |
-| meanwhile | WARN: Long keyword | PASS | PASS | PASS |
-| soon | WARN: Long keyword | PASS | PASS | PASS |
-| later | WARN: Long keyword | PASS | PASS | PASS |
+| next | PASS | PASS | PASS | PASS |
+| then | PASS | PASS | PASS | PASS |
+| finally | PASS | PASS | PASS | PASS |
+| meanwhile | PASS | PASS | PASS | PASS |
+| soon | PASS | PASS | PASS | PASS |
+| later | PASS | PASS | PASS | PASS |
 | early | PASS | PASS | PASS | PASS |
-| late | WARN: Long keyword | PASS | PASS | PASS |
+| late | PASS | PASS | PASS | PASS |
 | beginning | PASS | PASS | PASS | PASS |
 | middle | PASS | PASS | PASS | PASS |
-| ending | WARN: Long keyword | PASS | PASS | PASS |
-| moment | WARN: Long keyword | PASS | PASS | PASS |
-| sudden | WARN: Long keyword | PASS | PASS | PASS |
-| recent | WARN: Long keyword | PASS | PASS | PASS |
+| ending | PASS | PASS | PASS | PASS |
+| moment | PASS | PASS | PASS | PASS |
+| sudden | PASS | PASS | PASS | PASS |
+| recent | PASS | PASS | PASS | PASS |
 | daily | PASS | PASS | PASS | PASS |
 | weekly | PASS | PASS | PASS | PASS |
-| whenever | WARN: Long keyword | PASS | PASS | PASS |
-| once | WARN: Long keyword | PASS | PASS | PASS |
-| twice | WARN: Long keyword | PASS | PASS | PASS |
+| whenever | PASS | PASS | PASS | PASS |
+| once | PASS | PASS | PASS | PASS |
+| twice | PASS | PASS | PASS | PASS |
 | often | PASS | PASS | PASS | PASS |
 | nowadays | PASS | PASS | PASS | PASS |
 | dozen | PASS | PASS | PASS | PASS |
-| half | WARN: Long keyword | PASS | PASS | PASS |
+| half | PASS | PASS | PASS | PASS |
 | pair | PASS | PASS | PASS | PASS |
 | entire | PASS | PASS | PASS | PASS |
-| double | WARN: Long keyword | PASS | PASS | PASS |
-| single | WARN: Long keyword | PASS | PASS | PASS |
-| plenty | WARN: Long keyword | PASS | PASS | PASS |
+| double | PASS | PASS | PASS | PASS |
+| single | PASS | PASS | PASS | PASS |
+| plenty | PASS | PASS | PASS | PASS |
 | several | PASS | PASS | PASS | PASS |
-| few | WARN: Long keyword | PASS | PASS | PASS |
+| few | PASS | PASS | PASS | PASS |
 | many | PASS | PASS | PASS | PASS |
 | none | PASS | PASS | PASS | PASS |
 | bunch | PASS | PASS | PASS | PASS |
@@ -494,21 +492,21 @@
 | heap | PASS | PASS | PASS | PASS |
 | piece | PASS | PASS | PASS | PASS |
 | portion | PASS | PASS | PASS | PASS |
-| amount | WARN: Long keyword | PASS | PASS | PASS |
-| total | WARN: Long keyword | PASS | PASS | PASS |
-| extra | WARN: Long keyword | PASS | PASS | PASS |
-| enough | WARN: Long keyword | PASS | PASS | PASS |
-| less | WARN: Long keyword | PASS | PASS | PASS |
-| more | WARN: Long keyword | PASS | PASS | PASS |
+| amount | PASS | PASS | PASS | PASS |
+| total | PASS | PASS | PASS | PASS |
+| extra | PASS | PASS | PASS | PASS |
+| enough | PASS | PASS | PASS | PASS |
+| less | PASS | PASS | PASS | PASS |
+| more | PASS | PASS | PASS | PASS |
 | quarter | PASS | PASS | PASS | PASS |
-| equal | WARN: Long keyword | PASS | PASS | PASS |
-| average | WARN: Long keyword | PASS | PASS | PASS |
+| equal | PASS | PASS | PASS | PASS |
+| average | PASS | PASS | PASS | PASS |
 | shadow | PASS | PASS | PASS | PASS |
 | echo | PASS | PASS | PASS | PASS |
 | secret | PASS | PASS | PASS | PASS |
 | surprise | PASS | PASS | PASS | PASS |
-| mistake | WARN: Long keyword | PASS | PASS | PASS |
-| adventure | WARN: Long keyword | PASS | PASS | PASS |
+| mistake | PASS | PASS | PASS | PASS |
+| adventure | PASS | PASS | PASS | PASS |
 | treasure | PASS | PASS | PASS | PASS |
 | journey | PASS | PASS | PASS | PASS |
 | village | PASS | PASS | PASS | PASS |
@@ -519,17 +517,17 @@
 | pattern | PASS | PASS | PASS | PASS |
 | riddle | PASS | PASS | PASS | PASS |
 | poem | PASS | PASS | PASS | PASS |
-| tale | WARN: Long keyword | PASS | PASS | PASS |
+| tale | PASS | PASS | PASS | PASS |
 | legend | PASS | PASS | PASS | PASS |
 | character | PASS | PASS | PASS | PASS |
 | chapter | PASS | PASS | PASS | PASS |
 | title | PASS | PASS | PASS | PASS |
 | author | PASS | PASS | PASS | PASS |
 | paw | PASS | PASS | PASS | PASS |
-| claw | WARN: Long keyword | PASS | PASS | PASS |
+| claw | PASS | PASS | PASS | PASS |
 | feather | PASS | PASS | PASS | PASS |
 | fur | PASS | PASS | PASS | PASS |
-| scale | WARN: Long keyword | PASS | PASS | PASS |
+| scale | PASS | PASS | PASS | PASS |
 | wing | PASS | PASS | PASS | PASS |
 | beak | PASS | PASS | PASS | PASS |
 | nest | PASS | PASS | PASS | PASS |
@@ -555,50 +553,50 @@
 | ash | PASS | PASS | PASS | PASS |
 | dawn | PASS | PASS | PASS | PASS |
 | dusk | PASS | PASS | PASS | PASS |
-| midnight | WARN: Long keyword | PASS | PASS | PASS |
+| midnight | PASS | PASS | PASS | PASS |
 | noon | PASS | PASS | PASS | PASS |
-| passenger | WARN: Long keyword | PASS | PASS | PASS |
-| neighbor | WARN: Long keyword | PASS | PASS | PASS |
-| stranger | WARN: Long keyword | PASS | PASS | PASS |
-| parade | WARN: Long keyword | PASS | PASS | PASS |
-| audience | WARN: Long keyword | PASS | PASS | PASS |
+| passenger | PASS | PASS | PASS | PASS |
+| neighbor | PASS | PASS | PASS | PASS |
+| stranger | PASS | PASS | PASS | PASS |
+| parade | PASS | PASS | PASS | PASS |
+| audience | PASS | PASS | PASS | PASS |
 | crew | PASS | PASS | PASS | PASS |
-| coach | WARN: Long keyword | PASS | PASS | PASS |
+| coach | PASS | PASS | PASS | PASS |
 | chef | PASS | PASS | PASS | PASS |
-| mayor | WARN: Long keyword | PASS | PASS | PASS |
-| inventor | WARN: Long keyword | PASS | PASS | PASS |
+| mayor | PASS | PASS | PASS | PASS |
+| inventor | PASS | PASS | PASS | PASS |
 | princess | PASS | PASS | PASS | PASS |
 | knight | PASS | PASS | PASS | PASS |
 | wizard | PASS | PASS | PASS | PASS |
 | giant | PASS | PASS | PASS | PASS |
-| dwarf | WARN: Long keyword | PASS | PASS | PASS |
+| dwarf | PASS | PASS | PASS | PASS |
 | monster | PASS | PASS | PASS | PASS |
 | dragon | PASS | PASS | PASS | PASS |
 | fairy | PASS | PASS | PASS | PASS |
 | shield | PASS | PASS | PASS | PASS |
-| sword | WARN: Long keyword | PASS | PASS | PASS |
+| sword | PASS | PASS | PASS | PASS |
 | wand | PASS | PASS | PASS | PASS |
 | throne | PASS | PASS | PASS | PASS |
 | crown | PASS | PASS | PASS | PASS |
-| wobble | WARN: Long keyword | PASS | PASS | PASS |
-| tumble | WARN: Long keyword | PASS | PASS | PASS |
-| snuggle | WARN: Long keyword | PASS | PASS | PASS |
-| nibble | WARN: Long keyword | PASS | PASS | PASS |
-| snore | WARN: Long keyword | PASS | PASS | PASS |
+| wobble | PASS | PASS | PASS | PASS |
+| tumble | PASS | PASS | PASS | PASS |
+| snuggle | PASS | PASS | PASS | PASS |
+| nibble | PASS | PASS | PASS | PASS |
+| snore | PASS | PASS | PASS | PASS |
 | yawn | PASS | PASS | PASS | PASS |
 | shiver | PASS | PASS | PASS | PASS |
 | bloom | PASS | PASS | PASS | PASS |
 | sprout | PASS | PASS | PASS | PASS |
 | wilt | PASS | PASS | PASS | PASS |
-| scattered | WARN: Long keyword | PASS | PASS | PASS |
-| rascal | WARN: Long keyword | PASS | PASS | PASS |
-| gigantic | WARN: Long keyword | PASS | PASS | PASS |
+| scattered | PASS | PASS | PASS | PASS |
+| rascal | PASS | PASS | PASS | PASS |
+| gigantic | PASS | PASS | PASS | PASS |
 | itsy | PASS | PASS | PASS | PASS |
-| whirl | WARN: Long keyword | PASS | PASS | PASS |
-| sparkle | WARN: Long keyword | PASS | PASS | PASS |
+| whirl | PASS | PASS | PASS | PASS |
+| sparkle | PASS | PASS | PASS | PASS |
 | flutter | PASS | PASS | PASS | PASS |
-| hear | WARN: Long keyword | PASS | PASS | PASS |
-| lose | WARN: Long keyword | PASS | PASS | PASS |
-| teach | WARN: Long keyword | PASS | PASS | PASS |
-| take | WARN: Long keyword | PASS | PASS | PASS |
-| than | WARN: Long keyword | PASS | PASS | PASS |
+| hear | PASS | PASS | PASS | PASS |
+| lose | PASS | PASS | PASS | PASS |
+| teach | PASS | PASS | PASS | PASS |
+| take | PASS | PASS | PASS | PASS |
+| than | PASS | PASS | PASS | PASS |
