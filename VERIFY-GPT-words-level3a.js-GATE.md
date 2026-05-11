@@ -110,7 +110,7 @@
 - alms | L5(def):不能(慈善捐施=陌生) L5(ex):勉强(给需要的人食物钱) | L6:否(可能和provide混) | L7:注意(含宗教/施舍语感；中国家长可能觉得别扭) | L8:过难(低频)
 - alpine | L5(def):不能(高山的) L5(ex):不能(没法从例句唯一确定) | L6:否(“mountain flowers”很多词可选) | L7:OK | L8:过难
 - amble | L5(def):不能(慢慢走=罕见) L5(ex):能(公园慢走停看鸭) | L6:是 | L7:OK | L8:偏难(可用walk slowly)
-- ambrosia | L5(def):不能(神话词+抽象好吃) L5(ex):否(只说fruit salad很美味，猜不到“ambrosia”) | L6:否 | L7:注意(“food of the gods”宗教/神话味；可但太远) | L8:过难(强烈不适配)
+- ambrosia | L5(def):不能(神话词+抽象好吃) L5(ex):不能(只说fruit salad很美味，猜不到“ambrosia”) | L6:否 | L7:注意(“food of the gods”宗教/神话味；可但太远) | L8:过难(强烈不适配)
 - amiable | L5(def):不能(友善=书面) L5(ex):能(店主总微笑) | L6:否(与gracious/banter易混) | L7:OK | L8:偏难
 - amplify | L5(def):不能(放大/放大声音) L5(ex):能(把音乐调大) | L6:是 | L7:OK | L8:偏难
 - amulet | L5(def):不能(护身符文化词) L5(ex):勉强(故事里戴魔法护符) | L6:是 | L7:注意(“magic/protection”迷信感；部分家长反感) | L8:过难/不合适
@@ -189,7 +189,7 @@
 - colander | L5(def):不能(滤盆) L5(ex):能(沥意面水) | L6:是 | L7:OK | L8:过难(低频厨房词)
 - collide | L5(def):勉强(撞上) L5(ex):能(玩具车相撞弹开) | L6:是 | L7:OK | L8:偏难
 - colonnade | L5(def):不能(柱廊建筑词) L5(ex):不能(20根柱子猜不到colonnade) | L6:否 | L7:OK | L8:过难
-- commode | L5(def):不能(五斗柜；且常见义是马桶，尴尬) L5(ex):否(“drawers”更像dresser) | L6:否 | L7:注意(commode在美式常指便盆/马桶，家长尴尬) | L8:不合适(强烈建议替换)
+- commode | L5(def):不能(五斗柜；且常见义是马桶，尴尬) L5(ex):不能(“drawers”更像dresser) | L6:否 | L7:注意(commode在美式常指便盆/马桶，家长尴尬) | L8:不合适(强烈建议替换)
 - compulsion | L5(def):不能(强迫感/冲动抽象) L5(ex):勉强(出门前检查三次) | L6:是 | L7:OK | L8:过难
 - condiment | L5(def):不能(调味品) L5(ex):能(番茄酱芥末辣酱) | L6:是 | L7:OK | L8:过难
 - conduit | L5(def):不能(导管/通道) L5(ex):勉强(地下管道送水) | L6:是 | L7:OK | L8:过难
@@ -198,7 +198,7 @@
 - consort | L5(def):不能(王室配偶) L5(ex):不能(阳台挥手很难猜) | L6:否 | L7:注意(王室文化偏远) | L8:过难
 - contour | L5(def):不能(轮廓) L5(ex):勉强(山的轮廓像睡着的巨人) | L6:是 | L7:OK | L8:过难
 - convoy | L5(def):不能(车队) L5(ex):勉强(一队卡车运物资) | L6:是 | L7:OK | L8:过难
-- cornet | L5(def):不能(乐器小号类) L5(ex):否(孩子不区分trumpet/cornet) | L6:否 | L7:OK | L8:过难
+- cornet | L5(def):不能(乐器小号类) L5(ex):不能(孩子不区分trumpet/cornet) | L6:否 | L7:OK | L8:过难
 - corona | L5(def):不能(日月光环；且与“coronavirus”联想) L5(ex):勉强(日食周围光) | L6:是 | L7:注意(可能联想到疫情；但这里是天文) | L8:过难
 - corsair | L5(def):不能(海盗) L5(ex):能(黑旗追商船) | L6:否(与buccaneer同义) | L7:OK | L8:过难
 - cosmos | L5(def):不能(宇宙抽象) L5(ex):勉强(望远镜探索宇宙) | L6:是 | L7:OK | L8:偏难
@@ -220,7 +220,7 @@
 - dapper | L5(def):不能(衣着整洁帅气) L5(ex):能(西装领结) | L6:是 | L7:OK | L8:过难
 - dapple | L5(def):不能(斑驳) L5(ex):勉强(阳光斑驳) | L6:是 | L7:OK | L8:过难
 - daze | L5(def):不能(恍惚) L5(ex):能(转圈后晕乎乎) | L6:是 | L7:OK | L8:偏难
-- decanter | L5(def):不能(醒酒器/玻璃壶) L5(ex):否(倒水的玻璃瓶不够唯一) | L6:否 | L7:注意(“crystal decanter”偏成人餐桌文化) | L8:过难
+- decanter | L5(def):不能(醒酒器/玻璃壶) L5(ex):不能(倒水的玻璃瓶不够唯一) | L6:否 | L7:注意(“crystal decanter”偏成人餐桌文化) | L8:过难
 - decibel | L5(def):不能(分贝单位) L5(ex):勉强(演唱会100分贝伤耳) | L6:是 | L7:OK | L8:过难
 - deft | L5(def):不能(灵巧) L5(ex):能(魔术师洗牌很快) | L6:是 | L7:OK | L8:过难
 - dehydrate | L5(def):不能(脱水) L5(ex):能(热天不喝水会脱水) | L6:是 | L7:OK | L8:偏难
