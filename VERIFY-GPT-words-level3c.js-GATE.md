@@ -4,6 +4,13 @@
 
 说明：word-status.json 中各文件 currentGate 并列最小；本次按词数最少选 words-level3c.js 复核。
 
+复核小结：
+※ 覆盖性：词条数=195；逐词记录行=195（无漏词/无重复）
+※ 系统性风险：大量词为学科/政治/地理术语（对“10岁中国ESL、MAP英语197”显著偏难）
+※ L6例句线索：不少例句可被更常见词替代（如 use/move/end），建议加强“唯一线索”或降低干扰项
+※ L7潜在敏感/家长疑虑点：hymn(宗教场景)、ivory(象牙来源联想)、harpoon(捕鲸联想)、preamble/Constitution(政治化)、spirit week(美式校园文化)
+※ L8顺序建议：mesa vs plateau、archaeology vs paleontology、dividend/divisor 等成对词应相邻并先补前置概念
+
 - advance | L5-Def:不能(卡:progress/improvement 抽象) | L5-Ex:勉强(能猜“move forward”但不一定是 advance；棋/棋子语境也可能不熟) | L6:不唯一(可能混:move/go) | L7:OK | L8:合适(但需先有 move/forward/progress)
 - affordable | L5-Def:勉强(卡:expensive) | L5-Ex:能(价格不贵) | L6:唯一(便宜→affordable) | L7:OK | L8:合适(可比 cheap/expensive)
 - analyze | L5-Def:不能(卡:with care/understand 抽象；analyze 本身生词) | L5-Ex:勉强(能猜“look at/check”但不一定) | L6:不唯一(可能混:check/study) | L7:OK | L8:偏高(学术动词，建议先 teach study/examine)
