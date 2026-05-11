@@ -1,554 +1,554 @@
-| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
-|---|---|---|---|---|
-| describe | PASS | PASS | PASS | PASS |
-| explain | PASS | PASS | PASS | PASS |
-| solve | PASS | PASS | PASS | PASS |
-| complete | PASS | PASS | PASS | PASS |
-| arrange | PASS | PASS | PASS | PASS |
-| decide | PASS | PASS | PASS | PASS |
-| suppose | PASS | PASS | PASS | PASS |
-| mention | PASS | PASS | PASS | PASS |
-| realize | PASS | PASS | PASS | PASS |
-| repeat | PASS | PASS | PASS | PASS |
-| separate | PASS | PASS | PASS | PASS |
-| struggle | PASS | PASS | PASS | PASS |
-| succeed | PASS | PASS | PASS | PASS |
-| surround | PASS | PASS | PASS | PASS |
-| wander | PASS | PASS | PASS | PASS |
-| ancient | PASS | PASS | PASS | PASS |
-| modern | PASS | PASS | PASS | PASS |
-| brilliant | PASS | PASS | PASS | PASS |
-| fragile | PASS | PASS | PASS | PASS |
-| sturdy | PASS | PASS | PASS | PASS |
-| swift | PASS | PASS | PASS | PASS |
-| anxious | PASS | PASS | PASS | PASS |
-| setting | PASS | PASS | PASS | PASS |
-| plot | PASS | PASS | PASS | PASS |
-| paragraph | PASS | PASS | PASS | PASS |
-| sentence | PASS | PASS | PASS | PASS |
-| fiction | PASS | PASS | PASS | PASS |
-| nonfiction | PASS | PASS | PASS | PASS |
-| main idea | PASS | PASS | PASS | PASS |
-| detail | PASS | PASS | PASS | PASS |
-| cause | PASS | PASS | PASS | PASS |
-| effect | PASS | PASS | PASS | PASS |
-| habitat | PASS | PASS | PASS | PASS |
-| insect | PASS | PASS | PASS | PASS |
-| mammal | PASS | PASS | PASS | PASS |
-| reptile | PASS | PASS | PASS | PASS |
-| liquid | PASS | PASS | PASS | PASS |
-| gas | PASS | PASS | PASS | PASS |
-| energy | PASS | PASS | PASS | PASS |
-| force | PASS | PASS | PASS | PASS |
-| magnet | PASS | PASS | PASS | PASS |
-| soil | PASS | PASS | PASS | PASS |
-| climate | PASS | PASS | PASS | PASS |
-| season | PASS | PASS | PASS | PASS |
-| citizen | PASS | PASS | PASS | PASS |
-| government | PASS | PASS | PASS | PASS |
-| law | PASS | PASS | PASS | PASS |
-| rule | PASS | PASS | PASS | PASS |
-| map | PASS | PASS | PASS | PASS |
-| globe | PASS | PASS | PASS | PASS |
-| continent | PASS | PASS | PASS | PASS |
-| country | PASS | PASS | PASS | PASS |
-| state | PASS | PASS | PASS | PASS |
-| city | PASS | PASS | PASS | PASS |
-| border | PASS | PASS | PASS | PASS |
-| freedom | PASS | PASS | PASS | PASS |
-| election | PASS | PASS | PASS | PASS |
-| subtract | PASS | PASS | PASS | PASS |
-| multiply | PASS | PASS | PASS | PASS |
-| divide | PASS | PASS | PASS | PASS |
-| sum | PASS | PASS | PASS | PASS |
-| graph | PASS | PASS | PASS | PASS |
-| chart | PASS | PASS | PASS | PASS |
-| data | PASS | PASS | PASS | PASS |
-| length | PASS | PASS | PASS | PASS |
-| width | PASS | PASS | PASS | PASS |
-| height | PASS | PASS | PASS | PASS |
-| area | PASS | PASS | PASS | PASS |
-| shape | PASS | PASS | PASS | PASS |
-| angle | PASS | PASS | PASS | PASS |
-| triple | PASS | PASS | PASS | PASS |
-| gradually | PASS | PASS | PASS | PASS |
-| immediately | PASS | PASS | PASS | PASS |
-| afterward | PASS | PASS | PASS | PASS |
-| recently | PASS | PASS | PASS | PASS |
-| frequently | PASS | PASS | PASS | PASS |
-| rarely | PASS | PASS | PASS | PASS |
-| occasionally | PASS | PASS | PASS | PASS |
-| however | PASS | PASS | PASS | PASS |
-| therefore | PASS | PASS | PASS | PASS |
-| otherwise | PASS | PASS | PASS | PASS |
-| turn into | PASS | PASS | PASS | PASS |
-| look forward to | PASS | PASS | PASS | PASS |
-| make up | PASS | PASS | PASS | PASS |
-| point out | PASS | PASS | PASS | PASS |
-| come across | PASS | PASS | PASS | PASS |
-| break down | PASS | PASS | PASS | PASS |
-| carry out | PASS | PASS | PASS | PASS |
-| set up | PASS | PASS | PASS | PASS |
-| courageous | PASS | PASS | PASS | PASS |
-| honest | PASS | PASS | PASS | PASS |
-| loyal | PASS | PASS | PASS | PASS |
-| selfish | PASS | PASS | PASS | PASS |
-| thoughtful | PASS | PASS | PASS | PASS |
-| determined | PASS | PASS | PASS | PASS |
-| about | PASS | PASS | PASS | PASS |
-| act | PASS | PASS | PASS | PASS |
-| action | PASS | PASS | PASS | PASS |
-| add | PASS | PASS | PASS | PASS |
-| address | PASS | PASS | PASS | PASS |
-| adult | PASS | PASS | PASS | PASS |
-| afraid | PASS | PASS | PASS | PASS |
-| again | PASS | PASS | PASS | PASS |
-| agree | PASS | PASS | PASS | PASS |
-| alive | PASS | PASS | PASS | PASS |
-| alone | PASS | PASS | PASS | PASS |
-| also | PASS | PASS | PASS | PASS |
-| always | PASS | PASS | PASS | PASS |
-| any | PASS | PASS | PASS | PASS |
-| appear | PASS | PASS | PASS | PASS |
-| arm | PASS | PASS | PASS | PASS |
-| arrive | PASS | PASS | PASS | PASS |
-| ask | PASS | PASS | PASS | PASS |
-| asleep | PASS | PASS | PASS | PASS |
-| attack | PASS | PASS | PASS | PASS |
-| attempt | PASS | PASS | PASS | PASS |
-| attention | PASS | PASS | PASS | PASS |
-| awake | PASS | PASS | PASS | PASS |
-| backpack | PASS | PASS | PASS | PASS |
-| balance | PASS | PASS | PASS | PASS |
-| balloon | PASS | PASS | PASS | PASS |
-| bare | PASS | PASS | PASS | PASS |
-| bargain | PASS | PASS | PASS | PASS |
-| base | PASS | PASS | PASS | PASS |
-| basic | PASS | PASS | PASS | PASS |
-| battle | PASS | PASS | PASS | PASS |
-| beach | PASS | PASS | PASS | PASS |
-| beam | PASS | PASS | PASS | PASS |
-| because | PASS | PASS | PASS | PASS |
-| become | PASS | PASS | PASS | PASS |
-| beg | PASS | PASS | PASS | PASS |
-| begin | PASS | PASS | PASS | PASS |
-| behavior | PASS | PASS | PASS | PASS |
-| believe | PASS | PASS | PASS | PASS |
-| better | PASS | PASS | PASS | PASS |
-| bicycle | PASS | PASS | PASS | PASS |
-| blink | PASS | PASS | PASS | PASS |
-| block | PASS | PASS | PASS | PASS |
-| blossom | PASS | PASS | PASS | PASS |
-| bossy | PASS | PASS | PASS | PASS |
-| bounce | PASS | PASS | PASS | PASS |
-| breakfast | PASS | PASS | PASS | PASS |
-| breathe | PASS | PASS | PASS | PASS |
-| bright | PASS | PASS | PASS | PASS |
-| bring | PASS | PASS | PASS | PASS |
-| broad | PASS | PASS | PASS | PASS |
-| build | PASS | PASS | PASS | PASS |
-| bundle | PASS | PASS | PASS | PASS |
-| butter | PASS | PASS | PASS | PASS |
-| cactus | PASS | PASS | PASS | PASS |
-| calendar | PASS | PASS | PASS | PASS |
-| camel | PASS | PASS | PASS | PASS |
-| camp | PASS | PASS | PASS | PASS |
-| capture | PASS | PASS | PASS | PASS |
-| careful | PASS | PASS | PASS | PASS |
-| carpet | PASS | PASS | PASS | PASS |
-| cart | PASS | PASS | PASS | PASS |
-| carve | PASS | PASS | PASS | PASS |
-| ceiling | PASS | PASS | PASS | PASS |
-| center | PASS | PASS | PASS | PASS |
-| chance | PASS | PASS | PASS | PASS |
-| change | PASS | PASS | PASS | PASS |
-| choice | PASS | PASS | PASS | PASS |
-| circle | PASS | PASS | PASS | PASS |
-| climb | PASS | PASS | PASS | PASS |
-| close | PASS | PASS | PASS | PASS |
-| clue | PASS | PASS | PASS | PASS |
-| coast | PASS | PASS | PASS | PASS |
-| comfort | PASS | PASS | PASS | PASS |
-| common | PASS | PASS | PASS | PASS |
-| complain | PASS | PASS | PASS | PASS |
-| confuse | PASS | PASS | PASS | PASS |
-| connect | PASS | PASS | PASS | PASS |
-| corner | PASS | PASS | PASS | PASS |
-| cost | PASS | PASS | PASS | PASS |
-| cotton | PASS | PASS | PASS | PASS |
-| course | PASS | PASS | PASS | PASS |
-| crash | PASS | PASS | PASS | PASS |
-| make | PASS | PASS | PASS | PASS |
-| crumble | PASS | PASS | PASS | PASS |
-| cuddle | PASS | PASS | PASS | PASS |
-| custom | PASS | PASS | PASS | PASS |
-| cycle | PASS | PASS | PASS | PASS |
-| danger | PASS | PASS | PASS | PASS |
-| dark | PASS | PASS | PASS | PASS |
-| deal | PASS | PASS | PASS | PASS |
-| delay | PASS | PASS | PASS | PASS |
-| delight | PASS | PASS | PASS | PASS |
-| deny | PASS | PASS | PASS | PASS |
-| depend | PASS | PASS | PASS | PASS |
-| destroy | PASS | PASS | PASS | PASS |
-| dig | PASS | PASS | PASS | PASS |
-| dinner | PASS | PASS | PASS | PASS |
-| find | PASS | PASS | PASS | PASS |
-| distance | PASS | PASS | PASS | PASS |
-| dizzy | PASS | PASS | PASS | PASS |
-| dollar | PASS | PASS | PASS | PASS |
-| donate | PASS | PASS | PASS | PASS |
-| doorway | PASS | PASS | PASS | PASS |
-| downstairs | PASS | PASS | PASS | PASS |
-| drift | PASS | PASS | PASS | PASS |
-| drown | PASS | PASS | PASS | PASS |
-| earn | PASS | PASS | PASS | PASS |
-| earth | PASS | PASS | PASS | PASS |
-| edge | PASS | PASS | PASS | PASS |
-| enter | PASS | PASS | PASS | PASS |
-| escape | PASS | PASS | PASS | PASS |
-| exact | PASS | PASS | PASS | PASS |
-| fair | PASS | PASS | PASS | PASS |
-| famous | PASS | PASS | PASS | PASS |
-| far | PASS | PASS | PASS | PASS |
-| farm | PASS | PASS | PASS | PASS |
-| fence | PASS | PASS | PASS | PASS |
-| field | PASS | PASS | PASS | PASS |
-| fill | PASS | PASS | PASS | PASS |
-| finish | PASS | PASS | PASS | PASS |
-| fit | PASS | PASS | PASS | PASS |
-| flour | PASS | PASS | PASS | PASS |
-| foam | PASS | PASS | PASS | PASS |
-| fold | PASS | PASS | PASS | PASS |
-| follow | PASS | PASS | PASS | PASS |
-| fork | PASS | PASS | PASS | PASS |
-| friendship | PASS | PASS | PASS | PASS |
-| frighten | PASS | PASS | PASS | PASS |
-| front | PASS | PASS | PASS | PASS |
-| frozen | PASS | PASS | PASS | PASS |
-| gentleman | PASS | PASS | PASS | PASS |
-| glad | PASS | PASS | PASS | PASS |
-| glide | PASS | PASS | PASS | PASS |
-| glitter | PASS | PASS | PASS | PASS |
-| goal | PASS | PASS | PASS | PASS |
-| grasp | PASS | PASS | PASS | PASS |
-| greet | PASS | PASS | PASS | PASS |
-| grin | PASS | PASS | PASS | PASS |
-| groan | PASS | PASS | PASS | PASS |
-| grow | PASS | PASS | PASS | PASS |
-| guard | PASS | PASS | PASS | PASS |
-| guess | PASS | PASS | PASS | PASS |
-| habit | PASS | PASS | PASS | PASS |
-| hallway | PASS | PASS | PASS | PASS |
-| handful | PASS | PASS | PASS | PASS |
-| harm | PASS | PASS | PASS | PASS |
-| harvest | PASS | PASS | PASS | PASS |
-| heal | PASS | PASS | PASS | PASS |
-| hidden | PASS | PASS | PASS | PASS |
-| hint | PASS | PASS | PASS | PASS |
-| history | PASS | PASS | PASS | PASS |
-| holiday | PASS | PASS | PASS | PASS |
-| hop | PASS | PASS | PASS | PASS |
-| horizon | PASS | PASS | PASS | PASS |
-| hurt | PASS | PASS | PASS | PASS |
-| hurry | PASS | PASS | PASS | PASS |
-| idea | PASS | PASS | PASS | PASS |
-| ignore | PASS | PASS | PASS | PASS |
-| include | PASS | PASS | PASS | PASS |
-| inside | PASS | PASS | PASS | PASS |
-| invite | PASS | PASS | PASS | PASS |
-| jacket | PASS | PASS | PASS | PASS |
-| judge | PASS | PASS | PASS | PASS |
-| jump | PASS | PASS | PASS | PASS |
-| key | PASS | PASS | PASS | PASS |
-| kind | PASS | PASS | PASS | PASS |
-| knee | PASS | PASS | PASS | PASS |
-| kneel | PASS | PASS | PASS | PASS |
-| knock | PASS | PASS | PASS | PASS |
-| lantern | PASS | PASS | PASS | PASS |
-| laugh | PASS | PASS | PASS | PASS |
-| leaf | PASS | PASS | PASS | PASS |
-| leak | PASS | PASS | PASS | PASS |
-| learn | PASS | PASS | PASS | PASS |
-| least | PASS | PASS | PASS | PASS |
-| library | PASS | PASS | PASS | PASS |
-| limit | PASS | PASS | PASS | PASS |
-| listen | PASS | PASS | PASS | PASS |
-| lunch | PASS | PASS | PASS | PASS |
-| machine | PASS | PASS | PASS | PASS |
-| magic | PASS | PASS | PASS | PASS |
-| major | PASS | PASS | PASS | PASS |
-| marble | PASS | PASS | PASS | PASS |
-| mask | PASS | PASS | PASS | PASS |
-| matter | PASS | PASS | PASS | PASS |
-| memory | PASS | PASS | PASS | PASS |
-| message | PASS | PASS | PASS | PASS |
-| minute | PASS | PASS | PASS | PASS |
-| mirror | PASS | PASS | PASS | PASS |
-| mist | PASS | PASS | PASS | PASS |
-| mix | PASS | PASS | PASS | PASS |
-| model | PASS | PASS | PASS | PASS |
-| mood | PASS | PASS | PASS | PASS |
-| move | PASS | PASS | PASS | PASS |
-| mystery | PASS | PASS | PASS | PASS |
-| nature | PASS | PASS | PASS | PASS |
-| near | PASS | PASS | PASS | PASS |
-| neatly | PASS | PASS | PASS | PASS |
-| never | PASS | PASS | PASS | PASS |
-| noisy | PASS | PASS | PASS | PASS |
-| north | PASS | PASS | PASS | PASS |
-| note | PASS | PASS | PASS | PASS |
-| object | PASS | PASS | PASS | PASS |
-| ocean | PASS | PASS | PASS | PASS |
-| offer | PASS | PASS | PASS | PASS |
-| opinion | PASS | PASS | PASS | PASS |
-| opposite | PASS | PASS | PASS | PASS |
-| order | PASS | PASS | PASS | PASS |
-| outside | PASS | PASS | PASS | PASS |
-| over | PASS | PASS | PASS | PASS |
-| palace | PASS | PASS | PASS | PASS |
-| path | PASS | PASS | PASS | PASS |
-| pause | PASS | PASS | PASS | PASS |
-| picnic | PASS | PASS | PASS | PASS |
-| planet | PASS | PASS | PASS | PASS |
-| plastic | PASS | PASS | PASS | PASS |
-| playground | PASS | PASS | PASS | PASS |
-| polite | PASS | PASS | PASS | PASS |
-| praise | PASS | PASS | PASS | PASS |
-| prepare | PASS | PASS | PASS | PASS |
-| price | PASS | PASS | PASS | PASS |
-| prize | PASS | PASS | PASS | PASS |
-| protect | PASS | PASS | PASS | PASS |
-| quiet | PASS | PASS | PASS | PASS |
-| quiz | PASS | PASS | PASS | PASS |
-| raise | PASS | PASS | PASS | PASS |
-| range | PASS | PASS | PASS | PASS |
-| reach | PASS | PASS | PASS | PASS |
-| recycle | PASS | PASS | PASS | PASS |
-| refund | PASS | PASS | PASS | PASS |
-| relax | PASS | PASS | PASS | PASS |
-| rescue | PASS | PASS | PASS | PASS |
-| respect | PASS | PASS | PASS | PASS |
-| result | PASS | PASS | PASS | PASS |
-| return | PASS | PASS | PASS | PASS |
-| river | PASS | PASS | PASS | PASS |
-| role | PASS | PASS | PASS | PASS |
-| route | PASS | PASS | PASS | PASS |
-| safe | PASS | PASS | PASS | PASS |
-| sail | PASS | PASS | PASS | PASS |
-| save | PASS | PASS | PASS | PASS |
-| scared | PASS | PASS | PASS | PASS |
-| scatter | PASS | PASS | PASS | PASS |
-| score | PASS | PASS | PASS | PASS |
-| shade | PASS | PASS | PASS | PASS |
-| shore | PASS | PASS | PASS | PASS |
-| signal | PASS | PASS | PASS | PASS |
-| simple | PASS | PASS | PASS | PASS |
-| slippery | PASS | PASS | PASS | PASS |
-| smell | PASS | PASS | PASS | PASS |
-| snap | PASS | PASS | PASS | PASS |
-| soak | PASS | PASS | PASS | PASS |
-| special | PASS | PASS | PASS | PASS |
-| store | PASS | PASS | PASS | PASS |
-| strong | PASS | PASS | PASS | PASS |
-| stuck | PASS | PASS | PASS | PASS |
-| suggest | PASS | PASS | PASS | PASS |
-| support | PASS | PASS | PASS | PASS |
-| surface | PASS | PASS | PASS | PASS |
-| swallow | PASS | PASS | PASS | PASS |
-| sweep | PASS | PASS | PASS | PASS |
-| sweet | PASS | PASS | PASS | PASS |
-| talent | PASS | PASS | PASS | PASS |
-| taste | PASS | PASS | PASS | PASS |
-| team | PASS | PASS | PASS | PASS |
-| tease | PASS | PASS | PASS | PASS |
-| temperature | PASS | PASS | PASS | PASS |
-| tend | PASS | PASS | PASS | PASS |
-| tightly | PASS | PASS | PASS | PASS |
-| little | PASS | PASS | PASS | PASS |
-| track | PASS | PASS | PASS | PASS |
-| travel | PASS | PASS | PASS | PASS |
-| trick | PASS | PASS | PASS | PASS |
-| trust | PASS | PASS | PASS | PASS |
-| turn | PASS | PASS | PASS | PASS |
-| under | PASS | PASS | PASS | PASS |
-| upstairs | PASS | PASS | PASS | PASS |
-| usual | PASS | PASS | PASS | PASS |
-| visit | PASS | PASS | PASS | PASS |
-| voice | PASS | PASS | PASS | PASS |
-| vote | PASS | PASS | PASS | PASS |
-| wait | PASS | PASS | PASS | PASS |
-| warmth | PASS | PASS | PASS | PASS |
-| warn | PASS | PASS | PASS | PASS |
-| waterfall | PASS | PASS | PASS | PASS |
-| weather | PASS | PASS | PASS | PASS |
-| wheel | PASS | PASS | PASS | PASS |
-| yesterday | PASS | PASS | PASS | PASS |
-| admiral | PASS | PASS | PASS | PASS |
-| album | PASS | PASS | PASS | PASS |
-| alley | PASS | PASS | PASS | PASS |
-| amber | PASS | PASS | PASS | PASS |
-| antenna | PASS | PASS | PASS | PASS |
-| applause | PASS | PASS | PASS | PASS |
-| apricot | PASS | PASS | PASS | PASS |
-| arch | PASS | PASS | PASS | PASS |
-| atlas | PASS | PASS | PASS | PASS |
-| avalanche | PASS | PASS | PASS | PASS |
-| badge | PASS | PASS | PASS | PASS |
-| bagpipe | PASS | PASS | PASS | PASS |
-| balcony | PASS | PASS | PASS | PASS |
-| banjo | PASS | PASS | PASS | PASS |
-| banner | PASS | PASS | PASS | PASS |
-| basin | PASS | PASS | PASS | PASS |
-| bay | PASS | PASS | PASS | PASS |
-| beacon | PASS | PASS | PASS | PASS |
-| bead | PASS | PASS | PASS | PASS |
-| beeswax | PASS | PASS | PASS | PASS |
-| bellows | PASS | PASS | PASS | PASS |
-| binoculars | PASS | PASS | PASS | PASS |
-| birch | PASS | PASS | PASS | PASS |
-| biscuit | PASS | PASS | PASS | PASS |
-| blacksmith | PASS | PASS | PASS | PASS |
-| blaze | PASS | PASS | PASS | PASS |
-| blueprint | PASS | PASS | PASS | PASS |
-| bluff | PASS | PASS | PASS | PASS |
-| bobsled | PASS | PASS | PASS | PASS |
-| bolt | PASS | PASS | PASS | PASS |
-| bonfire | PASS | PASS | PASS | PASS |
-| bookshelf | PASS | PASS | PASS | PASS |
-| bracelet | PASS | PASS | PASS | PASS |
-| bramble | PASS | PASS | PASS | PASS |
-| brass | PASS | PASS | PASS | PASS |
-| bridle | PASS | PASS | PASS | PASS |
-| broth | PASS | PASS | PASS | PASS |
-| bugle | PASS | PASS | PASS | PASS |
-| bulb | PASS | PASS | PASS | PASS |
-| bulletin | PASS | PASS | PASS | PASS |
-| bunker | PASS | PASS | PASS | PASS |
-| buoy | PASS | PASS | PASS | PASS |
-| canal | PASS | PASS | PASS | PASS |
-| canopy | PASS | PASS | PASS | PASS |
-| caribou | PASS | PASS | PASS | PASS |
-| carousel | PASS | PASS | PASS | PASS |
-| cartwheel | PASS | PASS | PASS | PASS |
-| cashew | PASS | PASS | PASS | PASS |
-| cedar | PASS | PASS | PASS | PASS |
-| cellar | PASS | PASS | PASS | PASS |
-| chapel | PASS | PASS | PASS | PASS |
-| chariot | PASS | PASS | PASS | PASS |
-| chestnut | PASS | PASS | PASS | PASS |
-| chisel | PASS | PASS | PASS | PASS |
-| chord | PASS | PASS | PASS | PASS |
-| cider | PASS | PASS | PASS | PASS |
-| clam | PASS | PASS | PASS | PASS |
-| cloak | PASS | PASS | PASS | PASS |
-| cobblestone | PASS | PASS | PASS | PASS |
-| cocoon | PASS | PASS | PASS | PASS |
-| comet | PASS | PASS | PASS | PASS |
-| cork | PASS | PASS | PASS | PASS |
-| corral | PASS | PASS | PASS | PASS |
-| cradle | PASS | PASS | PASS | PASS |
-| crest | PASS | PASS | PASS | PASS |
-| crumb | PASS | PASS | PASS | PASS |
-| cuff | PASS | PASS | PASS | PASS |
-| cypress | PASS | PASS | PASS | PASS |
-| dagger | PASS | PASS | PASS | PASS |
-| dandelion | PASS | PASS | PASS | PASS |
-| deck | PASS | PASS | PASS | PASS |
-| delta | PASS | PASS | PASS | PASS |
-| dinghy | PASS | PASS | PASS | PASS |
-| dome | PASS | PASS | PASS | PASS |
-| donkey | PASS | PASS | PASS | PASS |
-| doorbell | PASS | PASS | PASS | PASS |
-| drawbridge | PASS | PASS | PASS | PASS |
-| drumstick | PASS | PASS | PASS | PASS |
-| dune | PASS | PASS | PASS | PASS |
-| easel | PASS | PASS | PASS | PASS |
-| elm | PASS | PASS | PASS | PASS |
-| ember | PASS | PASS | PASS | PASS |
-| emerald | PASS | PASS | PASS | PASS |
-| falcon | PASS | PASS | PASS | PASS |
-| fiddle | PASS | PASS | PASS | PASS |
-| fig | PASS | PASS | PASS | PASS |
-| fjord | PASS | PASS | PASS | PASS |
-| flint | PASS | PASS | PASS | PASS |
-| forge | PASS | PASS | PASS | PASS |
-| fresco | PASS | PASS | PASS | PASS |
-| gale | PASS | PASS | PASS | PASS |
-| galley | PASS | PASS | PASS | PASS |
-| garnet | PASS | PASS | PASS | PASS |
-| gazelle | PASS | PASS | PASS | PASS |
-| geyser | PASS | PASS | PASS | PASS |
-| gong | PASS | PASS | PASS | PASS |
-| granite | PASS | PASS | PASS | PASS |
-| grapevine | PASS | PASS | PASS | PASS |
-| gravel | PASS | PASS | PASS | PASS |
-| griddle | PASS | PASS | PASS | PASS |
-| grove | PASS | PASS | PASS | PASS |
-| gutter | PASS | PASS | PASS | PASS |
-| hammock | PASS | PASS | PASS | PASS |
-| harp | PASS | PASS | PASS | PASS |
-| hazel | PASS | PASS | PASS | PASS |
-| hearth | PASS | PASS | PASS | PASS |
-| heron | PASS | PASS | PASS | PASS |
-| hickory | PASS | PASS | PASS | PASS |
-| hilltop | PASS | PASS | PASS | PASS |
-| holly | PASS | PASS | PASS | PASS |
-| honeycomb | PASS | PASS | PASS | PASS |
-| horseshoe | PASS | PASS | PASS | PASS |
-| hourglass | PASS | PASS | PASS | PASS |
-| husk | PASS | PASS | PASS | PASS |
-| ibis | PASS | PASS | PASS | PASS |
-| igloo | PASS | PASS | PASS | PASS |
-| ivy | PASS | PASS | PASS | PASS |
-| jade | PASS | PASS | PASS | PASS |
-| javelin | PASS | PASS | PASS | PASS |
-| kelp | PASS | PASS | PASS | PASS |
-| kennel | PASS | PASS | PASS | PASS |
-| kindle | PASS | PASS | PASS | PASS |
-| kingfisher | PASS | PASS | PASS | PASS |
-| knapsack | PASS | PASS | PASS | PASS |
-| lagoon | PASS | PASS | PASS | PASS |
-| latch | PASS | PASS | PASS | PASS |
-| lava | PASS | PASS | PASS | PASS |
-| levee | PASS | PASS | PASS | PASS |
-| lichen | PASS | PASS | PASS | PASS |
-| locket | PASS | PASS | PASS | PASS |
-| loom | PASS | PASS | PASS | PASS |
-| lynx | PASS | PASS | PASS | PASS |
-| mango | PASS | PASS | PASS | PASS |
-| mantle | PASS | PASS | PASS | PASS |
-| maple | PASS | PASS | PASS | PASS |
-| marsh | PASS | PASS | PASS | PASS |
-| mast | PASS | PASS | PASS | PASS |
-| moat | PASS | PASS | PASS | PASS |
-| mortar | PASS | PASS | PASS | PASS |
-| mosaic | PASS | PASS | PASS | PASS |
-| mulberry | PASS | PASS | PASS | PASS |
-| muzzle | PASS | PASS | PASS | PASS |
-| nectar | PASS | PASS | PASS | PASS |
-| nettle | PASS | PASS | PASS | PASS |
-| nozzle | PASS | PASS | PASS | PASS |
-| nutmeg | PASS | PASS | PASS | PASS |
-| oar | PASS | PASS | PASS | PASS |
-| oasis | PASS | PASS | PASS | PASS |
-| olive | PASS | PASS | PASS | PASS |
-| ore | PASS | PASS | PASS | PASS |
-| otter | PASS | PASS | PASS | PASS |
-| pagoda | PASS | PASS | PASS | PASS |
-| parchment | PASS | PASS | PASS | PASS |
-| parsley | PASS | PASS | PASS | PASS |
-| pasture | PASS | PASS | PASS | PASS |
-| pebble | PASS | PASS | PASS | PASS |
-| pelican | PASS | PASS | PASS | PASS |
-| pendant | PASS | PASS | PASS | PASS |
-| pier | PASS | PASS | PASS | PASS |
-| pigment | PASS | PASS | PASS | PASS |
-| carefully | PASS | PASS | PASS | PASS |
-| accept | PASS | PASS | PASS | PASS |
-| quite | PASS | PASS | PASS | PASS |
-| rise | PASS | PASS | PASS | PASS |
-| although | PASS | PASS | PASS | PASS |
-| unless | PASS | PASS | PASS | PASS |
-| seldom | PASS | PASS | PASS | PASS |
-| eventually | PASS | PASS | PASS | PASS |
+# VERIFY-GEMINI-words-level2.js-GATE
+
+- describe: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- explain: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- solve: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- complete: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- arrange: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- decide: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- suppose: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mention: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- realize: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- repeat: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- separate: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- struggle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- succeed: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- surround: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- wander: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ancient: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- modern: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- brilliant: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fragile: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- sturdy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- swift: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- anxious: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- setting: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- plot: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- paragraph: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- sentence: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fiction: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- nonfiction: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- main idea: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- detail: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cause: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- effect: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- habitat: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- insect: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mammal: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- reptile: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- liquid: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- gas: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- energy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- force: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- magnet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- soil: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- climate: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- season: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- citizen: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- government: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- law: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- rule: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- map: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- globe: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- continent: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- country: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- state: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- city: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- border: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- freedom: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- election: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- subtract: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- multiply: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- divide: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- sum: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- graph: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- chart: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- data: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- length: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- width: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- height: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- area: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- shape: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- angle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- triple: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- gradually: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- immediately: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- afterward: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- recently: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- frequently: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- rarely: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- occasionally: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- however: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- therefore: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- otherwise: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- turn into: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- look forward to: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- make up: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- point out: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- come across: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- break down: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- carry out: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- set up: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- courageous: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- honest: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- loyal: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- selfish: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- thoughtful: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- determined: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- about: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- act: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- action: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- add: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- address: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- adult: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- afraid: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- again: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- agree: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- alive: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- alone: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- also: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- always: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- any: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- appear: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- arm: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- arrive: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ask: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- asleep: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- attack: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- attempt: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- attention: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- awake: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- backpack: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- balance: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- balloon: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bare: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bargain: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- base: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- basic: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- battle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- beach: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- beam: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- because: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- become: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- beg: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- begin: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- behavior: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- believe: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- better: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bicycle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- blink: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- block: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- blossom: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bossy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bounce: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- breakfast: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- breathe: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bright: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bring: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- broad: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- build: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bundle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- butter: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cactus: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- calendar: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- camel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- camp: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- capture: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- careful: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- carpet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cart: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- carve: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ceiling: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- center: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- chance: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- change: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- choice: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- circle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- climb: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- close: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- clue: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- coast: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- comfort: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- common: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- complain: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- confuse: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- connect: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- corner: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cost: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cotton: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- course: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- crash: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- make: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- crumble: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cuddle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- custom: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cycle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- danger: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dark: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- deal: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- delay: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- delight: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- deny: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- depend: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- destroy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dig: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dinner: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- find: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- distance: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dizzy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dollar: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- donate: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- doorway: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- downstairs: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- drift: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- drown: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- earn: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- earth: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- edge: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- enter: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- escape: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- exact: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fair: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- famous: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- far: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- farm: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fence: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- field: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fill: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- finish: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fit: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- flour: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- foam: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fold: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- follow: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fork: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- friendship: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- frighten: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- front: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- frozen: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- gentleman: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- glad: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- glide: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- glitter: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- goal: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- grasp: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- greet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- grin: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- groan: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- grow: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- guard: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- guess: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- habit: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hallway: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- handful: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- harm: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- harvest: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- heal: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hidden: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hint: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- history: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- holiday: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hop: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- horizon: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hurt: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hurry: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- idea: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ignore: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- include: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- inside: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- invite: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- jacket: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- judge: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- jump: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- key: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- kind: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- knee: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- kneel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- knock: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- lantern: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- laugh: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- leaf: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- leak: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- learn: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- least: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- library: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- limit: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- listen: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- lunch: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- machine: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- magic: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- major: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- marble: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mask: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- matter: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- memory: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- message: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- minute: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mirror: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mist: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mix: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- model: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mood: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- move: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mystery: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- nature: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- near: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- neatly: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- never: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- noisy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- north: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- note: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- object: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ocean: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- offer: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- opinion: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- opposite: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- order: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- outside: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- over: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- palace: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- path: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- pause: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- picnic: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- planet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- plastic: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- playground: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- polite: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- praise: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- prepare: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- price: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- prize: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- protect: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- quiet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- quiz: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- raise: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- range: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- reach: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- recycle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- refund: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- relax: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- rescue: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- respect: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- result: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- return: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- river: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- role: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- route: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- safe: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- sail: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- save: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- scared: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- scatter: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- score: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- shade: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- shore: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- signal: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- simple: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- slippery: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- smell: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- snap: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- soak: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- special: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- store: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- strong: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- stuck: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- suggest: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- support: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- surface: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- swallow: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- sweep: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- sweet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- talent: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- taste: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- team: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- tease: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- temperature: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- tend: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- tightly: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- little: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- track: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- travel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- trick: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- trust: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- turn: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- under: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- upstairs: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- usual: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- visit: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- voice: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- vote: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- wait: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- warmth: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- warn: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- waterfall: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- weather: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- wheel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- yesterday: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- admiral: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- album: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- alley: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- amber: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- antenna: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- applause: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- apricot: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- arch: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- atlas: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- avalanche: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- badge: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bagpipe: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- balcony: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- banjo: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- banner: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- basin: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bay: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- beacon: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bead: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- beeswax: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bellows: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- binoculars: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- birch: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- biscuit: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- blacksmith: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- blaze: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- blueprint: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bluff: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bobsled: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bolt: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bonfire: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bookshelf: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bracelet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bramble: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- brass: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bridle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- broth: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bugle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bulb: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bulletin: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- bunker: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- buoy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- canal: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- canopy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- caribou: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- carousel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cartwheel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cashew: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cedar: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cellar: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- chapel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- chariot: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- chestnut: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- chisel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- chord: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cider: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- clam: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cloak: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cobblestone: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cocoon: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- comet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cork: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- corral: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cradle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- crest: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- crumb: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cuff: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- cypress: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dagger: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dandelion: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- deck: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- delta: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dinghy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dome: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- donkey: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- doorbell: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- drawbridge: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- drumstick: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- dune: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- easel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- elm: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ember: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- emerald: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- falcon: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fiddle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fig: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fjord: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- flint: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- forge: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- fresco: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- gale: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- galley: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- garnet: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- gazelle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- geyser: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- gong: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- granite: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- grapevine: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- gravel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- griddle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- grove: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- gutter: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hammock: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- harp: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hazel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hearth: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- heron: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hickory: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hilltop: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- holly: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- honeycomb: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- horseshoe: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- hourglass: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- husk: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ibis: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- igloo: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ivy: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- jade: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- javelin: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- kelp: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- kennel: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- kindle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- kingfisher: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- knapsack: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- lagoon: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- latch: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- lava: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- levee: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- lichen: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- locket: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- loom: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- lynx: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mango: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mantle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- maple: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- marsh: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mast: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- moat: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mortar: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mosaic: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- mulberry: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- muzzle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- nectar: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- nettle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- nozzle: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- nutmeg: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- oar: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- oasis: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- olive: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- ore: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- otter: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- pagoda: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- parchment: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- parsley: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- pasture: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- pebble: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- pelican: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- pendant: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- pier: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- pigment: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- carefully: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- accept: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- quite: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- rise: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- although: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- unless: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- seldom: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
+- eventually: [L9: PASS - imageKeyword clear] [L10: PASS - factual] [L11: PASS - polysemy ok] [L12: PASS - game compatible]
