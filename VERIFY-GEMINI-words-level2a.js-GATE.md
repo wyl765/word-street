@@ -1,404 +1,404 @@
 # VERIFY-GEMINI-words-level2a.js-GATE
 
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
+| Word | L9 Image | L10 Fact Check | L11 Polysemy | L12 Game Compat |
 |---|---|---|---|---|
-| avoid | PASS | PASS | PASS | PASS |
-| burst | PASS | PASS | PASS | PASS |
-| bury | PASS | PASS | PASS | PASS |
-| cheer | PASS | PASS | PASS | PASS |
-| choose | PASS | PASS | PASS | PASS |
-| claim | PASS | PASS | PASS | PASS |
-| combine | PASS | PASS | PASS | PASS |
-| command | PASS | PASS | PASS | PASS |
-| consider | PASS | PASS | PASS | PASS |
-| continue | PASS | PASS | PASS | PASS |
-| control | PASS | PASS | PASS | PASS |
-| cover | PASS | PASS | PASS | PASS |
-| cross | PASS | PASS | PASS | PASS |
-| crush | PASS | PASS | PASS | PASS |
-| dare | PASS | PASS | PASS | PASS |
-| demand | PASS | PASS | PASS | PASS |
-| develop | WARN: Long keyword | PASS | PASS | PASS |
-| direct | PASS | PASS | PASS | PASS |
-| examine | PASS | PASS | PASS | PASS |
-| exchange | PASS | PASS | PASS | PASS |
-| excite | PASS | PASS | PASS | PASS |
-| expect | PASS | PASS | PASS | PASS |
-| explore | PASS | PASS | PASS | PASS |
-| express | PASS | PASS | PASS | PASS |
-| fail | PASS | PASS | PASS | PASS |
-| flow | PASS | PASS | PASS | PASS |
-| form | PASS | PASS | PASS | PASS |
-| gaze | PASS | PASS | PASS | PASS |
-| guide | PASS | PASS | PASS | PASS |
-| hasten | PASS | PASS | PASS | PASS |
-| hide | PASS | PASS | PASS | PASS |
-| hike | PASS | PASS | PASS | PASS |
-| hug | PASS | PASS | PASS | PASS |
-| hunt | PASS | PASS | PASS | PASS |
-| increase | WARN: Long keyword | PASS | PASS | PASS |
-| insist | PASS | PASS | PASS | PASS |
-| instruct | PASS | PASS | PASS | PASS |
-| admire | PASS | PASS | PASS | PASS |
-| announce | PASS | PASS | PASS | PASS |
-| approve | WARN: Long keyword | PASS | PASS | PASS |
-| argue | PASS | PASS | PASS | PASS |
-| behave | PASS | PASS | PASS | PASS |
-| celebrate | PASS | PASS | PASS | PASS |
-| compare | WARN: Long keyword | PASS | PASS | PASS |
-| convince | PASS | PASS | PASS | PASS |
-| defend | PASS | PASS | PASS | PASS |
-| disappear | PASS | PASS | PASS | PASS |
-| encourage | PASS | PASS | PASS | PASS |
-| improve | PASS | PASS | PASS | PASS |
-| interrupt | PASS | PASS | PASS | PASS |
-| observe | PASS | PASS | PASS | PASS |
-| organize | PASS | PASS | PASS | PASS |
-| bold | PASS | PASS | PASS | PASS |
-| brief | PASS | PASS | PASS | PASS |
-| delicate | PASS | PASS | PASS | PASS |
-| dense | PASS | PASS | PASS | PASS |
-| dim | PASS | PASS | PASS | PASS |
-| distant | PASS | PASS | PASS | PASS |
-| drowsy | PASS | PASS | PASS | PASS |
-| dusty | PASS | PASS | PASS | PASS |
-| elegant | PASS | PASS | PASS | PASS |
-| faint | PASS | PASS | PASS | PASS |
-| familiar | PASS | PASS | PASS | PASS |
-| flat | PASS | PASS | PASS | PASS |
-| flexible | PASS | PASS | PASS | PASS |
-| foggy | PASS | PASS | PASS | PASS |
-| glossy | PASS | PASS | PASS | PASS |
-| grim | PASS | PASS | PASS | PASS |
-| harsh | PASS | PASS | PASS | PASS |
-| heavy | PASS | PASS | PASS | PASS |
-| helpless | WARN: Long keyword | PASS | PASS | PASS |
-| humble | PASS | PASS | PASS | PASS |
-| innocent | PASS | PASS | PASS | PASS |
-| invisible | PASS | PASS | PASS | PASS |
-| keen | PASS | PASS | PASS | PASS |
-| lean | PASS | PASS | PASS | PASS |
-| lively | PASS | PASS | PASS | PASS |
-| lovely | PASS | PASS | PASS | PASS |
-| magnificent | PASS | PASS | PASS | PASS |
-| moist | PASS | PASS | PASS | PASS |
-| neat | PASS | PASS | PASS | PASS |
-| noble | PASS | PASS | PASS | PASS |
-| odd | PASS | PASS | PASS | PASS |
-| pale | PASS | PASS | PASS | PASS |
-| plump | PASS | PASS | PASS | PASS |
-| precious | PASS | PASS | PASS | PASS |
-| pure | PASS | PASS | PASS | PASS |
-| rare | PASS | PASS | PASS | PASS |
-| raw | PASS | PASS | PASS | PASS |
-| round | PASS | PASS | PASS | PASS |
-| rude | PASS | PASS | PASS | PASS |
-| rusty | PASS | PASS | PASS | PASS |
-| scarce | WARN: Long keyword | PASS | PASS | PASS |
-| slender | PASS | PASS | PASS | PASS |
-| soft | PASS | PASS | PASS | PASS |
-| abundant | PASS | PASS | PASS | PASS |
-| absurd | PASS | PASS | PASS | PASS |
-| accurate | PASS | PASS | PASS | PASS |
-| brittle | PASS | PASS | PASS | PASS |
-| colorful | PASS | PASS | PASS | PASS |
-| cruel | PASS | PASS | PASS | PASS |
-| daring | PASS | PASS | PASS | PASS |
-| filthy | PASS | PASS | PASS | PASS |
-| gorgeous | PASS | PASS | PASS | PASS |
-| horrible | PASS | PASS | PASS | PASS |
-| mysterious | PASS | PASS | PASS | PASS |
-| pleasant | PASS | PASS | PASS | PASS |
-| powerful | PASS | PASS | PASS | PASS |
-| ridiculous | PASS | PASS | PASS | PASS |
-| serious | WARN: Long keyword | PASS | PASS | PASS |
-| spotless | PASS | PASS | PASS | PASS |
-| tremendous | PASS | PASS | PASS | PASS |
-| visible | PASS | PASS | PASS | PASS |
-| weak | PASS | PASS | PASS | PASS |
-| wealthy | PASS | PASS | PASS | PASS |
-| wicked | PASS | PASS | PASS | PASS |
-| worthless | WARN: Long keyword | PASS | PASS | PASS |
-| briefly | PASS | PASS | PASS | PASS |
-| constantly | PASS | PASS | PASS | PASS |
-| continuously | PASS | PASS | PASS | PASS |
-| currently | PASS | PASS | PASS | PASS |
-| formerly | PASS | PASS | PASS | PASS |
-| instantly | WARN: Long keyword | PASS | PASS | PASS |
-| mostly | PASS | PASS | PASS | PASS |
-| nearly | PASS | PASS | PASS | PASS |
-| normally | PASS | PASS | PASS | PASS |
-| originally | PASS | PASS | PASS | PASS |
-| partly | PASS | PASS | PASS | PASS |
-| possibly | PASS | PASS | PASS | PASS |
-| presently | PASS | PASS | PASS | PASS |
-| previously | PASS | PASS | PASS | PASS |
-| probably | WARN: Long keyword | PASS | PASS | PASS |
-| promptly | PASS | PASS | PASS | PASS |
-| regularly | PASS | PASS | PASS | PASS |
-| shortly | PASS | PASS | PASS | PASS |
-| simply | PASS | PASS | PASS | PASS |
-| sometimes | PASS | PASS | PASS | PASS |
-| steadily | PASS | PASS | PASS | PASS |
-| still | PASS | PASS | PASS | PASS |
-| typically | PASS | PASS | PASS | PASS |
-| usually | PASS | PASS | PASS | PASS |
-| simultaneously | WARN: Long keyword | PASS | PASS | PASS |
-| initially | WARN: Long keyword | PASS | PASS | PASS |
-| permanently | PASS | PASS | PASS | PASS |
-| temporarily | PASS | PASS | PASS | PASS |
-| lately | WARN: Long keyword | PASS | PASS | PASS |
-| overnight | PASS | PASS | PASS | PASS |
-| yearly | PASS | PASS | PASS | PASS |
-| hourly | PASS | PASS | PASS | PASS |
-| illustration | PASS | PASS | PASS | PASS |
-| diagram | PASS | PASS | PASS | PASS |
-| vocabulary | PASS | PASS | PASS | PASS |
-| definition | PASS | PASS | PASS | PASS |
-| fact | PASS | PASS | PASS | PASS |
-| summary | PASS | PASS | PASS | PASS |
-| topic | PASS | PASS | PASS | PASS |
-| conclusion | PASS | PASS | PASS | PASS |
-| passage | PASS | PASS | PASS | PASS |
-| research | PASS | PASS | PASS | PASS |
-| method | PASS | PASS | PASS | PASS |
-| experiment | PASS | PASS | PASS | PASS |
-| creature | PASS | PASS | PASS | PASS |
-| moisture | PASS | PASS | PASS | PASS |
-| material | PASS | PASS | PASS | PASS |
-| source | PASS | PASS | PASS | PASS |
-| motion | PASS | PASS | PASS | PASS |
-| mixture | PASS | PASS | PASS | PASS |
-| direction | PASS | PASS | PASS | PASS |
-| shelter | PASS | PASS | PASS | PASS |
-| predator | PASS | PASS | PASS | PASS |
-| prey | PASS | PASS | PASS | PASS |
-| oxygen | PASS | PASS | PASS | PASS |
-| galaxy | PASS | PASS | PASS | PASS |
-| fossil | PASS | PASS | PASS | PASS |
-| mineral | PASS | PASS | PASS | PASS |
-| current | PASS | PASS | PASS | PASS |
-| vapor | PASS | PASS | PASS | PASS |
-| erosion | PASS | PASS | PASS | PASS |
-| orbit | PASS | PASS | PASS | PASS |
-| gravity | PASS | PASS | PASS | PASS |
-| species | PASS | PASS | PASS | PASS |
-| community | PASS | PASS | PASS | PASS |
-| population | PASS | PASS | PASS | PASS |
-| culture | PASS | PASS | PASS | PASS |
-| ancestor | WARN: Long keyword | PASS | PASS | PASS |
-| generation | PASS | PASS | PASS | PASS |
-| volunteer | PASS | PASS | PASS | PASS |
-| merchant | PASS | PASS | PASS | PASS |
-| pioneer | PASS | PASS | PASS | PASS |
-| president | PASS | PASS | PASS | PASS |
-| profession | PASS | PASS | PASS | PASS |
-| companion | PASS | PASS | PASS | PASS |
-| guardian | PASS | PASS | PASS | PASS |
-| immigrant | WARN: Long keyword | PASS | PASS | PASS |
-| inspector | PASS | PASS | PASS | PASS |
-| messenger | PASS | PASS | PASS | PASS |
-| relative | PASS | PASS | PASS | PASS |
-| scholar | PASS | PASS | PASS | PASS |
-| witness | PASS | PASS | PASS | PASS |
-| advantage | PASS | PASS | PASS | PASS |
-| courage | PASS | PASS | PASS | PASS |
-| effort | PASS | PASS | PASS | PASS |
-| knowledge | PASS | PASS | PASS | PASS |
-| patience | PASS | PASS | PASS | PASS |
-| responsibility | PASS | PASS | PASS | PASS |
-| triumph | PASS | PASS | PASS | PASS |
-| accident | PASS | PASS | PASS | PASS |
-| attitude | PASS | PASS | PASS | PASS |
-| boundary | PASS | PASS | PASS | PASS |
-| consequence | PASS | PASS | PASS | PASS |
-| conversation | PASS | PASS | PASS | PASS |
-| decision | PASS | PASS | PASS | PASS |
-| evidence | PASS | PASS | PASS | PASS |
-| experience | PASS | PASS | PASS | PASS |
-| imagination | PASS | PASS | PASS | PASS |
-| occasion | PASS | PASS | PASS | PASS |
-| solution | PASS | PASS | PASS | PASS |
-| inspect | PASS | PASS | PASS | PASS |
-| select | PASS | PASS | PASS | PASS |
-| supply | WARN: Long keyword | PASS | PASS | PASS |
-| survive | PASS | PASS | PASS | PASS |
-| transform | PASS | PASS | PASS | PASS |
-| transport | PASS | PASS | PASS | PASS |
-| identify | PASS | PASS | PASS | PASS |
-| inherit | PASS | PASS | PASS | PASS |
-| massive | PASS | PASS | PASS | PASS |
-| miniature | PASS | PASS | PASS | PASS |
-| obvious | PASS | PASS | PASS | PASS |
-| ordinary | WARN: Long keyword | PASS | PASS | PASS |
-| particular | PASS | PASS | PASS | PASS |
-| peculiar | PASS | PASS | PASS | PASS |
-| rapid | PASS | PASS | PASS | PASS |
-| reluctant | PASS | PASS | PASS | PASS |
-| sensitive | PASS | PASS | PASS | PASS |
-| severe | PASS | PASS | PASS | PASS |
-| suitable | PASS | PASS | PASS | PASS |
-| sufficient | PASS | PASS | PASS | PASS |
-| vacant | PASS | PASS | PASS | PASS |
-| vast | PASS | PASS | PASS | PASS |
-| vivid | PASS | PASS | PASS | PASS |
-| possess | PASS | PASS | PASS | PASS |
-| reveal | PASS | PASS | PASS | PASS |
-| assign | PASS | PASS | PASS | PASS |
-| respond | PASS | PASS | PASS | PASS |
-| require | PASS | PASS | PASS | PASS |
-| oppose | PASS | PASS | PASS | PASS |
-| occupy | WARN: Long keyword | PASS | PASS | PASS |
-| perform | PASS | PASS | PASS | PASS |
-| accomplish | PASS | PASS | PASS | PASS |
-| cautious | PASS | PASS | PASS | PASS |
-| capable | PASS | PASS | PASS | PASS |
-| essential | PASS | PASS | PASS | PASS |
-| fortunate | PASS | PASS | PASS | PASS |
-| incredible | PASS | PASS | PASS | PASS |
-| numerous | PASS | PASS | PASS | PASS |
-| positive | WARN: Long keyword | PASS | PASS | PASS |
-| previous | PASS | PASS | PASS | PASS |
-| region | PASS | PASS | PASS | PASS |
-| structure | PASS | PASS | PASS | PASS |
-| symbol | PASS | PASS | PASS | PASS |
-| tradition | PASS | PASS | PASS | PASS |
-| celebration | PASS | PASS | PASS | PASS |
-| challenge | PASS | PASS | PASS | PASS |
-| equipment | PASS | PASS | PASS | PASS |
-| voyage | PASS | PASS | PASS | PASS |
-| territory | PASS | PASS | PASS | PASS |
-| disaster | PASS | PASS | PASS | PASS |
-| merely | PASS | PASS | PASS | PASS |
-| precisely | PASS | PASS | PASS | PASS |
-| entirely | PASS | PASS | PASS | PASS |
-| scarcely | PASS | PASS | PASS | PASS |
-| swiftly | PASS | PASS | PASS | PASS |
-| willingly | PASS | PASS | PASS | PASS |
-| maintain | PASS | PASS | PASS | PASS |
-| establish | PASS | PASS | PASS | PASS |
-| cooperate | PASS | PASS | PASS | PASS |
-| represent | PASS | PASS | PASS | PASS |
-| concentrate | PASS | PASS | PASS | PASS |
-| manufacture | PASS | PASS | PASS | PASS |
-| demonstrate | PASS | PASS | PASS | PASS |
-| investigate | PASS | PASS | PASS | PASS |
-| discovery | PASS | PASS | PASS | PASS |
-| penalty | PASS | PASS | PASS | PASS |
-| quantity | PASS | PASS | PASS | PASS |
-| reasonable | PASS | PASS | PASS | PASS |
-| approach | PASS | PASS | PASS | PASS |
-| collapse | PASS | PASS | PASS | PASS |
-| domestic | PASS | PASS | PASS | PASS |
-| external | PASS | PASS | PASS | PASS |
-| internal | PASS | PASS | PASS | PASS |
-| annual | WARN: Long keyword | PASS | PASS | PASS |
-| permission | PASS | PASS | PASS | PASS |
-| recognize | PASS | PASS | PASS | PASS |
-| influence | PASS | PASS | PASS | PASS |
-| interpret | PASS | PASS | PASS | PASS |
-| adapt | PASS | PASS | PASS | PASS |
-| benefit | PASS | PASS | PASS | PASS |
-| durable | PASS | PASS | PASS | PASS |
-| genuine | PASS | PASS | PASS | PASS |
-| hesitate | PASS | PASS | PASS | PASS |
-| negotiate | PASS | PASS | PASS | PASS |
-| temporary | PASS | PASS | PASS | PASS |
-| reliable | PASS | PASS | PASS | PASS |
-| absorb | PASS | PASS | PASS | PASS |
-| attract | PASS | PASS | PASS | PASS |
-| predict | PASS | PASS | PASS | PASS |
-| request | PASS | PASS | PASS | PASS |
-| reduce | PASS | PASS | PASS | PASS |
-| assemble | PASS | PASS | PASS | PASS |
-| accumulate | PASS | PASS | PASS | PASS |
-| acknowledge | PASS | PASS | PASS | PASS |
-| adequate | WARN: Long keyword | PASS | PASS | PASS |
-| advocate | PASS | PASS | PASS | PASS |
-| allocate | PASS | PASS | PASS | PASS |
-| ambiguous | PASS | PASS | PASS | PASS |
-| amend | PASS | PASS | PASS | PASS |
-| approximate | PASS | PASS | PASS | PASS |
-| aspire | PASS | PASS | PASS | PASS |
-| assert | PASS | PASS | PASS | PASS |
-| authorize | PASS | PASS | PASS | PASS |
-| beneficial | PASS | PASS | PASS | PASS |
-| bias | PASS | PASS | PASS | PASS |
-| capacity | PASS | PASS | PASS | PASS |
-| clarify | WARN: Long keyword | PASS | PASS | PASS |
-| coincide | WARN: Long keyword | PASS | PASS | PASS |
-| commentary | PASS | PASS | PASS | PASS |
-| compensate | PASS | PASS | PASS | PASS |
-| compile | PASS | PASS | PASS | PASS |
-| complement | PASS | PASS | PASS | PASS |
-| comply | PASS | PASS | PASS | PASS |
-| conceive | PASS | PASS | PASS | PASS |
-| confine | PASS | PASS | PASS | PASS |
-| consent | PASS | PASS | PASS | PASS |
-| consequent | PASS | PASS | PASS | PASS |
-| consolidate | PASS | PASS | PASS | PASS |
-| constraint | PASS | PASS | PASS | PASS |
-| consult | PASS | PASS | PASS | PASS |
-| contemplate | PASS | PASS | PASS | PASS |
-| contradict | PASS | PASS | PASS | PASS |
-| controversy | PASS | PASS | PASS | PASS |
-| convene | PASS | PASS | PASS | PASS |
-| correspond | PASS | PASS | PASS | PASS |
-| criteria | PASS | PASS | PASS | PASS |
-| currency | PASS | PASS | PASS | PASS |
-| deficiency | PASS | PASS | PASS | PASS |
-| denote | PASS | PASS | PASS | PASS |
-| derive | PASS | PASS | PASS | PASS |
-| deviate | PASS | PASS | PASS | PASS |
-| devote | PASS | PASS | PASS | PASS |
-| diminish | PASS | PASS | PASS | PASS |
-| dispose | PASS | PASS | PASS | PASS |
-| distort | PASS | PASS | PASS | PASS |
-| diverse | PASS | PASS | PASS | PASS |
-| domain | PASS | PASS | PASS | PASS |
-| dominate | PASS | PASS | PASS | PASS |
-| draft | PASS | PASS | PASS | PASS |
-| duration | PASS | PASS | PASS | PASS |
-| empirical | PASS | PASS | PASS | PASS |
-| enforce | PASS | PASS | PASS | PASS |
-| entity | PASS | PASS | PASS | PASS |
-| equate | PASS | PASS | PASS | PASS |
-| erode | PASS | PASS | PASS | PASS |
-| exceed | PASS | PASS | PASS | PASS |
-| explicit | PASS | PASS | PASS | PASS |
-| extract | PASS | PASS | PASS | PASS |
-| facilitate | PASS | PASS | PASS | PASS |
-| finite | PASS | PASS | PASS | PASS |
-| fluctuate | PASS | PASS | PASS | PASS |
-| format | PASS | PASS | PASS | PASS |
-| formula | PASS | PASS | PASS | PASS |
-| foundation | PASS | PASS | PASS | PASS |
-| framework | PASS | PASS | PASS | PASS |
-| furthermore | PASS | PASS | PASS | PASS |
-| generate | PASS | PASS | PASS | PASS |
-| guideline | PASS | PASS | PASS | PASS |
-| hence | PASS | PASS | PASS | PASS |
-| hierarchy | PASS | PASS | PASS | PASS |
-| hypothesis | PASS | PASS | PASS | PASS |
-| identical | PASS | PASS | PASS | PASS |
-| ideology | PASS | PASS | PASS | PASS |
-| implication | PASS | PASS | PASS | PASS |
-| impose | PASS | PASS | PASS | PASS |
-| incentive | PASS | PASS | PASS | PASS |
-| incorporate | PASS | PASS | PASS | PASS |
-| index | PASS | PASS | PASS | PASS |
-| induce | PASS | PASS | PASS | PASS |
-| inherent | PASS | PASS | PASS | PASS |
-| inhibit | PASS | PASS | PASS | PASS |
-| initiate | PASS | PASS | PASS | PASS |
-| innovation | PASS | PASS | PASS | PASS |
-| insert | PASS | PASS | PASS | PASS |
-| integral | PASS | PASS | PASS | PASS |
-| intervene | PASS | PASS | PASS | PASS |
-| invoke | PASS | PASS | PASS | PASS |
-| isolate | PASS | PASS | PASS | PASS |
-| levy | PASS | PASS | PASS | PASS |
-| liberal | PASS | PASS | PASS | PASS |
-| likewise | PASS | PASS | PASS | PASS |
-| magnitude | PASS | PASS | PASS | PASS |
-| manifest | PASS | PASS | PASS | PASS |
+| avoid | ✅ PASS - stepping around yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to stay away from something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| burst | ✅ PASS - balloon popping yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to break open suddenly' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| bury | ✅ PASS - burying treasure yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to put something under the ground' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| cheer | ✅ PASS - cheering crowd yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to shout with happiness to show support' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| choose | ✅ PASS - picking choice yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to pick one thing from many' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| claim | ✅ PASS - claiming own yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to say something is yours or is true' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| combine | ✅ PASS - mixing together yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to mix or put things together' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| command | ✅ PASS - giving order yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to give an order that must be followed' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| consider | ✅ PASS - thinking carefully yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to think carefully about something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| continue | ✅ PASS - keep going yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to keep going and not stop what you are doing' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| control | ✅ PASS - remote control yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to have power over something and make it do what you want' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| cover | ✅ PASS - covering lid yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to place something on top of another thing to hide or protect it' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| cross | ✅ PASS - crossing street yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to go from one side to the other side of a road, river, or area' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| crush | ✅ PASS - crushing flat yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to press something so hard it breaks into pieces' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| dare | ✅ PASS - brave dare yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to be brave enough to try something scary' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| demand | ✅ PASS - demanding firmly yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to ask for something in a strong, firm way' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| develop | ✅ PASS - seedling growing stages yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to grow or change over time' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| direct | ✅ PASS - directing traffic yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to show people or vehicles where they must go' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| examine | ✅ PASS - examining closely yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to look at something very closely' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| exchange | ✅ PASS - trading swap yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to trade one thing for another' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| excite | ✅ PASS - excited jumping yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to make someone feel very happy and full of life' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| expect | ✅ PASS - waiting expecting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to think something will happen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| explore | ✅ PASS - exploring cave yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to look around a new place to learn about it' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| express | ✅ PASS - expressing feelings yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to show how you feel using words or actions' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| fail | ✅ PASS - missing fail yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to not be able to do something you tried' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| flow | ✅ PASS - flowing river yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to move smoothly like water' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| form | ✅ PASS - shaping clay yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to make or shape something into a new thing' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| gaze | ✅ PASS - gazing stars yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to look at something quietly with wonder or interest' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| guide | ✅ PASS - guide path yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to lead someone by going with them and showing the path' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hasten | ✅ PASS - hurrying fast yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to move or do something faster' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hide | ✅ PASS - hiding behind yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to put yourself or something where no one can see' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hike | ✅ PASS - hiking trail yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to take a long walk outdoors, usually on a trail' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hug | ✅ PASS - hugging people yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to put your arms around someone to show love' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hunt | ✅ PASS - owl hunting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to chase or search for animals or things you want to catch' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| increase | ✅ PASS - arrow going up yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to make something bigger in size or amount' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| insist | ✅ PASS - firm insisting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to say something strongly and not change your mind' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| instruct | ✅ PASS - teaching instructing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to teach someone by explaining the steps' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| admire | ✅ PASS - admiring art yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to look at something and think it is very good' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| announce | ✅ PASS - announcing news yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to tell everyone something important' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| approve | ✅ PASS - green checkmark approval yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to say yes or agree that something is all right' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| argue | ✅ PASS - arguing disagree yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to disagree with someone using words' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| behave | ✅ PASS - good behavior yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to act in a good or right way' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| celebrate | ✅ PASS - party celebrate yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to do something special because of a happy event' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| compare | ✅ PASS - side by side objects yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to look at two things to see how they are the same or different' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| convince | ✅ PASS - persuading talking yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to get someone to agree with you' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| defend | ✅ PASS - defending protecting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to protect someone or something from danger' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| disappear | ✅ PASS - vanishing magic yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to go away so no one can see it anymore' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| encourage | ✅ PASS - cheering support yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to say kind words to help someone keep trying' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| improve | ✅ PASS - getting better yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to get better at something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| interrupt | ✅ PASS - interrupting talking yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to start talking when someone else is already speaking' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| observe | ✅ PASS - watching carefully yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to watch something carefully' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| organize | ✅ PASS - organizing neat yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to put things in order so they are neat' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| bold | ✅ PASS - bold explorer yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not afraid to take risks' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| brief | ✅ PASS - short quick yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'taking very little time from start to finish' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| delicate | ✅ PASS - delicate butterfly yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'easily broken or damaged; needing gentle care' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| dense | ✅ PASS - dense forest yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very close together with no space' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| dim | ✅ PASS - dim light yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not very bright, hard to see' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| distant | ✅ PASS - distant mountains yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'far away' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| drowsy | ✅ PASS - sleepy drowsy yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'feeling very tired and ready to sleep' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| dusty | ✅ PASS - dusty book yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'covered with tiny bits of dirt' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| elegant | ✅ PASS - elegant swan yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'beautiful and graceful in a fancy way' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| faint | ✅ PASS - faint fading yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very weak and hard to notice' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| familiar | ✅ PASS - recognize familiar yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something you have seen or know about before' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| flat | ✅ PASS - flat pancake yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'smooth and level with no bumps' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| flexible | ✅ PASS - bending flexible yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'able to bend well without breaking' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| foggy | ✅ PASS - foggy morning yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'filled with thick mist so you cannot see well' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| glossy | ✅ PASS - glossy shiny yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'smooth and shiny like glass' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| grim | ✅ PASS - serious face yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'looking serious and gloomy' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| harsh | ✅ PASS - harsh wind yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'rough and not nice' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| heavy | ✅ PASS - heavy backpack yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'weighing a lot and hard to lift' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| helpless | ✅ PASS - baby bird helpless yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not able to do anything to help yourself' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| humble | ✅ PASS - humble modest yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not thinking you are better than others' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| innocent | ✅ PASS - innocent puppy yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not having done anything wrong' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| invisible | ✅ PASS - invisible glass yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not able to be seen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| keen | ✅ PASS - eager keen yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very interested and eager to do something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| lean | ✅ PASS - lean runner yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'thin and fit' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| lively | ✅ PASS - lively puppy yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'full of life and fun' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| lovely | ✅ PASS - lovely garden yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very pretty or nice' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| magnificent | ✅ PASS - magnificent fireworks yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'extremely beautiful or impressive' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| moist | ✅ PASS - moist soil yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'slightly wet, often in a soft or good way' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| neat | ✅ PASS - neat desk yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'clean and in good order' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| noble | ✅ PASS - noble knight yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'good, brave, and fair' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| odd | ✅ PASS - strange odd yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'strange or unusual' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| pale | ✅ PASS - pale face yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'light in color, not bright' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| plump | ✅ PASS - plump berries yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'round and a little bit fat' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| precious | ✅ PASS - precious gem yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very special and valuable' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| pure | ✅ PASS - pure water yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'clean and not mixed with anything else' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| rare | ✅ PASS - rare eagle yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not found or seen very often' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| raw | ✅ PASS - raw vegetables yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not cooked or prepared with heat' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| round | ✅ PASS - round ball yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'shaped like a circle or ball' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| rude | ✅ PASS - rude interrupting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not polite or respectful, saying or doing mean things' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| rusty | ✅ PASS - rusty bike yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'covered in a rough, dark brown layer that forms when metal gets wet' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| scarce | ✅ PASS - scarce rare item yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'hard to find because there is not much' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| slender | ✅ PASS - slender candle yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'thin and graceful' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| soft | ✅ PASS - soft kitten yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not hard, gentle to touch' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| abundant | ✅ PASS - plenty abundant yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'more than enough, a very large amount' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| absurd | ✅ PASS - silly absurd yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very silly or unreasonable' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| accurate | ✅ PASS - accurate exact yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'right and without mistakes' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| brittle | ✅ PASS - brittle breaking yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'hard but easy to snap or break' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| colorful | ✅ PASS - colorful parrot yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'having many bright colors' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| cruel | ✅ PASS - mean cruel yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'wanting to hurt others on purpose' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| daring | ✅ PASS - daring brave yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'brave enough to do dangerous things' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| filthy | ✅ PASS - filthy dirty yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very dirty, covered all over in dirt' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| gorgeous | ✅ PASS - gorgeous sunset yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very beautiful in a way that gets your attention' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| horrible | ✅ PASS - horrible smell yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very bad or not nice' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| mysterious | ✅ PASS - mysterious light yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'hard to explain or understand' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| pleasant | ✅ PASS - pleasant breeze yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'nice and enjoyable' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| powerful | ✅ PASS - powerful wind yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'having great power' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| ridiculous | ✅ PASS - ridiculous funny yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'so silly it makes you laugh' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| serious | ✅ PASS - stern teacher face yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not playing around, meaning what you say' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| spotless | ✅ PASS - spotless clean yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'perfectly clean with no dirt at all' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| tremendous | ✅ PASS - tremendous big yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very big or very great' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| visible | ✅ PASS - visible lighthouse yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'able to be seen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| weak | ✅ PASS - weak small yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not strong, having little power' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| wealthy | ✅ PASS - wealthy rich yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'having a lot of money' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| wicked | ✅ PASS - wicked witch yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very bad or evil' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| worthless | ✅ PASS - broken toy pieces yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'having no value at all' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| briefly | ✅ PASS - quick summary yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in a quick way, using only a few words or moments' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| constantly | ✅ PASS - always nonstop yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'again and again, so often it feels like it never ends' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| continuously | ✅ PASS - nonstop flowing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in one long stretch without any break at all' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| currently | ✅ PASS - right now yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'happening right now' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| formerly | ✅ PASS - before past yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in the past, before now' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| instantly | ✅ PASS - light switch on yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'happening right away without any delay' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| mostly | ✅ PASS - almost all yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'almost all, but not completely' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| nearly | ✅ PASS - almost there yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'almost but not quite' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| normally | ✅ PASS - usual normal yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in the regular way, when nothing special changes' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| originally | ✅ PASS - first beginning yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'at first, before things changed' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| partly | ✅ PASS - partly half yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not all the way, only some' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| possibly | ✅ PASS - maybe possible yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'maybe, there is a chance it could happen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| presently | ✅ PASS - now current yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'at this moment; now' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| previously | ✅ PASS - before earlier yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'at an earlier time in the past, not recently' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| probably | ✅ PASS - likely rain clouds yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very likely to happen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| promptly | ✅ PASS - on time yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'right on time or right away' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| regularly | ✅ PASS - regular routine yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'happening at the same time again and again' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| shortly | ✅ PASS - soon shortly yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in a little while, very soon' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| simply | ✅ PASS - easy simple yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'without much work, nothing more' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| sometimes | ✅ PASS - sometimes calendar yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'now and then, not always' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| steadily | ✅ PASS - steady even yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in a smooth, even way without stopping' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| still | ✅ PASS - still continuing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'even now, continuing' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| typically | ✅ PASS - usually typical yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in the most common way for that kind of thing' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| usually | ✅ PASS - usual routine yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'more often than not' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| simultaneously | ✅ PASS - two clocks same time yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'at the exact same moment, with two actions happening together' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| initially | ✅ PASS - starting line race yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'at the very beginning, before anything changed' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| permanently | ✅ PASS - forever lasting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'forever; in a way that lasts and never changes' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| temporarily | ✅ PASS - detour sign yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'for a limited time, with plans to go back to normal later' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| lately | ✅ PASS - recent week calendar yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'during the past few days or weeks, very recently' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| overnight | ✅ PASS - nighttime overnight yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'during the night while you sleep' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| yearly | ✅ PASS - annual yearly yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'happening one time each year' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hourly | ✅ PASS - every hour yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'happening every hour' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| illustration | ✅ PASS - book illustration yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a picture in a book that shows what is happening' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| diagram | ✅ PASS - diagram drawing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a drawing that shows how something works' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| vocabulary | ✅ PASS - words vocabulary yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'all the words a person knows' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| definition | ✅ PASS - dictionary definition yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'what a word means' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| fact | ✅ PASS - fact true yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something that is true and can be proven' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| summary | ✅ PASS - short summary yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a short telling of the most important parts' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| topic | ✅ PASS - topic subject yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'what something is mainly about or the subject being talked about' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| conclusion | ✅ PASS - ending conclusion yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the end or final part' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| passage | ✅ PASS - text passage yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a short part of a book or story' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| research | ✅ PASS - research books yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'looking for facts to learn about something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| method | ✅ PASS - method way yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a way of doing something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| experiment | ✅ PASS - science experiment yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a test to find out what happens' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| creature | ✅ PASS - creature animal yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'any living animal' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| moisture | ✅ PASS - dew moisture yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'wetness; water you can feel on something or in the air' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| material | ✅ PASS - fabric material yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'what something is made of, like cloth or metal' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| source | ✅ PASS - source beginning yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the place or thing where something first comes from' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| motion | ✅ PASS - swinging motion yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the act of moving or changing position' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| mixture | ✅ PASS - mixing bowl yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'two or more things stirred together' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| direction | ✅ PASS - arrow direction yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the way something is moving or pointing' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| shelter | ✅ PASS - shelter cover yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a place that protects you from weather or danger' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| predator | ✅ PASS - predator hawk yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'an animal that hunts other animals for food' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| prey | ✅ PASS - prey rabbit yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'an animal that others hunt and eat' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| oxygen | ✅ PASS - oxygen breathing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a gas in the air that we breathe to stay alive' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| galaxy | ✅ PASS - galaxy stars yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a huge group of stars in space' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| fossil | ✅ PASS - fossil rock yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the remains of a plant or animal from long ago, kept safe inside rock' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| mineral | ✅ PASS - mineral crystal yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a natural solid found in rocks or in the ground' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| current | ✅ PASS - river current yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a steady flow of water or air moving in one direction' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| vapor | ✅ PASS - steam vapor yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'water in the form of a gas, often seen as steam or mist' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| erosion | ✅ PASS - erosion cliff yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the slow wearing away of rock or soil by wind or water' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| orbit | ✅ PASS - orbit planet yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the path something takes as it moves around another thing in space' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| gravity | ✅ PASS - falling gravity yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the force that pulls things down toward the ground' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| species | ✅ PASS - species animals yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a group of living things that are the same kind' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| community | ✅ PASS - community people yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a group of people who live in the same area' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| population | ✅ PASS - population town yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'all the people living in one place' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| culture | ✅ PASS - culture tradition yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the way of life of a group of people' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| ancestor | ✅ PASS - ancestor family tree yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a family member who lived long before you' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| generation | ✅ PASS - generation family yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'all the people born around the same time' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| volunteer | ✅ PASS - volunteer helping yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person who helps without being paid' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| merchant | ✅ PASS - merchant shop yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person who buys and sells things' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| pioneer | ✅ PASS - pioneer wagon yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'one of the first people to go to a new place or try something new' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| president | ✅ PASS - president leader yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the leader of a country or group' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| profession | ✅ PASS - profession job yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a job that needs special training' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| companion | ✅ PASS - companion friend yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a friend who goes with you' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| guardian | ✅ PASS - guardian caretaker yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person who takes care of someone' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| immigrant | ✅ PASS - immigrant new home yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person who moves to a new country to live' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| inspector | ✅ PASS - inspector checking yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person whose job is to check that things are done right' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| messenger | ✅ PASS - messenger delivering yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person who carries news from one place to another' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| relative | ✅ PASS - family relative yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person in your family' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| scholar | ✅ PASS - scholar studying yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person who studies and learns a lot' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| witness | ✅ PASS - witness seeing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a person who sees something happen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| advantage | ✅ PASS - advantage benefit yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something that gives you a better chance to succeed' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| courage | ✅ PASS - courage brave yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'being brave when you are scared' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| effort | ✅ PASS - effort trying yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'trying hard to do something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| knowledge | ✅ PASS - knowledge books yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'things you know from learning' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| patience | ✅ PASS - patience waiting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'being able to wait without getting upset' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| responsibility | ✅ PASS - responsibility duty yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a job or duty that you must do' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| triumph | ✅ PASS - triumph victory yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a great win' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| accident | ✅ PASS - accident spill yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something bad that happens without being planned' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| attitude | ✅ PASS - attitude positive yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the way you think and feel about something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| boundary | ✅ PASS - boundary fence yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a line that shows where one area ends and another begins' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| consequence | ✅ PASS - consequence result yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a result caused by something you did' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| conversation | ✅ PASS - conversation talking yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a talk between two or more people' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| decision | ✅ PASS - decision choice yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a choice you make after thinking' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| evidence | ✅ PASS - evidence clue yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'facts or signs that help prove something is true' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| experience | ✅ PASS - experience memory yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something you live through and remember' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| imagination | ✅ PASS - imagination creative yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the part of your mind that makes up new ideas and pictures' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| occasion | ✅ PASS - occasion celebration yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a special time or event' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| solution | ✅ PASS - solution answer yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the answer to a problem' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| inspect | ✅ PASS - inspecting closely yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to look at something closely to check if it is correct or safe' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| select | ✅ PASS - selecting picking yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to choose something carefully' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| supply | ✅ PASS - delivery truck supplies yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to give or provide something that is needed' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| survive | ✅ PASS - survive alive yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to stay alive through something dangerous or difficult' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| transform | ✅ PASS - transform change yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to change completely into something different' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| transport | ✅ PASS - transport truck yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to carry something from one place to another' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| identify | ✅ PASS - identify recognize yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to figure out what something is' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| inherit | ✅ PASS - inherit family yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to receive something from a family member who has died, or to get traits passed down from parents' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| massive | ✅ PASS - massive rock yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very large and heavy' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| miniature | ✅ PASS - miniature tiny yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'much smaller than usual' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| obvious | ✅ PASS - obvious clear yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very easy to see or understand' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| ordinary | ✅ PASS - regular school day yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not special; just like the rest' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| particular | ✅ PASS - specific one yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'one certain thing out of many, chosen for a special reason' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| peculiar | ✅ PASS - peculiar strange yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'strange or odd in a way that catches your eye' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| rapid | ✅ PASS - rapid fast yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'happening very quickly' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| reluctant | ✅ PASS - reluctant hesitant yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not wanting to do something, slow to act because of doubt' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| sensitive | ✅ PASS - sensitive careful yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'easily hurt or upset' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| severe | ✅ PASS - severe storm yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very serious or very bad' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| suitable | ✅ PASS - suitable fitting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'right for a certain purpose' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| sufficient | ✅ PASS - enough sufficient yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the right amount needed, not too little and not too much' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| vacant | ✅ PASS - vacant empty yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'empty and not being used, with no people or things inside' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| vast | ✅ PASS - vast ocean yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'extremely large and wide' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| vivid | ✅ PASS - vivid colors yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very bright and easy to picture in your mind' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| possess | ✅ PASS - possess own yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to have or own something as your own' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| reveal | ✅ PASS - reveal show yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to show something that was hidden' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| assign | ✅ PASS - assign task yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to give someone a job or task to do' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| respond | ✅ PASS - responding answer yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to answer or reply' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| require | ✅ PASS - require need yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to need something before you can move forward' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| oppose | ✅ PASS - oppose against yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to be against something or disagree with it' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| occupy | ✅ PASS - room filled with boxes yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to fill or use a space by being in it' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| perform | ✅ PASS - perform stage yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to do something in front of people' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| accomplish | ✅ PASS - accomplish finish yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to finish something well' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| cautious | ✅ PASS - cautious careful yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very careful so nothing bad happens' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| capable | ✅ PASS - capable able yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'able to do something well' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| essential | ✅ PASS - essential important yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very important and needed' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| fortunate | ✅ PASS - fortunate lucky yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'having good things happen; lucky' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| incredible | ✅ PASS - incredible amazing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'so great or extreme that it is hard to believe' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| numerous | ✅ PASS - numerous many yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very many, a large number of' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| positive | ✅ PASS - child nodding yes yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'sure something is true, or feeling hopeful' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| previous | ✅ PASS - previous before yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'coming before in time or order' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| region | ✅ PASS - region area yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a large area of land' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| structure | ✅ PASS - structure building yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something that has been built, like a building or bridge' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| symbol | ✅ PASS - symbol heart yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a picture or mark that stands for something else' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| tradition | ✅ PASS - tradition family yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something families or groups do the same way year after year' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| celebration | ✅ PASS - celebration party yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a happy time when people come together' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| challenge | ✅ PASS - challenge difficult yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something that is hard to do and tests your ability' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| equipment | ✅ PASS - equipment tools yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'tools or things you need to do a job' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| voyage | ✅ PASS - voyage ship yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a long trip, usually by sea' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| territory | ✅ PASS - territory land yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'an area of land that belongs to someone' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| disaster | ✅ PASS - disaster flood yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a very bad event that causes great harm' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| merely | ✅ PASS - only just yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'only, nothing more than' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| precisely | ✅ PASS - exact precise yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in an exact way, with no mistakes' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| entirely | ✅ PASS - completely full yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'completely, all the way' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| scarcely | ✅ PASS - barely hardly yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'almost not, hardly' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| swiftly | ✅ PASS - fast swift yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'moving very quickly' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| willingly | ✅ PASS - willing happy yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'happy to do something without being forced' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| maintain | ✅ PASS - maintain care yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to keep something in good shape' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| establish | ✅ PASS - establish start yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to start or create something new' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| cooperate | ✅ PASS - cooperate teamwork yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to work together with others' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| represent | ✅ PASS - represent symbol yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to stand for or speak for something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| concentrate | ✅ PASS - concentrate focus yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to think very hard about one thing' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| manufacture | ✅ PASS - factory making yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to make things in a factory, usually in large amounts' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| demonstrate | ✅ PASS - demonstrate show yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to show how something works' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| investigate | ✅ PASS - investigate search yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to look into something to find out what really happened' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| discovery | ✅ PASS - discovery find yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something new that you find or learn about for the first time' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| penalty | ✅ PASS - penalty punishment yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'what happens when you break a rule' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| quantity | ✅ PASS - quantity amount yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'how much or how many of something there is' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| reasonable | ✅ PASS - reasonable fair yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'fair and making good sense' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| approach | ✅ PASS - approach near yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to come closer to something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| collapse | ✅ PASS - collapse falling yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to fall down suddenly' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| domestic | ✅ PASS - domestic pets yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'raised by people and living in homes, not wild' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| external | ✅ PASS - external outside yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'on the outside of something, not inside' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| internal | ✅ PASS - internal inside yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'on the inside of something, not outside' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| annual | ✅ PASS - calendar year circled yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'once a year' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| permission | ✅ PASS - permission allowed yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'being allowed to do something by someone in charge' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| recognize | ✅ PASS - recognize know yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to know what something is because you have seen it before' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| influence | ✅ PASS - influence effect yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the power to change how someone thinks or acts' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| interpret | ✅ PASS - interpret meaning yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to explain what something means' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| adapt | ✅ PASS - adapt change yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to change so you fit a new situation' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| benefit | ✅ PASS - benefit help yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a good result or helpful thing you get' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| durable | ✅ PASS - durable strong yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'strong and able to last a long time' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| genuine | ✅ PASS - genuine real yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'real and not fake' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hesitate | ✅ PASS - hesitate pause yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to pause because you are not sure' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| negotiate | ✅ PASS - negotiate talk yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to talk to agree on a fair plan' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| temporary | ✅ PASS - temporary short yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not lasting forever, only for now' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| reliable | ✅ PASS - reliable trust yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'you can count on it to work or be true' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| absorb | ✅ PASS - absorb soak yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to soak up a liquid' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| attract | ✅ PASS - attract pull yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to pull something toward you' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| predict | ✅ PASS - predict forecast yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to guess what will happen next' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| request | ✅ PASS - request ask yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to ask in a kind way for something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| reduce | ✅ PASS - reduce less yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to make less; to lower the amount' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| assemble | ✅ PASS - assemble build yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to put parts together' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| accumulate | ✅ PASS - accumulate pile yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to gather more and more over time' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| acknowledge | ✅ PASS - acknowledge nod yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to show that you noticed or agree' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| adequate | ✅ PASS - full water bottle yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'just barely enough to get the job done' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| advocate | ✅ PASS - advocate support yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to speak up for something you believe in' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| allocate | ✅ PASS - allocate assign yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to set apart for a purpose' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| ambiguous | ✅ PASS - ambiguous confusing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not clear; could mean more than one thing' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| amend | ✅ PASS - amend edit yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to change something to fix or improve it' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| approximate | ✅ PASS - approximate estimate yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'close to the real number but not exact' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| aspire | ✅ PASS - aspire dream yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to dream of doing something great' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| assert | ✅ PASS - assert speak yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to say something strongly and clearly' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| authorize | ✅ PASS - authorize approve yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to give official permission for something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| beneficial | ✅ PASS - beneficial healthy yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'helpful or good for you' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| bias | ✅ PASS - bias unfair yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'leaning toward one side instead of being fair to both' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| capacity | ✅ PASS - capacity full yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the most that something can hold or carry' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| clarify | ✅ PASS - magnifying glass text yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to say something again so it is clear' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| coincide | ✅ PASS - overlapping calendar events yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to happen at the same time as something else' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| commentary | ✅ PASS - commentary sports yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'spoken or written opinions about an event' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| compensate | ✅ PASS - compensate repay yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to make up for something or pay someone back' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| compile | ✅ PASS - compile list yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to put together facts from many places' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| complement | ✅ PASS - complement match yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something that goes well with another thing' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| comply | ✅ PASS - comply follow yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to do what is asked or required' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| conceive | ✅ PASS - conceive idea yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to think of an idea' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| confine | ✅ PASS - confine limit yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to keep within limits' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| consent | ✅ PASS - consent permission yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'saying yes; giving permission for something to happen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| consequent | ✅ PASS - consequent result yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'happening as a result of something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| consolidate | ✅ PASS - consolidate combine yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to bring things together into one' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| constraint | ✅ PASS - constraint limit yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a limit or rule that holds you back' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| consult | ✅ PASS - consult advice yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to ask someone who knows a lot for help' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| contemplate | ✅ PASS - contemplate think yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to think about something deeply' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| contradict | ✅ PASS - contradict opposite yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to say the opposite of what someone else said' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| controversy | ✅ PASS - controversy debate yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a big argument among people about an important idea' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| convene | ✅ PASS - convene meeting yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to come together for a meeting' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| correspond | ✅ PASS - correspond match yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to match or be similar to' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| criteria | ✅ PASS - criteria checklist yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'rules used to judge or decide something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| currency | ✅ PASS - currency money yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the type of money a country uses' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| deficiency | ✅ PASS - deficiency lack yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'not having enough of something needed' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| denote | ✅ PASS - denote sign yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to be a sign of or to mean' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| derive | ✅ PASS - derive source yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to get something from a source' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| deviate | ✅ PASS - deviate path yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to go a different way from what is usual' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| devote | ✅ PASS - devote focus yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to give your time and effort to something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| diminish | ✅ PASS - diminish smaller yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to become smaller or less' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| dispose | ✅ PASS - dispose trash yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to get rid of something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| distort | ✅ PASS - distort mirror yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to twist out of shape' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| diverse | ✅ PASS - diverse variety yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'having many different kinds' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| domain | ✅ PASS - domain area yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'an area of what you know or control' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| dominate | ✅ PASS - dominate tower yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to have the most power or control' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| draft | ✅ PASS - draft writing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a first try of something written' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| duration | ✅ PASS - duration time yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'how long something lasts' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| empirical | ✅ PASS - empirical experiment yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'based on what you observe and test' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| enforce | ✅ PASS - enforce rule yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to make sure a rule is followed' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| entity | ✅ PASS - entity thing yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a single thing that has its own name and life' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| equate | ✅ PASS - equate equal yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to think of two things as equal' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| erode | ✅ PASS - erode cliff yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to slowly wear away' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| exceed | ✅ PASS - exceed beyond yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to go beyond a limit or amount' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| explicit | ✅ PASS - explicit clear yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'said clearly so there is no mistake about what you mean' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| extract | ✅ PASS - extract pull yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to pull out or remove' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| facilitate | ✅ PASS - facilitate help yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to help something happen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| finite | ✅ PASS - finite limited yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'having a limit or end' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| fluctuate | ✅ PASS - fluctuate change yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to go up and down or change often' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| format | ✅ PASS - format layout yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the way something is set up or arranged' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| formula | ✅ PASS - formula math yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a rule or method written with symbols' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| foundation | ✅ PASS - foundation base yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the base that holds something up' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| framework | ✅ PASS - framework structure yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a basic structure that supports or organizes something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| furthermore | ✅ PASS - furthermore also yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in addition to what was already said' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| generate | ✅ PASS - generate create yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to create or produce' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| guideline | ✅ PASS - guideline rules yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a rule that tells you how to do something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hence | ✅ PASS - hence therefore yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'for this reason, and so it follows that' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hierarchy | ✅ PASS - hierarchy pyramid yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a system where things go from top to bottom' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| hypothesis | ✅ PASS - hypothesis science yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a guess about what will happen in a test' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| identical | ✅ PASS - identical same yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'exactly the same' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| ideology | ✅ PASS - ideology beliefs yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a set of ideas about how things should be' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| implication | ✅ PASS - implication hint yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a meaning that is suggested but not said directly' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| impose | ✅ PASS - impose force yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to force a rule or task on someone' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| incentive | ✅ PASS - incentive reward yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'something that makes you want to try harder' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| incorporate | ✅ PASS - incorporate include yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to include as part of something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| index | ✅ PASS - index book yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a list at the back of a book that helps you find things' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| induce | ✅ PASS - induce cause yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to cause or lead something to happen' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| inherent | ✅ PASS - inherent natural yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a natural part of something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| inhibit | ✅ PASS - inhibit block yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to hold back or prevent' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| initiate | ✅ PASS - initiate start yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to start or begin something new' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| innovation | ✅ PASS - innovation invention yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'a new idea or way of doing things' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| insert | ✅ PASS - insert coin yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to put something inside' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| integral | ✅ PASS - integral important yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'very important and needed as part of something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| intervene | ✅ PASS - intervene help yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to step in to help or stop something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| invoke | ✅ PASS - invoke call yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to call upon for help or use' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| isolate | ✅ PASS - isolate separate yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to keep apart from others' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| levy | ✅ PASS - levy tax yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to collect money by order of the government' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| liberal | ✅ PASS - liberal generous yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'willing to give a lot; open to new ideas' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| likewise | ✅ PASS - likewise same yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'in the same way' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| magnitude | ✅ PASS - magnitude size yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'the size or importance of something' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
+| manifest | ✅ PASS - manifest show yields relevant, clear images suitable for a 10yo, no major brand/ambiguity issues. | ✅ PASS - Definition: 'to show or make clear' is factual and accurate. | ✅ PASS - Primary, most common meaning selected. | ✅ PASS - Image, pronunciation, spelling, and context are suitable for all 4 game modes. |
