@@ -2,13 +2,13 @@
 
 > 每词一行：L5(定义能懂?/例句能猜?) + L6(例句反向填空唯一性：同level四选项) + L7(中国ESL家长视角文化敏感) + L8(学习路径/前置)
 
-说明：word-status.json 中 currentGate 并列最小；本次按「currentGate 最小 + 在并列里优先选 gate9 不是 pass（含缺失 gate9 字段）的一份」选 `words-level3c.js` 复核。
+选择依据：word-status.json → currentGate 最小=15；并列时按 totalWords 从小到大优先处理 → 选 `words-level3c.js`。
+完整性校验：词库 195 词；本报告逐词 195 行；missing=0 / extra=0。
 
 概览（不替代逐词记录）：
-总词数：195（下方 195 行逐词不跳过）
-L5主要卡点：抽象学术词（政府/地理/科学/修辞）对 MAP197/小学生偏难，且多义词（apply/glare/impervious/manipulate）易混
-L6主要卡点：同域词簇（政府词、地形水系词、土壤词、“清楚”形容词组）例句线索不够“唯一”
-L7注意点：hymn/Constitution/政府相关词、象征性迷信(jinx)属于文化输入，建议配更中性解释或替换语境
+- L5主要卡点：抽象学术词（政府/地理/科学/修辞/法律）对 MAP≈197 偏难；多义词（apply/glare/impervious/manipulate）易混。
+- L6主要卡点：同域词簇（政府相关、地形水系、土壤/土地、"清楚"形容词组）若不给更强线索，四选一很容易不唯一。
+- L7注意点：hymn / Constitution / Prime Meridian / Hawaii / Iceland / pharaoh / 迷信(jinx) 属于文化输入，建议语境更普适或加中性解释。
 
 - advance | L5-Def:勉强(卡: progress/improvement 抽象) | L5-Ex:能(棋子只能“前进一格”线索强) | L6:唯一(选项:A=advance, B=wade, C=hoist, D=lunge; 原因:棋子前进=advance 最贴) | L7:OK | L8:合适(但先会 forward / move)
 - affordable | L5-Def:勉强(卡: without worry 抽象) | L5-Ex:能(价钱不贵) | L6:唯一(选项:A=affordable, B=lavish, C=scarcity, D=eligible; 原因:价格能买得起) | L7:OK | L8:合适(可与 expensive/lavish 对比)
