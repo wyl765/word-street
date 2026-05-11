@@ -1,314 +1,314 @@
-# Gemini Review - Level 4b
+# Gemini Review for words-level4b.js
 
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
+| Word | L9 (Image) | L10 (Fact) | L11 (Meaning) | L12 (Game) |
 |---|---|---|---|---|
-| infant | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| inflation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| initiative | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| insight | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| install | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| integrity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| intellect | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| intercept | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| interfere | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| intimidate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| intricate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| introduction | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| investment | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| irrigate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| labor | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| landscape | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| liberate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| literacy | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| margin | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| mechanism | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| media | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| medieval | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| memorize | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| menace | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| merit | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| metabolism | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| mimic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| minimal | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| ministry | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| momentum | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| monarch | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| monopoly | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| municipal | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| narrative | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| nitrogen | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| nominate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| norm | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| nuclear | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| oblige | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| offend | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| oppress | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| orient | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| output | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| outrage | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| overlap | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| overseas | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| overwhelm | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| patron | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| peak | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| plantation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| plead | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| poll | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pollinate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pollute | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| populate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| precaution | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| preliminary | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| premise | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| preside | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| prevalent | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| primarily | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| procedure | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| quota | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rational | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reaction | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| recede | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reception | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| refer | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| refuge | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| regime | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| relay | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| render | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| renovate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| repeal | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| replicate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| resign | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| restrain | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| retail | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| retrieve | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| revolve | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| robust | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rotate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sanction | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| satellite | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| saturate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| scenario | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sector | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| senate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| siege | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| significance | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| simultaneous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| skeptical | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| solemn | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| somewhat | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sovereign | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| spectrum | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| speculate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sphere | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| stability | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| stagger | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| stake | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| statistic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| statute | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| stereotype | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| stimulate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subordinate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subsequent | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subsidy | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| substance | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| substantial | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subtle | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| successor | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| summarize | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| superb | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| supreme | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| surplus | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| surrender | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| synthetic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| tenant | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| terminal | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| terrain | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| testify | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| texture | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| therapy | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| threat | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| timber | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| toxic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| transaction | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| transition | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| transmit | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| trigger | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| turbulent | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| twilight | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| ultimate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| undermine | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| obstinate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| obviate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| onerous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| opacity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| opulence | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| oration | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| oscillation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| ostensible | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| ostracism | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| overture | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| palatable | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| panacea | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| paragon | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| paradoxical | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| paucity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pedagogue | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pedantic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pejorative | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| penitence | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| penultimate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pernicious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| perturbation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| petulance | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| placid | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| platitude | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| plethora | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| poignant | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| polemic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| ponderous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| portentous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pragmatism | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| precarious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| precipitous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| precursor | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| predilection | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| preeminent | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| preponderance | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| presentiment | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| presumptuous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| primordial | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| probity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| proclivity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| procrastinate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| prodigious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| profligate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| prognosticate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| promulgation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| propitious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| proprietary | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| proscribe | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| proselytize | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| protracted | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| provenance | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| provisional | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| prowess | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| prudence | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pugnacious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| pulchritude | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| punctilious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| punitive | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| quagmire | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| qualm | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| quandary | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| quarrelsome | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| querulous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| quintessential | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| quixotic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rambunctious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rancor | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rapacious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rapprochement | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rationale | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| recapitulate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| recidivism | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reciprocity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reclamation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reconciliation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| redress | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| redundancy | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| refurbish | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reiterate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| relegate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| remonstrate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| renunciation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reparation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reprehensible | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| repudiation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| requisition | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rescind | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| resignation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| resolute | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| resurgent | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reticence | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| retrospective | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| revelry | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| reverberate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| rigmarole | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| ruminate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sacrosanct | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sagacious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| salient | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sanguine | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sardonic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| scrupulous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| scrutinize | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| sedentary | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| semblance | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| serendipity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| servile | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| simultaneity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| solace | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| solicitous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| soporific | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| spurious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| squalid | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| stagnation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| stipend | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| stringent | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subjugation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subliminal | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subordination | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subservient | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| substantiation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| subterfuge | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| succinct | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| symbiosis | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| tangential | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| tantamount | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| temerity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| temperance | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| tenacity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| tenet | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| tepid | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| terse | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| tirade | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| torpor | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| tractable | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| transient | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| trepidation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| truculent | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| ubiquity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| umbrage | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| unctuous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| underpinning | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| unequivocal | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| unscrupulous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| usurpation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| utilitarian | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| vacillate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| vapid | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| vehemence | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| venerate | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| veracious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| verbose | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| vestige | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| vilification | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| vindictive | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| virtuosity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| vitriolic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| vociferous | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| volition | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| waiver | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| wanton | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| warranted | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| wherewithal | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| zealot | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| abnegation | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| acerbic | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| anachronism | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| anathema | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| antithesis | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| asperity | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| calumny | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| chicanery | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
-| contumacious | Pass (Clear visual) | Pass (Accurate) | Pass (Primary meaning) | Pass (Playable) |
+| infant | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| inflation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| initiative | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| insight | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| install | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| integrity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| intellect | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| intercept | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| interfere | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| intimidate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| intricate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| introduction | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| investment | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| irrigate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| labor | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| landscape | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| liberate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| literacy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| margin | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mechanism | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| media | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| medieval | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| memorize | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| menace | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| merit | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| metabolism | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| mimic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| minimal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ministry | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| momentum | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| monarch | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| monopoly | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| municipal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| narrative | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nitrogen | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nominate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| norm | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| nuclear | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| oblige | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| offend | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| oppress | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| orient | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| output | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| outrage | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| overlap | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| overseas | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| overwhelm | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| patron | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| peak | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| plantation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| plead | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| poll | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pollinate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pollute | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| populate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| precaution | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| preliminary | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| premise | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| preside | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| prevalent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| primarily | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| procedure | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quota | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rational | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reaction | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| recede | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reception | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| refer | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| refuge | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| regime | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| relay | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| render | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| renovate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| repeal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| replicate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| resign | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| restrain | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| retail | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| retrieve | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| revolve | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| robust | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rotate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sanction | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| satellite | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| saturate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| scenario | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sector | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| senate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| siege | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| significance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| simultaneous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| skeptical | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| solemn | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| somewhat | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sovereign | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| spectrum | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| speculate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sphere | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stability | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stagger | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stake | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| statistic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| statute | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stereotype | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stimulate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subordinate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subsequent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subsidy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| substance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| substantial | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subtle | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| successor | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| summarize | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| superb | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| supreme | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| surplus | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| surrender | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| synthetic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tenant | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| terminal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| terrain | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| testify | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| texture | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| therapy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| threat | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| timber | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| toxic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| transaction | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| transition | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| transmit | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| trigger | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| turbulent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| twilight | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ultimate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| undermine | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| obstinate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| obviate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| onerous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| opacity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| opulence | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| oration | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| oscillation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ostensible | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ostracism | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| overture | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| palatable | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| panacea | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| paragon | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| paradoxical | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| paucity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pedagogue | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pedantic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pejorative | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| penitence | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| penultimate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pernicious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| perturbation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| petulance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| placid | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| platitude | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| plethora | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| poignant | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| polemic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ponderous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| portentous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pragmatism | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| precarious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| precipitous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| precursor | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| predilection | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| preeminent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| preponderance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| presentiment | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| presumptuous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| primordial | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| probity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| proclivity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| procrastinate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| prodigious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| profligate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| prognosticate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| promulgation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| propitious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| proprietary | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| proscribe | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| proselytize | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| protracted | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| provenance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| provisional | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| prowess | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| prudence | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pugnacious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| pulchritude | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| punctilious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| punitive | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quagmire | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| qualm | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quandary | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quarrelsome | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| querulous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quintessential | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| quixotic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rambunctious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rancor | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rapacious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rapprochement | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rationale | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| recapitulate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| recidivism | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reciprocity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reclamation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reconciliation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| redress | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| redundancy | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| refurbish | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reiterate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| relegate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| remonstrate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| renunciation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reparation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reprehensible | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| repudiation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| requisition | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rescind | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| resignation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| resolute | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| resurgent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reticence | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| retrospective | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| revelry | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| reverberate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| rigmarole | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ruminate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sacrosanct | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sagacious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| salient | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sanguine | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sardonic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| scrupulous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| scrutinize | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| sedentary | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| semblance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| serendipity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| servile | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| simultaneity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| solace | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| solicitous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| soporific | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| spurious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| squalid | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stagnation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stipend | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| stringent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subjugation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subliminal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subordination | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subservient | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| substantiation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| subterfuge | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| succinct | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| symbiosis | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tangential | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tantamount | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| temerity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| temperance | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tenacity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tenet | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tepid | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| terse | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tirade | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| torpor | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| tractable | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| transient | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| trepidation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| truculent | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| ubiquity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| umbrage | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| unctuous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| underpinning | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| unequivocal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| unscrupulous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| usurpation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| utilitarian | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vacillate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vapid | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vehemence | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| venerate | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| veracious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| verbose | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vestige | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vilification | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vindictive | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| virtuosity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vitriolic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| vociferous | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| volition | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| waiver | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| wanton | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| warranted | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| wherewithal | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| zealot | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| abnegation | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| acerbic | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| anachronism | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| anathema | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| antithesis | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| asperity | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| calumny | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| chicanery | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
+| contumacious | Pass - clear visual | Pass - accurate fact | Pass - primary meaning | Pass - good for game |
