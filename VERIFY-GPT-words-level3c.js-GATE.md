@@ -209,3 +209,17 @@
 - lucid | L5-Def:勉强(卡: thinking clearly) | L5-Ex:能(解释清楚) | L6:不唯一(选项:A=lucid, B=legible, C=limpid, D=authentic; 原因:三词都像“清楚”) | L7:OK | L8:合适
 - lull | L5-Def:勉强(卡: short-time calm) | L5-Ex:能(暴风雨间歇) | L6:不唯一(选项:A=lull, B=idle, C=listless, D=interval; 原因:都像“停一下/安静/间隔”) | L7:OK | L8:合适
 - lunge | L5-Def:能 | L5-Ex:能(击剑猛刺) | L6:不唯一(选项:A=lunge, B=advance, C=hurl, D=jostle; 原因:都是动作动词，仍可) | L7:OK | L8:合适
+
+## 建议修订（可选，不替代逐词记录）
+1) typical：词库 definition 写成“usual and usual”会让孩子误以为是固定搭配/语法错误；建议改为“usual; what you would expect”。
+2) elevation：例句用 feet + 8,000 对中国孩子不友好；建议换成 meters 或直接用“high above sea level / much higher than the city”。
+3) govern / legislature / census / mandate / preamble：政府/法律簇对 MAP≈197 偏早；若保留，建议：
+   - 例句改成更“校园/规则”语境（避免美国特定制度词：spirit week / Constitution / ballot box）。
+   - 或在 definition 增加 1 个更具体的同义支架：govern≈lead+make rules；legislature≈law-making group。
+4) hymn：宗教词可保留但建议在 definition 明确“a religious song (church song)”，例句尽量中性，避免价值判断。
+5) meridian / axis：两者都“imaginary line”，L6 容易不唯一；建议其中一个例句增加强提示词：
+   - meridian → map / longitude line / Prime Meridian；
+   - axis → spin / rotate / tilts。
+6) ivory：定义提到 elephant tusks 可能触发家长对盗猎/保护的担忧；建议改成更中性的颜色义优先（ivory=soft white color），动物来源作为补充，并避免鼓励性语气。
+7) jinx：迷信表达“seven years of bad luck”对部分家长不适；建议改成更中性："Some people believe..." 或换成不带年限的例句。
+8) impervious / imbue / inundate / litany 等低频抽象词：若定位为“认识词”，可在 definition 里加更直白的二级释义（simple English）并让例句更生活化，以提升 L5/L6 通过率。
