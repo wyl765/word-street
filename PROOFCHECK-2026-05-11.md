@@ -2,9 +2,25 @@
 
 **Engine:** proofcheck.mjs v1.0
 **Entries:** 5205
-**Results:** 0 CRITICAL | 0 MAJOR | 125 MINOR
+**Results:** 0 CRITICAL | 0 MAJOR | 133 MINOR
 
 ## Issues
+
+### [MINOR] words-level1.js — "peanut" (COMPLEX_DEFINITION)
+L1 definition uses complex word(s): underground
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2.js — "amber" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): golden-brown
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2.js — "cork" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): lightweight
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2a.js — "absurd" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): unreasonable
+**Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2b.js — "homophone" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): differently
@@ -14,12 +30,24 @@ L2 definition uses complex word(s): differently
 L2 definition uses complex word(s): competition
 **Fix:** Simplify definition for young learners
 
+### [MINOR] words-level2c.js — "dispute" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): disagreement
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2c.js — "division" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): organization
+**Fix:** Simplify definition for young learners
+
 ### [MINOR] words-level2c.js — "fascinate" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): interesting
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2c.js — "fault" (COMPLEX_DEFINITION)
 L2 definition uses complex word(s): responsibility
+**Fix:** Simplify definition for young learners
+
+### [MINOR] words-level2d.js — "convey" (COMPLEX_DEFINITION)
+L2 definition uses complex word(s): communicate
 **Fix:** Simplify definition for young learners
 
 ### [MINOR] words-level2d.js — "debris" (COMPLEX_DEFINITION)
@@ -38,10 +66,6 @@ Definition contains subjective adjective "pretty": "a pretty thing that hangs fr
 Definition contains subjective adjective "attractive": "to add extra details to make something more attractive or interesting"
 **Fix:** Remove subjective adjectives from definitions
 
-### [MINOR] words-level5b.js — "aesthetic" (SUBJECTIVE_DEF)
-Definition contains subjective adjective "pretty": "about being pretty to look at, design, and good taste"
-**Fix:** Remove subjective adjectives from definitions
-
 ### [MINOR] words-level5c.js — "grotesque" (SUBJECTIVE_DEF)
 Definition contains subjective adjective "ugly": "very strange and ugly in a way that looks distorted"
 **Fix:** Remove subjective adjectives from definitions
@@ -58,16 +82,12 @@ Cross-definition cycle: "despite" def contains "even though" and "even though" d
 Definition uses "something" 2 times: "to uncover something hidden or show something to the open air"
 **Fix:** Rephrase to be more specific
 
-### [MINOR] words-level2d.js — "presume" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "to believe something is true without something that shows it is true"
-**Fix:** Rephrase to be more specific
-
 ### [MINOR] words-level4c.js — "onset" (VAGUE_DEFINITION)
 Definition uses "something" 2 times: "the start of something, especially something unpleasant"
 **Fix:** Rephrase to be more specific
 
-### [MINOR] words-level5d.js — "condemnation" (VAGUE_DEFINITION)
-Definition uses "something" 2 times: "strong disapproval of something or declaring something is wrong"
+### [MINOR] words-level5d.js — "deterrent" (VAGUE_DEFINITION)
+Definition uses "something" 2 times: "something that discourages people from doing something wrong"
 **Fix:** Rephrase to be more specific
 
 ### [MINOR] words-level1.js — "less" (ADJ_NOUN_MISMATCH)
@@ -86,8 +106,8 @@ Word appears to be adjective but definition starts with article: "the opposite i
 Word appears to be adjective but definition starts with article: "a picture or chart that explains facts..."
 **Fix:** Consider rephrasing definition to adjective form
 
-### [MINOR] words-level2c.js — "drastic" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "a very big and sudden change..."
+### [MINOR] words-level3b.js — "distributive" (ADJ_NOUN_MISMATCH)
+Word appears to be adjective but definition starts with article: "a rule that lets you break a multiplication proble..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level4c.js — "rubric" (ADJ_NOUN_MISMATCH)
@@ -100,10 +120,6 @@ Word appears to be adjective but definition starts with article: "a speech or te
 
 ### [MINOR] words-level5a.js — "ethic" (ADJ_NOUN_MISMATCH)
 Word appears to be adjective but definition starts with article: "a moral rule or principle that guides behavior..."
-**Fix:** Consider rephrasing definition to adjective form
-
-### [MINOR] words-level5b.js — "comparable" (ADJ_NOUN_MISMATCH)
-Word appears to be adjective but definition starts with article: "the same enough to be compared..."
 **Fix:** Consider rephrasing definition to adjective form
 
 ### [MINOR] words-level5d.js — "agnostic" (ADJ_NOUN_MISMATCH)
@@ -134,6 +150,10 @@ L1 definition uses "thick" which is also an L1 word (core position)
 L1 definition uses "fuzzy" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "plum" (SAME_LEVEL_DEF_REF)
+L1 definition uses "smooth" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "berry" (SAME_LEVEL_DEF_REF)
 L1 definition uses "juicy" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -160,6 +180,10 @@ L1 definition uses "piece" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "elbow" (SAME_LEVEL_DEF_REF)
 L1 definition uses "middle" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "thumb" (SAME_LEVEL_DEF_REF)
+L1 definition uses "thick" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "forehead" (SAME_LEVEL_DEF_REF)
@@ -276,6 +300,10 @@ L1 definition uses "sharp" which is also an L1 word (core position)
 
 ### [MINOR] words-level1.js — "gentle" (SAME_LEVEL_DEF_REF)
 L1 definition uses "rough" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
+### [MINOR] words-level1.js — "shy" (SAME_LEVEL_DEF_REF)
+L1 definition uses "nervous" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
 ### [MINOR] words-level1.js — "plain" (SAME_LEVEL_DEF_REF)
@@ -398,6 +426,10 @@ L1 definition uses "middle" which is also an L1 word (core position)
 L1 definition uses "design" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
+### [MINOR] words-level1.js — "poem" (SAME_LEVEL_DEF_REF)
+L1 definition uses "piece" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "claw" (SAME_LEVEL_DEF_REF)
 L1 definition uses "sharp" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -506,7 +538,19 @@ Example contains military context: "army"
 Example contains military context: "military"
 **Fix:** Consider replacing with a neutral/civilian context
 
+### [HIGH] words-level2a.js — "inherit" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "to receive something from a family member who has died, or to get traits passed down from parents"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2b.js — "turn down" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "to make the sound or heat lower, or to say no to something"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
 ### [HIGH] words-level2b.js — "go along with" (MULTI_MEANING)
 L2 definition has multiple distinct meanings: "to agree or to work together with"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2d.js — "reflect" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "to bounce back light or sound, or to think carefully about something"
 **Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
