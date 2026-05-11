@@ -1,6 +1,6 @@
 {
   "version": "6gate-v1",
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-05-11",
   "summary": {
     "totalWords": 5205,
     "gate1_pass": 5205,
@@ -8,8 +8,8 @@
     "gate3_pass": 5205,
     "gate4_pass": 5205,
     "gate5_pending": 0,
-    "gate6_pending": 446,
-    "allGatesClear": 4759,
+    "gate6_pending": 0,
+    "allGatesClear": 5205,
     "gate5_pass": 5205
   },
   "files": {
