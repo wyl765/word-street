@@ -8,8 +8,8 @@
     "gate3_pass": 5205,
     "gate4_pass": 5205,
     "gate5_pending": 0,
-    "gate6_pending": 1062,
-    "allGatesClear": 4143,
+    "gate6_pending": 446,
+    "allGatesClear": 4759,
     "gate5_pass": 5205
   },
   "files": {
@@ -161,7 +161,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pending"
+      "gate6": "pass"
     },
     "words-level5d.js": {
       "totalWords": 288,
@@ -171,7 +171,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pending"
+      "gate6": "pass"
     }
   }
 }
