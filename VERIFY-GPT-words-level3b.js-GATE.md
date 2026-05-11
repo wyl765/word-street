@@ -34,7 +34,7 @@
 - mass | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[escarpment / gouge / mass / volcano] | L7:OK | L8:合适
 - renewable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[electricity / renewable / solar / weathering] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
 - nonrenewable | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:cannot)，易靠语感/蒙) | 选项:[atmosphere / gulp / lunar / nonrenewable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
-- pollution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:air)，易靠语感/蒙) | 选项:[atmosphere / flue / fumigate / pollution] | L7:注意(可能引发家长顾虑或需要解释：烟酒毒；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- pollution | L5-Def:勉强(需要中文支架/图示；词偏长、抽象度略高) | L5-Ex:不能(能懂“工厂烟让空气变脏”，但很难主动产出该词) | L6:能(线索词: Smoke from factories / air ___) | 选项:[atmosphere / flue / fumigate / pollution] | L7:OK(环保话题在中国也常见；不敏感) | L8:勉强(主题常见，可做认识词；更低龄可先用dirty air/dirty water过渡)
 - conservation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[conservation / electricity / evaporation / facet] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
 - vertebrate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adaptation / atmosphere / camouflage / vertebrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
 - invertebrate | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[expression / foresee / forsake / invertebrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
@@ -56,12 +56,12 @@
 - urban | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:busy)，易靠语感/蒙) | 选项:[foresee / goblet / meter / urban] | L7:OK | L8:合适
 - rural | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dike / giddy / metamorphosis / rural] | L7:OK | L8:合适
 - suburban | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:city)，易靠语感/蒙) | 选项:[capital / industry / suburban / urban] | L7:OK | L8:合适
-- civilization | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:cities)，易靠语感/蒙) | 选项:[artifact / civilization / dike / rural] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- civilization | L5-Def:不能(概念抽象+长词；definition里writing/laws也偏学术) | L5-Ex:不能(“ancient Egyptian / pyramids / Nile”背景门槛高，能懂故事但难说出词) | L6:勉强(有ancient Egyptian线索，但对低龄可能只记住Egypt，不一定锁定civilization) | 选项:[artifact / civilization / dike / rural] | L7:OK(无敏感点；只是世界史背景偏西方) | L8:不合适(MAP≈197偏超纲；建议后置到先学ancient/country/empire之后)
 - artifact | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artifact / civilization / effigy / hallow] | L7:OK | L8:合适
 - agriculture | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[agriculture / associative / commutative / encore] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
 - industry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[industry / rotation / suburban / urban] | L7:OK | L8:合适
 - technology | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[conductor / flinch / landmark / technology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- governor | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[associative / flout / governor / petition] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- governor | L5-Def:勉强(“state/region”的治理概念对低龄偏抽象；拼写也有负担) | L5-Ex:勉强(知道是“领导/签法律的人”，但未必知道是governor而不是mayor/president) | L6:勉强(例句线索=签法律；但选项里还有petition/flout等，仍可能靠排除法) | 选项:[associative / flout / governor / petition] | L7:注意(美式政治称谓；不敏感但需要解释“州/州长”) | L8:不合适(制度词+文化依赖；更适合后置或换成mayor/principal)
 - justice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[downpour / falter / garner / justice] | L7:OK | L8:合适
 - monument | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[civilization / kilometer / monument / technology] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
 - landmark | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gambit / landmark / monument / technology] | L7:OK | L8:合适
@@ -96,7 +96,7 @@
 - vertical | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[diameter / radius / timeline / vertical] | L7:OK | L8:合适
 - elapsed | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[downpour / elapsed / friction / suburban] | L7:OK | L8:合适
 - commutative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[associative / commutative / inverse / operation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
-- associative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[associative / commutative / flout / governor] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- associative | L5-Def:不能(定义是数学抽象规则；对MAP≈197不友好) | L5-Ex:不能(看到(2+3)+4这种式子也未必能把词和概念绑定) | L6:勉强(括号例子给了线索，但commutative/associative对低龄易混) | 选项:[associative / commutative / flout / governor] | L7:OK(数学语境，不敏感) | L8:不合适(明显超纲；建议先教add/equals/parentheses，再考虑该术语)
 - distributive | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adaptation / congruent / distributive / nutrient] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
 - inverse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capital / commutative / inverse / operation] | L7:OK | L8:合适
 - variable | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: stands,number) | 选项:[composite / multiple / prime / variable] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
@@ -121,7 +121,7 @@
 - spill the beans | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carbon dioxide / don't judge a book by its cover / put all your eggs in one basket / spill the beans] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - raining cats and dogs | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as soon as / go over / raining cats and dogs / so that] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - butterflies in my stomach | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[butterflies in my stomach / go over / hit the books / prior to] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
-- the ball is in your court | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a penny for your thoughts / barking up the wrong tree / come up with / the ball is in your court] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- the ball is in your court | L5-Def:不能(抽象+隐喻；靠直译很难) | L5-Ex:不能(能懂“轮到你决定”，但难产出整句习语) | L6:勉强(例句只有turn/decision线索较弱；四选项里可能靠熟悉度/排除) | 选项:[a penny for your thoughts / barking up the wrong tree / come up with / the ball is in your court] | L7:注意(球类隐喻偏文化；不敏感但可能需要解释) | L8:不合适(MAP≈197偏超纲；建议先教your turn/it's up to you)
 - barking up the wrong tree | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[a penny for your thoughts / barking up the wrong tree / butterflies in my stomach / come up with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - hold your horses | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hold your horses / on the same page / sit on the fence / to put it simply] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - two peas in a pod | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[go the extra mile / on the other hand / two peas in a pod / under the weather] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
@@ -149,7 +149,7 @@
 - a penny for your thoughts | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a penny for your thoughts / barking up the wrong tree / butterflies in my stomach / the ball is in your court] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - actions speak louder than words | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[actions speak louder than words / bite off more than you can chew / don't judge a book by its cover / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - every cloud has a silver lining | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cost an arm and a leg / every cloud has a silver lining / go the extra mile / let the cat out of the bag] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
-- kill two birds with one stone | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a taste of your own medicine / break the ice / carbon dioxide / kill two birds with one stone] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- kill two birds with one stone | L5-Def:不能(抽象+隐喻；长短语记忆负担大) | L5-Ex:不能(能懂“走路=运动+省油”但很难说出该习语) | L6:勉强(例句有two benefits线索，但四选项里仍可能与break the ice等混靠蒙) | 选项:[a taste of your own medicine / break the ice / carbon dioxide / kill two birds with one stone] | L7:注意(含kill/鸟；少部分家长不喜欢字面暴力，可改成do two things at once的例句) | L8:不合适(MAP≈197偏超纲；更适合中高年级作为习语拓展)
 - better late than never | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a blessing in disguise / a taste of your own medicine / better late than never / don't judge a book by its cover] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - practice makes perfect | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry on / every cloud has a silver lining / keep an eye on / practice makes perfect] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - the early bird catches the worm | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry on / first of all / the early bird catches the worm / to begin with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
@@ -169,7 +169,7 @@
 - to summarize | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come up with / cost an arm and a leg / every cloud has a silver lining / to summarize] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - first of all | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[butterflies in my stomach / first of all / go over / once in a blue moon] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - to illustrate | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break the ice / don't judge a book by its cover / get cold feet / to illustrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
-- in brief | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry on / in brief / kill two birds with one stone / two peas in a pod] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- in brief | L5-Def:勉强(“in a few words”能懂，但brief本体偏书面) | L5-Ex:勉强(句首提示明显；但让孩子复述成该短语仍难) | L6:能(句首In ___强提示，且选项里只有in brief是短语) | 选项:[carry on / in brief / kill two birds with one stone / two peas in a pod] | L7:注意(例句含magic stone；少部分家长偏好现实题材，可换成更日常的summary) | L8:勉强(可作为写作连接词认识；更低龄先用shortly/quickly更自然)
 - soon after | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above all / as soon as / run out of / soon after] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
 - not only...but also | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[above all / back to square one / not only...but also / once in a blue moon] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
 - whereas | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[constellation / doldrums / hibernation / whereas] | L7:OK | L8:合适
@@ -195,7 +195,7 @@
 - drone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[agriculture / drone / grueling / thus] | L7:OK | L8:合适
 - droop | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[droop / festoon / garland / pollination] | L7:OK | L8:合适
 - dub | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dote / dub / genteel / gregarious] | L7:OK | L8:合适
-- dugout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dugout / errant / forlorn / foyer] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:合适
+- dugout | L5-Def:能 | L5-Ex:勉强(懂“队员坐着等上场”，但不熟棒球的人可能只当=bench) | L6:能(线索词: baseball players sat in the ___ / waited to bat) | 选项:[dugout / errant / forlorn / foyer] | L7:注意(棒球语境偏美式；不敏感但文化距离大，可换成basketball bench更普适) | L8:勉强(词本身不难，但依赖棒球背景；建议配图/换运动)
 - dungeon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dungeon / elf / ford / vertex] | L7:OK | L8:合适
 - dye | L5-Def:能 | L5-Ex:能 | L6:能(线索词: used,color) | 选项:[barter / drab / dye / gambol] | L7:OK | L8:合适
 - dike | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dike / ford / gram / rural] | L7:OK | L8:合适
@@ -224,7 +224,7 @@
 - entreat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dragnet / entreat / glaze / photosynthesis] | L7:OK | L8:合适
 - epic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dole / dolt / epic / monument] | L7:OK | L8:合适
 - errand | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[errand / fleece / liter / perpendicular] | L7:OK | L8:合适
-- errant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dugout / errant / flinch / perimeter] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:合适
+- errant | L5-Def:能 | L5-Ex:勉强(“wrong way”能懂，但errant较书面，孩子更可能说wild/wrong) | L6:能(线索词: baseball flew over the fence / landed in yard) | 选项:[dugout / errant / flinch / perimeter] | L7:注意(棒球语境偏美式；不敏感但可能需要解释fence/yard) | L8:勉强(词偏书面；可先教wrong/wild，再引入errant)
 - escarpment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[escarpment / gable / mass / polygon] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
 - ethereal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drone / ethereal / finesse / thus] | L7:OK | L8:合适
 - evergreen | L5-Def:勉强(需要中文支架/图示；词偏长、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:green)，易靠语感/蒙) | 选项:[equivalent / evergreen / greenery / whereas] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
@@ -248,14 +248,14 @@
 - flair | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[egress / flair / frantic / symmetry] | L7:OK | L8:合适
 - flak | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dodder / dote / flak / forsake] | L7:OK | L8:合适
 - flank | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enshroud / flank / volcano / weathering] | L7:OK | L8:合适
-- flaw | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[facet / flaw / hamlet / organism] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- flaw | L5-Def:勉强(defect/weakness对低龄略抽象，但可用"small problem"支架) | L5-Ex:勉强(钻石/裂纹/放大镜情境能懂，但vocab: diamond/magnifier有负担) | L6:能(线索词: only ___ / tiny crack / magnifier) | 选项:[facet / flaw / hamlet / organism] | L7:OK | L8:合适(核心义=small problem/defect；建议同步教tiny crack/needs a magnifier作为支撑)
 - fleece | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[errand / fallow / fleece / fowl] | L7:OK | L8:合适
 - flicker | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drab / flicker / fortress / granted] | L7:OK | L8:合适
 - flinch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[errant / flinch / gable / grimace] | L7:OK | L8:合适
 - flotsam | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ship)，易靠语感/蒙) | 选项:[capital / flotsam / froth / tide] | L7:OK | L8:合适
 - flounce | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drab / egress / flounce / frantic] | L7:OK | L8:合适
-- flout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[array / flout / foothold / gallop] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
-- flue | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:smoke)，易靠语感/蒙) | 选项:[flue / foyer / fumigate / garland] | L7:注意(可能引发家长顾虑或需要解释：烟酒毒；建议例句更中性/更普适) | L8:合适
+- flout | L5-Def:勉强(“openly disobey”可懂，但flout偏书面、发音不直观) | L5-Ex:勉强(超速/被警察拦下好理解，但不一定记住flout这个动词) | L6:能(线索词: flouted the speed limit / pulled over) | 选项:[array / flout / foothold / gallop] | L7:OK(交通规则/执法场景中性；不敏感) | L8:勉强(更适合后置到obey/disobey学过之后；可用break the rule过渡)
+- flue | L5-Def:勉强(需要先懂chimney/pipe/escape等概念；对低龄可能陌生) | L5-Ex:勉强(壁炉场景不普遍；但“烟往上走”逻辑清楚) | L6:能(线索词: opened the ___ before lighting the fireplace / smoke would go up) | 选项:[flue / foyer / fumigate / garland] | L7:注意(壁炉/烟囱偏西方居家；不敏感但文化不常见，可换成stove chimney场景) | L8:勉强(生活词但语境偏特定；建议配图或后置)
 - fluent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adaptation / cell / fluent / organism] | L7:OK | L8:合适
 - flurry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eyelet / flurry / metamorphosis / pollution] | L7:OK | L8:合适
 - foothold | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artifact / escarpment / flout / foothold] | L7:OK | L8:合适
@@ -320,4 +320,4 @@
 - gulp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gulp / hibernation / renewable / solar] | L7:OK | L8:合适
 - hackneyed | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ebony / ethereal / facet / hackneyed] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
 - hallow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artifact / gem / hallow / liter] | L7:OK | L8:合适
-- hamlet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flaw / grit / hamlet / organism] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
+- hamlet | L5-Def:能 | L5-Ex:能 | L6:能(线索词: only ten houses / very small village) | 选项:[flaw / grit / hamlet / organism] | L7:注意(例句含church；不一定敏感，但可换成"one shop and a small school"更中性) | L8:合适
