@@ -562,6 +562,10 @@ L2 definition has multiple distinct meanings: "to make the sound or heat lower, 
 L2 definition has multiple distinct meanings: "to agree or to work together with"
 **Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
+### [HIGH] words-level2d.js — "physical" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "about the body; also real and solid, something you can touch"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
 ### [HIGH] words-level2d.js — "reflect" (MULTI_MEANING)
 L2 definition has multiple distinct meanings: "to bounce back light or sound, or to think carefully about something"
 **Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
