@@ -22,7 +22,8 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass",
+      "gate13": "pass"
     },
     "words-level2.js": {
       "totalWords": 552,
