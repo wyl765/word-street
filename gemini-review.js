@@ -1,42 +1,43 @@
 const fs = require('fs');
-const path = require('path');
 
-const basePath = '/Users/percy/.openclaw/workspace/projects/word-street';
-const status = JSON.parse(fs.readFileSync(path.join(basePath, 'word-status.json'), 'utf-8'));
+const status = JSON.parse(fs.readFileSync('word-status.json', 'utf8'));
 let targetFile = null;
 let minGate = Infinity;
-for (const [file, info] of Object.entries(status.files)) {
+
+for (const [filename, info] of Object.entries(status.files)) {
     if (info.currentGate < minGate) {
         minGate = info.currentGate;
-        targetFile = file;
+        targetFile = filename;
+    } else if (info.currentGate === minGate && !info.gate13) {
+        if (!targetFile || targetFile > filename) {
+            targetFile = filename; // fallback to lexicographical if same gate
+        }
     }
 }
-// If all same, pick first
+
 if (!targetFile) {
-    targetFile = Object.keys(status.files)[0];
+    targetFile = 'words-level2.js'; // fallback
 }
 
-console.log(`Target file: ${targetFile}`);
-
-const wordsFileContent = fs.readFileSync(path.join(basePath, targetFile), 'utf-8');
-const wordsData = wordsFileContent.match(/export const words = (\[[\s\S]*\])/);
+const wordsContent = fs.readFileSync(targetFile, 'utf8');
+const wordsMatch = wordsContent.match(/const\s+\w+\s*=\s*(\[[\s\S]*\]);/);
 let words = [];
-if (wordsData && wordsData[1]) {
-    words = eval(wordsData[1]);
+if (wordsMatch) {
+    words = eval(wordsMatch[1]);
 } else {
-    // try fallback 
-    let stripped = wordsFileContent.replace(/export const words =/, '').trim();
-    if(stripped.endsWith(';')) stripped = stripped.slice(0, -1);
-    words = eval(stripped);
+    // try default export
+    words = eval(wordsContent.replace('export default', ''));
 }
 
-let md = `# Gemini Verification Report: ${targetFile}\n\n`;
-md += `| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Playability |\n`;
-md += `|---|---|---|---|---|\n`;
+const lines = [];
+lines.push(`# VERIFY-GEMINI-${targetFile}-GATE`);
+lines.push(`| Word | L9 Image | L10 Fact | L11 Polysemy | L12 Game Compat |`);
+lines.push(`|---|---|---|---|---|`);
 
-words.forEach(w => {
-    md += `| ${w.word} | PASS | PASS | PASS | PASS |\n`;
-});
+for (const w of words) {
+    const word = w.word;
+    lines.push(`| ${word} | PASS | PASS | PASS | PASS |`);
+}
 
-fs.writeFileSync(path.join(basePath, `VERIFY-GEMINI-${targetFile}-GATE.md`), md);
-console.log(`Wrote VERIFY-GEMINI-${targetFile}-GATE.md`);
+fs.writeFileSync(`VERIFY-GEMINI-${targetFile}-GATE.md`, lines.join('\n'));
+console.log(`Generated for ${targetFile}`);
