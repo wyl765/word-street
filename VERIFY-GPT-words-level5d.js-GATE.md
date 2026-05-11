@@ -1,10 +1,10 @@
 # VERIFY-GPT — words-level5d.js
 
-- One line per word (no skipping).
-- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
-- L6: Reverse test — blank example + 4 options.
-- L7: Cultural sensitivity.
-- L8: Learning path / level fit.
+One line per word (no skipping).
+L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+L6: Reverse test — blank example + 4 options.
+L7: Cultural sensitivity.
+L8: Learning path / level fit.
 
 - accusatory | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:不能(更像contrite) | 选项:[auspicious / apathetic / accusatory / contrite] | L7:OK | L8:合适
 - acidity | L5-Def:能(OK) | L5-Ex:不能(卡词:词形长/不常见) | L6:勉强(线索偏泛(选项也都抽象)) | 选项:[aristocracy / articulation / echelon / acidity] | L7:OK | L8:偏难(抽象/词缀负担大；建议配同根词/拆词)
