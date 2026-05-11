@@ -1,604 +1,605 @@
-# Gemini Gate Review - words-level1.js
+# Gemini Review for words-level1.js
+Total words: 600
 
-| Word | Image Search | Fact Check | Meaning | Game Compat |
-|---|---|---|---|---|
-| puppy | OK | OK | OK | OK |
-| kitten | OK | OK | OK | OK |
-| bunny | OK | OK | OK | OK |
-| duckling | OK | OK | OK | OK |
-| chick | OK | OK | OK | OK |
-| lamb | OK | OK | OK | OK |
-| cub | OK | OK | OK | OK |
-| fawn | OK | OK | OK | OK |
-| foal | OK | OK | OK | OK |
-| pony | OK | OK | OK | OK |
-| rooster | OK | OK | OK | OK |
-| hen | OK | OK | OK | OK |
-| goose | OK | OK | OK | OK |
-| swan | OK | OK | OK | OK |
-| owl | OK | OK | OK | OK |
-| robin | OK | OK | OK | OK |
-| sparrow | OK | OK | OK | OK |
-| crow | OK | OK | OK | OK |
-| eagle | OK | OK | OK | OK |
-| whale | OK | OK | OK | OK |
-| dolphin | OK | OK | OK | OK |
-| shark | OK | OK | OK | OK |
-| turtle | OK | OK | OK | OK |
-| lizard | OK | OK | OK | OK |
-| frog | OK | OK | OK | OK |
-| toad | OK | OK | OK | OK |
-| snail | OK | OK | OK | OK |
-| worm | OK | OK | OK | OK |
-| spider | OK | OK | OK | OK |
-| beetle | OK | OK | OK | OK |
-| ladybug | OK | OK | OK | OK |
-| butterfly | OK | OK | OK | OK |
-| caterpillar | OK | OK | OK | OK |
-| ant | OK | OK | OK | OK |
-| bee | OK | OK | OK | OK |
-| squirrel | OK | OK | OK | OK |
-| raccoon | OK | OK | OK | OK |
-| skunk | OK | OK | OK | OK |
-| beaver | OK | OK | OK | OK |
-| moose | OK | OK | OK | OK |
-| toast | OK | OK | OK | OK |
-| cereal | OK | OK | OK | OK |
-| pancake | OK | OK | OK | OK |
-| waffle | OK | OK | OK | OK |
-| oatmeal | OK | OK | OK | OK |
-| sandwich | OK | OK | OK | OK |
-| pretzel | OK | OK | OK | OK |
-| cracker | OK | OK | OK | OK |
-| noodle | OK | OK | OK | OK |
-| muffin | OK | OK | OK | OK |
-| cupcake | OK | OK | OK | OK |
-| cookie | OK | OK | OK | OK |
-| doughnut | OK | OK | OK | OK |
-| pudding | OK | OK | OK | OK |
-| jelly | OK | OK | OK | OK |
-| syrup | OK | OK | OK | OK |
-| honey | OK | OK | OK | OK |
-| popcorn | OK | OK | OK | OK |
-| yogurt | OK | OK | OK | OK |
-| grape | OK | OK | OK | OK |
-| cherry | OK | OK | OK | OK |
-| peach | OK | OK | OK | OK |
-| plum | OK | OK | OK | OK |
-| melon | OK | OK | OK | OK |
-| berry | OK | OK | OK | OK |
-| lemon | OK | OK | OK | OK |
-| coconut | OK | OK | OK | OK |
-| peanut | OK | OK | OK | OK |
-| celery | OK | OK | OK | OK |
-| broccoli | OK | OK | OK | OK |
-| lettuce | OK | OK | OK | OK |
-| pepper | OK | OK | OK | OK |
-| onion | OK | OK | OK | OK |
-| mushroom | OK | OK | OK | OK |
-| stew | OK | OK | OK | OK |
-| gravy | OK | OK | OK | OK |
-| feast | OK | OK | OK | OK |
-| snack | OK | OK | OK | OK |
-| treat | OK | OK | OK | OK |
-| slice | OK | OK | OK | OK |
-| elbow | OK | OK | OK | OK |
-| wrist | OK | OK | OK | OK |
-| ankle | OK | OK | OK | OK |
-| heel | OK | OK | OK | OK |
-| thumb | OK | OK | OK | OK |
-| palm | OK | OK | OK | OK |
-| fist | OK | OK | OK | OK |
-| chin | OK | OK | OK | OK |
-| cheek | OK | OK | OK | OK |
-| forehead | OK | OK | OK | OK |
-| eyebrow | OK | OK | OK | OK |
-| eyelash | OK | OK | OK | OK |
-| tongue | OK | OK | OK | OK |
-| throat | OK | OK | OK | OK |
-| shoulder | OK | OK | OK | OK |
-| hip | OK | OK | OK | OK |
-| spine | OK | OK | OK | OK |
-| rib | OK | OK | OK | OK |
-| skull | OK | OK | OK | OK |
-| muscle | OK | OK | OK | OK |
-| mitten | OK | OK | OK | OK |
-| scarf | OK | OK | OK | OK |
-| hoodie | OK | OK | OK | OK |
-| vest | OK | OK | OK | OK |
-| apron | OK | OK | OK | OK |
-| sleeve | OK | OK | OK | OK |
-| pocket | OK | OK | OK | OK |
-| zipper | OK | OK | OK | OK |
-| button | OK | OK | OK | OK |
-| buckle | OK | OK | OK | OK |
-| lace | OK | OK | OK | OK |
-| slipper | OK | OK | OK | OK |
-| sandal | OK | OK | OK | OK |
-| sneaker | OK | OK | OK | OK |
-| boot | OK | OK | OK | OK |
-| collar | OK | OK | OK | OK |
-| hem | OK | OK | OK | OK |
-| pajamas | OK | OK | OK | OK |
-| costume | OK | OK | OK | OK |
-| uniform | OK | OK | OK | OK |
-| blanket | OK | OK | OK | OK |
-| pillow | OK | OK | OK | OK |
-| towel | OK | OK | OK | OK |
-| soap | OK | OK | OK | OK |
-| sponge | OK | OK | OK | OK |
-| broom | OK | OK | OK | OK |
-| bucket | OK | OK | OK | OK |
-| ladder | OK | OK | OK | OK |
-| drawer | OK | OK | OK | OK |
-| shelf | OK | OK | OK | OK |
-| closet | OK | OK | OK | OK |
-| curtain | OK | OK | OK | OK |
-| rug | OK | OK | OK | OK |
-| lamp | OK | OK | OK | OK |
-| candle | OK | OK | OK | OK |
-| vase | OK | OK | OK | OK |
-| frame | OK | OK | OK | OK |
-| envelope | OK | OK | OK | OK |
-| stamp | OK | OK | OK | OK |
-| package | OK | OK | OK | OK |
-| scissors | OK | OK | OK | OK |
-| glue | OK | OK | OK | OK |
-| tape | OK | OK | OK | OK |
-| crayon | OK | OK | OK | OK |
-| chalk | OK | OK | OK | OK |
-| eraser | OK | OK | OK | OK |
-| ruler | OK | OK | OK | OK |
-| thermometer | OK | OK | OK | OK |
-| battery | OK | OK | OK | OK |
-| switch | OK | OK | OK | OK |
-| barn | OK | OK | OK | OK |
-| stable | OK | OK | OK | OK |
-| cabin | OK | OK | OK | OK |
-| cottage | OK | OK | OK | OK |
-| castle | OK | OK | OK | OK |
-| tower | OK | OK | OK | OK |
-| bridge | OK | OK | OK | OK |
-| tunnel | OK | OK | OK | OK |
-| harbor | OK | OK | OK | OK |
-| island | OK | OK | OK | OK |
-| forest | OK | OK | OK | OK |
-| meadow | OK | OK | OK | OK |
-| pond | OK | OK | OK | OK |
-| stream | OK | OK | OK | OK |
-| cliff | OK | OK | OK | OK |
-| cave | OK | OK | OK | OK |
-| desert | OK | OK | OK | OK |
-| jungle | OK | OK | OK | OK |
-| swamp | OK | OK | OK | OK |
-| valley | OK | OK | OK | OK |
-| storm | OK | OK | OK | OK |
-| thunder | OK | OK | OK | OK |
-| lightning | OK | OK | OK | OK |
-| rainbow | OK | OK | OK | OK |
-| breeze | OK | OK | OK | OK |
-| frost | OK | OK | OK | OK |
-| icicle | OK | OK | OK | OK |
-| puddle | OK | OK | OK | OK |
-| mud | OK | OK | OK | OK |
-| dust | OK | OK | OK | OK |
-| dew | OK | OK | OK | OK |
-| fog | OK | OK | OK | OK |
-| hail | OK | OK | OK | OK |
-| blizzard | OK | OK | OK | OK |
-| drought | OK | OK | OK | OK |
-| flood | OK | OK | OK | OK |
-| petal | OK | OK | OK | OK |
-| stem | OK | OK | OK | OK |
-| root | OK | OK | OK | OK |
-| thorn | OK | OK | OK | OK |
-| vine | OK | OK | OK | OK |
-| moss | OK | OK | OK | OK |
-| acorn | OK | OK | OK | OK |
-| pinecone | OK | OK | OK | OK |
-| seed | OK | OK | OK | OK |
-| crawl | OK | OK | OK | OK |
-| leap | OK | OK | OK | OK |
-| skip | OK | OK | OK | OK |
-| stomp | OK | OK | OK | OK |
-| tiptoe | OK | OK | OK | OK |
-| march | OK | OK | OK | OK |
-| dash | OK | OK | OK | OK |
-| chase | OK | OK | OK | OK |
-| grab | OK | OK | OK | OK |
-| toss | OK | OK | OK | OK |
-| catch | OK | OK | OK | OK |
-| squeeze | OK | OK | OK | OK |
-| stretch | OK | OK | OK | OK |
-| bend | OK | OK | OK | OK |
-| twist | OK | OK | OK | OK |
-| shake | OK | OK | OK | OK |
-| stir | OK | OK | OK | OK |
-| pour | OK | OK | OK | OK |
-| spill | OK | OK | OK | OK |
-| drip | OK | OK | OK | OK |
-| splash | OK | OK | OK | OK |
-| float | OK | OK | OK | OK |
-| sink | OK | OK | OK | OK |
-| melt | OK | OK | OK | OK |
-| freeze | OK | OK | OK | OK |
-| peel | OK | OK | OK | OK |
-| chop | OK | OK | OK | OK |
-| grate | OK | OK | OK | OK |
-| spread | OK | OK | OK | OK |
-| sprinkle | OK | OK | OK | OK |
-| scoop | OK | OK | OK | OK |
-| whisper | OK | OK | OK | OK |
-| shout | OK | OK | OK | OK |
-| giggle | OK | OK | OK | OK |
-| howl | OK | OK | OK | OK |
-| bark | OK | OK | OK | OK |
-| roar | OK | OK | OK | OK |
-| hum | OK | OK | OK | OK |
-| clap | OK | OK | OK | OK |
-| wave | OK | OK | OK | OK |
-| nod | OK | OK | OK | OK |
-| peek | OK | OK | OK | OK |
-| stare | OK | OK | OK | OK |
-| glance | OK | OK | OK | OK |
-| search | OK | OK | OK | OK |
-| discover | OK | OK | OK | OK |
-| notice | OK | OK | OK | OK |
-| wonder | OK | OK | OK | OK |
-| imagine | OK | OK | OK | OK |
-| pretend | OK | OK | OK | OK |
-| promise | OK | OK | OK | OK |
-| remind | OK | OK | OK | OK |
-| forget | OK | OK | OK | OK |
-| belong | OK | OK | OK | OK |
-| share | OK | OK | OK | OK |
-| trade | OK | OK | OK | OK |
-| borrow | OK | OK | OK | OK |
-| lend | OK | OK | OK | OK |
-| gather | OK | OK | OK | OK |
-| collect | OK | OK | OK | OK |
-| stack | OK | OK | OK | OK |
-| wrap | OK | OK | OK | OK |
-| unwrap | OK | OK | OK | OK |
-| tug | OK | OK | OK | OK |
-| drag | OK | OK | OK | OK |
-| shove | OK | OK | OK | OK |
-| tuck | OK | OK | OK | OK |
-| hang | OK | OK | OK | OK |
-| fasten | OK | OK | OK | OK |
-| attach | OK | OK | OK | OK |
-| repair | OK | OK | OK | OK |
-| create | OK | OK | OK | OK |
-| design | OK | OK | OK | OK |
-| measure | OK | OK | OK | OK |
-| weigh | OK | OK | OK | OK |
-| count | OK | OK | OK | OK |
-| sort | OK | OK | OK | OK |
-| match | OK | OK | OK | OK |
-| deliver | OK | OK | OK | OK |
-| fetch | OK | OK | OK | OK |
-| vanish | OK | OK | OK | OK |
-| tiny | OK | OK | OK | OK |
-| huge | OK | OK | OK | OK |
-| enormous | OK | OK | OK | OK |
-| narrow | OK | OK | OK | OK |
-| wide | OK | OK | OK | OK |
-| steep | OK | OK | OK | OK |
-| shallow | OK | OK | OK | OK |
-| deep | OK | OK | OK | OK |
-| thick | OK | OK | OK | OK |
-| thin | OK | OK | OK | OK |
-| smooth | OK | OK | OK | OK |
-| rough | OK | OK | OK | OK |
-| sharp | OK | OK | OK | OK |
-| dull | OK | OK | OK | OK |
-| shiny | OK | OK | OK | OK |
-| damp | OK | OK | OK | OK |
-| soaking | OK | OK | OK | OK |
-| dry | OK | OK | OK | OK |
-| sticky | OK | OK | OK | OK |
-| slimy | OK | OK | OK | OK |
-| fluffy | OK | OK | OK | OK |
-| fuzzy | OK | OK | OK | OK |
-| cozy | OK | OK | OK | OK |
-| chilly | OK | OK | OK | OK |
-| freezing | OK | OK | OK | OK |
-| boiling | OK | OK | OK | OK |
-| warm | OK | OK | OK | OK |
-| fierce | OK | OK | OK | OK |
-| gentle | OK | OK | OK | OK |
-| brave | OK | OK | OK | OK |
-| shy | OK | OK | OK | OK |
-| proud | OK | OK | OK | OK |
-| curious | OK | OK | OK | OK |
-| grumpy | OK | OK | OK | OK |
-| cheerful | OK | OK | OK | OK |
-| lonely | OK | OK | OK | OK |
-| calm | OK | OK | OK | OK |
-| wild | OK | OK | OK | OK |
-| tame | OK | OK | OK | OK |
-| plain | OK | OK | OK | OK |
-| fancy | OK | OK | OK | OK |
-| ripe | OK | OK | OK | OK |
-| rotten | OK | OK | OK | OK |
-| fresh | OK | OK | OK | OK |
-| stale | OK | OK | OK | OK |
-| bitter | OK | OK | OK | OK |
-| sour | OK | OK | OK | OK |
-| salty | OK | OK | OK | OK |
-| juicy | OK | OK | OK | OK |
-| crunchy | OK | OK | OK | OK |
-| creamy | OK | OK | OK | OK |
-| silent | OK | OK | OK | OK |
-| loud | OK | OK | OK | OK |
-| hollow | OK | OK | OK | OK |
-| solid | OK | OK | OK | OK |
-| loose | OK | OK | OK | OK |
-| tight | OK | OK | OK | OK |
-| crooked | OK | OK | OK | OK |
-| straight | OK | OK | OK | OK |
-| crowded | OK | OK | OK | OK |
-| empty | OK | OK | OK | OK |
-| whole | OK | OK | OK | OK |
-| spare | OK | OK | OK | OK |
-| certain | OK | OK | OK | OK |
-| strange | OK | OK | OK | OK |
-| wonderful | OK | OK | OK | OK |
-| terrible | OK | OK | OK | OK |
-| perfect | OK | OK | OK | OK |
-| ugly | OK | OK | OK | OK |
-| beautiful | OK | OK | OK | OK |
-| clever | OK | OK | OK | OK |
-| foolish | OK | OK | OK | OK |
-| greedy | OK | OK | OK | OK |
-| generous | OK | OK | OK | OK |
-| patient | OK | OK | OK | OK |
-| stubborn | OK | OK | OK | OK |
-| lazy | OK | OK | OK | OK |
-| busy | OK | OK | OK | OK |
-| clumsy | OK | OK | OK | OK |
-| graceful | OK | OK | OK | OK |
-| quickly | OK | OK | OK | OK |
-| slowly | OK | OK | OK | OK |
-| quietly | OK | OK | OK | OK |
-| loudly | OK | OK | OK | OK |
-| gently | OK | OK | OK | OK |
-| suddenly | OK | OK | OK | OK |
-| already | OK | OK | OK | OK |
-| almost | OK | OK | OK | OK |
-| barely | OK | OK | OK | OK |
-| perhaps | OK | OK | OK | OK |
-| exactly | OK | OK | OK | OK |
-| instead | OK | OK | OK | OK |
-| anyway | OK | OK | OK | OK |
-| forever | OK | OK | OK | OK |
-| apart | OK | OK | OK | OK |
-| together | OK | OK | OK | OK |
-| forward | OK | OK | OK | OK |
-| backward | OK | OK | OK | OK |
-| sideways | OK | OK | OK | OK |
-| beneath | OK | OK | OK | OK |
-| above | OK | OK | OK | OK |
-| below | OK | OK | OK | OK |
-| beside | OK | OK | OK | OK |
-| between | OK | OK | OK | OK |
-| among | OK | OK | OK | OK |
-| toward | OK | OK | OK | OK |
-| against | OK | OK | OK | OK |
-| through | OK | OK | OK | OK |
-| across | OK | OK | OK | OK |
-| along | OK | OK | OK | OK |
-| around | OK | OK | OK | OK |
-| beyond | OK | OK | OK | OK |
-| during | OK | OK | OK | OK |
-| until | OK | OK | OK | OK |
-| since | OK | OK | OK | OK |
-| whether | OK | OK | OK | OK |
-| while | OK | OK | OK | OK |
-| besides | OK | OK | OK | OK |
-| within | OK | OK | OK | OK |
-| without | OK | OK | OK | OK |
-| throughout | OK | OK | OK | OK |
-| upon | OK | OK | OK | OK |
-| pick up | OK | OK | OK | OK |
-| put down | OK | OK | OK | OK |
-| look at | OK | OK | OK | OK |
-| come back | OK | OK | OK | OK |
-| sit down | OK | OK | OK | OK |
-| stand up | OK | OK | OK | OK |
-| wake up | OK | OK | OK | OK |
-| give up | OK | OK | OK | OK |
-| find out | OK | OK | OK | OK |
-| turn off | OK | OK | OK | OK |
-| turn on | OK | OK | OK | OK |
-| fall down | OK | OK | OK | OK |
-| get up | OK | OK | OK | OK |
-| look out | OK | OK | OK | OK |
-| hold on | OK | OK | OK | OK |
-| clean up | OK | OK | OK | OK |
-| hurry up | OK | OK | OK | OK |
-| calm down | OK | OK | OK | OK |
-| try on | OK | OK | OK | OK |
-| throw away | OK | OK | OK | OK |
-| run out | OK | OK | OK | OK |
-| come in | OK | OK | OK | OK |
-| go away | OK | OK | OK | OK |
-| show off | OK | OK | OK | OK |
-| figure out | OK | OK | OK | OK |
-| excited | OK | OK | OK | OK |
-| nervous | OK | OK | OK | OK |
-| frightened | OK | OK | OK | OK |
-| surprised | OK | OK | OK | OK |
-| confused | OK | OK | OK | OK |
-| disappointed | OK | OK | OK | OK |
-| frustrated | OK | OK | OK | OK |
-| jealous | OK | OK | OK | OK |
-| embarrassed | OK | OK | OK | OK |
-| worried | OK | OK | OK | OK |
-| grateful | OK | OK | OK | OK |
-| annoyed | OK | OK | OK | OK |
-| bored | OK | OK | OK | OK |
-| amazed | OK | OK | OK | OK |
-| terrified | OK | OK | OK | OK |
-| furious | OK | OK | OK | OK |
-| miserable | OK | OK | OK | OK |
-| relieved | OK | OK | OK | OK |
-| peaceful | OK | OK | OK | OK |
-| comfortable | OK | OK | OK | OK |
-| uncomfortable | OK | OK | OK | OK |
-| exhausted | OK | OK | OK | OK |
-| delighted | OK | OK | OK | OK |
-| gloomy | OK | OK | OK | OK |
-| hopeful | OK | OK | OK | OK |
-| cranky | OK | OK | OK | OK |
-| content | OK | OK | OK | OK |
-| eager | OK | OK | OK | OK |
-| homesick | OK | OK | OK | OK |
-| ashamed | OK | OK | OK | OK |
-| before | OK | OK | OK | OK |
-| after | OK | OK | OK | OK |
-| next | OK | OK | OK | OK |
-| then | OK | OK | OK | OK |
-| finally | OK | OK | OK | OK |
-| meanwhile | OK | OK | OK | OK |
-| soon | OK | OK | OK | OK |
-| later | OK | OK | OK | OK |
-| early | OK | OK | OK | OK |
-| late | OK | OK | OK | OK |
-| beginning | OK | OK | OK | OK |
-| middle | OK | OK | OK | OK |
-| ending | OK | OK | OK | OK |
-| moment | OK | OK | OK | OK |
-| sudden | OK | OK | OK | OK |
-| recent | OK | OK | OK | OK |
-| daily | OK | OK | OK | OK |
-| weekly | OK | OK | OK | OK |
-| whenever | OK | OK | OK | OK |
-| once | OK | OK | OK | OK |
-| twice | OK | OK | OK | OK |
-| often | OK | OK | OK | OK |
-| nowadays | OK | OK | OK | OK |
-| dozen | OK | OK | OK | OK |
-| half | OK | OK | OK | OK |
-| pair | OK | OK | OK | OK |
-| entire | OK | OK | OK | OK |
-| double | OK | OK | OK | OK |
-| single | OK | OK | OK | OK |
-| plenty | OK | OK | OK | OK |
-| several | OK | OK | OK | OK |
-| few | OK | OK | OK | OK |
-| many | OK | OK | OK | OK |
-| none | OK | OK | OK | OK |
-| bunch | OK | OK | OK | OK |
-| pile | OK | OK | OK | OK |
-| heap | OK | OK | OK | OK |
-| piece | OK | OK | OK | OK |
-| portion | OK | OK | OK | OK |
-| amount | OK | OK | OK | OK |
-| total | OK | OK | OK | OK |
-| extra | OK | OK | OK | OK |
-| enough | OK | OK | OK | OK |
-| less | OK | OK | OK | OK |
-| more | OK | OK | OK | OK |
-| quarter | OK | OK | OK | OK |
-| equal | OK | OK | OK | OK |
-| average | OK | OK | OK | OK |
-| shadow | OK | OK | OK | OK |
-| echo | OK | OK | OK | OK |
-| secret | OK | OK | OK | OK |
-| surprise | OK | OK | OK | OK |
-| mistake | OK | OK | OK | OK |
-| adventure | OK | OK | OK | OK |
-| treasure | OK | OK | OK | OK |
-| journey | OK | OK | OK | OK |
-| village | OK | OK | OK | OK |
-| dock | OK | OK | OK | OK |
-| crowd | OK | OK | OK | OK |
-| trail | OK | OK | OK | OK |
-| footprint | OK | OK | OK | OK |
-| pattern | OK | OK | OK | OK |
-| riddle | OK | OK | OK | OK |
-| poem | OK | OK | OK | OK |
-| tale | OK | OK | OK | OK |
-| legend | OK | OK | OK | OK |
-| character | OK | OK | OK | OK |
-| chapter | OK | OK | OK | OK |
-| title | OK | OK | OK | OK |
-| author | OK | OK | OK | OK |
-| paw | OK | OK | OK | OK |
-| claw | OK | OK | OK | OK |
-| feather | OK | OK | OK | OK |
-| fur | OK | OK | OK | OK |
-| scale | OK | OK | OK | OK |
-| wing | OK | OK | OK | OK |
-| beak | OK | OK | OK | OK |
-| nest | OK | OK | OK | OK |
-| hive | OK | OK | OK | OK |
-| den | OK | OK | OK | OK |
-| burrow | OK | OK | OK | OK |
-| trap | OK | OK | OK | OK |
-| leash | OK | OK | OK | OK |
-| tag | OK | OK | OK | OK |
-| whisker | OK | OK | OK | OK |
-| tail | OK | OK | OK | OK |
-| hoof | OK | OK | OK | OK |
-| mane | OK | OK | OK | OK |
-| flock | OK | OK | OK | OK |
-| herd | OK | OK | OK | OK |
-| pack | OK | OK | OK | OK |
-| droplet | OK | OK | OK | OK |
-| ripple | OK | OK | OK | OK |
-| bubble | OK | OK | OK | OK |
-| flame | OK | OK | OK | OK |
-| spark | OK | OK | OK | OK |
-| smoke | OK | OK | OK | OK |
-| ash | OK | OK | OK | OK |
-| dawn | OK | OK | OK | OK |
-| dusk | OK | OK | OK | OK |
-| midnight | OK | OK | OK | OK |
-| noon | OK | OK | OK | OK |
-| passenger | OK | OK | OK | OK |
-| neighbor | OK | OK | OK | OK |
-| stranger | OK | OK | OK | OK |
-| parade | OK | OK | OK | OK |
-| audience | OK | OK | OK | OK |
-| crew | OK | OK | OK | OK |
-| coach | OK | OK | OK | OK |
-| chef | OK | OK | OK | OK |
-| mayor | OK | OK | OK | OK |
-| inventor | OK | OK | OK | OK |
-| princess | OK | OK | OK | OK |
-| knight | OK | OK | OK | OK |
-| wizard | OK | OK | OK | OK |
-| giant | OK | OK | OK | OK |
-| dwarf | OK | OK | OK | OK |
-| monster | OK | OK | OK | OK |
-| dragon | OK | OK | OK | OK |
-| fairy | OK | OK | OK | OK |
-| shield | OK | OK | OK | OK |
-| sword | OK | OK | OK | OK |
-| wand | OK | OK | OK | OK |
-| throne | OK | OK | OK | OK |
-| crown | OK | OK | OK | OK |
-| wobble | OK | OK | OK | OK |
-| tumble | OK | OK | OK | OK |
-| snuggle | OK | OK | OK | OK |
-| nibble | OK | OK | OK | OK |
-| snore | OK | OK | OK | OK |
-| yawn | OK | OK | OK | OK |
-| shiver | OK | OK | OK | OK |
-| bloom | OK | OK | OK | OK |
-| sprout | OK | OK | OK | OK |
-| wilt | OK | OK | OK | OK |
-| scattered | OK | OK | OK | OK |
-| rascal | OK | OK | OK | OK |
-| gigantic | OK | OK | OK | OK |
-| itsy | OK | OK | OK | OK |
-| whirl | OK | OK | OK | OK |
-| sparkle | OK | OK | OK | OK |
-| flutter | OK | OK | OK | OK |
-| hear | OK | OK | OK | OK |
-| lose | OK | OK | OK | OK |
-| teach | OK | OK | OK | OK |
-| take | OK | OK | OK | OK |
-| than | OK | OK | OK | OK |
+| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Games | Result |
+|---|---|---|---|---|---|
+| **puppy** | PASS | PASS | PASS | PASS | OK |
+| **kitten** | PASS | PASS | PASS | PASS | OK |
+| **bunny** | PASS | PASS | PASS | PASS | OK |
+| **duckling** | PASS | PASS | PASS | PASS | OK |
+| **chick** | PASS | PASS | PASS | PASS | OK |
+| **lamb** | PASS | PASS | PASS | PASS | OK |
+| **cub** | PASS | PASS | PASS | PASS | OK |
+| **fawn** | PASS | PASS | PASS | PASS | OK |
+| **foal** | PASS | PASS | PASS | PASS | OK |
+| **pony** | PASS | PASS | PASS | PASS | OK |
+| **rooster** | PASS | PASS | PASS | PASS | OK |
+| **hen** | PASS | PASS | PASS | PASS | OK |
+| **goose** | PASS | PASS | PASS | PASS | OK |
+| **swan** | PASS | PASS | PASS | PASS | OK |
+| **owl** | PASS | PASS | PASS | PASS | OK |
+| **robin** | PASS | PASS | PASS | PASS | OK |
+| **sparrow** | PASS | PASS | PASS | PASS | OK |
+| **crow** | PASS | PASS | PASS | PASS | OK |
+| **eagle** | PASS | PASS | PASS | PASS | OK |
+| **whale** | PASS | PASS | PASS | PASS | OK |
+| **dolphin** | PASS | PASS | PASS | PASS | OK |
+| **shark** | PASS | PASS | PASS | PASS | OK |
+| **turtle** | PASS | PASS | PASS | PASS | OK |
+| **lizard** | PASS | PASS | PASS | PASS | OK |
+| **frog** | PASS | PASS | PASS | PASS | OK |
+| **toad** | PASS | PASS | PASS | PASS | OK |
+| **snail** | PASS | PASS | PASS | PASS | OK |
+| **worm** | PASS | PASS | PASS | PASS | OK |
+| **spider** | PASS | PASS | PASS | PASS | OK |
+| **beetle** | PASS | PASS | PASS | PASS | OK |
+| **ladybug** | PASS | PASS | PASS | PASS | OK |
+| **butterfly** | PASS | PASS | PASS | PASS | OK |
+| **caterpillar** | PASS | PASS | PASS | PASS | OK |
+| **ant** | PASS | PASS | PASS | PASS | OK |
+| **bee** | PASS | PASS | PASS | PASS | OK |
+| **squirrel** | PASS | PASS | PASS | PASS | OK |
+| **raccoon** | PASS | PASS | PASS | PASS | OK |
+| **skunk** | PASS | PASS | PASS | PASS | OK |
+| **beaver** | PASS | PASS | PASS | PASS | OK |
+| **moose** | PASS | PASS | PASS | PASS | OK |
+| **toast** | PASS | PASS | PASS | PASS | OK |
+| **cereal** | PASS | PASS | PASS | PASS | OK |
+| **pancake** | PASS | PASS | PASS | PASS | OK |
+| **waffle** | PASS | PASS | PASS | PASS | OK |
+| **oatmeal** | PASS | PASS | PASS | PASS | OK |
+| **sandwich** | PASS | PASS | PASS | PASS | OK |
+| **pretzel** | PASS | PASS | PASS | PASS | OK |
+| **cracker** | PASS | PASS | PASS | PASS | OK |
+| **noodle** | PASS | PASS | PASS | PASS | OK |
+| **muffin** | PASS | PASS | PASS | PASS | OK |
+| **cupcake** | PASS | PASS | PASS | PASS | OK |
+| **cookie** | PASS | PASS | PASS | PASS | OK |
+| **doughnut** | PASS | PASS | PASS | PASS | OK |
+| **pudding** | PASS | PASS | PASS | PASS | OK |
+| **jelly** | PASS | PASS | PASS | PASS | OK |
+| **syrup** | PASS | PASS | PASS | PASS | OK |
+| **honey** | PASS | PASS | PASS | PASS | OK |
+| **popcorn** | PASS | PASS | PASS | PASS | OK |
+| **yogurt** | PASS | PASS | PASS | PASS | OK |
+| **grape** | PASS | PASS | PASS | PASS | OK |
+| **cherry** | PASS | PASS | PASS | PASS | OK |
+| **peach** | PASS | PASS | PASS | PASS | OK |
+| **plum** | PASS | PASS | PASS | PASS | OK |
+| **melon** | PASS | PASS | PASS | PASS | OK |
+| **berry** | PASS | PASS | PASS | PASS | OK |
+| **lemon** | PASS | PASS | PASS | PASS | OK |
+| **coconut** | PASS | PASS | PASS | PASS | OK |
+| **peanut** | PASS | PASS | PASS | PASS | OK |
+| **celery** | PASS | PASS | PASS | PASS | OK |
+| **broccoli** | PASS | PASS | PASS | PASS | OK |
+| **lettuce** | PASS | PASS | PASS | PASS | OK |
+| **pepper** | PASS | PASS | PASS | PASS | OK |
+| **onion** | PASS | PASS | PASS | PASS | OK |
+| **mushroom** | PASS | PASS | PASS | PASS | OK |
+| **stew** | PASS | PASS | PASS | PASS | OK |
+| **gravy** | PASS | PASS | PASS | PASS | OK |
+| **feast** | PASS | PASS | PASS | PASS | OK |
+| **snack** | PASS | PASS | PASS | PASS | OK |
+| **treat** | PASS | PASS | PASS | PASS | OK |
+| **slice** | PASS | PASS | PASS | PASS | OK |
+| **elbow** | PASS | PASS | PASS | PASS | OK |
+| **wrist** | PASS | PASS | PASS | PASS | OK |
+| **ankle** | PASS | PASS | PASS | PASS | OK |
+| **heel** | PASS | PASS | PASS | PASS | OK |
+| **thumb** | PASS | PASS | PASS | PASS | OK |
+| **palm** | PASS | PASS | PASS | PASS | OK |
+| **fist** | PASS | PASS | PASS | PASS | OK |
+| **chin** | PASS | PASS | PASS | PASS | OK |
+| **cheek** | PASS | PASS | PASS | PASS | OK |
+| **forehead** | PASS | PASS | PASS | PASS | OK |
+| **eyebrow** | PASS | PASS | PASS | PASS | OK |
+| **eyelash** | PASS | PASS | PASS | PASS | OK |
+| **tongue** | PASS | PASS | PASS | PASS | OK |
+| **throat** | PASS | PASS | PASS | PASS | OK |
+| **shoulder** | PASS | PASS | PASS | PASS | OK |
+| **hip** | PASS | PASS | PASS | PASS | OK |
+| **spine** | PASS | PASS | PASS | PASS | OK |
+| **rib** | PASS | PASS | PASS | PASS | OK |
+| **skull** | PASS | PASS | PASS | PASS | OK |
+| **muscle** | PASS | PASS | PASS | PASS | OK |
+| **mitten** | PASS | PASS | PASS | PASS | OK |
+| **scarf** | PASS | PASS | PASS | PASS | OK |
+| **hoodie** | PASS | PASS | PASS | PASS | OK |
+| **vest** | PASS | PASS | PASS | PASS | OK |
+| **apron** | PASS | PASS | PASS | PASS | OK |
+| **sleeve** | PASS | PASS | PASS | PASS | OK |
+| **pocket** | PASS | PASS | PASS | PASS | OK |
+| **zipper** | PASS | PASS | PASS | PASS | OK |
+| **button** | PASS | PASS | PASS | PASS | OK |
+| **buckle** | PASS | PASS | PASS | PASS | OK |
+| **lace** | PASS | PASS | PASS | PASS | OK |
+| **slipper** | PASS | PASS | PASS | PASS | OK |
+| **sandal** | PASS | PASS | PASS | PASS | OK |
+| **sneaker** | PASS | PASS | PASS | PASS | OK |
+| **boot** | PASS | PASS | PASS | PASS | OK |
+| **collar** | PASS | PASS | PASS | PASS | OK |
+| **hem** | PASS | PASS | PASS | PASS | OK |
+| **pajamas** | PASS | PASS | PASS | PASS | OK |
+| **costume** | PASS | PASS | PASS | PASS | OK |
+| **uniform** | PASS | PASS | PASS | PASS | OK |
+| **blanket** | PASS | PASS | PASS | PASS | OK |
+| **pillow** | PASS | PASS | PASS | PASS | OK |
+| **towel** | PASS | PASS | PASS | PASS | OK |
+| **soap** | PASS | PASS | PASS | PASS | OK |
+| **sponge** | PASS | PASS | PASS | PASS | OK |
+| **broom** | PASS | PASS | PASS | PASS | OK |
+| **bucket** | PASS | PASS | PASS | PASS | OK |
+| **ladder** | PASS | PASS | PASS | PASS | OK |
+| **drawer** | PASS | PASS | PASS | PASS | OK |
+| **shelf** | PASS | PASS | PASS | PASS | OK |
+| **closet** | PASS | PASS | PASS | PASS | OK |
+| **curtain** | PASS | PASS | PASS | PASS | OK |
+| **rug** | PASS | PASS | PASS | PASS | OK |
+| **lamp** | PASS | PASS | PASS | PASS | OK |
+| **candle** | PASS | PASS | PASS | PASS | OK |
+| **vase** | PASS | PASS | PASS | PASS | OK |
+| **frame** | PASS | PASS | PASS | PASS | OK |
+| **envelope** | PASS | PASS | PASS | PASS | OK |
+| **stamp** | PASS | PASS | PASS | PASS | OK |
+| **package** | PASS | PASS | PASS | PASS | OK |
+| **scissors** | PASS | PASS | PASS | PASS | OK |
+| **glue** | PASS | PASS | PASS | PASS | OK |
+| **tape** | PASS | PASS | PASS | PASS | OK |
+| **crayon** | PASS | PASS | PASS | PASS | OK |
+| **chalk** | PASS | PASS | PASS | PASS | OK |
+| **eraser** | PASS | PASS | PASS | PASS | OK |
+| **ruler** | PASS | PASS | PASS | PASS | OK |
+| **thermometer** | PASS | PASS | PASS | PASS | OK |
+| **battery** | PASS | PASS | PASS | PASS | OK |
+| **switch** | PASS | PASS | PASS | PASS | OK |
+| **barn** | PASS | PASS | PASS | PASS | OK |
+| **stable** | PASS | PASS | PASS | PASS | OK |
+| **cabin** | PASS | PASS | PASS | PASS | OK |
+| **cottage** | PASS | PASS | PASS | PASS | OK |
+| **castle** | PASS | PASS | PASS | PASS | OK |
+| **tower** | PASS | PASS | PASS | PASS | OK |
+| **bridge** | PASS | PASS | PASS | PASS | OK |
+| **tunnel** | PASS | PASS | PASS | PASS | OK |
+| **harbor** | PASS | PASS | PASS | PASS | OK |
+| **island** | PASS | PASS | PASS | PASS | OK |
+| **forest** | PASS | PASS | PASS | PASS | OK |
+| **meadow** | PASS | PASS | PASS | PASS | OK |
+| **pond** | PASS | PASS | PASS | PASS | OK |
+| **stream** | PASS | PASS | PASS | PASS | OK |
+| **cliff** | PASS | PASS | PASS | PASS | OK |
+| **cave** | PASS | PASS | PASS | PASS | OK |
+| **desert** | PASS | PASS | PASS | PASS | OK |
+| **jungle** | PASS | PASS | PASS | PASS | OK |
+| **swamp** | PASS | PASS | PASS | PASS | OK |
+| **valley** | PASS | PASS | PASS | PASS | OK |
+| **storm** | PASS | PASS | PASS | PASS | OK |
+| **thunder** | PASS | PASS | PASS | PASS | OK |
+| **lightning** | PASS | PASS | PASS | PASS | OK |
+| **rainbow** | PASS | PASS | PASS | PASS | OK |
+| **breeze** | PASS | PASS | PASS | PASS | OK |
+| **frost** | PASS | PASS | PASS | PASS | OK |
+| **icicle** | PASS | PASS | PASS | PASS | OK |
+| **puddle** | PASS | PASS | PASS | PASS | OK |
+| **mud** | PASS | PASS | PASS | PASS | OK |
+| **dust** | PASS | PASS | PASS | PASS | OK |
+| **dew** | PASS | PASS | PASS | PASS | OK |
+| **fog** | PASS | PASS | PASS | PASS | OK |
+| **hail** | PASS | PASS | PASS | PASS | OK |
+| **blizzard** | PASS | PASS | PASS | PASS | OK |
+| **drought** | PASS | PASS | PASS | PASS | OK |
+| **flood** | PASS | PASS | PASS | PASS | OK |
+| **petal** | PASS | PASS | PASS | PASS | OK |
+| **stem** | PASS | PASS | PASS | PASS | OK |
+| **root** | PASS | PASS | PASS | PASS | OK |
+| **thorn** | PASS | PASS | PASS | PASS | OK |
+| **vine** | PASS | PASS | PASS | PASS | OK |
+| **moss** | PASS | PASS | PASS | PASS | OK |
+| **acorn** | PASS | PASS | PASS | PASS | OK |
+| **pinecone** | PASS | PASS | PASS | PASS | OK |
+| **seed** | PASS | PASS | PASS | PASS | OK |
+| **crawl** | PASS | PASS | PASS | PASS | OK |
+| **leap** | PASS | PASS | PASS | PASS | OK |
+| **skip** | PASS | PASS | PASS | PASS | OK |
+| **stomp** | PASS | PASS | PASS | PASS | OK |
+| **tiptoe** | PASS | PASS | PASS | PASS | OK |
+| **march** | PASS | PASS | PASS | PASS | OK |
+| **dash** | PASS | PASS | PASS | PASS | OK |
+| **chase** | PASS | PASS | PASS | PASS | OK |
+| **grab** | PASS | PASS | PASS | PASS | OK |
+| **toss** | PASS | PASS | PASS | PASS | OK |
+| **catch** | PASS | PASS | PASS | PASS | OK |
+| **squeeze** | PASS | PASS | PASS | PASS | OK |
+| **stretch** | PASS | PASS | PASS | PASS | OK |
+| **bend** | PASS | PASS | PASS | PASS | OK |
+| **twist** | PASS | PASS | PASS | PASS | OK |
+| **shake** | PASS | PASS | PASS | PASS | OK |
+| **stir** | PASS | PASS | PASS | PASS | OK |
+| **pour** | PASS | PASS | PASS | PASS | OK |
+| **spill** | PASS | PASS | PASS | PASS | OK |
+| **drip** | PASS | PASS | PASS | PASS | OK |
+| **splash** | PASS | PASS | PASS | PASS | OK |
+| **float** | PASS | PASS | PASS | PASS | OK |
+| **sink** | PASS | PASS | PASS | PASS | OK |
+| **melt** | PASS | PASS | PASS | PASS | OK |
+| **freeze** | PASS | PASS | PASS | PASS | OK |
+| **peel** | PASS | PASS | PASS | PASS | OK |
+| **chop** | PASS | PASS | PASS | PASS | OK |
+| **grate** | PASS | PASS | PASS | PASS | OK |
+| **spread** | PASS | PASS | PASS | PASS | OK |
+| **sprinkle** | PASS | PASS | PASS | PASS | OK |
+| **scoop** | PASS | PASS | PASS | PASS | OK |
+| **whisper** | PASS | PASS | PASS | PASS | OK |
+| **shout** | PASS | PASS | PASS | PASS | OK |
+| **giggle** | PASS | PASS | PASS | PASS | OK |
+| **howl** | PASS | PASS | PASS | PASS | OK |
+| **bark** | PASS | PASS | PASS | PASS | OK |
+| **roar** | PASS | PASS | PASS | PASS | OK |
+| **hum** | PASS | PASS | PASS | PASS | OK |
+| **clap** | PASS | PASS | PASS | PASS | OK |
+| **wave** | PASS | PASS | PASS | PASS | OK |
+| **nod** | PASS | PASS | PASS | PASS | OK |
+| **peek** | PASS | PASS | PASS | PASS | OK |
+| **stare** | PASS | PASS | PASS | FAIL | CHECK |
+| **glance** | PASS | PASS | PASS | PASS | OK |
+| **search** | PASS | PASS | PASS | PASS | OK |
+| **discover** | PASS | PASS | PASS | PASS | OK |
+| **notice** | PASS | PASS | PASS | PASS | OK |
+| **wonder** | PASS | PASS | PASS | PASS | OK |
+| **imagine** | PASS | PASS | PASS | PASS | OK |
+| **pretend** | PASS | PASS | PASS | PASS | OK |
+| **promise** | PASS | PASS | PASS | PASS | OK |
+| **remind** | PASS | PASS | PASS | PASS | OK |
+| **forget** | PASS | PASS | PASS | PASS | OK |
+| **belong** | PASS | PASS | PASS | PASS | OK |
+| **share** | PASS | PASS | PASS | PASS | OK |
+| **trade** | PASS | PASS | PASS | PASS | OK |
+| **borrow** | PASS | PASS | PASS | PASS | OK |
+| **lend** | PASS | PASS | PASS | PASS | OK |
+| **gather** | PASS | PASS | PASS | PASS | OK |
+| **collect** | PASS | PASS | PASS | PASS | OK |
+| **stack** | PASS | PASS | PASS | PASS | OK |
+| **wrap** | PASS | PASS | PASS | PASS | OK |
+| **unwrap** | PASS | PASS | PASS | PASS | OK |
+| **tug** | PASS | PASS | PASS | PASS | OK |
+| **drag** | PASS | PASS | PASS | PASS | OK |
+| **shove** | PASS | PASS | PASS | PASS | OK |
+| **tuck** | PASS | PASS | PASS | PASS | OK |
+| **hang** | PASS | PASS | PASS | PASS | OK |
+| **fasten** | PASS | PASS | PASS | PASS | OK |
+| **attach** | PASS | PASS | PASS | PASS | OK |
+| **repair** | PASS | PASS | PASS | PASS | OK |
+| **create** | PASS | PASS | PASS | PASS | OK |
+| **design** | PASS | PASS | PASS | PASS | OK |
+| **measure** | PASS | PASS | PASS | PASS | OK |
+| **weigh** | PASS | PASS | PASS | PASS | OK |
+| **count** | PASS | PASS | PASS | PASS | OK |
+| **sort** | PASS | PASS | PASS | PASS | OK |
+| **match** | PASS | PASS | PASS | PASS | OK |
+| **deliver** | PASS | PASS | PASS | PASS | OK |
+| **fetch** | PASS | PASS | PASS | PASS | OK |
+| **vanish** | PASS | PASS | PASS | PASS | OK |
+| **tiny** | PASS | PASS | PASS | PASS | OK |
+| **huge** | PASS | PASS | PASS | PASS | OK |
+| **enormous** | PASS | PASS | PASS | PASS | OK |
+| **narrow** | PASS | PASS | PASS | PASS | OK |
+| **wide** | PASS | PASS | PASS | PASS | OK |
+| **steep** | PASS | PASS | PASS | PASS | OK |
+| **shallow** | PASS | PASS | PASS | PASS | OK |
+| **deep** | PASS | PASS | PASS | PASS | OK |
+| **thick** | PASS | PASS | PASS | PASS | OK |
+| **thin** | PASS | PASS | PASS | PASS | OK |
+| **smooth** | PASS | PASS | PASS | PASS | OK |
+| **rough** | PASS | PASS | PASS | PASS | OK |
+| **sharp** | PASS | PASS | PASS | PASS | OK |
+| **dull** | PASS | PASS | PASS | PASS | OK |
+| **shiny** | PASS | PASS | PASS | PASS | OK |
+| **damp** | PASS | PASS | PASS | PASS | OK |
+| **soaking** | PASS | PASS | PASS | PASS | OK |
+| **dry** | PASS | PASS | PASS | PASS | OK |
+| **sticky** | PASS | PASS | PASS | PASS | OK |
+| **slimy** | PASS | PASS | PASS | PASS | OK |
+| **fluffy** | PASS | PASS | PASS | PASS | OK |
+| **fuzzy** | PASS | PASS | PASS | PASS | OK |
+| **cozy** | PASS | PASS | PASS | PASS | OK |
+| **chilly** | PASS | PASS | PASS | PASS | OK |
+| **freezing** | PASS | PASS | PASS | PASS | OK |
+| **boiling** | PASS | PASS | PASS | PASS | OK |
+| **warm** | PASS | PASS | PASS | PASS | OK |
+| **fierce** | PASS | PASS | PASS | PASS | OK |
+| **gentle** | PASS | PASS | PASS | PASS | OK |
+| **brave** | PASS | PASS | PASS | PASS | OK |
+| **shy** | PASS | PASS | PASS | PASS | OK |
+| **proud** | PASS | PASS | PASS | PASS | OK |
+| **curious** | PASS | PASS | PASS | PASS | OK |
+| **grumpy** | PASS | PASS | PASS | PASS | OK |
+| **cheerful** | PASS | PASS | PASS | PASS | OK |
+| **lonely** | PASS | PASS | PASS | PASS | OK |
+| **calm** | PASS | PASS | PASS | PASS | OK |
+| **wild** | PASS | PASS | PASS | PASS | OK |
+| **tame** | PASS | PASS | PASS | PASS | OK |
+| **plain** | PASS | PASS | PASS | PASS | OK |
+| **fancy** | PASS | PASS | PASS | PASS | OK |
+| **ripe** | PASS | PASS | PASS | PASS | OK |
+| **rotten** | PASS | PASS | PASS | PASS | OK |
+| **fresh** | PASS | PASS | PASS | PASS | OK |
+| **stale** | PASS | PASS | PASS | PASS | OK |
+| **bitter** | PASS | PASS | PASS | PASS | OK |
+| **sour** | PASS | PASS | PASS | PASS | OK |
+| **salty** | PASS | PASS | PASS | PASS | OK |
+| **juicy** | PASS | PASS | PASS | PASS | OK |
+| **crunchy** | PASS | PASS | PASS | PASS | OK |
+| **creamy** | PASS | PASS | PASS | PASS | OK |
+| **silent** | PASS | PASS | PASS | PASS | OK |
+| **loud** | PASS | PASS | PASS | PASS | OK |
+| **hollow** | PASS | PASS | PASS | PASS | OK |
+| **solid** | PASS | PASS | PASS | PASS | OK |
+| **loose** | PASS | PASS | PASS | PASS | OK |
+| **tight** | PASS | PASS | PASS | PASS | OK |
+| **crooked** | PASS | PASS | PASS | PASS | OK |
+| **straight** | PASS | PASS | PASS | PASS | OK |
+| **crowded** | PASS | PASS | PASS | PASS | OK |
+| **empty** | PASS | PASS | PASS | PASS | OK |
+| **whole** | PASS | PASS | PASS | PASS | OK |
+| **spare** | PASS | PASS | PASS | PASS | OK |
+| **certain** | PASS | PASS | PASS | PASS | OK |
+| **strange** | PASS | PASS | PASS | PASS | OK |
+| **wonderful** | PASS | PASS | PASS | PASS | OK |
+| **terrible** | PASS | PASS | PASS | PASS | OK |
+| **perfect** | PASS | PASS | PASS | PASS | OK |
+| **ugly** | PASS | PASS | PASS | PASS | OK |
+| **beautiful** | PASS | PASS | PASS | PASS | OK |
+| **clever** | PASS | PASS | PASS | PASS | OK |
+| **foolish** | PASS | PASS | PASS | PASS | OK |
+| **greedy** | PASS | PASS | PASS | PASS | OK |
+| **generous** | PASS | PASS | PASS | PASS | OK |
+| **patient** | PASS | PASS | PASS | PASS | OK |
+| **stubborn** | PASS | PASS | PASS | PASS | OK |
+| **lazy** | PASS | PASS | PASS | PASS | OK |
+| **busy** | PASS | PASS | PASS | PASS | OK |
+| **clumsy** | PASS | PASS | PASS | PASS | OK |
+| **graceful** | PASS | PASS | PASS | PASS | OK |
+| **quickly** | PASS | PASS | PASS | PASS | OK |
+| **slowly** | PASS | PASS | PASS | PASS | OK |
+| **quietly** | PASS | PASS | PASS | PASS | OK |
+| **loudly** | PASS | PASS | PASS | PASS | OK |
+| **gently** | PASS | PASS | PASS | PASS | OK |
+| **suddenly** | PASS | PASS | PASS | PASS | OK |
+| **already** | PASS | PASS | PASS | PASS | OK |
+| **almost** | PASS | PASS | PASS | PASS | OK |
+| **barely** | PASS | PASS | PASS | PASS | OK |
+| **perhaps** | PASS | PASS | PASS | PASS | OK |
+| **exactly** | PASS | PASS | PASS | PASS | OK |
+| **instead** | PASS | PASS | PASS | PASS | OK |
+| **anyway** | PASS | PASS | PASS | PASS | OK |
+| **forever** | PASS | PASS | PASS | PASS | OK |
+| **apart** | PASS | PASS | PASS | PASS | OK |
+| **together** | PASS | PASS | PASS | PASS | OK |
+| **forward** | PASS | PASS | PASS | PASS | OK |
+| **backward** | PASS | PASS | PASS | PASS | OK |
+| **sideways** | PASS | PASS | PASS | PASS | OK |
+| **beneath** | PASS | PASS | PASS | PASS | OK |
+| **above** | PASS | PASS | PASS | PASS | OK |
+| **below** | PASS | PASS | PASS | PASS | OK |
+| **beside** | PASS | PASS | PASS | PASS | OK |
+| **between** | PASS | PASS | PASS | PASS | OK |
+| **among** | PASS | PASS | PASS | PASS | OK |
+| **toward** | PASS | PASS | PASS | PASS | OK |
+| **against** | PASS | PASS | PASS | PASS | OK |
+| **through** | PASS | PASS | PASS | PASS | OK |
+| **across** | PASS | PASS | PASS | PASS | OK |
+| **along** | PASS | PASS | PASS | PASS | OK |
+| **around** | PASS | PASS | PASS | PASS | OK |
+| **beyond** | PASS | PASS | PASS | PASS | OK |
+| **during** | PASS | PASS | PASS | PASS | OK |
+| **until** | PASS | PASS | PASS | PASS | OK |
+| **since** | PASS | PASS | PASS | PASS | OK |
+| **whether** | PASS | PASS | PASS | PASS | OK |
+| **while** | PASS | PASS | PASS | PASS | OK |
+| **besides** | PASS | PASS | PASS | PASS | OK |
+| **within** | PASS | PASS | PASS | PASS | OK |
+| **without** | PASS | PASS | PASS | PASS | OK |
+| **throughout** | PASS | PASS | PASS | PASS | OK |
+| **upon** | PASS | PASS | PASS | PASS | OK |
+| **pick up** | PASS | PASS | PASS | PASS | OK |
+| **put down** | PASS | PASS | PASS | PASS | OK |
+| **look at** | PASS | PASS | PASS | PASS | OK |
+| **come back** | PASS | PASS | PASS | FAIL | CHECK |
+| **sit down** | PASS | PASS | PASS | PASS | OK |
+| **stand up** | PASS | PASS | PASS | PASS | OK |
+| **wake up** | PASS | PASS | PASS | PASS | OK |
+| **give up** | PASS | PASS | PASS | PASS | OK |
+| **find out** | PASS | PASS | PASS | PASS | OK |
+| **turn off** | PASS | PASS | PASS | PASS | OK |
+| **turn on** | PASS | PASS | PASS | PASS | OK |
+| **fall down** | PASS | PASS | PASS | PASS | OK |
+| **get up** | PASS | PASS | PASS | PASS | OK |
+| **look out** | PASS | PASS | PASS | PASS | OK |
+| **hold on** | PASS | PASS | PASS | PASS | OK |
+| **clean up** | PASS | PASS | PASS | PASS | OK |
+| **hurry up** | PASS | PASS | PASS | PASS | OK |
+| **calm down** | PASS | PASS | PASS | PASS | OK |
+| **try on** | PASS | PASS | PASS | PASS | OK |
+| **throw away** | PASS | PASS | PASS | PASS | OK |
+| **run out** | PASS | PASS | PASS | PASS | OK |
+| **come in** | PASS | PASS | PASS | PASS | OK |
+| **go away** | PASS | PASS | PASS | PASS | OK |
+| **show off** | PASS | PASS | PASS | PASS | OK |
+| **figure out** | PASS | PASS | PASS | PASS | OK |
+| **excited** | PASS | PASS | PASS | PASS | OK |
+| **nervous** | PASS | PASS | PASS | PASS | OK |
+| **frightened** | PASS | PASS | PASS | PASS | OK |
+| **surprised** | PASS | PASS | PASS | PASS | OK |
+| **confused** | PASS | PASS | PASS | PASS | OK |
+| **disappointed** | PASS | PASS | PASS | PASS | OK |
+| **frustrated** | PASS | PASS | PASS | PASS | OK |
+| **jealous** | PASS | PASS | PASS | PASS | OK |
+| **embarrassed** | PASS | PASS | PASS | PASS | OK |
+| **worried** | PASS | PASS | PASS | PASS | OK |
+| **grateful** | PASS | PASS | PASS | PASS | OK |
+| **annoyed** | PASS | PASS | PASS | PASS | OK |
+| **bored** | PASS | PASS | PASS | PASS | OK |
+| **amazed** | PASS | PASS | PASS | PASS | OK |
+| **terrified** | PASS | PASS | PASS | PASS | OK |
+| **furious** | PASS | PASS | PASS | PASS | OK |
+| **miserable** | PASS | PASS | PASS | PASS | OK |
+| **relieved** | PASS | PASS | PASS | PASS | OK |
+| **peaceful** | PASS | PASS | PASS | PASS | OK |
+| **comfortable** | PASS | PASS | PASS | PASS | OK |
+| **uncomfortable** | PASS | PASS | PASS | PASS | OK |
+| **exhausted** | PASS | PASS | PASS | PASS | OK |
+| **delighted** | PASS | PASS | PASS | PASS | OK |
+| **gloomy** | PASS | PASS | PASS | PASS | OK |
+| **hopeful** | PASS | PASS | PASS | PASS | OK |
+| **cranky** | PASS | PASS | PASS | PASS | OK |
+| **content** | PASS | PASS | PASS | PASS | OK |
+| **eager** | PASS | PASS | PASS | PASS | OK |
+| **homesick** | PASS | PASS | PASS | PASS | OK |
+| **ashamed** | PASS | PASS | PASS | PASS | OK |
+| **before** | PASS | PASS | PASS | PASS | OK |
+| **after** | PASS | PASS | PASS | PASS | OK |
+| **next** | PASS | PASS | PASS | PASS | OK |
+| **then** | PASS | PASS | PASS | PASS | OK |
+| **finally** | PASS | PASS | PASS | PASS | OK |
+| **meanwhile** | PASS | PASS | PASS | PASS | OK |
+| **soon** | PASS | PASS | PASS | PASS | OK |
+| **later** | PASS | PASS | PASS | PASS | OK |
+| **early** | PASS | PASS | PASS | PASS | OK |
+| **late** | PASS | PASS | PASS | PASS | OK |
+| **beginning** | PASS | PASS | PASS | PASS | OK |
+| **middle** | PASS | PASS | PASS | PASS | OK |
+| **ending** | PASS | PASS | PASS | PASS | OK |
+| **moment** | PASS | PASS | PASS | PASS | OK |
+| **sudden** | PASS | PASS | PASS | PASS | OK |
+| **recent** | PASS | PASS | PASS | PASS | OK |
+| **daily** | PASS | PASS | PASS | PASS | OK |
+| **weekly** | PASS | PASS | PASS | PASS | OK |
+| **whenever** | PASS | PASS | PASS | PASS | OK |
+| **once** | PASS | PASS | PASS | PASS | OK |
+| **twice** | PASS | PASS | PASS | PASS | OK |
+| **often** | PASS | PASS | PASS | PASS | OK |
+| **nowadays** | PASS | PASS | PASS | PASS | OK |
+| **dozen** | PASS | PASS | PASS | PASS | OK |
+| **half** | PASS | PASS | PASS | PASS | OK |
+| **pair** | PASS | PASS | PASS | PASS | OK |
+| **entire** | PASS | PASS | PASS | PASS | OK |
+| **double** | PASS | PASS | PASS | PASS | OK |
+| **single** | PASS | PASS | PASS | PASS | OK |
+| **plenty** | PASS | PASS | PASS | PASS | OK |
+| **several** | PASS | PASS | PASS | PASS | OK |
+| **few** | PASS | PASS | PASS | PASS | OK |
+| **many** | PASS | PASS | PASS | PASS | OK |
+| **none** | PASS | PASS | PASS | PASS | OK |
+| **bunch** | PASS | PASS | PASS | PASS | OK |
+| **pile** | PASS | PASS | PASS | PASS | OK |
+| **heap** | PASS | PASS | PASS | PASS | OK |
+| **piece** | PASS | PASS | PASS | PASS | OK |
+| **portion** | PASS | PASS | PASS | PASS | OK |
+| **amount** | PASS | PASS | PASS | PASS | OK |
+| **total** | PASS | PASS | PASS | PASS | OK |
+| **extra** | PASS | PASS | PASS | PASS | OK |
+| **enough** | PASS | PASS | PASS | PASS | OK |
+| **less** | PASS | PASS | PASS | PASS | OK |
+| **more** | PASS | PASS | PASS | PASS | OK |
+| **quarter** | PASS | PASS | PASS | PASS | OK |
+| **equal** | PASS | PASS | PASS | PASS | OK |
+| **average** | PASS | PASS | PASS | PASS | OK |
+| **shadow** | PASS | PASS | PASS | PASS | OK |
+| **echo** | PASS | PASS | PASS | PASS | OK |
+| **secret** | PASS | PASS | PASS | PASS | OK |
+| **surprise** | PASS | PASS | PASS | PASS | OK |
+| **mistake** | PASS | PASS | PASS | PASS | OK |
+| **adventure** | PASS | PASS | PASS | PASS | OK |
+| **treasure** | PASS | PASS | PASS | PASS | OK |
+| **journey** | PASS | PASS | PASS | PASS | OK |
+| **village** | PASS | PASS | PASS | PASS | OK |
+| **dock** | PASS | PASS | PASS | PASS | OK |
+| **crowd** | PASS | PASS | PASS | PASS | OK |
+| **trail** | PASS | PASS | PASS | PASS | OK |
+| **footprint** | PASS | PASS | PASS | PASS | OK |
+| **pattern** | PASS | PASS | PASS | PASS | OK |
+| **riddle** | PASS | PASS | PASS | PASS | OK |
+| **poem** | PASS | PASS | PASS | PASS | OK |
+| **tale** | PASS | PASS | PASS | PASS | OK |
+| **legend** | PASS | PASS | PASS | PASS | OK |
+| **character** | PASS | PASS | PASS | PASS | OK |
+| **chapter** | PASS | PASS | PASS | PASS | OK |
+| **title** | PASS | PASS | PASS | PASS | OK |
+| **author** | PASS | PASS | PASS | PASS | OK |
+| **paw** | PASS | PASS | PASS | PASS | OK |
+| **claw** | PASS | PASS | PASS | PASS | OK |
+| **feather** | PASS | PASS | PASS | PASS | OK |
+| **fur** | PASS | PASS | PASS | PASS | OK |
+| **scale** | PASS | PASS | PASS | PASS | OK |
+| **wing** | PASS | PASS | PASS | PASS | OK |
+| **beak** | PASS | PASS | PASS | PASS | OK |
+| **nest** | PASS | PASS | PASS | PASS | OK |
+| **hive** | PASS | PASS | PASS | PASS | OK |
+| **den** | PASS | PASS | PASS | PASS | OK |
+| **burrow** | PASS | PASS | PASS | PASS | OK |
+| **trap** | PASS | PASS | PASS | PASS | OK |
+| **leash** | PASS | PASS | PASS | PASS | OK |
+| **tag** | PASS | PASS | PASS | PASS | OK |
+| **whisker** | PASS | PASS | PASS | PASS | OK |
+| **tail** | PASS | PASS | PASS | PASS | OK |
+| **hoof** | PASS | PASS | PASS | PASS | OK |
+| **mane** | PASS | PASS | PASS | PASS | OK |
+| **flock** | PASS | PASS | PASS | PASS | OK |
+| **herd** | PASS | PASS | PASS | PASS | OK |
+| **pack** | PASS | PASS | PASS | PASS | OK |
+| **droplet** | PASS | PASS | PASS | PASS | OK |
+| **ripple** | PASS | PASS | PASS | PASS | OK |
+| **bubble** | PASS | PASS | PASS | PASS | OK |
+| **flame** | PASS | PASS | PASS | PASS | OK |
+| **spark** | PASS | PASS | PASS | PASS | OK |
+| **smoke** | PASS | PASS | PASS | PASS | OK |
+| **ash** | PASS | PASS | PASS | PASS | OK |
+| **dawn** | PASS | PASS | PASS | PASS | OK |
+| **dusk** | PASS | PASS | PASS | PASS | OK |
+| **midnight** | PASS | PASS | PASS | PASS | OK |
+| **noon** | PASS | PASS | PASS | PASS | OK |
+| **passenger** | PASS | PASS | PASS | PASS | OK |
+| **neighbor** | PASS | PASS | PASS | PASS | OK |
+| **stranger** | PASS | PASS | PASS | PASS | OK |
+| **parade** | PASS | PASS | PASS | PASS | OK |
+| **audience** | PASS | PASS | PASS | PASS | OK |
+| **crew** | PASS | PASS | PASS | PASS | OK |
+| **coach** | PASS | PASS | PASS | PASS | OK |
+| **chef** | PASS | PASS | PASS | PASS | OK |
+| **mayor** | PASS | PASS | PASS | PASS | OK |
+| **inventor** | PASS | PASS | PASS | PASS | OK |
+| **princess** | PASS | PASS | PASS | PASS | OK |
+| **knight** | PASS | PASS | PASS | PASS | OK |
+| **wizard** | PASS | PASS | PASS | PASS | OK |
+| **giant** | PASS | PASS | PASS | PASS | OK |
+| **dwarf** | PASS | PASS | PASS | PASS | OK |
+| **monster** | PASS | PASS | PASS | PASS | OK |
+| **dragon** | PASS | PASS | PASS | PASS | OK |
+| **fairy** | PASS | PASS | PASS | PASS | OK |
+| **shield** | PASS | PASS | PASS | PASS | OK |
+| **sword** | PASS | PASS | PASS | PASS | OK |
+| **wand** | PASS | PASS | PASS | PASS | OK |
+| **throne** | PASS | PASS | PASS | PASS | OK |
+| **crown** | PASS | PASS | PASS | PASS | OK |
+| **wobble** | PASS | PASS | PASS | PASS | OK |
+| **tumble** | PASS | PASS | PASS | PASS | OK |
+| **snuggle** | PASS | PASS | PASS | PASS | OK |
+| **nibble** | PASS | PASS | PASS | PASS | OK |
+| **snore** | PASS | PASS | PASS | PASS | OK |
+| **yawn** | PASS | PASS | PASS | PASS | OK |
+| **shiver** | PASS | PASS | PASS | PASS | OK |
+| **bloom** | PASS | PASS | PASS | PASS | OK |
+| **sprout** | PASS | PASS | PASS | PASS | OK |
+| **wilt** | PASS | PASS | PASS | PASS | OK |
+| **scattered** | PASS | PASS | PASS | PASS | OK |
+| **rascal** | PASS | PASS | PASS | PASS | OK |
+| **gigantic** | PASS | PASS | PASS | PASS | OK |
+| **itsy** | PASS | PASS | PASS | PASS | OK |
+| **whirl** | PASS | PASS | PASS | PASS | OK |
+| **sparkle** | PASS | PASS | PASS | PASS | OK |
+| **flutter** | PASS | PASS | PASS | PASS | OK |
+| **hear** | PASS | PASS | PASS | PASS | OK |
+| **lose** | PASS | PASS | PASS | PASS | OK |
+| **teach** | PASS | PASS | PASS | PASS | OK |
+| **take** | PASS | PASS | PASS | PASS | OK |
+| **than** | PASS | PASS | PASS | PASS | OK |
