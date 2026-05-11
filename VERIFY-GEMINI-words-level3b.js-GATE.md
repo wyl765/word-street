@@ -1,7 +1,7 @@
 # VERIFY-GEMINI-words-level3b.js-GATE
 
-| Word | L9: imageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat |
-|---|---|---|---|---|
+| Word | L9: ImageKeyword Check | L10: Fact Check | L11: Polysemy Check | L12: Game Compatibility |
+| :--- | :--- | :--- | :--- | :--- |
 | organism | Pass | Pass | Pass | Pass |
 | evaporation | Pass | Pass | Pass | Pass |
 | condensation | Pass | Pass | Pass | Pass |

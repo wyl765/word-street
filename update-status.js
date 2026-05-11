@@ -1,7 +1,11 @@
 const fs = require('fs');
-let data = JSON.parse(fs.readFileSync('word-status.json'));
+const statusPath = '/Users/percy/.openclaw/workspace/projects/word-street/word-status.json';
+const status = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
 
-data.files['words-level2c.js'].currentGate = 13;
-data.files['words-level2d.js'].currentGate = 13;
+status.files['words-level3b.js'].currentGate = 15;
+status.files['words-level3b.js'].gate9 = 'pass';
+status.files['words-level3b.js'].gate10 = 'pass';
+status.files['words-level3b.js'].gate11 = 'pass';
+status.files['words-level3b.js'].gate12 = 'pass';
 
-fs.writeFileSync('word-status.json', JSON.stringify(data, null, 2));
+fs.writeFileSync(statusPath, JSON.stringify(status, null, 2));

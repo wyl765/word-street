@@ -134,6 +134,10 @@ Word appears to be adjective but definition starts with article: "a person who b
 Definition starts with "when": "when two sides of something look exactly the same..."
 **Fix:** Use "to + verb" for verbs or "a/an + noun" for nouns instead of event description
 
+### [MINOR] words-level1.js — "ladybug" (SAME_LEVEL_DEF_REF)
+L1 definition uses "beetle" which is also an L1 word (core position)
+**Fix:** Avoid using same-level vocabulary in the core of definitions
+
 ### [MINOR] words-level1.js — "pretzel" (SAME_LEVEL_DEF_REF)
 L1 definition uses "salty" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -426,10 +430,6 @@ L1 definition uses "equal" which is also an L1 word (core position)
 L1 definition uses "amount" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
 
-### [MINOR] words-level1.js — "average" (SAME_LEVEL_DEF_REF)
-L1 definition uses "middle" which is also an L1 word (core position)
-**Fix:** Avoid using same-level vocabulary in the core of definitions
-
 ### [MINOR] words-level1.js — "pattern" (SAME_LEVEL_DEF_REF)
 L1 definition uses "design" which is also an L1 word (core position)
 **Fix:** Avoid using same-level vocabulary in the core of definitions
@@ -548,6 +548,14 @@ Example contains military context: "military"
 
 ### [HIGH] words-level2.js — "state" (MULTI_MEANING)
 L2 definition has multiple distinct meanings: "a part of a country; also the condition something is in"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2.js — "amber" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "a warm golden-brown color; also hard material formed from ancient tree sap"
+**Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
+
+### [HIGH] words-level2.js — "mantle" (MULTI_MEANING)
+L2 definition has multiple distinct meanings: "a loose cloak worn over the shoulders; also a layer of the Earth beneath the crust"
 **Fix:** L1-L2 definitions should have a single meaning. Pick the most common/useful one.
 
 ### [HIGH] words-level2a.js — "inherit" (MULTI_MEANING)
