@@ -1,7 +1,7 @@
-# Gemini Verification Report for words-level2.js
+# Gemini Review: words-level2.js
 
-| Word | L9: imageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compatibility |
-|---|---|---|---|---|
+| Word | L9: Image Keyword | L10: Fact Check | L11: Meaning | L12: Game Play |
+|------|-------------------|-----------------|--------------|----------------|
 | describe | Pass | Pass | Pass | Pass |
 | explain | Pass | Pass | Pass | Pass |
 | solve | Pass | Pass | Pass | Pass |
@@ -519,7 +519,7 @@
 | loom | Pass | Pass | Pass | Pass |
 | lynx | Pass | Pass | Pass | Pass |
 | mango | Pass | Pass | Pass | Pass |
-| mantle | Pass | Pass | Pass | Pass |
+| mantel | Pass | Pass | Pass | Pass |
 | maple | Pass | Pass | Pass | Pass |
 | marsh | Pass | Pass | Pass | Pass |
 | mast | Pass | Pass | Pass | Pass |
