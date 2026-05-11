@@ -1,6 +1,6 @@
-# Gemini Verify: words-level2d.js
+# VERIFY-GEMINI-words-level2d.js-GATE
 
-| Word | L9: imageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat |
+| word | L9 (Image) | L10 (Fact Check) | L11 (Polysemy) | L12 (Game Compat) |
 |---|---|---|---|---|
 | pace | PASS | PASS | PASS | PASS |
 | panel | PASS | PASS | PASS | PASS |
