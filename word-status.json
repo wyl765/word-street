@@ -139,14 +139,18 @@
     },
     "words-level3c.js": {
       "totalWords": 195,
-      "currentGate": 14,
+      "currentGate": 15,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
       "gate6": "pass",
-      "gate7": "pass"
+      "gate7": "pass",
+      "gate9": "pass",
+      "gate10": "pass",
+      "gate11": "pass",
+      "gate12": "pass"
     },
     "words-level4a.js": {
       "totalWords": 301,
