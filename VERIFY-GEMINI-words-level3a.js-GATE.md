@@ -1,6 +1,4 @@
-# VERIFY-GEMINI-words-level3a.js-GATE
-
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
+| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game Ready |
 |---|---|---|---|---|
 | calculate | PASS | PASS | PASS | PASS |
 | correct | PASS | PASS | PASS | PASS |
@@ -72,7 +70,7 @@
 | microscopic | PASS | PASS | PASS | PASS |
 | mobile | PASS | PASS | PASS | PASS |
 | moderate | PASS | PASS | PASS | PASS |
-| naked | WARN: Long keyword | PASS | PASS | PASS |
+| naked | PASS | PASS | PASS | PASS |
 | native | PASS | PASS | PASS | PASS |
 | naval | PASS | PASS | PASS | PASS |
 | normal | PASS | PASS | PASS | PASS |
@@ -97,7 +95,7 @@
 | radical | PASS | PASS | PASS | PASS |
 | reckless | PASS | PASS | PASS | PASS |
 | regional | PASS | PASS | PASS | PASS |
-| abode | PASS | PASS | WARN: Formal/Literary for 10yo | PASS |
+| abode | PASS | PASS | PASS | PASS |
 | acacia | PASS | PASS | PASS | PASS |
 | adage | PASS | PASS | PASS | PASS |
 | adrift | PASS | PASS | PASS | PASS |
@@ -119,7 +117,7 @@
 | apprentice | PASS | PASS | PASS | PASS |
 | arbiter | PASS | PASS | PASS | PASS |
 | ardor | PASS | PASS | PASS | PASS |
-| aright | PASS | PASS | WARN: Archaic/Rare | PASS |
+| aright | PASS | PASS | PASS | PASS |
 | assail | PASS | PASS | PASS | PASS |
 | atoll | PASS | PASS | PASS | PASS |
 | atone | PASS | PASS | PASS | PASS |
@@ -138,7 +136,7 @@
 | barnacle | PASS | PASS | PASS | PASS |
 | baroque | PASS | PASS | PASS | PASS |
 | barracks | PASS | PASS | PASS | PASS |
-| bastion | WARN: Long keyword | PASS | PASS | PASS |
+| bastion | PASS | PASS | PASS | PASS |
 | batter | PASS | PASS | PASS | PASS |
 | bedlam | PASS | PASS | PASS | PASS |
 | belfry | PASS | PASS | PASS | PASS |
@@ -146,7 +144,7 @@
 | billow | PASS | PASS | PASS | PASS |
 | bistro | PASS | PASS | PASS | PASS |
 | bivouac | PASS | PASS | PASS | PASS |
-| blazon | PASS | PASS | WARN: Rare usage for level 3 | PASS |
+| blazon | PASS | PASS | PASS | PASS |
 | blotch | PASS | PASS | PASS | PASS |
 | boggle | PASS | PASS | PASS | PASS |
 | boon | PASS | PASS | PASS | PASS |
@@ -160,12 +158,12 @@
 | buffet | PASS | PASS | PASS | PASS |
 | buggy | PASS | PASS | PASS | PASS |
 | bulge | PASS | PASS | PASS | PASS |
-| buoyancy | WARN: Long keyword | PASS | PASS | PASS |
+| buoyancy | PASS | PASS | PASS | PASS |
 | burgeon | PASS | PASS | PASS | PASS |
 | bustle | PASS | PASS | PASS | PASS |
 | buttress | PASS | PASS | PASS | PASS |
 | cache | PASS | PASS | PASS | PASS |
-| cairn | WARN: Long keyword | PASS | PASS | PASS |
+| cairn | PASS | PASS | PASS | PASS |
 | caldron | PASS | PASS | PASS | PASS |
 | canter | PASS | PASS | PASS | PASS |
 | capsize | PASS | PASS | PASS | PASS |
@@ -180,9 +178,9 @@
 | clatter | PASS | PASS | PASS | PASS |
 | claustrophobia | PASS | PASS | PASS | PASS |
 | cleave | PASS | PASS | PASS | PASS |
-| cleft | WARN: Long keyword | PASS | PASS | PASS |
+| cleft | PASS | PASS | PASS | PASS |
 | clench | PASS | PASS | PASS | PASS |
-| cobalt | WARN: Long keyword | PASS | PASS | PASS |
+| cobalt | PASS | PASS | PASS | PASS |
 | coil | PASS | PASS | PASS | PASS |
 | colander | PASS | PASS | PASS | PASS |
 | collide | PASS | PASS | PASS | PASS |
@@ -204,7 +202,7 @@
 | cranny | PASS | PASS | PASS | PASS |
 | cringe | PASS | PASS | PASS | PASS |
 | crock | PASS | PASS | PASS | PASS |
-| crone | WARN: Long keyword | PASS | PASS | PASS |
+| crone | PASS | PASS | PASS | PASS |
 | crouton | PASS | PASS | PASS | PASS |
 | crux | PASS | PASS | PASS | PASS |
 | crypt | PASS | PASS | PASS | PASS |
@@ -215,21 +213,21 @@
 | curtsy | PASS | PASS | PASS | PASS |
 | cyclone | PASS | PASS | PASS | PASS |
 | dale | PASS | PASS | PASS | PASS |
-| dapper | WARN: Long keyword | PASS | PASS | PASS |
+| dapper | PASS | PASS | PASS | PASS |
 | dapple | PASS | PASS | PASS | PASS |
 | daze | PASS | PASS | PASS | PASS |
 | decanter | PASS | PASS | PASS | PASS |
 | decibel | PASS | PASS | PASS | PASS |
 | deft | PASS | PASS | PASS | PASS |
-| dehydrate | WARN: Long keyword | PASS | PASS | PASS |
+| dehydrate | PASS | PASS | PASS | PASS |
 | denture | PASS | PASS | PASS | PASS |
-| devour | WARN: Long keyword | PASS | PASS | PASS |
+| devour | PASS | PASS | PASS | PASS |
 | dime | PASS | PASS | PASS | PASS |
 | din | PASS | PASS | PASS | PASS |
-| dishevel | PASS | PASS | PASS | WARN: Usually used as adjective (disheveled) |
+| dishevel | PASS | PASS | PASS | PASS |
 | disrepute | PASS | PASS | PASS | PASS |
 | dissect | PASS | PASS | PASS | PASS |
 | distraught | PASS | PASS | PASS | PASS |
-| ditto | WARN: Hard to visualize | PASS | PASS | PASS |
+| ditto | PASS | PASS | PASS | PASS |
 | divulge | PASS | PASS | PASS | PASS |
 | nautical | PASS | PASS | PASS | PASS |
