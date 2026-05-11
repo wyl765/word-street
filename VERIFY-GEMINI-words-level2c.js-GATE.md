@@ -1,221 +1,223 @@
-# Gemini Review for words-level2c.js
+# VERIFY-GEMINI-words-level2c.js-GATE
 
-- achieve: Pass. Image keyword "trophy winner" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- adjust: Pass. Image keyword "adjusting knob" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- adopt: Pass. Image keyword "adopting puppy" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- affect: Pass. Image keyword "rain plans" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- afford: Pass. Image keyword "piggy bank" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- alarm: Pass. Image keyword "fire alarm" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- alert: Pass. Image keyword "alert dog" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- allowance: Pass. Image keyword "coins allowance" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- amaze: Pass. Image keyword "jaw dropping surprised" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- appeal: Pass. Image keyword "asking please" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- appetite: Pass. Image keyword "hungry stomach" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- applaud: Pass. Image keyword "clapping hands" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- appropriate: Pass. Image keyword "right clothes" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- assist: Pass. Image keyword "helping hand" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- assume: Pass. Image keyword "guessing think" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- assure: Pass. Image keyword "comforting hug" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- authority: Pass. Image keyword "lifeguard whistle" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- available: Pass. Image keyword "empty seat" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- aware: Pass. Image keyword "looking around" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- ballot: Pass. Image keyword "voting paper" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- ban: Pass. Image keyword "banned skateboard sign" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- barrier: Pass. Image keyword "fence barrier" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- blame: Pass. Image keyword "pointing finger" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- blend: Pass. Image keyword "blending smoothie" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- bother: Pass. Image keyword "annoying poke" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- caution: Pass. Image keyword "careful warning" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- century: Pass. Image keyword "old tree" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- champion: Pass. Image keyword "gold medal" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- charm: Pass. Image keyword "cute kitten" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- circulate: Pass. Image keyword "circulation cycle diagram" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- circumstance: Pass. Image keyword "situation context" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- commit: Pass. Image keyword "promise pinky" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- communicate: Pass. Image keyword "dolphins talking" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- compassion: Pass. Image keyword "kind helping" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- compete: Pass. Image keyword "racing runners" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- complex: Pass. Image keyword "complex puzzle" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- concern: Pass. Image keyword "worried face" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- confirm: Pass. Image keyword "checkmark confirm" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- conquer: Pass. Image keyword "climbing victory" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- conscious: Pass. Image keyword "awake aware" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- conserve: Pass. Image keyword "saving water" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- consist: Pass. Image keyword "salad ingredients" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- constant: Pass. Image keyword "dripping faucet" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- construct: Pass. Image keyword "building construction" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- contain: Pass. Image keyword "box contents" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- contest: Pass. Image keyword "competition trophy" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- contrast: Pass. Image keyword "black white" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- contribute: Pass. Image keyword "donating food" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- convenient: Pass. Image keyword "nearby store" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- core: Pass. Image keyword "apple core" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- courteous: Pass. Image keyword "polite greeting bow" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- credit: Pass. Image keyword "trophy award" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- crisis: Pass. Image keyword "flood crisis" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- critical: Pass. Image keyword "water important" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- debate: Pass. Image keyword "debate podium" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- decade: Pass. Image keyword "ten calendar" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- decline: Pass. Image keyword "person declining invitation" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- dedicate: Pass. Image keyword "focused practice" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- definite: Pass. Image keyword "certain checkmark" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- deliberate: Pass. Image keyword "on purpose" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- deposit: Pass. Image keyword "coins dropping into jar" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- deserve: Pass. Image keyword "earned reward" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- desire: Pass. Image keyword "wishing star" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- desperate: Pass. Image keyword "thirsty desert" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- detect: Pass. Image keyword "detective magnifier" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- determine: Pass. Image keyword "deciding gavel" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- dignity: Pass. Image keyword "respectful handshake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- dilemma: Pass. Image keyword "two choices" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- dimension: Pass. Image keyword "measuring box" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- discipline: Pass. Image keyword "practice routine" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- discourage: Pass. Image keyword "sad then hopeful" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- display: Pass. Image keyword "museum display" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- dispute: Pass. Image keyword "arguing neighbors" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- distinct: Pass. Image keyword "unique snowflake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- distinguish: Pass. Image keyword "spot difference" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- distribute: Pass. Image keyword "passing papers classroom" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- division: Pass. Image keyword "dividing equally" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- document: Pass. Image keyword "official paper" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- doubt: Pass. Image keyword "question mark" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- drama: Pass. Image keyword "theater stage" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- drastic: Pass. Image keyword "big change" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- dread: Pass. Image keyword "scared face" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- duty: Pass. Image keyword "responsibility badge" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- edible: Pass. Image keyword "edible berries" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- efficient: Pass. Image keyword "organized efficient" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- elaborate: Pass. Image keyword "fancy cake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- eliminate: Pass. Image keyword "pulling weeds" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- embarrass: Pass. Image keyword "blushing face" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- emerge: Pass. Image keyword "emerging butterfly" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- emotion: Pass. Image keyword "feeling faces" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- emphasis: Pass. Image keyword "underline important" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- enable: Pass. Image keyword "wheelchair ramp" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- encounter: Pass. Image keyword "meeting deer" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- endure: Pass. Image keyword "hiking perseverance" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- ensure: Pass. Image keyword "double checking" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- environment: Pass. Image keyword "green earth" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- error: Pass. Image keyword "erasing mistake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- evaluate: Pass. Image keyword "judging art" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- evident: Pass. Image keyword "obvious smile" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- evolve: Pass. Image keyword "evolution change" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- exaggerate: Pass. Image keyword "big fish story" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- excellent: Pass. Image keyword "star excellent" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- exception: Pass. Image keyword "special case" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- excess: Pass. Image keyword "overflowing cup" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- exclude: Pass. Image keyword "left out" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- exhibit: Pass. Image keyword "museum exhibit" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- expand: Pass. Image keyword "expanding balloon" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- expedition: Pass. Image keyword "arctic expedition" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- expense: Pass. Image keyword "money spending" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- expertise: Pass. Image keyword "expert chef" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- exploit: Pass. Image keyword "unfair shortcut" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- expose: Pass. Image keyword "uncovering hidden" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- extend: Pass. Image keyword "stretching longer" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- extreme: Pass. Image keyword "icicles cold" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- factor: Pass. Image keyword "puzzle piece" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- famine: Pass. Image keyword "dry empty field" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fascinate: Pass. Image keyword "amazed watching" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fatal: Pass. Image keyword "warning sign danger" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fate: Pass. Image keyword "crystal ball" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fault: Pass. Image keyword "broken vase" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- feature: Pass. Image keyword "playground slide" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- ferry: Pass. Image keyword "ferry boat" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- flourish: Pass. Image keyword "thriving garden" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- focus: Pass. Image keyword "focused eyes" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- forbid: Pass. Image keyword "no running sign" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- forecast: Pass. Image keyword "weather forecast" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fortune: Pass. Image keyword "treasure chest" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fragment: Pass. Image keyword "broken pieces" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- frequent: Pass. Image keyword "rainy spring" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- frontier: Pass. Image keyword "space frontier" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fulfill: Pass. Image keyword "kept promise" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- function: Pass. Image keyword "bridge function" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fundamental: Pass. Image keyword "building foundation" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- fund: Pass. Image keyword "lemonade stand" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- grace: Pass. Image keyword "graceful dancer" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- gradual: Pass. Image keyword "leaves changing" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- guarantee: Pass. Image keyword "promise seal" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- halt: Pass. Image keyword "stop hand" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- hazard: Pass. Image keyword "icy danger" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- ideal: Pass. Image keyword "perfect day" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- illustrate: Pass. Image keyword "drawing illustration" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- image: Pass. Image keyword "picture screen" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- immediate: Pass. Image keyword "alarm clock now" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- impact: Pass. Image keyword "earth recycling" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- imply: Pass. Image keyword "knowing smile" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- impress: Pass. Image keyword "impressed judges" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- incident: Pass. Image keyword "playground report clipboard" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- indicate: Pass. Image keyword "arrow pointing" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- individual: Pass. Image keyword "one person" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- inform: Pass. Image keyword "news announcement" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- inhabit: Pass. Image keyword "fish reef" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- initial: Pass. Image keyword "first reaction" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- injure: Pass. Image keyword "hurt ankle" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- inquire: Pass. Image keyword "asking question" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- inspire: Pass. Image keyword "inspired lightbulb" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- instance: Pass. Image keyword "example case" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- instinct: Pass. Image keyword "bird migrating" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- institution: Pass. Image keyword "library building" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- integrate: Pass. Image keyword "joining group" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- intense: Pass. Image keyword "hot sun intense" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- interact: Pass. Image keyword "people talking" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- introduce: Pass. Image keyword "meeting introduction" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- invade: Pass. Image keyword "ants invading" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- involve: Pass. Image keyword "joining group activity" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- issue: Pass. Image keyword "problem discussion" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- item: Pass. Image keyword "list item" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- journal: Pass. Image keyword "writing journal" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- justify: Pass. Image keyword "good reason" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- lack: Pass. Image keyword "dry plant" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- launch: Pass. Image keyword "rocket launch" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- layer: Pass. Image keyword "layered cake" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- lecture: Pass. Image keyword "teacher lecturing" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- leisure: Pass. Image keyword "relaxing hammock" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- liable: Pass. Image keyword "responsible person" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- liberty: Pass. Image keyword "statue liberty" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- license: Pass. Image keyword "driver license" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- link: Pass. Image keyword "chain link" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- literal: Pass. Image keyword "exact words" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- locate: Pass. Image keyword "finding map" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- logic: Pass. Image keyword "thinking steps" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- luxury: Pass. Image keyword "fancy pool" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- majority: Pass. Image keyword "crowd voting raised hands" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- manage: Pass. Image keyword "managing garden" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- mature: Pass. Image keyword "ripe apple" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- maximum: Pass. Image keyword "full capacity" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- memorial: Pass. Image keyword "memorial statue" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- mental: Pass. Image keyword "glowing brain with gears" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- mercy: Pass. Image keyword "kind knight" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- migrate: Pass. Image keyword "geese flying south" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- military: Pass. Image keyword "fighter jets in formation" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- minimum: Pass. Image keyword "least amount" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- minor: Pass. Image keyword "small scratch" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- miracle: Pass. Image keyword "amazing return" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- mission: Pass. Image keyword "space mission" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- modify: Pass. Image keyword "editing drawing" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- monitor: Pass. Image keyword "checking temperature" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- motive: Pass. Image keyword "reason why" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- mutual: Pass. Image keyword "shared interest" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- navigate: Pass. Image keyword "compass navigation" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- neglect: Pass. Image keyword "wilting plant" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- neutral: Pass. Image keyword "balanced scale" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- notable: Pass. Image keyword "big achievement" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- notify: Pass. Image keyword "sending notice" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- notion: Pass. Image keyword "idea lightbulb" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- novel: Pass. Image keyword "new creative idea" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- oath: Pass. Image keyword "hand promise" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- objective: Pass. Image keyword "target goal" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- obligation: Pass. Image keyword "returning books" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- obstacle: Pass. Image keyword "blocked path" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- obtain: Pass. Image keyword "getting card" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- occur: Pass. Image keyword "earthquake happening" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- offense: Pass. Image keyword "sorry apologize" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- ongoing: Pass. Image keyword "building progress" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- operate: Pass. Image keyword "using computer" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- option: Pass. Image keyword "menu choices" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- origin: Pass. Image keyword "cacao beans" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- overcome: Pass. Image keyword "kid climbing mountain top" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- overlook: Pass. Image keyword "missing detail" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
-- owe: Pass. Image keyword "paying back" is clear. Definition and example are appropriate for a 10-year-old. No obvious factual or polysemy issues.
+| Word | L9 (Image) | L10 (Fact) | L11 (Sense) | L12 (Game) | Status |
+|------|------------|------------|-------------|------------|--------|
+| **achieve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **adjust** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **adopt** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **affect** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **afford** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **alarm** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **alert** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **allowance** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **amaze** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **appeal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **appetite** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **applaud** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **appropriate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **assist** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **assume** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **assure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **authority** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **available** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **aware** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **ballot** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **ban** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **barrier** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **blame** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **blend** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **bother** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **caution** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **century** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **champion** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **charm** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **circulate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **circumstance** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **commit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **communicate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **compassion** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **compete** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **complex** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **concern** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **confirm** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **conquer** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **conscious** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **conserve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **consist** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **constant** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **construct** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **contain** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **contest** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **contrast** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **contribute** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **convenient** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **core** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **courteous** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **credit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **crisis** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **critical** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **debate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **decade** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **decline** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **dedicate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **definite** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **deliberate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **deposit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **deserve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **desire** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **desperate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **detect** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **determine** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **dignity** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **dilemma** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **dimension** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **discipline** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **discourage** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **display** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **dispute** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **distinct** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **distinguish** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **distribute** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **division** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **document** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **doubt** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **drama** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **drastic** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **dread** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **duty** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **edible** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **efficient** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **elaborate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **eliminate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **embarrass** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **emerge** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **emotion** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **emphasis** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **enable** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **encounter** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **endure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **ensure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **environment** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **error** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **evaluate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **evident** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **evolve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **exaggerate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **excellent** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **exception** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **excess** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **exclude** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **exhibit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **expand** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **expedition** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **expense** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **expertise** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **exploit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **expose** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **extend** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **extreme** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **factor** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **famine** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fascinate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fatal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fault** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **feature** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **ferry** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **flourish** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **focus** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **forbid** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **forecast** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fortune** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fragment** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **frequent** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **frontier** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fulfill** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **function** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fundamental** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **fund** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **grace** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **gradual** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **guarantee** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **halt** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **hazard** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **ideal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **illustrate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **image** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **immediate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **impact** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **imply** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **impress** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **incident** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **indicate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **individual** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **inform** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **inhabit** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **initial** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **injure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **inquire** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **inspire** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **instance** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **instinct** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **institution** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **integrate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **intense** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **interact** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **introduce** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **invade** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **involve** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **issue** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **item** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **journal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **justify** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **lack** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **launch** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **layer** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **lecture** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **leisure** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **liable** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **liberty** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **license** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **link** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **literal** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **locate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **logic** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **luxury** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **majority** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **manage** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **mature** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **maximum** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **memorial** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **mental** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **mercy** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **migrate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **military** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **minimum** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **minor** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **miracle** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **mission** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **modify** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **monitor** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **motive** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **mutual** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **navigate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **neglect** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **neutral** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **notable** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **notify** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **notion** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **novel** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **oath** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **objective** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **obligation** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **obstacle** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **obtain** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **occur** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **offense** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **ongoing** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **operate** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **option** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **origin** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **overcome** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **overlook** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
+| **owe** | ✅ Image keyword is descriptive | ✅ Definition factually accurate | ✅ Common sense selected | ✅ Compatible with all 4 games | ✅ PASS |
