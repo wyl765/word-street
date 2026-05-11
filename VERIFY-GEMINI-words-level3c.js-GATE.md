@@ -1,199 +1,199 @@
 # VERIFY-GEMINI-words-level3c.js-GATE.md
 
-| Word | L9: Image | L10: Fact | L11: Polysemy | L12: Game |
-|---|---|---|---|---|
-| advance | Pass | Pass | Pass | Pass |
-| affordable | Pass | Pass | Pass | Pass |
-| analyze | Pass | Pass | Pass | Pass |
-| apply | Pass | Pass | Pass | Pass |
-| burden | Pass | Pass | Pass | Pass |
-| cancel | Pass | Pass | Pass | Pass |
-| device | Pass | Pass | Pass | Pass |
-| elect | Pass | Pass | Pass | Pass |
-| emphasize | Pass | Pass | Pass | Pass |
-| exclaim | Pass | Pass | Pass | Pass |
-| frustrate | Pass | Pass | Pass | Pass |
-| glimpse | Pass | Pass | Pass | Pass |
-| govern | Pass | Pass | Pass | Pass |
-| idle | Pass | Pass | Pass | Pass |
-| invest | Pass | Pass | Pass | Pass |
-| manner | Pass | Pass | Pass | Pass |
-| negative | Pass | Pass | Pass | Pass |
-| outcome | Pass | Pass | Pass | Pass |
-| regulate | Pass | Pass | Pass | Pass |
-| rhythm | Pass | Pass | Pass | Pass |
-| risk | Pass | Pass | Pass | Pass |
-| tension | Pass | Pass | Pass | Pass |
-| typical | Pass | Pass | Pass | Pass |
-| basement | Pass | Pass | Pass | Pass |
-| blade | Pass | Pass | Pass | Pass |
-| canyon | Pass | Pass | Pass | Pass |
-| chimney | Pass | Pass | Pass | Pass |
-| chunk | Pass | Pass | Pass | Pass |
-| creek | Pass | Pass | Pass | Pass |
-| crisp | Pass | Pass | Pass | Pass |
-| flask | Pass | Pass | Pass | Pass |
-| foil | Pass | Pass | Pass | Pass |
-| gasp | Pass | Pass | Pass | Pass |
-| glare | Pass | Pass | Pass | Pass |
-| glow | Pass | Pass | Pass | Pass |
-| hatch | Pass | Pass | Pass | Pass |
-| hose | Pass | Pass | Pass | Pass |
-| inn | Pass | Pass | Pass | Pass |
-| jolt | Pass | Pass | Pass | Pass |
-| ledge | Pass | Pass | Pass | Pass |
-| lumber | Pass | Pass | Pass | Pass |
-| mend | Pass | Pass | Pass | Pass |
-| quarry | Pass | Pass | Pass | Pass |
-| ridge | Pass | Pass | Pass | Pass |
-| slope | Pass | Pass | Pass | Pass |
-| spout | Pass | Pass | Pass | Pass |
-| stump | Pass | Pass | Pass | Pass |
-| torch | Pass | Pass | Pass | Pass |
-| wade | Pass | Pass | Pass | Pass |
-| asteroid | Pass | Pass | Pass | Pass |
-| axis | Pass | Pass | Pass | Pass |
-| carnivore | Pass | Pass | Pass | Pass |
-| census | Pass | Pass | Pass | Pass |
-| chlorophyll | Pass | Pass | Pass | Pass |
-| crater | Pass | Pass | Pass | Pass |
-| crustacean | Pass | Pass | Pass | Pass |
-| digestive | Pass | Pass | Pass | Pass |
-| elevation | Pass | Pass | Pass | Pass |
-| fertile | Pass | Pass | Pass | Pass |
-| glacier | Pass | Pass | Pass | Pass |
-| herbivore | Pass | Pass | Pass | Pass |
-| humidity | Pass | Pass | Pass | Pass |
-| legislature | Pass | Pass | Pass | Pass |
-| molecule | Pass | Pass | Pass | Pass |
-| arid | Pass | Pass | Pass | Pass |
-| archaeology | Pass | Pass | Pass | Pass |
-| mesa | Pass | Pass | Pass | Pass |
-| tundra | Pass | Pass | Pass | Pass |
-| stalagmite | Pass | Pass | Pass | Pass |
-| tributary | Pass | Pass | Pass | Pass |
-| archipelago | Pass | Pass | Pass | Pass |
-| stratosphere | Pass | Pass | Pass | Pass |
-| preamble | Pass | Pass | Pass | Pass |
-| filament | Pass | Pass | Pass | Pass |
-| nocturnal | Pass | Pass | Pass | Pass |
-| translucent | Pass | Pass | Pass | Pass |
-| omnivore | Pass | Pass | Pass | Pass |
-| plateau | Pass | Pass | Pass | Pass |
-| geothermal | Pass | Pass | Pass | Pass |
-| specimen | Pass | Pass | Pass | Pass |
-| meridian | Pass | Pass | Pass | Pass |
-| respiration | Pass | Pass | Pass | Pass |
-| paleontology | Pass | Pass | Pass | Pass |
-| aquifer | Pass | Pass | Pass | Pass |
-| deciduous | Pass | Pass | Pass | Pass |
-| pharaoh | Pass | Pass | Pass | Pass |
-| sedimentary | Pass | Pass | Pass | Pass |
-| isthmus | Pass | Pass | Pass | Pass |
-| dividend | Pass | Pass | Pass | Pass |
-| divisor | Pass | Pass | Pass | Pass |
-| mandate | Pass | Pass | Pass | Pass |
-| authentic | Pass | Pass | Pass | Pass |
-| scarcity | Pass | Pass | Pass | Pass |
-| ancestry | Pass | Pass | Pass | Pass |
-| interval | Pass | Pass | Pass | Pass |
-| eligible | Pass | Pass | Pass | Pass |
-| manipulate | Pass | Pass | Pass | Pass |
-| salvage | Pass | Pass | Pass | Pass |
-| acquire | Pass | Pass | Pass | Pass |
-| terminate | Pass | Pass | Pass | Pass |
-| verdict | Pass | Pass | Pass | Pass |
-| hangar | Pass | Pass | Pass | Pass |
-| hardship | Pass | Pass | Pass | Pass |
-| harpoon | Pass | Pass | Pass | Pass |
-| harrow | Pass | Pass | Pass | Pass |
-| haste | Pass | Pass | Pass | Pass |
-| havoc | Pass | Pass | Pass | Pass |
-| headway | Pass | Pass | Pass | Pass |
-| heed | Pass | Pass | Pass | Pass |
-| helm | Pass | Pass | Pass | Pass |
-| herald | Pass | Pass | Pass | Pass |
-| hermit | Pass | Pass | Pass | Pass |
-| hew | Pass | Pass | Pass | Pass |
-| hinge | Pass | Pass | Pass | Pass |
-| hoard | Pass | Pass | Pass | Pass |
-| hobble | Pass | Pass | Pass | Pass |
-| hoist | Pass | Pass | Pass | Pass |
-| homage | Pass | Pass | Pass | Pass |
-| homestead | Pass | Pass | Pass | Pass |
-| hone | Pass | Pass | Pass | Pass |
-| hornet | Pass | Pass | Pass | Pass |
-| hosiery | Pass | Pass | Pass | Pass |
-| hospitable | Pass | Pass | Pass | Pass |
-| hub | Pass | Pass | Pass | Pass |
-| huddle | Pass | Pass | Pass | Pass |
-| hull | Pass | Pass | Pass | Pass |
-| humus | Pass | Pass | Pass | Pass |
-| hurdle | Pass | Pass | Pass | Pass |
-| hurl | Pass | Pass | Pass | Pass |
-| hurricane | Pass | Pass | Pass | Pass |
-| hydrate | Pass | Pass | Pass | Pass |
-| hymn | Pass | Pass | Pass | Pass |
-| hyperbole | Pass | Pass | Pass | Pass |
-| icon | Pass | Pass | Pass | Pass |
-| imbue | Pass | Pass | Pass | Pass |
-| impervious | Pass | Pass | Pass | Pass |
-| impound | Pass | Pass | Pass | Pass |
-| indent | Pass | Pass | Pass | Pass |
-| inferno | Pass | Pass | Pass | Pass |
-| infuse | Pass | Pass | Pass | Pass |
-| inlet | Pass | Pass | Pass | Pass |
-| inquest | Pass | Pass | Pass | Pass |
-| instill | Pass | Pass | Pass | Pass |
-| insular | Pass | Pass | Pass | Pass |
-| intrigue | Pass | Pass | Pass | Pass |
-| inundate | Pass | Pass | Pass | Pass |
-| irate | Pass | Pass | Pass | Pass |
-| irk | Pass | Pass | Pass | Pass |
-| ivory | Pass | Pass | Pass | Pass |
-| jaunt | Pass | Pass | Pass | Pass |
-| jest | Pass | Pass | Pass | Pass |
-| jettison | Pass | Pass | Pass | Pass |
-| jinx | Pass | Pass | Pass | Pass |
-| jostle | Pass | Pass | Pass | Pass |
-| jubilant | Pass | Pass | Pass | Pass |
-| juncture | Pass | Pass | Pass | Pass |
-| juniper | Pass | Pass | Pass | Pass |
-| kernel | Pass | Pass | Pass | Pass |
-| kilt | Pass | Pass | Pass | Pass |
-| knack | Pass | Pass | Pass | Pass |
-| knead | Pass | Pass | Pass | Pass |
-| knell | Pass | Pass | Pass | Pass |
-| knoll | Pass | Pass | Pass | Pass |
-| lacquer | Pass | Pass | Pass | Pass |
-| lair | Pass | Pass | Pass | Pass |
-| lance | Pass | Pass | Pass | Pass |
-| lanky | Pass | Pass | Pass | Pass |
-| lattice | Pass | Pass | Pass | Pass |
-| lavish | Pass | Pass | Pass | Pass |
-| ledger | Pass | Pass | Pass | Pass |
-| leech | Pass | Pass | Pass | Pass |
-| leer | Pass | Pass | Pass | Pass |
-| legible | Pass | Pass | Pass | Pass |
-| legion | Pass | Pass | Pass | Pass |
-| lever | Pass | Pass | Pass | Pass |
-| lilac | Pass | Pass | Pass | Pass |
-| limber | Pass | Pass | Pass | Pass |
-| limelight | Pass | Pass | Pass | Pass |
-| limpid | Pass | Pass | Pass | Pass |
-| lineage | Pass | Pass | Pass | Pass |
-| linen | Pass | Pass | Pass | Pass |
-| lintel | Pass | Pass | Pass | Pass |
-| listless | Pass | Pass | Pass | Pass |
-| litany | Pass | Pass | Pass | Pass |
-| lithe | Pass | Pass | Pass | Pass |
-| livelihood | Pass | Pass | Pass | Pass |
-| loam | Pass | Pass | Pass | Pass |
-| lobe | Pass | Pass | Pass | Pass |
-| locale | Pass | Pass | Pass | Pass |
-| locomotion | Pass | Pass | Pass | Pass |
-| loft | Pass | Pass | Pass | Pass |
-| lore | Pass | Pass | Pass | Pass |
-| lucid | Pass | Pass | Pass | Pass |
-| lull | Pass | Pass | Pass | Pass |
-| lunge | Pass | Pass | Pass | Pass |
+| Word | L9: imageKeyword | L10: Fact Check | L11: Meaning | L12: Game Ready | Note |
+|---|---|---|---|---|---|
+| advance | PASS | PASS | PASS | PASS | chess forward |
+| affordable | PASS | PASS | PASS | PASS | cheap lemonade |
+| analyze | PASS | PASS | PASS | PASS | magnifying insect |
+| apply | PASS | PASS | PASS | PASS | applying sunscreen |
+| burden | PASS | PASS | PASS | PASS | heavy books |
+| cancel | PASS | PASS | PASS | PASS | canceled game |
+| device | PASS | PASS | PASS | PASS | thermometer device |
+| elect | PASS | PASS | PASS | PASS | voting election |
+| emphasize | PASS | PASS | PASS | PASS | underlining word |
+| exclaim | PASS | PASS | PASS | PASS | excited pointing |
+| frustrate | PASS | PASS | PASS | PASS | frustrated puzzle |
+| glimpse | PASS | PASS | PASS | PASS | quick fox |
+| govern | PASS | PASS | PASS | PASS | student council |
+| idle | PASS | PASS | PASS | PASS | empty swing |
+| invest | PASS | PASS | PASS | PASS | investing money |
+| manner | PASS | PASS | PASS | PASS | polite behavior |
+| negative | PASS | PASS | PASS | PASS | below zero |
+| outcome | PASS | PASS | PASS | PASS | experiment result |
+| regulate | PASS | PASS | PASS | PASS | thermostat control |
+| rhythm | PASS | PASS | PASS | PASS | drum rhythm |
+| risk | PASS | PASS | PASS | PASS | beehive risk |
+| tension | PASS | PASS | PASS | PASS | nervous waiting |
+| typical | PASS | PASS | PASS | PASS | typical school day schedule |
+| basement | PASS | PASS | PASS | PASS | house basement |
+| blade | PASS | PASS | PASS | PASS | grass blade |
+| canyon | PASS | PASS | PASS | PASS | grand canyon |
+| chimney | PASS | PASS | PASS | PASS | smoking chimney |
+| chunk | PASS | PASS | PASS | PASS | watermelon chunk |
+| creek | PASS | PASS | PASS | PASS | small creek |
+| crisp | PASS | PASS | PASS | PASS | crunchy leaves |
+| flask | PASS | PASS | PASS | PASS | science flask |
+| foil | PASS | PASS | PASS | PASS | aluminum foil |
+| gasp | PASS | PASS | PASS | PASS | surprised gasp |
+| glare | PASS | PASS | PASS | PASS | snow glare |
+| glow | PASS | PASS | PASS | PASS | glowing pumpkin |
+| hatch | PASS | PASS | PASS | PASS | chick hatching |
+| hose | PASS | PASS | PASS | PASS | garden hose |
+| inn | PASS | PASS | PASS | PASS | country inn |
+| jolt | PASS | PASS | PASS | PASS | sudden bump |
+| ledge | PASS | PASS | PASS | PASS | window ledge |
+| lumber | PASS | PASS | PASS | PASS | wood lumber |
+| mend | PASS | PASS | PASS | PASS | sewing fix |
+| quarry | PASS | PASS | PASS | PASS | stone quarry |
+| ridge | PASS | PASS | PASS | PASS | mountain ridge |
+| slope | PASS | PASS | PASS | PASS | grassy hill |
+| spout | PASS | PASS | PASS | PASS | whale spout |
+| stump | PASS | PASS | PASS | PASS | tree stump |
+| torch | PASS | PASS | PASS | PASS | cave torch |
+| wade | PASS | PASS | PASS | PASS | wading stream |
+| asteroid | PASS | PASS | PASS | PASS | asteroid space |
+| axis | PASS | PASS | PASS | PASS | earth axis |
+| carnivore | PASS | PASS | PASS | PASS | lion carnivore |
+| census | PASS | PASS | PASS | PASS | counting people |
+| chlorophyll | PASS | PASS | PASS | PASS | green leaf |
+| crater | PASS | PASS | PASS | PASS | moon crater |
+| crustacean | PASS | PASS | PASS | PASS | lobster crustacean |
+| digestive | PASS | PASS | PASS | PASS | digestive system |
+| elevation | PASS | PASS | PASS | PASS | mountain elevation |
+| fertile | PASS | PASS | PASS | PASS | rich farmland |
+| glacier | PASS | PASS | PASS | PASS | glacier ice |
+| herbivore | PASS | PASS | PASS | PASS | rabbit eating |
+| humidity | PASS | PASS | PASS | PASS | foggy glasses |
+| legislature | PASS | PASS | PASS | PASS | lawmakers voting |
+| molecule | PASS | PASS | PASS | PASS | water molecule |
+| arid | PASS | PASS | PASS | PASS | arid cactus |
+| archaeology | PASS | PASS | PASS | PASS | digging artifacts |
+| mesa | PASS | PASS | PASS | PASS | desert mesa |
+| tundra | PASS | PASS | PASS | PASS | arctic tundra |
+| stalagmite | PASS | PASS | PASS | PASS | cave stalagmite |
+| tributary | PASS | PASS | PASS | PASS | river tributary |
+| archipelago | PASS | PASS | PASS | PASS | island chain |
+| stratosphere | PASS | PASS | PASS | PASS | stratosphere layer |
+| preamble | PASS | PASS | PASS | PASS | document beginning |
+| filament | PASS | PASS | PASS | PASS | light bulb wire |
+| nocturnal | PASS | PASS | PASS | PASS | owl night |
+| translucent | PASS | PASS | PASS | PASS | jellyfish light |
+| omnivore | PASS | PASS | PASS | PASS | bear eating |
+| plateau | PASS | PASS | PASS | PASS | flat plateau |
+| geothermal | PASS | PASS | PASS | PASS | hot spring |
+| specimen | PASS | PASS | PASS | PASS | rock specimen |
+| meridian | PASS | PASS | PASS | PASS | prime meridian |
+| respiration | PASS | PASS | PASS | PASS | breathing lungs |
+| paleontology | PASS | PASS | PASS | PASS | dinosaur bones |
+| aquifer | PASS | PASS | PASS | PASS | underground water |
+| deciduous | PASS | PASS | PASS | PASS | bare autumn tree |
+| pharaoh | PASS | PASS | PASS | PASS | egyptian pharaoh |
+| sedimentary | PASS | PASS | PASS | PASS | layered rock |
+| isthmus | PASS | PASS | PASS | PASS | land bridge |
+| dividend | PASS | PASS | PASS | PASS | division problem |
+| divisor | PASS | PASS | PASS | PASS | dividing number |
+| mandate | PASS | PASS | PASS | PASS | official order |
+| authentic | PASS | PASS | PASS | PASS | real artifact |
+| scarcity | PASS | PASS | PASS | PASS | water shortage |
+| ancestry | PASS | PASS | PASS | PASS | family history |
+| interval | PASS | PASS | PASS | PASS | time between |
+| eligible | PASS | PASS | PASS | PASS | meeting rules |
+| manipulate | PASS | PASS | PASS | PASS | shaping clay |
+| salvage | PASS | PASS | PASS | PASS | saving items |
+| acquire | PASS | PASS | PASS | PASS | getting trophy |
+| terminate | PASS | PASS | PASS | PASS | end station |
+| verdict | PASS | PASS | PASS | PASS | final decision |
+| hangar | PASS | PASS | PASS | PASS | airplane hangar |
+| hardship | PASS | PASS | PASS | PASS | difficult life |
+| harpoon | PASS | PASS | PASS | PASS | harpoon spear |
+| harrow | PASS | PASS | PASS | PASS | farm harrow |
+| haste | PASS | PASS | PASS | PASS | rushing person |
+| havoc | PASS | PASS | PASS | PASS | tornado damage |
+| headway | PASS | PASS | PASS | PASS | making progress |
+| heed | PASS | PASS | PASS | PASS | listening advice |
+| helm | PASS | PASS | PASS | PASS | ship wheel |
+| herald | PASS | PASS | PASS | PASS | robin spring |
+| hermit | PASS | PASS | PASS | PASS | lonely cabin |
+| hew | PASS | PASS | PASS | PASS | chopping wood |
+| hinge | PASS | PASS | PASS | PASS | door hinge |
+| hoard | PASS | PASS | PASS | PASS | dragon treasure |
+| hobble | PASS | PASS | PASS | PASS | limping person |
+| hoist | PASS | PASS | PASS | PASS | hoisting anchor |
+| homage | PASS | PASS | PASS | PASS | memorial statue |
+| homestead | PASS | PASS | PASS | PASS | farm homestead |
+| hone | PASS | PASS | PASS | PASS | practicing drawing |
+| hornet | PASS | PASS | PASS | PASS | hornet insect |
+| hosiery | PASS | PASS | PASS | PASS | socks stockings |
+| hospitable | PASS | PASS | PASS | PASS | welcoming host |
+| hub | PASS | PASS | PASS | PASS | busy airport |
+| huddle | PASS | PASS | PASS | PASS | team huddle |
+| hull | PASS | PASS | PASS | PASS | ship hull |
+| humus | PASS | PASS | PASS | PASS | rich soil |
+| hurdle | PASS | PASS | PASS | PASS | track hurdle |
+| hurl | PASS | PASS | PASS | PASS | throwing ball |
+| hurricane | PASS | PASS | PASS | PASS | hurricane storm |
+| hydrate | PASS | PASS | PASS | PASS | drinking water |
+| hymn | PASS | PASS | PASS | PASS | choir singing |
+| hyperbole | PASS | PASS | PASS | PASS | eating huge sandwich |
+| icon | PASS | PASS | PASS | PASS | computer icon |
+| imbue | PASS | PASS | PASS | PASS | inspiring teacher |
+| impervious | PASS | PASS | PASS | PASS | waterproof jacket |
+| impound | PASS | PASS | PASS | PASS | towed car |
+| indent | PASS | PASS | PASS | PASS | indented paragraph |
+| inferno | PASS | PASS | PASS | PASS | raging fire |
+| infuse | PASS | PASS | PASS | PASS | infused water |
+| inlet | PASS | PASS | PASS | PASS | coastal inlet |
+| inquest | PASS | PASS | PASS | PASS | judge courtroom |
+| instill | PASS | PASS | PASS | PASS | teaching teamwork |
+| insular | PASS | PASS | PASS | PASS | isolated village |
+| intrigue | PASS | PASS | PASS | PASS | mysterious box |
+| inundate | PASS | PASS | PASS | PASS | overflowing inbox |
+| irate | PASS | PASS | PASS | PASS | angry customer |
+| irk | PASS | PASS | PASS | PASS | annoying drip |
+| ivory | PASS | PASS | PASS | PASS | ivory piano |
+| jaunt | PASS | PASS | PASS | PASS | beach trip |
+| jest | PASS | PASS | PASS | PASS | joking around |
+| jettison | PASS | PASS | PASS | PASS | throwing overboard |
+| jinx | PASS | PASS | PASS | PASS | broken mirror |
+| jostle | PASS | PASS | PASS | PASS | crowded pushing |
+| jubilant | PASS | PASS | PASS | PASS | celebrating team |
+| juncture | PASS | PASS | PASS | PASS | decision point |
+| juniper | PASS | PASS | PASS | PASS | juniper berries |
+| kernel | PASS | PASS | PASS | PASS | popcorn kernel |
+| kilt | PASS | PASS | PASS | PASS | plaid kilt |
+| knack | PASS | PASS | PASS | PASS | handy person |
+| knead | PASS | PASS | PASS | PASS | kneading dough |
+| knell | PASS | PASS | PASS | PASS | bell tolling |
+| knoll | PASS | PASS | PASS | PASS | small hill |
+| lacquer | PASS | PASS | PASS | PASS | shiny lacquer |
+| lair | PASS | PASS | PASS | PASS | bear cave |
+| lance | PASS | PASS | PASS | PASS | knight lance |
+| lanky | PASS | PASS | PASS | PASS | tall thin person |
+| lattice | PASS | PASS | PASS | PASS | garden lattice |
+| lavish | PASS | PASS | PASS | PASS | fancy party |
+| ledger | PASS | PASS | PASS | PASS | accounting book |
+| leech | PASS | PASS | PASS | PASS | leech worm |
+| leer | PASS | PASS | PASS | PASS | sly look |
+| legible | PASS | PASS | PASS | PASS | neat handwriting |
+| legion | PASS | PASS | PASS | PASS | large crowd |
+| lever | PASS | PASS | PASS | PASS | lever tool |
+| lilac | PASS | PASS | PASS | PASS | lilac flowers |
+| limber | PASS | PASS | PASS | PASS | flexible gymnast |
+| limelight | PASS | PASS | PASS | PASS | spotlight stage |
+| limpid | PASS | PASS | PASS | PASS | clear stream |
+| lineage | PASS | PASS | PASS | PASS | family tree |
+| linen | PASS | PASS | PASS | PASS | linen fabric |
+| lintel | PASS | PASS | PASS | PASS | door lintel |
+| listless | PASS | PASS | PASS | PASS | tired person |
+| litany | PASS | PASS | PASS | PASS | long list |
+| lithe | PASS | PASS | PASS | PASS | graceful dancer |
+| livelihood | PASS | PASS | PASS | PASS | fisherman working |
+| loam | PASS | PASS | PASS | PASS | garden soil |
+| lobe | PASS | PASS | PASS | PASS | ear lobe |
+| locale | PASS | PASS | PASS | PASS | filming location |
+| locomotion | PASS | PASS | PASS | PASS | movement types |
+| loft | PASS | PASS | PASS | PASS | attic loft |
+| lore | PASS | PASS | PASS | PASS | elder storytelling |
+| lucid | PASS | PASS | PASS | PASS | clear explanation |
+| lull | PASS | PASS | PASS | PASS | calm break |
+| lunge | PASS | PASS | PASS | PASS | fencer lunging |
