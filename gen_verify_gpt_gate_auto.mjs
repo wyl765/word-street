@@ -398,7 +398,8 @@ function l7Culture(item) {
   if (/(poverty|destitution|homeless)/.test(w + ' ' + ex)) flags.push('贫困议题(避免“卖惨”)');
   if (/(gulf of mexico|yellowstone|california|texas|louisiana|pacific ocean|college|baseball|farmers market)/.test(w + ' ' + ex)) flags.push('美式语境/地名');
   if (/(secret)\b/.test(w) && /(don\x27t tell|keep.*secret)/.test(ex)) flags.push('“保密”表达');
-  if (/(wizard|magic|spell|omnipotent)/.test(w + ' ' + ex)) flags.push('神秘/宗教类设定(家长口味分化)');
+  // Use word-boundary matching to avoid false positives like "spelling" triggering "spell".
+  if (/(\bwizard\b|\bmagic\b|\bmagical\b|\bspell\b|\bomnipotent\b)/.test(w + ' ' + ex)) flags.push('神秘/宗教类设定(家长口味分化)');
 
   if (flags.length) {
     status = '注意';
