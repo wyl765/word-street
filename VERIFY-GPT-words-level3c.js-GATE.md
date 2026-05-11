@@ -29,7 +29,7 @@ Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例
 - basement | L5:能;例句:勉强(卡:holiday decorations) | L6:能(4选1唯一) | L7:OK | L8:合适
 - blade | L5:不能(卡:双义 knife/grass);例句:勉强(草叶) | L6:不能(有多义+选项易混) | L7:OK | L8:偏难(建议分开义项)
 - canyon | L5:不能(卡:valley/steep);例句:勉强 | L6:勉强(可能和“valley/cliff”混) | L7:OK | L8:偏难
-- chimney | L5:勉强(定义语法乱但能抓住“smoke tube”);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
+- chimney | L5:勉强(卡:tube/smoke goes out);例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - chunk | L5:能;例句:能 | L6:能(4选1唯一) | L7:OK | L8:合适
 - creek | L5:勉强(卡:stream);例句:勉强 | L6:勉强(可能和“stream/river”混) | L7:OK | L8:偏难
 - crisp | L5:不能(卡:firm/fresh);例句:勉强(autumn leaves) | L6:勉强(可能和“crunchy”混) | L7:OK | L8:偏难
