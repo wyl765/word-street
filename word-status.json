@@ -22,7 +22,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass",
+      "gate6": "pass", "gate7": "pass",
       "gate13": "pass",
       "gate14": "pass",
       "gate9": "pass",
@@ -38,7 +38,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass",
+      "gate6": "pass", "gate7": "pass",
       "gate13": "pass",
       "gate14": "pass",
       "gate9": "pass",
@@ -54,7 +54,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass",
+      "gate6": "pass", "gate7": "pass",
       "gate13": "pass",
       "gate14": "pass"
     },
@@ -66,7 +66,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass",
+      "gate6": "pass", "gate7": "pass",
       "gate13": "pass",
       "gate14": "pass"
     },
@@ -78,7 +78,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass",
+      "gate6": "pass", "gate7": "pass",
       "gate13": "pass",
       "gate14": "pass"
     },
@@ -90,7 +90,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass",
+      "gate6": "pass", "gate7": "pass",
       "gate14": "pass"
     },
     "words-level3a.js": {
@@ -101,7 +101,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass",
+      "gate6": "pass", "gate7": "pass",
       "gate9": "pass",
       "gate10": "pass",
       "gate11": "pass",
@@ -115,7 +115,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     },
     "words-level3c.js": {
       "totalWords": 195,
@@ -125,7 +125,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     },
     "words-level4a.js": {
       "totalWords": 301,
@@ -135,7 +135,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     },
     "words-level4b.js": {
       "totalWords": 310,
@@ -145,7 +145,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     },
     "words-level4c.js": {
       "totalWords": 343,
@@ -155,7 +155,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     },
     "words-level5a.js": {
       "totalWords": 232,
@@ -165,7 +165,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     },
     "words-level5b.js": {
       "totalWords": 251,
@@ -175,7 +175,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     },
     "words-level5c.js": {
       "totalWords": 328,
@@ -185,7 +185,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     },
     "words-level5d.js": {
       "totalWords": 288,
@@ -195,7 +195,7 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass", "gate7": "pass"
     }
   }
 }
