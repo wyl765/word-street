@@ -1,292 +1,292 @@
 # VERIFY-GEMINI-words-level5d.js-GATE
 
-| Word | L9: Image Search | L10: Fact Check | L11: Polysemy/Meaning | L12: Game Mechanics |
-|------|-------------------|-----------------|-----------------------|---------------------|
-| accusatory | PASS - "pointing finger" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| acidity | PASS - "lemon acid" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| acquaintance | PASS - "casual greeting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| adjoining | PASS - "connected rooms" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| adornment | PASS - "jewelry decoration" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| affirmation | PASS - "positive words mirror" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| amnesty | PASS - "pardon freedom" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| animated | PASS - "lively person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| antagonist | PASS - "villain character" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| ardent | PASS - "passionate fan" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| aristocracy | PASS - "noble palace" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| articulation | PASS - "clear speaking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| aspirant | PASS - "goal reaching" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| assertion | PASS - "confident statement" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| astute | PASS - "sharp observer" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| atrophy | PASS - "weak muscle" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| audacity | PASS - "bold person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| auspicious | PASS - "lucky sunrise" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| authoritarian | PASS - "strict ruler" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| autonomy | PASS - "independence freedom" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| avarice | PASS - "greedy gold" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| avid | PASS - "eager reader" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| axiom | PASS - "math truth" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| belligerent | PASS - "aggressive stance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| benevolence | PASS - "generous giving" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| bewilder | PASS - "confused amazed" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| blight | PASS - "diseased plant" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| bombard | PASS - "many questions" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| bounty | PASS - "harvest abundance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| capitalize | PASS - "opportunity seize" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| capricious | PASS - "changing weather" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| captivating | PASS - "enchanted reader" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| catastrophic | PASS - "earthquake damage" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| caustic | PASS - "chemical warning" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| cessation | PASS - "rain stopping" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| chronological | PASS - "timeline order" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| circumscribe | PASS - "circle boundary" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| clamber | PASS - "climbing rocks" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| clandestine | PASS - "secret meeting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| coalesce | PASS - "streams merging" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| cogent | PASS - "logical argument" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| cognition | PASS - "glowing brain with gears" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| coherence | PASS - "connected puzzle" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| commemoration | PASS - "memorial statue" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| commencement | PASS - "graduation ceremony" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| compendium | PASS - "reference book" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| complacency | PASS - "sleeping on the job" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| complementary | PASS - "color wheel" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| compliance | PASS - "following rules" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| concession | PASS - "compromise handshake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| concord | PASS - "harmony peace" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| condemnation | PASS - "disapproval sign" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| condescending | PASS - "looking down" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| confluence | PASS - "rivers meeting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| conjecture | PASS - "guessing thinking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| conscription | PASS - "military draft" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| consecrate | PASS - "sacred ceremony" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| consequential | PASS - "important decision" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| conservatory | PASS - "greenhouse plants" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| consolidation | PASS - "companies joining one" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| constituency | PASS - "voting citizens" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| constitutional | PASS - "constitution document" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| consultation | PASS - "meeting advice" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| consummate | PASS - "perfect performance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| contagious | PASS - "spreading germs" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| contemplation | PASS - "person meditating thinking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| continuity | PASS - "unbroken chain" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| contradiction | PASS - "opposite signs" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| copious | PASS - "many notes" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| cordial | PASS - "friendly greeting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| corroborate | PASS - "confirming evidence" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| creed | PASS - "guiding principles" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| culpable | PASS - "blame responsibility" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| cynical | PASS - "doubtful person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| daunting | PASS - "scary challenging obstacle" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| decorum | PASS - "formal behavior" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| defunct | PASS - "abandoned factory" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| delineate | PASS - "drawing borders" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| demeanor | PASS - "calm posture" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| depiction | PASS - "painting scene" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| depletion | PASS - "empty resource" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| deportation | PASS - "exile leaving" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| deprivation | PASS - "tired exhausted" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| derogatory | PASS - "mean words" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| deterrent | PASS - "warning alarm" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| dexterity | PASS - "skilled hands" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| dichotomy | PASS - "split two" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| dilapidated | PASS - "ruined house" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| diligence | PASS - "hard work" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| diminutive | PASS - "tiny bird" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| disclaimer | PASS - "warning label" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| discrepancy | PASS - "mismatch difference" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| dismantle | PASS - "taking apart" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| disparity | PASS - "unequal balance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| dissolution | PASS - "breaking apart" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| echelon | PASS - "hierarchy levels" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| edifice | PASS - "grand building" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| egalitarian | PASS - "equal people" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| elicit | PASS - "causing laughter" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| emblem | PASS - "national symbol" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| eradicate | PASS - "eliminating germs" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| esteem | PASS - "respect admiration" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| ethical | PASS - "angel devil on shoulders" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| etiquette | PASS - "polite manners" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| eulogy | PASS - "memorial speech" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| excise | PASS - "cutting scissors" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| exclamation | PASS - "surprised shout" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| exemplary | PASS - "gold star" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| exemption | PASS - "exception pass" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| exodus | PASS - "crowd leaving" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| expedient | PASS - "shortcut path" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| exploitation | PASS - "unfair labor" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| exquisite | PASS - "beautiful painting" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| fallacy | PASS - "wrong idea" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| feasibility | PASS - "planning possible" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| fervent | PASS - "passionate cheering" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| flagrant | PASS - "obvious cheating" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| fledgling | PASS - "baby bird" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| forbearance | PASS - "patience calm" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| forgo | PASS - "saying no" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| frivolous | PASS - "silly spending" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| gentry | PASS - "wealthy landowners" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| gluttony | PASS - "overeating feast" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| harmonious | PASS - "harmony together" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| hypocrisy | PASS - "two faces" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| immunity | PASS - "shield protection" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| impasse | PASS - "blocked road" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| impeachment | PASS - "court trial" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| impromptu | PASS - "surprise test" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| impunity | PASS - "no consequences" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| inadvertent | PASS - "accidental spill" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| inception | PASS - "starting point" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| inclination | PASS - "leaning toward" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| indictment | PASS - "court charge" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| indignation | PASS - "angry protest" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| inertia | PASS - "still object" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| infallible | PASS - "perfect record" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| inference | PASS - "clue deduction" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| infringement | PASS - "rule violation" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| inquisitive | PASS - "curious child" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| insatiable | PASS - "endless hunger" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| insolvency | PASS - "empty wallet" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| integration | PASS - "combining subjects" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| intervention | PASS - "doctor helping patient" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| intimidation | PASS - "threatening stance" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| itinerary | PASS - "travel plan" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| jubilee | PASS - "anniversary celebration" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| jurisprudence | PASS - "law books" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| lenient | PASS - "gentle teacher" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| liberation | PASS - "freedom celebration" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| luminous | PASS - "bright moon" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| malevolent | PASS - "evil villain" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| manifesto | PASS - "declaration poster" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| mediation | PASS - "peace mediator" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| mercenary | PASS - "hired soldier" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| meticulous | PASS - "detailed work" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| mitigate | PASS - "reducing harm" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| myriad | PASS - "countless stars" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| negligence | PASS - "careless mistake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| nemesis | PASS - "rival opponent" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| nonchalant | PASS - "casual relaxed" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| notoriety | PASS - "infamous person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| nurture | PASS - "caring growth" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| oblivious | PASS - "person not noticing danger" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| ominous | PASS - "dark clouds" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| oppression | PASS - "heavy chains" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| optimism | PASS - "bright sunshine" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| ornate | PASS - "decorated frame" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| ostracize | PASS - "excluded alone" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| paramount | PASS - "top priority" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| penchant | PASS - "favorite hobby" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| penitent | PASS - "sorry apology" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| permeate | PASS - "spreading aroma" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| perpetuate | PASS - "continuing cycle" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| perseverance | PASS - "never giving up" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| pessimism | PASS - "gloomy outlook" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| placate | PASS - "offering peace gift" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| precinct | PASS - "district map" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| predicament | PASS - "stuck trouble" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| preemptive | PASS - "acting first" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| prerogative | PASS - "special right" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| prestige | PASS - "trophy honor" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| principled | PASS - "person standing firm beliefs" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| probation | PASS - "trial period" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| proficiency | PASS - "skilled expert" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| propensity | PASS - "natural tendency" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| proponent | PASS - "supporter advocate" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| propriety | PASS - "formal etiquette manners" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| prosperity | PASS - "thriving town" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| protagonist | PASS - "main character" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| provocation | PASS - "teasing anger" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| purview | PASS - "authority scope" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| rebuke | PASS - "stern scolding" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| redundant | PASS - "extra repeated" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| relinquish | PASS - "letting go" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| remnant | PASS - "remaining piece" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| remuneration | PASS - "paycheck money" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| renounce | PASS - "giving up crown" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| repercussion | PASS - "consequence result" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| reprimand | PASS - "boss correcting employee" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| resilience | PASS - "bouncing back" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| resurgence | PASS - "comeback rising" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| revere | PASS - "deep respect" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| rudimentary | PASS - "simple basic" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| sanctuary | PASS - "wildlife refuge" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| secession | PASS - "puzzle piece pulling away" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| servitude | PASS - "forced labor" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| sporadic | PASS - "scattered rain" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| staunch | PASS - "loyal supporter" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| strife | PASS - "conflict argument" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| subjugate | PASS - "forced control" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| supremacy | PASS - "top power" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| sustenance | PASS - "food water" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| synthesis | PASS - "combining ideas" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| temperament | PASS - "calm nature" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| totalitarian | PASS - "strict control" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| tranquility | PASS - "peaceful lake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| transparency | PASS - "clear glass" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| tribunal | PASS - "court hearing" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| tumultuous | PASS - "excited crowd" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| tyranny | PASS - "cruel ruler" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| unilateral | PASS - "one-sided choice" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| unprecedented | PASS - "record breaking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| upheaval | PASS - "big change" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| usurp | PASS - "seizing throne" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| utopian | PASS - "dreamy ideal society" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| validate | PASS - "checkmark approval" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| vehement | PASS - "passionate protest" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| viable | PASS - "working solution" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| vigilant | PASS - "watchful guard" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| vindicate | PASS - "proven innocent" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| voracious | PASS - "eager hungry" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| wane | PASS - "fading moon" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| zealous | PASS - "enthusiastic helper" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| abdicate | PASS - "stepping down" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| accolade | PASS - "award trophy" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| affable | PASS - "friendly smile" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| ambivalent | PASS - "mixed feelings" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| amenable | PASS - "agreeable person" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| amicable | PASS - "friendly handshake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| anecdotal | PASS - "storytelling" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| antipathy | PASS - "strong dislike" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| apathetic | PASS - "bored audience" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| attrition | PASS - "erosion slow decay" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| bravado | PASS - "pretending brave" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| cavalier | PASS - "careless shrug" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| cede | PASS - "surrendering land" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| charlatan | PASS - "fake pretender" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| circumspect | PASS - "careful planning" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| commensurate | PASS - "equal match" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| conciliatory | PASS - "peacemaking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| congenial | PASS - "welcoming place" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| connive | PASS - "sneaky plan" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| contrite | PASS - "sorry face" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| conundrum | PASS - "puzzle problem" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| cosmopolitan | PASS - "diverse city" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| credulous | PASS - "gullible believing" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| debacle | PASS - "disaster mess" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| demagogue | PASS - "angry speaker" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| denouncement | PASS - "public statement" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| deprecate | PASS - "thumbs down" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| derelict | PASS - "abandoned building" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| digression | PASS - "side path" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| dirge | PASS - "sad music" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| dissident | PASS - "protester speaking" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| docile | PASS - "gentle pony" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| egregious | PASS - "terrible mistake" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| elusive | PASS - "escaping butterfly" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| emissary | PASS - "messenger envoy" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| exonerate | PASS - "freed from prison innocent" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| extrapolate | PASS - "predicting trend" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| fastidious | PASS - "perfectionist detail" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| fiasco | PASS - "stage collapse" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| filibuster | PASS - "long speech" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| fracas | PASS - "noisy argument" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| acclimate | PASS - "adjusting temperature" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| agnostic | PASS - "open question" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| alacrity | PASS - "eager running" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| arbitrate | PASS - "neutral judge" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| ascendancy | PASS - "rising arrow" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| whimsical | PASS - "playful garden" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| zenith | PASS - "highest point" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| amicably | PASS - "peaceful friendly agreement" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| gratify | PASS - "happy satisfaction" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| personable | PASS - "warm host" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| perilous | PASS - "dangerous path" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| orthodontics | PASS - "dental braces" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
-| palindrome | PASS - "mirror word" is distinct | PASS - accurate definition | PASS - appropriate meaning for 10yo | PASS - fits all 4 modes |
+| Word | L9 Image | L10 Fact | L11 Polysemy | L12 Game |
+|---|---|---|---|---|
+| accusatory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| acidity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| acquaintance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| adjoining | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| adornment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| affirmation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| amnesty | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| animated | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| antagonist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| ardent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| aristocracy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| articulation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| aspirant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| assertion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| astute | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| atrophy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| audacity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| auspicious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| authoritarian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| autonomy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| avarice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| avid | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| axiom | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| belligerent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| benevolence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| bewilder | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| blight | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| bombard | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| bounty | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| capitalize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| capricious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| captivating | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| catastrophic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| caustic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| cessation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| chronological | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| circumscribe | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| clamber | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| clandestine | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| coalesce | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| cogent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| cognition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| coherence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| commemoration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| commencement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| compendium | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| complacency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| complementary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| compliance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| concession | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| concord | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| condemnation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| condescending | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| confluence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| conjecture | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| conscription | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| consecrate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| consequential | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| conservatory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| consolidation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| constituency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| constitutional | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| consultation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| consummate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| contagious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| contemplation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| continuity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| contradiction | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| copious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| cordial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| corroborate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| creed | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| culpable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| cynical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| daunting | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| decorum | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| defunct | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| delineate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| demeanor | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| depiction | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| depletion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| deportation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| deprivation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| derogatory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| deterrent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| dexterity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| dichotomy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| dilapidated | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| diligence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| diminutive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| disclaimer | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| discrepancy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| dismantle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| disparity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| dissolution | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| echelon | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| edifice | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| egalitarian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| elicit | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| emblem | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| eradicate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| esteem | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| ethical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| etiquette | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| eulogy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| excise | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| exclamation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| exemplary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| exemption | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| exodus | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| expedient | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| exploitation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| exquisite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| fallacy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| feasibility | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| fervent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| flagrant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| fledgling | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| forbearance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| forgo | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| frivolous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| gentry | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| gluttony | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| harmonious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| hypocrisy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| immunity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| impasse | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| impeachment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| impromptu | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| impunity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| inadvertent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| inception | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| inclination | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| indictment | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| indignation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| inertia | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| infallible | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| inference | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| infringement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| inquisitive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| insatiable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| insolvency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| integration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| intervention | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| intimidation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| itinerary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| jubilee | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| jurisprudence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| lenient | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| liberation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| luminous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| malevolent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| manifesto | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| mediation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| mercenary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| meticulous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| mitigate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| myriad | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| negligence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| nemesis | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| nonchalant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| notoriety | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| nurture | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| oblivious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| ominous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| oppression | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| optimism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| ornate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| ostracize | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| paramount | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| penchant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| penitent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| permeate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| perpetuate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| perseverance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| pessimism | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| placate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| precinct | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| predicament | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| preemptive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| prerogative | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| prestige | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| principled | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| probation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| proficiency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| propensity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| proponent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| propriety | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| prosperity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| protagonist | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| provocation | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| purview | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| rebuke | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| redundant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| relinquish | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| remnant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| remuneration | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| renounce | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| repercussion | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| reprimand | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| resilience | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| resurgence | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| revere | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| rudimentary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| sanctuary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| secession | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| servitude | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| sporadic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| staunch | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| strife | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| subjugate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| supremacy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| sustenance | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| synthesis | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| temperament | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| totalitarian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| tranquility | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| transparency | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| tribunal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| tumultuous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| tyranny | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| unilateral | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| unprecedented | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| upheaval | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| usurp | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| utopian | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| validate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| vehement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| viable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| vigilant | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| vindicate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| voracious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| wane | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| zealous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| abdicate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| accolade | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| affable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| ambivalent | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| amenable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| amicable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| anecdotal | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| antipathy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| apathetic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| attrition | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| bravado | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| cavalier | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| cede | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| charlatan | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| circumspect | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| commensurate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| conciliatory | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| congenial | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| connive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| contrite | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| conundrum | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| cosmopolitan | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| credulous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| debacle | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| demagogue | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| denouncement | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| deprecate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| derelict | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| digression | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| dirge | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| dissident | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| docile | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| egregious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| elusive | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| emissary | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| exonerate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| extrapolate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| fastidious | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| fiasco | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| filibuster | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| fracas | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| acclimate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| agnostic | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| alacrity | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| arbitrate | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| ascendancy | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| whimsical | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| zenith | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| amicably | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| gratify | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| personable | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| perilous | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| orthodontics | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
+| palindrome | OK - Image clear | OK - Fact correct | OK - Common sense | OK - Game compatible |
