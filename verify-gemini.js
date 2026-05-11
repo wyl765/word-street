@@ -1,45 +1,19 @@
 const fs = require('fs');
+const path = require('path');
 
-async function main() {
-  const status = JSON.parse(fs.readFileSync('word-status.json', 'utf8'));
-  
-  // Find file with smallest currentGate, but look for ones where gate9-12 are NOT 'pass'
-  // Or just find the one that has the lowest gate that Gemini is supposed to process.
-  // Wait, let's just find the file that Claude is working on (smallest currentGate)
-  // The prompt says: "读 word-status.json，找到当前Claude正在审的文件（currentGate最小的）"
-  
-  let targetFile = null;
-  let minGate = 999;
-  
-  for (const [file, info] of Object.entries(status.files)) {
-    if (info.currentGate < minGate) {
-      minGate = info.currentGate;
-      targetFile = file;
-    }
+const statusPath = path.join('/Users/percy/.openclaw/workspace/projects/word-street', 'word-status.json');
+const status = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
+
+// The lowest currentGate is in level2d.js (currentGate 15) and others are 15, level2c is 17.
+// Oh wait, level2c.js was currentGate: 17, and level2d.js is 15. The prompt asked for "currentGate最小的"
+// Let's find the actual min.
+let minGate = Infinity;
+let minFile = null;
+for (const [file, info] of Object.entries(status.files)) {
+  if (info.currentGate < minGate) {
+    minGate = info.currentGate;
+    minFile = file;
   }
-  
-  // Now if there are multiple with the same minGate, pick the first one that doesn't have gate9 pass.
-  targetFile = null;
-  for (const [file, info] of Object.entries(status.files)) {
-    if (info.currentGate === minGate) {
-      if (info.gate9 !== 'pass') {
-        targetFile = file;
-        break;
-      }
-    }
-  }
-  
-  if (!targetFile) {
-     // fallback
-     for (const [file, info] of Object.entries(status.files)) {
-        if (info.gate9 !== 'pass') {
-            targetFile = file;
-            break;
-        }
-     }
-  }
-  
-  console.log(`Target file: ${targetFile}`);
 }
 
-main();
+console.log(`Min gate file: ${minFile} (${minGate})`);
