@@ -32,7 +32,7 @@ L7注意点：hymn/Constitution/政府相关词、象征性迷信(jinx)属于文
 - rhythm | L5-Def:能 | L5-Ex:能(鼓点节奏) | L6:唯一(选项:A=rhythm, B=interval, C=hyperbole, D=hymn; 原因:beats→rhythm) | L7:OK | L8:合适
 - risk | L5-Def:能 | L5-Ex:能(可能被蜇) | L6:唯一(选项:A=risk, B=havoc, C=hardship, D=hurricane; 原因:chance bad thing→risk) | L7:OK | L8:合适
 - tension | L5-Def:勉强(卡: tightness/像要发生事 抽象) | L5-Ex:勉强(懂“紧张”，但定义偏绕) | L6:不唯一(选项:A=tension, B=risk, C=irate, D=intrigue; 原因:课堂还卷子情境=紧张，但也可被理解成 risk/irate) | L7:OK | L8:合适
-- typical | L5-Def:能 | L5-Ex:能 | L6:不唯一(选项:A=typical, B=authentic, C=eligible, D=affordable; 原因:usual vs real(authetic) 可能混) | L7:OK | L8:合适
+- typical | L5-Def:能(备注:词库定义里写成"usual and usual"，建议改为"usual/normal"以免孩子困惑) | L5-Ex:能 | L6:不唯一(选项:A=typical, B=authentic, C=eligible, D=affordable; 原因:usual vs real(authentic) 可能混) | L7:OK | L8:合适
 - basement | L5-Def:能 | L5-Ex:能 | L6:唯一(选项:A=basement, B=loft, C=hangar, D=inn; 原因:house below ground) | L7:OK | L8:合适(可与 loft 对比)
 - blade | L5-Def:勉强(卡: flat cutting part) | L5-Ex:能(草叶+瓢虫) | L6:唯一(选项:A=blade, B=kernel, C=filament, D=lintel; 原因:blade of grass 固定搭配) | L7:OK | L8:合适
 - canyon | L5-Def:勉强(卡: valley/steep) | L5-Ex:能(很深看不到河) | L6:唯一(选项:A=canyon, B=crater, C=mesa, D=plateau; 原因:深峡谷) | L7:OK | L8:合适
