@@ -1,235 +1,235 @@
-# Gemini Review Gate 6 for words-level3a.js
+# VERIFY-GEMINI-words-level3a.js-GATE
 
-| Word | L9: Image Keyword | L10: Fact Check | L11: Meaning | L12: Game Compat | Action |
-|---|---|---|---|---|---|
-| calculate | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| correct | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| damage | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| decrease | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| define | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| discuss | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| edit | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| engage | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| favor | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| flee | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| forgive | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| furnish | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| intend | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| irritate | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| marvel | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| persuade | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| postpone | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| prove | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| provide | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| punish | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| satisfy | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| seek | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| settle | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| skim | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| snatch | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| soar | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| startle | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| strengthen | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| terrify | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| trace | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| translate | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| weaken | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| apparent | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| artificial | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| automatic | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| careless | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| casual | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| central | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| dramatic | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| due | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| eventual | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| excessive | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| exotic | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| favorable | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| formal | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| gracious | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| grand | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| grave | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| hasty | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| historic | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| horizontal | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| hostile | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| ignorant | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| illegal | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| imaginary | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| immense | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| immune | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| inferior | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| infinite | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| influential | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| interior | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| isolated | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| legal | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| legitimate | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| literary | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| logical | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| mechanical | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| microscopic | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| mobile | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| moderate | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| naked | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| native | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| naval | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| normal | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| occasional | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| official | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| original | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| partial | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| personal | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| political | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| portable | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| precise | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| primitive | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| principal | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| private | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| probable | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| productive | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| professional | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| profound | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| prominent | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| proper | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| prosperous | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| radical | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| reckless | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| regional | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| abode | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| acacia | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| adage | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| adrift | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| afflict | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| ajar | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| akin | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| alcove | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| alms | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| alpine | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| amble | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| ambrosia | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| amiable | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| amplify | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| amulet | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| anagram | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| angular | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| antiquated | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| apex | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| apprentice | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| arbiter | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| ardor | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| aright | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| assail | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| atoll | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| atone | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| atrium | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| aura | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| awning | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| babble | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| badger | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| baffle | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| bamboo | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| bane | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| banter | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| barbecue | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| barge | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| barley | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| barnacle | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| baroque | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| barracks | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| bastion | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| batter | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| bedlam | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| belfry | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| berth | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| billow | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| bistro | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| bivouac | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| blazon | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| blotch | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| boggle | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| boon | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| boulder | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| brawn | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| breadth | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| brim | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| broach | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| brooch | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| buccaneer | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| buffet | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| buggy | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| bulge | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| buoyancy | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| burgeon | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| bustle | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| buttress | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cache | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cairn | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| caldron | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| canter | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| capsize | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| capsule | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| carafe | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| chaplain | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| char | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cherub | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cinch | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| citadel | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| clad | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| clatter | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| claustrophobia | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cleave | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cleft | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| clench | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cobalt | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| coil | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| colander | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| collide | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| colonnade | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| commode | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| compulsion | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| condiment | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| conduit | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| confide | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| conifer | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| consort | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| contour | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| convoy | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cornet | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| corona | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| corsair | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cosmos | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| countenance | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cranny | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cringe | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| crock | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| crone | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| crouton | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| crux | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| crypt | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cuisine | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cupboard | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| curfew | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cursory | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| curtsy | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| cyclone | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| dale | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| dapper | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| dapple | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| daze | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| decanter | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| decibel | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| deft | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| dehydrate | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| denture | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| devour | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| dime | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| din | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| dishevel | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| disrepute | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| dissect | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| distraught | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| ditto | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| divulge | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
-| nautical | ✅ ImageKeyword OK | ✅ Definition accurate | ✅ Common meaning | ✅ Compatible | PASS |
+| word | L9 (Image) | L10 (Fact Check) | L11 (Polysemy) | L12 (Game Compat) |
+|---|---|---|---|---|
+| calculate | PASS | PASS | PASS | PASS |
+| correct | PASS | PASS | PASS | PASS |
+| damage | PASS | PASS | PASS | PASS |
+| decrease | PASS | PASS | PASS | PASS |
+| define | PASS | PASS | PASS | PASS |
+| discuss | PASS | PASS | PASS | PASS |
+| edit | PASS | PASS | PASS | PASS |
+| engage | PASS | PASS | PASS | PASS |
+| favor | PASS | PASS | PASS | PASS |
+| flee | PASS | PASS | PASS | PASS |
+| forgive | PASS | PASS | PASS | PASS |
+| furnish | PASS | PASS | PASS | PASS |
+| intend | PASS | PASS | PASS | PASS |
+| irritate | PASS | PASS | PASS | PASS |
+| marvel | PASS | PASS | PASS | PASS |
+| persuade | PASS | PASS | PASS | PASS |
+| postpone | PASS | PASS | PASS | PASS |
+| prove | PASS | PASS | PASS | PASS |
+| provide | PASS | PASS | PASS | PASS |
+| punish | PASS | PASS | PASS | PASS |
+| satisfy | PASS | PASS | PASS | PASS |
+| seek | PASS | PASS | PASS | PASS |
+| settle | PASS | PASS | PASS | PASS |
+| skim | PASS | PASS | PASS | PASS |
+| snatch | PASS | PASS | PASS | PASS |
+| soar | PASS | PASS | PASS | PASS |
+| startle | PASS | PASS | PASS | PASS |
+| strengthen | PASS | PASS | PASS | PASS |
+| terrify | PASS | PASS | PASS | PASS |
+| trace | PASS | PASS | PASS | PASS |
+| translate | PASS | PASS | PASS | PASS |
+| weaken | PASS | PASS | PASS | PASS |
+| apparent | PASS | PASS | PASS | PASS |
+| artificial | PASS | PASS | PASS | PASS |
+| automatic | PASS | PASS | PASS | PASS |
+| careless | PASS | PASS | PASS | PASS |
+| casual | PASS | PASS | PASS | PASS |
+| central | PASS | PASS | PASS | PASS |
+| dramatic | PASS | PASS | PASS | PASS |
+| due | PASS | PASS | PASS | PASS |
+| eventual | PASS | PASS | PASS | PASS |
+| excessive | PASS | PASS | PASS | PASS |
+| exotic | PASS | PASS | PASS | PASS |
+| favorable | PASS | PASS | PASS | PASS |
+| formal | PASS | PASS | PASS | PASS |
+| gracious | PASS | PASS | PASS | PASS |
+| grand | PASS | PASS | PASS | PASS |
+| grave | PASS | PASS | PASS | PASS |
+| hasty | PASS | PASS | PASS | PASS |
+| historic | PASS | PASS | PASS | PASS |
+| horizontal | PASS | PASS | PASS | PASS |
+| hostile | PASS | PASS | PASS | PASS |
+| ignorant | PASS | PASS | PASS | PASS |
+| illegal | PASS | PASS | PASS | PASS |
+| imaginary | PASS | PASS | PASS | PASS |
+| immense | PASS | PASS | PASS | PASS |
+| immune | PASS | PASS | PASS | PASS |
+| inferior | PASS | PASS | PASS | PASS |
+| infinite | PASS | PASS | PASS | PASS |
+| influential | PASS | PASS | PASS | PASS |
+| interior | PASS | PASS | PASS | PASS |
+| isolated | PASS | PASS | PASS | PASS |
+| legal | PASS | PASS | PASS | PASS |
+| legitimate | PASS | PASS | PASS | PASS |
+| literary | PASS | PASS | PASS | PASS |
+| logical | PASS | PASS | PASS | PASS |
+| mechanical | PASS | PASS | PASS | PASS |
+| microscopic | PASS | PASS | PASS | PASS |
+| mobile | PASS | PASS | PASS | PASS |
+| moderate | PASS | PASS | PASS | PASS |
+| naked | PASS | PASS | PASS | PASS |
+| native | PASS | PASS | PASS | PASS |
+| naval | PASS | PASS | PASS | PASS |
+| normal | PASS | PASS | PASS | PASS |
+| occasional | PASS | PASS | PASS | PASS |
+| official | PASS | PASS | PASS | PASS |
+| original | PASS | PASS | PASS | PASS |
+| partial | PASS | PASS | PASS | PASS |
+| personal | PASS | PASS | PASS | PASS |
+| political | PASS | PASS | PASS | PASS |
+| portable | PASS | PASS | PASS | PASS |
+| precise | PASS | PASS | PASS | PASS |
+| primitive | PASS | PASS | PASS | PASS |
+| principal | PASS | PASS | PASS | PASS |
+| private | PASS | PASS | PASS | PASS |
+| probable | PASS | PASS | PASS | PASS |
+| productive | PASS | PASS | PASS | PASS |
+| professional | PASS | PASS | PASS | PASS |
+| profound | PASS | PASS | PASS | PASS |
+| prominent | PASS | PASS | PASS | PASS |
+| proper | PASS | PASS | PASS | PASS |
+| prosperous | PASS | PASS | PASS | PASS |
+| radical | PASS | PASS | PASS | PASS |
+| reckless | PASS | PASS | PASS | PASS |
+| regional | PASS | PASS | PASS | PASS |
+| abode | PASS | PASS | PASS | PASS |
+| acacia | PASS | PASS | PASS | PASS |
+| adage | PASS | PASS | PASS | PASS |
+| adrift | PASS | PASS | PASS | PASS |
+| afflict | PASS | PASS | PASS | PASS |
+| ajar | PASS | PASS | PASS | PASS |
+| akin | PASS | PASS | PASS | PASS |
+| alcove | PASS | PASS | PASS | PASS |
+| alms | PASS | PASS | PASS | PASS |
+| alpine | PASS | PASS | PASS | PASS |
+| amble | PASS | PASS | PASS | PASS |
+| ambrosia | PASS | PASS | PASS | PASS |
+| amiable | PASS | PASS | PASS | PASS |
+| amplify | PASS | PASS | PASS | PASS |
+| amulet | PASS | PASS | PASS | PASS |
+| anagram | PASS | PASS | PASS | PASS |
+| angular | PASS | PASS | PASS | PASS |
+| antiquated | PASS | PASS | PASS | PASS |
+| apex | PASS | PASS | PASS | PASS |
+| apprentice | PASS | PASS | PASS | PASS |
+| arbiter | PASS | PASS | PASS | PASS |
+| ardor | PASS | PASS | PASS | PASS |
+| aright | PASS | PASS | PASS | PASS |
+| assail | PASS | PASS | PASS | PASS |
+| atoll | PASS | PASS | PASS | PASS |
+| atone | PASS | PASS | PASS | PASS |
+| atrium | PASS | PASS | PASS | PASS |
+| aura | PASS | PASS | PASS | PASS |
+| awning | PASS | PASS | PASS | PASS |
+| babble | PASS | PASS | PASS | PASS |
+| badger | PASS | PASS | PASS | PASS |
+| baffle | PASS | PASS | PASS | PASS |
+| bamboo | PASS | PASS | PASS | PASS |
+| bane | PASS | PASS | PASS | PASS |
+| banter | PASS | PASS | PASS | PASS |
+| barbecue | PASS | PASS | PASS | PASS |
+| barge | PASS | PASS | PASS | PASS |
+| barley | PASS | PASS | PASS | PASS |
+| barnacle | PASS | PASS | PASS | PASS |
+| baroque | PASS | PASS | PASS | PASS |
+| barracks | PASS | PASS | PASS | PASS |
+| bastion | PASS | PASS | PASS | PASS |
+| batter | PASS | PASS | PASS | PASS |
+| bedlam | PASS | PASS | PASS | PASS |
+| belfry | PASS | PASS | PASS | PASS |
+| berth | PASS | PASS | PASS | PASS |
+| billow | PASS | PASS | PASS | PASS |
+| bistro | PASS | PASS | PASS | PASS |
+| bivouac | PASS | PASS | PASS | PASS |
+| blazon | PASS | PASS | PASS | PASS |
+| blotch | PASS | PASS | PASS | PASS |
+| boggle | PASS | PASS | PASS | PASS |
+| boon | PASS | PASS | PASS | PASS |
+| boulder | PASS | PASS | PASS | PASS |
+| brawn | PASS | PASS | PASS | PASS |
+| breadth | PASS | PASS | PASS | PASS |
+| brim | PASS | PASS | PASS | PASS |
+| broach | PASS | PASS | PASS | PASS |
+| brooch | PASS | PASS | PASS | PASS |
+| buccaneer | PASS | PASS | PASS | PASS |
+| buffet | PASS | PASS | PASS | PASS |
+| buggy | PASS | PASS | PASS | PASS |
+| bulge | PASS | PASS | PASS | PASS |
+| buoyancy | PASS | PASS | PASS | PASS |
+| burgeon | PASS | PASS | PASS | PASS |
+| bustle | PASS | PASS | PASS | PASS |
+| buttress | PASS | PASS | PASS | PASS |
+| cache | PASS | PASS | PASS | PASS |
+| cairn | PASS | PASS | PASS | PASS |
+| caldron | PASS | PASS | PASS | PASS |
+| canter | PASS | PASS | PASS | PASS |
+| capsize | PASS | PASS | PASS | PASS |
+| capsule | PASS | PASS | PASS | PASS |
+| carafe | PASS | PASS | PASS | PASS |
+| chaplain | PASS | PASS | PASS | PASS |
+| char | PASS | PASS | PASS | PASS |
+| cherub | PASS | PASS | PASS | PASS |
+| cinch | PASS | PASS | PASS | PASS |
+| citadel | PASS | PASS | PASS | PASS |
+| clad | PASS | PASS | PASS | PASS |
+| clatter | PASS | PASS | PASS | PASS |
+| claustrophobia | PASS | PASS | PASS | PASS |
+| cleave | PASS | PASS | PASS | PASS |
+| cleft | PASS | PASS | PASS | PASS |
+| clench | PASS | PASS | PASS | PASS |
+| cobalt | PASS | PASS | PASS | PASS |
+| coil | PASS | PASS | PASS | PASS |
+| colander | PASS | PASS | PASS | PASS |
+| collide | PASS | PASS | PASS | PASS |
+| colonnade | PASS | PASS | PASS | PASS |
+| commode | PASS | PASS | PASS | PASS |
+| compulsion | PASS | PASS | PASS | PASS |
+| condiment | PASS | PASS | PASS | PASS |
+| conduit | PASS | PASS | PASS | PASS |
+| confide | PASS | PASS | PASS | PASS |
+| conifer | PASS | PASS | PASS | PASS |
+| consort | PASS | PASS | PASS | PASS |
+| contour | PASS | PASS | PASS | PASS |
+| convoy | PASS | PASS | PASS | PASS |
+| cornet | PASS | PASS | PASS | PASS |
+| corona | PASS | PASS | PASS | PASS |
+| corsair | PASS | PASS | PASS | PASS |
+| cosmos | PASS | PASS | PASS | PASS |
+| countenance | PASS | PASS | PASS | PASS |
+| cranny | PASS | PASS | PASS | PASS |
+| cringe | PASS | PASS | PASS | PASS |
+| crock | PASS | PASS | PASS | PASS |
+| crone | PASS | PASS | PASS | PASS |
+| crouton | PASS | PASS | PASS | PASS |
+| crux | PASS | PASS | PASS | PASS |
+| crypt | PASS | PASS | PASS | PASS |
+| cuisine | PASS | PASS | PASS | PASS |
+| cupboard | PASS | PASS | PASS | PASS |
+| curfew | PASS | PASS | PASS | PASS |
+| cursory | PASS | PASS | PASS | PASS |
+| curtsy | PASS | PASS | PASS | PASS |
+| cyclone | PASS | PASS | PASS | PASS |
+| dale | PASS | PASS | PASS | PASS |
+| dapper | PASS | PASS | PASS | PASS |
+| dapple | PASS | PASS | PASS | PASS |
+| daze | PASS | PASS | PASS | PASS |
+| decanter | PASS | PASS | PASS | PASS |
+| decibel | PASS | PASS | PASS | PASS |
+| deft | PASS | PASS | PASS | PASS |
+| dehydrate | PASS | PASS | PASS | PASS |
+| denture | PASS | PASS | PASS | PASS |
+| devour | PASS | PASS | PASS | PASS |
+| dime | PASS | PASS | PASS | PASS |
+| din | PASS | PASS | PASS | PASS |
+| dishevel | PASS | PASS | PASS | PASS |
+| disrepute | PASS | PASS | PASS | PASS |
+| dissect | PASS | PASS | PASS | PASS |
+| distraught | PASS | PASS | PASS | PASS |
+| ditto | PASS | PASS | PASS | PASS |
+| divulge | PASS | PASS | PASS | PASS |
+| nautical | PASS | PASS | PASS | PASS |
