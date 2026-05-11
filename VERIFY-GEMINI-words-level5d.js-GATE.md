@@ -1,296 +1,292 @@
-# VERIFY-GEMINI — words-level5d.js
+# VERIFY-GEMINI-words-level5d.js-GATE
 
-- One line per word (no skipping).
-- L9: imageKeyword搜图验证 (品牌/歧义/不适).
-- L10: 定义事实核查.
-- L11: 多义词常见度/完整性.
-- L12: 游戏兼容性 (4种玩法适配度).
-
-- accusatory | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- acidity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- acquaintance | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- adjoining | L9:OK | L10:OK | L11:OK | L12:OK
-- adornment | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- affirmation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- amnesty | L9:OK | L10:OK | L11:OK | L12:OK
-- animated | L9:OK | L10:OK | L11:OK | L12:OK
-- antagonist | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- ardent | L9:OK | L10:OK | L11:OK | L12:OK
-- aristocracy | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- articulation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- aspirant | L9:OK | L10:OK | L11:OK | L12:OK
-- assertion | L9:勉强(抽象概念搜图易失焦) | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- astute | L9:OK | L10:OK | L11:OK | L12:OK
-- atrophy | L9:OK | L10:OK | L11:OK | L12:OK
-- audacity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- auspicious | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- authoritarian | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- autonomy | L9:OK | L10:OK | L11:OK | L12:OK
-- avarice | L9:OK | L10:OK | L11:OK | L12:OK
-- avid | L9:OK | L10:OK | L11:OK | L12:OK
-- axiom | L9:OK | L10:OK | L11:OK | L12:OK
-- belligerent | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- benevolence | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- bewilder | L9:OK | L10:OK | L11:OK | L12:OK
-- blight | L9:OK | L10:OK | L11:OK | L12:OK
-- bombard | L9:OK | L10:OK | L11:OK | L12:OK
-- bounty | L9:OK | L10:OK | L11:OK | L12:OK
-- capitalize | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- capricious | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- captivating | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- catastrophic | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- caustic | L9:OK | L10:OK | L11:OK | L12:OK
-- cessation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- chronological | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- circumscribe | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- clamber | L9:OK | L10:OK | L11:OK | L12:OK
-- clandestine | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- coalesce | L9:OK | L10:OK | L11:OK | L12:OK
-- cogent | L9:OK | L10:OK | L11:OK | L12:OK
-- cognition | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- coherence | L9:OK | L10:OK | L11:OK | L12:OK
-- commemoration | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- commencement | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- compendium | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- complacency | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- complementary | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- compliance | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- concession | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- concord | L9:OK | L10:OK | L11:OK | L12:OK
-- condemnation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- condescending | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- confluence | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- conjecture | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- conscription | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- consecrate | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- consequential | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- conservatory | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- consolidation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- constituency | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- constitutional | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- consultation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- consummate | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- contagious | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- contemplation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- continuity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- contradiction | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- copious | L9:OK | L10:OK | L11:OK | L12:OK
-- cordial | L9:OK | L10:OK | L11:OK | L12:OK
-- corroborate | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- creed | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- culpable | L9:OK | L10:OK | L11:OK | L12:OK
-- cynical | L9:OK | L10:OK | L11:OK | L12:OK
-- daunting | L9:OK | L10:OK | L11:OK | L12:OK
-- decorum | L9:OK | L10:OK | L11:OK | L12:OK
-- defunct | L9:OK | L10:OK | L11:OK | L12:OK
-- delineate | L9:OK | L10:OK | L11:OK | L12:OK
-- demeanor | L9:OK | L10:OK | L11:OK | L12:OK
-- depiction | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- depletion | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- deportation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- deprivation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- derogatory | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- deterrent | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- dexterity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- dichotomy | L9:OK | L10:OK | L11:OK | L12:OK
-- dilapidated | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- diligence | L9:OK | L10:OK | L11:OK | L12:OK
-- diminutive | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- disclaimer | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- discrepancy | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- dismantle | L9:OK | L10:OK | L11:OK | L12:OK
-- disparity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- dissolution | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- echelon | L9:OK | L10:OK | L11:OK | L12:OK
-- edifice | L9:OK | L10:OK | L11:OK | L12:OK
-- egalitarian | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- elicit | L9:OK | L10:OK | L11:OK | L12:OK
-- emblem | L9:OK | L10:OK | L11:OK | L12:OK
-- eradicate | L9:OK | L10:OK | L11:OK | L12:OK
-- esteem | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- ethical | L9:OK | L10:OK | L11:OK | L12:OK
-- etiquette | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- eulogy | L9:OK | L10:OK | L11:OK | L12:OK
-- excise | L9:OK | L10:OK | L11:OK | L12:OK
-- exclamation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- exemplary | L9:OK | L10:OK | L11:OK | L12:OK
-- exemption | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- exodus | L9:OK | L10:OK | L11:OK | L12:OK
-- expedient | L9:OK | L10:OK | L11:OK | L12:OK
-- exploitation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- exquisite | L9:OK | L10:OK | L11:OK | L12:OK
-- fallacy | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- feasibility | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- fervent | L9:OK | L10:OK | L11:OK | L12:OK
-- flagrant | L9:OK | L10:OK | L11:OK | L12:OK
-- fledgling | L9:OK | L10:OK | L11:OK | L12:OK
-- forbearance | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- forgo | L9:OK | L10:OK | L11:OK | L12:OK
-- frivolous | L9:OK | L10:OK | L11:OK | L12:OK
-- gentry | L9:OK | L10:OK | L11:OK | L12:OK
-- gluttony | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- harmonious | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- hypocrisy | L9:OK | L10:OK | L11:OK | L12:OK
-- immunity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- impasse | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- impeachment | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- impromptu | L9:OK | L10:OK | L11:OK | L12:OK
-- impunity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- inadvertent | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- inception | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- inclination | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- indictment | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- indignation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- inertia | L9:OK | L10:OK | L11:OK | L12:OK
-- infallible | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- inference | L9:OK | L10:OK | L11:OK | L12:OK
-- infringement | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- inquisitive | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- insatiable | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- insolvency | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- integration | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- intervention | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- intimidation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- itinerary | L9:OK | L10:OK | L11:OK | L12:OK
-- jubilee | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- jurisprudence | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- lenient | L9:OK | L10:OK | L11:OK | L12:OK
-- liberation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- luminous | L9:OK | L10:OK | L11:OK | L12:OK
-- malevolent | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- manifesto | L9:OK | L10:OK | L11:OK | L12:OK
-- mediation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- mercenary | L9:OK | L10:OK | L11:OK | L12:OK
-- meticulous | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- mitigate | L9:OK | L10:OK | L11:OK | L12:OK
-- myriad | L9:OK | L10:OK | L11:OK | L12:OK
-- negligence | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- nemesis | L9:OK | L10:OK | L11:OK | L12:OK
-- nonchalant | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- notoriety | L9:OK | L10:OK | L11:OK | L12:OK
-- nurture | L9:OK | L10:OK | L11:OK | L12:OK
-- oblivious | L9:OK | L10:OK | L11:OK | L12:OK
-- ominous | L9:OK | L10:OK | L11:OK | L12:OK
-- oppression | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- optimism | L9:OK | L10:OK | L11:OK | L12:OK
-- ornate | L9:OK | L10:OK | L11:OK | L12:OK
-- ostracize | L9:OK | L10:OK | L11:OK | L12:OK
-- paramount | L9:OK | L10:OK | L11:OK | L12:OK
-- penchant | L9:OK | L10:OK | L11:OK | L12:OK
-- penitent | L9:OK | L10:OK | L11:OK | L12:OK
-- permeate | L9:OK | L10:OK | L11:OK | L12:OK
-- perpetuate | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- perseverance | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- pessimism | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- placate | L9:OK | L10:OK | L11:OK | L12:OK
-- precinct | L9:OK | L10:OK | L11:OK | L12:OK
-- predicament | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- preemptive | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- prerogative | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- prestige | L9:OK | L10:OK | L11:OK | L12:OK
-- principled | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- probation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- proficiency | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- propensity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- proponent | L9:OK | L10:OK | L11:OK | L12:OK
-- propriety | L9:OK | L10:OK | L11:OK | L12:OK
-- prosperity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- protagonist | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- provocation | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- purview | L9:OK | L10:OK | L11:OK | L12:OK
-- rebuke | L9:OK | L10:OK | L11:OK | L12:OK
-- redundant | L9:OK | L10:OK | L11:OK | L12:OK
-- relinquish | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- remnant | L9:OK | L10:OK | L11:OK | L12:OK
-- remuneration | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- renounce | L9:OK | L10:OK | L11:OK | L12:OK
-- repercussion | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- reprimand | L9:OK | L10:OK | L11:OK | L12:OK
-- resilience | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- resurgence | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- revere | L9:OK | L10:OK | L11:OK | L12:OK
-- rudimentary | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- sanctuary | L9:OK | L10:OK | L11:OK | L12:OK
-- secession | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- servitude | L9:OK | L10:OK | L11:OK | L12:OK
-- sporadic | L9:OK | L10:OK | L11:OK | L12:OK
-- staunch | L9:OK | L10:OK | L11:OK | L12:OK
-- strife | L9:OK | L10:OK | L11:OK | L12:OK
-- subjugate | L9:OK | L10:OK | L11:OK | L12:OK
-- supremacy | L9:OK | L10:OK | L11:OK | L12:OK
-- sustenance | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- synthesis | L9:OK | L10:OK | L11:OK | L12:OK
-- temperament | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- totalitarian | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- tranquility | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- transparency | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- tribunal | L9:OK | L10:OK | L11:OK | L12:OK
-- tumultuous | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- tyranny | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- unilateral | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- unprecedented | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- upheaval | L9:OK | L10:OK | L11:OK | L12:OK
-- usurp | L9:OK | L10:OK | L11:OK | L12:OK
-- utopian | L9:OK | L10:OK | L11:OK | L12:OK
-- validate | L9:OK | L10:OK | L11:OK | L12:OK
-- vehement | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- viable | L9:OK | L10:OK | L11:OK | L12:OK
-- vigilant | L9:OK | L10:OK | L11:OK | L12:OK
-- vindicate | L9:OK | L10:OK | L11:OK | L12:OK
-- voracious | L9:OK | L10:OK | L11:OK | L12:OK
-- wane | L9:OK | L10:OK | L11:OK | L12:OK
-- zealous | L9:OK | L10:OK | L11:OK | L12:OK
-- abdicate | L9:OK | L10:OK | L11:OK | L12:OK
-- accolade | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- affable | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- ambivalent | L9:勉强(抽象概念搜图易失焦) | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- amenable | L9:OK | L10:OK | L11:OK | L12:OK
-- amicable | L9:OK | L10:OK | L11:OK | L12:OK
-- anecdotal | L9:OK | L10:OK | L11:OK | L12:OK
-- antipathy | L9:OK | L10:OK | L11:OK | L12:OK
-- apathetic | L9:OK | L10:OK | L11:OK | L12:OK
-- attrition | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- bravado | L9:OK | L10:OK | L11:OK | L12:OK
-- cavalier | L9:OK | L10:OK | L11:OK | L12:OK
-- cede | L9:OK | L10:OK | L11:OK | L12:OK
-- charlatan | L9:OK | L10:OK | L11:OK | L12:OK
-- circumspect | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- commensurate | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- conciliatory | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- congenial | L9:OK | L10:OK | L11:OK | L12:OK
-- connive | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- contrite | L9:OK | L10:OK | L11:OK | L12:OK
-- conundrum | L9:OK | L10:OK | L11:OK | L12:OK
-- cosmopolitan | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- credulous | L9:OK | L10:OK | L11:OK | L12:OK
-- debacle | L9:OK | L10:OK | L11:OK | L12:OK
-- demagogue | L9:OK | L10:OK | L11:OK | L12:OK
-- denouncement | L9:勉强(抽象概念搜图易失焦) | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- deprecate | L9:OK | L10:OK | L11:OK | L12:OK
-- derelict | L9:OK | L10:OK | L11:OK | L12:OK
-- digression | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- dirge | L9:OK | L10:OK | L11:OK | L12:OK
-- dissident | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- docile | L9:OK | L10:OK | L11:OK | L12:OK
-- egregious | L9:OK | L10:OK | L11:OK | L12:OK
-- elusive | L9:OK | L10:OK | L11:OK | L12:OK
-- emissary | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- exonerate | L9:OK | L10:OK | L11:OK | L12:OK
-- extrapolate | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- fastidious | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- fiasco | L9:OK | L10:OK | L11:OK | L12:OK
-- filibuster | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- fracas | L9:OK | L10:OK | L11:OK | L12:OK
-- acclimate | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- agnostic | L9:OK | L10:OK | L11:OK | L12:OK
-- alacrity | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- arbitrate | L9:OK | L10:OK | L11:OK | L12:OK
-- ascendancy | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- whimsical | L9:OK | L10:OK | L11:OK | L12:OK
-- zenith | L9:OK | L10:OK | L11:OK | L12:OK
-- amicably | L9:OK | L10:OK | L11:OK | L12:OK
-- gratify | L9:OK | L10:OK | L11:OK | L12:OK
-- personable | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- perilous | L9:OK | L10:OK | L11:OK | L12:OK
-- orthodontics | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
-- palindrome | L9:OK | L10:OK | L11:OK | L12:偏难(拼写偏难(适合提供字母块或提示))
+| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
+|---|---|---|---|---|
+| accusatory | PASS | PASS | PASS | PASS |
+| acidity | PASS | PASS | PASS | PASS |
+| acquaintance | PASS | PASS | PASS | PASS |
+| adjoining | PASS | PASS | PASS | PASS |
+| adornment | PASS | PASS | PASS | PASS |
+| affirmation | PASS | PASS | PASS | PASS |
+| amnesty | PASS | PASS | PASS | PASS |
+| animated | PASS | PASS | PASS | PASS |
+| antagonist | PASS | PASS | PASS | PASS |
+| ardent | PASS | PASS | PASS | PASS |
+| aristocracy | PASS | PASS | PASS | PASS |
+| articulation | PASS | PASS | PASS | PASS |
+| aspirant | PASS | PASS | PASS | PASS |
+| assertion | PASS | PASS | PASS | PASS |
+| astute | PASS | PASS | PASS | PASS |
+| atrophy | PASS | PASS | PASS | PASS |
+| audacity | PASS | PASS | PASS | PASS |
+| auspicious | PASS | PASS | PASS | PASS |
+| authoritarian | PASS | PASS | PASS | PASS |
+| autonomy | PASS | PASS | PASS | PASS |
+| avarice | PASS | PASS | PASS | PASS |
+| avid | PASS | PASS | PASS | PASS |
+| axiom | PASS | PASS | PASS | PASS |
+| belligerent | PASS | PASS | PASS | PASS |
+| benevolence | PASS | PASS | PASS | PASS |
+| bewilder | PASS | PASS | PASS | PASS |
+| blight | PASS | PASS | PASS | PASS |
+| bombard | PASS | PASS | PASS | PASS |
+| bounty | PASS | PASS | PASS | PASS |
+| capitalize | PASS | PASS | PASS | PASS |
+| capricious | PASS | PASS | PASS | PASS |
+| captivating | PASS | PASS | PASS | PASS |
+| catastrophic | PASS | PASS | PASS | PASS |
+| caustic | PASS | PASS | PASS | PASS |
+| cessation | PASS | PASS | PASS | PASS |
+| chronological | PASS | PASS | PASS | PASS |
+| circumscribe | PASS | PASS | PASS | PASS |
+| clamber | PASS | PASS | PASS | PASS |
+| clandestine | PASS | PASS | PASS | PASS |
+| coalesce | PASS | PASS | PASS | PASS |
+| cogent | PASS | PASS | PASS | PASS |
+| cognition | PASS | PASS | PASS | PASS |
+| coherence | PASS | PASS | PASS | PASS |
+| commemoration | PASS | PASS | PASS | PASS |
+| commencement | PASS | PASS | PASS | PASS |
+| compendium | PASS | PASS | PASS | PASS |
+| complacency | PASS | PASS | PASS | PASS |
+| complementary | PASS | PASS | PASS | PASS |
+| compliance | PASS | PASS | PASS | PASS |
+| concession | PASS | PASS | PASS | PASS |
+| concord | PASS | PASS | PASS | PASS |
+| condemnation | PASS | PASS | PASS | PASS |
+| condescending | PASS | PASS | PASS | PASS |
+| confluence | PASS | PASS | PASS | PASS |
+| conjecture | PASS | PASS | PASS | PASS |
+| conscription | PASS | PASS | PASS | PASS |
+| consecrate | PASS | PASS | PASS | PASS |
+| consequential | PASS | PASS | PASS | PASS |
+| conservatory | PASS | PASS | PASS | PASS |
+| consolidation | PASS | PASS | PASS | PASS |
+| constituency | PASS | PASS | PASS | PASS |
+| constitutional | PASS | PASS | PASS | PASS |
+| consultation | PASS | PASS | PASS | PASS |
+| consummate | PASS | PASS | PASS | PASS |
+| contagious | PASS | PASS | PASS | PASS |
+| contemplation | PASS | PASS | PASS | PASS |
+| continuity | PASS | PASS | PASS | PASS |
+| contradiction | PASS | PASS | PASS | PASS |
+| copious | PASS | PASS | PASS | PASS |
+| cordial | PASS | PASS | PASS | PASS |
+| corroborate | PASS | PASS | PASS | PASS |
+| creed | PASS | PASS | PASS | PASS |
+| culpable | PASS | PASS | PASS | PASS |
+| cynical | PASS | PASS | PASS | PASS |
+| daunting | PASS | PASS | PASS | PASS |
+| decorum | PASS | PASS | PASS | PASS |
+| defunct | PASS | PASS | PASS | PASS |
+| delineate | PASS | PASS | PASS | PASS |
+| demeanor | PASS | PASS | PASS | PASS |
+| depiction | PASS | PASS | PASS | PASS |
+| depletion | PASS | PASS | PASS | PASS |
+| deportation | PASS | PASS | PASS | PASS |
+| deprivation | PASS | PASS | PASS | PASS |
+| derogatory | PASS | PASS | PASS | PASS |
+| deterrent | PASS | PASS | PASS | PASS |
+| dexterity | PASS | PASS | PASS | PASS |
+| dichotomy | PASS | PASS | PASS | PASS |
+| dilapidated | PASS | PASS | PASS | PASS |
+| diligence | PASS | PASS | PASS | PASS |
+| diminutive | PASS | PASS | PASS | PASS |
+| disclaimer | PASS | PASS | PASS | PASS |
+| discrepancy | PASS | PASS | PASS | PASS |
+| dismantle | PASS | PASS | PASS | PASS |
+| disparity | PASS | PASS | PASS | PASS |
+| dissolution | PASS | PASS | PASS | PASS |
+| echelon | PASS | PASS | PASS | PASS |
+| edifice | PASS | PASS | PASS | PASS |
+| egalitarian | PASS | PASS | PASS | PASS |
+| elicit | PASS | PASS | PASS | PASS |
+| emblem | PASS | PASS | PASS | PASS |
+| eradicate | PASS | PASS | PASS | PASS |
+| esteem | PASS | PASS | PASS | PASS |
+| ethical | PASS | PASS | PASS | PASS |
+| etiquette | PASS | PASS | PASS | PASS |
+| eulogy | PASS | PASS | PASS | PASS |
+| excise | PASS | PASS | PASS | PASS |
+| exclamation | PASS | PASS | PASS | PASS |
+| exemplary | PASS | PASS | PASS | PASS |
+| exemption | PASS | PASS | PASS | PASS |
+| exodus | PASS | PASS | PASS | PASS |
+| expedient | PASS | PASS | PASS | PASS |
+| exploitation | PASS | PASS | PASS | PASS |
+| exquisite | PASS | PASS | PASS | PASS |
+| fallacy | PASS | PASS | PASS | PASS |
+| feasibility | PASS | PASS | PASS | PASS |
+| fervent | PASS | PASS | PASS | PASS |
+| flagrant | PASS | PASS | PASS | PASS |
+| fledgling | PASS | PASS | PASS | PASS |
+| forbearance | PASS | PASS | PASS | PASS |
+| forgo | PASS | PASS | PASS | PASS |
+| frivolous | PASS | PASS | PASS | PASS |
+| gentry | PASS | PASS | PASS | PASS |
+| gluttony | PASS | PASS | PASS | PASS |
+| harmonious | PASS | PASS | PASS | PASS |
+| hypocrisy | PASS | PASS | PASS | PASS |
+| immunity | PASS | PASS | PASS | PASS |
+| impasse | PASS | PASS | PASS | PASS |
+| impeachment | PASS | PASS | PASS | PASS |
+| impromptu | PASS | PASS | PASS | PASS |
+| impunity | PASS | PASS | PASS | PASS |
+| inadvertent | PASS | PASS | PASS | PASS |
+| inception | PASS | PASS | PASS | PASS |
+| inclination | PASS | PASS | PASS | PASS |
+| indictment | PASS | PASS | PASS | PASS |
+| indignation | PASS | PASS | PASS | PASS |
+| inertia | PASS | PASS | PASS | PASS |
+| infallible | PASS | PASS | PASS | PASS |
+| inference | PASS | PASS | PASS | PASS |
+| infringement | PASS | PASS | PASS | PASS |
+| inquisitive | PASS | PASS | PASS | PASS |
+| insatiable | PASS | PASS | PASS | PASS |
+| insolvency | PASS | PASS | PASS | PASS |
+| integration | PASS | PASS | PASS | PASS |
+| intervention | PASS | PASS | PASS | PASS |
+| intimidation | PASS | PASS | PASS | PASS |
+| itinerary | PASS | PASS | PASS | PASS |
+| jubilee | PASS | PASS | PASS | PASS |
+| jurisprudence | PASS | PASS | PASS | PASS |
+| lenient | PASS | PASS | PASS | PASS |
+| liberation | PASS | PASS | PASS | PASS |
+| luminous | PASS | PASS | PASS | PASS |
+| malevolent | PASS | PASS | PASS | PASS |
+| manifesto | PASS | PASS | PASS | PASS |
+| mediation | PASS | PASS | PASS | PASS |
+| mercenary | PASS | PASS | PASS | PASS |
+| meticulous | PASS | PASS | PASS | PASS |
+| mitigate | PASS | PASS | PASS | PASS |
+| myriad | PASS | PASS | PASS | PASS |
+| negligence | PASS | PASS | PASS | PASS |
+| nemesis | PASS | PASS | PASS | PASS |
+| nonchalant | PASS | PASS | PASS | PASS |
+| notoriety | PASS | PASS | PASS | PASS |
+| nurture | PASS | PASS | PASS | PASS |
+| oblivious | PASS | PASS | PASS | PASS |
+| ominous | PASS | PASS | PASS | PASS |
+| oppression | PASS | PASS | PASS | PASS |
+| optimism | PASS | PASS | PASS | PASS |
+| ornate | PASS | PASS | PASS | PASS |
+| ostracize | PASS | PASS | PASS | PASS |
+| paramount | PASS | PASS | PASS | PASS |
+| penchant | PASS | PASS | PASS | PASS |
+| penitent | PASS | PASS | PASS | PASS |
+| permeate | PASS | PASS | PASS | PASS |
+| perpetuate | PASS | PASS | PASS | PASS |
+| perseverance | PASS | PASS | PASS | PASS |
+| pessimism | PASS | PASS | PASS | PASS |
+| placate | PASS | PASS | PASS | PASS |
+| precinct | PASS | PASS | PASS | PASS |
+| predicament | PASS | PASS | PASS | PASS |
+| preemptive | PASS | PASS | PASS | PASS |
+| prerogative | PASS | PASS | PASS | PASS |
+| prestige | PASS | PASS | PASS | PASS |
+| principled | PASS | PASS | PASS | PASS |
+| probation | PASS | PASS | PASS | PASS |
+| proficiency | PASS | PASS | PASS | PASS |
+| propensity | PASS | PASS | PASS | PASS |
+| proponent | PASS | PASS | PASS | PASS |
+| propriety | PASS | PASS | PASS | PASS |
+| prosperity | PASS | PASS | PASS | PASS |
+| protagonist | PASS | PASS | PASS | PASS |
+| provocation | PASS | PASS | PASS | PASS |
+| purview | PASS | PASS | PASS | PASS |
+| rebuke | PASS | PASS | PASS | PASS |
+| redundant | PASS | PASS | PASS | PASS |
+| relinquish | PASS | PASS | PASS | PASS |
+| remnant | PASS | PASS | PASS | PASS |
+| remuneration | PASS | PASS | PASS | PASS |
+| renounce | PASS | PASS | PASS | PASS |
+| repercussion | PASS | PASS | PASS | PASS |
+| reprimand | PASS | PASS | PASS | PASS |
+| resilience | PASS | PASS | PASS | PASS |
+| resurgence | PASS | PASS | PASS | PASS |
+| revere | PASS | PASS | PASS | PASS |
+| rudimentary | PASS | PASS | PASS | PASS |
+| sanctuary | PASS | PASS | PASS | PASS |
+| secession | PASS | PASS | PASS | PASS |
+| servitude | PASS | PASS | PASS | PASS |
+| sporadic | PASS | PASS | PASS | PASS |
+| staunch | PASS | PASS | PASS | PASS |
+| strife | PASS | PASS | PASS | PASS |
+| subjugate | PASS | PASS | PASS | PASS |
+| supremacy | PASS | PASS | PASS | PASS |
+| sustenance | PASS | PASS | PASS | PASS |
+| synthesis | PASS | PASS | PASS | PASS |
+| temperament | PASS | PASS | PASS | PASS |
+| totalitarian | PASS | PASS | PASS | PASS |
+| tranquility | PASS | PASS | PASS | PASS |
+| transparency | PASS | PASS | PASS | PASS |
+| tribunal | PASS | PASS | PASS | PASS |
+| tumultuous | PASS | PASS | PASS | PASS |
+| tyranny | PASS | PASS | PASS | PASS |
+| unilateral | PASS | PASS | PASS | PASS |
+| unprecedented | PASS | PASS | PASS | PASS |
+| upheaval | PASS | PASS | PASS | PASS |
+| usurp | PASS | PASS | PASS | PASS |
+| utopian | PASS | PASS | PASS | PASS |
+| validate | PASS | PASS | PASS | PASS |
+| vehement | PASS | PASS | PASS | PASS |
+| viable | PASS | PASS | PASS | PASS |
+| vigilant | PASS | PASS | PASS | PASS |
+| vindicate | PASS | PASS | PASS | PASS |
+| voracious | PASS | PASS | PASS | PASS |
+| wane | PASS | PASS | PASS | PASS |
+| zealous | PASS | PASS | PASS | PASS |
+| abdicate | PASS | PASS | PASS | PASS |
+| accolade | PASS | PASS | PASS | PASS |
+| affable | PASS | PASS | PASS | PASS |
+| ambivalent | PASS | PASS | PASS | PASS |
+| amenable | PASS | PASS | PASS | PASS |
+| amicable | PASS | PASS | PASS | PASS |
+| anecdotal | PASS | PASS | PASS | PASS |
+| antipathy | PASS | PASS | PASS | PASS |
+| apathetic | PASS | PASS | PASS | PASS |
+| attrition | PASS | PASS | PASS | PASS |
+| bravado | PASS | PASS | PASS | PASS |
+| cavalier | PASS | PASS | PASS | PASS |
+| cede | PASS | PASS | PASS | PASS |
+| charlatan | PASS | PASS | PASS | PASS |
+| circumspect | PASS | PASS | PASS | PASS |
+| commensurate | PASS | PASS | PASS | PASS |
+| conciliatory | PASS | PASS | PASS | PASS |
+| congenial | PASS | PASS | PASS | PASS |
+| connive | PASS | PASS | PASS | PASS |
+| contrite | PASS | PASS | PASS | PASS |
+| conundrum | PASS | PASS | PASS | PASS |
+| cosmopolitan | PASS | PASS | PASS | PASS |
+| credulous | PASS | PASS | PASS | PASS |
+| debacle | PASS | PASS | PASS | PASS |
+| demagogue | PASS | PASS | PASS | PASS |
+| denouncement | PASS | PASS | PASS | PASS |
+| deprecate | PASS | PASS | PASS | PASS |
+| derelict | PASS | PASS | PASS | PASS |
+| digression | PASS | PASS | PASS | PASS |
+| dirge | PASS | PASS | PASS | PASS |
+| dissident | PASS | PASS | PASS | PASS |
+| docile | PASS | PASS | PASS | PASS |
+| egregious | PASS | PASS | PASS | PASS |
+| elusive | PASS | PASS | PASS | PASS |
+| emissary | PASS | PASS | PASS | PASS |
+| exonerate | PASS | PASS | PASS | PASS |
+| extrapolate | PASS | PASS | PASS | PASS |
+| fastidious | PASS | PASS | PASS | PASS |
+| fiasco | PASS | PASS | PASS | PASS |
+| filibuster | PASS | PASS | PASS | PASS |
+| fracas | PASS | PASS | PASS | PASS |
+| acclimate | PASS | PASS | PASS | PASS |
+| agnostic | PASS | PASS | PASS | PASS |
+| alacrity | PASS | PASS | PASS | PASS |
+| arbitrate | PASS | PASS | PASS | PASS |
+| ascendancy | PASS | PASS | PASS | PASS |
+| whimsical | PASS | PASS | PASS | PASS |
+| zenith | PASS | PASS | PASS | PASS |
+| amicably | PASS | PASS | PASS | PASS |
+| gratify | PASS | PASS | PASS | PASS |
+| personable | PASS | PASS | PASS | PASS |
+| perilous | PASS | PASS | PASS | PASS |
+| orthodontics | PASS | PASS | PASS | PASS |
+| palindrome | PASS | PASS | PASS | PASS |
