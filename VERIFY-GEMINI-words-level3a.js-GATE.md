@@ -1,235 +1,235 @@
-# VERIFY-GEMINI-words-level3a.js-GATE
+# Gemini Review for words-level3a.js
 
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
-|---|---|---|---|---|
-| calculate | PASS | PASS | PASS | PASS |
-| correct | PASS | PASS | PASS | PASS |
-| damage | PASS | PASS | PASS | PASS |
-| decrease | PASS | PASS | PASS | PASS |
-| define | WARN: Long keyword | PASS | PASS | PASS |
-| discuss | PASS | PASS | PASS | PASS |
-| edit | PASS | PASS | PASS | PASS |
-| engage | PASS | PASS | PASS | PASS |
-| favor | PASS | PASS | PASS | PASS |
-| flee | PASS | PASS | PASS | PASS |
-| forgive | PASS | PASS | PASS | PASS |
-| furnish | PASS | PASS | PASS | PASS |
-| intend | PASS | PASS | PASS | PASS |
-| irritate | PASS | PASS | PASS | PASS |
-| marvel | PASS | PASS | PASS | PASS |
-| persuade | PASS | PASS | PASS | PASS |
-| postpone | PASS | PASS | PASS | PASS |
-| prove | PASS | PASS | PASS | PASS |
-| provide | PASS | PASS | PASS | PASS |
-| punish | PASS | PASS | PASS | PASS |
-| satisfy | PASS | PASS | PASS | PASS |
-| seek | PASS | PASS | PASS | PASS |
-| settle | PASS | PASS | PASS | PASS |
-| skim | PASS | PASS | PASS | PASS |
-| snatch | PASS | PASS | PASS | PASS |
-| soar | PASS | PASS | PASS | PASS |
-| startle | PASS | PASS | PASS | PASS |
-| strengthen | PASS | PASS | PASS | PASS |
-| terrify | PASS | PASS | PASS | PASS |
-| trace | PASS | PASS | PASS | PASS |
-| translate | PASS | PASS | PASS | PASS |
-| weaken | PASS | PASS | PASS | PASS |
-| apparent | PASS | PASS | PASS | PASS |
-| artificial | PASS | PASS | PASS | PASS |
-| automatic | PASS | PASS | PASS | PASS |
-| careless | PASS | PASS | PASS | PASS |
-| casual | PASS | PASS | PASS | PASS |
-| central | PASS | PASS | PASS | PASS |
-| dramatic | PASS | PASS | PASS | PASS |
-| due | PASS | PASS | PASS | PASS |
-| eventual | PASS | PASS | PASS | PASS |
-| excessive | PASS | PASS | PASS | PASS |
-| exotic | PASS | PASS | PASS | PASS |
-| favorable | PASS | PASS | PASS | PASS |
-| formal | PASS | PASS | PASS | PASS |
-| gracious | PASS | PASS | PASS | PASS |
-| grand | PASS | PASS | PASS | PASS |
-| grave | PASS | PASS | PASS | PASS |
-| hasty | PASS | PASS | PASS | PASS |
-| historic | PASS | PASS | PASS | PASS |
-| horizontal | PASS | PASS | PASS | PASS |
-| hostile | PASS | PASS | PASS | PASS |
-| ignorant | PASS | PASS | PASS | PASS |
-| illegal | PASS | PASS | PASS | PASS |
-| imaginary | PASS | PASS | PASS | PASS |
-| immense | PASS | PASS | PASS | PASS |
-| immune | PASS | PASS | PASS | PASS |
-| inferior | PASS | PASS | PASS | PASS |
-| infinite | PASS | PASS | PASS | PASS |
-| influential | PASS | PASS | PASS | PASS |
-| interior | PASS | PASS | PASS | PASS |
-| isolated | PASS | PASS | PASS | PASS |
-| legal | PASS | PASS | PASS | PASS |
-| legitimate | PASS | PASS | PASS | PASS |
-| literary | PASS | PASS | PASS | PASS |
-| logical | PASS | PASS | PASS | PASS |
-| mechanical | PASS | PASS | PASS | PASS |
-| microscopic | PASS | PASS | PASS | PASS |
-| mobile | PASS | PASS | PASS | PASS |
-| moderate | PASS | PASS | PASS | PASS |
-| naked | PASS | PASS | PASS | PASS |
-| native | PASS | PASS | PASS | PASS |
-| naval | PASS | PASS | PASS | PASS |
-| normal | PASS | PASS | PASS | PASS |
-| occasional | PASS | PASS | PASS | PASS |
-| official | WARN: Long keyword | PASS | PASS | PASS |
-| original | PASS | PASS | PASS | PASS |
-| partial | PASS | PASS | PASS | PASS |
-| personal | PASS | PASS | PASS | PASS |
-| political | PASS | PASS | PASS | PASS |
-| portable | PASS | PASS | PASS | PASS |
-| precise | PASS | PASS | PASS | PASS |
-| primitive | PASS | PASS | PASS | PASS |
-| principal | PASS | PASS | PASS | PASS |
-| private | PASS | PASS | PASS | PASS |
-| probable | PASS | PASS | PASS | PASS |
-| productive | PASS | PASS | PASS | PASS |
-| professional | PASS | PASS | PASS | PASS |
-| profound | PASS | PASS | PASS | PASS |
-| prominent | PASS | PASS | PASS | PASS |
-| proper | PASS | PASS | PASS | PASS |
-| prosperous | PASS | PASS | PASS | PASS |
-| radical | PASS | PASS | PASS | PASS |
-| reckless | PASS | PASS | PASS | PASS |
-| regional | PASS | PASS | PASS | PASS |
-| abode | PASS | PASS | PASS | WARN: Formal/Literary for 10yo |
-| acacia | PASS | PASS | PASS | PASS |
-| adage | PASS | PASS | PASS | PASS |
-| adrift | PASS | PASS | PASS | PASS |
-| afflict | PASS | PASS | PASS | PASS |
-| ajar | PASS | PASS | PASS | PASS |
-| akin | PASS | PASS | PASS | PASS |
-| alcove | PASS | PASS | PASS | PASS |
-| alms | PASS | PASS | PASS | PASS |
-| alpine | PASS | PASS | PASS | PASS |
-| amble | PASS | PASS | PASS | PASS |
-| ambrosia | PASS | PASS | PASS | PASS |
-| amiable | PASS | PASS | PASS | PASS |
-| amplify | PASS | PASS | PASS | PASS |
-| amulet | PASS | PASS | PASS | PASS |
-| anagram | PASS | PASS | PASS | PASS |
-| angular | PASS | PASS | PASS | PASS |
-| antiquated | PASS | PASS | PASS | PASS |
-| apex | PASS | PASS | PASS | PASS |
-| apprentice | PASS | PASS | PASS | PASS |
-| arbiter | PASS | PASS | PASS | PASS |
-| ardor | PASS | PASS | PASS | PASS |
-| aright | PASS | PASS | WARN: Archaic/Rare | PASS |
-| assail | PASS | PASS | PASS | PASS |
-| atoll | PASS | PASS | PASS | PASS |
-| atone | PASS | PASS | PASS | PASS |
-| atrium | PASS | PASS | PASS | PASS |
-| aura | PASS | PASS | PASS | PASS |
-| awning | PASS | PASS | PASS | PASS |
-| babble | PASS | PASS | PASS | PASS |
-| badger | PASS | PASS | PASS | PASS |
-| baffle | PASS | PASS | PASS | PASS |
-| bamboo | PASS | PASS | PASS | PASS |
-| bane | PASS | PASS | PASS | PASS |
-| banter | PASS | PASS | PASS | PASS |
-| barbecue | PASS | PASS | PASS | PASS |
-| barge | PASS | PASS | PASS | PASS |
-| barley | PASS | PASS | PASS | PASS |
-| barnacle | PASS | PASS | PASS | PASS |
-| baroque | PASS | PASS | PASS | PASS |
-| barracks | PASS | PASS | PASS | PASS |
-| bastion | PASS | PASS | PASS | PASS |
-| batter | PASS | PASS | PASS | PASS |
-| bedlam | PASS | PASS | PASS | PASS |
-| belfry | PASS | PASS | PASS | PASS |
-| berth | PASS | PASS | PASS | PASS |
-| billow | PASS | PASS | PASS | PASS |
-| bistro | PASS | PASS | PASS | PASS |
-| bivouac | PASS | PASS | PASS | PASS |
-| blazon | PASS | PASS | WARN: Rare usage for level 3 | PASS |
-| blotch | PASS | PASS | PASS | PASS |
-| boggle | PASS | PASS | PASS | PASS |
-| boon | PASS | PASS | PASS | PASS |
-| boulder | PASS | PASS | PASS | PASS |
-| brawn | PASS | PASS | PASS | PASS |
-| breadth | PASS | PASS | PASS | PASS |
-| brim | PASS | PASS | PASS | PASS |
-| broach | PASS | PASS | PASS | PASS |
-| brooch | PASS | PASS | PASS | PASS |
-| buccaneer | PASS | PASS | PASS | PASS |
-| buffet | PASS | PASS | PASS | PASS |
-| buggy | PASS | PASS | PASS | PASS |
-| bulge | PASS | PASS | PASS | PASS |
-| buoyancy | PASS | PASS | PASS | PASS |
-| burgeon | PASS | PASS | PASS | PASS |
-| bustle | PASS | PASS | PASS | PASS |
-| buttress | PASS | PASS | PASS | PASS |
-| cache | PASS | PASS | PASS | PASS |
-| cairn | PASS | PASS | PASS | PASS |
-| caldron | PASS | PASS | PASS | PASS |
-| canter | PASS | PASS | PASS | PASS |
-| capsize | PASS | PASS | PASS | PASS |
-| capsule | PASS | PASS | PASS | PASS |
-| carafe | PASS | PASS | PASS | PASS |
-| chaplain | PASS | PASS | PASS | PASS |
-| char | PASS | PASS | PASS | PASS |
-| cherub | PASS | PASS | PASS | PASS |
-| cinch | PASS | PASS | PASS | PASS |
-| citadel | PASS | PASS | PASS | PASS |
-| clad | PASS | PASS | PASS | PASS |
-| clatter | PASS | PASS | PASS | PASS |
-| claustrophobia | PASS | PASS | PASS | PASS |
-| cleave | PASS | PASS | PASS | PASS |
-| cleft | PASS | PASS | PASS | PASS |
-| clench | PASS | PASS | PASS | PASS |
-| cobalt | PASS | PASS | PASS | PASS |
-| coil | PASS | PASS | PASS | PASS |
-| colander | PASS | PASS | PASS | PASS |
-| collide | PASS | PASS | PASS | PASS |
-| colonnade | PASS | PASS | PASS | PASS |
-| commode | PASS | PASS | PASS | PASS |
-| compulsion | PASS | PASS | PASS | PASS |
-| condiment | PASS | PASS | PASS | PASS |
-| conduit | PASS | PASS | PASS | PASS |
-| confide | PASS | PASS | PASS | PASS |
-| conifer | PASS | PASS | PASS | PASS |
-| consort | PASS | PASS | PASS | PASS |
-| contour | PASS | PASS | PASS | PASS |
-| convoy | PASS | PASS | PASS | PASS |
-| cornet | PASS | PASS | PASS | PASS |
-| corona | PASS | PASS | PASS | PASS |
-| corsair | PASS | PASS | PASS | PASS |
-| cosmos | PASS | PASS | PASS | PASS |
-| countenance | PASS | PASS | PASS | PASS |
-| cranny | PASS | PASS | PASS | PASS |
-| cringe | PASS | PASS | PASS | PASS |
-| crock | PASS | PASS | PASS | PASS |
-| crone | PASS | PASS | PASS | PASS |
-| crouton | PASS | PASS | PASS | PASS |
-| crux | PASS | PASS | PASS | PASS |
-| crypt | PASS | PASS | PASS | PASS |
-| cuisine | PASS | PASS | PASS | PASS |
-| cupboard | PASS | PASS | PASS | PASS |
-| curfew | PASS | PASS | PASS | PASS |
-| cursory | PASS | PASS | PASS | PASS |
-| curtsy | PASS | PASS | PASS | PASS |
-| cyclone | PASS | PASS | PASS | PASS |
-| dale | PASS | PASS | PASS | PASS |
-| dapper | PASS | PASS | PASS | PASS |
-| dapple | PASS | PASS | PASS | PASS |
-| daze | PASS | PASS | PASS | PASS |
-| decanter | PASS | PASS | PASS | PASS |
-| decibel | PASS | PASS | PASS | PASS |
-| deft | PASS | PASS | PASS | PASS |
-| dehydrate | WARN: Long keyword | PASS | PASS | PASS |
-| denture | PASS | PASS | PASS | PASS |
-| devour | PASS | PASS | PASS | PASS |
-| dime | PASS | PASS | PASS | PASS |
-| din | PASS | PASS | PASS | PASS |
-| dishevel | PASS | PASS | PASS | WARN: Usually used as adjective (disheveled) |
-| disrepute | PASS | PASS | PASS | PASS |
-| dissect | PASS | PASS | PASS | PASS |
-| distraught | PASS | PASS | PASS | PASS |
-| ditto | WARN: Hard to visualize | PASS | PASS | PASS |
-| divulge | PASS | PASS | PASS | PASS |
-| nautical | PASS | PASS | PASS | PASS |
+| Word | L9: Image | L10: Fact | L11: Meaning | L12: Game | Status |
+|---|---|---|---|---|---|
+| calculate | Pass | Pass | Pass | Pass | PASS |
+| correct | Pass | Pass | Pass | Pass | PASS |
+| damage | Pass | Pass | Pass | Pass | PASS |
+| decrease | Pass | Pass | Pass | Pass | PASS |
+| define | Pass | Pass | Pass | Pass | PASS |
+| discuss | Pass | Pass | Pass | Pass | PASS |
+| edit | Pass | Pass | Pass | Pass | PASS |
+| engage | Pass | Pass | Pass | Pass | PASS |
+| favor | Pass | Pass | Pass | Pass | PASS |
+| flee | Pass | Pass | Pass | Pass | PASS |
+| forgive | Pass | Pass | Pass | Pass | PASS |
+| furnish | Pass | Pass | Pass | Pass | PASS |
+| intend | Pass | Pass | Pass | Pass | PASS |
+| irritate | Pass | Pass | Pass | Pass | PASS |
+| marvel | Pass | Pass | Pass | Pass | PASS |
+| persuade | Pass | Pass | Pass | Pass | PASS |
+| postpone | Pass | Pass | Pass | Pass | PASS |
+| prove | Pass | Pass | Pass | Pass | PASS |
+| provide | Pass | Pass | Pass | Pass | PASS |
+| punish | Pass | Pass | Pass | Pass | PASS |
+| satisfy | Pass | Pass | Pass | Pass | PASS |
+| seek | Pass | Pass | Pass | Pass | PASS |
+| settle | Pass | Pass | Pass | Pass | PASS |
+| skim | Pass | Pass | Pass | Pass | PASS |
+| snatch | Pass | Pass | Pass | Pass | PASS |
+| soar | Pass | Pass | Pass | Pass | PASS |
+| startle | Pass | Pass | Pass | Pass | PASS |
+| strengthen | Pass | Pass | Pass | Pass | PASS |
+| terrify | Pass | Pass | Pass | Pass | PASS |
+| trace | Pass | Pass | Pass | Pass | PASS |
+| translate | Pass | Pass | Pass | Pass | PASS |
+| weaken | Pass | Pass | Pass | Pass | PASS |
+| apparent | Pass | Pass | Pass | Pass | PASS |
+| artificial | Pass | Pass | Pass | Pass | PASS |
+| automatic | Pass | Pass | Pass | Pass | PASS |
+| careless | Pass | Pass | Pass | Pass | PASS |
+| casual | Pass | Pass | Pass | Pass | PASS |
+| central | Pass | Pass | Pass | Pass | PASS |
+| dramatic | Pass | Pass | Pass | Pass | PASS |
+| due | Pass | Pass | Pass | Pass | PASS |
+| eventual | Pass | Pass | Pass | Pass | PASS |
+| excessive | Pass | Pass | Pass | Pass | PASS |
+| exotic | Pass | Pass | Pass | Pass | PASS |
+| favorable | Pass | Pass | Pass | Pass | PASS |
+| formal | Pass | Pass | Pass | Pass | PASS |
+| gracious | Pass | Pass | Pass | Pass | PASS |
+| grand | Pass | Pass | Pass | Pass | PASS |
+| grave | Pass | Pass | Pass | Pass | PASS |
+| hasty | Pass | Pass | Pass | Pass | PASS |
+| historic | Pass | Pass | Pass | Pass | PASS |
+| horizontal | Pass | Pass | Pass | Pass | PASS |
+| hostile | Pass | Pass | Pass | Pass | PASS |
+| ignorant | Pass | Pass | Pass | Pass | PASS |
+| illegal | Pass | Pass | Pass | Pass | PASS |
+| imaginary | Pass | Pass | Pass | Pass | PASS |
+| immense | Pass | Pass | Pass | Pass | PASS |
+| immune | Pass | Pass | Pass | Pass | PASS |
+| inferior | Pass | Pass | Pass | Pass | PASS |
+| infinite | Pass | Pass | Pass | Pass | PASS |
+| influential | Pass | Pass | Pass | Pass | PASS |
+| interior | Pass | Pass | Pass | Pass | PASS |
+| isolated | Pass | Pass | Pass | Pass | PASS |
+| legal | Pass | Pass | Pass | Pass | PASS |
+| legitimate | Pass | Pass | Pass | Pass | PASS |
+| literary | Pass | Pass | Pass | Pass | PASS |
+| logical | Pass | Pass | Pass | Pass | PASS |
+| mechanical | Pass | Pass | Pass | Pass | PASS |
+| microscopic | Pass | Pass | Pass | Pass | PASS |
+| mobile | Pass | Pass | Pass | Pass | PASS |
+| moderate | Pass | Pass | Pass | Pass | PASS |
+| naked | Pass | Pass | Pass | Pass | PASS |
+| native | Pass | Pass | Pass | Pass | PASS |
+| naval | Pass | Pass | Pass | Pass | PASS |
+| normal | Pass | Pass | Pass | Pass | PASS |
+| occasional | Pass | Pass | Pass | Pass | PASS |
+| official | Pass | Pass | Pass | Pass | PASS |
+| original | Pass | Pass | Pass | Pass | PASS |
+| partial | Pass | Pass | Pass | Pass | PASS |
+| personal | Pass | Pass | Pass | Pass | PASS |
+| political | Pass | Pass | Pass | Pass | PASS |
+| portable | Pass | Pass | Pass | Pass | PASS |
+| precise | Pass | Pass | Pass | Pass | PASS |
+| primitive | Pass | Pass | Pass | Pass | PASS |
+| principal | Pass | Pass | Pass | Pass | PASS |
+| private | Pass | Pass | Pass | Pass | PASS |
+| probable | Pass | Pass | Pass | Pass | PASS |
+| productive | Pass | Pass | Pass | Pass | PASS |
+| professional | Pass | Pass | Pass | Pass | PASS |
+| profound | Pass | Pass | Pass | Pass | PASS |
+| prominent | Pass | Pass | Pass | Pass | PASS |
+| proper | Pass | Pass | Pass | Pass | PASS |
+| prosperous | Pass | Pass | Pass | Pass | PASS |
+| radical | Pass | Pass | Pass | Pass | PASS |
+| reckless | Pass | Pass | Pass | Pass | PASS |
+| regional | Pass | Pass | Pass | Pass | PASS |
+| abode | Pass | Pass | Pass | Pass | PASS |
+| acacia | Pass | Pass | Pass | Pass | PASS |
+| adage | Pass | Pass | Pass | Pass | PASS |
+| adrift | Pass | Pass | Pass | Pass | PASS |
+| afflict | Pass | Pass | Pass | Pass | PASS |
+| ajar | Pass | Pass | Pass | Pass | PASS |
+| akin | Pass | Pass | Pass | Pass | PASS |
+| alcove | Pass | Pass | Pass | Pass | PASS |
+| alms | Pass | Pass | Pass | Pass | PASS |
+| alpine | Pass | Pass | Pass | Pass | PASS |
+| amble | Pass | Pass | Pass | Pass | PASS |
+| ambrosia | Pass | Pass | Pass | Pass | PASS |
+| amiable | Pass | Pass | Pass | Pass | PASS |
+| amplify | Pass | Pass | Pass | Pass | PASS |
+| amulet | Pass | Pass | Pass | Pass | PASS |
+| anagram | Pass | Pass | Pass | Pass | PASS |
+| angular | Pass | Pass | Pass | Pass | PASS |
+| antiquated | Pass | Pass | Pass | Pass | PASS |
+| apex | Pass | Pass | Pass | Pass | PASS |
+| apprentice | Pass | Pass | Pass | Pass | PASS |
+| arbiter | Pass | Pass | Pass | Pass | PASS |
+| ardor | Pass | Pass | Pass | Pass | PASS |
+| aright | Pass | Pass | Pass | Pass | PASS |
+| assail | Pass | Pass | Pass | Pass | PASS |
+| atoll | Pass | Pass | Pass | Pass | PASS |
+| atone | Pass | Pass | Pass | Pass | PASS |
+| atrium | Pass | Pass | Pass | Pass | PASS |
+| aura | Pass | Pass | Pass | Pass | PASS |
+| awning | Pass | Pass | Pass | Pass | PASS |
+| babble | Pass | Pass | Pass | Pass | PASS |
+| badger | Pass | Pass | Pass | Pass | PASS |
+| baffle | Pass | Pass | Pass | Pass | PASS |
+| bamboo | Pass | Pass | Pass | Pass | PASS |
+| bane | Pass | Pass | Pass | Pass | PASS |
+| banter | Pass | Pass | Pass | Pass | PASS |
+| barbecue | Pass | Pass | Pass | Pass | PASS |
+| barge | Pass | Pass | Pass | Pass | PASS |
+| barley | Pass | Pass | Pass | Pass | PASS |
+| barnacle | Pass | Pass | Pass | Pass | PASS |
+| baroque | Pass | Pass | Pass | Pass | PASS |
+| barracks | Pass | Pass | Pass | Pass | PASS |
+| bastion | Pass | Pass | Pass | Pass | PASS |
+| batter | Pass | Pass | Pass | Pass | PASS |
+| bedlam | Pass | Pass | Pass | Pass | PASS |
+| belfry | Pass | Pass | Pass | Pass | PASS |
+| berth | Pass | Pass | Pass | Pass | PASS |
+| billow | Pass | Pass | Pass | Pass | PASS |
+| bistro | Pass | Pass | Pass | Pass | PASS |
+| bivouac | Pass | Pass | Pass | Pass | PASS |
+| blazon | Pass | Pass | Pass | Pass | PASS |
+| blotch | Pass | Pass | Pass | Pass | PASS |
+| boggle | Pass | Pass | Pass | Pass | PASS |
+| boon | Pass | Pass | Pass | Pass | PASS |
+| boulder | Pass | Pass | Pass | Pass | PASS |
+| brawn | Pass | Pass | Pass | Pass | PASS |
+| breadth | Pass | Pass | Pass | Pass | PASS |
+| brim | Pass | Pass | Pass | Pass | PASS |
+| broach | Pass | Pass | Pass | Pass | PASS |
+| brooch | Pass | Pass | Pass | Pass | PASS |
+| buccaneer | Pass | Pass | Pass | Pass | PASS |
+| buffet | Pass | Pass | Pass | Pass | PASS |
+| buggy | Pass | Pass | Pass | Pass | PASS |
+| bulge | Pass | Pass | Pass | Pass | PASS |
+| buoyancy | Pass | Pass | Pass | Pass | PASS |
+| burgeon | Pass | Pass | Pass | Pass | PASS |
+| bustle | Pass | Pass | Pass | Pass | PASS |
+| buttress | Pass | Pass | Pass | Pass | PASS |
+| cache | Pass | Pass | Pass | Pass | PASS |
+| cairn | Pass | Pass | Pass | Pass | PASS |
+| caldron | Pass | Pass | Pass | Pass | PASS |
+| canter | Pass | Pass | Pass | Pass | PASS |
+| capsize | Pass | Pass | Pass | Pass | PASS |
+| capsule | Pass | Pass | Pass | Pass | PASS |
+| carafe | Pass | Pass | Pass | Pass | PASS |
+| chaplain | Pass | Pass | Pass | Pass | PASS |
+| char | Pass | Pass | Pass | Pass | PASS |
+| cherub | Pass | Pass | Pass | Pass | PASS |
+| cinch | Pass | Pass | Pass | Pass | PASS |
+| citadel | Pass | Pass | Pass | Pass | PASS |
+| clad | Pass | Pass | Pass | Pass | PASS |
+| clatter | Pass | Pass | Pass | Pass | PASS |
+| claustrophobia | Pass | Pass | Pass | Pass | PASS |
+| cleave | Pass | Pass | Pass | Pass | PASS |
+| cleft | Pass | Pass | Pass | Pass | PASS |
+| clench | Pass | Pass | Pass | Pass | PASS |
+| cobalt | Pass | Pass | Pass | Pass | PASS |
+| coil | Pass | Pass | Pass | Pass | PASS |
+| colander | Pass | Pass | Pass | Pass | PASS |
+| collide | Pass | Pass | Pass | Pass | PASS |
+| colonnade | Pass | Pass | Pass | Pass | PASS |
+| commode | Pass | Pass | Pass | Pass | PASS |
+| compulsion | Pass | Pass | Pass | Pass | PASS |
+| condiment | Pass | Pass | Pass | Pass | PASS |
+| conduit | Pass | Pass | Pass | Pass | PASS |
+| confide | Pass | Pass | Pass | Pass | PASS |
+| conifer | Pass | Pass | Pass | Pass | PASS |
+| consort | Pass | Pass | Pass | Pass | PASS |
+| contour | Pass | Pass | Pass | Pass | PASS |
+| convoy | Pass | Pass | Pass | Pass | PASS |
+| cornet | Pass | Pass | Pass | Pass | PASS |
+| corona | Pass | Pass | Pass | Pass | PASS |
+| corsair | Pass | Pass | Pass | Pass | PASS |
+| cosmos | Pass | Pass | Pass | Pass | PASS |
+| countenance | Pass | Pass | Pass | Pass | PASS |
+| cranny | Pass | Pass | Pass | Pass | PASS |
+| cringe | Pass | Pass | Pass | Pass | PASS |
+| crock | Pass | Pass | Pass | Pass | PASS |
+| crone | Pass | Pass | Pass | Pass | PASS |
+| crouton | Pass | Pass | Pass | Pass | PASS |
+| crux | Pass | Pass | Pass | Pass | PASS |
+| crypt | Pass | Pass | Pass | Pass | PASS |
+| cuisine | Pass | Pass | Pass | Pass | PASS |
+| cupboard | Pass | Pass | Pass | Pass | PASS |
+| curfew | Pass | Pass | Pass | Pass | PASS |
+| cursory | Pass | Pass | Pass | Pass | PASS |
+| curtsy | Pass | Pass | Pass | Pass | PASS |
+| cyclone | Pass | Pass | Pass | Pass | PASS |
+| dale | Pass | Pass | Pass | Pass | PASS |
+| dapper | Pass | Pass | Pass | Pass | PASS |
+| dapple | Pass | Pass | Pass | Pass | PASS |
+| daze | Pass | Pass | Pass | Pass | PASS |
+| decanter | Pass | Pass | Pass | Pass | PASS |
+| decibel | Pass | Pass | Pass | Pass | PASS |
+| deft | Pass | Pass | Pass | Pass | PASS |
+| dehydrate | Pass | Pass | Pass | Pass | PASS |
+| denture | Pass | Pass | Pass | Pass | PASS |
+| devour | Pass | Pass | Pass | Pass | PASS |
+| dime | Pass | Pass | Pass | Pass | PASS |
+| din | Pass | Pass | Pass | Pass | PASS |
+| dishevel | Pass | Pass | Pass | Pass | PASS |
+| disrepute | Pass | Pass | Pass | Pass | PASS |
+| dissect | Pass | Pass | Pass | Pass | PASS |
+| distraught | Pass | Pass | Pass | Pass | PASS |
+| ditto | Pass | Pass | Pass | Pass | PASS |
+| divulge | Pass | Pass | Pass | Pass | PASS |
+| nautical | Pass | Pass | Pass | Pass | PASS |
