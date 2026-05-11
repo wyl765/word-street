@@ -1,238 +1,238 @@
-# VERIFY-GPT — words-level5a.js (L5–L8)
+# VERIFY-GPT-words-level5a.js-GATE
 
-模拟：10岁中国ESL孩子（MAP≈197，约2年级）。逐词四层审校：L5理解度；L6反向4选1唯一性；L7文化敏感；L8学习路径/先修。
+Legend: L5=Mark(10岁中国ESL孩子: definition理解 + example猜词) | L6=例句反向唯一性(遮住目标词，给同level 4选1能否唯一选中) | L7=文化敏感度(中国ESL孩子/家长) | L8=学习路径(该level是否合适/前置是否够)
 
-|#|Word|L5(def)|L5(ex→word)|L6 反向测试(4选1)|L7|L8|
-|---:|---|---|---|---|---|---|
-|1|administer|勉强：句子短但概念仍偏抽象|不能：卡词(administer,principal)|{administer,fetter,confer,hinder}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|2|adversary|勉强：句子短但概念仍偏抽象|不能：卡词(adversary,planning)|{adversary,diversity,biodiversity,inquiry}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|3|affluent|勉强：句子短但概念仍偏抽象|不能：卡词(neighborhood,affluent)|{affluent,afoot,latent,imminent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|4|apprehend|勉强：句子短但概念仍偏抽象|勉强：卡词(apprehend)|{apprehend,abscond,authenticate,laud}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：警察/抓捕语境对低龄可能紧张|偏难：需要先修常用同义词/场景词再教|
-|5|aspiration|勉强：句子短但概念仍偏抽象|不能：卡词(aspiration,astronaut)|{aspiration,objection,projection,recession}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|6|augment|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{augment,foment,authenticate,avert}→唯一：例句线索与目标释义更贴合|OK|偏难：需要先修常用同义词/场景词再教|
-|7|austere|不能：卡词(comfortable,decoration)|勉强：句子短但概念仍偏抽象|{austere,prerequisite,afoot,aloof}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：例句含monk宗教词，孩子可能陌生|偏难：需要先修常用同义词/场景词再教|
-|8|authenticate|勉强：句子短但概念仍偏抽象|不能：卡词(authenticate,painting)|{authenticate,domesticate,fabricate,implicate}→唯一：例句线索与目标释义更贴合|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|9|avert|勉强：句子短但概念仍偏抽象|不能：卡词(argument,changing)|{avert,exhort,augment,comport}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|10|benevolent|勉强：卡词(generous)|不能：卡词(benevolent,children's)|{benevolent,indolent,bereft,latent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|11|biodiversity|勉强：句子短但概念仍偏抽象|不能：卡词(biodiversity,incredible)|{biodiversity,diversity,parity,amenity}→不唯一：线索同时指向diversity|OK|偏难：需要先修常用同义词/场景词再教|
-|12|candid|勉强：卡词(truthful)|勉强：句子短但概念仍偏抽象|{candid,callous,clout,didactic}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|13|capitalism|勉强：卡词(businesses)|不能：卡词(capitalism,companies)|{capitalism,caveat,copse,clamor}→唯一：例句线索与目标释义更贴合|注意：意识形态/经济制度话题，家长敏感可能更高|偏难：需要先修常用同义词/场景词再教|
-|14|circumference|勉强：卡词(distance)|不能：卡词(circumference,basketball)|{circumference,stance,nuance,reliance}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|15|clamor|勉强：句子短但概念仍偏抽象|勉强：卡词(cafeteria)|{clamor,coffer,copse,caveat}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|16|coerce|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{coerce,condone,comprise,construe}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：bully敲诈午饭钱，家长可能反感但可用于反霸凌教育|偏难：需要先修常用同义词/场景词再教|
-|17|comprise|勉强：句子短但概念仍偏抽象|不能：卡词(territories,comprises)|{comprise,comport,coerce,devise}→唯一：例句线索与目标释义更贴合|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|18|concurrent|勉强：卡词(happening)|不能：卡词(concurrent,concerts)|{concurrent,latent,conscientious,affluent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|19|confer|勉强：卡词(deciding)|勉强：卡词(announcing)|{confer,confiscate,condone,consign}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|20|confiscate|不能：卡词(punishment,authority)|不能：卡词(distracting,confiscate)|{confiscate,correlate,confer,condone}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|21|conscientious|勉强：卡词(thorough)|勉强：卡词(conscientious)|{conscientious,facetious,odious,callous}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|22|copyright|勉强：卡词(creative)|勉强：卡词(copyright)|{copyright,copse,caveat,coffer}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|23|correlate|勉强：卡词(connection)|不能：卡词(scientists,correlate)|{correlate,confiscate,culminate,formulate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|24|culminate|勉强：句子短但概念仍偏抽象|不能：卡词(performance,culminate)|{culminate,correlate,confiscate,negate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|25|curtail|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{curtail,embroil,culminate,extol}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|26|deem|勉强：卡词(consider)|不能：卡词(appropriate,principal)|{deem,decry,devise,delude}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|27|devise|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{devise,delude,surmise,deplore}→唯一：例句线索与目标释义更贴合|OK|偏难：需要先修常用同义词/场景词再教|
-|28|displace|勉强：句子短但概念仍偏抽象|不能：卡词(displace,families)|{displace,efface,coerce,devise}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|29|disposable|勉强：卡词(designed)|不能：卡词(disposable,cafeteria)|{disposable,indispensable,disparate,palpable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|30|diversity|勉强：卡词(different)|不能：卡词(represented,celebrates)|{diversity,biodiversity,parity,amenity}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|31|domesticate|勉强：句子短但概念仍偏抽象|不能：卡词(domesticate,thousands)|{domesticate,authenticate,fabricate,implicate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|32|dominance|勉强：句子短但概念仍偏抽象|勉强：卡词(dominance)|{dominance,nominal,disparate,disposable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|33|embargo|勉强：卡词(official)|不能：卡词(delivering,prevented)|{embargo,ethic,excerpt,membrane}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：国家/贸易制裁话题偏政治|偏难：需要先修常用同义词/场景词再教|
-|34|entrepreneur|勉强：卡词(business)|不能：卡词(entrepreneur,bracelets)|{entrepreneur,ethic,clamor,coffer}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|35|enumerate|勉强：句子短但概念仍偏抽象|勉强：卡词(enumerate)|{enumerate,berate,extenuate,immigrate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|36|equitable|勉强：卡词(involved)|不能：卡词(equitable,supplies)|{equitable,intractable,palpable,equivocal}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|37|ethic|不能：卡词(principle,behavior)|不能：卡词(finished,homework)|{ethic,embargo,excerpt,entrepreneur}→不唯一：线索同时指向excerpt|OK|偏难：需要先修常用同义词/场景词再教|
-|38|evoke|勉强：句子短但概念仍偏抽象|不能：卡词(grandma's,memories)|{evoke,revoke,efface,espouse}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|39|excerpt|勉强：句子短但概念仍偏抽象|不能：卡词(interested,students)|{excerpt,ethic,caveat,despot}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|40|fabricate|勉强：句子短但概念仍偏抽象|勉强：卡词(fabricate)|{fabricate,implicate,domesticate,authenticate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|41|fiscal|勉强：句子短但概念仍偏抽象|不能：卡词(september,school's)|{fiscal,equivocal,methodical,banal}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|42|foremost|勉强：卡词(important)|不能：卡词(dinosaurs,foremost)|{foremost,foreseeable,afoot,clout}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|43|formulate|勉强：句子短但概念仍偏抽象|不能：卡词(committed,detective)|{formulate,correlate,fabricate,negate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|44|fracture|勉强：卡词(especially)|不能：卡词(skateboard,fracture)|{fracture,franchise,foxglove,surge}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|45|franchise|不能：卡词(permission,company's)|不能：卡词(franchise,identical)|{franchise,fracture,guise,copse}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|46|gauge|勉强：句子短但概念仍偏抽象|勉强：卡词(checking)|{gauge,estrange,lure,evoke}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|47|governance|勉强：句子短但概念仍偏抽象|不能：卡词(governance,decisions)|{governance,stance,nuance,reliance}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|48|immigrate|勉强：卡词(permanently)|不能：卡词(grandparents,immigrate)|{immigrate,implicate,berate,enumerate}→唯一：例句线索与目标释义更贴合|OK|偏难：需要先修常用同义词/场景词再教|
-|49|imminent|勉强：句子短但概念仍偏抽象|不能：卡词(thunderstorm,imminent)|{imminent,indolent,inept,latent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|50|imperative|勉强：卡词(important)|不能：卡词(imperative,building)|{imperative,innovative,impeccable,furtive}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|51|implicate|勉强：卡词(involved)|不能：卡词(fingerprints,implicate)|{implicate,fabricate,immigrate,domesticate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|52|implicit|不能：卡词(suggested,directly)|不能：卡词(understanding,everyone)|{implicit,implacable,imminent,imperative}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|53|inquiry|勉强：卡词(questions)|勉强：卡词(detective's)|{inquiry,inkwell,adversary,parity}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|54|intensify|勉强：卡词(stronger)|不能：卡词(intensify,overnight)|{intensify,edify,specify,allay}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|55|leverage|不能：卡词(advantage,influence)|勉强：卡词(leverage)|{leverage,surge,governance,locomotive}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|56|locomotive|勉强：句子短但概念仍偏抽象|不能：卡词(locomotive,mountain)|{locomotive,leverage,foxglove,surge}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|57|lure|勉强：句子短但概念仍偏抽象|勉强：卡词(children)|{lure,censure,deplore,laud}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|58|maximize|勉强：卡词(possible)|不能：卡词(maximize,question)|{maximize,minimize,agonize,malign}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|59|medium|勉强：卡词(information)|勉强：卡词(internet)|{medium,modicum,optimum,membrane}→唯一：例句线索与目标释义更贴合|OK|合适：本level里相对偏易，可作为进入点|
-|60|membrane|勉强：卡词(separates)|不能：卡词(controls,membrane)|{membrane,medium,franchise,surge}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|61|minimize|不能：卡词(possible,smallest)|不能：卡词(sunscreen,minimize)|{minimize,maximize,agonize,culminate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|62|negligible|勉强：卡词(worrying)|不能：卡词(difference,negligible)|{negligible,incorrigible,tangible,indelible}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|63|network|不能：卡词(computers,connected)|不能：卡词(underground,connecting)|{network,nuance,adversary,aspiration}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|64|nominal|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{nominal,banal,dominance,proportional}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|65|objection|勉强：卡词(disagreeing)|勉强：卡词(objection)|{objection,projection,aspiration,recession}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|66|obligate|勉强：句子短但概念仍偏抽象|不能：卡词(contract,obligate)|{obligate,negate,propagate,berate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|67|obsolete|勉强：句子短但概念仍偏抽象|不能：卡词(typewriters,available)|{obsolete,obtuse,disparate,opportune}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|68|optimum|勉强：卡词(favorable)|不能：卡词(temperature,tomatoes)|{optimum,optimal,medium,modicum}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|69|oversee|勉强：句子短但概念仍偏抽象|不能：卡词(construction,building)|{oversee,obligate,lure,avert}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|70|parameter|勉强：句子短但概念仍偏抽象|不能：卡词(parameter,sunlight)|{parameter,parity,pariah,coffer}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|71|participation|勉强：卡词(activity)|勉强：卡词(participation)|{participation,proportional,palatial,palpable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|72|portfolio|不能：卡词(collection,someone's)|不能：卡词(interview,paintings)|{portfolio,parity,pariah,pathos}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|73|prior|勉强：句子短但概念仍偏抽象|勉强：卡词(starting)|{prior,penurious,prohibitive,prerequisite}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|74|projection|勉强：卡词(estimate)|勉强：卡词(projection)|{projection,objection,aspiration,recession}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|75|propagate|勉强：卡词(reproduce)|不能：卡词(dandelions,propagate)|{propagate,negate,obligate,palliate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|76|recession|勉强：句子短但概念仍偏抽象|不能：卡词(recession,shopping)|{recession,objection,aspiration,projection}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：经济衰退话题偏成人世界|偏难：需要先修常用同义词/场景词再教|
-|77|refine|勉强：句子短但概念仍偏抽象|不能：卡词(continued,sentence)|{refine,refute,revoke,condone}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|78|reliance|勉强：卡词(depending)|不能：卡词(smartphones,reliance)|{reliance,reluctance,stance,nuance}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|79|reluctance|勉强：句子短但概念仍偏抽象|勉强：卡词(reluctance)|{reluctance,reliance,stance,nuance}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|80|scrutiny|不能：卡词(examination,detailed)|不能：卡词(contestant's,choosing)|{scrutiny,statutory,lofty,levity}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|81|sibling|勉强：句子短但概念仍偏抽象|不能：卡词(brothers,siblings)|{sibling,bowstring,surge,stance}→唯一：例句场景很具体，能稳选|OK|合适：本level里相对偏易，可作为进入点|
-|82|specify|勉强：句子短但概念仍偏抽象|勉强：卡词(chocolate)|{specify,edify,intensify,allay}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|83|stance|不能：卡词(attitude,position)|勉强：卡词(homework)|{stance,reluctance,nuance,reliance}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|84|accountability|勉强：卡词(responsible)|不能：卡词(accountability,homework)|{accountability,amenity,parity,diversity}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|85|altruistic|勉强：卡词(yourself)|不能：卡词(altruistic,birthday)|{altruistic,abiotic,bombastic,didactic}→不唯一：线索同时指向abiotic|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|86|caveat|勉强：卡词(condition)|勉强：句子短但概念仍偏抽象|{caveat,copyright,capitalism,copse}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|87|condone|勉强：卡词(behavior)|勉强：卡词(bullying)|{condone,construe,confiscate,coerce}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|88|dearth|勉强：卡词(shortage)|勉强：句子短但概念仍偏抽象|{dearth,despot,pariah,diversity}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|89|definitive|勉强：卡词(complete)|不能：卡词(encyclopedia,definitive)|{definitive,prohibitive,furtive,imperative}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|90|ebbing|勉强：卡词(decreasing)|不能：卡词(playground,interest)|{ebbing,harrowing,equitable,emaciated}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|91|embody|勉强：卡词(represent)|勉强：卡词(embodies)|{embody,embroil,edify,evoke}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|92|espouse|勉强：卡词(publicly)|不能：卡词(importance,espoused)|{espouse,estrange,evoke,devise}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|93|foreseeable|不能：卡词(predicted,expected)|勉强：卡词(foreseeable)|{foreseeable,malleable,foremost,palpable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|94|hinder|勉强：卡词(difficult)|不能：卡词(concentrate,hindered)|{hinder,confer,fetter,encumber}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|95|inconclusive|勉强：卡词(decision)|勉强：卡词(inconclusive)|{inconclusive,innovative,incorrigible,corrosive}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|96|indispensable|不能：卡词(absolutely,necessary)|不能：卡词(indispensable,survival)|{indispensable,disposable,indefatigable,indelible}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|97|innovative|不能：卡词(introducing,creative)|不能：卡词(innovative,student's)|{innovative,imperative,inconclusive,furtive}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|98|methodical|勉强：卡词(organized)|不能：卡词(methodical,approach)|{methodical,fiscal,equivocal,banal}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|99|multifaceted|勉强：卡词(different)|不能：卡词(multifaceted,affecting)|{multifaceted,emaciated,facetious,mundane}→不唯一：线索同时指向emaciated|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|100|negate|勉强：句子短但概念仍偏抽象|不能：卡词(exercising,benefits)|{negate,obligate,propagate,berate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|101|obligatory|勉强：卡词(required)|不能：卡词(motorcycle,obligatory)|{obligatory,statutory,obtuse,obsolete}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|102|optimal|不能：卡词(situation,possible)|勉强：卡词(temperature)|{optimal,optimum,oxbow,amalgam}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|103|parity|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{parity,pariah,amenity,diversity}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|104|prerequisite|勉强：句子短但概念仍偏抽象|勉强：卡词(prerequisite)|{prerequisite,equitable,prohibitive,prior}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|105|prohibitive|勉强：卡词(prevents)|勉强：卡词(prohibitive)|{prohibitive,definitive,furtive,imperative}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|106|proportional|不能：卡词(matching,relative)|勉强：卡词(proportional)|{proportional,banal,participation,nominal}→唯一：例句线索与目标释义更贴合|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|107|pursuant|不能：卡词(accordance,agreement)|不能：卡词(pursuant,visitors)|{pursuant,petulant,blatant,latent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|108|refute|勉强：句子短但概念仍偏抽象|不能：卡词(evidence,receipts)|{refute,refine,revoke,negate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|109|respective|不能：卡词(separately,belonging)|不能：卡词(classrooms,respective)|{respective,furtive,imperative,definitive}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|110|revoke|勉强：卡词(officially)|勉强：句子短但概念仍偏抽象|{revoke,evoke,refine,refute}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|111|solicit|勉强：句子短但概念仍偏抽象|不能：卡词(volunteers,donations)|{solicit,molt,avert,exhort}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|112|statutory|不能：卡词(established,required)|勉强：卡词(statutory)|{statutory,obligatory,scrutiny,lofty}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|113|suffice|勉强：卡词(particular)|勉强：句子短但概念仍偏抽象|{suffice,surmise,coerce,efface}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|114|surge|不能：卡词(increase,powerful)|勉强：句子短但概念仍偏抽象|{surge,stance,leverage,guise}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|115|surmise|勉强：句子短但概念仍偏抽象|勉强：卡词(surmised)|{surmise,devise,suffice,comprise}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|116|tangible|勉强：卡词(concrete)|勉强：卡词(tangible)|{tangible,negligible,incorrigible,indelible}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|合适：本level里相对偏易，可作为进入点|
-|117|tenuous|勉强：句子短但概念仍偏抽象|勉强：卡词(connection)|{tenuous,penurious,odious,callous}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|118|uphold|勉强：卡词(maintain)|勉强：卡词(original)|{uphold,wield,laud,abscond}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|119|wield|勉强：句子短但概念仍偏抽象|勉强：卡词(blacksmith)|{wield,uphold,laud,abscond}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|120|abysmal|勉强：句子短但概念仍偏抽象|勉强：卡词(disappointed)|{abysmal,banal,fiscal,genial}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|121|accrue|不能：卡词(addition,increase)|勉强：卡词(interest)|{accrue,construe,agonize,authenticate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|122|acrimonious|勉强：句子短但概念仍偏抽象|勉强：卡词(acrimonious)|{acrimonious,odious,noxious,amorphous}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|123|adroit|勉强：卡词(skillful)|勉强：卡词(magician)|{adroit,afoot,affluent,implicit}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|124|afoot|勉强：卡词(happening)|勉强：卡词(mysterious)|{afoot,affluent,adroit,aloof}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|125|agonize|勉强：句子短但概念仍偏抽象|勉强：卡词(agonized)|{agonize,maximize,minimize,accrue}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|126|allay|勉强：句子短但概念仍偏抽象|不能：卡词(students',teacher's)|{allay,avert,decry,edify}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|127|aloof|不能：卡词(friendly,yourself)|勉强：句子短但概念仍偏抽象|{aloof,altruistic,afoot,adroit}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|128|amalgam|勉强：卡词(different)|不能：卡词(traditions,countries)|{amalgam,amenity,medium,optimum}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|129|amenity|勉强：卡词(pleasant)|不能：卡词(amenities,breakfast)|{amenity,parity,accountability,diversity}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|130|amorphous|勉强：卡词(structure)|勉强：卡词(amorphous)|{amorphous,acrimonious,odious,tenuous}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|131|anguish|不能：卡词(especially,emotional)|勉强：句子短但概念仍偏抽象|{anguish,altruistic,afoot,aloof}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|132|aplomb|不能：卡词(confidence,stressful)|不能：卡词(finishing,surprise)|{aplomb,afoot,aloof,adroit}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|133|banal|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{banal,nominal,proportional,fiscal}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|134|belie|勉强：卡词(impression)|勉强：卡词(nervousness)|{belie,berate,lure,evoke}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|135|berate|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{berate,enumerate,immigrate,belie}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|136|bereft|勉强：卡词(important)|勉强：卡词(destroyed)|{bereft,benevolent,blatant,bellicose}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|137|blatant|勉强：句子短但概念仍偏抽象|不能：卡词(cheating,neighbor)|{blatant,latent,pursuant,petulant}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|138|blithe|勉强：卡词(carefree)|勉强：卡词(attitude)|{blithe,gauche,blatant,bellicose}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|139|bombastic|不能：卡词(impressive,important)|不能：卡词(politician's,bombastic)|{bombastic,altruistic,abiotic,didactic}→唯一：例句线索与目标释义更贴合|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|140|brandish|勉强：句子短但概念仍偏抽象|不能：卡词(brandished,umbrella)|{brandish,belie,berate,displace}→唯一：例句线索与目标释义更贴合|OK|偏难：需要先修常用同义词/场景词再教|
-|141|brazen|勉强：卡词(shameless)|不能：卡词(sandwich,squirrel)|{brazen,banal,bereft,blithe}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|142|callous|勉强：卡词(feelings)|勉强：卡词(painting)|{callous,incredulous,odious,conscientious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|143|censure|不能：卡词(disapproval,officially)|勉强：句子短但概念仍偏抽象|{censure,lure,coerce,condone}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|144|penurious|勉强：卡词(unwilling)|不能：卡词(groceries,penurious)|{penurious,odious,meritorious,tenuous}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|145|clout|不能：卡词(especially,influence)|勉强：卡词(principal)|{clout,callous,concurrent,afoot}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|146|coffer|不能：卡词(strongbox,treasury)|勉强：句子短但概念仍偏抽象|{coffer,copse,clamor,misnomer}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|147|comport|勉强：卡词(particular)|勉强：卡词(comported)|{comport,comprise,exhort,avert}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|148|consign|勉强：卡词(permanently)|不能：卡词(consigned,donation)|{consign,construe,confer,malign}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|149|construe|勉强：卡词(interpret)|不能：卡词(agreement,construed)|{construe,condone,consign,confiscate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|150|corrosive|勉强：句子短但概念仍偏抽象|不能：卡词(container,corrosive)|{corrosive,inconclusive,furtive,imperative}→唯一：例句线索与目标释义更贴合|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|151|decry|不能：卡词(criticize,publicly)|勉强：卡词(environmental)|{decry,deem,devise,delude}→不唯一：线索同时指向devise|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|152|delude|勉强：句子短但概念仍偏抽象|不能：卡词(studying,thinking)|{delude,devise,deplore,desiccate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|153|deplore|勉强：卡词(disapproval)|不能：卡词(everyone's,cheating)|{deplore,devise,delude,desiccate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|154|despot|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{despot,dearth,caveat,excerpt}→不唯一：线索同时指向excerpt|注意：暴政/强迫劳动带压迫暴力感|偏难：需要先修常用同义词/场景词再教|
-|155|didactic|勉强：卡词(intended)|不能：卡词(children,didactic)|{didactic,abiotic,bombastic,altruistic}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|156|diffident|勉强：卡词(confidence)|勉强：卡词(diffident)|{diffident,latent,affluent,imminent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|157|disparate|勉强：卡词(different)|不能：卡词(disparate,interests)|{disparate,disposable,indispensable,obsolete}→唯一：例句线索与目标释义更贴合|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|158|edify|勉强：句子短但概念仍偏抽象|不能：卡词(documentary,designed)|{edify,specify,intensify,embody}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|159|emaciated|勉强：卡词(abnormally)|勉强：卡词(emaciated)|{emaciated,multifaceted,nonplussed,candid}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：流浪猫极瘦，情绪偏沉重|偏难：需要先修常用同义词/场景词再教|
-|160|embroil|不能：卡词(difficult,situation)|不能：卡词(embroiled,argument)|{embroil,embody,extol,curtail}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|161|encumber|不能：卡词(difficult,movement)|不能：卡词(encumbered,backpack)|{encumber,confer,hinder,fetter}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|162|equivocal|勉强：句子短但概念仍偏抽象|不能：卡词(equivocal,everyone)|{equivocal,equitable,fiscal,methodical}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|163|estrange|勉强：卡词(unfriendly)|不能：卡词(estranged,argument)|{estrange,espouse,evoke,gauge}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|164|exhort|勉强：卡词(strongly)|不能：卡词(principal,exhorted)|{exhort,comport,avert,extol}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|165|extenuate|勉强：句子短但概念仍偏抽象|不能：卡词(extenuate,teacher's)|{extenuate,enumerate,extol,negate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|166|extol|勉强：卡词(excitement)|不能：卡词(benefits,extolled)|{extol,extenuate,exhort,embroil}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|167|facetious|不能：卡词(inappropriate,deliberately)|不能：卡词(facetious,nervously)|{facetious,odious,noxious,conscientious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|168|felicitous|勉强：卡词(perfectly)|不能：卡词(comparison,felicitous)|{felicitous,facetious,judicious,meritorious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|169|fetter|不能：卡词(someone's,restrain)|勉强：卡词(student's)|{fetter,administer,confer,hinder}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|170|fickle|不能：卡词(changing,opinions)|勉强：句子短但概念仍偏抽象|{fickle,foreseeable,fiscal,furtive}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|171|foment|勉强：卡词(encourage)|不能：卡词(troublemaker,cafeteria)|{foment,augment,formulate,molt}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|172|furtive|勉强：卡词(secretive)|勉强：卡词(neighbor's)|{furtive,imperative,definitive,innovative}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|173|gauche|勉强：句子短但概念仍偏抽象|勉强：卡词(everyone)|{gauche,blithe,fickle,genial}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|174|genial|不能：卡词(cheerful,friendly)|勉强：卡词(handshake)|{genial,palatial,banal,fiscal}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|175|glean|勉强：卡词(information)|勉强：卡词(different)|{glean,gauge,malign,consign}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|176|guise|勉强：卡词(appearance)|勉强：句子短但概念仍偏抽象|{guise,franchise,copse,governance}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|177|hapless|勉强：卡词(situations)|勉强：卡词(traveler)|{hapless,haughty,harrowing,aplomb}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|178|harrowing|不能：卡词(distressing,frightening)|勉强：卡词(harrowing)|{harrowing,ebbing,hapless,haughty}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：灾难新闻(trapped miners)偏沉重|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|179|haughty|不能：卡词(unfriendly,behaving)|勉强：卡词(villagers)|{haughty,lofty,levity,hapless}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|180|idyllic|不能：卡词(peaceful,pleasant)|勉强：句子短但概念仍偏抽象|{idyllic,abiotic,implicit,didactic}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|181|impeccable|勉强：句子短但概念仍偏抽象|不能：卡词(impeccable,spelling)|{impeccable,implacable,impregnable,imperative}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|182|implacable|勉强：卡词(impossible)|不能：卡词(performance,implacable)|{implacable,impeccable,impregnable,intractable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|183|impregnable|勉强：卡词(impossible)|不能：卡词(impregnable,attackers)|{impregnable,impeccable,implacable,intractable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|184|impropriety|不能：卡词(acceptable,behavior)|不能：卡词(impropriety,considered)|{impropriety,impregnable,implicit,imperative}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|185|inauspicious|勉强：句子短但概念仍偏抽象|勉强：卡词(inauspicious)|{inauspicious,judicious,incredulous,odious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|186|incorrigible|勉强：卡词(impossible)|勉强：卡词(incorrigible)|{incorrigible,indelible,negligible,tangible}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|187|incredulous|勉强：卡词(unwilling)|勉强：卡词(incredulous)|{incredulous,inauspicious,callous,odious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|188|indefatigable|勉强：句子短但概念仍偏抽象|不能：卡词(indefatigable,completed)|{indefatigable,indelible,indispensable,intractable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|189|indelible|勉强：卡词(impossible)|不能：卡词(impression,indelible)|{indelible,indefatigable,incorrigible,indispensable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|190|indolent|勉强：句子短但概念仍偏抽象|不能：卡词(indolent,sleeping)|{indolent,benevolent,imminent,inept}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|191|inept|勉强：句子短但概念仍偏抽象|勉强：卡词(juggling)|{inept,imminent,indolent,implicit}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|192|intractable|勉强：卡词(difficult)|不能：卡词(intractable,brightest)|{intractable,indispensable,indefatigable,equitable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|193|irksome|不能：卡词(irritating,annoying)|勉强：卡词(concentrate)|{irksome,indelible,imperative,innovative}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|194|judicious|勉强：卡词(judgment)|不能：卡词(allowance,judicious)|{judicious,inauspicious,ludicrous,odious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|195|latent|勉强：卡词(existing)|勉强：卡词(discovered)|{latent,omnipotent,blatant,affluent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|196|laud|勉强：句子短但概念仍偏抽象|勉强：卡词(brilliant)|{laud,lure,wield,uphold}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|197|lethargic|勉强：卡词(sluggish)|不能：卡词(afternoon,lethargic)|{lethargic,levity,idyllic,abiotic}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|198|levity|不能：卡词(seriousness,especially)|勉强：句子短但概念仍偏抽象|{levity,lofty,haughty,lethargic}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|199|lofty|勉强：卡词(impressive)|勉强：卡词(mountain)|{lofty,levity,haughty,impropriety}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|200|ludicrous|勉强：句子短但概念仍偏抽象|不能：卡词(apartment,ludicrous)|{ludicrous,judicious,odious,tenuous}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|201|malign|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{malign,consign,maximize,molt}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|202|malleable|勉强：卡词(influenced)|勉强：卡词(malleable)|{malleable,foreseeable,palpable,equitable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|203|meritorious|勉强：卡词(deserving)|不能：卡词(meritorious,received)|{meritorious,penurious,odious,noxious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|204|misnomer|勉强：卡词(inaccurate)|勉强：卡词(misnomer)|{misnomer,coffer,parameter,clamor}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|205|modicum|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{modicum,medium,optimum,amalgam}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|206|mundane|不能：卡词(excitement,ordinary)|勉强：句子短但概念仍偏抽象|{mundane,malleable,opportune,multifaceted}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|偏难：需要先修常用同义词/场景词再教|
-|207|nonplussed|勉强：卡词(surprised)|不能：卡词(nonplussed,announced)|{nonplussed,nominal,noxious,emaciated}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|208|noxious|勉强：卡词(poisonous)|勉强：卡词(polluted)|{noxious,odious,penurious,facetious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：污染/有毒烟雾可能引发不适|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|209|nuance|勉强：卡词(difference)|不能：卡词(understanding,'elated')|{nuance,stance,reliance,governance}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|210|obtuse|勉强：卡词(understand)|不能：卡词(pretending,understand)|{obtuse,obsolete,opportune,bellicose}→唯一：例句线索与目标释义更贴合|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|211|odious|勉强：卡词(unpleasant)|勉强：卡词(everyone)|{odious,noxious,penurious,facetious}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|212|omnipotent|勉强：卡词(unlimited)|勉强：卡词(omnipotent)|{omnipotent,latent,affluent,imminent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：wizard魔法设定可接受；注意别引到宗教争议|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|213|opportune|不能：卡词(convenient,happening)|勉强：卡词(opportune)|{opportune,obtuse,mundane,obsolete}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|214|palatial|不能：卡词(resembling,spacious)|不能：卡词(staircase,palatial)|{palatial,pastoral,genial,palpable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|215|palliate|勉强：卡词(removing)|不能：卡词(medicine,palliate)|{palliate,propagate,negate,berate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|216|palpable|勉强：句子短但概念仍偏抽象|不能：卡词(announced,palpable)|{palpable,equitable,malleable,disposable}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|217|panoramic|勉强：卡词(unobstructed)|不能：卡词(mountaintop,panoramic)|{panoramic,pastoral,idyllic,abiotic}→唯一：例句线索与目标释义更贴合|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|218|pariah|勉强：句子短但概念仍偏抽象|勉强：卡词(teammates)|{pariah,parity,parameter,pathos}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|219|pastoral|不能：卡词(countryside,peaceful)|不能：卡词(landscape,pastoral)|{pastoral,palatial,panoramic,proportional}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|220|pathos|勉强：句子短但概念仍偏抽象|勉强：卡词(audience)|{pathos,parity,pariah,parameter}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|注意：tears情绪强烈，建议更温和语境|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|221|petulant|不能：卡词(childishly,tempered)|勉强：卡词(petulant)|{petulant,pursuant,blatant,latent}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|222|bowstring|勉强：句子短但概念仍偏抽象|勉强：卡词(bowstring)|{bowstring,sibling,oxbow,biodiversity}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|223|foxglove|勉强：句子短但概念仍偏抽象|勉强：卡词(foxglove)|{foxglove,fracture,franchise,governance}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|224|inkwell|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{inkwell,inquiry,optimal,adversary}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|225|oxbow|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{oxbow,optimum,optimal,objection}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|226|molt|勉强：卡词(feathers)|勉强：句子短但概念仍偏抽象|{molt,avert,exhort,foment}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|227|abiotic|勉强：句子短但概念仍偏抽象|勉强：卡词(environment)|{abiotic,altruistic,didactic,bombastic}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|228|abscond|勉强：卡词(secretly)|勉强：卡词(absconded)|{abscond,apprehend,condone,laud}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|229|copse|勉强：句子短但概念仍偏抽象|勉强：句子短但概念仍偏抽象|{copse,copyright,guise,coffer}→唯一：例句场景很具体，能稳选|OK|偏难：需要先修常用同义词/场景词再教|
-|230|desiccate|勉强：卡词(completely)|勉强：卡词(desiccated)|{desiccate,domesticate,fabricate,implicate}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|231|efface|勉强：句子短但概念仍偏抽象|勉强：卡词(sidewalk)|{efface,displace,evoke,coerce}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
-|232|bellicose|勉强：句子短但概念仍偏抽象|不能：卡词(disagreement,bellicose)|{bellicose,bereft,blithe,obtuse}→不唯一：例句与各释义关键词几乎无重合，Mark易蒙|OK|过难：对MAP≈197先修不足；建议更简单释义/更具体例句或下调level|
+|#|Word|L5(def)|L5(ex→word)|L6(反测4选1)|L7|L8|卡点/说明|
+|---:|---|---|---|---|---|---|---|
+|1|administer|勉强|勉强|{administer, solicit, construe, oversee}→不唯一|OK|偏难(先修:manage/charge)|def:卡:概念/用法不直观；ex:卡:administer；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:manage/charge |
+|2|adversary|勉强|不能|{adversary, entrepreneur, prerequisite, aspiration}→不唯一|OK|偏难(先修:who/other)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:who/other |
+|3|affluent|勉强|不能|{affluent, dominance, omnipotent, penurious}→不唯一|OK|偏难(先修:having/lot)|def:卡:概念/用法不直观；ex:卡:neighborhood；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:having/lot |
+|4|apprehend|勉强|勉强|{apprehend, solicit, berate, implicate}→不唯一|注意(犯罪/暴力)|偏难(先修:catch/arrest)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:犯罪/暴力；路径:先修:catch/arrest |
+|5|aspiration|勉强|不能|{aspiration, excerpt, prerequisite, adversary}→不唯一|OK|偏难(先修:strong/hope)|def:卡:概念/用法不直观；ex:卡:aspiration；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:strong/hope |
+|6|augment|勉强|勉强|{augment, hinder, fabricate, devise}→唯一|OK|偏难(先修:make/greater)|def:卡:概念/用法不直观；ex:线索少；L6:线索更指向该词；路径:先修:make/greater |
+|7|austere|不能|不能|{austere, implicit, impeccable, impropriety}→不唯一|注意(宗教/神话)|偏难(先修:plain/not)|def:卡:comfortable/decoration；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:宗教/神话；路径:先修:plain/not |
+|8|authenticate|勉强|勉强|{authenticate, refute, implicate, brandish}→唯一|OK|偏难(先修:prove/real)|def:卡:概念/用法不直观；ex:卡:authenticate；L6:线索更指向该词；路径:先修:prove/real |
+|9|avert|勉强|不能|{avert, furtive, confiscate, indolent}→不唯一|OK|偏难(先修:turn/away)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:turn/away |
+|10|benevolent|勉强|勉强|{benevolent, bellicose, altruistic, panoramic}→不唯一|注意(大额金钱)|偏难(先修:kind/giving)|def:卡:概念/用法不直观；ex:卡:benevolent；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:大额金钱；路径:先修:kind/giving |
+|11|biodiversity|勉强|勉强|{biodiversity, foxglove, diversity, domesticate}→不唯一|OK|不合适(理科专门词;前置:range/plant)|def:卡:概念/用法不直观；ex:卡:rainforest；L6:更像diversity；路径:理科专门词;前置:range/plant |
+|12|candid|不能|不能|{candid, bereft, adroit, projection}→不唯一|OK|偏难(先修:saying/what)|def:卡:抽象解释；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:saying/what |
+|13|capitalism|不能|勉强|{capitalism, diversity, network, clamor}→勉强|注意(政治/制度/法律)|不合适(经政法/学术词;前置:system/where)|def:卡:businesses；ex:卡:capitalism；L6:与diversity都像；文化:政治/制度/法律；路径:经政法/学术词;前置:system/where |
+|14|circumference|勉强|勉强|{circumference, brandish, adversary, aspiration}→不唯一|OK|不合适(理科专门词;前置:distance/around)|def:卡:概念/用法不直观；ex:卡:circumference；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:理科专门词;前置:distance/around |
+|15|clamor|勉强|不能|{clamor, capitalism, diversity, network}→不唯一|OK|偏难(先修:loud/noise)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:loud/noise |
+|16|coerce|勉强|不能|{coerce, obligate, displace, exhort}→不唯一|注意(犯罪/暴力)|偏难(先修:force/do)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:犯罪/暴力；路径:先修:force/do |
+|17|comprise|勉强|勉强|{comprise, fabricate, foment, devise}→唯一|OK|偏难(先修:made/up)|def:卡:概念/用法不直观；ex:卡:territories；L6:线索更指向该词；路径:先修:made/up |
+|18|concurrent|勉强|不能|{concurrent, network, accrue, curtail}→不唯一|OK|偏难(先修:happening/same)|def:卡:概念/用法不直观；ex:卡:concurrent；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:happening/same |
+|19|confer|勉强|不能|{confer, foment, uphold, opportune}→不唯一|OK|偏难(先修:discuss/deciding)|def:卡:概念/用法不直观；ex:卡:announcing；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:discuss/deciding |
+|20|confiscate|不能|勉强|{confiscate, revoke, avert, solicit}→不唯一|OK|偏难(先修:take/away)|def:卡:punishment/authority；ex:卡:confiscate；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:take/away |
+|21|conscientious|勉强|不能|{conscientious, scrutiny, methodical, oversee}→不唯一|OK|偏难(先修:careful/thorough)|def:卡:概念/用法不直观；ex:卡:conscientious/double-checked；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:careful/thorough |
+|22|copyright|勉强|不能|{copyright, portfolio, excerpt, guise}→不唯一|OK|偏难(先修:legal/control)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:legal/control |
+|23|correlate|不能|不能|{correlate, enumerate, negate, amalgam}→不唯一|OK|不合适(理科专门词;前置:have/connection)|def:卡:connection/relationship；ex:卡:scientists；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:理科专门词;前置:have/connection |
+|24|culminate|勉强|不能|{culminate, benevolent, petulant, embroil}→不唯一|OK|偏难(先修:reach/highest)|def:卡:概念/用法不直观；ex:卡:performance；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:reach/highest |
+|25|curtail|勉强|勉强|{curtail, minimize, allay, parameter}→不唯一|OK|偏难(先修:reduce/limit)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:reduce/limit |
+|26|deem|勉强|不能|{deem, comport, solicit, construe}→不唯一|OK|偏难(先修:consider/judge)|def:卡:概念/用法不直观；ex:卡:appropriate；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:consider/judge |
+|27|devise|勉强|勉强|{devise, fabricate, augment, hinder}→唯一|OK|偏难(先修:make/up)|def:卡:概念/用法不直观；ex:线索少；L6:线索更指向该词；路径:先修:make/up |
+|28|displace|勉强|不能|{displace, coerce, obligate, delude}→不唯一|OK|偏难(先修:force/out)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:force/out |
+|29|disposable|勉强|不能|{disposable, inconclusive, culminate, stance}→不唯一|OK|偏难(先修:designed/thrown)|def:卡:概念/用法不直观；ex:卡:disposable；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:designed/thrown |
+|30|diversity|勉强|勉强|{diversity, amalgam, network, capitalism}→不唯一|OK|偏难(先修:range/different)|def:卡:概念/用法不直观；ex:卡:celebrates；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:range/different |
+|31|domesticate|勉强|不能|{domesticate, wield, biodiversity, disposable}→不唯一|OK|偏难(先修:tame/wild)|def:卡:概念/用法不直观；ex:卡:domesticate；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:tame/wild |
+|32|dominance|勉强|不能|{dominance, domesticate, recession, modicum}→不唯一|OK|偏难(先修:having/power)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:having/power |
+|33|embargo|不能|不能|{embargo, governance, immigrate, adversary}→不唯一|注意(政治/制度/法律)|不合适(经政法/学术词;前置:official/ban)|def:卡:official；ex:卡:delivering；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:政治/制度/法律；路径:经政法/学术词;前置:official/ban |
+|34|entrepreneur|勉强|不能|{entrepreneur, adversary, despot, franchise}→不唯一|OK|偏难(先修:who/starts)|def:卡:概念/用法不直观；ex:卡:entrepreneur；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:who/starts |
+|35|enumerate|勉强|勉强|{enumerate, disposable, respective, equivocal}→不唯一|OK|偏难(先修:list/one)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:list/one |
+|36|equitable|勉强|勉强|{equitable, parity, implicate, disparate}→勉强|OK|偏难(先修:fair/equal)|def:卡:概念/用法不直观；ex:线索少；L6:与disparate都像；路径:先修:fair/equal |
+|37|ethic|不能|不能|{ethic, uphold, obligatory, pursuant}→不唯一|OK|偏难(先修:moral/rule)|def:卡:principle；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:moral/rule |
+|38|evoke|勉强|不能|{evoke, caveat, reluctance, administer}→不唯一|OK|偏难(先修:bring/feeling)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:bring/feeling |
+|39|excerpt|勉强|勉强|{excerpt, aspiration, portfolio, conscientious}→不唯一|OK|偏难(先修:short/passage)|def:卡:概念/用法不直观；ex:卡:interested；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:short/passage |
+|40|fabricate|勉强|勉强|{fabricate, obsolete, coffer, aspiration}→不唯一|OK|偏难(先修:make/up)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:make/up |
+|41|fiscal|不能|勉强|{fiscal, affluent, penurious, coffer}→不唯一|OK|不合适(经政法/学术词;前置:relating/money)|def:卡:financial/management；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:经政法/学术词;前置:relating/money |
+|42|foremost|勉强|不能|{foremost, biodiversity, obtuse, impeccable}→不唯一|OK|偏难(先修:important/leading)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:important/leading |
+|43|formulate|勉强|不能|{formulate, devise, embody, administer}→不唯一|注意(犯罪/暴力)|偏难(先修:create/develop)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:犯罪/暴力；路径:先修:create/develop |
+|44|fracture|不能|不能|{fracture, clout, anguish, levity}→不唯一|OK|偏难(先修:crack/break)|def:卡:especially；ex:卡:skateboard；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:crack/break |
+|45|franchise|不能|不能|{franchise, optimal, entrepreneur, adversary}→不唯一|OK|偏难(先修:business/given)|def:卡:permission；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:business/given |
+|46|gauge|勉强|不能|{gauge, surmise, solicit, construe}→不唯一|OK|偏难(先修:measure/guess)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:measure/guess |
+|47|governance|勉强|不能|{governance, comport, medium, network}→不唯一|OK|偏难(先修:country/managed)|def:卡:概念/用法不直观；ex:卡:governance；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:country/managed |
+|48|immigrate|勉强|勉强|{immigrate, consign, governance, innovative}→勉强|OK|偏难(先修:move/country)|def:卡:概念/用法不直观；ex:卡:grandparents；L6:与governance都像；路径:先修:move/country |
+|49|imminent|勉强|不能|{imminent, optimal, coffer, abiotic}→不唯一|OK|偏难(先修:about/happen)|def:卡:概念/用法不直观；ex:卡:thunderstorm；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:about/happen |
+|50|imperative|勉强|勉强|{imperative, foremost, imminent, projection}→不唯一|OK|偏难(先修:important/needs)|def:卡:概念/用法不直观；ex:卡:imperative；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:important/needs |
+|51|implicate|勉强|不能|{implicate, solicit, refute, lure}→不唯一|OK|偏难(先修:show/involved)|def:卡:概念/用法不直观；ex:卡:fingerprints；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:show/involved |
+|52|implicit|勉强|不能|{implicit, impropriety, aloof, austere}→不唯一|OK|偏难(先修:suggested/not)|def:卡:概念/用法不直观；ex:卡:understanding；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:suggested/not |
+|53|inquiry|勉强|不能|{inquiry, adversary, aspiration, biodiversity}→不唯一|OK|偏难(先修:process/asking)|def:卡:概念/用法不直观；ex:卡:detective's；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:process/asking |
+|54|intensify|勉强|勉强|{intensify, estrange, anguish, administer}→不唯一|OK|偏难(先修:become/stronger)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:become/stronger |
+|55|leverage|勉强|不能|{leverage, clout, optimal, dominance}→不唯一|OK|偏难(先修:advantage/power)|def:卡:概念/用法不直观；ex:线索少；L6:更像dominance；路径:先修:advantage/power |
+|56|locomotive|勉强|不能|{locomotive, innovative, haughty, equivocal}→不唯一|OK|偏难(先修:engine/pulls)|def:卡:概念/用法不直观；ex:卡:locomotive；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:engine/pulls |
+|57|lure|勉强|不能|{lure, emaciated, comport, embroil}→不唯一|OK|偏难(先修:attract/tempt)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:attract/tempt |
+|58|maximize|勉强|不能|{maximize, fabricate, extenuate, augment}→不唯一|OK|偏难(先修:make/large)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:make/large |
+|59|medium|不能|勉强|{medium, governance, pariah, comport}→唯一|OK|偏难(先修:sharing/information)|def:卡:information；ex:线索少；L6:线索更指向该词；路径:先修:sharing/information |
+|60|membrane|勉强|不能|{membrane, amalgam, diversity, network}→不唯一|OK|不合适(理科专门词;前置:thin/layer)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:理科专门词;前置:thin/layer |
+|61|minimize|勉强|不能|{minimize, curtail, allay, parameter}→不唯一|OK|偏难(先修:reduce/smallest)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:reduce/smallest |
+|62|negligible|勉强|不能|{negligible, nominal, imminent, implicit}→不唯一|OK|偏难(先修:small/it's)|def:卡:概念/用法不直观；ex:卡:difference/negligible；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:small/it's |
+|63|network|勉强|不能|{network, diversity, capitalism, governance}→不唯一|OK|偏难(先修:connected/computers)|def:卡:概念/用法不直观；ex:卡:underground/connecting；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:connected/computers |
+|64|nominal|勉强|不能|{nominal, copse, misnomer, modicum}→不唯一|OK|偏难(先修:small/name)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:small/name |
+|65|objection|不能|不能|{objection, modicum, prior, solicit}→不唯一|OK|偏难(先修:reason/disagreeing)|def:卡:disagreeing；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:reason/disagreeing |
+|66|obligate|勉强|勉强|{obligate, parameter, amalgam, displace}→不唯一|OK|偏难(先修:need/force)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:need/force |
+|67|obsolete|勉强|不能|{obsolete, negate, refine, prior}→不唯一|OK|偏难(先修:no/longer)|def:卡:概念/用法不直观；ex:卡:typewriters；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:no/longer |
+|68|optimum|勉强|不能|{optimum, optimal, adversary, aspiration}→不唯一|OK|偏难(先修:best/favorable)|def:卡:概念/用法不直观；ex:卡:temperature；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:best/favorable |
+|69|oversee|勉强|不能|{oversee, conscientious, methodical, pursuant}→不唯一|OK|偏难(先修:watch/direct)|def:卡:概念/用法不直观；ex:卡:construction；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:watch/direct |
+|70|parameter|勉强|不能|{parameter, curtail, minimize, allay}→不唯一|OK|不合适(经政法/学术词;前置:rule/limit)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:经政法/学术词;前置:rule/limit |
+|71|participation|勉强|不能|{participation, austere, benevolent, candid}→不唯一|OK|偏难(先修:joining/activity)|def:卡:概念/用法不直观；ex:卡:participation；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:joining/activity |
+|72|portfolio|不能|不能|{portfolio, copyright, pariah, excerpt}→不唯一|OK|不合适(经政法/学术词;前置:collection/person's)|def:卡:collection；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:经政法/学术词;前置:collection/person's |
+|73|prior|勉强|不能|{prior, proportional, incredulous, objection}→不唯一|OK|偏难(先修:coming/else)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:coming/else |
+|74|projection|勉强|不能|{projection, imminent, candid, parameter}→不唯一|OK|不合适(经政法/学术词;前置:estimate/what)|def:卡:概念/用法不直观；ex:卡:projection；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:经政法/学术词;前置:estimate/what |
+|75|propagate|勉强|不能|{propagate, administer, apprehend, augment}→不唯一|OK|不合适(理科专门词;前置:spread/reproduce)|def:卡:概念/用法不直观；ex:卡:dandelions；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:理科专门词;前置:spread/reproduce |
+|76|recession|不能|勉强|{recession, capitalism, diversity, network}→勉强|OK|不合适(经政法/学术词;前置:period/economy)|def:卡:economy；ex:线索少；L6:与capitalism都像；路径:经政法/学术词;前置:period/economy |
+|77|refine|勉强|不能|{refine, incorrigible, modicum, obsolete}→不唯一|OK|偏难(先修:improve/making)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:improve/making |
+|78|reliance|勉强|不能|{reliance, solicit, implicate, lure}→不唯一|OK|偏难(先修:act/needing)|def:卡:概念/用法不直观；ex:卡:smartphones；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:act/needing |
+|79|reluctance|勉强|不能|{reluctance, dearth, exhort, delude}→不唯一|OK|偏难(先修:feeling/not)|def:卡:概念/用法不直观；ex:卡:reluctance；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:feeling/not |
+|80|scrutiny|勉强|不能|{scrutiny, conscientious, methodical, palatial}→不唯一|OK|偏难(先修:careful/detailed)|def:卡:概念/用法不直观；ex:卡:contestant's；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:careful/detailed |
+|81|sibling|勉强|勉强|{sibling, adversary, aspiration, biodiversity}→唯一|OK|偏难(先修:brother/sister)|def:卡:概念/用法不直观；ex:线索少；L6:线索更指向该词；路径:先修:brother/sister |
+|82|specify|勉强|不能|{specify, parity, accountability, administer}→不唯一|OK|偏难(先修:state/exactly)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:state/exactly |
+|83|stance|勉强|不能|{stance, adversary, aspiration, biodiversity}→不唯一|OK|偏难(先修:position/attitude)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:position/attitude |
+|84|accountability|不能|不能|{accountability, parity, specify, adversary}→不唯一|OK|偏难(先修:state/responsible)|def:卡:responsible；ex:卡:accountability；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:state/responsible |
+|85|altruistic|勉强|不能|{altruistic, imminent, benevolent, aloof}→不唯一|OK|偏难(先修:caring/about)|def:卡:概念/用法不直观；ex:卡:altruistic；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:caring/about |
+|86|caveat|勉强|不能|{caveat, evoke, adversary, aspiration}→不唯一|OK|偏难(先修:warning/condition)|def:卡:概念/用法不直观；ex:线索少；L6:更像adversary；路径:先修:warning/condition |
+|87|condone|勉强|勉强|{condone, implicate, apprehend, solicit}→不唯一|注意(犯罪/暴力)|偏难(先修:accept/how)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:犯罪/暴力；路径:先修:accept/how |
+|88|dearth|勉强|不能|{dearth, optimal, prerequisite, stance}→不唯一|OK|偏难(先修:lack/not)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:lack/not |
+|89|definitive|勉强|不能|{definitive, culminate, austere, benevolent}→不唯一|OK|偏难(先修:final/complete)|def:卡:概念/用法不直观；ex:卡:encyclopedia/definitive；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:final/complete |
+|90|ebbing|勉强|不能|{ebbing, corrosive, indefatigable, austere}→不唯一|OK|偏难(先修:slowly/getting)|def:卡:概念/用法不直观；ex:卡:playground；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:slowly/getting |
+|91|embody|勉强|不能|{embody, formulate, amorphous, administer}→不唯一|OK|偏难(先修:represent/idea)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:represent/idea |
+|92|espouse|勉强|不能|{espouse, estrange, palliate, uphold}→不唯一|注意(政治/制度/法律)|偏难(先修:publicly/support)|def:卡:概念/用法不直观；ex:卡:importance；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:政治/制度/法律；路径:先修:publicly/support |
+|93|foreseeable|勉强|不能|{foreseeable, tangible, latent, affluent}→不唯一|OK|偏难(先修:able/predicted)|def:卡:概念/用法不直观；ex:卡:foreseeable；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:able/predicted |
+|94|hinder|勉强|不能|{hinder, caveat, laud, conscientious}→不唯一|OK|偏难(先修:make/it)|def:卡:概念/用法不直观；ex:卡:concentrate；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:make/it |
+|95|inconclusive|不能|不能|{inconclusive, candid, foreseeable, coffer}→不唯一|OK|偏难(先修:not/leading)|def:卡:conclusion；ex:卡:inconclusive；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:not/leading |
+|96|indispensable|不能|不能|{indispensable, statutory, obligatory, impeccable}→不唯一|OK|偏难(先修:absolutely/necessary)|def:卡:absolutely；ex:卡:indispensable；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:absolutely/necessary |
+|97|innovative|不能|不能|{innovative, immigrate, copyright, austere}→不唯一|OK|偏难(先修:introducing/creative)|def:卡:introducing；ex:卡:innovative；L6:更像immigrate；路径:先修:introducing/creative |
+|98|methodical|勉强|不能|{methodical, conscientious, scrutiny, pursuant}→不唯一|OK|偏难(先修:done/organized)|def:卡:概念/用法不直观；ex:卡:methodical；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:done/organized |
+|99|multifaceted|勉强|不能|{multifaceted, didactic, censure, comport}→不唯一|OK|偏难(先修:having/many)|def:卡:概念/用法不直观；ex:卡:multifaceted；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:having/many |
+|100|negate|勉强|不能|{negate, displace, fabricate, augment}→不唯一|OK|偏难(先修:cancel/out)|def:卡:概念/用法不直观；ex:卡:exercising；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:cancel/out |
+|101|obligatory|勉强|不能|{obligatory, statutory, uphold, pursuant}→不唯一|OK|偏难(先修:required/rule)|def:卡:概念/用法不直观；ex:卡:obligatory/motorcycle；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:required/rule |
+|102|optimal|勉强|不能|{optimal, optimum, leverage, maximize}→不唯一|OK|偏难(先修:best/possible)|def:卡:概念/用法不直观；ex:卡:temperature；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:best/possible |
+|103|parity|勉强|不能|{parity, candid, objection, confiscate}→不唯一|OK|偏难(先修:state/equal)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:state/equal |
+|104|prerequisite|不能|不能|{prerequisite, adversary, aspiration, leverage}→不唯一|OK|偏难(先修:requirement/you)|def:卡:requirement；ex:卡:prerequisite；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:requirement/you |
+|105|prohibitive|勉强|不能|{prohibitive, lofty, palpable, ludicrous}→不唯一|OK|偏难(先修:high/cost)|def:卡:概念/用法不直观；ex:卡:prohibitive；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:high/cost |
+|106|proportional|勉强|勉强|{proportional, prior, modicum, incredulous}→唯一|OK|偏难(先修:matching/size)|def:卡:概念/用法不直观；ex:靠释义关键词/固定搭配；L6:线索更指向该词；路径:先修:matching/size |
+|107|pursuant|不能|勉强|{pursuant, obligatory, methodical, oversee}→不唯一|注意(政治/制度/法律)|不合适(经政法/学术词;前置:done/accordance)|def:卡:accordance；ex:靠场景；L6:更像obligatory；文化:政治/制度/法律；路径:经政法/学术词;前置:done/accordance |
+|108|refute|勉强|不能|{refute, authenticate, implicate, brandish}→不唯一|OK|偏难(先修:prove/wrong)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:prove/wrong |
+|109|respective|不能|不能|{respective, enumerate, disposable, equivocal}→不唯一|OK|偏难(先修:belonging/separately)|def:卡:separately；ex:卡:respective/classrooms；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:belonging/separately |
+|110|revoke|不能|勉强|{revoke, confiscate, censure, negate}→不唯一|OK|偏难(先修:officially/cancel)|def:卡:officially；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:officially/cancel |
+|111|solicit|勉强|不能|{solicit, implicate, lure, exhort}→不唯一|OK|偏难(先修:ask)|def:卡:概念/用法不直观；ex:卡:volunteers；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:ask |
+|112|statutory|不能|不能|{statutory, obligatory, uphold, indispensable}→不唯一|注意(政治/制度/法律)|不合适(经政法/学术词;前置:required/established)|def:卡:established；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:政治/制度/法律；路径:经政法/学术词;前置:required/established |
+|113|suffice|勉强|不能|{suffice, dearth, comport, deem}→不唯一|OK|偏难(先修:enough/purpose)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:enough/purpose |
+|114|surge|勉强|不能|{surge, accrue, adversary, aspiration}→不唯一|OK|偏难(先修:sudden/powerful)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:sudden/powerful |
+|115|surmise|勉强|不能|{surmise, gauge, projection, administer}→不唯一|OK|偏难(先修:guess/based)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:guess/based |
+|116|tangible|勉强|不能|{tangible, palpable, foreseeable, latent}→不唯一|OK|偏难(先修:able/touched)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:able/touched |
+|117|tenuous|勉强|不能|{tenuous, inconclusive, inauspicious, disparate}→不唯一|OK|偏难(先修:weak/slight)|def:卡:概念/用法不直观；ex:卡:connection；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:weak/slight |
+|118|uphold|不能|勉强|{uphold, obligatory, statutory, ethic}→不唯一|注意(政治/制度/法律)|偏难(先修:support/maintain)|def:卡:principle；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:政治/制度/法律；路径:先修:support/maintain |
+|119|wield|勉强|不能|{wield, dominance, omnipotent, domesticate}→不唯一|OK|偏难(先修:hold/use)|def:卡:概念/用法不直观；ex:卡:blacksmith；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:hold/use |
+|120|abysmal|勉强|不能|{abysmal, penurious, pathos, hapless}→不唯一|OK|偏难(先修:bad/poor)|def:卡:概念/用法不直观；ex:卡:disappointed；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:bad/poor |
+|121|accrue|勉强|不能|{accrue, surge, augment, concurrent}→不唯一|OK|偏难(先修:increase/time)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:increase/time |
+|122|acrimonious|勉强|不能|{acrimonious, austere, benevolent, candid}→不唯一|OK|偏难(先修:angry/bitter)|def:卡:概念/用法不直观；ex:卡:acrimonious；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:angry/bitter |
+|123|adroit|勉强|不能|{adroit, candid, opportune, projection}→不唯一|OK|偏难(先修:clever/good)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:clever/good |
+|124|afoot|勉强|不能|{afoot, concurrent, opportune, austere}→不唯一|OK|偏难(先修:happening/planned)|def:卡:概念/用法不直观；ex:卡:mysterious；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:happening/planned |
+|125|agonize|勉强|勉强|{agonize, allay, imminent, altruistic}→不唯一|OK|偏难(先修:worry/greatly)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:worry/greatly |
+|126|allay|勉强|不能|{allay, curtail, minimize, agonize}→不唯一|OK|偏难(先修:reduce/fear)|def:卡:概念/用法不直观；ex:线索少；L6:更像agonize；路径:先修:reduce/fear |
+|127|aloof|勉强|不能|{aloof, genial, implicit, altruistic}→不唯一|OK|偏难(先修:distant/not)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:distant/not |
+|128|amalgam|不能|不能|{amalgam, diversity, membrane, network}→不唯一|OK|偏难(先修:mixture/combination)|def:卡:combination；ex:卡:traditions；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:mixture/combination |
+|129|amenity|勉强|不能|{amenity, brazen, leverage, penurious}→不唯一|OK|偏难(先修:useful/pleasant)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:useful/pleasant |
+|130|amorphous|勉强|不能|{amorphous, hapless, dominance, omnipotent}→不唯一|OK|偏难(先修:having/no)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:having/no |
+|131|anguish|不能|不能|{anguish, clout, intensify, levity}→不唯一|OK|偏难(先修:extreme/pain)|def:卡:especially；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:extreme/pain |
+|132|aplomb|不能|不能|{aplomb, diffident, implacable, pastoral}→不唯一|OK|偏难(先修:calm/self-confidence)|def:卡:self-confidence；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:calm/self-confidence |
+|133|banal|勉强|不能|{banal, prohibitive, palpable, ludicrous}→不唯一|OK|偏难(先修:boring/it)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:boring/it |
+|134|belie|不能|不能|{belie, fabricate, solicit, construe}→不唯一|OK|偏难(先修:give/false)|def:卡:impression；ex:卡:nervousness；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:give/false |
+|135|berate|勉强|不能|{berate, apprehend, solicit, implicate}→不唯一|OK|偏难(先修:scold/angrily)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:scold/angrily |
+|136|bereft|勉强|不能|{bereft, candid, foremost, palliate}→不唯一|OK|偏难(先修:missing/important)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:missing/important |
+|137|blatant|勉强|不能|{blatant, amorphous, oversee, methodical}→不唯一|OK|偏难(先修:clear/done)|def:卡:概念/用法不直观；ex:线索少；L6:更像amorphous；路径:先修:clear/done |
+|138|blithe|勉强|不能|{blithe, callous, emaciated, levity}→不唯一|OK|偏难(先修:showing/carefree)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:showing/carefree |
+|139|bombastic|不能|勉强|{bombastic, foremost, lofty, bereft}→唯一|OK|偏难(先修:using/impressive)|def:卡:impressive；ex:卡:politician's；L6:线索更指向该词；路径:先修:using/impressive |
+|140|brandish|勉强|勉强|{brandish, augment, implicate, hinder}→唯一|OK|偏难(先修:wave/around)|def:卡:概念/用法不直观；ex:卡:brandished；L6:线索更指向该词；路径:先修:wave/around |
+|141|brazen|勉强|不能|{brazen, austere, benevolent, candid}→不唯一|OK|偏难(先修:bold/shameless)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:bold/shameless |
+|142|callous|勉强|不能|{callous, blithe, pastoral, obsolete}→不唯一|OK|偏难(先修:showing/no)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:showing/no |
+|143|censure|不能|不能|{censure, deplore, revoke, tenuous}→不唯一|OK|偏难(先修:express/strong)|def:卡:disapproval/officially；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:express/strong |
+|144|penurious|勉强|不能|{penurious, abysmal, affluent, incredulous}→不唯一|OK|偏难(先修:poor/unwilling)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:poor/unwilling |
+|145|clout|不能|勉强|{clout, leverage, dominance, omnipotent}→不唯一|OK|偏难(先修:influence/power)|def:卡:especially；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:influence/power |
+|146|coffer|不能|不能|{coffer, recession, affluent, penurious}→不唯一|OK|偏难(先修:strongbox/money)|def:卡:organization's；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:strongbox/money |
+|147|comport|勉强|不能|{comport, suffice, deem, governance}→不唯一|OK|偏难(先修:behave)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:behave |
+|148|consign|勉强|不能|{consign, solicit, construe, belie}→不唯一|OK|偏难(先修:deliver/hand)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:deliver/hand |
+|149|construe|勉强|不能|{construe, solicit, belie, consign}→不唯一|OK|偏难(先修:interpret/meaning)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:interpret/meaning |
+|150|corrosive|勉强|勉强|{corrosive, ebbing, disposable, confiscate}→勉强|OK|偏难(先修:tending/destroy)|def:卡:概念/用法不直观；ex:线索少；L6:与ebbing都像；路径:先修:tending/destroy |
+|151|decry|勉强|不能|{decry, implicate, refute, avert}→不唯一|OK|偏难(先修:publicly/criticize)|def:卡:概念/用法不直观；ex:卡:environmental；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:publicly/criticize |
+|152|delude|勉强|不能|{delude, solicit, coerce, obligate}→不唯一|OK|偏难(先修:make/believe)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:make/believe |
+|153|deplore|不能|不能|{deplore, censure, solicit, construe}→不唯一|OK|偏难(先修:feel/strong)|def:卡:disapproval；ex:卡:everyone's；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:feel/strong |
+|154|despot|勉强|不能|{despot, governance, dominance, comport}→不唯一|注意(政治/制度/法律)|偏难(先修:ruler/who)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:政治/制度/法律；路径:先修:ruler/who |
+|155|didactic|勉强|不能|{didactic, ethic, edify, austere}→不唯一|OK|偏难(先修:intended/teach)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:intended/teach |
+|156|diffident|不能|不能|{diffident, inept, mundane, gauche}→不唯一|OK|偏难(先修:shy/lacking)|def:卡:self-confidence；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:shy/lacking |
+|157|disparate|勉强|勉强|{disparate, tenuous, concurrent, inconclusive}→唯一|OK|偏难(先修:different/each)|def:卡:概念/用法不直观；ex:线索少；L6:线索更指向该词；路径:先修:different/each |
+|158|edify|勉强|不能|{edify, delude, coerce, obligate}→不唯一|OK|偏难(先修:teach/make)|def:卡:概念/用法不直观；ex:卡:documentary；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:teach/make |
+|159|emaciated|不能|不能|{emaciated, domesticate, blithe, hapless}→不唯一|OK|偏难(先修:abnormally/thin)|def:卡:abnormally；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:abnormally/thin |
+|160|embroil|勉强|不能|{embroil, apprehend, solicit, berate}→不唯一|OK|偏难(先修:involve/conflict)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:involve/conflict |
+|161|encumber|勉强|不能|{encumber, innovative, copyright, palatial}→不唯一|OK|偏难(先修:weigh/down)|def:卡:概念/用法不直观；ex:卡:encumbered；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:weigh/down |
+|162|equivocal|勉强|不能|{equivocal, enumerate, dominance, construe}→不唯一|OK|偏难(先修:unclear/having)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:unclear/having |
+|163|estrange|不能|不能|{estrange, apprehend, intensify, solicit}→不唯一|OK|偏难(先修:cause/become)|def:卡:unfriendly；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:cause/become |
+|164|exhort|勉强|不能|{exhort, solicit, coerce, obligate}→不唯一|OK|偏难(先修:strongly/urge)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:strongly/urge |
+|165|extenuate|勉强|不能|{extenuate, ethic, impeccable, bellicose}→不唯一|OK|偏难(先修:make/fault)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:make/fault |
+|166|extol|不能|勉强|{extol, laud, meritorious, solicit}→不唯一|OK|偏难(先修:praise/excitement)|def:卡:excitement；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:praise/excitement |
+|167|facetious|不能|不能|{facetious, levity, extenuate, austere}→不唯一|OK|偏难(先修:treating/serious)|def:卡:deliberately/inappropriate；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:treating/serious |
+|168|felicitous|勉强|勉强|{felicitous, austere, benevolent, candid}→不唯一|OK|偏难(先修:well/chosen)|def:卡:概念/用法不直观；ex:卡:felicitous；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:well/chosen |
+|169|fetter|勉强|不能|{fetter, wield, administer, apprehend}→不唯一|OK|偏难(先修:restrain/hold)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:restrain/hold |
+|170|fickle|不能|不能|{fickle, austere, benevolent, candid}→不唯一|OK|偏难(先修:changing/opinions)|def:卡:frequently；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:changing/opinions |
+|171|foment|勉强|不能|{foment, fabricate, comprise, devise}→不唯一|OK|偏难(先修:stir/up)|def:卡:概念/用法不直观；ex:卡:troublemaker；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:stir/up |
+|172|furtive|勉强|勉强|{furtive, indolent, avert, austere}→不唯一|OK|偏难(先修:secretive/trying)|def:卡:概念/用法不直观；ex:卡:neighbor's；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:secretive/trying |
+|173|gauche|勉强|不能|{gauche, bereft, glean, disparate}→不唯一|OK|偏难(先修:lacking/social)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:lacking/social |
+|174|genial|勉强|不能|{genial, aloof, austere, benevolent}→不唯一|OK|偏难(先修:friendly/cheerful)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:friendly/cheerful |
+|175|glean|不能|勉强|{glean, medium, administer, apprehend}→不唯一|OK|偏难(先修:collect/information)|def:卡:information；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:collect/information |
+|176|guise|不能|不能|{guise, bowstring, portfolio, copyright}→不唯一|OK|偏难(先修:outward/appearance)|def:卡:appearance；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:outward/appearance |
+|177|hapless|不能|不能|{hapless, amorphous, dominance, abysmal}→不唯一|OK|偏难(先修:having/no)|def:卡:situations；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:having/no |
+|178|harrowing|不能|不能|{harrowing, ludicrous, deplore, prerequisite}→不唯一|OK|偏难(先修:frightening/making)|def:卡:frightening；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:frightening/making |
+|179|haughty|勉强|不能|{haughty, methodical, comport, governance}→不唯一|OK|偏难(先修:acting/proud)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:acting/proud |
+|180|idyllic|勉强|不能|{idyllic, amenity, pastoral, affluent}→不唯一|OK|偏难(先修:peaceful/pleasant)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:peaceful/pleasant |
+|181|impeccable|勉强|不能|{impeccable, austere, blatant, indispensable}→不唯一|OK|偏难(先修:without/any)|def:卡:概念/用法不直观；ex:卡:impeccable；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:without/any |
+|182|implacable|不能|不能|{implacable, impregnable, indelible, aplomb}→不唯一|OK|偏难(先修:impossible/satisfy)|def:卡:impossible；ex:卡:implacable/performance；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:impossible/satisfy |
+|183|impregnable|不能|不能|{impregnable, indelible, implacable, incorrigible}→不唯一|注意(犯罪/暴力)|偏难(先修:impossible/defeat)|def:卡:impossible；ex:卡:impregnable；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:犯罪/暴力；路径:先修:impossible/defeat |
+|184|impropriety|不能|不能|{impropriety, implicit, aloof, austere}→不唯一|OK|偏难(先修:behavior/not)|def:卡:acceptable；ex:卡:considered/impropriety；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:behavior/not |
+|185|inauspicious|勉强|不能|{inauspicious, tenuous, judicious, inconclusive}→不唯一|OK|偏难(先修:not/showing)|def:卡:概念/用法不直观；ex:卡:inauspicious；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:not/showing |
+|186|incorrigible|不能|不能|{incorrigible, refine, impregnable, indelible}→不唯一|OK|偏难(先修:impossible/correct)|def:卡:impossible；ex:卡:incorrigible；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:impossible/correct |
+|187|incredulous|勉强|不能|{incredulous, nominal, construe, altruistic}→不唯一|OK|偏难(先修:unwilling/unable)|def:卡:概念/用法不直观；ex:卡:incredulous；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:unwilling/unable |
+|188|indefatigable|勉强|不能|{indefatigable, respective, intensify, biodiversity}→不唯一|OK|偏难(先修:never/getting)|def:卡:概念/用法不直观；ex:卡:indefatigable；L6:更像respective；路径:先修:never/getting |
+|189|indelible|不能|不能|{indelible, impregnable, implacable, incorrigible}→不唯一|OK|偏难(先修:impossible/remove)|def:卡:impossible；ex:卡:impression；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:impossible/remove |
+|190|indolent|勉强|不能|{indolent, furtive, avert, bellicose}→不唯一|OK|偏难(先修:wanting/avoid)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:wanting/avoid |
+|191|inept|勉强|不能|{inept, mundane, diffident, gauche}→不唯一|OK|偏难(先修:lacking/skill)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:lacking/skill |
+|192|intractable|勉强|不能|{intractable, surge, circumference, copse}→不唯一|OK|偏难(先修:difficult/deal)|def:卡:概念/用法不直观；ex:卡:intractable；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:difficult/deal |
+|193|irksome|不能|不能|{irksome, austere, benevolent, candid}→不唯一|OK|偏难(先修:annoying/causing)|def:卡:irritation；ex:卡:concentrate；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:annoying/causing |
+|194|judicious|勉强|不能|{judicious, corrosive, estrange, berate}→不唯一|OK|偏难(先修:having/showing)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:having/showing |
+|195|latent|勉强|不能|{latent, implicit, impropriety, foreseeable}→不唯一|OK|偏难(先修:existing/not)|def:卡:概念/用法不直观；ex:卡:discovered；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:existing/not |
+|196|laud|勉强|不能|{laud, extol, meritorious, administer}→不唯一|OK|偏难(先修:praise/highly)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:praise/highly |
+|197|lethargic|勉强|不能|{lethargic, inept, mundane, clout}→不唯一|OK|偏难(先修:lacking/life)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:lacking/life |
+|198|levity|不能|勉强|{levity, blithe, clout, anguish}→不唯一|OK|偏难(先修:humor/lack)|def:卡:seriousness/especially/unexpected；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:humor/lack |
+|199|lofty|不能|不能|{lofty, prohibitive, bombastic, affluent}→不唯一|OK|偏难(先修:high/impressive)|def:卡:impressive；ex:卡:year-round；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:high/impressive |
+|200|ludicrous|勉强|不能|{ludicrous, deem, concurrent, harrowing}→不唯一|OK|偏难(先修:foolish/unfair)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:foolish/unfair |
+|201|malign|勉强|勉强|{malign, noxious, apprehend, solicit}→勉强|OK|偏难(先修:speak/about)|def:卡:概念/用法不直观；ex:线索少；L6:与apprehend都像；路径:先修:speak/about |
+|202|malleable|不能|不能|{malleable, austere, benevolent, candid}→不唯一|OK|偏难(先修:easily/shaped)|def:卡:influenced；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:easily/shaped |
+|203|meritorious|勉强|不能|{meritorious, laud, extol, austere}→不唯一|OK|偏难(先修:deserving/reward)|def:卡:概念/用法不直观；ex:卡:meritorious；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:deserving/reward |
+|204|misnomer|不能|不能|{misnomer, nominal, implicate, condone}→不唯一|OK|偏难(先修:wrong/inaccurate)|def:卡:inaccurate；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:wrong/inaccurate |
+|205|modicum|勉强|不能|{modicum, proportional, nominal, refine}→不唯一|OK|偏难(先修:small/amount)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:small/amount |
+|206|mundane|不能|不能|{mundane, inept, diffident, gauche}→不唯一|OK|偏难(先修:lacking/excitement)|def:卡:excitement；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:lacking/excitement |
+|207|nonplussed|勉强|不能|{nonplussed, reluctance, implicit, impropriety}→不唯一|OK|偏难(先修:surprised/you)|def:卡:概念/用法不直观；ex:卡:nonplussed；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:surprised/you |
+|208|noxious|勉强|不能|{noxious, malign, austere, benevolent}→不唯一|OK|偏难(先修:harmful/poisonous)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:harmful/poisonous |
+|209|nuance|不能|不能|{nuance, copse, nominal, modicum}→不唯一|OK|偏难(先修:small/subtle)|def:卡:difference；ex:卡:understanding；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:small/subtle |
+|210|obtuse|不能|勉强|{obtuse, nominal, copse, modicum}→唯一|OK|偏难(先修:slow/understand)|def:卡:understand；ex:卡:pretending；L6:线索更指向该词；路径:先修:slow/understand |
+|211|odious|不能|不能|{odious, affluent, dominance, imperative}→不唯一|OK|偏难(先修:unpleasant/hateful)|def:卡:unpleasant；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:unpleasant/hateful |
+|212|omnipotent|勉强|不能|{omnipotent, dominance, affluent, judicious}→不唯一|注意(宗教/神话)|偏难(先修:having/unlimited)|def:卡:概念/用法不直观；ex:卡:omnipotent；L6:更像dominance；文化:宗教/神话；路径:先修:having/unlimited |
+|213|opportune|不能|不能|{opportune, concurrent, afoot, adroit}→不唯一|OK|偏难(先修:happening/good)|def:卡:convenient；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:happening/good |
+|214|palatial|勉强|不能|{palatial, scrutiny, austere, benevolent}→不唯一|OK|偏难(先修:looking/like)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:looking/like |
+|215|palliate|勉强|不能|{palliate, fabricate, augment, devise}→不唯一|OK|偏难(先修:make/severe)|def:卡:概念/用法不直观；ex:线索少；L6:更像augment；路径:先修:make/severe |
+|216|palpable|勉强|不能|{palpable, tangible, prohibitive, tenuous}→不唯一|OK|偏难(先修:strong/it)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:strong/it |
+|217|panoramic|不能|勉强|{panoramic, benevolent, indefatigable, austere}→唯一|OK|偏难(先修:giving/wide)|def:卡:unobstructed；ex:卡:mountaintop；L6:线索更指向该词；路径:先修:giving/wide |
+|218|pariah|勉强|不能|{pariah, apprehend, solicit, medium}→不唯一|OK|偏难(先修:outcast/avoided)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:outcast/avoided |
+|219|pastoral|不能|不能|{pastoral, diversity, misnomer, abysmal}→不唯一|OK|偏难(先修:showing/calm)|def:卡:countryside；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:showing/calm |
+|220|pathos|勉强|不能|{pathos, abysmal, nuance, adversary}→不唯一|OK|偏难(先修:quality/evokes)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:quality/evokes |
+|221|petulant|不能|不能|{petulant, austere, benevolent, candid}→不唯一|OK|偏难(先修:childishly/bad-tempered)|def:卡:childishly/bad-tempered；ex:线索少；L6:更像austere；路径:先修:childishly/bad-tempered |
+|222|bowstring|勉强|不能|{bowstring, guise, portfolio, copyright}→不唯一|OK|偏难(先修:string/bow)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:string/bow |
+|223|foxglove|不能|不能|{foxglove, emaciated, furtive, refute}→不唯一|OK|偏难(先修:tall/plant)|def:卡:bell-shaped；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:tall/plant |
+|224|inkwell|勉强|不能|{inkwell, modicum, multifaceted, anguish}→不唯一|OK|偏难(先修:small/pot)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:small/pot |
+|225|oxbow|勉强|勉强|{oxbow, adversary, aspiration, biodiversity}→唯一|OK|偏难(先修:u-shaped/bend)|def:卡:概念/用法不直观；ex:线索少；L6:线索更指向该词；路径:先修:u-shaped/bend |
+|226|molt|勉强|勉强|{molt, administer, apprehend, augment}→唯一|OK|偏难(先修:shed/skin)|def:卡:概念/用法不直观；ex:线索少；L6:线索更指向该词；路径:先修:shed/skin |
+|227|abiotic|不能|勉强|{abiotic, tenuous, inconclusive, inauspicious}→唯一|OK|不合适(理科专门词;前置:not/living)|def:卡:non-living；ex:卡:environment；L6:线索更指向该词；路径:理科专门词;前置:not/living |
+|228|abscond|勉强|勉强|{abscond, administer, apprehend, augment}→不唯一|注意(犯罪/暴力)|偏难(先修:leave/secretly)|def:卡:概念/用法不直观；ex:靠场景；L6:例句不够“释义化”(更像正常句子)，低龄难反推；文化:犯罪/暴力；路径:先修:leave/secretly |
+|229|copse|勉强|不能|{copse, nominal, modicum, nuance}→不唯一|OK|偏难(先修:small/thick)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:small/thick |
+|230|desiccate|不能|不能|{desiccate, efface, negate, displace}→不唯一|OK|偏难(先修:dry/out)|def:卡:completely；ex:卡:desiccated；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:dry/out |
+|231|efface|勉强|不能|{efface, belie, devise, copyright}→不唯一|OK|偏难(先修:erase/wipe)|def:卡:概念/用法不直观；ex:线索少；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:erase/wipe |
+|232|bellicose|勉强|不能|{bellicose, benevolent, reluctance, indolent}→不唯一|OK|偏难(先修:wanting/fight)|def:卡:概念/用法不直观；ex:卡:disagreement；L6:例句不够“释义化”(更像正常句子)，低龄难反推；路径:先修:wanting/fight |
