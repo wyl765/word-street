@@ -127,7 +127,7 @@
 - bargain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bargain / deal / price / temperature] | L7:OK | L8:合适
 - base | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[base / block / include / inside] | L7:OK | L8:合适
 - basic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[about / basic / major / simple] | L7:OK | L8:合适
-- battle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[admiral / battle / blaze / major] | L7:OK | L8:合适
+- battle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[admiral / battle / blaze / major] | L7:注意(战争/打斗语义；当前是“pretend game”较轻，但仍建议改成比赛/对战/游戏语境更中性) | L8:合适
 - beach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beach / clam / field / ocean] | L7:OK | L8:合适
 - beam | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / chance / edge / wait] | L7:OK | L8:合适
 - because | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[address / admiral / because / therefore] | L7:OK | L8:合适
@@ -203,7 +203,7 @@
 - doorway | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[doorway / downstairs / gentleman / knock] | L7:OK | L8:合适
 - downstairs | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[danger / downstairs / under / upstairs] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
 - drift | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[canal / drift / kelp / oar] | L7:OK | L8:合适
-- drown | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[breathe / drown / enter / freedom] | L7:OK | L8:合适
+- drown | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[breathe / drown / enter / freedom] | L7:注意(溺水/安全风险；可保留安全教育，但建议更强调“life jacket/有大人看护”，避免惊吓感) | L8:合适
 - earn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[awake / earn / sum / team] | L7:OK | L8:合适
 - earth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delta / depend / earth / planet] | L7:OK | L8:合适
 - edge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beam / chance / edge / wait] | L7:OK | L8:合适
@@ -386,7 +386,7 @@
 - weather | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[describe / edge / sweet / weather] | L7:OK | L8:合适
 - wheel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulb / include / inside / wheel] | L7:OK | L8:合适
 - yesterday | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[breakfast / learn / temperature / yesterday] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
-- admiral | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ships)，易靠语感/蒙) | 选项:[admiral / battle / chance / citizen] | L7:OK | L8:合适
+- admiral | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ships)，易靠语感/蒙) | 选项:[admiral / battle / chance / citizen] | L7:注意(军事/战争语境；ships that fight/舰队指令，对部分家长偏“军队”题材) | L8:合适
 - album | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:photos)，易靠语感/蒙) | 选项:[album / fiction / mantel / tightly] | L7:OK | L8:合适
 - alley | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[alley / city / fjord / granite] | L7:OK | L8:合适
 - amber | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amber / ancient / hazel / igloo] | L7:OK | L8:合适
@@ -423,7 +423,7 @@
 - brass | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brass / dandelion / forge / leaf] | L7:OK | L8:合适
 - bridle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridle / ceiling / horseshoe / knapsack] | L7:OK | L8:合适
 - broth | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:made)，易靠语感/蒙) | 选项:[broth / dinner / griddle / mist] | L7:OK | L8:合适
-- bugle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bolt / bugle / kindle / olive] | L7:OK | L8:合适
+- bugle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bolt / bugle / kindle / olive] | L7:注意(军队语境；soldier/army，建议换成“parade/band/ceremony”更中性) | L8:合适
 - bulb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulb / grapevine / kelp / wheel] | L7:OK | L8:合适
 - bulletin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bulletin / jacket / quiz / smell] | L7:OK | L8:合适
 - bunker | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beach / bunker / jump / kennel] | L7:OK | L8:合适
@@ -436,7 +436,7 @@
 - cashew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cashew / chestnut / mulberry / pagoda] | L7:OK | L8:合适
 - cedar | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tree,smell) | 选项:[cedar / elm / kind / mulberry] | L7:OK | L8:合适
 - cellar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cellar / jump / over / under] | L7:OK | L8:合适
-- chapel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrive / chapel / store / travel] | L7:OK | L8:合适
+- chapel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[arrive / chapel / store / travel] | L7:注意(宗教场景：prayer/婚礼；对部分家庭敏感，建议改为“small hall/ceremony room”更普适) | L8:合适
 - chariot | L5-Def:能 | L5-Ex:能 | L6:能(线索词: pulled,horses) | 选项:[cart / chariot / cork / corral] | L7:OK | L8:合适
 - chestnut | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cashew / chestnut / pasture / subtract] | L7:OK | L8:合适
 - chisel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:used)，易靠语感/蒙) | 选项:[binoculars / chisel / fork / hickory] | L7:OK | L8:合适
@@ -454,7 +454,7 @@
 - crumb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[biscuit / crumb / little / store] | L7:OK | L8:合适
 - cuff | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cuff / deny / finish / result] | L7:OK | L8:合适
 - cypress | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cypress / elm / leaf / little] | L7:OK | L8:合适
-- dagger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dagger / jacket / nozzle / quiz] | L7:OK | L8:合适
+- dagger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dagger / jacket / nozzle / quiz] | L7:注意(武器；虽为博物馆展示语境，但仍可能引发家长顾虑，建议强调“old/displayed/behind glass”避免美化) | L8:合适
 - dandelion | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:seeds)，易靠语感/蒙) | 选项:[birch / cotton / dandelion / leaf] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
 - deck | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[danger / deck / hearth / over] | L7:OK | L8:合适
 - delta | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:river)，易靠语感/蒙) | 选项:[delta / forge / mask / shore] | L7:OK | L8:合适
