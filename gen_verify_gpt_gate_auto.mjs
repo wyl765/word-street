@@ -31,6 +31,10 @@ function extractItems(text) {
   m = text.match(/const\s+[A-Z0-9_]+\s*=\s*\[(.*)\]\s*;\s*if\(typeof module/s);
   if (m) return JSON.parse('[' + m[1] + ']');
 
+  // Common format: const XXX=[{...}, ...]; module.exports=XXX;
+  m = text.match(/const\s+[A-Z0-9_]+\s*=\s*\[(.*)\]\s*;\s*module\.exports/s);
+  if (m) return JSON.parse('[' + m[1] + ']');
+
   // Common simple format: const LEVEL2A_BANK=[{...}, ...]; (EOF)
   m = text.match(/const\s+[A-Z0-9_]+\s*=\s*\[(.*)\]\s*;\s*$/s);
   if (m) return JSON.parse('[' + m[1] + ']');
@@ -304,12 +308,26 @@ function l6ReverseTest(item, idx) {
   const ex = (item.example || '').trim();
   if (!ex) return { status: '不能', note: '缺例句', options: [item.word] };
 
+  // 选项：目标词 + 3个“语义相近”的同level干扰项（可复现）
   const distractors = pickDistractorsBySimilarity(item, idx);
   const options = [item.word, ...distractors];
 
-  const queryTokens = normTokens(removeTargetFromExample(ex, item.word));
-  const qvec = vectorize(queryTokens);
+  // 反测的核心：例句在遮住目标词后，是否仍提供足够“释义线索”去唯一锁定目标词。
+  // 经验上：
+  // - 若例句能复述定义里的关键字/关键关系 → 更容易唯一。
+  // - 若例句只是一个正常叙事场景（没有释义化线索）→ 很多近义/同类词都能放进去。
 
+  const defTokens = new Set(normTokens(tokenize(item.definition || '')));
+  const exTokens = normTokens(removeTargetFromExample(ex, item.word));
+
+  const overlaps = [];
+  for (const t of exTokens) {
+    if (defTokens.has(t) && !overlaps.includes(t)) overlaps.push(t);
+    if (overlaps.length >= 4) break;
+  }
+
+  // 也做一个“选项相对唯一性”的粗判（TF-IDF），用于识别明显不唯一的情况
+  const qvec = vectorize(exTokens);
   const scored = options.map(w => {
     const j = items.findIndex(it => it.word === w);
     if (j < 0) return { w, s: 0 };
@@ -321,24 +339,38 @@ function l6ReverseTest(item, idx) {
   const second = scored[1] || { s: 0 };
   const margin = best.s - second.s;
 
-  let status = '勉强';
+  let status;
   let note = '';
 
   if (best.w !== item.word) {
     status = '不能';
     note = `例句更像在说“${best.w}”，目标词不唯一`;
-  } else if (best.s < 0.12) {
-    status = '不能';
-    note = '例句线索太弱，选项里会靠蒙';
-  } else if (margin >= 0.10) {
-    status = '能';
-    note = '';
-  } else if (margin >= 0.04) {
-    status = '勉强';
-    note = '和近义/同类词差距小，可能二选一';
   } else {
-    status = '不能';
-    note = '多个选项都说得通，不能唯一确定';
+    // overlap强度（更贴近“遮住目标词”时孩子能抓到的线索）
+    if (overlaps.length >= 2) {
+      status = '能';
+      note = overlaps.length ? `线索词: ${overlaps.slice(0, 3).join(',')}` : '';
+      // 若与第二名差距很小，降一级
+      if (margin < 0.08) {
+        status = '勉强';
+        note = note ? `${note}；但易二选一` : '线索尚可，但易二选一';
+      }
+    } else if (overlaps.length === 1) {
+      status = '勉强';
+      note = `线索词较少(仅:${overlaps[0]})，易靠语感/蒙`;
+      if (margin < 0.07) {
+        status = '不能';
+        note = '多个选项都说得通，不能唯一确定';
+      }
+    } else {
+      status = '不能';
+      note = '例句缺少释义线索(与定义0关键词重叠)，同类词易混';
+      // 如果margin特别大，给“勉强”保底
+      if (margin >= 0.25) {
+        status = '勉强';
+        note = '释义线索少，但在本组选项里仍可能靠场景勉强选中';
+      }
+    }
   }
 
   // connection words are inherently harder
@@ -358,14 +390,15 @@ function l7Culture(item) {
   let note = '';
 
   const flags = [];
-  if (/(slavery|weapon|gun|kill|murder|blood|annihilate|devastate)/.test(w + ' ' + ex)) flags.push('暴力/灾难(偏沉重)');
-  if (/(religion|church|god|bible|pray|holy)/.test(w + ' ' + ex)) flags.push('宗教');
+  if (/(slavery|weapon|gun|kill|murder|blood|annihilate|devastate|police|arrest|thief|bully|attack|attacker|arrow|shoot)/.test(w + ' ' + ex)) flags.push('暴力/犯罪/冲突(偏沉重)');
+  if (/(religion|church|god|bible|pray|holy|monk|temple)/.test(w + ' ' + ex)) flags.push('宗教');
   if (/(alcohol|beer|wine|drunk|cigarette|smoke|drug)/.test(w + ' ' + ex)) flags.push('烟酒毒');
-  if (/(protest|boycott|government|congress|republic|democracy|rights|tax|law|laws|illegal|vote|voting)/.test(w + ' ' + ex)) flags.push('政治/公民');
+  if (/(protest|boycott|government|congress|republic|democracy|rights|tax|law|laws|illegal|vote|voting|capitalism|embargo|despot|court|statutory|policy|contract)/.test(w + ' ' + ex)) flags.push('政治/法律/制度');
   if (/(discrimination|skin color|racism)/.test(w + ' ' + ex)) flags.push('歧视/种族(需措辞谨慎)');
   if (/(poverty|destitution|homeless)/.test(w + ' ' + ex)) flags.push('贫困议题(避免“卖惨”)');
-  if (/(gulf of mexico|yellowstone|california|texas|louisiana|pacific ocean|college|baseball)/.test(w + ' ' + ex)) flags.push('美式语境/地名');
+  if (/(gulf of mexico|yellowstone|california|texas|louisiana|pacific ocean|college|baseball|farmers market)/.test(w + ' ' + ex)) flags.push('美式语境/地名');
   if (/(secret)\b/.test(w) && /(don\x27t tell|keep.*secret)/.test(ex)) flags.push('“保密”表达');
+  if (/(wizard|magic|spell|omnipotent)/.test(w + ' ' + ex)) flags.push('神秘/宗教类设定(家长口味分化)');
 
   if (flags.length) {
     status = '注意';
