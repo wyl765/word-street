@@ -1,305 +1,303 @@
-# Gemini Verify: words-level4a.js
+# VERIFY-GEMINI-words-level4a.js-GATE
 
-| Word | L9: imageKeyword | L10: Fact Check | L11: Polysemy | L12: Game Compat |
-|---|---|---|---|---|
-| abandon | PASS | PASS | PASS | PASS |
-| abbreviation | PASS | PASS | PASS | PASS |
-| accuse | PASS | PASS | PASS | PASS |
-| aggressive | PASS | PASS | PASS | PASS |
-| alliance | PASS | PASS | PASS | PASS |
-| alter | PASS | PASS | PASS | PASS |
-| alternative | PASS | PASS | PASS | PASS |
-| appreciate | PASS | PASS | PASS | PASS |
-| architect | PASS | PASS | PASS | PASS |
-| arctic | PASS | PASS | PASS | PASS |
-| arise | PASS | PASS | PASS | PASS |
-| assess | PASS | PASS | PASS | PASS |
-| associate | PASS | PASS | PASS | PASS |
-| atom | PASS | PASS | PASS | PASS |
-| aviation | PASS | PASS | PASS | PASS |
-| awkward | PASS | PASS | PASS | PASS |
-| biome | PASS | PASS | PASS | PASS |
-| bizarre | PASS | PASS | PASS | PASS |
-| bland | PASS | PASS | PASS | PASS |
-| bleak | PASS | PASS | PASS | PASS |
-| blur | PASS | PASS | PASS | PASS |
-| bond | PASS | PASS | PASS | PASS |
-| boom | PASS | PASS | PASS | PASS |
-| brace | PASS | PASS | PASS | PASS |
-| breakthrough | PASS | PASS | PASS | PASS |
-| breed | PASS | PASS | PASS | PASS |
-| browse | PASS | PASS | PASS | PASS |
-| cabinet | PASS | PASS | PASS | PASS |
-| captive | PASS | PASS | PASS | PASS |
-| career | PASS | PASS | PASS | PASS |
-| cargo | PASS | PASS | PASS | PASS |
-| catalog | PASS | PASS | PASS | PASS |
-| category | PASS | PASS | PASS | PASS |
-| ceremony | PASS | PASS | PASS | PASS |
-| chamber | PASS | PASS | PASS | PASS |
-| chaos | PASS | PASS | PASS | PASS |
-| characteristic | PASS | PASS | PASS | PASS |
-| charity | PASS | PASS | PASS | PASS |
-| chemical | PASS | PASS | PASS | PASS |
-| civic | PASS | PASS | PASS | PASS |
-| clause | PASS | PASS | PASS | PASS |
-| client | PASS | PASS | PASS | PASS |
-| commerce | PASS | PASS | PASS | PASS |
-| compose | PASS | PASS | PASS | PASS |
-| comprehend | PASS | PASS | PASS | PASS |
-| concept | PASS | PASS | PASS | PASS |
-| concrete | PASS | PASS | PASS | PASS |
-| condition | PASS | PASS | PASS | PASS |
-| conference | PASS | PASS | PASS | PASS |
-| confess | PASS | PASS | PASS | PASS |
-| conform | PASS | PASS | PASS | PASS |
-| conscience | PASS | PASS | PASS | PASS |
-| consensus | PASS | PASS | PASS | PASS |
-| consume | PASS | PASS | PASS | PASS |
-| contact | PASS | PASS | PASS | PASS |
-| contaminate | PASS | PASS | PASS | PASS |
-| context | PASS | PASS | PASS | PASS |
-| contract | PASS | PASS | PASS | PASS |
-| council | PASS | PASS | PASS | PASS |
-| courtesy | PASS | PASS | PASS | PASS |
-| craft | PASS | PASS | PASS | PASS |
-| crane | PASS | PASS | PASS | PASS |
-| crave | PASS | PASS | PASS | PASS |
-| credible | PASS | PASS | PASS | PASS |
-| crude | PASS | PASS | PASS | PASS |
-| customary | PASS | PASS | PASS | PASS |
-| decay | PASS | PASS | PASS | PASS |
-| deceive | PASS | PASS | PASS | PASS |
-| declare | PASS | PASS | PASS | PASS |
-| defect | PASS | PASS | PASS | PASS |
-| defy | PASS | PASS | PASS | PASS |
-| deprive | PASS | PASS | PASS | PASS |
-| devastate | PASS | PASS | PASS | PASS |
-| diplomat | PASS | PASS | PASS | PASS |
-| disclose | PASS | PASS | PASS | PASS |
-| discount | PASS | PASS | PASS | PASS |
-| discrimination | PASS | PASS | PASS | PASS |
-| dominant | PASS | PASS | PASS | PASS |
-| dormant | PASS | PASS | PASS | PASS |
-| drain | PASS | PASS | PASS | PASS |
-| dynamic | PASS | PASS | PASS | PASS |
-| earnest | PASS | PASS | PASS | PASS |
-| eclipse | PASS | PASS | PASS | PASS |
-| ecology | PASS | PASS | PASS | PASS |
-| edition | PASS | PASS | PASS | PASS |
-| element | PASS | PASS | PASS | PASS |
-| elevate | PASS | PASS | PASS | PASS |
-| emission | PASS | PASS | PASS | PASS |
-| employ | PASS | PASS | PASS | PASS |
-| endanger | PASS | PASS | PASS | PASS |
-| enhance | PASS | PASS | PASS | PASS |
-| enterprise | PASS | PASS | PASS | PASS |
-| enthusiasm | PASS | PASS | PASS | PASS |
-| entitled | PASS | PASS | PASS | PASS |
-| episode | PASS | PASS | PASS | PASS |
-| equip | PASS | PASS | PASS | PASS |
-| era | PASS | PASS | PASS | PASS |
-| excel | PASS | PASS | PASS | PASS |
-| execute | PASS | PASS | PASS | PASS |
-| exempt | PASS | PASS | PASS | PASS |
-| exhaust | PASS | PASS | PASS | PASS |
-| extensive | PASS | PASS | PASS | PASS |
-| extraordinary | PASS | PASS | PASS | PASS |
-| fatigue | PASS | PASS | PASS | PASS |
-| feasible | PASS | PASS | PASS | PASS |
-| federal | PASS | PASS | PASS | PASS |
-| fluid | PASS | PASS | PASS | PASS |
-| frequency | PASS | PASS | PASS | PASS |
-| genetic | PASS | PASS | PASS | PASS |
-| global | PASS | PASS | PASS | PASS |
-| graduate | PASS | PASS | PASS | PASS |
-| grant | PASS | PASS | PASS | PASS |
-| gulf | PASS | PASS | PASS | PASS |
-| highlight | PASS | PASS | PASS | PASS |
-| hoax | PASS | PASS | PASS | PASS |
-| humid | PASS | PASS | PASS | PASS |
-| illuminate | PASS | PASS | PASS | PASS |
-| implement | PASS | PASS | PASS | PASS |
-| impulse | PASS | PASS | PASS | PASS |
-| inaugurate | PASS | PASS | PASS | PASS |
-| incline | PASS | PASS | PASS | PASS |
-| industrial | PASS | PASS | PASS | PASS |
-| inevitable | PASS | PASS | PASS | PASS |
-| abate | PASS | PASS | PASS | PASS |
-| aberration | PASS | PASS | PASS | PASS |
-| abstraction | PASS | PASS | PASS | PASS |
-| acumen | PASS | PASS | PASS | PASS |
-| adept | PASS | PASS | PASS | PASS |
-| adversity | PASS | PASS | PASS | PASS |
-| affinity | PASS | PASS | PASS | PASS |
-| aggregation | PASS | PASS | PASS | PASS |
-| agitation | PASS | PASS | PASS | PASS |
-| alleviation | PASS | PASS | PASS | PASS |
-| amalgamation | PASS | PASS | PASS | PASS |
-| anarchy | PASS | PASS | PASS | PASS |
-| animosity | PASS | PASS | PASS | PASS |
-| annihilate | PASS | PASS | PASS | PASS |
-| anomalous | PASS | PASS | PASS | PASS |
-| appraisal | PASS | PASS | PASS | PASS |
-| aristocratic | PASS | PASS | PASS | PASS |
-| assimilation | PASS | PASS | PASS | PASS |
-| astounding | PASS | PASS | PASS | PASS |
-| attainment | PASS | PASS | PASS | PASS |
-| audacious | PASS | PASS | PASS | PASS |
-| austerity | PASS | PASS | PASS | PASS |
-| backlash | PASS | PASS | PASS | PASS |
-| barrage | PASS | PASS | PASS | PASS |
-| begrudge | PASS | PASS | PASS | PASS |
-| benefactor | PASS | PASS | PASS | PASS |
-| bequest | PASS | PASS | PASS | PASS |
-| bewilderment | PASS | PASS | PASS | PASS |
-| bountiful | PASS | PASS | PASS | PASS |
-| calibration | PASS | PASS | PASS | PASS |
-| candor | PASS | PASS | PASS | PASS |
-| capacious | PASS | PASS | PASS | PASS |
-| caricature | PASS | PASS | PASS | PASS |
-| categorical | PASS | PASS | PASS | PASS |
-| causation | PASS | PASS | PASS | PASS |
-| chagrin | PASS | PASS | PASS | PASS |
-| clamorous | PASS | PASS | PASS | PASS |
-| cognizant | PASS | PASS | PASS | PASS |
-| cohesion | PASS | PASS | PASS | PASS |
-| colloquial | PASS | PASS | PASS | PASS |
-| commiserate | PASS | PASS | PASS | PASS |
-| communique | PASS | PASS | PASS | PASS |
-| compartmentalize | PASS | PASS | PASS | PASS |
-| compunction | PASS | PASS | PASS | PASS |
-| condescension | PASS | PASS | PASS | PASS |
-| connotation | PASS | PASS | PASS | PASS |
-| consecration | PASS | PASS | PASS | PASS |
-| consternation | PASS | PASS | PASS | PASS |
-| contention | PASS | PASS | PASS | PASS |
-| contravene | PASS | PASS | PASS | PASS |
-| convergent | PASS | PASS | PASS | PASS |
-| conveyance | PASS | PASS | PASS | PASS |
-| corroboration | PASS | PASS | PASS | PASS |
-| covetous | PASS | PASS | PASS | PASS |
-| credence | PASS | PASS | PASS | PASS |
-| culpability | PASS | PASS | PASS | PASS |
-| curate | PASS | PASS | PASS | PASS |
-| curtailment | PASS | PASS | PASS | PASS |
-| cynicism | PASS | PASS | PASS | PASS |
-| debilitation | PASS | PASS | PASS | PASS |
-| decadence | PASS | PASS | PASS | PASS |
-| declination | PASS | PASS | PASS | PASS |
-| deduction | PASS | PASS | PASS | PASS |
-| delineation | PASS | PASS | PASS | PASS |
-| delusion | PASS | PASS | PASS | PASS |
-| demarcation | PASS | PASS | PASS | PASS |
-| demerit | PASS | PASS | PASS | PASS |
-| dereliction | PASS | PASS | PASS | PASS |
-| derivative | PASS | PASS | PASS | PASS |
-| desperation | PASS | PASS | PASS | PASS |
-| destitution | PASS | PASS | PASS | PASS |
-| detachment | PASS | PASS | PASS | PASS |
-| deterrence | PASS | PASS | PASS | PASS |
-| devolution | PASS | PASS | PASS | PASS |
-| diffusion | PASS | PASS | PASS | PASS |
-| dilapidation | PASS | PASS | PASS | PASS |
-| discernment | PASS | PASS | PASS | PASS |
-| discretionary | PASS | PASS | PASS | PASS |
-| disdainful | PASS | PASS | PASS | PASS |
-| disillusionment | PASS | PASS | PASS | PASS |
-| disparage | PASS | PASS | PASS | PASS |
-| dissidence | PASS | PASS | PASS | PASS |
-| divergent | PASS | PASS | PASS | PASS |
-| dogmatic | PASS | PASS | PASS | PASS |
-| dormancy | PASS | PASS | PASS | PASS |
-| draconian | PASS | PASS | PASS | PASS |
-| ebullience | PASS | PASS | PASS | PASS |
-| edification | PASS | PASS | PASS | PASS |
-| elation | PASS | PASS | PASS | PASS |
-| elucidation | PASS | PASS | PASS | PASS |
-| emanate | PASS | PASS | PASS | PASS |
-| embellish | PASS | PASS | PASS | PASS |
-| embolden | PASS | PASS | PASS | PASS |
-| emigration | PASS | PASS | PASS | PASS |
-| encroachment | PASS | PASS | PASS | PASS |
-| enfranchisement | PASS | PASS | PASS | PASS |
-| enormity | PASS | PASS | PASS | PASS |
-| entrenchment | PASS | PASS | PASS | PASS |
-| epitomize | PASS | PASS | PASS | PASS |
-| equanimity | PASS | PASS | PASS | PASS |
-| eradication | PASS | PASS | PASS | PASS |
-| erstwhile | PASS | PASS | PASS | PASS |
-| eschew | PASS | PASS | PASS | PASS |
-| esprit | PASS | PASS | PASS | PASS |
-| exacerbation | PASS | PASS | PASS | PASS |
-| exaltation | PASS | PASS | PASS | PASS |
-| exculpate | PASS | PASS | PASS | PASS |
-| exhortation | PASS | PASS | PASS | PASS |
-| expatriation | PASS | PASS | PASS | PASS |
-| expediency | PASS | PASS | PASS | PASS |
-| explication | PASS | PASS | PASS | PASS |
-| exponentiation | PASS | PASS | PASS | PASS |
-| expropriation | PASS | PASS | PASS | PASS |
-| extenuating | PASS | PASS | PASS | PASS |
-| extraneous | PASS | PASS | PASS | PASS |
-| extrapolation | PASS | PASS | PASS | PASS |
-| exuberance | PASS | PASS | PASS | PASS |
-| facilitation | PASS | PASS | PASS | PASS |
-| fallacious | PASS | PASS | PASS | PASS |
-| fanaticism | PASS | PASS | PASS | PASS |
-| felicity | PASS | PASS | PASS | PASS |
-| foresight | PASS | PASS | PASS | PASS |
-| fortification | PASS | PASS | PASS | PASS |
-| frivolity | PASS | PASS | PASS | PASS |
-| frugality | PASS | PASS | PASS | PASS |
-| fruition | PASS | PASS | PASS | PASS |
-| futility | PASS | PASS | PASS | PASS |
-| galvanize | PASS | PASS | PASS | PASS |
-| garrulous | PASS | PASS | PASS | PASS |
-| germane | PASS | PASS | PASS | PASS |
-| grandiosity | PASS | PASS | PASS | PASS |
-| gratuitous | PASS | PASS | PASS | PASS |
-| grievous | PASS | PASS | PASS | PASS |
-| heterogeneous | PASS | PASS | PASS | PASS |
-| hubris | PASS | PASS | PASS | PASS |
-| iconoclast | PASS | PASS | PASS | PASS |
-| idiosyncrasy | PASS | PASS | PASS | PASS |
-| ignominy | PASS | PASS | PASS | PASS |
-| illumination | PASS | PASS | PASS | PASS |
-| immutable | PASS | PASS | PASS | PASS |
-| impertinent | PASS | PASS | PASS | PASS |
-| impetus | PASS | PASS | PASS | PASS |
-| importune | PASS | PASS | PASS | PASS |
-| impugn | PASS | PASS | PASS | PASS |
-| incandescence | PASS | PASS | PASS | PASS |
-| incisive | PASS | PASS | PASS | PASS |
-| incongruity | PASS | PASS | PASS | PASS |
-| inculcate | PASS | PASS | PASS | PASS |
-| indemnify | PASS | PASS | PASS | PASS |
-| indigence | PASS | PASS | PASS | PASS |
-| indolence | PASS | PASS | PASS | PASS |
-| inexorable | PASS | PASS | PASS | PASS |
-| ingratiate | PASS | PASS | PASS | PASS |
-| innocuous | PASS | PASS | PASS | PASS |
-| insipid | PASS | PASS | PASS | PASS |
-| insouciance | PASS | PASS | PASS | PASS |
-| interloper | PASS | PASS | PASS | PASS |
-| interpolate | PASS | PASS | PASS | PASS |
-| interregnum | PASS | PASS | PASS | PASS |
-| intransigence | PASS | PASS | PASS | PASS |
-| irascible | PASS | PASS | PASS | PASS |
-| itinerant | PASS | PASS | PASS | PASS |
-| laconic | PASS | PASS | PASS | PASS |
-| lassitude | PASS | PASS | PASS | PASS |
-| largesse | PASS | PASS | PASS | PASS |
-| magnanimity | PASS | PASS | PASS | PASS |
-| malfeasance | PASS | PASS | PASS | PASS |
-| mendacious | PASS | PASS | PASS | PASS |
-| mercurial | PASS | PASS | PASS | PASS |
-| meritocracy | PASS | PASS | PASS | PASS |
-| mollify | PASS | PASS | PASS | PASS |
-| munificence | PASS | PASS | PASS | PASS |
-| nascent | PASS | PASS | PASS | PASS |
-| nefarious | PASS | PASS | PASS | PASS |
-| oblique | PASS | PASS | PASS | PASS |
-| exponent | PASS | PASS | PASS | PASS |
-| cortex | PASS | PASS | PASS | PASS |
-| adjunct | PASS | PASS | PASS | PASS |
+- **abandon**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **abbreviation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **accuse**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **aggressive**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **alliance**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **alter**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **alternative**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **appreciate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **architect**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **arctic**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **arise**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **assess**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **associate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **atom**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **aviation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **awkward**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **biome**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **bizarre**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **bland**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **bleak**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **blur**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **bond**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **boom**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **brace**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **breakthrough**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **breed**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **browse**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **cabinet**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **captive**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **career**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **cargo**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **catalog**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **category**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **ceremony**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **chamber**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **chaos**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **characteristic**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **charity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **chemical**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **civic**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **clause**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **client**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **commerce**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **compose**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **comprehend**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **concept**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **concrete**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **condition**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **conference**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **confess**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **conform**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **conscience**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **consensus**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **consume**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **contact**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **contaminate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **context**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **contract**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **council**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **courtesy**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **craft**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **crane**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **crave**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **credible**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **crude**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **customary**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **decay**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **deceive**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **declare**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **defect**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **defy**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **deprive**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **devastate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **diplomat**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **disclose**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **discount**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **discrimination**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **dominant**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **dormant**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **drain**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **dynamic**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **earnest**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **eclipse**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **ecology**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **edition**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **element**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **elevate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **emission**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **employ**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **endanger**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **enhance**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **enterprise**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **enthusiasm**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **entitled**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **episode**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **equip**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **era**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **excel**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **execute**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exempt**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exhaust**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **extensive**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **extraordinary**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **fatigue**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **feasible**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **federal**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **fluid**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **frequency**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **genetic**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **global**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **graduate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **grant**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **gulf**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **highlight**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **hoax**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **humid**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **illuminate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **implement**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **impulse**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **inaugurate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **incline**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **industrial**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **inevitable**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **abate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **aberration**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **abstraction**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **acumen**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **adept**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **adversity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **affinity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **aggregation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **agitation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **alleviation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **amalgamation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **anarchy**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **animosity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **annihilate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **anomalous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **appraisal**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **aristocratic**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **assimilation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **astounding**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **attainment**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **audacious**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **austerity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **backlash**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **barrage**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **begrudge**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **benefactor**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **bequest**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **bewilderment**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **bountiful**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **calibration**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **candor**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **capacious**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **caricature**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **categorical**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **causation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **chagrin**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **clamorous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **cognizant**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **cohesion**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **colloquial**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **commiserate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **communique**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **compartmentalize**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **compunction**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **condescension**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **connotation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **consecration**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **consternation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **contention**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **contravene**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **convergent**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **conveyance**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **corroboration**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **covetous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **credence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **culpability**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **curate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **curtailment**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **cynicism**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **debilitation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **decadence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **declination**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **deduction**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **delineation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **delusion**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **demarcation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **demerit**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **dereliction**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **derivative**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **desperation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **destitution**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **detachment**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **deterrence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **devolution**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **diffusion**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **dilapidation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **discernment**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **discretionary**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **disdainful**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **disillusionment**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **disparage**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **dissidence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **divergent**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **dogmatic**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **dormancy**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **draconian**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **ebullience**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **edification**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **elation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **elucidation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **emanate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **embellish**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **embolden**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **emigration**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **encroachment**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **enfranchisement**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **enormity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **entrenchment**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **epitomize**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **equanimity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **eradication**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **erstwhile**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **eschew**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **esprit**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exacerbation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exaltation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exculpate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exhortation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **expatriation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **expediency**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **explication**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exponentiation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **expropriation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **extenuating**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **extraneous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **extrapolation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exuberance**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **facilitation**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **fallacious**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **fanaticism**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **felicity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **foresight**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **fortification**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **frivolity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **frugality**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **fruition**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **futility**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **galvanize**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **garrulous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **germane**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **grandiosity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **gratuitous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **grievous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **heterogeneous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **hubris**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **iconoclast**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **idiosyncrasy**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **ignominy**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **illumination**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **immutable**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **impertinent**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **impetus**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **importune**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **impugn**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **incandescence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **incisive**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **incongruity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **inculcate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **indemnify**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **indigence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **indolence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **inexorable**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **ingratiate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **innocuous**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **insipid**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **insouciance**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **interloper**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **interpolate**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **interregnum**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **intransigence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **irascible**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **itinerant**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **laconic**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **lassitude**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **largesse**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **magnanimity**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **malfeasance**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **mendacious**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **mercurial**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **meritocracy**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **mollify**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **munificence**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **nascent**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **nefarious**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **oblique**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **exponent**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **cortex**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
+- **adjunct**: L9(imageKeyword: OK) | L10(definition: OK) | L11(polysemy: OK) | L12(game compatibility: OK)
