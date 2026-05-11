@@ -501,11 +501,7 @@ function l8Path(item) {
 
 let out = '';
 out += `# VERIFY-GPT — ${base}\n\n`;
-out += `- One line per word (no skipping).\n`;
-out += `- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.\n`;
-out += `- L6: Reverse test — blank example + 4 options.\n`;
-out += `- L7: Cultural sensitivity.\n`;
-out += `- L8: Learning path / level fit.\n\n`;
+out += `说明：每个词一行（不跳过）。字段：L5-Def / L5-Ex / L6(遮词+四选一) / L7(文化敏感) / L8(学习路径)。\n\n`;
 
 for (let idx = 0; idx < items.length; idx++) {
   const item = items[idx];
