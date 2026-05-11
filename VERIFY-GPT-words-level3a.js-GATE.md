@@ -2,6 +2,13 @@
 
 说明：每个词一行（不跳过）。字段：L5(Def/Ex) / L6(遮词+四选一) / L7(文化敏感) / L8(学习路径)。
 
+## 总览（便于 Claude/Gemini 回看定位）
+
+- 词数：231
+- L6（例句遮词+四选一反推）：能=6 / 勉强=53 / 不能=172（优先改“不能/勉强”的例句线索）
+- L7（文化/家长敏感点）：共 15 个需注意（naked, naval, ambrosia, assail, belfry, buccaneer, buttress, chaplain, cherub, clad, cleave, corona, corsair, crypt, dime）
+- L8（学习路径/难度）：偏难或需更多支架的词偏多（偏难=96；其余“拼写长/概念需中文支架”等见每词行末 L8 标注）
+
 - calculate | L5-Def:能 | L5-Ex:勉强(动作/情境可猜，但不太可能凭英文例句产出该动词) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[calculate / skim / startle / char] | L7:OK | L8:合适
 - correct | L5-Def:能 | L5-Ex:勉强(动作/情境可猜，但不太可能凭英文例句产出该动词) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[correct / badger / afflict / forgive] | L7:OK | L8:合适
 - damage | L5-Def:能 | L5-Ex:勉强(动作/情境可猜，但不太可能凭英文例句产出该动词) | L6:不能(遮词后线索弱，四选一容易靠蒙/多解) | 选项:[damage / satisfy / settle / furnish] | L7:OK | L8:合适
