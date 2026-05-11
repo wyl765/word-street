@@ -1,0 +1,6 @@
+# local scratch / temp artifacts
+_tmp_*.tsv
+_tmp_*.json
+
+# OS
+.DS_Store
