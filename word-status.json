@@ -78,7 +78,8 @@
       "gate3": "pass",
       "gate4": "pass",
       "gate5": "pass",
-      "gate6": "pass"
+      "gate6": "pass",
+      "gate14": "pass"
     },
     "words-level3a.js": {
       "totalWords": 231,
