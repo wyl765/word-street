@@ -1,408 +1,404 @@
-# VERIFY-GPT — words-level2a.js
+# VERIFY-GPT-words-level2a.js-GATE
 
-- One line per word (no skipping).
-- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
-- L6: Reverse test — blank example + 4 options.
-- L7: Cultural sensitivity (CN ESL kid/parent).
-- L8: Level fit / learning path.
+逐词记录（每词一行）：
 
-- avoid | L5-Def:能 | L5-Ex:能(靠walked/mud能猜) | L6:唯一(线索:walked/mud/getting/new) | 选项:[avoid / survive / observe / disappear] | L7:OK | L8:合适
-- burst | L5-Def:能 | L5-Ex:能(靠balloon/loud能猜) | L6:唯一(线索:balloon/loud/pop) | 选项:[burst / direct / crush / continue] | L7:OK | L8:合适
-- bury | L5-Def:能 | L5-Ex:能(靠squirrel/nuts能猜) | L6:唯一(线索:squirrel/nuts/yard/winter) | 选项:[bury / direct / crush / continue] | L7:OK | L8:合适
-- cheer | L5-Def:能 | L5-Ex:能(靠crowd/team能猜) | L6:唯一(线索:crowd/team/scored/winning) | 选项:[cheer / reveal / transport / inspect] | L7:OK | L8:合适
-- choose | L5-Def:能 | L5-Ex:能(靠flavor/ice能猜) | L6:唯一(线索:flavor/ice/cream) | 选项:[choose / admire / hunt / hasten] | L7:OK | L8:合适
-- claim | L5-Def:能 | L5-Ex:能(靠both/children能猜) | L6:唯一(线索:both/children/toy/theirs) | 选项:[claim / admire / hunt / hasten] | L7:OK | L8:合适
-- combine | L5-Def:能 | L5-Ex:能(靠if/blue能猜) | L6:唯一(线索:if/blue/yellow/paint) | 选项:[combine / hide / form / explore] | L7:OK | L8:合适
-- command | L5-Def:能 | L5-Ex:能(靠dog/trainer能猜) | L6:唯一(线索:dog/trainer/puppy/sit) | 选项:[command / convene / consolidate / compensate] | L7:OK | L8:合适
-- consider | L5-Def:能 | L5-Ex:能(靠please/choices能猜) | L6:唯一(线索:please/choices/pick) | 选项:[consider / identify / select / interrupt] | L7:OK | L8:合适
-- continue | L5-Def:能 | L5-Ex:能(靠rain/day能猜) | L6:唯一(线索:rain/day/bring/umbrella) | 选项:[continue / convene / consolidate / compensate] | L7:OK | L8:合适
-- control | L5-Def:能 | L5-Ex:能(靠use/remote能猜) | L6:唯一(线索:use/remote/channel/tv) | 选项:[control / denote / contemplate / conceive] | L7:OK | L8:合适
-- cover | L5-Def:能 | L5-Ex:能(靠please/food能猜) | L6:唯一(线索:please/food/flies/don) | 选项:[cover / hasten / flow / expect] | L7:OK | L8:合适(前置:hide)
-- cross | L5-Def:能 | L5-Ex:能(靠both/ways能猜) | L6:唯一(线索:both/ways/street) | 选项:[cross / coincide / aspire / acknowledge] | L7:OK | L8:合适
-- crush | L5-Def:能 | L5-Ex:能(靠giant/rock能猜) | L6:唯一(线索:giant/rock/fell/empty) | 选项:[crush / behave / admire / hunt] | L7:OK | L8:合适
-- dare | L5-Def:能 | L5-Ex:能(靠nobody/open能猜) | L6:唯一(线索:nobody/open/creaky/old) | 选项:[dare / admire / hunt / hasten] | L7:OK | L8:合适
-- demand | L5-Def:能 | L5-Ex:能(靠hungry/baby能猜) | L6:唯一(线索:hungry/baby/food/banging) | 选项:[demand / combine / bury / levy] | L7:OK | L8:合适
-- develop | L5-Def:能 | L5-Ex:能(靠tiny/seed能猜) | L6:唯一(线索:tiny/seed/tall/sunflower) | 选项:[develop / coincide / aspire / acknowledge] | L7:OK | L8:合适
-- direct | L5-Def:能 | L5-Ex:能(靠crossing/guard能猜) | L6:唯一(线索:crossing/guard/cars/stop) | 选项:[direct / possess / transform / organize] | L7:OK | L8:合适
-- examine | L5-Def:能 | L5-Ex:能(靠doctor/my能猜) | L6:唯一(线索:doctor/my/sore/throat) | 选项:[examine / cross / consider / choose] | L7:OK | L8:合适
-- exchange | L5-Def:能 | L5-Ex:能(靠friends/stickers能猜) | L6:唯一(线索:friends/stickers/during/lunch) | 选项:[exchange / generate / exceed / dominate] | L7:OK | L8:合适
-- excite | L5-Def:能 | L5-Ex:能(靠news/about能猜) | L6:唯一(线索:news/about/field/trip) | 选项:[excite / announce / increase / hide] | L7:OK | L8:合适
-- expect | L5-Def:能 | L5-Ex:能(靠bus/come能猜) | L6:唯一(线索:bus/come/soon) | 选项:[expect / reduce / absorb / interpret] | L7:OK | L8:合适
-- explore | L5-Def:能 | L5-Ex:能(靠cave/flashlights能猜) | L6:唯一(线索:cave/flashlights/found) | 选项:[explore / correspond / consult / compile] | L7:OK | L8:合适
-- express | L5-Def:能 | L5-Ex:能(靠happiness/giving能猜) | L6:唯一(线索:happiness/giving/everyone) | 选项:[express / conceive / clarify / amend] | L7:OK | L8:合适
-- fail | L5-Def:能 | L5-Ex:能(靠catch/ball能猜) | L6:唯一(线索:catch/ball/but) | 选项:[fail / fluctuate / erode / distort] | L7:OK | L8:合适
-- flow | L5-Def:能 | L5-Ex:能(靠river/quickly能猜) | L6:唯一(线索:river/quickly/rocks) | 选项:[flow / represent / accomplish / require] | L7:OK | L8:合适
-- form | L5-Def:能 | L5-Ex:能(靠used/clay能猜) | L6:唯一(线索:used/clay/little/animals) | 选项:[form / contemplate / conceive / clarify] | L7:OK | L8:合适
-- gaze | L5-Def:能 | L5-Ex:能(靠stars/amazed能猜) | L6:唯一(线索:stars/amazed) | 选项:[gaze / manifest / intervene / induce] | L7:OK | L8:合适
-- guide | L5-Def:能 | L5-Ex:能(靠park/ranger能猜) | L6:唯一(线索:park/ranger/us/along) | 选项:[guide / demonstrate / cooperate / perform] | L7:OK | L8:合适
-- hasten | L5-Def:能 | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:steps | 选项:[hasten / exchange / demand / cover] | L7:OK | L8:合适
-- hide | L5-Def:能 | L5-Ex:能(靠children/love能猜) | L6:唯一(线索:children/love/behind/big) | 选项:[hide / hug / gaze / express] | L7:OK | L8:合适
-- hike | L5-Def:能 | L5-Ex:能(靠family/mountain能猜) | L6:唯一(线索:family/mountain/summer) | 选项:[hike / derive / contradict / confine] | L7:OK | L8:合适(前置:usually)
-- hug | L5-Def:能 | L5-Ex:能(靠ran/grandmother能猜) | L6:唯一(线索:ran/grandmother/soon) | 选项:[hug / consider / choose / avoid] | L7:OK | L8:合适
-- hunt | L5-Def:能 | L5-Ex:能(靠owl/mice能猜) | L6:唯一(线索:owl/mice/night) | 选项:[hunt / convene / consolidate / compensate] | L7:OK | L8:合适
-- increase | L5-Def:能 | L5-Ex:能(靠number/students能猜) | L6:唯一(线索:number/students/class/twenty) | 选项:[increase / oppose / reveal / transport] | L7:OK | L8:合适
-- insist | L5-Def:能 | L5-Ex:能(靠mom/wear能猜) | L6:唯一(线索:mom/wear/coats) | 选项:[insist / assert / advocate / reduce] | L7:OK | L8:合适
-- instruct | L5-Def:能 | L5-Ex:能(靠coach/players能猜) | L6:唯一(线索:coach/players/pass/ball) | 选项:[instruct / hike / gaze / express] | L7:OK | L8:合适
-- admire | L5-Def:能 | L5-Ex:能(靠everyone/stopped能猜) | L6:唯一(线索:everyone/stopped/beautiful/painting) | 选项:[admire / deviate / convene / consolidate] | L7:OK | L8:合适
-- announce | L5-Def:能 | L5-Ex:能(靠principal/school能猜) | L6:唯一(线索:principal/school/end/early) | 选项:[announce / denote / contemplate / conceive] | L7:OK | L8:合适
-- approve | L5-Def:能 | L5-Ex:能(靠mom/my能猜) | L6:唯一(线索:mom/my/plan/sleepover) | 选项:[approve / request / negotiate / recognize] | L7:OK | L8:合适
-- argue | L5-Def:能 | L5-Ex:能(靠brothers/about能猜) | L6:唯一(线索:brothers/about/whose/turn) | 选项:[argue / interrupt / defend / behave] | L7:OK | L8:合适
-- behave | L5-Def:能 | L5-Ex:能(靠teacher/class能猜) | L6:唯一(线索:teacher/class/nicely/during) | 选项:[behave / possess / transform / organize] | L7:OK | L8:合适
-- celebrate | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠grandma/birthday能猜) | L6:唯一(线索:grandma/birthday/cake) | 选项:[celebrate / reduce / absorb / interpret] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- compare | L5-Def:能 | L5-Ex:能(靠let/shells能猜) | L6:唯一(线索:let/shells) | 选项:[compare / observe / disappear / behave] | L7:OK | L8:合适
-- convince | L5-Def:能 | L5-Ex:能(靠dad/let能猜) | L6:唯一(线索:dad/let/them) | 选项:[convince / exchange / demand / cover] | L7:OK | L8:合适
-- defend | L5-Def:能 | L5-Ex:能(靠father/bird能猜) | L6:唯一(线索:father/bird/nest/flapping) | 选项:[defend / respond / inherit / survive] | L7:OK | L8:合适
-- disappear | L5-Def:能 | L5-Ex:能(靠magician/coin能猜) | L6:唯一(线索:magician/coin/right/eyes) | 选项:[disappear / predict / hesitate / collapse] | L7:OK | L8:合适
-- encourage | L5-Def:能 | L5-Ex:能(靠friends/try能猜) | L6:唯一(线索:friends/try/again) | 选项:[encourage / transform / organize / disappear] | L7:OK | L8:合适
-- improve | L5-Def:能 | L5-Ex:能(靠reading/practicing能猜) | L6:唯一(线索:reading/practicing/night) | 选项:[improve / identify / select / interrupt] | L7:OK | L8:合适
-- interrupt | L5-Def:能 | L5-Ex:能(靠please/don能猜) | L6:唯一(线索:please/don/me/am) | 选项:[interrupt / insist / hike / gaze] | L7:OK | L8:合适
-- observe | L5-Def:能 | L5-Ex:能(靠caterpillar/slowly能猜) | L6:唯一(线索:caterpillar/slowly/turned) | 选项:[observe / consolidate / compensate / assert] | L7:OK | L8:合适
-- organize | L5-Def:勉强(卡:put概念/中文对照) | L5-Ex:能(靠crayons/color能猜) | L6:唯一(线索:crayons/color) | 选项:[organize / interpret / investigate / represent] | L7:OK | L8:合适(前置:neat)
-- bold | L5-Def:能 | L5-Ex:能(靠explorer/walked能猜) | L6:唯一(线索:explorer/walked/dark/cave) | 选项:[bold / still / horrible / rude] | L7:OK | L8:合适
-- brief | L5-Def:能 | L5-Ex:能(靠rain/stopped能猜) | L6:唯一(线索:rain/stopped/minutes) | 选项:[brief / incentive / commentary / domestic] | L7:OK | L8:合适
-- delicate | L5-Def:勉强(卡:easily概念/中文对照) | L5-Ex:能(靠butterfly/wing能猜) | L6:唯一(线索:butterfly/wing/tiny/patterns) | 选项:[delicate / discovery / vast / evidence] | L7:OK | L8:合适
-- dense | L5-Def:能 | L5-Ex:能(靠forest/sunlight能猜) | L6:唯一(线索:forest/sunlight/barely/through) | 选项:[dense / structure / sensitive / effort] | L7:OK | L8:合适
-- dim | L5-Def:能 | L5-Ex:能(靠light/hallway能猜) | L6:唯一(线索:light/hallway) | 选项:[dim / absurd / odd / glossy] | L7:OK | L8:合适
-- distant | L5-Def:能 | L5-Ex:能(靠mountains/but能猜) | L6:唯一(线索:mountains/but/take/hours) | 选项:[distant / previous / reluctant / courage] | L7:OK | L8:合适
-- drowsy | L5-Def:能 | L5-Ex:能(靠warm/blanket能猜) | L6:唯一(线索:warm/blanket/him/soon) | 选项:[drowsy / absurd / odd / glossy] | L7:OK | L8:合适
-- dusty | L5-Def:能 | L5-Ex:能(靠old/book能猜) | L6:唯一(线索:old/book/hadn/opened) | 选项:[dusty / cruel / pure / helpless] | L7:OK | L8:合适
-- elegant | L5-Def:能 | L5-Ex:能(靠swan/glided能猜) | L6:唯一(线索:swan/glided/smoothly/lake) | 选项:[elegant / diverse / genuine / structure] | L7:OK | L8:合适
-- faint | L5-Def:能 | L5-Ex:能(靠there/smell能猜) | L6:唯一(线索:there/smell/cookies/coming) | 选项:[faint / odd / glossy / likewise] | L7:OK | L8:合适(前置:weak)
-- familiar | L5-Def:能 | L5-Ex:能(靠song/sounded能猜) | L6:唯一(线索:song/sounded/heard) | 选项:[familiar / dense / duration / temporary] | L7:OK | L8:合适
-- flat | L5-Def:能 | L5-Ex:能(靠pancake/thin能猜) | L6:唯一(线索:pancake/thin/plate) | 选项:[flat / external / fortunate / ordinary] | L7:OK | L8:合适
-- flexible | L5-Def:能 | L5-Ex:能(靠rubber/band能猜) | L6:唯一(线索:rubber/band/stretched/snapping) | 选项:[flexible / vapor / wealthy / cruel] | L7:OK | L8:合适
-- foggy | L5-Def:能 | L5-Ex:能(靠morning/couldn能猜) | L6:唯一(线索:morning/couldn) | 选项:[foggy / lean / elegant / hence] | L7:OK | L8:合适
-- glossy | L5-Def:能 | L5-Ex:能(靠paper/store能猜) | L6:唯一(线索:paper/store/showed) | 选项:[glossy / colorful / precious / heavy] | L7:OK | L8:合适
-- grim | L5-Def:能 | L5-Ex:能(靠teacher/face能猜) | L6:唯一(线索:teacher/face/mess) | 选项:[grim / furthermore / approximate / penalty] | L7:OK | L8:合适(前置:serious)
-- harsh | L5-Def:能 | L5-Ex:能(靠winter/wind能猜) | L6:唯一(线索:winter/wind/stung/faces) | 选项:[harsh / powerful / slender / moist] | L7:OK | L8:合适
-- heavy | L5-Def:能 | L5-Ex:能(靠backpack/shoulders能猜) | L6:唯一(线索:backpack/shoulders/ache) | 选项:[heavy / peculiar / pioneer / wicked] | L7:OK | L8:合适
-- helpless | L5-Def:能 | L5-Ex:能(靠baby/bird能猜) | L6:唯一(线索:baby/bird/sat/nest) | 选项:[helpless / weak / colorful / precious] | L7:OK | L8:合适
-- humble | L5-Def:能 | L5-Ex:能(靠won/first能猜) | L6:唯一(线索:won/first/place/thanked) | 选项:[humble / likewise / consequent / annual] | L7:OK | L8:合适
-- innocent | L5-Def:能 | L5-Ex:能(靠puppy/but能猜) | L6:唯一(线索:puppy/but) | 选项:[innocent / commentary / domestic / essential] | L7:OK | L8:合适
-- invisible | L5-Def:能 | L5-Ex:能(靠clean/almost能猜) | L6:唯一(线索:clean/almost) | 选项:[invisible / soft / neat / flat] | L7:OK | L8:合适
-- keen | L5-Def:能 | L5-Ex:能(靠reading/new能猜) | L6:唯一(线索:reading/new/book) | 选项:[keen / ridiculous / soft / neat] | L7:OK | L8:合适
-- lean | L5-Def:能 | L5-Ex:能(靠runner/finished能猜) | L6:唯一(线索:runner/finished/race/first) | 选项:[lean / miniature / moisture / tremendous] | L7:OK | L8:合适
-- lively | L5-Def:能 | L5-Ex:能(靠puppy/bounced能猜) | L6:唯一(线索:puppy/bounced/yard/chasing) | 选项:[lively / yearly / mostly / initially] | L7:OK | L8:合适
-- lovely | L5-Def:能 | L5-Ex:能(靠garden/full能猜) | L6:唯一(线索:garden/full/colorful/flowers) | 选项:[lovely / supply / normally / temporarily] | L7:OK | L8:合适
-- magnificent | L5-Def:能 | L5-Ex:能(靠fireworks/lit能猜) | L6:唯一(线索:fireworks/lit/whole/night) | 选项:[magnificent / accurate / pale / glossy] | L7:OK | L8:合适
-- moist | L5-Def:能 | L5-Ex:能(靠soil/perfect能猜) | L6:唯一(线索:soil/perfect/planting/seeds) | 选项:[moist / criteria / permission / positive] | L7:OK | L8:合适(前置:soft)
-- neat | L5-Def:能 | L5-Ex:能(靠desk/always能猜) | L6:唯一(线索:desk/always/pencils/lined) | 选项:[neat / essential / obvious / material] | L7:OK | L8:合适
-- noble | L5-Def:能 | L5-Ex:能(靠knight/promised能猜) | L6:唯一(线索:knight/promised/help/everyone) | 选项:[noble / finite / ambiguous / discovery] | L7:OK | L8:合适
-- odd | L5-Def:能 | L5-Ex:能(靠snow/april能猜) | L6:唯一(线索:snow/april) | 选项:[odd / raw / humble / distant] | L7:OK | L8:合适
-- pale | L5-Def:能 | L5-Ex:能(靠face/turned能猜) | L6:唯一(线索:face/turned/heard/scary) | 选项:[pale / identical / bias / reasonable] | L7:OK | L8:合适
-- plump | L5-Def:能 | L5-Ex:能(靠blueberries/ready能猜) | L6:唯一(线索:blueberries/ready/pick) | 选项:[plump / fortunate / ordinary / mixture] | L7:OK | L8:合适(前置:round)
-- precious | L5-Def:勉强(卡:valuable概念/中文对照) | L5-Ex:能(靠ring/him能猜) | L6:唯一(线索:ring/him/belonged) | 选项:[precious / diverse / genuine / structure] | L7:OK | L8:合适
-- pure | L5-Def:能 | L5-Ex:能(靠mountain/stream能猜) | L6:唯一(线索:mountain/stream/water/clear) | 选项:[pure / material / visible / brittle] | L7:OK | L8:合适
-- rare | L5-Def:能 | L5-Ex:能(靠bald/eagle能猜) | L6:唯一(线索:bald/eagle) | 选项:[rare / still / horrible / rude] | L7:OK | L8:合适
-- raw | L5-Def:能 | L5-Ex:能(靠eat/chicken能猜) | L6:唯一(线索:eat/chicken) | 选项:[raw / incredible / particular / vapor] | L7:注意(例句含raw chicken + sick，健康提示OK但注意别引发恐惧) | L8:合适
-- round | L5-Def:能 | L5-Ex:能(靠orange/rolled能猜) | L6:唯一(线索:orange/rolled/off/table) | 选项:[round / external / fortunate / ordinary] | L7:OK | L8:合适
-- rude | L5-Def:能 | L5-Ex:能(靠talk/someone能猜) | L6:唯一(线索:talk/someone/else) | 选项:[rude / approximate / penalty / vivid] | L7:OK | L8:合适
-- rusty | L5-Def:能 | L5-Ex:能(靠old/bike能猜) | L6:唯一(线索:old/bike/left) | 选项:[rusty / brittle / pale / grim] | L7:OK | L8:合适
-- scarce | L5-Def:能 | L5-Ex:能(靠trading/card能猜) | L6:唯一(线索:trading/card/collectors/pay) | 选项:[scarce / weak / colorful / plump] | L7:OK | L8:合适
-- slender | L5-Def:能 | L5-Ex:能(靠candle/fit能猜) | L6:唯一(线索:candle/fit/perfectly/tiny) | 选项:[slender / previous / reluctant / courage] | L7:OK | L8:合适
-- soft | L5-Def:能 | L5-Ex:能(靠kitten/fur能猜) | L6:唯一(线索:kitten/fur/felt/cloud) | 选项:[soft / incredible / particular / vapor] | L7:OK | L8:合适
-- abundant | L5-Def:能 | L5-Ex:能(靠store/supplies能猜) | L6:唯一(线索:store/supplies/prices/stayed) | 选项:[abundant / rusty / lean / faint] | L7:OK | L8:合适
-- absurd | L5-Def:能 | L5-Ex:能(靠clown/wore能猜) | L6:唯一(线索:clown/wore/hat/shaped) | 选项:[absurd / research / serious / soft] | L7:OK | L8:合适
-- accurate | L5-Def:勉强(卡:mistakes概念/中文对照) | L5-Ex:能(靠drawing/photograph能猜) | L6:唯一(线索:drawing/photograph) | 选项:[accurate / equipment / vacant / accident] | L7:OK | L8:合适
-- brittle | L5-Def:能 | L5-Ex:能(靠twig/snapped能猜) | L6:唯一(线索:twig/snapped/half) | 选项:[brittle / flexible / liberal / consent] | L7:OK | L8:合适
-- colorful | L5-Def:能 | L5-Ex:能(靠parrot/red能猜) | L6:唯一(线索:parrot/red/blue/yellow) | 选项:[colorful / still / horrible / round] | L7:OK | L8:合适
-- cruel | L5-Def:能 | L5-Ex:能(靠pull/cat能猜) | L6:唯一(线索:pull/cat/tail) | 选项:[cruel / keen / elegant / hence] | L7:注意(例句涉及拉猫尾巴，家长可能不适；可换更温和例子) | L8:合适
-- daring | L5-Def:能 | L5-Ex:能(靠pilot/flew能猜) | L6:唯一(线索:pilot/flew/through/storm) | 选项:[daring / severe / knowledge / overnight] | L7:OK | L8:合适
-- filthy | L5-Def:能 | L5-Ex:能(靠clothes/playing能猜) | L6:唯一(线索:clothes/playing/mud) | 选项:[filthy / moist / flat / integral] | L7:OK | L8:合适
-- gorgeous | L5-Def:勉强(卡:beautiful概念/中文对照) | L5-Ex:能(靠sunset/turned能猜) | L6:唯一(线索:sunset/turned/sky/orange) | 选项:[gorgeous / advantage / worthless / daring] | L7:OK | L8:合适
-- horrible | L5-Def:能 | L5-Ex:能(靠smell/garbage能猜) | L6:唯一(线索:smell/garbage/everyone) | 选项:[horrible / furthermore / approximate / penalty] | L7:OK | L8:合适
-- mysterious | L5-Def:勉强(卡:understand概念/中文对照) | L5-Ex:能(靠light/appeared能猜) | L6:唯一(线索:light/appeared/forest) | 选项:[mysterious / heavy / dense / duration] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- pleasant | L5-Def:能 | L5-Ex:能(靠breeze/cooled能猜) | L6:唯一(线索:breeze/cooled/us) | 选项:[pleasant / drowsy / finite / ambiguous] | L7:OK | L8:合适
-- powerful | L5-Def:能 | L5-Ex:能(靠wind/blew能猜) | L6:唯一(线索:wind/blew/leaves/off) | 选项:[powerful / worthless / daring / rare] | L7:OK | L8:合适
-- ridiculous | L5-Def:勉强(卡:silly概念/中文对照) | L5-Ex:能(靠dog/wearing能猜) | L6:唯一(线索:dog/wearing/tiny/hat) | 选项:[ridiculous / integral / complement / external] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- serious | L5-Def:勉强(卡:meaning概念/中文对照) | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:face | 选项:[serious / mixture / weak / brittle] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- spotless | L5-Def:能 | L5-Ex:能(靠cleaning/day能猜) | L6:唯一(线索:cleaning/day/kitchen) | 选项:[spotless / tremendous / absurd / odd] | L7:OK | L8:合适
-- tremendous | L5-Def:勉强(卡:big概念/中文对照) | L5-Ex:能(靠audience/gave能猜) | L6:唯一(线索:audience/gave/cheer/shook) | 选项:[tremendous / tradition / severe / knowledge] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- visible | L5-Def:能 | L5-Ex:能(靠lighthouse/miles能猜) | L6:唯一(线索:lighthouse/miles/away) | 选项:[visible / vivid / experience / research] | L7:OK | L8:合适
-- weak | L5-Def:能 | L5-Ex:能(靠kitten/barely能猜) | L6:唯一(线索:kitten/barely/stand) | 选项:[weak / flexible / liberal / consent] | L7:OK | L8:合适
-- wealthy | L5-Def:能 | L5-Ex:能(靠man/built能猜) | L6:唯一(线索:man/built/library/everyone) | 选项:[wealthy / essential / obvious / material] | L7:OK | L8:合适
-- wicked | L5-Def:能 | L5-Ex:能(靠witch/story能猜) | L6:唯一(线索:witch/story/tried) | 选项:[wicked / colorful / precious / heavy] | L7:注意(witch/evil童话OK，注意别过度恐怖) | L8:合适
-- worthless | L5-Def:能 | L5-Ex:能(靠broken/toy能猜) | L6:唯一(线索:broken/toy/none/pieces) | 选项:[worthless / soft / neat / flexible] | L7:OK | L8:合适
-- briefly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:explained/rules/then | 选项:[briefly / typically / lively / regularly] | L7:OK | L8:合适(建议先会brief再学briefly)
-- constantly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:puppy/wagged/tail | 选项:[constantly / currently / typically / lively] | L7:OK | L8:合适
-- continuously | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:river/flows/never/stopping | 选项:[continuously / nearly / permanently / currently] | L7:OK | L8:合适
-- currently | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:reading/book/about/dinosaurs | 选项:[currently / previously / merely / originally] | L7:OK | L8:合适(建议先会current再学currently)
-- formerly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:building/school/but/now | 选项:[formerly / promptly / entirely / possibly] | L7:OK | L8:合适
-- instantly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:light/turned/flipped/switch | 选项:[instantly / formerly / simultaneously / briefly] | L7:OK | L8:合适
-- mostly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:jar/empty/only/few | 选项:[mostly / nearly / permanently / continuously] | L7:OK | L8:合适
-- nearly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:finished/race/but/tripped | 选项:[nearly / possibly / hourly / mostly] | L7:OK | L8:合适
-- normally | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:eat/breakfast/but/today | 选项:[normally / promptly / entirely / possibly] | L7:OK | L8:合适
-- originally | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:house/painted/white/but | 选项:[originally / initially / constantly / steadily] | L7:OK | L8:合适
-- partly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:sky/cloudy/still | 选项:[partly / mostly / permanently / continuously] | L7:OK | L8:合适
-- possibly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:snow/tonight/keep/boots | 选项:[possibly / promptly / entirely / partly] | L7:OK | L8:合适
-- presently | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:working/art/project | 选项:[presently / previously / merely / normally] | L7:OK | L8:合适
-- previously | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:visited/museum/knew | 选项:[previously / partly / hourly / mostly] | L7:OK | L8:合适(建议先会previous再学previously)
-- probably | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:rain/sky/full | 选项:[probably / continuously / typically / lively] | L7:OK | L8:合适
-- promptly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:teacher/arrives/day | 选项:[promptly / initially / constantly / steadily] | L7:OK | L8:合适
-- regularly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:waters/plant/morning | 选项:[regularly / lively / promptly / scarcely] | L7:OK | L8:合适
-- shortly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:movie/find/seat/now | 选项:[shortly / promptly / scarcely / possibly] | L7:OK | L8:合适
-- simply | L5-Def:能 | L5-Ex:能(靠fix/pressing能猜) | L6:唯一(线索:fix/pressing/restart/button) | 选项:[simply / briefly / shortly / willingly] | L7:OK | L8:合适
-- sometimes | L5-Def:能 | L5-Ex:能(靠walk/school能猜) | L6:唯一(线索:walk/school) | 选项:[sometimes / penalty / vivid / experience] | L7:OK | L8:合适
-- steadily | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:rain/fell/afternoon/getting | 选项:[steadily / scarcely / possibly / supply] | L7:OK | L8:合适
-- still | L5-Def:能 | L5-Ex:能(靠clock/reading能猜) | L6:唯一(线索:clock/reading/book) | 选项:[still / structure / sensitive / effort] | L7:OK | L8:合适
-- typically | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:walks/school/but/today | 选项:[typically / entirely / partly / hourly] | L7:OK | L8:合适
-- usually | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:pizza/friday/nights | 选项:[usually / permanently / continuously / steadily] | L7:OK | L8:合适
-- simultaneously | L5-Def:能 | L5-Ex:能(靠friends/jumped能猜) | L6:唯一(线索:friends/jumped/pool/huge) | 选项:[simultaneously / typically / lovely / regularly] | L7:OK | L8:合适
-- initially | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:scared/water/but/soon | 选项:[initially / precisely / originally / yearly] | L7:OK | L8:合适
-- permanently | L5-Def:能 | L5-Ex:能(靠marker/stain能猜) | L6:唯一(线索:marker/stain/stayed/shirt) | 选项:[permanently / presently / merely / normally] | L7:OK | L8:合适
-- temporarily | L5-Def:能 | L5-Ex:能(靠road/closed能猜) | L6:唯一(线索:road/closed/workers/fix) | 选项:[temporarily / steadily / lively / promptly] | L7:OK | L8:合适
-- lately | L5-Def:能 | L5-Ex:能(靠cold/wear能猜) | L6:唯一(线索:cold/wear/extra/layers) | 选项:[lately / promptly / scarcely / possibly] | L7:OK | L8:合适
-- overnight | L5-Def:能 | L5-Ex:能(靠snow/fell能猜) | L6:唯一(线索:snow/fell/everything/white) | 选项:[overnight / consequent / annual / numerous] | L7:OK | L8:合适
-- yearly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:town/parade/summer/music | 选项:[yearly / willingly / previously / precisely] | L7:OK | L8:合适
-- hourly | L5-Def:能 | L5-Ex:勉强(卡:不止一个选项都像) | L6:不唯一(同类副词多，空格只靠语感) 线索:clock/chimes/hear/ring | 选项:[hourly / regularly / swiftly / presently] | L7:OK | L8:合适
-- illustration | L5-Def:勉强(卡:happening概念/中文对照) | L5-Ex:能(靠showed/dragon能猜) | L6:唯一(线索:showed/dragon/flying) | 选项:[illustration / prey / format / triumph] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- diagram | L5-Def:能 | L5-Ex:能(靠science/book能猜) | L6:唯一(线索:science/book/shows) | 选项:[diagram / experiment / constraint / inspector] | L7:OK | L8:合适
-- vocabulary | L5-Def:能 | L5-Ex:能(靠day/helps能猜) | L6:唯一(线索:day/helps/grow) | 选项:[vocabulary / framework / consequence / erosion] | L7:OK | L8:合适
-- definition | L5-Def:勉强(卡:word概念/中文对照) | L5-Ex:能(靠dictionary/if能猜) | L6:唯一(线索:dictionary/if/don) | 选项:[definition / obvious / material / tremendous] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- fact | L5-Def:能 | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:earth | 选项:[fact / drowsy / finite / ambiguous] | L7:OK | L8:合适
-- summary | L5-Def:能 | L5-Ex:能(靠write/story能猜) | L6:唯一(线索:write/story) | 选项:[summary / companion / experiment / constraint] | L7:OK | L8:合适
-- topic | L5-Def:能 | L5-Ex:能(靠today/lesson能猜) | L6:唯一(线索:today/lesson) | 选项:[topic / vivid / experience / research] | L7:OK | L8:合适
-- conclusion | L5-Def:勉强(卡:end概念/中文对照) | L5-Ex:能(靠movie/hero能猜) | L6:唯一(线索:movie/hero/saved) | 选项:[conclusion / entity / responsibility / galaxy] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- passage | L5-Def:能 | L5-Ex:能(靠read/page能猜) | L6:唯一(线索:read/page/answer) | 选项:[passage / mineral / guideline / conversation] | L7:OK | L8:合适
-- research | L5-Def:能 | L5-Ex:能(靠penguins/reading能猜) | L6:唯一(线索:penguins/reading/different) | 选项:[research / plump / harsh / delicate] | L7:OK | L8:合适
-- method | L5-Def:能 | L5-Ex:能(靠teacher/showed能猜) | L6:唯一(线索:teacher/showed/us/new) | 选项:[method / celebration / volunteer / vocabulary] | L7:OK | L8:合适
-- experiment | L5-Def:勉强(卡:test概念/中文对照) | L5-Ex:能(靠showed/plants能猜) | L6:唯一(线索:showed/plants/grow/faster) | 选项:[experiment / galaxy / foundation / boundary] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- creature | L5-Def:能 | L5-Ex:能(靠strange/legs能猜) | L6:唯一(线索:strange/legs/garden) | 选项:[creature / vacant / accident / definition] | L7:OK | L8:合适
-- moisture | L5-Def:能 | L5-Ex:能(靠there/grass能猜) | L6:唯一(线索:there/grass/morning) | 选项:[moisture / wealthy / cruel / pure] | L7:OK | L8:合适
-- material | L5-Def:能 | L5-Ex:能(靠jacket/soft能猜) | L6:唯一(线索:jacket/soft) | 选项:[material / peculiar / pioneer / wealthy] | L7:OK | L8:合适
-- source | L5-Def:能 | L5-Ex:能(靠river/small能猜) | L6:唯一(线索:river/small/spring/high) | 选项:[source / culture / magnitude / celebration] | L7:OK | L8:合适
-- motion | L5-Def:能 | L5-Ex:能(靠swing/going能猜) | L6:唯一(线索:swing/going/back) | 选项:[motion / generation / diagram / territory] | L7:OK | L8:合适
-- mixture | L5-Def:能 | L5-Ex:能(靠cake/batter能猜) | L6:唯一(线索:cake/batter/flour/eggs) | 选项:[mixture / wicked / daring / rare] | L7:OK | L8:合适
-- direction | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠wind/changed能猜) | L6:唯一(线索:wind/changed/blowing/north) | 选项:[direction / boundary / current / hierarchy] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- shelter | L5-Def:能 | L5-Ex:能(靠hikers/found能猜) | L6:唯一(线索:hikers/found/big/rock) | 选项:[shelter / formula / attitude / mineral] | L7:OK | L8:合适
-- predator | L5-Def:能 | L5-Ex:能(靠hawk/catches能猜) | L6:唯一(线索:hawk/catches/mice/small) | 选项:[predator / territory / president / conclusion] | L7:OK | L8:合适
-- prey | L5-Def:能 | L5-Ex:能(靠rabbit/foxes能猜) | L6:唯一(线索:rabbit/foxes/runs) | 选项:[prey / illustration / voyage / merchant] | L7:OK | L8:合适(前置:hunt)
-- oxygen | L5-Def:能 | L5-Ex:能(靠trees/forests能猜) | L6:唯一(线索:trees/forests/help/us) | 选项:[oxygen / capacity / immigrant / source] | L7:OK | L8:合适
-- galaxy | L5-Def:能 | L5-Ex:能(靠star/billions能猜) | L6:唯一(线索:star/billions/others) | 选项:[galaxy / companion / method / constraint] | L7:OK | L8:合适
-- fossil | L5-Def:能 | L5-Ex:能(靠found/leaf能猜) | L6:唯一(线索:found/leaf/millions) | 选项:[fossil / conversation / orbit / ideology] | L7:OK | L8:合适
-- mineral | L5-Def:能 | L5-Ex:能(靠gold/people能猜) | L6:唯一(线索:gold/people/dig) | 选项:[mineral / celebration / volunteer / vocabulary] | L7:OK | L8:合适
-- current | L5-Def:能 | L5-Ex:能(靠strong/river能猜) | L6:唯一(线索:strong/river/pushed/boat) | 选项:[current / guardian / experiment / controversy] | L7:OK | L8:合适(前置:flow/direction)
-- vapor | L5-Def:能 | L5-Ex:能(靠rose/air能猜) | L6:唯一(线索:rose/air/water) | 选项:[vapor / bold / criteria / permission] | L7:OK | L8:合适(前置:form)
-- erosion | L5-Def:勉强(卡:slow概念/中文对照) | L5-Ex:能(靠river/carved能猜) | L6:唯一(线索:river/carved/deep) | 选项:[erosion / currency / relative / shelter] | L7:OK | L8:合适
-- orbit | L5-Def:能 | L5-Ex:能(靠takes/year能猜) | L6:唯一(线索:takes/year/complete/sun) | 选项:[orbit / conversation / erosion / ideology] | L7:OK | L8:合适
-- gravity | L5-Def:勉强(卡:force概念/中文对照) | L5-Ex:能(靠makes/ball能猜) | L6:唯一(线索:makes/ball/fall) | 选项:[gravity / orbit / implication / solution] | L7:OK | L8:合适
-- species | L5-Def:能 | L5-Ex:能(靠there/birds能猜) | L6:唯一(线索:there/birds/tiny/hummingbirds) | 选项:[species / sufficient / culture / magnitude] | L7:OK | L8:合适
-- community | L5-Def:勉强(卡:group概念/中文对照) | L5-Ex:能(靠worked/together能猜) | L6:唯一(线索:worked/together/build/new) | 选项:[community / orbit / implication / solution] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- population | L5-Def:勉强(卡:people概念/中文对照) | L5-Ex:能(靠town/grew能猜) | L6:唯一(线索:town/grew/new) | 选项:[population / capacity / immigrant / source] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- culture | L5-Def:能 | L5-Ex:能(靠families/gather能猜) | L6:唯一(线索:families/gather/sunday) | 选项:[culture / predator / format / triumph] | L7:OK | L8:合适
-- ancestor | L5-Def:能 | L5-Ex:能(靠came/small能猜) | L6:唯一(线索:came/small/village) | 选项:[ancestor / imagination / gravity / index] | L7:OK | L8:合适
-- generation | L5-Def:勉强(卡:people概念/中文对照) | L5-Ex:能(靠parents/grandparents能猜) | L6:唯一(线索:parents/grandparents/different) | 选项:[generation / conclusion / benefit / guardian] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- volunteer | L5-Def:能 | L5-Ex:能(靠helped/clean能猜) | L6:唯一(线索:helped/clean/beach) | 选项:[volunteer / current / hypothesis / imagination] | L7:OK | L8:合适
-- merchant | L5-Def:能 | L5-Ex:能(靠market/sold能猜) | L6:唯一(线索:market/sold/fresh/fruits) | 选项:[merchant / profession / passage / capacity] | L7:OK | L8:合适
-- pioneer | L5-Def:能 | L5-Ex:能(靠traveled/west能猜) | L6:唯一(线索:traveled/west/covered/wagons) | 选项:[pioneer / quantity / cautious / massive] | L7:OK | L8:合适
-- president | L5-Def:能 | L5-Ex:能(靠club/welcomed能猜) | L6:唯一(线索:club/welcomed) | 选项:[president / species / inherent / region] | L7:注意(国家领导人含义可能联想到政治；例句用club leader更安全) | L8:合适
-- profession | L5-Def:勉强(卡:training概念/中文对照) | L5-Ex:能(靠doctor/requires能猜) | L6:唯一(线索:doctor/requires/years/school) | 选项:[profession / president / passage / capacity] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- companion | L5-Def:能 | L5-Ex:能(靠dog/loyal能猜) | L6:唯一(线索:dog/loyal/walk/through) | 选项:[companion / relative / shelter / entity] | L7:OK | L8:合适
-- guardian | L5-Def:能 | L5-Ex:能(靠sure/ate能猜) | L6:唯一(线索:sure/ate/healthy/food) | 选项:[guardian / volunteer / summary / influence] | L7:OK | L8:合适
-- immigrant | L5-Def:能 | L5-Ex:能(靠came/country能猜) | L6:唯一(线索:came/country/find) | 选项:[immigrant / companion / experiment / controversy] | L7:注意(移民话题可敏感；例句尽量中性、避免价值判断) | L8:合适
-- inspector | L5-Def:能 | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:building | 选项:[inspector / direction / draft / witness] | L7:OK | L8:合适
-- messenger | L5-Def:能 | L5-Ex:能(靠rode/horse能猜) | L6:唯一(线索:rode/horse/fast/deliver) | 选项:[messenger / region / culture / illustration] | L7:OK | L8:合适
-- relative | L5-Def:勉强(卡:person概念/中文对照) | L5-Ex:能(靠came/big能猜) | L6:唯一(线索:came/big/reunion) | 选项:[relative / entity / responsibility / oxygen] | L7:OK | L8:合适
-- scholar | L5-Def:能 | L5-Ex:能(靠read/hundreds能猜) | L6:唯一(线索:read/hundreds/books/about) | 选项:[scholar / population / magnitude / celebration] | L7:OK | L8:合适
-- witness | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:accident | 选项:[witness / hierarchy / decision / orbit] | L7:注意(事故/警察语境偏紧张；可用更日常场景) | L8:合适
-- advantage | L5-Def:能 | L5-Ex:能(靠tall/basketball能猜) | L6:唯一(线索:tall/basketball/reach) | 选项:[advantage / scarce / magnificent / familiar] | L7:OK | L8:合适
-- courage | L5-Def:能 | L5-Ex:能(靠took/stand能猜) | L6:唯一(线索:took/stand/speak) | 选项:[courage / miniature / creature / spotless] | L7:OK | L8:合适
-- effort | L5-Def:能 | L5-Ex:能(靠put/lot能猜) | L6:唯一(线索:put/lot/science/project) | 选项:[effort / elegant / hence / beneficial] | L7:OK | L8:合适
-- knowledge | L5-Def:能 | L5-Ex:能(靠reading/books能猜) | L6:唯一(线索:reading/books/gives/about) | 选项:[knowledge / permission / positive / rapid] | L7:OK | L8:合适
-- patience | L5-Def:勉强(卡:able概念/中文对照) | L5-Ex:能(靠takes/grow能猜) | L6:唯一(线索:takes/grow/garden/plants) | 选项:[patience / scarce / magnificent / familiar] | L7:OK | L8:合适
-- responsibility | L5-Def:勉强(卡:job概念/中文对照) | L5-Ex:能(靠feeding/class能猜) | L6:唯一(线索:feeding/class/pet/my) | 选项:[responsibility / orbit / implication / solution] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- triumph | L5-Def:能 | L5-Ex:能(靠team/championship能猜) | L6:唯一(线索:team/championship/game) | 选项:[triumph / influence / profession / method] | L7:OK | L8:合适
-- accident | L5-Def:能 | L5-Ex:能(靠spilled/milk能猜) | L6:唯一(线索:spilled/milk/elbow/bumped) | 选项:[accident / research / serious / abundant] | L7:OK | L8:合适
-- attitude | L5-Def:能 | L5-Ex:能(靠positive/helps能猜) | L6:唯一(线索:positive/helps/keep/trying) | 选项:[attitude / guardian / source / currency] | L7:OK | L8:合适
-- boundary | L5-Def:能 | L5-Ex:能(靠fence/between能猜) | L6:唯一(线索:fence/between/yard/neighbor) | 选项:[boundary / imagination / gravity / index] | L7:OK | L8:合适
-- consequence | L5-Def:不能(卡:result太抽象，definition吃力) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:forgetting/lunch) | 选项:[consequence / attitude / mineral / hierarchy] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- conversation | L5-Def:勉强(卡:talk概念/中文对照) | L5-Ex:能(靠long/about能猜) | L6:唯一(线索:long/about/favorite/books) | 选项:[conversation / orbit / implication / solution] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- decision | L5-Def:勉强(卡:thinking概念/中文对照) | L5-Ex:能(靠school/attend能猜) | L6:唯一(线索:school/attend/big/family) | 选项:[decision / vocabulary / disaster / president] | L7:OK | L8:合适
-- evidence | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠muddy/footprints能猜) | L6:唯一(线索:muddy/footprints/someone/walked) | 选项:[evidence / patience / definition / pleasant] | L7:OK | L8:合适
-- experience | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠first/time能猜) | L6:唯一(线索:first/time/amazing) | 选项:[experience / innocent / drowsy / finite] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- imagination | L5-Def:勉强(卡:pictures概念/中文对照) | L5-Ex:能(靠used/pretend能猜) | L6:唯一(线索:used/pretend/cardboard/box) | 选项:[imagination / ideology / occasion / species] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- occasion | L5-Def:勉强(卡:special概念/中文对照) | L5-Ex:能(靠birthday/happy能猜) | L6:唯一(线索:birthday/happy/cake/presents) | 选项:[occasion / innovation / symbol / ancestor] | L7:OK | L8:合适
-- solution | L5-Def:勉强(卡:answer概念/中文对照) | L5-Ex:能(靠working/together能猜) | L6:唯一(线索:working/together/finishing/project) | 选项:[solution / controversy / inspector / direction] | L7:OK | L8:合适
-- inspect | L5-Def:能 | L5-Ex:能(靠teacher/projects能猜) | L6:唯一(线索:teacher/projects/sure) | 选项:[inspect / induce / fluctuate / erode] | L7:OK | L8:合适
-- select | L5-Def:能 | L5-Ex:能(靠please/book能猜) | L6:唯一(线索:please/book/shelf) | 选项:[select / express / exchange / demand] | L7:OK | L8:合适(前置:choose)
-- supply | L5-Def:能 | L5-Ex:能(靠school/store能猜) | L6:唯一(线索:school/store/paper/pencils) | 选项:[supply / mostly / initially / continuously] | L7:OK | L8:合适
-- survive | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠little/plant能猜) | L6:唯一(线索:little/plant/cold/winter) | 选项:[survive / maintain / oppose / reveal] | L7:OK | L8:合适
-- transform | L5-Def:能 | L5-Ex:能(靠caterpillar/beautiful能猜) | L6:唯一(线索:caterpillar/beautiful/butterfly) | 选项:[transform / dominate / devote / correspond] | L7:OK | L8:合适
-- transport | L5-Def:能 | L5-Ex:能(靠trucks/food能猜) | L6:唯一(线索:trucks/food/farms/grocery) | 选项:[transport / erode / distort / deviate] | L7:OK | L8:合适
-- identify | L5-Def:能 | L5-Ex:能(靠bird/singing能猜) | L6:唯一(线索:bird/singing/listening) | 选项:[identify / compensate / assert / advocate] | L7:OK | L8:合适
-- inherit | L5-Def:能 | L5-Ex:能(靠grandmother/blue能猜) | L6:唯一(线索:grandmother/blue/eyes) | 选项:[inherit / derive / contradict / confine] | L7:OK | L8:合适
-- massive | L5-Def:勉强(卡:large概念/中文对照) | L5-Ex:能(靠boulder/too能猜) | L6:唯一(线索:boulder/too/big/anyone) | 选项:[massive / brief / deficiency / durable] | L7:OK | L8:合适(前置:heavy)
-- miniature | L5-Def:能 | L5-Ex:能(靠built/house能猜) | L6:唯一(线索:built/house/dolls) | 选项:[miniature / cruel / pure / helpless] | L7:OK | L8:合适
-- obvious | L5-Def:勉强(卡:understand概念/中文对照) | L5-Ex:能(靠dog/ate能猜) | L6:唯一(线索:dog/ate/cake) | 选项:[obvious / hence / beneficial / quantity] | L7:OK | L8:合适
-- ordinary | L5-Def:能 | L5-Ex:能(靠seemed/day能猜) | L6:唯一(线索:seemed/day/until/surprise) | 选项:[ordinary / rusty / lean / faint] | L7:OK | L8:合适
-- particular | L5-Def:能 | L5-Ex:能(靠wanted/book能猜) | L6:唯一(线索:wanted/book/other) | 选项:[particular / mysterious / rusty / lean] | L7:OK | L8:合适
-- peculiar | L5-Def:能 | L5-Ex:能(靠noise/coming能猜) | L6:唯一(线索:noise/coming/closet/sounded) | 选项:[peculiar / reliable / challenge / suitable] | L7:OK | L8:合适(前置:odd)
-- rapid | L5-Def:能 | L5-Ex:能(靠river/moved能猜) | L6:唯一(线索:river/moved/fast/logs) | 选项:[rapid / reliable / challenge / suitable] | L7:OK | L8:合适
-- reluctant | L5-Def:能 | L5-Ex:能(靠jump/pool能猜) | L6:唯一(线索:jump/pool) | 选项:[reluctant / criteria / permission / positive] | L7:OK | L8:合适
-- sensitive | L5-Def:勉强(卡:easily概念/中文对照) | L5-Ex:能(靠skin/turned能猜) | L6:唯一(线索:skin/turned/red/stayed) | 选项:[sensitive / creature / spotless / absurd] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- severe | L5-Def:能 | L5-Ex:能(靠storm/brought能猜) | L6:唯一(线索:storm/brought/strong/winds) | 选项:[severe / adequate / equipment / vacant] | L7:OK | L8:合适(前置:serious)
-- suitable | L5-Def:能 | L5-Ex:能(靠sneakers/shoes能猜) | L6:唯一(线索:sneakers/shoes/running/but) | 选项:[suitable / vapor / wealthy / cruel] | L7:OK | L8:合适
-- sufficient | L5-Def:能 | L5-Ex:能(靠sure/water能猜) | L6:唯一(线索:sure/water/whole/hike) | 选项:[sufficient / responsibility / galaxy / framework] | L7:OK | L8:合适
-- vacant | L5-Def:能 | L5-Ex:能(靠house/no能猜) | L6:唯一(线索:house/no/furniture) | 选项:[vacant / wealthy / cruel / pure] | L7:OK | L8:合适
-- vast | L5-Def:能 | L5-Ex:能(靠ocean/stretched能猜) | L6:唯一(线索:ocean/stretched/far) | 选项:[vast / severe / knowledge / overnight] | L7:OK | L8:合适
-- vivid | L5-Def:能 | L5-Ex:能(靠painted/colors能猜) | L6:唯一(线索:painted/colors/flowers) | 选项:[vivid / penalty / vast / evidence] | L7:OK | L8:合适
-- possess | L5-Def:能 | L5-Ex:能(靠old/pirate能猜) | L6:唯一(线索:old/pirate/chest/full) | 选项:[possess / clarify / amend / accumulate] | L7:OK | L8:合适
-- reveal | L5-Def:能 | L5-Ex:能(靠pulled/back能猜) | L6:唯一(线索:pulled/back/curtain/surprise) | 选项:[reveal / invoke / inhibit / generate] | L7:OK | L8:合适
-- assign | L5-Def:能 | L5-Ex:能(靠teacher/student能猜) | L6:唯一(线索:teacher/student/different/topic) | 选项:[assign / denote / contemplate / conceive] | L7:OK | L8:合适
-- respond | L5-Def:能 | L5-Ex:能(靠question/raise能猜) | L6:唯一(线索:question/raise/hand) | 选项:[respond / diminish / denote / contemplate] | L7:OK | L8:合适
-- require | L5-Def:能 | L5-Ex:能(靠recipe/eggs能猜) | L6:唯一(线索:recipe/eggs/cup) | 选项:[require / demonstrate / cooperate / perform] | L7:OK | L8:合适
-- oppose | L5-Def:能 | L5-Ex:能(靠students/new能猜) | L6:唯一(线索:students/new/rule/thought) | 选项:[oppose / clarify / amend / accumulate] | L7:OK | L8:合适
-- occupy | L5-Def:能 | L5-Ex:能(靠boxes/old能猜) | L6:唯一(线索:boxes/old/chairs/space) | 选项:[occupy / confine / coincide / aspire] | L7:OK | L8:合适
-- perform | L5-Def:能 | L5-Ex:能(靠students/play能猜) | L6:唯一(线索:students/play/parents) | 选项:[perform / hesitate / collapse / manufacture] | L7:OK | L8:合适
-- accomplish | L5-Def:能 | L5-Ex:能(靠goal/reading能猜) | L6:唯一(线索:goal/reading/fifty/books) | 选项:[accomplish / manufacture / establish / oppose] | L7:OK | L8:合适
-- cautious | L5-Def:勉强(卡:careful概念/中文对照) | L5-Ex:能(靠girl/both能猜) | L6:唯一(线索:girl/both/ways/twice) | 选项:[cautious / accurate / pale / grim] | L7:OK | L8:合适
-- capable | L5-Def:能 | L5-Ex:能(靠running/mile能猜) | L6:唯一(线索:running/mile/stopping) | 选项:[capable / challenge / severe / knowledge] | L7:OK | L8:合适
-- essential | L5-Def:能 | L5-Ex:能(靠water/living能猜) | L6:唯一(线索:water/living/things/survive) | 选项:[essential / miniature / moisture / tremendous] | L7:OK | L8:合适
-- fortunate | L5-Def:勉强(卡:having概念/中文对照) | L5-Ex:能(靠rain/stopped能猜) | L6:唯一(线索:rain/stopped) | 选项:[fortunate / colorful / precious / heavy] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- incredible | L5-Def:能 | L5-Ex:能(靠magician/trick能猜) | L6:唯一(线索:magician/trick/dove/appear) | 选项:[incredible / positive / peculiar / pioneer] | L7:OK | L8:合适
-- numerous | L5-Def:勉强(卡:large概念/中文对照) | L5-Ex:能(靠there/stars能猜) | L6:唯一(线索:there/stars/sky/night) | 选项:[numerous / experience / research / serious] | L7:OK | L8:合适
-- positive | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠left/keys能猜) | L6:唯一(线索:left/keys) | 选项:[positive / distant / explicit / adequate] | L7:OK | L8:合适
-- previous | L5-Def:勉强(卡:coming概念/中文对照) | L5-Ex:能(靠chapter/hero能猜) | L6:唯一(线索:chapter/hero/found/magic) | 选项:[previous / incredible / particular / vapor] | L7:OK | L8:合适
-- region | L5-Def:能 | L5-Ex:能(靠desert/gets能猜) | L6:唯一(线索:desert/gets/little/rain) | 选项:[region / fossil / guideline / consequence] | L7:OK | L8:合适
-- structure | L5-Def:能 | L5-Ex:能(靠bridge/strong能猜) | L6:唯一(线索:bridge/strong/steel/stone) | 选项:[structure / creature / spotless / absurd] | L7:OK | L8:合适
-- symbol | L5-Def:能 | L5-Ex:能(靠heart/means能猜) | L6:唯一(线索:heart/means/love) | 选项:[symbol / entity / witness / oxygen] | L7:OK | L8:合适
-- tradition | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠december/family能猜) | L6:唯一(线索:december/family) | 选项:[tradition / positive / rapid / advantage] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- celebration | L5-Def:勉强(卡:together概念/中文对照) | L5-Ex:能(靠town/held能猜) | L6:唯一(线索:town/held/fireworks/team) | 选项:[celebration / companion / experiment / controversy] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- challenge | L5-Def:能 | L5-Ex:能(靠climbing/mountain能猜) | L6:唯一(线索:climbing/mountain/but) | 选项:[challenge / creature / spotless / absurd] | L7:OK | L8:合适
-- equipment | L5-Def:勉强(卡:tools概念/中文对照) | L5-Ex:能(靠firefighter/put能猜) | L6:唯一(线索:firefighter/put/going/building) | 选项:[equipment / weak / colorful / precious] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- voyage | L5-Def:能 | L5-Ex:能(靠sailors/ocean能猜) | L6:唯一(线索:sailors/ocean/lasted) | 选项:[voyage / guardian / source / currency] | L7:OK | L8:合适(前置:usually)
-- territory | L5-Def:能 | L5-Ex:能(靠wolf/marked能猜) | L6:唯一(线索:wolf/marked/other/animals) | 选项:[territory / species / inherent / sufficient] | L7:OK | L8:合适
-- disaster | L5-Def:能 | L5-Ex:能(靠flood/damaged能猜) | L6:唯一(线索:flood/damaged/homes) | 选项:[disaster / attitude / mineral / hierarchy] | L7:OK | L8:合适
-- merely | L5-Def:能 | L5-Ex:能(靠trying/help能猜) | L6:唯一(线索:trying/help/nothing) | 选项:[merely / simultaneously / constantly / simply] | L7:OK | L8:合适
-- precisely | L5-Def:能 | L5-Ex:能(靠code/follow能猜) | L6:唯一(线索:code/follow/rules/computer) | 选项:[precisely / simultaneously / constantly / simply] | L7:OK | L8:合适
-- entirely | L5-Def:能 | L5-Ex:能(靠glass/full能猜) | L6:唯一(线索:glass/full/no/room) | 选项:[entirely / formerly / usually / briefly] | L7:OK | L8:合适
-- scarcely | L5-Def:能 | L5-Ex:能(靠believe/won能猜) | L6:唯一(线索:believe/won/spelling/bee) | 选项:[scarcely / willingly / previously / merely] | L7:OK | L8:合适(建议先会scarce再学scarcely)
-- swiftly | L5-Def:能 | L5-Ex:能(靠deer/ran能猜) | L6:唯一(线索:deer/ran/through/forest) | 选项:[swiftly / permanently / currently / typically] | L7:OK | L8:合适
-- willingly | L5-Def:能 | L5-Ex:能(靠shared/lunch能猜) | L6:唯一(线索:shared/lunch/new) | 选项:[willingly / probably / precisely / partly] | L7:OK | L8:合适
-- maintain | L5-Def:能 | L5-Ex:能(靠need/bike能猜) | L6:唯一(线索:need/bike/keeping/tires) | 选项:[maintain / interrupt / defend / behave] | L7:OK | L8:合适
-- establish | L5-Def:能 | L5-Ex:能(靠students/recycling能猜) | L6:唯一(线索:students/recycling/club/school) | 选项:[establish / predict / hesitate / collapse] | L7:OK | L8:合适
-- cooperate | L5-Def:勉强(卡:together概念/中文对照) | L5-Ex:能(靠whole/class能猜) | L6:唯一(线索:whole/class/finish/mural) | 选项:[cooperate / predict / hesitate / collapse] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- represent | L5-Def:能 | L5-Ex:能(靠star/flag能猜) | L6:唯一(线索:star/flag/state/live) | 选项:[represent / deviate / convene / consolidate] | L7:OK | L8:合适
-- concentrate | L5-Def:勉强(卡:think概念/中文对照) | L5-Ex:能(靠hard/homework能猜) | L6:唯一(线索:hard/homework/tv) | 选项:[concentrate / organize / encourage / compare] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- manufacture | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:factory/toys/sold) | 选项:[manufacture / devote / correspond / consult] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:usually)
-- demonstrate | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠teacher/mix能猜) | L6:唯一(线索:teacher/mix/paint/colors) | 选项:[demonstrate / bury / levy / insert] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- investigate | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠detective/missing能猜) | L6:唯一(线索:detective/missing/cookies/jar) | 选项:[investigate / observe / disappear / celebrate] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- discovery | L5-Def:能 | L5-Ex:能(靠great/bird能猜) | L6:唯一(线索:great/bird/nest/tree) | 选项:[discovery / sometimes / gorgeous / round] | L7:OK | L8:合适
-- penalty | L5-Def:能 | L5-Ex:能(靠late/class能猜) | L6:唯一(线索:late/class) | 选项:[penalty / harsh / delicate / diverse] | L7:注意(惩罚/处罚词，语气别太硬) | L8:合适
-- quantity | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠bought/large能猜) | L6:唯一(线索:bought/large/apples/pies) | 选项:[quantity / tremendous / accurate / pale] | L7:OK | L8:合适
-- reasonable | L5-Def:能 | L5-Ex:能(靠price/book能猜) | L6:唯一(线索:price/book/enough/money) | 选项:[reasonable / previous / reluctant / courage] | L7:OK | L8:合适
-- approach | L5-Def:能 | L5-Ex:能(靠cat/quietly能猜) | L6:唯一(线索:cat/quietly/bird/trying) | 选项:[approach / manifest / intervene / induce] | L7:OK | L8:合适
-- collapse | L5-Def:能 | L5-Ex:能(靠tower/blocks能猜) | L6:唯一(线索:tower/blocks/baby/bumped) | 选项:[collapse / organize / encourage / compare] | L7:OK | L8:合适
-- domestic | L5-Def:能 | L5-Ex:能(靠dogs/cats能猜) | L6:唯一(线索:dogs/cats/animals/live) | 选项:[domestic / liberal / consent / internal] | L7:OK | L8:合适
-- external | L5-Def:能 | L5-Ex:能(靠walls/house能猜) | L6:唯一(线索:walls/house/painted) | 选项:[external / consent / internal / fortunate] | L7:OK | L8:合适
-- internal | L5-Def:能 | L5-Ex:能(靠doctor/checked能猜) | L6:唯一(线索:doctor/checked/organs/sure) | 选项:[internal / accurate / pale / grim] | L7:OK | L8:合适
-- annual | L5-Def:能 | L5-Ex:能(靠school/science能猜) | L6:唯一(线索:school/science/fair/always) | 选项:[annual / material / visible / brittle] | L7:OK | L8:合适
-- permission | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠need/parents能猜) | L6:唯一(线索:need/parents) | 选项:[permission / scarce / magnificent / familiar] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- recognize | L5-Def:勉强(卡:something概念/中文对照) | L5-Ex:能(靠didn/him能猜) | L6:唯一(线索:didn/him/first) | 选项:[recognize / transform / organize / encourage] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- influence | L5-Def:不能(卡:power太抽象，definition吃力) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:older/sister/big/music) | 选项:[influence / president / passage / capacity] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- interpret | L5-Def:能 | L5-Ex:能(靠french/menu能猜) | L6:唯一(线索:french/menu/friends) | 选项:[interpret / conceive / clarify / amend] | L7:OK | L8:合适
-- adapt | L5-Def:能 | L5-Ex:能(靠animals/new能猜) | L6:唯一(线索:animals/new/places/changing) | 选项:[adapt / reveal / transport / inspect] | L7:OK | L8:合适
-- benefit | L5-Def:能 | L5-Ex:能(靠wearing/helmet能猜) | L6:唯一(线索:wearing/helmet) | 选项:[benefit / consequence / erosion / ideology] | L7:OK | L8:合适
-- durable | L5-Def:能 | L5-Ex:能(靠lunchbox/crack能猜) | L6:唯一(线索:lunchbox/crack/even) | 选项:[durable / neat / flexible / liberal] | L7:OK | L8:合适
-- genuine | L5-Def:能 | L5-Ex:能(靠apology/friend能猜) | L6:唯一(线索:apology/friend/forgave/him) | 选项:[genuine / dim / empirical / reliable] | L7:OK | L8:合适
-- hesitate | L5-Def:勉强(卡:pause概念/中文对照) | L5-Ex:能(靠diving/board能猜) | L6:唯一(线索:diving/board/then/took) | 选项:[hesitate / reveal / transport / inspect] | L7:OK | L8:合适
-- negotiate | L5-Def:勉强(卡:talk概念/中文对照) | L5-Ex:能(靠sisters/chose能猜) | L6:唯一(线索:sisters/chose/split/last) | 选项:[negotiate / absorb / recognize / demonstrate] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- temporary | L5-Def:能 | L5-Ex:能(靠sign/workers能猜) | L6:唯一(线索:sign/workers/took) | 选项:[temporary / approximate / discovery / vast] | L7:OK | L8:合适
-- reliable | L5-Def:能 | L5-Ex:能(靠bus/driver能猜) | L6:唯一(线索:bus/driver/came/time) | 选项:[reliable / obvious / material / visible] | L7:OK | L8:合适
-- absorb | L5-Def:能 | L5-Ex:能(靠towel/water能猜) | L6:唯一(线索:towel/water/spilled/juice) | 选项:[absorb / advocate / reduce / negotiate] | L7:OK | L8:合适
-- attract | L5-Def:能 | L5-Ex:能(靠bright/flowers能猜) | L6:唯一(线索:bright/flowers/bees/want) | 选项:[attract / contradict / confine / coincide] | L7:OK | L8:合适
-- predict | L5-Def:能 | L5-Ex:能(靠happen/next能猜) | L6:唯一(线索:happen/next) | 选项:[predict / express / exchange / demand] | L7:OK | L8:合适
-- request | L5-Def:能 | L5-Ex:能(靠book/about能猜) | L6:唯一(线索:book/about/sharks) | 选项:[request / induce / fluctuate / erode] | L7:OK | L8:合适
-- reduce | L5-Def:能 | L5-Ex:能(靠noise/class能猜) | L6:唯一(线索:noise/class/spoke/whispers) | 选项:[reduce / extract / enforce / diminish] | L7:OK | L8:合适
-- assemble | L5-Def:能 | L5-Ex:能(靠puzzle/pieces能猜) | L6:唯一(线索:puzzle/pieces/whole/picture) | 选项:[assemble / confine / coincide / aspire] | L7:OK | L8:合适
-- accumulate | L5-Def:勉强(卡:gather概念/中文对照) | L5-Ex:能(靠little/week能猜) | L6:唯一(线索:little/week/money/quickly) | 选项:[accumulate / invoke / inhibit / generate] | L7:OK | L8:偏高(建议后移或降低抽象度)
-- acknowledge | L5-Def:能 | L5-Ex:能(靠nodded/question能猜) | L6:唯一(线索:nodded/question) | 选项:[acknowledge / incorporate / facilitate / equate] | L7:OK | L8:合适
-- adequate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:food/whole/trip) | 选项:[adequate / effort / still / horrible] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- advocate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:recycling/school) | 选项:[advocate / approach / concentrate / maintain] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- allocate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:decided/half/allowance/savings) | 选项:[allocate / demonstrate / cooperate / perform] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- ambiguous | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:directions/lost) | 选项:[ambiguous / hence / beneficial / penalty] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- amend | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:essay/teacher) | 选项:[amend / allocate / assemble / attract] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:improve)
-- approximate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:distance/miles) | 选项:[approximate / scarce / magnificent / familiar] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- aspire | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:become/doctor/day) | 选项:[aspire / manufacture / establish / occupy] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- assert | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:answer/correct) | 选项:[assert / predict / hesitate / collapse] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- authorize | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:principal/field/trip) | 选项:[authorize / impose / extract / enforce] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:permission)
-- beneficial | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:eating/fruit/health) | 选项:[beneficial / scarce / magnificent / familiar] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- bias | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:good/judge/show) | 选项:[bias / complement / domestic / essential] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- capacity | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:jar/fifty/marbles) | 选项:[capacity / sufficient / culture / illustration] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- clarify | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:mean | 选项:[clarify / perform / respond / inherit] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- coincide | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:my/birthday/school/carnival) | 选项:[coincide / contemplate / conceive / authorize] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- commentary | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:sports/game/exciting) | 选项:[commentary / discovery / vast / evidence] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- compensate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:store/new/toy) | 选项:[compensate / isolate / initiate / impose] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- compile | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:list/favorite/songs) | 选项:[compile / dominate / devote / correspond] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- complement | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:red/scarf/nice/coat) | 选项:[complement / heavy / dense / duration] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- comply | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:students/school/rules) | 选项:[comply / lively / promptly / entirely] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- conceive | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:clever/plan/surprise) | 选项:[conceive / guide / fail / excite] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- confine | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:dog/backyard) | 选项:[confine / dominate / devote / correspond] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- consent | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:need/parents/trip) | 选项:[consent / vast / evidence / topic] | L7:注意(涉及“同意/许可”，可接受但要家庭友好) | L8:偏高(对MAP≈197偏抽象/学科) (前置:permission)
-- consequent | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:heavy/rain/flooding/closed) | 选项:[consequent / raw / innocent / drowsy] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- consolidate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:notes/notebook) | 选项:[consolidate / fail / excite / develop] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- constraint | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:time/work/fast) | 选项:[constraint / current / hypothesis / decision] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- consult | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:librarian/find/right) | 选项:[consult / consolidate / compensate / assert] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- contemplate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:sat/write/story) | 选项:[contemplate / consider / choose / avoid] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- contradict | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:actions/words) | 选项:[contradict / establish / occupy / assign] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- controversy | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:there/build/new) | 选项:[controversy / president / passage / benefit] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- convene | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:club/members/library) | 选项:[convene / enforce / diminish / denote] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- correspond | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:answers/questions/test) | 选项:[correspond / fail / excite / develop] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- criteria | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:art/contest/neatness) | 选项:[criteria / capable / miniature / moisture] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- currency | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:dollar/united/states) | 选项:[currency / occasion / community / innovation] | L7:注意(涉及国家/货币，注意中性) | L8:偏高(对MAP≈197偏抽象/学科)
-- deficiency | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:sunlight/plants/turn) | 选项:[deficiency / dusty / furthermore / ambiguous] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- denote | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:red/light/stop) | 选项:[denote / hesitate / collapse / manufacture] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- derive | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:english/words/latin) | 选项:[derive / negotiate / recognize / demonstrate] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:source)
-- deviate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:trail/lost) | 选项:[deviate / hike / gaze / express] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- devote | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:morning/practicing/piano) | 选项:[devote / behave / admire / hunt] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:effort)
-- diminish | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:old/toy/actually/time) | 选项:[diminish / absorb / interpret / investigate] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- dispose | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:please/trash/properly) | 选项:[dispose / behave / admire / hunt] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- distort | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:fun/house/mirror/face) | 选项:[distort / observe / disappear / celebrate] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- diverse | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:group/friends/means/know) | 选项:[diverse / hence / approximate / penalty] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- domain | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:science/main/interest) | 选项:[domain / framework / boundary / current] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:control)
-- dominate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:tallest/player/game/scoring) | 选项:[dominate / instruct / hug / guide] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:control)
-- draft | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:wrote/rough/story) | 选项:[draft / voyage / merchant / conclusion] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- duration | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:movie/hours) | 选项:[duration / dense / diverse / genuine] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- empirical | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:scientist/gathered/data/observing) | 选项:[empirical / cautious / massive / creature] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:observe)
-- enforce | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:teacher/no/running/rule) | 选项:[enforce / compile / authorize / allocate] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- entity | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:person/separate) | 选项:[entity / sufficient / culture / illustration] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- equate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:quiet/shy) | 选项:[equate / compare / approve / insist] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- erode | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:waves/cliff/years) | 选项:[erode / defend / behave / admire] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- exceed | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:test/score/class/average) | 选项:[exceed / hike / gaze / express] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- explicit | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:teacher/gave/instructions/project) | 选项:[explicit / topic / ridiculous / soft] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- extract | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:dentist/loose/tooth) | 选项:[extract / transform / organize / encourage] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- facilitate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:ramp/entry/people/wheelchairs) | 选项:[facilitate / avoid / invoke / inhibit] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- finite | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:amount/time/lunch) | 选项:[finite / magnificent / familiar / incentive] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- fluctuate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:temperature/lot/spring/warm) | 选项:[fluctuate / observe / disappear / celebrate] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- format | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:report/written/clear) | 选项:[format / immigrant / motion / currency] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- formula | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:used/math/solve/problem) | 选项:[formula / erosion / ideology / imagination] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:method)
-- foundation | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:house/built/strong) | 选项:[foundation / species / inherent / sufficient] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- framework | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:building | 选项:[framework / ideology / imagination / species] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科) (前置:structure)
-- furthermore | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:book/fun/teaches/great) | 选项:[furthermore / familiar / incentive / bias] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- generate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:ai/realistic/painting) | 选项:[generate / inspect / improve / convince] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- guideline | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:follow/stay/safe) | 选项:[guideline / index / solution / population] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- hence | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:rained/day/game/canceled) | 选项:[hence / creature / spotless / absurd] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- hierarchy | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:school/there/clear/principal) | 选项:[hierarchy / source / controversy / messenger] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- hypothesis | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:plants/grow/faster) | 选项:[hypothesis / oxygen / formula / attitude] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- identical | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:twins/wore/outfits) | 选项:[identical / domestic / essential / obvious] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- ideology | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:team/simple/practice/hard) | 选项:[ideology / decision / gravity / index] | L7:注意(政治/价值观词，家长可能敏感) | L8:偏高(对MAP≈197偏抽象/学科)
-- implication | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:smile | 选项:[implication / guideline / conversation / orbit] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- impose | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:school/new/dress/code) | 选项:[impose / encourage / compare / approve] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- incentive | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:getting/sticker/great/homework) | 选项:[incentive / visible / brittle / plump] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- incorporate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:art/book/report) | 选项:[incorporate / demand / cover / command] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- index | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:find/chapter/volcanoes) | 选项:[index / predator / entity / responsibility] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- induce | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:warm/sunshine/flowers/bloom) | 选项:[induce / perform / respond / inherit] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- inherent | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:curiosity/children/born/wanting) | 选项:[inherent / draft / witness / oxygen] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- inhibit | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:fear/trying/new/things) | 选项:[inhibit / instruct / hug / guide] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- initiate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:recycling/club/school) | 选项:[initiate / command / cheer / manifest] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- innovation | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:smartphones/changed/talk) | 选项:[innovation / messenger / shelter / draft] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- insert | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:coin/machine) | 选项:[insert / assemble / attract / adapt] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- integral | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:teamwork/part/winning/game) | 选项:[integral / raw / innocent / drowsy] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- intervene | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:teacher/argument/worse) | 选项:[intervene / hike / gaze / express] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- invoke | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:rules/settle/disagreement) | 选项:[invoke / assign / identify / select] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- isolate | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:sick/student/others/catch) | 选项:[isolate / facilitate / equate / dispose] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- levy | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:town/voted/small/tax) | 选项:[levy / inspect / improve / convince] | L7:注意(税/政府征收，注意解释方式) | L8:偏高(对MAP≈197偏抽象/学科)
-- liberal | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:took/amount/paint/project) | 选项:[liberal / likewise / consent / internal] | L7:注意(有政治含义(美式语境)，建议改为generous/open-minded并避免政治联想) | L8:偏高(对MAP≈197偏抽象/学科)
-- likewise | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(卡:线索少，需蒙) | L6:勉强(语境线索少) 线索:smiled | 选项:[likewise / numerous / peculiar / pioneer] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- magnitude | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:earthquake/surprised) | 选项:[magnitude / occasion / community / inherent] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
-- manifest | L5-Def:不能(卡:学术/低频词形，需更高level) | L5-Ex:勉强(能从情景猜，但不算真正掌握) | L6:唯一(线索:talent/clearly/painting) | 选项:[manifest / demand / cover / command] | L7:OK | L8:偏高(对MAP≈197偏抽象/学科)
+- avoid | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- burst | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- bury | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- cheer | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- choose | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- claim | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- combine | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- command | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- consider | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- continue | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- control | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- cover | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- cross | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- crush | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- dare | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- demand | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- develop | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- direct | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- examine | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- exchange | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- excite | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- expect | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- explore | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- express | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- fail | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- flow | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- form | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- gaze | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- guide | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- hasten | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- hide | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- hike | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- hug | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- hunt | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:注意(涉及捕猎；例句是owl hunting mice，OK但可强调“search for food”) | L8:合适(前置需求低，适合该level)
+- increase | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- insist | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- instruct | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- admire | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- announce | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- approve | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- argue | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- behave | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- celebrate | L5:勉强(有点抽象/多义，孩子可能需要老师解释一次) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:偏难(前置够用，但最好配图片/动作/同义词桥接)
+- compare | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- convince | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- defend | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- disappear | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- encourage | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- improve | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- interrupt | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- observe | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- organize | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- bold | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- brief | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- delicate | L5:勉强(有点抽象/多义，孩子可能需要老师解释一次) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:偏难(前置够用，但最好配图片/动作/同义词桥接)
+- dense | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- dim | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- distant | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- drowsy | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- dusty | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- elegant | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- faint | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- familiar | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- flat | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- flexible | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- foggy | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- glossy | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- grim | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- harsh | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- heavy | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- helpless | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- humble | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- innocent | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- invisible | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- keen | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- lean | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- lively | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- lovely | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- magnificent | L5:勉强(有点抽象/多义，孩子可能需要老师解释一次) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:偏难(前置够用，但最好配图片/动作/同义词桥接)
+- moist | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- neat | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- noble | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- odd | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- pale | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- plump | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- precious | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- pure | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- rare | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- raw | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:注意(例句提到raw chicken，家长可能会皱眉；可换成raw dough/uncooked eggs更温和) | L8:合适(前置需求低，适合该level)
+- round | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- rude | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- rusty | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- scarce | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- slender | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- soft | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- abundant | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- absurd | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- accurate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- brittle | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- colorful | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- cruel | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(例句拉猫尾巴可能引发家长反感；建议换成“不跟同学开恶意玩笑”) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- daring | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- filthy | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- gorgeous | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- horrible | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- mysterious | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- pleasant | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- powerful | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- ridiculous | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- serious | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- spotless | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- tremendous | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- visible | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- weak | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- wealthy | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- wicked | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(带“witch/evil”童话OK，但部分家长不喜欢“邪恶”标签；可保留或换成mean) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- worthless | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- briefly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- constantly | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- continuously | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- currently | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- formerly | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- instantly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- mostly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- nearly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- normally | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- originally | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- partly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- possibly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- presently | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- previously | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议先学 previous 再学 previously)
+- probably | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- promptly | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- regularly | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- shortly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- simply | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- sometimes | L5:勉强(有点抽象/多义，孩子可能需要老师解释一次) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:偏难(前置够用，但最好配图片/动作/同义词桥接)
+- steadily | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- still | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- typically | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- usually | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- simultaneously | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- initially | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- permanently | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- temporarily | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议先学 temporary 再学 temporarily（词形路径更顺）)
+- lately | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- overnight | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- yearly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- hourly | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- illustration | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- diagram | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- vocabulary | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- definition | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- fact | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- summary | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- topic | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- conclusion | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- passage | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- research | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- method | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- experiment | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- creature | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- moisture | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- material | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- source | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- motion | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- mixture | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- direction | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- shelter | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- predator | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:注意(捕食/吃掉有点残酷但科学课常见；可接受) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- prey | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:注意(同上；注意别写成太血腥) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- oxygen | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- galaxy | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- fossil | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- mineral | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- current | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- vapor | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- erosion | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- orbit | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- gravity | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- species | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- community | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- population | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- culture | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- ancestor | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- generation | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- volunteer | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- merchant | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- pioneer | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- president | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(OK（这里是club president），但避免国别政治联想) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- profession | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- companion | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- guardian | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- immigrant | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(移民话题在家长端可能敏感；建议语境更中性：move to a new country) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- inspector | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- messenger | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- relative | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- scholar | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- witness | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(事故+警察，略沉重；可换成witness a magic trick/比赛) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- advantage | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- courage | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- effort | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- knowledge | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- patience | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- responsibility | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- triumph | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- accident | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- attitude | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- boundary | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- consequence | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- conversation | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- decision | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- evidence | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- experience | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- imagination | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- occasion | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- solution | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- inspect | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- select | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- supply | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- survive | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- transform | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- transport | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- identify | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- inherit | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- massive | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- miniature | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- obvious | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- ordinary | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- particular | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- peculiar | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- rapid | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- reluctant | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- sensitive | L5:勉强(有点抽象/多义，孩子可能需要老师解释一次) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:偏难(前置够用，但最好配图片/动作/同义词桥接)
+- severe | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- suitable | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- sufficient | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:偏难(可保留但需要更多高频语境/更简单释义)
+- vacant | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- vast | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- vivid | L5:能(定义直白，孩子读得懂；例句也能联想) | L6:不可唯一(能猜到大概，但同义词太多，难做到唯一) | L7:OK(无明显文化冲突) | L8:合适(前置需求低，适合该level)
+- possess | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- reveal | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- assign | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- respond | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- require | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- oppose | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- occupy | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- perform | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- accomplish | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- cautious | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- capable | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- essential | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- fortunate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- incredible | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- numerous | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- positive | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- previous | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- region | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- structure | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- symbol | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- tradition | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- celebration | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- challenge | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- equipment | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- voyage | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- territory | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- disaster | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(灾难可能触发焦虑；例句洪水OK但可换成“big storm damaged houses”) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- merely | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- precisely | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- entirely | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- scarcely | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- swiftly | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- willingly | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- maintain | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- establish | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- cooperate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- represent | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- concentrate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- manufacture | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- demonstrate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- investigate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- discovery | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- penalty | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(惩罚语境OK，但“punishment”可能较硬；可换成“lose points in a game”) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- quantity | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- reasonable | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- approach | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- collapse | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- domestic | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- external | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- internal | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- annual | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- permission | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- recognize | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- influence | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- interpret | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- adapt | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- benefit | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- durable | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- genuine | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- hesitate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- negotiate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- temporary | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- reliable | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- absorb | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- attract | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- predict | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- request | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- reduce | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- assemble | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- accumulate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- acknowledge | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- adequate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- advocate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- allocate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- ambiguous | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- amend | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- approximate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- aspire | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- assert | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- authorize | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- beneficial | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- bias | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- capacity | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- clarify | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- coincide | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- commentary | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- compensate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- compile | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- complement | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- comply | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- conceive | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- confine | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- consent | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- consequent | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- consolidate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- constraint | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- consult | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- contemplate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- contradict | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- controversy | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- convene | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- correspond | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- criteria | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- currency | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- deficiency | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- denote | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- derive | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- deviate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- devote | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- diminish | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- dispose | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- distort | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- diverse | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- domain | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- dominate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- draft | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- duration | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- empirical | L5:不能(科学写作词；definition里observe/test对2年级太抽象) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- enforce | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- entity | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- equate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- erode | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- exceed | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- explicit | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- extract | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- facilitate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- finite | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- fluctuate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- format | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- formula | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- foundation | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- framework | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- furthermore | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- generate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- guideline | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- hence | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- hierarchy | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- hypothesis | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- identical | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- ideology | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(政治/价值观词，明显不适合低龄词表) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- implication | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- impose | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- incentive | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- incorporate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- index | L5:不能(多义/用法多，偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- induce | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- inherent | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- inhibit | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- initiate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- innovation | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- insert | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:可唯一(语境线索强，遮词也能锁定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- integral | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- intervene | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- invoke | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- isolate | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- levy | L5:不能(tax/政府语境+低频动词，孩子几乎读不懂) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(tax/政府收税有现实政治感，且词本身太学术) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- liberal | L5:不能(词义易被“政治义”干扰；孩子/家长会困惑) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:注意(政治义干扰大；本释义=generous，但词形会让家长联想到政治) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- likewise | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- magnitude | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
+- manifest | L5:不能(偏学术/低频/抽象，超2年级直读范围) | L6:不可唯一(语境偏泛/概念词，遮词后很难唯一确定) | L7:OK(无明显文化冲突) | L8:不合适(建议上移到更高level或拆成更小前置链（更像3-5年级学术词）)
