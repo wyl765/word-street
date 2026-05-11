@@ -1,6 +1,8 @@
-# VERIFY-GPT — words-level3c.js
+# VERIFY-GPT — words-level3c.js — GATE
 
-规则：每词一行；含 L5/L6/L7/L8；L5 里“不能”必须写清卡点。
+> 每词一行：L5(定义/例句) + L6(例句填空唯一性) + L7(文化敏感) + L8(学习路径)
+
+说明：word-status.json 中各文件 currentGate 并列最小；本次按词数最少选 words-level3c.js 复核。
 
 - advance | L5-Def:不能(卡:progress/improvement 抽象) | L5-Ex:勉强(能猜“move forward”但不一定是 advance；棋/棋子语境也可能不熟) | L6:不唯一(可能混:move/go) | L7:OK | L8:合适(但需先有 move/forward/progress)
 - affordable | L5-Def:勉强(卡:expensive) | L5-Ex:能(价格不贵) | L6:唯一(便宜→affordable) | L7:OK | L8:合适(可比 cheap/expensive)

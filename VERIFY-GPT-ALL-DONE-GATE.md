@@ -1,5 +1,5 @@
 All files are already complete in word-status.json (gate1–gate6 are pass for every file).
-Current gate pointer: currentGate is 13 for all files.
+Current gate pointer: currentGate is 14 for all files.
 
 Per-file GPT gate reports exist:
 - VERIFY-GPT-words-level1.js-GATE.md
