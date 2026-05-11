@@ -1,319 +1,316 @@
 # VERIFY-GEMINI-words-level3b.js-GATE
-
-| Word | L9: imageKeyword | L10: Definition | L11: Meaning | L12: Game |
-|---|---|---|---|---|
-| organism | PASS: tiny living thing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| evaporation | PASS: puddle sun represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| condensation | PASS: foggy glass represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| precipitation | PASS: rain clouds represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| atmosphere | PASS: earth atmosphere represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| nutrient | PASS: plant roots soil represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| photosynthesis | PASS: leaf sunlight represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| pollination | PASS: bee flower represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| germinate | PASS: seed sprouting represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| larva | PASS: caterpillar represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| metamorphosis | PASS: tadpole frog represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| camouflage | PASS: camouflage lizard represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| migration | PASS: geese flying represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| hibernation | PASS: bear sleeping represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| adaptation | PASS: camel desert represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| ecosystem | PASS: pond ecosystem represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| solar | PASS: solar panel sun represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| lunar | PASS: moon eclipse represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| friction | PASS: shoes floor represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| electricity | PASS: light bulb represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| circuit | PASS: electric circuit represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| conductor | PASS: copper wire represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| insulator | PASS: rubber gloves represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| microscope | PASS: scientist using microscope represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dissolve | PASS: sugar water represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| mass | PASS: rock feather represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| renewable | PASS: wind turbine represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| nonrenewable | PASS: oil well represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| pollution | PASS: factory smoke represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| conservation | PASS: turn off light represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| vertebrate | PASS: dog skeleton represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| invertebrate | PASS: jellyfish represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| chrysalis | PASS: butterfly chrysalis on branch represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| decompose | PASS: rotting leaves represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| telescope | PASS: telescope moon represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| rotation | PASS: earth spinning represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| constellation | PASS: orion constellation represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| volcano | PASS: volcano erupting represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| earthquake | PASS: earthquake cracked road represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| weathering | PASS: smooth rocks represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| tide | PASS: high tide beach represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| classify | PASS: animal groups represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| cell | PASS: animal cell diagram represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| carbon dioxide | PASS: plant breathing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| sediment | PASS: river sediment represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| geography | PASS: map globe represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| peninsula | PASS: peninsula coastline aerial represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| urban | PASS: city skyline represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| rural | PASS: farm countryside represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| suburban | PASS: suburb houses represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| civilization | PASS: pyramids represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| artifact | PASS: old pottery represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| agriculture | PASS: farm field represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| industry | PASS: car factory represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| technology | PASS: computer represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| governor | PASS: governor speaking podium represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| justice | PASS: scales justice represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| monument | PASS: monument statue represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| landmark | PASS: statue of liberty represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| capital | PASS: capital city government represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| timeline | PASS: history timeline chart represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| treaty | PASS: handshake nations represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| irrigation | PASS: irrigation field represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| barter | PASS: trading goods represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| goods | PASS: market goods represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| services | PASS: doctor patient represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| petition | PASS: signed letter represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| numerator | PASS: fraction top represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| denominator | PASS: fraction bottom represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| equivalent | PASS: equal fractions represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| multiple | PASS: skip counting represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| perimeter | PASS: fence garden represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| array | PASS: desk rows represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| symmetry | PASS: butterfly symmetry represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| parallel | PASS: parallel lines represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| perpendicular | PASS: right angle corner represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| vertex | PASS: triangle corners represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| polygon | PASS: hexagon represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| quadrilateral | PASS: four sided shapes represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| diameter | PASS: circle diameter represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| radius | PASS: circle radius represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gram | PASS: paper clip scale represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| kilogram | PASS: sugar bag scale represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| liter | PASS: milk bottle represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| centimeter | PASS: ruler centimeter represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| meter | PASS: door measurement represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| kilometer | PASS: road distance represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| vertical | PASS: flagpole represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| elapsed | PASS: clock time represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| commutative | PASS: switch numbers represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| associative | PASS: grouping numbers represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| distributive | PASS: break apart multiply represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| inverse | PASS: opposite arrows represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| variable | PASS: letter n math represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| expression | PASS: math expression represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| operation | PASS: plus minus signs represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| congruent | PASS: matching triangles represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| unit | PASS: measuring units represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| composite | PASS: factor tree represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| prime | PASS: prime numbers chart represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| intersect | PASS: crossing roads represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| probability | PASS: coin flip represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| break the ice | PASS: icebreaker represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| piece of cake | PASS: easy cake represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| under the weather | PASS: sick person represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| hit the books | PASS: studying hard represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| on the same page | PASS: agreement represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| cost an arm and a leg | PASS: expensive price represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| let the cat out of the bag | PASS: secret revealed represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| bite off more than you can chew | PASS: overwhelmed represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| once in a blue moon | PASS: blue moon represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| when pigs fly | PASS: flying pig represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| spill the beans | PASS: spilling beans represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| raining cats and dogs | PASS: heavy rain represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| butterflies in my stomach | PASS: nervous feeling represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| the ball is in your court | PASS: tennis court represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| barking up the wrong tree | PASS: dog tree represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| hold your horses | PASS: patient waiting represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| two peas in a pod | PASS: pea pod represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| a blessing in disguise | PASS: hidden gift represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| get cold feet | PASS: scared diving board represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| go the extra mile | PASS: extra effort represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| keep an eye on | PASS: watching carefully represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| the last straw | PASS: straw camel represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| sit on the fence | PASS: fence undecided represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| see eye to eye | PASS: agreement eyes represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| back to square one | PASS: start over represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| put all your eggs in one basket | PASS: eggs basket represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| pull someone's leg | PASS: joking represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| throw in the towel | PASS: giving up represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| on cloud nine | PASS: very happy represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| in hot water | PASS: trouble represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| come up with | PASS: idea lightbulb represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| turn out | PASS: surprise ending represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| run out of | PASS: empty carton represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| get along with | PASS: friends together represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| carry on | PASS: keep going represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| stand for | PASS: initials meaning represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| take part in | PASS: participating represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| go over | PASS: reviewing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| a penny for your thoughts | PASS: thinking person represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| actions speak louder than words | PASS: helping hands represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| every cloud has a silver lining | PASS: silver cloud represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| kill two birds with one stone | PASS: multitasking efficiency represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| better late than never | PASS: returning late represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| practice makes perfect | PASS: piano practice represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| the early bird catches the worm | PASS: early bird represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| don't judge a book by its cover | PASS: surprise inside represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| hit the nail on the head | PASS: bullseye represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| a taste of your own medicine | PASS: mirror treatment represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| burn the midnight oil | PASS: late night studying represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| on the other hand | PASS: two sides represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| subsequently | PASS: next step represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| for example | PASS: lemon example represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| to begin with | PASS: first thing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| above all | PASS: gold number one trophy represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| as soon as | PASS: bell ringing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| rather than | PASS: choosing walk represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| so that | PASS: alarm clock represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| prior to | PASS: before test represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| to summarize | PASS: summary list represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| first of all | PASS: first step represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| to illustrate | PASS: robin nest represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| in brief | PASS: short version represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| soon after | PASS: rainbow after rain represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| not only...but also | PASS: double qualities represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| whereas | PASS: summer winter represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| thus | PASS: indoor result represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| granted | PASS: admitting point represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| to put it simply | PASS: simple explanation represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dodder | PASS: unsteady walk represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dogma | PASS: strict rules represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| doldrums | PASS: bored child represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dole | PASS: handing out represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dolt | PASS: confused person represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| donjon | PASS: castle tower represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dosage | PASS: medicine spoon represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dote | PASS: loving grandma represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dowel | PASS: wooden dowel represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| downpour | PASS: sudden rainstorm represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| drab | PASS: gray room represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dragnet | PASS: police search represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| drape | PASS: draped blanket represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dreary | PASS: gray cloudy sky represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| drench | PASS: soaking wet kids represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| drizzle | PASS: light rain represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| drone | PASS: flying drone represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| droop | PASS: wilting flowers represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dub | PASS: giving nickname represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dugout | PASS: baseball dugout represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dungeon | PASS: dark dungeon represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dye | PASS: dyed eggs represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| dike | PASS: river wall represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| earmark | PASS: saving money represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| earthy | PASS: forest soil represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| eave | PASS: roof edge represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| ebony | PASS: black piano keys represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| effervescent | PASS: fizzy soda represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| effigy | PASS: stone statue represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| egress | PASS: exit door represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| elapse | PASS: passing time represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| elate | PASS: celebrating win represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| elf | PASS: fairy tale elf represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| elocution | PASS: public speaking represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| elongate | PASS: stretching taffy represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| elude | PASS: fox escaping represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| emboss | PASS: raised letters represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| emporium | PASS: big toy store represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| enamel | PASS: tooth enamel represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| encore | PASS: audience cheering represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| encrust | PASS: encrusted ship represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| encyclopedia | PASS: encyclopedia books represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| engross | PASS: reading deeply represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| enshroud | PASS: foggy valley represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| enthrall | PASS: captivated children represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| entreat | PASS: pleading person represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| epic | PASS: epic adventure represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| errand | PASS: shopping errand represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| errant | PASS: stray ball represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| escarpment | PASS: steep cliff represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| ethereal | PASS: dreamy floating dancer represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| evergreen | PASS: evergreen forest represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| expanse | PASS: vast field represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| expat | PASS: living abroad represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| expel | PASS: whale spout blowhole represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| eyelet | PASS: shoe eyelet represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| facet | PASS: diamond facet represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fallow | PASS: empty field represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| falter | PASS: shaky voice represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fanfare | PASS: trumpet fanfare represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| farce | PASS: funny play represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| feign | PASS: pretending surprise represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| festoon | PASS: decorated room represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fidget | PASS: restless child represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fiesta | PASS: festival party represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| figment | PASS: imaginary monster represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| filly | PASS: young horse represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| finale | PASS: fireworks finale represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| finesse | PASS: skillful chef represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flair | PASS: stylish design represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flak | PASS: criticism anger represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flank | PASS: mountainside deer represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flaw | PASS: small crack represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fleece | PASS: sheep wool represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flicker | PASS: flickering candle represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flinch | PASS: dodging ball represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flotsam | PASS: beach debris represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flounce | PASS: stomping away represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flout | PASS: speeding car represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flue | PASS: chimney flue represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fluent | PASS: speaking fluently represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| flurry | PASS: snow flurry represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| foothold | PASS: climbing foothold represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| foray | PASS: first attempt represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| ford | PASS: river crossing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| forlorn | PASS: sad puppy represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| forsake | PASS: never giving up represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fort | PASS: blanket fort represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| forte | PASS: talented singer represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fortress | PASS: stone fortress represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fowl | PASS: farm chickens represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| foyer | PASS: theater entrance represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| frantic | PASS: panicked search represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| frigate | PASS: warship frigate represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fringe | PASS: fringed lampshade represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| frolic | PASS: puppies playing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| froth | PASS: bubbly foam represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fulcrum | PASS: lever fulcrum represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| foresee | PASS: crystal ball prediction represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| fumigate | PASS: pest control represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| furlong | PASS: horse race represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| furor | PASS: excited crowd represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gable | PASS: house gable represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gadget | PASS: small tool represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gaffe | PASS: embarrassing mistake represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gait | PASS: horse walking represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gallop | PASS: horse galloping represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gambit | PASS: clever plan represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gambol | PASS: lambs jumping represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| garb | PASS: costume clothing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| garland | PASS: flower garland represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| garner | PASS: earning praise represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gem | PASS: precious gem represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| genteel | PASS: polite manners represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| ghastly | PASS: scary mask represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| giddy | PASS: excited children represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| girdle | PASS: leather waist belt represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| glade | PASS: forest clearing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| glaze | PASS: glazed donuts represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gleam | PASS: lighthouse gleam represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| glen | PASS: valley stream represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| glimmer | PASS: moonlight glow represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| glint | PASS: light flash represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| glitch | PASS: computer error represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gloat | PASS: smug winner represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| glut | PASS: too many tomatoes represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gnaw | PASS: puppy chewing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| goblet | PASS: golden goblet represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gouge | PASS: deep scratch represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| graft | PASS: plant grafting represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| graze | PASS: cows grazing represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| greenery | PASS: green plants represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gregarious | PASS: social person represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| grid | PASS: grid paper represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| grimace | PASS: sour face represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| grindstone | PASS: grinding wheel represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| grit | PASS: determined runner represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| grotto | PASS: sea cave represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| grovel | PASS: kneeling begging represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| grueling | PASS: exhausting hike represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| grumble | PASS: complaining represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| gulp | PASS: drinking fast represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| hackneyed | PASS: overused words represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| hallow | PASS: sacred ground represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
-| hamlet | PASS: small village represents the word well. | PASS: Definition is accurate. | PASS: Common meaning used. | PASS: Works in all 4 modes. |
+- organism: L9[PASS] (imageKeyword 'tiny living thing' clear) | L10[PASS] (definition 'any living thing, like a plant or animal' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- evaporation: L9[PASS] (imageKeyword 'puddle sun' clear) | L10[PASS] (definition 'the process of water turning into gas and going into the air' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- condensation: L9[PASS] (imageKeyword 'foggy glass' clear) | L10[PASS] (definition 'the process of water vapor turning back into liquid drops' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- precipitation: L9[PASS] (imageKeyword 'rain clouds' clear) | L10[PASS] (definition 'water that falls from clouds as rain, snow, or hail' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- atmosphere: L9[PASS] (imageKeyword 'earth atmosphere' clear) | L10[PASS] (definition 'the air that surrounds the Earth' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- nutrient: L9[PASS] (imageKeyword 'plant roots soil' clear) | L10[PASS] (definition 'something in food or soil that helps living things grow' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- photosynthesis: L9[PASS] (imageKeyword 'leaf sunlight' clear) | L10[PASS] (definition 'how plants use light from the sun to make their own food' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- pollination: L9[PASS] (imageKeyword 'bee flower' clear) | L10[PASS] (definition 'the movement of the yellow dust on flowers from one flower to another so seeds can form' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- germinate: L9[PASS] (imageKeyword 'seed sprouting' clear) | L10[PASS] (definition 'to start growing from a seed into a plant' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- larva: L9[PASS] (imageKeyword 'caterpillar' clear) | L10[PASS] (definition 'the baby form of an insect before it becomes an adult' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- metamorphosis: L9[PASS] (imageKeyword 'tadpole frog' clear) | L10[PASS] (definition 'the big change some animals go through as they grow up' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- camouflage: L9[PASS] (imageKeyword 'camouflage lizard' clear) | L10[PASS] (definition 'colors or patterns that help an animal hide' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- migration: L9[PASS] (imageKeyword 'geese flying' clear) | L10[PASS] (definition 'the long trip animals make to find food or warmer weather' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- hibernation: L9[PASS] (imageKeyword 'bear sleeping' clear) | L10[PASS] (definition 'a deep sleep some animals take during winter' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- adaptation: L9[PASS] (imageKeyword 'camel desert' clear) | L10[PASS] (definition 'a change that helps a living thing survive' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- ecosystem: L9[PASS] (imageKeyword 'pond ecosystem' clear) | L10[PASS] (definition 'all the living and nonliving things in one area and how they interact' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- solar: L9[PASS] (imageKeyword 'solar panel sun' clear) | L10[PASS] (definition 'powered by or coming from the sun' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- lunar: L9[PASS] (imageKeyword 'moon eclipse' clear) | L10[PASS] (definition 'about the moon or caused by it' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- friction: L9[PASS] (imageKeyword 'shoes floor' clear) | L10[PASS] (definition 'the force that slows things down when they rub together' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- electricity: L9[PASS] (imageKeyword 'light bulb' clear) | L10[PASS] (definition 'a form of energy that powers lights and machines' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- circuit: L9[PASS] (imageKeyword 'electric circuit' clear) | L10[PASS] (definition 'a path that power follows in a loop' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- conductor: L9[PASS] (imageKeyword 'copper wire' clear) | L10[PASS] (definition 'a material that lets electricity or heat pass through' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- insulator: L9[PASS] (imageKeyword 'rubber gloves' clear) | L10[PASS] (definition 'a material that blocks electricity or heat' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- microscope: L9[PASS] (imageKeyword 'scientist using microscope' clear) | L10[PASS] (definition 'a tool that makes very tiny things look bigger' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dissolve: L9[PASS] (imageKeyword 'sugar water' clear) | L10[PASS] (definition 'to mix completely into a liquid and disappear' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- mass: L9[PASS] (imageKeyword 'rock feather' clear) | L10[PASS] (definition 'how much matter is in an object' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- renewable: L9[PASS] (imageKeyword 'wind turbine' clear) | L10[PASS] (definition 'something that can be used again and again without running out' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- nonrenewable: L9[PASS] (imageKeyword 'oil well' clear) | L10[PASS] (definition 'something that will run out and cannot be replaced' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- pollution: L9[PASS] (imageKeyword 'factory smoke' clear) | L10[PASS] (definition 'harmful things that make air, water, or land dirty' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- conservation: L9[PASS] (imageKeyword 'turn off light' clear) | L10[PASS] (definition 'protecting nature and using resources carefully' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- vertebrate: L9[PASS] (imageKeyword 'dog skeleton' clear) | L10[PASS] (definition 'an animal that has a backbone' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- invertebrate: L9[PASS] (imageKeyword 'jellyfish' clear) | L10[PASS] (definition 'an animal that does not have a backbone' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- chrysalis: L9[PASS] (imageKeyword 'butterfly chrysalis on branch' clear) | L10[PASS] (definition 'the hard shell a caterpillar makes before becoming a butterfly' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- decompose: L9[PASS] (imageKeyword 'rotting leaves' clear) | L10[PASS] (definition 'to break down into smaller pieces and rot' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- telescope: L9[PASS] (imageKeyword 'telescope moon' clear) | L10[PASS] (definition 'a tool that makes faraway things look closer' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- rotation: L9[PASS] (imageKeyword 'earth spinning' clear) | L10[PASS] (definition 'spinning around in a circle' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- constellation: L9[PASS] (imageKeyword 'orion constellation' clear) | L10[PASS] (definition 'a group of stars that form a picture in the sky' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- volcano: L9[PASS] (imageKeyword 'volcano erupting' clear) | L10[PASS] (definition 'a mountain that can shoot out hot melted rock' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- earthquake: L9[PASS] (imageKeyword 'earthquake cracked road' clear) | L10[PASS] (definition 'a shaking of the ground caused by rocks moving underground' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- weathering: L9[PASS] (imageKeyword 'smooth rocks' clear) | L10[PASS] (definition 'the process of rocks breaking down because of wind, water, or ice over time' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- tide: L9[PASS] (imageKeyword 'high tide beach' clear) | L10[PASS] (definition 'the rise and fall of ocean water each day' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- classify: L9[PASS] (imageKeyword 'animal groups' clear) | L10[PASS] (definition 'to sort things into groups based on how they are the same' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- cell: L9[PASS] (imageKeyword 'animal cell diagram' clear) | L10[PASS] (definition 'the very smallest building block of all living things' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- carbon dioxide: L9[PASS] (imageKeyword 'plant breathing' clear) | L10[PASS] (definition 'a gas that animals breathe out and plants take in' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- sediment: L9[PASS] (imageKeyword 'river sediment' clear) | L10[PASS] (definition 'tiny bits of rock, sand, or dirt that settle at the bottom of water' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- geography: L9[PASS] (imageKeyword 'map globe' clear) | L10[PASS] (definition 'the study of Earth's land, water, and people' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- peninsula: L9[PASS] (imageKeyword 'peninsula coastline aerial' clear) | L10[PASS] (definition 'land that has water on three sides' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- urban: L9[PASS] (imageKeyword 'city skyline' clear) | L10[PASS] (definition 'relating to a city or the busy areas where many people live and work' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- rural: L9[PASS] (imageKeyword 'farm countryside' clear) | L10[PASS] (definition 'in or about the countryside, far from cities' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- suburban: L9[PASS] (imageKeyword 'suburb houses' clear) | L10[PASS] (definition 'an area between a city and the countryside' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- civilization: L9[PASS] (imageKeyword 'pyramids' clear) | L10[PASS] (definition 'a large group of people with cities, writing, and laws' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- artifact: L9[PASS] (imageKeyword 'old pottery' clear) | L10[PASS] (definition 'an old object made by people long ago' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- agriculture: L9[PASS] (imageKeyword 'farm field' clear) | L10[PASS] (definition 'growing crops and raising animals for food' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- industry: L9[PASS] (imageKeyword 'car factory' clear) | L10[PASS] (definition 'businesses that make or sell things' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- technology: L9[PASS] (imageKeyword 'computer' clear) | L10[PASS] (definition 'tools and machines that help people solve problems' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- governor: L9[PASS] (imageKeyword 'governor speaking podium' clear) | L10[PASS] (definition 'the person in charge of a state or a part of a country in a country' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- justice: L9[PASS] (imageKeyword 'scales justice' clear) | L10[PASS] (definition 'treating people fairly and following the rules' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- monument: L9[PASS] (imageKeyword 'monument statue' clear) | L10[PASS] (definition 'a building or statue made to recall someone or something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- landmark: L9[PASS] (imageKeyword 'statue of liberty' clear) | L10[PASS] (definition 'a famous or important place that people recognize and visit' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- capital: L9[PASS] (imageKeyword 'capital city government' clear) | L10[PASS] (definition 'the city where a country or state's government works' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- timeline: L9[PASS] (imageKeyword 'history timeline chart' clear) | L10[PASS] (definition 'a line that shows events in the order they happened' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- treaty: L9[PASS] (imageKeyword 'handshake nations' clear) | L10[PASS] (definition 'an agreement between countries to stop fighting and keep peace' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- irrigation: L9[PASS] (imageKeyword 'irrigation field' clear) | L10[PASS] (definition 'bringing water to crops through long, round tubes or channels' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- barter: L9[PASS] (imageKeyword 'trading goods' clear) | L10[PASS] (definition 'to trade things without using money' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- goods: L9[PASS] (imageKeyword 'market goods' clear) | L10[PASS] (definition 'things that people make or grow to sell' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- services: L9[PASS] (imageKeyword 'doctor patient' clear) | L10[PASS] (definition 'work that people do for others, like teaching or fixing things' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- petition: L9[PASS] (imageKeyword 'signed letter' clear) | L10[PASS] (definition 'a letter signed by many people asking for a change' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- numerator: L9[PASS] (imageKeyword 'fraction top' clear) | L10[PASS] (definition 'the top number in a small part of something that tells how many parts you have' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- denominator: L9[PASS] (imageKeyword 'fraction bottom' clear) | L10[PASS] (definition 'the bottom number in a small part of something that tells how many equal parts there are' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- equivalent: L9[PASS] (imageKeyword 'equal fractions' clear) | L10[PASS] (definition 'equal in value even if it looks different' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- multiple: L9[PASS] (imageKeyword 'skip counting' clear) | L10[PASS] (definition 'the result of multiplying a number by any whole number' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- perimeter: L9[PASS] (imageKeyword 'fence garden' clear) | L10[PASS] (definition 'the total distance around the outside of a shape' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- array: L9[PASS] (imageKeyword 'desk rows' clear) | L10[PASS] (definition 'objects arranged in equal rows and columns' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- symmetry: L9[PASS] (imageKeyword 'butterfly symmetry' clear) | L10[PASS] (definition 'when two sides of something look exactly the same' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- parallel: L9[PASS] (imageKeyword 'parallel lines' clear) | L10[PASS] (definition 'lines that go the same way and never touch' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- perpendicular: L9[PASS] (imageKeyword 'right angle corner' clear) | L10[PASS] (definition 'lines that cross and make a square corner' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- vertex: L9[PASS] (imageKeyword 'triangle corners' clear) | L10[PASS] (definition 'the point where two lines or edges meet' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- polygon: L9[PASS] (imageKeyword 'hexagon' clear) | L10[PASS] (definition 'a flat shape with straight sides' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- quadrilateral: L9[PASS] (imageKeyword 'four sided shapes' clear) | L10[PASS] (definition 'a shape with exactly four straight sides' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- diameter: L9[PASS] (imageKeyword 'circle diameter' clear) | L10[PASS] (definition 'a straight line that goes across a circle through the center' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- radius: L9[PASS] (imageKeyword 'circle radius' clear) | L10[PASS] (definition 'a straight line from the center of a circle to the edge' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gram: L9[PASS] (imageKeyword 'paper clip scale' clear) | L10[PASS] (definition 'a small unit for measuring how heavy something is' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- kilogram: L9[PASS] (imageKeyword 'sugar bag scale' clear) | L10[PASS] (definition 'a unit of weight equal to 1000 grams' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- liter: L9[PASS] (imageKeyword 'milk bottle' clear) | L10[PASS] (definition 'a unit for measuring how much liquid there is' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- centimeter: L9[PASS] (imageKeyword 'ruler centimeter' clear) | L10[PASS] (definition 'a small unit for measuring length, about the width of a fingertip' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- meter: L9[PASS] (imageKeyword 'door measurement' clear) | L10[PASS] (definition 'a unit of length a bit longer than a big step, used to measure rooms and distances' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- kilometer: L9[PASS] (imageKeyword 'road distance' clear) | L10[PASS] (definition 'a unit of distance equal to 1000 meters' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- vertical: L9[PASS] (imageKeyword 'flagpole' clear) | L10[PASS] (definition 'going straight up and down, like a standing long stick' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- elapsed: L9[PASS] (imageKeyword 'clock time' clear) | L10[PASS] (definition 'the amount of time that has passed' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- commutative: L9[PASS] (imageKeyword 'switch numbers' clear) | L10[PASS] (definition 'able to be switched in order and still give the same answer' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- associative: L9[PASS] (imageKeyword 'grouping numbers' clear) | L10[PASS] (definition 'able to be grouped differently and still give the same answer' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- distributive: L9[PASS] (imageKeyword 'break apart multiply' clear) | L10[PASS] (definition 'able to be spread across adding inside a multiplication' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- inverse: L9[PASS] (imageKeyword 'opposite arrows' clear) | L10[PASS] (definition 'the opposite operation that undoes what was done' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- variable: L9[PASS] (imageKeyword 'letter n math' clear) | L10[PASS] (definition 'a letter or symbol that stands for a number you don't know yet' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- expression: L9[PASS] (imageKeyword 'math expression' clear) | L10[PASS] (definition 'a group of numbers and symbols that shows a value but has no equal sign' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- operation: L9[PASS] (imageKeyword 'plus minus signs' clear) | L10[PASS] (definition 'an action done with numbers, like adding, subtracting, multiplying, or dividing' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- congruent: L9[PASS] (imageKeyword 'matching triangles' clear) | L10[PASS] (definition 'exactly the same shape and size' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- unit: L9[PASS] (imageKeyword 'measuring units' clear) | L10[PASS] (definition 'a standard amount used to measure things' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- composite: L9[PASS] (imageKeyword 'factor tree' clear) | L10[PASS] (definition 'a number that can be split evenly by numbers other than 1 and itself' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- prime: L9[PASS] (imageKeyword 'prime numbers chart' clear) | L10[PASS] (definition 'a number that can only be split evenly by 1 and itself' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- intersect: L9[PASS] (imageKeyword 'crossing roads' clear) | L10[PASS] (definition 'to cross or meet at a point' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- probability: L9[PASS] (imageKeyword 'coin flip' clear) | L10[PASS] (definition 'how likely something is to happen' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- break the ice: L9[PASS] (imageKeyword 'icebreaker' clear) | L10[PASS] (definition 'to do something to make people feel less shy' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- piece of cake: L9[PASS] (imageKeyword 'easy cake' clear) | L10[PASS] (definition 'something that is very easy to do, not hard at all' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- under the weather: L9[PASS] (imageKeyword 'sick person' clear) | L10[PASS] (definition 'feeling sick or not well' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- hit the books: L9[PASS] (imageKeyword 'studying hard' clear) | L10[PASS] (definition 'to start studying hard' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- on the same page: L9[PASS] (imageKeyword 'agreement' clear) | L10[PASS] (definition 'to agree or understand the same thing' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- cost an arm and a leg: L9[PASS] (imageKeyword 'expensive price' clear) | L10[PASS] (definition 'to be very expensive, costing a lot of money' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- let the cat out of the bag: L9[PASS] (imageKeyword 'secret revealed' clear) | L10[PASS] (definition 'to by mistake reveal a secret' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- bite off more than you can chew: L9[PASS] (imageKeyword 'overwhelmed' clear) | L10[PASS] (definition 'to try to do more than you can handle' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- once in a blue moon: L9[PASS] (imageKeyword 'blue moon' clear) | L10[PASS] (definition 'very rarely, almost never' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- when pigs fly: L9[PASS] (imageKeyword 'flying pig' clear) | L10[PASS] (definition 'something that will never happen' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- spill the beans: L9[PASS] (imageKeyword 'spilling beans' clear) | L10[PASS] (definition 'to tell a secret that you were supposed to keep' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- raining cats and dogs: L9[PASS] (imageKeyword 'heavy rain' clear) | L10[PASS] (definition 'raining very hard' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- butterflies in my stomach: L9[PASS] (imageKeyword 'nervous feeling' clear) | L10[PASS] (definition 'feeling nervous or excited' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- the ball is in your court: L9[PASS] (imageKeyword 'tennis court' clear) | L10[PASS] (definition 'it is your turn to make a decision or take action' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- barking up the wrong tree: L9[PASS] (imageKeyword 'dog tree' clear) | L10[PASS] (definition 'looking in the wrong place or blaming the wrong person' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- hold your horses: L9[PASS] (imageKeyword 'patient waiting' clear) | L10[PASS] (definition 'wait and be patient' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- two peas in a pod: L9[PASS] (imageKeyword 'pea pod' clear) | L10[PASS] (definition 'two people who are very similar' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- a blessing in disguise: L9[PASS] (imageKeyword 'hidden gift' clear) | L10[PASS] (definition 'something bad that turns out to be good' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- get cold feet: L9[PASS] (imageKeyword 'scared diving board' clear) | L10[PASS] (definition 'to become too scared to do something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- go the extra mile: L9[PASS] (imageKeyword 'extra effort' clear) | L10[PASS] (definition 'to try harder than expected' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- keep an eye on: L9[PASS] (imageKeyword 'watching carefully' clear) | L10[PASS] (definition 'to watch for a while to make sure things are all right' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- the last straw: L9[PASS] (imageKeyword 'straw camel' clear) | L10[PASS] (definition 'the final problem that makes someone lose patience' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- sit on the fence: L9[PASS] (imageKeyword 'fence undecided' clear) | L10[PASS] (definition 'to not make a decision between two choices' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- see eye to eye: L9[PASS] (imageKeyword 'agreement eyes' clear) | L10[PASS] (definition 'to agree with someone' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- back to square one: L9[PASS] (imageKeyword 'start over' clear) | L10[PASS] (definition 'to start over from the beginning' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- put all your eggs in one basket: L9[PASS] (imageKeyword 'eggs basket' clear) | L10[PASS] (definition 'to risk everything on one plan' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- pull someone's leg: L9[PASS] (imageKeyword 'joking' clear) | L10[PASS] (definition 'to joke with someone or trick them in a fun, silly way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- throw in the towel: L9[PASS] (imageKeyword 'giving up' clear) | L10[PASS] (definition 'to give up and stop trying to do something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- on cloud nine: L9[PASS] (imageKeyword 'very happy' clear) | L10[PASS] (definition 'feeling very happy and full of joy' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- in hot water: L9[PASS] (imageKeyword 'trouble' clear) | L10[PASS] (definition 'in trouble or in a difficult spot' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- come up with: L9[PASS] (imageKeyword 'idea lightbulb' clear) | L10[PASS] (definition 'to think of an idea or plan' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- turn out: L9[PASS] (imageKeyword 'surprise ending' clear) | L10[PASS] (definition 'to end up being a certain way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- run out of: L9[PASS] (imageKeyword 'empty carton' clear) | L10[PASS] (definition 'to use up all of something so none is left' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- get along with: L9[PASS] (imageKeyword 'friends together' clear) | L10[PASS] (definition 'to have a good, friendly relationship with someone' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- carry on: L9[PASS] (imageKeyword 'keep going' clear) | L10[PASS] (definition 'to keep going or keep on doing something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- stand for: L9[PASS] (imageKeyword 'initials meaning' clear) | L10[PASS] (definition 'to represent or mean something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- take part in: L9[PASS] (imageKeyword 'participating' clear) | L10[PASS] (definition 'to join and do an activity with others' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- go over: L9[PASS] (imageKeyword 'reviewing' clear) | L10[PASS] (definition 'to review or check something again' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- a penny for your thoughts: L9[PASS] (imageKeyword 'thinking person' clear) | L10[PASS] (definition 'asking someone what they are thinking about' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- actions speak louder than words: L9[PASS] (imageKeyword 'helping hands' clear) | L10[PASS] (definition 'what you do matters more than what you say' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- every cloud has a silver lining: L9[PASS] (imageKeyword 'silver cloud' clear) | L10[PASS] (definition 'there is something good in every bad case' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- kill two birds with one stone: L9[PASS] (imageKeyword 'multitasking efficiency' clear) | L10[PASS] (definition 'to solve two problems with one action' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- better late than never: L9[PASS] (imageKeyword 'returning late' clear) | L10[PASS] (definition 'better to do something late than not at all' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- practice makes perfect: L9[PASS] (imageKeyword 'piano practice' clear) | L10[PASS] (definition 'doing something many times helps you get better at it' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- the early bird catches the worm: L9[PASS] (imageKeyword 'early bird' clear) | L10[PASS] (definition 'people who start early have an advantage' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- don't judge a book by its cover: L9[PASS] (imageKeyword 'surprise inside' clear) | L10[PASS] (definition 'don't decide about something just by how it looks' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- hit the nail on the head: L9[PASS] (imageKeyword 'bullseye' clear) | L10[PASS] (definition 'to say something that is exactly right' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- a taste of your own medicine: L9[PASS] (imageKeyword 'mirror treatment' clear) | L10[PASS] (definition 'being treated the same bad way you treated others' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- burn the midnight oil: L9[PASS] (imageKeyword 'late night studying' clear) | L10[PASS] (definition 'to stay up very late working or studying' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- on the other hand: L9[PASS] (imageKeyword 'two sides' clear) | L10[PASS] (definition 'looking at it a different way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- subsequently: L9[PASS] (imageKeyword 'next step' clear) | L10[PASS] (definition 'after that; happening next in order' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- for example: L9[PASS] (imageKeyword 'lemon example' clear) | L10[PASS] (definition 'used to give one case that explains your point' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- to begin with: L9[PASS] (imageKeyword 'first thing' clear) | L10[PASS] (definition 'first; the first reason' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- above all: L9[PASS] (imageKeyword 'gold number one trophy' clear) | L10[PASS] (definition 'most importantly; more than anything else' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- as soon as: L9[PASS] (imageKeyword 'bell ringing' clear) | L10[PASS] (definition 'right when something happens' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- rather than: L9[PASS] (imageKeyword 'choosing walk' clear) | L10[PASS] (definition 'instead of; in place of something else' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- so that: L9[PASS] (imageKeyword 'alarm clock' clear) | L10[PASS] (definition 'in order to; for the purpose of' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- prior to: L9[PASS] (imageKeyword 'before test' clear) | L10[PASS] (definition 'before something happens; earlier than' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- to summarize: L9[PASS] (imageKeyword 'summary list' clear) | L10[PASS] (definition 'to say the main points in a short way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- first of all: L9[PASS] (imageKeyword 'first step' clear) | L10[PASS] (definition 'the first point or step' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- to illustrate: L9[PASS] (imageKeyword 'robin nest' clear) | L10[PASS] (definition 'to show what you mean with an example' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- in brief: L9[PASS] (imageKeyword 'short version' clear) | L10[PASS] (definition 'in a few words; shortly' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- soon after: L9[PASS] (imageKeyword 'rainbow after rain' clear) | L10[PASS] (definition 'a short time later' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- not only...but also: L9[PASS] (imageKeyword 'double qualities' clear) | L10[PASS] (definition 'used to add a second thing that is also true' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- whereas: L9[PASS] (imageKeyword 'summer winter' clear) | L10[PASS] (definition 'while on the other hand; but' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- thus: L9[PASS] (imageKeyword 'indoor result' clear) | L10[PASS] (definition 'because of this; so, as a result' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- granted: L9[PASS] (imageKeyword 'admitting point' clear) | L10[PASS] (definition 'admitting that something is true before making one more point' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- to put it simply: L9[PASS] (imageKeyword 'simple explanation' clear) | L10[PASS] (definition 'to say something in a simple, easy-to-understand way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dodder: L9[PASS] (imageKeyword 'unsteady walk' clear) | L10[PASS] (definition 'to walk in a shaky, unsteady way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dogma: L9[PASS] (imageKeyword 'strict rules' clear) | L10[PASS] (definition 'a set of ideas about what is right that a group says must be accepted as true' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- doldrums: L9[PASS] (imageKeyword 'bored child' clear) | L10[PASS] (definition 'a state of feeling bored and not wanting to do anything' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dole: L9[PASS] (imageKeyword 'handing out' clear) | L10[PASS] (definition 'to give out small amounts of something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dolt: L9[PASS] (imageKeyword 'confused person' clear) | L10[PASS] (definition 'a person who is slow to understand things' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- donjon: L9[PASS] (imageKeyword 'castle tower' clear) | L10[PASS] (definition 'the strongest tower inside a castle' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dosage: L9[PASS] (imageKeyword 'medicine spoon' clear) | L10[PASS] (definition 'the amount of medicine to take at one time' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dote: L9[PASS] (imageKeyword 'loving grandma' clear) | L10[PASS] (definition 'to show a lot of love and attention' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dowel: L9[PASS] (imageKeyword 'wooden dowel' clear) | L10[PASS] (definition 'a thin round stick of wood used to join pieces together' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- downpour: L9[PASS] (imageKeyword 'sudden rainstorm' clear) | L10[PASS] (definition 'a sudden heavy rain' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- drab: L9[PASS] (imageKeyword 'gray room' clear) | L10[PASS] (definition 'dull and not interesting to look at' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dragnet: L9[PASS] (imageKeyword 'police search' clear) | L10[PASS] (definition 'a wide search over a large area' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- drape: L9[PASS] (imageKeyword 'draped blanket' clear) | L10[PASS] (definition 'to hang cloth loosely over something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dreary: L9[PASS] (imageKeyword 'gray cloudy sky' clear) | L10[PASS] (definition 'dull, dark, and making you feel sad' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- drench: L9[PASS] (imageKeyword 'soaking wet kids' clear) | L10[PASS] (definition 'to make completely wet' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- drizzle: L9[PASS] (imageKeyword 'light rain' clear) | L10[PASS] (definition 'light, gentle rain' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- drone: L9[PASS] (imageKeyword 'flying drone' clear) | L10[PASS] (definition 'a flying machine with no pilot inside, or a low humming sound' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- droop: L9[PASS] (imageKeyword 'wilting flowers' clear) | L10[PASS] (definition 'to hang down loosely because of weakness' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dub: L9[PASS] (imageKeyword 'giving nickname' clear) | L10[PASS] (definition 'to give someone a name or title' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dugout: L9[PASS] (imageKeyword 'baseball dugout' clear) | L10[PASS] (definition 'a shelter dug into the ground, or a bench area for a sports team' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dungeon: L9[PASS] (imageKeyword 'dark dungeon' clear) | L10[PASS] (definition 'a dark underground prison in a castle' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dye: L9[PASS] (imageKeyword 'dyed eggs' clear) | L10[PASS] (definition 'a substance used to change the color of something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- dike: L9[PASS] (imageKeyword 'river wall' clear) | L10[PASS] (definition 'a thick wall built to hold back water' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- earmark: L9[PASS] (imageKeyword 'saving money' clear) | L10[PASS] (definition 'to set something apart for a special purpose' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- earthy: L9[PASS] (imageKeyword 'forest soil' clear) | L10[PASS] (definition 'smelling or looking like soil or the ground' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- eave: L9[PASS] (imageKeyword 'roof edge' clear) | L10[PASS] (definition 'the edge of a roof that sticks out beyond the wall' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- ebony: L9[PASS] (imageKeyword 'black piano keys' clear) | L10[PASS] (definition 'a very dark, almost black wood or color' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- effervescent: L9[PASS] (imageKeyword 'fizzy soda' clear) | L10[PASS] (definition 'full of bubbles; happy and having many tiny bubbles, or lively and cheerful' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- effigy: L9[PASS] (imageKeyword 'stone statue' clear) | L10[PASS] (definition 'a model or sculpture of a person' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- egress: L9[PASS] (imageKeyword 'exit door' clear) | L10[PASS] (definition 'a way out; an exit' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- elapse: L9[PASS] (imageKeyword 'passing time' clear) | L10[PASS] (definition 'for time to pass by' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- elate: L9[PASS] (imageKeyword 'celebrating win' clear) | L10[PASS] (definition 'to make someone very happy and excited' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- elf: L9[PASS] (imageKeyword 'fairy tale elf' clear) | L10[PASS] (definition 'a small magical creature in fairy tales' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- elocution: L9[PASS] (imageKeyword 'public speaking' clear) | L10[PASS] (definition 'the skill of speaking clearly and well' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- elongate: L9[PASS] (imageKeyword 'stretching taffy' clear) | L10[PASS] (definition 'to make something longer or stretch it out' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- elude: L9[PASS] (imageKeyword 'fox escaping' clear) | L10[PASS] (definition 'to escape or avoid being caught' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- emboss: L9[PASS] (imageKeyword 'raised letters' clear) | L10[PASS] (definition 'to press a raised design into a surface' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- emporium: L9[PASS] (imageKeyword 'big toy store' clear) | L10[PASS] (definition 'a large store that sells many different things' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- enamel: L9[PASS] (imageKeyword 'tooth enamel' clear) | L10[PASS] (definition 'a hard, shiny coating on teeth or outside parts' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- encore: L9[PASS] (imageKeyword 'audience cheering' clear) | L10[PASS] (definition 'an extra performance after the main show ends' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- encrust: L9[PASS] (imageKeyword 'encrusted ship' clear) | L10[PASS] (definition 'to cover a surface with a hard layer' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- encyclopedia: L9[PASS] (imageKeyword 'encyclopedia books' clear) | L10[PASS] (definition 'a book or set of books with information on many subjects' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- engross: L9[PASS] (imageKeyword 'reading deeply' clear) | L10[PASS] (definition 'to hold another person's focus all the way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- enshroud: L9[PASS] (imageKeyword 'foggy valley' clear) | L10[PASS] (definition 'to cover or hide something completely' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- enthrall: L9[PASS] (imageKeyword 'captivated children' clear) | L10[PASS] (definition 'to capture another person's focus and fascinate them' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- entreat: L9[PASS] (imageKeyword 'pleading person' clear) | L10[PASS] (definition 'to ask someone earnestly or beg with strong feeling' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- epic: L9[PASS] (imageKeyword 'epic adventure' clear) | L10[PASS] (definition 'very grand and impressive, or a long heroic story' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- errand: L9[PASS] (imageKeyword 'shopping errand' clear) | L10[PASS] (definition 'a short trip to do a task, like buying something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- errant: L9[PASS] (imageKeyword 'stray ball' clear) | L10[PASS] (definition 'going the wrong way or acting wrongly' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- escarpment: L9[PASS] (imageKeyword 'steep cliff' clear) | L10[PASS] (definition 'a long, steep cliff or slope' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- ethereal: L9[PASS] (imageKeyword 'dreamy floating dancer' clear) | L10[PASS] (definition 'light, delicate, and almost too nice for this world' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- evergreen: L9[PASS] (imageKeyword 'evergreen forest' clear) | L10[PASS] (definition 'a tree or small thick plant that keeps its green leaves all year' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- expanse: L9[PASS] (imageKeyword 'vast field' clear) | L10[PASS] (definition 'a wide, open area' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- expat: L9[PASS] (imageKeyword 'living abroad' clear) | L10[PASS] (definition 'a person living outside their home country' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- expel: L9[PASS] (imageKeyword 'whale spout blowhole' clear) | L10[PASS] (definition 'to force someone or something out' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- eyelet: L9[PASS] (imageKeyword 'shoe eyelet' clear) | L10[PASS] (definition 'a small hole in fabric or leather for a lace to pass through' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- facet: L9[PASS] (imageKeyword 'diamond facet' clear) | L10[PASS] (definition 'one side or aspect of something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fallow: L9[PASS] (imageKeyword 'empty field' clear) | L10[PASS] (definition 'farmland left unplanted for a season to rest the soil' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- falter: L9[PASS] (imageKeyword 'shaky voice' clear) | L10[PASS] (definition 'to become weak or unsteady' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fanfare: L9[PASS] (imageKeyword 'trumpet fanfare' clear) | L10[PASS] (definition 'a short, loud burst of music, or a big showy welcome' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- farce: L9[PASS] (imageKeyword 'funny play' clear) | L10[PASS] (definition 'a funny play based on silly, unlikely situations' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- feign: L9[PASS] (imageKeyword 'pretending surprise' clear) | L10[PASS] (definition 'to pretend to feel something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- festoon: L9[PASS] (imageKeyword 'decorated room' clear) | L10[PASS] (definition 'to decorate with strings of flowers, lights, or ribbons' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fidget: L9[PASS] (imageKeyword 'restless child' clear) | L10[PASS] (definition 'to make small, restless movements' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fiesta: L9[PASS] (imageKeyword 'festival party' clear) | L10[PASS] (definition 'a lively festival or celebration, often with music and dancing' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- figment: L9[PASS] (imageKeyword 'imaginary monster' clear) | L10[PASS] (definition 'something made up in your mind that is not real' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- filly: L9[PASS] (imageKeyword 'young horse' clear) | L10[PASS] (definition 'a young female horse' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- finale: L9[PASS] (imageKeyword 'fireworks finale' clear) | L10[PASS] (definition 'the last part of a show or event' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- finesse: L9[PASS] (imageKeyword 'skillful chef' clear) | L10[PASS] (definition 'great skill and grace in handling something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flair: L9[PASS] (imageKeyword 'stylish design' clear) | L10[PASS] (definition 'a natural talent or stylish way of doing things' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flak: L9[PASS] (imageKeyword 'criticism anger' clear) | L10[PASS] (definition 'strong criticism' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flank: L9[PASS] (imageKeyword 'mountainside deer' clear) | L10[PASS] (definition 'the side of something, like a body or army' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flaw: L9[PASS] (imageKeyword 'small crack' clear) | L10[PASS] (definition 'a small defect or weakness' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fleece: L9[PASS] (imageKeyword 'sheep wool' clear) | L10[PASS] (definition 'the soft, woolly coat of a sheep' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flicker: L9[PASS] (imageKeyword 'flickering candle' clear) | L10[PASS] (definition 'to shine with an unsteady, quick light' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flinch: L9[PASS] (imageKeyword 'dodging ball' clear) | L10[PASS] (definition 'to make a quick movement away because of pain or fear' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flotsam: L9[PASS] (imageKeyword 'beach debris' clear) | L10[PASS] (definition 'broken parts left over or cargo floating on the sea after a ship that broke apart' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flounce: L9[PASS] (imageKeyword 'stomping away' clear) | L10[PASS] (definition 'to move in an exaggerated, angry way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flout: L9[PASS] (imageKeyword 'speeding car' clear) | L10[PASS] (definition 'to openly disobey a rule or law' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flue: L9[PASS] (imageKeyword 'chimney flue' clear) | L10[PASS] (definition 'a long, round tube inside a chimney that lets smoke escape' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fluent: L9[PASS] (imageKeyword 'speaking fluently' clear) | L10[PASS] (definition 'able to speak or write a language without much work and well' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- flurry: L9[PASS] (imageKeyword 'snow flurry' clear) | L10[PASS] (definition 'a sudden burst of snow, wind, or something you do' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- foothold: L9[PASS] (imageKeyword 'climbing foothold' clear) | L10[PASS] (definition 'a safe place to put your foot when climbing' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- foray: L9[PASS] (imageKeyword 'first attempt' clear) | L10[PASS] (definition 'a quick trip into a new or not safe area' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- ford: L9[PASS] (imageKeyword 'river crossing' clear) | L10[PASS] (definition 'a shallow place where you can walk or drive across a river' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- forlorn: L9[PASS] (imageKeyword 'sad puppy' clear) | L10[PASS] (definition 'looking sad and lonely' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- forsake: L9[PASS] (imageKeyword 'never giving up' clear) | L10[PASS] (definition 'to leave or give up something you care about' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fort: L9[PASS] (imageKeyword 'blanket fort' clear) | L10[PASS] (definition 'a strong building made to defend against attacks' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- forte: L9[PASS] (imageKeyword 'talented singer' clear) | L10[PASS] (definition 'something a person does very well' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fortress: L9[PASS] (imageKeyword 'stone fortress' clear) | L10[PASS] (definition 'a very large, strongly defended place with thick walls and towers' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fowl: L9[PASS] (imageKeyword 'farm chickens' clear) | L10[PASS] (definition 'birds, especially those kept for eggs or meat' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- foyer: L9[PASS] (imageKeyword 'theater entrance' clear) | L10[PASS] (definition 'the entrance hall of a building' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- frantic: L9[PASS] (imageKeyword 'panicked search' clear) | L10[PASS] (definition 'wildly worried and rushing around' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- frigate: L9[PASS] (imageKeyword 'warship frigate' clear) | L10[PASS] (definition 'a fast warship used in naval battles' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fringe: L9[PASS] (imageKeyword 'fringed lampshade' clear) | L10[PASS] (definition 'the edge of something, or a decorative border of threads' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- frolic: L9[PASS] (imageKeyword 'puppies playing' clear) | L10[PASS] (definition 'to play and run around in a happy way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- froth: L9[PASS] (imageKeyword 'bubbly foam' clear) | L10[PASS] (definition 'a mass of tiny bubbles covering a liquid' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fulcrum: L9[PASS] (imageKeyword 'lever fulcrum' clear) | L10[PASS] (definition 'the point on which a lever rests and turns around one point' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- foresee: L9[PASS] (imageKeyword 'crystal ball prediction' clear) | L10[PASS] (definition 'to know or guess that something will happen before it does' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- fumigate: L9[PASS] (imageKeyword 'pest control' clear) | L10[PASS] (definition 'to use smoke or gas to kill insects or germs' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- furlong: L9[PASS] (imageKeyword 'horse race' clear) | L10[PASS] (definition 'a unit of distance equal to one part out of eight of a mile' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- furor: L9[PASS] (imageKeyword 'excited crowd' clear) | L10[PASS] (definition 'an outburst of a mad feeling or a strong, happy feeling' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gable: L9[PASS] (imageKeyword 'house gable' clear) | L10[PASS] (definition 'the triangular part of a wall between the edges of a sloping top' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gadget: L9[PASS] (imageKeyword 'small tool' clear) | L10[PASS] (definition 'a small, clever tool or device' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gaffe: L9[PASS] (imageKeyword 'embarrassing mistake' clear) | L10[PASS] (definition 'an embarrassing mistake, especially in public' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gait: L9[PASS] (imageKeyword 'horse walking' clear) | L10[PASS] (definition 'the way a person or animal walks' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gallop: L9[PASS] (imageKeyword 'horse galloping' clear) | L10[PASS] (definition 'the fastest speed a horse can run' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gambit: L9[PASS] (imageKeyword 'clever plan' clear) | L10[PASS] (definition 'a clever move or plan, especially at the start' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gambol: L9[PASS] (imageKeyword 'lambs jumping' clear) | L10[PASS] (definition 'to jump and skip around in a happy, playful way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- garb: L9[PASS] (imageKeyword 'costume clothing' clear) | L10[PASS] (definition 'clothing, especially of a certain kind' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- garland: L9[PASS] (imageKeyword 'flower garland' clear) | L10[PASS] (definition 'a ring or string of flowers or leaves used as decoration' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- garner: L9[PASS] (imageKeyword 'earning praise' clear) | L10[PASS] (definition 'to collect or gather something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gem: L9[PASS] (imageKeyword 'precious gem' clear) | L10[PASS] (definition 'a precious stone, or something very special' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- genteel: L9[PASS] (imageKeyword 'polite manners' clear) | L10[PASS] (definition 'polite, refined, and having excellent manners' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- ghastly: L9[PASS] (imageKeyword 'scary mask' clear) | L10[PASS] (definition 'very ugly or frightening' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- giddy: L9[PASS] (imageKeyword 'excited children' clear) | L10[PASS] (definition 'feeling dizzy and silly with joy' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- girdle: L9[PASS] (imageKeyword 'leather waist belt' clear) | L10[PASS] (definition 'a belt or band worn around the waist' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- glade: L9[PASS] (imageKeyword 'forest clearing' clear) | L10[PASS] (definition 'a small open area in a forest' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- glaze: L9[PASS] (imageKeyword 'glazed donuts' clear) | L10[PASS] (definition 'a thin, shiny coating on things made from clay or food' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gleam: L9[PASS] (imageKeyword 'lighthouse gleam' clear) | L10[PASS] (definition 'a soft, steady light or shine' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- glen: L9[PASS] (imageKeyword 'valley stream' clear) | L10[PASS] (definition 'a narrow valley, often with a stream' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- glimmer: L9[PASS] (imageKeyword 'moonlight glow' clear) | L10[PASS] (definition 'a faint or flickering light' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- glint: L9[PASS] (imageKeyword 'light flash' clear) | L10[PASS] (definition 'a tiny flash of light' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- glitch: L9[PASS] (imageKeyword 'computer error' clear) | L10[PASS] (definition 'a small problem, especially with a machine or plan' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gloat: L9[PASS] (imageKeyword 'smug winner' clear) | L10[PASS] (definition 'to feel smugly pleased about your own success or someone else's failure' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- glut: L9[PASS] (imageKeyword 'too many tomatoes' clear) | L10[PASS] (definition 'too much of something, more than is needed' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gnaw: L9[PASS] (imageKeyword 'puppy chewing' clear) | L10[PASS] (definition 'to keep biting on something' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- goblet: L9[PASS] (imageKeyword 'golden goblet' clear) | L10[PASS] (definition 'a tall drinking cup with a stem' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gouge: L9[PASS] (imageKeyword 'deep scratch' clear) | L10[PASS] (definition 'to dig or scoop out roughly' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- graft: L9[PASS] (imageKeyword 'plant grafting' clear) | L10[PASS] (definition 'to attach a piece of one plant onto another so it grows' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- graze: L9[PASS] (imageKeyword 'cows grazing' clear) | L10[PASS] (definition 'to eat grass, or to scrape lightly' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- greenery: L9[PASS] (imageKeyword 'green plants' clear) | L10[PASS] (definition 'green plants and leaves' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gregarious: L9[PASS] (imageKeyword 'social person' clear) | L10[PASS] (definition 'loving to be around other people' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- grid: L9[PASS] (imageKeyword 'grid paper' clear) | L10[PASS] (definition 'a pattern of lines crossing each other to form squares' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- grimace: L9[PASS] (imageKeyword 'sour face' clear) | L10[PASS] (definition 'a twisted look on your face showing pain or disgust' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- grindstone: L9[PASS] (imageKeyword 'grinding wheel' clear) | L10[PASS] (definition 'a flat round stone used for making sharper tools' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- grit: L9[PASS] (imageKeyword 'determined runner' clear) | L10[PASS] (definition 'tiny bits of sand or stone, or courage and strong will' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- grotto: L9[PASS] (imageKeyword 'sea cave' clear) | L10[PASS] (definition 'a small cave, often pretty or interesting' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- grovel: L9[PASS] (imageKeyword 'kneeling begging' clear) | L10[PASS] (definition 'to crawl on the ground, or to beg in a humiliating way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- grueling: L9[PASS] (imageKeyword 'exhausting hike' clear) | L10[PASS] (definition 'very tiring and hard' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- grumble: L9[PASS] (imageKeyword 'complaining' clear) | L10[PASS] (definition 'to complain in a quiet, unhappy way' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- gulp: L9[PASS] (imageKeyword 'drinking fast' clear) | L10[PASS] (definition 'to swallow something quickly or to swallow nervously' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- hackneyed: L9[PASS] (imageKeyword 'overused words' clear) | L10[PASS] (definition 'used so often that it is no longer fresh or original' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- hallow: L9[PASS] (imageKeyword 'sacred ground' clear) | L10[PASS] (definition 'to make something holy or treat it as sacred' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
+- hamlet: L9[PASS] (imageKeyword 'small village' clear) | L10[PASS] (definition 'a very small village' accurate) | L11[PASS] (common meaning) | L12[PASS] (games ok)
