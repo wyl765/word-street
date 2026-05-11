@@ -1,605 +1,608 @@
 # VERIFY-GPT — words-level1.js
 
-说明：每个词一行（不跳过）。
-字段：L5(Def/Ex) / L6(遮词+四选一) / L7(文化敏感) / L8(学习路径).
+- One line per word (no skipping).
+- L5: Mark(10岁中国ESL, MAP≈197) — Def/Ex separately.
+- L6: Reverse test — blank example + 4 options.
+- L7: Cultural sensitivity.
+- L8: Learning path / level fit.
 
-- puppy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[puppy / fawn / cub / lamb] | L7:OK | L8:合适
-- kitten | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[kitten / cub / chick / duckling] | L7:OK | L8:合适
-- bunny | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[bunny / forehead / rooster / lizard] | L7:OK | L8:合适
-- duckling | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[duckling / fawn / lamb / puppy] | L7:OK | L8:合适
-- chick | L5-Def:勉强(定义里有抽象/解释性表达) | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[chick / cub / puppy / foal] | L7:OK | L8:合适
-- lamb | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[lamb / chick / foal / cub] | L7:OK | L8:合适
-- cub | L5-Def:能 | L5-Ex:勉强(线索少(仅:bear)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:bear)，同类词易混) | 选项:[cub / foal / puppy / kitten] | L7:OK | L8:合适
-- fawn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fawn / lamb / kitten / cub] | L7:OK | L8:合适
-- foal | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[foal / duckling / fawn / cub] | L7:OK | L8:合适
-- pony | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pony / busy / bark / damp] | L7:OK | L8:合适
-- rooster | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[rooster / shield / soaking / damp] | L7:OK | L8:合适
-- hen | L5-Def:能 | L5-Ex:勉强(线索少(仅:eggs)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:eggs)，同类词易混) | 选项:[hen / journey / dragon / stale] | L7:OK | L8:合适
-- goose | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[goose / sparrow / nest / feather] | L7:OK | L8:合适
-- swan | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[swan / crow / eagle / beak] | L7:OK | L8:合适
-- owl | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[owl / flock / robin / goose] | L7:OK | L8:合适
-- robin | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[robin / owl / wing / swan] | L7:OK | L8:合适
-- sparrow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sparrow / nest / beak / robin] | L7:OK | L8:合适
-- crow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[crow / owl / feather / wing] | L7:OK | L8:合适
-- eagle | L5-Def:能 | L5-Ex:勉强(线索少(仅:high)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:high)，同类词易混) | 选项:[eagle / nest / swan / crow] | L7:OK | L8:合适
-- whale | L5-Def:能 | L5-Ex:勉强(线索少(仅:ocean)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:ocean)，同类词易混) | 选项:[whale / dolphin / shark / soap] | L7:OK | L8:合适
-- dolphin | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dolphin / whale / shark / rough] | L7:OK | L8:合适
-- shark | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shark / whale / dolphin / sponge] | L7:OK | L8:合适
-- turtle | L5-Def:能 | L5-Ex:勉强(线索少(仅:shell)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:shell)，同类词易混) | 选项:[turtle / boiling / surprise / lamp] | L7:OK | L8:合适
-- lizard | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[lizard / dust / raccoon / adventure] | L7:OK | L8:合适
-- frog | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[frog / raccoon / spark / cave] | L7:OK | L8:合适
-- toad | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[toad / certain / stream / crooked] | L7:OK | L8:合适
-- snail | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[snail / damp / along / perfect] | L7:OK | L8:合适
-- worm | L5-Def:能 | L5-Ex:勉强(线索少(仅:dirt)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:dirt)，同类词易混) | 选项:[worm / next / middle / frame] | L7:OK | L8:合适
-- spider | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[spider / toad / monster / eyebrow] | L7:OK | L8:合适
-- beetle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[beetle / ant / ladybug / butterfly] | L7:OK | L8:合适
-- ladybug | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ladybug / butterfly / ant / bee] | L7:OK | L8:合适
-- butterfly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[butterfly / ladybug / bee / beetle] | L7:OK | L8:合适
-- caterpillar | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[caterpillar / between / tape / silent] | L7:OK | L8:勉强(词形偏长；更适合先听说后拼写)
-- ant | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ant / bee / ladybug / butterfly] | L7:OK | L8:合适
-- bee | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[bee / beetle / ant / ladybug] | L7:OK | L8:合适
-- squirrel | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[squirrel / bloom / moss / sprout] | L7:OK | L8:合适
-- raccoon | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[raccoon / trap / pack / wide] | L7:OK | L8:合适
-- skunk | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[skunk / dew / backward / adventure] | L7:OK | L8:合适
-- beaver | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[beaver / wand / crew / crowded] | L7:OK | L8:合适
-- moose | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[moose / droplet / hem / forehead] | L7:OK | L8:合适
-- toast | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[toast / pudding / treat / cereal] | L7:OK | L8:合适
-- cereal | L5-Def:能 | L5-Ex:勉强(线索少(仅:milk)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:milk)，同类词易混) | 选项:[cereal / pudding / oatmeal / syrup] | L7:OK | L8:合适
-- pancake | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pancake / sandwich / pretzel / treat] | L7:OK | L8:合适
-- waffle | L5-Def:能 | L5-Ex:勉强(线索少(仅:squares)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:squares)，同类词易混) | 选项:[waffle / feast / throat / toast] | L7:OK | L8:合适
-- oatmeal | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[oatmeal / throat / treat / feast] | L7:OK | L8:合适
-- sandwich | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sandwich / pretzel / waffle / slice] | L7:OK | L8:合适
-- pretzel | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pretzel / toast / cookie / snack] | L7:OK | L8:合适
-- cracker | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cracker / pudding / pretzel / honey] | L7:OK | L8:合适
-- noodle | L5-Def:能 | L5-Ex:勉强(线索少(仅:long)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:long)，同类词易混) | 选项:[noodle / syrup / doughnut / bitter] | L7:OK | L8:合适
-- muffin | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[muffin / lemon / ripe / grape] | L7:OK | L8:合适
-- cupcake | L5-Def:能 | L5-Ex:勉强(线索少(仅:frosting)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:frosting)，同类词易混) | 选项:[cupcake / soon / fuzzy / tape] | L7:OK | L8:合适
-- cookie | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cookie / jelly / oatmeal / treat] | L7:OK | L8:合适
-- doughnut | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[doughnut / portion / cracker / waffle] | L7:OK | L8:合适
-- pudding | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pudding / cookie / sandwich / slice] | L7:OK | L8:合适
-- jelly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[jelly / gravy / throat / pretzel] | L7:OK | L8:合适
-- syrup | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[syrup / pancake / bitter / honey] | L7:OK | L8:合适
-- honey | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[honey / treat / yogurt / cereal] | L7:OK | L8:合适
-- popcorn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[popcorn / den / enormous / crowd] | L7:OK | L8:合适
-- yogurt | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[yogurt / throat / pancake / snack] | L7:OK | L8:合适
-- grape | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[grape / plum / lemon / muffin] | L7:OK | L8:合适
-- cherry | L5-Def:能 | L5-Ex:勉强(线索少(仅:red)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:red)，同类词易混) | 选项:[cherry / coconut / muffin / grape] | L7:OK | L8:合适
-- peach | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[peach / peel / melon / cherry] | L7:OK | L8:合适
-- plum | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[plum / ripe / grape / berry] | L7:OK | L8:合适
-- melon | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[melon / plum / coconut / cherry] | L7:OK | L8:合适
-- berry | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[berry / grape / peel / ripe] | L7:OK | L8:合适
-- lemon | L5-Def:能 | L5-Ex:勉强(线索少(仅:sour)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:sour)，同类词易混) | 选项:[lemon / peach / berry / melon] | L7:OK | L8:合适
-- coconut | L5-Def:能 | L5-Ex:勉强(线索少(仅:inside)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:inside)，同类词易混) | 选项:[coconut / peel / peach / muffin] | L7:OK | L8:合适
-- peanut | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[peanut / parade / vase / petal] | L7:OK | L8:合适
-- celery | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[celery / pepper / broccoli / stew] | L7:OK | L8:合适
-- broccoli | L5-Def:能 | L5-Ex:勉强(线索少(仅:like)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:like)，同类词易混) | 选项:[broccoli / stew / celery / onion] | L7:OK | L8:合适
-- lettuce | L5-Def:能 | L5-Ex:勉强(线索少(仅:green)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:green)，同类词易混) | 选项:[lettuce / extra / fancy / boiling] | L7:OK | L8:合适
-- pepper | L5-Def:能 | L5-Ex:勉强(线索少(仅:red)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:red)，同类词易混) | 选项:[pepper / celery / broccoli / onion] | L7:OK | L8:合适
-- onion | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[onion / broccoli / celery / stew] | L7:OK | L8:合适
-- mushroom | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[mushroom / shadow / deep / after] | L7:OK | L8:合适
-- stew | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stew / broccoli / onion / celery] | L7:OK | L8:合适
-- gravy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[gravy / jelly / cereal / slice] | L7:OK | L8:合适
-- feast | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[feast / throat / treat / grate] | L7:OK | L8:合适
-- snack | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[snack / grate / cereal / gravy] | L7:OK | L8:合适
-- treat | L5-Def:能 | L5-Ex:勉强(线索少(仅:special)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:special)，同类词易混) | 选项:[treat / slice / toast / sandwich] | L7:OK | L8:合适
-- slice | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[slice / snack / feast / syrup] | L7:OK | L8:合适
-- elbow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[elbow / wild / dry / midnight] | L7:OK | L8:合适
-- wrist | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wrist / muscle / palm / rib] | L7:OK | L8:合适
-- ankle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ankle / share / chin / skull] | L7:OK | L8:合适
-- heel | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[heel / ankle / muscle / palm] | L7:OK | L8:合适
-- thumb | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[thumb / candle / fur / crown] | L7:OK | L8:合适
-- palm | L5-Def:能 | L5-Ex:勉强(线索少(仅:hand)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:hand)，同类词易混) | 选项:[palm / muscle / hip / share] | L7:OK | L8:合适
-- fist | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fist / plenty / brave / calm] | L7:OK | L8:合适
-- chin | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[chin / rib / shoulder / muscle] | L7:OK | L8:合适
-- cheek | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cheek / shadow / tongue / fuzzy] | L7:OK | L8:合适
-- forehead | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[forehead / once / then / certain] | L7:OK | L8:合适
-- eyebrow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[eyebrow / crooked / dawn / solid] | L7:OK | L8:合适
-- eyelash | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[eyelash / straight / bunny / worm] | L7:OK | L8:合适
-- tongue | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tongue / moment / flame / once] | L7:OK | L8:合适
-- throat | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[throat / cereal / doughnut / oatmeal] | L7:OK | L8:合适
-- shoulder | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shoulder / palm / ankle / rib] | L7:OK | L8:合适
-- hip | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hip / skull / heel / rib] | L7:OK | L8:合适
-- spine | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[spine / wrist / hip / palm] | L7:OK | L8:合适
-- rib | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[rib / hip / shoulder / wrist] | L7:OK | L8:合适
-- skull | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[skull / rib / spine / chin] | L7:OK | L8:合适
-- muscle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[muscle / wrist / shoulder / heel] | L7:OK | L8:合适
-- mitten | L5-Def:能 | L5-Ex:能(线索词:warm,hand) | L6:能(线索足(例句含:warm,hand)) | 选项:[mitten / secret / rough / forever] | L7:OK | L8:合适
-- scarf | L5-Def:能 | L5-Ex:勉强(线索少(仅:neck)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:neck)，同类词易混) | 选项:[scarf / clever / dull / stamp] | L7:OK | L8:合适
-- hoodie | L5-Def:能 | L5-Ex:勉强(线索少(仅:hood)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:hood)，同类词易混) | 选项:[hoodie / pocket / curtain / get up] | L7:OK | L8:合适
-- vest | L5-Def:能 | L5-Ex:勉强(线索少(仅:shirt)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:shirt)，同类词易混) | 选项:[vest / scissors / cottage / slipper] | L7:OK | L8:合适
-- apron | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[apron / come in / sneaker / tower] | L7:OK | L8:合适
-- sleeve | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sleeve / scissors / narrow / thermometer] | L7:OK | L8:合适
-- pocket | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pocket / slipper / lace / huge] | L7:OK | L8:合适
-- zipper | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[zipper / homesick / frog / backward] | L7:OK | L8:合适
-- button | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[button / blanket / sleeve / castle] | L7:OK | L8:合适
-- buckle | L5-Def:能 | L5-Ex:勉强(线索少(仅:belt)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:belt)，同类词易混) | 选项:[buckle / late / riddle / ash] | L7:OK | L8:合适
-- lace | L5-Def:能 | L5-Ex:勉强(线索少(仅:shoe)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:shoe)，同类词易混) | 选项:[lace / cabin / collar / curtain] | L7:OK | L8:合适
-- slipper | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[slipper / tower / boot / cabin] | L7:OK | L8:合适
-- sandal | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sandal / boot / lace / pocket] | L7:OK | L8:合适
-- sneaker | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sneaker / sandal / cottage / pocket] | L7:OK | L8:合适
-- boot | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[boot / closet / cottage / get up] | L7:OK | L8:合适
-- collar | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[collar / huge / get up / pajamas] | L7:OK | L8:合适
-- hem | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hem / wizard / raccoon / trail] | L7:OK | L8:合适
-- pajamas | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pajamas / slipper / scissors / sleeve] | L7:OK | L8:合适
-- costume | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[costume / pajamas / scissors / cottage] | L7:OK | L8:合适
-- uniform | L5-Def:能 | L5-Ex:勉强(线索少(仅:same)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:same)，同类词易混) | 选项:[uniform / button / apron / tower] | L7:OK | L8:合适
-- blanket | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[blanket / ruler / barn / sleeve] | L7:OK | L8:合适
-- pillow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pillow / many / journey / stubborn] | L7:OK | L8:合适
-- towel | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[towel / stranger / thin / after] | L7:OK | L8:合适
-- soap | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[soap / swamp / bark / dew] | L7:OK | L8:合适
-- sponge | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sponge / clever / clumsy / cave] | L7:OK | L8:合适
-- broom | L5-Def:能 | L5-Ex:勉强(线索少(仅:used)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:used)，同类词易混) | 选项:[broom / late / brave / stale] | L7:OK | L8:合适
-- bucket | L5-Def:能 | L5-Ex:勉强(线索少(仅:sand)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:sand)，同类词易混) | 选项:[bucket / crowded / forward / ash] | L7:OK | L8:合适
-- ladder | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ladder / rascal / switch / twice] | L7:OK | L8:合适
-- drawer | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[drawer / envelope / hoof / tag] | L7:OK | L8:合适
-- shelf | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shelf / wizard / straight / sour] | L7:OK | L8:合适
-- closet | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[closet / slipper / blanket / sandal] | L7:OK | L8:合适
-- curtain | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[curtain / pocket / castle / slipper] | L7:OK | L8:合适
-- rug | L5-Def:能 | L5-Ex:勉强(线索少(仅:soft)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:soft)，同类词易混) | 选项:[rug / moment / popcorn / spare] | L7:OK | L8:合适
-- lamp | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[lamp / fancy / character / enough] | L7:OK | L8:合适
-- candle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[candle / scattered / eyelash / sharp] | L7:OK | L8:合适
-- vase | L5-Def:能 | L5-Ex:勉强(线索少(仅:put)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:put)，同类词易混) | 选项:[vase / parade / thorn / acorn] | L7:OK | L8:合适
-- frame | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[frame / sticky / before / bucket] | L7:OK | L8:合适
-- envelope | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[envelope / bucket / thin / lazy] | L7:OK | L8:合适
-- stamp | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stamp / giant / caterpillar / lazy] | L7:OK | L8:合适
-- package | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[package / whole / candle / bark] | L7:OK | L8:合适
-- scissors | L5-Def:能 | L5-Ex:勉强(线索少(仅:paper)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:paper)，同类词易混) | 选项:[scissors / pocket / narrow / cabin] | L7:OK | L8:合适
-- glue | L5-Def:能 | L5-Ex:勉强(线索少(仅:stick)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:stick)，同类词易混) | 选项:[glue / whisker / damp / across] | L7:OK | L8:合适
-- tape | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tape / bunch / clever / jealous] | L7:OK | L8:合适
-- crayon | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[crayon / half / straight / bored] | L7:OK | L8:合适
-- chalk | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[chalk / dull / package / towel] | L7:OK | L8:合适
-- eraser | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[eraser / drawer / many / bubble] | L7:OK | L8:合适
-- ruler | L5-Def:能 | L5-Ex:勉强(线索少(仅:straight)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:straight)，同类词易混) | 选项:[ruler / try on / cottage / sneaker] | L7:OK | L8:合适
-- thermometer | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[thermometer / narrow / stable / sandal] | L7:OK | L8:勉强(词形偏长；更适合先听说后拼写)
-- battery | L5-Def:能 | L5-Ex:勉强(线索少(仅:toy)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:toy)，同类词易混) | 选项:[battery / shield / enough / swamp] | L7:OK | L8:合适
-- switch | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[switch / cave / recent / dragon] | L7:OK | L8:合适
-- barn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[barn / get up / closet / come in] | L7:OK | L8:合适
-- stable | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stable / uniform / come in / pocket] | L7:OK | L8:合适
-- cabin | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cabin / hoodie / lace / boot] | L7:OK | L8:合适
-- cottage | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cottage / lace / stable / thermometer] | L7:OK | L8:合适
-- castle | L5-Def:能 | L5-Ex:勉强(线索少(仅:lived)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:lived)，同类词易混) | 选项:[castle / cottage / tower / hoodie] | L7:OK | L8:合适
-- tower | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tower / try on / stable / button] | L7:OK | L8:合适
-- bridge | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[bridge / broom / enormous / grumpy] | L7:OK | L8:合适
-- tunnel | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tunnel / mushroom / recent / monster] | L7:OK | L8:合适
-- harbor | L5-Def:能 | L5-Ex:勉强(线索少(仅:boats)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:boats)，同类词易混) | 选项:[harbor / smoke / damp / entire] | L7:OK | L8:合适
-- island | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[island / envelope / next / glue] | L7:OK | L8:合适
-- forest | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[forest / stem / pinecone / bloom] | L7:OK | L8:合适
-- meadow | L5-Def:能 | L5-Ex:勉强(线索少(仅:grass)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:grass)，同类词易混) | 选项:[meadow / root / acorn / seed] | L7:OK | L8:合适
-- pond | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pond / wide / buckle / riddle] | L7:OK | L8:合适
-- stream | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stream / before / cliff / knight] | L7:OK | L8:合适
-- cliff | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cliff / crew / hollow / graceful] | L7:OK | L8:合适
-- cave | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cave / pond / crowd / whisker] | L7:OK | L8:合适
-- desert | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[desert / rainbow / whisper / passenger] | L7:OK | L8:合适
-- jungle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[jungle / sprout / petal / seed] | L7:OK | L8:合适
-- swamp | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[swamp / twice / rotten / secret] | L7:OK | L8:合适
-- valley | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[valley / shadow / soon / strange] | L7:OK | L8:合适
-- storm | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[storm / whisper / icicle / wonderful] | L7:OK | L8:合适
-- thunder | L5-Def:能 | L5-Ex:勉强(线索少(仅:loud)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:loud)，同类词易混) | 选项:[thunder / warm / melt / freeze] | L7:OK | L8:合适
-- lightning | L5-Def:能 | L5-Ex:勉强(线索少(仅:sky)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:sky)，同类词易混) | 选项:[lightning / desert / hear / rainbow] | L7:OK | L8:合适
-- rainbow | L5-Def:能 | L5-Ex:能(线索词:after,rain) | L6:能(线索足(例句含:after,rain)) | 选项:[rainbow / lightning / hear / thunder] | L7:OK | L8:合适
-- breeze | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[breeze / hail / passenger / juicy] | L7:OK | L8:合适
-- frost | L5-Def:能 | L5-Ex:勉强(线索少(仅:cold)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:cold)，同类词易混) | 选项:[frost / melt / lightning / storm] | L7:OK | L8:合适
-- icicle | L5-Def:能 | L5-Ex:勉强(线索少(仅:long)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:long)，同类词易混) | 选项:[icicle / freezing / hail / storm] | L7:OK | L8:合适
-- puddle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[puddle / echo / shelf / fog] | L7:OK | L8:合适
-- mud | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[mud / hen / rotten / along] | L7:OK | L8:合适
-- dust | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dust / single / throne / package] | L7:OK | L8:合适
-- dew | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dew / fancy / empty / pair] | L7:OK | L8:合适
-- fog | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fog / patient / character / package] | L7:OK | L8:合适
-- hail | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hail / spill / rainbow / storm] | L7:OK | L8:合适
-- blizzard | L5-Def:能 | L5-Ex:勉强(线索少(仅:snow)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:snow)，同类词易混) | 选项:[blizzard / double / desert / ugly] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- drought | L5-Def:能 | L5-Ex:勉强(线索少(仅:long)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:long)，同类词易混) | 选项:[drought / cozy / hail / passenger] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- flood | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[flood / turtle / eyelash / twice] | L7:OK | L8:合适
-- petal | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[petal / vase / squirrel / acorn] | L7:OK | L8:合适
-- stem | L5-Def:能 | L5-Ex:能(线索词:long,green) | L6:能(线索足(例句含:long,green)) | 选项:[stem / vase / acorn / root] | L7:OK | L8:合适
-- root | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[root / jungle / vase / forest] | L7:OK | L8:合适
-- thorn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[thorn / moss / pinecone / forest] | L7:OK | L8:合适
-- vine | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[vine / petal / vase / parade] | L7:OK | L8:合适
-- moss | L5-Def:能 | L5-Ex:能(线索词:soft,green,rocks) | L6:能(线索足(例句含:soft,green,rocks)) | 选项:[moss / seed / thorn / stem] | L7:OK | L8:合适
-- acorn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[acorn / seed / stem / bloom] | L7:OK | L8:合适
-- pinecone | L5-Def:能 | L5-Ex:勉强(线索少(仅:tree)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:tree)，同类词易混) | 选项:[pinecone / seed / stem / moss] | L7:OK | L8:合适
-- seed | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[seed / squirrel / peanut / moss] | L7:OK | L8:合适
-- crawl | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[crawl / tiptoe / remind / shake] | L7:OK | L8:合适
-- leap | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[leap / tumble / twist / howl] | L7:OK | L8:合适
-- skip | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[skip / hold on / run out / shove] | L7:OK | L8:合适
-- stomp | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stomp / roar / chop / clap] | L7:OK | L8:合适
-- tiptoe | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tiptoe / discover / hurry up / hum] | L7:OK | L8:合适
-- march | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[march / turn off / drag / spread] | L7:OK | L8:合适
-- dash | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dash / count / create / chase] | L7:OK | L8:合适
-- chase | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[chase / measure / march / toss] | L7:OK | L8:合适
-- grab | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[grab / count / crawl / snuggle] | L7:OK | L8:合适
-- toss | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[toss / sideways / roar / drag] | L7:OK | L8:合适
-- catch | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[catch / scoop / twist / flutter] | L7:OK | L8:合适
-- squeeze | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[squeeze / stand up / twist / count] | L7:OK | L8:合适
-- stretch | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stretch / find out / skip / clap] | L7:OK | L8:合适
-- bend | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[bend / attach / run out / dash] | L7:OK | L8:合适
-- twist | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[twist / bend / stretch / calm down] | L7:OK | L8:合适
-- shake | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shake / wave / leap / gather] | L7:OK | L8:合适
-- stir | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stir / sideways / stomp / measure] | L7:OK | L8:合适
-- pour | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pour / passenger / storm / freeze] | L7:OK | L8:合适
-- spill | L5-Def:能 | L5-Ex:勉强(线索少(仅:juice)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:juice)，同类词易混) | 选项:[spill / rainbow / wonderful / breeze] | L7:OK | L8:合适
-- drip | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[drip / catch / clean up / hum] | L7:OK | L8:合适
-- splash | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[splash / tuck / borrow / attach] | L7:OK | L8:合适
-- float | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[float / sort / fetch / lend] | L7:OK | L8:合适
-- sink | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sink / stretch / march / grab] | L7:OK | L8:合适
-- melt | L5-Def:能 | L5-Ex:勉强(线索少(仅:ice)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:ice)，同类词易混) | 选项:[melt / rainbow / pour / drought] | L7:OK | L8:合适
-- freeze | L5-Def:能 | L5-Ex:勉强(线索少(仅:ice)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:ice)，同类词易混) | 选项:[freeze / frost / freezing / storm] | L7:OK | L8:合适
-- peel | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[peel / cherry / peach / plum] | L7:OK | L8:合适
-- chop | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[chop / look out / sit down / belong] | L7:OK | L8:合适
-- grate | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[grate / bitter / cereal / toast] | L7:OK | L8:合适
-- spread | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[spread / peek / lend / hang] | L7:OK | L8:合适
-- sprinkle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sprinkle / count / chop / wave] | L7:OK | L8:合适
-- scoop | L5-Def:能 | L5-Ex:勉强(线索少(仅:spoon)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:spoon)，同类词易混) | 选项:[scoop / unwrap / drag / attach] | L7:OK | L8:合适
-- whisper | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[whisper / icicle / frost / pour] | L7:OK | L8:合适
-- shout | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shout / squeeze / tiptoe / howl] | L7:OK | L8:合适
-- giggle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[giggle / look out / sideways / wobble] | L7:OK | L8:合适
-- howl | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[howl / wake up / look out / stand up] | L7:OK | L8:合适
-- bark | L5-Def:能 | L5-Ex:勉强(线索少(仅:loud)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:loud)，同类词易混) | 选项:[bark / stubborn / brave / harbor] | L7:OK | L8:合适
-- roar | L5-Def:能 | L5-Ex:勉强(线索少(仅:lion)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:lion)，同类词易混) | 选项:[roar / tumble / wake up / shout] | L7:OK | L8:合适
-- hum | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hum / look out / give up / grab] | L7:OK | L8:合适
-- clap | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[clap / repair / snuggle / sink] | L7:OK | L8:合适
-- wave | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wave / count / scoop / lend] | L7:OK | L8:合适
-- nod | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[nod / count / hum / toss] | L7:OK | L8:合适
-- peek | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[peek / bend / discover / roar] | L7:OK | L8:合适
-- stare | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stare / chase / tuck / figure out] | L7:OK | L8:合适
-- glance | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[glance / vanish / snore / sink] | L7:OK | L8:合适
-- search | L5-Def:勉强(卡在长词:carefully,something) | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[search / collect / lend / crawl] | L7:OK | L8:合适
-- discover | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[discover / march / stir / whirl] | L7:OK | L8:合适
-- notice | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[notice / wave / take / imagine] | L7:OK | L8:合适
-- wonder | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wonder / weigh / tiptoe / measure] | L7:OK | L8:合适
-- imagine | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[imagine / teach / stretch / collect] | L7:OK | L8:合适
-- pretend | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pretend / come back / unwrap / show off] | L7:OK | L8:合适
-- promise | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[promise / giggle / spread / bend] | L7:OK | L8:合适
-- remind | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[remind / count / shiver / design] | L7:OK | L8:合适
-- forget | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[forget / show off / gather / stomp] | L7:OK | L8:合适
-- belong | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[belong / find out / stir / drip] | L7:OK | L8:合适
-- share | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[share / hip / rib / ankle] | L7:OK | L8:合适
-- trade | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[trade / come back / wake up / sideways] | L7:OK | L8:合适
-- borrow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[borrow / sprinkle / discover / peek] | L7:OK | L8:合适
-- lend | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[lend / fasten / stare / take] | L7:OK | L8:合适
-- gather | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[gather / tug / fall down / wrap] | L7:OK | L8:合适
-- collect | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[collect / shiver / tuck / repair] | L7:OK | L8:合适
-- stack | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stack / tumble / sparkle / teach] | L7:OK | L8:合适
-- wrap | L5-Def:能 | L5-Ex:勉强(线索少(仅:paper)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:paper)，同类词易混) | 选项:[wrap / crawl / hold on / sink] | L7:OK | L8:合适
-- unwrap | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[unwrap / tug / splash / clean up] | L7:OK | L8:合适
-- tug | L5-Def:能 | L5-Ex:勉强(线索少(仅:hard)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:hard)，同类词易混) | 选项:[tug / go away / create / glance] | L7:OK | L8:合适
-- drag | L5-Def:能 | L5-Ex:勉强(线索少(仅:heavy)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:heavy)，同类词易混) | 选项:[drag / tug / gather / peek] | L7:OK | L8:合适
-- shove | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shove / create / fall down / weigh] | L7:OK | L8:合适
-- tuck | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tuck / give up / skip / wobble] | L7:OK | L8:合适
-- hang | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hang / discover / lend / belong] | L7:OK | L8:合适
-- fasten | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fasten / borrow / flutter / shiver] | L7:OK | L8:合适
-- attach | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[attach / sit down / chase / lose] | L7:OK | L8:合适
-- repair | L5-Def:能 | L5-Ex:勉强(线索少(仅:broken)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:broken)，同类词易混) | 选项:[repair / squeeze / hold on / tuck] | L7:OK | L8:合适
-- create | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[create / hum / wilt / stand up] | L7:OK | L8:合适
-- design | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[design / turn on / sprinkle / shout] | L7:OK | L8:合适
-- measure | L5-Def:能 | L5-Ex:勉强(线索少(仅:how)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:how)，同类词易混) | 选项:[measure / find out / hang / peek] | L7:OK | L8:合适
-- weigh | L5-Def:能 | L5-Ex:能(线索词:how,heavy) | L6:能(线索足(例句含:how,heavy)) | 选项:[weigh / promise / stare / run out] | L7:OK | L8:合适
-- count | L5-Def:能 | L5-Ex:能(线索词:how,many) | L6:能(线索足(例句含:how,many)) | 选项:[count / sparkle / pick up / sit down] | L7:OK | L8:合适
-- sort | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sort / leap / peek / march] | L7:OK | L8:合适
-- match | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[match / weigh / trade / twist] | L7:OK | L8:合适
-- deliver | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[deliver / drip / borrow / shout] | L7:OK | L8:合适
-- fetch | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fetch / clean up / collect / measure] | L7:OK | L8:合适
-- vanish | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[vanish / whirl / come back / stare] | L7:OK | L8:合适
-- tiny | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tiny / wand / valley / recent] | L7:OK | L8:合适
-- huge | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[huge / ruler / stable / sleeve] | L7:OK | L8:合适
-- enormous | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[enormous / jealous / harbor / riddle] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- narrow | L5-Def:勉强(定义里有抽象/解释性表达) | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[narrow / barn / sneaker / hoodie] | L7:OK | L8:合适
-- wide | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wide / busy / drawer / once] | L7:OK | L8:合适
-- steep | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[steep / bubble / tongue / worried] | L7:OK | L8:合适
-- shallow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shallow / neighbor / treasure / whenever] | L7:OK | L8:合适
-- deep | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[deep / busy / later / moment] | L7:OK | L8:合适
-- thick | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[thick / wild / lazy / dusk] | L7:OK | L8:合适
-- thin | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[thin / next / curious / scale] | L7:OK | L8:合适
-- smooth | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[smooth / spider / more / together] | L7:OK | L8:合适
-- rough | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[rough / entire / greedy / sword] | L7:OK | L8:合适
-- sharp | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sharp / shield / empty / salty] | L7:注意(涉及武器/捕捉；建议例句保持“安全/不鼓励攻击”语气) | L8:合适
-- dull | L5-Def:能 | L5-Ex:勉强(线索少(仅:cut)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:cut)，同类词易混) | 选项:[dull / lamp / homesick / then] | L7:OK | L8:合适
-- shiny | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shiny / lizard / shield / single] | L7:OK | L8:合适
-- damp | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[damp / mud / spider / more] | L7:OK | L8:合适
-- soaking | L5-Def:勉强(定义里有抽象/解释性表达) | L5-Ex:勉强(线索少(仅:wet)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:wet)，同类词易混) | 选项:[soaking / caterpillar / more / backward] | L7:OK | L8:合适
-- dry | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dry / zipper / tight / bark] | L7:OK | L8:合适
-- sticky | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sticky / cave / amount / wild] | L7:OK | L8:合适
-- slimy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[slimy / creamy / above / rascal] | L7:OK | L8:合适
-- fluffy | L5-Def:能 | L5-Ex:勉强(线索少(仅:like)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:like)，同类词易混) | 选项:[fluffy / solid / flood / moose] | L7:OK | L8:合适
-- fuzzy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fuzzy / author / dwarf / sword] | L7:OK | L8:合适
-- cozy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cozy / hail / hear / lightning] | L7:OK | L8:合适
-- chilly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[chilly / slowly / gently / loudly] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- freezing | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[freezing / frost / breeze / blizzard] | L7:OK | L8:合适
-- boiling | L5-Def:能 | L5-Ex:勉强(线索少(仅:hot)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:hot)，同类词易混) | 选项:[boiling / journey / echo / bored] | L7:OK | L8:合适
-- warm | L5-Def:能 | L5-Ex:勉强(线索少(仅:nice)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:nice)，同类词易混) | 选项:[warm / freezing / blizzard / thunder] | L7:OK | L8:合适
-- fierce | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fierce / character / hoof / wizard] | L7:OK | L8:合适
-- gentle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[gentle / loose / thumb / leash] | L7:OK | L8:合适
-- brave | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[brave / frame / surprise / throne] | L7:OK | L8:合适
-- shy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shy / miserable / hopeful / frustrated] | L7:OK | L8:合适
-- proud | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[proud / gloomy / cheerful / content] | L7:OK | L8:合适
-- curious | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[curious / scarf / deep / rascal] | L7:OK | L8:合适
-- grumpy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[grumpy / fuzzy / island / spider] | L7:OK | L8:合适
-- cheerful | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[cheerful / uncomfortable / disappointed / surprised] | L7:OK | L8:合适
-- lonely | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[lonely / frustrated / peaceful / hopeful] | L7:OK | L8:合适
-- calm | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[calm / tunnel / plain / dust] | L7:OK | L8:合适
-- wild | L5-Def:能 | L5-Ex:勉强(线索少(仅:free)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:free)，同类词易混) | 选项:[wild / dragon / thin / smooth] | L7:OK | L8:合适
-- tame | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tame / quarter / recent / tongue] | L7:OK | L8:合适
-- plain | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[plain / solid / adventure / below] | L7:OK | L8:合适
-- fancy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fancy / late / twice / whole] | L7:OK | L8:合适
-- ripe | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ripe / peel / lemon / cherry] | L7:OK | L8:合适
-- rotten | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[rotten / rough / strange / between] | L7:OK | L8:合适
-- fresh | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fresh / sour / late / princess] | L7:OK | L8:合适
-- stale | L5-Def:能 | L5-Ex:勉强(线索少(仅:anymore)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:anymore)，同类词易混) | 选项:[stale / jealous / apart / crooked] | L7:OK | L8:合适
-- bitter | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[bitter / cereal / grate / cookie] | L7:OK | L8:合适
-- sour | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sour / journey / soon / mushroom] | L7:OK | L8:合适
-- salty | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[salty / droplet / crowd / below] | L7:OK | L8:合适
-- juicy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[juicy / pour / warm / cozy] | L7:OK | L8:合适
-- crunchy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[crunchy / tight / salty / rascal] | L7:OK | L8:合适
-- creamy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[creamy / deep / fog / fur] | L7:OK | L8:合适
-- silent | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[silent / often / scale / pair] | L7:OK | L8:合适
-- loud | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[loud / beaver / audience / mane] | L7:OK | L8:合适
-- hollow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hollow / tale / plenty / island] | L7:OK | L8:合适
-- solid | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[solid / bucket / dull / sudden] | L7:OK | L8:合适
-- loose | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[loose / clever / backward / crooked] | L7:OK | L8:合适
-- tight | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tight / clever / footprint / many] | L7:OK | L8:合适
-- crooked | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[crooked / hive / amazed / dawn] | L7:OK | L8:合适
-- straight | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[straight / soaking / ripple / riddle] | L7:OK | L8:合适
-- crowded | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[crowded / calm / rotten / below] | L7:OK | L8:合适
-- empty | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[empty / whenever / between / whole] | L7:OK | L8:合适
-- whole | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[whole / claw / title / enormous] | L7:OK | L8:合适
-- spare | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[spare / puddle / surprise / rascal] | L7:OK | L8:合适
-- certain | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[certain / caterpillar / puddle / author] | L7:OK | L8:合适
-- strange | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[strange / eager / late / none] | L7:OK | L8:合适
-- wonderful | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wonderful / lightning / freezing / juicy] | L7:OK | L8:合适
-- terrible | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[terrible / exhausted / frightened / terrified] | L7:OK | L8:合适
-- perfect | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[perfect / neighbor / hen / dawn] | L7:OK | L8:合适
-- ugly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ugly / whisper / pour / freezing] | L7:OK | L8:合适
-- beautiful | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[beautiful / later / droplet / once] | L7:OK | L8:合适
-- clever | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[clever / adventure / flame / paw] | L7:注意(涉及武器/捕捉；建议例句保持“安全/不鼓励攻击”语气) | L8:合适
-- foolish | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[foolish / few / puddle / deep] | L7:OK | L8:合适
-- greedy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[greedy / echo / tape / more] | L7:OK | L8:合适
-- generous | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[generous / content / annoyed / peaceful] | L7:OK | L8:合适
-- patient | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[patient / bunch / tale / zipper] | L7:OK | L8:合适
-- stubborn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stubborn / once / hen / snail] | L7:OK | L8:合适
-- lazy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[lazy / knight / eraser / mane] | L7:OK | L8:合适
-- busy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[busy / fairy / amazed / before] | L7:OK | L8:合适
-- clumsy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[clumsy / forehead / pillow / dew] | L7:OK | L8:合适
-- graceful | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[graceful / middle / shallow / wand] | L7:OK | L8:合适
-- quickly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[quickly / suddenly / chilly / finally] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- slowly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[slowly / chilly / gently / weekly] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- quietly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[quietly / weekly / chilly / daily] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- loudly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[loudly / suddenly / gently / slowly] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- gently | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[gently / chilly / quickly / weekly] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- suddenly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[suddenly / quietly / finally / early] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- already | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[already / instead / nowadays / barely] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- almost | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[almost / nowadays / until / instead] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- barely | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[barely / beneath / upon / exactly] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- perhaps | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[perhaps / besides / almost / toward] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- exactly | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[exactly / anyway / beneath / toward] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- instead | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[instead / since / against / upon] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- anyway | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[anyway / until / barely / beneath] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- forever | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[forever / brave / cave / chapter] | L7:OK | L8:合适
-- apart | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[apart / pattern / cave / rotten] | L7:OK | L8:合适
-- together | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[together / soon / across / herd] | L7:OK | L8:合适
-- forward | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[forward / fluffy / caterpillar / half] | L7:OK | L8:合适
-- backward | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[backward / tag / furious / plain] | L7:OK | L8:合适
-- sideways | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sideways / snore / tuck / drip] | L7:OK | L8:合适
-- beneath | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[beneath / until / within / against] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- above | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[above / jealous / footprint / pillow] | L7:OK | L8:合适
-- below | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[below / fist / pillow / straight] | L7:OK | L8:合适
-- beside | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[beside / quarter / stamp / bunny] | L7:OK | L8:合适
-- between | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[between / cave / through / shiny] | L7:OK | L8:合适
-- among | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[among / perhaps / upon / than] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- toward | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[toward / perhaps / throughout / since] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- against | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[against / meanwhile / instead / already] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- through | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[through / dawn / rotten / loose] | L7:OK | L8:合适
-- across | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[across / apart / herd / quarter] | L7:OK | L8:合适
-- along | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[along / worm / frog / beaver] | L7:OK | L8:合适
-- around | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[around / claw / mud / amount] | L7:OK | L8:合适
-- beyond | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[beyond / through / turtle / giant] | L7:OK | L8:合适
-- during | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[during / throughout / within / nowadays] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- until | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[until / upon / barely / meanwhile] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- since | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[since / throughout / instead / barely] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- whether | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[whether / within / until / meanwhile] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- while | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[while / exactly / within / upon] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- besides | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[besides / upon / exactly / since] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- within | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[within / meanwhile / anyway / until] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- without | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[without / perhaps / barely / against] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- throughout | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[throughout / against / upon / until] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- upon | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[upon / without / exactly / besides] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- pick up | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pick up / hurry up / drip / unwrap] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- put down | L5-Def:能 | L5-Ex:勉强(线索少(仅:table)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:table)，同类词易混) | 选项:[put down / remind / tug / tuck] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- look at | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[look at / hurry up / nod / catch] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- come back | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[come back / turn off / scoop / trade] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- sit down | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sit down / toss / catch / turn on] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- stand up | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stand up / forget / fall down / belong] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- wake up | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wake up / pick up / design / fall down] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- give up | L5-Def:能 | L5-Ex:勉强(线索少(仅:trying)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:trying)，同类词易混) | 选项:[give up / fetch / flutter / attach] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- find out | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[find out / shove / flutter / search] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- turn off | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[turn off / throw away / hum / splash] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- turn on | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[turn on / catch / crawl / wake up] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- fall down | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fall down / sprinkle / nod / come back] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- get up | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[get up / uniform / vest / boot] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- look out | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[look out / turn off / collect / measure] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- hold on | L5-Def:能 | L5-Ex:勉强(线索少(仅:fall)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:fall)，同类词易混) | 选项:[hold on / weigh / shake / sort] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- clean up | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[clean up / toss / fasten / sparkle] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- hurry up | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hurry up / grab / shake / splash] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- calm down | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[calm down / hurry up / crawl / trade] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- try on | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[try on / sandal / button / ruler] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- throw away | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[throw away / peek / hang / discover] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- run out | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[run out / fetch / bend / march] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- come in | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[come in / cottage / blanket / collar] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- go away | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[go away / take / sit down / give up] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- show off | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[show off / repair / figure out / pick up] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- figure out | L5-Def:能 | L5-Ex:勉强(线索少(仅:answer)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:answer)，同类词易混) | 选项:[figure out / fetch / pick up / wobble] | L7:OK | L8:合适(常用口语短语，配合动作(TPR)很好教)
-- excited | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[excited / cheerful / miserable / ashamed] | L7:OK | L8:合适
-- nervous | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[nervous / cheerful / gloomy / terrible] | L7:OK | L8:合适
-- frightened | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[frightened / excited / relieved / ashamed] | L7:OK | L8:合适
-- surprised | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[surprised / hopeful / uncomfortable / nervous] | L7:OK | L8:合适
-- confused | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[confused / entire / clumsy / tongue] | L7:OK | L8:合适
-- disappointed | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[disappointed / surprised / hopeful / terrible] | L7:OK | L8:勉强(词形偏长；更适合先听说后拼写)
-- frustrated | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[frustrated / content / frightened / relieved] | L7:OK | L8:合适
-- jealous | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[jealous / flood / few / drawer] | L7:OK | L8:合适
-- embarrassed | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[embarrassed / uncomfortable / terrified / cheerful] | L7:OK | L8:勉强(词形偏长；更适合先听说后拼写)
-- worried | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[worried / mud / recent / frog] | L7:OK | L8:合适
-- grateful | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[grateful / jealous / tail / towel] | L7:OK | L8:合适
-- annoyed | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[annoyed / delighted / relieved / embarrassed] | L7:OK | L8:合适
-- bored | L5-Def:能 | L5-Ex:勉强(线索少(仅:nothing)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:nothing)，同类词易混) | 选项:[bored / bunch / boiling / recent] | L7:OK | L8:合适
-- amazed | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[amazed / audience / skunk / together] | L7:OK | L8:合适
-- terrified | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[terrified / comfortable / content / nervous] | L7:OK | L8:合适
-- furious | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[furious / ladder / stream / towel] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- miserable | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[miserable / terrified / shy / peaceful] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- relieved | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[relieved / terrible / frustrated / exhausted] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- peaceful | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[peaceful / terrified / excited / exhausted] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- comfortable | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[comfortable / excited / frightened / poem] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- uncomfortable | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[uncomfortable / embarrassed / gloomy / frustrated] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- exhausted | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[exhausted / frightened / peaceful / excited] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- delighted | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[delighted / generous / comfortable / ashamed] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- gloomy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[gloomy / comfortable / ashamed / terrible] | L7:OK | L8:合适
-- hopeful | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hopeful / relieved / lonely / frightened] | L7:OK | L8:合适
-- cranky | L5-Def:能 | L5-Ex:能(线索词:tired,hungry) | L6:能(线索足(例句含:tired,hungry)) | 选项:[cranky / surprised / cheerful / comfortable] | L7:OK | L8:合适
-- content | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[content / generous / exhausted / excited] | L7:OK | L8:合适
-- eager | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[eager / caterpillar / straight / knight] | L7:OK | L8:合适
-- homesick | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[homesick / next / den / boiling] | L7:OK | L8:合适
-- ashamed | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ashamed / frightened / cheerful / hopeful] | L7:OK | L8:合适
-- before | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[before / coach / tail / paw] | L7:OK | L8:合适
-- after | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[after / soap / once / shiny] | L7:OK | L8:合适
-- next | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[next / strange / scattered / damp] | L7:OK | L8:合适
-- then | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[then / dawn / beyond / crown] | L7:OK | L8:合适
-- finally | L5-Def:能 | L5-Ex:勉强(线索少(仅:after)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:after)，同类词易混) | 选项:[finally / chilly / quietly / early] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- meanwhile | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[meanwhile / anyway / among / throughout] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- soon | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[soon / neighbor / mistake / fist] | L7:OK | L8:合适
-- later | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[later / salty / damp / worried] | L7:OK | L8:合适
-- early | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[early / daily / gently / quickly] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- late | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[late / hoof / once / whole] | L7:OK | L8:合适
-- beginning | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[beginning / trail / toad / amazed] | L7:OK | L8:合适
-- middle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[middle / whole / extra / homesick] | L7:OK | L8:合适
-- ending | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ending / dragon / hive / amount] | L7:OK | L8:合适
-- moment | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[moment / journey / battery / rug] | L7:OK | L8:合适
-- sudden | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sudden / ladder / above / straight] | L7:OK | L8:合适
-- recent | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[recent / popcorn / hive / package] | L7:OK | L8:合适
-- daily | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[daily / weekly / early / suddenly] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- weekly | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[weekly / quickly / slowly / early] | L7:OK | L8:合适(常见副词，建议配合动作/对比(quickly vs slowly))
-- whenever | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[whenever / cheek / monster / wizard] | L7:OK | L8:合适
-- once | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[once / pony / empty / between] | L7:OK | L8:合适
-- twice | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[twice / crown / enormous / cliff] | L7:OK | L8:合适
-- often | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[often / loose / once / silent] | L7:OK | L8:合适
-- nowadays | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[nowadays / within / anyway / without] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
-- dozen | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dozen / sudden / entire / solid] | L7:OK | L8:合适
-- half | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[half / stubborn / rug / bubble] | L7:OK | L8:合适
-- pair | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pair / beyond / perfect / single] | L7:OK | L8:合适
-- entire | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[entire / whole / half / average] | L7:OK | L8:合适
-- double | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[double / ugly / cozy / freeze] | L7:OK | L8:合适
-- single | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[single / soon / fist / foolish] | L7:OK | L8:合适
-- plenty | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[plenty / broom / mud / scattered] | L7:OK | L8:合适
-- several | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[several / smooth / whole / dew] | L7:OK | L8:合适
-- few | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[few / worried / stamp / sudden] | L7:OK | L8:合适
-- many | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[many / footprint / shadow / several] | L7:OK | L8:合适
-- none | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[none / eyelash / certain / audience] | L7:OK | L8:合适
-- bunch | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[bunch / smooth / giant / once] | L7:OK | L8:合适
-- pile | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pile / fluffy / swamp / frame] | L7:OK | L8:合适
-- heap | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[heap / herd / mane / wand] | L7:OK | L8:合适
-- piece | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[piece / between / forward / average] | L7:OK | L8:合适
-- portion | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[portion / gravy / grate / cereal] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- amount | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[amount / thumb / fancy / leash] | L7:OK | L8:合适
-- total | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[total / frog / busy / cliff] | L7:OK | L8:合适
-- extra | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[extra / equal / spider / secret] | L7:OK | L8:合适
-- enough | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[enough / late / below / cave] | L7:OK | L8:合适
-- less | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[less / shallow / lamp / plenty] | L7:OK | L8:合适
-- more | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[more / sudden / eraser / candle] | L7:OK | L8:合适
-- quarter | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[quarter / beaver / wild / brave] | L7:OK | L8:合适
-- equal | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[equal / whisker / shallow / gentle] | L7:OK | L8:合适
-- average | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[average / slimy / thick / whenever] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- shadow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shadow / towel / dawn / whole] | L7:OK | L8:合适
-- echo | L5-Def:能 | L5-Ex:勉强(线索少(仅:back)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:back)，同类词易混) | 选项:[echo / village / coach / shallow] | L7:OK | L8:合适
-- secret | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[secret / dry / fierce / crowd] | L7:OK | L8:合适
-- surprise | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[surprise / crayon / then / buckle] | L7:OK | L8:合适
-- mistake | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[mistake / caterpillar / average / solid] | L7:OK | L8:合适
-- adventure | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[adventure / backward / toad / knight] | L7:OK | L8:合适
-- treasure | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[treasure / sponge / above / flame] | L7:OK | L8:合适
-- journey | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[journey / straight / grateful / amount] | L7:OK | L8:合适
-- village | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[village / beginning / moose / brave] | L7:OK | L8:合适
-- dock | L5-Def:能 | L5-Ex:勉强(线索少(仅:boats)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:boats)，同类词易混) | 选项:[dock / snail / bubble / moose] | L7:OK | L8:合适
-- crowd | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[crowd / eyebrow / mitten / turtle] | L7:OK | L8:合适
-- trail | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[trail / eyelash / clumsy / pair] | L7:OK | L8:合适
-- footprint | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[footprint / confused / shadow / stale] | L7:OK | L8:合适
-- pattern | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[pattern / cave / across / amazed] | L7:OK | L8:合适
-- riddle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[riddle / bucket / crew / fist] | L7:OK | L8:合适
-- poem | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[poem / relieved / terrified / cheerful] | L7:OK | L8:合适
-- tale | L5-Def:能 | L5-Ex:勉强(线索少(仅:told)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:told)，同类词易混) | 选项:[tale / ladder / battery / below] | L7:OK | L8:合适
-- legend | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[legend / giant / clumsy / soap] | L7:OK | L8:合适
-- character | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[character / mistake / total / twice] | L7:OK | L8:合适
-- chapter | L5-Def:能 | L5-Ex:勉强(线索少(仅:book)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:book)，同类词易混) | 选项:[chapter / none / itsy / droplet] | L7:OK | L8:合适
-- title | L5-Def:能 | L5-Ex:勉强(线索少(仅:book)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:book)，同类词易混) | 选项:[title / entire / more / enough] | L7:OK | L8:合适
-- author | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[author / dry / beside / after] | L7:OK | L8:合适
-- paw | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[paw / forever / chalk / eager] | L7:OK | L8:合适
-- claw | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[claw / stranger / solid / next] | L7:OK | L8:合适
-- feather | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[feather / owl / wing / sparrow] | L7:OK | L8:合适
-- fur | L5-Def:能 | L5-Ex:勉强(线索少(仅:soft)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:soft)，同类词易混) | 选项:[fur / fluffy / popcorn / sudden] | L7:OK | L8:合适
-- scale | L5-Def:能 | L5-Ex:勉强(线索少(仅:fish)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:fish)，同类词易混) | 选项:[scale / princess / lettuce / herd] | L7:OK | L8:合适
-- wing | L5-Def:能 | L5-Ex:勉强(线索少(仅:bird)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:bird)，同类词易混) | 选项:[wing / nest / crow / beak] | L7:OK | L8:合适
-- beak | L5-Def:能 | L5-Ex:勉强(线索少(仅:bird)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:bird)，同类词易混) | 选项:[beak / wing / nest / feather] | L7:OK | L8:合适
-- nest | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[nest / sparrow / owl / wing] | L7:OK | L8:合适
-- hive | L5-Def:能 | L5-Ex:勉强(线索少(仅:bees)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:bees)，同类词易混) | 选项:[hive / tame / equal / pillow] | L7:OK | L8:合适
-- den | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[den / creamy / gentle / forehead] | L7:OK | L8:合适
-- burrow | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[burrow / few / rotten / battery] | L7:OK | L8:合适
-- trap | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[trap / less / sticky / none] | L7:注意(涉及武器/捕捉；建议例句保持“安全/不鼓励攻击”语气) | L8:合适
-- leash | L5-Def:能 | L5-Ex:勉强(线索少(仅:dog)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:dog)，同类词易混) | 选项:[leash / wild / middle / mitten] | L7:OK | L8:合适
-- tag | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tag / damp / bubble / hive] | L7:OK | L8:合适
-- whisker | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[whisker / rascal / rotten / enormous] | L7:OK | L8:合适
-- tail | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tail / treasure / valley / bubble] | L7:OK | L8:合适
-- hoof | L5-Def:能 | L5-Ex:勉强(线索少(仅:horse's)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:horse's)，同类词易混) | 选项:[hoof / whenever / dawn / snail] | L7:OK | L8:合适
-- mane | L5-Def:能 | L5-Ex:勉强(线索少(仅:lion's)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:lion's)，同类词易混) | 选项:[mane / graceful / tag / raccoon] | L7:OK | L8:合适
-- flock | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[flock / crow / wing / owl] | L7:OK | L8:合适
-- herd | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[herd / drawer / below / legend] | L7:OK | L8:合适
-- pack | L5-Def:能 | L5-Ex:勉强(线索少(仅:wolves)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:wolves)，同类词易混) | 选项:[pack / package / apart / bark] | L7:OK | L8:合适
-- droplet | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[droplet / forehead / lettuce / dragon] | L7:OK | L8:合适
-- ripple | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[ripple / less / thin / puddle] | L7:OK | L8:合适
-- bubble | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[bubble / below / spider / whenever] | L7:OK | L8:合适
-- flame | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[flame / once / chalk / secret] | L7:OK | L8:合适
-- spark | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[spark / half / caterpillar / island] | L7:OK | L8:合适
-- smoke | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[smoke / stubborn / gentle / envelope] | L7:OK | L8:合适
-- ash | L5-Def:能 | L5-Ex:能(线索词:left,after) | L6:能(线索足(例句含:left,after)) | 选项:[ash / herd / tale / fresh] | L7:OK | L8:合适
-- dawn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dawn / glue / perfect / character] | L7:OK | L8:合适
-- dusk | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dusk / later / zipper / together] | L7:OK | L8:合适
-- midnight | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[midnight / package / buckle / sudden] | L7:OK | L8:合适
-- noon | L5-Def:能 | L5-Ex:勉强(线索少(仅:day)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:day)，同类词易混) | 选项:[noon / deep / patient / hive] | L7:OK | L8:合适
-- passenger | L5-Def:勉强(定义里有vehicle/airplane/riding等生词；需要靠“car/bus/train”反推) | L5-Ex:能(“on the bus + found a seat”很像乘客) | L6:能(用同level近义干扰也基本唯一) | 选项:[passenger / neighbor / stranger / audience] | L7:OK | L8:合适
-- neighbor | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[neighbor / monster / solid / entire] | L7:OK | L8:合适
-- stranger | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[stranger / puddle / amazed / tongue] | L7:OK(安全教育场景可接受；注意别造成过度恐惧) | L8:合适
-- parade | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[parade / squirrel / meadow / acorn] | L7:OK | L8:合适
-- audience | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[audience / worried / gigantic / apart] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- crew | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[crew / soap / package / neighbor] | L7:OK | L8:合适
-- coach | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[coach / extra / envelope / crowd] | L7:OK | L8:合适
-- chef | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[chef / jelly / noodle / pretzel] | L7:OK | L8:合适
-- mayor | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[mayor / tunnel / island / clumsy] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- inventor | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[inventor / sponge / across / noon] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- princess | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[princess / fur / fist / slimy] | L7:OK | L8:合适
-- knight | L5-Def:能 | L5-Ex:勉强(线索少(仅:armor)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:armor)，同类词易混) | 选项:[knight / damp / ending / shield] | L7:OK | L8:合适
-- wizard | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wizard / thick / scarf / shield] | L7:OK(童话设定，中国家长普遍可接受) | L8:合适
-- giant | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[giant / drawer / fluffy / none] | L7:OK | L8:合适
-- dwarf | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[dwarf / worried / loud / soon] | L7:OK | L8:合适
-- monster | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[monster / bunny / worm / ash] | L7:OK(童话设定，中国家长普遍可接受) | L8:合适
-- dragon | L5-Def:能 | L5-Ex:勉强(线索少(仅:wings)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:wings)，同类词易混) | 选项:[dragon / after / hem / beyond] | L7:OK(童话设定，中国家长普遍可接受) | L8:合适
-- fairy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[fairy / sharp / bunny / herd] | L7:OK(童话设定，中国家长普遍可接受) | L8:合适
-- shield | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shield / giant / none / patient] | L7:注意(涉及武器/捕捉；建议例句保持“安全/不鼓励攻击”语气) | L8:合适
-- sword | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sword / certain / grateful / dew] | L7:注意(涉及武器/捕捉；建议例句保持“安全/不鼓励攻击”语气) | L8:合适
-- wand | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wand / thumb / swamp / ending] | L7:OK(童话设定，中国家长普遍可接受) | L8:合适
-- throne | L5-Def:能 | L5-Ex:勉强(线索少(仅:king)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:king)，同类词易混) | 选项:[throne / hive / none / spider] | L7:OK | L8:合适
-- crown | L5-Def:能 | L5-Ex:勉强(线索少(仅:jewels)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:jewels)，同类词易混) | 选项:[crown / moose / dock / tunnel] | L7:OK | L8:合适
-- wobble | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wobble / sparkle / tumble / fall down] | L7:OK | L8:合适
-- tumble | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[tumble / wobble / scoop / run out] | L7:OK | L8:合适
-- snuggle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[snuggle / repair / forget / give up] | L7:OK | L8:合适
-- nibble | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[nibble / sit down / teach / float] | L7:OK | L8:合适
-- snore | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[snore / giggle / roar / sink] | L7:OK | L8:合适
-- yawn | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[yawn / disappointed / terrible / peaceful] | L7:OK | L8:合适
-- shiver | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[shiver / sprinkle / come back / weigh] | L7:OK | L8:合适
-- bloom | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[bloom / thorn / vine / seed] | L7:OK | L8:合适
-- sprout | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sprout / vine / forest / stem] | L7:OK | L8:合适
-- wilt | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[wilt / fasten / design / match] | L7:OK | L8:合适
-- scattered | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[scattered / wand / cave / amount] | L7:OK | L8:合适
-- rascal | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[rascal / shelf / plain / bunch] | L7:OK | L8:合适
-- gigantic | L5-Def:勉强(定义里有抽象/解释性表达) | L5-Ex:勉强(线索少(仅:bigger)，仍可能靠场景/动作猜中) | L6:勉强(线索偏少(仅:bigger)，同类词易混) | 选项:[gigantic / den / stale / tail] | L7:OK | L8:勉强(词形/概念偏难；建议后置或只做“听懂认识词”)
-- itsy | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[itsy / dusk / amount / dozen] | L7:OK | L8:合适
-- whirl | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[whirl / flutter / drip / snore] | L7:OK | L8:合适
-- sparkle | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[sparkle / hurry up / stir / repair] | L7:OK | L8:合适
-- flutter | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[flutter / clean up / weigh / stomp] | L7:OK | L8:合适
-- hear | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[hear / thunder / drought / desert] | L7:OK | L8:合适
-- lose | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[lose / march / come back / sink] | L7:OK | L8:合适
-- teach | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[teach / grab / hurry up / deliver] | L7:OK | L8:合适
-- take | L5-Def:能 | L5-Ex:勉强(例句不复述定义关键词，更多靠场景/图/动作联想) | L6:勉强(线索偏弱；换一组同类选项时容易不唯一/靠蒙) | 选项:[take / run out / calm down / peek] | L7:OK | L8:合适
-- than | L5-Def:不能(语法功能词/说明句式，低龄很难靠英文定义直接懂) | L5-Ex:不能(例句主要靠语感/句式；低龄很难仅凭例句产出该词) | L6:不能(遮住词后仅靠句式很难在同组选项里唯一确定) | 选项:[than / meanwhile / within / whether] | L7:OK | L8:勉强(功能词更适合放到更后或配套句型集中教)
+- puppy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[palm / puppy / tail / tongue] | L7:OK | L8:合适
+- kitten | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fur / kitten / moss / rug] | L7:OK | L8:合适
+- bunny | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridge / bunny / frost / meadow] | L7:OK | L8:合适
+- duckling | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[duckling / foal / lamb / match] | L7:OK | L8:合适
+- chick | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chick / fluffy / sparrow / sprout] | L7:OK | L8:合适
+- lamb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[duckling / lamb / match / snuggle] | L7:OK | L8:合适
+- cub | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bear)，易靠语感/蒙) | 选项:[cub / duckling / lamb / match] | L7:OK | L8:合适
+- fawn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beneath / bunny / fawn / meadow] | L7:OK | L8:合适
+- foal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[duckling / foal / match / toward] | L7:OK | L8:合适
+- pony | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barn / pony / stable / teach] | L7:OK | L8:合适
+- rooster | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[damp / dawn / early / rooster] | L7:OK | L8:合适
+- hen | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:eggs)，易靠语感/蒙) | 选项:[hen / lizard / mitten / nest] | L7:OK | L8:合适
+- goose | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dragon / flutter / goose / turtle] | L7:OK | L8:合适
+- swan | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridge / calm / ripple / swan] | L7:OK | L8:合适
+- owl | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[forest / jungle / owl / pinecone] | L7:OK | L8:合适
+- robin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crooked / notice / robin / skip] | L7:OK | L8:合适
+- sparrow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chalk / chick / slimy / sparrow] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- crow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crow / jungle / loudly / pinecone] | L7:OK | L8:合适
+- eagle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:high)，易靠语感/蒙) | 选项:[above / cabin / cliff / eagle] | L7:OK | L8:合适
+- whale | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ocean)，易靠语感/蒙) | 选项:[delighted / leap / stare / whale] | L7:OK | L8:合适
+- dolphin | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[backward / dolphin / echo / leap] | L7:OK | L8:合适
+- shark | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dash / pond / shark / tunnel] | L7:OK | L8:合适
+- turtle | L5-Def:能 | L5-Ex:能 | L6:能(线索词: its,shell) | 选项:[coconut / snail / tongue / turtle] | L7:OK | L8:合适
+- lizard | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[content / lizard / stem / valley] | L7:OK | L8:合适
+- frog | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frog / leap / pond / puddle] | L7:OK | L8:合适
+- toad | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bloom / mud / throughout / toad] | L7:OK | L8:合适
+- snail | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ash / slimy / snail / trail] | L7:OK | L8:合适
+- worm | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[dusk / finally / rainbow / worm] | L7:OK | L8:合适
+- spider | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / between / spider / storm] | L7:OK | L8:合适
+- beetle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beetle / bridge / discover / shiny] | L7:OK | L8:合适
+- ladybug | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[droplet / ladybug / thorn / thumb] | L7:OK | L8:合适
+- butterfly | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[butterfly / flutter / petal / single] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- caterpillar | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“lettuce”，目标词不唯一) | 选项:[caterpillar / lettuce / noon / stem] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- ant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ant / shoulder / tail / tiny] | L7:OK | L8:合适
+- bee | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bee / hive / island / whirl] | L7:OK | L8:合适
+- squirrel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acorn / hollow / pinecone / squirrel] | L7:OK | L8:合适
+- raccoon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fist / raccoon / terrible / twice] | L7:OK | L8:合适
+- skunk | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anyway / fresh / rotten / skunk] | L7:OK | L8:合适
+- beaver | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beaver / den / discover / turtle] | L7:OK | L8:合适
+- moose | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fog / huge / moose / stare] | L7:OK | L8:合适
+- toast | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[celery / spread / toast / vase] | L7:OK | L8:合适
+- cereal | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:milk)，易靠语感/蒙) | 选项:[cereal / oatmeal / pour / yogurt] | L7:OK | L8:合适
+- pancake | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cheek / onion / pancake / sour] | L7:OK | L8:合适
+- waffle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:squares)，易靠语感/蒙) | 选项:[cereal / gravy / syrup / waffle] | L7:OK | L8:合适
+- oatmeal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[creamy / freezing / frost / oatmeal] | L7:OK | L8:合适
+- sandwich | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[celery / extra / sandwich / without] | L7:OK | L8:合适
+- pretzel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chin / mitten / pretzel / whole] | L7:OK | L8:合适
+- cracker | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cracker / snack / stack / vase] | L7:OK | L8:合适
+- noodle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:long)，易靠语感/蒙) | 选项:[drought / icicle / noodle / stem] | L7:OK | L8:合适
+- muffin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calm / fresh / mitten / muffin] | L7:OK | L8:合适
+- cupcake | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:frosting)，易靠语感/蒙) | 选项:[cupcake / petal / puppy / tongue] | L7:OK | L8:合适
+- cookie | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cheek / cookie / cracker / empty] | L7:OK | L8:合适
+- doughnut | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amount / doughnut / less / sprinkle] | L7:OK | L8:合适
+- pudding | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bitter / cookie / frost / pudding] | L7:OK | L8:合适
+- jelly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grape / jelly / spread / toast] | L7:OK | L8:合适
+- syrup | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cereal / gravy / syrup / waffle] | L7:OK | L8:合适
+- honey | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[honey / pudding / ripe / splash] | L7:OK | L8:合适
+- popcorn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cub / during / ending / popcorn] | L7:OK | L8:合适
+- yogurt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cereal / total / tower / yogurt] | L7:OK | L8:合适
+- grape | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[berry / bunch / grape / vine] | L7:OK | L8:合适
+- cherry | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:red)，易靠语感/蒙) | 选项:[cherry / double / melt / scoop] | L7:OK | L8:合适
+- peach | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[chin / juicy / peach / spill] | L7:OK | L8:合适
+- plum | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[berry / juicy / plum / ripe] | L7:OK | L8:合适
+- melon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boiling / dull / melon / noon] | L7:OK | L8:合适
+- berry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[berry / bunch / chase / pile] | L7:OK | L8:合适
+- lemon | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:sour)，易靠语感/蒙) | 选项:[deep / lemon / sour / wide] | L7:OK | L8:合适
+- coconut | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:inside)，易靠语感/蒙) | 选项:[bucket / coconut / curious / twist] | L7:OK | L8:合适
+- peanut | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[huge / mitten / palm / peanut] | L7:OK | L8:合适
+- celery | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[celery / glue / sandwich / spread] | L7:OK | L8:合适
+- broccoli | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:like)，易靠语感/蒙) | 选项:[broccoli / fluffy / take / tower] | L7:OK | L8:合适
+- lettuce | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:green)，易靠语感/蒙) | 选项:[caterpillar / lettuce / moss / stem] | L7:OK | L8:合适
+- pepper | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:red)，易靠语感/蒙) | 选项:[bunch / cherry / lettuce / pepper] | L7:OK | L8:合适
+- onion | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dash / onion / pancake / sour] | L7:OK | L8:合适
+- mushroom | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[desert / mushroom / pinecone / rainbow] | L7:OK | L8:合适
+- stew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frost / oatmeal / perfect / stew] | L7:OK | L8:合适
+- gravy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cereal / gravy / syrup / waffle] | L7:OK | L8:合适
+- feast | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / feast / homesick / portion] | L7:OK | L8:合适
+- snack | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cracker / finally / grate / snack] | L7:OK | L8:合适
+- treat | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:special)，易靠语感/蒙) | 选项:[double / melt / promise / treat] | L7:OK | L8:合适
+- slice | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“whole”，目标词不唯一) | 选项:[grate / quarter / slice / whole] | L7:OK | L8:合适
+- elbow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elbow / sponge / stranger / tag] | L7:OK | L8:合适
+- wrist | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fancy / graceful / vase / wrist] | L7:OK | L8:合适
+- ankle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ankle / forward / puddle / stomp] | L7:OK | L8:合适
+- heel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eraser / heel / lace / moment] | L7:OK | L8:合适
+- thumb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[kitten / match / thumb / tiptoe] | L7:OK | L8:合适
+- palm | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hand)，易靠语感/蒙) | 选项:[mitten / palm / shiny / vanish] | L7:OK | L8:合适
+- fist | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[dash / fist / terrible / twice] | L7:OK | L8:合适
+- chin | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[chin / juicy / peach / spill] | L7:OK | L8:合适
+- cheek | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / acorn / cheek / cookie] | L7:OK | L8:合适
+- forehead | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bunch / fog / forehead / notice] | L7:OK | L8:合适
+- eyebrow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[already / amazed / eyebrow / surprised] | L7:OK | L8:合适
+- eyelash | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cheek / chilly / eyelash / petal] | L7:OK | L8:合适
+- tongue | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[paw / puppy / tail / tongue] | L7:OK | L8:合适
+- throat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blizzard / enough / rib / throat] | L7:OK | L8:合适
+- shoulder | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ant / quickly / shoulder / tiny] | L7:OK | L8:合适
+- hip | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hip / stranger / tag / vase] | L7:OK | L8:合适
+- spine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crooked / ruler / shallow / spine] | L7:OK | L8:合适
+- rib | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[rib / stomp / throat / tug] | L7:OK | L8:合适
+- skull | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drip / rib / skull / tumble] | L7:OK | L8:合适
+- muscle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[muscle / nod / shoulder / wrist] | L7:OK | L8:合适
+- mitten | L5-Def:能 | L5-Ex:能 | L6:能(线索词: hand,warm) | 选项:[hen / mitten / palm / slipper] | L7:OK | L8:合适
+- scarf | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:neck)，易靠语感/蒙) | 选项:[blizzard / cherry / pepper / scarf] | L7:OK | L8:合适
+- hoodie | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hood)，易靠语感/蒙) | 选项:[hoodie / rainbow / soaking / turtle] | L7:OK | L8:合适
+- vest | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:shirt)，易靠语感/蒙) | 选项:[collar / mitten / sandal / vest] | L7:OK | L8:合适
+- apron | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apron / drip / tumble / yawn] | L7:OK | L8:合适
+- sleeve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[before / between / crawl / sleeve] | L7:OK | L8:合适
+- pocket | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[later / pocket / sink / vase] | L7:OK | L8:合适
+- zipper | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[closet / frost / hang / zipper] | L7:OK | L8:合适
+- button | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[button / collar / tag / vest] | L7:OK | L8:合适
+- buckle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:belt)，易靠语感/蒙) | 选项:[across / almost / buckle / crunchy] | L7:OK | L8:合适
+- lace | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:shoe)，易靠语感/蒙) | 选项:[blanket / lace / moment / squeeze] | L7:OK | L8:合适
+- slipper | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fuzzy / mitten / slipper / vase] | L7:OK | L8:合适
+- sandal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boot / collect / sandal / stomp] | L7:OK | L8:合适
+- sneaker | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dusk / pillow / sneaker / vase] | L7:OK | L8:合适
+- boot | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boot / desert / sandal / stomp] | L7:OK | L8:合适
+- collar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / almost / collar / tag] | L7:OK | L8:合适
+- hem | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fancy / hem / rug / scattered] | L7:OK | L8:合适
+- pajamas | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[daily / fierce / pajamas / shark] | L7:OK | L8:合适
+- costume | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audience / costume / late / lonely] | L7:OK | L8:合适
+- uniform | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:same)，易靠语感/蒙) | 选项:[match / than / uniform / while] | L7:OK | L8:合适
+- blanket | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blanket / chin / juicy / peach] | L7:OK | L8:合适
+- pillow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cave / den / pillow / sneaker] | L7:OK | L8:合适
+- towel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dry / island / towel / whirl] | L7:OK | L8:合适
+- soap | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boiling / dry / soap / towel] | L7:OK | L8:合适
+- sponge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chop / damp / soaking / sponge] | L7:OK | L8:合适
+- broom | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:used)，易靠语感/蒙) | 选项:[broom / rug / scattered / sparrow] | L7:OK | L8:合适
+- bucket | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:sand)，易靠语感/蒙) | 选项:[bucket / collect / sandal / sideways] | L7:OK | L8:合适
+- ladder | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barely / drip / icicle / ladder] | L7:OK | L8:合适
+- drawer | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[drawer / sort / spread / vase] | L7:OK | L8:合适
+- shelf | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[belong / grateful / several / shelf] | L7:OK | L8:合适
+- closet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[closet / hang / icicle / zipper] | L7:OK | L8:合适
+- curtain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[curtain / lend / roar / tame] | L7:OK | L8:合适
+- rug | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:soft)，易靠语感/蒙) | 选项:[kitten / lazy / rug / spark] | L7:OK | L8:合适
+- lamp | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[chapter / entire / lamp / while] | L7:OK | L8:合适
+- candle | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[candle / lightning / next / suddenly] | L7:OK | L8:合适
+- vase | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:put)，易靠语感/蒙) | 选项:[bloom / fancy / vase / wrist] | L7:OK | L8:合适
+- frame | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[against / cliff / frame / shelf] | L7:OK | L8:合适
+- envelope | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[envelope / hang / stamp / vase] | L7:OK | L8:合适
+- stamp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enough / envelope / spare / stamp] | L7:OK | L8:合适
+- package | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deliver / dusk / less / package] | L7:OK | L8:合适
+- scissors | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:paper)，易靠语感/蒙) | 选项:[attach / dull / scissors / wrap] | L7:OK | L8:合适
+- glue | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:stick)，易靠语感/蒙) | 选项:[broom / create / frame / glue] | L7:OK | L8:合适
+- tape | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[broom / crayon / hang / tape] | L7:OK | L8:合适
+- crayon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cherry / crayon / pepper / sort] | L7:OK | L8:合适
+- chalk | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[chalk / perfect / recent / sparrow] | L7:OK | L8:合适
+- eraser | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[across / eraser / heel / mistake] | L7:OK | L8:合适
+- ruler | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:straight)，易靠语感/蒙) | 选项:[along / march / ruler / straight] | L7:OK | L8:合适
+- thermometer | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ashamed / bunch / thermometer / vase] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- battery | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:toy)，易靠语感/蒙) | 选项:[among / battery / crew / search] | L7:OK | L8:合适
+- switch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brave / cave / suddenly / switch] | L7:OK | L8:合适
+- barn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barn / cherry / herd / pepper] | L7:OK | L8:合适
+- stable | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[foal / pony / stable / tail] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- cabin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cabin / cozy / lamb / valley] | L7:OK | L8:合适
+- cottage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[castle / cottage / legend / trail] | L7:OK | L8:合适
+- castle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:lived)，易靠语感/蒙) | 选项:[castle / princess / steep / tower] | L7:OK | L8:合适
+- tower | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[content / none / peaceful / tower] | L7:OK | L8:合适
+- bridge | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:across)，易靠语感/蒙) | 选项:[across / bridge / together / wide] | L7:OK | L8:合适
+- tunnel | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[cave / suddenly / through / tunnel] | L7:OK | L8:合适
+- harbor | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(多个选项都说得通，不能唯一确定) | 选项:[apron / dock / harbor / lace] | L7:OK | L8:合适
+- island | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:around)，易靠语感/蒙) | 选项:[bee / island / pond / whirl] | L7:OK | L8:合适
+- forest | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[forest / owl / relieved / search] | L7:OK | L8:合适
+- meadow | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:grass)，易靠语感/蒙) | 选项:[bunny / fawn / hopeful / meadow] | L7:OK | L8:合适
+- pond | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / island / pond / whirl] | L7:OK | L8:合适
+- stream | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / collect / moss / stream] | L7:OK | L8:合适
+- cliff | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[beak / cliff / eagle / wing] | L7:OK | L8:合适
+- cave | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cave / cub / den / suddenly] | L7:OK | L8:合适
+- desert | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boiling / bored / desert / throughout] | L7:OK | L8:合适
+- jungle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[jungle / owl / pinecone / rough] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
+- swamp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beneath / fawn / shy / swamp] | L7:OK | L8:合适
+- valley | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[lettuce / lizard / stem / valley] | L7:OK | L8:合适
+- storm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[jungle / pinecone / search / storm] | L7:OK | L8:合适
+- thunder | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:loud)，易靠语感/蒙) | 选项:[bark / paw / shout / thunder] | L7:OK | L8:合适
+- lightning | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:sky)，易靠语感/蒙) | 选项:[glance / lightning / throughout / whole] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- rainbow | L5-Def:能 | L5-Ex:能 | L6:能(线索词: after,rain) | 选项:[finally / rainbow / soaking / worm] | L7:OK | L8:合适
+- breeze | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[breeze / pile / shadow / sparkle] | L7:OK | L8:合适
+- frost | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:cold)，易靠语感/蒙) | 选项:[bunny / damp / dew / frost] | L7:OK | L8:合适
+- icicle | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:long)，易靠语感/蒙) | 选项:[closet / drip / icicle / ladder] | L7:OK | L8:合适
+- puddle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ankle / cheerful / puddle / quickly] | L7:OK | L8:合适
+- mud | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[between / cozy / mud / sleeve] | L7:OK | L8:合适
+- dust | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[chapter / dust / title / while] | L7:OK | L8:合适
+- dew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bunch / dew / dusk / shiny] | L7:OK | L8:合适
+- fog | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fog / slowly / thick / tiny] | L7:OK | L8:合适
+- hail | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[broccoli / fluffy / hail / passenger] | L7:OK | L8:合适
+- blizzard | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:snow)，易靠语感/蒙) | 选项:[blizzard / enough / quietly / tug] | L7:OK | L8:合适
+- drought | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:long)，易靠语感/蒙) | 选项:[drought / lamp / noodle / sparrow] | L7:OK | L8:合适
+- flood | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cliff / eagle / flood / petal] | L7:OK | L8:合适
+- petal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cupcake / during / petal / smoke] | L7:OK | L8:合适
+- stem | L5-Def:能 | L5-Ex:能 | L6:能(线索词: long,green) | 选项:[butterfly / celery / lettuce / stem] | L7:OK | L8:合适
+- root | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deep / dust / root / trail] | L7:OK | L8:合适
+- thorn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / ladybug / thorn / thumb] | L7:OK | L8:合适
+- vine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cliff / frame / itsy / vine] | L7:OK | L8:合适
+- moss | L5-Def:能 | L5-Ex:能 | L6:能(线索词: rocks,soft,green) | 选项:[fuzzy / lettuce / moss / stem] | L7:OK | L8:合适
+- acorn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acorn / later / pocket / treasure] | L7:OK | L8:合适
+- pinecone | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:tree)，易靠语感/蒙) | 选项:[bunch / jungle / mushroom / pinecone] | L7:OK | L8:合适
+- seed | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[daily / noon / seed / sprout] | L7:OK | L8:合适
+- crawl | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crawl / island / share / tiptoe] | L7:OK | L8:合适
+- leap | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridge / frog / leap / pond] | L7:OK | L8:合适
+- skip | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[along / hum / robin / skip] | L7:OK | L8:合适
+- stomp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[annoyed / clumsy / frustrated / stomp] | L7:OK | L8:合适
+- tiptoe | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[content / late / peaceful / tiptoe] | L7:OK | L8:合适
+- march | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crowd / march / ruler / straight] | L7:OK | L8:合适
+- dash | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dash / fist / quietly / twice] | L7:OK | L8:合适
+- chase | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[berry / chase / leash / pile] | L7:OK | L8:合适
+- grab | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ending / grab / none / take] | L7:OK | L8:合适
+- toss | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beside / catch / shout / toss] | L7:OK | L8:合适
+- catch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[catch / gentle / take / toss] | L7:OK | L8:合适
+- squeeze | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dry / freeze / sponge / squeeze] | L7:OK | L8:合适
+- stretch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ash / chase / finally / stretch] | L7:OK | L8:合适
+- bend | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[battery / bend / enough / stamp] | L7:OK | L8:合适
+- twist | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[mushroom / tight / tug / twist] | L7:OK | L8:合适
+- shake | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[curious / sandwich / shake / wonder] | L7:OK | L8:合适
+- stir | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[creamy / pudding / scoop / stir] | L7:OK | L8:合适
+- pour | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[bark / cereal / pour / yogurt] | L7:OK | L8:合适
+- spill | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:juice)，易靠语感/蒙) | 选项:[gentle / lose / more / spill] | L7:OK | L8:合适
+- drip | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drip / icicle / ladder / tumble] | L7:OK | L8:合适
+- splash | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deep / honey / puddle / splash] | L7:OK | L8:合适
+- float | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / acorn / duckling / float] | L7:OK | L8:合适
+- sink | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deep / drag / sink / weigh] | L7:OK | L8:合适
+- melt | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ice)，易靠语感/蒙) | 选项:[cherry / double / melt / scoop] | L7:OK | L8:合适
+- freeze | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:ice)，易靠语感/蒙) | 选项:[freeze / freezing / melt / solid] | L7:OK | L8:合适
+- peel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crawl / dash / peel / ripe] | L7:OK | L8:合适
+- chop | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[before / chop / dwarf / promise] | L7:OK | L8:合适
+- grate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cracker / grate / snack / whole] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- spread | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[celery / jelly / spread / toast] | L7:OK | L8:合适
+- sprinkle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amount / cereal / less / sprinkle] | L7:OK | L8:合适
+- scoop | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:spoon)，易靠语感/蒙) | 选项:[double / melt / scoop / stir] | L7:OK | L8:合适
+- whisper | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“quietly”，目标词不唯一) | 选项:[gentle / match / quietly / whisper] | L7:OK | L8:合适
+- shout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridge / herd / shout / toss] | L7:OK | L8:合适
+- giggle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blanket / giggle / noodle / unwrap] | L7:OK | L8:合适
+- howl | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chapter / howl / many / whenever] | L7:OK | L8:合适
+- bark | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:loud)，易靠语感/蒙) | 选项:[bark / early / thunder / whole] | L7:OK | L8:合适
+- roar | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:lion)，易靠语感/蒙) | 选项:[curtain / fierce / roar / tongue] | L7:OK | L8:合适
+- hum | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[character / cheerful / hum / skip] | L7:OK | L8:合适
+- clap | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audience / clap / nod / plenty] | L7:OK | L8:合适
+- wave | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bark / barn / curtain / wave] | L7:OK | L8:合适
+- nod | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audience / clap / muscle / nod] | L7:OK | L8:合适
+- peek | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[grab / peek / unwrap / wonderful] | L7:OK | L8:合适
+- stare | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after / huge / piece / stare] | L7:OK | L8:合适
+- glance | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glance / midnight / passenger / while] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- search | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[battery / forest / search / splash] | L7:OK | L8:合适
+- discover | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[discover / excited / leap / unwrap] | L7:OK | L8:合适
+- notice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beak / notice / robin / wing] | L7:OK | L8:合适
+- wonder | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[curious / package / shake / wonder] | L7:OK | L8:合适
+- imagine | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bee / forehead / imagine / raccoon] | L7:OK | L8:合适
+- pretend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gather / pretend / treasure / weigh] | L7:OK | L8:合适
+- promise | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[finally / later / promise / treat] | L7:OK | L8:合适
+- remind | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chapter / excited / remind / title] | L7:OK | L8:合适
+- forget | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[forget / generous / pack / without] | L7:OK | L8:合适
+- belong | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barely / belong / several / shelf] | L7:OK | L8:合适
+- share | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[annoyed / crawl / scattered / share] | L7:OK | L8:合适
+- trade | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[crayon / juicy / rotten / trade] | L7:OK | L8:合适
+- borrow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[borrow / eraser / patient / soon] | L7:OK | L8:合适
+- lend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bark / barn / lend / moose] | L7:OK | L8:合适
+- gather | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gather / monster / pile / pretend] | L7:OK | L8:合适
+- collect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[collect / moss / sandal / stream] | L7:OK | L8:合适
+- stack | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[cliff / eagle / stack / tumble] | L7:OK | L8:合适
+- wrap | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:paper)，易靠语感/蒙) | 选项:[envelope / scissors / surprised / wrap] | L7:OK | L8:合适
+- unwrap | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excited / peek / unwrap / wonderful] | L7:OK | L8:合适
+- tug | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hard)，易靠语感/蒙) | 选项:[blizzard / shove / tight / tug] | L7:OK | L8:合适
+- drag | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:heavy)，易靠语感/蒙) | 选项:[bridge / drag / sink / weigh] | L7:OK | L8:合适
+- shove | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blizzard / chilly / shove / twice] | L7:OK | L8:合适
+- tuck | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blanket / island / tuck / yawn] | L7:OK | L8:合适
+- hang | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[closet / foolish / hang / zipper] | L7:OK | L8:合适
+- fasten | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dash / fasten / hail / passenger] | L7:OK | L8:合适
+- attach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[attach / chalk / scissors / wrap] | L7:OK | L8:合适
+- repair | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:broken)，易靠语感/蒙) | 选项:[certain / comfortable / piece / repair] | L7:OK | L8:合适
+- create | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[create / frame / glue / ugly] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- design | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clumsy / design / freezing / sprinkle] | L7:OK | L8:合适
+- measure | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:how)，易靠语感/蒙) | 选项:[count / measure / ruler / weigh] | L7:OK | L8:合适
+- weigh | L5-Def:能 | L5-Ex:能 | L6:能(线索词: how,heavy) | 选项:[count / drag / measure / weigh] | L7:OK | L8:合适
+- count | L5-Def:能 | L5-Ex:能 | L6:能(线索词: how,many) | 选项:[count / measure / snack / weigh] | L7:OK | L8:合适
+- sort | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crayon / drawer / sort / within] | L7:OK | L8:合适
+- match | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[duckling / foal / lamb / match] | L7:OK | L8:合适
+- deliver | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[deliver / less / package / stamp] | L7:OK | L8:合适
+- fetch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[around / fetch / glue / leash] | L7:OK | L8:合适
+- vanish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[palm / shiny / shiver / vanish] | L7:OK | L8:合适
+- tiny | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[ant / equal / shoulder / tiny] | L7:OK | L8:合适
+- huge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[huge / passenger / soon / while] | L7:OK | L8:合适
+- enormous | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[battery / design / enormous / search] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- narrow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[along / narrow / trail / village] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- wide | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[bridge / delighted / leap / wide] | L7:OK | L8:合适
+- steep | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[ant / crawl / steep / tunnel] | L7:OK | L8:合适
+- shallow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enough / plenty / shallow / splash] | L7:OK | L8:合适
+- deep | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / boiling / deep / puddle] | L7:OK | L8:合适
+- thick | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[chapter / thick / title / while] | L7:OK | L8:合适
+- thin | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deep / freeze / melt / thin] | L7:OK | L8:合适
+- smooth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cave / cliff / sink / smooth] | L7:OK | L8:合适
+- rough | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fist / jungle / pinecone / rough] | L7:OK | L8:合适
+- sharp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gentle / lose / sharp / slice] | L7:OK | L8:合适
+- dull | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“scissors”，目标词不唯一) | 选项:[dull / scissors / sharp / wrap] | L7:OK | L8:合适
+- shiny | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dew / palm / shiny / vanish] | L7:OK | L8:合适
+- damp | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[damp / dew / frost / meadow] | L7:OK | L8:合适
+- soaking | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:wet)，易靠语感/蒙) | 选项:[rainbow / sneaker / soaking / worm] | L7:OK | L8:合适
+- dry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dry / soap / towel / while] | L7:OK | L8:合适
+- sticky | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[catch / sour / sticky / take] | L7:OK | L8:合适
+- slimy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ash / slimy / snail / trail] | L7:OK | L8:合适
+- fluffy | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:like)，易靠语感/蒙) | 选项:[broccoli / fluffy / kitten / snuggle] | L7:OK | L8:合适
+- fuzzy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / chin / fuzzy / peach] | L7:OK | L8:合适
+- cozy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cozy / delighted / during / silent] | L7:OK | L8:合适
+- chilly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[breeze / chilly / eyelash / zipper] | L7:OK | L8:合适
+- freezing | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dry / freezing / plain / sprinkle] | L7:OK | L8:合适
+- boiling | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:hot)，易靠语感/蒙) | 选项:[boiling / deep / salty / smooth] | L7:OK | L8:合适
+- warm | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:nice)，易靠语感/蒙) | 选项:[cozy / ugly / warm / wonderful] | L7:OK | L8:合适
+- fierce | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cub / fierce / roar / shark] | L7:OK | L8:合适
+- gentle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beak / chick / gentle / wing] | L7:OK | L8:合适
+- brave | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[adventure / brave / cave / suddenly] | L7:OK | L8:合适
+- shy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after / beneath / cheerful / shy] | L7:OK | L8:合适
+- proud | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[already / frustrated / proud / tug] | L7:OK | L8:合适
+- curious | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coconut / curious / shake / wonder] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- grumpy | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:not)，易靠语感/蒙) | 选项:[cave / den / grumpy / proud] | L7:OK | L8:合适
+- cheerful | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cheerful / puddle / quickly / shy] | L7:OK | L8:合适
+- lonely | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[costume / eager / lonely / toward] | L7:OK | L8:合适
+- calm | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calm / muffin / ripple / swan] | L7:OK | L8:合适
+- wild | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:free)，易靠语感/蒙) | 选项:[busy / foal / pony / wild] | L7:OK | L8:合适
+- tame | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bunny / curtain / lend / tame] | L7:OK | L8:合适
+- plain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frame / freezing / plain / vest] | L7:OK | L8:合适
+- fancy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[delighted / fancy / hem / wonderful] | L7:OK | L8:合适
+- ripe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bee / duckling / peel / ripe] | L7:OK | L8:合适
+- rotten | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crayon / fresh / rotten / terrible] | L7:OK | L8:合适
+- fresh | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fresh / muffin / rotten / wonderful] | L7:OK | L8:合适
+- stale | L5-Def:能 | L5-Ex:能 | L6:能(线索词: not,anymore) | 选项:[celery / crunchy / pepper / stale] | L7:OK | L8:合适
+- bitter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bitter / chef / cookie / pudding] | L7:OK | L8:合适
+- sour | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[onion / pancake / sour / sticky] | L7:OK | L8:合适
+- salty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[once / salty / shark / whale] | L7:OK | L8:合适
+- juicy | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[blanket / chin / juicy / peach] | L7:OK | L8:合适
+- crunchy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[buckle / crunchy / damp / moment] | L7:OK | L8:合适
+- creamy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[creamy / mitten / stew / stir] | L7:OK | L8:合适
+- silent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cozy / during / midnight / silent] | L7:OK | L8:合适
+- loud | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grumpy / loud / stranger / tug] | L7:OK | L8:合适
+- hollow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clap / discover / hollow / ripple] | L7:OK | L8:合适
+- solid | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[freeze / freezing / melt / solid] | L7:OK | L8:合适
+- loose | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / acorn / giant / loose] | L7:OK | L8:合适
+- tight | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[empty / none / tight / vase] | L7:OK | L8:合适
+- crooked | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / crooked / wide / wobble] | L7:OK | L8:合适
+- straight | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[perfect / recent / ruler / straight] | L7:OK | L8:合适
+- crowded | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crowded / passenger / sudden / uncomfortable] | L7:OK | L8:合适
+- empty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ash / empty / neighbor / none] | L7:OK | L8:合适
+- whole | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[grate / quarter / slice / whole] | L7:OK | L8:合适
+- spare | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ashamed / bunch / solid / spare] | L7:OK | L8:合适
+- certain | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ash / certain / comfortable / quickly] | L7:OK | L8:合适
+- strange | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[closet / frightened / middle / strange] | L7:OK | L8:合适
+- wonderful | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[delighted / surprise / unwrap / wonderful] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- terrible | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[count / fist / terrible / twice] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- perfect | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[perfect / recent / stir / straight] | L7:OK | L8:合适
+- ugly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[duckling / swan / throughout / ugly] | L7:OK | L8:合适
+- beautiful | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beautiful / lightning / many / rainbow] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- clever | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[among / beginning / clever / trap] | L7:OK | L8:合适
+- foolish | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blizzard / foolish / hang / then] | L7:OK | L8:合适
+- greedy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beginning / empty / generous / greedy] | L7:OK | L8:合适
+- generous | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[extra / generous / greedy / without] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- patient | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[borrow / patient / soon / whenever] | L7:OK | L8:合适
+- stubborn | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:not)，易靠语感/蒙) | 选项:[anyway / confused / shake / stubborn] | L7:OK | L8:合适
+- lazy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hopeful / lazy / noon / rug] | L7:OK | L8:合适
+- busy | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[busy / hive / honey / silent] | L7:OK | L8:合适
+- clumsy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clumsy / eager / puppy / toward] | L7:OK | L8:合适
+- graceful | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[graceful / perfect / straight / without] | L7:OK | L8:合适
+- quickly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[certain / late / quickly / shoulder] | L7:OK | L8:合适
+- slowly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridge / herd / sideways / slowly] | L7:OK | L8:合适
+- quietly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dash / fist / quietly / whisper] | L7:OK | L8:合适
+- loudly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[among / half / loudly / middle] | L7:OK | L8:合适
+- gently | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / almost / count / gently] | L7:OK | L8:合适
+- suddenly | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[candle / cave / suddenly / switch] | L7:OK | L8:合适
+- already | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[already / amazed / proud / relieved] | L7:OK | L8:合适
+- almost | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[almost / between / catch / toss] | L7:OK | L8:合适
+- barely | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barely / belong / ladder / tiptoe] | L7:OK | L8:合适
+- perhaps | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anyway / beyond / lose / perhaps] | L7:OK | L8:合适
+- exactly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[content / exactly / jealous / wonder] | L7:OK | L8:合适
+- instead | L5-Def:能 | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[coconut / cub / instead / together] | L7:OK | L8:合适
+- anyway | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[anyway / foolish / perhaps / then] | L7:OK | L8:合适
+- forever | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chilly / ending / eyelash / forever] | L7:OK | L8:合适
+- apart | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[apart / calm / castle / title] | L7:OK | L8:合适
+- together | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[instead / nowadays / splash / together] | L7:OK | L8:合适
+- forward | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[borrow / echo / forward / stomp] | L7:OK | L8:合适
+- backward | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audience / backward / blizzard / broccoli] | L7:OK | L8:合适
+- sideways | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridge / bucket / sideways / slowly] | L7:OK | L8:合适
+- beneath | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beneath / blanket / fawn / swamp] | L7:OK | L8:合适
+- above | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / beak / spark / wing] | L7:OK | L8:合适
+- below | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[below / enormous / pond / scale] | L7:OK | L8:合适
+- beside | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beside / chef / shout / toss] | L7:OK | L8:合适
+- between | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[between / enough / mud / sleeve] | L7:OK | L8:合适
+- among | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[among / battery / beginning / generous] | L7:OK | L8:合适
+- toward | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clumsy / eager / puppy / toward] | L7:OK | L8:合适
+- against | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[against / eager / while / wobble] | L7:OK | L8:合适
+- through | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[drought / noodle / through / tunnel] | L7:OK | L8:合适
+- across | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / deep / pond / through] | L7:OK | L8:合适
+- along | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[along / bridge / stream / trail] | L7:OK | L8:合适
+- around | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[around / fetch / leash / pinecone] | L7:OK | L8:合适
+- beyond | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beyond / lose / perhaps / tower] | L7:OK | L8:合适
+- during | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[during / ending / petal / silent] | L7:OK | L8:合适
+- until | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[echo / patient / soon / until] | L7:OK | L8:合适
+- since | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eager / puppy / since / toward] | L7:OK | L8:合适
+- whether | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hang / shy / whether / wonder] | L7:OK | L8:合适
+- while | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chapter / entire / lamp / while] | L7:OK | L8:合适
+- besides | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:also)，易靠语感/蒙) | 选项:[around / besides / count / snack] | L7:OK | L8:合适
+- within | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cozy / crayon / sort / within] | L7:OK | L8:合适
+- without | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[generous / late / sandwich / without] | L7:OK | L8:合适
+- throughout | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bloom / throughout / ugly / whole] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- upon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cub / once / upon / weekly] | L7:OK | L8:合适
+- pick up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(例句线索有，但容易被同类词替换) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come in / get up / pick up / put down] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- put down | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:table)，易靠语感/蒙) | 选项:[clean up / find out / hurry up / put down] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- look at | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come in / give up / go away / look at] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- come back | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calm down / come back / run out / wake up] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- sit down | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clean up / find out / sit down / turn on] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- stand up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clean up / find out / hurry up / stand up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- wake up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come back / come in / give up / wake up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- give up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:trying)，易靠语感/蒙) | 选项:[come in / give up / go away / hold on] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- find out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clean up / find out / hurry up / look out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- turn off | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clean up / find out / hurry up / turn off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- turn on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come in / give up / show off / turn on] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- fall down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calm down / clean up / come back / fall down] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- get up | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come in / get up / give up / try on] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- look out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clean up / find out / hurry up / look out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- hold on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:fall)，易靠语感/蒙) | 选项:[come in / fall down / give up / hold on] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- clean up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clean up / find out / hurry up / look out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- hurry up | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clean up / find out / go away / hurry up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- calm down | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calm down / clean up / come back / fall down] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- try on | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come in / get up / give up / try on] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- throw away | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calm down / come back / figure out / throw away] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- run out | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come back / come in / run out / turn off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- come in | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come in / give up / go away / stand up] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- go away | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come in / give up / go away / look at] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- show off | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clean up / find out / hurry up / show off] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- figure out | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:answer)，易靠语感/蒙) | 选项:[calm down / come back / figure out / throw away] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- excited | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excited / hopeful / next / remind] | L7:OK | L8:合适
+- nervous | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[few / nervous / noon / then] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- frightened | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frightened / loud / middle / strange] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- surprised | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drawer / surprised / treat / wrap] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- confused | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[confused / empty / silent / vanish] | L7:OK | L8:合适
+- disappointed | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adventure / disappointed / journey / weekly] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- frustrated | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frustrated / piece / pony / proud] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- jealous | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[create / jealous / pair / secret] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- embarrassed | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[clumsy / embarrassed / forward / plenty] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- worried | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[forest / relieved / search / worried] | L7:OK | L8:合适
+- grateful | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[belong / grateful / several / toss] | L7:OK | L8:合适
+- annoyed | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[annoyed / scarf / share / teach] | L7:OK | L8:合适
+- bored | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:nothing)，易靠语感/蒙) | 选项:[bored / empty / gloomy / whole] | L7:OK | L8:合适
+- amazed | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amazed / fairy / vanish / wand] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- terrified | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[lightning / sudden / terrified / thunder] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- furious | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[battery / character / furious / search] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- miserable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frost / miserable / proud / throat] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- relieved | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[already / forest / relieved / search] | L7:OK | L8:合适
+- peaceful | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[content / peaceful / tiptoe / tower] | L7:OK | L8:合适
+- comfortable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[certain / comfortable / fur / throne] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- uncomfortable | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crowded / stomp / tug / uncomfortable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- exhausted | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exhausted / next / noon / sneaker] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- delighted | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[delighted / footprint / surprise / wonderful] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- gloomy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bored / ending / gloomy / noon] | L7:OK | L8:合适
+- hopeful | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excited / hopeful / lazy / noon] | L7:OK | L8:合适
+- cranky | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tired,hungry) | 选项:[cranky / exhausted / take / yawn] | L7:OK | L8:合适
+- content | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[content / lizard / peaceful / warm] | L7:OK | L8:合适
+- eager | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eager / lonely / puppy / toward] | L7:OK | L8:合适
+- homesick | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[feast / homesick / proud / rough] | L7:OK | L8:合适
+- ashamed | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ashamed / bunch / dozen / forehead] | L7:OK | L8:合适
+- before | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[before / chop / promise / take] | L7:OK | L8:合适
+- after | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[after / piece / stare / wonderful] | L7:OK | L8:合适
+- next | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[excited / next / noon / then] | L7:OK | L8:合适
+- then | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anyway / pair / then / vase] | L7:OK | L8:合适
+- finally | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:after)，易靠语感/蒙) | 选项:[count / finally / often / twice] | L7:OK | L8:合适
+- meanwhile | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(副词/连接词需要更强对比结构，否则难猜) | L6:不能(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cookie / cracker / meanwhile / stare] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- soon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[passenger / soon / until / while] | L7:OK | L8:合适
+- later | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[closet / later / promise / soap] | L7:OK | L8:合适
+- early | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bark / crowd / early / rooster] | L7:OK | L8:合适
+- late | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[late / puddle / quickly / without] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- beginning | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[among / beginning / clever / greedy] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- middle | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[frightened / middle / quietly / strange] | L7:OK | L8:合适
+- ending | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[during / ending / gloomy / howl] | L7:OK | L8:合适
+- moment | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[excited / lace / moment / patient] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- sudden | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[plenty / sudden / terrified / thunder] | L7:OK | L8:合适
+- recent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chalk / perfect / recent / straight] | L7:OK | L8:合适
+- daily | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[daily / fierce / pajamas / shark] | L7:OK | L8:合适
+- weekly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adventure / disappointed / journey / weekly] | L7:OK | L8:合适
+- whenever | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[patient / until / whenever / worried] | L7:OK | L8:合适
+- once | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[forever / once / stranger / whale] | L7:OK | L8:合适
+- twice | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[dash / fist / terrible / twice] | L7:OK | L8:合适
+- often | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[belong / often / several / while] | L7:OK | L8:合适
+- nowadays | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[few / late / nowadays / splash] | L7:OK | L8:合适
+- dozen | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dozen / hen / nest / pair] | L7:OK | L8:合适
+- half | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[half / pillow / quarter / sandwich] | L7:OK | L8:合适
+- pair | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dozen / jealous / pair / then] | L7:OK | L8:合适
+- entire | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[chapter / entire / lamp / while] | L7:OK | L8:合适
+- double | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cherry / double / melt / scoop] | L7:OK | L8:合适
+- single | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beak / butterfly / flutter / single] | L7:OK | L8:合适
+- plenty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enough / mistake / plenty / silent] | L7:OK | L8:合适
+- several | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[belong / often / several / while] | L7:OK | L8:合适
+- few | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dusk / few / noon / nowadays] | L7:OK | L8:合适
+- many | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[feather / lightning / many / plenty] | L7:OK | L8:合适
+- none | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ash / empty / none / rascal] | L7:OK | L8:合适
+- bunch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[berry / bunch / fresh / throughout] | L7:OK | L8:合适
+- pile | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[berry / breeze / chase / pile] | L7:OK | L8:合适
+- heap | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[closet / heap / pajamas / scattered] | L7:OK | L8:合适
+- piece | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“stare”，目标词不唯一) | 选项:[after / meanwhile / piece / stare] | L7:OK | L8:合适
+- portion | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[equal / feast / portion / rascal] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- amount | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amount / doughnut / less / plum] | L7:OK | L8:合适
+- total | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[around / few / many / total] | L7:OK | L8:合适
+- extra | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[extra / generous / once / sandwich] | L7:OK | L8:合适
+- enough | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[between / enough / mistake / plenty] | L7:OK | L8:合适
+- less | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amount / deliver / less / package] | L7:OK | L8:合适
+- more | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“spill”，目标词不唯一) | 选项:[juicy / more / pour / spill] | L7:OK | L8:合适
+- quarter | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[half / pillow / quarter / whole] | L7:OK | L8:合适
+- equal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[certain / confused / equal / grate] | L7:OK | L8:合适
+- average | L5-Def:勉强(需要中文支架/图示；定义太长、有抽象术语) | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[average / bored / daily / treat] | L7:OK | L8:合适
+- shadow | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[drought / entire / lizard / shadow] | L7:OK | L8:合适
+- echo | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:back)，易靠语感/蒙) | 选项:[cave / echo / middle / until] | L7:OK | L8:合适
+- secret | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / almost / jealous / secret] | L7:OK | L8:合适
+- surprise | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“wonderful”，目标词不唯一) | 选项:[delighted / surprise / unwrap / wonderful] | L7:OK | L8:合适
+- mistake | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enough / footprint / mistake / plenty] | L7:OK | L8:合适
+- adventure | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[adventure / brave / cave / monster] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- treasure | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[acorn / island / pretend / treasure] | L7:OK | L8:合适
+- journey | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flock / journey / silent / wing] | L7:OK | L8:合适
+- village | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barely / once / single / village] | L7:OK | L8:合适
+- dock | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:boats)，易靠语感/蒙) | 选项:[along / dock / harbor / tower] | L7:OK | L8:合适
+- crowd | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crowd / early / march / parade] | L7:OK | L8:合适
+- trail | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deep / duckling / footprint / trail] | L7:OK | L8:合适
+- footprint | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blizzard / duckling / footprint / trail] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- pattern | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bunny / crow / pattern / skunk] | L7:OK | L8:合适
+- riddle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / almost / amazed / riddle] | L7:OK | L8:合适
+- poem | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[apart / author / beneath / poem] | L7:OK | L8:合适
+- tale | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:told)，易靠语感/蒙) | 选项:[amazed / scale / snore / tale] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- legend | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[castle / cave / cottage / legend] | L7:OK | L8:合适
+- character | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[author / chapter / character / clever] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- chapter | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:book)，易靠语感/蒙) | 选项:[chapter / entire / lamp / while] | L7:OK | L8:合适
+- title | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:book)，易靠语感/蒙) | 选项:[apart / chapter / title / while] | L7:OK | L8:合适
+- author | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[author / character / furious / hum] | L7:OK | L8:合适
+- paw | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[palm / paw / puppy / tail] | L7:OK | L8:合适
+- claw | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[claw / jungle / ladder / pinecone] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- feather | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[feather / lightning / many / smoke] | L7:OK | L8:合适
+- fur | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:soft)，易靠语感/蒙) | 选项:[fluffy / fog / fur / smoke] | L7:OK | L8:合适
+- scale | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:fish)，易靠语感/蒙) | 选项:[below / between / scale / shiny] | L7:OK | L8:合适
+- wing | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bird)，易靠语感/蒙) | 选项:[beak / dragon / turtle / wing] | L7:OK | L8:合适
+- beak | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bird)，易靠语感/蒙) | 选项:[beak / single / turtle / wing] | L7:OK | L8:合适
+- nest | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[beside / dozen / hen / nest] | L7:OK | L8:合适
+- hive | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bees)，易靠语感/蒙) | 选项:[bee / hive / island / whirl] | L7:OK | L8:合适
+- den | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cave / character / cub / den] | L7:OK | L8:合适
+- burrow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bunny / burrow / tame / turtle] | L7:OK | L8:合适
+- trap | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[exactly / nibble / sideways / trap] | L7:OK | L8:合适
+- leash | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:dog)，易靠语感/蒙) | 选项:[chase / frightened / gentle / leash] | L7:OK | L8:合适
+- tag | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[stranger / tag / title / vest] | L7:OK | L8:合适
+- whisker | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fresh / rotten / scale / whisker] | L7:OK | L8:合适
+- tail | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[leash / paw / puppy / tail] | L7:OK | L8:合适
+- hoof | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:horse's)，易靠语感/蒙) | 选项:[attach / crew / fog / hoof] | L7:OK | L8:合适
+- mane | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:lion's)，易靠语感/蒙) | 选项:[chilly / mane / shove / storm] | L7:OK | L8:合适
+- flock | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / flock / silent / spark] | L7:OK | L8:合适
+- herd | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridge / herd / shout / sideways] | L7:OK | L8:合适
+- pack | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:wolves)，易靠语感/蒙) | 选项:[bunch / crew / pack / pair] | L7:OK | L8:合适
+- droplet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[droplet / ladybug / moose / rainbow] | L7:OK | L8:合适
+- ripple | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[calm / clap / hollow / ripple] | L7:OK | L8:合适
+- bubble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bubble / storm / wand / wizard] | L7:OK | L8:合适
+- flame | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bitter / cave / flame / forest] | L7:OK | L8:合适
+- spark | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above / ash / flock / spark] | L7:OK | L8:合适
+- smoke | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flood / lightning / petal / smoke] | L7:注意(可能引发家长顾虑或需要解释：烟酒毒；建议例句更中性/更普适) | L8:合适
+- ash | L5-Def:能 | L5-Ex:能 | L6:能(线索词: after,left) | 选项:[ash / empty / finally / spark] | L7:OK | L8:合适
+- dawn | L5-Def:能 | L5-Ex:勉强(例句线索有，但容易被同类词替换) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[bark / barn / dawn / rooster] | L7:OK | L8:合适
+- dusk | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dusk / few / package / worm] | L7:OK | L8:合适
+- midnight | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cozy / glance / midnight / silent] | L7:OK | L8:合适
+- noon | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:day)，易靠语感/蒙) | 选项:[daily / noon / seed / sprout] | L7:OK | L8:合适
+- passenger | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:bus)，易靠语感/蒙) | 选项:[beginning / passenger / soon / while] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- neighbor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cookie / empty / greedy / neighbor] | L7:OK | L8:合适
+- stranger | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[forever / grumpy / once / stranger] | L7:OK | L8:合适
+- parade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[butterfly / hum / loud / parade] | L7:OK | L8:合适
+- audience | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / audience / middle / through] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- crew | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crew / fog / noon / slowly] | L7:OK | L8:合适
+- coach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[audience / coach / during / hear] | L7:OK | L8:合适
+- chef | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beside / bitter / chef / creamy] | L7:OK | L8:合适
+- mayor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[beyond / dull / mayor / perhaps] | L7:OK | L8:合适
+- inventor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bridge / inventor / splash / wing] | L7:OK | L8:合适
+- princess | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crown / nod / princess / wand] | L7:OK | L8:合适
+- knight | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:armor)，易靠语感/蒙) | 选项:[beginning / knight / rib / skull] | L7:OK | L8:合适
+- wizard | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[inventor / splash / wand / wizard] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- giant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[giant / gigantic / loose / nod] | L7:OK | L8:合适
+- dwarf | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blizzard / dwarf / forest / trail] | L7:OK | L8:合适
+- monster | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gather / monster / pile / scattered] | L7:OK | L8:合适
+- dragon | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:wings)，易靠语感/蒙) | 选项:[butterfly / dragon / goose / wing] | L7:OK | L8:合适
+- fairy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[amazed / bunch / dust / fairy] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:合适
+- shield | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[brave / harbor / peaceful / shield] | L7:OK | L8:合适
+- sword | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blanket / ripple / sword / tumble] | L7:OK | L8:合适
+- wand | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[princess / twist / wand / wizard] | L7:OK | L8:合适
+- throne | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:king)，易靠语感/蒙) | 选项:[beside / princess / throne / wand] | L7:OK | L8:合适
+- crown | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:jewels)，易靠语感/蒙) | 选项:[collect / crown / fuzzy / shiny] | L7:OK | L8:合适
+- wobble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[against / sponge / tumble / wobble] | L7:OK | L8:合适
+- tumble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[deep / shadow / sink / tumble] | L7:OK | L8:合适
+- snuggle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[duckling / lamb / match / snuggle] | L7:OK | L8:合适
+- nibble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[across / cracker / nibble / trap] | L7:OK | L8:合适
+- snore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[crow / loudly / shout / snore] | L7:OK | L8:合适
+- yawn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[late / tuck / tumble / yawn] | L7:OK | L8:合适
+- shiver | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blizzard / dwarf / shiver / sparkle] | L7:OK | L8:合适
+- bloom | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bloom / throughout / toad / vase] | L7:OK | L8:合适
+- sprout | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[daily / noon / seed / sprout] | L7:OK | L8:合适
+- wilt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[boiling / butterfly / single / wilt] | L7:OK | L8:合适
+- scattered | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[monster / rug / scattered / share] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- rascal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[none / often / rascal / twice] | L7:OK | L8:合适
+- gigantic | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:bigger)，易靠语感/蒙) | 选项:[gigantic / more / piece / silent] | L7:OK | L8:合适
+- itsy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[itsy / sink / spider / vine] | L7:OK | L8:合适
+- whirl | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[breeze / chilly / fluffy / whirl] | L7:OK | L8:合适
+- sparkle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[blizzard / dwarf / shiver / sparkle] | L7:OK | L8:合适
+- flutter | L5-Def:能 | L5-Ex:能 | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[butterfly / flutter / next / then] | L7:OK | L8:合适
+- hear | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[anyway / crowd / hear / then] | L7:OK | L8:合适
+- lose | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:not)，易靠语感/蒙) | 选项:[beyond / gentle / lose / sharp] | L7:OK | L8:合适
+- teach | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[count / measure / teach / weigh] | L7:OK | L8:合适
+- take | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[broccoli / grab / none / take] | L7:OK | L8:合适
+- than | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[instead / jealous / than / uniform] | L7:OK | L8:合适
