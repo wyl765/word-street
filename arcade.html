@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Word Street Arcade</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a1a; color: #fff; font-family: 'Segoe UI', sans-serif; overflow: hidden; touch-action: manipulation; user-select: none; }
+canvas { display: block; }
+#ui { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+#ui > * { pointer-events: auto; }
+.screen { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; }
+.hidden { display: none !important; }
+.neon { text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 40px currentColor; }
+h1 { font-size: 2.5em; margin-bottom: 20px; }
+.menu-btn { background: linear-gradient(135deg, #ff006e, #8338ec); border: none; color: #fff; font-size: 1.3em; padding: 15px 40px; margin: 8px; border-radius: 12px; cursor: pointer; font-weight: bold; text-shadow: 0 0 5px rgba(255,255,255,0.5); transition: transform 0.1s; }
+.menu-btn:active { transform: scale(0.95); }
+.menu-btn.small { font-size: 1em; padding: 10px 25px; }
+.level-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 15px 0; }
+.level-btn { background: linear-gradient(135deg, #3a86ff, #8338ec); border: 2px solid #fff3; color: #fff; font-size: 1em; padding: 12px 20px; border-radius: 10px; cursor: pointer; min-width: 60px; }
+.level-btn:active, .level-btn.selected { background: linear-gradient(135deg, #ff006e, #fb5607); transform: scale(0.95); }
+#hud { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; font-size: 1.2em; pointer-events: none; z-index: 10; }
+.hearts { color: #ff006e; }
+.score-display { color: #ffbe0b; text-shadow: 0 0 8px #ffbe0b; }
+#game-over { background: rgba(0,0,0,0.9); }
+#game-over h1 { color: #ff006e; }
+.final-score { font-size: 2em; color: #ffbe0b; margin: 10px 0; }
+.high-score-label { color: #8338ec; font-size: 1.2em; }
+</style>
+</head>
+<body>
+<!-- Main Menu -->
+<div id="main-menu" class="screen">
+<h1 class="neon" style="color:#ffbe0b">🕹️ WORD ARCADE</h1>
+<button class="menu-btn" onclick="selectGame(0)">🚀 Space Shooter<br><small>打飞机</small></button>
+<button class="menu-btn" onclick="selectGame(1)">💣 Word Bomb<br><small>限时炸弹</small></button>
+<button class="menu-btn" onclick="selectGame(2)">🏃 Word Runner<br><small>跑酷</small></button>
+</div>
+
+<!-- Level Select -->
+<div id="level-select" class="screen hidden">
+<h1 class="neon" style="color:#3a86ff">Select Level</h1>
+<div class="level-grid" id="level-grid"></div>
+<button class="menu-btn small" onclick="startGame()">▶ START</button>
+<button class="menu-btn small" style="background:linear-gradient(135deg,#555,#333)" onclick="showMenu()">← Back</button>
+</div>
+
+<!-- Game Canvas -->
+<canvas id="gameCanvas" class="hidden"></canvas>
+<div id="hud" class="hidden">
+<span class="hearts" id="hearts">♥♥♥</span>
+<span class="score-display" id="score-display">0</span>
+</div>
+
+<!-- Bomb Game UI overlay -->
+<div id="bomb-ui" class="screen hidden"></div>
+
+<!-- Game Over -->
+<div id="game-over" class="screen hidden">
+<h1 class="neon">GAME OVER</h1>
+<div class="final-score" id="final-score">0</div>
+<div class="high-score-label" id="high-score-label">High Score: 0</div>
+<button class="menu-btn" onclick="startGame()">🔄 Play Again</button>
+<button class="menu-btn small" style="background:linear-gradient(135deg,#555,#333)" onclick="showMenu()">🏠 Menu</button>
+</div>
+
+<script>
+// ============ AUDIO ENGINE ============
+const AudioCtx = window.AudioContext || window.webkitAudioContext;
+let audioCtx;
+function ensureAudio() { if (!audioCtx) audioCtx = new AudioCtx(); }
+function playTone(freq, dur, type='square', vol=0.15) {
+  ensureAudio();
+  const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+  o.type = type; o.frequency.value = freq;
+  g.gain.setValueAtTime(vol, audioCtx.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + dur);
+  o.connect(g); g.connect(audioCtx.destination);
+  o.start(); o.stop(audioCtx.currentTime + dur);
+}
+function sfxShoot() { playTone(800, 0.1, 'square', 0.1); playTone(1200, 0.08, 'square', 0.08); }
+function sfxExplode() { playTone(100, 0.3, 'sawtooth', 0.2); playTone(60, 0.4, 'sawtooth', 0.15); }
+function sfxWrong() { playTone(150, 0.3, 'sawtooth', 0.2); playTone(100, 0.4, 'sawtooth', 0.15); }
+function sfxCorrect() { playTone(523, 0.1, 'sine', 0.15); setTimeout(()=>playTone(659, 0.1, 'sine', 0.15), 80); setTimeout(()=>playTone(784, 0.15, 'sine', 0.15), 160); }
+function sfxBoom() { ensureAudio(); const buf = audioCtx.createBuffer(1, audioCtx.sampleRate*0.5, audioCtx.sampleRate); const d = buf.getChannelData(0); for(let i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*Math.pow(1-i/d.length,2); const s=audioCtx.createBufferSource(); s.buffer=buf; const g=audioCtx.createGain(); g.gain.value=0.3; s.connect(g); g.connect(audioCtx.destination); s.start(); }
+function sfxJump() { playTone(300, 0.1, 'sine', 0.12); playTone(600, 0.1, 'sine', 0.1); }
+function sfxCoin() { playTone(988, 0.08, 'sine', 0.12); setTimeout(()=>playTone(1319, 0.12, 'sine', 0.12), 60); }
+function sfxTick() { playTone(1000, 0.03, 'square', 0.05); }
+
+// ============ WORD DATA ============
+function getAllWords() {
+  const banks = [
+    typeof LEVEL1_BANK!=='undefined'?LEVEL1_BANK:[],
+    typeof LEVEL2_BANK!=='undefined'?LEVEL2_BANK:[],
+    typeof LEVEL2A_BANK!=='undefined'?LEVEL2A_BANK:[],
+    typeof LEVEL2B_BANK!=='undefined'?LEVEL2B_BANK:[],
+    typeof LEVEL2C_BANK!=='undefined'?LEVEL2C_BANK:[],
+    typeof LEVEL2D_BANK!=='undefined'?LEVEL2D_BANK:[],
+    typeof LEVEL3A_BANK!=='undefined'?LEVEL3A_BANK:[],
+    typeof LEVEL3B_BANK!=='undefined'?LEVEL3B_BANK:[],
+    typeof LEVEL3C_BANK!=='undefined'?LEVEL3C_BANK:[],
+    typeof LEVEL4A_BANK!=='undefined'?LEVEL4A_BANK:[],
+    typeof LEVEL4B_BANK!=='undefined'?LEVEL4B_BANK:[],
+    typeof LEVEL4C_BANK!=='undefined'?LEVEL4C_BANK:[],
+    typeof LEVEL5A_BANK!=='undefined'?LEVEL5A_BANK:[],
+    typeof LEVEL5B_BANK!=='undefined'?LEVEL5B_BANK:[],
+    typeof LEVEL5C_BANK!=='undefined'?LEVEL5C_BANK:[],
+    typeof LEVEL5D_BANK!=='undefined'?LEVEL5D_BANK:[],
+  ];
+  return banks.flat();
+}
+
+function getWordsForLevel(lvl) {
+  const all = getAllWords();
+  if (lvl === 0) return all;
+  return all.filter(w => w.level === lvl);
+}
+
+function shuffle(arr) { for(let i=arr.length-1;i>0;i--){const j=Math.random()*i|0;[arr[i],arr[j]]=[arr[j],arr[i]];} return arr; }
+function pick(arr, n) { return shuffle([...arr]).slice(0, n); }
+
+// ============ STATE ============
+let currentGame = 0, selectedLevel = 0;
+let lives = 3, score = 0, gameActive = false;
+let canvas, ctx, W, H, animId;
+let shakeX=0, shakeY=0, shakeDur=0;
+
+const $ = id => document.getElementById(id);
+function show(id) { $(id).classList.remove('hidden'); }
+function hide(id) { $(id).classList.add('hidden'); }
+
+function showMenu() {
+  cancelAnimationFrame(animId);
+  gameActive = false;
+  hide('gameCanvas'); hide('hud'); hide('game-over'); hide('level-select'); hide('bomb-ui');
+  show('main-menu');
+}
+
+function selectGame(g) {
+  currentGame = g;
+  hide('main-menu'); show('level-select');
+  const grid = $('level-grid');
+  grid.innerHTML = '';
+  const levels = [{l:0,t:'All'},{l:1,t:'Lv1'},{l:2,t:'Lv2'},{l:3,t:'Lv3'},{l:4,t:'Lv4'},{l:5,t:'Lv5'}];
+  levels.forEach(({l,t}) => {
+    const b = document.createElement('button');
+    b.className = 'level-btn' + (l===selectedLevel?' selected':'');
+    b.textContent = t;
+    b.onclick = () => { selectedLevel=l; grid.querySelectorAll('.level-btn').forEach(x=>x.classList.remove('selected')); b.classList.add('selected'); };
+    grid.appendChild(b);
+  });
+}
+
+function startGame() {
+  ensureAudio();
+  hide('main-menu'); hide('level-select'); hide('game-over'); hide('bomb-ui');
+  lives = 3; score = 0;
+  gameActive = true;
+  updateHUD();
+  if (currentGame === 0) startShooter();
+  else if (currentGame === 1) startBomb();
+  else startRunner();
+}
+
+function updateHUD() {
+  $('hearts').textContent = '♥'.repeat(lives) + '♡'.repeat(3-lives);
+  $('score-display').textContent = score;
+}
+
+function loseLife() {
+  lives--;
+  shakeDur = 12;
+  updateHUD();
+  if (lives <= 0) endGame();
+}
+
+function endGame() {
+  gameActive = false;
+  cancelAnimationFrame(animId);
+  hide('gameCanvas'); hide('hud'); hide('bomb-ui');
+  const key = `arcade_hs_${currentGame}_${selectedLevel}`;
+  const hs = Math.max(score, parseInt(localStorage.getItem(key)||'0'));
+  localStorage.setItem(key, hs);
+  $('final-score').textContent = score;
+  $('high-score-label').textContent = `High Score: ${hs}`;
+  show('game-over');
+}
+
+function initCanvas() {
+  canvas = $('gameCanvas');
+  canvas.classList.remove('hidden');
+  W = canvas.width = window.innerWidth;
+  H = canvas.height = window.innerHeight;
+  ctx = canvas.getContext('2d');
+  show('hud');
+}
+
+function applyShake() {
+  if (shakeDur > 0) { shakeX = (Math.random()-0.5)*shakeDur; shakeY = (Math.random()-0.5)*shakeDur; shakeDur-=0.8; }
+  else { shakeX=0; shakeY=0; }
+}
+
+// ============ PARTICLES ============
+let particles = [];
+function spawnParticles(x, y, color, count=15) {
+  for(let i=0;i<count;i++) {
+    const angle = Math.random()*Math.PI*2, speed = Math.random()*5+2;
+    particles.push({x,y,vx:Math.cos(angle)*speed,vy:Math.sin(angle)*speed,life:1,color,size:Math.random()*4+2});
+  }
+}
+function updateParticles() {
+  for(let i=particles.length-1;i>=0;i--) {
+    const p=particles[i]; p.x+=p.vx; p.y+=p.vy; p.vy+=0.1; p.life-=0.025;
+    if(p.life<=0) particles.splice(i,1);
+  }
+}
+function drawParticles() {
+  particles.forEach(p => { ctx.globalAlpha=p.life; ctx.fillStyle=p.color; ctx.fillRect(p.x-p.size/2,p.y-p.size/2,p.size,p.size); });
+  ctx.globalAlpha=1;
+}
+
+// ============ STARS BACKGROUND ============
+let stars = [];
+function initStars() { stars=[]; for(let i=0;i<80;i++) stars.push({x:Math.random()*W,y:Math.random()*H,s:Math.random()*2+0.5,sp:Math.random()*0.5+0.2}); }
+function drawStars() { ctx.fillStyle='#fff'; stars.forEach(s=>{ctx.globalAlpha=0.3+Math.random()*0.4;ctx.fillRect(s.x,s.y,s.s,s.s);s.y+=s.sp;if(s.y>H){s.y=0;s.x=Math.random()*W;}}); ctx.globalAlpha=1; }
+
+// ============ GAME 1: SPACE SHOOTER ============
+let enemies = [], shooterDef = '', shooterWord = null, shooterTimer = 0, spawnRate = 120, fallSpeed = 1;
+let wordPool = [];
+
+function startShooter() {
+  initCanvas(); initStars(); particles=[];
+  wordPool = shuffle(getWordsForLevel(selectedLevel));
+  if(wordPool.length<4) { wordPool = shuffle(getAllWords()); }
+  enemies=[]; shooterTimer=0; spawnRate=100; fallSpeed=1.2;
+  nextShooterQuestion();
+  canvas.ontouchstart = canvas.onclick = shooterTap;
+  shooterLoop();
+}
+
+function nextShooterQuestion() {
+  if(wordPool.length < 4) wordPool = shuffle(getWordsForLevel(selectedLevel)||getAllWords());
+  shooterWord = wordPool.pop();
+  shooterDef = shooterWord.definition;
+}
+
+function spawnEnemy() {
+  // spawn correct word + distractors
+  const isCorrect = enemies.filter(e=>e.correct).length === 0 && Math.random()<0.4;
+  let word;
+  if(isCorrect) { word = shooterWord.word; }
+  else {
+    const pool = getWordsForLevel(selectedLevel)||getAllWords();
+    const others = pool.filter(w=>w.word!==shooterWord.word);
+    word = others[Math.random()*others.length|0]?.word || 'test';
+  }
+  const w = ctx.measureText(word).width + 30;
+  enemies.push({x: Math.random()*(W-100)+50, y:-40, word, correct: word===shooterWord.word, w: Math.max(w,80), h:36, speed: fallSpeed*(0.8+Math.random()*0.4)});
+}
+
+function shooterTap(e) {
+  if(!gameActive) return;
+  ensureAudio();
+  const rect = canvas.getBoundingClientRect();
+  const tx = (e.touches?e.touches[0].clientX:e.clientX) - rect.left;
+  const ty = (e.touches?e.touches[0].clientY:e.clientY) - rect.top;
+  for(let i=enemies.length-1;i>=0;i--) {
+    const en = enemies[i];
+    if(tx>en.x-en.w/2 && tx<en.x+en.w/2 && ty>en.y-en.h/2 && ty<en.y+en.h/2) {
+      if(en.correct) {
+        sfxShoot(); sfxCorrect();
+        spawnParticles(en.x, en.y, '#ffbe0b', 20);
+        spawnParticles(en.x, en.y, '#ff006e', 10);
+        enemies.splice(i,1);
+        score += 10;
+        updateHUD();
+        // speed up
+        if(score%50===0) { fallSpeed+=0.3; spawnRate=Math.max(40,spawnRate-8); }
+        nextShooterQuestion();
+      } else {
+        sfxWrong();
+        spawnParticles(en.x, en.y, '#ff0000', 8);
+        enemies.splice(i,1);
+        loseLife();
+      }
+      return;
+    }
+  }
+}
+
+function shooterLoop() {
+  if(!gameActive) return;
+  animId = requestAnimationFrame(shooterLoop);
+  applyShake();
+  ctx.save(); ctx.translate(shakeX, shakeY);
+  ctx.fillStyle='#0a0a1a'; ctx.fillRect(0,0,W,H);
+  drawStars();
+
+  shooterTimer++;
+  if(shooterTimer%spawnRate===0) spawnEnemy();
+  // ensure correct word exists
+  if(!enemies.some(e=>e.correct) && shooterTimer%30===0) {
+    const w = ctx.measureText(shooterWord.word).width+30;
+    enemies.push({x:Math.random()*(W-100)+50,y:-40,word:shooterWord.word,correct:true,w:Math.max(w,80),h:36,speed:fallSpeed*(0.8+Math.random()*0.4)});
+  }
+
+  // update enemies
+  for(let i=enemies.length-1;i>=0;i--) {
+    const en=enemies[i]; en.y+=en.speed;
+    if(en.y>H+50) { if(en.correct){loseLife();nextShooterQuestion();} enemies.splice(i,1); continue; }
+    // draw
+    const grad = ctx.createLinearGradient(en.x-en.w/2,en.y-en.h/2,en.x+en.w/2,en.y+en.h/2);
+    grad.addColorStop(0, en.correct?'#8338ec':'#3a86ff');
+    grad.addColorStop(1, en.correct?'#ff006e':'#06d6a0');
+    ctx.fillStyle=grad;
+    ctx.beginPath();
+    const r=8; const x1=en.x-en.w/2,y1=en.y-en.h/2,x2=en.x+en.w/2,y2=en.y+en.h/2;
+    ctx.roundRect(x1,y1,en.w,en.h,r); ctx.fill();
+    ctx.strokeStyle='#fff3'; ctx.lineWidth=1.5; ctx.stroke();
+    ctx.fillStyle='#fff'; ctx.font='bold 16px sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
+    ctx.fillText(en.word, en.x, en.y);
+  }
+
+  // definition at bottom
+  ctx.fillStyle='rgba(0,0,0,0.7)'; ctx.fillRect(0,H-70,W,70);
+  ctx.fillStyle='#ffbe0b'; ctx.font='bold 18px sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
+  const defText = shooterDef.length>50?shooterDef.slice(0,47)+'...':shooterDef;
+  ctx.fillText('🎯 '+defText, W/2, H-35);
+
+  updateParticles(); drawParticles();
+  ctx.restore();
+}
+
+// ============ GAME 2: WORD BOMB ============
+let bombTimer=0, bombMax=8, bombCorrect=0, bombWord=null, bombOptions=[], bombInterval=null, bombStartTime=0;
+
+function startBomb() {
+  hide('gameCanvas');
+  show('hud'); show('bomb-ui');
+  wordPool = shuffle(getWordsForLevel(selectedLevel));
+  if(wordPool.length<4) wordPool = shuffle(getAllWords());
+  bombMax=8; bombCorrect=0;
+  nextBombRound();
+}
+
+function nextBombRound() {
+  if(!gameActive) return;
+  if(wordPool.length<4) wordPool=shuffle(getWordsForLevel(selectedLevel)||getAllWords());
+  bombWord = wordPool.pop();
+  const pool = (getWordsForLevel(selectedLevel)||getAllWords()).filter(w=>w.word!==bombWord.word);
+  const distractors = pick(pool,3);
+  bombOptions = shuffle([bombWord, ...distractors]);
+  bombStartTime = Date.now();
+  bombTimer = bombMax;
+  renderBomb();
+  clearInterval(bombInterval);
+  bombInterval = setInterval(bombTick, 100);
+}
+
+function bombTick() {
+  if(!gameActive){clearInterval(bombInterval);return;}
+  const elapsed = (Date.now()-bombStartTime)/1000;
+  bombTimer = Math.max(0, bombMax - elapsed);
+  if(bombTimer<=0) { clearInterval(bombInterval); sfxBoom(); sfxWrong(); loseLife(); if(gameActive) nextBombRound(); else{hide('bomb-ui');} }
+  else { updateBombTimer(); if(bombTimer<3) sfxTick(); }
+}
+
+function renderBomb() {
+  const ui = $('bomb-ui');
+  const pct = bombTimer/bombMax*100;
+  ui.innerHTML = `
+    <div style="text-align:center;max-width:400px;width:90%;">
+      <div style="font-size:4em;margin-bottom:10px;${bombTimer<3?'animation:pulse 0.3s infinite alternate':''}">💣</div>
+      <div style="background:#333;border-radius:20px;height:20px;margin:10px 0;overflow:hidden;border:2px solid #ff006e;">
+        <div id="bomb-bar" style="height:100%;width:${pct}%;background:linear-gradient(90deg,#ff006e,#ffbe0b);transition:width 0.1s;border-radius:20px;"></div>
+      </div>
+      <div id="bomb-time" style="font-size:1.5em;color:${bombTimer<3?'#ff006e':'#ffbe0b'};font-weight:bold;">${bombTimer.toFixed(1)}s</div>
+      <div style="font-size:1.2em;margin:20px 0;color:#fff;line-height:1.4;padding:10px;background:rgba(255,255,255,0.05);border-radius:10px;">${bombWord.definition}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+        ${bombOptions.map((w,i)=>`<button onclick="bombAnswer(${i})" style="background:linear-gradient(135deg,#3a86ff,#8338ec);border:none;color:#fff;font-size:1.2em;padding:15px;border-radius:12px;cursor:pointer;font-weight:bold;">${w.word}</button>`).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function updateBombTimer() {
+  const bar=$('bomb-bar'), time=$('bomb-time');
+  if(bar) bar.style.width=(bombTimer/bombMax*100)+'%';
+  if(time) { time.textContent=bombTimer.toFixed(1)+'s'; time.style.color=bombTimer<3?'#ff006e':'#ffbe0b'; }
+}
+
+function bombAnswer(i) {
+  if(!gameActive) return;
+  ensureAudio();
+  clearInterval(bombInterval);
+  if(bombOptions[i].word === bombWord.word) {
+    sfxCorrect(); score+=10; bombCorrect++;
+    if(bombCorrect%5===0) bombMax=Math.max(4, bombMax-1);
+    updateHUD();
+    // flash green
+    $('bomb-ui').innerHTML=`<div style="font-size:4em">✅</div><div style="font-size:1.5em;color:#06d6a0;margin-top:10px">+10</div>`;
+    setTimeout(()=>{ if(gameActive) nextBombRound(); }, 600);
+  } else {
+    sfxBoom(); sfxWrong(); loseLife();
+    $('bomb-ui').innerHTML=`<div style="font-size:4em;animation:pulse 0.2s infinite alternate">💥</div><div style="font-size:1.5em;color:#ff006e;margin-top:10px">BOOM!</div>`;
+    setTimeout(()=>{ if(gameActive) nextBombRound(); else hide('bomb-ui'); }, 800);
+  }
+}
+
+// ============ GAME 3: WORD RUNNER ============
+let runner, obstacles, coins, groundY, runnerSpeed, distance, nextObsDist, bgLayers;
+
+function startRunner() {
+  initCanvas(); particles=[];
+  wordPool = shuffle(getWordsForLevel(selectedLevel));
+  if(wordPool.length<4) wordPool=shuffle(getAllWords());
+  groundY = H * 0.75;
+  runner = {x:80, y:groundY, vy:0, jumping:false, ducking:false, h:50, w:30};
+  obstacles=[]; coins=[]; runnerSpeed=4; distance=0; nextObsDist=200;
+  bgLayers = [{x:0,speed:0.5,color:'#1a1a3a'},{x:0,speed:1,color:'#2a1a4a'},{x:0,speed:2,color:'#3a2a5a'}];
+  canvas.ontouchstart = canvas.onclick = runnerJump;
+  runnerLoop();
+}
+
+function runnerJump(e) {
+  if(!gameActive) return;
+  ensureAudio();
+  const ty = (e.touches?e.touches[0].clientY:e.clientY);
+  if(ty > H*0.7 && !runner.jumping) { runner.ducking=true; setTimeout(()=>runner.ducking=false, 400); return; }
+  if(!runner.jumping) { runner.vy=-14; runner.jumping=true; sfxJump(); }
+}
+
+function spawnRunnerObstacle() {
+  if(wordPool.length<4) wordPool=shuffle(getWordsForLevel(selectedLevel)||getAllWords());
+  const correct = wordPool.pop();
+  const pool = (getWordsForLevel(selectedLevel)||getAllWords()).filter(w=>w.word!==correct.word);
+  const wrong = pool[Math.random()*pool.length|0];
+  // obstacle with wrong definition, coin with correct word
+  const ox = W+50;
+  const isHigh = Math.random()>0.5;
+  obstacles.push({x:ox, y: isHigh?groundY-80:groundY-40, w:120, h:40, word:wrong.word, def:wrong.definition, passed:false});
+  coins.push({x:ox+180, y:groundY-60, word:correct.word, def:correct.definition, collected:false, r:18});
+}
+
+function runnerLoop() {
+  if(!gameActive) return;
+  animId = requestAnimationFrame(runnerLoop);
+  applyShake();
+  ctx.save(); ctx.translate(shakeX, shakeY);
+
+  // bg
+  ctx.fillStyle='#0a0a1a'; ctx.fillRect(0,0,W,H);
+  bgLayers.forEach(l => { l.x-=l.speed; if(l.x<-W)l.x=0; ctx.fillStyle=l.color; ctx.globalAlpha=0.3; ctx.fillRect(l.x,groundY-100,W*2,H); }); ctx.globalAlpha=1;
+
+  // ground
+  ctx.fillStyle='#2d2d4a'; ctx.fillRect(0,groundY,W,H-groundY);
+  ctx.strokeStyle='#8338ec'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(0,groundY); ctx.lineTo(W,groundY); ctx.stroke();
+
+  distance += runnerSpeed;
+  if(distance > nextObsDist) { spawnRunnerObstacle(); nextObsDist=distance+300+Math.random()*200; }
+  if(score%50===0 && score>0) runnerSpeed=Math.min(8, 4+score/100);
+
+  // runner physics
+  runner.vy += 0.8; runner.y += runner.vy;
+  if(runner.y >= groundY) { runner.y=groundY; runner.vy=0; runner.jumping=false; }
+
+  // draw runner
+  const rh = runner.ducking?25:runner.h;
+  const ry = runner.y - rh;
+  ctx.fillStyle='#ffbe0b';
+  ctx.fillRect(runner.x-runner.w/2, ry, runner.w, rh);
+  // face
+  ctx.fillStyle='#fff'; ctx.fillRect(runner.x+5, ry+5, 6, 6);
+  ctx.fillStyle='#0a0a1a'; ctx.fillRect(runner.x+7, ry+7, 3, 3);
+  // legs animation
+  const legOff = Math.sin(Date.now()/100)*5;
+  ctx.fillStyle='#ff006e'; ctx.fillRect(runner.x-8, runner.y-5+legOff, 8, 5); ctx.fillRect(runner.x+2, runner.y-5-legOff, 8, 5);
+
+  // obstacles
+  for(let i=obstacles.length-1;i>=0;i--) {
+    const o=obstacles[i]; o.x-=runnerSpeed;
+    if(o.x<-150){obstacles.splice(i,1);continue;}
+    // draw
+    ctx.fillStyle='#ff006e'; ctx.beginPath(); ctx.roundRect(o.x-o.w/2,o.y-o.h,o.w,o.h,6); ctx.fill();
+    ctx.fillStyle='#fff'; ctx.font='bold 13px sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
+    const t=o.word.length>12?o.word.slice(0,10)+'..':o.word;
+    ctx.fillText(t, o.x, o.y-o.h/2);
+    // collision
+    if(!o.passed && runner.x+runner.w/2>o.x-o.w/2 && runner.x-runner.w/2<o.x+o.w/2) {
+      if(ry+rh>o.y-o.h && ry<o.y) {
+        o.passed=true; sfxWrong(); spawnParticles(runner.x,runner.y-20,'#ff006e',10); loseLife();
+      }
+    }
+    if(runner.x>o.x+o.w/2) o.passed=true;
+  }
+
+  // coins
+  for(let i=coins.length-1;i>=0;i--) {
+    const c=coins[i]; c.x-=runnerSpeed;
+    if(c.x<-50){coins.splice(i,1);continue;}
+    if(c.collected) continue;
+    // draw
+    ctx.fillStyle='#ffbe0b'; ctx.beginPath(); ctx.arc(c.x,c.y,c.r,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle='#0a0a1a'; ctx.font='bold 11px sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
+    const ct=c.word.length>6?c.word.slice(0,5)+'':c.word;
+    ctx.fillText(ct, c.x, c.y);
+    // collect
+    const dx=runner.x-c.x, dy=(ry+rh/2)-c.y;
+    if(Math.sqrt(dx*dx+dy*dy)<c.r+runner.w/2) {
+      c.collected=true; sfxCoin(); spawnParticles(c.x,c.y,'#ffbe0b',12); score+=5; updateHUD();
+    }
+  }
+
+  // definition hint
+  if(coins.length>0) {
+    const nextCoin = coins.find(c=>!c.collected&&c.x>runner.x);
+    if(nextCoin) {
+      ctx.fillStyle='rgba(0,0,0,0.6)'; ctx.fillRect(0,10,W,30);
+      ctx.fillStyle='#06d6a0'; ctx.font='14px sans-serif'; ctx.textAlign='center';
+      ctx.fillText('Collect: '+nextCoin.def.slice(0,50), W/2, 28);
+    }
+  }
+
+  updateParticles(); drawParticles();
+  ctx.restore();
+}
+
+// ============ INIT ============
+window.addEventListener('resize', ()=>{ if(canvas&&!canvas.classList.contains('hidden')){W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight;groundY=H*0.75;initStars();}});
+
+// CSS animation
+const style=document.createElement('style');
+style.textContent=`@keyframes pulse{from{transform:scale(1)}to{transform:scale(1.1)}}`;
+document.head.appendChild(style);
+</script>
+
+<!-- Word data files -->
+<script src="words-level1.js"></script>
+<script src="words-level2.js"></script>
+<script src="words-level2a.js"></script>
+<script src="words-level2b.js"></script>
+<script src="words-level2c.js"></script>
+<script src="words-level2d.js"></script>
+<script src="words-level3a.js"></script>
+<script src="words-level3b.js"></script>
+<script src="words-level3c.js"></script>
+<script src="words-level4a.js"></script>
+<script src="words-level4b.js"></script>
+<script src="words-level4c.js"></script>
+<script src="words-level5a.js"></script>
+<script src="words-level5b.js"></script>
+<script src="words-level5c.js"></script>
+<script src="words-level5d.js"></script>
+</body>
+</html>
