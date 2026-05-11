@@ -1,0 +1,110 @@
+{
+  "total": 5205,
+  "critical": 0,
+  "high": 17,
+  "criticalItems": [],
+  "highItems": [
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level2.js",
+      "word": "break down"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level2.js",
+      "word": "carry out"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "definition contains the target word (circular)",
+      "file": "words-level2b.js",
+      "word": "take away"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level2b.js",
+      "word": "deal with"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level2b.js",
+      "word": "blot out"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level2d.js",
+      "word": "certify"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level3b.js",
+      "word": "bite off more than you can chew"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level3b.js",
+      "word": "pull someone's leg"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level3b.js",
+      "word": "carry on"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level3b.js",
+      "word": "a taste of your own medicine"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level3b.js",
+      "word": "not only...but also"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level5a.js",
+      "word": "embody"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level5a.js",
+      "word": "amenity"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example missing ending punctuation",
+      "file": "words-level5a.js",
+      "word": "banal"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level5a.js",
+      "word": "decry"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level5d.js",
+      "word": "mercenary"
+    },
+    {
+      "severity": "HIGH",
+      "msg": "example does not appear to use the target word/phrase",
+      "file": "words-level5d.js",
+      "word": "gratify"
+    }
+  ]
+}

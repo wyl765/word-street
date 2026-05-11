@@ -1,0 +1,231 @@
+{
+  "totalCount": 5205,
+  "critical": [],
+  "high": [
+    {
+      "word": "come back",
+      "file": "words-level1.js",
+      "issue": "Word not used in example: The dog always comes back when I call his name."
+    },
+    {
+      "word": "point out",
+      "file": "words-level2.js",
+      "issue": "Word not used in example: The teacher pointed out the comma in my sentence."
+    },
+    {
+      "word": "come across",
+      "file": "words-level2.js",
+      "issue": "Word not used in example: I came across a shiny shell while walking on the beach."
+    },
+    {
+      "word": "break down",
+      "file": "words-level2.js",
+      "issue": "Word not used in example: Our old wagon broke down, so we carried the pumpkins."
+    },
+    {
+      "word": "carry out",
+      "file": "words-level2.js",
+      "issue": "Word not used in example: We carried out our science test step by step."
+    },
+    {
+      "word": "end up",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: We got lost and ended up at the wrong park."
+    },
+    {
+      "word": "fall apart",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: My old backpack is falling apart because I have used it so much."
+    },
+    {
+      "word": "look after",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: She looks after her baby brother while Mom cooks dinner."
+    },
+    {
+      "word": "look up",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: I looked up the word in the dictionary to find its meaning."
+    },
+    {
+      "word": "pick out",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: He picked out a red apple from the basket."
+    },
+    {
+      "word": "pull over",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: Dad pulled over to look at the map."
+    },
+    {
+      "word": "sign up",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: I signed up for the art class after school."
+    },
+    {
+      "word": "stay up",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: She stayed up late to finish reading her exciting book."
+    },
+    {
+      "word": "use up",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: We used up all the paint making our big poster."
+    },
+    {
+      "word": "work out",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: Everything worked out fine, and we all got home safely."
+    },
+    {
+      "word": "call off",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: They called off the picnic because of rain."
+    },
+    {
+      "word": "deal with",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: She dealt with the broken toy by fixing it herself."
+    },
+    {
+      "word": "hand out",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: The coach handed out jerseys to every player."
+    },
+    {
+      "word": "show up",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: He always shows up to class on time."
+    },
+    {
+      "word": "take into account",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: Take the cost into account before buying."
+    },
+    {
+      "word": "account for",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: Bad weather accounts for most flight delays."
+    },
+    {
+      "word": "act on",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: She acted on the doctor's advice and rested."
+    },
+    {
+      "word": "boil down to",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: The argument boils down to who gets the last cookie."
+    },
+    {
+      "word": "freshen up",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: She freshened up before dinner by washing her face."
+    },
+    {
+      "word": "leave behind",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: Don't leave your jacket behind when we go."
+    },
+    {
+      "word": "live up to",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: The movie lived up to all the excitement."
+    },
+    {
+      "word": "rule out",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: The detective ruled out three suspects."
+    },
+    {
+      "word": "back down",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: He backed down when he realized he was wrong."
+    },
+    {
+      "word": "bail out",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: Her friend bailed her out by lending a pencil."
+    },
+    {
+      "word": "bang out",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: He banged out the report in just one hour."
+    },
+    {
+      "word": "blot out",
+      "file": "words-level2b.js",
+      "issue": "Word not used in example: Dark clouds blotted out the sun."
+    },
+    {
+      "word": "cost an arm and a leg",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: That new bike costs an arm and a leg!"
+    },
+    {
+      "word": "bite off more than you can chew",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: Joining three clubs was biting off more than he could chew."
+    },
+    {
+      "word": "get cold feet",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: He got cold feet and did not jump off the diving board."
+    },
+    {
+      "word": "go the extra mile",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: She went the extra mile and decorated the whole room for the party."
+    },
+    {
+      "word": "sit on the fence",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: Stop sitting on the fence and pick which game to play."
+    },
+    {
+      "word": "pull someone's leg",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: Are you pulling my leg, or did you really see a bear?"
+    },
+    {
+      "word": "throw in the towel",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: After trying for an hour, she threw in the towel and asked for help."
+    },
+    {
+      "word": "turn out",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: The rainy day turned out to be really fun because we played inside."
+    },
+    {
+      "word": "run out of",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: The printer ran out of paper right before I needed to print my homework."
+    },
+    {
+      "word": "carry on",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: Even when it got hard, she carried on with the race."
+    },
+    {
+      "word": "kill two birds with one stone",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: Walking to school kills two birds with one stone: exercise and saving gas."
+    },
+    {
+      "word": "a taste of your own medicine",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: He finally got a taste of his own medicine when someone interrupted him."
+    },
+    {
+      "word": "burn the midnight oil",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: He burned the midnight oil to finish his science project."
+    },
+    {
+      "word": "not only...but also",
+      "file": "words-level3b.js",
+      "issue": "Word not used in example: He is not only smart but also very kind."
+    }
+  ]
+}
