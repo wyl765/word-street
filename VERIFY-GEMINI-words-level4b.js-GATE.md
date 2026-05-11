@@ -1,314 +1,314 @@
 # VERIFY-GEMINI-words-level4b.js-GATE
 
-| Word | L9: Image Search | L10: Fact Check | L11: Meaning | L12: Game Ready |
-|---|---|---|---|---|
-| infant | PASS | PASS | PASS | PASS |
-| inflation | PASS | PASS | PASS | PASS |
-| initiative | PASS | PASS | PASS | PASS |
-| insight | PASS | PASS | PASS | PASS |
-| install | PASS | PASS | PASS | PASS |
-| integrity | PASS | PASS | PASS | PASS |
-| intellect | PASS | PASS | PASS | PASS |
-| intercept | PASS | PASS | PASS | PASS |
-| interfere | PASS | PASS | PASS | PASS |
-| intimidate | PASS | PASS | PASS | PASS |
-| intricate | PASS | PASS | PASS | PASS |
-| introduction | PASS | PASS | PASS | PASS |
-| investment | PASS | PASS | PASS | PASS |
-| irrigate | PASS | PASS | PASS | PASS |
-| labor | PASS | PASS | PASS | PASS |
-| landscape | PASS | PASS | PASS | PASS |
-| liberate | PASS | PASS | PASS | PASS |
-| literacy | PASS | PASS | PASS | PASS |
-| margin | PASS | PASS | PASS | PASS |
-| mechanism | PASS | PASS | PASS | PASS |
-| media | PASS | PASS | PASS | PASS |
-| medieval | PASS | PASS | PASS | PASS |
-| memorize | PASS | PASS | PASS | PASS |
-| menace | PASS | PASS | PASS | PASS |
-| merit | PASS | PASS | PASS | PASS |
-| metabolism | PASS | PASS | PASS | PASS |
-| mimic | PASS | PASS | PASS | PASS |
-| minimal | PASS | PASS | PASS | PASS |
-| ministry | PASS | PASS | PASS | PASS |
-| momentum | PASS | PASS | PASS | PASS |
-| monarch | PASS | PASS | PASS | PASS |
-| monopoly | PASS | PASS | PASS | PASS |
-| municipal | PASS | PASS | PASS | PASS |
-| narrative | PASS | PASS | PASS | PASS |
-| nitrogen | PASS | PASS | PASS | PASS |
-| nominate | PASS | PASS | PASS | PASS |
-| norm | PASS | PASS | PASS | PASS |
-| nuclear | PASS | PASS | PASS | PASS |
-| oblige | PASS | PASS | PASS | PASS |
-| offend | PASS | PASS | PASS | PASS |
-| oppress | PASS | PASS | PASS | PASS |
-| orient | PASS | PASS | PASS | PASS |
-| output | PASS | PASS | PASS | PASS |
-| outrage | PASS | PASS | PASS | PASS |
-| overlap | PASS | PASS | PASS | PASS |
-| overseas | PASS | PASS | PASS | PASS |
-| overwhelm | PASS | PASS | PASS | PASS |
-| patron | PASS | PASS | PASS | PASS |
-| peak | PASS | PASS | PASS | PASS |
-| plantation | PASS | PASS | PASS | PASS |
-| plead | PASS | PASS | PASS | PASS |
-| poll | PASS | PASS | PASS | PASS |
-| pollinate | PASS | PASS | PASS | PASS |
-| pollute | PASS | PASS | PASS | PASS |
-| populate | PASS | PASS | PASS | PASS |
-| precaution | PASS | PASS | PASS | PASS |
-| preliminary | PASS | PASS | PASS | PASS |
-| premise | PASS | PASS | PASS | PASS |
-| preside | PASS | PASS | PASS | PASS |
-| prevalent | PASS | PASS | PASS | PASS |
-| primarily | PASS | PASS | PASS | PASS |
-| procedure | PASS | PASS | PASS | PASS |
-| quota | PASS | PASS | PASS | PASS |
-| rational | PASS | PASS | PASS | PASS |
-| reaction | PASS | PASS | PASS | PASS |
-| recede | PASS | PASS | PASS | PASS |
-| reception | PASS | PASS | PASS | PASS |
-| refer | PASS | PASS | PASS | PASS |
-| refuge | PASS | PASS | PASS | PASS |
-| regime | PASS | PASS | PASS | PASS |
-| relay | PASS | PASS | PASS | PASS |
-| render | WARN: Long keyword | PASS | PASS | PASS |
-| renovate | PASS | PASS | PASS | PASS |
-| repeal | PASS | PASS | PASS | PASS |
-| replicate | PASS | PASS | PASS | PASS |
-| resign | PASS | PASS | PASS | PASS |
-| restrain | PASS | PASS | PASS | PASS |
-| retail | PASS | PASS | PASS | PASS |
-| retrieve | PASS | PASS | PASS | PASS |
-| revolve | PASS | PASS | PASS | PASS |
-| robust | WARN: Long keyword | PASS | PASS | PASS |
-| rotate | PASS | PASS | PASS | PASS |
-| sanction | PASS | PASS | PASS | PASS |
-| satellite | PASS | PASS | PASS | PASS |
-| saturate | PASS | PASS | PASS | PASS |
-| scenario | PASS | PASS | PASS | PASS |
-| sector | WARN: Long keyword | PASS | PASS | PASS |
-| senate | PASS | PASS | PASS | PASS |
-| siege | PASS | PASS | PASS | PASS |
-| significance | PASS | PASS | PASS | PASS |
-| simultaneous | PASS | PASS | PASS | PASS |
-| skeptical | PASS | PASS | PASS | PASS |
-| solemn | PASS | PASS | PASS | PASS |
-| somewhat | PASS | PASS | PASS | PASS |
-| sovereign | PASS | PASS | PASS | PASS |
-| spectrum | PASS | PASS | PASS | PASS |
-| speculate | PASS | PASS | PASS | PASS |
-| sphere | PASS | PASS | PASS | PASS |
-| stability | PASS | PASS | PASS | PASS |
-| stagger | PASS | PASS | PASS | PASS |
-| stake | PASS | PASS | PASS | PASS |
-| statistic | PASS | PASS | PASS | PASS |
-| statute | PASS | PASS | PASS | PASS |
-| stereotype | PASS | PASS | PASS | PASS |
-| stimulate | PASS | PASS | PASS | PASS |
-| subordinate | PASS | PASS | PASS | PASS |
-| subsequent | WARN: Long keyword | PASS | PASS | PASS |
-| subsidy | PASS | PASS | PASS | PASS |
-| substance | PASS | PASS | PASS | PASS |
-| substantial | PASS | PASS | PASS | PASS |
-| subtle | PASS | PASS | PASS | PASS |
-| successor | PASS | PASS | PASS | PASS |
-| summarize | PASS | PASS | PASS | PASS |
-| superb | PASS | PASS | PASS | PASS |
-| supreme | PASS | PASS | PASS | PASS |
-| surplus | PASS | PASS | PASS | PASS |
-| surrender | PASS | PASS | PASS | PASS |
-| synthetic | PASS | PASS | PASS | PASS |
-| tenant | PASS | PASS | PASS | PASS |
-| terminal | PASS | PASS | PASS | PASS |
-| terrain | PASS | PASS | PASS | PASS |
-| testify | PASS | PASS | PASS | PASS |
-| texture | PASS | PASS | PASS | PASS |
-| therapy | PASS | PASS | PASS | PASS |
-| threat | PASS | PASS | PASS | PASS |
-| timber | PASS | PASS | PASS | PASS |
-| toxic | PASS | PASS | PASS | PASS |
-| transaction | PASS | PASS | PASS | PASS |
-| transition | PASS | PASS | PASS | PASS |
-| transmit | PASS | PASS | PASS | PASS |
-| trigger | PASS | PASS | PASS | PASS |
-| turbulent | PASS | PASS | PASS | PASS |
-| twilight | PASS | PASS | PASS | PASS |
-| ultimate | PASS | PASS | PASS | PASS |
-| undermine | PASS | PASS | PASS | PASS |
-| obstinate | PASS | PASS | PASS | PASS |
-| obviate | PASS | PASS | PASS | PASS |
-| onerous | PASS | PASS | PASS | PASS |
-| opacity | PASS | PASS | PASS | PASS |
-| opulence | PASS | PASS | PASS | PASS |
-| oration | WARN: Long keyword | PASS | PASS | PASS |
-| oscillation | PASS | PASS | PASS | PASS |
-| ostensible | PASS | PASS | PASS | PASS |
-| ostracism | PASS | PASS | PASS | PASS |
-| overture | PASS | PASS | PASS | PASS |
-| palatable | PASS | PASS | PASS | PASS |
-| panacea | WARN: Long keyword | PASS | PASS | PASS |
-| paragon | PASS | PASS | PASS | PASS |
-| paradoxical | PASS | PASS | PASS | PASS |
-| paucity | WARN: Long keyword | PASS | PASS | PASS |
-| pedagogue | PASS | PASS | PASS | PASS |
-| pedantic | PASS | PASS | PASS | PASS |
-| pejorative | PASS | PASS | PASS | PASS |
-| penitence | PASS | PASS | PASS | PASS |
-| penultimate | WARN: Long keyword | PASS | PASS | PASS |
-| pernicious | PASS | PASS | PASS | PASS |
-| perturbation | PASS | PASS | PASS | PASS |
-| petulance | PASS | PASS | PASS | PASS |
-| placid | PASS | PASS | PASS | PASS |
-| platitude | PASS | PASS | PASS | PASS |
-| plethora | PASS | PASS | PASS | PASS |
-| poignant | PASS | PASS | PASS | PASS |
-| polemic | PASS | PASS | PASS | PASS |
-| ponderous | PASS | PASS | PASS | PASS |
-| portentous | PASS | PASS | PASS | PASS |
-| pragmatism | PASS | PASS | PASS | PASS |
-| precarious | PASS | PASS | PASS | PASS |
-| precipitous | PASS | PASS | PASS | PASS |
-| precursor | PASS | PASS | PASS | PASS |
-| predilection | PASS | PASS | PASS | PASS |
-| preeminent | PASS | PASS | PASS | PASS |
-| preponderance | PASS | PASS | PASS | PASS |
-| presentiment | PASS | PASS | PASS | PASS |
-| presumptuous | PASS | PASS | PASS | PASS |
-| primordial | PASS | PASS | PASS | PASS |
-| probity | PASS | PASS | PASS | PASS |
-| proclivity | PASS | PASS | PASS | PASS |
-| procrastinate | PASS | PASS | PASS | PASS |
-| prodigious | PASS | PASS | PASS | PASS |
-| profligate | PASS | PASS | PASS | PASS |
-| prognosticate | PASS | PASS | PASS | PASS |
-| promulgation | PASS | PASS | PASS | PASS |
-| propitious | PASS | PASS | PASS | PASS |
-| proprietary | WARN: Long keyword | PASS | PASS | PASS |
-| proscribe | PASS | PASS | PASS | PASS |
-| proselytize | PASS | PASS | PASS | PASS |
-| protracted | PASS | PASS | PASS | PASS |
-| provenance | PASS | PASS | PASS | PASS |
-| provisional | PASS | PASS | PASS | PASS |
-| prowess | PASS | PASS | PASS | PASS |
-| prudence | PASS | PASS | PASS | PASS |
-| pugnacious | PASS | PASS | PASS | PASS |
-| pulchritude | PASS | PASS | PASS | PASS |
-| punctilious | WARN: Long keyword | PASS | PASS | PASS |
-| punitive | PASS | PASS | PASS | PASS |
-| quagmire | WARN: Long keyword | PASS | PASS | PASS |
-| qualm | PASS | PASS | PASS | PASS |
-| quandary | PASS | PASS | PASS | PASS |
-| quarrelsome | PASS | PASS | PASS | PASS |
-| querulous | PASS | PASS | PASS | PASS |
-| quintessential | WARN: Long keyword | PASS | PASS | PASS |
-| quixotic | PASS | PASS | PASS | PASS |
-| rambunctious | PASS | PASS | PASS | PASS |
-| rancor | PASS | PASS | PASS | PASS |
-| rapacious | PASS | PASS | PASS | PASS |
-| rapprochement | PASS | PASS | PASS | PASS |
-| rationale | PASS | PASS | PASS | PASS |
-| recapitulate | PASS | PASS | PASS | PASS |
-| recidivism | PASS | PASS | PASS | PASS |
-| reciprocity | PASS | PASS | PASS | PASS |
-| reclamation | PASS | PASS | PASS | PASS |
-| reconciliation | WARN: Long keyword | PASS | PASS | PASS |
-| redress | PASS | PASS | PASS | PASS |
-| redundancy | PASS | PASS | PASS | PASS |
-| refurbish | WARN: Long keyword | PASS | PASS | PASS |
-| reiterate | PASS | PASS | PASS | PASS |
-| relegate | WARN: Long keyword | PASS | PASS | PASS |
-| remonstrate | PASS | PASS | PASS | PASS |
-| renunciation | WARN: Long keyword | PASS | PASS | PASS |
-| reparation | PASS | PASS | PASS | PASS |
-| reprehensible | PASS | PASS | PASS | PASS |
-| repudiation | PASS | PASS | PASS | PASS |
-| requisition | WARN: Long keyword | PASS | PASS | PASS |
-| rescind | PASS | PASS | PASS | PASS |
-| resignation | PASS | PASS | PASS | PASS |
-| resolute | PASS | PASS | PASS | PASS |
-| resurgent | PASS | PASS | PASS | PASS |
-| reticence | PASS | PASS | PASS | PASS |
-| retrospective | WARN: Long keyword | PASS | PASS | PASS |
-| revelry | PASS | PASS | PASS | PASS |
-| reverberate | PASS | PASS | PASS | PASS |
-| rigmarole | PASS | PASS | PASS | PASS |
-| ruminate | PASS | PASS | PASS | PASS |
-| sacrosanct | PASS | PASS | PASS | PASS |
-| sagacious | PASS | PASS | PASS | PASS |
-| salient | PASS | PASS | PASS | PASS |
-| sanguine | PASS | PASS | PASS | PASS |
-| sardonic | PASS | PASS | PASS | PASS |
-| scrupulous | WARN: Long keyword | PASS | PASS | PASS |
-| scrutinize | PASS | PASS | PASS | PASS |
-| sedentary | PASS | PASS | PASS | PASS |
-| semblance | PASS | PASS | PASS | PASS |
-| serendipity | PASS | PASS | PASS | PASS |
-| servile | PASS | PASS | PASS | PASS |
-| simultaneity | WARN: Long keyword | PASS | PASS | PASS |
-| solace | PASS | PASS | PASS | PASS |
-| solicitous | PASS | PASS | PASS | PASS |
-| soporific | PASS | PASS | PASS | PASS |
-| spurious | PASS | PASS | PASS | PASS |
-| squalid | WARN: Long keyword | PASS | PASS | PASS |
-| stagnation | WARN: Long keyword | PASS | PASS | PASS |
-| stipend | PASS | PASS | PASS | PASS |
-| stringent | WARN: Long keyword | PASS | PASS | PASS |
-| subjugation | PASS | PASS | PASS | PASS |
-| subliminal | PASS | PASS | PASS | PASS |
-| subordination | PASS | PASS | PASS | PASS |
-| subservient | PASS | PASS | PASS | PASS |
-| substantiation | PASS | PASS | PASS | PASS |
-| subterfuge | PASS | PASS | PASS | PASS |
-| succinct | PASS | PASS | PASS | PASS |
-| symbiosis | WARN: Long keyword | PASS | PASS | PASS |
-| tangential | PASS | PASS | PASS | PASS |
-| tantamount | PASS | PASS | PASS | PASS |
-| temerity | PASS | PASS | PASS | PASS |
-| temperance | PASS | PASS | PASS | PASS |
-| tenacity | PASS | PASS | PASS | PASS |
-| tenet | PASS | PASS | PASS | PASS |
-| tepid | PASS | PASS | PASS | PASS |
-| terse | PASS | PASS | PASS | PASS |
-| tirade | PASS | PASS | PASS | PASS |
-| torpor | PASS | PASS | PASS | PASS |
-| tractable | PASS | PASS | PASS | PASS |
-| transient | PASS | PASS | PASS | PASS |
-| trepidation | PASS | PASS | PASS | PASS |
-| truculent | PASS | PASS | PASS | PASS |
-| ubiquity | PASS | PASS | PASS | PASS |
-| umbrage | PASS | PASS | PASS | PASS |
-| unctuous | PASS | PASS | PASS | PASS |
-| underpinning | PASS | PASS | PASS | PASS |
-| unequivocal | PASS | PASS | PASS | PASS |
-| unscrupulous | PASS | PASS | PASS | PASS |
-| usurpation | PASS | PASS | PASS | PASS |
-| utilitarian | PASS | PASS | PASS | PASS |
-| vacillate | PASS | PASS | PASS | PASS |
-| vapid | PASS | PASS | PASS | PASS |
-| vehemence | PASS | PASS | PASS | PASS |
-| venerate | PASS | PASS | PASS | PASS |
-| veracious | PASS | PASS | PASS | PASS |
-| verbose | WARN: Long keyword | PASS | PASS | PASS |
-| vestige | PASS | PASS | PASS | PASS |
-| vilification | PASS | PASS | PASS | PASS |
-| vindictive | PASS | PASS | PASS | PASS |
-| virtuosity | PASS | PASS | PASS | PASS |
-| vitriolic | PASS | PASS | PASS | PASS |
-| vociferous | PASS | PASS | PASS | PASS |
-| volition | PASS | PASS | PASS | PASS |
-| waiver | PASS | PASS | PASS | PASS |
-| wanton | PASS | PASS | PASS | PASS |
-| warranted | PASS | PASS | PASS | PASS |
-| wherewithal | PASS | PASS | PASS | PASS |
-| zealot | PASS | PASS | PASS | PASS |
-| abnegation | PASS | PASS | PASS | PASS |
-| acerbic | PASS | PASS | PASS | PASS |
-| anachronism | WARN: Long keyword | PASS | PASS | PASS |
-| anathema | PASS | PASS | PASS | PASS |
-| antithesis | PASS | PASS | PASS | PASS |
-| asperity | PASS | PASS | PASS | PASS |
-| calumny | PASS | PASS | PASS | PASS |
-| chicanery | PASS | PASS | PASS | PASS |
-| contumacious | PASS | PASS | PASS | PASS |
+| Word | Image Keyword (L9) | Definition Fact Check (L10) | Common Sense/Polysemy (L11) | Game Compatibility (L12) | Status |
+|---|---|---|---|---|---|
+| infant | OK (keyword: baby infant) | OK | OK | OK | PASS |
+| inflation | OK (keyword: rising prices) | OK | OK | OK | PASS |
+| initiative | OK (keyword: taking action) | OK | OK | OK | PASS |
+| insight | OK (keyword: deep understanding) | OK | OK | OK | PASS |
+| install | OK (keyword: installing equipment) | OK | OK | OK | PASS |
+| integrity | OK (keyword: honest integrity) | OK | OK | OK | PASS |
+| intellect | OK (keyword: brilliant mind) | OK | OK | OK | PASS |
+| intercept | OK (keyword: intercepting ball) | OK | OK | OK | PASS |
+| interfere | OK (keyword: blocking interference) | OK | OK | OK | PASS |
+| intimidate | OK (keyword: intimidation warning) | OK | OK | OK | PASS |
+| intricate | OK (keyword: intricate pattern) | OK | OK | OK | PASS |
+| introduction | OK (keyword: book introduction) | OK | OK | OK | PASS |
+| investment | OK (keyword: growing investment) | OK | OK | OK | PASS |
+| irrigate | OK (keyword: irrigating crops) | OK | OK | OK | PASS |
+| labor | OK (keyword: hard labor) | OK | OK | OK | PASS |
+| landscape | OK (keyword: mountain landscape) | OK | OK | OK | PASS |
+| liberate | OK (keyword: setting free) | OK | OK | OK | PASS |
+| literacy | OK (keyword: reading literacy) | OK | OK | OK | PASS |
+| margin | OK (keyword: page margin) | OK | OK | OK | PASS |
+| mechanism | OK (keyword: clock mechanism) | OK | OK | OK | PASS |
+| media | OK (keyword: news media) | OK | OK | OK | PASS |
+| medieval | OK (keyword: medieval castle) | OK | OK | OK | PASS |
+| memorize | OK (keyword: memorizing study) | OK | OK | OK | PASS |
+| menace | OK (keyword: threatening menace) | OK | OK | OK | PASS |
+| merit | OK (keyword: deserving merit) | OK | OK | OK | PASS |
+| metabolism | OK (keyword: energy metabolism) | OK | OK | OK | PASS |
+| mimic | OK (keyword: parrot mimicking) | OK | OK | OK | PASS |
+| minimal | OK (keyword: very little) | OK | OK | OK | PASS |
+| ministry | OK (keyword: government ministry) | OK | OK | OK | PASS |
+| momentum | OK (keyword: rolling momentum) | OK | OK | OK | PASS |
+| monarch | OK (keyword: royal monarch) | OK | OK | OK | PASS |
+| monopoly | OK (keyword: single control) | OK | OK | OK | PASS |
+| municipal | OK (keyword: city building) | OK | OK | OK | PASS |
+| narrative | OK (keyword: story narrative) | OK | OK | OK | PASS |
+| nitrogen | OK (keyword: atmosphere gas) | OK | OK | OK | PASS |
+| nominate | OK (keyword: nominating someone) | OK | OK | OK | PASS |
+| norm | OK (keyword: normal standard) | OK | OK | OK | PASS |
+| nuclear | OK (keyword: nuclear energy) | OK | OK | OK | PASS |
+| oblige | OK (keyword: required obligation) | OK | OK | OK | PASS |
+| offend | OK (keyword: hurt feelings) | OK | OK | OK | PASS |
+| oppress | OK (keyword: unfair treatment) | OK | OK | OK | PASS |
+| orient | OK (keyword: compass orientation) | OK | OK | OK | PASS |
+| output | OK (keyword: production output) | OK | OK | OK | PASS |
+| outrage | OK (keyword: angry outrage) | OK | OK | OK | PASS |
+| overlap | OK (keyword: overlapping circles) | OK | OK | OK | PASS |
+| overseas | OK (keyword: overseas travel) | OK | OK | OK | PASS |
+| overwhelm | OK (keyword: overwhelmed student) | OK | OK | OK | PASS |
+| patron | OK (keyword: library patron) | OK | OK | OK | PASS |
+| peak | OK (keyword: mountain peak) | OK | OK | OK | PASS |
+| plantation | OK (keyword: tea plantation) | OK | OK | OK | PASS |
+| plead | OK (keyword: pleading eyes) | OK | OK | OK | PASS |
+| poll | OK (keyword: opinion poll) | OK | OK | OK | PASS |
+| pollinate | OK (keyword: bee pollinating) | OK | OK | OK | PASS |
+| pollute | OK (keyword: river pollution) | OK | OK | OK | PASS |
+| populate | OK (keyword: growing population) | OK | OK | OK | PASS |
+| precaution | OK (keyword: safety precaution) | OK | OK | OK | PASS |
+| preliminary | OK (keyword: first round) | OK | OK | OK | PASS |
+| premise | OK (keyword: basic idea) | OK | OK | OK | PASS |
+| preside | OK (keyword: leading meeting) | OK | OK | OK | PASS |
+| prevalent | OK (keyword: widespread common) | OK | OK | OK | PASS |
+| primarily | OK (keyword: especially first) | OK | OK | OK | PASS |
+| procedure | OK (keyword: step procedure) | OK | OK | OK | PASS |
+| quota | OK (keyword: quota target) | OK | OK | OK | PASS |
+| rational | OK (keyword: logical thinking) | OK | OK | OK | PASS |
+| reaction | OK (keyword: surprised reaction) | OK | OK | OK | PASS |
+| recede | OK (keyword: receding water) | OK | OK | OK | PASS |
+| reception | OK (keyword: welcome reception) | OK | OK | OK | PASS |
+| refer | OK (keyword: reference book) | OK | OK | OK | PASS |
+| refuge | OK (keyword: safe refuge) | OK | OK | OK | PASS |
+| regime | OK (keyword: strict government) | OK | OK | OK | PASS |
+| relay | OK (keyword: relay race) | OK | OK | OK | PASS |
+| render | OK (keyword: snowy blocked road) | OK | OK | OK | PASS |
+| renovate | OK (keyword: renovating building) | OK | OK | OK | PASS |
+| repeal | OK (keyword: canceling law) | OK | OK | OK | PASS |
+| replicate | OK (keyword: copying exactly) | OK | OK | OK | PASS |
+| resign | OK (keyword: quitting job) | OK | OK | OK | PASS |
+| restrain | OK (keyword: holding back) | OK | OK | OK | PASS |
+| retail | OK (keyword: retail store) | OK | OK | OK | PASS |
+| retrieve | OK (keyword: fetching object) | OK | OK | OK | PASS |
+| revolve | OK (keyword: revolving planet) | OK | OK | OK | PASS |
+| robust | OK (keyword: strong oak tree) | OK | OK | OK | PASS |
+| rotate | OK (keyword: rotating earth) | OK | OK | OK | PASS |
+| sanction | OK (keyword: international sanctions) | OK | OK | OK | PASS |
+| satellite | OK (keyword: orbiting satellite) | OK | OK | OK | PASS |
+| saturate | OK (keyword: soaked saturated) | OK | OK | OK | PASS |
+| scenario | OK (keyword: possible situation) | OK | OK | OK | PASS |
+| sector | OK (keyword: pie chart sector) | OK | OK | OK | PASS |
+| senate | OK (keyword: senate chamber) | OK | OK | OK | PASS |
+| siege | OK (keyword: castle siege) | OK | OK | OK | PASS |
+| significance | OK (keyword: great importance) | OK | OK | OK | PASS |
+| simultaneous | OK (keyword: same time) | OK | OK | OK | PASS |
+| skeptical | OK (keyword: doubting person) | OK | OK | OK | PASS |
+| solemn | OK (keyword: solemn serious) | OK | OK | OK | PASS |
+| somewhat | OK (keyword: partly somewhat) | OK | OK | OK | PASS |
+| sovereign | OK (keyword: sovereign crown) | OK | OK | OK | PASS |
+| spectrum | OK (keyword: color spectrum) | OK | OK | OK | PASS |
+| speculate | OK (keyword: wondering guessing) | OK | OK | OK | PASS |
+| sphere | OK (keyword: round sphere) | OK | OK | OK | PASS |
+| stability | OK (keyword: stable structure) | OK | OK | OK | PASS |
+| stagger | OK (keyword: staggering walk) | OK | OK | OK | PASS |
+| stake | OK (keyword: high stakes) | OK | OK | OK | PASS |
+| statistic | OK (keyword: data statistic) | OK | OK | OK | PASS |
+| statute | OK (keyword: written law) | OK | OK | OK | PASS |
+| stereotype | OK (keyword: unfair assumption) | OK | OK | OK | PASS |
+| stimulate | OK (keyword: brain stimulation) | OK | OK | OK | PASS |
+| subordinate | OK (keyword: rank order) | OK | OK | OK | PASS |
+| subsequent | OK (keyword: sequence arrows next) | OK | OK | OK | PASS |
+| subsidy | OK (keyword: financial support) | OK | OK | OK | PASS |
+| substance | OK (keyword: chemical substance) | OK | OK | OK | PASS |
+| substantial | OK (keyword: large amount) | OK | OK | OK | PASS |
+| subtle | OK (keyword: subtle difference) | OK | OK | OK | PASS |
+| successor | OK (keyword: next leader) | OK | OK | OK | PASS |
+| summarize | OK (keyword: brief summary) | OK | OK | OK | PASS |
+| superb | OK (keyword: excellent performance) | OK | OK | OK | PASS |
+| supreme | OK (keyword: supreme court) | OK | OK | OK | PASS |
+| surplus | OK (keyword: extra surplus) | OK | OK | OK | PASS |
+| surrender | OK (keyword: white flag) | OK | OK | OK | PASS |
+| synthetic | OK (keyword: synthetic fabric) | OK | OK | OK | PASS |
+| tenant | OK (keyword: apartment tenant) | OK | OK | OK | PASS |
+| terminal | OK (keyword: airport terminal) | OK | OK | OK | PASS |
+| terrain | OK (keyword: rocky terrain) | OK | OK | OK | PASS |
+| testify | OK (keyword: court testimony) | OK | OK | OK | PASS |
+| texture | OK (keyword: texture surfaces) | OK | OK | OK | PASS |
+| therapy | OK (keyword: physical therapy) | OK | OK | OK | PASS |
+| threat | OK (keyword: environmental threat) | OK | OK | OK | PASS |
+| timber | OK (keyword: timber logs) | OK | OK | OK | PASS |
+| toxic | OK (keyword: toxic warning) | OK | OK | OK | PASS |
+| transaction | OK (keyword: money transaction) | OK | OK | OK | PASS |
+| transition | OK (keyword: changing transition) | OK | OK | OK | PASS |
+| transmit | OK (keyword: transmitting signal) | OK | OK | OK | PASS |
+| trigger | OK (keyword: triggering event) | OK | OK | OK | PASS |
+| turbulent | OK (keyword: turbulent sky) | OK | OK | OK | PASS |
+| twilight | OK (keyword: twilight sky) | OK | OK | OK | PASS |
+| ultimate | OK (keyword: ultimate prize) | OK | OK | OK | PASS |
+| undermine | OK (keyword: weakening foundation) | OK | OK | OK | PASS |
+| obstinate | OK (keyword: stubborn child) | OK | OK | OK | PASS |
+| obviate | OK (keyword: preventing problem) | OK | OK | OK | PASS |
+| onerous | OK (keyword: heavy workload) | OK | OK | OK | PASS |
+| opacity | OK (keyword: murky water) | OK | OK | OK | PASS |
+| opulence | OK (keyword: luxurious palace) | OK | OK | OK | PASS |
+| oration | OK (keyword: formal speech podium) | OK | OK | OK | PASS |
+| oscillation | OK (keyword: pendulum swinging) | OK | OK | OK | PASS |
+| ostensible | OK (keyword: surface appearance) | OK | OK | OK | PASS |
+| ostracism | OK (keyword: excluded person) | OK | OK | OK | PASS |
+| overture | OK (keyword: friendly gesture) | OK | OK | OK | PASS |
+| palatable | OK (keyword: tasty food) | OK | OK | OK | PASS |
+| panacea | OK (keyword: magic remedy bottle) | OK | OK | OK | PASS |
+| paragon | OK (keyword: model person) | OK | OK | OK | PASS |
+| paradoxical | OK (keyword: contradiction) | OK | OK | OK | PASS |
+| paucity | OK (keyword: empty dry field) | OK | OK | OK | PASS |
+| pedagogue | OK (keyword: strict teacher) | OK | OK | OK | PASS |
+| pedantic | OK (keyword: correcting details) | OK | OK | OK | PASS |
+| pejorative | OK (keyword: negative label) | OK | OK | OK | PASS |
+| penitence | OK (keyword: sorry apology) | OK | OK | OK | PASS |
+| penultimate | OK (keyword: second to last) | OK | OK | OK | PASS |
+| pernicious | OK (keyword: hidden harm) | OK | OK | OK | PASS |
+| perturbation | OK (keyword: worried unease) | OK | OK | OK | PASS |
+| petulance | OK (keyword: cranky tantrum) | OK | OK | OK | PASS |
+| placid | OK (keyword: calm lake) | OK | OK | OK | PASS |
+| platitude | OK (keyword: empty words) | OK | OK | OK | PASS |
+| plethora | OK (keyword: many choices) | OK | OK | OK | PASS |
+| poignant | OK (keyword: emotional moment) | OK | OK | OK | PASS |
+| polemic | OK (keyword: strong argument) | OK | OK | OK | PASS |
+| ponderous | OK (keyword: heavy elephant) | OK | OK | OK | PASS |
+| portentous | OK (keyword: ominous clouds) | OK | OK | OK | PASS |
+| pragmatism | OK (keyword: practical approach) | OK | OK | OK | PASS |
+| precarious | OK (keyword: teetering vase) | OK | OK | OK | PASS |
+| precipitous | OK (keyword: steep cliff) | OK | OK | OK | PASS |
+| precursor | OK (keyword: early sign) | OK | OK | OK | PASS |
+| predilection | OK (keyword: favorite choice) | OK | OK | OK | PASS |
+| preeminent | OK (keyword: top expert) | OK | OK | OK | PASS |
+| preponderance | OK (keyword: majority weight) | OK | OK | OK | PASS |
+| presentiment | OK (keyword: bad feeling) | OK | OK | OK | PASS |
+| presumptuous | OK (keyword: overstepping bounds) | OK | OK | OK | PASS |
+| primordial | OK (keyword: ancient rocks) | OK | OK | OK | PASS |
+| probity | OK (keyword: honest judge) | OK | OK | OK | PASS |
+| proclivity | OK (keyword: natural tendency) | OK | OK | OK | PASS |
+| procrastinate | OK (keyword: delaying work) | OK | OK | OK | PASS |
+| prodigious | OK (keyword: huge waterfall) | OK | OK | OK | PASS |
+| profligate | OK (keyword: wasting money) | OK | OK | OK | PASS |
+| prognosticate | OK (keyword: predicting weather) | OK | OK | OK | PASS |
+| promulgation | OK (keyword: announcing rules) | OK | OK | OK | PASS |
+| propitious | OK (keyword: favorable weather) | OK | OK | OK | PASS |
+| proprietary | OK (keyword: locked box with key) | OK | OK | OK | PASS |
+| proscribe | OK (keyword: forbidden sign) | OK | OK | OK | PASS |
+| proselytize | OK (keyword: persuading others) | OK | OK | OK | PASS |
+| protracted | OK (keyword: long meeting) | OK | OK | OK | PASS |
+| provenance | OK (keyword: origin history) | OK | OK | OK | PASS |
+| provisional | OK (keyword: temporary plan) | OK | OK | OK | PASS |
+| prowess | OK (keyword: athletic skill) | OK | OK | OK | PASS |
+| prudence | OK (keyword: careful thinking) | OK | OK | OK | PASS |
+| pugnacious | OK (keyword: aggressive rooster) | OK | OK | OK | PASS |
+| pulchritude | OK (keyword: beautiful sunset) | OK | OK | OK | PASS |
+| punctilious | OK (keyword: perfect table setting) | OK | OK | OK | PASS |
+| punitive | OK (keyword: punishment penalty) | OK | OK | OK | PASS |
+| quagmire | OK (keyword: stuck in mud) | OK | OK | OK | PASS |
+| qualm | OK (keyword: hesitation doubt) | OK | OK | OK | PASS |
+| quandary | OK (keyword: confused choice) | OK | OK | OK | PASS |
+| quarrelsome | OK (keyword: arguing siblings) | OK | OK | OK | PASS |
+| querulous | OK (keyword: whiny child) | OK | OK | OK | PASS |
+| quintessential | OK (keyword: classic apple pie) | OK | OK | OK | PASS |
+| quixotic | OK (keyword: unrealistic dream) | OK | OK | OK | PASS |
+| rambunctious | OK (keyword: energetic puppies) | OK | OK | OK | PASS |
+| rancor | OK (keyword: bitter resentment) | OK | OK | OK | PASS |
+| rapacious | OK (keyword: greedy pirate) | OK | OK | OK | PASS |
+| rapprochement | OK (keyword: making peace) | OK | OK | OK | PASS |
+| rationale | OK (keyword: reasoning explanation) | OK | OK | OK | PASS |
+| recapitulate | OK (keyword: summarizing points) | OK | OK | OK | PASS |
+| recidivism | OK (keyword: repeating mistakes) | OK | OK | OK | PASS |
+| reciprocity | OK (keyword: mutual exchange) | OK | OK | OK | PASS |
+| reclamation | OK (keyword: restoring land) | OK | OK | OK | PASS |
+| reconciliation | OK (keyword: friends making up) | OK | OK | OK | PASS |
+| redress | OK (keyword: correcting wrong) | OK | OK | OK | PASS |
+| redundancy | OK (keyword: repeated copy) | OK | OK | OK | PASS |
+| refurbish | OK (keyword: fixing up old furniture) | OK | OK | OK | PASS |
+| reiterate | OK (keyword: repeating message) | OK | OK | OK | PASS |
+| relegate | OK (keyword: moved to storage) | OK | OK | OK | PASS |
+| remonstrate | OK (keyword: protesting strongly) | OK | OK | OK | PASS |
+| renunciation | OK (keyword: giving up prize) | OK | OK | OK | PASS |
+| reparation | OK (keyword: making amends) | OK | OK | OK | PASS |
+| reprehensible | OK (keyword: wrong behavior) | OK | OK | OK | PASS |
+| repudiation | OK (keyword: rejecting falsehood) | OK | OK | OK | PASS |
+| requisition | OK (keyword: official request form) | OK | OK | OK | PASS |
+| rescind | OK (keyword: canceling order) | OK | OK | OK | PASS |
+| resignation | OK (keyword: accepting defeat) | OK | OK | OK | PASS |
+| resolute | OK (keyword: determined climber) | OK | OK | OK | PASS |
+| resurgent | OK (keyword: comeback rising) | OK | OK | OK | PASS |
+| reticence | OK (keyword: quiet reserved) | OK | OK | OK | PASS |
+| retrospective | OK (keyword: looking back history) | OK | OK | OK | PASS |
+| revelry | OK (keyword: party celebration) | OK | OK | OK | PASS |
+| reverberate | OK (keyword: echoing thunder) | OK | OK | OK | PASS |
+| rigmarole | OK (keyword: complicated paperwork) | OK | OK | OK | PASS |
+| ruminate | OK (keyword: deep thinking) | OK | OK | OK | PASS |
+| sacrosanct | OK (keyword: sacred protected) | OK | OK | OK | PASS |
+| sagacious | OK (keyword: wise grandmother) | OK | OK | OK | PASS |
+| salient | OK (keyword: important point) | OK | OK | OK | PASS |
+| sanguine | OK (keyword: optimistic person) | OK | OK | OK | PASS |
+| sardonic | OK (keyword: mocking humor) | OK | OK | OK | PASS |
+| scrupulous | OK (keyword: careful checking numbers) | OK | OK | OK | PASS |
+| scrutinize | OK (keyword: examining closely) | OK | OK | OK | PASS |
+| sedentary | OK (keyword: sitting desk) | OK | OK | OK | PASS |
+| semblance | OK (keyword: appearance order) | OK | OK | OK | PASS |
+| serendipity | OK (keyword: lucky discovery) | OK | OK | OK | PASS |
+| servile | OK (keyword: overly obedient) | OK | OK | OK | PASS |
+| simultaneity | OK (keyword: same time events) | OK | OK | OK | PASS |
+| solace | OK (keyword: comfort reading) | OK | OK | OK | PASS |
+| solicitous | OK (keyword: caring nurse) | OK | OK | OK | PASS |
+| soporific | OK (keyword: falling asleep) | OK | OK | OK | PASS |
+| spurious | OK (keyword: false claim) | OK | OK | OK | PASS |
+| squalid | OK (keyword: dirty messy room) | OK | OK | OK | PASS |
+| stagnation | OK (keyword: no growth still) | OK | OK | OK | PASS |
+| stipend | OK (keyword: small payment) | OK | OK | OK | PASS |
+| stringent | OK (keyword: strict rules sign) | OK | OK | OK | PASS |
+| subjugation | OK (keyword: forced control) | OK | OK | OK | PASS |
+| subliminal | OK (keyword: hidden message) | OK | OK | OK | PASS |
+| subordination | OK (keyword: lower rank) | OK | OK | OK | PASS |
+| subservient | OK (keyword: obedient robot) | OK | OK | OK | PASS |
+| substantiation | OK (keyword: proving evidence) | OK | OK | OK | PASS |
+| subterfuge | OK (keyword: secret trick) | OK | OK | OK | PASS |
+| succinct | OK (keyword: brief clear) | OK | OK | OK | PASS |
+| symbiosis | OK (keyword: bee and flower) | OK | OK | OK | PASS |
+| tangential | OK (keyword: off topic) | OK | OK | OK | PASS |
+| tantamount | OK (keyword: equal equivalent) | OK | OK | OK | PASS |
+| temerity | OK (keyword: bold nerve) | OK | OK | OK | PASS |
+| temperance | OK (keyword: self control) | OK | OK | OK | PASS |
+| tenacity | OK (keyword: persistent effort) | OK | OK | OK | PASS |
+| tenet | OK (keyword: core belief) | OK | OK | OK | PASS |
+| tepid | OK (keyword: lukewarm reaction) | OK | OK | OK | PASS |
+| terse | OK (keyword: short blunt) | OK | OK | OK | PASS |
+| tirade | OK (keyword: angry speech) | OK | OK | OK | PASS |
+| torpor | OK (keyword: sluggish lazy) | OK | OK | OK | PASS |
+| tractable | OK (keyword: obedient puppy) | OK | OK | OK | PASS |
+| transient | OK (keyword: brief rainbow) | OK | OK | OK | PASS |
+| trepidation | OK (keyword: nervous fear) | OK | OK | OK | PASS |
+| truculent | OK (keyword: aggressive arguing) | OK | OK | OK | PASS |
+| ubiquity | OK (keyword: everywhere phones) | OK | OK | OK | PASS |
+| umbrage | OK (keyword: offended person) | OK | OK | OK | PASS |
+| unctuous | OK (keyword: fake flattery) | OK | OK | OK | PASS |
+| underpinning | OK (keyword: foundation support) | OK | OK | OK | PASS |
+| unequivocal | OK (keyword: clear definite) | OK | OK | OK | PASS |
+| unscrupulous | OK (keyword: dishonest seller) | OK | OK | OK | PASS |
+| usurpation | OK (keyword: seizing power) | OK | OK | OK | PASS |
+| utilitarian | OK (keyword: practical useful) | OK | OK | OK | PASS |
+| vacillate | OK (keyword: indecisive choosing) | OK | OK | OK | PASS |
+| vapid | OK (keyword: boring show) | OK | OK | OK | PASS |
+| vehemence | OK (keyword: passionate argument) | OK | OK | OK | PASS |
+| venerate | OK (keyword: respected elder) | OK | OK | OK | PASS |
+| veracious | OK (keyword: honest reporter) | OK | OK | OK | PASS |
+| verbose | OK (keyword: too many words) | OK | OK | OK | PASS |
+| vestige | OK (keyword: ruins remains) | OK | OK | OK | PASS |
+| vilification | OK (keyword: cruel gossip) | OK | OK | OK | PASS |
+| vindictive | OK (keyword: vengeful person) | OK | OK | OK | PASS |
+| virtuosity | OK (keyword: skilled musician) | OK | OK | OK | PASS |
+| vitriolic | OK (keyword: harsh criticism) | OK | OK | OK | PASS |
+| vociferous | OK (keyword: loud protesters) | OK | OK | OK | PASS |
+| volition | OK (keyword: free choice) | OK | OK | OK | PASS |
+| waiver | OK (keyword: signing document) | OK | OK | OK | PASS |
+| wanton | OK (keyword: careless destruction) | OK | OK | OK | PASS |
+| warranted | OK (keyword: justified reason) | OK | OK | OK | PASS |
+| wherewithal | OK (keyword: resources needed) | OK | OK | OK | PASS |
+| zealot | OK (keyword: passionate activist) | OK | OK | OK | PASS |
+| abnegation | OK (keyword: selfless sacrifice) | OK | OK | OK | PASS |
+| acerbic | OK (keyword: sharp words) | OK | OK | OK | PASS |
+| anachronism | OK (keyword: out of time) | OK | OK | OK | PASS |
+| anathema | OK (keyword: strongly rejected) | OK | OK | OK | PASS |
+| antithesis | OK (keyword: complete opposite) | OK | OK | OK | PASS |
+| asperity | OK (keyword: harsh tone) | OK | OK | OK | PASS |
+| calumny | OK (keyword: false accusation) | OK | OK | OK | PASS |
+| chicanery | OK (keyword: dishonest trickery) | OK | OK | OK | PASS |
+| contumacious | OK (keyword: defiant cat) | OK | OK | OK | PASS |
