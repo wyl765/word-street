@@ -1,6 +1,10 @@
-# VERIFY-GPT — words-level3a.js
+# VERIFY-GPT — words-level3a.js — GATE
 
-说明：每个词一行（不跳过）。字段：L5-Def / L5-Ex / L6(遮词+四选一) / L7(文化敏感) / L8(学习路径)。
+> 每词一行：L5(定义能懂?/例句能猜?) + L6(例句反向填空唯一性：同level四选项) + L7(中国ESL家长视角文化敏感) + L8(学习路径/前置)
+
+选择依据：word-status.json → 审校前 currentGate 最小=15；并列时按 totalWords 从小到大优先处理 → 选 `words-level3a.js`。
+完整性校验：词库 231 词；本报告逐词 231 行；missing=0 / extra=0。
+状态同步：已在 word-status.json 将 `words-level3a.js` 标记为 gate15=pass，并把 currentGate 推进到 16。
 
 汇总：共231词。L5-Def 能185/勉强46/不能0；L5-Ex 能186/勉强0/不能45；L6 能6/勉强225/不能0；L7 注意5；L8 合适185/勉强35/不合适11。
 

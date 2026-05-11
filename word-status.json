@@ -112,7 +112,7 @@
     },
     "words-level3a.js": {
       "totalWords": 231,
-      "currentGate": 15,
+      "currentGate": 16,
       "gate1": "pass",
       "gate2": "pass",
       "gate3": "pass",
@@ -123,7 +123,8 @@
       "gate9": "pass",
       "gate10": "pass",
       "gate11": "pass",
-      "gate12": "pass"
+      "gate12": "pass",
+      "gate15": "pass"
     },
     "words-level3b.js": {
       "totalWords": 315,
