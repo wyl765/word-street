@@ -1,0 +1,91 @@
+{
+  "file": "words-level1.js",
+  "total": 100,
+  "match": 32,
+  "partial": 15,
+  "low": 10,
+  "notFound": 0,
+  "skip": 0,
+  "lowMatchEntries": [
+    {
+      "word": "puppy",
+      "ourDef": "a baby dog",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 7
+    },
+    {
+      "word": "kitten",
+      "ourDef": "a baby cat",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 5
+    },
+    {
+      "word": "goose",
+      "ourDef": "a big bird that honks and lives near water",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 12
+    },
+    {
+      "word": "eagle",
+      "ourDef": "a very large bird that flies high",
+      "dictDef": "Any of several large carnivorous and carrion-eating birds in the family Accipitridae, having a powerful hooked bill and keen vision.",
+      "overlapScore": 0.16666666666666666,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 5
+    },
+    {
+      "word": "shark",
+      "ourDef": "a large ocean animal with sharp teeth",
+      "dictDef": "A scaleless, predatory fish of the superorder Selachimorpha, with a cartilaginous skeleton and 5 to 7 gill slits on each side of its head.",
+      "overlapScore": 0.16666666666666666,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 12
+    },
+    {
+      "word": "toad",
+      "ourDef": "a small bumpy animal that hops and lives on land",
+      "dictDef": "To expel (a user) permanently from a MUD or similar system, so that their account is deleted.",
+      "overlapScore": 0.14285714285714285,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 4
+    },
+    {
+      "word": "peanut",
+      "ourDef": "a small food that grows in a shell in the ground",
+      "dictDef": "A very small clam.",
+      "overlapScore": 0.16666666666666666,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 3
+    },
+    {
+      "word": "stew",
+      "ourDef": "a thick hot meal of meat and vegetables cooked slowly in a pot",
+      "dictDef": "A dish cooked by stewing.",
+      "overlapScore": 0.16666666666666666,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 13
+    },
+    {
+      "word": "treat",
+      "ourDef": "a special food or small gift that makes you happy",
+      "dictDef": "An entertainment, outing, food, drink, or other indulgence provided by someone for the enjoyment of others.",
+      "overlapScore": 0.14285714285714285,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 15
+    },
+    {
+      "word": "throat",
+      "ourDef": "the inside of your neck where food and air pass",
+      "dictDef": "The front part of the neck.",
+      "overlapScore": 0.16666666666666666,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 13
+    }
+  ]
+}

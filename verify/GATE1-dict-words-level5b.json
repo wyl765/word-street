@@ -1,0 +1,91 @@
+{
+  "file": "words-level5b.js",
+  "total": 50,
+  "match": 8,
+  "partial": 12,
+  "low": 10,
+  "notFound": 0,
+  "skip": 0,
+  "lowMatchEntries": [
+    {
+      "word": "strategic",
+      "ourDef": "carefully planned to achieve a certain goal",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 1
+    },
+    {
+      "word": "tentative",
+      "ourDef": "not certain or fixed; done without feeling sure of yourself",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 3
+    },
+    {
+      "word": "thesis",
+      "ourDef": "the main argument or thought in a piece of writing",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 2
+    },
+    {
+      "word": "turbine",
+      "ourDef": "a machine with blades turned by wind, water, or steam",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 1
+    },
+    {
+      "word": "accountable",
+      "ourDef": "in charge and expected to explain your actions",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 4
+    },
+    {
+      "word": "acquisition",
+      "ourDef": "getting or gaining something new",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 3
+    },
+    {
+      "word": "adamant",
+      "ourDef": "refusing to change your mind about something",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 5
+    },
+    {
+      "word": "aesthetic",
+      "ourDef": "about being pretty to look at, design, and good taste",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 5
+    },
+    {
+      "word": "affiliation",
+      "ourDef": "an official connection to a group",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 3
+    },
+    {
+      "word": "allegation",
+      "ourDef": "a claim that someone has done something wrong",
+      "dictDef": "",
+      "overlapScore": 0,
+      "status": "LOW_MATCH",
+      "totalDictDefs": 2
+    }
+  ]
+}
