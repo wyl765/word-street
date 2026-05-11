@@ -1,404 +1,404 @@
-# Gemini Verification Report: words-level2a.js
+# VERIFY-GEMINI-words-level2a.js-GATE
 
-| Word | L9: Image Search | L10: Fact Check | L11: Polysemy | L12: Game Compat | Status |
-|------|------------------|-----------------|---------------|------------------|--------|
-| avoid | Pass | Pass | Pass | Pass | Pass |
-| burst | Pass | Pass | Pass | Pass | Pass |
-| bury | Pass | Pass | Pass | Pass | Pass |
-| cheer | Pass | Pass | Pass | Pass | Pass |
-| choose | Pass | Pass | Pass | Pass | Pass |
-| claim | Pass | Pass | Pass | Pass | Pass |
-| combine | Pass | Pass | Pass | Pass | Pass |
-| command | Pass | Pass | Pass | Pass | Pass |
-| consider | Pass | Pass | Pass | Pass | Pass |
-| continue | Pass | Pass | Pass | Pass | Pass |
-| control | Pass | Pass | Pass | Pass | Pass |
-| cover | Pass | Pass | Pass | Pass | Pass |
-| cross | Pass | Pass | Pass | Pass | Pass |
-| crush | Pass | Pass | Pass | Pass | Pass |
-| dare | Pass | Pass | Pass | Pass | Pass |
-| demand | Pass | Pass | Pass | Pass | Pass |
-| develop | Pass | Pass | Pass | Pass | Pass |
-| direct | Pass | Pass | Pass | Pass | Pass |
-| examine | Pass | Pass | Pass | Pass | Pass |
-| exchange | Pass | Pass | Pass | Pass | Pass |
-| excite | Pass | Pass | Pass | Pass | Pass |
-| expect | Pass | Pass | Pass | Pass | Pass |
-| explore | Pass | Pass | Pass | Pass | Pass |
-| express | Pass | Pass | Pass | Pass | Pass |
-| fail | Pass | Pass | Pass | Pass | Pass |
-| flow | Pass | Pass | Pass | Pass | Pass |
-| form | Pass | Pass | Pass | Pass | Pass |
-| gaze | Pass | Pass | Pass | Pass | Pass |
-| guide | Pass | Pass | Pass | Pass | Pass |
-| hasten | Pass | Pass | Pass | Pass | Pass |
-| hide | Pass | Pass | Pass | Pass | Pass |
-| hike | Pass | Pass | Pass | Pass | Pass |
-| hug | Pass | Pass | Pass | Pass | Pass |
-| hunt | Pass | Pass | Pass | Pass | Pass |
-| increase | Pass | Pass | Pass | Pass | Pass |
-| insist | Pass | Pass | Pass | Pass | Pass |
-| instruct | Pass | Pass | Pass | Pass | Pass |
-| admire | Pass | Pass | Pass | Pass | Pass |
-| announce | Pass | Pass | Pass | Pass | Pass |
-| approve | Pass | Pass | Pass | Pass | Pass |
-| argue | Pass | Pass | Pass | Pass | Pass |
-| behave | Pass | Pass | Pass | Pass | Pass |
-| celebrate | Pass | Pass | Pass | Pass | Pass |
-| compare | Pass | Pass | Pass | Pass | Pass |
-| convince | Pass | Pass | Pass | Pass | Pass |
-| defend | Pass | Pass | Pass | Pass | Pass |
-| disappear | Pass | Pass | Pass | Pass | Pass |
-| encourage | Pass | Pass | Pass | Pass | Pass |
-| improve | Pass | Pass | Pass | Pass | Pass |
-| interrupt | Pass | Pass | Pass | Pass | Pass |
-| observe | Pass | Pass | Pass | Pass | Pass |
-| organize | Pass | Pass | Pass | Pass | Pass |
-| bold | Pass | Pass | Pass | Pass | Pass |
-| brief | Pass | Pass | Pass | Pass | Pass |
-| delicate | Pass | Pass | Pass | Pass | Pass |
-| dense | Pass | Pass | Pass | Pass | Pass |
-| dim | Pass | Pass | Pass | Pass | Pass |
-| distant | Pass | Pass | Pass | Pass | Pass |
-| drowsy | Pass | Pass | Pass | Pass | Pass |
-| dusty | Pass | Pass | Pass | Pass | Pass |
-| elegant | Pass | Pass | Pass | Pass | Pass |
-| faint | Pass | Pass | Pass | Pass | Pass |
-| familiar | Pass | Pass | Pass | Pass | Pass |
-| flat | Pass | Pass | Pass | Pass | Pass |
-| flexible | Pass | Pass | Pass | Pass | Pass |
-| foggy | Pass | Pass | Pass | Pass | Pass |
-| glossy | Pass | Pass | Pass | Pass | Pass |
-| grim | Pass | Pass | Pass | Pass | Pass |
-| harsh | Pass | Pass | Pass | Pass | Pass |
-| heavy | Pass | Pass | Pass | Pass | Pass |
-| helpless | Pass | Pass | Pass | Pass | Pass |
-| humble | Pass | Pass | Pass | Pass | Pass |
-| innocent | Pass | Pass | Pass | Pass | Pass |
-| invisible | Pass | Pass | Pass | Pass | Pass |
-| keen | Pass | Pass | Pass | Pass | Pass |
-| lean | Pass | Pass | Pass | Pass | Pass |
-| lively | Pass | Pass | Pass | Pass | Pass |
-| lovely | Pass | Pass | Pass | Pass | Pass |
-| magnificent | Pass | Pass | Pass | Pass | Pass |
-| moist | Pass | Pass | Pass | Pass | Pass |
-| neat | Pass | Pass | Pass | Pass | Pass |
-| noble | Pass | Pass | Pass | Pass | Pass |
-| odd | Pass | Pass | Pass | Pass | Pass |
-| pale | Pass | Pass | Pass | Pass | Pass |
-| plump | Pass | Pass | Pass | Pass | Pass |
-| precious | Pass | Pass | Pass | Pass | Pass |
-| pure | Pass | Pass | Pass | Pass | Pass |
-| rare | Pass | Pass | Pass | Pass | Pass |
-| raw | Pass | Pass | Pass | Pass | Pass |
-| round | Pass | Pass | Pass | Pass | Pass |
-| rude | Pass | Pass | Pass | Pass | Pass |
-| rusty | Pass | Pass | Pass | Pass | Pass |
-| scarce | Pass | Pass | Pass | Pass | Pass |
-| slender | Pass | Pass | Pass | Pass | Pass |
-| soft | Pass | Pass | Pass | Pass | Pass |
-| abundant | Pass | Pass | Pass | Pass | Pass |
-| absurd | Pass | Pass | Pass | Pass | Pass |
-| accurate | Pass | Pass | Pass | Pass | Pass |
-| brittle | Pass | Pass | Pass | Pass | Pass |
-| colorful | Pass | Pass | Pass | Pass | Pass |
-| cruel | Pass | Pass | Pass | Pass | Pass |
-| daring | Pass | Pass | Pass | Pass | Pass |
-| filthy | Pass | Pass | Pass | Pass | Pass |
-| gorgeous | Pass | Pass | Pass | Pass | Pass |
-| horrible | Pass | Pass | Pass | Pass | Pass |
-| mysterious | Pass | Pass | Pass | Pass | Pass |
-| pleasant | Pass | Pass | Pass | Pass | Pass |
-| powerful | Pass | Pass | Pass | Pass | Pass |
-| ridiculous | Pass | Pass | Pass | Pass | Pass |
-| serious | Pass | Pass | Pass | Pass | Pass |
-| spotless | Pass | Pass | Pass | Pass | Pass |
-| tremendous | Pass | Pass | Pass | Pass | Pass |
-| visible | Pass | Pass | Pass | Pass | Pass |
-| weak | Pass | Pass | Pass | Pass | Pass |
-| wealthy | Pass | Pass | Pass | Pass | Pass |
-| wicked | Pass | Pass | Pass | Pass | Pass |
-| worthless | Pass | Pass | Pass | Pass | Pass |
-| briefly | Pass | Pass | Pass | Pass | Pass |
-| constantly | Pass | Pass | Pass | Pass | Pass |
-| continuously | Pass | Pass | Pass | Pass | Pass |
-| currently | Pass | Pass | Pass | Pass | Pass |
-| formerly | Pass | Pass | Pass | Pass | Pass |
-| instantly | Pass | Pass | Pass | Pass | Pass |
-| mostly | Pass | Pass | Pass | Pass | Pass |
-| nearly | Pass | Pass | Pass | Pass | Pass |
-| normally | Pass | Pass | Pass | Pass | Pass |
-| originally | Pass | Pass | Pass | Pass | Pass |
-| partly | Pass | Pass | Pass | Pass | Pass |
-| possibly | Pass | Pass | Pass | Pass | Pass |
-| presently | Pass | Pass | Pass | Pass | Pass |
-| previously | Pass | Pass | Pass | Pass | Pass |
-| probably | Pass | Pass | Pass | Pass | Pass |
-| promptly | Pass | Pass | Pass | Pass | Pass |
-| regularly | Pass | Pass | Pass | Pass | Pass |
-| shortly | Pass | Pass | Pass | Pass | Pass |
-| simply | Pass | Pass | Pass | Pass | Pass |
-| sometimes | Pass | Pass | Pass | Pass | Pass |
-| steadily | Pass | Pass | Pass | Pass | Pass |
-| still | Pass | Pass | Pass | Pass | Pass |
-| typically | Pass | Pass | Pass | Pass | Pass |
-| usually | Pass | Pass | Pass | Pass | Pass |
-| simultaneously | Pass | Pass | Pass | Pass | Pass |
-| initially | Pass | Pass | Pass | Pass | Pass |
-| permanently | Pass | Pass | Pass | Pass | Pass |
-| temporarily | Pass | Pass | Pass | Pass | Pass |
-| lately | Pass | Pass | Pass | Pass | Pass |
-| overnight | Pass | Pass | Pass | Pass | Pass |
-| yearly | Pass | Pass | Pass | Pass | Pass |
-| hourly | Pass | Pass | Pass | Pass | Pass |
-| illustration | Pass | Pass | Pass | Pass | Pass |
-| diagram | Pass | Pass | Pass | Pass | Pass |
-| vocabulary | Pass | Pass | Pass | Pass | Pass |
-| definition | Pass | Pass | Pass | Pass | Pass |
-| fact | Pass | Pass | Pass | Pass | Pass |
-| summary | Pass | Pass | Pass | Pass | Pass |
-| topic | Pass | Pass | Pass | Pass | Pass |
-| conclusion | Pass | Pass | Pass | Pass | Pass |
-| passage | Pass | Pass | Pass | Pass | Pass |
-| research | Pass | Pass | Pass | Pass | Pass |
-| method | Pass | Pass | Pass | Pass | Pass |
-| experiment | Pass | Pass | Pass | Pass | Pass |
-| creature | Pass | Pass | Pass | Pass | Pass |
-| moisture | Pass | Pass | Pass | Pass | Pass |
-| material | Pass | Pass | Pass | Pass | Pass |
-| source | Pass | Pass | Pass | Pass | Pass |
-| motion | Pass | Pass | Pass | Pass | Pass |
-| mixture | Pass | Pass | Pass | Pass | Pass |
-| direction | Pass | Pass | Pass | Pass | Pass |
-| shelter | Pass | Pass | Pass | Pass | Pass |
-| predator | Pass | Pass | Pass | Pass | Pass |
-| prey | Pass | Pass | Pass | Pass | Pass |
-| oxygen | Pass | Pass | Pass | Pass | Pass |
-| galaxy | Pass | Pass | Pass | Pass | Pass |
-| fossil | Pass | Pass | Pass | Pass | Pass |
-| mineral | Pass | Pass | Pass | Pass | Pass |
-| current | Pass | Pass | Pass | Pass | Pass |
-| vapor | Pass | Pass | Pass | Pass | Pass |
-| erosion | Pass | Pass | Pass | Pass | Pass |
-| orbit | Pass | Pass | Pass | Pass | Pass |
-| gravity | Pass | Pass | Pass | Pass | Pass |
-| species | Pass | Pass | Pass | Pass | Pass |
-| community | Pass | Pass | Pass | Pass | Pass |
-| population | Pass | Pass | Pass | Pass | Pass |
-| culture | Pass | Pass | Pass | Pass | Pass |
-| ancestor | Pass | Pass | Pass | Pass | Pass |
-| generation | Pass | Pass | Pass | Pass | Pass |
-| volunteer | Pass | Pass | Pass | Pass | Pass |
-| merchant | Pass | Pass | Pass | Pass | Pass |
-| pioneer | Pass | Pass | Pass | Pass | Pass |
-| president | Pass | Pass | Pass | Pass | Pass |
-| profession | Pass | Pass | Pass | Pass | Pass |
-| companion | Pass | Pass | Pass | Pass | Pass |
-| guardian | Pass | Pass | Pass | Pass | Pass |
-| immigrant | Pass | Pass | Pass | Pass | Pass |
-| inspector | Pass | Pass | Pass | Pass | Pass |
-| messenger | Pass | Pass | Pass | Pass | Pass |
-| relative | Pass | Pass | Pass | Pass | Pass |
-| scholar | Pass | Pass | Pass | Pass | Pass |
-| witness | Pass | Pass | Pass | Pass | Pass |
-| advantage | Pass | Pass | Pass | Pass | Pass |
-| courage | Pass | Pass | Pass | Pass | Pass |
-| effort | Pass | Pass | Pass | Pass | Pass |
-| knowledge | Pass | Pass | Pass | Pass | Pass |
-| patience | Pass | Pass | Pass | Pass | Pass |
-| responsibility | Pass | Pass | Pass | Pass | Pass |
-| triumph | Pass | Pass | Pass | Pass | Pass |
-| accident | Pass | Pass | Pass | Pass | Pass |
-| attitude | Pass | Pass | Pass | Pass | Pass |
-| boundary | Pass | Pass | Pass | Pass | Pass |
-| consequence | Pass | Pass | Pass | Pass | Pass |
-| conversation | Pass | Pass | Pass | Pass | Pass |
-| decision | Pass | Pass | Pass | Pass | Pass |
-| evidence | Pass | Pass | Pass | Pass | Pass |
-| experience | Pass | Pass | Pass | Pass | Pass |
-| imagination | Pass | Pass | Pass | Pass | Pass |
-| occasion | Pass | Pass | Pass | Pass | Pass |
-| solution | Pass | Pass | Pass | Pass | Pass |
-| inspect | Pass | Pass | Pass | Pass | Pass |
-| select | Pass | Pass | Pass | Pass | Pass |
-| supply | Pass | Pass | Pass | Pass | Pass |
-| survive | Pass | Pass | Pass | Pass | Pass |
-| transform | Pass | Pass | Pass | Pass | Pass |
-| transport | Pass | Pass | Pass | Pass | Pass |
-| identify | Pass | Pass | Pass | Pass | Pass |
-| inherit | Pass | Pass | Pass | Pass | Pass |
-| massive | Pass | Pass | Pass | Pass | Pass |
-| miniature | Pass | Pass | Pass | Pass | Pass |
-| obvious | Pass | Pass | Pass | Pass | Pass |
-| ordinary | Pass | Pass | Pass | Pass | Pass |
-| particular | Pass | Pass | Pass | Pass | Pass |
-| peculiar | Pass | Pass | Pass | Pass | Pass |
-| rapid | Pass | Pass | Pass | Pass | Pass |
-| reluctant | Pass | Pass | Pass | Pass | Pass |
-| sensitive | Pass | Pass | Pass | Pass | Pass |
-| severe | Pass | Pass | Pass | Pass | Pass |
-| suitable | Pass | Pass | Pass | Pass | Pass |
-| sufficient | Pass | Pass | Pass | Pass | Pass |
-| vacant | Pass | Pass | Pass | Pass | Pass |
-| vast | Pass | Pass | Pass | Pass | Pass |
-| vivid | Pass | Pass | Pass | Pass | Pass |
-| possess | Pass | Pass | Pass | Pass | Pass |
-| reveal | Pass | Pass | Pass | Pass | Pass |
-| assign | Pass | Pass | Pass | Pass | Pass |
-| respond | Pass | Pass | Pass | Pass | Pass |
-| require | Pass | Pass | Pass | Pass | Pass |
-| oppose | Pass | Pass | Pass | Pass | Pass |
-| occupy | Pass | Pass | Pass | Pass | Pass |
-| perform | Pass | Pass | Pass | Pass | Pass |
-| accomplish | Pass | Pass | Pass | Pass | Pass |
-| cautious | Pass | Pass | Pass | Pass | Pass |
-| capable | Pass | Pass | Pass | Pass | Pass |
-| essential | Pass | Pass | Pass | Pass | Pass |
-| fortunate | Pass | Pass | Pass | Pass | Pass |
-| incredible | Pass | Pass | Pass | Pass | Pass |
-| numerous | Pass | Pass | Pass | Pass | Pass |
-| positive | Pass | Pass | Pass | Pass | Pass |
-| previous | Pass | Pass | Pass | Pass | Pass |
-| region | Pass | Pass | Pass | Pass | Pass |
-| structure | Pass | Pass | Pass | Pass | Pass |
-| symbol | Pass | Pass | Pass | Pass | Pass |
-| tradition | Pass | Pass | Pass | Pass | Pass |
-| celebration | Pass | Pass | Pass | Pass | Pass |
-| challenge | Pass | Pass | Pass | Pass | Pass |
-| equipment | Pass | Pass | Pass | Pass | Pass |
-| voyage | Pass | Pass | Pass | Pass | Pass |
-| territory | Pass | Pass | Pass | Pass | Pass |
-| disaster | Pass | Pass | Pass | Pass | Pass |
-| merely | Pass | Pass | Pass | Pass | Pass |
-| precisely | Pass | Pass | Pass | Pass | Pass |
-| entirely | Pass | Pass | Pass | Pass | Pass |
-| scarcely | Pass | Pass | Pass | Pass | Pass |
-| swiftly | Pass | Pass | Pass | Pass | Pass |
-| willingly | Pass | Pass | Pass | Pass | Pass |
-| maintain | Pass | Pass | Pass | Pass | Pass |
-| establish | Pass | Pass | Pass | Pass | Pass |
-| cooperate | Pass | Pass | Pass | Pass | Pass |
-| represent | Pass | Pass | Pass | Pass | Pass |
-| concentrate | Pass | Pass | Pass | Pass | Pass |
-| manufacture | Pass | Pass | Pass | Pass | Pass |
-| demonstrate | Pass | Pass | Pass | Pass | Pass |
-| investigate | Pass | Pass | Pass | Pass | Pass |
-| discovery | Pass | Pass | Pass | Pass | Pass |
-| penalty | Pass | Pass | Pass | Pass | Pass |
-| quantity | Pass | Pass | Pass | Pass | Pass |
-| reasonable | Pass | Pass | Pass | Pass | Pass |
-| approach | Pass | Pass | Pass | Pass | Pass |
-| collapse | Pass | Pass | Pass | Pass | Pass |
-| domestic | Pass | Pass | Pass | Pass | Pass |
-| external | Pass | Pass | Pass | Pass | Pass |
-| internal | Pass | Pass | Pass | Pass | Pass |
-| annual | Pass | Pass | Pass | Pass | Pass |
-| permission | Pass | Pass | Pass | Pass | Pass |
-| recognize | Pass | Pass | Pass | Pass | Pass |
-| influence | Pass | Pass | Pass | Pass | Pass |
-| interpret | Pass | Pass | Pass | Pass | Pass |
-| adapt | Pass | Pass | Pass | Pass | Pass |
-| benefit | Pass | Pass | Pass | Pass | Pass |
-| durable | Pass | Pass | Pass | Pass | Pass |
-| genuine | Pass | Pass | Pass | Pass | Pass |
-| hesitate | Pass | Pass | Pass | Pass | Pass |
-| negotiate | Pass | Pass | Pass | Pass | Pass |
-| temporary | Pass | Pass | Pass | Pass | Pass |
-| reliable | Pass | Pass | Pass | Pass | Pass |
-| absorb | Pass | Pass | Pass | Pass | Pass |
-| attract | Pass | Pass | Pass | Pass | Pass |
-| predict | Pass | Pass | Pass | Pass | Pass |
-| request | Pass | Pass | Pass | Pass | Pass |
-| reduce | Pass | Pass | Pass | Pass | Pass |
-| assemble | Pass | Pass | Pass | Pass | Pass |
-| accumulate | Pass | Pass | Pass | Pass | Pass |
-| acknowledge | Pass | Pass | Pass | Pass | Pass |
-| adequate | Pass | Pass | Pass | Pass | Pass |
-| advocate | Pass | Pass | Pass | Pass | Pass |
-| allocate | Pass | Pass | Pass | Pass | Pass |
-| ambiguous | Pass | Pass | Pass | Pass | Pass |
-| amend | Pass | Pass | Pass | Pass | Pass |
-| approximate | Pass | Pass | Pass | Pass | Pass |
-| aspire | Pass | Pass | Pass | Pass | Pass |
-| assert | Pass | Pass | Pass | Pass | Pass |
-| authorize | Pass | Pass | Pass | Pass | Pass |
-| beneficial | Pass | Pass | Pass | Pass | Pass |
-| bias | Pass | Pass | Pass | Pass | Pass |
-| capacity | Pass | Pass | Pass | Pass | Pass |
-| clarify | Pass | Pass | Pass | Pass | Pass |
-| coincide | Pass | Pass | Pass | Pass | Pass |
-| commentary | Pass | Pass | Pass | Pass | Pass |
-| compensate | Pass | Pass | Pass | Pass | Pass |
-| compile | Pass | Pass | Pass | Pass | Pass |
-| complement | Pass | Pass | Pass | Pass | Pass |
-| comply | Pass | Pass | Pass | Pass | Pass |
-| conceive | Pass | Pass | Pass | Pass | Pass |
-| confine | Pass | Pass | Pass | Pass | Pass |
-| consent | Pass | Pass | Pass | Pass | Pass |
-| consequent | Pass | Pass | Pass | Pass | Pass |
-| consolidate | Pass | Pass | Pass | Pass | Pass |
-| constraint | Pass | Pass | Pass | Pass | Pass |
-| consult | Pass | Pass | Pass | Pass | Pass |
-| contemplate | Pass | Pass | Pass | Pass | Pass |
-| contradict | Pass | Pass | Pass | Pass | Pass |
-| controversy | Pass | Pass | Pass | Pass | Pass |
-| convene | Pass | Pass | Pass | Pass | Pass |
-| correspond | Pass | Pass | Pass | Pass | Pass |
-| criteria | Pass | Pass | Pass | Pass | Pass |
-| currency | Pass | Pass | Pass | Pass | Pass |
-| deficiency | Pass | Pass | Pass | Pass | Pass |
-| denote | Pass | Pass | Pass | Pass | Pass |
-| derive | Pass | Pass | Pass | Pass | Pass |
-| deviate | Pass | Pass | Pass | Pass | Pass |
-| devote | Pass | Pass | Pass | Pass | Pass |
-| diminish | Pass | Pass | Pass | Pass | Pass |
-| dispose | Pass | Pass | Pass | Pass | Pass |
-| distort | Pass | Pass | Pass | Pass | Pass |
-| diverse | Pass | Pass | Pass | Pass | Pass |
-| domain | Pass | Pass | Pass | Pass | Pass |
-| dominate | Pass | Pass | Pass | Pass | Pass |
-| draft | Pass | Pass | Pass | Pass | Pass |
-| duration | Pass | Pass | Pass | Pass | Pass |
-| empirical | Pass | Pass | Pass | Pass | Pass |
-| enforce | Pass | Pass | Pass | Pass | Pass |
-| entity | Pass | Pass | Pass | Pass | Pass |
-| equate | Pass | Pass | Pass | Pass | Pass |
-| erode | Pass | Pass | Pass | Pass | Pass |
-| exceed | Pass | Pass | Pass | Pass | Pass |
-| explicit | Pass | Pass | Pass | Pass | Pass |
-| extract | Pass | Pass | Pass | Pass | Pass |
-| facilitate | Pass | Pass | Pass | Pass | Pass |
-| finite | Pass | Pass | Pass | Pass | Pass |
-| fluctuate | Pass | Pass | Pass | Pass | Pass |
-| format | Pass | Pass | Pass | Pass | Pass |
-| formula | Pass | Pass | Pass | Pass | Pass |
-| foundation | Pass | Pass | Pass | Pass | Pass |
-| framework | Pass | Pass | Pass | Pass | Pass |
-| furthermore | Pass | Pass | Pass | Pass | Pass |
-| generate | Pass | Pass | Pass | Pass | Pass |
-| guideline | Pass | Pass | Pass | Pass | Pass |
-| hence | Pass | Pass | Pass | Pass | Pass |
-| hierarchy | Pass | Pass | Pass | Pass | Pass |
-| hypothesis | Pass | Pass | Pass | Pass | Pass |
-| identical | Pass | Pass | Pass | Pass | Pass |
-| ideology | Pass | Pass | Pass | Pass | Pass |
-| implication | Pass | Pass | Pass | Pass | Pass |
-| impose | Pass | Pass | Pass | Pass | Pass |
-| incentive | Pass | Pass | Pass | Pass | Pass |
-| incorporate | Pass | Pass | Pass | Pass | Pass |
-| index | Pass | Pass | Pass | Pass | Pass |
-| induce | Pass | Pass | Pass | Pass | Pass |
-| inherent | Pass | Pass | Pass | Pass | Pass |
-| inhibit | Pass | Pass | Pass | Pass | Pass |
-| initiate | Pass | Pass | Pass | Pass | Pass |
-| innovation | Pass | Pass | Pass | Pass | Pass |
-| insert | Pass | Pass | Pass | Pass | Pass |
-| integral | Pass | Pass | Pass | Pass | Pass |
-| intervene | Pass | Pass | Pass | Pass | Pass |
-| invoke | Pass | Pass | Pass | Pass | Pass |
-| isolate | Pass | Pass | Pass | Pass | Pass |
-| levy | Pass | Pass | Pass | Pass | Pass |
-| liberal | Pass | Pass | Pass | Pass | Pass |
-| likewise | Pass | Pass | Pass | Pass | Pass |
-| magnitude | Pass | Pass | Pass | Pass | Pass |
-| manifest | Pass | Pass | Pass | Pass | Pass |
+| Word | L9: Image Keyword Check | L10: Definition Check | L11: Polysemy Check | L12: Game Playability |
+|---|---|---|---|---|
+| avoid | Pass: Image keyword "stepping around" is likely clear and recognizable | Pass: Definition "to stay away from something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| burst | Pass: Image keyword "balloon popping" is likely clear and recognizable | Pass: Definition "to break open suddenly" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| bury | Pass: Image keyword "burying treasure" is likely clear and recognizable | Pass: Definition "to put something under the ground" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| cheer | Pass: Image keyword "cheering crowd" is likely clear and recognizable | Pass: Definition "to shout with happiness to show support" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| choose | Pass: Image keyword "picking choice" is likely clear and recognizable | Pass: Definition "to pick one thing from many" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| claim | Pass: Image keyword "claiming own" is likely clear and recognizable | Pass: Definition "to say something is yours or is true" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| combine | Pass: Image keyword "mixing together" is likely clear and recognizable | Pass: Definition "to mix or put things together" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| command | Pass: Image keyword "giving order" is likely clear and recognizable | Pass: Definition "to give an order that must be followed" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| consider | Pass: Image keyword "thinking carefully" is likely clear and recognizable | Pass: Definition "to think with care about something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| continue | Pass: Image keyword "keep going" is likely clear and recognizable | Pass: Definition "to keep going and not stop what you are doing" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| control | Pass: Image keyword "remote control" is likely clear and recognizable | Pass: Definition "to have power over something and make it do what you want" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| cover | Pass: Image keyword "covering lid" is likely clear and recognizable | Pass: Definition "to place something on top of another thing to hide or protect it" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| cross | Pass: Image keyword "crossing street" is likely clear and recognizable | Pass: Definition "to go from one side to the other side of a road, river, or area" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| crush | Pass: Image keyword "crushing flat" is likely clear and recognizable | Pass: Definition "to press something so hard it breaks into pieces" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| dare | Pass: Image keyword "brave dare" is likely clear and recognizable | Pass: Definition "to be brave enough to try something scary" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| demand | Pass: Image keyword "demanding firmly" is likely clear and recognizable | Pass: Definition "to ask for something in a strong, firm way" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| develop | Pass: Image keyword "seedling growing stages" is likely clear and recognizable | Pass: Definition "to grow or change over time" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| direct | Pass: Image keyword "directing traffic" is likely clear and recognizable | Pass: Definition "to show people or vehicles where they must go" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| examine | Pass: Image keyword "examining closely" is likely clear and recognizable | Pass: Definition "to look at something very closely" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| exchange | Pass: Image keyword "trading swap" is likely clear and recognizable | Pass: Definition "to trade one thing for another" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| excite | Pass: Image keyword "excited jumping" is likely clear and recognizable | Pass: Definition "to make someone feel very happy and full of life" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| expect | Pass: Image keyword "waiting expecting" is likely clear and recognizable | Pass: Definition "to think something will happen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| explore | Pass: Image keyword "exploring cave" is likely clear and recognizable | Pass: Definition "to look around a new place to learn about it" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| express | Pass: Image keyword "expressing feelings" is likely clear and recognizable | Pass: Definition "to show how you feel using words or actions" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| fail | Pass: Image keyword "missing fail" is likely clear and recognizable | Pass: Definition "to not be able to do something you tried" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| flow | Pass: Image keyword "flowing river" is likely clear and recognizable | Pass: Definition "to move smoothly like water" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| form | Pass: Image keyword "shaping clay" is likely clear and recognizable | Pass: Definition "to make or shape something into a new thing" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| gaze | Pass: Image keyword "gazing stars" is likely clear and recognizable | Pass: Definition "to look at something quietly with wonder or interest" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| guide | Pass: Image keyword "guide path" is likely clear and recognizable | Pass: Definition "to lead someone by going with them and showing the path" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hasten | Pass: Image keyword "hurrying fast" is likely clear and recognizable | Pass: Definition "to move or do something faster" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hide | Pass: Image keyword "hiding behind" is likely clear and recognizable | Pass: Definition "to put yourself or something where no one can see" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hike | Pass: Image keyword "hiking trail" is likely clear and recognizable | Pass: Definition "to take a long walk outdoors, usually on a trail" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hug | Pass: Image keyword "hugging people" is likely clear and recognizable | Pass: Definition "to put your arms around someone to show love" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hunt | Pass: Image keyword "owl hunting" is likely clear and recognizable | Pass: Definition "to chase or search for animals or things you want to catch" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| increase | Pass: Image keyword "arrow going up" is likely clear and recognizable | Pass: Definition "to make something bigger in size or amount" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| insist | Pass: Image keyword "firm insisting" is likely clear and recognizable | Pass: Definition "to say something strongly and not change your mind" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| instruct | Pass: Image keyword "teaching instructing" is likely clear and recognizable | Pass: Definition "to teach someone by explaining the steps" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| admire | Pass: Image keyword "admiring art" is likely clear and recognizable | Pass: Definition "to look at something and think it is very good" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| announce | Pass: Image keyword "announcing news" is likely clear and recognizable | Pass: Definition "to tell everyone something important" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| approve | Pass: Image keyword "green checkmark approval" is likely clear and recognizable | Pass: Definition "to say yes or agree that something is all right" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| argue | Pass: Image keyword "arguing disagree" is likely clear and recognizable | Pass: Definition "to disagree with someone using words" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| behave | Pass: Image keyword "good behavior" is likely clear and recognizable | Pass: Definition "to act in a good or right way" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| celebrate | Pass: Image keyword "party celebrate" is likely clear and recognizable | Pass: Definition "to do something special because of a happy event" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| compare | Pass: Image keyword "side by side objects" is likely clear and recognizable | Pass: Definition "to look at two things to see how they are the same or different" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| convince | Pass: Image keyword "persuading talking" is likely clear and recognizable | Pass: Definition "to get someone to agree with you" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| defend | Pass: Image keyword "defending protecting" is likely clear and recognizable | Pass: Definition "to protect someone or something from danger" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| disappear | Pass: Image keyword "vanishing magic" is likely clear and recognizable | Pass: Definition "to go away so no one can see it anymore" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| encourage | Pass: Image keyword "cheering support" is likely clear and recognizable | Pass: Definition "to say kind words to help someone keep trying" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| improve | Pass: Image keyword "getting better" is likely clear and recognizable | Pass: Definition "to get better at something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| interrupt | Pass: Image keyword "interrupting talking" is likely clear and recognizable | Pass: Definition "to start talking when someone else is already speaking" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| observe | Pass: Image keyword "watching carefully" is likely clear and recognizable | Pass: Definition "to watch something carefully" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| organize | Pass: Image keyword "organizing neat" is likely clear and recognizable | Pass: Definition "to put things in order so they are neat" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| bold | Pass: Image keyword "bold explorer" is likely clear and recognizable | Pass: Definition "not afraid to take risks" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| brief | Pass: Image keyword "short quick" is likely clear and recognizable | Pass: Definition "taking very little time from start to finish" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| delicate | Pass: Image keyword "delicate butterfly" is likely clear and recognizable | Pass: Definition "thin and easy to break" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| dense | Pass: Image keyword "dense forest" is likely clear and recognizable | Pass: Definition "very close together with no space" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| dim | Pass: Image keyword "dim light" is likely clear and recognizable | Pass: Definition "not very bright, hard to see" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| distant | Pass: Image keyword "distant mountains" is likely clear and recognizable | Pass: Definition "far away" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| drowsy | Pass: Image keyword "sleepy drowsy" is likely clear and recognizable | Pass: Definition "feeling very tired and ready to sleep" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| dusty | Pass: Image keyword "dusty book" is likely clear and recognizable | Pass: Definition "covered with tiny bits of dirt" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| elegant | Pass: Image keyword "elegant swan" is likely clear and recognizable | Pass: Definition "beautiful and graceful in a fancy way" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| faint | Pass: Image keyword "faint fading" is likely clear and recognizable | Pass: Definition "very weak and hard to notice" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| familiar | Pass: Image keyword "recognize familiar" is likely clear and recognizable | Pass: Definition "something you have seen or know about before" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| flat | Pass: Image keyword "flat pancake" is likely clear and recognizable | Pass: Definition "smooth and level with no bumps" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| flexible | Pass: Image keyword "bending flexible" is likely clear and recognizable | Pass: Definition "able to bend well without breaking" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| foggy | Pass: Image keyword "foggy morning" is likely clear and recognizable | Pass: Definition "filled with thick mist so you cannot see well" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| glossy | Pass: Image keyword "glossy shiny" is likely clear and recognizable | Pass: Definition "smooth and shiny like glass" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| grim | Pass: Image keyword "serious face" is likely clear and recognizable | Pass: Definition "looking sad and not happy at all" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| harsh | Pass: Image keyword "harsh wind" is likely clear and recognizable | Pass: Definition "rough and not nice" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| heavy | Pass: Image keyword "heavy backpack" is likely clear and recognizable | Pass: Definition "weighing a lot and hard to lift" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| helpless | Pass: Image keyword "baby bird helpless" is likely clear and recognizable | Pass: Definition "not able to do anything to help yourself" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| humble | Pass: Image keyword "humble modest" is likely clear and recognizable | Pass: Definition "not thinking you are better than others" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| innocent | Pass: Image keyword "innocent puppy" is likely clear and recognizable | Pass: Definition "not having done anything wrong" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| invisible | Pass: Image keyword "invisible glass" is likely clear and recognizable | Pass: Definition "not able to be seen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| keen | Pass: Image keyword "eager keen" is likely clear and recognizable | Pass: Definition "very interested and eager to do something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| lean | Pass: Image keyword "lean runner" is likely clear and recognizable | Pass: Definition "thin and strong and well looking" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| lively | Pass: Image keyword "lively puppy" is likely clear and recognizable | Pass: Definition "full of life and fun" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| lovely | Pass: Image keyword "lovely garden" is likely clear and recognizable | Pass: Definition "very pretty or nice" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| magnificent | Pass: Image keyword "magnificent fireworks" is likely clear and recognizable | Pass: Definition "very nice and impressive" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| moist | Pass: Image keyword "moist soil" is likely clear and recognizable | Pass: Definition "slightly wet, often in a soft or good way" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| neat | Pass: Image keyword "neat desk" is likely clear and recognizable | Pass: Definition "clean and in good order" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| noble | Pass: Image keyword "noble knight" is likely clear and recognizable | Pass: Definition "good, brave, and fair" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| odd | Pass: Image keyword "strange odd" is likely clear and recognizable | Pass: Definition "strange or unusual" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| pale | Pass: Image keyword "pale face" is likely clear and recognizable | Pass: Definition "light in color, not bright" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| plump | Pass: Image keyword "plump berries" is likely clear and recognizable | Pass: Definition "round and a little bit fat" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| precious | Pass: Image keyword "precious gem" is likely clear and recognizable | Pass: Definition "very special and valuable" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| pure | Pass: Image keyword "pure water" is likely clear and recognizable | Pass: Definition "clean and not mixed with anything else" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| rare | Pass: Image keyword "rare eagle" is likely clear and recognizable | Pass: Definition "not found or seen very often" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| raw | Pass: Image keyword "raw vegetables" is likely clear and recognizable | Pass: Definition "not cooked or prepared with heat" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| round | Pass: Image keyword "round ball" is likely clear and recognizable | Pass: Definition "shaped like a circle or ball" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| rude | Pass: Image keyword "rude interrupting" is likely clear and recognizable | Pass: Definition "not kind and good, saying or doing mean things" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| rusty | Pass: Image keyword "rusty bike" is likely clear and recognizable | Pass: Definition "covered in a rough, dark brown layer that forms when metal gets wet" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| scarce | Pass: Image keyword "scarce rare item" is likely clear and recognizable | Pass: Definition "hard to find because there is not much" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| slender | Pass: Image keyword "slender candle" is likely clear and recognizable | Pass: Definition "thin and graceful" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| soft | Pass: Image keyword "soft kitten" is likely clear and recognizable | Pass: Definition "not hard, gentle to touch" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| abundant | Pass: Image keyword "plenty abundant" is likely clear and recognizable | Pass: Definition "more than enough, a very large amount" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| absurd | Pass: Image keyword "silly absurd" is likely clear and recognizable | Pass: Definition "very silly and with no meaning at all" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| accurate | Pass: Image keyword "accurate exact" is likely clear and recognizable | Pass: Definition "right and without mistakes" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| brittle | Pass: Image keyword "brittle breaking" is likely clear and recognizable | Pass: Definition "hard but easy to snap or break" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| colorful | Pass: Image keyword "colorful parrot" is likely clear and recognizable | Pass: Definition "having many bright colors" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| cruel | Pass: Image keyword "mean cruel" is likely clear and recognizable | Pass: Definition "wanting to hurt others on purpose" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| daring | Pass: Image keyword "daring brave" is likely clear and recognizable | Pass: Definition "brave enough to do dangerous things" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| filthy | Pass: Image keyword "filthy dirty" is likely clear and recognizable | Pass: Definition "very dirty, covered all over in dirt" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| gorgeous | Pass: Image keyword "gorgeous sunset" is likely clear and recognizable | Pass: Definition "very beautiful in a way that gets your attention" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| horrible | Pass: Image keyword "horrible smell" is likely clear and recognizable | Pass: Definition "very bad or not nice" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| mysterious | Pass: Image keyword "mysterious light" is likely clear and recognizable | Pass: Definition "hard to explain or understand" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| pleasant | Pass: Image keyword "pleasant breeze" is likely clear and recognizable | Pass: Definition "nice and enjoyable" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| powerful | Pass: Image keyword "powerful wind" is likely clear and recognizable | Pass: Definition "having great power" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| ridiculous | Pass: Image keyword "ridiculous funny" is likely clear and recognizable | Pass: Definition "so silly it makes you laugh" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| serious | Pass: Image keyword "stern teacher face" is likely clear and recognizable | Pass: Definition "not playing around, meaning what you say" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| spotless | Pass: Image keyword "spotless clean" is likely clear and recognizable | Pass: Definition "perfectly clean with no dirt at all" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| tremendous | Pass: Image keyword "tremendous big" is likely clear and recognizable | Pass: Definition "very big or very great" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| visible | Pass: Image keyword "visible lighthouse" is likely clear and recognizable | Pass: Definition "able to be seen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| weak | Pass: Image keyword "weak small" is likely clear and recognizable | Pass: Definition "not strong, having little power" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| wealthy | Pass: Image keyword "wealthy rich" is likely clear and recognizable | Pass: Definition "having a lot of money" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| wicked | Pass: Image keyword "wicked witch" is likely clear and recognizable | Pass: Definition "very bad or evil" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| worthless | Pass: Image keyword "broken toy pieces" is likely clear and recognizable | Pass: Definition "having no value at all" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| briefly | Pass: Image keyword "quick summary" is likely clear and recognizable | Pass: Definition "in a quick way, using only a few words or moments" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| constantly | Pass: Image keyword "always nonstop" is likely clear and recognizable | Pass: Definition "again and again, so often it feels like it never ends" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| continuously | Pass: Image keyword "nonstop flowing" is likely clear and recognizable | Pass: Definition "in one long stretch without any break at all" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| currently | Pass: Image keyword "right now" is likely clear and recognizable | Pass: Definition "happening right now" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| formerly | Pass: Image keyword "before past" is likely clear and recognizable | Pass: Definition "in the past, before now" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| instantly | Pass: Image keyword "light switch on" is likely clear and recognizable | Pass: Definition "happening in one second right away" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| mostly | Pass: Image keyword "almost all" is likely clear and recognizable | Pass: Definition "almost all, but not completely" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| nearly | Pass: Image keyword "almost there" is likely clear and recognizable | Pass: Definition "almost but not quite" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| normally | Pass: Image keyword "usual normal" is likely clear and recognizable | Pass: Definition "in the regular way, when nothing special changes" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| originally | Pass: Image keyword "first beginning" is likely clear and recognizable | Pass: Definition "at first, before things changed" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| partly | Pass: Image keyword "partly half" is likely clear and recognizable | Pass: Definition "not all the way, only some" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| possibly | Pass: Image keyword "maybe possible" is likely clear and recognizable | Pass: Definition "maybe, there is a chance it could happen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| presently | Pass: Image keyword "now current" is likely clear and recognizable | Pass: Definition "at this moment; now" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| previously | Pass: Image keyword "before earlier" is likely clear and recognizable | Pass: Definition "at an earlier time in the past, not recently" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| probably | Pass: Image keyword "likely rain clouds" is likely clear and recognizable | Pass: Definition "very likely to happen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| promptly | Pass: Image keyword "on time" is likely clear and recognizable | Pass: Definition "right on time or right away" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| regularly | Pass: Image keyword "regular routine" is likely clear and recognizable | Pass: Definition "happening at the same time again and again" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| shortly | Pass: Image keyword "soon shortly" is likely clear and recognizable | Pass: Definition "in a little while, very soon" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| simply | Pass: Image keyword "easy simple" is likely clear and recognizable | Pass: Definition "without much work, nothing more" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| sometimes | Pass: Image keyword "sometimes calendar" is likely clear and recognizable | Pass: Definition "now and then, not always" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| steadily | Pass: Image keyword "steady even" is likely clear and recognizable | Pass: Definition "in a smooth, even way without stopping" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| still | Pass: Image keyword "still continuing" is likely clear and recognizable | Pass: Definition "even now, continuing" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| typically | Pass: Image keyword "usually typical" is likely clear and recognizable | Pass: Definition "in the most common way for that kind of thing" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| usually | Pass: Image keyword "usual routine" is likely clear and recognizable | Pass: Definition "more often than not" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| simultaneously | Pass: Image keyword "two clocks same time" is likely clear and recognizable | Pass: Definition "at the exact same moment, with two actions happening together" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| initially | Pass: Image keyword "starting line race" is likely clear and recognizable | Pass: Definition "at the very beginning, before anything changed" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| permanently | Pass: Image keyword "forever lasting" is likely clear and recognizable | Pass: Definition "stays the same and never ends" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| temporarily | Pass: Image keyword "detour sign" is likely clear and recognizable | Pass: Definition "for a limited time, with plans to go back to normal later" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| lately | Pass: Image keyword "recent week calendar" is likely clear and recognizable | Pass: Definition "during the past few days or weeks, very recently" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| overnight | Pass: Image keyword "nighttime overnight" is likely clear and recognizable | Pass: Definition "during the night while you sleep" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| yearly | Pass: Image keyword "annual yearly" is likely clear and recognizable | Pass: Definition "happening one time each year" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hourly | Pass: Image keyword "every hour" is likely clear and recognizable | Pass: Definition "happening every hour" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| illustration | Pass: Image keyword "book illustration" is likely clear and recognizable | Pass: Definition "a picture in a book that shows what is happening" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| diagram | Pass: Image keyword "diagram drawing" is likely clear and recognizable | Pass: Definition "a drawing that shows how something works" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| vocabulary | Pass: Image keyword "words vocabulary" is likely clear and recognizable | Pass: Definition "all the words a person knows" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| definition | Pass: Image keyword "dictionary definition" is likely clear and recognizable | Pass: Definition "what a word means" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| fact | Pass: Image keyword "fact true" is likely clear and recognizable | Pass: Definition "something that is true and can be proven" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| summary | Pass: Image keyword "short summary" is likely clear and recognizable | Pass: Definition "a short telling of the most important parts" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| topic | Pass: Image keyword "topic subject" is likely clear and recognizable | Pass: Definition "what something is mainly about or the subject being talked about" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| conclusion | Pass: Image keyword "ending conclusion" is likely clear and recognizable | Pass: Definition "the end or final part" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| passage | Pass: Image keyword "text passage" is likely clear and recognizable | Pass: Definition "a short part of a book or story" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| research | Pass: Image keyword "research books" is likely clear and recognizable | Pass: Definition "looking for facts to learn about something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| method | Pass: Image keyword "method way" is likely clear and recognizable | Pass: Definition "a way of doing something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| experiment | Pass: Image keyword "science experiment" is likely clear and recognizable | Pass: Definition "a test to find out what happens" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| creature | Pass: Image keyword "creature animal" is likely clear and recognizable | Pass: Definition "any living animal" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| moisture | Pass: Image keyword "dew moisture" is likely clear and recognizable | Pass: Definition "wetness; water you can feel on something or in the air" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| material | Pass: Image keyword "fabric material" is likely clear and recognizable | Pass: Definition "what something is made of, like cloth or metal" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| source | Pass: Image keyword "source beginning" is likely clear and recognizable | Pass: Definition "the place or thing where something first comes from" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| motion | Pass: Image keyword "swinging motion" is likely clear and recognizable | Pass: Definition "the act of moving or changing position" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| mixture | Pass: Image keyword "mixing bowl" is likely clear and recognizable | Pass: Definition "two or more things stirred together" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| direction | Pass: Image keyword "arrow direction" is likely clear and recognizable | Pass: Definition "the way something is moving or pointing" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| shelter | Pass: Image keyword "shelter cover" is likely clear and recognizable | Pass: Definition "a place that protects you from weather or danger" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| predator | Pass: Image keyword "predator hawk" is likely clear and recognizable | Pass: Definition "an animal that hunts other animals for food" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| prey | Pass: Image keyword "prey rabbit" is likely clear and recognizable | Pass: Definition "an animal that others hunt and eat" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| oxygen | Pass: Image keyword "oxygen breathing" is likely clear and recognizable | Pass: Definition "a gas in the air that we breathe to stay alive" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| galaxy | Pass: Image keyword "galaxy stars" is likely clear and recognizable | Pass: Definition "a huge group of stars in space" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| fossil | Pass: Image keyword "fossil rock" is likely clear and recognizable | Pass: Definition "the remains of a plant or animal from long ago, kept safe inside rock" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| mineral | Pass: Image keyword "mineral crystal" is likely clear and recognizable | Pass: Definition "a solid natural thing found in the ground" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| current | Pass: Image keyword "river current" is likely clear and recognizable | Pass: Definition "a steady flow of water or air moving in one direction" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| vapor | Pass: Image keyword "steam vapor" is likely clear and recognizable | Pass: Definition "water in the form of a gas, often seen as steam or mist" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| erosion | Pass: Image keyword "erosion cliff" is likely clear and recognizable | Pass: Definition "the slow wearing away of rock or soil by wind or water" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| orbit | Pass: Image keyword "orbit planet" is likely clear and recognizable | Pass: Definition "the path something takes as it moves around another thing in space" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| gravity | Pass: Image keyword "falling gravity" is likely clear and recognizable | Pass: Definition "the force that pulls things down toward the ground" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| species | Pass: Image keyword "species animals" is likely clear and recognizable | Pass: Definition "a group of living things that are the same kind" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| community | Pass: Image keyword "community people" is likely clear and recognizable | Pass: Definition "a group of people who live in the same area" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| population | Pass: Image keyword "population town" is likely clear and recognizable | Pass: Definition "all the people living in one place" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| culture | Pass: Image keyword "culture tradition" is likely clear and recognizable | Pass: Definition "the way of life of a group of people" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| ancestor | Pass: Image keyword "ancestor family tree" is likely clear and recognizable | Pass: Definition "a family member who lived long before you" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| generation | Pass: Image keyword "generation family" is likely clear and recognizable | Pass: Definition "all the people born around the same time" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| volunteer | Pass: Image keyword "volunteer helping" is likely clear and recognizable | Pass: Definition "a person who helps without being paid" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| merchant | Pass: Image keyword "merchant shop" is likely clear and recognizable | Pass: Definition "a person who buys and sells things" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| pioneer | Pass: Image keyword "pioneer wagon" is likely clear and recognizable | Pass: Definition "one of the first people to go to a new place or try something new" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| president | Pass: Image keyword "president leader" is likely clear and recognizable | Pass: Definition "the leader of a country or group" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| profession | Pass: Image keyword "profession job" is likely clear and recognizable | Pass: Definition "a job that needs special training" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| companion | Pass: Image keyword "companion friend" is likely clear and recognizable | Pass: Definition "a friend who goes with you" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| guardian | Pass: Image keyword "guardian caretaker" is likely clear and recognizable | Pass: Definition "a person who takes care of someone" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| immigrant | Pass: Image keyword "immigrant new home" is likely clear and recognizable | Pass: Definition "a person who moves to a new country to live" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| inspector | Pass: Image keyword "inspector checking" is likely clear and recognizable | Pass: Definition "a person who job is to check that things are done right" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| messenger | Pass: Image keyword "messenger delivering" is likely clear and recognizable | Pass: Definition "a person who carries news from one place to another" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| relative | Pass: Image keyword "family relative" is likely clear and recognizable | Pass: Definition "a person in your family" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| scholar | Pass: Image keyword "scholar studying" is likely clear and recognizable | Pass: Definition "a person who studies and learns a lot" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| witness | Pass: Image keyword "witness seeing" is likely clear and recognizable | Pass: Definition "a person who sees something happen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| advantage | Pass: Image keyword "advantage benefit" is likely clear and recognizable | Pass: Definition "something that gives you a better chance to succeed" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| courage | Pass: Image keyword "courage brave" is likely clear and recognizable | Pass: Definition "being brave when you are scared" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| effort | Pass: Image keyword "effort trying" is likely clear and recognizable | Pass: Definition "trying hard to do something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| knowledge | Pass: Image keyword "knowledge books" is likely clear and recognizable | Pass: Definition "things you know from learning" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| patience | Pass: Image keyword "patience waiting" is likely clear and recognizable | Pass: Definition "being able to wait without getting upset" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| responsibility | Pass: Image keyword "responsibility duty" is likely clear and recognizable | Pass: Definition "a job or duty that you must do" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| triumph | Pass: Image keyword "triumph victory" is likely clear and recognizable | Pass: Definition "a great win" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| accident | Pass: Image keyword "accident spill" is likely clear and recognizable | Pass: Definition "something bad that happens without being planned" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| attitude | Pass: Image keyword "attitude positive" is likely clear and recognizable | Pass: Definition "the way you think and feel about something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| boundary | Pass: Image keyword "boundary fence" is likely clear and recognizable | Pass: Definition "a line that shows where one area ends and another begins" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| consequence | Pass: Image keyword "consequence result" is likely clear and recognizable | Pass: Definition "a result caused by something you did" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| conversation | Pass: Image keyword "conversation talking" is likely clear and recognizable | Pass: Definition "a talk between two or more people" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| decision | Pass: Image keyword "decision choice" is likely clear and recognizable | Pass: Definition "a choice you make after thinking" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| evidence | Pass: Image keyword "evidence clue" is likely clear and recognizable | Pass: Definition "facts or signs that help prove something is true" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| experience | Pass: Image keyword "experience memory" is likely clear and recognizable | Pass: Definition "something you live through and remember" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| imagination | Pass: Image keyword "imagination creative" is likely clear and recognizable | Pass: Definition "the part of your mind that makes up new ideas and pictures" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| occasion | Pass: Image keyword "occasion celebration" is likely clear and recognizable | Pass: Definition "a special time or event" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| solution | Pass: Image keyword "solution answer" is likely clear and recognizable | Pass: Definition "the answer to a hard question" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| inspect | Pass: Image keyword "inspecting closely" is likely clear and recognizable | Pass: Definition "to look at something closely to check if it is correct or safe" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| select | Pass: Image keyword "selecting picking" is likely clear and recognizable | Pass: Definition "to choose something carefully" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| supply | Pass: Image keyword "delivery truck supplies" is likely clear and recognizable | Pass: Definition "to give or provide something that is needed" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| survive | Pass: Image keyword "survive alive" is likely clear and recognizable | Pass: Definition "to stay alive through something not safe" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| transform | Pass: Image keyword "transform change" is likely clear and recognizable | Pass: Definition "to change completely into something different" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| transport | Pass: Image keyword "transport truck" is likely clear and recognizable | Pass: Definition "to carry something from one place to another" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| identify | Pass: Image keyword "identify recognize" is likely clear and recognizable | Pass: Definition "to figure out what something is" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| inherit | Pass: Image keyword "inherit family" is likely clear and recognizable | Pass: Definition "to get something from a family member" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| massive | Pass: Image keyword "massive rock" is likely clear and recognizable | Pass: Definition "very large and heavy" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| miniature | Pass: Image keyword "miniature tiny" is likely clear and recognizable | Pass: Definition "much smaller than usual" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| obvious | Pass: Image keyword "obvious clear" is likely clear and recognizable | Pass: Definition "very easy to see or understand" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| ordinary | Pass: Image keyword "regular school day" is likely clear and recognizable | Pass: Definition "not special; just like the rest" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| particular | Pass: Image keyword "specific one" is likely clear and recognizable | Pass: Definition "one certain thing out of many, chosen for a special reason" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| peculiar | Pass: Image keyword "peculiar strange" is likely clear and recognizable | Pass: Definition "strange or odd in a way that catches your eye" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| rapid | Pass: Image keyword "rapid fast" is likely clear and recognizable | Pass: Definition "happening very quickly" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| reluctant | Pass: Image keyword "reluctant hesitant" is likely clear and recognizable | Pass: Definition "not wanting to do something, slow to act because of doubt" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| sensitive | Pass: Image keyword "sensitive careful" is likely clear and recognizable | Pass: Definition "easily hurt or upset" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| severe | Pass: Image keyword "severe storm" is likely clear and recognizable | Pass: Definition "very serious or very bad" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| suitable | Pass: Image keyword "suitable fitting" is likely clear and recognizable | Pass: Definition "right for a certain purpose" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| sufficient | Pass: Image keyword "enough sufficient" is likely clear and recognizable | Pass: Definition "the right amount needed, not too little and not too much" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| vacant | Pass: Image keyword "vacant empty" is likely clear and recognizable | Pass: Definition "empty and not being used, with no people or things inside" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| vast | Pass: Image keyword "vast ocean" is likely clear and recognizable | Pass: Definition "extremely large and wide" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| vivid | Pass: Image keyword "vivid colors" is likely clear and recognizable | Pass: Definition "very bright and easy to picture in your mind" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| possess | Pass: Image keyword "possess own" is likely clear and recognizable | Pass: Definition "to have or own something as your own" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| reveal | Pass: Image keyword "reveal show" is likely clear and recognizable | Pass: Definition "to show something that was hidden" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| assign | Pass: Image keyword "assign task" is likely clear and recognizable | Pass: Definition "to give someone a job or task to do" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| respond | Pass: Image keyword "responding answer" is likely clear and recognizable | Pass: Definition "to answer or reply" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| require | Pass: Image keyword "require need" is likely clear and recognizable | Pass: Definition "to need something before you can move forward" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| oppose | Pass: Image keyword "oppose against" is likely clear and recognizable | Pass: Definition "to be against something or disagree with it" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| occupy | Pass: Image keyword "room filled with boxes" is likely clear and recognizable | Pass: Definition "to fill or use a space by being in it" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| perform | Pass: Image keyword "perform stage" is likely clear and recognizable | Pass: Definition "to do something in front of people" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| accomplish | Pass: Image keyword "accomplish finish" is likely clear and recognizable | Pass: Definition "to finish something well" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| cautious | Pass: Image keyword "cautious careful" is likely clear and recognizable | Pass: Definition "very careful so nothing bad happens" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| capable | Pass: Image keyword "capable able" is likely clear and recognizable | Pass: Definition "able to do something well" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| essential | Pass: Image keyword "essential important" is likely clear and recognizable | Pass: Definition "something you really need" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| fortunate | Pass: Image keyword "fortunate lucky" is likely clear and recognizable | Pass: Definition "having good things happen; lucky" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| incredible | Pass: Image keyword "incredible amazing" is likely clear and recognizable | Pass: Definition "so very, very good it is hard to believe" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| numerous | Pass: Image keyword "numerous many" is likely clear and recognizable | Pass: Definition "very many, a large number of" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| positive | Pass: Image keyword "child nodding yes" is likely clear and recognizable | Pass: Definition "sure something is true, or feeling hopeful" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| previous | Pass: Image keyword "previous before" is likely clear and recognizable | Pass: Definition "coming before in time or order" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| region | Pass: Image keyword "region area" is likely clear and recognizable | Pass: Definition "a large area of land" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| structure | Pass: Image keyword "structure building" is likely clear and recognizable | Pass: Definition "something that has been built, like a building or bridge" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| symbol | Pass: Image keyword "symbol heart" is likely clear and recognizable | Pass: Definition "a picture or mark that stands for something else" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| tradition | Pass: Image keyword "tradition family" is likely clear and recognizable | Pass: Definition "something families or groups do the same way year after year" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| celebration | Pass: Image keyword "celebration party" is likely clear and recognizable | Pass: Definition "a happy time when people come together" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| challenge | Pass: Image keyword "challenge difficult" is likely clear and recognizable | Pass: Definition "something that is hard to do and tests your ability" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| equipment | Pass: Image keyword "equipment tools" is likely clear and recognizable | Pass: Definition "tools or things you need to do a job" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| voyage | Pass: Image keyword "voyage ship" is likely clear and recognizable | Pass: Definition "a long trip, usually by sea" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| territory | Pass: Image keyword "territory land" is likely clear and recognizable | Pass: Definition "an area of land that belongs to someone" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| disaster | Pass: Image keyword "disaster flood" is likely clear and recognizable | Pass: Definition "a very bad event that causes great harm" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| merely | Pass: Image keyword "only just" is likely clear and recognizable | Pass: Definition "only, nothing more than" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| precisely | Pass: Image keyword "exact precise" is likely clear and recognizable | Pass: Definition "in an exact way, with no mistakes" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| entirely | Pass: Image keyword "completely full" is likely clear and recognizable | Pass: Definition "completely, all the way" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| scarcely | Pass: Image keyword "barely hardly" is likely clear and recognizable | Pass: Definition "almost not, hardly" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| swiftly | Pass: Image keyword "fast swift" is likely clear and recognizable | Pass: Definition "moving very quickly" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| willingly | Pass: Image keyword "willing happy" is likely clear and recognizable | Pass: Definition "happy to do something without being forced" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| maintain | Pass: Image keyword "maintain care" is likely clear and recognizable | Pass: Definition "to keep something in good shape" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| establish | Pass: Image keyword "establish start" is likely clear and recognizable | Pass: Definition "to start or create something new" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| cooperate | Pass: Image keyword "cooperate teamwork" is likely clear and recognizable | Pass: Definition "to work together with others" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| represent | Pass: Image keyword "represent symbol" is likely clear and recognizable | Pass: Definition "to stand for or speak for something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| concentrate | Pass: Image keyword "concentrate focus" is likely clear and recognizable | Pass: Definition "to think very hard about one thing" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| manufacture | Pass: Image keyword "factory making" is likely clear and recognizable | Pass: Definition "to make things in a factory, usually in large amounts" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| demonstrate | Pass: Image keyword "demonstrate show" is likely clear and recognizable | Pass: Definition "to show how something works" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| investigate | Pass: Image keyword "investigate search" is likely clear and recognizable | Pass: Definition "to look into something to find out what really happened" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| discovery | Pass: Image keyword "discovery find" is likely clear and recognizable | Pass: Definition "something new that you find or learn about for the first time" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| penalty | Pass: Image keyword "penalty punishment" is likely clear and recognizable | Pass: Definition "what happens when you break a rule" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| quantity | Pass: Image keyword "quantity amount" is likely clear and recognizable | Pass: Definition "how much or how many of something there is" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| reasonable | Pass: Image keyword "reasonable fair" is likely clear and recognizable | Pass: Definition "fair and making good sense" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| approach | Pass: Image keyword "approach near" is likely clear and recognizable | Pass: Definition "to come closer to something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| collapse | Pass: Image keyword "collapse falling" is likely clear and recognizable | Pass: Definition "to fall down suddenly" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| domestic | Pass: Image keyword "domestic pets" is likely clear and recognizable | Pass: Definition "raised by people and living in homes, not wild" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| external | Pass: Image keyword "external outside" is likely clear and recognizable | Pass: Definition "on the outside of something, not inside" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| internal | Pass: Image keyword "internal inside" is likely clear and recognizable | Pass: Definition "on the inside of something, not outside" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| annual | Pass: Image keyword "calendar year circled" is likely clear and recognizable | Pass: Definition "once a year" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| permission | Pass: Image keyword "permission allowed" is likely clear and recognizable | Pass: Definition "being allowed to do something by someone in charge" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| recognize | Pass: Image keyword "recognize know" is likely clear and recognizable | Pass: Definition "to know what something is because you have seen it before" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| influence | Pass: Image keyword "influence effect" is likely clear and recognizable | Pass: Definition "the power to change how someone thinks or acts" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| interpret | Pass: Image keyword "interpret meaning" is likely clear and recognizable | Pass: Definition "to explain what something means" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| adapt | Pass: Image keyword "adapt change" is likely clear and recognizable | Pass: Definition "to change so you fit a new situation" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| benefit | Pass: Image keyword "benefit help" is likely clear and recognizable | Pass: Definition "a good result or helpful thing you get" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| durable | Pass: Image keyword "durable strong" is likely clear and recognizable | Pass: Definition "strong and able to last a long time" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| genuine | Pass: Image keyword "genuine real" is likely clear and recognizable | Pass: Definition "real and not fake" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hesitate | Pass: Image keyword "hesitate pause" is likely clear and recognizable | Pass: Definition "to pause because you are not sure" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| negotiate | Pass: Image keyword "negotiate talk" is likely clear and recognizable | Pass: Definition "to talk to agree on a fair plan" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| temporary | Pass: Image keyword "temporary short" is likely clear and recognizable | Pass: Definition "not lasting forever, only for now" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| reliable | Pass: Image keyword "reliable trust" is likely clear and recognizable | Pass: Definition "you can count on it to work or be true" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| absorb | Pass: Image keyword "absorb soak" is likely clear and recognizable | Pass: Definition "to soak up a liquid" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| attract | Pass: Image keyword "attract pull" is likely clear and recognizable | Pass: Definition "to pull something toward you" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| predict | Pass: Image keyword "predict forecast" is likely clear and recognizable | Pass: Definition "to guess what will happen next" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| request | Pass: Image keyword "request ask" is likely clear and recognizable | Pass: Definition "to ask in a kind way for something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| reduce | Pass: Image keyword "reduce less" is likely clear and recognizable | Pass: Definition "to make less; to lower the amount" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| assemble | Pass: Image keyword "assemble build" is likely clear and recognizable | Pass: Definition "to put parts together" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| accumulate | Pass: Image keyword "accumulate pile" is likely clear and recognizable | Pass: Definition "to gather more and more over time" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| acknowledge | Pass: Image keyword "acknowledge nod" is likely clear and recognizable | Pass: Definition "to show that you noticed or agree" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| adequate | Pass: Image keyword "full water bottle" is likely clear and recognizable | Pass: Definition "just barely enough to get the job done" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| advocate | Pass: Image keyword "advocate support" is likely clear and recognizable | Pass: Definition "to speak up for something you believe in" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| allocate | Pass: Image keyword "allocate assign" is likely clear and recognizable | Pass: Definition "to set apart for a purpose" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| ambiguous | Pass: Image keyword "ambiguous confusing" is likely clear and recognizable | Pass: Definition "not clear; could mean more than one thing" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| amend | Pass: Image keyword "amend edit" is likely clear and recognizable | Pass: Definition "to change something to fix or improve it" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| approximate | Pass: Image keyword "approximate estimate" is likely clear and recognizable | Pass: Definition "close to the real number but not exact" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| aspire | Pass: Image keyword "aspire dream" is likely clear and recognizable | Pass: Definition "to dream of doing something great" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| assert | Pass: Image keyword "assert speak" is likely clear and recognizable | Pass: Definition "to say something strongly and clearly" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| authorize | Pass: Image keyword "authorize approve" is likely clear and recognizable | Pass: Definition "to give official permission for something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| beneficial | Pass: Image keyword "beneficial healthy" is likely clear and recognizable | Pass: Definition "helpful or good for you" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| bias | Pass: Image keyword "bias unfair" is likely clear and recognizable | Pass: Definition "leaning toward one side in a way that is not right" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| capacity | Pass: Image keyword "capacity full" is likely clear and recognizable | Pass: Definition "the most that something can hold or carry" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| clarify | Pass: Image keyword "magnifying glass text" is likely clear and recognizable | Pass: Definition "to say something again so it is clear" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| coincide | Pass: Image keyword "overlapping calendar events" is likely clear and recognizable | Pass: Definition "to happen at the same time as something else" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| commentary | Pass: Image keyword "commentary sports" is likely clear and recognizable | Pass: Definition "spoken or written opinions about an event" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| compensate | Pass: Image keyword "compensate repay" is likely clear and recognizable | Pass: Definition "to make up for something or pay someone back" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| compile | Pass: Image keyword "compile list" is likely clear and recognizable | Pass: Definition "to put together facts from many places" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| complement | Pass: Image keyword "complement match" is likely clear and recognizable | Pass: Definition "something that goes well with another thing" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| comply | Pass: Image keyword "comply follow" is likely clear and recognizable | Pass: Definition "to do what is asked or required" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| conceive | Pass: Image keyword "conceive idea" is likely clear and recognizable | Pass: Definition "to think of an idea" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| confine | Pass: Image keyword "confine limit" is likely clear and recognizable | Pass: Definition "to keep within limits" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| consent | Pass: Image keyword "consent permission" is likely clear and recognizable | Pass: Definition "saying yes; giving permission for something to happen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| consequent | Pass: Image keyword "consequent result" is likely clear and recognizable | Pass: Definition "happening as a result of something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| consolidate | Pass: Image keyword "consolidate combine" is likely clear and recognizable | Pass: Definition "to bring things together into one" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| constraint | Pass: Image keyword "constraint limit" is likely clear and recognizable | Pass: Definition "a limit or rule that holds you back" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| consult | Pass: Image keyword "consult advice" is likely clear and recognizable | Pass: Definition "to ask someone who knows a lot for help" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| contemplate | Pass: Image keyword "contemplate think" is likely clear and recognizable | Pass: Definition "to think about something deeply" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| contradict | Pass: Image keyword "contradict opposite" is likely clear and recognizable | Pass: Definition "to say the opposite of what someone else said" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| controversy | Pass: Image keyword "controversy debate" is likely clear and recognizable | Pass: Definition "a big argument among people about an important idea" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| convene | Pass: Image keyword "convene meeting" is likely clear and recognizable | Pass: Definition "to come together for a meeting" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| correspond | Pass: Image keyword "correspond match" is likely clear and recognizable | Pass: Definition "to match or be similar to" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| criteria | Pass: Image keyword "criteria checklist" is likely clear and recognizable | Pass: Definition "rules used to judge or decide something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| currency | Pass: Image keyword "currency money" is likely clear and recognizable | Pass: Definition "the type of money a country uses" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| deficiency | Pass: Image keyword "deficiency lack" is likely clear and recognizable | Pass: Definition "not having enough of something needed" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| denote | Pass: Image keyword "denote sign" is likely clear and recognizable | Pass: Definition "to be a sign of or to mean" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| derive | Pass: Image keyword "derive source" is likely clear and recognizable | Pass: Definition "to get something from a source" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| deviate | Pass: Image keyword "deviate path" is likely clear and recognizable | Pass: Definition "to go a different way from what is usual" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| devote | Pass: Image keyword "devote focus" is likely clear and recognizable | Pass: Definition "to give your time and effort to something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| diminish | Pass: Image keyword "diminish smaller" is likely clear and recognizable | Pass: Definition "to become smaller or less" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| dispose | Pass: Image keyword "dispose trash" is likely clear and recognizable | Pass: Definition "to get rid of something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| distort | Pass: Image keyword "distort mirror" is likely clear and recognizable | Pass: Definition "to twist out of shape" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| diverse | Pass: Image keyword "diverse variety" is likely clear and recognizable | Pass: Definition "having many different kinds" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| domain | Pass: Image keyword "domain area" is likely clear and recognizable | Pass: Definition "an area of what you know or control" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| dominate | Pass: Image keyword "dominate tower" is likely clear and recognizable | Pass: Definition "to have the most power or control" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| draft | Pass: Image keyword "draft writing" is likely clear and recognizable | Pass: Definition "a first try of something written" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| duration | Pass: Image keyword "duration time" is likely clear and recognizable | Pass: Definition "how long something lasts" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| empirical | Pass: Image keyword "empirical experiment" is likely clear and recognizable | Pass: Definition "based on what you watch and test" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| enforce | Pass: Image keyword "enforce rule" is likely clear and recognizable | Pass: Definition "to make sure a rule is followed" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| entity | Pass: Image keyword "entity thing" is likely clear and recognizable | Pass: Definition "a single thing that has its own name and life" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| equate | Pass: Image keyword "equate equal" is likely clear and recognizable | Pass: Definition "to think of two things as equal" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| erode | Pass: Image keyword "erode cliff" is likely clear and recognizable | Pass: Definition "to slowly wear away" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| exceed | Pass: Image keyword "exceed beyond" is likely clear and recognizable | Pass: Definition "to go beyond a limit or amount" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| explicit | Pass: Image keyword "explicit clear" is likely clear and recognizable | Pass: Definition "said clearly so there is no mistake about what you mean" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| extract | Pass: Image keyword "extract pull" is likely clear and recognizable | Pass: Definition "to pull out or remove" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| facilitate | Pass: Image keyword "facilitate help" is likely clear and recognizable | Pass: Definition "to help something happen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| finite | Pass: Image keyword "finite limited" is likely clear and recognizable | Pass: Definition "having a limit or end" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| fluctuate | Pass: Image keyword "fluctuate change" is likely clear and recognizable | Pass: Definition "to go up and down or change often" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| format | Pass: Image keyword "format layout" is likely clear and recognizable | Pass: Definition "the way something is set up or arranged" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| formula | Pass: Image keyword "formula math" is likely clear and recognizable | Pass: Definition "a rule or method written with symbols" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| foundation | Pass: Image keyword "foundation base" is likely clear and recognizable | Pass: Definition "the base that holds something up" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| framework | Pass: Image keyword "framework structure" is likely clear and recognizable | Pass: Definition "a plan or set of rules that holds together something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| furthermore | Pass: Image keyword "furthermore also" is likely clear and recognizable | Pass: Definition "in addition to what was already said" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| generate | Pass: Image keyword "generate create" is likely clear and recognizable | Pass: Definition "to create or produce" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| guideline | Pass: Image keyword "guideline rules" is likely clear and recognizable | Pass: Definition "a rule that tells you how to do something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hence | Pass: Image keyword "hence therefore" is likely clear and recognizable | Pass: Definition "for this reason, and so it follows that" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hierarchy | Pass: Image keyword "hierarchy pyramid" is likely clear and recognizable | Pass: Definition "a system where things go from top to bottom" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| hypothesis | Pass: Image keyword "hypothesis science" is likely clear and recognizable | Pass: Definition "a guess about what will happen in a test" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| identical | Pass: Image keyword "identical same" is likely clear and recognizable | Pass: Definition "exactly the same" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| ideology | Pass: Image keyword "ideology beliefs" is likely clear and recognizable | Pass: Definition "a set of ideas about how things should be" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| implication | Pass: Image keyword "implication hint" is likely clear and recognizable | Pass: Definition "something that is said without using words" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| impose | Pass: Image keyword "impose force" is likely clear and recognizable | Pass: Definition "to force a rule or task on someone" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| incentive | Pass: Image keyword "incentive reward" is likely clear and recognizable | Pass: Definition "something that makes you want to try harder" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| incorporate | Pass: Image keyword "incorporate include" is likely clear and recognizable | Pass: Definition "to include as part of something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| index | Pass: Image keyword "index book" is likely clear and recognizable | Pass: Definition "a list at the back of a book that helps you find things" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| induce | Pass: Image keyword "induce cause" is likely clear and recognizable | Pass: Definition "to cause or lead something to happen" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| inherent | Pass: Image keyword "inherent natural" is likely clear and recognizable | Pass: Definition "a natural part of something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| inhibit | Pass: Image keyword "inhibit block" is likely clear and recognizable | Pass: Definition "to hold back or prevent" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| initiate | Pass: Image keyword "initiate start" is likely clear and recognizable | Pass: Definition "to start or begin something new" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| innovation | Pass: Image keyword "innovation invention" is likely clear and recognizable | Pass: Definition "a new idea or way of doing things" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| insert | Pass: Image keyword "insert coin" is likely clear and recognizable | Pass: Definition "to put something inside" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| integral | Pass: Image keyword "integral important" is likely clear and recognizable | Pass: Definition "very important and needed as part of something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| intervene | Pass: Image keyword "intervene help" is likely clear and recognizable | Pass: Definition "to step in to help or stop something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| invoke | Pass: Image keyword "invoke call" is likely clear and recognizable | Pass: Definition "to call upon for help or use" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| isolate | Pass: Image keyword "isolate separate" is likely clear and recognizable | Pass: Definition "to keep apart from others" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| levy | Pass: Image keyword "levy tax" is likely clear and recognizable | Pass: Definition "to collect money by order of the government" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| liberal | Pass: Image keyword "liberal generous" is likely clear and recognizable | Pass: Definition "willing to give a lot; open to new ideas" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| likewise | Pass: Image keyword "likewise same" is likely clear and recognizable | Pass: Definition "in the same way" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| magnitude | Pass: Image keyword "magnitude size" is likely clear and recognizable | Pass: Definition "the size or importance of something" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
+| manifest | Pass: Image keyword "manifest show" is likely clear and recognizable | Pass: Definition "to show or make clear" is accurate | Pass: Most common meaning is used | Pass: Can be used in all 4 game modes |
