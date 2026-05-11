@@ -1,12 +1,7 @@
 const fs = require('fs');
+let data = JSON.parse(fs.readFileSync('word-status.json'));
 
-const raw = fs.readFileSync('word-status.json', 'utf8');
-const data = JSON.parse(raw);
-
-data.files['words-level5c.js'].gate6 = "pass";
-data.files['words-level5d.js'].gate6 = "pass";
-data.summary.gate6_pending -= 616;
-data.summary.allGatesClear += 616;
-
+data.files['words-level2c.js'].currentGate = 13;
+data.files['words-level2d.js'].currentGate = 13;
 
 fs.writeFileSync('word-status.json', JSON.stringify(data, null, 2));
