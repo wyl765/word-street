@@ -1,347 +1,345 @@
-# Gemini Review: words-level4c.js
+# VERIFY-GEMINI-words-level4c.js-GATE
 
-| Word | L9: Image | L10: Fact | L11: Sense | L12: Game |
-|---|---|---|---|---|
-| undertake | Pass: starting task is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| unfold | Pass: story unfolding is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| universal | Pass: universal symbol is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| vegetation | Pass: dense vegetation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| verify | Pass: fact checking is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| versus | Pass: versus competition is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| veto | Pass: veto stamp is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| via | Pass: route via is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| vibrate | Pass: vibrating string is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| volatile | Pass: unpredictable change is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| wage | Pass: hourly wage is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| withstand | Pass: strong fortress is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| abstract | Pass: abstract painting shapes is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| academy | Pass: dance academy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| access | Pass: access card is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| adjacent | Pass: next door is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| affiliate | Pass: business partner handshake is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| agenda | Pass: meeting agenda is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| aggregate | Pass: total combined is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| agitate | Pass: stirring up is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| algorithm | Pass: computer algorithm is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| allegiance | Pass: pledge loyalty is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| allot | Pass: dividing time is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| ally | Pass: allied support is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| altitude | Pass: high altitude is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| anchor | Pass: boat anchor is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| anecdote | Pass: funny story is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| anonymous | Pass: mystery anonymous is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| arbitrary | Pass: random decision is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| archive | Pass: document archive is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| articulate | Pass: clear speaking is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| aspect | Pass: one part is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| assault | Pass: castle attack is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| assembly | Pass: school assembly is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| attain | Pass: reaching goal is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| autonomous | Pass: self driving is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| backdrop | Pass: scenic backdrop is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| barren | Pass: barren land is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| battalion | Pass: marching soldiers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| benchmark | Pass: measuring standard is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| beneficiary | Pass: receiving benefit is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| bolster | Pass: supporting strength is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| breach | Pass: dam breach is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| brochure | Pass: travel brochure is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| bureaucracy | Pass: paperwork pile is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| calibrate | Pass: calibrating instrument is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| captivate | Pass: captivated audience is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| catalyst | Pass: spark catalyst is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| catastrophe | Pass: disaster catastrophe is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| censor | Pass: censoring content is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| chancellor | Pass: university leader is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| chronicle | Pass: historical record is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| coalition | Pass: groups joining is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| cognitive | Pass: glowing brain with gears is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| coherent | Pass: logical order is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| collaborate | Pass: working together is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| commemorate | Pass: memorial statue is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| commodity | Pass: trading commodity is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| compatible | Pass: puzzle pieces fitting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| conceal | Pass: hiding secret is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| concede | Pass: admitting defeat is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| confederation | Pass: states joining is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| congregation | Pass: people gathered is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| consecutive | Pass: consecutive numbers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| consul | Pass: embassy official is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| continental | Pass: continent map is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| contingent | Pass: depending on is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| convergence | Pass: rivers meeting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| correlation | Pass: connected relationship is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| credibility | Pass: trusted source is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| crossroads | Pass: decision point is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| cumulus | Pass: puffy clouds is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| curator | Pass: museum curator is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| cylinder | Pass: cylinder shape is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| demographic | Pass: population data is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| denounce | Pass: public criticism is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| deploy | Pass: deploying resources is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| depot | Pass: bus depot is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| deputy | Pass: deputy badge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| descendant | Pass: family descendant is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| detain | Pass: holding person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| deter | Pass: keeping away is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| differentiate | Pass: telling apart is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| diligent | Pass: hardworking student is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| diplomacy | Pass: peaceful talks is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| dire | Pass: urgent serious is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| discourse | Pass: serious discussion is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| discretion | Pass: careful judgment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| disperse | Pass: scattering apart is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| disposition | Pass: cheerful nature is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| disrupt | Pass: interrupting flow is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| dissent | Pass: disagreeing voice is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| doctrine | Pass: official belief is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| dwelling | Pass: cliff dwelling is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| dynasty | Pass: royal dynasty is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| electrode | Pass: battery electrode is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| eloquent | Pass: powerful speech is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| embassy | Pass: embassy building is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| encompass | Pass: wide coverage is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| endorse | Pass: public support is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| envision | Pass: imagining future is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| epidemic | Pass: spreading illness is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| equilibrium | Pass: balanced seesaw is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| escalate | Pass: increasing intensity is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| espionage | Pass: spy espionage is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| ethnic | Pass: cultural diversity is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| evacuate | Pass: evacuation exit is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| exert | Pass: pushing hard is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| exile | Pass: banished exile is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| expenditure | Pass: spending money is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| faction | Pass: divided group is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| fluctuation | Pass: up down graph is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| forfeit | Pass: losing penalty is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| formidable | Pass: imposing mountain is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| fortify | Pass: strengthening walls is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| fraud | Pass: scam fraud is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| frugal | Pass: careful spending piggy bank is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| garrison | Pass: fort soldiers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| gazette | Pass: newspaper gazette is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| geologist | Pass: studying rocks is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| gorge | Pass: rocky gorge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| gradient | Pass: steep slope is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| grapple | Pass: struggling problem is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| grassland | Pass: savanna grassland is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| grievance | Pass: formal complaint is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| gross | Pass: total amount is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| humanitarian | Pass: helping people is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| ignite | Pass: fire igniting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| impeach | Pass: official charge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| imperial | Pass: imperial palace is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| incidence | Pass: frequency rate is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| indigenous | Pass: native animal is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| infrastructure | Pass: roads bridges is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| inject | Pass: needle injection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| innate | Pass: natural talent is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| innovate | Pass: new ideas is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| inoculate | Pass: doctor giving vaccine is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| input | Pass: contributing ideas is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| inscription | Pass: carved words is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| insignificant | Pass: tiny unimportant is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| intact | Pass: unbroken whole is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| interim | Pass: temporary period is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| intersection | Pass: road intersection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| intimate | Pass: close personal is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| intrepid | Pass: brave explorer is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| intrinsic | Pass: built in quality is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| inventory | Pass: counting stock is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| irrational | Pass: illogical fear is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| isle | Pass: small island is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| jargon | Pass: technical words is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| judicial | Pass: court judicial is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| jurisdiction | Pass: authority area is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| juvenile | Pass: young animal is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| kinetic | Pass: bowling ball hitting pins is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| lapse | Pass: brief pause is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| legislation | Pass: making laws is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| liaison | Pass: connecting people is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| lucrative | Pass: profitable business is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| magistrate | Pass: local judge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| manuscript | Pass: written manuscript is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| maritime | Pass: sailing ship on ocean is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| meander | Pass: winding river is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| mediate | Pass: peaceful mediation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| memoir | Pass: personal story is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| merchandise | Pass: store merchandise is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| metropolitan | Pass: big city is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| militant | Pass: aggressive protest is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| militia | Pass: citizen soldiers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| millennium | Pass: thousand years is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| mobilize | Pass: organizing action is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| monarchy | Pass: royal monarchy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| monetary | Pass: money value is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| monopolize | Pass: taking control is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| morale | Pass: happy team celebration is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| moratorium | Pass: temporary stop is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| mortgage | Pass: house loan is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| mutiny | Pass: ship rebellion is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| narrate | Pass: telling story is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| nationalism | Pass: patriotic pride is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| niche | Pass: special role is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| nomenclature | Pass: naming system is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| nomadic | Pass: traveling nomads is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| nonpartisan | Pass: neutral balanced is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| notorious | Pass: infamous pirate is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| novice | Pass: beginner learner is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| nullify | Pass: canceling void is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| obscure | Pass: hidden unclear is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| obstruct | Pass: blocked road is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| offset | Pass: balancing out is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| omit | Pass: leaving out is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| onset | Pass: beginning start is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| opaque | Pass: opaque material is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| optimize | Pass: improving best is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| ordinance | Pass: city law is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| oscillate | Pass: swinging pendulum is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| outbreak | Pass: sudden spreading is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| outskirts | Pass: city edge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| overhaul | Pass: complete repair is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| oversight | Pass: accidental mistake is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| overt | Pass: openly shown is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| paradigm | Pass: model pattern is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| paradox | Pass: contradictory idea is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| parliament | Pass: parliament building is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| partisan | Pass: taking sides is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| patrimony | Pass: family inheritance is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| patronage | Pass: customer support is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| pedagogy | Pass: teaching method is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| penal | Pass: law punishment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| per capita | Pass: per person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| perennial | Pass: returning flowers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| periphery | Pass: outer edge is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| permeable | Pass: permeable membrane is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| perpetual | Pass: never ending is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| persecute | Pass: cruel treatment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| persona | Pass: public image is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| pertinent | Pass: relevant important is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| pervasive | Pass: everywhere spreading is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| petroleum | Pass: oil petroleum is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| philanthropy | Pass: charity donation box is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| pivotal | Pass: turning point is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| plausible | Pass: believable story is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| plurality | Pass: most votes is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| posterity | Pass: future generations is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| pragmatic | Pass: hands on problem solving is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| precede | Pass: precede order is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| precedent | Pass: setting example is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| predominant | Pass: most common is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| preface | Pass: book preface is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| procurement | Pass: buying supplies is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| prodigy | Pass: talented child is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| proficient | Pass: skilled expert is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| proliferate | Pass: rapid spreading is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| propaganda | Pass: persuasion poster is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| prosecute | Pass: court trial is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| prospectus | Pass: information booklet is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| protocol | Pass: official rules is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| province | Pass: country province is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| proximity | Pass: close nearby is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| prudent | Pass: careful wise is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| quarantine | Pass: isolation room is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| quorum | Pass: minimum members is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| ratify | Pass: signing official document is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| ration | Pass: limited supply is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| recess | Pass: playground recess is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| reconcile | Pass: friends hugging again is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| referendum | Pass: public vote is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| reimburse | Pass: paying back is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| renaissance | Pass: renaissance art is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| replenish | Pass: refilling supply is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| repository | Pass: storage place is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| repress | Pass: bottling up emotions is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| reproach | Pass: disappointed look is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| repudiate | Pass: rejecting firmly is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| requisite | Pass: necessary item is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| reservoir | Pass: water reservoir is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| residual | Pass: remaining leftover is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| resilient | Pass: bouncing back is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| resonance | Pass: deep feeling is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| restitution | Pass: paying damages is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| retract | Pass: taking back is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| retrospect | Pass: looking back is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| rhetoric | Pass: persuasive speech is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| rigorous | Pass: tough training is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| roster | Pass: team list is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| rubric | Pass: grading guide is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| rupture | Pass: pipe bursting is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| sanitary | Pass: sparkling clean kitchen is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| scaffold | Pass: construction scaffold is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| segregation | Pass: separation unfair is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| seismic | Pass: earthquake sensor is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| seminar | Pass: small class is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| sentiment | Pass: feeling opinion is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| skeptic | Pass: questioning person is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| solidarity | Pass: standing together is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| solitary | Pass: alone lighthouse is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| sovereignty | Pass: independent nation is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| spontaneous | Pass: sudden unplanned is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| stagnant | Pass: still water is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| stimulus | Pass: triggering response is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| stipulate | Pass: stating rules is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| stratum | Pass: rock layers is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| subsistence | Pass: basic survival is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| substantiate | Pass: proving true is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| suffrage | Pass: voting rights is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| superfluous | Pass: overflowing extra items is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| suppress | Pass: silencing pushing down is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| surveillance | Pass: watching monitoring screen is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| sustainable | Pass: sustainable energy is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| tariff | Pass: import tax is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| taxonomy | Pass: classification tree is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| tenure | Pass: time in office is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| testament | Pass: proof evidence is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| theorem | Pass: math theorem is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| abjure | Pass: renouncing oath is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| accretion | Pass: gradual buildup is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| adjudicate | Pass: judge deciding is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| adulterate | Pass: diluting mixture is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| aggrandize | Pass: expanding power is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| apotheosis | Pass: peak perfection is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| approbation | Pass: approval praise is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| arrogate | Pass: seizing power crown is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| atavism | Pass: primitive trait is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| bellwether | Pass: leading indicator is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| bifurcate | Pass: road splitting two is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| bowdlerize | Pass: editing book is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| bromide | Pass: tired saying is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| cadence | Pass: rhythmic speech is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| cabal | Pass: secret group is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| canard | Pass: false rumor is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| capitulation | Pass: white flag waving is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| celerity | Pass: fast response is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| cogitate | Pass: deep thought is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| collude | Pass: secret cheating is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| conflate | Pass: mixing together is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| consanguinity | Pass: family tree generations is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| contiguous | Pass: touching borders is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| countermand | Pass: reversing order is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| deleterious | Pass: harmful effects is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| diatribe | Pass: angry rant is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| efficacious | Pass: effective result is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| excoriate | Pass: angry critic review is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| exigent | Pass: urgent emergency is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| expurgate | Pass: removing content is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| extirpate | Pass: removing weeds is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| fatuous | Pass: silly idea is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| fecund | Pass: abundant garden is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| fulminate | Pass: loud protest is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| gainsay | Pass: cannot deny is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| gerrymandering | Pass: map boundaries is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| impecunious | Pass: poor artist is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| ineluctable | Pass: unavoidable outcome is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| inimical | Pass: hostile environment is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| inscrutable | Pass: mysterious face is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| internecine | Pass: mutual destruction is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| malfeasant | Pass: corrupt official caught is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| obdurate | Pass: unmovable stubborn is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| opprobrium | Pass: crowd pointing blaming is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| palimpsest | Pass: layered history is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| tendentious | Pass: biased writing is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| termagant | Pass: angry shopkeeper is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| trenchant | Pass: sharp analysis is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| nugatory | Pass: useless effort is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
-| panegyric | Pass: praise speech is clear | Pass: Definition accurate | Pass: Primary meaning used | Pass: Fits all 4 modes |
+- **undertake**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **unfold**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **universal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **vegetation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **verify**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **versus**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **veto**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **via**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **vibrate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **volatile**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **wage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **withstand**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **abstract**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **academy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **access**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **adjacent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **affiliate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **agenda**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **aggregate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **agitate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **algorithm**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **allegiance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **allot**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **ally**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **altitude**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **anchor**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **anecdote**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **anonymous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **arbitrary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **archive**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **articulate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **aspect**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **assault**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **assembly**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **attain**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **autonomous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **backdrop**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **barren**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **battalion**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **benchmark**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **beneficiary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **bolster**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **breach**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **brochure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **bureaucracy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **calibrate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **captivate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **catalyst**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **catastrophe**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **censor**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **chancellor**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **chronicle**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **coalition**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **cognitive**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **coherent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **collaborate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **commemorate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **commodity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **compatible**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **conceal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **concede**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **confederation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **congregation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **consecutive**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **consul**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **continental**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **contingent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **convergence**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **correlation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **credibility**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **crossroads**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **cumulus**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **curator**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **cylinder**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **demographic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **denounce**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **deploy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **depot**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **deputy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **descendant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **detain**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **deter**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **differentiate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **diligent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **diplomacy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **dire**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **discourse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **discretion**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **disperse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **disposition**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **disrupt**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **dissent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **doctrine**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **dwelling**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **dynasty**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **electrode**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **eloquent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **embassy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **encompass**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **endorse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **envision**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **epidemic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **equilibrium**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **escalate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **espionage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **ethnic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **evacuate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **exert**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **exile**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **expenditure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **faction**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **fluctuation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **forfeit**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **formidable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **fortify**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **fraud**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **frugal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **garrison**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **gazette**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **geologist**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **gorge**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **gradient**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **grapple**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **grassland**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **grievance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **gross**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **humanitarian**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **ignite**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **impeach**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **imperial**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **incidence**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **indigenous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **infrastructure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **inject**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **innate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **innovate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **inoculate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **input**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **inscription**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **insignificant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **intact**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **interim**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **intersection**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **intimate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **intrepid**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **intrinsic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **inventory**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **irrational**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **isle**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **jargon**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **judicial**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **jurisdiction**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **juvenile**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **kinetic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **lapse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **legislation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **liaison**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **lucrative**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **magistrate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **manuscript**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **maritime**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **meander**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **mediate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **memoir**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **merchandise**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **metropolitan**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **militant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **militia**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **millennium**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **mobilize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **monarchy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **monetary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **monopolize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **morale**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **moratorium**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **mortgage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **mutiny**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **narrate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **nationalism**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **niche**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **nomenclature**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **nomadic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **nonpartisan**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **notorious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **novice**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **nullify**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **obscure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **obstruct**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **offset**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **omit**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **onset**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **opaque**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **optimize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **ordinance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **oscillate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **outbreak**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **outskirts**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **overhaul**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **oversight**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **overt**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **paradigm**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **paradox**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **parliament**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **partisan**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **patrimony**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **patronage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **pedagogy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **penal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **per capita**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **perennial**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **periphery**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **permeable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **perpetual**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **persecute**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **persona**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **pertinent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **pervasive**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **petroleum**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **philanthropy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **pivotal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **plausible**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **plurality**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **posterity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **pragmatic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **precede**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **precedent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **predominant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **preface**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **procurement**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **prodigy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **proficient**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **proliferate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **propaganda**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **prosecute**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **prospectus**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **protocol**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **province**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **proximity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **prudent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **quarantine**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **quorum**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **ratify**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **ration**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **recess**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **reconcile**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **referendum**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **reimburse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **renaissance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **replenish**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **repository**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **repress**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **reproach**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **repudiate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **requisite**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **reservoir**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **residual**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **resilient**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **resonance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **restitution**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **retract**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **retrospect**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **rhetoric**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **rigorous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **roster**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **rubric**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **rupture**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **sanitary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **scaffold**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **segregation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **seismic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **seminar**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **sentiment**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **skeptic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **solidarity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **solitary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **sovereignty**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **spontaneous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **stagnant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **stimulus**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **stipulate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **stratum**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **subsistence**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **substantiate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **suffrage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **superfluous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **suppress**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **surveillance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **sustainable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **tariff**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **taxonomy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **tenure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **testament**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **theorem**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **abjure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **accretion**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **adjudicate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **adulterate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **aggrandize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **apotheosis**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **approbation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **arrogate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **atavism**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **bellwether**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **bifurcate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **bowdlerize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **bromide**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **cadence**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **cabal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **canard**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **capitulation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **celerity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **cogitate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **collude**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **conflate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **consanguinity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **contiguous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **countermand**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **deleterious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **diatribe**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **efficacious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **excoriate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **exigent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **expurgate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **extirpate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **fatuous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **fecund**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **fulminate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **gainsay**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **gerrymandering**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **impecunious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **ineluctable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **inimical**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **inscrutable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **internecine**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **malfeasant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **obdurate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **opprobrium**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **palimpsest**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **tendentious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **termagant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **trenchant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **nugatory**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
+- **panegyric**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
