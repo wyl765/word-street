@@ -1,0 +1,1892 @@
+{
+  "organism": [
+    "adaptation",
+    "camouflage",
+    "organism",
+    "vertebrate"
+  ],
+  "evaporation": [
+    "condensation",
+    "evaporation",
+    "pollution",
+    "weathering"
+  ],
+  "condensation": [
+    "condensation",
+    "dissolve",
+    "evaporation",
+    "weathering"
+  ],
+  "precipitation": [
+    "downpour",
+    "flurry",
+    "precipitation",
+    "tide"
+  ],
+  "atmosphere": [
+    "atmosphere",
+    "lunar",
+    "nonrenewable",
+    "pollution"
+  ],
+  "nutrient": [
+    "adaptation",
+    "fallow",
+    "irrigation",
+    "nutrient"
+  ],
+  "photosynthesis": [
+    "ecosystem",
+    "nutrient",
+    "photosynthesis",
+    "solar"
+  ],
+  "pollination": [
+    "flinch",
+    "germinate",
+    "grid",
+    "pollination"
+  ],
+  "germinate": [
+    "agriculture",
+    "foresee",
+    "germinate",
+    "organism"
+  ],
+  "larva": [
+    "constellation",
+    "drape",
+    "electricity",
+    "larva"
+  ],
+  "metamorphosis": [
+    "hibernation",
+    "metamorphosis",
+    "nutrient",
+    "rural"
+  ],
+  "camouflage": [
+    "camouflage",
+    "enshroud",
+    "invertebrate",
+    "vertebrate"
+  ],
+  "migration": [
+    "hibernation",
+    "irrigation",
+    "migration",
+    "photosynthesis"
+  ],
+  "hibernation": [
+    "gouge",
+    "hibernation",
+    "migration",
+    "whereas"
+  ],
+  "adaptation": [
+    "adaptation",
+    "nutrient",
+    "organism",
+    "petition"
+  ],
+  "ecosystem": [
+    "adaptation",
+    "cell",
+    "ecosystem",
+    "services"
+  ],
+  "solar": [
+    "array",
+    "evaporation",
+    "photosynthesis",
+    "solar"
+  ],
+  "lunar": [
+    "earthquake",
+    "furor",
+    "glitch",
+    "lunar"
+  ],
+  "friction": [
+    "dolt",
+    "expel",
+    "friction",
+    "parallel"
+  ],
+  "electricity": [
+    "conservation",
+    "electricity",
+    "facet",
+    "technology"
+  ],
+  "circuit": [
+    "circuit",
+    "conductor",
+    "electricity",
+    "insulator"
+  ],
+  "conductor": [
+    "conductor",
+    "eyelet",
+    "insulator",
+    "metamorphosis"
+  ],
+  "insulator": [
+    "circuit",
+    "conductor",
+    "insulator",
+    "lunar"
+  ],
+  "microscope": [
+    "chrysalis",
+    "gadget",
+    "microscope",
+    "telescope"
+  ],
+  "dissolve": [
+    "condensation",
+    "dissolve",
+    "drench",
+    "liter"
+  ],
+  "mass": [
+    "artifact",
+    "forsake",
+    "liter",
+    "mass"
+  ],
+  "renewable": [
+    "dye",
+    "gnaw",
+    "gulp",
+    "renewable"
+  ],
+  "nonrenewable": [
+    "frolic",
+    "gallop",
+    "nonrenewable",
+    "probability"
+  ],
+  "pollution": [
+    "evaporation",
+    "geography",
+    "peninsula",
+    "pollution"
+  ],
+  "conservation": [
+    "barter",
+    "civilization",
+    "condensation",
+    "conservation"
+  ],
+  "vertebrate": [
+    "camouflage",
+    "invertebrate",
+    "organism",
+    "vertebrate"
+  ],
+  "invertebrate": [
+    "camouflage",
+    "invertebrate",
+    "organism",
+    "vertebrate"
+  ],
+  "chrysalis": [
+    "chrysalis",
+    "forsake",
+    "granted",
+    "larva"
+  ],
+  "decompose": [
+    "chrysalis",
+    "decompose",
+    "distributive",
+    "dowel"
+  ],
+  "telescope": [
+    "chrysalis",
+    "gadget",
+    "microscope",
+    "telescope"
+  ],
+  "rotation": [
+    "girdle",
+    "grindstone",
+    "radius",
+    "rotation"
+  ],
+  "constellation": [
+    "constellation",
+    "expression",
+    "larva",
+    "vertical"
+  ],
+  "volcano": [
+    "evaporation",
+    "flank",
+    "mass",
+    "volcano"
+  ],
+  "earthquake": [
+    "dungeon",
+    "earthquake",
+    "lunar",
+    "weathering"
+  ],
+  "weathering": [
+    "condensation",
+    "earthquake",
+    "evaporation",
+    "weathering"
+  ],
+  "tide": [
+    "grid",
+    "migration",
+    "peninsula",
+    "tide"
+  ],
+  "classify": [
+    "classify",
+    "ecosystem",
+    "farce",
+    "mass"
+  ],
+  "cell": [
+    "adaptation",
+    "cell",
+    "ecosystem",
+    "fort"
+  ],
+  "carbon dioxide": [
+    "carbon dioxide",
+    "kill two birds with one stone",
+    "take part in",
+    "the ball is in your court"
+  ],
+  "sediment": [
+    "gouge",
+    "grit",
+    "mass",
+    "sediment"
+  ],
+  "geography": [
+    "geography",
+    "peninsula",
+    "pollution",
+    "rotation"
+  ],
+  "peninsula": [
+    "geography",
+    "peninsula",
+    "pollution",
+    "polygon"
+  ],
+  "urban": [
+    "industry",
+    "services",
+    "suburban",
+    "urban"
+  ],
+  "rural": [
+    "array",
+    "civilization",
+    "rural",
+    "suburban"
+  ],
+  "suburban": [
+    "friction",
+    "rural",
+    "suburban",
+    "urban"
+  ],
+  "civilization": [
+    "civilization",
+    "rural",
+    "services",
+    "technology"
+  ],
+  "artifact": [
+    "artifact",
+    "barter",
+    "gregarious",
+    "mass"
+  ],
+  "agriculture": [
+    "agriculture",
+    "irrigation",
+    "migration",
+    "photosynthesis"
+  ],
+  "industry": [
+    "glaze",
+    "goods",
+    "industry",
+    "pollution"
+  ],
+  "technology": [
+    "dolt",
+    "electricity",
+    "grindstone",
+    "technology"
+  ],
+  "governor": [
+    "doldrums",
+    "forte",
+    "gait",
+    "governor"
+  ],
+  "justice": [
+    "gregarious",
+    "justice",
+    "services",
+    "technology"
+  ],
+  "monument": [
+    "cell",
+    "fort",
+    "landmark",
+    "monument"
+  ],
+  "landmark": [
+    "constellation",
+    "landmark",
+    "technology",
+    "timeline"
+  ],
+  "capital": [
+    "capital",
+    "circuit",
+    "suburban",
+    "urban"
+  ],
+  "timeline": [
+    "commutative",
+    "expression",
+    "radius",
+    "timeline"
+  ],
+  "treaty": [
+    "downpour",
+    "elapsed",
+    "friction",
+    "treaty"
+  ],
+  "irrigation": [
+    "agriculture",
+    "drone",
+    "irrigation",
+    "tide"
+  ],
+  "barter": [
+    "barter",
+    "conservation",
+    "gnaw",
+    "renewable"
+  ],
+  "goods": [
+    "goods",
+    "industry",
+    "nutrient",
+    "services"
+  ],
+  "services": [
+    "ecosystem",
+    "goods",
+    "services",
+    "urban"
+  ],
+  "petition": [
+    "governor",
+    "industry",
+    "petition",
+    "technology"
+  ],
+  "numerator": [
+    "composite",
+    "denominator",
+    "multiple",
+    "numerator"
+  ],
+  "denominator": [
+    "denominator",
+    "multiple",
+    "numerator",
+    "sediment"
+  ],
+  "equivalent": [
+    "emporium",
+    "equivalent",
+    "expression",
+    "kilometer"
+  ],
+  "multiple": [
+    "composite",
+    "multiple",
+    "prime",
+    "variable"
+  ],
+  "perimeter": [
+    "girdle",
+    "kilometer",
+    "operation",
+    "perimeter"
+  ],
+  "array": [
+    "array",
+    "equivalent",
+    "kilogram",
+    "kilometer"
+  ],
+  "symmetry": [
+    "congruent",
+    "peninsula",
+    "quadrilateral",
+    "symmetry"
+  ],
+  "parallel": [
+    "ebony",
+    "parallel",
+    "perpendicular",
+    "vertex"
+  ],
+  "perpendicular": [
+    "intersect",
+    "perpendicular",
+    "quadrilateral",
+    "vertex"
+  ],
+  "vertex": [
+    "ford",
+    "grid",
+    "intersect",
+    "vertex"
+  ],
+  "polygon": [
+    "congruent",
+    "peninsula",
+    "polygon",
+    "quadrilateral"
+  ],
+  "quadrilateral": [
+    "congruent",
+    "polygon",
+    "quadrilateral",
+    "symmetry"
+  ],
+  "diameter": [
+    "diameter",
+    "metamorphosis",
+    "radius",
+    "vertical"
+  ],
+  "radius": [
+    "polygon",
+    "radius",
+    "rotation",
+    "vertical"
+  ],
+  "gram": [
+    "centimeter",
+    "gram",
+    "liter",
+    "probability"
+  ],
+  "kilogram": [
+    "furlong",
+    "kilogram",
+    "kilometer",
+    "meter"
+  ],
+  "liter": [
+    "centimeter",
+    "gram",
+    "liter",
+    "mass"
+  ],
+  "centimeter": [
+    "centimeter",
+    "gram",
+    "liter",
+    "meter"
+  ],
+  "meter": [
+    "centimeter",
+    "kilometer",
+    "meter",
+    "unit"
+  ],
+  "kilometer": [
+    "furlong",
+    "kilogram",
+    "kilometer",
+    "meter"
+  ],
+  "vertical": [
+    "evaporation",
+    "polygon",
+    "radius",
+    "vertical"
+  ],
+  "elapsed": [
+    "dye",
+    "elapsed",
+    "genteel",
+    "granted"
+  ],
+  "commutative": [
+    "associative",
+    "commutative",
+    "granted",
+    "timeline"
+  ],
+  "associative": [
+    "associative",
+    "commutative",
+    "fluent",
+    "granted"
+  ],
+  "distributive": [
+    "decompose",
+    "distributive",
+    "grid",
+    "multiple"
+  ],
+  "inverse": [
+    "capital",
+    "circuit",
+    "inverse",
+    "operation"
+  ],
+  "variable": [
+    "composite",
+    "multiple",
+    "prime",
+    "variable"
+  ],
+  "expression": [
+    "equivalent",
+    "expression",
+    "multiple",
+    "timeline"
+  ],
+  "operation": [
+    "composite",
+    "expression",
+    "multiple",
+    "operation"
+  ],
+  "congruent": [
+    "congruent",
+    "perimeter",
+    "quadrilateral",
+    "symmetry"
+  ],
+  "unit": [
+    "dosage",
+    "meter",
+    "telescope",
+    "unit"
+  ],
+  "composite": [
+    "composite",
+    "multiple",
+    "prime",
+    "variable"
+  ],
+  "prime": [
+    "composite",
+    "multiple",
+    "prime",
+    "variable"
+  ],
+  "intersect": [
+    "granted",
+    "intersect",
+    "perpendicular",
+    "vertex"
+  ],
+  "probability": [
+    "foresee",
+    "forsake",
+    "gram",
+    "probability"
+  ],
+  "break the ice": [
+    "break the ice",
+    "get cold feet",
+    "keep an eye on",
+    "two peas in a pod"
+  ],
+  "piece of cake": [
+    "carry on",
+    "piece of cake",
+    "raining cats and dogs",
+    "to put it simply"
+  ],
+  "under the weather": [
+    "butterflies in my stomach",
+    "on cloud nine",
+    "so that",
+    "under the weather"
+  ],
+  "hit the books": [
+    "back to square one",
+    "burn the midnight oil",
+    "hit the books",
+    "piece of cake"
+  ],
+  "on the same page": [
+    "not only...but also",
+    "on the same page",
+    "see eye to eye",
+    "to put it simply"
+  ],
+  "cost an arm and a leg": [
+    "a blessing in disguise",
+    "burn the midnight oil",
+    "cost an arm and a leg",
+    "raining cats and dogs"
+  ],
+  "let the cat out of the bag": [
+    "a penny for your thoughts",
+    "let the cat out of the bag",
+    "spill the beans",
+    "to illustrate"
+  ],
+  "bite off more than you can chew": [
+    "actions speak louder than words",
+    "bite off more than you can chew",
+    "go the extra mile",
+    "put all your eggs in one basket"
+  ],
+  "once in a blue moon": [
+    "better late than never",
+    "not only...but also",
+    "once in a blue moon",
+    "when pigs fly"
+  ],
+  "when pigs fly": [
+    "better late than never",
+    "go over",
+    "once in a blue moon",
+    "when pigs fly"
+  ],
+  "spill the beans": [
+    "carry on",
+    "keep an eye on",
+    "let the cat out of the bag",
+    "spill the beans"
+  ],
+  "raining cats and dogs": [
+    "carry on",
+    "hit the books",
+    "piece of cake",
+    "raining cats and dogs"
+  ],
+  "butterflies in my stomach": [
+    "a penny for your thoughts",
+    "butterflies in my stomach",
+    "on cloud nine",
+    "under the weather"
+  ],
+  "the ball is in your court": [
+    "carbon dioxide",
+    "sit on the fence",
+    "take part in",
+    "the ball is in your court"
+  ],
+  "barking up the wrong tree": [
+    "barking up the wrong tree",
+    "don't judge a book by its cover",
+    "on the other hand",
+    "rather than"
+  ],
+  "hold your horses": [
+    "hold your horses",
+    "on the same page",
+    "sit on the fence",
+    "to put it simply"
+  ],
+  "two peas in a pod": [
+    "break the ice",
+    "in brief",
+    "the early bird catches the worm",
+    "two peas in a pod"
+  ],
+  "a blessing in disguise": [
+    "a blessing in disguise",
+    "a taste of your own medicine",
+    "every cloud has a silver lining",
+    "get along with"
+  ],
+  "get cold feet": [
+    "as soon as",
+    "get cold feet",
+    "go over",
+    "when pigs fly"
+  ],
+  "go the extra mile": [
+    "bite off more than you can chew",
+    "go the extra mile",
+    "on the other hand",
+    "put all your eggs in one basket"
+  ],
+  "keep an eye on": [
+    "as soon as",
+    "keep an eye on",
+    "on the same page",
+    "run out of"
+  ],
+  "the last straw": [
+    "a penny for your thoughts",
+    "get along with",
+    "practice makes perfect",
+    "the last straw"
+  ],
+  "sit on the fence": [
+    "sit on the fence",
+    "so that",
+    "the ball is in your court",
+    "under the weather"
+  ],
+  "see eye to eye": [
+    "a penny for your thoughts",
+    "get along with",
+    "on the same page",
+    "see eye to eye"
+  ],
+  "back to square one": [
+    "back to square one",
+    "go over",
+    "hit the books",
+    "the early bird catches the worm"
+  ],
+  "put all your eggs in one basket": [
+    "actions speak louder than words",
+    "come up with",
+    "on the same page",
+    "put all your eggs in one basket"
+  ],
+  "pull someone's leg": [
+    "a taste of your own medicine",
+    "break the ice",
+    "pull someone's leg",
+    "turn out"
+  ],
+  "throw in the towel": [
+    "for example",
+    "sit on the fence",
+    "throw in the towel",
+    "when pigs fly"
+  ],
+  "on cloud nine": [
+    "break the ice",
+    "butterflies in my stomach",
+    "on cloud nine",
+    "under the weather"
+  ],
+  "in hot water": [
+    "come up with",
+    "first of all",
+    "in hot water",
+    "take part in"
+  ],
+  "come up with": [
+    "barking up the wrong tree",
+    "come up with",
+    "put all your eggs in one basket",
+    "the ball is in your court"
+  ],
+  "turn out": [
+    "on the other hand",
+    "pull someone's leg",
+    "to summarize",
+    "turn out"
+  ],
+  "run out of": [
+    "carbon dioxide",
+    "go over",
+    "run out of",
+    "when pigs fly"
+  ],
+  "get along with": [
+    "a blessing in disguise",
+    "a penny for your thoughts",
+    "every cloud has a silver lining",
+    "get along with"
+  ],
+  "carry on": [
+    "carry on",
+    "keep an eye on",
+    "practice makes perfect",
+    "spill the beans"
+  ],
+  "stand for": [
+    "go over",
+    "stand for",
+    "to illustrate",
+    "when pigs fly"
+  ],
+  "take part in": [
+    "a taste of your own medicine",
+    "come up with",
+    "first of all",
+    "take part in"
+  ],
+  "go over": [
+    "go over",
+    "in hot water",
+    "the last straw",
+    "when pigs fly"
+  ],
+  "a penny for your thoughts": [
+    "a penny for your thoughts",
+    "actions speak louder than words",
+    "hit the nail on the head",
+    "to illustrate"
+  ],
+  "actions speak louder than words": [
+    "a penny for your thoughts",
+    "actions speak louder than words",
+    "hit the nail on the head",
+    "to illustrate"
+  ],
+  "every cloud has a silver lining": [
+    "a blessing in disguise",
+    "a taste of your own medicine",
+    "every cloud has a silver lining",
+    "get along with"
+  ],
+  "kill two birds with one stone": [
+    "a taste of your own medicine",
+    "actions speak louder than words",
+    "kill two birds with one stone",
+    "the ball is in your court"
+  ],
+  "better late than never": [
+    "better late than never",
+    "practice makes perfect",
+    "so that",
+    "the last straw"
+  ],
+  "practice makes perfect": [
+    "better late than never",
+    "carry on",
+    "get along with",
+    "practice makes perfect"
+  ],
+  "the early bird catches the worm": [
+    "back to square one",
+    "go over",
+    "the early bird catches the worm",
+    "two peas in a pod"
+  ],
+  "don't judge a book by its cover": [
+    "don't judge a book by its cover",
+    "put all your eggs in one basket",
+    "spill the beans",
+    "when pigs fly"
+  ],
+  "hit the nail on the head": [
+    "as soon as",
+    "hit the nail on the head",
+    "run out of",
+    "to put it simply"
+  ],
+  "a taste of your own medicine": [
+    "a blessing in disguise",
+    "a taste of your own medicine",
+    "on the same page",
+    "take part in"
+  ],
+  "burn the midnight oil": [
+    "better late than never",
+    "burn the midnight oil",
+    "hit the books",
+    "so that"
+  ],
+  "on the other hand": [
+    "barking up the wrong tree",
+    "don't judge a book by its cover",
+    "on the other hand",
+    "turn out"
+  ],
+  "subsequently": [
+    "commutative",
+    "flounce",
+    "subsequently",
+    "timeline"
+  ],
+  "for example": [
+    "first of all",
+    "for example",
+    "not only...but also",
+    "throw in the towel"
+  ],
+  "to begin with": [
+    "break the ice",
+    "first of all",
+    "the early bird catches the worm",
+    "to begin with"
+  ],
+  "above all": [
+    "above all",
+    "as soon as",
+    "rather than",
+    "stand for"
+  ],
+  "as soon as": [
+    "as soon as",
+    "hit the nail on the head",
+    "prior to",
+    "run out of"
+  ],
+  "rather than": [
+    "above all",
+    "barking up the wrong tree",
+    "rather than",
+    "when pigs fly"
+  ],
+  "so that": [
+    "carry on",
+    "go over",
+    "in brief",
+    "so that"
+  ],
+  "prior to": [
+    "as soon as",
+    "go over",
+    "prior to",
+    "run out of"
+  ],
+  "to summarize": [
+    "hit the nail on the head",
+    "soon after",
+    "to put it simply",
+    "to summarize"
+  ],
+  "first of all": [
+    "break the ice",
+    "first of all",
+    "for example",
+    "to begin with"
+  ],
+  "to illustrate": [
+    "actions speak louder than words",
+    "for example",
+    "stand for",
+    "to illustrate"
+  ],
+  "in brief": [
+    "actions speak louder than words",
+    "carry on",
+    "in brief",
+    "prior to"
+  ],
+  "soon after": [
+    "as soon as",
+    "run out of",
+    "soon after",
+    "to summarize"
+  ],
+  "not only...but also": [
+    "for example",
+    "not only...but also",
+    "on the same page",
+    "once in a blue moon"
+  ],
+  "whereas": [
+    "gregarious",
+    "parallel",
+    "perpendicular",
+    "whereas"
+  ],
+  "thus": [
+    "cell",
+    "dike",
+    "multiple",
+    "thus"
+  ],
+  "granted": [
+    "enshroud",
+    "finesse",
+    "granted",
+    "intersect"
+  ],
+  "to put it simply": [
+    "hit the nail on the head",
+    "piece of cake",
+    "to put it simply",
+    "to summarize"
+  ],
+  "dodder": [
+    "dodder",
+    "falter",
+    "flicker",
+    "ford"
+  ],
+  "dogma": [
+    "constellation",
+    "dogma",
+    "expression",
+    "granted"
+  ],
+  "doldrums": [
+    "doldrums",
+    "giddy",
+    "gnaw",
+    "governor"
+  ],
+  "dole": [
+    "dole",
+    "foresee",
+    "forsake",
+    "gram"
+  ],
+  "dolt": [
+    "dolt",
+    "forte",
+    "friction",
+    "governor"
+  ],
+  "donjon": [
+    "atmosphere",
+    "chrysalis",
+    "donjon",
+    "dungeon"
+  ],
+  "dosage": [
+    "dosage",
+    "grimace",
+    "hibernation",
+    "unit"
+  ],
+  "dote": [
+    "dote",
+    "engross",
+    "enthrall",
+    "flak"
+  ],
+  "dowel": [
+    "decompose",
+    "dowel",
+    "ecosystem",
+    "grindstone"
+  ],
+  "downpour": [
+    "downpour",
+    "flurry",
+    "gram",
+    "precipitation"
+  ],
+  "drab": [
+    "drab",
+    "dreary",
+    "grotto",
+    "symmetry"
+  ],
+  "dragnet": [
+    "dragnet",
+    "emporium",
+    "expanse",
+    "governor"
+  ],
+  "drape": [
+    "drape",
+    "droop",
+    "facet",
+    "probability"
+  ],
+  "dreary": [
+    "drab",
+    "dreary",
+    "ebony",
+    "forlorn"
+  ],
+  "drench": [
+    "dissolve",
+    "drench",
+    "enshroud",
+    "germinate"
+  ],
+  "drizzle": [
+    "downpour",
+    "drizzle",
+    "earthy",
+    "precipitation"
+  ],
+  "drone": [
+    "drone",
+    "forsake",
+    "gadget",
+    "invertebrate"
+  ],
+  "droop": [
+    "array",
+    "drape",
+    "droop",
+    "flaw"
+  ],
+  "dub": [
+    "associative",
+    "commutative",
+    "dole",
+    "dub"
+  ],
+  "dugout": [
+    "dugout",
+    "earthy",
+    "elapse",
+    "grovel"
+  ],
+  "dungeon": [
+    "donjon",
+    "dreary",
+    "dungeon",
+    "earthquake"
+  ],
+  "dye": [
+    "drab",
+    "dye",
+    "ebony",
+    "petition"
+  ],
+  "dike": [
+    "condensation",
+    "dike",
+    "fortress",
+    "girdle"
+  ],
+  "earmark": [
+    "dragnet",
+    "earmark",
+    "encyclopedia",
+    "gem"
+  ],
+  "earthy": [
+    "earthy",
+    "fallow",
+    "flank",
+    "nutrient"
+  ],
+  "eave": [
+    "eave",
+    "fringe",
+    "gable",
+    "radius"
+  ],
+  "ebony": [
+    "drab",
+    "dreary",
+    "dye",
+    "ebony"
+  ],
+  "effervescent": [
+    "effervescent",
+    "fiesta",
+    "froth",
+    "organism"
+  ],
+  "effigy": [
+    "effigy",
+    "forte",
+    "gait",
+    "governor"
+  ],
+  "egress": [
+    "egress",
+    "flounce",
+    "gait",
+    "grumble"
+  ],
+  "elapse": [
+    "barter",
+    "conductor",
+    "elapse",
+    "eyelet"
+  ],
+  "elate": [
+    "elate",
+    "frolic",
+    "gambol",
+    "photosynthesis"
+  ],
+  "elf": [
+    "centimeter",
+    "elf",
+    "enthrall",
+    "gram"
+  ],
+  "elocution": [
+    "elocution",
+    "finesse",
+    "fluent",
+    "forte"
+  ],
+  "elongate": [
+    "elongate",
+    "hackneyed",
+    "petition",
+    "photosynthesis"
+  ],
+  "elude": [
+    "array",
+    "elude",
+    "flue",
+    "gem"
+  ],
+  "emboss": [
+    "emboss",
+    "encrust",
+    "fowl",
+    "goblet"
+  ],
+  "emporium": [
+    "emporium",
+    "equivalent",
+    "industry",
+    "liter"
+  ],
+  "enamel": [
+    "enamel",
+    "friction",
+    "glaze",
+    "granted"
+  ],
+  "encore": [
+    "agriculture",
+    "encore",
+    "forte",
+    "grumble"
+  ],
+  "encrust": [
+    "emboss",
+    "encrust",
+    "enshroud",
+    "granted"
+  ],
+  "encyclopedia": [
+    "dragnet",
+    "earmark",
+    "encyclopedia",
+    "industry"
+  ],
+  "engross": [
+    "dote",
+    "drench",
+    "engross",
+    "enthrall"
+  ],
+  "enshroud": [
+    "camouflage",
+    "drench",
+    "encrust",
+    "enshroud"
+  ],
+  "enthrall": [
+    "artifact",
+    "dote",
+    "engross",
+    "enthrall"
+  ],
+  "entreat": [
+    "entreat",
+    "flak",
+    "grit",
+    "grovel"
+  ],
+  "epic": [
+    "dungeon",
+    "elf",
+    "epic",
+    "finale"
+  ],
+  "errand": [
+    "elongate",
+    "errand",
+    "migration",
+    "thus"
+  ],
+  "errant": [
+    "errant",
+    "evaporation",
+    "farce",
+    "vertical"
+  ],
+  "escarpment": [
+    "centimeter",
+    "escarpment",
+    "foothold",
+    "radius"
+  ],
+  "ethereal": [
+    "ebony",
+    "ethereal",
+    "glut",
+    "intersect"
+  ],
+  "evergreen": [
+    "evergreen",
+    "graft",
+    "greenery",
+    "insulator"
+  ],
+  "expanse": [
+    "dragnet",
+    "expanse",
+    "glade",
+    "governor"
+  ],
+  "expat": [
+    "adaptation",
+    "capital",
+    "expat",
+    "perimeter"
+  ],
+  "expel": [
+    "elate",
+    "expel",
+    "friction",
+    "monument"
+  ],
+  "eyelet": [
+    "conductor",
+    "elapse",
+    "eyelet",
+    "metamorphosis"
+  ],
+  "facet": [
+    "decompose",
+    "facet",
+    "flank",
+    "volcano"
+  ],
+  "fallow": [
+    "decompose",
+    "fallow",
+    "grueling",
+    "nutrient"
+  ],
+  "falter": [
+    "decompose",
+    "dodder",
+    "falter",
+    "flicker"
+  ],
+  "fanfare": [
+    "fanfare",
+    "fiesta",
+    "flurry",
+    "rural"
+  ],
+  "farce": [
+    "classify",
+    "farce",
+    "frolic",
+    "giddy"
+  ],
+  "feign": [
+    "dreary",
+    "emboss",
+    "feign",
+    "gloat"
+  ],
+  "festoon": [
+    "droop",
+    "electricity",
+    "facet",
+    "festoon"
+  ],
+  "fidget": [
+    "centimeter",
+    "fidget",
+    "gram",
+    "photosynthesis"
+  ],
+  "fiesta": [
+    "dye",
+    "effervescent",
+    "fanfare",
+    "fiesta"
+  ],
+  "figment": [
+    "dolt",
+    "figment",
+    "invertebrate",
+    "monument"
+  ],
+  "filly": [
+    "filly",
+    "furlong",
+    "gait",
+    "gallop"
+  ],
+  "finale": [
+    "decompose",
+    "facet",
+    "finale",
+    "forte"
+  ],
+  "finesse": [
+    "elocution",
+    "ethereal",
+    "finesse",
+    "probability"
+  ],
+  "flair": [
+    "flair",
+    "flounce",
+    "forte",
+    "grumble"
+  ],
+  "flak": [
+    "entreat",
+    "flak",
+    "fort",
+    "grit"
+  ],
+  "flank": [
+    "cell",
+    "facet",
+    "flank",
+    "volcano"
+  ],
+  "flaw": [
+    "centimeter",
+    "droop",
+    "flaw",
+    "gram"
+  ],
+  "fleece": [
+    "drape",
+    "drizzle",
+    "fleece",
+    "gleam"
+  ],
+  "flicker": [
+    "falter",
+    "flicker",
+    "flinch",
+    "gleam"
+  ],
+  "flinch": [
+    "flicker",
+    "flinch",
+    "grimace",
+    "technology"
+  ],
+  "flotsam": [
+    "encrust",
+    "ethereal",
+    "flotsam",
+    "flounce"
+  ],
+  "flounce": [
+    "flounce",
+    "gait",
+    "gambit",
+    "grumble"
+  ],
+  "flout": [
+    "associative",
+    "distributive",
+    "flout",
+    "governor"
+  ],
+  "flue": [
+    "elude",
+    "flue",
+    "fumigate",
+    "pollution"
+  ],
+  "fluent": [
+    "associative",
+    "commutative",
+    "fluent",
+    "forte"
+  ],
+  "flurry": [
+    "downpour",
+    "fanfare",
+    "flurry",
+    "renewable"
+  ],
+  "foothold": [
+    "dike",
+    "doldrums",
+    "foothold",
+    "foray"
+  ],
+  "foray": [
+    "flicker",
+    "foray",
+    "governor",
+    "thus"
+  ],
+  "ford": [
+    "diameter",
+    "dodder",
+    "ford",
+    "sediment"
+  ],
+  "forlorn": [
+    "dreary",
+    "earthy",
+    "flank",
+    "forlorn"
+  ],
+  "forsake": [
+    "commutative",
+    "dole",
+    "dub",
+    "forsake"
+  ],
+  "fort": [
+    "cell",
+    "flak",
+    "fort",
+    "monument"
+  ],
+  "forte": [
+    "elocution",
+    "fluent",
+    "forte",
+    "governor"
+  ],
+  "fortress": [
+    "dike",
+    "dragnet",
+    "enshroud",
+    "fortress"
+  ],
+  "fowl": [
+    "barter",
+    "dike",
+    "dye",
+    "fowl"
+  ],
+  "foyer": [
+    "cell",
+    "fort",
+    "foyer",
+    "monument"
+  ],
+  "frantic": [
+    "frantic",
+    "girdle",
+    "gregarious",
+    "rotation"
+  ],
+  "frigate": [
+    "dye",
+    "elapsed",
+    "frigate",
+    "unit"
+  ],
+  "fringe": [
+    "eave",
+    "fringe",
+    "probability",
+    "radius"
+  ],
+  "frolic": [
+    "farce",
+    "frolic",
+    "gambol",
+    "girdle"
+  ],
+  "froth": [
+    "dissolve",
+    "effervescent",
+    "froth",
+    "mass"
+  ],
+  "fulcrum": [
+    "fulcrum",
+    "granted",
+    "intersect",
+    "vertex"
+  ],
+  "foresee": [
+    "foresee",
+    "granted",
+    "probability",
+    "variable"
+  ],
+  "fumigate": [
+    "evaporation",
+    "flue",
+    "fumigate",
+    "photosynthesis"
+  ],
+  "furlong": [
+    "furlong",
+    "kilogram",
+    "kilometer",
+    "meter"
+  ],
+  "furor": [
+    "array",
+    "dogma",
+    "dowel",
+    "furor"
+  ],
+  "gable": [
+    "eave",
+    "friction",
+    "gable",
+    "vertex"
+  ],
+  "gadget": [
+    "gadget",
+    "glitch",
+    "microscope",
+    "telescope"
+  ],
+  "gaffe": [
+    "fowl",
+    "gaffe",
+    "gambit",
+    "glitch"
+  ],
+  "gait": [
+    "gait",
+    "invertebrate",
+    "organism",
+    "vertebrate"
+  ],
+  "gallop": [
+    "flout",
+    "frolic",
+    "gait",
+    "gallop"
+  ],
+  "gambit": [
+    "flounce",
+    "gadget",
+    "gambit",
+    "glitch"
+  ],
+  "gambol": [
+    "elate",
+    "frolic",
+    "gambol",
+    "girdle"
+  ],
+  "garb": [
+    "fowl",
+    "gaffe",
+    "garb",
+    "glitch"
+  ],
+  "garland": [
+    "droop",
+    "dye",
+    "garland",
+    "gem"
+  ],
+  "garner": [
+    "facet",
+    "garner",
+    "gram",
+    "probability"
+  ],
+  "gem": [
+    "earmark",
+    "effigy",
+    "gem",
+    "hamlet"
+  ],
+  "genteel": [
+    "capital",
+    "circuit",
+    "elapsed",
+    "genteel"
+  ],
+  "ghastly": [
+    "capital",
+    "circuit",
+    "dragnet",
+    "ghastly"
+  ],
+  "giddy": [
+    "elate",
+    "farce",
+    "filly",
+    "giddy"
+  ],
+  "girdle": [
+    "encore",
+    "girdle",
+    "gregarious",
+    "rotation"
+  ],
+  "glade": [
+    "dragnet",
+    "earthy",
+    "expanse",
+    "glade"
+  ],
+  "glaze": [
+    "enamel",
+    "glaze",
+    "nutrient",
+    "photosynthesis"
+  ],
+  "gleam": [
+    "drizzle",
+    "flicker",
+    "gait",
+    "gleam"
+  ],
+  "glen": [
+    "elude",
+    "enshroud",
+    "flank",
+    "glen"
+  ],
+  "glimmer": [
+    "circuit",
+    "glimmer",
+    "glint",
+    "intersect"
+  ],
+  "glint": [
+    "glint",
+    "hamlet",
+    "intersect",
+    "organism"
+  ],
+  "glitch": [
+    "drone",
+    "gadget",
+    "gambit",
+    "glitch"
+  ],
+  "gloat": [
+    "dreary",
+    "feign",
+    "gloat",
+    "photosynthesis"
+  ],
+  "glut": [
+    "flaw",
+    "glut",
+    "liter",
+    "mass"
+  ],
+  "gnaw": [
+    "germinate",
+    "gnaw",
+    "services",
+    "treaty"
+  ],
+  "goblet": [
+    "foresee",
+    "goblet",
+    "meter",
+    "urban"
+  ],
+  "gouge": [
+    "array",
+    "dogma",
+    "dowel",
+    "gouge"
+  ],
+  "graft": [
+    "glimmer",
+    "graft",
+    "organism",
+    "pollination"
+  ],
+  "graze": [
+    "expat",
+    "gambol",
+    "glut",
+    "graze"
+  ],
+  "greenery": [
+    "decompose",
+    "evergreen",
+    "greenery",
+    "photosynthesis"
+  ],
+  "gregarious": [
+    "frolic",
+    "girdle",
+    "gregarious",
+    "technology"
+  ],
+  "grid": [
+    "grid",
+    "parallel",
+    "perpendicular",
+    "pollination"
+  ],
+  "grimace": [
+    "flinch",
+    "grimace",
+    "microscope",
+    "symmetry"
+  ],
+  "grindstone": [
+    "dowel",
+    "dye",
+    "grindstone",
+    "technology"
+  ],
+  "grit": [
+    "flak",
+    "grit",
+    "hamlet",
+    "sediment"
+  ],
+  "grotto": [
+    "drab",
+    "glen",
+    "grotto",
+    "hackneyed"
+  ],
+  "grovel": [
+    "earthquake",
+    "earthy",
+    "entreat",
+    "grovel"
+  ],
+  "grueling": [
+    "encrust",
+    "forsake",
+    "granted",
+    "grueling"
+  ],
+  "grumble": [
+    "flounce",
+    "glade",
+    "glen",
+    "grumble"
+  ],
+  "gulp": [
+    "facet",
+    "gulp",
+    "nonrenewable",
+    "probability"
+  ],
+  "hackneyed": [
+    "dye",
+    "elongate",
+    "hackneyed",
+    "invertebrate"
+  ],
+  "hallow": [
+    "elongate",
+    "hallow",
+    "nonrenewable",
+    "photosynthesis"
+  ],
+  "hamlet": [
+    "centimeter",
+    "flaw",
+    "gram",
+    "hamlet"
+  ]
+}

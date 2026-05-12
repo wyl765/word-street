@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Word Street</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --primary: #6C63FF;
+  --primary-light: #8B83FF;
+  --success: #4CAF50;
+  --danger: #FF5252;
+  --bg: #F0F2FF;
+  --card: #FFFFFF;
+  --text: #2D3436;
+  --text-light: #636E72;
+  --shadow: 0 4px 20px rgba(108, 99, 255, 0.15);
+  --radius: 16px;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.container {
+  width: 100%;
+  max-width: 480px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 { font-size: 2.2rem; color: var(--primary); margin-bottom: 8px; }
+.subtitle { color: var(--text-light); font-size: 1rem; margin-bottom: 24px; }
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 32px 24px;
+  width: 100%;
+  animation: fadeIn 0.3s ease;
+}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pop { 0% { transform: scale(1); } 50% { transform: scale(1.03); } 100% { transform: scale(1); } }
+@keyframes shake { 0%,100% { transform: translateX(0); } 20%,60% { transform: translateX(-6px); } 40%,80% { transform: translateX(6px); } }
+.label { font-size: 0.85rem; font-weight: 600; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+select, .btn {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-family: inherit;
+  border: 2px solid #E8E8FF;
+  background: #FAFAFE;
+  color: var(--text);
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+select:focus, .btn:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(108,99,255,0.15); }
+.btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  min-height: 52px;
+  transition: background 0.2s, transform 0.1s;
+}
+.btn:active { transform: scale(0.97); }
+.btn:hover { background: var(--primary-light); }
+.btn-secondary { background: transparent; color: var(--primary); border: 2px solid var(--primary); }
+.btn-secondary:hover { background: rgba(108,99,255,0.08); }
+.group { margin-bottom: 18px; }
+/* Question screen */
+.score-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+.score-bar .score { font-weight: 700; color: var(--primary); font-size: 1.1rem; }
+.progress-track { width: 100%; height: 6px; background: #E8E8FF; border-radius: 3px; margin-bottom: 20px; }
+.progress-fill { height: 100%; background: var(--primary); border-radius: 3px; transition: width 0.4s ease; }
+.question-label { font-size: 0.8rem; color: var(--primary); font-weight: 600; text-transform: uppercase; margin-bottom: 6px; }
+.question-text { font-size: 1.25rem; font-weight: 600; line-height: 1.5; margin-bottom: 24px; min-height: 60px; }
+.question-text .blank { background: #E8E8FF; border-radius: 6px; padding: 2px 12px; }
+.options { display: flex; flex-direction: column; gap: 12px; }
+.option-btn {
+  width: 100%;
+  min-height: 52px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: 2px solid #E8E8FF;
+  background: #FAFAFE;
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.2s, background 0.2s, transform 0.1s;
+}
+.option-btn:active { transform: scale(0.97); }
+.option-btn:hover { border-color: var(--primary); background: #F5F4FF; }
+.option-btn.correct { border-color: var(--success); background: #E8F5E9; color: #2E7D32; animation: pop 0.3s ease; }
+.option-btn.wrong { border-color: var(--danger); background: #FFEBEE; color: #C62828; animation: shake 0.4s ease; }
+.option-btn.disabled { pointer-events: none; opacity: 0.6; }
+.option-btn.disabled.correct { opacity: 1; }
+/* Results */
+.results-emoji { font-size: 4rem; margin-bottom: 12px; }
+.results-score { font-size: 2rem; font-weight: 700; color: var(--primary); margin-bottom: 4px; }
+.results-label { color: var(--text-light); margin-bottom: 24px; }
+.results-msg { font-size: 1.1rem; margin-bottom: 24px; font-weight: 500; }
+.text-center { text-align: center; }
+/* Select arrow */
+.select-wrap { position: relative; }
+.select-wrap::after { content: '▾'; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); color: var(--text-light); pointer-events: none; font-size: 1.2rem; }
+</style>
+</head>
+<body>
+<div class="container" id="app"></div>
+
+<script src="words-level1.js"></script>
+<script src="words-level2.js"></script>
+<script src="words-level2a.js"></script>
+<script src="words-level2b.js"></script>
+<script src="words-level2c.js"></script>
+<script src="words-level2d.js"></script>
+<script src="words-level3a.js"></script>
+<script src="words-level3b.js"></script>
+<script src="words-level3c.js"></script>
+<script src="words-level4a.js"></script>
+<script src="words-level4b.js"></script>
+<script src="words-level4c.js"></script>
+<script src="words-level5a.js"></script>
+<script src="words-level5b.js"></script>
+<script src="words-level5c.js"></script>
+<script src="words-level5d.js"></script>
+<script>
+(function() {
+  const app = document.getElementById('app');
+  const TOTAL_QUESTIONS = 10;
+
+  // Gather all word banks
+  const allBanks = {
+    1: [...(typeof LEVEL1_BANK!=='undefined'?LEVEL1_BANK:[])],
+    2: [
+      ...(typeof LEVEL2_BANK!=='undefined'?LEVEL2_BANK:[]),
+      ...(typeof LEVEL2A_BANK!=='undefined'?LEVEL2A_BANK:[]),
+      ...(typeof LEVEL2B_BANK!=='undefined'?LEVEL2B_BANK:[]),
+      ...(typeof LEVEL2C_BANK!=='undefined'?LEVEL2C_BANK:[]),
+      ...(typeof LEVEL2D_BANK!=='undefined'?LEVEL2D_BANK:[])
+    ],
+    3: [
+      ...(typeof LEVEL3A_BANK!=='undefined'?LEVEL3A_BANK:[]),
+      ...(typeof LEVEL3B_BANK!=='undefined'?LEVEL3B_BANK:[]),
+      ...(typeof LEVEL3C_BANK!=='undefined'?LEVEL3C_BANK:[])
+    ],
+    4: [
+      ...(typeof LEVEL4A_BANK!=='undefined'?LEVEL4A_BANK:[]),
+      ...(typeof LEVEL4B_BANK!=='undefined'?LEVEL4B_BANK:[]),
+      ...(typeof LEVEL4C_BANK!=='undefined'?LEVEL4C_BANK:[])
+    ],
+    5: [
+      ...(typeof LEVEL5A_BANK!=='undefined'?LEVEL5A_BANK:[]),
+      ...(typeof LEVEL5B_BANK!=='undefined'?LEVEL5B_BANK:[]),
+      ...(typeof LEVEL5C_BANK!=='undefined'?LEVEL5C_BANK:[]),
+      ...(typeof LEVEL5D_BANK!=='undefined'?LEVEL5D_BANK:[])
+    ]
+  };
+
+  function getPool(level) {
+    if (level === 'all') return Object.values(allBanks).flat();
+    return allBanks[level] || [];
+  }
+
+  function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function pick(arr, n, exclude) {
+    const filtered = arr.filter(w => w !== exclude);
+    return shuffle(filtered).slice(0, n);
+  }
+
+  // State
+  let state = { level: '1', mode: 'definition', questions: [], current: 0, score: 0 };
+
+  function generateQuestions() {
+    const pool = getPool(state.level);
+    if (pool.length < 4) return [];
+    const selected = shuffle(pool).slice(0, TOTAL_QUESTIONS);
+    return selected.map(word => {
+      const distractors = pick(pool, 3, word);
+      return { word, distractors };
+    });
+  }
+
+  function renderStart() {
+    app.innerHTML = `
+      <h1>📚 Word Street</h1>
+      <p class="subtitle">Learn vocabulary the fun way!</p>
+      <div class="card">
+        <div class="group">
+          <div class="label">Choose Level</div>
+          <div class="select-wrap"><select id="level">
+            <option value="1">Level 1 — Beginner</option>
+            <option value="2">Level 2 — Elementary</option>
+            <option value="3">Level 3 — Intermediate</option>
+            <option value="4">Level 4 — Advanced</option>
+            <option value="5">Level 5 — Expert</option>
+            <option value="all">All Levels</option>
+          </select></div>
+        </div>
+        <div class="group">
+          <div class="label">Game Mode</div>
+          <div class="select-wrap"><select id="mode">
+            <option value="definition">📖 Definition Match</option>
+            <option value="example">✏️ Example Fill</option>
+            <option value="image">🖼️ Image Clue</option>
+            <option value="reverse">🔄 Reverse Match</option>
+          </select></div>
+        </div>
+        <button class="btn" id="startBtn">Let's Go! 🚀</button>
+      </div>
+    `;
+    document.getElementById('startBtn').onclick = () => {
+      state.level = document.getElementById('level').value;
+      state.mode = document.getElementById('mode').value;
+      state.current = 0;
+      state.score = 0;
+      state.questions = generateQuestions();
+      if (state.questions.length < TOTAL_QUESTIONS) {
+        alert('Not enough words in this level. Try "All Levels".');
+        return;
+      }
+      renderQuestion();
+    };
+  }
+
+  function getQuestionData(q) {
+    const { word, distractors } = q;
+    const mode = state.mode;
+    let prompt, correctAnswer, options;
+
+    if (mode === 'definition') {
+      prompt = word.definition;
+      correctAnswer = word.word;
+      options = shuffle([word.word, ...distractors.map(d => d.word)]);
+    } else if (mode === 'example') {
+      const regex = new RegExp(word.word.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'gi');
+      prompt = word.example.replace(regex, '______');
+      correctAnswer = word.word;
+      options = shuffle([word.word, ...distractors.map(d => d.word)]);
+    } else if (mode === 'image') {
+      prompt = '🖼️ ' + word.imageKeyword;
+      correctAnswer = word.word;
+      options = shuffle([word.word, ...distractors.map(d => d.word)]);
+    } else { // reverse
+      prompt = word.word;
+      correctAnswer = word.definition;
+      options = shuffle([word.definition, ...distractors.map(d => d.definition)]);
+    }
+    return { prompt, correctAnswer, options };
+  }
+
+  function renderQuestion() {
+    const q = state.questions[state.current];
+    const { prompt, correctAnswer, options } = getQuestionData(q);
+    const modeLabels = { definition: '📖 What word matches this definition?', example: '✏️ Fill in the blank', image: '🖼️ What word does this clue describe?', reverse: '🔄 Pick the correct definition' };
+    const pct = (state.current / TOTAL_QUESTIONS) * 100;
+
+    app.innerHTML = `
+      <div class="card" style="animation:fadeIn 0.3s ease">
+        <div class="score-bar">
+          <span>Q${state.current + 1}/${TOTAL_QUESTIONS}</span>
+          <span class="score">${state.score} ✓</span>
+        </div>
+        <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
+        <div class="question-label">${modeLabels[state.mode]}</div>
+        <div class="question-text">${state.mode === 'example' ? prompt.replace('______', '<span class="blank">______</span>') : prompt}</div>
+        <div class="options">
+          ${options.map((o, i) => `<button class="option-btn" data-answer="${encodeURIComponent(o)}">${o}</button>`).join('')}
+        </div>
+      </div>
+    `;
+
+    const btns = app.querySelectorAll('.option-btn');
+    btns.forEach(btn => {
+      btn.onclick = () => {
+        const answer = decodeURIComponent(btn.dataset.answer);
+        const isCorrect = answer === correctAnswer;
+        if (isCorrect) { state.score++; btn.classList.add('correct'); }
+        else { btn.classList.add('wrong'); btns.forEach(b => { if (decodeURIComponent(b.dataset.answer) === correctAnswer) b.classList.add('correct'); }); }
+        btns.forEach(b => b.classList.add('disabled'));
+        setTimeout(() => {
+          state.current++;
+          if (state.current >= TOTAL_QUESTIONS) renderResults();
+          else renderQuestion();
+        }, isCorrect ? 600 : 1200);
+      };
+    });
+  }
+
+  function renderResults() {
+    const pct = Math.round((state.score / TOTAL_QUESTIONS) * 100);
+    let emoji = '🌟', msg = 'Amazing! You\'re a word wizard!';
+    if (pct < 40) { emoji = '💪'; msg = 'Keep practicing — you\'ll get there!'; }
+    else if (pct < 70) { emoji = '👍'; msg = 'Good effort! Try again to improve!'; }
+    else if (pct < 100) { emoji = '🎉'; msg = 'Great job! Almost perfect!'; }
+
+    app.innerHTML = `
+      <div class="card text-center" style="animation:fadeIn 0.3s ease">
+        <div class="results-emoji">${emoji}</div>
+        <div class="results-score">${state.score} / ${TOTAL_QUESTIONS}</div>
+        <div class="results-label">${pct}% correct</div>
+        <div class="results-msg">${msg}</div>
+        <button class="btn" id="againBtn">Play Again 🔁</button>
+        <button class="btn btn-secondary" id="homeBtn" style="margin-top:12px">Change Settings ⚙️</button>
+      </div>
+    `;
+    document.getElementById('againBtn').onclick = () => {
+      state.current = 0; state.score = 0;
+      state.questions = generateQuestions();
+      renderQuestion();
+    };
+    document.getElementById('homeBtn').onclick = renderStart;
+  }
+
+  renderStart();
+})();
+</script>
+</body>
+</html>
