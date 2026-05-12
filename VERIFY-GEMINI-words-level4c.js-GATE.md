@@ -1,347 +1,345 @@
-# VERIFY-GEMINI-words-level4c.js-GATE
-
-- **undertake**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **unfold**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **universal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **vegetation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **verify**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **versus**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **veto**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **via**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **vibrate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **volatile**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **wage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **withstand**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **abstract**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **academy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **access**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **adjacent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **affiliate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **agenda**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **aggregate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **agitate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **algorithm**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **allegiance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **allot**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **ally**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **altitude**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **anchor**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **anecdote**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **anonymous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **arbitrary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **archive**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **articulate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **aspect**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **assault**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **assembly**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **attain**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **autonomous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **backdrop**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **barren**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **battalion**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **benchmark**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **beneficiary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **bolster**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **breach**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **brochure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **bureaucracy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **calibrate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **captivate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **catalyst**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **catastrophe**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **censor**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **chancellor**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **chronicle**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **coalition**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **cognitive**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **coherent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **collaborate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **commemorate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **commodity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **compatible**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **conceal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **concede**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **confederation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **congregation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **consecutive**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **consul**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **continental**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **contingent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **convergence**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **correlation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **credibility**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **crossroads**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **cumulus**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **curator**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **cylinder**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **demographic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **denounce**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **deploy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **depot**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **deputy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **descendant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **detain**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **deter**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **differentiate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **diligent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **diplomacy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **dire**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **discourse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **discretion**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **disperse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **disposition**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **disrupt**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **dissent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **doctrine**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **dwelling**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **dynasty**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **electrode**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **eloquent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **embassy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **encompass**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **endorse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **envision**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **epidemic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **equilibrium**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **escalate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **espionage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **ethnic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **evacuate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **exert**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **exile**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **expenditure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **faction**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **fluctuation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **forfeit**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **formidable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **fortify**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **fraud**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **frugal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **garrison**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **gazette**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **geologist**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **gorge**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **gradient**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **grapple**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **grassland**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **grievance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **gross**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **humanitarian**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **ignite**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **impeach**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **imperial**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **incidence**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **indigenous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **infrastructure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **inject**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **innate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **innovate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **inoculate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **input**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **inscription**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **insignificant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **intact**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **interim**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **intersection**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **intimate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **intrepid**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **intrinsic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **inventory**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **irrational**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **isle**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **jargon**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **judicial**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **jurisdiction**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **juvenile**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **kinetic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **lapse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **legislation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **liaison**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **lucrative**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **magistrate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **manuscript**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **maritime**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **meander**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **mediate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **memoir**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **merchandise**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **metropolitan**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **militant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **militia**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **millennium**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **mobilize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **monarchy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **monetary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **monopolize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **morale**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **moratorium**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **mortgage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **mutiny**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **narrate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **nationalism**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **niche**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **nomenclature**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **nomadic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **nonpartisan**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **notorious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **novice**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **nullify**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **obscure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **obstruct**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **offset**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **omit**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **onset**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **opaque**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **optimize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **ordinance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **oscillate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **outbreak**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **outskirts**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **overhaul**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **oversight**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **overt**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **paradigm**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **paradox**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **parliament**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **partisan**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **patrimony**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **patronage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **pedagogy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **penal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **per capita**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **perennial**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **periphery**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **permeable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **perpetual**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **persecute**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **persona**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **pertinent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **pervasive**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **petroleum**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **philanthropy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **pivotal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **plausible**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **plurality**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **posterity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **pragmatic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **precede**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **precedent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **predominant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **preface**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **procurement**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **prodigy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **proficient**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **proliferate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **propaganda**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **prosecute**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **prospectus**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **protocol**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **province**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **proximity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **prudent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **quarantine**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **quorum**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **ratify**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **ration**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **recess**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **reconcile**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **referendum**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **reimburse**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **renaissance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **replenish**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **repository**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **repress**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **reproach**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **repudiate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **requisite**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **reservoir**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **residual**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **resilient**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **resonance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **restitution**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **retract**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **retrospect**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **rhetoric**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **rigorous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **roster**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **rubric**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **rupture**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **sanitary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **scaffold**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **segregation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **seismic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **seminar**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **sentiment**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **skeptic**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **solidarity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **solitary**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **sovereignty**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **spontaneous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **stagnant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **stimulus**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **stipulate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **stratum**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **subsistence**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **substantiate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **suffrage**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **superfluous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **suppress**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **surveillance**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **sustainable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **tariff**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **taxonomy**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **tenure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **testament**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **theorem**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **abjure**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **accretion**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **adjudicate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **adulterate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **aggrandize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **apotheosis**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **approbation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **arrogate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **atavism**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **bellwether**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **bifurcate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **bowdlerize**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **bromide**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **cadence**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **cabal**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **canard**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **capitulation**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **celerity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **cogitate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **collude**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **conflate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **consanguinity**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **contiguous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **countermand**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **deleterious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **diatribe**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **efficacious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **excoriate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **exigent**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **expurgate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **extirpate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **fatuous**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **fecund**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **fulminate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **gainsay**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **gerrymandering**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **impecunious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **ineluctable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **inimical**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **inscrutable**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **internecine**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **malfeasant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **obdurate**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **opprobrium**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **palimpsest**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **tendentious**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **termagant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **trenchant**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **nugatory**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-- **panegyric**: PASS: L9(Clear visual), L10(Accurate fact), L11(Primary meaning), L12(Game ready)
-
-
+| Word | L9: imageKeyword | L10: Definition Facts | L11: Multiple Meanings | L12: Game Compatibility | Status |
+|---|---|---|---|---|---|
+| undertake | Valid | Accurate | Most common sense used | Compatible | PASS |
+| unfold | Valid | Accurate | Most common sense used | Compatible | PASS |
+| universal | Valid | Accurate | Most common sense used | Compatible | PASS |
+| vegetation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| verify | Valid | Accurate | Most common sense used | Compatible | PASS |
+| versus | Valid | Accurate | Most common sense used | Compatible | PASS |
+| veto | Valid | Accurate | Most common sense used | Compatible | PASS |
+| via | Valid | Accurate | Most common sense used | Compatible | PASS |
+| vibrate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| volatile | Valid | Accurate | Most common sense used | Compatible | PASS |
+| wage | Valid | Accurate | Most common sense used | Compatible | PASS |
+| withstand | Valid | Accurate | Most common sense used | Compatible | PASS |
+| abstract | Valid | Accurate | Most common sense used | Compatible | PASS |
+| academy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| access | Valid | Accurate | Most common sense used | Compatible | PASS |
+| adjacent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| affiliate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| agenda | Valid | Accurate | Most common sense used | Compatible | PASS |
+| aggregate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| agitate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| algorithm | Valid | Accurate | Most common sense used | Compatible | PASS |
+| allegiance | Valid | Accurate | Most common sense used | Compatible | PASS |
+| allot | Valid | Accurate | Most common sense used | Compatible | PASS |
+| ally | Valid | Accurate | Most common sense used | Compatible | PASS |
+| altitude | Valid | Accurate | Most common sense used | Compatible | PASS |
+| anchor | Valid | Accurate | Most common sense used | Compatible | PASS |
+| anecdote | Valid | Accurate | Most common sense used | Compatible | PASS |
+| anonymous | Valid | Accurate | Most common sense used | Compatible | PASS |
+| arbitrary | Valid | Accurate | Most common sense used | Compatible | PASS |
+| archive | Valid | Accurate | Most common sense used | Compatible | PASS |
+| articulate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| aspect | Valid | Accurate | Most common sense used | Compatible | PASS |
+| assault | Valid | Accurate | Most common sense used | Compatible | PASS |
+| assembly | Valid | Accurate | Most common sense used | Compatible | PASS |
+| attain | Valid | Accurate | Most common sense used | Compatible | PASS |
+| autonomous | Valid | Accurate | Most common sense used | Compatible | PASS |
+| backdrop | Valid | Accurate | Most common sense used | Compatible | PASS |
+| barren | Valid | Accurate | Most common sense used | Compatible | PASS |
+| battalion | Valid | Accurate | Most common sense used | Compatible | PASS |
+| benchmark | Valid | Accurate | Most common sense used | Compatible | PASS |
+| beneficiary | Valid | Accurate | Most common sense used | Compatible | PASS |
+| bolster | Valid | Accurate | Most common sense used | Compatible | PASS |
+| breach | Valid | Accurate | Most common sense used | Compatible | PASS |
+| brochure | Valid | Accurate | Most common sense used | Compatible | PASS |
+| bureaucracy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| calibrate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| captivate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| catalyst | Valid | Accurate | Most common sense used | Compatible | PASS |
+| catastrophe | Valid | Accurate | Most common sense used | Compatible | PASS |
+| censor | Valid | Accurate | Most common sense used | Compatible | PASS |
+| chancellor | Valid | Accurate | Most common sense used | Compatible | PASS |
+| chronicle | Valid | Accurate | Most common sense used | Compatible | PASS |
+| coalition | Valid | Accurate | Most common sense used | Compatible | PASS |
+| cognitive | Valid | Accurate | Most common sense used | Compatible | PASS |
+| coherent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| collaborate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| commemorate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| commodity | Valid | Accurate | Most common sense used | Compatible | PASS |
+| compatible | Valid | Accurate | Most common sense used | Compatible | PASS |
+| conceal | Valid | Accurate | Most common sense used | Compatible | PASS |
+| concede | Valid | Accurate | Most common sense used | Compatible | PASS |
+| confederation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| congregation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| consecutive | Valid | Accurate | Most common sense used | Compatible | PASS |
+| consul | Valid | Accurate | Most common sense used | Compatible | PASS |
+| continental | Valid | Accurate | Most common sense used | Compatible | PASS |
+| contingent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| convergence | Valid | Accurate | Most common sense used | Compatible | PASS |
+| correlation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| credibility | Valid | Accurate | Most common sense used | Compatible | PASS |
+| crossroads | Valid | Accurate | Most common sense used | Compatible | PASS |
+| cumulus | Valid | Accurate | Most common sense used | Compatible | PASS |
+| curator | Valid | Accurate | Most common sense used | Compatible | PASS |
+| cylinder | Valid | Accurate | Most common sense used | Compatible | PASS |
+| demographic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| denounce | Valid | Accurate | Most common sense used | Compatible | PASS |
+| deploy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| depot | Valid | Accurate | Most common sense used | Compatible | PASS |
+| deputy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| descendant | Valid | Accurate | Most common sense used | Compatible | PASS |
+| detain | Valid | Accurate | Most common sense used | Compatible | PASS |
+| deter | Valid | Accurate | Most common sense used | Compatible | PASS |
+| differentiate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| diligent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| diplomacy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| dire | Valid | Accurate | Most common sense used | Compatible | PASS |
+| discourse | Valid | Accurate | Most common sense used | Compatible | PASS |
+| discretion | Valid | Accurate | Most common sense used | Compatible | PASS |
+| disperse | Valid | Accurate | Most common sense used | Compatible | PASS |
+| disposition | Valid | Accurate | Most common sense used | Compatible | PASS |
+| disrupt | Valid | Accurate | Most common sense used | Compatible | PASS |
+| dissent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| doctrine | Valid | Accurate | Most common sense used | Compatible | PASS |
+| dwelling | Valid | Accurate | Most common sense used | Compatible | PASS |
+| dynasty | Valid | Accurate | Most common sense used | Compatible | PASS |
+| electrode | Valid | Accurate | Most common sense used | Compatible | PASS |
+| eloquent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| embassy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| encompass | Valid | Accurate | Most common sense used | Compatible | PASS |
+| endorse | Valid | Accurate | Most common sense used | Compatible | PASS |
+| envision | Valid | Accurate | Most common sense used | Compatible | PASS |
+| epidemic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| equilibrium | Valid | Accurate | Most common sense used | Compatible | PASS |
+| escalate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| espionage | Valid | Accurate | Most common sense used | Compatible | PASS |
+| ethnic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| evacuate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| exert | Valid | Accurate | Most common sense used | Compatible | PASS |
+| exile | Valid | Accurate | Most common sense used | Compatible | PASS |
+| expenditure | Valid | Accurate | Most common sense used | Compatible | PASS |
+| faction | Valid | Accurate | Most common sense used | Compatible | PASS |
+| fluctuation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| forfeit | Valid | Accurate | Most common sense used | Compatible | PASS |
+| formidable | Valid | Accurate | Most common sense used | Compatible | PASS |
+| fortify | Valid | Accurate | Most common sense used | Compatible | PASS |
+| fraud | Valid | Accurate | Most common sense used | Compatible | PASS |
+| frugal | Valid | Accurate | Most common sense used | Compatible | PASS |
+| garrison | Valid | Accurate | Most common sense used | Compatible | PASS |
+| gazette | Valid | Accurate | Most common sense used | Compatible | PASS |
+| geologist | Valid | Accurate | Most common sense used | Compatible | PASS |
+| gorge | Valid | Accurate | Most common sense used | Compatible | PASS |
+| gradient | Valid | Accurate | Most common sense used | Compatible | PASS |
+| grapple | Valid | Accurate | Most common sense used | Compatible | PASS |
+| grassland | Valid | Accurate | Most common sense used | Compatible | PASS |
+| grievance | Valid | Accurate | Most common sense used | Compatible | PASS |
+| gross | Valid | Accurate | Most common sense used | Compatible | PASS |
+| humanitarian | Valid | Accurate | Most common sense used | Compatible | PASS |
+| ignite | Valid | Accurate | Most common sense used | Compatible | PASS |
+| impeach | Valid | Accurate | Most common sense used | Compatible | PASS |
+| imperial | Valid | Accurate | Most common sense used | Compatible | PASS |
+| incidence | Valid | Accurate | Most common sense used | Compatible | PASS |
+| indigenous | Valid | Accurate | Most common sense used | Compatible | PASS |
+| infrastructure | Valid | Accurate | Most common sense used | Compatible | PASS |
+| inject | Valid | Accurate | Most common sense used | Compatible | PASS |
+| innate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| innovate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| inoculate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| input | Valid | Accurate | Most common sense used | Compatible | PASS |
+| inscription | Valid | Accurate | Most common sense used | Compatible | PASS |
+| insignificant | Valid | Accurate | Most common sense used | Compatible | PASS |
+| intact | Valid | Accurate | Most common sense used | Compatible | PASS |
+| interim | Valid | Accurate | Most common sense used | Compatible | PASS |
+| intersection | Valid | Accurate | Most common sense used | Compatible | PASS |
+| intimate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| intrepid | Valid | Accurate | Most common sense used | Compatible | PASS |
+| intrinsic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| inventory | Valid | Accurate | Most common sense used | Compatible | PASS |
+| irrational | Valid | Accurate | Most common sense used | Compatible | PASS |
+| isle | Valid | Accurate | Most common sense used | Compatible | PASS |
+| jargon | Valid | Accurate | Most common sense used | Compatible | PASS |
+| judicial | Valid | Accurate | Most common sense used | Compatible | PASS |
+| jurisdiction | Valid | Accurate | Most common sense used | Compatible | PASS |
+| juvenile | Valid | Accurate | Most common sense used | Compatible | PASS |
+| kinetic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| lapse | Valid | Accurate | Most common sense used | Compatible | PASS |
+| legislation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| liaison | Valid | Accurate | Most common sense used | Compatible | PASS |
+| lucrative | Valid | Accurate | Most common sense used | Compatible | PASS |
+| magistrate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| manuscript | Valid | Accurate | Most common sense used | Compatible | PASS |
+| maritime | Valid | Accurate | Most common sense used | Compatible | PASS |
+| meander | Valid | Accurate | Most common sense used | Compatible | PASS |
+| mediate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| memoir | Valid | Accurate | Most common sense used | Compatible | PASS |
+| merchandise | Valid | Accurate | Most common sense used | Compatible | PASS |
+| metropolitan | Valid | Accurate | Most common sense used | Compatible | PASS |
+| militant | Valid | Accurate | Most common sense used | Compatible | PASS |
+| militia | Valid | Accurate | Most common sense used | Compatible | PASS |
+| millennium | Valid | Accurate | Most common sense used | Compatible | PASS |
+| mobilize | Valid | Accurate | Most common sense used | Compatible | PASS |
+| monarchy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| monetary | Valid | Accurate | Most common sense used | Compatible | PASS |
+| monopolize | Valid | Accurate | Most common sense used | Compatible | PASS |
+| morale | Valid | Accurate | Most common sense used | Compatible | PASS |
+| moratorium | Valid | Accurate | Most common sense used | Compatible | PASS |
+| mortgage | Valid | Accurate | Most common sense used | Compatible | PASS |
+| mutiny | Valid | Accurate | Most common sense used | Compatible | PASS |
+| narrate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| nationalism | Valid | Accurate | Most common sense used | Compatible | PASS |
+| niche | Valid | Accurate | Most common sense used | Compatible | PASS |
+| nomenclature | Valid | Accurate | Most common sense used | Compatible | PASS |
+| nomadic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| nonpartisan | Valid | Accurate | Most common sense used | Compatible | PASS |
+| notorious | Valid | Accurate | Most common sense used | Compatible | PASS |
+| novice | Valid | Accurate | Most common sense used | Compatible | PASS |
+| nullify | Valid | Accurate | Most common sense used | Compatible | PASS |
+| obscure | Valid | Accurate | Most common sense used | Compatible | PASS |
+| obstruct | Valid | Accurate | Most common sense used | Compatible | PASS |
+| offset | Valid | Accurate | Most common sense used | Compatible | PASS |
+| omit | Valid | Accurate | Most common sense used | Compatible | PASS |
+| onset | Valid | Accurate | Most common sense used | Compatible | PASS |
+| opaque | Valid | Accurate | Most common sense used | Compatible | PASS |
+| optimize | Valid | Accurate | Most common sense used | Compatible | PASS |
+| ordinance | Valid | Accurate | Most common sense used | Compatible | PASS |
+| oscillate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| outbreak | Valid | Accurate | Most common sense used | Compatible | PASS |
+| outskirts | Valid | Accurate | Most common sense used | Compatible | PASS |
+| overhaul | Valid | Accurate | Most common sense used | Compatible | PASS |
+| oversight | Valid | Accurate | Most common sense used | Compatible | PASS |
+| overt | Valid | Accurate | Most common sense used | Compatible | PASS |
+| paradigm | Valid | Accurate | Most common sense used | Compatible | PASS |
+| paradox | Valid | Accurate | Most common sense used | Compatible | PASS |
+| parliament | Valid | Accurate | Most common sense used | Compatible | PASS |
+| partisan | Valid | Accurate | Most common sense used | Compatible | PASS |
+| patrimony | Valid | Accurate | Most common sense used | Compatible | PASS |
+| patronage | Valid | Accurate | Most common sense used | Compatible | PASS |
+| pedagogy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| penal | Valid | Accurate | Most common sense used | Compatible | PASS |
+| per capita | Valid | Accurate | Most common sense used | Compatible | PASS |
+| perennial | Valid | Accurate | Most common sense used | Compatible | PASS |
+| periphery | Valid | Accurate | Most common sense used | Compatible | PASS |
+| permeable | Valid | Accurate | Most common sense used | Compatible | PASS |
+| perpetual | Valid | Accurate | Most common sense used | Compatible | PASS |
+| persecute | Valid | Accurate | Most common sense used | Compatible | PASS |
+| persona | Valid | Accurate | Most common sense used | Compatible | PASS |
+| pertinent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| pervasive | Valid | Accurate | Most common sense used | Compatible | PASS |
+| petroleum | Valid | Accurate | Most common sense used | Compatible | PASS |
+| philanthropy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| pivotal | Valid | Accurate | Most common sense used | Compatible | PASS |
+| plausible | Valid | Accurate | Most common sense used | Compatible | PASS |
+| plurality | Valid | Accurate | Most common sense used | Compatible | PASS |
+| posterity | Valid | Accurate | Most common sense used | Compatible | PASS |
+| pragmatic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| precede | Valid | Accurate | Most common sense used | Compatible | PASS |
+| precedent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| predominant | Valid | Accurate | Most common sense used | Compatible | PASS |
+| preface | Valid | Accurate | Most common sense used | Compatible | PASS |
+| procurement | Valid | Accurate | Most common sense used | Compatible | PASS |
+| prodigy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| proficient | Valid | Accurate | Most common sense used | Compatible | PASS |
+| proliferate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| propaganda | Valid | Accurate | Most common sense used | Compatible | PASS |
+| prosecute | Valid | Accurate | Most common sense used | Compatible | PASS |
+| prospectus | Valid | Accurate | Most common sense used | Compatible | PASS |
+| protocol | Valid | Accurate | Most common sense used | Compatible | PASS |
+| province | Valid | Accurate | Most common sense used | Compatible | PASS |
+| proximity | Valid | Accurate | Most common sense used | Compatible | PASS |
+| prudent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| quarantine | Valid | Accurate | Most common sense used | Compatible | PASS |
+| quorum | Valid | Accurate | Most common sense used | Compatible | PASS |
+| ratify | Valid | Accurate | Most common sense used | Compatible | PASS |
+| ration | Valid | Accurate | Most common sense used | Compatible | PASS |
+| recess | Valid | Accurate | Most common sense used | Compatible | PASS |
+| reconcile | Valid | Accurate | Most common sense used | Compatible | PASS |
+| referendum | Valid | Accurate | Most common sense used | Compatible | PASS |
+| reimburse | Valid | Accurate | Most common sense used | Compatible | PASS |
+| renaissance | Valid | Accurate | Most common sense used | Compatible | PASS |
+| replenish | Valid | Accurate | Most common sense used | Compatible | PASS |
+| repository | Valid | Accurate | Most common sense used | Compatible | PASS |
+| repress | Valid | Accurate | Most common sense used | Compatible | PASS |
+| reproach | Valid | Accurate | Most common sense used | Compatible | PASS |
+| repudiate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| requisite | Valid | Accurate | Most common sense used | Compatible | PASS |
+| reservoir | Valid | Accurate | Most common sense used | Compatible | PASS |
+| residual | Valid | Accurate | Most common sense used | Compatible | PASS |
+| resilient | Valid | Accurate | Most common sense used | Compatible | PASS |
+| resonance | Valid | Accurate | Most common sense used | Compatible | PASS |
+| restitution | Valid | Accurate | Most common sense used | Compatible | PASS |
+| retract | Valid | Accurate | Most common sense used | Compatible | PASS |
+| retrospect | Valid | Accurate | Most common sense used | Compatible | PASS |
+| rhetoric | Valid | Accurate | Most common sense used | Compatible | PASS |
+| rigorous | Valid | Accurate | Most common sense used | Compatible | PASS |
+| roster | Valid | Accurate | Most common sense used | Compatible | PASS |
+| rubric | Valid | Accurate | Most common sense used | Compatible | PASS |
+| rupture | Valid | Accurate | Most common sense used | Compatible | PASS |
+| sanitary | Valid | Accurate | Most common sense used | Compatible | PASS |
+| scaffold | Valid | Accurate | Most common sense used | Compatible | PASS |
+| segregation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| seismic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| seminar | Valid | Accurate | Most common sense used | Compatible | PASS |
+| sentiment | Valid | Accurate | Most common sense used | Compatible | PASS |
+| skeptic | Valid | Accurate | Most common sense used | Compatible | PASS |
+| solidarity | Valid | Accurate | Most common sense used | Compatible | PASS |
+| solitary | Valid | Accurate | Most common sense used | Compatible | PASS |
+| sovereignty | Valid | Accurate | Most common sense used | Compatible | PASS |
+| spontaneous | Valid | Accurate | Most common sense used | Compatible | PASS |
+| stagnant | Valid | Accurate | Most common sense used | Compatible | PASS |
+| stimulus | Valid | Accurate | Most common sense used | Compatible | PASS |
+| stipulate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| stratum | Valid | Accurate | Most common sense used | Compatible | PASS |
+| subsistence | Valid | Accurate | Most common sense used | Compatible | PASS |
+| substantiate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| suffrage | Valid | Accurate | Most common sense used | Compatible | PASS |
+| superfluous | Valid | Accurate | Most common sense used | Compatible | PASS |
+| suppress | Valid | Accurate | Most common sense used | Compatible | PASS |
+| surveillance | Valid | Accurate | Most common sense used | Compatible | PASS |
+| sustainable | Valid | Accurate | Most common sense used | Compatible | PASS |
+| tariff | Valid | Accurate | Most common sense used | Compatible | PASS |
+| taxonomy | Valid | Accurate | Most common sense used | Compatible | PASS |
+| tenure | Valid | Accurate | Most common sense used | Compatible | PASS |
+| testament | Valid | Accurate | Most common sense used | Compatible | PASS |
+| theorem | Valid | Accurate | Most common sense used | Compatible | PASS |
+| abjure | Valid | Accurate | Most common sense used | Compatible | PASS |
+| accretion | Valid | Accurate | Most common sense used | Compatible | PASS |
+| adjudicate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| adulterate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| aggrandize | Valid | Accurate | Most common sense used | Compatible | PASS |
+| apotheosis | Valid | Accurate | Most common sense used | Compatible | PASS |
+| approbation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| arrogate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| atavism | Valid | Accurate | Most common sense used | Compatible | PASS |
+| bellwether | Valid | Accurate | Most common sense used | Compatible | PASS |
+| bifurcate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| bowdlerize | Valid | Accurate | Most common sense used | Compatible | PASS |
+| bromide | Valid | Accurate | Most common sense used | Compatible | PASS |
+| cadence | Valid | Accurate | Most common sense used | Compatible | PASS |
+| cabal | Valid | Accurate | Most common sense used | Compatible | PASS |
+| canard | Valid | Accurate | Most common sense used | Compatible | PASS |
+| capitulation | Valid | Accurate | Most common sense used | Compatible | PASS |
+| celerity | Valid | Accurate | Most common sense used | Compatible | PASS |
+| cogitate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| collude | Valid | Accurate | Most common sense used | Compatible | PASS |
+| conflate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| consanguinity | Valid | Accurate | Most common sense used | Compatible | PASS |
+| contiguous | Valid | Accurate | Most common sense used | Compatible | PASS |
+| countermand | Valid | Accurate | Most common sense used | Compatible | PASS |
+| deleterious | Valid | Accurate | Most common sense used | Compatible | PASS |
+| diatribe | Valid | Accurate | Most common sense used | Compatible | PASS |
+| efficacious | Valid | Accurate | Most common sense used | Compatible | PASS |
+| excoriate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| exigent | Valid | Accurate | Most common sense used | Compatible | PASS |
+| expurgate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| extirpate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| fatuous | Valid | Accurate | Most common sense used | Compatible | PASS |
+| fecund | Valid | Accurate | Most common sense used | Compatible | PASS |
+| fulminate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| gainsay | Valid | Accurate | Most common sense used | Compatible | PASS |
+| gerrymandering | Valid | Accurate | Most common sense used | Compatible | PASS |
+| impecunious | Valid | Accurate | Most common sense used | Compatible | PASS |
+| ineluctable | Valid | Accurate | Most common sense used | Compatible | PASS |
+| inimical | Valid | Accurate | Most common sense used | Compatible | PASS |
+| inscrutable | Valid | Accurate | Most common sense used | Compatible | PASS |
+| internecine | Valid | Accurate | Most common sense used | Compatible | PASS |
+| malfeasant | Valid | Accurate | Most common sense used | Compatible | PASS |
+| obdurate | Valid | Accurate | Most common sense used | Compatible | PASS |
+| opprobrium | Valid | Accurate | Most common sense used | Compatible | PASS |
+| palimpsest | Valid | Accurate | Most common sense used | Compatible | PASS |
+| tendentious | Valid | Accurate | Most common sense used | Compatible | PASS |
+| termagant | Valid | Accurate | Most common sense used | Compatible | PASS |
+| trenchant | Valid | Accurate | Most common sense used | Compatible | PASS |
+| nugatory | Valid | Accurate | Most common sense used | Compatible | PASS |
+| panegyric | Valid | Accurate | Most common sense used | Compatible | PASS |
