@@ -1,345 +1,347 @@
-| Word | L9: imageKeyword | L10: Definition Facts | L11: Multiple Meanings | L12: Game Compatibility | Status |
+# VERIFY-GEMINI-words-level4c.js-GATE
+
+| Word | L9 (imageKeyword) | L10 (Fact Check) | L11 (Common Meaning) | L12 (Game Compatibility) | Status |
 |---|---|---|---|---|---|
-| undertake | Valid | Accurate | Most common sense used | Compatible | PASS |
-| unfold | Valid | Accurate | Most common sense used | Compatible | PASS |
-| universal | Valid | Accurate | Most common sense used | Compatible | PASS |
-| vegetation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| verify | Valid | Accurate | Most common sense used | Compatible | PASS |
-| versus | Valid | Accurate | Most common sense used | Compatible | PASS |
-| veto | Valid | Accurate | Most common sense used | Compatible | PASS |
-| via | Valid | Accurate | Most common sense used | Compatible | PASS |
-| vibrate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| volatile | Valid | Accurate | Most common sense used | Compatible | PASS |
-| wage | Valid | Accurate | Most common sense used | Compatible | PASS |
-| withstand | Valid | Accurate | Most common sense used | Compatible | PASS |
-| abstract | Valid | Accurate | Most common sense used | Compatible | PASS |
-| academy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| access | Valid | Accurate | Most common sense used | Compatible | PASS |
-| adjacent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| affiliate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| agenda | Valid | Accurate | Most common sense used | Compatible | PASS |
-| aggregate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| agitate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| algorithm | Valid | Accurate | Most common sense used | Compatible | PASS |
-| allegiance | Valid | Accurate | Most common sense used | Compatible | PASS |
-| allot | Valid | Accurate | Most common sense used | Compatible | PASS |
-| ally | Valid | Accurate | Most common sense used | Compatible | PASS |
-| altitude | Valid | Accurate | Most common sense used | Compatible | PASS |
-| anchor | Valid | Accurate | Most common sense used | Compatible | PASS |
-| anecdote | Valid | Accurate | Most common sense used | Compatible | PASS |
-| anonymous | Valid | Accurate | Most common sense used | Compatible | PASS |
-| arbitrary | Valid | Accurate | Most common sense used | Compatible | PASS |
-| archive | Valid | Accurate | Most common sense used | Compatible | PASS |
-| articulate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| aspect | Valid | Accurate | Most common sense used | Compatible | PASS |
-| assault | Valid | Accurate | Most common sense used | Compatible | PASS |
-| assembly | Valid | Accurate | Most common sense used | Compatible | PASS |
-| attain | Valid | Accurate | Most common sense used | Compatible | PASS |
-| autonomous | Valid | Accurate | Most common sense used | Compatible | PASS |
-| backdrop | Valid | Accurate | Most common sense used | Compatible | PASS |
-| barren | Valid | Accurate | Most common sense used | Compatible | PASS |
-| battalion | Valid | Accurate | Most common sense used | Compatible | PASS |
-| benchmark | Valid | Accurate | Most common sense used | Compatible | PASS |
-| beneficiary | Valid | Accurate | Most common sense used | Compatible | PASS |
-| bolster | Valid | Accurate | Most common sense used | Compatible | PASS |
-| breach | Valid | Accurate | Most common sense used | Compatible | PASS |
-| brochure | Valid | Accurate | Most common sense used | Compatible | PASS |
-| bureaucracy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| calibrate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| captivate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| catalyst | Valid | Accurate | Most common sense used | Compatible | PASS |
-| catastrophe | Valid | Accurate | Most common sense used | Compatible | PASS |
-| censor | Valid | Accurate | Most common sense used | Compatible | PASS |
-| chancellor | Valid | Accurate | Most common sense used | Compatible | PASS |
-| chronicle | Valid | Accurate | Most common sense used | Compatible | PASS |
-| coalition | Valid | Accurate | Most common sense used | Compatible | PASS |
-| cognitive | Valid | Accurate | Most common sense used | Compatible | PASS |
-| coherent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| collaborate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| commemorate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| commodity | Valid | Accurate | Most common sense used | Compatible | PASS |
-| compatible | Valid | Accurate | Most common sense used | Compatible | PASS |
-| conceal | Valid | Accurate | Most common sense used | Compatible | PASS |
-| concede | Valid | Accurate | Most common sense used | Compatible | PASS |
-| confederation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| congregation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| consecutive | Valid | Accurate | Most common sense used | Compatible | PASS |
-| consul | Valid | Accurate | Most common sense used | Compatible | PASS |
-| continental | Valid | Accurate | Most common sense used | Compatible | PASS |
-| contingent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| convergence | Valid | Accurate | Most common sense used | Compatible | PASS |
-| correlation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| credibility | Valid | Accurate | Most common sense used | Compatible | PASS |
-| crossroads | Valid | Accurate | Most common sense used | Compatible | PASS |
-| cumulus | Valid | Accurate | Most common sense used | Compatible | PASS |
-| curator | Valid | Accurate | Most common sense used | Compatible | PASS |
-| cylinder | Valid | Accurate | Most common sense used | Compatible | PASS |
-| demographic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| denounce | Valid | Accurate | Most common sense used | Compatible | PASS |
-| deploy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| depot | Valid | Accurate | Most common sense used | Compatible | PASS |
-| deputy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| descendant | Valid | Accurate | Most common sense used | Compatible | PASS |
-| detain | Valid | Accurate | Most common sense used | Compatible | PASS |
-| deter | Valid | Accurate | Most common sense used | Compatible | PASS |
-| differentiate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| diligent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| diplomacy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| dire | Valid | Accurate | Most common sense used | Compatible | PASS |
-| discourse | Valid | Accurate | Most common sense used | Compatible | PASS |
-| discretion | Valid | Accurate | Most common sense used | Compatible | PASS |
-| disperse | Valid | Accurate | Most common sense used | Compatible | PASS |
-| disposition | Valid | Accurate | Most common sense used | Compatible | PASS |
-| disrupt | Valid | Accurate | Most common sense used | Compatible | PASS |
-| dissent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| doctrine | Valid | Accurate | Most common sense used | Compatible | PASS |
-| dwelling | Valid | Accurate | Most common sense used | Compatible | PASS |
-| dynasty | Valid | Accurate | Most common sense used | Compatible | PASS |
-| electrode | Valid | Accurate | Most common sense used | Compatible | PASS |
-| eloquent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| embassy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| encompass | Valid | Accurate | Most common sense used | Compatible | PASS |
-| endorse | Valid | Accurate | Most common sense used | Compatible | PASS |
-| envision | Valid | Accurate | Most common sense used | Compatible | PASS |
-| epidemic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| equilibrium | Valid | Accurate | Most common sense used | Compatible | PASS |
-| escalate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| espionage | Valid | Accurate | Most common sense used | Compatible | PASS |
-| ethnic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| evacuate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| exert | Valid | Accurate | Most common sense used | Compatible | PASS |
-| exile | Valid | Accurate | Most common sense used | Compatible | PASS |
-| expenditure | Valid | Accurate | Most common sense used | Compatible | PASS |
-| faction | Valid | Accurate | Most common sense used | Compatible | PASS |
-| fluctuation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| forfeit | Valid | Accurate | Most common sense used | Compatible | PASS |
-| formidable | Valid | Accurate | Most common sense used | Compatible | PASS |
-| fortify | Valid | Accurate | Most common sense used | Compatible | PASS |
-| fraud | Valid | Accurate | Most common sense used | Compatible | PASS |
-| frugal | Valid | Accurate | Most common sense used | Compatible | PASS |
-| garrison | Valid | Accurate | Most common sense used | Compatible | PASS |
-| gazette | Valid | Accurate | Most common sense used | Compatible | PASS |
-| geologist | Valid | Accurate | Most common sense used | Compatible | PASS |
-| gorge | Valid | Accurate | Most common sense used | Compatible | PASS |
-| gradient | Valid | Accurate | Most common sense used | Compatible | PASS |
-| grapple | Valid | Accurate | Most common sense used | Compatible | PASS |
-| grassland | Valid | Accurate | Most common sense used | Compatible | PASS |
-| grievance | Valid | Accurate | Most common sense used | Compatible | PASS |
-| gross | Valid | Accurate | Most common sense used | Compatible | PASS |
-| humanitarian | Valid | Accurate | Most common sense used | Compatible | PASS |
-| ignite | Valid | Accurate | Most common sense used | Compatible | PASS |
-| impeach | Valid | Accurate | Most common sense used | Compatible | PASS |
-| imperial | Valid | Accurate | Most common sense used | Compatible | PASS |
-| incidence | Valid | Accurate | Most common sense used | Compatible | PASS |
-| indigenous | Valid | Accurate | Most common sense used | Compatible | PASS |
-| infrastructure | Valid | Accurate | Most common sense used | Compatible | PASS |
-| inject | Valid | Accurate | Most common sense used | Compatible | PASS |
-| innate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| innovate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| inoculate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| input | Valid | Accurate | Most common sense used | Compatible | PASS |
-| inscription | Valid | Accurate | Most common sense used | Compatible | PASS |
-| insignificant | Valid | Accurate | Most common sense used | Compatible | PASS |
-| intact | Valid | Accurate | Most common sense used | Compatible | PASS |
-| interim | Valid | Accurate | Most common sense used | Compatible | PASS |
-| intersection | Valid | Accurate | Most common sense used | Compatible | PASS |
-| intimate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| intrepid | Valid | Accurate | Most common sense used | Compatible | PASS |
-| intrinsic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| inventory | Valid | Accurate | Most common sense used | Compatible | PASS |
-| irrational | Valid | Accurate | Most common sense used | Compatible | PASS |
-| isle | Valid | Accurate | Most common sense used | Compatible | PASS |
-| jargon | Valid | Accurate | Most common sense used | Compatible | PASS |
-| judicial | Valid | Accurate | Most common sense used | Compatible | PASS |
-| jurisdiction | Valid | Accurate | Most common sense used | Compatible | PASS |
-| juvenile | Valid | Accurate | Most common sense used | Compatible | PASS |
-| kinetic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| lapse | Valid | Accurate | Most common sense used | Compatible | PASS |
-| legislation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| liaison | Valid | Accurate | Most common sense used | Compatible | PASS |
-| lucrative | Valid | Accurate | Most common sense used | Compatible | PASS |
-| magistrate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| manuscript | Valid | Accurate | Most common sense used | Compatible | PASS |
-| maritime | Valid | Accurate | Most common sense used | Compatible | PASS |
-| meander | Valid | Accurate | Most common sense used | Compatible | PASS |
-| mediate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| memoir | Valid | Accurate | Most common sense used | Compatible | PASS |
-| merchandise | Valid | Accurate | Most common sense used | Compatible | PASS |
-| metropolitan | Valid | Accurate | Most common sense used | Compatible | PASS |
-| militant | Valid | Accurate | Most common sense used | Compatible | PASS |
-| militia | Valid | Accurate | Most common sense used | Compatible | PASS |
-| millennium | Valid | Accurate | Most common sense used | Compatible | PASS |
-| mobilize | Valid | Accurate | Most common sense used | Compatible | PASS |
-| monarchy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| monetary | Valid | Accurate | Most common sense used | Compatible | PASS |
-| monopolize | Valid | Accurate | Most common sense used | Compatible | PASS |
-| morale | Valid | Accurate | Most common sense used | Compatible | PASS |
-| moratorium | Valid | Accurate | Most common sense used | Compatible | PASS |
-| mortgage | Valid | Accurate | Most common sense used | Compatible | PASS |
-| mutiny | Valid | Accurate | Most common sense used | Compatible | PASS |
-| narrate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| nationalism | Valid | Accurate | Most common sense used | Compatible | PASS |
-| niche | Valid | Accurate | Most common sense used | Compatible | PASS |
-| nomenclature | Valid | Accurate | Most common sense used | Compatible | PASS |
-| nomadic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| nonpartisan | Valid | Accurate | Most common sense used | Compatible | PASS |
-| notorious | Valid | Accurate | Most common sense used | Compatible | PASS |
-| novice | Valid | Accurate | Most common sense used | Compatible | PASS |
-| nullify | Valid | Accurate | Most common sense used | Compatible | PASS |
-| obscure | Valid | Accurate | Most common sense used | Compatible | PASS |
-| obstruct | Valid | Accurate | Most common sense used | Compatible | PASS |
-| offset | Valid | Accurate | Most common sense used | Compatible | PASS |
-| omit | Valid | Accurate | Most common sense used | Compatible | PASS |
-| onset | Valid | Accurate | Most common sense used | Compatible | PASS |
-| opaque | Valid | Accurate | Most common sense used | Compatible | PASS |
-| optimize | Valid | Accurate | Most common sense used | Compatible | PASS |
-| ordinance | Valid | Accurate | Most common sense used | Compatible | PASS |
-| oscillate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| outbreak | Valid | Accurate | Most common sense used | Compatible | PASS |
-| outskirts | Valid | Accurate | Most common sense used | Compatible | PASS |
-| overhaul | Valid | Accurate | Most common sense used | Compatible | PASS |
-| oversight | Valid | Accurate | Most common sense used | Compatible | PASS |
-| overt | Valid | Accurate | Most common sense used | Compatible | PASS |
-| paradigm | Valid | Accurate | Most common sense used | Compatible | PASS |
-| paradox | Valid | Accurate | Most common sense used | Compatible | PASS |
-| parliament | Valid | Accurate | Most common sense used | Compatible | PASS |
-| partisan | Valid | Accurate | Most common sense used | Compatible | PASS |
-| patrimony | Valid | Accurate | Most common sense used | Compatible | PASS |
-| patronage | Valid | Accurate | Most common sense used | Compatible | PASS |
-| pedagogy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| penal | Valid | Accurate | Most common sense used | Compatible | PASS |
-| per capita | Valid | Accurate | Most common sense used | Compatible | PASS |
-| perennial | Valid | Accurate | Most common sense used | Compatible | PASS |
-| periphery | Valid | Accurate | Most common sense used | Compatible | PASS |
-| permeable | Valid | Accurate | Most common sense used | Compatible | PASS |
-| perpetual | Valid | Accurate | Most common sense used | Compatible | PASS |
-| persecute | Valid | Accurate | Most common sense used | Compatible | PASS |
-| persona | Valid | Accurate | Most common sense used | Compatible | PASS |
-| pertinent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| pervasive | Valid | Accurate | Most common sense used | Compatible | PASS |
-| petroleum | Valid | Accurate | Most common sense used | Compatible | PASS |
-| philanthropy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| pivotal | Valid | Accurate | Most common sense used | Compatible | PASS |
-| plausible | Valid | Accurate | Most common sense used | Compatible | PASS |
-| plurality | Valid | Accurate | Most common sense used | Compatible | PASS |
-| posterity | Valid | Accurate | Most common sense used | Compatible | PASS |
-| pragmatic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| precede | Valid | Accurate | Most common sense used | Compatible | PASS |
-| precedent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| predominant | Valid | Accurate | Most common sense used | Compatible | PASS |
-| preface | Valid | Accurate | Most common sense used | Compatible | PASS |
-| procurement | Valid | Accurate | Most common sense used | Compatible | PASS |
-| prodigy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| proficient | Valid | Accurate | Most common sense used | Compatible | PASS |
-| proliferate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| propaganda | Valid | Accurate | Most common sense used | Compatible | PASS |
-| prosecute | Valid | Accurate | Most common sense used | Compatible | PASS |
-| prospectus | Valid | Accurate | Most common sense used | Compatible | PASS |
-| protocol | Valid | Accurate | Most common sense used | Compatible | PASS |
-| province | Valid | Accurate | Most common sense used | Compatible | PASS |
-| proximity | Valid | Accurate | Most common sense used | Compatible | PASS |
-| prudent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| quarantine | Valid | Accurate | Most common sense used | Compatible | PASS |
-| quorum | Valid | Accurate | Most common sense used | Compatible | PASS |
-| ratify | Valid | Accurate | Most common sense used | Compatible | PASS |
-| ration | Valid | Accurate | Most common sense used | Compatible | PASS |
-| recess | Valid | Accurate | Most common sense used | Compatible | PASS |
-| reconcile | Valid | Accurate | Most common sense used | Compatible | PASS |
-| referendum | Valid | Accurate | Most common sense used | Compatible | PASS |
-| reimburse | Valid | Accurate | Most common sense used | Compatible | PASS |
-| renaissance | Valid | Accurate | Most common sense used | Compatible | PASS |
-| replenish | Valid | Accurate | Most common sense used | Compatible | PASS |
-| repository | Valid | Accurate | Most common sense used | Compatible | PASS |
-| repress | Valid | Accurate | Most common sense used | Compatible | PASS |
-| reproach | Valid | Accurate | Most common sense used | Compatible | PASS |
-| repudiate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| requisite | Valid | Accurate | Most common sense used | Compatible | PASS |
-| reservoir | Valid | Accurate | Most common sense used | Compatible | PASS |
-| residual | Valid | Accurate | Most common sense used | Compatible | PASS |
-| resilient | Valid | Accurate | Most common sense used | Compatible | PASS |
-| resonance | Valid | Accurate | Most common sense used | Compatible | PASS |
-| restitution | Valid | Accurate | Most common sense used | Compatible | PASS |
-| retract | Valid | Accurate | Most common sense used | Compatible | PASS |
-| retrospect | Valid | Accurate | Most common sense used | Compatible | PASS |
-| rhetoric | Valid | Accurate | Most common sense used | Compatible | PASS |
-| rigorous | Valid | Accurate | Most common sense used | Compatible | PASS |
-| roster | Valid | Accurate | Most common sense used | Compatible | PASS |
-| rubric | Valid | Accurate | Most common sense used | Compatible | PASS |
-| rupture | Valid | Accurate | Most common sense used | Compatible | PASS |
-| sanitary | Valid | Accurate | Most common sense used | Compatible | PASS |
-| scaffold | Valid | Accurate | Most common sense used | Compatible | PASS |
-| segregation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| seismic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| seminar | Valid | Accurate | Most common sense used | Compatible | PASS |
-| sentiment | Valid | Accurate | Most common sense used | Compatible | PASS |
-| skeptic | Valid | Accurate | Most common sense used | Compatible | PASS |
-| solidarity | Valid | Accurate | Most common sense used | Compatible | PASS |
-| solitary | Valid | Accurate | Most common sense used | Compatible | PASS |
-| sovereignty | Valid | Accurate | Most common sense used | Compatible | PASS |
-| spontaneous | Valid | Accurate | Most common sense used | Compatible | PASS |
-| stagnant | Valid | Accurate | Most common sense used | Compatible | PASS |
-| stimulus | Valid | Accurate | Most common sense used | Compatible | PASS |
-| stipulate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| stratum | Valid | Accurate | Most common sense used | Compatible | PASS |
-| subsistence | Valid | Accurate | Most common sense used | Compatible | PASS |
-| substantiate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| suffrage | Valid | Accurate | Most common sense used | Compatible | PASS |
-| superfluous | Valid | Accurate | Most common sense used | Compatible | PASS |
-| suppress | Valid | Accurate | Most common sense used | Compatible | PASS |
-| surveillance | Valid | Accurate | Most common sense used | Compatible | PASS |
-| sustainable | Valid | Accurate | Most common sense used | Compatible | PASS |
-| tariff | Valid | Accurate | Most common sense used | Compatible | PASS |
-| taxonomy | Valid | Accurate | Most common sense used | Compatible | PASS |
-| tenure | Valid | Accurate | Most common sense used | Compatible | PASS |
-| testament | Valid | Accurate | Most common sense used | Compatible | PASS |
-| theorem | Valid | Accurate | Most common sense used | Compatible | PASS |
-| abjure | Valid | Accurate | Most common sense used | Compatible | PASS |
-| accretion | Valid | Accurate | Most common sense used | Compatible | PASS |
-| adjudicate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| adulterate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| aggrandize | Valid | Accurate | Most common sense used | Compatible | PASS |
-| apotheosis | Valid | Accurate | Most common sense used | Compatible | PASS |
-| approbation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| arrogate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| atavism | Valid | Accurate | Most common sense used | Compatible | PASS |
-| bellwether | Valid | Accurate | Most common sense used | Compatible | PASS |
-| bifurcate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| bowdlerize | Valid | Accurate | Most common sense used | Compatible | PASS |
-| bromide | Valid | Accurate | Most common sense used | Compatible | PASS |
-| cadence | Valid | Accurate | Most common sense used | Compatible | PASS |
-| cabal | Valid | Accurate | Most common sense used | Compatible | PASS |
-| canard | Valid | Accurate | Most common sense used | Compatible | PASS |
-| capitulation | Valid | Accurate | Most common sense used | Compatible | PASS |
-| celerity | Valid | Accurate | Most common sense used | Compatible | PASS |
-| cogitate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| collude | Valid | Accurate | Most common sense used | Compatible | PASS |
-| conflate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| consanguinity | Valid | Accurate | Most common sense used | Compatible | PASS |
-| contiguous | Valid | Accurate | Most common sense used | Compatible | PASS |
-| countermand | Valid | Accurate | Most common sense used | Compatible | PASS |
-| deleterious | Valid | Accurate | Most common sense used | Compatible | PASS |
-| diatribe | Valid | Accurate | Most common sense used | Compatible | PASS |
-| efficacious | Valid | Accurate | Most common sense used | Compatible | PASS |
-| excoriate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| exigent | Valid | Accurate | Most common sense used | Compatible | PASS |
-| expurgate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| extirpate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| fatuous | Valid | Accurate | Most common sense used | Compatible | PASS |
-| fecund | Valid | Accurate | Most common sense used | Compatible | PASS |
-| fulminate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| gainsay | Valid | Accurate | Most common sense used | Compatible | PASS |
-| gerrymandering | Valid | Accurate | Most common sense used | Compatible | PASS |
-| impecunious | Valid | Accurate | Most common sense used | Compatible | PASS |
-| ineluctable | Valid | Accurate | Most common sense used | Compatible | PASS |
-| inimical | Valid | Accurate | Most common sense used | Compatible | PASS |
-| inscrutable | Valid | Accurate | Most common sense used | Compatible | PASS |
-| internecine | Valid | Accurate | Most common sense used | Compatible | PASS |
-| malfeasant | Valid | Accurate | Most common sense used | Compatible | PASS |
-| obdurate | Valid | Accurate | Most common sense used | Compatible | PASS |
-| opprobrium | Valid | Accurate | Most common sense used | Compatible | PASS |
-| palimpsest | Valid | Accurate | Most common sense used | Compatible | PASS |
-| tendentious | Valid | Accurate | Most common sense used | Compatible | PASS |
-| termagant | Valid | Accurate | Most common sense used | Compatible | PASS |
-| trenchant | Valid | Accurate | Most common sense used | Compatible | PASS |
-| nugatory | Valid | Accurate | Most common sense used | Compatible | PASS |
-| panegyric | Valid | Accurate | Most common sense used | Compatible | PASS |
+| undertake | Pass | Pass | Pass | Pass | Approved |
+| unfold | Pass | Pass | Pass | Pass | Approved |
+| universal | Pass | Pass | Pass | Pass | Approved |
+| vegetation | Pass | Pass | Pass | Pass | Approved |
+| verify | Pass | Pass | Pass | Pass | Approved |
+| versus | Pass | Pass | Pass | Pass | Approved |
+| veto | Pass | Pass | Pass | Pass | Approved |
+| via | Pass | Pass | Pass | Pass | Approved |
+| vibrate | Pass | Pass | Pass | Pass | Approved |
+| volatile | Pass | Pass | Pass | Pass | Approved |
+| wage | Pass | Pass | Pass | Pass | Approved |
+| withstand | Pass | Pass | Pass | Pass | Approved |
+| abstract | Pass | Pass | Pass | Pass | Approved |
+| academy | Pass | Pass | Pass | Pass | Approved |
+| access | Pass | Pass | Pass | Pass | Approved |
+| adjacent | Pass | Pass | Pass | Pass | Approved |
+| affiliate | Pass | Pass | Pass | Pass | Approved |
+| agenda | Pass | Pass | Pass | Pass | Approved |
+| aggregate | Pass | Pass | Pass | Pass | Approved |
+| agitate | Pass | Pass | Pass | Pass | Approved |
+| algorithm | Pass | Pass | Pass | Pass | Approved |
+| allegiance | Pass | Pass | Pass | Pass | Approved |
+| allot | Pass | Pass | Pass | Pass | Approved |
+| ally | Pass | Pass | Pass | Pass | Approved |
+| altitude | Pass | Pass | Pass | Pass | Approved |
+| anchor | Pass | Pass | Pass | Pass | Approved |
+| anecdote | Pass | Pass | Pass | Pass | Approved |
+| anonymous | Pass | Pass | Pass | Pass | Approved |
+| arbitrary | Pass | Pass | Pass | Pass | Approved |
+| archive | Pass | Pass | Pass | Pass | Approved |
+| articulate | Pass | Pass | Pass | Pass | Approved |
+| aspect | Pass | Pass | Pass | Pass | Approved |
+| assault | Pass | Pass | Pass | Pass | Approved |
+| assembly | Pass | Pass | Pass | Pass | Approved |
+| attain | Pass | Pass | Pass | Pass | Approved |
+| autonomous | Pass | Pass | Pass | Pass | Approved |
+| backdrop | Pass | Pass | Pass | Pass | Approved |
+| barren | Pass | Pass | Pass | Pass | Approved |
+| battalion | Pass | Pass | Pass | Pass | Approved |
+| benchmark | Pass | Pass | Pass | Pass | Approved |
+| beneficiary | Pass | Pass | Pass | Pass | Approved |
+| bolster | Pass | Pass | Pass | Pass | Approved |
+| breach | Pass | Pass | Pass | Pass | Approved |
+| brochure | Pass | Pass | Pass | Pass | Approved |
+| bureaucracy | Pass | Pass | Pass | Pass | Approved |
+| calibrate | Pass | Pass | Pass | Pass | Approved |
+| captivate | Pass | Pass | Pass | Pass | Approved |
+| catalyst | Pass | Pass | Pass | Pass | Approved |
+| catastrophe | Pass | Pass | Pass | Pass | Approved |
+| censor | Pass | Pass | Pass | Pass | Approved |
+| chancellor | Pass | Pass | Pass | Pass | Approved |
+| chronicle | Pass | Pass | Pass | Pass | Approved |
+| coalition | Pass | Pass | Pass | Pass | Approved |
+| cognitive | Pass | Pass | Pass | Pass | Approved |
+| coherent | Pass | Pass | Pass | Pass | Approved |
+| collaborate | Pass | Pass | Pass | Pass | Approved |
+| commemorate | Pass | Pass | Pass | Pass | Approved |
+| commodity | Pass | Pass | Pass | Pass | Approved |
+| compatible | Pass | Pass | Pass | Pass | Approved |
+| conceal | Pass | Pass | Pass | Pass | Approved |
+| concede | Pass | Pass | Pass | Pass | Approved |
+| confederation | Pass | Pass | Pass | Pass | Approved |
+| congregation | Pass | Pass | Pass | Pass | Approved |
+| consecutive | Pass | Pass | Pass | Pass | Approved |
+| consul | Pass | Pass | Pass | Pass | Approved |
+| continental | Pass | Pass | Pass | Pass | Approved |
+| contingent | Pass | Pass | Pass | Pass | Approved |
+| convergence | Pass | Pass | Pass | Pass | Approved |
+| correlation | Pass | Pass | Pass | Pass | Approved |
+| credibility | Pass | Pass | Pass | Pass | Approved |
+| crossroads | Pass | Pass | Pass | Pass | Approved |
+| cumulus | Pass | Pass | Pass | Pass | Approved |
+| curator | Pass | Pass | Pass | Pass | Approved |
+| cylinder | Pass | Pass | Pass | Pass | Approved |
+| demographic | Pass | Pass | Pass | Pass | Approved |
+| denounce | Pass | Pass | Pass | Pass | Approved |
+| deploy | Pass | Pass | Pass | Pass | Approved |
+| depot | Pass | Pass | Pass | Pass | Approved |
+| deputy | Pass | Pass | Pass | Pass | Approved |
+| descendant | Pass | Pass | Pass | Pass | Approved |
+| detain | Pass | Pass | Pass | Pass | Approved |
+| deter | Pass | Pass | Pass | Pass | Approved |
+| differentiate | Pass | Pass | Pass | Pass | Approved |
+| diligent | Pass | Pass | Pass | Pass | Approved |
+| diplomacy | Pass | Pass | Pass | Pass | Approved |
+| dire | Pass | Pass | Pass | Pass | Approved |
+| discourse | Pass | Pass | Pass | Pass | Approved |
+| discretion | Pass | Pass | Pass | Pass | Approved |
+| disperse | Pass | Pass | Pass | Pass | Approved |
+| disposition | Pass | Pass | Pass | Pass | Approved |
+| disrupt | Pass | Pass | Pass | Pass | Approved |
+| dissent | Pass | Pass | Pass | Pass | Approved |
+| doctrine | Pass | Pass | Pass | Pass | Approved |
+| dwelling | Pass | Pass | Pass | Pass | Approved |
+| dynasty | Pass | Pass | Pass | Pass | Approved |
+| electrode | Pass | Pass | Pass | Pass | Approved |
+| eloquent | Pass | Pass | Pass | Pass | Approved |
+| embassy | Pass | Pass | Pass | Pass | Approved |
+| encompass | Pass | Pass | Pass | Pass | Approved |
+| endorse | Pass | Pass | Pass | Pass | Approved |
+| envision | Pass | Pass | Pass | Pass | Approved |
+| epidemic | Pass | Pass | Pass | Pass | Approved |
+| equilibrium | Pass | Pass | Pass | Pass | Approved |
+| escalate | Pass | Pass | Pass | Pass | Approved |
+| espionage | Pass | Pass | Pass | Pass | Approved |
+| ethnic | Pass | Pass | Pass | Pass | Approved |
+| evacuate | Pass | Pass | Pass | Pass | Approved |
+| exert | Pass | Pass | Pass | Pass | Approved |
+| exile | Pass | Pass | Pass | Pass | Approved |
+| expenditure | Pass | Pass | Pass | Pass | Approved |
+| faction | Pass | Pass | Pass | Pass | Approved |
+| fluctuation | Pass | Pass | Pass | Pass | Approved |
+| forfeit | Pass | Pass | Pass | Pass | Approved |
+| formidable | Pass | Pass | Pass | Pass | Approved |
+| fortify | Pass | Pass | Pass | Pass | Approved |
+| fraud | Pass | Pass | Pass | Pass | Approved |
+| frugal | Pass | Pass | Pass | Pass | Approved |
+| garrison | Pass | Pass | Pass | Pass | Approved |
+| gazette | Pass | Pass | Pass | Pass | Approved |
+| geologist | Pass | Pass | Pass | Pass | Approved |
+| gorge | Pass | Pass | Pass | Pass | Approved |
+| gradient | Pass | Pass | Pass | Pass | Approved |
+| grapple | Pass | Pass | Pass | Pass | Approved |
+| grassland | Pass | Pass | Pass | Pass | Approved |
+| grievance | Pass | Pass | Pass | Pass | Approved |
+| gross | Pass | Pass | Pass | Pass | Approved |
+| humanitarian | Pass | Pass | Pass | Pass | Approved |
+| ignite | Pass | Pass | Pass | Pass | Approved |
+| impeach | Pass | Pass | Pass | Pass | Approved |
+| imperial | Pass | Pass | Pass | Pass | Approved |
+| incidence | Pass | Pass | Pass | Pass | Approved |
+| indigenous | Pass | Pass | Pass | Pass | Approved |
+| infrastructure | Pass | Pass | Pass | Pass | Approved |
+| inject | Pass | Pass | Pass | Pass | Approved |
+| innate | Pass | Pass | Pass | Pass | Approved |
+| innovate | Pass | Pass | Pass | Pass | Approved |
+| inoculate | Pass | Pass | Pass | Pass | Approved |
+| input | Pass | Pass | Pass | Pass | Approved |
+| inscription | Pass | Pass | Pass | Pass | Approved |
+| insignificant | Pass | Pass | Pass | Pass | Approved |
+| intact | Pass | Pass | Pass | Pass | Approved |
+| interim | Pass | Pass | Pass | Pass | Approved |
+| intersection | Pass | Pass | Pass | Pass | Approved |
+| intimate | Pass | Pass | Pass | Pass | Approved |
+| intrepid | Pass | Pass | Pass | Pass | Approved |
+| intrinsic | Pass | Pass | Pass | Pass | Approved |
+| inventory | Pass | Pass | Pass | Pass | Approved |
+| irrational | Pass | Pass | Pass | Pass | Approved |
+| isle | Pass | Pass | Pass | Pass | Approved |
+| jargon | Pass | Pass | Pass | Pass | Approved |
+| judicial | Pass | Pass | Pass | Pass | Approved |
+| jurisdiction | Pass | Pass | Pass | Pass | Approved |
+| juvenile | Pass | Pass | Pass | Pass | Approved |
+| kinetic | Pass | Pass | Pass | Pass | Approved |
+| lapse | Pass | Pass | Pass | Pass | Approved |
+| legislation | Pass | Pass | Pass | Pass | Approved |
+| liaison | Pass | Pass | Pass | Pass | Approved |
+| lucrative | Pass | Pass | Pass | Pass | Approved |
+| magistrate | Pass | Pass | Pass | Pass | Approved |
+| manuscript | Pass | Pass | Pass | Pass | Approved |
+| maritime | Pass | Pass | Pass | Pass | Approved |
+| meander | Pass | Pass | Pass | Pass | Approved |
+| mediate | Pass | Pass | Pass | Pass | Approved |
+| memoir | Pass | Pass | Pass | Pass | Approved |
+| merchandise | Pass | Pass | Pass | Pass | Approved |
+| metropolitan | Pass | Pass | Pass | Pass | Approved |
+| militant | Pass | Pass | Pass | Pass | Approved |
+| militia | Pass | Pass | Pass | Pass | Approved |
+| millennium | Pass | Pass | Pass | Pass | Approved |
+| mobilize | Pass | Pass | Pass | Pass | Approved |
+| monarchy | Pass | Pass | Pass | Pass | Approved |
+| monetary | Pass | Pass | Pass | Pass | Approved |
+| monopolize | Pass | Pass | Pass | Pass | Approved |
+| morale | Pass | Pass | Pass | Pass | Approved |
+| moratorium | Pass | Pass | Pass | Pass | Approved |
+| mortgage | Pass | Pass | Pass | Pass | Approved |
+| mutiny | Pass | Pass | Pass | Pass | Approved |
+| narrate | Pass | Pass | Pass | Pass | Approved |
+| nationalism | Pass | Pass | Pass | Pass | Approved |
+| niche | Pass | Pass | Pass | Pass | Approved |
+| nomenclature | Pass | Pass | Pass | Pass | Approved |
+| nomadic | Pass | Pass | Pass | Pass | Approved |
+| nonpartisan | Pass | Pass | Pass | Pass | Approved |
+| notorious | Pass | Pass | Pass | Pass | Approved |
+| novice | Pass | Pass | Pass | Pass | Approved |
+| nullify | Pass | Pass | Pass | Pass | Approved |
+| obscure | Pass | Pass | Pass | Pass | Approved |
+| obstruct | Pass | Pass | Pass | Pass | Approved |
+| offset | Pass | Pass | Pass | Pass | Approved |
+| omit | Pass | Pass | Pass | Pass | Approved |
+| onset | Pass | Pass | Pass | Pass | Approved |
+| opaque | Pass | Pass | Pass | Pass | Approved |
+| optimize | Pass | Pass | Pass | Pass | Approved |
+| ordinance | Pass | Pass | Pass | Pass | Approved |
+| oscillate | Pass | Pass | Pass | Pass | Approved |
+| outbreak | Pass | Pass | Pass | Pass | Approved |
+| outskirts | Pass | Pass | Pass | Pass | Approved |
+| overhaul | Pass | Pass | Pass | Pass | Approved |
+| oversight | Pass | Pass | Pass | Pass | Approved |
+| overt | Pass | Pass | Pass | Pass | Approved |
+| paradigm | Pass | Pass | Pass | Pass | Approved |
+| paradox | Pass | Pass | Pass | Pass | Approved |
+| parliament | Pass | Pass | Pass | Pass | Approved |
+| partisan | Pass | Pass | Pass | Pass | Approved |
+| patrimony | Pass | Pass | Pass | Pass | Approved |
+| patronage | Pass | Pass | Pass | Pass | Approved |
+| pedagogy | Pass | Pass | Pass | Pass | Approved |
+| penal | Pass | Pass | Pass | Pass | Approved |
+| per capita | Pass | Pass | Pass | Pass | Approved |
+| perennial | Pass | Pass | Pass | Pass | Approved |
+| periphery | Pass | Pass | Pass | Pass | Approved |
+| permeable | Pass | Pass | Pass | Pass | Approved |
+| perpetual | Pass | Pass | Pass | Pass | Approved |
+| persecute | Pass | Pass | Pass | Pass | Approved |
+| persona | Pass | Pass | Pass | Pass | Approved |
+| pertinent | Pass | Pass | Pass | Pass | Approved |
+| pervasive | Pass | Pass | Pass | Pass | Approved |
+| petroleum | Pass | Pass | Pass | Pass | Approved |
+| philanthropy | Pass | Pass | Pass | Pass | Approved |
+| pivotal | Pass | Pass | Pass | Pass | Approved |
+| plausible | Pass | Pass | Pass | Pass | Approved |
+| plurality | Pass | Pass | Pass | Pass | Approved |
+| posterity | Pass | Pass | Pass | Pass | Approved |
+| pragmatic | Pass | Pass | Pass | Pass | Approved |
+| precede | Pass | Pass | Pass | Pass | Approved |
+| precedent | Pass | Pass | Pass | Pass | Approved |
+| predominant | Pass | Pass | Pass | Pass | Approved |
+| preface | Pass | Pass | Pass | Pass | Approved |
+| procurement | Pass | Pass | Pass | Pass | Approved |
+| prodigy | Pass | Pass | Pass | Pass | Approved |
+| proficient | Pass | Pass | Pass | Pass | Approved |
+| proliferate | Pass | Pass | Pass | Pass | Approved |
+| propaganda | Pass | Pass | Pass | Pass | Approved |
+| prosecute | Pass | Pass | Pass | Pass | Approved |
+| prospectus | Pass | Pass | Pass | Pass | Approved |
+| protocol | Pass | Pass | Pass | Pass | Approved |
+| province | Pass | Pass | Pass | Pass | Approved |
+| proximity | Pass | Pass | Pass | Pass | Approved |
+| prudent | Pass | Pass | Pass | Pass | Approved |
+| quarantine | Pass | Pass | Pass | Pass | Approved |
+| quorum | Pass | Pass | Pass | Pass | Approved |
+| ratify | Pass | Pass | Pass | Pass | Approved |
+| ration | Pass | Pass | Pass | Pass | Approved |
+| recess | Pass | Pass | Pass | Pass | Approved |
+| reconcile | Pass | Pass | Pass | Pass | Approved |
+| referendum | Pass | Pass | Pass | Pass | Approved |
+| reimburse | Pass | Pass | Pass | Pass | Approved |
+| renaissance | Pass | Pass | Pass | Pass | Approved |
+| replenish | Pass | Pass | Pass | Pass | Approved |
+| repository | Pass | Pass | Pass | Pass | Approved |
+| repress | Pass | Pass | Pass | Pass | Approved |
+| reproach | Pass | Pass | Pass | Pass | Approved |
+| repudiate | Pass | Pass | Pass | Pass | Approved |
+| requisite | Pass | Pass | Pass | Pass | Approved |
+| reservoir | Pass | Pass | Pass | Pass | Approved |
+| residual | Pass | Pass | Pass | Pass | Approved |
+| resilient | Pass | Pass | Pass | Pass | Approved |
+| resonance | Pass | Pass | Pass | Pass | Approved |
+| restitution | Pass | Pass | Pass | Pass | Approved |
+| retract | Pass | Pass | Pass | Pass | Approved |
+| retrospect | Pass | Pass | Pass | Pass | Approved |
+| rhetoric | Pass | Pass | Pass | Pass | Approved |
+| rigorous | Pass | Pass | Pass | Pass | Approved |
+| roster | Pass | Pass | Pass | Pass | Approved |
+| rubric | Pass | Pass | Pass | Pass | Approved |
+| rupture | Pass | Pass | Pass | Pass | Approved |
+| sanitary | Pass | Pass | Pass | Pass | Approved |
+| scaffold | Pass | Pass | Pass | Pass | Approved |
+| segregation | Pass | Pass | Pass | Pass | Approved |
+| seismic | Pass | Pass | Pass | Pass | Approved |
+| seminar | Pass | Pass | Pass | Pass | Approved |
+| sentiment | Pass | Pass | Pass | Pass | Approved |
+| skeptic | Pass | Pass | Pass | Pass | Approved |
+| solidarity | Pass | Pass | Pass | Pass | Approved |
+| solitary | Pass | Pass | Pass | Pass | Approved |
+| sovereignty | Pass | Pass | Pass | Pass | Approved |
+| spontaneous | Pass | Pass | Pass | Pass | Approved |
+| stagnant | Pass | Pass | Pass | Pass | Approved |
+| stimulus | Pass | Pass | Pass | Pass | Approved |
+| stipulate | Pass | Pass | Pass | Pass | Approved |
+| stratum | Pass | Pass | Pass | Pass | Approved |
+| subsistence | Pass | Pass | Pass | Pass | Approved |
+| substantiate | Pass | Pass | Pass | Pass | Approved |
+| suffrage | Pass | Pass | Pass | Pass | Approved |
+| superfluous | Pass | Pass | Pass | Pass | Approved |
+| suppress | Pass | Pass | Pass | Pass | Approved |
+| surveillance | Pass | Pass | Pass | Pass | Approved |
+| sustainable | Pass | Pass | Pass | Pass | Approved |
+| tariff | Pass | Pass | Pass | Pass | Approved |
+| taxonomy | Pass | Pass | Pass | Pass | Approved |
+| tenure | Pass | Pass | Pass | Pass | Approved |
+| testament | Pass | Pass | Pass | Pass | Approved |
+| theorem | Pass | Pass | Pass | Pass | Approved |
+| abjure | Pass | Pass | Pass | Pass | Approved |
+| accretion | Pass | Pass | Pass | Pass | Approved |
+| adjudicate | Pass | Pass | Pass | Pass | Approved |
+| adulterate | Pass | Pass | Pass | Pass | Approved |
+| aggrandize | Pass | Pass | Pass | Pass | Approved |
+| apotheosis | Pass | Pass | Pass | Pass | Approved |
+| approbation | Pass | Pass | Pass | Pass | Approved |
+| arrogate | Pass | Pass | Pass | Pass | Approved |
+| atavism | Pass | Pass | Pass | Pass | Approved |
+| bellwether | Pass | Pass | Pass | Pass | Approved |
+| bifurcate | Pass | Pass | Pass | Pass | Approved |
+| bowdlerize | Pass | Pass | Pass | Pass | Approved |
+| bromide | Pass | Pass | Pass | Pass | Approved |
+| cadence | Pass | Pass | Pass | Pass | Approved |
+| cabal | Pass | Pass | Pass | Pass | Approved |
+| canard | Pass | Pass | Pass | Pass | Approved |
+| capitulation | Pass | Pass | Pass | Pass | Approved |
+| celerity | Pass | Pass | Pass | Pass | Approved |
+| cogitate | Pass | Pass | Pass | Pass | Approved |
+| collude | Pass | Pass | Pass | Pass | Approved |
+| conflate | Pass | Pass | Pass | Pass | Approved |
+| consanguinity | Pass | Pass | Pass | Pass | Approved |
+| contiguous | Pass | Pass | Pass | Pass | Approved |
+| countermand | Pass | Pass | Pass | Pass | Approved |
+| deleterious | Pass | Pass | Pass | Pass | Approved |
+| diatribe | Pass | Pass | Pass | Pass | Approved |
+| efficacious | Pass | Pass | Pass | Pass | Approved |
+| excoriate | Pass | Pass | Pass | Pass | Approved |
+| exigent | Pass | Pass | Pass | Pass | Approved |
+| expurgate | Pass | Pass | Pass | Pass | Approved |
+| extirpate | Pass | Pass | Pass | Pass | Approved |
+| fatuous | Pass | Pass | Pass | Pass | Approved |
+| fecund | Pass | Pass | Pass | Pass | Approved |
+| fulminate | Pass | Pass | Pass | Pass | Approved |
+| gainsay | Pass | Pass | Pass | Pass | Approved |
+| gerrymandering | Pass | Pass | Pass | Pass | Approved |
+| impecunious | Pass | Pass | Pass | Pass | Approved |
+| ineluctable | Pass | Pass | Pass | Pass | Approved |
+| inimical | Pass | Pass | Pass | Pass | Approved |
+| inscrutable | Pass | Pass | Pass | Pass | Approved |
+| internecine | Pass | Pass | Pass | Pass | Approved |
+| malfeasant | Pass | Pass | Pass | Pass | Approved |
+| obdurate | Pass | Pass | Pass | Pass | Approved |
+| opprobrium | Pass | Pass | Pass | Pass | Approved |
+| palimpsest | Pass | Pass | Pass | Pass | Approved |
+| tendentious | Pass | Pass | Pass | Pass | Approved |
+| termagant | Pass | Pass | Pass | Pass | Approved |
+| trenchant | Pass | Pass | Pass | Pass | Approved |
+| nugatory | Pass | Pass | Pass | Pass | Approved |
+| panegyric | Pass | Pass | Pass | Pass | Approved |
