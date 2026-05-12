@@ -303,3 +303,35 @@
 - exponent | L5-Def:能 | L5-Ex:能 | L6:能(线索词: multiply,times) | 选项:[assess / exponent / exponentiation / heterogeneous] | L7:OK | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
 - cortex | L5-Def:能 | L5-Ex:能 | L6:能(线索词: outer,brain) | 选项:[bizarre / cortex / equanimity / magnanimity] | L7:OK | L8:不合适(学科词偏硬；需更基础概念铺垫(可改为识别词))
 - adjunct | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:extra)，易靠语感/蒙) | 选项:[adjunct / conveyance / embellish / extraneous] | L7:OK | L8:合适
+
+## 快速汇总（便于Gate决策）
+
+- 词数：301
+- L8（学习路径）统计：合适 102；勉强 64；不合适 135
+- L7（文化敏感）标记：注意 24（其余 OK）
+
+L7 注意词（建议：例句更中性/更普适，尽量避开制度/宗教/沉重灾难叙事；或在课堂配中文解释）：
+- cargo
+- chamber
+- civic
+- confess
+- contract
+- council
+- courtesy
+- devastate
+- discrimination
+- ecology
+- extraordinary
+- federal
+- frequency
+- graduate
+- gulf
+- annihilate
+- communique
+- consecration
+- destitution
+- dissidence
+- immutable
+- impugn
+- indemnify
+- irascible
