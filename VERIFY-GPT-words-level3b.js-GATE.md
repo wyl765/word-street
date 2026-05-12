@@ -1,321 +1,319 @@
-# VERIFY-GPT-words-level3b.js-GATE
+# VERIFY-GPT — words-level3b.js
 
-> 说明：逐词 L5-L8（Mark模拟/例句反测/文化敏感/学习路径）。每词一行。
+说明：每个词一行（不跳过）。字段：L5-Def / L5-Ex / L6(遮词+四选一) / L7(文化敏感) / L8(学习路径)。
 
-| # | Word | L5 (Def / Ex) | L6 反测(唯一?) | L6 4选项(同level) | L7 文化 | L8 路径 | 备注 |
-|---:|------|--------------|----------------|------------------|---------|---------|------|
-| 1 | organism | 能 / 勉强 | 不唯一 | organism / evaporation / condensation / precipitation | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 2 | evaporation | 勉强 / 不能 | 不唯一 | evaporation / condensation / precipitation / atmosphere | PASS | 偏难 | 定义偏长/有生词(0)；例句线索弱或生词多(3)；L6:线索词不足/语境泛；词形长+学术概念，建议主题单元/先铺垫 |
-| 3 | condensation | 勉强 / 勉强 | 不唯一 | condensation / precipitation / atmosphere / nutrient | PASS | 偏难 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形长+学术概念，建议主题单元/先铺垫 |
-| 4 | precipitation | 勉强 / 不能 | 唯一 | precipitation / atmosphere / nutrient / photosynthesis | PASS | 偏难 | 定义偏长/有生词(0)；例句线索弱或生词多(4)；L6:def↔ex线索词重合2；词形较长，需分音节/拼读支持 |
-| 5 | atmosphere | 能 / 不能 | 不唯一 | atmosphere / nutrient / photosynthesis / pollination | PASS | 偏难 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 6 | nutrient | 勉强 / 能 | 勉强 | nutrient / photosynthesis / pollination / germinate | PASS | 合适 | 定义偏长/有生词(0)；L6:线索词较少 |
-| 7 | photosynthesis | 勉强 / 勉强 | 唯一 | photosynthesis / pollination / germinate / larva | PASS | 偏难 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:def↔ex线索词重合4；词形较长，需分音节/拼读支持 |
-| 8 | pollination | 勉强 / 能 | 勉强 | pollination / germinate / larva / metamorphosis | PASS | 偏难 | 定义偏长/有生词(2)；L6:线索词较少；词形较长，需分音节/拼读支持 |
-| 9 | germinate | 能 / 勉强 | 不唯一 | germinate / larva / metamorphosis / camouflage | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 10 | larva | 勉强 / 勉强 | 不唯一 | larva / metamorphosis / camouflage / migration | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 11 | metamorphosis | 勉强 / 勉强 | 不唯一 | metamorphosis / camouflage / migration / hibernation | PASS | 偏难 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 12 | camouflage | 能 / 能 | 不唯一 | camouflage / migration / hibernation / adaptation | PASS | 偏难 | L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 13 | migration | 勉强 / 能 | 不唯一 | migration / hibernation / adaptation / ecosystem | PASS | 合适 | 定义偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 14 | hibernation | 能 / 勉强 | 不唯一 | hibernation / adaptation / ecosystem / solar | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 15 | adaptation | 能 / 勉强 | 勉强 | adaptation / ecosystem / solar / lunar | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词较少；词形较长，需分音节/拼读支持 |
-| 16 | ecosystem | 勉强 / 勉强 | 不唯一 | ecosystem / solar / lunar / friction | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 17 | solar | 能 / 能 | 不唯一 | solar / lunar / friction / electricity | PASS | 合适 | L6:线索词不足/语境泛 |
-| 18 | lunar | 能 / 勉强 | 勉强 | lunar / friction / electricity / circuit | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词较少 |
-| 19 | friction | 不能 / 勉强 | 不唯一 | friction / electricity / circuit / conductor | PASS | 合适 | 定义抽象/生词多(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 20 | electricity | 勉强 / 勉强 | 勉强 | electricity / circuit / conductor / insulator | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词较少；词形较长，需分音节/拼读支持 |
-| 21 | circuit | 能 / 勉强 | 不唯一 | circuit / conductor / insulator / microscope | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 22 | conductor | 勉强 / 勉强 | 勉强 | conductor / insulator / microscope / dissolve | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词较少；学术概念，需先有概念/学科语境 |
-| 23 | insulator | 勉强 / 勉强 | 勉强 | insulator / microscope / dissolve / mass | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词较少；学术概念，需先有概念/学科语境 |
-| 24 | microscope | 能 / 能 | 不唯一 | microscope / dissolve / mass / renewable | PASS | 偏难 | L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 25 | dissolve | 勉强 / 勉强 | 不唯一 | dissolve / mass / renewable / nonrenewable | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛；学术概念，需先有概念/学科语境 |
-| 26 | mass | 能 / 能 | 不唯一 | mass / renewable / nonrenewable / pollution | PASS | 合适 | L6:线索词不足/语境泛 |
-| 27 | renewable | 勉强 / 勉强 | 不唯一 | renewable / nonrenewable / pollution / conservation | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 28 | nonrenewable | 能 / 不能 | 勉强 | nonrenewable / pollution / conservation / vertebrate | PASS | 偏难 | 例句线索弱或生词多(3)；L6:线索词较少；词形较长，需分音节/拼读支持 |
-| 29 | pollution | 勉强 / 勉强 | 勉强 | pollution / conservation / vertebrate / invertebrate | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词较少 |
-| 30 | conservation | 不能 / 不能 | 不唯一 | conservation / vertebrate / invertebrate / chrysalis | PASS | 偏难 | 定义抽象/生词多(3)；例句线索弱或生词多(3)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 31 | vertebrate | 能 / 能 | 勉强 | vertebrate / invertebrate / chrysalis / decompose | PASS | 偏难 | L6:线索词较少；词形较长，需分音节/拼读支持 |
-| 32 | invertebrate | 能 / 勉强 | 不唯一 | invertebrate / chrysalis / decompose / telescope | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 33 | chrysalis | 勉强 / 不能 | 勉强 | chrysalis / decompose / telescope / rotation | PASS | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:线索词较少 |
-| 34 | decompose | 能 / 能 | 不唯一 | decompose / telescope / rotation / constellation | PASS | 合适 | L6:线索词不足/语境泛 |
-| 35 | telescope | 能 / 能 | 不唯一 | telescope / rotation / constellation / volcano | PASS | 合适 | L6:线索词不足/语境泛 |
-| 36 | rotation | 能 / 勉强 | 不唯一 | rotation / constellation / volcano / earthquake | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 37 | constellation | 勉强 / 勉强 | 不唯一 | constellation / volcano / earthquake / weathering | PASS | 偏难 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 38 | volcano | 能 / 能 | 不唯一 | volcano / earthquake / weathering / tide | PASS | 合适 | L6:线索词不足/语境泛 |
-| 39 | earthquake | 勉强 / 勉强 | 不唯一 | earthquake / weathering / tide / classify | PASS | 偏难 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 40 | weathering | 勉强 / 勉强 | 不唯一 | weathering / tide / classify / cell | PASS | 偏难 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形长+学术概念，建议主题单元/先铺垫 |
-| 41 | tide | 能 / 能 | 勉强 | tide / classify / cell / carbon dioxide | PASS | 合适 | L6:线索词较少 |
-| 42 | classify | 勉强 / 不能 | 勉强 | classify / cell / carbon dioxide / sediment | PASS | 合适 | 定义偏长/有生词(0)；例句线索弱或生词多(3)；L6:线索词较少 |
-| 43 | cell | 能 / 能 | 不唯一 | cell / carbon dioxide / sediment / geography | PASS | 合适 | L6:线索词不足/语境泛 |
-| 44 | carbon dioxide | 勉强 / 能 | 勉强 | carbon dioxide / sediment / geography / peninsula | PASS | 偏难 | 定义偏长/有生词(1)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 45 | sediment | 勉强 / 勉强 | 勉强 | sediment / geography / peninsula / urban | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词较少 |
-| 46 | geography | 能 / 勉强 | 不唯一 | geography / peninsula / urban / rural | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 47 | peninsula | 能 / 不能 | 勉强 | peninsula / urban / rural / suburban | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词较少 |
-| 48 | urban | 勉强 / 勉强 | 勉强 | urban / rural / suburban / civilization | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:线索词较少 |
-| 49 | rural | 能 / 能 | 勉强 | rural / suburban / civilization / artifact | PASS | 合适 | L6:线索词较少 |
-| 50 | suburban | 能 / 不能 | 勉强 | suburban / civilization / artifact / agriculture | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词较少 |
-| 51 | civilization | 勉强 / 不能 | 勉强 | civilization / artifact / agriculture / industry | PASS | 偏难 | 定义偏长/有生词(0)；例句线索弱或生词多(5)；L6:线索词较少；词形较长，需分音节/拼读支持 |
-| 52 | artifact | 能 / 勉强 | 不唯一 | artifact / agriculture / industry / technology | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 53 | agriculture | 能 / 能 | 不唯一 | agriculture / industry / technology / governor | PASS | 偏难 | L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 54 | industry | 能 / 勉强 | 不唯一 | industry / technology / governor / justice | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 55 | technology | 勉强 / 能 | 勉强 | technology / governor / justice / monument | PASS | 偏难 | 定义偏长/有生词(2)；L6:线索词较少；词形较长，需分音节/拼读支持 |
-| 56 | governor | 能 / 勉强 | 不唯一 | governor / justice / monument / landmark | 注意 | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；文化:制度/权力语境(中性可用) |
-| 57 | justice | 能 / 勉强 | 不唯一 | justice / monument / landmark / capital | 注意 | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；文化:制度/权力语境(中性可用) |
-| 58 | monument | 勉强 / 勉强 | 不唯一 | monument / landmark / capital / timeline | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 59 | landmark | 勉强 / 勉强 | 不唯一 | landmark / capital / timeline / treaty | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 60 | capital | 勉强 / 能 | 不唯一 | capital / timeline / treaty / irrigation | PASS | 合适 | 定义偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 61 | timeline | 勉强 / 不能 | 不唯一 | timeline / treaty / irrigation / barter | PASS | 合适 | 定义偏长/有生词(0)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 62 | treaty | 不能 / 能 | 不唯一 | treaty / irrigation / barter / goods | 注意 | 偏难 | 定义抽象/生词多(3)；L6:线索词不足/语境泛；文化:暴力/战争/伤害语境；学术概念，需先有概念/学科语境 |
-| 63 | irrigation | 能 / 勉强 | 不唯一 | irrigation / barter / goods / services | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；词形长+学术概念，建议主题单元/先铺垫 |
-| 64 | barter | 能 / 能 | 不唯一 | barter / goods / services / petition | PASS | 合适 | L6:线索词不足/语境泛 |
-| 65 | goods | 能 / 能 | 不唯一 | goods / services / petition / numerator | PASS | 合适 | L6:线索词不足/语境泛 |
-| 66 | services | 勉强 / 不能 | 勉强 | services / petition / numerator / denominator | PASS | 合适 | 定义偏长/有生词(0)；例句线索弱或生词多(3)；L6:线索词较少 |
-| 67 | petition | 勉强 / 勉强 | 不唯一 | petition / numerator / denominator / equivalent | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 68 | numerator | 勉强 / 勉强 | 勉强 | numerator / denominator / equivalent / multiple | PASS | 偏难 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词较少；学术概念，需先有概念/学科语境 |
-| 69 | denominator | 勉强 / 勉强 | 勉强 | denominator / equivalent / multiple / perimeter | PASS | 偏难 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词较少；词形长+学术概念，建议主题单元/先铺垫 |
-| 70 | equivalent | 能 / 勉强 | 不唯一 | equivalent / multiple / perimeter / array | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 71 | multiple | 勉强 / 勉强 | 不唯一 | multiple / perimeter / array / symmetry | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 72 | perimeter | 勉强 / 勉强 | 不唯一 | perimeter / array / symmetry / parallel | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 73 | array | 能 / 勉强 | 唯一 | array / symmetry / parallel / perpendicular | PASS | 合适 | 例句偏长/有生词(1)；L6:def↔ex线索词重合2 |
-| 74 | symmetry | 能 / 不能 | 不唯一 | symmetry / parallel / perpendicular / vertex | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 75 | parallel | 能 / 勉强 | 不唯一 | parallel / perpendicular / vertex / polygon | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 76 | perpendicular | 能 / 能 | 不唯一 | perpendicular / vertex / polygon / quadrilateral | PASS | 偏难 | L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 77 | vertex | 能 / 能 | 不唯一 | vertex / polygon / quadrilateral / diameter | PASS | 合适 | L6:线索词不足/语境泛 |
-| 78 | polygon | 能 / 不能 | 唯一 | polygon / quadrilateral / diameter / radius | PASS | 合适 | 例句线索弱或生词多(3)；L6:def↔ex线索词重合2 |
-| 79 | quadrilateral | 勉强 / 勉强 | 不唯一 | quadrilateral / diameter / radius / gram | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 80 | diameter | 勉强 / 勉强 | 不唯一 | diameter / radius / gram / kilogram | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 81 | radius | 勉强 / 能 | 不唯一 | radius / gram / kilogram / liter | PASS | 合适 | 定义偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 82 | gram | 能 / 能 | 不唯一 | gram / kilogram / liter / centimeter | PASS | 合适 | L6:线索词不足/语境泛 |
-| 83 | kilogram | 能 / 能 | 不唯一 | kilogram / liter / centimeter / meter | PASS | 合适 | L6:线索词不足/语境泛 |
-| 84 | liter | 能 / 能 | 不唯一 | liter / centimeter / meter / kilometer | PASS | 偏难 | L6:线索词不足/语境泛；学术概念，需先有概念/学科语境 |
-| 85 | centimeter | 不能 / 勉强 | 不唯一 | centimeter / meter / kilometer / vertical | PASS | 偏难 | 定义抽象/生词多(3)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 86 | meter | 不能 / 能 | 不唯一 | meter / kilometer / vertical / elapsed | PASS | 合适 | 定义抽象/生词多(4)；L6:线索词不足/语境泛 |
-| 87 | kilometer | 能 / 能 | 不唯一 | kilometer / vertical / elapsed / commutative | PASS | 合适 | L6:线索词不足/语境泛 |
-| 88 | vertical | 能 / 勉强 | 不唯一 | vertical / elapsed / commutative / associative | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 89 | elapsed | 勉强 / 勉强 | 勉强 | elapsed / commutative / associative / distributive | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词较少 |
-| 90 | commutative | 勉强 / 勉强 | 不唯一 | commutative / associative / distributive / inverse | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 91 | associative | 勉强 / 勉强 | 不唯一 | associative / distributive / inverse / variable | 注意 | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛；文化:制度/权力语境(中性可用)；词形较长，需分音节/拼读支持 |
-| 92 | distributive | 不能 / 勉强 | 不唯一 | distributive / inverse / variable / expression | PASS | 偏难 | 定义抽象/生词多(5)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 93 | inverse | 勉强 / 不能 | 不唯一 | inverse / variable / expression / operation | PASS | 偏难 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:线索词不足/语境泛；学术概念，需先有概念/学科语境 |
-| 94 | variable | 勉强 / 勉强 | 唯一 | variable / expression / operation / congruent | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:def↔ex线索词重合2 |
-| 95 | expression | 不能 / 勉强 | 不唯一 | expression / operation / congruent / unit | PASS | 偏难 | 定义抽象/生词多(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 96 | operation | 勉强 / 勉强 | 不唯一 | operation / congruent / unit / composite | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 97 | congruent | 能 / 不能 | 不唯一 | congruent / unit / composite / prime | PASS | 合适 | 例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 98 | unit | 勉强 / 不能 | 不唯一 | unit / composite / prime / intersect | PASS | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 99 | composite | 勉强 / 勉强 | 唯一 | composite / prime / intersect / probability | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:def↔ex线索词重合2 |
-| 100 | prime | 勉强 / 勉强 | 唯一 | prime / intersect / probability / break the ice | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:def↔ex线索词重合2 |
-| 101 | intersect | 能 / 勉强 | 不唯一 | intersect / probability / break the ice / piece of cake | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 102 | probability | 能 / 能 | 不唯一 | probability / break the ice / piece of cake / under the weather | PASS | 偏难 | L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 103 | break the ice | 能 / 勉强 | 不唯一 | break the ice / piece of cake / under the weather / hit the books | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 104 | piece of cake | 勉强 / 勉强 | 勉强 | piece of cake / under the weather / hit the books / on the same page | PASS | 偏难 | 定义偏长/有生词(0)；例句偏长/有生词(0)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 105 | under the weather | 能 / 能 | 勉强 | under the weather / hit the books / on the same page / cost an arm and a leg | PASS | 偏难 | L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 106 | hit the books | 能 / 勉强 | 不唯一 | hit the books / on the same page / cost an arm and a leg / let the cat out of the bag | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 107 | on the same page | 能 / 勉强 | 勉强 | on the same page / cost an arm and a leg / let the cat out of the bag / bite off more than you can chew | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 108 | cost an arm and a leg | 能 / 能 | 不唯一 | cost an arm and a leg / let the cat out of the bag / bite off more than you can chew / once in a blue moon | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 109 | let the cat out of the bag | 能 / 勉强 | 不唯一 | let the cat out of the bag / bite off more than you can chew / once in a blue moon / when pigs fly | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 110 | bite off more than you can chew | 能 / 勉强 | 勉强 | bite off more than you can chew / once in a blue moon / when pigs fly / spill the beans | PASS | 偏难 | 例句偏长/有生词(0)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 111 | once in a blue moon | 能 / 勉强 | 不唯一 | once in a blue moon / when pigs fly / spill the beans / raining cats and dogs | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 112 | when pigs fly | 能 / 能 | 不唯一 | when pigs fly / spill the beans / raining cats and dogs / butterflies in my stomach | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 113 | spill the beans | 勉强 / 能 | 不唯一 | spill the beans / raining cats and dogs / butterflies in my stomach / the ball is in your court | PASS | 偏难 | 定义偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 114 | raining cats and dogs | 能 / 勉强 | 勉强 | raining cats and dogs / butterflies in my stomach / the ball is in your court / barking up the wrong tree | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 115 | butterflies in my stomach | 能 / 勉强 | 不唯一 | butterflies in my stomach / the ball is in your court / barking up the wrong tree / hold your horses | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 116 | the ball is in your court | 勉强 / 勉强 | 不唯一 | the ball is in your court / barking up the wrong tree / hold your horses / two peas in a pod | PASS | 偏难 | 定义偏长/有生词(1)；例句偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 117 | barking up the wrong tree | 勉强 / 勉强 | 勉强 | barking up the wrong tree / hold your horses / two peas in a pod / a blessing in disguise | PASS | 偏难 | 定义偏长/有生词(0)；例句偏长/有生词(0)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 118 | hold your horses | 能 / 能 | 不唯一 | hold your horses / two peas in a pod / a blessing in disguise / get cold feet | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 119 | two peas in a pod | 能 / 能 | 不唯一 | two peas in a pod / a blessing in disguise / get cold feet / go the extra mile | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 120 | a blessing in disguise | 能 / 勉强 | 不唯一 | a blessing in disguise / get cold feet / go the extra mile / keep an eye on | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 121 | get cold feet | 能 / 勉强 | 不唯一 | get cold feet / go the extra mile / keep an eye on / the last straw | PASS | 偏难 | 例句偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 122 | go the extra mile | 能 / 不能 | 不唯一 | go the extra mile / keep an eye on / the last straw / sit on the fence | PASS | 偏难 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 123 | keep an eye on | 勉强 / 能 | 不唯一 | keep an eye on / the last straw / sit on the fence / see eye to eye | PASS | 偏难 | 定义偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 124 | the last straw | 不能 / 能 | 不唯一 | the last straw / sit on the fence / see eye to eye / back to square one | PASS | 偏难 | 定义抽象/生词多(3)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 125 | sit on the fence | 能 / 勉强 | 不唯一 | sit on the fence / see eye to eye / back to square one / put all your eggs in one basket | PASS | 偏难 | 例句偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 126 | see eye to eye | 能 / 勉强 | 不唯一 | see eye to eye / back to square one / put all your eggs in one basket / pull someone's leg | PASS | 偏难 | 例句偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 127 | back to square one | 能 / 勉强 | 不唯一 | back to square one / put all your eggs in one basket / pull someone's leg / throw in the towel | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 128 | put all your eggs in one basket | 能 / 勉强 | 不唯一 | put all your eggs in one basket / pull someone's leg / throw in the towel / on cloud nine | PASS | 偏难 | 例句偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 129 | pull someone's leg | 勉强 / 勉强 | 不唯一 | pull someone's leg / throw in the towel / on cloud nine / in hot water | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 130 | throw in the towel | 能 / 勉强 | 勉强 | throw in the towel / on cloud nine / in hot water / come up with | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 131 | on cloud nine | 能 / 能 | 不唯一 | on cloud nine / in hot water / come up with / turn out | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 132 | in hot water | 勉强 / 勉强 | 不唯一 | in hot water / come up with / turn out / run out of | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 133 | come up with | 能 / 能 | 不唯一 | come up with / turn out / run out of / get along with | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 134 | turn out | 能 / 勉强 | 不唯一 | turn out / run out of / get along with / carry on | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 135 | run out of | 勉强 / 不能 | 不唯一 | run out of / get along with / carry on / stand for | PASS | 偏难 | 定义偏长/有生词(0)；例句线索弱或生词多(3)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 136 | get along with | 不能 / 勉强 | 不唯一 | get along with / carry on / stand for / take part in | PASS | 偏难 | 定义抽象/生词多(3)；例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 137 | carry on | 能 / 勉强 | 不唯一 | carry on / stand for / take part in / go over | PASS | 偏难 | 例句偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 138 | stand for | 能 / 勉强 | 不唯一 | stand for / take part in / go over / a penny for your thoughts | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 139 | take part in | 能 / 勉强 | 不唯一 | take part in / go over / a penny for your thoughts / actions speak louder than words | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 140 | go over | 能 / 勉强 | 不唯一 | go over / a penny for your thoughts / actions speak louder than words / every cloud has a silver lining | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 141 | a penny for your thoughts | 能 / 勉强 | 不唯一 | a penny for your thoughts / actions speak louder than words / every cloud has a silver lining / kill two birds with one stone | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 142 | actions speak louder than words | 能 / 勉强 | 勉强 | actions speak louder than words / every cloud has a silver lining / kill two birds with one stone / better late than never | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 143 | every cloud has a silver lining | 能 / 勉强 | 勉强 | every cloud has a silver lining / kill two birds with one stone / better late than never / practice makes perfect | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 144 | kill two birds with one stone | 能 / 勉强 | 不唯一 | kill two birds with one stone / better late than never / practice makes perfect / the early bird catches the worm | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 145 | better late than never | 能 / 能 | 唯一 | better late than never / practice makes perfect / the early bird catches the worm / don't judge a book by its cover | PASS | 偏难 | L6:def↔ex线索词重合3；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 146 | practice makes perfect | 勉强 / 勉强 | 不唯一 | practice makes perfect / the early bird catches the worm / don't judge a book by its cover / hit the nail on the head | PASS | 偏难 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 147 | the early bird catches the worm | 勉强 / 不能 | 勉强 | the early bird catches the worm / don't judge a book by its cover / hit the nail on the head / a taste of your own medicine | PASS | 偏难 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 148 | don't judge a book by its cover | 能 / 勉强 | 勉强 | don't judge a book by its cover / hit the nail on the head / a taste of your own medicine / burn the midnight oil | 注意 | 偏难 | 例句偏长/有生词(1)；L6:线索词较少；文化:制度/权力语境(中性可用)；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 149 | hit the nail on the head | 勉强 / 勉强 | 勉强 | hit the nail on the head / a taste of your own medicine / burn the midnight oil / on the other hand | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 150 | a taste of your own medicine | 能 / 不能 | 不唯一 | a taste of your own medicine / burn the midnight oil / on the other hand / subsequently | PASS | 偏难 | 例句线索弱或生词多(4)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 151 | burn the midnight oil | 能 / 不能 | 不唯一 | burn the midnight oil / on the other hand / subsequently / for example | PASS | 偏难 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 152 | on the other hand | 能 / 勉强 | 不唯一 | on the other hand / subsequently / for example / to begin with | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 153 | subsequently | 能 / 能 | 不唯一 | subsequently / for example / to begin with / above all | PASS | 偏难 | L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 154 | for example | 能 / 能 | 不唯一 | for example / to begin with / above all / as soon as | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 155 | to begin with | 勉强 / 能 | 不唯一 | to begin with / above all / as soon as / rather than | PASS | 偏难 | 定义偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 156 | above all | 勉强 / 能 | 不唯一 | above all / as soon as / rather than / so that | PASS | 偏难 | 定义偏长/有生词(2)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 157 | as soon as | 能 / 能 | 不唯一 | as soon as / rather than / so that / prior to | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 158 | rather than | 能 / 能 | 不唯一 | rather than / so that / prior to / to summarize | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 159 | so that | 能 / 勉强 | 不唯一 | so that / prior to / to summarize / first of all | PASS | 偏难 | 例句偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 160 | prior to | 能 / 能 | 不唯一 | prior to / to summarize / first of all / to illustrate | PASS | 偏难 | L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 161 | to summarize | 能 / 勉强 | 不唯一 | to summarize / first of all / to illustrate / in brief | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 162 | first of all | 能 / 能 | 勉强 | first of all / to illustrate / in brief / soon after | PASS | 偏难 | L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 163 | to illustrate | 能 / 勉强 | 不唯一 | to illustrate / in brief / soon after / not only...but also | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 164 | in brief | 能 / 勉强 | 不唯一 | in brief / soon after / not only...but also / whereas | PASS | 偏难 | 例句偏长/有生词(0)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 165 | soon after | 能 / 勉强 | 不唯一 | soon after / not only...but also / whereas / thus | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 166 | not only...but also | 勉强 / 能 | 勉强 | not only...but also / whereas / thus / granted | PASS | 偏难 | 定义偏长/有生词(0)；L6:线索词较少；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 167 | whereas | 能 / 能 | 不唯一 | whereas / thus / granted / to put it simply | PASS | 合适 | L6:线索词不足/语境泛 |
-| 168 | thus | 能 / 勉强 | 不唯一 | thus / granted / to put it simply / dodder | PASS | 合适 | 例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 169 | granted | 勉强 / 能 | 不唯一 | granted / to put it simply / dodder / dogma | PASS | 合适 | 定义偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 170 | to put it simply | 勉强 / 勉强 | 不唯一 | to put it simply / dodder / dogma / doldrums | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛；习语/固定搭配，对MAP197偏早(建议先口语场景) |
-| 171 | dodder | 能 / 勉强 | 不唯一 | dodder / dogma / doldrums / dole | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 172 | dogma | 不能 / 勉强 | 勉强 | dogma / doldrums / dole / dolt | PASS | 合适 | 定义抽象/生词多(0)；例句偏长/有生词(0)；L6:线索词较少 |
-| 173 | doldrums | 勉强 / 勉强 | 不唯一 | doldrums / dole / dolt / donjon | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 174 | dole | 能 / 勉强 | 不唯一 | dole / dolt / donjon / dosage | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 175 | dolt | 能 / 勉强 | 不唯一 | dolt / donjon / dosage / dote | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 176 | donjon | 勉强 / 不能 | 唯一 | donjon / dosage / dote / dowel | PASS | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:def↔ex线索词重合2 |
-| 177 | dosage | 能 / 勉强 | 不唯一 | dosage / dote / dowel / downpour | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 178 | dote | 能 / 不能 | 不唯一 | dote / dowel / downpour / drab | PASS | 合适 | 例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 179 | dowel | 勉强 / 勉强 | 不唯一 | dowel / downpour / drab / dragnet | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 180 | downpour | 能 / 不能 | 不唯一 | downpour / drab / dragnet / drape | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 181 | drab | 能 / 勉强 | 不唯一 | drab / dragnet / drape / dreary | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 182 | dragnet | 能 / 勉强 | 不唯一 | dragnet / drape / dreary / drench | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 183 | drape | 能 / 勉强 | 不唯一 | drape / dreary / drench / drizzle | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 184 | dreary | 能 / 能 | 不唯一 | dreary / drench / drizzle / drone | PASS | 合适 | L6:线索词不足/语境泛 |
-| 185 | drench | 能 / 勉强 | 不唯一 | drench / drizzle / drone / droop | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 186 | drizzle | 能 / 勉强 | 不唯一 | drizzle / drone / droop / dub | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 187 | drone | 勉强 / 勉强 | 不唯一 | drone / droop / dub / dugout | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 188 | droop | 勉强 / 勉强 | 不唯一 | droop / dub / dugout / dungeon | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 189 | dub | 能 / 勉强 | 不唯一 | dub / dugout / dungeon / dye | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 190 | dugout | 勉强 / 勉强 | 不唯一 | dugout / dungeon / dye / dike | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 191 | dungeon | 勉强 / 勉强 | 不唯一 | dungeon / dye / dike / earmark | 注意 | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛；文化:暴力/战争/伤害语境 |
-| 192 | dye | 能 / 勉强 | 唯一 | dye / dike / earmark / earthy | PASS | 合适 | 例句偏长/有生词(2)；L6:def↔ex线索词重合2 |
-| 193 | dike | 能 / 勉强 | 不唯一 | dike / earmark / earthy / eave | PASS | 合适 | 例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 194 | earmark | 勉强 / 勉强 | 不唯一 | earmark / earthy / eave / ebony | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 195 | earthy | 能 / 勉强 | 不唯一 | earthy / eave / ebony / effervescent | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 196 | eave | 勉强 / 不能 | 不唯一 | eave / ebony / effervescent / effigy | PASS | 合适 | 定义偏长/有生词(0)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 197 | ebony | 能 / 勉强 | 不唯一 | ebony / effervescent / effigy / egress | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 198 | effervescent | 勉强 / 勉强 | 不唯一 | effervescent / effigy / egress / elapse | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 199 | effigy | 能 / 勉强 | 不唯一 | effigy / egress / elapse / elate | 注意 | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；文化:制度/权力语境(中性可用) |
-| 200 | egress | 能 / 勉强 | 不唯一 | egress / elapse / elate / elf | 注意 | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；文化:制度/权力语境(中性可用) |
-| 201 | elapse | 能 / 勉强 | 不唯一 | elapse / elate / elf / elocution | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 202 | elate | 能 / 勉强 | 不唯一 | elate / elf / elocution / elongate | PASS | 合适 | 例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 203 | elf | 勉强 / 勉强 | 不唯一 | elf / elocution / elongate / elude | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 204 | elocution | 能 / 不能 | 不唯一 | elocution / elongate / elude / emboss | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 205 | elongate | 能 / 勉强 | 不唯一 | elongate / elude / emboss / emporium | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 206 | elude | 能 / 勉强 | 不唯一 | elude / emboss / emporium / enamel | 注意 | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；文化:暴力/战争/伤害语境 |
-| 207 | emboss | 能 / 勉强 | 不唯一 | emboss / emporium / enamel / encore | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 208 | emporium | 能 / 不能 | 不唯一 | emporium / enamel / encore / encrust | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 209 | enamel | 勉强 / 勉强 | 勉强 | enamel / encore / encrust / encyclopedia | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词较少 |
-| 210 | encore | 勉强 / 勉强 | 不唯一 | encore / encrust / encyclopedia / engross | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 211 | encrust | 能 / 不能 | 不唯一 | encrust / encyclopedia / engross / enshroud | PASS | 合适 | 例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 212 | encyclopedia | 勉强 / 勉强 | 不唯一 | encyclopedia / engross / enshroud / enthrall | PASS | 偏难 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 213 | engross | 不能 / 不能 | 不唯一 | engross / enshroud / enthrall / entreat | PASS | 合适 | 定义抽象/生词多(3)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 214 | enshroud | 能 / 勉强 | 不唯一 | enshroud / enthrall / entreat / epic | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 215 | enthrall | 不能 / 不能 | 不唯一 | enthrall / entreat / epic / errand | PASS | 合适 | 定义抽象/生词多(4)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 216 | entreat | 不能 / 不能 | 不唯一 | entreat / epic / errand / errant | PASS | 合适 | 定义抽象/生词多(3)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 217 | epic | 能 / 勉强 | 不唯一 | epic / errand / errant / escarpment | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 218 | errand | 勉强 / 勉强 | 不唯一 | errand / errant / escarpment / ethereal | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 219 | errant | 能 / 勉强 | 不唯一 | errant / escarpment / ethereal / evergreen | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 220 | escarpment | 能 / 勉强 | 不唯一 | escarpment / ethereal / evergreen / expanse | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 221 | ethereal | 勉强 / 勉强 | 不唯一 | ethereal / evergreen / expanse / expat | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 222 | evergreen | 勉强 / 勉强 | 勉强 | evergreen / expanse / expat / expel | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词较少 |
-| 223 | expanse | 能 / 勉强 | 不唯一 | expanse / expat / expel / eyelet | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 224 | expat | 勉强 / 勉强 | 不唯一 | expat / expel / eyelet / facet | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 225 | expel | 能 / 勉强 | 不唯一 | expel / eyelet / facet / fallow | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 226 | eyelet | 勉强 / 勉强 | 不唯一 | eyelet / facet / fallow / falter | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 227 | facet | 能 / 不能 | 不唯一 | facet / fallow / falter / fanfare | PASS | 合适 | 例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 228 | fallow | 勉强 / 勉强 | 唯一 | fallow / falter / fanfare / farce | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:def↔ex线索词重合2 |
-| 229 | falter | 能 / 勉强 | 不唯一 | falter / fanfare / farce / feign | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 230 | fanfare | 勉强 / 不能 | 不唯一 | fanfare / farce / feign / festoon | PASS | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(5)；L6:线索词不足/语境泛 |
-| 231 | farce | 不能 / 勉强 | 勉强 | farce / feign / festoon / fidget | PASS | 合适 | 定义抽象/生词多(4)；例句偏长/有生词(2)；L6:线索词较少 |
-| 232 | feign | 能 / 不能 | 不唯一 | feign / festoon / fidget / fiesta | PASS | 合适 | 例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 233 | festoon | 不能 / 不能 | 不唯一 | festoon / fidget / fiesta / figment | PASS | 合适 | 定义抽象/生词多(3)；例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 234 | fidget | 勉强 / 勉强 | 不唯一 | fidget / fiesta / figment / filly | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 235 | fiesta | 勉强 / 勉强 | 唯一 | fiesta / figment / filly / finale | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:def↔ex线索词重合2 |
-| 236 | figment | 勉强 / 不能 | 不唯一 | figment / filly / finale / finesse | PASS | 合适 | 定义偏长/有生词(0)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 237 | filly | 能 / 勉强 | 不唯一 | filly / finale / finesse / flair | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 238 | finale | 能 / 不能 | 不唯一 | finale / finesse / flair / flak | PASS | 合适 | 例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 239 | finesse | 能 / 勉强 | 不唯一 | finesse / flair / flak / flank | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 240 | flair | 勉强 / 勉强 | 不唯一 | flair / flak / flank / flaw | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 241 | flak | 勉强 / 勉强 | 不唯一 | flak / flank / flaw / fleece | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 242 | flank | 能 / 勉强 | 不唯一 | flank / flaw / fleece / flicker | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 243 | flaw | 能 / 勉强 | 不唯一 | flaw / fleece / flicker / flinch | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 244 | fleece | 能 / 勉强 | 不唯一 | fleece / flicker / flinch / flotsam | PASS | 合适 | 例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 245 | flicker | 能 / 勉强 | 不唯一 | flicker / flinch / flotsam / flounce | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 246 | flinch | 勉强 / 勉强 | 不唯一 | flinch / flotsam / flounce / flout | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 247 | flotsam | 勉强 / 勉强 | 不唯一 | flotsam / flounce / flout / flue | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 248 | flounce | 勉强 / 能 | 不唯一 | flounce / flout / flue / fluent | PASS | 合适 | 定义偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 249 | flout | 勉强 / 勉强 | 不唯一 | flout / flue / fluent / flurry | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 250 | flue | 勉强 / 勉强 | 勉强 | flue / fluent / flurry / foothold | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词较少 |
-| 251 | fluent | 勉强 / 勉强 | 不唯一 | fluent / flurry / foothold / foray | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 252 | flurry | 勉强 / 不能 | 不唯一 | flurry / foothold / foray / ford | PASS | 合适 | 定义偏长/有生词(1)；例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 253 | foothold | 能 / 不能 | 不唯一 | foothold / foray / ford / forlorn | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 254 | foray | 勉强 / 不能 | 不唯一 | foray / ford / forlorn / forsake | PASS | 合适 | 定义偏长/有生词(0)；例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 255 | ford | 勉强 / 勉强 | 唯一 | ford / forlorn / forsake / fort | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:def↔ex线索词重合2 |
-| 256 | forlorn | 能 / 勉强 | 不唯一 | forlorn / forsake / fort / forte | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 257 | forsake | 能 / 勉强 | 不唯一 | forsake / fort / forte / fortress | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 258 | fort | 勉强 / 不能 | 不唯一 | fort / forte / fortress / fowl | PASS | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 259 | forte | 能 / 勉强 | 不唯一 | forte / fortress / fowl / foyer | PASS | 合适 | 例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 260 | fortress | 勉强 / 勉强 | 唯一 | fortress / fowl / foyer / frantic | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:def↔ex线索词重合3 |
-| 261 | fowl | 能 / 勉强 | 不唯一 | fowl / foyer / frantic / frigate | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 262 | foyer | 能 / 勉强 | 不唯一 | foyer / frantic / frigate / fringe | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 263 | frantic | 能 / 不能 | 不唯一 | frantic / frigate / fringe / frolic | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 264 | frigate | 勉强 / 不能 | 不唯一 | frigate / fringe / frolic / froth | 注意 | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:线索词不足/语境泛；文化:暴力/战争/伤害语境 |
-| 265 | fringe | 勉强 / 能 | 不唯一 | fringe / frolic / froth / fulcrum | PASS | 合适 | 定义偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 266 | frolic | 能 / 不能 | 不唯一 | frolic / froth / fulcrum / foresee | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 267 | froth | 能 / 勉强 | 不唯一 | froth / fulcrum / foresee / fumigate | PASS | 偏难 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；学术概念，需先有概念/学科语境 |
-| 268 | fulcrum | 勉强 / 勉强 | 不唯一 | fulcrum / foresee / fumigate / furlong | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 269 | foresee | 勉强 / 勉强 | 不唯一 | foresee / fumigate / furlong / furor | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 270 | fumigate | 勉强 / 勉强 | 不唯一 | fumigate / furlong / furor / gable | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 271 | furlong | 勉强 / 勉强 | 勉强 | furlong / furor / gable / gadget | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词较少 |
-| 272 | furor | 勉强 / 勉强 | 不唯一 | furor / gable / gadget / gaffe | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 273 | gable | 勉强 / 勉强 | 不唯一 | gable / gadget / gaffe / gait | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 274 | gadget | 能 / 不能 | 不唯一 | gadget / gaffe / gait / gallop | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 275 | gaffe | 不能 / 勉强 | 不唯一 | gaffe / gait / gallop / gambit | PASS | 合适 | 定义抽象/生词多(3)；例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 276 | gait | 能 / 勉强 | 不唯一 | gait / gallop / gambit / gambol | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 277 | gallop | 能 / 勉强 | 勉强 | gallop / gambit / gambol / garb | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词较少 |
-| 278 | gambit | 能 / 勉强 | 不唯一 | gambit / gambol / garb / garland | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 279 | gambol | 勉强 / 勉强 | 不唯一 | gambol / garb / garland / garner | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 280 | garb | 勉强 / 勉强 | 不唯一 | garb / garland / garner / gem | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 281 | garland | 勉强 / 不能 | 不唯一 | garland / garner / gem / genteel | PASS | 合适 | 定义偏长/有生词(1)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 282 | garner | 能 / 勉强 | 不唯一 | garner / gem / genteel / ghastly | 注意 | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；文化:制度/权力语境(中性可用) |
-| 283 | gem | 勉强 / 不能 | 不唯一 | gem / genteel / ghastly / giddy | PASS | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 284 | genteel | 能 / 勉强 | 不唯一 | genteel / ghastly / giddy / girdle | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 285 | ghastly | 能 / 勉强 | 不唯一 | ghastly / giddy / girdle / glade | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 286 | giddy | 勉强 / 勉强 | 勉强 | giddy / girdle / glade / glaze | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(1)；L6:线索词较少 |
-| 287 | girdle | 能 / 不能 | 勉强 | girdle / glade / glaze / gleam | PASS | 合适 | 例句线索弱或生词多(4)；L6:线索词较少 |
-| 288 | glade | 能 / 不能 | 不唯一 | glade / glaze / gleam / glen | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 289 | glaze | 勉强 / 勉强 | 勉强 | glaze / gleam / glen / glimmer | PASS | 合适 | 定义偏长/有生词(0)；例句偏长/有生词(0)；L6:线索词较少 |
-| 290 | gleam | 能 / 勉强 | 不唯一 | gleam / glen / glimmer / glint | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 291 | glen | 能 / 不能 | 不唯一 | glen / glimmer / glint / glitch | PASS | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 292 | glimmer | 能 / 不能 | 不唯一 | glimmer / glint / glitch / gloat | PASS | 合适 | 例句线索弱或生词多(4)；L6:线索词不足/语境泛 |
-| 293 | glint | 能 / 勉强 | 不唯一 | glint / glitch / gloat / glut | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 294 | glitch | 不能 / 不能 | 不唯一 | glitch / gloat / glut / gnaw | PASS | 合适 | 定义抽象/生词多(3)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 295 | gloat | 不能 / 勉强 | 不唯一 | gloat / glut / gnaw / goblet | PASS | 合适 | 定义抽象/生词多(3)；例句偏长/有生词(0)；L6:线索词不足/语境泛 |
-| 296 | glut | 能 / 勉强 | 勉强 | glut / gnaw / goblet / gouge | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词较少 |
-| 297 | gnaw | 能 / 勉强 | 不唯一 | gnaw / goblet / gouge / graft | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 298 | goblet | 能 / 勉强 | 不唯一 | goblet / gouge / graft / graze | 注意 | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；文化:制度/权力语境(中性可用) |
-| 299 | gouge | 能 / 勉强 | 不唯一 | gouge / graft / graze / greenery | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 300 | graft | 勉强 / 不能 | 勉强 | graft / graze / greenery / gregarious | PASS | 合适 | 定义偏长/有生词(1)；例句线索弱或生词多(3)；L6:线索词较少 |
-| 301 | graze | 勉强 / 勉强 | 不唯一 | graze / greenery / gregarious / grid | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 302 | greenery | 能 / 勉强 | 不唯一 | greenery / gregarious / grid / grimace | PASS | 合适 | 例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 303 | gregarious | 能 / 勉强 | 不唯一 | gregarious / grid / grimace / grindstone | PASS | 偏难 | 例句偏长/有生词(2)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 304 | grid | 勉强 / 勉强 | 勉强 | grid / grimace / grindstone / grit | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(0)；L6:线索词较少 |
-| 305 | grimace | 勉强 / 勉强 | 不唯一 | grimace / grindstone / grit / grotto | PASS | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 306 | grindstone | 能 / 不能 | 不唯一 | grindstone / grit / grotto / grovel | PASS | 偏难 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛；词形较长，需分音节/拼读支持 |
-| 307 | grit | 勉强 / 勉强 | 不唯一 | grit / grotto / grovel / grueling | PASS | 合适 | 定义偏长/有生词(2)；例句偏长/有生词(2)；L6:线索词不足/语境泛 |
-| 308 | grotto | 勉强 / 不能 | 不唯一 | grotto / grovel / grueling / grumble | PASS | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 309 | grovel | 勉强 / 勉强 | 不唯一 | grovel / grueling / grumble / gulp | 注意 | 合适 | 定义偏长/有生词(1)；例句偏长/有生词(2)；L6:线索词不足/语境泛；文化:制度/权力语境(中性可用) |
-| 310 | grueling | 能 / 勉强 | 不唯一 | grueling / grumble / gulp / hackneyed | PASS | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 311 | grumble | 勉强 / 不能 | 不唯一 | grumble / gulp / hackneyed / hallow | PASS | 合适 | 定义偏长/有生词(2)；例句线索弱或生词多(5)；L6:线索词不足/语境泛 |
-| 312 | gulp | 不能 / 勉强 | 不唯一 | gulp / hackneyed / hallow / hamlet | PASS | 合适 | 定义抽象/生词多(4)；例句偏长/有生词(1)；L6:线索词不足/语境泛 |
-| 313 | hackneyed | 勉强 / 不能 | 不唯一 | hackneyed / hallow / hamlet / organism | PASS | 合适 | 定义偏长/有生词(1)；例句线索弱或生词多(3)；L6:线索词不足/语境泛 |
-| 314 | hallow | 能 / 不能 | 不唯一 | hallow / hamlet / organism / evaporation | 注意 | 合适 | 例句线索弱或生词多(3)；L6:线索词不足/语境泛；文化:宗教/神圣语境 |
-| 315 | hamlet | 能 / 勉强 | 不唯一 | hamlet / organism / evaporation / condensation | 注意 | 合适 | 例句偏长/有生词(1)；L6:线索词不足/语境泛；文化:宗教/神圣语境 |
+- organism | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adaptation / camouflage / organism / vertebrate] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- evaporation | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condensation / evaporation / pollution / weathering] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- condensation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condensation / dissolve / evaporation / weathering] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- precipitation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: rain,hail) | 选项:[downpour / flurry / precipitation / tide] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- atmosphere | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[atmosphere / lunar / nonrenewable / pollution] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- nutrient | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:soil)，易靠语感/蒙) | 选项:[adaptation / fallow / irrigation / nutrient] | L7:OK | L8:合适
+- photosynthesis | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: plants,use,make) | 选项:[ecosystem / nutrient / photosynthesis / solar] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- pollination | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:flower)，易靠语感/蒙) | 选项:[flinch / germinate / grid / pollination] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- germinate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[agriculture / foresee / germinate / organism] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- larva | L5-Def:能 | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[constellation / drape / electricity / larva] | L7:OK | L8:合适
+- metamorphosis | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:through)，易靠语感/蒙) | 选项:[hibernation / metamorphosis / nutrient / rural] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- camouflage | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[camouflage / enshroud / invertebrate / vertebrate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- migration | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hibernation / irrigation / migration / photosynthesis] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- hibernation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gouge / hibernation / migration / whereas] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- adaptation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:living)，易靠语感/蒙) | 选项:[adaptation / nutrient / organism / petition] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ecosystem | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adaptation / cell / ecosystem / services] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- solar | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[array / evaporation / photosynthesis / solar] | L7:OK | L8:合适
+- lunar | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:moon)，易靠语感/蒙) | 选项:[earthquake / furor / glitch / lunar] | L7:OK | L8:合适
+- friction | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:between)，易靠语感/蒙) | 选项:[dolt / expel / friction / parallel] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- electricity | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:lights)，易靠语感/蒙) | 选项:[conservation / electricity / facet / technology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- circuit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circuit / conductor / electricity / insulator] | L7:OK | L8:合适
+- conductor | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:electricity)，易靠语感/蒙) | 选项:[conductor / eyelet / insulator / metamorphosis] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- insulator | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:electricity)，易靠语感/蒙) | 选项:[circuit / conductor / insulator / lunar] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- microscope | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chrysalis / gadget / microscope / telescope] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- dissolve | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condensation / dissolve / drench / liter] | L7:OK | L8:合适
+- mass | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artifact / forsake / liter / mass] | L7:OK | L8:合适
+- renewable | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dye / gnaw / gulp / renewable] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- nonrenewable | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:cannot)，易靠语感/蒙) | 选项:[frolic / gallop / nonrenewable / probability] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- pollution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:air)，易靠语感/蒙) | 选项:[evaporation / geography / peninsula / pollution] | L7:注意(可能引发家长顾虑或需要解释：烟酒毒；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- conservation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barter / civilization / condensation / conservation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- vertebrate | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[camouflage / invertebrate / organism / vertebrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- invertebrate | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[camouflage / invertebrate / organism / vertebrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- chrysalis | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:caterpillar)，易靠语感/蒙) | 选项:[chrysalis / forsake / granted / larva] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- decompose | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chrysalis / decompose / distributive / dowel] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- telescope | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[chrysalis / gadget / microscope / telescope] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- rotation | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[girdle / grindstone / radius / rotation] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- constellation | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[constellation / expression / larva / vertical] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- volcano | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[evaporation / flank / mass / volcano] | L7:OK | L8:合适
+- earthquake | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dungeon / earthquake / lunar / weathering] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- weathering | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condensation / earthquake / evaporation / weathering] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- tide | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:water)，易靠语感/蒙) | 选项:[grid / migration / peninsula / tide] | L7:OK | L8:合适
+- classify | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:groups)，易靠语感/蒙) | 选项:[classify / ecosystem / farce / mass] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- cell | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adaptation / cell / ecosystem / fort] | L7:OK | L8:合适
+- carbon dioxide | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:勉强(线索词较少(仅:plants)，易靠语感/蒙) | 选项:[carbon dioxide / kill two birds with one stone / take part in / the ball is in your court] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- sediment | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:bottom)，易靠语感/蒙) | 选项:[gouge / grit / mass / sediment] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- geography | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[geography / peninsula / pollution / rotation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- peninsula | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:sides)，易靠语感/蒙) | 选项:[geography / peninsula / pollution / polygon] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- urban | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:busy)，易靠语感/蒙) | 选项:[industry / services / suburban / urban] | L7:OK | L8:合适
+- rural | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[array / civilization / rural / suburban] | L7:OK | L8:合适
+- suburban | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:city)，易靠语感/蒙) | 选项:[friction / rural / suburban / urban] | L7:OK | L8:合适
+- civilization | L5-Def:不能(超出二年级ESL可直接掌握；词很长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:cities)，易靠语感/蒙) | 选项:[civilization / rural / services / technology] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形很长、学术词缀)
+- artifact | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artifact / barter / gregarious / mass] | L7:OK | L8:合适
+- agriculture | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[agriculture / irrigation / migration / photosynthesis] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- industry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glaze / goods / industry / pollution] | L7:OK | L8:合适
+- technology | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[dolt / electricity / grindstone / technology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- governor | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[doldrums / forte / gait / governor] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:合适
+- justice | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gregarious / justice / services / technology] | L7:OK | L8:合适
+- monument | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cell / fort / landmark / monument] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- landmark | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[constellation / landmark / technology / timeline] | L7:OK | L8:合适
+- capital | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capital / circuit / suburban / urban] | L7:OK | L8:合适
+- timeline | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commutative / expression / radius / timeline] | L7:OK | L8:合适
+- treaty | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[downpour / elapsed / friction / treaty] | L7:OK | L8:合适
+- irrigation | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[agriculture / drone / irrigation / tide] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- barter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barter / conservation / gnaw / renewable] | L7:OK | L8:合适
+- goods | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[goods / industry / nutrient / services] | L7:OK | L8:合适
+- services | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:people)，易靠语感/蒙) | 选项:[ecosystem / goods / services / urban] | L7:OK | L8:合适
+- petition | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[governor / industry / petition / technology] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- numerator | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(多个选项都说得通，不能唯一确定) | 选项:[composite / denominator / multiple / numerator] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- denominator | L5-Def:勉强(需要中文支架/图示；词偏长、定义偏长) | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:不能(例句更像在说“numerator”，目标词不唯一) | 选项:[denominator / multiple / numerator / sediment] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- equivalent | L5-Def:勉强(需要中文支架/图示；词偏长、有抽象术语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emporium / equivalent / expression / kilometer] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- multiple | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[composite / multiple / prime / variable] | L7:OK | L8:合适
+- perimeter | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[girdle / kilometer / operation / perimeter] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- array | L5-Def:能 | L5-Ex:能 | L6:能(线索词: rows,columns) | 选项:[array / equivalent / kilogram / kilometer] | L7:OK | L8:合适
+- symmetry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[congruent / peninsula / quadrilateral / symmetry] | L7:OK | L8:合适
+- parallel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ebony / parallel / perpendicular / vertex] | L7:OK | L8:合适
+- perpendicular | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[intersect / perpendicular / quadrilateral / vertex] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- vertex | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ford / grid / intersect / vertex] | L7:OK | L8:合适
+- polygon | L5-Def:能 | L5-Ex:能 | L6:能(线索词: straight,sides) | 选项:[congruent / peninsula / polygon / quadrilateral] | L7:OK | L8:合适
+- quadrilateral | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[congruent / polygon / quadrilateral / symmetry] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- diameter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[diameter / metamorphosis / radius / vertical] | L7:OK | L8:合适
+- radius | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[polygon / radius / rotation / vertical] | L7:OK | L8:合适
+- gram | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / gram / liter / probability] | L7:OK | L8:合适
+- kilogram | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[furlong / kilogram / kilometer / meter] | L7:OK | L8:合适
+- liter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / gram / liter / mass] | L7:OK | L8:合适
+- centimeter | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / gram / liter / meter] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- meter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / kilometer / meter / unit] | L7:OK | L8:合适
+- kilometer | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[furlong / kilogram / kilometer / meter] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- vertical | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[evaporation / polygon / radius / vertical] | L7:OK | L8:合适
+- elapsed | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dye / elapsed / genteel / granted] | L7:OK | L8:合适
+- commutative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:不能(例句缺少释义线索(与定义0关键词重叠)，同类词易混) | 选项:[associative / commutative / granted / timeline] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- associative | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[associative / commutative / fluent / granted] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- distributive | L5-Def:勉强(需要中文支架/图示；词很长、定义偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decompose / distributive / grid / multiple] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- inverse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capital / circuit / inverse / operation] | L7:OK | L8:合适
+- variable | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: stands,number) | 选项:[composite / multiple / prime / variable] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- expression | L5-Def:不能(超出二年级ESL可直接掌握；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[equivalent / expression / multiple / timeline] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- operation | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[composite / expression / multiple / operation] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- congruent | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[congruent / perimeter / quadrilateral / symmetry] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- unit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dosage / meter / telescope / unit] | L7:OK | L8:合适
+- composite | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:能(线索词: number,evenly) | 选项:[composite / multiple / prime / variable] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- prime | L5-Def:能 | L5-Ex:能 | L6:能(线索词: number,evenly) | 选项:[composite / multiple / prime / variable] | L7:OK | L8:合适
+- intersect | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[granted / intersect / perpendicular / vertex] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- probability | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[foresee / forsake / gram / probability] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- break the ice | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break the ice / get cold feet / keep an eye on / two peas in a pod] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- piece of cake | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:hard)，易靠语感/蒙) | 选项:[carry on / piece of cake / raining cats and dogs / to put it simply] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- under the weather | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:feeling)，易靠语感/蒙) | 选项:[butterflies in my stomach / on cloud nine / so that / under the weather] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- hit the books | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[back to square one / burn the midnight oil / hit the books / piece of cake] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- on the same page | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[not only...but also / on the same page / see eye to eye / to put it simply] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- cost an arm and a leg | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a blessing in disguise / burn the midnight oil / cost an arm and a leg / raining cats and dogs] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- let the cat out of the bag | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(例句不够指向，猜词会跑偏) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a penny for your thoughts / let the cat out of the bag / spill the beans / to illustrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- bite off more than you can chew | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[actions speak louder than words / bite off more than you can chew / go the extra mile / put all your eggs in one basket] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- once in a blue moon | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[better late than never / not only...but also / once in a blue moon / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- when pigs fly | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[better late than never / go over / once in a blue moon / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- spill the beans | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry on / keep an eye on / let the cat out of the bag / spill the beans] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- raining cats and dogs | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry on / hit the books / piece of cake / raining cats and dogs] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- butterflies in my stomach | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a penny for your thoughts / butterflies in my stomach / on cloud nine / under the weather] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- the ball is in your court | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carbon dioxide / sit on the fence / take part in / the ball is in your court] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- barking up the wrong tree | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barking up the wrong tree / don't judge a book by its cover / on the other hand / rather than] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- hold your horses | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hold your horses / on the same page / sit on the fence / to put it simply] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- two peas in a pod | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break the ice / in brief / the early bird catches the worm / two peas in a pod] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- a blessing in disguise | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a blessing in disguise / a taste of your own medicine / every cloud has a silver lining / get along with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- get cold feet | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as soon as / get cold feet / go over / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- go the extra mile | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[bite off more than you can chew / go the extra mile / on the other hand / put all your eggs in one basket] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- keep an eye on | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as soon as / keep an eye on / on the same page / run out of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- the last straw | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a penny for your thoughts / get along with / practice makes perfect / the last straw] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- sit on the fence | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[sit on the fence / so that / the ball is in your court / under the weather] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- see eye to eye | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a penny for your thoughts / get along with / on the same page / see eye to eye] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- back to square one | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[back to square one / go over / hit the books / the early bird catches the worm] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- put all your eggs in one basket | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[actions speak louder than words / come up with / on the same page / put all your eggs in one basket] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- pull someone's leg | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a taste of your own medicine / break the ice / pull someone's leg / turn out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- throw in the towel | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:trying)，易靠语感/蒙) | 选项:[for example / sit on the fence / throw in the towel / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- on cloud nine | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break the ice / butterflies in my stomach / on cloud nine / under the weather] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- in hot water | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[come up with / first of all / in hot water / take part in] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- come up with | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barking up the wrong tree / come up with / put all your eggs in one basket / the ball is in your court] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- turn out | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[on the other hand / pull someone's leg / to summarize / turn out] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- run out of | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carbon dioxide / go over / run out of / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- get along with | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a blessing in disguise / a penny for your thoughts / every cloud has a silver lining / get along with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- carry on | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry on / keep an eye on / practice makes perfect / spill the beans] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- stand for | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[go over / stand for / to illustrate / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- take part in | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a taste of your own medicine / come up with / first of all / take part in] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- go over | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[go over / in hot water / the last straw / when pigs fly] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- a penny for your thoughts | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a penny for your thoughts / actions speak louder than words / hit the nail on the head / to illustrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- actions speak louder than words | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a penny for your thoughts / actions speak louder than words / hit the nail on the head / to illustrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- every cloud has a silver lining | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a blessing in disguise / a taste of your own medicine / every cloud has a silver lining / get along with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- kill two birds with one stone | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a taste of your own medicine / actions speak louder than words / kill two birds with one stone / the ball is in your court] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- better late than never | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[better late than never / practice makes perfect / so that / the last straw] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- practice makes perfect | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[better late than never / carry on / get along with / practice makes perfect] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- the early bird catches the worm | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[back to square one / go over / the early bird catches the worm / two peas in a pod] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- don't judge a book by its cover | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[don't judge a book by its cover / put all your eggs in one basket / spill the beans / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- hit the nail on the head | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:exactly)，易靠语感/蒙) | 选项:[as soon as / hit the nail on the head / run out of / to put it simply] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- a taste of your own medicine | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[a blessing in disguise / a taste of your own medicine / on the same page / take part in] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- burn the midnight oil | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[better late than never / burn the midnight oil / hit the books / so that] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- on the other hand | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barking up the wrong tree / don't judge a book by its cover / on the other hand / turn out] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- subsequently | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commutative / flounce / subsequently / timeline] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- for example | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[first of all / for example / not only...but also / throw in the towel] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- to begin with | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break the ice / first of all / the early bird catches the worm / to begin with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- above all | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above all / as soon as / rather than / stand for] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- as soon as | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as soon as / hit the nail on the head / prior to / run out of] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- rather than | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[above all / barking up the wrong tree / rather than / when pigs fly] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- so that | L5-Def:勉强(需要中文支架/图示；多词短语) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[carry on / go over / in brief / so that] | L7:OK | L8:勉强(可作为“认识词”或后置；短语)
+- prior to | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as soon as / go over / prior to / run out of] | L7:OK | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- to summarize | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hit the nail on the head / soon after / to put it simply / to summarize] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- first of all | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[break the ice / first of all / for example / to begin with] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- to illustrate | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[actions speak louder than words / for example / stand for / to illustrate] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- in brief | L5-Def:勉强(需要中文支架/图示；多词短语、拼写有负担) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[actions speak louder than words / carry on / in brief / prior to] | L7:注意(可能引发家长顾虑或需要解释：神秘/宗教类设定(家长口味分化)；建议例句更中性/更普适) | L8:勉强(可作为“认识词”或后置；短语、拼写负担)
+- soon after | L5-Def:勉强(需要中文支架/图示；多词短语、词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[as soon as / run out of / soon after / to summarize] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形偏长)
+- not only...but also | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[for example / not only...but also / on the same page / once in a blue moon] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- whereas | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gregarious / parallel / perpendicular / whereas] | L7:OK | L8:合适
+- thus | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cell / dike / multiple / thus] | L7:OK | L8:合适
+- granted | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[enshroud / finesse / granted / intersect] | L7:OK | L8:合适
+- to put it simply | L5-Def:不能(超出二年级ESL可直接掌握；多词短语、词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[hit the nail on the head / piece of cake / to put it simply / to summarize] | L7:OK | L8:不合适(对MAP≈197明显超纲；短语、词形很长)
+- dodder | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dodder / falter / flicker / ford] | L7:OK | L8:合适
+- dogma | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[constellation / dogma / expression / granted] | L7:OK | L8:合适
+- doldrums | L5-Def:勉强(需要中文支架/图示；拼写有负担、有抽象术语) | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[doldrums / giddy / gnaw / governor] | L7:OK | L8:合适
+- dole | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dole / foresee / forsake / gram] | L7:OK | L8:合适
+- dolt | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dolt / forte / friction / governor] | L7:OK | L8:合适
+- donjon | L5-Def:能 | L5-Ex:能 | L6:能(线索词: tower,castle) | 选项:[atmosphere / chrysalis / donjon / dungeon] | L7:OK | L8:合适
+- dosage | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dosage / grimace / hibernation / unit] | L7:OK | L8:合适
+- dote | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dote / engross / enthrall / flak] | L7:OK | L8:合适
+- dowel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decompose / dowel / ecosystem / grindstone] | L7:OK | L8:合适
+- downpour | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[downpour / flurry / gram / precipitation] | L7:OK | L8:合适
+- drab | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drab / dreary / grotto / symmetry] | L7:OK | L8:合适
+- dragnet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dragnet / emporium / expanse / governor] | L7:OK | L8:合适
+- drape | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drape / droop / facet / probability] | L7:OK | L8:合适
+- dreary | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drab / dreary / ebony / forlorn] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- drench | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dissolve / drench / enshroud / germinate] | L7:OK | L8:合适
+- drizzle | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[downpour / drizzle / earthy / precipitation] | L7:OK | L8:合适
+- drone | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drone / forsake / gadget / invertebrate] | L7:OK | L8:合适
+- droop | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[array / drape / droop / flaw] | L7:OK | L8:合适
+- dub | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[associative / commutative / dole / dub] | L7:OK | L8:合适
+- dugout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dugout / earthy / elapse / grovel] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:合适
+- dungeon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[donjon / dreary / dungeon / earthquake] | L7:OK | L8:合适
+- dye | L5-Def:能 | L5-Ex:能 | L6:能(线索词: used,color) | 选项:[drab / dye / ebony / petition] | L7:OK | L8:合适
+- dike | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[condensation / dike / fortress / girdle] | L7:OK | L8:合适
+- earmark | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dragnet / earmark / encyclopedia / gem] | L7:OK | L8:合适
+- earthy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[earthy / fallow / flank / nutrient] | L7:OK | L8:合适
+- eave | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eave / fringe / gable / radius] | L7:OK | L8:合适
+- ebony | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drab / dreary / dye / ebony] | L7:OK | L8:合适
+- effervescent | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[effervescent / fiesta / froth / organism] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- effigy | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[effigy / forte / gait / governor] | L7:OK | L8:合适
+- egress | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[egress / flounce / gait / grumble] | L7:OK | L8:合适
+- elapse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barter / conductor / elapse / eyelet] | L7:OK | L8:合适
+- elate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elate / frolic / gambol / photosynthesis] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- elf | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / elf / enthrall / gram] | L7:OK | L8:合适
+- elocution | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elocution / finesse / fluent / forte] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- elongate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elongate / hackneyed / petition / photosynthesis] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- elude | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[array / elude / flue / gem] | L7:OK | L8:合适
+- emboss | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emboss / encrust / fowl / goblet] | L7:OK | L8:合适
+- emporium | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emporium / equivalent / industry / liter] | L7:OK | L8:合适
+- enamel | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:teeth)，易靠语感/蒙) | 选项:[enamel / friction / glaze / granted] | L7:OK | L8:合适
+- encore | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[agriculture / encore / forte / grumble] | L7:OK | L8:合适
+- encrust | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[emboss / encrust / enshroud / granted] | L7:OK | L8:合适
+- encyclopedia | L5-Def:勉强(需要中文支架/图示；词很长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dragnet / earmark / encyclopedia / industry] | L7:OK | L8:勉强(可作为“认识词”或后置；词形很长)
+- engross | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dote / drench / engross / enthrall] | L7:OK | L8:合适
+- enshroud | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[camouflage / drench / encrust / enshroud] | L7:OK | L8:合适
+- enthrall | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[artifact / dote / engross / enthrall] | L7:OK | L8:合适
+- entreat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[entreat / flak / grit / grovel] | L7:OK | L8:合适
+- epic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dungeon / elf / epic / finale] | L7:OK | L8:合适
+- errand | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elongate / errand / migration / thus] | L7:OK | L8:合适
+- errant | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[errant / evaporation / farce / vertical] | L7:注意(可能引发家长顾虑或需要解释：美式语境/地名；建议例句更中性/更普适) | L8:合适
+- escarpment | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / escarpment / foothold / radius] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- ethereal | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[ebony / ethereal / glut / intersect] | L7:OK | L8:合适
+- evergreen | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(线索词较少(仅:green)，易靠语感/蒙) | 选项:[evergreen / graft / greenery / insulator] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- expanse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dragnet / expanse / glade / governor] | L7:OK | L8:合适
+- expat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[adaptation / capital / expat / perimeter] | L7:OK | L8:合适
+- expel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elate / expel / friction / monument] | L7:OK | L8:合适
+- eyelet | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:through)，易靠语感/蒙) | 选项:[conductor / elapse / eyelet / metamorphosis] | L7:OK | L8:合适
+- facet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decompose / facet / flank / volcano] | L7:OK | L8:合适
+- fallow | L5-Def:能 | L5-Ex:能 | L6:能(线索词: left,soil) | 选项:[decompose / fallow / grueling / nutrient] | L7:OK | L8:合适
+- falter | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decompose / dodder / falter / flicker] | L7:OK | L8:合适
+- fanfare | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fanfare / fiesta / flurry / rural] | L7:OK | L8:合适
+- farce | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:play)，易靠语感/蒙) | 选项:[classify / farce / frolic / giddy] | L7:OK | L8:合适
+- feign | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dreary / emboss / feign / gloat] | L7:OK | L8:合适
+- festoon | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[droop / electricity / facet / festoon] | L7:OK | L8:合适
+- fidget | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / fidget / gram / photosynthesis] | L7:OK | L8:合适
+- fiesta | L5-Def:能 | L5-Ex:能 | L6:能(线索词: music,dancing) | 选项:[dye / effervescent / fanfare / fiesta] | L7:OK | L8:合适
+- figment | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dolt / figment / invertebrate / monument] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- filly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[filly / furlong / gait / gallop] | L7:OK | L8:合适
+- finale | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decompose / facet / finale / forte] | L7:OK | L8:合适
+- finesse | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elocution / ethereal / finesse / probability] | L7:OK | L8:合适
+- flair | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flair / flounce / forte / grumble] | L7:OK | L8:合适
+- flak | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[entreat / flak / fort / grit] | L7:OK | L8:合适
+- flank | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cell / facet / flank / volcano] | L7:OK | L8:合适
+- flaw | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / droop / flaw / gram] | L7:注意(可能引发家长顾虑或需要解释：政治/法律/制度；建议例句更中性/更普适) | L8:不合适(制度/公民概念大且文化依赖；低龄不宜作为核心词)
+- fleece | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drape / drizzle / fleece / gleam] | L7:OK | L8:合适
+- flicker | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[falter / flicker / flinch / gleam] | L7:OK | L8:合适
+- flinch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flicker / flinch / grimace / technology] | L7:OK | L8:合适
+- flotsam | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[encrust / ethereal / flotsam / flounce] | L7:OK | L8:合适
+- flounce | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flounce / gait / gambit / grumble] | L7:OK | L8:合适
+- flout | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[associative / distributive / flout / governor] | L7:注意(可能引发家长顾虑或需要解释：暴力/犯罪/冲突(偏沉重)；建议例句更中性/更普适) | L8:合适
+- flue | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:smoke)，易靠语感/蒙) | 选项:[elude / flue / fumigate / pollution] | L7:注意(可能引发家长顾虑或需要解释：烟酒毒；建议例句更中性/更普适) | L8:合适
+- fluent | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[associative / commutative / fluent / forte] | L7:OK | L8:合适
+- flurry | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[downpour / fanfare / flurry / renewable] | L7:OK | L8:合适
+- foothold | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dike / doldrums / foothold / foray] | L7:OK | L8:合适
+- foray | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flicker / foray / governor / thus] | L7:OK | L8:合适
+- ford | L5-Def:能 | L5-Ex:能 | L6:能(线索词: river,where) | 选项:[diameter / dodder / ford / sediment] | L7:OK | L8:合适
+- forlorn | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dreary / earthy / flank / forlorn] | L7:OK | L8:合适
+- forsake | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[commutative / dole / dub / forsake] | L7:OK | L8:合适
+- fort | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cell / flak / fort / monument] | L7:OK | L8:合适
+- forte | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elocution / fluent / forte / governor] | L7:OK | L8:合适
+- fortress | L5-Def:能 | L5-Ex:能 | L6:能(线索词: thick,walls,towers) | 选项:[dike / dragnet / enshroud / fortress] | L7:OK | L8:合适
+- fowl | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[barter / dike / dye / fowl] | L7:OK | L8:合适
+- foyer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[cell / fort / foyer / monument] | L7:OK | L8:合适
+- frantic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frantic / girdle / gregarious / rotation] | L7:OK | L8:合适
+- frigate | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dye / elapsed / frigate / unit] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- fringe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eave / fringe / probability / radius] | L7:OK | L8:合适
+- frolic | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[farce / frolic / gambol / girdle] | L7:OK | L8:合适
+- froth | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dissolve / effervescent / froth / mass] | L7:OK | L8:合适
+- fulcrum | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fulcrum / granted / intersect / vertex] | L7:OK | L8:合适
+- foresee | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[foresee / granted / probability / variable] | L7:OK | L8:合适
+- fumigate | L5-Def:勉强(需要中文支架/图示；拼写有负担、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[evaporation / flue / fumigate / photosynthesis] | L7:OK | L8:勉强(可作为“认识词”或后置；拼写负担、学术词缀)
+- furlong | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:mile)，易靠语感/蒙) | 选项:[furlong / kilogram / kilometer / meter] | L7:OK | L8:合适
+- furor | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[array / dogma / dowel / furor] | L7:OK | L8:合适
+- gable | L5-Def:勉强(需要中文支架/图示；词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[eave / friction / gable / vertex] | L7:OK | L8:勉强(可作为“认识词”或后置；学术词缀)
+- gadget | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gadget / glitch / microscope / telescope] | L7:OK | L8:合适
+- gaffe | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fowl / gaffe / gambit / glitch] | L7:OK | L8:合适
+- gait | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[gait / invertebrate / organism / vertebrate] | L7:OK | L8:合适
+- gallop | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:horse)，易靠语感/蒙) | 选项:[flout / frolic / gait / gallop] | L7:OK | L8:合适
+- gambit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flounce / gadget / gambit / glitch] | L7:OK | L8:合适
+- gambol | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elate / frolic / gambol / girdle] | L7:OK | L8:合适
+- garb | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[fowl / gaffe / garb / glitch] | L7:OK | L8:合适
+- garland | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[droop / dye / garland / gem] | L7:OK | L8:合适
+- garner | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[facet / garner / gram / probability] | L7:OK | L8:合适
+- gem | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[earmark / effigy / gem / hamlet] | L7:OK | L8:合适
+- genteel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capital / circuit / elapsed / genteel] | L7:OK | L8:合适
+- ghastly | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[capital / circuit / dragnet / ghastly] | L7:OK | L8:合适
+- giddy | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:joy)，易靠语感/蒙) | 选项:[elate / farce / filly / giddy] | L7:OK | L8:合适
+- girdle | L5-Def:能 | L5-Ex:能 | L6:能(线索词: around,waist) | 选项:[encore / girdle / gregarious / rotation] | L7:OK | L8:合适
+- glade | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dragnet / earthy / expanse / glade] | L7:OK | L8:合适
+- glaze | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:shiny)，易靠语感/蒙) | 选项:[enamel / glaze / nutrient / photosynthesis] | L7:OK | L8:合适
+- gleam | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drizzle / flicker / gait / gleam] | L7:OK | L8:合适
+- glen | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elude / enshroud / flank / glen] | L7:OK | L8:合适
+- glimmer | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[circuit / glimmer / glint / intersect] | L7:OK | L8:合适
+- glint | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[glint / hamlet / intersect / organism] | L7:OK | L8:合适
+- glitch | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drone / gadget / gambit / glitch] | L7:OK | L8:合适
+- gloat | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dreary / feign / gloat / photosynthesis] | L7:OK | L8:合适
+- glut | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flaw / glut / liter / mass] | L7:OK | L8:合适
+- gnaw | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[germinate / gnaw / services / treaty] | L7:OK | L8:合适
+- goblet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[foresee / goblet / meter / urban] | L7:OK | L8:合适
+- gouge | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[array / dogma / dowel / gouge] | L7:OK | L8:合适
+- graft | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:onto)，易靠语感/蒙) | 选项:[glimmer / graft / organism / pollination] | L7:OK | L8:合适
+- graze | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[expat / gambol / glut / graze] | L7:OK | L8:合适
+- greenery | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[decompose / evergreen / greenery / photosynthesis] | L7:OK | L8:合适
+- gregarious | L5-Def:勉强(需要中文支架/图示；词偏长、词缀偏学术) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[frolic / girdle / gregarious / technology] | L7:OK | L8:不合适(对MAP≈197明显超纲；词形偏长、学术词缀)
+- grid | L5-Def:能 | L5-Ex:能 | L6:勉强(线索词较少(仅:each)，易靠语感/蒙) | 选项:[grid / parallel / perpendicular / pollination] | L7:OK | L8:合适
+- grimace | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flinch / grimace / microscope / symmetry] | L7:OK | L8:合适
+- grindstone | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dowel / dye / grindstone / technology] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- grit | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flak / grit / hamlet / sediment] | L7:OK | L8:合适
+- grotto | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[drab / glen / grotto / hackneyed] | L7:OK | L8:合适
+- grovel | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[earthquake / earthy / entreat / grovel] | L7:OK | L8:合适
+- grueling | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[encrust / forsake / granted / grueling] | L7:OK | L8:合适
+- grumble | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[flounce / glade / glen / grumble] | L7:OK | L8:合适
+- gulp | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[facet / gulp / nonrenewable / probability] | L7:OK | L8:合适
+- hackneyed | L5-Def:勉强(需要中文支架/图示；词偏长) | L5-Ex:不能(能理解情境但难产出该词(词形长/学术词缀)) | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[dye / elongate / hackneyed / invertebrate] | L7:OK | L8:勉强(可作为“认识词”或后置；词形偏长)
+- hallow | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[elongate / hallow / nonrenewable / photosynthesis] | L7:OK | L8:合适
+- hamlet | L5-Def:能 | L5-Ex:能 | L6:勉强(释义线索少，但在本组选项里仍可能靠场景勉强选中) | 选项:[centimeter / flaw / gram / hamlet] | L7:注意(可能引发家长顾虑或需要解释：宗教；建议例句更中性/更普适) | L8:合适
