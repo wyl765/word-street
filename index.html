@@ -48,6 +48,7 @@ tailwind.config = {
 
 <div id="app" class="w-full max-w-[440px] min-h-[560px] flex flex-col items-center"></div>
 
+<script src="pronunciation.js"></script>
 <script src="words-level1.js"></script>
 <script src="words-level2.js"></script>
 <script src="words-level2a.js"></script>
@@ -283,13 +284,16 @@ tailwind.config = {
           </p>
 
           <!-- Prompt -->
-          <p class="text-base font-medium leading-relaxed mb-7 min-h-[48px] text-ink">
-            ${state.mode === 'example'
-              ? prompt.replace('______', '<span class="inline-block bg-fog-pale rounded-md px-4 py-0.5 font-mono text-fog tracking-widest border-b-2 border-fog/30">______</span>')
-              : (state.mode === 'reverse'
-                ? '<span class="font-mono font-medium text-lg tracking-wide">' + prompt + '</span>'
-                : prompt)}
-          </p>
+          <div class="flex items-start gap-2 mb-7 min-h-[48px]">
+            <p class="text-base font-medium leading-relaxed text-ink flex-1">
+              ${state.mode === 'example'
+                ? prompt.replace('______', '<span class="inline-block bg-fog-pale rounded-md px-4 py-0.5 font-mono text-fog tracking-widest border-b-2 border-fog/30">______</span>')
+                : (state.mode === 'reverse'
+                  ? '<span class="font-mono font-medium text-lg tracking-wide">' + prompt + '</span>'
+                  : prompt)}
+            </p>
+            <span id="pronounceSlot"></span>
+          </div>
 
           <!-- Options -->
           <div class="flex flex-col gap-3" id="optionsContainer">
@@ -302,6 +306,12 @@ tailwind.config = {
         </div>
       </div>
     `;
+
+    // Add pronunciation button for reverse mode (word is shown as prompt)
+    const pronounceSlot = document.getElementById('pronounceSlot');
+    if (state.mode === 'reverse') {
+      pronounceSlot.appendChild(WordStreetAudio.createPronounceBtn(q.word.word, { size: 'md' }));
+    }
 
     const btns = app.querySelectorAll('.option-btn');
     btns.forEach(btn => {
@@ -350,6 +360,11 @@ tailwind.config = {
             gsap.to(b, { opacity: 0.2, scale: 0.97, duration: 0.35 });
           }
         });
+
+        /* Auto-play pronunciation of the correct word */
+        if (state.mode !== 'reverse') {
+          WordStreetAudio.playWord(q.word.word);
+        }
 
         setTimeout(() => {
           state.current++;

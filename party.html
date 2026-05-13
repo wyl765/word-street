@@ -38,6 +38,7 @@ tailwind.config = {
 </head>
 <body>
 <canvas id="c"></canvas>
+<script src="pronunciation.js"></script>
 <script src="words-level1.js"></script>
 <script src="words-level2.js"></script>
 <script src="words-level2a.js"></script>
@@ -304,7 +305,7 @@ function update() {
         if(!gate.passed){
           if(p.choiceIdx===gate.correctIdx){
             gate.passed=true;gatesPassed++;combo++;score+=100*combo;
-            sfxCorrect();spawnConfetti(character.x,character.y,30);
+            sfxCorrect();WordStreetAudio.playWord(gate.word.word);spawnConfetti(character.x,character.y,30);
             if(combo>=3){speedBoost=120;character.sparkle=120;}
             if(gatesPassed>=5){
               state=STATE.WIN;

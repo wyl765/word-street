@@ -321,7 +321,7 @@ function shooterTap(e) {
   for(let i=enemies.length-1;i>=0;i--){
     const en=enemies[i];
     if(tx>en.x-en.w/2&&tx<en.x+en.w/2&&ty>en.y-en.h/2&&ty<en.y+en.h/2){
-      if(en.correct){sfxShoot();sfxCorrect();spawnParticles(en.x,en.y,'#D4B896',18);enemies.splice(i,1);score+=10;updateHUD();if(score%50===0){fallSpeed+=0.25;spawnRate=Math.max(40,spawnRate-8);}nextShooterQuestion();}
+      if(en.correct){sfxShoot();sfxCorrect();spawnParticles(en.x,en.y,'#D4B896',18);WordStreetAudio.playWord(en.word);enemies.splice(i,1);score+=10;updateHUD();if(score%50===0){fallSpeed+=0.25;spawnRate=Math.max(40,spawnRate-8);}nextShooterQuestion();}
       else{sfxWrong();spawnParticles(en.x,en.y,'#B45A50',8);enemies.splice(i,1);loseLife();}
       return;
     }
@@ -435,7 +435,7 @@ function updateBombTimer() {
 function bombAnswer(i) {
   if(!gameActive) return; ensureAudio(); clearInterval(bombInterval);
   if(bombOptions[i].word===bombWord.word){
-    sfxCorrect();score+=10;bombCorrect++;if(bombCorrect%5===0)bombMax=Math.max(4,bombMax-1);updateHUD();
+    sfxCorrect();WordStreetAudio.playWord(bombWord.word);score+=10;bombCorrect++;if(bombCorrect%5===0)bombMax=Math.max(4,bombMax-1);updateHUD();
     $('bomb-ui').innerHTML=`<div class="glass p-8 text-center"><p class="font-display italic text-2xl text-sage">Correct</p><p class="text-cream/20 text-xs mt-2">+10</p></div>`;
     setTimeout(()=>{if(gameActive)nextBombRound();},500);
   } else {
@@ -543,7 +543,7 @@ function runnerLoop() {
     ctx.fillStyle='#1E1D1B'; ctx.font='600 8px "DM Sans",sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
     ctx.fillText(c.word.length>6?c.word.slice(0,5):c.word, c.x, c.y+bob);
     const dx=runner.x-c.x,dy=(ry+rh/2)-(c.y+bob);
-    if(Math.sqrt(dx*dx+dy*dy)<c.r+runner.w/2){c.collected=true;sfxCoin();spawnParticles(c.x,c.y,'#D4B896',10);score+=5;updateHUD();}
+    if(Math.sqrt(dx*dx+dy*dy)<c.r+runner.w/2){c.collected=true;sfxCoin();WordStreetAudio.playWord(c.word);spawnParticles(c.x,c.y,'#D4B896',10);score+=5;updateHUD();}
   }
 
   // Definition hint
@@ -565,6 +565,7 @@ function runnerLoop() {
 // ═══ INIT ═══
 window.addEventListener('resize',()=>{if(canvas&&!canvas.classList.contains('hidden')){W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight;groundY=H*0.75;}});
 </script>
+<script src="pronunciation.js"></script>
 <script src="words-level1.js"></script>
 <script src="words-level2.js"></script>
 <script src="words-level2a.js"></script>
