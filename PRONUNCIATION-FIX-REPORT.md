@@ -51,3 +51,25 @@ transport, subordinate, live up to, in contrast, graduate, deliberate, delegate,
 - Claude only: aggregate, alternate, approximate, coup, supplement, survey
 - GPT only: extract, recall, segment, practice makes perfect, use up
 - Gemini only: close, content, contract, desert, minute, object, perfect, produce, refuse, suspect
+
+## Phase 2: 5 Remaining Heteronyms — Cambridge Verb Recordings (2026-05-13)
+
+All 5 words now have **real human recordings** of the verb pronunciation from Cambridge Dictionary US.
+
+| Word | Vocab Usage | IPA (verb) | Source | File |
+|------|-------------|-----------|--------|------|
+| contrast | verb "to show how two things are different" | /kənˈtræst/ | Cambridge US (contrast_01_01) | contrast.mp3 |
+| transport | verb "to carry from one place to another" | /trænˈspɔːrt/ | Cambridge US (eus74609) | transport.mp3 |
+| graduate | verb "to finish a course of study" | /ˈɡrædʒ.u.eɪt/ | Cambridge US (graduate_01_02) | graduate.mp3 |
+| delegate | verb "to give a task to someone else" | /ˈdɛl.ɪ.ɡeɪt/ | Cambridge US (delegate_01_01) | delegate.mp3 |
+| convict | verb "to find someone guilty" | /kənˈvɪkt/ | Cambridge US (convict_01_00) | convict.mp3 |
+
+### Risk Status
+- ✅ All 5 risks **fully eliminated** — replaced TTS with human recordings of correct verb pronunciation
+- Source: Cambridge Dictionary (professional linguist recordings, US English)
+- No more TTS guessing — these are the canonical verb pronunciations
+
+### Total Heteronym Fix Status (13 words)
+- 8/13 already resolved in Phase 1 (TTS matched vocab usage)
+- 5/13 now resolved in Phase 2 (Cambridge verb recordings)
+- **13/13 complete — zero remaining pronunciation risk**
