@@ -64,8 +64,8 @@
     btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>`;
 
     // Sizing
-    const dim = size === 'sm' ? '28px' : '34px';
-    const iconDim = size === 'sm' ? '13px' : '16px';
+    const dim = size === 'sm' ? '36px' : '48px';
+    const iconDim = size === 'sm' ? '18px' : '24px';
 
     // Colors
     const isLight = theme === 'light';
@@ -80,8 +80,8 @@
       width: dim,
       height: dim,
       borderRadius: '50%',
-      border: 'none',
-      background: 'transparent',
+      border: '1.5px solid rgba(184,146,106,0.25)',
+      background: 'rgba(184,146,106,0.06)',
       color: baseColor,
       cursor: 'pointer',
       padding: '0',
