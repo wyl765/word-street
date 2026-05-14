@@ -717,7 +717,25 @@ tailwind.config = {
 </script>
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').catch(() => {});
+  navigator.serviceWorker.register('sw.js').then(reg => {
+    // Force SW to check for updates on every page load
+    reg.update().catch(() => {});
+    // When a new SW is waiting, activate it immediately
+    if (reg.waiting) { reg.waiting.postMessage({ type: 'SKIP_WAITING' }); }
+    reg.addEventListener('updatefound', () => {
+      const nw = reg.installing;
+      if (nw) nw.addEventListener('statechange', () => {
+        if (nw.state === 'installed' && navigator.serviceWorker.controller) {
+          nw.postMessage({ type: 'SKIP_WAITING' });
+        }
+      });
+    });
+  }).catch(() => {});
+  // Reload when new SW takes over
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!refreshing) { refreshing = true; location.reload(); }
+  });
 }
 </script>
 </body>

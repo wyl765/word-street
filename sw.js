@@ -1,4 +1,11 @@
-const CACHE_NAME = 'word-street-v2';
+const CACHE_NAME = 'word-street-v3';
+
+// Listen for skip waiting message from clients
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
 const ASSETS = [
   './',
   'index.html',
