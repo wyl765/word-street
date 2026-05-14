@@ -69,6 +69,27 @@ tailwind.config = {
   .tab-btn.active { background: #4A6741; color: white; }
   .tab-btn:not(.active) { color: #6B6560; }
   .tab-btn:not(.active):hover { background: rgba(0,0,0,0.03); }
+  /* Image card styles */
+  .ws-image-card { position: relative; border-radius: 12px; overflow: hidden; background: linear-gradient(135deg, #F0E6D8 0%, #E8F0E6 100%); display: flex; align-items: center; justify-content: center; margin-bottom: 12px; }
+  .ws-image-card img { width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0; transition: opacity 0.3s; }
+  .ws-image-card .ws-image-keyword { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.1rem; font-style: italic; color: #6B6560; text-align: center; padding: 8px; z-index: 1; text-transform: capitalize; }
+  .ws-image-card .ws-image-loading { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+  .ws-image-card .ws-image-loading::after { content: ''; width: 20px; height: 20px; border: 2px solid rgba(184,146,106,0.3); border-top-color: #B8926A; border-radius: 50%; animation: ws-spin 0.8s linear infinite; }
+  @keyframes ws-spin { to { transform: rotate(360deg); } }
+  @media (max-width: 639px) { .ws-image-card { width: 120px; height: 90px; } .ws-image-card.ws-image-large { width: 240px; height: 180px; } }
+  @media (min-width: 640px) { .ws-image-card { width: 160px; height: 120px; } .ws-image-card.ws-image-large { width: 320px; height: 240px; } }
+  .ws-image-toggle { background: none; border: 1px solid rgba(184,146,106,0.2); border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 0.85rem; color: rgba(184,146,106,0.6); transition: all 0.2s; flex-shrink: 0; }
+  .ws-image-toggle:hover { background: rgba(184,146,106,0.08); color: #B8926A; }
+  /* Mastery dots */
+  .ws-mastery-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin: 0 1.5px; }
+  .ws-mastery-dot.filled { background: #4A6741; }
+  .ws-mastery-dot.empty { background: rgba(0,0,0,0.1); }
+  /* Context mode */
+  .ws-context-passage { background: #FDFBF7; border: 1px solid rgba(0,0,0,0.06); border-radius: 12px; padding: 16px; font-size: 0.9rem; line-height: 1.7; color: #2D2926; }
+  .ws-context-blank { display: inline; background: linear-gradient(to bottom, transparent 60%, rgba(184,146,106,0.2) 60%); padding: 0 2px; font-weight: 600; letter-spacing: 0.05em; }
+  /* Parent report */
+  .ws-report-card { background: white; border: 1px solid rgba(0,0,0,0.06); border-radius: 16px; padding: 20px; box-shadow: 0 2px 24px rgba(0,0,0,0.03); }
+  .ws-grade-badge { display: inline-flex; align-items: center; padding: 4px 12px; border-radius: 99px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; }
 </style>
 </head>
 <body class="min-h-screen flex items-center justify-center p-5 font-body text-ink">
@@ -130,6 +151,98 @@ tailwind.config = {
   function seededShuffle(arr, rng) { const a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
   function pick(arr, n, exclude) { return shuffle(arr.filter(w=>w!==exclude)).slice(0,n); }
 
+  /* ═══ IMAGE SYSTEM ═══ */
+  const showImages = () => localStorage.getItem('wordstreet_showImages') !== 'false';
+  function toggleImages() { localStorage.setItem('wordstreet_showImages', showImages() ? 'false' : 'true'); }
+  function createImageCard(imageKeyword, large) {
+    if (!showImages() || !imageKeyword) return '';
+    const cls = large ? 'ws-image-card ws-image-large' : 'ws-image-card';
+    const encodedKw = encodeURIComponent(imageKeyword);
+    const imgUrl = `https://source.unsplash.com/400x300/?${encodedKw}`;
+    return `<div class="${cls} mx-auto" id="imageCard">
+      <span class="ws-image-keyword">${imageKeyword}</span>
+      <div class="ws-image-loading" id="imageLoader"></div>
+      <img src="${imgUrl}" alt="${imageKeyword}" id="imageEl" style="opacity:0" onload="this.style.opacity=1;var l=document.getElementById('imageLoader');if(l)l.style.display='none';" onerror="this.style.display='none';var l=document.getElementById('imageLoader');if(l)l.style.display='none';">
+    </div>`;
+  }
+
+  /* ═══ ADAPTIVE DIFFICULTY ═══ */
+  function loadWordStats() {
+    try { return JSON.parse(localStorage.getItem('wordstreet_wordStats') || '{}'); } catch(e) { return {}; }
+  }
+  function saveWordStats(stats) { localStorage.setItem('wordstreet_wordStats', JSON.stringify(stats)); }
+  function updateWordStat(word, correct) {
+    const stats = loadWordStats();
+    const key = word.toLowerCase();
+    if (!stats[key]) stats[key] = { correct: 0, wrong: 0, lastSeen: 0 };
+    if (correct) stats[key].correct++; else stats[key].wrong++;
+    stats[key].lastSeen = Date.now();
+    saveWordStats(stats);
+  }
+  function getWordWeight(word) {
+    const stats = loadWordStats();
+    const key = word.word.toLowerCase();
+    const s = stats[key];
+    if (!s) return 3; // never seen
+    const total = s.correct + s.wrong;
+    const rate = total > 0 ? s.correct / total : 0;
+    const daysSince = (Date.now() - s.lastSeen) / (1000*60*60*24);
+    if (daysSince > 7) return 2; // spaced repetition
+    if (rate > 0.8 && total >= 3) return 0.5; // mastered
+    if (rate < 0.5) return 5; // weak
+    return 1; // normal
+  }
+  function isWordMastered(word) {
+    const stats = loadWordStats();
+    const s = stats[word.toLowerCase()];
+    if (!s) return false;
+    const total = s.correct + s.wrong;
+    return s.correct >= 3 && total > 0 && (s.correct / total) > 0.8;
+  }
+  function getMasteryDots(word) {
+    const stats = loadWordStats();
+    const s = stats[word.toLowerCase()];
+    if (!s) return { seen: 0, needed: 3 };
+    return { seen: Math.min(s.correct, 3), needed: 3 };
+  }
+  function getMasteredCount(level) {
+    const pool = getPool(level);
+    const stats = loadWordStats();
+    return pool.filter(w => {
+      const s = stats[w.word.toLowerCase()];
+      if (!s) return false;
+      const total = s.correct + s.wrong;
+      return s.correct >= 3 && total > 0 && (s.correct / total) > 0.8;
+    }).length;
+  }
+  function weightedSelect(pool, count) {
+    // Weighted random selection
+    const weighted = pool.map(w => ({ word: w, weight: getWordWeight(w) }));
+    const totalWeight = weighted.reduce((sum, w) => sum + w.weight, 0);
+    if (totalWeight === 0) return shuffle(pool).slice(0, count);
+    const selected = [];
+    const available = [...weighted];
+    for (let i = 0; i < count && available.length > 0; i++) {
+      const tw = available.reduce((s, w) => s + w.weight, 0);
+      let r = Math.random() * tw;
+      let pick = available[0];
+      for (const w of available) {
+        r -= w.weight;
+        if (r <= 0) { pick = w; break; }
+      }
+      selected.push(pick.word);
+      const idx = available.indexOf(pick);
+      if (idx >= 0) available.splice(idx, 1);
+    }
+    return selected;
+  }
+  function masteryDotsHTML(word) {
+    const { seen, needed } = getMasteryDots(word);
+    let html = '';
+    for (let i = 0; i < needed; i++) html += `<span class="ws-mastery-dot ${i < seen ? 'filled' : 'empty'}"></span>`;
+    return `<span class="ml-2" title="${seen}/${needed} to master">${html}</span>`;
+  }
+
   /* ═══ STATE ═══ */
   let profile = G.loadProfile();
   let state = {
@@ -153,7 +266,8 @@ tailwind.config = {
   function generateWaveQuestions() {
     const pool = state.pool;
     if (pool.length < 4) return [];
-    return shuffle(pool).slice(0, WAVE_SIZE).map(word => ({ word, distractors: pick(pool, 3, word) }));
+    const selected = weightedSelect(pool, WAVE_SIZE);
+    return selected.map(word => ({ word, distractors: pick(pool, 3, word) }));
   }
 
   function generateDailyQuestions() {
@@ -366,6 +480,7 @@ tailwind.config = {
               <option value="image">Image Clue</option>
               <option value="reverse">Reverse Match</option>
               <option value="spelling">✏️ Spelling</option>
+              <option value="context">📖 Context Clue</option>
             </select>
           </div>
 
@@ -385,6 +500,16 @@ tailwind.config = {
               📊 Weak Words
             </button>
           </div>
+          <div class="flex gap-2 mt-2">
+            <button id="reportBtn" class="flex-1 py-3 rounded-xl text-sm font-medium text-warmgray border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">
+              📝 Parent Report
+            </button>
+            <button id="imgToggleBtn" class="ws-image-toggle" title="Toggle images">
+              ${showImages() ? '👁️' : '👁️‍🗨️'}
+            </button>
+          </div>
+          <!-- Mastered count -->
+          <p class="text-center text-xs text-warmgray-light mt-3" id="masteredInfo"></p>
         </div>
       </div>
     `;
@@ -440,6 +565,25 @@ tailwind.config = {
 
     // Weak words button
     document.getElementById('weakBtn').onclick = () => transitionTo(renderWeakWords);
+
+    // Parent report button
+    document.getElementById('reportBtn').onclick = () => transitionTo(renderParentReport);
+
+    // Image toggle
+    document.getElementById('imgToggleBtn').onclick = () => {
+      toggleImages();
+      document.getElementById('imgToggleBtn').textContent = showImages() ? '👁️' : '👁️‍🗨️';
+    };
+
+    // Show mastered count for selected level
+    function updateMastered() {
+      const lvl = document.getElementById('level').value;
+      const pool = getPool(lvl);
+      const mastered = getMasteredCount(lvl);
+      document.getElementById('masteredInfo').textContent = `🌟 ${mastered}/${pool.length} words mastered`;
+    }
+    updateMastered();
+    document.getElementById('level').addEventListener('change', updateMastered);
   }
 
   /* ═══ PROFILE SCREEN ═══ */
@@ -514,6 +658,13 @@ tailwind.config = {
     } else if (m === 'spelling') {
       prompt = word.definition; correctAnswer = word.word;
       options = []; // no multiple choice in spelling mode
+    } else if (m === 'context') {
+      // Context inference: generate a mini-passage with the word blanked out
+      const sentence = word.example;
+      const re = new RegExp(word.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+      prompt = sentence.replace(re, '_____');
+      correctAnswer = word.word;
+      options = shuffle([word.word, ...distractors.map(d => d.word)]);
     } else {
       prompt = word.word; correctAnswer = word.definition;
       options = shuffle([word.definition, ...distractors.map(d => d.definition)]);
@@ -525,7 +676,7 @@ tailwind.config = {
   function renderQuestion() {
     const q = state.questions[state.waveQ];
     const { prompt, correctAnswer, options } = getQuestionData(q);
-    const modeLabels = { definition:'What word matches this definition?', example:'Complete the sentence', image:'What word does this describe?', reverse:'Choose the correct definition', spelling:'Spell the word' };
+    const modeLabels = { definition:'What word matches this definition?', example:'Complete the sentence', image:'What word does this describe?', reverse:'Choose the correct definition', spelling:'Spell the word', context:'Read the passage and choose the missing word' };
     const total = state.isDaily ? DAILY_SIZE : WAVE_SIZE;
     const pct = (state.waveQ / total) * 100;
     state.questionStartTime = Date.now();
@@ -538,9 +689,16 @@ tailwind.config = {
             <div class="progress-fill h-full rounded-full bg-gradient-to-r from-sage to-gold" style="width:${pct}%"></div>
           </div>
           <p class="font-display italic text-sm text-gold/70 mb-3 tracking-wide">${modeLabels[state.mode]}</p>
+          <!-- Image card -->
+          ${(q.word.imageKeyword && state.mode !== 'spelling') ? createImageCard(q.word.imageKeyword, state.mode === 'image') : ''}
+          <!-- Mastery indicator -->
+          <div class="flex items-center mb-1">
+            <span class="text-[0.55rem] text-warmgray-light uppercase tracking-wide">Mastery</span>
+            ${masteryDotsHTML(q.word.word)}
+          </div>
           <div class="flex items-start gap-2 mb-5 min-h-[48px]">
             <p class="text-base font-medium leading-relaxed text-ink flex-1">
-              ${state.mode === 'example' ? prompt.replace('______', '<span class="inline-block bg-fog-pale rounded-md px-4 py-0.5 font-mono text-fog tracking-widest border-b-2 border-fog/30">______</span>') : (state.mode === 'reverse' ? '<span class="font-mono font-medium text-lg tracking-wide">' + prompt + '</span>' : prompt)}
+              ${state.mode === 'example' ? prompt.replace('______', '<span class="inline-block bg-fog-pale rounded-md px-4 py-0.5 font-mono text-fog tracking-widest border-b-2 border-fog/30">______</span>') : (state.mode === 'context' ? '<div class="ws-context-passage">' + prompt.replace('_____', '<span class="ws-context-blank">_____</span>') + '</div><p class="text-xs text-warmgray-light mt-2 italic">💡 Hint: ' + q.word.definition + '</p>' : (state.mode === 'reverse' ? '<span class="font-mono font-medium text-lg tracking-wide">' + prompt + '</span>' : prompt))}
             </p>
             <span id="pronounceSlot"></span>
           </div>
@@ -560,8 +718,8 @@ tailwind.config = {
     // Pronunciation buttons
     const pronounceSlot = document.getElementById('pronounceSlot');
     if (state.mode === 'reverse') pronounceSlot.appendChild(WordStreetAudio.createPronounceBtn(q.word.word, { size: 'md' }));
-    if (state.mode === 'definition' || state.mode === 'example') {
-      const rawText = state.mode === 'example' ? q.word.example : q.word.definition;
+    if (state.mode === 'definition' || state.mode === 'example' || state.mode === 'context') {
+      const rawText = state.mode === 'example' || state.mode === 'context' ? q.word.example : q.word.definition;
       pronounceSlot.appendChild(WordStreetAudio.createSpeakBtn(rawText));
     }
 
@@ -611,6 +769,7 @@ tailwind.config = {
           const wordKey = q.word.word.toLowerCase();
           srsData[wordKey] = SRS.sm2(srsData[wordKey], fast ? 5 : 4);
           SRS.saveSRS(srsData);
+          updateWordStat(q.word.word, true);
           gainXP(xp);
 
           gsap.fromTo(spellingInput, {scale:1}, {scale:1.03, duration:0.2, yoyo:true, repeat:1, ease:'power2.inOut'});
@@ -649,6 +808,7 @@ tailwind.config = {
           srsDataW[wordKeyW] = SRS.sm2(srsDataW[wordKeyW], 1);
           SRS.saveSRS(srsDataW);
           SRS.recordMistake(q.word.word, userAnswer, correctAnswer, state.mode);
+          updateWordStat(q.word.word, false);
           G.saveProfile(profile);
 
           gsap.to(spellingInput, { keyframes:[{x:-4,duration:0.05},{x:4,duration:0.05},{x:-3,duration:0.05},{x:0,duration:0.1,ease:'elastic.out(1,0.5)'}] });
@@ -726,6 +886,7 @@ tailwind.config = {
           const wordKey = q.word.word.toLowerCase();
           srsData[wordKey] = SRS.sm2(srsData[wordKey], fast ? 5 : 4);
           SRS.saveSRS(srsData);
+          updateWordStat(q.word.word, true);
           gainXP(xp);
 
           btn.classList.add('correct');
@@ -755,6 +916,7 @@ tailwind.config = {
           srsDataW[wordKeyW] = SRS.sm2(srsDataW[wordKeyW], 1);
           SRS.saveSRS(srsDataW);
           SRS.recordMistake(q.word.word, answer, correctAnswer, state.mode);
+          updateWordStat(q.word.word, false);
           G.saveProfile(profile);
 
           btn.classList.add('wrong');
@@ -1003,6 +1165,150 @@ tailwind.config = {
           </div>` : ''}
 
           <button id="backBtn" class="w-full py-3.5 rounded-xl text-sm font-medium text-ink border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">← Back</button>
+        </div>
+      </div>
+    `;
+    document.getElementById('backBtn').onclick = () => transitionTo(renderStart);
+  }
+
+  /* ═══ PARENT REPORT ═══ */
+  function renderParentReport() {
+    const stats = loadWordStats();
+    const srsData = SRS.loadSRS();
+    const srsStats = SRS.getStats(srsData);
+    const gradeLabels = { 1: 'K-1', 2: '2-3', 3: '4-5', 4: '6-8', 5: '9-12' };
+
+    // Calculate per-level stats
+    const levelStats = [1,2,3,4,5].map(lvl => {
+      const pool = getPool(String(lvl));
+      const mastered = getMasteredCount(String(lvl));
+      let totalCorrect = 0, totalWrong = 0;
+      pool.forEach(w => {
+        const s = stats[w.word.toLowerCase()];
+        if (s) { totalCorrect += s.correct; totalWrong += s.wrong; }
+      });
+      const total = totalCorrect + totalWrong;
+      const accuracy = total > 0 ? Math.round((totalCorrect / total) * 100) : 0;
+      return { level: lvl, grade: gradeLabels[lvl], total: pool.length, mastered, accuracy, answered: total };
+    });
+
+    // Overall stats
+    const allWords = Object.values(allBanks).flat();
+    const totalMastered = allWords.filter(w => isWordMastered(w.word)).length;
+    const totalWords = allWords.length;
+
+    // Determine current grade level
+    let currentGrade = 'K-1';
+    for (const ls of levelStats) {
+      if (ls.mastered / ls.total >= 0.5) currentGrade = ls.grade;
+      else break;
+    }
+
+    // Weekly activity (rough estimate from word stats timestamps)
+    const now = Date.now();
+    const weekAgo = now - 7 * 24 * 60 * 60 * 1000;
+    let wordsThisWeek = 0;
+    Object.values(stats).forEach(s => { if (s.lastSeen > weekAgo) wordsThisWeek++; });
+
+    // Weak areas
+    const weakWords = Object.entries(stats)
+      .map(([word, s]) => ({ word, rate: s.correct / (s.correct + s.wrong), total: s.correct + s.wrong }))
+      .filter(w => w.total >= 2 && w.rate < 0.5)
+      .sort((a, b) => a.rate - b.rate)
+      .slice(0, 8);
+
+    app.innerHTML = `
+      <div class="screen flex flex-col items-center w-full">
+        <div class="ws-report-card w-full mb-4">
+          <div class="text-center mb-5">
+            <p class="text-3xl mb-2">📝</p>
+            <p class="font-display text-[1.8rem] font-light text-ink">Learning Report</p>
+            <p class="text-xs text-warmgray-light mt-1">for parents & guardians</p>
+          </div>
+
+          <!-- Overall Progress -->
+          <div class="bg-cream rounded-xl p-4 mb-4">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light">🌟 Overall Progress</span>
+              <span class="ws-grade-badge bg-sage-pale text-sage">≈ US Grade ${currentGrade}</span>
+            </div>
+            <div class="flex justify-around text-center">
+              <div>
+                <p class="font-display text-2xl font-bold text-sage">${totalMastered}</p>
+                <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Mastered</p>
+              </div>
+              <div>
+                <p class="font-display text-2xl font-bold text-warmgray">${totalWords}</p>
+                <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Total Words</p>
+              </div>
+              <div>
+                <p class="font-display text-2xl font-bold text-gold">${Math.round(totalMastered/totalWords*100)}%</p>
+                <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Complete</p>
+              </div>
+            </div>
+            <div class="mt-3 xp-bar"><div class="xp-fill" style="width:${Math.round(totalMastered/totalWords*100)}%"></div></div>
+          </div>
+
+          <!-- This Week -->
+          <div class="bg-cream rounded-xl p-4 mb-4">
+            <p class="text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-2">📅 This Week</p>
+            <div class="flex justify-around text-center">
+              <div>
+                <p class="font-display text-xl font-bold text-ink">${wordsThisWeek}</p>
+                <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Words Practiced</p>
+              </div>
+              <div>
+                <p class="font-display text-xl font-bold text-gold">🔥${profile.streak}</p>
+                <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Day Streak</p>
+              </div>
+              <div>
+                <p class="font-display text-xl font-bold text-sage">LV.${profile.level}</p>
+                <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Player Level</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Per-Level Breakdown -->
+          <div class="mb-4">
+            <p class="text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-2">🎯 Progress by Grade Level</p>
+            ${levelStats.map(ls => `
+              <div class="flex items-center gap-3 py-2 border-b border-subtle last:border-0">
+                <span class="text-xs font-semibold w-16">Gr. ${ls.grade}</span>
+                <div class="flex-1">
+                  <div class="xp-bar"><div class="xp-fill" style="width:${ls.total > 0 ? Math.round(ls.mastered/ls.total*100) : 0}%"></div></div>
+                </div>
+                <span class="text-xs text-warmgray w-20 text-right">${ls.mastered}/${ls.total}</span>
+                <span class="text-xs font-semibold ${ls.accuracy >= 70 ? 'text-sage' : ls.accuracy >= 40 ? 'text-gold' : 'text-ruby'} w-10 text-right">${ls.accuracy}%</span>
+              </div>
+            `).join('')}
+          </div>
+
+          <!-- Weak Areas -->
+          ${weakWords.length > 0 ? `
+          <div class="mb-4">
+            <p class="text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-2">⚠️ Needs Practice</p>
+            <div class="flex flex-wrap gap-1.5">
+              ${weakWords.map(w => `<span class="px-2.5 py-1 rounded-full text-xs font-medium bg-gold-pale text-gold">${w.word}</span>`).join('')}
+            </div>
+          </div>` : ''}
+
+          <!-- Recommendation -->
+          <div class="bg-sage-pale/50 rounded-xl p-4 mb-4">
+            <p class="text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-sage mb-2">💡 Recommendation</p>
+            <p class="text-xs text-ink/70 leading-relaxed">
+              ${totalMastered < 100
+                ? 'Just getting started! Encourage 10 minutes of practice daily. Focus on Level 1 (Grades K-1) words first.'
+                : totalMastered < 500
+                  ? 'Good progress! Keep up the daily practice. Try the Spelling mode to strengthen word retention.'
+                  : totalMastered < 1500
+                    ? 'Strong vocabulary foundation! Consider moving to higher level words and using Context Clue mode for deeper understanding.'
+                    : 'Excellent! Your child\'s vocabulary is growing fast. Challenge them with Level 4-5 words and the daily challenge for consistency.'}
+            </p>
+          </div>
+
+          <button id="backBtn" class="w-full py-3.5 rounded-xl text-sm font-medium text-ink border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">
+            ← Back
+          </button>
         </div>
       </div>
     `;
