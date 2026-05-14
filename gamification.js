@@ -19,26 +19,29 @@
 
   // Achievement definitions
   const ACHIEVEMENTS = {
+    first_steps:    { name: 'First Steps',       icon: '👣', desc: 'Complete your first wave' },
     first_blood:    { name: 'First Blood',       icon: '🗡️', desc: 'Answer your first question correctly' },
     combo_3:        { name: 'Hot Streak',        icon: '🔥', desc: 'Get a 3× combo' },
     combo_5:        { name: 'On Fire',           icon: '🔥', desc: 'Get a 5× combo' },
-    combo_10:       { name: 'Unstoppable',       icon: '💥', desc: 'Get a 10× combo' },
+    combo_10:       { name: 'Sharp Shooter',     icon: '💥', desc: 'Get a 10× combo' },
     combo_20:       { name: 'Legendary',         icon: '⚡', desc: 'Get a 20× combo' },
     daily_1:        { name: 'Daily Learner',     icon: '📅', desc: 'Complete your first daily challenge' },
-    daily_7:        { name: 'Week Warrior',      icon: '🏅', desc: '7-day streak' },
+    daily_7:        { name: 'Daily Devotee',     icon: '🏅', desc: '7-day streak' },
     daily_30:       { name: 'Monthly Master',    icon: '👑', desc: '30-day streak' },
     words_50:       { name: 'Vocabulary Scout',  icon: '📖', desc: 'Answer 50 words correctly' },
     words_200:      { name: 'Word Collector',    icon: '📚', desc: 'Answer 200 words correctly' },
     words_500:      { name: 'Lexicon Master',    icon: '🎓', desc: 'Answer 500 words correctly' },
     words_1000:     { name: 'Word Sage',         icon: '🧙', desc: 'Answer 1000 words correctly' },
-    speed_demon:    { name: 'Speed Demon',       icon: '⚡', desc: 'Answer 5 in a row under 2 seconds' },
-    perfect_wave:   { name: 'Flawless',          icon: '💎', desc: 'Complete a wave with no mistakes' },
+    speed_demon:    { name: 'Speed Demon',       icon: '⚡', desc: 'Answer 5 in a row under 3 seconds each' },
+    perfect_wave:   { name: 'Perfect Wave',      icon: '💎', desc: 'Get all 10 questions right in one wave' },
+    spelling_bee:   { name: 'Spelling Bee',      icon: '🐝', desc: 'Complete a spelling wave with no mistakes' },
     level_5:        { name: 'Rising Star',       icon: '⭐', desc: 'Reach level 5' },
     level_10:       { name: 'Veteran',           icon: '🌟', desc: 'Reach level 10' },
     level_20:       { name: 'Grand Master',      icon: '✨', desc: 'Reach level 20' },
-    all_levels:     { name: 'Explorer',          icon: '🗺️', desc: 'Play all 5 difficulty levels' },
+    all_levels:     { name: 'Vocabulary Master',  icon: '🗺️', desc: 'Play all 5 difficulty levels' },
     score_1000:     { name: 'Thousand Club',     icon: '🎯', desc: 'Score 1000+ in one session' },
-    score_5000:     { name: 'High Roller',       icon: '💰', desc: 'Score 5000+ in one session' },
+    score_5000:     { name: 'Linguist',          icon: '💰', desc: 'Score 5000+ in a single game' },
+    marathon:       { name: 'Marathon Runner',   icon: '🏃', desc: 'Play 10 waves in a single session' },
   };
 
   // Default profile
@@ -154,7 +157,10 @@
     if (profile.levelsPlayed.length >= 5) grant('all_levels');
     if (context && context.sessionScore >= 1000) grant('score_1000');
     if (context && context.sessionScore >= 5000) grant('score_5000');
+    if (context && context.waveCompleted) grant('first_steps');
     if (context && context.perfectWave) grant('perfect_wave');
+    if (context && context.spellingPerfect) grant('spelling_bee');
+    if (context && context.sessionWaves >= 10) grant('marathon');
     if (profile.fastAnswers >= 5) grant('speed_demon');
 
     return newAchievements;

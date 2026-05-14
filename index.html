@@ -251,7 +251,7 @@ tailwind.config = {
       showLevelUp(profile.level);
     }
     // Check achievements after XP gain
-    const newAch = G.checkAchievements(profile, { sessionScore: state.score, perfectWave: state.wavePerfect });
+    const newAch = G.checkAchievements(profile, { sessionScore: state.score, perfectWave: state.wavePerfect, waveCompleted: true, spellingPerfect: state.wavePerfect && state.mode === 'spelling', sessionWaves: state.wave });
     newAch.forEach(id => setTimeout(() => showAchievementToast(id), 500));
     G.saveProfile(profile);
   }
@@ -350,11 +350,11 @@ tailwind.config = {
           <div class="mb-4">
             <label class="block text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-2">Level</label>
             <select id="level" class="w-full px-4 py-3 rounded-xl text-sm font-medium border border-subtle bg-cream text-ink appearance-none cursor-pointer focus:outline-none focus:border-sage">
-              <option value="1">Level Ⅰ — Beginner</option>
-              <option value="2">Level Ⅱ — Elementary</option>
-              <option value="3">Level Ⅲ — Intermediate</option>
-              <option value="4">Level Ⅳ — Advanced</option>
-              <option value="5">Level Ⅴ — Expert</option>
+              <option value="1">Level Ⅰ — Grades K-1</option>
+              <option value="2">Level Ⅱ — Grades 2-3</option>
+              <option value="3">Level Ⅲ — Grades 4-5</option>
+              <option value="4">Level Ⅳ — Grades 6-8</option>
+              <option value="5">Level Ⅴ — Grades 9-12</option>
               <option value="all">All Levels</option>
             </select>
           </div>
@@ -365,6 +365,7 @@ tailwind.config = {
               <option value="example">Fill in the Blank</option>
               <option value="image">Image Clue</option>
               <option value="reverse">Reverse Match</option>
+              <option value="spelling">✏️ Spelling</option>
             </select>
           </div>
 
@@ -510,6 +511,9 @@ tailwind.config = {
     } else if (m === 'image') {
       prompt = word.imageKeyword; correctAnswer = word.word;
       options = shuffle([word.word, ...distractors.map(d => d.word)]);
+    } else if (m === 'spelling') {
+      prompt = word.definition; correctAnswer = word.word;
+      options = []; // no multiple choice in spelling mode
     } else {
       prompt = word.word; correctAnswer = word.definition;
       options = shuffle([word.definition, ...distractors.map(d => d.definition)]);
@@ -521,7 +525,7 @@ tailwind.config = {
   function renderQuestion() {
     const q = state.questions[state.waveQ];
     const { prompt, correctAnswer, options } = getQuestionData(q);
-    const modeLabels = { definition:'What word matches this definition?', example:'Complete the sentence', image:'What word does this describe?', reverse:'Choose the correct definition' };
+    const modeLabels = { definition:'What word matches this definition?', example:'Complete the sentence', image:'What word does this describe?', reverse:'Choose the correct definition', spelling:'Spell the word' };
     const total = state.isDaily ? DAILY_SIZE : WAVE_SIZE;
     const pct = (state.waveQ / total) * 100;
     state.questionStartTime = Date.now();
@@ -541,7 +545,13 @@ tailwind.config = {
             <span id="pronounceSlot"></span>
           </div>
           <div class="flex flex-col gap-3" id="optionsContainer">
-            ${options.map((o, idx) => `<button class="option-btn w-full min-h-[54px] px-5 py-4 rounded-xl text-sm font-medium border border-subtle bg-white text-left leading-relaxed" data-answer="${encodeURIComponent(o)}" data-idx="${idx}"><span class="font-accent italic text-[0.7rem] text-gold/40 mr-3">${['a','b','c','d'][idx]}.</span>${o}</button>`).join('')}
+            ${state.mode === 'spelling' ? `
+              <div class="flex gap-2">
+                <input type="text" id="spellingInput" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Type the word..." class="flex-1 px-5 py-4 rounded-xl text-sm font-medium border border-subtle bg-white focus:outline-none focus:border-sage focus:ring-1 focus:ring-sage/30 font-mono tracking-wide">
+                <button id="replayBtn" class="px-4 py-3 rounded-xl border border-subtle bg-white text-gold hover:bg-gold-pale/30 active:scale-95 transition-all" title="Replay pronunciation">🔊</button>
+              </div>
+              <button id="spellingSubmit" class="w-full py-4 rounded-xl text-sm font-semibold bg-sage text-white tracking-wide hover:bg-sage-light active:scale-[0.98] transition-all duration-300 shadow-[0_2px_12px_rgba(74,103,65,0.15)]">Check ✓</button>
+            ` : options.map((o, idx) => `<button class="option-btn w-full min-h-[54px] px-5 py-4 rounded-xl text-sm font-medium border border-subtle bg-white text-left leading-relaxed" data-answer="${encodeURIComponent(o)}" data-idx="${idx}"><span class="font-accent italic text-[0.7rem] text-gold/40 mr-3">${['a','b','c','d'][idx]}.</span>${o}</button>`).join('')}
           </div>
         </div>
       </div>
@@ -553,6 +563,136 @@ tailwind.config = {
     if (state.mode === 'definition' || state.mode === 'example') {
       const rawText = state.mode === 'example' ? q.word.example : q.word.definition;
       pronounceSlot.appendChild(WordStreetAudio.createSpeakBtn(rawText));
+    }
+
+    // Spelling mode: auto-play word, set up input handlers
+    if (state.mode === 'spelling') {
+      WordStreetAudio.playWord(q.word.word);
+      const spellingInput = document.getElementById('spellingInput');
+      const spellingSubmit = document.getElementById('spellingSubmit');
+      const replayBtn = document.getElementById('replayBtn');
+      spellingInput.focus();
+
+      replayBtn.onclick = (e) => { e.preventDefault(); WordStreetAudio.playWord(q.word.word); };
+
+      function handleSpellingSubmit() {
+        const userAnswer = spellingInput.value.trim().toLowerCase();
+        if (!userAnswer) return;
+        const isCorrect = userAnswer === correctAnswer.toLowerCase();
+        const elapsed = Date.now() - state.questionStartTime;
+        const rect = spellingSubmit.getBoundingClientRect();
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
+
+        spellingInput.disabled = true;
+        spellingSubmit.disabled = true;
+        replayBtn.disabled = true;
+
+        if (isCorrect) {
+          spellingInput.style.borderColor = '#4A6741';
+          spellingInput.style.backgroundColor = 'rgba(74,103,65,0.06)';
+          spellingInput.style.color = '#4A6741';
+
+          state.combo++;
+          if (state.combo > state.bestCombo) state.bestCombo = state.combo;
+          if (state.combo > profile.bestCombo) profile.bestCombo = state.combo;
+          const mult = getMultiplier();
+          const points = BASE_POINTS * mult;
+          const fast = elapsed < SPEED_THRESHOLD;
+          state.score += points + (fast ? SPEED_BONUS : 0);
+          if (state.isDaily) state.dailyCorrect++;
+
+          let xp = XP_PER_CORRECT;
+          if (state.combo >= 3) xp += XP_COMBO_BONUS;
+          if (fast) { xp += XP_SPEED_BONUS; profile.fastAnswers++; } else { profile.fastAnswers = 0; }
+          profile.totalCorrect++;
+          profile.totalAnswered++;
+          const srsData = SRS.loadSRS();
+          const wordKey = q.word.word.toLowerCase();
+          srsData[wordKey] = SRS.sm2(srsData[wordKey], fast ? 5 : 4);
+          SRS.saveSRS(srsData);
+          gainXP(xp);
+
+          gsap.fromTo(spellingInput, {scale:1}, {scale:1.03, duration:0.2, yoyo:true, repeat:1, ease:'power2.inOut'});
+          burstParticles(cx, cy, shuffle(['#B8926A','#4A6741','#D4B896','#6B8A60'])[0], 10);
+          floatText(cx-20, cy-30, `+${points}`, '#4A6741');
+          if (fast) setTimeout(()=>floatText(cx+15, cy-50, '⚡+50', '#B8926A'), 200);
+          if (state.combo === 3) showComboPopup('🔥 ×3!');
+          else if (state.combo === 5) showComboPopup('🔥🔥 ×5!');
+          else if (state.combo === 10) showComboPopup('💥 ×10!');
+
+          const scoreEl = document.getElementById('scoreDisplay');
+          gsap.fromTo(scoreEl, {scale:1}, {scale:1.2, duration:0.15, yoyo:true, repeat:1});
+          scoreEl.textContent = state.score;
+          const comboEl = document.getElementById('comboDisplay');
+          if (state.combo >= 2) { comboEl.textContent = '🔥×'+state.combo; gsap.fromTo(comboEl, {scale:1}, {scale:1.3, duration:0.15, yoyo:true, repeat:1}); }
+        } else {
+          spellingInput.style.borderColor = '#B45A50';
+          spellingInput.style.backgroundColor = 'rgba(180,90,80,0.05)';
+          spellingInput.style.color = '#B45A50';
+          spellingInput.style.textDecoration = 'line-through';
+
+          // Show correct spelling below
+          const correctEl = document.createElement('div');
+          correctEl.className = 'mt-2 px-5 py-3 rounded-xl bg-sage-pale border border-sage/20 text-center';
+          correctEl.innerHTML = `<span class="text-[0.6rem] font-semibold tracking-wide uppercase text-sage/60">Correct spelling:</span><br><span class="font-mono font-bold text-lg text-sage tracking-wide">${correctAnswer}</span>`;
+          document.getElementById('optionsContainer').appendChild(correctEl);
+          gsap.fromTo(correctEl, {opacity:0, y:8}, {opacity:1, y:0, duration:0.3});
+
+          state.combo = 0;
+          state.lives--;
+          state.wavePerfect = false;
+          profile.fastAnswers = 0;
+          profile.totalAnswered++;
+          const srsDataW = SRS.loadSRS();
+          const wordKeyW = q.word.word.toLowerCase();
+          srsDataW[wordKeyW] = SRS.sm2(srsDataW[wordKeyW], 1);
+          SRS.saveSRS(srsDataW);
+          SRS.recordMistake(q.word.word, userAnswer, correctAnswer, state.mode);
+          G.saveProfile(profile);
+
+          gsap.to(spellingInput, { keyframes:[{x:-4,duration:0.05},{x:4,duration:0.05},{x:-3,duration:0.05},{x:0,duration:0.1,ease:'elastic.out(1,0.5)'}] });
+          screenShake();
+          const heartEl = document.getElementById('heart'+state.lives);
+          if (heartEl) gsap.to(heartEl, { scale:1.5, duration:0.15, ease:'power2.out', onComplete:()=>gsap.to(heartEl, { scale:0.8, opacity:0.25, filter:'grayscale(1)', duration:0.3 }) });
+          document.getElementById('comboDisplay').textContent = '';
+        }
+
+        // Audio
+        WordStreetAudio.stopSpeech();
+        WordStreetAudio.playWordDetail(q.word);
+
+        // Etymology hint
+        const etymHint = ETY.getHint(q.word.word);
+        if (etymHint) {
+          const etymEl = document.createElement('div');
+          etymEl.className = 'mt-3 p-3 rounded-lg bg-fog-pale/50 border border-fog/10';
+          etymEl.innerHTML = `<p class="text-[0.6rem] font-semibold tracking-wide uppercase text-fog mb-1">🌳 Word Roots</p><p class="text-xs text-ink/70">${etymHint}</p>`;
+          document.getElementById('optionsContainer').after(etymEl);
+          gsap.fromTo(etymEl, {opacity:0, y:8}, {opacity:1, y:0, duration:0.4, delay:0.5});
+        }
+
+        setTimeout(() => {
+          if (state.lives <= 0) {
+            const hs = parseInt(localStorage.getItem('wordstreet_highscore')||'0',10);
+            if (state.score > hs) localStorage.setItem('wordstreet_highscore', String(state.score));
+            if (state.isDaily) finishDaily();
+            transitionTo(renderGameOver);
+            return;
+          }
+          state.waveQ++;
+          const total = state.isDaily ? DAILY_SIZE : (state.isReview ? state.questions.length : WAVE_SIZE);
+          if (state.waveQ >= total) {
+            if (state.isDaily) { finishDaily(); transitionTo(renderDailyComplete); }
+            else if (state.isReview) transitionTo(renderReviewComplete);
+            else transitionTo(renderWaveComplete);
+          } else transitionTo(renderQuestion);
+        }, isCorrect ? 3500 : 4500);
+      }
+
+      spellingSubmit.onclick = handleSpellingSubmit;
+      spellingInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleSpellingSubmit(); });
+      return; // skip multiple-choice handler setup
     }
 
     const btns = app.querySelectorAll('.option-btn');
