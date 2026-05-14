@@ -62,6 +62,9 @@ tailwind.config = {
   .daily-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 99px; font-size: 0.7rem; font-weight: 600; }
   .streak-fire { animation: pulse-fire 1s ease-in-out infinite alternate; }
   @keyframes pulse-fire { from { transform: scale(1); } to { transform: scale(1.15); } }
+  .etym-prefix { color: #8E44AD; font-weight: 700; }
+  .etym-root { color: #4A6741; font-weight: 700; }
+  .etym-suffix { color: #B8926A; font-weight: 700; }
   .tab-btn { padding: 10px 16px; border-radius: 10px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; transition: all 0.3s; cursor: pointer; }
   .tab-btn.active { background: #4A6741; color: white; }
   .tab-btn:not(.active) { color: #6B6560; }
@@ -74,6 +77,8 @@ tailwind.config = {
 
 <script src="pronunciation.js"></script>
 <script src="gamification.js"></script>
+<script src="srs.js"></script>
+<script src="etymology.js"></script>
 <script src="words-level1.js"></script>
 <script src="words-level2.js"></script>
 <script src="words-level2a.js"></script>
@@ -95,8 +100,11 @@ tailwind.config = {
   'use strict';
   const app = document.getElementById('app');
   const G = window.WordStreetGame;
+  const SRS = window.WordStreetSRS;
+  const ETY = window.WordStreetEtymology;
   const WAVE_SIZE = 10;
   const DAILY_SIZE = 10;
+  const REVIEW_SIZE = 10;
   const SPEED_THRESHOLD = 3000;
   const SPEED_BONUS = 50;
   const BASE_POINTS = 100;
@@ -130,8 +138,9 @@ tailwind.config = {
     wave: 1, waveQ: 0,
     pool: [], questionStartTime: 0,
     isDaily: false, dailyCorrect: 0,
-    wavePerfect: true, // track if wave has no mistakes
-    xpGained: 0, // XP gained this session
+    isReview: false,
+    wavePerfect: true,
+    xpGained: 0,
   };
 
   function getMultiplier() {
@@ -366,6 +375,15 @@ tailwind.config = {
           <button id="profileBtn" class="w-full py-3 rounded-xl text-sm font-medium text-warmgray border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">
             🏆 Profile & Achievements
           </button>
+
+          <div class="flex gap-2 mt-3">
+            <button id="reviewBtn" class="flex-1 py-3 rounded-xl text-sm font-medium text-warmgray border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">
+              🧠 Review <span id="dueCount"></span>
+            </button>
+            <button id="weakBtn" class="flex-1 py-3 rounded-xl text-sm font-medium text-warmgray border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">
+              📊 Weak Words
+            </button>
+          </div>
         </div>
       </div>
     `;
@@ -398,6 +416,28 @@ tailwind.config = {
     };
 
     document.getElementById('profileBtn').onclick = () => transitionTo(renderProfile);
+
+    // Review button
+    const srsData = SRS.loadSRS();
+    const dueWords = SRS.getDueWords(srsData);
+    const dueEl = document.getElementById('dueCount');
+    if (dueWords.length > 0) dueEl.textContent = `(${dueWords.length})`;
+    document.getElementById('reviewBtn').onclick = () => {
+      if (dueWords.length === 0) { alert('No words due for review! Keep learning.'); return; }
+      state.isDaily = false; state.isReview = true;
+      state.lives = 3; state.score = 0; state.combo = 0; state.bestCombo = 0;
+      state.wave = 1; state.waveQ = 0; state.wavePerfect = true; state.xpGained = 0;
+      state.pool = Object.values(allBanks).flat();
+      // Build review questions from due words
+      const allWords = state.pool;
+      const dueWordObjs = dueWords.slice(0, REVIEW_SIZE).map(w => allWords.find(x => x.word.toLowerCase() === w)).filter(Boolean);
+      state.questions = dueWordObjs.map(word => ({ word, distractors: pick(allWords, 3, word) }));
+      if (state.questions.length === 0) { alert('No review words found.'); return; }
+      transitionTo(renderQuestion);
+    };
+
+    // Weak words button
+    document.getElementById('weakBtn').onclick = () => transitionTo(renderWeakWords);
   }
 
   /* ═══ PROFILE SCREEN ═══ */
@@ -540,6 +580,11 @@ tailwind.config = {
           if (fast) { xp += XP_SPEED_BONUS; profile.fastAnswers++; } else { profile.fastAnswers = 0; }
           profile.totalCorrect++;
           profile.totalAnswered++;
+          // SRS: record success
+          const srsData = SRS.loadSRS();
+          const wordKey = q.word.word.toLowerCase();
+          srsData[wordKey] = SRS.sm2(srsData[wordKey], fast ? 5 : 4);
+          SRS.saveSRS(srsData);
           gainXP(xp);
 
           btn.classList.add('correct');
@@ -563,6 +608,12 @@ tailwind.config = {
           state.wavePerfect = false;
           profile.fastAnswers = 0;
           profile.totalAnswered++;
+          // SRS: record failure
+          const srsDataW = SRS.loadSRS();
+          const wordKeyW = q.word.word.toLowerCase();
+          srsDataW[wordKeyW] = SRS.sm2(srsDataW[wordKeyW], 1);
+          SRS.saveSRS(srsDataW);
+          SRS.recordMistake(q.word.word, answer, correctAnswer, state.mode);
           G.saveProfile(profile);
 
           btn.classList.add('wrong');
@@ -581,6 +632,16 @@ tailwind.config = {
         if (state.mode !== 'reverse') WordStreetAudio.playWordDetail(q.word);
         else WordStreetAudio.speakText(q.word.definition, {rate:0.85}).then(()=>new Promise(r=>setTimeout(r,400))).then(()=>WordStreetAudio.speakText(q.word.example, {rate:0.85}));
 
+        // Show etymology hint after answer
+        const etymHint = ETY.getHint(q.word.word);
+        if (etymHint) {
+          const etymEl = document.createElement('div');
+          etymEl.className = 'mt-3 p-3 rounded-lg bg-fog-pale/50 border border-fog/10';
+          etymEl.innerHTML = `<p class="text-[0.6rem] font-semibold tracking-wide uppercase text-fog mb-1">🌳 Word Roots</p><p class="text-xs text-ink/70">${etymHint}</p>`;
+          document.getElementById('optionsContainer').after(etymEl);
+          gsap.fromTo(etymEl, {opacity:0, y:8}, {opacity:1, y:0, duration:0.4, delay:0.5});
+        }
+
         setTimeout(() => {
           if (state.lives <= 0) {
             const hs = parseInt(localStorage.getItem('wordstreet_highscore')||'0',10);
@@ -590,9 +651,10 @@ tailwind.config = {
             return;
           }
           state.waveQ++;
-          const total = state.isDaily ? DAILY_SIZE : WAVE_SIZE;
+          const total = state.isDaily ? DAILY_SIZE : (state.isReview ? state.questions.length : WAVE_SIZE);
           if (state.waveQ >= total) {
             if (state.isDaily) { finishDaily(); transitionTo(renderDailyComplete); }
+            else if (state.isReview) transitionTo(renderReviewComplete);
             else transitionTo(renderWaveComplete);
           } else transitionTo(renderQuestion);
         }, isCorrect ? 3500 : 4500);
@@ -718,6 +780,92 @@ tailwind.config = {
       transitionTo(renderQuestion);
     };
     document.getElementById('homeBtn2').onclick = () => transitionTo(renderStart);
+  }
+
+  /* ═══ REVIEW COMPLETE ═══ */
+  function renderReviewComplete() {
+    app.innerHTML = `
+      <div class="screen flex flex-col items-center w-full">
+        ${xpBarHTML()}
+        <div class="w-full bg-white rounded-2xl p-8 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)] text-center">
+          <p class="text-4xl mb-3">🧠</p>
+          <p class="font-display italic text-[1.8rem] font-light text-sage leading-none mb-2">Review Complete!</p>
+          <p class="text-sm text-warmgray mb-5">Your memory is getting stronger.</p>
+          <div class="grid grid-cols-2 gap-3 mb-5">
+            <div class="bg-cream rounded-xl p-3 text-center">
+              <p class="font-display text-xl font-bold text-ink">${state.score}</p>
+              <p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light">Score</p>
+            </div>
+            <div class="bg-cream rounded-xl p-3 text-center">
+              <p class="font-display text-xl font-bold text-sage">+${state.xpGained}</p>
+              <p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light">XP</p>
+            </div>
+          </div>
+          <button id="homeBtn" class="w-full py-4 rounded-xl text-sm font-semibold bg-sage text-white tracking-wide hover:bg-sage-light active:scale-[0.98] transition-all duration-300">Done</button>
+        </div>
+      </div>
+    `;
+    document.getElementById('homeBtn').onclick = () => transitionTo(renderStart);
+  }
+
+  /* ═══ WEAK WORDS SCREEN ═══ */
+  function renderWeakWords() {
+    const srsData = SRS.loadSRS();
+    const weak = SRS.getWeakWords(srsData, 20);
+    const mistakeStats = SRS.getMistakeStats().slice(0, 10);
+    const stats = SRS.getStats(srsData);
+
+    app.innerHTML = `
+      <div class="screen flex flex-col items-center w-full">
+        ${xpBarHTML()}
+        <div class="w-full bg-white rounded-2xl p-6 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)]">
+          <div class="text-center mb-4">
+            <p class="font-display text-[1.6rem] font-light text-ink">📊 Word Stats</p>
+            <p class="text-xs text-warmgray-light mt-1">${stats.totalCards} words tracked</p>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 mb-5">
+            <div class="bg-sage-pale rounded-lg p-2.5 text-center">
+              <p class="font-display text-lg font-bold text-sage">${stats.mastered}</p>
+              <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Mastered</p>
+            </div>
+            <div class="bg-gold-pale rounded-lg p-2.5 text-center">
+              <p class="font-display text-lg font-bold text-gold">${stats.learning}</p>
+              <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Learning</p>
+            </div>
+            <div class="bg-fog-pale rounded-lg p-2.5 text-center">
+              <p class="font-display text-lg font-bold text-fog">${stats.dueToday}</p>
+              <p class="text-[0.5rem] uppercase tracking-wide text-warmgray-light">Due Today</p>
+            </div>
+          </div>
+
+          ${weak.length > 0 ? `
+          <p class="text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-2">⚠️ Weakest Words</p>
+          <div class="max-h-[200px] overflow-y-auto mb-4">
+            ${weak.map(w => {
+              const pct = Math.round(w.accuracy * 100);
+              const color = pct < 40 ? 'text-ruby' : pct < 60 ? 'text-gold' : 'text-sage';
+              return `<div class="flex items-center justify-between py-1.5 border-b border-subtle last:border-0">
+                <span class="text-sm font-medium">${w.word}</span>
+                <span class="text-xs ${color} font-semibold">${pct}%</span>
+              </div>`;
+            }).join('')}
+          </div>` : '<p class="text-sm text-warmgray text-center mb-4">Keep answering to see your weak spots!</p>'}
+
+          ${mistakeStats.length > 0 ? `
+          <p class="text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-2">❌ Most Missed</p>
+          <div class="max-h-[150px] overflow-y-auto mb-4">
+            ${mistakeStats.map(m => `<div class="flex items-center justify-between py-1.5 border-b border-subtle last:border-0">
+                <span class="text-sm font-medium">${m.word}</span>
+                <span class="text-xs text-ruby font-semibold">×${m.count}</span>
+              </div>`).join('')}
+          </div>` : ''}
+
+          <button id="backBtn" class="w-full py-3.5 rounded-xl text-sm font-medium text-ink border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">← Back</button>
+        </div>
+      </div>
+    `;
+    document.getElementById('backBtn').onclick = () => transitionTo(renderStart);
   }
 
   /* ═══ INIT ═══ */

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'word-street-v4';
+const CACHE_NAME = 'word-street-v5';
 
 // Listen for skip waiting message from clients
 self.addEventListener('message', (event) => {
@@ -11,6 +11,8 @@ const ASSETS = [
   'index.html',
   'pronunciation.js',
   'gamification.js',
+  'srs.js',
+  'etymology.js',
   'audio-index.json',
   'words-level1.js',
   'words-level2.js',
