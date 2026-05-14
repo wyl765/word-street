@@ -24,6 +24,8 @@ tailwind.config = {
         fog: { DEFAULT: '#7B8FA1', light: '#A8B8C8', pale: '#E8EDF2' },
         ink: '#2D2926',
         warmgray: { DEFAULT: '#6B6560', light: '#9B9590' },
+        ruby: { DEFAULT: '#C0392B', light: '#E74C3C' },
+        purple: { DEFAULT: '#8E44AD', light: '#9B59B6' },
       },
       fontFamily: {
         display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
@@ -47,29 +49,23 @@ tailwind.config = {
   .progress-fill { transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1); }
   .screen { opacity: 0; }
   .heart { display: inline-block; font-size: 1.4rem; margin: 0 2px; transition: transform 0.3s; }
-  @media (max-width: 639px) {
-    body { font-size: 0.925rem; }
-    .heart { font-size: 1.2rem; }
-  }
-  @media (min-width: 1024px) {
-    body { font-size: 1.05rem; }
-  }
+  @media (max-width: 639px) { body { font-size: 0.925rem; } .heart { font-size: 1.2rem; } }
+  @media (min-width: 1024px) { body { font-size: 1.05rem; } }
   .heart.lost { filter: grayscale(1); opacity: 0.25; }
-  .float-up {
-    position: absolute; pointer-events: none; font-weight: 700; font-size: 1.1rem;
-    z-index: 50; white-space: nowrap;
-  }
-  .particle {
-    position: absolute; pointer-events: none; border-radius: 50%; z-index: 40;
-  }
-  .combo-popup {
-    position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
-    pointer-events: none; z-index: 100; font-size: 2rem; font-weight: 800;
-    text-shadow: 0 2px 12px rgba(184,146,106,0.4);
-  }
-  .speed-badge {
-    position: absolute; pointer-events: none; z-index: 50; font-weight: 700; font-size: 0.85rem;
-  }
+  .float-up { position: absolute; pointer-events: none; font-weight: 700; font-size: 1.1rem; z-index: 50; white-space: nowrap; }
+  .particle { position: absolute; pointer-events: none; border-radius: 50%; z-index: 40; }
+  .combo-popup { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); pointer-events: none; z-index: 100; font-size: 2rem; font-weight: 800; text-shadow: 0 2px 12px rgba(184,146,106,0.4); }
+  .xp-bar { height: 6px; border-radius: 3px; background: rgba(0,0,0,0.06); overflow: hidden; }
+  .xp-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, #4A6741, #B8926A); transition: width 1s cubic-bezier(0.22, 1, 0.36, 1); }
+  .achievement-toast { position: fixed; top: 20px; right: 20px; z-index: 200; background: white; border: 1px solid rgba(0,0,0,0.06); border-radius: 16px; padding: 16px 20px; box-shadow: 0 8px 32px rgba(0,0,0,0.1); display: flex; align-items: center; gap: 12px; }
+  .level-up-overlay { position: fixed; inset: 0; z-index: 150; display: flex; align-items: center; justify-content: center; background: rgba(253,251,247,0.92); backdrop-filter: blur(8px); }
+  .daily-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 99px; font-size: 0.7rem; font-weight: 600; }
+  .streak-fire { animation: pulse-fire 1s ease-in-out infinite alternate; }
+  @keyframes pulse-fire { from { transform: scale(1); } to { transform: scale(1.15); } }
+  .tab-btn { padding: 10px 16px; border-radius: 10px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; transition: all 0.3s; cursor: pointer; }
+  .tab-btn.active { background: #4A6741; color: white; }
+  .tab-btn:not(.active) { color: #6B6560; }
+  .tab-btn:not(.active):hover { background: rgba(0,0,0,0.03); }
 </style>
 </head>
 <body class="min-h-screen flex items-center justify-center p-5 font-body text-ink">
@@ -77,6 +73,7 @@ tailwind.config = {
 <div id="app" class="w-full max-w-[100%] sm:max-w-[520px] lg:max-w-[480px] min-h-[560px] flex flex-col items-center px-4 sm:px-0"></div>
 
 <script src="pronunciation.js"></script>
+<script src="gamification.js"></script>
 <script src="words-level1.js"></script>
 <script src="words-level2.js"></script>
 <script src="words-level2a.js"></script>
@@ -97,69 +94,44 @@ tailwind.config = {
 (function() {
   'use strict';
   const app = document.getElementById('app');
+  const G = window.WordStreetGame;
   const WAVE_SIZE = 10;
-  const SPEED_THRESHOLD = 3000; // 3 seconds for speed bonus
+  const DAILY_SIZE = 10;
+  const SPEED_THRESHOLD = 3000;
   const SPEED_BONUS = 50;
   const BASE_POINTS = 100;
+  const XP_PER_CORRECT = 15;
+  const XP_COMBO_BONUS = 5;
+  const XP_DAILY_BONUS = 50;
+  const XP_SPEED_BONUS = 5;
 
   /* ═══ WORD BANKS ═══ */
   const allBanks = {
     1: [...(typeof LEVEL1_BANK!=='undefined'?LEVEL1_BANK:[])],
-    2: [
-      ...(typeof LEVEL2_BANK!=='undefined'?LEVEL2_BANK:[]),
-      ...(typeof LEVEL2A_BANK!=='undefined'?LEVEL2A_BANK:[]),
-      ...(typeof LEVEL2B_BANK!=='undefined'?LEVEL2B_BANK:[]),
-      ...(typeof LEVEL2C_BANK!=='undefined'?LEVEL2C_BANK:[]),
-      ...(typeof LEVEL2D_BANK!=='undefined'?LEVEL2D_BANK:[]),
-    ],
-    3: [
-      ...(typeof LEVEL3A_BANK!=='undefined'?LEVEL3A_BANK:[]),
-      ...(typeof LEVEL3B_BANK!=='undefined'?LEVEL3B_BANK:[]),
-      ...(typeof LEVEL3C_BANK!=='undefined'?LEVEL3C_BANK:[]),
-    ],
-    4: [
-      ...(typeof LEVEL4A_BANK!=='undefined'?LEVEL4A_BANK:[]),
-      ...(typeof LEVEL4B_BANK!=='undefined'?LEVEL4B_BANK:[]),
-      ...(typeof LEVEL4C_BANK!=='undefined'?LEVEL4C_BANK:[]),
-    ],
-    5: [
-      ...(typeof LEVEL5A_BANK!=='undefined'?LEVEL5A_BANK:[]),
-      ...(typeof LEVEL5B_BANK!=='undefined'?LEVEL5B_BANK:[]),
-      ...(typeof LEVEL5C_BANK!=='undefined'?LEVEL5C_BANK:[]),
-      ...(typeof LEVEL5D_BANK!=='undefined'?LEVEL5D_BANK:[]),
-    ],
+    2: [...(typeof LEVEL2_BANK!=='undefined'?LEVEL2_BANK:[]),...(typeof LEVEL2A_BANK!=='undefined'?LEVEL2A_BANK:[]),...(typeof LEVEL2B_BANK!=='undefined'?LEVEL2B_BANK:[]),...(typeof LEVEL2C_BANK!=='undefined'?LEVEL2C_BANK:[]),...(typeof LEVEL2D_BANK!=='undefined'?LEVEL2D_BANK:[])],
+    3: [...(typeof LEVEL3A_BANK!=='undefined'?LEVEL3A_BANK:[]),...(typeof LEVEL3B_BANK!=='undefined'?LEVEL3B_BANK:[]),...(typeof LEVEL3C_BANK!=='undefined'?LEVEL3C_BANK:[])],
+    4: [...(typeof LEVEL4A_BANK!=='undefined'?LEVEL4A_BANK:[]),...(typeof LEVEL4B_BANK!=='undefined'?LEVEL4B_BANK:[]),...(typeof LEVEL4C_BANK!=='undefined'?LEVEL4C_BANK:[])],
+    5: [...(typeof LEVEL5A_BANK!=='undefined'?LEVEL5A_BANK:[]),...(typeof LEVEL5B_BANK!=='undefined'?LEVEL5B_BANK:[]),...(typeof LEVEL5C_BANK!=='undefined'?LEVEL5C_BANK:[]),...(typeof LEVEL5D_BANK!=='undefined'?LEVEL5D_BANK:[])],
   };
 
   function getPool(level) {
     if (level === 'all') return Object.values(allBanks).flat();
     return allBanks[level] || [];
   }
-  function shuffle(arr) {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
-  function pick(arr, n, exclude) {
-    return shuffle(arr.filter(w => w !== exclude)).slice(0, n);
-  }
-
-  /* ═══ HIGH SCORE ═══ */
-  function getHighScore() {
-    return parseInt(localStorage.getItem('wordstreet_highscore') || '0', 10);
-  }
-  function setHighScore(s) {
-    if (s > getHighScore()) localStorage.setItem('wordstreet_highscore', String(s));
-  }
+  function shuffle(arr) { const a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+  function seededShuffle(arr, rng) { const a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+  function pick(arr, n, exclude) { return shuffle(arr.filter(w=>w!==exclude)).slice(0,n); }
 
   /* ═══ STATE ═══ */
+  let profile = G.loadProfile();
   let state = {
     level: '1', mode: 'definition',
     lives: 3, score: 0, combo: 0, bestCombo: 0,
-    wave: 1, waveQ: 0, // waveQ = question index within current wave (0-9)
+    wave: 1, waveQ: 0,
     pool: [], questionStartTime: 0,
+    isDaily: false, dailyCorrect: 0,
+    wavePerfect: true, // track if wave has no mistakes
+    xpGained: 0, // XP gained this session
   };
 
   function getMultiplier() {
@@ -172,14 +144,26 @@ tailwind.config = {
   function generateWaveQuestions() {
     const pool = state.pool;
     if (pool.length < 4) return [];
-    const selected = shuffle(pool).slice(0, WAVE_SIZE);
-    return selected.map(word => ({
-      word,
-      distractors: pick(pool, 3, word),
-    }));
+    return shuffle(pool).slice(0, WAVE_SIZE).map(word => ({ word, distractors: pick(pool, 3, word) }));
   }
 
-  /* ═══ PARTICLES ═══ */
+  function generateDailyQuestions() {
+    const today = G.getTodayKey();
+    const seed = G.hashString('wordstreet-daily-' + today);
+    const rng = G.seededRandom(seed);
+    const allWords = Object.values(allBanks).flat();
+    const shuffled = seededShuffle(allWords, rng);
+    const selected = shuffled.slice(0, DAILY_SIZE);
+    return selected.map(word => {
+      const others = shuffled.filter(w => w !== word).slice(0, 20);
+      const distIdx = [Math.floor(rng()*others.length), Math.floor(rng()*others.length), Math.floor(rng()*others.length)];
+      const distractors = [...new Set(distIdx)].slice(0,3).map(i => others[i] || others[0]);
+      while (distractors.length < 3) distractors.push(others[distractors.length]);
+      return { word, distractors };
+    });
+  }
+
+  /* ═══ PARTICLES & EFFECTS ═══ */
   function burstParticles(x, y, color, count) {
     for (let i = 0; i < count; i++) {
       const el = document.createElement('div');
@@ -189,12 +173,7 @@ tailwind.config = {
       document.body.appendChild(el);
       const angle = (Math.PI * 2 * i) / count + (Math.random() - 0.5) * 0.5;
       const dist = 40 + Math.random() * 60;
-      gsap.to(el, {
-        x: Math.cos(angle) * dist, y: Math.sin(angle) * dist,
-        opacity: 0, scale: 0, duration: 0.6 + Math.random() * 0.3,
-        ease: 'power2.out',
-        onComplete: () => el.remove(),
-      });
+      gsap.to(el, { x: Math.cos(angle)*dist, y: Math.sin(angle)*dist, opacity:0, scale:0, duration: 0.6+Math.random()*0.3, ease:'power2.out', onComplete:()=>el.remove() });
     }
   }
 
@@ -204,10 +183,7 @@ tailwind.config = {
     el.style.cssText = `left:${x}px;top:${y}px;color:${color};`;
     el.textContent = text;
     document.body.appendChild(el);
-    gsap.fromTo(el, { opacity: 1, y: 0 }, {
-      y: -60, opacity: 0, duration: 1, ease: 'power2.out',
-      onComplete: () => el.remove(),
-    });
+    gsap.fromTo(el, { opacity:1, y:0 }, { y:-60, opacity:0, duration:1, ease:'power2.out', onComplete:()=>el.remove() });
   }
 
   function showComboPopup(text) {
@@ -216,70 +192,100 @@ tailwind.config = {
     el.style.color = '#B8926A';
     el.textContent = text;
     document.body.appendChild(el);
-    gsap.fromTo(el, { scale: 0.3, opacity: 0 }, {
-      scale: 1, opacity: 1, duration: 0.3, ease: 'back.out(2)',
-      onComplete: () => {
-        gsap.to(el, { opacity: 0, scale: 1.3, duration: 0.5, delay: 0.5, onComplete: () => el.remove() });
-      }
-    });
-    // Gold screen flash
+    gsap.fromTo(el, { scale:0.3, opacity:0 }, { scale:1, opacity:1, duration:0.3, ease:'back.out(2)', onComplete:()=>{
+      gsap.to(el, { opacity:0, scale:1.3, duration:0.5, delay:0.5, onComplete:()=>el.remove() });
+    }});
     const flash = document.createElement('div');
     flash.style.cssText = 'position:fixed;inset:0;background:rgba(184,146,106,0.12);z-index:99;pointer-events:none;';
     document.body.appendChild(flash);
-    gsap.to(flash, { opacity: 0, duration: 0.6, onComplete: () => flash.remove() });
+    gsap.to(flash, { opacity:0, duration:0.6, onComplete:()=>flash.remove() });
   }
 
   function screenShake() {
-    gsap.to(app, {
-      keyframes: [
-        { x: -2, duration: 0.04 }, { x: 2, duration: 0.04 },
-        { x: -1, duration: 0.04 }, { x: 0, duration: 0.04 },
-      ]
-    });
+    gsap.to(app, { keyframes:[{x:-2,duration:0.04},{x:2,duration:0.04},{x:-1,duration:0.04},{x:0,duration:0.04}] });
   }
 
-  /* ═══ GSAP TRANSITION ═══ */
+  function showAchievementToast(id) {
+    const a = G.ACHIEVEMENTS[id];
+    if (!a) return;
+    const toast = document.createElement('div');
+    toast.className = 'achievement-toast';
+    toast.innerHTML = `<span style="font-size:1.8rem">${a.icon}</span><div><p style="font-weight:700;font-size:0.85rem;margin:0">Achievement Unlocked!</p><p style="font-size:0.75rem;color:#6B6560;margin:2px 0 0">${a.name}</p></div>`;
+    document.body.appendChild(toast);
+    gsap.fromTo(toast, { x:100, opacity:0 }, { x:0, opacity:1, duration:0.4, ease:'back.out(1.5)' });
+    setTimeout(() => gsap.to(toast, { x:100, opacity:0, duration:0.3, onComplete:()=>toast.remove() }), 3000);
+  }
+
+  function showLevelUp(newLevel) {
+    const overlay = document.createElement('div');
+    overlay.className = 'level-up-overlay';
+    overlay.innerHTML = `
+      <div style="text-align:center">
+        <p style="font-size:3rem;margin:0">🎊</p>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:2.4rem;font-weight:300;color:#2D2926;margin:8px 0">Level ${newLevel}!</p>
+        <p style="font-size:0.8rem;color:#6B6560;margin:0">Keep going!</p>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+    gsap.fromTo(overlay, { opacity:0 }, { opacity:1, duration:0.4 });
+    setTimeout(() => gsap.to(overlay, { opacity:0, duration:0.4, onComplete:()=>overlay.remove() }), 2000);
+  }
+
+  /* ═══ XP GAIN ═══ */
+  function gainXP(amount) {
+    const oldLevel = profile.level;
+    profile.xp += amount;
+    state.xpGained += amount;
+    const leveled = G.checkLevelUp(profile);
+    G.saveProfile(profile);
+    if (leveled && profile.level > oldLevel) {
+      showLevelUp(profile.level);
+    }
+    // Check achievements after XP gain
+    const newAch = G.checkAchievements(profile, { sessionScore: state.score, perfectWave: state.wavePerfect });
+    newAch.forEach(id => setTimeout(() => showAchievementToast(id), 500));
+    G.saveProfile(profile);
+  }
+
+  /* ═══ TRANSITIONS ═══ */
   function transitionTo(renderFn) {
-    // Stop any ongoing TTS when transitioning
     if (window.WordStreetAudio) WordStreetAudio.stopSpeech();
     const screen = app.querySelector('.screen');
     if (screen) {
-      gsap.to(screen, {
-        opacity: 0, y: -16, duration: 0.3, ease: 'power2.in',
-        onComplete: () => { renderFn(); animateIn(); }
-      });
-    } else {
-      renderFn();
-      animateIn();
-    }
+      gsap.to(screen, { opacity:0, y:-16, duration:0.3, ease:'power2.in', onComplete:()=>{ renderFn(); animateIn(); } });
+    } else { renderFn(); animateIn(); }
   }
 
   function animateIn() {
     const screen = app.querySelector('.screen');
     if (!screen) return;
-    gsap.fromTo(screen,
-      { opacity: 0, y: 20 },
-      { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }
-    );
+    gsap.fromTo(screen, { opacity:0, y:20 }, { opacity:1, y:0, duration:0.6, ease:'power2.out' });
     const options = app.querySelectorAll('.option-btn');
-    if (options.length) {
-      gsap.fromTo(options,
-        { opacity: 0, y: 10 },
-        { opacity: 1, y: 0, stagger: 0.06, duration: 0.4, ease: 'power2.out', delay: 0.15 }
-      );
-    }
+    if (options.length) gsap.fromTo(options, { opacity:0, y:10 }, { opacity:1, y:0, stagger:0.06, duration:0.4, ease:'power2.out', delay:0.15 });
+  }
+
+  /* ═══ XP BAR HTML ═══ */
+  function xpBarHTML() {
+    const { pct, xpInLevel, xpNeeded } = G.xpProgress(profile);
+    return `
+      <div class="w-full mb-4">
+        <div class="flex items-center justify-between mb-1">
+          <span class="text-[0.6rem] font-bold tracking-wide text-sage">LV.${profile.level}</span>
+          <span class="text-[0.55rem] text-warmgray-light">${xpInLevel}/${xpNeeded} XP</span>
+        </div>
+        <div class="xp-bar"><div class="xp-fill" style="width:${pct}%"></div></div>
+      </div>
+    `;
   }
 
   /* ═══ HEARTS HTML ═══ */
   function heartsHTML() {
     let h = '';
-    for (let i = 0; i < 3; i++) {
-      h += `<span class="heart" id="heart${i}" ${i >= state.lives ? 'style="filter:grayscale(1);opacity:0.25;"' : ''}>❤️</span>`;
-    }
+    for (let i = 0; i < 3; i++) h += `<span class="heart" id="heart${i}" ${i >= state.lives ? 'style="filter:grayscale(1);opacity:0.25;"' : ''}>❤️</span>`;
     return h;
   }
 
-  /* ═══ HUD (top bar) ═══ */
+  /* ═══ HUD ═══ */
   function hudHTML() {
     const mult = getMultiplier();
     return `
@@ -292,33 +298,49 @@ tailwind.config = {
       </div>
       <div class="w-full flex items-center justify-between mb-3 px-1">
         <span class="text-[0.6rem] font-semibold tracking-wide uppercase text-warmgray-light">
-          Wave ${state.wave} · ${state.waveQ + 1}/${WAVE_SIZE}
+          ${state.isDaily ? '📅 Daily' : 'Wave ' + state.wave} · ${state.waveQ + 1}/${state.isDaily ? DAILY_SIZE : WAVE_SIZE}
         </span>
-        <span class="text-sm" id="comboDisplay">
-          ${state.combo >= 2 ? '🔥×' + state.combo : ''}
-        </span>
+        <span class="text-sm" id="comboDisplay">${state.combo >= 2 ? '🔥×' + state.combo : ''}</span>
       </div>
     `;
   }
 
-  /* ═══ START SCREEN ═══ */
+  /* ═══ MAIN MENU ═══ */
   function renderStart() {
-    const hs = getHighScore();
+    const hs = parseInt(localStorage.getItem('wordstreet_highscore') || '0', 10);
+    const daily = G.loadDaily();
+    const today = G.getTodayKey();
+    const dailyDone = daily && daily.date === today && daily.completed;
+    const streakText = profile.streak > 0 ? `<span class="streak-fire">🔥</span> ${profile.streak} day streak` : '';
+
     app.innerHTML = `
       <div class="screen flex flex-col items-center w-full">
-        <div class="text-center mb-8">
-          <p class="font-accent italic text-[0.65rem] tracking-[0.35em] text-gold opacity-50 mb-3">MMXXV</p>
-          <h1 class="font-display text-[2.6rem] font-light tracking-wide leading-none text-ink">
+        ${xpBarHTML()}
+
+        <div class="text-center mb-6">
+          <p class="font-accent italic text-[0.65rem] tracking-[0.35em] text-gold opacity-50 mb-2">MMXXV</p>
+          <h1 class="font-display text-[2.4rem] font-light tracking-wide leading-none text-ink">
             Word<br><em class="italic font-light text-warmgray">Street</em>
           </h1>
           <p class="text-[0.6rem] font-semibold tracking-[0.18em] uppercase text-warmgray-light mt-2">Vocabulary Atelier</p>
+          ${streakText ? `<p class="text-xs mt-2 text-gold">${streakText}</p>` : ''}
         </div>
 
-        <div class="w-full bg-white rounded-2xl p-8 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)]">
-          ${hs > 0 ? `<div class="text-center mb-5"><span class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light">🏆 High Score</span><p class="font-display text-2xl font-bold text-gold">${hs}</p></div>` : ''}
-          <div class="mb-6">
+        <div class="w-full bg-white rounded-2xl p-6 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)]">
+
+          <!-- Daily Challenge Button -->
+          <button id="dailyBtn" class="w-full py-4 rounded-xl text-sm font-semibold tracking-wide mb-4 transition-all duration-300 active:scale-[0.98] ${dailyDone
+            ? 'bg-sage-pale text-sage border border-sage/20 cursor-default'
+            : 'bg-gradient-to-r from-gold to-gold-light text-white shadow-[0_2px_12px_rgba(184,146,106,0.3)] hover:shadow-[0_4px_20px_rgba(184,146,106,0.4)]'}">
+            ${dailyDone ? '✅ Daily Complete!' : '📅 Daily Challenge'} ${!dailyDone && profile.streak > 0 ? `· 🔥${profile.streak}` : ''}
+          </button>
+
+          <div class="flex justify-center mb-4"><span class="text-gold/20 text-xs tracking-[0.5em]">· · ·</span></div>
+
+          <!-- Level & Mode selectors -->
+          <div class="mb-4">
             <label class="block text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-2">Level</label>
-            <select id="level" class="w-full px-5 py-4 rounded-xl text-sm font-medium border border-subtle bg-cream text-ink appearance-none cursor-pointer focus:outline-none focus:border-sage focus:ring-2 focus:ring-sage/10">
+            <select id="level" class="w-full px-4 py-3 rounded-xl text-sm font-medium border border-subtle bg-cream text-ink appearance-none cursor-pointer focus:outline-none focus:border-sage">
               <option value="1">Level Ⅰ — Beginner</option>
               <option value="2">Level Ⅱ — Elementary</option>
               <option value="3">Level Ⅲ — Intermediate</option>
@@ -327,9 +349,9 @@ tailwind.config = {
               <option value="all">All Levels</option>
             </select>
           </div>
-          <div class="mb-8">
+          <div class="mb-5">
             <label class="block text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-2">Mode</label>
-            <select id="mode" class="w-full px-5 py-4 rounded-xl text-sm font-medium border border-subtle bg-cream text-ink appearance-none cursor-pointer focus:outline-none focus:border-sage focus:ring-2 focus:ring-sage/10">
+            <select id="mode" class="w-full px-4 py-3 rounded-xl text-sm font-medium border border-subtle bg-cream text-ink appearance-none cursor-pointer focus:outline-none focus:border-sage">
               <option value="definition">Definition Match</option>
               <option value="example">Fill in the Blank</option>
               <option value="image">Image Clue</option>
@@ -337,36 +359,99 @@ tailwind.config = {
             </select>
           </div>
 
-          <div class="flex justify-center mb-8">
-            <span class="text-gold/30 text-xs tracking-[0.5em]">· · ·</span>
-          </div>
+          <button id="startBtn" class="w-full py-4 rounded-xl text-sm font-semibold bg-sage text-white tracking-wide hover:bg-sage-light active:scale-[0.98] transition-all duration-300 shadow-[0_2px_12px_rgba(74,103,65,0.15)] mb-3">
+            🎮 Free Play
+          </button>
 
-          <button id="startBtn" class="w-full py-4 rounded-xl text-sm font-semibold bg-sage text-white tracking-wide hover:bg-sage-light active:scale-[0.98] transition-all duration-300 shadow-[0_2px_12px_rgba(74,103,65,0.15)]">
-            🎮 Start Game
+          <button id="profileBtn" class="w-full py-3 rounded-xl text-sm font-medium text-warmgray border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">
+            🏆 Profile & Achievements
           </button>
         </div>
-
-        <p class="font-display italic text-xs text-gold/30 mt-5 tracking-wide">— est. for the curious mind —</p>
       </div>
     `;
 
     document.getElementById('startBtn').onclick = () => {
       state.level = document.getElementById('level').value;
       state.mode = document.getElementById('mode').value;
-      state.lives = 3;
-      state.score = 0;
-      state.combo = 0;
-      state.bestCombo = 0;
-      state.wave = 1;
-      state.waveQ = 0;
+      state.isDaily = false;
+      state.lives = 3; state.score = 0; state.combo = 0; state.bestCombo = 0;
+      state.wave = 1; state.waveQ = 0; state.wavePerfect = true; state.xpGained = 0;
       state.pool = getPool(state.level);
-      if (state.pool.length < 4) {
-        alert('Not enough words in this level. Try "All Levels".');
-        return;
-      }
+      if (state.pool.length < 4) { alert('Not enough words. Try "All Levels".'); return; }
+      // Track level played
+      const lvl = parseInt(state.level);
+      if (lvl && !profile.levelsPlayed.includes(lvl)) { profile.levelsPlayed.push(lvl); G.saveProfile(profile); }
       state.questions = generateWaveQuestions();
       transitionTo(renderQuestion);
     };
+
+    document.getElementById('dailyBtn').onclick = () => {
+      if (dailyDone) return;
+      state.isDaily = true;
+      state.mode = 'definition';
+      state.lives = 3; state.score = 0; state.combo = 0; state.bestCombo = 0;
+      state.wave = 1; state.waveQ = 0; state.wavePerfect = true; state.xpGained = 0;
+      state.dailyCorrect = 0;
+      state.pool = Object.values(allBanks).flat();
+      state.questions = generateDailyQuestions();
+      transitionTo(renderQuestion);
+    };
+
+    document.getElementById('profileBtn').onclick = () => transitionTo(renderProfile);
+  }
+
+  /* ═══ PROFILE SCREEN ═══ */
+  function renderProfile() {
+    const earned = profile.achievements;
+    const allAch = Object.entries(G.ACHIEVEMENTS);
+
+    app.innerHTML = `
+      <div class="screen flex flex-col items-center w-full">
+        ${xpBarHTML()}
+        <div class="w-full bg-white rounded-2xl p-6 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)]">
+          <div class="text-center mb-5">
+            <p class="font-display text-[2rem] font-light text-ink">Level ${profile.level}</p>
+            <p class="text-xs text-warmgray-light mt-1">${profile.totalCorrect} words mastered · ${profile.dailiesCompleted} dailies</p>
+            ${profile.streak > 0 ? `<p class="text-sm text-gold mt-2"><span class="streak-fire">🔥</span> ${profile.streak} day streak</p>` : ''}
+          </div>
+
+          <div class="grid grid-cols-3 gap-3 mb-5">
+            <div class="bg-cream rounded-xl p-3 text-center">
+              <p class="font-display text-xl font-bold text-sage">${profile.totalCorrect}</p>
+              <p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light">Correct</p>
+            </div>
+            <div class="bg-cream rounded-xl p-3 text-center">
+              <p class="font-display text-xl font-bold text-gold">🔥${profile.bestCombo}</p>
+              <p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light">Best Combo</p>
+            </div>
+            <div class="bg-cream rounded-xl p-3 text-center">
+              <p class="font-display text-xl font-bold text-purple">${earned.length}/${allAch.length}</p>
+              <p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light">Badges</p>
+            </div>
+          </div>
+
+          <p class="text-[0.6rem] font-semibold tracking-[0.15em] uppercase text-warmgray-light mb-3">Achievements</p>
+          <div class="grid grid-cols-1 gap-2 max-h-[280px] overflow-y-auto">
+            ${allAch.map(([id, a]) => {
+              const unlocked = earned.includes(id);
+              return `<div class="flex items-center gap-3 p-2.5 rounded-lg ${unlocked ? 'bg-gold-pale/50' : 'bg-black/[0.02] opacity-40'}">
+                <span class="text-xl">${unlocked ? a.icon : '🔒'}</span>
+                <div>
+                  <p class="text-xs font-semibold ${unlocked ? 'text-ink' : 'text-warmgray'}">${a.name}</p>
+                  <p class="text-[0.6rem] text-warmgray-light">${a.desc}</p>
+                </div>
+              </div>`;
+            }).join('')}
+          </div>
+
+          <button id="backBtn" class="w-full py-3.5 rounded-xl text-sm font-medium text-ink border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300 mt-4">
+            ← Back
+          </button>
+        </div>
+      </div>
+    `;
+
+    document.getElementById('backBtn').onclick = () => transitionTo(renderStart);
   }
 
   /* ═══ QUESTION DATA ═══ */
@@ -375,21 +460,17 @@ tailwind.config = {
     const m = state.mode;
     let prompt, correctAnswer, options;
     if (m === 'definition') {
-      prompt = word.definition;
-      correctAnswer = word.word;
+      prompt = word.definition; correctAnswer = word.word;
       options = shuffle([word.word, ...distractors.map(d => d.word)]);
     } else if (m === 'example') {
       const re = new RegExp(word.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-      prompt = word.example.replace(re, '______');
-      correctAnswer = word.word;
+      prompt = word.example.replace(re, '______'); correctAnswer = word.word;
       options = shuffle([word.word, ...distractors.map(d => d.word)]);
     } else if (m === 'image') {
-      prompt = word.imageKeyword;
-      correctAnswer = word.word;
+      prompt = word.imageKeyword; correctAnswer = word.word;
       options = shuffle([word.word, ...distractors.map(d => d.word)]);
     } else {
-      prompt = word.word;
-      correctAnswer = word.definition;
+      prompt = word.word; correctAnswer = word.definition;
       options = shuffle([word.definition, ...distractors.map(d => d.definition)]);
     }
     return { prompt, correctAnswer, options };
@@ -399,63 +480,36 @@ tailwind.config = {
   function renderQuestion() {
     const q = state.questions[state.waveQ];
     const { prompt, correctAnswer, options } = getQuestionData(q);
-    const modeLabels = {
-      definition: 'What word matches this definition?',
-      example: 'Complete the sentence',
-      image: 'What word does this describe?',
-      reverse: 'Choose the correct definition',
-    };
-    const pct = (state.waveQ / WAVE_SIZE) * 100;
-
+    const modeLabels = { definition:'What word matches this definition?', example:'Complete the sentence', image:'What word does this describe?', reverse:'Choose the correct definition' };
+    const total = state.isDaily ? DAILY_SIZE : WAVE_SIZE;
+    const pct = (state.waveQ / total) * 100;
     state.questionStartTime = Date.now();
 
     app.innerHTML = `
       <div class="screen w-full">
         <div class="w-full bg-white rounded-2xl p-6 pb-7 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)]">
           ${hudHTML()}
-
-          <!-- Wave progress bar -->
-          <div class="w-full h-[3px] bg-black/[0.04] rounded-full mb-6 overflow-hidden">
+          <div class="w-full h-[3px] bg-black/[0.04] rounded-full mb-5 overflow-hidden">
             <div class="progress-fill h-full rounded-full bg-gradient-to-r from-sage to-gold" style="width:${pct}%"></div>
           </div>
-
-          <!-- Mode label -->
-          <p class="font-display italic text-sm text-gold/70 mb-3 tracking-wide">
-            ${modeLabels[state.mode]}
-          </p>
-
-          <!-- Prompt -->
-          <div class="flex items-start gap-2 mb-6 min-h-[48px]">
+          <p class="font-display italic text-sm text-gold/70 mb-3 tracking-wide">${modeLabels[state.mode]}</p>
+          <div class="flex items-start gap-2 mb-5 min-h-[48px]">
             <p class="text-base font-medium leading-relaxed text-ink flex-1">
-              ${state.mode === 'example'
-                ? prompt.replace('______', '<span class="inline-block bg-fog-pale rounded-md px-4 py-0.5 font-mono text-fog tracking-widest border-b-2 border-fog/30">______</span>')
-                : (state.mode === 'reverse'
-                  ? '<span class="font-mono font-medium text-lg tracking-wide">' + prompt + '</span>'
-                  : prompt)}
+              ${state.mode === 'example' ? prompt.replace('______', '<span class="inline-block bg-fog-pale rounded-md px-4 py-0.5 font-mono text-fog tracking-widest border-b-2 border-fog/30">______</span>') : (state.mode === 'reverse' ? '<span class="font-mono font-medium text-lg tracking-wide">' + prompt + '</span>' : prompt)}
             </p>
             <span id="pronounceSlot"></span>
           </div>
-
-          <!-- Options -->
           <div class="flex flex-col gap-3" id="optionsContainer">
-            ${options.map((o, idx) =>
-              `<button class="option-btn w-full min-h-[54px] px-5 py-4 rounded-xl text-sm font-medium border border-subtle bg-white text-left leading-relaxed" data-answer="${encodeURIComponent(o)}" data-idx="${idx}">
-                <span class="font-accent italic text-[0.7rem] text-gold/40 mr-3">${['a','b','c','d'][idx]}.</span>${o}
-              </button>`
-            ).join('')}
+            ${options.map((o, idx) => `<button class="option-btn w-full min-h-[54px] px-5 py-4 rounded-xl text-sm font-medium border border-subtle bg-white text-left leading-relaxed" data-answer="${encodeURIComponent(o)}" data-idx="${idx}"><span class="font-accent italic text-[0.7rem] text-gold/40 mr-3">${['a','b','c','d'][idx]}.</span>${o}</button>`).join('')}
           </div>
         </div>
       </div>
     `;
 
-    // Pronunciation button for reverse mode
+    // Pronunciation buttons
     const pronounceSlot = document.getElementById('pronounceSlot');
-    if (state.mode === 'reverse') {
-      pronounceSlot.appendChild(WordStreetAudio.createPronounceBtn(q.word.word, { size: 'md' }));
-    }
-    // Speak button for definition/example prompt text
+    if (state.mode === 'reverse') pronounceSlot.appendChild(WordStreetAudio.createPronounceBtn(q.word.word, { size: 'md' }));
     if (state.mode === 'definition' || state.mode === 'example') {
-      // Use the raw prompt text (without HTML) for speech
       const rawText = state.mode === 'example' ? q.word.example : q.word.definition;
       pronounceSlot.appendChild(WordStreetAudio.createSpeakBtn(rawText));
     }
@@ -471,243 +525,199 @@ tailwind.config = {
         const cy = rect.top + rect.height / 2;
 
         if (isCorrect) {
-          // Combo
           state.combo++;
           if (state.combo > state.bestCombo) state.bestCombo = state.combo;
+          if (state.combo > profile.bestCombo) profile.bestCombo = state.combo;
           const mult = getMultiplier();
           const points = BASE_POINTS * mult;
           const fast = elapsed < SPEED_THRESHOLD;
-          const totalPts = points + (fast ? SPEED_BONUS : 0);
-          state.score += totalPts;
+          state.score += points + (fast ? SPEED_BONUS : 0);
+          if (state.isDaily) state.dailyCorrect++;
+
+          // XP
+          let xp = XP_PER_CORRECT;
+          if (state.combo >= 3) xp += XP_COMBO_BONUS;
+          if (fast) { xp += XP_SPEED_BONUS; profile.fastAnswers++; } else { profile.fastAnswers = 0; }
+          profile.totalCorrect++;
+          profile.totalAnswered++;
+          gainXP(xp);
 
           btn.classList.add('correct');
-          gsap.fromTo(btn, { scale: 1 }, { scale: 1.03, duration: 0.2, yoyo: true, repeat: 1, ease: 'power2.inOut' });
-          gsap.to(btn, { backgroundColor: 'rgba(74,103,65,0.06)', duration: 0.4 });
-
-          // Particles burst
+          gsap.fromTo(btn, {scale:1}, {scale:1.03, duration:0.2, yoyo:true, repeat:1, ease:'power2.inOut'});
           burstParticles(cx, cy, shuffle(['#B8926A','#4A6741','#D4B896','#6B8A60'])[0], 10);
+          floatText(cx-20, cy-30, `+${points}`, '#4A6741');
+          if (fast) setTimeout(()=>floatText(cx+15, cy-50, '⚡+50', '#B8926A'), 200);
+          if (state.combo === 3) showComboPopup('🔥 ×3!');
+          else if (state.combo === 5) showComboPopup('🔥🔥 ×5!');
+          else if (state.combo === 10) showComboPopup('💥 ×10!');
+          else if (state.combo === 20) showComboPopup('⚡ ×20!');
 
-          // Float score text
-          const label = mult > 1 ? `+${points}` : `+${BASE_POINTS}`;
-          floatText(cx - 20, cy - 30, label, '#4A6741');
-
-          // Speed bonus
-          if (fast) {
-            setTimeout(() => floatText(cx + 15, cy - 50, '⚡ FAST! +50', '#B8926A'), 200);
-          }
-
-          // Combo milestones
-          if (state.combo === 3) showComboPopup('🔥 COMBO ×3!');
-          else if (state.combo === 5) showComboPopup('🔥🔥 COMBO ×5!');
-          else if (state.combo === 10) showComboPopup('🔥🔥🔥 COMBO ×10!');
-
-          // Update score display
           const scoreEl = document.getElementById('scoreDisplay');
-          gsap.fromTo(scoreEl, { scale: 1 }, { scale: 1.2, duration: 0.15, yoyo: true, repeat: 1 });
+          gsap.fromTo(scoreEl, {scale:1}, {scale:1.2, duration:0.15, yoyo:true, repeat:1});
           scoreEl.textContent = state.score;
-
-          // Update combo display
           const comboEl = document.getElementById('comboDisplay');
-          if (state.combo >= 2) {
-            comboEl.textContent = '🔥×' + state.combo;
-            gsap.fromTo(comboEl, { scale: 1 }, { scale: 1.3, duration: 0.15, yoyo: true, repeat: 1 });
-          }
-
-          // Update multiplier badge
-          const multBadge = document.getElementById('multBadge');
-          if (mult > 1 && multBadge) {
-            multBadge.textContent = '×' + mult;
-            gsap.fromTo(multBadge, { scale: 1 }, { scale: 1.4, duration: 0.15, yoyo: true, repeat: 1 });
-          }
+          if (state.combo >= 2) { comboEl.textContent = '🔥×'+state.combo; gsap.fromTo(comboEl, {scale:1}, {scale:1.3, duration:0.15, yoyo:true, repeat:1}); }
         } else {
-          // Wrong answer
           state.combo = 0;
           state.lives--;
+          state.wavePerfect = false;
+          profile.fastAnswers = 0;
+          profile.totalAnswered++;
+          G.saveProfile(profile);
 
           btn.classList.add('wrong');
-          gsap.to(btn, {
-            keyframes: [
-              { x: -4, duration: 0.05 }, { x: 4, duration: 0.05 },
-              { x: -3, duration: 0.05 }, { x: 0, duration: 0.1, ease: 'elastic.out(1,0.5)' },
-            ]
-          });
-          gsap.to(btn, { backgroundColor: 'rgba(180,90,80,0.05)', duration: 0.4 });
-
-          // Screen shake
+          gsap.to(btn, { keyframes:[{x:-4,duration:0.05},{x:4,duration:0.05},{x:-3,duration:0.05},{x:0,duration:0.1,ease:'elastic.out(1,0.5)'}] });
           screenShake();
-
-          // Heart break animation
-          const heartEl = document.getElementById('heart' + state.lives);
-          if (heartEl) {
-            gsap.to(heartEl, {
-              scale: 1.5, duration: 0.15, ease: 'power2.out',
-              onComplete: () => {
-                gsap.to(heartEl, {
-                  scale: 0.8, opacity: 0.25, filter: 'grayscale(1)',
-                  duration: 0.3, ease: 'power2.in',
-                });
-              }
-            });
-          }
-
-          // Update combo display
-          const comboEl = document.getElementById('comboDisplay');
-          comboEl.textContent = '';
-
-          // Reveal correct
-          btns.forEach(b => {
-            if (decodeURIComponent(b.dataset.answer) === correctAnswer) {
-              b.classList.add('correct');
-              gsap.to(b, { backgroundColor: 'rgba(74,103,65,0.06)', duration: 0.4 });
-            }
-          });
+          const heartEl = document.getElementById('heart'+state.lives);
+          if (heartEl) gsap.to(heartEl, { scale:1.5, duration:0.15, ease:'power2.out', onComplete:()=>gsap.to(heartEl, { scale:0.8, opacity:0.25, filter:'grayscale(1)', duration:0.3 }) });
+          document.getElementById('comboDisplay').textContent = '';
+          btns.forEach(b => { if (decodeURIComponent(b.dataset.answer)===correctAnswer) { b.classList.add('correct'); gsap.to(b, {backgroundColor:'rgba(74,103,65,0.06)', duration:0.4}); } });
         }
 
-        // Disable all options
-        btns.forEach(b => {
-          b.classList.add('disabled');
-          if (!b.classList.contains('correct') && !b.classList.contains('wrong')) {
-            gsap.to(b, { opacity: 0.2, scale: 0.97, duration: 0.35 });
-          }
-        });
+        btns.forEach(b => { b.classList.add('disabled'); if (!b.classList.contains('correct') && !b.classList.contains('wrong')) gsap.to(b, {opacity:0.2, scale:0.97, duration:0.35}); });
 
-        // Auto-play pronunciation, then speak definition + example
+        // Audio
         WordStreetAudio.stopSpeech();
-        if (state.mode !== 'reverse') {
-          // Play word audio, then definition, then example
-          WordStreetAudio.playWordDetail(q.word);
-        } else {
-          // In reverse mode, speak definition then example
-          WordStreetAudio.speakText(q.word.definition, { rate: 0.85 })
-            .then(() => new Promise(r => setTimeout(r, 400)))
-            .then(() => WordStreetAudio.speakText(q.word.example, { rate: 0.85 }));
-        }
+        if (state.mode !== 'reverse') WordStreetAudio.playWordDetail(q.word);
+        else WordStreetAudio.speakText(q.word.definition, {rate:0.85}).then(()=>new Promise(r=>setTimeout(r,400))).then(()=>WordStreetAudio.speakText(q.word.example, {rate:0.85}));
 
         setTimeout(() => {
-          // Check game over
           if (state.lives <= 0) {
-            setHighScore(state.score);
+            const hs = parseInt(localStorage.getItem('wordstreet_highscore')||'0',10);
+            if (state.score > hs) localStorage.setItem('wordstreet_highscore', String(state.score));
+            if (state.isDaily) finishDaily();
             transitionTo(renderGameOver);
             return;
           }
-
           state.waveQ++;
-          if (state.waveQ >= WAVE_SIZE) {
-            // Wave complete
-            transitionTo(renderWaveComplete);
-          } else {
-            transitionTo(renderQuestion);
-          }
+          const total = state.isDaily ? DAILY_SIZE : WAVE_SIZE;
+          if (state.waveQ >= total) {
+            if (state.isDaily) { finishDaily(); transitionTo(renderDailyComplete); }
+            else transitionTo(renderWaveComplete);
+          } else transitionTo(renderQuestion);
         }, isCorrect ? 3500 : 4500);
       };
     });
   }
 
-  /* ═══ WAVE COMPLETE SCREEN ═══ */
+  /* ═══ DAILY FINISH ═══ */
+  function finishDaily() {
+    const today = G.getTodayKey();
+    const prevDaily = G.loadDaily();
+    // Check streak
+    if (prevDaily && prevDaily.date) {
+      const prev = new Date(prevDaily.date);
+      const now = new Date(today);
+      const diff = (now - prev) / (1000*60*60*24);
+      if (diff === 1) profile.streak++;
+      else if (diff > 1) profile.streak = 1;
+    } else {
+      profile.streak = 1;
+    }
+    profile.dailiesCompleted++;
+    gainXP(XP_DAILY_BONUS);
+    G.saveDaily({ date: today, completed: true, score: state.score, correct: state.dailyCorrect });
+    G.saveProfile(profile);
+  }
+
+  /* ═══ DAILY COMPLETE SCREEN ═══ */
+  function renderDailyComplete() {
+    app.innerHTML = `
+      <div class="screen flex flex-col items-center w-full">
+        ${xpBarHTML()}
+        <div class="w-full bg-white rounded-2xl p-8 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)] text-center">
+          <p class="text-4xl mb-3">📅</p>
+          <p class="font-display italic text-[1.8rem] font-light text-gold leading-none mb-2">Daily Complete!</p>
+          <p class="text-sm text-warmgray mb-5">
+            ${profile.streak > 1 ? `<span class="streak-fire">🔥</span> ${profile.streak} day streak!` : 'Come back tomorrow to build your streak!'}
+          </p>
+          <div class="grid grid-cols-3 gap-3 mb-5">
+            <div class="bg-cream rounded-xl p-3 text-center">
+              <p class="font-display text-xl font-bold text-ink">${state.dailyCorrect}/${DAILY_SIZE}</p>
+              <p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light">Correct</p>
+            </div>
+            <div class="bg-cream rounded-xl p-3 text-center">
+              <p class="font-display text-xl font-bold text-gold">${state.score}</p>
+              <p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light">Score</p>
+            </div>
+            <div class="bg-cream rounded-xl p-3 text-center">
+              <p class="font-display text-xl font-bold text-sage">+${state.xpGained}</p>
+              <p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light">XP</p>
+            </div>
+          </div>
+          <button id="homeBtn" class="w-full py-4 rounded-xl text-sm font-semibold bg-sage text-white tracking-wide hover:bg-sage-light active:scale-[0.98] transition-all duration-300">
+            Done
+          </button>
+        </div>
+      </div>
+    `;
+    document.getElementById('homeBtn').onclick = () => transitionTo(renderStart);
+  }
+
+  /* ═══ WAVE COMPLETE ═══ */
   function renderWaveComplete() {
+    // Bonus XP for perfect wave
+    if (state.wavePerfect) gainXP(30);
     const waveNum = state.wave;
     app.innerHTML = `
       <div class="screen flex flex-col items-center w-full">
+        ${xpBarHTML()}
         <div class="w-full bg-white rounded-2xl p-8 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)] text-center">
-          <p class="text-4xl mb-3">🎉</p>
-          <p class="font-display italic text-[2rem] font-light text-gold leading-none mb-4">Wave ${waveNum} Complete!</p>
-
-          <div class="flex justify-center gap-6 mb-6">
-            <div>
-              <p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light">Score</p>
-              <p class="font-display text-2xl font-bold text-ink">${state.score}</p>
-            </div>
-            <div>
-              <p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light">Lives</p>
-              <p class="text-2xl">${'❤️'.repeat(state.lives)}${'🖤'.repeat(3 - state.lives)}</p>
-            </div>
-            <div>
-              <p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light">Best Combo</p>
-              <p class="font-display text-2xl font-bold text-gold">🔥${state.bestCombo}</p>
-            </div>
+          <p class="text-4xl mb-3">${state.wavePerfect ? '💎' : '🎉'}</p>
+          <p class="font-display italic text-[2rem] font-light text-gold leading-none mb-2">Wave ${waveNum} Complete!</p>
+          ${state.wavePerfect ? '<p class="text-xs font-bold text-sage mb-3">✨ FLAWLESS! +30 XP</p>' : ''}
+          <div class="flex justify-center gap-5 mb-5">
+            <div><p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light">Score</p><p class="font-display text-2xl font-bold text-ink">${state.score}</p></div>
+            <div><p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light">Lives</p><p class="text-2xl">${'❤️'.repeat(state.lives)}${'🖤'.repeat(3-state.lives)}</p></div>
+            <div><p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light">Combo</p><p class="font-display text-2xl font-bold text-gold">🔥${state.bestCombo}</p></div>
           </div>
-
-          <div class="flex justify-center mb-6">
-            <span class="text-gold/30 text-xs tracking-[0.5em]">· · ·</span>
-          </div>
-
           <button id="nextWaveBtn" class="w-full py-4 rounded-xl text-sm font-semibold bg-sage text-white tracking-wide hover:bg-sage-light active:scale-[0.98] transition-all duration-300 shadow-[0_2px_12px_rgba(74,103,65,0.15)]">
             ⚔️ Next Wave
           </button>
         </div>
       </div>
     `;
-
     document.getElementById('nextWaveBtn').onclick = () => {
-      state.wave++;
-      state.waveQ = 0;
+      state.wave++; state.waveQ = 0; state.wavePerfect = true;
       state.questions = generateWaveQuestions();
       transitionTo(renderQuestion);
     };
   }
 
-  /* ═══ GAME OVER SCREEN ═══ */
+  /* ═══ GAME OVER ═══ */
   function renderGameOver() {
-    const hs = getHighScore();
-    const isNew = state.score >= hs;
-
+    const hs = parseInt(localStorage.getItem('wordstreet_highscore')||'0',10);
+    const isNew = state.score >= hs && state.score > 0;
     app.innerHTML = `
       <div class="screen flex flex-col items-center w-full">
+        ${xpBarHTML()}
         <div class="w-full bg-white rounded-2xl p-8 border border-subtle shadow-[0_2px_24px_rgba(0,0,0,0.03)] text-center">
           <p class="text-4xl mb-2">💀</p>
           <p class="font-display italic text-[2rem] font-light text-ink leading-none mb-2">Game Over</p>
-          ${isNew ? '<p class="text-sm font-bold text-gold mb-3">🏆 NEW HIGH SCORE!</p>' : ''}
-
-          <div class="flex justify-center mb-6">
-            <span class="text-gold/30 text-xs tracking-[0.5em]">· · ·</span>
+          ${isNew ? '<p class="text-sm font-bold text-gold mb-2">🏆 NEW HIGH SCORE!</p>' : ''}
+          <p class="text-xs text-sage mb-4">+${state.xpGained} XP earned</p>
+          <div class="grid grid-cols-2 gap-3 mb-5">
+            <div class="bg-cream rounded-xl p-3"><p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light mb-1">Score</p><p class="font-display text-2xl font-bold text-ink">${state.score}</p></div>
+            <div class="bg-cream rounded-xl p-3"><p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light mb-1">Waves</p><p class="font-display text-2xl font-bold text-sage">${state.wave}</p></div>
+            <div class="bg-cream rounded-xl p-3"><p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light mb-1">Best Combo</p><p class="font-display text-2xl font-bold text-gold">🔥${state.bestCombo}</p></div>
+            <div class="bg-cream rounded-xl p-3"><p class="text-[0.55rem] uppercase tracking-wide text-warmgray-light mb-1">High Score</p><p class="font-display text-2xl font-bold text-gold">🏆${hs}</p></div>
           </div>
-
-          <div class="grid grid-cols-2 gap-4 mb-6">
-            <div class="bg-cream rounded-xl p-4">
-              <p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light mb-1">Final Score</p>
-              <p class="font-display text-3xl font-bold text-ink" id="finalScore">${state.score}</p>
-            </div>
-            <div class="bg-cream rounded-xl p-4">
-              <p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light mb-1">Waves</p>
-              <p class="font-display text-3xl font-bold text-sage">${state.wave}</p>
-            </div>
-            <div class="bg-cream rounded-xl p-4">
-              <p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light mb-1">Best Combo</p>
-              <p class="font-display text-3xl font-bold text-gold">🔥${state.bestCombo}</p>
-            </div>
-            <div class="bg-cream rounded-xl p-4">
-              <p class="text-[0.6rem] font-semibold tracking-[0.12em] uppercase text-warmgray-light mb-1">High Score</p>
-              <p class="font-display text-3xl font-bold text-gold">🏆${hs}</p>
-            </div>
-          </div>
-
           <button id="retryBtn" class="w-full py-4 rounded-xl text-sm font-semibold bg-sage text-white tracking-wide hover:bg-sage-light active:scale-[0.98] transition-all duration-300 shadow-[0_2px_12px_rgba(74,103,65,0.15)] mb-3">
             🔄 Try Again
           </button>
-          <button id="homeBtn2" class="w-full py-3.5 rounded-xl text-sm font-medium text-ink border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">
-            Change Settings
+          <button id="homeBtn2" class="w-full py-3 rounded-xl text-sm font-medium text-ink border border-subtle hover:bg-black/[0.02] active:scale-[0.98] transition-all duration-300">
+            Home
           </button>
         </div>
       </div>
     `;
-
-    // Animate final score
-    const scoreEl = document.getElementById('finalScore');
-    gsap.fromTo(scoreEl, { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.7, delay: 0.15, ease: 'back.out(1.5)' });
-
     document.getElementById('retryBtn').onclick = () => {
-      state.lives = 3;
-      state.score = 0;
-      state.combo = 0;
-      state.bestCombo = 0;
-      state.wave = 1;
-      state.waveQ = 0;
-      state.questions = generateWaveQuestions();
+      state.lives=3; state.score=0; state.combo=0; state.bestCombo=0;
+      state.wave=1; state.waveQ=0; state.wavePerfect=true; state.xpGained=0;
+      state.questions = state.isDaily ? generateDailyQuestions() : generateWaveQuestions();
       transitionTo(renderQuestion);
     };
-    document.getElementById('homeBtn2').onclick = () => {
-      transitionTo(renderStart);
-    };
+    document.getElementById('homeBtn2').onclick = () => transitionTo(renderStart);
   }
 
   /* ═══ INIT ═══ */
@@ -718,24 +728,15 @@ tailwind.config = {
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').then(reg => {
-    // Force SW to check for updates on every page load
-    reg.update().catch(() => {});
-    // When a new SW is waiting, activate it immediately
-    if (reg.waiting) { reg.waiting.postMessage({ type: 'SKIP_WAITING' }); }
-    reg.addEventListener('updatefound', () => {
-      const nw = reg.installing;
-      if (nw) nw.addEventListener('statechange', () => {
-        if (nw.state === 'installed' && navigator.serviceWorker.controller) {
-          nw.postMessage({ type: 'SKIP_WAITING' });
-        }
-      });
+    reg.update().catch(()=>{});
+    if (reg.waiting) reg.waiting.postMessage({type:'SKIP_WAITING'});
+    reg.addEventListener('updatefound', ()=>{
+      const nw=reg.installing;
+      if(nw) nw.addEventListener('statechange',()=>{if(nw.state==='installed'&&navigator.serviceWorker.controller) nw.postMessage({type:'SKIP_WAITING'});});
     });
-  }).catch(() => {});
-  // Reload when new SW takes over
-  let refreshing = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (!refreshing) { refreshing = true; location.reload(); }
-  });
+  }).catch(()=>{});
+  let refreshing=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!refreshing){refreshing=true;location.reload();}});
 }
 </script>
 </body>
