@@ -131,11 +131,11 @@
     'mor': { meaning: 'death', origin: 'Latin mors' },
     'mort': { meaning: 'death', origin: 'Latin mors' },
     'nat': { meaning: 'born', origin: 'Latin nasci' },
-    'nom': { meaning: 'name, law', origin: 'Latin/Greek' },
+    'nom': { meaning: 'name', origin: 'Latin nomen' },
     'nov': { meaning: 'new', origin: 'Latin novus' },
     'oper': { meaning: 'work', origin: 'Latin operari' },
     'path': { meaning: 'feeling, disease', origin: 'Greek pathos' },
-    'ped': { meaning: 'foot, child', origin: 'Latin pes / Greek pais' },
+    'ped': { meaning: 'foot', origin: 'Latin pes' },
     'pel': { meaning: 'drive, push', origin: 'Latin pellere' },
     'pend': { meaning: 'hang, weigh', origin: 'Latin pendere' },
     'phil': { meaning: 'love', origin: 'Greek philein' },
@@ -213,12 +213,44 @@
   };
 
   /**
+   * Words that should NOT be decomposed (false cognates, folk etymology)
+   */
+  const BLOCKLIST = new Set([
+    'uncle', 'interest', 'understand', 'premium', 'under', 'unit', 'unite',
+    'universal', 'university', 'unique', 'uniform', 'union',
+    'island', 'iron', 'artificial', 'appreciate', 'aggressive', 'arrive',
+    'assist', 'assume', 'attempt', 'attend', 'attract', 'announce',
+    'appear', 'apply', 'appoint', 'approve', 'arrange',
+    'terrify', 'terrible', 'terror', 'terrific',
+    'invent', 'invest', 'invite', 'involve', 'inform', 'insect', 'inside',
+    'instead', 'instant', 'indeed', 'index', 'industry', 'infant',
+    'import', 'impose', 'improve', 'impact', 'imagine', 'immediate',
+    'immune', 'imply', 'impulse',
+    'emit', 'emotion', 'employ', 'embrace', 'emerge', 'emperor', 'empire',
+    'enable', 'enemy', 'energy', 'engine', 'enjoy', 'enough', 'enter',
+    'entire', 'entry', 'envelope',
+    'person', 'perhaps', 'perform', 'period', 'permit', 'persist',
+    'about', 'above', 'abroad', 'abuse', 'abundant',
+    'compare', 'company', 'complete', 'compose', 'computer', 'concern',
+    'condition', 'conduct', 'confirm', 'connect', 'consider', 'contain',
+    'continue', 'control', 'convert', 'convince', 'correct',
+    'subject', 'submit', 'subtle', 'succeed', 'sudden', 'suffer', 'suggest',
+    'summer', 'supply', 'support', 'suppose', 'surface', 'surprise',
+    'discuss', 'discover', 'disease', 'display', 'distance', 'district',
+    'return', 'record', 'receive', 'recent', 'reduce', 'reform',
+    'region', 'remain', 'remember', 'remove', 'repair', 'repeat',
+    'report', 'represent', 'require', 'research', 'reserve', 'respond',
+    'result', 'reveal',
+  ]);
+
+  /**
    * Analyze a word for morphological components
    * Returns { prefix, root, suffix, breakdown }
    */
   function analyze(word) {
     const w = word.toLowerCase().trim();
     if (w.includes(' ')) return null; // skip phrases
+    if (BLOCKLIST.has(w)) return null; // skip known false decompositions
 
     const result = { prefix: null, root: null, suffix: null, breakdown: [] };
 

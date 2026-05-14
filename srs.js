@@ -73,7 +73,7 @@
       } else if (card.repetition === 1) {
         interval = 6;
       } else {
-        interval = Math.round(card.interval * newEF);
+        interval = Math.min(365, Math.round(card.interval * newEF));
       }
       repetition = card.repetition + 1;
     } else {

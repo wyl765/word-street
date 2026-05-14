@@ -391,7 +391,7 @@ tailwind.config = {
     document.getElementById('startBtn').onclick = () => {
       state.level = document.getElementById('level').value;
       state.mode = document.getElementById('mode').value;
-      state.isDaily = false;
+      state.isDaily = false; state.isReview = false;
       state.lives = 3; state.score = 0; state.combo = 0; state.bestCombo = 0;
       state.wave = 1; state.waveQ = 0; state.wavePerfect = true; state.xpGained = 0;
       state.pool = getPool(state.level);
@@ -425,6 +425,7 @@ tailwind.config = {
     document.getElementById('reviewBtn').onclick = () => {
       if (dueWords.length === 0) { alert('No words due for review! Keep learning.'); return; }
       state.isDaily = false; state.isReview = true;
+      state.mode = 'definition';
       state.lives = 3; state.score = 0; state.combo = 0; state.bestCombo = 0;
       state.wave = 1; state.waveQ = 0; state.wavePerfect = true; state.xpGained = 0;
       state.pool = Object.values(allBanks).flat();
