@@ -142,11 +142,114 @@
     return btn;
   }
 
+  /**
+   * Speak arbitrary text using the browser's built-in Web Speech API.
+   * Returns a Promise that resolves when speech ends (or rejects on error).
+   * Options:
+   *   rate: speech rate 0.1–10 (default 0.9)
+   *   pitch: 0–2 (default 1)
+   *   lang: BCP-47 language tag (default 'en-US')
+   */
+  function speakText(text, opts) {
+    opts = opts || {};
+    return new Promise((resolve, reject) => {
+      if (!window.speechSynthesis) { resolve(); return; }
+      // Cancel any ongoing speech
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = opts.lang || 'en-US';
+      u.rate = opts.rate || 0.9;
+      u.pitch = opts.pitch || 1;
+      u.onend = resolve;
+      u.onerror = resolve; // don't block chain on error
+      window.speechSynthesis.speak(u);
+    });
+  }
+
+  /**
+   * Stop any ongoing speech synthesis.
+   */
+  function stopSpeech() {
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+  }
+
+  /**
+   * Play word audio, then speak definition, then speak example sequentially.
+   * word: the word object { word, definition, example }
+   */
+  function playWordDetail(wordObj) {
+    stopSpeech();
+    // 1. Play the word pronunciation audio first
+    return new Promise(resolve => {
+      const played = playWord(wordObj.word, resolve);
+      if (!played) resolve();
+    })
+    .then(() => wait(300))
+    // 2. Speak the definition
+    .then(() => speakText(wordObj.definition, { rate: 0.85 }))
+    .then(() => wait(400))
+    // 3. Speak the example sentence
+    .then(() => speakText(wordObj.example, { rate: 0.85 }));
+  }
+
+  function wait(ms) {
+    return new Promise(r => setTimeout(r, ms));
+  }
+
+  /**
+   * Create a small speak button for definition or example text.
+   * Returns a <button> DOM element.
+   */
+  function createSpeakBtn(text, opts) {
+    opts = opts || {};
+    const btn = document.createElement('button');
+    btn.className = 'ws-speak-btn';
+    btn.setAttribute('aria-label', 'Play text');
+    btn.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8.5v7a4.49 4.49 0 0 0 2.5-3.5z"/></svg>`;
+    Object.assign(btn.style, {
+      display: 'inline-flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: '28px',
+      height: '28px',
+      borderRadius: '50%',
+      border: '1px solid rgba(184,146,106,0.2)',
+      background: 'rgba(184,146,106,0.05)',
+      color: 'rgba(184,146,106,0.6)',
+      cursor: 'pointer',
+      padding: '0',
+      marginLeft: '6px',
+      transition: 'all 0.2s ease',
+      flexShrink: '0',
+      outline: 'none',
+      WebkitTapHighlightColor: 'transparent',
+      verticalAlign: 'middle',
+    });
+    btn.addEventListener('mouseenter', () => {
+      btn.style.background = 'rgba(184,146,106,0.12)';
+      btn.style.color = '#B8926A';
+    });
+    btn.addEventListener('mouseleave', () => {
+      btn.style.background = 'rgba(184,146,106,0.05)';
+      btn.style.color = 'rgba(184,146,106,0.6)';
+    });
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      speakText(text, { rate: 0.85 });
+    });
+    return btn;
+  }
+
   // Expose globally
   window.WordStreetAudio = {
     ensureIndex,
     getAudioFile,
     playWord,
     createPronounceBtn,
+    speakText,
+    stopSpeech,
+    playWordDetail,
+    createSpeakBtn,
   };
 })();

@@ -240,6 +240,8 @@ tailwind.config = {
 
   /* ═══ GSAP TRANSITION ═══ */
   function transitionTo(renderFn) {
+    // Stop any ongoing TTS when transitioning
+    if (window.WordStreetAudio) WordStreetAudio.stopSpeech();
     const screen = app.querySelector('.screen');
     if (screen) {
       gsap.to(screen, {
@@ -451,6 +453,12 @@ tailwind.config = {
     if (state.mode === 'reverse') {
       pronounceSlot.appendChild(WordStreetAudio.createPronounceBtn(q.word.word, { size: 'md' }));
     }
+    // Speak button for definition/example prompt text
+    if (state.mode === 'definition' || state.mode === 'example') {
+      // Use the raw prompt text (without HTML) for speech
+      const rawText = state.mode === 'example' ? q.word.example : q.word.definition;
+      pronounceSlot.appendChild(WordStreetAudio.createSpeakBtn(rawText));
+    }
 
     const btns = app.querySelectorAll('.option-btn');
     btns.forEach(btn => {
@@ -563,9 +571,16 @@ tailwind.config = {
           }
         });
 
-        // Auto-play pronunciation
+        // Auto-play pronunciation, then speak definition + example
+        WordStreetAudio.stopSpeech();
         if (state.mode !== 'reverse') {
-          WordStreetAudio.playWord(q.word.word);
+          // Play word audio, then definition, then example
+          WordStreetAudio.playWordDetail(q.word);
+        } else {
+          // In reverse mode, speak definition then example
+          WordStreetAudio.speakText(q.word.definition, { rate: 0.85 })
+            .then(() => new Promise(r => setTimeout(r, 400)))
+            .then(() => WordStreetAudio.speakText(q.word.example, { rate: 0.85 }));
         }
 
         setTimeout(() => {
@@ -583,7 +598,7 @@ tailwind.config = {
           } else {
             transitionTo(renderQuestion);
           }
-        }, isCorrect ? 700 : 1300);
+        }, isCorrect ? 3500 : 4500);
       };
     });
   }
