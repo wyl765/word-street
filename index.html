@@ -9,12 +9,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#F7F6F3;--card:rgba(255,255,255,0.8);--border:rgba(0,0,0,0.06);--green:#34C759;--red:#FF3B30;--gold:#FF9500;--blue:#007AFF;--purple:#AF52DE;--text:#1D1D1F;--dim:#86868B;--ticker-bg:rgba(255,255,255,0.6)}
 body{font-family:'Nunito','Segoe UI',sans-serif;background:#F7F6F3;background-image:radial-gradient(ellipse at top,rgba(175,82,222,0.03) 0%,transparent 50%),radial-gradient(ellipse at bottom right,rgba(0,122,255,0.03) 0%,transparent 50%);color:var(--text);min-height:100vh;overflow-x:hidden}
-.ticker-bar{background:rgba(255,255,255,0.6);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,0.04);padding:8px 0;overflow:hidden;white-space:nowrap;position:fixed;top:0;left:0;right:0;z-index:100;height:38px}
-.ticker-content{display:inline-block;animation:scroll 30s linear infinite}
-.ticker-item{display:inline-block;margin:0 24px;font-size:12px;font-weight:600}
-.ticker-up{color:var(--green)}.ticker-down{color:var(--red)}.ticker-flat{color:var(--dim)}
-@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.container{max-width:800px;margin:0 auto;padding:52px 16px 16px}
+.container{max-width:800px;margin:0 auto;padding:16px}
 .screen{display:none}.screen.active{display:block}
 h1{font-size:34px;font-weight:800;letter-spacing:-0.5px;text-align:center;margin:20px 0;background:linear-gradient(135deg,#FF3B30 0%,#FF9500 40%,#007AFF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 h2{font-size:18px;font-weight:700;letter-spacing:-0.3px;text-transform:uppercase;margin:16px 0;color:var(--text);opacity:0.7}
@@ -62,7 +57,31 @@ h2{font-size:18px;font-weight:700;letter-spacing:-0.3px;text-transform:uppercase
 textarea{width:100%;background:rgba(0,0,0,0.02);border:1px solid rgba(0,0,0,0.08);color:var(--text);font-family:inherit;font-size:14px;padding:14px;border-radius:12px;resize:vertical;min-height:120px}
 textarea:focus{border-color:rgba(0,122,255,0.4);outline:none}
 .leaderboard-item{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(0,0,0,0.04)}
-.sound-toggle{position:fixed;top:44px;right:12px;z-index:99;background:rgba(255,255,255,0.8);backdrop-filter:blur(12px);border:1px solid rgba(0,0,0,0.06);color:var(--text);width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.settings-btn{position:absolute;top:16px;right:16px;background:rgba(255,255,255,0.8);backdrop-filter:blur(12px);border:1px solid rgba(0,0,0,0.06);color:var(--text);width:40px;height:40px;border-radius:50%;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);z-index:10}
+.level-pills{display:flex;gap:8px;justify-content:center;margin:16px 0}
+.level-pill{padding:8px 18px;border-radius:20px;border:2px solid rgba(0,0,0,0.08);background:rgba(255,255,255,0.9);font-weight:700;font-size:14px;cursor:pointer;transition:all .2s}
+.level-pill.active{border-color:var(--blue);background:rgba(0,122,255,0.1);color:var(--blue)}
+.play-btn{width:100%;padding:18px;border-radius:16px;background:linear-gradient(135deg,#34C759,#30D158);color:#fff;font-size:20px;font-weight:800;border:none;cursor:pointer;box-shadow:0 4px 14px rgba(52,199,89,0.35);transition:all .2s;margin:12px 0}
+.play-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(52,199,89,0.4)}
+.learn-btn{width:100%;padding:16px;border-radius:16px;background:linear-gradient(135deg,#007AFF,#AF52DE);color:#fff;font-size:18px;font-weight:700;border:none;cursor:pointer;box-shadow:0 4px 14px rgba(0,122,255,0.3);transition:all .2s;margin:4px 0}
+.learn-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,122,255,0.4)}
+.home-stats{text-align:center;color:var(--dim);font-size:13px;margin-top:12px}
+.back-hud{position:absolute;top:12px;left:12px;z-index:10;background:rgba(255,255,255,0.8);backdrop-filter:blur(12px);border:1px solid rgba(0,0,0,0.06);padding:6px 14px;border-radius:10px;cursor:pointer;font-size:14px;font-weight:600;color:var(--text)}
+.learn-card{background:rgba(255,255,255,0.72);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.6);border-radius:20px;padding:24px;margin:14px 0;text-align:center}
+.learn-word{font-size:32px;font-weight:800;margin:8px 0}
+.learn-image{width:200px;height:200px;border-radius:16px;object-fit:cover;margin:12px auto;display:block}
+.learn-image-fallback{width:200px;height:200px;border-radius:16px;margin:12px auto;display:flex;align-items:center;justify-content:center;font-size:64px;background:linear-gradient(135deg,rgba(0,122,255,0.1),rgba(175,82,222,0.1))}
+.learn-def{font-size:16px;color:var(--text);margin:8px 0}
+.learn-example{font-size:14px;color:var(--dim);font-style:italic;margin:8px 0}
+.learn-nav{display:flex;gap:12px;justify-content:center;margin-top:16px}
+.learn-nav .btn{flex:1;max-width:160px}
+.settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.settings-grid .btn{text-align:center;font-size:14px;padding:12px}
+.settings-grid .btn.active-setting{border-color:var(--green);background:rgba(52,199,89,0.08);color:#248A3D}
+.feedback-card{background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.6);border-radius:20px;padding:20px;margin:12px 0;text-align:center;animation:fadeIn .3s}
+.feedback-card .fb-word{font-size:24px;font-weight:800;margin:8px 0}
+.feedback-card .fb-def{font-size:14px;color:var(--dim);margin:4px 0}
+.feedback-card .fb-example{font-size:13px;color:var(--dim);font-style:italic;margin:4px 0}
 .flash{animation:flash .4s}
 @keyframes flash{0%,100%{opacity:1}50%{opacity:.5}}
 .green-flash{animation:greenFlash .5s}
@@ -77,27 +96,22 @@ textarea:focus{border-color:rgba(0,122,255,0.4);outline:none}
 </head>
 <body>
 
-<div class="ticker-bar"><div class="ticker-content" id="ticker"></div></div>
-<button class="sound-toggle" id="soundToggle" title="Toggle Sound">🔊</button>
-
-<div class="container">
+<div class="container" style="position:relative">
 <!-- HOME SCREEN -->
 <div class="screen active" id="homeScreen">
+<button class="settings-btn" onclick="showScreen('settingsScreen')" title="Settings">⚙️</button>
 <h1>💰 WORD STREET</h1>
-<p style="text-align:center;color:var(--dim);margin-bottom:20px">Learn Words. Earn Coins. Level Up! 🚀</p>
-<div class="card">
-<div class="stats-row">
-<div class="stat"><div class="stat-value" id="homeBalance">$10,000</div><div class="stat-label">MY CASH</div></div>
-<div class="stat"><div class="stat-value" id="homeMastered">0</div><div class="stat-label">MASTERED</div></div>
-<div class="stat"><div class="stat-value" id="homeWatchlist">0</div><div class="stat-label">NEED PRACTICE</div></div>
+<p style="text-align:center;color:var(--dim);margin-bottom:16px">Learn Words. Earn Coins. Level Up! 🚀</p>
+<div class="level-pills" id="levelPills">
+<button class="level-pill active" onclick="selectLevel(1)">Lv.1</button>
+<button class="level-pill" onclick="selectLevel(2)">Lv.2</button>
+<button class="level-pill" onclick="selectLevel(3)">Lv.3</button>
+<button class="level-pill" onclick="selectLevel(4)">Lv.4</button>
+<button class="level-pill" onclick="selectLevel(5)">Lv.5</button>
 </div>
-</div>
-<div class="btn-grid" style="margin-top:20px">
-<button class="btn primary" onclick="showScreen('modeScreen')">▶ PLAY</button>
-<button class="btn" onclick="showScreen('portfolioScreen')">💰 MY MONEY</button>
-<button class="btn" onclick="showScreen('leaderboardScreen')">🏆 HIGH SCORES</button>
-<button class="btn" onclick="showImport()">📥 ADD WORDS</button>
-</div>
+<button class="play-btn" onclick="quickPlay()">PLAY</button>
+<button class="learn-btn" onclick="startLearn()">📖 LEARN</button>
+<div class="home-stats" id="homeStats">0 mastered · 0 to practice</div>
 </div>
 
 <!-- MODE SCREEN -->
@@ -121,10 +135,56 @@ textarea:focus{border-color:rgba(0,122,255,0.4);outline:none}
 <button class="btn" style="width:100%;margin-top:8px" onclick="showScreen('homeScreen')">← Back</button>
 </div>
 
+<!-- SETTINGS SCREEN -->
+<div class="screen" id="settingsScreen">
+<h2>⚙️ SETTINGS</h2>
+<h3 style="margin:12px 0 8px;color:var(--dim);font-size:13px;text-transform:uppercase">Game Mode</h3>
+<div class="settings-grid" id="settingsModes">
+<button class="btn active-setting" data-mode="mixed" onclick="setSetting('mode',this)">🎲 Mixed</button>
+<button class="btn" data-mode="definition" onclick="setSetting('mode',this)">📖 Definition</button>
+<button class="btn" data-mode="context" onclick="setSetting('mode',this)">📝 Context</button>
+<button class="btn" data-mode="picture" onclick="setSetting('mode',this)">🖼 Picture</button>
+<button class="btn" data-mode="listen" onclick="setSetting('mode',this)">🎧 Listen</button>
+</div>
+<h3 style="margin:12px 0 8px;color:var(--dim);font-size:13px;text-transform:uppercase">Word Pack</h3>
+<div class="settings-grid" id="settingsPacks">
+<button class="btn active-setting" data-pack="academic" onclick="setSetting('pack',this)">📚 Academic</button>
+<button class="btn" data-pack="watchlist" onclick="setSetting('pack',this)">🔄 Practice Again</button>
+<button class="btn" data-pack="custom" onclick="setSetting('pack',this)">✏️ Custom</button>
+<button class="btn" data-pack="all" onclick="setSetting('pack',this)">🌐 All Words</button>
+</div>
+<div style="margin-top:20px;display:grid;gap:10px">
+<button class="btn" onclick="showScreen('portfolioScreen')">💰 My Money</button>
+<button class="btn" onclick="showScreen('leaderboardScreen')">🏆 Scores</button>
+<button class="btn" onclick="showImport()">📥 Import Words</button>
+<button class="btn" onclick="showScreen('homeScreen')">← Back</button>
+</div>
+</div>
+
+<!-- LEARN SCREEN -->
+<div class="screen" id="learnScreen">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+<button class="btn" style="padding:8px 16px" onclick="showScreen('homeScreen')">← Back</button>
+<span id="learnProgress" style="font-weight:700;color:var(--dim)">1/10</span>
+</div>
+<div class="learn-card" id="learnCard">
+<div class="learn-word" id="learnWord"></div>
+<button style="background:none;border:none;font-size:28px;cursor:pointer;margin:4px" onclick="speak(learnWords[learnIndex].word)">🔊</button>
+<div id="learnImageArea"></div>
+<div class="learn-def" id="learnDef"></div>
+<div class="learn-example" id="learnExample"></div>
+</div>
+<div class="learn-nav">
+<button class="btn" id="learnPrevBtn" onclick="learnNav(-1)">← Prev</button>
+<button class="btn primary" id="learnNextBtn" onclick="learnNav(1)">Next →</button>
+</div>
+</div>
+
 <!-- GAME SCREEN -->
 <div class="screen" id="gameScreen">
-<div class="card" style="padding:12px">
-<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+<div class="card" style="padding:12px;position:relative">
+<button class="back-hud" onclick="quitGame()">← Back</button>
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding-left:80px">
 <span id="gameProgress">1/20</span>
 <span id="gameMoney" class="money up">$10,000</span>
 <span id="streakBadge"></span>
@@ -802,32 +862,78 @@ function save(){localStorage.setItem('wordstreet-state',JSON.stringify(state))}
 function showScreen(id){
 document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
 document.getElementById(id).classList.add('active');
-if(id==='homeScreen')updateHome();
+if(id==='homeScreen'){updateHome();highlightLevels()}
+if(id==='settingsScreen')highlightSettings();
 if(id==='portfolioScreen')updatePortfolio();
 if(id==='leaderboardScreen')updateLeaderboard();
 }
 function updateHome(){
-document.getElementById('homeBalance').textContent=formatMoney(state.balance);
-document.getElementById('homeMastered').textContent=state.mastered.length;
-document.getElementById('homeWatchlist').textContent=state.watchlist.length;
-document.getElementById('wlCount').textContent=state.watchlist.length;
+document.getElementById('homeStats').textContent=state.mastered.length+' mastered \u00b7 '+state.watchlist.length+' to practice';
 }
 function formatMoney(n){return(n>=0?'$':'-$')+Math.abs(n).toLocaleString()}
 
 // === MODE/PACK SELECTION ===
-let selectedMode='mixed',selectedPack='academic';
-function selectMode(el){
-document.querySelectorAll('.mode-card').forEach(c=>c.classList.remove('selected'));
-el.classList.add('selected');
-selectedMode=el.dataset.mode;
+let selectedMode=localStorage.getItem('ws-quickMode')||'mixed';
+let selectedPack=localStorage.getItem('ws-quickPack')||'academic';
+let selectedLevel=parseInt(localStorage.getItem('ws-level')||'1');
+function selectLevel(lv){selectedLevel=lv;localStorage.setItem('ws-level',lv);highlightLevels()}
+function highlightLevels(){document.querySelectorAll('.level-pill').forEach((p,i)=>{p.classList.toggle('active',i+1===selectedLevel)})}
+function highlightSettings(){
+document.querySelectorAll('#settingsModes .btn').forEach(b=>{b.classList.toggle('active-setting',b.dataset.mode===selectedMode)});
+document.querySelectorAll('#settingsPacks .btn').forEach(b=>{b.classList.toggle('active-setting',b.dataset.pack===selectedPack)});
 }
-function selectPack(p){selectedPack=p;document.querySelectorAll('[id^=pack]').forEach(b=>b.style.borderColor='');document.getElementById('pack'+p.charAt(0).toUpperCase()+p.slice(1)).style.borderColor='var(--green)'}
+function setSetting(type,el){
+if(type==='mode'){selectedMode=el.dataset.mode;localStorage.setItem('ws-quickMode',selectedMode);document.querySelectorAll('#settingsModes .btn').forEach(b=>b.classList.remove('active-setting'))}
+else{selectedPack=el.dataset.pack;localStorage.setItem('ws-quickPack',selectedPack);document.querySelectorAll('#settingsPacks .btn').forEach(b=>b.classList.remove('active-setting'))}
+el.classList.add('active-setting');
+}
+function selectMode(el){document.querySelectorAll('.mode-card').forEach(c=>c.classList.remove('selected'));el.classList.add('selected');selectedMode=el.dataset.mode;localStorage.setItem('ws-quickMode',selectedMode)}
+function selectPack(p){selectedPack=p;localStorage.setItem('ws-quickPack',selectedPack);document.querySelectorAll('[id^=pack]').forEach(b=>b.style.borderColor='');let el=document.getElementById('pack'+p.charAt(0).toUpperCase()+p.slice(1));if(el)el.style.borderColor='var(--green)'}
 
+// === QUICK PLAY ===
+function quickPlay(){
+let pool=getWordPool();
+if(pool.length<4){alert('Not enough words! Need at least 4.');return}
+game={mode:selectedMode,pack:selectedPack,words:shuffle(pool).slice(0,20),current:0,streak:0,correct:0,wrong:0,results:[],startBalance:state.balance,timer:null,timeLeft:10};
+preloadAudio(game.words);preloadImages(game.words);
+showScreen('gameScreen');showQuestion();
+}
+// === LEVEL-BASED WORDS ===
+function getWordsByLevel(lv){let perLevel=Math.ceil(WORD_BANK.length/5);let start=(lv-1)*perLevel;return WORD_BANK.slice(start,start+perLevel)}
+// === LEARN MODE ===
+let learnWords=[],learnIndex=0;
+function startLearn(){
+learnWords=getWordsByLevel(selectedLevel);learnIndex=0;
+preloadAudio(learnWords);preloadImages(learnWords);
+showScreen('learnScreen');renderLearnCard();
+}
+function renderLearnCard(){
+if(!learnWords.length)return;
+let w=learnWords[learnIndex];
+document.getElementById('learnProgress').textContent=(learnIndex+1)+'/'+learnWords.length;
+document.getElementById('learnWord').textContent=w.word;
+document.getElementById('learnDef').textContent=w.definition;
+document.getElementById('learnExample').textContent='"'+w.example+'"';
+document.getElementById('learnPrevBtn').disabled=learnIndex===0;
+document.getElementById('learnNextBtn').textContent=learnIndex===learnWords.length-1?'Done ✓':'Next →';
+let area=document.getElementById('learnImageArea');
+area.innerHTML='<div class="learn-image-fallback">📚</div>';
+fetchImage(w.imageKeyword||w.word,function(url){
+if(url){area.innerHTML='<img class="learn-image" src="'+url+'" alt="'+w.word+'" onerror="this.outerHTML=\'<div class=learn-image-fallback>📚</div>\'">'}
+});
+}
+function learnNav(dir){
+learnIndex+=dir;
+if(learnIndex<0)learnIndex=0;
+if(learnIndex>=learnWords.length){showScreen('homeScreen');return}
+renderLearnCard();speak(learnWords[learnIndex].word);
+}
 // === START ROUND ===
 function startRound(){
 let pool=getWordPool();
 if(pool.length<4){alert('Not enough words! Need at least 4.');return}
 game={mode:selectedMode,pack:selectedPack,words:shuffle(pool).slice(0,20),current:0,streak:0,correct:0,wrong:0,results:[],startBalance:state.balance,timer:null,timeLeft:10};
+preloadAudio(game.words);preloadImages(game.words);
 showScreen('gameScreen');
 showQuestion();
 }
@@ -874,7 +980,54 @@ startTimer();
 }
 
 function escape(s){return s.replace(/'/g,"\\'")}
-function speak(word){if('speechSynthesis' in window){let u=new SpeechSynthesisUtterance(word);u.rate=0.9;speechSynthesis.speak(u)}}
+// === IMAGE SYSTEM (Wikimedia Commons) ===
+let imageCache={};
+function fetchImage(keyword,callback){
+if(!keyword){callback('');return}
+let key=keyword.toLowerCase();
+if(imageCache[key]!==undefined){callback(imageCache[key]);return}
+fetch('https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+encodeURIComponent(keyword)+'&gsrnamespace=6&prop=imageinfo&iiprop=url&iiurlwidth=280&format=json&origin=*')
+.then(r=>r.json()).then(data=>{
+let pages=data&&data.query&&data.query.pages?Object.values(data.query.pages):[];
+let img='';
+for(let p of pages){if(p.imageinfo&&p.imageinfo[0]&&p.imageinfo[0].thumburl){let url=p.imageinfo[0].thumburl;if(/\.(jpg|jpeg|png)/i.test(url)){img=url;break}}}
+imageCache[key]=img;callback(img);
+}).catch(()=>{imageCache[key]='';callback('')});
+}
+function preloadImages(words){words.forEach(w=>{fetchImage(w.imageKeyword||w.word||w,()=>{})})}
+// === AUDIO SYSTEM (Dictionary API) ===
+let audioCache={};
+function preloadAudio(words){
+words.forEach(w=>{
+let word=w.word||w;let key=word.toLowerCase();
+if(audioCache[key])return;
+fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(key))
+.then(r=>r.json()).then(data=>{
+let audio='';
+if(Array.isArray(data)&&data[0]&&data[0].phonetics){
+for(let p of data[0].phonetics){if(p.audio&&p.audio.includes('-us')){audio=p.audio;break}}
+if(!audio){for(let p of data[0].phonetics){if(p.audio){audio=p.audio;break}}}}
+if(audio){let a=new Audio(audio);a.preload='auto';audioCache[key]=a}
+}).catch(()=>{});
+});
+}
+function speak(word){
+let w=word.toLowerCase();
+if(audioCache[w]){audioCache[w].currentTime=0;audioCache[w].play();return}
+fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(w))
+.then(r=>r.json()).then(data=>{
+let audio='';
+if(Array.isArray(data)&&data[0]&&data[0].phonetics){
+for(let p of data[0].phonetics){if(p.audio&&p.audio.includes('-us')){audio=p.audio;break}}
+if(!audio){for(let p of data[0].phonetics){if(p.audio){audio=p.audio;break}}}}
+if(audio){let a=new Audio(audio);audioCache[w]=a;a.play()}else{speakFallback(w)}
+}).catch(()=>speakFallback(w));
+}
+function speakFallback(word){
+if('speechSynthesis' in window){speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(word);u.rate=0.85;u.lang='en-US';let voices=speechSynthesis.getVoices();let v=voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang.startsWith('en'));if(v)u.voice=v;speechSynthesis.speak(u)}
+}
+// === QUIT GAME ===
+function quitGame(){clearInterval(game.timer);showScreen('homeScreen')}
 
 // === TIMER ===
 function startTimer(){
@@ -925,7 +1078,8 @@ playSound('wrong');save();
 }
 function showFeedback(w,correct){
 let mul=game.streak>=5?'🔥 ON FIRE x3':game.streak>=3?'📈 Hot Streak x2':game.streak<=-3?'📉 Losing Money!':'';
-document.getElementById('feedbackArea').innerHTML=`<div class="feedback ${correct?'correct-fb':'wrong-fb'}"><strong>${correct?'✓ Correct!':'✗ Wrong!'}</strong> ${mul?'<span class="streak-badge '+(correct?'bull-run':'bear-market')+'">'+mul+'</span>':''}<br><br><strong>${w.word}</strong> — ${w.definition}<br><em>"${w.example}"</em></div>`;
+document.getElementById('feedbackArea').innerHTML=`<div class="feedback-card ${correct?'correct-fb':'wrong-fb'}"><strong>${correct?'✓ Correct!':'✗ Wrong!'}</strong> ${mul?'<span class="streak-badge '+(correct?'bull-run':'bear-market')+'">'+mul+'</span>':''}<div class="fb-word">${w.word} <button style="background:none;border:none;font-size:20px;cursor:pointer" onclick="speak('${escape(w.word)}')">🔊</button></div><div class="fb-def">${w.definition}</div><div class="fb-example">"${w.example}"</div></div>`;
+speak(w.word);
 document.getElementById('nextBtn').style.display='inline-block';
 document.getElementById('gameMoney').textContent=formatMoney(state.balance);
 document.getElementById('questionCard').classList.add(correct?'green-flash':'red-flash');
@@ -1011,21 +1165,12 @@ gain.gain.value=0.1;
 if(type==='correct'){osc.frequency.value=880;osc.type='sine';osc.start();osc.stop(ctx.currentTime+0.1)}
 else{osc.frequency.value=220;osc.type='square';osc.start();osc.stop(ctx.currentTime+0.15)}
 }
-document.getElementById('soundToggle').onclick=function(){state.soundOn=!state.soundOn;this.textContent=state.soundOn?'🔊':'🔇';save()};
-
-// === TICKER ===
-function updateTicker(){
-let words=shuffle(WORD_BANK).slice(0,20);
-let html=words.map(w=>{let dir=Math.random()>.5;return`<span class="ticker-item ${dir?'ticker-up':'ticker-down'}">${w.word} ${dir?'▲':'▼'}</span>`}).join('');
-document.getElementById('ticker').innerHTML=html+html;
-}
 
 // === UTILS ===
 function shuffle(arr){let a=[...arr];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 
 // === INIT ===
-updateHome();updateTicker();setInterval(updateTicker,30000);
-document.getElementById('soundToggle').textContent=state.soundOn?'🔊':'🔇';
+updateHome();highlightLevels();
 </script>
 </body>
 </html>
