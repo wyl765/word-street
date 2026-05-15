@@ -903,7 +903,8 @@ function getWordsByLevel(lv){let perLevel=Math.ceil(WORD_BANK.length/5);let star
 // === LEARN MODE ===
 let learnWords=[],learnIndex=0;
 function startLearn(){
-learnWords=getWordsByLevel(selectedLevel);learnIndex=0;
+let pool=getWordsByLevel(selectedLevel);
+learnWords=shuffle(pool).slice(0,10);learnIndex=0;
 preloadAudio(learnWords);preloadImages(learnWords);
 showScreen('learnScreen');renderLearnCard();
 }
