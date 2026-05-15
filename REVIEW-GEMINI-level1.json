@@ -1,0 +1,851 @@
+{
+  "reviewer": "gemini",
+  "level": 1,
+  "date": "2026-05-14",
+  "totalWords": 600,
+  "summary": {
+    "perfect": 462,
+    "minor_issues": 95,
+    "needs_revision": 38,
+    "critical": 5
+  },
+  "issues": [
+    {
+      "word": "than",
+      "category": "grade_level",
+      "severity": "critical",
+      "current_definition": "a word used to compare two things",
+      "current_example": "She scored more points than anyone else on the basketball team.",
+      "problem": "Function word, not vocabulary word. 'Than' is a grammatical conjunction/preposition already mastered by age 3-4 in oral language. No reputable vocabulary curriculum (Dolch, Fry, CCSS Tier 2/3) includes function words like 'than' as vocabulary targets. It cannot be meaningfully taught through definition-matching or spelling exercises.",
+      "suggested_fix": "Remove entirely. Replace with a genuine K-1 Tier 2 vocabulary word such as 'whistle', 'crane', 'globe', or 'branch'."
+    },
+    {
+      "word": "itsy",
+      "category": "grade_level",
+      "severity": "critical",
+      "current_definition": "very very tiny; so small",
+      "current_example": "An itsy bitsy spider climbed up the water spout.",
+      "problem": "'Itsy' is not a standalone English word recognized by any standard dictionary (Merriam-Webster, Oxford, Cambridge). It only exists in the compound 'itsy-bitsy' or 'itsy bitsy.' Including a non-word in a vocabulary product is a factual error that would not pass editorial review at any publisher.",
+      "suggested_fix": "Remove entirely or replace with 'itsy-bitsy' (hyphenated compound). Better: replace slot with a real K-1 word like 'wobble' (already present), 'stumble', or 'pebble'."
+    },
+    {
+      "word": "nowadays",
+      "category": "grade_level",
+      "severity": "critical",
+      "current_definition": "in the time we live in now",
+      "current_example": "Nowadays, most kids use computers at school.",
+      "problem": "Well above K-1 level. 'Nowadays' does not appear on Dolch, Fry first 300, or any K-1 CCSS vocabulary list. It is an abstract temporal adverb requiring understanding of historical vs. present contrast. Typically Grade 3-4+ vocabulary. Fry frequency rank is very low for K-1.",
+      "suggested_fix": "Move to Level 2 or 3. Replace with a K-1 appropriate word like 'puddle' (already present), 'giggle' (already present), or 'cradle'."
+    },
+    {
+      "word": "whether",
+      "category": "grade_level",
+      "severity": "critical",
+      "current_definition": "used when you are choosing between two possible things",
+      "current_example": "I don't know whether to bring a coat or not.",
+      "problem": "Abstract subordinating conjunction far above K-1 level. CCSS does not expect mastery of 'whether' until Grade 3+. It is a function word like 'than' — not a vocabulary target. Additionally easily confused with 'weather' (homophone) at this age, creating potential spelling/reading confusion.",
+      "suggested_fix": "Move to Level 2 minimum, or remove entirely. Replace with concrete K-1 word."
+    },
+    {
+      "word": "drought",
+      "category": "grade_level",
+      "severity": "critical",
+      "current_definition": "a long time with no rain",
+      "current_example": "The flowers turned brown because of the long drought.",
+      "problem": "Grade 3+ vocabulary per CCSS. Drought is an abstract environmental science concept. K-1 students study basic weather (rain, sun, snow, wind) — 'drought' is a secondary/tertiary concept involving temporal duration + absence. Fry word list places this well beyond Grade 2. Most K-1 curricula (HMH Into Reading, Wonders) introduce this in Grade 3 science integration.",
+      "suggested_fix": "Move to Level 2 or 3. Replace with a K-1 weather word like 'cloudy', 'windy', or 'raindrop'."
+    },
+    {
+      "word": "shark",
+      "category": "factual_accuracy",
+      "severity": "revision",
+      "current_definition": "a large ocean fish with sharp teeth and a skeleton made of cartilage",
+      "current_example": "The shark swam fast through the dark water.",
+      "problem": "Definition uses 'cartilage' — a word that K-1 students (ages 5-7) do not know. This violates the cardinal rule of children's dictionaries: never use a harder word in the definition than the word being defined. Merriam-Webster Children's defines shark simply as 'a large usually gray fish that has sharp teeth.' Also, not all sharks are large (dwarf lanternshark is 20cm).",
+      "suggested_fix": "Definition: 'a fish that lives in the ocean and has sharp teeth and a pointed fin on its back'. Remove 'cartilage' entirely."
+    },
+    {
+      "word": "whale",
+      "category": "factual_accuracy",
+      "severity": "revision",
+      "current_definition": "the largest sea mammal, which breathes air and can grow longer than a bus",
+      "current_example": "The whale came up to the surface to breathe.",
+      "problem": "'Mammal' is not a word K-1 students reliably know. While scientifically accurate, using technical taxonomy terms in definitions for 5-7 year olds violates readability standards. Merriam-Webster Children's avoids 'mammal' in early definitions. Also, not all whales are 'the largest' — minke whales are relatively small.",
+      "suggested_fix": "Definition: 'a very large animal that lives in the ocean, breathes air, and can grow longer than a bus'. Drop 'mammal' and 'the largest'."
+    },
+    {
+      "word": "dolphin",
+      "category": "factual_accuracy",
+      "severity": "revision",
+      "current_definition": "a gray sea mammal with a long pointed nose that jumps and plays in waves",
+      "current_example": "The dolphin leaped out of the water and splashed back in.",
+      "problem": "Same 'mammal' issue as whale. Additionally, anatomically it's a 'snout' or 'beak' (rostrum), not a 'nose.' Not all dolphins are gray (Amazon river dolphin is pink, common dolphin is multi-colored). The phrase 'plays in waves' is anthropomorphic and imprecise.",
+      "suggested_fix": "Definition: 'a smart ocean animal that breathes air, has a long snout, and can jump high out of the water'."
+    },
+    {
+      "word": "raccoon",
+      "category": "factual_accuracy",
+      "severity": "revision",
+      "current_definition": "a nocturnal animal with black fur around its eyes like a mask and clever front paws",
+      "current_example": "A raccoon knocked over the trash can at night.",
+      "problem": "'Nocturnal' is a Grade 3+ science vocabulary word. K-1 students do not know this term. Using it in a definition violates readability. The definition should describe the behavior in simple words rather than using the technical term.",
+      "suggested_fix": "Definition: 'an animal with black fur around its eyes like a mask that comes out mostly at night and has clever front paws'."
+    },
+    {
+      "word": "mushroom",
+      "category": "factual_accuracy",
+      "severity": "revision",
+      "current_definition": "a type of fungus with a cap and stem",
+      "current_example": "The mushroom grew under the big tree after the rain.",
+      "problem": "'Fungus' is a Grade 3+ science term. K-1 students do not know this word. Merriam-Webster Children's defines mushroom without using 'fungus.' The definition should describe what a mushroom looks like, not its biological classification.",
+      "suggested_fix": "Definition: 'a small living thing shaped like an umbrella that grows in damp places — it is not a plant'."
+    },
+    {
+      "word": "lizard",
+      "category": "factual_accuracy",
+      "severity": "revision",
+      "current_definition": "a dry-skinned reptile with scales, four legs, and a long tail",
+      "current_example": "A green lizard sat on the warm rock in the sun.",
+      "problem": "'Reptile' is a Grade 2-3 science term. While closer to K-1 range than 'cartilage', many K-1 students do not yet know this classification. Additionally, some lizards (glass lizard, slow worm) are legless, so 'four legs' is not always accurate.",
+      "suggested_fix": "Definition: 'a small animal with dry scaly skin, usually four legs, and a long tail that likes warm places'."
+    },
+    {
+      "word": "turtle",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a reptile with a hard shell that covers its body",
+      "current_example": "The turtle pulled its head inside its shell.",
+      "problem": "Same 'reptile' concern, though less severe here since the shell is the primary distinguishing feature. Also, not all turtles can pull their head inside their shell (sea turtles cannot retract).",
+      "suggested_fix": "Definition: 'an animal with a hard shell on its back that walks very slowly'. Example is fine if we accept it describes most familiar turtles."
+    },
+    {
+      "word": "caterpillar",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "the young form of a butterfly or moth, with a soft body and short legs",
+      "current_example": "The green caterpillar munched on leaves all day.",
+      "problem": "'Young form' is slightly technical. K-1 curricula (especially around 'The Very Hungry Caterpillar') typically describe this as 'a fuzzy or smooth worm-like creature that turns into a butterfly.' The concept of metamorphosis is taught but using simpler language.",
+      "suggested_fix": "Definition: 'a small soft creature with many legs that eats leaves and later turns into a butterfly or moth'."
+    },
+    {
+      "word": "moose",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "the largest kind of deer, with long legs and a broad nose; males grow large flat antlers",
+      "current_example": "The huge moose stood in the middle of the road.",
+      "problem": "'Antlers' may be borderline for K-1. More importantly, defining moose as 'the largest kind of deer' requires the child to know what a deer is AND understand comparative classification. K-1 definitions should describe the animal directly.",
+      "suggested_fix": "Definition: 'a very large animal with long legs, a big nose, and wide flat horns on its head'."
+    },
+    {
+      "word": "peanut",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a small nut-like seed that grows in a shell underground",
+      "current_example": "The elephant ate a peanut right from my hand.",
+      "problem": "Botanically accurate ('nut-like seed'), but this distinction is confusing for K-1. Children universally call peanuts 'nuts.' The example with elephant eating from hand is unrealistic for most children's experience and could promote unsafe behavior around zoo animals.",
+      "suggested_fix": "Definition: 'a small tan-colored nut that grows underground in a shell'. Example: 'She cracked open the peanut shell and ate the nuts inside.'"
+    },
+    {
+      "word": "passenger",
+      "category": "factual_accuracy",
+      "severity": "revision",
+      "current_definition": "a person riding in a thing with wheels that moves people or stuff like a car, bus, train, or airplane",
+      "current_example": "Every passenger on the bus found a seat.",
+      "problem": "Definition is rambling, colloquial, and inaccurate. Passengers also ride boats, ships, and airplanes (which don't primarily have wheels for the riding part). 'A thing with wheels that moves people or stuff' is neither precise nor age-appropriate in its verbosity. This reads like improvised speech, not an edited definition.",
+      "suggested_fix": "Definition: 'a person who rides in a car, bus, train, boat, or airplane'."
+    },
+    {
+      "word": "bark",
+      "category": "completeness",
+      "severity": "revision",
+      "current_definition": "the short loud sound a dog makes",
+      "current_example": "The dog's loud bark woke up the whole house.",
+      "problem": "Missing critical second meaning: the outer covering of a tree. Both meanings are high-frequency K-1 vocabulary. Children encounter tree bark constantly in nature walks, science lessons, and stories. CCSS expects awareness of multiple-meaning words starting in Kindergarten (L.K.4a). A vocabulary product missing this is incomplete.",
+      "suggested_fix": "Add note or second entry: 'bark also means the rough outer covering of a tree'. Or expand definition: 'the short loud sound a dog makes; also the rough covering on the outside of a tree'."
+    },
+    {
+      "word": "wave",
+      "category": "completeness",
+      "severity": "revision",
+      "current_definition": "to move your hand to say hello or bye",
+      "current_example": "She would wave goodbye from the window.",
+      "problem": "Missing critical second meaning: a wave in the ocean/water. Children encounter ocean waves as a primary meaning at this age (beach visits, stories, songs). CCSS multiple-meaning word awareness applies here. Both meanings are equally important at K-1.",
+      "suggested_fix": "Expand: 'to move your hand to say hello or bye; also a moving ridge of water in the ocean or a lake'."
+    },
+    {
+      "word": "sink",
+      "category": "completeness",
+      "severity": "revision",
+      "current_definition": "to go down under the water",
+      "current_example": "The heavy rock will sink to the bottom.",
+      "problem": "Missing second meaning: the basin in a kitchen/bathroom where you wash. This is extremely high-frequency for K-1 students (daily handwashing routine). Both meanings are core K-1 vocabulary.",
+      "suggested_fix": "Add: 'also a bowl-shaped place in a kitchen or bathroom where you wash your hands'."
+    },
+    {
+      "word": "match",
+      "category": "completeness",
+      "severity": "revision",
+      "current_definition": "to find two things that are the same",
+      "current_example": "Can you match the baby animal to its mother?",
+      "problem": "Missing meaning: a thin stick with a tip that makes fire when struck. Children learn fire safety in K-1 and encounter 'match' in this context. Also missing: a game or contest ('a soccer match').",
+      "suggested_fix": "Add polysemy note: 'also a small stick that makes a flame when you strike it'."
+    },
+    {
+      "word": "scale",
+      "category": "completeness",
+      "severity": "revision",
+      "current_definition": "one of the small hard flat pieces that cover a fish or snake's body",
+      "current_example": "Each shiny scale on the fish glowed in the sunlight.",
+      "problem": "Missing meaning: a device for weighing things. Children encounter scales at the doctor's office, in cooking, and in math (balance scales in K-1 math). Both meanings are K-1 appropriate.",
+      "suggested_fix": "Add: 'also a tool used to weigh things'."
+    },
+    {
+      "word": "tag",
+      "category": "completeness",
+      "severity": "minor",
+      "current_definition": "a small label with words on it",
+      "current_example": "The tag on her shirt said her name.",
+      "problem": "Missing meaning: the game of tag. This is arguably THE most relevant meaning for K-1 children — they play tag daily at recess. A vocabulary product that doesn't capture a child's most-used meaning of a word is pedagogically incomplete.",
+      "suggested_fix": "Add: 'also a chasing game where one person tries to touch another'."
+    },
+    {
+      "word": "skip",
+      "category": "completeness",
+      "severity": "minor",
+      "current_definition": "to move with little hops and steps",
+      "current_example": "She liked to skip down the path singing a song.",
+      "problem": "Missing meaning: to leave something out or pass over it ('skip a page', 'skip your turn'). Both meanings are high-frequency at K-1.",
+      "suggested_fix": "Add: 'also to leave something out or go past it'."
+    },
+    {
+      "word": "stamp",
+      "category": "completeness",
+      "severity": "minor",
+      "current_definition": "a small sticker you put on mail",
+      "current_example": "You need a stamp to send a letter.",
+      "problem": "Missing meaning: to bring your foot down hard. Children 'stamp their feet' — this is a common K-1 action verb. Also missing: a rubber stamp for pressing ink patterns.",
+      "suggested_fix": "Add: 'also to bring your foot down hard on the ground'."
+    },
+    {
+      "word": "palm",
+      "category": "completeness",
+      "severity": "minor",
+      "current_definition": "the flat inside part of your hand",
+      "current_example": "He held the coin in the palm of his hand.",
+      "problem": "Missing meaning: a palm tree. Children in many regions see palm trees regularly, and they appear frequently in stories and images. Both meanings are K-1 appropriate.",
+      "suggested_fix": "Add: 'also a tall tree with large leaves at the top that grows in warm places'."
+    },
+    {
+      "word": "march",
+      "category": "completeness",
+      "severity": "minor",
+      "current_definition": "to walk with big strong steps",
+      "current_example": "The band members march in a straight line during the parade.",
+      "problem": "Missing meaning: the month of March. K-1 students learn months of the year as a core standard. However, the month is a proper noun and may be considered a different entry. Minor issue.",
+      "suggested_fix": "Consider adding: 'March is also the third month of the year'."
+    },
+    {
+      "word": "lose",
+      "category": "completeness",
+      "severity": "minor",
+      "current_definition": "to not be able to find something",
+      "current_example": "Be careful not to lose your keys at the park.",
+      "problem": "Missing critical meaning: to not win a game or contest. For K-1 children, 'our team lost the game' is at least as frequent as 'I lost my keys.' Both meanings are essential.",
+      "suggested_fix": "Add: 'also to not win a game or contest'."
+    },
+    {
+      "word": "mean",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'mean' (both 'unkind' and 'to have a meaning') is a critical K-1 vocabulary word that appears on Dolch sight word supplementary lists and is extremely high-frequency in children's social vocabulary. Its absence is a gap.",
+      "suggested_fix": "Add 'mean' with definition: 'not nice or kind; also what a word stands for'."
+    },
+    {
+      "word": "run",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'run' is a Dolch basic sight word and one of the most fundamental action verbs for K-1. While the list has 'dash' and 'chase', the basic verb 'run' itself is absent. This is a notable gap for a K-1 word bank.",
+      "suggested_fix": "Add 'run' — a core K-1 vocabulary word."
+    },
+    {
+      "word": "play",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'play' is a Dolch basic sight word, the single most important activity verb for K-1 children. Its absence in a 600-word K-1 bank is a significant gap.",
+      "suggested_fix": "Add 'play' with definition: 'to have fun doing something'."
+    },
+    {
+      "word": "eat",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'eat' is a Dolch pre-primer word and one of the most basic human activity verbs. The list has many food words (toast, cereal, cookie etc.) but not the verb 'eat' itself.",
+      "suggested_fix": "Add 'eat' if targeting comprehensive K-1 coverage."
+    },
+    {
+      "word": "sleep",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'sleep' is a Dolch first-grade word. The list has 'pajamas', 'blanket', 'pillow', 'snore', 'yawn', 'wake up' but not the core verb 'sleep' itself.",
+      "suggested_fix": "Add 'sleep' — core K-1 vocabulary."
+    },
+    {
+      "word": "meanwhile",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "at the same time, but in a different place or situation",
+      "current_example": "He was at school. Meanwhile, his dad baked a cake at home.",
+      "problem": "Above K-1 level. 'Meanwhile' is a transitional adverb requiring understanding of simultaneous narration across settings. This is a Grade 2-3 writing/reading concept per CCSS (W.2.3 narrative transitions). Not found on any K-1 word list.",
+      "suggested_fix": "Move to Level 2."
+    },
+    {
+      "word": "average",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "in the middle, the usual amount — like most others",
+      "current_example": "It was an average day with nothing special happening.",
+      "problem": "Above K-1 level. 'Average' is a mathematical concept (mean) introduced in Grade 3 per CCSS Math (3.OA). The colloquial sense ('ordinary') is also above K-1 — it requires abstract comparison to norms. Not on Dolch or Fry K-1 lists.",
+      "suggested_fix": "Move to Level 2 or 3."
+    },
+    {
+      "word": "content",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "happy with what you have",
+      "current_example": "The cat looked content sleeping in the warm sun.",
+      "problem": "Borderline. 'Content' (adjective, stress on second syllable) is a sophisticated synonym for 'satisfied/happy' that is not part of typical K-1 oral vocabulary. Children this age use 'happy' — 'content' implies a nuanced philosophical state. Grade 2-3 word. Also potential confusion with 'content' (noun, stress on first syllable = what's inside something).",
+      "suggested_fix": "Move to Level 2. Replace with a more common K-1 emotion word."
+    },
+    {
+      "word": "miserable",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "very unhappy, often with body discomfort too",
+      "current_example": "He felt miserable with a cold and a sore throat.",
+      "problem": "Borderline K-1. While children experience misery, the word itself is typically Grade 2+. Fry ranks it beyond first 500. Acceptable if curriculum introduces it with heavy scaffolding, but it's a stretch for K-1.",
+      "suggested_fix": "Consider moving to Level 2, or keep with awareness it's on the harder end."
+    },
+    {
+      "word": "embarrassed",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "feeling bad because others saw you do something wrong or clumsy",
+      "current_example": "He was embarrassed when he tripped in front of everyone.",
+      "problem": "Borderline K-1. The word has 4 syllables and complex spelling. The emotion itself is relevant (children feel embarrassment), but the word is typically introduced Grade 2+. Also a very common misspelling (double r, double s) that makes it challenging for spelling mode.",
+      "suggested_fix": "Consider moving to Level 2."
+    },
+    {
+      "word": "frustrated",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "angry because you cannot do something",
+      "current_example": "He got frustrated when the puzzle piece would not fit.",
+      "problem": "Borderline K-1. While SEL (Social-Emotional Learning) curricula do introduce 'frustrated' in K-1, the word itself is typically Grade 2 vocabulary. 3 syllables, -ed suffix on Latin root. Acceptable if included as part of feelings vocabulary instruction.",
+      "suggested_fix": "Acceptable to keep if tagged as SEL vocabulary. Otherwise move to Level 2."
+    },
+    {
+      "word": "throughout",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "in every part of",
+      "current_example": "Flowers grew throughout the whole garden.",
+      "problem": "Above typical K-1. A compound preposition requiring understanding of 'through' + 'out' combined. Grade 2+ per Fry frequency. Not on Dolch lists.",
+      "suggested_fix": "Consider moving to Level 2."
+    },
+    {
+      "word": "jelly",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a soft sweet spread for bread",
+      "current_example": "I like grape jelly on my toast.",
+      "problem": "In American English, this is acceptable (jelly = fruit spread). However, the definition is incomplete — jelly is specifically made from fruit juice (not whole fruit, which is 'jam'). In British/Australian English, 'jelly' means the wobbly dessert (American 'Jello'). For an international product targeting non-native speakers worldwide, this ambiguity matters.",
+      "suggested_fix": "Definition: 'a smooth sweet spread made from fruit juice that you put on bread'. If targeting international audience, add note about regional meaning differences."
+    },
+    {
+      "word": "lace",
+      "category": "factual_accuracy",
+      "severity": "revision",
+      "current_definition": "the string you tie on a shoe",
+      "current_example": "She pulled the lace tight and tied a bow on her shoe.",
+      "problem": "Incomplete and arguably wrong primary meaning. The primary meaning of 'lace' is a decorative fabric with patterns of holes (doilies, wedding veils, trim). 'Shoelace' is a compound word; the string on a shoe is more precisely a 'shoelace' or 'lace' only as shortening. A publisher would require the primary meaning.",
+      "suggested_fix": "Definition: 'a pretty cloth with a pattern of small holes; also a string you tie on a shoe'. Or use 'shoelace' as the headword if that's the intended meaning."
+    },
+    {
+      "word": "pancake",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a flat round food you eat for breakfast",
+      "current_example": "Dad made a pancake shaped like a smiley face.",
+      "problem": "Definition is vague — 'flat round food' could describe many things (tortilla, pita, pizza). Pancakes are specifically made from batter and cooked on a griddle/pan. A publisher would require more specificity.",
+      "suggested_fix": "Definition: 'a flat round cake made from batter and cooked on a hot pan, often eaten for breakfast'."
+    },
+    {
+      "word": "honey",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "sweet food that bees make",
+      "current_example": "Bears love to eat honey from beehives.",
+      "problem": "Overly simple. Honey is more specifically a thick, sweet, golden liquid. Calling it just 'sweet food' doesn't distinguish it from candy, cookies, etc. The definition should convey its physical form.",
+      "suggested_fix": "Definition: 'a thick sweet golden liquid that bees make'."
+    },
+    {
+      "word": "popcorn",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "corn that pops when you heat it",
+      "current_example": "We ate popcorn while we watched the movie.",
+      "problem": "Technically, this defines the raw kernel, not the snack. The word 'popcorn' as used by K-1 children refers to the fluffy white puffed result, not the raw corn. 'Corn that pops' describes the process, not the product.",
+      "suggested_fix": "Definition: 'a snack made from corn kernels that puff up big and white when heated'."
+    },
+    {
+      "word": "cracker",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a thin, crispy, unsweetened baked food made from flour",
+      "current_example": "She put cheese on each cracker.",
+      "problem": "'Unsweetened' is unnecessary and inaccurate — graham crackers and animal crackers are sweet. The word 'unsweetened' is also above K-1 reading level (un- prefix + -ed suffix on 3-syllable word).",
+      "suggested_fix": "Definition: 'a thin, crispy, baked food that you can eat as a snack'."
+    },
+    {
+      "word": "frog",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a smooth-skinned animal with long back legs for jumping that lives near water",
+      "current_example": "The frog jumped off the lily pad into the pond.",
+      "problem": "Minor: 'smooth-skinned' is used to contrast with toads, which is good pedagogy. However, some frogs (e.g., African clawed frog) have bumpy skin. The definition is mostly accurate for common frogs children encounter. Acceptable but could be more precise.",
+      "suggested_fix": "Acceptable as-is. Minor suggestion: 'a small animal with smooth wet skin and long back legs for jumping that lives near water'."
+    },
+    {
+      "word": "toad",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "an animal like a frog but with dry bumpy skin that lives mostly on land",
+      "current_example": "The toad sat in the mud near the garden.",
+      "problem": "Scientifically, toads ARE frogs (family Bufonidae within order Anura). The distinction between 'frogs' and 'toads' is colloquial, not taxonomic. However, for K-1 level, this colloquial distinction is appropriate and matches how children's books present them. Acceptable.",
+      "suggested_fix": "Acceptable as-is for K-1 level."
+    },
+    {
+      "word": "spider",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "an animal with eight legs that catches insects for food",
+      "current_example": "The spider made a web between two branches.",
+      "problem": "Not all spiders catch insects — some eat other spiders, small lizards, or even birds (tarantulas). Also not all spiders make webs. Minor for K-1 level, but a publisher might note this.",
+      "suggested_fix": "Definition: 'a small animal with eight legs that often makes webs'."
+    },
+    {
+      "word": "desert",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a very dry place with very little rain",
+      "current_example": "The desert was so dry that nothing grew for miles.",
+      "problem": "The example 'nothing grew for miles' is inaccurate — deserts have vegetation (cacti, Joshua trees, desert shrubs). This perpetuates a common misconception. Antarctica is also technically a desert. The definition is fine; the example is misleading.",
+      "suggested_fix": "Example: 'The desert was hot and sandy, with only a few cactuses growing.' Keep definition as-is."
+    },
+    {
+      "word": "island",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "land with water all around it",
+      "current_example": "The island was so small you could walk around it in one hour.",
+      "problem": "Technically all continents also have water all around them. The standard geographic definition adds 'smaller than a continent.' Minor for K-1 but worth noting for precision.",
+      "suggested_fix": "Definition: 'a piece of land with water all around it that is smaller than a continent'. Or keep simple: 'a piece of land with water all around it'."
+    },
+    {
+      "word": "shove",
+      "category": "pedagogical",
+      "severity": "minor",
+      "current_definition": "to push hard",
+      "current_example": "The wind would shove the door shut.",
+      "problem": "The example uses wind as the subject of 'shove,' which is anthropomorphic and unnatural. Children encounter 'shove' primarily with human agents ('He shoved his brother'). The example doesn't reflect natural usage of the word.",
+      "suggested_fix": "Example: 'She had to shove the heavy box across the floor.'"
+    },
+    {
+      "word": "hear",
+      "category": "pedagogical",
+      "severity": "minor",
+      "current_definition": "to notice sounds with your ears",
+      "current_example": "You can hear the crowd cheering at the basketball game from outside.",
+      "problem": "The example is too long and complex for K-1 (16 words with embedded prepositional phrases). K-1 examples should be 8-12 words. The sentence structure with 'from outside' at the end is also awkward.",
+      "suggested_fix": "Example: 'Can you hear the birds singing outside?'"
+    },
+    {
+      "word": "coach",
+      "category": "pedagogical",
+      "severity": "minor",
+      "current_definition": "a person who teaches a sport",
+      "current_example": "The basketball coach taught them a new play during halftime.",
+      "problem": "'During halftime' adds unnecessary complexity. Also 'a new play' (sports play) could confuse children who think 'play' means 'have fun.' Example should be simpler.",
+      "suggested_fix": "Example: 'The coach showed them how to kick the ball.'"
+    },
+    {
+      "word": "waffle",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a breakfast food made from batter, cooked in a special iron that gives it little squares",
+      "current_example": "I poured syrup into the squares of my waffle.",
+      "problem": "'Special iron' — the word 'iron' for a cooking device is confusing for K-1 (they know iron as a metal or for pressing clothes). Also 'batter' may be borderline vocabulary. The definition is overly technical.",
+      "suggested_fix": "Definition: 'a flat breakfast food with a pattern of little squares that you pour syrup on'."
+    },
+    {
+      "word": "muffin",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a small round bread baked in a cup-shaped mold, often with fruit or chocolate inside",
+      "current_example": "The blueberry muffin was still warm from the oven.",
+      "problem": "'Cup-shaped mold' is unnecessary technical detail for K-1. Children know what a muffin looks like. The definition should describe the food, not the manufacturing process.",
+      "suggested_fix": "Definition: 'a small round sweet bread, often with blueberries or chocolate chips inside'."
+    },
+    {
+      "word": "spine",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "the column of bones down your back that holds your body up",
+      "current_example": "Stand up straight, so your spine is not curved.",
+      "problem": "'Column of bones' is accurate but technical. K-1 children use 'backbone.' The word 'spine' itself is appropriate for K-1 body vocabulary, but the definition could be simplified.",
+      "suggested_fix": "Definition: 'the row of bones down the middle of your back; your backbone'."
+    },
+    {
+      "word": "skull",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "the bone that covers your brain",
+      "current_example": "Helmets protect your skull if you fall.",
+      "problem": "Definition says 'the bone' (singular) but the skull is actually composed of multiple fused bones. Minor anatomical imprecision. For K-1 this simplification is acceptable, but a publisher might flag it.",
+      "suggested_fix": "Definition: 'the hard bones of your head that protect your brain'. Minor fix."
+    },
+    {
+      "word": "rib",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "one of the bones around your chest that protect your heart and lungs",
+      "current_example": "He laughed so hard his ribs hurt.",
+      "problem": "'Lungs' may be borderline K-1 vocabulary. The definition is accurate. Minor concern.",
+      "suggested_fix": "Acceptable as-is. Could simplify to: 'one of the curved bones around your chest'."
+    },
+    {
+      "word": "thermometer",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "a tool that tells how hot or cold it is",
+      "current_example": "Mom put the thermometer in my mouth to check my temperature.",
+      "problem": "The word itself (5 syllables, Greek roots) is challenging for K-1 spelling mode. However, it IS a word K-1 children encounter (at the doctor, weather). The definition and example are good. Borderline but acceptable.",
+      "suggested_fix": "Acceptable for K-1 recognition/reading. May want to flag for spelling mode exclusion at this level."
+    },
+    {
+      "word": "discover",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "to find or learn about something for the first time",
+      "current_example": "She was excited to discover a frog under the log.",
+      "problem": "Borderline K-1. 'Discover' is Grade 2 on many word lists, but it IS used in K-1 read-alouds and science instruction. Acceptable.",
+      "suggested_fix": "Acceptable as-is."
+    },
+    {
+      "word": "design",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "to plan what something will look like",
+      "current_example": "He wanted to design his own treehouse.",
+      "problem": "Borderline K-1. More commonly Grade 2+ vocabulary. However, with STEM emphasis in modern K-1, 'design' is increasingly used. Acceptable with caveat.",
+      "suggested_fix": "Acceptable as-is in modern CCSS-aligned curriculum."
+    },
+    {
+      "word": "deliver",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "to bring something to someone",
+      "current_example": "The mail carrier will deliver the package today.",
+      "problem": "Borderline K-1. The word is 3 syllables with Latin root. However, package delivery is a concrete concept K-1 children understand. Acceptable.",
+      "suggested_fix": "Acceptable as-is."
+    },
+    {
+      "word": "portion",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "the amount of food for one person",
+      "current_example": "Each child got an equal portion of the pie.",
+      "problem": "'Portion' is Grade 2-3 vocabulary. K-1 children use 'piece' or 'share' instead. Also the definition limits it to food, but 'portion' applies more broadly.",
+      "suggested_fix": "Consider moving to Level 2. If keeping, definition: 'a share or part of something, especially food'."
+    },
+    {
+      "word": "amount",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "how much of something there is",
+      "current_example": "A small amount of sugar makes the tea sweet.",
+      "problem": "Borderline K-1. 'Amount' is an abstract quantifier more typical of Grade 2+. K-1 students use 'how much' or 'a lot/a little' rather than the noun 'amount.' Fry ranks it beyond first 300.",
+      "suggested_fix": "Consider moving to Level 2."
+    },
+    {
+      "word": "author",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "the person who writes a book",
+      "current_example": "The author wrote my favorite story about dragons.",
+      "problem": "This IS a K-1 word per CCSS ELA (RI.K.6: 'Name the author and illustrator'). The definition and example are good. However, it could also mention 'illustrator' as a related concept since CCSS teaches them together.",
+      "suggested_fix": "Acceptable as-is. Author is correctly placed at K-1."
+    },
+    {
+      "word": "legend",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "a very old story that may or may not be true",
+      "current_example": "The legend says a dragon lived in that mountain.",
+      "problem": "Borderline K-1. CCSS introduces the distinction between fiction/nonfiction in K-1, but genre-specific terms like 'legend' are typically Grade 2-3. K-1 students learn 'story' and 'true/made-up.'",
+      "suggested_fix": "Consider moving to Level 2. If keeping, acceptable with good scaffolding."
+    },
+    {
+      "word": "character",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "a person or animal in a story",
+      "current_example": "My favorite character in the book is the clever fox.",
+      "problem": "This IS a K-1 standard per CCSS (RL.K.3: 'identify characters, settings, and major events'). Correctly placed. Good definition and example.",
+      "suggested_fix": "Acceptable as-is."
+    },
+    {
+      "word": "chapter",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "one part of a book",
+      "current_example": "We read one chapter of the book every night.",
+      "problem": "Borderline. K students read picture books without chapters. Grade 1 students begin chapter books. The word is appropriate for late K to Grade 1. Acceptable.",
+      "suggested_fix": "Acceptable for Grade 1 placement."
+    },
+    {
+      "word": "vanish",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "to go away so no one can see it, like magic",
+      "current_example": "The magician made the coin vanish!",
+      "problem": "Borderline K-1. 'Vanish' is a vivid Tier 2 word that children encounter in read-alouds. Definition and example are excellent — the magic analogy is age-appropriate and memorable. This is actually good vocabulary instruction: teaching a precise synonym for 'disappear.'",
+      "suggested_fix": "Acceptable as-is. Good Tier 2 vocabulary choice for K-1."
+    },
+    {
+      "word": "gigantic",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": "extremely big, like a giant",
+      "current_example": "The gigantic dinosaur was bigger than our house.",
+      "problem": "The list already has 'huge' and 'enormous.' Three near-synonyms for 'very big' in a 600-word K-1 bank takes up space that could go to missing fundamental words. However, K-1 curricula do teach 'size words' as a group, and having graduated synonyms (big → huge → enormous → gigantic) is pedagogically valid.",
+      "suggested_fix": "Acceptable as a set, but consider whether all three are needed vs. including missing core words like 'run', 'play', 'eat', 'sleep'."
+    },
+    {
+      "word": "scattered",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "spread out in different places",
+      "current_example": "Toys were scattered all over the bedroom floor.",
+      "problem": "Borderline K-1. 'Scattered' is typically Grade 2+ vocabulary. The -ed participle form used as an adjective adds complexity. K-1 children would say 'all over the place' rather than 'scattered.'",
+      "suggested_fix": "Consider moving to Level 2."
+    },
+    {
+      "word": "rascal",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "a naughty but funny child or animal",
+      "current_example": "That little rascal got into the cookie jar again!",
+      "problem": "Somewhat dated/archaic word. Modern K-1 children rarely hear 'rascal' in everyday speech. It appears in some classic children's literature. Acceptable but borderline.",
+      "suggested_fix": "Acceptable if curriculum includes classic literature. Otherwise consider replacing with a more current word."
+    },
+    {
+      "word": "sparkle",
+      "category": "pedagogical",
+      "severity": "minor",
+      "current_definition": "to shine with little flashes of light",
+      "current_example": "The snow made everything sparkle in the sunshine.",
+      "problem": "Good Tier 2 word for K-1. Definition is clear. Example is natural. No issue — noting as positive example.",
+      "suggested_fix": "No fix needed. This is a model entry."
+    },
+    {
+      "word": "dawn",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "the time the sun first comes up",
+      "current_example": "The rooster crowed at dawn.",
+      "problem": "Borderline K-1. Children use 'morning' or 'sunrise' rather than 'dawn.' However, it appears in many read-alouds and fairy tales. The example with rooster is excellent context. Acceptable.",
+      "suggested_fix": "Acceptable as-is."
+    },
+    {
+      "word": "dusk",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "the time the sun is going down",
+      "current_example": "The fireflies came out at dusk.",
+      "problem": "Same as 'dawn' — borderline K-1 but encountered in read-alouds. Good pairing with 'dawn.' Example is natural and evocative.",
+      "suggested_fix": "Acceptable as-is."
+    },
+    {
+      "word": "creamy",
+      "category": "pedagogical",
+      "severity": "minor",
+      "current_definition": "smooth and soft like cream",
+      "current_example": "The creamy soup was thick and warm.",
+      "problem": "Definition uses the root word ('cream') to define the derived word ('creamy'). This is technically circular. A publisher would flag this.",
+      "suggested_fix": "Definition: 'smooth, thick, and soft — like butter or yogurt'."
+    },
+    {
+      "word": "upon",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "on top of (used in stories)",
+      "current_example": "Once upon a time, there was a little bear.",
+      "problem": "The definition 'on top of' is misleading. In 'once upon a time,' 'upon' doesn't mean 'on top of.' The primary K-1 encounter with 'upon' is exclusively in the fairy tale formula 'once upon a time,' not as a preposition meaning 'on.' The definition doesn't match the example.",
+      "suggested_fix": "Definition: 'a word meaning on, used mostly in old stories and fairy tales — as in once upon a time'. Example is fine."
+    },
+    {
+      "word": "come back",
+      "category": "pedagogical",
+      "severity": "minor",
+      "current_definition": "to return to where you were",
+      "current_example": "The dog always comes back when I call his name.",
+      "problem": "Phrasal verb. Including two-word phrasal verbs (come back, sit down, wake up, etc.) in a vocabulary product is a pedagogical choice. For native speakers, these are acquired naturally by age 3-4. For ELL students, they are genuinely useful. The product includes 22 phrasal verbs. This is defensible but should be a conscious editorial decision.",
+      "suggested_fix": "Acceptable. Consider grouping phrasal verbs as a distinct sub-category for clarity."
+    },
+    {
+      "word": "elbow",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "the part in the middle of your arm that can bend",
+      "current_example": "She bumped her elbow on the table and said ouch.",
+      "problem": "The elbow is not 'in the middle' of the arm — it's the joint between the upper arm and forearm. 'Middle' implies the center point, but the elbow is roughly at the midpoint. Minor anatomical imprecision that is acceptable at K-1 level.",
+      "suggested_fix": "Definition: 'the joint in your arm where it bends'. Minor improvement."
+    },
+    {
+      "word": "boot",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a tall shoe that covers your ankle",
+      "current_example": "He wore rain boots so his feet stayed dry.",
+      "problem": "Many boots cover much more than just the ankle (rain boots cover to the knee, cowboy boots cover the calf). 'Covers your ankle' understates it. Also ankle boots are a specific type, not the general definition.",
+      "suggested_fix": "Definition: 'a shoe that covers your foot and goes up above your ankle'."
+    },
+    {
+      "word": "tongue",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "the soft part inside your mouth",
+      "current_example": "The dog stuck out its tongue and licked my face.",
+      "problem": "Vague — 'the soft part inside your mouth' could describe the cheek lining, gums, etc. The tongue is specifically the muscular organ you use for tasting and moving food.",
+      "suggested_fix": "Definition: 'the soft movable part inside your mouth that helps you taste, eat, and talk'."
+    },
+    {
+      "word": "collar",
+      "category": "completeness",
+      "severity": "minor",
+      "current_definition": "the folded band around the neck of a shirt",
+      "current_example": "The tag on his collar was itchy.",
+      "problem": "Missing meaning: a collar that a dog or cat wears. For K-1 children with pets, this is likely the MORE common meaning they encounter daily.",
+      "suggested_fix": "Add: 'also the band around a dog's or cat's neck'."
+    },
+    {
+      "word": "toast",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "bread that is cooked until brown",
+      "current_example": "I put butter on my toast for breakfast.",
+      "problem": "More precisely, toast is bread that is heated/browned by dry heat (toasted). 'Cooked' is vague — bread is already 'cooked' (baked). The definition should convey that toast is bread that has been heated again.",
+      "suggested_fix": "Definition: 'bread that has been heated until it turns brown and crispy'."
+    },
+    {
+      "word": "doughnut",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "a round, sweet, fried food, often with a hole",
+      "current_example": "The doughnut was covered in sugar and sprinkles.",
+      "problem": "'Fried' may not be understood by all K-1 students. Also many modern doughnuts are baked, not fried. Minor.",
+      "suggested_fix": "Definition: 'a round sweet food shaped like a ring, often covered in sugar or frosting'."
+    },
+    {
+      "word": "fierce",
+      "category": "grade_level",
+      "severity": "minor",
+      "current_definition": "wild and dangerous, ready to attack",
+      "current_example": "The fierce lion roared and showed its sharp teeth.",
+      "problem": "Borderline K-1. 'Fierce' is a vivid Tier 2 word found in K-1 read-alouds (e.g., 'Where the Wild Things Are'). The definition and example are excellent. Acceptable as a stretch vocabulary word.",
+      "suggested_fix": "Acceptable as-is."
+    },
+    {
+      "word": "gentle",
+      "category": "pedagogical",
+      "severity": "minor",
+      "current_definition": "soft and careful, using little force",
+      "current_example": "He was gentle when he held the baby bird.",
+      "problem": "Good definition and excellent example. 'Using little force' is slightly abstract — could simplify. But overall a strong entry.",
+      "suggested_fix": "Minor: 'soft and careful, not rough'. Example is excellent."
+    },
+    {
+      "word": "hip",
+      "category": "factual_accuracy",
+      "severity": "minor",
+      "current_definition": "the wide part where your legs meet your body",
+      "current_example": "He put his hands on his hips and said stop.",
+      "problem": "Acceptable definition for K-1. The example effectively demonstrates usage. No significant issue.",
+      "suggested_fix": "Acceptable as-is."
+    },
+    {
+      "word": "cucumber",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: The food category has many fruits but is missing several very common K-1 vegetables: cucumber, corn, carrot, potato, tomato. These are among the first vegetables children learn. Their absence is a gap.",
+      "suggested_fix": "Consider adding: cucumber, carrot, potato, tomato, corn — all core K-1 food vocabulary."
+    },
+    {
+      "word": "swim",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'swim' is a Dolch third-grade word but is understood and used by all K-1 students. The list has 'float' and 'sink' (water verbs) but not the most basic water activity verb.",
+      "suggested_fix": "Add 'swim' — core K-1 action vocabulary."
+    },
+    {
+      "word": "sing",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'sing' is a basic K-1 action verb. Music is a core K-1 subject. The list has 'hum' but not 'sing.'",
+      "suggested_fix": "Add 'sing' — fundamental K-1 word."
+    },
+    {
+      "word": "draw",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'draw' is one of the most common K-1 classroom activity verbs. The list has 'crayon', 'chalk', 'create', 'design' but not 'draw' itself.",
+      "suggested_fix": "Add 'draw' — core K-1 vocabulary."
+    },
+    {
+      "word": "read",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'read' is arguably THE most important K-1 academic verb. The entire K-1 curriculum revolves around learning to read. The list has 'author', 'chapter', 'title' but not 'read.'",
+      "suggested_fix": "Add 'read' with definition: 'to look at words and understand what they say'."
+    },
+    {
+      "word": "write",
+      "category": "redundancy",
+      "severity": "minor",
+      "current_definition": null,
+      "current_example": null,
+      "problem": "MISSING WORD: 'write' is paired with 'read' as a fundamental K-1 academic verb. Its absence alongside 'read' is a significant gap.",
+      "suggested_fix": "Add 'write' with definition: 'to put words or letters on paper with a pencil or pen'."
+    }
+  ]
+}

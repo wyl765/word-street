@@ -1,0 +1,629 @@
+{
+  "reviewer": "gemini3",
+  "model": "gemini-3.1-pro",
+  "level": 1,
+  "date": "2026-05-14",
+  "totalWords": 594,
+  "overallScore": 21,
+  "summary": {
+    "perfect": 547,
+    "minor_issues": 12,
+    "needs_revision": 25,
+    "critical": 24
+  },
+  "issues": [
+    {
+      "word": "caterpillar",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "a small soft creature with many legs that eats leaves and later turns into a butterfly or moth",
+      "current_example": "The green caterpillar munched on leaves all day.",
+      "problem": "Word 'caterpillar' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "peanut",
+      "category": "factual_error",
+      "severity": "critical",
+      "current_definition": "a small brown nut that grows underground in a shell",
+      "current_example": "She cracked open the peanut shell and ate the nut inside.",
+      "problem": "Peanuts are legumes, not nuts.",
+      "suggested_fix": "Update definition to be scientifically accurate: Peanuts are legumes, not nuts.",
+      "confidence": 0.95
+    },
+    {
+      "word": "thermometer",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "a tool that tells how hot or cold it is",
+      "current_example": "Mom put the thermometer in my mouth to check my temperature.",
+      "problem": "Word 'thermometer' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "lightning",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "a flash of light in the sky during a storm",
+      "current_example": "The lightning lit up the whole sky for a second.",
+      "problem": "Word 'lightning' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "tiny",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "so small you can almost not see it or hold it",
+      "current_example": "The ladybug was so small it fit right on the tip of my finger.",
+      "problem": "Example sentence does not clearly contain the target word 'tiny'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'tiny'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "enormous",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "very, very big",
+      "current_example": "The pumpkin was so big that Dad could not even lift it!",
+      "problem": "Example sentence does not clearly contain the target word 'enormous'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'enormous'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "cozy",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "warm and nice to be in",
+      "current_example": "I curled up under the blanket with a cup of cocoa and my favorite book.",
+      "problem": "Example sentence does not clearly contain the target word 'cozy'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'cozy'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "fierce",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "wild and dangerous, ready to attack",
+      "current_example": "The lion opened its mouth wide and let out a roar that shook the ground!",
+      "problem": "Example sentence does not clearly contain the target word 'fierce'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'fierce'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "gentle",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "soft and careful, using little force",
+      "current_example": "\"Shhh, hold the baby chick like this,\" Mom whispered, showing me how.",
+      "problem": "Example sentence does not clearly contain the target word 'gentle'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'gentle'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "brave",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "willing to face scary things even when your heart is pounding",
+      "current_example": "Even though the thunder was loud, she walked to the window and looked out.",
+      "problem": "Example sentence does not clearly contain the target word 'brave'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'brave'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "proud",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "happy about something you did well",
+      "current_example": "Look what I made all by myself! I could not stop smiling.",
+      "problem": "Example sentence does not clearly contain the target word 'proud'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'proud'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "curious",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "wanting to know about things",
+      "current_example": "\"What's inside that box?\" she asked, standing on her tiptoes to peek.",
+      "problem": "Example sentence does not clearly contain the target word 'curious'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'curious'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "grumpy",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "in a bad mood and not wanting to talk",
+      "current_example": "\"Don't talk to me before breakfast,\" he said with a frown.",
+      "problem": "Example sentence does not clearly contain the target word 'grumpy'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'grumpy'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "cheerful",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "happy and smiling",
+      "current_example": "She walked in with a big smile and said, \"Good morning, everyone!\"",
+      "problem": "Example sentence does not clearly contain the target word 'cheerful'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'cheerful'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "lonely",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "sad because you are alone",
+      "current_example": "The new kid sat alone at lunch with nobody to talk to.",
+      "problem": "Example sentence does not clearly contain the target word 'lonely'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'lonely'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "wonderful",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "very good and nice",
+      "current_example": "The birthday party was wonderful!",
+      "problem": "Word 'wonderful' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "beautiful",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "so lovely it makes you stop and stare",
+      "current_example": "The sunset painted the sky in beautiful colors.",
+      "problem": "Word 'beautiful' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "greedy",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "wanting too much for yourself",
+      "current_example": "\"That's mine! And that! And that too!\" he said, grabbing all the candy.",
+      "problem": "Example sentence does not clearly contain the target word 'greedy'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'greedy'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "stubborn",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "will not change your mind",
+      "current_example": "\"No, I will NOT wear the blue one,\" she said, crossing her arms.",
+      "problem": "Example sentence does not clearly contain the target word 'stubborn'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'stubborn'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "lazy",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "wanting to sit around and do nothing instead of working",
+      "current_example": "He just lay on the couch all morning while everyone else cleaned up.",
+      "problem": "Example sentence does not clearly contain the target word 'lazy'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'lazy'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "clumsy",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "bumping into things a lot",
+      "current_example": "Oops — she knocked over her milk again for the second time today!",
+      "problem": "Example sentence does not clearly contain the target word 'clumsy'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'clumsy'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "throughout",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "in every part of",
+      "current_example": "Flowers grew throughout the whole garden.",
+      "problem": "Word 'throughout' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "come back",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "to return to where you were",
+      "current_example": "The dog always comes back when I call his name.",
+      "problem": "Example sentence does not clearly contain the target word 'come back'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'come back'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "come back",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "to return to where you were",
+      "current_example": "The dog always comes back when I call his name.",
+      "problem": "Word 'come back' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "fall down",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "to drop to the ground",
+      "current_example": "The baby learned to walk but would fall down sometimes.",
+      "problem": "Word 'fall down' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "calm down",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "to become less upset",
+      "current_example": "Take a deep breath and calm down.",
+      "problem": "Word 'calm down' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "throw away",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "to put in the trash",
+      "current_example": "Please throw away the empty wrapper.",
+      "problem": "Word 'throw away' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "figure out",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "to think hard until you find the answer",
+      "current_example": "She tried to figure out the answer to the riddle.",
+      "problem": "Word 'figure out' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "excited",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "so happy you can barely wait",
+      "current_example": "She jumped up and down when she heard about the party.",
+      "problem": "Example sentence does not clearly contain the target word 'excited'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'excited'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "nervous",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "feeling shaky inside because something new or scary is about to happen",
+      "current_example": "His tummy did flip-flops before his first day at the new school.",
+      "problem": "Example sentence does not clearly contain the target word 'nervous'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'nervous'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "frightened",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "so scared you want to run away",
+      "current_example": "The frightened rabbit ran when it heard the loud noise.",
+      "problem": "Word 'frightened' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "surprised",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "feeling shock because something you did not expect just happened",
+      "current_example": "\"Surprise!\" everyone shouted when she walked through the door.",
+      "problem": "Word 'surprised' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "confused",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "mixed up and unsure what is happening",
+      "current_example": "Wait — which way do we go? The map has me all mixed up!",
+      "problem": "Example sentence does not clearly contain the target word 'confused'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'confused'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "disappointed",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "sad because something did not happen the way you wanted",
+      "current_example": "She was disappointed when the trip was canceled.",
+      "problem": "Word 'disappointed' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "jealous",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "wanting what someone else has",
+      "current_example": "\"I wish I had a bike like that,\" she said, watching her friend ride by.",
+      "problem": "Example sentence does not clearly contain the target word 'jealous'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'jealous'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "terrified",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "extremely scared, filled with terror",
+      "current_example": "She grabbed my hand so hard when the lights went out — I could feel her shaking!",
+      "problem": "Example sentence does not clearly contain the target word 'terrified'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'terrified'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "terrified",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "extremely scared, filled with terror",
+      "current_example": "She grabbed my hand so hard when the lights went out — I could feel her shaking!",
+      "problem": "Word 'terrified' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "peaceful",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "feeling safe and happy, with nothing to worry about",
+      "current_example": "The lake was so still and quiet that you could hear a leaf drop.",
+      "problem": "Example sentence does not clearly contain the target word 'peaceful'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'peaceful'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "comfortable",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "feeling good, not in pain",
+      "current_example": "The big soft chair was very comfortable.",
+      "problem": "Word 'comfortable' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "uncomfortable",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "feeling uneasy or bothered in your body",
+      "current_example": "The hard bench was uncomfortable to sit on.",
+      "problem": "Word 'uncomfortable' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "exhausted",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "so tired you can barely move",
+      "current_example": "After running all day, she was exhausted.",
+      "problem": "Word 'exhausted' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "delighted",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "very pleased, especially by something unexpected",
+      "current_example": "She was delighted when she saw the surprise party.",
+      "problem": "Word 'delighted' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "gloomy",
+      "category": "example_quality",
+      "severity": "critical",
+      "current_definition": "dark and sad feeling",
+      "current_example": "Gray clouds covered the sky and everything felt dark and sad.",
+      "problem": "Example sentence does not clearly contain the target word 'gloomy'.",
+      "suggested_fix": "Rewrite example to explicitly include the word 'gloomy'.",
+      "confidence": 0.95
+    },
+    {
+      "word": "beginning",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "the start of something",
+      "current_example": "At the beginning of the story, a boy found a map.",
+      "problem": "Word 'beginning' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "adventure",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "an exciting trip where fun things happen",
+      "current_example": "Going into the dark cave was a real adventure.",
+      "problem": "Word 'adventure' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "footprint",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "the mark your foot makes",
+      "current_example": "She saw a footprint in the snow and followed it.",
+      "problem": "Word 'footprint' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "character",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "a person or animal in a story",
+      "current_example": "My favorite character in the book is the clever fox.",
+      "problem": "Word 'character' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "passenger",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "a person who rides in a car, bus, train, or airplane",
+      "current_example": "Every passenger on the bus found a seat.",
+      "problem": "Word 'passenger' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "scattered",
+      "category": "grade_level",
+      "severity": "revision",
+      "current_definition": "spread out in different places",
+      "current_example": "Toys were scattered all over the bedroom floor.",
+      "problem": "Word 'scattered' is long and might be too complex for K-1 level.",
+      "suggested_fix": "Re-evaluate if this word belongs in K-1 or move to a higher level.",
+      "confidence": 0.95
+    },
+    {
+      "word": "whale",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "a very large animal that lives in the ocean, breathes air, and can grow longer than a school bus",
+      "current_example": "The whale came up to the surface to breathe.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "lizard",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "a small animal with dry scaly skin, four legs, and a long tail that likes warm, sunny places",
+      "current_example": "A green lizard sat on the warm rock in the sun.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "raccoon",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "an animal that comes out at night, with black fur around its eyes like a mask and clever front paws",
+      "current_example": "A raccoon knocked over the trash can at night.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "mushroom",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "a small living thing shaped like a little umbrella on a stem that grows in damp places",
+      "current_example": "The mushroom grew under the big tree after the rain.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "palm",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "the flat inside part of your hand; also, a tall tropical tree with big leaves at the top",
+      "current_example": "He held the coin in the palm of his hand.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "mitten",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "a warm cover for your hand with one space for your thumb and one for your fingers",
+      "current_example": "She put on a fuzzy mitten to keep her hand warm.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "stamp",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "a small sticker you put on a letter to mail it; also, to push your foot down hard",
+      "current_example": "You need a stamp to send a letter.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "skip",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "to move by hopping on one foot then the other; also, to leave something out or pass over it",
+      "current_example": "She liked to skip down the path singing a song.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "sink",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "to go down under water; also, the bowl in a kitchen or bathroom where you wash things",
+      "current_example": "The heavy rock will sink to the bottom.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "wave",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "to move your hand back and forth to say hello; also, a moving wall of water in the ocean",
+      "current_example": "She would wave goodbye from the window.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "match",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "something that looks the same as another; also, a thin stick that makes fire when you rub it",
+      "current_example": "Can you match the baby animal to its mother?",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    },
+    {
+      "word": "tag",
+      "category": "clarity",
+      "severity": "minor",
+      "current_definition": "a small label on something; also, a chasing game where you tap someone and say 'you're it!'",
+      "current_example": "The tag on her shirt said her name.",
+      "problem": "Definition is somewhat verbose for a 5-7 year old attention span.",
+      "suggested_fix": "Shorten definition to 1-2 simple sentences.",
+      "confidence": 0.8
+    }
+  ],
+  "patterns_flagged": [],
+  "words_to_remove": [],
+  "words_to_add": []
+}

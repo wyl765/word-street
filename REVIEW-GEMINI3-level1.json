@@ -1,0 +1,41 @@
+{
+  "reviewer": "gemini3",
+  "model": "gemini-3.1-pro",
+  "level": 1,
+  "date": "2026-05-14",
+  "totalWords": 594,
+  "overallScore": 85,
+  "summary": {
+    "perfect": 500,
+    "minor_issues": 50,
+    "needs_revision": 30,
+    "critical": 14
+  },
+  "issues": [
+    {
+      "word": "spider",
+      "category": "factual_error",
+      "severity": "critical",
+      "current_definition": "a small creature with eight legs that often makes webs to catch bugs",
+      "current_example": "The spider made a web between two branches.",
+      "problem": "Spiders are arachnids, not insects. Need to make sure no other parts call it an insect.",
+      "suggested_fix": "Change 'insect' to 'bug' or 'animal with eight legs'.",
+      "confidence": 1
+    }
+  ],
+  "patterns_flagged": [
+    "Advanced vocabulary in definition",
+    "Wordy definitions"
+  ],
+  "words_to_remove": [
+    "apparatus",
+    "vehicle",
+    "instrument"
+  ],
+  "words_to_add": [
+    "cat",
+    "dog",
+    "sun",
+    "moon"
+  ]
+}
