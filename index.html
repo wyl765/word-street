@@ -5643,18 +5643,19 @@ if(audio){let a=new Audio(audio);a.preload='auto';audioCache[key]=a}
 }
 function speak(word){
 let w=word.toLowerCase();
-if(audioCache[w]){audioCache[w].currentTime=0;audioCache[w].play();return}
-fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(w))
+if(audioCache[w]){audioCache[w].currentTime=0;audioCache[w].play().catch(()=>{});return}
+// iOS requires audio from user gesture — use speechSynthesis as immediate fallback
+let spoke=false;
+if('speechSynthesis' in window){speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(w);u.rate=0.85;u.lang='en-US';let voices=speechSynthesis.getVoices();let v=voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang.startsWith('en'));if(v)u.voice=v;speechSynthesis.speak(u);spoke=true}
+// Also try fetching real audio for next time
+if(!audioCache[w]){fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+encodeURIComponent(w))
 .then(r=>r.json()).then(data=>{
 let audio='';
 if(Array.isArray(data)&&data[0]&&data[0].phonetics){
 for(let p of data[0].phonetics){if(p.audio&&p.audio.includes('-us')){audio=p.audio;break}}
 if(!audio){for(let p of data[0].phonetics){if(p.audio){audio=p.audio;break}}}}
-if(audio){let a=new Audio(audio);audioCache[w]=a;a.play()}else{speakFallback(w)}
-}).catch(()=>speakFallback(w));
-}
-function speakFallback(word){
-if('speechSynthesis' in window){speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(word);u.rate=0.85;u.lang='en-US';let voices=speechSynthesis.getVoices();let v=voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang.startsWith('en'));if(v)u.voice=v;speechSynthesis.speak(u)}
+if(audio){let a=new Audio(audio);a.preload='auto';audioCache[w]=a}
+}).catch(()=>{})}
 }
 // === QUIT GAME ===
 function quitGame(){clearInterval(game.timer);showScreen('homeScreen')}
