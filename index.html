@@ -5491,7 +5491,8 @@ if(id==='portfolioScreen')updatePortfolio();
 if(id==='leaderboardScreen')updateLeaderboard();
 }
 function updateHome(){
-document.getElementById('homeStats').textContent=state.mastered.length+' mastered \u00b7 '+state.watchlist.length+' to practice';
+let lvCount=getWordsByLevel(selectedLevel).length;
+document.getElementById('homeStats').textContent='Lv.'+selectedLevel+': '+lvCount+' words \u00b7 '+state.mastered.length+' mastered \u00b7 '+state.watchlist.length+' to practice';
 }
 function formatMoney(n){return(n>=0?'$':'-$')+Math.abs(n).toLocaleString()}
 
@@ -5499,7 +5500,7 @@ function formatMoney(n){return(n>=0?'$':'-$')+Math.abs(n).toLocaleString()}
 let selectedMode=localStorage.getItem('ws-quickMode')||'mixed';
 let selectedPack=localStorage.getItem('ws-quickPack')||'academic';
 let selectedLevel=parseInt(localStorage.getItem('ws-level')||'1');
-function selectLevel(lv){selectedLevel=lv;localStorage.setItem('ws-level',lv);highlightLevels()}
+function selectLevel(lv){selectedLevel=lv;localStorage.setItem('ws-level',lv);highlightLevels();updateHome()}
 function highlightLevels(){document.querySelectorAll('.level-pill').forEach((p,i)=>{p.classList.toggle('active',i+1===selectedLevel)})}
 function highlightSettings(){
 document.querySelectorAll('#settingsModes .btn').forEach(b=>{b.classList.toggle('active-setting',b.dataset.mode===selectedMode)});
