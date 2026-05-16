@@ -963,7 +963,12 @@ document.getElementById('feedbackArea').innerHTML='';
 document.getElementById('nextBtn').style.display='none';
 
 if(mode==='picture'){
-qa.innerHTML=`<div class="word-image" style="display:flex;align-items:center;justify-content:center;background:var(--bg);font-size:20px;color:var(--gold);text-transform:uppercase;letter-spacing:2px">${w.imageKeyword}</div><p class="definition-text">What word connects to this clue?</p>`;
+qa.innerHTML=`<div class="word-image" style="display:flex;align-items:center;justify-content:center;background:var(--bg);min-height:180px"><span style="font-size:16px;color:var(--dim)">Loading image...</span></div><p class="definition-text">What word matches this picture?</p>`;
+fetchImage(w.imageKeyword||w.word,function(url){
+let imgDiv=qa.querySelector('.word-image');
+if(url){imgDiv.innerHTML='<img src="'+url+'" style="max-width:260px;max-height:200px;border-radius:12px;object-fit:cover" onerror="this.outerHTML=\'<span style=font-size:48px>🖼</span>\'">'}
+else{imgDiv.innerHTML='<span style="font-size:48px">🖼</span>'}
+});
 oa.innerHTML=options.map((o,i)=>`<button class="option-btn" onclick="answer(${i},'${escape(w.word)}','${escape(o.word)}')">${o.word}</button>`).join('');
 }else if(mode==='context'){
 let re=new RegExp(w.word+'(?:s|es|ed|ing|d|er|tion|ly)?','gi');let sentence=w.example.replace(re,'________');if(!sentence.includes('________'))sentence=w.example.replace(new RegExp(w.word.slice(0,-1)+'(?:s|es|ed|ing|ies)?','gi'),'________');
