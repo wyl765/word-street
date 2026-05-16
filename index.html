@@ -5521,7 +5521,7 @@ preloadAudio(game.words);preloadImages(game.words);
 showScreen('gameScreen');showQuestion();
 }
 // === LEVEL-BASED WORDS ===
-function getWordsByLevel(lv){let perLevel=Math.ceil(WORD_BANK.length/5);let start=(lv-1)*perLevel;return WORD_BANK.slice(start,start+perLevel)}
+function getWordsByLevel(lv){return WORD_BANK.filter(w=>w.level===lv)}
 // === LEARN MODE ===
 let learnWords=[],learnIndex=0;
 function startLearn(){
