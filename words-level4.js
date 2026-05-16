@@ -1,0 +1,2 @@
+const LEVEL4_BANK=[{"word":"income","level":4,"definition":"money that a person earns from work or investments","example":"His monthly income from investments lets him save for the future.","imageKeyword":"paycheck and money growing"},
+{"word":"finance","level":4,"definition":"the management of money, including saving and investing","example":"Learning about finance helps you make smart decisions with your money.","imageKeyword":"person planning budget with calculator"}];

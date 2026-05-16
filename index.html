@@ -5527,7 +5527,7 @@ function getWordsByLevel(lv){return WORD_BANK.filter(w=>w.level===lv)}
 let learnWords=[],learnIndex=0;
 function startLearn(){
 let pool=getWordsByLevel(selectedLevel);
-learnWords=shuffle(pool).slice(0,10);learnIndex=0;
+learnWords=shuffle(pool);learnIndex=0;
 preloadAudio(learnWords);preloadImages(learnWords);
 showScreen('learnScreen');renderLearnCard();
 }
