@@ -5709,7 +5709,8 @@ playSound('wrong');save();
 }
 function showFeedback(w,correct){
 let mul=game.streak>=5?'🔥 ON FIRE x3':game.streak>=3?'📈 Hot Streak x2':game.streak<=-3?'📉 Losing Money!':'';
-document.getElementById('feedbackArea').innerHTML=`<div class="feedback-card ${correct?'correct-fb':'wrong-fb'}"><strong>${correct?'✓ Correct!':'✗ Wrong!'}</strong> ${mul?'<span class="streak-badge '+(correct?'bull-run':'bear-market')+'">'+mul+'</span>':''}<div class="fb-word">${w.word} <button style="background:none;border:none;font-size:20px;cursor:pointer" onclick="speak('${escape(w.word)}')">🔊</button></div><div class="fb-def">${w.definition}</div><div class="fb-example">"${w.example}"</div></div>`;
+let header=correct?'✓ Correct!':'✗ Wrong! The answer is: <span style="color:var(--green);font-size:20px">'+w.word+'</span>';
+document.getElementById('feedbackArea').innerHTML=`<div class="feedback-card ${correct?'correct-fb':'wrong-fb'}"><strong>${header}</strong> ${mul?'<span class="streak-badge '+(correct?'bull-run':'bear-market')+'">'+mul+'</span>':''}<div class="fb-word">${w.word} <button style="background:none;border:none;font-size:20px;cursor:pointer" onclick="speak('${escape(w.word)}')">🔊</button></div><div class="fb-def">${w.definition}</div><div class="fb-example">"${w.example}"</div></div>`;
 speak(w.word);
 document.getElementById('nextBtn').style.display='inline-block';
 document.getElementById('gameMoney').textContent=formatMoney(state.balance);
