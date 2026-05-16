@@ -111,6 +111,8 @@ textarea:focus{border-color:rgba(0,122,255,0.4);outline:none}
 <button class="level-pill" onclick="selectLevel(5)">Lv.5</button>
 </div>
 <button class="play-btn" onclick="quickPlay()">PLAY</button>
+<button class="play-btn" style="background:linear-gradient(135deg,#FF3B30,#FF9500);margin-top:8px;font-size:16px" onclick="startBossBattle()">⚔️ BOSS BATTLE</button>
+<button class="play-btn" style="background:linear-gradient(135deg,#5856D6,#AF52DE);margin-top:8px;font-size:16px" onclick="startSurvival()">💀 SURVIVAL</button>
 <button class="learn-btn" onclick="startLearn()">📖 LEARN</button>
 <button class="learn-btn" style="background:linear-gradient(135deg,#FF6B6B,#FF3B30);margin-top:8px" onclick="showScreen('watchlistScreen')">📝 WRONG WORDS <span class="watchlist-count" id="wlCountHome">0</span></button>
 <div class="home-stats" id="homeStats">0 mastered · 0 to practice</div>
@@ -203,6 +205,48 @@ textarea:focus{border-color:rgba(0,122,255,0.4);outline:none}
 </div>
 <div id="feedbackArea"></div>
 <div id="nextBtnWrap" style="position:sticky;bottom:16px;text-align:center;margin-top:12px;z-index:100"><button class="btn" id="nextBtn" style="display:none;box-shadow:0 4px 16px rgba(0,0,0,0.2);font-size:16px;padding:14px 32px" onclick="nextWord()">NEXT →</button></div>
+</div>
+
+<!-- BOSS BATTLE SCREEN -->
+<div class="screen" id="bossScreen">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+<button class="btn" style="padding:8px 16px" onclick="quitBoss()">← Back</button>
+<span id="bossLevel" style="font-weight:700;color:var(--purple)">Boss Lv.1</span>
+<span id="bossPlayerHP" style="font-weight:700;color:var(--green)">❤️ 100</span>
+</div>
+<div class="card" style="text-align:center;padding:16px">
+<div id="bossEmoji" style="font-size:64px;margin:8px 0;transition:transform .3s">🐲</div>
+<div style="font-weight:700;margin:4px 0" id="bossName">Dragon Lv.1</div>
+<div style="background:rgba(0,0,0,0.06);border-radius:8px;height:12px;margin:8px auto;max-width:280px;overflow:hidden">
+<div id="bossHPBar" style="height:100%;background:linear-gradient(90deg,#FF3B30,#FF9500);width:100%;transition:width .5s;border-radius:8px"></div>
+</div>
+<div id="bossHPText" style="font-size:12px;color:var(--dim)">HP: 100/100</div>
+</div>
+<div class="card" id="bossQuestionCard">
+<div id="bossQuestionArea" class="question-area"></div>
+<div id="bossOptionsArea" class="options-grid"></div>
+</div>
+<div id="bossFeedback" style="text-align:center;margin:8px 0;font-weight:700;min-height:24px"></div>
+<div id="bossCombo" style="text-align:center;font-size:14px;color:var(--dim)"></div>
+</div>
+
+<!-- SURVIVAL SCREEN -->
+<div class="screen" id="survivalScreen">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+<button class="btn" style="padding:8px 16px" onclick="quitSurvival()">← Back</button>
+<span id="survivalWave" style="font-weight:700;color:var(--purple)">Wave 1</span>
+<span id="survivalLives" style="font-weight:700;font-size:18px">❤️❤️❤️</span>
+</div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+<span id="survivalScore" style="font-weight:700;color:var(--gold)">Score: 0</span>
+<span id="survivalDifficulty" style="font-size:12px;color:var(--dim)">Lv.1</span>
+</div>
+<div class="timer-bar"><div class="timer-fill" id="survivalTimer"></div></div>
+<div class="card" id="survivalQuestionCard">
+<div id="survivalQuestionArea" class="question-area"></div>
+<div id="survivalOptionsArea" class="options-grid"></div>
+</div>
+<div id="survivalFeedback" style="text-align:center;margin:8px 0;font-weight:700;min-height:24px"></div>
 </div>
 
 <!-- SUMMARY SCREEN -->
@@ -5801,6 +5845,219 @@ if(!state.watchlist.length){wl.innerHTML='<p style="color:var(--dim);text-align:
 wl.innerHTML=state.watchlist.map(w=>{let entry=WORD_BANK.concat(state.customWords).find(b=>b.word===w);return'<div style="padding:10px 0;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px"><button style="background:none;border:none;font-size:18px;cursor:pointer" onclick="speak(\x27'+w+'\x27)">🔊</button><div><strong>'+w+'</strong><br><span style="font-size:13px;color:var(--dim)">'+(entry?entry.definition:"custom word")+'</span></div></div>'}).join("");
 }
 function practiceWatchlist(){selectedPack="watchlist";quickPlay()}
+
+// === BOSS BATTLE MODE ===
+const BOSSES=[
+{name:'Goblin',emoji:'👺',hp:60,atk:15,level:1},
+{name:'Wolf',emoji:'🐺',hp:80,atk:18,level:1},
+{name:'Dragon',emoji:'🐲',hp:120,atk:22,level:2},
+{name:'Demon',emoji:'👹',hp:160,atk:28,level:3},
+{name:'Dark Lord',emoji:'💀',hp:220,atk:35,level:4},
+{name:'Ancient One',emoji:'🧙',hp:300,atk:45,level:5}
+];
+let boss={current:null,hp:0,maxHP:0,playerHP:100,combo:0,bossIdx:0,words:[],wordIdx:0,timer:null,timeLeft:8};
+function startBossBattle(){
+boss.bossIdx=0;boss.playerHP=100;boss.combo=0;
+nextBoss();
+}
+function nextBoss(){
+if(boss.bossIdx>=BOSSES.length){bossVictory();return}
+let b=BOSSES[boss.bossIdx];
+boss.current=b;boss.hp=b.hp;boss.maxHP=b.hp;boss.combo=0;
+let pool=getWordsByLevel(b.level);
+if(pool.length<4)pool=WORD_BANK.slice(0,200);
+boss.words=shuffle(pool);boss.wordIdx=0;
+showScreen('bossScreen');
+document.getElementById('bossEmoji').textContent=b.emoji;
+document.getElementById('bossName').textContent=b.name+' Lv.'+b.level;
+updateBossUI();
+nextBossQuestion();
+}
+function updateBossUI(){
+let pct=Math.max(0,boss.hp/boss.maxHP*100);
+document.getElementById('bossHPBar').style.width=pct+'%';
+document.getElementById('bossHPText').textContent='HP: '+Math.max(0,boss.hp)+'/'+boss.maxHP;
+document.getElementById('bossPlayerHP').textContent='❤️ '+boss.playerHP;
+document.getElementById('bossLevel').textContent='Boss '+(boss.bossIdx+1)+'/'+BOSSES.length;
+document.getElementById('bossCombo').textContent=boss.combo>=2?'🔥 Combo x'+boss.combo:'';
+}
+function nextBossQuestion(){
+if(boss.hp<=0){boss.bossIdx++;document.getElementById('bossEmoji').style.transform='scale(0)';setTimeout(nextBoss,600);return}
+if(boss.playerHP<=0){bossDefeat();return}
+if(boss.wordIdx>=boss.words.length){boss.words=shuffle(boss.words);boss.wordIdx=0}
+let w=boss.words[boss.wordIdx++];
+let allWords=WORD_BANK;
+let distractors=shuffle(allWords.filter(x=>x.word!==w.word)).slice(0,3);
+let options=shuffle([w,...distractors]);
+let modes=['definition','context','listen'];
+let mode=modes[Math.floor(Math.random()*modes.length)];
+let qa=document.getElementById('bossQuestionArea');
+let oa=document.getElementById('bossOptionsArea');
+document.getElementById('bossFeedback').innerHTML='';
+document.getElementById('bossEmoji').style.transform='scale(1)';
+if(mode==='context'){
+let re=new RegExp(w.word+'(?:s|es|ed|ing|d|er|tion|ly)?','gi');let sentence=w.example.replace(re,'________');
+if(!sentence.includes('________'))sentence=w.example.replace(new RegExp(w.word.slice(0,-1)+'(?:s|es|ed|ing|ies)?','gi'),'________');
+qa.innerHTML='<p class="question-text">“'+sentence+'”</p>';
+}else if(mode==='listen'){
+qa.innerHTML='<button class="listen-btn" onclick="speak(\''+escape(w.word)+'\')">🔊</button><p class="definition-text">Hear it, pick it!</p>';
+setTimeout(()=>speak(w.word),200);
+}else{
+qa.innerHTML='<p class="question-text">'+w.definition+'</p>';
+}
+oa.innerHTML=options.map((o,i)=>'<button class="option-btn" onclick="bossAnswer('+i+',\''+escape(w.word)+'\',\''+escape(o.word)+'\')">' +o.word+'</button>').join('');
+// timer
+clearInterval(boss.timer);boss.timeLeft=8;
+boss.timer=setInterval(()=>{
+boss.timeLeft--;
+if(boss.timeLeft<=0){clearInterval(boss.timer);bossTimeout(w)}
+},1000);
+}
+function bossAnswer(idx,correct,chosen){
+clearInterval(boss.timer);
+let btns=document.querySelectorAll('#bossOptionsArea .option-btn');
+btns.forEach(b=>{b.disabled=true;if(b.textContent===correct)b.classList.add('correct');if(b.textContent===chosen&&chosen!==correct)b.classList.add('wrong')});
+if(chosen===correct){
+boss.combo++;
+let dmg=20+boss.combo*5;
+boss.hp-=dmg;
+document.getElementById('bossFeedback').innerHTML='<span style="color:var(--green)">⚔️ -'+dmg+' damage!</span>';
+document.getElementById('bossEmoji').style.transform='translateX(10px)';
+setTimeout(()=>{document.getElementById('bossEmoji').style.transform='';},200);
+playSound('correct');
+}else{
+boss.combo=0;
+let atk=boss.current.atk;
+boss.playerHP-=atk;
+document.getElementById('bossFeedback').innerHTML='<span style="color:var(--red)">💥 Boss hits you for '+atk+'! Answer: '+correct+'</span>';
+playSound('wrong');
+}
+updateBossUI();
+setTimeout(nextBossQuestion,1200);
+}
+function bossTimeout(w){
+boss.combo=0;
+let atk=boss.current.atk;
+boss.playerHP-=atk;
+document.getElementById('bossFeedback').innerHTML='<span style="color:var(--red)">⏰ Too slow! -'+atk+' HP. Answer: '+w.word+'</span>';
+let btns=document.querySelectorAll('#bossOptionsArea .option-btn');
+btns.forEach(b=>{b.disabled=true;if(b.textContent===w.word)b.classList.add('correct')});
+updateBossUI();
+playSound('wrong');
+setTimeout(nextBossQuestion,1200);
+}
+function bossVictory(){
+clearInterval(boss.timer);
+state.balance+=5000;save();
+alert('🏆 You defeated all bosses! +$5,000 bonus!');
+showScreen('homeScreen');
+}
+function bossDefeat(){
+clearInterval(boss.timer);
+alert('💀 You were defeated at Boss '+(boss.bossIdx+1)+': '+boss.current.name+'! Try again!');
+showScreen('homeScreen');
+}
+function quitBoss(){clearInterval(boss.timer);showScreen('homeScreen')}
+
+// === SURVIVAL MODE ===
+let surv={lives:3,score:0,wave:1,words:[],wordIdx:0,timer:null,timeLeft:10,level:1,streak:0};
+function startSurvival(){
+surv={lives:3,score:0,wave:1,words:[],wordIdx:0,timer:null,timeLeft:10,level:1,streak:0};
+surv.words=shuffle(WORD_BANK.slice());
+showScreen('survivalScreen');
+updateSurvivalUI();
+nextSurvivalQuestion();
+}
+function updateSurvivalUI(){
+document.getElementById('survivalLives').textContent='❤️'.repeat(surv.lives)+'🖤'.repeat(3-surv.lives);
+document.getElementById('survivalWave').textContent='Wave '+surv.wave;
+document.getElementById('survivalScore').textContent='Score: '+surv.score;
+// Difficulty escalation
+surv.level=Math.min(5,Math.floor(surv.wave/3)+1);
+document.getElementById('survivalDifficulty').textContent='Lv.'+surv.level+' difficulty';
+}
+function nextSurvivalQuestion(){
+if(surv.lives<=0){survivalGameOver();return}
+if(surv.wordIdx>=surv.words.length){surv.words=shuffle(WORD_BANK.slice());surv.wordIdx=0}
+// Pick word from current difficulty level
+let pool=getWordsByLevel(surv.level);
+if(pool.length<4)pool=WORD_BANK;
+let w=shuffle(pool)[0];
+surv.wordIdx++;
+let allWords=WORD_BANK;
+let distractors=shuffle(allWords.filter(x=>x.word!==w.word)).slice(0,3);
+let options=shuffle([w,...distractors]);
+let modes=['definition','context','listen'];
+let mode=modes[Math.floor(Math.random()*modes.length)];
+let qa=document.getElementById('survivalQuestionArea');
+let oa=document.getElementById('survivalOptionsArea');
+document.getElementById('survivalFeedback').innerHTML='';
+// Reduce time as waves progress
+let baseTime=Math.max(4,10-surv.wave);
+if(mode==='context'){
+let re=new RegExp(w.word+'(?:s|es|ed|ing|d|er|tion|ly)?','gi');let sentence=w.example.replace(re,'________');
+if(!sentence.includes('________'))sentence=w.example.replace(new RegExp(w.word.slice(0,-1)+'(?:s|es|ed|ing|ies)?','gi'),'________');
+qa.innerHTML='<p class="question-text">“'+sentence+'”</p>';
+}else if(mode==='listen'){
+qa.innerHTML='<button class="listen-btn" onclick="speak(\''+escape(w.word)+'\')">🔊</button><p class="definition-text">Quick! What word?</p>';
+setTimeout(()=>speak(w.word),200);
+}else{
+qa.innerHTML='<p class="question-text">'+w.definition+'</p>';
+}
+oa.innerHTML=options.map((o,i)=>'<button class="option-btn" onclick="survivalAnswer('+i+',\''+escape(w.word)+'\',\''+escape(o.word)+'\')">' +o.word+'</button>').join('');
+// Timer
+clearInterval(surv.timer);surv.timeLeft=baseTime;
+let fill=document.getElementById('survivalTimer');
+fill.style.width='100%';fill.className='timer-fill';
+surv.timer=setInterval(()=>{
+surv.timeLeft-=0.1;
+let pct=Math.max(0,surv.timeLeft/baseTime*100);
+fill.style.width=pct+'%';
+fill.className='timer-fill'+(pct<30?' danger':pct<60?' warning':'');
+if(surv.timeLeft<=0){clearInterval(surv.timer);survivalTimeout(w)}
+},100);
+}
+function survivalAnswer(idx,correct,chosen){
+clearInterval(surv.timer);
+let btns=document.querySelectorAll('#survivalOptionsArea .option-btn');
+btns.forEach(b=>{b.disabled=true;if(b.textContent===correct)b.classList.add('correct');if(b.textContent===chosen&&chosen!==correct)b.classList.add('wrong')});
+if(chosen===correct){
+surv.streak++;
+let points=100*(surv.level)+(surv.streak>=5?200:surv.streak>=3?100:0);
+surv.score+=points;
+document.getElementById('survivalFeedback').innerHTML='<span style="color:var(--green)">✓ +'+points+(surv.streak>=3?' 🔥':'')+'</span>';
+// New wave every 5 correct
+if(surv.streak%5===0){surv.wave++}
+playSound('correct');
+}else{
+surv.streak=0;
+surv.lives--;
+document.getElementById('survivalFeedback').innerHTML='<span style="color:var(--red)">✗ '+correct+' — '+(surv.lives>0?surv.lives+' lives left':'💀')+'</span>';
+playSound('wrong');
+}
+updateSurvivalUI();
+setTimeout(nextSurvivalQuestion,1000);
+}
+function survivalTimeout(w){
+surv.streak=0;surv.lives--;
+let btns=document.querySelectorAll('#survivalOptionsArea .option-btn');
+btns.forEach(b=>{b.disabled=true;if(b.textContent===w.word)b.classList.add('correct')});
+document.getElementById('survivalFeedback').innerHTML='<span style="color:var(--red)">⏰ Time\'s up! '+w.word+' — '+(surv.lives>0?surv.lives+' lives left':'💀')+'</span>';
+updateSurvivalUI();
+playSound('wrong');
+setTimeout(nextSurvivalQuestion,1000);
+}
+function survivalGameOver(){
+clearInterval(surv.timer);
+let msg='💀 GAME OVER\n\nScore: '+surv.score+'\nWave: '+surv.wave+'\nDifficulty reached: Lv.'+surv.level;
+// Save high score
+let hs=parseInt(localStorage.getItem('ws-survivalHS')||'0');
+if(surv.score>hs){localStorage.setItem('ws-survivalHS',surv.score);msg+='\n\n🌟 NEW HIGH SCORE!'}
+else{msg+='\n\nHigh Score: '+hs}
+alert(msg);
+showScreen('homeScreen');
+}
+function quitSurvival(){clearInterval(surv.timer);showScreen('homeScreen')}
 
 // === LEADERBOARD ===
 function saveToLeaderboard(correct,total,pnl){
