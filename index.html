@@ -5759,7 +5759,7 @@ if(game.timeLeft<=0){clearInterval(game.timer);timeUp()}
 }
 function timeUp(){
 let w=game.words[game.current];
-document.querySelectorAll('.option-btn').forEach(b=>{b.disabled=true;if(b.textContent===w.word)b.classList.add('correct')});
+document.querySelectorAll('#optionsArea .option-btn').forEach(b=>{b.disabled=true;if(b.textContent===w.word)b.classList.add('correct')});
 processWrong(w);
 showFeedback(w,false);
 }
@@ -5767,7 +5767,7 @@ showFeedback(w,false);
 // === ANSWER ===
 function answer(idx,correct,chosen){
 clearInterval(game.timer);
-let btns=document.querySelectorAll('.option-btn');
+let btns=document.querySelectorAll('#optionsArea .option-btn');
 btns.forEach(b=>{b.disabled=true;if(b.textContent===correct)b.classList.add('correct');if(b.textContent===chosen&&chosen!==correct)b.classList.add('wrong')});
 let w=game.words[game.current];
 if(chosen===correct){processCorrect(w);showFeedback(w,true)}
