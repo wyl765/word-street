@@ -112,6 +112,7 @@ textarea:focus{border-color:rgba(0,122,255,0.4);outline:none}
 </div>
 <button class="play-btn" onclick="quickPlay()">PLAY</button>
 <button class="learn-btn" onclick="startLearn()">📖 LEARN</button>
+<button class="learn-btn" style="background:linear-gradient(135deg,#FF6B6B,#FF3B30);margin-top:8px" onclick="showScreen('watchlistScreen')">📝 WRONG WORDS <span class="watchlist-count" id="wlCountHome">0</span></button>
 <div class="home-stats" id="homeStats">0 mastered · 0 to practice</div>
 </div>
 
@@ -249,6 +250,19 @@ textarea:focus{border-color:rgba(0,122,255,0.4);outline:none}
 <div id="watchlistDisplay" style="max-height:300px;overflow-y:auto"></div>
 </div>
 <button class="btn" style="width:100%;margin-top:12px" onclick="showScreen('homeScreen')">← Back</button>
+</div>
+
+<!-- WATCHLIST SCREEN -->
+<div class="screen" id="watchlistScreen">
+<h2>📝 WRONG WORDS</h2>
+<p style="color:var(--dim);font-size:13px;text-align:center">Words you got wrong. Practice them!</p>
+<div class="card">
+<div id="watchlistMain" style="max-height:400px;overflow-y:auto"></div>
+</div>
+<div style="display:grid;gap:10px;margin-top:12px">
+<button class="btn" style="background:var(--green);color:#fff" onclick="practiceWatchlist()">Practice These Words</button>
+<button class="btn" onclick="showScreen('homeScreen')">← Back</button>
+</div>
 </div>
 
 <!-- LEADERBOARD SCREEN -->
@@ -5494,11 +5508,13 @@ document.getElementById(id).classList.add('active');
 if(id==='homeScreen'){updateHome();highlightLevels()}
 if(id==='settingsScreen')highlightSettings();
 if(id==='portfolioScreen')updatePortfolio();
+if(id==='watchlistScreen')updateWatchlistScreen();
 if(id==='leaderboardScreen')updateLeaderboard();
 }
 function updateHome(){
 let lvCount=getWordsByLevel(selectedLevel).length;
 document.getElementById('homeStats').textContent=WORD_BANK.length+' total \u00b7 Lv.'+selectedLevel+': '+lvCount+' words \u00b7 '+state.mastered.length+' mastered';
+document.getElementById('wlCountHome').textContent=state.watchlist.length;
 }
 function formatMoney(n){return(n>=0?'$':'-$')+Math.abs(n).toLocaleString()}
 
@@ -5768,6 +5784,12 @@ let wl=document.getElementById('watchlistDisplay');
 if(!state.watchlist.length){wl.innerHTML='<p style="color:var(--dim)">No words here yet. Keep playing!</p>';return}
 wl.innerHTML=state.watchlist.map(w=>{let entry=WORD_BANK.concat(state.customWords).find(b=>b.word===w);return`<div style="padding:8px 0;border-bottom:1px solid var(--border)"><strong>${w}</strong> — ${entry?entry.definition:'custom word'}</div>`}).join('');
 }
+function updateWatchlistScreen(){
+let wl=document.getElementById("watchlistMain");
+if(!state.watchlist.length){wl.innerHTML='<p style="color:var(--dim);text-align:center">✅ No wrong words! Keep it up!</p>';return}
+wl.innerHTML=state.watchlist.map(w=>{let entry=WORD_BANK.concat(state.customWords).find(b=>b.word===w);return'<div style="padding:10px 0;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px"><button style="background:none;border:none;font-size:18px;cursor:pointer" onclick="speak(\x27'+w+'\x27)">🔊</button><div><strong>'+w+'</strong><br><span style="font-size:13px;color:var(--dim)">'+(entry?entry.definition:"custom word")+'</span></div></div>'}).join("");
+}
+function practiceWatchlist(){selectedPack="watchlist";quickPlay()}
 
 // === LEADERBOARD ===
 function saveToLeaderboard(correct,total,pnl){
