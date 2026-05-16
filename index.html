@@ -5492,7 +5492,7 @@ if(id==='leaderboardScreen')updateLeaderboard();
 }
 function updateHome(){
 let lvCount=getWordsByLevel(selectedLevel).length;
-document.getElementById('homeStats').textContent='Lv.'+selectedLevel+': '+lvCount+' words \u00b7 '+state.mastered.length+' mastered \u00b7 '+state.watchlist.length+' to practice';
+document.getElementById('homeStats').textContent=WORD_BANK.length+' total \u00b7 Lv.'+selectedLevel+': '+lvCount+' words \u00b7 '+state.mastered.length+' mastered';
 }
 function formatMoney(n){return(n>=0?'$':'-$')+Math.abs(n).toLocaleString()}
 
