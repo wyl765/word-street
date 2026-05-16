@@ -5627,9 +5627,14 @@ oa.innerHTML=options.map((o,i)=>`<button class="option-btn" onclick="answer(${i}
 qa.innerHTML=`<p class="question-text">${w.definition}</p><p class="definition-text">Which word matches this definition?</p>`;
 oa.innerHTML=options.map((o,i)=>`<button class="option-btn" onclick="answer(${i},'${escape(w.word)}','${escape(o.word)}')">${o.word}</button>`).join('');
 }else{
-qa.innerHTML=`<button class="listen-btn" onclick="speak('${escape(w.word)}')">🔊</button><p class="definition-text">Listen and pick the correct word.</p>`;
+qa.innerHTML=`<button class="listen-btn" onclick="speak('${escape(w.word)}')">🔊</button><p class="definition-text">Tap 🔊 to hear the word, then pick it.</p>`;
 oa.innerHTML=options.map((o,i)=>`<button class="option-btn" onclick="answer(${i},'${escape(w.word)}','${escape(o.word)}')">${o.word}</button>`).join('');
-setTimeout(()=>speak(w.word),300);
+// Try auto-play; if blocked by iOS, user taps the button
+setTimeout(()=>{
+let w2=w.word.toLowerCase();
+if(audioCache[w2]){audioCache[w2].currentTime=0;audioCache[w2].play().catch(()=>{})}
+else if('speechSynthesis' in window){speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(w2);u.rate=0.85;u.lang='en-US';speechSynthesis.speak(u)}
+},300);
 }
 startTimer();
 }
@@ -5651,6 +5656,14 @@ imageCache[key]=img;callback(img);
 }
 function preloadImages(words){words.forEach(w=>{fetchImage(w.imageKeyword||w.word||w,()=>{})})}
 // === AUDIO SYSTEM (Dictionary API) ===
+// Unlock iOS audio on first user interaction
+let audioUnlocked=false;
+document.addEventListener('touchstart',function unlockAudio(){
+if(audioUnlocked)return;
+audioUnlocked=true;
+let a=new Audio();a.play().catch(()=>{});
+if('speechSynthesis' in window){let u=new SpeechSynthesisUtterance('');u.volume=0;speechSynthesis.speak(u)}
+},{once:true});
 let audioCache={};
 function preloadAudio(words){
 words.forEach(w=>{
