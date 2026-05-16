@@ -5650,6 +5650,7 @@ document.getElementById('gameMoney').className='money '+(state.balance>=game.sta
 updateStreak();
 let qa=document.getElementById('questionArea');
 let oa=document.getElementById('optionsArea');
+oa.innerHTML='';
 document.getElementById('feedbackArea').innerHTML='';
 document.getElementById('nextBtn').style.display='none';
 
@@ -5745,7 +5746,8 @@ function startTimer(){
 game.timeLeft=10;
 clearInterval(game.timer);
 let fill=document.getElementById('timerFill');
-fill.style.width='100%';fill.className='timer-fill';
+fill.style.transition='none';fill.style.width='100%';fill.className='timer-fill';
+fill.offsetWidth;fill.style.transition='width .1s linear';
 game.timer=setInterval(()=>{
 game.timeLeft-=0.1;
 let pct=(game.timeLeft/10)*100;
