@@ -1,0 +1,2586 @@
+[
+  {
+    "word": "average",
+    "imageKeyword": "medium sized cup between",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "shadow",
+    "imageKeyword": "shadow",
+    "changed": false
+  },
+  {
+    "word": "echo",
+    "imageKeyword": "echo cave",
+    "changed": false
+  },
+  {
+    "word": "secret",
+    "imageKeyword": "secret whisper",
+    "changed": false
+  },
+  {
+    "word": "surprise",
+    "imageKeyword": "surprise party",
+    "changed": false
+  },
+  {
+    "word": "mistake",
+    "imageKeyword": "pencil erasing wrong answer",
+    "changed": false
+  },
+  {
+    "word": "adventure",
+    "imageKeyword": "children on adventure hike",
+    "changed": false
+  },
+  {
+    "word": "treasure",
+    "imageKeyword": "treasure chest",
+    "changed": false
+  },
+  {
+    "word": "journey",
+    "imageKeyword": "journey trip",
+    "changed": false
+  },
+  {
+    "word": "village",
+    "imageKeyword": "village",
+    "changed": false
+  },
+  {
+    "word": "dock",
+    "imageKeyword": "boat dock",
+    "changed": false
+  },
+  {
+    "word": "crowd",
+    "imageKeyword": "crowd people",
+    "changed": false
+  },
+  {
+    "word": "trail",
+    "imageKeyword": "trail path",
+    "changed": false
+  },
+  {
+    "word": "footprint",
+    "imageKeyword": "footprint",
+    "changed": false
+  },
+  {
+    "word": "pattern",
+    "imageKeyword": "pattern stripes",
+    "changed": false
+  },
+  {
+    "word": "riddle",
+    "imageKeyword": "riddle puzzle",
+    "changed": false
+  },
+  {
+    "word": "poem",
+    "imageKeyword": "poem",
+    "changed": false
+  },
+  {
+    "word": "tale",
+    "imageKeyword": "grandpa telling story child",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "legend",
+    "imageKeyword": "legend dragon",
+    "changed": false
+  },
+  {
+    "word": "character",
+    "imageKeyword": "story character",
+    "changed": false
+  },
+  {
+    "word": "chapter",
+    "imageKeyword": "book chapter",
+    "changed": false
+  },
+  {
+    "word": "title",
+    "imageKeyword": "book title",
+    "changed": false
+  },
+  {
+    "word": "author",
+    "imageKeyword": "author writer",
+    "changed": false
+  },
+  {
+    "word": "paw",
+    "imageKeyword": "paw",
+    "changed": false
+  },
+  {
+    "word": "claw",
+    "imageKeyword": "animal claw close up",
+    "changed": false
+  },
+  {
+    "word": "feather",
+    "imageKeyword": "feather",
+    "changed": false
+  },
+  {
+    "word": "fur",
+    "imageKeyword": "fur",
+    "changed": false
+  },
+  {
+    "word": "scale",
+    "imageKeyword": "bathroom scale",
+    "changed": false
+  },
+  {
+    "word": "wing",
+    "imageKeyword": "bird wing",
+    "changed": false
+  },
+  {
+    "word": "beak",
+    "imageKeyword": "beak",
+    "changed": false
+  },
+  {
+    "word": "nest",
+    "imageKeyword": "bird nest",
+    "changed": false
+  },
+  {
+    "word": "hive",
+    "imageKeyword": "beehive",
+    "changed": false
+  },
+  {
+    "word": "den",
+    "imageKeyword": "fox den",
+    "changed": false
+  },
+  {
+    "word": "burrow",
+    "imageKeyword": "rabbit burrow",
+    "changed": false
+  },
+  {
+    "word": "trap",
+    "imageKeyword": "mouse trap",
+    "changed": false
+  },
+  {
+    "word": "leash",
+    "imageKeyword": "dog leash",
+    "changed": false
+  },
+  {
+    "word": "tag",
+    "imageKeyword": "name tag",
+    "changed": false
+  },
+  {
+    "word": "whisker",
+    "imageKeyword": "cat whisker",
+    "changed": false
+  },
+  {
+    "word": "tail",
+    "imageKeyword": "wagging tail",
+    "changed": false
+  },
+  {
+    "word": "hoof",
+    "imageKeyword": "horse hoof",
+    "changed": false
+  },
+  {
+    "word": "mane",
+    "imageKeyword": "lion mane",
+    "changed": false
+  },
+  {
+    "word": "flock",
+    "imageKeyword": "flock birds",
+    "changed": false
+  },
+  {
+    "word": "herd",
+    "imageKeyword": "herd cows",
+    "changed": false
+  },
+  {
+    "word": "pack",
+    "imageKeyword": "wolf pack",
+    "changed": false
+  },
+  {
+    "word": "droplet",
+    "imageKeyword": "water droplet",
+    "changed": false
+  },
+  {
+    "word": "ripple",
+    "imageKeyword": "water ripple",
+    "changed": false
+  },
+  {
+    "word": "bubble",
+    "imageKeyword": "soap bubble",
+    "changed": false
+  },
+  {
+    "word": "flame",
+    "imageKeyword": "flame fire",
+    "changed": false
+  },
+  {
+    "word": "spark",
+    "imageKeyword": "spark",
+    "changed": false
+  },
+  {
+    "word": "smoke",
+    "imageKeyword": "smoke",
+    "changed": false
+  },
+  {
+    "word": "ash",
+    "imageKeyword": "ash",
+    "changed": false
+  },
+  {
+    "word": "dawn",
+    "imageKeyword": "dawn sunrise",
+    "changed": false
+  },
+  {
+    "word": "dusk",
+    "imageKeyword": "dusk sunset",
+    "changed": false
+  },
+  {
+    "word": "midnight",
+    "imageKeyword": "clock showing midnight",
+    "changed": false
+  },
+  {
+    "word": "noon",
+    "imageKeyword": "noon midday",
+    "changed": false
+  },
+  {
+    "word": "passenger",
+    "imageKeyword": "passenger on bus",
+    "changed": false
+  },
+  {
+    "word": "neighbor",
+    "imageKeyword": "neighbor waving hello",
+    "changed": false
+  },
+  {
+    "word": "stranger",
+    "imageKeyword": "unknown person silhouette",
+    "changed": false
+  },
+  {
+    "word": "parade",
+    "imageKeyword": "colorful parade marching",
+    "changed": false
+  },
+  {
+    "word": "audience",
+    "imageKeyword": "audience watching show",
+    "changed": false
+  },
+  {
+    "word": "crew",
+    "imageKeyword": "crew workers",
+    "changed": false
+  },
+  {
+    "word": "coach",
+    "imageKeyword": "sports coach with clipboard",
+    "changed": false
+  },
+  {
+    "word": "chef",
+    "imageKeyword": "chef cooking",
+    "changed": false
+  },
+  {
+    "word": "mayor",
+    "imageKeyword": "mayor at podium",
+    "changed": false
+  },
+  {
+    "word": "inventor",
+    "imageKeyword": "inventor with invention",
+    "changed": false
+  },
+  {
+    "word": "princess",
+    "imageKeyword": "princess",
+    "changed": false
+  },
+  {
+    "word": "knight",
+    "imageKeyword": "knight armor",
+    "changed": false
+  },
+  {
+    "word": "wizard",
+    "imageKeyword": "wizard",
+    "changed": false
+  },
+  {
+    "word": "giant",
+    "imageKeyword": "giant",
+    "changed": false
+  },
+  {
+    "word": "dwarf",
+    "imageKeyword": "fantasy dwarf cartoon",
+    "changed": false
+  },
+  {
+    "word": "monster",
+    "imageKeyword": "friendly monster",
+    "changed": false
+  },
+  {
+    "word": "dragon",
+    "imageKeyword": "dragon",
+    "changed": false
+  },
+  {
+    "word": "fairy",
+    "imageKeyword": "fairy",
+    "changed": false
+  },
+  {
+    "word": "shield",
+    "imageKeyword": "shield",
+    "changed": false
+  },
+  {
+    "word": "sword",
+    "imageKeyword": "cartoon medieval sword",
+    "changed": false
+  },
+  {
+    "word": "wand",
+    "imageKeyword": "magic wand",
+    "changed": false
+  },
+  {
+    "word": "throne",
+    "imageKeyword": "throne",
+    "changed": false
+  },
+  {
+    "word": "crown",
+    "imageKeyword": "crown",
+    "changed": false
+  },
+  {
+    "word": "wobble",
+    "imageKeyword": "toddler wobbling first steps",
+    "changed": false
+  },
+  {
+    "word": "tumble",
+    "imageKeyword": "child tumbling on grass",
+    "changed": false
+  },
+  {
+    "word": "snuggle",
+    "imageKeyword": "child snuggling teddy bear",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "nibble",
+    "imageKeyword": "mouse nibbling cheese",
+    "changed": false
+  },
+  {
+    "word": "snore",
+    "imageKeyword": "snoring",
+    "changed": false
+  },
+  {
+    "word": "yawn",
+    "imageKeyword": "yawning",
+    "changed": false
+  },
+  {
+    "word": "shiver",
+    "imageKeyword": "shivering cold",
+    "changed": false
+  },
+  {
+    "word": "bloom",
+    "imageKeyword": "blooming flower",
+    "changed": false
+  },
+  {
+    "word": "sprout",
+    "imageKeyword": "sprout",
+    "changed": false
+  },
+  {
+    "word": "wilt",
+    "imageKeyword": "wilting flower",
+    "changed": false
+  },
+  {
+    "word": "scattered",
+    "imageKeyword": "crayons scattered across floor",
+    "changed": false
+  },
+  {
+    "word": "rascal",
+    "imageKeyword": "mischievous puppy cookie jar",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "gigantic",
+    "imageKeyword": "gigantic dinosaur next house",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "itsy",
+    "imageKeyword": "tiny spider",
+    "changed": false
+  },
+  {
+    "word": "whirl",
+    "imageKeyword": "spinning top whirling",
+    "changed": false
+  },
+  {
+    "word": "sparkle",
+    "imageKeyword": "sparkling",
+    "changed": false
+  },
+  {
+    "word": "flutter",
+    "imageKeyword": "fluttering butterfly",
+    "changed": false
+  },
+  {
+    "word": "hear",
+    "imageKeyword": "child listening loud basketball",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "lose",
+    "imageKeyword": "child searching lost toy",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "teach",
+    "imageKeyword": "older kid teaching younger",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "take",
+    "imageKeyword": "hand taking cookie plate",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "than",
+    "imageKeyword": "basketball scoreboard comparing two",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "describe",
+    "imageKeyword": "child talking about picture",
+    "changed": false
+  },
+  {
+    "word": "explain",
+    "imageKeyword": "dad explaining sunset child",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "solve",
+    "imageKeyword": "puzzle",
+    "changed": false
+  },
+  {
+    "word": "complete",
+    "imageKeyword": "finished work",
+    "changed": false
+  },
+  {
+    "word": "arrange",
+    "imageKeyword": "arrange books",
+    "changed": false
+  },
+  {
+    "word": "decide",
+    "imageKeyword": "choice",
+    "changed": false
+  },
+  {
+    "word": "suppose",
+    "imageKeyword": "bus rain",
+    "changed": false
+  },
+  {
+    "word": "mention",
+    "imageKeyword": "person speaking briefly",
+    "changed": false
+  },
+  {
+    "word": "realize",
+    "imageKeyword": "lightbulb moment",
+    "changed": true,
+    "reason": "mittens unrelated to understanding/realization"
+  },
+  {
+    "word": "repeat",
+    "imageKeyword": "loop arrows",
+    "changed": false
+  },
+  {
+    "word": "separate",
+    "imageKeyword": "sorting colored blocks into",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "struggle",
+    "imageKeyword": "tangled knot",
+    "changed": false
+  },
+  {
+    "word": "succeed",
+    "imageKeyword": "bike success",
+    "changed": false
+  },
+  {
+    "word": "surround",
+    "imageKeyword": "cabin trees",
+    "changed": false
+  },
+  {
+    "word": "wander",
+    "imageKeyword": "walk park",
+    "changed": false
+  },
+  {
+    "word": "ancient",
+    "imageKeyword": "ancient pottery museum",
+    "changed": false
+  },
+  {
+    "word": "modern",
+    "imageKeyword": "classroom screen",
+    "changed": false
+  },
+  {
+    "word": "brilliant",
+    "imageKeyword": "bright shining diamond",
+    "changed": true,
+    "reason": "flashlight doesn't convey 'very smart/impressive'"
+  },
+  {
+    "word": "fragile",
+    "imageKeyword": "broken glass",
+    "changed": false
+  },
+  {
+    "word": "sturdy",
+    "imageKeyword": "wood chair",
+    "changed": false
+  },
+  {
+    "word": "swift",
+    "imageKeyword": "running rabbit",
+    "changed": false
+  },
+  {
+    "word": "anxious",
+    "imageKeyword": "spelling bee",
+    "changed": false
+  },
+  {
+    "word": "setting",
+    "imageKeyword": "storybook showing castle night",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "plot",
+    "imageKeyword": "missing map",
+    "changed": false
+  },
+  {
+    "word": "paragraph",
+    "imageKeyword": "paragraph text paper",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "sentence",
+    "imageKeyword": "sentence",
+    "changed": false
+  },
+  {
+    "word": "fiction",
+    "imageKeyword": "dragon book",
+    "changed": false
+  },
+  {
+    "word": "nonfiction",
+    "imageKeyword": "whale facts",
+    "changed": false
+  },
+  {
+    "word": "main idea",
+    "imageKeyword": "key point highlight",
+    "changed": true,
+    "reason": "teamwork doesn't illustrate 'main idea'"
+  },
+  {
+    "word": "detail",
+    "imageKeyword": "red collar",
+    "changed": false
+  },
+  {
+    "word": "cause",
+    "imageKeyword": "puddle snow",
+    "changed": false
+  },
+  {
+    "word": "effect",
+    "imageKeyword": "muddy ground",
+    "changed": false
+  },
+  {
+    "word": "habitat",
+    "imageKeyword": "frog pond",
+    "changed": false
+  },
+  {
+    "word": "insect",
+    "imageKeyword": "ant",
+    "changed": false
+  },
+  {
+    "word": "mammal",
+    "imageKeyword": "dolphin",
+    "changed": false
+  },
+  {
+    "word": "reptile",
+    "imageKeyword": "snake",
+    "changed": false
+  },
+  {
+    "word": "liquid",
+    "imageKeyword": "juice cup",
+    "changed": false
+  },
+  {
+    "word": "gas",
+    "imageKeyword": "air filling balloon",
+    "changed": false
+  },
+  {
+    "word": "energy",
+    "imageKeyword": "running kid",
+    "changed": false
+  },
+  {
+    "word": "force",
+    "imageKeyword": "swing",
+    "changed": false
+  },
+  {
+    "word": "magnet",
+    "imageKeyword": "magnet clip",
+    "changed": false
+  },
+  {
+    "word": "soil",
+    "imageKeyword": "garden soil",
+    "changed": false
+  },
+  {
+    "word": "climate",
+    "imageKeyword": "desert",
+    "changed": false
+  },
+  {
+    "word": "season",
+    "imageKeyword": "winter coat",
+    "changed": false
+  },
+  {
+    "word": "citizen",
+    "imageKeyword": "passport",
+    "changed": false
+  },
+  {
+    "word": "government",
+    "imageKeyword": "city hall",
+    "changed": false
+  },
+  {
+    "word": "law",
+    "imageKeyword": "red light",
+    "changed": false
+  },
+  {
+    "word": "rule",
+    "imageKeyword": "classroom rules list",
+    "changed": false
+  },
+  {
+    "word": "map",
+    "imageKeyword": "map",
+    "changed": false
+  },
+  {
+    "word": "globe",
+    "imageKeyword": "globe",
+    "changed": false
+  },
+  {
+    "word": "continent",
+    "imageKeyword": "continent",
+    "changed": false
+  },
+  {
+    "word": "country",
+    "imageKeyword": "flag",
+    "changed": false
+  },
+  {
+    "word": "state",
+    "imageKeyword": "state map",
+    "changed": false
+  },
+  {
+    "word": "city",
+    "imageKeyword": "city skyline",
+    "changed": false
+  },
+  {
+    "word": "border",
+    "imageKeyword": "border fence",
+    "changed": false
+  },
+  {
+    "word": "freedom",
+    "imageKeyword": "choose book",
+    "changed": false
+  },
+  {
+    "word": "election",
+    "imageKeyword": "ballot box",
+    "changed": false
+  },
+  {
+    "word": "subtract",
+    "imageKeyword": "take away",
+    "changed": false
+  },
+  {
+    "word": "multiply",
+    "imageKeyword": "times sign",
+    "changed": false
+  },
+  {
+    "word": "divide",
+    "imageKeyword": "pizza slices",
+    "changed": false
+  },
+  {
+    "word": "sum",
+    "imageKeyword": "addition",
+    "changed": false
+  },
+  {
+    "word": "graph",
+    "imageKeyword": "bar graph",
+    "changed": false
+  },
+  {
+    "word": "chart",
+    "imageKeyword": "class chart",
+    "changed": false
+  },
+  {
+    "word": "data",
+    "imageKeyword": "weather notes",
+    "changed": false
+  },
+  {
+    "word": "length",
+    "imageKeyword": "rope",
+    "changed": false
+  },
+  {
+    "word": "width",
+    "imageKeyword": "door",
+    "changed": false
+  },
+  {
+    "word": "height",
+    "imageKeyword": "height chart",
+    "changed": false
+  },
+  {
+    "word": "area",
+    "imageKeyword": "rug",
+    "changed": false
+  },
+  {
+    "word": "shape",
+    "imageKeyword": "octagon",
+    "changed": false
+  },
+  {
+    "word": "angle",
+    "imageKeyword": "right angle",
+    "changed": false
+  },
+  {
+    "word": "triple",
+    "imageKeyword": "measuring cups",
+    "changed": false
+  },
+  {
+    "word": "gradually",
+    "imageKeyword": "color fade",
+    "changed": false
+  },
+  {
+    "word": "immediately",
+    "imageKeyword": "running urgently",
+    "changed": true,
+    "reason": "school line doesn't show 'right away'"
+  },
+  {
+    "word": "afterward",
+    "imageKeyword": "before and after",
+    "changed": true,
+    "reason": "clean up is weak for 'after that'"
+  },
+  {
+    "word": "recently",
+    "imageKeyword": "recent calendar date",
+    "changed": true,
+    "reason": "shoelaces unrelated to time concept"
+  },
+  {
+    "word": "frequently",
+    "imageKeyword": "ticking clock repeat",
+    "changed": true,
+    "reason": "giggling baby doesn't show frequency"
+  },
+  {
+    "word": "rarely",
+    "imageKeyword": "snowflakes",
+    "changed": false
+  },
+  {
+    "word": "occasionally",
+    "imageKeyword": "sometimes calendar",
+    "changed": true,
+    "reason": "bike library doesn't illustrate 'sometimes'"
+  },
+  {
+    "word": "however",
+    "imageKeyword": "rain window",
+    "changed": false
+  },
+  {
+    "word": "therefore",
+    "imageKeyword": "detour sign",
+    "changed": false
+  },
+  {
+    "word": "otherwise",
+    "imageKeyword": "rain boots",
+    "changed": false
+  },
+  {
+    "word": "turn into",
+    "imageKeyword": "butterfly",
+    "changed": false
+  },
+  {
+    "word": "look forward to",
+    "imageKeyword": "field day",
+    "changed": false
+  },
+  {
+    "word": "make up",
+    "imageKeyword": "funny story",
+    "changed": false
+  },
+  {
+    "word": "point out",
+    "imageKeyword": "finger pointing",
+    "changed": true,
+    "reason": "comma doesn't illustrate pointing out"
+  },
+  {
+    "word": "come across",
+    "imageKeyword": "shell",
+    "changed": false
+  },
+  {
+    "word": "break down",
+    "imageKeyword": "broken wagon",
+    "changed": false
+  },
+  {
+    "word": "carry out",
+    "imageKeyword": "science test",
+    "changed": false
+  },
+  {
+    "word": "set up",
+    "imageKeyword": "tent setup",
+    "changed": false
+  },
+  {
+    "word": "courageous",
+    "imageKeyword": "brave firefighter rescue",
+    "changed": true,
+    "reason": "lifeguard is okay but firefighter is stronger"
+  },
+  {
+    "word": "honest",
+    "imageKeyword": "spilled milk",
+    "changed": false
+  },
+  {
+    "word": "loyal",
+    "imageKeyword": "dog waiting",
+    "changed": false
+  },
+  {
+    "word": "selfish",
+    "imageKeyword": "child hoarding toys",
+    "changed": true,
+    "reason": "crayons don't convey selfishness"
+  },
+  {
+    "word": "thoughtful",
+    "imageKeyword": "greeting card",
+    "changed": false
+  },
+  {
+    "word": "determined",
+    "imageKeyword": "determined child working hard",
+    "changed": false
+  },
+  {
+    "word": "about",
+    "imageKeyword": "open book topic",
+    "changed": true,
+    "reason": "planets don't illustrate 'about'"
+  },
+  {
+    "word": "act",
+    "imageKeyword": "kid acting quickly",
+    "changed": false
+  },
+  {
+    "word": "action",
+    "imageKeyword": "rescuing cat from tree",
+    "changed": false
+  },
+  {
+    "word": "add",
+    "imageKeyword": "stack blocks",
+    "changed": false
+  },
+  {
+    "word": "address",
+    "imageKeyword": "postcard",
+    "changed": false
+  },
+  {
+    "word": "adult",
+    "imageKeyword": "adult grown up person",
+    "changed": true,
+    "reason": "crosswalk doesn't show an adult"
+  },
+  {
+    "word": "afraid",
+    "imageKeyword": "scared child hiding",
+    "changed": true,
+    "reason": "lamp doesn't convey fear"
+  },
+  {
+    "word": "again",
+    "imageKeyword": "reading poem",
+    "changed": false
+  },
+  {
+    "word": "agree",
+    "imageKeyword": "kids agree",
+    "changed": false
+  },
+  {
+    "word": "alive",
+    "imageKeyword": "green plant",
+    "changed": false
+  },
+  {
+    "word": "alone",
+    "imageKeyword": "reading alone",
+    "changed": false
+  },
+  {
+    "word": "also",
+    "imageKeyword": "adding more items",
+    "changed": true,
+    "reason": "snack unrelated to 'in addition'"
+  },
+  {
+    "word": "always",
+    "imageKeyword": "handwashing",
+    "changed": false
+  },
+  {
+    "word": "any",
+    "imageKeyword": "choosing from options",
+    "changed": true,
+    "reason": "pencils don't illustrate 'any/some'"
+  },
+  {
+    "word": "appear",
+    "imageKeyword": "rainbow",
+    "changed": false
+  },
+  {
+    "word": "arm",
+    "imageKeyword": "arm",
+    "changed": false
+  },
+  {
+    "word": "arrive",
+    "imageKeyword": "school bus",
+    "changed": false
+  },
+  {
+    "word": "ask",
+    "imageKeyword": "question",
+    "changed": false
+  },
+  {
+    "word": "asleep",
+    "imageKeyword": "sleeping baby",
+    "changed": false
+  },
+  {
+    "word": "attack",
+    "imageKeyword": "goose",
+    "changed": false
+  },
+  {
+    "word": "attempt",
+    "imageKeyword": "juggling",
+    "changed": false
+  },
+  {
+    "word": "attention",
+    "imageKeyword": "child listening hand ear",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "awake",
+    "imageKeyword": "child awake bed night",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "backpack",
+    "imageKeyword": "backpack",
+    "changed": false
+  },
+  {
+    "word": "balance",
+    "imageKeyword": "balance log",
+    "changed": false
+  },
+  {
+    "word": "balloon",
+    "imageKeyword": "balloon",
+    "changed": false
+  },
+  {
+    "word": "bare",
+    "imageKeyword": "bare feet",
+    "changed": false
+  },
+  {
+    "word": "bargain",
+    "imageKeyword": "sale tag",
+    "changed": false
+  },
+  {
+    "word": "base",
+    "imageKeyword": "statue base",
+    "changed": false
+  },
+  {
+    "word": "basic",
+    "imageKeyword": "simple building blocks",
+    "changed": true,
+    "reason": "kindness doesn't illustrate 'basic/simple'"
+  },
+  {
+    "word": "battle",
+    "imageKeyword": "toy knights",
+    "changed": false
+  },
+  {
+    "word": "beach",
+    "imageKeyword": "sandcastle",
+    "changed": false
+  },
+  {
+    "word": "beam",
+    "imageKeyword": "flashlight beam",
+    "changed": false
+  },
+  {
+    "word": "because",
+    "imageKeyword": "cause and effect arrow",
+    "changed": true,
+    "reason": "sun hat doesn't illustrate 'because'"
+  },
+  {
+    "word": "become",
+    "imageKeyword": "ice melting water",
+    "changed": false
+  },
+  {
+    "word": "beg",
+    "imageKeyword": "begging puppy",
+    "changed": false
+  },
+  {
+    "word": "begin",
+    "imageKeyword": "starting line race",
+    "changed": true,
+    "reason": "whistle is weak connection to beginning"
+  },
+  {
+    "word": "behavior",
+    "imageKeyword": "two kids sharing pizza",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "believe",
+    "imageKeyword": "lost kitten",
+    "changed": false
+  },
+  {
+    "word": "better",
+    "imageKeyword": "gold vs silver medal",
+    "changed": true,
+    "reason": "handwriting doesn't clearly show 'better'"
+  },
+  {
+    "word": "bicycle",
+    "imageKeyword": "bicycle",
+    "changed": false
+  },
+  {
+    "word": "blink",
+    "imageKeyword": "blink",
+    "changed": false
+  },
+  {
+    "word": "block",
+    "imageKeyword": "city block",
+    "changed": false
+  },
+  {
+    "word": "blossom",
+    "imageKeyword": "cherry blossoms",
+    "changed": false
+  },
+  {
+    "word": "bossy",
+    "imageKeyword": "child pointing finger others",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "bounce",
+    "imageKeyword": "bouncing ball",
+    "changed": false
+  },
+  {
+    "word": "breakfast",
+    "imageKeyword": "breakfast",
+    "changed": false
+  },
+  {
+    "word": "breathe",
+    "imageKeyword": "deep breath",
+    "changed": false
+  },
+  {
+    "word": "bright",
+    "imageKeyword": "bright sun",
+    "changed": false
+  },
+  {
+    "word": "bring",
+    "imageKeyword": "library book",
+    "changed": false
+  },
+  {
+    "word": "broad",
+    "imageKeyword": "wide river",
+    "changed": false
+  },
+  {
+    "word": "build",
+    "imageKeyword": "birdhouse",
+    "changed": false
+  },
+  {
+    "word": "bundle",
+    "imageKeyword": "bundle sticks",
+    "changed": false
+  },
+  {
+    "word": "butter",
+    "imageKeyword": "butter toast",
+    "changed": false
+  },
+  {
+    "word": "cactus",
+    "imageKeyword": "cactus",
+    "changed": false
+  },
+  {
+    "word": "calendar",
+    "imageKeyword": "calendar",
+    "changed": false
+  },
+  {
+    "word": "camel",
+    "imageKeyword": "camel",
+    "changed": false
+  },
+  {
+    "word": "camp",
+    "imageKeyword": "camping",
+    "changed": false
+  },
+  {
+    "word": "capture",
+    "imageKeyword": "butterfly net",
+    "changed": false
+  },
+  {
+    "word": "careful",
+    "imageKeyword": "careful balancing glass",
+    "changed": true,
+    "reason": "scissors is a stretch for careful"
+  },
+  {
+    "word": "carpet",
+    "imageKeyword": "class carpet",
+    "changed": false
+  },
+  {
+    "word": "cart",
+    "imageKeyword": "shopping cart",
+    "changed": false
+  },
+  {
+    "word": "carve",
+    "imageKeyword": "carved pumpkin",
+    "changed": false
+  },
+  {
+    "word": "ceiling",
+    "imageKeyword": "ceiling fan",
+    "changed": false
+  },
+  {
+    "word": "center",
+    "imageKeyword": "star middle flag",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "chance",
+    "imageKeyword": "line leader",
+    "changed": false
+  },
+  {
+    "word": "change",
+    "imageKeyword": "fall leaves",
+    "changed": false
+  },
+  {
+    "word": "choice",
+    "imageKeyword": "blue marker",
+    "changed": false
+  },
+  {
+    "word": "circle",
+    "imageKeyword": "circle",
+    "changed": false
+  },
+  {
+    "word": "climb",
+    "imageKeyword": "playground ladder",
+    "changed": false
+  },
+  {
+    "word": "close",
+    "imageKeyword": "closed door",
+    "changed": false
+  },
+  {
+    "word": "clue",
+    "imageKeyword": "footprint",
+    "changed": false
+  },
+  {
+    "word": "coast",
+    "imageKeyword": "ocean coast",
+    "changed": false
+  },
+  {
+    "word": "comfort",
+    "imageKeyword": "hug",
+    "changed": false
+  },
+  {
+    "word": "common",
+    "imageKeyword": "common dandelion",
+    "changed": true,
+    "reason": "squirrel is okay but dandelion is more universally common"
+  },
+  {
+    "word": "complain",
+    "imageKeyword": "unhappy child complaining",
+    "changed": true,
+    "reason": "chores doesn't show complaining"
+  },
+  {
+    "word": "confuse",
+    "imageKeyword": "confused child looking two",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "connect",
+    "imageKeyword": "toy train",
+    "changed": false
+  },
+  {
+    "word": "corner",
+    "imageKeyword": "spider corner",
+    "changed": false
+  },
+  {
+    "word": "cost",
+    "imageKeyword": "three dollar toy price",
+    "changed": false
+  },
+  {
+    "word": "cotton",
+    "imageKeyword": "cotton ball",
+    "changed": false
+  },
+  {
+    "word": "course",
+    "imageKeyword": "obstacle course",
+    "changed": false
+  },
+  {
+    "word": "crash",
+    "imageKeyword": "wave crash",
+    "changed": false
+  },
+  {
+    "word": "make",
+    "imageKeyword": "paper snowflake",
+    "changed": false
+  },
+  {
+    "word": "crumble",
+    "imageKeyword": "crumbs",
+    "changed": false
+  },
+  {
+    "word": "cuddle",
+    "imageKeyword": "teddy bear",
+    "changed": false
+  },
+  {
+    "word": "custom",
+    "imageKeyword": "birthday song",
+    "changed": false
+  },
+  {
+    "word": "cycle",
+    "imageKeyword": "water cycle",
+    "changed": false
+  },
+  {
+    "word": "danger",
+    "imageKeyword": "wet floor",
+    "changed": false
+  },
+  {
+    "word": "dark",
+    "imageKeyword": "dark night sky",
+    "changed": true,
+    "reason": "nightlight is the opposite of dark"
+  },
+  {
+    "word": "deal",
+    "imageKeyword": "handshake",
+    "changed": false
+  },
+  {
+    "word": "delay",
+    "imageKeyword": "flat tire",
+    "changed": false
+  },
+  {
+    "word": "delight",
+    "imageKeyword": "lunch note",
+    "changed": false
+  },
+  {
+    "word": "deny",
+    "imageKeyword": "crumbs shirt",
+    "changed": false
+  },
+  {
+    "word": "depend",
+    "imageKeyword": "watering plant",
+    "changed": false
+  },
+  {
+    "word": "destroy",
+    "imageKeyword": "sandcastle waves",
+    "changed": false
+  },
+  {
+    "word": "dig",
+    "imageKeyword": "digging",
+    "changed": false
+  },
+  {
+    "word": "dinner",
+    "imageKeyword": "dinner bowl",
+    "changed": false
+  },
+  {
+    "word": "find",
+    "imageKeyword": "child searching lost book",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "distance",
+    "imageKeyword": "long road distance",
+    "changed": true,
+    "reason": "road alone doesn't show distance"
+  },
+  {
+    "word": "dizzy",
+    "imageKeyword": "spinning",
+    "changed": false
+  },
+  {
+    "word": "dollar",
+    "imageKeyword": "dollar",
+    "changed": false
+  },
+  {
+    "word": "donate",
+    "imageKeyword": "food donation",
+    "changed": false
+  },
+  {
+    "word": "doorway",
+    "imageKeyword": "doorway",
+    "changed": false
+  },
+  {
+    "word": "downstairs",
+    "imageKeyword": "shoes door bottom stairs",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "drift",
+    "imageKeyword": "leaf on water",
+    "changed": false
+  },
+  {
+    "word": "drown",
+    "imageKeyword": "life jacket",
+    "changed": false
+  },
+  {
+    "word": "earn",
+    "imageKeyword": "reward sticker",
+    "changed": false
+  },
+  {
+    "word": "earth",
+    "imageKeyword": "planet earth",
+    "changed": false
+  },
+  {
+    "word": "edge",
+    "imageKeyword": "pool edge",
+    "changed": false
+  },
+  {
+    "word": "enter",
+    "imageKeyword": "classroom door",
+    "changed": false
+  },
+  {
+    "word": "escape",
+    "imageKeyword": "hamster cage",
+    "changed": false
+  },
+  {
+    "word": "exact",
+    "imageKeyword": "correct checkmark on paper",
+    "changed": false
+  },
+  {
+    "word": "fair",
+    "imageKeyword": "equal sharing among kids",
+    "changed": false
+  },
+  {
+    "word": "famous",
+    "imageKeyword": "famous landmark",
+    "changed": true,
+    "reason": "statue is okay but landmark is broader"
+  },
+  {
+    "word": "far",
+    "imageKeyword": "phone call",
+    "changed": false
+  },
+  {
+    "word": "farm",
+    "imageKeyword": "farm",
+    "changed": false
+  },
+  {
+    "word": "fence",
+    "imageKeyword": "fence",
+    "changed": false
+  },
+  {
+    "word": "field",
+    "imageKeyword": "soccer field",
+    "changed": false
+  },
+  {
+    "word": "fill",
+    "imageKeyword": "fill bottle",
+    "changed": false
+  },
+  {
+    "word": "finish",
+    "imageKeyword": "bedtime reading",
+    "changed": false
+  },
+  {
+    "word": "fit",
+    "imageKeyword": "key lock",
+    "changed": false
+  },
+  {
+    "word": "flour",
+    "imageKeyword": "flour",
+    "changed": false
+  },
+  {
+    "word": "foam",
+    "imageKeyword": "sea foam",
+    "changed": false
+  },
+  {
+    "word": "fold",
+    "imageKeyword": "folding paper",
+    "changed": false
+  },
+  {
+    "word": "follow",
+    "imageKeyword": "ducklings",
+    "changed": false
+  },
+  {
+    "word": "fork",
+    "imageKeyword": "fork",
+    "changed": false
+  },
+  {
+    "word": "friendship",
+    "imageKeyword": "friends",
+    "changed": false
+  },
+  {
+    "word": "frighten",
+    "imageKeyword": "loud noise",
+    "changed": false
+  },
+  {
+    "word": "front",
+    "imageKeyword": "front row",
+    "changed": false
+  },
+  {
+    "word": "frozen",
+    "imageKeyword": "frozen pond",
+    "changed": false
+  },
+  {
+    "word": "gentleman",
+    "imageKeyword": "holding door",
+    "changed": false
+  },
+  {
+    "word": "glad",
+    "imageKeyword": "smiling child celebrating",
+    "changed": false
+  },
+  {
+    "word": "glide",
+    "imageKeyword": "ice skating",
+    "changed": false
+  },
+  {
+    "word": "glitter",
+    "imageKeyword": "sparkle",
+    "changed": false
+  },
+  {
+    "word": "goal",
+    "imageKeyword": "reading goal",
+    "changed": false
+  },
+  {
+    "word": "grasp",
+    "imageKeyword": "hand rail",
+    "changed": false
+  },
+  {
+    "word": "greet",
+    "imageKeyword": "hello",
+    "changed": false
+  },
+  {
+    "word": "grin",
+    "imageKeyword": "big smile",
+    "changed": false
+  },
+  {
+    "word": "groan",
+    "imageKeyword": "child stubbing toe",
+    "changed": false
+  },
+  {
+    "word": "grow",
+    "imageKeyword": "sunflower",
+    "changed": false
+  },
+  {
+    "word": "guard",
+    "imageKeyword": "guard dog",
+    "changed": false
+  },
+  {
+    "word": "guess",
+    "imageKeyword": "jellybeans",
+    "changed": false
+  },
+  {
+    "word": "habit",
+    "imageKeyword": "toothbrush",
+    "changed": false
+  },
+  {
+    "word": "hallway",
+    "imageKeyword": "school hallway",
+    "changed": false
+  },
+  {
+    "word": "handful",
+    "imageKeyword": "handful of marbles",
+    "changed": true,
+    "reason": "popcorn is okay but marbles match definition better"
+  },
+  {
+    "word": "harm",
+    "imageKeyword": "caution sharp glass ground",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "harvest",
+    "imageKeyword": "apple picking",
+    "changed": false
+  },
+  {
+    "word": "heal",
+    "imageKeyword": "bandage",
+    "changed": false
+  },
+  {
+    "word": "hidden",
+    "imageKeyword": "key under mat",
+    "changed": false
+  },
+  {
+    "word": "hint",
+    "imageKeyword": "hint clue magnifying glass",
+    "changed": true,
+    "reason": "pointing alone is too vague"
+  },
+  {
+    "word": "history",
+    "imageKeyword": "old ship",
+    "changed": false
+  },
+  {
+    "word": "holiday",
+    "imageKeyword": "family dinner",
+    "changed": false
+  },
+  {
+    "word": "hop",
+    "imageKeyword": "hop",
+    "changed": false
+  },
+  {
+    "word": "horizon",
+    "imageKeyword": "sunset",
+    "changed": false
+  },
+  {
+    "word": "hurt",
+    "imageKeyword": "hurt arm",
+    "changed": false
+  },
+  {
+    "word": "hurry",
+    "imageKeyword": "running to bus",
+    "changed": false
+  },
+  {
+    "word": "idea",
+    "imageKeyword": "blanket fort",
+    "changed": false
+  },
+  {
+    "word": "ignore",
+    "imageKeyword": "turning away ignoring",
+    "changed": true,
+    "reason": "fly doesn't illustrate ignoring"
+  },
+  {
+    "word": "include",
+    "imageKeyword": "lunch tray",
+    "changed": false
+  },
+  {
+    "word": "inside",
+    "imageKeyword": "box with items inside",
+    "changed": true,
+    "reason": "envelope is okay but box is clearer"
+  },
+  {
+    "word": "invite",
+    "imageKeyword": "party invite",
+    "changed": false
+  },
+  {
+    "word": "jacket",
+    "imageKeyword": "jacket",
+    "changed": false
+  },
+  {
+    "word": "judge",
+    "imageKeyword": "judge gavel courtroom",
+    "changed": true,
+    "reason": "ribbon doesn't illustrate judging"
+  },
+  {
+    "word": "jump",
+    "imageKeyword": "jump puddle",
+    "changed": false
+  },
+  {
+    "word": "key",
+    "imageKeyword": "key",
+    "changed": false
+  },
+  {
+    "word": "kind",
+    "imageKeyword": "child offering seat friend",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "knee",
+    "imageKeyword": "leg knee",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "kneel",
+    "imageKeyword": "ant hill",
+    "changed": false
+  },
+  {
+    "word": "knock",
+    "imageKeyword": "knocking",
+    "changed": false
+  },
+  {
+    "word": "lantern",
+    "imageKeyword": "lantern",
+    "changed": false
+  },
+  {
+    "word": "laugh",
+    "imageKeyword": "laughing",
+    "changed": false
+  },
+  {
+    "word": "leaf",
+    "imageKeyword": "fall leaf",
+    "changed": false
+  },
+  {
+    "word": "leak",
+    "imageKeyword": "leaking bottle",
+    "changed": false
+  },
+  {
+    "word": "learn",
+    "imageKeyword": "student learning reading",
+    "changed": true,
+    "reason": "reading alone is too narrow for 'learn'"
+  },
+  {
+    "word": "least",
+    "imageKeyword": "smallest portion",
+    "changed": true,
+    "reason": "paint doesn't illustrate 'smallest amount'"
+  },
+  {
+    "word": "library",
+    "imageKeyword": "library",
+    "changed": false
+  },
+  {
+    "word": "limit",
+    "imageKeyword": "speed limit",
+    "changed": false
+  },
+  {
+    "word": "listen",
+    "imageKeyword": "ear hearing bell ring",
+    "changed": false
+  },
+  {
+    "word": "lunch",
+    "imageKeyword": "lunch",
+    "changed": false
+  },
+  {
+    "word": "machine",
+    "imageKeyword": "washing machine",
+    "changed": false
+  },
+  {
+    "word": "magic",
+    "imageKeyword": "magic trick",
+    "changed": false
+  },
+  {
+    "word": "major",
+    "imageKeyword": "large important event",
+    "changed": true,
+    "reason": "storm doesn't clearly mean 'big/important'"
+  },
+  {
+    "word": "marble",
+    "imageKeyword": "marble",
+    "changed": false
+  },
+  {
+    "word": "mask",
+    "imageKeyword": "tiger mask",
+    "changed": false
+  },
+  {
+    "word": "matter",
+    "imageKeyword": "solid liquid gas",
+    "changed": true,
+    "reason": "air alone doesn't illustrate matter well"
+  },
+  {
+    "word": "memory",
+    "imageKeyword": "photo album memories",
+    "changed": true,
+    "reason": "snowman doesn't illustrate memory/recall"
+  },
+  {
+    "word": "message",
+    "imageKeyword": "sticky note on fridge",
+    "changed": false
+  },
+  {
+    "word": "minute",
+    "imageKeyword": "clock minute hand",
+    "changed": true,
+    "reason": "timer is okay but clock is more specific to minute"
+  },
+  {
+    "word": "mirror",
+    "imageKeyword": "mirror",
+    "changed": false
+  },
+  {
+    "word": "mist",
+    "imageKeyword": "morning mist",
+    "changed": false
+  },
+  {
+    "word": "mix",
+    "imageKeyword": "mix paint",
+    "changed": false
+  },
+  {
+    "word": "model",
+    "imageKeyword": "solar system model",
+    "changed": false
+  },
+  {
+    "word": "mood",
+    "imageKeyword": "happy sun",
+    "changed": false
+  },
+  {
+    "word": "move",
+    "imageKeyword": "moving truck boxes",
+    "changed": true,
+    "reason": "chair doesn't clearly show movement"
+  },
+  {
+    "word": "mystery",
+    "imageKeyword": "missing cupcake",
+    "changed": false
+  },
+  {
+    "word": "nature",
+    "imageKeyword": "nature forest stream",
+    "changed": true,
+    "reason": "acorn is too specific for 'nature'"
+  },
+  {
+    "word": "near",
+    "imageKeyword": "two houses close together",
+    "changed": false
+  },
+  {
+    "word": "neatly",
+    "imageKeyword": "neat writing",
+    "changed": false
+  },
+  {
+    "word": "never",
+    "imageKeyword": "hot stove",
+    "changed": false
+  },
+  {
+    "word": "noisy",
+    "imageKeyword": "noisy crowd cheering",
+    "changed": true,
+    "reason": "cafeteria is okay but crowd is clearer"
+  },
+  {
+    "word": "north",
+    "imageKeyword": "compass",
+    "changed": false
+  },
+  {
+    "word": "note",
+    "imageKeyword": "note",
+    "changed": false
+  },
+  {
+    "word": "object",
+    "imageKeyword": "various objects table",
+    "changed": true,
+    "reason": "ball alone is just one object"
+  },
+  {
+    "word": "ocean",
+    "imageKeyword": "ocean waves",
+    "changed": false
+  },
+  {
+    "word": "offer",
+    "imageKeyword": "offering seat",
+    "changed": false
+  },
+  {
+    "word": "opinion",
+    "imageKeyword": "ice cream",
+    "changed": false
+  },
+  {
+    "word": "opposite",
+    "imageKeyword": "hot cold",
+    "changed": false
+  },
+  {
+    "word": "order",
+    "imageKeyword": "numbered list order",
+    "changed": true,
+    "reason": "steps is okay but numbered list is clearer"
+  },
+  {
+    "word": "outside",
+    "imageKeyword": "play outside",
+    "changed": false
+  },
+  {
+    "word": "over",
+    "imageKeyword": "ball flying over fence",
+    "changed": true,
+    "reason": "plane alone doesn't illustrate 'over/above'"
+  },
+  {
+    "word": "palace",
+    "imageKeyword": "palace",
+    "changed": false
+  },
+  {
+    "word": "path",
+    "imageKeyword": "forest path",
+    "changed": false
+  },
+  {
+    "word": "pause",
+    "imageKeyword": "tie shoe",
+    "changed": false
+  },
+  {
+    "word": "picnic",
+    "imageKeyword": "picnic",
+    "changed": false
+  },
+  {
+    "word": "planet",
+    "imageKeyword": "planet",
+    "changed": false
+  },
+  {
+    "word": "plastic",
+    "imageKeyword": "plastic bottle",
+    "changed": false
+  },
+  {
+    "word": "playground",
+    "imageKeyword": "playground",
+    "changed": false
+  },
+  {
+    "word": "polite",
+    "imageKeyword": "child saying please thank",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "praise",
+    "imageKeyword": "gold star",
+    "changed": false
+  },
+  {
+    "word": "prepare",
+    "imageKeyword": "packing snacks",
+    "changed": false
+  },
+  {
+    "word": "price",
+    "imageKeyword": "price tag",
+    "changed": false
+  },
+  {
+    "word": "prize",
+    "imageKeyword": "trophy",
+    "changed": false
+  },
+  {
+    "word": "protect",
+    "imageKeyword": "sunscreen",
+    "changed": false
+  },
+  {
+    "word": "quiet",
+    "imageKeyword": "quiet classroom",
+    "changed": false
+  },
+  {
+    "word": "quiz",
+    "imageKeyword": "quiz",
+    "changed": false
+  },
+  {
+    "word": "raise",
+    "imageKeyword": "raise hand",
+    "changed": false
+  },
+  {
+    "word": "range",
+    "imageKeyword": "mountain range panorama",
+    "changed": true,
+    "reason": "mountains is close but range is better"
+  },
+  {
+    "word": "reach",
+    "imageKeyword": "reach shelf",
+    "changed": false
+  },
+  {
+    "word": "recycle",
+    "imageKeyword": "recycling bin",
+    "changed": false
+  },
+  {
+    "word": "refund",
+    "imageKeyword": "refund",
+    "changed": false
+  },
+  {
+    "word": "relax",
+    "imageKeyword": "relax music",
+    "changed": false
+  },
+  {
+    "word": "rescue",
+    "imageKeyword": "firefighter",
+    "changed": false
+  },
+  {
+    "word": "respect",
+    "imageKeyword": "students listening respectfully",
+    "changed": false
+  },
+  {
+    "word": "result",
+    "imageKeyword": "growing plant",
+    "changed": false
+  },
+  {
+    "word": "return",
+    "imageKeyword": "return book",
+    "changed": false
+  },
+  {
+    "word": "river",
+    "imageKeyword": "river",
+    "changed": false
+  },
+  {
+    "word": "role",
+    "imageKeyword": "actor costume stage",
+    "changed": true,
+    "reason": "narrator is too specific for 'role'"
+  },
+  {
+    "word": "route",
+    "imageKeyword": "bus route",
+    "changed": false
+  },
+  {
+    "word": "safe",
+    "imageKeyword": "locked safe box",
+    "changed": true,
+    "reason": "helmet is 'safety' not 'safe'"
+  },
+  {
+    "word": "sail",
+    "imageKeyword": "sailboat",
+    "changed": false
+  },
+  {
+    "word": "save",
+    "imageKeyword": "save dessert",
+    "changed": false
+  },
+  {
+    "word": "scared",
+    "imageKeyword": "scared child under blanket",
+    "changed": false
+  },
+  {
+    "word": "scatter",
+    "imageKeyword": "papers flying",
+    "changed": false
+  },
+  {
+    "word": "score",
+    "imageKeyword": "scoreboard points game",
+    "changed": true,
+    "reason": "scoreboard alone is good - keep"
+  },
+  {
+    "word": "shade",
+    "imageKeyword": "tree shade",
+    "changed": false
+  },
+  {
+    "word": "shore",
+    "imageKeyword": "shore shells",
+    "changed": false
+  },
+  {
+    "word": "signal",
+    "imageKeyword": "traffic light",
+    "changed": false
+  },
+  {
+    "word": "simple",
+    "imageKeyword": "simple circle shape",
+    "changed": true,
+    "reason": "apple doesn't clearly illustrate 'simple/easy'"
+  },
+  {
+    "word": "slippery",
+    "imageKeyword": "icy steps",
+    "changed": false
+  },
+  {
+    "word": "smell",
+    "imageKeyword": "child sniffing popcorn",
+    "changed": false
+  },
+  {
+    "word": "snap",
+    "imageKeyword": "snapped twig",
+    "changed": false
+  },
+  {
+    "word": "soak",
+    "imageKeyword": "wet socks",
+    "changed": false
+  },
+  {
+    "word": "special",
+    "imageKeyword": "birthday",
+    "changed": false
+  },
+  {
+    "word": "store",
+    "imageKeyword": "store",
+    "changed": false
+  },
+  {
+    "word": "strong",
+    "imageKeyword": "thick strong rope pulling",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "stuck",
+    "imageKeyword": "stuck zipper",
+    "changed": false
+  },
+  {
+    "word": "suggest",
+    "imageKeyword": "water bottle",
+    "changed": false
+  },
+  {
+    "word": "support",
+    "imageKeyword": "wood beam",
+    "changed": false
+  },
+  {
+    "word": "surface",
+    "imageKeyword": "water surface",
+    "changed": false
+  },
+  {
+    "word": "swallow",
+    "imageKeyword": "swallowing water drink",
+    "changed": true,
+    "reason": "drinking alone might mean other things"
+  },
+  {
+    "word": "sweep",
+    "imageKeyword": "broom",
+    "changed": false
+  },
+  {
+    "word": "sweet",
+    "imageKeyword": "strawberry",
+    "changed": false
+  },
+  {
+    "word": "talent",
+    "imageKeyword": "talented performer stage",
+    "changed": true,
+    "reason": "drawing is too specific"
+  },
+  {
+    "word": "taste",
+    "imageKeyword": "lemon",
+    "changed": false
+  },
+  {
+    "word": "team",
+    "imageKeyword": "sports team",
+    "changed": false
+  },
+  {
+    "word": "tease",
+    "imageKeyword": "kind words",
+    "changed": false
+  },
+  {
+    "word": "temperature",
+    "imageKeyword": "thermometer",
+    "changed": false
+  },
+  {
+    "word": "tend",
+    "imageKeyword": "tending garden plants",
+    "changed": true,
+    "reason": "garden alone doesn't show tending"
+  },
+  {
+    "word": "tightly",
+    "imageKeyword": "kite string",
+    "changed": false
+  },
+  {
+    "word": "little",
+    "imageKeyword": "tiny ladybug leaf",
+    "changed": true,
+    "reason": "seed is okay but ladybug is more clearly 'little'"
+  },
+  {
+    "word": "track",
+    "imageKeyword": "running track",
+    "changed": false
+  },
+  {
+    "word": "travel",
+    "imageKeyword": "train",
+    "changed": false
+  },
+  {
+    "word": "trick",
+    "imageKeyword": "magic coin",
+    "changed": false
+  },
+  {
+    "word": "trust",
+    "imageKeyword": "child holding parent hand",
+    "changed": true,
+    "reason": "shortened for search effectiveness"
+  },
+  {
+    "word": "turn",
+    "imageKeyword": "turning key in lock",
+    "changed": false
+  },
+  {
+    "word": "under",
+    "imageKeyword": "puppy under table",
+    "changed": false
+  },
+  {
+    "word": "upstairs",
+    "imageKeyword": "backpack in bedroom upstairs",
+    "changed": false
+  },
+  {
+    "word": "usual",
+    "imageKeyword": "daily routine morning",
+    "changed": true,
+    "reason": "banana doesn't illustrate 'usual/typical'"
+  },
+  {
+    "word": "visit",
+    "imageKeyword": "visiting friends door",
+    "changed": true,
+    "reason": "dentist is too specific"
+  },
+  {
+    "word": "voice",
+    "imageKeyword": "person speaking voice",
+    "changed": true,
+    "reason": "phone doesn't clearly show voice"
+  },
+  {
+    "word": "vote",
+    "imageKeyword": "voting",
+    "changed": false
+  },
+  {
+    "word": "wait",
+    "imageKeyword": "bus stop",
+    "changed": false
+  },
+  {
+    "word": "warmth",
+    "imageKeyword": "warm blanket",
+    "changed": false
+  },
+  {
+    "word": "warn",
+    "imageKeyword": "hot pan",
+    "changed": false
+  },
+  {
+    "word": "waterfall",
+    "imageKeyword": "waterfall",
+    "changed": false
+  },
+  {
+    "word": "weather",
+    "imageKeyword": "weather forecast sun rain",
+    "changed": true,
+    "reason": "windy is just one type of weather"
+  },
+  {
+    "word": "wheel",
+    "imageKeyword": "bike wheel",
+    "changed": false
+  },
+  {
+    "word": "yesterday",
+    "imageKeyword": "calendar day",
+    "changed": false
+  },
+  {
+    "word": "admiral",
+    "imageKeyword": "admiral navy",
+    "changed": false
+  },
+  {
+    "word": "album",
+    "imageKeyword": "photo album",
+    "changed": false
+  },
+  {
+    "word": "alley",
+    "imageKeyword": "alley path",
+    "changed": false
+  },
+  {
+    "word": "amber",
+    "imageKeyword": "amber autumn leaves",
+    "changed": false
+  },
+  {
+    "word": "antenna",
+    "imageKeyword": "insect antenna",
+    "changed": false
+  },
+  {
+    "word": "applause",
+    "imageKeyword": "applause clapping",
+    "changed": false
+  },
+  {
+    "word": "apricot",
+    "imageKeyword": "apricot fruit",
+    "changed": false
+  },
+  {
+    "word": "arch",
+    "imageKeyword": "stone arch",
+    "changed": false
+  },
+  {
+    "word": "atlas",
+    "imageKeyword": "atlas maps",
+    "changed": false
+  },
+  {
+    "word": "avalanche",
+    "imageKeyword": "avalanche snow",
+    "changed": false
+  },
+  {
+    "word": "badge",
+    "imageKeyword": "badge pin",
+    "changed": false
+  },
+  {
+    "word": "bagpipe",
+    "imageKeyword": "bagpipe instrument",
+    "changed": false
+  },
+  {
+    "word": "balcony",
+    "imageKeyword": "balcony building",
+    "changed": false
+  },
+  {
+    "word": "banjo",
+    "imageKeyword": "banjo instrument",
+    "changed": false
+  },
+  {
+    "word": "banner",
+    "imageKeyword": "banner sign",
+    "changed": false
+  },
+  {
+    "word": "basin",
+    "imageKeyword": "water basin",
+    "changed": false
+  }
+]

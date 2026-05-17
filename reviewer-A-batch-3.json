@@ -1,0 +1,3002 @@
+[
+  {
+    "word": "bay",
+    "imageKeyword": "bay water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "beacon",
+    "imageKeyword": "lighthouse beacon",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bead",
+    "imageKeyword": "bead jewelry",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "beeswax",
+    "imageKeyword": "beeswax candle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bellows",
+    "imageKeyword": "bellows fire",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "binoculars",
+    "imageKeyword": "binoculars",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "birch",
+    "imageKeyword": "birch tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "biscuit",
+    "imageKeyword": "biscuit bread",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "blacksmith",
+    "imageKeyword": "blacksmith forge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "blaze",
+    "imageKeyword": "blaze fire",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "blueprint",
+    "imageKeyword": "blueprint plan",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bluff",
+    "imageKeyword": "cliff bluff",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bobsled",
+    "imageKeyword": "bobsled race",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bolt",
+    "imageKeyword": "bolt and nut hardware",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bonfire",
+    "imageKeyword": "bonfire outdoors",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bookshelf",
+    "imageKeyword": "bookshelf",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bracelet",
+    "imageKeyword": "bracelet jewelry",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bramble",
+    "imageKeyword": "bramble bush",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "brass",
+    "imageKeyword": "brass metal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bridle",
+    "imageKeyword": "bridle horse",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "broth",
+    "imageKeyword": "broth soup",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bugle",
+    "imageKeyword": "bugle horn",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bulb",
+    "imageKeyword": "tulip bulb",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bulletin",
+    "imageKeyword": "bulletin board",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bunker",
+    "imageKeyword": "bunker shelter",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "buoy",
+    "imageKeyword": "buoy water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "canal",
+    "imageKeyword": "canal waterway",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "canopy",
+    "imageKeyword": "forest canopy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "caribou",
+    "imageKeyword": "caribou deer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "carousel",
+    "imageKeyword": "carousel ride",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cartwheel",
+    "imageKeyword": "cartwheel gymnastics",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cashew",
+    "imageKeyword": "cashew nut",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cedar",
+    "imageKeyword": "cedar tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cellar",
+    "imageKeyword": "cellar basement",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chapel",
+    "imageKeyword": "chapel building",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chariot",
+    "imageKeyword": "chariot horses",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chestnut",
+    "imageKeyword": "chestnut nut",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chisel",
+    "imageKeyword": "chisel tool",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chord",
+    "imageKeyword": "guitar chord",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cider",
+    "imageKeyword": "apple cider",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "clam",
+    "imageKeyword": "clam shell",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cloak",
+    "imageKeyword": "cloak coat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cobblestone",
+    "imageKeyword": "cobblestone road",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cocoon",
+    "imageKeyword": "cocoon moth",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "comet",
+    "imageKeyword": "comet sky",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cork",
+    "imageKeyword": "cork bottle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "corral",
+    "imageKeyword": "corral fence",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cradle",
+    "imageKeyword": "baby cradle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "crest",
+    "imageKeyword": "hill crest",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "crumb",
+    "imageKeyword": "bread crumb",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cuff",
+    "imageKeyword": "shirt cuff",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cypress",
+    "imageKeyword": "cypress tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dagger",
+    "imageKeyword": "museum dagger display",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dandelion",
+    "imageKeyword": "dandelion seeds",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deck",
+    "imageKeyword": "wooden deck",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "delta",
+    "imageKeyword": "river delta",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dinghy",
+    "imageKeyword": "dinghy boat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dome",
+    "imageKeyword": "dome building",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "donkey",
+    "imageKeyword": "donkey animal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "doorbell",
+    "imageKeyword": "doorbell",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "drawbridge",
+    "imageKeyword": "drawbridge castle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "drumstick",
+    "imageKeyword": "drumstick for drum",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dune",
+    "imageKeyword": "sand dune",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "easel",
+    "imageKeyword": "easel painting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "elm",
+    "imageKeyword": "elm tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ember",
+    "imageKeyword": "ember fire",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "emerald",
+    "imageKeyword": "emerald gem",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "falcon",
+    "imageKeyword": "falcon bird",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fiddle",
+    "imageKeyword": "fiddle violin",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fig",
+    "imageKeyword": "fig fruit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fjord",
+    "imageKeyword": "fjord water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "flint",
+    "imageKeyword": "flint stone",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "forge",
+    "imageKeyword": "forge blacksmith",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fresco",
+    "imageKeyword": "fresco painting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gale",
+    "imageKeyword": "gale wind",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "galley",
+    "imageKeyword": "ship galley",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "garnet",
+    "imageKeyword": "garnet gem",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gazelle",
+    "imageKeyword": "gazelle animal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "geyser",
+    "imageKeyword": "geyser eruption",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gong",
+    "imageKeyword": "gong instrument",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "granite",
+    "imageKeyword": "granite rock",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "grapevine",
+    "imageKeyword": "grapevine",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gravel",
+    "imageKeyword": "gravel path",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "griddle",
+    "imageKeyword": "griddle pancakes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "grove",
+    "imageKeyword": "grove trees",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gutter",
+    "imageKeyword": "rain gutter",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hammock",
+    "imageKeyword": "hammock",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "harp",
+    "imageKeyword": "harp instrument",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hazel",
+    "imageKeyword": "hazel eyes color",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hearth",
+    "imageKeyword": "hearth fireplace",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "heron",
+    "imageKeyword": "heron bird",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hickory",
+    "imageKeyword": "hickory tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hilltop",
+    "imageKeyword": "hilltop view",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "holly",
+    "imageKeyword": "holly berries",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "honeycomb",
+    "imageKeyword": "honeycomb",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "horseshoe",
+    "imageKeyword": "horseshoe",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hourglass",
+    "imageKeyword": "hourglass timer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "husk",
+    "imageKeyword": "corn husk",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ibis",
+    "imageKeyword": "ibis bird",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "igloo",
+    "imageKeyword": "igloo snow",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ivy",
+    "imageKeyword": "ivy wall",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "jade",
+    "imageKeyword": "jade stone",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "javelin",
+    "imageKeyword": "javelin throw",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "kelp",
+    "imageKeyword": "kelp seaweed",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "kennel",
+    "imageKeyword": "dog kennel",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "kindle",
+    "imageKeyword": "lighting campfire with sticks",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "kingfisher",
+    "imageKeyword": "kingfisher bird",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "knapsack",
+    "imageKeyword": "knapsack bag",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lagoon",
+    "imageKeyword": "lagoon water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "latch",
+    "imageKeyword": "door latch",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lava",
+    "imageKeyword": "lava volcano",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "levee",
+    "imageKeyword": "levee river",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lichen",
+    "imageKeyword": "lichen rock",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "locket",
+    "imageKeyword": "locket necklace",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "loom",
+    "imageKeyword": "weaving loom",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lynx",
+    "imageKeyword": "lynx cat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mango",
+    "imageKeyword": "mango fruit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mantle",
+    "imageKeyword": "fireplace mantle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "maple",
+    "imageKeyword": "maple tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "marsh",
+    "imageKeyword": "marsh wetland",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mast",
+    "imageKeyword": "ship mast",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "moat",
+    "imageKeyword": "castle moat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mortar",
+    "imageKeyword": "bricklayer mortar",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mosaic",
+    "imageKeyword": "mosaic art",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mulberry",
+    "imageKeyword": "mulberry fruit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "muzzle",
+    "imageKeyword": "dog snout closeup",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "nectar",
+    "imageKeyword": "bee nectar flower",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nettle",
+    "imageKeyword": "nettle plant",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nozzle",
+    "imageKeyword": "hose nozzle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nutmeg",
+    "imageKeyword": "nutmeg spice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "oar",
+    "imageKeyword": "oar rowing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "oasis",
+    "imageKeyword": "oasis desert",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "olive",
+    "imageKeyword": "olive fruit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ore",
+    "imageKeyword": "ore rock",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "otter",
+    "imageKeyword": "otter animal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pagoda",
+    "imageKeyword": "pagoda tower",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "parchment",
+    "imageKeyword": "parchment scroll",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "parsley",
+    "imageKeyword": "parsley herb",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pasture",
+    "imageKeyword": "pasture cows",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pebble",
+    "imageKeyword": "pebble stone",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pelican",
+    "imageKeyword": "pelican bird",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pendant",
+    "imageKeyword": "pendant necklace",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pier",
+    "imageKeyword": "pier ocean",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pigment",
+    "imageKeyword": "pigment paint",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "carefully",
+    "imageKeyword": "hands carefully stacking blocks",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "accept",
+    "imageKeyword": "kids trading cards",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "quite",
+    "imageKeyword": "thinking hard puzzle",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "rise",
+    "imageKeyword": "sunrise",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "although",
+    "imageKeyword": "cold without jacket",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "unless",
+    "imageKeyword": "conditions required",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "seldom",
+    "imageKeyword": "empty playground few people",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "eventually",
+    "imageKeyword": "seed growing stages",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "avoid",
+    "imageKeyword": "stepping around",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "burst",
+    "imageKeyword": "balloon popping",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bury",
+    "imageKeyword": "burying treasure",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cheer",
+    "imageKeyword": "cheering crowd",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "choose",
+    "imageKeyword": "picking choice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "claim",
+    "imageKeyword": "claiming own",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "combine",
+    "imageKeyword": "mixing together",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "command",
+    "imageKeyword": "giving order",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consider",
+    "imageKeyword": "thinking carefully",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "continue",
+    "imageKeyword": "keep going",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "control",
+    "imageKeyword": "remote control",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cover",
+    "imageKeyword": "covering lid",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cross",
+    "imageKeyword": "crossing street",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "crush",
+    "imageKeyword": "crushing flat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dare",
+    "imageKeyword": "brave dare",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "demand",
+    "imageKeyword": "demanding firmly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "develop",
+    "imageKeyword": "seedling growing stages",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "direct",
+    "imageKeyword": "directing traffic",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "examine",
+    "imageKeyword": "examining closely",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "exchange",
+    "imageKeyword": "trading swap",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "excite",
+    "imageKeyword": "excited jumping",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "expect",
+    "imageKeyword": "waiting expecting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "explore",
+    "imageKeyword": "exploring cave",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "express",
+    "imageKeyword": "expressing feelings",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fail",
+    "imageKeyword": "missing fail",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "flow",
+    "imageKeyword": "flowing river",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "form",
+    "imageKeyword": "shaping clay",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gaze",
+    "imageKeyword": "gazing stars",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "guide",
+    "imageKeyword": "guide path",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hasten",
+    "imageKeyword": "hurrying fast",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hide",
+    "imageKeyword": "hiding behind",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hike",
+    "imageKeyword": "hiking trail",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hug",
+    "imageKeyword": "hugging people",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hunt",
+    "imageKeyword": "owl hunting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "increase",
+    "imageKeyword": "thermometer rising",
+    "changed": true,
+    "reason": "'arrow going up' returns diagrams"
+  },
+  {
+    "word": "insist",
+    "imageKeyword": "firm insisting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "instruct",
+    "imageKeyword": "teaching instructing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "admire",
+    "imageKeyword": "admiring art",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "announce",
+    "imageKeyword": "announcing news",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "approve",
+    "imageKeyword": "green checkmark approval",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "argue",
+    "imageKeyword": "arguing disagree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "behave",
+    "imageKeyword": "good behavior",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "celebrate",
+    "imageKeyword": "party celebrate",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compare",
+    "imageKeyword": "side by side objects",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "convince",
+    "imageKeyword": "persuading talking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "defend",
+    "imageKeyword": "defending protecting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "disappear",
+    "imageKeyword": "vanishing magician",
+    "changed": true,
+    "reason": "'vanishing magic' too vague"
+  },
+  {
+    "word": "encourage",
+    "imageKeyword": "cheering support",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "improve",
+    "imageKeyword": "getting better",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "interrupt",
+    "imageKeyword": "interrupting talking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "observe",
+    "imageKeyword": "watching carefully",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "organize",
+    "imageKeyword": "organizing neat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bold",
+    "imageKeyword": "bold explorer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "brief",
+    "imageKeyword": "short quick",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "delicate",
+    "imageKeyword": "delicate butterfly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dense",
+    "imageKeyword": "dense forest",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dim",
+    "imageKeyword": "dim light",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "distant",
+    "imageKeyword": "distant mountains",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "drowsy",
+    "imageKeyword": "sleepy drowsy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dusty",
+    "imageKeyword": "dusty book",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "elegant",
+    "imageKeyword": "elegant swan",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "faint",
+    "imageKeyword": "faint fading",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "familiar",
+    "imageKeyword": "recognize familiar",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "flat",
+    "imageKeyword": "flat pancake",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "flexible",
+    "imageKeyword": "bending flexible",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "foggy",
+    "imageKeyword": "foggy morning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "glossy",
+    "imageKeyword": "glossy shiny",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "grim",
+    "imageKeyword": "serious face",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "harsh",
+    "imageKeyword": "harsh wind",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "heavy",
+    "imageKeyword": "heavy backpack",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "helpless",
+    "imageKeyword": "baby bird helpless",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "humble",
+    "imageKeyword": "humble modest",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "innocent",
+    "imageKeyword": "innocent puppy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "invisible",
+    "imageKeyword": "invisible glass",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "keen",
+    "imageKeyword": "eager keen",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lean",
+    "imageKeyword": "lean runner",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lively",
+    "imageKeyword": "lively puppy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lovely",
+    "imageKeyword": "lovely garden",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "magnificent",
+    "imageKeyword": "magnificent fireworks",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "moist",
+    "imageKeyword": "moist soil",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "neat",
+    "imageKeyword": "neat desk",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "noble",
+    "imageKeyword": "noble knight",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "odd",
+    "imageKeyword": "odd sock pair",
+    "changed": true,
+    "reason": "'strange odd' too vague"
+  },
+  {
+    "word": "pale",
+    "imageKeyword": "pale face",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "plump",
+    "imageKeyword": "plump berries",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "precious",
+    "imageKeyword": "precious gem",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pure",
+    "imageKeyword": "pure water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rare",
+    "imageKeyword": "rare eagle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "raw",
+    "imageKeyword": "raw vegetables",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "round",
+    "imageKeyword": "round ball",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rude",
+    "imageKeyword": "rude interrupting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rusty",
+    "imageKeyword": "rusty bike",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "scarce",
+    "imageKeyword": "scarce rare item",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "slender",
+    "imageKeyword": "slender candle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "soft",
+    "imageKeyword": "soft kitten",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "abundant",
+    "imageKeyword": "plenty abundant",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "absurd",
+    "imageKeyword": "silly absurd",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "accurate",
+    "imageKeyword": "accurate exact",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "brittle",
+    "imageKeyword": "brittle breaking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "colorful",
+    "imageKeyword": "colorful parrot",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cruel",
+    "imageKeyword": "mean cruel",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "daring",
+    "imageKeyword": "daring brave",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "filthy",
+    "imageKeyword": "filthy dirty",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gorgeous",
+    "imageKeyword": "gorgeous sunset",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "horrible",
+    "imageKeyword": "horrible smell",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mysterious",
+    "imageKeyword": "mysterious light",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pleasant",
+    "imageKeyword": "pleasant breeze",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "powerful",
+    "imageKeyword": "powerful wind",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ridiculous",
+    "imageKeyword": "ridiculous funny",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "serious",
+    "imageKeyword": "stern teacher face",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "spotless",
+    "imageKeyword": "spotless clean",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tremendous",
+    "imageKeyword": "tremendous big",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "visible",
+    "imageKeyword": "visible lighthouse",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "weak",
+    "imageKeyword": "weak small",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "wealthy",
+    "imageKeyword": "wealthy rich",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "wicked",
+    "imageKeyword": "wicked witch",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "worthless",
+    "imageKeyword": "broken toy pieces",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "briefly",
+    "imageKeyword": "quick summary",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "constantly",
+    "imageKeyword": "always nonstop",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "continuously",
+    "imageKeyword": "nonstop flowing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "currently",
+    "imageKeyword": "right now",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "formerly",
+    "imageKeyword": "before past",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "instantly",
+    "imageKeyword": "light switch on",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mostly",
+    "imageKeyword": "almost all",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nearly",
+    "imageKeyword": "almost there",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "normally",
+    "imageKeyword": "usual normal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "originally",
+    "imageKeyword": "first beginning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "partly",
+    "imageKeyword": "partly half",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "possibly",
+    "imageKeyword": "maybe possible",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "presently",
+    "imageKeyword": "now current",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "previously",
+    "imageKeyword": "before earlier",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "probably",
+    "imageKeyword": "likely rain clouds",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "promptly",
+    "imageKeyword": "on time",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "regularly",
+    "imageKeyword": "regular routine",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "shortly",
+    "imageKeyword": "soon shortly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "simply",
+    "imageKeyword": "easy simple",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sometimes",
+    "imageKeyword": "sometimes calendar",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "steadily",
+    "imageKeyword": "steady even",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "still",
+    "imageKeyword": "still continuing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "typically",
+    "imageKeyword": "usually typical",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "usually",
+    "imageKeyword": "usual routine",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "simultaneously",
+    "imageKeyword": "two clocks same time",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "initially",
+    "imageKeyword": "starting line race",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "permanently",
+    "imageKeyword": "forever lasting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "temporarily",
+    "imageKeyword": "detour sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lately",
+    "imageKeyword": "recent week calendar",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "overnight",
+    "imageKeyword": "nighttime overnight",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "yearly",
+    "imageKeyword": "annual yearly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hourly",
+    "imageKeyword": "every hour",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "illustration",
+    "imageKeyword": "picture book page",
+    "changed": true,
+    "reason": "'book illustration' is fine"
+  },
+  {
+    "word": "diagram",
+    "imageKeyword": "labeled diagram",
+    "changed": true,
+    "reason": "'diagram drawing' is fine"
+  },
+  {
+    "word": "vocabulary",
+    "imageKeyword": "words vocabulary",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "definition",
+    "imageKeyword": "dictionary definition",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fact",
+    "imageKeyword": "fact true",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "summary",
+    "imageKeyword": "short summary",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "topic",
+    "imageKeyword": "topic subject",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conclusion",
+    "imageKeyword": "ending conclusion",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "passage",
+    "imageKeyword": "text passage",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "research",
+    "imageKeyword": "research books",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "method",
+    "imageKeyword": "method way",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "experiment",
+    "imageKeyword": "science experiment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "creature",
+    "imageKeyword": "creature animal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "moisture",
+    "imageKeyword": "dew moisture",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "material",
+    "imageKeyword": "fabric material",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "source",
+    "imageKeyword": "source beginning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "motion",
+    "imageKeyword": "swinging motion",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mixture",
+    "imageKeyword": "mixing bowl",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "direction",
+    "imageKeyword": "compass rose",
+    "changed": true,
+    "reason": "'arrow direction' returns diagrams"
+  },
+  {
+    "word": "shelter",
+    "imageKeyword": "shelter cover",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "predator",
+    "imageKeyword": "predator hawk",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prey",
+    "imageKeyword": "prey rabbit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "oxygen",
+    "imageKeyword": "oxygen breathing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "galaxy",
+    "imageKeyword": "galaxy stars",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fossil",
+    "imageKeyword": "fossil rock",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mineral",
+    "imageKeyword": "mineral crystal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "current",
+    "imageKeyword": "river current",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vapor",
+    "imageKeyword": "steam vapor",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "erosion",
+    "imageKeyword": "erosion cliff",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "orbit",
+    "imageKeyword": "orbit planet",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gravity",
+    "imageKeyword": "falling gravity",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "species",
+    "imageKeyword": "species animals",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "community",
+    "imageKeyword": "community people",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "population",
+    "imageKeyword": "population town",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "culture",
+    "imageKeyword": "culture tradition",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ancestor",
+    "imageKeyword": "ancestor family tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "generation",
+    "imageKeyword": "generation family",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "volunteer",
+    "imageKeyword": "volunteer helping",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "merchant",
+    "imageKeyword": "merchant shop",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pioneer",
+    "imageKeyword": "pioneer wagon",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "president",
+    "imageKeyword": "president leader",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "profession",
+    "imageKeyword": "profession job",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "companion",
+    "imageKeyword": "companion friend",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "guardian",
+    "imageKeyword": "guardian caretaker",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "immigrant",
+    "imageKeyword": "immigrant new home",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inspector",
+    "imageKeyword": "inspector checking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "messenger",
+    "imageKeyword": "messenger delivering",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "relative",
+    "imageKeyword": "family relative",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "scholar",
+    "imageKeyword": "scholar studying",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "witness",
+    "imageKeyword": "witness seeing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "advantage",
+    "imageKeyword": "advantage benefit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "courage",
+    "imageKeyword": "brave firefighter",
+    "changed": true,
+    "reason": "Abstract - needs concrete visual"
+  },
+  {
+    "word": "effort",
+    "imageKeyword": "effort trying",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "knowledge",
+    "imageKeyword": "knowledge books",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "patience",
+    "imageKeyword": "child waiting in line",
+    "changed": true,
+    "reason": "Abstract - needs concrete visual"
+  },
+  {
+    "word": "responsibility",
+    "imageKeyword": "responsibility duty",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "triumph",
+    "imageKeyword": "triumph victory",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "accident",
+    "imageKeyword": "accident spill",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "attitude",
+    "imageKeyword": "attitude positive",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "boundary",
+    "imageKeyword": "boundary fence",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consequence",
+    "imageKeyword": "consequence result",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conversation",
+    "imageKeyword": "conversation talking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "decision",
+    "imageKeyword": "decision choice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "evidence",
+    "imageKeyword": "evidence clue",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "experience",
+    "imageKeyword": "experience memory",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "imagination",
+    "imageKeyword": "imagination creative",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "occasion",
+    "imageKeyword": "occasion celebration",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "solution",
+    "imageKeyword": "solution answer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inspect",
+    "imageKeyword": "inspecting closely",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "select",
+    "imageKeyword": "selecting picking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "supply",
+    "imageKeyword": "delivery truck supplies",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "survive",
+    "imageKeyword": "survive alive",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "transform",
+    "imageKeyword": "transform change",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "transport",
+    "imageKeyword": "transport truck",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "identify",
+    "imageKeyword": "identify recognize",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inherit",
+    "imageKeyword": "inherit family",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "massive",
+    "imageKeyword": "massive rock",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "miniature",
+    "imageKeyword": "miniature tiny",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "obvious",
+    "imageKeyword": "obvious clear",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ordinary",
+    "imageKeyword": "regular school day",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "particular",
+    "imageKeyword": "specific one",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "peculiar",
+    "imageKeyword": "peculiar strange",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rapid",
+    "imageKeyword": "rapid fast",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reluctant",
+    "imageKeyword": "reluctant hesitant",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sensitive",
+    "imageKeyword": "sensitive careful",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "severe",
+    "imageKeyword": "severe storm",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "suitable",
+    "imageKeyword": "suitable fitting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sufficient",
+    "imageKeyword": "enough sufficient",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vacant",
+    "imageKeyword": "vacant empty",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vast",
+    "imageKeyword": "vast ocean",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vivid",
+    "imageKeyword": "vivid colors",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "possess",
+    "imageKeyword": "possess own",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reveal",
+    "imageKeyword": "reveal show",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assign",
+    "imageKeyword": "assign task",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "respond",
+    "imageKeyword": "responding answer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "require",
+    "imageKeyword": "require need",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "oppose",
+    "imageKeyword": "oppose against",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "occupy",
+    "imageKeyword": "room filled with boxes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "perform",
+    "imageKeyword": "perform stage",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "accomplish",
+    "imageKeyword": "accomplish finish",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cautious",
+    "imageKeyword": "cautious careful",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "capable",
+    "imageKeyword": "capable able",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "essential",
+    "imageKeyword": "essential important",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fortunate",
+    "imageKeyword": "fortunate lucky",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "incredible",
+    "imageKeyword": "incredible amazing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "numerous",
+    "imageKeyword": "numerous many",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "positive",
+    "imageKeyword": "child nodding yes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "previous",
+    "imageKeyword": "previous before",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "region",
+    "imageKeyword": "region area",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "structure",
+    "imageKeyword": "structure building",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "symbol",
+    "imageKeyword": "symbol heart",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tradition",
+    "imageKeyword": "tradition family",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "celebration",
+    "imageKeyword": "celebration party",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "challenge",
+    "imageKeyword": "challenge difficult",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "equipment",
+    "imageKeyword": "equipment tools",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "voyage",
+    "imageKeyword": "voyage ship",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "territory",
+    "imageKeyword": "territory land",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "disaster",
+    "imageKeyword": "disaster flood",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "merely",
+    "imageKeyword": "only just",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "precisely",
+    "imageKeyword": "exact precise",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "entirely",
+    "imageKeyword": "completely full",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "scarcely",
+    "imageKeyword": "barely hardly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "swiftly",
+    "imageKeyword": "fast swift",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "willingly",
+    "imageKeyword": "willing happy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "maintain",
+    "imageKeyword": "maintain care",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "establish",
+    "imageKeyword": "establish start",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cooperate",
+    "imageKeyword": "cooperate teamwork",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "represent",
+    "imageKeyword": "flag representing country",
+    "changed": true,
+    "reason": "'represent symbol' too abstract"
+  },
+  {
+    "word": "concentrate",
+    "imageKeyword": "concentrate focus",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "manufacture",
+    "imageKeyword": "factory making",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "demonstrate",
+    "imageKeyword": "demonstrate show",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "investigate",
+    "imageKeyword": "investigate search",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "discovery",
+    "imageKeyword": "discovery find",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "penalty",
+    "imageKeyword": "penalty punishment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "quantity",
+    "imageKeyword": "quantity amount",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reasonable",
+    "imageKeyword": "reasonable fair",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "approach",
+    "imageKeyword": "approach near",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "collapse",
+    "imageKeyword": "collapse falling",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "domestic",
+    "imageKeyword": "domestic pets",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "external",
+    "imageKeyword": "external outside",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "internal",
+    "imageKeyword": "internal inside",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "annual",
+    "imageKeyword": "calendar year circled",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "permission",
+    "imageKeyword": "permission allowed",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "recognize",
+    "imageKeyword": "recognize know",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "influence",
+    "imageKeyword": "influence effect",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "interpret",
+    "imageKeyword": "interpret meaning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "adapt",
+    "imageKeyword": "adapt change",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "benefit",
+    "imageKeyword": "benefit help",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "durable",
+    "imageKeyword": "durable strong",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "genuine",
+    "imageKeyword": "genuine real",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hesitate",
+    "imageKeyword": "hesitate pause",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "negotiate",
+    "imageKeyword": "negotiate talk",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "temporary",
+    "imageKeyword": "temporary short",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reliable",
+    "imageKeyword": "reliable trust",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "absorb",
+    "imageKeyword": "absorb soak",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "attract",
+    "imageKeyword": "attract pull",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "predict",
+    "imageKeyword": "predict forecast",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "request",
+    "imageKeyword": "request ask",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reduce",
+    "imageKeyword": "reduce less",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assemble",
+    "imageKeyword": "assemble build",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "accumulate",
+    "imageKeyword": "accumulate pile",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "acknowledge",
+    "imageKeyword": "acknowledge nod",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "adequate",
+    "imageKeyword": "full water bottle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "advocate",
+    "imageKeyword": "advocate support",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "allocate",
+    "imageKeyword": "allocate assign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ambiguous",
+    "imageKeyword": "ambiguous confusing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "amend",
+    "imageKeyword": "amend edit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "approximate",
+    "imageKeyword": "approximate estimate",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "aspire",
+    "imageKeyword": "aspire dream",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assert",
+    "imageKeyword": "assert speak",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "authorize",
+    "imageKeyword": "authorize approve",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "beneficial",
+    "imageKeyword": "beneficial healthy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bias",
+    "imageKeyword": "bias unfair",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "capacity",
+    "imageKeyword": "capacity full",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "clarify",
+    "imageKeyword": "magnifying glass text",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "coincide",
+    "imageKeyword": "overlapping calendar events",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "commentary",
+    "imageKeyword": "commentary sports",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compensate",
+    "imageKeyword": "compensate repay",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compile",
+    "imageKeyword": "compile list",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "complement",
+    "imageKeyword": "complement match",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "comply",
+    "imageKeyword": "comply follow",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conceive",
+    "imageKeyword": "lightbulb moment",
+    "changed": true,
+    "reason": "'conceive idea' too abstract"
+  },
+  {
+    "word": "confine",
+    "imageKeyword": "confine limit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consent",
+    "imageKeyword": "consent permission",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consequent",
+    "imageKeyword": "consequent result",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consolidate",
+    "imageKeyword": "consolidate combine",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "constraint",
+    "imageKeyword": "constraint limit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consult",
+    "imageKeyword": "consult advice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "contemplate",
+    "imageKeyword": "contemplate think",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "contradict",
+    "imageKeyword": "contradict opposite",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "controversy",
+    "imageKeyword": "controversy debate",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "convene",
+    "imageKeyword": "convene meeting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "correspond",
+    "imageKeyword": "correspond match",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "criteria",
+    "imageKeyword": "criteria checklist",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "currency",
+    "imageKeyword": "currency money",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deficiency",
+    "imageKeyword": "deficiency lack",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "denote",
+    "imageKeyword": "denote sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "derive",
+    "imageKeyword": "derive source",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deviate",
+    "imageKeyword": "deviate path",
+    "changed": false,
+    "reason": ""
+  }
+]

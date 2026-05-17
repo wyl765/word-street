@@ -1,0 +1,2502 @@
+[
+  {
+    "word": "prominent",
+    "imageKeyword": "standing out",
+    "changed": false
+  },
+  {
+    "word": "proper",
+    "imageKeyword": "proper way",
+    "changed": false
+  },
+  {
+    "word": "prosperous",
+    "imageKeyword": "thriving farm",
+    "changed": false
+  },
+  {
+    "word": "radical",
+    "imageKeyword": "big change",
+    "changed": false
+  },
+  {
+    "word": "reckless",
+    "imageKeyword": "reckless behavior",
+    "changed": false
+  },
+  {
+    "word": "regional",
+    "imageKeyword": "local area",
+    "changed": false
+  },
+  {
+    "word": "abode",
+    "imageKeyword": "house home",
+    "changed": false
+  },
+  {
+    "word": "acacia",
+    "imageKeyword": "acacia tree",
+    "changed": false
+  },
+  {
+    "word": "adage",
+    "imageKeyword": "wise saying",
+    "changed": false
+  },
+  {
+    "word": "adrift",
+    "imageKeyword": "drifting boat",
+    "changed": false
+  },
+  {
+    "word": "afflict",
+    "imageKeyword": "sick child",
+    "changed": false
+  },
+  {
+    "word": "ajar",
+    "imageKeyword": "open door",
+    "changed": false
+  },
+  {
+    "word": "akin",
+    "imageKeyword": "similar art",
+    "changed": false
+  },
+  {
+    "word": "alcove",
+    "imageKeyword": "window nook",
+    "changed": false
+  },
+  {
+    "word": "alms",
+    "imageKeyword": "giving charity",
+    "changed": false
+  },
+  {
+    "word": "alpine",
+    "imageKeyword": "mountain flowers",
+    "changed": false
+  },
+  {
+    "word": "amble",
+    "imageKeyword": "leisurely walk",
+    "changed": false
+  },
+  {
+    "word": "ambrosia",
+    "imageKeyword": "delicious fruit",
+    "changed": false
+  },
+  {
+    "word": "amiable",
+    "imageKeyword": "friendly shopkeeper",
+    "changed": false
+  },
+  {
+    "word": "amplify",
+    "imageKeyword": "amplifier speaker",
+    "changed": false
+  },
+  {
+    "word": "amulet",
+    "imageKeyword": "lucky charm",
+    "changed": false
+  },
+  {
+    "word": "anagram",
+    "imageKeyword": "letter puzzle",
+    "changed": false
+  },
+  {
+    "word": "angular",
+    "imageKeyword": "sharp building",
+    "changed": false
+  },
+  {
+    "word": "antiquated",
+    "imageKeyword": "old computer",
+    "changed": false
+  },
+  {
+    "word": "apex",
+    "imageKeyword": "mountain peak",
+    "changed": false
+  },
+  {
+    "word": "apprentice",
+    "imageKeyword": "learning baker",
+    "changed": false
+  },
+  {
+    "word": "arbiter",
+    "imageKeyword": "judge deciding",
+    "changed": false
+  },
+  {
+    "word": "ardor",
+    "imageKeyword": "passionate practice",
+    "changed": false
+  },
+  {
+    "word": "aright",
+    "imageKeyword": "reading carefully",
+    "changed": false
+  },
+  {
+    "word": "assail",
+    "imageKeyword": "stormy ship",
+    "changed": false
+  },
+  {
+    "word": "atoll",
+    "imageKeyword": "coral atoll",
+    "changed": false
+  },
+  {
+    "word": "atone",
+    "imageKeyword": "making amends",
+    "changed": false
+  },
+  {
+    "word": "atrium",
+    "imageKeyword": "building atrium",
+    "changed": false
+  },
+  {
+    "word": "aura",
+    "imageKeyword": "mysterious place",
+    "changed": false
+  },
+  {
+    "word": "awning",
+    "imageKeyword": "shop awning",
+    "changed": false
+  },
+  {
+    "word": "babble",
+    "imageKeyword": "baby talking",
+    "changed": false
+  },
+  {
+    "word": "badger",
+    "imageKeyword": "begging child",
+    "changed": false
+  },
+  {
+    "word": "baffle",
+    "imageKeyword": "confused audience",
+    "changed": false
+  },
+  {
+    "word": "bamboo",
+    "imageKeyword": "bamboo forest",
+    "changed": false
+  },
+  {
+    "word": "bane",
+    "imageKeyword": "mosquito pest",
+    "changed": false
+  },
+  {
+    "word": "banter",
+    "imageKeyword": "friends joking",
+    "changed": false
+  },
+  {
+    "word": "barbecue",
+    "imageKeyword": "barbecue grill",
+    "changed": false
+  },
+  {
+    "word": "barge",
+    "imageKeyword": "river barge",
+    "changed": false
+  },
+  {
+    "word": "barley",
+    "imageKeyword": "barley field",
+    "changed": false
+  },
+  {
+    "word": "barnacle",
+    "imageKeyword": "barnacles dock",
+    "changed": false
+  },
+  {
+    "word": "baroque",
+    "imageKeyword": "baroque palace",
+    "changed": false
+  },
+  {
+    "word": "barracks",
+    "imageKeyword": "military barracks",
+    "changed": false
+  },
+  {
+    "word": "bastion",
+    "imageKeyword": "castle defense walls",
+    "changed": false
+  },
+  {
+    "word": "batter",
+    "imageKeyword": "pancake batter",
+    "changed": false
+  },
+  {
+    "word": "bedlam",
+    "imageKeyword": "wild chaos",
+    "changed": false
+  },
+  {
+    "word": "belfry",
+    "imageKeyword": "bell tower",
+    "changed": false
+  },
+  {
+    "word": "berth",
+    "imageKeyword": "train bunk",
+    "changed": false
+  },
+  {
+    "word": "billow",
+    "imageKeyword": "billowing curtain",
+    "changed": false
+  },
+  {
+    "word": "bistro",
+    "imageKeyword": "small restaurant",
+    "changed": false
+  },
+  {
+    "word": "bivouac",
+    "imageKeyword": "outdoor camp",
+    "changed": false
+  },
+  {
+    "word": "blazon",
+    "imageKeyword": "bold display",
+    "changed": false
+  },
+  {
+    "word": "blotch",
+    "imageKeyword": "ink stain",
+    "changed": false
+  },
+  {
+    "word": "boggle",
+    "imageKeyword": "amazed person",
+    "changed": false
+  },
+  {
+    "word": "boon",
+    "imageKeyword": "helpful gift",
+    "changed": false
+  },
+  {
+    "word": "boulder",
+    "imageKeyword": "large boulder",
+    "changed": false
+  },
+  {
+    "word": "brawn",
+    "imageKeyword": "strong muscles",
+    "changed": false
+  },
+  {
+    "word": "breadth",
+    "imageKeyword": "wide river",
+    "changed": false
+  },
+  {
+    "word": "brim",
+    "imageKeyword": "full cup",
+    "changed": false
+  },
+  {
+    "word": "broach",
+    "imageKeyword": "starting discussion",
+    "changed": false
+  },
+  {
+    "word": "brooch",
+    "imageKeyword": "decorative pin",
+    "changed": false
+  },
+  {
+    "word": "buccaneer",
+    "imageKeyword": "pirate ship",
+    "changed": false
+  },
+  {
+    "word": "buffet",
+    "imageKeyword": "food buffet",
+    "changed": false
+  },
+  {
+    "word": "buggy",
+    "imageKeyword": "horse buggy",
+    "changed": false
+  },
+  {
+    "word": "bulge",
+    "imageKeyword": "stuffed pockets",
+    "changed": false
+  },
+  {
+    "word": "buoyancy",
+    "imageKeyword": "floating life jacket",
+    "changed": false
+  },
+  {
+    "word": "burgeon",
+    "imageKeyword": "blooming flowers",
+    "changed": false
+  },
+  {
+    "word": "bustle",
+    "imageKeyword": "busy market",
+    "changed": false
+  },
+  {
+    "word": "buttress",
+    "imageKeyword": "cathedral buttress",
+    "changed": false
+  },
+  {
+    "word": "cache",
+    "imageKeyword": "hidden treasure",
+    "changed": false
+  },
+  {
+    "word": "cairn",
+    "imageKeyword": "stone pile trail",
+    "changed": false
+  },
+  {
+    "word": "caldron",
+    "imageKeyword": "cooking cauldron",
+    "changed": false
+  },
+  {
+    "word": "canter",
+    "imageKeyword": "horse cantering",
+    "changed": false
+  },
+  {
+    "word": "capsize",
+    "imageKeyword": "capsized boat",
+    "changed": false
+  },
+  {
+    "word": "capsule",
+    "imageKeyword": "space capsule",
+    "changed": false
+  },
+  {
+    "word": "carafe",
+    "imageKeyword": "glass carafe",
+    "changed": false
+  },
+  {
+    "word": "chaplain",
+    "imageKeyword": "hospital chaplain",
+    "changed": false
+  },
+  {
+    "word": "char",
+    "imageKeyword": "burnt toast",
+    "changed": false
+  },
+  {
+    "word": "cherub",
+    "imageKeyword": "angel baby",
+    "changed": false
+  },
+  {
+    "word": "cinch",
+    "imageKeyword": "easy task",
+    "changed": false
+  },
+  {
+    "word": "citadel",
+    "imageKeyword": "hilltop fortress",
+    "changed": false
+  },
+  {
+    "word": "clad",
+    "imageKeyword": "armored knight",
+    "changed": false
+  },
+  {
+    "word": "clatter",
+    "imageKeyword": "falling pots",
+    "changed": false
+  },
+  {
+    "word": "claustrophobia",
+    "imageKeyword": "small elevator",
+    "changed": false
+  },
+  {
+    "word": "cleave",
+    "imageKeyword": "splitting log",
+    "changed": false
+  },
+  {
+    "word": "cleft",
+    "imageKeyword": "rock crack plant",
+    "changed": false
+  },
+  {
+    "word": "clench",
+    "imageKeyword": "clenched fist",
+    "changed": false
+  },
+  {
+    "word": "cobalt",
+    "imageKeyword": "cobalt blue paint",
+    "changed": false
+  },
+  {
+    "word": "coil",
+    "imageKeyword": "coiled hose",
+    "changed": false
+  },
+  {
+    "word": "colander",
+    "imageKeyword": "pasta colander",
+    "changed": false
+  },
+  {
+    "word": "collide",
+    "imageKeyword": "cars crashing",
+    "changed": false
+  },
+  {
+    "word": "colonnade",
+    "imageKeyword": "column row",
+    "changed": false
+  },
+  {
+    "word": "commode",
+    "imageKeyword": "wooden cabinet",
+    "changed": false
+  },
+  {
+    "word": "compulsion",
+    "imageKeyword": "strong urge",
+    "changed": false
+  },
+  {
+    "word": "condiment",
+    "imageKeyword": "ketchup mustard",
+    "changed": false
+  },
+  {
+    "word": "conduit",
+    "imageKeyword": "pipe conduit",
+    "changed": false
+  },
+  {
+    "word": "confide",
+    "imageKeyword": "sharing secret",
+    "changed": false
+  },
+  {
+    "word": "conifer",
+    "imageKeyword": "pine tree",
+    "changed": false
+  },
+  {
+    "word": "consort",
+    "imageKeyword": "royal couple",
+    "changed": false
+  },
+  {
+    "word": "contour",
+    "imageKeyword": "mountain outline",
+    "changed": false
+  },
+  {
+    "word": "convoy",
+    "imageKeyword": "truck convoy",
+    "changed": false
+  },
+  {
+    "word": "cornet",
+    "imageKeyword": "brass cornet",
+    "changed": false
+  },
+  {
+    "word": "corona",
+    "imageKeyword": "solar corona",
+    "changed": false
+  },
+  {
+    "word": "corsair",
+    "imageKeyword": "pirate flag",
+    "changed": false
+  },
+  {
+    "word": "cosmos",
+    "imageKeyword": "space universe",
+    "changed": false
+  },
+  {
+    "word": "countenance",
+    "imageKeyword": "smiling face",
+    "changed": false
+  },
+  {
+    "word": "cranny",
+    "imageKeyword": "wall crack",
+    "changed": false
+  },
+  {
+    "word": "cringe",
+    "imageKeyword": "embarrassed person",
+    "changed": false
+  },
+  {
+    "word": "crock",
+    "imageKeyword": "clay pot",
+    "changed": false
+  },
+  {
+    "word": "crone",
+    "imageKeyword": "old woman cottage",
+    "changed": false
+  },
+  {
+    "word": "crouton",
+    "imageKeyword": "salad croutons",
+    "changed": false
+  },
+  {
+    "word": "crux",
+    "imageKeyword": "important point",
+    "changed": false
+  },
+  {
+    "word": "crypt",
+    "imageKeyword": "underground crypt",
+    "changed": false
+  },
+  {
+    "word": "cuisine",
+    "imageKeyword": "japanese food",
+    "changed": false
+  },
+  {
+    "word": "cupboard",
+    "imageKeyword": "kitchen cupboard",
+    "changed": false
+  },
+  {
+    "word": "curfew",
+    "imageKeyword": "nighttime rule",
+    "changed": false
+  },
+  {
+    "word": "cursory",
+    "imageKeyword": "quick look",
+    "changed": false
+  },
+  {
+    "word": "curtsy",
+    "imageKeyword": "girl curtsy",
+    "changed": false
+  },
+  {
+    "word": "cyclone",
+    "imageKeyword": "cyclone storm",
+    "changed": false
+  },
+  {
+    "word": "dale",
+    "imageKeyword": "green valley",
+    "changed": false
+  },
+  {
+    "word": "dapper",
+    "imageKeyword": "well dressed man",
+    "changed": false
+  },
+  {
+    "word": "dapple",
+    "imageKeyword": "dappled light",
+    "changed": false
+  },
+  {
+    "word": "daze",
+    "imageKeyword": "dizzy person",
+    "changed": false
+  },
+  {
+    "word": "decanter",
+    "imageKeyword": "glass decanter",
+    "changed": false
+  },
+  {
+    "word": "decibel",
+    "imageKeyword": "loud sound",
+    "changed": false
+  },
+  {
+    "word": "deft",
+    "imageKeyword": "skillful hands",
+    "changed": false
+  },
+  {
+    "word": "dehydrate",
+    "imageKeyword": "dry cracked soil thirsty",
+    "changed": false
+  },
+  {
+    "word": "denture",
+    "imageKeyword": "false teeth",
+    "changed": false
+  },
+  {
+    "word": "devour",
+    "imageKeyword": "hungry puppy eating",
+    "changed": false
+  },
+  {
+    "word": "dime",
+    "imageKeyword": "dime coin",
+    "changed": false
+  },
+  {
+    "word": "din",
+    "imageKeyword": "loud noise",
+    "changed": false
+  },
+  {
+    "word": "dishevel",
+    "imageKeyword": "messy hair",
+    "changed": false
+  },
+  {
+    "word": "disrepute",
+    "imageKeyword": "bad review",
+    "changed": false
+  },
+  {
+    "word": "dissect",
+    "imageKeyword": "dissecting flower",
+    "changed": false
+  },
+  {
+    "word": "distraught",
+    "imageKeyword": "worried crying",
+    "changed": false
+  },
+  {
+    "word": "ditto",
+    "imageKeyword": "same again",
+    "changed": false
+  },
+  {
+    "word": "divulge",
+    "imageKeyword": "telling secret",
+    "changed": false
+  },
+  {
+    "word": "nautical",
+    "imageKeyword": "nautical ship",
+    "changed": false
+  },
+  {
+    "word": "organism",
+    "imageKeyword": "tiny living thing",
+    "changed": false
+  },
+  {
+    "word": "evaporation",
+    "imageKeyword": "puddle sun",
+    "changed": false
+  },
+  {
+    "word": "condensation",
+    "imageKeyword": "foggy glass",
+    "changed": false
+  },
+  {
+    "word": "precipitation",
+    "imageKeyword": "rain clouds",
+    "changed": false
+  },
+  {
+    "word": "atmosphere",
+    "imageKeyword": "earth atmosphere",
+    "changed": false
+  },
+  {
+    "word": "nutrient",
+    "imageKeyword": "plant roots soil",
+    "changed": false
+  },
+  {
+    "word": "photosynthesis",
+    "imageKeyword": "leaf sunlight",
+    "changed": false
+  },
+  {
+    "word": "pollination",
+    "imageKeyword": "bee flower",
+    "changed": false
+  },
+  {
+    "word": "germinate",
+    "imageKeyword": "seed sprouting",
+    "changed": false
+  },
+  {
+    "word": "larva",
+    "imageKeyword": "caterpillar",
+    "changed": false
+  },
+  {
+    "word": "metamorphosis",
+    "imageKeyword": "tadpole frog",
+    "changed": false
+  },
+  {
+    "word": "camouflage",
+    "imageKeyword": "camouflage lizard",
+    "changed": false
+  },
+  {
+    "word": "migration",
+    "imageKeyword": "geese flying",
+    "changed": false
+  },
+  {
+    "word": "hibernation",
+    "imageKeyword": "bear sleeping",
+    "changed": false
+  },
+  {
+    "word": "adaptation",
+    "imageKeyword": "camel desert",
+    "changed": false
+  },
+  {
+    "word": "ecosystem",
+    "imageKeyword": "pond ecosystem",
+    "changed": false
+  },
+  {
+    "word": "solar",
+    "imageKeyword": "solar panel sun",
+    "changed": false
+  },
+  {
+    "word": "lunar",
+    "imageKeyword": "moon eclipse",
+    "changed": false
+  },
+  {
+    "word": "friction",
+    "imageKeyword": "shoes floor",
+    "changed": false
+  },
+  {
+    "word": "electricity",
+    "imageKeyword": "light bulb",
+    "changed": false
+  },
+  {
+    "word": "circuit",
+    "imageKeyword": "electric circuit",
+    "changed": false
+  },
+  {
+    "word": "conductor",
+    "imageKeyword": "copper wire",
+    "changed": false
+  },
+  {
+    "word": "insulator",
+    "imageKeyword": "rubber gloves",
+    "changed": false
+  },
+  {
+    "word": "microscope",
+    "imageKeyword": "scientist using microscope",
+    "changed": false
+  },
+  {
+    "word": "dissolve",
+    "imageKeyword": "sugar water",
+    "changed": false
+  },
+  {
+    "word": "mass",
+    "imageKeyword": "rock feather",
+    "changed": false
+  },
+  {
+    "word": "renewable",
+    "imageKeyword": "wind turbine",
+    "changed": false
+  },
+  {
+    "word": "nonrenewable",
+    "imageKeyword": "oil well",
+    "changed": false
+  },
+  {
+    "word": "pollution",
+    "imageKeyword": "factory smoke",
+    "changed": false
+  },
+  {
+    "word": "conservation",
+    "imageKeyword": "turn off light",
+    "changed": false
+  },
+  {
+    "word": "vertebrate",
+    "imageKeyword": "dog skeleton",
+    "changed": false
+  },
+  {
+    "word": "invertebrate",
+    "imageKeyword": "jellyfish",
+    "changed": false
+  },
+  {
+    "word": "chrysalis",
+    "imageKeyword": "butterfly chrysalis on branch",
+    "changed": false
+  },
+  {
+    "word": "decompose",
+    "imageKeyword": "rotting leaves",
+    "changed": false
+  },
+  {
+    "word": "telescope",
+    "imageKeyword": "telescope moon",
+    "changed": false
+  },
+  {
+    "word": "rotation",
+    "imageKeyword": "earth spinning",
+    "changed": false
+  },
+  {
+    "word": "constellation",
+    "imageKeyword": "orion constellation",
+    "changed": false
+  },
+  {
+    "word": "volcano",
+    "imageKeyword": "volcano erupting",
+    "changed": false
+  },
+  {
+    "word": "earthquake",
+    "imageKeyword": "earthquake cracked road",
+    "changed": false
+  },
+  {
+    "word": "weathering",
+    "imageKeyword": "smooth rocks",
+    "changed": false
+  },
+  {
+    "word": "tide",
+    "imageKeyword": "high tide beach",
+    "changed": false
+  },
+  {
+    "word": "classify",
+    "imageKeyword": "animal groups",
+    "changed": false
+  },
+  {
+    "word": "cell",
+    "imageKeyword": "animal cell diagram",
+    "changed": false
+  },
+  {
+    "word": "carbon dioxide",
+    "imageKeyword": "plant breathing",
+    "changed": false
+  },
+  {
+    "word": "sediment",
+    "imageKeyword": "river sediment",
+    "changed": false
+  },
+  {
+    "word": "geography",
+    "imageKeyword": "map globe",
+    "changed": false
+  },
+  {
+    "word": "peninsula",
+    "imageKeyword": "peninsula coastline aerial",
+    "changed": false
+  },
+  {
+    "word": "urban",
+    "imageKeyword": "city skyline",
+    "changed": false
+  },
+  {
+    "word": "rural",
+    "imageKeyword": "farm countryside",
+    "changed": false
+  },
+  {
+    "word": "suburban",
+    "imageKeyword": "suburb houses",
+    "changed": false
+  },
+  {
+    "word": "civilization",
+    "imageKeyword": "pyramids",
+    "changed": false
+  },
+  {
+    "word": "artifact",
+    "imageKeyword": "old pottery",
+    "changed": false
+  },
+  {
+    "word": "agriculture",
+    "imageKeyword": "farm field",
+    "changed": false
+  },
+  {
+    "word": "industry",
+    "imageKeyword": "car factory",
+    "changed": false
+  },
+  {
+    "word": "technology",
+    "imageKeyword": "computer",
+    "changed": false
+  },
+  {
+    "word": "governor",
+    "imageKeyword": "governor speaking podium",
+    "changed": false
+  },
+  {
+    "word": "justice",
+    "imageKeyword": "scales justice",
+    "changed": false
+  },
+  {
+    "word": "monument",
+    "imageKeyword": "monument statue",
+    "changed": false
+  },
+  {
+    "word": "landmark",
+    "imageKeyword": "statue of liberty",
+    "changed": false
+  },
+  {
+    "word": "capital",
+    "imageKeyword": "capital city government",
+    "changed": false
+  },
+  {
+    "word": "timeline",
+    "imageKeyword": "history timeline chart",
+    "changed": false
+  },
+  {
+    "word": "treaty",
+    "imageKeyword": "handshake nations",
+    "changed": false
+  },
+  {
+    "word": "irrigation",
+    "imageKeyword": "irrigation field",
+    "changed": false
+  },
+  {
+    "word": "barter",
+    "imageKeyword": "trading goods",
+    "changed": false
+  },
+  {
+    "word": "goods",
+    "imageKeyword": "market goods",
+    "changed": false
+  },
+  {
+    "word": "services",
+    "imageKeyword": "doctor patient",
+    "changed": false
+  },
+  {
+    "word": "petition",
+    "imageKeyword": "signed letter",
+    "changed": false
+  },
+  {
+    "word": "numerator",
+    "imageKeyword": "fraction top",
+    "changed": false
+  },
+  {
+    "word": "denominator",
+    "imageKeyword": "fraction bottom",
+    "changed": false
+  },
+  {
+    "word": "equivalent",
+    "imageKeyword": "equal fractions",
+    "changed": false
+  },
+  {
+    "word": "multiple",
+    "imageKeyword": "skip counting",
+    "changed": false
+  },
+  {
+    "word": "perimeter",
+    "imageKeyword": "fence garden",
+    "changed": false
+  },
+  {
+    "word": "array",
+    "imageKeyword": "desk rows",
+    "changed": false
+  },
+  {
+    "word": "symmetry",
+    "imageKeyword": "butterfly symmetry",
+    "changed": false
+  },
+  {
+    "word": "parallel",
+    "imageKeyword": "parallel lines",
+    "changed": false
+  },
+  {
+    "word": "perpendicular",
+    "imageKeyword": "right angle corner",
+    "changed": false
+  },
+  {
+    "word": "vertex",
+    "imageKeyword": "triangle corners",
+    "changed": false
+  },
+  {
+    "word": "polygon",
+    "imageKeyword": "hexagon",
+    "changed": false
+  },
+  {
+    "word": "quadrilateral",
+    "imageKeyword": "four sided shapes",
+    "changed": false
+  },
+  {
+    "word": "diameter",
+    "imageKeyword": "circle diameter",
+    "changed": false
+  },
+  {
+    "word": "radius",
+    "imageKeyword": "circle radius",
+    "changed": false
+  },
+  {
+    "word": "gram",
+    "imageKeyword": "paper clip scale",
+    "changed": false
+  },
+  {
+    "word": "kilogram",
+    "imageKeyword": "sugar bag scale",
+    "changed": false
+  },
+  {
+    "word": "liter",
+    "imageKeyword": "milk bottle",
+    "changed": false
+  },
+  {
+    "word": "centimeter",
+    "imageKeyword": "ruler centimeter",
+    "changed": false
+  },
+  {
+    "word": "meter",
+    "imageKeyword": "door measurement",
+    "changed": false
+  },
+  {
+    "word": "kilometer",
+    "imageKeyword": "road distance",
+    "changed": false
+  },
+  {
+    "word": "vertical",
+    "imageKeyword": "flagpole",
+    "changed": false
+  },
+  {
+    "word": "elapsed",
+    "imageKeyword": "clock time",
+    "changed": false
+  },
+  {
+    "word": "commutative",
+    "imageKeyword": "switch numbers",
+    "changed": false
+  },
+  {
+    "word": "associative",
+    "imageKeyword": "grouping numbers",
+    "changed": false
+  },
+  {
+    "word": "distributive",
+    "imageKeyword": "break apart multiply",
+    "changed": false
+  },
+  {
+    "word": "inverse",
+    "imageKeyword": "opposite arrows",
+    "changed": false
+  },
+  {
+    "word": "variable",
+    "imageKeyword": "letter n math",
+    "changed": false
+  },
+  {
+    "word": "expression",
+    "imageKeyword": "math expression",
+    "changed": false
+  },
+  {
+    "word": "operation",
+    "imageKeyword": "plus minus signs",
+    "changed": false
+  },
+  {
+    "word": "congruent",
+    "imageKeyword": "matching triangles",
+    "changed": false
+  },
+  {
+    "word": "unit",
+    "imageKeyword": "measuring units",
+    "changed": false
+  },
+  {
+    "word": "composite",
+    "imageKeyword": "factor tree",
+    "changed": false
+  },
+  {
+    "word": "prime",
+    "imageKeyword": "prime numbers chart",
+    "changed": false
+  },
+  {
+    "word": "intersect",
+    "imageKeyword": "crossing roads",
+    "changed": false
+  },
+  {
+    "word": "probability",
+    "imageKeyword": "coin flip",
+    "changed": false
+  },
+  {
+    "word": "break the ice",
+    "imageKeyword": "icebreaker",
+    "changed": false
+  },
+  {
+    "word": "piece of cake",
+    "imageKeyword": "easy cake",
+    "changed": false
+  },
+  {
+    "word": "under the weather",
+    "imageKeyword": "sick person",
+    "changed": false
+  },
+  {
+    "word": "hit the books",
+    "imageKeyword": "studying hard",
+    "changed": false
+  },
+  {
+    "word": "on the same page",
+    "imageKeyword": "agreement",
+    "changed": false
+  },
+  {
+    "word": "cost an arm and a leg",
+    "imageKeyword": "expensive price",
+    "changed": false
+  },
+  {
+    "word": "let the cat out of the bag",
+    "imageKeyword": "secret revealed",
+    "changed": false
+  },
+  {
+    "word": "bite off more than you can chew",
+    "imageKeyword": "overwhelmed",
+    "changed": false
+  },
+  {
+    "word": "once in a blue moon",
+    "imageKeyword": "blue moon",
+    "changed": false
+  },
+  {
+    "word": "when pigs fly",
+    "imageKeyword": "flying pig",
+    "changed": false
+  },
+  {
+    "word": "spill the beans",
+    "imageKeyword": "spilling beans",
+    "changed": false
+  },
+  {
+    "word": "raining cats and dogs",
+    "imageKeyword": "heavy rain",
+    "changed": false
+  },
+  {
+    "word": "butterflies in my stomach",
+    "imageKeyword": "nervous feeling",
+    "changed": false
+  },
+  {
+    "word": "the ball is in your court",
+    "imageKeyword": "tennis court",
+    "changed": false
+  },
+  {
+    "word": "barking up the wrong tree",
+    "imageKeyword": "dog tree",
+    "changed": false
+  },
+  {
+    "word": "hold your horses",
+    "imageKeyword": "patient waiting",
+    "changed": false
+  },
+  {
+    "word": "two peas in a pod",
+    "imageKeyword": "pea pod",
+    "changed": false
+  },
+  {
+    "word": "a blessing in disguise",
+    "imageKeyword": "hidden gift",
+    "changed": false
+  },
+  {
+    "word": "get cold feet",
+    "imageKeyword": "scared diving board",
+    "changed": false
+  },
+  {
+    "word": "go the extra mile",
+    "imageKeyword": "extra effort",
+    "changed": false
+  },
+  {
+    "word": "keep an eye on",
+    "imageKeyword": "watching carefully",
+    "changed": false
+  },
+  {
+    "word": "the last straw",
+    "imageKeyword": "straw camel",
+    "changed": false
+  },
+  {
+    "word": "sit on the fence",
+    "imageKeyword": "fence undecided",
+    "changed": false
+  },
+  {
+    "word": "see eye to eye",
+    "imageKeyword": "agreement eyes",
+    "changed": false
+  },
+  {
+    "word": "back to square one",
+    "imageKeyword": "start over",
+    "changed": false
+  },
+  {
+    "word": "put all your eggs in one basket",
+    "imageKeyword": "eggs basket",
+    "changed": false
+  },
+  {
+    "word": "pull someone's leg",
+    "imageKeyword": "joking",
+    "changed": false
+  },
+  {
+    "word": "throw in the towel",
+    "imageKeyword": "giving up",
+    "changed": false
+  },
+  {
+    "word": "on cloud nine",
+    "imageKeyword": "very happy",
+    "changed": false
+  },
+  {
+    "word": "in hot water",
+    "imageKeyword": "trouble",
+    "changed": false
+  },
+  {
+    "word": "come up with",
+    "imageKeyword": "idea lightbulb",
+    "changed": false
+  },
+  {
+    "word": "turn out",
+    "imageKeyword": "surprise ending",
+    "changed": false
+  },
+  {
+    "word": "run out of",
+    "imageKeyword": "empty carton",
+    "changed": false
+  },
+  {
+    "word": "get along with",
+    "imageKeyword": "friends together",
+    "changed": false
+  },
+  {
+    "word": "carry on",
+    "imageKeyword": "keep going",
+    "changed": false
+  },
+  {
+    "word": "stand for",
+    "imageKeyword": "initials meaning",
+    "changed": false
+  },
+  {
+    "word": "take part in",
+    "imageKeyword": "participating",
+    "changed": false
+  },
+  {
+    "word": "go over",
+    "imageKeyword": "reviewing",
+    "changed": false
+  },
+  {
+    "word": "a penny for your thoughts",
+    "imageKeyword": "thinking person",
+    "changed": false
+  },
+  {
+    "word": "actions speak louder than words",
+    "imageKeyword": "helping hands",
+    "changed": false
+  },
+  {
+    "word": "every cloud has a silver lining",
+    "imageKeyword": "silver cloud",
+    "changed": false
+  },
+  {
+    "word": "kill two birds with one stone",
+    "imageKeyword": "multitasking efficiency",
+    "changed": false
+  },
+  {
+    "word": "better late than never",
+    "imageKeyword": "returning late",
+    "changed": false
+  },
+  {
+    "word": "practice makes perfect",
+    "imageKeyword": "piano practice",
+    "changed": false
+  },
+  {
+    "word": "the early bird catches the worm",
+    "imageKeyword": "early bird",
+    "changed": false
+  },
+  {
+    "word": "don't judge a book by its cover",
+    "imageKeyword": "surprise inside",
+    "changed": false
+  },
+  {
+    "word": "hit the nail on the head",
+    "imageKeyword": "bullseye",
+    "changed": false
+  },
+  {
+    "word": "a taste of your own medicine",
+    "imageKeyword": "mirror treatment",
+    "changed": false
+  },
+  {
+    "word": "burn the midnight oil",
+    "imageKeyword": "late night studying",
+    "changed": false
+  },
+  {
+    "word": "on the other hand",
+    "imageKeyword": "two sides",
+    "changed": false
+  },
+  {
+    "word": "subsequently",
+    "imageKeyword": "next step",
+    "changed": false
+  },
+  {
+    "word": "for example",
+    "imageKeyword": "lemon example",
+    "changed": false
+  },
+  {
+    "word": "to begin with",
+    "imageKeyword": "first thing",
+    "changed": false
+  },
+  {
+    "word": "above all",
+    "imageKeyword": "gold number one trophy",
+    "changed": false
+  },
+  {
+    "word": "as soon as",
+    "imageKeyword": "bell ringing",
+    "changed": false
+  },
+  {
+    "word": "rather than",
+    "imageKeyword": "choosing walk",
+    "changed": false
+  },
+  {
+    "word": "so that",
+    "imageKeyword": "alarm clock",
+    "changed": false
+  },
+  {
+    "word": "prior to",
+    "imageKeyword": "before test",
+    "changed": false
+  },
+  {
+    "word": "to summarize",
+    "imageKeyword": "summary list",
+    "changed": false
+  },
+  {
+    "word": "first of all",
+    "imageKeyword": "first step",
+    "changed": false
+  },
+  {
+    "word": "to illustrate",
+    "imageKeyword": "robin nest",
+    "changed": false
+  },
+  {
+    "word": "in brief",
+    "imageKeyword": "short version",
+    "changed": false
+  },
+  {
+    "word": "soon after",
+    "imageKeyword": "rainbow after rain",
+    "changed": false
+  },
+  {
+    "word": "not only...but also",
+    "imageKeyword": "double qualities",
+    "changed": false
+  },
+  {
+    "word": "whereas",
+    "imageKeyword": "summer winter",
+    "changed": false
+  },
+  {
+    "word": "thus",
+    "imageKeyword": "indoor result",
+    "changed": false
+  },
+  {
+    "word": "granted",
+    "imageKeyword": "admitting point",
+    "changed": false
+  },
+  {
+    "word": "to put it simply",
+    "imageKeyword": "simple explanation",
+    "changed": false
+  },
+  {
+    "word": "dodder",
+    "imageKeyword": "unsteady walk",
+    "changed": false
+  },
+  {
+    "word": "dogma",
+    "imageKeyword": "strict rules",
+    "changed": false
+  },
+  {
+    "word": "doldrums",
+    "imageKeyword": "bored child",
+    "changed": false
+  },
+  {
+    "word": "dole",
+    "imageKeyword": "handing out",
+    "changed": false
+  },
+  {
+    "word": "dolt",
+    "imageKeyword": "confused person",
+    "changed": false
+  },
+  {
+    "word": "donjon",
+    "imageKeyword": "castle tower",
+    "changed": false
+  },
+  {
+    "word": "dosage",
+    "imageKeyword": "medicine spoon",
+    "changed": false
+  },
+  {
+    "word": "dote",
+    "imageKeyword": "loving grandma",
+    "changed": false
+  },
+  {
+    "word": "dowel",
+    "imageKeyword": "wooden dowel",
+    "changed": false
+  },
+  {
+    "word": "downpour",
+    "imageKeyword": "sudden rainstorm",
+    "changed": false
+  },
+  {
+    "word": "drab",
+    "imageKeyword": "gray room",
+    "changed": false
+  },
+  {
+    "word": "dragnet",
+    "imageKeyword": "police search",
+    "changed": false
+  },
+  {
+    "word": "drape",
+    "imageKeyword": "draped blanket",
+    "changed": false
+  },
+  {
+    "word": "dreary",
+    "imageKeyword": "gray cloudy sky",
+    "changed": false
+  },
+  {
+    "word": "drench",
+    "imageKeyword": "soaking wet kids",
+    "changed": false
+  },
+  {
+    "word": "drizzle",
+    "imageKeyword": "light rain",
+    "changed": false
+  },
+  {
+    "word": "drone",
+    "imageKeyword": "flying drone",
+    "changed": false
+  },
+  {
+    "word": "droop",
+    "imageKeyword": "wilting flowers",
+    "changed": false
+  },
+  {
+    "word": "dub",
+    "imageKeyword": "giving nickname",
+    "changed": false
+  },
+  {
+    "word": "dugout",
+    "imageKeyword": "baseball dugout",
+    "changed": false
+  },
+  {
+    "word": "dungeon",
+    "imageKeyword": "dark dungeon",
+    "changed": false
+  },
+  {
+    "word": "dye",
+    "imageKeyword": "dyed eggs",
+    "changed": false
+  },
+  {
+    "word": "dike",
+    "imageKeyword": "river wall",
+    "changed": false
+  },
+  {
+    "word": "earmark",
+    "imageKeyword": "saving money",
+    "changed": false
+  },
+  {
+    "word": "earthy",
+    "imageKeyword": "forest soil",
+    "changed": false
+  },
+  {
+    "word": "eave",
+    "imageKeyword": "roof edge",
+    "changed": false
+  },
+  {
+    "word": "ebony",
+    "imageKeyword": "black piano keys",
+    "changed": false
+  },
+  {
+    "word": "effervescent",
+    "imageKeyword": "fizzy soda",
+    "changed": false
+  },
+  {
+    "word": "effigy",
+    "imageKeyword": "stone statue",
+    "changed": false
+  },
+  {
+    "word": "egress",
+    "imageKeyword": "exit door",
+    "changed": false
+  },
+  {
+    "word": "elapse",
+    "imageKeyword": "passing time",
+    "changed": false
+  },
+  {
+    "word": "elate",
+    "imageKeyword": "celebrating win",
+    "changed": false
+  },
+  {
+    "word": "elf",
+    "imageKeyword": "fairy tale elf",
+    "changed": false
+  },
+  {
+    "word": "elocution",
+    "imageKeyword": "public speaking",
+    "changed": false
+  },
+  {
+    "word": "elongate",
+    "imageKeyword": "stretching taffy",
+    "changed": false
+  },
+  {
+    "word": "elude",
+    "imageKeyword": "fox escaping",
+    "changed": false
+  },
+  {
+    "word": "emboss",
+    "imageKeyword": "raised letters",
+    "changed": false
+  },
+  {
+    "word": "emporium",
+    "imageKeyword": "big toy store",
+    "changed": false
+  },
+  {
+    "word": "enamel",
+    "imageKeyword": "tooth enamel",
+    "changed": false
+  },
+  {
+    "word": "encore",
+    "imageKeyword": "audience cheering",
+    "changed": false
+  },
+  {
+    "word": "encrust",
+    "imageKeyword": "encrusted ship",
+    "changed": false
+  },
+  {
+    "word": "encyclopedia",
+    "imageKeyword": "encyclopedia books",
+    "changed": false
+  },
+  {
+    "word": "engross",
+    "imageKeyword": "reading deeply",
+    "changed": false
+  },
+  {
+    "word": "enshroud",
+    "imageKeyword": "foggy valley",
+    "changed": false
+  },
+  {
+    "word": "enthrall",
+    "imageKeyword": "captivated children",
+    "changed": false
+  },
+  {
+    "word": "entreat",
+    "imageKeyword": "pleading person",
+    "changed": false
+  },
+  {
+    "word": "epic",
+    "imageKeyword": "epic adventure",
+    "changed": false
+  },
+  {
+    "word": "errand",
+    "imageKeyword": "shopping errand",
+    "changed": false
+  },
+  {
+    "word": "errant",
+    "imageKeyword": "stray ball",
+    "changed": false
+  },
+  {
+    "word": "escarpment",
+    "imageKeyword": "steep cliff",
+    "changed": false
+  },
+  {
+    "word": "ethereal",
+    "imageKeyword": "dreamy floating dancer",
+    "changed": false
+  },
+  {
+    "word": "evergreen",
+    "imageKeyword": "evergreen forest",
+    "changed": false
+  },
+  {
+    "word": "expanse",
+    "imageKeyword": "vast field",
+    "changed": false
+  },
+  {
+    "word": "expat",
+    "imageKeyword": "living abroad",
+    "changed": false
+  },
+  {
+    "word": "expel",
+    "imageKeyword": "whale spout blowhole",
+    "changed": false
+  },
+  {
+    "word": "eyelet",
+    "imageKeyword": "shoe eyelet",
+    "changed": false
+  },
+  {
+    "word": "facet",
+    "imageKeyword": "diamond facet",
+    "changed": false
+  },
+  {
+    "word": "fallow",
+    "imageKeyword": "empty field",
+    "changed": false
+  },
+  {
+    "word": "falter",
+    "imageKeyword": "shaky voice",
+    "changed": false
+  },
+  {
+    "word": "fanfare",
+    "imageKeyword": "trumpet fanfare",
+    "changed": false
+  },
+  {
+    "word": "farce",
+    "imageKeyword": "funny play",
+    "changed": false
+  },
+  {
+    "word": "feign",
+    "imageKeyword": "pretending surprise",
+    "changed": false
+  },
+  {
+    "word": "festoon",
+    "imageKeyword": "decorated room",
+    "changed": false
+  },
+  {
+    "word": "fidget",
+    "imageKeyword": "restless child",
+    "changed": false
+  },
+  {
+    "word": "fiesta",
+    "imageKeyword": "festival party",
+    "changed": false
+  },
+  {
+    "word": "figment",
+    "imageKeyword": "imaginary monster",
+    "changed": false
+  },
+  {
+    "word": "filly",
+    "imageKeyword": "young horse",
+    "changed": false
+  },
+  {
+    "word": "finale",
+    "imageKeyword": "fireworks finale",
+    "changed": false
+  },
+  {
+    "word": "finesse",
+    "imageKeyword": "skillful chef",
+    "changed": false
+  },
+  {
+    "word": "flair",
+    "imageKeyword": "stylish design",
+    "changed": false
+  },
+  {
+    "word": "flak",
+    "imageKeyword": "criticism anger",
+    "changed": false
+  },
+  {
+    "word": "flank",
+    "imageKeyword": "mountainside deer",
+    "changed": false
+  },
+  {
+    "word": "flaw",
+    "imageKeyword": "small crack",
+    "changed": false
+  },
+  {
+    "word": "fleece",
+    "imageKeyword": "sheep wool",
+    "changed": false
+  },
+  {
+    "word": "flicker",
+    "imageKeyword": "flickering candle",
+    "changed": false
+  },
+  {
+    "word": "flinch",
+    "imageKeyword": "dodging ball",
+    "changed": false
+  },
+  {
+    "word": "flotsam",
+    "imageKeyword": "beach debris",
+    "changed": false
+  },
+  {
+    "word": "flounce",
+    "imageKeyword": "stomping away",
+    "changed": false
+  },
+  {
+    "word": "flout",
+    "imageKeyword": "speeding car",
+    "changed": false
+  },
+  {
+    "word": "flue",
+    "imageKeyword": "chimney flue",
+    "changed": false
+  },
+  {
+    "word": "fluent",
+    "imageKeyword": "speaking fluently",
+    "changed": false
+  },
+  {
+    "word": "flurry",
+    "imageKeyword": "snow flurry",
+    "changed": false
+  },
+  {
+    "word": "foothold",
+    "imageKeyword": "climbing foothold",
+    "changed": false
+  },
+  {
+    "word": "foray",
+    "imageKeyword": "first attempt",
+    "changed": false
+  },
+  {
+    "word": "ford",
+    "imageKeyword": "river crossing",
+    "changed": false
+  },
+  {
+    "word": "forlorn",
+    "imageKeyword": "sad puppy",
+    "changed": false
+  },
+  {
+    "word": "forsake",
+    "imageKeyword": "never giving up",
+    "changed": false
+  },
+  {
+    "word": "fort",
+    "imageKeyword": "blanket fort",
+    "changed": false
+  },
+  {
+    "word": "forte",
+    "imageKeyword": "talented singer",
+    "changed": false
+  },
+  {
+    "word": "fortress",
+    "imageKeyword": "stone fortress",
+    "changed": false
+  },
+  {
+    "word": "fowl",
+    "imageKeyword": "farm chickens",
+    "changed": false
+  },
+  {
+    "word": "foyer",
+    "imageKeyword": "theater entrance",
+    "changed": false
+  },
+  {
+    "word": "frantic",
+    "imageKeyword": "panicked search",
+    "changed": false
+  },
+  {
+    "word": "frigate",
+    "imageKeyword": "warship frigate",
+    "changed": false
+  },
+  {
+    "word": "fringe",
+    "imageKeyword": "fringed lampshade",
+    "changed": false
+  },
+  {
+    "word": "frolic",
+    "imageKeyword": "puppies playing",
+    "changed": false
+  },
+  {
+    "word": "froth",
+    "imageKeyword": "bubbly foam",
+    "changed": false
+  },
+  {
+    "word": "fulcrum",
+    "imageKeyword": "lever fulcrum",
+    "changed": false
+  },
+  {
+    "word": "foresee",
+    "imageKeyword": "crystal ball prediction",
+    "changed": false
+  },
+  {
+    "word": "fumigate",
+    "imageKeyword": "pest control",
+    "changed": false
+  },
+  {
+    "word": "furlong",
+    "imageKeyword": "horse race",
+    "changed": false
+  },
+  {
+    "word": "furor",
+    "imageKeyword": "excited crowd",
+    "changed": false
+  },
+  {
+    "word": "gable",
+    "imageKeyword": "house gable",
+    "changed": false
+  },
+  {
+    "word": "gadget",
+    "imageKeyword": "small tool",
+    "changed": false
+  },
+  {
+    "word": "gaffe",
+    "imageKeyword": "embarrassing mistake",
+    "changed": false
+  },
+  {
+    "word": "gait",
+    "imageKeyword": "horse walking",
+    "changed": false
+  },
+  {
+    "word": "gallop",
+    "imageKeyword": "horse galloping",
+    "changed": false
+  },
+  {
+    "word": "gambit",
+    "imageKeyword": "clever plan",
+    "changed": false
+  },
+  {
+    "word": "gambol",
+    "imageKeyword": "lambs jumping",
+    "changed": false
+  },
+  {
+    "word": "garb",
+    "imageKeyword": "costume clothing",
+    "changed": false
+  },
+  {
+    "word": "garland",
+    "imageKeyword": "flower garland",
+    "changed": false
+  },
+  {
+    "word": "garner",
+    "imageKeyword": "earning praise",
+    "changed": false
+  },
+  {
+    "word": "gem",
+    "imageKeyword": "precious gem",
+    "changed": false
+  },
+  {
+    "word": "genteel",
+    "imageKeyword": "polite manners",
+    "changed": false
+  },
+  {
+    "word": "ghastly",
+    "imageKeyword": "scary mask",
+    "changed": false
+  },
+  {
+    "word": "giddy",
+    "imageKeyword": "excited children",
+    "changed": false
+  },
+  {
+    "word": "girdle",
+    "imageKeyword": "leather waist belt",
+    "changed": false
+  },
+  {
+    "word": "glade",
+    "imageKeyword": "forest clearing",
+    "changed": false
+  },
+  {
+    "word": "glaze",
+    "imageKeyword": "glazed donuts",
+    "changed": false
+  },
+  {
+    "word": "gleam",
+    "imageKeyword": "lighthouse gleam",
+    "changed": false
+  },
+  {
+    "word": "glen",
+    "imageKeyword": "valley stream",
+    "changed": false
+  },
+  {
+    "word": "glimmer",
+    "imageKeyword": "moonlight glow",
+    "changed": false
+  },
+  {
+    "word": "glint",
+    "imageKeyword": "light flash",
+    "changed": false
+  },
+  {
+    "word": "glitch",
+    "imageKeyword": "computer error",
+    "changed": false
+  },
+  {
+    "word": "gloat",
+    "imageKeyword": "smug winner",
+    "changed": false
+  },
+  {
+    "word": "glut",
+    "imageKeyword": "too many tomatoes",
+    "changed": false
+  },
+  {
+    "word": "gnaw",
+    "imageKeyword": "puppy chewing",
+    "changed": false
+  },
+  {
+    "word": "goblet",
+    "imageKeyword": "golden goblet",
+    "changed": false
+  },
+  {
+    "word": "gouge",
+    "imageKeyword": "deep scratch",
+    "changed": false
+  },
+  {
+    "word": "graft",
+    "imageKeyword": "plant grafting",
+    "changed": false
+  },
+  {
+    "word": "graze",
+    "imageKeyword": "cows grazing",
+    "changed": false
+  },
+  {
+    "word": "greenery",
+    "imageKeyword": "green plants",
+    "changed": false
+  },
+  {
+    "word": "gregarious",
+    "imageKeyword": "social person",
+    "changed": false
+  },
+  {
+    "word": "grid",
+    "imageKeyword": "grid paper",
+    "changed": false
+  },
+  {
+    "word": "grimace",
+    "imageKeyword": "sour face",
+    "changed": false
+  },
+  {
+    "word": "grindstone",
+    "imageKeyword": "grinding wheel",
+    "changed": false
+  },
+  {
+    "word": "grit",
+    "imageKeyword": "determined runner",
+    "changed": false
+  },
+  {
+    "word": "grotto",
+    "imageKeyword": "sea cave",
+    "changed": false
+  },
+  {
+    "word": "grovel",
+    "imageKeyword": "kneeling begging",
+    "changed": false
+  },
+  {
+    "word": "grueling",
+    "imageKeyword": "exhausting hike",
+    "changed": false
+  },
+  {
+    "word": "grumble",
+    "imageKeyword": "complaining",
+    "changed": false
+  },
+  {
+    "word": "gulp",
+    "imageKeyword": "drinking fast",
+    "changed": false
+  },
+  {
+    "word": "hackneyed",
+    "imageKeyword": "overused words",
+    "changed": false
+  },
+  {
+    "word": "hallow",
+    "imageKeyword": "sacred ground",
+    "changed": false
+  },
+  {
+    "word": "hamlet",
+    "imageKeyword": "small village",
+    "changed": false
+  },
+  {
+    "word": "advance",
+    "imageKeyword": "chess forward",
+    "changed": false
+  },
+  {
+    "word": "affordable",
+    "imageKeyword": "cheap lemonade",
+    "changed": false
+  },
+  {
+    "word": "analyze",
+    "imageKeyword": "magnifying insect",
+    "changed": false
+  },
+  {
+    "word": "apply",
+    "imageKeyword": "applying sunscreen",
+    "changed": false
+  },
+  {
+    "word": "burden",
+    "imageKeyword": "heavy books",
+    "changed": false
+  },
+  {
+    "word": "cancel",
+    "imageKeyword": "canceled game",
+    "changed": false
+  },
+  {
+    "word": "device",
+    "imageKeyword": "thermometer device",
+    "changed": false
+  },
+  {
+    "word": "elect",
+    "imageKeyword": "voting election",
+    "changed": false
+  },
+  {
+    "word": "emphasize",
+    "imageKeyword": "underlining word",
+    "changed": false
+  },
+  {
+    "word": "exclaim",
+    "imageKeyword": "excited pointing",
+    "changed": false
+  },
+  {
+    "word": "frustrate",
+    "imageKeyword": "frustrated puzzle",
+    "changed": false
+  },
+  {
+    "word": "glimpse",
+    "imageKeyword": "quick fox",
+    "changed": false
+  },
+  {
+    "word": "govern",
+    "imageKeyword": "student council",
+    "changed": false
+  },
+  {
+    "word": "idle",
+    "imageKeyword": "empty swing",
+    "changed": false
+  },
+  {
+    "word": "invest",
+    "imageKeyword": "investing money",
+    "changed": false
+  },
+  {
+    "word": "manner",
+    "imageKeyword": "polite behavior",
+    "changed": false
+  },
+  {
+    "word": "negative",
+    "imageKeyword": "below zero",
+    "changed": false
+  },
+  {
+    "word": "outcome",
+    "imageKeyword": "experiment result",
+    "changed": false
+  },
+  {
+    "word": "regulate",
+    "imageKeyword": "thermostat control",
+    "changed": false
+  },
+  {
+    "word": "rhythm",
+    "imageKeyword": "drum rhythm",
+    "changed": false
+  },
+  {
+    "word": "risk",
+    "imageKeyword": "beehive risk",
+    "changed": false
+  },
+  {
+    "word": "tension",
+    "imageKeyword": "nervous waiting",
+    "changed": false
+  },
+  {
+    "word": "typical",
+    "imageKeyword": "typical school day schedule",
+    "changed": false
+  },
+  {
+    "word": "basement",
+    "imageKeyword": "house basement",
+    "changed": false
+  },
+  {
+    "word": "blade",
+    "imageKeyword": "grass blade",
+    "changed": false
+  },
+  {
+    "word": "canyon",
+    "imageKeyword": "grand canyon",
+    "changed": false
+  },
+  {
+    "word": "chimney",
+    "imageKeyword": "smoking chimney",
+    "changed": false
+  },
+  {
+    "word": "chunk",
+    "imageKeyword": "watermelon chunk",
+    "changed": false
+  },
+  {
+    "word": "creek",
+    "imageKeyword": "small creek",
+    "changed": false
+  },
+  {
+    "word": "crisp",
+    "imageKeyword": "crunchy leaves",
+    "changed": false
+  },
+  {
+    "word": "flask",
+    "imageKeyword": "science flask",
+    "changed": false
+  },
+  {
+    "word": "foil",
+    "imageKeyword": "aluminum foil",
+    "changed": false
+  },
+  {
+    "word": "gasp",
+    "imageKeyword": "surprised gasp",
+    "changed": false
+  },
+  {
+    "word": "glare",
+    "imageKeyword": "snow glare",
+    "changed": false
+  },
+  {
+    "word": "glow",
+    "imageKeyword": "glowing pumpkin",
+    "changed": false
+  },
+  {
+    "word": "hatch",
+    "imageKeyword": "chick hatching",
+    "changed": false
+  },
+  {
+    "word": "hose",
+    "imageKeyword": "garden hose",
+    "changed": false
+  },
+  {
+    "word": "inn",
+    "imageKeyword": "country inn",
+    "changed": false
+  },
+  {
+    "word": "jolt",
+    "imageKeyword": "sudden bump",
+    "changed": false
+  },
+  {
+    "word": "ledge",
+    "imageKeyword": "window ledge",
+    "changed": false
+  },
+  {
+    "word": "lumber",
+    "imageKeyword": "wood lumber",
+    "changed": false
+  },
+  {
+    "word": "mend",
+    "imageKeyword": "sewing fix",
+    "changed": false
+  },
+  {
+    "word": "quarry",
+    "imageKeyword": "stone quarry",
+    "changed": false
+  }
+]

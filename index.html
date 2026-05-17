@@ -112,9 +112,14 @@ textarea:focus{border-color:rgba(0,122,255,0.4);outline:none}
 <button class="level-pill" onclick="selectLevel(4)">Lv.4</button>
 <button class="level-pill" onclick="selectLevel(5)">Lv.5</button>
 </div>
-<button class="play-btn" onclick="quickPlay()">PLAY</button>
-<button class="play-btn" style="background:linear-gradient(135deg,#FF3B30,#FF9500);margin-top:8px;font-size:16px" onclick="startBossBattle()">⚔️ BOSS BATTLE</button>
-<button class="play-btn" style="background:linear-gradient(135deg,#5856D6,#AF52DE);margin-top:8px;font-size:16px" onclick="startSurvival()">💀 SURVIVAL</button>
+<div class="card" style="padding:16px;margin:12px 0;background:linear-gradient(135deg,rgba(52,199,89,0.06),rgba(0,122,255,0.06));border:1px solid rgba(52,199,89,0.15)">
+<div style="text-align:center;font-weight:800;font-size:14px;color:var(--dim);margin-bottom:12px;letter-spacing:1px">🎮 PLAY</div>
+<button class="play-btn" style="margin:0" onclick="quickPlay()">▶️ QUICK PLAY</button>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px">
+<button class="play-btn" style="background:linear-gradient(135deg,#FF3B30,#FF9500);margin:0;font-size:14px;padding:14px 8px" onclick="startBossBattle()">⚔️ BOSS</button>
+<button class="play-btn" style="background:linear-gradient(135deg,#5856D6,#AF52DE);margin:0;font-size:14px;padding:14px 8px" onclick="startSurvival()">💀 SURVIVAL</button>
+</div>
+</div>
 <button class="learn-btn" onclick="startLearn()">📖 LEARN</button>
 <button class="learn-btn" style="background:linear-gradient(135deg,#FF6B6B,#FF3B30);margin-top:8px" onclick="showScreen('watchlistScreen')">📝 WRONG WORDS <span class="watchlist-count" id="wlCountHome">0</span></button>
 <div class="home-stats" id="homeStats">0 mastered · 0 to practice</div>

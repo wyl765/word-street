@@ -1,0 +1,3002 @@
+[
+  {
+    "word": "devote",
+    "imageKeyword": "devote focus",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "diminish",
+    "imageKeyword": "diminish smaller",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dispose",
+    "imageKeyword": "dispose trash",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "distort",
+    "imageKeyword": "distort mirror",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "diverse",
+    "imageKeyword": "diverse variety",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "domain",
+    "imageKeyword": "domain area",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dominate",
+    "imageKeyword": "dominate tower",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "draft",
+    "imageKeyword": "draft writing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "duration",
+    "imageKeyword": "duration time",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "empirical",
+    "imageKeyword": "empirical experiment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "enforce",
+    "imageKeyword": "enforce rule",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "entity",
+    "imageKeyword": "entity thing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "equate",
+    "imageKeyword": "equate equal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "erode",
+    "imageKeyword": "erode cliff",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "exceed",
+    "imageKeyword": "exceed beyond",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "explicit",
+    "imageKeyword": "explicit clear",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "extract",
+    "imageKeyword": "extract pull",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "facilitate",
+    "imageKeyword": "facilitate help",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "finite",
+    "imageKeyword": "finite limited",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fluctuate",
+    "imageKeyword": "fluctuate change",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "format",
+    "imageKeyword": "format layout",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "formula",
+    "imageKeyword": "formula math",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "foundation",
+    "imageKeyword": "foundation base",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "framework",
+    "imageKeyword": "framework structure",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "furthermore",
+    "imageKeyword": "furthermore also",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "generate",
+    "imageKeyword": "generate create",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "guideline",
+    "imageKeyword": "guideline rules",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hence",
+    "imageKeyword": "hence therefore",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hierarchy",
+    "imageKeyword": "hierarchy pyramid",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hypothesis",
+    "imageKeyword": "hypothesis science",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "identical",
+    "imageKeyword": "identical same",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ideology",
+    "imageKeyword": "ideology beliefs",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "implication",
+    "imageKeyword": "implication hint",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "impose",
+    "imageKeyword": "impose force",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "incentive",
+    "imageKeyword": "incentive reward",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "incorporate",
+    "imageKeyword": "incorporate include",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "index",
+    "imageKeyword": "index book",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "induce",
+    "imageKeyword": "induce cause",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inherent",
+    "imageKeyword": "inherent natural",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inhibit",
+    "imageKeyword": "inhibit block",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "initiate",
+    "imageKeyword": "initiate start",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "innovation",
+    "imageKeyword": "innovation invention",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "insert",
+    "imageKeyword": "insert coin",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "integral",
+    "imageKeyword": "integral important",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "intervene",
+    "imageKeyword": "intervene help",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "invoke",
+    "imageKeyword": "invoke call",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "isolate",
+    "imageKeyword": "isolate separate",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "levy",
+    "imageKeyword": "levy tax",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "liberal",
+    "imageKeyword": "liberal generous",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "likewise",
+    "imageKeyword": "likewise same",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "magnitude",
+    "imageKeyword": "magnitude size",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "manifest",
+    "imageKeyword": "manifest show",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "moral",
+    "imageKeyword": "lesson learned",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fable",
+    "imageKeyword": "animal story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "folktale",
+    "imageKeyword": "old story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "myth",
+    "imageKeyword": "ancient story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rhyme",
+    "imageKeyword": "matching sounds",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stanza",
+    "imageKeyword": "poem section",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "verse",
+    "imageKeyword": "song line",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "syllable",
+    "imageKeyword": "word parts",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vowel",
+    "imageKeyword": "vowel letters alphabet",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consonant",
+    "imageKeyword": "alphabet letter",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prefix",
+    "imageKeyword": "word beginning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "suffix",
+    "imageKeyword": "word ending",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "synonym",
+    "imageKeyword": "same meaning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "antonym",
+    "imageKeyword": "opposite meaning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "homophone",
+    "imageKeyword": "same sound",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dialogue",
+    "imageKeyword": "speech bubbles",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "narrator",
+    "imageKeyword": "storyteller",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "scene",
+    "imageKeyword": "story scene play",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conflict",
+    "imageKeyword": "conflict struggle fight",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "resolution",
+    "imageKeyword": "story resolution happy ending",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "end",
+    "imageKeyword": "story end last page",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "retell",
+    "imageKeyword": "tell again",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "infer",
+    "imageKeyword": "figure out",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conclude",
+    "imageKeyword": "decide",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "theme",
+    "imageKeyword": "book theme illustration",
+    "changed": true,
+    "reason": "'big idea' too vague"
+  },
+  {
+    "word": "genre",
+    "imageKeyword": "book type",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "biography",
+    "imageKeyword": "life story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "autobiography",
+    "imageKeyword": "self story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "caption",
+    "imageKeyword": "photo words",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "glossary",
+    "imageKeyword": "glossary word list book",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "amphibian",
+    "imageKeyword": "amphibian frog water land",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "carbon",
+    "imageKeyword": "charcoal carbon",
+    "changed": true,
+    "reason": "'carbon atom diagram' returns diagrams"
+  },
+  {
+    "word": "dinosaur",
+    "imageKeyword": "dinosaur",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "skeleton",
+    "imageKeyword": "bones",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "brain",
+    "imageKeyword": "brain",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lung",
+    "imageKeyword": "lungs",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "heart",
+    "imageKeyword": "heart organ",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stomach",
+    "imageKeyword": "stomach",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "diet",
+    "imageKeyword": "healthy food",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nutrition",
+    "imageKeyword": "healthy eating",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vitamin",
+    "imageKeyword": "vitamin pill",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "protein",
+    "imageKeyword": "meat eggs",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fiber",
+    "imageKeyword": "whole grain",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hygiene",
+    "imageKeyword": "hand washing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "germ",
+    "imageKeyword": "germs",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bacteria",
+    "imageKeyword": "bacteria tiny germs",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "virus",
+    "imageKeyword": "virus germ spreading",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vaccine",
+    "imageKeyword": "doctor giving vaccine",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "disease",
+    "imageKeyword": "sickness",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "symptom",
+    "imageKeyword": "sick symptom sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "medicine",
+    "imageKeyword": "medicine bottle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "organ",
+    "imageKeyword": "body organ",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tissue",
+    "imageKeyword": "body cells",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bone",
+    "imageKeyword": "bone",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "joint",
+    "imageKeyword": "body joint bending",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nerve",
+    "imageKeyword": "nerve",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "blood",
+    "imageKeyword": "red cells body",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "artery",
+    "imageKeyword": "human artery",
+    "changed": true,
+    "reason": "'heart artery diagram' returns diagrams"
+  },
+  {
+    "word": "vein",
+    "imageKeyword": "vein",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pulse",
+    "imageKeyword": "heartbeat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "breath",
+    "imageKeyword": "visible breath cold",
+    "changed": true,
+    "reason": "'breathing' alone is vague"
+  },
+  {
+    "word": "digest",
+    "imageKeyword": "stomach digesting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "trait",
+    "imageKeyword": "eye color",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "congress",
+    "imageKeyword": "congress building",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rights",
+    "imageKeyword": "bill of rights",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tax",
+    "imageKeyword": "money government",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "budget",
+    "imageKeyword": "money plan",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "economy",
+    "imageKeyword": "money work",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "import",
+    "imageKeyword": "ship arriving",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "export",
+    "imageKeyword": "ship leaving",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "invention",
+    "imageKeyword": "light bulb",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "explorer",
+    "imageKeyword": "explorer map",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "settler",
+    "imageKeyword": "settler new land",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "colony",
+    "imageKeyword": "colonial town",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "revolution",
+    "imageKeyword": "revolution flag",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "independence",
+    "imageKeyword": "independence free country",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "amendment",
+    "imageKeyword": "document change",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "slavery",
+    "imageKeyword": "slavery chains",
+    "changed": true,
+    "reason": "'freedom symbol broken chains icon' too long and returns icons"
+  },
+  {
+    "word": "equality",
+    "imageKeyword": "equal balance scale",
+    "changed": true,
+    "reason": "Abstract - needs concrete visual"
+  },
+  {
+    "word": "protest",
+    "imageKeyword": "signs march",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "boycott",
+    "imageKeyword": "stop sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "civil",
+    "imageKeyword": "people together",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "democracy",
+    "imageKeyword": "voting hands",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "republic",
+    "imageKeyword": "elected leaders",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nation",
+    "imageKeyword": "country",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hemisphere",
+    "imageKeyword": "half globe",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "equator",
+    "imageKeyword": "globe line",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "latitude",
+    "imageKeyword": "map lines",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "longitude",
+    "imageKeyword": "vertical map lines",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compass",
+    "imageKeyword": "compass needle pointing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "resource",
+    "imageKeyword": "natural resource",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "heritage",
+    "imageKeyword": "family tradition",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fraction",
+    "imageKeyword": "pie slice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "decimal",
+    "imageKeyword": "decimal point",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "percent",
+    "imageKeyword": "percent sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "estimate",
+    "imageKeyword": "guess",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "equation",
+    "imageKeyword": "math sentence",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "addition",
+    "imageKeyword": "plus sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "difference",
+    "imageKeyword": "subtraction",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "product",
+    "imageKeyword": "multiply answer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "quotient",
+    "imageKeyword": "divide answer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "remainder",
+    "imageKeyword": "leftover",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "digit",
+    "imageKeyword": "numbers",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "place value",
+    "imageKeyword": "number chart",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "regroup",
+    "imageKeyword": "regrouping math blocks",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "carry",
+    "imageKeyword": "addition carry",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "column",
+    "imageKeyword": "vertical line",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "row",
+    "imageKeyword": "horizontal line",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "table",
+    "imageKeyword": "data table rows columns",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tally",
+    "imageKeyword": "tally marks",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "survey",
+    "imageKeyword": "survey asking questions",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "greatest",
+    "imageKeyword": "biggest",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "even",
+    "imageKeyword": "even number",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "adventurous",
+    "imageKeyword": "adventurous brave explorer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ambitious",
+    "imageKeyword": "kid reaching for trophy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compassionate",
+    "imageKeyword": "helping",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "confident",
+    "imageKeyword": "confident pose",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "considerate",
+    "imageKeyword": "quiet care",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cooperative",
+    "imageKeyword": "group project",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "creative",
+    "imageKeyword": "art painting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "demanding",
+    "imageKeyword": "wanting more",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dependable",
+    "imageKeyword": "dependable always there",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "devoted",
+    "imageKeyword": "loving care",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "energetic",
+    "imageKeyword": "energetic child running fast",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "enthusiastic",
+    "imageKeyword": "excited",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fearless",
+    "imageKeyword": "brave",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "forgiving",
+    "imageKeyword": "friends making up handshake",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "friendly",
+    "imageKeyword": "waving hello",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "guilty",
+    "imageKeyword": "sorry feeling",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "impatient",
+    "imageKeyword": "tapping foot",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "independent",
+    "imageKeyword": "doing alone",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "joyful",
+    "imageKeyword": "happy child jumping",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mean",
+    "imageKeyword": "mean unkind bully",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mischievous",
+    "imageKeyword": "playful trouble",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "modest",
+    "imageKeyword": "quiet pride",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "optimistic",
+    "imageKeyword": "sunny outlook",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pessimistic",
+    "imageKeyword": "rain cloud",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "respectful",
+    "imageKeyword": "polite",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "responsible",
+    "imageKeyword": "responsible taking care",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bring up",
+    "imageKeyword": "bring up talking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "catch up",
+    "imageKeyword": "catching up running",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "check out",
+    "imageKeyword": "looking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "come along",
+    "imageKeyword": "walking together",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cut off",
+    "imageKeyword": "cutting paper with scissors",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "drop off",
+    "imageKeyword": "mailman delivering package door",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "end up",
+    "imageKeyword": "end up arriving finally",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fall apart",
+    "imageKeyword": "breaking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "get along",
+    "imageKeyword": "kids playing together",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "get over",
+    "imageKeyword": "feeling better",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "get rid of",
+    "imageKeyword": "throwing away",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "go ahead",
+    "imageKeyword": "green light go",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "go through",
+    "imageKeyword": "go through hard time",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "grow up",
+    "imageKeyword": "child adult",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hand in",
+    "imageKeyword": "submitting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hang out",
+    "imageKeyword": "friends relaxing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "keep up",
+    "imageKeyword": "same pace",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "knock down",
+    "imageKeyword": "knock down falling",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "leave out",
+    "imageKeyword": "missing piece",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "let down",
+    "imageKeyword": "disappointed",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "line up",
+    "imageKeyword": "line up waiting row",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "look after",
+    "imageKeyword": "look after taking care",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "look into",
+    "imageKeyword": "look into searching clues",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "look up",
+    "imageKeyword": "flashlight searching dark room",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "make sure",
+    "imageKeyword": "checking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mix up",
+    "imageKeyword": "confused child",
+    "changed": true,
+    "reason": "Question marks return illustrations"
+  },
+  {
+    "word": "move on",
+    "imageKeyword": "person walking forward",
+    "changed": true,
+    "reason": "'arrow pointing forward' returns diagrams"
+  },
+  {
+    "word": "pass out",
+    "imageKeyword": "handing out flyers",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "pay attention",
+    "imageKeyword": "listening",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pick out",
+    "imageKeyword": "pick out choosing one",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pull over",
+    "imageKeyword": "car stopping",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "put away",
+    "imageKeyword": "putting toys in bin",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "put off",
+    "imageKeyword": "put off waiting later",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "put together",
+    "imageKeyword": "put together building pieces",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "run into",
+    "imageKeyword": "surprise meeting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "shut down",
+    "imageKeyword": "shut down turning off",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sign up",
+    "imageKeyword": "signing up sheet",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "slow down",
+    "imageKeyword": "slower",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sort out",
+    "imageKeyword": "sorting toys into boxes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "speak up",
+    "imageKeyword": "louder voice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stand out",
+    "imageKeyword": "noticeable",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stay up",
+    "imageKeyword": "awake night",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "take apart",
+    "imageKeyword": "take apart pieces separated",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "take away",
+    "imageKeyword": "take away removing gone",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "take off",
+    "imageKeyword": "removing shoes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "take over",
+    "imageKeyword": "new leader taking charge",
+    "changed": true,
+    "reason": "Shortened but still descriptive"
+  },
+  {
+    "word": "think over",
+    "imageKeyword": "think over deciding carefully",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "turn down",
+    "imageKeyword": "volume down",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "use up",
+    "imageKeyword": "empty container used",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "watch out",
+    "imageKeyword": "watch out danger careful",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "wear out",
+    "imageKeyword": "old shoes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "work out",
+    "imageKeyword": "work out solved figured",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "wrap up",
+    "imageKeyword": "finishing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "back and forth",
+    "imageKeyword": "back and forth swinging",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bit by bit",
+    "imageKeyword": "step by step",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "day by day",
+    "imageKeyword": "daily growth progress",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "from now on",
+    "imageKeyword": "starting today",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "in the meantime",
+    "imageKeyword": "while waiting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "once upon a time",
+    "imageKeyword": "fairy tale",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "moreover",
+    "imageKeyword": "in addition",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nevertheless",
+    "imageKeyword": "still",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nonetheless",
+    "imageKeyword": "kept going despite obstacle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "accordingly",
+    "imageKeyword": "accordingly matching fitting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "additionally",
+    "imageKeyword": "stacking blocks",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "after all",
+    "imageKeyword": "after all everything done",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "altogether",
+    "imageKeyword": "total",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "as a matter of fact",
+    "imageKeyword": "actually",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "as a result",
+    "imageKeyword": "because",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "at first",
+    "imageKeyword": "beginning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "at last",
+    "imageKeyword": "finally",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "at the same time",
+    "imageKeyword": "two things at once",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "because of",
+    "imageKeyword": "because of reason why",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "before long",
+    "imageKeyword": "soon",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "by contrast",
+    "imageKeyword": "different",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "certainly",
+    "imageKeyword": "sure",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "clearly",
+    "imageKeyword": "clearly easy see obvious",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compared to",
+    "imageKeyword": "side by side",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consequently",
+    "imageKeyword": "consequently what happened next",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "despite",
+    "imageKeyword": "even though",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "due to",
+    "imageKeyword": "reason cause",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "equally",
+    "imageKeyword": "same share",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "especially",
+    "imageKeyword": "favorite one highlighted",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "even though",
+    "imageKeyword": "rain but playing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "except",
+    "imageKeyword": "not including",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "for instance",
+    "imageKeyword": "example",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "generally",
+    "imageKeyword": "usually",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "in addition",
+    "imageKeyword": "adding more",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "in conclusion",
+    "imageKeyword": "book closing last page",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "in contrast",
+    "imageKeyword": "two different things",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "in fact",
+    "imageKeyword": "fact check stamp",
+    "changed": true,
+    "reason": "'truth' is too broad"
+  },
+  {
+    "word": "in general",
+    "imageKeyword": "crowd of people",
+    "changed": true,
+    "reason": "'most people usually' too vague"
+  },
+  {
+    "word": "in other words",
+    "imageKeyword": "rephrasing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "in particular",
+    "imageKeyword": "spotlight on one",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "in summary",
+    "imageKeyword": "wrapping up",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "in the end",
+    "imageKeyword": "final",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mainly",
+    "imageKeyword": "mostly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "namely",
+    "imageKeyword": "pointing at one item",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "notably",
+    "imageKeyword": "notably stands out important",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "on the contrary",
+    "imageKeyword": "opposite",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "on the whole",
+    "imageKeyword": "everything together",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "overall",
+    "imageKeyword": "all together",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rather",
+    "imageKeyword": "child choosing jacket",
+    "changed": true,
+    "reason": "Shortened"
+  },
+  {
+    "word": "regardless",
+    "imageKeyword": "regardless no matter what",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "similarly",
+    "imageKeyword": "similarly same way alike",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "specifically",
+    "imageKeyword": "exactly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "such as",
+    "imageKeyword": "examples",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "accessory",
+    "imageKeyword": "accessory fashion",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "accommodate",
+    "imageKeyword": "accommodate room",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "adolescent",
+    "imageKeyword": "adolescent teen",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "alternate",
+    "imageKeyword": "alternate switch",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "amid",
+    "imageKeyword": "amid middle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "back up",
+    "imageKeyword": "back up support",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bear in mind",
+    "imageKeyword": "remember think",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "blend in",
+    "imageKeyword": "blend camouflage",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bring about",
+    "imageKeyword": "bring about cause",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "build up",
+    "imageKeyword": "build up grow",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "call off",
+    "imageKeyword": "call off cancel",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cellulose",
+    "imageKeyword": "cellulose plant",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chromosome",
+    "imageKeyword": "chromosome cell",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "count on",
+    "imageKeyword": "count on trust",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cross out",
+    "imageKeyword": "cross out delete",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cut back",
+    "imageKeyword": "cut back reduce",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deal with",
+    "imageKeyword": "deal with handle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "emit",
+    "imageKeyword": "emit glow",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "exterior",
+    "imageKeyword": "exterior outside",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fauna",
+    "imageKeyword": "fauna animals",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "focal",
+    "imageKeyword": "focal center",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "graphic",
+    "imageKeyword": "infographic poster",
+    "changed": true,
+    "reason": "'graphic diagram' too vague"
+  },
+  {
+    "word": "hand out",
+    "imageKeyword": "hand out give",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "keep in mind",
+    "imageKeyword": "remembering note",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lay out",
+    "imageKeyword": "lay out arrange",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "line graph",
+    "imageKeyword": "line graph chart",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "make out",
+    "imageKeyword": "make out see",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "migratory",
+    "imageKeyword": "migratory birds",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "on behalf of",
+    "imageKeyword": "speaking for others",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "parasite",
+    "imageKeyword": "parasite tick",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "phase",
+    "imageKeyword": "phase moon",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pie chart",
+    "imageKeyword": "pie chart",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "put up with",
+    "imageKeyword": "annoyed patience",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rely on",
+    "imageKeyword": "rely on depend",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "show up",
+    "imageKeyword": "show up arrive",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "take into account",
+    "imageKeyword": "weighing options",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "account for",
+    "imageKeyword": "account for explain",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "act on",
+    "imageKeyword": "act on action",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "add up",
+    "imageKeyword": "add up total",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "algae",
+    "imageKeyword": "algae pond",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "allergic",
+    "imageKeyword": "allergic reaction",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "aquatic",
+    "imageKeyword": "aquatic water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bar graph",
+    "imageKeyword": "bar graph chart",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "beforehand",
+    "imageKeyword": "beforehand prepare",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "boil down to",
+    "imageKeyword": "main point",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "by and large",
+    "imageKeyword": "mostly overall",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "canine",
+    "imageKeyword": "happy dog face",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "catch on",
+    "imageKeyword": "catch on understand",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cell membrane",
+    "imageKeyword": "cell membrane",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "come down to",
+    "imageKeyword": "come down decide",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "commute",
+    "imageKeyword": "commute travel",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "crop",
+    "imageKeyword": "crop farm",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "descend",
+    "imageKeyword": "descend down",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "endangered",
+    "imageKeyword": "endangered panda",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "evaporate",
+    "imageKeyword": "evaporate steam",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "extinct",
+    "imageKeyword": "extinct dinosaur",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fall behind",
+    "imageKeyword": "fall behind slow",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "figure of speech",
+    "imageKeyword": "idiom expression",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "food chain",
+    "imageKeyword": "food chain nature",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "food web",
+    "imageKeyword": "food web ecosystem",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "freshen up",
+    "imageKeyword": "freshen up clean",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "get by",
+    "imageKeyword": "get by manage",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "go along with",
+    "imageKeyword": "go along agree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gravitational",
+    "imageKeyword": "apple falling from tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "greenhouse effect",
+    "imageKeyword": "greenhouse effect",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "hibernate",
+    "imageKeyword": "hibernate bear",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "insulate",
+    "imageKeyword": "insulate warm",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "keep track of",
+    "imageKeyword": "keep track record",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "landform",
+    "imageKeyword": "landform mountain",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "leave behind",
+    "imageKeyword": "leave behind forget",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "life cycle",
+    "imageKeyword": "life cycle frog",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "live up to",
+    "imageKeyword": "meeting expectations",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "look out for",
+    "imageKeyword": "look out protect",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "marine",
+    "imageKeyword": "colorful fish underwater reef",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "offspring",
+    "imageKeyword": "offspring ducklings",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "on account of",
+    "imageKeyword": "because reason",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "out of the blue",
+    "imageKeyword": "sudden surprise",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ozone",
+    "imageKeyword": "ozone layer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "plankton",
+    "imageKeyword": "plankton ocean",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "point of view",
+    "imageKeyword": "different perspectives",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pollutant",
+    "imageKeyword": "pollutant pollution",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prolonged",
+    "imageKeyword": "prolonged long",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "put forward",
+    "imageKeyword": "put forward suggest",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reproduce",
+    "imageKeyword": "reproduce seeds",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rule out",
+    "imageKeyword": "rule out eliminate",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "soluble",
+    "imageKeyword": "soluble dissolve",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "volcanic",
+    "imageKeyword": "volcano erupting lava",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "water cycle",
+    "imageKeyword": "rain clouds evaporation",
+    "changed": true,
+    "reason": "'water cycle diagram' returns diagrams"
+  },
+  {
+    "word": "watershed",
+    "imageKeyword": "watershed area",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "wind up",
+    "imageKeyword": "wind up end",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "acoustics",
+    "imageKeyword": "acoustics sound",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "alloy",
+    "imageKeyword": "alloy metal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "amass",
+    "imageKeyword": "amass collect",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "anthem",
+    "imageKeyword": "anthem song",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "aperture",
+    "imageKeyword": "aperture camera",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "aroma",
+    "imageKeyword": "aroma smell",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assent",
+    "imageKeyword": "assent agree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "attest",
+    "imageKeyword": "attest prove",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "back down",
+    "imageKeyword": "back down retreat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bail out",
+    "imageKeyword": "bail out rescue",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "balk",
+    "imageKeyword": "balk refuse",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bang out",
+    "imageKeyword": "bang out fast",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bask",
+    "imageKeyword": "bask sun",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bedrock",
+    "imageKeyword": "bedrock rock",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bestow",
+    "imageKeyword": "bestow award",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "blot out",
+    "imageKeyword": "blot out cover",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bog",
+    "imageKeyword": "bog swamp",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "botany",
+    "imageKeyword": "botany plants",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bout",
+    "imageKeyword": "bout period",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "brackish",
+    "imageKeyword": "brackish water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bristle",
+    "imageKeyword": "bristle brush",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "brunt",
+    "imageKeyword": "brunt force",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bumble",
+    "imageKeyword": "bumble clumsy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "capillary",
+    "imageKeyword": "capillary vessel",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chasm",
+    "imageKeyword": "chasm gap",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "clump",
+    "imageKeyword": "clump mushrooms",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compost",
+    "imageKeyword": "compost bin",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "concave",
+    "imageKeyword": "concave bowl",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "convex",
+    "imageKeyword": "convex lens",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "crevice",
+    "imageKeyword": "crevice crack",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "decoy",
+    "imageKeyword": "decoy duck",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "detour",
+    "imageKeyword": "detour road",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dilute",
+    "imageKeyword": "dilute water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dwindle",
+    "imageKeyword": "dwindle shrink",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "eddy",
+    "imageKeyword": "eddy swirl",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "engulf",
+    "imageKeyword": "engulf fog",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "extricate",
+    "imageKeyword": "extricate free",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gust",
+    "imageKeyword": "gust wind",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "morph",
+    "imageKeyword": "morph change",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "scour",
+    "imageKeyword": "scour search",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "silt",
+    "imageKeyword": "silt river",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "spore",
+    "imageKeyword": "spore mushroom",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "submerge",
+    "imageKeyword": "submerge underwater",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "unearth",
+    "imageKeyword": "unearth dig",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "verdant",
+    "imageKeyword": "verdant green",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sapling",
+    "imageKeyword": "sapling tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "topsoil",
+    "imageKeyword": "topsoil dirt",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "achieve",
+    "imageKeyword": "trophy winner",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "adjust",
+    "imageKeyword": "adjusting knob",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "adopt",
+    "imageKeyword": "adopting puppy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "affect",
+    "imageKeyword": "rain plans",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "afford",
+    "imageKeyword": "piggy bank",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "alarm",
+    "imageKeyword": "fire alarm",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "alert",
+    "imageKeyword": "alert dog",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "allowance",
+    "imageKeyword": "coins allowance",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "amaze",
+    "imageKeyword": "jaw dropping surprised",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "appeal",
+    "imageKeyword": "asking please",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "appetite",
+    "imageKeyword": "hungry stomach",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "applaud",
+    "imageKeyword": "clapping hands",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "appropriate",
+    "imageKeyword": "right clothes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assist",
+    "imageKeyword": "helping hand",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assume",
+    "imageKeyword": "guessing think",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assure",
+    "imageKeyword": "comforting hug",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "authority",
+    "imageKeyword": "lifeguard whistle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "available",
+    "imageKeyword": "empty seat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "aware",
+    "imageKeyword": "looking around",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ballot",
+    "imageKeyword": "voting paper",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ban",
+    "imageKeyword": "no sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "barrier",
+    "imageKeyword": "fence barrier",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "blame",
+    "imageKeyword": "pointing finger",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "blend",
+    "imageKeyword": "blending smoothie",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bother",
+    "imageKeyword": "annoying poke",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "caution",
+    "imageKeyword": "careful warning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "century",
+    "imageKeyword": "old tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "champion",
+    "imageKeyword": "gold medal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "charm",
+    "imageKeyword": "cute kitten",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "circulate",
+    "imageKeyword": "blood circulation",
+    "changed": true,
+    "reason": "'circulation cycle diagram' returns diagrams"
+  },
+  {
+    "word": "circumstance",
+    "imageKeyword": "situation context",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "commit",
+    "imageKeyword": "promise pinky",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "communicate",
+    "imageKeyword": "dolphins talking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compassion",
+    "imageKeyword": "comforting hug",
+    "changed": true,
+    "reason": "Abstract - needs concrete visual"
+  },
+  {
+    "word": "compete",
+    "imageKeyword": "racing runners",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "complex",
+    "imageKeyword": "complex puzzle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "concern",
+    "imageKeyword": "worried face",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "confirm",
+    "imageKeyword": "checkmark confirm",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conquer",
+    "imageKeyword": "climbing victory",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conscious",
+    "imageKeyword": "awake aware",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conserve",
+    "imageKeyword": "saving water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consist",
+    "imageKeyword": "salad ingredients",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "constant",
+    "imageKeyword": "dripping faucet",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "construct",
+    "imageKeyword": "building construction",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "contain",
+    "imageKeyword": "box contents",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "contest",
+    "imageKeyword": "competition trophy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "contrast",
+    "imageKeyword": "black white",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "contribute",
+    "imageKeyword": "donating food",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "convenient",
+    "imageKeyword": "nearby store",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "core",
+    "imageKeyword": "apple core",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "courteous",
+    "imageKeyword": "polite greeting bow",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "credit",
+    "imageKeyword": "trophy award",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "crisis",
+    "imageKeyword": "flood crisis",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "critical",
+    "imageKeyword": "water important",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "debate",
+    "imageKeyword": "debate podium",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "decade",
+    "imageKeyword": "ten calendar",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "decline",
+    "imageKeyword": "polite no",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dedicate",
+    "imageKeyword": "focused practice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "definite",
+    "imageKeyword": "certain checkmark",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deliberate",
+    "imageKeyword": "on purpose",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deposit",
+    "imageKeyword": "coins dropping into jar",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deserve",
+    "imageKeyword": "earned reward",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "desire",
+    "imageKeyword": "wishing star",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "desperate",
+    "imageKeyword": "thirsty desert",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "detect",
+    "imageKeyword": "detective magnifier",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "determine",
+    "imageKeyword": "deciding gavel",
+    "changed": false,
+    "reason": ""
+  }
+]

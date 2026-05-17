@@ -1,0 +1,3002 @@
+[
+  {
+    "word": "patron",
+    "imageKeyword": "library patron",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "peak",
+    "imageKeyword": "mountain peak",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "plantation",
+    "imageKeyword": "tea plantation",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "plead",
+    "imageKeyword": "pleading eyes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "poll",
+    "imageKeyword": "opinion poll",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pollinate",
+    "imageKeyword": "bee pollinating",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pollute",
+    "imageKeyword": "river pollution",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "populate",
+    "imageKeyword": "growing population",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "precaution",
+    "imageKeyword": "safety precaution",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "preliminary",
+    "imageKeyword": "first round",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "premise",
+    "imageKeyword": "book opening page",
+    "changed": true,
+    "reason": "'basic idea' too vague"
+  },
+  {
+    "word": "preside",
+    "imageKeyword": "leading meeting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prevalent",
+    "imageKeyword": "widespread common",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "primarily",
+    "imageKeyword": "especially first",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "procedure",
+    "imageKeyword": "step procedure",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "quota",
+    "imageKeyword": "quota target",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rational",
+    "imageKeyword": "logical thinking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reaction",
+    "imageKeyword": "surprised reaction",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "recede",
+    "imageKeyword": "receding water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reception",
+    "imageKeyword": "welcome reception",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "refer",
+    "imageKeyword": "reference book",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "refuge",
+    "imageKeyword": "safe refuge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "regime",
+    "imageKeyword": "strict government",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "relay",
+    "imageKeyword": "relay race",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "render",
+    "imageKeyword": "snowy blocked road",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "renovate",
+    "imageKeyword": "renovating building",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "repeal",
+    "imageKeyword": "canceling law",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "replicate",
+    "imageKeyword": "copying exactly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "resign",
+    "imageKeyword": "quitting job",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "restrain",
+    "imageKeyword": "holding back",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "retail",
+    "imageKeyword": "retail store",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "retrieve",
+    "imageKeyword": "fetching object",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "revolve",
+    "imageKeyword": "revolving planet",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "robust",
+    "imageKeyword": "strong oak tree",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rotate",
+    "imageKeyword": "rotating earth",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sanction",
+    "imageKeyword": "international sanctions",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "satellite",
+    "imageKeyword": "orbiting satellite",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "saturate",
+    "imageKeyword": "soaked saturated",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "scenario",
+    "imageKeyword": "possible situation",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sector",
+    "imageKeyword": "pie chart sector",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "senate",
+    "imageKeyword": "senate chamber",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "siege",
+    "imageKeyword": "castle siege",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "significance",
+    "imageKeyword": "great importance",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "simultaneous",
+    "imageKeyword": "same time",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "skeptical",
+    "imageKeyword": "doubting person",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "solemn",
+    "imageKeyword": "solemn serious",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "somewhat",
+    "imageKeyword": "partly somewhat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sovereign",
+    "imageKeyword": "sovereign crown",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "spectrum",
+    "imageKeyword": "color spectrum",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "speculate",
+    "imageKeyword": "wondering guessing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sphere",
+    "imageKeyword": "round sphere",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stability",
+    "imageKeyword": "stable structure",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stagger",
+    "imageKeyword": "staggering walk",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stake",
+    "imageKeyword": "high stakes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "statistic",
+    "imageKeyword": "data statistic",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "statute",
+    "imageKeyword": "written law",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stereotype",
+    "imageKeyword": "unfair assumption",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stimulate",
+    "imageKeyword": "brain stimulation",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "subordinate",
+    "imageKeyword": "rank order",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "subsequent",
+    "imageKeyword": "queue line waiting",
+    "changed": true,
+    "reason": "'sequence arrows next' returns diagrams"
+  },
+  {
+    "word": "subsidy",
+    "imageKeyword": "financial support",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "substance",
+    "imageKeyword": "chemical substance",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "substantial",
+    "imageKeyword": "large amount",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "subtle",
+    "imageKeyword": "subtle difference",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "successor",
+    "imageKeyword": "next leader",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "summarize",
+    "imageKeyword": "brief summary",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "superb",
+    "imageKeyword": "excellent performance",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "supreme",
+    "imageKeyword": "supreme court",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "surplus",
+    "imageKeyword": "extra surplus",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "surrender",
+    "imageKeyword": "white flag",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "synthetic",
+    "imageKeyword": "synthetic fabric",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tenant",
+    "imageKeyword": "apartment tenant",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "terminal",
+    "imageKeyword": "airport terminal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "terrain",
+    "imageKeyword": "rocky terrain",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "testify",
+    "imageKeyword": "court testimony",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "texture",
+    "imageKeyword": "texture surfaces",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "therapy",
+    "imageKeyword": "physical therapy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "threat",
+    "imageKeyword": "environmental threat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "timber",
+    "imageKeyword": "timber logs",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "toxic",
+    "imageKeyword": "toxic warning",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "transaction",
+    "imageKeyword": "money transaction",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "transition",
+    "imageKeyword": "changing transition",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "transmit",
+    "imageKeyword": "transmitting signal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "trigger",
+    "imageKeyword": "triggering event",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "turbulent",
+    "imageKeyword": "turbulent sky",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "twilight",
+    "imageKeyword": "twilight sky",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ultimate",
+    "imageKeyword": "ultimate prize",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "undermine",
+    "imageKeyword": "weakening foundation",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "obstinate",
+    "imageKeyword": "stubborn child",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "obviate",
+    "imageKeyword": "preventing problem",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "onerous",
+    "imageKeyword": "heavy workload",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "opacity",
+    "imageKeyword": "murky water",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "opulence",
+    "imageKeyword": "luxurious palace",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "oration",
+    "imageKeyword": "formal speech podium",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "oscillation",
+    "imageKeyword": "pendulum swinging",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ostensible",
+    "imageKeyword": "surface appearance",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ostracism",
+    "imageKeyword": "excluded person",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "overture",
+    "imageKeyword": "friendly gesture",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "palatable",
+    "imageKeyword": "tasty food",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "panacea",
+    "imageKeyword": "magic remedy bottle",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "paragon",
+    "imageKeyword": "model person",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "paradoxical",
+    "imageKeyword": "contradiction",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "paucity",
+    "imageKeyword": "empty dry field",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pedagogue",
+    "imageKeyword": "strict teacher",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pedantic",
+    "imageKeyword": "correcting details",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pejorative",
+    "imageKeyword": "negative label",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "penitence",
+    "imageKeyword": "sorry apology",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "penultimate",
+    "imageKeyword": "second to last",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pernicious",
+    "imageKeyword": "hidden harm",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "perturbation",
+    "imageKeyword": "worried unease",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "petulance",
+    "imageKeyword": "cranky tantrum",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "placid",
+    "imageKeyword": "calm lake",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "platitude",
+    "imageKeyword": "empty words",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "plethora",
+    "imageKeyword": "many choices",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "poignant",
+    "imageKeyword": "emotional moment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "polemic",
+    "imageKeyword": "strong argument",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ponderous",
+    "imageKeyword": "heavy elephant",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "portentous",
+    "imageKeyword": "ominous clouds",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pragmatism",
+    "imageKeyword": "practical approach",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "precarious",
+    "imageKeyword": "teetering vase",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "precipitous",
+    "imageKeyword": "steep cliff",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "precursor",
+    "imageKeyword": "early sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "predilection",
+    "imageKeyword": "favorite choice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "preeminent",
+    "imageKeyword": "top expert",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "preponderance",
+    "imageKeyword": "majority weight",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "presentiment",
+    "imageKeyword": "bad feeling",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "presumptuous",
+    "imageKeyword": "overstepping bounds",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "primordial",
+    "imageKeyword": "ancient rocks",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "probity",
+    "imageKeyword": "honest judge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "proclivity",
+    "imageKeyword": "natural tendency",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "procrastinate",
+    "imageKeyword": "delaying work",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prodigious",
+    "imageKeyword": "huge waterfall",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "profligate",
+    "imageKeyword": "wasting money",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prognosticate",
+    "imageKeyword": "predicting weather",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "promulgation",
+    "imageKeyword": "announcing rules",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "propitious",
+    "imageKeyword": "favorable weather",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "proprietary",
+    "imageKeyword": "locked box with key",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "proscribe",
+    "imageKeyword": "forbidden sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "proselytize",
+    "imageKeyword": "persuading others",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "protracted",
+    "imageKeyword": "long meeting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "provenance",
+    "imageKeyword": "origin history",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "provisional",
+    "imageKeyword": "temporary plan",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prowess",
+    "imageKeyword": "athletic skill",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prudence",
+    "imageKeyword": "careful thinking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pugnacious",
+    "imageKeyword": "aggressive rooster",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pulchritude",
+    "imageKeyword": "beautiful sunset",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "punctilious",
+    "imageKeyword": "perfect table setting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "punitive",
+    "imageKeyword": "punishment penalty",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "quagmire",
+    "imageKeyword": "stuck in mud",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "qualm",
+    "imageKeyword": "hesitation doubt",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "quandary",
+    "imageKeyword": "confused choice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "quarrelsome",
+    "imageKeyword": "arguing siblings",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "querulous",
+    "imageKeyword": "whiny child",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "quintessential",
+    "imageKeyword": "classic apple pie",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "quixotic",
+    "imageKeyword": "unrealistic dream",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rambunctious",
+    "imageKeyword": "energetic puppies",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rancor",
+    "imageKeyword": "bitter resentment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rapacious",
+    "imageKeyword": "greedy pirate",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rapprochement",
+    "imageKeyword": "making peace",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rationale",
+    "imageKeyword": "reasoning explanation",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "recapitulate",
+    "imageKeyword": "summarizing points",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "recidivism",
+    "imageKeyword": "repeating mistakes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reciprocity",
+    "imageKeyword": "mutual exchange",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reclamation",
+    "imageKeyword": "restoring land",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reconciliation",
+    "imageKeyword": "friends making up",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "redress",
+    "imageKeyword": "correcting wrong",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "redundancy",
+    "imageKeyword": "repeated copy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "refurbish",
+    "imageKeyword": "fixing up old furniture",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reiterate",
+    "imageKeyword": "repeating message",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "relegate",
+    "imageKeyword": "moved to storage",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "remonstrate",
+    "imageKeyword": "protesting strongly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "renunciation",
+    "imageKeyword": "giving up prize",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reparation",
+    "imageKeyword": "making amends",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reprehensible",
+    "imageKeyword": "wrong behavior",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "repudiation",
+    "imageKeyword": "rejecting falsehood",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "requisition",
+    "imageKeyword": "official request form",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rescind",
+    "imageKeyword": "canceling order",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "resignation",
+    "imageKeyword": "accepting defeat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "resolute",
+    "imageKeyword": "determined climber",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "resurgent",
+    "imageKeyword": "comeback rising",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reticence",
+    "imageKeyword": "quiet reserved",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "retrospective",
+    "imageKeyword": "looking back history",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "revelry",
+    "imageKeyword": "party celebration",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "reverberate",
+    "imageKeyword": "echoing thunder",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "rigmarole",
+    "imageKeyword": "complicated paperwork",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ruminate",
+    "imageKeyword": "deep thinking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sacrosanct",
+    "imageKeyword": "sacred protected",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sagacious",
+    "imageKeyword": "wise grandmother",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "salient",
+    "imageKeyword": "important point",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sanguine",
+    "imageKeyword": "optimistic person",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sardonic",
+    "imageKeyword": "mocking humor",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "scrupulous",
+    "imageKeyword": "careful checking numbers",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "scrutinize",
+    "imageKeyword": "examining closely",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "sedentary",
+    "imageKeyword": "sitting desk",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "semblance",
+    "imageKeyword": "appearance order",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "serendipity",
+    "imageKeyword": "lucky discovery",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "servile",
+    "imageKeyword": "overly obedient",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "simultaneity",
+    "imageKeyword": "same time events",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "solace",
+    "imageKeyword": "comfort reading",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "solicitous",
+    "imageKeyword": "caring nurse",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "soporific",
+    "imageKeyword": "falling asleep",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "spurious",
+    "imageKeyword": "false claim",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "squalid",
+    "imageKeyword": "dirty messy room",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stagnation",
+    "imageKeyword": "no growth still",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stipend",
+    "imageKeyword": "small payment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "stringent",
+    "imageKeyword": "strict rules sign",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "subjugation",
+    "imageKeyword": "forced control",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "subliminal",
+    "imageKeyword": "hidden message",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "subordination",
+    "imageKeyword": "lower rank",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "subservient",
+    "imageKeyword": "obedient robot",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "substantiation",
+    "imageKeyword": "proving evidence",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "subterfuge",
+    "imageKeyword": "secret trick",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "succinct",
+    "imageKeyword": "brief clear",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "symbiosis",
+    "imageKeyword": "bee and flower",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tangential",
+    "imageKeyword": "off topic",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tantamount",
+    "imageKeyword": "equal equivalent",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "temerity",
+    "imageKeyword": "bold nerve",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "temperance",
+    "imageKeyword": "self control",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tenacity",
+    "imageKeyword": "persistent effort",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tenet",
+    "imageKeyword": "core belief",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tepid",
+    "imageKeyword": "lukewarm reaction",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "terse",
+    "imageKeyword": "short blunt",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tirade",
+    "imageKeyword": "angry speech",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "torpor",
+    "imageKeyword": "sluggish lazy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "tractable",
+    "imageKeyword": "obedient puppy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "transient",
+    "imageKeyword": "brief rainbow",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "trepidation",
+    "imageKeyword": "nervous fear",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "truculent",
+    "imageKeyword": "aggressive arguing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ubiquity",
+    "imageKeyword": "everywhere phones",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "umbrage",
+    "imageKeyword": "offended person",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "unctuous",
+    "imageKeyword": "fake flattery",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "underpinning",
+    "imageKeyword": "foundation support",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "unequivocal",
+    "imageKeyword": "clear definite",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "unscrupulous",
+    "imageKeyword": "dishonest seller",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "usurpation",
+    "imageKeyword": "seizing power",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "utilitarian",
+    "imageKeyword": "practical useful",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vacillate",
+    "imageKeyword": "indecisive choosing",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vapid",
+    "imageKeyword": "boring show",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vehemence",
+    "imageKeyword": "passionate argument",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "venerate",
+    "imageKeyword": "respected elder",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "veracious",
+    "imageKeyword": "honest reporter",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "verbose",
+    "imageKeyword": "too many words",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vestige",
+    "imageKeyword": "ruins remains",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vilification",
+    "imageKeyword": "cruel gossip",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vindictive",
+    "imageKeyword": "vengeful person",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "virtuosity",
+    "imageKeyword": "skilled musician",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vitriolic",
+    "imageKeyword": "harsh criticism",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vociferous",
+    "imageKeyword": "loud protesters",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "volition",
+    "imageKeyword": "free choice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "waiver",
+    "imageKeyword": "signing document",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "wanton",
+    "imageKeyword": "careless destruction",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "warranted",
+    "imageKeyword": "justified reason",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "wherewithal",
+    "imageKeyword": "resources needed",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "zealot",
+    "imageKeyword": "passionate activist",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "abnegation",
+    "imageKeyword": "selfless sacrifice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "acerbic",
+    "imageKeyword": "sharp words",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "anachronism",
+    "imageKeyword": "out of time",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "anathema",
+    "imageKeyword": "strongly rejected",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "antithesis",
+    "imageKeyword": "complete opposite",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "asperity",
+    "imageKeyword": "harsh tone",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "calumny",
+    "imageKeyword": "false accusation",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chicanery",
+    "imageKeyword": "dishonest trickery",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "contumacious",
+    "imageKeyword": "defiant cat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "undertake",
+    "imageKeyword": "starting task",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "unfold",
+    "imageKeyword": "story unfolding",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "universal",
+    "imageKeyword": "earth globe",
+    "changed": true,
+    "reason": "'universal symbol' could return icons"
+  },
+  {
+    "word": "vegetation",
+    "imageKeyword": "dense vegetation",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "verify",
+    "imageKeyword": "fact checking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "versus",
+    "imageKeyword": "versus competition",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "veto",
+    "imageKeyword": "veto stamp",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "via",
+    "imageKeyword": "route via",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "vibrate",
+    "imageKeyword": "vibrating string",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "volatile",
+    "imageKeyword": "unpredictable change",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "wage",
+    "imageKeyword": "hourly wage",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "withstand",
+    "imageKeyword": "strong fortress",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "abstract",
+    "imageKeyword": "abstract painting shapes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "academy",
+    "imageKeyword": "dance academy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "access",
+    "imageKeyword": "access card",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "adjacent",
+    "imageKeyword": "next door",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "affiliate",
+    "imageKeyword": "business partner handshake",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "agenda",
+    "imageKeyword": "meeting agenda",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "aggregate",
+    "imageKeyword": "total combined",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "agitate",
+    "imageKeyword": "stirring up",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "algorithm",
+    "imageKeyword": "computer algorithm",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "allegiance",
+    "imageKeyword": "pledge loyalty",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "allot",
+    "imageKeyword": "dividing time",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ally",
+    "imageKeyword": "allied support",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "altitude",
+    "imageKeyword": "high altitude",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "anchor",
+    "imageKeyword": "boat anchor",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "anecdote",
+    "imageKeyword": "funny story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "anonymous",
+    "imageKeyword": "mystery anonymous",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "arbitrary",
+    "imageKeyword": "random decision",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "archive",
+    "imageKeyword": "document archive",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "articulate",
+    "imageKeyword": "clear speaking",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "aspect",
+    "imageKeyword": "one part",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assault",
+    "imageKeyword": "castle attack",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "assembly",
+    "imageKeyword": "school assembly",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "attain",
+    "imageKeyword": "reaching goal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "autonomous",
+    "imageKeyword": "self driving",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "backdrop",
+    "imageKeyword": "scenic backdrop",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "barren",
+    "imageKeyword": "barren land",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "battalion",
+    "imageKeyword": "marching soldiers",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "benchmark",
+    "imageKeyword": "measuring standard",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "beneficiary",
+    "imageKeyword": "receiving benefit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bolster",
+    "imageKeyword": "supporting strength",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "breach",
+    "imageKeyword": "dam breach",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "brochure",
+    "imageKeyword": "travel brochure",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "bureaucracy",
+    "imageKeyword": "paperwork pile",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "calibrate",
+    "imageKeyword": "calibrating instrument",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "captivate",
+    "imageKeyword": "captivated audience",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "catalyst",
+    "imageKeyword": "spark catalyst",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "catastrophe",
+    "imageKeyword": "disaster catastrophe",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "censor",
+    "imageKeyword": "censoring content",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chancellor",
+    "imageKeyword": "university leader",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "chronicle",
+    "imageKeyword": "historical record",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "coalition",
+    "imageKeyword": "groups joining",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cognitive",
+    "imageKeyword": "glowing brain with gears",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "coherent",
+    "imageKeyword": "logical order",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "collaborate",
+    "imageKeyword": "working together",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "commemorate",
+    "imageKeyword": "memorial statue",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "commodity",
+    "imageKeyword": "trading commodity",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "compatible",
+    "imageKeyword": "puzzle pieces fitting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "conceal",
+    "imageKeyword": "hiding secret",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "concede",
+    "imageKeyword": "admitting defeat",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "confederation",
+    "imageKeyword": "states joining",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "congregation",
+    "imageKeyword": "people gathered",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consecutive",
+    "imageKeyword": "in a row",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "consul",
+    "imageKeyword": "embassy official",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "continental",
+    "imageKeyword": "continent map",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "contingent",
+    "imageKeyword": "depending on",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "convergence",
+    "imageKeyword": "rivers meeting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "correlation",
+    "imageKeyword": "connected relationship",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "credibility",
+    "imageKeyword": "trusted source",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "crossroads",
+    "imageKeyword": "decision point",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cumulus",
+    "imageKeyword": "puffy clouds",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "curator",
+    "imageKeyword": "museum curator",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "cylinder",
+    "imageKeyword": "cylinder shape",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "demographic",
+    "imageKeyword": "population data",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "denounce",
+    "imageKeyword": "public criticism",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deploy",
+    "imageKeyword": "deploying resources",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "depot",
+    "imageKeyword": "bus depot",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deputy",
+    "imageKeyword": "deputy badge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "descendant",
+    "imageKeyword": "family descendant",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "detain",
+    "imageKeyword": "holding person",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "deter",
+    "imageKeyword": "keeping away",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "differentiate",
+    "imageKeyword": "telling apart",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "diligent",
+    "imageKeyword": "hardworking student",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "diplomacy",
+    "imageKeyword": "peaceful talks",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dire",
+    "imageKeyword": "urgent serious",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "discourse",
+    "imageKeyword": "serious discussion",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "discretion",
+    "imageKeyword": "careful judgment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "disperse",
+    "imageKeyword": "scattering apart",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "disposition",
+    "imageKeyword": "cheerful nature",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "disrupt",
+    "imageKeyword": "interrupting flow",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dissent",
+    "imageKeyword": "disagreeing voice",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "doctrine",
+    "imageKeyword": "official belief",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dwelling",
+    "imageKeyword": "cliff dwelling",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "dynasty",
+    "imageKeyword": "royal dynasty",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "electrode",
+    "imageKeyword": "battery electrode",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "eloquent",
+    "imageKeyword": "powerful speech",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "embassy",
+    "imageKeyword": "embassy building",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "encompass",
+    "imageKeyword": "wide coverage",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "endorse",
+    "imageKeyword": "public support",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "envision",
+    "imageKeyword": "imagining future",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "epidemic",
+    "imageKeyword": "spreading illness",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "equilibrium",
+    "imageKeyword": "balanced seesaw",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "escalate",
+    "imageKeyword": "increasing intensity",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "espionage",
+    "imageKeyword": "spy espionage",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ethnic",
+    "imageKeyword": "cultural diversity",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "evacuate",
+    "imageKeyword": "evacuation exit",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "exert",
+    "imageKeyword": "pushing heavy box",
+    "changed": true,
+    "reason": "'pushing hard' too vague"
+  },
+  {
+    "word": "exile",
+    "imageKeyword": "banished exile",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "expenditure",
+    "imageKeyword": "spending money",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "faction",
+    "imageKeyword": "divided group",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fluctuation",
+    "imageKeyword": "up down graph",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "forfeit",
+    "imageKeyword": "losing penalty",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "formidable",
+    "imageKeyword": "imposing mountain",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fortify",
+    "imageKeyword": "strengthening walls",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "fraud",
+    "imageKeyword": "scam fraud",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "frugal",
+    "imageKeyword": "careful spending piggy bank",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "garrison",
+    "imageKeyword": "fort soldiers",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gazette",
+    "imageKeyword": "newspaper gazette",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "geologist",
+    "imageKeyword": "studying rocks",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gorge",
+    "imageKeyword": "rocky gorge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gradient",
+    "imageKeyword": "steep slope",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "grapple",
+    "imageKeyword": "struggling problem",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "grassland",
+    "imageKeyword": "savanna grassland",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "grievance",
+    "imageKeyword": "formal complaint",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "gross",
+    "imageKeyword": "total amount",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "humanitarian",
+    "imageKeyword": "helping people",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ignite",
+    "imageKeyword": "fire igniting",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "impeach",
+    "imageKeyword": "official charge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "imperial",
+    "imageKeyword": "imperial palace",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "incidence",
+    "imageKeyword": "frequency rate",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "indigenous",
+    "imageKeyword": "native animal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "infrastructure",
+    "imageKeyword": "roads bridges",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inject",
+    "imageKeyword": "needle injection",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "innate",
+    "imageKeyword": "natural talent",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "innovate",
+    "imageKeyword": "new ideas",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inoculate",
+    "imageKeyword": "doctor giving vaccine",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "input",
+    "imageKeyword": "contributing ideas",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inscription",
+    "imageKeyword": "carved words",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "insignificant",
+    "imageKeyword": "tiny unimportant",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "intact",
+    "imageKeyword": "unbroken whole",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "interim",
+    "imageKeyword": "temporary period",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "intersection",
+    "imageKeyword": "road intersection",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "intimate",
+    "imageKeyword": "close personal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "intrepid",
+    "imageKeyword": "brave explorer",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "intrinsic",
+    "imageKeyword": "built in quality",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "inventory",
+    "imageKeyword": "counting stock",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "irrational",
+    "imageKeyword": "illogical fear",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "isle",
+    "imageKeyword": "small island",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "jargon",
+    "imageKeyword": "technical words",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "judicial",
+    "imageKeyword": "court judicial",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "jurisdiction",
+    "imageKeyword": "authority area",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "juvenile",
+    "imageKeyword": "young animal",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "kinetic",
+    "imageKeyword": "bowling ball hitting pins",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lapse",
+    "imageKeyword": "brief pause",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "legislation",
+    "imageKeyword": "making laws",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "liaison",
+    "imageKeyword": "connecting people",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "lucrative",
+    "imageKeyword": "profitable business",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "magistrate",
+    "imageKeyword": "local judge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "manuscript",
+    "imageKeyword": "written manuscript",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "maritime",
+    "imageKeyword": "sailing ship on ocean",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "meander",
+    "imageKeyword": "winding river",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mediate",
+    "imageKeyword": "peaceful mediation",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "memoir",
+    "imageKeyword": "personal story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "merchandise",
+    "imageKeyword": "store merchandise",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "metropolitan",
+    "imageKeyword": "big city",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "militant",
+    "imageKeyword": "aggressive protest",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "militia",
+    "imageKeyword": "citizen soldiers",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "millennium",
+    "imageKeyword": "thousand years",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mobilize",
+    "imageKeyword": "organizing action",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "monarchy",
+    "imageKeyword": "royal monarchy",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "monetary",
+    "imageKeyword": "money value",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "monopolize",
+    "imageKeyword": "taking control",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "morale",
+    "imageKeyword": "happy team celebration",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "moratorium",
+    "imageKeyword": "temporary stop",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mortgage",
+    "imageKeyword": "house loan",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "mutiny",
+    "imageKeyword": "ship rebellion",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "narrate",
+    "imageKeyword": "telling story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nationalism",
+    "imageKeyword": "patriotic pride",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "niche",
+    "imageKeyword": "special role",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nomenclature",
+    "imageKeyword": "naming system",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nomadic",
+    "imageKeyword": "traveling nomads",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nonpartisan",
+    "imageKeyword": "neutral balanced",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "notorious",
+    "imageKeyword": "infamous pirate",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "novice",
+    "imageKeyword": "beginner learner",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "nullify",
+    "imageKeyword": "canceling void",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "obscure",
+    "imageKeyword": "hidden unclear",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "obstruct",
+    "imageKeyword": "blocked road",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "offset",
+    "imageKeyword": "balancing out",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "omit",
+    "imageKeyword": "leaving out",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "onset",
+    "imageKeyword": "storm clouds approaching",
+    "changed": true,
+    "reason": "'beginning start' too vague"
+  },
+  {
+    "word": "opaque",
+    "imageKeyword": "opaque material",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "optimize",
+    "imageKeyword": "improving best",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "ordinance",
+    "imageKeyword": "city law",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "oscillate",
+    "imageKeyword": "swinging pendulum",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "outbreak",
+    "imageKeyword": "sudden spreading",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "outskirts",
+    "imageKeyword": "city edge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "overhaul",
+    "imageKeyword": "complete repair",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "oversight",
+    "imageKeyword": "accidental mistake",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "overt",
+    "imageKeyword": "openly shown",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "paradigm",
+    "imageKeyword": "model pattern",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "paradox",
+    "imageKeyword": "impossible staircase",
+    "changed": true,
+    "reason": "'contradictory idea' too abstract"
+  },
+  {
+    "word": "parliament",
+    "imageKeyword": "parliament building",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "partisan",
+    "imageKeyword": "taking sides",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "patrimony",
+    "imageKeyword": "family inheritance",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "patronage",
+    "imageKeyword": "customer support",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pedagogy",
+    "imageKeyword": "teaching method",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "penal",
+    "imageKeyword": "law punishment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "per capita",
+    "imageKeyword": "per person",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "perennial",
+    "imageKeyword": "returning flowers",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "periphery",
+    "imageKeyword": "outer edge",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "permeable",
+    "imageKeyword": "water through",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "perpetual",
+    "imageKeyword": "never ending",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "persecute",
+    "imageKeyword": "cruel treatment",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "persona",
+    "imageKeyword": "public image",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pertinent",
+    "imageKeyword": "relevant important",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pervasive",
+    "imageKeyword": "everywhere spreading",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "petroleum",
+    "imageKeyword": "oil petroleum",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "philanthropy",
+    "imageKeyword": "charity donation box",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pivotal",
+    "imageKeyword": "turning point",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "plausible",
+    "imageKeyword": "believable story",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "plurality",
+    "imageKeyword": "most votes",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "posterity",
+    "imageKeyword": "future generations",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "pragmatic",
+    "imageKeyword": "hands on problem solving",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "precede",
+    "imageKeyword": "coming before",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "precedent",
+    "imageKeyword": "setting example",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "predominant",
+    "imageKeyword": "most common",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "preface",
+    "imageKeyword": "book preface",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "procurement",
+    "imageKeyword": "buying supplies",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prodigy",
+    "imageKeyword": "talented child",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "proficient",
+    "imageKeyword": "skilled expert",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "proliferate",
+    "imageKeyword": "rapid spreading",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "propaganda",
+    "imageKeyword": "persuasion poster",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prosecute",
+    "imageKeyword": "court trial",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "prospectus",
+    "imageKeyword": "information booklet",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "protocol",
+    "imageKeyword": "official rules",
+    "changed": false,
+    "reason": ""
+  },
+  {
+    "word": "province",
+    "imageKeyword": "country province",
+    "changed": false,
+    "reason": ""
+  }
+]
